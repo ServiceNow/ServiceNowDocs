@@ -2,6 +2,7 @@
 title: Event Management during a platform upgrade
 description: During a platform upgrade Event Management jobs whose Upgrade safe flag is marked as true remain running.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/platform-upgrade-and-event-management.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -34,5 +35,5 @@ During the platform upgrade, all other Event Management jobs wait for the platfo
 
 **Note:** During an Event Management plugin upgrade, all Event Management jobs do not work.
 
-**Parent Topic:**[Event Management setup](c_EMConfiguration.md)
+**Parent Topic:**[Event Management setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EMConfiguration.md)
 

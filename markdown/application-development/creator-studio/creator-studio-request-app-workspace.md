@@ -2,11 +2,12 @@
 title: Using the Request App Workspace to fulfill requests
 description: After users submit a request through an app built in Creator Studio, fulfillers work on the request's submitted record in the Request App Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-request-app-workspace.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Configuring workspace lists and records for form submissions, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -17,7 +18,7 @@ After users submit a request through an app built in Creator Studio, fulfillers 
 
 ## The Request App Workspace holds app requests
 
-The Request App Workspace holds form submissions that come in from each of your apps. [Fulfillers](creator-studio-glossary.md#) \(remember, these are the people who work on requests\) can access the workspace through the ServiceNow AI Platform and see submissions for all the apps they're assigned to.
+The Request App Workspace holds form submissions that come in from each of your apps. [Fulfillers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-glossary.md) \(remember, these are the people who work on requests\) can access the workspace through the ServiceNow AI Platform and see submissions for all the apps they're assigned to.
 
 There is only one Request App Workspace per instance. Each app that you build in Creator Studio has its own category in the Request App Workspace, with as many lists as you configure, regardless of how many forms or automations it has.
 
@@ -29,28 +30,28 @@ Each app has its own section in the workspace, with lists to filter for submitte
 
 ## Using lists to find tickets in various states
 
-Each app's section contains lists, such as **Open** requests and any lists the admin or app creator configured. Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [Create My Lists in workspace](https://www.servicenow.com/docs/access?context=create-filtered-list-agent-workspace&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+Each app's section contains lists, such as **Open** requests and any lists the admin or app creator configured. Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out .
 
-![Fulfillers work on requests in the workspace](../image/crs-form-sub-workspace.png "Request App Workspace")
+\[Omitted image "crs-form-sub-workspace.png"\] Alt text: Fulfillers work on requests in the workspace
 
-The Lists view contains two tabs: **Default Lists** and **My Lists**. For more information on working with lists, check out [Using lists to find work to do](https://www.servicenow.com/docs/access?context=list-menu&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+The Lists view contains two tabs: **Default Lists** and **My Lists**. For more information on working with lists, check out .
 
 ## Using dashboards to analyze request fulfillment
 
 The Dashboard overview view contains a dashboard for every app \(that you have access to\) that was made in Creator Studio.
 
-You can select an app's dashboard to see analysis of all active tasks, as well as the number of records in various states configured by your admin. For more information on working with analytics dashboards, see [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US)
+You can select an app's dashboard to see analysis of all active tasks, as well as the number of records in various states configured by your admin. For more information on working with analytics dashboards, see 
 
 ## Working on open requests in the workspace
 
 After you find the subset of requests you need, such as open requests assigned to you, you can select the task record **Name** to open the record.After you find the subset of requests you need, such as open requests assigned to you, you can select the record **Name** to open the record.
 
-![Open request record in the workspace](../image/crs-workspace-record.png "Request record in the Request App Workspace")
+\[Omitted image "crs-workspace-record.png"\] Alt text: Open request record in the workspace
 
 The submitted request record has various tabs that help you do your work. For details on using records to fulfill requests, see the following topics:
 
--   [Working on records in your Workspace](https://www.servicenow.com/docs/access?context=working-on-requests-in-your-workspace&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US)
--   [Responding to issues in an open record in Workspace](https://www.servicenow.com/docs/access?context=finding-answers&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US)
+-   
+-   
 
-**Parent Topic:**[Configuring workspace lists and records for form submissions](creator-studio-form-submissions-workspace-about.md)
+**Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
 

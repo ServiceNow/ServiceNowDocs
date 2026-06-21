@@ -2,6 +2,7 @@
 title: MetricBase retention policy schedules
 description: Specify how long MetricBase stores the time-series data in the MetricBase database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/metricbase/metricbase-retention-policy-schedules.html
 release: yokohama
 product: MetricBase
 classification: metricbase

@@ -2,6 +2,7 @@
 title: Report an AI case form
 description: Use the Report an AI case form in the Employee Center to report an AI case with the necessary details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/report-ai-case-form.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -34,5 +35,5 @@ See the following table for a description of the field values.
 |Impacted department|Department that is affected by the AI case. For example, Customer support.|
 |Sub-location of occurrence|Sublocation of the case occurrence. For example, the sub location is Tokyo.|
 
-**Parent Topic:**[Report an AI case from the Employee Center](../task/report-ai-case.md)
+**Parent Topic:**[Report an AI case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/report-ai-case.md)
 

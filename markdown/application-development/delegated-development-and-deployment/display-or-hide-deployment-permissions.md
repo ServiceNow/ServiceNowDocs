@@ -2,6 +2,7 @@
 title: Display or hide update set deployment permissions
 description: Display or hide deployment permissions for update sets from the Manage Developers dialog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/delegated-development-and-deployment/display-or-hide-deployment-permissions.html
 release: yokohama
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -29,7 +30,7 @@ System properties control the visibility of the **Publish To Update Set** and **
 
     The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
-    **Note:** For details on how to add and enable system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    **Note:** For details on how to add and enable system properties, see Add a system property.
 
 2.  Enable or disable specific deployment permissions by adding or updating the following system properties.
 

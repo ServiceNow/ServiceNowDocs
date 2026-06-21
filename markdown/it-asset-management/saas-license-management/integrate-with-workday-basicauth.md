@@ -2,6 +2,7 @@
 title: Integrate with Workday using Basic Authentication
 description: Integrate your Software Asset Management application with the Workday application using Basic authentication method to track your software subscriptions.To set up the Workday integration successfully, perform this procedure in Workday.Create a Workday integration profile to track software subscriptions and optimize licensing for your Workday applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/saas-license-management/integrate-with-workday-basicauth.html
 release: yokohama
 product: SaaS License Management
 classification: saas-license-management
@@ -53,9 +54,9 @@ Create a Workday integration profile to track software subscriptions and optimiz
 
 Role required: admin, sam\_admin, sam\_integrator
 
-Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in [Workday HR Spoke](https://www.servicenow.com/docs/access?context=workday-hr-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US).
+Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in .
 
-**Important:** You must select the **Software Asset Management integration with Workday** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Workday** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -65,15 +66,15 @@ If you’re using Software Asset Workspace, the option to create the Workday int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d218935e327">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d194078e325">
 
 Interface
 
-</th><th align="left" id="d218935e330">
+</th><th align="left" id="d194078e328">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d218935e336">
+</th></tr></thead><tbody><tr><td id="d194078e334">
 
 **Core UI**
 
@@ -84,7 +85,7 @@ Action
 3.  Select **Workday Integration Profile**.
 
 
-</td></tr><tr><td id="d218935e378">
+</td></tr><tr><td id="d194078e376">
 
 **Software Asset Workspace**
 
@@ -150,7 +151,7 @@ Type of integration profile. This field is automatically set to **Workday Subscr
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information, see [Minimal user permissions](integrate-with-workday.md) table.
+    **Note:** For more information, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-workday.md) table.
 
     In the Download Subscription Subflow section, verify that the **Subflow** field is set to **Workday Download Subscriptions**. The **Download subscriptions** check box is selected by default and you can't clear it.
 
@@ -182,7 +183,7 @@ SOAP Username
 
 </td><td>
 
-User name of the Integration system user created while [configuring permissions in Workday.](integrate-with-workday-basicauth.md#)**Important:** Include the tenant suffix in the username. For example, `username@<tenant>`.
+User name of the Integration system user created while [configuring permissions in Workday.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-workday-basicauth.md)**Important:** Include the tenant suffix in the username. For example, `username@<tenant>`.
 
 </td></tr><tr><td>
 
@@ -190,14 +191,14 @@ SOAP Password
 
 </td><td>
 
-Password of the Integration system user created while [configuring permissions in Workday](integrate-with-workday-basicauth.md#).
+Password of the Integration system user created while [configuring permissions in Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-workday-basicauth.md).
 
 </td></tr></tbody>
 </table>5.  If connection details don't exist, create the connection details.
 
     |Interface|Action|
     |---------|------|
-    |**Core UI**|In the **Connection Details** field, select the search icon \(![Search icon.](../image/search-icon.png)\).|
+    |**Core UI**|In the **Connection Details** field, select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon.\).|
     |**Software Asset Workspace**|Select the **Connection details** link.|
 
     1.  Select **New**.
@@ -214,21 +215,21 @@ Password of the Integration system user created while [configuring permissions i
 
         A record is created and added in the **Connection Details** field.
 
-    4.  Review the connection details by selecting the new integration profile and selecting the lookup icon ![Lookup icon](../image/search-icon.png) in the **Connection details** field.
+    4.  Review the connection details by selecting the new integration profile and selecting the lookup icon \[Omitted image "search-icon.png"\] Alt text: Lookup icon in the **Connection details** field.
 
 6.  Create a SOAP user name and password when you don't have these credentials automatically populated.
 
     **Note:** Only an admin role can create or update the SOAP user name and password.
 
-<table id="choicetable_rhj_5w1_stb"><thead><tr><th align="left" id="d218935e870">
+<table id="choicetable_rhj_5w1_stb"><thead><tr><th align="left" id="d194078e868">
 
 Interface
 
-</th><th align="left" id="d218935e873">
+</th><th align="left" id="d194078e871">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d218935e879">
+</th></tr></thead><tbody><tr><td id="d194078e877">
 
 **Core UI**
 
@@ -239,7 +240,7 @@ Action
 3.  Select **WorkdayHR**.
 
 
-</td></tr><tr><td id="d218935e918">
+</td></tr><tr><td id="d194078e916">
 
 **Software Asset Workspace**
 
@@ -248,7 +249,7 @@ Action
 Select the **SOAP username profile** link.
 
 </td></tr></tbody>
-</table>    1.  On the Soap Security Policy form, select the lookup icon ![Lookup icon](../image/search-icon.png) in the **WS-Security Username Profile** field.
+</table>    1.  On the Soap Security Policy form, select the lookup icon \[Omitted image "search-icon.png"\] Alt text: Lookup icon in the **WS-Security Username Profile** field.
 
     2.  Select **New**.
 
@@ -315,18 +316,18 @@ Select the **SOAP username profile** link.
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/run-recon-workspace.md).
 

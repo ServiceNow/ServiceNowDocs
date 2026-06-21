@@ -2,6 +2,7 @@
 title: Create a Value builder task
 description: Manually create a Value builder task for publisher packs not being fully utilized in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/create-valuebuilder-task.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
@@ -55,5 +56,5 @@ Value builder tasks are automatically created for all publisher packs indicated 
     The state of the task changes to **Work In Progress**.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-workspace.md)
 

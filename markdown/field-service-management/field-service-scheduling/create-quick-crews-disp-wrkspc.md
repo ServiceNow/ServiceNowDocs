@@ -2,6 +2,7 @@
 title: Create quick crews in Dispatcher Workspace
 description: Create planned or ad hoc crews faster and more efficiently using a single interface in Dispatcher Workspace. This helps dispatchers to view the agent schedule and availability while creating crews and adding crew members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/create-quick-crews-disp-wrkspc.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -31,8 +32,8 @@ When creating a crew, you can simultaneously view the availability of agents and
 
 3.  Create a regular crew or an ad hoc \(task-specific\) crew.
 
-    -   To create a crew, select the Crew icon \(![Crew icon.](../image/crew-new.png)\) in the right panel of Dispatcher Workspace.
-    -   To create ad hoc \(task-specific\) crew for a work order task that is in pending dispatch state, select the More actions icon \(![More actions icon.](../image/OverflowIcon.png)\) in the task card and then select **Create Crew**.
+    -   To create a crew, select the Crew icon \(\[Omitted image "crew-new.png"\] Alt text: Crew icon.\) in the right panel of Dispatcher Workspace.
+    -   To create ad hoc \(task-specific\) crew for a work order task that is in pending dispatch state, select the More actions icon \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon.\) in the task card and then select **Create Crew**.
 4.  On the form, fill in the fields.
 
 <table id="table_v3g_42s_ntb"><thead><tr><th>
@@ -125,5 +126,5 @@ End date until when the crew is active to work on the task.
 8.  Select **Update**.
 
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](../concept/using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

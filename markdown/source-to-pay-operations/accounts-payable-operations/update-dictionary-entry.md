@@ -2,6 +2,7 @@
 title: Configure Antivirus Scanning
 description: Configure Antivirus Scanning across your instance and at the table level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/update-dictionary-entry.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations

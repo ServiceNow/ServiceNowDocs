@@ -2,6 +2,7 @@
 title: Use the GetPosition component
 description: Get the current mouse position on the screen in integer terms by using the GetPosition component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-mouse-getposition.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetPosition component. For more information about these properties, see [Properties of the Mouse components](../reference/util-mouse-prop.md).
+You can configure the properties for the GetPosition component. For more information about these properties, see [Properties of the Mouse components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/util-mouse-prop.md).
 
 ## Procedure
 
@@ -95,5 +96,5 @@ No
 </table>4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Mouse](../concept/mouse-utility.md)
+**Parent Topic:**[Mouse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/mouse-utility.md)
 

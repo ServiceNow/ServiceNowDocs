@@ -2,6 +2,7 @@
 title: Create or modify a script macro
 description: Administrators can define new script macros or modify existing script macros.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/t\_ManageScriptMacros.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -38,5 +39,5 @@ Script macros provide shortcuts for typing commonly used code. Several script ma
     |Text|Full macro text that replaces the name in the editor.|
 
 
-**Parent Topic:**[Syntax editor plugin](../concept/c_SyntaxEditorPlugin.md)
+**Parent Topic:**[Syntax editor plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/c_SyntaxEditorPlugin.md)
 

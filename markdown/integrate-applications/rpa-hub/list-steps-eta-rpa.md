@@ -2,6 +2,7 @@
 title: List of steps for configuring embedded task automation
 description: Use this list of steps to guide you through all the tasks for configuring an embedded task automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/list-steps-eta-rpa.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -33,7 +34,7 @@ Reference
 
 </td><td>
 
-For more information, see [Embedded Task Automation in RPA Hub](../concept/embedded-task-auto-rpa.md).
+For more information, see [Embedded Task Automation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/embedded-task-auto-rpa.md).
 
 </td></tr><tr><td>
 
@@ -41,9 +42,9 @@ For more information, see [Embedded Task Automation in RPA Hub](../concept/embed
 
 </td><td>
 
-For more information about the new components, see [Forms](../../rpa-studio/concept/forms_sn_rpa_studio.md).
+For more information about the new components, see [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/forms_sn_rpa_studio.md).
 
- For more information about publishing the automation RPA Desktop Design Studio, see [Publish an automation project in RPA Desktop Design Studio](../../rpa-studio/task/publish-automation-project.md).
+ For more information about publishing the automation RPA Desktop Design Studio, see [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/publish-automation-project.md).
 
 </td></tr><tr><td>
 
@@ -51,7 +52,7 @@ For more information about the new components, see [Forms](../../rpa-studio/conc
 
 </td><td>
 
-For more information, see [Configuring a bot process record in RPA Hub](../concept/create-botprocess.md).
+For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-botprocess.md).
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ For more information, see [Configuring a bot process record in RPA Hub](../conce
 
 </td><td>
 
-For more information, see [Bot Process form in RPA Hub](bot-process-form.md).
+For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/bot-process-form.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ For more information, see [Bot Process form in RPA Hub](bot-process-form.md).
 
 </td><td>
 
-For more information, see [Create a process field parameter in RPA Hub](../task/create-process-field-param-rpa.md).
+For more information, see [Create a process field parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-process-field-param-rpa.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ For more information, see [Create a process field parameter in RPA Hub](../task/
 
 </td><td>
 
-For more information, see [Create an attended configuration record in RPA Hub](../task/create-attended-config-rpa.md).
+For more information, see [Create an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-attended-config-rpa.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ For more information, see [Create an attended configuration record in RPA Hub](.
 
 </td><td>
 
-For more information, see [Map a table field to a bot process field parameter in RPA Hub](../task/create-field-param-mapping-rpa.md).
+For more information, see [Map a table field to a bot process field parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-field-param-mapping-rpa.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ For more information, see [Map a table field to a bot process field parameter in
 
 </td><td>
 
-For more information, see [Activate an attended configuration record in RPA Hub](../task/activate-attend-config-rpa.md).
+For more information, see [Activate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/activate-attend-config-rpa.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ For more information, see [Activate an attended configuration record in RPA Hub]
 
 </td><td>
 
-For more information, see [Invoke Embedded Task Automation via API](../concept/create-button-att-config-rpa.md).
+For more information, see [Invoke Embedded Task Automation via API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-button-att-config-rpa.md).
 
 </td></tr><tr><td>
 
@@ -109,9 +110,9 @@ If the auto assignment system property is true, an attended robot license is ava
 
 </td><td>
 
-For more information about assigning the user with RPA AU, see [Assign an attended user or group to an attended bot process](../task/assign-rda-users-botprocess.md).
+For more information about assigning the user with RPA AU, see [Assign an attended user or group to an attended bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/assign-rda-users-botprocess.md).
 
- For more information about this system property, see [Configure RPA Hub properties](rpahub-sys-properties.md).
+ For more information about this system property, see [Configure RPA Hub properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpahub-sys-properties.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +120,7 @@ For more information about assigning the user with RPA AU, see [Assign an attend
 
 </td><td>
 
-For more information, see [Publish an RPA Hub bot process](../task/publish-bot-process.md).
+For more information, see [Publish an RPA Hub bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/publish-bot-process.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +128,7 @@ For more information, see [Publish an RPA Hub bot process](../task/publish-bot-p
 
 </td><td>
 
-For more information about the visibility conditions, see [Visibility conditions of the UI action \(button\)](visibility-cond-button-rpa.md).
+For more information about the visibility conditions, see [Visibility conditions of the UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/visibility-cond-button-rpa.md).
 
 </td></tr></tbody>
 </table>

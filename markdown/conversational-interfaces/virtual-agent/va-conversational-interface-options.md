@@ -2,6 +2,7 @@
 title: Virtual Agent chat widget interface
 description: The Natural Language Understanding \(NLU\) Virtual Agent chat widget interface captures an automated messaging session between Virtual Agent and the user. Users can see a list of all the topics that the bot can help with, enter a request, request a transfer to a live agent, send and receive attachments, and receive visual and/or audio notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/va-conversational-interface-options.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -18,9 +19,9 @@ The Natural Language Understanding \(NLU\) Virtual Agent chat widget interface c
 
 The chat widget interface uses the Service Portal web widget, which you can configure for custom service portals. This widget is available in the CSM, HR Service Delivery, and ITSM Service Portals.
 
-**Note:** The information in this content is applicable to only Natural Language Understanding \(NLU\) Virtual Agent. For more information about the LLM Virtual Agent end-user experience, see [Using Now Assist in Virtual Agent](../../now-assist-in-va/concept/using-now-assist-in-va.md).
+**Note:** The information in this content is applicable to only Natural Language Understanding \(NLU\) Virtual Agent. For more information about the LLM Virtual Agent end-user experience, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
-![The chat widget window has icons to view support options and start a new conversation. Conversation elements include a welcome message, user and bot responses, and a closing message.](../images/WebClientExample.png "Simple conversation example — chat widget")
+\[Omitted image "WebClientExample.png"\] Alt text: The chat widget window has icons to view support options and start a new conversation. Conversation elements include a welcome message, user and bot responses, and a closing message.
 
 A simple conversation typically includes the following elements:
 
@@ -31,15 +32,15 @@ A simple conversation typically includes the following elements:
 
 When your users start a conversation with the bot, they can enter a request or see a list of everything that the bot can help with. If they choose to see everything, the chat window displays all topics available to the user. Your users can use the search box to filter the list of topics.
 
-![List of All Topics displayed after user chooses to see everything the bot can help with.](../images/All-Topics-Example.png "See all topics")
+\[Omitted image "All-Topics-Example.png"\] Alt text: List of All Topics displayed after user chooses to see everything the bot can help with.
 
 The conversational interface offers your users several options to manage the conversation. Users can stop the current conversation and start a new one, contact support to access a live agent for immediate assistance, and control audible alerts for chats.
 
-![The Support options menu lets users talk to a live agent if available, call or email support, and change notification settings.](../images/ConversationOptions.png "Support options menu")
+\[Omitted image "ConversationOptions.png"\] Alt text: The Support options menu lets users talk to a live agent if available, call or email support, and change notification settings.
 
 When users transfer to a live agent, the chat window header changes to indicate that they are now interacting with a live agent. The attachment and send icons are available in the chat window for uploading an image, text, or PDF file and sending it to the agent.
 
-![The chat window header no longer says "NOW Support." It now says, "LIVE AGENT."](../images/LiveAgentTransfer.png "Live agent transfer")
+\[Omitted image "LiveAgentTransfer.png"\] Alt text: The chat window header no longer says "NOW Support." It now says, "LIVE AGENT."
 
 During live chat, users can attach a file of any type \(for example an image, text, or PDF file\) and send it to the agent. The system automatically performs a virus scan on the file attachment. If the scan is successful, the file is sent to the agent.
 
@@ -52,11 +53,11 @@ Your users automatically receive audio and visual alerts when they receive a mes
 
 -   The visual indicator displays the number of messages received, next to the chat icon in the Service Portal window. When the user opens the chat, the indicator number closes.
 
-    ![New message alerts.](../images/va-client-message-indicator.png "New message alerts")
+    \[Omitted image "va-client-message-indicator.png"\] Alt text: New message alerts.
 
 -   Your authenticated end users can enable or disable audible alerts of chats through the toggle switch on the chat menu \(Contact Support\).
 -   Authenticated end users can also enable or disable the delivery of notifications through the toggle switch on the chat menu \(Contact Support\).
 -   The default sound notification uses the sn\_va\_web\_client\_alert.mp3 audio file.
-    -   You can change the sound that requesters hear by uploading your own audio file. For details, see [Manage audio files](https://www.servicenow.com/docs/access?context=t_UploadAnAudioFile&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+    -   You can change the sound that requesters hear by uploading your own audio file. For details, see Manage audio files.
     -   To turn off the audio notification for your instance, use the system parameter `sysparm_disable_audio_notifications=true`. For example: `https://<*your-instance name*>.service-now.com/nav_to.do?sysparm_disable_audio_notifications=true`
 

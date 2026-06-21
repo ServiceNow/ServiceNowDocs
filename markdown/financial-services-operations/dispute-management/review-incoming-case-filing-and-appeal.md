@@ -2,6 +2,7 @@
 title: Review incoming case filing and appeal
 description: Review the incoming case filing created by the acquirer and create an appeal if required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/review-incoming-case-filing-and-appeal.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ If the issuer refuse the acquirer’s pre-arbitration request, the acquirer can 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -58,15 +59,15 @@ If the issuer refuse the acquirer’s pre-arbitration request, the acquirer can 
 
 13. Select your response in the **Response outcome** field.
 
-<table id="choicetable_pcd_wkt_nfc"><thead><tr><th align="left" id="d83011e225">
+<table id="choicetable_pcd_wkt_nfc"><thead><tr><th align="left" id="d63518e225">
 
 Option
 
-</th><th align="left" id="d83011e228">
+</th><th align="left" id="d63518e228">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d83011e234">
+</th></tr></thead><tbody><tr><td id="d63518e234">
 
 **Resolved**
 
@@ -74,13 +75,13 @@ Description
 
 The arbitration is accepted and the outcome is resolved.
 
-</td></tr><tr><td id="d83011e243">
+</td></tr><tr><td id="d63518e243">
 
 **Unresolved**
 
 </td><td>
 
-The issuer is not happy with the arbitration outcome and would go for an appeal. The **Create appeal** drop-down is displayed. An appeal can be created only if certain conditions are met. For more information, see [Allocation workflow](../concept/allocation-workflow.md).
+The issuer is not happy with the arbitration outcome and would go for an appeal. The **Create appeal** drop-down is displayed. An appeal can be created only if certain conditions are met. For more information, see [Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/allocation-workflow.md).
 
 -   Select **Yes** to create an appeal.
     1.  Enter the **Appeal amount**.
@@ -100,5 +101,5 @@ After the request executes successfully, the transaction state moves to **Awaiti
 
 Visa confirms the appeal with an acknowledgment letter. Retrieve the letter by selecting `Get acknowledgement letter` in the **Review case filing appeal** activity.
 
-**Parent Topic:**[Allocation dispute workflow](../concept/allocation-dispute-work-flow.md)
+**Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
 

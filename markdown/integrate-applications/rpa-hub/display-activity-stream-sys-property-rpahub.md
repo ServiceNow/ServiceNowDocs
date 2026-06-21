@@ -2,6 +2,7 @@
 title: Display an activity stream for bot processes and robots in RPA Hub
 description: Configure the system property to display an activity stream for bot processes and robots in RPA Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/display-activity-stream-sys-property-rpahub.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -31,10 +32,10 @@ Role required: admin
 
     Adding prefix \(-\) to the table name includes the documents of the table in the activity stream.
 
-    ![The glide.activity.rule.exclude.document_tables system property screen displaying the new values for the Value field.](../image/activity-stream-sys-property-rpahub.png)
+    \[Omitted image "activity-stream-sys-property-rpahub.png"\] Alt text: The glide.activity.rule.exclude.document\_tables system property screen displaying the new values for the Value field.
 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Managing RPA Hub](../concept/managing-rpa-hub.md)
+**Parent Topic:**[Managing RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/managing-rpa-hub.md)
 

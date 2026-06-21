@@ -2,6 +2,7 @@
 title: Set a provider for a generative AI capability
 description: Determine which AI provider to use for each of the generative AI capabilities of Generative AI Controller.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.html
 release: yokohama
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -17,7 +18,7 @@ Determine which AI provider to use for each of the generative AI capabilities of
 
 ## Before you begin
 
-Configure your credentials for your preferred provider. See [Configuring API credentials for generative AI capabilities](../concept/configuring-api-credentials-for-generative-ai-capabilities.md) for more details.
+Configure your credentials for your preferred provider. See [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md) for more details.
 
 Role required: admin
 
@@ -76,7 +77,7 @@ Create summaries of topics with Workflow Studio and Virtual Agent Designer.
 
     **Note:** By default, you can choose only one provider for a capability. For example, if **Default** is `true` for Sentiment \(OpenAI Completion\), you must set **Default** to `false` before changing **Default** to `true` for Sentiment \(Azure OpenAI\).
 
-    ![Default builder config open with builder capability related list. The capability records and default column are highlighted.](../image/gai-configure-providers.png)
+    \[Omitted image "gai-configure-providers.png"\] Alt text: Default builder config open with builder capability related list. The capability records and default column are highlighted.
 
 <table><thead><tr><th>
 

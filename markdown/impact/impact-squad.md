@@ -2,7 +2,10 @@
 title: Impact Squad
 description: Your Impact Squad is a team of on-demand experts who work with you to take on your teams unique transformation challenges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-squad.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

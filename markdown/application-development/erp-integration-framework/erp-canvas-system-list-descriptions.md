@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP system list field descriptions
 description: The Create new system form in Zero Copy Connector for ERP contains information on connection details for the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-system-list-descriptions.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,7 +16,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector
 
 The Create new system form in Zero Copy Connector for ERP contains information on connection details for the ERP \(Enterprise Resource Planning\) system.
 
-For process details, see [View a list of Zero Copy Connector for ERP systems](../task/view-and-monitor-erp-systems-health.md).
+For process details, see [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-and-monitor-erp-systems-health.md).
 
 <table id="table_xn1_4kd_5xb"><thead><tr><th>
 
@@ -52,5 +53,5 @@ When the system is first set up and connects to the SAP system, metadata is retr
 -   Odata: The models available on the HTTP protocol are retrieved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

@@ -2,7 +2,10 @@
 title: Manage User Experience
 description: Explore in-depth transactions for a user or a node for a given period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/manage-user-experience.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -37,16 +40,16 @@ Role required: admin
     -   URL
     -   Transaction Type
     -   Application Monitoring
-    ![Shows the User Experience snapshot.](../image/io-user-ex-snapshot.png)
+    \[Omitted image "io-user-ex-snapshot.png"\] Alt text: Shows the User Experience snapshot.
 
 4.  Drill into each data point to open the particular details.
 
     For instance, select a user data point on the chart. The User transaction details open with various data points. Select each data point to further drill into each area.
 
-    ![Shows the user transaction details.](../image/io-user-ex-details.png)
+    \[Omitted image "io-user-ex-details.png"\] Alt text: Shows the user transaction details.
 
 5.  Select the **URL** tab to access each specific URL transaction.
 
-    ![Shows the User Experience URL transaction table.](../image/io-user-ex-url-details.png)
+    \[Omitted image "io-user-ex-url-details.png"\] Alt text: Shows the User Experience URL transaction table.
 
 

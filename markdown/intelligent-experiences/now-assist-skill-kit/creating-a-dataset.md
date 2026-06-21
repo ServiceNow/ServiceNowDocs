@@ -2,6 +2,7 @@
 title: Creating a dataset using Now Assist Skill Kit
 description: Use these guidelines to create an effective dataset. Having an effective dataset provides better results for your prompt.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-kit/creating-a-dataset.html
 release: yokohama
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit

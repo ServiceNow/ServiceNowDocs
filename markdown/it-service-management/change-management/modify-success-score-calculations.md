@@ -2,6 +2,7 @@
 title: Modify score calculation
 description: Modify the multiplier values in the formula indicators to calculate the final success score.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/modify-success-score-calculations.html
 release: yokohama
 product: Change Management
 classification: change-management
@@ -27,10 +28,10 @@ Role required: admin
 
 3.  In the formula, change the multiplier value.
 
-    ![Modify the formula by changing the multiplier value](../image/modifyformula.png)
+    \[Omitted image "modifyformula.png"\] Alt text: Modify the formula by changing the multiplier value
 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Success score calculation](../concept/change-score-calculation.md)
+**Parent Topic:**[Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-score-calculation.md)
 

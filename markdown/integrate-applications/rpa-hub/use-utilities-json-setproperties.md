@@ -2,6 +2,7 @@
 title: Use the SetProperties component
 description: Set multiple properties within a JSON object by using the SetProperties component in the RPA Desktop Design Studio. You can also override a property within the JSON object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-utilities-json-setproperties.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties of the SetProperties component, see [Properties of the JSON utilities](../reference/properties-utilities-json.md).
+To configure the properties of the SetProperties component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/properties-utilities-json.md).
 
 ## Procedure
 
@@ -29,9 +30,9 @@ To configure the properties of the SetProperties component, see [Properties of t
 
 2.  Drag the SetProperties component to the Design surface.
 
-3.  Click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
+3.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
 
-4.  Click the add property icon \(![Add property icon.](../image/add-image-icon.png)\).
+4.  Click the add property icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add property icon.\).
 
 5.  Enter the property name.
 
@@ -39,7 +40,7 @@ To configure the properties of the SetProperties component, see [Properties of t
 
 7.  Click **OK**.
 
-8.  To provide the values for the property names, see [Configure port properties](configure-input-port-properties.md).
+8.  To provide the values for the property names, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 9.  Connect the data and control ports of the SetProperties component to the corresponding ports of the other components as described in the following table.
 
@@ -127,5 +128,5 @@ Returns a JSON object with updated or new values for multiple properties.
 </table>10. To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[JSON](../concept/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/json.md)
 

@@ -2,6 +2,7 @@
 title: Create Orchestration ROI labor rate cards
 description: Before calculating your Orchestration ROI, you must create labor rate cards for the manual work that would be required to complete the tasks correlated to the ROI calculations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/orchestration/t\_CreateOrchROILaborRateCard.html
 release: yokohama
 product: Orchestration
 classification: orchestration
@@ -27,12 +28,12 @@ The hourly rates defined in the rate cards are used to determine the savings fro
 
 1.  Navigate to **All** &gt; **Orchestration** &gt; **ROI** &gt; **Labor Rate Cards**.
 
-2.  Complete the fields in the form using the descriptions in [Manage a labor rate card](https://www.servicenow.com/docs/access?context=t_ManageALaborRateCard&version=yokohama&pubname=yokohama-it-business-management&ft:locale=en-US).
+2.  Complete the fields in the form using the descriptions in Manage a labor rate card.
 
 3.  Click **Submit**.
 
 4.  Create additional rate cards as needed.
 
 
-**Parent Topic:**[Orchestration ROI](../concept/c_OrchestrationROI.md)
+**Parent Topic:**[Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/c_OrchestrationROI.md)
 

@@ -2,6 +2,7 @@
 title: On-Demand Value Report
 description: Customers can use this Accelerator to request a Value Report for up to two ServiceNow products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/on-demand-value-report.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -48,5 +49,5 @@ One or more customer resource is requested. The specific number of resources pro
 
 The delivery of this Accelerator is subject to a preliminary review by a Value SME to ensure the availability and quality of data is sufficient to deliver a robust value report.
 
-**Note:** This Accelerator is available for the Impact Guided package. Impact Advanced and Total packages include Value Reports as an entitlement. See [Business Value Reports](../concept/business-value-reports.md) for more information.
+**Note:** This Accelerator is available for the Impact Guided package. Impact Advanced and Total packages include Value Reports as an entitlement. See [Business Value Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/business-value-reports.md) for more information.
 

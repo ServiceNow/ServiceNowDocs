@@ -2,6 +2,7 @@
 title: Managing your coaching assessments
 description: Employees, or trainees, are assessed on work they have done that has triggered a coaching opportunity. Once assessed, the trainee is assigned training by the coach. Use the Trainee Dashboard to manage your assessments and track results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/coaching/getting-coached.html
 release: yokohama
 product: Coaching
 classification: coaching
@@ -28,7 +29,7 @@ The Trainee Dashboard lets you manage your assessments and track results.
 -   View the types of survey feedback from your coaches.
 -   Manage the full list of your coaching assessment details.
 
-![TraineeDashboard](../image/trainee-dashboard.png "Trainee dashboard")
+\[Omitted image "trainee-dashboard.png"\] Alt text: TraineeDashboard
 
 |Report|Description|
 |------|-----------|
@@ -37,8 +38,8 @@ The Trainee Dashboard lets you manage your assessments and track results.
 |My Survey Results|Survey feedback results of the coach to the trainee.|
 |My Assessment Details|List of active coaching assessments and trainings.|
 
--   **[Work with your coach](../task/work-with-your-coach.md)**  
+-   **[Work with your coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/work-with-your-coach.md)**  
 Use your assessments to work with your coach, including assigned training and due dates. You can view your assessments and track your results using the Trainee Dashboard.
 
-**Parent Topic:**[Coaching](coaching-landing.md)
+**Parent Topic:**[Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-landing.md)
 

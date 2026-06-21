@@ -2,6 +2,7 @@
 title: View KPI Details
 description: From a list of indicators, select an indicator to open its KPI Details page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/view-kpi-details.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"

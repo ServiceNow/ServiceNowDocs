@@ -2,6 +2,7 @@
 title: Follow a record feed from a list
 description: You can follow records that have a record feed associated with them when viewing a list of records. This method allows you to select multiple records to follow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_SelectingMultipleRecordsToFollow.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -27,8 +28,8 @@ Role required: none
 
 3.  In the **Actions** choice list, select **Follow on Live Feed**.
 
-    ![Follow My Tasks](../image/FollowMyTasksFuji.png "Follow My Tasks")
+    \[Omitted image "FollowMyTasksFuji.png"\] Alt text: Follow My Tasks
 
 
-**Parent Topic:**[Working with record feeds](../concept/c_WorkingWithRecordFeeds.md)
+**Parent Topic:**[Working with record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_WorkingWithRecordFeeds.md)
 

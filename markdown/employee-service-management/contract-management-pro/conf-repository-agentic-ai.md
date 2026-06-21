@@ -2,6 +2,7 @@
 title: Activate business rules for the Manage contract repository agentic workflow
 description: Activate the Agentic AI - Set reminders for contract and the Agentic AI Set reminders for Econtract business rules to autonomously run the Manage contract repository agentic workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/conf-repository-agentic-ai.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -48,5 +49,5 @@ Role required: admin
 
 The Manage contract repository agentic workflow is activated for Now Assist in Contract Management.
 
-**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](../concept/cmpro-conf-agentic-workflow.md)
+**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
 

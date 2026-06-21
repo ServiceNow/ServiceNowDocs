@@ -2,6 +2,7 @@
 title: Exploring AIOps LEAP
 description: AIOps LEAP categorizes similar incidents into groups, performs incident analysis using AI, and creates standard, dynamic resolution playbooks to promote fast incident resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-aiops-leap.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -19,7 +20,7 @@ AIOps LEAP categorizes similar incidents into groups, performs incident analysis
 
 AIOps LEAP helps you manage incidents and operational tasks efficiently. It uses AI to gather information from existing incidents and generate resolutions that can be automated. The AIOps LEAP automation provides tools to manage incidents early, speed up resolution, use pre-built automation, and follow clear steps to handle issues. These tools help support smooth operations.
 
-![AIOps LEAP landing page](../images/leap-home.png)
+\[Omitted image "leap-home.png"\] Alt text: AIOps LEAP landing page
 
 ## AIOps LEAP users
 
@@ -91,7 +92,7 @@ You can access the AIOps LEAP menu from the Service Operations Workspace \(SOW\)
 
 To learn more about configuring and using , see:
 
--   [Configuring AIOps LEAP](configuring-aiops-leap.md)
--   [Using AIOps LEAP](../task/using-aiops-leap.md)
--   [AIOps LEAP reference](../reference/references-aiops-leap.md)
+-   [Configuring AIOps LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configuring-aiops-leap.md)
+-   [Using AIOps LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/using-aiops-leap.md)
+-   [AIOps LEAP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/references-aiops-leap.md)
 

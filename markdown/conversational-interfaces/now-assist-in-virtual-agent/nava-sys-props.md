@@ -2,6 +2,7 @@
 title: Now Assist in Virtual Agent system properties
 description: Use system properties to customize your assistant. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.html
 release: yokohama
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -61,7 +62,7 @@ now\_assist\_va\_search\_results\_output\_type.list
 
 </td><td>
 
-Turn off regular results and only have Genius Results shown within Virtual Agent. Use the system property to access the Now Assist Search Results Output Types table. By default, regular results and Genius Results are shown for all channels \(Android device, iOS, Web Client,Now Assist Panel, and Microsoft Teams\). In the Search Results Type column, select **Genius Search Result**.![Now Assist Search Results Output table.](../image/NAinVA-results-output-table.png)
+Turn off regular results and only have Genius Results shown within Virtual Agent. Use the system property to access the Now Assist Search Results Output Types table. By default, regular results and Genius Results are shown for all channels \(Android device, iOS, Web Client,Now Assist Panel, and Microsoft Teams\). In the Search Results Type column, select **Genius Search Result**.\[Omitted image "NAinVA-results-output-table.png"\] Alt text: Now Assist Search Results Output table.
 
 </td></tr><tr><td>
 

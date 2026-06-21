@@ -2,6 +2,7 @@
 title: Create multiple configurations
 description: Create multiple configurations of a child product offering when you're adding a configurable product to an opportunity, quote, or order. You can then configure the product options and characteristics separately for each offering configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-multiple-child-configs.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -30,11 +31,11 @@ If your product catalog admin has enabled multiple configurations for child offe
 -   Customize the options and characteristics for each child offering instance created.
 -   Delete a child offering instance, as long as the minimum number of child offerings defined for the product is maintained.
 
-**Note:** Even when the multiple configurations feature is enabled, there are scenarios in which some configuration options might not be available. The system uses the default, minimum, and maximum quantity values from the product definition to determine valid configurations and then enables or disables the **Split** or **Delete** options for managing child offering configurations. For more information on validation, see [Multiple configurations](../concept/multiple-child-offering-configurations.md).
+**Note:** Even when the multiple configurations feature is enabled, there are scenarios in which some configuration options might not be available. The system uses the default, minimum, and maximum quantity values from the product definition to determine valid configurations and then enables or disables the **Split** or **Delete** options for managing child offering configurations. For more information on validation, see [Multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/multiple-child-offering-configurations.md).
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to the opportunity, quote, or order that you want to work with.
 
@@ -50,14 +51,14 @@ If your product catalog admin has enabled multiple configurations for child offe
 
     The product configurator displays the product offering configuration, including the bundle product options and characteristics. Child offerings that can have multiple configurations are identified by Information icons. Select the Information icon to view a message indicating that the offering can have multiple configurations and that the offering quantity shown is aggregated across the configurations.
 
-    ![Message displayed for a child offering in a configurable product. The message indicates that multiple clones can be created for the offering.](../image/multi-config-msg-order.png "Example bundle configuration for an order")
+    \[Omitted image "multi-config-msg-order.png"\] Alt text: Message displayed for a child offering in a configurable product. The message indicates that multiple clones can be created for the offering.
 
 6.  Navigate to the child offering in the product hierarchy, which displays the offering summary page.
 
     You can do the following:
 
     -   To change the quantity of the child offering, enter the new value in the **Quantity** field.
-    -   To add new configurations for the offering, select the **More options** \(![](../image/icon-three-dots.png) \) menu next to the **Quantity** field and select an option.
+    -   To add new configurations for the offering, select the **More options** \(\[Omitted image "icon-three-dots.png"\] Alt text: \) menu next to the **Quantity** field and select an option.
 
 <table id="table_nsy_k4f_kfc"><thead><tr><th>
 

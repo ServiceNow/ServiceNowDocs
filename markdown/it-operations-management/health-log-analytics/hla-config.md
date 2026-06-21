@@ -2,6 +2,7 @@
 title: Configure the Platform Analytics Solution for Health Log Analytics
 description: Run diagnostics, review and customize components, and start collecting data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-config.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -25,7 +26,7 @@ Role required: pa\_admin
 
 1.  Run diagnostics on all records.
 
-    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see [Performance Analytics diagnostics](https://www.servicenow.com/docs/access?context=self-diagnostics&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see Performance Analytics diagnostics.
 
 2.  Navigate to **All** &gt; **Performance Analytics** &gt; **Administration Console**.
 
@@ -41,7 +42,7 @@ Role required: pa\_admin
 
         Here you see the indicator sources filtered on the Self-Service Analytics dashboard from the Employee Relations Executive Overview.
 
-        ![Indicator Sources tab of the PA Admin Console listing indicator sources and their details within the Employee Relations Executive Overview dashboard.](../../../reuse/images/hr-er-admin-console.png)
+        \[Omitted image "hr-er-admin-console.png"\] Alt text: Indicator Sources tab of the PA Admin Console listing indicator sources and their details within the Employee Relations Executive Overview dashboard.
 
     2.  Review the facts table, conditions, and frequency of the indicator sources compared to the data structure on your own instance.
 
@@ -55,7 +56,7 @@ Role required: pa\_admin
 
 6.  If you changed the time field stamps in any indicator sources, then change any related Performance Analytics scripts.
 
-    For more information, see [Update Performance Analytics scripts](https://www.servicenow.com/docs/access?context=update-pa-scripts&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+    For more information, see Update Performance Analytics scripts.
 
 7.  Open the Breakdown Sources tab.
 
@@ -63,7 +64,7 @@ Role required: pa\_admin
 
     1.  Filter the breakdown sources on the dashboard name.
 
-    2.  Review the conditions on the breakdown source as described in [Review the breakdown sources](https://www.servicenow.com/docs/access?context=review-breakdown-sources&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+    2.  Review the conditions on the breakdown source as described in Review the breakdown sources.
 
 9.  Navigate to **All** &gt; **Performance Analytics** &gt; **Jobs**.
 
@@ -72,5 +73,5 @@ Role required: pa\_admin
 11. Edit and activate the scheduled data collection job for this Platform Analytics Solution, **\[PA HLA\] Historic Data Collection**.
 
 
-**Parent Topic:**[Platform Analytics Solutions for Health Log Analytics](hla-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-content-pack.md)
 

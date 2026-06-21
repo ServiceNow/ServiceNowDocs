@@ -2,6 +2,7 @@
 title: Install and configure the ServiceNow application for the Secureworks CTP ticket ingestion integration
 description: Before you run the integration on your ServiceNow AI Platform instance, complete these installation and configuration steps so the application properly integrates with the Security Incident Response and Security Operations products on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/secureworks-ctp-install-configure.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -21,11 +22,11 @@ Role required: sn\_si.admin
 
 ## Procedure
 
-1.  If you have not installed the Secureworks CTP ticket application from the ServiceNow Store for the integration, see [Install a Security Operations integration](../../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the Secureworks CTP ticket application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After you have successfully installed the application, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Secureworks CTP Ticket Ingestion Integration tile.
 
-    ![Secureworks CTP: Configure](../image/secureworks-config.gif)
+    \[Omitted image "secureworks-config.gif"\] Alt text: Secureworks CTP: Configure
 
 3.  To configure the application, click **New**.
 
@@ -33,15 +34,15 @@ Role required: sn\_si.admin
 
 5.  In the dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d268112e146">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d255559e142">
 
 Field
 
-</th><th align="left" id="d268112e149">
+</th><th align="left" id="d255559e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d268112e155">
+</th></tr></thead><tbody><tr><td id="d255559e151">
 
 **Name**
 
@@ -49,7 +50,7 @@ Description
 
 Name of the Secureworks CTP instance used for the integration. You can enter only alphanumeric values and hyphens \(-\) in this field.
 
-</td></tr><tr><td id="d268112e170">
+</td></tr><tr><td id="d255559e166">
 
 **Description**
 
@@ -57,7 +58,7 @@ Name of the Secureworks CTP instance used for the integration. You can enter onl
 
 Enter a description for the user account.
 
-</td></tr><tr><td id="d268112e179">
+</td></tr><tr><td id="d255559e175">
 
 **Username**
 
@@ -69,7 +70,7 @@ Enter the username for the Secureworks CTP API account. Note that the username i
 -   Navigate to **Account** &gt; **Account Management** &gt; **API Credentials**. The username is displayed on the API Credential page.
 
 
-</td></tr><tr><td id="d268112e217">
+</td></tr><tr><td id="d255559e213">
 
 **API Password**
 

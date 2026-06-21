@@ -2,6 +2,7 @@
 title: Configuring the Playbook tab on contract repository records
 description: Configure the visibility of the Playbook tab on contract repository records so contract managers can review and act on AI‑extracted metadata and obligations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -20,9 +21,9 @@ The playbook appears on the contract repository record when the Now Assist in Co
 
 The visibility of the Playbook tab is controlled by a data broker. The conditional logic is provided as a script method, `sn_cm_gen_ai.ContractsMetadataExtractionHelper()` in a Script include file. To invoke this action, create a method in one of your Script include files for your workspace, which can be accessed by the data broker linked to your workspace on the UI Builder.
 
-1.  [Add a script include method for the Playbook tab](cmpro-config-script-playbook.md)
-2.  [Add a data broker server script for the Playbook tab](cmpro-data-broker-playbook.md)
-3.  [Add the data broker to your workspace page](cmpro-add-databroker-workspace.md)
-4.  [Configure the Playbook tab component for your workspace](cmpro-confg-playbook-comp.md)
-5.  [Configure obligation review for the playbook](cmpro-add-obligation-playbook.md)
+1.  [Add a script include method for the Playbook tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-config-script-playbook.md)
+2.  [Add a data broker server script for the Playbook tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-data-broker-playbook.md)
+3.  [Add the data broker to your workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-add-databroker-workspace.md)
+4.  [Configure the Playbook tab component for your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-confg-playbook-comp.md)
+5.  [Configure obligation review for the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-add-obligation-playbook.md)
 

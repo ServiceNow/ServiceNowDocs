@@ -2,6 +2,7 @@
 title: Website configuration form
 description: The field descriptions provide a point of reference when you're configuring the Browser Extension for Employee Center for a website.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/config-website-form.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -96,5 +97,5 @@ Contents Associated
 List of connected content from the portal to be associated with access from the website through the Browser Extension.**Note:** Content can also be added to the configured website from the **Associated Websites** tab on the specific content page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Browser Extension for Employee Center forms](../concept/ecbe-forms.md)
+</table>**Parent Topic:**[Browser Extension for Employee Center forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecbe-forms.md)
 

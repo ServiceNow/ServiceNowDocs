@@ -2,6 +2,7 @@
 title: Change a hashtag name and merge a hashtag
 description: Over time, users may create many hashtags with similar names, such as competitive, competitor, and competition. To combine hashtags for better searching and filtering, change the names of similar hashtags to a standard name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_ChngHTNameMergeHT.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -33,11 +34,11 @@ Administrators can restrict who can rename hashtags.
 
 4.  Point to the hashtag you want to change.
 
-    If you have the rights to edit hashtags, an edit tag \(![Pencil](../image/Pencil.png)\) appears.
+    If you have the rights to edit hashtags, an edit tag \(\[Omitted image "Pencil.png"\] Alt text: Pencil\) appears.
 
 5.  Click the edit tag icon.
 
-    ![Edit tag](../image/EditTag.png "Edit tag")
+    \[Omitted image "EditTag.png"\] Alt text: Edit tag
 
 6.  Enter a new hashtag name.
 
@@ -48,5 +49,5 @@ Administrators can restrict who can rename hashtags.
     **Note:** If a hashtag is removed from the message, renaming that hashtag does not change the message text.
 
 
-**Parent Topic:**[Use hashtags in Live Feed](../concept/c_UseHashtagsInLiveFeed.md)
+**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
 

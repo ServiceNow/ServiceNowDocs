@@ -2,6 +2,7 @@
 title: Activate the associated Now Assist skills
 description: Enable the Now Assist skills to allow the system to analyze interview notes and job descriptions, extract keywords, and identify relevant skills. This improves skill gap analysis and ensures accurate, personalized ramp-up plans for new employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/turn-on-nowassist-skills.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -31,5 +32,5 @@ Role required: admin
     -   Job description skill relevance
     -   Skill keyword extractor
 
-**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](../concept/onboarding-ramp-up-plan-agentic-wf.md)
+**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/onboarding-ramp-up-plan-agentic-wf.md)
 

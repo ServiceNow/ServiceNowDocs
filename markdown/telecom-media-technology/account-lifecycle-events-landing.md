@@ -2,6 +2,7 @@
 title: Customer Success Management
 description: The ServiceNow Customer Success Management application enables service providers to streamline, automate, and measure critical workflows across the entire enterprise customer journey—from onboarding and adoption to renewals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/account-lifecycle-events-landing.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -23,20 +24,20 @@ By embedding workflow automation into customer success management, Customer Succ
 
 <table id="table_g2h_5s3_ccc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore Account Lifecycle Events![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about the Account Lifecycle Events application](https://www.servicenow.com/docs/access?context=account-lifecycle-explore&version=yokohama&pubname=yokohama-acct-lifecycle-events&ft:locale=en-US)
+Explore Account Lifecycle Events\[Omitted image "bus-learn.svg"\] Alt text:Learn about the Account Lifecycle Events application
 
 </td><td>
 
-[Account onboarding ![](../../../reuse/icons/brand-icons/bus-3-person.svg) Define a structured, repeatable, onboarding experience with the preconfigured playbook.](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing-page&version=yokohama&pubname=yokohama-acct-lifecycle-events&ft:locale=en-US)
+Account onboarding \[Omitted image "bus-3-person.svg"\] Alt text: Define a structured, repeatable, onboarding experience with the preconfigured playbook.
 
 </td><td>
 
-[Customer success ![](../../../reuse/icons/brand-icons/bus-customer-happy.svg) Track success objectives, outcomes, help mitigate risks, and identify opportunities for expansion and renewal.](https://www.servicenow.com/docs/access?context=account-lifecycle-customer-success-landing-page&version=yokohama&pubname=yokohama-acct-lifecycle-events&ft:locale=en-US)
+Customer success \[Omitted image "bus-customer-happy.svg"\] Alt text: Track success objectives, outcomes, help mitigate risks, and identify opportunities for expansion and renewal.
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Account Lifecycle Events release notes](https://www.servicenow.com/docs/access?context=account-lifecycle-rn&version=yokohama&pubname=yokohama-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the Account Lifecycle Events release notes.
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Management features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

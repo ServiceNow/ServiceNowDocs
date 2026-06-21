@@ -2,6 +2,7 @@
 title: Create action plan for KPIs
 description: Create action plans linked to under-performing KPIs, enabling visual tracking of milestones and tasks. The tasks triggered by the action plans are assigned to the suppliers and they can see and complete those tasks in the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -33,13 +34,13 @@ Role required: admin
 
 6.  Select the KPIs to be tracked.
 
-    ![Select the KPIs to be tracked in the action plan](../image/add-action-plan.png "Add action plan KPIs")
+    \[Omitted image "add-action-plan.png"\] Alt text: Select the KPIs to be tracked in the action plan
 
 7.  Select **Add**.
 
 8.  On the form, fill in the fields.
 
-    ![Action plan form details](../image/action-plan-form.png)
+    \[Omitted image "action-plan-form.png"\] Alt text: Action plan form details
 
 <table id="table_ssx_vwv_1fc"><thead><tr><th>
 
@@ -156,7 +157,7 @@ Detailed description of the action plan
 
 10. Create milestones or supplier tasks for each KPI to track the action plan.
 
-    For more information on how to create milestones and supplier tasks, see [Create milestones for the action plan](create-milestones-for-the-action-plan.md) and [Create supplier tasks for the action plan](create-supplier-tasks-for-the-action-plan.md).
+    For more information on how to create milestones and supplier tasks, see [Create milestones for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.md) and [Create supplier tasks for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-tasks-for-the-action-plan.md).
 
 11. Select **Submit** to activate the action plan.
 
@@ -174,10 +175,10 @@ After the milestones are run, corresponding tasks are generated for the users as
 
 The action plan can be tracked continuously, with updates based on the subsequent KPI runs. Managers can monitor the progress of milestones and tasks using the Gantt chart.
 
--   **[Create milestones for the action plan](create-milestones-for-the-action-plan.md)**  
+-   **[Create milestones for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.md)**  
 Create milestones for the affected KPIs in the action plan.
--   **[Create supplier tasks for the action plan](create-supplier-tasks-for-the-action-plan.md)**  
+-   **[Create supplier tasks for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-tasks-for-the-action-plan.md)**  
 Create supplier tasks for the affected KPIs in the action plan.
 
-**Parent Topic:**[Using Supplier Relationship and Performance Management](../concept/using-supplier-relationship-and-performance-management.md)
+**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 

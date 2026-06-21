@@ -2,6 +2,7 @@
 title: Career Assessment reference
 description: All information regarding the system properties and tables installed with Career Assessment are listed here.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/exam-engine-reference.html
 release: yokohama
 product: Talent Development Core
 classification: talent-development-core
@@ -15,20 +16,20 @@ breadcrumb: [Career Assessment, Talent Development, Employee Service Management]
 
 All information regarding the system properties and tables installed with Career Assessment are listed here.
 
--   **[Components installed with Career Assessment](../reference/components-installed-career-asst.md)**  
+-   **[Components installed with Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/components-installed-career-asst.md)**  
 Several types of components are installed with the activation of Career Assessment, including tables, user roles, and scheduled jobs.
--   **[Exam form](../reference/exam-form.md)**  
+-   **[Exam form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/exam-form.md)**  
 Use the Exam form to create an exam.
--   **[Question form](../reference/question-form.md)**  
+-   **[Question form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/question-form.md)**  
 Description of the field values in the Question form.
--   **[Question option form](../reference/question-option-form.md)**  
+-   **[Question option form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/question-option-form.md)**  
 Description of the field values in the Question option form.
--   **[Learning internal content form](learning-internal-content-form-ca.md)**  
+-   **[Learning internal content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/learning-internal-content-form-ca.md)**  
 Use the Learning internal content form to add exams as content items within a learning path from Career Assessment.
--   **[Exam instance form](../reference/exam-instance-form.md)**  
+-   **[Exam instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/exam-instance-form.md)**  
 Description of the field values in the Exam Instance form.
--   **[Exam instance attempt form](../reference/exam-instance-attempt-form.md)**  
+-   **[Exam instance attempt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/exam-instance-attempt-form.md)**  
 Description of the field values in the Exam instance attempt form.
 
-**Parent Topic:**[Career Assessment](exam-engine.md)
+**Parent Topic:**[Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/exam-engine.md)
 

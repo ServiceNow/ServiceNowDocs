@@ -2,6 +2,7 @@
 title: Configure the footer menus
 description: Footer menus enable you to create menus and associate links to internal and external resources under each menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/config-emp-center-footer-menus.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,7 +24,7 @@ Role required: sp\_admin or admin
 
 After you create a footer, configure the menus for the footer. For example, you can create Marketing as a menu category and associate links, such as Media Relations, Press Releases, and Brand Library to this menu.
 
-![Marketing menu with associated links in the footer.](../images/ec-marketing-footer-menu.png "Marketing menu with associated links in the footer")
+\[Omitted image "ec-marketing-footer-menu.png"\] Alt text: Marketing menu with associated links in the footer.
 
 ## Procedure
 
@@ -35,7 +36,7 @@ After you create a footer, configure the menus for the footer. For example, you 
 
 4.  On the form, fill in the fields.
 
-    For more information on form fields and descriptions, see [Footer Menus form](../reference/ec-footer-menus.md).
+    For more information on form fields and descriptions, see [Footer Menus form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-footer-menus.md).
 
 5.  Click **Submit**.
 

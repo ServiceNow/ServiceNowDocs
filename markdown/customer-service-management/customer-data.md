@@ -2,7 +2,10 @@
 title: Customer data
 description: Customer data for Customer Service Management \(CSM\) consists of information about people who are not part of your organization, including accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-data.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

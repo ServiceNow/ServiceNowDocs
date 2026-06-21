@@ -2,6 +2,7 @@
 title: Create a healthcare location in Healthcare and Life Sciences Service Management Core
 description: Create healthcare locations to designate the locations in which your care teams operate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-configure-healthcare-location.html
 release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

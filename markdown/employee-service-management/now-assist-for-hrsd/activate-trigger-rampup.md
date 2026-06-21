@@ -2,6 +2,7 @@
 title: Activate Onboarding ramp-up trigger
 description: Enable the Onboarding ramp-up trigger to ensure that the workflow runs at the right time during the employee onboarding. This automates plan generation, reduces manual setup for managers, and improves consistency in onboarding processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/activate-trigger-rampup.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -38,5 +39,5 @@ Role required: admin
 8.  Click **Save**.
 
 
-**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](../concept/onboarding-ramp-up-plan-agentic-wf.md)
+**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/onboarding-ramp-up-plan-agentic-wf.md)
 

@@ -2,6 +2,7 @@
 title: New Resource Assignment form
 description: Fill in the following fields to create a resource assignment using Resource Management Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/create-ra-form-rmw.html
 release: yokohama
 product: Resource Management
 classification: resource-management
@@ -164,5 +165,5 @@ Notes
 Enter details about the assignment to help resource manager or project manager with insights and additional information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management Workspace references](rmw-references.md)
+</table>**Parent Topic:**[Resource Management Workspace references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rmw-references.md)
 

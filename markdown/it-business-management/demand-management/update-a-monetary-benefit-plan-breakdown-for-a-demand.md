@@ -2,6 +2,7 @@
 title: Update a monetary benefit plan breakdown for a demand
 description: Update a monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/update-a-monetary-benefit-plan-breakdown-for-a-demand.html
 release: yokohama
 product: Demand Management
 classification: demand-management
@@ -29,16 +30,16 @@ Role required: it\_demand\_manager
 
 4.  Open the required monetary benefit plan.
 
-5.  In the Monetary Benefit Plan Breakdowns related list, click the information icon \(![Information icon.](../image/informationicon.png)\) for a monetary benefit plan breakdown.
+5.  In the Monetary Benefit Plan Breakdowns related list, click the information icon \(\[Omitted image "informationicon.png"\] Alt text: Information icon.\) for a monetary benefit plan breakdown.
 
 6.  Click **Open Record**.
 
 7.  On the Monetary Benefit Plan Breakdown form, view and update the enabled fields.
 
-    For a description of the field names, see [Monetary Benefit Breakdown form](../reference/monetary-benefit-breakdown-form.md).
+    For a description of the field names, see [Monetary Benefit Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/monetary-benefit-breakdown-form.md).
 
 8.  Click **Update**.
 
 
-**Parent Topic:**[Create a monetary benefit plan for a demand](create-demand-benefit-plan.md)
+**Parent Topic:**[Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/create-demand-benefit-plan.md)
 

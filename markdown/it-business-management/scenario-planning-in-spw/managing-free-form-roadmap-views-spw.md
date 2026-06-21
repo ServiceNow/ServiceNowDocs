@@ -2,11 +2,12 @@
 title: Managing free-form roadmap views in Strategic Planning
 description: Portfolio managers can create customized views for their free-form roadmap by applying personalization settings such as grouping, milestones selection, dependencies selection, and tracking mode. Portfolio owners or editors can share these personalized views with stakeholders to enable easier collaboration on the free-form roadmaps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/managing-free-form-roadmap-views-spw.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Create a free-form roadmap in Strategic Planning Workspace, Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -24,12 +25,12 @@ Portfolio managers can create personalized views as needed by applying settings 
 -   Free-form roadmap views can be shared with stakeholders to enable collaboration on the free-form roadmap.
 -   Switch between shared and private views as needed.
 
--   **[Create a free-form roadmap view in Strategic Planning](../task/create-free-form-roadmap-view-spw.md)**  
+-   **[Create a free-form roadmap view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-free-form-roadmap-view-spw.md)**  
 Create a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
--   **[Edit a free-form roadmap view in Strategic Planning](../task/edit-free-form-roadmap-view-spw.md)**  
+-   **[Edit a free-form roadmap view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/edit-free-form-roadmap-view-spw.md)**  
 Edit a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
--   **[Delete a free-form roadmap view in Strategic Planning](../task/delete-free-form-roadmap-view-spw.md)**  
+-   **[Delete a free-form roadmap view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/delete-free-form-roadmap-view-spw.md)**  
 Delete a customized free-form roadmap view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 
-**Parent Topic:**[Create a free-form roadmap in Strategic Planning Workspace](../task/create-a-roadmap-in-roadmap-planning.md)
+**Parent Topic:**[Create a free-form roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-a-roadmap-in-roadmap-planning.md)
 

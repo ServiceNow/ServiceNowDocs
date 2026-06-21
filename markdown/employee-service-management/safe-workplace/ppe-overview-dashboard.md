@@ -2,6 +2,7 @@
 title: PPE Inventory Overview dashboard
 description: Use the PPE Inventory Overview dashboard to track PPE items that are in stock, on order, and assigned to employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/safe-workplace/ppe-overview-dashboard.html
 release: yokohama
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ Use the PPE Inventory Overview dashboard to track PPE items that are in stock, o
 
 To view the dashboard, navigate to **PPE Inventory Management** &gt; **Overview Dashboard**.
 
-![PPE Overview dashboard](../image/ppe-overview-dashboard.png "PPE Inventory Overview dashboard")
+\[Omitted image "ppe-overview-dashboard.png"\] Alt text: PPE Overview dashboard
 
 ## End users and roles
 
@@ -41,5 +42,5 @@ To view the dashboard, navigate to **PPE Inventory Management** &gt; **Overview 
 |Consumable Models|All models for consumable PPE.|
 |Stock Rules|All stock rules for PPE.|
 
-**Parent Topic:**[Workplace PPE Inventory Management](ppe-inventory-management.md)
+**Parent Topic:**[Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/ppe-inventory-management.md)
 

@@ -2,6 +2,7 @@
 title: Legacy - Conversation transcript template
 description: The conversation transcript .txt file contains information used to troubleshoot individual conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/chat-transcript-template.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -108,5 +109,5 @@ Name of the topic block defined in the current topic.-   Id: sys\_id of the topi
 -   Outputs: Output received from the topic block.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy - Conversations tab](../concept/conversation-tab.md)
+</table>**Parent Topic:**[Legacy - Conversations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-tab.md)
 

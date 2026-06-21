@@ -2,6 +2,7 @@
 title: Yokohama Patch 1
 description: The Yokohama Patch 1 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-patch-1.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-03-12"
@@ -17,7 +18,7 @@ The Yokohama Patch 1 release contains important problem fixes.
     -   Build date: 03-05-2025\_2133
     -   Build tag: glide-yokohama-12-18-2024\_\_patch1-02-21-2025
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -29,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Yokohama Patch 1 includes 289 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-yp1.png "Top 10 problem categories")
+\[Omitted image "prb-chart-yp1.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -37,12 +38,12 @@ Yokohama Patch 1 includes fixes for security-related problems that affected cert
 
 ## Changes in Yokohama Patch 1
 
--   **[Testing LLM topics](https://www.servicenow.com/docs/access?context=test-llm-topics&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US)**
+-   ****
 
     Under the skills search results,a **Matching** badge appears next to the skill discovered, whilevariables and values may also be listed \(such as the variable **@laptop\_make** and the value **macbook**\), depending on the topic
 
 
--   **[Topic Flow tab](https://www.servicenow.com/docs/access?context=vad-topic-flow-tab&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US)**
+-   ****
 
     Various updates, including:
 
@@ -5868,9 +5869,9 @@ This is a product update.
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
--   [Yokohama EA Hotfix 1](yokohama-patch-0-hf-1-PO.md)
--   [Yokohama security and notable fixes](yokohama-security-notables.md)
--   [All other Yokohama fixes](yokohama-all-other-fixes.md)
+-   [Yokohama EA Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-0-hf-1-PO.md)
+-   [Yokohama security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-security-notables.md)
+-   [All other Yokohama fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md)
 

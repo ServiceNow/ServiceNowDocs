@@ -2,6 +2,7 @@
 title: Script include - AILensActionService
 description: Use the AILensActionService script include together with Lens actions to leverage ServiceNow AI Lens as a service for extracting information from the provided images and getting answers to your questions.Creates an AILensActionService instance.Invokes ServiceNow AI Lens as a service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/servicenow-lens/ai-lens-action-service-api.html
 release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -24,7 +25,7 @@ This script include provides methods that enable the following:
 -   Gets response from Now Assist as per provided directions
 -   Does not require ServiceNow AI Lens desktop app
 
-**Parent Topic:**[ServiceNow AI Lens reference](../reference/servicenow-lens-reference.md)
+**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
 
 ## AILensActionService - AILensActionService\(\)
 

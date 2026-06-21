@@ -2,6 +2,7 @@
 title: Upgrade to Document Intelligence 3.0 or later from version 2.4 or earlier
 description: Document Intelligence 3.0 or later includes an updated database schema to support its transition from a scoped application to a ServiceNow AI Platform plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/document-intelligence/upgrade-to-document-intelligence-3-0.html
 release: yokohama
 product: Document Intelligence
 classification: document-intelligence
@@ -19,7 +20,7 @@ Document Intelligence 3.0 or later includes an updated database schema to suppor
 
 Review the information in this topic before you upgrade to Document Intelligence \(DocIntel\) 3.0 or later from version 2.4 or earlier.
 
-For more information on installation, see [Install Document Intelligence](../task/install-document-intelligence.md).
+For more information on installation, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/install-document-intelligence.md).
 
 ## Before the upgrade
 
@@ -53,7 +54,7 @@ After upgrading to Document Intelligence 3.0 or later from version 2.4 or earlie
 
  If you have custom code using DocIntel 2.4 or earlier flow actions, it should be updated to use 3.0 or later flow actions.
 
- For the list of tables, see [Components installed with Document Intelligence](installed-with-document-intelligence.md).
+ For the list of tables, see [Components installed with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/installed-with-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ For any integrations with Document Intelligence, add cross-scope records for the
 
  See the Cross-scope records section for the list of records to be added.
 
- For more detail on cross-scope records, see [Cross-scope privilege record](https://www.servicenow.com/docs/access?context=c_CrossScopePrivilegeRecord&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+ For more detail on cross-scope records, see .
 
 </td></tr></tbody>
 </table>## During the upgrade

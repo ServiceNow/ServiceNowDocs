@@ -2,6 +2,7 @@
 title: Robot pool in RPA Hub
 description: Create a robot pool in RPA Hub to distribute and manage the workload among multiple unattended robots for unattended bot processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/robot-pool-rpa.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -25,8 +26,8 @@ Robot pool feature is applicable for unattended robots only.
 
 There are two ways to assign robots:
 
--   Manual robot assignment: After you create a bot process, assign robots from the **Assign Robots** tab. For more information, see [Assign a robot to a bot process in RPA Hub](../task/assign-robots.md).
--   Robot Pool: On the Details tab of the bot process form, enable the robot pool option. For more information, see [Enable robot pool for a bot process in RPA Hub](../task/enable-robot-pool.md).
+-   Manual robot assignment: After you create a bot process, assign robots from the **Assign Robots** tab. For more information, see [Assign a robot to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/assign-robots.md).
+-   Robot Pool: On the Details tab of the bot process form, enable the robot pool option. For more information, see [Enable robot pool for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/enable-robot-pool.md).
 
 ## Challenges with manual robot assignment
 
@@ -62,20 +63,20 @@ The Invoice bot process also uses SLA based allocation type and has high priorit
 
 After R1 gracefully completes Order Management bot process execution, it can be used to start the execution on Invoicing Processing. After all the invoices are processed, R1 can be considered again to execute the Order Processing bot process with the help of a new execution. That is, by triggering the Invoice Processing bot process via the **Start Process** action manually or via a schedule.
 
-For more details about start process action, see [RPA Hub actions and subflow](../reference/rpa-hub-actions.md). For more information about graceful stop and stopping a bot process, see [Using Graceful Stop functionality in RPA Hub](graceful-stop-rpa.md) and [Stop an unattended bot process in RPA Hub](../task/stop-bot-process.md).
+For more details about start process action, see [RPA Hub actions and subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-hub-actions.md). For more information about graceful stop and stopping a bot process, see [Using Graceful Stop functionality in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/graceful-stop-rpa.md) and [Stop an unattended bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/stop-bot-process.md).
 
-![Snapshot of assigning robots in RPA Hub.](../image/robot-pool-assignment.png "Robot assignment in RPA Hub")
+\[Omitted image "robot-pool-assignment.png"\] Alt text: Snapshot of assigning robots in RPA Hub.
 
 ## New fields on the Bot Process form related to Robot Pool
 
 To enable the robot pool feature for a bot process in RPA Hub, do the following actions:
 
--   Create a robot pool. For more information, see [Create a robot pool in RPA Hub](../task/create-robot-pool.md).
--   Enable robot pool option for a bot process to map a bot process to the robot pool. For more information, see [Enable robot pool for a bot process in RPA Hub](../task/enable-robot-pool.md).
+-   Create a robot pool. For more information, see [Create a robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-robot-pool.md).
+-   Enable robot pool option for a bot process to map a bot process to the robot pool. For more information, see [Enable robot pool for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/enable-robot-pool.md).
 
 **Note:** A queue must be associated to a bot process for enabling robot pool. One queue is mapped to one bot process.
 
-You can associate a queue to bot process from the related list. For more information, see [Associate a queue to the bot process from the related list](../task/associate-queue-botprocess.md).
+You can associate a queue to bot process from the related list. For more information, see [Associate a queue to the bot process from the related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/associate-queue-botprocess.md).
 
 On the Bot Process form, as an Robotic Process Automation \(RPA\) release manager or an RPA admin, you can configure the following new fields in the Robot Pool section:
 
@@ -84,7 +85,7 @@ On the Bot Process form, as an Robotic Process Automation \(RPA\) release manage
 -   **Allocation Type**
 -   **Percentage Reduction** \(if you select the **Allocation Type** as **Percentage Reduction**\)
 
-For more information about these fields, see [Bot Process form in RPA Hub](../reference/bot-process-form.md).
+For more information about these fields, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/bot-process-form.md).
 
 ## Robots calculation
 
@@ -97,5 +98,5 @@ On the Queue form, as an RPA release manager or an RPA admin, you can configure 
 -   **Include All Work Items**
 -   **Work Item Count**
 
-For more information about these fields, see [Queue form in RPA Hub](../reference/queue-form.md). Configure these fields to calculate the number of robots required in robot pool for a successful execution of a bot process.
+For more information about these fields, see [Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/queue-form.md). Configure these fields to calculate the number of robots required in robot pool for a successful execution of a bot process.
 

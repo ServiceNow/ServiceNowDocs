@@ -2,6 +2,7 @@
 title: View open put away tasks for your stockroom
 description: View the open put away tasks for your stockroom in the Hardware Asset Workspace to get the details of the tasks that need action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/view-open-putaway-tasks-ham.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -35,7 +36,7 @@ The list of open Asset put away tasks are displayed.
 
 ## What to do next
 
-Put away the asset in the desired drop-off location in the stock room. Close the Asset put away task after adding the **Drop off location** field value in the Asset put away task form. For more information about closing Asset put away task, see [Close an Asset put away task](close-put-away-task-ham.md).
+Put away the asset in the desired drop-off location in the stock room. Close the Asset put away task after adding the **Drop off location** field value in the Asset put away task form. For more information about closing Asset put away task, see [Close an Asset put away task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/close-put-away-task-ham.md).
 
-**Parent Topic:**[Manage asset put away using the Hardware Asset Workspace](../concept/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+**Parent Topic:**[Manage asset put away using the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
 

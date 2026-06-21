@@ -2,6 +2,7 @@
 title: Work on a complaint task for a complaint case
 description: Work on a complaint task to perform a legal review or to provide business unit inputs for the associated complaint service case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-complaint-management/work-fso-complaint-task.html
 release: yokohama
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -19,7 +20,7 @@ Work on a complaint task to perform a legal review or to provide business unit i
 
 Role required: sn\_bom\_compl.agent or sn\_bom\_compl.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -32,7 +33,7 @@ If assignment rules are configured, the task is automatically assigned to an age
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Complaint service tasks**, open the task list.
 

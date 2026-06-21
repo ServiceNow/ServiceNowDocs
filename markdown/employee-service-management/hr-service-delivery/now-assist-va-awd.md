@@ -2,6 +2,7 @@
 title: Now Assist Virtual Agent topics for HR Service Delivery Advanced Integration with Workday
 description: You can use the Now Assist Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the Workday system in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/now-assist-va-awd.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ You can use the Now Assist Virtual Agent topics in Employee Center to place requ
 
 To access and use the Virtual Agent topics, verify the following:
 
--   [Configure Virtual Agent topics for HR Service Delivery Advanced Integration with Workday](../task/config-awd-va.md).
+-   [Configure Virtual Agent topics for HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/config-awd-va.md).
 -   Have one of the following roles: admin, sn\_hr\_sp.hrsp\_alumni, sn\_hr\_sp.hrsp\_contingent, sn\_hr\_sp.hrsp\_employee, sn\_hr\_sp.hrsp\_contractor, or sn\_hr\_sp.admin
 
 ## Available Spoke Subflows for Virtual Agent topics for HR Service Delivery Advanced Integration with Workday
@@ -173,7 +174,7 @@ Workday HR - Lookup Worker Profile
 
 The Lookup Worker Profile Virtual Agent topic enables you to view the profile of a coworker. From Employee Center, open a chat window and type in key words, for example, worker profile. After you have specified the details of coworkers, worker profile details of one or more users are displayed.
 
-![Lookup Profile 1](../image/awd-lookup-1.png) ![Lookup Profile 2](../image/awd-lookup-2.png)
+\[Omitted image "awd-lookup-1.png"\] Alt text: Lookup Profile 1 \[Omitted image "awd-lookup-2.png"\] Alt text: Lookup Profile 2
 
 ## Update Personal Details
 
@@ -189,31 +190,31 @@ You can update personal details in Virtual Agent using one of the following topi
 
 The Get User Paychecks Virtual Agent topic enables you to view your payslip details. From Employee Center, open a chat window and type in key words, for example, get payslips. After you provide the required details such as start date and end date, your payslip summary, in the form of pay period, gross pay, deductions, and net pay are displayed. A detailed breakdown of deductions is also displayed.
 
-![User Paychecks](../image/awd-paycheck.png)
+\[Omitted image "awd-paycheck.png"\] Alt text: User Paychecks
 
 ## Get Total Rewards
 
 The Get Total Rewards Virtual Agent topic enables you to view your rewards. From Employee Center, open a chat window and type in key words, for example, rewards.
 
-![Total Rewards](../image/awd-total-rewards.png)
+\[Omitted image "awd-total-rewards.png"\] Alt text: Total Rewards
 
 ## Get Time Off Balance
 
 The Get Time Off Balance Virtual Agent topic enables you to view your leave balance. From Employee Center, open a chat window and type in key words, for example, leave balance.
 
-![TimeOff Balance](../image/awd-timeoff-balance.png)
+\[Omitted image "awd-timeoff-balance.png"\] Alt text: TimeOff Balance
 
 ## Request Time Off
 
 The Request Timeoff Virtual Agent topic enables you to apply for leaves. From Employee Center, open a chat window and type in key words, for example, request time off. After you have specified required details such as start date and end date, the time off request is sent to the Workday system.
 
-![TimeOff 1](../image/awd-request-timeoff1.png) ![TimeOff 2](../image/awd-request-timeoff2.png)
+\[Omitted image "awd-request-timeoff1.png"\] Alt text: TimeOff 1 \[Omitted image "awd-request-timeoff2.png"\] Alt text: TimeOff 2
 
 ## Get Holiday Calendar
 
 The Get Holiday Calendar Virtual Agent topic enables you to view your holiday calendar. From Employee Center, open a chat window and type in key words, for example, holiday calendar. After specifying the calendar year, the holiday calendar appears in the chat.
 
-![Holiday Calendar 1](../image/awd-calendar1.png) ![Holiday Calendar 2](../image/awd-calendar2.png)
+\[Omitted image "awd-calendar1.png"\] Alt text: Holiday Calendar 1 \[Omitted image "awd-calendar2.png"\] Alt text: Holiday Calendar 2
 
-**Parent Topic:**[Using](using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
 

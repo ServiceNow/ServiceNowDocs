@@ -2,6 +2,7 @@
 title: Domain separation and Process Mining
 description: Domain separation is supported in Process Mining. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/domain-separation-process-optimization.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -25,7 +26,7 @@ Domain separation is supported in Process Mining. Domain separation enables you 
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of Process Mining
 
@@ -54,10 +55,10 @@ A new CIM initiative added from a Process Mining workspace is created in the pro
     **Note:** Cascade domain changes are not supported.
 
 
-**Parent Topic:**[Process Mining reference](process-mining-reference.md)
+**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/process-mining-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

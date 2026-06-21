@@ -2,6 +2,7 @@
 title: Change categories
 description: By categorizing the Operational Technology \(OT\) change requests, you can group and narrow the search for specific OT change requests. Categories also help stakeholders know what the change is about.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/operational-technology-change-management/ot-change-categories.html
 release: yokohama
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -30,5 +31,5 @@ When you can create an OT change request, you can choose from the categories lis
 |Firmware|Changes to the OT firmware.|
 |Other|Other changes not captures in the categories above.|
 
-**Parent Topic:**[Operational Technology Change Management reference](oper-tech-change-management-reference.md)
+**Parent Topic:**[Operational Technology Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-change-management/oper-tech-change-management-reference.md)
 

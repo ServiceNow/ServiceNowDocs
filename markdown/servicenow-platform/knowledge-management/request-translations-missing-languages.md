@@ -2,6 +2,7 @@
 title: Request missing translations for available languages
 description: Manually create translation tasks if an article does not have translation tasks created for all the languages you have configured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/request-translations-missing-languages.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

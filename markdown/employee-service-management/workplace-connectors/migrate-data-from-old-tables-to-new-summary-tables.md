@@ -2,6 +2,7 @@
 title: Migrate event data to new summary tables
 description: Migrate old sensor event data from the existing tables to the new summary data tables using the OnDemandDataMigration scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/migrate-data-from-old-tables-to-new-summary-tables.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
@@ -34,9 +35,9 @@ This job summarizes daily aggregated data based on specified criteria such as da
 4.  Select **Execute Now**.
 
 
-**Parent Topic:**[Workplace Connectors data summarization](../concept/data-summarization.md)
+**Parent Topic:**[Workplace Connectors data summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/data-summarization.md)
 
-**Previous topic:**[Run the DataSummarization on-demand job](run-the-datasummarization-on-demand-job.md)
+**Previous topic:**[Run the DataSummarization on-demand job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/run-the-datasummarization-on-demand-job.md)
 
-**Next topic:**[Emergency Response Management](../../business-continuity/concept/emergency-response-management.md)
+**Next topic:**[Emergency Response Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery/emergency-response-management.md)
 

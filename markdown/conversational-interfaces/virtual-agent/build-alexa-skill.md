@@ -2,6 +2,7 @@
 title: Build an Alexa skill model
 description: Build your Alexa-hosted skill on the Alexa developer console. Building a saved Alexa skill model helps you prepare the skill for testing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/build-alexa-skill.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent

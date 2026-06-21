@@ -2,6 +2,7 @@
 title: Configure alumni job preferences
 description: Set the questions that the alumni can choose to receive tailored job recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/config-alumni-job-pref.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

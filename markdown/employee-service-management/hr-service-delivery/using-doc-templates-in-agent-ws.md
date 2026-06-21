@@ -2,6 +2,7 @@
 title: Creating reusable templates in HR Service Delivery Agent Workspace
 description: Create consistent recurring documents by developing templates using Document Templates and use them in a generic workflow in HR Service Delivery Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/using-doc-templates-in-agent-ws.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,9 +18,9 @@ Create consistent recurring documents by developing templates using Document Tem
 
 Install the Document Templates plugin to use this feature.
 
-Use templates for communication letters to employees like verification letters or offer letters. Associating templates with an HR case and moving it to an appropriate working status, like Work in progress, retrieves the data from the case and integrates it with the template. For more information, see [Configure an HTML document template](../task/configure-HTML-doc-template.md).
+Use templates for communication letters to employees like verification letters or offer letters. Associating templates with an HR case and moving it to an appropriate working status, like Work in progress, retrieves the data from the case and integrates it with the template. For more information, see [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
 
-Agents can use templates to generate document tasks and get signoffs from the stakeholders. After all the participants sign the template, the document is created. For more information, see [Create and sign document tasks from document tasks in Agent Workspace](../task/create-doc-task-from-doc-template-agent-ws.md).
+Agents can use templates to generate document tasks and get signoffs from the stakeholders. After all the participants sign the template, the document is created. For more information, see [Create and sign document tasks from document tasks in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/create-doc-task-from-doc-template-agent-ws.md).
 
 **Note:** Templates of type HTML are only supported to be used for the Document templates.
 

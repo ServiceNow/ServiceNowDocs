@@ -2,6 +2,7 @@
 title: View an agent's profile on a mobile device
 description: View the profile information of all the agents in your team through the Field Service Contractor for mobile application so you can contact them when necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-agent-details-fsc.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -36,5 +37,5 @@ As a contractor manager, you can access details on your team members such as the
 5.  Review the agent profile information.
 
 
-**Parent Topic:**[Field Service Contractor for mobile](../concept/wot-fsc.md)
+**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

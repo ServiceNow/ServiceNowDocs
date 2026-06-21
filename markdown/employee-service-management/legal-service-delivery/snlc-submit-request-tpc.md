@@ -2,6 +2,7 @@
 title: Create a legal request for a third-party contract review
 description: Create a legal request for the legal team to review a third-party contract or the terms and conditions provided by the third party.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-service-delivery/snlc-submit-request-tpc.html
 release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -25,15 +26,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Access the third-party review intake form either from the Legal Service Portal or from Employee Center.
 
-<table id="choicetable_new_tpc"><thead><tr><th align="left" id="d536652e59">
+<table id="choicetable_new_tpc"><thead><tr><th align="left" id="d222585e59">
 
 Method
 
-</th><th align="left" id="d536652e62">
+</th><th align="left" id="d222585e62">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d536652e68">
+</th></tr></thead><tbody><tr><td id="d222585e68">
 
 **Legal Service Portal**
 
@@ -44,7 +45,7 @@ Action
 3.  Search for and open the **Third-party review** request item.
 
 
-</td></tr><tr><td id="d536652e107">
+</td></tr><tr><td id="d222585e107">
 
 **Employee Center**
 
@@ -58,21 +59,21 @@ Action
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For a description of the field values, see [Third-party Contract Review form](../reference/snlc-tpc-intake-fields.md)
+    For a description of the field values, see [Third-party Contract Review form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-tpc-intake-fields.md)
 
 3.  Add single or multiple contract and supporting documents to be reviewed by the legal department.
 
     1.  In the Documents section, attach documents.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d536652e188">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d222585e188">
 
 Method
 
-</th><th align="left" id="d536652e191">
+</th><th align="left" id="d222585e191">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d536652e197">
+</th></tr></thead><tbody><tr><td id="d222585e197">
 
 **__Choose the file__**
 
@@ -82,7 +83,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d536652e222">
+</td></tr><tr><td id="d222585e222">
 
 **__Drag the file__**
 
@@ -93,15 +94,15 @@ Drag files from your local computer into your browser window to attach them to t
 </td></tr></tbody>
 </table>4.  Classify the attached documents.
 
-<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d536652e241">
+<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d222585e241">
 
 Classification
 
-</th><th align="left" id="d536652e244">
+</th><th align="left" id="d222585e244">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d536652e250">
+</th></tr></thead><tbody><tr><td id="d222585e250">
 
 **Contract document**
 
@@ -113,7 +114,7 @@ In the **Document type** list, select the contract type that is relevant to the 
 
  **Note:** At least one document should be classified as a contract document.
 
-</td></tr><tr><td id="d536652e274">
+</td></tr><tr><td id="d222585e274">
 
 **Supporting document**
 
@@ -135,18 +136,18 @@ In the **Document type** list, select **Supporting Documents**.
 
 -   A legal request for reviewing the attached third-party contracts and any supporting documents is created in the New state.
 -   The contract documents and supporting documents are available in the respective tabs, and the contract status is New.
--   For a custom record producer, if no documents are attached, the legal request is created in the Draft state. You must upload the documents and resubmit the contract request. For more information, see [Resubmit third-party contract request](snlc-multiple-doc-tpc.md).
+-   For a custom record producer, if no documents are attached, the legal request is created in the Draft state. You must upload the documents and resubmit the contract request. For more information, see [Resubmit third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-multiple-doc-tpc.md).
 
-For more information on how to view and track the legal request, see [View and track third-party contract review request as a legal user](snlc-tpc-view-request.md).
+For more information on how to view and track the legal request, see [View and track third-party contract review request as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-tpc-view-request.md).
 
 ## What to do next
 
-As a member of the legal department contract support team, work on the request to review the contract and get it signed. For more information, see [Work on a third-party contract review request](snlc-work-tpc-review-request.md)
+As a member of the legal department contract support team, work on the request to review the contract and get it signed. For more information, see [Work on a third-party contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-work-tpc-review-request.md)
 
 .
 
--   **[Resubmit third-party contract request](snlc-multiple-doc-tpc.md)**  
+-   **[Resubmit third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-multiple-doc-tpc.md)**  
 As a legal user, resubmit contract request in draft state.
 
-**Parent Topic:**[Third-party contract review requests](../concept/snlc-request-third-party-contract-1.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

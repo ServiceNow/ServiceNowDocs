@@ -2,6 +2,7 @@
 title: APM vendor entity mappings for Service Observability
 description: Understand how Service Observability maps service, host, and database entities to your Application Performance Management \(APM\) vendor resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/apm-vendor-entity-mappings.html
 release: yokohama
 product: Service Observability
 classification: service-observability
@@ -15,7 +16,7 @@ breadcrumb: [Service Observability reference, Service Observability, ITOM AIOps,
 
 Understand how Service Observability maps service, host, and database entities to your Application Performance Management \(APM\) vendor resources.
 
-Service Observability displays metrics from your APM vendor for services, hosts, and databases on the Observability dashboards based on the key:value pairs in the [mapping rules you create](../task/create-and-manage-observability-data-mappings.md) during configuration. Service Observability sends a request to the APM vendor using that mapping as a filter to find related entities. Any additional filtering needed to find the entities is noted in the following sections.
+Service Observability displays metrics from your APM vendor for services, hosts, and databases on the Observability dashboards based on the key:value pairs in the [mapping rules you create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md) during configuration. Service Observability sends a request to the APM vendor using that mapping as a filter to find related entities. Any additional filtering needed to find the entities is noted in the following sections.
 
 ## Amazon CloudWatch entity mapping
 
@@ -183,9 +184,9 @@ Databases returned by filtering the `postgresql.connections` metric, filtered by
 
     For example, say you have a service named `internet-banking-4` that you want to use in a mapping and it doesn't contain metadata. You set up the mapping as shown in this screenshot.
 
-    ![How to map a service that doesn't contain metadata](../image/so_dd_mapping.png "Datadog mapping if no metadata is present")
+    \[Omitted image "so\_dd\_mapping.png"\] Alt text: How to map a service that doesn't contain metadata
 
--   Default dashboard templates: The Requests, Errors, and Latency charts on the Overview and Observability dashboard templates are created using the Datadog `trace.http.request` trace metric. If a service isn't emitting that metric, no data is found. You can customize the template to use a different trace metric query. See [Customize Service Observability dashboard templates](../task/customize-service-observability-dashboard-templates.md) for more information.
+-   Default dashboard templates: The Requests, Errors, and Latency charts on the Overview and Observability dashboard templates are created using the Datadog `trace.http.request` trace metric. If a service isn't emitting that metric, no data is found. You can customize the template to use a different trace metric query. See [Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md) for more information.
 
 ## Dynatrace entity mapping
 
@@ -317,5 +318,5 @@ Not supported
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Observability reference](service-observability-reference.md)
+</table>**Parent Topic:**[Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability-reference.md)
 

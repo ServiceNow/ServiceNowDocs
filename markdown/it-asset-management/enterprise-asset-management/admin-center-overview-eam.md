@@ -2,6 +2,7 @@
 title: Admin center overview for Enterprise Asset Workspace
 description: Use the Admin center view in the Enterprise Asset Workspace to perform all your configuration and administrative tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/admin-center-overview-eam.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -33,14 +34,14 @@ Use the Admin center to perform the following tasks:
 -   Integrate with third-party shipping carriers
 -   Create a knowledge article
 -   Opt-in to Enterprise Asset Management
--   [Create failure and resolution codes](manage-failure-res-codes-eam.md)
+-   [Create failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md)
 
     **Important:** Options to create failure and resolution codes are available in Enterprise Asset Management version 9.0 and later.
 
--   [Set up the configurations to monitor the key performance indicators \(KPIs\) of the enterprise assets](configure-kpi-settings-eam.md)
+-   [Set up the configurations to monitor the key performance indicators \(KPIs\) of the enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/configure-kpi-settings-eam.md)
 
     **Important:** The KPI configuration options are available in Enterprise Asset Management version 9.0 and later.
 
 
-![Admin view](../image/admin-view-eam.png)
+\[Omitted image "admin-view-eam.png"\] Alt text: Admin view
 

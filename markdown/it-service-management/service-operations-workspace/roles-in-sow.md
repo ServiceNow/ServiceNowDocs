@@ -2,6 +2,7 @@
 title: Roles in Service Operations Workspace for ITSM
 description: You can configure the user access for Service Operations Workspace \(SOW\) pages using various roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/roles-in-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -362,4 +363,10 @@ Provides the read access to Schedules page.
 Users with the oc\_read role can access the On-call Schedules, Experts On-call, Escalation Tracking, and other On-call features in Service Operations Workspace.
 
 </td></tr></tbody>
-</table>
+</table>**Tip:** If the user has a role that inherits SOW access \(such as `sn_incident_read`\) but cannot access the workspace, verify that:
+
+-   id="ul\_access\_troubleshoot"
+-   The ITSM Role plugin `com.snc.itsm.roles` is installed and active.
+-   The user was assigned the role directly or via group membership.
+-   No custom ACL is overriding the default role-based access for SOW pages.
+

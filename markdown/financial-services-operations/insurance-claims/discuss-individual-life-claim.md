@@ -2,6 +2,7 @@
 title: Associate a discussion with a claim record
 description: Associate a discussion with an Individual Life Claims record so that other users have access to the claim record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/discuss-individual-life-claim.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims
@@ -27,7 +28,7 @@ Create or view an ongoing sidebar discussion for cases.
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../../use/reporting/image/inline-data-vis-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
 
 3.  Open a case from the Individual death claims list.
 

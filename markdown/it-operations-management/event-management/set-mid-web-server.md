@@ -2,6 +2,7 @@
 title: Install the .pem file in the MID unified keystore and set up the MID Web Server
 description: Install the .pem file into the MID unified keystore and set up the MID Web Server to enable configuring mTLS on your MID Web Server and agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/set-mid-web-server.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -17,7 +18,7 @@ Install the .pem file into the MID unified keystore and set up the MID Web Serve
 
 ## Before you begin
 
-Copy the `labmid/mid.pem` file \(created in the [Create keys and certificates](create-keys-and-certificates.md) procedure\) to your MID Web Server host directory.
+Copy the `labmid/mid.pem` file \(created in the [Create keys and certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-keys-and-certificates.md) procedure\) to your MID Web Server host directory.
 
 Role required: agent\_client\_collector\_admin
 
@@ -51,7 +52,7 @@ Role required: agent\_client\_collector\_admin
 
 ## What to do next
 
-[Connect the agent to the MID Web Server using TLS](agent-mid-connect.md).
+[Connect the agent to the MID Web Server using TLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/agent-mid-connect.md).
 
-**Parent Topic:**[MID Web Server and agent mTLS Authentication](../../event-management/concept/mid-web-server-mTLS-authentication.md)
+**Parent Topic:**[MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)
 

@@ -8,313 +8,317 @@ doc_type: toc
 
 # Yokohama Impact
 
-- [Impact]()
-  - [Impact operating model]()
-    - [Impact packages]()
-    - [Impact Foundations](foundations.md)
-    - [Impact Steady State]()
-    - [Group Views](group-views.md)
-    - [Impact Squad]()
-  - [User roles in Impact]()
-  - [Initiatives & Accelerators](accelerator-and-initiative-list/impact-initiatives.md)
-    - [Initiatives catalog](accelerator-and-initiative-list/initiatives-catalog.md)
-      - [Access to Expertise](accelerator-and-initiative-list/access-expertise-initiative.md)
-        - [Request Access to Expertise](accelerator-and-initiative-list/access-expertise.md)
-      - [Get started with Developer Support](accelerator-and-initiative-list/getting-started-developer-support.md)
-      - [Preventive Care](accelerator-and-initiative-list/preventive-care.md)
-    - [Accelerator catalog](accelerator-and-initiative-list/accelerator-catalog.md)
-      - [Architecture Accelerators](accelerator-and-initiative-list/architecture-accelerators.md)
-        - [Artificial Intelligence Readiness Assessment](accelerator-and-initiative-list/artificial-intelligence-readiness-assessment.md)
-        - [Architecture Blueprint](accelerator-and-initiative-list/architecture-blueprint.md)
-          - [Architecture Blueprint – Advanced](accelerator-and-initiative-list/architecture-blueprint.md)
-          - [Architecture Blueprint – Total](accelerator-and-initiative-list/architecture-blueprint.md)
-        - [Common Service Data Model (CSDM) Assessment Accelerators](accelerator-and-initiative-list/CSDM-assessment.md)
-          - [Common Service Data Model (CSDM) Assessment - Foundation Data - Advanced](accelerator-and-initiative-list/csdm-assessment-foundation-data-advanced.md)
-          - [Common Service Data Model (CSDM) Assessment-Application Services (Crawl) - Advanced](accelerator-and-initiative-list/csdm-assessment-application-services-crawl-adv.md)
-          - [Common Service Data Model (CSDM) Assessment Technical Services (Walk) - Advanced](accelerator-and-initiative-list/csdm_assessment_technical_services.md)
-          - [Common Service Data Model (CSDM) Assessment - Business Services (Run) - Advanced](accelerator-and-initiative-list/csdm_assessment_business_services.md)
-          - [Common Service Data Model (CSDM) Assessment– Total](accelerator-and-initiative-list/CSDM-assessment-total.md)
-        - [Data Management and Governance](accelerator-and-initiative-list/data-mgt-governance.md)
-        - [Design Review](accelerator-and-initiative-list/design-review.md)
-          - [Design Review- Advanced](accelerator-and-initiative-list/design-review.md)
-          - [Design Review- Total](accelerator-and-initiative-list/design-review.md)
-        - [Generative AI - Virtual Agent Conversational Catalog](accelerator-and-initiative-list/generative-ai-conversational-catalog.md)
-        - [Health Assessment](accelerator-and-initiative-list/health-assessment.md)
-          - [Health Assessment – Guided](accelerator-and-initiative-list/health-assessment-guided.md)
-          - [Health Assessment – Advanced](accelerator-and-initiative-list/health-assesment-advanced-total.md)
-          - [Health Assessment - Total](accelerator-and-initiative-list/health-assessment-total.md)
-        - [Integration Strategy](accelerator-and-initiative-list/integration-strategy.md)
-          - [Integration Strategy- Advanced](accelerator-and-initiative-list/integration-strategy.md)
-          - [Integration Strategy- Total](accelerator-and-initiative-list/integration-strategy.md)
-        - [Multi-instance Topologies](accelerator-and-initiative-list/multi-instance-topologies.md)
-        - [Release and Deployment Advisory for Pro-code Development](accelerator-and-initiative-list/release-deployment-advisory-pro-code-development.md)
-        - [Technical Governance](accelerator-and-initiative-list/technical-governance.md)
-        - [UX: Catalog Request Experience Review](accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.md)
-        - [UX: Design for Employee Center](accelerator-and-initiative-list/ux-design-employee-center.md)
-        - [UX: Portal Experience Review](accelerator-and-initiative-list/ux-review-employee-center.md)
-        - [UX: Taxonomy Review and Design](accelerator-and-initiative-list/ux_review_unified_taxonomy.md)
-        - [UX: Why It Matters and How to Apply It](accelerator-and-initiative-list/ux-why-it-matters-how-to-apply-it.md)
-      - [Strategy Accelerators](accelerator-and-initiative-list/strategy-accelerators.md)
-        - [Center of Excellence & Innovation Design](accelerator-and-initiative-list/CoEI-design.md)
-        - [Center of Excellence and Innovation Maturity Assessment Accelerator](accelerator-and-initiative-list/coei-maturity-assessment-accelerator.md)
-        - [Champion Engagement](accelerator-and-initiative-list/champion-engagement.md)
-          - [Champion Engagement – Advanced](accelerator-and-initiative-list/champion-engagement.md)
-          - [Champion Engagement – Total](accelerator-and-initiative-list/champion-engagement.md)
-        - [Citizen Development Program Design](accelerator-and-initiative-list/citizen-development-accelerator.md)
-        - [CoEI Influencing Funding Strategy](accelerator-and-initiative-list/coei-influencing-factor-assessment-part-2.md)
-        - [Customer Service Management Product Maturity Assessment](accelerator-and-initiative-list/csm-product-maturity-assessment.md)
-        - [Develop Partner Strategy](accelerator-and-initiative-list/develop-partner-strategy.md)
-          - [Develop Partner Strategy – Advanced](accelerator-and-initiative-list/develop-partner-strategy.md)
-          - [Develop Partner Strategy – Total](accelerator-and-initiative-list/develop-partner-strategy.md)
-        - [HRSD Maturity Assessment](accelerator-and-initiative-list/hrsd-maturity-assessment.md)
-        - [Integrated Risk Management Maturity Assessment](accelerator-and-initiative-list/IRM-maturity-assessment.md)
-        - [ITSM Maturity Assessment](accelerator-and-initiative-list/itsm-maturity-assessment.md)
-        - [LSD Maturity Assessment](accelerator-and-initiative-list/lsd-maturity-assessment.md)
-        - [On-Demand Value Report](accelerator-and-initiative-list/on-demand-value-report.md)
-        - [Portfolio Governance](accelerator-and-initiative-list/portfolio-governance.md)
-        - [Project Portfolio Management Maturity Assessment](accelerator-and-initiative-list/ppm-maturity-assessment.md)
-        - [ServiceNow Governance](accelerator-and-initiative-list/servicenow-governance.md)
-        - [Software Asset Management Maturity Assessment](accelerator-and-initiative-list/sw-asset-mgmt-maturity-assessment.md)
-        - [Staffing and Roles Review](accelerator-and-initiative-list/staffing-and-roles-review.md)
-          - [Staffing and Roles Review – Advanced](accelerator-and-initiative-list/staffing-and-roles-review.md)
-          - [Staffing and Roles Review – Total](accelerator-and-initiative-list/staffing-and-roles-review.md)
-        - [Strategy Governance](accelerator-and-initiative-list/strategy-governance.md)
-        - [Success Readiness Assessment (SRA)](accelerator-and-initiative-list/success-readiness-assessment.md)
-        - [Value Potential](accelerator-and-initiative-list/value-potential-undeployed-apps.md)
-        - [Vision and Strategy](accelerator-and-initiative-list/vision-and-strategy.md)
-          - [Vision and Strategy – Advanced](accelerator-and-initiative-list/vision-and-strategy.md)
-          - [Vision and Strategy – Total](accelerator-and-initiative-list/vision-and-strategy.md)
-      - [Technical Accelerators](accelerator-and-initiative-list/technical-accelerators.md)
-        - [Access to Experts](accelerator-and-initiative-list/access-experts-acc.md)
-        - [Extend Your AI Search](accelerator-and-initiative-list/extend-your-ai-search.md)
-        - [Extend Your Employee Center to Pro](accelerator-and-initiative-list/extend-employee-center-pro.md)
-        - [Introduction to CMDB: Ingestion](accelerator-and-initiative-list/introduction-to-cmdb-ingestion.md)
-        - [Introduction to Instance Observer-Guided](accelerator-and-initiative-list/intro-instance-observer.md)
-        - [Introduction to Instance Readiness Assessment](accelerator-and-initiative-list/introduction-instance-readiness-assessment.md)
-        - [Jumpstart Your AI Agent Studio](accelerator-and-initiative-list/jumpstart-ai-agent-studio.md)
-        - [Jumpstart Your AI Agents for CSM](accelerator-and-initiative-list/jumpstart-ai-agents-csm.md)
-        - [Jumpstart Your AI Agents for ITSM](accelerator-and-initiative-list/jumpstart-your-ai-agents-for-itsm.md)
-        - [Jumpstart Your AI Search](accelerator-and-initiative-list/jumpstart-your-ai-search.md)
-          - [Jumpstart Your AI Search- US Public Sector](accelerator-and-initiative-list/usps-jumpstart-your-ai-search.md)
-        - [Jumpstart Your App Engine](accelerator-and-initiative-list/jumpstart-your-app-engine.md)
-          - [Jumpstart Your App Engine- US Public Sector](accelerator-and-initiative-list/usps-jumpstart-your-app-engine.md)
-        - [Jumpstart Your Automated Testing](accelerator-and-initiative-list/jumpstart-your-automated-testing.md)
-          - [Jumpstart Your Automated Testing- US Public Sector](accelerator-and-initiative-list/usps-jumpstart-your-automated-testing.md)
-        - [Jumpstart Your CMDB](accelerator-and-initiative-list/jumpstart-cmdb.md)
-        - [Jumpstart Your CSDM: Foundation](accelerator-and-initiative-list/jumpstart-csdm.md)
-        - [Jumpstart Your CSM Configurable Workspace](accelerator-and-initiative-list/csm-configurable-workspace.md)
-        - [Jumpstart Your Database Management](accelerator-and-initiative-list/data-management.md)
-        - [Jumpstart Your Document Intelligence](accelerator-and-initiative-list/jumpstart-document-intelligence.md)
-        - [Jumpstart Your Employee Center](accelerator-and-initiative-list/jumpstart-employee-center.md)
-          - [Jumpstart Your Employee Center US Public Sector](accelerator-and-initiative-list/jumpstart-employee-center-usps.md)
-        - [Jumpstart Your Employee Journey Management](accelerator-and-initiative-list/jumpstart-employee-journey-management.md)
-        - [Jumpstart Your Event Management](accelerator-and-initiative-list/jumpstart-event-mgmt.md)
-        - [Jumpstart Your Issue Auto Resolution](accelerator-and-initiative-list/jumpstart-issue-auto-resolution.md)
-        - [Jumpstart Your GenAI](accelerator-and-initiative-list/jumpstart-gen-ai.md)
-        - [Jumpstart Your Knowledge Management](accelerator-and-initiative-list/jumpstart-knowledge-management.md)
-        - [Jumpstart Your Legacy Workflow Migration](accelerator-and-initiative-list/jumpstart-legacy-workflow-migration.md)
-        - [Jumpstart Your Migration of Platform Analytics](accelerator-and-initiative-list/jumpstart-migration-platform-analytics.md)
-        - [Jumpstart Your Multi-lingual Virtual Agent](accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent.md)
-          - [Jumpstart Your Multi-lingual Virtual Agent - US Public Sector](accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent-usps.md)
-        - [Jumpstart Your Natural Language Understanding](accelerator-and-initiative-list/jumpstart-NLU.md)
-        - [Jumpstart Your Now Assist for Creator](accelerator-and-initiative-list/jumpstart-now-assist-creator.md)
-        - [Jumpstart Your Now Assist in Virtual Agent](accelerator-and-initiative-list/jumpstart-now-assist-virtual-agent.md)
-        - [Jumpstart Your Now Assist Skill Kit](accelerator-and-initiative-list/jumpstart-now-assist-skill-kit.md)
-        - [Jumpstart Your Platform Analytics](accelerator-and-initiative-list/jumpstart-platform-analytics.md)
-        - [Jumpstart Your Predictive Intelligence](accelerator-and-initiative-list/jumpstart-predictive-intelligence.md)
-        - [Jumpstart Your Process Mining](accelerator-and-initiative-list/jumpstart-process-mining.md)
-        - [Jumpstart Your Service Mapping](accelerator-and-initiative-list/jumpstart-service-mapping.md)
-        - [Jumpstart Your ServiceNow AI Journey](accelerator-and-initiative-list/jumpstart-snow-ai-journey.md)
-        - [Jumpstart your Service Operations Workspace](accelerator-and-initiative-list/jumpstart-your-service-operations-workspace.md)
-          - [Jumpstart Your Service Operations Workspace - US Public Sector](accelerator-and-initiative-list/jumpstart-service-operations-usps.md)
-        - [Jumpstart Your Strategic Portfolio Management – Planning Workspace](accelerator-and-initiative-list/jumpstart-spm-planning-workspace.md)
-        - [Jumpstart Your Strategic Portfolio Management – Resource Management Workspace](accelerator-and-initiative-list/jumpstart-strategic-portfolio-management-resource-management-workspace.md)
-        - [Jumpstart Your Subscription Management](accelerator-and-initiative-list/Jumpstart-your-subscription-management.md)
-        - [Jumpstart Your Success Dashboard](accelerator-and-initiative-list/jumpstart-your-success-dashboard.md)
-          - [Jumpstart Your Success Dashboard- US Public Sector](accelerator-and-initiative-list/usps-jumpstart-your-success-dashboard.md)
-        - [Jumpstart Your Task Intelligence](accelerator-and-initiative-list/jumpstart-task-intelligence.md)
-        - [Jumpstart Your Upgrade](accelerator-and-initiative-list/jumpstart-your-upgrade.md)
-          - [Jumpstart Your Upgrade- US Public Sector](accelerator-and-initiative-list/usps-jumpstart-your-upgrade.md)
-        - [Jumpstart Your Virtual Agent](accelerator-and-initiative-list/jumpstart-your-virtual-agent.md)
-          - [Jumpstart Your Virtual Agent- US Public Accelerator](accelerator-and-initiative-list/usps-jumpstart-your-virtual-agent.md)
-        - [TuneUp Your AI Search](accelerator-and-initiative-list/tuneup-ai-search.md)
-        - [TuneUp Your Configuration Management Database](accelerator-and-initiative-list/tuneup-your-cmdb.md)
-        - [TuneUp Your Employee Center](accelerator-and-initiative-list/tuneup-employee-center.md)
-        - [TuneUp Your Hardware Asset Management](accelerator-and-initiative-list/tuneup-hw-asset-management.md)
-        - [TuneUp Your IT Asset Management](accelerator-and-initiative-list/tuneup-your-it-asset-management.md)
-        - [TuneUp Your ITOM Discovery](accelerator-and-initiative-list/tuneup-itom-discovery.md)
-        - [TuneUp Your Platform Analytics](accelerator-and-initiative-list/tuneup-platform-analytics.md)
-        - [TuneUp Your Security](accelerator-and-initiative-list/tuneup-your-security.md)
-        - [TuneUp Your Software Asset Management](accelerator-and-initiative-list/tuneup-sw-asset-mgmt.md)
-        - [TuneUp Your Virtual Agent](accelerator-and-initiative-list/tuneup-your-virtual-agent.md)
-          - [TuneUp Your Virtual Agent - Assessment](accelerator-and-initiative-list/tuneup-virtual-agent-assessment.md)
-          - [TuneUp Your Virtual Agent – NLU (Natural Language Understanding)](accelerator-and-initiative-list/tuneup-virtual-agent-nlu.md)
-          - [TuneUp Your Virtual Agent – Performance Monitoring](accelerator-and-initiative-list/tuneup-virtual-agent-performance-monitoring.md)
-          - [TuneUp Your Virtual Agent – UX (User Experience)](accelerator-and-initiative-list/tuneup-virtual-agent-ux.md)
-  - [Impact Delivery Instance (formerly Impact Digital Experience)]()
-    - [Activity Center]()
-      - [Activity Center Conversations]()
-        - [Create and manage conversations]()
-      - [Activity Center All Recommendations]()
-    - [Platform Health]()
-      - [Impact Developer Support](developer-support.md)
-        - [Using Developer Support](developer-support-usage.md)
-        - [Create a Developer Support case](create-developer-support-case.md)
-        - [Manage Developer Support user access](manage-developer-support-user-access.md)
-      - [Impact Instance Observer](io-overview.md)
-        - [Instance Observer home page](instance-observer-home-page.md)
-        - [Instance Observer user configurable dashboard](user-configurable-dashboard.md)
-          - [Create a dashboard](customize-instance-observer-dashboard.md)
-        - [Performance](instance-observer-performance.md)
-          - [Getting started with Performance charts](io-getting-started-perf-charts.md)
-          - [Anomalies detection](anomalies-detection.md)
-            - [Configure anomaly alerts](configure-anomaly-alerts.md)
-            - [Anomaly detection algorithm](anomaly-detection-algorithm.md)
-        - [Availability](io-availability.md)
-          - [Cloud availability](cloud-availability.md)
-        - [Alerts in Instance Observer](io-alerts-intro.md)
-          - [Key alerts – activation and notifications](io-alerts.md)
-            - [Configure Key Alerts](configuring-io-alerts.md)
-            - [Generate thresholds for Key Alerts](generate-thresholds-io-alerts.md)
-          - [Manage Instance Observer alerts](manage-io-alerts.md)
-          - [Set an alert to monitor the average response time of applications](io-app-monitor-alert-card.md)
-          - [Track instance performance with the top six timely alerts – Guided users](io-alerts-guided-cust.md)
-          - [Use popular alerts to receive notifications – Advanced and Total users](io-alerts-popular-total-adv-cust.md)
-          - [Root Cause Correlation](root-cause-correlation.md)
-            - [Configure RCC alerts](configure-rcc-alerts.md)
-            - [Generate RCC report](generate-rcc-report.md)
-            - [Utilizing RCC history to perform root cause analysis](utilizing-rcc-reports-perform-root-cause-analysis.md)
-            - [Generative AI powered root cause analysis](generative-ai-root-cause-anal.md)
-          - [Instance Observer Notifications](i-o-notifications.md)
-          - [Custom payload in alerts integration](custom-payload-help-guide-impact.md)
-        - [Analytics](io-analytics.md)
-          - [User Experience](user-experience-insights.md)
-          - [Manage User Experience](manage-user-experience.md)
-          - [Track the response time of applications to monitor their performance](monitor-apps-user-experience-io.md)
-        - [Triaged instance data](io-triage.md)
-        - [Reports](instance-observer-reporting.md)
-        - [Help](io-help.md)
-      - [HealthScan]()
-        - [Health Assessment Dashboard]()
-          - [Manage Health Assessment Dashboard]()
-        - [Monthly Health Assessment]()
-          - [Schedule Monthly Health Assessment scans]()
-        - [HealthScan definitions]()
-          - [Healthscan definitions updates: May 2025 store]()
-          - [HealthScan definitions updates: November 2024 release]()
-          - [HealthScan definitions updates: October hotfix]()
-          - [HealthScan definitions updates: August release]()
-    - [Value Management]()
-      - [Objectives and outcomes](value-blueprint.md)
-      - [Value reports](value-library/business-value-reports.md)
-      - [Value calculation for Impact Value Reports](value-library/value-calculation-for-impact-value-reports.md)
-      - [Data Collection Toolkit](value-library/data-collection-toolkit.md)
-        - [Install Data Collection Content Pack dependent plugins](value-library/dc-install-plugins.md)
-        - [Modifying the Data Collection configuration](value-library/dc-all-modify.md)
-        - [Upgrading the Data Collection Content Pack](value-library/dc-all-upgrade.md)
-        - [Impact Value Management Data Collection for APM](value-library/data-collection-apm.md)
-          - [Install the Data Collection Pack for APM](value-library/dc-apm-install.md)
-          - [Configure Data Collection for APM](value-library/dc-apm-config.md)
-          - [Activate Data Collection for APM](value-library/dc-apm-activate.md)
-          - [Review APM artifacts](value-library/dc-apm-installation-artifacts.md)
-        - [Impact Value Management Data Collection Content Pack for App Engine](value-library/data-collection-app-engine.md)
-          - [Install the Data Collection Content Pack for App Eng](value-library/dc-app-eng-install.md)
-          - [Configure Data Collection for App Engine](value-library/dc-app-eng-config.md)
-          - [Activate Data Collection for App Engine](value-library/dc-app-eng-activate.md)
-          - [Review App Engine artifacts](value-library/dc-app-engine-installation-artifacts.md)
-        - [Impact Value Management Data Collection Content Pack for CSM](value-library/data-collection-csm.md)
-          - [Install the Data Collection Pack for CSM](value-library/dc-csm-install.md)
-          - [Configure Data Collection for CSM](value-library/dc-csm-config.md)
-          - [Activate Data Collection for CSM](value-library/dc-csm-activate.md)
-          - [Review CSM artifacts](value-library/dc-csm-install-artifacts.md)
-        - [Impact Value Management Data Collection Content Pack for SAM](value-library/data-collection-sam.md)
-          - [Install the Data Collection Pack for SAM](value-library/dc-sam-install.md)
-          - [Configure Data Collection for SAM](value-library/dc-sam-config.md)
-          - [Activate Data Collection for SAM](value-library/dc-sam-activate.md)
-          - [Review SAM artifacts](value-library/dc-sam-install-artifacts.md)
-        - [Impact Value Management Data Collection Content Pack for HAM](value-library/data-collection-ham.md)
-          - [Install the Data Collection Pack for HAM](value-library/dc-ham-install.md)
-          - [Configure Data Collection for HAM](value-library/dc-ham-config.md)
-          - [Activate Data Collection for HAM](value-library/dc-ham-activate.md)
-          - [Review HAM artifacts](value-library/dc-ham-install-artifacts.md)
-        - [Impact Value Management Data Collection Content Pack for ITSM](value-library/data-collection-itsm.md)
-          - [Install the Data Collection Pack ITSM](value-library/dc-itsm-install.md)
-          - [Configure Data Collection for ITSM](value-library/dc-itsm-config.md)
-          - [Activate Data Collection for ITSM](value-library/dc-itsm-activate.md)
-          - [Review ITSM artifacts](value-library/dc-itsm-install-artifacts.md)
-        - [Impact Value Management Data Collection Content Pack for ITOM](value-library/data-collection-itom.md)
-          - [Install the Data Collection Pack for ITOM](value-library/dc-itom-install.md)
-          - [Configure Data Collection for ITOM](value-library/dc-itom-config.md)
-          - [Activate Data Collection for ITOM](value-library/dc-itom-activate.md)
-          - [Review ITOM artifacts](value-library/dc-itom-install-artifacts.md)
-        - [Impact Value Management Data Collection Content Pack for HR](value-library/data-collection-hr.md)
-          - [Install the Data Collection Pack for HR](value-library/dc-hr-install.md)
-          - [Configure Data Collection for HR](value-library/dc-hr-config.md)
-          - [Activate Data Collection for HR](value-library/dc-hr-activate.md)
-          - [Review HR artifacts](value-library/dc-hr-install-artifacts.md)
-        - [Impact Value Management Data Collection Content Pack for SecOps](value-library/data-collection-secops.md)
-          - [Install the Data Collection Pack for SecOps](value-library/dc-secops-install.md)
-          - [Configure Data Collection for SecOps](value-library/dc-secops-config.md)
-          - [Activate Data Collection for SecOps](value-library/dc-secops-activate.md)
-          - [Review SecOps artifacts](value-library/dc-secops-install-artifacts.md)
-        - [Impact Value Management Data Collection Content Pack for SPM](value-library/data-collection-spm.md)
-          - [Install the Data Collection Pack for SPM](value-library/dc-spm-install.md)
-          - [Configure Data Collection for SPM](value-library/dc-spm-config.md)
-          - [Activate Data Collection for SPM](value-library/dc-spm-activate.md)
-          - [Review SPM artifacts](value-library/dc-spm-install-artifacts.md)
-        - [Impact Value Management Data Collection Content Pack for IRM](value-library/data-collection-irm.md)
-          - [Install the Data Collection Pack for IRM](value-library/dc-irm-install.md)
-          - [Configure Data Collection for IRM](value-library/dc-irm-config.md)
-          - [Activate Data Collection for IRM](value-library/dc-irm-activate.md)
-          - [Review IRM artifacts](value-library/dc-irm-install-artifacts.md)
-    - [Product Adoption]()
-      - [Capabilities maps]()
-        - [Manage capabilities maps]()
-      - [Product Adoption Roadmaps]()
-        - [Create and publish a product adoption roadmap]()
-      - [Subscriptions]()
-      - [Training Insights]()
-    - [Benefits & Usage]()
-      - [Manage Initiative and Accelerator permissions](grant-ide-permissions.md)
-      - [Request an Accelerator](request-accelerator.md)
-      - [Consumption Report](ide-consumption-report.md)
-      - [Additional Resources]()
-      - [Impact Digest]()
-      - [Admin Center integration](admin-center-integration.md)
-    - [Impact User Management](ide-user-management.md)
-      - [Edit a role for an Impact user](edit-impact-user.md)
-      - [Remove Impact user permissions](remove-impact-user-permissions.md)
-    - [Mobile Executive Experience]()
-  - [Impact Store Application]()
-    - [Exploring Impact Store Application](exploring-impact-platform.md)
-      - [Multi-instance support]()
-      - [Grant temporary instance access to your Impact Squad](hop-access-impact-squad.md)
-    - [Configuring the Impact Store Application](configuring-impact-platform.md)
-      - [Install the Impact Store Application from the ServiceNow Store](install-impact-innovation-lab.md)
-      - [Initiate the connection to the Impact Delivery Instance](initiate-the-connection-impact-delivery-instance.md)
-      - [Connect to the provider instance](connect-instance-impact-store-app.md)
-      - [Use Guided Setup to synchronize and migrate data to the Impact Store Application](guided-setup-impact-in-app.md)
-      - [Configuring Proactive Code Check](configuring-proactive-code-check.md)
-        - [Configure the Multi-Instance Framework for Proactive Code Check](configure-multi-instance-framework-proactive-code-review.md)
-    - [Using Impact Store Application]()
-      - [Impact home page]()
-        - [Using recommendations list in Impact home page](using-recommendations-iip-ws.md)
-      - [Impact Store Application Accelerators and Initiatives]()
-        - [Request Accelerators and Initiatives](accelerators.md)
-        - [Creating work items using recommendations and initiatives](creating-work-items-using-recommendations-and-initiatives.md)
-          - [Create and delete a work item using a recommendation](create-and-delete-a-work-item-using-a-recommendation.md)
-          - [Create and delete a work item using an initiative](create-and-delete-a-work-item-using-an-initiative.md)
-        - [Convert an Impact entity to SPM entity as a work item](convert-spm-entity-impact-entity-recommendations.md)
-        - [Create a work item from Impact initiative](create-spm-work-item-impact-entity.md)
-      - [Impact Platform Health]()
-        - [Impact Proactive Code Check](proactive-code-check.md)
-          - [Use Proactive Code Check scanning](install-proactive-code-check.md)
-          - [Proactive Code Check analytics](review-address-proactive-code-check-findings.md)
-          - [Proactive Code Check scan suite matrix](proactive-code-check-scan-suite.md)
-      - [Impact store app value management]()
-      - [Impact Store Application product adoption]()
-        - [Create and publish a product adoption roadmap](create-product-adoption-roadmap.md)
-        - [Manage Capabilities Map](manage-capability-maps.md)
-          - [Manage capabilities](manage-capability-features-for-store.md)
-          - [Capability Details Page](capability-details.md)
-- [Impact releases]()
+- [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-landing-page.md) -- ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to help you realize the full potential of your instance. Receive tailored recommendations and guidance from our dedicated teams and experts on demand.
+  - [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-operating-model.md) -- The Impact operating model is a research-backed system of key activities, personalized to your organization, to help drive faster time to value with the ServiceNow platform.
+    - [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-packages.md) -- ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, and credits, discounts, and additional benefits made available to you depending on the level of Impact package procured.
+    - [Impact Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/foundations.md) -- Impact Foundations is a fit-for-purpose set of account level initiatives to start you on the fast track to value and to maintain momentum via a streamlined quarterly motion.​
+    - [Impact Steady State](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-steady-state.md) -- Impact Steady State is the cadence that keeps you on track with your Impact Plan and associated business goals that follows the Foundations phase, generally beyond 90–120 days of engagement.
+    - [Group Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/group-views.md) -- Impact enables multiple stakeholder groups within your organization to lead their own digital transformation.
+    - [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-squad.md) -- Your Impact Squad is a team of on-demand experts who work with you to take on your teams unique transformation challenges.
+  - [User roles in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-roles.md) -- Impact offers many roles to assign to fit your business needs. When you log in to Impact, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
+  - [Initiatives & Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md) -- Initiatives are the actionable engagements and work streams that support your digital transformation. Impact Accelerators are fixed-scope offerings with experts behind each option to provide value exactly where you need it.
+    - [Initiatives catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/initiatives-catalog.md) -- Initiatives are the actionable engagements and workstreams that support your digital transformation.
+      - [Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/access-expertise-initiative.md) -- The Access to Expertise Initiative connects Impact customers to ServiceNow subject matter experts via personalized virtual coaching sessions.
+        - [Request Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/access-expertise.md) -- Use the Access to Expertise Initiative to connect to ServiceNow subject matter experts via personalized virtual coaching sessions.
+      - [Get started with Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/getting-started-developer-support.md) -- Get Started with Developer Support is an Impact Initiative that facilitates the understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.
+      - [Preventive Care](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/preventive-care.md) -- Preventive Care is a premium, engineer-led diagnostic of instance performance executed quarterly.
+    - [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md) -- This is a complete Impact Accelerator catalog that combines the Architecture, Strategy, and Technical sub-catalogs.
+      - [Architecture Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/architecture-accelerators.md) -- Architecture Accelerators provide a foundational understanding of business outcome maturity with targeted recommendations on what to tackle next to unlock further value from the platform.
+        - [Artificial Intelligence Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment.md) -- The Artificial Intelligence (AI) Readiness Assessment Accelerator provides an assessment and guidance related to your readiness to start adopting ServiceNow AI capabilities.
+        - [Architecture Blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/architecture-blueprint.md) -- 
+          - [Architecture Blueprint – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/architecture-blueprint.md) -- 
+          - [Architecture Blueprint – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/architecture-blueprint.md) -- 
+        - [Common Service Data Model (CSDM) Assessment Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/CSDM-assessment.md) -- These Accelerators provide insights into Common Service Data Model (CSDM) assessment.
+          - [Common Service Data Model (CSDM) Assessment - Foundation Data - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/csdm-assessment-foundation-data-advanced.md) -- This Accelerator provides guidance to assess and improve the Foundation Data that is part of your CSDM framework.
+          - [Common Service Data Model (CSDM) Assessment-Application Services (Crawl) - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/csdm-assessment-application-services-crawl-adv.md) -- This Accelerator provides an assessment and guidance for Common Service Data Model (CSDM) Crawl maturity, including Application Services and Business Applications.
+          - [Common Service Data Model (CSDM) Assessment Technical Services (Walk) - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/csdm_assessment_technical_services.md) -- This Accelerator provides an assessment and guidance for CSDM Walk maturity, including Technical Services and Technical Service Offerings.
+          - [Common Service Data Model (CSDM) Assessment - Business Services (Run) - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/csdm_assessment_business_services.md) -- This Accelerator provides an assessment and guidance for CSDM Run maturity, including Business Services, Business Service Offerings, Request Catalog Items, and (Business) Service Portfolio.
+          - [Common Service Data Model (CSDM) Assessment– Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/CSDM-assessment-total.md) -- Guidance to assess and improve the CSDM framework
+        - [Data Management and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/data-mgt-governance.md) -- This Accelerator provides insights and guidance to assess and improve your data management and data governance practices.
+        - [Design Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/design-review.md) -- These Accelerators provide an evaluation of current or proposed solution design.
+          - [Design Review- Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/design-review.md) -- These Accelerators provide an evaluation of current or proposed solution design.
+          - [Design Review- Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/design-review.md) -- These Accelerators provide an evaluation of current or proposed solution design.
+        - [Generative AI - Virtual Agent Conversational Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/generative-ai-conversational-catalog.md) -- The Generative AI -Virtual Agent Conversational Catalog Accelerator provides guidance on conversational compatibility of a select set of your catalog request items.
+        - [Health Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/health-assessment.md) -- The Health Assessment Accelerators provide insights into your instance health.
+          - [Health Assessment – Guided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/health-assessment-guided.md) -- The Health Assessment - Guided Accelerator provides an insight into your ServiceNow instance health.
+          - [Health Assessment – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/health-assesment-advanced-total.md) -- The Health Assessment – Advanced Accelerator provides guidance to measure and improve your ServiceNow instance health.
+          - [Health Assessment - Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/health-assessment-total.md) -- The Health Assessment - Total Accelerator provides guidance to measure and improve your ServiceNow instance health.
+        - [Integration Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/integration-strategy.md) -- Guidance on the integration process
+          - [Integration Strategy- Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/integration-strategy.md) -- Guidance on the integration process
+          - [Integration Strategy- Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/integration-strategy.md) -- Guidance on the integration process
+        - [Multi-instance Topologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/multi-instance-topologies.md) -- This Accelerator provides education on drivers and topology alternatives to support multiple production instance implementations delivered within the context of a single-customer production implementation.
+        - [Release and Deployment Advisory for Pro-code Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/release-deployment-advisory-pro-code-development.md) -- The Release and Deployment Advisory for Pro-code Development Accelerator provides guidance to assist pro-code developers in tools and techniques to release and deploy ServiceNow application configurations and customizations.
+        - [Technical Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/technical-governance.md) -- Guidance on technical governance management of the ServiceNow AI Platform
+        - [UX: Catalog Request Experience Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.md) --  The User Experience (UX): Catalog Request Experience Review Accelerator reviews your Service Catalog,  forms  and form  design and identifies areas  of improvement.
+        - [UX: Design for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/ux-design-employee-center.md) -- The UX (User Experience): Design for Employee Center Accelerator provides UX Design support and expert guidance to help customers get started with Employee Center design.
+        - [UX: Portal Experience Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/ux-review-employee-center.md) -- The UX (User Experience) Portal Experience Review Accelerator provides a comprehensive evaluation of your Employee Center, focusing on usability, design, and ServiceNow leading practices to enhance overall user experience engagement.
+        - [UX: Taxonomy Review and Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/ux_review_unified_taxonomy.md) -- The User Experience (UX) Taxonomy Review and Design Accelerator optimizes content structure and navigation in your portal, with a focus on Knowledge and Catalog to improve usability and help users easily find the correct information.
+        - [UX: Why It Matters and How to Apply It](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/ux-why-it-matters-how-to-apply-it.md) -- The UX: Why It Matters and How to Apply It Accelerator takes examples directly from your instance to demonstrate how improving UX can directly influence the success of your ServiceNow investment.
+      - [Strategy Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/strategy-accelerators.md) -- Use Strategy Accelerators to go deeper on organizational and governance best practices with the ServiceNow platform and upskill your team to maintain business performance and drive success.
+        - [Center of Excellence & Innovation Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/CoEI-design.md) -- The Center of Excellence and Innovation Design (CoEI) Accelerator provides guidance on building your ServiceNow CoEI.
+        - [Center of Excellence and Innovation Maturity Assessment Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/coei-maturity-assessment-accelerator.md) -- This Center of Excellence and Innovation (CoEI) Maturity Assessment Accelerator provides insight into your current  ServiceNow  CoEI maturity level and targeted recommendations based on the current maturity level.
+        - [Champion Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/champion-engagement.md) -- The Champion Engagement Accelerators provide insights into champion engagement.
+          - [Champion Engagement – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/champion-engagement.md) -- The Champion Engagement Accelerators provide insights into champion engagement.
+          - [Champion Engagement – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/champion-engagement.md) -- The Champion Engagement Accelerators provide insights into champion engagement.
+        - [Citizen Development Program Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/citizen-development-accelerator.md) -- Provides prescriptive guidance on enabling Citizen Development for your ServiceNow platform.
+        - [CoEI Influencing Funding Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/coei-influencing-factor-assessment-part-2.md) -- The Center of Excellence & Innovation (CoEI) Funding Strategy Accelerator advises Impact customers on how to identify and develop a strategic CoEI Funding approach.​
+        - [Customer Service Management Product Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/csm-product-maturity-assessment.md) -- The Customer Service Management (CSM) Product Maturity Assessment Accelerator provides insight into your current ServiceNow CSM maturity level and targeted recommendations based on the current maturity level.
+        - [Develop Partner Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/develop-partner-strategy.md) -- The Develop Partner Strategy Accelerators provide guidance on finding and evaluating effective partners.
+          - [Develop Partner Strategy – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/develop-partner-strategy.md) -- The Develop Partner Strategy Accelerators provide guidance on finding and evaluating effective partners.
+          - [Develop Partner Strategy – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/develop-partner-strategy.md) -- The Develop Partner Strategy Accelerators provide guidance on finding and evaluating effective partners.
+        - [HRSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/hrsd-maturity-assessment.md) -- This accelerator provides guidance on your current HR Service Delivery (HRSD) process and function maturity in your ServiceNow instance.
+        - [Integrated Risk Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/IRM-maturity-assessment.md) -- The Integrated Risk Management (IRM) Maturity Assessment Accelerator provides guidance on maximizing the resources available with IRM.
+        - [ITSM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/itsm-maturity-assessment.md) -- Provides guidance on current ITSM process and function maturity, with targeted recommendations on what to tackle next to unlock further value in the platform.
+        - [LSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/lsd-maturity-assessment.md) -- This Accelerator provides guidance on fine-tuning your Legal Service Delivery (LSD) on the ServiceNow platform.
+        - [On-Demand Value Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/on-demand-value-report.md) -- Customers can use this Accelerator to request a Value Report for up to two ServiceNow products.
+        - [Portfolio Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/portfolio-governance.md) -- Guidance on building a strategic portfolio management process
+        - [Project Portfolio Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/ppm-maturity-assessment.md) -- The Project Portfolio Management (PPM) Maturity Assessment Accelerator provides guidance on maximizing the resources available with PPM.
+        - [ServiceNow Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/servicenow-governance.md) -- Guidance on building ServiceNow Governance boards and policies.
+        - [Software Asset Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/sw-asset-mgmt-maturity-assessment.md) -- The ServiceNow Software Asset Management (SAM) Maturity Assessment Accelerator provides guidance on maximizing the resources available with SAM.
+        - [Staffing and Roles Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review.md) -- Insights into staffing and roles.
+          - [Staffing and Roles Review – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review.md) -- Insights into staffing and roles.
+          - [Staffing and Roles Review – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review.md) -- Insights into staffing and roles.
+        - [Strategy Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/strategy-governance.md) -- Guidance on aligning ServiceNow strategic roadmap to business outcomes
+        - [Success Readiness Assessment (SRA)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/success-readiness-assessment.md) -- This accelerator measures readiness and platform maturity of your ServiceNow platform.
+        - [Value Potential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/value-potential-undeployed-apps.md) -- The Value Potential Accelerator provides comprehensive guidance on identifying business value for further adoption of ServiceNow products.
+        - [Vision and Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/vision-and-strategy.md) -- Insights into vision and strategy.
+          - [Vision and Strategy – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/vision-and-strategy.md) -- Insights into vision and strategy.
+          - [Vision and Strategy – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/vision-and-strategy.md) -- Insights into vision and strategy.
+      - [Technical Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/technical-accelerators.md) -- Accelerate usage and adoption of specific platform and product capabilities via applied demonstrations, personalized coaching, and best practices with Technical Accelerators.
+        - [Access to Experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/access-experts-acc.md) -- The Access to Experts Accelerator connects Impact customers to ServiceNow subject matter experts via personalized virtual coaching sessions.
+        - [Extend Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/extend-your-ai-search.md) -- This accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
+        - [Extend Your Employee Center to Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/extend-employee-center-pro.md) -- The Extend Your Employee Center to Pro Accelerator provides prescriptive guidance on extending the Employee Center capabilities to include Pro features.
+        - [Introduction to CMDB: Ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/introduction-to-cmdb-ingestion.md) -- This accelerator provides a demonstration of the possibilities and capabilities of automating and standardizing CMDB data entry.
+        - [Introduction to Instance Observer-Guided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/intro-instance-observer.md) -- The Introduction to Instance Observer Accelerator provides guidance on understanding and monitoring performance using Instance Observer.
+        - [Introduction to Instance Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/introduction-instance-readiness-assessment.md) -- The Introduction to Instance Readiness Assessment Accelerator provides guidance on understanding and interpreting instance readiness using the Instance Readiness Assessment (IRA).
+        - [Jumpstart Your AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-ai-agent-studio.md) -- This accelerator provides Impact customers with an overview and applied demonstration of AI agents within the Platform.
+        - [Jumpstart Your AI Agents for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-ai-agents-csm.md) -- This Accelerator provides a demonstration of the possibilities and capabilities of AI Agents for CSM.
+        - [Jumpstart Your AI Agents for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-your-ai-agents-for-itsm.md) -- This accelerator provides a demonstration of the possibilities and capabilities of AI Agents for ITSM.
+        - [Jumpstart Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-your-ai-search.md) -- This Accelerator provides guidance on enabling and configuring AI Search.
+          - [Jumpstart Your AI Search- US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-ai-search.md) -- Guidance on enabling and configuring AI Search
+        - [Jumpstart Your App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-your-app-engine.md) -- Prescriptive guidance on enabling Citizen Development and utilizing App Engine Studio
+          - [Jumpstart Your App Engine- US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-app-engine.md) -- Prescriptive guidance on enabling Citizen Development and utilizing App Engine Studio
+        - [Jumpstart Your Automated Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-your-automated-testing.md) -- Prescriptive guidance on enabling and utilizing Automated Test Framework
+          - [Jumpstart Your Automated Testing- US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-automated-testing.md) -- Prescriptive guidance on enabling and utilizing Automated Test Framework
+        - [Jumpstart Your CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-cmdb.md) -- The Jumpstart Your Configuration Management Database (CMDB) Accelerator provides a demonstration of the possibilities and capabilities of CMDB.
+        - [Jumpstart Your CSDM: Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md) -- The Jumpstart Your Common Service Data Model (CSDM): Foundation Accelerator provides an overview and breakdown of the CSDM with a focus on Foundation data.
+        - [Jumpstart Your CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/csm-configurable-workspace.md) -- The Jumpstart Your Customer Service Management (CSM) Configurable Workspace Accelerator provides a demonstration of the possibilities and capabilities of the CSM Configurable Workspace.
+        - [Jumpstart Your Database Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/data-management.md) -- The Jumpstart Your Database Management Accelerator provides a demonstration of the possibilities and capabilities of Database Management.
+        - [Jumpstart Your Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-document-intelligence.md) -- This Accelerator provides a demonstration of the possibilities and capabilities of Document Intelligence.
+        - [Jumpstart Your Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-employee-center.md) -- This accelerator includes a demonstration of the possibilities and capabilities available with the ServiceNow Employee Center portal in your instance.
+          - [Jumpstart Your Employee Center US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-employee-center-usps.md) -- This accelerator includes a demonstration of the possibilities and capabilities available with the ServiceNow Employee Center portal in your instance.
+        - [Jumpstart Your Employee Journey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-employee-journey-management.md) -- The Jumpstart Your Employee Journey Management (EJM) Accelerator provides a demonstration of the possibilities and capabilities of Employee Journey Management.
+        - [Jumpstart Your Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-event-mgmt.md) -- The Jumpstart Your Event Management Accelerator provides a demonstration of the possibilities and capabilities of Event Management.
+        - [Jumpstart Your Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-issue-auto-resolution.md) -- The Jumpstart Your Issue Auto Resolution (IAR) Accelerator provides a demonstration of the possibilities and capabilities of Issue Auto Resolution within your ServiceNow platform.
+        - [Jumpstart Your GenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-gen-ai.md) -- This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow GenAI (Artificial Intelligence).
+        - [Jumpstart Your Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-knowledge-management.md) -- The Jumpstart Your Knowledge Management Accelerator provides a demonstration of the possibilities and capabilities of Knowledge Management.
+        - [Jumpstart Your Legacy Workflow Migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-legacy-workflow-migration.md) -- The Jumpstart Your Legacy Workflow Migration Accelerator provides a demonstration of the possibilities and capabilities of Legacy Workflow Migration.
+        - [Jumpstart Your Migration of Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-migration-platform-analytics.md) -- The Jumpstart Your Migration of Platform Analytics Accelerator provides a demonstration of how to successfully prepare and migrate your Platform Analytics content.
+        - [Jumpstart Your Multi-lingual Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent.md) -- This Accelerator provides a demonstration of the possibilities and capabilities of Dynamic Translation.
+          - [Jumpstart Your Multi-lingual Virtual Agent - US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent-usps.md) -- This Accelerator provides a demonstration of the possibilities and capabilities of Dynamic Translation.
+        - [Jumpstart Your Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-NLU.md) -- The Jumpstart Your Natural Language Understanding (NLU) Accelerator provides a demonstration of the possibilities and capabilities of Natural Language Understanding.
+        - [Jumpstart Your Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-now-assist-creator.md) -- The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration of the possibilities and capabilities of Now Assist for Creator.
+        - [Jumpstart Your Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-now-assist-virtual-agent.md) -- The Jumpstart Your Now Assist in Virtual Agent (VA) Accelerator provides a demonstration of the possibilities and capabilities of Now Assist in Virtual Agent.
+        - [Jumpstart Your Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-now-assist-skill-kit.md) -- This Accelerator provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
+        - [Jumpstart Your Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-platform-analytics.md) -- The Jumpstart Your Platform Analytics Accelerator provides a demonstration of the possibilities and capabilities of Platform Analytics.
+        - [Jumpstart Your Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-predictive-intelligence.md) -- The Jumpstart Your Predictive Intelligence (PI) Accelerator provides a demonstration of the possibilities and capabilities of Predictive Intelligence and the clustering framework.
+        - [Jumpstart Your Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-process-mining.md) -- Jumpstart Your Process Mining Accelerator provides a demonstration of the possibilities and capabilities of Process Mining.
+        - [Jumpstart Your Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-service-mapping.md) -- The Jumpstart Your Service Mapping Accelerator provides a demonstration of the possibilities and capabilities of Service Mapping.
+        - [Jumpstart Your ServiceNow AI Journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.md) -- The Jumpstart Your AI (Artificial Intelligence) Journey Accelerator provides guidance to kickstart your hyper-automation journey with ServiceNow platform AI capabilities.
+        - [Jumpstart your Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-your-service-operations-workspace.md) -- This Accelerator illustrates a demonstration of the possibilities and capabilities of Service Operations Workspace.
+          - [Jumpstart Your Service Operations Workspace - US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-service-operations-usps.md) -- This Accelerator illustrates a demonstration of the possibilities and capabilities of Service Operations Workspace.
+        - [Jumpstart Your Strategic Portfolio Management – Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-spm-planning-workspace.md) -- The Jumpstart Your Strategic Portfolio Management – Planning Workspace Accelerator provides a demonstration of the possibilities and capabilities of Planning Workspaces within Strategic Portfolio Management (SPM).
+        - [Jumpstart Your Strategic Portfolio Management – Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-strategic-portfolio-management-resource-management-workspace.md) -- The Jumpstart Your Strategic Portfolio Management (SPM) – Resource Management Workspace Accelerator provides a demonstration of the possibilities and capabilities of Resource Management Workspaces within SPM.
+        - [Jumpstart Your Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/Jumpstart-your-subscription-management.md) -- This accelerator provides a demonstration on how to efficiently manage your ServiceNow subscriptions in the Subscription Management Application.
+        - [Jumpstart Your Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-your-success-dashboard.md) -- Demonstration of what is possible with the Success Dashboard using your data via a temporary instance.
+          - [Jumpstart Your Success Dashboard- US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-success-dashboard.md) -- Demonstration of what is possible with the Success Dashboard via a demonstration instance.
+        - [Jumpstart Your Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-task-intelligence.md) -- The Jumpstart Your Task Intelligence Accelerator provides a demonstration of the possibilities and capabilities of Task Intelligence.
+        - [Jumpstart Your Upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.md) -- Guidance on upgrade planning and preparation
+          - [Jumpstart Your Upgrade- US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-upgrade.md) -- Guidance on upgrade planning and preparation
+        - [Jumpstart Your Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/jumpstart-your-virtual-agent.md) -- This accelerator provides guidance on realizing benefits with the ITSM Virtual Agent.
+          - [Jumpstart Your Virtual Agent- US Public Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-virtual-agent.md) -- Guidance on realizing the benefits from ITSM Virtual Agent
+        - [TuneUp Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-ai-search.md) -- This accelerator provides guidance on fine-tuning artificial intelligent (AI) Search to optimize performance and value.
+        - [TuneUp Your Configuration Management Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md) -- The TuneUp Your Configuration Management Database (CMDB) Accelerator provides insight and guidance to improve CMDB health.
+        - [TuneUp Your Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-employee-center.md) -- The TuneUp Your Employee Center Accelerator provides guidance on maintaining and governing your ServiceNow Employee Center health to optimize value.
+        - [TuneUp Your Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-hw-asset-management.md) -- The TuneUp Your Hardware Asset Management (HAM) Accelerator provides guidance on maintaining and governing Hardware Asset Management health to optimize value.
+        - [TuneUp Your IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-your-it-asset-management.md) -- Provides prescriptive guidance to improve IT Asset Management (ITAM) health.
+        - [TuneUp Your ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-itom-discovery.md) -- Provides insight and guidance to improve the health of your Configuration Management Database (CMDB) through IT Operations Management (ITOM) Discovery.
+        - [TuneUp Your Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-platform-analytics.md) -- The TuneUp Your Platform Analytics Accelerator provides guidance on maintaining and governing Platform Analytics health to optimize value.
+        - [TuneUp Your Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-your-security.md) -- Guidance on platform security
+        - [TuneUp Your Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-sw-asset-mgmt.md) -- The TuneUp Your Software Asset Management (SAM) Accelerator provides guidance on maintaining and governing Software Asset Management health to optimize value.
+        - [TuneUp Your Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-your-virtual-agent.md) -- The TuneUp Your Virtual Agent Accelerators provide guidance for various aspects of Virtual Agent on your ServiceNow platform.
+          - [TuneUp Your Virtual Agent - Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-assessment.md) -- The TuneUp Your Virtual Agent - Assessment Accelerator provides guidance on fine-tuning Virtual Agent setup to optimize value.
+          - [TuneUp Your Virtual Agent – NLU (Natural Language Understanding)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-nlu.md) -- TuneUp Your Virtual Agent – NLU (Natural Language Understanding) Accelerator provides guidance on fine-tuning NLU models to optimize value.
+          - [TuneUp Your Virtual Agent – Performance Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-performance-monitoring.md) -- The TuneUp Your Virtual Agent – Performance Monitoring Accelerator provides guidance on fine-tuning Virtual Agent performance to optimize value.
+          - [TuneUp Your Virtual Agent – UX (User Experience)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-ux.md) -- The TuneUp Your Virtual Agent – UX (User Experience) Accelerator provides guidance on fine-tuning Virtual Agent conversations to optimize value.
+  - [Impact Delivery Instance (formerly Impact Digital Experience)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-digital-experience.md) -- The Impact Delivery Instance (IDI) is a centralized, interactive portal where you can access your Impact tools and benefits.
+    - [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-activity-center/impact-activity-center.md) -- The Activity Center provides a comprehensive view of all the activities supporting your day to day journey with Impact.
+      - [Activity Center Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-activity-center/conversations.md) -- Scan all conversations you are included in. Start a conversation any time to ask a question or get advice from your Impact squad.
+        - [Create and manage conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-activity-center/create-manage-conversations.md) -- Create new Impact conversations or manage existing conversations.
+      - [Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-activity-center/recommendations-value-journey.md) -- View AI driven and expert suggested recommendations for training, content, and experts-on-demand offerings.
+    - [Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-tech-kpis.md) -- Tech Key Performance Indicators(KPIs) show how closely you're aligned to ServiceNow technical best practices, offer recommendations for improvement, and help you monitor your instance health.
+      - [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/developer-support.md) -- Developer Support is an offering to Advanced and Total Impact packages, and Guided customers who purchase managed support, that provides administrators and authorized users access to a ServiceNow Support Engineer who can assist in troubleshooting technical issues around existing platform customizations.
+        - [Using Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/developer-support-usage.md) -- Learn more about using Developer Support and helpful information when submitting a developer request with Impact.
+        - [Create a Developer Support case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/create-developer-support-case.md) -- Enter a support case to engage Developer Support assistance, if you are a named contact on the Impact plan.
+        - [Manage Developer Support user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/manage-developer-support-user-access.md) -- Add designated users to enter a support case for Developer Support. The named contacts are responsible for entering details about a specific issue.
+      - [Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-overview.md) -- Instance Observer (IO) is an observability and performance monitoring tool that empowers you to track your instance health and performance in near real-time, while also providing historical insights.
+        - [Instance Observer home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/instance-observer-home-page.md) -- The Home page provides a snapshot of the overall health of your instance.
+        - [Instance Observer user configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/user-configurable-dashboard.md) -- Users can create their own dashboard according to their preferences of metrics that help users to analyze the health of their system in a snapshot.
+          - [Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/customize-instance-observer-dashboard.md) -- Create a dashboard that serves as a home page to assess the health of your instances at a glance.
+        - [Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/instance-observer-performance.md) -- Monitor all your instances 24x7 in one place with near real-time metrics and alerts on performance and availability in Instance Observer. Generate various charts of overview Instance Health and Performance Metrics and drill down into specific data points with recommended troubleshooting.​
+          - [Getting started with Performance charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-getting-started-perf-charts.md) -- Follow these steps to generate Performance charts using Instance Observer.
+          - [Anomalies detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/anomalies-detection.md) -- Instance Observer proactively detects the anomalies for cyclical or non-cyclical metrics under the performance chart for the Impact Total package on production instances. Anomalies represent metrics outliers based on historical patterns. Every anomaly may not represent an issue, but, notifies you and you decide the criticality and configure alerts, accordingly.
+            - [Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configure-anomaly-alerts.md) -- Configure anomaly alerts based on metrics outliers on historical patterns in Instance Observer.
+            - [Anomaly detection algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/anomaly-detection-algorithm.md) -- Instance Observer is performing anomalies detection through the Z-score Statistical model, otherwise referred to as a univariate method.
+          - [Analyze job details for long pending jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-long-pending-job-alert-card.md) -- Stay ahead of job delays by identifying and acting on jobs that breach predefined lateness thresholds. The Long Pending Jobs alert card tracks pending jobs by lateness duration, so you can act on the pending jobs before they affect the downstream workflows and miss the SLAs.
+        - [Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-availability.md) -- The Availability section shows instance level availability on a geographic map and instance level ServiceNow generated alerts (limited alert types) since the past 7 days.
+          - [Cloud availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/cloud-availability.md) -- Check specific ServiceNow data center availability, service degradation, or for interruption.
+        - [Alerts in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-alerts-intro.md) -- ServiceNow Instance Observer provides a comprehensive set of alerts designed to monitor platform health, performance, and user experience. These alerts are categorized for easy consumption and actionability.
+          - [Key alerts – activation and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-alerts.md) -- Use the Instance Observer Key Alerts Activation functionality for flexibility to set alerts with historical thresholds from four week increments specific to your business needs and configure who on your team receives notifications.
+            - [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configuring-io-alerts.md) -- Follow these steps to configure Key Alerts on an instance where critical alerts have not yet been configured.
+            - [Generate thresholds for Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/generate-thresholds-io-alerts.md) -- For an instance where critical alerts have already been configured you can obtain improved thresholds to receive enhanced or minimal alerts.
+          - [Manage Instance Observer alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/manage-io-alerts.md) -- Act on Instance Observer (IO) threshold alerts directly from the notification.
+          - [Set an alert to monitor the average response time of applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-app-monitor-alert-card.md) -- Set an alert to monitor the application performance when the average response time of applications that run on an instance exceeds the configured threshold.
+          - [Track instance performance with the top six timely alerts – Guided users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-alerts-guided-cust.md) -- Use the Instance Observer alerting feature to receive notifications on the performance of your instance. Monitor the alerts that are system driven.
+          - [Use popular alerts to receive notifications – Advanced and Total users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-alerts-popular-total-adv-cust.md) -- Get started with the popular alerts that are most widely used to receive notifications about your instance performance if you’re new to the Instance Observer (IO) alerting system. The most popular alerts appear on the first page of your Configure Alerts page.
+          - [Root Cause Correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/root-cause-correlation.md) -- Root Cause Correlation (RCC) streamlines performing a root cause analysis by automatically correlating metrics, logs, and event information for supported symptoms on production instances for the last 24 hours.
+            - [Configure RCC alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configure-rcc-alerts.md) -- Configure Root Cause Correlation (RCC) alerts based on a root cause analysis performed by Instance Observer RCC.
+            - [Generate RCC report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/generate-rcc-report.md) -- Generate a detailed Root Cause Correlation report that can be used to identify and narrow down underlying issues in your instance that caused a performance degradation and related alert.
+            - [Utilizing RCC history to perform root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/utilizing-rcc-reports-perform-root-cause-analysis.md) -- Check the RCC History page to further investigate the issues that caused an alert to trigger.
+            - [Generative AI powered root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/generative-ai-root-cause-anal.md) -- Root cause analysis in Instance Observer provides automated detection and summarization of issues. It includes built-in root cause correlation and root cause summary using a large language model (LLM), which helps reduce troubleshooting time and improve incident transparency.
+          - [Instance Observer Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/i-o-notifications.md) -- Notifications for alerts and other system activity are displayed on the Instance Observer banner.
+          - [Configure long pending jobs alert by job priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-long-pending-jobs.md) -- Get notifications when jobs that are pending exceed your defined overdue thresholds by configuring the Long Pending Jobs alert. Set up conditions by job priority to take action on groups of jobs—such as all discovery jobs or system cleanup jobs—in one go, rather than managing them individually.
+          - [Configure IO alert notifications for a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-receive-notification-customer-conf-webhook.md) -- Set up a basic integration between Instance Observer (IO) and ServiceNow to route IO alert notifications to a ServiceNow instance.
+          - [Configure IO alert notifications for a third-party application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-receive-notification-third-party.md) -- Set up a basic integration between Instance Observer (IO) and third-party integrations to route IO alert notifications to an external system in addition to emails and SMS.
+          - [Custom payload in alerts integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/custom-payload-help-guide-impact.md) -- Instance Observer integrations allow you to define and manage custom JSON request payload for ServiceNow and third-party integrations.
+        - [Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-analytics.md) -- View comparisons for performance of key metrics over time with the Impact Total package.
+          - [User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/user-experience-insights.md) -- Explore real-time user monitoring to analyze user experience and performance insights in Instance Observer​ telemetry into node, transaction type, URL, and user level breakdowns for Impact Total customers.
+          - [Manage User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/manage-user-experience.md) -- Explore in-depth transactions for a user or a node for a given period.
+          - [Track the response time of applications to monitor their performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/monitor-apps-user-experience-io.md) -- Track the response time of applications to gauge their performance. You can drill down to the transaction ID of each application to learn the slowest and fastest interactions in each instance.
+        - [Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-triage.md) -- You can triage your instance to get instant information on transactions, jobs, nodes utilization, semaphores, schedulers and update sets. Minimal use of this feature is recommended as use of this consumes resources on your instance.
+        - [Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/instance-observer-reporting.md) -- Quickly generate reports to download and share with your business stakeholders, making  organizations faster, smarter, and better in their  instance performance management.
+        - [Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-help.md) -- Access release notes, how to videos, and more from the Instance Observer Help Center page.
+      - [HealthScan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/healthscan.md) -- ServiceNow HealthScan is a diagnostic tool that helps you understand the current health of your instance, identify potential issues and setbacks, and take quick corrective action.​
+        - [Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/health-assessment-dashboard.md) -- View detailed Health Assessment results closer collaboration with the Impact squad to prioritize, review, and address best practice platform health findings.​
+          - [Manage Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/manage-health-assessment-dashboard.md) -- Address platform health findings from the Health Assessment Dashboard.
+        - [Monthly Health Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/monthly-health-assessment.md) -- The Monthly Health Assessment feature provides Impact Guided customers with a self-service capability that automates Health Assessment scans and reports to provide details that can help you to improve the health of your ServiceNow platform implementation.
+          - [Schedule Monthly Health Assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/schedule-monthly-health-assessment-scans.md) -- Automate monthly Health Assessment scans and reports to help improve the health of your ServiceNow platform implementation.
+        - [HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/healthscan-definitions.md) -- Some HealthScan definitions are deprecated or updated between releases.
+          - [Healthscan definitions updates: May 2025 store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/healthscan-definitions-may-store.md) -- Some HealthScan definitions are deprecated or updated between releases.
+          - [HealthScan definitions updates: November 2024 release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/healthscan-definitions-nov-store.md) -- Some HealthScan definitions are deprecated or updated between releases.
+          - [HealthScan definitions updates: October hotfix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/healthscan-definitions-oct-hotfix.md) -- Some HealthScan definitions are deprecated or updated between releases.
+          - [HealthScan definitions updates: August release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/healthscan-definitions-aug-store.md) -- Some HealthScan definitions are deprecated or updated between releases.
+    - [Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-value-journey.md) -- Use Value Management to get a closer look at your Objectives and Outcomes, and Value Reports.
+      - [Objectives and outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-blueprint.md) -- The value management lifecycle starts with the identification of your objectives and outcomes.
+      - [Value reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/business-value-reports.md) -- Your impact squad can work with you to calculate the operational or monetized value you have realized with ServiceNow in a Value Report.
+      - [Value calculation for Impact Value Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/value-calculation-for-impact-value-reports.md) -- You can use value calculation for measurable business impact and track value using metrics.
+      - [Data Collection Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-toolkit.md) -- The Impact Value Management Data Collection apps are designed to simplify and optimize the value metrics data collection process using Performance Analytics (PA). These applications enable you to efficiently gather, track, and analyze critical success metrics, ensuring data-driven decision-making and improved visibility into key performance trends.
+        - [Install Data Collection Content Pack dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-install-plugins.md) -- Install the dependent plugins for Data Collection Content Pack apps
+        - [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-all-modify.md) -- You can make changes to the Data Collection configuration to align with your organization's needs.
+        - [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-all-upgrade.md) -- When you upgrade the Data Collection Content Pack, you must account for any customizations you've made.
+        - [Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-apm.md) -- Install and configure the Data Collection Content Pack for APM.
+          - [Install the Data Collection Pack for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-apm-install.md) -- To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+          - [Configure Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-apm-config.md) -- Configure Data Collection for APM.
+          - [Activate Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-apm-activate.md) -- Activate the Data Collection Pack for APM after you enable and configure it.
+          - [Review APM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-apm-installation-artifacts.md) -- The data collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+        - [Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-app-engine.md) -- Install and configure the Data Collection Content Pack for App Engine.
+          - [Install the Data Collection Content Pack for App Eng](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-app-eng-install.md) -- To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+          - [Configure Data Collection for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-app-eng-config.md) -- Configure Data Collection for App Engine.
+          - [Activate Data Collection for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-app-eng-activate.md) -- Activate the Data Collection Pack for App Eng after you enable and configure it.
+          - [Review App Engine artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-app-engine-installation-artifacts.md) -- The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+        - [Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-csm.md) -- Install and configure the Data Collection Content Pack for CSM.
+          - [Install the Data Collection Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-csm-install.md) -- To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+          - [Configure Data Collection for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-csm-config.md) -- Configure Data Collection for CSM.
+          - [Activate Data Collection for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-csm-activate.md) -- Activate the Data Collection Pack for CSM after you enable and configure it.
+          - [Review CSM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-csm-install-artifacts.md) -- The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+        - [Impact Value Management Data Collection Content Pack for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-sam.md) -- Install and configure the Data Collection Content Pack for SAM.
+          - [Install the Data Collection Pack for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-sam-install.md) -- To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+          - [Configure Data Collection for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-sam-config.md) -- Configure Data Collection for SAM.
+          - [Activate Data Collection for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-sam-activate.md) -- Activate the Data Collection Pack for SAM after you enable and configure it.
+          - [Review SAM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-sam-install-artifacts.md) -- The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+        - [Impact Value Management Data Collection Content Pack for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-ham.md) -- Install and configure the Data Collection Content Pack for HAM.
+          - [Install the Data Collection Pack for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-ham-install.md) -- To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+          - [Configure Data Collection for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-ham-config.md) -- Configure Data Collection for HAM.
+          - [Activate Data Collection for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-ham-activate.md) -- Activate the Data Collection Pack for HAM after you enable and configure it.
+          - [Review HAM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-ham-install-artifacts.md) -- The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+        - [Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-itsm.md) -- Install and configure the Data Collection Content Pack for ITSM.
+          - [Install the Data Collection Pack ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-itsm-install.md) -- To enable the Data Collection Pack, you must activate Data Collection jobs.
+          - [Configure Data Collection for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-itsm-config.md) -- Configure Data Collection for ITSM.
+          - [Activate Data Collection for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-itsm-activate.md) -- Activate the Data Collection Pack for ITSM after you enable and configure it.
+          - [Review ITSM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-itsm-install-artifacts.md) -- The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+        - [Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-itom.md) -- Install and configure the Data Collection Content Pack for ITOM.
+          - [Install the Data Collection Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-itom-install.md) -- To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+          - [Configure Data Collection for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-itom-config.md) -- Configure Data Collection for ITOM.
+          - [Activate Data Collection for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-itom-activate.md) -- Activate the Data Collection Pack for ITOM after you enable and configure it.
+          - [Review ITOM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-itom-install-artifacts.md) -- The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance Analytics application and includes artifact types.
+        - [Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-hr.md) -- Install and configure the HR Data Collection Content Pack.
+          - [Install the Data Collection Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-hr-install.md) -- To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+          - [Configure Data Collection for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-hr-config.md) -- Configure Data Collection for HR.
+          - [Activate Data Collection for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-hr-activate.md) -- Activate the Data Collection Pack for HR after you enable and configure it.
+          - [Review HR artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-hr-install-artifacts.md) -- The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance Analytics application.
+        - [Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-secops.md) -- Install and configure the Data Collection Content Pack for SecOps.
+          - [Install the Data Collection Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-secops-install.md) -- To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+          - [Configure Data Collection for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-secops-config.md) -- Configure Data Collection for SecOps.
+          - [Activate Data Collection for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-secops-activate.md) -- Activate the Data Collection Pack for SecOps after you enable and configure it.
+          - [Review SecOps artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-secops-install-artifacts.md) -- The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+        - [Impact Value Management Data Collection Content Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-spm.md) -- Install and configure the Data Collection Content Pack for SPM.
+          - [Install the Data Collection Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-spm-install.md) -- To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+          - [Configure Data Collection for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-spm-config.md) -- Configure Data Collection for SPM.
+          - [Activate Data Collection for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-spm-activate.md) -- Activate the Data Collection Pack for SPM after you enable and configure it.
+          - [Review SPM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-spm-install-artifacts.md) -- The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+        - [Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/data-collection-irm.md) -- Install and configure the Data Collection Content Pack for IRM.
+          - [Install the Data Collection Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-irm-install.md) -- To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+          - [Configure Data Collection for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-irm-config.md) -- Configure Data Collection for IRM.
+          - [Activate Data Collection for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-irm-activate.md) -- Activate the Data Collection Pack for IRM after you enable and configure it.
+          - [Review IRM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/value-library/dc-irm-install-artifacts.md) -- The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+    - [Product Adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-product-adoption-roadmap/product-adoption.md) -- View your capabilities, product adoption roadmaps, and subscriptions for your ServiceNow instance.
+      - [Capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-product-adoption-roadmap/capabilities-map.md) -- See the applications, or capabilities, at your disposal for achieving your business objectives.
+        - [Manage capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-product-adoption-roadmap/manage-capabilities.md) -- Manage the usage status for capabilities and how they’re being used in your instance. The information in the capabilities status fields feeds the capabilities maps summary bar.
+      - [Product Adoption Roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-product-adoption-roadmap/impact-par.md) -- Access the Product adoption roadmaps (PARs) feature to view an admitted implementation sequence for your capabilities. The implementation sequence is organized into specific phases for an optimal implementation.
+        - [Create and publish a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-product-adoption-roadmap/create-and-publish-a-product-adoption-roadmap.md) -- Create a product Adoption Roadmap (PAR) with a single click by selecting the template that best supports your specific business outcome.
+      - [Subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-product-adoption-roadmap/subscriptions.md) -- See a list of your subscriptions for all of your instances and the list of applications that you’re entitled to, as part of those subscriptions, in one comprehensive view.
+      - [Training Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-product-adoption-roadmap/training-insights.md) -- Impact Training Insights provide a comprehensive view of organizational learning activities, with real-time data available whenever and wherever it's needed.
+    - [Benefits & Usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-features.md) -- Impact Benefits & Usage allows you to quickly access and review the powerful tools available in your Impact subscription.
+      - [Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/grant-ide-permissions.md) -- Review and approve Initiative and Accelerator activities access using Manage Permissions.
+      - [Request an Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/request-accelerator.md) -- Depending on the Impact package that you are subscribed to, you can request and consume a designated number of concurrent Impact Accelerators.
+      - [Consumption Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/ide-consumption-report.md) -- The Consumption Report provides an overview of your Impact tier features and their usage.
+      - [Additional Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-resources.md) -- Access the ServiceNow resources available to you, including case studies, learning opportunities, developer support, Now Community, and more.
+      - [Impact Digest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-digest.md) -- Get personalized monthly updates in the form of Impact Digest.
+      - [Admin Center integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/admin-center-integration.md) -- Access Admin Center from Impact that enables admins and instance owners with self-service adoption guidance and recommendations to simplify application installation.
+    - [Impact User Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/ide-user-management.md) -- Impact IDI admins can create, view, and manage their users with Impact User Management.
+      - [Edit a role for an Impact user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/edit-impact-user.md) -- Update a role for an Impact user role after the initial assignment.
+      - [Remove Impact user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/remove-impact-user-permissions.md) -- Remove permissions that you've assigned to an Impact user if that user should no longer have access to Impact.
+    - [Mobile Executive Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-mobile.md) -- The mobile Impact Executive Experience allows customer executives to access Impact from anywhere on their mobile browser.
+  - [Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-store-app.md) -- The Impact Store Application, a centralized, interactive portal where you can access your Impact tools and benefits is available directly through your ServiceNow instance, in addition to the Impact Delivery Instance, formerly the Impact Digital Experience portal.
+    - [Exploring Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/exploring-impact-platform.md) -- ServiceNow Impact Store Application personalizes your digital transformation journey and accelerates your time-to-value integrated within your ServiceNow AI Platform instance and your Impact Delivery Instance.
+      - [Multi-instance support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-multi-instance-support.md) -- Impact multi-instance support allows the Impact Delivery Instance to sync data with multiple production instances where the Impact Store Application is installed.
+      - [Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/hop-access-impact-squad.md) -- View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
+    - [Configuring the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configuring-impact-platform.md) -- The tasks are outlined that are required to install and configure the Impact Store Application.
+      - [Install the Impact Store Application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/install-impact-innovation-lab.md) -- Follow these instructions to install the Impact Store Application.
+      - [Initiate the connection to the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/initiate-the-connection-impact-delivery-instance.md) -- Connect between your Impact Store Application with the Impact Delivery Instance to exchange data.
+      - [Connect to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/connect-instance-impact-store-app.md) -- The named contact administrator will establish a secure connection to the Impact Delivery Instance (provider instance) using Now Service Exchange to transmit data with the Impact Store Application.
+      - [Use Guided Setup to synchronize and migrate data to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/guided-setup-impact-in-app.md) -- Use Impact Guided Setup to complete the configuration of the Impact Store Application.
+      - [Configuring Proactive Code Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configuring-proactive-code-check.md) -- Impact Platform Health features Proactive Code Check that can be activated to perform a code review in your instances.
+        - [Configure the Multi-Instance Framework for Proactive Code Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configure-multi-instance-framework-proactive-code-review.md) -- Configuring the Multi-Instance Framework explains how to connect data movement from non-production instances to production instances. The mTLS must be installed and configured to connect non-production instances to production instances to allow data movement and synchronization. Before creating trust profiles, managing instances must also be configured.
+    - [Using Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-app.md) -- The Impact Store Application is available directly through your ServiceNow instance and is accessed in addition to the Impact Delivery Instance portal.
+      - [Impact home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-platform-home.md) -- Impact application is available for you to install from ServiceNow Store applications.
+        - [Using recommendations list in Impact home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/using-recommendations-iip-ws.md) -- Use the recommendations full list to view the recommendations tailored for you. You can either accept or reject a recommendation based on your interest by selecting View Details.
+      - [Impact Store Application Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-platform-initiatives-accelerators.md) -- Initiatives are the actionable engagements and workstreams that support your digital transformation. Impact Accelerators are fixed-scope offerings with experts behind each option to provide value exactly where you need it.
+        - [Request Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerators.md) -- Depending on the Impact package that you are subscribed to, you can request and consume a designated number of concurrent Impact Accelerators.
+        - [Creating work items using recommendations and initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/creating-work-items-using-recommendations-and-initiatives.md) -- Create a Strategic Portfolio Management (SPM) or Collaborative Work Management (CWM) work item using recommendations and initiatives for faster execution and actionable goals.
+          - [Create and delete a work item using a recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/create-and-delete-a-work-item-using-a-recommendation.md) -- Create an actionable Strategic Planning Workspace (SPM) or Collaborative Work Management (CWM) work item using impact squad-based or rule-based recommendations.
+          - [Create and delete a work item using an initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/create-and-delete-a-work-item-using-an-initiative.md) -- Create an actionable Strategic Planning Workspace (SPM) or Collaborative Work Management (CWM) work item using free-form initiatives.
+        - [Convert an Impact entity to SPM entity as a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/convert-spm-entity-impact-entity-recommendations.md) -- Convert an Impact entity to an SPM entity either from the Impact home page or from the Recommendations list. Creating an Impact entity and associating the SPM record details help you to avoid manual intervention in converting the entities from Impact to SPM portals, and thereafter any duplication of entities in the process.
+        - [Create a work item from Impact initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/create-spm-work-item-impact-entity.md) -- Use the SPM work item record link within the Impact entity to view its details, after Impact entity is successfully converted to an SPM work item.
+      - [Impact Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-healthscan-store-app.md) -- The Impact Health Store Application enhances platform health by enabling proactive management of instance quality, compliance, and performance. Integrated with the Impact Store App, the Impact Health Store Application is designed to support platform health and adherence to leading practices.
+        - [Impact Proactive Code Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/proactive-code-check.md) -- Developers scan update sets for leading practice violations in non-production instances before promoting to production and Platform Owners gain insight into technical debt and stability of both non-production and production instances, resulting in improved code quality, reduced errors, and compliance verification.
+          - [Use Proactive Code Check scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/install-proactive-code-check.md) -- Developers can identify issues and prevent defects before they are deployed to production.
+          - [Proactive Code Check analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/review-address-proactive-code-check-findings.md) -- Platform Owners use Proactive Code Check to track compliance against coding best practices and organizational standards. Owners can review detailed findings and audit the status of issues that were uncovered during the scan. Historical data is available up to six months.
+          - [Proactive Code Check scan suite matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/proactive-code-check-scan-suite.md) -- Refer to the Proactive Code Check (PCC) scan suite matrix for details on the checks performed during a PCC scan.
+      - [Impact store app value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-platform-business-outcomes.md) -- The value management constitutes a continuous loop of the end-to-end process of managing the value lifecycle, inclusive of envisioning value, creating value, ongoing management, optimization, and validation of value realized with the Impact store app.
+      - [Impact Store Application product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-platform-product-adoption.md) -- View the capabilities, product adoption roadmaps, and subscriptions for your ServiceNow instance with the Impact store app.
+        - [Create and publish a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/create-product-adoption-roadmap.md) -- Create a product adoption roadmap (PAR) using either a predefined template or a custom roadmap.
+        - [Manage Capabilities Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/manage-capability-maps.md) -- Explore and manage the usage status for the capabilities you are entitled to use.
+          - [Manage capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/manage-capability-features-for-store.md) -- Manage the various capabilities of the product by using the following features available in Impact store releases.
+          - [Capability Details Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/capability-details.md) -- View the various details for a capability using the Capability details page.
+- [Impact releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-releases.md) -- ServiceNow Impact releases may include enhancements, as well as additional features. Releases occur throughout the year on a quarterly basis, starting in February. Future release dates are subject to change.

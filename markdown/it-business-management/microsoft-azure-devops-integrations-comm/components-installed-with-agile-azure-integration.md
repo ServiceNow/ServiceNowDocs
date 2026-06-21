@@ -2,6 +2,7 @@
 title: Components installed with Microsoft Azure DevOps integration for Agile Development
 description: Several types of components are installed with activation of the Microsoft Azure DevOps integration for Agile Development application, including user roles, scheduled jobs, and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/components-installed-with-agile-azure-integration.html
 release: yokohama
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -15,7 +16,7 @@ breadcrumb: [Install Microsoft Azure DevOps Integration for Agile Development, M
 
 Several types of components are installed with activation of the Microsoft Azure DevOps integration for Agile Development application, including user roles, scheduled jobs, and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -68,7 +69,7 @@ Azure DevOps integration user\[sn\_ado\_int.user\]
 |Import Azure DevOps Teams Areas and Iterations|Imports teams, areas, and iterations from Azure DevOps automatically at a scheduled time.|
 |Import Azure DevOps Work Items|Imports work items from Azure DevOps automatically at a scheduled time.|
 
-All the scheduled jobs are inactive by default. For more information, see [Schedule jobs to import projects, teams, areas, and work items from Azure DevOps](schedule-jobs-import-projects-azure.md).
+All the scheduled jobs are inactive by default. For more information, see [Schedule jobs to import projects, teams, areas, and work items from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
 
 ## Tables installed
 

@@ -2,6 +2,7 @@
 title: Configure crawl settings for a Cornerstone external content connector
 description: Specify the you want your Cornerstone external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-cornerstone-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the  you want your Cornerstone external content connector to crawl. Defi
 
 ## Before you begin
 
-A connector admin must have already created the Cornerstone external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Cornerstone external content connector](create-ext-cont-connector-cornerstone.md).
+A connector administrator must have already created the Cornerstone external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-cornerstone.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Cornerstone external content connector crawls your Cornerstone Learning Management System \(LMS\) and sends all Catalogue and Learning objects and binary files with all supported file extensions to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the Cornerstone external content connector crawls your Cornerstone Learning Management System \(LMS\) and sends all Catalogue and Learning objects and binary files with all supported file extensions to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for the  to crawl when running content crawls
 -   Inclusion or exclusion filters for the Catalogue and Learning objects to retrieve content from when running content crawls
@@ -70,7 +71,7 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
         As an example, you might enter `.csv` to exclude attachments with the Comma-Separated Values \(CSV\) file format.
 
-    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](../reference/file-extensions-ext-cont-connector.md).
+    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/file-extensions-ext-cont-connector.md).
 
 6.  Select **Save and validate**.
 
@@ -81,7 +82,7 @@ The Cornerstone external content connector is updated with your modified crawl s
 
 ## What to do next
 
-To retrieve content from your Cornerstone source system using your modified crawl settings, create and run a one-time content crawl for your Cornerstone external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](../task/create-content-crawl-external-content-connector.md).
+To retrieve content from your Cornerstone source system using your modified crawl settings, create and run a one-time content crawl for your Cornerstone external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Cornerstone external content connector](cornerstone-external-content-connector.md)
+**Parent Topic:**[Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/cornerstone-external-content-connector.md)
 

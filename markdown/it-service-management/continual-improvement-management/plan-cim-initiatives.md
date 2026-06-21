@@ -2,6 +2,7 @@
 title: Monitor and plan improvements
 description: Use the Continual Improvement Workbench to monitor and plan improvements in a single view. The workbench shows tile and list views of improvements in progress, as well as listings under review, and in the backlog to help you plan your sprint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/continual-improvement-management/plan-cim-initiatives.html
 release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -65,7 +66,7 @@ Lists two groups of improvements.
 **Note:** Configuration changes made to the Planning workbench are reset when the Planning workbench is reloaded.
 
 </td></tr></tbody>
-</table>![CIM Improvement Workbench](../image/continual-improvement-workbench.png "Continual Improvement Management Improvement Workbench")
+</table>\[Omitted image "continual-improvement-workbench.png"\] Alt text: CIM Improvement Workbench
 
 Features:
 
@@ -82,21 +83,21 @@ Features:
 
     |Status badge|Description|
     |------------|-----------|
-    |![Complete icon](../image/cim-complete-icon.png)|All tasks have been completed \(percent complete is 100%\).|
-    |![Overdue icon](../image/cim-overdue-icon.png)|Due date has passed.|
-    |![Due soon icon](../image/cim-due-soon-icon.png)|Less than 15% of duration left until the due date.|
-    |![On Hold icon](../image/cim-on-hold-icon.png)|Improvement has been placed on hold.|
+    |\[Omitted image "cim-complete-icon.png"\] Alt text: Complete icon|All tasks have been completed \(percent complete is 100%\).|
+    |\[Omitted image "cim-overdue-icon.png"\] Alt text: Overdue icon|Due date has passed.|
+    |\[Omitted image "cim-due-soon-icon.png"\] Alt text: Due soon icon|Less than 15% of duration left until the due date.|
+    |\[Omitted image "cim-on-hold-icon.png"\] Alt text: On Hold icon|Improvement has been placed on hold.|
 
 -   Customize fields shown in workbench lists using the Workbench Review view.
 
-    Access the Workbench Review view from the List Controls menu \(![List icon](../image/cim-list-controls.png)\) of the Improvement Register \(**List Controls** &gt; **View** &gt; **Workbench Review**\).
+    Access the Workbench Review view from the List Controls menu \(\[Omitted image "cim-list-controls.png"\] Alt text: List icon\) of the Improvement Register \(**List Controls** &gt; **View** &gt; **Workbench Review**\).
 
     **Note:** Only the fields visible in the Improvement Register \[Workbench Review\] view are shown in the workbench overview section.
 
 
 On the planning page, you can prioritize your backlog using an easy-to-use drag-and-drop interface, similar to sprint planning, where you have an active sprint and a list of backlog items. Move backlog items to the Work in Progress list, which is your active sprint.
 
-![CIM Workbench Plan](../image/cim-workbench-plan.png "Continual Improvement Management Workbench Plan")
+\[Omitted image "cim-workbench-plan.png"\] Alt text: CIM Workbench Plan
 
 Features:
 
@@ -114,13 +115,13 @@ Features:
 
 -   Customize fields shown in workbench lists using the Workbench Planning view.
 
-    Access the Workbench Planning view from the List Controls menu \(![List icon](../image/cim-list-controls.png)\) of the Improvement Register \(**List Controls** &gt; **View** &gt; **Workbench Planning**\).
+    Access the Workbench Planning view from the List Controls menu \(\[Omitted image "cim-list-controls.png"\] Alt text: List icon\) of the Improvement Register \(**List Controls** &gt; **View** &gt; **Workbench Planning**\).
 
 -   Filter by priority, benefits, effort estimate, and CIM Coordinator.
 
     **Note:** The filters are dynamic and show only the fields visible in the Workbench Planning view.
 
--   Toggle the Filter menu and fields shown using the Configuration menu \(![Configuration icon](../image/cim-config-menu.png)\).
+-   Toggle the Filter menu and fields shown using the Configuration menu \(\[Omitted image "cim-config-menu.png"\] Alt text: Configuration icon\).
 
     **Note:** Only the fields visible in the Improvement Register \[Workbench Planning\] view are shown in the workbench planning section.
 

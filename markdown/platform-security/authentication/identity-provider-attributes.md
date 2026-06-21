@@ -2,6 +2,7 @@
 title: Identity Provider Attributes Filter
 description: Use the Identity Provider attributes that are received from the Security Assertion Markup Language \(SAML\) response from the Identity Provider \(IdP\) as a filter criteria for authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/identity-provider-attributes.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -17,9 +18,9 @@ Use the Identity Provider attributes that are received from the Security Asserti
 
 To fetch all the attributes from an IdP through the SAML response, you should perform a test connection with the IdP. After a successful test connection, the attributes are added in a new tab in the Identity Provider configuration page.
 
-**Note:** Identity Provider filter is available with Zero Trust Access feature. For more information, see [Zero Trust Access](session-access.md).
+**Note:** Identity Provider filter is available with Zero Trust Access feature. For more information, see [Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/session-access.md).
 
-![Identity Provider](../images/identity-provider-attributes.png)
+\[Omitted image "identity-provider-attributes.png"\] Alt text: Identity Provider
 
 You can also add attributes by selecting **New** from the Identity Provider Attributes section and use those attributes for Adaptive Authentication by setting it to `true`.
 

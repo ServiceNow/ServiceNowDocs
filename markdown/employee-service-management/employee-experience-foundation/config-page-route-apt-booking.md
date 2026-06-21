@@ -2,6 +2,7 @@
 title: Configure page routing for appointment booking
 description: Configure page routing to redirect users to the appointment scheduling page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/config-page-route-apt-booking.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation

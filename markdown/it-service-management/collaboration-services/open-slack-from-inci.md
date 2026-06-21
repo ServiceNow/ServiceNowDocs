@@ -2,6 +2,7 @@
 title: Open slack from an incident
 description: Open slack from an incident and send message to a user or an assignment group to exchange incident information. You do not need to manually search for a user in slack to send a message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/collaboration-services/open-slack-from-inci.html
 release: yokohama
 product: Collaboration Services
 classification: collaboration-services
@@ -21,7 +22,7 @@ Role required: sn\_incident\_read, sn\_incident\_write, itil, or admin
 
 ## About this task
 
-The slack icon \(![Slack icon](../image/slack-icon.png)\) appears for the fields that you include in the fix script. For example, if you have the **Caller**, **Assigned to**, and the **Assignment group** fields for incident in the fix script, then the icon appears for these fields.
+The slack icon \(\[Omitted image "slack-icon.png"\] Alt text: Slack icon\) appears for the fields that you include in the fix script. For example, if you have the **Caller**, **Assigned to**, and the **Assignment group** fields for incident in the fix script, then the icon appears for these fields.
 
 ## Procedure
 
@@ -29,7 +30,7 @@ The slack icon \(![Slack icon](../image/slack-icon.png)\) appears for the fields
 
 2.  Open an active incident record.
 
-3.  Click the slack icon \(![Slack icon](../image/slack-icon.png)\) that appears next to the **Caller**, **Assigned to**, or the **Assignment group** fields.
+3.  Click the slack icon \(\[Omitted image "slack-icon.png"\] Alt text: Slack icon\) that appears next to the **Caller**, **Assigned to**, or the **Assignment group** fields.
 
 4.  In the Open Slack dialog window, click **Open Slack**.
 

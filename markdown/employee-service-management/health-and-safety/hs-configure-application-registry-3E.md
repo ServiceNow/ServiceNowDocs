@@ -2,6 +2,7 @@
 title: Configure the application registry for the 3E Service Provider
 description: Configure 3E integration with Health and Safety Environmental Management to retrieve current chemical data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety/hs-configure-application-registry-3E.html
 release: yokohama
 product: Health and Safety
 classification: health-and-safety
@@ -36,5 +37,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Integration of 3E with Health and Safety Environmental Management](../concept/hs-integration.md)
+**Parent Topic:**[Integration of 3E with Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-integration.md)
 

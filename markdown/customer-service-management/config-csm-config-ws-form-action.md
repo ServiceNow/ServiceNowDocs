@@ -2,7 +2,10 @@
 title: Set up a form action in CSM Configurable Workspace
 description: Create a form action that links to a UI action so that you can use the UI action in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-config-ws-form-action.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

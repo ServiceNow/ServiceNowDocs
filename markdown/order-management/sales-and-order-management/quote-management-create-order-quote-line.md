@@ -2,6 +2,7 @@
 title: Create an order from a quote line item
 description: Create orders from quote line items by using the Create new order UI action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-management-create-order-quote-line.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select **List** ![](../image/Lists.png) view and select **Quotes** &gt; **All**
+1.  In the CSM Configurable Workspace, select **List** \[Omitted image "Lists.png"\] Alt text: view and select **Quotes** &gt; **All**
 
 2.  Select the quote, which must be in the Completed state, and select the Line items tab.
 

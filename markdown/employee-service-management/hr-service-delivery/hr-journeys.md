@@ -2,6 +2,7 @@
 title: Employee Experience Pack
 description: Employee Experience Packs are prepackaged configurations, content, and workflows that you can use as is or customize for your own HR processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-journeys.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

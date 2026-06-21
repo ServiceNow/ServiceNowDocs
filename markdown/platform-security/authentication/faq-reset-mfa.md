@@ -2,6 +2,7 @@
 title: Reset MFA
 description: FAQ related to MFA reset and why it’s important.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/faq-reset-mfa.html
 release: yokohama
 product: Authentication
 classification: authentication

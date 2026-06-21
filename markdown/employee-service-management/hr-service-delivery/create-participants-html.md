@@ -2,6 +2,7 @@
 title: Create participants for an HTML document template
 description: Define actions and the order of actions for participants. The type of action and order are considered while initiating document tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/create-participants-html.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -18,7 +19,7 @@ Define actions and the order of actions for participants. The type of action and
 ## Before you begin
 
 -   Role required: sn\_hr\_core.admin
--   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](../concept/c_HRDocumentTemplates.md).
+-   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRDocumentTemplates.md).
 
 ## Procedure
 
@@ -56,7 +57,7 @@ Action
 
 Type of action performed by the participant: Sign**Note:** In addition, the participant can choose to decline signing the document. The option to decline signing appears only when the **Signing Type** is **ServiceNow**.
 
-For more information, see [Sign an HTML document](sign-html-document.md).
+For more information, see [Sign an HTML document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/sign-html-document.md).
 
 </td></tr><tr><td>
 

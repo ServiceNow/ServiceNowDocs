@@ -2,6 +2,7 @@
 title: Delete a saved trigger
 description: Delete a saved trigger that you no longer need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/delete-saved-trigger.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Delete a saved trigger that you no longer need.
 
 Role required: trigger\_designer, flow\_designer, or admin
 
-The trigger must be detached from any of the flows that are using the trigger. For information about detaching a saved trigger, see [Detach a saved trigger from a flow](detach-saved-trigger.md).
+The trigger must be detached from any of the flows that are using the trigger. For information about detaching a saved trigger, see [Detach a saved trigger from a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/detach-saved-trigger.md).
 
 ## Procedure
 
@@ -31,12 +32,12 @@ The trigger must be detached from any of the flows that are using the trigger. F
 
 4.  Select the More Actions menu icon, then select **Delete**.
 
-    ![UI option to delete a saved trigger from the more options menu.](../images/delete-saved-trigger.png)
+    \[Omitted image "delete-saved-trigger.png"\] Alt text: UI option to delete a saved trigger from the more options menu.
 
 5.  If the trigger was attached to any flows, then from the list of flows that are using the trigger, detach the trigger by selecting the flows from the list and selecting **Detach**.
 
 6.  On the pop-up window, select **Delete**.
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow.md)
 

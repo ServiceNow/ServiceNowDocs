@@ -2,7 +2,10 @@
 title: Create consumers
 description: A consumer is a customer in the business-to-consumer \(B2C\) business model. Use the Customer Service Management application to create consumer records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-create-csm-consumers.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

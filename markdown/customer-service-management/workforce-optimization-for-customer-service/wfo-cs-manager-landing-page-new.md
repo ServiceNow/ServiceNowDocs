@@ -2,6 +2,7 @@
 title: Workforce Optimization for Customer Service manager workspace landing page
 description: Monitor your teams' work and organizational performance using Workforce Optimization for Customer Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/wfo-cs-manager-landing-page-new.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -15,7 +16,7 @@ breadcrumb: [Using Workforce Optimization for Customer Service, Workforce Optimi
 
 Monitor your teams' work and organizational performance using Workforce Optimization for Customer Service.
 
-![Manager Workspace landing page and widgets](../../../product/workforce-optimization-for-customer-service-configurable/image/Manager-Workspace-landing-page.jpg "Manager Workspace landing page")
+\[Omitted image "Manager-Workspace-landing-page.jpg"\] Alt text: Manager Workspace landing page and widgets
 
 ## End user and roles
 
@@ -62,5 +63,5 @@ Monitor your agent's work at the start of your day, act on urgent alerts, assess
 |Top skills in 24 hrs|Bar|Highlights of agent skills in demand.|
 |Team's performance|Presentation list|Assessment of individual agent effectiveness using key metrics like Adherence and CSAT.|
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](../../../product/workforce-optimization-for-customer-service-configurable/concept/use-configurable-wfo-cs.md)
+**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/use-configurable-wfo-cs.md)
 

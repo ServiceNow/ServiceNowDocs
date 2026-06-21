@@ -2,6 +2,7 @@
 title: View a drop off list
 description: Agents can view a consolidated list, grouped by stockroom, of all items that have been added to drop off lists by all agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_ViewADropOffList.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -26,5 +27,5 @@ Role required: wm\_agent
 2.  Expand a group by clicking the arrow beside the group name.
 
 
-**Parent Topic:**[Use drop off lists](../concept/c_UseDropOffLists.md)
+**Parent Topic:**[Use drop off lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_UseDropOffLists.md)
 

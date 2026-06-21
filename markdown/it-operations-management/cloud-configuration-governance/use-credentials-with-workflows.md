@@ -2,6 +2,7 @@
 title: Use credentials with SSH workflows
 description: Add an SSH workflow with a credentials tag.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/use-credentials-with-workflows.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -22,7 +23,7 @@ Add an SSH workflow with a credentials tag.
 
 ## About this task
 
-You can use an expression to get the Credential alias tag. See [Create an SSH activity](https://www.servicenow.com/docs/access?context=t_CreateAnSSHActivity&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) for instructions.
+You can use an expression to get the Credential alias tag. See Create an SSH activity for instructions.
 
 This example uses a VM provisioned on an AWS LDC datacenter.
 

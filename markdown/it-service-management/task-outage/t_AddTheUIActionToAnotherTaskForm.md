@@ -2,6 +2,7 @@
 title: Add the Outage UI action to another task form
 description: By default, the Create Outage UI action is available on the incident and problem forms, and can be added to other task forms. For new instances from Jakarta only, this feature is also available on the change request form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/task-outage/t\_AddTheUIActionToAnotherTaskForm.html
 release: yokohama
 product: Task Outage
 classification: task-outage
@@ -31,7 +32,7 @@ Role required: admin
 
 3.  Modify the **Conditions** field as described in the following examples.
 
-<table id="choicetable_ayx_s1b_h5"><tbody><tr><td id="d162852e100">
+<table id="choicetable_ayx_s1b_h5"><tbody><tr><td id="d152227e100">
 
 **To add this UI action to the Ticket \[ticket\] table**
 
@@ -39,7 +40,7 @@ Role required: admin
 
 `current.getRecordClassName() == 'incident' || current.getRecordClassName() == 'problem' || current.getRecordClassName() == 'ticket'`
 
-</td></tr><tr><td id="d162852e112">
+</td></tr><tr><td id="d152227e112">
 
 **To use the UI action on only the Problem \[problem\] table**
 
@@ -51,5 +52,5 @@ Role required: admin
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[Task Outage](../concept/task-outage.md)
+**Parent Topic:**[Task Outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/task-outage/task-outage.md)
 

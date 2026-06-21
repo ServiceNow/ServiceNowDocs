@@ -2,6 +2,7 @@
 title: Manage documents from the Source-to-Pay Workspace
 description: Manage documents by uploading, updating and downloading the required documents from the Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-ws.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,13 +18,13 @@ Manage documents by uploading, updating and downloading the required documents f
 
 ## Before you begin
 
-Ensure that you have created a supplier document configuration. For more information, see [Supplier Document Management](../concept/supp-doc-mgmt-overview.md).
+Ensure that you have created a supplier document configuration. For more information, see [Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md).
 
 Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 ## About this task
 
-The **Documents** tab contains the **Link Documents** option, which enables you to quickly add an already uploaded document without creating a new one. Access to the **Link Documents** option is controlled by the user criteria you set on the **Manage access** tab when creating the supplier document configuration. For more information, see [Create a supplier document configuration](create-doc-config.md).
+The **Documents** tab contains the **Link Documents** option, which enables you to quickly add an already uploaded document without creating a new one. Access to the **Link Documents** option is controlled by the user criteria you set on the **Manage access** tab when creating the supplier document configuration. For more information, see [Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md).
 
 ## Procedure
 
@@ -35,26 +36,26 @@ The **Documents** tab contains the **Link Documents** option, which enables you 
 
 3.  Select the **Documents** tab and do one of the following.
 
-<table id="choicetable_k4g_m1w_dvb"><thead><tr><th align="left" id="d134175e129">
+<table id="choicetable_k4g_m1w_dvb"><thead><tr><th align="left" id="d101997e129">
 
 To
 
-</th><th align="left" id="d134175e132">
+</th><th align="left" id="d101997e132">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d134175e138">
+</th></tr></thead><tbody><tr><td id="d101997e138">
 
 **Upload a document**
 
 </td><td>
 
 1.  Select **New**.
-2.  On the Create New Documents form, fill in the fields. For a description of the field values, see [Create New Documents form](../reference/create-new-doc-form.md).
+2.  On the Create New Documents form, fill in the fields. For a description of the field values, see [Create New Documents form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-new-doc-form.md).
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d134175e172">
+</td></tr><tr><td id="d101997e172">
 
 **Download a document**
 
@@ -64,7 +65,7 @@ Do this
 2.  Select **Download Document**.
 
 
-</td></tr><tr><td id="d134175e193">
+</td></tr><tr><td id="d101997e193">
 
 **Remove a document**
 
@@ -74,7 +75,7 @@ Do this
 2.  Select **Remove**.
 
 
-</td></tr><tr><td id="d134175e214">
+</td></tr><tr><td id="d101997e214">
 
 **Upload a new version of a document**
 
@@ -91,5 +92,5 @@ A new version of the document is created and displayed in the **Versions** tab.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Source-to-Pay Workspace Supplier page](../concept/supp-ws-details-page.md)
+**Parent Topic:**[Source-to-Pay Workspace Supplier page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/supp-ws-details-page.md)
 

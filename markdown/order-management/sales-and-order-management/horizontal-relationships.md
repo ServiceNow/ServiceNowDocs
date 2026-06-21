@@ -2,13 +2,14 @@
 title: Defining a horizontal relationship
 description: By using a compatibility rule, you can define the horizontal relationships between your product, service, and resource specifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/horizontal-relationships.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Order Management, Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Order Management, Explore, Sales Customer Relationship Management]
 ---
 
 # Defining a horizontal relationship

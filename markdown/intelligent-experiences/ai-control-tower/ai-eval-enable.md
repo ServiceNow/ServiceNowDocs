@@ -2,13 +2,14 @@
 title: Enabling evaluations
 description: Evaluate random conversations by enabling continuous monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/ai-eval-enable.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-09-02"
 reading_time_minutes: 4
-breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Enabling evaluations
@@ -40,14 +41,14 @@ Enable evaluations and set the number of evaluations to be performed daily.
     2.  Search for and select the property **sn\_na\_conv\_eval.maxEvaluateCount**.
     3.  Update the **Value** field to set the maximum number of conversations to be evaluated daily.
 
-        ![Update the Value field.](../image/ai-eval-enable-02.png)
+        \[Omitted image "ai-eval-enable-02.png"\] Alt text: Update the Value field.
 
     4.  Select **Save**.
 3.  Activate the following associated scheduled jobs:
     1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
     2.  Apply the filter condition `Application is Conversation Evaluator` and filter out the job Evaluation Value Calcuation - Runs Only once after install.
 
-        ![Apply filter condition.](../image/ai-eval-enable-03.png)
+        \[Omitted image "ai-eval-enable-03.png"\] Alt text: Apply filter condition.
 
     3.  Activate all the scheduled jobs in the filtered list.
 4.  Activate the Execute Evaluation flow in Flow Designer.
@@ -63,19 +64,19 @@ Enable evaluations and set the number of evaluations to be performed daily.
     3.  Select **Edit flow**.
     4.  Select **Activate**.
 
-        ![Activate the Execute Evaluation flow.](../image/ai-eval-enable-01.png)
+        \[Omitted image "ai-eval-enable-01.png"\] Alt text: Activate the Execute Evaluation flow.
 
 
 **Note:**
 
--   If you want to configure some of the evaluation parameters based on your requirements, see [Configuring evaluations](ai-eval-config.md).
--   If you want to import historical data to be evaluated, you must run batch evaluations by activating the Execute Batch Evaluation flow. For more information on the batch evaluation workflow, see [Evaluation flow for batch evaluations](../reference/ai-eval-flow-batch.md).
+-   If you want to configure some of the evaluation parameters based on your requirements, see [Configuring evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-config.md).
+-   If you want to import historical data to be evaluated, you must run batch evaluations by activating the Execute Batch Evaluation flow. For more information on the batch evaluation workflow, see [Evaluation flow for batch evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-flow-batch.md).
 
 ## Evaluation dashboard vs. Conversation Insights
 
 You can use the Evaluation dashboard and the Conversation Insights \(CI\) application together to gain a complete picture of virtual agent effectiveness, from system performance to end-user satisfaction.
 
-For more information about Conversation Insights, see [Conversation Insights](../../conversation-insights/concept/conversation-insights.md).
+For more information about Conversation Insights, see [Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/conversational-intelligence/conversation-insights.md).
 
 <table id="table_c5p_4cn_ngc"><thead><tr><th>
 

@@ -2,6 +2,7 @@
 title: User experience dashboard
 description: The user experience dashboard helps get a consolidated view of the feedback data. It provides a quick view of all types of feedback data in the User Experience Analytics dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/ued-ec.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -73,5 +74,5 @@ See the following analytics for the survey feedback data.
     If the feedback provider chose to be anonymous, the user ID is displayed as Guest.
 
 
-**Parent Topic:**[Feedback Analytics dashboard](ex-fdback-board.md)
+**Parent Topic:**[Feedback Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ex-fdback-board.md)
 

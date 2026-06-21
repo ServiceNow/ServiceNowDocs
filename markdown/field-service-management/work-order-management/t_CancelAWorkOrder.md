@@ -2,6 +2,7 @@
 title: Cancel a work order
 description: Cancel a work order if the work is no longer necessary or if it is a duplicate of another work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_CancelAWorkOrder.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -48,5 +49,5 @@ Work orders and work order tasks can be canceled by users with these roles:
 4.  Click **Cancel**.
 
 
-**Parent Topic:**[Manage work orders](../concept/c_ManageWorkOrders.md)
+**Parent Topic:**[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageWorkOrders.md)
 

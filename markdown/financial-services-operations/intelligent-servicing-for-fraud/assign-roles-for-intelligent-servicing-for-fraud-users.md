@@ -2,6 +2,7 @@
 title: Assign roles for Intelligent Servicing for Fraud users
 description: Assign roles to control access to features, capabilities, and data in the Intelligent Servicing for Fraud application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/intelligent-servicing-for-fraud/assign-roles-for-intelligent-servicing-for-fraud-users.html
 release: yokohama
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
@@ -144,6 +145,6 @@ Creates, views, and edits fraud cases and works with consumers to resolve cases.
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
-    -   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+    -   To assign a role to a user, see Assign a role to a user.
+    -   To assign a role to a group, see Assign a role to a group.
 

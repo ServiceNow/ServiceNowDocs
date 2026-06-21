@@ -2,6 +2,7 @@
 title: Managing the appointments for telecommunication services
 description: Manage the appointments for the field services to enable the installation, activation, and site assessments that are needed for connectivity services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/field-service-management-for-telecommunications/manage-appointment-telecommunication-service.html
 release: yokohama
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications
@@ -17,7 +18,7 @@ Manage the appointments for the field services to enable the installation, activ
 
 ## Overview of appointment management
 
-With the use of the ServiceNow Telecommunication Open API application, you create appointments from your system for the connectivity-related field services. You can book an appointment on an existing work order and assigned it to the field service agent. To learn more about booking appointments, see [Manage appointments](https://www.servicenow.com/docs/access?context=managing-appointments&version=yokohama&pubname=yokohama-field-service-management&ft:locale=en-US).
+With the use of the ServiceNow Telecommunication Open API application, you create appointments from your system for the connectivity-related field services. You can book an appointment on an existing work order and assigned it to the field service agent. To learn more about booking appointments, see .
 
 The Telecommunication Open API application uses the TM Forum 646 API to support the external system to create and manage appointments for the field services.
 
@@ -32,7 +33,7 @@ This feature supports the following:
 
 To manage appointment bookings in your system, you must create, modify, or enable the application configuration and the individual service configurations. Do the following steps to configure the appointment booking feature:
 
-1.  [Configure an appointment booking record producer](https://www.servicenow.com/docs/access?context=appt-booking-config-record-producer&version=yokohama&pubname=yokohama-field-service-management&ft:locale=en-US).
-2.  [Create or modify service configuration for Appointment Booking](https://www.servicenow.com/docs/access?context=appt-booking-create-service-config&version=yokohama&pubname=yokohama-field-service-management&ft:locale=en-US).
-3.  [Configure variables in a record producer for appointment booking](https://www.servicenow.com/docs/access?context=create-variable-in-catalog-record-producer-for-appoinment-booking&version=yokohama&pubname=yokohama-field-service-management&ft:locale=en-US).
+1.  .
+2.  .
+3.  .
 

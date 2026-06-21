@@ -2,7 +2,10 @@
 title: Configure an ongoing notification for email interactions
 description: Configure an ongoing notification for email interactions. Configure the ongoing menu item on the toolbar in the CSM Configurable workspace for agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-ongoing-notification-email-interactions.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

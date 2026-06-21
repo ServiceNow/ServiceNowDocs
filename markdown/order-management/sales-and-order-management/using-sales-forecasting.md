@@ -2,6 +2,7 @@
 title: Using Sales Forecasting
 description: Sales Forecasting uses the current opportunities in the system to predict future opportunity amounts.​ The Opportunity Management application contains the list of opportunities created for the customers and each of these opportunities are in different stages of the sales cycles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/using-sales-forecasting.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,9 +24,9 @@ You can view the Sales Forecast dashboard to see the current sales status and ta
 
 ## Using the Sales Forecast dashboard
 
-To access the Sales Forecast dashboard, navigate to **CSM/FSM Configurable Workspace** and select the **Sales Forecast** view. Select the refresh icon ![Refresh icon](../image/form-refresh.png) to see the latest sales forecast data. Select **Update Forecast** on the dashboard to fetch the data to generate the latest forecast information.
+To access the Sales Forecast dashboard, navigate to **CSM/FSM Configurable Workspace** and select the **Sales Forecast** view. Select the refresh icon \[Omitted image "form-refresh.png"\] Alt text: Refresh icon to see the latest sales forecast data. Select **Update Forecast** on the dashboard to fetch the data to generate the latest forecast information.
 
-![Sales Forecast dashboard.](../image/sales-forecasting-dashboard.png)
+\[Omitted image "sales-forecasting-dashboard.png"\] Alt text: Sales Forecast dashboard.
 
 Select the options from these three filters to view the data for your group or manager for a selected time-period.
 
@@ -37,7 +38,7 @@ For the above screenshot, the forecast data is being shown for the Global region
 
 Commit, Strong Upside, Upside, and Pipeline represent different stages of certainty in the sales pipeline, helping to estimate the likelihood of achieving the overall target. As a manager, you can expand and see the total amount of opportunity in each stage for your team and agents. you can see the roll up amount for all the agents under that manager. The Canada group with the owner as Mathew Moore in FY 2025 Q1 displays that team’s quota has been set at $1,500. The agent working under the owner is Charlotte Turner who has already closed \(Won column\) $1,900 in sales. You can click the “i” icon for an agent and view all the opportunities for that agent and the total value in each forecast category.
 
-![Icon for agent details.](../image/icon-dashboard.png)
+\[Omitted image "icon-dashboard.png"\] Alt text: Icon for agent details.
 
 As a sales representative, you can view the status of each opportunity that you own. As the sale progresses, you can update the Forecast Category field of the opportunity, and the new data will be updated on the dashboard. You can view the total amount in each sales stage and track the status of the quota target assigned to you.
 

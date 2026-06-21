@@ -2,6 +2,7 @@
 title: Initiate a Zoom or Microsoft Teams meeting from the Now Agent mobile application
 description: Initiate a Zoom or Microsoft Teams meeting from the Now Agent mobile application to resolve customer issues by assisting them virtually while out of the office or away from your desktop computer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/initiate-zoom-MSTeam-meeting-fsm.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -39,7 +40,7 @@ On initiating the meeting, participants receive an email and SMS notification th
 
 5.  Initiate the meeting.
 
-    1.  Tap the More actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select the call platform.
+    1.  Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select the call platform.
 
         -   For a Zoom call, select **Make a Zoom Call**.
         -   For a Microsoft Teams meeting, select **Make a MS Teams Call**.
@@ -83,7 +84,7 @@ Customer
 
 </td><td>
 
-For Zoom calls, you can add a customer mentioned in the work order task.You must install the Customer Service with Field Service Management plugin to see the customer name on work order tasks. For more information, see [Integration with Customer Service Management](../concept/customer-service-integration.md).
+For Zoom calls, you can add a customer mentioned in the work order task.You must install the Customer Service with Field Service Management plugin to see the customer name on work order tasks. For more information, see [Integration with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-integrations/customer-service-integration.md).
 
 </td></tr></tbody>
 </table>    3.  After the participants list is finalized, tap **Submit** to initiate the conference call.
@@ -105,5 +106,5 @@ For Zoom calls, you can add a customer mentioned in the work order task.You must
     The recording of the meeting is added to the Conference form page in the Now Agent mobile application.
 
 
-**Parent Topic:**[Virtual Conferencing on Mobile Agent](../concept/using-vci-fsm.md)
+**Parent Topic:**[Virtual Conferencing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/using-vci-fsm.md)
 

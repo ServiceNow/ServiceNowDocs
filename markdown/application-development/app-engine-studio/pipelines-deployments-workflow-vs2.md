@@ -2,6 +2,7 @@
 title: Pipelines and Deployments workflow version 24.1.2
 description: As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in version 24.1.2, released in November 2023.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/pipelines-deployments-workflow-vs2.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,7 +16,7 @@ breadcrumb: [Managing app deployments using Pipelines and Deployments, Build app
 
 As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in version 24.1.2, released in November 2023.
 
-![Infographic depicting a standard Pipelines and Deployments workflow. For a text description, refer to the workflow steps that follow.](../image/pipelines-flow-vs2.png "Pipelines and Deployments workflow")
+\[Omitted image "pipelines-flow-vs2.png"\] Alt text: Infographic depicting a standard Pipelines and Deployments workflow. For a text description, refer to the workflow steps that follow.
 
 In this workflow:
 
@@ -59,5 +60,5 @@ In this workflow:
         The workflow starts over when a requester selects **Submit** again in App Engine Studio.
 
 
-**Parent Topic:**[Managing app deployments using Pipelines and Deployments](../../app-engine-studio/concept/aes-review-apps-p-and-d.md)
+**Parent Topic:**[Managing app deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-review-apps-p-and-d.md)
 

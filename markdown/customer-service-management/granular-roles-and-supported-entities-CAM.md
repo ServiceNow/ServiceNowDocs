@@ -2,9 +2,12 @@
 title: Granular roles and supported entities for responsibility framework
 description: Starting with the Yokohama release, multiple module-level granular roles are introduced to simplify defining and configuring the responsibility framework. These new granular roles simplify tasks by removing the need to create custom access control lists \(ACLs\) on the target table when a responsibility ACL is already in place. This change promotes a more straightforward and declarative migration process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/granular-roles-and-supported-entities-CAM.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Configure access through the responsibility access configuration, Configuring customer access management, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

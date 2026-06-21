@@ -2,6 +2,7 @@
 title: Supported Alexa intents
 description: Use the Alexa intents supported by Conversational Integration with Alexa to receive an appropriate response during custom chat integrations with Alexa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/alexa-intents.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent

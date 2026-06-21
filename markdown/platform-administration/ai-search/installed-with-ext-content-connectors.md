@@ -1,7 +1,8 @@
 ---
 title: Components installed with External Content Connectors
-description: The External Content Connectors plugin installs a connector admin role and a scheduled job to remove unused OAuth 2.0 credentials for deleted external content connectors.
+description: The External Content Connectors plugin installs a connector administrator role and a scheduled job to remove unused OAuth 2.0 credentials for deleted external content connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/installed-with-ext-content-connectors.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -14,7 +15,7 @@ breadcrumb: [Reference, External Content Connectors, ServiceNow Store applicatio
 
 # Components installed with External Content Connectors
 
-The External Content Connectors plugin installs a connector admin role and a scheduled job to remove unused OAuth 2.0 credentials for deleted external content connectors.
+The External Content Connectors plugin installs a connector administrator role and a scheduled job to remove unused OAuth 2.0 credentials for deleted external content connectors.
 
 ## Roles installed
 
@@ -75,5 +76,5 @@ Deletes stored OAuth 2.0 credentials for external content connectors that have b
 4.  Select **Update**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[External Content Connectors reference](../concept/reference-ext-cont-connectors.md)
+</table>**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/reference-ext-cont-connectors.md)
 

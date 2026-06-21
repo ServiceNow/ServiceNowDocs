@@ -2,6 +2,7 @@
 title: ERP Semantic Mining snapshot field descriptions
 description: In ERP Semantic Mining \(ERP-CM\), the Configuration page Snapshots tab displays information about import and export snapshots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-snapshot-field-descriptions.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -15,7 +16,7 @@ breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Seman
 
 In ERP Semantic Mining \(ERP-CM\), the **Configuration** page **Snapshots** tab displays information about import and export snapshots.
 
-For process details, see [Create a snapshot to share and save data in ERP Semantic Mining](../task/create-a-snapshot-to-share-and-save-data.md).
+For process details, see [Create a snapshot to share and save data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md).
 
 |Column|Definition|
 |------|----------|
@@ -26,5 +27,5 @@ For process details, see [Create a snapshot to share and save data in ERP Semant
 |Created by|User that created the snapshot.|
 |Updated|Date and time the snapshot was most recently updated.|
 
-**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

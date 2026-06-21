@@ -2,6 +2,7 @@
 title: Associate a discrete asset to a linear asset
 description: Associate a discrete asset to a linear asset in order to query and find these assets from the linear asset at a later point of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/associate-discreet-asset.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -31,15 +32,15 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_ql4_db4_sxb"><thead><tr><th align="left" id="d262593e89">
+<table id="choicetable_ql4_db4_sxb"><thead><tr><th align="left" id="d256480e89">
 
 Field
 
-</th><th align="left" id="d262593e92">
+</th><th align="left" id="d256480e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d262593e98">
+</th></tr></thead><tbody><tr><td id="d256480e98">
 
 **Discrete asset**
 
@@ -47,7 +48,7 @@ Description
 
 Name of the discrete asset.
 
-</td></tr><tr><td id="d262593e107">
+</td></tr><tr><td id="d256480e107">
 
 **Linear asset**
 
@@ -55,7 +56,7 @@ Name of the discrete asset.
 
 Name of the linear asset that the discrete asset is associated to.
 
-</td></tr><tr><td id="d262593e116">
+</td></tr><tr><td id="d256480e116">
 
 **Marker**
 
@@ -63,7 +64,7 @@ Name of the linear asset that the discrete asset is associated to.
 
 Marker of the discrete asset. You can either select an existing marker or select the location picker to create a marker. Marker must be within the linear asset boundary, which is defined by the boundary width of the linear asset.
 
-</td></tr><tr><td id="d262593e127">
+</td></tr><tr><td id="d256480e127">
 
 **Description**
 
@@ -75,5 +76,5 @@ Description of the discrete asset.
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

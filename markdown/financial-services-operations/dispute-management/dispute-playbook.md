@@ -2,6 +2,7 @@
 title: Using the dispute playbook
 description: Dispute agents use the dispute playbook to review and work on their cases and tasks. The playbook provides the end-to-end life cycle for the tasks performed during the dispute handling process, from the time a dispute is logged to the final resolution and communication to the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/dispute-playbook.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -15,5 +16,5 @@ breadcrumb: [Understanding Dispute Management, Dispute Management, Using banking
 
 Dispute agents use the dispute playbook to review and work on their cases and tasks. The playbook provides the end-to-end life cycle for the tasks performed during the dispute handling process, from the time a dispute is logged to the final resolution and communication to the customer.
 
-**Parent Topic:**[Understanding Dispute Management](disputes-overview.md)
+**Parent Topic:**[Understanding Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/disputes-overview.md)
 

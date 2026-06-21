@@ -2,6 +2,7 @@
 title: KPI Signals roles
 description: The following roles apply to KPI Signals
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/kpi-signals-roles.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"

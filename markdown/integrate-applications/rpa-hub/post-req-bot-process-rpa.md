@@ -2,6 +2,7 @@
 title: Adding details for your bot process in RPA Hub
 description: After you create a bot process in RPA Hub, you can add some details for your bot process, such as information about the credential groups, business applications, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/post-req-bot-process-rpa.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -30,7 +31,7 @@ You can add the following details that pertain to the bot process:
 
 Depending on what you selected for the **Process Type** field on the Bot Process Configuration form, you can add related details to the bot process.
 
-If you can't view the activity stream, configure the system property to display the activity stream. For more information, see [Display an activity stream for bot processes and robots in RPA Hub](../task/display-activity-stream-sys-property-rpahub.md).
+If you can't view the activity stream, configure the system property to display the activity stream. For more information, see [Display an activity stream for bot processes and robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/display-activity-stream-sys-property-rpahub.md).
 
-For more information, see [Configuring a bot process record in RPA Hub](create-botprocess.md), [Bot process configuration form in RPA Hub](../reference/bot-process-config-form.md), and [Bot Process form in RPA Hub](../reference/bot-process-form.md).
+For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/bot-process-config-form.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/bot-process-form.md).
 

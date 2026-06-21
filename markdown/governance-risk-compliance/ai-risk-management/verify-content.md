@@ -2,6 +2,7 @@
 title: Verify AI Risk and Compliance Content
 description: Verify if the AI Risk and Compliance content is installed correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/verify-content.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -38,5 +39,5 @@ The AI Risk and Compliance Content is installed and verified.
 
 ## What to do next
 
-[Configure AI Risk and Compliance Workspace](configure-airc-workspace.md)
+[Configure AI Risk and Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/configure-airc-workspace.md)
 

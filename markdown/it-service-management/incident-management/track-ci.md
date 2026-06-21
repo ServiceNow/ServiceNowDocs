@@ -2,6 +2,7 @@
 title: Capture information on affected configuration items in an incident
 description: Capture information on affected configuration items \(CIs\), with type as asset, in an incident to keep a record of the updated, repaired, swapped, or retired configuration items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/track-ci.html
 release: yokohama
 product: Incident Management
 classification: incident-management
@@ -43,7 +44,7 @@ Related list
 
 </td><td>
 
--   In the **Affected CIs** related list, click the settings icon ![The Settings icon](../../change-management/image/settings-icon.png).
+-   In the **Affected CIs** related list, click the settings icon \[Omitted image "settings-icon.png"\] Alt text: The Settings icon.
 -   Move the **Asset Action** and the **Swapped CI** fields from the **Available** column to the **Selected** column.
 -   Click **OK**.
 
@@ -101,6 +102,6 @@ Information on the new CI that is swapped with the existing CI.**Note:**
 
     **Note:** You can filter the **Affected CIs** related list to have the list of affected CIs with class as Asset.
 
-    ![Filter the Affected CIs related list to have the list of affected CIs with class as Asset.](../image/asset-ci-filter.png)
+    \[Omitted image "asset-ci-filter.png"\] Alt text: Filter the Affected CIs related list to have the list of affected CIs with class as Asset.
 
 

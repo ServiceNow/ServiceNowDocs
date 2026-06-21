@@ -2,6 +2,7 @@
 title: Initiate conference call on incident communication task
 description: Initiate a conference call and include all the required stakeholders to discuss on the resolution of the incident and the communication task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-communications-management/initiate-conf-call.html
 release: yokohama
 product: Incident Communications Management
 classification: incident-communications-management
@@ -36,5 +37,5 @@ Activate the Notify plugin \(com.snc.notify\), configure the Twilio account, con
 6.  Select the conference bridge number and the participants for the conference call and click **Start Call**.
 
 
-**Parent Topic:**[Managing Incident Communications](../concept/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

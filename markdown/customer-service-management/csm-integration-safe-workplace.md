@@ -2,7 +2,10 @@
 title: Integrating with Safe Workplace applications
 description: Integrate Customer Service Management with ServiceNow Safe Workplace applications. This integration helps you safely reopen locations and support the health and safety of contacts and consumers after emergencies and pandemics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-integration-safe-workplace.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ As a consumer or contact, verify that you understand and comply with requirement
 
 As a customer or consumer service agent, screen contacts or consumers entering a location to ensure compliance with entry requirements such as a temperature check and Personal Protection Equipment \(PPE\).
 
-For more information on the Employee Health Screening application, see [Employee Health Screening](https://www.servicenow.com/docs/access?context=employee-health-screening&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US).
+For more information on the Employee Health Screening application, see Employee Health Screening.
 
 ## Key features
 

@@ -2,6 +2,7 @@
 title: Share a Process Mining project
 description: Share a project to let others see what you see, and enable a process owner to analyze further.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/share-project.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -27,7 +28,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 2.  From the **Summary and Insights**, **Analyst Workbench**, or **Automation Opportunities** tab, select the **Share** button.
 
-    ![Share button on the Analyst workbench](../image/po-share-button.png)
+    \[Omitted image "po-share-button.png"\] Alt text: Share button on the Analyst workbench
 
     The Share project window is displayed.
 
@@ -42,5 +43,5 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 6.  To remove any user, group, or role from giving the access to the project, from the **Actions** list for that user, group, or role select **Remove**.
 
 
-**Parent Topic:**[Using Process Mining](../concept/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/use-process-mining.md)
 

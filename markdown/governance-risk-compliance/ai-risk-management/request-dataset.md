@@ -2,6 +2,7 @@
 title: Request a dataset
 description: Request a dataset to analyze trends, train AI models, or support data-driven decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/request-dataset.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -29,7 +30,7 @@ Role required: AI risk and compliance business user \(Employee Center\), sn\_ai\
 
     1.  Select the **Request a dataset** card.
 
-3.  On the AI Control Tower dashboard, select the list ![List icon.](../image/list-icon-airc-ws.png) icon, and navigate to the AI asset inventory.
+3.  On the AI Control Tower dashboard, select the list \[Omitted image "list-icon-airc-ws.png"\] Alt text: List icon. icon, and navigate to the AI asset inventory.
 
     1.  Select **Add AI Asset**.
 
@@ -37,7 +38,7 @@ Role required: AI risk and compliance business user \(Employee Center\), sn\_ai\
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the Request a dataset form, see [Request a dataset form](../reference/request-dataset-form.md).
+    For a description of the field values on the Request a dataset form, see [Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-dataset-form.md).
 
 5.  To add attachments, select **Add attachments**.
 
@@ -48,8 +49,8 @@ Role required: AI risk and compliance business user \(Employee Center\), sn\_ai\
     After you submit this form, the AI Center of Excellence team reviews the request and provides the necessary approval and guidance.
 
 
--   **[Request a dataset form](../reference/request-dataset-form.md)**  
+-   **[Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-dataset-form.md)**  
 The Request a dataset form is designed to streamline the request process for procuring a dataset. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

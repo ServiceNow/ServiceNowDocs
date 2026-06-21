@@ -2,6 +2,7 @@
 title: Add products to an opportunity
 description: Add products to your opportunity using the Catalog tab in Opportunity Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/opportunity-management-add-prod-oppty.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -29,7 +30,7 @@ In the **Catalog** tab, you can search for and select simple or complex product 
 
 1.  Navigate to **All** &gt; **Workspaces**.
 
-2.  In the CSM Configurable Workspace, select the List view icon \( ![](../image/Lists.png)\).
+2.  In the CSM Configurable Workspace, select the List view icon \( \[Omitted image "Lists.png"\]\).
 
 3.  Navigate to **Opportunity** &gt; **All** and select the opportunity that you want to work with.
 
@@ -44,7 +45,7 @@ In the **Catalog** tab, you can search for and select simple or complex product 
     -   For a simple product that doesn't have any selectable options, select **Add**.
     -   For a configurable product that has options that you can choose, select **Customize** to open the product configurator and select product options.
 
-        As you configure the product, you can reprice, validate, and save your selections. For details on using the product configurator, see [Using Sales Customer Relationship Management applications](som-using.md).
+        As you configure the product, you can reprice, validate, and save your selections. For details on using the product configurator, see [Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-using.md).
 
     The product offering is added to the opportunity as a line item.
 

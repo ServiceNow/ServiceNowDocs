@@ -2,6 +2,7 @@
 title: Configure a third-party LLM provider for Now Assist for Creator
 description: Configure a third-party LLM provider as default for creating a spoke using Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/configure-tpt-llm-provider-na-creator.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -34,12 +35,12 @@ Configure a third-party LLM provider as default for creating a spoke using Now A
 
     **Note:** Currently, Azure OpenAI, Google Gemini, and Anthropic Claude on AWS LLMs are supported.
 
-    ![Configuring third-party LLMs for Now Assist for Creator](../images/na-creator-tpt-llms-config.png)
+    \[Omitted image "na-creator-tpt-llms-config.png"\] Alt text: Configuring third-party LLMs for Now Assist for Creator
 
 
 ## Result
 
 You can now create a spoke from Now Assist using the selected LLM provider.
 
-**Parent Topic:**[Use Now Assist to create spokes and build actions](../concept/now-assist-in-spk-gen.md)
+**Parent Topic:**[Use Now Assist to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/now-assist-in-spk-gen.md)
 

@@ -2,6 +2,7 @@
 title: Use the Kafka Message trigger and Script consumer to consume messages
 description: Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio and the Script consumer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/use-kafka-trigger-script-consumer.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -18,10 +19,10 @@ Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio 
 ## Before you begin
 
 -   Role required: integration\_hub\_admin
--   This page is part of the [Stream Connect quick start guide](../concept/stream-connect-quick-start.md).
--   This document shows you how to consume messages through your connection to Hermes. To set up and test your connection, see [Set up a secure connection to the Hermes Messaging Service](set-up-connection-hermes.md) and [Testing the connection to Hermes through the ADCv2 gateway](test-connection-hermes.md).
--   The first part of this page shows you how to use the Kafka Message trigger in Workflow Studio to consume messages. For more information about the trigger, see [Create a flow with a Kafka Message trigger](https://www.servicenow.com/docs/access?context=create-flow-kafka&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US). For more information about Workflow Studio and configuring flows, see [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
--   The second part of this page shows you how to use the Script consumer to consume messages. For more information, see [Configure a script consumer](configure-script-consumer.md).
+-   This page is part of the [Stream Connect quick start guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-quick-start.md).
+-   This document shows you how to consume messages through your connection to Hermes. To set up and test your connection, see [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/set-up-connection-hermes.md) and [Testing the connection to Hermes through the ADCv2 gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/test-connection-hermes.md).
+-   The first part of this page shows you how to use the Kafka Message trigger in Workflow Studio to consume messages. For more information about the trigger, see . For more information about Workflow Studio and configuring flows, see .
+-   The second part of this page shows you how to use the Script consumer to consume messages. For more information, see [Configure a script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-script-consumer.md).
 
 ## Procedure
 
@@ -51,11 +52,11 @@ Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio 
 
     4.  In the trigger section, select **Add a trigger**, then select **Kafka Message** as the trigger type.
 
-        ![Kafka Message is the trigger type for the flow.](../images/select-kafka-trigger.png)
+        \[Omitted image "select-kafka-trigger.png"\] Alt text: Kafka Message is the trigger type for the flow.
 
     5.  Select the Topic1 topic.
 
-        ![Select topic1 for the Topic field.](../images/select-kafka-topic.png)
+        \[Omitted image "select-kafka-topic.png"\] Alt text: Select topic1 for the Topic field.
 
         You can use the magnifying glass icon to see the list of available topics.
 
@@ -67,7 +68,7 @@ Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio 
 
     9.  Drag the **Payload** data pill to the **Message** field, then select **Done**.
 
-        ![Topic1 Consumer flow trigger.](../images/add-log-action.png)
+        \[Omitted image "add-log-action.png"\] Alt text: Topic1 Consumer flow trigger.
 
     10. **Save** the flow trigger.
 
@@ -75,13 +76,13 @@ Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio 
 
     12. Create a new entry and enable reporting to the flow created above.
 
-        ![Creating a new Setting record to enable reporting for the flow.](../images/enable-flow-reporting.png)
+        \[Omitted image "enable-flow-reporting.png"\] Alt text: Creating a new Setting record to enable reporting for the flow.
 
     13. Navigate back to your flow and select **Activate**.
 
     14. To view your topic subscription, navigate to **All** &gt; **Integration Hub** &gt; **Stream Connect** &gt; **Subscriptions**.
 
-        ![The subscription for the topic1 topic.](../images/topic1-subscription.png)
+        \[Omitted image "topic1-subscription.png"\] Alt text: The subscription for the topic1 topic.
 
 3.  Publish messages to the topic using the Kafka command-line tool.
 
@@ -102,15 +103,15 @@ Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio 
 
     2.  Navigate back to the flow and select **Executions**.
 
-        ![Select Executions to navigate to the flow execution view.](../images/kafka-flow-executions.png)
+        \[Omitted image "kafka-flow-executions.png"\] Alt text: Select Executions to navigate to the flow execution view.
 
     3.  Open the flow execution.
 
-        ![Execution details for the flow.](../images/kafka-flow-details.png)
+        \[Omitted image "kafka-flow-details.png"\] Alt text: Execution details for the flow.
 
     4.  To view the statistics for this subscription, navigate to **All** &gt; **Integration Hub** &gt; **Stream Connect** &gt; **Subscriptions**, open the subscription, and go to the statistics view.
 
-        ![The Kafka statistics for the subscription.](../images/kafka-flow-statistics.png)
+        \[Omitted image "kafka-flow-statistics.png"\] Alt text: The Kafka statistics for the subscription.
 
 4.  Create a Script consumer to consume messages from the topic.
 
@@ -131,7 +132,7 @@ Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio 
         
         ```
 
-        ![Kafka script consumer showing the script in the Event consumer field.](../images/kafka-script-example.png)
+        \[Omitted image "kafka-script-example.png"\] Alt text: Kafka script consumer showing the script in the Event consumer field.
 
     5.  Save the form.
 
@@ -144,7 +145,7 @@ Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio 
         -   **Max concurrency** to `1`.
         -   **Start Consuming** to **All the messages stored in the topic**. This option enables you to read the messages already published to this topic.
         -   **Message handling** to **Automatically optimize**.
-        ![The Kafka Stream record.](../images/kafka-stream-example.png)
+        \[Omitted image "kafka-stream-example.png"\] Alt text: The Kafka Stream record.
 
     8.  Select the **Activate** link under Related Links.
 
@@ -152,12 +153,12 @@ Retrieve messages from Hermes with the Kafka Message trigger in Workflow Studio 
 
     9.  To view the messages, navigate to **All** &gt; **System logs** &gt; **System log** and filter messages that start with Received message.
 
-        ![List of the received messages.](../images/received-messages-example.png)
+        \[Omitted image "received-messages-example.png"\] Alt text: List of the received messages.
 
     10. You should see all the messages after 1 minute.
 
 
 ## What to do next
 
-[Use the ETL and Transform Map consumers to import data](use-etl-transform-map-consumers.md).
+[Use the ETL and Transform Map consumers to import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/use-etl-transform-map-consumers.md).
 

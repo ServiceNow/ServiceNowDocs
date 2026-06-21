@@ -2,6 +2,7 @@
 title: Assign a supplier case to yourself from the Source-to-Pay Workspace
 description: As a supplier manager, assign a case to yourself and start working on it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/assign-supp-case.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -25,7 +26,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, sn\_slm.fulfiller, or sn\_slm.adm
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Do one of the following:
 
@@ -42,5 +43,5 @@ Role required: sn\_slm.manager, sn\_slm.owner, sn\_slm.fulfiller, or sn\_slm.adm
 6.  Select **Save**.
 
 
-**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](../concept/managing-cases.md)
+**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

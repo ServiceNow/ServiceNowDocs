@@ -2,6 +2,7 @@
 title: C\# connector methods
 description: The C\# connector method enables you to execute the custom C\# scripts you had written while configuring the C\#.Net connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/connector-c-methods.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,11 +18,11 @@ The C\# connector method enables you to execute the custom C\# scripts you had w
 
 ## Execute
 
-Executes C\# scripts set up in the configuration window. Before executing the method, you must configure the connector. See [Configure the C\#.Net connector](../task/configure-C-net-connector.md).
+Executes C\# scripts set up in the configuration window. Before executing the method, you must configure the connector. See [Configure the C\#.Net connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-C-net-connector.md).
 
 To execute, do the following steps.
 
-1.  Click the method settings icon \(![Method settings icon](../image/component-settings-icon.png)\).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon\).
 2.  From the **Classes** list, select the class defined during the configuration of the C\#.NET connector.
 3.  From the **Methods** list, select the method defined during the configuration of the C\#.NET connector.
 4.  Click **OK**.
@@ -34,5 +35,5 @@ To execute, do the following steps.
 |---------|-----------|--------------|---------|-------------|---------|
 |Result|Returns the output of the script.|Data Out|String|Not applicable|Not applicable|
 
-**Parent Topic:**[C\#.Net](../concept/c.md)
+**Parent Topic:**[C\#.Net](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/c.md)
 

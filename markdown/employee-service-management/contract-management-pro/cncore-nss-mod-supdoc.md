@@ -2,6 +2,7 @@
 title: Modify supporting documents in the contract request
 description: As a contract fulfiller, add, classify, or remove supporting documents submitted in the contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-nss-mod-supdoc.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,31 +28,31 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 3.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d630840e67">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d589989e67">
 
 Action
 
-</th><th align="left" id="d630840e70">
+</th><th align="left" id="d589989e70">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d630840e76">
+</th></tr></thead><tbody><tr><td id="d589989e76">
 
 **Add supporting documents**
 
 </td><td>
 
-[Add supporting documents to the contract request](cncore-ss-add-suprt-doc.md)
+[Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)
 
-</td></tr><tr><td id="d630840e90">
+</td></tr><tr><td id="d589989e90">
 
 **Reclassify supporting documents**
 
 </td><td>
 
-[Reclassify supporting documents in the contract request](cncore-nss-reclassify-supdoc.md)
+[Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)
 
-</td></tr><tr><td id="d630840e104">
+</td></tr><tr><td id="d589989e104">
 
 **Remove the supporting document**
 
@@ -66,5 +67,5 @@ Steps
 </table>4.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Use non-self-served contract request](../concept/cncore-req-nss-contract-1.md)
+**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

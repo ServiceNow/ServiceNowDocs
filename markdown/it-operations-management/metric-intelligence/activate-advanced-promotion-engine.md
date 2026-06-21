@@ -2,6 +2,7 @@
 title: Activate the Advanced Promotion Engine
 description: Before you can use the Advanced Promotion Engine feature, you must activate it from the list of plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/metric-intelligence/activate-advanced-promotion-engine.html
 release: yokohama
 product: Metric Intelligence
 classification: metric-intelligence

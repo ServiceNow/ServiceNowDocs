@@ -2,6 +2,7 @@
 title: Exploring Generative AI Controller
 description: Learn more about generative AI concepts and how to integrate third-party generative AI into the ServiceNow AI Platform to create content, summarize task records, and analyze user sentiment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/generative-ai-controller/exploring-generative-ai-controller.html
 release: yokohama
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -33,7 +34,7 @@ Generative AI Controller integrates with external LLMs, including ones by OpenAI
 
 ## Get started with Generative AI Controller
 
--   The Generative AI Controller application is installed with any [Now Assist application](../../now-assist-platform/concept/platform-now-assist-landing.md).
+-   The Generative AI Controller application is installed with any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 -   Sign up and create an account with a generative AI provider.
     -   To sign up with OpenAI, go to their [official platform website](https://platform.openai.com/).
     -   To get started with Azure OpenAI, go to their [documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart).
@@ -42,7 +43,7 @@ Generative AI Controller integrates with external LLMs, including ones by OpenAI
     -   To get started with Aleph Alpha, go to [their website](https://app.aleph-alpha.com) and create an Aleph Alpha API account.
     -   To get started with IBM watsonx, go to [Getting started with IBM watsonx as a Service](https://www.ibm.com/docs/en/watsonx/saas?topic=getting-started).
     -   To get started with Amazon Bedrock, [set up an IAM user with the correct permissions](https://repost.aws/knowledge-center/create-access-key) and then [explore the Converse API](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_Converse.html).
--   [Configure credentials for your preferred AI service provider](configuring-api-credentials-for-generative-ai-capabilities.md) for the Generative AI Controller capabilities.
+-   [Configure credentials for your preferred AI service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md) for the Generative AI Controller capabilities.
 -   Add Generative AI Controller capabilities to Virtual Agent Designer to start creating Virtual Agent topics with generative AI with your AI service provider.
 -   Use Generative AI Controller with Virtual Agent Designer, Flow Designer, and scripts.
 

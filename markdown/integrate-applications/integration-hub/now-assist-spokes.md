@@ -2,6 +2,7 @@
 title: Now Assist for Integration Hub
 description: Use the ServiceNow Now Assist AI agents to mimic human-like intelligence by using Large Language Models \(LLMs\) to perform tasks that range from simple automated responses to complex problem-solving. Utilize the conversational ability of Integration Hub spoke actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/now-assist-spokes.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -48,20 +49,20 @@ The Now Assist for Integration Hub application requires these subscriptions:
 
 After installing the Now Assist for Integration Hub application, you can use the available AI agents and configure the available conversational spoke actions.
 
--   See [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) to learn about AI agents.
--   See [Conversational subflows](https://www.servicenow.com/docs/access?context=conversational-subflows&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US) to learn more about configuring the conversational settings.
--   See [Conversational actions](https://www.servicenow.com/docs/access?context=conversational-actions&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US) to learn more about creating and configuring the conversational skill from Workflow Studio.
--   See  in [Now Assist skills in the Platform workflow](https://www.servicenow.com/docs/access?context=now-assist-on-now-platform&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) to learn more about conversation experience and skills.
+-   See  to learn about AI agents.
+-   See  to learn more about configuring the conversational settings.
+-   See  to learn more about creating and configuring the conversational skill from Workflow Studio.
+-   See  in  to learn more about conversation experience and skills.
 
 ## Available AI agents
 
 This application provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
-Available AI agent includes, [Meeting scheduler AI agent](../reference/meeting-scheduler-ai-agent.md) that can be used to organize Zoom or Teams meetings and create regular calendar events. This AI agent retrieves details of available rooms, details of the relevant users you want to invite such as, email address and timezone, finds an available time slot, creates a calendar event, and generates a Zoom URL for the meeting.
+Available AI agent includes, [Meeting scheduler AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/meeting-scheduler-ai-agent.md) that can be used to organize Zoom or Teams meetings and create regular calendar events. This AI agent retrieves details of available rooms, details of the relevant users you want to invite such as, email address and timezone, finds an available time slot, creates a calendar event, and generates a Zoom URL for the meeting.
 
 ## Role masking
 
-[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
-**Parent Topic:**[Building integrations in Integration Hub](building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/building-integrations-ih.md)
 

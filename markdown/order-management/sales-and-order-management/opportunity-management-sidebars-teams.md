@@ -2,6 +2,7 @@
 title: Collaborate with stakeholders by using the sidebar
 description: Initiate a discussion with internal and external stakeholders, such as sales agents, solution consultants, and subject matter experts using sidebar integration with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/opportunity-management-sidebars-teams.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,11 +20,11 @@ Initiate a discussion with internal and external stakeholders, such as sales age
 
 Role required: sales\_agent or sales\_manager
 
-Before using the sidebar integration, you must first complete configuring the sidebar integration with your opportunity. To learn more, see [Configuring Sidebar](https://www.servicenow.com/docs/access?context=configure-sidebar&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+Before using the sidebar integration, you must first complete configuring the sidebar integration with your opportunity. To learn more, see .
 
 ## Procedure
 
-1.  Navigate to the **List** view ![List view icon.](../image/Lists.png) and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: List view icon. and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with.
 

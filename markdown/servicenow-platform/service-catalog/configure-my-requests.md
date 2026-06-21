@@ -2,6 +2,7 @@
 title: Define filters for My Requests
 description: Define request filters to filter incidents, requests, or tasks under the Self-Service My Requests module in ServiceNow AI Platform, the My Requests widget in Service Portal, and the My Requests applet in the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/configure-my-requests.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
@@ -130,12 +131,12 @@ Secondary information displayed for the request.**Note:**
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Service Catalog](../concept/configuring-service-catalog.md)
+**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/configuring-service-catalog.md)
 
 **Related topics**  
 
 
-[My Requests widget](https://www.servicenow.com/docs/access?context=my-request-widget-portal&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US)
+[bundle-platux.my-request-widget-portal]
 
-[Activate the page route map for the standard ticket page](https://www.servicenow.com/docs/access?context=config-pageroutemap-stpage&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US)
+[bundle-platux.config-pageroutemap-stpage]
 

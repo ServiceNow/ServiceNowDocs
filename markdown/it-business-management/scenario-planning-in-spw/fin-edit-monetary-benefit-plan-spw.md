@@ -2,6 +2,7 @@
 title: Edit monetary benefit plan
 description: Edit a planned monetary benefit plan to revise the benefits, dates, offset, and so on, to maintain the updated financial records as your work progresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/fin-edit-monetary-benefit-plan-spw.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ Edit a planned monetary benefit plan to revise the benefits, dates, offset, and 
 
 ## Before you begin
 
--   [Create monetary benefit plans for your planning items in Strategic Planning](fin-manage-monetary-benefit-plans-spw.md)
+-   [Create monetary benefit plans for your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -32,15 +33,15 @@ Edit a planned monetary benefit plan to revise the benefits, dates, offset, and 
 
 4.  Update a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d166237e103">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d154816e103">
 
 Option
 
-</th><th align="left" id="d166237e106">
+</th><th align="left" id="d154816e106">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d166237e112">
+</th></tr></thead><tbody><tr><td id="d154816e112">
 
 **Using Monetary benefit plan related list**
 
@@ -51,7 +52,7 @@ Procedure
 3.  In the Details tab, edit the required fields and select **Save**.
 
 
-</td></tr><tr><td id="d166237e139">
+</td></tr><tr><td id="d154816e139">
 
 **Using finanicals record page**
 

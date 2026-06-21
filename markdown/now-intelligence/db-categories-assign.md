@@ -2,6 +2,7 @@
 title: Assign dashboard categories
 description: Categories enable users to filter dashboards in the Dashboard library. You can assign one or more categories to each dashboard
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/db-categories-assign.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -25,9 +26,9 @@ Assign dashboard categories on the dashboard's info panel.
 
 2.  Select the dashboard you want to apply a category to.
 
-3.  Select the Edit button \(![Edit button](../image/edit-button.png)\) to put the dashboard into Edit mode.
+3.  Select the Edit button \(\[Omitted image "edit-button.png"\] Alt text: Edit button\) to put the dashboard into Edit mode.
 
-4.  Select the Info button \(![Info button](../../../product/customer-service-management/image/csm-ws-dashboards-info-icon.png)\) to open the dashboard's Information panel and choose the categories you want to apply.
+4.  Select the Info button \(\[Omitted image "csm-ws-dashboards-info-icon.png"\] Alt text: Info button\) to open the dashboard's Information panel and choose the categories you want to apply.
 
     Users with the analytics\_categories\_admin role also have the option to create a new category.
 

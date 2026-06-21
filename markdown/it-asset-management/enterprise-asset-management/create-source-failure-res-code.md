@@ -2,6 +2,7 @@
 title: Create a source for failure and resolution codes
 description: Create a source to be associated with any failure or resolution code. The source for a code could be internal, external, or even from a manufacturer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/create-source-failure-res-code.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management

@@ -2,6 +2,7 @@
 title: Closing work orders and next steps
 description: In Field Service Management, work orders are closed automatically depending on the states of the associated work order tasks. Work orders are closed when all the tasks reach the closed state. It's helpful to understand what happens after an agent closes a work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/c\_CloseAWorkOrder.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -29,5 +30,5 @@ After an order has been assigned to an agent, that agent can complete and close 
 -   When the **Request lifecycle is task driven** configuration option is enabled, all states of the work order are driven by the task. The agent can click the **Close Complete** button on the Work Order Task form to close any tasks that need to be closed manually. After all of the work order's tasks are closed, the work order is closed automatically.
 -   When the **Request lifecycle is request driven** configuration option is set and all of the work order's tasks are closed, the agent to whom the work order is assigned can click the **Close Complete** button on the Request form to close and complete the order.
 
-**Parent Topic:**[Manage work orders](c_ManageWorkOrders.md)
+**Parent Topic:**[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageWorkOrders.md)
 

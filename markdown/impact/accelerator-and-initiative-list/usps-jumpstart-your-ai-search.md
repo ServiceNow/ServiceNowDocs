@@ -2,6 +2,7 @@
 title: Jumpstart Your AI Search- US Public Sector
 description: Guidance on enabling and configuring AI Search
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/usps-jumpstart-your-ai-search.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

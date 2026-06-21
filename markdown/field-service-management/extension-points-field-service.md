@@ -2,7 +2,10 @@
 title: Extension points in Field Service Management
 description: Use extension points to customize various configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/extension-points-field-service.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -160,11 +163,11 @@ Allow other applications to use seismic appointment booking calendar.
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-extension-points]
 

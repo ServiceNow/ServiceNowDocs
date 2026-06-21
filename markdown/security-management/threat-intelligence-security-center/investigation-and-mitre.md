@@ -2,6 +2,7 @@
 title: Investigation canvas and MITRE ATT&amp;CK
 description: In the investigation canvas, view the MITRE ATT&amp;CK techniques and sub-techniques which are associated to all the nodes in the canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/investigation-and-mitre.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -42,8 +43,8 @@ Role required: sn\_sec\_tisc.analyst
 -   Whenever you add or remove a node, the MITRE ATT&amp;CK framework gets refreshed automatically and you can also use the refresh icon to do a manual refresh.
 -   Whenever you filter the specific types of nodes, even then the MITRE ATT&amp;CK framework gets refreshed.
 
--   **[Investigation Canvas MITRE Filters](../task/tisc-mitre-filters.md)**  
+-   **[Investigation Canvas MITRE Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-mitre-filters.md)**  
 MITRE filters enable you to create and save filters for Tactics, Techniques, and Procedures \(TTPs\) associated with specific adversaries and other MITRE technique attributes.
 
-**Parent Topic:**[Working with Investigation Canvas](tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

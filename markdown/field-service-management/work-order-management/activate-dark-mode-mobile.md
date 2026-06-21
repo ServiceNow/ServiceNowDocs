@@ -2,6 +2,7 @@
 title: Activate dark mode
 description: Turn on dark mode in the Mobile Agent to alleviate eye strain if the default is too bright.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/activate-dark-mode-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -30,5 +31,5 @@ Role required: wm\_agent
 4.  Tap **Dark theme**.
 
 
-**Parent Topic:**[Prioritizing on Mobile Agent](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

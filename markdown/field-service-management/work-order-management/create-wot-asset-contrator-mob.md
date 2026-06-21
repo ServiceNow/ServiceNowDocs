@@ -2,6 +2,7 @@
 title: Create work orders for a selected asset on a mobile device
 description: Create a work order for an asset through the Field Service Contractor for mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/create-wot-asset-contrator-mob.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -31,7 +32,7 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
     -   Enter the asset code in **Asset Tag**.
 4.  Tap the asset record and do one of the following actions.
 
-<table id="choicetable_hzl_5p3_dwb"><tbody><tr><td id="d81405e94">
+<table id="choicetable_hzl_5p3_dwb"><tbody><tr><td id="d71986e94">
 
 **To create a work order for this asset**
 
@@ -49,5 +50,5 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
 
 A work order is created for a selected asset or review the related work history.
 
-**Parent Topic:**[Field Service Contractor for mobile](../concept/wot-fsc.md)
+**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

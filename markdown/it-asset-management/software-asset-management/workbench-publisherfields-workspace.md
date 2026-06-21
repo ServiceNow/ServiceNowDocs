@@ -2,6 +2,7 @@
 title: License usage publisher fields in workspace
 description: Field descriptions for the related lists for publishers in the Publishers page in the License usage view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/workbench-publisherfields-workspace.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
@@ -367,5 +368,5 @@ True-up cost
 Estimated cost of remediating unlicensed installations based on the lowest number of rights needed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+</table>**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-workspace.md)
 

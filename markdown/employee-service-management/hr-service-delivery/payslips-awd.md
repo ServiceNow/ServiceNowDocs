@@ -2,6 +2,7 @@
 title: Report an issue with your payslip
 description: Report an issue with your Workday payslip from Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/payslips-awd.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -39,5 +40,5 @@ Report an issue with your Workday payslip from Employee Center.
     An HR case is created that is in Ready state.
 
 
-**Parent Topic:**[Using](../concept/using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
 

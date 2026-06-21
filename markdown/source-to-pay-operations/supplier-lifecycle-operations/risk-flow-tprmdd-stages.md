@@ -2,6 +2,7 @@
 title: Playbook stages and activities when Third-party Risk Due Diligence is installed
 description: The following table lists the Perform risk assessment playbook stages and activities when Third-party risk Due Diligence is installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-tprmdd-stages.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -143,7 +144,7 @@ Review the risk rating of the supplier and choose to accept or reject the risk r
 -   **Accept**
 -   **Reject**
 
-If you select **Reject**, the playbook opens the [Rejection stage](use-playbooks-onboard-supp.md#).
+If you select **Reject**, the playbook opens the [Rejection stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
 
 
 </td></tr><tr><td rowspan="2">
@@ -170,5 +171,5 @@ Add closing comments to complete the case.In the **Close notes** field, add your
 The state of the due diligence case is updated to Closed completed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Risk assessment flow when Third-party Risk Due Diligence is installed](risk-flow-slo-tprm.md)
+</table>**Parent Topic:**[Risk assessment flow when Third-party Risk Due Diligence is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-slo-tprm.md)
 

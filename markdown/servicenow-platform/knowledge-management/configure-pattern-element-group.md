@@ -2,6 +2,7 @@
 title: Configure pattern element groups for Self-Service Analytics
 description: Define a logical combination of two pattern elements, pattern element group, or both and how many times the combination occurs. Each pattern element group is implemented as regular expressions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/configure-pattern-element-group.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -17,7 +18,7 @@ Define a logical combination of two pattern elements, pattern element group, or 
 
 ## Before you begin
 
-[Configure pattern elements for Self-Service Analytics](configure-pattern-element.md).
+[Configure pattern elements for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configure-pattern-element.md).
 
 Role required: sn\_ssa\_core.self\_service\_manager
 
@@ -124,5 +125,5 @@ Maximum occurrence of the result of the logical combination of the first and sec
 
 ## What to do next
 
-[Configure activity patterns for Self-Service Analytics](configure-activity-pattern.md).
+[Configure activity patterns for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configure-activity-pattern.md).
 

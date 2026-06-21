@@ -2,13 +2,14 @@
 title: Create a non-product attribute pricing adjustment
 description: Create a pricing adjustment for a product offering based on non-product characteristics, such as billing state or shipping zip code. You use the Standard Price Adjustment Matrix to define the pricing adjustment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-create-nonprod-attrib-adjustment.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a non-product attribute pricing adjustment
@@ -23,11 +24,11 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 Non-product attributes are represented as context variables, which identify non-product characteristics, such as billing state or shipping zip code. Pricing Management provides a set of default context variables for non-product attributes. You can view the list of context variables for non-product attributes in the **Context variables** field in the Standard Price Adjustment Rule Matrix. You can also review a list of system-defined context variables in the Context Variables \[sn\_csm\_ctxrul\_mgt\_context\_variable\] table.
 
-However, if you have a non-product attribute that is not available as a default context variable, such as sales channel, your system administrator can [create a custom context variable](som-create-context-variable.md) for that attribute. You can then use the custom context variable as an input in the decision table for the Standard Price Adjustment Matrix.
+However, if you have a non-product attribute that is not available as a default context variable, such as sales channel, your system administrator can [create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-context-variable.md) for that attribute. You can then use the custom context variable as an input in the decision table for the Standard Price Adjustment Matrix.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

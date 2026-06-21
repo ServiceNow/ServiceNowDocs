@@ -2,11 +2,12 @@
 title: Configure a risk assessment to recur on a schedule
 description: Configure a third-party risk assessment to recur on a schedule to regularly update risk results for a third party or an engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/define-repeating-vend-assess.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -21,7 +22,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 ## About this task
 
-You can create repeating assessments if you are using the classic assessment engine. You can configure rules that auto-generate and send questionnaires and doc requests to engagements and third parties using the Event-driven management feature if you are using the Smart Assessment Engine. For more information, see [Configure a risk assessment to recur on a schedule](define-repeating-vend-assess.md) and [Event-driven management — automate assessment processes](../../grc-workspace-vrm/task/tprm-event-drvn-mgt-rule-create.md).
+You can create repeating assessments if you are using the classic assessment engine. You can configure rules that auto-generate and send questionnaires and doc requests to engagements and third parties using the Event-driven management feature if you are using the Smart Assessment Engine. For more information, see [Configure a risk assessment to recur on a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/define-repeating-vend-assess.md) and [Event-driven management — automate assessment processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-create.md).
 
 ## Procedure
 

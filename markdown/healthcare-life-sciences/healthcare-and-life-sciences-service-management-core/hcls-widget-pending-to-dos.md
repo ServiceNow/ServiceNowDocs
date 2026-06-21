@@ -2,6 +2,7 @@
 title: Pending to-dos widget
 description: The Pending to-dos widget displays a list of to-do items assigned to a patient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-widget-pending-to-dos.html
 release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -15,7 +16,7 @@ breadcrumb: [Widget library, Reference, Healthcare and Life Sciences Service Man
 
 The Pending to-dos widget displays a list of to-do items assigned to a patient.
 
-![Screenshot displaying thePending to-dos widget. For the text description, refer to the Key features section.](../image/hcls-widget-pending-to-dos.png "Pending to-dos widget")
+\[Omitted image "hcls-widget-pending-to-dos.png"\] Alt text: Screenshot displaying thePending to-dos widget. For the text description, refer to the Key features section.
 
 ## Key features
 
@@ -25,5 +26,5 @@ The Pending to-dos widget displays a list of to-do items assigned to a patient.
 
 The Pending to-dos widget does not include instance options.
 
-**Parent Topic:**[Patient Portal widget library](hcls-pat-widget-library.md)
+**Parent Topic:**[Patient Portal widget library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pat-widget-library.md)
 

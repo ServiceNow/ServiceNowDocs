@@ -2,13 +2,14 @@
 title: Control cascading quantity values in child product offerings
 description: Control how the quantities for child line items in a product offering for an opportunity, quote, or order are calculated by using the sn\_prd\_pm.enable\_cascade\_quantity system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-activate-cascade-quantity.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Control cascading quantity values in child product offerings

@@ -2,6 +2,7 @@
 title: Field watcher
 description: The field watcher tool tracks and displays all actions that the system performs on a selected form field.Access field-level debugging information using the field watcher.The field watcher displays field information and configuration options.Administrators may need to watch a hidden field.When information for a watched field is changed and the record is updated, the field watcher tab displays relevant information at the bottom.The following example shows what happens to the Priority field on the incident form when both the Impact and Urgency fields change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/c\_FieldWatcher.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [Debugging scripts, Scripting, Building pro-code applications, Devel
 
 The field watcher tool tracks and displays all actions that the system performs on a selected form field.
 
-**Note:** Field watcher is not supported with Next Experience in Utah. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+**Note:** Field watcher is not supported with Next Experience in Utah. For more information about supported features in Next Experience, see Considerations for activating Next Experience.
 
 Administrators can use the field watcher to figure out what happens to the field and how the value of the field changes when an event such as the firing of a business rule or enforcement of a data policy, takes place. Administrators can also impersonate non-admin users to debug what happens when those users make changes on an instance. Only one field can be watched at a time. Non-admin users with the impersonator role have access to the field watcher feature.
 
@@ -39,7 +40,7 @@ The Field Watcher tool logs activity when any of the following events occur on a
 
 **Note:** The field watcher works only on form fields. It cannot be used on list fields. Also, field watcher is not available on password-protected fields or encrypted fields. Field watcher is only available within the UI frame. The option to watch a field does not appear in the context menu if you open a record outside of the UI frame, for example, in a new tab.
 
-**Parent Topic:**[Debugging scripts](script-debug-overview.md)
+**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/script-debug-overview.md)
 
 ## Use field watcher
 
@@ -55,11 +56,11 @@ Role required: none
 
 2.  Activate field watcher by right-clicking any field label on a form and select **Watch - '&lt;field name&gt;'**.
 
-    The debug icon \(![The debug icon](../image/Debug.png)\) appears next to the field label. From this point on, the field watcher records every action taken on the selected field. For example, if you are watching a Priority field, if the priority is changed from Moderate to Low and the record is updated, the field watcher will display information about that change.
+    The debug icon \(\[Omitted image "Debug.png"\] Alt text: The debug icon\) appears next to the field label. From this point on, the field watcher records every action taken on the selected field. For example, if you are watching a Priority field, if the priority is changed from Moderate to Low and the record is updated, the field watcher will display information about that change.
 
 3.  View the field watcher log by clicking the debug icon.
 
-    A new pane opens at the bottom of the screen, showing a field watcher tab. It may also show tabs for [JavaScript Logging](https://www.servicenow.com/docs/access?context=c_WritingToTheDebugLog&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US) and JavaScript Debugger.
+    A new pane opens at the bottom of the screen, showing a field watcher tab. It may also show tabs for JavaScript Logging and JavaScript Debugger.
 
 4.  Click the **Field Watcher** tab, if needed.
 
@@ -67,7 +68,7 @@ Role required: none
 
     To watch another field, right-click that field and select **Watch - &lt;field name&gt;**.
 
-6.  Clear the field watcher log by clicking the clear log button \(![The clear log button](../image/FieldWatcherClearLogButton.png)\).
+6.  Clear the field watcher log by clicking the clear log button \(\[Omitted image "FieldWatcherClearLogButton.png"\] Alt text: The clear log button\).
 
 7.  Resize the field watcher pane by dragging the splitter bar up or down.
 
@@ -119,7 +120,7 @@ Administrators may need to watch a hidden field.
 
 When information for a watched field is changed and the record is updated, the field watcher tab displays relevant information at the bottom.
 
-![Field watcher viewing data](../image/FieldWatcherViewingData.png "Field watcher viewing data")
+\[Omitted image "FieldWatcherViewingData.png"\] Alt text: Field watcher viewing data
 
 Field watcher information includes:
 
@@ -170,7 +171,7 @@ Second Change
 3.  The user saves the record by right-clicking the form header and choosing **Save**.
 
 </td></tr></tbody>
-</table>![](../image/FieldWatcherExample1.png "Field watcher example")
+</table>\[Omitted image "FieldWatcherExample1.png"\] Alt text:
 
 **Note:** The values that change from 1 to 3, and then from 3 to 4, refer to the numerical values in the choice list.
 

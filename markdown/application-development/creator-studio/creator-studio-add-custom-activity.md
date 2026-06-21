@@ -2,6 +2,7 @@
 title: Make a custom activity available for playbooks in Creator Studio
 description: You must add custom activities to the Creator Studio Activities table \[sn\_creatorstudio\_activity\] before users can add them to playbooks when building apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-add-custom-activity.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
@@ -27,8 +28,8 @@ You may want to create custom activities for complex or company-specific workflo
 
 The following steps must be completed before you can make a custom activity available in Creator Studio:
 
-1.  **Create the flow, subflow, or action**: An admin or someone with the correct role must first create the flow, subflow, or action in Workflow Studio. For more information, see [General guidelines for Workflow Studio flows, subflows, and actions](https://www.servicenow.com/docs/access?context=design-considerations-consolidated&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
-2.  **Define the activity**: An admin then defines the activity by adding it to the Activity Definition table and assigning the flow/subflow/action to a playbook activity. This step is also when the admin specifies which inputs can be made available as fields in the activity settings in Creator Studio playbooks. For more information, see [Activity definitions](https://www.servicenow.com/docs/access?context=activity-definitions&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US) and [Create an activity definition](https://www.servicenow.com/docs/access?context=create-activity-definition&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+1.  **Create the flow, subflow, or action**: An admin or someone with the correct role must first create the flow, subflow, or action in Workflow Studio. For more information, see .
+2.  **Define the activity**: An admin then defines the activity by adding it to the Activity Definition table and assigning the flow/subflow/action to a playbook activity. This step is also when the admin specifies which inputs can be made available as fields in the activity settings in Creator Studio playbooks. For more information, see  and .
 
     **Note:** If an activity definition already exists for the activity you want, you can skip this step.
 
@@ -43,7 +44,7 @@ Role required: admin or app\_engine\_admin
 
     The Creator Studio Activities table appears.
 
-    ![Table showing all activities defined for Creator Studio playbooks](../image/crs-activities-table.png "Creator Studio Activities table")
+    \[Omitted image "crs-activities-table.png"\] Alt text: Table showing all activities defined for Creator Studio playbooks
 
 2.  Create the basis of the new activity.
 
@@ -67,7 +68,7 @@ Activity
 
 Search for and select the type of activity that will be the basis of your custom activity.For example, create a complex approval activity by selecting **Request Multi-Level Approval**.
 
-**Note:** Once you choose an activity, you can select the information icon \(![](../../app-engine-studio/image/icon-information.png)\) to preview its Activity Definition record.
+**Note:** Once you choose an activity, you can select the information icon \(\[Omitted image "icon-information.png"\] Alt text:\) to preview its Activity Definition record.
 
 </td></tr><tr><td>
 
@@ -88,8 +89,8 @@ Brief description of the custom activity, which appears in the activity picker.
 </td></tr></tbody>
 </table>        To see a list of all the available activities you can add:
 
-        -   See [Workflow Studio actions](https://www.servicenow.com/docs/access?context=flow-actions&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US) for all standard actions.
-        -   See [Workflow Studio flow logic](https://www.servicenow.com/docs/access?context=flow-logic&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US) for a list of all flows.
+        -   See  for all standard actions.
+        -   See  for a list of all flows.
         -   See your list of all available subflows in Workflow Studio.
     3.  Confirm that the **Active** option is selected to make the activity appear in Creator Studio.
 
@@ -107,9 +108,9 @@ Brief description of the custom activity, which appears in the activity picker.
 
         For example, set the **Assigned To** field to **Always Show** to users building a playbook in Creator Studio.
 
-        ![Select Always Show to make a field appear](../image/crs-activity-inputs.png "Inputs for activities")
+        \[Omitted image "crs-activity-inputs.png"\] Alt text: Select Always Show to make a field appear
 
-        For more information, see [Add dynamic inputs to an activity](https://www.servicenow.com/docs/access?context=add-dynamic-inputs-to-activity&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+        For more information, see .
 
     4.  Hide a field from the properties panel by setting it to **Show as additional property for admins only.**
 
@@ -130,7 +131,7 @@ Brief description of the custom activity, which appears in the activity picker.
 
 The new activity appears in the activity picker in Creator Studio.
 
-![The activity we added appears at the end of the activity picker](../image/crs-activity-added.png "New activity appears in the activity picker")
+\[Omitted image "crs-activity-added.png"\] Alt text: The activity we added appears at the end of the activity picker
 
-**Parent Topic:**[Administering activities in Creator Studio](../concept/creator-studio-administering-activities.md)
+**Parent Topic:**[Administering activities in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-administering-activities.md)
 

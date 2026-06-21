@@ -2,7 +2,10 @@
 title: Exploring Impact Store Application
 description: ServiceNow Impact Store Application personalizes your digital transformation journey and accelerates your time-to-value integrated within your ServiceNow AI Platform instance and your Impact Delivery Instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/exploring-impact-platform.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-02-27"
 reading_time_minutes: 2
@@ -24,7 +27,7 @@ ServiceNow Impact is a customer success product that helps you to leverage the p
 
 Track progress against your outcomes, share insights and industry benchmark comparisons, and make data-driven decisions to optimize your digital transformation journey directly from your instance. Enable proactive management of instance quality, compliance, and performance with Platform Health. Use Quicklinks to access additional tools and benefits in your Impact Delivery Instance application.
 
-![Impact home page.](../image/impact-landing-page-updated.png)
+\[Omitted image "impact-landing-page-updated.png"\] Alt text: Impact home page.
 
 ## Impact store app users
 
@@ -100,6 +103,6 @@ Provides consent to start an Accelerator
 
 To learn more about configuring and using the Impact store app, see:
 
--   [Configuring the Impact Store Application](configuring-impact-platform.md)
--   [Using Impact Store Application](impact-in-app.md)
+-   [Configuring the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/configuring-impact-platform.md)
+-   [Using Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-in-app.md)
 

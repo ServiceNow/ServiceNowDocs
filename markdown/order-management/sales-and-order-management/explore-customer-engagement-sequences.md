@@ -2,13 +2,14 @@
 title: Customer Engagement Sequences
 description: Customer Engagement Sequences is a playbook that consists of a series of automated and manual activities that can be set up to engage with leads and customers at every stage of their relationship with your business​ through various channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/explore-customer-engagement-sequences.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
 # Customer Engagement Sequences
@@ -54,7 +55,7 @@ Views sequence tasks that are assigned to them and executes targeted outreach st
 
 The following illustration describes the tasks involved in configuring and using Customer Engagement Sequences.
 
-![Infographic showing how sales development representatives create customer engagement sequences and how sales representatives use them for interacting with prospective customers. For details, refer to the following description.](../image/customer-engagement-sequences-workflow-landing.svg "Creating and using Customer Engagement Sequences")
+\[Omitted image "customer-engagement-sequences-workflow-landing.svg"\] Alt text: Infographic showing how sales development representatives create customer engagement sequences and how sales representatives use them for interacting with prospective customers. For details, refer to the following description.
 
 1.  As a sequence admin, create a customer engagement sequence such as a lead-nurturing sequence from the CSM Configurable Workspace.
 2.  Define the sequence parameters:
@@ -92,7 +93,7 @@ Users
 
 </td><td>
 
-[No-code interface to build customer engagement sequences](../task/create-customer-engagement-sequence.md)
+[No-code interface to build customer engagement sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/create-customer-engagement-sequence.md)
 
 </td><td>
 
@@ -106,7 +107,7 @@ Sequence admin, sequence writer
 
 </td><td>
 
-[Predefined activities that align with business goals and outreach strategy](../task/execute-sequence-steps.md)
+[Predefined activities that align with business goals and outreach strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/execute-sequence-steps.md)
 
 </td><td>
 
@@ -117,8 +118,8 @@ Sequence task owner
 
 The following topics provide more information about configuring and using Customer Engagement Sequences:
 
--   [Configuring Customer Engagement Sequences](configuring-customer-engagement-sequences.md)
--   [Using Customer Engagement Sequences](using-customer-engagement-sequences.md)
--   [Components installed with Customer Engagement Sequences](../reference/components-installed-customer-engagement-sequences.md)
--   [Exploring Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-workflow-studio&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
+-   [Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/configuring-customer-engagement-sequences.md)
+-   [Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/using-customer-engagement-sequences.md)
+-   [Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/components-installed-customer-engagement-sequences.md)
+-   
 

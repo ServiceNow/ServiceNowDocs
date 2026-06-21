@@ -2,6 +2,7 @@
 title: Vision and Strategy
 description: Insights into vision and strategy.Guidance on building a ServiceNow vision and strategyGuidance on building a ServiceNow vision and strategy
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/vision-and-strategy.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

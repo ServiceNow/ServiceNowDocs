@@ -2,6 +2,7 @@
 title: Configure the Customer and Consumer Service Portals
 description: Configure the Customer and Consumer Service Portals to provide information and support for your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -57,5 +58,5 @@ To activate the Consumer Service Portal, activate the Consumer Service plugin.
 **Related topics**  
 
 
-[Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_ServicePortal]
 

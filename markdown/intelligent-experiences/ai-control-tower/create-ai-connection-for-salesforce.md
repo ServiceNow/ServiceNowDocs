@@ -1,19 +1,20 @@
 ---
-title: Create AI connection for Salesforce
-description: Use the AI Service Graph Connector for Salesforce plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+title: Create an AI connection for Salesforce
+description: Create an AI connection for Salesforce in AI Control Tower using the  Salesforce connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/create-ai-connection-for-salesforce.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Create AI connection for Salesforce
+# Create an AI connection for Salesforce
 
-Use the AI Service Graph Connector for Salesforce plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+Create an AI connection for Salesforce in AI Control Tower using the  Salesforce connector.
 
 ## Before you begin
 
@@ -27,7 +28,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 3.  Select **Salesforce** from all the available connectors.
 
-4.  Click **Create connection**.
+4.  Select **Create connection**.
 
     Review setup instructions page displays
 
@@ -45,15 +46,15 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     4.  Enter the **OAuth Token URL**.
 
-    5.  Click **Create and test connection**.
+    5.  Select **Create and test connection**.
 
-    6.  Click **Continue**.
+    6.  Select **Continue**.
 
 7.  Configure import schedule
 
-    1.  Ensure that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out of the box inactive.
+    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped inactive.
 
-        **Note:** Ensure to execute the Discovery-scheduled job first.
+        **Note:** Verify to execute the Discovery-scheduled job first.
 
     2.  Select Run according to your preference.
 
@@ -61,12 +62,12 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    4.  Click **Continue**.
+    4.  Select **Continue**.
 
-    5.  Click **View all connections** to view the newly created connection.
+    5.  Select **View all connections** to view the newly created connection.
 
 
 ## Result
 
-AI Connection is created for Salesforce.
+The AI connection for Salesforce is created and configured.
 

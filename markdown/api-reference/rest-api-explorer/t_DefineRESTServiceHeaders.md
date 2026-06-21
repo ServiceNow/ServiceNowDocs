@@ -1,7 +1,8 @@
 ---
-title: Define scripted REST API headers
-description: Define scripted REST API headers to control which headers the API accepts and can respond with.
+title: Define a scripted REST API request header
+description: Define scripted REST API request headers to control which headers the API accepts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-api-explorer/t\_DefineRESTServiceHeaders.html
 release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
@@ -11,15 +12,19 @@ reading_time_minutes: 1
 breadcrumb: [Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
 
-# Define scripted REST API headers
+# Define a scripted REST API request header
 
-Define scripted REST API headers to control which headers the API acceptsand can respond with.
+Define scripted REST API requestheaders to control which headers the API accepts.
 
 ## Before you begin
 
-There must be a scripted REST API defined before you can create headers.
+There must be a scripted REST API defined before you can create requestheaders.
 
 Role required: web\_service\_admin
+
+## About this task
+
+The following procedure describes the process for manual definition of a scripted REST API request header. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/autogenerate-api-request-definitions.md).
 
 ## Procedure
 
@@ -42,7 +47,7 @@ Role required: web\_service\_admin
 
 ## What to do next
 
-After defining available headers, associate the headers with a scripted REST resource. For more information, see [Associate a request header with a resource](associate-header-api-resource.md).
+After defining available headers, associate the headers with a scripted REST resource. For more information, see [Associate a request header with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/associate-header-api-resource.md).
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

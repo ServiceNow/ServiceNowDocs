@@ -2,12 +2,13 @@
 title: Jumpstart Your Predictive Intelligence
 description: The Jumpstart Your Predictive Intelligence \(PI\) Accelerator provides a demonstration of the possibilities and capabilities of Predictive Intelligence and the clustering framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-predictive-intelligence.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
@@ -19,7 +20,7 @@ The Jumpstart Your Predictive Intelligence \(PI\) Accelerator provides a demonst
 
 Jumpstart Your Predictive Intelligence provides Impact customers with an overview of Predictive Intelligence machine learning \(ML\) capabilities, benefits, and outcomes. An overview of the four PI frameworks with an applied demonstration of Clustering is offered. Additionally, specific use cases, a configuration overview, and key resources to enable customers to reach their automation goals are highlighted.
 
-For related information, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) or [Configuring advanced settings for your ML solutions](https://www.servicenow.com/docs/access?context=configuring-advanced-settings-ml-solutions&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) for more information on Clustering parameters.
+For related information, see  or  for more information on Clustering parameters.
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

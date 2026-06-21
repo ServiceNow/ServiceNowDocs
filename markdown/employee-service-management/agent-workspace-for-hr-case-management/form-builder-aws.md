@@ -2,6 +2,7 @@
 title: Customize fields in a form in Agent Workspace for HR Case Management
 description: Add and arrange fields within a form layout to match form requirements using Form builder in Agent Workspace for HR Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/form-builder-aws.html
 release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -25,23 +26,23 @@ Role required: admin
 
 2.  Select the case that you want to customize form fields for.
 
-3.  Select the additional actions icon ![Additional actions icon](../../../common/image/Form_MenuIcon.png).
+3.  Select the additional actions icon \[Omitted image "Form\_MenuIcon.png"\] Alt text: Additional actions icon.
 
 4.  Navigate to **Configure** &gt; **Form Builder**.
 
-5.  In form view, select **Workspace UIB**.![View form](../image/view-form.png)
+5.  In form view, select **Workspace UIB**.\[Omitted image "view-form.png"\] Alt text: View form
 
 6.  Customize the fields by performing one of the following actions.
 
-<table id="choicetable_p52_lhs_5zb"><thead><tr><th align="left" id="d487345e124">
+<table id="choicetable_p52_lhs_5zb"><thead><tr><th align="left" id="d458481e124">
 
 Option
 
-</th><th align="left" id="d487345e127">
+</th><th align="left" id="d458481e127">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d487345e133">
+</th></tr></thead><tbody><tr><td id="d458481e133">
 
 **Add an existing field to a form**
 
@@ -52,7 +53,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d487345e160">
+</td></tr><tr><td id="d458481e160">
 
 **Add a new field to a form**
 
@@ -73,7 +74,7 @@ A confirmation dialog displays. You can click **Done** to close it or click **Ad
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d487345e225">
+</td></tr><tr><td id="d458481e225">
 
 **Delete a field in the form**
 

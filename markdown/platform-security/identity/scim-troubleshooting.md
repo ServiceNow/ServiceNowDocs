@@ -2,6 +2,7 @@
 title: SCIM Troubleshooting
 description: Common error scenarios integrating with SCIM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/scim-troubleshooting.html
 release: yokohama
 product: Identity
 classification: identity

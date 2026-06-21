@@ -2,7 +2,10 @@
 title: Create a consumer staff relationship
 description: Create a relationship between a staff member at a business location and a consumer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-staff-consumer-relationship.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

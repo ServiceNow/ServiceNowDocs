@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP content packs
 description: Use Zero Copy Connector for ERP content packs as examples to help you implement and deploy applications faster with less manual work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-content-packs.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -36,20 +37,20 @@ You must have:
 
 For detailed information about buying and installing an application, see the [ServiceNow Store Help](https://store.servicenow.com/$appstore.do#!/store/helpcenter) page.
 
--   **[Zero Copy Connector for ERP content pack process extensions](erp-canvas-content-pack-process-extensions.md)**  
+-   **[Zero Copy Connector for ERP content pack process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-content-pack-process-extensions.md)**  
 Use the process extensions in Zero Copy Connector for ERP content packs as examples that can be copied to add subflows with business logic to one or more models.
--   **[Explore an Zero Copy Connector for ERP content pack](../task/erp-canvas-explore-a-content-pack.md)**  
+-   **[Explore an Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-explore-a-content-pack.md)**  
 Explore an Zero Copy Connector for ERP content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
--   **[Using Zero Copy Connector for ERP content packs](../task/erp-canvas-using-content-packs.md)**  
+-   **[Using Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-using-content-packs.md)**  
 Learn how to use Zero Copy Connector for ERP content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
--   **[Using Zero Copy Connector for ERP process extensions](../task/erp-canvas-using-process-extensions.md)**  
+-   **[Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-using-process-extensions.md)**  
 Learn how to use the process extensions \(subflows\) in Zero Copy Connector for ERP content packs. Content pack models and process extensions are examples.
--   **[Available Zero Copy Connector for ERP content packs](erp-canvas-available-content-packs.md)**  
+-   **[Available Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-available-content-packs.md)**  
 The following content packs are available for use in Zero Copy Connector for ERP to implement and deploy applications faster with less manual work.
--   **[Zero Copy Connector for ERP Enterprise Data Foundation content pack](erp-canvas-enterprise-data-foundation-content-pack.md)**  
+-   **[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)**  
 Find details about the models and process extensions in the Zero Copy Connector for ERP Enterprise Data Foundation content pack.
--   **[Zero Copy Connector for ERP Quote to Cash content pack](erp-canvas-sales-order-content-pack.md)**  
+-   **[Zero Copy Connector for ERP Quote to Cash content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-sales-order-content-pack.md)**  
 Find details about the models and process extensions in the Zero Copy Connector for ERP Sales Order content pack.
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

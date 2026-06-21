@@ -2,7 +2,10 @@
 title: Smart Assessment components
 description: Several types of components are installed with Smart Assessment, including tables, scripts and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/smart-assessment-components.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -125,5 +128,5 @@ Smart Assessment adds the scheduled job listed in the following table.
 |-------------|-----------|
 |Migrate survey instances to smart assessments|Migrates questionnaire instances to Smart Assessment and re-triggers the migrated instances.|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
 

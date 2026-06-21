@@ -2,6 +2,7 @@
 title: Now Assist Data Kit roles \(sn\_data\_kit.analyst\)
 description: This user can edit and save ground truth in Now Assist Data Kit. This role has read only access within Now Assist Data Kit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-data-kit/data-kit-analyst-role.html
 release: yokohama
 product: Now Assist Data Kit
 classification: now-assist-data-kit

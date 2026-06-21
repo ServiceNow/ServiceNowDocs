@@ -2,7 +2,10 @@
 title: Impact Store Application Accelerators and Initiatives
 description: Initiatives are the actionable engagements and workstreams that support your digital transformation. Impact Accelerators are fixed-scope offerings with experts behind each option to provide value exactly where you need it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-in-platform-initiatives-accelerators.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Using Impact Store Application, Impact Store Application, Impact]
 
 Initiatives are the actionable engagements and workstreams that support your digital transformation. Impact Accelerators are fixed-scope offerings with experts behind each option to provide value exactly where you need it.
 
-Accelerators and Initiatives are shared between the Impact store app and Impact Delivery Instance \(IDI\). See the [Initiatives catalog](../reference/initiatives-catalog.md) and the [Accelerator catalog](accelerator-catalog.md) for the complete list.
+Accelerators and Initiatives are shared between the Impact store app and Impact Delivery Instance \(IDI\). See the [Initiatives catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/initiatives-catalog.md) and the [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/accelerator-catalog.md) for the complete list.
 
 The Catalog shows the categorical usage of the accelerators and initiatives. View the progress of the accelerators in use by selecting each category within the **Usage by Category** section. The page also displays all the available accelerators and initiatives as flash cards that you can save as Bookmarks. View the complete accelerator information in full screen and bookmark it by selecting each flash card. You can also view the bookmarked accelerators by using the search filter.
 
@@ -33,5 +36,5 @@ View the full list of the Accelerators and Initiatives available to you as shown
 
 ## Request Accelerators and Initiatives
 
-Additional Accelerators and Initiatives can be requested. See [Request Accelerators and Initiatives](accelerators.md) for more information.
+Additional Accelerators and Initiatives can be requested. See [Request Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerators.md) for more information.
 

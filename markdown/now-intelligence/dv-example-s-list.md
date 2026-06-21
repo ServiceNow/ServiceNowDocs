@@ -2,6 +2,7 @@
 title: Simple list visualization example
 description: The simple list data visualization is used to show selected raw data from a source table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-example-s-list.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -15,7 +16,7 @@ The simple list data visualization is used to show selected raw data from a sour
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,13 +24,13 @@ The list visualization not only shows selected data directly from the source tab
 
 ## Procedure
 
-1.  Follow the first steps to [Create a simple list visualization in the Visualization Designer](../../reporting/task/create-dv-simple-list-ac.md):
+1.  Follow the first steps to [Create a simple list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-simple-list-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
     2.  Select **New**.
 
-    3.  Select the List Simple \(![List Simple icon](../../reporting/image/inline-data-vis-list.png)\) visualization type.
+    3.  Select the List Simple \(\[Omitted image "inline-data-vis-list.png"\] Alt text: List Simple icon\) visualization type.
 
 2.  In the **Data** section Choose the Task \[task\] table.
 
@@ -37,7 +38,7 @@ The list visualization not only shows selected data directly from the source tab
 
     Because we're interested in active tasks, set the condition to `Active is true` and select **Apply**.
 
-    ![Filter condition builder with the condition Active is true selected](../../reporting/image/dv-ex-list-filter-1.png)
+    \[Omitted image "dv-ex-list-filter-1.png"\] Alt text: Filter condition builder with the condition Active is true selected
 
 4.  Under Default display, edit the columns you want to show.
 
@@ -96,5 +97,5 @@ The list visualization not only shows selected data directly from the source tab
 
 You've created a list visualization grouped by state that the user can edit and show all records on.
 
-**Parent Topic:**[Create a simple list visualization in the Visualization Designer](../../reporting/task/create-dv-simple-list-ac.md)
+**Parent Topic:**[Create a simple list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-simple-list-ac.md)
 

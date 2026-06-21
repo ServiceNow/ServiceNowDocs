@@ -2,6 +2,7 @@
 title: Enable processing of event process statistics
 description: Enable the system property that switches on statistics processing for events to let the platform collect and analyze metrics such as event volume, processing flow, and handling time. This helps you monitor system performance, identify bottlenecks, and optimize event handling for faster and more efficient operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/add-property-enabling-statistics-processing.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -38,10 +39,10 @@ Role required: evt\_mgmt\_admin
 3.  Select **Submit**.
 
 
-**Parent Topic:**[View event processing statistics](monitor-event-processing-metrics.md)
+**Parent Topic:**[View event processing statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/monitor-event-processing-metrics.md)
 
 **Related topics**  
 
 
-[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 

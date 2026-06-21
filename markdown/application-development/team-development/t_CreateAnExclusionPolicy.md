@@ -2,6 +2,7 @@
 title: Create an exclusion policy
 description: Application developers can create an exclusion policy to prevent pushes or pulls to particular instances in the team development hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/t\_CreateAnExclusionPolicy.html
 release: yokohama
 product: Team Development
 classification: team-development

@@ -2,6 +2,7 @@
 title: Adaptive Authentication Events
 description: You can use the adaptive authentication events table to know about the events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/adaptive-authentication-events.html
 release: yokohama
 product: Authentication
 classification: authentication

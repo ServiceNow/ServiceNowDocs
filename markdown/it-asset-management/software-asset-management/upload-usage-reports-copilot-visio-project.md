@@ -2,6 +2,7 @@
 title: Upload the Microsoft 365 Copilot, Visio Online, and Project Online usage reports to your ServiceNow instance
 description: Monitor the usage activity data for Microsoft 365 Copilot, Visio Online, and Project Online to identify reclamation candidates based on low usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/upload-usage-reports-copilot-visio-project.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
@@ -39,25 +40,25 @@ You can export the usage reports for Microsoft Copilot, Visio Online, and Projec
     -   Select **Visio** and download the CSV file by selecting **Export**.
     **Important:** You must not change the names of the downloaded files. You must upload the files as is to your ServiceNow instance.
 
+    You must upload the CSV files to your ServiceNow instance within 7 days for correctly identifying potential reclamation candidates.
+
 4.  From the navigation menu, select **Identity**.
 
     The Azure portal for the current tenant opens.
 
-5.  On the Overview page, copy the value in the **Tenant ID** field.
-
-    Save the Tenant ID in a secure location for later use.
+5.  On the Overview page, copy the value in the **Tenant ID** field and save it for later use.
 
 6.  From a web browser, open your ServiceNow instance.
 
-<table id="choicetable_yzk_rml_bcc"><thead><tr><th align="left" id="d268112e200">
+<table id="choicetable_yzk_rml_bcc"><thead><tr><th align="left" id="d123335e202">
 
 Interface
 
-</th><th align="left" id="d268112e203">
+</th><th align="left" id="d123335e205">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d268112e209">
+</th></tr></thead><tbody><tr><td id="d123335e211">
 
 **Core UI**
 
@@ -65,7 +66,7 @@ Action
 
 Open the Integration Profiles \[samp\_sw\_subscription\_profile\] table.Integration profiles open in the list view.
 
-</td></tr><tr><td id="d268112e221">
+</td></tr><tr><td id="d123335e223">
 
 **Software Asset Workspace**
 
@@ -78,15 +79,15 @@ Open the Integration Profiles \[samp\_sw\_subscription\_profile\] table.Integrat
 </td></tr></tbody>
 </table>7.  Apply filters to open integration profiles for a specific Tenant id for which you want to upload the usage reports.
 
-<table id="choicetable_np5_wnl_bcc"><thead><tr><th align="left" id="d268112e267">
+<table id="choicetable_np5_wnl_bcc"><thead><tr><th align="left" id="d123335e269">
 
 Interface
 
-</th><th align="left" id="d268112e270">
+</th><th align="left" id="d123335e272">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d268112e276">
+</th></tr></thead><tbody><tr><td id="d123335e278">
 
 **Core UI**
 
@@ -97,7 +98,7 @@ Action
 3.  Select **Run**.
 
 
-</td></tr><tr><td id="d268112e304">
+</td></tr><tr><td id="d123335e306">
 
 **Software Asset Workspace**
 
@@ -113,36 +114,36 @@ Action
 </td></tr></tbody>
 </table>8.  Add the usage reports to an integration profile.
 
-<table id="choicetable_my4_mcm_bcc"><thead><tr><th align="left" id="d268112e356">
+<table id="choicetable_my4_mcm_bcc"><thead><tr><th align="left" id="d123335e358">
 
 Interface
 
-</th><th align="left" id="d268112e359">
+</th><th align="left" id="d123335e361">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d268112e365">
+</th></tr></thead><tbody><tr><td id="d123335e367">
 
 **Core UI**
 
 </td><td>
 
 1.  Select an integration profile.
-2.  Select the Manage Attachments \(![](../../contract-management/image/attachments-icon.png)\) icon on the form header.
+2.  Select the Manage Attachments \(\[Omitted image "attachments-icon.png"\] Alt text:\) icon on the form header.
 3.  In the Attachments dialog box, select **Choose file**.
 4.  Select all the CSV files that you downloaded in step 3 to add them to the integration profile.
 5.  Close the dialog box to return to the Integration Profile form.
 6.  The uploaded CSV files appear next to the Manage Attachments icon.
 
 
-</td></tr><tr><td id="d268112e405">
+</td></tr><tr><td id="d123335e407">
 
 **Software Asset Workspace**
 
 </td><td>
 
 1.  Select an integration profile.
-2.  Select the Attachment \(![](../../contract-management/image/attachments-icon.png)\) icon from the sidebar of the integration profile.
+2.  Select the Attachment \(\[Omitted image "attachments-icon.png"\] Alt text:\) icon from the sidebar of the integration profile.
 3.  In the Attachments window, select **Select file**.
 4.  Select all the CSV files that you downloaded in step 3 to add them to the integration profile.
 5.  The uploaded CSV files appear in the Attachment window.
@@ -152,5 +153,5 @@ Action
 </table>
 ## What to do next
 
-The usage activity reports that you uploaded can be monitored for license optimization and generation of reclamation candidates. For details, see [Evaluating software usage activity for Microsoft 365 subscriptions](../concept/o365-usage-activity.md).
+The usage activity reports that you uploaded can be monitored for license optimization and generation of reclamation candidates. For details, see [Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/o365-usage-activity.md).
 

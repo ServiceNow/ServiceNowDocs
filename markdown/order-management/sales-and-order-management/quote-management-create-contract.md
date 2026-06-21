@@ -2,6 +2,7 @@
 title: Initiate a contract request
 description: Initiate a contract request from the Quote Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-management-create-contract.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,13 +26,13 @@ You can create a legal sales contract to finalize a deal and formalist the agree
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Select **Quotes** &gt; **All**.
 
 3.  Select the quote in the Completed state for which you want to create a contract.
 
-4.  Select the **More Actions**![More options icon.](../image/more-options.png) menu and select **Initiate contract**.
+4.  Select the **More Actions**\[Omitted image "more-options.png"\] Alt text: More options icon. menu and select **Initiate contract**.
 
 5.  On the form, fill in the fields.
 

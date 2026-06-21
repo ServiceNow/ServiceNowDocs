@@ -2,6 +2,7 @@
 title: Check and troubleshoot the data refresh status for ERP Semantic Mining
 description: Check the data refresh status to find out when ERP Semantic Mining \(ERP-CM\) most recently loaded ERP \(Enterprise Resource Planning\) data from the system of record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-check-data-connection.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -23,13 +24,13 @@ Role required: sn\_erp\_mining.erp\_admin and sn\_erp\_mining.erp\_user
 
 To verify that ServiceNow AI Platform® is synchronized with the ERP system of record, ServiceNow AI Platform reloads data every 24 hours from the system of record.
 
-You can receive email notifications for connection task success and failures. For more information, see [Getting notifications for ERP Semantic Mining connection updates](../concept/erpcm-notifications.md).
+You can receive email notifications for connection task success and failures. For more information, see [Getting notifications for ERP Semantic Mining connection updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-notifications.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Customization Mining**.
 
-2.  In the side panel, select the connection status icon \(![Credential alias page link](../image/credential-alias-icon.png)\).
+2.  In the side panel, select the connection status icon \(\[Omitted image "credential-alias-icon.png"\] Alt text: Credential alias page link\).
 
     The **Overview** tab displays a summary of connection issues to review, as well as a list of the most recent active connection tasks.
 
@@ -44,15 +45,15 @@ You can receive email notifications for connection task success and failures. Fo
 
 4.  View a refined subset of connection tasks by selecting one of the following tabs.
 
-<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d166560e209">
+<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d43128e209">
 
 Tab
 
-</th><th align="left" id="d166560e212">
+</th><th align="left" id="d43128e212">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166560e218">
+</th></tr></thead><tbody><tr><td id="d43128e218">
 
 **All tasks**
 
@@ -60,7 +61,7 @@ Description
 
 Log list of all connection tasks.
 
-</td></tr><tr><td id="d166560e227">
+</td></tr><tr><td id="d43128e227">
 
 **Task issues**
 
@@ -68,7 +69,7 @@ Log list of all connection tasks.
 
 Log list of all connection tasks that have an **Error** or **Warning** status.
 
-</td></tr><tr><td id="d166560e242">
+</td></tr><tr><td id="d43128e242">
 
 **Snapshots**
 
@@ -79,7 +80,7 @@ List of scan results that have been saved, exported, and imported.
 </td></tr></tbody>
 </table>5.  Troubleshoot any system connection issues using the **Change system** button.
 
-    ![Troubleshoot the system connection using the Change system button.](../image/ecm-change-connection-ys2.png)
+    \[Omitted image "ecm-change-connection-ys2.png"\] Alt text: Troubleshoot the system connection using the Change system button.
 
     -   Pause the task execution by selecting **Stop task execution**.
     -   Restart the ETL \(extract, transform, and load\) process by selecting **Retry ETL process**.
@@ -93,9 +94,9 @@ List of scan results that have been saved, exported, and imported.
     -   Use **Reset AI/ML analysis** to reset the analysis so the flow can run again. This enables you to control the ML training in the mining process.
 6.  View the information for each task and note actions that you must take by scrolling to the task list.
 
-    For a description of the field values, see [ERP-CM task list field descriptions](../reference/erpcm-task-list-details.md).
+    For a description of the field values, see [ERP-CM task list field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-task-list-details.md).
 
-    For any column, you can select the more options icon \(![More options icon](../../../administer/ui-builder/image/more-options-icon.png)\) to perform additional actions, such as **Show matching** and **Filter out**.
+    For any column, you can select the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon\) to perform additional actions, such as **Show matching** and **Filter out**.
 
 7.  Update the status of any open task in error to indicate changes to its status.
 
@@ -107,10 +108,10 @@ List of scan results that have been saved, exported, and imported.
 
     3.  Update the **Status** on the task record to **Resolved** or **Irrelevant**.
 
-8.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \(![Refresh the Executed tasks list](../image/refresh-icon.png)\).
+8.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \(\[Omitted image "refresh-icon.png"\] Alt text: Refresh the Executed tasks list\).
 
-    ![Refresh the issues list or active connection tasks](../image/ecm-connection-status-page.png)
+    \[Omitted image "ecm-connection-status-page.png"\] Alt text: Refresh the issues list or active connection tasks
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

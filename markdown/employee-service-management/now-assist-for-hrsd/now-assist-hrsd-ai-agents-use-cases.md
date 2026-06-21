@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for HRSD
 description: Use the HR Service Delivery AI agent collection to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -187,26 +188,26 @@ To run the AI agents autonomously, you must first duplicate the agentic workflow
 
 For more information about duplicating an agentic workflow, implementing access control lists and activating the required components, see the following topics:
 
--   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US)
--   [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US)
--   [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US)
--   [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US)
+-   
+-   
+-   
+-   
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see .
 
--   **[Help resolve tuition requests agentic workflow for Now Assist for HRSD](now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md)**  
+-   **[Help resolve tuition requests agentic workflow for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md)**  
 Use the Help resolve tuition requests agentic workflow for faster mean time to repair \(MTTR\) cases that require validation based on policies that are built for tuition reimbursement.
--   **[Resolve HR cases agentic workflow](employee-issue-resolver-na.md)**  
+-   **[Resolve HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/employee-issue-resolver-na.md)**  
 Use the Resolve HR cases agentic workflow to evaluate case criticality and retrieve relevant knowledge articles to resolve HR cases, and generate a fulfillment plan for an HR case, minimizing the need for agent intervention.
--   **[Generate onboarding ramp-up plan agentic workflow](onboarding-ramp-up-plan-agentic-wf.md)**  
+-   **[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/onboarding-ramp-up-plan-agentic-wf.md)**  
 The Generate onboarding ramp-up plan agentic workflow is an AI-powered solution that helps managers at your organization onboard new employees more efficiently. This workflow uses AI agents to generate personalized plans that are designed to elevate the knowledge and skills of new employees beginning to embark on their onboarding journey.
--   **[HCM AI agents](conversational-agents.md)**  
+-   **[HCM AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/conversational-agents.md)**  
 Place requests to the Human Capital Management \(HCM\) system using the HR Service Delivery AI agent collection.
 
-**Parent Topic:**[Now Assist for HR Service Delivery \(HRSD\)](now-assist-hrsd.md)
+**Parent Topic:**[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 

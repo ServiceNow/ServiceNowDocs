@@ -2,6 +2,7 @@
 title: Integrating the Conversational Integration with Apple Messages for Business app with other applications
 description: Other ServiceNow applications and features can use the Conversational Integration with Apple Messages for Business application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/messg-apple-integrating-apps.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent

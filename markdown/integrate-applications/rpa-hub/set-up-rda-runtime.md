@@ -2,6 +2,7 @@
 title: Set up Attended Robot
 description: Establish a connection between the Attended Robot and the ServiceNow RPA Hub instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/set-up-rda-runtime.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Setup of Attended Robot application
 
 ## Before you begin
 
-Install the Attended Robot. For more information, see [Install Attended Robot](install-rda-runtime.md).
+Install the Attended Robot. For more information, see [Install Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/install-rda-runtime.md).
 
 Role required: none
 
@@ -33,7 +34,7 @@ If the Attended Robot is launched when the RPA Desktop Design Studio is open in 
 
 ## Procedure
 
-1.  From your desktop, double-click the Attended Robot icon \(![Attended Robot icon.](../image/rda-robot-runtime-icon.png)\).
+1.  From your desktop, double-click the Attended Robot icon \(\[Omitted image "rda-robot-runtime-icon.png"\] Alt text: Attended Robot icon.\).
 
 2.  In the Connection Manager dialog box, to add a new RPA Hub, select **Add New**.
 
@@ -118,5 +119,5 @@ Option to launch the login screen in the default browser.The Attended Robot is s
 
 ## What to do next
 
-Run an Attended Robot to execute the attended bot process. For more information, see [Run an automation using Attended Robot](run-rda-robot.md).
+Run an Attended Robot to execute the attended bot process. For more information, see [Run an automation using Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/run-rda-robot.md).
 

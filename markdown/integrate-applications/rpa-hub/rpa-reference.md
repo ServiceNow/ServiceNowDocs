@@ -2,6 +2,7 @@
 title: Robotic Process Automation \(RPA\) Hub reference
 description: Reference topics provide additional information about the lists and forms that you use to configure and administer Robotic Process Automation \(RPA\) Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/rpa-reference.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -15,8 +16,8 @@ breadcrumb: [Robotic Process Automation \(RPA\) Hub, Data and Automation]
 
 Reference topics provide additional information about the lists and forms that you use to configure and administer Robotic Process Automation \(RPA\) Hub.
 
--   **[Robotic Process Automation \(RPA\) Hub glossary](../../rpa-hub/reference/rpa-hub-glossary.md#)**  
+-   **[Robotic Process Automation \(RPA\) Hub glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-hub-glossary.md)**  
 Learn about the terms and concepts that are unique to Robotic Process Automation \(RPA\) Hub.
 
-**Parent Topic:**[Data and Automation](../../../build/create-integrations-apps/concept/create-integrations-applications.md)
+**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
 

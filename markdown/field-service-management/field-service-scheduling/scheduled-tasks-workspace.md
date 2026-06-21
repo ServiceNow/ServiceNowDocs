@@ -2,6 +2,7 @@
 title: Manage scheduled tasks in Dispatcher Workspace
 description: As a dispatcher, you can move scheduled tasks to the Assigned state or move them back to the Pending dispatch state in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/scheduled-tasks-workspace.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -27,15 +28,15 @@ Role required: wm\_dispatcher or wm\_crew\_moderator
 
 3.  Assign or update a scheduled task.
 
-<table id="choicetable_qhx_zpy_3sb"><thead><tr><th align="left" id="d40779e87">
+<table id="choicetable_qhx_zpy_3sb"><thead><tr><th align="left" id="d43218e87">
 
 Option
 
-</th><th align="left" id="d40779e90">
+</th><th align="left" id="d43218e90">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d40779e96">
+</th></tr></thead><tbody><tr><td id="d43218e96">
 
 **Assign a scheduled task**
 
@@ -47,7 +48,7 @@ Steps
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d40779e126">
+</td></tr><tr><td id="d43218e126">
 
 **Unassign a scheduled task**
 
@@ -58,7 +59,7 @@ Steps
 3.  Move a scheduled task to the Pending dispatch state by clicking **Unassign task**.
 
 
-</td></tr><tr><td id="d40779e150">
+</td></tr><tr><td id="d43218e150">
 
 **Reschedule a scheduled task**
 
@@ -69,7 +70,7 @@ Steps
 
 **Note:** This option appears only if the scheduled task starts beyond the 12-hour threshold.
 
-</td></tr><tr><td id="d40779e173">
+</td></tr><tr><td id="d43218e173">
 
 **Edit the duration of a scheduled task**
 
@@ -80,7 +81,7 @@ Steps
 
 **Note:** The travel duration will not be affected.
 
-</td></tr><tr><td id="d40779e194">
+</td></tr><tr><td id="d43218e194">
 
 **Remove time gaps between tasks**
 
@@ -97,5 +98,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Working on scheduled tasks in Dispatcher Workspace](view-and-assign-scheduled-tasks.md)
+**Parent Topic:**[Working on scheduled tasks in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/view-and-assign-scheduled-tasks.md)
 

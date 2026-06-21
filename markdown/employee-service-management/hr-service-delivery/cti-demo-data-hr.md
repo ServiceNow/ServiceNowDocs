@@ -2,6 +2,7 @@
 title: Computer telephony integration \(CTI\) demo installation and configuration for HR Service Delivery Agent Workspace
 description: The Computer Telephony Integration \(CTI\) enables HR Service Delivery Agent Workspace to test the phone communication channel for inbound telephone calls in a non-production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/cti-demo-data-hr.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,5 +18,5 @@ The Computer Telephony Integration \(CTI\) enables HR Service Delivery Agent Wor
 
 To use this feature, activate the CTI Demo Data for HRSD \[com.sn\_hr\_cti\_demo\] plugin.
 
-**Important:** The CTI Demo Data for HRSD \[com.sn\_hr\_cti\_demo\] plugin has been deprecated. To provide calling capabilities to agents, you can use [ServiceNow Voice for HR Service Delivery](voice-hr-service-delivery.md). For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** The CTI Demo Data for HRSD \[com.sn\_hr\_cti\_demo\] plugin has been deprecated. To provide calling capabilities to agents, you can use [ServiceNow Voice for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/voice-hr-service-delivery.md). For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 

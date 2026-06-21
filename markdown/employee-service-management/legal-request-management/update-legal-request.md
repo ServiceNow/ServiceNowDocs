@@ -2,6 +2,7 @@
 title: Update a submitted legal request
 description: Update request details, add comments, or upload documents in a legal request you submitted while it is still in the New or Assigned state. You can cancel a submitted request irrespective of its state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-request-management/update-legal-request.html
 release: yokohama
 product: Legal Request Management
 classification: legal-request-management
@@ -31,15 +32,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 4.  On the Standard Ticket page, review and edit the request details, manage attachments, or cancel the request.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d687229e96">
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d269520e96">
 
 Action
 
-</th><th align="left" id="d687229e99">
+</th><th align="left" id="d269520e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d687229e105">
+</th></tr></thead><tbody><tr><td id="d269520e105">
 
 **Modify the request details**
 
@@ -53,7 +54,7 @@ Steps
 4.  Click **Back** to return to the Standard Ticket page.
 The legal request is updated with the new information. The changes appear as comments in the Additional Comments section of the request.
 
-</td></tr><tr><td id="d687229e141">
+</td></tr><tr><td id="d269520e141">
 
 **Cancel the request**
 
@@ -71,26 +72,26 @@ Any associated active flows are terminated. Any pending approval record is also 
 
 6.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d687229e192">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d269520e192">
 
 Option
 
-</th><th align="left" id="d687229e195">
+</th><th align="left" id="d269520e195">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d687229e201">
+</th></tr></thead><tbody><tr><td id="d269520e201">
 
 **If the Attachments tab is visible**
 
 </td><td>
 
--   To upload a new document, select the add attachment icon \(![Add attachment icon.](../image/add-attachment-icon.png)\) and select a file.
--   To rename an attached file, select the edit file name icon \(![Edit file name icon.](../../legal-digital-forensics/image/rename-icon.png)\) and update the file name.
--   To remove an attached file, select the delete icon \(![Delete icon.](../../legal-digital-forensics/image/delete-icon.png)\).
+-   To upload a new document, select the add attachment icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachment icon.\) and select a file.
+-   To rename an attached file, select the edit file name icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit file name icon.\) and update the file name.
+-   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d687229e240">
+</td></tr><tr><td id="d269520e240">
 
 **If the Documents tab is visible**
 
@@ -113,5 +114,5 @@ A link to the document is listed in the **External URL** column of the documents
     **Note:** The **Legal Matters** tab appears only when the legal request is associated with a legal matter, and you have permission to view legal matters.
 
 
-**Parent Topic:**[Using Legal Request Management](../concept/submitting-legal-request.md)
+**Parent Topic:**[Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/submitting-legal-request.md)
 

@@ -2,6 +2,7 @@
 title: Add a time card and log time through the Mobile Time Sheets application
 description: Create time cards to log time from your mobile application for the work you have done.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/time-card-management/create-timecard-mobile.html
 release: yokohama
 product: Time Card Management
 classification: time-card-management
@@ -21,7 +22,7 @@ Role required: timecard\_user
 
 ## About this task
 
-The **Allow time card reporting on** field on the [project form](../../project-management/task/t_CreateAProject.md) determines the level at which time cards for the project tasks can be created. For example, at the project level, if a user is assigned to multiple tasks in a project, then the time spent on all the tasks is recorded under one time card only; and at the project task level, separate time cards are created corresponding to each planned task.
+The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_CreateAProject.md) determines the level at which time cards for the project tasks can be created. For example, at the project level, if a user is assigned to multiple tasks in a project, then the time spent on all the tasks is recorded under one time card only; and at the project task level, separate time cards are created corresponding to each planned task.
 
 ## Procedure
 
@@ -33,15 +34,15 @@ The **Allow time card reporting on** field on the [project form](../../project-m
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d236204e92">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d151987e92">
 
 Time card type
 
-</th><th align="left" id="d236204e95">
+</th><th align="left" id="d151987e95">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d236204e101">
+</th></tr></thead><tbody><tr><td id="d151987e101">
 
 **All time cards for project and non-project tasks from a selected time sheet**
 
@@ -49,7 +50,7 @@ Option
 
 Tap Copy from previous time sheet
 
-</td></tr><tr><td id="d236204e110">
+</td></tr><tr><td id="d151987e110">
 
 **Time cards for all project tasks assigned to the user for the time sheet week that are in progress or planned in that week**
 
@@ -57,7 +58,7 @@ Tap Copy from previous time sheet
 
 Tap Generate time cards
 
-</td></tr><tr><td id="d236204e119">
+</td></tr><tr><td id="d151987e119">
 
 **Time card for assigned task**
 
@@ -68,7 +69,7 @@ Tap Generate time cards
 -   Tap **Add**.
 
 
-</td></tr><tr><td id="d236204e143">
+</td></tr><tr><td id="d151987e143">
 
 **Time card for unassigned task**
 
@@ -79,7 +80,7 @@ Tap Generate time cards
 -   Tap **Add**.
 
 
-</td></tr><tr><td id="d236204e168">
+</td></tr><tr><td id="d151987e168">
 
 **Time card for operational work, such as administration, meeting, and KTLO**
 
@@ -94,8 +95,8 @@ Add from category
 6.  Tap **Save**.
 
 
--   **[Update time card hours for a task](update-hours-timecard.md)**  
+-   **[Update time card hours for a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/update-hours-timecard.md)**  
 Update hours in a time card for a particular day.
 
-**Parent Topic:**[Mobile Time Sheets](../concept/timesheet-mobile.md)
+**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/timesheet-mobile.md)
 

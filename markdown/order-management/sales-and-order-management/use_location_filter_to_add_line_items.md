@@ -2,11 +2,12 @@
 title: Use location filter to add opportunity line items
 description: Use the Service location filter in the product catalog to add products \(line items\) to a location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/use\_location\_filter\_to\_add\_line\_items.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions for Opportunity Management, Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## About this task
 
-You can add opportunity lines by location if the [location-based transactions property](som-activate-location-filter.md) is enabled by your admin and [eligibility rule filters and product eligibility rules](../concept/config-location-transaction.md) have been configured by your product catalog admin for location-based transactions.
+You can add opportunity lines by location if the [location-based transactions property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-activate-location-filter.md) is enabled by your admin and [eligibility rule filters and product eligibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/config-location-transaction.md) have been configured by your product catalog admin for location-based transactions.
 
 ## Procedure
 
@@ -33,7 +34,7 @@ You can add opportunity lines by location if the [location-based transactions pr
 
     After you select a location, only the opportunity line items that are eligible for the selected location are displayed.
 
-    ![Product catalog user interface with location filter for adding a product offering to an opportunity by service location.](../image/location-filter-som.png)
+    \[Omitted image "location-filter-som.png"\] Alt text: Product catalog user interface with location filter for adding a product offering to an opportunity by service location.
 
 4.  Select **Add** to create an opportunity line item.
 

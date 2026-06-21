@@ -2,6 +2,7 @@
 title: Trigger ServiceNow AI Lens from the desktop app
 description: Trigger ServiceNow AI Lens from a desktop by using a Lens action to preview the extracted data and initiate post processing or auto-fill a form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/servicenow-lens/preview-desktop-others-lens.html
 release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -19,11 +20,11 @@ Trigger ServiceNow AI Lens from a desktop by using a Lens action to preview the 
 
 To access the ServiceNow AI Lens functionality, perform the following steps:
 
--   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](install-sn-lens.md).
--   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](activate-lens-skill.md).
--   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download the ServiceNow AI Lens installer](download-sn-lens-msi.md).
+-   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+-   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
+-   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download the ServiceNow AI Lens installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
-Verify that ServiceNow AI Lens has access to record the screen on your system. For more information, see [Providing permission to ServiceNow AI Lens](download-sn-lens-msi.md#lens-permission).
+Verify that ServiceNow AI Lens has access to record the screen on your system. For more information, see [Providing permission to ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 You must have create and update access privileges for creating or updating a record using ServiceNow AI Lens.
 
@@ -60,7 +61,7 @@ By using Lens actions, you can perform one of the following tasks:
 
 5.  On the onboarding journey widget, complete the onboarding and select **Got it**.
 
-    ![Onboarding journey widget with three pages to show you the highlights of the application.](../image/onboarding-widget-lens.png)
+    \[Omitted image "onboarding-widget-lens.png"\] Alt text: Onboarding journey widget with three pages to show you the highlights of the application.
 
     If you launch the ServiceNow AI Lens for the first time, the onboarding journey widget appears. You can select **Don't show me again** to hide the widget the next time you launch ServiceNow AI Lens.
 
@@ -72,7 +73,7 @@ By using Lens actions, you can perform one of the following tasks:
     -   Creates a record on the ServiceNow instance.
 7.  Select **Proceed with Lens**.
 
-    ![Proceed with Lens button.](../image/lens-actions-home-screen.png)
+    \[Omitted image "lens-actions-home-screen.png"\] Alt text: Proceed with Lens button.
 
     Lens scanner opens in a separate window.
 
@@ -86,35 +87,35 @@ By using Lens actions, you can perform one of the following tasks:
 
 10. Extract data from a single screen.
 
-    1.  Enter additional instructions to extract, analyze, and organize data by selecting the Instructions icon \(![Instructions icon.](../image/lens-instructions-icon.png)\) and then enter the instructions.
+    1.  Enter additional instructions to extract, analyze, and organize data by selecting the Instructions icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Instructions icon.\) and then enter the instructions.
 
         The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
-        ![Lens incident email.](../image/lens-incident-email.png)
+        \[Omitted image "lens-incident-email.png"\] Alt text: Lens incident email.
 
     2.  Select **Analyze**.
 
         The ServiceNow AI Lens preview window displays the extracted output.
 
-        ![Preview window showing output.](../image/lens-action-preview.png)
+        \[Omitted image "lens-action-preview.png"\] Alt text: Preview window showing output.
 
 11. Extract the data from multiple screenshots.
 
-    1.  Select the **Multi-capture** button ![](../image/multi-capture-icon.png).
+    1.  Select the **Multi-capture** button \[Omitted image "multi-capture-icon.png"\] Alt text:.
 
-    2.  Continue to take the required screenshots by selecting the **Capture** button ![](../image/capture-icon.png).
+    2.  Continue to take the required screenshots by selecting the **Capture** button \[Omitted image "capture-icon.png"\] Alt text:.
 
         You can capture up to 10 images to ServiceNow AI Lens.
 
         You can take multiple screenshots of the same artifact or different artifacts.
 
-    3.  When you're finished taking screenshots, select **Done** ![](../image/done-icon.png).
+    3.  When you're finished taking screenshots, select **Done** \[Omitted image "done-icon.png"\] Alt text:.
 
-        ![Done button after capturing multiple screenshots.](../image/lens-capture-complete.png)
+        \[Omitted image "lens-capture-complete.png"\] Alt text: Done button after capturing multiple screenshots.
 
         The window shows the thumbnails of the images that ServiceNow AI Lens captured.
 
-        ![Multiple screens captured.](../image/lens-scanner-analyze-multiple-scrns.png)
+        \[Omitted image "lens-scanner-analyze-multiple-scrns.png"\] Alt text: Multiple screens captured.
 
 12. In the **Additional directions for Now Assist** field, provide further instructions for analyzing and comprehending data.
 
@@ -126,31 +127,31 @@ By using Lens actions, you can perform one of the following tasks:
 
     `Extract name, user email ID, and designation from the resumes and present data in a JSON format.`
 
-    ![Field for inserting Now Assist instructions to extract data in a specific way.](../image/now-assist-instructions-lens-1.png)
+    \[Omitted image "now-assist-instructions-lens-1.png"\] Alt text: Field for inserting Now Assist instructions to extract data in a specific way.
 
 13. Analyze and comprehend the data by selecting **Analyze**.
 
-    ![Analyze button on the scanner window for the single capture.](../image/single-analyze-lens.png "Analyzing the single image")
+    \[Omitted image "single-analyze-lens.png"\] Alt text: Analyze button on the scanner window for the single capture.
 
-    ![Analyze button on the Home page window for the multi-capture.](../image/multi-analyze-lens.png "Analyzing the multiple images")
+    \[Omitted image "multi-analyze-lens.png"\] Alt text: Analyze button on the Home page window for the multi-capture.
 
     The extracted data is shown in the Preview window. ServiceNow AI Lens uses Now Assist to extract, comprehend, and show a preview of the data.
 
-    ![Editable Form preview.](../image/lens-form-preview.png "Editable preview of the form")
+    \[Omitted image "lens-form-preview.png"\] Alt text: Editable Form preview.
 
-    ![Editable preview of the extracted data.](../image/sn-lens-home-page-preview.png "Editable preview of the extracted data")
+    \[Omitted image "sn-lens-home-page-preview.png"\] Alt text: Editable preview of the extracted data.
 
 14. Depending on the type of Lens action selected, perform the following steps.
 
-<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d51837e601">
+<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d42054e601">
 
 Task
 
-</th><th align="left" id="d51837e604">
+</th><th align="left" id="d42054e604">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d51837e610">
+</th></tr></thead><tbody><tr><td id="d42054e610">
 
 **Filling form**
 
@@ -160,14 +161,14 @@ Steps
 2.  On the form header in the Preview window, select **Submit** to save the filled form on the instance.
 
 
-</td></tr><tr><td id="d51837e631">
+</td></tr><tr><td id="d42054e631">
 
 **Previewing extracted data**
 
 </td><td>
 
 1.  \(Optional\) In case of editable preview, if necessary, edit the auto-filled field values before saving or copying the values.
-2.  \(Optional\) Copy the previewed data by selecting the Copy icon ![](../../../administer/document-intelligence/image/icon-docintel-na-copy.png).
+2.  \(Optional\) Copy the previewed data by selecting the Copy icon \[Omitted image "icon-docintel-na-copy.png"\] Alt text:.
 3.  Select **Submit**.
 
 

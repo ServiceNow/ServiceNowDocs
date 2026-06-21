@@ -2,6 +2,7 @@
 title: Service Graph Connector for Nokia Altiplano
 description: Use the Service Graph Connector for Nokia Altiplano Access Network SDN Controller to pull in data from the Nokia Altiplano software into your ServiceNow instance using REST APIs.The Import Sets are the input for the IntegrationHub ETL, where the transformation maps create and model relationships. When data is loaded into the Import Set, the transformation process is triggered.Data from data sources in the Nokia Altiplano software is mapped and transformed into ServiceNow CMDB tables using the Robust Transform Engine \(RTE\). Data is inserted into ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).Service Graph Connector for Nokia Altiplano installs special system properties that control various behaviors of the application.Examples of Retrieving Data from Nokia Altiplano via REST API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/service-graph-connector-for-nokia-altiplano.html
 release: yokohama
 product: Telecom Visibility
 classification: telecom-visibility
@@ -19,18 +20,18 @@ The Service Graphs Connector for Nokia Altiplano pulls in asset inventory data \
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Nokia Altiplano SGC Architecture
 
-![nokia altiplano architecture.](../images/telecom-service-graph-connector-nokia-altiplano.png)
+\[Omitted image "telecom-service-graph-connector-nokia-altiplano.png"\] Alt text: nokia altiplano architecture.
 
 Data Source defined as the following:
 
 -   Custom load by script
 -   Data in single column
 
-For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://www.servicenow.com/docs/access?context=cmdb-sgc-intro&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For a general overview of Service Graph Connector technology, see .
 
 ## Supported versions
 
@@ -46,13 +47,13 @@ The following are examples on how you can use the Nokia Altiplano Service Graph 
 
 ## Guided setup
 
-The guided setup for the Service Graphs Connector for Nokia Altiplano provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure Service Graph Connector for Nokia Altiplano](configuring-service-graph-connector-nokia-altiplano.md#).
+The guided setup for the Service Graphs Connector for Nokia Altiplano provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure Service Graph Connector for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/configuring-service-graph-connector-nokia-altiplano.md).
 
 ## CMDB Integrations Dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. You can see metrics for all integration runs. You can filter the view to a specific integration, a specific time duration, or a specific integration run. For more details about monitoring SolarWinds integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://www.servicenow.com/docs/access?context=integration-commons-for-cmdb&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. You can see metrics for all integration runs. You can filter the view to a specific integration, a specific time duration, or a specific integration run. For more details about monitoring SolarWinds integrations in the CMDB Integrations Dashboard, see .
 
-**Parent Topic:**[Telecom Discovery using Service Graph Connectors \(SGC\)](telecom-discovery-using-service-graph-connector.md)
+**Parent Topic:**[Telecom Discovery using Service Graph Connectors \(SGC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-service-graph-connector.md)
 
 ## Import Sets
 
@@ -68,7 +69,7 @@ Role required: admin
 
     The Data Source script automatically creates staging tables.
 
-    ![staging table.](../images/import-sets-sgc-nokia.png) ![import set.](../images/import-sets-sgc-2.png)
+    \[Omitted image "import-sets-sgc-nokia.png"\] Alt text: staging table. \[Omitted image "import-sets-sgc-2.png"\] Alt text: import set.
 
 
 ## Data Mapping
@@ -190,7 +191,7 @@ LT card PON access ports as well as NT card network ports are represented by the
 </td></tr></tbody>
 </table>You can use the **IntegrationHub ETL** application to view and manage data maps.
 
-For more information, see [IntegrationHub ETL](https://www.servicenow.com/docs/access?context=integrationhub-etl&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For more information, see .
 
 ### Supported xNFs
 
@@ -211,11 +212,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Nokia Altiplano** &gt; **Properties**.
 
-    ![system properties.](../images/telecom-special-systemproperties.png)
+    \[Omitted image "telecom-special-systemproperties.png"\] Alt text: system properties.
 
     You can also access these properties by entering **sys\_properties.list** and filtering by the name ‘\*altiplano’.
 
-    ![properties list.](../images/telecom-system-properties-list.png)
+    \[Omitted image "telecom-system-properties-list.png"\] Alt text: properties list.
 
 <table id="table_xyy_pwg_12c"><thead><tr><th>
 

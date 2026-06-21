@@ -2,6 +2,7 @@
 title: Telecom Discovery using Service Graph Connectors \(SGC\)
 description: Service Graph Connectors are predefined integrations that ingest data into the Configuration Management Database \(CMDB\) from third-party sources \(for example, northbound APIs of EMS/NMS/Controllers, which manage various xNFs\) across different network domains, while enabling a structured, telecom-model-aligned view of network resources and services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-service-graph-connector.html
 release: yokohama
 product: Telecom Visibility
 classification: telecom-visibility
@@ -21,37 +22,37 @@ They can be used alongside any existing Service Graph Connectors, such as those 
 
 This is an example of the implementation for the Nokia Altiplano Service Graph Connector. The architecture of other connectors may vary.
 
-![discovery and reconciliation architecture.](../images/telecom-architecture-sgc.png)
+\[Omitted image "telecom-architecture-sgc.png"\] Alt text: discovery and reconciliation architecture.
 
 ## IntegrationHub ETL \(3.2\)
 
 This store app to create and manage ETL transform maps, which integrate third-party data into the CMDB or into non-CMDB tables without compromising the integrity of data. IntegrationHub ETL provides a simplified user interface that guides you through the integration process end-to-end, including a test integration run of sample data.
 
-For more information, see [IntegrationHub ETL](https://www.servicenow.com/docs/access?context=integrationhub-etl&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For more information, see .
 
 ## Robust Transform Engine \(RTE\)
 
 This plugin is used to transform raw source data that is stored in staging tables, into the data that is mapped and integrated into the CMDB. RTE uses ETL transform maps that were created for integration during data transformation.
 
-For more information, see [Create a robust import set transformer](https://www.servicenow.com/docs/access?context=create-robust-import-set-transformer&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US).
+For more information, see .
 
 ## MID Server
 
 MID Server is a Java application that runs as a Windows service or UNIX daemon on a server within your local network. The ServiceNow® MID Server facilitates communication and data transfer between a ServiceNow instance and external applications, data sources, and services.
 
-For more information, see [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For more information, see .
 
 ## Identification &amp; Reconciliation Engine \(IRE\)
 
 IRE offers a centralized framework for identifying and reconciling data from multiple sources. It confirms the integrity of the CMDB and some non-CMDB tables when various data sources are used to create or update CI records.
 
-For more information, see the [CMDB Identification and Reconciliation \(IRE\)](https://www.servicenow.com/docs/access?context=c_CMDBIdentifyandReconcile&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For more information, see the .
 
 ## CMDB Compliance Certification Audits for Telecom Discrepancy Identification &amp; Reconciliation
 
-[CMDB Compliance](https://www.servicenow.com/docs/access?context=c_Compliance&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) is a toolset that enables administrators to certify CMDB data for accuracy and resolve any discrepancies found. In Telecom Discrepancy Identification &amp; Reconciliation, we use the [Certification audits](https://www.servicenow.com/docs/access?context=c_CertificationAudits&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) feature to discover and analyze discrepancies in the CMDB, generate [Certification follow-on tasks](https://www.servicenow.com/docs/access?context=c_CertificationFollowOnTasks&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US), and enable remediation workflows.
+ is a toolset that enables administrators to certify CMDB data for accuracy and resolve any discrepancies found. In Telecom Discrepancy Identification &amp; Reconciliation, we use the  feature to discover and analyze discrepancies in the CMDB, generate , and enable remediation workflows.
 
-For more information on how it’s used for Discrepancy Identification &amp; Reconciliation, see [Telecom Discrepancy Identification and Reconciliation](telecom-reconciliation.md).
+For more information on how it’s used for Discrepancy Identification &amp; Reconciliation, see [Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-reconciliation.md).
 
 ## TNI Entity Creation Logic
 
@@ -73,18 +74,18 @@ As a result, the discovered CI is in both the cmdb\_ci and tni\_entity tables.
 
 ## Telecom Service Graph Connectors supported
 
-[Service Graph Connector for Nokia Altiplano](service-graph-connector-for-nokia-altiplano.md#).
+[Service Graph Connector for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/service-graph-connector-for-nokia-altiplano.md).
 
-See other available [Service Graph Connectors](https://www.servicenow.com/docs/access?context=cmdb-sgc-available&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+See other available .
 
 ## Supported versions
 
 Supported ServiceNow® versions: Yokohama and beyond.
 
--   **[Service Graph Connector for Nokia Altiplano](service-graph-connector-for-nokia-altiplano.md#)**  
+-   **[Service Graph Connector for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/service-graph-connector-for-nokia-altiplano.md)**  
 Use the Service Graph Connector for Nokia Altiplano Access Network SDN Controller to pull in data from the Nokia Altiplano software into your ServiceNow instance using REST APIs.
--   **[Configure Service Graph Connector for Nokia Altiplano](configuring-service-graph-connector-nokia-altiplano.md#)**  
+-   **[Configure Service Graph Connector for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/configuring-service-graph-connector-nokia-altiplano.md)**  
 This document explains how to configure the Service Graph Connector for Nokia Altiplano using Guided setup to integrate network resource data from the Nokia Altiplano Access Controller \(REST API\) into the ServiceNow CMDB. It includes steps for setup, authentication, and scheduling to confirm accurate integration of network data.
 
-**Parent Topic:**[Exploring Telecom Discovery](exploring-telecom-discovery.md)
+**Parent Topic:**[Exploring Telecom Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/exploring-telecom-discovery.md)
 

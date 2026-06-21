@@ -2,6 +2,7 @@
 title: Review representment
 description: Review the representment evidence provided by a merchant during a chargeback request. A representment is the process where a business can prove that a charge that is being questioned is valid and the consumer's charge should not be reversed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/review-representment.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ Review the representment evidence provided by a merchant during a chargeback req
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ If a merchant disagrees with a chargeback, they can submit representment evidenc
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -71,5 +72,5 @@ The merchant's representment evidence is submitted to their acquiring bank, whic
 -   If the issuing bank makes determination to uphold the chargeback, the case moves to either the **Provide final credit** or **Convert provisional credit to final credit task**.
 -   If the issuing bank makes determination to rescind the chargeback, the case moves to the **Return funds to merchant** task. If provisional credit was previously given to the customer, the case moves to the **Reverse provisional credit** task before moving to the **Return funds to merchant** task.
 
-**Parent Topic:**[Initiating a chargeback](initiate-a-chargeback.md)
+**Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiate-a-chargeback.md)
 

@@ -2,13 +2,14 @@
 title: Staggered decomposition
 description: Learn how you can stagger the decomposition for your customer orders. You can decompose your customer orders in multiple iterations by using the available information at the domain level, rather than decomposing an entire customer order at one time after it is approved for fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/staggered-decomposition.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Order Management, Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Order Management, Explore, Sales Customer Relationship Management]
 ---
 
 # Staggered decomposition
@@ -17,7 +18,7 @@ Learn how you can stagger the decomposition for your customer orders. You can de
 
 The following diagram shows how the staggered decomposition process works. You can start the decomposition process with the information that you already have for your order and order line items. The decomposition process skips the domain orders \(product or service or resource orders\) that you don't have the required information for at this time. When you add this information later, the decomposition process triggers and completes the processing for the remaining domain orders.
 
-![Workflow showing the staggered decomposition process. For the text description, refer to the preceding paragraph.](../image/staggered-decomposition.png "Staggered decomposition processing")
+\[Omitted image "staggered-decomposition.png"\] Alt text: Workflow showing the staggered decomposition process. For the text description, refer to the preceding paragraph.
 
 ## Contrast to earlier decomposition processing
 

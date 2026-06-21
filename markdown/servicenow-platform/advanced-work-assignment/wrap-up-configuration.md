@@ -2,6 +2,7 @@
 title: Wrap up configuration
 description: Set up the wrap up configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/wrap-up-configuration.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -58,5 +59,5 @@ Role required: admin
 7.  Select **Update** if you are updating an existing configuration or **Submit** if you are creating a new configuration.
 
 
-**Parent Topic:**[Wrap up overview](../concept/wrap-up-overview.md)
+**Parent Topic:**[Wrap up overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/wrap-up-overview.md)
 

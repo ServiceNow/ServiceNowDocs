@@ -2,6 +2,7 @@
 title: Workflow Data Fabric Hub
 description: Power your AI agents and enrich workflows on the ServiceNow AI Platform with real-time data from across the enterprise using ServiceNow Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/workflow-data-fabric.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -23,27 +24,27 @@ Watch this short video to see an overview of Workflow Data Fabric Hub.
 
 <table id="table_z5h_m2m_m2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Workflow Data Fabric Hub benefits and features.](exploring-wdf.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Workflow Data Fabric Hub benefits and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/exploring-wdf.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Workflow Data Fabric Hub settings.](configuring-wdf.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Workflow Data Fabric Hub settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/configuring-wdf.md)
 
 </td><td>
 
-[Manage connections![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Create and manage zero copy connections.](managing-connections-wdf.md)
+[Manage connections\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Create and manage zero copy connections.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.md)
 
 </td></tr><tr><td>
 
-[Manage data fabric tables![](../../../reuse/icons/brand-icons/bus-documentation.svg)Create and manage data fabric tables.](managing-data-fabric-tables-wdf.md)
+[Manage data fabric tables\[Omitted image "bus-documentation.svg"\] Alt text:Create and manage data fabric tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/managing-data-fabric-tables-wdf.md)
 
 </td><td>
 
-[Access real-time data in applications![](../../../reuse/icons/brand-icons/bus-workflow.svg)Connect a predefined data fabric table to a data source using a zero copy connection.](mapping-application-tables.md)
+[Access real-time data in applications\[Omitted image "bus-workflow.svg"\] Alt text:Connect a predefined data fabric table to a data source using a zero copy connection.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/mapping-application-tables.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Workflow Data Fabric Hub roles and domain separation.](../reference/wdf-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Workflow Data Fabric Hub roles and domain separation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/wdf-reference.md)
 
 </td></tr></tbody>
 </table>

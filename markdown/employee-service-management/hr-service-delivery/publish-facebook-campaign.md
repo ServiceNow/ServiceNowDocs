@@ -2,6 +2,7 @@
 title: Customize the name and logo for Workplace from Facebook
 description: Customize the name and logo by which you want to post content on Workplace from Facebook. By default, ServiceNow spoke is the name by which the post is made on Workplace from Facebook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/publish-facebook-campaign.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

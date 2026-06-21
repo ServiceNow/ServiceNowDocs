@@ -2,6 +2,7 @@
 title: Exploring Legal Matter Management
 description: Legal Matter Management enables you to manage legal matters and cross-functional tasking to effectively complete legal work. You can store relevant documents and track important milestones of these legal matters from a single place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-matter-management/legal-matter-management-overview.html
 release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
@@ -43,8 +44,8 @@ The benefits of this application include:
 -   Track, prioritize, and work on multiple legal matters concurrently with an optimized Legal Counsel Center
 -   Engage with outside firms &amp; counsels by integrating legal matters with Legal Tracker application to track areas or matters handled by outside counsels and track spends on outside counsel engagement.
 
--   **[Integrate Legal Matter Management with the Legal Tracker application](../../legal-tracker/concept/explore-legal-tracker.md)**  
+-   **[Integrate Legal Matter Management with the Legal Tracker application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/explore-legal-tracker.md)**  
 Learn more about the integration through a sample workflow and review the benefits it can provide.
 
-**Parent Topic:**[Legal Matter Management](../reference/legal-matter-management-landing-page.md)
+**Parent Topic:**[Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/legal-matter-management-landing-page.md)
 

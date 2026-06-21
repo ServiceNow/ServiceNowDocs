@@ -2,6 +2,7 @@
 title: Domain separation and ODBC driver
 description: This is an overview of domain separation and ODBC drivers.Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/web-services/domain-separation-odbc-driver.html
 release: yokohama
 product: Web Services
 classification: web-services
@@ -23,10 +24,10 @@ This is an overview of domain separation and ODBC drivers.Domain separation enab
 
 Use case: As a service provider when I use chat to respond to a tenant-customer’s message, the client must be able to see my response.
 
-**Parent Topic:**[Create data sources from other apps using ODBC driver](c_ODBCDriver.md)
+**Parent Topic:**[Create data sources from other apps using ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_ODBCDriver.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

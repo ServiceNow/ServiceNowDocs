@@ -2,6 +2,7 @@
 title: View a list of questions and create a case
 description: View questions that can potentially be converted to cases, the community portal provides a page with a list of questions created by contacts or consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/case-mgmt-integration-view-list.html
 release: yokohama
 product: Communities
 classification: communities
@@ -58,5 +59,5 @@ This page displays questions from the forums to which the user has access.
     The contact or consumer who posted the question can also view the case by navigating to **My Cases** on the Customer Service Portal or Consumer Service Portal.
 
 
-**Parent Topic:**[Use a community](use-community-forums.md)
+**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/use-community-forums.md)
 

@@ -2,6 +2,7 @@
 title: Create sites in the Enterprise Asset Management
 description: Create a site for asset groups in the Enterprise Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/create-sites-eam.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin
 
 ## About this task
 
-For detailed information on what sites are and how are they used in asset groups, see [Asset groups in Enterprise Asset Management](../concept/asset-groups-eam.md).
+For detailed information on what sites are and how are they used in asset groups, see [Asset groups in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/asset-groups-eam.md).
 
 ## Procedure
 

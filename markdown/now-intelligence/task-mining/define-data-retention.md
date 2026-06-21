@@ -2,6 +2,7 @@
 title: Modify the Task Mining data retention period
 description: Modify the default retention configuration rules to delete data automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/task-mining/define-data-retention.html
 release: yokohama
 product: Task Mining
 classification: task-mining
@@ -29,7 +30,7 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.
 
-2.  Select the Configuration icon\(![Task Mining Configuration icon](../image/task-mining-configuration-icon.png)\).
+2.  Select the Configuration icon\(\[Omitted image "task-mining-configuration-icon.png"\] Alt text: Task Mining Configuration icon\).
 
 3.  Under **Configuration**, select **Retention**.
 

@@ -2,6 +2,7 @@
 title: Activate Field Service Work Configurations
 description: You can activate the Field Service Work Configurations plugin \(com.snc.fsm\_work\_types\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/activate-work-configs.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -31,6 +32,6 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/yokohama-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

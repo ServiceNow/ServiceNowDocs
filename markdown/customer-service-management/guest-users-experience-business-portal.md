@@ -2,11 +2,14 @@
 title: Guest users experience on Business Portal
 description: Guest users can view the header, footer, knowledge articles cards, and resources menu on the home page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/guest-users-experience-business-portal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using the Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Guest users experience on Business Portal
@@ -19,5 +22,5 @@ They can also view taxonomy topic cards showcasing public content, such as artic
 
 However, on selecting any card, button or menu items, the guest users are redirected to the login page.
 
-**Parent Topic:**[Customer Service Management](c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CustomerServiceManagement.md)
 

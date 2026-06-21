@@ -2,6 +2,7 @@
 title: Monitor the event queue for login activities
 description: Every single sign-on integration creates events for login activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/r\_EventQueueLoginActivities.html
 release: yokohama
 product: Authentication
 classification: authentication

@@ -2,7 +2,10 @@
 title: Create customer accounts
 description: An account is a supported external customer. Use the Customer Service Management application to create account records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-create-csm-accounts.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ A partner is a supported external customer that sells to and supports other cust
 
     -   To create a customer account, click **Accounts**.
     -   To create a partner account, click **Partners**.
-2.  Click **New** and fill in the fields on the [Account form](../reference/customer-service-account-form.md).
+2.  Click **New** and fill in the fields on the [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-account-form.md).
 
     When a new customer account record is created, the system uses the **com.snc.cs\_base.last.generated.code.tree.path** system property to determine a unique account code value for the account. The property is then updated with this latest assigned value so that the next account code value can be set as a unique value for the next account record insert.
 

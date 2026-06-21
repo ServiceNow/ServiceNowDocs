@@ -2,6 +2,7 @@
 title: Managing zero copy connections in Workflow Data Fabric Hub
 description: Securely connect to an external data source and access external data directly from your instance, without the need to copy or store any data locally.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -19,7 +20,7 @@ Securely connect to an external data source and access external data directly fr
 
 A zero copy connection provides secure, real-time access to data from outside sources without having to copy data to your local database. The connection admin is responsible for creating and managing zero copy connections as shown in this infographic.
 
-![The connection admin selects the connector for a data source, creates a zero copy connection, grants data steward access to the connection, and maintains the connection.](../image/MMASSET0020811-creating-connections-in-workflow-data-fabric-hub-landing.png "Creating and managing zero copy connections")
+\[Omitted image "MMASSET0020811-creating-connections-in-workflow-data-fabric-hub-landing.png"\] Alt text: The connection admin selects the connector for a data source, creates a zero copy connection, grants data steward access to the connection, and maintains the connection.
 
 ## Types of connectors
 
@@ -34,20 +35,20 @@ A connection admin with the df\_connection\_admin role can create connections to
     Community connectors are developed by the open-source community and made available by ServiceNow. These connectors are certified for essential functionality but are not part of the ServiceNow support scope.
 
 
--   **[Primary connectors](primary-connectors-wdf.md)**  
+-   **[Primary connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/primary-connectors-wdf.md)**  
 Connect to external data sources using primary connectors in Workflow Data Fabric Hub.
--   **[Community connectors](community-connectors-wdf.md)**  
+-   **[Community connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/community-connectors-wdf.md)**  
 Connect to external data sources using community connectors in Workflow Data Fabric Hub.
--   **[Manage access to an established connection using roles](../task/manage-access-connection-wdf.md)**  
+-   **[Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md)**  
 Manage which data stewards can access an established connection and create data fabric tables.
--   **[View data assets from an established connection](../task/view-assets-connection-wdf.md)**  
+-   **[View data assets from an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/view-assets-connection-wdf.md)**  
 View the external schema and tables that are accessible to the service account used in a zero copy connection.
--   **[Monitoring established connections](monitoring-connection-status-wdf.md)**  
+-   **[Monitoring established connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/monitoring-connection-status-wdf.md)**  
 Maintain the health of established connections by monitoring connection status in Workflow Data Fabric Hub.
--   **[Update an established connection](../task/configure-connection-details-wdf.md#)**  
+-   **[Update an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/configure-connection-details-wdf.md)**  
 Keep connection details current by updating service account information, authentication, or security settings.
--   **[Test an established connection](../task/test-connection-wdf.md)**  
+-   **[Test an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/test-connection-wdf.md)**  
 Test the connection to an external data source from an established connection.
 
-**Parent Topic:**[Workflow Data Fabric Hub](workflow-data-fabric.md)
+**Parent Topic:**[Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/workflow-data-fabric.md)
 

@@ -2,6 +2,7 @@
 title: Configure live agent support settings for legal services
 description: Configure settings to enable live agent support for legal services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-service-delivery/set-up-live-agent-support.html
 release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -63,5 +64,5 @@ Role required: admin
         For more information on the fields, see Define Assignment Eligibility.
 
 
-**Parent Topic:**[Live agent support for legal services](../concept/legal-va-live-agent.md)
+**Parent Topic:**[Live agent support for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legal-va-live-agent.md)
 

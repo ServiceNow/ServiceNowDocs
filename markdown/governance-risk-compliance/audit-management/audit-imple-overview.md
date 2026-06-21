@@ -2,6 +2,7 @@
 title: Configuring Audit Management
 description: You can run the GRC Audit Management application by downloading it from the ServiceNow Store and then configuring the settings in the setup checklist to meet your needs. Mandatory and optional setup steps, as well as an implementation checklist, are provided to simplify the setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/audit-management/audit-imple-overview.html
 release: yokohama
 product: Audit Management
 classification: audit-management
@@ -17,7 +18,7 @@ You can run the GRC Audit Management application by downloading it from the Serv
 
 The flow of mandatory steps in the checklist are as follows:
 
-![Mandatory steps to implement audit management](../image/grc-audit-imple-workflow.png "Audit Management implementation steps")
+\[Omitted image "grc-audit-imple-workflow.png"\] Alt text: Mandatory steps to implement audit management
 
 ## Download Audit Management
 

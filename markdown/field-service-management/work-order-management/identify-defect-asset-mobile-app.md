@@ -2,6 +2,7 @@
 title: Analyze all work orders for a selected asset
 description: Scan an asset to view its work history and upcoming work orders. You can also create a work order for an asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/identify-defect-asset-mobile-app.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -31,15 +32,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Do one of the following.
 
-<table id="choicetable_xjd_bdv_khb"><thead><tr><th align="left" id="d105840e93">
+<table id="choicetable_xjd_bdv_khb"><thead><tr><th align="left" id="d72085e93">
 
 To
 
-</th><th align="left" id="d105840e96">
+</th><th align="left" id="d72085e96">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d105840e102">
+</th></tr></thead><tbody><tr><td id="d72085e102">
 
 **View all work orders related to this asset**
 
@@ -51,7 +52,7 @@ Do this
     -   To view all upcoming work orders, click **Upcoming Work Orders**.
 
 
-</td></tr><tr><td id="d105840e137">
+</td></tr><tr><td id="d72085e137">
 
 **Create a work order for this asset**
 
@@ -59,13 +60,13 @@ Do this
 
 Do the following:
 
-1.  Tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon and select **Create Work Order**.
+1.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and select **Create Work Order**.
 2.  Tap **Short description**.
 3.  Enter a short description for the work order and click **Done**.
 4.  Click **Submit**.
- The work order gets qualified automatically if it requires qualification; if not, the work order state changes to **Ready to dispatch**. For more information, see [Qualify a work order](../../planning-and-policy/concept/c_QualifyWorkOrders.md).
+ The work order gets qualified automatically if it requires qualification; if not, the work order state changes to **Ready to dispatch**. For more information, see [Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_QualifyWorkOrders.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Inventory on Mobile Agent](../concept/easily-track-parts.md)
+**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 

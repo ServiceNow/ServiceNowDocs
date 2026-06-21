@@ -2,6 +2,7 @@
 title: Time-based one-time password \(TOTP\) authentication
 description: A time based one-time password \(TOTP\) is a secure authentication factor that verifies user identity by generating a unique, time-sensitive code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/totp-authenticator-apps.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -37,5 +38,5 @@ While TOTP authenticator apps are a secure and convenient authentication method,
 -   Device management: Users must re-enroll when devices are replaced or reset.
 -   Phishing risk: One-time codes can be compromised if entered on untrusted or malicious sites.
 
-TOTP authenticator apps are an effective method to strengthen your organization’s security posture. For detailed configuration instructions, see [Authenticator Applications](mfa-auth-app.md).
+TOTP authenticator apps are an effective method to strengthen your organization’s security posture. For detailed configuration instructions, see [Authenticator Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-auth-app.md).
 

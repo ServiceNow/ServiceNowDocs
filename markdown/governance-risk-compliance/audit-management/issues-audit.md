@@ -2,6 +2,7 @@
 title: Manage audit issues and remediation
 description: Issues can be created manually to document audit observations or remediations, or to accept any problems. They are automatically generated from indicator results, attestation results, or control test effectiveness.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/audit-management/issues-audit.html
 release: yokohama
 product: Audit Management
 classification: audit-management

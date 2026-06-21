@@ -2,13 +2,14 @@
 title: Return Merchandise Authorization
 description: Return Merchandise Authorization \(RMA\) enables the return, replacement, and repair for install base items. It offers simplified processes, decreased turnaround time, and a unified workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/return-merchandise-authorization.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
-breadcrumb: [Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
 # Return Merchandise Authorization

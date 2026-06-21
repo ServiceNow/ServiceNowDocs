@@ -2,6 +2,7 @@
 title: Configure the MID Web Server extension
 description: The MID Web Server is a MID Server extension that enables developing REST APIs to send events and metrics to the MID Server. The extension is leveraged by other MID Server extensions, such as Metric Intelligence, MID WebService Event Listener, and the Agent Client Collector websocket endpoint extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/configure-mid-web-server-extension.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -26,9 +27,9 @@ Role required: agent\_admin.
 
 Agent Client Collector supports the following authentication strategies:
 
--   **Keybased**: For backwards \(pre-Yokohama release\) compatibility only. See [Configure key-based MID Web Server authentication](configure-mid-web-server-extension-metric-data.md).
--   **API key**: See [Configure MID Web Server API key authentication](mid-web-server-api-key-authentication.md).
--   **mTLS**: See [MID Web Server and agent mTLS Authentication](../concept/mid-web-server-mTLS-authentication.md).
+-   **Keybased**: For backwards \(pre-Yokohama release\) compatibility only. See [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md).
+-   **API key**: See [Configure MID Web Server API key authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/mid-web-server-api-key-authentication.md).
+-   **mTLS**: See [MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/mid-web-server-mTLS-authentication.md).
 
 ## Procedure
 
@@ -36,7 +37,7 @@ Agent Client Collector supports the following authentication strategies:
 
 2.  In the MID Web Server Contexts list, click **New**.
 
-3.  Fill in the values on the [Event Management MID Web Server extension form](../reference/configure-midwebserver-extension-form.md).
+3.  Fill in the values on the [Event Management MID Web Server extension form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-midwebserver-extension-form.md).
 
 4.  Click **Save** to save the data.
 
@@ -47,14 +48,14 @@ Agent Client Collector supports the following authentication strategies:
 7.  In the **Related Links** section, click **Start** to start the extension.
 
 
--   **[Configure a secure MID Web Server extension](configure-midwebserver-extension-secure.md)**  
+-   **[Configure a secure MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-midwebserver-extension-secure.md)**  
 Configure a TLS listener for extra security and encryption of data transferred to and from the MID Web Server extension. Access both a private key and a certificate \(or certificate chain\) from a Java keystore to use during the TLS handshake where the MID Web Server and the client acknowledge each other.
--   **[Configure key-based MID Web Server authentication](configure-mid-web-server-extension-metric-data.md)**  
+-   **[Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md)**  
 Provide added security to your MID Web Server extension by using key-based authentication. Generate an authentication token to be sent in the Authorization header of incoming client requests.
--   **[Configure MID Web Server API key authentication](mid-web-server-api-key-authentication.md)**  
+-   **[Configure MID Web Server API key authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/mid-web-server-api-key-authentication.md)**  
 Authenticate incoming requests from clients to the MID Web Server extension using API key authentication. API authentication is a secure and simple way to authenticate your request. You can create or modify a MID Web Server API key.
--   **[MID Web Server and agent mTLS Authentication](../concept/mid-web-server-mTLS-authentication.md)**  
+-   **[MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)**  
 Mutual authentication using the Transport Layer Security protocol \(mTLS\) is a secure, certificate-based authentication scheme. With mTLS, the server \(the MID Web Server extension\) and the client \(the agent\) authenticate each other.
 
-**Parent Topic:**[MID Web Server](../concept/mid-web-server.md)
+**Parent Topic:**[MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/mid-web-server.md)
 

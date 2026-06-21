@@ -2,11 +2,12 @@
 title: Duplicate knowledge article numbers
 description: Importing knowledge articles into an instance can create articles with duplicate numbers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/knowledge-article-duplicate-numbers.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

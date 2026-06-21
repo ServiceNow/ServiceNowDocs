@@ -1,19 +1,20 @@
 ---
 title: AI Service Graph Connector for Amazon
-description: Use the  AI Service Graph Connector for Amazon to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+description: Use the  AI Service Graph Connector for Amazon to create AI connections to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/aws\_0.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-02-27"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # AI Service Graph Connector for Amazon
 
-Use the  AI Service Graph Connector for Amazon to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+Use the  AI Service Graph Connector for Amazon to create AI connections to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
 
 ## Download apps from the Store
 
@@ -38,11 +39,11 @@ Role required: IAM user
 
 **AWS Prerequisites**
 
-Before proceeding, ensure you have:
+Before proceeding, confirm you have:
 
--   AWS Account- Active AWS account with access to the services you want to connect.
--   IAM Credentials: AWS Access Key ID and Secret Access Key with read permissions for the services you plan to migrate.
--   Service Access- API access enabled for Amazon Bedrock, Amazon SageMaker, Amazon CloudWatch, and/or Amazon Bedrock AgentCore.
+-   AWS Account- Active AWS account with access to the services you want to connect
+-   IAM Credentials: AWS Access Key ID and Secret Access Key with read permissions for the services you plan to migrate
+-   Service Access- API access enabled for Amazon Bedrock, Amazon SageMaker, Amazon CloudWatch, and Amazon Bedrock AgentCore
 
 **Required IAM Permissions**
 

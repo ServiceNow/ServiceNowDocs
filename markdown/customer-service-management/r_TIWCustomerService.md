@@ -2,7 +2,10 @@
 title: Tables installed with Customer Service Management
 description: Tables are added to your instance with the activation of the Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_TIWCustomerService.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3
@@ -311,5 +314,5 @@ Responsibility Access Configuration\[sn\_customerservice\_responsibility\_access
 Stores the metadata of the responsibility access configuration, which specifies the level of access and the entities that can be accessed by a particular responsibility.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Customer Service Management](r_InstalledWithCustomerService.md)
+</table>**Parent Topic:**[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_InstalledWithCustomerService.md)
 

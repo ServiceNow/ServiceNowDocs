@@ -2,6 +2,7 @@
 title: Take a Listening Posts voluntary survey
 description: Share your feedback anytime by accessing the voluntary feedback survey on Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/listening-posts/take-vol-survey.html
 release: yokohama
 product: Listening Posts
 classification: listening-posts

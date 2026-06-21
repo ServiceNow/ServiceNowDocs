@@ -2,6 +2,7 @@
 title: Install Now Assist AI agents for Health and Safety
 description: Install Now Assist AI agents on your ServiceNow instance to enable the agentic AI experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-install.html
 release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -44,7 +45,7 @@ The AI Agent for Health and safety \[sn\_hs\_ai\_agents\] plugin associated with
 
 ## What to do next
 
-To access AI agents in the Now Assist panel, you must enable the panel. See [Activate Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+To access AI agents in the Now Assist panel, you must enable the panel. See .
 
-**Parent Topic:**[Configure Now Assist AI agents for Health and Safety](../concept/ai-agents-now-assist-hs-configuring.md)
+**Parent Topic:**[Configure Now Assist AI agents for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-configuring.md)
 

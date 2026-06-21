@@ -2,6 +2,7 @@
 title: View open remediation tasks for asset attestations in the Hardware Asset Workspace
 description: Get the details of all the remediation tasks for asset attestations that are awaiting your action in the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/view-open-remediations-ham.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -36,7 +37,7 @@ The list of asset remediation tasks with **Status** as **Open** is displayed.
 
 ## What to do next
 
-[Complete the remediation task for asset attestation in the Hardware Asset Workspace](complete-attestation-remediation-ham.md).
+[Complete the remediation task for asset attestation in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/complete-attestation-remediation-ham.md).
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

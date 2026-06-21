@@ -2,6 +2,7 @@
 title: Invoice error staging table
 description: The Invoice error \[sn\_spend\_intg\_import\_error\] staging table temporarily stores important data on errors before this data is sent to the primary table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/source-to-pay-integration-framework/invoice-error.html
 release: yokohama
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

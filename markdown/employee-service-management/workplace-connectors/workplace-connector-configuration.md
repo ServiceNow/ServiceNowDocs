@@ -2,6 +2,7 @@
 title: Configure connector configuration for badging data
 description: Configure the connector configuration table \[sn\_wsd\_wc\_connector\_config\] to fetch the badging spoke data records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/workplace-connector-configuration.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
@@ -27,34 +28,34 @@ Role required: sn\_wsd\_wc.admin
 
 2.  On the pane, select the Application scope as **Workplace Connectors**.
 
-    ![Application Global Scope selected as Workplace Connectors.](../images/wsd-app-scope-connectors.png)
+    \[Omitted image "wsd-app-scope-connectors.png"\] Alt text: Application Global Scope selected as Workplace Connectors.
 
 3.  Select **New**.
 
 4.  In the **Target table** field, select the target table for the badging data.
 
-    In this case, it’s the Badging Data table. For more information, see [Badging Data](badging-data.md).
+    In this case, it’s the Badging Data table. For more information, see [Badging Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/badging-data.md).
 
 5.  In the **Type** field, select the type of data the connector processes from the drop-down list.
 
     For example, Badging.
 
-6.  In the **Extension Point Definition** field, select the lookup list icon \(![Lookup list icon.](../../workplace-case-mgmt/image/search-icon.png)\) and select the **BadgingDataHandler** as the extension point for integration.
+6.  In the **Extension Point Definition** field, select the lookup list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup list icon.\) and select the **BadgingDataHandler** as the extension point for integration.
 
     **Note:** The extension point is used to process badging data from the provider and convert it to the standard format to be implemented by each provider. It's just an interface. Each provider must have a separate implementation.
 
-    ![Extension point definition.](../images/connector-configuration-new.png)
+    \[Omitted image "connector-configuration-new.png"\] Alt text: Extension point definition.
 
-    For more information, see [Creating and adding a scripted extension point](https://www.servicenow.com/docs/access?context=impl-scripted-ext-pts-base-code&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+    For more information, see .
 
-7.  In the **Supported Metrics** field, select the unlock icon \(![Unlock list icon.](../images/wsd-unlock-connectors-list-icon.png) \) and select the **Event Data** as the supported metrics for badging data.
+7.  In the **Supported Metrics** field, select the unlock icon \(\[Omitted image "wsd-unlock-connectors-list-icon.png"\] Alt text: Unlock list icon. \) and select the **Event Data** as the supported metrics for badging data.
 
 8.  Select **Submit** to save the connector configuration.
 
 
-**Parent Topic:**[Setup Workplace Connectors for badging data](../concept/setup-workplace-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
-**Previous topic:**[Create a badging data provider](wsd-connector-badging-providers.md)
+**Previous topic:**[Create a badging data provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/wsd-connector-badging-providers.md)
 
-**Next topic:**[Provider connector configuration](../concept/provider-configuration-ovw.md)
+**Next topic:**[Provider connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/provider-configuration-ovw.md)
 

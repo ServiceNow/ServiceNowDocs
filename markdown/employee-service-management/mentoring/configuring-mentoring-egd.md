@@ -2,6 +2,7 @@
 title: Configuring mentoring
 description: Configuring Mentoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/mentoring/configuring-mentoring-egd.html
 release: yokohama
 product: Mentoring
 classification: mentoring
@@ -64,12 +65,12 @@ Dependencies
 
 The Mentoring application depends on other applications such as Career Conversations and Employee Profile.
 
--   **[Create a Mentoring program](../task/create-mentoring-pgm.md)**  
+-   **[Create a Mentoring program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/create-mentoring-pgm.md)**  
 Create a customized mentoring program that can be adopted by a mentee.
--   **[Add a new Mentoring participant](../task/add-mentoring-participant.md)**  
+-   **[Add a new Mentoring participant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/add-mentoring-participant.md)**  
 As a manager, add members from your team either as mentors or mentees to participate in mentorship program.
--   **[Create a Mentoring relationship](../task/create-mentoring-relationship.md)**  
+-   **[Create a Mentoring relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/create-mentoring-relationship.md)**  
 As a manager, create a mentoring relationship between two of your employees.
 
-**Parent Topic:**[Mentoring](mentoring-egd-overview.md)
+**Parent Topic:**[Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/mentoring-egd-overview.md)
 

@@ -2,6 +2,7 @@
 title: GCP Spanner pattern-based discovery
 description: Discovery and Service Mapping Patterns finds GCP Spanner instances and databases on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-spanner-db-pattern.html
 release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,7 +19,7 @@ Discovery and Service Mapping Patterns finds GCP Spanner instances and databases
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud components discovery using Patterns](gcp-cloud-discovery-patterns.md).
+Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud components discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -84,5 +85,5 @@ The Google Cloud Platform \(GCP\) - Spanner DB pattern collects tags and populat
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud DataBase \[cmdb\_ci\_cloud\_database\] table.|
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

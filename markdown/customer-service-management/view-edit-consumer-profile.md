@@ -2,7 +2,10 @@
 title: View or edit a consumer profile
 description: Registered users with the consumer role can view their consumer profiles, edit the information as needed, and change passwords.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-edit-consumer-profile.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Configure sort widget instance options
 description: Configure widget instance options for the knowledge sort widget on the Knowledge Management Service Portal search results page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/config-search-results-sort-options.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -55,7 +56,7 @@ CSS
 
 </td><td>
 
-Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://www.servicenow.com/docs/access?context=scss-primer&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.
 
 </td></tr><tr><td>
 

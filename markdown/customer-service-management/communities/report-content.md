@@ -2,6 +2,7 @@
 title: Report inappropriate community content
 description: Report content to alert community moderators that the content is inappropriate or spam.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/report-content.html
 release: yokohama
 product: Communities
 classification: communities
@@ -32,5 +33,5 @@ Role required: sn\_communities.community\_user
     A moderation task is created and assigned to a moderator for resolution. Depending on the moderation settings created for your community, the content may be hidden until a moderator has reviewed it.
 
 
-**Parent Topic:**[Use a community](use-community-forums.md)
+**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/use-community-forums.md)
 

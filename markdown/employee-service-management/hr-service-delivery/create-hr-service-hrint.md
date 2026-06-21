@@ -2,6 +2,7 @@
 title: Create an integration service in Enterprise Service Management Integrations Framework
 description: Create an integration service to connect with the third-party system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/create-hr-service-hrint.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

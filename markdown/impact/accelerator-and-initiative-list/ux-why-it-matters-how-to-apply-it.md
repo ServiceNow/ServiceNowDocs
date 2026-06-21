@@ -2,6 +2,7 @@
 title: UX: Why It Matters and How to Apply It
 description: The UX: Why It Matters and How to Apply It Accelerator takes examples directly from your instance to demonstrate how improving UX can directly influence the success of your ServiceNow investment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/ux-why-it-matters-how-to-apply-it.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

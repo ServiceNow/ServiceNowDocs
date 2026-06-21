@@ -2,6 +2,7 @@
 title: Associate a work scheduler card to the work configuration
 description: Associate the work scheduler card that you've created to the work configuration to display the card in the Work scheduler sidebar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/associate-card-config-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -31,10 +32,10 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
     The work configuration card displays in Work scheduler in manager workspace.
 
-    For information on setting up a work configuration, see [Set up a work configuration](https://www.servicenow.com/docs/access?context=setup-work-scheduler&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US).
+    For information on setting up a work configuration, see Set up a work configuration.
 
-    For information on creating the work scheduler card, see [Create a Work Scheduler card using UI Builder](https://www.servicenow.com/docs/access?context=create-workscheduler-card-wfo-itsm&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US).
+    For information on creating the work scheduler card, see Create a Work Scheduler card using UI Builder.
 
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/create-workscheduler-card-wfo-cs.md)
 

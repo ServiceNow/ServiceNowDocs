@@ -2,6 +2,7 @@
 title: Issue credit
 description: Issue immediate final credit to the card holder during the Investigation stage based on the amount being disputed and the policy for the credit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/provide-immediate-final-credit.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ Issue immediate final credit to the card holder during the Investigation stage b
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ Based on the business rules, the bank decides to issue immediate final credit to
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![List icon.](../../../common/image/icon-list.png)\).
+2.  Select the lists icon \(\[Omitted image "icon-list.png"\] Alt text: List icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -60,5 +61,5 @@ Based on the business rules, the bank decides to issue immediate final credit to
 
 The task state updates to Closed Complete. The dispute transaction moves to the **Chargeback** stage.
 
-**Parent Topic:**[Investigating a dispute](investigate-a-dispute.md)
+**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

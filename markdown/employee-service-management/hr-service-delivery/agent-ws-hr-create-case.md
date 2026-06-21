@@ -2,6 +2,7 @@
 title: Create case in Classic HR Service Delivery Agent Workspace
 description: Creating a new HR case in HR Service Delivery Agent Workspace is easy and all the information you need is on one page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-create-case.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,13 +30,13 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  Select **HR Case**.
 
-    For information on **Interactions**, see [Using interactions in HR Service Delivery Agent Workspace](../concept/agent-ws-hr-interactions.md#). For Employee Relations \(ER\) cases you can skip adding the Opened for person by selecting the **Skip verification** link. For more information on ER cases, see [Create an HR Service Delivery Employee Relations case using the legacy UI](create-hr-employee-relations.md).
+    For information on **Interactions**, see [Using interactions in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-interactions.md). For Employee Relations \(ER\) cases you can skip adding the Opened for person by selecting the **Skip verification** link. For more information on ER cases, see [Create an HR Service Delivery Employee Relations case using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/create-hr-employee-relations.md).
 
-    ![HR Agent WS search for employee or case](../image/agent-ws-hr-search-no.png)
+    \[Omitted image "agent-ws-hr-search-no.png"\] Alt text: HR Agent WS search for employee or case
 
 4.  Enter an employee name.
 
-    If an employee is flagged as a VIP in their HR profile, VIP appears when you enter their name. ![HR Agent WS verify employee](../image/agent-ws-hr-verify-empl.png)
+    If an employee is flagged as a VIP in their HR profile, VIP appears when you enter their name. \[Omitted image "agent-ws-hr-verify-empl.png"\] Alt text: HR Agent WS verify employee
 
 5.  Verify that the employee is the correct person the case is for.
 
@@ -59,7 +60,7 @@ COE
 
 </td><td>
 
-Select the **Center of Excellence** associated with the HR case you are creating. Selecting a COE filters the choices for HR service. For more information, see [HR Centers of Excellence data model](../concept/hr-centers-of-excellence-coes.md).**Note:** You can also select an HR service first and the associated COE automatically populates.
+Select the **Center of Excellence** associated with the HR case you are creating. Selecting a COE filters the choices for HR service. For more information, see [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).**Note:** You can also select an HR service first and the associated COE automatically populates.
 
 </td></tr><tr><td>
 
@@ -72,7 +73,7 @@ The HR service based on the COE selected or what you select based on communicati
 
 Limit services filter on the **Case Creation Configuration** form. If the HR service field is empty, ensure that you did not remove the Opened for field.
 
- **Note:** **Bulk Parent Case** does not appear as a selection because it only appears when creating a parent case for child bulk cases. For more information, see [Add or modify bulk HR cases](t_CreateBulkCases.md).
+ **Note:** **Bulk Parent Case** does not appear as a selection because it only appears when creating a parent case for child bulk cases. For more information, see [Add or modify bulk HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_CreateBulkCases.md).
 
 </td></tr><tr><td>
 
@@ -82,12 +83,12 @@ Work notes
 
 Information specific to the case that can help other HR agents. **Work Notes** are not visible to the **Subject person**.The sn\_hr\_core.restrict\_guest\_email system property allows a user to send an email from a personal email account referencing an HR case. When the property has a value of false \(default\), the text from the email appears in the Work notes field. To access system properties, enter `sys_properties.list` in the navigation filter.
 
- **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+ **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
 
 </td></tr></tbody>
 </table>8.  Select **Create Case**.
 
-    If the duplicate case warning appears, verify that you are creating a unique case. When there are no similar cases, an HR case number is assigned and the State is **Draft**. If there is a similar case for the subject person, HR service, and if the case was created within three days \(configurable from HR Administration/Properties\), a warning appears. ![HR Agent WS duplicate case warning](../image/agent-ws-hr-dup-case.png)
+    If the duplicate case warning appears, verify that you are creating a unique case. When there are no similar cases, an HR case number is assigned and the State is **Draft**. If there is a similar case for the subject person, HR service, and if the case was created within three days \(configurable from HR Administration/Properties\), a warning appears. \[Omitted image "agent-ws-hr-dup-case.png"\] Alt text: HR Agent WS duplicate case warning
 
 9.  Select **Create new case**.
 
@@ -145,7 +146,7 @@ The state of the case. The state can auto-populate based on the HR case or task 
 -   Closed Incomplete
 -   Cancelled
 -   Awaiting Acceptance: The **Opened for** person must accept the HR case before it can proceed. For example, a **Request for Onboarding** case was opened for a hiring manager. The hiring manager must accept the case before it can move to the next state.
--   Suspended: Use to temporarily prevent violation of a service level agreement \(SLA\). Refer to [Suspend and resume an HR case](t_SuspendAndResumeAnHRCase.md).
+-   Suspended: Use to temporarily prevent violation of a service level agreement \(SLA\). Refer to [Suspend and resume an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_SuspendAndResumeAnHRCase.md).
 
 **Note:** The **State** cannot be edited in List view.
 
@@ -198,7 +199,7 @@ Assignment group
 
 The group the record is assigned to. If the group is not set automatically, assign an HR group to provide a selection of HR users in the **Assigned to** field. Assignment groups are restricted to those groups with a type of human\_resources.To change the **Assignment group**, the **Assigned to** agent must be a member of the new group and the **State** must be **Ready**.
 
- **Note:** To automatically assign a group to an HR case, see [Assignment and matching rules in HR](../concept/c_UseAssignmentRules-1.md) and [Configure an HR case template](configure-hr-case-template.md).
+ **Note:** To automatically assign a group to an HR case, see [Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) and [Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-hr-case-template.md).
 
 </td></tr><tr><td>
 
@@ -229,8 +230,8 @@ Add collaborators or other HR agents to the case.Only HR agents can be added as 
 
  Collaborators and the COE for the HR case can conflict. The basic rules are:
 
--   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](../concept/hr-service-categorization.md#).
--   Employee Relations \(ER\) cases can override collaborators when restrictions apply. For more information, see [Configure an employee relations case restriction](hr-er-create-case-restriction.md).
+-   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-categorization.md).
+-   Employee Relations \(ER\) cases can override collaborators when restrictions apply. For more information, see [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
  **Note:** Agents must have the ER case writer \[sn\_hr\_er.case\_writer\] role in order to be a collaborator.
 
 </td></tr><tr><td>
@@ -270,7 +271,7 @@ You can add a longer, detailed description after the HR case is created. Use the
 </td></tr></tbody>
 </table>10. Check the contextual side panel for information that can help you work this case.
 
-    You can choose from Agent Assist, Response Templates, or Fulfillment Instructions depending on what information you need. ![HR Agent WS contextual side panel](../image/contextual-sidebar-1.png)
+    You can choose from Agent Assist, Response Templates, or Fulfillment Instructions depending on what information you need. \[Omitted image "contextual-sidebar-1.png"\] Alt text: HR Agent WS contextual side panel
 
 11. Select **Ready for Work** to change the **State** to **Ready** and assign an HR agent and assignment group.
 

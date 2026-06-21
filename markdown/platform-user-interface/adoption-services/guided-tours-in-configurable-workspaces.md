@@ -2,6 +2,7 @@
 title: Guided Tours in Configurable Workspaces
 description: Guided Tours is a feature in ServiceNow that assists users in onboarding and training processes. Guided Tours are supported in Configurable Workspaces to instruct users how to use features in your workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/guided-tours-in-configurable-workspaces.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
@@ -17,7 +18,7 @@ Guided Tours is a feature in ServiceNow that assists users in onboarding and tra
 
 ## Create Guided Tour in Configurable Workspaces
 
-To create a Guided Tour in your Configurable Workspace, see [Create a guided tour](../task/add-guided-tour.md).
+To create a Guided Tour in your Configurable Workspace, see [Create a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/add-guided-tour.md).
 
 ## Example: Create an incident using Service Operations Workspace
 
@@ -95,7 +96,7 @@ This update will enable your Guided tour across different sys-id and invoke the 
 
 The introduction established the foreword to the steps mentioned in the Guided Tour and also explains the milestone you will accomplish once all the actions are complete.
 
-![Guided Tours callout introduction.](../image/guided-tours-create-incident.png "Guided tour introduction")
+\[Omitted image "guided-tours-create-incident.png"\] Alt text: Guided Tours callout introduction.
 
 ## Guided tour callouts
 
@@ -108,17 +109,17 @@ Callouts direct the user, with step-by-step guidance, to navigate and operate wi
 
 For example, in this scenario, the callouts direct the user to navigate to the list view and look for the Incidents tab. As you create your tour steps list, you can also drag the steps in the list to reorder them.
 
-![Guided Tours callout list.](../image/guided-tours-callout-intro.png "Guided tour callouts")
+\[Omitted image "guided-tours-callout-intro.png"\] Alt text: Guided Tours callout list.
 
 You can create steps on multiple pages and areas within the workspace. You can also configure the triggers that will advance the user to the next step. As the user selects through the tour, the next callout step displays after the trigger is completed. In this example, the trigger is configured to go to the next step on after selecting the next button.
 
-![Guided tours callout steps.](../image/guided-tour-incident-steps.png "Guided tour callout steps")
+\[Omitted image "guided-tour-incident-steps.png"\] Alt text: Guided tours callout steps.
 
 **Note:** As you create your tour, be sure to identify areas that may be confusing or need extra attention.
 
 At the completion of the tour, the user is presented with a conclusion notifying the provided the tour is finished. Here you can direct your users to check out other tours, or give them follow-up information of what to do next now that they’ve completed the tour.
 
-![Guided tour callout conclusion.](../image/guided-tour-conclusion.png "Guided tour conclusion")
+\[Omitted image "guided-tour-conclusion.png"\] Alt text: Guided tour callout conclusion.
 
 After you have completed creating your tour, you can select to preview the tour to make sure it displays and guides the user properly before submitting.
 

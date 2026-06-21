@@ -2,6 +2,7 @@
 title: View agent location history map
 description: Access a historical map of field service agents' locations to track and analyze their activities over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/view\_agent\_location\_history\_map.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -40,5 +41,5 @@ Field service agents have the ability to view and monitor their own location his
     **Note:** The work order task number appears if the agent activity is a task. You can open the work order task record to view the details.
 
 
-**Parent Topic:**[Managing agents and tasks from Workforce](../concept/using-manager-workforce.md)
+**Parent Topic:**[Managing agents and tasks from Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-manager-workforce.md)
 

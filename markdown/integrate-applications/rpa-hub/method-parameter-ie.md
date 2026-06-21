@@ -2,6 +2,7 @@
 title: Parameters of the IE connector methods
 description: Learn about the parameters of the Microsoft IE Connector \(Internet Explorer\) methods in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/method-parameter-ie.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -428,7 +429,7 @@ Not applicable
 </td></tr></tbody>
 </table>## Enter inputs for parameters
 
-To enter inputs, see [Configure port properties](../task/configure-input-port-properties.md).
+To enter inputs, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
-**Parent Topic:**[IE connector](../concept/internet-explorer-connector.md)
+**Parent Topic:**[IE connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/internet-explorer-connector.md)
 

@@ -2,6 +2,7 @@
 title: Create appointments
 description: Create appointments with the required stakeholders to move the business discussion forward for your opportunity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/opportunity-management-create-an-appoinment.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,11 +22,11 @@ Role required: sales\_manager
 
 ## About this task
 
-You can create appointments only after creating an opportunity task. To create an opportunity task, see [Add opportunity tasks](opportunity-management-tasks-tab.md).
+You can create appointments only after creating an opportunity task. To create an opportunity task, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-tasks-tab.md).
 
 ## Procedure
 
-1.  Navigate to **List** view ![](../image/Lists.png)and select **Opportunity Tasks**.
+1.  Navigate to **List** view \[Omitted image "Lists.png"\]and select **Opportunity Tasks**.
 
 2.  Select the opportunity task you want to work with and select the **Appointments** tab.
 

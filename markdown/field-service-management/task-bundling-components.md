@@ -2,7 +2,10 @@
 title: Field Service Task Bundling components
 description: Several types of components are installed with the activation of the Field Service Task Bundling feature including business rules, task filters, and task grouping rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/task-bundling-components.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 5
@@ -160,5 +163,5 @@ Reassigns unassigned task bundles.
 |Bundle: Matching Skills For Dynamic Scheduling|Matches bundles that have skill requirements with agents who have those skills.|
 |Bundle: Matching Mandatory Parts for Dynamic Scheduling|Matches bundles that have part requirements with agents who have those parts.|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
 

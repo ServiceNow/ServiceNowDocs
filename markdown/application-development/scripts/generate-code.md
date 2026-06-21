@@ -2,6 +2,7 @@
 title: Generate scripts with AI-powered code generation
 description: Generate scripts from text, code, or a combination of both with AI-powered code generation.Write scripts quickly with AI-generated code by telling Now Assist what you want the script to do.Write scripts quickly with AI-generated code completion.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/generate-code.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [Now Assist for code generation, Scripting, Building pro-code applic
 
 Generate scripts from text, code, or a combination of both with AI-powered code generation.
 
-When code generation is enabled on an instance, a Now Assist icon \(![Now Assist icon.](../../../common/image/icon-ai-sparkle.png)\) appears in the script editor.
+When code generation is enabled on an instance, a Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\) appears in the script editor.
 
 Developers must be assigned the now.assist.creator role to use code generation.
 
@@ -25,7 +26,7 @@ Write scripts quickly with AI-generated code by telling Now Assist what you want
 
 ### Before you begin
 
-Learn how to write prompts to generate better code suggestions. For more information, see [General guidelines for code generation](https://www.servicenow.com/docs/access?context=general-guidelines-code-generation&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+Learn how to write prompts to generate better code suggestions. For more information, see .
 
 Role required: now.assist.creator
 
@@ -41,7 +42,7 @@ Role required: now.assist.creator
 
     -   Windows: Ctrl-Enter
     -   Mac: Cmd-Enter
-    **Tip:** Select the Help icon \(![Help icon.](../../general-scripting/image/Help.png)\) to access the list of relevant keyboard shortcuts.
+    **Tip:** Select the Help icon \(\[Omitted image "Help.png"\] Alt text: Help icon.\) to access the list of relevant keyboard shortcuts.
 
 4.  In the **Code with Now Assist** dialog box, enter text that describes the desired goal of the code to generate.
 
@@ -51,16 +52,16 @@ Role required: now.assist.creator
 
     The code suggestion appears highlighted in the script editor.
 
-    ![Code with Now Assist dialog box with the text "Validate emails using regex" and a code suggestion in the script editor.](../image/now-assist-code-dialog.png)
+    \[Omitted image "now-assist-code-dialog.png"\] Alt text: Code with Now Assist dialog box with the text "Validate emails using regex" and a code suggestion in the script editor.
 
 6.  Review the code suggestion and complete one of the following steps:
 
     -   To include it in your script and make any edits, select **Accept**.
-    -   To regenerate a suggestion, revise the text in the dialog box and select the arrow icon \(![Arrow icon.](../image/now-assist-code-arrow.png)\).
+    -   To regenerate a suggestion, revise the text in the dialog box and select the arrow icon \(\[Omitted image "now-assist-code-arrow.png"\] Alt text: Arrow icon.\).
     -   To remove it from the script, select **Reject**.
     When you accept a code suggestion, a line next to the line numbers indicates which code was created by AI and hasn't been edited. If you edit AI-generated code, the line indicator doesn’t appear for those lines of code.
 
-    ![Line indicating which lines of code are AI-generated.](../image/now-assist-code-indicator-modal.png)
+    \[Omitted image "now-assist-code-indicator-modal.png"\] Alt text: Line indicating which lines of code are AI-generated.
 
     If the code suggestion doesn’t meet your requirements, try rephrasing your prompt according to the prompt guidance and generating another code suggestion.
 
@@ -106,7 +107,7 @@ Role required: now.assist.creator
 
     -   Windows: Ctrl-Windows logo key-Enter
     -   Mac: Ctrl-Cmd-Enter
-    **Tip:** Select the Help icon \(![Help icon.](../../general-scripting/image/Help.png)\) to access the list of relevant keyboard shortcuts.
+    **Tip:** Select the Help icon \(\[Omitted image "Help.png"\] Alt text: Help icon.\) to access the list of relevant keyboard shortcuts.
 
     The code preceding your cursor must be fewer than 1,000 characters when triggering code generation.
 
@@ -114,9 +115,9 @@ Role required: now.assist.creator
 
     You can't edit the prompt after triggering the code generation. If you need to edit your prompt before the code suggestion is returned, you can cancel the code generation by pressing the Backspace key.
 
-    The spinner icon \(![Spinner icon.](../image/now-assist-code-spinner.png)\) appears while generating a suggestion. The code suggestion appears in the lines following your prompt but isn’t added to your script until you accept it.
+    The spinner icon \(\[Omitted image "now-assist-code-spinner.png"\] Alt text: Spinner icon.\) appears while generating a suggestion. The code suggestion appears in the lines following your prompt but isn’t added to your script until you accept it.
 
-    ![Prompt and code suggestion in the script editor.](../image/now-assist-code-complete-suggestion.png)
+    \[Omitted image "now-assist-code-complete-suggestion.png"\] Alt text: Prompt and code suggestion in the script editor.
 
 4.  Accept the code to include it in your script or reject it to remove it from the script.
 
@@ -124,7 +125,7 @@ Role required: now.assist.creator
     -   Reject: Press the Escape key, left arrow key, or up arrow key. Typing or selecting anywhere outside of the suggested code within the script also removes the suggestion.
     When you accept a code suggestion, a line next to the line numbers indicates which code was created by AI and hasn't been edited. If you edit AI-generated code, the line indicator doesn’t appear for those lines of code.
 
-    ![Line indicating which lines of code are AI-generated.](../image/now-assist-code-indicator.png)
+    \[Omitted image "now-assist-code-indicator.png"\] Alt text: Line indicating which lines of code are AI-generated.
 
     If the code suggestion doesn’t meet your requirements, try modifying your code and generating another code suggestion.
 

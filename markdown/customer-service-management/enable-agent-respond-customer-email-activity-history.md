@@ -2,7 +2,10 @@
 title: Enable agents to respond to customers with email activity history
 description: Enable agents to respond to customers with email activity history, which is created by embedding a mail script in an email client template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-agent-respond-customer-email-activity-history.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -32,6 +35,6 @@ Role required: admin
 
     The number of emails in the activity history matches the value set in the system property, number\_of\_activities\_in\_notification.
 
-    **Note:** You can also create a client template and map it to the Interaction table. For more information, see [Create an email client template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailClientTemplate&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+    **Note:** You can also create a client template and map it to the Interaction table. For more information, see .
 
 

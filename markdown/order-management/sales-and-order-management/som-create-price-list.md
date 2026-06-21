@@ -2,13 +2,14 @@
 title: Create and publish a price list
 description: Create a price list that defines the pricing for products and services in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-create-price-list.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Create and publish a price list
@@ -25,7 +26,7 @@ You can create various types of price lists for your organization, such as price
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Prices** &gt; **Price Lists.**
 
@@ -123,7 +124,7 @@ Start Date
 
 </td><td>
 
-Starting date and time that the price list is effective. Select the Calendar icon ![Calendar icon.](../image/field-calendar.png) to choose the start date and time, then select **OK**. **Note:** If this is a default price list, the start date must be either the current date or a date that is earlier than the current date.
+Starting date and time that the price list is effective. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: Calendar icon. to choose the start date and time, then select **OK**. **Note:** If this is a default price list, the start date must be either the current date or a date that is earlier than the current date.
 
 </td></tr><tr><td>
 
@@ -131,7 +132,7 @@ End Date
 
 </td><td>
 
-Ending date and time of the price list. Select the Calendar icon ![Calendar icon.](../image/field-calendar.png) to choose the end date and time, then select **OK**. After the ending time, the price list is no longer active.**Note:** If this is a default price list, the end date is ignored.
+Ending date and time of the price list. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: Calendar icon. to choose the end date and time, then select **OK**. After the ending time, the price list is no longer active.**Note:** If this is a default price list, the end date is ignored.
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
@@ -145,5 +146,5 @@ Ending date and time of the price list. Select the Calendar icon ![Calendar icon
 
 ## What to do next
 
-[Create a price list line](som-create-price-list-line.md) for the price list.
+[Create a price list line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-price-list-line.md) for the price list.
 

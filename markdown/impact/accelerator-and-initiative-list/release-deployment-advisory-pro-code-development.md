@@ -2,6 +2,7 @@
 title: Release and Deployment Advisory for Pro-code Development
 description: The Release and Deployment Advisory for Pro-code Development Accelerator provides guidance to assist pro-code developers in tools and techniques to release and deploy ServiceNow application configurations and customizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/release-deployment-advisory-pro-code-development.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

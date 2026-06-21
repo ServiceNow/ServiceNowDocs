@@ -2,6 +2,7 @@
 title: Obtaining ERP Semantic Mining statistics and mining analysis
 description: Use the ERP Semantic Mining home page dashboard to obtain statistics about candidates and info to help you troubleshoot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-obtaining-statistics-and-mining-analysis.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -23,7 +24,7 @@ To view the dashboard, navigate to **All** &gt; **ERP Foundation** &gt; **ERP Cu
 
 Select the charts, graphs, and lists on the dashboard to view the underlying records. For example, select a section of a donut chart to see a list of the records for that section.
 
-![Donut chart with one section selected.](../image/erpcm-dashboard4.png)
+\[Omitted image "erpcm-dashboard4.png"\] Alt text: Donut chart with one section selected.
 
 The dashboard contains three tabs.
 
@@ -31,7 +32,7 @@ The dashboard contains three tabs.
 
 This tab contains information about candidates.
 
-![ERP Customization Mining dashboard with Custom applications results tab open.](../image/erpcm-dashboard1.png)
+\[Omitted image "erpcm-dashboard1.png"\] Alt text: ERP Customization Mining dashboard with Custom applications results tab open.
 
 |Title|Type|Description|
 |-----|----|-----------|
@@ -46,7 +47,7 @@ This tab contains information about candidates.
 
 This tab contains information about candidates that have been identified as potential candidates for replatforming.
 
-![ERP Customization Mining dashboard with Selected potential candidates tab open.](../image/erpcm-dashboard2.png)
+\[Omitted image "erpcm-dashboard2.png"\] Alt text: ERP Customization Mining dashboard with Selected potential candidates tab open.
 
 <table id="table_uln_spf_b2c"><thead><tr><th>
 
@@ -110,7 +111,7 @@ ERP models
 
 </td><td>
 
-Number of ERP models the potential candidate belongs to.ERP models are configured in Zero Copy Connector for ERP. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source. For more information, see [Building and managing ERP models to work with ERP data](https://www.servicenow.com/docs/bundle/xanadu-application-development/page/build/erp-integration/concept/work-with-erp-data-models.html).
+Number of ERP models the potential candidate belongs to.ERP models are configured in Zero Copy Connector for ERP. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
 
 </td></tr><tr><td>
 
@@ -125,7 +126,7 @@ Date and time the candidate record was last edited.
 
 This tab contains system-wide information that is useful to view after importing data.
 
-![RP Customization Mining dashboard with All applications results tab open.](../image/erpcm-dashboard3.png)
+\[Omitted image "erpcm-dashboard3.png"\] Alt text: RP Customization Mining dashboard with All applications results tab open.
 
 | | | |
 |---|---|---|
@@ -133,5 +134,5 @@ This tab contains system-wide information that is useful to view after importing
 |Users per module|Donut|Number of users for each module by number and percentage.|
 |Users of applications per module|Bar|Type of application users by module. User type is based on the number of different applications accessed. Users are defined as Light \(uses few apps\), Moderate \(uses multiple apps\), and Power \(uses the most apps\). Note that frequency of use is not part of the calculation.|
 
-**Parent Topic:**[Finding and working with candidates to replatform](work-with-candidates.md)
+**Parent Topic:**[Finding and working with candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/work-with-candidates.md)
 

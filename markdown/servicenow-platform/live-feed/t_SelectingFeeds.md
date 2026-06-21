@@ -2,6 +2,7 @@
 title: Select feeds
 description: A feed is a stream of related messages. You can use the feed selector to switch between feed types and to view specific group feeds and record feeds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_SelectingFeeds.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -25,7 +26,7 @@ Role required: none
 
     As you type in the **Search** field, the results are dynamically displayed. For example, if you type INC, records that are incidents are forced to the top of the results list.
 
-    ![Feed selector](../image/FeedSelector.png "Feed selector")
+    \[Omitted image "FeedSelector.png"\] Alt text: Feed selector
 
 2.  You can also select the following types of feed information.
 
@@ -65,5 +66,5 @@ Allows you to add a group feed.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Live Feed UI overview](../reference/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

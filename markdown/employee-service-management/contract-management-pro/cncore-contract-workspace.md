@@ -2,6 +2,7 @@
 title: Contract Workspace
 description: As a contract fulfiller, you can work with the actionable widgets on Contract Workspace to categorize, prioritize, and efficiently work on contract requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-contract-workspace.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -35,7 +36,7 @@ Unassigned
 
 </td><td>
 
-Score![Score icon.](../../../use/reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -47,7 +48,7 @@ Assigned to me
 
 </td><td>
 
-Donut![Donut icon.](../../../use/reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -59,7 +60,7 @@ My Collaborations
 
 </td><td>
 
-Donut![Donut icon.](../../../use/reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -71,7 +72,7 @@ Pending approvals
 
 </td><td>
 
-Score![Score icon.](../../../use/reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -83,16 +84,16 @@ Contracts due for expiry
 
 </td><td>
 
-Bar![Bar icon.](../../../use/performance-analytics/image/column-icon.png)
+Bar\[Omitted image "column-icon.png"\] Alt text: Bar icon.
 
 </td><td>
 
 Number of expiring contracts that you have executed. The contracts are grouped by the number of days before the contract expires.
 
 </td></tr></tbody>
-</table>The Contract Workspace is built through the configurable UI Builder application. For more information, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+</table>The Contract Workspace is built through the configurable UI Builder application. For more information, see .
 
-Access to the Contract Workspace requires activation of the Contract Workspace plugin. For more information, see [Activate Contract Workspace](../task/cncore-activate-contract-workspace-plugin.md).
+Access to the Contract Workspace requires activation of the Contract Workspace plugin. For more information, see [Activate Contract Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-activate-contract-workspace-plugin.md).
 
 ## Contract Workspace benefits
 
@@ -102,7 +103,7 @@ The Contract Workspace enables contract fulfillers to more efficiently handle co
 |-------|-------|
 |Overview of open contract requests, pending document revision approvals, and contracts that due to expire.|User action widgets|
 |Ability to view only the open contract requests that require your immediate attention.|Filtering capabilities|
-|More relevant search results with the advanced ServiceNow® AI Search engine.|[AI Search](../task/cncore-config-ai-srch-cntrct-wrkspc.md)|
+|More relevant search results with the advanced ServiceNow® AI Search engine.|[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-ai-srch-cntrct-wrkspc.md)|
 
-**Parent Topic:**[Using Contract Management Pro](cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

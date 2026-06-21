@@ -2,6 +2,7 @@
 title: Activate the ServiceNow AI Lens skill
 description: Activate the ServiceNow AI Lens skill to use generative AI to scan and analyze visual data such as images, screens, websites, and applications or use preview options to optimize your workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/servicenow-lens/activate-lens-skill.html
 release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -17,7 +18,7 @@ Activate the ServiceNow AI Lens skill to use generative AI to scan and analyze v
 
 ## Before you begin
 
--   Install the ServiceNow AI Lens application. For more information, see [Configure ServiceNow AI Lens](install-sn-lens.md).
+-   Install the ServiceNow AI Lens application. For more information, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 -   Perform this task in your ServiceNow instance.
 -   Role required: sn\_nowassist\_admin.nsa\_admin
 
@@ -29,12 +30,12 @@ Activate the ServiceNow AI Lens skill to use generative AI to scan and analyze v
 
 3.  On the tile for the ServiceNow AI Lens skill, select **Turn on**.
 
-    ![ServiceNow AI Lens skill card that displays the skill to be turned on.](../image/sn-lens-card.png)
+    \[Omitted image "sn-lens-card.png"\] Alt text: ServiceNow AI Lens skill card that displays the skill to be turned on.
 
 4.  On the Successfully activated dialog box, select **Back to skills**.
 
 5.  On the ServiceNow AI Lens card, verify that the ServiceNow AI Lens skill is activated.
 
-    ![ServiceNow AI Lens skill is active.](../image/sn-lens-skill-activated.png)
+    \[Omitted image "sn-lens-skill-activated.png"\] Alt text: ServiceNow AI Lens skill is active.
 
 

@@ -2,6 +2,7 @@
 title: Detach a saved trigger from a flow
 description: View a list of flows that are associated with a saved trigger, and detach it from any of the flows. Detach a saved trigger before you specify different start conditions for your flow or before you delete the trigger.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/detach-saved-trigger.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -29,7 +30,7 @@ Role required: trigger\_designer, flow\_designer, or admin
 
 4.  Select the More Actions menu icon, then select **Associated objects**.
 
-    ![Option to view the flows that are using the trigger.](../images/detach-a-trgger.png)
+    \[Omitted image "detach-a-trgger.png"\] Alt text: Option to view the flows that are using the trigger.
 
 5.  From the list of flows that are using the trigger, select the flow that you want to detach.
 
@@ -37,7 +38,7 @@ Role required: trigger\_designer, flow\_designer, or admin
 
 7.  Select the **Detach saved trigger** icon.
 
-    ![Detach saved trigger from a flow.](../images/detach-flow-trigger.png)
+    \[Omitted image "detach-flow-trigger.png"\] Alt text: Detach saved trigger from a flow.
 
 8.  On the confirmation window, select **Detach**.
 
@@ -48,5 +49,5 @@ Role required: trigger\_designer, flow\_designer, or admin
 10. Save the flow by clicking the save icon.
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow.md)
 

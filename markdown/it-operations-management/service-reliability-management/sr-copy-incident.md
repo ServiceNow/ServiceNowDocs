@@ -2,6 +2,7 @@
 title: Copy an SRM incident
 description: Copy an incident, if you have a similar issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-copy-incident.html
 release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select **Reliability tasks** \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the primary navigation, select **Reliability tasks** \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Open the incident you want to copy.
 
@@ -38,5 +39,5 @@ Role required: Responder, Manager, or Administrator
     After the incident is copied, the **Activity** timeline of the new incident is updated with the original incident as a work note.
 
 
-**Parent Topic:**[Working with Incidents in SRM](../concept/sr-work-incidents.md)
+**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

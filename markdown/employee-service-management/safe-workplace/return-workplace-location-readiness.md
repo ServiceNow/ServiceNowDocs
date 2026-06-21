@@ -2,6 +2,7 @@
 title: Return to Workplace Location Readiness lifecycle event
 description: The Return to Workplace Location Readiness lifecycle event helps you confirm that your workplace is ready for employees to return safely.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/safe-workplace/return-workplace-location-readiness.html
 release: yokohama
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ The Return to Workplace Location Readiness lifecycle event helps you confirm tha
 
 The Return to Workplace Location Readiness lifecycle event provides you with preconfigured process flows, activity sets, activities, templates, and sample content items.
 
-![Return to Workplace Location Readiness lifecycle event](../images/return-workplace-location-readiness.png)
+\[Omitted image "return-workplace-location-readiness.png"\] Alt text: Return to Workplace Location Readiness lifecycle event
 
 The structure for Return to Workplace Location Readiness is hierarchical with the lifecycle event at the top.
 
@@ -56,5 +57,5 @@ Contains the following activity:
 
 Safety volunteers morning standup: An HR task for safety volunteers to meet prior to the reopening of your workplace location.
 
-**Parent Topic:**[Return to Workplace Location Readiness and Employee Return to Workplace lifecycle events](return-workplace-le.md)
+**Parent Topic:**[Return to Workplace Location Readiness and Employee Return to Workplace lifecycle events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/return-workplace-le.md)
 

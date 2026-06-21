@@ -2,6 +2,7 @@
 title: Simplifying the authentication experience for your remote employees
 description: With the Issue Auto Resolution application, you can simplify the authentication experience for your remote employees. Instead of entering a user name and password to access the service portal, your remote employees can get to the portal through a link in a short messaging service \(SMS\) or email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/issue-auto-resolution-for-hr/iar-simplified-authentication-experience.html
 release: yokohama
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
@@ -25,7 +26,7 @@ Let's say that a remote employee recently joined your organization. Your employe
 
 The following example shows how a remote employee can log in to the portal without credentials by using a digest link.
 
-![Remote employee accessing digest link to view recommendations.](../image/iar-simplified-login-experience.png "Simplified log in experience for remote workers")
+\[Omitted image "iar-simplified-login-experience.png"\] Alt text: Remote employee accessing digest link to view recommendations.
 
 The process is as follows:
 
@@ -47,13 +48,13 @@ You can do the following tasks to set the existing time-limited authentication p
 -   Enable multi-provider single sign-on \(SSO\).
 -   Enable the **Active** field in the time limited authentication properties config record.
 
-To learn how to configure the properties, see [Time Limited Authentication Properties form](../reference/iar-time-limited-authentication-properties-form.md).
+To learn how to configure the properties, see [Time Limited Authentication Properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/issue-auto-resolution-for-hr/iar-time-limited-authentication-properties-form.md).
 
-To learn more about time-limited authentication, see [Time limited authentication](https://www.servicenow.com/docs/access?context=time-based-authentication-with-mfa&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+To learn more about time-limited authentication, see Time limited authentication.
 
 ## User criteria for generating the digest link
 
-You can use the sn\_iar\_hr.digest\_link\_user\_criteria system property to get and validate the user criteria for generating the digest link. This link appears in an SMS or email that is sent to the employee. The value should be the sys\_id of the active user criteria. For more information, see [User criteria form](../../universal-request/concept/ur-landing-limitedaccess.md).
+You can use the sn\_iar\_hr.digest\_link\_user\_criteria system property to get and validate the user criteria for generating the digest link. This link appears in an SMS or email that is sent to the employee. The value should be the sys\_id of the active user criteria. For more information, see [User criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md).
 
 Users with the admin and sn\_hr\_core.admin roles can assign the sn\_iar\_hr.digest\_link\_user role. This role is added to the available user criteria to validate if that user qualifies for digest link generation.
 

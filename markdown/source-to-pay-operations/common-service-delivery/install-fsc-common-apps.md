@@ -2,6 +2,7 @@
 title: Install the Finance and Supply Chain common applications
 description: Install Finance and Supply Chain common applications and its dependent plugins from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/common-service-delivery/install-fsc-common-apps.html
 release: yokohama
 product: Common Service Delivery
 classification: common-service-delivery
@@ -29,23 +30,23 @@ The following items are installed with the FSC common applications:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Finance Common Architecture](../../sourcing-procurement-operations/reference/installed-with-finance-common.md), [Components installed with Source-to-Pay Common Architecture](../../sourcing-procurement-operations/reference/components-installed-with-source-to-pay-common-architecture.md), and [Components installed with ERP Integration Framework](../../sourcing-procurement-operations/reference/installed-with-FSC-ERP.md).
+For more information, see [Components installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/installed-with-finance-common.md), [Components installed with Source-to-Pay Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-common-architecture.md), and [Components installed with ERP Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/installed-with-FSC-ERP.md).
 
 **Note:** Installing the SPO, SLO, or APO application also automatically installs the FSC common applications as dependent applications or plugins if they are not installed already.
 
 Install the following applications:
 
--   Install Sourcing and Procurement Operations. For more information on installation, see [Install Sourcing and Procurement Operations](../../sourcing-procurement-operations/task/activate-finance-spend-central.md) and [Install ShoppingHub Mobile](../../sourcing-procurement-operations/task/install-shoppinghub-mobile.md).
+-   Install Sourcing and Procurement Operations. For more information on installation, see [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md) and [Install ShoppingHub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/install-shoppinghub-mobile.md).
 
-    For more information on the required sequence for installing application plugins, see [Application plugin installation sequence in Sourcing and Procurement Operations](../../sourcing-procurement-operations/reference/application-plugin-list.md).
+    For more information on the required sequence for installing application plugins, see [Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md).
 
--   Install Supplier Lifecycle Operations. For more information on installation, see [Install Supplier Lifecycle Operations](../../supplier-lifecycle-operations/task/install-supp-mgmt.md) and [Install Supplier Collaboration Portal](../../supplier-lifecycle-operations/task/install-supp-central.md).
+-   Install Supplier Lifecycle Operations. For more information on installation, see [Install Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md) and [Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md).
 
-    For more information on the required sequence for installing application plugins, see [Application plugin installation sequence in Supplier Lifecycle Operations](../../supplier-lifecycle-operations/reference/slm-plugin-list.md).
+    For more information on the required sequence for installing application plugins, see [Application plugin installation sequence in Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.md).
 
--   Install Accounts Payable Operations. For more information on installation, see [Install Accounts Payable Invoice Processing](../../accounts-payable-operations/task/install-acc-pay-mgmt.md), [Install Invoice Case Management](../../accounts-payable-operations/task/install-invoice-case-mgmt.md) and [Install Accounts Payable Operations integration with Document Intelligence](../../accounts-payable-operations/concept/apm-integration-docintel.md).
+-   Install Accounts Payable Operations. For more information on installation, see [Install Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/install-acc-pay-mgmt.md), [Install Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.md) and [Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md).
 
-    For more information on the required sequence for installing application plugins, see [Application plugin installation sequence in Accounts Payable Operations](../../accounts-payable-operations/reference/application-plugin-installation-sequence-apo.md).
+    For more information on the required sequence for installing application plugins, see [Application plugin installation sequence in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/application-plugin-installation-sequence-apo.md).
 
 
 ## Procedure
@@ -71,12 +72,12 @@ Install the following applications:
 6.  Select **Install**.
 
 
--   **[Components installed with Finance Common Architecture](../../sourcing-procurement-operations/reference/installed-with-finance-common.md)**  
+-   **[Components installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/installed-with-finance-common.md)**  
 Several types of components are installed with the installation of the Finance Common Architecture application, including tables and user roles.
--   **[Components installed with Source-to-Pay Common Architecture](../../sourcing-procurement-operations/reference/components-installed-with-source-to-pay-common-architecture.md)**  
+-   **[Components installed with Source-to-Pay Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-common-architecture.md)**  
 Several types of components are installed with the installation of the Source-to-Pay Common Architecture application, including tables and user roles.
--   **[Components installed with ERP Integration Framework](../../sourcing-procurement-operations/reference/installed-with-FSC-ERP.md)**  
+-   **[Components installed with ERP Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/installed-with-FSC-ERP.md)**  
 Several types of components are installed with the installation of the ERP Integration Framework application, including tables and user roles.
 
-**Parent Topic:**[Configuring FSC common applications](../concept/config-fsc-common-apps.md)
+**Parent Topic:**[Configuring FSC common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/config-fsc-common-apps.md)
 

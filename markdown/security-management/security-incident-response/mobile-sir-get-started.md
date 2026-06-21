@@ -2,6 +2,7 @@
 title: Log in to the Security Incident Response Mobile app
 description: Open the Security Incident Response Mobile app and add a ServiceNow AI Platform instance with Security Incident Response to your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/mobile-sir-get-started.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -23,23 +24,23 @@ Role required: sn\_si.analyst
 
 Time to complete this task: 5-10 minutes.
 
-Verify that you have completed the setup steps described in [Set up checklist for the Security Incident Response Mobile app](mobile-sir-setupinstll-mobile-app.md).
+Verify that you have completed the setup steps described in [Set up checklist for the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.md).
 
 
 
-![Security Incident Response mobile landing page.](../image/mobile_landing-agent.jpg)
+\[Omitted image "mobile\_landing-agent.jpg"\] Alt text: Security Incident Response mobile landing page.
 
 ## Procedure
 
 1.  On your mobile device, tap the **ServiceNow Agent** app to open it.
 
-    ![ServiceNow Agent app.](../../vulnerability-response/image/mobile-agentapp-NY.png)
+    \[Omitted image "mobile-agentapp-NY.png"\] Alt text: ServiceNow Agent app.
 
     If you are not already logged in to a ServiceNow AI Platform instance, the Instances screen is displayed.
 
 2.  If the ServiceNow AI Platform instance with the Security Incident Response core application is not already added to your mobile device, follow these steps to add it.
 
-    1.  On the Instances screen that is displayed, tap the ![Plus icon.](../../vulnerability-response/image/mobile_instances_plus.png).
+    1.  On the Instances screen that is displayed, tap the \[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon..
 
         A screen is displayed that prompts you to enter and save an address of a ServiceNow AI Platform instance.
 

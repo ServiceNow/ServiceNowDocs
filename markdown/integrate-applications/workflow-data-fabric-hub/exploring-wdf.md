@@ -2,6 +2,7 @@
 title: Exploring Workflow Data Fabric Hub
 description: Discover how Workflow Data Fabric Hub unifies business and technology data from multiple sources, enabling centralized, real-time access to your enterprise data without copying it to your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/exploring-wdf.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -36,7 +37,7 @@ Workflow Data Fabric Hub provides a view where you can browse data source connec
 
 This infographic shows a sample end-to-end workflow of different users working together to gather requirements, establish a zero copy connection, and create a data fabric table in Workflow Data Fabric Hub.
 
-![Different users in an organization work together to define data requirements, establish a connection, and build data fabric tables for consumption. View the steps after the infographic for details.](../image/mmasset0020810-workflow-data-fabric-hub-workflow-horizontal.png "Creating zero copy connections and data fabric tables")
+\[Omitted image "mmasset0020810-workflow-data-fabric-hub-workflow-horizontal.png"\] Alt text: Different users in an organization work together to define data requirements, establish a connection, and build data fabric tables for consumption. View the steps after the infographic for details.
 
 In this workflow:
 
@@ -54,9 +55,9 @@ In this workflow:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Access real-time data from external sources directly, without copying any data to your instance.|[Zero copy connections](connections-wdf.md)|Connection admin|
-|Create a virtual representation of data from an outside source and make it accessible to data consumers on the instance as if it's stored locally.|[Data fabric tables](data-fabric-tables-wdf.md)|Data steward, data consumer|
-|Map internal or external data to a predefined data fabric table in an application using a zero copy connection.|[Data fabric tables included with applications](mapping-application-tables.md)|Instance admin, connection admin, data steward|
+|Access real-time data from external sources directly, without copying any data to your instance.|[Zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/connections-wdf.md)|Connection admin|
+|Create a virtual representation of data from an outside source and make it accessible to data consumers on the instance as if it's stored locally.|[Data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/data-fabric-tables-wdf.md)|Data steward, data consumer|
+|Map internal or external data to a predefined data fabric table in an application using a zero copy connection.|[Data fabric tables included with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/mapping-application-tables.md)|Instance admin, connection admin, data steward|
 
 ## Differences between Workflow Data Fabric Hub and Integration Hub
 
@@ -69,9 +70,9 @@ Choose whether to use Workflow Data Fabric Hub or Integration Hub to integrate w
 
 To learn more about configuring and using Workflow Data Fabric Hub, see:
 
--   [Configuring Workflow Data Fabric Hub](configuring-wdf.md)
--   [Managing zero copy connections in Workflow Data Fabric Hub](managing-connections-wdf.md)
--   [Managing data fabric tables in Workflow Data Fabric Hub](managing-data-fabric-tables-wdf.md)
--   [Accessing real-time data in applications](mapping-application-tables.md)
--   [Workflow Data Fabric Hub reference](../reference/wdf-reference.md)
+-   [Configuring Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/configuring-wdf.md)
+-   [Managing zero copy connections in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.md)
+-   [Managing data fabric tables in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/managing-data-fabric-tables-wdf.md)
+-   [Accessing real-time data in applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/mapping-application-tables.md)
+-   [Workflow Data Fabric Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/wdf-reference.md)
 

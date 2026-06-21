@@ -2,6 +2,7 @@
 title: View all versions of an article
 description: View a list of all available versions for a selected knowledge article and then view the selected version in a new tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/view-all-article-versions.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

@@ -2,6 +2,7 @@
 title: Telecom Discovery using Telecommunications Discovery Patterns
 description: The new Telecommunication Discovery Patterns \(also known as TSOM Patterns\) include patterns for discovering standalone xNFs, enabling the discovery of standalone network elements without a management system, using SNMP, CLI, and NETCONF \(roadmap\) protocols.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-telecommunication-discovery-pattern.html
 release: yokohama
 product: Telecom Visibility
 classification: telecom-visibility
@@ -17,13 +18,13 @@ The new Telecommunication Discovery Patterns \(also known as TSOM Patterns\) inc
 
 ## Architecture using Horizontal Discovery and Telecommunications Discovery Patterns
 
-This is an example of the implementation for standalone SNMP or/and CLI xNFs.![discovery and telecommunications discovery pattern.](../images/telecom-discovery-reconciliation-pattern.png)
+This is an example of the implementation for standalone SNMP or/and CLI xNFs.\[Omitted image "telecom-discovery-reconciliation-pattern.png"\] Alt text: discovery and telecommunications discovery pattern.
 
 ## Horizontal Discovery Application
 
 The Horizontal Discovery application in ServiceNow is a versatile and highly scalable discovery engine designed to operate effectively across network, IT, and cloud environments, collecting data across multiple layers to provide a holistic view of the infrastructure.
 
-For more information, see [Horizontal discovery process flow with patterns](https://www.servicenow.com/docs/access?context=disco-process-flow-patterns&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US).
+For more information, see .
 
 ## Telecommunications Discovery Patterns \(TSOM Patterns\)
 
@@ -35,19 +36,19 @@ This plugin introduces Patterns for discovering standalone xNFs, such as telecom
 
 MID Server is a Java application that runs as a Windows service or UNIX daemon on a server within your local network. The ServiceNow® MID Server facilitates communication and data transfer between a ServiceNow instance and external applications, data sources, and services.
 
-For more information, see [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For more information, see .
 
 ## Identification &amp; Reconciliation Engine \(IRE\)
 
 IRE offers a centralized framework for identifying and reconciling data from multiple sources. It verifies the integrity of the CMDB and some non-CMDB tables when various data sources are used to create or update CI records.
 
-For more information, see [Telecom Discrepancy Identification and Reconciliation](telecom-reconciliation.md).
+For more information, see [Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-reconciliation.md).
 
 ## CMDB Compliance Certification Audits for Telecom Discrepancy Identification &amp; Reconciliation
 
 CMDB Compliance is a toolset that enables administrators to certify CMDB data for accuracy and resolve any discrepancies found. In Telecom Discrepancy Identification &amp; Reconciliation, we use the Certification Audits feature to discover and analyze discrepancies in the CMDB, generate Certification Follow-on Tasks, and enable remediation workflows.
 
-For more information on how it’s used for Discrepancy Identification &amp; Reconciliation, see [Telecom Discrepancy Identification and Reconciliation](telecom-reconciliation.md).
+For more information on how it’s used for Discrepancy Identification &amp; Reconciliation, see [Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-reconciliation.md).
 
 ## ITOM vs TSOM Discovery Behavior for Stand-alone SNMP or/and CLI xNFs
 
@@ -76,18 +77,18 @@ This logic is controlled via the system property: sn\_tsom\_patterns.itom\_patte
 
 **TNI entity creation logic** – Whenever the system identifies that the customer has TNI installed, it will automatically create a TNI entity record for all network data discovered. If TNI is installed, a payload like the one below will be added to the IRE payload for each item. As a result, the discovered CI is in both the cmdb\_ci and tni\_entity tables.
 
--   **[Telecom Router Pattern](telecom-router-pattern.md#)**  
+-   **[Telecom Router Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-router-pattern.md)**  
 The ServiceNow® Telecom Discovery application uses the Telecom Router discovery pattern to find SNMP-based routers in the network. Discovering some of these resources requires updating the Telecommunications Discovery Patterns \(TSOM Patterns\) from the ServiceNow Store.
--   **[Telecom Cisco 7613 Router Pattern](telecom-cisco7613-router-pattern.md#)**  
+-   **[Telecom Cisco 7613 Router Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-cisco7613-router-pattern.md)**  
 The ServiceNow Telecom Discovery application uses the Telecom Cisco 7613 Router discovery pattern to find SNMP-based Cisco 7613 in the network. Discovering some of these resources requires updating the Telecommunications Discovery Patterns \(TSOM Patterns\) from the ServiceNow Store.
--   **[Telecom Juniper MX SSH Router Pattern](telecom-juniper-mx-ssh-router-pattern.md#)**  
+-   **[Telecom Juniper MX SSH Router Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-juniper-mx-ssh-router-pattern.md)**  
 The ServiceNow® Telecom Discovery application uses the Telecom Juniper MX SSHRouter discovery pattern to find SNMP and CLI -based Juniper MX Series routers in the network. Discovering some of these resources requires updating the Telecommunications Discovery Patterns \(TSOM Patterns\) from the ServiceNow® store.
--   **[Telecom Cisco Switch Pattern](telecom-cisco-switch-pattern.md#)**  
+-   **[Telecom Cisco Switch Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-cisco-switch-pattern.md)**  
 The ServiceNow® Telecom Discovery application uses the Telecom Cisco Switch discovery pattern to find SNMP-based Cisco switches in the network. Discovering some of these resources requires updating the Telecommunications Discovery Patterns \(TSOM Patterns\) from the ServiceNow® Store.
--   **[Telecom Switch Pattern](telecom-switch-pattern.md#)**  
+-   **[Telecom Switch Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-switch-pattern.md)**  
 The ServiceNow® Telecom Discovery application uses the Telecom Switch discovery pattern to find SNMP-based Telecom switches in the network. Discovering some of these resources requires updating the Telecommunications Discovery Patterns \(TSOM Patterns\) from the ServiceNow® Store.
--   **[Configure Telecommunications Discovery \(TSOM\) Patterns](configuring-telecommunications-discovery-patterns.md#)**  
+-   **[Configure Telecommunications Discovery \(TSOM\) Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/configuring-telecommunications-discovery-patterns.md)**  
 This document outlines the dependencies, requirements, and installation steps necessary for setting up Telecommunications Discovery Patterns \(also known as TSOM Patterns\) in TSOM Visibility in ServiceNow®.
 
-**Parent Topic:**[Exploring Telecom Discovery](exploring-telecom-discovery.md)
+**Parent Topic:**[Exploring Telecom Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/exploring-telecom-discovery.md)
 

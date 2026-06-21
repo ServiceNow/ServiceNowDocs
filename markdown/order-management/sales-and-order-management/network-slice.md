@@ -2,13 +2,14 @@
 title: Managing the orders for a 5G sliced network
 description: By using the Order Management application, a communication service provider \(CSP\) can define the 5G services in the catalog and manage the creation and fulfillment of these orders for a sliced network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/network-slice.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Order Management, Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Order Management, Explore, Sales Customer Relationship Management]
 ---
 
 # Managing the orders for a 5G sliced network

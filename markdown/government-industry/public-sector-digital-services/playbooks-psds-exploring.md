@@ -1,0 +1,58 @@
+---
+title: Playbooks for Public Sector Digital Services
+description: A playbook provides government service agents with step-by-step guidance through the life cycle of a public service request case. Use Playbooks to fulfill requests for licenses and permits, government records and other public information, or non-emergency service requests.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/public-sector-digital-services/playbooks-psds-exploring.html
+release: yokohama
+product: Public Sector Digital Services
+classification: public-sector-digital-services
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Explore, Public Sector Digital Services \(PSDS\)]
+---
+
+# Playbooks for Public Sector Digital Services
+
+A playbook provides government service agents with step-by-step guidance through the life cycle of a public service request case. Use Playbooks to fulfill requests for licenses and permits, government records and other public information, or non-emergency service requests.
+
+A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete.
+
+\[Omitted image "lpr-example.png"\] Alt text: License Permit Playbook.
+
+By using a playbook, you can visualize the entire life cycle of the public service case workflow. With a playbook, you can:
+
+-   View the playbook stages and activities.
+-   Select an activity and perform the work to complete that activity.
+-   Mark an activity as complete and move to the next activity or stage.
+-   Complete the stages and activities to resolve the case.
+
+\[Omitted image "lpr-example.png"\] Alt text: License Permit Playbook.
+
+The following applications are available with Public Sector Digital Services that enable you to create and use playbooks:
+
+-   **Grants Management**
+
+    Grants Proposal Playbook: Provides an end-to-end workflow for constituents to submit proposals for grants offered by a government service agency.
+
+-   **Social Benefits Playbook**
+
+    Provides an end-to-end workflow for handling applications for social benefit programs submitted by public sector end users.
+
+-   **License and Permit Playbook**
+
+    Provides an end-to-end workflow for handling license and permit requests submitted by public sector end users.
+
+-   **Information Request Playbook**
+
+    Provides an end-to-end workflow for handling public record and information requests submitted by public sector end users.
+
+-   **Service Request Playbook**
+
+    Provides an end-to-end workflow for handling non-emergency service requests submitted by public sector end users.
+
+
+The corresponding playbook for each case type automatically appears in the **Playbook** tab when an agent creates a public service request case in the CSM Configurable Workspace, or when a constituent puts in a request through the Government Service Portal.
+
+To learn more about playbooks, see [Using Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/public-sector-digital-services/psds-using-playbooks-overview.md).
+

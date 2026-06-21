@@ -2,6 +2,7 @@
 title: Configure Major Security Incident status reports
 description: Configure major security incident reports to set up and download the reports according to your business needs throughout the life cycle of the major security incident record remediation process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -48,7 +49,7 @@ The Executive Status Reports - Email are mobile-friendly status reports that are
 
 Customize and configure the following report template features to add additional information to the report. A sample executive email status report is shown below for your reference.
 
-![Executive Status Report Email](../image/msim-executive-report-email.png "Executive Status Report Email")
+\[Omitted image "msim-executive-report-email.png"\] Alt text: Executive Status Report Email
 
 ## Executive Status Reports - PDF
 
@@ -56,7 +57,7 @@ The Executive Status Reports - PDF are status reports that are generated in PDF 
 
 Customize and configure the following report template features to add additional information to the report. A sample executive report is shown below for your reference.
 
-![Executive Status Report PDF](../image/executive-reports-01.png "Executive Status Report PDF")
+\[Omitted image "executive-reports-01.png"\] Alt text: Executive Status Report PDF
 
 ## Technical Status Reports - PDF
 
@@ -64,25 +65,25 @@ The Technical Status Reports - PDF are status reports that are generated in PDF 
 
 Customize and configure the report template to add additional information to the report. A sample technical report that shows the additional information, such as the incident impact, is illustrated below for your reference, and the remaining part of the report information is similar to the executive reports.
 
-![Technical Status Report PDF](../image/msim-technical-status-report.png "Technical Status Report - PDF")
+\[Omitted image "msim-technical-status-report.png"\] Alt text: Technical Status Report PDF
 
 The report template sections contain various subsections, which describe how you can construct the report subsections and its elements such as:
 
-1.  Branding: [Add Branding to your Report Templates](../task/add-branding-to-your-report-templates.md)
-2.  Template Scripts: [Use Template Scripts in your Report Templates](../task/using-template-scripts-in-your-report-templates.md)
-3.  [Use Visualizations in Report Templates](../task/using-widgets-in-your-report-templates.md)
-4.  [Use Reports Lists in Report Templates](../task/using-reports-lists-in-your-report-templates.md)
+1.  Branding: [Add Branding to your Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/add-branding-to-your-report-templates.md)
+2.  Template Scripts: [Use Template Scripts in your Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/using-template-scripts-in-your-report-templates.md)
+3.  [Use Visualizations in Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/using-widgets-in-your-report-templates.md)
+4.  [Use Reports Lists in Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/using-reports-lists-in-your-report-templates.md)
 
--   **[Create a Report Template](../task/create-report-template.md)**  
+-   **[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-report-template.md)**  
 Create various report templates, which can be applied to the major security incidents and generate a status report. You can add standard and custom Major Security Incident Response form fields to the report template that are dot-walkable. In addition, you can format and configure the report based on your requirements using sections, subsections, and its elements.
--   **[Create a Report Section Template](../task/create-report-section-template.md)**  
+-   **[Create a Report Section Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-report-section-template.md)**  
 A report can further be divided into various sections. Use the Report section to break down the report into multiple sections and reorganize them in order.
--   **[Create a Report Subsection Template](../task/create-report-subsection-template.md)**  
+-   **[Create a Report Subsection Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-report-subsection-template.md)**  
 Use the report subsection to further organize the section into multiple subsections and configure their alignment and position using the available types such as Text side panel, Primary, and Secondary.
--   **[Create Report Subsection Element template](../task/create-report-subsection-element-template.md)**  
+-   **[Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-report-subsection-element-template.md)**  
 Use subsection elements to further organize a subsection into multiple elements. Subsection elements help define visualizations, lists, free-form text more declaratively with filter options such as assignment groups and labels.
--   **[Add system properties](adding-system-properties-to-your-status-reports.md)**  
+-   **[Add system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/adding-system-properties-to-your-status-reports.md)**  
 Add system properties to control MSIM application behavior. Following are the default system properties that are introduced as part of the Major Security Incident Management status reports.
 
-**Parent Topic:**[Managing MSIM status reports](reports-and-metrics.md)
+**Parent Topic:**[Managing MSIM status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/reports-and-metrics.md)
 

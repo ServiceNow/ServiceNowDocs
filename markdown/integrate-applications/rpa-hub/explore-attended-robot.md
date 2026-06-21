@@ -2,6 +2,7 @@
 title: Exploring Attended Robot
 description: Learn about the Attended Robot features that enable you to run attended automations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/explore-attended-robot.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -30,6 +31,6 @@ Attended automations are typically triggered manually.
 
 To learn more about configuring and using Attended Robot, see:
 
--   [Configuring Attended Robot](../../rda-runtime/concept/rda-runtime-setup.md)
--   [Using Attended Robot](../../rda-runtime/concept/using-rda-runtime.md)
+-   [Configuring Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rda-runtime-setup.md)
+-   [Using Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/using-rda-runtime.md)
 

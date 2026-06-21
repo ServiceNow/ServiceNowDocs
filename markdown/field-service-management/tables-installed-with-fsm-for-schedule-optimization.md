@@ -2,7 +2,10 @@
 title: Tables installed with FSM for Schedule Optimization
 description: The following tables are installed with the Field Service Management plugin, but are only used by Schedule Optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/tables-installed-with-fsm-for-schedule-optimization.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -50,5 +53,5 @@ Captures agent/task events from the following pre-defined triggers:-   PTO submi
 Relates a group or territory to an intraday job
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Schedule Optimization components](schedule-optimization-components.md)
+</table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-components.md)
 

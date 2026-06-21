@@ -2,6 +2,7 @@
 title: Create or modify an appointment booking slot recommendation rule
 description: Appointment booking slot recommendation rules help you highlight the best appointment slots for your customers. Using these rules, you can categorize available appointment slots as recommended or available based on conditions you define, such as proximity, resource availability, or customer preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/create-or-modify-an-appointment-booking-slot-recommendation-rule.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -105,5 +106,5 @@ Your appointment booking slot recommendation rule is created or updated. Appoint
 
 ## What to do next
 
-Enhance appointment booking by adding selection criteria to your recommendation rules. Selection criteria help determine the best appointment slots to recommend to your customers, ensuring optimal scheduling based on factors like proximity, skill availability, or travel time. For more information, see [Add selection criteria for an appointment slot recommendation rule](add-selection-criteria-for-an-appointment-slot-recommendation-rule.md).
+Enhance appointment booking by adding selection criteria to your recommendation rules. Selection criteria help determine the best appointment slots to recommend to your customers, ensuring optimal scheduling based on factors like proximity, skill availability, or travel time. For more information, see [Add selection criteria for an appointment slot recommendation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/add-selection-criteria-for-an-appointment-slot-recommendation-rule.md).
 

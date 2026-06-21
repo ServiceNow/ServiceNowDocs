@@ -2,6 +2,7 @@
 title: Limitations of Python script in Python connector
 description: The limitations of the Python script in the Python connector are as follows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/python-script-limitations-rpa.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -74,5 +75,5 @@ Mention the top level code within the script. For example, `if __name__ == "__ma
 
 The method or function is imported from the module into the internal script. When importing, it's necessary to guard the top-level execution with `__name__` to ensure it understands whether the execution is from an import or a direct run. For more information, see [\_\_main\_\_ — Top-level code environment](https://docs.python.org/3/library/__main__.html).
 
-**Parent Topic:**[Python connector](../concept/python-connector-rpa.md)
+**Parent Topic:**[Python connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/python-connector-rpa.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Invoice Case Management
 description: Several types of components are installed with activation of the Invoice Case Management plugin, including user roles, scheduled jobs, and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -101,7 +102,7 @@ Create Inquiry Case on Invoice email
 
 </td><td>
 
-Creates an invoice inquiry case from the information in an inbound email.You must activate the flow to use it. For information on how to activate the flow, see [Activate the Create Inquiry Case on Invoice email flow](../task/activate-inquiry-email-flow.md).
+Creates an invoice inquiry case from the information in an inbound email.You must activate the flow to use it. For information on how to activate the flow, see [Activate the Create Inquiry Case on Invoice email flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/activate-inquiry-email-flow.md).
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -131,8 +132,8 @@ Invoice task \[sn\_ap\_cm\_ap\_task\]
 Extends the Service Task table. Stores the invoice task records.
 
 </td></tr></tbody>
-</table>-   **[Activate the Create Inquiry Case on Invoice email flow](../task/activate-inquiry-email-flow.md)**  
+</table>-   **[Activate the Create Inquiry Case on Invoice email flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/activate-inquiry-email-flow.md)**  
 Activate the **Create Inquiry Case on Invoice email** flow to automatically create an invoice inquiry case based on the information in an inbound email.
 
-**Parent Topic:**[Install Invoice Case Management](../task/install-invoice-case-mgmt.md)
+**Parent Topic:**[Install Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.md)
 

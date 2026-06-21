@@ -2,6 +2,7 @@
 title: Link Alexa events using the macOS Terminal
 description: Link Alexa events using your macOS Terminal to complete the Alexa account linking process with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/link-alexa-mac-terminal.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent

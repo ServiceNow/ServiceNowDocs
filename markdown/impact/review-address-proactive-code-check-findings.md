@@ -2,7 +2,10 @@
 title: Proactive Code Check analytics
 description: Platform Owners use Proactive Code Check to track compliance against coding best practices and organizational standards. Owners can review detailed findings and audit the status of issues that were uncovered during the scan. Historical data is available up to six months.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/review-address-proactive-code-check-findings.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-02-12"
 reading_time_minutes: 1
@@ -29,17 +32,17 @@ Role required: Impact\_platform\_owner, sn.mif\_mif\_read
 
     The Proactive Code Check overview displays with data from the last 30 days.
 
-    ![The PCC analytics page with findings summaries displayed.](../image/pcc-analytics.png)
+    \[Omitted image "pcc-analytics.png"\] Alt text: The PCC analytics page with findings summaries displayed.
 
 2.  Select **View Dashboard** to view additional information about the scans.
 
     -   Filter by instances or by time period.
-    -   The Prevented findings charts display metrics related to findings that were resolved prior to moving an update set to a production completed status.![Chart of the findings that were prevented in non-production update sets.](../image/pcc-dashboard-prevented-findings.png)
-    -   The Unresolved findings section displays metrics related to findings that remained open after an update set was moved to a production completed status.![Chart of the findings that were unresolved in non-production update sets.](../image/pcc-dashboard-unresolved-findings.png)
+    -   The Prevented findings charts display metrics related to findings that were resolved prior to moving an update set to a production completed status.\[Omitted image "pcc-dashboard-prevented-findings.png"\] Alt text: Chart of the findings that were prevented in non-production update sets.
+    -   The Unresolved findings section displays metrics related to findings that remained open after an update set was moved to a production completed status.\[Omitted image "pcc-dashboard-unresolved-findings.png"\] Alt text: Chart of the findings that were unresolved in non-production update sets.
     -   Compare Trends in Resolved vs. Unresolved Findings.
 3.  Select **View all findings** to view all findings related to Proactive Code Check.
 
-    ![List of all findings detected.](../image/pcc-all-findings-table.png)
+    \[Omitted image "pcc-all-findings-table.png"\] Alt text: List of all findings detected.
 
     -   View All Findings Across Instances.
     -   Filter and Group Findings by Severity, Type, or Check.
@@ -55,5 +58,5 @@ Role required: Impact\_platform\_owner, sn.mif\_mif\_read
         |Count of Findings Muted|Muted and Updated on Today|
 
 
-**Parent Topic:**[Impact Proactive Code Check](proactive-code-check.md)
+**Parent Topic:**[Impact Proactive Code Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check.md)
 

@@ -2,6 +2,7 @@
 title: Use the Typo Squatted Domain playbook
 description: Use this playbook to investigate misspelled domains and collaborating with the organization’s legal department for take-downs. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Typo Squatted Domain playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/playbook-using-typo-squatted-domain.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -34,7 +35,7 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  In Action 3, you need to attach the screenshot of the Typo Squatted domain to the security incident.
 
-    ![Response tasks to check if the observables are added to the security incident.](../image/playbook-typo-squatted-observables.png "Typo Squatted Domain playbook")
+    \[Omitted image "playbook-typo-squatted-observables.png"\] Alt text: Response tasks to check if the observables are added to the security incident.
 
 4.  In Action 4, you need to attach the Whois information to the security incident.
 
@@ -48,10 +49,10 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     If this isn’t a case of Typo Squatted domain, a manual response task is created in Action 5 and the flow ends.
 
-    ![Response tasks if this is a case of Typo Squatted Domain](../image/playbook-typo-squatted-response.png "Case of Typo Squatted Domain")
+    \[Omitted image "playbook-typo-squatted-response.png"\] Alt text: Response tasks if this is a case of Typo Squatted Domain
 
 8.  In Action 9, a response task is created for you to complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Typo Squatted Domain](../concept/playbook-typo-squatted-domain.md)
+**Parent Topic:**[Playbook for Typo Squatted Domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-typo-squatted-domain.md)
 

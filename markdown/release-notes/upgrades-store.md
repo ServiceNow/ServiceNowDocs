@@ -2,6 +2,7 @@
 title: Upgrades and the ServiceNow Store
 description: The ServiceNow Store includes official applications that are developed and released by ServiceNow. Users can download, access, and configure Yokohama apps on their instances. Store application versions can be upgraded when you upgrade your instance to a new release version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrades-store.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"

@@ -2,6 +2,7 @@
 title: Single field group form
 description: The Single field group form enables you to define a related group of single fields for extraction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/document-intelligence/single-field-group-form.html
 release: yokohama
 product: Document Intelligence
 classification: document-intelligence
@@ -71,7 +72,7 @@ Option to make the field as required.
 
  If it’s a reference field type, the required field must have a valid, exact match. By default, DocIntel uses the first matched record.
 
- Required fields affect how document tasks are processed in the Fully automated extraction mode. For more information, see [Configure data extraction modes](../task/configure-data-extraction-modes.md).
+ Required fields affect how document tasks are processed in the Fully automated extraction mode. For more information, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/configure-data-extraction-modes.md).
 
 </td></tr><tr class="sub-head"><td>
 
@@ -97,7 +98,7 @@ Type
 
 The type of the field. For example, a text or date field.
 
- Some field types convert the extracted value into a standard format. For more information, see [Data normalization](../concept/data-normalization.md).
+ Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/data-normalization.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Select Target Field
 
 Field on the target table that you want to align this field with.
 
- This field is used for integration with other applications. For more information, see [Integrate with a custom application or workflow](../task/configure-integration-setup.md).
+ This field is used for integration with other applications. For more information, see [Integrate with a custom application or workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/configure-integration-setup.md).
 
 </td></tr><tr><td>
 
@@ -151,7 +152,7 @@ Reference column
 
 The column in the reference table that contains the referenced data.
 
- DocIntel uses the reference column to find data that matches the extracted field value when processing a document task. The field value is then converted to the format of the reference. For more information on converted values, see [Data normalization](../concept/data-normalization.md).
+ DocIntel uses the reference column to find data that matches the extracted field value when processing a document task. The field value is then converted to the format of the reference. For more information on converted values, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/data-normalization.md).
 
  This field is available when the **Type** field is set to `Reference field`.
 
@@ -177,7 +178,7 @@ Option to make a field required.
 
  If it’s a reference field type, the required field must have a valid, exact match. By default, DocIntel uses the first matched record.
 
- Required fields affect how document tasks are processed in the Fully automated extraction mode. For more information, see [Configure data extraction modes](../task/configure-data-extraction-modes.md).
+ Required fields affect how document tasks are processed in the Fully automated extraction mode. For more information, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/configure-data-extraction-modes.md).
 
 </td></tr><tr><td>
 
@@ -200,7 +201,7 @@ New single field
 
 Option to add a field to the group.
 
- Use the reorder icon \(![Reorder icon.](../image/icon-docintel-drag.png)\) to reorder a field in the group.
+ Use the reorder icon \(\[Omitted image "icon-docintel-drag.png"\] Alt text: Reorder icon.\) to reorder a field in the group.
 
 </td></tr><tr><td>
 
@@ -211,5 +212,5 @@ Create multiple field groups
 Option to keep the pop-up window displayed on the screen. Enable this option if you're adding more than one single field group to the use case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Document Intelligence forms](document-intelligence-forms.md)
+</table>**Parent Topic:**[Document Intelligence forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-forms.md)
 

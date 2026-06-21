@@ -2,6 +2,7 @@
 title: Using Now Assist for WSD
 description: Using Now Assist for Workplace Service Delivery \(WSD\) for creating a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-using.html
 release: yokohama
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -27,10 +28,10 @@ It allows employees the following:
 -   Adding a Zoom meeting link for remote joining
 -   Ordering and adding catering services
 
--   **[Reserve a space using Now Assist in Virtual Agent](../task/wsd-reserve-a-space-now-assist-va.md)**  
+-   **[Reserve a space using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/wsd-reserve-a-space-now-assist-va.md)**  
 The Reserve Space Virtual Agent topic enables you to create a reservation using Now Assist for Workplace Service Delivery \(WSD\). You can also add services to your reservation.
--   **[Review notifications in the Now Assist panel](../task/agentic-workflow-notifications-nowassist.md)**  
+-   **[Review notifications in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md)**  
 Review notifications by AI agents in the Now Assist panel.
 
-**Parent Topic:**[Now Assist for Workplace Service Delivery \(WSD\)](now-assist-wsd-landing.md)
+**Parent Topic:**[Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 

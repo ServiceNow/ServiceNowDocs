@@ -2,6 +2,7 @@
 title: Configure statistics processing period
 description: Set the time period, in seconds, for collecting event processing statistics. For example, you can set a time period twice as long as the default 60 seconds to collect more statistics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/add-property-statistics-processing-period.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -45,10 +46,10 @@ Use the **evt\_mgmt.enable\_event\_processing\_stats** property to configure the
         |Write roles|Roles that have write access to this property.|
 
 
-**Parent Topic:**[View event processing statistics](monitor-event-processing-metrics.md)
+**Parent Topic:**[View event processing statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/monitor-event-processing-metrics.md)
 
 **Related topics**  
 
 
-[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 

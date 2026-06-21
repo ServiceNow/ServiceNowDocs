@@ -2,6 +2,7 @@
 title: Create dashboard categories
 description: Dashboard categories users to filter the dashboards in the dashboard overview on terms or phrases describing the dashboard as provided by its creator or the analytics\_categories\_admin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/db-categories-create.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -19,7 +20,7 @@ Role required: analytics\_categories\_admin
 
 ## Procedure
 
-1.  Select the Application scope icon \(![Application scope icon](../../../administer/virtual-agent/images/icon-scope.png)\) and choose the scope the category should apply to.
+1.  Select the Application scope icon \(\[Omitted image "icon-scope.png"\] Alt text: Application scope icon\) and choose the scope the category should apply to.
 
     The default application scope is Global.
 
@@ -27,7 +28,7 @@ Role required: analytics\_categories\_admin
 
     You can also select **Create new category** in the Details window of a dashboard in Edit mode to open the Category New record form.
 
-    ![Dashboard category section of dashboard information panel](../image/db-create-new-category.png)
+    \[Omitted image "db-create-new-category.png"\] Alt text: Dashboard category section of dashboard information panel
 
 3.  Select **New**.
 

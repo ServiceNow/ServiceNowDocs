@@ -2,6 +2,7 @@
 title: Create a growth plan from an aspiration
 description: Create a growth plan based on one of your aspirations to help you move towards a new role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/egd-create-growth-plan-new-role.html
 release: yokohama
 product: Talent Development Core
 classification: talent-development-core
@@ -58,5 +59,5 @@ The draft growth plan is created and will be shared with your manager once the p
 -   Review your progress.
 -   Continue to edit your growth plan.
 
-**Parent Topic:**[Using the Talent Development Core application](../concept/egd-use.md)
+**Parent Topic:**[Using the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-use.md)
 

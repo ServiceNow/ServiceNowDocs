@@ -2,7 +2,10 @@
 title: Remove Impact user permissions
 description: Remove permissions that you've assigned to an Impact user if that user should no longer have access to Impact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/remove-impact-user-permissions.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ Role required: Impact admin
 
 6.  Edit the user role to **None**.
 
-    **Note:** Refer to [User roles in Impact](../reference/impact-roles.md) for details on which role to assign to the user for the appropriate access level in Impact.
+    **Note:** Refer to [User roles in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-roles.md) for details on which role to assign to the user for the appropriate access level in Impact.
 
 7.  Select **Confirm**.
 

@@ -2,6 +2,7 @@
 title: Finance and Supply Chain common applications
 description: Finance and Supply Chain \(FSC\) enhances operational efficiency by utilizing shared applications across multiple products and workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/common-service-delivery/fsc-common-apps.html
 release: yokohama
 product: Common Service Delivery
 classification: common-service-delivery
@@ -30,9 +31,9 @@ Finance and Supply Chain includes the following common applications:
 -   Source-to-Pay Integration Framework \[sn\_spend\_intg\]
 -   Supplier Common Architecture \[snc.sn\_slm\]
 
-To learn more about each application, see [Exploring FSC common applications](explore-fsc-common-apps.md).
+To learn more about each application, see [Exploring FSC common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/explore-fsc-common-apps.md).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

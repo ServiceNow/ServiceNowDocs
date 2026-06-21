@@ -2,6 +2,7 @@
 title: Request Ad Hoc Approval activity
 description: Enable agents and fulfillers to specify which user\(s\) should complete approval request\(s\) during a playbook run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/request-adhoc-approval-activity.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ These activities are available as an application in the ServiceNow Store. Users 
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_asm_m4j_35b"><thead><tr><th>
 
@@ -97,7 +98,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](start-with-delay-properties.md).**Note:** **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -153,5 +154,5 @@ Associated record for the approval requests.
 -   Records of your approval requests.
 -   The states of your approval requests.
 
-**Parent Topic:**[Interactive activities](../concept/interactive-activities.md)
+**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/interactive-activities.md)
 

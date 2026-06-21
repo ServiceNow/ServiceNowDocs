@@ -2,11 +2,12 @@
 title: Source-to-Pay Integration with 3CLogic
 description: Integrating Source-to-Pay Operations with 3CLogic provides omnichannel experience and self-service features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-3clogic.html
 release: yokohama
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---

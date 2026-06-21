@@ -2,6 +2,7 @@
 title: Associate existing RIDAC records for a project in Project Workspace
 description: Link existing RIDAC records to one another for your project in Project Workspace. A RIDAC record stands for Risks, Issues, Actions, Decisions, and Request Changes. Keep a record of risks or issues and their outcome for analysis at project closure and planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/associate-ridac-project-workspace.html
 release: yokohama
 product: Project Workspace
 classification: project-workspace
@@ -27,17 +28,17 @@ You can associate one record with multiple different records. For example, you c
 
 1.  Select the project for which you want to associate one RIDAC entry to another.
 
-    For information on how to navigate to a Project in the Project Workspace, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information on how to navigate to a Project in the Project Workspace, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
 
-    ![L2 menu](../image/ridac-list.png)
+    \[Omitted image "ridac-list.png"\] Alt text: L2 menu
 
 3.  On the Project form, select **Row context menu** for an individual risk, issue, decision, action, or request change record.
 
 4.  Select **Associate RIDAC**.
 
-    ![Associate RIDAC records in Project Workspace](../image/associate-RIDAC-list.png)
+    \[Omitted image "associate-RIDAC-list.png"\] Alt text: Associate RIDAC records in Project Workspace
 
 5.  On the Associate dialog box, from the Select type list, select the RIDAC record to which you want to associate the selected record.
 
@@ -50,5 +51,5 @@ You can associate one record with multiple different records. For example, you c
 7.  Click **OK**.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-projects-pw.md)
 

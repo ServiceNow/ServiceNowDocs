@@ -2,6 +2,7 @@
 title: Complete a legal matter task
 description: When you finish working on an assigned matter task, mark the task as complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-matter-management/complete-matter-task.html
 release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
@@ -23,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **My Work**, click **Tasks to do**.
 

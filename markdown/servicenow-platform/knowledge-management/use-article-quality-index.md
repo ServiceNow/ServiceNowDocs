@@ -2,6 +2,7 @@
 title: Use Article Quality Index
 description: Use article quality index \(AQI\) to assess the quality of knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/use-article-quality-index.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

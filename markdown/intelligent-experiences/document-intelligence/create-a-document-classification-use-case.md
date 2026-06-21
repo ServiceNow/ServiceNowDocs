@@ -2,6 +2,7 @@
 title: Create a document classification use case
 description: Create a use case record to begin defining the classes or categories that you want to apply to a type of document or pages within the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/document-intelligence/create-a-document-classification-use-case.html
 release: yokohama
 product: Document Intelligence
 classification: document-intelligence
@@ -95,5 +96,5 @@ DocIntel shows a warning for empty fields and auto-filled fields with a confiden
 
 ## What to do next
 
-After creating a use case, finish setting it up by adding fields to [create document classes](create-document-classes.md). Then, [train the use case](train-a-use-case.md).
+After creating a use case, finish setting it up by adding fields to [create document classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/create-document-classes.md). Then, [train the use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/train-a-use-case.md).
 

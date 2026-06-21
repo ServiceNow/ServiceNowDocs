@@ -2,7 +2,10 @@
 title: Context inputs in Recommended Actions
 description: A context input enables you to associate entities beyond just the context table with a context ensuring that recommendations are updated dynamically as the context evolves.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-csm-dynamic-context-inputs.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-02"
 reading_time_minutes: 3
@@ -34,7 +37,7 @@ The following data types are supported for a context input:
 
 Configuring a context using context inputs includes the following steps:
 
--   Creating a context input. For more information on how to create a context input, see [Create a context input in Recommended Actions](../task/ra-csm-create-context-inputs.md).
+-   Creating a context input. For more information on how to create a context input, see [Create a context input in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-create-context-inputs.md).
 
     **Note:**
 
@@ -45,7 +48,7 @@ Configuring a context using context inputs includes the following steps:
     -   rules by using it in the condition builder on Rules form.
     -   recommendations by adding it in fields of the Action inputs section on Recommendations form.
     -   resource generators by adding it in the fields of Generator inputs section on Resource Generators form.
--   Adding the JSON-format of the context inputs to the Recommended Actions component for the required record pages in the UI Builder. For more information, see [Configuring Recommended Actions UIB component for context inputs](ra-csm-dynamic-context-inputs.md#section-config-ra-ci).
+-   Adding the JSON-format of the context inputs to the Recommended Actions component for the required record pages in the UI Builder. For more information, see [Configuring Recommended Actions UIB component for context inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-dynamic-context-inputs.md).
 
 The context inputs appear along with the context table in the appropriate fields of Rule, Recommendation and Resource generator forms so that you can include the data other than that of the context table to update the recommendations.
 

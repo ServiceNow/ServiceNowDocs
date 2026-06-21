@@ -2,6 +2,7 @@
 title: Exploring Creator Studio
 description: Creator Studio makes creating apps easier by dividing their creation into simple steps. In this section, we'll explain each one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/exploring-creator-studio.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
@@ -41,7 +42,7 @@ Creator Studio stores requests in a table. Each row in that table is a request. 
 
 How do people enter requests that eventually get stored in the app's table? They use your app to fill out a form. The questions on the form contain the information your fulfiller needs.
 
-In our app's table, questions are stored as part of the [record](creator-studio-glossary.md#), which is composed of all the information on the form.
+In our app's table, questions are stored as part of the [record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-glossary.md), which is composed of all the information on the form.
 
 |Request|Name|Email|Request date|
 |-------|----|-----|------------|
@@ -55,7 +56,7 @@ In this example, the form has four fields:
 -   Requester's email address
 -   Request date
 
-These fields contain all the info the reviewer needs to accept or reject the request. You'll have to figure out all the information your reviewer needs to make a decision. Later, we'll show you how to create a form \(using Now Assist or on your own\) in the section [Working with forms in Creator Studio](creator-studio-work-with-forms.md).
+These fields contain all the info the reviewer needs to accept or reject the request. You'll have to figure out all the information your reviewer needs to make a decision. Later, we'll show you how to create a form \(using Now Assist or on your own\) in the section [Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-work-with-forms.md).
 
 **Key terms:**
 
@@ -72,32 +73,32 @@ Okay, now you understand that requesters fill out forms to create requests and C
 
 ## Try Creator Studio on a PDI
 
-Want to play with Creator Studio on your Personal Development Instance \(PDI\)? It comes automatically installed from the Application Manager on your PDI. For more information, see [Personal developer instance guide](../../applications/concept/personal_developer_instance_guide.md).
+Want to play with Creator Studio on your Personal Development Instance \(PDI\)? It comes automatically installed from the Application Manager on your PDI. For more information, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/personal_developer_instance_guide.md).
 
--   **[Example apps you can build in Creator Studio](creator-studio-sample-apps.md)**  
+-   **[Example apps you can build in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-sample-apps.md)**  
 Creator Studio enables you to build apps where people can make requests.
--   **[Use App Engine instead of customization](creator-studio-config-vs-custom.md)**  
+-   **[Use App Engine instead of customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-config-vs-custom.md)**  
 App Engine development tools, such as Creator Studio, offer an excellent alternative to customizing existing applications on the ServiceNow AI Platform.
--   **[Customization vs. configuration with Creator Studio](creator-studio-custom-vs-config.md)**  
+-   **[Customization vs. configuration with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-custom-vs-config.md)**  
 There are important differences between customizing and configuring ServiceNow applications. The ServiceNow platform is built to embrace customization and configuration but how you do so can have significant impacts on ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
--   **[Creating your first app with Creator Studio](creator-studio-creating-your-first-app.md)**  
+-   **[Creating your first app with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-creating-your-first-app.md)**  
 Creator Studio helps you create your app by dividing it into smaller parts. Each does something special, and you work on them sequentially.
--   **[Creator Studio quick start](../task/creator-studio-quick-start.md#)**  
+-   **[Creator Studio quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-quick-start.md)**  
 This quick start guides you through the process of building your first app in Creator Studio and requesting its deployment.
--   **[Get help with Creator Studio](creator-studio-get-help-now.md)**  
+-   **[Get help with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-get-help-now.md)**  
 To get help with Creator Studio, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
--   **[Choosing your development experience](crs-choosing-your-experience.md)**  
+-   **[Choosing your development experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/crs-choosing-your-experience.md)**  
 If you want to develop apps in a more robust environment than Creator Studio, which was designed for no-code developers, you can select a different experience directly from within Creator Studio.
--   **[Service desks and Creator Studio](creator-studio-service-desk-about.md)**  
+-   **[Service desks and Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-service-desk-about.md)**  
 Service desk apps enable users to request things, such as IT equipment or travel bookings, and track their fulfillment.
--   **[Migrating to Creator Studio from Service Creator](creator-studio-migrating-service-creator.md)**  
+-   **[Migrating to Creator Studio from Service Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-migrating-service-creator.md)**  
 Creator Studio is replacing the older Service Creator tool, which will be retired in the Australia release.
--   **[App compatibility with Creator Studio](creator-studio-opening-apps-from-others.md)**  
+-   **[App compatibility with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-opening-apps-from-others.md)**  
 You can open apps built in Creator Studio in other ServiceNow products, but only apps built in Creator Studio can be opened in Creator Studio.
--   **[Creator Studio apps and tables](creator-studio-templates.md)**  
+-   **[Creator Studio apps and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-templates.md)**  
 Creator Studio uses catalog templates to streamline the app creation process. Apps use the Request Task table by default, generating a new row for each submitted request, though admins can change the underlying table for an app.
--   **[Publishing, activation, and deployment workflow for forms, automation, and apps](creator-studio-workflow-publishing-deploying.md)**  
+-   **[Publishing, activation, and deployment workflow for forms, automation, and apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-workflow-publishing-deploying.md)**  
 When you build an app in Creator Studio, you must create forms and automation. You can also customize the workspace list configurations and records that fulfillers use before everything is deployed to production.
 
-**Parent Topic:**[Creator Studio](creator-studio-landing.md)
+**Parent Topic:**[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-landing.md)
 

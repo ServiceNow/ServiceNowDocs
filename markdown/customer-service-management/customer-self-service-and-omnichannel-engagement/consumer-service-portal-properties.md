@@ -2,6 +2,7 @@
 title: Consumer Service Portal properties
 description: Properties that the system administrator can set to limit the number of registered products per consumer, the number of open cases per consumer, and the number of attachments per consumer record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/consumer-service-portal-properties.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,6 +2,7 @@
 title: Create an ITSM Predictive Intelligence Workbench user group
 description: Create an ITSM Predictive Intelligence Workbench user group and add users or roles to the group to receive email notifications when the use case model training and testing phase is complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-user-groups.html
 release: yokohama
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -23,7 +24,7 @@ Role required: admin
 
 **Important:**
 
-Starting with the yokohama release, the ITSM Predictive Intelligence Workbench will reach its end of life \(EOL\) as part of its deprecation process. It will be completely deprecated and no longer deployed, enhanced, or supported from the yokohama release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](../../task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md)
+Starting with the yokohama release, the ITSM Predictive Intelligence Workbench will reach its end of life \(EOL\) as part of its deprecation process. It will be completely deprecated and no longer deployed, enhanced, or supported from the yokohama release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -37,8 +38,8 @@ Users can receive notifications for the following Predictive Intelligence Workbe
 
 ## Procedure
 
-1.  To create an ITSM Predictive Intelligence Workbench user group and add users, refer to [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+1.  To create an ITSM Predictive Intelligence Workbench user group and add users, refer to Create a user group.
 
-    For more information about the email notifications provided with this application, refer to [ITSM Predictive Intelligence Workbench notifications](../reference/itsm-piwb-notifications.md).
+    For more information about the email notifications provided with this application, refer to [ITSM Predictive Intelligence Workbench notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-notifications.md).
 
 

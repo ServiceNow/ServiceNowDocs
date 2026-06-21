@@ -2,6 +2,7 @@
 title: Skill inputs for Now Assist for Field Service Management \(FSM\)
 description: Use the inputs for each skill to configure how a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm-skill-inputs.html
 release: yokohama
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm

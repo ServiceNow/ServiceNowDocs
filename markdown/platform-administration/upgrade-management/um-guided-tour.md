@@ -2,6 +2,7 @@
 title: Upgrade Console guided tour
 description: Upgrade your instance effortlessly with the guided process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-guided-tour.html
 release: yokohama
 product: Upgrade Management
 classification: upgrade-management
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Upgrade Console, Upgrade Console, Upgrade, Administer the
 
 Upgrade your instance effortlessly with the guided process.
 
-To streamline your upgrade process, follow the guided setup steps outlined in [Access guided setup for Upgrade Console](../task/um-guided-tour-implement.md). Before you begin, ensure you’re logged in as an administrator. This intuitive tool walks you through the necessary pre- and post-upgrade activities, ensuring a seamless transition to the latest release.
+To streamline your upgrade process, follow the guided setup steps outlined in [Access guided setup for Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-guided-tour-implement.md). Before you begin, ensure you’re logged in as an administrator. This intuitive tool walks you through the necessary pre- and post-upgrade activities, ensuring a seamless transition to the latest release.
 
-![Gif showing the Upgrade Management guided tour](../image/um-gif.gif)
+\[Omitted image "um-gif.gif"\] Alt text: Gif showing the Upgrade Management guided tour
 

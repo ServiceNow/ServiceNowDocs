@@ -2,6 +2,7 @@
 title: Signature workflow for a request
 description: Contract Management Pro for Legal Service Delivery supports electronic signature or wet \(manual\) signature for a contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.html
 release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -15,16 +16,16 @@ breadcrumb: [Work on NDA legal requests, Non-disclosure agreement requests, Use,
 
 Contract Management Pro for Legal Service Delivery supports electronic signature or wet \(manual\) signature for a contract request.
 
--   Electronic Signature: Enables signatories to sign the contract document electronically. For more information, see [Configure an e-signature provider](../../contract-mgmt-pro/task/cncore-integrate-esign.md).
+-   Electronic Signature: Enables signatories to sign the contract document electronically. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
 
-    If you want to generate a certificate of completion, you must select the **Electronic Signature** as signature type in the contract request. For more information, see [Activate a system property to generate a certificate of completion](../../contract-mgmt-pro/task/cncore-config-system-prop-COC.md).
+    If you want to generate a certificate of completion, you must select the **Electronic Signature** as signature type in the contract request. For more information, see [Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md).
 
--   Wet Signature: Enables signatories to sign the contract document manually. You can then upload the signed document to a contract request. For more information, see [Upload a manually signed contract document](../../contract-mgmt-pro/task/cncore-upload-doc-wsignature.md).
+-   Wet Signature: Enables signatories to sign the contract document manually. You can then upload the signed document to a contract request. For more information, see [Upload a manually signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.md).
 
 ## Electronic signature workflow
 
 -   Send the finalized document to the signatories for signing.
-    -   The state and contract status updates to Awaiting Signature and the electronic signature flow is triggered as configured in [Configure an e-signature provider for legal contracts](../task/snlc-integrate-esign.md).
+    -   The state and contract status updates to Awaiting Signature and the electronic signature flow is triggered as configured in [Configure an e-signature provider for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-integrate-esign.md).
     -   An email notification that the contract document is available for signature is sent to the first signatory. The email contains a link to the contract document that the signatory can open and sign the document through the Docusign or Adobe Acrobat Sign electronic signature provider.
 
         The signatories will receive signature request email according to the order set in the signatories tab.
@@ -148,7 +149,7 @@ All the signatories have signed the document
 
  For non-self-served contracts, the state of the request and the contract status updates to Contract signed. To close the contract request, select Close complete.
 
- For more information, see [Upload a manually signed contract document](../task/snlc-upload-doc-wet-sign.md).
+ For more information, see [Upload a manually signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-upload-doc-wet-sign.md).
 
 </td></tr></tbody>
 </table>
@@ -172,7 +173,7 @@ The workflow might progress as follows:
 -   Signature request email notifications are sent to the signatories.
 -   After the last signatory has signed the document, the contract repository record is created and the signed document is attached to it.
 
-For more information, see [Modify signatories](../task/snlc-pause-signature.md) and [Resend signature request](../task/snlc-resend-sign-req.md).
+For more information, see [Modify signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-pause-signature.md) and [Resend signature request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-resend-sign-req.md).
 
 ## Contract document access
 
@@ -185,14 +186,14 @@ Access to a contract document is based on the following user roles and condition
 
 While generating the contract repository record, mapped fields and their values are validated for data type and correctness. If validation errors are found, an email notification is sent to the contract fulfiller. The email also displays the list of fields that haven’t been copied into the final contract document and the link to the contract repository record. The fulfiller then opens the record using the link and corrects the values to resolve the validation errors.
 
--   **[Upload a manually signed contract document](../task/snlc-upload-doc-wet-sign.md)**  
+-   **[Upload a manually signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-upload-doc-wet-sign.md)**  
 Upload the wet signed contract document you have received from the signatories. You need to upload a contract document for a wet signature workflow or if one of the signatories in the electronic workflow decides to do a wet signature.
--   **[Modify signatories](../task/snlc-pause-signature.md)**  
+-   **[Modify signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-pause-signature.md)**  
 Modify signatories while a signature workflow is in progress.
--   **[Resend signature request](../task/snlc-resend-sign-req.md)**  
+-   **[Resend signature request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-resend-sign-req.md)**  
 Resend signature request functionality enables contract fulfillers to manually trigger signature request when needed.
--   **[Cancel a wet signature process for non-disclosure agreement legal requests](../task/snlc-cancel-a-wet-signature.md)**  
+-   **[Cancel a wet signature process for non-disclosure agreement legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-cancel-a-wet-signature.md)**  
 As a legal user, cancel the wet signature process for contract documents in NDA legal requests that have been sent to signatories.
 
-**Parent Topic:**[Work on NDA legal requests](../task/snlc-work-on-contract-request.md)
+**Parent Topic:**[Work on NDA legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-work-on-contract-request.md)
 

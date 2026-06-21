@@ -2,6 +2,7 @@
 title: View finance articles
 description: View finance articles from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/finance-case-management/view-finance-articles.html
 release: yokohama
 product: Finance Case Management
 classification: finance-case-management
@@ -32,5 +33,5 @@ Role required: sn\_fin\_ops.requester, sn\_fin\_ops.specialist
 
 You can view the Understanding General Finance Inquiries knowledge article.
 
-**Parent Topic:**[Using the Employee Center](../concept/using-ec-fin-case-mgmt.md)
+**Parent Topic:**[Using the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/finance-case-management/using-ec-fin-case-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: View and track non-disclosure agreement requests as a legal user
 description: View the details of a non-disclosure agreement request after it has been submitted and track the activities in the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.html
 release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -23,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d618223e66">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d121397e66">
 
 Method
 
-</th><th align="left" id="d618223e69">
+</th><th align="left" id="d121397e69">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d618223e75">
+</th></tr></thead><tbody><tr><td id="d121397e75">
 
 **__Employee Center__**
 
@@ -42,7 +43,7 @@ Actions
 3.  Open your submitted non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d618223e108">
+</td></tr><tr><td id="d121397e108">
 
 **__Legal Service Portal__**
 
@@ -111,5 +112,5 @@ Preview
 </table>3.  Track the activities in the request and post messages for the fulfiller working on it by accessing the **Activity** tab.
 
 
-**Parent Topic:**[Non-disclosure agreement requests](../concept/snlc-request-nda-1.md)
+**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

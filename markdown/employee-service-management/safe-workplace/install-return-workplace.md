@@ -2,6 +2,7 @@
 title: Install Enterprise Employee Experience Pack
 description: You must have the admin role to install the Enterprise Employee Experience Pack application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/safe-workplace/install-return-workplace.html
 release: yokohama
 product: Safe Workplace
 classification: safe-workplace
@@ -34,7 +35,7 @@ The following plugins are activated automatically:
 -   Content Experiences \(sn\_ca\)
 -   Content Publishing \(sn\_cd\)
 
-**Note:** If Restricted Caller Access \(RCA\) errors appear, you may be required to allow additional RCA privileges. For more information, see [Restricted caller access privilege settings](https://www.servicenow.com/docs/access?context=restricted-caller-access-privilege&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+**Note:** If Restricted Caller Access \(RCA\) errors appear, you may be required to allow additional RCA privileges. For more information, see Restricted caller access privilege settings.
 
 Role required: admin
 
@@ -57,5 +58,5 @@ Role required: admin
 6.  When the installation is complete, click **Close**.
 
 
-**Parent Topic:**[Enterprise Employee Experience Pack](../concept/return-workplace-employee-exp-pack.md)
+**Parent Topic:**[Enterprise Employee Experience Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/return-workplace-employee-exp-pack.md)
 

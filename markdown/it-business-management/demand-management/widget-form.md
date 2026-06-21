@@ -2,6 +2,7 @@
 title: Widget form
 description: Use the widget form to configure a new widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/widget-form.html
 release: yokohama
 product: Demand Management
 classification: demand-management
@@ -106,5 +107,5 @@ Short description
 Description of the widget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/demand-management-forms.md)
 

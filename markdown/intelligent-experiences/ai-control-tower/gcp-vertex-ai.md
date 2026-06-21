@@ -1,19 +1,20 @@
 ---
 title: AI Service Graph Connector for Google Cloud Platform \(GCP\) Vertex AI
-description: Use the  AI Service Graph Connector for GCP Vertex AI plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+description: Use the  AI Service Graph Connector for GCP Vertex AI to create AI connections to discover AI assets such as AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/gcp-vertex-ai.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-02"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # AI Service Graph Connector for Google Cloud Platform \(GCP\) Vertex AI
 
-Use the  AI Service Graph Connector for GCP Vertex AI plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+Use the  AI Service Graph Connector for GCP Vertex AI to create AI connections to discover AI assets such as AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
 
 ## Download apps from the Store
 
@@ -36,7 +37,7 @@ Roles required in the ServiceNow environment:
 
 **Prerequisites:**
 
-Review the setup instructions to create a service account, assign roles, bind roles to the service account, enable APIs, create a JKS file, and register it in your ServiceNow instance. For setup instructions and used APIs, see the [Service Graph connector for GCP Vertex AI- Setup Instructions \[KB2731256\]](https://support.servicenow.com/kb_view.do?sysparm_article=KBXXXXXXX)
+Review the setup instructions to create a service account, assign roles, bind roles to the service account, enable APIs, create a JKS file, and register it in your ServiceNow instance. For information on setup instructions and used APIs, see the [Service Graph connector for GCP Vertex AI- Setup Instructions \[KB2731256\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB2731256)
 
 ## Data Mapping
 

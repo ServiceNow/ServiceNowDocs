@@ -2,6 +2,7 @@
 title: Request a catalog item from Employee Center
 description: Use the SC Catalog Item widget in Employee Center to request a catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/request-cat-item-ec.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
@@ -31,15 +32,15 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d273667e96">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d214573e96">
 
 **Add attachments**
 
 </td><td>
 
-To add one or more attachments to the catalog item, click the add attachments icon \(![add attachments icon](../image/IconAddAttachmnt.png)\).You can browse and choose the files, drag the files, or copy and paste them in the Add attachments window.
+To add one or more attachments to the catalog item, click the add attachments icon \(\[Omitted image "IconAddAttachmnt.png"\] Alt text: add attachments icon\).You can browse and choose the files, drag the files, or copy and paste them in the Add attachments window.
 
-</td></tr><tr><td id="d273667e113">
+</td></tr><tr><td id="d214573e113">
 
 **Add to Cart**
 
@@ -47,13 +48,13 @@ To add one or more attachments to the catalog item, click the add attachments ic
 
 To add the catalog item to the shopping cart, click **Add to Cart**.
 
-</td></tr><tr><td id="d273667e125">
+</td></tr><tr><td id="d214573e125">
 
 **Add to Wish List**
 
 </td><td>
 
-To add the catalog item to the wish list, click the Add to Wish List icon \(![Icon to add to the wish list](../image/SPWishList.png)\).
+To add the catalog item to the wish list, click the Add to Wish List icon \(\[Omitted image "SPWishList.png"\] Alt text: Icon to add to the wish list\).
 
 </td></tr></tbody>
 </table>6.  Click **Order Now**.
@@ -71,5 +72,5 @@ To add the catalog item to the wish list, click the Add to Wish List icon \(![Ic
     The corresponding request is displayed in the My Requests page with the request number, estimated delivery date for the order, price, and the order status.
 
 
-**Parent Topic:**[Service Catalog in Employee Center portal](../concept/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 

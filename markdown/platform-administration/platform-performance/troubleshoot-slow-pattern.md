@@ -2,6 +2,7 @@
 title: Troubleshoot a slow pattern
 description: Identify the source of a slow pattern and prioritize potential performance improvements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/troubleshoot-slow-pattern.html
 release: yokohama
 product: Platform Performance
 classification: platform-performance
@@ -34,7 +35,7 @@ Role required: sn\_app\_insights.admin or admin
 
 4.  View the performance for the slow pattern over time by analyzing the **Average Execution Time** detail graph.
 
-    ![Average Execution Time detail graph](../image/app-insights-average-execution-time.png)
+    \[Omitted image "app-insights-average-execution-time.png"\] Alt text: Average Execution Time detail graph
 
     -   Look for spikes within the selected time range. Look for correlations to impactful system events that might indicate a false alarm by overlaying diagnostic events.
     -   View the number of times the pattern was executed in the selected time range.
@@ -45,23 +46,23 @@ Role required: sn\_app\_insights.admin or admin
 
 6.  To access additional helpful information for troubleshooting, add the Referenced Scripts and Related Slow Patterns related lists.
 
-<table id="choicetable_f4t_kdp_cvb"><tbody><tr><td id="d181456e159">
+<table id="choicetable_f4t_kdp_cvb"><tbody><tr><td id="d118155e159">
 
 **Slow scripts**
 
 </td><td>
 
-1.  Select the form context menu \(![Context menu icon](../../subscription-management/image/context-menu.png)\).
+1.  Select the form context menu \(\[Omitted image "context-menu.png"\] Alt text: Context menu icon\).
 2.  Change the form view by selecting **View** &gt; **Slow Script Insights**.
 
 
-</td></tr><tr><td id="d181456e189">
+</td></tr><tr><td id="d118155e189">
 
 **Slow queries**
 
 </td><td>
 
-1.  Select the form context menu \(![Context menu icon](../../subscription-management/image/context-menu.png)\).
+1.  Select the form context menu \(\[Omitted image "context-menu.png"\] Alt text: Context menu icon\).
 2.  Change the form view by selecting **View** &gt; **Slow Query Insights**.
 
 
@@ -85,11 +86,11 @@ Role required: sn\_app\_insights.admin or admin
 
 After sorting the Slow Queries table by the **Execution count in range** field, you see a SELECT statement with a high execution count over the last 7 days.
 
-![Slow queries list](../image/app-insights-slow-queries.png)
+\[Omitted image "app-insights-slow-queries.png"\] Alt text: Slow queries list
 
 To find out what is triggering this slow query you would select the query name to open the detail graph, and then select **View record**.
 
-![Referenced scripts in a slow query record](../image/app-insights-referenced-scripts.png)
+\[Omitted image "app-insights-referenced-scripts.png"\] Alt text: Referenced scripts in a slow query record
 
 The Referenced Scripts related list displays three scripts. The DeprecationCalculations script has the highest calling order of all the referenced scripts, indicating that it directly triggered the slow pattern.
 
@@ -99,5 +100,5 @@ To remedy the issue:
 -   If the query cannot be avoided in DeprecationCalculations, determine whether the call to the other scripts with lower call orders could be avoided or decreased in execution count. In this example, DepreciationUtils needs to call into DeprecationCalculations, but perhaps you could set the scheduled job Calculate Depreciation to be run less frequently.
 -   If adjustments to the scripts lower in the call order are not viable, consider adding an index to potentially help with performance.
 
-**Parent Topic:**[Solving slow patterns](../concept/application-insights-slow-patterns.md)
+**Parent Topic:**[Solving slow patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/application-insights-slow-patterns.md)
 

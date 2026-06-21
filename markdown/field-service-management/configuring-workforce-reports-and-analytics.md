@@ -2,7 +2,10 @@
 title: Configuring Workforce reports and analytics
 description: Configuring workforce reports and analytics involves setting up systems and processes to collect, analyze, and interpret data related to workforce performance and productivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configuring-workforce-reports-and-analytics.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

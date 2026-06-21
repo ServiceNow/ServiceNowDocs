@@ -2,6 +2,7 @@
 title: Create assessment template form
 description: Learn about the fields of the Create Assessment Template form. Use this form to create a new assessment template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/smart-assessment-engine/create-assessment-template-form.html
 release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -37,7 +38,7 @@ Assessment name
 
 </td><td>
 
-Add text icon ![Add text icon.](../image/sae-add-text.png) that includes an optional alternative name for generated assessments. The respondent sees this name rather than the template name.
+Add text icon \[Omitted image "sae-add-text.png"\] Alt text: Add text icon. that includes an optional alternative name for generated assessments. The respondent sees this name rather than the template name.
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Purpose that the new assessment template should be a member of. For example, Ris
 
 Template categories that enforce the data segregation for templates. A category controls which users can view a template. Each assessment template is associated with one or more template categories. To view a template in a category, you must have a category role that is associated with the category.
 
-For more information, see [Create an assessment template category](../task/sae-asmnt-template-category-create.md)
+For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)
 
 </td></tr><tr><td>
 

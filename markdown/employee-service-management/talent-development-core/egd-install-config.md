@@ -2,6 +2,7 @@
 title: Install and configure the Talent Development Core app
 description: Install and configure the Talent Development Core app. Talent Development Core is an app in a suite of ServiceNow apps and features that define a workflow for employees and managers to take control of their career development and growth.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/egd-install-config.html
 release: yokohama
 product: Talent Development Core
 classification: talent-development-core
@@ -15,8 +16,8 @@ breadcrumb: [Talent Development Core, Talent Development, Employee Service Manag
 
 Install and configure the Talent Development Core app. Talent Development Core is an app in a suite of ServiceNow apps and features that define a workflow for employees and managers to take control of their career development and growth.
 
--   **[Install the Talent Development Core application](../task/egd-core-install.md)**  
+-   **[Install the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-core-install.md)**  
 Install the Talent Development app to enable employees and managers to identify, create, and manage career growth and development plans.
 
-**Parent Topic:**[Talent Development](egd-employee-growth-development-suite.md)
+**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

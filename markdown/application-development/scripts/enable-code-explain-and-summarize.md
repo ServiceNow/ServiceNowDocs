@@ -2,6 +2,7 @@
 title: Enable Code Explain and Summarize
 description: Enable the Code Explain and Code Summarize features by changing the default model of your instance from NowLLM to Azure OpenAI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/enable-code-explain-and-summarize.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -37,7 +38,7 @@ Role required: admin
 
 4.  In the sn\_now\_assist\_code.code\_assist\_model\_provider form, in the **Value** field, enter `na4c_azure_openai`.
 
-    ![The model is set to na4c_azure_openai in the Value field.](../image/now-assist-code-change-model.png)
+    \[Omitted image "now-assist-code-change-model.png"\] Alt text: The model is set to na4c\_azure\_openai in the Value field.
 
 5.  Select **Update**
 
@@ -46,5 +47,5 @@ Role required: admin
 
 All requests for the Now Assist for Code model are redirected to Azure OpenAI for evaluation and response. Additionally, you’ll get access to the Code Explain and Code Summarize features.
 
-**Parent Topic:**[Configuring code generation](configuring-now-assist-code.md)
+**Parent Topic:**[Configuring code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/configuring-now-assist-code.md)
 

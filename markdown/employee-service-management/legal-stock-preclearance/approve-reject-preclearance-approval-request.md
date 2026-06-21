@@ -2,6 +2,7 @@
 title: Approve or reject a stock preclearance approval
 description: As a member of the legal stock approvers group, approve or reject a stock preclearance approval request so that the requester can trade in the securities of the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-stock-preclearance/approve-reject-preclearance-approval-request.html
 release: yokohama
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -23,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../../human-resources/reference/images/checklist-icon.png)\).
+2.  Click the list icon \(\[Omitted image "checklist-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **My Work**, click **Items Pending Approvals**.
 
@@ -46,5 +47,5 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 -   If you approve the request on a holiday, the approval validity starts from the next business day.
 -   If you reject the request, the requester cannot perform any securities transactions.
 
-**Parent Topic:**[Legal Stock Preclearance](../reference/legal-stock-preclearance-landing-page.md)
+**Parent Topic:**[Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md)
 

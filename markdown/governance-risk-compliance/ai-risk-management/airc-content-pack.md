@@ -2,6 +2,7 @@
 title: AI Risk and Compliance Content Pack
 description: The ServiceNow AI Risk and Compliance Content Pack provides basic content that enables the risk and compliance managers to ensure that the organizations comply with the regulations and policies with respect to their AI systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/airc-content-pack.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management

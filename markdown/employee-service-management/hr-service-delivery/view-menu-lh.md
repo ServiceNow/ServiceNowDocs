@@ -2,6 +2,7 @@
 title: Use the View menu icon in Leader Hub
 description: Use the View menu icon \( View menu icon \) to view the career profile of an employee, schedule or create a conversation, or send emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/view-menu-lh.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -13,7 +14,7 @@ breadcrumb: [Using Leader Hub, Leader Hub, Persona Based Experiences, HR Service
 
 # Use the View menu icon in Leader Hub
 
-Use the View menu icon \(![View menu icon](../image/viewmenu.png)\) to view the career profile of an employee, schedule or create a conversation, or send emails.
+Use the View menu icon \(\[Omitted image "viewmenu.png"\] Alt text: View menu icon\) to view the career profile of an employee, schedule or create a conversation, or send emails.
 
 ## Before you begin
 
@@ -31,17 +32,17 @@ Role required: organizational leader \[sn\_egd\_lh.leader\]
 
     **Tip:** The card for each employee reflects whether they have individuals who report to them. You can determine whether an employee leads a team by viewing the number of direct and total reports they have in their employee card.
 
-4.  Select the View menu icon \(![View menu icon](../image/viewmenu.png)\) to perform one of the following steps.
+4.  Select the View menu icon \(\[Omitted image "viewmenu.png"\] Alt text: View menu icon\) to perform one of the following steps.
 
-<table id="choicetable_czg_2pb_pcc"><thead><tr><th align="left" id="d725895e113">
+<table id="choicetable_czg_2pb_pcc"><thead><tr><th align="left" id="d327866e113">
 
 Action
 
-</th><th align="left" id="d725895e116">
+</th><th align="left" id="d327866e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d725895e122">
+</th></tr></thead><tbody><tr><td id="d327866e122">
 
 **View career profile**
 
@@ -49,23 +50,23 @@ Description
 
 View a comprehensive career profile of an employee.
 
-</td></tr><tr><td id="d725895e131">
+</td></tr><tr><td id="d327866e131">
 
 **Create a conversation**
 
 </td><td>
 
-Create a conversation with an employee.This option is only visible if the Microsoft Outlook integration isn’t enabled for Leader hub. For more information, see [Create a conversation form](../reference/create-conversation-lh.md).
+Create a conversation with an employee.This option is only visible if the Microsoft Outlook integration isn’t enabled for Leader hub. For more information, see [Create a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/create-conversation-lh.md).
 
-</td></tr><tr><td id="d725895e158">
+</td></tr><tr><td id="d327866e158">
 
 **Schedule conversation**
 
 </td><td>
 
-Schedule a conversation with an employee.This option is only visible if the Microsoft Outlook integration is enabled for Leader hub. For more information, see [Schedule a conversation form](../reference/schedule-conversation-lh.md).
+Schedule a conversation with an employee.This option is only visible if the Microsoft Outlook integration is enabled for Leader hub. For more information, see [Schedule a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/schedule-conversation-lh.md).
 
-</td></tr><tr><td id="d725895e185">
+</td></tr><tr><td id="d327866e185">
 
 **Send email**
 
@@ -75,5 +76,5 @@ Send an email to an employee.This action opens a link with the work email of you
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Leader Hub](../../td-leader-hub/concept/td-lh-using.md)
+**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/td-lh-using.md)
 

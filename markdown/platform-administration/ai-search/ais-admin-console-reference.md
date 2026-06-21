@@ -2,6 +2,7 @@
 title: AI Search Admin console reference
 description: Reference information for the AI Search Admin Console application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/ais-admin-console-reference.html
 release: yokohama
 product: AI Search
 classification: ai-search

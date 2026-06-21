@@ -2,6 +2,7 @@
 title: Now Assist for RPA Hub reference
 description: Reference topics include information about the limitations of the Robotic Process Automation \(RPA\) bot generation skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/now-assist-rpa-hub-reference.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -16,8 +17,8 @@ breadcrumb: [Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Dat
 
 Reference topics include information about the limitations of the Robotic Process Automation \(RPA\) bot generation skill.
 
--   **[Limitations of Robotic Process Automation \(RPA\) bot generation skill](../reference/limitations-rpa-bot-gen-skill.md)**  
+-   **[Limitations of Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/limitations-rpa-bot-gen-skill.md)**  
 The limitations of the RPA bot generation skill are as follows.
 
-**Parent Topic:**[Data and Automation](../../../build/create-integrations-apps/concept/create-integrations-applications.md)
+**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
 

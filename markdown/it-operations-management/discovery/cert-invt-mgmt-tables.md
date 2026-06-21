@@ -2,6 +2,7 @@
 title: Certificate Inventory and Management tables
 description: Certificate Inventory and Management tables provide a centralized system to track and manage digital certificates. They capture key details, including discovered certificates, installation locations, historical data, and associated tasks such as renewals and requests. This framework ensures efficient certificate management, supporting security, compliance, and streamlined operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/cert-invt-mgmt-tables.html
 release: yokohama
 product: Discovery
 classification: discovery
@@ -170,5 +171,5 @@ Certificate Extensions \[sn\_disco\_certmgmt\_certificate\_extension\]
 Stores information for all server certificates.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management reference](cert-invt-mgmt-references.md)
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

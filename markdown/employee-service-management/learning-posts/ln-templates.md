@@ -2,6 +2,7 @@
 title: Create a learning template
 description: Create a learning template to simplify the process of creating learning tasks by populating fields automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/learning-posts/ln-templates.html
 release: yokohama
 product: Learning Posts
 classification: learning-posts

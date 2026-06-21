@@ -2,9 +2,10 @@
 title: Removed features and products in Yokohama
 description: Cumulative release notes summary on features that were removed from Yokohama features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-removed-features.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-13"
 reading_time_minutes: 4
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -29,7 +30,7 @@ Change Management
 
 </td><td>
 
-Change Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+Change Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see .
 
 </td></tr><tr><td>
 
@@ -37,7 +38,7 @@ Dynamic Translation
 
 </td><td>
 
-The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is no longer available because IBM has withdrawn this translation service. For more information, see [IBM Watson Language Translator Service spoke](https://www.servicenow.com/docs/access?context=ibm-translation-spoke&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is no longer available because IBM has withdrawn this translation service. For more information, see .
 
 </td></tr><tr><td>
 
@@ -45,7 +46,7 @@ Field Service Management
 
 </td><td>
 
-The approval for new requests workflow was removed from the Field Service Management Business Process configuration. Existing customers that use this workflow are unaffected. New customers can use ServiceNow® Workflow Studio to build the approval for the new requests workflow. For more information on Workflow Studio, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+The approval for new requests workflow was removed from the Field Service Management Business Process configuration. Existing customers that use this workflow are unaffected. New customers can use ServiceNow® Workflow Studio to build the approval for the new requests workflow. For more information on Workflow Studio, see .
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Integration Hub
 
 -   Starting with the Yokohama release, Microsoft Teams Spoke is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Microsoft Teams Graph Spoke provides the latest experience for this functionality.
 
-For more information, search for the term `Microsoft Teams Spoke for ServiceNow IntegrationHub` in [Plugins planned for deprecation](../eol/plugin-changes-v-to-y.md#).
+For more information, search for the term `Microsoft Teams Spoke for ServiceNow IntegrationHub` in [Plugins planned for deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/plugin-changes-v-to-y.md).
 
 -   Starting with the Yokohama release, Gremlin Spoke is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Spoke Generator provides the latest experience for this functionality.
 
@@ -96,7 +97,7 @@ Now Assist for Creator
 
 </td><td>
 
-[Yokohama Patch 12](../quality/yokohama-patch-12.md)
+[Yokohama Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-12.md)
 
 -   Spoke generation has been removed from Now Assist for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
 
@@ -133,7 +134,7 @@ Service Level Management
 
 </td><td>
 
-Service Level Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+Service Level Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see .
 
 </td></tr><tr><td>
 
@@ -190,5 +191,5 @@ Zero Copy Connector for ERP
 The sn\_erp\_integration.enableJobModification property has been removed and is no longer required in order to schedule an extraction.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Yokohama features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
 

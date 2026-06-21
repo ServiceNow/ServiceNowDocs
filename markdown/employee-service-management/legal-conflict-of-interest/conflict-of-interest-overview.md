@@ -2,6 +2,7 @@
 title: Exploring Legal Conflict of Interest
 description: The Legal Conflict of Interest application enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-conflict-of-interest/conflict-of-interest-overview.html
 release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -22,7 +23,7 @@ The Legal Conflict of Interest application enables you to manage the disclosure,
 -   Continuous monitoring of all disclosure requests for their validity.
 -   Automated reminders to the requesters before the expiry of their conflict approvals.
 
-![Legal Conflict of Interest workflow.](../image/workflow-conflict-interest.png "Legal Conflict of Interest workflow")
+\[Omitted image "workflow-conflict-interest.png"\] Alt text: Legal Conflict of Interest workflow.
 
 ## Automated approval flow
 
@@ -34,12 +35,12 @@ The approvers and the number of approval levels differ based on the conflict typ
 
 Following illustration shows the approvers and number of approval levels for each conflict type. For example, the Outside Employment conflict type has two approval levels. The first-level approver is the manager of the requester, and the second-level approver is the legal compliance group.
 
-![Conflict of Interest approval flow for different conflict types.](../image/coi-approval-flow.png "Conflict of Interest approval flow")
+\[Omitted image "coi-approval-flow.png"\] Alt text: Conflict of Interest approval flow for different conflict types.
 
 The administrator can modify the approval flow in the following ways:
 
 -   Change the number of levels of approval required.
 -   Add or modify approvers or approver groups at each level of approval.
 
-For more information, see [Configure flows for Legal Conflict of Interest](../task/configure-coi-flow-designer-flows.md).
+For more information, see [Configure flows for Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/configure-coi-flow-designer-flows.md).
 

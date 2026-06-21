@@ -2,6 +2,7 @@
 title: LSD Maturity Assessment
 description: This Accelerator provides guidance on fine-tuning your Legal Service Delivery \(LSD\) on the ServiceNow platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/lsd-maturity-assessment.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

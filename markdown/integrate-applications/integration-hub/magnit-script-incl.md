@@ -2,6 +2,7 @@
 title: Script includes installed
 description: These script includes are installed with the Magnit application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/magnit-script-incl.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub

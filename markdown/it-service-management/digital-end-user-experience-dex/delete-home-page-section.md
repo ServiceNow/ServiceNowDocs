@@ -2,6 +2,7 @@
 title: Delete a section from the Home page
 description: Delete a section when you no longer need it in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/delete-home-page-section.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -27,7 +28,7 @@ Role required: sn\_dex\_desktop.admin
 
 3.  From the Actions on selected rows drop-down list, select **Delete**.
 
-    ![The option to delete appears in the Actions on selected row drop-down list.](../image/desktop-exp-delete-section.png)
+    \[Omitted image "desktop-exp-delete-section.png"\] Alt text: The option to delete appears in the Actions on selected row drop-down list.
 
 4.  In the Confirmation window, select **Delete**.
 

@@ -2,6 +2,7 @@
 title: Dial and speedometer reports
 description: Dials and speedometers provide a real-time count for an indicator. These charts cannot contain comparison or historical data. You can configure colors to display at a glance that values are within specified ranges.Create a dial or speedometer to provide a real-time count for an indicator, with colors to indicate value ranges.Change the look of your dial or speedometer report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reporting/c\_CreateDialsAndSpeedometers.html
 release: yokohama
 product: Reporting
 classification: reporting
@@ -17,8 +18,8 @@ Dials and speedometers provide a real-time count for an indicator. These charts 
 
 **Note:** This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see
 
--   [Create a dial visualization in the Visualization Designer](../task/create-dv-dial-ac.md)
--   [Create a gauge visualization in the Visualization Designer](../task/create-dv-gauge-ac.md)
+-   [Create a dial visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-dial-ac.md)
+-   [Create a gauge visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md)
 
 .
 
@@ -29,11 +30,11 @@ Dials and speedometers also have different appearances:
 -   A speedometer shows numbers in the form of a round meter with a defined range.
 -   A dial shows where a score falls across ranges on a half-circle dial.
 
-![Angular report](../image/AngularGauge.png "Angular speedometer report")
+\[Omitted image "AngularGauge.png"\] Alt text: Angular report
 
-![Solid dial report](../image/SolidGauge.png "Solid dial report")
+\[Omitted image "SolidGauge.png"\] Alt text: Solid dial report
 
-**Parent Topic:**[Report types](../reference/report-types-creation-details-rd.md)
+**Parent Topic:**[Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-types-creation-details-rd.md)
 
 ## Create a dial or speedometer report
 
@@ -53,37 +54,37 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 3.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d172019e247">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d46403e247">
 
 **Data source**
 
 </td><td>
 
-Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](c_ReportSources.md#).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
+Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d172019e266">
+</td></tr><tr><td id="d46403e266">
 
 **Table**
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see Retrieving external data using remote tables and scripts
 
-</td></tr><tr><td id="d172019e285">
+</td></tr><tr><td id="d46403e285">
 
 **External import**
 
 </td><td>
 
-Choose an existing imported report source, or select the Upload icon \(![Upload icon](../image/upload-icon.png)\) to import a new file. See [Create a report from an imported Microsoft Excel document](../task/create-report-with-imported-data-source.md).
+Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d172019e310">
+</td></tr><tr><td id="d46403e310">
 
 **MetricBase**
 
 </td><td>
 
-MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see [MetricBase](https://www.servicenow.com/docs/access?context=metricbase&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see MetricBase.
 
 </td></tr></tbody>
 </table>4.  Select **Next**.
@@ -108,7 +109,7 @@ Configure function field
 
 </td><td>
 
-Configure fields based on calculation of multiple inputs including arithmetic functions. For more information, see [Report on function fields](function-fields-reporting.md). Function field results are calculated when the report is run. You can use the results for aggregations and grouping. You have to save the report before you can configure function fields.Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
+Configure fields based on calculation of multiple inputs including arithmetic functions. For more information, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/function-fields-reporting.md). Function field results are calculated when the report is run. You can use the results for aggregations and grouping. You have to save the report before you can configure function fields.Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
 
 </td></tr><tr><td>
 
@@ -120,14 +121,14 @@ Mathematical calculation to perform on the data. The default is **Count**, which
 
  Select **Average**, **Sum**, or **Count Distinct**, to show a list of fields from the selected **Table**. Select a field to **Aggregate by** from this list. For example, if you select an integer field, such as **Priority**, the data is expressed as a decimal value number.
 
- If you choose **Average**,**Sum**, or **Count Distinct**, you may further be able to aggregate on fields from extended tables. See [How to report on extended tables.](../task/t_AccessFieldExtendedTable.md#)
+ If you choose **Average**,**Sum**, or **Count Distinct**, you may further be able to aggregate on fields from extended tables. See [How to report on extended tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/t_AccessFieldExtendedTable.md)
 
  **Note:** For duration values, the unit of measurement displayed in the aggregation axis cannot be customized.
 
 </td></tr></tbody>
-</table>7.  To limit the information displayed in the report, select the filter icon \(![Filter icon](../../../common/image/List_FilterIcon.png)\) and specify conditions to filter the report data.
+</table>7.  To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+    To learn how to construct conditions, see Condition builder.
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
@@ -138,8 +139,8 @@ Mathematical calculation to perform on the data. The default is **Count**, which
 
 ### What to do next
 
--   Select the Report info icon \(![Info icon](../../../common/image/Form_ReferenceLookupIcon.png)\) and add a description of the report.
--   Select the sharing icon \(![Sharing icon](../image/ShareIcon.png)\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules.
+-   Select the Report info icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Info icon\) and add a description of the report.
+-   Select the sharing icon \(\[Omitted image "ShareIcon.png"\] Alt text: Sharing icon\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules.
 
 ## Dial and speedometer report style options
 
@@ -173,7 +174,7 @@ Set color
 
 </td><td>
 
-Color used in the report. This field displays when you select **Use one color** from the **Chart color** list. Click the search icon \(![Search icon](../image/SearchIcon.png)\) to choose from the **Color Definitions** list.
+Color used in the report. This field displays when you select **Use one color** from the **Chart color** list. Click the search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search icon\) to choose from the **Color Definitions** list.
 
 </td></tr><tr><td>
 
@@ -267,7 +268,7 @@ Drilldown view
 
 </td><td>
 
-List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See [Configure the list layout](https://www.servicenow.com/docs/access?context=t_ConfigureTheListLayout&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](c_DrillingDownWithinReports.md#).
+List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See Configure the list layout . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_DrillingDownWithinReports.md).
 
 </td></tr><tr><td>
 
@@ -277,7 +278,7 @@ Decimal precision
 
 Number of decimal places to show. You can show from zero to four decimal places. Default value: 2. To change the default value, create the system property glide.chart.decimal.precision and specify the value. **Note:** Percentage labels do not change accordingly with the decimal precision specified.
 
- ![Decimal precision - Bar report](../image/DecimalPrecision-BarReport.png) ![Decimal precision - Donut report](../image/DecimalPrecision-DonutReport.png)
+ \[Omitted image "DecimalPrecision-BarReport.png"\] Alt text: Decimal precision - Bar report \[Omitted image "DecimalPrecision-DonutReport.png"\] Alt text: Decimal precision - Donut report
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

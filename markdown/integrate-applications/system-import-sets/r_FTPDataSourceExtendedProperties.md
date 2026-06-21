@@ -2,6 +2,7 @@
 title: FTP data source extended properties
 description: Certain properties are available for customizing your FTP data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/system-import-sets/r\_FTPDataSourceExtendedProperties.html
 release: yokohama
 product: System Import Sets
 classification: system-import-sets
@@ -15,7 +16,7 @@ breadcrumb: [Data sources, Import sets, Imports, Data and Automation]
 
 Certain properties are available for customizing your FTP data source.
 
-To enter these properties, you must [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) the Data Source form and add the **Properties** field. When specifying more than one property, use a comma to separate each property.
+To enter these properties, you must Configuring the form layout the Data Source form and add the **Properties** field. When specifying more than one property, use a comma to separate each property.
 
 <table id="table_rby_nqb_z3b"><thead><tr><th>
 

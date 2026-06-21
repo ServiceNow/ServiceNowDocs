@@ -2,6 +2,7 @@
 title: External roles in self-registration
 description: To prevent inadvertently providing access to external users, you can assign the snc\_external role to all external users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/external-roles-self-registration.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -24,5 +25,5 @@ By default, users with the snc\_external role cannot access:
 -   Non-record type resources, such as processors and UI pages without the snc\_external role or a role that inherits the snc\_external role.
 -   Platform Analytics dashboards.
 
-Beginning with the Paris release, you must enable an exclude-list property to enforce the explicit assignment of snc\_external roles. For information about enabling the property, see [Prevent future internal role assignments for external users](https://www.servicenow.com/docs/access?context=fix-csm-external-user-roles-task4&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US).
+Beginning with the Paris release, you must enable an exclude-list property to enforce the explicit assignment of snc\_external roles. For information about enabling the property, see Prevent future internal role assignments for external users.
 

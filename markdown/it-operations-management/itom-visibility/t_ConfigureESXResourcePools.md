@@ -2,6 +2,7 @@
 title: Configure ESXi resource pools
 description: The ESXi server has a default resource pool called Resources that defines normal resources for a virtual machine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/t\_ConfigureESXResourcePools.html
 release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
@@ -38,8 +39,8 @@ Resource levels are dynamically generated from shares of the total resources all
 
 5.  Click **Submit**.
 
-    ![ESX Resource Pool form](../image/ESXResourcePool.png "ESX Resource Pool form")
+    \[Omitted image "ESXResourcePool.png"\] Alt text: ESX Resource Pool form
 
 
-**Parent Topic:**[ESXi server discovery](../reference/r_DiscoverESXServers.md)
+**Parent Topic:**[ESXi server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DiscoverESXServers.md)
 

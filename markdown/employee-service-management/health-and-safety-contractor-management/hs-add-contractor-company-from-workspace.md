@@ -2,6 +2,7 @@
 title: Add a contractor company from Health and Safety Workspace
 description: Add a contractor company to prequalify it and its workers. You can then manage the contractor workers from this company for their health and safety.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.html
 release: yokohama
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -23,7 +24,7 @@ Role required: sn\_hs\_crm.contractor\_coordinator
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the contractor management icon \(![Contractor management icon](../image/icon-contractor-mgmt.png)\) to open the **Contractor Management** tab.
+2.  Select the contractor management icon \(\[Omitted image "icon-contractor-mgmt.png"\] Alt text: Contractor management icon\) to open the **Contractor Management** tab.
 
 3.  In the **Lists** tab, select **Contractor companies** and then **All**.
 
@@ -37,9 +38,9 @@ Role required: sn\_hs\_crm.contractor\_coordinator
 
         The **Primary contact** field displays only users who have been assigned the \[snc\_external\] role and have the Health and Safety profile created for them.
 
-        For more information, see [Assign Health and Safety profile to a contractor worker](hs-assign-hs-user-profile-contract-worker.md).
+        For more information, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
 
-6.  If necessary, add attachments related to the company using the add attachments icon \(![Add attachment icon.](../../ohs-incident-management/image/icon-add-attachment.png)\).
+6.  If necessary, add attachments related to the company using the add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachment icon.\).
 
 7.  Select **Save**.
 
@@ -59,10 +60,10 @@ Role required: sn\_hs\_crm.contractor\_coordinator
 
     -   Select **Add** to link an existing document stored in the **Health and Safety document library** list.
     -   Select **New** to upload a new document.
-    For information on storing safety-related documents in Health and Safety Workspace, see [Add a new Health and Safety related document](../../ohs-incident-management/task/add-hs-related-document.md).
+    For information on storing safety-related documents in Health and Safety Workspace, see [Add a new Health and Safety related document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/add-hs-related-document.md).
 
 -   In the **Site access** tab, select **New** to grant site access to workers from this contractor company so that they can perform required tasks at your location.
 
-    If any workers associated with this company already have the site access, they appear in this list. For information on adding site access for a worker, see [Grant site access to a contractor worker](hs-grant-site-access-worker.md).
+    If any workers associated with this company already have the site access, they appear in this list. For information on adding site access for a worker, see [Grant site access to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-contractor-management/hs-grant-site-access-worker.md).
 
 

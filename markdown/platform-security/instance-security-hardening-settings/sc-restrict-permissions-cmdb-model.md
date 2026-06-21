@@ -2,6 +2,7 @@
 title: Restrict permissions for CMDB model \[Updated in Security Center 1.3 and 1.5\]
 description: Use the csm\_cmdb\_model.customer\_visible\_flag system property to limit customer access to data in the Product Models table as an additional access control to the CMDB model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-permissions-cmdb-model.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -60,7 +61,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -108,10 +109,10 @@ References
 
 </td><td>
 
-[Limit access to product model data on the Customer Service Portal](https://www.servicenow.com/docs/access?context=cust-serv-portal-prod-model-access&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)
+Limit access to product model data on the Customer Service Portal
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

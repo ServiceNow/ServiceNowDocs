@@ -2,6 +2,7 @@
 title: Configure and activate the Now Assist Identify duplicate articles skill
 description: Configure the Knowledge content management skill to enable admins and managers to activate the Now Assist Identify duplicate articles skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.html
 release: yokohama
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -19,7 +20,7 @@ Configure the Knowledge content management skill to enable admins and managers t
 
 Role required: knowledge\_admin and knowledge\_manager
 
-Now Assist Identify duplicate articles skill supports third-party AI model providers. For configuring these settings, see [Edit model providers](https://www.servicenow.com/docs/access?context=edit-model-providers&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US). In the Edit model provider settings, select **Knowledge duplicate topic** as the skill.
+Now Assist Identify duplicate articles skill supports third-party AI model providers. For configuring these settings, see . In the Edit model provider settings, select **Knowledge duplicate topic** as the skill.
 
 ## About this task
 
@@ -97,5 +98,5 @@ Use the template to specify all the fields that will be used in the identify dup
 
 The Now Assist Identify duplicate articles skill is configured.
 
-**Parent Topic:**[Configuring Now Assist in Knowledge Management](../concept/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 

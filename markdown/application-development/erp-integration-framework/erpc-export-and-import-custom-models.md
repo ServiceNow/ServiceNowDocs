@@ -2,6 +2,7 @@
 title: Export and import custom models in Zero Copy Connector for ERP
 description: Move a custom ERP model from one instance to another by exporting and importing a remote update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-export-and-import-custom-models.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -21,7 +22,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Confirm that the application scope for the custom model exists on the instance to which you're importing.
 
-The glide.attachment.extensions system property restricts the file types that can be downloaded. This property is empty by default. Check that the xml file extension has not been added to this property. For more information, see [Restrict attachment file extensions](https://www.servicenow.com/docs/access?context=t_DisablingTheDragAndDropFeature&version=yokohama&pubname=yokohama-platform-administration&section=t_RestrictingFileExtensions&ft:locale=en-US).
+The glide.attachment.extensions system property restricts the file types that can be downloaded. This property is empty by default. Check that the xml file extension has not been added to this property. For more information, see .
 
 ## About this task
 
@@ -48,7 +49,7 @@ Note the following when exporting and importing custom ERP models:
 
 3.  Select **Export**.
 
-    ![Model record with export button highlighted.](../image/erpc-export-model1.png)
+    \[Omitted image "erpc-export-model1.png"\] Alt text: Model record with export button highlighted.
 
 4.  Specify a location for the downloaded file \(by default in the Chrome and Safari browsers, this location is the Downloads folder\).
 
@@ -60,7 +61,7 @@ Note the following when exporting and importing custom ERP models:
 
 6.  Open the instance to which you're importing the custom model.
 
-    The following sub steps use update sets. For general information, see [System update sets](../../system-update-sets/concept/system-update-sets.md).
+    The following sub steps use update sets. For general information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/system-update-sets.md).
 
     1.  Navigate to **All** &gt; **System Update Sets** &gt; **Retrieved Update Sets**.
 
@@ -72,19 +73,19 @@ Note the following when exporting and importing custom ERP models:
 
         The file is imported and displayed in the retrieved update sets list with the **State** set to **Loaded**. If the import fails, check that the application scope for the custom model exists on the instance to which you're importing.
 
-        ![Retrieved update sets list with imported update set shown with a state of loaded.](../image/erpc-export-model2.png)
+        \[Omitted image "erpc-export-model2.png"\] Alt text: Retrieved update sets list with imported update set shown with a state of loaded.
 
     5.  Select the file.
 
     6.  Select **Preview Update Set** and check for any errors, such as a collision.
 
-        For detailed information about previewing and resolving any issues, see [Preview a remote update set](../../system-update-sets/task/t_PreviewARemoteUpdateSet.md#).
+        For detailed information about previewing and resolving any issues, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md).
 
     7.  When you're finished previewing and have resolved any errors, select **Close**.
 
     8.  Select **Commit update set** to create a local copy.
 
-        For detailed information about the update set commit process, see [Commit an update set](../../system-update-sets/task/t_CommitAnUpdateSet.md).
+        For detailed information about the update set commit process, see [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/t_CommitAnUpdateSet.md).
 
     9.  When the local copy is created, select **Close**.
 
@@ -98,8 +99,8 @@ Note the following when exporting and importing custom ERP models:
 
 11. Make any other necessary changes to the model.
 
-    For detailed information about editing and managing models, see [Managing how models read and update the ERP system](../concept/erpc-managing-models-read.md).
+    For detailed information about editing and managing models, see [Managing how models read and update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-managing-models-read.md).
 
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

@@ -2,6 +2,7 @@
 title: Set the default notice period for the Manage contract repository agentic workflow
 description: Configure system properties to set the default notice period for the Manage contract repository agentic workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/conf-sys-prop-default-np.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -42,5 +43,5 @@ When the contract renewal notice period and termination of contract renewal noti
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](../concept/cmpro-conf-agentic-workflow.md)
+**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
 

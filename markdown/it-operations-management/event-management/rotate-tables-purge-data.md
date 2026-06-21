@@ -2,6 +2,7 @@
 title: Rotate event tables and alert table cleanup
 description: The growth of data tables impedes performance. Preserve instance performance by event table rotation and alert table cleanup for status and alert history retention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/rotate-tables-purge-data.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -19,23 +20,23 @@ The growth of data tables impedes performance. Preserve instance performance by 
 
 By default, the Event Management event \[em\_event\] table uses table rotation. The table rotation schedule ensures that new data is written to one of the tables in the rotation group. According to the value of **Clean base rotation** setting, the base table is deleted and then a new round of writing the tables in a daily rotation commences. By default, this table deletion occurs after seven rotations.
 
-To back up events to a custom table, see [Event Management configuration preferences](../reference/r_EMBestPractice.md).
+To back up events to a custom table, see [Event Management configuration preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/r_EMBestPractice.md).
 
 ## Containing the growth of alert tables
 
 By default, a scheduled job cleans out the alert \[em\_alert\] table. Alert table cleanup is recommended for status and alert history retention.
 
--   **[Modify event table rotation](../task/event-table-rotation.md)**  
+-   **[Modify event table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-table-rotation.md)**  
 Table rotation is used by Event Management, by default, to contain the growth of event \[em\_event\] tables within the rotation table group.
--   **[Purge impact status and alert history](../task/t_EMConfigurePurge.md)**  
+-   **[Purge impact status and alert history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMConfigurePurge.md)**  
 Automatically cleans up outdated impact statuses and alert history from the database to free up space, improve system performance, and ensure only relevant data is retained.
--   **[Alert table clean up](../task/auto-close-alerts.md)**  
+-   **[Alert table clean up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/auto-close-alerts.md)**  
 The Scheduled Jobs feature runs a script to automatically close alerts in the Alerts \[em\_alert\] table that meet specific conditions, helping reduce alert noise and keep the system clean and efficient.
 
-**Parent Topic:**[Manage and monitor alerts](c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EMAlert.md)
 
 **Related topics**  
 
 
-[Table rotation](https://www.servicenow.com/docs/access?context=c_TableRotation&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_TableRotation]
 

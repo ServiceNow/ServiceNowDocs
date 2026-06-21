@@ -2,6 +2,7 @@
 title: Chemical ingredient form
 description: The field description for the chemical ingredient form is as follows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety/hs-chemical-ingredient-form.html
 release: yokohama
 product: Health and Safety
 classification: health-and-safety
@@ -25,5 +26,5 @@ The field description for the chemical ingredient form is as follows.
 |Function|Function of the chemical ingredient in the chemical mixture.|
 |Additional information|Additional information related to the chemical ingredient.|
 
-**Parent Topic:**[Health and Safety Environmental Management reference](../concept/hs-reference-environmental-management.md)
+**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
 

@@ -2,6 +2,7 @@
 title: Using interactions in HR Service Delivery Agent Workspace
 description: Use interaction records to create an HR case or reference employee information to decide to create a case or request from different types of employee communications.You can create interaction records from the HR Service Delivery Agent Workspace form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-interactions.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,7 +24,7 @@ Interaction records are automatically created when you are using agent chat.
 
 **Note:** Agent Assist is available for interactions.
 
-For more information on interactions, see [Interaction records in Agent Workspace](https://www.servicenow.com/docs/access?context=interaction-message-agent-workspace&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+For more information on interactions, see Interaction records in Agent Workspace.
 
 ## Create interactions in HR Service Delivery Agent Workspace
 
@@ -37,15 +38,15 @@ Role required: sn\_hr\_core.case\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **HR Agent Workspace**.
 
-2.  To create an interaction, select the ![Create case icon](../image/IconCreateRecordMenu.png) Create case icon.
+2.  To create an interaction, select the \[Omitted image "IconCreateRecordMenu.png"\] Alt text: Create case icon Create case icon.
 
 3.  Select **Interaction**.
 
-    ![HR Agent Workspace - Interaction](../reference/images/agent-ws-hr-interaction.png)
+    \[Omitted image "agent-ws-hr-interaction.png"\] Alt text: HR Agent Workspace - Interaction
 
 4.  In the details section, enter information about the interaction.
 
-    ![HR Agent WS - New interaction](../reference/images/agent-ws-hr-new-interaction.png)
+    \[Omitted image "agent-ws-hr-new-interaction.png"\] Alt text: HR Agent WS - New interaction
 
 5.  Fill in the fields.
 
@@ -137,15 +138,15 @@ Information specific to the interaction and can help other HR agents. Work notes
     |User's Interactions|Logs all interactions tied to each specific user.|
     |Cases opened for "Opened for"|Shows all HR cases related to the Opened for person.|
 
-7.  You can select from the following: ![HR Agent Workspace - more icon](../reference/images/EllipsisIcon.png) more icon.
+7.  You can select from the following: \[Omitted image "EllipsisIcon.png"\] Alt text: HR Agent Workspace - more icon more icon.
 
-    ![HR Agent Workspace - Interaction buttons](../reference/images/agent-ws-hr-interaction-buttons.png)
+    \[Omitted image "agent-ws-hr-interaction-buttons.png"\] Alt text: HR Agent Workspace - Interaction buttons
 
 8.  Select **Create HR Case** to create a case based on the interaction.
 
     **Create Incident** is part of demo data and not available to HR Service Delivery Agent Workspace.
 
-9.  Select the ![HR Agent Workspace - more icon](../reference/images/EllipsisIcon.png) more icon to display additional actions you can take.
+9.  Select the \[Omitted image "EllipsisIcon.png"\] Alt text: HR Agent Workspace - more icon more icon to display additional actions you can take.
 
 <table id="table_w54_1nb_5jb"><thead><tr><th>
 
@@ -184,6 +185,6 @@ Select to delete the interaction record.
 
 11. To view interactions, select the **Interactions for Subject Person** tab on the child tab.
 
-    ![HR Agent Workspace - Interaction tab](../reference/images/agent-ws-hr-interact-tab.png)
+    \[Omitted image "agent-ws-hr-interact-tab.png"\] Alt text: HR Agent Workspace - Interaction tab
 
 

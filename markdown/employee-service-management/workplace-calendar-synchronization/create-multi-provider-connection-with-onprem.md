@@ -2,6 +2,7 @@
 title: Create single or multiple providers with Microsoft Exchange On-Premises
 description: Configure single or multiple providers to the Microsoft Exchange On-Premises calendar provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-calendar-synchronization/create-multi-provider-connection-with-onprem.html
 release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -17,7 +18,7 @@ Configure single or multiple providers to the Microsoft Exchange On-Premises cal
 
 ## Before you begin
 
-[Connect Microsoft Exchange On-Premises MID server with ServiceNow](connect-on-premise-mid-server-with-servicenow.md)
+[Connect Microsoft Exchange On-Premises MID server with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-calendar-synchronization/connect-on-premise-mid-server-with-servicenow.md)
 
 Role required: admin
 

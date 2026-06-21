@@ -2,6 +2,7 @@
 title: Pre-arbitration and arbitration
 description: The dispute transactions for Visa support pre-arbitration and arbitration workflows. If an issuer and acquirer can't resolve a dispute, either party can initiate pre-arbitration, which may escalate to arbitration. In arbitration, Visa provides the final ruling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -35,7 +36,7 @@ Initiated by
 
 </th></tr></thead><tbody><tr><td>
 
-[Allocation workflow](allocation-workflow.md)
+[Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/allocation-workflow.md)
 
 </td><td>
 
@@ -48,7 +49,7 @@ Acquirer
 
 </td></tr><tr><td>
 
-[Collaboration workflow](collaboration-workflow.md)
+[Collaboration workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-workflow.md)
 
 </td><td>
 
@@ -60,10 +61,10 @@ Acquirer
 Issuer
 
 </td></tr></tbody>
-</table>-   **[Allocation workflow](allocation-workflow.md)**  
+</table>-   **[Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/allocation-workflow.md)**  
 The allocation workflow involves the acquirer initiating pre-arbitration and arbitration for fraud and authorization disputes.
--   **[Collaboration workflow](collaboration-workflow.md)**  
+-   **[Collaboration workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-workflow.md)**  
 The collaboration workflow involves the issuer initiating pre-arbitration and arbitration for processing errors and consumer disputes.
 
-**Parent Topic:**[Working on a dispute case integrated with Visa](work-on-a-dispute-case-integrated-with-visa.md)
+**Parent Topic:**[Working on a dispute case integrated with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.md)
 

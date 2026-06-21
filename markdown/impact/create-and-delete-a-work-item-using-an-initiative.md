@@ -2,7 +2,10 @@
 title: Create and delete a work item using an initiative
 description: Create an actionable Strategic Planning Workspace \(SPM\) or Collaborative Work Management \(CWM\) work item using free-form initiatives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/create-and-delete-a-work-item-using-an-initiative.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-02-25"
 reading_time_minutes: 1
@@ -30,11 +33,11 @@ Role required: Impact Platform Owner, Impact Portfolio Owner.
 
 4.  Select **Convert to work item**.
 
-    ![Select Convert to work item under My work items in an initiative.](../image/create-workitem-from-initiative.png)
+    \[Omitted image "create-workitem-from-initiative.png"\] Alt text: Select Convert to work item under My work items in an initiative.
 
 5.  On the work items form, fill in the fields.
 
-    For more information, see [Planning item type form](https://www.servicenow.com/docs/access?context=new-planning-item-planning-org-form&version=yokohama&pubname=yokohama-it-business-management&ft:locale=en-US).
+    For more information, see .
 
 6.  Select **Convert**.
 

@@ -2,6 +2,7 @@
 title: Components installed with Galileo Inside
 description: Information about the roles and scheduled jobs that are installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/components-installed-galileo-inside.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

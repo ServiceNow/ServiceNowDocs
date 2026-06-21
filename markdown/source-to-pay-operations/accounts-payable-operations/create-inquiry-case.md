@@ -2,6 +2,7 @@
 title: Create an invoice inquiry case manually
 description: Create invoice inquiry cases to address and respond to questions related to invoices and payment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/create-inquiry-case.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,11 +32,11 @@ Invoice inquiry cases are created automatically when you receive emails from sup
 
 2.  Under Quick actions, select **Create New Inquiry**.
 
-    ![Create new inquiry](../image/create-inquiry-case.png)
+    \[Omitted image "create-inquiry-case.png"\] Alt text: Create new inquiry
 
 3.  On the Create New Invoice case form, fill in the fields.
 
-    For a description of the field values, see [Create New Invoice case form](../reference/create-new-ap-case-form.md).
+    For a description of the field values, see [Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md).
 
 4.  Select **Save**.
 
@@ -44,5 +45,5 @@ Invoice inquiry cases are created automatically when you receive emails from sup
 
 The invoice inquiry cases are created manually to address and respond to questions related to invoices and payments.
 
-**Parent Topic:**[Invoice inquiry cases](../concept/work-with-inquiry-cases.md)
+**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
 

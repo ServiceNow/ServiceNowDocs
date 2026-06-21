@@ -2,6 +2,7 @@
 title: Report fraud
 description: Report potential fraud on a transaction to a card network. If the dispute category is Fraud, the Report fraud activity is displayed for a transaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/report-fraud.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +24,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![List icon.](../../../common/image/icon-list.png)\).
+2.  Select the lists icon \(\[Omitted image "icon-list.png"\] Alt text: List icon.\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -52,10 +53,10 @@ Depending on the policy rule, the task moves to the next activity. The following
 
 |Policy rule|Activity displayed|
 |-----------|------------------|
-|Immediate Provisional Credit|[Issue provisional credit](provide-provisional-credit-to-customer.md)|
-|Immediate Final Credit|[Set recovery option](recovery-option-for-final-credit.md)|
-|No Credit|[Review participating merchant alerts](alert-merchant-regarding-dispute.md)|
+|Immediate Provisional Credit|[Issue provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/provide-provisional-credit-to-customer.md)|
+|Immediate Final Credit|[Set recovery option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/recovery-option-for-final-credit.md)|
+|No Credit|[Review participating merchant alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/alert-merchant-regarding-dispute.md)|
 |Deny|Case is denied|
 
-**Parent Topic:**[Investigating a dispute](investigate-a-dispute.md)
+**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

@@ -2,6 +2,7 @@
 title: Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications
 description: Activate the Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/activate-group-action-framework-somt.html
 release: yokohama
 topic_type: task
 last_updated: "2025-11-13"
@@ -29,7 +30,7 @@ In the request\_characteristic, select **Index All Tables**.
 
 2.  In Group &amp; Action - Sales and Order Management for Telecommunications, select **Activate skill**.
 
-    ![now assist skills for tmt.](../image/assist-skills-somt.png)
+    \[Omitted image "assist-skills-somt.png"\] Alt text: now assist skills for tmt.
 
 3.  On the form, select **Edit** to change the values.
 

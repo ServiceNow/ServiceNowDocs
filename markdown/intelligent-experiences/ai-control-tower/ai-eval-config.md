@@ -2,13 +2,14 @@
 title: Configuring evaluations
 description: Configure conversation evaluations by disabling evaluations, adjusting execution logic and thresholds, and tuning scoring weights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/ai-eval-config.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-09-02"
 reading_time_minutes: 1
-breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Configuring evaluations

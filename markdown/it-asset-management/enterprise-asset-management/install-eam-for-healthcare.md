@@ -2,6 +2,7 @@
 title: Install Enterprise Asset Management for healthcare
 description: You can install the Enterprise Asset Management for Healthcare application \(com.sn\_eamhc\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/install-eam-for-healthcare.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -30,7 +31,7 @@ The following items are installed with Enterprise Asset Management for Healthcar
 -   Roles
 -   Plugins
 
-For more information, see [Installed with Enterprise Asset Management for Healthcare](../reference/installed-with-eam-healthcare.md).
+For more information, see [Installed with Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.md).
 
 ## Procedure
 

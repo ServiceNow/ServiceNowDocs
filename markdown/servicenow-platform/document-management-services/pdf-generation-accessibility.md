@@ -2,6 +2,7 @@
 title: PDF generation and accessibility
 description: Export an individual record or list of records into a PDF format that supports accessibility. When this feature is enabled, accessibility tags will be available in the PDF tag tree to help users who rely on screen readers to navigate, understand, and interact with the generated PDF documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/document-management-services/pdf-generation-accessibility.html
 release: yokohama
 product: Document Management Services
 classification: document-management-services
@@ -19,9 +20,9 @@ Export an individual record or list of records into a PDF format that supports a
 
 ## Accessible PDF
 
-To enable accessibility for PDF generation, add the accessibility property **com.snc.pdf.generation.accessibility** and set the value to `true`. Only users with admin roles can set the property. For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+To enable accessibility for PDF generation, add the accessibility property **com.snc.pdf.generation.accessibility** and set the value to `true`. Only users with admin roles can set the property. For more information, see 
 
-For PDF generation API, see [PDFGenerationAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+For PDF generation API, see 
 
 ## Export to PDF for list of records
 
@@ -36,13 +37,13 @@ PDF export orientation includes:
 
 When the accessibility property is enabled, users will get a pop-up when they export to PDF where they can specify whether to create an accessible PDF or not.
 
-![Check box to enable accessible PDF](../image/accessible-pdf.png "Export to PDF")
+\[Omitted image "accessible-pdf.png"\] Alt text: Check box to enable accessible PDF
 
 To enable accessibility, select the **Accessible PDF** check box.
 
 **Note:** Adding accessibility tags to a PDF increases the file size.
 
-To export a PDF list, see [Export data from a list](https://www.servicenow.com/docs/access?context=export-list-data&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+To export a PDF list, see .
 
 ## Export to PDF for a single record
 
@@ -59,5 +60,5 @@ To enable accessibility, select the **Accessible PDF** check box.
 
 **Note:** Adding accessibility tags to a PDF increases the file size.
 
-To generate a single PDF record, see [Export data from a record](https://www.servicenow.com/docs/access?context=export-form-data&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+To generate a single PDF record, see .
 

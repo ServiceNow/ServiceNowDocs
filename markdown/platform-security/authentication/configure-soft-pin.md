@@ -2,6 +2,7 @@
 title: Configure Soft PIN
 description: Users are required to configure Soft PIN before it can be used for authentication with ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/configure-soft-pin.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -27,15 +28,15 @@ Role required: none
 
     -   **Service Portal**: Go to your **User Profile** and select **Enroll Soft PIN**.
 
-        ![Soft PIN on the Service Portal](../images/softpin-3.png "Soft PIN on Service Portal")
+        \[Omitted image "softpin-3.png"\] Alt text: Soft PIN on the Service Portal
 
     -   **Platform UI**: Go to your **User Profile** and select **Enroll Soft PIN** under Related Links.
 
-        ![Soft PIN on the Platform UI](../images/softpin-1.png "Soft PIN on Platform UI")
+        \[Omitted image "softpin-1.png"\] Alt text: Soft PIN on the Platform UI
 
     -   **Navigation menu**: Select **All** &gt; **Authentication Factors** &gt; **Soft PIN** &gt; **Enroll**.
 
-        ![Soft PIN on the Navigation menu](../images/softpin-2.png "Soft PIN on Navigation menu")
+        \[Omitted image "softpin-2.png"\] Alt text: Soft PIN on the Navigation menu
 
 2.  Create a PIN that meets these requirements:
 
@@ -45,7 +46,7 @@ Role required: none
     -   No single digit must be repeated more than twice consecutively
     -   Don’t use ascending or descending numeric sequences longer than two digits
     -   Can’t reuse any of your previous five PINs
-    ![Soft PIN Enrollment](../images/configure-soft-pin.png "Soft PIN Enrollment")
+    \[Omitted image "configure-soft-pin.png"\] Alt text: Soft PIN Enrollment
 
 3.  Select **Submit**.
 

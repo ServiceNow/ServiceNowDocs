@@ -1,7 +1,8 @@
 ---
-title: User Experience Analytics data options for dial visualizations
-description: When you select a User Experience Analytics data source for a dial visualization, the following Data configuration options are available.
+title: Usage Insights data options for dial visualizations
+description: When you select a Usage Insights data source for a dial visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-dial-uxa-data.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -9,9 +10,9 @@ reading_time_minutes: 3
 breadcrumb: [Dial visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# User Experience Analytics data options for dial visualizations
+# Usage Insights data options for dial visualizations
 
-When you select a User Experience Analytics data source for a dial visualization, the following Data configuration options are available.
+When you select a Usage Insights data source for a dial visualization, the following Data configuration options are available.
 
 <table id="table_wqy_sjr_qtb"><thead><tr><th>
 
@@ -27,7 +28,7 @@ Data source
 
 </td><td>
 
-You have selected a User Experience Analytics data source in [Create a dial visualization in the Visualization Designer](../task/create-dv-dial-ac.md).
+You have selected a Usage Insights data source in [Create a dial visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-dial-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -47,7 +48,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -260,5 +261,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a dial visualization in the Visualization Designer](../task/create-dv-dial-ac.md)
+</table>**Parent Topic:**[Create a dial visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-dial-ac.md)
 

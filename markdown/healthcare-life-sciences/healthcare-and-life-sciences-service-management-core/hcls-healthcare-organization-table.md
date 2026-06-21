@@ -2,6 +2,7 @@
 title: Healthcare organization table
 description: The Healthcare organization \[sn\_hcls\_organization\] table stores the details of a healthcare organization in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-organization-table.html
 release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -23,7 +24,7 @@ The Healthcare organization \[sn\_hcls\_organization\] table stores the details 
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
 
 <table id="table_egs_nss_mpb"><thead><tr><th>
 
@@ -129,5 +130,5 @@ Reference
 Parent organization associated with the organization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

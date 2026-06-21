@@ -2,6 +2,7 @@
 title: Activate AI agents individually
 description: Activate all the AI agents individually that you want to make available for the Coordinate supplier onboarding agentic workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/activate-ai-agents.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

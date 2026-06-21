@@ -2,7 +2,10 @@
 title: Client scripts installed with Customer Service Management
 description: Client scripts are added with activation of Customer Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_ClientScriptInsWCustServ.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -290,5 +293,5 @@ Entitlement\[service\_entitlement\]
 Displays a field warning message for the **Per unit** field if a product is selected but the **Asset**, **Contract**, and **Account** fields are empty.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Customer Service Management](r_InstalledWithCustomerService.md)
+</table>**Parent Topic:**[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_InstalledWithCustomerService.md)
 

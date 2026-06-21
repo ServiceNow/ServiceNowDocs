@@ -2,6 +2,7 @@
 title: Using At a Glance for HR Service Delivery Agent Workspace
 description: Use the At a Glance feature from the contextual sidebar to quickly view HR profile information for the opened for person on an HR case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-at-a-glance.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,5 +26,5 @@ What appears on your **At a Glance** panel depends on what you configure on an H
 
 If you change the subject person, the profile information of that person will also be immediately updated in the **At a Glance** panel, enabling you to verify the right person even before saving the change.
 
-For more information, see [HR profile editable field configuration](c_HRProfileEditableFieldConfig.md). For more information on adding fields to an HR profile, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information, see [HR profile editable field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRProfileEditableFieldConfig.md). For more information on adding fields to an HR profile, see Configuring the form layout.
 

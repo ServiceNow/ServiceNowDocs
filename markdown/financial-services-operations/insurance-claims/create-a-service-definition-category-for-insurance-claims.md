@@ -2,6 +2,7 @@
 title: Create a service definition category for Insurance claims
 description: Create a service definition category in Insurance claims to properly classify and handle claims that are related to a particular benefit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/create-a-service-definition-category-for-insurance-claims.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims
@@ -43,5 +44,5 @@ A service definition category is a logical grouping of service definitions. It c
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Creating a service definition for Insurance claims](../concept/create-service-definitions-for-insurance-claims.md)
+**Parent Topic:**[Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md)
 

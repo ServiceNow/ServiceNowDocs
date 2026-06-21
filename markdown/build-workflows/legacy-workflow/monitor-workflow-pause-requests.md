@@ -2,6 +2,7 @@
 title: Monitor workflow pause requests
 description: You can monitor the status of workflow pause requests using Workflow Pause Request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/legacy-workflow/monitor-workflow-pause-requests.html
 release: yokohama
 product: Legacy Workflow
 classification: legacy-workflow
@@ -54,5 +55,5 @@ You must install and activate the Workflow Pause Utility plugin.
     |Stuck Act Count To be subtracted for Pause Percentage|Writer to whom the documentation request is assigned.|
 
 
-**Parent Topic:**[Workflow pause utility](../concept/workflow-pause-utility.md)
+**Parent Topic:**[Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/workflow-pause-utility.md)
 

@@ -2,13 +2,14 @@
 title: Jeopardy Management setup overview
 description: Learn about how to set up and configure Jeopardy Management for Order Management for Telecommunications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/jeopardy-management-setup-overview.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Jeopardy Management, Order Management, Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Jeopardy Management, Order Management, Explore, Sales Customer Relationship Management]
 ---
 
 # Jeopardy Management setup overview

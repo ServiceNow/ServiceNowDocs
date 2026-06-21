@@ -2,6 +2,7 @@
 title: Review analytics for an external content connector
 description: Review analytics for an external content connector to gain insight into its crawl behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/review-analytics-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -28,8 +29,8 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 3.  In the connector editor, select the Analytics tab.
 
-    For details on the available analytics metrics, see [Analytics for external content connectors](../reference/analytics-external-content-connectors.md).
+    For details on the available analytics metrics, see [Analytics for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/analytics-external-content-connectors.md).
 
 
-**Parent Topic:**[Reviewing external content connector crawl results and analytics](../concept/reviewing-external-content-connector-results-and-analytics.md)
+**Parent Topic:**[Reviewing external content connector crawl results and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/reviewing-external-content-connector-results-and-analytics.md)
 

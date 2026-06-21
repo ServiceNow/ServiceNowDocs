@@ -2,6 +2,7 @@
 title: Configuring FSC common applications
 description: Plan and configure your implementation of the FSC common applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/common-service-delivery/config-fsc-common-apps.html
 release: yokohama
 product: Common Service Delivery
 classification: common-service-delivery
@@ -15,8 +16,8 @@ breadcrumb: [Finance and Supply Chain common applications, Finance and Supply Ch
 
 Plan and configure your implementation of the FSC common applications.
 
--   **[Install the Finance and Supply Chain common applications](../task/install-fsc-common-apps.md)**  
+-   **[Install the Finance and Supply Chain common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/install-fsc-common-apps.md)**  
 Install Finance and Supply Chain common applications and its dependent plugins from the ServiceNow Store.
 
-**Parent Topic:**[Finance and Supply Chain common applications](fsc-common-apps.md)
+**Parent Topic:**[Finance and Supply Chain common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/fsc-common-apps.md)
 

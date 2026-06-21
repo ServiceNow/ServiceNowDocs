@@ -2,6 +2,7 @@
 title: Filter an SLA map
 description: How to filter the SLA map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_FilterTheMap.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -32,5 +33,5 @@ Role required: wm\_admin, wm\_dispatcher, or dispatcher combination role
 3.  Click **Apply Filter** to apply your changes to the map.
 
 
-**Parent Topic:**[Use an SLA map](../concept/c_UseTheSLAMap.md)
+**Parent Topic:**[Use an SLA map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_UseTheSLAMap.md)
 

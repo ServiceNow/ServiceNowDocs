@@ -2,6 +2,7 @@
 title: Action form
 description: Use an action form to add an action to a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/action-form.html
 release: yokohama
 product: Demand Management
 classification: demand-management
@@ -103,7 +104,7 @@ Short description
 
 Brief description of the action such as what the action entails, how to implement the action, who it affects, and the action outcome.As you start typing the title for your action, the related actions that potentially match your action title appear.
 
- Click the Suggestion icon \(![suggestion icon](../image/suggestions-icon.png)\) to select a description from the list of predefined actions.
+ Click the Suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: suggestion icon\) to select a description from the list of predefined actions.
 
 </td></tr><tr><td>
 
@@ -122,5 +123,5 @@ Work notes
 Information about the action. Add work notes to communicate about the status of action approval, rejection, or implementation with other users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/demand-management-forms.md)
 

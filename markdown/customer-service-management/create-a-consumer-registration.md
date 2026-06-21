@@ -2,7 +2,10 @@
 title: Register for the Consumer Service Portal
 description: Register for the Consumer Service Portal to gain access and create a consumer profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-a-consumer-registration.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

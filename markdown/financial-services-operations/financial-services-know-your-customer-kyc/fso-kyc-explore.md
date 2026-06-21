@@ -2,6 +2,7 @@
 title: Exploring Financial Services Know Your Customer
 description: Use Financial Services Know Your Customer to verify applicant identity and minimize risk to your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-explore.html
 release: yokohama
 product: Financial Services Know Your Customer \(KYC\)
 classification: financial-services-know-your-customer-kyc
@@ -15,7 +16,7 @@ breadcrumb: [Know Your Customer, Using common applications, Financial Services O
 
 Use Financial Services Know Your Customer to verify applicant identity and minimize risk to your organization.
 
-For information on components that are installed with Financial Services Know Your Customer, see [Components installed with Financial Services Know Your Customer](../reference/fso-kyc-installed-with.md).
+For information on components that are installed with Financial Services Know Your Customer, see [Components installed with Financial Services Know Your Customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-installed-with.md).
 
 ## Key Features
 

@@ -2,6 +2,7 @@
 title: Use the GetApplicationCredential component
 description: When login credentials for an RPA Hub application are already set in RPA Hub, retrieve the credentials by using the GetApplicationCredential component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-credentials-getappcredential.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ When login credentials for an RPA Hub application are already set in RPA Hub, re
 
 ## Before you begin
 
-In RPA Desktop Design Studio, assign your automation to a bot process by selecting **Assign bot process** option from the **Design** tab. For more information, see [Assign bot process to an automation project](assign-bot-process.md).
+In RPA Desktop Design Studio, assign your automation to a bot process by selecting **Assign bot process** option from the **Design** tab. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/assign-bot-process.md).
 
 Role required: none
 
@@ -25,7 +26,7 @@ Role required: none
 
 The GetApplicationCredential component can be used when the automation involves an application that requires user authentication. When a user name and password for the application are stored in RPA Hub, GetApplicationCredential retrieves them.
 
-You can configure the properties for the GetApplicationCredential component. For more information about these properties, see [Properties of the Credentials components](../reference/credentials-properties.md).
+You can configure the properties for the GetApplicationCredential component. For more information about these properties, see [Properties of the Credentials components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/credentials-properties.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ You can configure the properties for the GetApplicationCredential component. For
 
 3.  Confirm the configuration of the component's input fields.
 
-    For more information, see [Configure port properties](configure-input-port-properties.md).
+    For more information, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the GetApplicationCredential component to the corresponding ports of the other components as described in the following table.
 
@@ -48,5 +49,5 @@ You can configure the properties for the GetApplicationCredential component. For
 5.  To test the component, on the **Design** tab, select **Run**.
 
 
-**Parent Topic:**[Credentials](../concept/credentials.md)
+**Parent Topic:**[Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/credentials.md)
 

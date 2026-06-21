@@ -2,12 +2,13 @@
 title: Using Voice with Workforce Optimization for Customer Service
 description: Use Voice to deflect cases away from your human agents using bots. You can record phone interactions when agents resolve issues. Also, you can monitor those interactions to evaluate and improve the quality of case resolutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-servicenow-voice-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Channel Management in Workforce Optimization for Customer Service, Using Workforce Optimization for Customer Service, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
@@ -20,7 +21,7 @@ With the Voice application, you can:
 -   Enable your workforce to work using the voice channel and get call recordings, call transcripts, and reports of sentiment analysis when agents interact with callers. You can visualize all of this information within the Channel Management application in Workforce Optimization for Customer Service.
 -   Analyze the call transcripts and sentiments of users after an interaction is complete so that you can create assessments, provide feedback, and training for agents.
 -   Synchronize agent presence within the queue.
--   View the Amazon Connect channel on Channel Management. You can view the performance metrics and [reports](../reference/components-installed-configurable-wfo-cs.md) of the agents using the voice channel. To access the reports, your application administrator must install [Amazon Connect Spoke](https://www.servicenow.com/docs/access?context=amazon-connect-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US).
+-   View the Amazon Connect channel on Channel Management. You can view the performance metrics and [reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) of the agents using the voice channel. To access the reports, your application administrator must install .
 
     **Note:** The following reports on the Amazon Connect channel are chargeable:
 
@@ -30,22 +31,22 @@ With the Voice application, you can:
     These reports are collected from Amazon Connect using GetMetricData and GetCurrentMetricData APIs. For more information on the prices of these reports, see [Amazon CloudWatch Pricing](https://aws.amazon.com/cloudwatch/pricing/).
 
 
-**Note:** You can integrate any third-party telephony service with the [ServiceNowVoice](https://www.servicenow.com/docs/access?context=cloud-call-center-overview&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) application. By default, ServiceNowVoice provides you with the ability to integrate with the Amazon Connect application.
+**Note:** You can integrate any third-party telephony service with the ServiceNowVoice application. By default, ServiceNowVoice provides you with the ability to integrate with the Amazon Connect application.
 
-You can visualise the metrics from the Amazon Connect phone queues that are routed through Voice using the Channel Management application in Workforce Optimization for Customer Service. The Voice application uses [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) to report data from the Amazon Connect queues.
+You can visualise the metrics from the Amazon Connect phone queues that are routed through Voice using the Channel Management application in Workforce Optimization for Customer Service. The Voice application uses Advanced Work Assignment to report data from the Amazon Connect queues.
 
 ## Voice Amazon Connect integration workflow
 
 Here's how the Voice integrates with Amazon Connect:
 
-![Infographic displaying how the ServiceNow Voice application reduces customer interaction from human agents who use the Amazon Connect integration. For the text description, refer to...](../image/amazon-connect-integration.png)
+\[Omitted image "amazon-connect-integration.png"\] Alt text: Infographic displaying how the ServiceNow Voice application reduces customer interaction from human agents who use the Amazon Connect integration. For the text description, refer to...
 
 ## Benefits of using Voice with Workforce Optimization for Customer Service
 
 As a manager, you can:
 
 -   Monitor your agent's calls as they resolve customer issues.
--   View synchronized [agent presence states](https://www.servicenow.com/docs/access?context=agent-experience&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) within the Channel Management application in Workforce Optimization for Customer Service.
+-   View synchronized agent presence states within the Channel Management application in Workforce Optimization for Customer Service.
 -   Assess your agents by reviewing recordings of agent interaction and call transcripts.
 -   Analyze sentiments from the call transcripts and use that to coach and train your agents.
 
@@ -55,12 +56,12 @@ As an agent, you can:
 -   Analyze call transcripts and listen to recordings after you complete an interaction.
 -   Place outbound calls using automated outbound dialing.
 
--   **[Associate Amazon Connect queues for CSM to a ServiceNow instance](../task/setup-amazonconnect-configurable-csm.md)**  
+-   **[Associate Amazon Connect queues for CSM to a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-amazonconnect-configurable-csm.md)**  
 Set up phone queues for Amazon Connect to gain visibility into the queues using Workforce Optimization for Customer Service.
--   **[Listen in to an agent call](../task/listen-agent-call-configurable-wfo-cs.md)**  
+-   **[Listen in to an agent call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/listen-agent-call-configurable-wfo-cs.md)**  
 Monitor your customer service agents' calls when they are resolving issues for external callers by using Workforce Optimization for Customer Service.
--   **[Analyze transcripts and sentiments for the Amazon Connect phone channel](../task/analyze-transcripts-sentiments-configurable-wfo-cs.md)**  
+-   **[Analyze transcripts and sentiments for the Amazon Connect phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/analyze-transcripts-sentiments-configurable-wfo-cs.md)**  
 Analyze your agent's call recordings, transcripts, and sentiment reports. With this information, you can assess the call quality and train your agents to handle calls better in the future.
 
-**Parent Topic:**[Channel Management in Workforce Optimization for Customer Service](configurable-channels-wfo-cs.md)
+**Parent Topic:**[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-channels-wfo-cs.md)
 

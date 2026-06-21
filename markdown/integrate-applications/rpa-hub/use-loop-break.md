@@ -2,6 +2,7 @@
 title: Use the Break component
 description: Break a loop at any time with the Break component in the RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-loop-break.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -46,5 +47,5 @@ You can configure the properties for the Break component.
 4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Loops](../concept/loops.md)
+**Parent Topic:**[Loops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/loops.md)
 

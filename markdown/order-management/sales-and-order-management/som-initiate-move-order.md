@@ -2,6 +2,7 @@
 title: Start a move order
 description: Start a move order to update product inventory location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-initiate-move-order.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ Once the move order is started, the updated location is propagated to the select
 
 ## Procedure
 
-1.  In the **Configurable Workspace**, select the **List** ![](../image/Lists.png) view.
+1.  In the **Configurable Workspace**, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Open the order line item that requires an inventory location change and update the location field, then select **Save**.
 
@@ -35,7 +36,7 @@ Once the move order is started, the updated location is propagated to the select
 
 4.  In the **Create a new Order** dialog box, select an **Account** and then under **Order action**, select **Change**.
 
-    ![New order interceptor dialog showing the order action as change.](../image/som-change-order-interceptor.png)
+    \[Omitted image "som-change-order-interceptor.png"\] Alt text: New order interceptor dialog showing the order action as change.
 
 5.  From the **Catalog**, select **Manage** to open the order line for the location change.
 
@@ -48,5 +49,5 @@ Once the move order is started, the updated location is propagated to the select
     The change order is propagated through all affected order lines and order tasks.
 
 
-**Parent Topic:**[Create an order in Order Management](som-create-product-order.md)
+**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-product-order.md)
 

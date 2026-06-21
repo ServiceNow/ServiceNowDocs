@@ -2,13 +2,14 @@
 title: Roles in CDM
 description: List of roles and permissions in CDM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/devops-family/cdm-roles.html
 release: yokohama
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [DevOps Config roles, Reference, DevOps Config, IT Service Management]
+breadcrumb: [DevOps Config roles, DevOps Config reference, DevOps Config, IT Service Management]
 ---
 
 # Roles in CDM
@@ -19,7 +20,7 @@ List of roles and permissions in CDM.
 
 ## CDM roles
 
-![CDM role hierarchy](../image/cdm-role-hierarchy.png)
+\[Omitted image "cdm-role-hierarchy.png"\] Alt text: CDM role hierarchy
 
 <table id="table_cqv_djm_nnb"><thead><tr><th>
 
@@ -184,5 +185,5 @@ CDM All App Access \[sn\_cdm.cdm\_all\_app\_access\]
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DevOps Config roles](../../devops-config/reference/devops-config-roles.md)
+</table>**Parent Topic:**[DevOps Config roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/devops-config-roles.md)
 

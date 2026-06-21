@@ -1,0 +1,367 @@
+---
+title: Combined Sales Forecasting release notes for upgrades from Xanadu to Yokohama
+description: Consolidated page of all release notes for Sales Forecasting from Xanadu to Yokohama.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-salesforecasting-release-notes.html
+release: yokohama
+topic_type: reference
+last_updated: "2026-06-20"
+reading_time_minutes: 3
+breadcrumb: [Products combined by family]
+---
+
+# Combined Sales Forecasting release notes for upgrades from Xanadu to Yokohama
+
+Consolidated page of all release notes for Sales Forecasting from Xanadu to Yokohama.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Sales Forecasting release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Yokohama.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Sales Forecasting to Yokohama
+
+Before you upgrade to Yokohama, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Yokohama, new features were introduced for Sales Forecasting.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[View the Sales Forecasting dashboard](https://www.servicenow.com/docs/access?context=using-sales-forecasting&family=yokohama&ft:locale=en-US)**
+
+Sales Forecasting uses data from the opinions and insights of your sales representatives reflecting how they feel about the deals in their pipeline. View the dashboard to see the sales forecast for your teams in various stages. You can see the total amount of opportunity in each stage for selected time periods or teams.
+
+-   **[Categorizing the sales opportunities](https://www.servicenow.com/docs/access?context=configure-forecast-categories&family=yokohama&ft:locale=en-US)**
+
+Categorize the opportunities in the system based on the probability of closing the sales deal.
+
+-   **[Set up sales team hierarchy](https://www.servicenow.com/docs/access?context=setup-sales-group&family=yokohama&ft:locale=en-US)**
+
+Set up the sales teams and assign managers to each team. Once the users, team, and opportunity data is added, and a selection of categories, you can calculate the forecast for any group or specific sales team and view the dashboard.
+
+-   **[Set up Sales Quota Management](https://www.servicenow.com/docs/access?context=setup-sales-quota&family=yokohama&ft:locale=en-US)**
+
+Assign quota targets to sales representatives and managers for specific periods. A **Quota** column displays the sales target for the managers and their team. The **Gap** column displays the remaining target amount to achieve the required quota target.
+
+-   **[Set up forecast schedule](https://www.servicenow.com/docs/access?context=setup-forecast-schedule&family=yokohama&ft:locale=en-US)**
+
+Create a forecast scheduled job to update or create the forecast data at a specific time or on a recurring schedule. The forecast scheduled job automatically fetches all the opportunities in the system and generates forecast data.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Yokohama, some changes were made to existing Sales Forecasting features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Yokohama, some Sales Forecasting features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Yokohama, some Sales Forecasting features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Sales Forecasting.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Sales Forecasting we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Sales Forecasting we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Sales Forecasting, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Sales Forecasting we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Sales Forecasting we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   Project future sales and revenue with intuitive forecasting by sales representatives.
+-   Access the Sales Forecast dashboard at all levels of the sales hierarchy.
+-   Set and manage sales quotas for individual representatives and sales teams.
+-   Track sales quota targets and their progress for individuals and sales teams across the hierarchy.
+
+ See [Sales Forecasting](https://www.servicenow.com/docs/access?context=sales-forecasting&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/rn-combined-intro.md)
+

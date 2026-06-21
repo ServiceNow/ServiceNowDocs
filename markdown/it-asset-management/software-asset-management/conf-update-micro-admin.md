@@ -2,6 +2,7 @@
 title: Configure updates on Microsoft 365 Admin Center
 description: Avoid anonymous user information in Microsoft 365 reports on activity to be imported to ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/conf-update-micro-admin.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management

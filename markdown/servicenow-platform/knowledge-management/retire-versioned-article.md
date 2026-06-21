@@ -2,6 +2,7 @@
 title: Retire a versioned article
 description: You can retire the latest published version of a knowledge article. Retiring a knowledge article doesn’t create a version. It simply marks the article as Retired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/retire-versioned-article.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

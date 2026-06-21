@@ -2,6 +2,7 @@
 title: Redirect non-admin users to Service Operations Workspace
 description: Enable a non-admin user to start prioritizing tasks quickly by redirecting to Service Operations Workspace after logging in to the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/redirect-sow-landing-page.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -19,7 +20,7 @@ Enable a non-admin user to start prioritizing tasks quickly by redirecting to Se
 
 Role required: admin
 
-Ensure that Next Experience is enabled on your instance. For information about its activation, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+Ensure that Next Experience is enabled on your instance. For information about its activation, see Considerations for activating Next Experience.
 
 ## Procedure
 
@@ -47,5 +48,5 @@ Ensure that Next Experience is enabled on your instance. For information about i
     2.  Modify the property and select **Update**.
 
 
-**Parent Topic:**[Landing page redirection in Service Operations Workspace for ITSM](../concept/landing-page-redirection-sow-itsm.md)
+**Parent Topic:**[Landing page redirection in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/landing-page-redirection-sow-itsm.md)
 

@@ -2,11 +2,12 @@
 title: Export questionnaire responses to a spreadsheet
 description: Export received or returned questionnaires to Microsoft Excel spreadsheets. This option enables you to use the spreadsheet environment to review questions and answers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/export-q-and-a-to-excel.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---

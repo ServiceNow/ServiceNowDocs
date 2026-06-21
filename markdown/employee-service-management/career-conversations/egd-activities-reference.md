@@ -2,6 +2,7 @@
 title: Career Conversations reference
 description: Administrators use reference information to configure and maintain applications and features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/career-conversations/egd-activities-reference.html
 release: yokohama
 product: Career Conversations
 classification: career-conversations
@@ -15,14 +16,14 @@ breadcrumb: [Career Conversations, Talent Development, Employee Service Manageme
 
 Administrators use reference information to configure and maintain applications and features.
 
--   **[Discussion series form](../reference/egd-activities-conversations-form.md)**  
+-   **[Discussion series form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-conversations-form.md)**  
 Career Conversations administrators create conversations that are used by managers and employees.
--   **[Create Suggested Talking Points reference](../reference/egd-activities-create-talking-point-form.md)**  
+-   **[Create Suggested Talking Points reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-create-talking-point-form.md)**  
 Career Conversations administrators create suggested talking points that are used to identify topics of discussion during a conversation.
--   **[Suggested talking points form](../reference/egd-activities-suggested-talking-points-form.md)**  
+-   **[Suggested talking points form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-suggested-talking-points-form.md)**  
 Career Conversations administrators can manage conversations that are used by managers and employees.
--   **[Components installed with Career Conversations](../reference/egd-activities-components-roles-tables.md)**  
+-   **[Components installed with Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-components-roles-tables.md)**  
 Several types of components install with Career Conversations, including roles and tables.
 
-**Parent Topic:**[Talent Development](egd-employee-growth-development-suite.md)
+**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

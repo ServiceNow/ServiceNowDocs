@@ -2,12 +2,13 @@
 title: Exploring Asset Management Workspace
 description: The user interface of the Asset Management application is enhanced to make it more user-friendly and intuitive, enabling you to manage your hardware installations better.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-management/exploring-asset-management.html
 release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Asset Management, IT Asset Management]
 ---
 
@@ -29,18 +30,13 @@ The Asset Workspace is a unified medium with multiple views that help you manage
 
 The Asset Workspace contains the following views:
 
--   [Hardware asset overview](hardware-asset-overview-am.md)
--   [Inventory view](inventory-view-am.md)
--   [Asset estate view](asset-estate-view-am.md)
--   [Model management view](model-management-view-am.md)
--   [Contract management view](contract-mgmt-view-am.md)
+-   [Hardware asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/hardware-asset-overview-am.md)
+-   [Inventory view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/inventory-view-am.md)
+-   [Asset estate view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/asset-estate-view-am.md)
+-   [Model management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/model-management-view-am.md)
+-   [Contract management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/contract-mgmt-view-am.md)
 
 If you’re upgrading to the Vancouver release, you must activate the Asset Management Workspace \(sn\_itam\_workspace\) plugin to use the Asset Workspace.
 
-**Note:** After moving to Asset Management Workspace, you can still use the Asset Management classic. For more information, see [Asset Management](https://www.servicenow.com/docs/access?context=c_AssetManagement&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US).
-
-**Related topics**  
-
-
-[Customize tabs in Asset Workspace](../task/customize-tabs-asset-workspace.md)
+**Note:** After moving to Asset Management Workspace, you can still use the Asset Management classic. For more information, see .
 

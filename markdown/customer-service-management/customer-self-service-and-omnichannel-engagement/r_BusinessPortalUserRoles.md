@@ -2,6 +2,7 @@
 title: Business Portal user roles
 description: Different roles allow customers to create and edit cases and manage users from the Business portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/r\_BusinessPortalUserRoles.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

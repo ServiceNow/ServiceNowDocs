@@ -2,6 +2,7 @@
 title: Update the Employee Center Pro home page theme
 description: Enable the gradient background theme along with other UI changes on the Employee Center Pro home page as an existing customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/config-ec-pro-home-theme.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,6 +2,7 @@
 title: Mobile client GlideForm \(g form\) scripting and migration
 description: Client scripting for mobile is identical to scripting for the web, with some exceptions. All new scripts must conform to certain guidelines. The following items are affected on the mobile platform: client scripts, UI policies, navigator modules, and UI actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/r\_MobilePlatformMigrationImpacts.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -32,7 +33,7 @@ Use the new mobile methods
 
 </td><td>
 
-Several new methods are available for modifying form fields instead of directly manipulating the HTML. These methods replace previous usages of g\_form.getControl\(\), which is deprecated for the mobile platform. In your existing scripts, ensure that the new methods are used in place of methods that are not valid on the mobile platform. For information on these new methods, refer to [Mobile GlideForm\(\) API](https://www.servicenow.com/docs/access?context=c_MobileGlideForm_API&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+Several new methods are available for modifying form fields instead of directly manipulating the HTML. These methods replace previous usages of g\_form.getControl\(\), which is deprecated for the mobile platform. In your existing scripts, ensure that the new methods are used in place of methods that are not valid on the mobile platform. For information on these new methods, refer to Mobile GlideForm\(\) API.
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ Do not make synchronous Ajax calls
 
 </td><td>
 
-The mobile platform does not allow synchronous GlideAjax calls. Any use of getXMLWait\(\) in a GlideAjax call will not work on the mobile platform. Be sure that all GlideAjax calls are asynchronous. For more on synchronous versus asynchronous GlideAjax calls and getXMLWait\(\), see [AJAX](https://www.servicenow.com/docs/access?context=p_AJAX&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US). For information on the available GlideAjax methods, refer to the [GlideAjax API](https://www.servicenow.com/docs/access?context=c_GlideAjaxAPI&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+The mobile platform does not allow synchronous GlideAjax calls. Any use of getXMLWait\(\) in a GlideAjax call will not work on the mobile platform. Be sure that all GlideAjax calls are asynchronous. For more on synchronous versus asynchronous GlideAjax calls and getXMLWait\(\), see AJAX. For information on the available GlideAjax methods, refer to the GlideAjax API.
 
 </td></tr><tr><td>
 
@@ -105,7 +106,7 @@ Do not make synchronous GlideRecord calls
 
 </td><td>
 
-The mobile platform does not allow synchronous [GlideRecord](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US) calls. Make sure that any existing GlideRecord calls include a callback. For example, the following script does not include a callback and is incompatible with the mobile platform:
+The mobile platform does not allow synchronous GlideRecord calls. Make sure that any existing GlideRecord calls include a callback. For example, the following script does not include a callback and is incompatible with the mobile platform:
 
  ```
  var now_GR = new GlideRecord('incident');
@@ -168,5 +169,5 @@ For existing code, modules must be transferred to either the sys\_ui\_applicatio
 
 UI actions must be transferred to the sys\_ui\_ng\_action table to appear on the mobile platform. UI action scripts that do not use deprecated methods do not require changes to the script itself. For new UI actions, be sure that they are created in the sys\_ui\_ng\_action table.
 
-**Parent Topic:**[Client-side scripting](../concept/client-side-scripting-overview.md)
+**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/client-side-scripting-overview.md)
 

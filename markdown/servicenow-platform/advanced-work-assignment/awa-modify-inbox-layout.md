@@ -2,6 +2,7 @@
 title: Create or change an inbox layout
 description: Create or change the card layout for inbox items for a given service channel. Card layouts are displayed in the agent inbox view of Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/awa-modify-inbox-layout.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -63,8 +64,8 @@ Cards represent work items in an agent's inbox in Agent Workspace. Each channel 
 
 As needed:
 
--   [Override the agent capacity](awa-change-agent-capacity.md) value for selected agents or groups.
--   [Create or change a work item queue](awa-create-queue.md) for the channel.
+-   [Override the agent capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-change-agent-capacity.md) value for selected agents or groups.
+-   [Create or change a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-create-queue.md) for the channel.
 
-**Parent Topic:**[Inbox layout](../concept/awa-inbox-layout.md)
+**Parent Topic:**[Inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-inbox-layout.md)
 

@@ -2,6 +2,7 @@
 title: Working on scheduled tasks in Dispatcher Workspace
 description: Learn about different ways to view tasks in the Scheduled state​.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/view-and-assign-scheduled-tasks.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -34,15 +35,15 @@ Role required: wm\_dispatcher, wm\_admin, and wm\_agent
 
 1.  You can view tasks in the Scheduled state in one of the following roles​.
 
-<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d142081e100">
+<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d43375e100">
 
 role
 
-</th><th align="left" id="d142081e103">
+</th><th align="left" id="d43375e103">
 
 steps
 
-</th></tr></thead><tbody><tr><td id="d142081e109">
+</th></tr></thead><tbody><tr><td id="d43375e109">
 
 **wm\_dispatcher**
 
@@ -52,7 +53,7 @@ steps
 2.  View the list of scheduled tasks in the dispatcher group.
 
 
-</td></tr><tr><td id="d142081e139">
+</td></tr><tr><td id="d43375e139">
 
 **wm\_admin**
 
@@ -62,7 +63,7 @@ steps
 2.  View the list of all scheduled tasks.
 
 
-</td></tr><tr><td id="d142081e169">
+</td></tr><tr><td id="d43375e169">
 
 **wm\_agent**
 
@@ -111,8 +112,8 @@ It runs every hour by default to move the tasks within the threshold from Schedu
 
 </td></tr></tbody>
 </table>
--   **[Manage scheduled tasks in Dispatcher Workspace](scheduled-tasks-workspace.md)**  
+-   **[Manage scheduled tasks in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/scheduled-tasks-workspace.md)**  
 As a dispatcher, you can move scheduled tasks to the Assigned state or move them back to the Pending dispatch state in Dispatcher Workspace.
 
-**Parent Topic:**[Assigning work order tasks to agents from Dispatcher Workspace](../concept/assigning-tasks-in-dispatcher-workspace.md)
+**Parent Topic:**[Assigning work order tasks to agents from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/assigning-tasks-in-dispatcher-workspace.md)
 

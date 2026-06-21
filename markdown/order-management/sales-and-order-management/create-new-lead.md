@@ -2,6 +2,7 @@
 title: Create a lead
 description: Create a lead in the Lead Management application by entering the details, such as customer name, sales stage, lead type, score, and source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-new-lead.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Leads** &gt; **All** and select **New**.
 
@@ -43,10 +44,10 @@ Role required: sales\_agent
 
     A message confirms that the lead was created. To continue working on the lead, select the link in the message.
 
-5.  Select **Refresh** ![](../../tmt-telecom-network-inventory/image/icon-refresh.png) to see the new lead in the list.
+5.  Select **Refresh** \[Omitted image "icon-refresh.png"\] to see the new lead in the list.
 
 
 ## What to do next
 
-Start adding more information to your lead. To learn more, see [Add and view the details of a lead](lead-management-details-tab.md).
+Start adding more information to your lead. To learn more, see [Add and view the details of a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/lead-management-details-tab.md).
 

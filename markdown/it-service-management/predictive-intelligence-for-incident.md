@@ -2,7 +2,10 @@
 title: Predictive Intelligence for Incident Management
 description: Use your instance records to build specific solutions for Incident Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/predictive-intelligence-for-incident.html
 release: yokohama
+product: IT Service Management
+classification: it-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -201,7 +204,7 @@ The plugins com.snc.contextual\_search\_ml and com.snc.incident.mim.ml\_solution
 The plugins com.snc.contextual\_search\_ml and com.snc.incident.mim.ml\_solution must be active.
 
 </td></tr></tbody>
-</table>For more information on classification and similarity solution, refer to [Create solution definition](https://www.servicenow.com/docs/access?context=create-solution-definition&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) and [Create similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+</table>For more information on classification and similarity solution, refer to Create solution definition and Create similarity solution.
 
 ## Business rule for classification solutions
 
@@ -211,7 +214,7 @@ This business rule applies only to the Incident Assignment and Incident Categori
 |-------------|-----|-----------|
 |Update Prediction Results|Incident|Updates the solution precision and coverage statistics. Runs when an incident record is closed.|
 
-For more flexibility with classification solutions, consider using [ITSM Predictive Intelligence Workbench](../../itsm-predictive-intel-workbench/concept/itsm-piwb-landing-page.md).
+For more flexibility with classification solutions, consider using [ITSM Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-landing-page.md).
 
 **Upgrade Information**
 
@@ -225,5 +228,5 @@ If your instance is running on the Kingston release and you are upgrading to the
 
 You can manage prediction drift by retraining, modifying, or creating new solutions to reflect changes in your business conditions. Test and modify your business rule over time to ensure it works as desired across multiple consumption points and user Personas.
 
-**Parent Topic:**[Machine learning solutions for IT Service Management](../../it-service-management/concept/machine-learning-itsm.md)
+**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/machine-learning-itsm.md)
 

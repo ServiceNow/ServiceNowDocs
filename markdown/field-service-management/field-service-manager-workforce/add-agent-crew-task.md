@@ -2,6 +2,7 @@
 title: Add a resource to a crew task
 description: Add resources that aren't part of a crew, like agents or pieces of equipment, if you realize they're required after the task has been created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-manager-workforce/add-agent-crew-task.html
 release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -40,5 +41,5 @@ Role required: wm\_dispatcher, wm\_manager
     The resource is added to the crew.
 
 
-**Parent Topic:**[Using Field Service Crew operations](../concept/Using-crew-operations-fsm.md)
+**Parent Topic:**[Using Field Service Crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/Using-crew-operations-fsm.md)
 

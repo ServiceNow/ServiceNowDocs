@@ -2,6 +2,7 @@
 title: Import failure and resolution codes in bulk
 description: Import multiple failure and resolution codes via Excel templates in the Admin center to assist enterprise asset technicians in diagnosing asset issues and their resolutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/import-codes-eam.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Import multiple failure and resolution codes via Excel templates in the Admin ce
 
 The bulk import of failure and resolution codes is supported in Enterprise Asset Management version 9.0 and later.
 
-The source for the codes that you want to import should already be available. For more details, see [Create a source for failure and resolution codes](create-source-failure-res-code.md).
+The source for the codes that you want to import should already be available. For more details, see [Create a source for failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-source-failure-res-code.md).
 
 Role required: sn\_eam.enterprise\_admin or inventory\_admin
 

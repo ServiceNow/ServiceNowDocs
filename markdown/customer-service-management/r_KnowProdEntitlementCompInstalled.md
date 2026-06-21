@@ -2,7 +2,10 @@
 title: Components installed with Knowledge Product Entitlements
 description: Several types of components are installed with the Knowledge Product Entitlements application.Business rules are added with activation of Knowledge Product Entitlements.Properties are added with activation of Knowledge Product Entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_KnowProdEntitlementCompInstalled.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

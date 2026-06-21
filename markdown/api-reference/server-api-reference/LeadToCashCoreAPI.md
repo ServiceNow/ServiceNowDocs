@@ -2,6 +2,7 @@
 title: LeadtoCashCore - Scoped
 description: The LeadtoCashCore script include provides methods to orchestrate a lead-to-cash workflow in the Lead to Cash Core life cycle.Triggers the PrimitiveUtil\(\) utility method.Returns the data of one or more given entities with a JSON object containing various details such as header, lines, child lines, characteristics, and their attributes.Compares the source and modified source JSON objects of a lead to cash entity and returns a JSON object that describes any changes made to the source JSON, such as any additions, deletions, or modifications.Transforms and applies the source JSON structure of a given entity to the target JSON of another entity. You can then commit the changed entity to the database using the commitInstance\(\) method.Commits the JSON of a given lead to cash entity to the instance, returns a status message with updated information, and updates the Lead to Cash Core Entity table as a result.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
@@ -17,23 +18,23 @@ The LeadtoCashCore script include provides methods to orchestrate a lead-to-cash
 
 The Lead to Cash Core \(com.snd.l2c.core\) plugin must be activated for LeadtoCashCore script includes to be available in an instance. This script include belongs to the sn\_l2c\_core namespace and requires the admin role.
 
-In a lead to cash workflow, you map a source entity to a target entity. An entity is defined as a collection of tables. Source-to-target mapping allows you to transform the structure or content of the source entity to fit the structure or content needed in the target entity. The functionality provided by this script include represents the entity mapping feature available in the Lead to Cash feature. See [Lead to Cash](https://www.servicenow.com/docs/access?context=lead-to-cash-workflows&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US) for more information.
+In a lead to cash workflow, you map a source entity to a target entity. An entity is defined as a collection of tables. Source-to-target mapping allows you to transform the structure or content of the source entity to fit the structure or content needed in the target entity. The functionality provided by this script include represents the entity mapping feature available in the Lead to Cash feature. See  for more information.
 
 To complete a workflow using the LeadtoCash script include, you pass return parameters from one method to the next. Typically, you call these methods in the following order:
 
-1.  [LeadtoCashCore - createInstance\(String headerSysIDs, String lineSysIDs, Boolean isTarget, Object additionalParams\)](LeadToCashCoreAPI.md#) - Fetches the data of a given entity. For example, customer order-related information including line items and their related data.
+1.  [LeadtoCashCore - createInstance\(String headerSysIDs, String lineSysIDs, Boolean isTarget, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Fetches the data of a given entity. For example, customer order-related information including line items and their related data.
 
     Use the **context** parameter to declare one or more header or line IDs in the script. For such multi-select use cases, the output JSON contains a key items array where each entry represents a single entity.
 
-2.  [LeadtoCashCore - delta\(Object sourceJSON, Object dirtyJSON, Object additionalParams\)](LeadToCashCoreAPI.md#) - Compares two JSON inputs and identifies any changes that occurred between them. For example, when something is added, deleted, or modified in an entity.
-3.  [LeadtoCashCore - effect\(Object sourceJSON, Object targetJSON, Object additionalParams\)](LeadToCashCoreAPI.md#) - Transforms the source JSON target into a target object.
-4.  [LeadtoCashCore - commitInstance\(Object targetJSON, Object additionalParams\)](LeadToCashCoreAPI.md#) - Commits the transformation made in the effect\(\) script include to the database.
+2.  [LeadtoCashCore - delta\(Object sourceJSON, Object dirtyJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Compares two JSON inputs and identifies any changes that occurred between them. For example, when something is added, deleted, or modified in an entity.
+3.  [LeadtoCashCore - effect\(Object sourceJSON, Object targetJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Transforms the source JSON target into a target object.
+4.  [LeadtoCashCore - commitInstance\(Object targetJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Commits the transformation made in the effect\(\) script include to the database.
 
 **Note:** If necessary, delta\(\) may be skipped in this workflow. However, calling these methods out of order results in an unsuccessful workflow \(for example, when calling commitInstance\(\) and then effect\(\)\).
 
 ## Prerequisites
 
-Each of these methods are bundled with an extension point, sn\_l2c\_core.LeadToCashServiceEP. PrimitiveUtil\(\) is a utility which provides methods to get the extension point service and invokes the script includes according to their available parameters. You must first provide PrimitiveUtil\(\) with the getPrimitivesEPService\(\) method, which specifies the table to get source and target information from. For more information, see [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](LeadToCashCoreAPI.md#). Once PrimitiveUtil\(\) and getPrimitivesEPService\(\) are provided in the script, you can then call any of the createInstance\(\), delta\(\), effect\(\), or commitInstance\(\) script includes as needed for your use case.
+Each of these methods are bundled with an extension point, sn\_l2c\_core.LeadToCashServiceEP. PrimitiveUtil\(\) is a utility which provides methods to get the extension point service and invokes the script includes according to their available parameters. You must first provide PrimitiveUtil\(\) with the getPrimitivesEPService\(\) method, which specifies the table to get source and target information from. For more information, see [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md). Once PrimitiveUtil\(\) and getPrimitivesEPService\(\) are provided in the script, you can then call any of the createInstance\(\), delta\(\), effect\(\), or commitInstance\(\) script includes as needed for your use case.
 
 ## Example Lead to Cash Core workflow script
 
@@ -72,7 +73,7 @@ In our example, a customer purchased a sold product but now requests a modificat
 3.  The **delta\(\)** JSON is then transformed into a JSON of type order using the effect\(\) method.
 4.  The order JSON is committed to the database using the commitInstance\(\) method.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
 ## LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)
 
@@ -177,9 +178,9 @@ Returns the data of one or more given entities with a JSON object containing var
 
 Use the output JSON of the createInstance\(\) method in subsequent methods of the Lead to Cash Core workflow such as delta\(\), effect\(\), and commitInstance\(\).
 
-**Note:** The LeadtoCashCore script include requires you to first call the script utility method PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](LeadToCashCoreAPI.md#) utility method to trigger the implementation before calling createInstance\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
+**Note:** The LeadtoCashCore script include requires you to first call the script utility method PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) utility method to trigger the implementation before calling createInstance\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
 
-Set the getPrimitivesEPService\(\) boolean parameter **context.isMultiSelect** to true to enable createInstance\(\) to pass multiple, comma-separated headerIDs or lineIDs at a time. Otherwise, you can only pass one ID at a time. See [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](LeadToCashCoreAPI.md#) for more details. The single headerID use case with multiple lineIDs is supported without setting **context.isMultiSelect** to true.
+Set the getPrimitivesEPService\(\) boolean parameter **context.isMultiSelect** to true to enable createInstance\(\) to pass multiple, comma-separated headerIDs or lineIDs at a time. Otherwise, you can only pass one ID at a time. See [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) for more details. The single headerID use case with multiple lineIDs is supported without setting **context.isMultiSelect** to true.
 
 <table id="table_rn1_yzl_d1c" class="parameters"><thead><tr><th>
 
@@ -232,7 +233,7 @@ String
 
 </td><td>
 
-Header sys\_id\(s\) of an entity to retrieve data from. Required if you don't provide the **lineSysIDs** parameter. Pass `null` if you aren't passing any header sys\_ids.To designate one or more header sys\_ids in your script, set `context.isMultiSelect = true` in the getPrimitivesEPService\(\) utility method. For more details, see the Parameters table in [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](LeadToCashCoreAPI.md#).
+Header sys\_id\(s\) of an entity to retrieve data from. Required if you don't provide the **lineSysIDs** parameter. Pass `null` if you aren't passing any header sys\_ids.To designate one or more header sys\_ids in your script, set `context.isMultiSelect = true` in the getPrimitivesEPService\(\) utility method. For more details, see the Parameters table in [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md).
 
 **Note:** At least one **headerSysID** or **lineSysIDs** parameter is required.
 
@@ -263,7 +264,7 @@ String
 
 </td><td>
 
-Line item sys\_id\(s\) of an entity to retrieve entity data from. Required if you don't provide **headerSysIDs** and if the entity structure starts with line items such as sold product. To designate one or more line item sys\_ids in your script, set `context.isMultiSelect = true` in the getPrimitivesEPService\(\) utility method. For more details, see the Parameters table in [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](LeadToCashCoreAPI.md#).
+Line item sys\_id\(s\) of an entity to retrieve entity data from. Required if you don't provide **headerSysIDs** and if the entity structure starts with line items such as sold product. To designate one or more line item sys\_ids in your script, set `context.isMultiSelect = true` in the getPrimitivesEPService\(\) utility method. For more details, see the Parameters table in [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md).
 
 **Note:** At least one **headerSysID** or **lineSysIDs** parameter is required. If passing multiple **lineSysIDs**, all records must belong to the same **headerSysID**.
 
@@ -933,7 +934,7 @@ Response:
 
 Compares the source and modified source JSON objects of a lead to cash entity and returns a JSON object that describes any changes made to the source JSON, such as any additions, deletions, or modifications.
 
-**Note:** The LeadtoCashCore script include requires you to first call the scripted extension point PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](LeadToCashCoreAPI.md#) utility method to trigger the implementation before calling delta\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
+**Note:** The LeadtoCashCore script include requires you to first call the scripted extension point PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) utility method to trigger the implementation before calling delta\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
 
 <table id="table_hvh_twm_d1c" class="parameters"><thead><tr><th>
 
@@ -957,7 +958,7 @@ Object
 
 </td><td>
 
-JSON object of the source lead to cash entity. **Note:** Use the [LeadtoCashCore - createInstance\(String headerSysIDs, String lineSysIDs, Boolean isTarget, Object additionalParams\)](LeadToCashCoreAPI.md#) method to retrieve the source JSON of an entity.
+JSON object of the source lead to cash entity. **Note:** Use the [LeadtoCashCore - createInstance\(String headerSysIDs, String lineSysIDs, Boolean isTarget, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) method to retrieve the source JSON of an entity.
 
 </td></tr><tr><td>
 
@@ -1515,7 +1516,7 @@ Transforms and applies the source JSON structure of a given entity to the target
 
 You can use the output JSON of the delta\(\) method in the effect\(\) request. Then, commit any effect\(\) JSON output to the database using the commitInstance\(\) to complete the lead to cash workflow.
 
-**Note:** The LeadtoCashCore script include requires you to first call the scripted extension point PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](LeadToCashCoreAPI.md#) utility method to trigger the implementation before calling effect\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
+**Note:** The LeadtoCashCore script include requires you to first call the scripted extension point PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) utility method to trigger the implementation before calling effect\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
 
 <table id="table_sjw_1ym_d1c" class="parameters"><thead><tr><th>
 
@@ -1539,7 +1540,7 @@ Object
 
 </td><td>
 
-JSON containing details of the source entity.**Note:** Use the [LeadtoCashCore - createInstance\(String headerSysIDs, String lineSysIDs, Boolean isTarget, Object additionalParams\)](LeadToCashCoreAPI.md#) to retrieve the source JSON of an entity.
+JSON containing details of the source entity.**Note:** Use the [LeadtoCashCore - createInstance\(String headerSysIDs, String lineSysIDs, Boolean isTarget, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) to retrieve the source JSON of an entity.
 
 </td></tr><tr><td>
 
@@ -2160,7 +2161,7 @@ Output:
 
 Commits the JSON of a given lead to cash entity to the instance, returns a status message with updated information, and updates the Lead to Cash Core Entity table as a result.
 
-**Note:** The LeadtoCashCore script include requires you to first call the scripted extension point PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](LeadToCashCoreAPI.md#) utility method to trigger the implementation before calling commitInstance\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
+**Note:** The LeadtoCashCore script include requires you to first call the scripted extension point PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) utility method to trigger the implementation before calling commitInstance\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
 
 <table id="table_lmb_zym_d1c" class="parameters"><thead><tr><th>
 
@@ -2184,7 +2185,7 @@ Object
 
 </td><td>
 
-JSON object containing the ‘glide\_action’ of a target entity to commit. You can pass the output of the [effect\(\)](LeadToCashCoreAPI.md#) method here. **Note:** ‘glide\_action’ identifies the change action that occurred between the source and target JSON of a lead to cash entity.
+JSON object containing the ‘glide\_action’ of a target entity to commit. You can pass the output of the [effect\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) method here. **Note:** ‘glide\_action’ identifies the change action that occurred between the source and target JSON of a lead to cash entity.
 
 </td></tr><tr><td>
 

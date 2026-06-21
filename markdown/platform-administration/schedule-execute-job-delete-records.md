@@ -2,6 +2,7 @@
 title: Schedule or execute a job to delete records
 description: Schedule a date and time to execute a delete job or execute the job immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/schedule-execute-job-delete-records.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Consider scheduling the delete job to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use the table cleaner option instead. For more information, see [Deleting older or unwanted records](../concept/deleting-older-records.md).
+Consider scheduling the delete job to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use the table cleaner option instead. For more information, see [Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/deleting-older-records.md).
 
 ## Procedure
 
@@ -29,15 +30,15 @@ Consider scheduling the delete job to run during non-business hours to minimize 
 
 3.  Determine whether to schedule the delete job for a later time or run it right away.
 
-<table id="choicetable_kdq_2q5_qtb"><thead><tr><th align="left" id="d305103e95">
+<table id="choicetable_kdq_2q5_qtb"><thead><tr><th align="left" id="d150457e95">
 
 Option
 
-</th><th align="left" id="d305103e98">
+</th><th align="left" id="d150457e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d305103e104">
+</th></tr></thead><tbody><tr><td id="d150457e104">
 
 **Schedule the delete job**
 
@@ -48,7 +49,7 @@ Description
 3.  Select **Update** to save the schedule.
 
 
-</td></tr><tr><td id="d305103e131">
+</td></tr><tr><td id="d150457e131">
 
 **Run the delete job now**
 
@@ -66,7 +67,7 @@ Description
 </table>
 ## Result
 
-The records are scheduled for deletion or deleted immediately. If you want to restore the deleted records, see [Rollback a delete job](rollback-delete-job.md).
+The records are scheduled for deletion or deleted immediately. If you want to restore the deleted records, see [Rollback a delete job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/rollback-delete-job.md).
 
-**Parent Topic:**[Deleting records safely](../concept/deleting-records-safely.md)
+**Parent Topic:**[Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/deleting-records-safely.md)
 

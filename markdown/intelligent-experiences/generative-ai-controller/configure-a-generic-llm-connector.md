@@ -2,6 +2,7 @@
 title: Configure a generic large language model \(LLM\) connector
 description: Connect an external LLM to the ServiceNow AI Platform by using a generic LLM connector. With a connector, you can write your own prompts to send to the LLM and create your own generative AI capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.html
 release: yokohama
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -17,7 +18,7 @@ Connect an external LLM to the ServiceNow AI Platform by using a generic LLM con
 
 ## Before you begin
 
-You must configure API credentials for your LLM before setting up the connector. For more information, see [configure API credentials for a generic LLM](configure-api-credentials-for-a-generic-large-language-model-llm.md).
+You must configure API credentials for your LLM before setting up the connector. For more information, see [configure API credentials for a generic LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-a-generic-large-language-model-llm.md).
 
 Role required: admin
 
@@ -41,7 +42,7 @@ Generative AI Controller offers several base system connections to popular AI se
 
 5.  In the **Connection and Credential Alias** field, select the alias that you created when you set up your credentials.
 
-    If you haven't already configured your API credentials, see [configure API credentials for a generic large language model](configure-api-credentials-for-a-generic-large-language-model-llm.md) to learn how. ![Generative AI Model Config record with the Provider field set to Custom LLM and the Connection and Credentials Alias field set to My_Model_Alias.](../image/gai-connector-1.png)
+    If you haven't already configured your API credentials, see [configure API credentials for a generic large language model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-a-generic-large-language-model-llm.md) to learn how. \[Omitted image "gai-connector-1.png"\] Alt text: Generative AI Model Config record with the Provider field set to Custom LLM and the Connection and Credentials Alias field set to My\_Model\_Alias.
 
 6.  Create the model configuration by selecting **Submit**.
 
@@ -51,7 +52,7 @@ Generative AI Controller offers several base system connections to popular AI se
 
 8.  Select **New**.
 
-9.  Select the list lookup icon \(![List lookup icon with magnifying glass.](../../now-assist-admin/image/na-list-lookup-icon.png)\) next to the **Definition** field.
+9.  Select the list lookup icon \(\[Omitted image "na-list-lookup-icon.png"\] Alt text: List lookup icon with magnifying glass.\) next to the **Definition** field.
 
 10. In the Select the document modal, select a capability that you want to configure with the Custom LLM provider.
 
@@ -65,7 +66,7 @@ Generative AI Controller offers several base system connections to popular AI se
 
 13. In the **Prompt template** field, enter the prompt for the capability.
 
-    The prompt template is the instruction that is sent to the LLM to execute a capability. Use two braces around the capability attribute names to incorporate them into the prompt template. For example, if you're configuring a Summarize capability, your prompt template could be `Summarize the following for me in a friendly and helpful tone: {{textToSummarize}}`. To learn which attributes are available to include in the prompt, go to the OneExtend Capability \[sys\_one\_extend\_capability\] table, find the record for the capability you're configuring, and look at the OneExtend Capability Attributes related list. ![Generative AI Configuration record with Definition, Model, and Prompt template fields filled in.](../image/gai-connector-2.png) ![Summarize capability record open with OneExtend Capability Attributes related list highlighted and the attributes identified: error, errorCode, provider, response, status, and textToSummarize.](../image/gai-connector-3.png) You might need to experiment with different prompts to determine what works best for your use cases.
+    The prompt template is the instruction that is sent to the LLM to execute a capability. Use two braces around the capability attribute names to incorporate them into the prompt template. For example, if you're configuring a Summarize capability, your prompt template could be `Summarize the following for me in a friendly and helpful tone: {{textToSummarize}}`. To learn which attributes are available to include in the prompt, go to the OneExtend Capability \[sys\_one\_extend\_capability\] table, find the record for the capability you're configuring, and look at the OneExtend Capability Attributes related list. \[Omitted image "gai-connector-2.png"\] Alt text: Generative AI Configuration record with Definition, Model, and Prompt template fields filled in. \[Omitted image "gai-connector-3.png"\] Alt text: Summarize capability record open with OneExtend Capability Attributes related list highlighted and the attributes identified: error, errorCode, provider, response, status, and textToSummarize. You might need to experiment with different prompts to determine what works best for your use cases.
 
 14. Create the new Generative AI Configuration by selecting **Submit**.
 

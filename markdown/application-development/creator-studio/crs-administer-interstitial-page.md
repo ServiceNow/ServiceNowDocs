@@ -2,11 +2,12 @@
 title: Disable the App type page in Creator Studio
 description: Hide the App type page that appears when users select to create an app by adding a system property to streamline the app creation process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/crs-administer-interstitial-page.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -17,7 +18,7 @@ Hide the App type page that appears when users select to create an app by adding
 
 ## Before you begin
 
-You must change your scope to global. For more information, see [Global scope](../../applications/concept/c_GlobalScope.md).
+You must change your scope to global. For more information, see [Global scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_GlobalScope.md).
 
 Role required: admin
 
@@ -43,7 +44,7 @@ Role required: admin
     |Read roles|Leave as-is.|
     |Write roles|Leave as-is.|
 
-    ![Adding the system property to the properties table](../image/crs-sys-property-interstitial.png "Add the apptype.selection.disabled property")
+    \[Omitted image "crs-sys-property-interstitial.png"\] Alt text: Adding the system property to the properties table
 
 5.  Select **Submit**.
 
@@ -54,5 +55,5 @@ Users on the instance will no longer see that App type selection page after they
 
 To reinstate the App type page, set the **apptype.selection.disabled** property to `false`, or just delete it.
 
-**Parent Topic:**[Administering Creator Studio](../concept/administering-creator-studio.md)
+**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/administering-creator-studio.md)
 

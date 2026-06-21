@@ -2,6 +2,7 @@
 title: Activate or update NIST Risk Management Framework using the ESG content accelerator
 description: Activate or update NIST Risk Management Framework and select the citations for the framework. It installs the framework and the selected citations, control objectives, and risk statements on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -23,15 +24,15 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 
 1.  Navigate to **All** &gt; **AI Risk and Compliance Workspace**.
 
-2.  Select the AI Risk and Compliance Content icon ![](../image/airc-content-accelerator-icon.png) on the AI Risk and Compliance Workspace.
+2.  Select the AI Risk and Compliance Content icon \[Omitted image "airc-content-accelerator-icon.png"\] on the AI Risk and Compliance Workspace.
 
-3.  Select the **Activate** button on the NIST Risk Management Framework card.![Activate button on the NIST Risk Management Framework card.](../image/ai-risk-compliance-content-nist.png)
+3.  Select the **Activate** button on the NIST Risk Management Framework card.\[Omitted image "ai-risk-compliance-content-nist.png"\] Alt text: Activate button on the NIST Risk Management Framework card.
 
     Make sure you have selected the correct version of the NIST Risk Management Framework.
 
 4.  Read the disclaimer statement and select **Agree**.
 
-5.  Choose the required citations from the list and select **Next**.![Citations available in the NIST Risk Management Framework.](../image/citations-nist.png)
+5.  Choose the required citations from the list and select **Next**.\[Omitted image "citations-nist.png"\] Alt text: Citations available in the NIST Risk Management Framework.
 
     You can include citations that are marked as Ready.
 
@@ -43,7 +44,7 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 
     You can include risk statements that are marked as Ready.
 
-8.  Review and confirm the selected citations, control objectives, and risk statements.![Selected citations, control objectives, and risk statements.](../image/review-and-confirm-nist.png)
+8.  Review and confirm the selected citations, control objectives, and risk statements.\[Omitted image "review-and-confirm-nist.png"\] Alt text: Selected citations, control objectives, and risk statements.
 
 9.  Select **Submit**.
 
@@ -54,5 +55,5 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 11. Repeat the steps from 5.
 
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

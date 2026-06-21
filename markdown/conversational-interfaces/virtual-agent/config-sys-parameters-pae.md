@@ -2,12 +2,13 @@
 title: System property configuration
 description: Use system properties to configure the functionality of the Conversational Analytics dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/config-sys-parameters-pae.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Conversational Analytics dashboard reference, Conversational Analytics dashboard in Platform Analytics experience, Analyzing Virtual Agent performance, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -82,7 +83,7 @@ If the data on User Search Metrics page does not load due to an invalid configur
 
 If the number of search terms exceeds the limit specified in the com.snc.pa.dc.max\_breakdown\_elements\_limit property, the data is not collected. Be sure to set the value of com.snc.pa.dc.max\_breakdown\_elements\_limit or com.snc.pa.dc.hsql.max\_breakdown\_elements\_limit property to be greater than or equal to sn\_ci\_analytics.max.search.threshold. The default value of these properties is 10000.
 
-See [Breakdown and indicator Performance Analytics properties](https://www.servicenow.com/docs/access?context=pa-limit-setting-props&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US) and [Data collector Performance Analytics properties](https://www.servicenow.com/docs/access?context=pa-dc-props&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US) for more information.
+See  and  for more information.
 
 </td></tr><tr><td>
 
@@ -100,8 +101,8 @@ If the data on User Search Metrics page does not load due to an invalid configur
 
 If the number of custom events exceeds the limit specified in the com.snc.pa.dc.max\_breakdown\_elements\_limit property, the data is not collected. Be sure to set the value of com.snc.pa.dc.max\_breakdown\_elements\_limit or com.snc.pa.dc.hsql.max\_breakdown\_elements\_limit property to be greater than or equal to sn\_ci\_analytics.max.search.threshold. The default value of these properties is 10000.
 
-See [Breakdown and indicator Performance Analytics properties](https://www.servicenow.com/docs/access?context=pa-limit-setting-props&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US) and [Data collector Performance Analytics properties](https://www.servicenow.com/docs/access?context=pa-dc-props&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US) for more information.
+See  and  for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Conversational Analytics dashboard reference](conversational-analytics-dashboard-reference-pae.md)
+</table>**Parent Topic:**[Conversational Analytics dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversational-analytics-dashboard-reference-pae.md)
 

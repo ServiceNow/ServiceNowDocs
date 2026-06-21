@@ -2,6 +2,7 @@
 title: Configure call summarization
 description: Configure Call Summarization to automatically generate summaries of agent-customer calls within the Active Chat window to capture key details for better agent follow-up and record keeping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/configure-call-summarization-in-now-assist\_0.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm

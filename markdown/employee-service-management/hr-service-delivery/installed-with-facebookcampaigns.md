@@ -2,6 +2,7 @@
 title: Components installed with Employee Campaigns for Workplace from Facebook
 description: Several types of components are installed with activation of the Employee Campaigns for Workplace from Facebook plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/installed-with-facebookcampaigns.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

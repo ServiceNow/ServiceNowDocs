@@ -2,6 +2,7 @@
 title: Data Collection Toolkit
 description: The Impact Value Management Data Collection apps are designed to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\). These applications enable you to efficiently gather, track, and analyze critical success metrics, ensuring data-driven decision-making and improved visibility into key performance trends.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/data-collection-toolkit.html
 release: yokohama
 product: Value Library
 classification: value-library
@@ -34,22 +35,22 @@ A Data Collection Toolkit is delivered from the Impact squad with a detailed ove
 
     For more information, see:
 
-    -   [Learn about Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-benefits&version=yokohama&pubname=yokohama-service-bridge&ft:locale=en-US)
-    -   [Connect to the provider instance](../task/connect-instance-impact-store-app.md)
+    -   
+    -   [Connect to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/connect-instance-impact-store-app.md)
 
 ## Get started
 
 Get started with the Data Collection Content Pack for your respective product:
 
--   [Impact Value Management Data Collection for APM](data-collection-apm.md)
--   [Impact Value Management Data Collection Content Pack for App Engine](data-collection-app-engine.md)
--   [Impact Value Management Data Collection Content Pack for CSM](data-collection-csm.md)
--   [Impact Value Management Data Collection Content Pack for SAM](data-collection-sam.md)
--   [Impact Value Management Data Collection Content Pack for HAM](data-collection-ham.md)
--   [Impact Value Management Data Collection Content Pack for ITSM](data-collection-itsm.md)
--   [Impact Value Management Data Collection Content Pack for ITOM](data-collection-itom.md)
--   [Impact Value Management Data Collection Content Pack for HR](data-collection-hr.md)
--   [Impact Value Management Data Collection Content Pack for SecOps](data-collection-secops.md)
--   [Impact Value Management Data Collection Content Pack for SPM](data-collection-spm.md)
--   [Impact Value Management Data Collection Content Pack for IRM](data-collection-irm.md)
+-   [Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-apm.md)
+-   [Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-app-engine.md)
+-   [Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-csm.md)
+-   [Impact Value Management Data Collection Content Pack for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-sam.md)
+-   [Impact Value Management Data Collection Content Pack for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-ham.md)
+-   [Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-itsm.md)
+-   [Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-itom.md)
+-   [Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-hr.md)
+-   [Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-secops.md)
+-   [Impact Value Management Data Collection Content Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-spm.md)
+-   [Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-irm.md)
 

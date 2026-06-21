@@ -2,6 +2,7 @@
 title: Add post-provisioning to a Cloud Formation Template-based catalog item
 description: Create a workflow post-provisioning operation on a Cloud Formation Template \(CFT\)-based catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/add-postprov-example.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -86,7 +87,7 @@ Ensure that you've met the following prerequisites before you start working on t
 
         All variables extracted from the AWS CFT appear in the Template Version Parameters section.
 
-        ![Template parameters](../image/template-param-example.png)
+        \[Omitted image "template-param-example.png"\] Alt text: Template parameters
 
     5.  Click **Activate**.
 
@@ -118,7 +119,7 @@ Ensure that you've met the following prerequisites before you start working on t
 
 22. Click the **key\_name** attribute and enter either the Credential alias value \(`Itappwop`\), or enter an expression mapping in the **Mapping** field.
 
-    Mappings specify where to pull the information in the system. See [Using expressions in Cloud Provisioning and Governance](../reference/expressions-cloud-mgt.md).
+    Mappings specify where to pull the information in the system. See [Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/expressions-cloud-mgt.md).
 
 23. Click the **Stack ID** attribute and enter the expression mapping `$(context.order.stack)`.
 

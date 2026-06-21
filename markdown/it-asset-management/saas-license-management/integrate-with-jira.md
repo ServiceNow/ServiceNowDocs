@@ -2,6 +2,7 @@
 title: Integrating with Jira Software Cloud
 description: Integrating your Software Asset Management application with Atlassian Jira Software Cloud enables you to track your software subscriptions and to reclaim unused licenses.Integrate the Software Asset Management application and Jira using an API key to authenticate ServiceNow requests.Create an API token in Jira to authenticate requests.Integrate the Software Asset Management application with your Jira account using OAuth to authenticate ServiceNow requests.Create an OAuth 2.0 integration in the Atlassian Developer console to authenticate the requests.Obtain the value of the Cloud ID of the Jira cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Create an integration profile to track software subscriptions and optimize licensing for Atlassian Jira Software Cloud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/saas-license-management/integrate-with-jira.html
 release: yokohama
 product: SaaS License Management
 classification: saas-license-management
@@ -18,11 +19,11 @@ Integrating your Software Asset Management application with Atlassian Jira Softw
 **Note:** Currently this integration supports only one site integration per profile.
 
 -   If your installed Jira spoke version is 4.1.0 or higher, you can integrate Jira with your ServiceNow instance by using one of the following methods:
-    -   [Using basic authentication](integrate-with-jira.md#)
+    -   [Using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md)
 
-    -   [Using OAuth authentication](integrate-with-jira.md#)
+    -   [Using OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md)
 
--   If your installed Jira spoke version is lower than 4.1.0, integrate Jira with your ServiceNow instance by [Using basic authentication](integrate-with-jira.md#) method.
+-   If your installed Jira spoke version is lower than 4.1.0, integrate Jira with your ServiceNow instance by [Using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) method.
 
 **Important:** Minimize security risks and protect information by granting access only to the necessary user or API permissions.
 
@@ -100,7 +101,7 @@ Create an API token in Jira to authenticate requests.
 
 #### Before you begin
 
-Jira Role required: Refer the [Minimal user permissions](integrate-with-jira.md#) table.
+Jira Role required: Refer the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) table.
 
 #### Procedure
 
@@ -125,7 +126,7 @@ Create an OAuth 2.0 integration in the Atlassian Developer console to authentica
 
 #### Before you begin
 
-Jira Role required: Refer the [Minimal user permissions](integrate-with-jira.md#) table.
+Jira Role required: Refer the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) table.
 
 #### Procedure
 
@@ -206,7 +207,7 @@ Atlassian Role required: site admin
 
 ServiceNow Role required: admin or sam\_integrator
 
-**Important:** You must select the **Jira Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Jira Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -216,15 +217,15 @@ If you’re using Software Asset Workspace, the option to create the Jira integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d176464e967">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d129069e966">
 
 Interface
 
-</th><th align="left" id="d176464e970">
+</th><th align="left" id="d129069e969">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d176464e976">
+</th></tr></thead><tbody><tr><td id="d129069e975">
 
 **Core UI**
 
@@ -235,7 +236,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d176464e1018">
+</td></tr><tr><td id="d129069e1017">
 
 **Software Asset Workspace**
 
@@ -287,7 +288,7 @@ Jira Subscription. This field is automatically populated.
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information, see [Minimal user permissions](integrate-with-jira.md#) table.
+    **Note:** For more information, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-jira.md) table.
 
     1.  In the Download Subscription Subflow section, verify that the **Subflow** field is set to **Jira Download Subscriptions**.
 
@@ -301,7 +302,7 @@ Jira Subscription. This field is automatically populated.
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
-        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
     3.  In the Reclaim Subscription Subflow section, verify that the **Subflow** field is set to **Jira Reclaim Subscription**.
 
@@ -322,7 +323,7 @@ Jira Subscription. This field is automatically populated.
     |Only **Reclaim subscriptions** is selected.|sn\_jira\_spoke.jira\_subscription\_reclaim|
     |Both **Download activity** and **Reclaim subscriptions** aren’t selected.|sn\_jira\_spoke.jira\_subscription|
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon \(![Preview icon.](../image/preview-icon.png)\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -396,18 +397,18 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple Jira integration profiles](../task/create-child-alias-jira.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple Jira integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-jira.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/run-recon-workspace.md).
 

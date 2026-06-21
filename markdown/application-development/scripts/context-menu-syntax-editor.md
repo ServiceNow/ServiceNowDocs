@@ -2,6 +2,7 @@
 title: Context menu in the syntax editor
 description: View the context menu for script includes, Glide APIs, and tables in the JavaScript syntax editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/context-menu-syntax-editor.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -55,7 +56,7 @@ Find References
 
 List of files referencing the script include.**Note:**
 
--   To view the preview of the file, click the preview script icon ![Preview script icon](../image/preview-script.png).
+-   To view the preview of the file, click the preview script icon \[Omitted image "preview-script.png"\] Alt text: Preview script icon.
 
 To open the file in a new window, click **Open File**.
 
@@ -94,9 +95,9 @@ Show Data
 Records in the table that are based on the role of the current user.
 
 </td></tr></tbody>
-</table>Enable or disable the context menu in the script editor using the **glide.ui.syntax\_editor.context\_menu** property in the System Property \[sys\_properties\] table. See [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) for more information.
+</table>Enable or disable the context menu in the script editor using the **glide.ui.syntax\_editor.context\_menu** property in the System Property \[sys\_properties\] table. See Available system properties for more information.
 
 **Note:** Context menu options can be accessed only if the browser supports SharedWorker. For example, Google Chrome and Mozilla Firefox.
 
-**Parent Topic:**[JavaScript syntax editor](c_SyntaxEditor.md)
+**Parent Topic:**[JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/c_SyntaxEditor.md)
 

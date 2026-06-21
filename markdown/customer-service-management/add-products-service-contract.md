@@ -2,7 +2,10 @@
 title: Add a sold product or install base item to a service contract
 description: Add the sold products or the install base items covered to service contracts, contract lines, or entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-products-service-contract.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -31,15 +34,15 @@ A sold product or an install base item can be added to a Customer Contracts and 
 
 1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d145521e82">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d144763e82">
 
 Interface
 
-</th><th align="left" id="d145521e85">
+</th><th align="left" id="d144763e85">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d145521e91">
+</th></tr></thead><tbody><tr><td id="d144763e91">
 
 **ServiceNow AI Platform interface**
 
@@ -47,7 +50,7 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements**.
 
-</td></tr><tr><td id="d145521e114">
+</td></tr><tr><td id="d144763e114">
 
 **CSM Configurable Workspace**
 
@@ -60,15 +63,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Add the sold product or install base item covered to service contracts, contract lines, or entitlements.
 
-<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d145521e164">
+<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d144763e164">
 
 Add to
 
-</th><th align="left" id="d145521e167">
+</th><th align="left" id="d144763e167">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d145521e173">
+</th></tr></thead><tbody><tr><td id="d144763e173">
 
 **Service Contracts**
 
@@ -82,7 +85,7 @@ Procedure
 3.  From the Products Covered or Install Base Items Covered related list, select **New**.
 
 
-</td></tr><tr><td id="d145521e214">
+</td></tr><tr><td id="d144763e214">
 
 **Service Contract Lines**
 
@@ -97,7 +100,7 @@ Procedure
 4.  From the Sold Product Covered or Install Base Items Covered related list, select **New**.
  **Note:** When a sold product or an install base item covered is added to a contract line, it's not added to the related entitlements.
 
-</td></tr><tr><td id="d145521e267">
+</td></tr><tr><td id="d144763e267">
 
 **Entitlements**
 
@@ -128,7 +131,7 @@ Procedure
     -   The state of the entity shouldn't be Expired or Cancelled.
 3.  On the Sold Product Covered form, fill in the fields.
 
-    For a description of the field values, see [Sold product form](../../customer-service-management/reference/sold-product-form.md).
+    For a description of the field values, see [Sold product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/sold-product-form.md).
 
 4.  Select **Submit**.
 

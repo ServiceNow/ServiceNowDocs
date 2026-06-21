@@ -2,6 +2,7 @@
 title: Collaboration with incident tasks
 description: Initiate and manage the collaboration for incident task records from the ITSM Mobile Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/itsm-mobile-agent/collaboration-inc-task-itsm-mobile.html
 release: yokohama
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

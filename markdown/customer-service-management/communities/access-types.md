@@ -2,6 +2,7 @@
 title: Community access types
 description: Access types are used to control access to a forum or a content type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/access-types.html
 release: yokohama
 product: Communities
 classification: communities
@@ -30,5 +31,5 @@ Contact Customer Service and Support for further information.
 
 To see all available access types, navigate to **Community** &gt; **Administration** &gt; **Access Types**.
 
-**Parent Topic:**[Configure a community](../task/configure-communities.md)
+**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
 

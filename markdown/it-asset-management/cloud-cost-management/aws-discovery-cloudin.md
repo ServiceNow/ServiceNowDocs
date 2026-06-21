@@ -2,6 +2,7 @@
 title: Discovering your cloud resources for use
 description: Select the service accounts to discover, the credentials for accessing the accounts, and the MID Servers that scan the resources. If you use the Discovery application, the Discovery Manager wizard simplifies the configuration process for discovering cloud attributes. If you use a different method for discovering resources, you can skip this configuration operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/cloud-cost-management/aws-discovery-cloudin.html
 release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -19,21 +20,21 @@ Select the service accounts to discover, the credentials for accessing the accou
 
 ## Initial set up from the home page
 
-**Important:** This configuration process applies only if you use the Discovery application to discover cloud resources. You skip this configuration operation if you use a different method such as Service Graph Connector for AWS to discover resources. For more information about this method, see [Service Graph Connector for AWS](https://www.servicenow.com/docs/access?context=cmdb-integration-aws-sg&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+**Important:** This configuration process applies only if you use the Discovery application to discover cloud resources. You skip this configuration operation if you use a different method such as Service Graph Connector for AWS to discover resources. For more information about this method, see .
 
 During initial installation, on the home page, when you select the **Set up Discovery Schedule** button in the Configure and Run Discovery section, the Discover Schedules form opens. For detailed instructions, see:
 
 -   Amazon AWS Cloud Discovery
--   [Azure Cloud Discovery](https://www.servicenow.com/docs/access?context=azure-cloud-discovery&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US)
+-   Azure Cloud Discovery
 
--   [Google Cloud Platform Discovery](https://www.servicenow.com/docs/access?context=google-gcp-discovery-pattern&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US)
+-   Google Cloud Platform Discovery
 
 ## About Cloud Discovery
 
-The Cloud Discovery plugin includes the necessary components from Cloud Provisioning and Governance to perform Cloud Discovery. See [Cloud Discovery](https://www.servicenow.com/docs/access?context=cloud-discovery-wizard&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US).
+The Cloud Discovery plugin includes the necessary components from Cloud Provisioning and Governance to perform Cloud Discovery. See Cloud Discovery.
 
 **Related topics**  
 
 
-[Discovery basics](https://www.servicenow.com/docs/access?context=c_GetStartedWithDiscovery&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US)
+[bundle-itom.c_GetStartedWithDiscovery]
 

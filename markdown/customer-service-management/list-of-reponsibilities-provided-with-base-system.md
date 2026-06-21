@@ -2,9 +2,12 @@
 title: List of responsibilities provided with the base system
 description: List of responsibilities that are provided with the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/list-of-reponsibilities-provided-with-base-system.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Create a responsibility definition, Configuring customer access management, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

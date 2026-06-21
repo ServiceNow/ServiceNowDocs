@@ -2,6 +2,7 @@
 title: Create secure parameters for a check
 description: When creating a check definition or check instance, you can configure the parameters you want to be secured when the agent executes the check. During check execution, the secured parameters are obfuscated, securing their information. Only credential information is obfuscated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-create-secure-params.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -33,19 +34,19 @@ Role required: agent\_client\_collector\_admin
 
     The **Check Secure Parameter Definition New Record** page appears.
 
-    ![Check Secure Parameter Definition New Record page](../image/ACC-Check-Secure-Parameter.png)
+    \[Omitted image "ACC-Check-Secure-Parameter.png"\] Alt text: Check Secure Parameter Definition New Record page
 
 5.  Configure the fields on the page.
 
-<table id="choicetable_jz2_g32_1mb"><thead><tr><th align="left" id="d589138e112">
+<table id="choicetable_jz2_g32_1mb"><thead><tr><th align="left" id="d111094e112">
 
 Field Name
 
-</th><th align="left" id="d589138e115">
+</th><th align="left" id="d111094e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d589138e121">
+</th></tr></thead><tbody><tr><td id="d111094e121">
 
 **Name**
 
@@ -53,7 +54,7 @@ Description
 
 The name of the parameter, formatted as a reference prefix. For example, `cred_` is a reference prefix for the credentials table.
 
-</td></tr><tr><td id="d589138e133">
+</td></tr><tr><td id="d111094e133">
 
 **Check Definition**
 
@@ -61,7 +62,7 @@ The name of the parameter, formatted as a reference prefix. For example, `cred_`
 
 The name of the check definition connected to the parameter.
 
-</td></tr><tr><td id="d589138e142">
+</td></tr><tr><td id="d111094e142">
 
 **Order**
 
@@ -73,7 +74,7 @@ A number indicating the order in which the parameter is sent to the check comman
 
  The `READ` command is performed first on the **username** parameter and then on the **password** parameter. You can then use **$username** and **$password** in your Bash script.
 
-</td></tr><tr><td id="d589138e202">
+</td></tr><tr><td id="d111094e202">
 
 **Active**
 

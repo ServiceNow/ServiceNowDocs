@@ -2,13 +2,14 @@
 title: Create pricing adjustments for bundled products
 description: Define price adjustments for a product when it is sold as part of a product bundle. You use the Configuration Component Price Adjustment Matrix to set the price adjustments for child product offerings that are bundled under a parent product offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-create-bundle-adjustment.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Create pricing adjustments for bundled products
@@ -25,7 +26,7 @@ A pricing adjustment can be a markup or markdown percentage, amount, or a pricin
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

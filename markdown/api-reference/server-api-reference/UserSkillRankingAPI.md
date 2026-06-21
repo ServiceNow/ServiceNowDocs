@@ -2,6 +2,7 @@
 title: UserSkillRanking - Global
 description: The UserSkillRanking API provides methods to configure options for choosing the right user and getting a sorted list of qualified users based on number of matching skills and skill-level gap.Instantiates a UserSkillRanking object.Provides a list of qualified users based on matching mandatory skills and levels if the isSkillLevelEnforced parameter is true\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/UserSkillRankingAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The UserSkillRanking API provides methods to configure options for choosing the 
 
 This API requires the Skills Management plugin \(com.snc.skills\_management\), which you can activate if you have the admin role.
 
-See [Qualify and rank users based on skills and skill levels](https://www.servicenow.com/docs/access?context=assign-work-based-on-skills&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+See Qualify and rank users based on skills and skill levels.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
 ## UserSkillRanking - UserSkillRanking\(\)
 

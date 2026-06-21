@@ -2,13 +2,14 @@
 title: Install Order Management
 description: You can install the Order Management application \(sn\_ind\_tmt\_orm\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/order-mgt-install-providers.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-05-12"
 reading_time_minutes: 2
-breadcrumb: [Install and configure Order Management, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Install and configure Order Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Order Management
@@ -31,7 +32,7 @@ The following items are installed with Order Management:
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information on viewing components that are installed with an application, see Find components installed with an application.
 
 ## Procedure
 
@@ -58,5 +59,5 @@ For more information on viewing components that are installed with an applicatio
 6.  Select **Install**.
 
 
-**Parent Topic:**[Install and configure Order Management](../concept/order-mgt-configuring.md)
+**Parent Topic:**[Install and configure Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/order-mgt-configuring.md)
 

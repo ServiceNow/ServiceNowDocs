@@ -2,6 +2,7 @@
 title: Share requested information for internal review
 description: As a contract fulfiller, share information requested by the reviewer to proceed with the contract document review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-send-info-reviewtask.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,27 +28,27 @@ The work notes added when requesting information are available in the Activity s
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d143162e61">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d117538e61">
 
 Method
 
-</th><th align="left" id="d143162e64">
+</th><th align="left" id="d117538e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d143162e70">
+</th></tr></thead><tbody><tr><td id="d117538e70">
 
 **Contract Workspace listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Review tasks** &gt; **All**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d143162e117">
+</td></tr><tr><td id="d117538e117">
 
 **Contract Workspace landing page**
 
@@ -58,7 +59,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d143162e150">
+</td></tr><tr><td id="d117538e150">
 
 **Workspace used by your application**
 
@@ -69,7 +70,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d143162e171">
+</td></tr><tr><td id="d117538e171">
 
 **Reviews tab**
 
@@ -88,7 +89,7 @@ Steps
 
 4.  Select the file to be shared.
 
-5.  In the Comments field, enter work notes.![Send the information requested by a reviewer for an internal review task](../image/cmpro-internal-review-send-info.png)
+5.  In the Comments field, enter work notes.\[Omitted image "cmpro-internal-review-send-info.png"\] Alt text: Send the information requested by a reviewer for an internal review task
 
 6.  Select **Send**.
 
@@ -97,5 +98,5 @@ Steps
 
 The information is shared with reviewer and the review task State changes to Work in progress.
 
-**Parent Topic:**[Internal review](cncore-expert-review.md)
+**Parent Topic:**[Internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

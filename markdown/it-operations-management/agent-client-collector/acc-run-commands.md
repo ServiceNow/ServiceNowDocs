@@ -2,6 +2,7 @@
 title: Run an Agent Client Collector Security Incident Response command
 description: Run a specified command, on a machine referenced by an incident, to retrieve information on the incident's CI. For example, if you run a ps command on an incident, the command retrieves the status of active processes in the system. Commands are listed according to the CI operating system associated with the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-run-commands.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -37,12 +38,12 @@ Role required: sn\_si.admin or sn\_si.basic
 
 6.  Select the command you want to run.
 
-    The available commands are those configured on the ACC Integration Commands page, as described in [Create an Agent Client Collector Security Incident Response command](acc-create-command.md).
+    The available commands are those configured on the ACC Integration Commands page, as described in [Create an Agent Client Collector Security Incident Response command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-create-command.md).
 
 7.  Select **Submit**.
 
     The command runs on the security incident's CI, according to the OS specified in the command.
 
 
-**Parent Topic:**[Agent Client Collector Security Incident Response](../concept/acc-security-incident-response.md)
+**Parent Topic:**[Agent Client Collector Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-security-incident-response.md)
 

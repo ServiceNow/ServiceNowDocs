@@ -2,7 +2,10 @@
 title: Record the usage on the entitlement
 description: Record the consumption or usages made out of the total characteristic quantities allotted for an entitlement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/record-usage-entitlement.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -25,15 +28,15 @@ When an entitlement moves to the Active state, usage records are created. You ca
 
 1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
 
-<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d267261e63">
+<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d262064e63">
 
 Interface
 
-</th><th align="left" id="d267261e66">
+</th><th align="left" id="d262064e66">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d267261e72">
+</th></tr></thead><tbody><tr><td id="d262064e72">
 
 **Platform interface**
 
@@ -41,7 +44,7 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements** &gt; **Service Contracts**.
 
-</td></tr><tr><td id="d267261e96">
+</td></tr><tr><td id="d262064e96">
 
 **CSM Configurable Workspace**
 
@@ -54,15 +57,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Record the usage on an entitlement.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d267261e148">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d262064e148">
 
 From
 
-</th><th align="left" id="d267261e151">
+</th><th align="left" id="d262064e151">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d267261e157">
+</th></tr></thead><tbody><tr><td id="d262064e157">
 
 **Service Contracts**
 
@@ -74,7 +77,7 @@ Do this
 4.  From the Entitlement Usages related list, open the usage record.
 
 
-</td></tr><tr><td id="d267261e181">
+</td></tr><tr><td id="d262064e181">
 
 **Entitlements**
 

@@ -2,13 +2,14 @@
 title: Create a product offering version
 description: Create a version of a product offering when updates are needed to a published offering in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-product-config-create-new-version.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product offering version
@@ -25,7 +26,7 @@ After a product offering is published, changes can’t be made. To add changes t
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering that you’re working with from the list.
 
@@ -40,10 +41,10 @@ After a product offering is published, changes can’t be made. To add changes t
 
 ## What to do next
 
--   [Create product characteristics and characteristic options](som-product-config-add-characteristics.md)
--   [Add product visuals](som-product-config-add-visuals.md)
--   [Add product catalog categories](som-product-config-offering-categories.md)
--   [Create product offering relationships](som-product-config-offering-relationships.md)
--   [Add related contracts to product offerings](som-product-config-related-contracts.md)
--   [Create product offering relationship groups](som-product-config-relationship-groups.md)
+-   [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-add-characteristics.md)
+-   [Add product visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-add-visuals.md)
+-   [Add product catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-offering-categories.md)
+-   [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-offering-relationships.md)
+-   [Add related contracts to product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-related-contracts.md)
+-   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-relationship-groups.md)
 

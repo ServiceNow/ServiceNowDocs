@@ -2,7 +2,10 @@
 title: Request Predictive Intelligence for Incident
 description: To activate Predictive Intelligence for Incident, request the Predictive Intelligence for Incident plugin \(com.snc.incident.ml\) through the Now Support Customer Service system. This plugin activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/request-predictive-intelligence-for-im.html
 release: yokohama
+product: IT Service Management
+classification: it-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -44,7 +47,7 @@ Enables customers to leverage machine-learning algorithms for searching with Con
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -85,20 +88,20 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Predictive Intelligence for Incident](../concept/pi-for-incident.md)**  
+-   **[Predictive Intelligence for Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/pi-for-incident.md)**  
 Use your instance records to build Incident Management -specific solutions.
 
-**Parent Topic:**[Machine learning solutions for IT Service Management](../../it-service-management/concept/machine-learning-itsm.md)
+**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/machine-learning-itsm.md)
 
 **Related topics**  
 
 
-[List of plugins \(Yokohama\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

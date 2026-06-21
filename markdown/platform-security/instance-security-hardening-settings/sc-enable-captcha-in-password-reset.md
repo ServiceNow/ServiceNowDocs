@@ -2,6 +2,7 @@
 title: Enable CAPTCHA in password reset
 description: Use the password\_reset.captcha.ignore property to enable or disable requiring a CAPTCHA challenge when a user resets their password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-enable-captcha-in-password-reset.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -27,14 +28,14 @@ CAPTCHAs help prevent automation attacks by prompting the user for a challenge-r
 |---------|-----------|
 |Property name|**password\_reset.captcha.ignore**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Authentication](sc-authentication.md)|
+|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)|
 |Purpose|This property is used to enable or disable CAPTCHA validation during password reset.|
 |Recommended value|false|
 |Configuration type|Boolean|
 |Security risk|\(Moderate\) Unideal value may result in security vulnerability.|
 |Security risk rating|5.5|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

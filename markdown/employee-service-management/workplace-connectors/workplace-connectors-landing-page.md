@@ -2,6 +2,7 @@
 title: Workplace Connectors
 description: Workplace Connectors is a generic framework using which data from the badging or occupancy sensors, air quality, temperature, and Wi-Fi sensors can be imported to Workplace Service Delivery applications using spokes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/workplace-connectors-landing-page.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
@@ -19,19 +20,19 @@ Workplace Connectors is a generic framework using which data from the badging or
 
 <table id="table_sbm_3nx_zvb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore workplace connectors icon](../../../common/image/icon-explore.png) Learn about Workplace Connectors concepts and features](explore-workplace-connectors.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore workplace connectors icon Learn about Workplace Connectors concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/explore-workplace-connectors.md)
 
 </td><td>
 
-[Configure ![Configure workplace connectors icon](../../../common/image/icon-configure.png) Configure Workplace Connectors](configure-workplace-connectors.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure workplace connectors icon Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
 </td><td>
 
-[Setup ![Manage](../../../common/image/icon-workspace.png) Setup Workplace Connectors.](setup-workplace-connectors.md)
+[Setup \[Omitted image "icon-workspace.png"\] Alt text: Manage Setup Workplace Connectors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
 </td></tr><tr><td colspan="2">
 
-[Reference ![Reference workplace connectors icon](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties](workplace-connectors-references.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference workplace connectors icon Get details about components like fields, tables, and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 
 </td><td>
 

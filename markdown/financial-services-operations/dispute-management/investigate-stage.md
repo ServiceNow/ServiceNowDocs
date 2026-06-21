@@ -2,6 +2,7 @@
 title: Investigate stage
 description: In the Investigate stage of the card dispute playbook, perform tasks such as issuing provisional credit, reviewing participating merchant alerts, and investigating the transaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/investigate-stage.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -19,14 +20,14 @@ The dispute agent manages disputed transactions through various activities in th
 
 |Activity|Description|
 |--------|-----------|
-|[Report fraud](../task/report-fraud.md)|Fraud report activity, when the dispute category is **Fraud**.|
-|[Issue provisional credit](../task/provide-provisional-credit-to-customer.md)|Provisional credit for transactions that qualify for IPC.|
-|[Set recovery option](../task/recovery-option-for-final-credit.md)|Recovery options for transactions that qualify for immediate final credit \(IFC\).|
-|[Immediate Final credit \(IFC\)](../task/provide-immediate-final-credit.md)|Final credit for transactions qualifying for IFC after setting the recovery option.|
-|[Review participating merchant alerts](../task/alert-merchant-regarding-dispute.md)|Merchant alerts and options **Declined dispute** to proceed or **Accepted dispute** to end the life cycle and move to closure.|
-|[Investigate transactions](../task/manually-investigate-disputed-transaction.md)|Transaction investigation and options to pursue chargeback or end the life cycle for the transaction.|
+|[Report fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/report-fraud.md)|Fraud report activity, when the dispute category is **Fraud**.|
+|[Issue provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/provide-provisional-credit-to-customer.md)|Provisional credit for transactions that qualify for IPC.|
+|[Set recovery option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/recovery-option-for-final-credit.md)|Recovery options for transactions that qualify for immediate final credit \(IFC\).|
+|[Immediate Final credit \(IFC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/provide-immediate-final-credit.md)|Final credit for transactions qualifying for IFC after setting the recovery option.|
+|[Review participating merchant alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/alert-merchant-regarding-dispute.md)|Merchant alerts and options **Declined dispute** to proceed or **Accepted dispute** to end the life cycle and move to closure.|
+|[Investigate transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/manually-investigate-disputed-transaction.md)|Transaction investigation and options to pursue chargeback or end the life cycle for the transaction.|
 
 If the chargeback eligibility rules are evaluated as ineligible and **Pursue chargeback** is set to **Yes**, the system prompts an approval request for the dispute manager. The manager reviews the approval task and can select **Approve** to proceed further or select **Reject** to return to the investigation task. After the manager approves, the dispute agent proceeds with the dispute case.
 
-**Parent Topic:**[Processing a dispute case with the Card Dispute Transaction playbook](processing-a-dispute-case.md)
+**Parent Topic:**[Processing a dispute case with the Card Dispute Transaction playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/processing-a-dispute-case.md)
 

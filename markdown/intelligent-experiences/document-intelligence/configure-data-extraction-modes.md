@@ -2,6 +2,7 @@
 title: Configure data extraction modes
 description: Configure the extraction modes for use cases to define how Document Intelligence extracts fields from documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/document-intelligence/configure-data-extraction-modes.html
 release: yokohama
 product: Document Intelligence
 classification: document-intelligence
@@ -74,7 +75,7 @@ DocIntel automatically extracts the data for all fields and processes the docume
 
 2.  Select the use case that you would like to configure.
 
-3.  Select the settings icon \(![Use case settings icon](../image/icon-docintel-settings-gear.png)\).
+3.  Select the settings icon \(\[Omitted image "icon-docintel-settings-gear.png"\] Alt text: Use case settings icon\).
 
 4.  Select the extraction mode for the use case.
 

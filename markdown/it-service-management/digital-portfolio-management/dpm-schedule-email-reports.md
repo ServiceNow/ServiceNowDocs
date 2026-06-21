@@ -2,6 +2,7 @@
 title: Configure scheduled email reports in DPM Admin Center
 description: Send periodic emails of KPI metrics to the DPM solution owners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-schedule-email-reports.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -31,7 +32,7 @@ Role required: sn\_dpm.dpm\_admin
     -   Turn off the toggle key to hide the email button.
     If the toggle key is on, this **Send email** button displays on the Enterprise portfolio page in the DPM Workspace.
 
-    ![Email button displayed on the Enterprise Portfolio page.](../image/dpm-email-button.png)
+    \[Omitted image "dpm-email-button.png"\] Alt text: Email button displayed on the Enterprise Portfolio page.
 
 4.  Configure the scheduled metrics email.
 
@@ -132,5 +133,5 @@ Date and time of the first scheduled job. This field appears only if you select 
 12. Select **Execute Now**.
 
 
-**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](../concept/dpm-admin-center.md)
+**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-admin-center.md)
 

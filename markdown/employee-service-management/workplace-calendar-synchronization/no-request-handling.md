@@ -2,6 +2,7 @@
 title: No request handling
 description: Make a 'No request' call to test the configuration with the calendar provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-calendar-synchronization/no-request-handling.html
 release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

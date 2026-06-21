@@ -2,6 +2,7 @@
 title: Activate the standard ticket page for upgrade customers
 description: If you have upgraded your instance, redirect the ticket page to the standard\_ticket page in the Service Portal and view requests on the standard ticket page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/activate\_csm-std-ticket.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -43,5 +44,5 @@ For new customers, the standard ticket page is enabled by default. For upgrade c
 **Related topics**  
 
 
-[Standard ticket page](https://www.servicenow.com/docs/access?context=standard-ticket-page&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US)
+[bundle-platux.standard-ticket-page]
 

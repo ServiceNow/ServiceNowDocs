@@ -2,6 +2,7 @@
 title: Exploring Natural Language Query
 description: NLQ is a ServiceNow AI Platform feature that is active by default. Use NLQ to query the data in your instance by entering plain language requests into the user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/natural-language-query/explore-natural-language-query.html
 release: yokohama
 product: Natural Language Query
 classification: natural-language-query
@@ -15,7 +16,7 @@ breadcrumb: [Natural Language Query, Enable AI experiences]
 
 NLQ is a ServiceNow AI Platform feature that is active by default. Use NLQ to query the data in your instance by entering plain language requests into the user interface.
 
-![This image shows the NLQ data flow for user input and processing.](../images/nlq-architecture.png "NLQ data flow for user input and processing")
+\[Omitted image "nlq-architecture.png"\] Alt text: This image shows the NLQ data flow for user input and processing.
 
 ServiceNow® NLQ translates natural language user input into glide record queries. The queries are rendered into an executable structured format, such as a JavaScript Object Notation \(JSON\) file or a visual definition. The output, in whichever format, is the response to the user's request.
 
@@ -32,7 +33,7 @@ NLQ is a ServiceNow AI Platform feature that is active by default and supports t
 -   Single number
 -   Multi-table
 
-For more information, see [Using Natural Language Query](using-nlq.md).
+For more information, see [Using Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/natural-language-query/using-nlq.md).
 
 NLQ doesn't support domain separation. It also doesn't support on-premise instances.
 
@@ -40,7 +41,7 @@ NLQ doesn't support domain separation. It also doesn't support on-premise instan
 
 NLQ supports American English by default. For all applications and features except CMDB, NLQ also supports queries in Spanish, French, French Canadian, German, and Japanese.
 
-Note that you must first activate the languages on your instance for NLQ to parse queries in those languages. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Note that you must first activate the languages on your instance for NLQ to parse queries in those languages. For more information, see Activate a language.
 
 ## Using NLQ in other applications and features
 
@@ -60,7 +61,7 @@ Analytics Q &amp; A
 
 </td><td>
 
-[Create a report with Analytics Q&amp;A](https://www.servicenow.com/docs/access?context=t_CreateYourOwnReport&version=yokohama&pubname=yokohama-now-intelligence&section=create-report-nlq&ft:locale=en-US)
+Create a report with Analytics Q&amp;A
 
 </td></tr><tr><td>
 
@@ -68,8 +69,8 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
-Query your CMDB data without needing to know table relationships or data structures.-   [Querying the CMDB](https://www.servicenow.com/docs/access?context=querying-cmdb&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
--   [Intelligent Search for CMDB](https://www.servicenow.com/docs/access?context=intelligent-search-cmdb&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+Query your CMDB data without needing to know table relationships or data structures.-   Querying the CMDB
+-   Intelligent Search for CMDB
 
 English is the only supported language for CMDB.
 
@@ -79,7 +80,7 @@ NLQ with AI Search in global search
 
 </td><td>
 
-[NLQ Genius Results](https://www.servicenow.com/docs/access?context=genius-result-nlq-ais&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) in AI Search \(supports English only\)
+ in AI Search \(supports English only\)
 
 </td></tr><tr><td>
 

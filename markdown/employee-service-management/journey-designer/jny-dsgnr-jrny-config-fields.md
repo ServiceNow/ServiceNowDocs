@@ -2,6 +2,7 @@
 title: Journey designer Journey Configuration fields reference
 description: A journey configuration requires several fields to be completed or selected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-dsgnr-jrny-config-fields.html
 release: yokohama
 product: Journey Designer
 classification: journey-designer
@@ -59,7 +60,7 @@ A Journey type is a category used to identify the intention of the journey, such
 
 </td><td>
 
-Select a lifecycle event for the Journey configuration. Lifecycle Events are created and managed from the **Manage Lifecycle Event** form. Go to **All** &gt; **Lifecycle Events** &gt; **Manage Lifecycle Event** to add or manage lifecycle events. See, [Lifecycle Events](../concept/hr-lifecycle-events-landing-page-1.md).
+Select a lifecycle event for the Journey configuration. Lifecycle Events are created and managed from the **Manage Lifecycle Event** form. Go to **All** &gt; **Lifecycle Events** &gt; **Manage Lifecycle Event** to add or manage lifecycle events. See, [Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
 
 </td></tr><tr><td>
 
@@ -94,7 +95,7 @@ Option to enable a change in manager. Selecting this option will update the jour
 -   Approvals: Assigned to
 -   Requests: Requested for
 
-**Note:** For this functionality to work, ensure that you copy the flow **Manager Change - Journeys** and activate it. To activate a flow, see [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US). Also note that email notifications are sent to the old manager, new manager, assigned agent, and the user updating the manager in `sys_user`.
+**Note:** For this functionality to work, ensure that you copy the flow **Manager Change - Journeys** and activate it. To activate a flow, see . Also note that email notifications are sent to the old manager, new manager, assigned agent, and the user updating the manager in `sys_user`.
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ Option to enable a change in manager. Selecting this option will update the jour
 
 </td><td>
 
-The image that appears at the top of the Journey when viewed in the mobile app. See, [Journeys on Now Mobile](../concept/journeys-mobile-now.md).
+The image that appears at the top of the Journey when viewed in the mobile app. See, [Journeys on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/journeys-mobile-now.md).
 
 </td></tr><tr><td>
 
@@ -158,7 +159,7 @@ Enables journey owners to edit and add Journey Accelerator tasks and stages in a
 
 </td><td>
 
-Enables journey owners to see the pulse survey results tied to this journey.**Note:** This feature requires integration with Listening Posts. See, [Integrating Listening Posts with Journey designer](../concept/integrating-li-with-jny.md).
+Enables journey owners to see the pulse survey results tied to this journey.**Note:** This feature requires integration with Listening Posts. See, [Integrating Listening Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/integrating-li-with-jny.md).
 
 </td></tr><tr><td>
 
@@ -166,7 +167,7 @@ Enables journey owners to see the pulse survey results tied to this journey.**No
 
 </td><td>
 
-Enables journey owners to add courses that are related to training or learning. This permission depends on your organization’s implantation of Journey designer app and features.**Note:** This feature requires integration with Learning Posts. See, [Integrating Learning Posts with Journey designer](../concept/jny-dsgnr-intgrt-lrnng-pst.md).
+Enables journey owners to add courses that are related to training or learning. This permission depends on your organization’s implantation of Journey designer app and features.**Note:** This feature requires integration with Learning Posts. See, [Integrating Learning Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-intgrt-lrnng-pst.md).
 
 </td></tr><tr><td>
 
@@ -198,5 +199,5 @@ Mentor permissions determine how much control that a mentor has in the journey p
 |**Can add other mentors**|Enables mentors to add other mentors to a journey. An extra mentor could have unique skills that would be helpful for an employee. Mentors can have tasks assigned to them.|
 |**Can edit journey**|Enables mentors to edit everything in a journey.|
 
-**Parent Topic:**[Journey designer reference](jny-dsnr-reference.md)
+**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsnr-reference.md)
 

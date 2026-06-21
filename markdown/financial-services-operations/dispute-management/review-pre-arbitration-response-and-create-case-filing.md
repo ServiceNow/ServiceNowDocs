@@ -2,6 +2,7 @@
 title: Review the pre-arbitration response and create a case filing
 description: Review the merchant’s response to the pre-arbitration and create a case filing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/review-pre-arbitration-response-and-create-case-filing.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -49,15 +50,15 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
 10. In the **Pre arbitration outcome** drop-down, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d101718e184">
+<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d52652e184">
 
 Selection
 
-</th><th align="left" id="d101718e187">
+</th><th align="left" id="d52652e187">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d101718e193">
+</th></tr></thead><tbody><tr><td id="d52652e193">
 
 **Unresolved**
 
@@ -74,7 +75,7 @@ The field **Do you want to create case filing?** is displayed.-   Select **Yes**
 -   Select **Yes** or **No** and click **Continue**.
 
 
-</td></tr><tr><td id="d101718e278">
+</td></tr><tr><td id="d52652e278">
 
 **Resolved**
 
@@ -90,7 +91,7 @@ After the request executes successfully, the transaction state changes to **Awai
 
 ## What to do next
 
-Retrieve the letter by selecting `Get acknowledgement letter`. The letter can be viewed in the activity stream. You can also withdraw the case filing by selecting **Withdraw case**. After a decision from Visa is available, the task is automatically closed and the [Review a case filing response and appeal the decision](review-case-filing-response-and-appeal.md) activity is available.
+Retrieve the letter by selecting `Get acknowledgement letter`. The letter can be viewed in the activity stream. You can also withdraw the case filing by selecting **Withdraw case**. After a decision from Visa is available, the task is automatically closed and the [Review a case filing response and appeal the decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/review-case-filing-response-and-appeal.md) activity is available.
 
-**Parent Topic:**[Collaboration dispute workflow](../concept/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

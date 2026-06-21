@@ -2,6 +2,7 @@
 title: Create use cases for contract obligation extraction
 description: Create obligation extraction use cases to specify the types of key contractual obligation you want Now Assist to detect and extract from contract documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -40,7 +41,7 @@ The **CM Pro - Contract Obligation Extraction** use case is available with the N
 
 3.  On the tile for your skill, select **Activate skill**.
 
-    ![Now Assist skills available for Contract Management Pro.](../image/cmpro-NA-skills.png "Now Assist skills for Contract Management Pro")
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
 
 4.  On the General details page, view the skill details and select **Save and continue**.
 
@@ -48,7 +49,7 @@ The **CM Pro - Contract Obligation Extraction** use case is available with the N
 
 6.  In the Define use case page, add the use case details and select **Save and continue**.
 
-    ![Define use case form for obligation extraction](../image/cmpro-na-ob-use-case.png "Define use case form")
+    \[Omitted image "cmpro-na-ob-use-case.png"\] Alt text: Define use case form for obligation extraction
 
 <table id="table_czf_dpc_chc"><thead><tr><th>
 
@@ -80,7 +81,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents from which you want to extract the obligations.For more information on supported languages, see [Languages supported by Document Intelligence](https://www.servicenow.com/docs/access?context=languages-supported-by-document-intelligence&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+Language of the contract documents from which you want to extract the obligations.For more information on supported languages, see .
 
 </td></tr><tr><td>
 
@@ -158,9 +159,9 @@ Target field
 This field should be left empty.
 
 </td></tr></tbody>
-</table>        For more information on the field form, see [Question form for document Q&amp;A setup](https://www.servicenow.com/docs/access?context=document-qna-single-field-form&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+</table>        For more information on the field form, see .
 
-        ![Field information for contract obligation extraction.](../image/cmpro-ob-ext-field.png "Field page for contract obligation extraction")
+        \[Omitted image "cmpro-ob-ext-field.png"\] Alt text: Field information for contract obligation extraction.
 
     3.  Turn on the toggle switch for **Create multiple fields** to create multiple fields without closing the window.
 
@@ -172,7 +173,7 @@ This field should be left empty.
 
 9.  Upload a document to test how the contract metadata extraction skill works with the new use case.
 
-    ![Test output tab with the option to test a document for obligation extraction.](../image/cmpro-na-ob-test-output.png "Test document for obligation extraction")
+    \[Omitted image "cmpro-na-ob-test-output.png"\] Alt text: Test output tab with the option to test a document for obligation extraction.
 
     1.  Select **Test a new document**.
 
@@ -192,7 +193,7 @@ This field should be left empty.
 
 10. Review the use case details and select **Complete setup**.
 
-    ![Complete setup button to activate the obligation extraction skill.](../image/cmpro-na-ob-complete-setup.png "Review and activate obligation extraction")
+    \[Omitted image "cmpro-na-ob-complete-setup.png"\] Alt text: Complete setup button to activate the obligation extraction skill.
 
 
 ## Result
@@ -201,7 +202,7 @@ The use case is created for the contract obligation extraction skill. The LLM us
 
 ## What to do next
 
-[Map a use case for contract obligation extraction](cmpro-na-map-usecase-obext.md)
+[Map a use case for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-map-usecase-obext.md)
 
-**Parent Topic:**[Configuring contract obligation extraction](cncore-conf-obligation-extraction.md)
+**Parent Topic:**[Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md)
 

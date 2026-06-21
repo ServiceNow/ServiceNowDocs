@@ -2,6 +2,7 @@
 title: ERP-CM candidate recommendations field descriptions
 description: On a candidate record in ERP Semantic Mining \(ERP-CM\) the Recommendations tab displays information about suggested next actions for replatforming ERP \(Enterprise Resource Planning\) candidates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-candidate-recommendations-field-descriptions.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -15,7 +16,7 @@ breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Seman
 
 On a candidate record in ERP Semantic Mining \(ERP-CM\) the **Recommendations** tab displays information about suggested next actions for replatforming ERP \(Enterprise Resource Planning\) candidates.
 
-For process details, see [Check candidate recommendations in ERP-CM](../task/erpcm-work-with-recommendations.md).
+For process details, see [Check candidate recommendations in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-work-with-recommendations.md).
 
 <table id="table_u5j_gnl_wyb"><thead><tr><th>
 
@@ -90,5 +91,5 @@ Updated
 Date and time the recommended action was most recently updated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

@@ -2,6 +2,7 @@
 title: Event identifiers
 description: Event identifiers uniquely distinguish one event from another. Event Management uses these identifiers to determine whether to create a new alert or update an existing one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/c\_EMEventIdentifier.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -33,5 +34,5 @@ If the **Message Key** is not provided, the system automatically generates one b
 
 If the above fields are not defined in the incoming event, you can define them using event rules.
 
-**Parent Topic:**[Processing Events](processing-events.md)
+**Parent Topic:**[Processing Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/processing-events.md)
 

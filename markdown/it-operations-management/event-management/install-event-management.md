@@ -2,6 +2,7 @@
 title: Install Event Management
 description: Retrieve the most updated apps for the Event Management application \(com.glideapp.itom.snac\) in the ServiceNow Store. Periodically check the ServiceNow Store for new app versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/install-event-management.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -28,7 +29,7 @@ The following items are installed with Event Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Event Management](../reference/r_InstalledWithEventManagement.md#).
+For more information, see [Components installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/r_InstalledWithEventManagement.md).
 
 ## Procedure
 
@@ -51,5 +52,5 @@ For more information, see [Components installed with Event Management](../refere
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Event Management](../concept/using-event-management.md)
+**Parent Topic:**[Configuring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/using-event-management.md)
 

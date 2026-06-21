@@ -2,7 +2,10 @@
 title: Related records shared page
 description: The Related Records shared page enables you to view records that are related to the current record or playbook activity in the contextual side panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/related-records-shared-page.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

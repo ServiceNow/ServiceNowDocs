@@ -2,11 +2,12 @@
 title: Manage PaCE policy categories and tags
 description: Use categories and tags to manage and group your PaCE policies more efficiently. As the policy administrator, you can create and edit any number of categories and tags.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/policy-as-code-engine-pace/pace-manage-categories.html
 release: yokohama
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---

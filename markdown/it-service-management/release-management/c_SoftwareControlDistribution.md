@@ -2,6 +2,7 @@
 title: Software control distribution
 description: The application enables the Release Management team to control the distribution of software by creating a Definitive Media Library \(DML\) stored in the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/release-management/c\_SoftwareControlDistribution.html
 release: yokohama
 product: Release Management
 classification: release-management
@@ -22,5 +23,5 @@ The DML table \[dsl\] consists of a physical store and a logical store.
 
 Both physically and logically stored software are represented as records on the DML table \[dsl\].
 
-**Parent Topic:**[Release Management v2 reference](reference-release-management.md)
+**Parent Topic:**[Release Management v2 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/reference-release-management.md)
 

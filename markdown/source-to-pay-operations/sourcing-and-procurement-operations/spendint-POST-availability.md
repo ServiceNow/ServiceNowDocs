@@ -2,6 +2,7 @@
 title: Spendint API - POST /sn\_spend\_intg/spendint/availability
 description: Updates the availability for supplier product records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/spendint-POST-availability.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -284,5 +285,5 @@ Error response:
 }
 ```
 
-**Parent Topic:**[Spendint API](../concept/spendint-api.md)
+**Parent Topic:**[Spendint API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api.md)
 

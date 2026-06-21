@@ -2,6 +2,7 @@
 title: Performance Analytics diagnostics
 description: Identify and diagnose configuration issues using predefined scripts that examine the database for invalid records and provide suggestions to resolve issues.To determine if any configuration issues could impact your Performance Analytics implementation, run diagnostics. You can select whether to run one diagnostic or all diagnostics. The diagnostics examine the subset of Performance Analytics records to which they logically apply.To determine if any of the configuration details of a record could impact your Performance Analytics implementation, run the set of all applicable diagnostics on that record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/self-diagnostics.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
@@ -21,7 +22,7 @@ You can run one or all diagnostics against all applicable records, or you can ru
 
 **Warning:** Performance Analytics diagnostics do not apply to Platform Analytics artifacts. For example, an indicator that is not used in any widgets might still be used in a Platform Analytics data visualization, but the diagnostics are not able to recognize that use.
 
-**Parent Topic:**[Configure Performance Analytics advanced features](c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
 ## Execute diagnostics for all records
 

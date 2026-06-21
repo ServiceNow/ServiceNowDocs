@@ -2,11 +2,12 @@
 title: Types of engagement with third parties
 description: The particular third-party engagements that you might have depend on your industry, size, and operational requirements. Each engagement brings its own set of risks and requires appropriate risk management measures \(due diligence\) to protect your interests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-engagement-types.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Reasons for multiple engagements with one third party, Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -19,7 +20,7 @@ The particular third-party engagements that you might have depend on your indust
 
 All third parties must be categorized as "Vendors" in the Company \[core\_company\] table.
 
-For more information of how this categorization is structured, see [Third-party risk management data model](../../grc-vendor-risk/reference/tprm-data-model.md).
+For more information of how this categorization is structured, see [Third-party risk management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-data-model.md).
 
 |Type of third party|Description|Possible types of engagement|
 |-------------------|-----------|----------------------------|

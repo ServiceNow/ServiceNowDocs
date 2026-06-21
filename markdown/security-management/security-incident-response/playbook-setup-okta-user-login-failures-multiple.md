@@ -2,6 +2,7 @@
 title: Set up the Okta User Login Failures from Multiple IPs playbook
 description: Use the following steps to set up the Okta User Login Failures from Multiple IPs playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/playbook-setup-okta-user-login-failures-multiple.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -32,9 +33,9 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  Create a copy of the Okta User Login Failures from Multiple IPs playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, select the ![More actions menu](../image/more-action-menu.png) icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
+    To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
-    ![Overview of the Okta User Login Failures from Multiple IPs playbook.](../image/playbook-okta-login-failures-ips-overview.png "Okta User Login Failures from Multiple IPs playbook")
+    \[Omitted image "playbook-okta-login-failures-ips-overview.png"\] Alt text: Overview of the Okta User Login Failures from Multiple IPs playbook.
 
 4.  Activate the playbooks.
 
@@ -46,8 +47,8 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     This playbook is triggered and associated with the security incident when the **Category** is **Failed Login**.
 
-    ![Trigger condition for Okta User Login Failures from Multiple IPs playbook.](../image/playbook-okta-login-failures-ips-trigger.png "Okta User Login Failures from Multiple IPs playbook trigger condition")
+    \[Omitted image "playbook-okta-login-failures-ips-trigger.png"\] Alt text: Trigger condition for Okta User Login Failures from Multiple IPs playbook.
 
 
-**Parent Topic:**[Playbook for Okta User Login Failures from Multiple IPs](../concept/playbook-okta-user-login-failures-ips.md)
+**Parent Topic:**[Playbook for Okta User Login Failures from Multiple IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-okta-user-login-failures-ips.md)
 

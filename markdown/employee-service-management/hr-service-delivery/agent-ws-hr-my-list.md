@@ -2,6 +2,7 @@
 title: Custom My List for HR Service Delivery Agent Workspace
 description: You can create your own My Lists to show specific cases that are relevant to you. Having a custom My Lists helps you work faster and efficiently.Use My Lists to create a custom list of HR cases that you can readily access and start working on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-my-list.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -39,7 +40,7 @@ Role required: sn\_hr\_core.case\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **HR Agent Workspace**.
 
-2.  Click the **Lists** icon \(![HR Workspace Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Click the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
 
 3.  Click **My Lists**.
 

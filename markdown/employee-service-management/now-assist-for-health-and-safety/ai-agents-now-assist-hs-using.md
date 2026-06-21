@@ -2,6 +2,7 @@
 title: Using AI agents in Now Assist for Health and Safety Incident Management
 description: Use the Create actions for safety incidents agentic workflow to create one or more autonomous actions for Health and Safety incidents through the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-using.html
 release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -45,6 +46,6 @@ The Now Assist panel suggests a list of actions for a safety incident and create
 
 To run the AI agents autonomously, duplicate the agentic workflow if needed and then do the following steps:
 
--   Activate the agentic workflow. For more information, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+-   Activate the agentic workflow. For more information, see .
 -   Activate the trigger to invoke the agentic workflow automatically.
 

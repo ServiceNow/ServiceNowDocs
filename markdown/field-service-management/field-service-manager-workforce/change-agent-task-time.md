@@ -2,6 +2,7 @@
 title: Change the time that an agent worked on a crew task
 description: Update the time that an agent spent on a crew task if they spent more or less time on the task than the rest of the crew.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-manager-workforce/change-agent-task-time.html
 release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -36,5 +37,5 @@ When you edit the Actual work start or Actual work end values, the Work duration
 5.  Select **Update**.
 
 
-**Parent Topic:**[Using Field Service Crew operations](../concept/Using-crew-operations-fsm.md)
+**Parent Topic:**[Using Field Service Crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/Using-crew-operations-fsm.md)
 

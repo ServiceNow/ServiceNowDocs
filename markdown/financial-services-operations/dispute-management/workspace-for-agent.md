@@ -2,6 +2,7 @@
 title: Managing dispute agent workspace
 description: The dispute agent workspace provides a single location for a dispute agent to process cases and tasks. An agent can use this workspace to respond to all task types, view the full context of an issue, and get relevant recommendations to help resolve issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/workspace-for-agent.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -21,9 +22,9 @@ On the workspace landing page, as an agent, you can get a quick overview of the 
 
 **Note:** The widgets and the data that are displayed in the widgets depend on your role.
 
-The following example shows the dispute agent landing page.![View of the dispute agent landing page.](../image/dispute_agent_home.jpg)
+The following example shows the dispute agent landing page.\[Omitted image "dispute\_agent\_home.jpg"\] Alt text: View of the dispute agent landing page.
 
-![View of case tasks page.](../image/dispute_agent_landing.jpg)
+\[Omitted image "dispute\_agent\_landing.jpg"\] Alt text: View of case tasks page.
 
-**Parent Topic:**[Managing dispute service requests](managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)
 

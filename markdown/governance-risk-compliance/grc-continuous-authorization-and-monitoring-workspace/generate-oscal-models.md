@@ -2,6 +2,7 @@
 title: Export OSCAL SSP
 description: From the Authorization package overview record page in the CAM Workspace, generate ZIP files and export the mapped content details for the record in OSCAL format. To generate OSCAL System Security Plan Model \(SSP\), the selected authorization package must be in the implemented state or further.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-oscal-models.html
 release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -23,7 +24,7 @@ Role required: The users with the following roles can export OSCAL SSP sn\_irm\_
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the primary navigation, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the primary navigation, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  In the RMF list, select **Authorization packages**.
 
@@ -50,5 +51,5 @@ Role required: The users with the following roles can export OSCAL SSP sn\_irm\_
 
 For more information on OSCAL import error, see the [OSCAL Import \[KB1794095\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1794095) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Exporting in OSCAL format](../concept/oscal-support-cam.md)
+**Parent Topic:**[Exporting in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
 

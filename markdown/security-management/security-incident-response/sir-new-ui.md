@@ -2,6 +2,7 @@
 title: Manage security threats using the Security Analyst Workspace
 description: Security Incident Response includes a new user interface called the Security Analyst Workspace that features powerful tools for assisting in analysis, including the playbook, peek view, and tabs for working on multiple security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/sir-new-ui.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ Purpose-built for security analysts, the powerful tools in the Security Analyst 
 
 ## Before using the Security Analyst Workspace
 
-Before you can begin using the Security Analyst Workspace, you must ensure that your instance has at least London Patch 3 installed, you have the correct roles defined, and have [downloaded the Security Incident Response UI application from the ServiceNow Store](../task/install-and-configure-new-ui.md).
+Before you can begin using the Security Analyst Workspace, you must ensure that your instance has at least London Patch 3 installed, you have the correct roles defined, and have [downloaded the Security Incident Response UI application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/install-and-configure-new-ui.md).
 
 **Note:** If your instance is running a version earlier than London Patch 3, you must request the Security Incident Response UI plugin through the HI Customer Service system.
 
@@ -27,39 +28,39 @@ Before you can begin using the Security Analyst Workspace, you must ensure that 
 
 To access this new workspace, navigate to **Security Incident** &gt; **Incidents \(New UI\)**.
 
-![Security Incident navigation bar](../image/nav-bar.png "Security Incident")
+\[Omitted image "nav-bar.png"\] Alt text: Security Incident navigation bar
 
 The workspace opens in a separate browser tab.
 
-![All open Security Incidents](../image/new-ui.png "Security incidents")
+\[Omitted image "new-ui.png"\] Alt text: All open Security Incidents
 
 ## Locate the security incidents you want to analyze with Quick Filters
 
 The Security Analyst Workspace provides several tools for filtering the list of security incidents so you can quickly find the security incidents you want to analyze. The Quick Filters let you select a subset of the security incidents based on criteria in the filter.
 
-![Quick filters](../image/quick-filters.png "Quick filters")
+\[Omitted image "quick-filters.png"\] Alt text: Quick filters
 
 Simply click the quick filter you want to use.
 
 **Note:** You can click an **Edit** button to identify which quick filters you want displayed on the list screen. A minimum of one filter must be selected, up to a maximum of six.
 
-You can define additional quick filters, as well as primary filters for the Security Analyst Workspace, using the classic environment. For more information, see [Set up primary and secondary filters for Security Analyst Workspace](../task/set-up-filters-for-new-ui.md).
+You can define additional quick filters, as well as primary filters for the Security Analyst Workspace, using the classic environment. For more information, see [Set up primary and secondary filters for Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/set-up-filters-for-new-ui.md).
 
 ## Personalize the security incident list
 
 As with all lists in your instance, the Security Analyst Workspace provides tools for personalizing the list and sorting the information displayed to meet your analysis needs.
 
-![Security incident list filtering options](../image/si-filter-options.png "Personalize the security incident list")
+\[Omitted image "si-filter-options.png"\] Alt text: Security incident list filtering options
 
 ## Save time with Peek view
 
 Before opening a security incident record, you can save time using the Peek view. This feature allows you to quickly locate vital security artifacts without having to reload the entire page. Simply click the **&gt;** icon to the left of a security incident number to take a peek.
 
-![Security incident showing the peek view](../image/peek-view.png "Peek view")
+\[Omitted image "peek-view.png"\] Alt text: Security incident showing the peek view
 
 The peek view provides a snapshot of vital information in a single view. This view can save valuable time when you are working with multiple incidents. You can click the down arrows on certain fields to make on-the-fly updates, such as assigning an assignment group or a specific analyst.
 
-![Peek details](../image/peek-details.png "Peek view details")
+\[Omitted image "peek-details.png"\] Alt text: Peek details
 
 ## Perform quick actions on a security incident
 
@@ -69,17 +70,17 @@ After you have selected and opened a specific security incident, you can perform
 -   Click **Manage Attachments** to attach files to the security incident. You can also download or remove attached files and edit the encryption applied to the attachments.
 -   Click **Compose Email** to send a quick email to a colleague. Emails can be free-form, or you can send canned emails selected from a list of templates. Emails sent and replies received are captured in the Incident Timeline.
 
-    **Note:** You can create custom templates that contain reusable content for emails and email notifications. Variables can be used for inserting information specific to the security incident or alert, such as the subject line, priority, or threat category. Use the Security Incident \[sn\_si\_incident\] table for emails and email notifications related to Security Incident Response. For more information, see [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+    **Note:** You can create custom templates that contain reusable content for emails and email notifications. Variables can be used for inserting information specific to the security incident or alert, such as the subject line, priority, or threat category. Use the Security Incident \[sn\_si\_incident\] table for emails and email notifications related to Security Incident Response. For more information, see Email templates
 
 -   Click **More** to view a quick snapshot of the security incident, such as the description, business impact, and priority. You can also click the down-arrow in the **Assignment group** and **Assigned to** fields to make on-the-fly changes to those fields.
 
-![Quick actions](../image/quick-actions.png "Assignment group")
+\[Omitted image "quick-actions.png"\] Alt text: Quick actions
 
 ## Work with multiple security incidents
 
 The tabbed interface allows you to keep several security incidents open simultaneously so you can switch between them with a single click. This can save time and allow you to see the big picture when threats from multiple sources are identified.
 
-![Security incident tabbed interface](../image/tabbed-interface.png "Work with multiple security incidents")
+\[Omitted image "tabbed-interface.png"\] Alt text: Security incident tabbed interface
 
 ## View analysis information in the security incident tabs
 
@@ -93,17 +94,17 @@ When you open a security incident record, three tabs are shown:
 
 Use the **Overview** tab to view information in a security incident in a single location. No need to open another application or console.
 
-![Overiew tab](../image/overview-tab.png "Overview")
+\[Omitted image "overview-tab.png"\] Alt text: Overiew tab
 
 The tiles that are displayed on the **Overview** tab are customizable. You can collapse and expand them as needed, and you can move them around by dragging the **Grip** icon. Click the **More options** icon to delete a tile or change its heading text.
 
-![Getting around the Overview tab.](../image/work-notes-drag.png "Overview tab")
+\[Omitted image "work-notes-drag.png"\] Alt text: Getting around the Overview tab.
 
 ## Explore tab
 
 Configure the tiles displayed on the **Overview** tab using the **Explore** tab. Simply select the tiles you want to view from the left-hand pane, and click the **Pin** icon. Pinned tiles automatically appear in the **Overview** tab.
 
-![Pin to Overview](../image/pin-to-overview.png "Expore tab")
+\[Omitted image "pin-to-overview.png"\] Alt text: Pin to Overview
 
 The left-hand pane of the **Explore** tab includes a wide variety of information that you can display on the **Overview** tab. For example, expand **Observables** to display these related lists.
 
@@ -124,9 +125,9 @@ Use the **Incident Timeline** tab during your investigation for tracking purpose
 -   The **Filter Activity** icon allows you to display only the types of timeline activity you want to see \(for example, only incidents created by a specific analyst\).
 -   You can add or remove the Incident Timeline from the **Overview** tab using the **Pin/Unpin** icon.
 
-![Incident Timeline](../image/incident-timeline-tab.png "Incident Timeline tab")
+\[Omitted image "incident-timeline-tab.png"\] Alt text: Incident Timeline
 
 ## Handle security incidents using the Playbook
 
-Resolve certain types of security threats in a step-by-step manner using the built-in Security Analyst Playbooks. For example, an analyst can use the playbook to resolve phishing attacks and threats caused by malicious code activities. For more information, see [Resolve security threats with the playbook](../task/use-the-playbook.md#).
+Resolve certain types of security threats in a step-by-step manner using the built-in Security Analyst Playbooks. For example, an analyst can use the playbook to resolve phishing attacks and threats caused by malicious code activities. For more information, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/use-the-playbook.md).
 

@@ -2,6 +2,7 @@
 title: Extension point definition for Wi-Fi data
 description: Create a scripted extension point to process Wi-Fi access log data from the provider and convert it into a standard format. Confirm that each provider implements this extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/wsd-extension-point-definition-for-wifi-data.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
@@ -30,5 +31,5 @@ Role required: admin
 4.  Select the **Create Implementation** related link to create your Wi-Fi data-specific extension point script.
 
 
-**Parent Topic:**[Set up Workplace Connectors for Wi-Fi data](../concept/setup-wifi-data-connectors.md)
+**Parent Topic:**[Set up Workplace Connectors for Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-wifi-data-connectors.md)
 

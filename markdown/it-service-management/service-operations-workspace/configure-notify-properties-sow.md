@@ -2,6 +2,7 @@
 title: Configure Notify properties for SOW
 description: Manage the Notify application properties to configure the meeting capabilities in SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/configure-notify-properties-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -115,5 +116,5 @@ Maximum SMS message length
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Notify in Service Operations Workspace](../concept/configure-notify-sow.md)
+**Parent Topic:**[Configuring Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-notify-sow.md)
 

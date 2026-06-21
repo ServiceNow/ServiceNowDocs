@@ -2,11 +2,12 @@
 title: Enable Now Assist in Virtual Agent for Microsoft Teams
 description: Enable the large language model \(LLM\)-based conversational experience with Now Assist in your Virtual Agent integrated with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/enable-na-llm-teams.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Using Now Assist in Virtual Agent conversations with Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -17,7 +18,7 @@ Enable the large language model \(LLM\)-based conversational experience with Now
 
 ## Before you begin
 
-Ensure that you enable AI Search to have Now Assist conversations using the Now LLM Service. For more information about enabling AI Search, see [Enable AI Search for Next Experience](https://www.servicenow.com/docs/access?context=enable-ais-next-exp-app&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Ensure that you enable AI Search to have Now Assist conversations using the Now LLM Service. For more information about enabling AI Search, see .
 
 Role required: admin
 
@@ -37,7 +38,7 @@ Role required: admin
 
 5.  Select a Virtual Agent of your choice.
 
-    ![Select a Virtual Agent that has Now Assist enabled to proceed with LLM capabilities.](../images/assistants-na-va.png)
+    \[Omitted image "assistants-na-va.png"\] Alt text: Select a Virtual Agent that has Now Assist enabled to proceed with LLM capabilities.
 
     **Note:** Verify that the Virtual Agent you choose is integrated with the Microsoft Teams tenant before selecting.
 
@@ -45,10 +46,10 @@ Role required: admin
 
 7.  Choose the channels to integrate with the Now Assist in Virtual Agent.
 
-    ![Select the Microsoft Teams channels for LLM conversational experience with Now Assist.](../images/choose-llm-teams.png)
+    \[Omitted image "choose-llm-teams.png"\] Alt text: Select the Microsoft Teams channels for LLM conversational experience with Now Assist.
 
 8.  Select **Save and Continue**.
 
 
-**Parent Topic:**[Using Now Assist in Virtual Agent conversations with Microsoft Teams](../concept/na-va-llm-teams.md)
+**Parent Topic:**[Using Now Assist in Virtual Agent conversations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/na-va-llm-teams.md)
 

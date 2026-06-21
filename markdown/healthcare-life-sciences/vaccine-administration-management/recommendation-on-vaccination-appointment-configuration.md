@@ -2,6 +2,7 @@
 title: Guidance for configuring advanced appointment scheduling for a vaccination center
 description: Advanced appointment scheduling configuration enables administrators to configure appointment durations, daily schedule, holiday schedule, and so on. The configuration is used to identify the available slots as well as a location’s capacity for a given day. The configuration enables users to select appointment slots based on the parameters that you configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/vaccine-administration-management/recommendation-on-vaccination-appointment-configuration.html
 release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -19,7 +20,7 @@ Be mindful that changing some of the configuration values for a finalized vaccin
 
 The following forms and tables provide some helpful guidance for handling advanced appointment scheduling configurations for a vaccination center. They also provide some of the impacts of making certain changes. However, this guidance doesn’t address an exhaustive list of all possible side effects.
 
-![Vaccination Appointment Configuration form with various fields to fill. For information on the fields available on the form, see the Vaccination Appointment Configuration form section that follows.](../image/vaccination-appointment-configuration.png "Vaccination Appointment Configuration form")
+\[Omitted image "vaccination-appointment-configuration.png"\] Alt text: Vaccination Appointment Configuration form with various fields to fill. For information on the fields available on the form, see the Vaccination Appointment Configuration form section that follows.
 
 <table id="table_oxx_5nf_v4b"><thead><tr><th>
 
@@ -102,7 +103,7 @@ Active
 -   You can activate the previously inactive configuration without impacting any appointments.
 
 </td></tr></tbody>
-</table>![Vaccination Schedule form with various fields to fill. For information on the fields available here, see the Vaccination Appointment Configuration form section that follows.](../image/vacciation-schedule.png "Vaccination Schedule form")
+</table>\[Omitted image "vacciation-schedule.png"\] Alt text: Vaccination Schedule form with various fields to fill. For information on the fields available here, see the Vaccination Appointment Configuration form section that follows.
 
 <table id="table_pwn_hkm_fpb"><thead><tr><th>
 
@@ -198,5 +199,5 @@ Include daily break
 -   Don’t set the break start time and end time to be the same as the daily start time and daily end time because it won’t generate bookable slots.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+</table>**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

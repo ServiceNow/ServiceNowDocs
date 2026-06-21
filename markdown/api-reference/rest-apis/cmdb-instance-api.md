@@ -2,6 +2,7 @@
 title: CMDB Instance API
 description: The CMDB Instance API provides endpoints to create, read, update, and delete operations on existing Configuration Management Database \(CMDB\) tables. You can only insert, update, or delete one record at a time.Deletes the relation for the specified configuration item \(CI\).Returns the available configuration items \(CI\) for a specified Configuration Management Database \(CMDB\) class \(table\).Returns attributes and relationship information for a specified configuration item \(CI\) record.Creates a single configuration item \(CI\) with the specified outbound and inbound relations within the specified Configuration Management Database \(CMDB\) table.Updates the specified configuration item \(CI\) record with the specified attribute name-value pairs. This endpoint does not create, update, or delete the associated relations.Adds an inbound and/or outbound relation to the specified configuration item \(CI\). The specified CI is the parent.Replaces the attributes in the specified configuration item \(CI\) record with the specified name-value pairs. This endpoint does not create, update, or delete the associated relations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/cmdb-instance-api.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
@@ -17,7 +18,7 @@ The CMDB Instance API provides endpoints to create, read, update, and delete ope
 
 This API requires the user have the ITIL role.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 
 ## CMDB Instance - DELETE /now/cmdb/instance/\{classname\}/\{sys\_id\}/relation/\{rel\_sys\_id\}
 
@@ -29,7 +30,7 @@ Versioned URL: `/api/now/{api_version}/cmdb/instance/{className}/{sys_id}/relati
 
 Default URL: `/api/now/cmdb/instance/{className}/{sys_id}/relation/{rel_sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -76,7 +77,7 @@ Sys\_id of the CI.Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -88,7 +89,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -124,7 +125,7 @@ Versioned URL: `/api/now/{api_version}/cmdb/instance/{className}`
 
 Default URL: `/api/now/cmdb/instance/{className}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -185,7 +186,7 @@ sysparm\_query
 
 </td><td id="sysparm-query-RESTAPI">
 
-[Encoded query](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -200,7 +201,7 @@ sysparm\_query
 &lt;value&gt;: Value to match against.
 
 
-For more operators, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+For more operators, see .
 
 All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
 
@@ -232,7 +233,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -257,7 +258,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -328,7 +329,7 @@ Versioned URL: `/api/now/{api_version}/cmdb/instance/{className}/{sys_id}`
 
 Default URL: `/api/now/cmdb/instance/{className}/{sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -375,7 +376,7 @@ Sys\_id of the CI record to retrieve.Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -400,7 +401,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -936,7 +937,7 @@ Versioned URL: `/api/now/{api_version}/cmdb/instance/{className}`
 
 Default URL: `/api/now/cmdb/instance/{className}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1054,7 +1055,7 @@ Required. Entity that updated the information. This must be one of the choice va
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1087,7 +1088,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1779,7 +1780,7 @@ Versioned URL: `/api/now/{api_version}/cmdb/instance/{className}/{sys_id}`
 
 Default URL: `/api/now/cmdb/instance/{className}/{sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1826,7 +1827,7 @@ attributes
 
 </td><td id="entry-attributes-cmdb">
 
-Data attributes to replace in the CI record. The available attributes depend on the specified CMDB class. You can locate the available attributes in the associated CMDB table which typically begins with "cmdb\_ci", such as cmdb\_ci\_linux\_server or cmdb\_ci\_mfp\_printer.For information about attestation, see [CIs attestation](https://www.servicenow.com/docs/access?context=attesting-cis&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+Data attributes to replace in the CI record. The available attributes depend on the specified CMDB class. You can locate the available attributes in the associated CMDB table which typically begins with "cmdb\_ci", such as cmdb\_ci\_linux\_server or cmdb\_ci\_mfp\_printer.For information about attestation, see .
 
 Data type: Object
 
@@ -1841,7 +1842,7 @@ Required. Entity that updated the information. This must be one of the choice va
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1874,7 +1875,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2362,7 +2363,7 @@ Versioned URL: `/api/now/{api_version}/cmdb/instance/{className}/{sys_id}/relati
 
 Default URL: `/api/now/cmdb/instance/{className}/{sys_id}/relation`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2480,7 +2481,7 @@ Required. Entity that updated the information. This must be one of the choice va
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2513,7 +2514,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -3009,7 +3010,7 @@ Versioned URL: `/api/now/{api_version}/cmdb/instance/{className}/{sys_id}`
 
 Default URL: `/api/now/cmdb/instance/{className}/{sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -3056,7 +3057,7 @@ attributes
 
 </td><td id="entry-attributes-cmdb">
 
-Data attributes to replace in the CI record. The available attributes depend on the specified CMDB class. You can locate the available attributes in the associated CMDB table which typically begins with "cmdb\_ci", such as cmdb\_ci\_linux\_server or cmdb\_ci\_mfp\_printer.For information about attestation, see [CIs attestation](https://www.servicenow.com/docs/access?context=attesting-cis&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+Data attributes to replace in the CI record. The available attributes depend on the specified CMDB class. You can locate the available attributes in the associated CMDB table which typically begins with "cmdb\_ci", such as cmdb\_ci\_linux\_server or cmdb\_ci\_mfp\_printer.For information about attestation, see .
 
 Data type: Object
 
@@ -3071,7 +3072,7 @@ Required. Entity that updated the information. This must be one of the choice va
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -3104,7 +3105,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

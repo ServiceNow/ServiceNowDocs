@@ -1,45 +1,32 @@
 ---
-title: Exploring Playbook Assist
-description: Use Playbook Assist to generate playbook outlines from text directions. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+title: Exploring Now Assist for Playbooks
+description: Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/playbook-assist.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Playbook Assist, Exploring playbooks, Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Playbook generation, Exploring playbooks, Exploring Workflow Studio, Workflow Studio, Build workflows]
 ---
 
-# Exploring Playbook Assist
+# Exploring Now Assist for Playbooks
 
-Use Playbook Assist to generate playbook outlines from text directions. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
 
 Now Assist for Creator activates the playbook generation skill. Playbook generation gives generative AI capabilities to playbook authors.
-
-**Note:** Playbook authors must be assigned the **now.assist.creator** role to use playbook generation. See [Playbook Assist roles](../reference/playbook-assist-roles.md) for more information about this skill.
-
-Playbook authors can provide text directions to create multi-stage playbooks with [placeholder activities](../reference/placeholder-activity.md) \(![placeholder activity icon.](../images/placeholder-activity-icon.png)\).
-
-**Note:** Playbook generation uses placeholder activities in your playbook. [Configure each activity](../task/generate-a-playbook-outline.md) before activating your playbook.
-
-![Choose an activity definition for the placeholder activity.](../images/configure-placeholder-activity.png)
 
 ## Activation
 
 Playbook generation is a skill that is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-## Supported Now Assist skills
-
-Playbook Assist currently only supports the playbook generation skill in English.
-
-Playbook Assist currently supports the playbook generation, playbook recommendations, and playbook generation with images skills in English. The playbook generation with images skill is not available for ServiceNow instances hosted in the APAC region.
-
 ## Supported user interfaces
 
 Access the playbook generation skill when you’re creating a playbook in Workflow Studio.
 
-![Build a new playbook with Now Assist.](../images/new-playbook-now-assist.png)
+\[Omitted image "new-playbook-now-assist.png"\] Alt text: Build a new playbook with Now Assist.
 
 ## Writing prompts and reviewing playbook outlines
 
@@ -62,7 +49,7 @@ Write prompts:
 
     Save your prompts somewhere, including any modified versions. Saving your prompts enables easy comparison of results.
 
-    **Note:** Prompts used only to generate a preview are not saved, but prompts used for a saved playbook outline are in the playbook's Properties setting.
+    **Note:** Prompts used only to generate a preview aren't saved, but prompts used for a saved playbook outline are in the playbook's Properties setting.
 
 
 Review playbook outlines:
@@ -75,7 +62,7 @@ Review playbook outlines:
 
     Configure placeholder activities before you activate your playbook. Use playbook recommendations to help choose activity definitions.
 
-    ![Choose an activity definition for the placeholder activity.](../images/configure-placeholder-activity.png "Configure the activity definition in the activity side panel")
+    \[Omitted image "configure-placeholder-activity.png"\] Alt text: Choose an activity definition for the placeholder activity.
 
 
 ## Retrieval Augmented Generation \(RAG\) support
@@ -148,7 +135,7 @@ The following examples can help you to generate playbook outlines:
     ```
 
 
-**Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+**Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see .
 
-**Parent Topic:**[Playbook Assist](playbook-assist-landing.md)
+**Parent Topic:**[Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-assist-landing.md)
 

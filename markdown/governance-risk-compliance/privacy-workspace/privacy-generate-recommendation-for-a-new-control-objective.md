@@ -2,6 +2,7 @@
 title: Use Recommendation of similar control objectives skill to generate suggestions
 description: The "Recommendation of similar control objectives" skill generates recommendations by identifying, deduplicating, and rationalizing similar control objectives within the compliance library. This enables identification of redundant control objectives, making it easier to maintain a clean and efficient compliance library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/privacy-generate-recommendation-for-a-new-control-objective.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -21,7 +22,7 @@ Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 The "Recommendation of similar control objectives" skill generates recommendations based on the similarity parameters configured \(names and description\). The Gen AI searches for similar names and descriptions, which serve as inputs for providing recommendations.
 
@@ -104,7 +105,7 @@ Additional information about the rationalization process.
 
 ## What to do next
 
-Accept or dismiss the generated recommendations. For more information, see [Act on the recommendations for similar control objectives](../../grc-policy-and-compliance/concept/take-actions-on-the-recommendations-for-similar-control-objectives.md).
+Accept or dismiss the generated recommendations. For more information, see [Act on the recommendations for similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/take-actions-on-the-recommendations-for-similar-control-objectives.md).
 
 **Note:**
 

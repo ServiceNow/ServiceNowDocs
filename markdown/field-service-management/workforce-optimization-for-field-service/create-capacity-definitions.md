@@ -2,6 +2,7 @@
 title: Create a capacity definition
 description: Allocate work to different task attributes based on their reserved capacity percentage and defined source of capacity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/workforce-optimization-for-field-service/create-capacity-definitions.html
 release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -107,7 +108,7 @@ Reservation name
 
 </td><td>
 
-Name of the capacity reservation.This field appears only when the Set capacity by buckets option is cleared. For more information, see [Capacity reservation rules](../concept/capacity-reservations.md#).
+Name of the capacity reservation.This field appears only when the Set capacity by buckets option is cleared. For more information, see [Capacity reservation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-reservations.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.

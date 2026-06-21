@@ -2,6 +2,7 @@
 title: Create record level restrictions
 description: Set record level restrictions in DLP incidents to protect sensitive records from being exposed. You can use record level restrictions to control the users or groups who can access specific records in the DLP incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/data-loss-prevention/setup-record-level-restrictions.html
 release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -90,18 +91,18 @@ Applies to
 
 </td><td>
 
-Option to apply record level restrictions to specific users or groups. You can apply the conditions as follows:-   **Users**: Click the ![Lock icon](../image/dlp-lock-icon.png) icon to add a particular user from the list to whom the selected record is applicable. You can also add a user by using their email address or search option. For example, Legal Manager.
+Option to apply record level restrictions to specific users or groups. You can apply the conditions as follows:-   **Users**: Click the \[Omitted image "dlp-lock-icon.png"\] Alt text: Lock icon icon to add a particular user from the list to whom the selected record is applicable. You can also add a user by using their email address or search option. For example, Legal Manager.
 
-To add yourself as the user to whom the record is applicable, click the ![Add me icon](../image/dlp-addme-icon.png). For example, System Administrator.
+To add yourself as the user to whom the record is applicable, click the \[Omitted image "dlp-addme-icon.png"\] Alt text: Add me icon. For example, System Administrator.
 
--   **Groups**: Click the ![Lock icon](../image/dlp-lock-icon.png) icon to add a particular group from the list to whom the selected record is applicable. You can also add a group by using the search option. For example, Survey creators.
+-   **Groups**: Click the \[Omitted image "dlp-lock-icon.png"\] Alt text: Lock icon icon to add a particular group from the list to whom the selected record is applicable. You can also add a group by using the search option. For example, Survey creators.
 
 
 </td></tr></tbody>
-</table>    ![Set up record level restrictions for your DLP incidents](../image/dlp-record-restrictions.gif "DLP Record Level Restriction")
+</table>    \[Omitted image "dlp-record-restrictions.gif"\] Alt text: Set up record level restrictions for your DLP incidents
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[DLP Incident Access Restrictions](../concept/dlp-incident-access-restrictions.md)
+**Parent Topic:**[DLP Incident Access Restrictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/dlp-incident-access-restrictions.md)
 

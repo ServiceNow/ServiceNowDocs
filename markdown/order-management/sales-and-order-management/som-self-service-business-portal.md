@@ -2,13 +2,14 @@
 title: Customer self-service for Sales Customer Relationship Management
 description: Support your business-to-business customers by enabling self-service capabilities through the Business Portal to create and manage orders and submit order issues and requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-self-service-business-portal.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
 # Customer self-service for Sales Customer Relationship Management
@@ -48,9 +49,9 @@ B2B customers can perform the following order management tasks using the Busines
 
 The following topics provide more information about configuring and using the Business Portal:
 
--   Getting started with the Business Portal: [Configure Business Portal](https://www.servicenow.com/docs/access?context=configure-business-portal&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)
--   [Using the Business Portal](https://www.servicenow.com/docs/access?context=use-the-business-portal&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US) \(All features and capabilities\)
--   [Configuring the Business Portal](order-management-configure-business-portal.md)
--   [Customer self-service using the Business Portal](order-mgt-business-portal.md)
--   [Business Portal user roles](https://www.servicenow.com/docs/access?context=r_BusinessPortalUserRoles&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)
+-   Getting started with the Business Portal: 
+-    \(All features and capabilities\)
+-   [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/order-management-configure-business-portal.md)
+-   [Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/order-mgt-business-portal.md)
+-   
 

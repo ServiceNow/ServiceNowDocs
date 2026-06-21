@@ -2,6 +2,7 @@
 title: Triage and analyze alerts agentic workflow
 description: Use the Triage and analyze alerts agentic workflow to complete preliminary alert tasks and analysis for alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-alert-triage-agentic-workflow.html
 release: yokohama
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -27,7 +28,7 @@ The Triage and analyze alerts agentic workflow uses AI agents to support alert t
 
 **Note:** These functions can also be used for the origin alert of an incident when the workflow is accessed from the incident form or Express List using the Now Assist panel.
 
-Use the information on this page to learn about the agents related to the Triage and analyze alerts agentic workflow. To modify the Triage and analyze alerts agentic workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+Use the information on this page to learn about the agents related to the Triage and analyze alerts agentic workflow. To modify the Triage and analyze alerts agentic workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see .
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -35,7 +36,7 @@ Use the information on this page to learn about the agents related to the Triage
 
 Acknowledge, assign, and investigate current and past alerts to determine significance and possible resolutions.
 
-To access the agentic workflow, use the Now Assist panel. For more information about using the agentic workflow in the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+To access the agentic workflow, use the Now Assist panel. For more information about using the agentic workflow in the Now Assist panel, see .
 
 ## AI agents used in the Triage and analyze alerts agentic workflow
 
@@ -49,9 +50,9 @@ The Triage and analyze alerts agentic workflow uses a team of AI agents to perfo
 |Related incidents analysis AI agent|Analyze past incidents and provide insights on common assignments and summarized resolution notes.|
 |Alert verification AI agent|Assess data completeness and determine whether the alert is suitable for analysis.|
 
-**Parent Topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](now-assist-itom-ai-agent-workflows.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 
-**Previous topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](now-assist-itom-ai-agent-workflows.md)
+**Previous topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 
-**Next topic:**[Analyze alert impact agentic workflow](now-assist-itom-agentic-aia.md)
+**Next topic:**[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-agentic-aia.md)
 

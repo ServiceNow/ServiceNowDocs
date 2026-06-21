@@ -2,11 +2,12 @@
 title: Assign roles for CMDB success advisor users
 description: Assign roles to control access to features, capabilities, and data in the CMDB success advisor application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-assign-roles.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-25"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -17,7 +18,7 @@ Assign roles to control access to features, capabilities, and data in the CMDB s
 
 ## Before you begin
 
-Set the application scope to CMDB success advisor using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+Set the application scope to CMDB success advisor using the application picker. For more information, see Application picker.
 
 Role required: admin
 
@@ -44,30 +45,6 @@ sn\_cmdb\_admin
 </td><td>
 
 Required to access the CMDB success advisor. Users with the sn\_cmdb\_admin role can configure and improve CMDB data accuracy based on specific business use cases.
-
-</td><td>
-
-Data Foundations and HAM dashboards
-
-</td></tr><tr><td>
-
-pa\_data\_collector
-
-</td><td>
-
-Required to view the last updated data timestamp on the dashboard.
-
-</td><td>
-
-Data Foundations and HAM dashboards
-
-</td></tr><tr><td>
-
-pa\_viewer
-
-</td><td>
-
-Required to filter data by principal classes in Data Foundations advisor dashboard and model categories in HAM advisor dashboard.
 
 </td><td>
 
@@ -110,12 +87,12 @@ Required to manage Discovery patterns with create and write access.
 Data Foundations and HAM dashboards
 
 </td></tr></tbody>
-</table>For more information, see [Exploring CMDB success advisor](../concept/cmdb-sa-explore.md).
+</table>For more information, see [Exploring CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-explore.md).
 
 ## Procedure
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
-    -   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+    -   To assign a role to a user, see Assign a role to a user.
+    -   To assign a role to a group, see Assign a role to a group.
 

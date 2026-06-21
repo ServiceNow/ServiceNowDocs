@@ -2,6 +2,7 @@
 title: Generate AIOps LEAP playbooks
 description: Create standard, dynamic, and automated playbooks using AIOps LEAP to promote fast incident resolution and response time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -29,35 +30,35 @@ Role required: AIOps LEAP admin
 
 4.  Select one of the following options to create playbook.
 
-<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d669734e105">
+<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d238851e105">
 
 UI option
 
-</th><th align="left" id="d669734e108">
+</th><th align="left" id="d238851e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d669734e114">
+</th></tr></thead><tbody><tr><td id="d238851e114">
 
 **Actions**
 
 </td><td>
 
-Select Actions button ![Actions button](../images/actions-icon.png), and select **Create Playbook**.
+Select Actions button \[Omitted image "actions-icon.png"\] Alt text: Actions button, and select **Create Playbook**.
 
-</td></tr><tr><td id="d669734e132">
+</td></tr><tr><td id="d238851e132">
 
 **Explore**
 
 </td><td>
 
-1.  Select Explore button ![Explore button](../images/explore-button.png).
+1.  Select Explore button \[Omitted image "explore-button.png"\] Alt text: Explore button.
 2.  In the Now Assist panel, select **Create playbook**.
 
 
 </td></tr></tbody>
-</table>    ![create leap playbook from Actions](../images/create-leap-playbook-updated.png) Workflow Studio opens and the playbook generation process starts. The **Playbook name** and **Now Assist directions** fields are pre-filled with the problem record title and the generated resolution steps.
+</table>    \[Omitted image "create-leap-playbook-updated.png"\] Alt text: create leap playbook from Actions Workflow Studio opens and the playbook generation process starts. The **Playbook name** and **Now Assist directions** fields are pre-filled with the problem record title and the generated resolution steps.
 
-    ![LEAP playbook in Workflow studio](../images/workflow-studio-for-playbooks.png)
+    \[Omitted image "workflow-studio-for-playbooks.png"\] Alt text: LEAP playbook in Workflow studio
 
 

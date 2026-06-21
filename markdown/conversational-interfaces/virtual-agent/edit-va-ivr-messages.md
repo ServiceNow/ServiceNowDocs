@@ -2,6 +2,7 @@
 title: Manage bot messages for Conversational IVR
 description: Edit your custom messages to ensure that your conversations are optimized for Conversational IVR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/edit-va-ivr-messages.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -33,7 +34,7 @@ Role required: admin
 
     Additionally, you can also select the **Manage** button in the VA Messages column against the identity provider.
 
-    ![Select Manage to edit your custom messages for the provider Channel identity.](../images/manage-ivr-mesgs.png "Manage custom messages for Conversational IVR")
+    \[Omitted image "manage-ivr-mesgs.png"\] Alt text: Select Manage to edit your custom messages for the provider Channel identity.
 
 6.  On the Custom virtual agent messages page, select the custom message that you want to update.
 

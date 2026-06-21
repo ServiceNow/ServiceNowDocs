@@ -2,6 +2,7 @@
 title: System properties for Reports
 description: The system properties for reports are explained below.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/reports-system-properties.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

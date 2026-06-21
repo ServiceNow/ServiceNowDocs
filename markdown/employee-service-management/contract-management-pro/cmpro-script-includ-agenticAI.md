@@ -2,6 +2,7 @@
 title: Update the contracts AI agents handler script include
 description: Update the ContractsAIAgentsHelper script include to add the sys\_id of a customized Manage contract repository agentic workflow to run the agentic workflow autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -50,5 +51,5 @@ When you duplicate the Manage contract repository agentic workflow and create a 
 10. Select **Update**.
 
 
-**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](../concept/cmpro-conf-agentic-workflow.md)
+**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
 

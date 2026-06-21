@@ -2,6 +2,7 @@
 title: HR Service Delivery for Healthcare
 description: The ServiceNow HR Service Delivery for Healthcare application creates a standardized, digitized, and automated physician onboarding workflow using the Healthcare Professional data model. The application enables you to see the full picture for all the required onboarding information during and after physician onboarding. HR Service Delivery for Healthcare is a new application in the Yokohama release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery-for-healthcare/healthcare-hr.html
 release: yokohama
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -19,19 +20,19 @@ The ServiceNow® HR Service Delivery for Healthcare application creates a standa
 
 <table id="table_nyp_yyr_qbc" class="nav-card"><tbody><tr><td>
 
-[Explore](explore-hr-healthcare.md)![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about HR Service Delivery for Healthcare features
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-healthcare/explore-hr-healthcare.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn about HR Service Delivery for Healthcare features
 
 </td><td>
 
-[Configure](../task/configure-hr-healthcare.md)![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install the necessary applications
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-healthcare/configure-hr-healthcare.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Install the necessary applications
 
 </td></tr><tr><td>
 
-[Use](../task/using-hr-healthcare.md)![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Securely access, update and maintain details of an healthcare professional.
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-healthcare/using-hr-healthcare.md)\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Securely access, update and maintain details of an healthcare professional.
 
 </td><td>
 
-[Reference](../reference/reference-hr-healthcare.md)![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about component like fields, tables and properties.
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)\[Omitted image "bus-learn.svg"\] Alt text:Get details about component like fields, tables and properties.
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

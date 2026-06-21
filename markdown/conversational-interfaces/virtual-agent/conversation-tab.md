@@ -2,6 +2,7 @@
 title: Legacy - Conversations tab
 description: Use the Conversations tab to view the list of Virtual Agent conversations and details of each conversation that occurred during the selected date range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/conversation-tab.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ Use the **Conversations** tab to view the list of Virtual Agent conversations an
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -30,31 +31,31 @@ Virtual Agent conversations data is retained for a period of 90 days. The analyt
 
 To access the **Conversations** tab, you must have the Chat Analytics Viewer \(chat\_analytics\_viewer\) role. Conversation dates and times are in UTC.
 
-![Virtual Agent Analytics conversations page set to all conversations, with first conversation in list highlighted.](../images/conversations-1.png "Conversations page")
+\[Omitted image "conversations-1.png"\] Alt text: Virtual Agent Analytics conversations page set to all conversations, with first conversation in list highlighted.
 
 ## Conversations tab benefits
 
 The **Conversations** tab enables you to do the following:
 
--   Filter the list of conversations easily by using pre-built filtering options. For more information, see [Filtering using list options](conversation-tab-filtering.md#section_xmk_mk3_spb).
--   Filter the list of conversations based on a specific condition and save conditions for filtering. For more information, see [Filtering using the Filter Editor](conversation-tab-filtering.md#section_izh_yrd_vpb).
--   Learn more about each conversation, view the conversation transcript, and mark a conversation as a favorite. For more information, see [Get conversation details](conversation-tab.md#section_i4l_jlt_j4b).
--   Export the list of conversations to a file. For more information, see [Export the conversations list](conversation-tab.md#section_y5z_md2_tpb).
--   Download the conversation transcript to troubleshoot individual conversations. For more information, see [Download the conversation transcript](conversation-tab.md#section_mdz_4f3_stb).
+-   Filter the list of conversations easily by using pre-built filtering options. For more information, see [Filtering using list options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-tab-filtering.md).
+-   Filter the list of conversations based on a specific condition and save conditions for filtering. For more information, see [Filtering using the Filter Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-tab-filtering.md).
+-   Learn more about each conversation, view the conversation transcript, and mark a conversation as a favorite. For more information, see [Get conversation details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-tab.md).
+-   Export the list of conversations to a file. For more information, see [Export the conversations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-tab.md).
+-   Download the conversation transcript to troubleshoot individual conversations. For more information, see [Download the conversation transcript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-tab.md).
 
 ## Get conversation details
 
 To get more information about a conversation, select one of the conversations in the list. The information appears on the side panel.
 
-![Virtual Agent conversation details panel.](../images/chat-details-va-1.png "Conversation details")
+\[Omitted image "chat-details-va-1.png"\] Alt text: Virtual Agent conversation details panel.
 
 To view and download the conversation transcript, select the **Transcript** tab.
 
-![Virtual Agent Conversation transcript tab showing record of conversation.](../images/chat-transcript-download.png "Conversation transcript")
+\[Omitted image "chat-transcript-download.png"\] Alt text: Virtual Agent Conversation transcript tab showing record of conversation.
 
 To view the conversation timeline, select the **Timeline** tab.
 
-![Virtual Agent conversation Timeline tab, showing timestamps for Greetings and Anything Else Topic nodes.](../images/timeline-1.png "Conversation timeline")
+\[Omitted image "timeline-1.png"\] Alt text: Virtual Agent conversation Timeline tab, showing timestamps for Greetings and Anything Else Topic nodes.
 
 To tag a conversation as a favorite, you can select the star icon on the side panel. On the Conversations page, you can easily list the conversations that are marked as favorite using the Filter Editor.
 
@@ -122,7 +123,7 @@ End state
 
 </td><td>
 
-How the conversation ended. For more information on various conversation end states, see [Virtual Agent interaction records](va-interactions.md).
+How the conversation ended. For more information on various conversation end states, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-interactions.md).
 
 </td></tr><tr><td>
 
@@ -145,12 +146,12 @@ Indicates whether the user is tagged as favorite.
 
 To download the conversation transcript, select a conversation from the conversations list and select **Download**.
 
-The conversation transcript .txt file includes various data elements such as user input, Virtual Agent response, Flow Designer Integration Hub, flow action, custom controls, and topic block information for the selected conversation. This information helps Virtual Agent administrators to troubleshoot conversations, for example, conversations where there were errors or transfers to a live agent. For more information on the .txt file, see [Legacy - Conversation transcript template](../reference/chat-transcript-template.md).
+The conversation transcript .txt file includes various data elements such as user input, Virtual Agent response, Flow Designer Integration Hub, flow action, custom controls, and topic block information for the selected conversation. This information helps Virtual Agent administrators to troubleshoot conversations, for example, conversations where there were errors or transfers to a live agent. For more information on the .txt file, see [Legacy - Conversation transcript template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/chat-transcript-template.md).
 
--   **[Legacy - Use filters in the Conversation tab](conversation-tab-filtering.md)**  
+-   **[Legacy - Use filters in the Conversation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-tab-filtering.md)**  
 You can filter out conversation for a deeper understanding.
--   **[Legacy - Conversation transcript template](../reference/chat-transcript-template.md)**  
+-   **[Legacy - Conversation transcript template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/chat-transcript-template.md)**  
 The conversation transcript .txt file contains information used to troubleshoot individual conversations.
 
-**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](use-the-dashboard-overview.md)
+**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/use-the-dashboard-overview.md)
 

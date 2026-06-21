@@ -2,6 +2,7 @@
 title: Attendee List and RSVP for company events
 description: Attendee list can be viewed for company events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/ec-attendee-list-company-events.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +19,7 @@ Attendee list can be viewed for company events.
 ## Before you begin
 
 -   Role required: sn\_cd.content\_manager
--   Complete the steps to [Create a company event](create-company-event.md).
+-   Complete the steps to [Create a company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/create-company-event.md).
 
 ## About this task
 
@@ -41,12 +42,12 @@ Attendee list can be viewed for company events.
 
 5.  Select **View attendee list**
 
-    ![Allows you to view the attendee list and options for RSVP and Allow waitlist](../images/ce-rsvp-allow-waitlist.png "View attendee list")
+    \[Omitted image "ce-rsvp-allow-waitlist.png"\] Alt text: Allows you to view the attendee list and options for RSVP and Allow waitlist
 
 6.  View the listed attendees for the event.
 
-    ![The list of attendees for the company event](../images/ce-attendee-list.png "Attendee list")
+    \[Omitted image "ce-attendee-list.png"\] Alt text: The list of attendees for the company event
 
 
-**Parent Topic:**[Company events](../concept/ec-company-events.md)
+**Parent Topic:**[Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-company-events.md)
 

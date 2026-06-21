@@ -2,6 +2,7 @@
 title: Financial Services Treasury Operations
 description: The ServiceNow Financial Services Treasury Operations application is a solution in Financial Services Operations that enables financial organizations to digitize the end-to-end onboarding of treasury products through automated workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-treasury-operations/fso-treasury-ops-landing-page.html
 release: yokohama
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -17,31 +18,31 @@ The ServiceNow® Financial Services Treasury Operations application is a solutio
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../common/image/icon-explore.png) Learn about how customers, relationship managers, and agents use Treasury Operations.](explore-fso-treasury-operations.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how customers, relationship managers, and agents use Treasury Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/explore-fso-treasury-operations.md)
 
 </td><td>
 
-[Set up ![](../../../common/image/icon-set-up.png) Set up Financial Services Treasury Operations.](setting-up-fso-treasury-operations.md)
+[Set up \[Omitted image "icon-set-up.png"\] Alt text: Set up Financial Services Treasury Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/setting-up-fso-treasury-operations.md)
 
 </td><td>
 
-[Use ![](../../../common/image/icon-workspace.png) Submit and manage treasury service requests.](using-treasury-ops.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Submit and manage treasury service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
 
 </td></tr><tr><td>
 
-[Analytics and Reporting ![](../../fso-deposit-operations/image/icon-report.png) Coordinate work and improve processes with preconfigured dashboard.](../../../use/dashboards/application-content-packs/fso-treasury-ops-dashboard.md)
+[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Coordinate work and improve processes with preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/fso-treasury-ops-dashboard.md)
 
 </td><td>
 
-[Process Mining ![](../../fso-deposit-operations/image/icon-process-opt.png) Visualize process and identify improvement opportunities.](../../fso-common/concept/fso-process-optz-content-pack.md)
+[Process Mining \[Omitted image "icon-process-opt.png"\] Alt text: Visualize process and identify improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-process-optz-content-pack.md)
 
 </td><td>
 
-[Reference ![](../../../common/image/icon-reference.png) Get details about components such as roles, tables, plugins, and store applications that are installed.](fso-treasury-operations-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/fso-treasury-operations-reference.md)
 
 </td></tr></tbody>
 </table>

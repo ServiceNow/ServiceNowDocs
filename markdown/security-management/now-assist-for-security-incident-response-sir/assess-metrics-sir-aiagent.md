@@ -2,6 +2,7 @@
 title: Analyze security operations metrics agentic workflow
 description: Chat with an AI agent from the Now Assist panel to help you gain insight into how efficiently your security analysts are working with security incidents resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.html
 release: yokohama
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -17,13 +18,13 @@ Chat with an AI agent from the Now Assist panel to help you gain insight into ho
 
 ## Before you begin
 
-You must activate the Now Assist Security operations metrics analysis skill before you can use the AI agents with the Analyze security operations metrics agentic workflow. For more information, see [Configure a skill for Now Assist for Security Incident Response](activate-skills-for-now-assist-security-incident.md).
+You must activate the Now Assist Security operations metrics analysis skill before you can use the AI agents with the Analyze security operations metrics agentic workflow. For more information, see [Configure a skill for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.md).
 
 Role required: sn\_si.manager
 
 ## Procedure
 
-1.  Select the Now Assist icon \(![Now Assist icon.](../../../common/image/icon-ai-sparkle.png)\) from anywhere in your instance.
+1.  Select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\) from anywhere in your instance.
 
     The Now Assist panel is displayed.
 
@@ -63,7 +64,7 @@ End the conversation.
 </td></tr></tbody>
 </table>    You might prefer to have the Security Incident Response workspace open in another tab so that you can refer to assignment groups, dates, and other information for your prompts.
 
-    Your conversation is saved until you start a new chat. To start a new chat, select the New chat icon \(![New chat icon.](../../../common/image/icon-zoom-in.png)\).
+    Your conversation is saved until you start a new chat. To start a new chat, select the New chat icon \(\[Omitted image "icon-zoom-in.png"\] Alt text: New chat icon.\).
 
     Your request is repeated and displayed in highlighted text with more information.
 

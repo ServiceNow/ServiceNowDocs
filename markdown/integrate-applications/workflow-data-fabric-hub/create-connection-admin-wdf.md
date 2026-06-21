@@ -2,6 +2,7 @@
 title: Create a connection administrator
 description: Create a connection admin who can create zero copy connections in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/create-connection-admin-wdf.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -40,7 +41,7 @@ The user is now a connection admin in Workflow Data Fabric Hub. As a connection 
 -   Select a connector and create a zero copy connection to an external data source.
 -   Define who can access the connection and create data fabric tables by assigning the df\_data\_steward role to an existing role.
 
-See [Managing zero copy connections in Workflow Data Fabric Hub](../concept/managing-connections-wdf.md).
+See [Managing zero copy connections in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.md).
 
-**Parent Topic:**[Configuring Workflow Data Fabric Hub](../concept/configuring-wdf.md)
+**Parent Topic:**[Configuring Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/configuring-wdf.md)
 

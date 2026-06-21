@@ -2,6 +2,7 @@
 title: Update set administration
 description: Manage how update sets store, retrieve, preview, and apply configuration changes between instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/system-update-sets/update-set-administration.html
 release: yokohama
 product: System Update Sets
 classification: system-update-sets
@@ -31,7 +32,7 @@ Administrators have the following options with update sets.
 
 ## Grant access to the update set picker
 
-The update set picker allows users to choose an update set for making and tracking customizations. By default, only administrators can use the update set picker. You can [grant access to additional users](../task/t_GrantAccessToTheUpdateSetPicker.md).
+The update set picker allows users to choose an update set for making and tracking customizations. By default, only administrators can use the update set picker. You can [grant access to additional users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/t_GrantAccessToTheUpdateSetPicker.md).
 
 ## Automatically preview retrieved update sets
 

@@ -2,6 +2,7 @@
 title: Analyzing assistants
 description: Monitor, evaluate, and optimize the performance of your AI-powered assistants from the Analytics tab of the Assistant Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/now-assist-in-virtual-agent/ai-engagement-analytics.html
 release: yokohama
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

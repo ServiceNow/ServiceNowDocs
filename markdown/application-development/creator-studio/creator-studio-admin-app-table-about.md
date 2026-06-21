@@ -2,11 +2,12 @@
 title: Changing the table for an app
 description: Admins can change the underlying table for an app built in Creator Studio. That is, you can change the table that the app saves its requests to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-admin-app-table-about.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Administering an app's underlying table, Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Administering an app's underlying table, Administering Creator Stud
 
 Admins can change the underlying table for an app built in Creator Studio. That is, you can change the table that the app saves its requests to.
 
-View the current table for the app by selecting the **Data management** tab in the App settings. For more information, see [Edit an app's settings in Creator Studio](../task/creator-studio-edit-app-settings.md).
+View the current table for the app by selecting the **Data management** tab in the App settings. For more information, see [Edit an app's settings in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-edit-app-settings.md).
 
 ## Reasons to change the table for an app
 
@@ -37,7 +38,7 @@ A general guideline is to use a table that extends the Request Task table.
 -   The request\_type field for the new table should have the label **Request type**, and it should be a reference to the Record Producer table.
 -   If the new table isn’t in the same scope as the app, the scope of the table must allow updates from other scopes.
 
-For more information on the Task table, see [Working with the Task table](https://www.servicenow.com/docs/access?context=c_TaskTable&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information on the Task table, see .
 
 ## Repercussions of changing an app's table
 
@@ -76,5 +77,5 @@ Workspace list configurations
 If you change the table after a user created a filtered list, the filtered list retains the original table.If multiple filtered lists use different tables, users will get errors based on those discrepancies. For example, they can't manage columns for a table that they don't have edit access to.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administering an app's underlying table](creator-studio-admin-app-table.md)
+</table>**Parent Topic:**[Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md)
 

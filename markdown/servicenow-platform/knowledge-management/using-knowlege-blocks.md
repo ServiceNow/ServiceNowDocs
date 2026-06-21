@@ -2,6 +2,7 @@
 title: Using knowledge blocks
 description: Use knowledge blocks to simplify knowledge authoring for writers and knowledge consumption for readers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/using-knowlege-blocks.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

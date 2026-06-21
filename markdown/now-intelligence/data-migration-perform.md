@@ -2,6 +2,7 @@
 title: Perform full data migration
 description: Migrate your existing dashboards, reports, interactive filters, and Performance Analytics widgets to the Platform Analytics experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/data-migration-perform.html
 release: yokohama
 topic_type: task
 last_updated: "2026-02-20"
@@ -47,7 +48,7 @@ Dashboards with visualizations or other widgets migrated in compatibility mode m
 
     The length of the migration process depends on the number of dashboards, reports, filters, and Performance Analytics widgets you have on your instance.
 
-    ![Window that indicates how many dashboards and reports will be migrated and estimate of how long the process takes.](../image/data-migration-confirmation.png)
+    \[Omitted image "data-migration-confirmation.png"\] Alt text: Window that indicates how many dashboards and reports will be migrated and estimate of how long the process takes.
 
 4.  Select **Prevent users from creating Core UI analytics during migration**.
 
@@ -55,7 +56,7 @@ Dashboards with visualizations or other widgets migrated in compatibility mode m
 
 5.  Select **Migrate** to start the migration process.
 
-6.  [Evaluate the results](data-migration-evaluate.md).
+6.  [Evaluate the results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-migration-evaluate.md).
 
 7.  Select **Activate** to complete the migration process.
 
@@ -66,9 +67,9 @@ Dashboards with visualizations or other widgets migrated in compatibility mode m
 
 Your dashboards and other migrated content are now found under the library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library**.
 
-![Platform Analytics menu path](../image/data-mig-plat-admin-lib-menu-path.png)
+\[Omitted image "data-mig-plat-admin-lib-menu-path.png"\] Alt text: Platform Analytics menu path
 
 ## What to do next
 
-[Evaluate full data migration](data-migration-evaluate.md)
+[Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-migration-evaluate.md)
 

@@ -2,6 +2,7 @@
 title: Use the Terminate component
 description: Abort an automation by using the Terminate component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-general-terminate.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,9 +22,9 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Terminate component. For more information about these properties, see [Properties of the General components](../reference/Properties-general-components.md).
+You can configure the properties for the Terminate component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/Properties-general-components.md).
 
-Use the Terminate component in attended automations to complete the automation execution. For more information about the embedded task automation, [Embedded Task Automation in RPA Hub](../../rpa-hub/concept/embedded-task-auto-rpa.md).
+Use the Terminate component in attended automations to complete the automation execution. For more information about the embedded task automation, [Embedded Task Automation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/embedded-task-auto-rpa.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ Use the Terminate component in attended automations to complete the automation e
 
 2.  Drag the Terminate component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Terminate component to the corresponding ports of the other components as described in the following table.
 
@@ -145,7 +146,7 @@ The Execution log window shows the screenshot.
 
 For example, in the automation workflow that requires to read data from an Excel, For Each loop and GetListItem components are used to extract data from the DataTable and display in a message box. If any error occurs while reading the data from the Excel, you can use the Try Catch component to handle the exception and the Terminate component to end the automation. The error message is also shown in process job.
 
-![Terminate component in a simple automation workflow after the Try Catch component. Terminate component displaying Message, Mark As Error, and Capture screen parameters.](../image/general-termininate-comp-rpa.png)
+\[Omitted image "general-termininate-comp-rpa.png"\] Alt text: Terminate component in a simple automation workflow after the Try Catch component. Terminate component displaying Message, Mark As Error, and Capture screen parameters.
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/general-component.md)
 

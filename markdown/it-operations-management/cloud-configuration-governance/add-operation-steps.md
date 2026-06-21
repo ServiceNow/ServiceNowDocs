@@ -2,6 +2,7 @@
 title: Add operation steps to a resource block
 description: After you configure operations and input parameters for your resource block, add steps for each operation to tell the system which Cloud API \(CAPI\) to call. Each step is a separate call to CAPI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/add-operation-steps.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -183,12 +184,12 @@ Enter an optional condition that must be met before the system uses this step.
         -   `Output.resp` is a mandatory part of the syntax.
         -   `nodeId`
 
--   **[Add an operation to a resource block to use with a workflow](add-op-to-resource-for-wrkflw.md)**  
+-   **[Add an operation to a resource block to use with a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/add-op-to-resource-for-wrkflw.md)**  
 You can select from the existing operations in a resource block to work with your workflow or you can create a custom operation.
--   **[Add a resource operation step to invoke a workflow](add-resource-op-step-invoke-wrkflw.md)**  
+-   **[Add a resource operation step to invoke a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/add-resource-op-step-invoke-wrkflw.md)**  
 You can invoke a workflow by adding an operations step to a resource and then associating the resource to a workflow.
--   **[Add a resource operation step to invoke a subflow](add-resource-op-step-subflow.md)**  
+-   **[Add a resource operation step to invoke a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/add-resource-op-step-subflow.md)**  
 Invoke a subflow by adding an operations step to a resource and then associating the resource to a new or existing subflow.
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](../concept/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

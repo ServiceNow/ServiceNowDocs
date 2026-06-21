@@ -2,6 +2,7 @@
 title: Approve delete email requests for the Microsoft Exchange Online integration
 description: If the approval option is enabled in your ServiceNow AI Platform instance, requests to delete emails are sent to each member of the approval group via email. You select the approval group during the configuration step. Approvals provide your organization with an additional level of control over the deletion of emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/ms-approve-delete.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -52,19 +53,19 @@ Role required: sn\_si.admin or all members of an assigned approval group.
 
         In this example, the user with the sn\_si.analyst role \(Hans SecAnalyst\) submits a request to delete one email. Johann SecAdmin is a member of the approval group.
 
-        ![Email notification for delete approval request.](../image/ms-122-approval-email.png)
+        \[Omitted image "ms-122-approval-email.png"\] Alt text: Email notification for delete approval request.
 
     2.  In the email notification, choose one option to continue.
 
-<table id="choicetable_fwm_nrk_4gb"><thead><tr><th align="left" id="d98951e170">
+<table id="choicetable_fwm_nrk_4gb"><thead><tr><th align="left" id="d98250e166">
 
 Option
 
-</th><th align="left" id="d98951e173">
+</th><th align="left" id="d98250e169">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d98951e179">
+</th></tr></thead><tbody><tr><td id="d98250e175">
 
 **Click the Click here to approve Approve link**
 
@@ -74,7 +75,7 @@ Approve the delete request. All the email items with a status of `false` in the 
 
 A work note is posted to the security incident record with the number of successfully deleted emails. If tagging is enabled, the `Email Delete - Completed` tag replaces the `Email Delete - Initiated` tag.
 
-</td></tr><tr><td id="d98951e206">
+</td></tr><tr><td id="d98250e202">
 
 **Click the Click here to reject link**
 
@@ -82,7 +83,7 @@ A work note is posted to the security incident record with the number of success
 
 Reject the delete request. A work note is posted with the name of the person who rejected the request. After a request is rejected, as the user with the sn\_si.analyst role, you are required to submit a new delete request if you determine that the emails should be deleted.
 
-</td></tr><tr><td id="d98951e218">
+</td></tr><tr><td id="d98250e214">
 
 **Click the link to the security incident record \(SIR0010002\)**
 
@@ -93,7 +94,7 @@ Review the related security incident and any related search data prior to proces
 </td></tr></tbody>
 </table>    The following image shows an example of the audit trail created by the work notes on the related security incident record for this example. When the request is rejected from the email notification by an approver, a work note is posted with by the person who rejected the request. Johann SecAdmin rejects this request.
 
-    ![Work notes with audit trail for a rejected request.](../image/ms-36-jected-request-notes-new.png)
+    \[Omitted image "ms-36-jected-request-notes-new.png"\] Alt text: Work notes with audit trail for a rejected request.
 
     In the ServiceNow AI Platform instance of the person who rejected the request \(Johann SecAdmin\), in **Self-Service &gt; My Approvals**, `Rejected` is displayed in the State column.
 
@@ -109,19 +110,19 @@ Review the related security incident and any related search data prior to proces
 
     1.  Navigate to **Self-Service &gt; My Approvals**.
 
-        ![List of approvals](../image/ms-approvals.png "My Approvals List")
+        \[Omitted image "ms-approvals.png"\] Alt text: List of approvals
 
     2.  In the State column, click the requested item.
 
         In the approval record that is displayed, data about the search, the search request, and the search results are listed.
 
-        ![Approval record from My Approvals](../image/ms-approvals-change.png "Approval details")
+        \[Omitted image "ms-approvals-change.png"\] Alt text: Approval record from My Approvals
 
     3.  On this record, click **Approve** to approve the request.
 
         After the request is approved, the system initiates the delete workflow to remove the emails. The following image shows an example of the audit trail created by the work notes on the related security incident record for this example. After this delete request is submitted again, it is approved. Regardless of which method is used to approve a request, the number of successfully deleted emails is posted in a work note.
 
-        ![Work notes logging the audit trail from email search is initiated through emails are successfully deleted.](../image/ms-122-delete-approved-notes.png)
+        \[Omitted image "ms-122-delete-approved-notes.png"\] Alt text: Work notes logging the audit trail from email search is initiated through emails are successfully deleted.
 
         After the emails are successfully deleted, on the related security incident record, if tagging is enabled, the `Email Delete - Completed` tag replaces the `Email Delete - Initiated` tag.
 
@@ -149,14 +150,14 @@ Review the related security incident and any related search data prior to proces
 
         In the Email Search Result record that is displayed, the Was deleted column status shows that the email is deleted \(`true`\).
 
-        ![Was deleted column highlighted on Email Search Result record.](../image/ms-36-delete-confirmed-esr.png)
+        \[Omitted image "ms-36-delete-confirmed-esr.png"\] Alt text: Was deleted column highlighted on Email Search Result record.
 
-        You have successfully approved email delete requests from both an email notification and an approval record and confirmed that emails are deleted. For more information about locating the Email Search Result record, see [Define email search criteria and request a search on the Microsoft Exchange Online service](verify-expected-results-ms-exchange-online.md).
+        You have successfully approved email delete requests from both an email notification and an approval record and confirmed that emails are deleted. For more information about locating the Email Search Result record, see [Define email search criteria and request a search on the Microsoft Exchange Online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md).
 
 
-**Parent Topic:**[Microsoft Exchange Online integration](../concept/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Request delete approval for emails on Microsoft Exchange online service](ms-delete-email.md)
+**Previous topic:**[Request delete approval for emails on Microsoft Exchange online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-delete-email.md)
 
-**Next topic:**[Recover deleted emails on the Microsoft Exchange Online service](ms-recover-deleted-emails.md)
+**Next topic:**[Recover deleted emails on the Microsoft Exchange Online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-recover-deleted-emails.md)
 

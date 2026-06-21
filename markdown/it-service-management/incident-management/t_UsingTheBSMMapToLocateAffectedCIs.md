@@ -2,6 +2,7 @@
 title: View affected CIs in the dependency views map
 description: A configuration item \(CI\) can result in an incident. Use dependency view to identify other configuration items \(CIs\) that are affected by the CI that resulted in the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/t\_UsingTheBSMMapToLocateAffectedCIs.html
 release: yokohama
 product: Incident Management
 classification: incident-management
@@ -29,23 +30,23 @@ Use the **Configuration Item** field when a single CI is the cause of the incide
 
 1.  On the Incident form, associate the CIs.
 
-<table id="choicetable_crl_z1k_yy"><thead><tr><th align="left" id="d266414e74">
+<table id="choicetable_crl_z1k_yy"><thead><tr><th align="left" id="d264064e71">
 
 From where
 
-</th><th align="left" id="d266414e77">
+</th><th align="left" id="d264064e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d266414e83">
+</th></tr></thead><tbody><tr><td id="d264064e80">
 
 **Configuration item field**
 
 </td><td>
 
-Click the lookup icon \(![The Look up icon](../../itsm-workspace/image/look-up-icon.png)\) beside the field and select the CI.
+Click the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: The Look up icon\) beside the field and select the CI.
 
-</td></tr><tr><td id="d266414e98">
+</td></tr><tr><td id="d264064e95">
 
 **Affected CIs related list**
 
@@ -58,13 +59,13 @@ Click the lookup icon \(![The Look up icon](../../itsm-workspace/image/look-up-i
 
 
 </td></tr></tbody>
-</table>2.  Click the dependency views icon \(![Dependency views icon](../image/BusinessServiceMapIcon.png)\) beside the **Configuration item** field.
+</table>2.  Click the dependency views icon \(\[Omitted image "BusinessServiceMapIcon.png"\] Alt text: Dependency views icon\) beside the **Configuration item** field.
 
     The Dependency Views map opens in a new tab or window.
 
 3.  To see items that this CI affects, click the down arrow and select **View Affected CIs**.
 
-    ![Select the View affected CIs option from the menu](../image/IM_CIOptionsDepViews.png)
+    \[Omitted image "IM\_CIOptionsDepViews.png"\] Alt text: Select the View affected CIs option from the menu
 
     To add another affected CI to the incident, click the down arrow beside the CI and click **Add Affected CI\(s\)**.
 
@@ -72,5 +73,5 @@ Click the lookup icon \(![The Look up icon](../../itsm-workspace/image/look-up-i
 **Related topics**  
 
 
-[Dependency Views map](https://www.servicenow.com/docs/access?context=c_NextGenBSMMaps&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_NextGenBSMMaps]
 

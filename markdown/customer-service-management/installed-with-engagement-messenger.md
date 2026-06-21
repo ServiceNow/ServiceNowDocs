@@ -2,7 +2,10 @@
 title: Components installed with Engagement Messenger
 description: Several types of components are installed with activation of the Engagement Messenger application, including plugins, tables, and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/installed-with-engagement-messenger.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2

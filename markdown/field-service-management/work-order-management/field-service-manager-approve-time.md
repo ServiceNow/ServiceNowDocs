@@ -2,6 +2,7 @@
 title: Review and approve time sheets
 description: Managers can review time cards and time sheets for agents in their assignment groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/field-service-manager-approve-time.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -37,5 +38,5 @@ Role required: wm\_manager
     If rate cards are applicable for the time worked, expense lines are generated as part of the time sheets. Users with the financial\_mgmt\_user role can view these expense lines.
 
 
-**Parent Topic:**[Manage work order tasks](../../planning-and-policy/concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

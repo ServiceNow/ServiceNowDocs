@@ -2,6 +2,7 @@
 title: Code generation properties
 description: You can adjust how code generation functions on an instance using several advanced properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/now-assist-code-properties.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -36,7 +37,7 @@ Enables using code generation in supported script editors.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: You can also enable code generation from Now Assist Admin. For more information, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+-   Learn more: You can also enable code generation from Now Assist Admin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Enables using the Code with Now Assist dialog box to provide text prompts.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Generate scripts from text](https://www.servicenow.com/docs/access?context=generate-code&version=yokohama&pubname=yokohama-api-reference&section=generate-scripts-from-text&ft:locale=en-US)
+-   Learn more: 
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ Enables tracking which lines of code are AI-generated. This code is indicated by
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Tracking AI-generated code](https://www.servicenow.com/docs/access?context=tracking-ai-generated-code&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+-   Learn more: 
 
 </td></tr><tr><td>
 
@@ -99,8 +100,8 @@ All requests for the Now Assist for Code model are redirected to Azure OpenAI fo
  -   Type: String
 -   Default value: na4c\_nowllm
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Enable Code Explain and Summarize](https://www.servicenow.com/docs/access?context=enable-code-explain-and-summarize&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+-   Learn more: 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Code generation reference](../concept/now-assist-code-reference.md)
+</table>**Parent Topic:**[Code generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/now-assist-code-reference.md)
 

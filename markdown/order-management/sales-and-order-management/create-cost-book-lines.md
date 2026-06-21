@@ -2,13 +2,14 @@
 title: Create a cost book line
 description: Create a cost book line that defines the unit cost for a product offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-cost-book-lines.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a cost book line
@@ -23,7 +24,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 1.  In the CSM Configurable Workspace, access the cost book to which you're adding a cost book line.
 
-    1.  Select the **List** ![](../image/Lists.png) view.
+    1.  Select the **List** \[Omitted image "Lists.png"\] view.
 
     2.  Navigate to **Prices** &gt; **Cost Books** and select the cost book.
 
@@ -93,7 +94,7 @@ Start date
 
 </td><td>
 
-Starting date and time that the cost book is effective. Select the Calendar icon \(![Calendar icon.](../image/field-calendar.png)\) to choose the start date and time, then select **OK**.
+Starting date and time that the cost book is effective. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text: Calendar icon.\) to choose the start date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ End date
 
 </td><td>
 
-Ending date and time of the cost book. After the ending time, the cost book is no longer active. Select the Calendar icon \(![Calendar icon.](../image/field-calendar.png)\) to choose the end date and time, then select **OK**.
+Ending date and time of the cost book. After the ending time, the cost book is no longer active. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text: Calendar icon.\) to choose the end date and time, then select **OK**.
 
 </td></tr><tr><td>
 

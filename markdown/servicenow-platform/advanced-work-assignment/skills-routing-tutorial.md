@@ -2,6 +2,7 @@
 title: Tutorial: Automatically assign work to agents by skill
 description: Learn how you can configure Advanced Work Assignment to automatically route cases to agents who speak German. Use this tutorial as a guideline to help you understand how you can route work items to agents according to their designated skills.Create a "German" skill.Create an assignment rule that routes cases according to skills.Create a queue where you can route work to agents who have the German skill.Define who is eligible to receive cases from the German Cases queue.Activate the skill determination business rule to tag skills for your work items.Create a skill determination rule to tag the German skill to incoming cases from German speakers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/skills-routing-tutorial.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -18,14 +19,14 @@ Learn how you can configure Advanced Work Assignment to automatically route case
 Before you begin:
 
 -   Activate the Skills Management \(com.snc.skills\_management\) plugin.
--   A basic understanding of the [Skills Management](../../../product/skills-management/reference/skills-management.md) feature is required.
+-   A basic understanding of the [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/skills-management/skills-management.md) feature is required.
 -   To have skills automatically assigned to cases, consider activating the Skill Determination \(com.snc.skill\_determination\) plugin.
 -   Create a group of users who work in customer support.
 -   Assign the awa\_agent and workspace\_agent roles to the customer support group.
 
-![Video link](../../conversational-interfaces/image/icon-video-link.png) [Advanced Work Assignment \(AWA\) Tutorial: Automatically assign work to agents by skill](https://www.youtube.com/watch?v=2epAFf8yAT0) Watch this video for a visual representation of the following tutorial example.
+\[Omitted image "icon-video-link.png"\] Alt text: Video link [Advanced Work Assignment \(AWA\) Tutorial: Automatically assign work to agents by skill](https://www.youtube.com/watch?v=2epAFf8yAT0) Watch this video for a visual representation of the following tutorial example.
 
-**Parent Topic:**[Configure agent assignment rules](../task/awa-create-assignment-rule.md)
+**Parent Topic:**[Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-create-assignment-rule.md)
 
 ## Create a skill
 

@@ -2,6 +2,7 @@
 title: Accessing the Return to Workplace campaign
 description: View and edit the campaign content and campaign bundles in the Return to Workplace campaign.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/safe-workplace/access-campaigns.html
 release: yokohama
 product: Safe Workplace
 classification: safe-workplace
@@ -19,7 +20,7 @@ View and edit the campaign content and campaign bundles in the Return to Workpla
 
 You may choose to clone a campaign before making edits.
 
-For more information on cloning, editing, and publishing a campaign, see[Campaigns for Content Experiences](../../employee-center/concept/ecpro-campaigns.md).
+For more information on cloning, editing, and publishing a campaign, see[Campaigns for Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 
 Role required: sn\_ca.campaign\_manager
 
@@ -36,5 +37,5 @@ Role required: sn\_ca.campaign\_manager
 4.  After making edits, click **Update**.
 
 
-**Parent Topic:**[Return to Workplace campaigns](../concept/return-workplace-campaigns.md)
+**Parent Topic:**[Return to Workplace campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/return-workplace-campaigns.md)
 

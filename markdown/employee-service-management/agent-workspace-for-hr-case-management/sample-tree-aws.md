@@ -2,6 +2,7 @@
 title: View a sample decision tree in Agent Workspace for HR Case Management
 description: View sample trees that triage general inquiry or payroll cases in Agent Workspace for HR Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/sample-tree-aws.html
 release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -29,6 +30,6 @@ Role required: sn\_hr\_core.admin
     -   **Pay issue guided decision**
 3.  Select **Open in Builder** to view the tree in **Decision Tree Builder**.
 
-    For more information, see [Configuring decision trees in Decision Tree Builder](https://www.servicenow.com/docs/access?context=decision-trees-in-gdb&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US).
+    For more information, see .
 
 

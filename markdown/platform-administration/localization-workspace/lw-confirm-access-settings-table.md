@@ -2,6 +2,7 @@
 title: Confirm access to Settings table
 description: As part of the configuration for Localization Workspace in Yokohama, confirm access to the Settings table of Localization Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-workspace/lw-confirm-access-settings-table.html
 release: yokohama
 product: Localization Workspace
 classification: localization-workspace
@@ -40,5 +41,5 @@ Localization Workspace requires access to a Localization Framework table, Settin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Localization Workspace](../concept/configuring-localization-workspace.md)
+**Parent Topic:**[Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/configuring-localization-workspace.md)
 

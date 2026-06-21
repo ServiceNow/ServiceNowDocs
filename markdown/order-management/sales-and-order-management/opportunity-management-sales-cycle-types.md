@@ -2,13 +2,14 @@
 title: Create a sales cycle for an opportunity
 description: Create a sales cycle type for an opportunity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/opportunity-management-sales-cycle-types.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Install and configure Opportunity Management, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Install and configure Opportunity Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a sales cycle for an opportunity
@@ -40,5 +41,5 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_setup\_writer
 
 ## What to do next
 
-Add sales cycle stages to your opportunity. To learn more, see [Create opportunity stages](opportunity-management-opportunity-stages.md).
+Add sales cycle stages to your opportunity. To learn more, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-opportunity-stages.md).
 

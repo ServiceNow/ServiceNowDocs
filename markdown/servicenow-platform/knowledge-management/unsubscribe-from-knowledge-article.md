@@ -2,6 +2,7 @@
 title: Unsubscribe from a knowledge article
 description: Unsubscribe from a knowledge article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/unsubscribe-from-knowledge-article.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -25,7 +26,7 @@ Users can unsubscribe from a knowledge article from either the Knowledge Managem
 
 **Note:** If you are subscribed to a knowledge base and you unsubscribe from an article in that knowledge base, you must also unsubscribe from the parent knowledge base.
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 ## Procedure
 

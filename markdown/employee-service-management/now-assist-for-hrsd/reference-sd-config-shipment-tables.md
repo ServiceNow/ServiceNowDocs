@@ -2,11 +2,12 @@
 title: Sensitivity detection configuration table filters
 description: Many types of components are configured to activate sensitivity detection, including table filter configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/reference-sd-config-shipment-tables.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Reference for Now Assist for HR Service Delivery \(HRSD\), Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---

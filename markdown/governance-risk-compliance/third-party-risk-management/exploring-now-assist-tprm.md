@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Third-party Risk Management \(TPRM\)
 description: With the Now Assist for Third-party Risk Management \(TPRM\) application, you can use skills to automate the collection of TPRM risk data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/exploring-now-assist-tprm.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -40,7 +41,7 @@ User role
 
 </th></tr></thead><tbody><tr><td>
 
-[TPRM Issue Summarization](../task/create-a-summary-of-issue.md)
+[TPRM Issue Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/create-a-summary-of-issue.md)
 
 </td><td>
 
@@ -52,15 +53,15 @@ Uses generative AI to create a quick summary for the third-party risk issue reco
 -   sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 </td></tr></tbody>
-</table>**Note:** The TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role is granted to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] after you install the Now Assist for TPRM application. For more information about all TPRM roles, see [Roles in Third-party Risk Management](../../grc-vendor-risk-implementation/reference/tprm-roles.md).
+</table>**Note:** The TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role is granted to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] after you install the Now Assist for TPRM application. For more information about all TPRM roles, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
 
 ## What to explore next
 
 To learn more about configuring and using Now Assist for TPRM, see:
 
--   [Supporting information for Now Assist for Third-party Risk Management \(TPRM\)](supporting-information-now-assist-tprm.md)
--   [Configure Now Assist for Third-party Risk Management \(TPRM\)](../task/configure-now-assist-for-tprm.md)
--   [Activate the TPRM issue summarization skill](../task/tprm-summarize-an-issue.md)
--   [Using Now Assist for Third-party Risk Management \(TPRM\) skills](using-now-assist-for-tprm.md)
--   [Generate a summary of a TPRM issue](../task/create-a-summary-of-issue.md)
+-   [Supporting information for Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/supporting-information-now-assist-tprm.md)
+-   [Configure Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.md)
+-   [Activate the TPRM issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-summarize-an-issue.md)
+-   [Using Now Assist for Third-party Risk Management \(TPRM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/using-now-assist-for-tprm.md)
+-   [Generate a summary of a TPRM issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/create-a-summary-of-issue.md)
 

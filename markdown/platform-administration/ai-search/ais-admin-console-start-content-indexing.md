@@ -2,6 +2,7 @@
 title: Index the content from an indexed source for searchability
 description: Enable AI Search to index the records from your source tables to make the content searchable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/ais-admin-console-start-content-indexing.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -23,9 +24,9 @@ Role required: admin or ais\_admin
 
 You can index the existing records in the source table and any child tables that you set up for indexing. Before starting the indexing process, you can also test the indexed source configuration to identify and resolve any issues early, instead of waiting for the full indexing process to complete.
 
-If you add, change, or remove an indexed source attribute, or update the indexed values for fields on referenced tables, you must reindex the content from an internal source. You can do it manually by following the steps in the procedure again. For more information, see [Indexing content from AI Search indexed sources](../concept/indexing-content-ais.md).
+If you add, change, or remove an indexed source attribute, or update the indexed values for fields on referenced tables, you must reindex the content from an internal source. You can do it manually by following the steps in the procedure again. For more information, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/indexing-content-ais.md).
 
-You can also index the content from an indexed source for external documents. For more information, see [Indexing and searching external content in AI Search](../concept/external-content-ais.md).
+You can also index the content from an indexed source for external documents. For more information, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/external-content-ais.md).
 
 ## Procedure
 
@@ -41,17 +42,17 @@ You can also index the content from an indexed source for external documents. Fo
 
 5.  Start indexing.
 
-    ![Start index job dialog box in the AI Search Admin console, where you can index search content either fully or for specific source tables. It also includes an option to test the indexed sources before beginning the actual indexing process.](../image/ais-start-indexing.png)
+    \[Omitted image "ais-start-indexing.png"\] Alt text: Start index job dialog box in the AI Search Admin console, where you can index search content either fully or for specific source tables. It also includes an option to test the indexed sources before beginning the actual indexing process.
 
-<table id="choicetable_wty_414_tdc"><thead><tr><th align="left" id="d153086e156">
+<table id="choicetable_wty_414_tdc"><thead><tr><th align="left" id="d94183e156">
 
 Option
 
-</th><th align="left" id="d153086e159">
+</th><th align="left" id="d94183e159">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d153086e165">
+</th></tr></thead><tbody><tr><td id="d94183e165">
 
 **Enable AI Search indexing content from internal indexed sources, including both parent table and its child tables**
 
@@ -61,7 +62,7 @@ Procedure
 2.  Select **Start**.
 
 
-</td></tr><tr><td id="d153086e189">
+</td></tr><tr><td id="d94183e189">
 
 **Enable AI Search indexing content from the source tables, including only the selected child tables**
 
@@ -72,7 +73,7 @@ Procedure
 3.  Select **Start**.
 
 
-</td></tr><tr><td id="d153086e221">
+</td></tr><tr><td id="d94183e221">
 
 **Test the indexed source configuration**
 
@@ -91,7 +92,7 @@ Procedure
 
     When the task completes, the **Ingestion State** field of the indexed source shows its status as indexed.
 
-7.  Return to the list of indexed sources by selecting the back icon ![](../../../use/using-forms/image/FormBackUI15.png).
+7.  Return to the list of indexed sources by selecting the back icon \[Omitted image "FormBackUI15.png"\] Alt text:.
 
 
 ## Result
@@ -100,7 +101,7 @@ AI Search indexes content from existing records in the indexed source. Indexing 
 
 ## What to do next
 
-Define search sources to make searchable content from the indexed source available in user search experiences. For details on creating search sources, see [Create or edit an EVAM view definition](ais-admin-console-evam-configurations.md).
+Define search sources to make searchable content from the indexed source available in user search experiences. For details on creating search sources, see [Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-admin-console-evam-configurations.md).
 
-**Parent Topic:**[Managing the indexed sources from the AI Search Admin console](../concept/ais-managing-indexed-source.md)
+**Parent Topic:**[Managing the indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-managing-indexed-source.md)
 

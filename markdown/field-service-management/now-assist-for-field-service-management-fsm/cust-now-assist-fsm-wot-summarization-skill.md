@@ -2,6 +2,7 @@
 title: Customize a Now Assist for Field Service Management \(FSM\) work order task summarization skill
 description: If you have the admin role, you can customize the Now Assist for FSM work order task summarization skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/now-assist-for-field-service-management-fsm/cust-now-assist-fsm-wot-summarization-skill.html
 release: yokohama
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -39,7 +40,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the more actions icon ![](../image/more_actions.png) for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    3.  Select the more actions icon \[Omitted image "more\_actions.png"\] Alt text: for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -51,7 +52,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Field Service Management \(FSM\)](../concept/now-assist-fsm-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
@@ -69,7 +70,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
         Add multiple base input fields if more inputs are needed.
 
-        ![Choose input data screen that contains the input tables and fields to define the prompt.](../image/now-assist-wot-summ-skill-view-input.png)
+        \[Omitted image "now-assist-wot-summ-skill-view-input.png"\] Alt text: Choose input data screen that contains the input tables and fields to define the prompt.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -122,7 +123,7 @@ Description of the base input field value.
 
         You can also add the rule conditions to these additional related table, activity stream, and relationship data sources.
 
-        ![Choose additional input data screen that contains the input tables and fields to define the prompt.](../image/now-assist-wot-summ-skill-view-input-2.png)
+        \[Omitted image "now-assist-wot-summ-skill-view-input-2.png"\] Alt text: Choose additional input data screen that contains the input tables and fields to define the prompt.
 
         The following table lists the data sources you can add to the input data.
 
@@ -212,7 +213,7 @@ Closed
 
 
 </td></tr></tbody>
-</table>    2.  Select **Edit prompt in Now Assist Skill Kit** to make necessary changes to the prompt in the Now Assist Skill Kit.![Edit prompt screen to modify prompts in the Now Assist Skill Kit.](../image/now-assist-wot-summ-skill-cust-prompt.png)
+</table>    2.  Select **Edit prompt in Now Assist Skill Kit** to make necessary changes to the prompt in the Now Assist Skill Kit.\[Omitted image "now-assist-wot-summ-skill-cust-prompt.png"\] Alt text: Edit prompt screen to modify prompts in the Now Assist Skill Kit.
 
     3.  Select **Save and continue** to go to the next step.
 
@@ -238,7 +239,7 @@ Closed
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

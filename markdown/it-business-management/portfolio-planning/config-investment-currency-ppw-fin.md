@@ -2,6 +2,7 @@
 title: Configure multicurrency for planning items
 description: Select investment currency as an additional currency, which can be different from your functional currency, to manage financial records of your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/config-investment-currency-ppw-fin.html
 release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Select investment currency as an additional currency, which can be different fro
 ## Before you begin
 
 -   You can define investment currency for planning items which do not have any financials records, such as cost plans, expense lines, benefit plans, and actual benefits. To define a investment currency for existing work, you should delete all the financial records and configure the investment currency.
--   [Enable monetary benefit plans for planning items](../../spw-financials/task/enable-benefitplans-spw-fin.md)
+-   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
 -   Role required: admin
 
 ## About this task
@@ -38,15 +39,15 @@ Following are the current limitations for multicurrency.
 
     In the **Currency** field, the current system currency is displayed. For example, if your Functional currency is in USD, the field is displayed as **USD \(Functional\)**.
 
-<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d236342e127">
+<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d208468e127">
 
 Planning item type
 
-</th><th align="left" id="d236342e130">
+</th><th align="left" id="d208468e130">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d236342e136">
+</th></tr></thead><tbody><tr><td id="d208468e136">
 
 **Demands**
 
@@ -63,7 +64,7 @@ Edit investment currency modal is displayed with options to select investment cu
 3.  Define investment currency for the future artifact using the **Investment currency for converted artefact** list.
 
 
-</td></tr><tr><td id="d236342e182">
+</td></tr><tr><td id="d208468e182">
 
 **Other planning items**
 

@@ -2,6 +2,7 @@
 title: Close an incident communication plan
 description: Close an incident communication plan after its execution or if it is no longer needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-communications-management/close-an-inci-comm-plan.html
 release: yokohama
 product: Incident Communications Management
 classification: incident-communications-management
@@ -38,5 +39,5 @@ Role required: itil, ia\_admin, or admin
 4.  Right-click on the form header and click **Save**.
 
 
-**Parent Topic:**[Managing Incident Communications](../concept/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Set Onboarding ramp up trigger to use Employee Center portal
 description: Set Onboarding ramp-up trigger to use Employee Center portal in the trigger configuration so the onboarding ramp-up plan workflow is accessible through the portal. Without setting the portal, the trigger will not be visible or usable in the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/set-trigger-emp-center.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -36,5 +37,5 @@ Role required: admin
 5.  Click **Save**.
 
 
-**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](../concept/onboarding-ramp-up-plan-agentic-wf.md)
+**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/onboarding-ramp-up-plan-agentic-wf.md)
 

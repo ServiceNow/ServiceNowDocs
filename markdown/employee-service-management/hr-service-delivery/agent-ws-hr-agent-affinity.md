@@ -2,6 +2,7 @@
 title: Agent Affinity for HR Service Delivery Agent Workspace
 description: Agent Affinity is an Advanced Work Assignment enhancement that enables you to streamline the routing of work items based on historical, task based, and account team affinity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-agent-affinity.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -36,5 +37,5 @@ HR Admin \[sn\_hr\_core.admin\]
 -   Contains the HR AWA Admin \[sn\_hr\_awa.admin\] role.
 -   Contains the Advanßced Work Assignment Administrator \[awa\_admin\] role.
 
-For more information, see [Agent Affinity](https://www.servicenow.com/docs/access?context=awa-agent-affinity-concept&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For more information, see Agent Affinity.
 

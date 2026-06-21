@@ -2,6 +2,7 @@
 title: Configure an indicator to display in the Coaching Overview tab in Workforce Optimization for Customer Service
 description: Add a system property to display the desired indicator in the Coaching Overview tab in the Coaching application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/add-property-coaching-quality-indicator-configurable-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -17,9 +18,9 @@ Add a system property to display the desired indicator in the Coaching Overview 
 
 ## Before you begin
 
-**Important:** This feature is available with the Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](request-configurable-wfo-cs.md).
+**Important:** This feature is available with the Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/request-configurable-wfo-cs.md).
 
-Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://www.servicenow.com/docs/access?context=set-map-application-scope&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+Set the map application scope to **Coaching**. For information on how to set the scope, see Set map application scope.
 
 Role required: admin
 
@@ -73,7 +74,7 @@ Value
 
 </td><td>
 
-\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the [unique record identifier](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) \(sys\_id\) of the indicator.
+\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifier \(sys\_id\) of the indicator.
 
  Example:
 
@@ -95,5 +96,5 @@ sn\_coaching.coach
     The configured indicator replaces the existing indicator in the Overview tab in the Coaching application in Workforce Optimization for Customer Service.
 
 
-**Parent Topic:**[Setting up Coaching in Workforce Optimization for Customer Service](../concept/setup-coaching-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-coaching-configurable-wfo-cs.md)
 

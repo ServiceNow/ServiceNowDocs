@@ -2,6 +2,7 @@
 title: View SSO applications in workspace
 description: View details related to applications that you can connect through a SSO provider in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/view-ssoapps-workspace.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
@@ -75,5 +76,5 @@ Subscriptions that don't meet the usage requirements that are defined by the rec
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-workspace.md)
 

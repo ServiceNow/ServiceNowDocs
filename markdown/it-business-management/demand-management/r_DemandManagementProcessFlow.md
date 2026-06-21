@@ -2,6 +2,7 @@
 title: Demand Management process flow
 description: The Demand Management process flow consists of the following tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/r\_DemandManagementProcessFlow.html
 release: yokohama
 product: Demand Management
 classification: demand-management
@@ -74,5 +75,5 @@ Completing demands
 Demand managers can set a demand to Completed when work on the demand is complete.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Demand Management](../concept/exploring-demand-management.md)
+</table>**Parent Topic:**[Exploring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/exploring-demand-management.md)
 

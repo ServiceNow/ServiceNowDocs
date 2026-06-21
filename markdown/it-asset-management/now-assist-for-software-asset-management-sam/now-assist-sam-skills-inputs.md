@@ -2,12 +2,13 @@
 title: Skill inputs and triggers for Now Assist for Software Asset Management \(SAM\)
 description: Get a quick overview of the skill inputs and triggers for Now Assist for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-skills-inputs.html
 release: yokohama
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Configure Now Assist for Software Asset Management \(SAM\), Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
@@ -21,7 +22,7 @@ Depending on the selected skill, you can configure the inputs or triggers. These
 
 ## Publisher compliance summarization skill
 
-For the publisher compliance summarization skill, select the triggers that determine when a publisher compliance summary is generated. You can also select the properties that control how a publisher compliance summary is displayed. To display the publisher compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure Now Assist for Software Asset Management \(SAM\)](../task/configure-now-assist-sam.md).
+For the publisher compliance summarization skill, select the triggers that determine when a publisher compliance summary is generated. You can also select the properties that control how a publisher compliance summary is displayed. To display the publisher compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when a publisher compliance summary is generated and how a publisher compliance summary is displayed.
 
@@ -39,7 +40,7 @@ The following table lists the inputs for the publisher compliance summarization 
 
 ## Product compliance summarization skill
 
-For the product compliance summarization skill, select the triggers that determine when a product compliance summary is generated. You can also select the properties that control how a product compliance summary is displayed. To display the product compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure Now Assist for Software Asset Management \(SAM\)](../task/configure-now-assist-sam.md).
+For the product compliance summarization skill, select the triggers that determine when a product compliance summary is generated. You can also select the properties that control how a product compliance summary is displayed. To display the product compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when a product compliance summary is generated and how a product compliance summary is displayed.
 
@@ -119,7 +120,7 @@ Contains information on all software installed in your environment.
 </td></tr></tbody>
 </table>## Recommended actions skill
 
-For the recommended actions skill, select the triggers that determine when a list of recommended actions is generated. You can also select the properties that control how recommended actions is displayed. To display recommended actions, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure Now Assist for Software Asset Management \(SAM\)](../task/configure-now-assist-sam.md).
+For the recommended actions skill, select the triggers that determine when a list of recommended actions is generated. You can also select the properties that control how recommended actions is displayed. To display recommended actions, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when recommended actions are generated and how the list of recommended actions is displayed.
 
@@ -320,5 +321,30 @@ User resolution rules are automatically generated upon the activation of the Saa
 |-----|-----------|
 |List of fields with the **String** and **Email** type.|User \[sys\_user\]|
 
-**Parent Topic:**[Configure Now Assist for Software Asset Management \(SAM\)](../task/configure-now-assist-sam.md)
+## Contract entitlement data extraction skill
+
+<table id="table_r52_v2r_2hc"><thead><tr><th>
+
+Trigger
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+User triggered
+
+</td><td>
+
+An entitlement is automatically generated from a contract when the user manually triggers the skill by selecting **Import contract document** in the software contract page.
+
+</td></tr></tbody>
+</table>The following table lists the inputs for the Contract entitlement data extraction skill.
+
+|Input|Description|
+|-----|-----------|
+|The contract document|The contract document that the user uploads that is used for extracting the entitlement information.|
+
+**Parent Topic:**[Configure Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md)
 

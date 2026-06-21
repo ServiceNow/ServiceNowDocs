@@ -2,6 +2,7 @@
 title: \(Optional\) Manually attach an observable for Shodan
 description: You can manually attach observables to a security incident. You manually attach observables when you want to perform threat lookups on observables that are not attached to a security incident on the initial event trigger. Also, you might perform this task when you want more information about a related observable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/manually-attach-an-observable-shodan.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ Role required: sn\_si.analyst
 
 2.  At the bottom of the record, click the **Show IoC**link in **Related Links**.
 
-    ![Observables tab.](../image/shodan-incident.png)
+    \[Omitted image "shodan-incident.png"\] Alt text: Observables tab.
 
 3.  On the **Observables** tab, click **New**.
 
@@ -35,7 +36,7 @@ Role required: sn\_si.analyst
 
 5.  Click the search icon and from the **Observable Type Categories** dialog box, click the desired observable type in the list to populate the field.
 
-    ![Observables Type Categories list.](../image/shodan-observable.png)
+    \[Omitted image "shodan-observable.png"\] Alt text: Observables Type Categories list.
 
 6.  Click **Submit**.
 
@@ -43,13 +44,13 @@ Role required: sn\_si.analyst
 
 7.  Navigate to your security incident and review the work notes.
 
-    ![Look up status in work notes.](../image/shodan-activities.png)
+    \[Omitted image "shodan-activities.png"\] Alt text: Look up status in work notes.
 
 8.  At the bottom of the record, click the **Show All Related Lists** related link.
 
 9.  Click the **Observable Enrichment Results** or **Network Banners** tabs for results, and click the blue information icon next to an observable for more information on a specific item.
 
-    ![Look up results on security form.](../image/shodan-enrichment-results.png)
+    \[Omitted image "shodan-enrichment-results.png"\] Alt text: Look up results on security form.
 
 10. In the dialog that is displayed, click **Open Record** to view raw data and more details.
 
@@ -60,9 +61,9 @@ Role required: sn\_si.analyst
 
 Review the **Work notes** for more information and how to proceed if you cannot verify that the lookup ran successfully.
 
-**Parent Topic:**[Shodan integration](../concept/shodan-lookups.md)
+**Parent Topic:**[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/shodan-lookups.md)
 
-**Previous topic:**[Verify expected results for Shodan](shodan-verify-expected-results.md)
+**Previous topic:**[Verify expected results for Shodan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/shodan-verify-expected-results.md)
 
-**Next topic:**[Secureworks CTP Ticket Ingestion Integration](../../secops-integration-sir/secops-integration-secureworks-ticket/concept/secureworks-ctp-about.md)
+**Next topic:**[Secureworks CTP Ticket Ingestion Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/secureworks-ctp-about.md)
 

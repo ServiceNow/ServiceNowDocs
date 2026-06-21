@@ -2,6 +2,7 @@
 title: View sibling tasks related to a work order
 description: View details of sibling work order task that are related to the same work order in Field Service Contractor Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-sibling-task.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -34,5 +35,5 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
     The sibling work order task provide details, such as parent work order task number, required asset, location, and so on.
 
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

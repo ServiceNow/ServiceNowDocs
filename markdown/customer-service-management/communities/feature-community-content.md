@@ -2,6 +2,7 @@
 title: Add featured content in a community
 description: Add or edit featured content in a community to appear in the Featured Content section on the community homepage, forum homepage, or both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/feature-community-content.html
 release: yokohama
 product: Communities
 classification: communities
@@ -71,5 +72,5 @@ Role required: sn\_communities.admin, sn\_communities.community\_moderator, sn\_
     A notification that content has been featured is sent out to the author of the content, community users who commented on the post, and community users who are subscribed to the post. If featured content has expired or is removed from the featured content list by another user, community and forum administrators are notified.
 
 
-**Parent Topic:**[Community Service Portal](../concept/community-service-portal.md)
+**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/community-service-portal.md)
 

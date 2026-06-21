@@ -2,6 +2,7 @@
 title: Use transform maps
 description: Transform maps specify data relationships between source table and target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/use-transform-maps-sf.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,9 +16,9 @@ breadcrumb: [Using HR Service Delivery Integration with SuccessFactors, HR Servi
 
 Transform maps specify data relationships between source table and target table.
 
-For details on the transform maps, navigate to **Integrations Framework** &gt; **Transform maps**. For more information, see [Create transform maps in Enterprise Service Management Integrations Framework](../task/transform-maps-HR.md)
+For details on the transform maps, navigate to **Integrations Framework** &gt; **Transform maps**. For more information, see [Create transform maps in Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/transform-maps-HR.md)
 
 **Note:** Ensure that you index coalesce fields for better transformation performance.
 
-**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](../concept/using-hr-service-delivery-integration-with-success-factors.md)
+**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
 

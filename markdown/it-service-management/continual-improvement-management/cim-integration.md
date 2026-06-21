@@ -2,6 +2,7 @@
 title: Improvement integration with other applications
 description: You can create an improvement request from within multiple integrated applications. You can also create many application tasks from within an improvement initiative. Set the Continual Improvement Management attributes property to determine which field values get copied to integrated application tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/continual-improvement-management/cim-integration.html
 release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -23,27 +24,27 @@ Multiple tasks from outside integrated applications can be linked to a single im
 
 An improvement initiative can be created from these applications.
 
--   [Benchmarks](../../benchmarks/reference/r_Benchmarks.md)
--   [Coaching](../../coaching/concept/coaching-landing.md)
+-   [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/benchmarks/r_Benchmarks.md)
+-   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-landing.md)
 -   Configuration Management Database \(CMDB\)
--   [Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)
--   [Demand Management](https://www.servicenow.com/docs/access?context=c_DemandManagement&version=yokohama&pubname=yokohama-it-business-management&ft:locale=en-US)
--   [Governance, Risk, and Compliance \(GRC\)](https://www.servicenow.com/docs/access?context=r_WhatIsGRC&version=yokohama&pubname=yokohama-governance-risk-compliance&ft:locale=en-US)
--   [Incident Management](../../incident-management/concept/c_IncidentManagement.md)
--   [Problem Management](../../problem-management/concept/c_ProblemManagement.md)
--   [Survey Management](https://www.servicenow.com/docs/access?context=r_SurveyManagementLandingPage&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+-   Customer Service Management
+-   Demand Management
+-   Governance, Risk, and Compliance \(GRC\)
+-   [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/c_IncidentManagement.md)
+-   [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/c_ProblemManagement.md)
+-   Survey Management
 
 As part of an improvement initiative, these records can be created.
 
 -   Demand record
--   [Project](https://www.servicenow.com/docs/access?context=c_ProjectApplicationOverview&version=yokohama&pubname=yokohama-it-business-management&ft:locale=en-US) \(optional\)
+-   Project \(optional\)
 
 As part of a CIM task, these records can be created:
 
--   [change](../../change-management/concept/c_ITILChangeManagement.md) record
--   [Coaching opportunity](../../coaching/task/create-coaching-opportunity.md)
--   [Create a knowledge article](https://www.servicenow.com/docs/access?context=create-knowledge-article&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
--   [Create a story](https://www.servicenow.com/docs/access?context=create-a-story&version=yokohama&pubname=yokohama-it-business-management&ft:locale=en-US)
+-   [change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ITILChangeManagement.md) record
+-   [Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/create-coaching-opportunity.md)
+-   
+-   Create a story
 
 ## Integration property
 
@@ -325,11 +326,11 @@ No change.
 </td></tr></tbody>
 </table>-   **Create PA Indicator** related link
 
-    [Create a Performance Analytics automated indicator](https://www.servicenow.com/docs/access?context=t_CrtIndctrIndctrWzrd&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+    Create a Performance Analytics automated indicator.
 
 -   **Show Benchmarks** related link
 
-    Shows the [benchmarks](../../benchmarks/concept/c_BenchDashboard.md) for the KPI specified in the Improvement Initiative form **Improvement KPI** field using the [Benchmarks](../../benchmarks/reference/r_Benchmarks.md) application.
+    Shows the [benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/benchmarks/c_BenchDashboard.md) for the KPI specified in the Improvement Initiative form **Improvement KPI** field using the [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/benchmarks/r_Benchmarks.md) application.
 
 
 ## Related links in improvement initiative CIM tasks
@@ -404,23 +405,23 @@ You can use the Continual Improvement Management integration extension point to 
 
 Extend `sn_cim.CIMIntegrationAPI` extension point to integrate Continual Improvement Management with other applications.
 
--   **[Create improvement initiatives from integrated applications](../task/create-improvmt-from-apps.md)**  
+-   **[Create improvement initiatives from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/create-improvmt-from-apps.md)**  
 Create improvement initiatives from applications integrated with Continual Improvement Management to enable planning, implementation, monitoring, and impact assessment of improvements in a centralized framework.
--   **[Create application records from improvement initiatives](../task/create-app-records.md)**  
+-   **[Create application records from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/create-app-records.md)**  
 Create records for integrated applications from improvement initiatives or CIM tasks to transform improvement initiatives into broader, actionable efforts to enable improvements across teams and processes.
--   **[Configure CIM integration property](../task/configure-cim-int-property.md)**  
+-   **[Configure CIM integration property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/configure-cim-int-property.md)**  
 Configure the CIM sn\_cim.initiative\_copy\_attributes integration property to define field values to be copied from an improvement initiative to application records that you create from the initiative.
 
-**Parent Topic:**[Continual Improvement Management overview](../concept/get-started-cim.md)
+**Parent Topic:**[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/get-started-cim.md)
 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-extension-points]
 

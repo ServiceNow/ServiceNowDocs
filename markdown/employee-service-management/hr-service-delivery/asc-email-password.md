@@ -2,6 +2,7 @@
 title: System notifications for Alumni Center
 description: The Alumni Center \(ASC\) uses system notifications to alert alumni with an email providing their user ID and a separate email with a password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/asc-email-password.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,5 +25,5 @@ The base system provides the following email notifications:
 
 You can customize the message to suite your company's requirements.
 
-For more information, refer to [Email and SMS notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information, refer to Email and SMS notifications.
 

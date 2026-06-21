@@ -2,6 +2,7 @@
 title: Windows connector
 description: The Windows connector enables you to perform various actions on the Windows applications, and their user interface elements. These actions are performed through the methods provided by the Windows connector. You must configure the connector to expose its methods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/windows-connector.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,10 +18,10 @@ The Windows connector enables you to perform various actions on the Windows appl
 
 You must first use, configure, and then expose the methods in the Windows connector to use its methods.
 
--   To use the Windows connector, see [Use a connector in RPA Desktop Design Studio](../task/use-connector.md).
--   To configure the Windows connector, see [Configure Windows connector](../task/configure-windows-connector.md).
--   To expose the methods, see [Use connector method](../task/use-connector-method.md).
--   To use the methods, see [Use a component in RPA Desktop Design Studio](../task/configure-components.md).
+-   To use the Windows connector, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/use-connector.md).
+-   To configure the Windows connector, see [Configure Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-windows-connector.md).
+-   To expose the methods, see [Use connector method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/use-connector-method.md).
+-   To use the methods, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-components.md).
 
 Windows connector methods are available at the following levels:
 
@@ -36,12 +37,12 @@ Windows connector methods are available at the following levels:
 
 **Important:** Windows connector uses Microsoft UI Automation Framework internally to interact with applications built for Windows desktop such as Win32, WPF platforms. Any known issue or limitation published by Microsoft for this framework are applicable.
 
--   **[Configure Windows connector](../task/configure-windows-connector.md)**  
+-   **[Configure Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-windows-connector.md)**  
 Configure the Windows connector to access its methods and build automation on a Windows application. It provides methods at different levels and you must first configure it to expose methods at all levels.
--   **[Windows Connector methods](../reference/connectors-windows-methods.md)**  
+-   **[Windows Connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/connectors-windows-methods.md)**  
 The Windows methods in RPA Desktop Design Studio interact with the Windows applications to perform various tasks. The connector provides methods at different levels of the Windows applications.
--   **[Parameters of the Windows connector methods](../reference/method-parameter-windows.md)**  
+-   **[Parameters of the Windows connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/method-parameter-windows.md)**  
 Learn about the parameters of the Windows connector methods in RPA Desktop Design Studio.
 
-**Parent Topic:**[Connectors](connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/connectors.md)
 

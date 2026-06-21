@@ -2,6 +2,7 @@
 title: Create robust transform definitions
 description: Specify your own Robust Transform Engine \(RTE\) to transfer data from a source table to a target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/system-import-sets/create-robust-transform-definitions.html
 release: yokohama
 product: System Import Sets
 classification: system-import-sets
@@ -25,7 +26,7 @@ Role required: import\_transformer
 
 2.  Select an existing robust import set transformer, or click **New** to create a new robust import set transformer.
 
-    For procedures, see [Create a robust import set transformer](create-robust-import-set-transformer.md).
+    For procedures, see [Create a robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/create-robust-import-set-transformer.md).
 
 3.  At the **Transformer Definition** field, click the search icon.
 

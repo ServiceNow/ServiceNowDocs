@@ -2,6 +2,7 @@
 title: Request an AI use case form
 description: The Request an AI use case form is designed to streamline the request process for developing or procuring an AI-based solution. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with development and deployment of the AI-solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system-form.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -43,7 +44,7 @@ State
 
 </td><td>
 
-Indicates whether the AI system is in the draft, development, or deployed state. For more information on states, see [AI asset lifecycle](https://www.servicenow.com/docs/access?context=ai-asset-lifecycle&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+Indicates whether the AI system is in the draft, development, or deployed state. For more information on states, see .
 
 </td></tr><tr><td>
 
@@ -128,5 +129,5 @@ Datasets
 Datasets to train or test the AI models. For example, ServiceNow Customer purchase history 1.0.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request an AI use case](../task/request-ai-system.md)
+</table>**Parent Topic:**[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system.md)
 

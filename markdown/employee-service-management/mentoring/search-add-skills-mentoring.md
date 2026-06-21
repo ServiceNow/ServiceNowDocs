@@ -2,6 +2,7 @@
 title: Search and add skills
 description: As a mentee, search for a skill name or a keyword to find a mentor who specialises in that skill to help you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/mentoring/search-add-skills-mentoring.html
 release: yokohama
 product: Mentoring
 classification: mentoring
@@ -17,7 +18,7 @@ As a mentee, search for a skill name or a keyword to find a mentor who specialis
 
 ## Before you begin
 
-Enroll as a mentee. For more information, see [Enroll as a mentor or mentee](enroll-mentoring.md)
+Enroll as a mentee. For more information, see [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/enroll-mentoring.md)
 
 Role required: none
 
@@ -41,5 +42,5 @@ Role required: none
 
 Selected skills are added to current skill preferences. You can go ahead and complete the mentee preferences wizard after adding skills.
 
-**Parent Topic:**[Enroll as a mentor or mentee](enroll-mentoring.md)
+**Parent Topic:**[Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/enroll-mentoring.md)
 

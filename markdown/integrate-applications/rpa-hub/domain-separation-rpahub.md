@@ -2,6 +2,7 @@
 title: Domain separation and Robotic Process Automation \(RPA\) Hub
 description: If any conrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file. In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conref at the end that describes domain separation.Domain separation is supported for RPA Hub. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/domain-separation-rpahub.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -25,7 +26,7 @@ Domain separation is supported for RPA Hub. Domain separation enables you to sep
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation overview
 
@@ -33,10 +34,10 @@ The goal of RPA Hub is to enable end-to-end automation for your organization. Do
 
 You should have either a flat hierarchy or a single-tier hierarchy and at least one primary or top-level domain.
 
-**Parent Topic:**[RPA Hub reference](../../rpa-hub/reference/rpa-hub-reference.md)
+**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-hub-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

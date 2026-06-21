@@ -2,6 +2,7 @@
 title: Compare contract revisions in Contract Management Pro
 description: Streamline the contract negotiation process by comparing two contract revisions to quickly identify and review all changes between the two versions, thereby reducing manual effort and minimizing the risk of missing critical updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-compare-docs.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -45,7 +46,7 @@ Contract Workspace
 </td><td>
 
 -   Navigate to **All** &gt; **Contract Workspace**.
--   Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+-   Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 -   Select **Contract requests** &gt; **All**
 -   Select a contract request.
 
@@ -91,5 +92,5 @@ Workspace used by your application
 5.  Select **Download redlined document** to download the document, and make further modifications to it.
 
 
-**Parent Topic:**[Using Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

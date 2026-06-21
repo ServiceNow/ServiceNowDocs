@@ -2,6 +2,7 @@
 title: Delete questions from an AQI checklist
 description: Deleting a question in a checklist deletes the text in the question of previously performed AQI reviews that use the checklist. Deleting an AQI question from a checklist will not affect the score of the previously performed AQI reviews. However, the text of the question will not be displayed in the checklist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/delete-questions-from-an-aqi-checklist.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -19,7 +20,7 @@ Deleting a question in a checklist deletes the text in the question of previousl
 
 You can delete questions from a checklist if the following conditions are met:
 
--   The checklist is not attached to a knowledge base. For more information, see [Remove an AQI checklist from a knowledge base](remove-an-aqi-checklist-from-a-knowledgebase.md).
+-   The checklist is not attached to a knowledge base. For more information, see [Remove an AQI checklist from a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/remove-an-aqi-checklist-from-a-knowledgebase.md).
 -   There are no AQI reviews using the checklist in progress.
 
 Role required: admin

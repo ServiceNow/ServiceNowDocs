@@ -2,6 +2,7 @@
 title: Test a chat assistant
 description: Test your chat assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/now-assist-in-virtual-agent/test-assistant.html
 release: yokohama
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Test your chat assistant.
 
 ## Before you begin
 
-See [Review chat assistant settings](review-assistant-settings.md).
+See [Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/review-assistant-settings.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -31,7 +32,7 @@ It's important to test your assistant to judge the quality of results for common
 
     If selected portals only have the standard chat experience or only the enhanced chat experience enabled, the drop-down list doesn't appear. If both experience types are enabled, the drop-down list shows both of them.
 
-    ![Option to select standard or enhanced chat when testing an assistant.](../image/NAinVA-test-assistant-122025.png "Test a chat assistant")
+    \[Omitted image "NAinVA-test-assistant-122025.png"\] Alt text: Option to select standard or enhanced chat when testing an assistant.
 
 2.  If you select **Enhanced chat**, the Virtual Agent Designer test panel for the enhanced chat experience is launched.
 

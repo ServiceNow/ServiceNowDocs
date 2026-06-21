@@ -2,6 +2,7 @@
 title: Community homepage features for non-logged in users
 description: Your community activity usually begins on the Community homepage. If you are a non-logged in user, you see different information than logged in users. Your organization can customize the homepage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/community-homepage-non-logged.html
 release: yokohama
 product: Communities
 classification: communities
@@ -124,5 +125,5 @@ Show More
 View an expanded list of content available in the community.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Use a community](../task/use-community-forums.md)
+</table>**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/use-community-forums.md)
 

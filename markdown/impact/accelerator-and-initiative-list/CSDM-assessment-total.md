@@ -2,6 +2,7 @@
 title: Common Service Data Model \(CSDM\) Assessment– Total
 description: Guidance to assess and improve the CSDM framework
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/CSDM-assessment-total.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

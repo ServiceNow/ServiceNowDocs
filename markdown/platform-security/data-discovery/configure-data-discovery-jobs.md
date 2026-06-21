@@ -2,6 +2,7 @@
 title: Configure a Data Discovery job
 description: Configure a Data Discovery job and review the status of ongoing jobs. A Data Discovery job defines when a pattern is executed on a target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/data-discovery/configure-data-discovery-jobs.html
 release: yokohama
 product: Data Discovery
 classification: data-discovery
@@ -59,7 +60,7 @@ Scan Type
 
 Number of entries to be scanned. Possible states are as follows:-   **Sample**: Scans 10,000 entries.
 -   **Full**: Scans all entries.
--   **Attachment Only**: Scans all attachments but no other entries in the table. See [Attachment scanning in Data Discovery jobs](../concept/data-discovery-attachment-scanning.md) for more information.
+-   **Attachment Only**: Scans all attachments but no other entries in the table. See [Attachment scanning in Data Discovery jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-discovery/data-discovery-attachment-scanning.md) for more information.
 
 
 </td></tr><tr><td>

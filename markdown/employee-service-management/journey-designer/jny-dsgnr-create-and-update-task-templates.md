@@ -2,6 +2,7 @@
 title: Create and update task templates for plan configurations
 description: Plan owners create and update task templates that are used in plan configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-dsgnr-create-and-update-task-templates.html
 release: yokohama
 product: Journey Designer
 classification: journey-designer
@@ -44,15 +45,15 @@ Journey designer plan configuration owners can change or create task templates f
 
 4.  Add or update a task template.
 
-<table id="choicetable_ich_2cc_dwb"><thead><tr><th align="left" id="d667972e117">
+<table id="choicetable_ich_2cc_dwb"><thead><tr><th align="left" id="d408773e117">
 
 Options
 
-</th><th align="left" id="d667972e120">
+</th><th align="left" id="d408773e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d667972e126">
+</th></tr></thead><tbody><tr><td id="d408773e126">
 
 **Add task template**
 
@@ -65,7 +66,7 @@ Description
 5.  Select **Add Templates**.
 
 
-</td></tr><tr><td id="d667972e171">
+</td></tr><tr><td id="d408773e171">
 
 **Update task template**
 
@@ -93,5 +94,5 @@ Description
     An approval request task is sent to each of the approvers for the plan configuration.
 
 
-**Parent Topic:**[Journey designer plan configuration owners](../concept/jny-dsgnr-owner-role-and-responsibility.md)
+**Parent Topic:**[Journey designer plan configuration owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-owner-role-and-responsibility.md)
 

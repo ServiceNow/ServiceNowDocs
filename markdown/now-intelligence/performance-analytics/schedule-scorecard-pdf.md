@@ -2,6 +2,7 @@
 title: Schedule the export and distribution of an indicator
 description: Schedule an indicator to automate its distribution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/schedule-scorecard-pdf.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +18,7 @@ Schedule an indicator to automate its distribution.
 
 ## Before you begin
 
-This feature requires the licensed version of [Performance Analytics](../concept/c_PremiumPerformanceAnalytics.md#).
+This feature requires the licensed version of [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 Role required: pa\_power\_user, pa\_admin, or admin
 

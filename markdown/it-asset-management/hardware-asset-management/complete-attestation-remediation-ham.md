@@ -2,6 +2,7 @@
 title: Complete the remediation task for asset attestation in the Hardware Asset Workspace
 description: As an asset manager or inventory administrator, complete the open remediation task that was created when your employee denied ownership of the assigned serialized hardware asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/complete-attestation-remediation-ham.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -23,15 +24,15 @@ Role required: asset or inventory\_admin
 
 1.  View the list of asset attestations.
 
-<table id="choicetable_z4q_vfz_rfc"><thead><tr><th align="left" id="d253104e56">
+<table id="choicetable_z4q_vfz_rfc"><thead><tr><th align="left" id="d46378e56">
 
 UI option
 
-</th><th align="left" id="d253104e59">
+</th><th align="left" id="d46378e59">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d253104e65">
+</th></tr></thead><tbody><tr><td id="d46378e65">
 
 **Inventory view**
 
@@ -41,7 +42,7 @@ Action
 2.  Select the **Asset attestations** tab.
 
 
-</td></tr><tr><td id="d253104e98">
+</td></tr><tr><td id="d46378e98">
 
 **Asset operations view**
 
@@ -68,5 +69,5 @@ Action
 -   The State of the asset changes from **In use** to **Missing**.
 -   The **Assigned to** field on the asset record is empty.
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

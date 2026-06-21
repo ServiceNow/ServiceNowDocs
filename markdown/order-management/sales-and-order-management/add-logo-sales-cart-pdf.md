@@ -2,13 +2,14 @@
 title: Add a logo to the sales cart PDF
 description: Customize and embed your company logo in sales cart summary PDFs to ensure consistent branding and alignment with corporate identity standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/add-logo-sales-cart-pdf.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Business Portal, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring the Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Add a logo to the sales cart PDF

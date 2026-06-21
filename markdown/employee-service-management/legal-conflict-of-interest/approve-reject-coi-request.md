@@ -2,6 +2,7 @@
 title: Approve or reject a conflict of interest disclosure request
 description: Approve or reject a conflict of interest disclosure request assigned to you or a legal user group of which you're a member.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-conflict-of-interest/approve-reject-coi-request.html
 release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -23,7 +24,7 @@ Role required: sn\_lg\_ops.coi\_fulfiller or sn\_lg\_ops.request\_fulfiller
 
 The multi-level approval flow for a conflict of interest disclosure request is automated through the **COI Approval flow**. The flow controls the request to advance to the next approval level when approved at one approval level. After the final-level approval, a conflict of interest disclosure record is created. The approval or rejection of the request and the end date specified in the request determines the state of the newly created disclosure record.
 
-For more information on approval flow, see [Conflict of Interest – Approval flow](../concept/conflict-of-interest-overview.md#section_COI_Approal_Flow).
+For more information on approval flow, see [Conflict of Interest – Approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/conflict-of-interest-overview.md).
 
 **Note:** If the approval is assigned to an approval group, any member from the group can approve or reject the request.
 
@@ -31,7 +32,7 @@ For more information on approval flow, see [Conflict of Interest – Approval fl
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **My Work**, click **Items Pending Approval**.
 
@@ -82,5 +83,5 @@ The state of the conflict of interest disclosure record is based on the followin
 -   For an existing request, the related conflict of interest disclosure record is updated without changing its existing state.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing conflict of interest disclosure requests](../concept/managing-legal-coi-request.md)
+</table>**Parent Topic:**[Managing conflict of interest disclosure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/managing-legal-coi-request.md)
 

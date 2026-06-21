@@ -2,6 +2,7 @@
 title: Components installed with Enterprise Agile Planning
 description: Several types of components are installed with Enterprise Agile Planning when you install the Strategic Planning applications, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/enterprise-agile-planning/components-installed-with-enterprise-agile-planning.html
 release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -271,5 +272,5 @@ Stores information of all stories created.
  This table is installed with the Agile Development 2.0 application, which is installed with Strategic Planning.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Agile Planning reference](eap-reference.md)
+</table>**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/eap-reference.md)
 

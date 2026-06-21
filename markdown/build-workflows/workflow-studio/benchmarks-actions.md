@@ -2,6 +2,7 @@
 title: Benchmarks Spoke
 description: Provides read-only actions for the read-only Benchmark Recommendation Evaluator flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/benchmarks-actions.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Spokes, Workflow Studio flow integrations, Flows, subflows, and act
 
 Provides read-only actions for the read-only Benchmark Recommendation Evaluator flow.
 
-The Benchmarks Spoke is designed for the Recommendations feature of the [Benchmarks](https://www.servicenow.com/docs/access?context=r_Benchmarks&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US) application.
+The Benchmarks Spoke is designed for the Recommendations feature of the Benchmarks application.
 
 <table id="table_hkd_s53_jbb"><thead><tr><th>
 
@@ -87,5 +88,5 @@ Evaluate the conditions and script specified for the recommendation.
 -   Score
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Spokes](../concept/spokes.md)
+</table>**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/spokes.md)
 

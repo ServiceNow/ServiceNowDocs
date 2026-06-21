@@ -2,6 +2,7 @@
 title: Clone the Now Assist for CSM skills
 description: The clone feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings and configure the skill to fit your business needs.Learn how to access, activate, and customize a Now Assist for CSM skill using the Now Assist Admin console and Now Assist Skill Kit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -29,11 +30,11 @@ Unified Admin Experience for GenAI Skills:
 
 There are 2 ways to clone Now Assist for CSM skills:
 
-1.  [Make a copy of a Now Assist skill](https://www.servicenow.com/docs/access?context=make-a-copy-of-a-now-assist-skill&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) from Now Assist Admin console.
+1.   from Now Assist Admin console.
 
     Prompt configurability in the Now Assist Admin console for setting up case/incident summarization skill copies 
 
-2.  [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) Clone from Now Assist Skill Kit.
+2.   Clone from Now Assist Skill Kit.
 
     Now Assist Skill Kit video that shows how to build a custom skill. 
 
@@ -49,7 +50,7 @@ Now Assist for CSM provides base system skills that can be tailored to meet spec
 -   Using Now Assist Admin console: Modify base system skills, input configurations, and display settings.
 -   Using Now Assist Skill Kit: Build and publish custom skills for advanced use cases by customizing inputs and prompts, and then publish it. You can also use the Now Assist Skill Kit to clone base system skills, as long as they are the latest versions created after the release of the Now Assist Skill Kit.
 
-![Flowchart showing process steps in Now Assist Admin console and Now Assist Skill Kit](../image/cloning-in-now-assist-for-csm.png)
+\[Omitted image "cloning-in-now-assist-for-csm.png"\] Alt text: Flowchart showing process steps in Now Assist Admin console and Now Assist Skill Kit
 
 ### Access and activate a skill in Now Assist Admin console
 
@@ -77,28 +78,28 @@ Now Assist for CSM provides base system skills that can be tailored to meet spec
     9.  Under each display type, open the chevron and specify user roles by entering role names in the User roles field.
     10. Review your choices and select **Activate** to complete the skill customization.
 
-        **Note:** For more information, see [Customize a case summarization skill in Now Assist for Customer Service Management \(CSM\)](../task/customize-a-now-assist-for-csm-skill.md).
+        **Note:** For more information, see [Customize a case summarization skill in Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.md).
 
 
 ### Access and clone base system skills with the Now Assist Skill Kit
 
 1.  Navigate to **All** &gt; **Now Assist Skill KIt**.
-2.  Under the **ServiceNow skills** tab, select the prompt you want to edit in [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=using-now-assist-skill-kit&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+2.  Under the **ServiceNow skills** tab, select the prompt you want to edit in Now Assist Skill Kit.
 
     **Note:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the Now Assist Skill Kit \(NASK\).
 
-3.  Create a [clone](https://www.servicenow.com/docs/access?context=clone-and-edit-servicenow-skill&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) for the selected skill by selecting the overflow icon ![More options](../image/OverflowIcon.png)
+3.  Create a clone for the selected skill by selecting the overflow icon \[Omitted image "OverflowIcon.png"\] Alt text: More options
 4.  Enter a name, description and provider to clone the skill.
 5.  In the **Skill contents** pane, select the**Inputs** edit icon and add any inputs that you like to add to the prompt.
-6.  In the **Prompt** screen, select the edit icon and add the desired inputs to the prompt or [Create](https://www.servicenow.com/docs/access?context=create-prompt-template&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) a new prompt.
-7.  [Test](https://www.servicenow.com/docs/access?context=test-prompt-template&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) the prompt.
-8.  [Evaluate](https://www.servicenow.com/docs/access?context=evaluate-prompt&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) the prompt.
-9.  [Finalize and publish](https://www.servicenow.com/docs/access?context=publish-skill&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) the skill from the Now Assist Skill Kit.
+6.  In the **Prompt** screen, select the edit icon and add the desired inputs to the prompt or Create a new prompt.
+7.  Test the prompt.
+8.  Evaluate the prompt.
+9.  Finalize and publish the skill from the Now Assist Skill Kit.
 
     **Warning:** Once finalized, you won't be able to edit this version of the prompt. You can always update and create a new version, or clone and create a new prompt.
 
 10. Test the changes on associated records.
-11. [Activate](https://www.servicenow.com/docs/access?context=activate-skill&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) it in the Now Assist Admin console and set display options.
+11. Activate it in the Now Assist Admin console and set display options.
 
     **Note:** This is not required for all skills.
 

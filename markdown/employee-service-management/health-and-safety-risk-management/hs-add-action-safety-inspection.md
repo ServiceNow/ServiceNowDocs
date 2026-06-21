@@ -2,6 +2,7 @@
 title: Add an action for a safety inspection or audit
 description: Add an action for each finding to address any issues or implement measures necessary to improve workplace safety. You can add multiple actions for an inspection or audit finding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety-risk-management/hs-add-action-safety-inspection.html
 release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -26,28 +27,28 @@ Role required:
 
 Inspection and audit agents can also create actions for specific questions while completing a smart assessment or survey from the mobile app. When an agent creates an action for a question, the system also generates a related finding record based on the response. For more information, see the following:
 
--   [Create actions and findings for the smart assessment questionnaire from mobile app](../../hs-health-safety-mobile/task/hs-create-actions-findings-smart-assessments.md).
--   [Create actions and findings for survey responses from mobile app](../../hs-health-safety-mobile/task/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md).
+-   [Create actions and findings for the smart assessment questionnaire from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
+-   [Create actions and findings for survey responses from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md).
 
-For information on adding an action for a safety inspection or audit through Mobile Agent, see [Add actions in mobile app](../../hs-health-safety-mobile/task/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md).
+For information on adding an action for a safety inspection or audit through Mobile Agent, see [Add actions in mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  Create an action from an inspection or audit record or the Actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d681819e146">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d101694e146">
 
 Option
 
-</th><th align="left" id="d681819e149">
+</th><th align="left" id="d101694e149">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d681819e155">
+</th></tr></thead><tbody><tr><td id="d101694e155">
 
 **From an inspection record**
 
@@ -58,7 +59,7 @@ Steps
 3.  In the **Inspection actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d681819e188">
+</td></tr><tr><td id="d101694e188">
 
 **From an audit record**
 
@@ -69,7 +70,7 @@ Steps
 3.  In the **Audit actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d681819e221">
+</td></tr><tr><td id="d101694e221">
 
 **From the Actions list**
 
@@ -79,7 +80,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d681819e248">
+</td></tr><tr><td id="d101694e248">
 
 **From the Findings tab**
 
@@ -96,7 +97,7 @@ Steps
 
 4.  On the form, fill in the fields.
 
-    For information on field descriptions, see [Health and Safety action form](../../ohs-incident-management/reference/hs-action-form.md).
+    For information on field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 5.  Select **Save**.
 
@@ -117,5 +118,5 @@ Steps
     -   The action is duplicated and appears in the **My Tasks** list of the assigned user on the Employee Center.
     -   The action is also listed in the **Actions** list on the Health and Safety Workspace.
 
-**Parent Topic:**[Safety inspections and audits](../concept/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

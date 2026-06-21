@@ -2,6 +2,7 @@
 title: Get started with the Microsoft Exchange On-Premises integration
 description: The Microsoft Exchange On-Premises integration provides tools for security analysts to contain and remediate phishing and spear phishing email threats in on-premises instances. Before you can use the Microsoft Exchange On-Premises integration, you must download it from the ServiceNow Store and identify the appropriate Exchange and MID servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/activate-configure-ms-exch-on-prem-integ.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](../../../security-incident-response/reference/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-operations/download-app-first-time.md).
 
 2.  When the installation os complete, navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configuration**.
 
@@ -29,7 +30,7 @@ Role required: sn\_si\_admin
 
 3.  Select **Configure**.
 
-    ![Microsoft Exchange On-Premises Configuration](../image/ms-exch-on-prem-config-new.png)
+    \[Omitted image "ms-exch-on-prem-config-new.png"\] Alt text: Microsoft Exchange On-Premises Configuration
 
 4.  Fill in the fields, as needed.
 
@@ -57,11 +58,11 @@ Role required: sn\_si\_admin
     -   Select the respective MID server to add the capability.
     -   Click on the **Capabilities** related list and click **Edit**.
 
-        ![MID server capability](../image/mid-server-capability.png "MID server capability")
+        \[Omitted image "mid-server-capability.png"\] Alt text: MID server capability
 
     -   Remove **All** and add **Microsoft Exchange Server for SecOps**.
 
-        ![Adding capability](../image/mid-server-capabilities.png)
+        \[Omitted image "mid-server-capabilities.png"\] Alt text: Adding capability
 
     -   Select the **IP Ranges** from the **Related Lists** section and set the value to either **ALL** or any desired value.
     -   Select the **Supported Applications** from the **Related Lists** section and either set the value to ALL or Orchestration.

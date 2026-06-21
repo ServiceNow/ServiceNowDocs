@@ -2,6 +2,7 @@
 title: Approve or reject a legal matter or its artifact
 description: Review a legal matter or its artifact's content and approve or reject it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-matter-management/approve-reject-legal-matter-artif.html
 release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
@@ -25,15 +26,15 @@ Role required: none
 
 1.  Open the approval record from the email notification, Legal Counsel Center, Self-Service, or Employee Center portal.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d304044e60">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d288381e60">
 
 Options
 
-</th><th align="left" id="d304044e63">
+</th><th align="left" id="d288381e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d304044e69">
+</th></tr></thead><tbody><tr><td id="d288381e69">
 
 **From the email notification**
 
@@ -41,7 +42,7 @@ Steps
 
 Click the link in the email to open the record that needs approval.
 
-</td></tr><tr><td id="d304044e78">
+</td></tr><tr><td id="d288381e78">
 
 **From Legal Counsel Center**
 
@@ -50,12 +51,12 @@ Click the link in the email to open the record that needs approval.
 **Note:** The request\_fulfiller role is required to access Legal Counsel Center.
 
  1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  In the **Lists** tab, under **My Work**, click **Items Pending Approval**.
 4.  In the Items Pending Approval list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d304044e139">
+</td></tr><tr><td id="d288381e139">
 
 **From Self-Service**
 
@@ -65,7 +66,7 @@ Click the link in the email to open the record that needs approval.
 2.  In the My Approvals list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d304044e169">
+</td></tr><tr><td id="d288381e169">
 
 **From Employee Center**
 

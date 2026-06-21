@@ -2,6 +2,7 @@
 title: Third-party registration for PIF and PFTF
 description: Onboard a supplier through the third-party registration process before you get started with Source-to-Pay Integration Framework \(PIF\) or Procurement File Transfer Framework \(PFTF\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/third-party-registration-for-pif-pftf.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -29,5 +30,5 @@ Navigate to **All** &gt; **Procurement Integrations** &gt; **Setup** &gt; **Thir
 |Import shipment|Supplier is allowed to import shipments.|
 |Allow multi location order|Supplier allows orders to be split for multi-location shipping.|
 
-**Parent Topic:**[Spendint API](../../../integrate/inbound-rest/concept/spendint-api.md)
+**Parent Topic:**[Spendint API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api.md)
 

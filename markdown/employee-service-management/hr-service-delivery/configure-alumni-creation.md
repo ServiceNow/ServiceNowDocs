@@ -2,6 +2,7 @@
 title: Configure alumni creation
 description: As an admin, use the various configurable methods to enable seamless employee-to-alumni transition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/configure-alumni-creation.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

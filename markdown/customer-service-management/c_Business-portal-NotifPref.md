@@ -2,11 +2,14 @@
 title: Customer notification preferences
 description: Customers can set preferences for email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_Business-portal-NotifPref.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using the Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Customer notification preferences

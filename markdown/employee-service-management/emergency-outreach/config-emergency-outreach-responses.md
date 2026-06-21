@@ -2,6 +2,7 @@
 title: Configure Emergency Outreach response options
 description: Configure the response options that employees choose from to respond to an Emergency Outreach health status request. You can modify the base system responses, add new responses, and deactivate responses you no longer use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/emergency-outreach/config-emergency-outreach-responses.html
 release: yokohama
 product: Emergency Outreach
 classification: emergency-outreach
@@ -23,7 +24,7 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 Response options appear in the Emergency Outreach email notification that employees receive.
 
-![Email notification message](../image/voluntary_health_checkin_email.png "Email message with responses")
+\[Omitted image "voluntary\_health\_checkin\_email.png"\] Alt text: Email notification message
 
 ## Procedure
 
@@ -43,7 +44,7 @@ Response options appear in the Emergency Outreach email notification that employ
 
     1.  In the **Order** list, double-click the order value to update.
 
-        ![List edit open to change the number value](../image/list-edit-change-order-number.png)
+        \[Omitted image "list-edit-change-order-number.png"\] Alt text: List edit open to change the number value
 
     2.  Enter the number and click the green check mark icon.
 

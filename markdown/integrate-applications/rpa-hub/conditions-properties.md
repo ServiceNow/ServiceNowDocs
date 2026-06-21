@@ -2,6 +2,7 @@
 title: Properties of the Conditions components
 description: Learn about the properties for the Conditions components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/conditions-properties.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -68,5 +69,5 @@ Timeout
 Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Conditions](../concept/conditions-components.md)
+</table>**Parent Topic:**[Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/conditions-components.md)
 

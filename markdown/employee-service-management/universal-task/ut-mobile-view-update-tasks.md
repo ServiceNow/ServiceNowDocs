@@ -2,6 +2,7 @@
 title: View and update Universal Task using Now Mobile
 description: View and update the universal tasks that are assigned to you by using the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/universal-task/ut-mobile-view-update-tasks.html
 release: yokohama
 product: Universal Task
 classification: universal-task
@@ -21,7 +22,7 @@ Role required: Requester
 
 ## Procedure
 
-1.  On your mobile device, tap the Now Mobile app icon \(![Now Mobile app](../images/now-mobile.png)\).
+1.  On your mobile device, tap the Now Mobile app icon \(\[Omitted image "now-mobile.png"\] Alt text: Now Mobile app\).
 
 2.  To view all tasks that are assigned to you, tap **My Tasks**.
 
@@ -31,15 +32,15 @@ Role required: Requester
 
 4.  Go to each tab to do the following.
 
-<table id="choicetable_wlp_5xs_d4b"><thead><tr><th align="left" id="d544385e99">
+<table id="choicetable_wlp_5xs_d4b"><thead><tr><th align="left" id="d266706e99">
 
 Tab
 
-</th><th align="left" id="d544385e102">
+</th><th align="left" id="d266706e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d544385e108">
+</th></tr></thead><tbody><tr><td id="d266706e108">
 
 **To-Do**
 
@@ -49,10 +50,10 @@ View and complete the tasks that are assigned to you. -   If the task type is Up
 -   If the task type is Submit Catalog Item, the task is automatically marked complete after you submit the catalog item.
 -   If the task type is Mark when Complete, mark the task complete once the task described in the Description is completed.
 -   If the task type is Checklist, mark at least one of the items as complete to mark the task complete.
--   If the task type is Collect Employee Input, tap the ![View employee form icon](../images/icon-view-empform.png) to open the employee form. After you submit the form, the task is marked complete. If you leave the form midway, your responses are saved. You can complete and submit the form later.
+-   If the task type is Collect Employee Input, tap the \[Omitted image "icon-view-empform.png"\] Alt text: View employee form icon to open the employee form. After you submit the form, the task is marked complete. If you leave the form midway, your responses are saved. You can complete and submit the form later.
 
 
-</td></tr><tr><td id="d544385e144">
+</td></tr><tr><td id="d266706e144">
 
 **Learn More**
 
@@ -60,7 +61,7 @@ View and complete the tasks that are assigned to you. -   If the task type is Up
 
 View task details.
 
-</td></tr><tr><td id="d544385e153">
+</td></tr><tr><td id="d266706e153">
 
 **Updates**
 
@@ -70,5 +71,5 @@ View or add comments or attachments to the task.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Universal Task](../concept/use-universal-task.md)
+**Parent Topic:**[Using Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-task/use-universal-task.md)
 

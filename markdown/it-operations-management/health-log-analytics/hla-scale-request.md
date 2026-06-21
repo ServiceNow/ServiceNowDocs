@@ -2,6 +2,7 @@
 title: Submit an HLA scale request through the Now Support catalog
 description: Request Health Log Analytics scaling to support streaming logs at a higher rate. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-scale-request.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -51,5 +52,5 @@ This procedure explains how to submit a scaling request through the Now Support 
     Your scale request is submitted. When it’s approved, ServiceNow notifies you by email.
 
 
-**Parent Topic:**[Scaling Health Log Analytics to stream logs at a higher rate](../concept/hla-scaling.md)
+**Parent Topic:**[Scaling Health Log Analytics to stream logs at a higher rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-scaling.md)
 

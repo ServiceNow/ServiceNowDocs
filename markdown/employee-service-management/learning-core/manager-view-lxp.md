@@ -2,6 +2,7 @@
 title: Assigned to your team
 description: Track your team learning tasks to streamline their career growth.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/learning-core/manager-view-lxp.html
 release: yokohama
 product: Learning Core
 classification: learning-core
@@ -19,7 +20,7 @@ Manage your team's learning tasks.
 
 The Assigned to your team tab has the following information that helps you understand the learning progress of your team.
 
-![Assigned to your team tab](../image/assigned-to-your-team-lxp.png)
+\[Omitted image "assigned-to-your-team-lxp.png"\] Alt text: Assigned to your team tab
 
 -   Learning you've assigned to your team: View the status of the learnings assigned to your team.
     -   Not started
@@ -30,5 +31,5 @@ The Assigned to your team tab has the following information that helps you under
 -   Filters: Use the Employee, Status, Content type, Due date, and Completion date filters to sort your team's learnings.
 -   Assign learning: As a manager, assign Learning to your team members to enhance their skills.
 
-**Parent Topic:**[My Learning](overview-lxp.md)
+**Parent Topic:**[My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/overview-lxp.md)
 

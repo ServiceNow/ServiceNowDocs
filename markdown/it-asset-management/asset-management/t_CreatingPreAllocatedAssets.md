@@ -2,6 +2,7 @@
 title: Create pre-allocated assets
 description: Create a pre-allocated asset that physically exists, but isn’t yet a financial liability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-management/t\_CreatingPreAllocatedAssets.html
 release: yokohama
 product: Asset Management
 classification: asset-management
@@ -161,5 +162,5 @@ Work notes related to the asset.
 </table>2.  Select **Submit**.
 
 
-**Parent Topic:**[Manage pre-allocated assets](../../hardware-asset-management/concept/manage-preallocated-asset.md)
+**Parent Topic:**[Manage pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/manage-preallocated-asset.md)
 

@@ -2,7 +2,10 @@
 title: Generative AI powered root cause analysis
 description: Root cause analysis in Instance Observer provides automated detection and summarization of issues. It includes built-in root cause correlation and root cause summary using a large language model \(LLM\), which helps reduce troubleshooting time and improve incident transparency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/generative-ai-root-cause-anal.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

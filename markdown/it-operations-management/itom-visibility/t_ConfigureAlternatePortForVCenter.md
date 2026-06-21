@@ -2,6 +2,7 @@
 title: Configure an alternate port for vCenter
 description: You can specify an alternate port for the VMware - vCenter Datacenters probe.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/t\_ConfigureAlternatePortForVCenter.html
 release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
@@ -74,5 +75,5 @@ When these ports are detected, the VMWare - vCenter Datacenters probe is trigger
         The VMWare - vCenter Classify probe attempts to establish a connection between the MID Server and the vCenter instance. If the connection is successful, it triggers the VMWare - vCenter Datacenters probe.
 
 
-**Parent Topic:**[Discovery for VMware vCenter](../concept/c_DiscoveryForVMwareVCenter.md)
+**Parent Topic:**[Discovery for VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_DiscoveryForVMwareVCenter.md)
 

@@ -2,6 +2,7 @@
 title: Run a task bundling policy manually
 description: Dynamic task bundling policies can be manually run from the policy record with Field Service Task Bundling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/run-a-task-bundling-policy.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling

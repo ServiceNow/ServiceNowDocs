@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Process Mining
 description: Configure Now Assist for Process Mining to use the feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/config-na-proc-min.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -19,19 +20,19 @@ Configure Now Assist for Process Mining to use the feature.
 
 Configure how you can use the Now Assist for Process Mining in the first skill.
 
--   [Activate work notes analysis skill](../task/activate-na-skill.md)
--   [Configuring work notes analysis in Process Mining](../task/configure-worknotes.md)
+-   [Activate work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/activate-na-skill.md)
+-   [Configuring work notes analysis in Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/configure-worknotes.md)
 
 ## Now Assist for Process Mining plugin
 
-To work with generative AI capabilities, you need Now Assist for Creator. For information on how to install Now Assist for Creator, see [Install Now Assist for Creator](https://www.servicenow.com/docs/access?context=install-now-assist-for-creator&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+To work with generative AI capabilities, you need Now Assist for Creator. For information on how to install Now Assist for Creator, see .
 
 After Now Assist for Creator is installed, the plugin \(Now Assist for Process Mining\) and Generative AI Controller are automatically installed.
 
--   **[Activate work notes analysis skill](../task/activate-na-skill.md)**  
+-   **[Activate work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/activate-na-skill.md)**  
 Activate the work notes analysis skill to be able to use Now Assist for Process Mining.
--   **[Configuring work notes analysis in Process Mining](../task/configure-worknotes.md)**  
+-   **[Configuring work notes analysis in Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/configure-worknotes.md)**  
 Configure work notes analysis for a process table so that any project that is based on the process table has work notes analysis configured.
 
-**Parent Topic:**[Now Assist for Process Mining](now-assist.md)
+**Parent Topic:**[Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/now-assist.md)
 

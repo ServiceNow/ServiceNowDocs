@@ -2,6 +2,7 @@
 title: Transform Virtual Agent API request and response
 description: You can transform Virtual Agent API request and response into supported formats through the scripted extension points provided in Virtual Agent API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/transform-virtual-agent-api-request-and-response.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -76,7 +77,7 @@ Role required: admin
         
         ```
 
-        ![Scripted extension point for the transformation of request payload](../images/va-api-payload-transformation-extension-point.png "sn_va_as_service.va_api_payload_transformation extension point")
+        \[Omitted image "va-api-payload-transformation-extension-point.png"\] Alt text: Scripted extension point for the transformation of request payload
 
     4.  Click **Update**.
 
@@ -119,10 +120,10 @@ Role required: admin
         
         ```
 
-        ![Scripted extension point for the transformation of response payload](../images/va-api-output-transformation-extension-point.png "sn_va_as_service.va_api_output_transformation extension point")
+        \[Omitted image "va-api-output-transformation-extension-point.png"\] Alt text: Scripted extension point for the transformation of response payload
 
     4.  Click **Update**.
 
 
-**Parent Topic:**[Using Virtual Agent API](virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-api.md)
 

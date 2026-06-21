@@ -2,6 +2,7 @@
 title: Generate AIOps LEAP knowledge base
 description: Resolution steps from automation opportunities are used to create knowledge base articles, enabling quicker resolution to similar issues in future.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-aiops-leap-knowledge-base.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -37,7 +38,7 @@ AIOps LEAP automates the generation of knowledge base articles using the **Actio
 
     The page to create a knowledge base article appears.
 
-    Another option is to invoke the LEAP AI agent by selecting the Explore button ![Explore button](../images/explore-button.png) and creating knowledge base articles.
+    Another option is to invoke the LEAP AI agent by selecting the Explore button \[Omitted image "explore-button.png"\] Alt text: Explore button and creating knowledge base articles.
 
 5.  Enter the details you want to enter in the knowledge base page and select **Save**.
 

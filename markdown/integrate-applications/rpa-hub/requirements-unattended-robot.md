@@ -2,6 +2,7 @@
 title: Requirements for Unattended Robot
 description: Ensure that you meet the following hardware and software requirements before you install the Unattended Robot application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/requirements-unattended-robot.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub

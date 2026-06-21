@@ -2,6 +2,7 @@
 title: Create a privacy case in the Privacy Workspace
 description: Report any privacy breaches and complaints to help reduce and avert losses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/create-a-privacy-case.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -27,7 +28,7 @@ At times, users can also report a case to the privacy teams using offline modes 
 
 1.  Navigate to **All** &gt; **Privacy Workspace**.
 
-2.  Select the Privacy Case Management icon \(![Case management icon](../image/case-mgmt-icon.png)\).
+2.  Select the Privacy Case Management icon \(\[Omitted image "case-mgmt-icon.png"\] Alt text: Case management icon\).
 
 3.  Select **Create**.
 
@@ -35,13 +36,13 @@ At times, users can also report a case to the privacy teams using offline modes 
 
 5.  On the form, fill in the fields.
 
-    See the [privacy new case form](../reference/privacy-new-case-form.md) for an explanation of each field.
+    See the [privacy new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-new-case-form.md) for an explanation of each field.
 
 6.  Select **Save**.
 
 
--   **[Privacy new case form](../reference/privacy-new-case-form.md)**  
+-   **[Privacy new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-new-case-form.md)**  
 On the new privacy case form, fill in the fields.
 
-**Parent Topic:**[Reporting a privacy case](../concept/reporting-a-privacy-case.md)
+**Parent Topic:**[Reporting a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/reporting-a-privacy-case.md)
 

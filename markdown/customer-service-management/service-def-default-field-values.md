@@ -2,7 +2,10 @@
 title: Configure default field values for a service definition
 description: Configure default values for fields in a service definition's target table. When a record is created for this table, the system uses these values to auto populate record fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/service-def-default-field-values.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

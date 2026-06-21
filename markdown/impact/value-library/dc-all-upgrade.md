@@ -2,6 +2,7 @@
 title: Upgrading the Data Collection Content Pack
 description: When you upgrade the Data Collection Content Pack, you must account for any customizations you've made.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-all-upgrade.html
 release: yokohama
 product: Value Library
 classification: value-library

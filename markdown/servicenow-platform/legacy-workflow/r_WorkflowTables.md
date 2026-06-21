@@ -2,6 +2,7 @@
 title: Workflow tables
 description: For full flexibility, workflows store information over a number of different tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/legacy-workflow/r\_WorkflowTables.html
 release: yokohama
 product: Legacy Workflow
 classification: legacy-workflow

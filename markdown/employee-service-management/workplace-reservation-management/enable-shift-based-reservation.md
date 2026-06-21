@@ -2,6 +2,7 @@
 title: Enable shift-based reservation
 description: As an admin, enable employees to reserve a workplace item for a shift. Configure the spaces that can be reserved for a shift. Specify the users who can make shift-based reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-reservation-management/enable-shift-based-reservation.html
 release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -45,7 +46,7 @@ Role required: sn\_wsd\_core.workplace\_manager
 
     2.  To move the selection to the **Users List** column on the right, use the add-remove icon.
 
-        ![Add-remove icon.](../image/add-remove-icon.png)
+        \[Omitted image "add-remove-icon.png"\] Alt text: Add-remove icon.
 
     3.  Click **Save**.
 
@@ -59,7 +60,7 @@ Role required: sn\_wsd\_core.workplace\_manager
 
     2.  To move the selection to the **Locations List** column on the right, use the add-remove icon.
 
-        ![Add-remove icon.](../image/add-remove-icon.png)
+        \[Omitted image "add-remove-icon.png"\] Alt text: Add-remove icon.
 
     3.  Click **Save**.
 
@@ -73,5 +74,5 @@ The users and spaces are assigned to the shift. When an employee wants to make a
 -   The shifts for which the employee can make a reservation.
 -   The spaces that are available for reservation in the selected shift.
 
-**Parent Topic:**[Create neighborhood reservations](create-neighborhood-reservations.md)
+**Parent Topic:**[Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md)
 

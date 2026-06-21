@@ -2,6 +2,7 @@
 title: Configure Agent Chat for HR Service Delivery Agent Workspace
 description: Use Agent Chat Settings to configure Agent Chat for HR Service Delivery Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/configure-awa-hr.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ Use Agent Chat Settings to configure Agent Chat for HR Service Delivery Agent Wo
 
 Role required: sn\_hr\_core.admin
 
-**Note:** Ensure you have activated the Agent Chat \[com.glide.interaction.awa\] plugin prior to using this feature. For more information on configuring chat, see [Set up Agent Chat](https://www.servicenow.com/docs/access?context=ac-configure-agent-chat&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+**Note:** Ensure you have activated the Agent Chat \[com.glide.interaction.awa\] plugin prior to using this feature. For more information on configuring chat, see Set up Agent Chat.
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Approval assignment scripts
 description: This is a searchable version of the useful approval and assignment scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/r\_UsefulApprovalAssignmentScripts.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -17,7 +18,7 @@ This is a searchable version of the useful approval and assignment scripts.
 
 **Warning:** The customization described here was developed for use in specific instances, and is not supported by Now Support. This method is provided as-is and should be tested thoroughly before implementation. Post all questions and comments regarding this customization to our community [forum](http://community.service-now.com/).
 
-For see [Viewing my approvals](https://www.servicenow.com/docs/access?context=viewing-my-approvals&version=yokohama&pubname=yokohama-security-management&ft:locale=en-US).
+For see .
 
 -   **Assign a group for ESS requests**
 
@@ -168,8 +169,8 @@ For see [Viewing my approvals](https://www.servicenow.com/docs/access?context=vi
 
 -   **Custom approval UI macro**
 
-    For information on creating a custom approval UI macro, see [UI macros](https://www.servicenow.com/docs/access?context=c_UIMacros&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+    For information on creating a custom approval UI macro, see .
 
 
-**Parent Topic:**[Field script use cases](r_UsefulFieldScripts.md)
+**Parent Topic:**[Field script use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/r_UsefulFieldScripts.md)
 

@@ -2,6 +2,7 @@
 title: Add an item to the wish list in Employee Center
 description: Add catalog items or record producers to the wish list to review them when required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/add-to-wishlist-ec.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
@@ -25,9 +26,9 @@ Role required: requester
 
 2.  Select a topic to view the catalog items and then select catalog item or record producer from the Catalog.
 
-3.  Click the Add to Wish List icon \(![Icon to add to the wishlist](../image/SPWishList.png)\) in the Ordering widget.
+3.  Click the Add to Wish List icon \(\[Omitted image "SPWishList.png"\] Alt text: Icon to add to the wishlist\) in the Ordering widget.
 
-    **Note:** When you edit an item that is added to the wish list, the Update Wish List icon \(![Icon to update wishlist](../image/SPWishList.png)\) is displayed in the corresponding Ordering widget.
+    **Note:** When you edit an item that is added to the wish list, the Update Wish List icon \(\[Omitted image "SPWishList.png"\] Alt text: Icon to update wishlist\) is displayed in the corresponding Ordering widget.
 
 4.  Click **View Wish List** from the confirmation message or the **Wish List** menu option on the main navigation bar.
 
@@ -35,15 +36,15 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d193404e117">
+<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d205738e117">
 
 **Remove Item**
 
 </td><td>
 
-To remove an item from the wish list, click the Remove Item icon \( ![Icon to remove item](../image/RemoveIcn.png)\).
+To remove an item from the wish list, click the Remove Item icon \( \[Omitted image "RemoveIcn.png"\] Alt text: Icon to remove item\).
 
-</td></tr><tr><td id="d193404e132">
+</td></tr><tr><td id="d205738e132">
 
 **Clear Wish List**
 
@@ -51,7 +52,7 @@ To remove an item from the wish list, click the Remove Item icon \( ![Icon to re
 
 To clear the wish list, click **Clear Wish List**.
 
-</td></tr><tr><td id="d193404e144">
+</td></tr><tr><td id="d205738e144">
 
 **View the Catalog**
 
@@ -65,5 +66,5 @@ To navigate to the Service Catalog landing page, click **View the Catalog**.
     **Note:** This does not open a new instance of the item, but the instance that is in the wish list, where you can edit the details.
 
 
-**Parent Topic:**[Service Catalog in Employee Center portal](../concept/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 

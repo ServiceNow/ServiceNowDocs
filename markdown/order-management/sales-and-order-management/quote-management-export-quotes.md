@@ -2,6 +2,7 @@
 title: Export quotes
 description: Export a list of all quotes in Quote Management and provide it to a customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-management-export-quotes.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Quotes** &gt; **All**.
 

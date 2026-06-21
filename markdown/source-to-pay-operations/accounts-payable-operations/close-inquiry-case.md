@@ -2,6 +2,7 @@
 title: Close an invoice inquiry case
 description: Close an invoice inquiry case when all the activities and tasks for resolving the case are completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/close-inquiry-case.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,7 +24,7 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Do one of the following:
 
@@ -37,7 +38,7 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
 
         The Close inquiry dialog box is displayed.
 
-    -   Select the down arrow icon \(![Down arrow icon](../image/down-arrow-icon.png)\) and then select **Close incomplete**.![Close an invoice inquiry case](../image/apo-close-invoice-inquiry-case.png)
+    -   Select the down arrow icon \(\[Omitted image "down-arrow-icon.png"\] Alt text: Down arrow icon\) and then select **Close incomplete**.\[Omitted image "apo-close-invoice-inquiry-case.png"\] Alt text: Close an invoice inquiry case
 
         The Closure details dialog box is displayed.
 
@@ -61,5 +62,5 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
 
 The invoice inquiry case is closed after completing all activities and tasks required for resolution.
 
-**Parent Topic:**[Invoice inquiry cases](../concept/work-with-inquiry-cases.md)
+**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
 

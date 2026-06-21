@@ -2,6 +2,7 @@
 title: Close a legal matter
 description: Close a legal matter assigned to you when you complete all activities for resolving the legal matter. You can also close the matter if you find that it doesn’t need any further action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-matter-management/close-legal-matter.html
 release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
@@ -31,19 +32,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d262960e110">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d249303e110">
 
 Option
 
-</th><th align="left" id="d262960e113">
+</th><th align="left" id="d249303e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d262960e119">
+</th></tr></thead><tbody><tr><td id="d249303e119">
 
 **As an assignee**
 
@@ -55,7 +56,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d262960e148">
+</td></tr><tr><td id="d249303e148">
 
 **As a collaborator**
 

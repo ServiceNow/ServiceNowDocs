@@ -2,6 +2,7 @@
 title: Add a data broker server script for the Playbook tab
 description: Configure a data broker server script that connects the UI Builder component to the script include method controlling the Playbook tab visibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-data-broker-playbook.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,7 +30,7 @@ Role required: admin
 
     The Data Broker Server Script form opens.
 
-    ![Data Broker Server Script form displaying sample values to configure for the playbook visibility.](../image/cmpro-data-broker-playbook.png "Data Broker Server Script form")
+    \[Omitted image "cmpro-data-broker-playbook.png"\] Alt text: Data Broker Server Script form displaying sample values to configure for the playbook visibility.
 
 3.  In the **Name** field, enter the name for your configuration.
 

@@ -2,6 +2,7 @@
 title: Resolve multiple collisions
 description: You can resolve multiple collisions without reviewing the differences between the local and pulled versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/t\_ResolveMultipleCollisions.html
 release: yokohama
 product: Team Development
 classification: team-development
@@ -27,7 +28,7 @@ You can resolve multiple collisions without reviewing the differences between th
 
 4.  In the Actions choice list, use one of the following methods to resolve the collision.
 
-<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d321805e87">
+<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d213264e87">
 
 **To load the version pulled from the parent as the current version for all selected collisions**
 
@@ -35,7 +36,7 @@ You can resolve multiple collisions without reviewing the differences between th
 
 Select **Use Pulled Version**
 
-</td></tr><tr><td id="d321805e99">
+</td></tr><tr><td id="d213264e99">
 
 **To maintain the local version \(local record\) as the current version for all selected collisions. The pulled versions are added to the version history for the records.
 
@@ -47,5 +48,5 @@ Select **Use Local Version**
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Team Development](../concept/c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

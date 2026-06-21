@@ -2,6 +2,7 @@
 title: Associate a request header with a resource
 description: Define which request headers are expected for each resource within a scripted REST API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-api-explorer/associate-header-api-resource.html
 release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
@@ -21,19 +22,23 @@ A REST API resource and a request header must already be defined within the scri
 
 Role required: web\_service\_admin
 
+## About this task
+
+The following procedure describes the process for manually associating a REST API request header with a resource. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/autogenerate-api-request-definitions.md).
+
 ## Procedure
 
 1.  Create a Scripted REST Header Association record in one of the following ways
 
-<table id="choicetable_fv4_myc_j3c"><thead><tr><th align="left" id="d279088e53">
+<table id="choicetable_fv4_myc_j3c"><thead><tr><th align="left" id="d256596e67">
 
 Option
 
-</th><th align="left" id="d279088e56">
+</th><th align="left" id="d256596e70">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d279088e62">
+</th></tr></thead><tbody><tr><td id="d256596e76">
 
 **Navigate through a scripted REST API record**
 
@@ -45,7 +50,7 @@ Procedure
 4.  In the **Request Header Associations** tab, select **New**.
 
 
-</td></tr><tr><td id="d279088e107">
+</td></tr><tr><td id="d256596e121">
 
 **Navigate directly to a new Scripted REST Header Association record**
 
@@ -63,5 +68,9 @@ Navigate to **All** &gt; **Filter** and enter `sys_ws_header_map.form`.
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+## Result
+
+The request headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a "type: string" schema definition. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/export-openapi-specification.md).
+
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

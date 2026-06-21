@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP ERP model table field descriptions
 description: The Entity fields tab for an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP displays the table fields that are included in the ERP model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-erp-data-model-table-fields.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,7 +16,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector
 
 The **Entity fields** tab for an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP displays the table fields that are included in the ERP model.
 
-For process details, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](../task/erpc-add-entity-to-model-op.md).
+For process details, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
 
 Zero Copy Connector for ERP automatically scans the linked ERP system to retrieve the latest entity data. However, you can select the refresh icon to update the data on demand.
 
@@ -88,5 +89,5 @@ Updated
 Date and time the field was most recently saved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

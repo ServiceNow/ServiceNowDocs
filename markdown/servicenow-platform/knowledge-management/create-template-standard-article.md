@@ -2,6 +2,7 @@
 title: Configure the preview text setting for a standard article template
 description: Configure the preview text setting to customize the default preview text for a standard article template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/create-template-standard-article.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

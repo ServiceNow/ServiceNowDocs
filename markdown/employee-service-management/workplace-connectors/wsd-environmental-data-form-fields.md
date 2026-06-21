@@ -2,6 +2,7 @@
 title: Environmental data form for Workplace Connectors
 description: Environmental sensor data form has pre-filled environmental data values and units of measure. Select the MetricBase value to visualize the time-series data in different transforms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/wsd-environmental-data-form-fields.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
@@ -30,9 +31,9 @@ Environmental sensor data form has pre-filled environmental data values and unit
 |Particulate matter 10 value|Particulate matter \(PM\) for microscopic matter suspended in air measuring PM 10 mu or micro in diameter.|Particulate matter 10 units.|
 |Pressure value|Atmospheric pressure value at the workplace location.|Pressure units|
 
-**Parent Topic:**[Workplace Connectors references](../concept/workplace-connectors-references.md)
+**Parent Topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 
-**Previous topic:**[Components installed with Workplace Connectors](component-workplace-connectors.md)
+**Previous topic:**[Components installed with Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/component-workplace-connectors.md)
 
-**Next topic:**[Workplace Connectors data summarization](../concept/data-summarization.md)
+**Next topic:**[Workplace Connectors data summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/data-summarization.md)
 

@@ -2,6 +2,7 @@
 title: Refine the presentation of your data
 description: Improve your Task Mining project's analysis before sharing the project to identify gaps in categorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/task-mining/preview-data-based-on-categorization-rules.html
 release: yokohama
 product: Task Mining
 classification: task-mining
@@ -31,7 +32,7 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
     1.  Select the name of the analysis that you want to preview.
 
-        The analysis opens in a new tab. For more information about reading the analysis, see [Task Mining analysis](../concept/task-mining-dashboard.md).
+        The analysis opens in a new tab. For more information about reading the analysis, see [Task Mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/task-mining-dashboard.md).
 
     2.  Use the time, categories, activities, and users drop-down selectors to evaluate different views of your charts.
 
@@ -42,5 +43,5 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
 ## What to do next
 
-Share the analysis with interested process owners by adding shared users to the project. For more information, see [Share a Task Mining analysis](share-projects.md).
+Share the analysis with interested process owners by adding shared users to the project. For more information, see [Share a Task Mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/share-projects.md).
 

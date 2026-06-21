@@ -2,6 +2,7 @@
 title: Publish models to the hardware or software catalog
 description: You can publish models to the hardware or software catalog to make the models available in the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/product-catalog/t\_PublishingModToHrdwreOrSftCat.html
 release: yokohama
 product: Product Catalog
 classification: product-catalog
@@ -34,5 +35,5 @@ Role required: catalog\_admin
 5.  Click **OK**.
 
 
-**Parent Topic:**[Models](../concept/c_Models.md)
+**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/product-catalog/c_Models.md)
 

@@ -2,13 +2,14 @@
 title: Opportunity Management
 description: The  ServiceNow Opportunity Management application enables your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/opportunity-management.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
 # Opportunity Management
@@ -17,7 +18,7 @@ The  ServiceNow® Opportunity Management application enables your sales agents
 
 An opportunity in Sales Customer Relationship Management provides maximum information about a product or service based on the needs of a customer \(called a qualified lead\). A lead for a product is the minimal information that a sales agent uses to advance the conversation with a potential customer and create an opportunity.
 
-![Sales and Order Management workflow that shows the opportunity, quote, and order creation steps.](../image/l2c-quote-workflow.png "Opportunity workflow in Sales Customer Relationship Management")
+\[Omitted image "l2c-quote-workflow.png"\] Alt text: Sales CRM workflow that shows the opportunity, quote, and order creation steps.
 
 ## Opportunity Management interface
 
@@ -33,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Details tab](opportunity-management-details-tab.md)
+[Details tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-details-tab.md)
 
 </td><td>
 
@@ -49,7 +50,7 @@ Search for and add product offerings to your opportunity.
 
 </td></tr><tr><td>
 
-[Needs tab](../task/opp-mgmt-use-needs-analysis.md)
+[Needs tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opp-mgmt-use-needs-analysis.md)
 
 </td><td>
 
@@ -57,7 +58,7 @@ Lists the need templates that provide product recommendations for the opportunit
 
 </td></tr><tr><td>
 
-[Line Items tab](opportunity-management-line-items-tab.md)
+[Line Items tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-line-items-tab.md)
 
 </td><td>
 
@@ -65,7 +66,7 @@ Add different line items to an opportunity.
 
 </td></tr><tr><td>
 
-[Competitors tab](opportunity-management-competitors-tab.md)
+[Competitors tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-competitors-tab.md)
 
 </td><td>
 
@@ -73,7 +74,7 @@ Record competitors information.
 
 </td></tr><tr><td>
 
-[Tasks tab](opportunity-management-tasks-tab.md)
+[Tasks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-tasks-tab.md)
 
 </td><td>
 
@@ -103,7 +104,7 @@ Create opportunity associated contacts.
 
 </td></tr><tr><td>
 
-[Emails tab](opportunity-management-emails-tab.md)
+[Emails tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-emails-tab.md)
 
 </td><td>
 
@@ -111,7 +112,7 @@ Create emails to send to the required stakeholders.
 
 </td></tr><tr><td>
 
-[Quotes tab](opportunity-management-create-quote.md)
+[Quotes tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-create-quote.md)
 
 </td><td>
 
@@ -122,7 +123,7 @@ Create quotes directly from opportunities.
 
 Opportunity Management integrates with the pricing engine to consume the default price list and displays the total price and unit price of product offerings in your opportunity.
 
-Based on the prices of product offerings \(POs\) that are added to the opportunity, the total price values are auto-calculated. For more information, see [Add and view the details of an opportunity](opportunity-management-details-tab.md) and [Add line items to an opportunity](opportunity-management-line-items-tab.md).
+Based on the prices of product offerings \(POs\) that are added to the opportunity, the total price values are auto-calculated. For more information, see [Add and view the details of an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-details-tab.md) and [Add line items to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-line-items-tab.md).
 
 Pricing in Opportunity Management provides the following benefits:
 
@@ -130,7 +131,7 @@ Pricing in Opportunity Management provides the following benefits:
 -   Deal prioritization: By analyzing the potential revenue of each opportunity, your sales team can focus on the deals based on their financial impact. For example, teams can focus on deals with higher potential revenue and higher margins.
 -   Negotiation enhancement: The pricing engine gives your sales team real-time pricing insights, which enhances the negotiation process by enabling your sales team to tailor offers that meet customer needs while maintaining profitability.
 
-To learn more about pricing, see [Pricing Management](pricing-management.md).
+To learn more about pricing, see [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/pricing-management.md).
 
 ## Use the product configurator
 
@@ -143,5 +144,5 @@ The product configurator uses Sales Customer Relationship Management primitives 
 
 ## What to do next
 
-To learn about setting up Opportunity Management, see [Install and configure Opportunity Management](configure-opportunity-mgmt.md).
+To learn about setting up Opportunity Management, see [Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/configure-opportunity-mgmt.md).
 

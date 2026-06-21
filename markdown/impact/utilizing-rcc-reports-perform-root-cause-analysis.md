@@ -2,7 +2,10 @@
 title: Utilizing RCC history to perform root cause analysis
 description: Check the RCC History page to further investigate the issues that caused an alert to trigger.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/utilizing-rcc-reports-perform-root-cause-analysis.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: admin
 
 2.  From the **Alerts** menu, select **Root Cause Correlation History** to display the history of reports for all users in a selected instance for the last seven days.
 
-    ![RCC history log.](../image/rcc-history.png)
+    \[Omitted image "rcc-history.png"\] Alt text: RCC history log.
 
 3.  Select an RCC entry to drill further into the issue that caused the alert.
 

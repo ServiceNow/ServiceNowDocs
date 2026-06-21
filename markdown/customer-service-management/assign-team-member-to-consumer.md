@@ -2,7 +2,10 @@
 title: Assign a team member to a consumer
 description: Assign a team member to a consumer by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/assign-team-member-to-consumer.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

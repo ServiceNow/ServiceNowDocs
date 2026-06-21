@@ -2,7 +2,10 @@
 title: Impact store app value management
 description: The value management constitutes a continuous loop of the end-to-end process of managing the value lifecycle, inclusive of envisioning value, creating value, ongoing management, optimization, and validation of value realized with the Impact store app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-in-platform-business-outcomes.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
@@ -31,7 +34,7 @@ Trends can easily be filtered and viewed to track objectives and outcomes.
 -   Incremental value: The value of the improvements realized during the year after implementing the ServiceNow platform.
 -   Overall value: The overall, comprehensive value that the ServiceNow platform has brought to your organization during the year.
 
-A Data Collection Toolkit in Impact Store App is a detailed overview of the Report configuration options and potential implementation recommendations for collecting the data required for your value blueprint, outcome performance report, and value reports that are part of the Impact program. See [Data Collection Toolkit](data-collection-toolkit.md) for additional information on how to use the toolkit to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\).
+A Data Collection Toolkit in Impact Store App is a detailed overview of the Report configuration options and potential implementation recommendations for collecting the data required for your value blueprint, outcome performance report, and value reports that are part of the Impact program. See [Data Collection Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/data-collection-toolkit.md) for additional information on how to use the toolkit to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\).
 
 The Data Collection Apps are available on the ServiceNow Impact Store Application. These apps are accessible directly on a your instance as part of the Impact package, eliminating the need for separate downloads from the store or individual content packs. By leveraging predefined data definitions within Performance Analytics \(PA\), customers can automatically collect essential data for Value Metrics. This streamlined approach enhances the accuracy and efficiency of data collection for value measurement, providing a seamless experience and improving both customer satisfaction and product evaluation in the Value management within Impact.
 

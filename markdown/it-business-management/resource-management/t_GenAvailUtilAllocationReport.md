@@ -2,6 +2,7 @@
 title: View availability, utilization, and allocation reports
 description: You can view resource reports that focus on resource availability, utilization, and allocations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/t\_GenAvailUtilAllocationReport.html
 release: yokohama
 product: Resource Management
 classification: resource-management
@@ -25,10 +26,10 @@ Role required: admin, resource\_user, or resource\_manager
 
 2.  On the Resource Reports form, Fill the fields.
 
-    For a description of the field names, see [Resource Reports form](../reference/rsrc-rprts-form.md).
+    For a description of the field names, see [Resource Reports form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-rprts-form.md).
 
 3.  Select **Run** to view the report.
 
 
-**Parent Topic:**[Resource Management reports](../concept/c_UsingResourceManagementReports.md)
+**Parent Topic:**[Resource Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_UsingResourceManagementReports.md)
 

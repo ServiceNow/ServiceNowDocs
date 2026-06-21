@@ -2,6 +2,7 @@
 title: Restricting record access
 description: You can use a query business rule that executes before the database query to prevent users from accessing certain records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/c\_ExScptDftBfrQryBsnRu.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -34,7 +35,7 @@ if (!gs.hasRole("itil")&& gs.isInteractive()) {
   gs.print("query restricted to user: " + u);}
 ```
 
-**Note:** You can also use access controls to restrict the records that users can see. For information, see [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+**Note:** You can also use access controls to restrict the records that users can see. For information, see .
 
 ## Schedule script for weekdays
 
@@ -100,7 +101,7 @@ if(typeof g_user_date_time_format !=='undefined')
 return parseDate(value)!==null;}
 ```
 
-For more information, see [Validation script use case - Date and time](https://www.servicenow.com/docs/access?context=c_ValidateDateAndTime&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+For more information, see .
 
-**Parent Topic:**[Business rule use cases](useful-business-rules.md)
+**Parent Topic:**[Business rule use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/useful-business-rules.md)
 

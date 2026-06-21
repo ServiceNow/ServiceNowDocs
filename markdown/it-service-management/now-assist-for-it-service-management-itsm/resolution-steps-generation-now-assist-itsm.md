@@ -2,6 +2,7 @@
 title: Suggested steps generation in Now Assist for IT Service Management \(ITSM\)
 description: Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the Now Assist for IT Service Management \(ITSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/resolution-steps-generation-now-assist-itsm.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -28,9 +29,9 @@ Data from the short description field and the filter conditions set in the incid
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace.**
 
-2.  Using the List icon \(![List icon](../../../common/image/icon-list.png)\), open an incident that is not in **Closed** or **Complete** state.
+2.  Using the List icon \(\[Omitted image "icon-list.png"\] Alt text: List icon\), open an incident that is not in **Closed** or **Complete** state.
 
-3.  Select the Recommendations icon \(![Output class icon](../image/now-assist-itsm-recommendations-icon.png)\).
+3.  Select the Recommendations icon \(\[Omitted image "now-assist-itsm-recommendations-icon.png"\] Alt text: Output class icon\).
 
     The **Recommended actions** tab displays.
 
@@ -38,6 +39,6 @@ Data from the short description field and the filter conditions set in the incid
 
     The steps to resolve the incident appear in the **Recommendations** window in the incident record. This action may take a few minutes.
 
-    ![Suggested steps in Now Assist](../image/now-assist-itsm-suggested-steps.png)
+    \[Omitted image "now-assist-itsm-suggested-steps.png"\] Alt text: Suggested steps in Now Assist
 
 

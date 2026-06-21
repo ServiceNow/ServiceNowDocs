@@ -2,6 +2,7 @@
 title: Now Assist for Financial Services Operations \(FSO\)
 description: Use the ServiceNow Now Assist for Financial Services Operations \(FSO\) application to leverage AI and Now LLM Service to automate your financial operations processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.html
 release: yokohama
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -19,15 +20,15 @@ Use the ServiceNow® Now Assist for Financial Services Operations \(FSO\) applic
 
 <table id="table_vqd_fm5_lbc" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for FSO](exploring-now-assist-for-financial-services-operations-fso.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for FSO application to get started](../task/configure-now-assist-for-fso.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for FSO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use agentic AI capabilities offered by Now Assist for FSO](using-now-assist-for-financial-services-operations-fso.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use agentic AI capabilities offered by Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
 
 </td></tr><tr><td>
 
@@ -35,7 +36,7 @@ Use the ServiceNow® Now Assist for Financial Services Operations \(FSO\) applic
 
 </td><td>
 
-[Use Financial Services Operations AI agent collection ![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use agentic workflows in Now Assist for FSO](../../fso-now-assist/concept/using-ai-agent-use-cases-in-now-assist-for-fso.md)
+[Use Financial Services Operations AI agent collection \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md)
 
 </td><td>
 
@@ -65,16 +66,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products.Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products.Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 
--   **[Exploring Now Assist for Financial Services Operations \(FSO\)](exploring-now-assist-for-financial-services-operations-fso.md)**  
+-   **[Exploring Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.md)**  
 With the Now Assist for Financial Services Operations \(FSO\) application, use agentic AI to summarize case details, enhance disputes intake with Disputes intake via Virtual Agent, and leverage agentic workflows.
--   **[Using generative AI](using-now-assist-for-financial-services-operations-fso.md)**  
+-   **[Using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)**  
 If you have an agent role, you can summarize the case details with the Now Assist for Financial Services Operations \(FSO\) application. Customers can also use Disputes intake via Virtual Agent to submit card disputes.
--   **[Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)](../../fso-now-assist/concept/using-ai-agent-use-cases-in-now-assist-for-fso.md)**  
+-   **[Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md)**  
 Use FSO agentic workflows and AI agents to improve and enhance financial services processes.
--   **[Now Assist for Financial Services Operations \(FSO\) reference](now-assist-for-fso-reference.md)**  
+-   **[Now Assist for Financial Services Operations \(FSO\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-fso-reference.md)**  
 Reference topics provide additional information about administering Now Assist for Financial Services Operations \(FSO\).
 

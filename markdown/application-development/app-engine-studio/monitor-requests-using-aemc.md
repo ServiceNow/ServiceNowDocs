@@ -2,6 +2,7 @@
 title: Managing app development using the App Engine Management Center
 description: Track and manage your App Engine Studio \(AES\) and Creator Studio requests, deployments, applications, and collaborative developers using the App Engine Management Center \(AEMC\) in your production instance. Additionally, AEMC allows admins to manage app development from intake through production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/monitor-requests-using-aemc.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,9 +16,9 @@ breadcrumb: [Build apps using App Engine Studio, Building low-code applications,
 
 Track and manage your App Engine Studio \(AES\) and Creator Studio requests, deployments, applications, and collaborative developers using the App Engine Management Center \(AEMC\) in your production instance. Additionally, AEMC allows admins to manage app development from intake through production.
 
-AEMC uses Pipelines and Deployments to deploy applications through different instances. Pipelines and Deployments uses the Application Repository to manage these deployments. For more information, see [ServiceNow application repository](../../applications/concept/app-repo.md).
+AEMC uses Pipelines and Deployments to deploy applications through different instances. Pipelines and Deployments uses the Application Repository to manage these deployments. For more information, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/application-repository-self-hosted/app-repo.md).
 
-Each application can either be deployed using the Application Repository or System Update Sets. If you've used Update Sets in the past, but want to switch to using the Application Repository, you can do a one-time conversion to deploy the app using the Application Repository instead. All apps don't have to follow the same deployment. For more information, see [Convert custom applications to upgrade from the application repository](../../applications/task/convert-custom-app-to-update-app-repo.md) and [System update sets](../../system-update-sets/concept/system-update-sets.md).
+Each application can either be deployed using the Application Repository or System Update Sets. If you've used Update Sets in the past, but want to switch to using the Application Repository, you can do a one-time conversion to deploy the app using the Application Repository instead. All apps don't have to follow the same deployment. For more information, see [Convert custom applications to upgrade from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/application-repository-self-hosted/convert-custom-app-to-update-app-repo.md) and [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/system-update-sets.md).
 
 ## Additional resources for App Engine Management Center
 
@@ -31,19 +32,19 @@ ServiceNow resources
 
 </th></tr></thead><tbody><tr><td rowspan="3">
 
-Although you can use AEMC in any instance, for full functionality, you must install AEMC in the production instance. You must also set up the deployment pipelines with the controller instance in production. For more information, see [Configure Pipelines and Deployments](../../pipelines-and-deployments/task/config-p-and-d.md).
+Although you can use AEMC in any instance, for full functionality, you must install AEMC in the production instance. You must also set up the deployment pipelines with the controller instance in production. For more information, see [Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/config-p-and-d.md).
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg) [Govern low-code app development at scale with App Engine Management Center](https://www.youtube.com/watch?v=G-PcrtXs6GI)
+\[Omitted image "bus-try-a-demo.svg"\] Alt text: [Govern low-code app development at scale with App Engine Management Center](https://www.youtube.com/watch?v=G-PcrtXs6GI)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-webinar.svg) [Creator toolbox \| App Engine Management Center](https://www.youtube.com/watch?v=fDvEqAQIHzQ)
+\[Omitted image "bus-webinar.svg"\] Alt text: [Creator toolbox \| App Engine Management Center](https://www.youtube.com/watch?v=fDvEqAQIHzQ)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-application-developer.svg) [Govern low-code app development at scale with App Management Center](https://www.servicenow.com/demo/demonow-detail.html?videoid=govern-lowcode-app-development)
+\[Omitted image "bus-application-developer.svg"\] Alt text: [Govern low-code app development at scale with App Management Center](https://www.servicenow.com/demo/demonow-detail.html?videoid=govern-lowcode-app-development)
 
 </td></tr></tbody>
 </table>## Navigating AEMC
@@ -99,14 +100,14 @@ Developers
 Charts and graphs illustrating total and active developers, as well as developers by department. You can view details for individual developers, including the apps for which they are collaborators and their request history.
 
 </td></tr></tbody>
-</table>-   **[Managing requests using AEMC](manage-aemc-requests.md)**  
+</table>-   **[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-aemc-requests.md)**  
 You can track and approve or reject Intake, App,Collaboration, and Deployment requests using the App Engine Management Center \(AEMC\).
--   **[Managing deployments using pipelines in AEMC](manage-deployments-using-aemc.md#)**  
+-   **[Managing deployments using pipelines in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-deployments-using-aemc.md)**  
 Manage applications at all stages of deployment, view multiple pipelines, and approve or reject deployment requests using the App Engine Management Center \(AEMC\).
--   **[Managing custom apps using AEMC](manage-custom-apps-using-aemc.md)**  
+-   **[Managing custom apps using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-custom-apps-using-aemc.md)**  
 Review custom app metrics and manage apps through the development life cycle using the App Engine Management Center \(AEMC\).
--   **[Managing developers using AEMC](manage-developers-using-aemc.md)**  
+-   **[Managing developers using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-developers-using-aemc.md)**  
 View details about developers working on apps in App Engine Studio and Creator Studio using App Engine Management Center \(AEMC\).
 
-**Parent Topic:**[Build apps using App Engine Studio](aes-overview.md)
+**Parent Topic:**[Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-overview.md)
 

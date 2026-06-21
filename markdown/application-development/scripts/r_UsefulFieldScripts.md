@@ -2,11 +2,12 @@
 title: Field script use cases
 description: Common use cases for field customization scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/r\_UsefulFieldScripts.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Useful scripts, Scripting, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -17,7 +18,7 @@ Common use cases for field customization scripts.
 
 **Warning:** The customization described here was developed for use in specific instances, and is not supported by Now Support. This method is provided as-is and should be tested thoroughly before implementation. Post all questions and comments regarding this customization to our community [forum](http://community.service-now.com/).
 
-For more information, see [Server API reference](https://www.servicenow.com/docs/access?context=api-server&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+For more information, see .
 
 ## Automatically populate a field
 
@@ -165,7 +166,7 @@ You can set date and time values in client scripts and script includes.
         g_form.setValue('put your field name here', ajax.getAnswer());});
     ```
 
-    For more information on running server-side scripts with the client, refer to [GlideAjax](https://www.servicenow.com/docs/access?context=p_AJAX&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+    For more information on running server-side scripts with the client, refer to GlideAjax.
 
 -   **System script include**
 
@@ -224,45 +225,10 @@ function toggleTimerByFieldName(fieldName){
           timerImg.src="images/timer_stop.gifx";}}}}}
 ```
 
-## Modify GlideDateTime field value
+## Modify GlideDateTime field values
 
-The following example uses a server-side script to access a **GlideDateTime** field.
-
-The following server-side script example shows how to modify values using the GlideDateTime API. The same concept also applies to the GlideDate object.
-
-```
-//You first need a GlideDateTime object
-//this can be from instantiating a new object "var gdt = new GlideDateTime()"
-//or getting the object from a GlideDateTime field
-//getting the field value (for example: var gdt = current.start_date) 
-//only returns the string value, not the object
-//to get the object use var gdt = current.start_date.getGlideObject();
-//now gdt is a GlideDateTime object
-var gdt = current.start_date.getGlideObject();
- 
-//All methods can use negative values to subtract intervals
- 
-//add 1 hour (60 mins * 60 secs)
-gdt.addSecondsLocalTime(3600);
- 
-//add 1 day
-gdt.addDaysLocalTime(1);
- 
-//subtract 1 day
-gdt.addDaysLocalTime(-1);
- 
-//add 3 weeks
-gdt.addWeeksLocalTime(3);
- 
-//subtract 6 months.
-gdt.addMonthsLocalTime(-6);
- 
-//add 1 year, representing the date and time using the UTC timezone instead of the local user's timezone.
-gdt.addYearsUTC(1);
-```
-
--   **[Approval assignment scripts](r_UsefulApprovalAssignmentScripts.md)**  
+-   **[Approval assignment scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/r_UsefulApprovalAssignmentScripts.md)**  
 This is a searchable version of the useful approval and assignment scripts.
 
-**Parent Topic:**[Useful scripts](../concept/usefulScripts.md)
+**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/usefulScripts.md)
 

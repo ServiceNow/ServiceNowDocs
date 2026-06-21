@@ -2,6 +2,7 @@
 title: Domain separation and Financial Services Card Operations
 description: Domain separation is supported for Financial Services Card Operations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-card-operations/domain-separation-fso-card-operations.html
 release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -25,11 +26,11 @@ Domain separation is supported for Financial Services Card Operations. Domain se
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works in Financial Services Card Operations
 
-All [Financial Services Operations \(FSO\)](../../fso-common/concept/fso-overview.md) applications are built on top of and use many CSM tables. The key reference tables are the customer tables such as Consumer, Account, and Contact, and these tables are domain-separated.
+All [Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-overview.md) applications are built on top of and use many CSM tables. The key reference tables are the customer tables such as Consumer, Account, and Contact, and these tables are domain-separated.
 
 ## Tables
 
@@ -69,10 +70,10 @@ All tables added in Card Operations are domain-separated:
     -   Document Verification Tasks are assigned to document processor agents, and used in multiple workflows that go beyond credit cards.
     -   Card Disputes Tasks are created for disputed transactions and assigned to card dispute agents, and are used to track the resolution progress for the dispute.
 
-**Note:** Sometimes a ServiceNow® platform feature or application may be able to effectively support service provider use cases even though the domain framework is not being used. In this case, the application may be assigned Basic\*, Standard\*, or Enhanced\* for its domain support level, and include detailed use cases. For example: Before the New York release, Service Catalog had no domain support. But the instance owner was able to configure separate catalogs and items for each customer in a domain-separated instance. This allowed Service Catalog to be used at a **Standard** support level. To learn more, see domain separation [Application levels of support](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+**Note:** Sometimes a ServiceNow® platform feature or application may be able to effectively support service provider use cases even though the domain framework is not being used. In this case, the application may be assigned Basic\*, Standard\*, or Enhanced\* for its domain support level, and include detailed use cases. For example: Before the New York release, Service Catalog had no domain support. But the instance owner was able to configure separate catalogs and items for each customer in a domain-separated instance. This allowed Service Catalog to be used at a **Standard** support level. To learn more, see domain separation Application levels of support.
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

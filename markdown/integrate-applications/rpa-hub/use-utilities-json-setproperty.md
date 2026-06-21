@@ -2,6 +2,7 @@
 title: Use the SetProperty component
 description: Set a property within a JSON object by using the SetProperty component in the RPA Desktop Design Studio. You can also override a property within the JSON object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-utilities-json-setproperty.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties of the SetProperty component, see [Properties of the JSON utilities](../reference/properties-utilities-json.md).
+To configure the properties of the SetProperty component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/properties-utilities-json.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ To configure the properties of the SetProperty component, see [Properties of the
 
 2.  Drag the SetProperty component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the SetProperty component to the corresponding ports of the other components as described in the following table.
 
@@ -133,5 +134,5 @@ Returns the JSON object with the updated or new property value.
 </table>5.  To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[JSON](../concept/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/json.md)
 

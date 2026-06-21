@@ -2,6 +2,7 @@
 title: Create work items for teams in EAP Backlog
 description: Create stories, features, epics, or capabilities for teams to add work to their backlog in Enterprise Agile Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/enterprise-agile-planning/create-work-items-for-teams-in-eap-backlog.html
 release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -29,7 +30,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
     The item type that you see on the screen depends on the configuration for your EAP team. Alternatively, you can choose a different item type from the More options menu.
 
-    ![New work item type options.](../images/eap-new-work-item-options.png)
+    \[Omitted image "eap-new-work-item-options.png"\] Alt text: New work item type options.
 
 4.  On the form, fill in the fields.
 
@@ -46,11 +47,11 @@ You can open the work item from the success message to add more information.
 
 ## What to do next
 
--   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill with Now Assist Context Menu](../../now-assist-spm/task/refine-text-with-write-planning-item-skill.md).
+-   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill with Now Assist Context Menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md).
 
-    This feature requires activating the Write planning item skill of Now Assist for SPM. For more information, see [Configure Now Assist for Strategic Portfolio Management \(SPM\)](../../now-assist-spm/task/configure-now-assist-for-spm.md).
+    This feature requires activating the Write planning item skill of Now Assist for SPM. For more information, see [Configure Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
 
--   [Schedule work items into iterations in EAP Backlog](schedule-work-items-into-iterations-in-eap-backlog.md).
+-   [Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md).
 
-**Parent Topic:**[Manage team backlog in EAP](../concept/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md)
 

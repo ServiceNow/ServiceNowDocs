@@ -2,6 +2,7 @@
 title: Delete a work order task
 description: Work order tasks can be deleted by users with the wm\_admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_DeleteAWorkOrderTask.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -32,5 +33,5 @@ A task cannot be deleted if it has a part requirement with a transfer order. To 
 3.  Select **Delete** from the **Actions** choice list.
 
 
-**Parent Topic:**[Manage work order tasks](../concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

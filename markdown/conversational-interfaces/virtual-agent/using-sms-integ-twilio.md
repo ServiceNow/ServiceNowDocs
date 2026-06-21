@@ -2,6 +2,7 @@
 title: Using Conversational SMS Integration with Twilio
 description: Enable a requester to converse with an agent using the SMS conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/using-sms-integ-twilio.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -35,11 +36,11 @@ As a live agent interacting with a requester over the SMS service channel, you c
 -   Share any URLs as links.
 -   Share any images as attachments.
 
-**Note:** You accept a work item from the SMS conversation in your Agent Workspace Inbox when an administrator has configured the SMS service channel for transfer of chat conversations. For more information, see [Conversational SMS service channel](https://www.servicenow.com/docs/access?context=conversation-sms-service-channel-store-app&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+**Note:** You accept a work item from the SMS conversation in your Agent Workspace Inbox when an administrator has configured the SMS service channel for transfer of chat conversations. For more information, see Conversational SMS service channel.
 
 ## Initiating SMS conversations
 
-As a live agent, you can initiate an SMS conversation with a requester when the Agent-Initiated Messaging Interface application is configured for the SMS messaging channel. By default, the application is configured for agent to initiate SMS conversations with consumers and customer contacts. For more information, see [Initiate messaging conversations from the CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=agent-init-messg-csm-cws&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US) and [Initiate SMS conversations from CSM Agent Workspace](https://www.servicenow.com/docs/access?context=agent-init-sms-csm-ws&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US).
+As a live agent, you can initiate an SMS conversation with a requester when the Agent-Initiated Messaging Interface application is configured for the SMS messaging channel. By default, the application is configured for agent to initiate SMS conversations with consumers and customer contacts. For more information, see Initiate messaging conversations from the CSM Configurable Workspace and Initiate SMS conversations from CSM Agent Workspace.
 
-**Parent Topic:**[Integrating Virtual Agent with Twilio](sms-twilio-store-app.md)
+**Parent Topic:**[Integrating Virtual Agent with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/sms-twilio-store-app.md)
 

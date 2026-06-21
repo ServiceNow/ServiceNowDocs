@@ -2,6 +2,7 @@
 title: Exploring Recommendation Framework
 description: A reusable framework to deliver outcome-based recommendations for a user in a configurable workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/recommendation-framework/explore-recommendation-framework.html
 release: yokohama
 product: Recommendation Framework
 classification: recommendation-framework
@@ -26,9 +27,9 @@ You can configure recommendations in a contextual panel, for example, the **Reco
 
 **Note:** All cards of the same recommendation rule are grouped. For example, for the Similar open incidents rule for an incident in Service Operations Workspace, all relevant incidents are grouped as cards under **Similar open incidents**.
 
-![Recommendations from sidebar](../image/recommendation-panel.png "Recommendations from the sidebar")
+\[Omitted image "recommendation-panel.png"\] Alt text: Recommendations from sidebar
 
-For information on available card groups and their dependencies on recommendation rules, see [Recommendation rules for an incident in Service Operations Workspace](../../service-operations-workspace/reference/recommendation-rules.md).
+For information on available card groups and their dependencies on recommendation rules, see [Recommendation rules for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/recommendation-rules.md).
 
 When you click a card or its record number, detailed information about that card and its actions are displayed in a new tab.
 
@@ -38,9 +39,9 @@ Every card has a primary action and multiple other actions. For every action you
 
 ## Recommendations at the field level
 
-A predicted value is displayed at the field level based on the corresponding recommendation rule. For information about these rules for an incident, see [Recommendation rules for an incident in Service Operations Workspace](../../service-operations-workspace/reference/recommendation-rules.md). When a threshold value is configured, the recommended value can be stamped or auto-populated as the field value. For information about these configurations for an incident, see [Configure Recommendation Framework for an incident in Service Operations Workspace](../../service-operations-workspace/task/configure-rf-properties.md).
+A predicted value is displayed at the field level based on the corresponding recommendation rule. For information about these rules for an incident, see [Recommendation rules for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/recommendation-rules.md). When a threshold value is configured, the recommended value can be stamped or auto-populated as the field value. For information about these configurations for an incident, see [Configure Recommendation Framework for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-rf-properties.md).
 
-![Recommendations at field level](../image/field-recommendation.png "Recommendations at field level")
+\[Omitted image "field-recommendation.png"\] Alt text: Recommendations at field level
 
-**Parent Topic:**[Recommendation Framework](recommendation-framework-landing-page.md)
+**Parent Topic:**[Recommendation Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/recommendation-framework/recommendation-framework-landing-page.md)
 

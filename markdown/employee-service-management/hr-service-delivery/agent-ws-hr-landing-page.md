@@ -2,6 +2,7 @@
 title: HR Service Delivery Agent Workspace \(Classic\)
 description: As an HR agent, you use the HR Service Delivery Agent Workspace to interact with employees, respond to inquiries, and resolve issues quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-landing-page.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -14,8 +15,6 @@ breadcrumb: [HR Service Delivery, Employee Service Management]
 # HR Service Delivery Agent Workspace \(Classic\)
 
 As an HR agent, you use the HR Service Delivery Agent Workspace to interact with employees, respond to inquiries, and resolve issues quickly.
-
-Agent Workspace for HR
 
 **Important:**
 
@@ -50,19 +49,19 @@ Here are some of the key benefits of the HR Agent Workspace.
 
 ## HR Service Delivery Classic HR Service Delivery Agent Workspace
 
-HR Service Delivery Agent Workspace is a configurable service desk application that is based on [Exploring Workspace](https://www.servicenow.com/docs/access?context=learn-about-agent-workspace&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US). This application puts all the tools that you need in one place so that you can assist employees with their needs.
+HR Service Delivery Agent Workspace is a configurable service desk application that is based on Exploring Workspace. This application puts all the tools that you need in one place so that you can assist employees with their needs.
 
 <table id="landing-page-model-table" class="nav-card"><tbody><tr><td>
 
-[Explore ![Learn more about HR Agent Workspace.](../../../common/image/icon-explore.png) Learn more about HR Agent Workspace.](learn-about-agent-ws-hr.md#)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn more about HR Agent Workspace. Learn more about HR Agent Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/learn-about-agent-ws-hr.md)
 
 </td><td>
 
-[Configure ![Plan and configure your implementation.](../../../common/image/icon-set-up.png) Plan and configure your implementation.](configure-agent-ws-hr.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Plan and configure your implementation. Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-agent-ws-hr.md)
 
 </td></tr><tr><td>
 
-[Use ![Learn how to use HR Agent Workspace.](../../../common/image/icon-workspace.png) Learn how to use HR Agent Workspace.](use-agent-ws-hr.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Learn how to use HR Agent Workspace. Learn how to use HR Agent Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/use-agent-ws-hr.md)
 
 </td><td>
 

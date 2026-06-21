@@ -2,6 +2,7 @@
 title: Jumpstart Your Service Operations Workspace - US Public Sector
 description: This Accelerator illustrates a demonstration of the possibilities and capabilities of Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-service-operations-usps.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ This Accelerator illustrates a demonstration of the possibilities and capabiliti
 
 The Jumpstart Your Service Operations Workspace - US Public Sector Accelerator provides Impact customers with an overview of Service Operations Workspace, which aims to provide a unified workspace for day-to-day IT Service Management \(ITSM\) operations. A guided tour of the possibilities and capabilities and leading practices on getting started is included.
 
-For more information on the product, see [https://servicenow.com/docs/csh?topicname=sow-landing-page.html&amp;version=latest](https://servicenow.com/docs/csh?topicname=sow-landing-page.html&version=latest)
+For more information on the product, see [https://www.servicenow.com/docs/access?context=sow-landing-page](https://www.servicenow.com/docs/access?context=sow-landing-page)
 
 **Note:** This Accelerator is available in Guided, Advanced, and Total Packages.
 

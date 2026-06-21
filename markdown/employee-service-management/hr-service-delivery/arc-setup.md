@@ -2,6 +2,7 @@
 title: Setting up the Anonymous Report Center
 description: Set up and configure the Anonymous Report Center \(ARC\) to provide your employees a way to submit complaints anonymous to the agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/arc-setup.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Anonymous Report Center \(ARC\), Employee Relations cases, Case and
 
 Set up and configure the Anonymous Report Center \(ARC\) to provide your employees a way to submit complaints anonymous to the agent.
 
-Install and activate the Anonymous Report Center \(com.sn\_anonymous\_report\_center\) plugin to use the Anonymous Report Center \(ARC\) if you have the admin role. For more information, see [Activate the Anonymous Report Center](../task/arc-activate.md).
+Install and activate the Anonymous Report Center \(com.sn\_anonymous\_report\_center\) plugin to use the Anonymous Report Center \(ARC\) if you have the admin role. For more information, see [Activate the Anonymous Report Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/arc-activate.md).
 
 |Role|Description|Contains roles|
 |----|-----------|--------------|
@@ -32,10 +33,10 @@ The following system properties are available:
 
     -   google.captcha.secret
     -   google.captcha.site\_key
-    You must also set up an enterprise Google captcha account. For more information, see [Configure Google reCAPTCHA for the password reset process](https://www.servicenow.com/docs/access?context=t_ConfigureGoogleRecaptcha&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+    You must also set up an enterprise Google captcha account. For more information, see Configure Google reCAPTCHA for the password reset process.
 
 -   Allow anonymous user access to the anonymously created cases using secret key. \(sn\_anon\_rc.allow\_anonymous\_case\_access\): Determines if anonymous users can access the anonymous cases they submitted using a secret key.
 
-    **Note:** A report key \(optional\) can be generated that allows the person filing the complaint to track and view details about the progress of the anonymous case and respond to any follow up questions. Without the report key, the person who made the anonymous report cannot access their report. HR agents that have access to the Anonymous Report Center \(ARC\) and admin has access. For more information, see [Setting up the Anonymous Report Center](arc-setup.md).
+    **Note:** A report key \(optional\) can be generated that allows the person filing the complaint to track and view details about the progress of the anonymous case and respond to any follow up questions. Without the report key, the person who made the anonymous report cannot access their report. HR agents that have access to the Anonymous Report Center \(ARC\) and admin has access. For more information, see [Setting up the Anonymous Report Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/arc-setup.md).
 
 

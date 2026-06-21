@@ -2,6 +2,7 @@
 title: Receive employee data from UKG to the Employee Center Pro Kiosk
 description: Map the employee IDs between the UKG system and the Employee Center Pro Kiosk to see employee details in your organizational kiosks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/user-map-kronos-kiosk.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation

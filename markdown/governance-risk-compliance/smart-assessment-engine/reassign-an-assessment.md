@@ -2,6 +2,7 @@
 title: Reassign an assessment
 description: Reassign assessment to redirect them to different users, enabling for flexible task management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/smart-assessment-engine/reassign-an-assessment.html
 release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -30,11 +31,11 @@ You can reassign an assessment to anyone if you have the assessment reassign \[s
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **Workspaces** &gt; **Compliance Workspace**
-    2.  Select the list icon \(![List icon.](../../grc-workspace-vrm/image/icon-tprm-ws-list.png)\).
+    2.  Select the list icon \(\[Omitted image "icon-tprm-ws-list.png"\] Alt text: List icon.\).
     3.  Navigate to **Control attestations** &gt; **Smart Assessments**.
 2.  Select the assessments that you want to reassign.
 
-3.  To reassign the assessment, on the top pane select more action icon ![](../../../reuse/icons/product-icons/ellipsis-vertical-outline-24.svg) and select **Reassign**.
+3.  To reassign the assessment, on the top pane select more action icon \[Omitted image "ellipsis-vertical-outline-24.svg"\] and select **Reassign**.
 
     A reassign dialog box appears.
 

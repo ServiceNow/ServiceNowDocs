@@ -2,6 +2,7 @@
 title: Add other employment details
 description: Update the alumni profile with additional employment details to ensure an accurate career history and provide tailored job opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/add-other-emp-details.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -52,7 +53,7 @@ Role required: sn\_asc.alumni
 
 ## What to do next
 
--   Use ![](../image/alumni-plus-icon.png) icon to add additional employment details.
--   Use ![Edit row icon.](../../legal-digital-forensics/image/rename-icon.png) to edit the existing employment details.
+-   Use \[Omitted image "alumni-plus-icon.png"\] icon to add additional employment details.
+-   Use \[Omitted image "rename-icon.png"\] Alt text: Edit row icon. to edit the existing employment details.
 -   Use the **Delete** button to delete an existing employment information.
 

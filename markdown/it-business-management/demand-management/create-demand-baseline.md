@@ -2,6 +2,7 @@
 title: Create baseline of a demand
 description: Create financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/create-demand-baseline.html
 release: yokohama
 product: Demand Management
 classification: demand-management
@@ -29,15 +30,15 @@ You can create as many financial baselines as necessary and review the financial
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d298759e83">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d45396e83">
 
 Option
 
-</th><th align="left" id="d298759e86">
+</th><th align="left" id="d45396e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d298759e92">
+</th></tr></thead><tbody><tr><td id="d45396e92">
 
 **From a related link**
 
@@ -48,7 +49,7 @@ Steps
 3.  Click **Save**.
 
 
-</td></tr><tr><td id="d298759e119">
+</td></tr><tr><td id="d45396e119">
 
 **From a related list**
 
@@ -62,8 +63,8 @@ Steps
 
 </td></tr></tbody>
 </table>
--   **[Compare financial baselines of a demand](compare-baselines-of-demand.md)**  
+-   **[Compare financial baselines of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/compare-baselines-of-demand.md)**  
 You can compare baselines to review the variances in the financial data of a demand and see what changed.
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_CreatingDemands.md)
 

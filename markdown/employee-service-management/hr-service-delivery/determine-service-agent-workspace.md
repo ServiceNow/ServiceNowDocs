@@ -2,6 +2,7 @@
 title: Auto determination of HR service in HR Service Delivery Agent Workspace
 description: Auto determine the correct HR service for a case in HR Service Delivery Agent Workspace. Enable an HR agent to transfer the case to the appropriate HR service rather than having to spend significant time manually triaging cases to appropriate HR services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/determine-service-agent-workspace.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -34,7 +35,7 @@ The HR Case Classification solution definition is configured and the predictive 
 -   There are 10000 records of HR case study matching the filters defined in the solution definition.
 -   The **glide.platform\_ml.auto\_training.enabled** system property is set to true.
 
-**Note:** Auto training does not happen if any one of the preceding conditions is not met. In such a case, [Manually train the HR predictive model](../task/hr-predictive-intelligence-train.md). Navigate to the **HR AI configuration** module, open the HR Case Classification record, and map the manually configured solution definition.
+**Note:** Auto training does not happen if any one of the preceding conditions is not met. In such a case, [Manually train the HR predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md). Navigate to the **HR AI configuration** module, open the HR Case Classification record, and map the manually configured solution definition.
 
-**Parent Topic:**[Machine learning solutions for HR Service Delivery Agent Workspace](agent-ws-hr-prediction-service.md)
+**Parent Topic:**[Machine learning solutions for HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-prediction-service.md)
 

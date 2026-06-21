@@ -2,6 +2,7 @@
 title: Unmatched API extension classes
 description: The CMDB CI Class Models store app adds or updates classes for unmatched APIs \(application programming interface\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-unmatched.html
 release: yokohama
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -19,7 +20,7 @@ The CMDB CI Class Models app adds class models that extend the CMDB class hierar
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Unmatched APIs
 
@@ -29,7 +30,7 @@ API endpoints that are not structured well enough to populate the API \[cmdb\_ci
 
 This section lists the classes that the CMDB CI Class Models store app adds or updates.
 
-CMDB CI Class Models: Release 1.49.0 adds the following class for unmatched API endpoints. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+CMDB CI Class Models: Release 1.49.0 adds the following class for unmatched API endpoints. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_h2r_d5z_ryb"><thead><tr><th>
 

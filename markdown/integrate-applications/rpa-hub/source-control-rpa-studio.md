@@ -2,6 +2,7 @@
 title: Resolve conflicts when merging changes from multiple sources of the same activity
 description: Resolve conflicts when merging changes from multiple sources of the same activity by using the Source Control option in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/source-control-rpa-studio.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,9 +18,9 @@ Resolve conflicts when merging changes from multiple sources of the same activit
 
 ## Before you begin
 
-If you're not connected to a ServiceNow instance, click the Connection Manager icon under the **Design** tab to connect to an existing instance. For more information, see [Set up RPA Desktop Design Studio](set-up-rpa-studio.md).
+If you're not connected to a ServiceNow instance, click the Connection Manager icon under the **Design** tab to connect to an existing instance. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/set-up-rpa-studio.md).
 
-Create an activity. For more information, see [Create and use an activity in RPA Desktop Design Studio](configure-activity-rpa-studio.md).
+Create an activity. For more information, see [Create and use an activity in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-activity-rpa-studio.md).
 
 Role required: none
 
@@ -33,28 +34,28 @@ Role required: none
 
 4.  In the COMPARE PROCESSES dialog box, under the Remote section, select any of the following source types to open the automation project from the **Source** field.
 
-<table id="choicetable_kpm_xyv_prb"><thead><tr><th align="left" id="d558144e137">
+<table id="choicetable_kpm_xyv_prb"><thead><tr><th align="left" id="d97788e137">
 
 Option
 
-</th><th align="left" id="d558144e140">
+</th><th align="left" id="d97788e140">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d558144e146">
+</th></tr></thead><tbody><tr><td id="d97788e146">
 
 **Remote**
 
 </td><td>
 
-1.  Click the Open Project icon \(![Open Project icon.](../image/connection-manager-icon.png)\).
+1.  Click the Open Project icon \(\[Omitted image "connection-manager-icon.png"\] Alt text: Open Project icon.\).
 2.  In the Open Project dialog box, select a package name and a version.
 3.  Click **Open**.
 4.  Click **Save** to save the Project in the default location.
 5.  From the Select a Document version list, select a package version.
 
 
-</td></tr><tr><td id="d558144e185">
+</td></tr><tr><td id="d97788e185">
 
 **Local**
 
@@ -68,7 +69,7 @@ Action
 </td></tr></tbody>
 </table>    The changes are highlighted in the COMPARE PROCESSES dialog box as shown in the following example. If changes are added, they appear in green. If the changes are removed, they appear in red. If the changes are modified, they appear in yellow.
 
-    ![Changes highlighted in the Compare Processes dialog box.](../image/confirm-processes-source-control.png "Changes highlighted in the Compare Processes dialog box")
+    \[Omitted image "confirm-processes-source-control.png"\] Alt text: Changes highlighted in the Compare Processes dialog box.
 
 5.  Under the Local section, select any of the following options for resolving conflicts from the **In conflict** field:
 
@@ -79,5 +80,5 @@ Action
 7.  Click **Merge with current**.
 
 
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-studio-use.md)
 

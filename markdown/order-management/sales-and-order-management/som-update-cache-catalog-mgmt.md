@@ -2,13 +2,14 @@
 title: Update a cache in Product Catalog Management
 description: Regenerate the cache associated with product offerings or product offering catalogs after changing the Unit of Measure in a product offering or category-related hierarchies in a product offering catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-update-cache-catalog-mgmt.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Caching in Product Catalog Management, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Caching in Product Catalog Management, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Update a cache in Product Catalog Management
@@ -23,15 +24,15 @@ Role required: sn\_prd\_pm.product-catalog\_admin, sn\_prd\_pm.product-catalog\_
 
 1.  Navigate to the record that you updated.
 
-<table id="choicetable_tty_nql_p1c"><thead><tr><th align="left" id="d30136e59">
+<table id="choicetable_tty_nql_p1c"><thead><tr><th align="left" id="d29862e59">
 
 Feature change
 
-</th><th align="left" id="d30136e62">
+</th><th align="left" id="d29862e62">
 
 Navigate to
 
-</th></tr></thead><tbody><tr><td id="d30136e68">
+</th></tr></thead><tbody><tr><td id="d29862e68">
 
 **Unit of Measure \(UOM\) for a product offering**
 
@@ -41,7 +42,7 @@ Navigate to
 2.  Select the product offering record that you just updated.
 
 
-</td></tr><tr><td id="d30136e98">
+</td></tr><tr><td id="d29862e98">
 
 **Product offering catalog changes-   Catalog to category
 -   Category to sub-category

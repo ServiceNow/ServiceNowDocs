@@ -2,6 +2,7 @@
 title: Alert tags
 description: Alert tags allow consolidation for all normalized fields and improve the admin experience to transform and normalize alert fields \(key/value\)​ enabling reuse of normalized fields across different sources.​ This improves alert quality for correlation and provides more out-of-the-box TBAC \(Tag Based Automatic Correlation\) definitions​.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/alert-tags.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -21,5 +22,5 @@ In some cases, the same information may exist under different field names across
 
 Alert tags field appears in the Alerts form. These tags are created by Event Rules and in Event mapping and are saved in the alert tags' table \[em\_alert\_tags\]. The naming convention used to create key/value pairs is t\_&lt;tag name&gt;.​ This enables reusing tags in the event rules by allowing users to select tags that were previously defined.​ When new alert tags are defined, TBAC \(Tag Based Alert Clustering\) tags are automatically created.​ Using these TBAC tags, you can create new TBAC alert clustering definitions from the new source of tags​.
 
-**Parent Topic:**[Processing Events](processing-events.md)
+**Parent Topic:**[Processing Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/processing-events.md)
 

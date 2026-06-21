@@ -2,6 +2,7 @@
 title: Add work items
 description: Create work items to be added to the process steps involved in the product purchase cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/add-work-items.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,5 +38,5 @@ Role required: sn\_shop.procurement\_administrator
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Shopping Hub process visibility configuration](process-visibility-configuration.md)
+**Parent Topic:**[Shopping Hub process visibility configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/process-visibility-configuration.md)
 

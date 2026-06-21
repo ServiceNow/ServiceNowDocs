@@ -2,6 +2,7 @@
 title: Update a previously installed AES version
 description: If you previously installed App Engine Studio \(AES\) from the ServiceNow Store and if a new version is available, then update the version in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/update-aes-previously-downloaded.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Search for `App Engine Studio`.
 
-    ![Install the AES product](../image/aes-activate-plugin-as1.png)
+    \[Omitted image "aes-activate-plugin-as1.png"\] Alt text: Install the AES product
 
 3.  Select the **Proceed to update** button.
 
@@ -40,5 +41,5 @@ Role required: admin
 
 App Engine Studio automatically updates on the instance.
 
-**Parent Topic:**[AES and the ServiceNow Store](../concept/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-installation-store.md)
 

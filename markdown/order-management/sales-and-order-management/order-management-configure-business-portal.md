@@ -2,13 +2,14 @@
 title: Configuring the Business Portal
 description: Admins can configure the Business Portal \(sn\_b2b\_portal\) so that customer can browse products and create orders in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/order-management-configure-business-portal.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring the Business Portal
@@ -27,11 +28,11 @@ Admins can configure the Business Portal \(sn\_b2b\_portal\) so that customer ca
 
     4.  UI Components for Customer Portals: sn\_ciwf\_ui\_cmpnt
     5.  Sales Cart plugin: sn\_sales\_cart
-2.  [Enable the Business Portal](../task/order-management-enable-business-portal.md)
+2.  [Enable the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/order-management-enable-business-portal.md)
 
     Enable the Business Portal \(sn\_b2b\_portal\) so customers can browse products and create orders.
 
-3.  \(Optional\) [Install apps for self-service order case management](activating-self-service-order-case-management-business-portal.md)
+3.  \(Optional\) [Install apps for self-service order case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/activating-self-service-order-case-management-business-portal.md)
 
     Install the necessary plugins based on the self-service options that you want to offer customers for managing order cases on the Business Portal.
 

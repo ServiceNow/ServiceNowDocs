@@ -2,7 +2,10 @@
 title: Create and delete a work item using a recommendation
 description: Create an actionable Strategic Planning Workspace \(SPM\) or Collaborative Work Management \(CWM\) work item using impact squad-based or rule-based recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/create-and-delete-a-work-item-using-a-recommendation.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-02-24"
 reading_time_minutes: 1
@@ -39,7 +42,7 @@ Role required: Impact Platform Owner, Impact Portfolio Owner
 
 7.  On the work item form, fill in the fields.
 
-    For more information, see [Planning item type form](https://www.servicenow.com/docs/access?context=new-planning-item-planning-org-form&version=yokohama&pubname=yokohama-it-business-management&ft:locale=en-US).
+    For more information, see .
 
 8.  Select **Convert**.
 

@@ -2,6 +2,7 @@
 title: Compare to peer instances
 description: You can compare the local instance to any other remote instance and commit any current versions from the remote instance on your development instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/t\_CompareToAPeerInstance.html
 release: yokohama
 product: Team Development
 classification: team-development
@@ -25,7 +26,7 @@ To compare the local instance to a peer instance:
 
 ## Procedure
 
-1.  Ensure that the peer instance is [defined as a remote instance](t_DefineARemoteInstance.md).
+1.  Ensure that the peer instance is [defined as a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/t_DefineARemoteInstance.md).
 
 2.  Navigate to **Team Development** &gt; **Team Dashboard**.
 
@@ -37,7 +38,7 @@ To compare the local instance to a peer instance:
 
     The instance comparison record opens.
 
-    ![Compare instance](../image/CompareInstance.png)
+    \[Omitted image "CompareInstance.png"\] Alt text: Compare instance
 
 6.  Review the On Remote and not Local related list, which shows the customized records where the current version on the peer instance is not on the local instance.
 
@@ -46,5 +47,5 @@ To compare the local instance to a peer instance:
     -   Compare the current remote version to the current local version by right-clicking a row and selecting **Compare to Current**.
     -   Load the current remote version as the current local version by right-clicking a row and selecting **Load This Change**.
 
-**Parent Topic:**[Team Development](../concept/c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

@@ -2,11 +2,14 @@
 title: Log in to the Business Portal for the first time
 description: Use your user ID and temporary password to login to the business portal for the first time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_LogInTo-businessPortalFirstTime.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Customer contact self-registration on Business Portal, Using the Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Customer contact self-registration on Business Portal, Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Log in to the Business Portal for the first time

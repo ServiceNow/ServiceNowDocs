@@ -2,6 +2,7 @@
 title: Guided tour triggers
 description: Each callout in a guided tour step has a defined action that triggers the next step to occur. You specify the trigger for each callout. Only applicable triggers appear based on the UI element the callout points to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/guided-tour-triggers.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
@@ -97,5 +98,5 @@ Double click
 Progresses to the next step when the user double clicks an element.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Guided Tours](../concept/configuring-guided-tours.md)
+</table>**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/configuring-guided-tours.md)
 

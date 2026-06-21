@@ -2,6 +2,7 @@
 title: Install Service Reliability Management from Admin Center or ServiceNow Store
 description: Install the Service Reliability Management \(SRM\) application from the Admin Center or ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-install-sr-store-app.html
 release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
@@ -43,18 +44,18 @@ Roles and demo data are installed with SRM. The demo data includes templates tha
 
     **Note:** If any dependencies are red on the app store listing, select the row to open the dependent app and install it. If the dependent app is already installed but still appears in red, you can get or reopt it as needed.
 
-    ![To install the Service Reliability Management application, first confirm that all dependencies are resolved.](../image/sr-install-store.png)
+    \[Omitted image "sr-install-store.png"\] Alt text: To install the Service Reliability Management application, first confirm that all dependencies are resolved.
 
-    The example shows two unresolved dependencies. Before installing the app, resolve the issues by selecting the two dependencies.![Select the unresolved dependencies to resolve them before installing the application from the ServiceNow store.](../image/sr-install-store2.png)
+    The example shows two unresolved dependencies. Before installing the app, resolve the issues by selecting the two dependencies.\[Omitted image "sr-install-store2.png"\] Alt text: Select the unresolved dependencies to resolve them before installing the application from the ServiceNow store.
 
     Demo data comprises the sample records that describe application features for the common use cases. Demo data is loaded when you first install the application on a development or test instance.
 
     Following installation, the **Service Reliability Management** card can be used to configure SRM.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Previous topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Next topic:**[Assign an administrator to Service Reliability Management](sr-assign-admins.md)
+**Next topic:**[Assign an administrator to Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-assign-admins.md)
 

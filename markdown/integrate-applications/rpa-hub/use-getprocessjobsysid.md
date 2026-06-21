@@ -2,6 +2,7 @@
 title: Use the GetProcessJobSysID component
 description: Retrieves the process job SysID of a process job record when an automation gets executed by a robot. By using the GetProcessJobSysID component in the RPA Desktop Design Studio application, you can identify when the robot is in a free state to execute a process or you can identify the state of the process job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-getprocessjobsysid.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-If a robot is working on an automation, a process job record for the execution is created in RPA Hub. The robot is then moved to the Busy state. For more information on the different states of a robot, see [Robot states form](../../rpa-hub/task/edit-robot.md#table_dvx_x3l_rrb). If you try to execute another automation in the Busy state against this robot, the automation doesn’t execute and a process job record is created in the Skipped state. Use the process job SysID to identify when the robot is free and to assign the skipped process jobs to the robot for execution.
+If a robot is working on an automation, a process job record for the execution is created in RPA Hub. The robot is then moved to the Busy state. For more information on the different states of a robot, see [Robot states form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/edit-robot.md). If you try to execute another automation in the Busy state against this robot, the automation doesn’t execute and a process job record is created in the Skipped state. Use the process job SysID to identify when the robot is free and to assign the skipped process jobs to the robot for execution.
 
 The process job SysID can be a passed as an input parameter to a subflow when the subflow is used to check the completion of a process job. When the process job is completed, you can start a new process on the same robot.
 
@@ -48,5 +49,5 @@ You can’t retrieve the process job SysID by running the GetProcessJobSysID com
     You can also run the automation by selecting **Run** from the **Design** tab.
 
 
-**Parent Topic:**[Common](../concept/common_components.md)
+**Parent Topic:**[Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/common_components.md)
 

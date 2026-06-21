@@ -2,6 +2,7 @@
 title: Use a flow or subflow in Oracle Financial Cloud \(Outbound\)
 description: A flow or subflow can be executed in Oracle Financial Cloud using the Workflow Studio. Follow these steps to run a flow or subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/source-to-pay-integration-framework/use-flow-subflow-oracle-fin-cloud.html
 release: yokohama
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

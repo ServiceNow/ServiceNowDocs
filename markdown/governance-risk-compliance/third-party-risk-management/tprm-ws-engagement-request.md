@@ -2,11 +2,12 @@
 title: Define a VRM engagement
 description: Define an engagement so that you can assess the risks that are associated with the services or products offered by a third party. Engagements can also represent the products or services that are provided to the parent third party, either directly or from departments, partners, or subsidiaries that you can also assess for risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ws-engagement-request.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Work in the VRM classic UI, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -119,7 +120,7 @@ Engagement tier
 
 </td><td>
 
-The tier used for this engagement. See [VRM third-party risk tiering assessments](../../grc-workspace-vrm/reference/manage-risk-tiering-assessments.md) for details of how the tier is determined.
+The tier used for this engagement. See [VRM third-party risk tiering assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/manage-risk-tiering-assessments.md) for details of how the tier is determined.
 
 </td></tr><tr><td>
 
@@ -171,7 +172,7 @@ Latitude and Longitude
 
 </td><td>
 
-The **Latitude** and **Longitude** values are used to mark the location on the Risk concentration map. See [TPRM Risk concentration map](../../grc-workspace-vrm/concept/tprm-ws-risk-concentration-map.md).
+The **Latitude** and **Longitude** values are used to mark the location on the Risk concentration map. See [TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ws-risk-concentration-map.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

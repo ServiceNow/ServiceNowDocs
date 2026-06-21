@@ -2,6 +2,7 @@
 title: Exploring Document Intelligence
 description: Document Intelligence helps you to quickly and accurately classify and extract information from documents using artificial intelligence \(AI\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/document-intelligence/exploring-docintel.html
 release: yokohama
 product: Document Intelligence
 classification: document-intelligence
@@ -25,7 +26,7 @@ With Document Intelligence \(DocIntel\) you can process single or multi-page doc
 
 The following diagram shows how document extraction works in Document Intelligence.
 
-![Diagram showing how Document Intelligence activities train the AI models.](../image/doc-intel-flow.png "Document Intelligence flow")
+\[Omitted image "doc-intel-flow.png"\] Alt text: Diagram showing how Document Intelligence activities train the AI models.
 
 In this workflow:
 
@@ -36,7 +37,7 @@ In this workflow:
 
 ## Document Intelligence benefits
 
-![Diagram showing the phased approach to automation using Document Intelligence.](../image/doc-intel-benefits.png "Benefits of Document Intelligence")
+\[Omitted image "doc-intel-benefits.png"\] Alt text: Diagram showing the phased approach to automation using Document Intelligence.
 
 Document Intelligence provides the following benefits.
 
@@ -58,13 +59,13 @@ Start fast with a no-code set-up that enables data extraction from many document
 
 </td><td>
 
-[Set up document extraction use cases](set-up-document-extraction-use-cases.md)
+[Set up document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/set-up-document-extraction-use-cases.md)
 
 </td><td>
 
-[DocIntel Admin \[sn\_docintel.admin\]](../reference/document-intelligence-user-roles.md#)
+[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Manager \[sn\_docintel.manager\]](../reference/document-intelligence-user-roles.md#)
+ [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -72,13 +73,13 @@ Enable categorization for any type of document you define.
 
 </td><td>
 
-[Set up document classification use cases](set-up-document-classification-use-cases.md)
+[Set up document classification use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/set-up-document-classification-use-cases.md)
 
 </td><td>
 
-[DocIntel Admin \[sn\_docintel.admin\]](../reference/document-intelligence-user-roles.md#)
+[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Manager \[sn\_docintel.manager\]](../reference/document-intelligence-user-roles.md#)
+ [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -86,13 +87,13 @@ Automate intelligently with responsible, feedback-driven AI for continual learni
 
 </td><td>
 
-[Configure data extraction modes](../task/configure-data-extraction-modes.md)
+[Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/configure-data-extraction-modes.md)
 
 </td><td>
 
-[DocIntel Admin \[sn\_docintel.admin\]](../reference/document-intelligence-user-roles.md#)
+[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Manager \[sn\_docintel.manager\]](../reference/document-intelligence-user-roles.md#)
+ [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -100,13 +101,13 @@ Seamlessly integrate document processing steps into workflows​.
 
 </td><td>
 
-[Integrating Document Intelligence with other applications](integrating-docintel.md)
+[Integrating Document Intelligence with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/integrating-docintel.md)
 
 </td><td>
 
-[DocIntel Admin \[sn\_docintel.admin\]](../reference/document-intelligence-user-roles.md#)
+[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Manager \[sn\_docintel.manager\]](../reference/document-intelligence-user-roles.md#)
+ [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -114,13 +115,13 @@ Accelerate extraction of structured and semi-structured documents such as forms,
 
 </td><td>
 
-[Extract fields using the Document Intelligence workspace](doc-intel-workspace.md#)
+[Extract fields using the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/doc-intel-workspace.md)
 
 </td><td>
 
-[DocIntel Creation Agent \[sn\_docintel.creation\_agent\]](../reference/document-intelligence-user-roles.md#)
+[DocIntel Creation Agent \[sn\_docintel.creation\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]](../reference/document-intelligence-user-roles.md#)
+ [DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -128,13 +129,13 @@ Accelerate classification of single and multi-page documents.
 
 </td><td>
 
-[Classify documents using the Document Intelligence workspace](use-the-docintel-workspace-to-classify.md#)
+[Classify documents using the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/use-the-docintel-workspace-to-classify.md)
 
 </td><td>
 
-[DocIntel Creation Agent \[sn\_docintel.creation\_agent\]](../reference/document-intelligence-user-roles.md#)
+[DocIntel Creation Agent \[sn\_docintel.creation\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]](../reference/document-intelligence-user-roles.md#)
+ [DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr></tbody>
 </table>

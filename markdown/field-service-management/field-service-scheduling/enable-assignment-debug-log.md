@@ -2,11 +2,12 @@
 title: Display the task assignment debug log
 description: Display information from the task assignment debug log in the Confirm Assignment pop-up window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/enable-assignment-debug-log.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Assigning work order tasks to agents using dynamic scheduling, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
 ---
@@ -38,5 +39,5 @@ The task assignment debug log information is stored in the Log \[syslog\] table.
     The Confirm Assignment pop-up window displays the debug logs for each of the selected tasks. Click the task to collapse or expand this information.
 
 
-**Parent Topic:**[Assigning work order tasks to agents using dynamic scheduling](../concept/using-dynamic-scheduling.md)
+**Parent Topic:**[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
 

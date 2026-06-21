@@ -2,6 +2,7 @@
 title: HR Service Delivery Integration with Cornerstone OnDemand
 description: The ServiceNow HR Service Delivery Integration with Cornerstone OnDemand application enables you to display relevant learning courses for employees as part of their To-do tasks in the ServiceNow Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-cornerstone-int.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ Cornerstone OnDemand is a learning system that hosts learning videos, training, 
 
 ## Setting up the application
 
-To set up the HR Service Delivery Integration with Cornerstone OnDemand application, you must first activate the HR Service Delivery Integration with Cornerstone OnDemand plugin \[sn\_hr\_cornerstone\] from ServiceNow Store. This plugin activates Cornerstone spoke in IntegrationHub and Enterprise Service Management Integrations Framework. Next you must set up the Cornerstone spoke in IntegrationHub. For details on how to complete the set up, refer to [Setting up HR Service Delivery Integration with Cornerstone OnDemand](../task/set-up-cornerstone.md).
+To set up the HR Service Delivery Integration with Cornerstone OnDemand application, you must first activate the HR Service Delivery Integration with Cornerstone OnDemand plugin \[sn\_hr\_cornerstone\] from ServiceNow Store. This plugin activates Cornerstone spoke in IntegrationHub and Enterprise Service Management Integrations Framework. Next you must set up the Cornerstone spoke in IntegrationHub. For details on how to complete the set up, refer to [Setting up HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-cornerstone.md).
 
 ## Using Enterprise Service Management Integrations Framework
 
@@ -37,15 +38,15 @@ On clicking the learning task in Employee Center, the employee is navigated to C
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure ![Plan and configure your implementation.](../../../common/image/icon-set-up.png) Plan and configure your implementation.](../task/set-up-cornerstone.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Plan and configure your implementation. Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-cornerstone.md)
 
 </td><td>
 
-[Reference ![Get details about components like fields, tables, and properties.](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](../reference/reference-ondemand.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components like fields, tables, and properties. Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/reference-ondemand.md)
 
 </td></tr></tbody>
 </table>

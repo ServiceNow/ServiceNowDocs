@@ -2,6 +2,7 @@
 title: When to use Team Development
 description: Team Development allows multiple developers to work on applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/r\_WhenToUseTeamDevelopment.html
 release: yokohama
 product: Team Development
 classification: team-development
@@ -66,5 +67,5 @@ Consider uploading an application to the ServiceNow Store to share it with other
  **Note:** If used with team development, publish applications only from a parent instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Team Development](../concept/c_TeamDevelopment.md)
+</table>**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

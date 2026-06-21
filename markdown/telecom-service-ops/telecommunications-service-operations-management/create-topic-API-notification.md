@@ -2,6 +2,7 @@
 title: Create a topic
 description: Create a topic and publish the incoming notifications from the external system to the topic. By creating the topics, subscribers can select the topics to which they want to subscribe.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecommunications-service-operations-management/create-topic-API-notification.html
 release: yokohama
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -31,7 +32,7 @@ You can create topics either by manually typing the external message details or 
 
 2.  Select **New**.
 
-    If you’ve integrated with an external system, you can select **Get Topics** to get the available topics automatically. This action triggers the Event Alarm Notification API subflow. To learn more about the functions that enable you to query and manipulate records in the topic, see [TopicUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=TopicUtilOOBAPIScoped&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+    If you’ve integrated with an external system, you can select **Get Topics** to get the available topics automatically. This action triggers the Event Alarm Notification API subflow. To learn more about the functions that enable you to query and manipulate records in the topic, see .
 
 3.  On the form, fill in the fields.
 
@@ -105,5 +106,5 @@ A topic is created.
 
 You can create the topic subscription according to the customer requirement.
 
-**Parent Topic:**[Handling the external events using Telecommunications API notification](../concept/telecommunications-api-notification.md)
+**Parent Topic:**[Handling the external events using Telecommunications API notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
 

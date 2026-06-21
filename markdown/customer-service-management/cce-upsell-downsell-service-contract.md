@@ -2,7 +2,10 @@
 title: Upsell or Downsell a service contract line
 description: Upsell or downsell a service contract line on the CSM Configurable Workspace. You can reduce or increase the quantities of the products specified in the service contract line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-upsell-downsell-service-contract.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-06-25"
 reading_time_minutes: 1
@@ -36,7 +39,7 @@ Role required:
 
 7.  Select the start date of the new service contract line from the **Effective from** field.
 
-    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](../concept/create-cont-ent-workflows-csm.md#section_qp4_rxv_tcc).
+    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to upsell or downsell the service contract line is created. You can select the quote number from the confirmation message to view the quote line items. The quote is approved and the status changes to **Complete** to create an order.
     -   If the selected target entity is an order, an order to upsell or downsell the service contract line is created. You can select the order number from the confirmation message to view the order line items.

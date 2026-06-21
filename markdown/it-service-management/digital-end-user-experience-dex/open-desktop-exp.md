@@ -2,6 +2,7 @@
 title: Open Desktop Assistant
 description: Open or log in to Desktop Assistant to get an easy access to ServiceNow functionalities such as your applications, device health check, your requests, network speed of your system, and Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/open-desktop-exp.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Open or log in to Desktop Assistant to get an easy access to ServiceNow function
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](install-app-device-health.md) and [Download and install Desktop Assistant](download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Verify that the OAuth registry record for Desktop Assistant is active.
 
@@ -27,11 +28,11 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
 If you see the `Incompatibility application version detected` message, contact the administrator.
 
-![Message showing version incompatibility.](../image/dex-da-incompatibility.png)
+\[Omitted image "dex-da-incompatibility.png"\] Alt text: Message showing version incompatibility.
 
 ## Procedure
 
-1.  From your system tray, select and hold \(or right-click\) the Desktop Assistant icon \(![Desktop Experience icon that opens Desktop Assistant](../image/icon-desktop-exp.png)\) and then select **Open**.
+1.  From your system tray, select and hold \(or right-click\) the Desktop Assistant icon \(\[Omitted image "icon-desktop-exp.png"\] Alt text: Desktop Experience icon that opens Desktop Assistant\) and then select **Open**.
 
 2.  Select **Sign in**.
 
@@ -40,17 +41,17 @@ If you see the `Incompatibility application version detected` message, contact t
     -   loginHeader
     -   loginBody
     -   companyLogoSvg
-    ![Login page to sign in to Desktop Assistant.](../image/desktop-exp-login-1.png)
+    \[Omitted image "desktop-exp-login-1.png"\] Alt text: Login page to sign in to Desktop Assistant.
 
 3.  In the **Instance URL** field, enter the ServiceNow instance URL.
 
-    ![Page where you can change the instance URL.](../image/desktop-exp-change-url.png)
+    \[Omitted image "desktop-exp-change-url.png"\] Alt text: Page where you can change the instance URL.
 
 4.  Select **Sign in**.
 
     The authentication window opens.
 
-    ![Login page where you can enter the username and password.](../image/desktop-exp-login-2.png)
+    \[Omitted image "desktop-exp-login-2.png"\] Alt text: Login page where you can enter the username and password.
 
     If you can't remember your login details, use the **Forgot password** feature to reset your password.
 
@@ -61,19 +62,19 @@ If you see the `Incompatibility application version detected` message, contact t
         -   Select **Log in**.
         -   Allow Desktop Assistant to connect to your ServiceNow account by selecting **Allow**.
 
-            **Note:** To have an SSO login, you should set up the SSO provider and configure SSO in the instance. To learn more about configuring SSO, see [Configure OAuth details](configure-oauth-details.md).
+            **Note:** To have an SSO login, you should set up the SSO provider and configure SSO in the instance. To learn more about configuring SSO, see [Configure OAuth details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/configure-oauth-details.md).
 
     -   When you have Single Sign-On \(SSO\):
         -   Select the **Login with SSO** link.
 
-            ![Login page where you can enter the user id.](../image/desktop-exp-login-sso-1.png)
+            \[Omitted image "desktop-exp-login-sso-1.png"\] Alt text: Login page where you can enter the user id.
 
         -   Enter your user ID in the **User ID** field.
         -   Select **Submit**.
 
             You’re redirected to the SSO login screen.
 
-            ![The SSO login page where you can enter the username and password.](../image/desktop-exp-login-sso-2.png)
+            \[Omitted image "desktop-exp-login-sso-2.png"\] Alt text: The SSO login page where you can enter the username and password.
 
         -   Enter your user name and password in the **User name** and **Password** field.
         -   Select **Sign in**.

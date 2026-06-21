@@ -2,6 +2,7 @@
 title: Enable knowledge harvesting
 description: Configure knowledge harvesting from a community to convert unstructured conversations to structured knowledge articles and make the information more accessible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/communities-km-integration-configure.html
 release: yokohama
 product: Communities
 classification: communities
@@ -24,5 +25,5 @@ Community administrators perform the following tasks to configure knowledge harv
 
 -   Add a knowledge category to a forum topic to categorize the harvested content.
 
-**Parent Topic:**[Configure a community](../task/configure-communities.md)
+**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
 

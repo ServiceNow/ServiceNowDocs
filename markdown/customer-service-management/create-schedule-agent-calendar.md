@@ -2,10 +2,13 @@
 title: Create a schedule to use with the agent calendar
 description: Users with the agent calendar administrator role can create a schedule to use with the agent calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-schedule-agent-calendar.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configuring an agent calendar, Managing agent calendar, Manage schedules and sites, Using Customer Service Management, Customer Service Management]
 ---
 
@@ -19,14 +22,14 @@ Role required: agent\_schedule\_admin
 
 ## About this task
 
-Creating a schedule for the agent calendar uses the schedule feature. For more information, see [Schedules](https://www.servicenow.com/docs/access?context=c_UseSchedules&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Creating a schedule for the agent calendar uses the schedule feature. For more information, see Schedules.
 
 Schedules are configured with two types of records.
 
 -   Schedule records specify a time zone and a type of schedule and use one or more schedule entries. Schedule records are saved in the Schedule \[cmn\_schedule\] table.
 -   Schedule entry records specify the time periods that are included or excluded from a schedule. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table.
 
-For more information on schedule fields, see [Schedule fields](https://www.servicenow.com/docs/access?context=r_ScheduleFields&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information on schedule fields, see .
 
 ## Procedure
 

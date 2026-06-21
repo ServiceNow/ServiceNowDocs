@@ -2,6 +2,7 @@
 title: Test connectivity to the ServiceNow instance
 description: Test the ServiceNow DEX instance network connectivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/test-connectivity-to-instance.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

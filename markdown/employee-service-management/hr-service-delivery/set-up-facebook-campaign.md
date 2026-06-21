@@ -2,6 +2,7 @@
 title: Set up Employee Campaigns for Workplace from Facebook
 description: Complete the Employee Campaigns for Workplace from Facebook application set up by configuring the Workplace for Facebook spoke and activating a schedule job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/set-up-facebook-campaign.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,7 +2,10 @@
 title: Working with callback requests using the Customer Service Portal
 description: As a customer, you can request a callback from a customer service agent using the Customer Service Portal. You can request an immediate callback or schedule a voice or video callback that you can reschedule or cancel.Request an immediate voice callback or schedule a voice or video callback from an agent using the Customer or Consumer Service Portal.Reschedule a callback from an agent using the Customer or Consumer Service Portal.Cancel a callback from an agent using the Customer or Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/request-callback-from-portal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -41,15 +44,15 @@ You can request an immediate callback only for a voice channel. Use the **Call m
 
 6.  Select whether to receive an immediate voice callback from an agent or schedule a voice or video callback for later.
 
-<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d97962e160">
+<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d99044e160">
 
 Type of callback
 
-</th><th align="left" id="d97962e163">
+</th><th align="left" id="d99044e163">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d97962e169">
+</th></tr></thead><tbody><tr><td id="d99044e169">
 
 **Immediate voice callback**
 
@@ -57,7 +60,7 @@ Action
 
 Select **Call me now**.
 
-</td></tr><tr><td id="d97962e181">
+</td></tr><tr><td id="d99044e181">
 
 **Scheduled voice or video callback**
 

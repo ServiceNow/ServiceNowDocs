@@ -2,6 +2,7 @@
 title: Service Graph Connector for Microsoft Intune properties
 description: Service Graph Connector for Microsoft Intune properties control the behavior of the connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-graph-connectors/cmdb-sgc-intune-props.html
 release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors

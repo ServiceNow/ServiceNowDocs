@@ -2,6 +2,7 @@
 title: ITSM Maturity Assessment
 description: Provides guidance on current ITSM process and function maturity, with targeted recommendations on what to tackle next to unlock further value in the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/itsm-maturity-assessment.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

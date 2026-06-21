@@ -2,6 +2,7 @@
 title: Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)
 description: Get a quick overview of the skill inputs and triggers for Now Assist for IT Service Management \(ITSM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -20,7 +21,7 @@ Get a quick overview of the skill inputs and triggers for Now Assist for IT Serv
 
 Depending on the selected skill, you can configure the inputs or triggers. These settings determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate an incident summary. A trigger initiates an action, such as when the system generates a chat summary.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Incident sentiment analysis skill
 
@@ -215,7 +216,7 @@ Collaboration chat \[sys\_cs\_collab\_message\]
 
 </td><td>
 
-Payload**Note:** You must manually select the Collaboration chat table as an input data so that this field is used an input for the prompt. For information on choosing input data, see [Customize a Now Assist for IT Service Management \(ITSM\) skill](../task/cust-now-assist-itsm-skill.md).
+Payload**Note:** You must manually select the Collaboration chat table as an input data so that this field is used an input for the prompt. For information on choosing input data, see [Customize a Now Assist for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
 
 </td></tr></tbody>
 </table>## Chat summarization skill

@@ -2,6 +2,7 @@
 title: Install Vaccine Administration Management
 description: Vaccine Administration Management \(VAM\) is available on the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-install-vaccine-management.html
 release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -50,11 +51,11 @@ Role required: admin
 
     1.  Go to  Now Support  and choose **Service Catalog ** from the menu.
 
-        ![The Service Catalog is highlighted within the Now Support menu.](../image/catalog.png)
+        \[Omitted image "catalog.png"\] Alt text: The Service Catalog is highlighted within the Now Support menu.
 
     2.  Click  **Activate Plugin**.
 
-        ![The Activate Plugin option from the service catalog.](../image/activate-plugin.png)
+        \[Omitted image "activate-plugin.png"\] Alt text: The Activate Plugin option from the service catalog.
 
     3.  In the  **What is your target instance ** field, specify your instance.
 
@@ -64,11 +65,11 @@ Role required: admin
 
     6.  In the  **Reason/Comments ** field, state that you need the plugin \(com.glide.now.platform.encryption\) for  Vaccine Administration Management.
 
-        ![Comment box stating that the KMF plugin is needed for Vaccine Administration Management.](../image/vam-kmf-installation.png)
+        \[Omitted image "vam-kmf-installation.png"\] Alt text: Comment box stating that the KMF plugin is needed for Vaccine Administration Management.
 
     7.  In the  **Select Maintenance Start Time ** field, select a start date and time value.
 
-        ![Select Maintenance Start Time field where a start date and a time value can be selected.](../image/vam-install-select-maintenance-start-time.png)
+        \[Omitted image "vam-install-select-maintenance-start-time.png"\] Alt text: Select Maintenance Start Time field where a start date and a time value can be selected.
 
     8.  Click **Submit**.
 
@@ -86,7 +87,7 @@ Role required: admin
 
     4.  Navigate to **Algorithm Definition** &gt; **Lifecycle Definition** &gt; **Key Origin** &gt; **Key Creation**.
 
-        ![Key Creation view of crypto specification with completed fields and a Generate Key option highlighted.](../image/install-vaccine-management.png)
+        \[Omitted image "install-vaccine-management.png"\] Alt text: Key Creation view of crypto specification with completed fields and a Generate Key option highlighted.
 
     5.  Click **Generate Key**.
 
@@ -99,5 +100,5 @@ Role required: admin
         You can encrypt additional data fields based on your requirements and configurations. For information about additional encryption capabilities including edge encryption, database encryption, and full disk encryption, see the [Data encryption white paper](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/white-paper/wp-data-encryption-with-servicenow.pdf).
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

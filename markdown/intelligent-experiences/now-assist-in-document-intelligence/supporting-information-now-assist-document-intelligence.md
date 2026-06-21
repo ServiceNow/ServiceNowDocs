@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist in Document Intelligence
 description: Get a quick overview of the important information that is related to the Now Assist in Document Intelligence application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-in-document-intelligence/supporting-information-now-assist-document-intelligence.html
 release: yokohama
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -29,7 +30,7 @@ Now Assist in Document Intelligence is supported starting with Yokohama \(Patch 
 
 The Now Assist in Document Intelligence application is supported for the Document Intelligence workspace.
 
-For more information, see [Document Intelligence workspace with Now Assist](document-intelligence-workspace-with-now-assist.md).
+For more information, see [Document Intelligence workspace with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-in-document-intelligence/document-intelligence-workspace-with-now-assist.md).
 
 ## Supported languages
 
@@ -47,5 +48,5 @@ This store app has the following dependencies:
 -   Now Assist for Platform \(sn\_genai\_platform\)
 -   Document Intelligence \(sn\_docintel\)
 
-For more information, see [Configuring Now Assist in Document Intelligence](docintel-configuring-now-assist.md).
+For more information, see [Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md).
 

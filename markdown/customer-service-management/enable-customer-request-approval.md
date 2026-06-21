@@ -2,7 +2,10 @@
 title: Enable external customers to approve requests and changes
 description: Enable your external customers to approve change and request records related to customer service cases from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-customer-request-approval.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-02-06"
 reading_time_minutes: 1

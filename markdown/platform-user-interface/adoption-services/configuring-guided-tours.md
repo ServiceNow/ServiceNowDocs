@@ -2,6 +2,7 @@
 title: Configuring Guided Tours
 description: Guided tours configurations let you enable tours, configure tours to automatically launch, and customize the tour experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/configuring-guided-tours.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
@@ -25,12 +26,12 @@ This customization enhances user engagement by providing a proactive and interac
 -   Guided tour triggers
 -   Configure auto-launch for Guided Tours
 
--   **[Enable guided tours](../task/activate-guidedtours-service-portal.md)**  
+-   **[Enable guided tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/activate-guidedtours-service-portal.md)**  
 Enable guided tours for Service Portal pages as well as the standard platform UI.
--   **[Guided tour triggers](../reference/guided-tour-triggers.md)**  
+-   **[Guided tour triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tour-triggers.md)**  
 Each callout in a guided tour step has a defined action that triggers the next step to occur. You specify the trigger for each callout. Only applicable triggers appear based on the UI element the callout points to.
--   **[Configure auto-launch for guided tours](../task/auto-launch-guided-tours.md)**  
+-   **[Configure auto-launch for guided tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/auto-launch-guided-tours.md)**  
 Configure one or more tours to launch automatically when a user lands on a page.
 
-**Parent Topic:**[Guided Tours](guided-tours.md)
+**Parent Topic:**[Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tours.md)
 

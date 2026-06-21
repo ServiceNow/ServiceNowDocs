@@ -2,6 +2,7 @@
 title: Closing a dispute case
 description: After you close a transaction in the playbook, the case is set to the Closure state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/closing-a-dispute-case.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -22,5 +23,5 @@ The dispute agent finalizes disputed transactions and moves them to closure. Thi
 |Closure details for the case|Fill in the necessary closure details and close the case.|
 |Block and reissue card|For fraud-related disputes, block and reissue the card before closing the case.|
 
-**Parent Topic:**[Working on a dispute case integrated with Visa](work-on-a-dispute-case-integrated-with-visa.md)
+**Parent Topic:**[Working on a dispute case integrated with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.md)
 

@@ -2,6 +2,7 @@
 title: Schedule in Employee Center Pro Kiosk
 description: The schedule details in Employee Center Pro Kiosk is a one-stop destination to check the shift scheduling details for the deskless workers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/shift-time-kiosk-ec.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -42,10 +43,10 @@ The calendar legends include:
 
     You can select each event type on the calendar to see the details of that event.
 
-    **Note:** Customize the color of the calendar legends by modifying the **Employee Center Pro Kiosk Theme**. For more information, see [Customize Employee Center portal theme](../task/customize-theme.md).
+    **Note:** Customize the color of the calendar legends by modifying the **Employee Center Pro Kiosk Theme**. For more information, see [Customize Employee Center portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/customize-theme.md).
 
 
-![My schedule tab displays different shift types, holidays, and time off data.](../images/kiosk-calendar-update.png "Schedule tab")
+\[Omitted image "kiosk-calendar-update.png"\] Alt text: My schedule tab displays different shift types, holidays, and time off data.
 
-The display title of the **Schedule** tab is customizable. For more information, see [Customize the schedule widget](../task/widget-mapping-kiosk.md).
+The display title of the **Schedule** tab is customizable. For more information, see [Customize the schedule widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/widget-mapping-kiosk.md).
 

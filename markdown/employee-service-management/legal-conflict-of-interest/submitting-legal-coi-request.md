@@ -2,6 +2,7 @@
 title: Requesting legal clearance for conflict of interests
 description: Employees who engage in activities that could potentially conflict with their primary employment duties can disclose these potential conflicts and obtain the legal clearance by submitting a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-conflict-of-interest/submitting-legal-coi-request.html
 release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -15,10 +16,10 @@ breadcrumb: [Legal Conflict of Interest, Legal Service Delivery Practice Applica
 
 Employees who engage in activities that could potentially conflict with their primary employment duties can disclose these potential conflicts and obtain the legal clearance by submitting a request.
 
--   **[Submit a new conflict of interest disclosure request](../task/submit-coi-disclosure-request.md)**  
+-   **[Submit a new conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md)**  
 Submit a request to obtain the legal clearance before you involve in any activity that might pose a risk of potential conflict with the primary employer duties.
--   **[Update an existing conflict of interest disclosure request](../task/update-existing-coi-disclosure-request.md)**  
+-   **[Update an existing conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/update-existing-coi-disclosure-request.md)**  
 Update an existing conflict of interest disclosure request to obtain the legal clearance again before it expires. You might want to get fresh approvals for an extension of the period or for the revised conditions that might pose a risk of potential conflict with the primary employer duties.
 
-**Parent Topic:**[Legal Conflict of Interest](../reference/legal-conflict-of-interest-landing-page.md)
+**Parent Topic:**[Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Install Legal Simple Compliance
 description: Install the Legal Simple Compliance application to offer prebuilt workflows for various legal compliance needs. It enables you to manage legal compliance requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-simple-compliance/install-legal-simple-compliance.html
 release: yokohama
 product: Legal Simple Compliance
 classification: legal-simple-compliance
@@ -25,9 +26,9 @@ Role required: admin
 
 When you install the Legal Simple Compliance application, the following applications are installed along with the other dependent applications and plugins if they aren’t already installed:
 
--   [Gifts and Entertainment Compliance](../../legal-gifts-entertainment/reference/lsd-ge-landing-page.md)
--   [Legal Conflict of Interest](../../legal-conflict-of-interest/reference/legal-conflict-of-interest-landing-page.md)
--   [Legal Stock Preclearance](../../legal-stock-preclearance/reference/legal-stock-preclearance-landing-page.md)
+-   [Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-gifts-and-entertainment/lsd-ge-landing-page.md)
+-   [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md)
+-   [Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md)
 
 **Note:** You can also install these applications separately.
 

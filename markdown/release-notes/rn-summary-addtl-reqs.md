@@ -2,9 +2,10 @@
 title: Additional requirements for all Yokohama features and products
 description: Cumulative release notes summary on additional requirements for Yokohama features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-addtl-reqs.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-13"
 reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -40,7 +41,7 @@ Advanced AI Search Management Tools
 
 </td><td>
 
-You must have the User Experience Analytics API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
 
 </td></tr><tr><td>
 
@@ -72,7 +73,7 @@ Now Assist AI agents
 
 </td><td>
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see .
 
 Enable the Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -162,7 +163,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-[Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US) requires a license for Virtual Agent and at least one Now Assist product.
+ requires a license for Virtual Agent and at least one Now Assist product.
 
 </td></tr><tr><td>
 
@@ -262,7 +263,7 @@ ServiceNow SDK
 
 </td><td>
 
-You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK in an application](https://www.servicenow.com/docs/access?context=install-servicenow-sdk&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see .
 
 </td></tr><tr><td>
 
@@ -288,7 +289,7 @@ Synthetic monitoring
 
 You must do the following before you can use synthetic monitoring:
 
--   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://www.servicenow.com/docs/access?context=proxy-agent&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US).
+-   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see .
 
 Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
 
@@ -309,7 +310,7 @@ Usage Insights
 
 </td><td>
 
-Customer must use ADC v3 to access the new User Experience Analytics experience. Customers on ADC v2 will have access to the Xanadu version of User Experience Analytics.
+Customer must use ADC v3 to access the new Usage Insights experience. Customers on ADC v2 will have access to the Xanadu version of Usage Insights.
 
 </td></tr><tr><td>
 
@@ -320,5 +321,5 @@ Zero Copy Connector for ERP
 SAP ECC and S/4 HANA are currently the only available systems that integrate with Zero Copy Connector for ERP.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Yokohama features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
 

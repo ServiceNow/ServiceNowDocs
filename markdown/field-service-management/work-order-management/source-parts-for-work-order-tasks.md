@@ -2,6 +2,7 @@
 title: Source parts for work order tasks
 description: Source parts from your preferred stockrooms or assignment groups to ensure work order tasks are completed promptly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/source-parts-for-work-order-tasks.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -17,7 +18,7 @@ Source parts from your preferred stockrooms or assignment groups to ensure work 
 
 ## Before you begin
 
-Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## About this task
 
@@ -57,5 +58,5 @@ You can source parts for the work order task either manually or automatically.
 
 Complete the transfer orders: If the agent sources parts from other stockrooms or assignment groups, a transfer order line is created automatically. You can then complete the transfer order, ensuring the parts are moved to the designated location.
 
-**Parent Topic:**[Part requirements](../../planning-and-policy/concept/c_PartRequirements.md)
+**Parent Topic:**[Part requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_PartRequirements.md)
 

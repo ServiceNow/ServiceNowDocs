@@ -2,6 +2,7 @@
 title: Add pricing adjustment to a quote line item
 description: Add pricing adjustments to quote line items after the line item is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-management-add-pricing-adjustment.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -33,7 +34,7 @@ You can make the following types of pricing adjustments for quote line items as 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Select **Quotes** &gt; **All**.
 

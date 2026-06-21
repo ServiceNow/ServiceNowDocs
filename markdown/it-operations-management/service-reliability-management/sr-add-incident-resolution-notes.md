@@ -2,6 +2,7 @@
 title: Add resolution code and notes to an SRM incident
 description: Add a resolution code and notes to an incident when you have resolved the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-add-incident-resolution-notes.html
 release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select **Reliability tasks** \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the primary navigation, select **Reliability tasks** \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Open the incident.
 
@@ -40,5 +41,5 @@ Role required: Responder, Manager, or Administrator
 6.  Select **Save**.
 
 
-**Parent Topic:**[Working with Incidents in SRM](../concept/sr-work-incidents.md)
+**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

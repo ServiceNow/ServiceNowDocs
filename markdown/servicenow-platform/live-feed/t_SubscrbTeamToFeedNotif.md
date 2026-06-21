@@ -2,6 +2,7 @@
 title: Subscribe a team to feed notification
 description: A team administrator can subscribe a team to specific feeds so the members of the team receive email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_SubscrbTeamToFeedNotif.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -29,10 +30,10 @@ Role required: none
 
 3.  Click **Feeds**.
 
-4.  Click the subscribe icon \(![Subscribe icon](../image/SubscribeIcon.png)\) beside the feed name.
+4.  Click the subscribe icon \(\[Omitted image "SubscribeIcon.png"\] Alt text: Subscribe icon\) beside the feed name.
 
-    You can click the unsubscribe icon \(![Unsubscribe 2](../image/Unsubscribe2.png)\) to stop receiving email notifications.
+    You can click the unsubscribe icon \(\[Omitted image "Unsubscribe2.png"\] Alt text: Unsubscribe 2\) to stop receiving email notifications.
 
 
-**Parent Topic:**[Use teams in Live Feed](../concept/c_UseTeamsInLiveFeed.md)
+**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 

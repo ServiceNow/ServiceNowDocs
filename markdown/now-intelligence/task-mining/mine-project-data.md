@@ -2,6 +2,7 @@
 title: Generate a project data analysis
 description: Run a mining job on a Task Mining project to generate an analysis of your project data according to your categorization rules so you can make data-driven decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/task-mining/mine-project-data.html
 release: yokohama
 product: Task Mining
 classification: task-mining
@@ -17,7 +18,7 @@ Run a mining job on a Task Mining project to generate an analysis of your projec
 
 ## Before you begin
 
-**Note:** All data requests in a project must be approved in order to run a mining job. If any data request is pending approval and you need to run the job, you can remove that data request from the project first. For information about adding and removing workstation users from a project, see [Add workstation users to a Task Mining project](add-users-to-task-mining-project.md).
+**Note:** All data requests in a project must be approved in order to run a mining job. If any data request is pending approval and you need to run the job, you can remove that data request from the project first. For information about adding and removing workstation users from a project, see [Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/add-users-to-task-mining-project.md).
 
 Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
@@ -36,5 +37,5 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
 ## What to do next
 
-Review your analysis to see whether it needs further refinement. For more information, see [Refine the presentation of your data](preview-data-based-on-categorization-rules.md).
+Review your analysis to see whether it needs further refinement. For more information, see [Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md).
 

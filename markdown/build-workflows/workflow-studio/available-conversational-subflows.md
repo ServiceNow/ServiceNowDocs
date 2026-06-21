@@ -2,6 +2,7 @@
 title: Available conversational subflows
 description: Workflow Studio provides a set of subflows that are preconfigured to be compatible with and callable by conversational interfaces such as Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/available-conversational-subflows.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -19,20 +20,20 @@ Workflow Studio provides a set of subflows that are preconfigured to be compatib
 |----|-----------------|-------------------|
 |Send Email|Conversational subflows and actions|admin|
 |Send SMS|Conversational subflows and actions|admin|
-|Look up Opportunities - Sample|[Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Look up Contacts - Sample|[Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Look up Accounts - Sample|[Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Look up Leads - Sample|[Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Create Lead - Sample|[Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Add User to Group using Email Address - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Add User to Group - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Look up Direct Reports - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Look up Group Members - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Look up Groups - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Look up Users - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Look up Purchase Order - Sample|[Coupa Spoke](https://www.servicenow.com/docs/access?context=coupa-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Look up Images - Sample|[Amazon EC2 Spoke](https://www.servicenow.com/docs/access?context=amazon-ec2-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
-|Run Instances - Sample|[Amazon EC2 Spoke](https://www.servicenow.com/docs/access?context=amazon-ec2-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)|admin|
+|Look up Opportunities - Sample||admin|
+|Look up Contacts - Sample||admin|
+|Look up Accounts - Sample||admin|
+|Look up Leads - Sample||admin|
+|Create Lead - Sample||admin|
+|Add User to Group using Email Address - Sample||admin|
+|Add User to Group - Sample||admin|
+|Look up Direct Reports - Sample||admin|
+|Look up Group Members - Sample||admin|
+|Look up Groups - Sample||admin|
+|Look up Users - Sample||admin|
+|Look up Purchase Order - Sample||admin|
+|Look up Images - Sample||admin|
+|Run Instances - Sample||admin|
 
-**Parent Topic:**[Conversational subflows](../concept/conversational-subflows.md)
+**Parent Topic:**[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/conversational-subflows.md)
 

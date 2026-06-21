@@ -2,6 +2,7 @@
 title: Use the Try Catch component
 description: Catch an error or exception that occurs in a component in an automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-general-try-catch.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties for the Try Catch component, see [Properties of the Try Catch component](../reference/Properties-general-components.md#Try-Catch-component).
+To configure the properties for the Try Catch component, see [Properties of the Try Catch component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/Properties-general-components.md).
 
 For details on the issues related to the Try Catch component, see [KB article KB1123551](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123551), [KB article KB1123552](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123552), and [KB article KB1123556](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123556).
 
@@ -141,7 +142,7 @@ No. Connecting the port is optional.
 
 The Try Catch component catches the error from the ReadFromExcel method. The On Error port then passes the control to the Show component.
 
-![Try Catch error.](../image/Trycatch_2.PNG)
+\[Omitted image "Trycatch\_2.PNG"\] Alt text: Try Catch error.
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/general-component.md)
 

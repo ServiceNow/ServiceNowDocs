@@ -2,6 +2,7 @@
 title: Inbox layout
 description: The inbox layout determines the information shown on work item cards displayed in an agent's inbox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/awa-inbox-layout.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -27,14 +28,14 @@ Up to five fields can be shown in the card layout.
 
 ## Layout example
 
-For chats that do not have either a contact or consumer, the layout includes only the chat subject. You control the display of the **Time to accept** count \(timer\) and the **Reject** button through the [agent assignment rules](../task/awa-create-assignment-rule.md).
+For chats that do not have either a contact or consumer, the layout includes only the chat subject. You control the display of the **Time to accept** count \(timer\) and the **Reject** button through the [agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-create-assignment-rule.md).
 
-![Agent Workspace inbox with chat layout.](../image/chat-inbox-layout.png)
+\[Omitted image "chat-inbox-layout.png"\] Alt text: Agent Workspace inbox with chat layout.
 
-See [Create or change an inbox layout](../task/awa-modify-inbox-layout.md) for more information on accessing and modifying an inbox layout.
+See [Create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-modify-inbox-layout.md) for more information on accessing and modifying an inbox layout.
 
--   **[Create or change an inbox layout](../task/awa-modify-inbox-layout.md)**  
+-   **[Create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-modify-inbox-layout.md)**  
 Create or change the card layout for inbox items for a given service channel. Card layouts are displayed in the agent inbox view of Agent Workspace.
 
-**Parent Topic:**[Service channels](awa-service-channels.md)
+**Parent Topic:**[Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-service-channels.md)
 

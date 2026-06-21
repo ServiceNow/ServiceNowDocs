@@ -2,6 +2,7 @@
 title: Configure the Python connector
 description: Write and validate custom Python scripts and execute them as part of your automation by using the Python connector in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/configure-python-connector.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,11 +18,11 @@ Write and validate custom Python scripts and execute them as part of your automa
 
 ## Before you begin
 
-Ensure you have installed the Scripting plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](install-plugins-rpa-studio.md).
+Ensure you have installed the Scripting plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/install-plugins-rpa-studio.md).
 
 Ensure that a Python version is installed on your machine which is a part of the environment variables. For more information about environment variables, see [Setting environment variables](https://docs.python.org/3/using/windows.html#configuring-python).
 
-Familiarize yourself with the limitations of Python script. For more information, see [Limitations of Python script in Python connector](../reference/python-script-limitations-rpa.md).
+Familiarize yourself with the limitations of Python script. For more information, see [Limitations of Python script in Python connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/python-script-limitations-rpa.md).
 
 Role required: none
 
@@ -55,7 +56,7 @@ Role required: none
 
     You can view the python version that is used for execution in the Studio logs, that is created in your user profile on your machine.
 
-    ![Script pane and Python Version in Script Editor.](../image/python-script-editor-studio.png "Script pane and Python Version in Script Editor")
+    \[Omitted image "python-script-editor-studio.png"\] Alt text: Script pane and Python Version in Script Editor.
 
 6.  Enter the custom script in the Script pane.
 
@@ -134,7 +135,7 @@ Role required: none
 
 10. Drag the methods to the Design surface.
 
-    For more information about Python connector methods, see [Python connector methods](../reference/python-connector-methods-rpa.md).
+    For more information about Python connector methods, see [Python connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/python-connector-methods-rpa.md).
 
 
 ## Temperature conversion and weather advice
@@ -145,11 +146,11 @@ Perform the following steps to execute the automation for temperature conversion
 2.  Drag Variable component to the design surface.
 3.  Double-click the Variable component and set these parameters as shown in the image.
 
-    ![Parameters such as Temperature, City, isRaining, and WindSpeed are set in the Variable Container.](../image/variable-parameters-python-rpa.png "Parameters for Variable Container")
+    \[Omitted image "variable-parameters-python-rpa.png"\] Alt text: Parameters such as Temperature, City, isRaining, and WindSpeed are set in the Variable Container.
 
 4.  Double-click the Python connector in the Global Objects.
 5.  Drag the Execute method from Object Explorer to design surface.
-6.  Select the component and click the method settings icon \(![Method settings icon](../image/component-settings-icon.png)\) or double-click the component head bar.
+6.  Select the component and click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon\) or double-click the component head bar.
 7.  Select the **Show Functions** check box and select the **celsius\_to\_fahrenheit** function from the Functions list.
 8.  Select **OK**.
 9.  Drag the Execute method again from Object Explorer to design surface.
@@ -159,14 +160,14 @@ Perform the following steps to execute the automation for temperature conversion
 13. Select **OK**.
 14. Connect the ports of the components as shown in the following image.
 
-    ![Python connector automation example.](../image/weather-example-python-rpa.png "Ports connection for Variable component and Execute methods")
+    \[Omitted image "weather-example-python-rpa.png"\] Alt text: Python connector automation example.
 
 15. To test the component, right-click the Variable component and select **Run From Here**.
 
-    ![Temperature is displayed on the Data Out port of Execute method.](../image/weather-result-temp-python-rpa.png "Example result for temperature")
+    \[Omitted image "weather-result-temp-python-rpa.png"\] Alt text: Temperature is displayed on the Data Out port of Execute method.
 
-    ![Weather advice is displayed on the Data Out port of Execute method.](../image/weather-advice-python-rpa.png "Example result for weather advice")
+    \[Omitted image "weather-advice-python-rpa.png"\] Alt text: Weather advice is displayed on the Data Out port of Execute method.
 
 
-**Parent Topic:**[Python connector](../concept/python-connector-rpa.md)
+**Parent Topic:**[Python connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/python-connector-rpa.md)
 

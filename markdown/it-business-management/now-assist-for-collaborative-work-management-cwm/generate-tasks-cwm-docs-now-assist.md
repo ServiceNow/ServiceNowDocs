@@ -2,6 +2,7 @@
 title: Generate tasks from Docs in Collaborative Work Management \(CWM\)
 description: Use the generative AI capabilities of Now Assist to create tasks from the content of your Docs and help you add them to the required Board in CWM workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/generate-tasks-cwm-docs-now-assist.html
 release: yokohama
 product: Now Assist for Collaborative Work Management \(CWM\)
 classification: now-assist-for-collaborative-work-management-cwm
@@ -17,7 +18,7 @@ Use the generative AI capabilities of Now Assist to create tasks from the conten
 
 ## Before you begin
 
-[Create a Doc in CWM](../../collab-work-mgmt/task/create-a-doc-in-cwm.md)
+[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user
 
@@ -29,7 +30,7 @@ Role required: sn\_cwm\_ai.cwm\_ai\_user
 
 2.  From the Spaces menu, navigate to the Space where your Doc is located and open it.
 
-    ![Spaces menu in CWM.](../../collab-work-mgmt/images/cwm-spaces-navigation-doc.png)
+    \[Omitted image "cwm-spaces-navigation-doc.png"\] Alt text: Spaces menu in CWM.
 
 3.  From the header of the Doc, select **Create Tasks**.
 
@@ -47,6 +48,6 @@ Role required: sn\_cwm\_ai.cwm\_ai\_user
 
     **Note:** If the Space you selected in Step 6 has just one Board, then you won't be asked to select a Board. The tasks are added to the Board directly.
 
-    ![Automatic task generation from CWM Docs using Now Assist for CWM.](../images/cwm-task-generation-now-assist.png)
+    \[Omitted image "cwm-task-generation-now-assist.png"\] Alt text: Automatic task generation from CWM Docs using Now Assist for CWM.
 
 

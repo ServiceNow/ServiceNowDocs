@@ -2,13 +2,14 @@
 title: View and add comments to work order tasks from the Customer or Consumer Service Portal
 description: View the details of any work orders and related tasks from the Customer or Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/customer-experience-for-field-service-management/view-wot-details-csm-portal.html
 release: yokohama
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Customer or Consumer Service Portal, Customer self service, Using Field Service Management, Field Service Management]
+breadcrumb: [Customer self service, Using Field Service Management, Field Service Management]
 ---
 
 # View and add comments to work order tasks from the Customer or Consumer Service Portal
@@ -27,18 +28,18 @@ Customers can view work orders and related work orders tasks of their own or rel
 
 1.  Log in to the Customer or Consumer Service Portal.
 
-2.  Click **Support** &gt; **Work Orders** in the portal header.
+2.  Select **Support** &gt; **Work Orders** in the portal header.
 
-3.  In the list of work orders related to your account, click a work order number to view its related work order tasks.
+3.  In the list of work orders related to your account, Select a work order number to view its related work order tasks.
 
-4.  Click the work order task number to view more information about it.
+4.  Select the work order task number to view more information about it.
 
-5.  Type a message to the agent and click **Send**.
+5.  Type a message to the agent and select **Send**.
 
-    Your message becomes part of the work order task conversation and appears as additional comments. All responses from agents to your messages are also included in the conversation.
+    Your message is added to the work order task conversation and appears as additional comments. All responses from agents to your messages are also included in the conversation.
 
     **Note:** A work note can be seen only by agents, but both agents and customers can see additional comments.
 
 
-**Parent Topic:**[Customer or Consumer Service Portal](../concept/use-customer-experience.md)
+**Parent Topic:**[Customer self service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/customer-experience-for-field-service-management/customer-self-service.md)
 

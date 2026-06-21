@@ -2,6 +2,7 @@
 title: Azure cloud discovery methods and use cases
 description: Comparison of use cases and requirements for cloud discovery methods in Azure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/azure-discovery-methods-use-case.html
 release: yokohama
 product: Discovery
 classification: discovery

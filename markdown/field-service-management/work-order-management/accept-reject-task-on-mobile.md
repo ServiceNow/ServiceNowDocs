@@ -2,6 +2,7 @@
 title: Accept or reject a work order task
 description: Accept a work order task that has been assigned to you. You can reject the task if, for example, you do not have the required skills or you are not available at the required time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/accept-reject-task-on-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -31,15 +32,15 @@ Unlike other work order tasks, the task card for a work order task related to a 
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_udq_gsr_4fb"><thead><tr><th align="left" id="d103429e83">
+<table id="choicetable_udq_gsr_4fb"><thead><tr><th align="left" id="d60962e83">
 
 Option
 
-</th><th align="left" id="d103429e86">
+</th><th align="left" id="d60962e86">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d103429e92">
+</th></tr></thead><tbody><tr><td id="d60962e92">
 
 **Accept a task**
 
@@ -54,7 +55,7 @@ Do one of the following:
     -   Tap **Accept**.
 When you accept a task, the work order task state changes to **Accepted**.
 
-</td></tr><tr><td id="d103429e133">
+</td></tr><tr><td id="d60962e133">
 
 **Reject a task**
 
@@ -87,7 +88,7 @@ Available options:
     -   On an Android device, tap the done icon.
  The reason for rejecting the task is populated in the work notes and the task moves to **Pending Dispatch** state.
 
- **Note:** The rejected task is not dynamically scheduled to the same agent for the next 24 hours. This is controlled by the **work.management.rejected.technician.duration** [system property](../../planning-and-policy/reference/r_PropInstallWFieldServMgmnt.md). However, as an agent you can manually assign the work order task back to yourself or as a dispatcher you can assign it back to the same agent.
+ **Note:** The rejected task is not dynamically scheduled to the same agent for the next 24 hours. This is controlled by the **work.management.rejected.technician.duration** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_PropInstallWFieldServMgmnt.md). However, as an agent you can manually assign the work order task back to yourself or as a dispatcher you can assign it back to the same agent.
 
 </td></tr></tbody>
 </table>
@@ -95,5 +96,5 @@ Available options:
 
 Start work on a task using the Now Mobile Agent application.
 
-**Parent Topic:**[Prioritizing on Mobile Agent](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

@@ -2,6 +2,7 @@
 title: Add a custom layout bundle to a UI Builder standard record page
 description: Add playbook custom layout bundles to a new or an existing UI Builder standard record page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/add-custom-layout-bundle-uib-standard-record.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -27,7 +28,7 @@ Role required: admin, ui\_builder\_admin
 
 3.  Fill in the fields for your experience.
 
-<table id="choicetable_jwq_jdh_x1c"><tbody><tr><td id="d70957e87">
+<table id="choicetable_jwq_jdh_x1c"><tbody><tr><td id="d69114e87">
 
 **Name**
 
@@ -35,7 +36,7 @@ Role required: admin, ui\_builder\_admin
 
 The name is used for tracking the experience internally. The experience name is also visible to users from the browser tab.
 
-</td></tr><tr><td id="d70957e96">
+</td></tr><tr><td id="d69114e96">
 
 **URL path**
 
@@ -45,7 +46,7 @@ The URL path is the prefix that people will use to reach your experience. It mat
 
 Supported characters include digits \(0-9\), letters \(A-Z, a-z\), and the following symbols: $-\_!\*\(\),The path can't end with a forward slash \(/\).
 
-</td></tr><tr><td id="d70957e112">
+</td></tr><tr><td id="d69114e112">
 
 **App shell UI**
 
@@ -53,9 +54,9 @@ Supported characters include digits \(0-9\), letters \(A-Z, a-z\), and the follo
 
 Choose the **UXR Base Experience Shell**.
 
- The app shell is the wrapper of the page contents, which is similar to the functionality of a web page. The app shell can show things like the logo of your company, user preferences, and the search icon. To learn more about the app shell options, see [Define UI experiences using app shells](https://www.servicenow.com/docs/access?context=app-shells-uibuilder&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+ The app shell is the wrapper of the page contents, which is similar to the functionality of a web page. The app shell can show things like the logo of your company, user preferences, and the search icon. To learn more about the app shell options, see .
 
-</td></tr><tr><td id="d70957e137">
+</td></tr><tr><td id="d69114e136">
 
 **Landing path**
 
@@ -63,7 +64,7 @@ Choose the **UXR Base Experience Shell**.
 
 The landing path is the prefix that people will use to reach your experience homepage. It matches your experience name by default. To designate a page as the homepage, you will need to create a page that has a matching path.
 
-</td></tr><tr><td id="d70957e146">
+</td></tr><tr><td id="d69114e145">
 
 **Roles**
 
@@ -155,7 +156,7 @@ View mode used to render Playbook activities in stacked or focused mode.
 The tab that your page opens to by default.
 
 </td></tr></tbody>
-</table>10. Setup your default [page variant](https://www.servicenow.com/docs/access?context=create-variant&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+</table>10. Setup your default page variant.
 
 <table id="table_frz_wd3_q1c"><tbody><tr><td>
 
@@ -226,15 +227,15 @@ You've added a bundle and all its components, presets, and controller to your ne
 
 If the width of the bundle container is set to the min-width of the component, set the **min-width** of the container to **100%**.
 
-![Sizing settings under the bundle container Styles tab](../images/troubleshooting-custom-layout-bundle-1.png)
+\[Omitted image "troubleshooting-custom-layout-bundle-1.png"\] Alt text: Sizing settings under the bundle container Styles tab
 
 Alternatively, you can set the **flex-direction** of your new bundle tab to **column**.
 
-![Layout settings under the bundle container Styles tab](../images/troubleshooting-custom-layout-bundle-2.png)
+\[Omitted image "troubleshooting-custom-layout-bundle-2.png"\] Alt text: Layout settings under the bundle container Styles tab
 
 ## What to do next
 
 Edit test values and controller inputs.
 
-**Parent Topic:**[Customize the Playbook Experience](../../workspace/concept/playbook-customize-playbook.md)
+**Parent Topic:**[Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-customize-playbook.md)
 

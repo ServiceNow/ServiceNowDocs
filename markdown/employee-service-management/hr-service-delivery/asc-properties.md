@@ -2,6 +2,7 @@
 title: Properties for Alumni Center
 description: Use properties to control the behavior of the Alumni Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/asc-properties.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

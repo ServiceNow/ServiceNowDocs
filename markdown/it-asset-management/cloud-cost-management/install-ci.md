@@ -2,6 +2,7 @@
 title: Install Cloud Cost Management
 description: You can install the Cloud Cost Management application \(sn\_clin\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/cloud-cost-management/install-ci.html
 release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -33,7 +34,7 @@ The following items are installed with Cloud Cost Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Cloud Cost Management](../reference/installed-with-ci.md).
+For more information, see [Components installed with Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/installed-with-ci.md).
 
 ## Procedure
 

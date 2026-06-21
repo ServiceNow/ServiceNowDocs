@@ -2,11 +2,12 @@
 title: Create a third-party engagement and enhance digital resilience data
 description: Create a third-party engagement record in Digital resilience third-party registers using Third-party Risk Management. Add details of the third-party engagement such as the name of the third party, its type, annual spend, engagement tier. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-tp-engagement.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -29,19 +30,19 @@ After installing the Digital resilience third-party registers, the **Digital res
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Third-party engagements** and then create a third-party engagement by selecting **New**.
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Third-party engagement form](../reference/tprm-create-engmt-form.md).
+    For descriptions of all these fields, see [Create New Third-party engagement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-create-engmt-form.md).
 
 4.  Select **Save**.
 
 5.  Add digital resilience information.
 
-    For more information, see [Add Digital resilience information to third-party engagements](tprm-add-digi-resi-info.md).
+    For more information, see [Add Digital resilience information to third-party engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-add-digi-resi-info.md).
 
 6.  To edit the third-party engagement records, select it from the list and select **Save** after making your edits.
 

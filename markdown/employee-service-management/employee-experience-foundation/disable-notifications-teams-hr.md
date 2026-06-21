@@ -2,6 +2,7 @@
 title: Review the active notifications for Microsoft Teams
 description: The notifications added by ServiceNow for Microsoft Teams, might duplicate existing notifications in your instance. Review and disable any duplicate notifications to avoid notifying users multiple times for the same event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/disable-notifications-teams-hr.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ You will find HR Case as a duplicate notification after installing the HR Servic
 
 1.  Navigate to **All** &gt; **ServiceNow for Microsoft 365** &gt; **Notifications** &gt; **Provider Notifications**.
 
-    You can also navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications**. ![Notifications](../images/notifications.png)
+    You can also navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications**. \[Omitted image "notifications.png"\] Alt text: Notifications
 
 2.  In the Notifications list, search for the **HR Case** notification.
 
@@ -35,10 +36,10 @@ You will find HR Case as a duplicate notification after installing the HR Servic
 
 4.  Clear the **Active** field.
 
-    ![Uncheck active](../images/uncheck-active-hr.png)
+    \[Omitted image "uncheck-active-hr.png"\] Alt text: Uncheck active
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](../concept/sn-ms-teams-config-hr.md)
+**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/sn-ms-teams-config-hr.md)
 

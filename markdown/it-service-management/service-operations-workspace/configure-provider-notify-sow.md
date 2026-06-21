@@ -2,6 +2,7 @@
 title: Configure a provider for Notify in Service Operations Workspace
 description: Configure a conference provider to be used as a choice for initiating a conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/configure-provider-notify-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -50,5 +51,5 @@ Role required: notify\_admin
 8.  Select **Submit.**
 
 
-**Parent Topic:**[Configuring Notify in Service Operations Workspace](../concept/configure-notify-sow.md)
+**Parent Topic:**[Configuring Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-notify-sow.md)
 

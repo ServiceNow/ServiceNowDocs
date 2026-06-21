@@ -2,6 +2,7 @@
 title: Create a data fabric table
 description: Retrieve data from an internal or external source by creating a data fabric table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/create-data-fabric-table-wdf.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -74,9 +75,9 @@ Note the following restrictions:
         -   Type: record
         -   Operation: data\_fabric
         -   Name: User \[sys\_user\]
-        For details on creating a record ACL rule, see [Configure an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+        For details on creating a record ACL rule, see .
 
-    -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See [Select a field as the table display value](https://www.servicenow.com/docs/access?context=t_SelectTheDisplayValue&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+    -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See .
     1.  Identify the column that represents the same records in both tables.
 
     2.  In the Type column, change the column type to **Reference**.
@@ -98,5 +99,5 @@ Note the following restrictions:
 
 The data fabric table is created and connected to a data source. Data consumers can access the data fabric table and its data just like any physical table on the instance.
 
-**Parent Topic:**[Managing data fabric tables in Workflow Data Fabric Hub](../concept/managing-data-fabric-tables-wdf.md)
+**Parent Topic:**[Managing data fabric tables in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/managing-data-fabric-tables-wdf.md)
 

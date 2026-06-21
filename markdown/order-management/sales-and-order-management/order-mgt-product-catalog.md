@@ -2,13 +2,14 @@
 title: Setting up specifications and product offerings
 description: By creating and publishing versioned specifications and product offerings in a product catalog, your customers can order up-to-date versions of the products or services that they require. Your product catalog manager can create versions of the published specifications and product offerings with the required enhancements to support your customer's business, marketing, manufacturing, or operational changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/order-mgt-product-catalog.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-04-14"
 reading_time_minutes: 2
-breadcrumb: [Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Setting up specifications and product offerings
@@ -21,7 +22,7 @@ As a product catalog manager, you set up product offerings in a product catalog.
 
 For example, the following diagram shows the relationships between the product offerings, the product specification, the service specification, and the resource specification for an SD-WAN product model.
 
-![Infographic displaying the relationship between a product offering, product specification, service specification, and resource specification. For the text description, refer to the definitions that follow.](../image/SDWAN_product_model.png "SD-WAN product model")
+\[Omitted image "SDWAN\_product\_model.png"\] Alt text: Infographic displaying the relationship between a product offering, product specification, service specification, and resource specification. For the text description, refer to the definitions that follow.
 
 Each product offering has the following components:
 
@@ -55,7 +56,7 @@ Each product offering has the following components:
 
 The following example shows a managed firewall service structure that incorporates service and resource specifications.
 
-![Infographic displaying the product domain and the relationship between customer and resource facing service specifications, and resource specifications. For more information, refer to the text that follows.](../image/service-structure-managed-firewall-service.png "Managed firewall service structure")
+\[Omitted image "service-structure-managed-firewall-service.png"\] Alt text: Infographic displaying the product domain and the relationship between customer and resource facing service specifications, and resource specifications. For more information, refer to the text that follows.
 
-**Parent Topic:**[Configuring product offerings and catalogs](som-managing-product-catalogs.md)
+**Parent Topic:**[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-managing-product-catalogs.md)
 

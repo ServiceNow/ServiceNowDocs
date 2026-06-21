@@ -2,6 +2,7 @@
 title: Set up ServiceNow instance for Aha!
 description: Set up your ServiceNow instance to add the Aha! Client ID and Client Secret keys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-servicenow-instance-to-authorize-aha.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub

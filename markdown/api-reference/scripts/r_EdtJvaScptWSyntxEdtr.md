@@ -2,6 +2,7 @@
 title: Syntax editor JavaScript support
 description: The syntax editor provides editing functions to support editing JavaScript scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/r\_EdtJvaScptWSyntxEdtr.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -35,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![](../image/SyntaxEditorIcon.png)
+\[Omitted image "SyntaxEditorIcon.png"\] Alt text:
 
 </td><td>
 
@@ -51,7 +52,7 @@ Disables the syntax editor. Click the button again to enable the syntax editor.
 
 </td></tr><tr><td>
 
-![](../image/FormatCode.png)
+\[Omitted image "FormatCode.png"\] Alt text:
 
 </td><td>
 
@@ -67,7 +68,7 @@ Applies the proper indentation to the script.
 
 </td></tr><tr><td>
 
-![](../image/IconComment.png)
+\[Omitted image "IconComment.png"\] Alt text:
 
 </td><td>
 
@@ -83,7 +84,7 @@ Comments out the selected code.
 
 </td></tr><tr><td>
 
-![](../image/JSunComment.png)
+\[Omitted image "JSunComment.png"\] Alt text:
 
 </td><td>
 
@@ -99,7 +100,7 @@ Removes comment codes from the selected code.
 
 </td></tr><tr><td>
 
-![](../image/JsValidate.png)
+\[Omitted image "JsValidate.png"\] Alt text:
 
 </td><td>
 
@@ -115,7 +116,7 @@ Checks the code for syntax errors. By default, the system automatically checks f
 
 </td></tr><tr><td>
 
-![](../image/Find.png)
+\[Omitted image "Find.png"\] Alt text:
 
 </td><td>
 
@@ -131,7 +132,7 @@ Highlights all occurrences of a search term in the script field and locates the 
 
 </td></tr><tr><td>
 
-![](../image/FindNext.png)
+\[Omitted image "FindNext.png"\] Alt text:
 
 </td><td>
 
@@ -147,7 +148,7 @@ Locates the next occurrence of the current search term in the script field. Use 
 
 </td></tr><tr><td>
 
-![](../image/FindPrevious.png)
+\[Omitted image "FindPrevious.png"\] Alt text:
 
 </td><td>
 
@@ -163,7 +164,7 @@ Locates the previous occurrence of the current search term in the script field. 
 
 </td></tr><tr><td>
 
-![](../image/Replace.png)
+\[Omitted image "Replace.png"\] Alt text:
 
 </td><td>
 
@@ -180,7 +181,7 @@ Replaces the next occurrence of a text string in the script field.1.  Click the 
 
 </td></tr><tr><td>
 
-![](../image/ReplaceAll.png)
+\[Omitted image "ReplaceAll.png"\] Alt text:
 
 </td><td>
 
@@ -197,7 +198,7 @@ Replaces all occurrences of a text string in the script field.1.  Click the icon
 
 </td></tr><tr><td>
 
-![](../image/JsSave.png)
+\[Omitted image "JsSave.png"\] Alt text:
 
 </td><td>
 
@@ -213,7 +214,7 @@ Saves changes without leaving the current view. Use this button in full screen m
 
 </td></tr><tr><td>
 
-![](../image/FullScreen.png)
+\[Omitted image "FullScreen.png"\] Alt text:
 
 </td><td>
 
@@ -229,7 +230,7 @@ Expands the script field to use the full form view for easier editing. Click the
 
 </td></tr><tr><td>
 
-![](../image/Help.png)
+\[Omitted image "Help.png"\] Alt text:
 
 </td><td>
 
@@ -261,5 +262,5 @@ Scripts use ECMA 262 standard JavaScript. Helpful resources include:
 -   History and overview: [http://javascript.crockford.com/survey.html](http://javascript.crockford.com/survey.html)
 -   JavaScript number reference: [http://www.hunlock.com/blogs/The\_Complete\_Javascript\_Number\_Reference](http://www.hunlock.com/blogs/The_Complete_Javascript_Number_Reference)
 
-**Parent Topic:**[Syntax editor plugin](../concept/c_SyntaxEditorPlugin.md)
+**Parent Topic:**[Syntax editor plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_SyntaxEditorPlugin.md)
 

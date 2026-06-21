@@ -2,7 +2,10 @@
 title: Set up a redirection widget
 description: You can set up a widget to reroute the user to the csm\_ticket page once the record state changes from draft to new, indicating that the user has completed the intake process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/set-up-redirection-widget.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-04-15"
 reading_time_minutes: 1

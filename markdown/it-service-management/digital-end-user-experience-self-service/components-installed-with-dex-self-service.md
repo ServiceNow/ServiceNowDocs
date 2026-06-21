@@ -2,6 +2,7 @@
 title: Components installed with DEX Self-service
 description: Several tables are installed along with DEX Self-service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-self-service/components-installed-with-dex-self-service.html
 release: yokohama
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service

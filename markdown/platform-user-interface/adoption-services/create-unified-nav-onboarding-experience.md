@@ -2,6 +2,7 @@
 title: Create an onboarding modal
 description: Create your own onboarding modals to introduce your users to a new experience or application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/create-unified-nav-onboarding-experience.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
@@ -63,11 +64,11 @@ Role required: admin
 
     1.  Select your guidance from the Guidances list.
 
-        ![test2 is displayed in Guidances list.](../../../build/adoption-services/image/test2guidance.png)
+        \[Omitted image "test2guidance.png"\] Alt text: test2 is displayed in Guidances list.
 
     2.  On the Help Guidance Steps related list, select **New**.
 
-        ![test2 Help Guidance Step list is displayed.](../../../build/adoption-services/image/test2helpguidancestep.png)
+        \[Omitted image "test2helpguidancestep.png"\] Alt text: test2 Help Guidance Step list is displayed.
 
     3.  On the form, fill in the fields.
 
@@ -140,11 +141,11 @@ The guidance that this Help Guidance Step applies to.
 
     1.  Select your help guidance step in the related list.
 
-        ![test2 Help Guidance Step list is displayed.](../../../build/adoption-services/image/test2helpguidancestep.png)
+        \[Omitted image "test2helpguidancestep.png"\] Alt text: test2 Help Guidance Step list is displayed.
 
     2.  On the Help Contents related list, select **New**.
 
-        ![help contents related list is displayed.](../../../build/adoption-services/image/helpcontents.png)
+        \[Omitted image "helpcontents.png"\] Alt text: help contents related list is displayed.
 
     3.  **Note:** Form fields are different for each type of guidance. Refer to the correct form for your guidance.
 

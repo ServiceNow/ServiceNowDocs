@@ -2,6 +2,7 @@
 title: Change legal name through Virtual Agent
 description: Change your legal name change through Virtual Agent chat in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/change-legal-na-awd.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -44,5 +45,5 @@ Role required: none
     An HR case is created and the chat conversation is ended.
 
 
-**Parent Topic:**[Using](../concept/using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
 

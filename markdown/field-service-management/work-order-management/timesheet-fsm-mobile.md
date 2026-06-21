@@ -2,6 +2,7 @@
 title: Time Sheets in Mobile Agent
 description: You can access and manage your time sheets from a mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/timesheet-fsm-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -29,14 +30,14 @@ Timesheets provide the following capabilities:
 -   Submit a time sheet
 -   Submit a time card
 
-![Mobile view of an agent's app displaying active time sheets.](../image/timesheet_fsm_mobile.png)
+\[Omitted image "timesheet\_fsm\_mobile.png"\] Alt text: Mobile view of an agent's app displaying active time sheets.
 
--   **[Create a time sheet](../task/create-timesheet-fsm-mobile.md)**  
+-   **[Create a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/create-timesheet-fsm-mobile.md)**  
 Create a time sheet to group all your time cards for the given week from the ServiceNow Agent mobile app.
--   **[Add a time card to log your work time](../task/create-timecard-fsm-mobile.md)**  
+-   **[Add a time card to log your work time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/create-timecard-fsm-mobile.md)**  
 Create time cards to log your work time through the ServiceNow Agent mobile app.
--   **[Manage time cards in the time sheet](../task/manage-timesheet-fsm-mobile.md)**  
+-   **[Manage time cards in the time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-timesheet-fsm-mobile.md)**  
 Manage your time cards in the Agent mobile app by performing actions such as submitting or deleting a time card or viewing notes.
 
-**Parent Topic:**[Complete work orders on Mobile Agent](Use-mobile-app-fsm.md)
+**Parent Topic:**[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
 

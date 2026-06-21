@@ -2,6 +2,7 @@
 title: Create a Talent Development Core featured growth item
 description: Use the Featured Growth Items table to define the roles, skills, and opportunities that appear in the Featured by your company widget. This widget can be used to promote desirable career opportunities and skills that foster growth and development for employees within your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/egd-admin-create-featured-growth-item.html
 release: yokohama
 product: Talent Development Core
 classification: talent-development-core
@@ -37,15 +38,15 @@ Role required: admin \[sn\_egd\_core.admin or sn\_egd\_shared\_lib.admin\]
 
 4.  Set the corresponding fields that appear on the form depending on the option you selected in the **Type** field.
 
-<table id="choicetable_qff_mm4_b1c"><thead><tr><th align="left" id="d553190e148">
+<table id="choicetable_qff_mm4_b1c"><thead><tr><th align="left" id="d207548e148">
 
 Field
 
-</th><th align="left" id="d553190e151">
+</th><th align="left" id="d207548e151">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d553190e157">
+</th></tr></thead><tbody><tr><td id="d207548e157">
 
 **Role level**
 
@@ -53,7 +54,7 @@ Description
 
 The title for the role you want promote as a feature growth item.This field only appears when the **Type** field is set to **Job Title**.
 
-</td></tr><tr><td id="d553190e174">
+</td></tr><tr><td id="d207548e174">
 
 **Skill**
 
@@ -61,7 +62,7 @@ The title for the role you want promote as a feature growth item.This field only
 
 A critical skill you want to promote as a feature growth item that your employees can acquire.This field only appears when the **Type** field is set to **Skill**.
 
-</td></tr><tr><td id="d553190e191">
+</td></tr><tr><td id="d207548e191">
 
 **Skill level**
 
@@ -69,7 +70,7 @@ A critical skill you want to promote as a feature growth item that your employee
 
 The level of expertise required for the skill that you selected in the **Skill** field.This field only appears when the **Type** field is set to **Skill**.
 
-</td></tr><tr><td id="d553190e211">
+</td></tr><tr><td id="d207548e211">
 
 **Opportunity type**
 
@@ -77,7 +78,7 @@ The level of expertise required for the skill that you selected in the **Skill**
 
 An opportunity you want to promote as a feature growth item to employees within your organization.This field only appears when the **Type** field is set to **Opportunity**.
 
-</td></tr><tr><td id="d553190e229">
+</td></tr><tr><td id="d207548e229">
 
 **Job requisition**
 
@@ -109,5 +110,5 @@ The Featured by your company widget appears on the Aspirations landing page.
 
 **Important:** Only job titles and skills that you define using the Featured Growth Items table will appear in the Featured by your company widget on the Aspirations landing page. The opportunities that you define will appear in the Featured by your company widget on the Opportunity Marketplace landing page.
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](../concept/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-administration.md)
 

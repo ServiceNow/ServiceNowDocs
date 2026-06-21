@@ -2,11 +2,12 @@
 title: Fetch and view EcoVadis scores
 description: Retrieve current scores and scorecards from EcoVadis on demand or at a set frequency of time using Third-party Risk Management. Customizing settings for the EcoVadis Fetch Score Scheduler can help you get the latest scores when you need them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ecovadis-scores.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [TPRM with EcoVadis, Integrate, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -95,5 +96,5 @@ Scores are mapped to the Risk Intelligence Provider and Provider Service for Eco
 
 **Note:** You can verify that scores are being fetched by navigating to **All** &gt; **EcoVadis for third-party Risk Management** &gt; **Application Logs**.
 
-**Parent Topic:**[Integrating EcoVadis with Third-party Risk Management](../concept/tprm-integrating-ecovadis.md)
+**Parent Topic:**[Integrating EcoVadis with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-integrating-ecovadis.md)
 

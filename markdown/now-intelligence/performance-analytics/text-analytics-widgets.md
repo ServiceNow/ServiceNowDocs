@@ -2,6 +2,7 @@
 title: Text analytics and text widgets
 description: Text analytics reveal any patterns that exist in user-entered text fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/text-analytics-widgets.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
@@ -15,7 +16,7 @@ breadcrumb: [Performance Analytics widgets, Reporting, dashboards, and Performan
 
 Text analytics reveal any patterns that exist in user-entered text fields.
 
-**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](analytics-center-data-visualizations.md) or [Filters in Platform Analytics](../../par-for-workspace/concept/interactive-filters-workspace.md).
+**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/interactive-filters-workspace.md).
 
 This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
@@ -39,6 +40,4 @@ When you set up text analytics, you decide on:
 When you have set up text analytics, create a widget to visualize the text and include the widget in a dashboard.
 
 The following video walks you through the process of setting up and viewing text analytics:
-
-How to create a Performance Analytics text analytics word cloud widget, which analyzes unstructured or qualitative data. Also how to set up and collect data for text analytics widgets.
 

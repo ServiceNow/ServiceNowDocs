@@ -2,6 +2,7 @@
 title: Activate Performance Analytics jobs
 description: Activate the Performance Analytics \(PA\) jobs for the HR Success Dashboard indicators to collect daily and historical data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/activae-pa-indicator-jobs-sdb.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

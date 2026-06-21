@@ -2,6 +2,7 @@
 title: Chemical form
 description: Field description for a chemical form that the chemical manager uses to create a chemical by manually completing the form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety/hs-chemical-form.html
 release: yokohama
 product: Health and Safety
 classification: health-and-safety
@@ -260,5 +261,5 @@ Primary language
 Language in which the chemical record fields and associated information is requested from the 3E database.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Environmental Management reference](../concept/hs-reference-environmental-management.md)
+</table>**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
 

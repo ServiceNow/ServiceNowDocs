@@ -2,6 +2,7 @@
 title: Create a community profile field
 description: Create a field to display on the community profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/create-profile-field.html
 release: yokohama
 product: Communities
 classification: communities
@@ -45,5 +46,5 @@ A name for the field.
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Configure the community profile](configure-community-profile.md)
+**Parent Topic:**[Configure the community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-community-profile.md)
 

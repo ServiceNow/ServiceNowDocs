@@ -2,6 +2,7 @@
 title: Manage appointments in the CSM Configurable Workspace
 description: Agents and dispatchers can book, reschedule, or cancel appointments on behalf of customers for the associated work orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking/managing-appts-from-csm-workspace.html
 release: yokohama
 product: Appointment Booking
 classification: appointment-booking
@@ -15,12 +16,12 @@ breadcrumb: [Manage appointments on behalf of a customer, Manage appointments, U
 
 Agents and dispatchers can book, reschedule, or cancel appointments on behalf of customers for the associated work orders.
 
--   **[Book work order appointment in the CSM Configurable Workspace](../task/book-workorder-appointment-workspace.md)**  
+-   **[Book work order appointment in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/book-workorder-appointment-workspace.md)**  
 Book appointment for an associated work order or work order task to dispatch agent to address the customer issue.
--   **[Reschedule work order appointment in the CSM Configurable Workspace](../task/Reschedule-workorder-appointment-workspace.md)**  
+-   **[Reschedule work order appointment in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/Reschedule-workorder-appointment-workspace.md)**  
 Reschedule appointment for an associated work order to dispatch agent to address the customer issue based on rescheduled time slot.
--   **[Cancel work order appointment in CSM Agent Workspace](../task/Cancel-workorder-appointment-workspace.md)**  
+-   **[Cancel work order appointment in CSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/Cancel-workorder-appointment-workspace.md)**  
 Cancel an appointment for customer from a work order. Cancelling an appointment, cancels the associated work order.
 
-**Parent Topic:**[Manage appointments on behalf of a customer](managing-appts-on-behalf-of-customer.md)
+**Parent Topic:**[Manage appointments on behalf of a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appts-on-behalf-of-customer.md)
 

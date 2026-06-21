@@ -2,6 +2,7 @@
 title: Disable AJAXEvaluate
 description: Use the glide.script.allow.ajaxevaluate to protect the system API from vulnerabilities of Client script execution through AJAX calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -51,7 +52,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -117,11 +118,11 @@ References
 
 This property belongs to the same family of properties that secure and restrict execution of scripts originating from the client:
 
--   **glide.script.use.sandbox**: See [Client generated scripts sandbox](sc-client-generated-scripts-sandbox.md).
--   **glide.script.allow.ajaxevaluate**: See [Enable AJAXEvaluate](sc-disable-ajaxevaluate.md).
+-   **glide.script.use.sandbox**: See [Client generated scripts sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-client-generated-scripts-sandbox.md).
+-   **glide.script.allow.ajaxevaluate**: See [Enable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md).
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

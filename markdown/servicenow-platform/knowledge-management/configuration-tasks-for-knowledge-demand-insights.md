@@ -2,6 +2,7 @@
 title: Configuration tasks for knowledge demand insights
 description: Review the following configurations tasks for knowledge demand insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/configuration-tasks-for-knowledge-demand-insights.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

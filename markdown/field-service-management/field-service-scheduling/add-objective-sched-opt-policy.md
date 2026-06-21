@@ -2,6 +2,7 @@
 title: Add objectives to a policy
 description: Add objectives to the default objectives in Schedule Optimization policies to achieve additional goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/add-objective-sched-opt-policy.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -39,7 +40,7 @@ Optional objectives
 -   Minimize Overtime: Caps agent work hours within standard time ranges.
 -   Maximize Balance in Tasks &amp; Work Hours: Distributes tasks and hours evenly among agents.
 
-**Note:** Objectives are optional but act as levers, adjusting your optimization to better suit your needs. For example, if Minimize overtime is set as an objective, Schedule Optimization will try to assign tasks to agents during normal hours. If that's not possible, tasks will be assigned to agents even if it will require overtime. For a list of the objectives, see [Optimization features used with Schedule Optimization](../reference/hard-soft-constraints.md).
+**Note:** Objectives are optional but act as levers, adjusting your optimization to better suit your needs. For example, if Minimize overtime is set as an objective, Schedule Optimization will try to assign tasks to agents during normal hours. If that's not possible, tasks will be assigned to agents even if it will require overtime. For a list of the objectives, see [Optimization features used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/hard-soft-constraints.md).
 
 ## Procedure
 
@@ -51,7 +52,7 @@ Optional objectives
 
 4.  Select **New**.
 
-5.  In the **Optimization Features** field, select the Lookup icon \(![Lookup icon.](../../../common/image/List_SearchIcon.png)\) and select the objective to add.
+5.  In the **Optimization Features** field, select the Lookup icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup icon.\) and select the objective to add.
 
 6.  Select **Submit**.
 

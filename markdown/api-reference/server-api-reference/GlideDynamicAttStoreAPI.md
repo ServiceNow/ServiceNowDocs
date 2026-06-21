@@ -2,6 +2,7 @@
 title: GlideDynamicAttributeStore - Global
 description: The GlideDynamicAttributeStore API provides access to a dynamic attribute store data type, similar to other data types such as string, date, or date/time.Clears all attributes and their values from the GlideDynamicAttributeStore object.Returns the JSON map representation of the values stored in the current GlideDynamicAttributeStore object.Returns the set of dynamic attribute definitions present in the store.Returns the value of the specified attribute within the dynamic attribute store element.Returns the compact string representation of the contents of the current GlideDynamicAttributeStore object.Clears the current GlideDynamicAttributeStore object and then stores the passed JSON map in the GlideDynamicAttributeStore object.Sets the value of the dynamic attribute located at a specified path within a dynamic attribute store element.Sets the dynamic attribute referenced by a specified group/attribute path to a specified value.Sets the internal JSON storage for the field to the String representation of the passed value. If the passed value is another instance of a GlideDynamicAttributeStore object, it copies the values from that object to the current object.Clears the current GlideDynamicAttributeStore object and then stores the passed JSON map in that GlideDynamicAttributeStore object.Returns the content of the GlideDynamicAttributeStore object as a string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
@@ -15,23 +16,23 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideDynamicAttributeStore API provides access to a dynamic attribute store data type, similar to other data types such as string, date, or date/time.
 
-This API provides methods that enable you to get and set dynamic schema attributes within a GlideDynamicAttribute object. These dynamic attributes enable each row in a table to contain different fields. The fields on which this data type is applied are shown as `dynamic_attribute_store` within the column data type description of the table. For more details on dynamic attributes, see [Dynamic schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+This API provides methods that enable you to get and set dynamic schema attributes within a GlideDynamicAttribute object. These dynamic attributes enable each row in a table to contain different fields. The fields on which this data type is applied are shown as `dynamic_attribute_store` within the column data type description of the table. For more details on dynamic attributes, see Dynamic schema.
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
 The following screenshot shows the dynamic attribute group and associated dynamic attributes that are used in the code examples for this API. The defined attributes provide an example of each of the data types that the dynamic schema implementation supports.
 
-![Dynamic attribute group setup](../images/GDAS-UI_group_setup.png)
+\[Omitted image "GDAS-UI\_group\_setup.png"\] Alt text: Dynamic attribute group setup
 
-There are methods in this API that have the same functionality as dynamic schema methods in the [GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#) API. Use this API if you want to set the same group of dynamic attributes on multiple records. Using this API, you can stage a GlideDynamicAttributeStore object with the desired attributes and then copy that object to multiple GlideRecords using the various setDynamicAttributeValues\(\) methods. Using similar dynamic schema methods in the GlideRecord API performs the actions on a specified GlideRecord.
+There are methods in this API that have the same functionality as dynamic schema methods in the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) API. Use this API if you want to set the same group of dynamic attributes on multiple records. Using this API, you can stage a GlideDynamicAttributeStore object with the desired attributes and then copy that object to multiple GlideRecords using the various setDynamicAttributeValues\(\) methods. Using similar dynamic schema methods in the GlideRecord API performs the actions on a specified GlideRecord.
 
 See also:
 
--   [GlideDynamicAttribute - Global](../../GlideDynamicAttribute/concept/GlideDynamicAttributeAPI.md#)
--   [GlideElementDynamicAttributeStore - Global](../../GlideElementDynamicAttributeStore/concept/GlideElementDynamicAttStoreAPI.md#)
--   [GlideTransientDynamicAttribute - Global](../../GlideTransientDynamicAttribute/concept/GlideTransientDynamicAttributeAPI.md#)
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
+-   [GlideTransientDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideTransientDynamicAttributeAPI.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
 ## GlideDynamicAttributeStore - clear\(\)
 
@@ -153,8 +154,8 @@ Array
 
 </td><td>
 
-Array containing all transient and non-transient dynamic attributes present in the store.-   [GlideDynamicAttribute](../../GlideDynamicAttribute/concept/GlideDynamicAttributeAPI.md#) object. Dynamic attributes are defined in the Dynamic Attribute \[dynamic\_attribute\] table with a data type and a sys\_id.
--   [GlideTransientDynamicAttribute](../../GlideTransientDynamicAttribute/concept/GlideTransientDynamicAttributeAPI.md#) object. Transient dynamic attributes are dynamic attributes that have been added to a DynamicAttributeStore field without a definition in the Dynamic Attribute \[dynamic\_attribute\] table. Transient dynamic attributes are handled as strings and have no sys\_id.
+Array containing all transient and non-transient dynamic attributes present in the store.-   [GlideDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) object. Dynamic attributes are defined in the Dynamic Attribute \[dynamic\_attribute\] table with a data type and a sys\_id.
+-   [GlideTransientDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideTransientDynamicAttributeAPI.md) object. Transient dynamic attributes are dynamic attributes that have been added to a DynamicAttributeStore field without a definition in the Dynamic Attribute \[dynamic\_attribute\] table. Transient dynamic attributes are handled as strings and have no sys\_id.
 
 **Note:** The Dynamic Attribute \[dynamic\_attribute\] table is accessible by navigating to **All** &gt; **Dynamic Schema** &gt; **Dynamic Attribute Groups**, selecting a group, and selecting the **Dynamic Attributes** tab.
 
@@ -338,7 +339,7 @@ Output:
 
 Clears the current GlideDynamicAttributeStore object and then stores the passed JSON map in the GlideDynamicAttributeStore object.
 
-This method is functionally the same as [GlideDynamicAttributeStore - setValue\(Object value\)](GlideDynamicAttStoreAPI.md#), except that it assumes that all date values are provided in the user's locale.
+This method is functionally the same as [GlideDynamicAttributeStore - setValue\(Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md), except that it assumes that all date values are provided in the user's locale.
 
 <table id="table_zpm_m2j_1bc" class="parameters"><thead><tr><th>
 
@@ -420,7 +421,7 @@ Output:
 
 Sets the value of the dynamic attribute located at a specified path within a dynamic attribute store element.
 
-This method works the same as the [GlideDynamicAttributeStore - setDynamicAttributeValue\(String groupAttrPath, Object value\)](GlideDynamicAttStoreAPI.md#) method except in its handling of Boolean and date/time values. This method assumes that all date/time values are provided in the user's locale.
+This method works the same as the [GlideDynamicAttributeStore - setDynamicAttributeValue\(String groupAttrPath, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md) method except in its handling of Boolean and date/time values. This method assumes that all date/time values are provided in the user's locale.
 
 <table id="table_zqq_cxp_1bc" class="parameters"><thead><tr><th>
 
@@ -679,7 +680,7 @@ Output:
 
 Clears the current GlideDynamicAttributeStore object and then stores the passed JSON map in that GlideDynamicAttributeStore object.
 
-This method is functionally the same as [GlideDynamicAttributeStore - setDisplayValue\(Object value\)](GlideDynamicAttStoreAPI.md#) except that it assumes that all date values are in UTC.
+This method is functionally the same as [GlideDynamicAttributeStore - setDisplayValue\(Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md) except that it assumes that all date values are in UTC.
 
 <table id="table_uh2_2hj_1bc" class="parameters"><thead><tr><th>
 

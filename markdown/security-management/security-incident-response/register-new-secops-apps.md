@@ -2,6 +2,7 @@
 title: Register new Security Operations applications for on-demand orchestration
 description: In the base system, Security Operations applications are automatically registered when they are activated. Registration allows the workflows associated with the applications to be available for on-demand orchestration requests. If needed, you can define new applications and associate workflows with them for on-demand orchestration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/register-new-secops-apps.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -25,21 +26,21 @@ Role required: sn\_si.write
 
     The Security Operations Application screen appears.
 
-    ![Security Operations application registration](../image/secops-apps.png)
+    \[Omitted image "secops-apps.png"\] Alt text: Security Operations application registration
 
 2.  In the **Application** field, click the lookups \(magnifying glass\) icon.
 
     The Applications screen appears.
 
-    ![Applications screen](../image/applications.png)
+    \[Omitted image "applications.png"\] Alt text: Applications screen
 
 3.  Click **New**.
 
     The Application Creator screen appears.
 
-    ![Application creator](../image/app-creator.png)
+    \[Omitted image "app-creator.png"\] Alt text: Application creator
 
-    **Note:** The options that display depend on the applications you have activated. For detailed information on creating new applications, see [Building applications](https://www.servicenow.com/docs/access?context=build-applications&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+    **Note:** The options that display depend on the applications you have activated. For detailed information on creating new applications, see .
 
 4.  After the application has been generated, you can create scripts for setting up on-demand orchestration.
 

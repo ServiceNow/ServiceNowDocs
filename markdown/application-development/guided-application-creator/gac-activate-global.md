@@ -2,6 +2,7 @@
 title: Allow global application development in Guided Application Creator
 description: By default, developers can't create applications in the global scope in Guided Application Creator. You can limit global application development to certain developers by assigning them an additional role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/guided-application-creator/gac-activate-global.html
 release: yokohama
 product: Guided Application Creator
 classification: guided-application-creator
@@ -17,7 +18,7 @@ By default, developers can't create applications in the global scope in Guided A
 
 ## Before you begin
 
-**Important:** Applications that you create in the global scope bypass scope protections and may cause licensing issues. For information on what to expect when you create an application in the global scope, see [Application scope](../../applications/concept/c_ApplicationScope.md).
+**Important:** Applications that you create in the global scope bypass scope protections and may cause licensing issues. For information on what to expect when you create an application in the global scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_ApplicationScope.md).
 
 Role required: admin
 
@@ -25,7 +26,7 @@ Role required: admin
 
 You designate someone to use Guided Application Creator by assigning them the sn\_g\_app\_creator.app\_creator role. You can allow this user to create applications in the global scope by also assigning the sn\_g\_app\_creator.global role.
 
-Alternatively, to allow all users with the sn\_g\_app\_creator.app\_creator role to create applications in the global scope, add the **sn\_g\_app\_creator.allow\_global** system property and set it to **true**. For more information on adding a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+Alternatively, to allow all users with the sn\_g\_app\_creator.app\_creator role to create applications in the global scope, add the **sn\_g\_app\_creator.allow\_global** system property and set it to **true**. For more information on adding a property, see Add a system property.
 
 **Note:** Users with the admin role can create applications in the global scope, regardless of whether or not they have the sn\_g\_app\_creator.global role.
 
@@ -37,7 +38,7 @@ Alternatively, to allow all users with the sn\_g\_app\_creator.app\_creator role
 
 3.  On the Edit Members page, move the sn\_g\_app\_creator.global role from **Collection** to **Roles List**.
 
-    ![The appropriate roles are selected](../image/gac-global-role.png)
+    \[Omitted image "gac-global-role.png"\] Alt text: The appropriate roles are selected
 
     Ensure that the sn\_g\_app\_creator.app\_creator role is also selected. The developer needs both the sn\_g\_app\_creator.app\_creator and sn\_g\_app\_creator.global roles to create applications in the global scope in Guided Application Creator.
 
@@ -50,5 +51,5 @@ Alternatively, to allow all users with the sn\_g\_app\_creator.app\_creator role
 
 The option to create an application in the global scope is available to developers with the sn\_g\_app\_creator.global role. Developers can use, for example, ServiceNow Studio, to create an app.
 
-**Parent Topic:**[Guided Application Creator](../concept/guided-app-creator.md)
+**Parent Topic:**[Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/guided-app-creator.md)
 

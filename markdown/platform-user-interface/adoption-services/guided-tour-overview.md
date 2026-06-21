@@ -2,6 +2,7 @@
 title: Guided Tours dashboard
 description: The Guided Tours Overview dashboard provides statistics related to guided tour usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/guided-tour-overview.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
@@ -35,7 +36,7 @@ The User Engagement tab displays the following widgets.
 |Daily Engagement|Trends and patterns of user engagement with guided tours per day over a period of time. You can save this graph in PNG or JPEG format by hovering over the graph and choosing the relevant format from the context menu.|
 |Disengaged Users|Number of users who disabled the auto launch feature for the guided tour per day over a period time. You can see the number of viewers not interested to look at the guided tours while using the application. You can save this graph in PNG or JPEG format by hovering over the graph and choosing the relevant format from the context menu.|
 
-![User Engagement tab](../image/userengagementtab1.png "Sample User Engagement tab")
+\[Omitted image "userengagementtab1.png"\] Alt text: User Engagement tab
 
 ## Tour Statistics
 
@@ -50,5 +51,5 @@ The Tour Statistics tab displays a list of tours sorted by context. The tab has 
 |Top 10 Tour Failures|Number of failed tours by tour name.|
 |Top 10 Tour Dismissals|Number of dismissed tours by tour name.|
 
-![Tour Statistics tab](../image/dashboardtourstatistics1.png "Sample Tour Statistics tab")
+\[Omitted image "dashboardtourstatistics1.png"\] Alt text: Tour Statistics tab
 

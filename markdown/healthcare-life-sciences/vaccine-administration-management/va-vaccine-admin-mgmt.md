@@ -2,6 +2,7 @@
 title: Virtual Agent conversations for Vaccine Administration Management
 description: Virtual Agent conversations enable users to get help with the vaccination process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/vaccine-administration-management/va-vaccine-admin-mgmt.html
 release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -103,5 +104,5 @@ Active
 </td></tr></tbody>
 </table>To activate, deactivate, or edit conversation topics, navigate to **Collaboration** &gt; **Virtual Agent** &gt; **Designer**. In the Topics page, select the **Vaccine Management** category. Click a topic that you want to update. Use the **Active** toggle button to activate or deactivate a topic.
 
-**Parent Topic:**[Configuring Vaccine Administration Management](vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

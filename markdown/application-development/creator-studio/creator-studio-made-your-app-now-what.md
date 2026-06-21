@@ -2,11 +2,12 @@
 title: I've built my app in Creator Studio, now what?
 description: You've added forms and automation to your app, and customized the workspace list configurations. Now what?
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-made-your-app-now-what.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 keywords: [app faq, creator studio faq]
 breadcrumb: [Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
@@ -28,7 +29,7 @@ After deployment, your app lives as forms in the Service Catalog and categories 
 
 Users can access those forms directly in a Service Catalog, as well as Service Portal and an Employee Center.
 
-If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://www.servicenow.com/docs/access?context=associate-cat-item-taxonomy-ec&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://www.servicenow.com/docs/access?context=config-taxonomy&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US).
+If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in , and more about taxonomy, which is a categorization method, in .
 
 ## Where do fulfillers work on submitted forms?
 
@@ -36,7 +37,7 @@ Fulfillers access the default workspace on the ServiceNow AI Platform by going t
 
 **Note:** You can't access the Request App Workspace as the owner of an app, though you can access it if you also have an admin or the applicable agent role. The app's agent role is &lt;app scope&gt;.agent, for example, x\_snc\_app\_name.agent.
 
-![Fulfillers work on requests in the workspace](../image/crs-form-sub-workspace.png "Request App Workspace")
+\[Omitted image "crs-form-sub-workspace.png"\] Alt text: Fulfillers work on requests in the workspace
 
 You can preview and interact with how records appear in the workspace category directly within Creator Studio by navigating to the **List categories** section of the navigation panel and selecting a record.
 
@@ -48,10 +49,10 @@ You can open Creator Studio apps in other builders. For example, open it in Serv
 
 Got more questions? Take a look at the [Creator Studio FAQs on the Community site](https://www.servicenow.com/community/creator-studio-blogs/creator-studio-faqs/ba-p/2947282)!
 
-You can also [watch a quick video on how to contact your admin and check out some helpful resources](creator-studio-get-help-now.md).
+You can also [watch a quick video on how to contact your admin and check out some helpful resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-get-help-now.md).
 
--   **[Closing requests and app notifications in Creator Studio](creator-studio-closing-requests-and-notifications.md)**  
+-   **[Closing requests and app notifications in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-closing-requests-and-notifications.md)**  
 The records that your app creates when a form is completed are not automatically closed, and some notifications are not automatic and must be configured.
 
-**Parent Topic:**[Building apps with Creator Studio](building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/building-apps-with-creator-studio.md)
 

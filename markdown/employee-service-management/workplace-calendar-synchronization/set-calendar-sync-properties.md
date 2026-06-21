@@ -2,6 +2,7 @@
 title: Set Workplace Calendar Synchronization properties
 description: Configure the properties for the Workplace Calendar Synchronization to set the Exchange Online Sync Integration Mode to Strict, Personal Authentication, or Normal mode to synchronize reservations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-calendar-synchronization/set-calendar-sync-properties.html
 release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

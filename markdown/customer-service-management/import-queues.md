@@ -2,7 +2,10 @@
 title: Import queues
 description: Import queues from your contact center provider to ensure that customer interactions are routed to the appropriate agents based on their skills and availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-queues.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Contact Center Integration Center** &gt; **CCaaS Admin Console**
 
-    ![admin console queues screen showing beginning state](../image/ccaas-import-queues.png "Admin console queues import")
+    \[Omitted image "ccaas-import-queues.png"\] Alt text: admin console queues screen showing beginning state
 
 2.  Select a contact center provider to import queues from.
 

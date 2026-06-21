@@ -2,6 +2,7 @@
 title: Create a remedial action
 description: Create your custom remedial actions from Check Definitions to resolve end-point related issues using Playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/create-remedial-action.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -19,7 +20,7 @@ Create your custom remedial actions from Check Definitions to resolve end-point 
 
 Role required: admin, dex\_admin
 
-**Note:** To learn more about different remedial actions, see [Digital End-User Experience Remedial Actions](../reference/dex-diff-ra.md).
+**Note:** To learn more about different remedial actions, see [Digital End-User Experience Remedial Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
 
 ## Procedure
 

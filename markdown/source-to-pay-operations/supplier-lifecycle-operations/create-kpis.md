@@ -2,6 +2,7 @@
 title: Create KPIs without using KPI template
 description: You can add new KPIs for a supplier without using the existing KPI templates. Adding new KPIs directly generates the corresponding KPI templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-kpis.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and navigate to **Lists** &gt; **Performance management** &gt; **KPIs**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Performance management** &gt; **KPIs**.
 
 3.  Select **New**.
 
@@ -219,5 +220,5 @@ This KPI is activated only when the following conditions are met:
 -   At least two active thresholds are added
 -   One of those thresholds is marked as target
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 

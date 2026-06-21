@@ -2,6 +2,7 @@
 title: Yokohama Patch 4
 description: The Yokohama Patch 4 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-patch-4.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-06-06"
@@ -17,7 +18,7 @@ The Yokohama Patch 4 release contains important problem fixes.
     -   Build date: 06-04-2025\_1836
     -   Build tag: glide-yokohama-12-18-2024\_\_patch4-05-14-2025
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -29,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Yokohama Patch 4 includes 281 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-yp4.png "Top 10 problem categories")
+\[Omitted image "prb-chart-yp4.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -42,13 +43,13 @@ Yokohama Patch 4 includes fixes for security-related problems that affected cert
     This patch includes the May Maintenance update script in the form of a script include \(QueryRangeACLAuditor\). This script is not triggered automatically and must be run after a patch upgrade. More details on running the QueryRangeACLAuditor and its functionality can be found in [KB2046494](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2046494).
 
 
--   **[Create multiple configurations](https://www.servicenow.com/docs/access?context=create-multiple-child-configs&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US)**
+-   ****
 
     The product configurator displays the product configuration, including the bundle product options and characteristics. Child offerings that can have multiple configurations have information icons. Select the Information icon to view a message indicating that the offering can have multiple configurations.
 
     Navigate to the child offering in the product hierarchy, which displays the offering summary page.
 
--   **[Multiple configurations](https://www.servicenow.com/docs/access?context=multiple-child-offering-configurations&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US)**
+-   ****
 
     When agents add configurable products to new opportunities, quotes, and orders, they can create multiple configurations for a child offering. They navigate to a summary page for a selected child offering. From this page, they can do the following:
 
@@ -69,7 +70,7 @@ Yokohama Patch 4 includes fixes for security-related problems that affected cert
 
     The system also uses the cardinality rules to determine when certain configuration options \(**Split** and **Delete**\) should be enabled or turned off, based on the context. For example, if the minimum child offering quantity is 1 and a child offering has a quantity of 1, the system disables the **Delete** option in the More options menu.
 
--   **[Create multiple configurations](https://www.servicenow.com/docs/access?context=create-multiple-child-configs&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US)**
+-   ****
 
     Change the quantity of a child offering that can have multiple configurations.
 
@@ -77,7 +78,7 @@ Yokohama Patch 4 includes fixes for security-related problems that affected cert
 
     Navigate to the child offering in the product hierarchy, which displays the offering summary page.
 
--   **[Identity Type](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)**
+-   **Identity Type**
 
     Use the Identity Type define the correct identity type while creating a user. You can select **Human**, **Machine**, or **AI Agent** based on the user identity.
 
@@ -4572,15 +4573,15 @@ This change adds new Query ACLs on certain table\(s\) and field\(s\) to grant qu
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
--   [Yokohama Patch 3 Hotfix 2](yokohama-patch-3-hf-2.md)
--   [Yokohama Patch 3 Hotfix 1](yokohama-patch-3-hf-1-PO.md)
--   [Yokohama Patch 3](yokohama-patch-3.md)
--   [Yokohama Patch 2](yokohama-patch-2.md)
--   [Yokohama Patch 1b Hotfix 1](yokohama-patch-1b-hf-1.md)
+-   [Yokohama Patch 3 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3-hf-2.md)
+-   [Yokohama Patch 3 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3-hf-1-PO.md)
+-   [Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
+-   [Yokohama Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-2.md)
+-   [Yokohama Patch 1b Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1b-hf-1.md)
 -   [Yokohama Patch 1b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2143212)
--   [Yokohama Patch 1](yokohama-patch-1.md)
--   [Yokohama security and notable fixes](yokohama-security-notables.md)
--   [All other Yokohama fixes](yokohama-all-other-fixes.md)
+-   [Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
+-   [Yokohama security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-security-notables.md)
+-   [All other Yokohama fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md)
 

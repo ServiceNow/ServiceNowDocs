@@ -2,6 +2,7 @@
 title: Add comments to code with Quick Actions
 description: Add comments in the Now Assist for Code enabled script editor using quick actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/add-comments-to-code-with-quick-actions.html
 release: yokohama
 product: Scripts
 classification: scripts

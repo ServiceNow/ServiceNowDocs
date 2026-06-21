@@ -2,6 +2,7 @@
 title: Assign a credit card service case
 description: Assign a credit card service case to yourself or to another credit card agent to start working on the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-card-operations/assign-credit-card-case.html
 release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -27,7 +28,7 @@ When a credit card service request is submitted, the credit card service case is
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Credit Card Service Cases**, click **All**.
 

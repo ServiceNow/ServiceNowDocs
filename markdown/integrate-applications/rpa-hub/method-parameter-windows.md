@@ -2,6 +2,7 @@
 title: Parameters of the Windows connector methods
 description: Learn about the parameters of the Windows connector methods in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/method-parameter-windows.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -25,7 +26,7 @@ Learn about the parameters of the Windows connector methods in RPA Desktop Desig
 
 ## Enter inputs for parameters
 
-To enter inputs, see [Configure port properties](../task/configure-input-port-properties.md).
+To enter inputs, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
-**Parent Topic:**[Windows connector](../concept/windows-connector.md)
+**Parent Topic:**[Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/windows-connector.md)
 

@@ -2,6 +2,7 @@
 title: View the smart assessment result using the Mobile agent app
 description: You can view the smart assessment that was completed as part of the safety inspection or audit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety/hs-view-smart-assessment-results.html
 release: yokohama
 product: Health and Safety
 classification: health-and-safety
@@ -21,7 +22,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_writer
 
 ## Procedure
 
-1.  Tap the Home icon \(![home icon](../../../reuse/images/home-page-icon.png)\).
+1.  Tap the Home icon \(\[Omitted image "home-page-icon.png"\] Alt text: home icon\).
 
 2.  Select **See all** for the **Inspections** or **Audits** section.
 
@@ -34,5 +35,5 @@ Role required: sn\_hs\_rm.safety\_inspection\_writer
 6.  Select **Close**.
 
 
-**Parent Topic:**[Manage the smart assessment for safety inspections and audits from mobile app](../concept/hs-manage-smart-assessments-mobile.md)
+**Parent Topic:**[Manage the smart assessment for safety inspections and audits from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-manage-smart-assessments-mobile.md)
 

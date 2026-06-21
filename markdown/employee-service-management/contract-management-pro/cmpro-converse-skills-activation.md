@@ -2,6 +2,7 @@
 title: Verify skill activation and configurations
 description: Verify that the skills are activated, configurations are complete, and role masking defined for conversational search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-converse-skills-activation.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -31,7 +32,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
     4.  Verify that the skill is active.
 
-        ![Verify TextToResult Platform skill is active](../image/cmpro-na-texttoresult-skill.png "TextToResult Platform skill")
+        \[Omitted image "cmpro-na-texttoresult-skill.png"\] Alt text: Verify TextToResult Platform skill is active
 
 2.  Verify the conversational search skills are active.
 
@@ -41,7 +42,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
     3.  Verify **Contracts query enhancer** and **Search contract with contextual input** are active.
 
-        ![Skill activation for conversational search](../image/cmpro-na-converse-skill.png "Skill activation for conversational search")
+        \[Omitted image "cmpro-na-converse-skill.png"\] Alt text: Skill activation for conversational search
 
 3.  Verify the Now Assist panel is selected in the agentic workflow.
 
@@ -53,18 +54,18 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
     4.  Verify **Engage via the Now Assist panel** is enabled.
 
-        ![Enable conversation search for Now Assist panel](../image/cmpro-na-nap-enable.png "Enable conversational search for Now Assist panel")
+        \[Omitted image "cmpro-na-nap-enable.png"\] Alt text: Enable conversation search for Now Assist panel
 
 4.  Set the data access permissions for the agentic workflow- `Conversational Contract Search`.
 
-    For more information, see [Configuring user access and data permissions for agentic workflows](../concept/cmpro-conf-users-agentic-wf.md).
+    For more information, see [Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-users-agentic-wf.md).
 
 5.  Set the data access permissions for the Agent- `Search contracts AI`.
 
-    For more information, see [Configuring user access and data permissions for AI agents](../concept/cmpro-conf-users-ai-agents.md).
+    For more information, see [Configuring user access and data permissions for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-users-ai-agents.md).
 
 6.  Set the data access permissions for the Now Assist skills- `Contracts query enhancer` and `Search contract with contextual input`.
 
-    For more information, see [Configure data permissions for Now Assist skills](cmpro-conf-roles-skills.md)
+    For more information, see [Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)
 
 

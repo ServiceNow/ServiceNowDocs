@@ -2,6 +2,7 @@
 title: Components installed with Omnichannel Callback
 description: Several types of components are installed with activation of the Omnichannel Callback plugin, including user roles, scheduled jobs, and tables.Read/write from the \[sys\_cs\_callback\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/omnichannel-callback/installed-with-omnichannel-callback.html
 release: yokohama
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -86,9 +87,9 @@ Lists the callback tasks of type Scheduled and Recurring.
 </td></tr></tbody>
 </table>## Roles installed
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
-**Parent Topic:**[Omnichannel Callback reference](../concept/omnichannel-callback-reference.md)
+**Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/omnichannel-callback/omnichannel-callback-reference.md)
 
 ## Callback API role \[sn\_omni\_callback.callback\_api\]
 

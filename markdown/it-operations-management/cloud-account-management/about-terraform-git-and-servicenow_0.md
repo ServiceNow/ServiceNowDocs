@@ -2,6 +2,7 @@
 title: Setting up Terraform and GitHub
 description: Simplify cloud account provisioning using Terraform. The workflow provides the basic steps involved in setting up Terraform and GitHub.Publish the Terraform template defined by the application in GitHub to enable version control, collaboration, and centralized storage.Integrate with Terraform Cloud/Terraform Enterprise to organize accounts, define workflows, enforce security, improve collaboration, and enhance scalability.Integrate GitHub with Terraform to link workspaces to repositories, enabling version control, change tracking, and rollbacks.Generating API tokens with limited permissions enhances security, enables fine-grained control, facilitates automation, and provides temporary access within your Terraform organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/about-terraform-git-and-servicenow\_0.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
@@ -15,7 +16,7 @@ breadcrumb: [Provisioning modes for Cloud Account Management in Cloud Workspace,
 
 Simplify cloud account provisioning using Terraform. The workflow provides the basic steps involved in setting up Terraform and GitHub.
 
-**Parent Topic:**[Cloud Account Management](cam-landing.md)
+**Parent Topic:**[Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/cam-landing.md)
 
 ## Publish Terraform templates
 
@@ -229,7 +230,7 @@ Role required: Terraform admin or DevOps team member
 
 5.  Select the link **Register a new OAuth Application**.
 
-    ![Terraform CVS provider registration form](../image/register-oauth.png)
+    \[Omitted image "register-oauth.png"\] Alt text: Terraform CVS provider registration form
 
 6.  Select **Register application**.
 
@@ -239,7 +240,7 @@ Role required: Terraform admin or DevOps team member
 
 9.  Go back to the Terraform console where the **Add a VCS provider** page is open and paste both Client ID and Client Secret.
 
-    ![Terraform VCS provider page](../image/terraform-vcs-form.png)
+    \[Omitted image "terraform-vcs-form.png"\] Alt text: Terraform VCS provider page
 
 10. Select **Connect and continue**.
 
@@ -256,7 +257,7 @@ Role required: Terraform admin or DevOps team member
 
 Make a note of the OAuth Token ID and share it with the ServiceNow admin.
 
-![GitHub OAuth Token ID](../image/git-oauth-token.png)
+\[Omitted image "git-oauth-token.png"\] Alt text: GitHub OAuth Token ID
 
 ## Create Terraform API token
 
@@ -292,11 +293,11 @@ Role required: Terraform admin
 
 ### What to do next
 
-[Setting up Cloud Account Management in Cloud Workspace](configuring-cloud-workspace.md)
+[Setting up Cloud Account Management in Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/configuring-cloud-workspace.md)
 
-[Add members to the group](../task/add-member-group.md)
+[Add members to the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/add-member-group.md)
 
-[Set up Terraform API key in ServiceNow](../task/configure-api-key.md).
+[Set up Terraform API key in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
 
-[Set up scan configuration for data visualization](../task/set-up-data-visualization.md).
+[Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/set-up-data-visualization.md).
 

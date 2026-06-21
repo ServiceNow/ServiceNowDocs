@@ -2,6 +2,7 @@
 title: Add customized variables in a document template
 description: Customize variables at a record producer level, and call out those variables in the HTML document template that you are configuring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/add-variables-html.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Role required: admin
 
     Add the variables that you want to use in the **Variables** list.
 
-    ![Variables in a record producer](../image/varibles-rec-pro.png "Example: Variable list in a record producer")
+    \[Omitted image "varibles-rec-pro.png"\] Alt text: Variables in a record producer
 
 2.  Open an HTML document template that has the same table selected as the record producer.
 
@@ -33,7 +34,7 @@ Role required: admin
 
     **Note:** start\_date refers to the exact **Name** of the variable in the **Variables** list in the record producer.
 
-    ![Calling customized variables in an HTML document template](../image/variables-html.png "Example: Calling customized variables in an HTML document template")
+    \[Omitted image "variables-html.png"\] Alt text: Calling customized variables in an HTML document template
 
     1 refers to variables from the table selected in the HTML document template.
 

@@ -2,6 +2,7 @@
 title: Initiate a self-served contract request
 description: As a case owner or fulfiller, initiate a self-served contract for the case you are working on. Self-served contracts are submitted when you want own paper based contract documents to be sent for review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-initiate-self-served-contract.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,9 +18,9 @@ As a case owner or fulfiller, initiate a self-served contract for the case you a
 
 ## Before you begin
 
-Before initiating a self-serve contract request, ensure you have created contract types and templates for them. For more information, see [Create a contract type](cncore-create-contract-type.md) and [Configure templates for a contract and amendment request in Contract Management Pro](../concept/cncore-document-templates.md).
+Before initiating a self-serve contract request, ensure you have created contract types and templates for them. For more information, see [Create a contract type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-contract-type.md) and [Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md).
 
-Ensure that the initiate contract button has been added to your workspace. For more information, see [Add a workspace action button for initiating a contract request](cncore-config-initiate-cont.md).
+Ensure that the initiate contract button has been added to your workspace. For more information, see [Add a workspace action button for initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-initiate-cont.md).
 
 Role required: sn\_cm\_core.contract\_user or sn\_cm\_core.contract\_fulfiller
 
@@ -62,8 +63,8 @@ On the Contract request form, you can assign the contract request, add collabora
 
 The next steps depend on whether there were validation errors:
 
--   If there were validation errors, complete the signatory details and resubmit the contract request. For more information, see [Resolve the failure to submit a self-serve contract](cncore-sync-signatories-fulfiller.md).
--   If there were no validation errors, you can proceed to work on the contract request. For more information see, [Work on self-served contract requests as a contract user](cncore-work-ss-cntr-request-user.md) and [Work on self-served contract requests as a contract fulfiller](cncore-work-ss-cntr-request-fulfiller.md).
+-   If there were validation errors, complete the signatory details and resubmit the contract request. For more information, see [Resolve the failure to submit a self-serve contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-sync-signatories-fulfiller.md).
+-   If there were no validation errors, you can proceed to work on the contract request. For more information see, [Work on self-served contract requests as a contract user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-user.md) and [Work on self-served contract requests as a contract fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-fulfiller.md).
 
-**Parent Topic:**[Initiating a contract request](cncore-initiate-contract.md)
+**Parent Topic:**[Initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-initiate-contract.md)
 

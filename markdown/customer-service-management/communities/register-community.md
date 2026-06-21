@@ -2,6 +2,7 @@
 title: Self-register to a community
 description: Once you have accessed a public forum and decided to join the community, you can self-register by signing up and accepting the community Terms and Conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/register-community.html
 release: yokohama
 product: Communities
 classification: communities
@@ -75,5 +76,5 @@ If the community Terms and Conditions are updated, all community users are promp
     4.  Click **User Profile** or **Notification Preferences** to edit your community profile or your notification and subscription settings.
 
 
-**Parent Topic:**[Use a community](use-community-forums.md)
+**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/use-community-forums.md)
 

@@ -2,6 +2,7 @@
 title: Configure AWA chat groups for HR Service Delivery Agent Workspace
 description: Adding your HR agents to chat groups to route chat requests to the correct agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/configure-awa-hr-groups.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

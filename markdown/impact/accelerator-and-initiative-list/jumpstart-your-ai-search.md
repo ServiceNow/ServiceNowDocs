@@ -2,6 +2,7 @@
 title: Jumpstart Your AI Search
 description: This Accelerator provides guidance on enabling and configuring AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-your-ai-search.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

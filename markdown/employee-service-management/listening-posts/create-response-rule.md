@@ -2,6 +2,7 @@
 title: Create a response sharing rule in Listening Posts
 description: Create response sharing rules by defining groups with which survey responses are shared.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/listening-posts/create-response-rule.html
 release: yokohama
 product: Listening Posts
 classification: listening-posts
@@ -76,5 +77,5 @@ User groups with which you want to share the pulse survey responses.**Note:**
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Create a pulse theme in Listening Posts](create-pulse-theme.md)
+**Parent Topic:**[Create a pulse theme in Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/create-pulse-theme.md)
 

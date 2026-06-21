@@ -2,6 +2,7 @@
 title: Create a sub forum
 description: Create a sub forum and map it to a parent forum to establish a forum hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/create-sub-forum.html
 release: yokohama
 product: Communities
 classification: communities
@@ -109,5 +110,5 @@ The knowledge base used for harvesting community discussions to knowledge articl
 
 The forum hierarchy of forums and sub forums is displayed on the community home page, forum landing page, when creating questions, blogs, or events, and in the search filters.
 
-**Parent Topic:**[Configure community forums](configure-forums-topics.md)
+**Parent Topic:**[Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-forums-topics.md)
 

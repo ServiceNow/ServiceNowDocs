@@ -2,6 +2,7 @@
 title: Assign tasks to yourself based on Intelligent Task Recommendation
 description: Assign the best available recommended task to yourself so that you can fill a gap in your schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/recommend-task-fsm-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -21,7 +22,7 @@ Role required: wm\_agent
 
 ## About this task
 
-The Intelligent Task Recommendation feature automatically recommends you the task with the highest recommendation score only when your administrator activates the Field Service Intelligent Task Recommendation plugin. For more information, see [Activate Intelligent Task Recommendation](activate-intelligent-task-recommendation.md).
+The Intelligent Task Recommendation feature automatically recommends you the task with the highest recommendation score only when your administrator activates the Field Service Intelligent Task Recommendation plugin. For more information, see [Activate Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/activate-intelligent-task-recommendation.md).
 
 As an agent, you can log in to the Now® Mobile Agent application to view the recommended task and assign the task to yourself.
 
@@ -33,7 +34,7 @@ As an agent, you can log in to the Now® Mobile Agent application to view the re
 
 2.  Tap **My Work**.
 
-3.  In the My Tasks section, tap the More actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select **Recommend Task**.
+3.  In the My Tasks section, tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **Recommend Task**.
 
 4.  Indicate your free time in the **Start time** and **End time** fields.
 
@@ -46,5 +47,5 @@ As an agent, you can log in to the Now® Mobile Agent application to view the re
 
 The task with the highest recommendation score is automatically assigned to you.
 
-**Parent Topic:**[Prioritizing on Mobile Agent](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

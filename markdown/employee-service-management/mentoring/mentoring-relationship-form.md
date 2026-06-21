@@ -2,6 +2,7 @@
 title: Mentoring relationship form
 description: Use the mentoring relationship form to start a new relationship between a mentee and a mentor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/mentoring/mentoring-relationship-form.html
 release: yokohama
 product: Mentoring
 classification: mentoring
@@ -33,5 +34,5 @@ Use the mentoring relationship form to start a new relationship between a mentee
 |Decline date|Date of declination of the relationship.|
 |Decline note|Details about why the relationship was declined.|
 
-**Parent Topic:**[Mentoring reference](mentoring-egd-reference.md)
+**Parent Topic:**[Mentoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/mentoring-egd-reference.md)
 

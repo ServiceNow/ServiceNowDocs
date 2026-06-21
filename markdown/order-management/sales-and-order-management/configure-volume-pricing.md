@@ -2,13 +2,14 @@
 title: Configure volume pricing
 description: Set volume pricing rules by using the Standard Price Adjustment matrix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/configure-volume-pricing.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure volume pricing
@@ -21,13 +22,13 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 
-3.  In the Pricing Matrices list, select the Standard Price Adjustment matrix and [create a new matrix version](create-matrix-versions.md).
+3.  In the Pricing Matrices list, select the Standard Price Adjustment matrix and [create a new matrix version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/create-matrix-versions.md).
 
-4.  In the Context variables section of the new matrix version, select the Search ![Search icon.](../../tmt-telecom-network-inventory/image/search.png) icon and in the list of Context variables, select the Quantity variable.
+4.  In the Context variables section of the new matrix version, select the Search \[Omitted image "search.png"\] Alt text: Search icon. icon and in the list of Context variables, select the Quantity variable.
 
     The Quantity variable is added to the Context variables section.
 
@@ -60,7 +61,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
         If you select the operator **between**, you specify a quantity range by entering the **Min value** and **Max value** for the range. You must set both a minimum and maximum value so that the quantity pricing adjustment applies only to the quantity of product offerings in the specified range.
 
-        ![Standard Price Adjustment Matrix conditions for Product Offering and Quantity range](../image/std-price-adj-matrix-example.png "Example quantity range for volume pricing")
+        \[Omitted image "std-price-adj-matrix-example.png"\] Alt text: Standard Price Adjustment Matrix conditions for Product Offering and Quantity range
 
         For example, the door sensor pricing adjustment applies only to quantities ranging from 1 through 10. The pricing adjustments are not applicable to other quantity values for door sensors.
 

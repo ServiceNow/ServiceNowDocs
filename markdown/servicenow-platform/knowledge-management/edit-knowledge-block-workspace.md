@@ -2,6 +2,7 @@
 title: Edit a knowledge block in Agent Workspace
 description: Edit knowledge blocks within a knowledge base in Agent Workspace to update the reused content across articles within the knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/edit-knowledge-block-workspace.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

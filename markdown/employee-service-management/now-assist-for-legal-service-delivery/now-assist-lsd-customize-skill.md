@@ -2,6 +2,7 @@
 title: Customize a summarization skill in Now Assist for Legal Service Delivery \(LSD\)
 description: If you have the admin role, you can customize a Now Assist for Legal Service Delivery \(LSD\) skill so that you can use the generative AI skills in Legal Counsel Center and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-customize-skill.html
 release: yokohama
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -34,7 +35,7 @@ The Legal Request summarization and Legal Matter summarization skills are availa
 
 3.  Create a copy of the Now Assist for LSD feature summarization skill for customization.
 
-    1.  On the feature card that is associated with the skill that you would like to activate, select the More actions icon ![More actions icon](../image/more-actions-icon.png) for the skill in the Active skills section and create a copy that you can customize by selecting **Make a copy**.
+    1.  On the feature card that is associated with the skill that you would like to activate, select the More actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon for the skill in the Active skills section and create a copy that you can customize by selecting **Make a copy**.
 
     2.  On the confirmation pop-up, select **Make a copy**.
 
@@ -42,7 +43,7 @@ The Legal Request summarization and Legal Matter summarization skills are availa
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs for each skill, see [Skill inputs for Now Assist for Legal Service Delivery \(LSD\)](../concept/now-assist-lsd-skill-inputs.md).
+    For information about the inputs for each skill, see [Skill inputs for Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
@@ -54,7 +55,7 @@ The Legal Request summarization and Legal Matter summarization skills are availa
 
     **Note:** Selecting the Enable Extended Tables check box applies the Now Assist context menu configuration to all the extended tables of the legal request and legal matter.
 
-    For more information about the Now Assist context menu summarization, see [Summarize records with the Now Assist context menu](https://www.servicenow.com/docs/access?context=summarize-with-now-assist-context-menu&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+    For more information about the Now Assist context menu summarization, see .
 
 6.  View the input data for each skill, such as the base input fields and related lists for the different input templates \(New, Work in progress, or Closed states\).
 
@@ -68,7 +69,7 @@ The Legal Request summarization and Legal Matter summarization skills are availa
 
         Add multiple base input fields, as necessary.
 
-        ![View of all the input tables and fields that are used to define the prompt that determines where to pull the data from](../image/lsd-na-skill-input-customize.png)
+        \[Omitted image "lsd-na-skill-input-customize.png"\] Alt text: View of all the input tables and fields that are used to define the prompt that determines where to pull the data from
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -184,7 +185,7 @@ Resolved
 
     3.  Select a record in the Test response section, and test the prompt response output format by selecting **Run Test**.
 
-        ![Selection of new sections that can be included in the summary for each input template.](../image/lsd-na-skill-prompt-customize.png)
+        \[Omitted image "lsd-na-skill-prompt-customize.png"\] Alt text: Selection of new sections that can be included in the summary for each input template.
 
     4.  Select **Save and continue** to go to the next step.
 
@@ -211,7 +212,7 @@ Resolved
 
     2.  In the **Role restrictions to skill** section, grant data access to additional roles.
 
-        For more information, see [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+        For more information, see role masking.
 
     3.  Select **Save and continue** to go to the next step.
 
@@ -227,7 +228,7 @@ Resolved
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 
@@ -241,11 +242,11 @@ Resolved
 
 13. Configure the variables of the practice areas that you want to be considered as inputs for the legal request or matter summarization.
 
-    For more information, see [Configure variables for Now Assist summarization](configure-variables-for-now-assist-summarization.md).
+    For more information, see [Configure variables for Now Assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/configure-variables-for-now-assist-summarization.md).
 
 
--   **[Configure variables for Now Assist summarization](configure-variables-for-now-assist-summarization.md)**  
+-   **[Configure variables for Now Assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/configure-variables-for-now-assist-summarization.md)**  
 Configure the variables of the practice areas that you want to be considered as inputs for legal request or matter summarization by using the Now Assist application.
 
-**Parent Topic:**[Configure Now Assist for Legal Service Delivery \(LSD\)](../concept/now-assist-lsd-configuring.md)
+**Parent Topic:**[Configure Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md)
 

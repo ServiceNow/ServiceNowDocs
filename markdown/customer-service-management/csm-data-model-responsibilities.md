@@ -2,7 +2,10 @@
 title: Service Model Foundation responsibilities
 description: A responsibility, or responsibility definition, describes a role or a function that supports a customer. Use responsibility definitions to create relationships between an agent and a customer or between two consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-data-model-responsibilities.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 4
@@ -102,7 +105,7 @@ You can use the responsibility definitions provided with Service Model Foundatio
 
 If you have an existing account manager responsibility definition, you may need to evaluate the functionality of the account manager responsibility definition provided with the Service Model Foundation plugins.
 
-**Note:** Creating and using responsibility definitions is a feature available in releases prior to Paris. Customers can create responsibility definitions using the Responsibility Definition \(sn\_customerservice\_responsibility\_def\) table and use those definitions to create account teams using the Account Team Member \(sn\_customerservice\_team\_member\) table. For more information, see [Create account teams](../concept/configure-csm-account-teams.md).
+**Note:** Creating and using responsibility definitions is a feature available in releases prior to Paris. Customers can create responsibility definitions using the Responsibility Definition \(sn\_customerservice\_responsibility\_def\) table and use those definitions to create account teams using the Account Team Member \(sn\_customerservice\_team\_member\) table. For more information, see [Create account teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-csm-account-teams.md).
 
 ## Create a responsibility definition
 
@@ -118,7 +121,7 @@ Users with the system administrator role can create responsibility definitions.
     -   Consumer to Consumer
     -   Household Member
 
-For more information, see [Create a responsibility definition](../task/t_CreateAResponsibilityDefinition.md).
+For more information, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_CreateAResponsibilityDefinition.md).
 
 ## Create a unique responsibility definition
 

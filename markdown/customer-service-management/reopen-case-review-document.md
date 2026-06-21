@@ -2,7 +2,10 @@
 title: Re-open a post case review document
 description: Re-open an approved post case review document if you need to make changes or update information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/reopen-case-review-document.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

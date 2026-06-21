@@ -2,6 +2,7 @@
 title: Complete questionnaires for a work order task on the Contractor Portal
 description: As a manager or field service agent of a contractor company, you can access and complete questionnaires from the work order tasks assigned to you through the Field Service Contractor Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/complete-questionnaire-contractor-portal.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -38,5 +39,5 @@ You can complete questionnaires for the work order tasks that are assigned to yo
 6.  Click **Submit** after answering all the mandatory questions in the questionnaire.
 
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

@@ -2,7 +2,10 @@
 title: Set up a form header in CSM Configurable Workspace
 description: You can create a form header for use in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-config-ws-form-header.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

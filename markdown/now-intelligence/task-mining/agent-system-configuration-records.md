@@ -2,6 +2,7 @@
 title: Agent configuration records in Task Mining
 description: Agent configuration records manage the behavior of the workstation agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/task-mining/agent-system-configuration-records.html
 release: yokohama
 product: Task Mining
 classification: task-mining
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Task Mining, Platform Analytics]
 
 Agent configuration records manage the behavior of the workstation agent.
 
-For information about agent configuration, see [Adjust Task Mining agent parameters](../task/set-system-parameters.md).
+For information about agent configuration, see [Adjust Task Mining agent parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/set-system-parameters.md).
 
 |Record|Description|Default value|
 |------|-----------|-------------|
@@ -35,5 +36,5 @@ For information about agent configuration, see [Adjust Task Mining agent paramet
 |Length of license period|Length of license period is used for reporting purposes on the number of active users.|180|
 |License period start date|Date from which the number of active users is counted. The date affects the reporting of the number of licenses.|none|
 
-**Parent Topic:**[Task Mining Reference](../concept/reference-task-mining.md)
+**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/reference-task-mining.md)
 

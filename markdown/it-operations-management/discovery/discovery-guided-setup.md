@@ -2,11 +2,12 @@
 title: Discovery Guided Setup
 description: ITOM Discovery Guided Setup provides a sequence of tasks that help you install and get started with Discovery. If you're setting up Discovery for the first time, this is a good way to get your environment up and running quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/discovery-guided-setup.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Discovery setup, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -17,7 +18,7 @@ ITOM Discovery Guided Setup provides a sequence of tasks that help you install a
 
 To access the ITOM Discovery Guided Setup, navigate to **All** &gt; **ITOM Guided Setup** &gt; **ITOM Discovery Guided Setup**. You're then prompted to enter a configuration name, which enables your progress to be saved and resumed later. If you're returning to the setup, select **Cancel** followed by **Exit** in the confirmation dialog to view the list of in-progress setup configurations.
 
-The ITOM Discovery Guided Setup leads you through a structured series of configuration activities to promote accurate visibility in the CMDB and establish a strong foundation for IT operations.
+The ITOM Discovery Guided Setup leads you through a structured series of configuration activities to promote accurate visibility in the Configuration Management Database \(CMDB\) and establish a strong foundation for IT operations.
 
 ## Phases
 
@@ -44,7 +45,7 @@ The setup is organized into the four distinct phases: Learn, Crawl, Walk, and Ru
 
 The ITOM Discovery Guided Setup provides step-by-step configuration support along with intuitive navigation to track progress and move smoothly through each phase.
 
-![Navigational features available on the landing page](../image/disco-guided-setup-landing-features.png "Guided Setup landing page features")
+\[Omitted image "disco-guided-setup-landing-features.png"\] Alt text: Navigational features available on the landing page
 
 <table id="table_mgh_yxv_5gc"><thead><tr><th>
 
@@ -60,7 +61,7 @@ Description
 
 </td><td>
 
-Exit the guided setup.**Note:** Selecting **Exit** in the confirmation dialog takes you back to the list of setup configurations currently in progress.
+Exit the Guided Setup.**Note:** Selecting **Exit** in the confirmation dialog takes you back to the list of setup configurations currently in progress.
 
 </td></tr><tr><td>
 
@@ -68,7 +69,7 @@ Exit the guided setup.**Note:** Selecting **Exit** in the confirmation dialog ta
 
 </td><td>
 
-Mark the guided setup complete.
+Mark the Guided Setup complete.
 
  **Note:** This option is only available once you have completed all the tasks in each phase of the setup.
 
@@ -78,7 +79,7 @@ Mark the guided setup complete.
 
 </td><td>
 
-Launch the guided setup phase.
+Launch the Guided Setup phase.
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Launch the guided setup phase.
 
 </td><td>
 
-Track your progress of the guided setup phase.
+Track your progress of the Guided Setup phase.
 
 </td></tr><tr><td>
 
@@ -105,14 +106,14 @@ Jump to specific activities within a phase.
 View and access tasks within another phase.
 
 </td></tr></tbody>
-</table>![Navigational features available in a phase](../image/disco-guided-setup-phase-features.png "Guided Setup in-phase features")
+</table>\[Omitted image "disco-guided-setup-phase-features.png"\] Alt text: Navigational features available in a phase
 
 |Feature|Description|
 |-------|-----------|
-|1. Back arrow|Return to the guided setup landing page.|
+|1. Back arrow|Return to the Guided Setup landing page.|
 |2. Phase drop-down|Toggle between different phases.|
 |3. Activities|Jump to other activities within the current phase.|
-|4. Close|Navigate back to the guided setup landing page.|
+|4. Close|Navigate back to the Guided Setup landing page.|
 |5. Mark Complete|Track your progress and continue to the next activity in the phase.|
 |6. Skip|Skip directly to the next activity in the phase.|
 

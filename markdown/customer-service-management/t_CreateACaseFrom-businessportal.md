@@ -2,11 +2,14 @@
 title: Create a product case from Business Portal
 description: Create a case about a question or issue on a product from the business portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_CreateACaseFrom-businessportal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using the Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Create a product case from Business Portal

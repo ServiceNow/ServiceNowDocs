@@ -2,11 +2,12 @@
 title: E-signatures on questionnaires or document requests
 description: Questionnaires or document requests might require electronic signatures of third-party contacts and/or reviewers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ws-approve-with-e-sig.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -29,17 +30,11 @@ After a questionnaire or document request has been submitted to the third party,
 
 1.  Select the link to open the questionnaire or document request.
 
-    ![The third-party contact selects Save and Sign to sign the document.](../image/ws-save-and-sign.png)
-
-    **Note:** Notice that a signature is required for the **Sample** questionnaire. Open the questionnaire that requires a signature.
+    **Note:** A signature is required for the **Sample** questionnaire. Open the questionnaire that requires a signature.
 
 2.  Complete the questionnaire or document request, and, when you have answered the questions, select **Save and Sign**.
 
 3.  Use the **Type** tab to enter your name or use the **Draw** tab provide a free-form signature and then select **Sign to Complete**.
-
-    ![Sign to complete.](../image/ws-sign-to-complete.png)
-
-    ![Electronic signature.](../image/ws-e-sig-signed.png)
 
 4.  To update the questionnaire or document request in any way, select **Make Changes**.
 

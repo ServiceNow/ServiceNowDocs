@@ -2,6 +2,7 @@
 title: Add a Journey Accelerator action plan link to the My active items widget
 description: Add a menu item for Journey Accelerator action plans to the My active items widget in the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.html
 release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
@@ -17,7 +18,7 @@ Add a menu item for Journey Accelerator action plans to the My active items widg
 
 ## Before you begin
 
-The latest Employee Center app installed on your instance. See, [Install Employee Center](../../employee-center/task/activate-ec.md).
+The latest Employee Center app installed on your instance. See, [Install Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/activate-ec.md).
 
 Role required: admin
 
@@ -33,7 +34,7 @@ Role required: admin
 
 3.  Use the application picker to set the application scope to **Employee Center**.
 
-    See [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US) for more information about using the application scope picker.
+    See  for more information about using the application scope picker.
 
     The **Application** field is set to **Employee Center**.
 
@@ -58,5 +59,5 @@ Role required: admin
 
 ## What to do next
 
-Complete the configuration process for the activity configuration you created by specifying configuration details. See [Create activity configuration details for the Journey Accelerator action plan items activity](create-ja-activity-config.md).
+Complete the configuration process for the activity configuration you created by specifying configuration details. See [Create activity configuration details for the Journey Accelerator action plan items activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/create-ja-activity-config.md).
 

@@ -2,6 +2,7 @@
 title: Now Assist extract information from documents
 description: The extract information from documents skill allows you to use Now Assist predictions to extract information from document and image files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.html
 release: yokohama
 product: Now Assist Skills
 classification: now-assist-skills
@@ -20,5 +21,5 @@ Now Assist uses generative AI capabilities to extract values from the document b
 
 Agents can use the Document Intelligence workspace to review and confirm the extracted information.
 
-**Parent Topic:**[Now Assist skills in the Platform workflow](now-assist-on-now-platform.md)
+**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

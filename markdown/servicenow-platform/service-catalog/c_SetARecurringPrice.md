@@ -2,6 +2,7 @@
 title: Set a recurring price
 description: A catalog item can have a recurring price in addition to an initial price.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/c\_SetARecurringPrice.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
@@ -25,19 +26,19 @@ The price and the recurring frequency are set on the catalog item record. After 
 
 For example, a subscription to a mobile phone contract could cost $500.00, with a $30.00 monthly recurring price.
 
-![Order summary screen](../image/SC_SetRecurringPrice-1.png)
+\[Omitted image "SC\_SetRecurringPrice-1.png"\] Alt text: Order summary screen
 
 If multiple items with the same recurring price frequency are placed in the shopping cart, they are grouped. The grouping makes it easier to view how much items cost for each frequency \(for example, weekly, monthly, and annually\). If the shopping cart contains items with and without recurring costs, they are grouped separately.
 
 If multiple items with the same recurring price frequency are placed in the shopping cart, they are grouped. The grouping makes it easier to view how much items cost for each frequency \(for example, weekly, monthly, and annually\). If the shopping cart contains items with and without recurring costs, they are grouped separately.
 
-![Shopping card](../image/SC_SetRecurringPrice-2.png)
+\[Omitted image "SC\_SetRecurringPrice-2.png"\] Alt text: Shopping card
 
 On a request record, recurring prices are grouped by frequency and shown in the **Recurring Prices** related list. In the example below, two items each have a monthly recurring cost of $100.00 and their prices are grouped as a single record of $200.00 monthly. Another item with an annual recurring cost of $500.00 is listed as a separate record.
 
-![Screenshot for recurring price](../image/RecurringPriceRollup.png)
+\[Omitted image "RecurringPriceRollup.png"\] Alt text: Screenshot for recurring price
 
 If a request record contains multiple items with the same recurring frequency, click the arrow next to the corresponding recurring prices record to view details.
 
-**Parent Topic:**[Service Catalog customization](../topic/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 

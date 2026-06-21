@@ -2,6 +2,7 @@
 title: GlideCurrencyValue - Scoped
 description: The GlideCurrencyValue API provides methods that return the currency code and original currency from an associated GlideCurrencyParser.parse\(\) call.Returns the currency amount originally passed into the associated GlideCurrencyParser.parse\(\) call.Returns the currency code used to parse the currency in the associated GlideCurrencyParser.parse\(\) call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/GlideCurrencyValueScopedAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ This class runs is in the `sn_currency` namespace.
 
 **Note:** There is no constructor for this class.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencyValue - getAmount\(\)
 

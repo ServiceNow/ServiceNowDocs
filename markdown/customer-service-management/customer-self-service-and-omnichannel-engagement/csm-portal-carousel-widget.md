@@ -2,6 +2,7 @@
 title: Portal Banner Carousel widget
 description: A carousel in your home page banner can display multiple announcements and highlight brief information on features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-portal-carousel-widget.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,7 +18,7 @@ A carousel in your home page banner can display multiple announcements and highl
 
 The following image shows a sample carousel widget on a portal home page.
 
-![Portal Banner Carousel widget displaying items in scrolling list format.](../image/csm-config-carousel-widget.gif "Portal Banner Carousel widget")
+\[Omitted image "csm-config-carousel-widget.gif"\] Alt text: Portal Banner Carousel widget displaying items in scrolling list format.
 
-For more information, see [Add and configure the Portal Banner Carousel widget](../task/config-portal-banner-carousel-widget.md)
+For more information, see [Add and configure the Portal Banner Carousel widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-carousel-widget.md)
 

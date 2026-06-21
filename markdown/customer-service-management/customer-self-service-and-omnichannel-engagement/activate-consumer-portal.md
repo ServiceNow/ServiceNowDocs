@@ -2,6 +2,7 @@
 title: Activate the Consumer and Customer Service Portals
 description: Activate the portal plugins to use the Consumer and Customer Service Portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-consumer-portal.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -25,15 +26,15 @@ Role required: admin
 
 2.  Install any one of the following plugins.
 
-<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d218201e76">
+<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d66410e76">
 
 Plugin name
 
-</th><th align="left" id="d218201e79">
+</th><th align="left" id="d66410e79">
 
 Plugin.
 
-</th></tr></thead><tbody><tr><td id="d218201e88">
+</th></tr></thead><tbody><tr><td id="d66410e88">
 
 **Customer Service Portal**
 
@@ -41,7 +42,7 @@ Plugin.
 
 com.snc.customer\_service\_portal
 
-</td></tr><tr><td id="d218201e97">
+</td></tr><tr><td id="d66410e97">
 
 **Consumer Service Portal**
 

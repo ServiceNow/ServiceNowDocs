@@ -2,6 +2,7 @@
 title: Word Document Templates
 description: Microsoft Word based contract template, enables you to create templates that are used to generate contracts or documents according to a submitted request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-expl-wdt.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ Microsoft Word based contract template, enables you to create templates that are
 
 ## Contract templates
 
-Save time and the manual work of filling out contract documents from scratch for each request by using contract templates to generate them. Word based contract templates can be used by business units to generate a contract document with predefined content when an user submits a contract request. For example, you can create a contract template for Non-disclosure agreement to generate a Non-disclosure agreement contract document. For more information, see [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](cncore-setup-ct-add-in.md).
+Save time and the manual work of filling out contract documents from scratch for each request by using contract templates to generate them. Word based contract templates can be used by business units to generate a contract document with predefined content when an user submits a contract request. For example, you can create a contract template for Non-disclosure agreement to generate a Non-disclosure agreement contract document. For more information, see [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md).
 
 ## Word Document Templates features
 

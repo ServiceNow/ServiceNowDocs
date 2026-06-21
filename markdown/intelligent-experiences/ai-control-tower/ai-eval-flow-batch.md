@@ -2,13 +2,14 @@
 title: Evaluation flow for batch evaluations
 description: Batch evaluation enables Eval admins to evaluate up to 100 completed virtual agent conversations at once, based on a saved query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/ai-eval-flow-batch.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
 last_updated: "2025-09-03"
 reading_time_minutes: 4
-breadcrumb: [Evaluation dashboard References, AI Control Tower Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Evaluation dashboard References, Reference, AI Control Tower, Enable AI experiences]
 ---
 
 # Evaluation flow for batch evaluations
@@ -169,5 +170,5 @@ Action 9: For Loop over skills
         Pause seven seconds before proceeding to the next skill to manage rate limits or throttling.
 
 
-**Parent Topic:**[Evaluation dashboard References](ai-eval-references.md)
+**Parent Topic:**[Evaluation dashboard References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-references.md)
 

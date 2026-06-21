@@ -2,6 +2,7 @@
 title: Legal Matter Management
 description: The ServiceNow Legal Matter Management application enables you to complete legal requests that need cross-departmental tasking and a workflow with a mechanism to store supporting documents and track important milestones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-matter-management/legal-matter-management-landing-page.html
 release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
@@ -20,32 +21,32 @@ The ServiceNow® Legal Matter Management application enables you to complete leg
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore icon.](../../../common/image/icon-explore.png) Learn about how employees, paralegal staff, and lawyers use Legal Matter Management.](../concept/legal-matter-management-overview.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore icon. Learn about how employees, paralegal staff, and lawyers use Legal Matter Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/legal-matter-management-overview.md)
 
 </td><td>
 
-[Set up ![Setup icon.](../../../common/image/icon-configure.png) Set up legal matter templates and complete other configurations.](../concept/setting-up-legal-matter-managemment.md)
+[Set up \[Omitted image "icon-configure.png"\] Alt text: Setup icon. Set up legal matter templates and complete other configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/setting-up-legal-matter-managemment.md)
 
 </td><td>
 
-[Assign ![Request icon.](../../../reuse/images/request.png) Assign legal matters to matter owners.](../task/assign-legal-matter.md)
+[Assign \[Omitted image "request.png"\] Alt text: Request icon. Assign legal matters to matter owners.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/assign-legal-matter.md)
 
 </td></tr><tr><td>
 
-[Manage ![Manage icon.](../../../common/image/icon-workspace.png) Manage contract requests.](../task/work-on-legal-matter-1.md)
+[Manage \[Omitted image "icon-workspace.png"\] Alt text: Manage icon. Manage contract requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 
 </td><td>
 
-[Analytics and Reporting ![Analytics and Reporting icon.](../../human-resources/image/icon-report.png) Coordinate work and improve processes with preconfigured dashboards.](../../../use/application-content-packs/concept/legalsd-content-pack.md)
+[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Analytics and Reporting icon. Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 
 </td><td>
 
-[Reference ![Reference icon.](../../../common/image/icon-reference.png) Get details about components such as roles, tables, plugins, and store applications that are installed.](legal-matter-management-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference icon. Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/legal-matter-management-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Troubleshoot and get help
 

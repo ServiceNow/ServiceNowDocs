@@ -2,6 +2,7 @@
 title: Portal Concurrency
 description: Discover ways to improve performance and enhance portal concurrency content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/ce-portal-concurrency-performance.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,9 +20,9 @@ Portal performance features seamlessly improve high concurrency content without 
 
 **Note:** This feature only works for **Company Events**, and when **Optimize performance for high traffic volume** is selected.
 
-![](../images/pc-optimize-performance-htv.png)
+\[Omitted image "pc-optimize-performance-htv.png"\] Alt text:
 
-For more information on managing portal performance, see [Managing portal performance](improve-manage.md).
+For more information on managing portal performance, see [Managing portal performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/improve-manage.md).
 
 |sn\_cd\_precomputed\_audience-list|
 |Column name|Column type|Description|
@@ -86,5 +87,5 @@ A Content Admin can browse to the **sn\_cd\_company\_event** table, find a speci
     5.  If no user is found, iterate each audience associated for each schedule content record.
     6.  If a user is never found, show the empty state article detail page.
 
-**Parent Topic:**[Managing portal performance](improve-manage.md)
+**Parent Topic:**[Managing portal performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/improve-manage.md)
 

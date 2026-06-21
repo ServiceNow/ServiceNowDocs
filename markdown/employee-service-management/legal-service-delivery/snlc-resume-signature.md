@@ -2,6 +2,7 @@
 title: Resume signature process
 description: Resume the paused signature process with the modified signatories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-service-delivery/snlc-resume-signature.html
 release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -42,5 +43,5 @@ Use the **Resume signature** option to resume the signature process. If the sign
 -   If the current signatory is different from before the pause, a notification is sent for signature request.
 -   The activity stream records the resume signature action.
 
-**Parent Topic:**[Modify signatories](snlc-pause-signature.md)
+**Parent Topic:**[Modify signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-pause-signature.md)
 

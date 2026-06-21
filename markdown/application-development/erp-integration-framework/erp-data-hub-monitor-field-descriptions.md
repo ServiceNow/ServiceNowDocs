@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP Monitor field descriptions
 description: The Zero Copy Connector for ERP Monitor enables you to track ERP transactions and their progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-data-hub-monitor-field-descriptions.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,7 +16,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector
 
 The Zero Copy Connector for ERP Monitor enables you to track ERP transactions and their progress.
 
-For process details, see [Monitor Zero Copy Connector for ERP logged extraction and remote lookup transactions](../task/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
+For process details, see [Monitor Zero Copy Connector for ERP logged extraction and remote lookup transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
 
 <table id="table_uk4_144_2dc"><thead><tr><th>
 
@@ -116,5 +117,5 @@ Updated
 The date and time the transaction was last changed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

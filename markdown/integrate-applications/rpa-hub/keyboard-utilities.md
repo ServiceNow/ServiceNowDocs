@@ -2,6 +2,7 @@
 title: Keyboard
 description: The Keyboard component in the RPA Desktop Design Studio simulate keyboard strokes and shortcuts to perform various day-to-day actions on various applications and programs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/keyboard-utilities.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -15,10 +16,10 @@ breadcrumb: [Utilities, Automation components, RPA Desktop Design Studio, Roboti
 
 The Keyboard component in the RPA Desktop Design Studio simulate keyboard strokes and shortcuts to perform various day-to-day actions on various applications and programs.
 
--   **[Use the SendKeys component](../task/use-utilities-keyboard-sendkeys.md)**  
+-   **[Use the SendKeys component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/use-utilities-keyboard-sendkeys.md)**  
 Simulate the actions of the standard Microsoft Windows supported keys on various applications and programs with the SendKeys component in the RPA Desktop Design Studio.
--   **[Properties of keyboard components](../reference/properties-of-keyboard-components.md)**  
+-   **[Properties of keyboard components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/properties-of-keyboard-components.md)**  
 Learn about the properties of the keyboard components in RPA Desktop Design Studio.
 
-**Parent Topic:**[Utilities](utilities.md)
+**Parent Topic:**[Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/utilities.md)
 

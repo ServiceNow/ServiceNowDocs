@@ -2,6 +2,7 @@
 title: Add an ad-hoc task
 description: Create a task as a processor, adjuster, or manager to help prioritize and plan your claim work better.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/add-task-personal.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims
@@ -27,15 +28,15 @@ Role required: sn\_ins\_claim\_pers.auto\_processor, sn\_ins\_claim\_pers.auto\_
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d92071e79">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d97116e79">
 
 Option
 
-</th><th align="left" id="d92071e82">
+</th><th align="left" id="d97116e82">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d92071e89">
+</th></tr></thead><tbody><tr><td id="d97116e89">
 
 **From the landing page**
 
@@ -43,13 +44,13 @@ Steps
 
 From a claims list, select the claim case you want to create a new task for.
 
-</td></tr><tr><td id="d92071e101">
+</td></tr><tr><td id="d97116e101">
 
 **From the applicable case/tasks list**
 
 </td><td>
 
-1.  Select the lists icon \(![lists icon.](../../fso-card-operations/image/list-icon.png)\).
+1.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 2.  In the **Lists** tab, navigate to one of the following applicable lists:
     -   As a processor, select **Personal auto claim cases**, then select **All**.
     -   As an adjuster, select **Personal auto claim adjuster tasks**, then select **All**.

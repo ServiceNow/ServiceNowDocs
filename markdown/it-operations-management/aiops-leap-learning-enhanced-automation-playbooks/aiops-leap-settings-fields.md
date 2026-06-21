@@ -2,6 +2,7 @@
 title: AIOps LEAP settings fields
 description: AIOps LEAP settings page field values helps estimate cost and time savings when automation is used. The default values can be modified as per your organizational requirement for savings calculations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

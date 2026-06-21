@@ -2,6 +2,7 @@
 title: Scoped reports
 description: When editing a report from a different application scope than the current scope, actions modifying the original report are unavailable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reporting/c\_ScopedReports.html
 release: yokohama
 product: Reporting
 classification: reporting
@@ -28,10 +29,10 @@ The following actions are available from the **Save** menu after opening a repor
 
 You can create a new report based on an existing report, but within the current application scope using the **Insert** or **Insert and Stay** options.
 
-**Parent Topic:**[Advanced reporting topics](c_AdvancedReporting.md)
+**Parent Topic:**[Advanced reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
 
 **Related topics**  
 
 
-[Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US)
+[bundle-cadev.c_ApplicationScope]
 

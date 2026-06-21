@@ -2,6 +2,7 @@
 title: Confirm or allocate resources from the Allocation Workbench
 description: Confirm or allocate resources for a group, role, or user resource plan for the entire period of the resource plan or a specific period of the resource plan from the Allocation Workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/confirm-allocate-specific-time.html
 release: yokohama
 product: Resource Management
 classification: resource-management
@@ -19,7 +20,7 @@ Confirm or allocate resources for a group, role, or user resource plan for the e
 
 **Important:** Allocation workbench is being deprecated starting Xanadu release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Resource Managers are encouraged to use the [Resource Management Workspace](../../resource-management-workspace/concept/rsrc-mgmt-wrkspc.md) to allocate, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get the insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
+Resource Managers are encouraged to use the [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-mgmt-wrkspc.md) to allocate, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get the insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
 
 The allocation period must be within the resource plan duration to confirm or allocate resources for a specific time period.
 
@@ -47,12 +48,12 @@ Role required: resource\_manager
 
 6.  Confirm or allocate resources.
 
-    -   For a specific period: Select the down arrow \(![Down arrow](../image/downward_arrow_resfinder.png)\) corresponding to **Confirm** or **Allocate**, and select **Confirm for specific period** or **Allocate for specific period**. ​Select the allocation period and select **Confirm** or **Allocate**.
+    -   For a specific period: Select the down arrow \(\[Omitted image "downward\_arrow\_resfinder.png"\] Alt text: Down arrow\) corresponding to **Confirm** or **Allocate**, and select **Confirm for specific period** or **Allocate for specific period**. ​Select the allocation period and select **Confirm** or **Allocate**.
     -   For the whole period: Select **Confirm** or **Allocate**.
     For operational resource plans, allocated hours for a resource are calculated based on the percentage capacity specified in the operational resource plan. If a new member is added to a group, you can allocate the newly added member in an already allocated operational resource plan for the same group.
 
     **Note:** Users already confirmed or allocated for a time period can’t be confirmed or allocated for the same time period again.
 
 
-**Parent Topic:**[Manage resources by using the allocation workbench](manage-resources-allocation-workbench.md)
+**Parent Topic:**[Manage resources by using the allocation workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/manage-resources-allocation-workbench.md)
 

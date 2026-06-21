@@ -2,6 +2,7 @@
 title: Check IP service affinity for Discovery and Orchestration
 description: You can check the IP Services table for a list of IP addresses that are associated with a protocol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/connections-and-credentials/t\_CheckIPServiceAffinity.html
 release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -37,6 +38,6 @@ A system property called **glide.discovery.ip\_service\_affinity** allows Discov
 
 4.  Click the **IP Service Affinities** tab for the list of IP addresses associated with that service.
 
-    ![IP Service Affinities](../image/IPServiceAffinity.png "IP Service Affinities")
+    \[Omitted image "IPServiceAffinity.png"\] Alt text: IP Service Affinities
 
 

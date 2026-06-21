@@ -2,6 +2,7 @@
 title: HR Service Delivery Integration with Magnit
 description: The ServiceNow HR Service Delivery Integration with Magnit application provides a seamless experience to track and manage onboarding activities of contingent workers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-magnit-int.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,25 +26,25 @@ The ServiceNow® HR Service Delivery Integration with Magnit application provide
 
 First, activate the HR Service Delivery Integration with Magnit application from ServiceNow Store. Activating the application automatically activates the Magnit spoke, Enterprise Service Management Integrations Framework and Human Resources Scoped App: Lifecycle Events for Enterprise.
 
-Next, [Set up Magnit spoke](https://www.servicenow.com/docs/access?context=magnit-spoke&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US).
+Next, Set up Magnit spoke.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore](explore-magnit.md) ![Detailed information on integration](../../../common/image/icon-explore.png) Detailed information on the integration
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/explore-magnit.md) \[Omitted image "icon-explore.png"\] Alt text: Detailed information on integration Detailed information on the integration
 
 </td><td>
 
-[Configure](../task/configure-magnit.md) ![Configure the application to get started](../../../common/image/icon-set-up.png) Configure the application to get started
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-magnit.md) \[Omitted image "icon-set-up.png"\] Alt text: Configure the application to get started Configure the application to get started
 
 </td><td>
 
-[Reference](../reference/reference-magnit.md) ![Get details about user roles, tables, default configurations](../../../common/image/icon-reference.png) Get details about user roles, tables, default configurations
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/reference-magnit.md) \[Omitted image "icon-reference.png"\] Alt text: Get details about user roles, tables, default configurations Get details about user roles, tables, default configurations
 
 </td></tr></tbody>
 </table>

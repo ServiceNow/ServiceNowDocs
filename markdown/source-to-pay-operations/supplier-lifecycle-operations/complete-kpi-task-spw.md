@@ -2,6 +2,7 @@
 title: Complete a KPI collection task from the Source-to-Pay Workspace
 description: A KPI collection task is generated automatically each time a KPI is instantiated. A supplier manager can complete the assigned KPI collection task from the Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/complete-kpi-task-spw.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -29,7 +30,7 @@ A KPI is instantiated when:
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and navigate to **Lists** &gt; **Performance management** &gt; **KPIs**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Performance management** &gt; **KPIs**.
 
 3.  In the Name column, select the link to a KPI.
 
@@ -45,5 +46,5 @@ A KPI is instantiated when:
 7.  Select **Complete task**.
 
 
-**Parent Topic:**[Using Supplier Relationship and Performance Management](../concept/using-supplier-relationship-and-performance-management.md)
+**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 

@@ -2,7 +2,10 @@
 title: Registering custom script includes against the scripted extension points
 description: Register custom script includes against a selected scripted extension point in the application code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/impl-scripted-ext-pts-custom-code.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

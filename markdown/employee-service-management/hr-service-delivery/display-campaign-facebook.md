@@ -2,6 +2,7 @@
 title: Use Employee Campaigns for Workplace from Facebook
 description: Understand how to use the Employee Campaigns for Workplace from Facebook application to publish content to groups on Workplace from Facebook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/display-campaign-facebook.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Overview
 description: The Overview tab on My Learning provides a variety of widgets that help you track courses, view your progress, view achievements among other things.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/learning-core/overview-lxp-widgets.html
 release: yokohama
 product: Learning Core
 classification: learning-core
@@ -19,7 +20,7 @@ The overview tab has the following widgets that help you with a seamless learnin
 
 
 
-![The learning dashboard displays learning tasks, your current challenges, latests achievements and more.](../image/overview-lxp.png)
+\[Omitted image "overview-lxp.png"\] Alt text: The learning dashboard displays learning tasks, your current challenges, latests achievements and more.
 
 |Widget|Description|
 |------|-----------|
@@ -30,5 +31,5 @@ The overview tab has the following widgets that help you with a seamless learnin
 |Continue where you left off|Shows you the courses or trainings that you started but never finished, and gives you the chance to continue where you left off.|
 |Recent activity|Shows your assigned, saved, shared courses and trainings, and also shows your learnings history.|
 
-**Parent Topic:**[My Learning](overview-lxp.md)
+**Parent Topic:**[My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/overview-lxp.md)
 

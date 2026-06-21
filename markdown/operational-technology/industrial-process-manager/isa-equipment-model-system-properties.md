@@ -2,6 +2,7 @@
 title: ISA Equipment Model system properties
 description: Enable the system properties for the ISA Equipment Model as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/industrial-process-manager/isa-equipment-model-system-properties.html
 release: yokohama
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 
 Enable the system properties for the ISA Equipment Model as needed.
 
-You can access the system properties for the ISA Equipment Model by navigating to **All** &gt; **Industrial Workspace Admin** &gt; **All OT Properties**. For more information about how to view and edit the OT system properties, see [View and edit OT system properties](../task/view-and-edit-ot-system-properties.md).
+You can access the system properties for the ISA Equipment Model by navigating to **All** &gt; **Industrial Workspace Admin** &gt; **All OT Properties**. For more information about how to view and edit the OT system properties, see [View and edit OT system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/view-and-edit-ot-system-properties.md).
 
 The following table describes the system properties for the ISA Equipment Model.
 
@@ -28,5 +29,5 @@ The following table describes the system properties for the ISA Equipment Model.
 |sn\_isa\_model.user\_sites\_cache.expiry\_time|Expiration time in seconds. The default is set to 600 \(10 minutes\).|Integer|
 |sn\_isa\_model.use\_user\_sites\_cache|Enables the session cache for ISA entity records.|Boolean|
 
-**Parent Topic:**[Industrial Process Manager reference](manufacturing-process-mgr-reference.md)
+**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
 

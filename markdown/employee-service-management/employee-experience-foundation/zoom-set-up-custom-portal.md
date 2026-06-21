@@ -2,6 +2,7 @@
 title: Set up a custom portal
 description: Configure the ServiceNow Employee Center portal appearance of your organization’s custom portal in Zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/zoom-set-up-custom-portal.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -128,8 +129,8 @@ Description for the HTTP response header.
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
 
-        For more information about adding a header, see [Configure HTTP response headers](https://www.servicenow.com/docs/access?context=configure-http-response-header&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+        For more information about adding a header, see Configure HTTP response headers.
 
 
-**Parent Topic:**[Employee Center for Zoom](zoom-ec-create-app.md)
+**Parent Topic:**[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
 

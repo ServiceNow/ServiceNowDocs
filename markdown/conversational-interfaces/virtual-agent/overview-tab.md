@@ -2,6 +2,7 @@
 title: Legacy - Overview tab
 description: Use the Overview tab to get a snapshot of some of the information collected in the Conversational Analytics dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/overview-tab.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ Use the Overview tab to get a snapshot of some of the information collected in t
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -28,9 +29,9 @@ The **Overview** tab is the landing page for the dashboard. It provides a summar
 
 **Note:** Now Assist in Virtual Agent Analytics appears in the left navigation only when you have Now Assist in Virtual Agent enabled.
 
-![Virtual agent analytics dashboard overview tab](../images/vaa-next-exp-overview.png)
+\[Omitted image "vaa-next-exp-overview.png"\] Alt text: Virtual agent analytics dashboard overview tab
 
-For directions about using the widgets on the **Overview** tab, see [Explore the Virtual Agent Analytics Dashboard](dashboard-explore-dashboard.md).
+For directions about using the widgets on the **Overview** tab, see [Explore the Virtual Agent Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/dashboard-explore-dashboard.md).
 
 <table id="table_lhm_1qk_4rb"><thead><tr><th>
 
@@ -141,15 +142,15 @@ Number of conversations that have ended in the OOTB Conversation End state.
 </td></tr></tbody>
 </table>Typical actions on the **Overview** tab include:
 
--   Selecting the arrowhead icon ![Arrowhead icon.](../images/dashboard-carat.png) in any of the widgets to open other dashboard tabs that display more detailed information.
+-   Selecting the arrowhead icon \[Omitted image "dashboard-carat.png"\] Alt text: Arrowhead icon. in any of the widgets to open other dashboard tabs that display more detailed information.
 -   Selecting the visualized data, for example, a bar in a bar chart, to get additional information about the data.
 -   Changing the date range of the data displayed.
 -   Selecting a tab inside one of the widgets to change the set of data displayed. For example, in **Categories** bar chart, select the **Incomplete** tab.
 
-**Note:** Your **Overview** tab might look different because [it can be configured](../task/edit-overview-tab.md).
+**Note:** Your **Overview** tab might look different because [it can be configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/edit-overview-tab.md).
 
--   **[Edit the Overview page](../task/edit-overview-tab.md)**  
+-   **[Edit the Overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/edit-overview-tab.md)**  
 Add or subtract the widgets on the **Overview** page to suit your users.
 
-**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](use-the-dashboard-overview.md)
+**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/use-the-dashboard-overview.md)
 

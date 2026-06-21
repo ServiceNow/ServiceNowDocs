@@ -2,6 +2,7 @@
 title: Set up the Conversational SMS service channel
 description: Configure the Conversational SMS service channel store app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/configure-conversational-sms.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -42,12 +43,12 @@ Role required: admin
 
 8.  On the Presence State - Available screen, select **SMS** in the Available column.
 
-    ![Presence State screen](../image/sms-presence-state-example.png)
+    \[Omitted image "sms-presence-state-example.png"\] Alt text: Presence State screen
 
 9.  Select the right-pointing arrow to move SMS from the Available column to the Selected column.
 
 10. Select **Update**.
 
 
-**Parent Topic:**[Conversational SMS service channel](../concept/conversation-sms-service-channel-store-app.md)
+**Parent Topic:**[Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/conversation-sms-service-channel-store-app.md)
 

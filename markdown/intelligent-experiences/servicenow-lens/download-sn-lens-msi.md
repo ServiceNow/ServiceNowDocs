@@ -2,6 +2,7 @@
 title: Download the ServiceNow AI Lens installer
 description: Download the ServiceNow AI Lens installer so that you can install the ServiceNow AI Lens on your system for scanning visual data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/servicenow-lens/download-sn-lens-msi.html
 release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -25,9 +26,9 @@ Role required: admin
 
 2.  In the ServiceNow AI Lens Downloads page, do any of the following actions to download the required application for macOS or Windows:
 
-    -   Select the download icon \(![Download icon.](../../rpa-hub/image/rpa-hub-download-icon.png)\).
-    -   Select the copy link \(![Copy Link icon.](../../rpa-hub/image/rpa-hub-copyurl-icon.png)\). In a browser, right-click and select the **paste and go** option.
-    ![Installers on ServiceNow AI Lens Downloads page.](../image/sn-lens-download-msi.png "ServiceNow AI Lens Downloads")
+    -   Select the download icon \(\[Omitted image "rpa-hub-download-icon.png"\] Alt text: Download icon.\).
+    -   Select the copy link \(\[Omitted image "rpa-hub-copyurl-icon.png"\] Alt text: Copy Link icon.\). In a browser, right-click and select the **paste and go** option.
+    \[Omitted image "sn-lens-download-msi.png"\] Alt text: Installers on ServiceNow AI Lens Downloads page.
 
     A dialog box might prompt you to save or open the file.
 
@@ -42,5 +43,5 @@ Role required: admin
 
 ## What to do next
 
-Use ServiceNow AI Lens to capture screens, extract and comprehend data, and take further actions. For more information, see [Using ServiceNow AI Lens](servicenow-lens-use.md).
+Use ServiceNow AI Lens to capture screens, extract and comprehend data, and take further actions. For more information, see [Using ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-use.md).
 

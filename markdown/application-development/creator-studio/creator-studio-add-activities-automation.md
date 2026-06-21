@@ -2,11 +2,12 @@
 title: Add activities to an app's playbook in Creator Studio
 description: Add activities to an app's playbook to specify what the automation does to the designated record type. An activity defines what actually happens when a playbook executes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-add-activities-automation.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 5
 breadcrumb: [Working with automation in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -17,7 +18,7 @@ Add activities to an app's playbook to specify what the automation does to the d
 
 ## Before you begin
 
-To add [activities](../concept/creator-studio-glossary.md#) to a playbook, you must be given permission to work on the app.
+To add [activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-glossary.md) to a playbook, you must be given permission to work on the app.
 
 ## About this task
 
@@ -35,9 +36,9 @@ The activities that you can add to a playbook are limited by your administrator 
 
     **Note:** If your app has a lot of forms and automations, you can use the search box in the navigation panel to search for a specific automation.
 
-    ![Select the automation in the navigation panel](../image/crs-auto-copy-nav.png "Select automation that has the playbook")
+    \[Omitted image "crs-auto-copy-nav.png"\] Alt text: Select the automation in the navigation panel
 
-5.  Select the add icon ![](../image/cs-add-icon.png) on the connector where you want to add an activity and choose the square **Add an activity** icon \(![](../image/cs-add-activity-icon.png)\) in the menu that pops up.
+5.  Select the add icon \[Omitted image "cs-add-icon.png"\] Alt text: on the connector where you want to add an activity and choose the square **Add an activity** icon \(\[Omitted image "cs-add-activity-icon.png"\] Alt text:\) in the menu that pops up.
 
 <table id="table_isj_z54_ccc"><thead><tr><th>
 
@@ -54,7 +55,7 @@ Diagram
 </td><td>
 
 1.  Select the **+** icon in the stage.
-2.  In the mini-picker, select the square icon \(![](../image/cs-add-activity-icon.png)\) to add an activity.
+2.  In the mini-picker, select the square icon \(\[Omitted image "cs-add-activity-icon.png"\] Alt text:\) to add an activity.
 
 
 </td></tr><tr><td>
@@ -119,7 +120,7 @@ Placeholder
 Set an undefined activity to be specified later, or a more advanced activity such as an email notification, when an activity is completed.Placeholder activities don't have any logic assigned to them yet, and must be edited in Workflow Studio. Or, you can swap them out later for another type of activity in Creator Studio.
 
 </td></tr></tbody>
-</table>    ![Select which type of activity to add](../image/cs-add-activity-email.png "Activity library for a playbook")
+</table>    \[Omitted image "cs-add-activity-email.png"\] Alt text: Select which type of activity to add
 
     Your new activity and its Activity properties panel appear, where you define what the activity is.
 
@@ -130,7 +131,7 @@ Set an undefined activity to be specified later, or a more advanced activity suc
     |Name|Unique, user-facing name for your activity, which appears to agents and fulfillers while the playbook is running.|
     |Description|Optional details about what the activity accomplishes.|
 
-    ![Activity details panel](../image/cs-assign-to-properties.png "Activity details panel")
+    \[Omitted image "cs-assign-to-properties.png"\] Alt text: Activity details panel
 
 8.  If needed, specify the approver or assignee in the **Select an approver** or **Select an assignee** fields.
 
@@ -166,7 +167,7 @@ Set an undefined activity to be specified later, or a more advanced activity suc
             Select the **Requester** option for the **To** or **Cc** fields to include the person who made the request in the email's recipients.
 
         -   Enter the email's subject in the **Subject** field.
-        -   Enter the body of the email in the textbox. Select the additional toolbar buttons icon \(![](../image/cs-more-actions-icon.png)\) to display more formatting options. For example, you can add images, tables, and links to the email.
+        -   Enter the body of the email in the textbox. Select the additional toolbar buttons icon \(\[Omitted image "cs-more-actions-icon.png"\]\) to display more formatting options. For example, you can add images, tables, and links to the email.
 10. Select at what point the activity should start running in the **When to start** field of the Conditions section.
 
     The options are:
@@ -178,7 +179,7 @@ Set an undefined activity to be specified later, or a more advanced activity suc
 
 11. Define any extra conditions that must be met for the activity to happen by selecting **+ Add conditions**.
 
-    Use the condition builder that appears to specify any other things that must happen for the activity to run. For more information, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+    Use the condition builder that appears to specify any other things that must happen for the activity to run. For more information, see .
 
     You can use the answer from the associated form to power the activity. For example, you can specify that if someone answers Yes to the question "Do you eat meat?" the Assign to activity is assigned to the Meat department to fulfill the gift box. To use the response from a form as a condition, do the following:
 
@@ -195,7 +196,7 @@ Set an undefined activity to be specified later, or a more advanced activity suc
 
 ## What to do next
 
-Continue adding activities and decisions, as well as connectors and parallel processes if needed, to finish creating your playbook. For more information on decisions, see [Add a decision to an app's playbook in Creator Studio](creator-studio-add-decision-automation.md).
+Continue adding activities and decisions, as well as connectors and parallel processes if needed, to finish creating your playbook. For more information on decisions, see [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-add-decision-automation.md).
 
-**Parent Topic:**[Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-working-with-automations.md)
 

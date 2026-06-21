@@ -2,6 +2,7 @@
 title: Create user plugins for RPA Desktop Design Studio
 description: Create user plugins by using Microsoft Visual Studio to enable RPA developers to use complex .NET components or libraries in RPA Desktop Design Studio in a seamless way.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/install-user-plugins-rpa-studio.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -31,7 +32,7 @@ The following procedure describes how to create a user plugin using C\#.NET.
 
 2.  In the Create a new project dialog box, select the Class Library \(.NET Framework\) template.
 
-    ![Class library DOT NET Framework.](../image/rpa-user-plugin-class-library.png "Select a project type of Class Library DOT NET Framework")
+    \[Omitted image "rpa-user-plugin-class-library.png"\] Alt text: Class library DOT NET Framework.
 
 3.  Click **Next**.
 
@@ -88,7 +89,7 @@ Select a framework version.Select **.NET Framework 4.7** version.
 
 8.  Select the **System.AddIn** assembly to add an annotation of this addin.
 
-    ![Select System.AddIn assembly.](../image/rpa-user-plugin-system-addin.png "Select System.AddIn assembly")
+    \[Omitted image "rpa-user-plugin-system-addin.png"\] Alt text: Select System.AddIn assembly.
 
 9.  Click **OK**.
 
@@ -100,7 +101,7 @@ Select a framework version.Select **.NET Framework 4.7** version.
 
     -   **SayHello** method: The name is taken as the input and returns "Hello" with a name and followed by an exclamation mark. For example, if the input is `User`, it returns "Hello User!".
     -   **Sum** method: Two numbers are taken as the input and returns the sum of these two numbers. For example, if the inputs are `5` and `12`, it returns "17".
-    ![Public static methods.](../image/rpa-user-plugin-code.png "Public static methods")
+    \[Omitted image "rpa-user-plugin-code.png"\] Alt text: Public static methods.
 
 12. Click **Save**.
 
@@ -136,7 +137,7 @@ Select a framework version.Select **.NET Framework 4.7** version.
 
     1.  In the Toolbox pane, navigate to the user plugin component category to select a method.
 
-        ![Two methods that appear in the user plugin component category.](../image/rpa-user-plugin-toolbox.png "Two methods that appear in the user plugin component category")
+        \[Omitted image "rpa-user-plugin-toolbox.png"\] Alt text: Two methods that appear in the user plugin component category.
 
     2.  Drag a method to the Design surface.
 
@@ -148,10 +149,10 @@ Select a framework version.Select **.NET Framework 4.7** version.
 
     6.  On the Design surface, right-click the title bar of the component from where you want to start the execution and select **Run From Here**.
 
-        ![Output of the SayHello method that appears as "Hello User!".](../image/rpa-user-plugin-example1.png "Output of the SayHello method")
+        \[Omitted image "rpa-user-plugin-example1.png"\] Alt text: Output of the SayHello method that appears as "Hello User!".
 
-        ![Output of the Sum method that appears as "17".](../image/rpa-user-plugin-example2.png "Output of the Sum method")
+        \[Omitted image "rpa-user-plugin-example2.png"\] Alt text: Output of the Sum method that appears as "17".
 
 
-**Parent Topic:**[Building automations](../concept/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-studio-build.md)
 

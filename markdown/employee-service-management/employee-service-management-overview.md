@@ -2,7 +2,10 @@
 title: Employee Service Management
 description: Enhance employee experience with seamless digital workflows through ServiceNow Employee Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-service-management-overview.html
 release: yokohama
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 8
@@ -12,7 +15,7 @@ reading_time_minutes: 8
 
 Enhance employee experience with seamless digital workflows through ServiceNow® Employee Service Management.
 
-![Diagram of Employee Service Management products](../image/esm_landing.png)
+\[Omitted image "esm\_landing.png"\] Alt text: Diagram of Employee Service Management products
 
 ## Boost employee productivity and engagement
 
@@ -20,7 +23,7 @@ Employee Service Management facilitates seamless digital workflows, including au
 
 <table id="table_uw5_lxw_sjb"><tbody><tr><td>
 
-![Complete process.](../image/project-icon.png)
+\[Omitted image "project-icon.png"\] Alt text: Complete process.
 
 </td><td>
 
@@ -31,7 +34,7 @@ Make it easy for employees to navigate complex processes and get the information
 
 </td></tr><tr><td>
 
-![Workflow.](../image/workflow-icon.png)
+\[Omitted image "workflow-icon.png"\] Alt text: Workflow.
 
 </td><td>
 
@@ -42,7 +45,7 @@ Reinvent your organization to increase productivity and gain insights into a cha
 
 </td></tr><tr><td>
 
-![Handshake.](../image/handshake-icon.png)
+\[Omitted image "handshake-icon.png"\] Alt text: Handshake.
 
 </td><td>
 
@@ -53,7 +56,7 @@ Provide a unified employee experience across IT, HR, facilities, legal, and othe
 
 </td></tr><tr><td>
 
-![Magnifying glass.](../image/mag_glass.png)
+\[Omitted image "mag\_glass.png"\] Alt text: Magnifying glass.
 
 </td><td>
 
@@ -71,11 +74,11 @@ Empower your employees to take charge of their own professional growth and devel
 
 Streamline employee experiences by implementing efficient workflows that simplify intricate processes such as onboarding, handling location changes, and managing to-do lists. Utilizing tools like Employee Center, ServiceNow for ServiceNow, or the Now® Mobile, ensure that your employees have seamless access to vital information and services, regardless of their location or the time of day.
 
-![Employee Center home page](../image/employee-center-home-page.png)
+\[Omitted image "employee-center-home-page.png"\] Alt text: Employee Center home page
 
 ## Create new ways to work
 
-![Dashboard showing HR cases.](../image/hr-cases-landing-page.png)
+\[Omitted image "hr-cases-landing-page.png"\] Alt text: Dashboard showing HR cases.
 
 Embrace adaptive work practices to cater to the evolving demands of your employees. Gain invaluable insights into request volumes, request types, and team workloads. By implementing HR Service Delivery, Workplace Service Delivery, and Universal Request, you can ensure the swift and efficient resolution of employee requests and inquiries. Employees can conveniently access these capabilities at any time through the Now Mobile for HR Service Delivery.
 
@@ -97,7 +100,7 @@ Prioritize the health and safety of your employees with the Safe Workplace suite
 ## Get started
 
 -   Work with an implementation specialist to achieve your desired business outcomes. To learn more, visit the [Customer Success Center](https://www.servicenow.com/success.html).
--   Explore which other tools can optimize your Employee Service Management experience, like [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US), [Walk-up Experience](https://www.servicenow.com/docs/access?context=walkup-experience-landing-page&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US), [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US), [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US), and [Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) Knowledge Management.
+-   Explore which other tools can optimize your Employee Service Management experience, like Service Portal, Walk-up Experience, Virtual Agent, Service Catalog, and  Knowledge Management.
 
 ## Notice regarding use by organizations
 
@@ -113,25 +116,25 @@ All decisions in connection with the implementation of this application are at t
 
 ## Products
 
--   [Unified Employee Experience](../../employee-center/concept/ec-and-ecpro-landing-page.md)
--   [Emergency Response Management](../../business-continuity/concept/emergency-response-management.md)
--   [Talent Development](egd-employee-growth-development-suite.md)
--   [Health and Safety](../../ohs-incident-management/concept/health-safety-overview.md)
--   [HR Service Delivery](../../human-resources/concept/hr-service-delivery.md)
--   [Employee Journey Management](../../human-resources/concept/employee-journey-management.md)
--   [Contract Management Pro](../../contract-mgmt-pro/concept/cncore-cmpro-landing-page.md)
--   [Legal Service Delivery](../../legal-request-management/concept/legal-management-overview.md)
--   [Now Assist for HR Service Delivery \(HRSD\)](../../human-resources/concept/now-assist-hrsd.md)
--   [Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md)
--   [Now Mobile app for HR Service Delivery](../../human-resources/concept/mobile-employee-experience-for-hr-service-delivery-1.md)
--   [ServiceNow for Microsoft Outlook](../../sn-ms-outlook/concept/sn-ms-outlook-integration.md)
--   [ServiceNow Add-in for Microsoft 365](../../sn-addin-ms365/concept/sn-addin-for-ms365.md)
--   [ServiceNow for Microsoft Teams](../../sn-teams/concept/c_ServiceNowForMSTeams.md)
--   [ServiceNow for Zoom](../../sn-zoom/concept/sn_zoomIntegration.md)
--   [SharePoint Online Search Connector](../../sharepoint-online-search/concept/sharepoint-search-overview.md)
--   [Skills Foundation](../../skills-intelligence/concept/skills-intelligence.md)
--   [Universal Request](../../universal-request/concept/ur-landing-limitedaccess.md)
--   [Universal Task](../../universal-task/concept/universal-task-landing.md)
--   [Virtual Agent for HR Service Delivery](../../human-resources/concept/hr-virtual-agent-conversations.md#)
--   [Workplace Service Delivery](../../workplace-service-delivery-suite/concept/workplace-service-delivery-suite-landing-page.md)
+-   [Unified Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
+-   [Emergency Response Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery/emergency-response-management.md)
+-   [Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/health-safety-overview.md)
+-   [HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
+-   [Employee Journey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-journey-management/employee-journey-management.md)
+-   [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)
+-   [Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legal-management-overview.md)
+-   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+-   [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
+-   [Now Mobile app for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [ServiceNow for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/sn-ms-outlook-integration.md)
+-   [ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/sn-addin-for-ms365.md)
+-   [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/c_ServiceNowForMSTeams.md)
+-   [ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/sn_zoomIntegration.md)
+-   [SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/sharepoint-search-overview.md)
+-   [Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/skills-intelligence.md)
+-   [Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md)
+-   [Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-task/universal-task-landing.md)
+-   [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md)
+-   [Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery/workplace-service-delivery-suite-landing-page.md)
 

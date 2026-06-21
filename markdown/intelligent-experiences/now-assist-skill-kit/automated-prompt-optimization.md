@@ -2,6 +2,7 @@
 title: Use automated prompt optimization
 description: Use automated prompt optimization in Now Assist Skill Kit to enhance your prompt and make it more effective.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-kit/automated-prompt-optimization.html
 release: yokohama
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -43,7 +44,7 @@ Prompt optimization is an iterative process of refining and adjusting prompts to
 
     Instructions for prompt optimization provide clear guidance on framing prompts effectively, ensuring the model understands the task and context. The instructions minimize ambiguity and improve response quality.
 
-    ![Prompt instructions for automated prompt optimization](../image/nask-apo.png)
+    \[Omitted image "nask-apo.png"\] Alt text: Prompt instructions for automated prompt optimization
 
 9.  Add advanced inputs.
 
@@ -58,5 +59,5 @@ Prompt optimization is an iterative process of refining and adjusting prompts to
 12. Review the information that you added and then select **Start optimization**.
 
 
-**Parent Topic:**[Create a prompt](create-prompt-template.md)
+**Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

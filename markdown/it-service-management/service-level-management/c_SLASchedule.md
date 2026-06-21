@@ -2,6 +2,7 @@
 title: Schedules within SLA
 description: Schedules within SLA enable you to define the time periods during which the SLAs accumulate business time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-level-management/c\_SLASchedule.html
 release: yokohama
 product: Service Level Management
 classification: service-level-management
@@ -27,5 +28,5 @@ You can specify the schedule to be used when creating new task SLAs in the **Sch
 -   **Task table field**: This option picks its title from the option selected in the **Table** field earlier on the **SLA Definition** form. For example, if **Incident** is selected in the **Table** field, then this option appears as **Incident field**. If the **Task table field** option is selected, the **Schedule source field** drop-down list appears.
 -   Schedule source field: This option allows you to select the appropriate field from the task such as an incident or problem that will provide the schedule. For example, Configuration item &gt; Schedule.
 
-**Parent Topic:**[Service Level Management reference](service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-level-management/service-level-management-reference.md)
 

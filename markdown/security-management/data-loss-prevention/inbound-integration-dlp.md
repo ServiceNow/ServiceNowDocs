@@ -2,6 +2,7 @@
 title: Inbound Integration for Data Loss Prevention Incident Response
 description: Create single or multiple DLP incidents by using the Inbound REST API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/data-loss-prevention/inbound-integration-dlp.html
 release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention

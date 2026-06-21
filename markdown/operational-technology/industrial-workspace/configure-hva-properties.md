@@ -2,6 +2,7 @@
 title: Configure the properties for Hardware Vulnerability Assessment
 description: Configure the properties required to perform hardware vulnerability assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/industrial-workspace/configure-hva-properties.html
 release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
@@ -27,15 +28,15 @@ Role required: sn\_vul.manage\_exposure\_assessment and admin
 
 2.  Perform the following configurations.
 
-<table id="choicetable_gnl_snc_xfc"><thead><tr><th align="left" id="d74532e111">
+<table id="choicetable_gnl_snc_xfc"><thead><tr><th align="left" id="d45493e111">
 
 Property
 
-</th><th align="left" id="d74532e114">
+</th><th align="left" id="d45493e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d74532e120">
+</th></tr></thead><tbody><tr><td id="d45493e120">
 
 **`sn_vul_analyst.auto_create_vits`: This property determines if new vulnerable item records are created automatically for fully matched hardware vulnerability assessments. When set to true, new vulnerable item records are created automatically for fully matched hardware vulnerability assessments.
 
@@ -49,7 +50,7 @@ Select **Yes**.
 
  Clear this check box if you want to create vulnerable items \(VITs\) manually.
 
-</td></tr><tr><td id="d74532e152">
+</td></tr><tr><td id="d45493e152">
 
 **`sn_vul_analyst.assess_unmapped_disc_models`: Enabling this property includes discovery models without CPE mappings in the assessment.
 
@@ -61,7 +62,7 @@ The default value is **No**.
 
  Select **Yes** to perform vulnerability assessments for discovery models of OT devices that aren’t CPE-mapped.
 
-</td></tr><tr><td id="d74532e178">
+</td></tr><tr><td id="d45493e178">
 
 **`hva_confidence_score_threshold`: This property controls the minimum confidence score threshold required for creation of vulnerability assessments. Only matches with scores equal to or above this threshold will generate vulnerability assessments. The threshold value must be a decimal number between 0.0 and 1.0. The default value is 0.75.
 
@@ -79,5 +80,5 @@ Edit the value according to your requirement.
 </table>3.  Select **Save**.
 
 
-**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](configure-hva-using-guided-setup.md)
+**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 

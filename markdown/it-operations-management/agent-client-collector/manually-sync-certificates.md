@@ -2,6 +2,7 @@
 title: Manually refresh Agent Client Collector certificates
 description: Pull self-signed certificates from the ServiceNow install server, instead of waiting for the scheduled MID Server synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/manually-sync-certificates.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector

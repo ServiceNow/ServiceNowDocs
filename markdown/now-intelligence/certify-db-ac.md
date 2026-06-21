@@ -2,6 +2,7 @@
 title: Certify a Platform Analytics dashboard
 description: Certify a dashboard to indicate that it is company-approved and recommended for use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/certify-db-ac.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -23,7 +24,7 @@ Role required: admin or dashboard\_admin
 
 2.  Select the dashboard you want to certify.
 
-3.  Select the information button \(![Info button](../../reporting/image/icon-info.png)\) to open the Details panel.
+3.  Select the information button \(\[Omitted image "icon-info.png"\] Alt text: Info button\) to open the Details panel.
 
 4.  Select **Edit**.
 
@@ -36,5 +37,5 @@ Role required: admin or dashboard\_admin
 
 On the dashboard overview, the tile is marked **Certified**.
 
-![Certified dashboard example](../image/certified-db-ac.png)
+\[Omitted image "certified-db-ac.png"\] Alt text: Certified dashboard example
 

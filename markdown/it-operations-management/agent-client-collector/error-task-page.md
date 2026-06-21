@@ -2,6 +2,7 @@
 title: ACC Error Task page
 description: The fields to be configured on the ACC Error Task page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/error-task-page.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -23,5 +24,5 @@ The fields to be configured on the ACC Error Task page.
 |Short description|Enter a one-line description of the task.|
 |Description|Enter a full description of the task.|
 
-**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

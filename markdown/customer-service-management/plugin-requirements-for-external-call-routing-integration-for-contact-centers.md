@@ -2,7 +2,10 @@
 title: Plugin requirements for external call routing integration with contact centers
 description: For the Interaction Controls Component \(ICC\) call features to work, you must have a combination of plugins that can be downloaded from the ServiceNow Store and CCaaS providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-03-28"
 reading_time_minutes: 1

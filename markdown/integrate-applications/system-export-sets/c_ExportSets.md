@@ -2,6 +2,7 @@
 title: Export sets
 description: Export sets enable you to push data from an instance to an external file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/system-export-sets/c\_ExportSets.html
 release: yokohama
 product: System Export Sets
 classification: system-export-sets

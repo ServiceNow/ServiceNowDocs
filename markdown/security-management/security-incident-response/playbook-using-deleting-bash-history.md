@@ -2,6 +2,7 @@
 title: Use the User Deleting Bash History playbook
 description: Use this playbook to investigate incidents that indicate if someone was trying to remove the bash history file from a Linux server. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the User Deleting the Bash History \(.bash\_history\) playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/playbook-using-deleting-bash-history.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -40,7 +41,7 @@ Role required:
 
     4.  In Action 6, examine the activities occurring around these suspicious actions.
 
-        ![Response task to examine the activities occurring around these suspicious actions.](../image/playbook-bash-history-overview.png "User Deleting Bash History playbook")
+        \[Omitted image "playbook-bash-history-overview.png"\] Alt text: Response task to examine the activities occurring around these suspicious actions.
 
     5.  In Action 7, continue working with peers and involve the incident response Regional Manager in deciding whether to continue monitoring the user.
 
@@ -55,7 +56,7 @@ Role required:
 
             In Action 14, after the post incident review, the flow ends.
 
-        ![Response task to check if the activity is malicious.](../image/playbook-bash-history-investigate.png "Using the User Deleting Bash History playbook")
+        \[Omitted image "playbook-bash-history-investigate.png"\] Alt text: Response task to check if the activity is malicious.
 
     8.  In Action 15, if the activity is not malicious, then in Action 16, reach out to the user’s manager.
 
@@ -66,5 +67,5 @@ Role required:
 4.  In Action 18, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for User Deleting Bash History - Cloud](../concept/playbook-deleting-bash-history.md)
+**Parent Topic:**[Playbook for User Deleting Bash History - Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-deleting-bash-history.md)
 

@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for SAM
 description: Use the Now Assist for SAM AI agent collection to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.html
 release: yokohama
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -17,8 +18,8 @@ Use the Now Assist for SAM AI agent collection to complete tasks autonomously.
 
 Ensure that you have the following prerequisites for running agentic workflows:
 
--   Your organization has a software asset management system integrated with AI agents. For more details on AI agents, see [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
--   Access to an AI-driven Now Assist panel. For more details on Now Asset Panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+-   Your organization has a software asset management system integrated with AI agents. For more details on AI agents, see .
+-   Access to an AI-driven Now Assist panel. For more details on Now Asset Panel, see .
 
 <table id="table_hrp_zyl_m2c"><thead><tr><th>
 
@@ -72,7 +73,7 @@ Software removal candidate evaluation AI agent
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read-only.
 
-You can run the agentic workflow as is by activating the workflow. Additionally, you can [duplicate](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) the workflow if you want to customize the workflow. If you duplicate the agentic workflow, adjust the settings according to your requirements and then activate the duplicated agentic workflow. You can also [test](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) the duplicated agentic workflow to analyze its performance in the AI Agent Studio, while it executes the instructions that you defined.
+You can run the agentic workflow as is by activating the workflow. Additionally, you can duplicate the workflow if you want to customize the workflow. If you duplicate the agentic workflow, adjust the settings according to your requirements and then activate the duplicated agentic workflow. You can also test the duplicated agentic workflow to analyze its performance in the AI Agent Studio, while it executes the instructions that you defined.
 
 When you activate the agentic workflow, activate all agents within the agentic workflow.
 
@@ -80,15 +81,15 @@ Activate the trigger to invoke the agentic workflow automatically. If you prefer
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
--   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow](now-assist-sam-fulfill-sw-asset-requests-workflow.md)**  
+-   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-fulfill-sw-asset-requests-workflow.md)**  
 Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.
--   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule](now-assist-sam-create-software-reclamation-rule-workflow.md)**  
+-   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-create-software-reclamation-rule-workflow.md)**  
 Use the Create software reclamation rule agentic workflow to automatically create reclamation rules to aggregate usage records and to identify unused software products that lack reclamation rules but are viable candidates.
--   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to evaluate software removal candidate agentic workflow](now-assist-sam-evaluate-removal-candidate-workflow.md)**  
+-   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to evaluate software removal candidate agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-evaluate-removal-candidate-workflow.md)**  
 Use the Evaluate software removal candidate agentic workflow to assess installed or subscription-based software for potential removal by analyzing their usage over a specified period and determining the total number eligible for removal. After user confirmation, the workflow initiates the eligible removal candidate for reclamation.
 
-**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](now-assist-sam.md)
+**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 

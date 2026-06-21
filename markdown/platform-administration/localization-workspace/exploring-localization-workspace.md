@@ -2,6 +2,7 @@
 title: Exploring Localization Workspace
 description: Localization Workspace is a targeted translation management experience for content owners and translation requesters. With Localization Workspace you can manage and deliver multilingual content at scale.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-workspace/exploring-localization-workspace.html
 release: yokohama
 product: Localization Workspace
 classification: localization-workspace
@@ -36,7 +37,7 @@ Localization Workspace is available for on-premise \(self-hosted\) customers. It
 |Localization manager|localization\_manager|
 |Localization requester|localization\_requestor|
 
-User roles in Localization Workspace are derived from roles in Localization Framework. For more information see [Localization Framework Roles](../../localization-framework/reference/roles-localization-framework.md#).
+User roles in Localization Workspace are derived from roles in Localization Framework. For more information see [Localization Framework Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/roles-localization-framework.md).
 
 ## Localization Workspace benefits
 
@@ -50,7 +51,7 @@ User roles in Localization Workspace are derived from roles in Localization Fram
 
 To learn more about setting up and using Localization Workspace, see:
 
--   [Configuring Localization Workspace](configuring-localization-workspace.md)
--   [Requesting translations in Localization Workspace](requesting-translations-localization-workspace.md)
--   [Localization Workspace reference](localization-workspace-reference.md)
+-   [Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/configuring-localization-workspace.md)
+-   [Requesting translations in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/requesting-translations-localization-workspace.md)
+-   [Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/localization-workspace-reference.md)
 

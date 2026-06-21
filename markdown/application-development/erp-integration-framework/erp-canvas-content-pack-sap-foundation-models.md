@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP SAP Foundation content pack models
 description: The Zero Copy Connector for ERP SAP Foundation content pack contains models you may need when interacting with an SAP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-content-pack-sap-foundation-models.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -36,5 +37,5 @@ The Zero Copy Connector for ERP SAP Foundation content pack contains models you 
 |Get Sales Area|Retrieve list of sales areas. \(Sales Area is a combination of Sales Organization, Distribution Channel, and Division.\)|
 |Get Valuation Area|Retrieve list of valuation areas.|
 
-**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](../concept/erp-canvas-enterprise-data-foundation-content-pack.md)
+**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
 

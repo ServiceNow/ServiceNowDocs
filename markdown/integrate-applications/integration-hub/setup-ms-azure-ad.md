@@ -2,6 +2,7 @@
 title: Set up Microsoft Azure Active Directory
 description: Set up Microsoft Azure Active Directory \(AD\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-ms-azure-ad.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub

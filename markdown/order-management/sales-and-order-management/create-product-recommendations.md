@@ -2,13 +2,14 @@
 title: Create a needs-based product offering recommendation
 description: Set the product offering to be used as a product recommendation for a needs template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-product-recommendations.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a needs-based product offering recommendation
@@ -23,7 +24,7 @@ Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.product\_catalo
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Needs** &gt; **Needs Based Offering Recommendation** and select **New**.
 
@@ -42,5 +43,5 @@ Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.product\_catalo
 
 ## What to do next
 
-[Create a decision tree for a needs template](configure-needs-decision-tree.md).
+[Create a decision tree for a needs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/configure-needs-decision-tree.md).
 

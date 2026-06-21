@@ -2,6 +2,7 @@
 title: Promote a legal request to a legal matter
 description: Promote a legal request to a legal matter when the request needs additional investigation and cross-departmental collaboration that might take more time to resolve.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-request-management/promote-legal-request-to-matter.html
 release: yokohama
 product: Legal Request Management
 classification: legal-request-management
@@ -17,7 +18,7 @@ Promote a legal request to a legal matter when the request needs additional inve
 
 ## Before you begin
 
-Ensure you have the Legal Matter Management app installed and the record producer type in the associated intake form set to **Request and Matter**. For more information, see [Add an intake form to a practice area](associate-categories-practice-area.md).
+Ensure you have the Legal Matter Management app installed and the record producer type in the associated intake form set to **Request and Matter**. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/associate-categories-practice-area.md).
 
 Role required: sn\_lg\_ops.legal\_fulfiller
 
@@ -29,19 +30,19 @@ As a collaborator added to a request, you can access and work on the request jus
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d62992e112">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d65882e112">
 
 Option
 
-</th><th align="left" id="d62992e115">
+</th><th align="left" id="d65882e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d62992e121">
+</th></tr></thead><tbody><tr><td id="d65882e121">
 
 **As an assignee**
 
@@ -53,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d62992e150">
+</td></tr><tr><td id="d65882e150">
 
 **As a collaborator**
 
@@ -76,10 +77,10 @@ The state of the legal request is Work in progress and the document is Legal rev
 -   A legal matter is created with details copied from the legal request.
 -   You \(a legal fulfiller or a collaborator\) will be added in the **Watch list** of the legal matter to access it.
 -   If you selected a matter template, then the matter has predefined phases, tasks, and attributes from the template.
--   If the external storage option is enabled, the documents attached to the legal request and stored in the configured external storage are listed under the **Documents** tab of the [legal matter's Artifact record](../../legal-matter-management/task/add-artifact-to-legal-matter.md).
+-   If the external storage option is enabled, the documents attached to the legal request and stored in the configured external storage are listed under the **Documents** tab of the [legal matter's Artifact record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md).
 
     **Note:** Since the documents in the artifact created from the requests are shared, the addition or deletion of any documents in this shared artifact is reflected in both request and matter. Also, the document permission for this shared artifact is managed at the legal request level and not at the legal matter level.
 
 
-**Parent Topic:**[Work on a legal request](work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/work-on-legal-request.md)
 

@@ -2,6 +2,7 @@
 title: Deactivate the Invoice attachment DI processing flow
 description: Deactivate the Invoice attachment DI processing flow when you don't want to use the Document Intelligence capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/deactivate-di-attach-flow.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations

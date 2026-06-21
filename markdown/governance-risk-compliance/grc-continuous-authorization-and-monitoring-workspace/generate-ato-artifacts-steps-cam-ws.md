@@ -2,6 +2,7 @@
 title: Generate ATO artifacts
 description: Generate Authority to Operate \(ATO\) artifacts from the Authorization package overview record page in the CAM Workspace as a Microsoft Word file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-steps-cam-ws.html
 release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -19,11 +20,11 @@ Generate Authority to Operate \(ATO\) artifacts from the Authorization package o
 
 The Word plugin \(Document designer\) must be set up.
 
-For more information, see [Configuring ATO artifacts report templates using the Document Designer with Word add-in](../../grc-cam/reference/cam-configure-word-based-template.md).
+For more information, see [Configuring ATO artifacts report templates using the Document Designer with Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md).
 
 Verify using which report type you want to generate the respective ATO artifacts.
 
-For more information, see [Continuous Authorization and Monitoring system properties](../../grc-cam/reference/cam-components-installed.md#).
+For more information, see [Continuous Authorization and Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md).
 
 Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.info\_system\_sec\_officer, sn\_irm\_cont\_auth.system\_owner, or sn\_irm\_cont\_auth.admin.
 
@@ -31,7 +32,7 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the primary navigation, select the lists icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the primary navigation, select the lists icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  From the Authorization packages in the RMF list, select the authorization package record for which you want to generate the reports.
 
@@ -55,8 +56,8 @@ Implement, Assess, Authorize, or Monitor
 -   POA&amp;M
  **Note:**
 
--   The **Repetition** property **com.snc.word\_doc\_api.max\_repetitions** in the Document designer plugin must be set to 200 to generate an SSP report successfully. For more information, see [Reference information for Document designer](../../grc-common/reference/properties-for-document-designer.md).
--   For authorization packages with medium or high data limits, the number of records must be increased to 200 in the template configuration to generate the SSP report successfully. For more information, see [Create content configurations for CAM](../../grc-cam/reference/cam-create-content-configurations.md).
+-   The **Repetition** property **com.snc.word\_doc\_api.max\_repetitions** in the Document designer plugin must be set to 200 to generate an SSP report successfully. For more information, see [Reference information for Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/properties-for-document-designer.md).
+-   For authorization packages with medium or high data limits, the number of records must be increased to 200 in the template configuration to generate the SSP report successfully. For more information, see [Create content configurations for CAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-create-content-configurations.md).
 
 
 </td></tr><tr><td>
@@ -82,7 +83,7 @@ Authorize or Monitor
 </td></tr></tbody>
 </table>4.  To generate an SSP report for the package, select **Generate SSP**.
 
-5.  In the record header, select the drop-down action icon \(![Drop-down actions icon](../image/cam-ato-artifacts-dropdown-icon.png)\) and generate an SSP, SAR, POA&amp;M, SAP, ATO letter, or Executive Summary report.
+5.  In the record header, select the drop-down action icon \(\[Omitted image "cam-ato-artifacts-dropdown-icon.png"\] Alt text: Drop-down actions icon\) and generate an SSP, SAR, POA&amp;M, SAP, ATO letter, or Executive Summary report.
 
     -   To generate an SSP report, select **Generate SSP**.
     -   To generate an SAR report for the package, select **Generate SAR**.
@@ -90,7 +91,7 @@ Authorize or Monitor
     -   To generate an SAP report for the package, select **Generate SAP**.
     -   To generate an ATO letter report for the package, select **Generate ATO Letter**.
     -   To generate an Executive Summary report for the package, select **Generate Executive Summary**.
-    ![Generate ATO artifact UI actions.](../image/cam-ato-artifacts.png)
+    \[Omitted image "cam-ato-artifacts.png"\] Alt text: Generate ATO artifact UI actions.
 
 6.  Select **Proceed**.
 
@@ -104,7 +105,7 @@ Authorize or Monitor
 
     The Microsoft Word document is also attached to the **Authorization** section of the package in the **Details** related list. You can also select the download icon next to the report to download the file.
 
-8.  Next to the **.docx** file, select the more actions icon \(![More actions icon](../../grc-workspace-risk/image/icon-more-actions-risk.png)\) and select **Download**.
+8.  Next to the **.docx** file, select the more actions icon \(\[Omitted image "icon-more-actions-risk.png"\] Alt text: More actions icon\) and select **Download**.
 
     **Important:** Verify that the pop-up blocker is turned off for the URL so the file downloads to your local repository automatically.
 
@@ -113,5 +114,5 @@ Authorize or Monitor
     To generate ATO artifacts for an authorization package using the HTML template, see the [Configurations Required to Enable Report Generation for Authorization Package in CAM Workspace \[KB1649486\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1649486) article in the Now Support Knowledge Base.
 
 
-**Parent Topic:**[Generating ATO artifacts from an authorization package](../concept/generate-ato-artifacts-cam-ws.md)
+**Parent Topic:**[Generating ATO artifacts from an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-cam-ws.md)
 

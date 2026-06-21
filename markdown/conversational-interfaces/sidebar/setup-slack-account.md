@@ -2,6 +2,7 @@
 title: Set up the Slack account
 description: Set up the Slack account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/sidebar/setup-slack-account.html
 release: yokohama
 product: Sidebar
 classification: sidebar

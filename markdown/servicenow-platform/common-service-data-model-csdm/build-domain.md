@@ -2,6 +2,7 @@
 title: Build domain in the CSDM framework
 description: The Build domain involves the tables that are used in the build effort \(systems development life cycle — SDLC or Agile Development\) of digital products like DevOps. The tables represent the logical development details of the enterprise applications \(digital products\) to be deployed and used by the business. These are not operational CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/build-domain.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -21,7 +22,7 @@ Records in the table are not operational and are not direct targets of the ITSM 
 
 The tables in the build domain reference the logical development details of the enterprise applications to be deployed and used by the business. A common persona in this domain is Teams. The SDLC Component table is available through the CMDB schema version 1.33.
 
-![Build domain includes the SDLC component table.](../image/build-domain.png)
+\[Omitted image "build-domain.png"\] Alt text: Build domain includes the SDLC component table.
 
 ## SDLC component
 
@@ -29,9 +30,9 @@ An SDLC component is a CI that represents a unique development effort of code. I
 
 Types of SDLC components:
 
--   Application: A service instance is a deployed instance of the SDLC application component. Examples include micro services and APIs. The build team typically builds service instances on behalf of the Service Owner \(as described in [Manage Portfolio domain in the CSDM framework](manage-business-services-domain.md)\).
+-   Application: A service instance is a deployed instance of the SDLC application component. Examples include micro services and APIs. The build team typically builds service instances on behalf of the Service Owner \(as described in [Manage Portfolio domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md)\).
 
-    See [Monitor the health of application services on the Application Services dashboard](../../configuration-management/task/app-service-dashboard.md).
+    See [Monitor the health of application services on the Application Services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 -   Infrastructure: Any infrastructure CI that represents a snapshot of its configuration details is a deployed instance of the SDLC infrastructure component. Examples include database and security configurations.
 
@@ -39,5 +40,5 @@ Types of SDLC components:
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[Common Service Data Model — conceptual model](csdm-conceptual-model.md)
+**Parent Topic:**[Common Service Data Model — conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
 

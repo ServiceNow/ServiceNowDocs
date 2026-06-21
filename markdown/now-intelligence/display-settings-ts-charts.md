@@ -2,6 +2,7 @@
 title: Display settings for different time series charts
 description: Each time series visualization type has a different set of display settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/display-settings-ts-charts.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -233,5 +234,5 @@ Show continuous line
 When selected and there is no data for a specific time, there is no gap in the chart and it shows continuous line.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create time series visualizations](../task/create-dv-time-series-ac.md)
+</table>**Parent Topic:**[Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
 

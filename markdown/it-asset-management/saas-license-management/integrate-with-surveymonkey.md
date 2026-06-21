@@ -2,6 +2,7 @@
 title: Integrating with SurveyMonkey
 description: Integrating your Software Asset Management application with SurveyMonkey application enables you to track your software subscriptions and to reclaim unused licenses.Create a private SurveyMonkey application for creating, tracking, and analyzing surveys within your organization.Create a SurveyMonkey integration profile to track software subscriptions and optimize licensing for your SurveyMonkey applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/saas-license-management/integrate-with-surveymonkey.html
 release: yokohama
 product: SaaS License Management
 classification: saas-license-management
@@ -63,7 +64,7 @@ Create a private SurveyMonkey application for creating, tracking, and analyzing 
 
 ### Before you begin
 
-SurveyMonkey Role required: Refer to the [Minimal user permissions](integrate-with-surveymonkey.md#) table.
+SurveyMonkey Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-surveymonkey.md) table.
 
 ### About this task
 
@@ -118,7 +119,7 @@ To create a SurveyMonkey integration profile, request the Software Asset Managem
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **SurveyMonkey Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **SurveyMonkey Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -128,15 +129,15 @@ If you’re using Software Asset Workspace, the option to create the SurveyMonke
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d127000e479">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d125321e478">
 
 Interface
 
-</th><th align="left" id="d127000e482">
+</th><th align="left" id="d125321e481">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d127000e488">
+</th></tr></thead><tbody><tr><td id="d125321e487">
 
 **Core UI**
 
@@ -147,7 +148,7 @@ Action
 3.  Select **SurveyMonkey Integration Profile**.
 
 
-</td></tr><tr><td id="d127000e530">
+</td></tr><tr><td id="d125321e529">
 
 **Software Asset Workspace**
 
@@ -199,7 +200,7 @@ Type of integration profile. This field is automatically set to **SurveyMonkey S
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-    **Note:** For more information, see [Minimal user permissions](integrate-with-surveymonkey.md#) table.
+    **Note:** For more information, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-surveymonkey.md) table.
 
     1.  In the Download Subscription Subflow section, verify that the **Subflow** field is set to **SurveyMonkey Download Subscriptions**.
 
@@ -213,7 +214,7 @@ Type of integration profile. This field is automatically set to **SurveyMonkey S
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
-        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+        You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 4.  Select **Save**.
 
@@ -221,7 +222,7 @@ Type of integration profile. This field is automatically set to **SurveyMonkey S
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_sv\_monkey\_spoke.surveyMonkey**.
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon \(![Preview icon.](../image/preview-icon.png)\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -265,12 +266,12 @@ OAuth Redirect URL
 
 </td><td>
 
-URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the OAuth redirect URL that you specified in [Create a private SurveyMonkey application](integrate-with-surveymonkey.md#).
+URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the OAuth redirect URL that you specified in [Create a private SurveyMonkey application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-surveymonkey.md).
 
 </td></tr></tbody>
 </table>8.  Select **Create and Get OAuth Token**.
 
-    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](integrate-with-surveymonkey.md#) table.
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-surveymonkey.md) table.
 
 9.  In the Authorize App dialog box, sign in using the same SurveyMonkey credentials that you used to create your SurveyMonkey application.
 
@@ -294,18 +295,18 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/run-recon-workspace.md).
 

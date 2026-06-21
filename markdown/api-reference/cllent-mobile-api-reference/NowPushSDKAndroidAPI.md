@@ -2,6 +2,7 @@
 title: NowPushSDK class - Android
 description: The NowPushSDK class provides the function necessary to create a NowPushService that enables the sending of unsolicited \(push\) notifications to Android devices.Creates a NowPush service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/NowPushSDKAndroidAPI.html
 release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API r
 
 The NowPushSDK class provides the function necessary to create a `NowPushService` that enables the sending of unsolicited \(push\) notifications to Android devices.
 
-**Parent Topic:**[Mobile SDK API reference - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowPushSDK - makePushService\(instanceURL: URL\)
 

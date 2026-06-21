@@ -2,13 +2,14 @@
 title: Create a product offering category
 description: Define a product offering category used to organize similar product offerings in a catalog. Product categories make it easier for agents to browse and navigate product offerings when creating opportunities, quotes, and orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-create-product-offering-category.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product offering category
@@ -21,7 +22,7 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_ca
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Offerings** &gt; **Product Offering Categories**.
 
@@ -140,5 +141,5 @@ Product code for the category. The system automatically generates a code based o
 
 ## What to do next
 
-[Create product offerings](som-create-product-offering.md).
+[Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-product-offering.md).
 

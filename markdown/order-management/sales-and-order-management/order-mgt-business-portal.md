@@ -2,6 +2,7 @@
 title: Customer self-service using the Business Portal
 description: Customers can use the Business Portal to browse product catalogs, create product orders, create and view order cases in Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/order-mgt-business-portal.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,13 +20,13 @@ Customers can use the Business Portal to browse product catalogs, create product
 
 The Business Portal uses the product catalog to let customers browse and configure products. Customers can also build orders and submit them for fulfillment.
 
-![Image shows the catalog in the Business Portal that customers use to browse and configure products.](../image/som-customer-portal-product-catalog.png "The Business Portal product catalog")
+\[Omitted image "som-customer-portal-product-catalog.png"\] Alt text: Image shows the catalog in the Business Portal that customers use to browse and configure products.
 
 ## Viewing products in the shopping cart in the Business Portal
 
 Customers can view products in their shopping cart using the Business Portal. Customers are also submit orders to start the fulfillment process.
 
-![Image shows the contents of the shopping cart in the Business Portal and also shows the Submit Order button, which creates the order.](../image/som-portal-view-cart.png "Business Portal shopping cart")
+\[Omitted image "som-portal-view-cart.png"\] Alt text: Image shows the contents of the shopping cart in the Business Portal and also shows the Submit Order button, which creates the order.
 
 ## Creating and viewing order cases
 

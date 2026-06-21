@@ -2,6 +2,7 @@
 title: Create sub-groups for automation opportunities
 description: Large automation opportunities in AIOps LEAP are broken into smaller, more manageable sub-groups to achieve more focused and accurate incident resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/creating-subgroups-for-automation-opportunities.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

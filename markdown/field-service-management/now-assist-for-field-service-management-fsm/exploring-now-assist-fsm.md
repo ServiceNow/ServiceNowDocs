@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Field Service Management \(FSM\)
 description: With the Now Assist for Field Service Management \(FSM\) application, users can generate work order task summaries and knowledge articles from work order task information. The sidebar summarization feature also helps agents quickly capture and document important discussions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.html
 release: yokohama
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -57,5 +58,5 @@ The Now Assist for FSM application includes generative AI skills that enable use
 
 ## Now Assist in Virtual Agent for Field Service
 
-Now Assist in Virtual Agent for Field Service Management guided setup can reduce the time and effort needed to deploy Now Assist in Virtual Agent for mobile. Your administrators can configure features and skills as well as sources of information such as knowledge bases and catalogs. For more information, see [Create an Assistant for Field Service Management](../task/activate-virtual-agent-for-field-service-management.md).
+Now Assist in Virtual Agent for Field Service Management guided setup can reduce the time and effort needed to deploy Now Assist in Virtual Agent for mobile. Your administrators can configure features and skills as well as sources of information such as knowledge bases and catalogs. For more information, see [Create an Assistant for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/activate-virtual-agent-for-field-service-management.md).
 

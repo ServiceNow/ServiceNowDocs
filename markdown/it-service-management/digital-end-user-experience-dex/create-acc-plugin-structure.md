@@ -2,6 +2,7 @@
 title: Create an ACC plugin package
 description: Create an Agent Client Collector \(ACC\) plugin package that includes the PowerShell script defining the remedial action, a Ruby script, and an allowlist to enable execution of the remedial action on an endpoint device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/create-acc-plugin-structure.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

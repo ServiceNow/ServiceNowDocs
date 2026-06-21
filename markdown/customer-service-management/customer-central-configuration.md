@@ -2,7 +2,10 @@
 title: Configuring the Customer History component
 description: Users with admin role can configure several properties for the Customer History component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-central-configuration.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
@@ -17,7 +20,7 @@ Users with admin role can configure several properties for the Customer History 
 
 The Customer History component refreshes automatically when the account, contact, or consumer is updated on a record, eliminating the need for manual page refreshes.
 
-The **Refresh requested** property captures the last refresh timestamp and triggers events such as Context Refresh Requested whenever the value changes. Admins can configure custom event handlers to adjust the refresh behavior as needed.![Refresh Requested](../image/cust-central-refresh-requested-prop.png)
+The **Refresh requested** property captures the last refresh timestamp and triggers events such as Context Refresh Requested whenever the value changes. Admins can configure custom event handlers to adjust the refresh behavior as needed.\[Omitted image "cust-central-refresh-requested-prop.png"\] Alt text: Refresh Requested
 
 This property can be set for the following record pages:
 
@@ -54,7 +57,7 @@ This customization option is available on all pages where the Customer History c
 
 ## Show bordered icons
 
-The **Show bordered icons** check box allows admins to customize icon borders in the interface.![Show bordered option](../image/cust-central-show-bordered-icon.png)
+The **Show bordered icons** check box allows admins to customize icon borders in the interface.\[Omitted image "cust-central-show-bordered-icon.png"\] Alt text: Show bordered option
 
 -   Set to true: Enables bordered icons
 -   Set to false: Disables bordered icons
@@ -92,7 +95,7 @@ Default values are set for all fields to prevent errors by ensuring that fields 
 
 ## New empty state for context fields
 
-![New empty state for context fields](../image/cust-central-empty-state-field-feature.png)
+\[Omitted image "cust-central-empty-state-field-feature.png"\] Alt text: New empty state for context fields
 
 On the agent side, when viewing a case, customer history or activity data loads automatically if available. If there’s no activity, the system shows “No activities found”. If no account, contact, or consumer is selected, it displays “No customer identified yet”. This behavior is part of the empty state feature, guiding users to select or add context \(account, contact, or consumer\) to proceed.
 

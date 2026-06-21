@@ -2,6 +2,7 @@
 title: Add similar incidents from major incident workbench
 description: Add similar incidents to a major incident so that the support teams can work on the parent record for a coordinated response process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/add-similar-inci-mim-workbench.html
 release: yokohama
 product: Incident Management
 classification: incident-management
@@ -20,23 +21,23 @@ Add similar incidents to a major incident so that the support teams can work on 
 Role required: itil, major\_incident\_manager, communication\_manager, incident\_manager, or admin
 
 -   Activate the Predictive Intelligence plugin \(com.glide.platform\_ml\).
-    -   Configure Predictive Intelligence and train the solution definition with the name **ml\_sn\_global\_similar\_incidents\_mim**. For more information on how to train a solution definition, refer to [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+    -   Configure Predictive Intelligence and train the solution definition with the name **ml\_sn\_global\_similar\_incidents\_mim**. For more information on how to train a solution definition, refer to Create and train a similarity solution.
 -   Ensure that there is an active ML solution at **Predictive Intelligence** &gt; **Similarity** &gt; **Solutions** with the solution name **ml\_sn\_global\_similar\_incidents\_mim**.
 
 ## Procedure
 
-1.  Navigate to [Major incident workbench](../concept/major-incident-workbench.md).
+1.  Navigate to [Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/major-incident-workbench.md).
 
 2.  Click the **Summary** tab.
 
-3.  In the Child Incidents section, click ![MIM ellipses](../image/mim-ellipses.png) and then click **Find Similar**.
+3.  In the Child Incidents section, click \[Omitted image "mim-ellipses.png"\] Alt text: MIM ellipses and then click **Find Similar**.
 
-    ![Find similar option](../image/mim-find-similar.png)
+    \[Omitted image "mim-find-similar.png"\] Alt text: Find similar option
 
 4.  From the Add Similar Incidents dialog box, select the similar incidents that you want to relate to the major incident and then click **Add Selected**.
 
     The similar child incidents appear under the Child Incidents section.
 
 
-**Parent Topic:**[Major incident workbench](../concept/major-incident-workbench.md)
+**Parent Topic:**[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/major-incident-workbench.md)
 

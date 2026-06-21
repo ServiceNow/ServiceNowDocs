@@ -2,6 +2,7 @@
 title: Portal Banner widget
 description: You can use the Portal Banner widget to display announcements, new product or feature highlights, and important information on the portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-widget.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -15,7 +16,7 @@ breadcrumb: [Set up Configurable Portal widgets, Set up self-service, Configurin
 
 You can use the Portal Banner widget to display announcements, new product or feature highlights, and important information on the portal page.
 
-![Portal Banner widget displaying greeting message, shortcut buttons, and search field on the portal page.](../image/config-port-banner-widget.png "Portal Banner widget")
+\[Omitted image "config-port-banner-widget.png"\] Alt text: Portal Banner widget displaying greeting message, shortcut buttons, and search field on the portal page.
 
-For information about how to configure instance options for the Portal Banner widget, see [Add and configure the Portal Banner widget](../task/config-portal-banner-widget-inst-opt.md).
+For information about how to configure instance options for the Portal Banner widget, see [Add and configure the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.md).
 

@@ -2,6 +2,7 @@
 title: NowUIAdaptiveColor - Android
 description: The NowUIAdaptiveColor interface provides functions that return an integer or hexadecimal color value based on the calling device's theme mode setting.Returns an integer color value based on the calling device's theme mode setting.Returns a hexadecimal color value based on the calling device's theme mode setting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/NowUIAdaptiveColorAndroidInterface.html
 release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -17,7 +18,7 @@ The NowUIAdaptiveColor interface provides functions that return an integer or he
 
 It returns the value for the **darkColor** theme if dark mode is enabled on the user's device and the value for the **lightColor** theme for all other scenarios.
 
-**Parent Topic:**[Mobile SDK API reference - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowUIAdaptiveColor - getColor\(context: Context?\)
 

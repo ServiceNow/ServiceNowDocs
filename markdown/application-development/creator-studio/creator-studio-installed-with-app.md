@@ -2,11 +2,12 @@
 title: Artifacts that Creator Studio generates when users create an app
 description: When a user creates an app in Creator Studio, the ServiceNow AI Platform creates several metadata artifacts, such as tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-installed-with-app.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -34,7 +35,7 @@ New table that extends from the base Request Task table
 -   Name: \[scope\]\_request \(for example, x\_snc\_marketing\_request\)
 -   Label: \[App name\] + Requests \(for example, Marketing Request\)
 
- **Note:** All of the form questions are stored as catalog variables in the app's Request Task table. However, admins can change the underlying table for an app, see [Administering an app's underlying table](../concept/creator-studio-admin-app-table.md) for more information.
+ **Note:** All of the form questions are stored as catalog variables in the app's Request Task table. However, admins can change the underlying table for an app, see [Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md) for more information.
 
 </td></tr><tr><td>
 
@@ -87,5 +88,5 @@ Dashboard name: \[App Name\] + RequestsContents:
 -   A simple list showing all open requests
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administering Creator Studio](../concept/administering-creator-studio.md)
+</table>**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/administering-creator-studio.md)
 

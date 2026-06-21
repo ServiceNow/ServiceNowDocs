@@ -2,6 +2,7 @@
 title: Configure Financial Services Treasury Operations
 description: Review the components that are installed with the Financial Services Treasury Operations application and modify as needed for your organization's business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-treasury-operations/configure-fso-treasury-ops.html
 release: yokohama
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -17,7 +18,7 @@ Review the components that are installed with the Financial Services Treasury Op
 
 ## Before you begin
 
-Make sure that the Financial Services Treasury Operations application is installed. For more information, see [Install Financial Services Treasury Operations](install-fso-treasury-operations.md).
+Make sure that the Financial Services Treasury Operations application is installed. For more information, see [Install Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/install-fso-treasury-operations.md).
 
 Role required: sn\_bom\_treasury.admin and admin
 
@@ -25,85 +26,85 @@ Role required: sn\_bom\_treasury.admin and admin
 
 1.  Import your financial accounts, financial products, financial institutions, and transactions data into ServiceNow tables.
 
-    For more information, see [Import your financial data using import sets](../../fso-common/task/import-financial-accounts-products-institutions.md).
+    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/import-financial-accounts-products-institutions.md).
 
 2.  Review the installed components.
 
     Modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d89308e107">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d76204e107">
 
 Task
 
-</th><th align="left" id="d89308e110">
+</th><th align="left" id="d76204e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89308e116">
+</th></tr></thead><tbody><tr><td id="d76204e116">
 
 **Configure service definitions**
 
 </td><td>
 
-[Configure service definitions](../../fso-common/task/configure-service-definitions.md) to enable unique flows and views for treasury service cases and tasks. You can add new case types and configure service definitions for each type.
+[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/configure-service-definitions.md) to enable unique flows and views for treasury service cases and tasks. You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d89308e138">
+</td></tr><tr><td id="d76204e138">
 
 **Edit or create flows**
 
 </td><td>
 
-[Edit or create flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
+[Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d89308e160">
+</td></tr><tr><td id="d76204e160">
 
 **Configure playbook**
 
 </td><td>
 
-[Edit or create a new playbook](../../fso-common/task/configure-playbooks-fso-apps.md) using Playbooks.
+[Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d89308e182">
+</td></tr><tr><td id="d76204e182">
 
 **Configure CSM Configurable Workspace**
 
 </td><td>
 
-[Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.
+[Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.
 
-</td></tr><tr><td id="d89308e210">
+</td></tr><tr><td id="d76204e210">
 
 **Configure Service Level Agreements \(SLAs\)**
 
 </td><td>
 
-[Configure the installed SLAs](../../fso-common/task/configure-sla-definitions-fso-cases.md) to configure SLA timings for treasury service cases and tasks.
+[Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/configure-sla-definitions-fso-cases.md) to configure SLA timings for treasury service cases and tasks.
 
-</td></tr><tr><td id="d89308e229">
+</td></tr><tr><td id="d76204e229">
 
 **Configure user groups**
 
 </td><td>
 
-[Configure user groups](../../fso-common/task/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
+[Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d89308e248">
+</td></tr><tr><td id="d76204e248">
 
 **Configure assignment rules**
 
 </td><td>
 
-[Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
+[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d89308e264">
+</td></tr><tr><td id="d76204e264">
 
 **Configure Document Processor**
 
 </td><td>
 
-[Configure Document Processor](../../fso-common/concept/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.
+[Configure Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up Financial Services Treasury Operations](../concept/setting-up-fso-treasury-operations.md)
+**Parent Topic:**[Setting up Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/setting-up-fso-treasury-operations.md)
 

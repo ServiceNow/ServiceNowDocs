@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection Suggest configuration items for a change request
 description: Use the Suggest configuration items for a change request agentic workflow to make the process of selecting configuration items during change creation conversational, intuitive, and efficient for users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -20,7 +21,7 @@ Use the Suggest configuration items for a change request agentic workflow to mak
 
 The Suggest configuration items for a change request agentic workflow lets users quickly find and link relevant configuration items \(CIs\) to a change request from the Now Assist panel. The workflow analyzes change request content and suggests appropriate CIs.
 
-To modify the Suggest configuration items for a change request agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Suggest configuration items for a change request agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
 **Note:** The workflow can be accessed by the itil role.
 
@@ -45,12 +46,12 @@ You can access the Change CI suggestion AI agent in the Define key requirements 
 
     The agent executes the request for the workflow.
 
-    ![Suggest configuration items for a change request workflow output in ServiceNowAI Agent Studio](../image/now-assist-change-management-suggest-ci-item.png "Example of the Suggest configuration items for a change request agentic workflow output in ServiceNowAI Agent Studio")
+    \[Omitted image "now-assist-change-management-suggest-ci-item.png"\] Alt text: Suggest configuration items for a change request workflow output in ServiceNowAI Agent Studio
 
 4.  Access and use the Suggest configuration items for a change request agentic workflow from the Now Assist panel.
 
     You can query in the Now Assist panel with the change request number. For the query instructions, read the steps specified in the **List of steps** field of the corresponding AI agent \(Change CI suggestion AI agent\).
 
-    ![Suggest configuration items for a change request workflow output in the Now Assist panel](../image/now-assist-suggest-ci-change-request-nap.png "Example of the Suggest configuration items for a change request agentic workflow output in the Now Assist panel")
+    \[Omitted image "now-assist-suggest-ci-change-request-nap.png"\] Alt text: Suggest configuration items for a change request workflow output in the Now Assist panel
 
 

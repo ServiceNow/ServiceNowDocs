@@ -2,6 +2,7 @@
 title: Create a personal event in the Mobile Agent
 description: Create personal events in the Mobile Agent to block off time for a break or phone call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/create-event-mobile-agent-application.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -40,5 +41,5 @@ Events created with the Mobile Agent show as personal in the calendar view.
 5.  Tap **Submit**.
 
 
-**Parent Topic:**[Personal events in Mobile Agent](../concept/events-now-mobile-application.md)
+**Parent Topic:**[Personal events in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/events-now-mobile-application.md)
 

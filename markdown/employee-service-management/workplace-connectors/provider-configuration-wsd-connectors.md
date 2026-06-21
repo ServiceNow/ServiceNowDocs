@@ -2,6 +2,7 @@
 title: Configure badging table data
 description: Register details for a new provider, configure a badging table and import data from the source table to the target table to integrate with the badging system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/provider-configuration-wsd-connectors.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
@@ -25,7 +26,7 @@ Role required: sn\_wsd\_wc.admin
 
 1.  Navigate to **All** &gt; **Workplace Connectors** &gt; **Provider Connector Configurations**.
 
-2.  From the menu, select the application scope icon \(![Application Scope icon.](../images/wsd-appl-global-scope-icon.png)\).
+2.  From the menu, select the application scope icon \(\[Omitted image "wsd-appl-global-scope-icon.png"\] Alt text: Application Scope icon.\).
 
 3.  Select **Create New**.
 
@@ -53,7 +54,7 @@ Connector Configuration
 
 </td><td>
 
-Select the lookup list icon \(![Lookup list icon.](../../workplace-lease-administration/images/look-up-icon.png)\) and select **Badging**. For more information, see [Configure connector configuration for badging data](workplace-connector-configuration.md).
+Select the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup list icon.\) and select **Badging**. For more information, see [Configure connector configuration for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/workplace-connector-configuration.md).
 
 </td></tr><tr><td>
 
@@ -131,9 +132,9 @@ Option to select target record for supported metrics. Select Event Data.
     The scheduled job takes the source data from the Badging data table to transform the data in the required format, and place it in the target Employee Attendance Data table.
 
 
-**Parent Topic:**[Provider connector configuration](../concept/provider-configuration-ovw.md)
+**Parent Topic:**[Provider connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/provider-configuration-ovw.md)
 
-**Previous topic:**[Provider connector configuration](../concept/provider-configuration-ovw.md)
+**Previous topic:**[Provider connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/provider-configuration-ovw.md)
 
-**Next topic:**[Configure a webhook event](configure-webhook-restapi.md)
+**Next topic:**[Configure a webhook event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/configure-webhook-restapi.md)
 

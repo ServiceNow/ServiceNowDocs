@@ -2,13 +2,14 @@
 title: Post-upgrade order migration for the Business Portal
 description: Migrate draft proxy order carts to the new sales cart to avoid having your customers lose products they added to their carts on the Business Portal
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/post-upgrade-task-business-portal.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Business Portal, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring the Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Post-upgrade order migration for the Business Portal
@@ -17,7 +18,7 @@ Migrate draft proxy order carts to the new sales cart to avoid having your custo
 
 ## Before you begin
 
-Ensure that the Sales Cart application has been installed. For more information, see [Install Sales Cart](install-sales-cart-plugin.md).
+Ensure that the Sales Cart application has been installed. For more information, see [Install Sales Cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/install-sales-cart-plugin.md).
 
 Role required: admin
 

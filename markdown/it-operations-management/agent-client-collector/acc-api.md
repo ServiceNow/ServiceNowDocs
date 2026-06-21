@@ -2,6 +2,7 @@
 title: Agent Client Collector API
 description: Use the Agent Client Collector \(ACC\) API to create a flow that executes an osquery command on agents and processes the results. By leveraging the ACC API, you can automate the querying of agent data and streamline the processing of results, making it easier to monitor and manage system performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-api.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -24,9 +25,9 @@ The ACC API enables seamless integration and automation for executing queries an
 3.  Support for osquery 5.7.0: The ACC API is compatible with osquery 5.7.0, which ensures it supports the latest features and improvements, enabling you to leverage advanced query capabilities for enhanced data collection.
 4.  Enable API features: To use the ACC API, enable the agent and policy APIs. This allows you to configure and manage various aspects of your agents, including their communication, data collection, and query execution.
 
-For details on agent APIs, see [Enable agent APIs](https://www.servicenow.com/docs/access?context=AccAgentsAPIAPIScoped&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+For details on agent APIs, see Enable agent APIs.
 
-For details on enabling policy APIs, see [Enable policy APIs](https://www.servicenow.com/docs/access?context=agnt_clnt_cll-api&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+For details on enabling policy APIs, see Enable policy APIs.
 
-**Parent Topic:**[Exploring Agent Client Collector Framework](exploring-agent-client-collector-framework.md)
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

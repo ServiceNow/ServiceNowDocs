@@ -2,6 +2,7 @@
 title: Configure search source when AI search is disabled
 description: In Employee Center, the AI search is enabled by default. In situations where the AI search is disabled, you can configure a search source from which to fetch search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/config-search-source.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,7 +34,7 @@ The search source configuration limits the search to the content associated with
 
 4.  On the form, fill in the fields.
 
-    For more information, see [Define a search source](https://www.servicenow.com/docs/access?context=add-table-search-source&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+    For more information, see Define a search source.
 
 5.  Click **Submit**.
 

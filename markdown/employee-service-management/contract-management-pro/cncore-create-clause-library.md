@@ -2,6 +2,7 @@
 title: Create or edit a contract clause
 description: As a contract configurator, create or modify clauses that manage clause variations that are mapped to contract templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-create-clause-library.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -107,7 +108,7 @@ Option to make the clause active and available for use. **Note:** While editing 
 
 ## What to do next
 
-Create clause variations to use them in the document template for a predefined condition. For more information, see [Create a clause variation](cncore-add-clauses-doc-tmplt.md).
+Create clause variations to use them in the document template for a predefined condition. For more information, see [Create a clause variation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-add-clauses-doc-tmplt.md).
 
-**Parent Topic:**[Configure dynamic clauses for contract templates](../concept/cncore-clause-and-cv.md)
+**Parent Topic:**[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)
 

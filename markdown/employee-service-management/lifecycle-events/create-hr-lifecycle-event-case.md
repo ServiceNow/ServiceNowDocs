@@ -2,6 +2,7 @@
 title: Create an HR case for a lifecycle event
 description: Create a lifecycle event case. A lifecycle event case is an HR case that is fulfilled by a lifecycle event. For example, the HR service for New Hire Onboarding is fulfilled by the lifecycle event for New Hire Onboarding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/lifecycle-events/create-hr-lifecycle-event-case.html
 release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
@@ -19,7 +20,7 @@ Create a lifecycle event case. A lifecycle event case is an HR case that is fulf
 
 Role required: sn\_hr\_le.case\_writer
 
-A lifecycle event administrator must have built the lifecycle event and created a corresponding HR service before you can create a case for that event. See [Building a lifecycle event](../concept/hr-lifecycle-event-configuration.md) for more information.
+A lifecycle event administrator must have built the lifecycle event and created a corresponding HR service before you can create a case for that event. See [Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md) for more information.
 
 ## Procedure
 
@@ -31,13 +32,13 @@ A lifecycle event administrator must have built the lifecycle event and created 
 
 3.  On the HR case creation form, under the **Case Details** section, select the HR service you are requesting for the employee.
 
-    ![On the HR case creation form, select the HR service you are requesting for the employee.](../image/hr-case-creation-form.png)
+    \[Omitted image "hr-case-creation-form.png"\] Alt text: On the HR case creation form, select the HR service you are requesting for the employee.
 
 4.  Click **Create Case** to create the HR case.
 
 5.  On the HR case form, fill in the fields on the form, as appropriate.
 
-    For further details on the form fields, see [Work an HR case](t_CreateAnHRCase.md).
+    For further details on the form fields, see [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md).
 
 6.  Click **Ready for Work** to change the state from **Draft** to **Ready**.
 
@@ -50,5 +51,5 @@ The following GIF shows an example of an in-progress lifecycle event case.
 
 **Note:** You can drill down from the lifecycle event case list view to monitor the status of the individual activity sets and activities. You can also drill down from the individual event case form.
 
-![After you create a lifecycle event case, you can track the progress of the lifecycle event and monitor the status of individual activity sets and activities.](../image/lifecycle-event-case-progress.gif)
+\[Omitted image "lifecycle-event-case-progress.gif"\] Alt text: After you create a lifecycle event case, you can track the progress of the lifecycle event and monitor the status of individual activity sets and activities.
 

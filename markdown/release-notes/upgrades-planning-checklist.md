@@ -2,6 +2,7 @@
 title: Upgrade planning checklist
 description: Plan and track the activities related to your ServiceNow instance upgrade. To help ensure that you complete all the tasks for a successful upgrade, follow the step-by-step instructions in the upgrade planning checklist to track and plan the upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrades-planning-checklist.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -70,25 +71,25 @@ Phase 1 - Read the release notes and plan your upgrade
 
 </td></tr><tr><td>
 
-[1](task/upgrades-phase-1.md)
+[1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-1.md)
 
 </td><td>
 
-Review the [Yokohama release notes](../family-release-notes.md) for the target ServiceNow feature release and patch, in addition to product and release documentation.
+Review the [Yokohama release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/family-release-notes.md) for the target ServiceNow feature release and patch, in addition to product and release documentation.
 
- For Yokohama -specific upgrade considerations, see [Pre- and post-upgrade tasks for various products](reference/upgrade-and-migration-tasks.md).
-
-</td><td>
-
-![](../image/checkbox.png)
+ For Yokohama -specific upgrade considerations, see [Pre- and post-upgrade tasks for various products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade-and-migration-tasks.md).
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
+
+</td><td>
+
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td class="sub-head" colspan="5">
 
@@ -124,15 +125,15 @@ Confirm the instance hosting model. For example, ServiceNow cloud, on-premise, o
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -140,19 +141,19 @@ Confirm the instance hosting model. For example, ServiceNow cloud, on-premise, o
 
 </td><td>
 
-Based on the [Yokohama release notes](../family-release-notes.md) and other release materials, determine new functionality or notable changes that need to be validated after the upgrade.
+Based on the [Yokohama release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/family-release-notes.md) and other release materials, determine new functionality or notable changes that need to be validated after the upgrade.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -164,15 +165,15 @@ Confirm plans to enable or disable features introduced in the new product releas
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -180,19 +181,19 @@ Confirm plans to enable or disable features introduced in the new product releas
 
 </td><td>
 
-Review the [Browser support](../../administer/navigation-and-ui/reference/browser-support.md) to determine browser prerequisites. For example, versions and types supported, and additional requirements for new UI versions. Compare these supported browsers to your corporate standard and identify any gaps.
+Review the [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md) to determine browser prerequisites. For example, versions and types supported, and additional requirements for new UI versions. Compare these supported browsers to your corporate standard and identify any gaps.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -204,15 +205,15 @@ Create a project plan for cloning, upgrading, and testing.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -224,15 +225,15 @@ Identify the core team of testers, power users, and key stakeholders required to
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -244,15 +245,15 @@ Confirm whether there are any change freeze windows impacting the timing for env
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -286,15 +287,15 @@ Confirm the availability of other systems required for integration testing \(key
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -306,15 +307,15 @@ Confirm whether there are any restrictions in which ServiceNow instances can be 
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -326,15 +327,15 @@ Confirm the testing scope and approach.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -346,15 +347,15 @@ Create a comprehensive test plan including test cases for all core instance func
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -366,15 +367,15 @@ Confirm the method for tracking any defects identified during testing.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -390,15 +391,15 @@ Create a high-level implementation plan that covers:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -412,15 +413,15 @@ Responsible: ServiceNow or Customer
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -432,15 +433,15 @@ Determine whether existing internal training materials, Knowledge Base articles 
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -454,19 +455,19 @@ There may be a service charge and require professional services engagement.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[20](task/upgrades-phase-2.md#Phase3Step1Clone)
+[20](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-2.md)
 
 </td><td>
 
@@ -478,15 +479,15 @@ It is important to test on a system that reflects the production instance as clo
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td class="sub-head" colspan="5">
 
@@ -494,7 +495,7 @@ Phase 3 - Verify your upgrade configurations and schedule the development instan
 
 </td></tr><tr><td>
 
-[21](task/upgrades-phase-3.md#Phase3Step1CheckUpgradeJob)
+[21](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-3.md)
 
 </td><td>
 
@@ -502,19 +503,19 @@ Check the configuration of the **Check distribution for possible upgrade** sched
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[22](task/upgrades-phase-3.md#Phase3Step2UpgradeSysTrigger)
+[22](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-3.md)
 
 </td><td>
 
@@ -522,19 +523,19 @@ Verify that the **Check distribution for possible upgrade** sys\_trigger is set 
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[23](task/upgrades-phase-3.md#Phase3Step3CheckUpgradeSysTrigger)
+[23](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-3.md)
 
 </td><td>
 
@@ -542,19 +543,19 @@ Verify that the **Check database for possible upgrade** sys\_trigger is set prop
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[24](task/upgrades-phase-3.md#Phase3Step4ScheduleUpgrade)
+[24](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-3.md)
 
 </td><td>
 
@@ -562,19 +563,19 @@ Schedule the upgrade in Now Support.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[25](task/upgrades-phase-3.md#Phase3Step5RequestEnt)
+[25](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-3.md)
 
 </td><td>
 
@@ -582,15 +583,15 @@ If applicable, request a version entitlement.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td class="sub-head" colspan="5">
 
@@ -598,7 +599,7 @@ Phase 4 - Upgrade and validate the development instance
 
 </td></tr><tr><td>
 
-[26](task/upgrades-phase-4.md#Phase4Step1Validate)
+[26](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-4.md)
 
 </td><td>
 
@@ -606,39 +607,39 @@ Using the Upgrade Monitor, monitor the upgrade to your instance and validate tha
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[27](task/upgrades-phase-4.md#Phase4Step2SkippedList)
+[27](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-4.md)
 
 </td><td>
 
-After the upgrade for your development instance is complete, [process the skipped records list](https://www.servicenow.com/docs/access?context=uc-process-skipped-records&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) in the Upgrade Monitor.
+After the upgrade for your development instance is complete, process the skipped records list in the Upgrade Monitor.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[28](task/upgrades-phase-4.md#Phase4Step3UpdateSets)
+[28](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-4.md)
 
 </td><td>
 
@@ -646,19 +647,19 @@ Identify your update sets.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[29](task/upgrades-phase-4.md#Phase4Step4FunctionalTesting)
+[29](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-4.md)
 
 </td><td>
 
@@ -666,15 +667,15 @@ Before and after upgrading, conduct smoke tests on your development instance. Us
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td class="sub-head" colspan="5">
 
@@ -682,7 +683,7 @@ Phase 5 - If applicable: Upgrade and validate your other non-production instance
 
 </td></tr><tr><td>
 
-[30](task/upgrades-phase-2.md#Phase3Step1Clone)
+[30](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-2.md)
 
 </td><td>
 
@@ -690,19 +691,19 @@ On your production instance, create a system clone and select your development i
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[31](task/upgrades-phase-5.md)
+[31](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -710,19 +711,19 @@ Schedule the non-production upgrade in Now Support and verify your upgrade confi
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[32](task/upgrades-phase-5.md)
+[32](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -730,19 +731,19 @@ Validate that the upgrade to your non-production instance is complete.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[33](task/upgrades-phase-5.md)
+[33](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -750,19 +751,19 @@ Install any optional plugins that were installed on your development instance.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[34](task/upgrades-phase-5.md)
+[34](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -770,19 +771,19 @@ Install any custom applications and post-upgrade fix scripts that you need.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[35](task/upgrades-phase-5.md)
+[35](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -790,19 +791,19 @@ Install update sets.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[36](task/upgrades-phase-5.md)
+[36](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -810,15 +811,15 @@ Perform functional testing and monitor the performance of your instance.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td class="sub-head" colspan="5">
 
@@ -836,15 +837,15 @@ Responsible: Customer
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -858,15 +859,15 @@ Responsible: Customer
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -880,15 +881,15 @@ Responsible: Customer
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -902,15 +903,15 @@ Responsible: Customer
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -924,15 +925,15 @@ Responsible: Customer
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -946,15 +947,15 @@ Responsible: Customer
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -968,19 +969,19 @@ Responsible: Customer
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[44](task/upgrades-phase-6.md#Phase6Step1BenchmarkPerf)
+[44](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-6.md)
 
 </td><td>
 
@@ -988,19 +989,19 @@ Profile the performance of your instance before upgrading.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[45](task/upgrades-phase-6.md#Phase6Step2PerfDashboard)
+[45](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-6.md)
 
 </td><td>
 
@@ -1008,19 +1009,19 @@ Use the ServiceNow Performance homepage to document the performance of your inst
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[46](task/upgrades-phase-6.md#Phase6Step3FunctionalTesting)
+[46](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-6.md)
 
 </td><td>
 
@@ -1028,15 +1029,15 @@ On your clone, perform functional testing and monitor the performance of your in
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td class="sub-head" colspan="5">
 
@@ -1044,7 +1045,7 @@ Phase 7 - Upgrade the production instance
 
 </td></tr><tr><td>
 
-[47](task/upgrades-phase-7.md#Phase7Step1ScheduleUpgrade)
+[47](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-7.md)
 
 </td><td>
 
@@ -1052,19 +1053,19 @@ Schedule the upgrade in Now Support.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[48](task/upgrades-phase-7.md#Phase7Step2RequestEntitlement)
+[48](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-7.md)
 
 </td><td>
 
@@ -1072,19 +1073,19 @@ If applicable, request a version entitlement.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[49](task/upgrades-phase-7.md#Phase7Step3VerifyUpgrade)
+[49](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-7.md)
 
 </td><td>
 
@@ -1092,19 +1093,19 @@ Monitor the upgrade to your instance and validate that the upgrade to your produ
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[50](task/upgrades-phase-7.md#Phase7Step4UpdateSets)
+[50](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-7.md)
 
 </td><td>
 
@@ -1112,19 +1113,19 @@ Apply any update sets and post-upgrade fix scripts that you have.
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr><tr><td>
 
-[51](task/upgrades-phase-7.md#Phase7Step5ValidateTest)
+[51](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-phase-7.md)
 
 </td><td>
 
@@ -1132,15 +1133,15 @@ Validate and test your instance by conducting user acceptance testing \(UAT\). V
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
-![](../image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td></tr></tbody>
 </table>

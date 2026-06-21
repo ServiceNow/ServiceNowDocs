@@ -2,6 +2,7 @@
 title: Search for tasks that need a crew on Dispatcher Workspace
 description: Search for work order tasks that require a crew in the Dispatcher Workspace task panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/search-crew-task.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -36,5 +37,5 @@ You can filter and sort work order tasks based on the Crew Tasks filter configur
 
 All tasks that require a crew and are in the Pending Dispatch state are displayed in the task panel.
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](../concept/using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

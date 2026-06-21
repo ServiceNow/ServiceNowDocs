@@ -2,6 +2,7 @@
 title: Validate assets on the MID Server
 description: Validate assets on your MID Server to ensure that they match the assets on your ServiceNow instance. Validating assets ensures that the instance provides accurate data on all of your MID Server assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/validate-assets-mid-server.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -38,5 +39,5 @@ Role required: agent\_client\_collector\_admin
     If assets aren't validated, restart the MID Server. Assets sync automatically when the MID Server restarts.
 
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](../concept/data-collection-enabling.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

@@ -2,6 +2,7 @@
 title: Personalize Kanban view of Prioritization page of Strategic Planning Workspace
 description: Personalize the Kanban view in your portfolio plan's Prioritization page as displayed in Strategic Planning, so you can view information that is most relevant to you and your stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/personalize-kanban-view.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +19,7 @@ Personalize the Kanban view in your portfolio plan's Prioritization page as disp
 
 ## Before you begin
 
-[Create a portfolio plan in Strategic Planning](../../alignment-planner-workspace/task/create-portfolio-plans-in-alignment-planner-workspace.md).
+[Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -36,37 +37,37 @@ Kanban preferences are saved in the portfolio plan level. So, these settings are
 
 3.  Select Kanban view.
 
-4.  Select the Personalize icon \(![Personalize icon.](../../alignment-planner-workspace/images/icon-settings.png)\) to update the view, based on your preferences.
+4.  Select the Personalize icon \(\[Omitted image "icon-settings.png"\] Alt text: Personalize icon.\) to update the view, based on your preferences.
 
-<table id="choicetable_x5r_jqv_yxb"><thead><tr><th align="left" id="d183265e173">
+<table id="choicetable_x5r_jqv_yxb"><thead><tr><th align="left" id="d124999e173">
 
 Choice
 
-</th><th align="left" id="d183265e176">
+</th><th align="left" id="d124999e176">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d183265e182">
+</th></tr></thead><tbody><tr><td id="d124999e182">
 
 **Update Vertical lane and Horizontal lane values**
 
 </td><td>
 
-Choose your desired values from the vertical lane and horizontal lane fields, using the drop-down. You may choose not to have any **Horizontal lane** value, by selecting **None** from the drop-down list.![Update the Vertical and Horizontal lane values.](../images/lanes.gif)**Note:** If the portfolio plan contains planning items of the same type, you will be able to select more columns related to the planning type. For example, if all the planning items are 'Demands', then the column will also have values like 'Investment class', 'Investment type', and more. By default, the Vertical lane value is 'Planning state' and the Horizontal lane value is 'Priority' for Kanban in the prioritization page.
+Choose your desired values from the vertical lane and horizontal lane fields, using the drop-down. You may choose not to have any **Horizontal lane** value, by selecting **None** from the drop-down list.\[Omitted image "lanes.gif"\] Alt text: Update the Vertical and Horizontal lane values.**Note:** If the portfolio plan contains planning items of the same type, you will be able to select more columns related to the planning type. For example, if all the planning items are 'Demands', then the column will also have values like 'Investment class', 'Investment type', and more. By default, the Vertical lane value is 'Planning state' and the Horizontal lane value is 'Priority' for Kanban in the prioritization page.
 
-</td></tr><tr><td id="d183265e204">
+</td></tr><tr><td id="d124999e204">
 
 **Edit the items to show on card**
 
 </td><td>
 
-Choose the fields that you want to view on the cards. Use the toggle buttons for the **Owner** and **Item type** fields, for the other fields use the drop-downs.![update the fields to show on the card.](../images/show-on-card.gif)**Note:** Your Kanban preferences will be saved at the portfolio plan level.
+Choose the fields that you want to view on the cards. Use the toggle buttons for the **Owner** and **Item type** fields, for the other fields use the drop-downs.\[Omitted image "show-on-card.gif"\] Alt text: update the fields to show on the card.**Note:** Your Kanban preferences will be saved at the portfolio plan level.
 
 </td></tr></tbody>
-</table>    See [Customize the planning item display preferences for Prioritization and Roadmap](../../spw-roadmap/task/configure-source-table-preferences-for-roadmap.md).![Using the Kanban side-panel, drag and drop, and changing the lanes functionality.](../images/using-kanban.gif)
+</table>    See [Customize the planning item display preferences for Prioritization and Roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md).\[Omitted image "using-kanban.gif"\] Alt text: Using the Kanban side-panel, drag and drop, and changing the lanes functionality.
 
     **Important:** The default display limit of vertical lanes and horizontal lanes shown on a Kanban board is 30 and 30 respectively. These lanes support only reference and choice fields. As you user, you will not be able to change the field metrics on a Kanban card.
 
 
-**Parent Topic:**[Personalizing Prioritization page views in Strategic Planning](../concept/personalize-prioritization-page-in-strategic-planinng-workspace.md)
+**Parent Topic:**[Personalizing Prioritization page views in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
 

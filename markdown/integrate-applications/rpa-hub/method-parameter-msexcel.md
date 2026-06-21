@@ -2,6 +2,7 @@
 title: Parameters of the Microsoft Excel connector methods
 description: Learn about the parameters of the Microsoft Excel connector methods in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/method-parameter-msexcel.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -839,7 +840,7 @@ No
 </td></tr></tbody>
 </table>## Enter inputs for parameters
 
-To enter inputs for the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To enter inputs for the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
-**Parent Topic:**[Microsoft Excel](../concept/microsoft-excel-connector.md)
+**Parent Topic:**[Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/microsoft-excel-connector.md)
 

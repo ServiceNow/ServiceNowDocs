@@ -2,6 +2,7 @@
 title: Set up an approval from a local database
 description: Enable users to authorize e-signature approvals using local database credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/approvals/t\_SetUpAnApprovalFromALocalDb.html
 release: yokohama
 product: Approvals
 classification: approvals

@@ -2,6 +2,7 @@
 title: Managing custom apps using AEMC
 description: Review custom app metrics and manage apps through the development life cycle using the App Engine Management Center \(AEMC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/manage-custom-apps-using-aemc.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -19,15 +20,15 @@ The App Engine adoption metrics section of the AEMC Overview page shows how many
 
 The Custom apps page in AEMC shows more detailed metrics and a full list of your applications. In each tile in the Custom app lifecycle status section, you can see trending data for the last 90 days. You can show all apps in the Custom apps list or limit the list to only certain types of applications using the filter. Select a trend chart to filter the list to those criteria.
 
-![Custom app page, with high-level metrics and list of all apps](../image/custom-app-page.png)
+\[Omitted image "custom-app-page.png"\] Alt text: Custom app page, with high-level metrics and list of all apps
 
 The Custom app page also lists all the applications individually, with a single record for each application. If the app has been published to production, the **Published Version** column shows the version number. If the **Published Version** column is blank, the app exists in development but has never been published to production.
 
-![List of all custom apps](../image/custom-app-list-purple.png)
+\[Omitted image "custom-app-list-purple.png"\] Alt text: List of all custom apps
 
 View the app's usage data, subscription monitoring details,deployment history, and collaborators, if any, by selecting an application name from the list.
 
-![Details on an application's record page.](../image/app-record-page-vs2.png)
+\[Omitted image "app-record-page-vs2.png"\] Alt text: Details on an application's record page.
 
 Select **Open in App Engine Studio** to see the contents of the app and access more information. The App Engine Studio application opens in a new browser window.
 
@@ -45,7 +46,7 @@ Knowing usage data for your applications has several benefits:
 -   Investigate and fix problems with the app. Knowing when or how data was changed can help identify where something went wrong.
 -   Determine whether you must load balance the processing power of your instance by seeing when there might be consistently higher traffic in your app.
 
-In the User Experience Analytics dashboards section, see detailed data such as active users, sessions, and page views by selecting an experience. For more information about how to understand and use this data, see [User Experience Analytics](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+In the User Experience Analytics dashboards section, see detailed data such as active users, sessions, and page views by selecting an experience. For more information about how to understand and use this data, see User Experience Analytics.
 
 ## Subscription monitoring
 
@@ -67,7 +68,7 @@ App Engine admins do not have permissions to change subscriptions. However, if a
 
 You can select a user's name in the **Assigned Users** section to see a role inheritance map. This map shows how this user inherited the role, whether from a parent role, a group assignment, or another inheritance. This information can help you take action if someone has a role you believe they shouldn't, and you want to change it.
 
-![Role inheritance map, showing how a user got their roles](../image/role-inheritance-map.png "Role inheritance map")
+\[Omitted image "role-inheritance-map.png"\] Alt text: Role inheritance map, showing how a user got their roles
 
 ## App deployments
 
@@ -85,5 +86,5 @@ View the collaborators for the app by selecting the **Collaborators** tab. All c
 
 If you must take quick action in the application to fix an issue or defect, you can quickly see who has permissions to make changes in an app and what those permissions are.
 
-**Parent Topic:**[Managing app development using the App Engine Management Center](monitor-requests-using-aemc.md)
+**Parent Topic:**[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/monitor-requests-using-aemc.md)
 

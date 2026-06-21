@@ -2,6 +2,7 @@
 title: ITOM Visibility and CSDM reference
 description: ITOM Visibility consists of two ServiceNow products: Discovery and Service Mapping. These products are responsible for creating Configuration Items \(CIs\) in the CMDB and relating them. The goal of this product view is to help you to understand how ITOM Visibility works with the core CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.html
 release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
@@ -30,15 +31,15 @@ ITOM Visibility consists of two ServiceNow products: Discovery and Service Mappi
 
 ## Implementing CMDB data
 
-For details on implementing CMDB data to conform with the CSDM framework, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For details on implementing CMDB data to conform with the CSDM framework, see .
 
 ## For more information
 
-[Exploring the CSDM framework](https://www.servicenow.com/docs/access?context=csdm-content-frame-exploring&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+.
 
-[Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+.
 
-[Discovery basics](../../discovery/concept/c_GetStartedWithDiscovery.md).
+[Discovery basics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_GetStartedWithDiscovery.md).
 
-[Service Mapping](../../service-mapping/reference/c_ServiceMappingOverview.md).
+[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/c_ServiceMappingOverview.md).
 

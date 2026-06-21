@@ -2,6 +2,7 @@
 title: Explore Workplace Concierge
 description: The Workplace Concierge application is a Workplace Service Delivery application designed to provide employees with real-time insights to optimize their workplace experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-concierge/explore-workplace-concierge.html
 release: yokohama
 product: Workplace Concierge
 classification: workplace-concierge
@@ -30,7 +31,7 @@ The dashboard contains a calendar section with a personalized week view that dis
 -   Calendar insights about collaborators and reservations on a specific day
 -   Personal insights that inform employees about being in office
 
-![Presence dashboard showing the Insights and calendar sections.](../images/workplaceConcei-EmpPresForm.png "Presence dashboard")
+\[Omitted image "workplaceConcei-EmpPresForm.png"\] Alt text: Presence dashboard showing the Insights and calendar sections.
 
 **Note:**
 
@@ -41,13 +42,13 @@ The dashboard contains a calendar section with a personalized week view that dis
 
 The Workplace Concierge application enables employees to set their expected presence in the office. An employee can set the days of a week that they’re present at the office. An employee can also add their colleagues, managers, or stakeholders as collaborators to make them aware of their expected in-office presence during the week. By adding collaborators, employees can coordinate their in-office presence for better interaction, planning a meeting, or socializing.
 
-![Add routines window showing the in-office days set, added collaborators, and privacy settings.](../images/workplaceConcei-EmpPres.png)
+\[Omitted image "workplaceConcei-EmpPres.png"\] Alt text: Add routines window showing the in-office days set, added collaborators, and privacy settings.
 
 With the help of collaboration, employees can add each other as collaborators to be aware of each other's expected in-office days. They can plan their routines based on their work progress, meetings, plannings, and more. At any time, an employee can modify their in-office routine or set an exception for better interaction with the collaborators, boosting in-person interactions and performance.
 
 An employee can set their in-office days using the Workplace Service Portal, the Employee Center, and also the Now Mobile app.
 
-![Setting the employee presence routine using the Now Mobile app.](../images/workplaceConcei-EmpPresMobile.png)
+\[Omitted image "workplaceConcei-EmpPresMobile.png"\] Alt text: Setting the employee presence routine using the Now Mobile app.
 
 As an admin using the Employee Presence module in the Workplace Concierge application, you can perform the following:
 
@@ -57,13 +58,13 @@ As an admin using the Employee Presence module in the Workplace Concierge applic
 -   View routine exceptions raised by employees.
 -   Add or remove sections displayed on the Presence dashboard.
 -   Set the first day of the week in the calendar section using the **glide.ui.date\_picker.first\_day\_of\_week** system property.
--   Apply the filter on collaborators using the **sn\_wsd\_concierge.collaborators\_filter** system property. Based on the filter, the collaborators are displayed to employees while adding a collaborator. For more information about setting the property, see [Properties installed with Workplace Concierge](../reference/properties-installed-with-workplace-concierge.md).
--   Create insights for employees, which are personalized and displayed on the Presence dashboard and the calendar section. For more information, see [Create custom insights using Proactive Prompts](../task/create-insights-proactive-prompts.md).
+-   Apply the filter on collaborators using the **sn\_wsd\_concierge.collaborators\_filter** system property. Based on the filter, the collaborators are displayed to employees while adding a collaborator. For more information about setting the property, see [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md).
+-   Create insights for employees, which are personalized and displayed on the Presence dashboard and the calendar section. For more information, see [Create custom insights using Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
 -   Configure the changing the Signal Configuration schedule to update interval of dashboard insights.
 
 ## Workplace reservation suggestions
 
-Workplace Concierge and Workplace Core administrators can configure workplace suggestions while suggesting a space to an employee for reservation. For more information, see [Configure workplace space suggestions for employees](configure-workplace-suggestions.md).
+Workplace Concierge and Workplace Core administrators can configure workplace suggestions while suggesting a space to an employee for reservation. For more information, see [Configure workplace space suggestions for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/configure-workplace-suggestions.md).
 
-The employee can set their workplace schedule and in-office preferences in Workplace Service Delivery for Mobile. When suggesting a space to an employee using the Workplace Service Delivery for Mobile, application uses these preferences. For more information see, [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](../../wsd-for-mobile/concept/workplace-preference-schedule.md).
+The employee can set their workplace schedule and in-office preferences in Workplace Service Delivery for Mobile. When suggesting a space to an employee using the Workplace Service Delivery for Mobile, application uses these preferences. For more information see, [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
 

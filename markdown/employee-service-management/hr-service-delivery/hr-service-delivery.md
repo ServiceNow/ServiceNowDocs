@@ -2,6 +2,7 @@
 title: HR Service Delivery
 description: Unlock enterprise productivity and give your employees the service experience they deserve with ServiceNow HR Service Delivery. By providing employees with a single place to manage their work needs while shielding them from back-end complexity, you can deliver a great experience to meet the demands of a modern-day workforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Employee Service Management]
 
 Unlock enterprise productivity and give your employees the service experience they deserve with ServiceNow® HR Service Delivery. By providing employees with a single place to manage their work needs while shielding them from back-end complexity, you can deliver a great experience to meet the demands of a modern-day workforce.
 
-![The employee journey and moments that matter.](../image/hr-service-delivery-landing-page.svg)
+\[Omitted image "hr-service-delivery-landing-page.svg"\] Alt text: The employee journey and moments that matter.
 
 ## Put service at the heart of your business
 
@@ -25,7 +26,7 @@ By meeting employees where they are, you empower them to find answers, get help,
 
 <table id="table_uw5_lxw_sjb"><tbody><tr><td>
 
-![Elevate](../image/hr-stat-icon-1.png)
+\[Omitted image "hr-stat-icon-1.png"\] Alt text: Elevate
 
 </td><td>
 
@@ -36,7 +37,7 @@ Give employees anytime, anywhere access to HR services to increase satisfaction.
 
 </td></tr><tr><td>
 
-![Community](../image/hr-stat-icon-2.png)
+\[Omitted image "hr-stat-icon-2.png"\] Alt text: Community
 
 </td><td>
 
@@ -47,7 +48,7 @@ Manage employee interactions in a structured and efficient manner, driving down 
 
 </td></tr><tr><td>
 
-![Optimize / Manage](../image/hr-stat-icon-3.png)
+\[Omitted image "hr-stat-icon-3.png"\] Alt text: Optimize / Manage
 
 </td><td>
 
@@ -58,7 +59,7 @@ Replace manual and siloed processes with cross-functional digital workflows for 
 
 </td></tr><tr><td>
 
-![Trust in us](../image/hr-stat-icon-4.png)
+\[Omitted image "hr-stat-icon-4.png"\] Alt text: Trust in us
 
 </td><td>
 
@@ -69,7 +70,7 @@ The intelligent, intuitive, and mobile-first tech that transformed real life wil
 
 </td></tr><tr><td>
 
-![Support team](../image/hr-mh-icon.png)
+\[Omitted image "hr-mh-icon.png"\] Alt text: Support team
 
 </td><td>
 
@@ -81,13 +82,13 @@ Align business goals with employee needs, including onboarding, career growth, a
 </td></tr></tbody>
 </table>## Make it easy for employees to get HR services
 
-![The most common employee service needs.](../image/hr-service-delivery-landing-page-1.png)
+\[Omitted image "hr-service-delivery-landing-page-1.png"\] Alt text: The most common employee service needs.
 
 Give employees anytime, anywhere access to HR services to increase satisfaction. Omni-channel service through the Now Mobile app enables employees to find answers, make requests, and get help. You can integrate with existing HR management systems \(HRMS\), identity providers \(IDP\), background check, e-signature, tax form, and other services to improve operational efficiency. And you can simplify any process by using intelligent and automated answers to guide employees.
 
 ## Organize employee interactions by functional discipline
 
-![An employee-focused approach to service delivery.](../image/hr-service-delivery-landing-page-2.png)
+\[Omitted image "hr-service-delivery-landing-page-2.png"\] Alt text: An employee-focused approach to service delivery.
 
 **Note:** This image solely explains how Centers of Excellence \(COE\) organize HR data, services, and processes. It does not capture all Centers of Excellence that are available with HR Service Delivery.
 
@@ -95,13 +96,13 @@ Manage employee interactions in a structured and efficient manner, driving down 
 
 ## Use HR Service Delivery to build and deliver great experiences
 
-![An employee-focused approach to service delivery.](../image/hr-service-delivery-landing-page-3.png)
+\[Omitted image "hr-service-delivery-landing-page-3.png"\] Alt text: An employee-focused approach to service delivery.
 
 Replace manual and siloed processes with cross-functional digital workflows for increased efficiency. You can orchestrate activities across systems, departments, and people. Intelligent, no-code builders such as the lifecycle event builder enable you to easily configure digital workflows for onboarding and other important life events. And employees get always-on assistance from virtual agents that speak their language and learn from previous requests.
 
 ## Employee-focused service creates competitive advantage
 
-![Employee-focused service creates competitive advantage](../image/hr-service-delivery-landing-page-4.png)
+\[Omitted image "hr-service-delivery-landing-page-4.png"\] Alt text: Employee-focused service creates competitive advantage
 
 The intelligent, intuitive, and mobile-first technology that transformed consumers' lives will radically transform work life. HR Service Delivery groups key applications into scalable packages that can grow with your business. You can easily integrate HR Service Delivery with the existing cloud and on-premise HR management systems you are already using. And by enabling self-service, you drive down service delivery costs while providing help that is accurate, timely, and intelligent.
 
@@ -124,8 +125,8 @@ Integrate applications with Journey designer or Journey Accelerator.
 
 **Note:** Application integrations depend on the family and app version you are using. Be sure to find the integrations available for your configuration.
 
--   [Integrations for Journey designer](jny-integrations-1.md)
--   [Journey Accelerator integrations](ja-integrations.md)
+-   [Integrations for Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [Journey Accelerator integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/ja-integrations.md)
 
 -   **Learning Posts**
 
@@ -158,23 +159,23 @@ Integrate applications with Journey designer or Journey Accelerator.
 
 -   Work with an implementation specialist to achieve your desired business outcomes. To learn more, visit the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Take an HR Service Delivery course to build expertise and realize ROI faster. To sign up, see [ServiceNow training and certification](https://www.servicenow.com/services/training-and-certification.html).
--   Read the product documentation, beginning with the [HR Service Delivery overview](hr-service-delivery-overview.md).
+-   Read the product documentation, beginning with the [HR Service Delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery-overview.md).
 
 ## Applications and features
 
--   [Case and Knowledge Management](../reference/case-knowledge-management-landing-page.md)
--   [Employee Journey Management](employee-journey-management.md)
--   [Enterprise Onboarding and Transitions](../reference/enterprise-onboarding-transitions-landing-page.md)
--   [Journey Accelerator](journey-accelerator-1.md)
--   [Journey designer](jny-dsgnr-landing-page-1.md)
--   [Manager Hub](manager-hub-overview.md)
--   [Listening Posts](listening-posts-1.md)
--   [Learning Core](learning-core_overview.md)
--   [Document Templates](document-templates-overview.md)
--   [HR Service Delivery Agent Workspace \(Classic\)](agent-ws-hr-landing-page.md)
--   [HR Success Dashboard indicators](success-dashboard-landing.md)
--   [Integration of HR Service Delivery with third-party systems](integrate-third-party-systems.md)
--   [Integration of HR Service Delivery with ServiceNow applications](integrate-hr-platform-apps.md)
--   [Predictive Intelligence for HR Service Delivery](predictive-intelligence-for-hr-service-delivery-1.md)
--   [Virtual Agent for HR Service Delivery](hr-virtual-agent-conversations.md#)
+-   [Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
+-   [Employee Journey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-journey-management/employee-journey-management.md)
+-   [Enterprise Onboarding and Transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-journey-management/enterprise-onboarding-transitions-landing-page.md)
+-   [Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/manager-hub-overview.md)
+-   [Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/learning-core_overview.md)
+-   [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/document-templates-overview.md)
+-   [HR Service Delivery Agent Workspace \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-landing-page.md)
+-   [HR Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/success-dashboard-landing.md)
+-   [Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/integrate-third-party-systems.md)
+-   [Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
+-   [Predictive Intelligence for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md)
 

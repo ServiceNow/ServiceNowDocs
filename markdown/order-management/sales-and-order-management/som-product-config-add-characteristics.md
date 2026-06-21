@@ -2,13 +2,14 @@
 title: Create product characteristics and characteristic options
 description: Add product characteristics and characteristic options that you can later add to your product offering in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-product-config-add-characteristics.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Create product characteristics and characteristic options
@@ -25,7 +26,7 @@ Use this procedure to build product characteristics and characteristic options, 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Characteristics** &gt; **Characteristics**.
 
@@ -99,12 +100,12 @@ List of input options that identify the functionality for the characteristic. De
 
 ## What to do next
 
--   [Add product visuals](som-product-config-add-visuals.md)
--   [Add product catalog categories](som-product-config-offering-categories.md)
--   [Create product offering relationships](som-product-config-offering-relationships.md)
--   [Add related contracts to product offerings](som-product-config-related-contracts.md)
--   [Add a unit of measure to a product offering](som-product-config-add-unit-of-measure.md)
--   [Create a product offering version](som-product-config-create-new-version.md)
--   [Create product offering relationship groups](som-product-config-relationship-groups.md)
+-   [Add product visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-add-visuals.md)
+-   [Add product catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-offering-categories.md)
+-   [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-offering-relationships.md)
+-   [Add related contracts to product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-related-contracts.md)
+-   [Add a unit of measure to a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-add-unit-of-measure.md)
+-   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-create-new-version.md)
+-   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-product-config-relationship-groups.md)
 -   If you're creating telecommunications products, create the product, service, and resource specification categories and associate them with model categories.
 

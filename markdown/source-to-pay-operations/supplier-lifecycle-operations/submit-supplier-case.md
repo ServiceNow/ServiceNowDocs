@@ -2,6 +2,7 @@
 title: Submit a supplier case from the Source-to-Pay Workspace
 description: Submit a supplier case in Draft state to indicate that it is ready to be worked on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/submit-supplier-case.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,7 +24,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Do one of the following:
 
@@ -40,7 +41,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 After you submit the case, depending on the case type, the specific playbook for the supplier case opens.
 
-For more information, see [Case playbook for specific supplier case types](../concept/gen-playbook-cases.md) and [Playbook for updating the supplier primary data](../concept/primary-playbook-cases.md).
+For more information, see [Case playbook for specific supplier case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/gen-playbook-cases.md) and [Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md).
 
-**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](../concept/managing-cases.md)
+**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

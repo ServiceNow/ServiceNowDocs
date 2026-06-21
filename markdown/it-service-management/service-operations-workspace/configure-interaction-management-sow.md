@@ -2,6 +2,7 @@
 title: Configuring Interaction Management in Service Operations Workspace
 description: Configure the features of Interaction Management to manage the interactions in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/configure-interaction-management-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -15,14 +16,14 @@ breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your e
 
 Configure the features of Interaction Management to manage the interactions in Service Operations Workspace.
 
--   **[Configure the duration to view the requester's activities for an interaction in Service Operations Workspace](../task/configure-days-display-data.md)**  
+-   **[Configure the duration to view the requester's activities for an interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-days-display-data.md)**  
 Configure the duration to display requester’s history, consisting of tasks, interactions, and assets. These details are displayed in the Requester Information side panel of Interaction Management record
--   **[Automatically close an interaction in Service Operations Workspace](../task/automatically-close-interaction-sow.md)**  
+-   **[Automatically close an interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/automatically-close-interaction-sow.md)**  
 Automatically close the interaction when an incident linked is closed in Service Operations Workspace.
--   **[Configure the display of requester related records in an interaction](../task/configure-order-related-records-interaction.md)**  
+-   **[Configure the display of requester related records in an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-order-related-records-interaction.md)**  
 For an interaction, ensure that related records of a requester are displayed as intended for Service Operations Workspace.
--   **[ITSM voice interaction record page](itsm-native-voice-record-page.md)**  
+-   **[ITSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)**  
 The ITSM voice interaction record page provides a component that customers can use for integration with Contact Center as a Service \(CCaaS\) providers and an interface that agents can use to handle customer phone calls.
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

@@ -2,6 +2,7 @@
 title: Transfer Facebook Messenger chat conversations to live agents
 description: Configure the Advanced Work Assignment application to transfer a Facebook Messenger chat conversation initiated by a requester \(customer contact or consumer\) to a live agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -20,10 +21,10 @@ Configure the Advanced Work Assignment application to transfer a Facebook Messen
 
 Your administrator must have completed the following tasks:
 
--   [Activate Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-activate&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
--   [Install Conversational Integration with Facebook Messenger](messg-fbm-install.md).
--   Set the application scope to Conversational Integration with Facebook Messenger using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
--   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://www.servicenow.com/docs/access?context=activate-messaging-actions&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+-   Activate Advanced Work Assignment.
+-   [Install Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-install.md).
+-   Set the application scope to Conversational Integration with Facebook Messenger using the application picker. For more information, see Application picker.
+-   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see .
 
 Role required: admin
 
@@ -43,7 +44,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    For more information, see [Service channels](https://www.servicenow.com/docs/access?context=awa-service-channels&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+    For more information, see Service channels.
 
 2.  Automatically route work items for Facebook Messenger chat conversations to agents by configuring the queue for the Facebook Messenger service channel.
 
@@ -57,7 +58,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    **Note:** By default, the **Facebook Messenger - Most Capacity** assignment rule is associated with the Agent Facebook Messenger Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](https://www.servicenow.com/docs/access?context=awa-create-assignment-rule&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) and [Work item queues](https://www.servicenow.com/docs/access?context=awa-queues&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+    **Note:** By default, the **Facebook Messenger - Most Capacity** assignment rule is associated with the Agent Facebook Messenger Queue. You can create another assignment rule and associate it with the queue. For more information, see Configure agent assignment rules and Work item queues.
 
 3.  Configure agent presence states for the Facebook Messenger service channel.
 
@@ -73,8 +74,8 @@ Role required: admin
 
     5.  Select **Update**.
 
-    For more information, see [Configure agent presence states](https://www.servicenow.com/docs/access?context=awa-configure-agent-presence&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+    For more information, see Configure agent presence states.
 
 
-**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](messg-fbm-configure.md)
+**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
 

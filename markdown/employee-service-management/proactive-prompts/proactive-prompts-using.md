@@ -2,6 +2,7 @@
 title: Using Proactive Prompts
 description: You can use Proactive Prompts application to send informative and actionable insights to managers and employees by keeping them informed and encouraging them to act immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/proactive-prompts/proactive-prompts-using.html
 release: yokohama
 product: Proactive Prompts
 classification: proactive-prompts
@@ -17,7 +18,7 @@ You can use Proactive Prompts application to send informative and actionable ins
 
 After a successful signal configuration in Proactive Prompts, prompts are generated according to the schedule in the configuration.
 
-To see the list of prompts, navigate to **All** &gt; **Proactive Prompts** &gt; **Prompts**. The following details are displayed for each prompt: Receiver name, Signal name, Status, Prompt template, Tokens, and Created date. For more details, like the related **Action table** and **Action taken** fields, select the View content details icon \(![View content details icon](../image/view-content-details-icon.png)\).
+To see the list of prompts, navigate to **All** &gt; **Proactive Prompts** &gt; **Prompts**. The following details are displayed for each prompt: Receiver name, Signal name, Status, Prompt template, Tokens, and Created date. For more details, like the related **Action table** and **Action taken** fields, select the View content details icon \(\[Omitted image "view-content-details-icon.png"\] Alt text: View content details icon\).
 
 **Note:** Prompts are deleted automatically after 180 days of creation using the Auto Flush feature.
 
@@ -27,13 +28,13 @@ Prompts are delivered to end users through various channels like Employee Portal
 
 Notifications of prompts and the prompt appearance are different in different channels.
 
--   Prompt widget - On any portal, prompts are displayed through a widget. The Prompt widget is available by default but must be added to the portal. For more information, see [Add and configure the prompt widget](../task/config-widget-for-prompts.md).
+-   Prompt widget - On any portal, prompts are displayed through a widget. The Prompt widget is available by default but must be added to the portal. For more information, see [Add and configure the prompt widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/proactive-prompts/config-widget-for-prompts.md).
 
-    The following image shows an example of a prompt widget on the Employee Portal. The **View details** button provides more details of the prompt. The details displayed depend on the type of Datasource, the Receiving user and the template \(Single or Multiple record display\) selected. For more information, see [Create a signal in Proactive Prompts](../task/proactive-prompts-signal-create.md). For more information on actions on the widget, see [Actions and action groups in Proactive Prompts](../reference/proactive-prompts-actions.md).
+    The following image shows an example of a prompt widget on the Employee Portal. The **View details** button provides more details of the prompt. The details displayed depend on the type of Datasource, the Receiving user and the template \(Single or Multiple record display\) selected. For more information, see [Create a signal in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/proactive-prompts/proactive-prompts-signal-create.md). For more information on actions on the widget, see [Actions and action groups in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/proactive-prompts/proactive-prompts-actions.md).
 
-    ![Prompt widget on the Employee Portal.](../image/proactive-prompts-suggestions.png)
+    \[Omitted image "proactive-prompts-suggestions.png"\] Alt text: Prompt widget on the Employee Portal.
 
-    ![View menu on the prompt widget.](../image/proactive-prompts-view-menu.png)
+    \[Omitted image "proactive-prompts-view-menu.png"\] Alt text: View menu on the prompt widget.
 
     **Note:** The generated prompts are delivered to the widget only when the user opens the portal.
 
@@ -41,12 +42,12 @@ Notifications of prompts and the prompt appearance are different in different ch
 
     The following image shows an example of a prompt notification in Virtual Agent.
 
-    ![Prompt in Virtual Agent chat](../image/proactive-prompts-va.png)
+    \[Omitted image "proactive-prompts-va.png"\] Alt text: Prompt in Virtual Agent chat
 
 -   Microsoft Teams - Similar to the Virtual Agent chat, a notification is displayed in the chat pane. Selecting the Now Virtual Agent contact initiates the chat.
 
     The following image shows an example of a prompt notification in Microsoft Teams.
 
-    ![Prompt in Microsoft Teams](../image/proactive-prompts-teams.png)
+    \[Omitted image "proactive-prompts-teams.png"\] Alt text: Prompt in Microsoft Teams
 
 

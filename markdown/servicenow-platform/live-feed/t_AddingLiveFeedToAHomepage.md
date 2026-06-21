@@ -2,6 +2,7 @@
 title: Add Live Feed to a homepage
 description: Add Live Feed to a homepage so it is the first thing you see when you log in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_AddingLiveFeedToAHomepage.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -29,6 +30,6 @@ Role required: admin
 
     **Note:** Administrators can add Live Feed to a global homepage to make it available for all homepage users by default. By default, users with any role can add Live Feed to their homepage. Administrators can restrict this ability.
 
-    ![ITIL homepage with the Live Feed option selected](../image/LiveFeedHomepage.png "Live Feed Homepage")
+    \[Omitted image "LiveFeedHomepage.png"\] Alt text: ITIL homepage with the Live Feed option selected
 
 

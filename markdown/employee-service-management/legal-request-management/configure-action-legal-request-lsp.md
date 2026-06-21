@@ -2,6 +2,7 @@
 title: Configure an Action for legal services on the Standard ticket page
 description: Add or modify an Action and its functionality on the Standard ticket page for a legal request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-request-management/configure-action-legal-request-lsp.html
 release: yokohama
 product: Legal Request Management
 classification: legal-request-management
@@ -18,9 +19,9 @@ Add or modify an Action and its functionality on the Standard ticket page for a 
 ## Before you begin
 
 -   Review the configuration of the script include, scripted extension points and service portal widgets for legal services installed with the Legal Service Delivery apps.
--   The Actions is one of the sections of a standard ticket page of the Service Portal, so get familiar with the [Standard ticket page](https://www.servicenow.com/docs/access?context=standard-ticket-page&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US) and [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
--   For more information about configuring service portal widgets, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
--   For more information about using and customizing the script includes, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+-   The Actions is one of the sections of a standard ticket page of the Service Portal, so get familiar with the Standard ticket page and Service Portal.
+-   For more information about configuring service portal widgets, see Service Portal widgets.
+-   For more information about using and customizing the script includes, see Script includes.
 -   Ensure that you've set the application scope to Legal Request Management.
 
 Role required: admin
@@ -77,5 +78,5 @@ The base system `DefaultLegalTicketActions` script provides the configuration of
     4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Legal Request Management](../concept/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/legal-ops-administration.md)
 

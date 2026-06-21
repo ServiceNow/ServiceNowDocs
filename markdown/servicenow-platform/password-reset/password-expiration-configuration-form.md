@@ -1,7 +1,8 @@
 ---
 title: Password Expiration Configuration form
-description: Description of the fields on the Password Expiration Configuration form.
+description: The Password Expiration Configuration form allows you to define how frequently users must update their passwords and receive reminder notifications before expiration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/password-reset/password-expiration-configuration-form.html
 release: yokohama
 product: Password Reset
 classification: password-reset
@@ -13,7 +14,11 @@ breadcrumb: [Reference, Password Reset, Manage service capabilities, Extend Serv
 
 # Password Expiration Configuration form
 
-Description of the fields on the Password Expiration Configuration form.
+The Password Expiration Configuration form allows you to define how frequently users must update their passwords and receive reminder notifications before expiration.
+
+## Access the Password Expiration Configuration form
+
+To access the **Password Expiration Configuration** form, navigate to **All** &gt; **System Properties** &gt; **Password Expiration**.
 
 <table id="table_gr2_vhw_rsb"><thead><tr><th>
 
@@ -88,8 +93,4 @@ Start time
 The time when you want a notification reminder to be started.
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Password Expiration Configuration form](password-expiration-configuration-form.md)
-
+</table>

@@ -2,6 +2,7 @@
 title: Document template categories
 description: Document template categories help you to categorize similar documents together. It makes finding the correct document template easier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/document-types-document-templates.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Federal plugin
 description: The ServiceNow, Inc. Federal plugin provides additional data elements for public sector customers that align with the Human Capital Information Model \(HCIM\). The HCIM is a set of data standards for Federal human capital management developed by the Human Resources Line of Business \(HRLOB\) at the Office of Personnel Management \(OPM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/fed-view.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,15 +36,15 @@ The following are some key benefits of the Federal plugin:
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Set up Federal plugin](../task/set-up-fed.md#) ![Configure the plugin to get started](../../../common/image/icon-set-up.png) Configure the plugin to get started
+[Set up Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-fed.md) \[Omitted image "icon-set-up.png"\] Alt text: Configure the plugin to get started Configure the plugin to get started
 
 </td><td>
 
-[Using Federal plugin](../task/using-fed-app.md) ![Use the plugin to promote interoperability between agencies or shared service providers.](../../../common/image/icon-workspace.png) Use the plugin to promote interoperability between agencies or shared service providers.
+[Using Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-fed-app.md) \[Omitted image "icon-workspace.png"\] Alt text: Use the plugin to promote interoperability between agencies or shared service providers. Use the plugin to promote interoperability between agencies or shared service providers.
 
 </td><td>
 
-[Federal plugin reference](../reference/refer-fed.md#) ![Get details about tables in Federal plugin](../../../common/image/icon-reference.png) Get details about tables in the plugin
+[Federal plugin reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/refer-fed.md) \[Omitted image "icon-reference.png"\] Alt text: Get details about tables in Federal plugin Get details about tables in the plugin
 
 </td></tr></tbody>
 </table>

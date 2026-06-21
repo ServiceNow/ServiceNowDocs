@@ -2,6 +2,7 @@
 title: Modifying the Data Collection configuration
 description: You can make changes to the Data Collection configuration to align with your organization's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-all-modify.html
 release: yokohama
 product: Value Library
 classification: value-library

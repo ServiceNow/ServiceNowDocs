@@ -2,6 +2,7 @@
 title: Assign a default template
 description: Assign a template as default for a specific type of AI system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/assign-default-template.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
@@ -71,5 +72,5 @@ Name of the AI system category to which you want to assign the default template.
     If the selected configuration matches with any existing default assignment, it updates the existing template.
 
 
-**Parent Topic:**[Using value templates](../concept/using-value-templates.md)
+**Parent Topic:**[Using value templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/using-value-templates.md)
 

@@ -2,6 +2,7 @@
 title: Hide or reveal the Show me everything button
 description: Set properties to hide or reveal the Show me everything button in Virtual Agent conversations that use LLM \(large language model\) and NLU/Keyword \(Natural Language Understanding\) topic discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/hide-reveal-showme-button.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -27,15 +28,15 @@ By default, the greeting portion of a Virtual Agent conversation includes a **Sh
 
 1.  Use either of the following methods, depending on whether you are working with LLM or NLU topics.
 
-<table id="choicetable_dwk_ccn_b1c"><thead><tr><th align="left" id="d128596e87">
+<table id="choicetable_dwk_ccn_b1c"><thead><tr><th align="left" id="d102072e87">
 
 Topic discovery type
 
-</th><th align="left" id="d128596e90">
+</th><th align="left" id="d102072e90">
 
 Method
 
-</th></tr></thead><tbody><tr><td id="d128596e96">
+</th></tr></thead><tbody><tr><td id="d102072e96">
 
 **LLM**
 
@@ -55,7 +56,7 @@ var hideShowMeEverything = String(vaInputs.now_assist_topics_skill_active_value.
 7.  On the Flow tab, select **Save**.
 
 
-</td></tr><tr><td id="d128596e168">
+</td></tr><tr><td id="d102072e168">
 
 **NLU**
 
@@ -71,5 +72,5 @@ var hideShowMeEverything = String(vaInputs.now_assist_topics_skill_active_value.
 
 The **Show me everything** button is removed from the greeting messages in your Virtual Agent conversations.
 
-**Parent Topic:**[Working with setup topics](../concept/working-setup-topics.md)
+**Parent Topic:**[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/working-setup-topics.md)
 

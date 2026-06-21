@@ -2,6 +2,7 @@
 title: Assign the service desk agent role to the user in Service Operations Workspace
 description: Assign the service desk agent role to users to enable them to manage incidents, fulfill service requests, and offer user support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/assign-service-desk-agent-role-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -51,5 +52,5 @@ Role required: admin
 
 The selected users are assigned with a service desk agent role.
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](../concept/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

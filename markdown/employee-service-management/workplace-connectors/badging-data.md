@@ -2,6 +2,7 @@
 title: Badging Data
 description: The Badging Data \[sn\_wsd\_wc\_badging\_data\] is the target table that contains the employee badging data and employee access records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/badging-data.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
@@ -59,15 +60,15 @@ Event Data
 
 </td><td>
 
-Time series data. Select this value to visualize the time-series data in different transforms. For more information, see [MetricBase transforms](https://www.servicenow.com/docs/access?context=metricbase-transforms&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+Time series data. Select this value to visualize the time-series data in different transforms. For more information, see .
 
 </td></tr></tbody>
-</table>    The Badging Data table data is loaded to the Attendance Analytics table to generate space occupancy metrics in Workplace Central. For more information, see [Attendance Analytics](attendance-analytics.md).
+</table>    The Badging Data table data is loaded to the Attendance Analytics table to generate space occupancy metrics in Workplace Central. For more information, see [Attendance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/attendance-analytics.md).
 
 
-**Parent Topic:**[Setup Workplace Connectors for badging data](../concept/setup-workplace-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
-**Previous topic:**[Configure a webhook event](configure-webhook-restapi.md)
+**Previous topic:**[Configure a webhook event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/configure-webhook-restapi.md)
 
-**Next topic:**[Attendance Analytics](attendance-analytics.md)
+**Next topic:**[Attendance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/attendance-analytics.md)
 

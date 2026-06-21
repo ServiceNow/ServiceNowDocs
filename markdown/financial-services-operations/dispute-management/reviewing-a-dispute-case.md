@@ -2,6 +2,7 @@
 title: Reviewing a dispute case
 description: In Financial Services Card Operations, review the dispute cases submitted by a cardholder from the customer portal. You can verify disputed and associated transactions, update the dispute reason, fill out a transaction-level questionnaire in cases with multiple transactions, and submit the case for investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/reviewing-a-dispute-case.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -25,5 +26,5 @@ When a dispute agent reviews a case from the portal, they can view and edit the 
 |Fill additional transaction questions \(multiple transactions\)|Complete transaction-specific questions at the transaction level for multiple disputed transactions.|
 |Submit dispute|Dispute case submission for further investigation.|
 
-**Parent Topic:**[Working on a dispute case integrated with Visa](work-on-a-dispute-case-integrated-with-visa.md)
+**Parent Topic:**[Working on a dispute case integrated with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.md)
 

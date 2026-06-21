@@ -2,6 +2,7 @@
 title: Configure custom SEO tags for canonical URLs and localized knowledge articles
 description: Discover relevant knowledge articles through search engines by adding custom SEO tags for canonical URLs and hreflang tags to the knowledge article view page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/configure-seo-knowledge.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -23,9 +24,9 @@ Role required: admin
 
 Update the SPSEOHeaderTagsArticleView script include to add canonical URLs and**hreflang** tags to the knowledge article view page. You can also add custom header tags to the knowledge article view page by implementing the generateCustomTagsForSEO function.
 
-**Note:** The metatags will be added to the Knowledge Article View \[kb\_article\_view\] only when viewed by the user agents mentioned in **glide.knowman.serviceportal.seo\_user\_agent** system property. For more information, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+**Note:** The metatags will be added to the Knowledge Article View \[kb\_article\_view\] only when viewed by the user agents mentioned in **glide.knowman.serviceportal.seo\_user\_agent** system property. For more information, see Create and edit a page using the Service Portal Designer.
 
-For information about the default behavior of canonical URLs and **hreflang** tags for the knowledge article view page, see [SEO for canonical URLs and localized versions of knowledge articles](../concept/seo-knowledge.md).
+For information about the default behavior of canonical URLs and **hreflang** tags for the knowledge article view page, see [SEO for canonical URLs and localized versions of knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/seo-knowledge.md).
 
 ## Procedure
 
@@ -78,7 +79,7 @@ Return a SEO optimized HTML content for SEO bots
 Modify the generateSEOTags function to return the SEO optimized HTML content in items.customSEOHTML.
 
 </td></tr></tbody>
-</table>    For more information about configuring script includes, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+</table>    For more information about configuring script includes, see Script includes.
 
 5.  Click **Update**.
 

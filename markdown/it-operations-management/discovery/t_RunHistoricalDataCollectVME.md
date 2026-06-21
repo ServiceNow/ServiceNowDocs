@@ -2,6 +2,7 @@
 title: Run historical data collection for Virtual Machine Explorer
 description: After installing Discovery Admin Workspace, run historical data collection jobs to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports on the Virtual Machine Explorer dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/t\_RunHistoricalDataCollectVME.html
 release: yokohama
 product: Discovery
 classification: discovery
@@ -25,7 +26,7 @@ Role required: pa\_data\_collector or admin
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Data Collector** &gt; **Jobs**.
 
-2.  Select the **filter** icon \(![filter icon](../../event-management/image/filter-icon-button.png)\).
+2.  Select the **filter** icon \(\[Omitted image "filter-icon-button.png"\] Alt text: filter icon\).
 
 3.  **\[Name\]****\[contains\]**`historic`**AND \[Name\]\[contains\]**`VM`.
 
@@ -48,7 +49,7 @@ Role required: pa\_data\_collector or admin
 
 ## What to do next
 
-Manually refresh the indicators on the Virtual Machine Explorer dashboard to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports, enabling you to view relevant data and trends. For more information, see [Virtual Machine Explorer dashboard](../concept/vm-explorer.md).
+Manually refresh the indicators on the Virtual Machine Explorer dashboard to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports, enabling you to view relevant data and trends. For more information, see [Virtual Machine Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/vm-explorer.md).
 
-**Parent Topic:**[Virtual Machine Explorer dashboard](../concept/vm-explorer.md)
+**Parent Topic:**[Virtual Machine Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/vm-explorer.md)
 

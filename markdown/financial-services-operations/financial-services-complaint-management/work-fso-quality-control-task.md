@@ -2,6 +2,7 @@
 title: Work on a quality control task for a complaint case
 description: Work on a quality control task to review the complaint details and complaint agent's response for the case. You can approve or reject the task based on your review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-complaint-management/work-fso-quality-control-task.html
 release: yokohama
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -27,7 +28,7 @@ If the complaint case has a potential regulatory impact, a quality control appro
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Quality control tasks**, open the task list.
 

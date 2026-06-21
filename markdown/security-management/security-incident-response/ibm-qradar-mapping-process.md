@@ -2,6 +2,7 @@
 title: Mapping IBM QRadar offense fields to security incident response fields
 description: Map individual offense, event, and flow fields to fields on a ServiceNow AI Platform SIR security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/ibm-qradar-mapping-process.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -24,11 +25,11 @@ As a user with the sn\_si.admin role, use the fields from the Sample Offenses se
 
     The field value is displayed in the Input Expression column. In the following image, `description` is mapped to the `Description` field on the security incident.
 
-    ![IBM QRadar: Create Profile: Mapping: SIR1](../image/ibm-qradar-profile-mapping-sir1.png)
+    \[Omitted image "ibm-qradar-profile-mapping-sir1.png"\] Alt text: IBM QRadar: Create Profile: Mapping: SIR1
 
     **Note:** If you enter the event or flow field name manually in the Input Expression section, you must add a prefix as `${Event:eventfield}$` or `${Flow:flowfield}$` before the name of the field being mapped.
 
-    ![IBM QRadar: Create Profile: Mapping: SIR2](../image/ibm-qradar-profile-mapping-sir2.png)
+    \[Omitted image "ibm-qradar-profile-mapping-sir2.png"\] Alt text: IBM QRadar: Create Profile: Mapping: SIR2
 
     To help you ensure that no offense, event, or flow fields are overlooked or duplicated in the mapping process, fields are color-coded. Color-coding of the offense fields helps you keep track of the offense values that you have already mapped as they become greyed out while all remaining unmapped fields appear in blue. This helps you better visualize which field values have been added to the security incident and if any remaining important offense information remains unmapped.
 
@@ -40,7 +41,7 @@ As a user with the sn\_si.admin role, use the fields from the Sample Offenses se
 
         In the expanded choice list for the new field, some fields are shaded. In the following figure, Category has a gray background, because it has been mapped in the security incident. Similar to the color-coding for the offense fields on the left side of the form, this color-coding for the security incident fields on the right helps you track the already mapped SIR incident fields.
 
-        ![IBM QRadar: Create Profile: Mapping: SIR3](../image/ibm-qradar-mapping-sir3.png)
+        \[Omitted image "ibm-qradar-mapping-sir3.png"\] Alt text: IBM QRadar: Create Profile: Mapping: SIR3
 
         **Note:** As multiple observables can be displayed on the same security incident, the Observable field can be mapped multiple times with different values. Similarly, the Configuration Item and Work notes fields support multiple values. If you try to map two values to a field that cannot support multiple values, when you preview the incident, an error message is displayed that there is no value for the field. Similarly, if a field on a security incident has a choice list from which you can choose multiple options, and you try to map an option to that field that is not displayed on the choice list, the field is not populated on the security incident.
 
@@ -70,9 +71,9 @@ As a user with the sn\_si.admin role, use the fields from the Sample Offenses se
 
 In certain cases, offense field values in IBM QRadar may not translate directly to the fields on the SIR security incident. For these values, you can use a script editor to format field values on the security incident during the mapping step. Use the script editor if you want to format values that are similar, but not identical. For example, with the script editor, a category value of Malware Alert and Virus Infection may have different field values for the source category but both values can be translated to a common Malicious Code Activity in the Category field on the SIR security incident using the Format Field Translation functionality.
 
-To use the script editor, click the ![IBM QRadar: Create Profile: script icon](../image/ibm-qradar-mapping-script-icon.png). The script editor is displayed.
+To use the script editor, click the \[Omitted image "ibm-qradar-mapping-script-icon.png"\] Alt text: IBM QRadar: Create Profile: script icon. The script editor is displayed.
 
-![IBM QRadar: Create Profile: Script Editor](../image/ibm-qradar-mapping-script-editor.png)
+\[Omitted image "ibm-qradar-mapping-script-editor.png"\] Alt text: IBM QRadar: Create Profile: Script Editor
 
 Enter any changes to the script and click **Update** to save the changes and return to the Mapping page.
 
@@ -96,7 +97,7 @@ Once the mapping section is complete, you can set filter conditions so that you 
 
     The following image is an example with two conditions that must be matched before security incidents are created.
 
-    ![IBM QRadar: Create Profile: Mapping: SIR5](../image/ibm-qradar-mapping-sir5.png)
+    \[Omitted image "ibm-qradar-mapping-sir5.png"\] Alt text: IBM QRadar: Create Profile: Mapping: SIR5
 
     You have set the incident generation conditions so that security incidents are created only when both of the filtering conditions that you entered are matched.
 
@@ -117,7 +118,7 @@ Define additional offense aggregation criteria that aggregates an incoming offen
 
     All the field values that you select must be matched to append this incoming alert to an existing security incident. This includes fields, such as Observables and Configuration Items, that may have multiple offense field values mapped to them. All values must match. If only a subset of the values are matched, the offense aggregation conditions will not be met and a new security incident will be created. See screen shot below for multi-value field mapping.
 
-    ![IBM QRadar: Create Profile: Mapping: Aggregation](../image/ibm-qradar-profile-mapping-agg.png)
+    \[Omitted image "ibm-qradar-profile-mapping-agg.png"\] Alt text: IBM QRadar: Create Profile: Mapping: Aggregation
 
     If a new offense matches all the values that are selected in the aggregation field conditions in the mapping step, the new offense is automatically added to the most recently opened security incident with the same field values. As a user with the sn\_si.analyst role working with security incidents, you can view all the added aggregated offenses on a related list on a security incident. This list details associated time stamps and aggregated field values. This information helps you understand why these offenses are being aggregated to existing security incidents. If this tab is not displayed, scroll to the left side of the record under Related Links and click the **Show All Related Lists** link.
 

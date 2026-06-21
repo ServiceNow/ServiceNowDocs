@@ -2,6 +2,7 @@
 title: Request client software distribution
 description: Client software distribution requires the Orchestration - Client Software Distribution plugin \(com.snc.orchestration.client\_sf\_distribution\), which is available by request with a subscription to Orchestration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/orchestration/t\_ActivateClientSWDistribution.html
 release: yokohama
 product: Orchestration
 classification: orchestration
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Orchestration - Client Software Distribution plugin activates the [Orchestration - System Center Configuration Manager](t_ActivateSysCentrConfigMgrActiv.md) plugin that contains the custom SCCM activities used to deploy or revoke software using an SCCM server. For additional plugin dependencies, see [Plugins installed with client software distribution](../reference/r_IWClientSWDist.md#).
+The Orchestration - Client Software Distribution plugin activates the [Orchestration - System Center Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/t_ActivateSysCentrConfigMgrActiv.md) plugin that contains the custom SCCM activities used to deploy or revoke software using an SCCM server. For additional plugin dependencies, see [Plugins installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/r_IWClientSWDist.md).
 
 **Note:** The Orchestration - Client Software Distribution plugin runs in its own application scope.
 
@@ -31,7 +32,7 @@ The Orchestration - Client Software Distribution plugin activates the [Orchestra
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -72,12 +73,12 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Client Software Distribution](../concept/c_ClientSoftwareDistribution.md)
+**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md)
 

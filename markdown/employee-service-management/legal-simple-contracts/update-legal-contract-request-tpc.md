@@ -2,6 +2,7 @@
 title: Modify a legal request
 description: As a legal user, modify a legal request to update the request's details or replace the attached contract document with an updated version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-simple-contracts/update-legal-contract-request-tpc.html
 release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -38,5 +39,5 @@ Role required: sn\_lg\_ops.legal\_user
 6.  Select **Save** to update the record.
 
 
-**Parent Topic:**[Third-party contract review requests](../concept/legal-request-third-party-contract.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/legal-request-third-party-contract.md)
 

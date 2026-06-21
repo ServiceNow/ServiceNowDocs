@@ -2,6 +2,7 @@
 title: Application Insights overview graphs and metrics
 description: The Application Insights overview graphs provide consolidated views of key metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/overview-graphs-and-metrics.html
 release: yokohama
 product: Platform Performance
 classification: platform-performance
@@ -135,5 +136,5 @@ Semaphore AMB Receive
 Average number of transactions in the AMB Receive semaphore queue and total number of transactions rejected across all nodes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with Application Insights graphs](working-with-application-insights-graphs.md)
+</table>**Parent Topic:**[Working with Application Insights graphs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/working-with-application-insights-graphs.md)
 

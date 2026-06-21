@@ -2,6 +2,7 @@
 title: Manage approvals from SAP Concur
 description: As an administrator, you can sync, view, track, and fulfill the requests from other business applications such as SAP Concur from a unified Employee Center Pro location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/x-concur-approvals.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -47,5 +48,5 @@ View expense reports, itemizations, and receipts of the SAP Concur account from 
 
 Base URL and relative path help display the fetched reports and expenses metadata from SAP Concur. The base URL and relative path help the approver navigate to SAP Concur from the respective approval or report for more details.
 
-**Parent Topic:**[Approvals hub integration with SAP Concur](../concept/x-concur-sa-integration.md)
+**Parent Topic:**[Approvals hub integration with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/x-concur-sa-integration.md)
 

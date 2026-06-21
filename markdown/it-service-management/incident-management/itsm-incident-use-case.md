@@ -2,6 +2,7 @@
 title: Incident Management and CSDM tables
 description: Incident Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Incident Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/itsm-incident-use-case.html
 release: yokohama
 product: Incident Management
 classification: incident-management
@@ -27,7 +28,7 @@ The Incident form references the following CSDM tables:
     See the Incident Management documentation for information about service commitments on a service offering \(for example, resolution time for incident\).
 
 
-![CSDM tables used by Incident Management.](../image/incident-elements-4.png "Tables used by Incident Management")
+\[Omitted image "incident-elements-4.png"\] Alt text: CSDM tables used by Incident Management.
 
 ## Products that add value to Incident Management
 
@@ -74,5 +75,5 @@ When you use Incident Management with other ServiceNow products, you increase th
 
 -   **Customer Service Management \(CSM\)**
 
-**Parent Topic:**[Applying CSDM guidelines to Incident Management](../concept/itsm-incident-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/itsm-incident-use-case-product-view.md)
 

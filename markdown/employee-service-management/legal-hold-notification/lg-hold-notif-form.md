@@ -2,6 +2,7 @@
 title: Legal hold notification matter intake form
 description: Use the Legal hold notification intake form to submit the legal hold notification matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-hold-notification/lg-hold-notif-form.html
 release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -108,5 +109,5 @@ Add attachments
 Enables the attachment of documents related to the legal hold.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Hold Notification Reference](../concept/lg-hold-notif-ref.md)
+</table>**Parent Topic:**[Legal Hold Notification Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
 

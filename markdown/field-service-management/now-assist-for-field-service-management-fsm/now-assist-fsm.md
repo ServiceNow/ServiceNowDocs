@@ -2,6 +2,7 @@
 title: Now Assist for Field Service Management \(FSM\)
 description: Use the ServiceNow Now Assist for Field Service Management \(FSM\) application to summarize work order tasks. You can enable users to generate work order task summaries so that they can create notes faster and with more detail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.html
 release: yokohama
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -18,15 +19,15 @@ Use the ServiceNow® Now Assist for Field Service Management \(FSM\) application
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for FSM](../concept/exploring-now-assist-fsm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for FSM application to get started](../task/configure-now-assist-fsm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for FSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use generative AI capabilities offered by Now Assist for FSM](../concept/using-now-assist-fsm.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -54,7 +55,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect task data \(for Case Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect task data \(for Case Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

@@ -2,6 +2,7 @@
 title: Configure authentication factors for AI voice agents
 description: To secure voice agent environments, configure authentication factors that first identify the caller, then authenticate them before granting access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -17,8 +18,8 @@ To secure voice agent environments, configure authentication factors that first 
 
 Configuration involves:
 
--   [User identification](configuring-authentication-factors-for-ai-voice-agents.md#section_ftb_gmy_mhc)
--   [User authentication](configuring-authentication-factors-for-ai-voice-agents.md#section_gtb_gmy_mhc)
+-   [User identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.md)
+-   [User authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.md)
 
 ## User identification
 
@@ -61,7 +62,7 @@ Learn more about configuration
 
 </th></tr></thead><tbody><tr><td>
 
-[Time-based one-time password \(TOTP\) authentication](totp-authenticator-apps.md)
+[Time-based one-time password \(TOTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/totp-authenticator-apps.md)
 
 </td><td>
 
@@ -81,11 +82,11 @@ Y
 
 </td><td>
 
-[Authenticator Applications](mfa-auth-app.md)
+[Authenticator Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-auth-app.md)
 
 </td></tr><tr><td>
 
-[Push notification - Okta Verify](push-notification-okta-verify.md)
+[Push notification - Okta Verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/push-notification-okta-verify.md)
 
 </td><td>
 
@@ -105,11 +106,11 @@ Y
 
 </td><td>
 
-[Configure push notification \(Okta Verify\)](../task/configure-okta-verify-push-notification.md)
+[Configure push notification \(Okta Verify\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-okta-verify-push-notification.md)
 
 </td></tr><tr><td>
 
-[SoftPIN authentication](softpin-authentication.md)
+[SoftPIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/softpin-authentication.md)
 
 </td><td>
 
@@ -129,11 +130,11 @@ Y
 
 </td><td>
 
-[Configure Soft PIN](../task/configure-soft-pin.md)
+[Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-soft-pin.md)
 
 </td></tr><tr><td>
 
-[SMS One-time passcode \(OTP\) authentication](sms-otp-authentication.md)
+[SMS One-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/sms-otp-authentication.md)
 
 </td><td>
 
@@ -153,11 +154,11 @@ Y
 
 </td><td>
 
-[Multi-factor authentication Providers](multi-factor-authentication-providers.md)
+[Multi-factor authentication Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/multi-factor-authentication-providers.md)
 
 </td></tr><tr><td>
 
-[Knowledge-based authentication \(Security Questions\)](knowledge-based-authentication.md)
+[Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/knowledge-based-authentication.md)
 
 </td><td>
 
@@ -177,7 +178,7 @@ N
 
 </td><td>
 
-[Configure knowledge-based authentication](../task/configure-kba.md)
+[Configure knowledge-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-kba.md)
 
 </td></tr></tbody>
 </table>**Important:** Y = Recommended \| Sometimes = Use with Caution \| N = Not Recommended

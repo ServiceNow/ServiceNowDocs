@@ -2,6 +2,7 @@
 title: Activity Center Conversations
 description: Scan all conversations you are included in. Start a conversation any time to ask a question or get advice from your Impact squad.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-activity-center/conversations.html
 release: yokohama
 product: Impact Activity Center
 classification: impact-activity-center

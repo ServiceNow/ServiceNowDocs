@@ -2,6 +2,7 @@
 title: Exploring Guided Setup
 description: Guided Setup assist you with planning the roll-out of the product and performing the basic configuration to go live. The included features and steps assist you with planning the roll-out of the product and performing the basic configuration to go live.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/exploring-guided-setup.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
@@ -27,7 +28,7 @@ The Guided Setup homepage contains an overview of configuration types for your G
 
 ## Guided Setup categories page
 
-![guided setup categories page.](../image/guided-setup-categories-new.png)
+\[Omitted image "guided-setup-categories-new.png"\] Alt text: guided setup categories page.
 
 The categories page contains an overview and descriptions of the categories and associated tasks. You can click either the drop down arrow to view information about the category or the **Start** button to open the Guided Setup steps and begin configuration.
 
@@ -57,7 +58,7 @@ The categories page contains an overview and descriptions of the categories and 
 
 ## Guided Setup task page
 
-![guided setup task page.](../image/guided-setup-task-new.png)'
+\[Omitted image "guided-setup-task-new.png"\] Alt text: guided setup task page.'
 
 To perform a task click on one of the tasks listed and select **Mark as complete** once completed.
 
@@ -75,7 +76,7 @@ Other actions you can take include:
     **Note:** It may be necessary to mark a task as complete to move on to the next task.
 
 -   You can also create a UI page by accessing a Guided Setup task template in the UI Builder template section.
--   **Embedded Help** Click ![help icon.](../image/help-icon-new.png) to learn more about the task.
+-   **Embedded Help** Click \[Omitted image "help-icon-new.png"\] Alt text: help icon. to learn more about the task.
 
 ## More Guided Setup features
 

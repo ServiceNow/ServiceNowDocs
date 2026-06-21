@@ -2,6 +2,7 @@
 title: Review actions taken on rationalization process
 description: After acting on the recommendations, such as accepting as duplicate, retaining as primary, or dismissing during the rationalization process, the owner sends them for review to the configured reviewers. The reviewers then analyze the actions taken and either approve or reject them, providing proper justification for their decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/review-actions-taken-on-rationalization-process.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,7 +18,7 @@ After acting on the recommendations, such as accepting as duplicate, retaining a
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user
 

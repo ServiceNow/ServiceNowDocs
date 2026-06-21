@@ -2,6 +2,7 @@
 title: Update a Legal Content Review request
 description: Update request details, add comments, or upload documents in a Legal Content Review request you submitted while it is still in the New or Assigned state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-content-review/update-existing-legal-cr-request.html
 release: yokohama
 product: Legal Content Review
 classification: legal-content-review
@@ -25,15 +26,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Open the Legal Content Review request.
 
-<table id="choicetable_av2_r5c_3xb"><thead><tr><th align="left" id="d121776e66">
+<table id="choicetable_av2_r5c_3xb"><thead><tr><th align="left" id="d82265e66">
 
 Option
 
-</th><th align="left" id="d121776e69">
+</th><th align="left" id="d82265e69">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121776e75">
+</th></tr></thead><tbody><tr><td id="d82265e75">
 
 **Using __Employee Center__**
 
@@ -43,7 +44,7 @@ Description
 2.  Select **My Requests** from the header.
 
 
-</td></tr><tr><td id="d121776e106">
+</td></tr><tr><td id="d82265e106">
 
 **Using __Legal Service Portal__**
 
@@ -72,26 +73,26 @@ Description
 
 8.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d121776e210">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d82265e210">
 
 Option
 
-</th><th align="left" id="d121776e213">
+</th><th align="left" id="d82265e213">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d121776e219">
+</th></tr></thead><tbody><tr><td id="d82265e219">
 
 **If the Attachments tab is visible**
 
 </td><td>
 
--   To upload a new document, select the add attachment icon \(![Add attachment icon.](../../legal-request-management/image/add-attachment-icon.png)\) and select a file.
--   To rename an attached file, select the edit file name icon \(![Edit file name icon.](../../legal-digital-forensics/image/rename-icon.png)\) and update the file name.
--   To remove an attached file, select the delete icon \(![Delete icon.](../../legal-digital-forensics/image/delete-icon.png)\).
+-   To upload a new document, select the add attachment icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachment icon.\) and select a file.
+-   To rename an attached file, select the edit file name icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit file name icon.\) and update the file name.
+-   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d121776e258">
+</td></tr><tr><td id="d82265e258">
 
 **If the Documents tab is visible**
 
@@ -110,5 +111,5 @@ A link to the document is listed in the **External URL** column of the documents
     **Note:** The **Approvals** tab appears only when the Legal Content Review request or its attachment has approval records.
 
 
-**Parent Topic:**[Legal Content Review requests](../concept/legal-content-review-requests.md)
+**Parent Topic:**[Legal Content Review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-content-review/legal-content-review-requests.md)
 

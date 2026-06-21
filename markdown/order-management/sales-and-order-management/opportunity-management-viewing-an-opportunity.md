@@ -2,6 +2,7 @@
 title: View an existing opportunity
 description: View an existing opportunity to make changes, such as updating its status or additional details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/opportunity-management-viewing-an-opportunity.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **List** view ![List icon.](../image/Lists.png) and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: List icon. and select **Opportunity - All**.
 
     -   All- shows all the opportunities in the instance.
     -   Opportunity Tasks- shows your opportunity tasks.

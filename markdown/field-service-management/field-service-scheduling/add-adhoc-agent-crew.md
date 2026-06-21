@@ -2,6 +2,7 @@
 title: Assign an ad hoc agent to the crew on a work order task
 description: Add ad hoc members to a work order task that requires a crew.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/add-adhoc-agent-crew.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -47,5 +48,5 @@ You can add ad hoc agents to work on a crew task. These agents join the crew mem
 
 An ad hoc agent is added to the crew task.
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](../concept/using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

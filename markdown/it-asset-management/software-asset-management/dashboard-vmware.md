@@ -2,6 +2,7 @@
 title: Software Publisher Analytics dashboard for VMware in Software Asset Management classic
 description: View compliance analysis results related to VMware on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/dashboard-vmware.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
@@ -25,14 +26,14 @@ The dashboard is updated whenever a new reconciliation result is available. You 
 
 Information from VMware vCenter software is discovered and used for VMware reconciliation. Discovery uses these probes and populates these tables:
 
--   [vCenter probe](https://www.servicenow.com/docs/access?context=vcenter-probes&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US) VMware — vCenter ESX Hosts License
+-   vCenter probe VMware — vCenter ESX Hosts License
 -   VMware Discovered License Key \[samp\_vmware\_license\_key\] and VMware Discovered License Key Consumption \[samp\_vmware\_license\_key\_usage\] tables
 
-For more information, see [vCenter discovery with Software Asset Management](https://www.servicenow.com/docs/access?context=r_VCenterDataCollected&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US).
+For more information, see vCenter discovery with Software Asset Management.
 
 **Note:** The add-on VMware publisher pack \(com.sn\_samp\_vmware\) plugin must be installed to view the VMware dashboard tab.
 
-![Software Publisher Analytics dashboard for VMware.](../image/publisher-dashboard-vmware.png)
+\[Omitted image "publisher-dashboard-vmware.png"\] Alt text: Software Publisher Analytics dashboard for VMware.
 
 <table id="table_gqs_l5c_fbb"><thead><tr><th>
 
@@ -56,7 +57,7 @@ Product Results
 
 </td><td>
 
-Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](../concept/sam-license-workbench.md).
+Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -145,5 +146,5 @@ Number of products in each software lifecycle phase, including End of Extended S
 </td></tr></tbody>
 </table>The **vSphere Deployment** related link shows the VMware Discovered License Key Consumptions list.
 
-**Parent Topic:**[Software Asset Management publisher pack for VMware](../concept/vmware-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/vmware-publisher-pack.md)
 

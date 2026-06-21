@@ -2,7 +2,10 @@
 title: Set up custom Playbooks for Portals
 description: Create custom Playbooks for Portals to provide end users with the playbook experience on your service portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-playbooks-for-portals.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -26,18 +29,18 @@ Plugins required:
 -   Case Playbook for Onboarding: sn\_onboarding \(required if you need the predefined playbook experience\)
 -   Case Playbook for Product Support: sn\_product \(required if you want to use the product case playbook and record generator\)
 
-Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](customer-service-case-playbooks.md).
+Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-case-playbooks.md).
 
 ## Summary of steps for setting up Playbooks for Portals
 
 You can set up Playbooks for Portals using the following high level steps.
 
-1.  Define your process using Workflow Studio. See [Create a playbook](https://www.servicenow.com/docs/access?context=create-process-definition&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US) for more information.
-2.  Activate the record generator. For more information, see [Activate the Record Generator](activate-the-record-generator.md).
-3.  Set up ACLs \(Access Control Lists\) to provide the appropriate read, write, and create permissions for users. See [Explicit Roles in CSM](../../../administer/contextual-security/concept/explicit-roles-in-csm.md) for more information.
+1.  Define your process using Workflow Studio. See  for more information.
+2.  Activate the record generator. For more information, see [Activate the Record Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-the-record-generator.md).
+3.  Set up ACLs \(Access Control Lists\) to provide the appropriate read, write, and create permissions for users. See [Explicit Roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/explicit-roles-in-csm.md) for more information.
 
     **Note:** Add write and create roles with a condition based on "State=draft" so that users can only edit the fields in the draft state.
 
-4.  Create a Playbook Content Item so that users can navigate to the Playbook experience. See [Create a Playbook Content Item](../task/create-content-item.md) for more information.
-5.  Set up a redirection widget so that users are redirected to the playbook intake experience once the state changes from "draft" to "new." See [Set up a redirection widget](../task/set-up-redirection-widget.md) for more information.
+4.  Create a Playbook Content Item so that users can navigate to the Playbook experience. See [Create a Playbook Content Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-content-item.md) for more information.
+5.  Set up a redirection widget so that users are redirected to the playbook intake experience once the state changes from "draft" to "new." See [Set up a redirection widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/set-up-redirection-widget.md) for more information.
 

@@ -2,6 +2,7 @@
 title: Explore Now Assist AI agents for Health and Safety
 description: Now Assist AI agents help to improve live agent productivity by using AI agents to perform tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-exploring.html
 release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -17,6 +18,6 @@ Now Assist AI agents help to improve live agent productivity by using AI agents 
 
 AI agents for Health and Safety help to create actions using the Now Assist panel.
 
--   For more information, see [Exploring Now Assist AI agents](https://www.servicenow.com/docs/access?context=exploring-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
--   To learn how to manage AI agents and agentic workflows, see [AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+-   For more information, see .
+-   To learn how to manage AI agents and agentic workflows, see .
 

@@ -2,6 +2,7 @@
 title: Create indicators in Microsoft Defender for Endpoint
 description: Create indicators from associated observables of the security incident using the Microsoft Defender for Endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/create-indicators-ms-defender-endpoint.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -39,7 +40,7 @@ Create indicators provide you the ability to set a list of indicators for detect
 
 6.  From the **Actions** on selected rows, click **Create Indicator in Microsoft Defender**.
 
-    ![Associated Deliverables view: Select Create Indicators in Microsoft Defender for Endpoint from the Actions list.](../image/create_indicators.png)
+    \[Omitted image "create\_indicators.png"\] Alt text: Associated Deliverables view: Select Create Indicators in Microsoft Defender for Endpoint from the Actions list.
 
 7.  On the form, fill in the fields.
 

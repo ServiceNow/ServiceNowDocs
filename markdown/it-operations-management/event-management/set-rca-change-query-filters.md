@@ -2,6 +2,7 @@
 title: Customize RCA settings
 description: Modify default settings that determine RCA behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/set-rca-change-query-filters.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -306,5 +307,5 @@ False
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Probable Root Cause Analysis \(RCA\)](../concept/probable-rca.md)
+**Parent Topic:**[Probable Root Cause Analysis \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/probable-rca.md)
 

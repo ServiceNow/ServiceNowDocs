@@ -2,6 +2,7 @@
 title: Preview the security incident for the Microsoft Graph Security API integration
 description: After you complete the mapping step, preview the values that you mapped in a ServiceNow AI Platform SIR security incident. This preview step permits you to verify that you have mapped all the alert fields that you want displayed on the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/ms-graph-create-profile-preview.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
 3.  Review the field mapping of the alert values on the security incident.
 
-    ![Microsoft Graph Security API: preview profile](../image/ms-graph-create-profile-5.png)
+    \[Omitted image "ms-graph-create-profile-5.png"\] Alt text: Microsoft Graph Security API: preview profile
 
     The preceding image is an example of a preview with a mapping error of the samples that were ingested.
 

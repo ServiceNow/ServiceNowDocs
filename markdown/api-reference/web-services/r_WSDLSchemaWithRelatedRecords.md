@@ -2,6 +2,7 @@
 title: WSDL Schema with related records
 description: When a WSDL for the target Incident table is requested with an additional parameter of hierarchical=true, the WSDL schema for the Insert function will reflect available related records that may participate in the hierarchical data payload.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/web-services/r\_WSDLSchemaWithRelatedRecords.html
 release: yokohama
 product: Web Services
 classification: web-services
@@ -19,13 +20,13 @@ For example, the insert portion of the schema of the incident table, when reques
 
 `https://instance.service-now.com/incident.do?WSDL&hierarchical=true`
 
-![](../image/WSDLSchema.png "WSDL Schema")
+\[Omitted image "WSDLSchema.png"\] Alt text:
 
 ...
 
-![](../image/WSDLSchema2.png "WSDL Schema Continued")
+\[Omitted image "WSDLSchema2.png"\] Alt text:
 
 The WSDL above shows the incident table having a related table `u_custom_comments` that itself has a related table `u_comment_items`.
 
-**Parent Topic:**[Insert related records using SOAP](../task/t_InsertRelatedRecordsUsingSOAP.md)
+**Parent Topic:**[Insert related records using SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/t_InsertRelatedRecordsUsingSOAP.md)
 

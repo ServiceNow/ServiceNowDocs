@@ -2,6 +2,7 @@
 title: Jumpstart Your AI Agents for CSM
 description: This Accelerator provides a demonstration of the possibilities and capabilities of AI Agents for CSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-ai-agents-csm.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

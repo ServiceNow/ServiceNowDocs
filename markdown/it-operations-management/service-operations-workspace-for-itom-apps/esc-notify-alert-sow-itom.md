@@ -2,6 +2,7 @@
 title: Create Respond automation
 description: Respond to alerts automatically by notifying appropriate stakeholders, escalating them as needed based on severity and type, or other executing response actions. This process ensures that alerts are managed promptly and effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/esc-notify-alert-sow-itom.html
 release: yokohama
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -27,7 +28,7 @@ For users familiar with the classic Event Management experience, this provides a
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation, select the Alert Automation icon \(![Alert automation icon](../../event-management/image/alert-automations-icon.png)\).
+2.  In the primary navigation, select the Alert Automation icon \(\[Omitted image "alert-automations-icon.png"\] Alt text: Alert automation icon\).
 
 3.  On the Alert automations page, select **Respond**.
 
@@ -35,7 +36,7 @@ For users familiar with the classic Event Management experience, this provides a
 
     The Respond page appears.
 
-    ![Respond automation page from where you can create automation to remediate action on alerts, escalate alerts or notify stakeholders.](../image/respond-automation-page.png)
+    \[Omitted image "respond-automation-page.png"\] Alt text: Respond automation page from where you can create automation to remediate action on alerts, escalate alerts or notify stakeholders.
 
 5.  In the **Automation name** field, enter the name of the automation.
 
@@ -45,7 +46,7 @@ For users familiar with the classic Event Management experience, this provides a
 
     **Important:** You can limit respond automations to primary alerts to prevent secondary alerts from being overwhelmed by unnecessary noise. Ensure these automations are applied only to alerts associated with CIs that are not currently undergoing maintenance.
 
-    ![Respond automation conditions](../image/respond-automation-conditions.png)
+    \[Omitted image "respond-automation-conditions.png"\] Alt text: Respond automation conditions
 
     1.  From the **Assignment group** field menu, select the assignment group to determine which team’s alerts will trigger the automation.
 
@@ -64,27 +65,27 @@ For users familiar with the classic Event Management experience, this provides a
 
 8.  In the **Then, apply the following actions** section, select one or more of the three automation actions that can be triggered by the automation.
 
-    ![Respond automation actions](../image/respond-automation-actions.png)
+    \[Omitted image "respond-automation-actions.png"\] Alt text: Respond automation actions
 
-<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d484589e243">
+<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d287873e243">
 
 Action
 
-</th><th align="left" id="d484589e246">
+</th><th align="left" id="d287873e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d484589e252">
+</th></tr></thead><tbody><tr><td id="d287873e252">
 
 **Create an incident**
 
 </td><td>
 
-Creates an incident for the alerts that match the specified filter.For details on mapping the alert fields to the incident fields, see [Alert field mapping on the Respond page](../reference/alert-field-mapping-respond-page.md).
+Creates an incident for the alerts that match the specified filter.For details on mapping the alert fields to the incident fields, see [Alert field mapping on the Respond page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/alert-field-mapping-respond-page.md).
 
 To include additional fields in the incident, select **+ Add**.
 
-</td></tr><tr><td id="d484589e275">
+</td></tr><tr><td id="d287873e275">
 
 **Use outbound webhooks to send data to other systems**
 
@@ -92,31 +93,31 @@ To include additional fields in the incident, select **+ Add**.
 
 Sends notifications to other systems using outbound webhooks. For example, this capability can be used to send a chat notification, create a case, or trigger an external runbook to remediate the issue.
 
- For details on configuring an outbound webhook, see [Outbound webhook parameters](../reference/outbound-webhook-parameters.md).
+ For details on configuring an outbound webhook, see [Outbound webhook parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/outbound-webhook-parameters.md).
 
  To create an additional property, select **+ Add property**. The property can be any custom key-value pair that you want to include in the webhook payload, such as "Content-Type: application/json" or "Authorization: Bearer &lt;token&gt;".
 
-</td></tr><tr><td id="d484589e303">
+</td></tr><tr><td id="d287873e303">
 
 **Run other response actions**
 
 </td><td>
 
-Executes selected subflows from Workflow Studio for alerts that match the specified condition. For example, you may [out-of-the-box subflows](../../event-management/reference/subflows-provided.md) to restart services. You can also create your own [custom subflows](../../event-management/task/create-custom-create-incident-subflow.md), leveraging hundreds of integrations available in Integration Hub.
+Executes selected subflows from Workflow Studio for alerts that match the specified condition. For example, you may [out-of-the-box subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/subflows-provided.md) to restart services. You can also create your own [custom subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-custom-create-incident-subflow.md), leveraging hundreds of integrations available in Integration Hub.
 
- ![Response subflow](../image/respond-automation-actions-details.png)
+ \[Omitted image "respond-automation-actions-details.png"\] Alt text: Response subflow
 
  1.  In the **Response subflow** field, select the subflow.
 2.  In the **When should the subflow execute?** field, select **Automatically**, **Manually** or **Automatically and Manually**.
 
 **Note:** If you select a subflow with an execution type of **Manually** or **Automatically and Manually**, and then save the automation, it appears in the Express List.
 
-![Subflows in Express list.](../image/respond-automation-express-list.png)
+\[Omitted image "respond-automation-express-list.png"\] Alt text: Subflows in Express list.
 
 3.  In the **Execution limit** field, specify the maximum number of times the subflow can run. After reaching the limit, the subflow will not execute again.
  To add another response action, select **+ Add response action**.
 
- To learn how to create your own subflow, see [Create a custom subflow for alerts](../../event-management/task/create-custom-create-incident-subflow.md).
+ To learn how to create your own subflow, see [Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-custom-create-incident-subflow.md).
 
 </td></tr></tbody>
 </table>    **Note:** If you don’t select at least one action, the automation is deactivated.
@@ -127,9 +128,9 @@ Executes selected subflows from Workflow Studio for alerts that match the specif
 
 10. In the **Automation details** section, provide an order and automation description.
 
-    ![Respond automation details section](../image/respond-automation-details.png)
+    \[Omitted image "respond-automation-details.png"\] Alt text: Respond automation details section
 
-    For information on the Automation details fields, see [../reference/automation-details-fields.md](../reference/automation-details-fields.md).
+    For information on the Automation details fields, see []().
 
 11. Select **Save automation**.
 

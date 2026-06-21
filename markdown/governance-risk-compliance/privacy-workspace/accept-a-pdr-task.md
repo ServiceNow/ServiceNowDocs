@@ -2,6 +2,7 @@
 title: Accept and work on a Personal Data Rights task
 description: Accept Personal Data Rights \(PDR\) tasks that are assigned to you. Unless you accept the work, you will not be able to work towards closing the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/accept-a-pdr-task.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -41,5 +42,5 @@ Role required: sn\_grc\_pdr.pdr\_agent
     |**To close the task without review**|Select **Close as complete**.|
 
 
-**Parent Topic:**[Using Personal Data Rights](../concept/using-personal-data-right.md)
+**Parent Topic:**[Using Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-personal-data-right.md)
 

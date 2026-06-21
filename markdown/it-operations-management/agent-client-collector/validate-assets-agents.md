@@ -2,6 +2,7 @@
 title: Validate assets on agents
 description: Validate assets on your agents to ensure that they match the assets on your ServiceNow instance. Validating assets ensures that the instance provides accurate data on all of your agents' assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/validate-assets-agents.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -44,5 +45,5 @@ Only assets that are able to be executed are validated. For example, if you’re
     The assets automatically re-sync the next time a command runs which requires the asset.
 
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](../concept/data-collection-enabling.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

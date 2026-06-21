@@ -2,7 +2,10 @@
 title: Set email notification preferences
 description: Customers can set preferences for email notifications that are sent when customer service agents perform different actions on cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_SetEmailNotificationPref.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

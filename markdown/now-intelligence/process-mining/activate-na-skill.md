@@ -2,6 +2,7 @@
 title: Activate work notes analysis skill
 description: Activate the work notes analysis skill to be able to use Now Assist for Process Mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/activate-na-skill.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -29,10 +30,10 @@ Role required: admin
 
 4.  Select **Turn on** for the Work Notes Analysis skill.
 
-    ![Work notes analysis skill activated](../image/na-skills.png)
+    \[Omitted image "na-skills.png"\] Alt text: Work notes analysis skill activated
 
     The skill is activated for your instance.
 
 
-**Parent Topic:**[Configuring Now Assist for Process Mining](../concept/config-na-proc-min.md)
+**Parent Topic:**[Configuring Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/config-na-proc-min.md)
 

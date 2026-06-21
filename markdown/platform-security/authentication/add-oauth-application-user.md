@@ -2,6 +2,7 @@
 title: Add the OAuth Application User
 description: Add the OAuth Application User field on the OAuth Entity form to use the Client Credentials grant type for OAuth inbound integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/add-oauth-application-user.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -21,7 +22,7 @@ Role required: admin, oauth\_admin
 
 Plugin required: OAuth 2.0.
 
-You must create an OAuth client. For more information, see [Create an endpoint for clients to access the instance](../../../administer/security/task/t_CreateEndpointforExternalClients.md).
+You must create an OAuth client. For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_CreateEndpointforExternalClients.md).
 
 ## Procedure
 
@@ -37,11 +38,11 @@ You must create an OAuth client. For more information, see [Create an endpoint f
 
 6.  Select the user for the **OAuth Application User**.
 
-    For example, System Administrator.![OAuth Application User](../images/add-oauth-application-user.png)
+    For example, System Administrator.\[Omitted image "add-oauth-application-user.png"\] Alt text: OAuth Application User
 
     **Note:**
 
-    Use the [REST API Auth Scope](../../../administer/security/concept/rest-api-auth-scope.md) to define the permissions of the client application, and control its access to the APIs.
+    Use the [REST API Auth Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/rest-api-auth-scope.md) to define the permissions of the client application, and control its access to the APIs.
 
 7.  Save or Update the form.
 

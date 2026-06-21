@@ -2,6 +2,7 @@
 title: Understand the AIOps LEAP value dashboard
 description: Learn how to use the AIOps LEAP value dashboard to view the analysis of automation opportunities and cost and time savings achieved using automation for IT operations management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understand-the-aiops-leap-value-dashboard.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -21,11 +22,11 @@ Role required: admin
 
 ## Procedure
 
-1.  Select the AIOps LEAP dashboard icon ![](../images/dashboard-icon.png) to view records analyzed and grouped into automation opportunities.
+1.  Select the AIOps LEAP dashboard icon \[Omitted image "dashboard-icon.png"\] Alt text: to view records analyzed and grouped into automation opportunities.
 
     The dashboard provides a comprehensive overview of estimated time and cost savings achievable with automation.
 
-    ![LEAP value dashboard](../images/leap-value-dashboard.png)
+    \[Omitted image "leap-value-dashboard.png"\] Alt text: LEAP value dashboard
 
 2.  Review the Grouping statistics section.
 

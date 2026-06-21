@@ -2,6 +2,7 @@
 title: Use Approvals hub
 description: Use the My tasks section to track and fulfill the requests from the portal and Now Mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Use the **My tasks** section to track and fulfill the requests from the portal a
 
 As an approver, view all your approvals with the in-context details such as common info, primary info, tabs, and the associated action groups.
 
-![Approval flow on portal and mobile](../images/c-approval-my-tasks-june.png "Approval hub")
+\[Omitted image "c-approval-my-tasks-june.png"\] Alt text: Approval flow on portal and mobile
 
 You can perform the following actions from the portal and Now Mobile.
 
@@ -31,5 +32,5 @@ You can perform the following actions from the portal and Now Mobile.
 -   Perform quick actions such as approve, send back, or view details.
 -   When you enable e-signatures for approvals, the approver must enter the correct credentials to change the approval state. Only when the credentials pass, the approval status changes.
 
-For more information, see [Approvals experience reference](../reference/approval-hub-ootb.md) and [Approvals hub](../concept/approval-hub-intro.md).
+For more information, see [Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/approval-hub-ootb.md) and [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
 

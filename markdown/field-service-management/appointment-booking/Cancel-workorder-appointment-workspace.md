@@ -2,6 +2,7 @@
 title: Cancel work order appointment in CSM Agent Workspace
 description: Cancel an appointment for customer from a work order. Cancelling an appointment, cancels the associated work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking/Cancel-workorder-appointment-workspace.html
 release: yokohama
 product: Appointment Booking
 classification: appointment-booking
@@ -23,7 +24,7 @@ Role required: wm\_qualifier and sn\_customerservice\_agent, or wm\_qualifier an
 
 ## Procedure
 
-1.  Click the List icon \(![List icon.](../image/ListIcon.png)\)
+1.  Click the List icon \(\[Omitted image "ListIcon.png"\] Alt text: List icon.\)
 
 2.  Navigate to **Work Orders** &gt; **Created by me**.
 
@@ -34,5 +35,5 @@ Role required: wm\_qualifier and sn\_customerservice\_agent, or wm\_qualifier an
     The application cancels the appointment and associated work order.
 
 
-**Parent Topic:**[Manage appointments in the CSM Configurable Workspace](../concept/managing-appts-from-csm-workspace.md)
+**Parent Topic:**[Manage appointments in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appts-from-csm-workspace.md)
 

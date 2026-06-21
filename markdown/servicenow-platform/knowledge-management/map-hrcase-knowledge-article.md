@@ -2,6 +2,7 @@
 title: Create field mapping from an HR case to a knowledge article
 description: Copy information from an HR case into a knowledge article by creating custom mapping between the HR case table and the KCS article table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/map-hrcase-knowledge-article.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

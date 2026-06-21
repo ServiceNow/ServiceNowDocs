@@ -2,6 +2,7 @@
 title: Playbooks system properties
 description: Review the system properties for Playbooks. You can configure these properties to control how the system handles Playbooks events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/process-automation-designer-system-properties.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -24,5 +25,5 @@ The following system properties relate to the Playbooks configuration:
 |com.glide.event\_manager.process\_automation.claim\_limit|Number of Process Automation events that the event handler can process in a single transaction|
 |sn\_agent\_workspace.default\_view\_editable\_tables|Default table views, as a comma-separated list, that you want to allow Workspace to render within a playbook card during runtime|
 
-**Parent Topic:**[Playbooks reference](process-automation-designer-reference.md)
+**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

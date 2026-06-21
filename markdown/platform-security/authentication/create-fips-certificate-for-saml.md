@@ -2,6 +2,7 @@
 title: Create self-signed BCFKS keystore for SAML
 description: Generate a FIPS 140-2 compliant self-signed BCFKS keystore for use in SAML signing and encryption operations within the Multi-Provider SSO plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/create-fips-certificate-for-saml.html
 release: yokohama
 product: Authentication
 classification: authentication

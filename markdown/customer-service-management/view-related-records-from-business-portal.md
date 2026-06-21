@@ -2,11 +2,14 @@
 title: View cases and case tasks from the Business Portal
 description: View the list of cases and case task from the business portal to view its details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-related-records-from-business-portal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using the Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # View cases and case tasks from the Business Portal

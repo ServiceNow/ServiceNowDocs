@@ -2,6 +2,7 @@
 title: Delete AQI reviews
 description: Delete an AQI review that was created by mistake or is no longer required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/delete-aqi-reviews.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

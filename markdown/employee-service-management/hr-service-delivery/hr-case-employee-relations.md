@@ -2,6 +2,7 @@
 title: Employee Relations cases
 description: Because of the sensitive nature of employee relations \(ER\) cases, there are expectations for tighter security to protect privacy. These aspects make employee relations cases different from standard HR cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-case-employee-relations.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -78,11 +79,11 @@ The following reports are provided:
 -   Case volume by location
 -   Case volume by department
 
-For more information on reports, see [HR Service Delivery Employee Relations dashboards](hr-er-dashboards.md).
+For more information on reports, see [HR Service Delivery Employee Relations dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-dashboards.md).
 
 ## Next Experience UI
 
-You can optionally use the ServiceNow® Next Experience UI for Employee Relations. Next Experience provides an intuitive, personalized experience to drive productivity, improve engagement, and surface insights across Employee Relations. For more information, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+You can optionally use the ServiceNow® Next Experience UI for Employee Relations. Next Experience provides an intuitive, personalized experience to drive productivity, improve engagement, and surface insights across Employee Relations. For more information, see Next Experience UI.
 
-For information on installing a store application, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For information on installing a store application, see Install a ServiceNow Store application.
 

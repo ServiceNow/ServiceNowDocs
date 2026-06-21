@@ -2,13 +2,14 @@
 title: Evaluation flow
 description: The workflow for evaluation execution, which performs evaluations when conversations are completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/ai-eval-flow.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
 last_updated: "2025-09-02"
 reading_time_minutes: 3
-breadcrumb: [Evaluation dashboard References, AI Control Tower Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Evaluation dashboard References, Reference, AI Control Tower, Enable AI experiences]
 ---
 
 # Evaluation flow
@@ -141,5 +142,5 @@ Special behavior and edge case handling:
     ```
 
 
-**Parent Topic:**[Evaluation dashboard References](ai-eval-references.md)
+**Parent Topic:**[Evaluation dashboard References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-references.md)
 

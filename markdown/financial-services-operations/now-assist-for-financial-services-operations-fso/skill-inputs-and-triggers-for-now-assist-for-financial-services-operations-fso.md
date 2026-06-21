@@ -2,6 +2,7 @@
 title: Skill inputs for Now Assist for Financial Services Operations \(FSO\)
 description: Use the inputs for each skill to see how a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.html
 release: yokohama
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso

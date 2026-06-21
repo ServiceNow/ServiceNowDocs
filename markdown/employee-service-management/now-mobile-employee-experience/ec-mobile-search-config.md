@@ -2,6 +2,7 @@
 title: Update search configurations
 description: Search configurations are not automatically updated when you install the Now Mobile application. Manually run the fix script that is provided to update the search configuration to experience unified browsing on your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-mobile-employee-experience/ec-mobile-search-config.html
 release: yokohama
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Create a property of type **true/false** in the Now Mobile application scope.
 
-    For example, create a property `enable_taxonomy`. For more information on creating system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For example, create a property `enable_taxonomy`. For more information on creating system properties, see Add a system property.
 
 3.  Set the property value to **true**.
 
@@ -40,5 +41,5 @@ Role required: admin
     **Note:** If the default Employee Taxonomy is attached to the Mobile Service Portal, then run the **Set primary topics for Employee taxonomy** fix script to update the mappings.
 
 
-**Parent Topic:**[Configuring Employee Center for Now Mobile](../concept/ec-mobile-configrations.md)
+**Parent Topic:**[Configuring Employee Center for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/ec-mobile-configrations.md)
 

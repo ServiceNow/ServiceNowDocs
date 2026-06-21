@@ -2,11 +2,12 @@
 title: Define component criteria
 description: Components are the entities for which you can assess risk \(for example, subsidiaries or engagements\). A component criteria is a group of components that should apply to a particular type of third party or engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -45,7 +46,7 @@ You can view the third party or engagement components by navigating to **Third-p
 
 2.  Select the **Default** entry to open the default criteria.
 
-    ![Component criteria — default record.](../image/component-criteria-default.png)
+    \[Omitted image "component-criteria-default.png"\] Alt text: Component criteria — default record.
 
 3.  Based on the amount of emphasis your company places on each of the component types, open each component and assign a weight.
 

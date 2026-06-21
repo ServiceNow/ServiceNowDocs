@@ -2,6 +2,7 @@
 title: Set Agent Affinity rules
 description: Specify the Agent Affinity rules to determine the order in which work items in a queue are sorted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/awa-set-agent-affinity-for-queue.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -46,5 +47,5 @@ Role required: awa\_admin or admin
     You can specify a maximum of three Agent Affinity rules per queue.
 
 
-**Parent Topic:**[Using Agent Affinity](../concept/awa-agent-affinity-concept.md)
+**Parent Topic:**[Using Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-agent-affinity-concept.md)
 

@@ -2,6 +2,7 @@
 title: View the support group for an application
 description: View the support group for the application to identify who to contact when you encounter issues. The support group is typically responsible for managing incidents, troubleshooting problems, and providing technical support for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/view-app-support-group.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,7 +26,7 @@ Role required: sn\_dex.user or ITIL
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Applications icon \(![The Applications icon.](../image/icon-applications.png)\).
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select the application name for which you want to view the support group.
 
@@ -34,5 +35,5 @@ Role required: sn\_dex.user or ITIL
     To edit a support group, change the support group and select **Save**.
 
 
-**Parent Topic:**[DEX application and device health](../concept/dex-appl-and-device-health.md)
+**Parent Topic:**[DEX application and device health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-appl-and-device-health.md)
 

@@ -2,11 +2,12 @@
 title: Add closure information to a security incident
 description: When a security incident is in the Review or Closed state, you can enter closure information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/add-closure-info-to-si.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Close security incidents, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -37,8 +38,8 @@ Role required: sn\_si.basic
 
 4.  Select any of the following tabs to further update the security incident:
 
-    -   [Incident Details](add_inc_details_to_si.md)
-    -   [Post Incident Review](../concept/c_PostIncidentReview.md)
+    -   [Incident Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/add_inc_details_to_si.md)
+    -   [Post Incident Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/c_PostIncidentReview.md)
 5.  Select **Submit**.
 
 

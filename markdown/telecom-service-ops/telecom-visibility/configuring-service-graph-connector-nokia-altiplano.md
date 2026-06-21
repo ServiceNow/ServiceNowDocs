@@ -2,6 +2,7 @@
 title: Configure Service Graph Connector for Nokia Altiplano
 description: This document explains how to configure the Service Graph Connector for Nokia Altiplano using Guided setup to integrate network resource data from the Nokia Altiplano Access Controller \(REST API\) into the ServiceNow CMDB. It includes steps for setup, authentication, and scheduling to confirm accurate integration of network data.This procedure is applicable for initial setup of the Nokia Altiplano.Add Second instance of a Nokia Altiplano and subsequent instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/configuring-service-graph-connector-nokia-altiplano.html
 release: yokohama
 product: Telecom Visibility
 classification: telecom-visibility
@@ -19,7 +20,7 @@ To use Service Graph Connector for Nokia Altiplano, you need a subscription to T
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Dependencies and requirements
 
@@ -28,7 +29,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 -   ITOM Discovery License plugin \(**com.snc.itom.discovery.license**\). You must activate this plugin.
 -   ITOM Licensing plugin \(**com.snc.itom.license**\).
 
-    For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US).
+    For more information, see .
 
 -   For development environment only - IntegrationHub ETL \(**sn\_int\_studio**\).
 -   Nokia Altiplano Platform \(access to its REST northbound API\).
@@ -37,9 +38,9 @@ Roles required: admin
 
 ## TSOM Visibility Installation Disclaimer
 
-See [TSOM Visibility Installation Disclaimer](tsom-visibility.md#section_wn4_2fk_b2c), for important information and requirements related to the installation process.
+See [TSOM Visibility Installation Disclaimer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/tsom-visibility.md), for important information and requirements related to the installation process.
 
-**Parent Topic:**[Telecom Discovery using Service Graph Connectors \(SGC\)](telecom-discovery-using-service-graph-connector.md)
+**Parent Topic:**[Telecom Discovery using Service Graph Connectors \(SGC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-service-graph-connector.md)
 
 ## Initial Setup procedure
 
@@ -49,9 +50,9 @@ This procedure is applicable for initial setup of the Nokia Altiplano.
 
 Role required: admin
 
-Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€™ by selecting the ![](../../../reuse/icons/product-icons/globe-outline-24.svg), searching for Nokia Altiplano, and selecting it.
+Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€™ by selecting the \[Omitted image "globe-outline-24.svg"\], searching for Nokia Altiplano, and selecting it.
 
-![application scope.](../images/telecom-initial-setup.png)
+\[Omitted image "telecom-initial-setup.png"\] Alt text: application scope.
 
 ### Procedure
 
@@ -65,7 +66,7 @@ Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€
 
     2.  If a MID Server has been configured, set all to **Mark as Complete**.
 
-        For more information on how to install and configure MID Server, see [Configuring MID Server](https://www.servicenow.com/docs/access?context=configure-mid-server&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+        For more information on how to install and configure MID Server, see .
 
 4.  Configure Connectivity:
 
@@ -77,7 +78,7 @@ Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€
         2.  In the Name filed, specify the allies name.
         3.  Leave the rest of the fields as default, select **Submit** and then **Mark as Complete**.
 
-            ![connections and credentials.](../images/telecom-configure-connectivity.png)
+            \[Omitted image "telecom-configure-connectivity.png"\] Alt text: connections and credentials.
 
         This enables using the connection by name rather than directly, enabling the collector to extract all active aliases from the CMDB and start performing data collection on the HTTP connection bound to it.
 
@@ -91,11 +92,11 @@ Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€
 
             **Note:**
 
-            Other authentication fields may be required depending on the authentication methods used in your Nokia Altiplano instance. By default, we use [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US) \(as part of the Guided setup\).
+            Other authentication fields may be required depending on the authentication methods used in your Nokia Altiplano instance. By default, we use  \(as part of the Guided setup\).
 
         4.  Leave the rest of the fields as default, select **Submit** and then **Mark as Complete**.
 
-        ![basic auth credentials.](../images/telecom-create-credentials.png)
+        \[Omitted image "telecom-create-credentials.png"\] Alt text: basic auth credentials.
 
     4.  Create HTTP Connection:
 
@@ -105,7 +106,7 @@ Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€
 
         3.  In the **Credentials** field, select the magnifying glass icon and select the credential defined in section 5.b
 
-        4.  In the **Connection alias** field, select the ![](../../../reuse/icons/product-icons/magnifying-glass-fill-24.svg) icon and select the Connection allies defined in section 5.a
+        4.  In the **Connection alias** field, select the \[Omitted image "magnifying-glass-fill-24.svg"\] icon and select the Connection allies defined in section 5.a
 
         5.  In the Connection URL field, specify the Nokia Altiplano URL.
 
@@ -113,7 +114,7 @@ Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€
 
         7.  Leave the rest of the fields as default, select **Submit** and then **Mark as Complete**.
 
-        ![http connection.](../images/telecom-create-http-connection.png)
+        \[Omitted image "telecom-create-http-connection.png"\] Alt text: http connection.
 
 5.  Configure Data Collection Schedule:
 
@@ -121,7 +122,7 @@ Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€
 
         1.  Select **Configure**.
         2.  In the **Name** filed, specify the scheduler name.
-        3.  In the **Data source** field, select the ![](../../../reuse/icons/product-icons/magnifying-glass-fill-24.svg) icon and select a data source for OLT discovery:
+        3.  In the **Data source** field, select the \[Omitted image "magnifying-glass-fill-24.svg"\] icon and select a data source for OLT discovery:
             -   **SG Altiplano OLT for All**- Select this option for all aliases \(instances\) of Nokia Altiplano.
             -   **SG Altiplano OLT \[ALIAS\_NAME\]**- Select this option for the specific alias of an Altiplano instance.
         4.  Check the **Active** check box to activate.
@@ -130,13 +131,13 @@ Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€
 
         5.  You can run it now by selecting the **Execute Now**.
         6.  Leave the rest of the fields as default, select **Update**, and then **Mark as Complete**.
-        ![scheduled data import.](../images/telecom-scheduled-data-import.png)
+        \[Omitted image "telecom-scheduled-data-import.png"\] Alt text: scheduled data import.
 
     2.  Schedule Data Collection for ONU:
 
         1.  Select **Configure**.
         2.  In the **Name** field, specify the scheduler name.
-        3.  In the **Data source** field, select the ![](../../../reuse/icons/product-icons/magnifying-glass-fill-24.svg) and select a data source for ONU discovery:
+        3.  In the **Data source** field, select the \[Omitted image "magnifying-glass-fill-24.svg"\] and select a data source for ONU discovery:
             -   **SG Altiplano ONU for All**- Select this option for all aliases \(instances\) of Nokia Altiplano.
             -   **SG Altiplano ONU \[ALIAS\_NAME\]**- Select this option for the specific alias of an Altiplano instance.
         4.  Check the **Active** check box to activate.
@@ -157,7 +158,7 @@ Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€
 
 9.  Wait for the test result State to be Complete with a Completion code of Success.
 
-    ![test result.](../images/test-connection.png)
+    \[Omitted image "test-connection.png"\] Alt text: test result.
 
 
 ## Multi-Instance setup
@@ -168,9 +169,9 @@ Add Second instance of a Nokia Altiplano and subsequent instances.
 
 Role required: admin
 
-Change the application scope to Service Graph Connector for Nokia Altiplano by selecting the ![](../../../reuse/icons/product-icons/globe-outline-24.svg) icon, searching for Nokia Altiplano, and selecting it.
+Change the application scope to Service Graph Connector for Nokia Altiplano by selecting the \[Omitted image "globe-outline-24.svg"\] icon, searching for Nokia Altiplano, and selecting it.
 
-![multi-instance.](../images/telecom-multi-instance.png)
+\[Omitted image "telecom-multi-instance.png"\] Alt text: multi-instance.
 
 ### Procedure
 
@@ -180,13 +181,13 @@ Change the application scope to Service Graph Connector for Nokia Altiplano by s
 
     Repeat all the steps under the Configured Connectivity section. It creates configuration entries for the new instance of Nokia Altiplano.
 
-    ![configure connectivity.](../images/telecom-connectivity.png)
+    \[Omitted image "telecom-connectivity.png"\] Alt text: configure connectivity.
 
 3.  Select **Create Connection Alias**.
 
 4.  Configure Create Connection Alias, Create Credentials, and Create HTTP Connection.
 
-    ![configure connectivity.](../images/telecom-create-connection-alias.png)
+    \[Omitted image "telecom-create-connection-alias.png"\] Alt text: configure connectivity.
 
     1.  Configure aliases for the connections and credentials:
 
@@ -195,7 +196,7 @@ Change the application scope to Service Graph Connector for Nokia Altiplano by s
         2.  In the **Name** filed, specify the allies name.
 
         3.  Leave the rest of the fields as default, select **Submit**, and then **Mark as Complete**.
-        ![connection and credential alias.](../images/telecom-connection-credential-alias.png)
+        \[Omitted image "telecom-connection-credential-alias.png"\] Alt text: connection and credential alias.
 
         This enables using the connection by name rather than directly, enabling the collector to extract all active aliases from the CMDB and start performing data collection on the HTTP connection bound to it.
 
@@ -216,9 +217,9 @@ Change the application scope to Service Graph Connector for Nokia Altiplano by s
 
         2.  In the **Name** filed, specify the HTTP connection name.
 
-        3.  In the **Credentials** field, select the ![](../../../reuse/icons/product-icons/magnifying-glass-fill-24.svg) icon and select the credential defined in section 5.b
+        3.  In the **Credentials** field, select the \[Omitted image "magnifying-glass-fill-24.svg"\] icon and select the credential defined in section 5.b
 
-        4.  In the **Connection alias** field, select the ![](../../../reuse/icons/product-icons/magnifying-glass-fill-24.svg) icon and select the Connection allies.
+        4.  In the **Connection alias** field, select the \[Omitted image "magnifying-glass-fill-24.svg"\] icon and select the Connection allies.
 
         5.  In the **Connection URL** field, specify the Nokia Altiplano URL.
 
@@ -226,7 +227,7 @@ Change the application scope to Service Graph Connector for Nokia Altiplano by s
 
         7.  Leave the rest of the fields as default, select **Submit** and then **Mark as Complete**.
 
-        ![create http connection.](../images/telecom-create-http-connection.png)
+        \[Omitted image "telecom-create-http-connection.png"\] Alt text: create http connection.
 
 5.  Test the connection by using the **Test Load 20 Records** related link.
 

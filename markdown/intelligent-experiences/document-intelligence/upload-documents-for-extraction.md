@@ -2,6 +2,7 @@
 title: Create a document task
 description: Create a document task and upload single or multi-page documents that are in JPEG, PNG, or PDF formats to start extracting text or classifying documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/document-intelligence/upload-documents-for-extraction.html
 release: yokohama
 product: Document Intelligence
 classification: document-intelligence
@@ -21,7 +22,7 @@ Role required: sn\_docintel.creation\_agent
 
 ## About this task
 
-These are the manual steps to create a document task. If you have integrations set up with other workflows, this task may be automated. See [Integrating Document Intelligence with other applications](../concept/integrating-docintel.md).
+These are the manual steps to create a document task. If you have integrations set up with other workflows, this task may be automated. See [Integrating Document Intelligence with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/integrating-docintel.md).
 
 ## Procedure
 
@@ -38,7 +39,7 @@ These are the manual steps to create a document task. If you have integrations s
 
 3.  Select the **Manage Attachments** icon and select the document you want to upload for processing.
 
-    ![Manage attachments button that opens the Attachments dialog box](../image/upload-documentsQ31.png)
+    \[Omitted image "upload-documentsQ31.png"\] Alt text: Manage attachments button that opens the Attachments dialog box
 
 4.  Select **Process Task**.
 
@@ -47,5 +48,5 @@ These are the manual steps to create a document task. If you have integrations s
 
 ## What to do next
 
-Find the document task in the document tasks list. After the **Is Processed** field changes to True, Document Intelligence has completed the analysis of the document. You can proceed to [complete the document task](extract-data-from-documents.md), which helps train the AI through your input or review of the extracted fields.
+Find the document task in the document tasks list. After the **Is Processed** field changes to True, Document Intelligence has completed the analysis of the document. You can proceed to [complete the document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/extract-data-from-documents.md), which helps train the AI through your input or review of the extracted fields.
 

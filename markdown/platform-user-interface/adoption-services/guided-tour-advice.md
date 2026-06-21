@@ -2,6 +2,7 @@
 title: Designing guided tours
 description: Use these tips to help you create effective guided tours for your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/guided-tour-advice.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
@@ -202,7 +203,7 @@ If the purpose of the tour is to introduce your users to the features of a page 
     -   **Change Element Value** trigger: After the user selects the value and clicks outside the field, the trigger moves to the next step.
 -   For some UI elements, you can use the **Right click the Element** trigger. Typically, the right-click action is used to open a menu, however, you cannot place a callout on a right-click menu option. You can use this trigger in a descriptive guided tour where you want to describe right-click menu options. Put the descriptive information into the callout text, and tell your users to right-click the element to look at the menu. Following is an example of this type of callout.
 
-    ![Example callout instructing the user to right-click to see field options](../image/guided-tour-callout-rightclick-london.png)
+    \[Omitted image "guided-tour-callout-rightclick-london.png"\] Alt text: Example callout instructing the user to right-click to see field options
 
     When the user right-clicks the element, in this case a field label, this instruction disappears, and the next one appears.
 
@@ -212,18 +213,18 @@ If the purpose of the tour is to introduce your users to the features of a page 
 
 You must place a callout on top of an element to interact with it. The element is highlighted in blue when it is selected as the target. In the following example, it looks like the callout is pointing to the context menu icon, but notice that the header bar is highlighted blue.
 
-![Wrong placement of the callout](../image/guided-tour-wrong-placement.png "Incorrect callout placement for the context menu")
+\[Omitted image "guided-tour-wrong-placement.png"\] Alt text: Wrong placement of the callout
 
 This example depicts the correct placement of the callout for the context menu. Notice that the context menu icon is highlighted blue.
 
-![Correct placement of the callout](../image/guided-tour-right-placement.png "Correct callout placement for the context menu")
+\[Omitted image "guided-tour-right-placement.png"\] Alt text: Correct placement of the callout
 
 The following tips may also be helpful:
 
 -   When you place a callout on a form that contains tabs, consider that a user may not have the tab open for viewing. Create a new callout that instructs the user to first open the tab before proceeding with the rest of the tour.
 -   Minimize callouts on fields that are associated with dynamic content. A delayed page refresh may prematurely end the tour if the user cannot find the associated tour element.
 -   When you guide a user through pop-up windows, add your callout to the originating page on or near the pop-up icon. Within the callout instructions, guide your user through the steps intended for the pop-up window, because callouts cannot be added to the pop-up window.
--   While the color of a callout is static in the standard platform UI, you can customize callouts on Service Portal. Consider using this capability to ensure a consistent look-and-feel between your callouts and your Service Portal pages. For more information on guided tours that you create on Service Portal pages, see [Request guided tours](../task/activate-guidedtours-service-portal.md).
+-   While the color of a callout is static in the standard platform UI, you can customize callouts on Service Portal. Consider using this capability to ensure a consistent look-and-feel between your callouts and your Service Portal pages. For more information on guided tours that you create on Service Portal pages, see [Request guided tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/activate-guidedtours-service-portal.md).
 
 ## Auto-launching your tour
 

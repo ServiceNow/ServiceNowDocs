@@ -2,6 +2,7 @@
 title: Spendint API - POST /sn\_spend\_intg/spendint/catalog
 description: Allows suppliers to post multiple catalogs for creating supplier products, model products, contracts, and pricing records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/spendint-POST-catalog.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -563,5 +564,5 @@ Possible responses:
 }
 ```
 
-**Parent Topic:**[Spendint API](../concept/spendint-api.md)
+**Parent Topic:**[Spendint API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api.md)
 

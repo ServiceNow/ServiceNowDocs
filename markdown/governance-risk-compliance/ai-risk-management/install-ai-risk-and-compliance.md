@@ -2,6 +2,7 @@
 title: Install AI Risk and Compliance
 description: You can install the AI Risk and Compliance application \(sn\_grc\_ai\_gov\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/install-ai-risk-and-compliance.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -32,7 +33,7 @@ The following items are installed with AI Risk and Compliance:
 -   Roles
 -   Tables
 
-For more information, see [AI Risk and Compliance reference](../reference/ai-risk-and-compliance-reference.md).
+For more information, see [AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md).
 
 ## Procedure
 

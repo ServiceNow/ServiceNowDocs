@@ -2,6 +2,7 @@
 title: Review and approve plan configuration changes
 description: Approvers receive approval tasks to track reviewing, approving, and rejecting changes to a plan configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-dsgnr-approval-requests.html
 release: yokohama
 product: Journey Designer
 classification: journey-designer
@@ -50,15 +51,15 @@ Role required: assigned as approver for a plan configuration
 
 3.  Review the changes.
 
-<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d591003e120">
+<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d542964e120">
 
 Options
 
-</th><th align="left" id="d591003e123">
+</th><th align="left" id="d542964e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d591003e129">
+</th></tr></thead><tbody><tr><td id="d542964e129">
 
 **Approve or Reject changes**
 
@@ -68,7 +69,7 @@ Description
 -   **Reject**:
 
 
-</td></tr><tr><td id="d591003e151">
+</td></tr><tr><td id="d542964e151">
 
 **View comment added by the owner**
 
@@ -90,5 +91,5 @@ Description
     The right pane includes the details of the approval. You can **Reject** or **Approve** the changes.
 
 
-**Parent Topic:**[Journey designer plan configuration approvers](../concept/jny-dsgnr-config-plan-approvers.md)
+**Parent Topic:**[Journey designer plan configuration approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-config-plan-approvers.md)
 

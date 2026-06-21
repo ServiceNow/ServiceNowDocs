@@ -2,6 +2,7 @@
 title: Create activity configuration details for the Journey Accelerator action plan items activity
 description: Complete the configuration process for the Journey Accelerator activity that you created by specifying activity configuration details. The activity configuration details enable administrators to control the actions of links associated with applications and features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-accelerator/create-ja-activity-config.html
 release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
@@ -17,7 +18,7 @@ Complete the configuration process for the Journey Accelerator activity that you
 
 ## Before you begin
 
-Ensure that the application scope is set to Employee Center. Use the application picker to change the application scope if it isn’t currently set to Employee Center. See [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US) for more information about using the application scope picker.
+Ensure that the application scope is set to Employee Center. Use the application picker to change the application scope if it isn’t currently set to Employee Center. See Application picker for more information about using the application scope picker.
 
 Role required: admin
 
@@ -25,8 +26,8 @@ Role required: admin
 
 An activity configuration is associated with an application that you specify using the application picker. The fields that appear in an Activity Configuration or Activity Configuration Detail form depend on the application scope that you set using the application picker. See the following topics for more information about the forms associated with the Activity Configurations table:
 
--   [Activity Configuration form](../../employee-center/reference/ec-activity-configuration-form.md)
--   [Activity Configuration Detail form](../../employee-center/reference/activity-configuration-detail-form.md)
+-   [Activity Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-activity-configuration-form.md)
+-   [Activity Configuration Detail form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/activity-configuration-detail-form.md)
 
 This task starts with the application scope set to the Employee Center application, and ends with creating conditional filters that are applied to the Journey Accelerator application.
 
@@ -38,7 +39,7 @@ This task starts with the application scope set to the Employee Center applicati
 
 2.  Select the activity configuration that you created for the Journey Accelerator action plan items.
 
-    **Tip:** If you used the task described in the [Add a Journey Accelerator action plan link to the My active items widget](add-ja-action-plan-myitems-list.md) topic to create the activity configuration, select the Activity Configuration record with the **Activity Name** field set to **Action plan items**.
+    **Tip:** If you used the task described in the [Add a Journey Accelerator action plan link to the My active items widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md) topic to create the activity configuration, select the Activity Configuration record with the **Activity Name** field set to **Action plan items**.
 
     The Activity Configuration form appears.
 

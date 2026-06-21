@@ -2,6 +2,7 @@
 title: Define a product in Release Management
 description: Define a product in the Release Management application to facilitate managing a release process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/release-management/define-a-product.html
 release: yokohama
 product: Release Management
 classification: release-management
@@ -40,5 +41,5 @@ Role required: release\_v2\_admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Using Release Management v2](../concept/c_Release.md)
+**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/c_Release.md)
 

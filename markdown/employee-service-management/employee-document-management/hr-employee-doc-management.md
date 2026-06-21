@@ -2,6 +2,7 @@
 title: Employee Document Management
 description: Manage large numbers of documents more efficiently with the ServiceNow Employee Document Management product. Employee Document Management provides storage space, a filing system, the ability to easily retrieve documents, defining who can view sensitive documents, and when to purge documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-document-management/hr-employee-doc-management.html
 release: yokohama
 product: Employee Document Management
 classification: employee-document-management
@@ -19,23 +20,23 @@ Your company asks employees to complete and return documents related to benefits
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Learn about how Employee Document Management works](../../../common/image/icon-explore.png) Learn about how Employee Document Management works](exploring-employee-document-management.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how Employee Document Management works Learn about how Employee Document Management works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/exploring-employee-document-management.md)
 
 </td><td>
 
-[Configure ![Plan and configure your implementation](../../../common/image/icon-set-up.png) Plan and configure your implementation](configuring-employee-document-management.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Plan and configure your implementation Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/configuring-employee-document-management.md)
 
 </td><td>
 
-[Use ![Learn how to manage employee documents](../../../common/image/icon-workspace.png) Learn how to manage employee documents](using-employee-document-management.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Learn how to manage employee documents Learn how to manage employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/using-employee-document-management.md)
 
 </td></tr><tr><td>
 
-[Dashboard ![View statistics of your employee documents](../image/icon-report.png) View statistics of your employee documents](edm-dashboard.md#)
+[Dashboard \[Omitted image "icon-report.png"\] Alt text: View statistics of your employee documents View statistics of your employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/edm-dashboard.md)
 
 </td><td>
 
-[Reference ![More information on other properties of Employee Document Management](../../../common/image/icon-reference.png) More information on other properties of Employee Document Management](reference-employee-document-management.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: More information on other properties of Employee Document Management More information on other properties of Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/reference-employee-document-management.md)
 
 </td><td>
 

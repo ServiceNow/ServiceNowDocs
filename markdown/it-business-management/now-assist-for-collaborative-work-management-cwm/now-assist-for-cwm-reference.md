@@ -2,6 +2,7 @@
 title: Now Assist for Collaborative Work Management \(CWM\) reference
 description: Reference topics provide details on the roles installed with Now Assist for CWM.The CWM AI user role \(sn\_cwm\_ai.cwm\_ai\_user\) enables users to use the generative AI skills that are available with the Now Assist for CWM application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-reference.html
 release: yokohama
 product: Now Assist for Collaborative Work Management \(CWM\)
 classification: now-assist-for-collaborative-work-management-cwm

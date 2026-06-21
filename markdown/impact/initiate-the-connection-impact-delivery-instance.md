@@ -2,9 +2,12 @@
 title: Initiate the connection to the Impact Delivery Instance
 description: Connect between your Impact Store Application with the Impact Delivery Instance to exchange data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/initiate-the-connection-impact-delivery-instance.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Impact Store Application, Impact Store Application, Impact]
 ---
@@ -25,7 +28,7 @@ Role required: An Impact role
 
 ## Procedure
 
-1.  [Install the Impact Store Application from the ServiceNow Store](install-impact-innovation-lab.md).
+1.  [Install the Impact Store Application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/install-impact-innovation-lab.md).
 
 2.  Log in to the Impact Delivery Instance to initiate the Impact Store Application instance registration.
 
@@ -87,5 +90,5 @@ Contact \(administrator who receives the email to complete setup\)
 
 ## What to do next
 
-The named contact administrator will [Connect to the provider instance](../task/connect-instance-impact-store-app.md).
+The named contact administrator will [Connect to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/connect-instance-impact-store-app.md).
 

@@ -2,6 +2,7 @@
 title: Coaching overview
 description: After you enable Coaching, you can set up roles and groups, define coaching opportunities, create training material, and start assessing and coaching employees. The Coach and Trainee dashboards provide useful overviews to manage and measure results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/coaching/coaching-overview.html
 release: yokohama
 product: Coaching
 classification: coaching
@@ -15,16 +16,16 @@ breadcrumb: [Coaching, IT Service Management]
 
 After you enable Coaching, you can set up roles and groups, define coaching opportunities, create training material, and start assessing and coaching employees. The Coach and Trainee dashboards provide useful overviews to manage and measure results.
 
-**Note:** For detailed information on how to get started with Coaching, see [Coaching](coaching-landing.md) and the [Coaching demo](https://www.servicenow.com/community/itsm-blog/servicenow-coaching-module-demo/ba-p/2332545).
+**Note:** For detailed information on how to get started with Coaching, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-landing.md) and the [Coaching demo](https://www.servicenow.com/community/itsm-blog/servicenow-coaching-module-demo/ba-p/2332545).
 
 ## Initial Coaching setup
 
 Once you have enabled Coaching, set up the application by assigning user roles, configuring coaching opportunities and creating training content.
 
-1.  Set up Coaching [roles](../reference/coaching-roles.md) and groups
-2.  [Define trigger conditions for a coaching opportunity](../task/create-coaching-opportunity.md)
-3.  [Identify learning content and a virtual coach](../task/identify-learning-content.md)
-4.  Set up [surveys](setting-up-coaching.md)
+1.  Set up Coaching [roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-roles.md) and groups
+2.  [Define trigger conditions for a coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/create-coaching-opportunity.md)
+3.  [Identify learning content and a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/identify-learning-content.md)
+4.  Set up [surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/setting-up-coaching.md)
 
 ## Workflow of Coaching roles
 
@@ -38,8 +39,8 @@ A manager, or coach, with the Coaching coach role is a subject matter expert of 
 
 Use Coaching dashboards to manage and measure results in a simplified view.
 
--   [Coaching Dashboard](coaching-your-trainee.md)
--   [Trainee Dashboard](getting-coached.md)
+-   [Coaching Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-your-trainee.md)
+-   [Trainee Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/getting-coached.md)
 
 ## Identifying coaching opportunities
 
@@ -83,23 +84,23 @@ You can define activities that occur when trainees work through an ITSM process,
 
 Coaching opportunities, coaching assessments, and assigned training in Coaching are integrated with these applications.
 
--   [Continual Improvement Management](../../continual-improvement-management/concept/cim-landing-page.md)
+-   [Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-landing-page.md)
 
     One example of a coaching opportunity with CIM would be to use improvement initiatives to set up external training tasks.
 
     **Note:** The Continual Improvement Management \(com.sn\_cim\) plugin must be active to create an improvement initiative. Continual Improvement Management requires a separate subscription and must be activated by ServiceNow personnel.
 
--   [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+-   Skills Management
 
     In a coaching assessment, you can assess trainee skills to identify gaps so the trainee can be coached to acquire new skills or to enhance their existing skill level.
 
--   [Knowledge management](https://www.servicenow.com/docs/access?context=create-knowledge-article&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+-   Knowledge management
 
     You can assign knowledge articles as assigned training.
 
 
--   **[Domain separation and Coaching](domain-separation-coaching.md)**  
+-   **[Domain separation and Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/domain-separation-coaching.md)**  
 Domain separation is supported in Coaching. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Coaching](coaching-landing.md)
+**Parent Topic:**[Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-landing.md)
 

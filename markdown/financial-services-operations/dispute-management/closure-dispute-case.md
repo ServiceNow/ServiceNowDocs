@@ -2,6 +2,7 @@
 title: Close a card dispute
 description: After you have completed all tasks in a card dispute case, you can add final details and close the case in the Closure playbook stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/closure-dispute-case.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +24,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../../common/image/icon-list.png)\).
+2.  Select the lists icon \(\[Omitted image "icon-list.png"\] Alt text: Lists icon.\).
 
 3.  On the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -45,5 +46,5 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
     |**__Close__**|The Resolution code and Resolution notes are saved to the case, and the case state updates to **Closed Complete**.|
 
 
-**Parent Topic:**[Managing dispute service requests](../concept/managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)
 

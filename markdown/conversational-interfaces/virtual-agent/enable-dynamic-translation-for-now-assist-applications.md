@@ -2,6 +2,7 @@
 title: Configure multilingual service for Now Assist applications
 description: Turn on multilingual service for user-entered text with native translation or Dynamic Translation in Now Assist applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +21,7 @@ Turn on multilingual service for user-entered text with native translation or Dy
 
 To see a list of all available languages supported in Now Assist, see Multilingual service for Now Assist.
 
-To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see [Activate Dynamic Translation](https://www.servicenow.com/docs/access?context=activate-dynamic-translation&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) and [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see Activate Dynamic Translation and Activate a language.
 
 **Note:** Dynamic Translation is not supported in regulated markets.
 
@@ -30,7 +31,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-There are two translation services available to translate user-generated content in Now Assist applications. For more information on the differences between the two, see [Multilingual service for Now Assist](https://www.servicenow.com/docs/access?context=translation-for-now-assist&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US). In that documentation, you can also find the steps for adding another language to your service if it is not preconfigured.
+There are two translation services available to translate user-generated content in Now Assist applications. For more information on the differences between the two, see Multilingual service for Now Assist. In that documentation, you can also find the steps for adding another language to your service if it is not preconfigured.
 
 After you have enabled either Dynamic Translation or native translation, translations will be available for in-product experiences, Virtual Agent, and the Now Assist panel.
 
@@ -63,5 +64,5 @@ After you have enabled either Dynamic Translation or native translation, transla
 
 Multilingual service is enabled for Now Assist applications.
 
-**Parent Topic:**[Localization options for Virtual Agent](../../virtual-agent/concept/multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

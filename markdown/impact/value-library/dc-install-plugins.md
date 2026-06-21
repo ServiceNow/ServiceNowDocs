@@ -2,6 +2,7 @@
 title: Install Data Collection Content Pack dependent plugins
 description: Install the dependent plugins for Data Collection Content Pack apps
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-install-plugins.html
 release: yokohama
 product: Value Library
 classification: value-library
@@ -34,15 +35,15 @@ Role required: admin
 
     The following dependent plugins must be installed to support the functionality of Data Collection apps:
 
-<table id="choicetable_jpr_lyl_k2c"><thead><tr><th align="left" id="d46238e108">
+<table id="choicetable_jpr_lyl_k2c"><thead><tr><th align="left" id="d29212e108">
 
 Data Collection Content Pack
 
-</th><th align="left" id="d46238e111">
+</th><th align="left" id="d29212e111">
 
 Dependent plugins
 
-</th></tr></thead><tbody><tr><td id="d46238e117">
+</th></tr></thead><tbody><tr><td id="d29212e117">
 
 **IT Operations Management \(ITOM\)**
 
@@ -50,7 +51,7 @@ Dependent plugins
 
 Event Management Core \(sn\_em\_ai\)
 
-</td></tr><tr><td id="d46238e126">
+</td></tr><tr><td id="d29212e126">
 
 **HR Service Delivery \(HRSD\)
 
@@ -60,7 +61,7 @@ Event Management Core \(sn\_em\_ai\)
 
 Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 
-</td></tr><tr><td id="d46238e138">
+</td></tr><tr><td id="d29212e138">
 
 **Strategic Portfolio Management \(SPM\)
 
@@ -72,7 +73,7 @@ Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 -   Goal Framework \(sn\_gf\)
 
 
-</td></tr><tr><td id="d46238e159">
+</td></tr><tr><td id="d29212e159">
 
 **Application Portfolio Management \(APM\)**
 
@@ -80,7 +81,7 @@ Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 
 Enterprise Architecture \(com.snc.apm\)
 
-</td></tr><tr><td id="d46238e169">
+</td></tr><tr><td id="d29212e169">
 
 **App Engine**
 
@@ -88,7 +89,7 @@ Enterprise Architecture \(com.snc.apm\)
 
 App Engine Studio \(sn\_app\_eng\_studio\)
 
-</td></tr><tr><td id="d46238e178">
+</td></tr><tr><td id="d29212e178">
 
 **Customer Service \(CSM\)**
 
@@ -96,7 +97,7 @@ App Engine Studio \(sn\_app\_eng\_studio\)
 
 Customer Service Management\(com.sn\_customerservice\)
 
-</td></tr><tr><td id="d46238e187">
+</td></tr><tr><td id="d29212e187">
 
 **Security Operations \(SecOps\)
 
@@ -110,7 +111,7 @@ Customer Service Management\(com.sn\_customerservice\)
 -   Vulnerability Response \(sn\_vul\)
 
 
-</td></tr><tr><td id="d46238e214">
+</td></tr><tr><td id="d29212e214">
 
 **Hardware Asset Management \(HAM\)**
 
@@ -118,7 +119,7 @@ Customer Service Management\(com.sn\_customerservice\)
 
 Hardware Asset Management \(sn\_hamp\)
 
-</td></tr><tr><td id="d46238e223">
+</td></tr><tr><td id="d29212e223">
 
 **Software Asset Management \(SAM\)
 
@@ -130,7 +131,7 @@ Hardware Asset Management \(sn\_hamp\)
 -   SaaS License Management plugin \(com.sn\_sam\_saas\_int\)
 
 
-</td></tr><tr><td id="d46238e244">
+</td></tr><tr><td id="d29212e244">
 
 **Integrated Risk Management \(IRM\)
 

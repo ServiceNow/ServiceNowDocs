@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP new model field descriptions
 description: The new model form in Zero Copy Connector for ERP contains details for the ERP \(Enterprise Resource Planning\) model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-new-model-descriptions.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,7 +16,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector
 
 The new model form in Zero Copy Connector for ERP contains details for the ERP \(Enterprise Resource Planning\) model.
 
-For process details, see [Add a new ERP model](../task/erpc-add-new-data-model.md).
+For process details, see [Add a new ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-new-data-model.md).
 
 <table id="table_vvj_5fy_v2c"><thead><tr><th>
 
@@ -49,7 +50,7 @@ ERP System
 
 </td><td>
 
-ERP system the ERP model connects to.The connected ERP system enables access to information about field and tables and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in Zero Copy Connector for ERP](../task/create-an-erp-system.md) and [View a list of Zero Copy Connector for ERP systems](../task/view-and-monitor-erp-systems-health.md).
+ERP system the ERP model connects to.The connected ERP system enables access to information about field and tables and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md) and [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-and-monitor-erp-systems-health.md).
 
 </td></tr><tr><td>
 
@@ -84,5 +85,5 @@ ERP softwares
 Supportability of the model. This field is mandatory because it determines which models can be used with a system. When you create or update a model and specify an ERP system, the software linked to that system is automatically added to this field. You can select additional options from the list. The list contains SAP major versions and does not include patch versions. When a model is exported, the ERP software information specified here is included.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

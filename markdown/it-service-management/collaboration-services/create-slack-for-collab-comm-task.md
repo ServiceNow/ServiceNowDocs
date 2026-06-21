@@ -2,6 +2,7 @@
 title: Create a Slack channel for a collaborative communication task
 description: Create a Slack channel for a collaborative communication task to collaborate and discuss the communication task details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/collaboration-services/create-slack-for-collab-comm-task.html
 release: yokohama
 product: Collaboration Services
 classification: collaboration-services
@@ -38,7 +39,7 @@ Role required: major\_incident\_manager
     |Fields|Description|
     |------|-----------|
     |Add participants|Individual users or groups whom you want as participants to the channel.|
-    |Recommended and Selected|Columns to personalize your list. Select the items in the **Recommended** column and move them to the **Selected** column using the right-arrow icon \(![Right-arrow icon.](../image/right-arrow-icon.png)\).|
+    |Recommended and Selected|Columns to personalize your list. Select the items in the **Recommended** column and move them to the **Selected** column using the right-arrow icon \(\[Omitted image "right-arrow-icon.png"\] Alt text: Right-arrow icon.\).|
     |Channel name|Unique name for the channel that differentiates it from the rest of the channels in Slack.|
     |Channel topic|Description about the purpose of the channel.|
     |Include a brief message for participants|Brief message that you want to send to the participants.|
@@ -52,6 +53,6 @@ Role required: major\_incident\_manager
 
 9.  To import messages, click **Import messages**.
 
-    For more information on how to import messages, see [import-messages-from-incident](import-messages-from-incident.md).
+    For more information on how to import messages, see [import-messages-from-incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/collaboration-services/import-messages-from-incident.md).
 
 

@@ -2,11 +2,12 @@
 title: Set up the Workday Learning spoke
 description: Integrate the ServiceNow instance Workday instance by using the OAuth 2.0 to authenticate ServiceNow requests.Configure your ServiceNow instance to perform actions that use the Workday SOAP web services.Configure the default connection and credential record by providing the required details to authenticate requests.Set up the required Workday reports in your ServiceNow instance.Update the timezone of the Workday tenant in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/wd-learning-setup.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 4
 breadcrumb: [Workday Learning Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
@@ -145,7 +146,7 @@ Role required: admin
 
 7.  Click **Allow**.
 
-    ![Authorize Workday.](../image/wd-learning-enable.png)
+    \[Omitted image "wd-learning-enable.png"\] Alt text: Authorize Workday.
 
 
 ## Configure the Workday reports

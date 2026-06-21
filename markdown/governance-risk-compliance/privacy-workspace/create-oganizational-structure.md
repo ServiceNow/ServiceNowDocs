@@ -2,6 +2,7 @@
 title: Create an entity configurations
 description: Create an organizational structure by configuring entity-based access for different levels such as headquarters, regional offices, and subsidiaries, and define access rules for users and groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/create-oganizational-structure.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -115,5 +116,5 @@ Option to set the configuration to active to enforce the access rules.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Access control through organizational structure](../access-control-by-legal-entity.md)
+**Parent Topic:**[Access control through organizational structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.md)
 

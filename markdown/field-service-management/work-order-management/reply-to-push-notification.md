@@ -2,6 +2,7 @@
 title: View and reply to task comments from push notifications
 description: As a Field Service agent, you can view and reply to the comments given by customers in work order tasks using push notification actions without opening the ServiceNow Agent mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/reply-to-push-notification.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -36,5 +37,5 @@ Role required: wm\_agent
     4.  Click **Send**.
 
 
-**Parent Topic:**[Push notifications on Mobile Agent](../concept/actionable-push-notifications.md)
+**Parent Topic:**[Push notifications on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/actionable-push-notifications.md)
 

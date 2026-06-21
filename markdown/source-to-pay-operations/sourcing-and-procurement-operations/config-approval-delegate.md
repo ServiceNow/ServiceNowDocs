@@ -2,6 +2,7 @@
 title: Configure approval rule for a delegate
 description: Configure an approval rule for a delegate to ensure that the business owner has better visibility into the request before approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/config-approval-delegate.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -118,10 +119,10 @@ Approval trigger conditions
 Conditions based on the approving object that determine the conditions under which an approval plan is created.See the following image to understand the approval trigger conditions you need to configure.
 
 </td></tr></tbody>
-</table>    ![Approval Rule form for creating a approval rule for a delegate.](../image/config-approval-delegate.png)
+</table>    \[Omitted image "config-approval-delegate.png"\] Alt text: Approval Rule form for creating a approval rule for a delegate.
 
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Configure delegate for a shopper](configure-delegate-for-a-shopper.md)
+**Parent Topic:**[Configure delegate for a shopper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-delegate-for-a-shopper.md)
 

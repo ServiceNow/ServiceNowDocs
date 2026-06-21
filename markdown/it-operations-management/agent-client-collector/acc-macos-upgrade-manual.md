@@ -1,7 +1,8 @@
 ---
-title: Upgrade Agent Client Collector manually on macOS system
+title: Upgrade Agent Client Collector manually on a macOS system
 description: Perform a manual upgrade of your existing Agent Client Collector version on a system running a macOS. Manual upgrade is useful if the single-line command script isn’t connected to the instance or you want to use enhanced customization options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-macos-upgrade-manual.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -11,13 +12,14 @@ reading_time_minutes: 1
 breadcrumb: [Agent Client Collector installation on macOS system, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
-# Upgrade Agent Client Collector manually on macOS system
+# Upgrade Agent Client Collector manually on a macOS system
 
 Perform a manual upgrade of your existing Agent Client Collector version on a system running a macOS. Manual upgrade is useful if the single-line command script isn’t connected to the instance or you want to use enhanced customization options.
 
 ## Before you begin
 
 -   The upgrade procedure is the same for both MID Server and MID-less deployments.
+-   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/Library/Preferences/acc.rc.plist`.
 -   Role required: agent\_client\_collector\_admin
 
 ## Procedure
@@ -26,8 +28,11 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
 
     ```
     mkdir -p /tmp/acc-upgrade-backup
+    
     cp -rp /Library/Application\ Support/servicenow/agent-client-collector/acc.yml /tmp/acc-upgrade-backup
+    
     cp -rp /Library/Application\ Support/servicenow/agent-client-collector/check-allow-list.json /tmp/acc-upgrade-backup
+    
     cp -rp /Library/Application\ Support/servicenow/agent-client-collector/agent_now_id /tmp/acc-upgrade-backup
     
     ```
@@ -62,5 +67,5 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
         -   **Host data collection** = Collected
         -   **Version** = &lt;Relevant version number&gt;
 
-**Parent Topic:**[Agent Client Collector installation on macOS system](../concept/acc-install-mac-os.md)
+**Parent Topic:**[Agent Client Collector installation on macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-mac-os.md)
 

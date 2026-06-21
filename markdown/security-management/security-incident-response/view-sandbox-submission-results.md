@@ -2,6 +2,7 @@
 title: Monitor the submission results in the sandbox
 description: Results for all Sandbox submissions are shown in the Sandbox Submission Results tab for every security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/view-sandbox-submission-results.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: sn\_si.analyst
 
 1.  Open the security incident that you are working with and verify that the sandbox submission is successful.
 
-    ![Review the activities section for successful sandbox submissions.](../../../security-incident-response/image/work-notes.png)
+    \[Omitted image "work-notes.png"\] Alt text: Review the activities section for successful sandbox submissions.
 
 2.  Review the Work notes for more information and learn how to proceed if you can't verify that the scan is successful.
 
@@ -33,7 +34,7 @@ Role required: sn\_si.analyst
 
 4.  Click open any record to view the complete sandbox analysis.
 
-    ![Review the sandbox submission results.](../image/sandbox-submission-results-new.png)
+    \[Omitted image "sandbox-submission-results-new.png"\] Alt text: Review the sandbox submission results.
 
 5.  Click **Resubmit to Sandbox** to reprocess the observable.
 

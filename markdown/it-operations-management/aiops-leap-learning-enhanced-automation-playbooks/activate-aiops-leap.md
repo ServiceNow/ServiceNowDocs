@@ -2,6 +2,7 @@
 title: Activate AIOps LEAP
 description: Activate the AIOps LEAP skill after installing the application to assemble and categorize incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -23,15 +24,15 @@ Role required: System admin or AIOps LEAP admin
 
 1.  Activate **AIOps LEAP** with one of the following options.
 
-<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d180108e88">
+<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d174809e88">
 
 Options
 
-</th><th align="left" id="d180108e93">
+</th><th align="left" id="d174809e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d180108e100">
+</th></tr></thead><tbody><tr><td id="d174809e100">
 
 **Workspaces**
 
@@ -42,7 +43,7 @@ Steps
 3.  On the LEAP installer card, select **Activate skill**.
 
 
-</td></tr><tr><td id="d180108e142">
+</td></tr><tr><td id="d174809e142">
 
 **Now Assist Admin**
 
@@ -56,7 +57,7 @@ Steps
 </td></tr></tbody>
 </table>2.  In the LEAP installer input section of LEAP installer,enter the details for AIOps LEAP to run scans on existing records, and select **Save and continue**.
 
-    For details on installer fields, see [LEAP Installer fields](../reference/aiops-leap-installation-fields.md)
+    For details on installer fields, see [LEAP Installer fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-installation-fields.md)
 
 3.  In the Select display section of LEAP installer, select the required display and select **Save and continue**.
 

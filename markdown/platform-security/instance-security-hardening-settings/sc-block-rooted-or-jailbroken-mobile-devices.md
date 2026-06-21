@@ -2,6 +2,7 @@
 title: Block rooted or jailbroken mobile devices
 description: Secure your instance by preventing unauthorized access from jailbroken devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-block-rooted-or-jailbroken-mobile-devices.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Malicious code](sc-malicious-code.md)
+[Malicious code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-malicious-code.md)
 
 </td></tr><tr><td>
 
@@ -99,8 +100,8 @@ References
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Malicious code](sc-malicious-code.md)
+</table>**Parent Topic:**[Malicious code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-malicious-code.md)
 

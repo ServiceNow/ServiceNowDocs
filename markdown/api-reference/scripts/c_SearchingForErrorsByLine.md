@@ -2,6 +2,7 @@
 title: Searching for errors by line
 description: To locate the exact position of the error in a large script, click the Go to line icon.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/c\_SearchingForErrorsByLine.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -19,10 +20,10 @@ This feature is particularly useful when you are encounter a syntax error in a l
 
 **Note:** For this feature to function, you must disable the Syntax Editor.
 
-![](../image/GoToLine.png "Go to script error")
+\[Omitted image "GoToLine.png"\] Alt text:
 
--   **[Navigate to a line number](../../general-scripting/task/t_NavigateToALineNumber.md)**  
-When the syntax editor is disabled, users can navigate to a specific line in the code using the Go to line icon \(![The go to line icon](../../general-scripting/image/GoToLineIcon.png)\).
+-   **[Navigate to a line number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/t_NavigateToALineNumber.md)**  
+When the syntax editor is disabled, users can navigate to a specific line in the code using the Go to line icon \(\[Omitted image "GoToLineIcon.png"\] Alt text: The go to line icon\).
 
-**Parent Topic:**[JavaScript syntax editor](../../general-scripting/concept/c_SyntaxEditor.md)
+**Parent Topic:**[JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_SyntaxEditor.md)
 

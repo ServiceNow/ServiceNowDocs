@@ -2,6 +2,7 @@
 title: Apply a custom theme to roadmap
 description: Apply your custom theme to ensure roadmap bar colors align with your organization’s style.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/apply-custom-theme-for-roadmap-ppw.html
 release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning

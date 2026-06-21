@@ -2,6 +2,7 @@
 title: Workforce Optimization for HR Overview
 description: Workforce Optimization for HR simplifies the daily routine of HR Agent Managers to develop high-performing teams by optimizing schedules and work assignments, respond to ad hoc changes in real time, manage time-off requests and providing the skills they need to succeed—all in one workspace.Manage and maintain the productivity of your workforce from a single application using Workforce Optimization for HR. With this application, you can efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workforce-optimization-for-hr/wfo-hr-overview.html
 release: yokohama
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -51,19 +52,19 @@ Workforce Optimization for HR WFO enables you to do these tasks:
 
 <table id="table_nlp_srv_zqb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about how managers use Workforce Optimization for HR.](explore-wfo-hr.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about how managers use Workforce Optimization for HR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workforce-optimization-for-hr/explore-wfo-hr.md)
 
 </td><td>
 
-[Configure ![Configure](../../../common/image/icon-set-up.png) Plan and configure your implementation.](configure-wfo-hr.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
 
 </td><td>
 
-[Use ![Use](../../../common/image/icon-workspace.png) Schedule, coach and train your agents.](use-wfo-hr.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use Schedule, coach and train your agents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.md)
 
 </td></tr><tr><td>
 
-[Reference ![Reference](../../../common/image/icon-reference.png) Learn about the components and roles installed with Workforce Optimization for HR.](../reference/wfo-hr-reference.md#)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Learn about the components and roles installed with Workforce Optimization for HR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workforce-optimization-for-hr/wfo-hr-reference.md)
 
 </td><td>
 

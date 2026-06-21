@@ -2,6 +2,7 @@
 title: ERP-CM candidate scan results field descriptions
 description: On a candidate record in ERP Semantic Mining \(ERP-CM\) the ERP scan results tab displays information about the latest scan of the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-candidate-scan-results-descriptions.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -15,7 +16,7 @@ breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Seman
 
 On a candidate record in ERP Semantic Mining \(ERP-CM\) the **ERP scan results** tab displays information about the latest scan of the ERP \(Enterprise Resource Planning\) system.
 
-For process details, see [View and work with candidate details in ERP-CM](../task/erpcm-view-work-with-candidate-details.md).
+For process details, see [View and work with candidate details in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-view-work-with-candidate-details.md).
 
 <table id="table_oh5_w2p_jyb"><thead><tr><th>
 
@@ -82,5 +83,5 @@ Updated
 Date and time the table was most recently scanned.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

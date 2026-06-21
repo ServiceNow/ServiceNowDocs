@@ -2,6 +2,7 @@
 title: View work order and appointment details as a customer
 description: View a list of appointments for the current user on the Customer or the Consumer Service Portal and select an appointment to view the work order details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking/appointment-booking-view-details.html
 release: yokohama
 product: Appointment Booking
 classification: appointment-booking
@@ -32,5 +33,5 @@ Role required: appointment\_booking\_user
     If necessary, use the **Appointment** field to reschedule or cancel the appointment.
 
 
-**Parent Topic:**[Manage appointments as a customer](../concept/manage-appts-as-a-customer.md)
+**Parent Topic:**[Manage appointments as a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/manage-appts-as-a-customer.md)
 

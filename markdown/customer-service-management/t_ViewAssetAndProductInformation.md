@@ -2,7 +2,10 @@
 title: View asset information from the Customer Service Portal
 description: View a list of assets for the current user's account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_ViewAssetAndProductInformation.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 2.  Click one of the following to view more information.
 
-<table id="choicetable_jwd_kgq_ft"><tbody><tr><td id="d70887e87">
+<table id="choicetable_jwd_kgq_ft"><tbody><tr><td id="d72386e87">
 
 **__Display name__**
 
@@ -33,7 +36,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 Displays the asset information.
 
-</td></tr><tr><td id="d70887e99">
+</td></tr><tr><td id="d72386e99">
 
 **__Account__**
 
@@ -41,7 +44,7 @@ Displays the asset information.
 
 Displays the account information.
 
-</td></tr><tr><td id="d70887e111">
+</td></tr><tr><td id="d72386e111">
 
 **__Model category__**
 

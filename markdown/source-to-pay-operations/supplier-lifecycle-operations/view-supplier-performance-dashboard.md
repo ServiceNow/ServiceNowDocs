@@ -2,6 +2,7 @@
 title: View supplier performance dashboard
 description: You can view the overall supplier score, risk score, individual KPI scores, and performance domain-specific scores in the supplier performance dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-performance-dashboard.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -33,12 +34,12 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 
     All the KPIs are grouped by the performance domain set in the KPI template that they were created from.
 
-    ![Supplier performance dashboard](../image/kpi-dashboard.png "Performance tab")
+    \[Omitted image "kpi-dashboard.png"\] Alt text: Supplier performance dashboard
 
 
 ## Result
 
 The supplier performance dashboard is displayed with information on the latest scores of the supplier.
 
-**Parent Topic:**[Using Supplier Relationship and Performance Management](../concept/using-supplier-relationship-and-performance-management.md)
+**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 

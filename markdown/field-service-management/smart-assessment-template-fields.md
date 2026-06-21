@@ -2,7 +2,10 @@
 title: Smart Assessment template fields
 description: Learn about fields in the Create assessment form to create Smart Assessment templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/smart-assessment-template-fields.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-02-14"
 reading_time_minutes: 1
@@ -47,11 +50,14 @@ Purpose of the template.
 
 </td></tr><tr><td>
 
-Template category
+Purpose
 
 </td><td>
 
 Category for the assessment template. This value should be **Field Service**.
+
+-   The **Purpose** field in the **Create assessment template** form corresponds to **Template category** in Smart Assessment Engine.
+-   **Field Service** is the only **Purpose** available in Field Service Management for Smart Assessment. However, you can create and customize additional purposes, as required. For more information, see .
 
 </td></tr><tr><td>
 
@@ -62,5 +68,5 @@ Assessment target
 Table to be assessed. Selecting multiple tables makes the scope a combination of records from each table.Select **Work Order Task** to create the template to assess work order tasks.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Field Service Management reference](../../planning-and-policy/reference/fsm-reference.md)
+</table>**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/fsm-reference.md)
 

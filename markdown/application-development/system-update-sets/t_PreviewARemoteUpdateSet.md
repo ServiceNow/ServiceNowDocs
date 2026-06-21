@@ -2,6 +2,7 @@
 title: Preview a remote update set
 description: Previewing compares an update set retrieved from a remote instance to updates on the local instance to detect potential problems. You must preview an update set and address all problems before you can commit the update set.The process of previewing an update set creates a preview record for each update. You can review the preview records to make sure that the correct updates are being committed.Preview an update set to detect and resolve problems that may occur if you commit the updates on the local instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/system-update-sets/t\_PreviewARemoteUpdateSet.html
 release: yokohama
 product: System Update Sets
 classification: system-update-sets
@@ -36,7 +37,7 @@ Previewing compares an update set retrieved from a remote instance to updates on
     |**If no problems were detected**|Click **Commit Update Set** to commit all changes on the instance without reviewing the preview results.|
     |**If problems were detected**|Address each problem in the Update Set Preview Problems related list.|
 
-    ![Retrieved update set form](../image/RetrievedUpdateSetForm.png "Retrieved Update Set form")
+    \[Omitted image "RetrievedUpdateSetForm.png"\] Alt text: Retrieved update set form
 
 3.  Preview the records.
 
@@ -47,7 +48,7 @@ Previewing compares an update set retrieved from a remote instance to updates on
     3.  Review the **Update Set Preview Problems** related list to ensure that the correct updates are being committed.
 
 
-**Parent Topic:**[Update set transfers](../reference/update-set-transfers.md)
+**Parent Topic:**[Update set transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/update-set-transfers.md)
 
 ## Review a preview record for an update set
 
@@ -63,7 +64,7 @@ The process of previewing an update set creates a preview record for each update
 
 4.  Fill in the fields on the form, as appropriate.
 
-    ![Update set preview](../image/PreviewRecordForm.png "Update set preview")
+    \[Omitted image "PreviewRecordForm.png"\] Alt text: Update set preview
 
 <table id="table_b4g_gzw_yq"><thead><tr><th>
 
@@ -121,7 +122,7 @@ Preview an update set to detect and resolve problems that may occur if you commi
 
 2.  Open the update set record and scroll to the **Update Set Preview Problems** related list.
 
-    ![Update set preview problems](../image/UpdateSetsCollisionList.png "Upset Set Preview Problems")
+    \[Omitted image "UpdateSetsCollisionList.png"\] Alt text: Update set preview problems
 
 3.  Review each problem description to determine the cause and resolve the problem.
 
@@ -187,7 +188,7 @@ Preview an update set to detect and resolve problems that may occur if you commi
 
         Resolution: Compare the conflicting update sets and determine which version to use. If you know which update set is the correct one to use, select the row for that set and click **Accept this collision.** Otherwise, click **Compare Collisions** to compare the conflicting update sets.
 
-        ![Compare two Updates form](../image/UpdateSetCompare.png "Compare two Updates")
+        \[Omitted image "UpdateSetCompare.png"\] Alt text: Compare two Updates form
 
         From this screen, you can compare any two of the conflicting update sets and choose the update set to commit.
 

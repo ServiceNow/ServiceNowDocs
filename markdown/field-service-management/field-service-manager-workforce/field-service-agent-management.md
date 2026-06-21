@@ -2,6 +2,7 @@
 title: Managing agent skills, schedules and tasks in Field Service Agent Management
 description: Field Service managers can view and manage the skills, schedules, and work order tasks of agents in their assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-manager-workforce/field-service-agent-management.html
 release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -66,12 +67,12 @@ Time Sheets - Pending Approval
 Lists the time sheets for the agents in the manager's assignment group that need manager approval.
 
 </td></tr></tbody>
-</table>-   **[Use the agent calendar](../../customer-service-management/concept/use-agent-calendar.md#)**  
+</table>-   **[Use the agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/use-agent-calendar.md)**  
 Users with the agent calendar user role can add events to their personal calendar and configure the calendar to show or hide different types of events.
--   **[Managing agent calendar](../../customer-service-management/concept/agent-calendar.md)**  
+-   **[Managing agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/agent-calendar.md)**  
 Customer service agents and field service technicians can use the agent calendar to see work schedules and assignments and also add personal events such as meetings or appointments.
--   **[Allow agents to start traveling before their scheduled work hours](../task/set-agent-schedule-preferences.md)**  
+-   **[Allow agents to start traveling before their scheduled work hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/set-agent-schedule-preferences.md)**  
 Support flexible work types by allowing agents to start traveling before their scheduled work hours. For example, you may want to add travel time outside of an agent's scheduled work hours in case bad weather suddenly increases travel time.
 
-**Parent Topic:**[Manage workforce](managing-workforce.md)
+**Parent Topic:**[Manage workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/managing-workforce.md)
 

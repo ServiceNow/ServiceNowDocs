@@ -2,6 +2,7 @@
 title: Update an existing conflict of interest disclosure request
 description: Update an existing conflict of interest disclosure request to obtain the legal clearance again before it expires. You might want to get fresh approvals for an extension of the period or for the revised conditions that might pose a risk of potential conflict with the primary employer duties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-conflict-of-interest/update-existing-coi-disclosure-request.html
 release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -39,26 +40,26 @@ Role required: sn\_lg\_ops.legal\_user
 
 7.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d340553e130">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d170007e130">
 
 Option
 
-</th><th align="left" id="d340553e133">
+</th><th align="left" id="d170007e133">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d340553e139">
+</th></tr></thead><tbody><tr><td id="d170007e139">
 
 **If the Attachments tab is visible**
 
 </td><td>
 
--   To upload a new document, select the add attachment icon \(![Add attachment icon.](../../legal-request-management/image/add-attachment-icon.png)\) and select a file.
--   To rename an attached file, select the edit file name icon \(![Edit file name icon.](../../legal-digital-forensics/image/rename-icon.png)\) and update the file name.
--   To remove an attached file, select the delete icon \(![Delete icon.](../../legal-digital-forensics/image/delete-icon.png)\).
+-   To upload a new document, select the add attachment icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachment icon.\) and select a file.
+-   To rename an attached file, select the edit file name icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit file name icon.\) and update the file name.
+-   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d340553e178">
+</td></tr><tr><td id="d170007e178">
 
 **If the Documents tab is visible**
 
@@ -79,5 +80,5 @@ The conflict of interest disclosure request is updated and the state is set as N
 
 The approval details appear under the **Approvals** tab on the Standard Ticket page.
 
-**Parent Topic:**[Requesting legal clearance for conflict of interests](../concept/submitting-legal-coi-request.md)
+**Parent Topic:**[Requesting legal clearance for conflict of interests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/submitting-legal-coi-request.md)
 

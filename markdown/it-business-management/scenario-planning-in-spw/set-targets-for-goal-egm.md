@@ -2,6 +2,7 @@
 title: Create targets for a goal in Strategic Planning
 description: Create SMART targets for goals to track and measure the progress of your goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -21,7 +22,7 @@ Role required: sn\_apw\_advanced.spw\_goal\_user and \(sn\_align\_core.apw\_user
 
 ## About this task
 
-Configuring a target source for your target updates the **Actuals to date** field on the Target form automatically.For more information on target automation, see [Target actuals automation in Strategic Planning](../concept/target-actuals-automation-spw.md).
+Configuring a target source for your target updates the **Actuals to date** field on the Target form automatically.For more information on target automation, see [Target actuals automation in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/target-actuals-automation-spw.md).
 
 A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R = Relevant, and T = Time-bound.
 
@@ -30,21 +31,21 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 -   Only the owner or contributors of the goal can create targets for the goal.
 -   You can also restrict the access for a target record to the specific users by enabling the **Confidential** field on the Target form if the ServiceNow® ESG Management application is installed.
 
-**Note:** You can generate a target using the Target generation skill, if the Now Assist for SPM application is installed. For details, see [Generate targets for a goal using Now Assist for SPM](generate-targets-for-goal-spw.md).
+**Note:** You can generate a target using the Target generation skill, if the Now Assist for SPM application is installed. For details, see [Generate targets for a goal using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/generate-targets-for-goal-spw.md).
 
 ## Procedure
 
 1.  Create a target for a goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d247955e121">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d172516e121">
 
 Option
 
-</th><th align="left" id="d247955e124">
+</th><th align="left" id="d172516e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d247955e130">
+</th></tr></thead><tbody><tr><td id="d172516e130">
 
 **From the Goals view**
 
@@ -53,10 +54,10 @@ Steps
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning**.
 2.  From the list of portfolio plans, select the required portfolio plan that the goal belongs to.
 3.  In the Goals view, select the **Goals and targets** tab.
-4.  Next to the goal that you want to create a target for, select the row context menu icon \(![Row context menu icon.](../../alignment-planner-workspace/images/action-menu-icon.png)\) and select **Add target**.
+4.  Next to the goal that you want to create a target for, select the row context menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Row context menu icon.\) and select **Add target**.
 
 
-</td></tr><tr><td id="d247955e178">
+</td></tr><tr><td id="d172516e178">
 
 **From the Targets tab**
 
@@ -76,7 +77,7 @@ The Goal side panel opens with the **Details** tab.
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For a description of the field values, see [Target form](../reference/target-form-egm.md).
+    For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/target-form-egm.md).
 
 3.  Select **Save**.
 
@@ -91,5 +92,5 @@ The target progress records are automatically created when you save the target p
 
 ## What to do next
 
-[Update the progress of the target](update-progress-of-target-egm.md) manually if the target is not enabled for target automation.
+[Update the progress of the target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/update-progress-of-target-egm.md) manually if the target is not enabled for target automation.
 

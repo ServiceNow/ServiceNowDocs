@@ -2,6 +2,7 @@
 title: Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
 description: Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-fulfill-sw-asset-requests-workflow.html
 release: yokohama
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -18,6 +19,8 @@ Use the Help manage software request agentic workflow to fulfill a software requ
 ## Help manage software request overview
 
 Use the Help manage software request agentic workflow to automate software asset sourcing through auto-allocation or purchase order creation.
+
+To use the Help manage software request agentic workflow, the Procurement \(com.snc.procurement\) plugin needs to be installed along with the Now Assist for SAM \(sn\_now\_assist\_sam\) plugin
 
 The following three scenarios are supported for software requests:
 
@@ -41,6 +44,14 @@ The Help manage software request agentic workflow supports both Azure OpenAI Ser
 
 By automating the sourcing of software assets through auto-allocation or purchase order creation, the agentic workflow streamlines request resolution and enhances operational efficiency.
 
+A one-time manual activation is required before the Help manage software request workflow can run automatically. To activate the workflow:
+
+1.  Navigate to the AI Agent Studio and select the Help Manage Software Request agentic workflow.
+2.  Select **Add triggers**.
+3.  Select the Help manage software request link, in the **Name** column.
+4.  In the **Edit a trigger** dialog box, toggle the trigger status from **Off** to **On**.
+5.  Save your changes. The status of the Help manage software request agentic workflow changes from **Inactive** to **Active**
+
 To automatically trigger the Help manage software request workflow for sourcing software requests, follow these steps:
 
 1.  Initiate and approve a software asset request:
@@ -48,7 +59,7 @@ To automatically trigger the Help manage software request workflow for sourcing 
     2.  If the requested items in the cart amount to a thousand dollars, the request is automatically approved. For amounts more than a thousand dollars, the request must be approved. Auto-approval rules can differ from organization to organization; the default amount for auto-approval is a thousand dollars.
 2.  Assign the software asset request for sourcing:
 
-    1.  Once the request is approved, the procurement\_user role navigates to the Procurement module that resides in the Asset Workspace. If the Hardware Asset Management application is installed in the Asset Workspace, the name of the workspace changes to Hardware Asset Workspace.
+    1.  Once the request is approved, the procurement\_user role navigates to the Procurement module that resides in the Asset Workspace. If the Hardware Asset Management application is installed, the name of the workspace changes to Hardware Asset Workspace.
     2.  The procurement\_user role selects the Items tab in the Procurement module and selects a value in the **Assigned to** field for the requested item.
 
         **Note:** The itil, the procurement\_user, and the now\_assist\_panel\_user roles have access to the Now Assist panel. The fulfiller needs the itil and procurement\_user roles if you have the Now Assist for IT Service Management \(ITSM\) store application installed. If you have the Now Assist for Software Asset Management \(SAM\) store application but not the Now Assist for IT Service Management \(ITSM\) store application, then the fulfiller requires the itil, procurement\_user, and now\_assist\_panel\_user roles to fulfill the request via the Now Assist panel trigger.
@@ -60,7 +71,7 @@ To automatically trigger the Help manage software request workflow for sourcing 
     -   If entitlements are available for the software request, allocations are automatically made.
     -   If entitlements aren’t available, a purchase order is generated. The AI agents take inputs and confirmation from you when needed.
 
-To view the agentic workflow process, navigate to the Asset Workspace or the Hardware Asset Workspace and select the sparkle icon ![sparkle icon for Now Assist](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg) on the top-right side of the workspace.
+To view the licenses allocated by the agentic workflow, navigate to the AI Activity log in the Activity center of the Software Asset Workspace. Select the **Licenses allocated** link in the AI Activity log to open the Procurement request items page in the Asset Workspace or the Hardware Asset Workspace.
 
 ## AI agents used in the Help manage software asset requests agentic workflow
 
@@ -91,5 +102,5 @@ Purchase order creation AI agent
 Sources a request item by creating a purchase order. Asks for inputs sequentially and takes user input in case there are multiple options such as with stockrooms, vendors, metric group, or license metrics.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using agentic workflows in Now Assist for SAM](using-now-assist-sam-ai-agents-usecases.md)
+</table>**Parent Topic:**[Using agentic workflows in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)
 

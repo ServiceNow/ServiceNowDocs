@@ -2,6 +2,7 @@
 title: Create a saved external trigger
 description: Save a set of trigger definitions as a reusable trigger that responds to an external event through webhooks. When an event occurs in the configured third-party application that meets the specified conditions, the trigger is activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/create-saved-external-trigger.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -40,7 +41,7 @@ Ensure that you've configured the external trigger endpoints for the third-party
 -   GitHub Spoke
 -   Docusign eSignature Spoke
 
-For more information about configuring the third-party spoke, see [Set up external trigger endpoints](https://www.servicenow.com/docs/access?context=set-up-external-webhook-endpoints&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US).
+For more information about configuring the third-party spoke, see .
 
 **Important:** Keep the event payload JSON of the third-party application handy. Refer to the third-party webhook documentation to learn about from where you can copy the payload JSON. For example, see the following link that shows different payload shapes for Jira events: [Executing a webhook](https://developer.atlassian.com/server/jira/platform/webhooks/#executing-a-webhook).
 
@@ -81,15 +82,15 @@ For more information about configuring the third-party spoke, see [Set up extern
 
 7.  Under **Body**, in **JSON editor**, paste the payload JSON from the third-party application.
 
-    Refer to the third-party webhook documentation to learn about from where you can copy the payload JSON. ![Shows the JSON editor where you paste the payload data in JSON.](../images/json-editor-1.jpg)
+    Refer to the third-party webhook documentation to learn about from where you can copy the payload JSON. \[Omitted image "json-editor-1.jpg"\] Alt text: Shows the JSON editor where you paste the payload data in JSON.
 
 8.  Select **Visualize objects**.
 
-    The editor displays the objects that are in the payload JSON. You can reorder or remove the objects. The objects are available as data pills to use in conditions. ![Displays the objects after you select Visualize objects.](../images/json-editor-2.jpg)
+    The editor displays the objects that are in the payload JSON. You can reorder or remove the objects. The objects are available as data pills to use in conditions. \[Omitted image "json-editor-2.jpg"\] Alt text: Displays the objects after you select Visualize objects.
 
 9.  In **Condition editor**, drag and drop the data pills to create a condition set.
 
-    Use \[or\] or \[and\] operators to add more conditions to the condition set. ![Example data pill value in a condition.](../images/condition-editor.jpg)
+    Use \[or\] or \[and\] operators to add more conditions to the condition set. \[Omitted image "condition-editor.jpg"\] Alt text: Example data pill value in a condition.
 
 10. Select **+New condition set** to add additional condition sets as per your requirement.
 
@@ -98,5 +99,5 @@ For more information about configuring the third-party spoke, see [Set up extern
     **Note:** You can’t edit a saved external trigger after you publish.
 
 
-**Parent Topic:**[Create a saved trigger](create-saved-trigger.md)
+**Parent Topic:**[Create a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-saved-trigger.md)
 

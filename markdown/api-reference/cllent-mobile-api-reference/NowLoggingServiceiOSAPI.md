@@ -2,6 +2,7 @@
 title: NowLoggingService class - iOS
 description: The NowLoggingService class provides functions that provide logging capabilities to feature services with the NowSDK.Returns a logger for the specified feature service.Sets the desired logging level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/NowLoggingServiceiOSAPI.html
 release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -47,7 +48,7 @@ Level of log messages for the associated logger to store.Valid values:
 -   none
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowLoggingService - logger\(for category: NowLogCategory\)
 

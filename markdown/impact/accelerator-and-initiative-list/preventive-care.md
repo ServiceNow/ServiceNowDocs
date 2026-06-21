@@ -2,6 +2,7 @@
 title: Preventive Care
 description: Preventive Care is a premium, engineer-led diagnostic of instance performance executed quarterly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/preventive-care.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -38,7 +39,7 @@ Each quarterly Preventive Care engagement includes three phases:
 2.  Presentation to customer stakeholders: Proactive recommendations to highlight and review  specific issues with instance performance and infrastructure and database efficiency and cost​
 3.  Guided Remediation: A focused remediation plan that provides hands-on, guided help to steer a customer through making improvements
 
-![Flow chart of the three phases of Preventive Care.](../image/preventive-care-cycle.png)
+\[Omitted image "preventive-care-cycle.png"\] Alt text: Flow chart of the three phases of Preventive Care.
 
 **Note:** Offered pursuant to the applicable legal description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

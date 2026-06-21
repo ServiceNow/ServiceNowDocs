@@ -2,11 +2,12 @@
 title: Exploring AI Control Tower
 description: Explore and learn about the AI Control Tower and its role in managing the AI asset inventory, overseeing configurations, integrating with other applications, and handling the asset approval workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, LLM, large language model]
 breadcrumb: [AI Control Tower, Enable AI experiences]
@@ -42,11 +43,12 @@ The AI asset data model catalogs different AI assets such as AI systems, AI mode
 
 To learn more about AI Control Tower and other applications integrating with its workspace, see the following topics:
 
--   [AI Control Tower dashboard](ai-governance.md)
--   [Configure AI Control Tower](configuring-ai-governance.md)
--   [AI Risk and Compliance](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance&version=yokohama&pubname=yokohama-governance-risk-compliance&ft:locale=en-US)
--   [Explore Now Assist AI asset discovery](now-assist-asset-discovery.md)
--   [Explore AI Gateway](explore-ai-gateway.md)
--   [Using AI Control Tower](using-ai-control-tower.md)
--   [AI Control Tower Reference](../reference/aict-references.md)
+-   [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-governance.md)
+-   [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
+-   
+-   [Explore Now Assist AI asset discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/now-assist-asset-discovery.md)
+-   [AI connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/enterprise-ai-discovery.md)
+-   [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-gateway-overview.md)
+-   [Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+-   [AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/aict-references.md)
 

@@ -2,6 +2,7 @@
 title: Run the fix script to enable access to Supplier Collaboration Portal
 description: After you install the Supplier Collaboration Portal, you must run the fix script to enable access to the portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Download the `SCP_Contact_User_Access.xml` file from the ServiceNow Store.![Location of the XML file fix script to enable access to the portal.](../image/xml-scp-access.png)
+Download the `SCP_Contact_User_Access.xml` file from the ServiceNow Store.\[Omitted image "xml-scp-access.png"\] Alt text: Location of the XML file fix script to enable access to the portal.
 
 After you download the script file, perform the following steps.
 
@@ -44,5 +45,5 @@ After you download the script file, perform the following steps.
     You can now access the Supplier Collaboration Portal.
 
 
-**Parent Topic:**[Enable access to Supplier Collaboration Portal](enable-access-supp-central.md)
+**Parent Topic:**[Enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/enable-access-supp-central.md)
 

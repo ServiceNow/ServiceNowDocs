@@ -2,6 +2,7 @@
 title: Credential handling
 description: Extend the workflow engine to manage processes and automate things outside of an instance with Orchestration. Use the appropriate credentials required by Orchestration SSH and PowerShell activity elements: SSH requires SSH and PowerShell requires Windows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/credential-handling.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -27,5 +28,5 @@ When you deprovision or delete a VM, all associated credentials are deleted, inc
 
 ## Use the credentials
 
-See [Use credentials with SSH workflows](use-credentials-with-workflows.md) for details.
+See [Use credentials with SSH workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/use-credentials-with-workflows.md) for details.
 

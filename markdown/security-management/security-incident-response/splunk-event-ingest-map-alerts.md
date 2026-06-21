@@ -2,12 +2,13 @@
 title: Map alerts for the Splunk Enterprise Event Ingestion integration
 description: During the event field-mapping step, you map individual event fields from triggered alerts or imported event data to fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/splunk-event-ingest-map-alerts.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 12
+reading_time_minutes: 11
 breadcrumb: [Create an event profile, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -45,7 +46,7 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
     In the following figure, the field-name value pairs for the ingested alert, or the imported sample event, are displayed on the left side of this form after the pull is completed. These values are the values that you map to the security incident fields on the SIR Incident Field Mapping side of the form.
 
-    ![Fetch Sample Data and ingested alert values highlighted.](../image/splunk-event-ingestion-alerts-mapping.png)
+    \[Omitted image "splunk-event-ingestion-alerts-mapping.png"\] Alt text: Fetch Sample Data and ingested alert values highlighted.
 
 3.  For scheduled alert profiles, proceed to step five to map the values.
 
@@ -75,7 +76,7 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
     9.  In the Alert Sample Ingestion column, click **Load Attachment Data**.
 
-        ![Load Attachment Data button highlighted.](../image/splunk226_load_attach_button.png)
+        \[Omitted image "splunk226\_load\_attach\_button.png"\] Alt text: Load Attachment Data button highlighted.
 
     10. In the dialog that is displayed, click **Choose files** and navigate to the `.xml` file that you exported and click **Open**.
 
@@ -87,7 +88,7 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
 6.  Drag the field name, for example, `category`, and drop it on a field in the Input Expression column next to a field name in the Security Incident column.
 
-    ![Drag-and-drop for values shown by arrow.](../image/splunk-event-ingestion-alerts-mapping_category.png)
+    \[Omitted image "splunk-event-ingestion-alerts-mapping\_category.png"\] Alt text: Drag-and-drop for values shown by arrow.
 
     The field value is displayed in the Input Expression column. In the following image, `category` is mapped to the `category` field on the security incident. However, you can match any value from the left side to a field on the right. Verify that the value is mapped correctly on the security incident during the preview step.
 
@@ -95,13 +96,13 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
     A gray field indicates that a field has been selected and mapped to a field on the security incident. This color-coding helps you track the mapping, because in certain cases, alert event fields may only be assigned once. For instance, you can only assign values to fields such as Short Description once. However, you can assign list fields such as Work Note multiple times by adding additional rows to the mapping grid.
 
-    ![Category field and value on security incident highlighted.](../image/splunk_map_3_v2.png)
+    \[Omitted image "splunk\_map\_3\_v2.png"\] Alt text: Category field and value on security incident highlighted.
 
 7.  To add fields to the default mapping of the security incident on the right side of the form, follow these steps.
 
     1.  On the right of the form in the SIR Incident Field Mapping section, at the bottom of the grid, click the plus icon.
 
-        ![Add fields.](../image/214profilemapping02__icon.png)
+        \[Omitted image "214profilemapping02\_\_icon.png"\] Alt text: Add fields.
 
         A new field is displayed.
 
@@ -109,7 +110,7 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
         In the expanded list for the new field, some fields are shaded. In the following figure, `Category` has a gray background, because it has been mapped in the security incident. Similar to the color-coding for alert fields on the left side of the form, this color-coding for the security incident fields on the right helps you track the mapping.
 
-        ![Location field on choice list for new field.](../image/214_splunk_map_4.png)
+        \[Omitted image "214\_splunk\_map\_4.png"\] Alt text: Location field on choice list for new field.
 
         **Note:** So that multiple observables can be displayed on the same security incident, the Observable field can be mapped multiple times with different values. Similarly, the Configuration Item and Work notes fields support multiple values. If you try to map two values to a field that cannot support multiple values, when you preview the incident, an error message is displayed that there is no value for the field. Similarly, if a field on a security incident has a list from which you can choose multiple options, and you try to map an option to that field that is not displayed on the list, the field is not populated on the security incident.
 
@@ -123,13 +124,13 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
     The following figure is an example of an edited mapping grid. In the bottom field on the right, the Work notes field is added, and it has more than one value. The values are separated by spaces and punctuation marks \(`Category:${category} | destination IP:78.146.73.180`\).
 
-    ![Work notes with multiple values highlighted.](../image/splunkmapexample_v2.png)
+    \[Omitted image "splunkmapexample\_v2.png"\] Alt text: Work notes with multiple values highlighted.
 
     In the preview, these values are displayed in the Work notes on the security incident. Because the value is for a field that you added to the grid, and there are multiple values mapped to the Work notes field, the values are displayed as entered. In this example, the spaces and punctuation marks that you entered in the field are displayed on the Related Items section as a work note on the preview of the security incident.
 
     The following image is an example of how the values in the preceding image are displayed on the security incident.
 
-    ![Work Note field value displayed on security incident.](../image/splunksi_notes.png)
+    \[Omitted image "splunksi\_notes.png"\] Alt text: Work Note field value displayed on security incident.
 
     Incident generation filtering conditions
 
@@ -143,7 +144,7 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
         The options in the lists for the first field in the Filter conditions builder match the fields that are displayed on the Alert Sample Ingestion section for the alert you ingested. These fields are dynamic and change depending on the Splunk alert that you ingest, or the event that you manually forward. Criteria that you enter are case-sensitive, and they must match exactly the values of the Splunk Enterprise alert or event. If you are not sure about the values to enter in the filter fields, you may prefer to return to your Splunk Enterprise console and review your alerts and events for the keywords.
 
-        ![Filter conditions builder.](../image/214_SplunkProfileMappingTabBottom.png)
+        \[Omitted image "214\_SplunkProfileMappingTabBottom.png"\] Alt text: Filter conditions builder.
 
     2.  Using the lists and fields of the conditions builder, set filters for the first row.
 
@@ -155,7 +156,7 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
         The following image is an example with two conditions that must be matched before security incidents are created.
 
-        ![Filter conditions builder.](../image/splunk_filters.png)
+        \[Omitted image "splunk\_filters.png"\] Alt text: Filter conditions builder.
 
         You have set the triggering conditions so that security incidents are created only when both of the filtering conditions that you entered are matched.
 
@@ -171,7 +172,7 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
         The Incident Field Matching Values columns are displayed. These field names are the fields on the security incident that include any custom fields that are configured on the SIR security incident.
 
-        ![Aggregation criteria slushbucket.](../image/SplunkProfileMappingsi-add.png)
+        \[Omitted image "SplunkProfileMappingsi-add.png"\] Alt text: Aggregation criteria slushbucket.
 
     2.  From the Available list, select the field values that you want to match on existing security incidents in your ServiceNow AI Platform and move them to the Selected list.
 
@@ -179,7 +180,7 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
         If a new alert matches all the values that are selected in the aggregation field conditions in the mapping step, the alert is automatically added to the most recently opened security incident with the same field values. As a user with the sn\_si.analyst role working with security incidents, you can view all the added aggregate alerts on a related list on a security incident. All of the aggregated alerts on a security incident are displayed on the Splunk Event to Tasks related list. This list details associated timestamps and aggregated field values. This information helps you understand why alerts are added to existing security incidents. If this tab is not displayed, scroll to the left side of the record under Related Links and click the **Show All Related Lists** link.
 
-        ![Splunk Event to Tasks related list highlighted.](../image/aggregate_tab_si.png)
+        \[Omitted image "aggregate\_tab\_si.png"\] Alt text: Splunk Event to Tasks related list highlighted.
 
     3.  To log a work note for a new alert that is recently added on the security incident, select the check box to enable this option.
 
@@ -189,19 +190,19 @@ Create custom maps by adding or removing the fields on the mapping grid on the r
 
 11. Open the script editor and continue editing.
 
-    For more information about the script editor, see [Use the script editor to format alert values for the Splunk Enterprise Event Ingestion integration](splunk-event-ingest_script_editor.md).
+    For more information about the script editor, see [Use the script editor to format alert values for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest_script_editor.md).
 
 12. Choose one to continue with the profile configuration.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d270500e734">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d252259e730">
 
 Option
 
-</th><th align="left" id="d270500e737">
+</th><th align="left" id="d252259e733">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d270500e743">
+</th></tr></thead><tbody><tr><td id="d252259e739">
 
 ** **
 
@@ -209,7 +210,7 @@ Description
 
  
 
-</td></tr><tr><td id="d270500e750">
+</td></tr><tr><td id="d252259e746">
 
 **Continue**
 
@@ -217,7 +218,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d270500e767">
+</td></tr><tr><td id="d252259e763">
 
 **Update**
 
@@ -225,7 +226,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d270500e779">
+</td></tr><tr><td id="d252259e775">
 
 **Previous**
 
@@ -233,7 +234,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The Alert Selection form is displayed.
 
-</td></tr><tr><td id="d270500e789">
+</td></tr><tr><td id="d252259e785">
 
 **Delete**
 
@@ -247,5 +248,5 @@ Delete this event profile and the Splunk Event Profiles list is displayed.
 
 The next step is to preview the values that you mapped on the security incident.
 
-**Parent Topic:**[Create and name an event profile](splunk-event-ingest-create-profile.md)
+**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
 

@@ -2,6 +2,7 @@
 title: Add a finding and root cause analysis for a safety audit
 description: Record a finding based on the audit results and perform a root cause analysis \(RCA\) for it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety-risk-management/hs-add-finding-rca-safety-audit.html
 release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,14 +24,14 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.safety\_audit\_wr
 
 Safety auditors can also create actions for specific questions while completing a smart assessment or survey from the mobile app. When an agent creates an action for a question, the system also generates a related finding record based on the response. For more information, see the following:
 
--   [Create actions and findings for the smart assessment questionnaire from mobile app](../../hs-health-safety-mobile/task/hs-create-actions-findings-smart-assessments.md).
--   [Create actions and findings for survey responses from mobile app](../../hs-health-safety-mobile/task/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md).
+-   [Create actions and findings for the smart assessment questionnaire from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
+-   [Create actions and findings for survey responses from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  In the **Audits** list, select **All** and open an audit record to add a finding.
 
@@ -38,7 +39,7 @@ Safety auditors can also create actions for specific questions while completing 
 
 5.  On the form, fill in the fields.
 
-    For field descriptions, see [Finding form](../reference/hs-audit-finding-form.md).
+    For field descriptions, see [Finding form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-audit-finding-form.md).
 
 6.  Select **Save**.
 
@@ -67,5 +68,5 @@ Safety auditors can also create actions for specific questions while completing 
 
 In **Audit actions** tab, add actions for the finding to ensure that any issues are prevented or corrected.
 
-**Parent Topic:**[Safety inspections and audits](../concept/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

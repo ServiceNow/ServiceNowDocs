@@ -2,6 +2,7 @@
 title: Create an error handler extension point
 description: Create a scripted extension point to handle the embedding generation errors that occur when custom embedding models in the AI Search Retrieval Augmented Generation \(RAG\) application generate semantic vectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/create-error-handler-extention-point.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -105,5 +106,5 @@ The `BYOMEmbeddingGenerationErrorHandler` script enables you to control the retr
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring bring your own model \(BYOM\)](../concept/creating-byom.md)
+**Parent Topic:**[Configuring bring your own model \(BYOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/creating-byom.md)
 

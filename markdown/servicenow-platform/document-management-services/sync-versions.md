@@ -2,6 +2,7 @@
 title: Sync versions
 description: Sync document versions from an external provider to Document Management and vice versa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/document-management-services/sync-versions.html
 release: yokohama
 product: Document Management Services
 classification: document-management-services
@@ -19,7 +20,7 @@ Sync document versions from an external provider to Document Management and vice
 
 Versions can be synced multiple times but a new version on Document Management can't be uploaded to an external provider.
 
-[Configure permission for roles or groups](configure-permissions-mp.md) by selecting the **mp\_document\_admin** from the document list.
+[Configure permission for roles or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/configure-permissions-mp.md) by selecting the **mp\_document\_admin** from the document list.
 
 Role required: mp\_document\_admin
 
@@ -38,5 +39,5 @@ Role required: mp\_document\_admin
 5.  Select **Open Cloud URL** at the top to open the document in the external cloud.
 
 
-**Parent Topic:**[Document Management integration with external content providers](../concept/integration-external-content-providers.md)
+**Parent Topic:**[Document Management integration with external content providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/integration-external-content-providers.md)
 

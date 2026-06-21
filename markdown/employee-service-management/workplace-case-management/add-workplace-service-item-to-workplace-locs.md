@@ -2,6 +2,7 @@
 title: Make a workplace service item available to a workplace location
 description: Make a workplace service item available to specific workplace locations. Select any workplace location such as a region, site, campus, building, floor, area, or a space.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-case-management/add-workplace-service-item-to-workplace-locs.html
 release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
@@ -62,7 +63,7 @@ Select workplace locations where the workplace item must be available. Employees
 
     2.  From the **Collection** column on the left, select the workplace location.
 
-    3.  Move the workplace location to the **Workplace location List** column on the right by using the add-remove icon \(![Add-remove icon.](../../wsd-reservation-management/image/add-remove-icon.png)\).
+    3.  Move the workplace location to the **Workplace location List** column on the right by using the add-remove icon \(\[Omitted image "add-remove-icon.png"\] Alt text: Add-remove icon.\).
 
 8.  Select **Save**.
 
@@ -70,7 +71,7 @@ Select workplace locations where the workplace item must be available. Employees
 
     1.  On the form, scroll down to the Workplace Service Item Locations related list.
 
-    2.  Select the preview icon \(![Preview icon.](../image/preview-icon.png)\) for the workplace location.
+    2.  Select the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) for the workplace location.
 
     3.  In the preview dialog box, select **Open record**.
 

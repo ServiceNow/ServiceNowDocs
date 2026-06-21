@@ -2,6 +2,7 @@
 title: Install Enterprise Asset Management
 description: Request the Enterprise Asset Management application from the ServiceNow Store so that you can track and manage your enterprise assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/request-enterprise-asset-management.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -41,7 +42,7 @@ Asset Management\(com.snc.asset\_management\)
 
 </td><td>
 
-Provides functionalities to integrate the physical, technological, contractual, and financial aspects of information technology assets. See [Asset Management](https://www.servicenow.com/docs/access?context=c_AssetManagement&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US) for more information on asset management.
+Provides functionalities to integrate the physical, technological, contractual, and financial aspects of information technology assets. See Asset Management for more information on asset management.
 
 </td></tr><tr><td>
 
@@ -49,7 +50,7 @@ Procurement\(com.snc.procurement\)
 
 </td><td>
 
-Provides the capability to source and receive requested assets so that you can fulfill service catalog requests. See [Procuring enterprise assets](../concept/procuring-assets.md) for more information on procurement.
+Provides the capability to source and receive requested assets so that you can fulfill service catalog requests. See [Procuring enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/procuring-assets.md) for more information on procurement.
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Field Service Management \(com.snc.work\_management\)
 
 </td><td>
 
-Provides the capability to manage work orders and related tasks. See [Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&version=yokohama&pubname=yokohama-field-service-management&ft:locale=en-US) for more information on Field Service Management.
+Provides the capability to manage work orders and related tasks. See Field Service Management for more information on Field Service Management.
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ SM Planned Maintenance\(com.snc.planned\_maintenance\)
 
 </td><td>
 
-Provides the capability to manage regular preventative maintenance of assets. See [Planned Maintenance](https://www.servicenow.com/docs/access?context=c_SMPlanMaint&version=yokohama&pubname=yokohama-service-management-for-the-enterprise&ft:locale=en-US) for more information on Planned Maintenance.
+Provides the capability to manage regular preventative maintenance of assets. See Planned Maintenance for more information on Planned Maintenance.
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Expanded Model and Asset Classes
 
 </td><td>
 
-Adds enterprise model and asset classes that extend out-of-the-box product model and asset classes within the CMDB class hierarchy. In addition, creates model categories that associate these enterprise model and asset classes with CMDB configuration item \(CI\) classes. See [Expanded Model and Asset Classes Store application](../concept/enterprise-model-asset-classes-app.md) for more information on this application.
+Adds enterprise model and asset classes that extend out-of-the-box product model and asset classes within the CMDB class hierarchy. In addition, creates model categories that associate these enterprise model and asset classes with CMDB configuration item \(CI\) classes. See [Expanded Model and Asset Classes Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md) for more information on this application.
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ CMDB CI Class Models
 
 </td><td>
 
-Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships. See [CMDB CI Class Models store app](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) for more information on this application.
+Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships. See CMDB CI Class Models store app for more information on this application.
 
 </td></tr><tr><td>
 
@@ -133,7 +134,7 @@ GRC: Risk Heatmap
 
 </td><td>
 
-Provides a heatmap component that enables you to visualize the risk posture of your organization. See [Risk heatmap for classic risk assessment](https://www.servicenow.com/docs/access?context=risk-heatmap-classic-risk-assessment&version=yokohama&pubname=yokohama-governance-risk-compliance&ft:locale=en-US) or [Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](https://www.servicenow.com/docs/access?context=risk-heatmaps-in-ws&version=yokohama&pubname=yokohama-governance-risk-compliance&ft:locale=en-US) for more information on risk heatmaps.
+Provides a heatmap component that enables you to visualize the risk posture of your organization. See Risk heatmap for classic risk assessment or Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace for more information on risk heatmaps.
 
 </td></tr></tbody>
 </table>## Procedure

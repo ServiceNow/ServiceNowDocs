@@ -2,7 +2,10 @@
 title: Contracts and Entitlement Workflows
 description: Manage the life cycle of customer service contracts and entitlements from offer creation to contract generation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cont-ent-workflows-csm.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -31,6 +34,6 @@ The workflows in this application enable you to modify contracts, contract lines
 
 To learn more about configuring and using Customer Contracts and Entitlements, see:
 
--   [Configuring Contracts and Entitlement Workflows](configure-cont-ent-workflows-csm.md)
--   [Using Contracts and Entitlements Workflows](using-customer-cnt-ent-wf.md)
+-   [Configuring Contracts and Entitlement Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-cont-ent-workflows-csm.md)
+-   [Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/using-customer-cnt-ent-wf.md)
 

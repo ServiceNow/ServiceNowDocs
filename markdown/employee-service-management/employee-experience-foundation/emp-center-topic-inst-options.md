@@ -2,6 +2,7 @@
 title: Customize Employee Center Pro Kiosk widgets
 description: You can configure the widget instance options to control how data is displayed within the widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation

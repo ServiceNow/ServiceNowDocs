@@ -2,6 +2,7 @@
 title: Qualify a work order
 description: Work orders must be qualified to ensure that work order tasks are created and assigned. The qualifying process can be automatic or manual.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/c\_QualifyWorkOrders.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Manage work orders, Prepare work orders, Using Field Service Manage
 
 Work orders must be qualified to ensure that work order tasks are created and assigned. The qualifying process can be automatic or manual.
 
-Depending on how the [Qualification is required for new requests](../task/t_ConfigureFieldService.md#LifecycleOptions) option is set in the Field Service Management configuration, the qualifying process is manual or automatic.
+Depending on how the [Qualification is required for new requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/t_ConfigureFieldService.md) option is set in the Field Service Management configuration, the qualifying process is manual or automatic.
 
 -   **Manual qualification**
 
@@ -40,14 +41,22 @@ Depending on how the [Qualification is required for new requests](../task/t_Conf
 
 ## Filtering available dispatch groups
 
-The **work.management.limit.location** property controls whether the choice list of available dispatch groups is filtered by proximity to the task location.
+The following table describes the properties that control whether the choice-list of available dispatch groups is filtered by proximity to the task location.
 
--   **[Request additional information to qualify a work order](../task/t_RequestAdditionalInformation.md)**  
+|Mechanism|Name|Purpose|
+|---------|----|-------|
+|SM Config setting|**use\_location**|Master toggle in the local Service Management configuration that controls whether location/proximity is used in agent recommendations|
+|Property|**autodispatch.geolocation**|Enables geolocation-based distance calculations for auto-dispatch|
+|Property|**travel.calculation.auto\_assignment**|Controls map provider for manual/auto assignment \(defaults to Google Maps API\)|
+|Property|**travel.calculation.dynamic\_scheduling**|Controls map provider for dynamic scheduling \(defaults to straight-line estimate\)|
+|Property|**work.spacing**|Task spacing in hours, affects travel time calculations between tasks|
+
+-   **[Request additional information to qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_RequestAdditionalInformation.md)**  
 Transfer orders move necessary parts to the location where the agent can receive them. If there is not enough information to create a transfer order, the dispatcher can request more details from the qualifier.
--   **[Qualify a work order](../task/t_QualifyATask.md)**  
+-   **[Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_QualifyATask.md)**  
 When a work order is assigned to you for qualification, review and qualify its tasks to ensure that they contain enough information for the groups that are dispatched to work on them. Qualifying work order tasks is required only when Field Service Management is configured for manual qualification.
--   **[Move a work order task to the dispatch queue](../task/t_PromoteDraftWorkOrderTasks.md)**  
+-   **[Move a work order task to the dispatch queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_PromoteDraftWorkOrderTasks.md)**  
 If Field Service Management is configured to automatically qualify work orders, tasks are also automatically created for the orders. When one of these automatically created tasks is assigned to you, select a dispatch group for it and move it to the dispatch queue.
 
-**Parent Topic:**[Manage work orders](c_ManageWorkOrders.md)
+**Parent Topic:**[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageWorkOrders.md)
 

@@ -2,6 +2,7 @@
 title: Book an appointment as a customer
 description: Book an appointment for a service from either the Customer or the Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking/appointment-booking-book-appt-UI.html
 release: yokohama
 product: Appointment Booking
 classification: appointment-booking
@@ -60,5 +61,5 @@ Booking an appointment creates a work order for the selected service. After the 
     When the work order is assigned and accepted by a technician, the customer receives a confirmation email and SMS.
 
 
-**Parent Topic:**[Manage appointments as a customer](../concept/manage-appts-as-a-customer.md)
+**Parent Topic:**[Manage appointments as a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/manage-appts-as-a-customer.md)
 

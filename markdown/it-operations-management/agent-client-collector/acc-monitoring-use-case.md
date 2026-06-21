@@ -2,6 +2,7 @@
 title: Agent Client Collector Monitoring use case
 description: The Agent Client Collector Monitoring use case demonstrates how organizations can achieve unified monitoring across hybrid IT environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-monitoring-use-case.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector

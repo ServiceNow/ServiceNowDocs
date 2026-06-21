@@ -2,6 +2,7 @@
 title: Configure crawl settings for a Notion external content connector
 description: Specify the pages you want your Notion external content connector to crawl and feed to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-notion-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,7 +19,7 @@ Specify the pages you want your Notion external content connector to crawl and f
 
 ## Before you begin
 
-A connector admin must have already created the Notion external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Notion external content connector](create-ext-cont-connector-notion.md).
+A connector administrator must have already created the Notion external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Notion external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-notion.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -67,7 +68,7 @@ The Notion external content connector is updated with your modified crawl settin
 
 ## What to do next
 
-To retrieve content from your Notion source system using your modified crawl settings, create and run a one-time content crawl for your Notion external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your Notion source system using your modified crawl settings, create and run a one-time content crawl for your Notion external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Notion external content connector](../concept/notion-external-content-connector.md)
+**Parent Topic:**[Notion external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/notion-external-content-connector.md)
 

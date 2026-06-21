@@ -2,6 +2,7 @@
 title: Configure an assessment trigger condition
 description: Define rule conditions and generate required and optional assessments for specific security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/post-incident-review-setup.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -46,6 +47,6 @@ Role required: sn\_si.admin
 
         -   If you create a rule without defining a condition in the **Condition** field, then the condition is evaluated as true and the rule is applicable for all security incidents.
         -   You can define a specific rule to make the assessments either mandatory or optional, and the assessments are not generated for the remaining security incidents, which don't match the defined rules.
-        ![Screenshot for assessment trigger conditions](../image/assmt-trigger-conditions.png "Trigger conditions")
+        \[Omitted image "assmt-trigger-conditions.png"\] Alt text: Screenshot for assessment trigger conditions
 
 

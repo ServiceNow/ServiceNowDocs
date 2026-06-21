@@ -2,6 +2,7 @@
 title: CMDB service classes
 description: Service Reliability Management typically supports several Configuration Management Database \(CMDB\) service classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-cmdb-service-classes.html
 release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
@@ -24,5 +25,5 @@ Types of CMDB service classes that Service Reliability Management support:
 -   Calculated application services \(cmdb\_ci\_calculated\)
 -   Tag-based application services \(cmdb\_ci\_service\_by\_tags\)
 
-**Parent Topic:**[Service Reliability Management reference](service-reliability-management-reference.md)
+**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

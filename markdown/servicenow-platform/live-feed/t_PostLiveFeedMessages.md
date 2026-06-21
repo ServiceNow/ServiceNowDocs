@@ -2,6 +2,7 @@
 title: Post a Live Feed message
 description: You can post a message to open a new feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_PostLiveFeedMessages.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -29,10 +30,10 @@ Role required: none
 
     Use hashtags, if you want.
 
-4.  As needed, click ![Poll icon](../image/Poll-Icon.png), ![Attachment icon](../../../common/image/AttachmentIcon.png), or ![Screenshot icon](../image/ScreenshotIcon.png) to add a poll, attachment, or screenshot image, respectively.
+4.  As needed, click \[Omitted image "Poll-Icon.png"\] Alt text: Poll icon, \[Omitted image "AttachmentIcon.png"\] Alt text: Attachment icon, or \[Omitted image "ScreenshotIcon.png"\] Alt text: Screenshot icon to add a poll, attachment, or screenshot image, respectively.
 
 5.  Click **Post**.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

@@ -2,6 +2,7 @@
 title: Proactive Prompts for Skills Foundation
 description: Recommend roles, skills, and missing proficiencies to the employees and get approval from managers in their flow of work using Proactive Prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/proactive-prompts-skills.html
 release: yokohama
 product: Talent Development Core
 classification: talent-development-core
@@ -27,5 +28,5 @@ Make sure that the signals are configured and scheduled to deliver the prompts. 
 |Skills Update Reminder Prompt to Employees|Signal configuration to trigger prompt for employees to either add new skills or update proficiencies for the existing skills.|
 |Review Skills Profile Prompt to Employees|Signal configuration to trigger prompt for employee to update their profile based on the recent activities.|
 
-**Parent Topic:**[Using Skills Foundation](using-skills-intelligence.md)
+**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/using-skills-intelligence.md)
 

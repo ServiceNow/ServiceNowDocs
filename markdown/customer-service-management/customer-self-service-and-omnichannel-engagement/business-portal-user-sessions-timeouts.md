@@ -2,6 +2,7 @@
 title: Business portal usage calculation
 description: Track how your customers and employees are using the portal. The Customer Portal Usage dashboard provides information about portal visits resulting in session counts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/business-portal-user-sessions-timeouts.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -25,13 +26,13 @@ A user session is a period of activity on the Customer service portal, Consumer 
 -   Bot session: Separate count of sessions generated due to bots and crawlers
 -   External session: Session where the user is an external user, typically a customer, or consumer who is logged in
 
-The aggregate session count is based on the following calculations:![The infographic displays the calculation for aggregate session count by subtracting guest sessions and bot sessions, and then adding external sessions.](../image/aggregate-session-count-csp.png).
+The aggregate session count is based on the following calculations:\[Omitted image "aggregate-session-count-csp.png"\] Alt text: The infographic displays the calculation for aggregate session count by subtracting guest sessions and bot sessions, and then adding external sessions..
 
 A user session times out after a specific period of inactivity.
 
 User access to the self-service portals is tracked as follows: per session, per day, and per portal. If the same user logs in from multiple browsers or devices, each login is counted as a separate visit. Each first call of a portal page starts a session and, the usage metrics are calculated for the 24 hours window.
 
-The default session timeout is 30 minutes. This setting can be adjusted using a system property. For more information about modifying the session timeout setting, see [Manage user sessions](https://www.servicenow.com/docs/access?context=c_ManageUserSessions&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+The default session timeout is 30 minutes. This setting can be adjusted using a system property. For more information about modifying the session timeout setting, see Manage user sessions.
 
 ## Site visit calculation examples
 

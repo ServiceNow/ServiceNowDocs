@@ -2,6 +2,7 @@
 title: Machine learning solutions for HR Service Delivery Agent Workspace
 description: Use machine learning solutions to auto determine the correct HR service and assignment group for cases in HR Service Delivery Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-prediction-service.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,12 +16,12 @@ breadcrumb: [Using the HR Service Delivery Agent Workspace, HR Service Delivery 
 
 Use machine learning solutions to auto determine the correct HR service and assignment group for cases in HR Service Delivery Agent Workspace.
 
--   **[Auto determination of HR service in HR Service Delivery Agent Workspace](determine-service-agent-workspace.md)**  
+-   **[Auto determination of HR service in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/determine-service-agent-workspace.md)**  
 Auto determine the correct HR service for a case in HR Service Delivery Agent Workspace. Enable an HR agent to transfer the case to the appropriate HR service rather than having to spend significant time manually triaging cases to appropriate HR services.
--   **[Auto determination of assignment group in HR Service Delivery Agent Workspace](determine-group-hr-agent-workspace.md)**  
+-   **[Auto determination of assignment group in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/determine-group-hr-agent-workspace.md)**  
 Auto determine the assignment group for a case in HR Service Delivery Agent Workspace. Enable an HR agent to transfer the case to the correct assignment group rather than having to spend significant time manually identifying groups for the HR cases.
--   **[Similar closed cases in HR Service Delivery Agent Workspace](determine-cc-agent-workspace.md)**  
+-   **[Similar closed cases in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/determine-cc-agent-workspace.md)**  
 Help an HR agent resolve the current case by displaying similar closed cases.
 
-**Parent Topic:**[Using the HR Service Delivery Agent Workspace](use-agent-ws-hr.md)
+**Parent Topic:**[Using the HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/use-agent-ws-hr.md)
 

@@ -2,11 +2,12 @@
 title: Available question types in Creator Studio
 description: Build apps using different types of questions on a form in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-form-elements-ref.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 5
 breadcrumb: [Creator Studio reference, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -102,7 +103,7 @@ Question set
 
 </td><td>
 
-Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see [Service catalog variable sets](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariableSets&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see .
 
 **Note:**
 
@@ -312,7 +313,7 @@ Filter conditions
 
 </td><td>
 
-Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see .
 
 </td><td>
 
@@ -321,5 +322,5 @@ Conditions that must be met to view certain choices. Select **Add condition** an
 -   Multi-select
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Creator Studio reference](creator-studio-reference.md)
+</table>**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-reference.md)
 

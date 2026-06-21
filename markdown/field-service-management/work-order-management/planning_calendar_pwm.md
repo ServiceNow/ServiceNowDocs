@@ -2,11 +2,12 @@
 title: Plan calendar
 description: As a planned work administrator or planner, you can manage schedule occurrences and work orders for planned work directly from the calendar. You can review event occurrences, cancel any duplicate work orders, generate new work orders, or make modifications to the schedule occurrences as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/planning\_calendar\_pwm.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
 ---
@@ -31,7 +32,7 @@ The planning calendar displays work order or schedule occurrence events that are
 
 You can navigate forward or backward in time or switch between views using buttons in the calendar header.
 
-The **Settings** pane, accessed through the gear icon \(![gear icon](../image/IconPersonalizeList.png)\), enables you to control the display of the calendar.
+The **Settings** pane, accessed through the gear icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: gear icon\), enables you to control the display of the calendar.
 
 |Field|Description|
 |-----|-----------|
@@ -39,7 +40,7 @@ The **Settings** pane, accessed through the gear icon \(![gear icon](../image/Ic
 |Records per group|The number of events to display per group on the calendar display.|
 |Calendar events to show|The type of event to be displayed on the calendar, either schedule occurrences or work orders.|
 
-The **Filter** pane, accessed through the filter icon\( ![filter icon](../image/filter-right-side.png)\) enables you to determine the information you want to view on the calendar.
+The **Filter** pane, accessed through the filter icon\( \[Omitted image "filter-right-side.png"\] Alt text: filter icon\) enables you to determine the information you want to view on the calendar.
 
 |Filter|Description|
 |------|-----------|
@@ -47,10 +48,10 @@ The **Filter** pane, accessed through the filter icon\( ![filter icon](../image/
 |Plan types|Displays records of a specified plan type|
 |Plan categories|Displays records of a specified plan category|
 
--   **[Create and view events using the planning calendar](../task/manage_schedule_occurrence.md#)**  
+-   **[Create and view events using the planning calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage_schedule_occurrence.md)**  
 Create and view the schedule occurrences and work orders of associated work plans through the planning calendar.
--   **[Cancel events using the planning calendar](../task/cancel-so-planning-calendar.md)**  
+-   **[Cancel events using the planning calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/cancel-so-planning-calendar.md)**  
 Cancel a schedule occurrence and the work order events of its associated work plans through the planning calendar.
 
-**Parent Topic:**[Create a work order for the planned work](creating-work-orders-from-planned-work.md)
+**Parent Topic:**[Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
 

@@ -2,6 +2,7 @@
 title: Edit supplier details from the Source-to-Pay Workspace
 description: Add or modify the details of an existing supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/edit-supplier-details.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -31,7 +32,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 3.  Select the **Details** tab and update the fields in the Supplier and General sections as needed.
 
-    For descriptions of the fields on the **Details** tab, see [Source-to-Pay Workspace Supplier page](../concept/supp-ws-details-page.md).
+    For descriptions of the fields on the **Details** tab, see [Source-to-Pay Workspace Supplier page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/supp-ws-details-page.md).
 
 4.  Select **Save**.
 
@@ -40,5 +41,5 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 The edited supplier details are updated in the system.
 
-**Parent Topic:**[Source-to-Pay Workspace Supplier page](../concept/supp-ws-details-page.md)
+**Parent Topic:**[Source-to-Pay Workspace Supplier page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/supp-ws-details-page.md)
 

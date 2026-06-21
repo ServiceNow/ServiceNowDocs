@@ -2,6 +2,7 @@
 title: Configure crawl settings for a Miro external content connector
 description: Specify the Spaces and boards you want your Miro external content connector to crawl. Define inclusion or exclusion filters to restrict the content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-miro-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the Spaces and boards you want your Miro external content connector to c
 
 ## Before you begin
 
-A connector admin must have already created the Miro external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Miro external content connector](create-ext-cont-connector-miro.md).
+A connector administrator must have already created the Miro external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-miro.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Miro external content connector crawls all accessible Spaces from its specified source system and sends searchable text content and metadata from all boards it finds to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the Miro external content connector crawls all accessible Spaces from its specified source system and sends searchable text content and metadata from all boards it finds to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for the Spaces to crawl when running content crawls
 -   Inclusion or exclusion filters for the boards to retrieve searchable text content and metadata from when running content crawls
@@ -84,7 +85,7 @@ The Miro external content connector is updated with your modified crawl settings
 
 ## What to do next
 
-To retrieve searchable text content and metadata from your Miro source system using your modified crawl settings, create and run a one-time content crawl for your Miro external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve searchable text content and metadata from your Miro source system using your modified crawl settings, create and run a one-time content crawl for your Miro external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Miro external content connector](../concept/miro-external-content-connector.md)
+**Parent Topic:**[Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/miro-external-content-connector.md)
 

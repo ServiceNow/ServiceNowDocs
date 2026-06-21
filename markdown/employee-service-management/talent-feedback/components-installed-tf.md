@@ -2,6 +2,7 @@
 title: Components installed with Talent Feedback
 description: Several types of components are installed with activation of the Talent Feedback plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-feedback/components-installed-tf.html
 release: yokohama
 product: Talent Feedback
 classification: talent-feedback
@@ -71,5 +72,5 @@ Talent Feedback Request Skill \[sn\_tf\_feedback\_request\_skill\]
 Stores all the skill related information for the feedback request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Talent Feedback reference](talent-feedback-reference.md)
+</table>**Parent Topic:**[Talent Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/talent-feedback-reference.md)
 

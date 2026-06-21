@@ -2,6 +2,7 @@
 title: AI systems
 description: An AI system is an AI-powered solution that is developed, deployed, and managed under a formal governance framework. This framework ensures that the system operates in a responsible, compliant, and risk-aware manner throughout its lifecycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/ai-system-airc.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -23,9 +24,9 @@ Governance frameworks are applied to manage the AI system throughout its lifecyc
 
 The following image shows the overview page of an AI system.
 
-![AI system overview page](../image/ai-system-overview-page.png "AI system overview page")
+\[Omitted image "ai-system-overview-page.png"\] Alt text: AI system overview page
 
-An AI system record provides an aggregated risk score. The individual risk scores for entities, that have Risk assessment for AI inventory as the Risk Assessment Methodology \(RAM\) roll-up and form an aggregated risk score. You can see the aggregated risk score under the Details tab of the AI system record in the **Aggregated risk score** section. For more information about how risk score is rolled up, see [Risk score rollup in Advanced Risk Assessment](../../grc-risk/concept/risk-rollup-ara-concept.md).
+An AI system record provides an aggregated risk score. The individual risk scores for entities, that have Risk assessment for AI inventory as the Risk Assessment Methodology \(RAM\) roll-up and form an aggregated risk score. You can see the aggregated risk score under the Details tab of the AI system record in the **Aggregated risk score** section. For more information about how risk score is rolled up, see [Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md).
 
 **Important:** To see the aggregated risk score, you must enable the **Migrate to Advanced Risk Assessments** \(`sn_risk_advanced.migrate_to_advanced_risk`\) under **All** &gt; **Advanced Risk** &gt; **Properties**.
 
@@ -35,7 +36,7 @@ Aggregated risk score consolidates individual risks such as bias, drift, and sec
 
 The following image shows the aggregated risk score section:
 
-![Details page of an AI system showing the aggregated risk score](../image/aggregated-risk-score-details-tab-ai-system.png "Aggregated risk score")
+\[Omitted image "aggregated-risk-score-details-tab-ai-system.png"\] Alt text: Details page of an AI system showing the aggregated risk score
 
 ## Related AI assets
 

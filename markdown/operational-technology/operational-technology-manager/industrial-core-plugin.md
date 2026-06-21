@@ -2,6 +2,7 @@
 title: Industrial Core plugin
 description: The Industrial Core plugin contains the class mappings needed for the Operational Technology \(OT\) certified Service Graph Connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/operational-technology-manager/industrial-core-plugin.html
 release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -43,7 +44,7 @@ The Industrial Core plugin introduces a configuration template to manage class m
 
 **Note:** Partners can extend the OT Class Mapping Template table in the scope of their application to capture the class mappings specific to the integration.
 
-For more information about the OT Class Mapping Template, see [Operational Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).For more information about reviewing class mappings for the Service Graph Connector for Microsoft Excel, see [Review class mappings](../task/review-class-mappings-sgc-excel.md).
+For more information about the OT Class Mapping Template, see .For more information about reviewing class mappings for the Service Graph Connector for Microsoft Excel, see [Review class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.md).
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ OT Device Network connection \[sn\_ot\_device\_network\_connection\]
 
 The OT Device Network Connection \[sn\_ot\_device\_network\_connection\] table references the CI relationships \[cmdb\_rel\_ci\] table, and identifies device-to-device connections in CI relationships for OT devices.**Note:** This data is populated with the available OT integrations and cannot be manually created.
 
-For more information about the OT Device Network Connection data model, see [Operational Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For more information about the OT Device Network Connection data model, see .
 
 </td></tr><tr><td>
 
@@ -97,5 +98,5 @@ OT AutomationCommit \[ot\_automation\_commit\]
 The OT Automation Repo Device M2M class acts a reference to the OT Automation Repo and the OT Entity table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Technology Manager reference](operational-technology-manager-reference.md)
+</table>**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

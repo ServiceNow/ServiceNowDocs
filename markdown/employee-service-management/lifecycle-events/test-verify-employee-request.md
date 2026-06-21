@@ -2,6 +2,7 @@
 title: Verify Lifecycle Events Employee requests configuration
 description: Use the Preview and Test capabilities to verify that the employee request activity has been configured correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/lifecycle-events/test-verify-employee-request.html
 release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
@@ -64,5 +65,5 @@ This task requires that you download the demo data that is provided with the Hum
     **Note:** The options associated with the **More Journey actions** icon depend on the audience configuration for the employee request. In this example that uses demo data, all employees see the **Request Change in Start Date** option.
 
 
-**Parent Topic:**[Lifecycle Events employee requests](../concept/employee-requests.md)
+**Parent Topic:**[Lifecycle Events employee requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/employee-requests.md)
 

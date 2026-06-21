@@ -2,20 +2,19 @@
 title: Getting started with flows
 description: Create a sample flow with a trigger and base system actions that requires an approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/getting-started-flow.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [Exploring flows, Exploring Workflow Studio, Workflow Studio, Build workflows]
 ---
 
 # Getting started with flows
 
 Create a sample flow with a trigger and base system actions that requires an approval.
-
-Introduction to spokes, setting up an application, granting access, creating a flow, setting up an ATF test, and publishing the flow.
 
 Watch this 11-minute video for an introduction to using Workflow Studio.
 
@@ -112,7 +111,7 @@ To understand basic flows, create an expense approval flow. This flow:
 
     -   Trigger: **Created**
     -   Table: **Expenses \[x\_expenses\_getting\_expenses\]**
-    ![Record trigger in a flow.](../images/get-start-trigger.png)
+    \[Omitted image "get-start-trigger.png"\] Alt text: Record trigger in a flow.
 
 6.  Add an if condition to the flow.
 
@@ -126,11 +125,11 @@ To understand basic flows, create an expense approval flow. This flow:
 
     4.  Set Condition 1 to **\[Trigger-&gt;Expenses Record-&gt;Amount\]** **\[less than\]** **\[100.00\]**.
 
-    ![Example if condition in a flow.](../images/if-condition-flow-getting-started.png)
+    \[Omitted image "if-condition-flow-getting-started.png"\] Alt text: Example if condition in a flow.
 
 7.  Underneath action 1, click **+** to add an action that runs when the If condition is met.
 
-    ![Icon to add an action or flow logic within an If condition.](../images/sub-action-plus-sign.png)
+    \[Omitted image "sub-action-plus-sign.png"\] Alt text: Icon to add an action or flow logic within an If condition.
 
 8.  Create an Update Record action that approves the request.
 
@@ -140,7 +139,7 @@ To understand basic flows, create an expense approval flow. This flow:
     -   Fields:
         -   Approval: **Approved**
         -   Work notes: `Auto-approved. Amount less than $100.00`
-    ![Update Record action to approve the request.](../images/approved-flow-getting-started.png)
+    \[Omitted image "approved-flow-getting-started.png"\] Alt text: Update Record action to approve the request.
 
 9.  Add an else condition to the flow.
 
@@ -155,17 +154,17 @@ To understand basic flows, create an expense approval flow. This flow:
         -   Table: Set to **Expenses \[x\_expenses\_getting\_expenses\]**.
         -   Approval Field: Set to **Approval**.
         -   Journal Field: Set to **Approval history**.
-        ![Add an Ask For Approval action that evaluates in the Else clause.](../images/action-fields-flow-getting-started.png)
+        \[Omitted image "action-fields-flow-getting-started.png"\] Alt text: Add an Ask For Approval action that evaluates in the Else clause.
 
     2.  Define the rules in the Ask for Approval step.
 
         -   **\[Approve\]** when **\[Anyone approves\]** from the field **\[Trigger-&gt;Expenses Record-&gt;Requested for-&gt;Manager\]**, **\[OR\]**
-        -   **\[Anyone approves\]** from the **\[Manual User\(s\)\]** list. Select Manual approvers ![Manual approvers icon](../images/manual-users-icon.png) to allow a manual approver to process an approval or rejection. A manual approver is a user manually added to the Approvers related list who can then approve the request. For example, you can manually add a subject matter expert to a task to approve the request. To learn more about adding manual approvers, see [Generate approvals using the approvers related list](../../service-administration/concept/c_GenApprovalsUsingApprsRelList.md).
+        -   **\[Anyone approves\]** from the **\[Manual User\(s\)\]** list. Select Manual approvers \[Omitted image "manual-users-icon.png"\] Alt text: Manual approvers icon to allow a manual approver to process an approval or rejection. A manual approver is a user manually added to the Approvers related list who can then approve the request. For example, you can manually add a subject matter expert to a task to approve the request. To learn more about adding manual approvers, see [Generate approvals using the approvers related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/approvals/c_GenApprovalsUsingApprsRelList.md).
         Select **Add another OR rule set** to define rejection rules. When defining approvals, make sure to include rejection rules to avoid creating flows that remain in a waiting state if there are no matching approval rules.
 
         -   **\[Reject\]** when **\[Anyone rejects\]** from the field **\[Trigger-&gt;Expenses Record-&gt;Requested for-&gt;Manager\]**, **\[OR\]**
         -   **\[Anyone rejects\]** from the **\[Manual User\(s\)\]** list.
-        ![Rules in the Ask for Approval step.](../images/rule-fields-flow-getting-started.png)
+        \[Omitted image "rule-fields-flow-getting-started.png"\] Alt text: Rules in the Ask for Approval step.
 
     3.  Define a due date to automatically approve, cancel, or reject an approval if the request is not approved or denied by the designated time.
 
@@ -175,7 +174,7 @@ To understand basic flows, create an expense approval flow. This flow:
         -   Days schedule **\[8-5 weekdays excluding holidays\]**.
         This due date automatically approves all requests that have not been approved or denied within one day from when the request was created.
 
-        ![Due date in the Ask for Approval step.](../images/due-date-flow-getting-started.png)
+        \[Omitted image "due-date-flow-getting-started.png"\] Alt text: Due date in the Ask for Approval step.
 
 11. Click **Save**.
 
@@ -199,7 +198,7 @@ To understand basic flows, create an expense approval flow. This flow:
 
     Because the amount is less than 100.00, the first condition is met and the request is approved.
 
-    ![Execution details showing the If clause evaluated and completed.](../images/get-start-test.png)
+    \[Omitted image "get-start-test.png"\] Alt text: Execution details showing the If clause evaluated and completed.
 
 13. Navigate back to the flow and run the test again using a record with an amount over the designated amount.
 
@@ -207,7 +206,7 @@ To understand basic flows, create an expense approval flow. This flow:
 
     Because the amount is over the designated limit, the request must be approved. Until a manager or a manual approver approves the request, the state is **Waiting**.
 
-    ![Execution details showing the Else clause evaluated and waiting for approval.](../images/flow-test-waiting.png)
+    \[Omitted image "flow-test-waiting.png"\] Alt text: Execution details showing the Else clause evaluated and waiting for approval.
 
 15. Approve the request.
 
@@ -223,19 +222,19 @@ To understand basic flows, create an expense approval flow. This flow:
 
         Because the request is approved, the flow completes.
 
-        ![Execution details showing the Else clause evaluated and completed.](../images/flow-test-approved.png)
+        \[Omitted image "flow-test-approved.png"\] Alt text: Execution details showing the Else clause evaluated and completed.
 
 
 ## What to do next
 
-Transform the Ask for Approval action into a reusable action using Workflow Studio. Actions enable flow designers to add complex actions to multiple flows with minimal configuration. See [Getting started with actions](getting-started-action.md).
+Transform the Ask for Approval action into a reusable action using Workflow Studio. Actions enable flow designers to add complex actions to multiple flows with minimal configuration. See [Getting started with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/getting-started-action.md).
 
--   **[Build your first flow in Workflow Studio](build-your-first-flow.md)**  
+-   **[Build your first flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/build-your-first-flow.md)**  
 Step through an example of how to build, test, and activate a sample flow in Workflow Studio.
--   **[Build a flow from a template in App Engine Studio](build-flow-from-template.md)**  
+-   **[Build a flow from a template in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/build-flow-from-template.md)**  
 Step through an example of how to build, test, and activate a flow using a flow template in App Engine Studio.
--   **[Use the Workflow Studio help panel](use-flow-designer-help-panel.md)**  
+-   **[Use the Workflow Studio help panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/use-flow-designer-help-panel.md)**  
 Browse topics in the side help panel to learn more about building flows and actions, working with data and spokes, and stepping through guided tours in Workflow Studio.
 
-**Parent Topic:**[Exploring flows](../../workflow-studio/concept/exploring-flows.md)
+**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md)
 

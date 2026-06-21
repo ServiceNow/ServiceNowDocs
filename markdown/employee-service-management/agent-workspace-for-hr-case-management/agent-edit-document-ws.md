@@ -2,6 +2,7 @@
 title: Edit a generated document in Agent Workspace for HR Case Management
 description: Support rendering values of variables, scripts, and blocks in edit mode in Preview Document. View the content of variables, scripts, or blocks rather than only viewing the variable or block names.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-edit-document-ws.html
 release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

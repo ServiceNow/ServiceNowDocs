@@ -2,6 +2,7 @@
 title: Configuring Contract Management Pro
 description: Configure foundational data for Contract Management Pro to submit and manage contract requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-config-cmpro.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro

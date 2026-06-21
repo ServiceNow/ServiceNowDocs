@@ -2,6 +2,7 @@
 title: Next steps when replatforming apps to ServiceNow using ERP-CM
 description: After you use ERP Semantic Mining \(ERP-CM\) to identify legacy ERP \(Enterprise Resource Planning\) candidates, use additional ServiceNow AI Platform products and resources to replatform your app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/ecm-next-steps-replatforming.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -31,22 +32,22 @@ As you plan to replatform a legacy app on the ServiceNow AI Platform, consider w
 
 If ERP-CM shows that a candidate has a number of similar candidates, consider building one app that meets the needs of some or all similar candidates when you replatform.
 
-![ERP Semantic Mining candidates page with similar candidates column highlighted.](../image/ecm-similar-candidates.png)
+\[Omitted image "ecm-similar-candidates.png"\] Alt text: ERP Semantic Mining candidates page with similar candidates column highlighted.
 
 When you replatform a custom app from the system of record, you don't have to replicate the old app exactly. Use the replatforming process to design a better app, perhaps one that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform. App Engine Studio is the quickest app to use, but there are other builders available to you, depending on your licensing.
 
 ## ServiceNow low- and pro-code builders
 
-After you identify ERP data to replatform, citizen developers can use ServiceNow builders to create apps quickly from the data. Any custom fields that exist in the ERP system of record, such as SAP, can be leveraged by the apps you build using the ServiceNow AI Platform. For more on citizen development, see [Delegated development and deployment](../../applications/concept/c_DelegatedDevelopment.md).
+After you identify ERP data to replatform, citizen developers can use ServiceNow builders to create apps quickly from the data. Any custom fields that exist in the ERP system of record, such as SAP, can be leveraged by the apps you build using the ServiceNow AI Platform. For more on citizen development, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 Use any of the following ServiceNow builders to create apps using custom data:
 
--   [App Engine Studio](../../app-engine-studio/concept/aes-overview.md)
--   [Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
--   [Playbooks in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-process-automation-designer&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
--   [Table Builder](../../../administer/form-builder/concept/tb-landing-page.md)
--   [UI Builder](../../../administer/ui-builder/concept/ui-builder-overview.md)
--   [Workspace Builder](../../app-engine-studio/task/add-workspace.md)
+-   [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-overview.md)
+-   Flows in Workflow Studio
+-   Playbooks in Workflow Studio
+-   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/tb-landing-page.md)
+-   [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/ui-builder-overview.md)
+-   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)
 
 For example, use in App Engine Studio, use a template \(or build the app from the ground up\) and incorporate remote tables using ERP models and remote tables. You can combine legacy data from the ERP models and remote tables with other ServiceNow data in tables.
 
@@ -54,7 +55,7 @@ For example, use in App Engine Studio, use a template \(or build the app from th
 
 You can also access data from the system of record through the Glide API.
 
-For more information, see [Sample Glide query for ERP data in ERP Semantic Mining](../reference/using-glide-to-query-erp-data.md).
+For more information, see [Sample Glide query for ERP data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/using-glide-to-query-erp-data.md).
 
 ## After you replatform custom code to a ServiceNow app
 
@@ -64,5 +65,5 @@ After you've identified candidates to replatform and taken the recommended actio
 
 If you're sure that the legacy code on the system of record isn't referenced anywhere else, you can remove it from the system after it's replatformed to a ServiceNow instance.
 
-**Parent Topic:**[Exploring ERP Semantic Mining](exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
 

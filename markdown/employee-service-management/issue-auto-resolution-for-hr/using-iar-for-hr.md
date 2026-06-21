@@ -2,6 +2,7 @@
 title: Using Issue Auto Resolution for HR to handle cases
 description: You can use the Issue Auto Resolution for HR application to quickly handle your organization's high-volume, low-value HR cases and reduce the burden on your agents so that they can focus on issues that need more experience or manual assistance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/issue-auto-resolution-for-hr/using-iar-for-hr.html
 release: yokohama
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
@@ -27,7 +28,7 @@ Let's say that an employee recently joined your organization. The employee doesn
 
 The following example shows how a new employee can use a personal mobile phone to raise a healthcare-related request.
 
-![Employee inquiry via an email and response via SMS.](../image/Using-IAR-Scenario-1.png "Employee inquiring about healthcare benefits")
+\[Omitted image "Using-IAR-Scenario-1.png"\] Alt text: Employee inquiry via an email and response via SMS.
 
 1.  The employee submits an HR general inquiry through an email from the employee's own mobile device.
 2.  The employee receives an SMS notification with recommendations that are related to the inquiry.
@@ -46,7 +47,7 @@ Let's say that an employee recently joined your organization as a program manage
 
 The following example shows how a new employee can use a company laptop to raise a healthcare-related request.
 
-![Employee inquiry via an email and response via Microsoft Teams.](../image/iar-request-resolution-teams.png "Inquiring about healthcare benefits through email")
+\[Omitted image "iar-request-resolution-teams.png"\] Alt text: Employee inquiry via an email and response via Microsoft Teams.
 
 1.  The employee submits a HR general inquiry through an email via a desktop computer.
 2.  The employee logs in to Microsoft Teams and is greeted by the Issue Auto Resolution virtual assistance.

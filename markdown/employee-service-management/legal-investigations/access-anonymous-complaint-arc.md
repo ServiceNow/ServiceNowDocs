@@ -2,6 +2,7 @@
 title: Access your anonymous report from the Anonymous Report Center portal
 description: You can follow up on your anonymous report to view comments and updates from the legal fulfiller working on it or add comments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-investigations/access-anonymous-complaint-arc.html
 release: yokohama
 product: Legal Investigations
 classification: legal-investigations
@@ -25,15 +26,15 @@ Role required: None
 
 1.  Open the Anonymous Report Center portal either via Employee Center portal or using a direct URL.
 
-<table id="choicetable_rlf_djt_h5b"><thead><tr><th align="left" id="d445925e57">
+<table id="choicetable_rlf_djt_h5b"><thead><tr><th align="left" id="d331506e57">
 
 Option
 
-</th><th align="left" id="d445925e60">
+</th><th align="left" id="d331506e60">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d445925e66">
+</th></tr></thead><tbody><tr><td id="d331506e66">
 
 **From Employee Center**
 
@@ -44,7 +45,7 @@ Steps
 3.  In the Ethics and Compliance request category page, click **Anonymous Ethics Complaint**.
 
 
-</td></tr><tr><td id="d445925e111">
+</td></tr><tr><td id="d331506e111">
 
 **Using direct URL that does not require a log in**
 
@@ -52,7 +53,7 @@ Steps
 
 Navigate to the Anonymous Report Center by accessing your instance URL and adding a /arc suffix. For example, https://example.com/arc
 
-</td></tr><tr><td id="d445925e120">
+</td></tr><tr><td id="d331506e120">
 
 **From Legal Service Portal**
 
@@ -72,7 +73,7 @@ Navigate to the Anonymous Report Center by accessing your instance URL and addin
 
 3.  In the Anonymous Report Center portal, click **Follow up on a report**.
 
-    ![Access report in the Anonymous Report Center](../image/arc-view-report.png)
+    \[Omitted image "arc-view-report.png"\] Alt text: Access report in the Anonymous Report Center
 
 4.  On the Follow up on a report page, enter the details.
 
@@ -89,5 +90,5 @@ Navigate to the Anonymous Report Center by accessing your instance URL and addin
     The report is displayed in the Standard Ticket Page.
 
 
-**Parent Topic:**[Submit a complaint through the Anonymous Report Center portal](submit-complaint-arc.md)
+**Parent Topic:**[Submit a complaint through the Anonymous Report Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-investigations/submit-complaint-arc.md)
 

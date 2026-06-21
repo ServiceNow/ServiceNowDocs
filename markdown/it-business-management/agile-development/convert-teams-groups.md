@@ -2,6 +2,7 @@
 title: Convert Agile Development 1.0 teams to Agile Development 2.0 groups
 description: Complete most of the migration steps by converting teams in Agile Development 1.0 to groups in Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/agile-development/convert-teams-groups.html
 release: yokohama
 product: Agile Development
 classification: agile-development
@@ -17,19 +18,19 @@ Complete most of the migration steps by converting teams in Agile Development 1.
 
 ## Before you begin
 
-Complete the procedure given in [Complete the prerequisites for converting teams to Agile Development 2.0 groups](steps-prior-conversion.md).
+Complete the procedure given in [Complete the prerequisites for converting teams to Agile Development 2.0 groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/steps-prior-conversion.md).
 
 Role required: admin
 
 ## About this task
 
-**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](../reference/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
+**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Agile Development** &gt; **Groups**.
 
-    ![How to nàvigate to groups](../image/create-sprints.png)
+    \[Omitted image "create-sprints.png"\] Alt text: How to nàvigate to groups
 
     An empty list is displayed because there are no assignment groups with the type Agile Team. If there are any groups with the type Agile Team, a list of groups are displayed.
 
@@ -37,9 +38,9 @@ Role required: admin
 
     The list of all release teams \(scrum\_pp\_team\) table that you had defined in the Agile Development plugin is displayed. If you have been defining teams for each release, multiple records are displayed for the team \(team with the same name\), one for each release. In the following screenshot, four records are displayed for the team Facilities Software Team, one for each release.
 
-    ![Image displaying four records for the team Facilities Software Team, one for each release.](../image/teams.png)
+    \[Omitted image "teams.png"\] Alt text: Image displaying four records for the team Facilities Software Team, one for each release.
 
-3.  [Complete the prerequisites for converting teams to groups](steps-prior-conversion.md).
+3.  [Complete the prerequisites for converting teams to groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/steps-prior-conversion.md).
 
     Since migration is performed on a non-production instance first, convert one team to a group, verify if the migration is done successfully for the team, and then perform the same procedure for rest of the teams.
 
@@ -52,10 +53,10 @@ Role required: admin
     -   Update the group type to Agile Team.
     -   If release team members and group members are different, synchronize the members between group and team.
 
--   **[Complete the prerequisites for converting teams to Agile Development 2.0 groups](steps-prior-conversion.md)**  
+-   **[Complete the prerequisites for converting teams to Agile Development 2.0 groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/steps-prior-conversion.md)**  
 Perform prerequisite steps to later ensure that the conversion of teams to Agile Development 2.0 groups is successful.
--   **[Verify the conversion of Agile Development 1.0 teams to Agile Development 2.0 groups](verify-after-conversion.md)**  
+-   **[Verify the conversion of Agile Development 1.0 teams to Agile Development 2.0 groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/verify-after-conversion.md)**  
 Perform verification steps to ensure that the conversion of a team to an assignment group is successful.
 
-**Parent Topic:**[Migration from Agile Development 1.0 to Agile Development 2.0](../concept/migrate-agile.md)
+**Parent Topic:**[Migration from Agile Development 1.0 to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/migrate-agile.md)
 

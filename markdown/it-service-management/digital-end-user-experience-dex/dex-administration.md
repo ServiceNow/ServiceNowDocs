@@ -2,6 +2,7 @@
 title: DEX administration
 description: As a DEX admin, manage your organization application and device performance, enable app monitoring, and create metric rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/dex-administration.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

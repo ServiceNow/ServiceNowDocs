@@ -2,6 +2,7 @@
 title: Components installed with Customer Engagement Sequences
 description: Several types of components are installed with activation of the Customer Engagement Sequences plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/components-installed-customer-engagement-sequences.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -81,5 +82,5 @@ Stores the sequence task records that are generated when a sequence is triggered
 </td></tr></tbody>
 </table>The Customer Engagement Sequence Task \[sn\_crm\_sequence\_task\] table extends the Task \[task\] table.
 
-**Parent Topic:**[Sales Customer Relationship Management reference](../concept/som-reference.md)
+**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-reference.md)
 

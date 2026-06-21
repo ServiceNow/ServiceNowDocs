@@ -2,6 +2,7 @@
 title: Configure the chat to enable auto-import
 description: Create a chat configuration to automatically import the chats between the agents and the requesters for additional tables to extend the auto import functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/configure-auto-import-chats.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,11 +24,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **ServiceNow for Microsoft 365** &gt; **Chat Administration** &gt; **Chat Configuration**.
 
-    ![Chat configuration](../images/chat-configuration.png)
+    \[Omitted image "chat-configuration.png"\] Alt text: Chat configuration
 
 2.  Click **Default** option to view the default OOB configuration.
 
-    ![Default chat configuration](../images/default-chat-configuration.png)
+    \[Omitted image "default-chat-configuration.png"\] Alt text: Default chat configuration
 
     **Note:** If you want to auto-import chats for certain conditions, create a condition.
 
@@ -35,7 +36,7 @@ Role required: admin
 
 4.  Click **New**.
 
-    ![New chat configuration](../images/new-chat-configuration.png)
+    \[Omitted image "new-chat-configuration.png"\] Alt text: New chat configuration
 
 5.  On the form, fill the fields.
 
@@ -130,12 +131,12 @@ Option to provide a text message that displays to the agent when the agent initi
  This field is enabled only if the **Auto Import** option is selected.
 
 </td></tr></tbody>
-</table>    ![New chat configuration](../images/new-chat-configuration-2.png)
+</table>    \[Omitted image "new-chat-configuration-2.png"\] Alt text: New chat configuration
 
 6.  Click **Submit**.
 
     The chat configuration defined will be applicable only for the table selected. You can extend the chat configuration to other tables by creating another chat configuration record.
 
 
-**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](../concept/auto-import-messages.md)
+**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/auto-import-messages.md)
 

@@ -2,6 +2,7 @@
 title: Property settings for Now Assist for CMDB
 description: List of system properties for the agents used by Now Assist for CMDB agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.html
 release: yokohama
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -103,5 +104,5 @@ Retrieves knowledge articles from other connector categories, in addition to the
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for CMDB reference](../../configuration-management/concept/now-assist-cmdb-reference.md)
+</table>**Parent Topic:**[Now Assist for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
 

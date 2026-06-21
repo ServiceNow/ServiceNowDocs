@@ -2,6 +2,7 @@
 title: Application plugin installation sequence in Accounts Payable Operations
 description: View the consolidated list of plugins, high-level description of each plugin, and the dependencies that are required before installing each plugin in Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/application-plugin-installation-sequence-apo.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations

@@ -2,9 +2,10 @@
 title: Available patches and hotfixes
 description: The Yokohama family includes patches and hotfixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-04-16"
+last_updated: "2026-06-19"
 reading_time_minutes: 10
 breadcrumb: [Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -13,7 +14,7 @@ breadcrumb: [Learn about the Yokohama release, Yokohama release notes]
 
 The Yokohama family includes patches and hotfixes.
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -25,9 +26,9 @@ Targets are subject to change prior to patching. Target versions change only if 
 
 |Releases|Patch target option|Release notes|
 |--------|-------------------|-------------|
-|Zurich|[Zurich Patch 7](https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-7.html)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
-|Yokohama|[Yokohama Patch 12 Hotfix 1](https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-patch-12-hf-1.html)|[Yokohama](https://servicenow.com/docs/bundle/yokohama-release-notes/page/release-notes/available-versions.html)|
-|Xanadu|[Xanadu Patch 11 Hotfix 1a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2711346)|[Xanadu](https://servicenow.com/docs/bundle/xanadu-release-notes/page/release-notes/available-versions.html)|
+|Australia|[Australia Patch 2 Hotfix 1](https://www.servicenow.com/docs/r/release-notes/australia-patch-2-hf-1.html)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
+|Zurich|[Zurich Patch 7b Hotfix 1](https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-7b-hf-1.html)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
+|Yokohama|[Yokohama Patch 12 Hotfix 1b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2989855)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
 
 ## Available versions
 
@@ -51,7 +52,73 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
-[Yokohama Patch 12 Hotfix 2](quality/yokohama-patch-12-hf-2-PO.md)
+[Yokohama Patch 13 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13-hf-2-PO.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/05
+
+</td><td>
+
+Available by request
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13-hf-1.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/05/27
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13.md)
+
+ [Yokohama Patch 13 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2962846)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/05/05
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Yokohama Patch 12 Hotfix 2b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3101075)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/19
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Yokohama Patch 12 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-12-hf-2-PO.md)
 
 </td><td>
 
@@ -67,6 +134,22 @@ Unavailable
 
 </td></tr><tr><td>
 
+[Yokohama Patch 12 Hotfix 1b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2989855)
+
+</td><td>
+
+Security patch
+
+</td><td>
+
+2026/05/14
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
 [Yokohama Patch 12 Hotfix 1a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2935652)
 
 </td><td>
@@ -79,11 +162,11 @@ Security patch
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 12 Hotfix 1](quality/yokohama-patch-12-hf-1.md)
+[Yokohama Patch 12 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-12-hf-1.md)
 
 </td><td>
 
@@ -95,11 +178,11 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 12](quality/yokohama-patch-12.md)
+[Yokohama Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-12.md)
 
  [Yokohama Patch 12 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2720387)
 
@@ -117,7 +200,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 11 Hotfix 2](quality/yokohama-patch-11-hf-2-PO.md)
+[Yokohama Patch 11 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11-hf-2-PO.md)
 
 </td><td>
 
@@ -133,7 +216,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 11 Hotfix 1](quality/yokohama-patch-11-hf-1-PO.md)
+[Yokohama Patch 11 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11-hf-1-PO.md)
 
 </td><td>
 
@@ -149,7 +232,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 11](quality/yokohama-patch-11.md)
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
  [Yokohama Patch 11 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2684607)
 
@@ -167,7 +250,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 10 Hotfix 2b](quality/yokohama-patch-10-hf-2b.md)
+[Yokohama Patch 10 Hotfix 2b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-10-hf-2b.md)
 
 </td><td>
 
@@ -183,7 +266,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 10 Hotfix 2a](quality/yokohama-patch-10-hf-2a-PO.md)
+[Yokohama Patch 10 Hotfix 2a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-10-hf-2a-PO.md)
 
 </td><td>
 
@@ -247,7 +330,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 10](quality/yokohama-patch-10.md)
+[Yokohama Patch 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-10.md)
 
  [Yokohama Patch 10 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2631466)
 
@@ -281,7 +364,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 9 Hotfix 1](quality/yokohama-patch-9-hf-1-PO.md)
+[Yokohama Patch 9 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-9-hf-1-PO.md)
 
 </td><td>
 
@@ -297,7 +380,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 9](quality/yokohama-patch-9.md)
+[Yokohama Patch 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-9.md)
 
  [Yokohama Patch 9 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2587878)
 
@@ -315,7 +398,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 8 Hotfix 4](quality/yokohama-patch-8-hf-4-PO.md)
+[Yokohama Patch 8 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8-hf-4-PO.md)
 
 </td><td>
 
@@ -331,7 +414,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 8 Hotfix 3](quality/yokohama-patch-8-hf-3-PO.md)
+[Yokohama Patch 8 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8-hf-3-PO.md)
 
 </td><td>
 
@@ -347,7 +430,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 8 Hotfix 2](quality/yokohama-patch-8-hf-2-PO.md)
+[Yokohama Patch 8 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8-hf-2-PO.md)
 
 </td><td>
 
@@ -363,7 +446,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 8 Hotfix 1](quality/yokohama-patch-8-hf-1-PO.md)
+[Yokohama Patch 8 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8-hf-1-PO.md)
 
 </td><td>
 
@@ -379,7 +462,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 8](quality/yokohama-patch-8.md)
+[Yokohama Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8.md)
 
  [Yokohama Patch 8 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2521419)
 
@@ -397,7 +480,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 7 Hotfix 6](quality/yokohama-patch-7-hf-6-PO.md)
+[Yokohama Patch 7 Hotfix 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7-hf-6-PO.md)
 
 </td><td>
 
@@ -413,7 +496,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 7 Hotfix 5](quality/yokohama-patch-7-hf-5-PO.md)
+[Yokohama Patch 7 Hotfix 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7-hf-5-PO.md)
 
 </td><td>
 
@@ -429,7 +512,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 7 Hotfix 4](quality/yokohama-patch-7-hf-4-PO.md)
+[Yokohama Patch 7 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7-hf-4-PO.md)
 
 </td><td>
 
@@ -461,7 +544,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 7 Hotfix 3](quality/yokohama-patch-7-hf-3-PO.md)
+[Yokohama Patch 7 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7-hf-3-PO.md)
 
 </td><td>
 
@@ -525,7 +608,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 7 Hotfix 1](quality/yokohama-patch-7-hf-1-PO.md)
+[Yokohama Patch 7 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7-hf-1-PO.md)
 
 </td><td>
 
@@ -541,7 +624,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 7](quality/yokohama-patch-7.md)
+[Yokohama Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7.md)
 
  [Yokohama Patch 7 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2399486)
 
@@ -559,7 +642,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 6 Hotfix 2](quality/yokohama-patch-6-hf-2.md)
+[Yokohama Patch 6 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6-hf-2.md)
 
 </td><td>
 
@@ -575,7 +658,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 6 Hotfix 1](quality/yokohama-patch-6-hf-1.md)
+[Yokohama Patch 6 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6-hf-1.md)
 
 </td><td>
 
@@ -591,7 +674,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 6](quality/yokohama-patch-6.md)
+[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
 
  [Yokohama Patch 6 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2309929)
 
@@ -609,7 +692,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 5 Hotfix 3](quality/yokohama-patch-5-hf-3-PO.md)
+[Yokohama Patch 5 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-5-hf-3-PO.md)
 
 </td><td>
 
@@ -625,7 +708,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 5 Hotfix 2](quality/yokohama-patch-5-hf-2-PO.md)
+[Yokohama Patch 5 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-5-hf-2-PO.md)
 
 </td><td>
 
@@ -641,7 +724,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 5 Hotfix 1](quality/yokohama-patch-5-hf-1-PO.md)
+[Yokohama Patch 5 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-5-hf-1-PO.md)
 
 </td><td>
 
@@ -657,7 +740,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 5](quality/yokohama-patch-5.md)
+[Yokohama Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-5.md)
 
  [Yokohama Patch 5 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2192702)
 
@@ -675,7 +758,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 4 Hotfix 2](quality/yokohama-patch-4-hf-2-PO.md)
+[Yokohama Patch 4 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-4-hf-2-PO.md)
 
 </td><td>
 
@@ -691,7 +774,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 4 Hotfix 1](quality/yokohama-patch-4-hf-1-PO.md)
+[Yokohama Patch 4 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-4-hf-1-PO.md)
 
 </td><td>
 
@@ -739,7 +822,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 4](quality/yokohama-patch-4.md)
+[Yokohama Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-4.md)
 
  [Yokohama Patch 4 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2150760)
 
@@ -773,7 +856,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 3 Hotfix 4](quality/yokohama-patch-3-hf-4-PO.md)
+[Yokohama Patch 3 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3-hf-4-PO.md)
 
 </td><td>
 
@@ -789,7 +872,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 3 Hotfix 3](quality/yokohama-patch-3-hf-3-PO.md)
+[Yokohama Patch 3 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3-hf-3-PO.md)
 
 </td><td>
 
@@ -805,7 +888,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 3 Hotfix 2](quality/yokohama-patch-3-hf-2.md)
+[Yokohama Patch 3 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3-hf-2.md)
 
 </td><td>
 
@@ -821,7 +904,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 3 Hotfix 1](quality/yokohama-patch-3-hf-1-PO.md)
+[Yokohama Patch 3 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3-hf-1-PO.md)
 
 </td><td>
 
@@ -837,7 +920,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 3](quality/yokohama-patch-3.md)
+[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
 
  [Yokohama Patch 3 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2060631)
 
@@ -855,7 +938,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 2 Hotfix 3](quality/yokohama-patch-2-hf-3-PO.md)
+[Yokohama Patch 2 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-2-hf-3-PO.md)
 
 </td><td>
 
@@ -871,7 +954,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 2 Hotfix 2](quality/yokohama-patch-2-hf-2.md)
+[Yokohama Patch 2 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-2-hf-2.md)
 
 </td><td>
 
@@ -887,7 +970,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 2 Hotfix 1](quality/yokohama-patch-2-hf-1-PO.md)
+[Yokohama Patch 2 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-2-hf-1-PO.md)
 
 </td><td>
 
@@ -903,7 +986,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 2](quality/yokohama-patch-2.md)
+[Yokohama Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-2.md)
 
  [Yokohama Patch 2 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2002785)
 
@@ -921,7 +1004,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 1b Hotfix 1](quality/yokohama-patch-1b-hf-1.md)
+[Yokohama Patch 1b Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1b-hf-1.md)
 
 </td><td>
 
@@ -969,7 +1052,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama Patch 1](quality/yokohama-patch-1.md)
+[Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
 
  [Yokohama Patch 1 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1953930)
 
@@ -987,7 +1070,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama EA Hotfix 1](quality/yokohama-patch-0-hf-1-PO.md)
+[Yokohama EA Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-0-hf-1-PO.md)
 
 </td><td>
 
@@ -1003,9 +1086,9 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Yokohama security and notable fixes](quality/yokohama-security-notables.md)
+[Yokohama security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-security-notables.md)
 
- [All other Yokohama fixes](quality/yokohama-all-other-fixes.md)
+ [All other Yokohama fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-all-other-fixes.md)
 
 </td><td>
 
@@ -1035,100 +1118,106 @@ For the latest MetricBase on-premise release notes, refer to [KB0748185](https:/
 
 ## Ancillary software releases
 
-For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **[Yokohama Patch 12 Hotfix 2](quality/yokohama-patch-12-hf-2-PO.md)**  
+-   **[Yokohama Patch 13 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13-hf-2-PO.md)**  
+The Yokohama Patch 13 Hotfix 2 release contains fixes to these problems.
+-   **[Yokohama Patch 13 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13-hf-1.md)**  
+The Yokohama Patch 13 Hotfix 1 release contains fixes to these problems.
+-   **[Yokohama Patch 13](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13.md)**  
+The Yokohama Patch 13 release contains important problem fixes.
+-   **[Yokohama Patch 12 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-12-hf-2-PO.md)**  
 The Yokohama Patch 12 Hotfix 2 release contains fixes to these problems.
--   **[Yokohama Patch 12 Hotfix 1](quality/yokohama-patch-12-hf-1.md)**  
+-   **[Yokohama Patch 12 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-12-hf-1.md)**  
 The Yokohama Patch 12 Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 12](quality/yokohama-patch-12.md)**  
+-   **[Yokohama Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-12.md)**  
 The Yokohama Patch 12 release contains important problem fixes.
--   **[Yokohama Patch 11 Hotfix 2](quality/yokohama-patch-11-hf-2-PO.md)**  
+-   **[Yokohama Patch 11 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11-hf-2-PO.md)**  
 The Yokohama Patch 11 Hotfix 2 release contains fixes to these problems.
--   **[Yokohama Patch 11 Hotfix 1](quality/yokohama-patch-11-hf-1-PO.md)**  
+-   **[Yokohama Patch 11 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11-hf-1-PO.md)**  
 The Yokohama Patch 11 Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 11](quality/yokohama-patch-11.md)**  
+-   **[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)**  
 The Yokohama Patch 11 release contains important problem fixes.
--   **[Yokohama Patch 10 Hotfix 2b](quality/yokohama-patch-10-hf-2b.md)**  
+-   **[Yokohama Patch 10 Hotfix 2b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-10-hf-2b.md)**  
 The Yokohama Patch 10 Hotfix 2b release contains fixes to these problems.
--   **[Yokohama Patch 10 Hotfix 2a](quality/yokohama-patch-10-hf-2a-PO.md)**  
+-   **[Yokohama Patch 10 Hotfix 2a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-10-hf-2a-PO.md)**  
 The Yokohama Patch 10 Hotfix 2a release contains fixes to these problems.
--   **[Yokohama Patch 10](quality/yokohama-patch-10.md)**  
+-   **[Yokohama Patch 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-10.md)**  
 The Yokohama Patch 10 release contains important problem fixes.
--   **[Yokohama Patch 9 Hotfix 1](quality/yokohama-patch-9-hf-1-PO.md)**  
+-   **[Yokohama Patch 9 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-9-hf-1-PO.md)**  
 The Yokohama Patch 9 Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 9](quality/yokohama-patch-9.md)**  
+-   **[Yokohama Patch 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-9.md)**  
 The Yokohama Patch 9 release contains important problem fixes.
--   **[Yokohama Patch 8 Hotfix 4](quality/yokohama-patch-8-hf-4-PO.md)**  
+-   **[Yokohama Patch 8 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8-hf-4-PO.md)**  
 The Yokohama Patch 8 Hotfix 4 release contains fixes to these problems.
--   **[Yokohama Patch 8 Hotfix 3](quality/yokohama-patch-8-hf-3-PO.md)**  
+-   **[Yokohama Patch 8 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8-hf-3-PO.md)**  
 The Yokohama Patch 8 Hotfix 3 release contains fixes to these problems.
--   **[Yokohama Patch 8 Hotfix 2](quality/yokohama-patch-8-hf-2-PO.md)**  
+-   **[Yokohama Patch 8 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8-hf-2-PO.md)**  
 The Yokohama Patch 8 Hotfix 2 release contains fixes to these problems.
--   **[Yokohama Patch 8 Hotfix 1](quality/yokohama-patch-8-hf-1-PO.md)**  
+-   **[Yokohama Patch 8 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8-hf-1-PO.md)**  
 The Yokohama Patch 8 Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 8](quality/yokohama-patch-8.md)**  
+-   **[Yokohama Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8.md)**  
 The Yokohama Patch 8 release contains important problem fixes.
--   **[Yokohama Patch 7 Hotfix 6](quality/yokohama-patch-7-hf-6-PO.md)**  
+-   **[Yokohama Patch 7 Hotfix 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7-hf-6-PO.md)**  
 The Yokohama Patch 7 Hotfix 6 release contains fixes to these problems.
--   **[Yokohama Patch 7 Hotfix 5](quality/yokohama-patch-7-hf-5-PO.md)**  
+-   **[Yokohama Patch 7 Hotfix 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7-hf-5-PO.md)**  
 The Yokohama Patch 7 Hotfix 5 release contains fixes to these problems.
--   **[Yokohama Patch 7 Hotfix 4](quality/yokohama-patch-7-hf-4-PO.md)**  
+-   **[Yokohama Patch 7 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7-hf-4-PO.md)**  
 The Yokohama Patch 7 Hotfix 4 release contains fixes to these problems.
--   **[Yokohama Patch 7 Hotfix 3](quality/yokohama-patch-7-hf-3-PO.md)**  
+-   **[Yokohama Patch 7 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7-hf-3-PO.md)**  
 The Yokohama Patch 7 Hotfix 3 release contains fixes to these problems.
--   **[Yokohama Patch 7 Hotfix 1](quality/yokohama-patch-7-hf-1-PO.md)**  
+-   **[Yokohama Patch 7 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7-hf-1-PO.md)**  
 The Yokohama Patch 7 Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 7](quality/yokohama-patch-7.md)**  
+-   **[Yokohama Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7.md)**  
 The Yokohama Patch 7 release contains important problem fixes.
--   **[Yokohama Patch 6 Hotfix 2](quality/yokohama-patch-6-hf-2.md)**  
+-   **[Yokohama Patch 6 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6-hf-2.md)**  
 The Yokohama Patch 6 Hotfix 2 release contains fixes to these problems.
--   **[Yokohama Patch 6 Hotfix 1](quality/yokohama-patch-6-hf-1.md)**  
+-   **[Yokohama Patch 6 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6-hf-1.md)**  
 The Yokohama Patch 6 Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 6](quality/yokohama-patch-6.md)**  
+-   **[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)**  
 The Yokohama Patch 6 release contains important problem fixes.
--   **[Yokohama Patch 5 Hotfix 3](quality/yokohama-patch-5-hf-3-PO.md)**  
+-   **[Yokohama Patch 5 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-5-hf-3-PO.md)**  
 The Yokohama Patch 5 Hotfix 3 release contains fixes to these problems.
--   **[Yokohama Patch 5 Hotfix 2](quality/yokohama-patch-5-hf-2-PO.md)**  
+-   **[Yokohama Patch 5 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-5-hf-2-PO.md)**  
 The Yokohama Patch 5 Hotfix 2 release contains fixes to these problems.
--   **[Yokohama Patch 5 Hotfix 1](quality/yokohama-patch-5-hf-1-PO.md)**  
+-   **[Yokohama Patch 5 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-5-hf-1-PO.md)**  
 The Yokohama Patch 5 Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 5](quality/yokohama-patch-5.md)**  
+-   **[Yokohama Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-5.md)**  
 The Yokohama Patch 5 release contains important problem fixes.
--   **[Yokohama Patch 4 Hotfix 2](quality/yokohama-patch-4-hf-2-PO.md)**  
+-   **[Yokohama Patch 4 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-4-hf-2-PO.md)**  
 The Yokohama Patch 4 Hotfix 2 release contains fixes to these problems.
--   **[Yokohama Patch 4 Hotfix 1](quality/yokohama-patch-4-hf-1-PO.md)**  
+-   **[Yokohama Patch 4 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-4-hf-1-PO.md)**  
 The Yokohama Patch 4 Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 4](quality/yokohama-patch-4.md)**  
+-   **[Yokohama Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-4.md)**  
 The Yokohama Patch 4 release contains important problem fixes.
--   **[Yokohama Patch 3 Hotfix 4](quality/yokohama-patch-3-hf-4-PO.md)**  
+-   **[Yokohama Patch 3 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3-hf-4-PO.md)**  
 The Yokohama Patch 3 Hotfix 4 release contains fixes to these problems.
--   **[Yokohama Patch 3 Hotfix 3](quality/yokohama-patch-3-hf-3-PO.md)**  
+-   **[Yokohama Patch 3 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3-hf-3-PO.md)**  
 The Yokohama Patch 3 Hotfix 3 release contains fixes to these problems.
--   **[Yokohama Patch 3 Hotfix 2](quality/yokohama-patch-3-hf-2.md)**  
+-   **[Yokohama Patch 3 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3-hf-2.md)**  
 The Yokohama Patch 3 Hotfix 2 release contains fixes to these problems.
--   **[Yokohama Patch 3 Hotfix 1](quality/yokohama-patch-3-hf-1-PO.md)**  
+-   **[Yokohama Patch 3 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3-hf-1-PO.md)**  
 The Yokohama Patch 3 Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 3](quality/yokohama-patch-3.md)**  
+-   **[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)**  
 The Yokohama Patch 3 release contains important problem fixes.
--   **[Yokohama Patch 2 Hotfix 3](quality/yokohama-patch-2-hf-3-PO.md)**  
+-   **[Yokohama Patch 2 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-2-hf-3-PO.md)**  
 The Yokohama Patch 2 Hotfix 3 release contains fixes to these problems.
--   **[Yokohama Patch 2 Hotfix 2](quality/yokohama-patch-2-hf-2.md)**  
+-   **[Yokohama Patch 2 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-2-hf-2.md)**  
 The Yokohama Patch 2 Hotfix 2 release contains fixes to these problems.
--   **[Yokohama Patch 2 Hotfix 1](quality/yokohama-patch-2-hf-1-PO.md)**  
+-   **[Yokohama Patch 2 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-2-hf-1-PO.md)**  
 The Yokohama Patch 2 Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 2](quality/yokohama-patch-2.md)**  
+-   **[Yokohama Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-2.md)**  
 The Yokohama Patch 2 release contains important problem fixes.
--   **[Yokohama Patch 1b Hotfix 1](quality/yokohama-patch-1b-hf-1.md)**  
+-   **[Yokohama Patch 1b Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1b-hf-1.md)**  
 The Yokohama Patch 1b Hotfix 1 release contains fixes to these problems.
--   **[Yokohama Patch 1](quality/yokohama-patch-1.md)**  
+-   **[Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)**  
 The Yokohama Patch 1 release contains important problem fixes.
--   **[Yokohama EA Hotfix 1](quality/yokohama-patch-0-hf-1-PO.md)**  
+-   **[Yokohama EA Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-0-hf-1-PO.md)**  
 The Yokohama EA Hotfix 1 release contains fixes to these problems.
--   **[Yokohama security and notable fixes](quality/yokohama-security-notables.md)**  
+-   **[Yokohama security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-security-notables.md)**  
 The Yokohama release contains important problem fixes.
--   **[All other Yokohama fixes](quality/yokohama-all-other-fixes.md)**  
+-   **[All other Yokohama fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-all-other-fixes.md)**  
 The Yokohama release contains important problem fixes.
 
-**Parent Topic:**[Learn about the Yokohama release](concept/rn-learn-landing-page.md)
+**Parent Topic:**[Learn about the Yokohama release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-learn-landing-page.md)
 

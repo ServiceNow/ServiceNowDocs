@@ -2,6 +2,7 @@
 title: Review and submit a time sheet
 description: Agents can review and submit time sheets to managers for review and approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/field-service-agent-submit-time.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -34,5 +35,5 @@ The total hours worked for each category are recorded on the time card and on th
     The time sheet is submitted to the manager for approval. The state of the time sheet changes from **Pending** to **Submitted** and the form becomes read-only.
 
 
-**Parent Topic:**[Record the time worked on a work order task](../concept/Recording-time-spent-on-work-order-tasks.md)
+**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Recording-time-spent-on-work-order-tasks.md)
 

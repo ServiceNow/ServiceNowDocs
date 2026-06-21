@@ -2,6 +2,7 @@
 title: Login and authentication security
 description: Configure login security options to control access to your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/c\_LoginSecurity.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -17,21 +18,21 @@ Configure login security options to control access to your instance.
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
-[Configure your login security![Configure login security](../../../common/image/icon-set-up.png)](../task/t_EnableTheLogoutConfirmPrompt.md)
+[Configure your login security\[Omitted image "icon-set-up.png"\] Alt text: Configure login security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_EnableTheLogoutConfirmPrompt.md)
 
- [Understand how to configure login security.](../task/t_EnableTheLogoutConfirmPrompt.md)
+ [Understand how to configure login security.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_EnableTheLogoutConfirmPrompt.md)
 
 </td><td>
 
-[Define Login Scenarios![Login scenarios](../../../common/image/icon-manage.png)](../../login/task/t_LoginScenarios.md)
+[Define Login Scenarios\[Omitted image "icon-manage.png"\] Alt text: Login scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_LoginScenarios.md)
 
- [Define login scenarios.](../../login/task/t_LoginScenarios.md)
+ [Define login scenarios.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_LoginScenarios.md)
 
 </td></tr><tr><td>
 
-[Password Reset![Login password resetting](../../../common/image/icon-reference.png)](c_SelfServicePasswordReset.md)
+[Password Reset\[Omitted image "icon-reference.png"\] Alt text: Login password resetting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_SelfServicePasswordReset.md)
 
- [Learn about login password resets.](c_SelfServicePasswordReset.md)
+ [Learn about login password resets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_SelfServicePasswordReset.md)
 
 </td><td>
 

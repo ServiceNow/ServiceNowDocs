@@ -2,6 +2,7 @@
 title: Configuring Localization Workspace
 description: Before using Localization Workspace, configure prerequisites, dependencies, and translation providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-workspace/configuring-localization-workspace.html
 release: yokohama
 product: Localization Workspace
 classification: localization-workspace
@@ -19,39 +20,39 @@ Before using Localization Workspace, configure prerequisites, dependencies, and 
 
 Localization Workspace builds upon the functionality of other ServiceNow AI Platform applications related to localization. These applications are activated with Localization Workspace if they are not already installed. You must complete the configuration of these applications before configuring Localization Workspace.
 
-1.  [Install Localization Workspace](../task/install-localization-workspace.md).
+1.  [Install Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/install-localization-workspace.md).
 
     You can install the application \(sn\_lw\) if you have the admin role. The application installs related applications and plugins if they are not already installed. Localization Workspace requires a Pro or Pro+ subscription.
 
 2.  Configure prerequisites.
 
-    In the Yokohama release, you must confirm access to the \[sn\_lf\_setting\] table. The admin role is required for this step. The localization\_admin role can't complete this step. See [Confirm access to Settings table](../task/lw-confirm-access-settings-table.md).
+    In the Yokohama release, you must confirm access to the \[sn\_lf\_setting\] table. The admin role is required for this step. The localization\_admin role can't complete this step. See [Confirm access to Settings table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-confirm-access-settings-table.md).
 
 3.  Configure dependencies.
-    -   [Internationalization \(i18n\) and language plugins](../../localization/concept/exploring-system-localization.md): Install language plugins as part of System Localization. Choose your instance's languages according to your business requirements.
-    -   [Localization Framework:](../../localization-framework/concept/exploring-localization-framework.md) Configure Localization Framework as follows.
+    -   [Internationalization \(i18n\) and language plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/exploring-system-localization.md): Install language plugins as part of System Localization. Choose your instance's languages according to your business requirements.
+    -   [Localization Framework:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/exploring-localization-framework.md) Configure Localization Framework as follows.
 
-        Assign roles. See [Localization Framework Roles](../../localization-framework/reference/roles-localization-framework.md#).
+        Assign roles. See [Localization Framework Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/roles-localization-framework.md).
 
-        Configure artifacts. See [Artifact configurations](../../localization-framework/concept/framework-configuration.md).
+        Configure artifacts. See [Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/framework-configuration.md).
 
         **Note:** When using Content Publishing artifacts, add the role sn\_cd.content\_admin to your Localization Workspace sys user group. This role is needed to see artifacts related to Content Publishing from Localization Workspace.
 
-        Configure settings, including for the workflows of translation tasks. See [Localization Framework settings](../../localization-framework/concept/localization-settings.md).
+        Configure settings, including for the workflows of translation tasks. See [Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/localization-settings.md).
 
-        Configure a Translation Management System if your organization uses one. See [Translation Management System configurations](../../localization-framework/concept/tms-configuration.md).
+        Configure a Translation Management System if your organization uses one. See [Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/tms-configuration.md).
 
-    -   [Dynamic Translation](../../dynamic-translation/concept/dynamic-translation-overview.md): If you use machine translation to fulfill translation requests, configure Dynamic Translation, including setting up a translator configuration. See [Integration with other translation services](../../dynamic-translation/concept/integration-with-other-translation-services.md).
-4.  [Configure a translation provider](../task/lw-configure-translation-provider.md) in Localization Workspace. Translation providers in Localization Workspace are different from translator configurations in Dynamic Translation.
+    -   [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/dynamic-translation-overview.md): If you use machine translation to fulfill translation requests, configure Dynamic Translation, including setting up a translator configuration. See [Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/integration-with-other-translation-services.md).
+4.  [Configure a translation provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-configure-translation-provider.md) in Localization Workspace. Translation providers in Localization Workspace are different from translator configurations in Dynamic Translation.
 
-![The Translation Providers list in Localization Workspace.](../image/configuring-localization-workspace1.png)
+\[Omitted image "configuring-localization-workspace1.png"\] Alt text: The Translation Providers list in Localization Workspace.
 
--   **[Install Localization Workspace](../task/install-localization-workspace.md)**  
+-   **[Install Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/install-localization-workspace.md)**  
 You can install the Localization Workspace application \(sn\_lw\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed. Demo data isn't available.
--   **[Confirm access to Settings table](../task/lw-confirm-access-settings-table.md)**  
+-   **[Confirm access to Settings table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-confirm-access-settings-table.md)**  
 As part of the configuration for Localization Workspace in Yokohama, confirm access to the Settings table of Localization Framework.
--   **[Configure a translation provider](../task/lw-configure-translation-provider.md)**  
+-   **[Configure a translation provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-configure-translation-provider.md)**  
 Set up translation providers as part of configuring Localization Workspace. For each target language you can configure multiple translation providers with their pricing.
 
-**Parent Topic:**[ServiceNow AI Platform translation and localization](../../managing-data/concept/translation-and-localization.md)
+**Parent Topic:**[ServiceNow AI Platform translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/translation-and-localization.md)
 

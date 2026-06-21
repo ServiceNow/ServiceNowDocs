@@ -2,9 +2,12 @@
 title: Populate the Type field in relationship tables using the fix script
 description: Leverage the fix script to add and manage the Type field in relationship tables. This script simplifies data mapping and enhances record consistency across the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/migration-of-account-manager-responsibility-access.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Create related party configurations, Configuring customer access management, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

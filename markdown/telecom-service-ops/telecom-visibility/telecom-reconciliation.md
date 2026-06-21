@@ -2,6 +2,7 @@
 title: Telecom Discrepancy Identification and Reconciliation
 description: Telecom Discrepancy Identification &amp; Reconciliation confirms that ServiceNow’s CMDB/TNI accurately reflects the updated state of the network and remains synchronized with planned or designed inventory resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/telecom-reconciliation.html
 release: yokohama
 product: Telecom Visibility
 classification: telecom-visibility
@@ -23,10 +24,10 @@ Maintaining reliable and accurate data in your CMDB/TNI is a key enabler for sea
 
 The ServiceNow AI Platform uses a licensing model in which your organization is billed for the use of TSOM Visibility applications. Telecom Discovery, Telecom Discrepancy Identification &amp; Reconciliation and TSOM Visibility \(plugin\) are components of TSOM Visibility. To use TSOM Visibility, your organization must subscribe to TSOM. Please note that ServiceNow’s product documentation doesn’t include details on pricing, packaging, or other specifics, as these are determined by your organization's customer contract.
 
--   **[Exploring Telecom Discrepancy Identification and Reconciliation](exploring-telecom-reconciliation.md#)**  
+-   **[Exploring Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/exploring-telecom-reconciliation.md)**  
 Telecom Discrepancy Identification &amp; Reconciliation solution is designed to confirm the accuracy and consistency of network resource data between network systems and inventory management databases, such as CMDB/TNI.
--   **[Configure Telecom Discrepancy Identification and Reconciliation](../task/configure-telecom-reconciliation.md#)**  
+-   **[Configure Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/configure-telecom-reconciliation.md)**  
 This guide outlines the steps to configure Telecom Discrepancy Identification &amp; Reconciliation \(part of TSOM Visibility\) to confirm accurate discovery and resolution of discrepancies in telecom network resources within your ServiceNow CMDB/TNI instance.
 
-**Parent Topic:**[TSOM Visibility](tsom-visibility.md)
+**Parent Topic:**[TSOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/tsom-visibility.md)
 

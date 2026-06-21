@@ -2,6 +2,7 @@
 title: Using Labor Unions
 description: After a labor union has been set up, you can associate employees with a labor union.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/labor-unions-using.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,15 +22,15 @@ There are a couple of methods to associate a labor union with an employee:
 
 -   From the employee's HR profile
 
-    **Note:** For more information, see [Add or modify an HR profile](../task/t_CreateOrModifyAUserProfile.md).
+    **Note:** For more information, see [Add or modify an HR profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_CreateOrModifyAUserProfile.md).
 
 -   From the Employee Union Membership form
 
-    **Note:** For more information, see [Create employee union memberships](../task/labor-union-employee-membership.md).
+    **Note:** For more information, see [Create employee union memberships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-union-employee-membership.md).
 
 
--   **[Create employee union memberships](../task/labor-union-employee-membership.md)**  
+-   **[Create employee union memberships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-union-employee-membership.md)**  
 Use Employee Union Membership to input and track your union employees. Creating union memberships allows you to gain visibility into employee membership through an HR profile and target content or tasks through HR criteria.
 
-**Parent Topic:**[Labor unions](labor-unions.md)
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions.md)
 

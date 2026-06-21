@@ -2,6 +2,7 @@
 title: Configure reasons for rejecting work items
 description: Define the reasons that agents can use to decline work assignments that they receive in their Agent Workspace inbox. A reject reason can apply to all service channels or a single channel that you specify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/awa-configure-reject-reasons.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -48,5 +49,5 @@ Role required: awa\_admin or admin
     The rejection reason is added to or updated in the Reject Reasons \[awa\_reject\_reason\] table.
 
 
-**Parent Topic:**[Agent Inbox controls](../concept/agent-experience.md)
+**Parent Topic:**[Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/agent-experience.md)
 

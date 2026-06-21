@@ -2,6 +2,7 @@
 title: Update an ERP-CM connection
 description: Update the Connections and Credentials alias for ERP Semantic Mining \(ERP-CM\) to change the connection to the ERP \(Enterprise Resource Planning\) system. For example, you may want to change from a non-production system to a production system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/update-ecm-connection.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -17,7 +18,7 @@ Update the Connections and Credentials alias for ERP Semantic Mining \(ERP-CM\) 
 
 ## Before you begin
 
-You should install Zero Copy Connector for ERP and add credentials there before you install and configure ERP-CM. For more information, see [Configure the Zero Copy Connector for ERP credentials and connection](../../erp-integration/task/set-up-erp-integration-connection.md).
+You should install Zero Copy Connector for ERP and add credentials there before you install and configure ERP-CM. For more information, see [Configure the Zero Copy Connector for ERP credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
 
 Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
@@ -29,7 +30,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Customization Mining**.
 
-2.  Select the connection status icon \(![Credential alias page link](../image/credential-alias-icon.png)\) in the side panel.
+2.  Select the connection status icon \(\[Omitted image "credential-alias-icon.png"\] Alt text: Credential alias page link\) in the side panel.
 
 3.  Select the **Change system** button.
 
@@ -41,14 +42,14 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
     ERP-CM begins to delete current data and restarts the data integration process.
 
-7.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \(![Refresh the Executed tasks list](../image/refresh-icon.png)\).
+7.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \(\[Omitted image "refresh-icon.png"\] Alt text: Refresh the Executed tasks list\).
 
-    ![Refresh the issues list or active connection tasks](../image/ecm-connection-status-page.png)
+    \[Omitted image "ecm-connection-status-page.png"\] Alt text: Refresh the issues list or active connection tasks
 
 
 ## What to do next
 
-After the system is connected, you can check the connection status and investigate errors at any time on the Connection status page. For more information, see [Check and troubleshoot the data refresh status for ERP Semantic Mining](erpcm-check-data-connection.md).
+After the system is connected, you can check the connection status and investigate errors at any time on the Connection status page. For more information, see [Check and troubleshoot the data refresh status for ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-check-data-connection.md).
 
-**Parent Topic:**[Configuring ERP Semantic Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

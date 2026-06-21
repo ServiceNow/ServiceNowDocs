@@ -2,6 +2,7 @@
 title: Submit a preclearance approval request
 description: As a designated access person, submit a request to obtain the preclearance approval from the legal department before you can trade in the securities of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-stock-preclearance/submit-preclearance-approval-request.html
 release: yokohama
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -124,5 +125,5 @@ Option to confirm your consent to trade in securities in accordance with your or
 
     -   Request Details: Review request details.
 
-**Parent Topic:**[Legal Stock Preclearance](../reference/legal-stock-preclearance-landing-page.md)
+**Parent Topic:**[Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md)
 

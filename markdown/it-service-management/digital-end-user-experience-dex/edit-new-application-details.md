@@ -2,11 +2,12 @@
 title: Edit application details
 description: Edit various details about the application, such as its name, monitored processes, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/edit-new-application-details.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [DEX administration, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -25,7 +26,7 @@ Role required: sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  On the Application management card, select **Configure applications**.
 
@@ -37,7 +38,7 @@ Role required: sn\_dex.admin
 
 5.  On the form, edit the required fields.
 
-    For more information on each field, see [Edit web or installed application form](../reference/admin-edit-app-form.md).
+    For more information on each field, see [Edit web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/admin-edit-app-form.md).
 
 6.  Select **Save**.
 

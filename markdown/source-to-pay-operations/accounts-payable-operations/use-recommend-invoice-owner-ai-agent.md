@@ -2,6 +2,7 @@
 title: Use Recommend invoice owner AI agent
 description: Use the Recommend invoice owner AI agent to detect business owners for Non-PO invoices and Non-PO credit memos that lack an owner. The AI agent analyzes historically processed invoices to recommend the most likely business owner, which an accounts payable specialist can review, approve, or override.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/use-recommend-invoice-owner-ai-agent.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -24,7 +25,7 @@ Role required: Accounts Payable specialist \(sn\_ap\_apm.accounts\_payable\_spec
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon ![](../../supplier-lifecycle-operations/image/cases-list-icon.png).
+2.  Select the list icon \[Omitted image "cases-list-icon.png"\] Alt text:.
 
 3.  Select **My work** &gt; **Invoice exceptions**.
 
@@ -32,13 +33,13 @@ Role required: Accounts Payable specialist \(sn\_ap\_apm.accounts\_payable\_spec
 
     The missing or invalid business owner exception opens. A message that Now Assist has a resolution plan to solve the exception displays.
 
-5.  Select **View plan**.![View resolution plan](../image/apo-view-resolution-plan.png)
+5.  Select **View plan**.\[Omitted image "apo-view-resolution-plan.png"\] Alt text: View resolution plan
 
-    The AI agent summarizes the exception and provides a resolution plan. For more details on the resolution plan, see [Resolution plan scenarios](../reference/resolution-plan-scenarios.md).
+    The AI agent summarizes the exception and provides a resolution plan. For more details on the resolution plan, see [Resolution plan scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/resolution-plan-scenarios.md).
 
-6.  Review and confirm the resolution plan.![Confirm recommendation](../image/apo-confirm-resolution-plan.png)
+6.  Review and confirm the resolution plan.\[Omitted image "apo-confirm-resolution-plan.png"\] Alt text: Confirm recommendation
 
-    In this scenario, a business owner is assigned. ![Review and confirm the resolution plan](../image/apo-resolution-plan.png)
+    In this scenario, a business owner is assigned. \[Omitted image "apo-resolution-plan.png"\] Alt text: Review and confirm the resolution plan
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: Bulk import Taxonomies
 description: Import the taxonomy records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-import-taxonomy.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

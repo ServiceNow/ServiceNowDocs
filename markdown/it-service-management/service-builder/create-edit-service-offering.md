@@ -2,6 +2,7 @@
 title: Create a service offering in Service Builder
 description: Create a service offering to define and view the products or applications that make up your service in Service Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-builder/create-edit-service-offering.html
 release: yokohama
 product: Service Builder
 classification: service-builder
@@ -28,7 +29,7 @@ A service offering represents how a service is provided and who it is for. A ser
 3.  **Operations**
 4.  **Financials**
 
-**Tip:** You can cancel out of creating a service anytime by selecting the **Cancel** button \(next to the **Save** button\). Also, to return to the home page at any time while creating or editing a service, select ![Home icon.](../../digital-portfolio-management/image/home-polaris-primary2x.png).
+**Tip:** You can cancel out of creating a service anytime by selecting the **Cancel** button \(next to the **Save** button\). Also, to return to the home page at any time while creating or editing a service, select \[Omitted image "home-polaris-primary2x.png"\] Alt text: Home icon..
 
 To create a service and service offering, you must be assigned the service\_author role. To edit \(not create\) a service or service offering, you must be assigned the service\_editor role.
 

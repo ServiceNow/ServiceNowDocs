@@ -2,6 +2,7 @@
 title: Turn on the subflows and actions skill
 description: Turn on the subflows and actions skill to run subflows and actions from Now Assist conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/now-assist-in-virtual-agent/turn-on-the-subflows-and-actions-skill.html
 release: yokohama
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Turn on the subflows and actions skill to run subflows and actions from Now Assi
 
 ## Before you begin
 
--   Configure the Now Assist in Virtual Agent application. See [Configuring assistants overview](../../now-assist-in-va/task/configure-now-assist-va.md).
+-   Configure the Now Assist in Virtual Agent application. See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 -   Role required: virtual\_agent\_admin or admin
 
 ## Procedure
@@ -26,7 +27,7 @@ Turn on the subflows and actions skill to run subflows and actions from Now Assi
 
 2.  In the workflow list, select **Platform**.
 
-    ![Platform skills are available in Now Assist Features when you install any Now Assist plugin.](../../virtual-agent/images/na-platform-skills.png)
+    \[Omitted image "na-platform-skills.png"\] Alt text: Platform skills are available in Now Assist Features when you install any Now Assist plugin.
 
 3.  In the Conversational experience card, select **View details**.
 
@@ -37,5 +38,5 @@ Turn on the subflows and actions skill to run subflows and actions from Now Assi
 
 ## What to do next
 
-Grant one or more user roles to personnel who will work with conversational subflows and actions. For a list of available user roles, see [User roles for conversational subflows and actions](https://www.servicenow.com/docs/access?context=user-roles-for-conversational-subflows-and-actions&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+Grant one or more user roles to personnel who will work with conversational subflows and actions. For a list of available user roles, see .
 

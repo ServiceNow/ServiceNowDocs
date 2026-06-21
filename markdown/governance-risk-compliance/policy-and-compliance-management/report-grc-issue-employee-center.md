@@ -2,6 +2,7 @@
 title: Report a GRC issue from Employee Center
 description: Use the employee portal to review and work on the action plan related to the observation which is confirmed as an issue that as an auditee or issue owner you need to remediate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/report-grc-issue-employee-center.html
 release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -177,7 +178,7 @@ Analysis of the root cause of the issue.
 
 8.  Click **My Requests** link at the top right corner to view all the requests that includes your issues and issue triage.
 
-    ![My Requests page in Employee Center.](../image/MyRequestPageEmpCenter.png "My Requests page")
+    \[Omitted image "MyRequestPageEmpCenter.png"\] Alt text: My Requests page in Employee Center.
 
 9.  Click the issue triage request number, which has a prefix IST, to view messages, if any, from the approver.
 
@@ -189,6 +190,6 @@ Analysis of the root cause of the issue.
 
 12. Click the **Send** button.
 
-    ![List view of issue triage page.](../image/IssueTriageActivityEmpCenter.png "List view of issue triage page")
+    \[Omitted image "IssueTriageActivityEmpCenter.png"\] Alt text: List view of issue triage page.
 
 

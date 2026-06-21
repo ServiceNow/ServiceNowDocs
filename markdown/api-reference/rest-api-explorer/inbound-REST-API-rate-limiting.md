@@ -2,6 +2,7 @@
 title: Inbound REST API rate limiting
 description: To prevent excessive inbound REST API requests, set rules that limit the number of inbound REST API requests processed per hour. You can create rules to limit requests for specific users, users with specific roles, or all users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-api-explorer/inbound-REST-API-rate-limiting.html
 release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
@@ -26,7 +27,7 @@ If an inbound REST API request matches multiple rate limit rules for the same re
 
 In this example, there are four rate limit rules for the same REST API resource: `GET /now/v2/table/incident`:
 
-![Rate Limit Rules](../image/rate-limit-rules.png)
+\[Omitted image "rate-limit-rules.png"\] Alt text: Rate Limit Rules
 
 These rate limit rules are applied in the following order:
 
@@ -41,13 +42,13 @@ If a user has two or more roles matching the criteria of multiple rate limiting 
 
 ## REST API response headers
 
-You can generate inbound REST API requests using the [Use the REST API Explorer](use-REST-API-Explorer.md) or an HTTP client, such as Postman. If the request matches a rate limit rule, several HTTP response headers provide information about rate limiting:
+You can generate inbound REST API requests using the [Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/use-REST-API-Explorer.md) or an HTTP client, such as Postman. If the request matches a rate limit rule, several HTTP response headers provide information about rate limiting:
 
 -   **X-RateLimit-Limit** displays the number of requests allowed per hour.
 -   **X-RateLimit-Reset** displays the Unix time until the next scheduled reset.
 -   **X-RateLimit-Rule** displays the sys\_id of the rate limit rule that is being enforced.
 
-    ![Rate limit response headers](../image/rest-api-request-headers-processed.png)
+    \[Omitted image "rest-api-request-headers-processed.png"\] Alt text: Rate limit response headers
 
 
 If a request is denied because it exceeds the rate limit, the system returns a **Retry After** response header in addition to the response headers about rate limiting. The **Retry After** response header displays the number of seconds after which you can retry the request to avoid exceeding the rate limit. The following error response is returned:
@@ -64,16 +65,16 @@ If a request is denied because it exceeds the rate limit, the system returns a *
 
 The status of a denied request is `429 Too Many Requests`.
 
-![REST response status 429 Too Many Requests](../image/rest-api-request-headers-denied.png)
+\[Omitted image "rest-api-request-headers-denied.png"\] Alt text: REST response status 429 Too Many Requests
 
--   **[Create an inbound REST API rate limit](../task/create-REST-API-rate-limits.md)**  
+-   **[Create an inbound REST API rate limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/create-REST-API-rate-limits.md)**  
 Create rate limit rules to limit the number of inbound REST API requests processed per hour.
--   **[Reset an inbound REST API rate limit](../task/reset-rest-api-rate-limits.md)**  
+-   **[Reset an inbound REST API rate limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/reset-rest-api-rate-limits.md)**  
 Reset a rate limit rule to reset the rate limit count to zero \(0\) and delete any violations for the current hour.
--   **[Monitor inbound REST API rate limit counts and violations](../task/monitor-request-counts.md)**  
+-   **[Monitor inbound REST API rate limit counts and violations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/monitor-request-counts.md)**  
 To determine if you have set a rate limit rule appropriately, monitor the counts and violations for inbound REST API requests that are restricted by the rule.
--   **[Investigate inbound REST API rate limit violations](../task/investigate-rate-limit-violations.md)**  
+-   **[Investigate inbound REST API rate limit violations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/investigate-rate-limit-violations.md)**  
 Investigate rate limit violations to determine which rate limit rules are being exceeded and which users are exceeding those rate limits.
 
-**Parent Topic:**[REST APIs](c_RESTAPI.md)
+**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md)
 

@@ -2,6 +2,7 @@
 title: Create or update form views for EAP work items
 description: Create or update form views for work item types so that the fields displayed in the Backlog and Planning board pages of Enterprise Agile Planning suit your team requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.html
 release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -41,15 +42,15 @@ Configuration for form views of work item tables determines the fields that are 
 
 5.  Create form views or update them.
 
-<table id="choicetable_xcm_cz1_f1c"><thead><tr><th align="left" id="d88770e129">
+<table id="choicetable_xcm_cz1_f1c"><thead><tr><th align="left" id="d66338e129">
 
 Option
 
-</th><th align="left" id="d88770e132">
+</th><th align="left" id="d66338e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88770e138">
+</th></tr></thead><tbody><tr><td id="d66338e138">
 
 **Create form views**
 
@@ -68,7 +69,7 @@ You can also rearrange them in the order of your choice.
 5.  Repeat the steps to complete creating the other two form views.
 
 
-</td></tr><tr><td id="d88770e209">
+</td></tr><tr><td id="d66338e209">
 
 **Edit existing form views**
 
@@ -85,5 +86,5 @@ You can also rearrange them in the order of your choice.
 
 ## What to do next
 
-[Create or update list view for EAP work items](create-or-update-list-views-for-eap-work-items.md).
+[Create or update list view for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.md).
 

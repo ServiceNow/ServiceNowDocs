@@ -2,6 +2,7 @@
 title: Synchronize past reservations
 description: Sync reservations made in the past, that is, before configuring the reservation synchronization setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-calendar-synchronization/sync-past-reservation.html
 release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

@@ -2,6 +2,7 @@
 title: Request skill feedback
 description: You can request skill feedback from the skill feedback requests sent widget when there no existing feedback requests sent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-feedback/request-skill-feedback-widget.html
 release: yokohama
 product: Talent Feedback
 classification: talent-feedback
@@ -79,5 +80,5 @@ This is an optional entry for you to add any other information that you'd like t
 </table>4.  Select **Send request**.
 
 
-**Parent Topic:**[Request skill feedback](request-skill-feedback.md)
+**Parent Topic:**[Request skill feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/request-skill-feedback.md)
 

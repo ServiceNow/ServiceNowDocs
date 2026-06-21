@@ -2,7 +2,10 @@
 title: Generate RCC report
 description: Generate a detailed Root Cause Correlation report that can be used to identify and narrow down underlying issues in your instance that caused a performance degradation and related alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/generate-rcc-report.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -23,24 +26,24 @@ Role required: admin
 
 2.  From the **Performance** menu, select **Semaphores**.
 
-    ![The Instance Observer Performance menu options.](../image/io-perf-rcc.png)
+    \[Omitted image "io-perf-rcc.png"\] Alt text: The Instance Observer Performance menu options.
 
 3.  Select the report options.
 
-    ![RCC report options for selection.](../image/rcc-config-options.png)
+    \[Omitted image "rcc-config-options.png"\] Alt text: RCC report options for selection.
 
     -   Instance: Only production instances are supported with the RCC feature.
-    -   Metrics: Select from the available metrics for RCC report generation. Refer to the RCC symptom categories section in [Root Cause Correlation](root-cause-correlation.md) for the supported metrics.
+    -   Metrics: Select from the available metrics for RCC report generation. Refer to the RCC symptom categories section in [Root Cause Correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/root-cause-correlation.md) for the supported metrics.
     -   Date Range: Select a date range
     -   Options: Select the type of alert. For RCC, Self Service Alerts is supported.
     -   Select the Node type: Options are available in the list.
 4.  Select **Get Snapshot** to generate the RCC report.
 
-    ![Displays the RCC report for the selected parameters.](../image/io-rcc-semaphore-report.png)
+    \[Omitted image "io-rcc-semaphore-report.png"\] Alt text: Displays the RCC report for the selected parameters.
 
 5.  Select an alert icon from the report to review additional information about the issue.
 
-    ![RCC report alert icons.6](../image/io-rcc-alert.png)
+    \[Omitted image "io-rcc-alert.png"\] Alt text: RCC report alert icons.6
 
     **Note:** Options available on Report and Charts:
 
@@ -53,14 +56,14 @@ Role required: admin
 
 6.  Select **Generate Root Cause**.
 
-    ![RCC details and option to select to Generate root cause.](../image/rcc-generate-rootcause.png)
+    \[Omitted image "rcc-generate-rootcause.png"\] Alt text: RCC details and option to select to Generate root cause.
 
     A status message displays with RCC generation information.
 
-    ![RCC report generation status message.](../image/rcc-in-progress.png)
+    \[Omitted image "rcc-in-progress.png"\] Alt text: RCC report generation status message.
 
 
 ## What to do next
 
-Check the RCC History page to further investigate the issues that caused the alert to trigger. See [Utilizing RCC history to perform root cause analysis](utilizing-rcc-reports-perform-root-cause-analysis.md) for more information.
+Check the RCC History page to further investigate the issues that caused the alert to trigger. See [Utilizing RCC history to perform root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/utilizing-rcc-reports-perform-root-cause-analysis.md) for more information.
 

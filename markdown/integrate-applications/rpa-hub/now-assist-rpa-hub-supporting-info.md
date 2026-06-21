@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for RPA Hub
 description: Get a quick overview of the important information that is related to the Now Assist for RPA Hub application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/now-assist-rpa-hub-supporting-info.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -24,15 +25,15 @@ Now Assist for RPA Hub 2.1 is supported from Xanadu release 10.2.
 
 ## Supported user interfaces
 
-To build automations using Now Assist, install the Now Assist for RPA Hub and then activate the RPA bot generation skill. For more information, see [Configure Now Assist for RPA Hub](../task/configure-now-assist-rpa-hub.md).
+To build automations using Now Assist, install the Now Assist for RPA Hub and then activate the RPA bot generation skill. For more information, see [Configure Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
 
 The Now Assist for RPA Hub application includes the skills that are listed in the following table.
 
 |Interface|Skill supported|
 |---------|---------------|
-|RPA Desktop Design Studio - [Create an automation with Now Assist](../task/create-automation-now-assist.md)|RPA bot generation|
-|RPA Desktop Design Studio - [Create an activity with Now Assist](../task/create-activity-now-assist.md)|
-|RPA Desktop Design Studio - [Build an automation with Now Assist](../task/build-automation-now-assist.md)|
+|RPA Desktop Design Studio - [Create an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-automation-now-assist.md)|RPA bot generation|
+|RPA Desktop Design Studio - [Create an activity with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-activity-now-assist.md)|
+|RPA Desktop Design Studio - [Build an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/build-automation-now-assist.md)|
 
 ## Licensing requirements
 

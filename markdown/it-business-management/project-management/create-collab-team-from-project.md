@@ -2,6 +2,7 @@
 title: Create a Microsoft team for your project
 description: Create a Microsoft team for your project to start collaborating with your team and receive timely updates of the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-management/create-collab-team-from-project.html
 release: yokohama
 product: Project Management
 classification: project-management
@@ -48,5 +49,5 @@ Role required: it\_project\_manager
 
 If you are unable to create a team, retry the procedure after sometime. If the issue persists, contact your system administrator.
 
-**Parent Topic:**[Using Project Management](../../project-management/concept/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/using-project-management.md)
 

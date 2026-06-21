@@ -2,6 +2,7 @@
 title: Managing agents and agent groups on the team calendar
 description: View agent events, add events for agents, and search agents and agent groups using the team calendar. You can also add or edit agent skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/manage-agents-agent-groups.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -15,8 +16,8 @@ breadcrumb: [Using the team calendar, Managing agents and tasks from Workforce, 
 
 View agent events, add events for agents, and search agents and agent groups using the team calendar. You can also add or edit agent skills.
 
--   **[View an agent profile](../task/view-agent-profile.md)**  
+-   **[View an agent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/view-agent-profile.md)**  
 An agent profile displays the agent's personal information as well as the work status, schedule, location, and time zone. View the agent's profile from the team calendar.
 
-**Parent Topic:**[Using the team calendar](using-team-calendar.md)
+**Parent Topic:**[Using the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-team-calendar.md)
 

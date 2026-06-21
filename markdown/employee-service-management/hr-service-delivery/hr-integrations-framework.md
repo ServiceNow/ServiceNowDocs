@@ -2,6 +2,7 @@
 title: Enterprise Service Management Integrations Framework
 description: The ServiceNow Enterprise Service Management Integrations Framework application contains common components that can be used for integrating your ServiceNow application with third-party systems. It uses the flow designer capability to communicate with external instances and third-party systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-integrations-framework.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,19 +20,19 @@ The application provides a consistent way of building integrations for common us
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure ![Plan and configure your implementation.](../../../common/image/icon-set-up.png) Plan and configure your implementation.](../task/set-up-hr-integ.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Plan and configure your implementation. Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-hr-integ.md)
 
 </td><td>
 
-[Use ![Use Enterprise Service Management Integrations Framework for third party integrations.](../../../common/image/icon-workspace.png) Use Enterprise Service Management Integrations Framework for third party integrations.](../task/use-integrations-framework.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use Enterprise Service Management Integrations Framework for third party integrations. Use Enterprise Service Management Integrations Framework for third party integrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/use-integrations-framework.md)
 
 </td><td>
 
-[Reference ![Get details about components like fields, tables, and properties.](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](../task/ent-service-mgmt-int-framework-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components like fields, tables, and properties. Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/ent-service-mgmt-int-framework-reference.md)
 
 </td></tr></tbody>
 </table>

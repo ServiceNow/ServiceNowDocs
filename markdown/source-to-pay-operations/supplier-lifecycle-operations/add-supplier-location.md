@@ -2,6 +2,7 @@
 title: Add a supplier location from the Source-to-Pay Workspace
 description: Add a supplier location to visualize the geographical location that suppliers run their operations from.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-location.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ Add a supplier location to visualize the geographical location that suppliers ru
 
 ## Before you begin
 
-Ensure that you have configured the FAM map properties. For more information, see [Configure properties for Supplier Lifecycle Operations](../reference/config-prop-supp-mgmt.md).
+Ensure that you have configured the FAM map properties. For more information, see [Configure properties for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/config-prop-supp-mgmt.md).
 
 Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
@@ -37,14 +38,14 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 3.  Under My suppliers, select the legal name of the supplier that you want to add a supplier location for.
 
-4.  On the **About** tab, under Supplier Locations, select the add supplier location icon \(![Add supplier location icon](../image/add-key-contacts.png)\).
+4.  On the **About** tab, under Supplier Locations, select the add supplier location icon \(\[Omitted image "add-key-contacts.png"\] Alt text: Add supplier location icon\).
 
 5.  On the Add New Location form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Add New Location form](../reference/supplier-location-form.md).
+    For more information about the form fields and descriptions, see [Add New Location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/supplier-location-form.md).
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[Source-to-Pay Workspace Supplier page](../concept/supp-ws-details-page.md)
+**Parent Topic:**[Source-to-Pay Workspace Supplier page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/supp-ws-details-page.md)
 

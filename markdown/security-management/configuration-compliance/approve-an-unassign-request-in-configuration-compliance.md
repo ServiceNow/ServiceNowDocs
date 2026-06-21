@@ -2,6 +2,7 @@
 title: Approve an unassign request in Configuration Compliance
 description: Approve requests for the removal of remediation tasks from an assignment group or an individual user in the Configuration Compliance application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/configuration-compliance/approve-an-unassign-request-in-configuration-compliance.html
 release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance

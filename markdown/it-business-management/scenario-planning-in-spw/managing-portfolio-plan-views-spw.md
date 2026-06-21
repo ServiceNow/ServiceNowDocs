@@ -2,11 +2,12 @@
 title: Managing portfolio plan views in Strategic Planning Workspace
 description: Portfolio managers can create customized views for their portfolio plans by applying personalization settings such as column selection, grouping, and filtering. Portfolio owners or editors can share these personalized views with stakeholders to enable easier collaboration on the portfolio plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/managing-portfolio-plan-views-spw.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -27,12 +28,12 @@ Portfolio managers can create personalized views as needed by applying settings 
 
 **Note:** Views are available only for the Planning module and are supported in live mode, but not in scenario mode.
 
--   **[Create a portfolio plan view in Strategic Planning](../task/create-portfolio-plan-view-spw.md)**  
+-   **[Create a portfolio plan view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.md)**  
 Create a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
--   **[Edit a portfolio plan view in Strategic Planning](../task/edit-portfolio-plan-view-spw.md)**  
+-   **[Edit a portfolio plan view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/edit-portfolio-plan-view-spw.md)**  
 Edit a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
--   **[Delete a portfolio plan view in Strategic Planning](../task/delete-portfolio-plan-view-spw.md)**  
+-   **[Delete a portfolio plan view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/delete-portfolio-plan-view-spw.md)**  
 Delete a customized portfolio plan view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 
-**Parent Topic:**[Portfolio Planning in Strategic Planning](planning-in-spw.md)
+**Parent Topic:**[Portfolio Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/planning-in-spw.md)
 

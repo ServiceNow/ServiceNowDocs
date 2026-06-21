@@ -2,6 +2,7 @@
 title: Create a campaign for Workplace from Facebook
 description: Create a campaign to publish content to the groups on Workplace from Facebook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/add-facebook-campaign.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -71,7 +72,7 @@ Approvers
 
 Users responsible for approving the campaign.You require specific users to approve content before campaign publication.
 
- Only users with the Campaign Approver sn\_ca.campaign\_approver role appear after clicking the Lookup user list icon \(![Lookup user list icon](../image/magnifying-glass.png)\).
+ Only users with the Campaign Approver sn\_ca.campaign\_approver role appear after clicking the Lookup user list icon \(\[Omitted image "magnifying-glass.png"\] Alt text: Lookup user list icon\).
 
  After adding approvers, click **Update**.
 

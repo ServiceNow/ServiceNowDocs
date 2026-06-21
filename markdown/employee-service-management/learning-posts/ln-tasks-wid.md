@@ -2,6 +2,7 @@
 title: Learning tasks widgets
 description: The Learning tasks and Learning tasks – Completed \(pre-configured widgets\) help to display learning tasks in the To-dos page in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/learning-posts/ln-tasks-wid.html
 release: yokohama
 product: Learning Posts
 classification: learning-posts

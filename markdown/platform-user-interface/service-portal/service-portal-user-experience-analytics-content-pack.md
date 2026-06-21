@@ -2,6 +2,7 @@
 title: Analytics and Reporting Solutions for Service Portal
 description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides metric visualizations to better understand the Service Portal user experience and identify how to improve it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/service-portal/service-portal-user-experience-analytics-content-pack.html
 release: yokohama
 product: Service Portal
 classification: service-portal
@@ -24,13 +25,13 @@ The following roles and tasks are associated with this Solution:
 
 For information about additional roles, see .
 
--   **[User Experience Analytics for Service Portal](../../../build/service-portal/concept/sp-analytics.md)**  
-The User Experience Analytics application provides views for monitoring usage analytics of your Service Portal applications. Visualize metrics and interactions to better understand the Service Portal user experience and identify how to improve it.
+-   **[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)**  
+The Usage Insights application provides views for monitoring usage analytics of your Service Portal applications. Visualize metrics and interactions to better understand the Service Portal user experience and identify how to improve it.
 
-**Parent Topic:**[Analyzing portal performance and usage](../../../build/service-portal/concept/using-portal-analytics.md)
+**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/using-portal-analytics.md)
 
 **Related topics**  
 
 
-[Analytics and Reporting Solutions](https://www.servicenow.com/docs/access?context=content-packs-in-form-analytics&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US)
+[bundle-par.content-packs-in-form-analytics]
 

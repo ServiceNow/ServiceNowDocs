@@ -2,6 +2,7 @@
 title: Change start and end locations for agents
 description: Change the start-of-day and end-of-day locations for your agents, offering the flexibility needed for specific work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-manager-workforce/change-agent-start-end-location.html
 release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -21,7 +22,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_
 
 ## About this task
 
-Ensure the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](Activate-fsm-territory-planning.md).
+Ensure the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md).
 
 ## Procedure
 
@@ -54,5 +55,5 @@ Ensure the Territory Planning plugin is activated. For more information, see [Ac
 
 The scheduling mechanisms consider an agent's start and end locations from the `Agent Schedule Attribute Plans` table for the given day.
 
-**Parent Topic:**[Managing territories and agents from Territory Planning console](../concept/using-territory-planning-console.md)
+**Parent Topic:**[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
 

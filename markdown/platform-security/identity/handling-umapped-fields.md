@@ -2,6 +2,7 @@
 title: Handling unmapped fields
 description: You can handle unmapped fields in SCIM customization in different ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/handling-umapped-fields.html
 release: yokohama
 product: Identity
 classification: identity

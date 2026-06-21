@@ -2,6 +2,7 @@
 title: Add skill to an achievement template
 description: Associate a skill to an achievement credential template in Achievements and Credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/add-skill-achievement.html
 release: yokohama
 product: Talent Development Core
 classification: talent-development-core
@@ -57,5 +58,5 @@ Option to select the skill you want to associate to the achievement template. **
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[View achievement credential templates](view-ach-credential-templates.md)
+**Parent Topic:**[View achievement credential templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/view-ach-credential-templates.md)
 

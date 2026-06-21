@@ -2,6 +2,7 @@
 title: Monitoring semaphore queue efficiency through Application Insights
 description: Monitor semaphore queue efficiency by tracking the queue depth and number of rejected transactions through the Application Insights semaphore graphs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/monitoring-semaphore-activity.html
 release: yokohama
 product: Platform Performance
 classification: platform-performance
@@ -34,5 +35,5 @@ Dig deeper into semaphore processing efficiency by drilling down to analyze issu
 -   Look for spikes in the queue depth graphs. A high transaction count indicates the node might be overloaded. Select a data point in the detail graph to view a list of transactions. In the table, look for long-running transactions on the semaphore and stop them. Reduce the transaction count if the queue depth is consistently high.
 -   Look for spikes in the rejection count graphs. A high rejection count indicates an unexpected proliferation in calls. If the queue depth is reached, all subsequent requests are rejected, which results in a rejected requests \(HTTP 429\) error message. Reduce the number of calls or stop long-running transactions that might be backing up the queue.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/application-insights.md)
 

@@ -2,13 +2,14 @@
 title: Organization tax details
 description: Accounts Payable specialist uses the organization tax table to view the supplier's tax registration details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/organization-tax-details.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Master data table for Accounts Payable Operations, Accounts Payable Operations reference, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Data required for invoice processing, Accounts Payable Operations reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Organization tax details
@@ -27,5 +28,5 @@ The organization table `sn_fin_org_tax_detail` stores supplier or organization t
 |Tax ID|String/Numeric|Unique reference ID issued against an organization or supplier|
 |Active|Boolean|The status of the tax registration of the organization or supplier.|
 
-**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

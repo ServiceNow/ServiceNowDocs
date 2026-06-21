@@ -2,6 +2,7 @@
 title: Edit installed integrations
 description: Edit an installed integration for streaming log data to Health Log Analytics on the Integrations Launchpad. For example, you can switch to a different service instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/il-connector-hla-edit.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -24,7 +25,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the ITOM AIOps configuration center icon ![](../image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the ITOM AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\].
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace that enables you to configure and manage AIOps features from a single place.
 
@@ -51,5 +52,5 @@ Role required: evt\_mgmt\_admin
 10. Select **Activate**.
 
 
-**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](../concept/hla-implement.md)
+**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 

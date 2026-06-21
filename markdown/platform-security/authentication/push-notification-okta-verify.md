@@ -2,6 +2,7 @@
 title: Push notification - Okta Verify
 description: The Okta Verify app push notification enables users to securely approve authentication requests directly on their enrolled mobile devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/push-notification-okta-verify.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -38,5 +39,5 @@ While **Okta Verify** push notification is a secure and convenient authenticatio
 -   Device Security: Registered devices must be protected with screen locks or biometric safeguards to help prevent unauthorized access.
 -   Device Re-enrollment: If a device is replaced or reset, users must re-enroll to maintain uninterrupted authentication.
 
-**Okta Verify** push notification enhances organizational security while providing a convenient authentication experience. For detailed configuration instructions, see [Configure push notification \(Okta Verify\)](../task/configure-okta-verify-push-notification.md).
+**Okta Verify** push notification enhances organizational security while providing a convenient authentication experience. For detailed configuration instructions, see [Configure push notification \(Okta Verify\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-okta-verify-push-notification.md).
 

@@ -2,6 +2,7 @@
 title: Personal Data Rights \(PDR\)
 description: The GRC: Personal Data Rights application enables you to exercise control over your personal data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/personal-data-rights.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -17,19 +18,19 @@ The GRC: Personal Data Rights application enables you to exercise control over y
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![Exploring Personal data rights.](../../../common/image/icon-explore.png)Learn about how privacy managers, privacy users, and privacy administrators use the Personal data rights application.](exploring-personal-data-rights.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Exploring Personal data rights.Learn about how privacy managers, privacy users, and privacy administrators use the Personal data rights application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/exploring-personal-data-rights.md)
 
 </td><td>
 
-[Configure ![Configuring Personal data rights.](../../../common/image/icon-set-up.png) Configure the Personal data rights application.](../task/configure-pdr-request-type.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configuring Personal data rights. Configure the Personal data rights application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-pdr-request-type.md)
 
 </td><td>
 
-[Use ![Use Personal data rights.](../../../common/image/icon-workspace.png)](using-personal-data-right.md) Work on creating new data requests and the corresponding action tasks.
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use Personal data rights.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-personal-data-right.md) Work on creating new data requests and the corresponding action tasks.
 
 </td></tr><tr><td>
 
-[Reference![Reference or supplemental information.](../../../common/image/icon-reference.png)Get information about the roles, tables, and properties of Personal Data Rights](../reference/pdr-reference.md)
+[Reference\[Omitted image "icon-reference.png"\] Alt text: Reference or supplemental information.Get information about the roles, tables, and properties of Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/pdr-reference.md)
 
 </td><td>
 

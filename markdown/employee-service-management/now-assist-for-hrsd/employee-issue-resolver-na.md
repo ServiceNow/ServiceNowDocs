@@ -2,6 +2,7 @@
 title: Resolve HR cases agentic workflow
 description: Use the Resolve HR cases agentic workflow to evaluate case criticality and retrieve relevant knowledge articles to resolve HR cases, and generate a fulfillment plan for an HR case, minimizing the need for agent intervention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/employee-issue-resolver-na.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -56,24 +57,24 @@ In the Resolve HR cases agentic workflow, review the information in the Describe
 
 The agent executes the test scenario in AI Agent Studio for the agentic workflow.
 
-![In AI Agent Studio where it shows the testing output for Resolving HRcase agentic workflow.](../image/resolve-noncritical-workflow.png "Example of resolving a noncritical case")
+\[Omitted image "resolve-noncritical-workflow.png"\] Alt text: In AI Agent Studio where it shows the testing output for Resolving HRcase agentic workflow.
 
 The employee is notified via the Now Assist Virtual Agent or email when the recommendation is generated. They can provide feedback on the recommendation or close the case.
 
-![Generation of a fulfillment plan for an HR case](../image/case-planner-1.png "Example of generating a fulfillment plan for an HR case")
+\[Omitted image "case-planner-1.png"\] Alt text: Generation of a fulfillment plan for an HR case
 
-![Generation of a fulfillment plan for an HR case](../image/case-planner-2.png)
+\[Omitted image "case-planner-2.png"\] Alt text: Generation of a fulfillment plan for an HR case
 
-![Generation of a fulfillment plan for an HR case](../image/case-planner-3.png)
+\[Omitted image "case-planner-3.png"\] Alt text: Generation of a fulfillment plan for an HR case
 
-![Generation of a fulfillment plan for an HR case](../image/case-planner-4.png)
+\[Omitted image "case-planner-4.png"\] Alt text: Generation of a fulfillment plan for an HR case
 
 The AI agent creates a fulfillment plan for a given HR case by fetching HR case details, relevant KB articles, and fulfillment instructions. HR agents can add prompts for refining the fulfillment plan. Once approved, the fulfillment plan is added to the work notes of the case.
 
 **Note:** The option to generate a resolution plan appears only for the HR service of Fulfillment type: **Manual**. It does not appear for the Employee Relations and Life Cycle Events cases.
 
--   **[Generate a fulfillment plan](../task/generate-rp.md)**  
+-   **[Generate a fulfillment plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/generate-rp.md)**  
 Auto-generate a fulfillment/execution plan for a case, helping in faster resolution of the HR case.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for HRSD](now-assist-hrsd-ai-agents-use-cases.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
 

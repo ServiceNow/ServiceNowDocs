@@ -2,6 +2,7 @@
 title: Access an SLA map
 description: How to access the SLA map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_AccessTheMap.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -26,5 +27,5 @@ Role required: wm\_admin, wm\_dispatcher, or dispatcher combination role
     The map opens in the geographical area containing work orders with SLAs that are assigned to your dispatch group.
 
 
-**Parent Topic:**[Use an SLA map](../concept/c_UseTheSLAMap.md)
+**Parent Topic:**[Use an SLA map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_UseTheSLAMap.md)
 

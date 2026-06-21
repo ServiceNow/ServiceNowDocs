@@ -2,12 +2,13 @@
 title: Roles installed with AI Risk and Compliance
 description: The AI Risk and Compliance installs the essential roles to perform respective day-to-day operational tasks for managing AI systems across the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -242,11 +243,5 @@ The AI Case Admin can manage type profiles to segregate AI cases. They can set u
 -   sn\_ai\_case\_mgmt.ai\_case\_manager
 
 </td></tr></tbody>
-</table>**Important:** Roles indicated with an asterisk \(`*`\) indicate feature roles.
-
-**Note:** Feature roles provide granular access to individual risk and compliance capabilities, enabling teams to share only the functionality they need. This capability replaces broad Integrated Risk Management \(IRM\) roles with feature-specific roles for better control. Non-Integrated Risk Management families like Privacy Management, Operational Sustainability Management, and AI Risk and Compliance are restricted from accessing IRM-specific data or core plugin features. This model ensures secure, domain-specific access and simplifies governance across GRC applications.
-
-For information about feature roles, see .
-
-**Parent Topic:**[AI Risk and Compliance reference](ai-risk-and-compliance-reference.md)
+</table>**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 

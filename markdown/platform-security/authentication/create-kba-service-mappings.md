@@ -2,6 +2,7 @@
 title: Assign KBA questions to your AI voice agent service
 description: Specify the questions that should be used for user identification and authentication with a specific voice agent. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/create-kba-service-mappings.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -86,7 +87,7 @@ Active
 Select to set the configuration active.
 
 </td></tr></tbody>
-</table>    ![Knowledge Based Question Service Mapping](../images/configure-kba-question-answer-service.png "Knowledge Based Question Service Mapping")
+</table>    \[Omitted image "configure-kba-question-answer-service.png"\] Alt text: Knowledge Based Question Service Mapping
 
 4.  Select **Submit**.
 
@@ -95,5 +96,5 @@ Select to set the configuration active.
 
 You’re redirected to the Knowledge Based Question Service Mappings list view. Verify if your mapping is successfully added.
 
-![Knowledge Based Question Service Mapping - Result](../images/configure-kba-question-answer-service-result.png "Knowledge Based Question Service Mappings - list")
+\[Omitted image "configure-kba-question-answer-service-result.png"\] Alt text: Knowledge Based Question Service Mapping - Result
 

@@ -2,6 +2,7 @@
 title: Create content for campaigns for Workplace from Facebook
 description: Create content for a campaign that is published to groups on Workplace from Facebook. The content for Workplace from Facebook can include a message, a URL, and an image.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/add-facebook-content.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

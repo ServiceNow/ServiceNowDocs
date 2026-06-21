@@ -2,6 +2,7 @@
 title: Linking, delinking, and link conversion conditions
 description: Several conditions can enable or disable you from linking, delinking, and hard or soft-linking records in Lead-to-Cash Process Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/conditions-link-delink-toggle-records.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management

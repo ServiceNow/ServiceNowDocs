@@ -2,6 +2,7 @@
 title: Telecommunications API notification user roles
 description: Administrators can assign user roles to grant access to the API notification database tables. The following standard roles for the Topic \[sn\_api\_notif\_mgmt\_topic\] and Topic Subscription \[sn\_api\_notif\_mgmt\_subscription\] tables are included in the ServiceNow system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecommunications-service-operations-management/alarm-management-user-roles.html
 release: yokohama
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -57,5 +58,5 @@ Role that enables with the following permissions:-   Create and read access to t
 -   Change the status of registration to deregister a topic subscription.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Handling the external events using Telecommunications API notification](../concept/telecommunications-api-notification.md)
+</table>**Parent Topic:**[Handling the external events using Telecommunications API notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
 

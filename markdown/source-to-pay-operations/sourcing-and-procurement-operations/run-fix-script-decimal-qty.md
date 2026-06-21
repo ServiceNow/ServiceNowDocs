@@ -2,6 +2,7 @@
 title: Run the fix script to enable decimal quantities for services
 description: After upgrading to Yokohama Patch 12 or Zurich Patch 6, if you are unable to specify decimal quantities for services, you must run a background fix script to enable support for decimal quantities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/run-fix-script-decimal-qty.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -85,5 +86,5 @@ If you upgraded to Yokohama Patch 12 or Zurich Patch 6 and cannot specify decima
 4.  Select **Run Script**.
 
 
-**Parent Topic:**[Decimal quantity support for service-based purchases in Shopping Hub](../concept/decimal-support-services.md)
+**Parent Topic:**[Decimal quantity support for service-based purchases in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/decimal-support-services.md)
 

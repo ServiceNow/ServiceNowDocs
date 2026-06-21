@@ -2,6 +2,7 @@
 title: Add subscription pricing to an order
 description: Add contract pricing to an order or order line items including start and end dates in Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/add-subscription-pricing-to-an-order.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,11 +28,11 @@ In an order, you can set the contract start date and end date, or you can enter 
 
 Subscription pricing can be added at the order header level or at the order line item level.
 
-See [Subscription revenue metrics](../concept/som-subscription-pricing.md) for more information about how contract pricing works.
+See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-subscription-pricing.md) for more information about how contract pricing works.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Orders** &gt; **All**
 
@@ -51,5 +52,5 @@ See [Subscription revenue metrics](../concept/som-subscription-pricing.md) for m
 5.  Select **Save**.
 
 
-**Parent Topic:**[Create an order in Order Management](som-create-product-order.md)
+**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-product-order.md)
 

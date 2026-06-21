@@ -2,6 +2,7 @@
 title: Digital End-User Experience Remedial Actions
 description: ServiceNow Digital End-User Experience \(DEX\) provides base system remedial actions to resolve issues on DEX-monitored devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/dex-diff-ra.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -515,5 +516,5 @@ Policy ID
 ID of the policy defined in Jamf server for the corresponding action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administration cards](administration-cards.md)
+</table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

@@ -2,6 +2,7 @@
 title: Define object-observable relationships
 description: Define relationships between SDOs and the observable object \(SCO\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/define-object-observable-relationships.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -31,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d418759e102">
+<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d138891e98">
 
 Field
 
-</th><th align="left" id="d418759e105">
+</th><th align="left" id="d138891e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d418759e111">
+</th></tr></thead><tbody><tr><td id="d138891e107">
 
 **Observable**
 
@@ -47,7 +48,7 @@ Description
 
 Select and define the observable.
 
-</td></tr><tr><td id="d418759e120">
+</td></tr><tr><td id="d138891e116">
 
 **Object**
 
@@ -55,7 +56,7 @@ Select and define the observable.
 
 Select and define the object.
 
-</td></tr><tr><td id="d418759e129">
+</td></tr><tr><td id="d138891e125">
 
 **Relationship Type**
 
@@ -67,7 +68,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d418759e148">
+</td></tr><tr><td id="d138891e144">
 
 **Start Time**
 
@@ -75,7 +76,7 @@ A description that provides more details and context about the relationship type
 
 Specifies the time when the relationship is created.
 
-</td></tr><tr><td id="d418759e158">
+</td></tr><tr><td id="d138891e154">
 
 **Stop Time**
 
@@ -83,7 +84,7 @@ Specifies the time when the relationship is created.
 
 Specifies the time when the relationship is stopped or removed.
 
-</td></tr><tr><td id="d418759e167">
+</td></tr><tr><td id="d138891e163">
 
 **Description**
 
@@ -95,5 +96,5 @@ A brief description about the object relationships.
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships Objects](../concept/relationship-objects.md)
+**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/relationship-objects.md)
 

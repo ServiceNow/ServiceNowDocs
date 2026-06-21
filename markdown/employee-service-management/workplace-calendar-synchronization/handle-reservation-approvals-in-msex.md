@@ -2,6 +2,7 @@
 title: Reservation approvals in Microsoft Exchange Online
 description: Track the approval status from Microsoft Outlook when a reservation request is either approved or rejected by the delegate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-calendar-synchronization/handle-reservation-approvals-in-msex.html
 release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

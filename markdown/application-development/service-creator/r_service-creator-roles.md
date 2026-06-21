@@ -2,6 +2,7 @@
 title: Service Creator roles
 description: The Service Creator application uses the specific roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/service-creator/r\_service-creator-roles.html
 release: yokohama
 product: Service Creator
 classification: service-creator
@@ -15,7 +16,7 @@ breadcrumb: [Activate Service Creator, Service Creator, Building pro-code applic
 
 The Service Creator application uses the specific roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 |Role Title \[Name\]|Description|
 |-------------------|-----------|

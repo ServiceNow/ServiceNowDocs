@@ -2,6 +2,7 @@
 title: Supported observables for RISKIQ and RISKIQ WHOISIQ
 description: The RISKIQ API supports automatic SSL certificate lookups on IP address, file hash, Certificate Serial Number, domain, and URL observables. URL and domain observables are enriched automatically with the WHOISIQ API. For observable enrichment on other types of observables with the WHOISIQ API, create observables and run lookups manually from the Observables table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/riskiq\_supported\_obsv.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -85,11 +86,11 @@ This figure shows an example of the file hash and certificate serial number obse
 
 The certificate serial number observable refers to the unique ID or serial number for the entity. This value is also displayed without the colon separators. For example, `00EA0F74B56D44BBBE0000000050DE1DFD`.
 
-![SHA1 and certificate serial number examples](../image/riskiq-sha-cert-callout.png "File hash and certificate serial number")
+\[Omitted image "riskiq-sha-cert-callout.png"\] Alt text: SHA1 and certificate serial number examples
 
-**Parent Topic:**[RISKIQ and WHOISIQ integration](../concept/riskiq-lookups.md)
+**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/riskiq-lookups.md)
 
-**Previous topic:**[RISKIQ and WHOISIQ integration](../concept/riskiq-lookups.md)
+**Previous topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/riskiq-lookups.md)
 
-**Next topic:**[Install and configure RISKIQ and WHOISIQ](../task/install-and-config-riskiq.md)
+**Next topic:**[Install and configure RISKIQ and WHOISIQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/install-and-config-riskiq.md)
 

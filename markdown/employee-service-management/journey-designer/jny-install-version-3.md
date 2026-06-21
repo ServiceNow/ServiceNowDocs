@@ -2,6 +2,7 @@
 title: Install Journey designer
 description: Install the Journey designer version 3 \[sn\_jny\] application to enable administrators and managers to create and manage various professional and personal events and journeys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-install-version-3.html
 release: yokohama
 product: Journey Designer
 classification: journey-designer
@@ -60,5 +61,5 @@ Journey designer version 5.2.0 must be installed as a store application on the Y
 5.  Select **Install**.
 
 
-**Parent Topic:**[Installation and configuration overview](../concept/jny-inst-config-overview.md)
+**Parent Topic:**[Installation and configuration overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-inst-config-overview.md)
 

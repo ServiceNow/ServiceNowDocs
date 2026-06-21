@@ -2,6 +2,7 @@
 title: Attach a file to a post or reply
 description: You can attach files to a post by dragging a file into a post or pasting an image from the clipboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_AttachAFileToAPostOrReply.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -21,19 +22,19 @@ Role required: none
 
 ## About this task
 
-Use the paperclip icon \(![Attachment icon](../../../common/image/AttachmentIcon.png)\) to drag files into a post. Additionally, you can [paste images into a post or reply from the clipboard](t_CopyAnImageFromTheClipboard.md).
+Use the paperclip icon \(\[Omitted image "AttachmentIcon.png"\] Alt text: Attachment icon\) to drag files into a post. Additionally, you can [paste images into a post or reply from the clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/t_CopyAnImageFromTheClipboard.md).
 
 ## Procedure
 
 1.  Do one of the following:
 
-    -   While composing a post or reply \(see [Reply to a Message](t_ReplyToAMessage.md)\), locate one or more images or other supported types of files, and drag them into the message box.
+    -   While composing a post or reply \(see [Reply to a Message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/t_ReplyToAMessage.md)\), locate one or more images or other supported types of files, and drag them into the message box.
 
-    -   Click the paperclip icon \(![Attachment icon](../../../common/image/AttachmentIcon.png)\) in the message box, navigate to the location of the files you want to attach, select them, and click **Open**.
+    -   Click the paperclip icon \(\[Omitted image "AttachmentIcon.png"\] Alt text: Attachment icon\) in the message box, navigate to the location of the files you want to attach, select them, and click **Open**.
 
 2.  To add more files, drag-and-drop additional files into the text box below the displayed files or images, or click the plus sign.
 
-    ![Attaching files](../image/AttachingFiles.png "Attaching files")
+    \[Omitted image "AttachingFiles.png"\] Alt text: Attaching files
 
 3.  If you want to delete an attachment before posting the message, click the trashcan icon adjacent to the attachment.
 
@@ -48,5 +49,5 @@ Use the paperclip icon \(![Attachment icon](../../../common/image/AttachmentIcon
 7.  Click the link to download the files.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

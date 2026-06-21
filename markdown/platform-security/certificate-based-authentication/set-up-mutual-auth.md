@@ -2,6 +2,7 @@
 title: Set up Certificate-based authentication
 description: Set up mutual authentication for either user interface-based logins or inbound web services.You can activate the Certificate-based authentication plugin \(com.glide.auth.mutual\) for ServiceNow AI Platform if you have the admin role. Register root certificates or intermediate certificates to make them available for authentication.Map PEM certificates to users to enable them to log in using PIV or CAC cards or to authenticate inbound requests. You can map multiple PEM certificates to a user.Use system properties to enable or disable certificate-based authentication features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/certificate-based-authentication/set-up-mutual-auth.html
 release: yokohama
 product: Certificate-based Authentication
 classification: certificate-based-authentication
@@ -25,7 +26,7 @@ Check that your instance is using an ADCv2 load balancer. For more information, 
 
 1.  Set up Certificate-based authentication in order to:
 
-    -   Allow end users to securely log in to the ServiceNow AI Platform or Service Portal using PIV or CAC cards. After certificate-based authentication is enabled, you can self-register the PEM certificate or an administrator can map the certificate for you. See [Log in using Certificate-based authentication](ui-login-mutual-auth.md#).
+    -   Allow end users to securely log in to the ServiceNow AI Platform or Service Portal using PIV or CAC cards. After certificate-based authentication is enabled, you can self-register the PEM certificate or an administrator can map the certificate for you. See [Log in using Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/certificate-based-authentication/ui-login-mutual-auth.md).
     -   Enable mutual authentication for inbound web services. Once Certificate-based authentication is set up, the system uses the provided certificates to mutually authenticate requests to access ServiceNow REST and SOAP APIs.
 
 ## Activate Certificate-based authentication
@@ -56,7 +57,7 @@ The following Tables are installed with Certificate-based authentication:
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/yokohama-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## Register CA certificate
@@ -228,7 +229,7 @@ User
 
 </td><td>
 
-User who is mapped to the client certificate.The system receives the client certificate from either the inbound request or [certificate registration](ui-login-mutual-auth.md#), and then uses the user designated in this field to initiate a session to execute the request.
+User who is mapped to the client certificate.The system receives the client certificate from either the inbound request or [certificate registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/certificate-based-authentication/ui-login-mutual-auth.md), and then uses the user designated in this field to initiate a session to execute the request.
 
 </td></tr><tr><td>
 

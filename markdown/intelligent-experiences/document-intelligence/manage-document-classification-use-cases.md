@@ -2,6 +2,7 @@
 title: Manage document classification use cases
 description: Manage your Document Intelligence use cases to efficiently support your document classification requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/document-intelligence/manage-document-classification-use-cases.html
 release: yokohama
 product: Document Intelligence
 classification: document-intelligence
@@ -17,8 +18,8 @@ Manage your Document Intelligence use cases to efficiently support your document
 
 The following topics describe features you can use to manage your document classification use cases.
 
--   **[Delete a document classification use case](../task/delete-document-classification-use-case.md)**  
+-   **[Delete a document classification use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/delete-document-classification-use-case.md)**  
 Delete a use case when it's no longer needed for your documents.
 
-**Parent Topic:**[Configuring Document Intelligence](doc-intel-administration.md)
+**Parent Topic:**[Configuring Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/doc-intel-administration.md)
 

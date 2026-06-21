@@ -2,6 +2,7 @@
 title: Add a property to enable creating knowledge articles from HR cases
 description: Add a property, which is required to allow users to create a knowledge article from an HR case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/property-hrcase-knowledge-article.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

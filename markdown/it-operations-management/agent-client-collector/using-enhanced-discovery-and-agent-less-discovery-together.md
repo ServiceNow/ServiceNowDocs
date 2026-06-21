@@ -2,6 +2,7 @@
 title: Using push-based Discovery and horizontal IP-based Discovery together
 description: Discovery performed by Agent Client Collector for Visibility - Content \(ACC-VC\) is compatible and can coexist with horizontal IP-based Discovery. You may have ACC installed on a given target host and still have that host as part of a horizontal IP-based Discovery schedule as well.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/using-enhanced-discovery-and-agent-less-discovery-together.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -16,7 +17,7 @@ breadcrumb: [Using Agent Client Collector for Visibility - Content, Agent Client
 
 Discovery performed by Agent Client Collector for Visibility - Content \(ACC-VC\) is compatible and can coexist with horizontal IP-based Discovery. You may have ACC installed on a given target host and still have that host as part of a horizontal IP-based Discovery schedule as well.
 
-To perform Discovery by Agent Client Collector for Visibility - Content, enable the **glide.discovery.domain.name.nbt** and **glide.discovery.enable.software\_simplify** parameters. For details on these parameters, see [Discovery properties](../../discovery/reference/r_DiscoveryProperties.md).
+To perform Discovery by Agent Client Collector for Visibility - Content, enable the **glide.discovery.domain.name.nbt** and **glide.discovery.enable.software\_simplify** parameters. For details on these parameters, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryProperties.md).
 
 To enable Discovery using Agent Client Collector, enable the following Discovery properties on the Discovery properties page \(**All** &gt; **Discovery Definition** &gt; **Properties**\):
 
@@ -49,5 +50,5 @@ Enables cleanup for software’s name and version. If set to **true**, it remove
  **Note:** Once the property is set to **false**, to disable the cleanup, duplicate records are generated for a given software. Name and Version are the primary identifiers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Agent Client Collector for Visibility - Content](acc-v-using-agent-client-collector-for-visibility.md)
+</table>**Parent Topic:**[Using Agent Client Collector for Visibility - Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
 

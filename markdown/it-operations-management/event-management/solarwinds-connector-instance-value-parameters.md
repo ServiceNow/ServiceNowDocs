@@ -2,6 +2,7 @@
 title: Solarwinds connector instance value parameters
 description: The following table displays the Solarwinds connector instance value parameters that you can fill in, as needed, when creating a Solarwinds connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/solarwinds-connector-instance-value-parameters.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -78,5 +79,5 @@ Protocol to use when connecting to the Solarwinds server.Default value: https
 </td></tr></tbody>
 </table>**Note:** When monitoring a large number of hosts in Zabbix, fetching massive metric data can impact performance and cause API timeouts; enabling batch processing \(enable\_batch\_processing = true\) mitigates this by fetching metrics in batches \(default: 1000 hosts, configurable via **max\_hosts\_per\_batch**\), though it increases network calls and must be used when monitoring 10,000+ hosts or facing performance issues.
 
-**Parent Topic:**[Event Management reference](event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-management-reference.md)
 

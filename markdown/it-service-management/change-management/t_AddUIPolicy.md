@@ -2,6 +2,7 @@
 title: Add a UI policy
 description: Add a UI policy to display the Needs review field for Normal change requests when it reaches the Complete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/t\_AddUIPolicy.html
 release: yokohama
 product: Change Management
 classification: change-management
@@ -78,12 +79,12 @@ Conditions
 
 8.  Click **Submit** to create the UI Policy action and return to the **UI Policy** form.
 
-    ![New UI policy record](../image/NewStateTutUIPolicy1.png)
+    \[Omitted image "NewStateTutUIPolicy1.png"\] Alt text: New UI policy record
 
 
-**Parent Topic:**[Tutorial: add a new change management state](t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Create a custom field](t_CreateCustomField.md)
+**Previous topic:**[Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_CreateCustomField.md)
 
-**Next topic:**[Create an ACL](t_CreateNewACL.md)
+**Next topic:**[Create an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_CreateNewACL.md)
 

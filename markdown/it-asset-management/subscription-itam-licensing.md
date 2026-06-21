@@ -2,7 +2,10 @@
 title: Licensing for IT Asset Management
 description: The ServiceNow platform uses a new licensing method where your organization is charged for using the IT Asset Management applications: ServiceNow Software Asset Management application and ServiceNow Hardware Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/subscription-itam-licensing.html
 release: yokohama
+product: IT Asset Management
+classification: it-asset-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

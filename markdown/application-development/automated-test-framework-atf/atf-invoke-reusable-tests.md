@@ -2,6 +2,7 @@
 title: Invoke a reusable test
 description: Implement the following steps to invoke a reusable test in a test \(regular or reusable test\) or a test in a test suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/automated-test-framework-atf/atf-invoke-reusable-tests.html
 release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -20,7 +21,7 @@ Implement the following steps to invoke a reusable test in a test \(regular or r
 You are expected to create the following before proceeding:
 
 -   Create either a regular ATF test, or a parent reusable test that rolls up to a regular ATF test.
--   Create a reusable test that can be invoked either from a regular ATF test or a parent reusable test. For information about creating a reusable test, see [Create a reusable test](atf-create-reusable-tests.md).
+-   Create a reusable test that can be invoked either from a regular ATF test or a parent reusable test. For information about creating a reusable test, see [Create a reusable test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-create-reusable-tests.md).
 
 Role required: admin, atf\_test\_admin, atf\_test\_designer or atf\_ws\_designer
 
@@ -68,8 +69,8 @@ Role required: admin, atf\_test\_admin, atf\_test\_designer or atf\_ws\_designer
 
 11. Follow the gif for a quick overview of invoking a reusable test.
 
-    ![Gif showing how to invoke a reusable test.](../image/atf-invoke-reusable-test.gif)
+    \[Omitted image "atf-invoke-reusable-test.gif"\] Alt text: Gif showing how to invoke a reusable test.
 
 
-**Parent Topic:**[Reusable tests](../concept/atf-reuse-tests.md)
+**Parent Topic:**[Reusable tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-reuse-tests.md)
 

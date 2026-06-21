@@ -2,6 +2,7 @@
 title: Resubmit work notes analysis
 description: If a work notes analysis fails for some reason, you can resubmit it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/resubmit-worknotes-analysis.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -29,8 +30,8 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
     To view the error details, select **View error details**.
 
-    ![Resumbit work notes analysis](../image/worknotes-resubmit.png)
+    \[Omitted image "worknotes-resubmit.png"\] Alt text: Resumbit work notes analysis
 
 
-**Parent Topic:**[Work notes analysis](../concept/worknotes-analysis.md)
+**Parent Topic:**[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/worknotes-analysis.md)
 

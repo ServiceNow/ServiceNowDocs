@@ -2,6 +2,7 @@
 title: Access stockroom information on the Field Service Contractor Portal
 description: As a manager or agent of contractor companies, you can access and view the availability of assets in your stockrooms using the Field Service Contractor Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/access-stockroom.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -34,5 +35,5 @@ Agents can access only information for their personal stockrooms and group stock
     -   To check the status of hardware items available in the stockroom, such as model, quantity, state, and sub state, click the Hardware related list.
     -   To check the status of consumable items available in the stockroom, such as quantity, state, and sub state, click the Consumable related list.
 
-**Parent Topic:**[Requesting and receiving required parts](../concept/requesting-and-receiving-parts.md)
+**Parent Topic:**[Requesting and receiving required parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/requesting-and-receiving-parts.md)
 

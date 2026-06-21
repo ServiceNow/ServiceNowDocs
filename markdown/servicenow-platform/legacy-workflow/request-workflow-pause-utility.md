@@ -2,6 +2,7 @@
 title: Request workflow pause utility
 description: You can request the Workflow Pause Utility plugin \(com.glideapp.workflow.pause\) if you have the admin role. This plugin may include demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/legacy-workflow/request-workflow-pause-utility.html
 release: yokohama
 product: Legacy Workflow
 classification: legacy-workflow
@@ -32,7 +33,7 @@ There are two ways to request a plugin:
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -73,12 +74,12 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Workflow pause utility](../concept/workflow-pause-utility.md)
+**Parent Topic:**[Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/legacy-workflow/workflow-pause-utility.md)
 

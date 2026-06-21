@@ -2,6 +2,7 @@
 title: Choose output parameters for an ERP model
 description: Specify output parameters for an ERP \(Enterprise Resource Planning\) system read or update operation in Zero Copy Connector for ERP to define how fields and parameters are mapped from the ERP system to the ServiceNow AI Platform. Output parameters also define how returned data is stored on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-manage-outputs.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -27,7 +28,7 @@ If you're already in the process of managing a model and ready to specify output
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the ERP model icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+2.  Open the ERP model page by selecting the ERP model icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
 3.  Select the model that you want to add a read operation to.
 
@@ -35,25 +36,25 @@ If you're already in the process of managing a model and ready to specify output
 
 5.  Open a model operation.
 
-    If you do not have a model operation, add one to the model. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](erpc-manage-models-read-op.md).
+    If you do not have a model operation, add one to the model. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
 
 6.  Open an entity.
 
-    If you do not have an entity, add one to the operation. For more information, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](erpc-add-entity-to-model-op.md)
+    If you do not have an entity, add one to the operation. For more information, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md)
 
 7.  Select the **Choose outputs** tab.
 
 8.  Review the existing outputs to see if you must add any additional parameters.
 
-    ![Specify operation outputs.](../image/erpc-output-parameters-manager-ys2.png)
+    \[Omitted image "erpc-output-parameters-manager-ys2.png"\] Alt text: Specify operation outputs.
 
     The **Prepopulated outputs** section lists any fields that were added to the inputs. The fields are read-only on the output page, but can be edited and removed on the input page.
 
     **Note:** Prepopulated output applies to only to table and Odata entities.
 
-    ![Outpage page with prepopulated outputs section expanded to show read-only fields.](../image/erpc-output-prepopulated-outpus.png)
+    \[Omitted image "erpc-output-prepopulated-outpus.png"\] Alt text: Outpage page with prepopulated outputs section expanded to show read-only fields.
 
-    **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](../concept/erpc-edit-mapped-value-name-in-model-manager.md).
+    **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-edit-mapped-value-name-in-model-manager.md).
 
 9.  Add a new output field or parameter.
 
@@ -71,7 +72,7 @@ If you're already in the process of managing a model and ready to specify output
 
     The following example shows outputs and nested outputs for a BAPI.
 
-    ![BAPI output with two fields that each have nested outputs.](../image/erpc-output-bapi-nested.png)
+    \[Omitted image "erpc-output-bapi-nested.png"\] Alt text: BAPI output with two fields that each have nested outputs.
 
 10. Add any nested output fields or parameters to choose what data to include from a complex parameter.
 
@@ -79,7 +80,7 @@ If you're already in the process of managing a model and ready to specify output
 
     1.  Specify the parent output field or parameter.
 
-    2.  Select the settings \(![ERP settings icon](../image/erpc-output-indent-icon.png)\) or add icon \(+\) for the parent row.
+    2.  Select the settings \(\[Omitted image "erpc-output-indent-icon.png"\] Alt text: ERP settings icon\) or add icon \(+\) for the parent row.
 
     3.  In the modal that appears, select any additional, related fields or parameters to include.
 
@@ -92,8 +93,8 @@ If you're already in the process of managing a model and ready to specify output
 
 When you add mapped fields or parameters as outputs and successfully read or update the ERP system, each parameter appears as a field that you can then add to a remote table or an extraction table. Manage the fields for the remote table or extraction table to add the retrieved parameters. For more information, see the following topics:
 
--   [Customize fields for an ERP remote table in Zero Copy Connector for ERP](erp-canvas-build-remote-table.md)
--   [Select fields for an extraction table in Zero Copy Connector for ERP](erpc-select-extraction-table-fields.md)
+-   [Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)
+-   [Select fields for an extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-select-extraction-table-fields.md)
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

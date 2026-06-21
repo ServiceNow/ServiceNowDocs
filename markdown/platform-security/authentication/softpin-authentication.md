@@ -2,6 +2,7 @@
 title: SoftPIN authentication
 description: Soft PIN is an authentication method that verifies a user's identity through a personal numeric PIN set up in advance, specifically designed to support AI Voice Agent authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/softpin-authentication.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -34,5 +35,5 @@ While SoftPIN is a secure and convenient authentication method, there are severa
 -   Susceptible to reuse, observation, and social engineering.
 -   Not suitable as the sole authentication method for sensitive or privileged operations.
 
-Soft PIN can be used for your specific use case. For detailed configuration instructions, see [Configure Soft PIN](../task/configure-soft-pin.md).
+Soft PIN can be used for your specific use case. For detailed configuration instructions, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-soft-pin.md).
 

@@ -2,6 +2,7 @@
 title: Health Assessment - Total
 description: The Health Assessment - Total Accelerator provides guidance to measure and improve your ServiceNow instance health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/health-assessment-total.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

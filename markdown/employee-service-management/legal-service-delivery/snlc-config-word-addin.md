@@ -2,6 +2,7 @@
 title: Configure the Microsoft Word add-in for ServiceNow Contracts
 description: As an admin, configure the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-service-delivery/snlc-config-word-addin.html
 release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -29,15 +30,15 @@ Role required: admin
 
 4.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d303842e100">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d288178e100">
 
 System
 
-</th><th align="left" id="d303842e103">
+</th><th align="left" id="d288178e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d303842e109">
+</th></tr></thead><tbody><tr><td id="d288178e109">
 
 **macOS**
 
@@ -51,7 +52,7 @@ Steps
 6.  Navigate to the menu **Home**.
 
 
-</td></tr><tr><td id="d303842e162">
+</td></tr><tr><td id="d288178e162">
 
 **Windows**
 
@@ -65,7 +66,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d303842e219">
+</td></tr><tr><td id="d288178e219">
 
 **Microsoft Word Online**
 
@@ -86,5 +87,5 @@ Steps
 
 The **ServiceNow Contracts** add-in is available in the Home ribbon.
 
-**Parent Topic:**[Install Microsoft Word add-in for ServiceNow Contracts](snlc-install-word-addin.md)
+**Parent Topic:**[Install Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-install-word-addin.md)
 

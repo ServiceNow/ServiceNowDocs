@@ -2,6 +2,7 @@
 title: Migrating your data from a lower environment to a higher environment in RPA Hub
 description: As a system administrator, after you restructure the RPA Hub tables to extend the Application file \(sys\_metadata\), you can use the update set capability to migrate your data from a lower \(non-production\) environment to a higher \(production\) environment for real-time use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/migrate-data-rpa-hub.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,14 +22,14 @@ There are two ways you can migrate your data from a lower environment to a highe
 -   Using the update set capability described in this page for migrating your data from one environment to another environment
 -   Using the **Migrate** button in RPA Hub
 
-    In RPA Hub, you can migrate the bot process configuration and associated assets from one environment to another environment with a click of a button. After the migration is complete, you will have to create a bot process record, create credentials, make necessary changes, and then publish the bot process. For more information, see [Migrating the bot process configuration in RPA Hub](bot-process-migration.md).
+    In RPA Hub, you can migrate the bot process configuration and associated assets from one environment to another environment with a click of a button. After the migration is complete, you will have to create a bot process record, create credentials, make necessary changes, and then publish the bot process. For more information, see [Migrating the bot process configuration in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/bot-process-migration.md).
 
 
 ## Restructured RPA Hub tables \(Tokyo and earlier releases\)
 
-For more information about the restructuring of the RPA Hub tables, see [Restructuring RPA Hub tables](restructured-rpa-hub-tables-utah.md).
+For more information about the restructuring of the RPA Hub tables, see [Restructuring RPA Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/restructured-rpa-hub-tables-utah.md).
 
-For more information about update sets, see [Get started with update sets](https://www.servicenow.com/docs/access?context=get-started-update-sets&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+For more information about update sets, see Get started with update sets.
 
 ## Functionality
 
@@ -40,7 +41,7 @@ RPA release manager manually downloads the zip file from the lower \(non-product
 
 RPA release manager automatically imports package version attachments by selecting the **Import Attachment** button on a package version. RPA admin can also perform this action. A flow is then triggered asynchronously and pulls the attachment from the configured connection using API. The automation zip file is attached to the package version and HashCode validation is performed automatically. An email is also sent to the user who performs the import attachment action.
 
-To execute the orchestration of RPA Hub update sets from third-party tools, it is essential to recreate bot process on the higher environment. The **Change Life Cycle Stage Status of a Bot Process** action in Workflow Studio helps in ensuring the deployment and enablement of RPA Hub process is automated. For more information about this action, see [RPA Hub actions and subflow](../reference/rpa-hub-actions.md).
+To execute the orchestration of RPA Hub update sets from third-party tools, it is essential to recreate bot process on the higher environment. The **Change Life Cycle Stage Status of a Bot Process** action in Workflow Studio helps in ensuring the deployment and enablement of RPA Hub process is automated. For more information about this action, see [RPA Hub actions and subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-hub-actions.md).
 
 ## List of steps for the migration tasks
 
@@ -60,7 +61,7 @@ Environment
 
 </th></tr></thead><tbody><tr><td>
 
-1. [Create and select an update set as the current set](https://www.servicenow.com/docs/access?context=create-select-update-set&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+1. Create and select an update set as the current set.
 
 </td><td>
 
@@ -68,7 +69,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-2. [Create a bot process configuration record in RPA Hub](../task/create-botprocess-config.md).
+2. [Create a bot process configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-botprocess-config.md).
 
 </td><td>
 
@@ -76,7 +77,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-3. [Adding details for your bot process in RPA Hub](post-req-bot-process-rpa.md).
+3. [Adding details for your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/post-req-bot-process-rpa.md).
 
 </td><td>
 
@@ -84,7 +85,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-4. [Mark your current update set complete](https://www.servicenow.com/docs/access?context=t_CompleteUpdateSets&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+4. Mark your current update set complete.
 
 </td><td>
 
@@ -92,7 +93,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-5. [Export to XML](https://www.servicenow.com/docs/access?context=t_SaveAnUpdateSetAsAnXMLFile&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+5. Export to XML.
 
 </td><td>
 
@@ -100,7 +101,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-6. [Download a package version in RPA Hub](../task/download-package-version.md).Perform this task, if you are manually migrating the package attachment \(automation zip file\) from a lower \(non-production\) to a higher \(production\) environment.
+6. [Download a package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/download-package-version.md).Perform this task, if you are manually migrating the package attachment \(automation zip file\) from a lower \(non-production\) to a higher \(production\) environment.
 
 You can skip step 12.
 
@@ -110,7 +111,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-7. Switch to higher instance. [Retrieve an update set](https://www.servicenow.com/docs/access?context=t_RetrieveAnUpdateSet&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+7. Switch to higher instance. Retrieve an update set.
 
 </td><td>
 
@@ -118,7 +119,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-8. [Preview a remote update set](https://www.servicenow.com/docs/access?context=t_PreviewARemoteUpdateSet&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+8. Preview a remote update set.
 
 </td><td>
 
@@ -126,7 +127,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-9. [Commit an update set](https://www.servicenow.com/docs/access?context=t_CommitAnUpdateSet&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+9. Commit an update set.
 
 </td><td>
 
@@ -134,7 +135,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-10. [Associate a bot process to a bot process configuration record](../task/select-botprocess.md).
+10. [Associate a bot process to a bot process configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/select-botprocess.md).
 
 </td><td>
 
@@ -142,7 +143,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-11. [Verify the associated schedules, parameters, packages, and queues in RPA Hub](../task/verify-botprocess-tasks.md).
+11. [Verify the associated schedules, parameters, packages, and queues in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/verify-botprocess-tasks.md).
 
 </td><td>
 
@@ -150,11 +151,11 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-12. If the instance connection is established with a required lower \(non-production\) instance, perform this import task.To establish an instance connection, create an active connection in the **RPA Automation Package** connection and credential alias. Ensure to provide the lower \(non-production\) environment in the **Connection URL** field. For more information, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+12. If the instance connection is established with a required lower \(non-production\) instance, perform this import task.To establish an instance connection, create an active connection in the **RPA Automation Package** connection and credential alias. Ensure to provide the lower \(non-production\) environment in the **Connection URL** field. For more information, see .
 
 Perform this task if you are automatically migrating the package attachment \(automation zip file\) from a lower \(non-production\) to a higher \(production\) environment.
 
-[Import a package version attachment in RPA Hub](../task/import-attachment-package-version.md).
+[Import a package version attachment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/import-attachment-package-version.md).
 
 You can skip step 13 and 14.
 
@@ -164,7 +165,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-13. [Upload an automation package attachment in RPA Hub](../task/upload-package-version-attach.md).Perform this task in classic environment.
+13. [Upload an automation package attachment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/upload-package-version-attach.md).Perform this task in classic environment.
 
 </td><td>
 
@@ -172,7 +173,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-14. [Verify the HashCode of a package version in RPA Hub](../task/view-hash-code.md).
+14. [Verify the HashCode of a package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/view-hash-code.md).
 
 </td><td>
 
@@ -180,7 +181,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-15. [Assign a business application with a bot process](../task/associate-business-apps.md).
+15. [Assign a business application with a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/associate-business-apps.md).
 
 </td><td>
 
@@ -188,7 +189,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-16. [Create a credential group in RPA Hub](../task/create-credential-group.md#).
+16. [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-credential-group.md).
 
 </td><td>
 
@@ -196,7 +197,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-17. [Assign a robot to a bot process in RPA Hub](../task/assign-robots.md).
+17. [Assign a robot to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/assign-robots.md).
 
 </td><td>
 
@@ -204,7 +205,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-18. [Assign a process robot credential within a bot process](../task/assign-process-robot-cred-botprocess.md).
+18. [Assign a process robot credential within a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/assign-process-robot-cred-botprocess.md).
 
 </td><td>
 
@@ -212,7 +213,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-19. [Assign an attended user or group to an attended bot process](../task/assign-rda-users-botprocess.md).
+19. [Assign an attended user or group to an attended bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/assign-rda-users-botprocess.md).
 
 </td><td>
 

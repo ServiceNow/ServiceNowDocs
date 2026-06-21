@@ -2,6 +2,7 @@
 title: View the domain or URL for a web application
 description: View the domain or web address of a web application to access the application and use it effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/view-app-url.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,7 +26,7 @@ Role required: sn\_dex.user or ITIL
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![The DEX Administration icon.](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text: The DEX Administration icon.\).
 
 3.  Select **Configure applications** on the Application management card.
 
@@ -36,5 +37,5 @@ Role required: sn\_dex.user or ITIL
     The URLs appear in the **What domains should be monitored?** field.
 
 
-**Parent Topic:**[DEX application and device health](../concept/dex-appl-and-device-health.md)
+**Parent Topic:**[DEX application and device health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-appl-and-device-health.md)
 

@@ -2,13 +2,14 @@
 title: Import pricing entities
 description: Import pricing entities to a target instance by using the ServiceNow Platform import function.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/import-pricing-entities.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exporting and importing pricing entities, Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Exporting and importing pricing entities, Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Import pricing entities
@@ -31,7 +32,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator
     -   To import context rules, navigate to **All** &gt; **Context Rule Management** &gt; **Import**.
     The record for the import data source opens.
 
-3.  Attach the JSON file by selecting the **Attachments** \(![](../../../reuse/icons/product-icons/paperclip-fill-24.svg)\) icon in the header bar.
+3.  Attach the JSON file by selecting the **Attachments** \(\[Omitted image "paperclip-fill-24.svg"\]\) icon in the header bar.
 
     The Import Data Source pop-up opens.
 

@@ -2,6 +2,7 @@
 title: Create an investigation canvas
 description: Create a new canvas to add observables from threat intelligence library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-create-canvas.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -84,5 +85,5 @@ Role required: sn\_sec\_tisc.analyst
 17. Click **Duplicate** to duplicate the canvas data and nodes within the canvas.
 
 
-**Parent Topic:**[Working with Investigation Canvas](../concept/tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

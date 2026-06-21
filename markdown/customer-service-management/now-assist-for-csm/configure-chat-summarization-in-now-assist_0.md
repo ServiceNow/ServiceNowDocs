@@ -2,6 +2,7 @@
 title: Configure chat summarization
 description: Configure Chat Summarization to generate condensed summaries of conversations between agents or with a Virtual Agent, highlighting key points for quick reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/configure-chat-summarization-in-now-assist\_0.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm

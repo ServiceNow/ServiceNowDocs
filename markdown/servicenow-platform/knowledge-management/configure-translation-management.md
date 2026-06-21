@@ -2,6 +2,7 @@
 title: Configure translation management
 description: Configure translation management to create translation tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/configure-translation-management.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

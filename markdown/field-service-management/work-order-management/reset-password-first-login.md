@@ -2,6 +2,7 @@
 title: Log in to the Field Service Contractor Portal for the first time
 description: Select the link in the email that you’re sent after you’re onboarded to change your password so you can log in for the first time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/reset-password-first-login.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -42,5 +43,5 @@ Role required: none
 8.  Select **Login**.
 
 
-**Parent Topic:**[Contractor Portal](../concept/field-service-contractor-portal.md)
+**Parent Topic:**[Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-contractor-portal.md)
 

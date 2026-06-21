@@ -2,6 +2,7 @@
 title: Validate remote host
 description: Set the property to true to prevent bad actors from using internal port scanning in your network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-validate-remote-host.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -15,7 +16,7 @@ breadcrumb: [Business Logic, Hardening settings, Platform Security]
 
 Set the property to true to prevent bad actors from using internal port scanning in your network.
 
-If the **glide.update\_set.remote.check\_host** property is not set to the recommended value of **true**, then the [Team Development](https://www.servicenow.com/docs/access?context=c_TeamDevelopment&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US) remote instance test feature will allow internal port scanning which is a method bad actors can use to discover vulnerabilities in a network. It is then possible to enumerate all open ports on a given host, and in some cases pull response data which could lead to information leakage or unauthorized data access.
+If the **glide.update\_set.remote.check\_host** property is not set to the recommended value of **true**, then the  remote instance test feature will allow internal port scanning which is a method bad actors can use to discover vulnerabilities in a network. It is then possible to enumerate all open ports on a given host, and in some cases pull response data which could lead to information leakage or unauthorized data access.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Business Logic](sc-business-logic.md)
+[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-business-logic.md)
 
 </td></tr><tr><td>
 
@@ -103,8 +104,8 @@ References
 
 [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0755132](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0755132)
 
- [Define a remote instance](https://www.servicenow.com/docs/access?context=t_DefineARemoteInstance&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US)
+ 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Business Logic](sc-business-logic.md)
+</table>**Parent Topic:**[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-business-logic.md)
 

@@ -2,7 +2,10 @@
 title: Walk-up Experience queue and interaction management
 description: Walk-up Experience managers and technicians can efficiently manage all aspects of a walk-up location queue and interaction demand. Technicians can view assigned walk-up locations and interactions for walk-up fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-walkup-manage-demand.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2

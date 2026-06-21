@@ -2,6 +2,7 @@
 title: Harvest knowledge from a community
 description: Harvest knowledge from a community and create structured knowledge articles from unstructured discussions around a question.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/create-knowledge-from-communities.html
 release: yokohama
 product: Communities
 classification: communities
@@ -51,15 +52,15 @@ You can only harvest solved questions with accepted solutions into a knowledge a
 
 6.  Perform one of the following actions.
 
-<table id="choicetable_xkp_y35_4bb"><thead><tr><th align="left" id="d48638e219">
+<table id="choicetable_xkp_y35_4bb"><thead><tr><th align="left" id="d50408e219">
 
 To
 
-</th><th align="left" id="d48638e222">
+</th><th align="left" id="d50408e222">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d48638e228">
+</th></tr></thead><tbody><tr><td id="d50408e228">
 
 **Publish**
 
@@ -71,7 +72,7 @@ Click **Publish** to initiate the workflow associated with the knowledge base. A
 
 **Note:** You can only see the links if you are a logged-in community user and have been assigned the correct permissions in the forum.
 
-</td></tr><tr><td id="d48638e248">
+</td></tr><tr><td id="d50408e248">
 
 **Save**
 
@@ -79,7 +80,7 @@ Click **Publish** to initiate the workflow associated with the knowledge base. A
 
 Click **Save** to save the knowledge article as a draft. To publish the knowledge article at a later point in time, navigate to the platform UI and then **Knowledge** &gt; **Articles** &gt; **Unpublished**.
 
-</td></tr><tr><td id="d48638e272">
+</td></tr><tr><td id="d50408e272">
 
 **Delete**
 
@@ -89,5 +90,5 @@ Click **Delete** to delete the knowledge article and all records associated with
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Moderate a community](moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/moderate-communities.md)
 

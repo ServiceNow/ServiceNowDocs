@@ -2,6 +2,7 @@
 title: Decline a feedback request
 description: You can decline a feedback request sent you if you do not wish to provide feedback for any reason.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-feedback/accept-deny-feedback.html
 release: yokohama
 product: Talent Feedback
 classification: talent-feedback
@@ -32,5 +33,5 @@ Role required: employee
 4.  Add a reason for declination in the pop-up and select **Decline**.
 
 
-**Parent Topic:**[Working with Skill feedback in Talent Feedback](../concept/skill-feedback-feature.md)
+**Parent Topic:**[Working with Skill feedback in Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/skill-feedback-feature.md)
 

@@ -2,6 +2,7 @@
 title: Setting up a root email
 description: The app creates accounts with a unique request ID and root email, promoting distinct emails for each account and simplifying management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/setting-up-root-email.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management

@@ -2,7 +2,10 @@
 title: Deleting or editing an address on the location form
 description: As a user, you can edit or delete an existing record in the account address table without affecting any other associated records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/delete-address-location-form.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

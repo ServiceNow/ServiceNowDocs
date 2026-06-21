@@ -2,9 +2,12 @@
 title: Assign a team member to a household
 description: Assign a team member to a household by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/assign-team-member-to-household.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Configuring households, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

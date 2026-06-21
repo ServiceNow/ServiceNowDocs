@@ -2,6 +2,7 @@
 title: Working with schedule view
 description: You can check any reservations created in your workplace and also make changes using the schedule view of the event planner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-central/working-with-schedule-view.html
 release: yokohama
 product: Workplace Central
 classification: workplace-central
@@ -49,7 +50,7 @@ You can view reservations created in any campus, building, or floor of your orga
 
     The Workplace Analytics dashboard opens.
 
-2.  On the left pane, select the **Event planner** icon \(![Event planner icon.](../images/event-planner-icon.png)\).
+2.  On the left pane, select the **Event planner** icon \(\[Omitted image "event-planner-icon.png"\] Alt text: Event planner icon.\).
 
     The Event Planner dashboard opens.
 
@@ -99,7 +100,7 @@ You can view reservations created in any campus, building, or floor of your orga
 
         The reservation details \(start date and end date, time, reservation duration, type of reservation and current state is displayed.
 
-    2.  To view and update the reservation details, select the Open side panel icon \(![Open side panel icon.](../images/evnt-plnnr-opensidepanelicon.png)\).
+    2.  To view and update the reservation details, select the Open side panel icon \(\[Omitted image "evnt-plnnr-opensidepanelicon.png"\] Alt text: Open side panel icon.\).
 
     3.  To open the reservation on the portal and view more details, select **Open reservation**.
 
@@ -136,13 +137,13 @@ You can view reservations created in any campus, building, or floor of your orga
         -   To change the reservation and keep the services, edit the reservation first.
 14. To create a reservation on the selected campus, select **Create new reservation**.
 
-    For more information on how to make a reservation, refer to [Create a reservation](../../wsd-reservation-management/task/create-reservation-request-1.md).
+    For more information on how to make a reservation, refer to [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
 
 
--   **[Allow Event planners to handle reservations with more flexibility](../concept/event-planner-bypass-validation-rule-overview.md)**  
+-   **[Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md)**  
 Reservation planners can bypass or overrule certain settings in the Reservable module while moving a reservation to another location in the Event planner Scheduled View.
--   **[Move reservations between Reservable modules using the Schedule view](evnt-planner-scheduled-view-move-rsv.md)**  
+-   **[Move reservations between Reservable modules using the Schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/evnt-planner-scheduled-view-move-rsv.md)**  
 Reservation or space planners can move or update reservation between Reservable modules. Planners with sn\_wsd\_rsv.bypass\_module\_validation role can bypass the Reservable module configuration settings.
 
-**Parent Topic:**[Working with Event planner](../concept/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/working-with-event-planner.md)
 

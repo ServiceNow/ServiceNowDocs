@@ -2,6 +2,7 @@
 title: Manage approvals from Microsoft Teams
 description: Manage Concur expense approvals using Virtual Agent actionable notifications in Microsoft Teams to resolve the approval directly in the Virtual Agent conversation without involving a live agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/va-concur.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +21,7 @@ Manage Concur expense approvals using Virtual Agent actionable notifications in 
 -   The Virtual Agent integration is supported only for users who have a user record in your ServiceNow instance. Users must link their accounts to Microsoft Teams and enable Virtual Agent notifications.
 -   Install the Approvals hub integration with the SAP Concur \(sn\_ex\_cnc\) plugin.
 
-For more information on receiving notifications, see [Integrating Virtual Agent with Microsoft Teams](https://www.servicenow.com/docs/access?context=teams-conv-integration&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US) and [Enable Virtual Agent notifications](https://www.servicenow.com/docs/access?context=enable-va-notifications&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US). For more information on Virtual Agent, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+For more information on receiving notifications, see  and . For more information on Virtual Agent, see .
 
 Role required: approver\_user
 
@@ -44,15 +45,15 @@ Role required: approver\_user
 
     **Note:** You cannot accept or reject a report if the assigned approver has been modified or the report has been updated or closed.
 
-<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d218971e175">
+<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d66185e172">
 
 Decision
 
-</th><th align="left" id="d218971e178">
+</th><th align="left" id="d66185e175">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d218971e184">
+</th></tr></thead><tbody><tr><td id="d66185e181">
 
 **Approve the report**
 
@@ -60,7 +61,7 @@ Action
 
 Select **Approve**.
 
-</td></tr><tr><td id="d218971e196">
+</td></tr><tr><td id="d66185e193">
 
 **Reject the report**
 
@@ -72,5 +73,5 @@ Select **Approve**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Employee actions](../concept/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
 

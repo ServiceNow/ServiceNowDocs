@@ -2,6 +2,7 @@
 title: Direct Deferral of Configuration items \(CIs\) by Exception Rules Without Remediation Task Creation
 description: Exception rules are applied directly to the Configuration Items \(CIs\) eliminating the process of creating a remediation task. Auto- Exception Rule column is added to the form view, which populates the current exception rule applied on the Configuration Item \(CI\)
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/configuration-compliance/exception-rules-remediation-task-cc.html
 release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance

@@ -2,6 +2,7 @@
 title: Sell/Consume domain in the CSDM framework
 description: The Sell and Consume domain represents the portfolio of business services that may sell or consume elements of the Manage Technology Management Services domain. The Sell/Consume domain involves the tables used by Service Portfolio Management \(Service Portfolio Management\) and Customer Service Management \(CSM\). This is the portfolio and request catalog of business service offerings that depend on the deployed digital products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -15,9 +16,9 @@ breadcrumb: [CSDM data domains, Explore, CSDM, Configuration Management, Extend 
 
 The Sell and Consume domain represents the portfolio of business services that may sell or consume elements of the Manage Technology Management Services domain. The Sell/Consume domain involves the tables used by Service Portfolio Management \(Service Portfolio Management\) and Customer Service Management \(CSM\). This is the portfolio and request catalog of business service offerings that depend on the deployed digital products.
 
-Typical users are the business relationship manager and the customer service manager. Business consumers can request business services through the request catalog. Catalogs are described in detail in [Service Catalog](../../service-catalog-management/concept/service-catalog.md). You're not required to use Service Portfolio Management or CSM to use the referenced tables, but those products enable you to manage workflows and report service-related data.
+Typical users are the business relationship manager and the customer service manager. Business consumers can request business services through the request catalog. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog.md). You're not required to use Service Portfolio Management or CSM to use the referenced tables, but those products enable you to manage workflows and report service-related data.
 
-![Sell/Consume domain.](../image/sell-consume-domain.png)
+\[Omitted image "sell-consume-domain.png"\] Alt text: Sell/Consume domain.
 
 The Sell/Consume domain includes the following tables:
 
@@ -37,7 +38,7 @@ Business service offerings are the starting point for configuring Service Portfo
 -   A silver offering of upgrades and virus protection.
 -   A gold offering with the silver commitments plus a response time guarantee of 30 minutes between the hours of 8:00 a.m. and 5:00 p.m., Monday through Friday.
 
-**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://www.servicenow.com/docs/access?context=SPM2-taxonomy&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US).
+**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See .
 
 Business service offerings have the following characteristics:
 
@@ -51,7 +52,7 @@ Business service offerings have the following characteristics:
 
 You can view your business service offerings in the Digital Portfolio Management \(DPM\).
 
-![Service Offering view in the Digital Portfolio Management (DPM).](../image/service-offering-form.png)
+\[Omitted image "service-offering-form.png"\] Alt text: Service Offering view in the Digital Portfolio Management \(DPM\).
 
 Business service offerings typically have different service-level agreements \(SLAs\) depending on their commitments. Without a business service offering, SLAs remain at a process level only. For example, the SLA stays at a P1 incident or a minor change, and doesn't refer to the affected service offering.
 
@@ -61,7 +62,7 @@ You can represent business services and business service offerings as catalog it
 
 A business service is associated with business users and is typically layered beneath one or more business capabilities. A business service can contain one or more business service offerings.
 
-Business consumers can use the request catalog to order business services, business service offerings, and service commitment levels. Catalogs are described in detail in [Service Catalog](../../service-catalog-management/concept/service-catalog.md). Business services are mapped to the \[cmdb\_ci\_service\_business\] table and are classified as “business services.”
+Business consumers can use the request catalog to order business services, business service offerings, and service commitment levels. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog.md). Business services are mapped to the \[cmdb\_ci\_service\_business\] table and are classified as “business services.”
 
 ## Service portfolios
 
@@ -74,7 +75,7 @@ A service portfolio is a hierarchical collection of business services, products,
 
 ## Request catalogs
 
-A request catalog enables consumers to order and manage business and technical products, services, service commitment options, and offerings \(for example, the Human Resources \[HR\] service catalog\). Catalogs contain catalog items and are the starting point for consumers to access available services. Catalogs are described in detail in [Service Catalog](../../service-catalog-management/concept/service-catalog.md).
+A request catalog enables consumers to order and manage business and technical products, services, service commitment options, and offerings \(for example, the Human Resources \[HR\] service catalog\). Catalogs contain catalog items and are the starting point for consumers to access available services. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog.md).
 
 **Catalog Item**
 
@@ -84,5 +85,5 @@ A catalog item is an item or a service that a consumer can request from the cata
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[Common Service Data Model — conceptual model](csdm-conceptual-model.md)
+**Parent Topic:**[Common Service Data Model — conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
 

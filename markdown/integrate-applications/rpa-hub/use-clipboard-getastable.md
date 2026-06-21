@@ -2,6 +2,7 @@
 title: Use the GetAsTable component
 description: Get the content of the clipboard as a data table as part of an automation Workflow by using the GetAsTable component in the RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-clipboard-getastable.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetAsTable component. For more information about these properties, see [Properties of the Clipboard components](../reference/util-clipboard-prop.md).
+You can configure the properties for the GetAsTable component. For more information about these properties, see [Properties of the Clipboard components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/util-clipboard-prop.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ You can configure the properties for the GetAsTable component. For more informat
 
 2.  Drag the GetAsTable component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the GetAsTable component to the corresponding ports of the other components as described in the following table.
 
@@ -109,5 +110,5 @@ No. Connecting the port is optional.
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Clipboard](../concept/clipboard.md)
+**Parent Topic:**[Clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/clipboard.md)
 

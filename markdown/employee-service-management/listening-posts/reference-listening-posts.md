@@ -2,6 +2,7 @@
 title: Reference for Listening Posts
 description: Reference topics provide additional information about Listening Posts.Several types of components are installed with activation of the Listening Posts \(sn\_lp\) plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/listening-posts/reference-listening-posts.html
 release: yokohama
 product: Listening Posts
 classification: listening-posts
@@ -15,7 +16,7 @@ breadcrumb: [Listening Posts, Employee Journey Management, HR Service Delivery, 
 
 Reference topics provide additional information about Listening Posts.
 
-**Parent Topic:**[Listening Posts](../concept/listening-posts-1.md)
+**Parent Topic:**[Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 
 ## Components installed with Listening Posts
 

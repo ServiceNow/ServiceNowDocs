@@ -2,6 +2,7 @@
 title: System update sets
 description: An update set is a group of configuration changes that can be moved from one instance to another. This feature allows administrators to group a series of changes into a named set and then move them as a unit to other systems for testing or deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/system-update-sets/system-update-sets.html
 release: yokohama
 product: System Update Sets
 classification: system-update-sets
@@ -29,7 +30,7 @@ Update sets track changes to applications and system platform features. This all
 
 ## System properties
 
-Administrators can exclude system properties from update sets by making them private. Keeping system properties private prevents settings in one instance from overwriting values in another instance. For example, you may not want a system property in a production instance to use a particular value from a development instance. See [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+Administrators can exclude system properties from update sets by making them private. Keeping system properties private prevents settings in one instance from overwriting values in another instance. For example, you may not want a system property in a production instance to use a particular value from a development instance. See Add a system property.
 
 ## Applications
 
@@ -42,7 +43,7 @@ Application developers have additional options with update sets such as:
 
 Each update set is stored in the Update Set `[sys_update_set]` table, and the customizations that are associated with the update set, which are entries in the Customer Update `[sys_update_xml]` table, appear as a related list on the update set record.
 
-When a tracked object is customized, a corresponding record is added or updated in the Customer Update `[sys_update_xml]` table and is associated with the user current update set. The [associated application file properties](../../applications/concept/c_ApplicationFiles.md) are tracked and transferred along with the customized object in a single update record. A corresponding record is also added to the Versions `[sys_update_version]` table.
+When a tracked object is customized, a corresponding record is added or updated in the Customer Update `[sys_update_xml]` table and is associated with the user current update set. The [associated application file properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_ApplicationFiles.md) are tracked and transferred along with the customized object in a single update record. A corresponding record is also added to the Versions `[sys_update_version]` table.
 
 The Customer Update table contains one record per customized object, per update set. The Versions table contains one record per change to a customized object.
 

@@ -2,6 +2,7 @@
 title: Available Zero Copy Connector for ERP content packs
 description: The following content packs are available for use in Zero Copy Connector for ERP to implement and deploy applications faster with less manual work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-available-content-packs.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -42,5 +43,5 @@ The ERP Content Pack for Quote to Cash contains the following:
 |Models|ECC and S/4|Tables or BAPI|
 |Process extensions|ECC and S/4|Tables or BAPI|
 
-**Parent Topic:**[Zero Copy Connector for ERP content packs](erp-canvas-content-packs.md)
+**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-content-packs.md)
 

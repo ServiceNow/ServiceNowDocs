@@ -2,6 +2,7 @@
 title: Associate locations with a healthcare organization in Healthcare and Life Sciences Service Management Core
 description: Associate healthcare locations with healthcare organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.html
 release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

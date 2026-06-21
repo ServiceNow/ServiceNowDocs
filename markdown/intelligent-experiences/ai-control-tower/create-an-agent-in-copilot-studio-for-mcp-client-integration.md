@@ -1,19 +1,20 @@
 ---
-title: Connecting with Copilot Studio Via AI Gateway
-description: Connecting with a Copilot Studio via AI Gateway.
+title: Connecting with Microsoft Copilot Studio Via AI Gateway
+description: Connecting with a Microsoft Copilot Studio via AI Gateway.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/create-an-agent-in-copilot-studio-for-mcp-client-integration.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-11-24"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Connect to MCP servers Via AI Gateway, Explore AI Gateway, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Connect to MCP servers Via AI Gateway, Explore AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Connecting with Copilot Studio Via AI Gateway
+# Connecting with Microsoft Copilot Studio Via AI Gateway
 
-Connecting with a Copilot Studio via AI Gateway.
+Connecting with a Microsoft Copilot Studio via AI Gateway.
 
 ## Before you begin
 
@@ -35,15 +36,15 @@ Role required: Workspace user
 
     5.  Enter the description.
 
-    6.  Click **Create**.
+    6.  Select **Create**.
 
         An agent is created.
 
-3.  Adding tools to the agent in Copilot Studio
+3.  Adding tools to the agent in Microsoft Copilot Studio
 
     1.  Open the Agent and navigate to **Tools** tab.
 
-    2.  Click **+Add a tool**.
+    2.  Select **+Add a tool**.
 
     3.  Select **Model Context Protocol** icon.
 
@@ -63,7 +64,7 @@ Role required: Workspace user
 
     9.  Enter the Client ID and Client secret.
 
-        The Client ID and Client secret details are available in the MCP server record created for Copilot Studio.
+        The Client ID and Client secret details are available in the MCP server record created for Microsoft Copilot Studio.
 
     10. Enter the Authorization URL and Token URL template.
 
@@ -71,21 +72,21 @@ Role required: Workspace user
 
     11. Enter the Refresh URL.
 
-        The Refresh URL is the same as the Token URL.
+        The Refresh URL is same as the Token URL.
 
-    12. Click **Create**.
+    12. Select **Create**.
 
         Your tool gets created successfully and generates a Redirect URL.
 
 4.  Copy the Redirect URL and paste in the Redirect URL field in the MCP server record.
 
-5.  Click **Save** to save the MCP server record.
+5.  Select **Save** to save the MCP server record.
 
 6.  Navigate to **ALL** &gt; **Application registry** and look for the Copilot MCP server record.
 
-7.  Ensure to change the values of **Always use PKCE** and **Public Client** from **True** to **False** of the server record.
+7.  Verify to change the values of **Always use PKCE** and **Public Client** from **True** to **False** of the server record.
 
-    This step is only applicable for Copilot Studio.
+    This step is only applicable for Microsoft Copilot Studio.
 
 8.  Save the Copilot MCP server record.
 
@@ -101,10 +102,10 @@ Role required: Workspace user
 
 14. Open the connection manager and provide authentication to Copilot.
 
-    This step is only applicable for Copilot Studio.
+    This step is only applicable for Microsoft Copilot Studio.
 
-15. Click **Connect**.
+15. Select **Connect**.
 
-16. Click **Submit**.
+16. Select **Submit**.
 
 

@@ -2,6 +2,7 @@
 title: Manage access persons list
 description: Add users who have access to non-public information regarding the trade of securities of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-stock-preclearance/manage-access-persons-list.html
 release: yokohama
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -37,7 +38,7 @@ Role required: sn\_lg\_stock\_cp.stock\_config
 
 3.  To modify a user's information in the Access Persons list,
 
-    1.  Click the preview icon \(![Preview icon](../../workplace-case-mgmt/image/preview-icon.png)\) and click **Open Record**.
+    1.  Click the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon\) and click **Open Record**.
 
     2.  On the form, update the fields.
 
@@ -51,5 +52,5 @@ Role required: sn\_lg\_stock\_cp.stock\_config
     3.  Click **Update**.
 
 
-**Parent Topic:**[Setting up Legal Stock Preclearance](../concept/legal-stock-pre-administration.md)
+**Parent Topic:**[Setting up Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
 

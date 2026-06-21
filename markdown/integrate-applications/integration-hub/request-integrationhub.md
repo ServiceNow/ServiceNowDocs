@@ -2,6 +2,7 @@
 title: Request an Integration Hub plugin
 description: Integration Hub plugins require a separate subscription and must be activated by ServiceNow personnel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/request-integrationhub.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -25,7 +26,7 @@ To purchase a subscription, contact your ServiceNow account manager. The account
 
 If you don't have an account manager, decide to delay activation after purchase, or want to evaluate the product on a subproduction instance without charge, follow these steps.
 
-For a list of Integration Hub plugins, see [Integration Hub plugins](../reference/ih-plugins.md).
+For a list of Integration Hub plugins, see [Integration Hub plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/ih-plugins.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ For a list of Integration Hub plugins, see [Integration Hub plugins](../referenc
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -74,17 +75,17 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Request Integration Hub](../../flow-designer/concept/request-ih-overview.md)
+**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/request-ih-overview.md)
 
 **Related topics**  
 
 
-[List of plugins \(Yokohama\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

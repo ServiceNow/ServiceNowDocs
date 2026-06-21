@@ -2,6 +2,7 @@
 title: Life cycle value definitions for product entities
 description: The Life Cycle Stage and Life Cycle Stage Status values for the product life-cycle process are visible only in Product \(Models\) tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-product.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -17,7 +18,7 @@ The Life Cycle Stage and Life Cycle Stage Status values for the product life-cyc
 
 ## Definitions of product life cycle stage and life cycle stage status values
 
-![Relationships between CSDM stages and life cycle values.](../image/csdm-lifecycle-vp-product.png)
+\[Omitted image "csdm-lifecycle-vp-product.png"\] Alt text: Relationships between CSDM stages and life cycle values.
 
 -   **Ideation life cycle stage**
 
@@ -49,5 +50,5 @@ The Life Cycle Stage and Life Cycle Stage Status values for the product life-cyc
     -   **Retired**: The product is no longer available for new purchases or deployments but may still exist in limited use.
     -   **Obsolete**: The product is completely phased out and is no longer supported or used.
 
-**Parent Topic:**[CSDM reference](../concept/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

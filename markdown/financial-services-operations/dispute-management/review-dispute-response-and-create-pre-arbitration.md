@@ -2,6 +2,7 @@
 title: Review dispute response and create pre-arbitration
 description: Review a merchant’s response for the dispute and initiate pre-arbitration, if necessary for the collaboration dispute workflow of the Chargeback stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/review-dispute-response-and-create-pre-arbitration.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +24,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -47,15 +48,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 10. Select one of the following options.
 
-<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d48175e186">
+<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d52409e186">
 
 Selection
 
-</th><th align="left" id="d48175e189">
+</th><th align="left" id="d52409e189">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d48175e197">
+</th></tr></thead><tbody><tr><td id="d52409e197">
 
 **Unresolved**
 
@@ -76,7 +77,7 @@ Result
     2.  Select **Yes** or **No** and click **Continue**.
 
 
-</td></tr><tr><td id="d48175e318">
+</td></tr><tr><td id="d52409e318">
 
 **Resolved**
 
@@ -96,7 +97,7 @@ To recall the request, select **Recall**. When a response is received, the **Pre
 
 ## What to do next
 
-To recall the request, select **Recall**. When a response is received, the **Pre arbitration response received** value changes to **Yes** and the transaction state moves to **Work to Progress**. You will be redirected to the next activity [Review the pre-arbitration response and create a case filing](review-pre-arbitration-response-and-create-case-filing.md).
+To recall the request, select **Recall**. When a response is received, the **Pre arbitration response received** value changes to **Yes** and the transaction state moves to **Work to Progress**. You will be redirected to the next activity [Review the pre-arbitration response and create a case filing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/review-pre-arbitration-response-and-create-case-filing.md).
 
-**Parent Topic:**[Collaboration dispute workflow](../concept/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

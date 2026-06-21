@@ -2,6 +2,7 @@
 title: ACME reference
 description: Reference topics provide additional information about the Automated Certificate Management Environment \(ACME\), including tables, patterns, and terms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/acme-references.html
 release: yokohama
 product: Discovery
 classification: discovery
@@ -17,5 +18,5 @@ Reference topics provide additional information about the Automated Certificate 
 
 To automate the processes of your certificate life-cycle, you must fill out routing policies that are filled in to the Certificate Authority forms. This table guides you through the fields and values required for this task.
 
-[Certificate routing policy form table](certificate-routing-policy-form-table.md)
+[Certificate routing policy form table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/certificate-routing-policy-form-table.md)
 

@@ -2,6 +2,7 @@
 title: Create a pulse question
 description: Create a question in a pulse survey or add a question to pulse question bank.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/ec-create-pulseq.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation

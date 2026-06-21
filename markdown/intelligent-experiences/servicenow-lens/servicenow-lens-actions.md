@@ -2,6 +2,7 @@
 title: Define ServiceNow AI Lens behavior with Lens actions
 description: As a Lens admin, you can create Lens actions in ServiceNow AI Lens to customize Lens behavior by providing default instructions, configuring context, and more.Create a Lens action to define custom context, trigger options, and default instructions for the ServiceNow AI Lens execution.Enable customers to scan documents related to car accident on their desktop to auto-fill the Insurance Request form on the ServiceNow instance.Enable compliance analysts to digitize and review several vendor agreements. Instead of manually entering details, they can launch ServiceNow AI Lens directly from the desktop, scan agreements, and adjust extracted values in the preview window before saving.Enable service agents to create user records by extracting specific information from identity documents using ServiceNow AI Lens, directly from the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-actions.html
 release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -28,9 +29,9 @@ Whenever ServiceNow AI Lens is launched from an instance, it checks if any activ
 
 Refer to the following examples to understand the different use cases of setting up the Lens actions.
 
--   [Example: Scan documents to auto-fill the Insurance Request form](servicenow-lens-actions.md#)
--   [Example: Extract structured data from vendor agreements](servicenow-lens-actions.md#)
--   [Example: Auto-fill user records on a user table](servicenow-lens-actions.md#)
+-   [Example: Scan documents to auto-fill the Insurance Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+-   [Example: Extract structured data from vendor agreements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
+-   [Example: Auto-fill user records on a user table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 ## Customize ServiceNow AI Lens behavior by creating a Lens action
 
@@ -60,7 +61,7 @@ Trigger For
 
 Auto-fill a form with a custom context and default instructions when triggered from the instance.When ServiceNow AI Lens is triggered from the instance in the context of the Lens action, the default instructions are always applied and specific form fields are extracted.
 
-To view the procedure to define default instructions, see [Define default instructions for ServiceNow AI Lens](../task/default-prompt-system-property-lens.md).
+To view the procedure to define default instructions, see [Define default instructions for ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/default-prompt-system-property-lens.md).
 
 </td><td>
 
@@ -113,7 +114,7 @@ For example, if a user selects **Create with Lens** from Incident table list, Se
 
 The Lens action can only be used by the users or groups who are assigned to the Lens Actions record.
 
-![Lens action form with fields and Assigned users and groups related list.](../image/lens-action-form.png)
+\[Omitted image "lens-action-form.png"\] Alt text: Lens action form with fields and Assigned users and groups related list.
 
 ### Procedure
 
@@ -148,7 +149,7 @@ Trigger For
 
 </td><td>
 
--   **Form** - Lens action is used when ServiceNow AI Lens is triggered to auto-fill a form. Apply a transformation logic to the Lens response before the form is auto-filled by using the [servicenow-lens-actions.md\#transform-response](servicenow-lens-actions.md#transform-response) option.
+-   **Form** - Lens action is used when ServiceNow AI Lens is triggered to auto-fill a form. Apply a transformation logic to the Lens response before the form is auto-filled by using the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md) option.
 -   **Service** - Lens action is used when ServiceNow AI Lens is used as a service. Select this option to trigger Lens from an instance to auto-populate a **Workspace form**, or to trigger it using Virtual Agent or Script Include.
 -   **Others** - Lens action is used when ServiceNow AI Lens is triggered to display a preview of extracted data and perform post processing steps, if applicable.
 
@@ -189,7 +190,7 @@ Fields
 
 </td><td>
 
-Table fields that you can select to provide enhanced context for Lens execution. Select fields to help Lens determine what information to extract from images. Only fields supported by Lens are available for selection. For more information, see [Field types supported](../reference/field-types-supported.md).This field appears only when **Supported Fields** is selected from the **Request Context** choice field.
+Table fields that you can select to provide enhanced context for Lens execution. Select fields to help Lens determine what information to extract from images. Only fields supported by Lens are available for selection. For more information, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/field-types-supported.md).This field appears only when **Supported Fields** is selected from the **Request Context** choice field.
 
 </td></tr><tr><td>
 
@@ -445,7 +446,7 @@ Role required: lens\_admin
 
 You can define in the Lens action that ServiceNow AI Lens must be triggered from the desktop to auto-fill the Insurance Request form. Lens action includes the fields that must be updated with the extracted data.
 
-![Example Lens action record for auto-filling Insurance request form.](../image/lens-action-insurance-example.png)
+\[Omitted image "lens-action-insurance-example.png"\] Alt text: Example Lens action record for auto-filling Insurance request form.
 
 ### Procedure
 

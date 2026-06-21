@@ -2,6 +2,7 @@
 title: Test plan sign-off
 description: Record approval of the test plan by using the functionality to sign off a test plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/test-management/c\_TestPlanSignOff.html
 release: yokohama
 product: Test Management
 classification: test-management

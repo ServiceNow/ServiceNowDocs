@@ -2,6 +2,7 @@
 title: Detecting portable applications using push-based discovery
 description: Portable applications are those applications that don’t need to be installed on the target system. Starting in ACC-VC version 2.3.0, push-based Discovery can detect portable applications, such as Firefox, VLC, Notepad++ etc, for Windows only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-v-detect-portable-apps.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -34,5 +35,5 @@ When the portable application is executed, it creates a running process. The app
 
 Name, Version, and Vendor attributes are fetched from the Portable software and are found in the appinfo.ini files. appinfo.ini is the mandatory file to execute any portable application. If SAM is installed, the information is displayed in Software installation \[cmdb\_sam\_sw\_install\] table. If SAM is not installed, the information shows in the Software instance \[cmdb\_software\_instance\] table.
 
-**Parent Topic:**[Using Agent Client Collector for Visibility - Content](acc-v-using-agent-client-collector-for-visibility.md)
+**Parent Topic:**[Using Agent Client Collector for Visibility - Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
 

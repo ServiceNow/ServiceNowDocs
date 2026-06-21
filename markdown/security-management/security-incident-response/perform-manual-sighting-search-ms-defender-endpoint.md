@@ -2,6 +2,7 @@
 title: Perform a manual sighting search in Microsoft Defender for Endpoint
 description: Select individual or multiple observables and perform a manual sighting search in Microsoft Defender for Endpoint to determine the prevalence of a threat over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/perform-manual-sighting-search-ms-defender-endpoint.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response

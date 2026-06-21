@@ -2,6 +2,7 @@
 title: Create a campaign bundle for Workplace from Facebook
 description: Use campaign bundles to group your campaign content within a campaign. This process allows you to determine when the content must be published to the groups on Workplace from Facebook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/create-bundle-facebook.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery

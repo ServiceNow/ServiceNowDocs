@@ -2,6 +2,7 @@
 title: Resume a lifecycle event case
 description: Resume a lifecycle event case after a workflow error or workflow timeout.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/lifecycle-events/resume-hr-lifecycle-event-case.html
 release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
@@ -23,7 +24,7 @@ Role required: sn\_hr\_le.case\_writer
 
 1.  Navigate to **All** &gt; **Lifecycle Events** &gt; **Lifecycle Events Cases**, and open the lifecycle event case that errored.
 
-    ![Lifecycle event case where the second activity set errored out.](../image/resume-lifecycle-event-case.png)
+    \[Omitted image "resume-lifecycle-event-case.png"\] Alt text: Lifecycle event case where the second activity set errored out.
 
 2.  Identify and fix the error.
 

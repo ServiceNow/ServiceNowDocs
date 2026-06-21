@@ -2,6 +2,7 @@
 title: Exploring Finance Case Management
 description: Learn about the benefits and capabilities of Finance Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/finance-case-management/explore-fin-case-mgmt.html
 release: yokohama
 product: Finance Case Management
 classification: finance-case-management
@@ -36,8 +37,8 @@ Finance Case Management uses the following applications:
     Finance Operations Workspace provides a single system of action to manage and prioritize work. The application displays critical information to prioritize work, and it eliminates tool sprawl.
 
 
--   **[Exploring the Finance Operations Workspace](fin-ops-workpace.md)**  
+-   **[Exploring the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)**  
 The Finance Operations Workspace is a single system to manage and prioritize work.
 
-**Parent Topic:**[Finance Case Management](fin-case-mgmt-landing-page.md)
+**Parent Topic:**[Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/finance-case-management/fin-case-mgmt-landing-page.md)
 

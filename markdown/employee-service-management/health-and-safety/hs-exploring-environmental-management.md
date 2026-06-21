@@ -2,6 +2,7 @@
 title: Exploring Health and Safety Environmental Management
 description: Health and Safety Environmental Management helps organizations centralize and streamline the tracking of hazardous materials and chemicals. It reduces the reliance on manual processes and spreadsheets, improving data accuracy and conformance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety/hs-exploring-environmental-management.html
 release: yokohama
 product: Health and Safety
 classification: health-and-safety
@@ -29,8 +30,8 @@ In the Health and Safety Workspace, environmental management list view displays 
 |Documents|Documents that are added to chemical groups, items, requests, or substances.|
 |Actions|Tasks or steps created and assigned as part of the approval flow to manage chemical requests.|
 
--   **[Chemical management overview](hs-chemical-management-workflow.md)**  
+-   **[Chemical management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-chemical-management-workflow.md)**  
 The chemical management solution is designed to scale for organizations with large chemical inventories and complex conformance needs. It provides tools for managing chemical requests, approvals, and risk assessments, supporting safer workplace practices.
 
-**Parent Topic:**[Health and Safety Environmental Management](../reference/hs-environmental-management-landing-page.md)
+**Parent Topic:**[Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-environmental-management-landing-page.md)
 

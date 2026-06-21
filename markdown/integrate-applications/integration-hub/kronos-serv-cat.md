@@ -2,6 +2,7 @@
 title: Create request as manager using the Kronos catalog item
 description: Trigger events in Kronos when an item is requested in the Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/kronos-serv-cat.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Trigger events in Kronos when an item is requested in the Service Catalog.
 
 ## Before you begin
 
--   [Set up the UKG spoke](setup-kronos.md#)
+-   [Set up the UKG spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-kronos.md)
 -   Role required: admin
 
 ## About this task

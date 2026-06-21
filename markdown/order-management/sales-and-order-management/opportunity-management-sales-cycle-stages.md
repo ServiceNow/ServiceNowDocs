@@ -2,13 +2,14 @@
 title: Associate a sales cycle with the opportunity stage
 description: Link one or multiple opportunity stages with a sales cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/opportunity-management-sales-cycle-stages.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create a sales cycle for an opportunity, Install and configure Opportunity Management, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Create a sales cycle for an opportunity, Install and configure Opportunity Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Associate a sales cycle with the opportunity stage

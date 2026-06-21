@@ -2,6 +2,7 @@
 title: Create a MariaDB connection
 description: Establish a zero copy connection to an external MariaDB database in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/create-mariadb-connection.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -111,7 +112,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

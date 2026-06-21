@@ -2,6 +2,7 @@
 title: Using Digital End-user Experience Self-service
 description: Digital End-user Experience Self-service allows you to monitor your device's performance through the Device health check, which is available as a widget in Desktop Assistant and Employee Center, or conversationally through the Now Assist-enabled Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-self-service/using-dex-self-service.html
 release: yokohama
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -19,9 +20,9 @@ Digital End-user Experience Self-service allows you to monitor your device's per
 
 You can access Device health check from the following sources:
 
--   Employee Center: The employees can now check their device health using Employee Center portal. For more information, see [Check your device's health using Employee Center](../task/check-your-device-s-using-employee-center.md).
--   Desktop Assistant: The employees can now check their device health using Desktop Assistant. For more information, see [Check your device's health using Desktop Assistant](../task/check-your-device-s-health-using-desktop-assistant.md).
--   Now Assist for ITSM Virtual Agent: Employees can open the Now Assist chatbot and either directly search for 'Device Health Check' or search for device or application performance-related queries to access it. For more information, see [Check your device’s health using Now Assist for ITSM](../task/check-your-device-s-health-using-now-assist-for-itsm.md).
+-   Employee Center: The employees can now check their device health using Employee Center portal. For more information, see [Check your device's health using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.md).
+-   Desktop Assistant: The employees can now check their device health using Desktop Assistant. For more information, see [Check your device's health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.md).
+-   Now Assist for ITSM Virtual Agent: Employees can open the Now Assist chatbot and either directly search for 'Device Health Check' or search for device or application performance-related queries to access it. For more information, see [Check your device’s health using Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md).
 
     **Note:**
 

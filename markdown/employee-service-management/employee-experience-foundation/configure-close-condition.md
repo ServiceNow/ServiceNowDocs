@@ -2,6 +2,7 @@
 title: Configure close condition
 description: Configure the condition to exclude the chat conversation from auto importing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/configure-close-condition.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,7 +34,7 @@ Alternately, to adhere to platform standards, consider adding an active field to
 
 2.  Click **New**.
 
-    ![Configure close condition](../images/configure-close-condition.png)
+    \[Omitted image "configure-close-condition.png"\] Alt text: Configure close condition
 
 3.  On the form, fill in the fields.
 
@@ -48,8 +49,8 @@ Alternately, to adhere to platform standards, consider adding an active field to
 
     **Note:**
 
-    If you are creating a close condition for a new table, ensure to create business rule for close condition. For more information, refer [Configure business rule for close condition](business-rule-close-condition.md).
+    If you are creating a close condition for a new table, ensure to create business rule for close condition. For more information, refer [Configure business rule for close condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/business-rule-close-condition.md).
 
 
-**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](../concept/auto-import-messages.md)
+**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/auto-import-messages.md)
 

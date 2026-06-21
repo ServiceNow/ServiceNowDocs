@@ -2,6 +2,7 @@
 title: Properties of the Credentials components
 description: To set the properties of a Credentials component, double-click a component and enter the values in the Properties pane.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/credentials-properties.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ To set the properties of a Credentials component, double-click a component and e
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Credentials](../concept/credentials.md)
+**Parent Topic:**[Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/credentials.md)
 

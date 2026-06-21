@@ -2,6 +2,7 @@
 title: Footer configuration
 description: Employee Center and Employee Center Pro include a footer by default, which you can configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/emp-center-footer-config.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation

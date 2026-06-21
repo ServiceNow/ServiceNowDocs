@@ -2,11 +2,12 @@
 title: Share a TPRM dashboard
 description: Share a dashboard with other users, groups, or roles to create a shared view of data that you can use to collaborate. You can grant viewing permissions or both viewing and editing permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-share-db.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [How to share a dashboard, How to share a Platform Analytics dashboard, How to share a Next Experience dashboard]
 breadcrumb: [Monitor data using dashboards, Monitor third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -36,9 +37,9 @@ Only admins can see roles in the Sharing panel.
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**
 
-2.  Select the dashboard page icon ![](../../grc-workspace-vrm/image/icon-tprm-ws-dashboard.png) and then select the dashboard you want to share.
+2.  Select the dashboard page icon \[Omitted image "icon-tprm-ws-dashboard.png"\] Alt text: and then select the dashboard you want to share.
 
-3.  Select the more actions menu icon ![](../image/context-menu-db-element-ac.png) and select **Share**.
+3.  Select the more actions menu icon \[Omitted image "context-menu-db-element-ac.png"\] Alt text: and select **Share**.
 
 4.  Enter the names of one or more users, groups, or roles you want to share the dashboard with.
 
@@ -50,7 +51,7 @@ Only admins can see roles in the Sharing panel.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d106864e145">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d109974e145">
 
 **Add as viewer**
 
@@ -58,7 +59,7 @@ Only admins can see roles in the Sharing panel.
 
 Grant only viewing permissions to the users, groups, or roles you’re sharing the dashboard with. They can’t edit it.
 
-</td></tr><tr><td id="d106864e154">
+</td></tr><tr><td id="d109974e154">
 
 **Add as editor**
 
@@ -73,6 +74,6 @@ Grant editing permissions to the users, groups, or roles you’re sharing the da
 
 8.  Select **Confirm**.
 
-9.  Select the dashboard details icon ![](../../grc-business-continuity-management/image/InformationIcon.png) to view who the dashboard has been shared with and where it’s visible.
+9.  Select the dashboard details icon \[Omitted image "InformationIcon.png"\] Alt text: to view who the dashboard has been shared with and where it’s visible.
 
 

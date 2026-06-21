@@ -2,6 +2,7 @@
 title: Create a custom action to throw an error
 description: Create an action that intentionally throws an error to test flow error handling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/create-custom-action-throw-error.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -84,7 +85,7 @@ This custom action throws an error when the action input value is set to 1. Any 
 
 12. Click **Save**.
 
-    ![Action outline and configuration of the sample action Throw an error.](../images/create-action-throw-error.png)
+    \[Omitted image "create-action-throw-error.png"\] Alt text: Action outline and configuration of the sample action Throw an error.
 
 13. Select **Test**.
 
@@ -108,7 +109,7 @@ This custom action throws an error when the action input value is set to 1. Any 
 
     The **Action Status** object should list an error on line 3 and display the text of your custom error message.
 
-    ![Action execution details for a test run of Throw an error.](../images/test-action-throw-error.png)
+    \[Omitted image "test-action-throw-error.png"\] Alt text: Action execution details for a test run of Throw an error.
 
 18. Close the action execution details.
 
@@ -125,5 +126,5 @@ You have a custom action that throws an error when you set the action input **Er
 
 Add this action to a flow to test the contents of the Error Handler section.
 
-**Parent Topic:**[Flow error handler](../concept/flow-error-handler.md)
+**Parent Topic:**[Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-error-handler.md)
 

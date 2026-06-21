@@ -2,6 +2,7 @@
 title: Set up Cloud Configuration Governance for Microsoft Azure
 description: Set up access to the Microsoft Azure cloud accounts in Cloud Configuration Governance to enable interaction between the application and the cloud. The application requires access to the cloud accounts of your organization to scan the cloud resources for non-compliant configurations and remediate them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-cloud-accelerate/set-up-ccg-for-azure.html
 release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -23,7 +24,7 @@ Role required: sn\_itom\_ccg.scheduling\_admin
 
 1.  Create Microsoft Azure credentials that can access the Microsoft Azure account.
 
-    For more information, see [Create Azure cloud credentials](../../discovery/task/create-azure-cloud-credentials.md).
+    For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-azure-cloud-credentials.md).
 
 2.  Create an Integration Hub connection for Microsoft Azure.
 
@@ -78,8 +79,8 @@ Tenant ID of the Microsoft Azure account.Replace `{tenant}` with the Microsoft A
 
 3.  Run datacenter discovery to identify the datacenters attached with the service accounts.
 
-    For more information, see [Run datacenter discovery](../../cloud-management-v2-setup/task/disco-datacntrs-in-srv-acct.md).
+    For more information, see [Run datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md).
 
 
-**Parent Topic:**[Exploring Cloud Configuration Governance](../concept/exploring-cloud-configuration-governance.md)
+**Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/exploring-cloud-configuration-governance.md)
 

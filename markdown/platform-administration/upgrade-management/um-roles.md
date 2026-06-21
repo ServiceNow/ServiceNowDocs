@@ -2,6 +2,7 @@
 title: Upgrade Management Console roles
 description: Upgrade Management Console is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-roles.html
 release: yokohama
 product: Upgrade Management
 classification: upgrade-management
@@ -15,7 +16,7 @@ breadcrumb: [Upgrade Management references, Upgrade Console, Upgrade, Administer
 
 Upgrade Management Console is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## System administrator \[admin\]
 
@@ -38,7 +39,7 @@ Access all tables, tools and information within Upgrade Management Console on yo
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://www.servicenow.com/docs/access?context=t_ElevateToAPrivilegedRole&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see .
 
     No.
 
@@ -47,5 +48,5 @@ Access all tables, tools and information within Upgrade Management Console on yo
     None.
 
 
-**Parent Topic:**[Upgrade Management references](um-references.md)
+**Parent Topic:**[Upgrade Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-references.md)
 

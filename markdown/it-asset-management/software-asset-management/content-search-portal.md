@@ -2,6 +2,7 @@
 title: Content lookup
 description: The Content library portal gives you visibility into the data stored in the Software Asset Management Content Service via an intuitive user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/content-search-portal.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
@@ -15,13 +16,13 @@ breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Soft
 
 The Content library portal gives you visibility into the data stored in the Software Asset Management Content Service via an intuitive user interface.
 
-The Software Asset Management Content Service is a repository of software product names and all additional information such as software product lifecycle dates, discovery maps, model numbers, publisher part numbers \(PPNs\). This information is stored in different tables in the Content Service. For more details on the Content Service, see [Software Asset Management Content Service](c_SAMContentService.md).
+The Software Asset Management Content Service is a repository of software product names and all additional information such as software product lifecycle dates, discovery maps, model numbers, publisher part numbers \(PPNs\). This information is stored in different tables in the Content Service. For more details on the Content Service, see [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SAMContentService.md).
 
 To access the Content library portal, navigate to the Software Asset Workspace and click the Content lookup view icon on the left hand side of the page.
 
-![Content library portal](../image/contentlookup.png "Content lookup")
+\[Omitted image "contentlookup.png"\] Alt text: Content library portal
 
-The Content library portal application is available in the ServiceNow Store. Once you install the application, ensure that the AI Search \(com.glide.ais\) plugin is activated. For details on installing the Content library portal application, see [Install Content library portal for Software Asset Management](../task/install-contentlookup.md).
+The Content library portal application is available in the ServiceNow Store. Once you install the application, ensure that the AI Search \(com.glide.ais\) plugin is activated. For details on installing the Content library portal application, see [Install Content library portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/install-contentlookup.md).
 
 The Content library portal uses the AI search functionality and helps you to:
 

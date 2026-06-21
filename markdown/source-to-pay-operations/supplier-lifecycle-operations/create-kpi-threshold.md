@@ -2,6 +2,7 @@
 title: Create KPI thresholds
 description: Create KPI thresholds that consist of predefined values that serve as benchmarks or limits for evaluating performance against specific objectives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-threshold.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,13 +24,13 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 Ensure that you add at least two active thresholds to activate a KPI template. You can add a maximum of five thresholds to a KPI template.
 
-**Note:** Thresholds help determine what score the supplier receives in the **KPI management** tab and in the scorecard. For more information, see [Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](kpi-mgmt-tab-supplier.md).
+**Note:** Thresholds help determine what score the supplier receives in the **KPI management** tab and in the scorecard. For more information, see [Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\), and navigate to **Lists** &gt; **Performance management** &gt; **KPI Templates**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\), and navigate to **Lists** &gt; **Performance management** &gt; **KPI Templates**.
 
 3.  In the Name column, select the link to the KPI template.
 
@@ -121,7 +122,7 @@ Color
 
 </td><td>
 
-The color you select for each threshold is inherited by the Status column \(showing highlighted value\) in the KPI management tab on the Supplier page. For more information, see [Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](kpi-mgmt-tab-supplier.md).
+The color you select for each threshold is inherited by the Status column \(showing highlighted value\) in the KPI management tab on the Supplier page. For more information, see [Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md).
 
 </td></tr></tbody>
 </table>6.  Select **Save**.
@@ -129,5 +130,5 @@ The color you select for each threshold is inherited by the Status column \(show
     **Note:** A KPI is activated only when at least two active thresholds are added to it and one of those thresholds is marked as **Target threshold**.
 
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Methods and events of the ListBox element
 description: The ListBox element in RPA Desktop Design Studio enables you to display a list of items from which you can select one or more Items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/form-control-listbox.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -127,5 +128,5 @@ The methods and events of the ListBox element are displayed in the Object Explor
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/form-control-methods-events.md)
 

@@ -2,6 +2,7 @@
 title: Create a UI action to enable creating knowledge articles from HR cases
 description: Create a UI action to add the Knowledge check box to the HR case form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/ui-action-hrcase-article.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

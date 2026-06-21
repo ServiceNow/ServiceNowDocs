@@ -2,12 +2,13 @@
 title: Terminology
 description: Learn more about the key concepts and terms that are used in the TPRM application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-terminology.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 15
+last_updated: "2026-03-12"
+reading_time_minutes: 14
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -42,14 +43,10 @@ An engagement is the informal or contracted relationship that you intend to form
 
 You can assess each engagement by using internal and external assessments. The issues, tasks, internal assessments, and external assessments are associated with the engagements.
 
-In this example, Your Company interacts with three third parties and manages several engagements among them.
-
-![Example hierarchy of three third parties and their associated engagements.](../image/tprm-tps-and-engagements.png)
-
 The particular third-party engagements that you might have depend on your industry, size, and operational requirements. Each engagement brings its own set of risks and requires appropriate risk management measures \(due diligence\) to protect your interests.
 
--   For a detailed discussion and an example, see [Why you might have several engagements with a single third party](../concept/vrm-diffs-btw-thirdpty-and-engmnts.md).
--   For a list of the kinds of engagements that you might perform, see [Types of engagement with third parties](../../grc-workspace-vrm/reference/tprm-engagement-types.md).
+-   For a detailed discussion and an example, see [Why you might have several engagements with a single third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/vrm-diffs-btw-thirdpty-and-engmnts.md).
+-   For a list of the kinds of engagements that you might perform, see [Types of engagement with third parties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-engagement-types.md).
 
 ## Subsidiaries
 
@@ -86,7 +83,7 @@ During the internal assessment process, internal employees in your organization 
 
 Due diligence is the process of conducting a thorough investigation or examination of the integrity, reputation, financial stability, legal compliance, operation capabilities, supply chain, and other relevant factors of a potential business partner, supplier, or vendor. Conducting due diligence on third parties is a crucial component of your comprehensive third-party risk program. You conduct due diligence to become aware of the risks that are associated with a third party so that you can confidently decide how to form your relationship. Use due diligence workflows to onboard new engagements or to reassess or retire any existing engagements. Due diligence workflows include gathering information through internal assessments, external assessments, and risk intelligence. All the scores from these steps are analyzed by the third-party risk managers to decide whether to onboard, reassess, or retire an engagement. Due diligence also has an optional contract negotiation process before closing the due diligence workflow.
 
-See [Why you conduct due diligence](../concept/vrm-due-diligence-why.md) and [Types of due diligence](../concept/tprm-due-diligence-types.md).
+See [Why you conduct due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/vrm-due-diligence-why.md) and [Types of due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-due-diligence-types.md).
 
 ## Third-party risk assessments
 
@@ -96,13 +93,13 @@ Use an internal assessment to calculate the third party and engagement tiers. Th
 
 Use an external assessment to assess the risks that are associated with the third party and engagement according to the third-party contact responses that you receive. The risk ratings from an external assessment are calculated at the assessment level by using all the questionnaires that are attached to the assessment. These assessment ratings are aggregated and rolled up to the third parties and engagements. The aggregation is either MIN, MAX or AVG and can be configured in a scoring setup. Third-party contacts \(external users\) from the third-party portal `https://<myCompany>.service-now.com/svdp` respond to these external assessments.
 
-For more information on scoring, see [Scoring calculations using the classic assessment engine](../concept/vendor-ratings-scoring.md).
+For more information on scoring, see [Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md).
 
 ## Risk intelligence providers
 
 Risk intelligence providers generate risk scores for a variety of third-party risk domains. Your organization can purchase services from providers that return data that is analogous to personal credit scores. The scores provide insight on how trustworthy and safe a particular third party can be.
 
-See [Integrating scores from risk intelligence providers](../concept/tprm-riskintelprvdr-overview.md).
+See [Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md).
 
 ## Risk intelligence scores
 
@@ -160,7 +157,7 @@ The scoring method for a specific risk area can be configured as MIN, MAX, or AV
 
 **Note:**
 
-For more information on assessment configuration and scoring, see [Classic assessment configuration](../../grc-vendor-risk-implementation/concept/tprm-ongoing-config.md), [Scoring calculations using the classic assessment engine](../concept/vendor-ratings-scoring.md), and [Verifying scoring calculations using the classic assessment engine](../concept/tprm-verif-q.md).
+For more information on assessment configuration and scoring, see [Classic assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ongoing-config.md), [Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md), and [Verifying scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-verif-q.md).
 
 ## Third-party elements
 
@@ -217,5 +214,5 @@ Here are some examples of Third-party elements and their associated controls and
     -   Regulatory Compliance: Failure to comply with regulations related to beneficial ownership reporting and transparency can lead to legal and regulatory consequences.
     -   Financial Risk: Beneficial owners with financial instability or involvement in fraudulent activities may pose financial risks to the third party and, consequently, to your organization.
 
-**Parent Topic:**[Third-party Risk Management reference](../concept/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

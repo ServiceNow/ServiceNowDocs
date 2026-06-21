@@ -2,6 +2,7 @@
 title: Security for Now Assist Skill Kit
 description: Enable security controls for Now Assist skills and custom skills through access control lists \(ACLs\) and role restrictions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-kit/security-nask.html
 release: yokohama
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit

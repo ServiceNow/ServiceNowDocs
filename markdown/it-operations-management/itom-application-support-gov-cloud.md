@@ -2,9 +2,12 @@
 title: ITOM application support to Gov Cloud environments
 description: To promote secure, compliant, and scalable IT operations tailored to the unique needs of government agencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-application-support-gov-cloud.html
 release: yokohama
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -25,5 +28,5 @@ To promote secure, compliant, and scalable IT operations tailored to the unique 
 |Cloud Configuration and Governance|Yes|Yes|No|No|Yes \(credentials required\)|Yes|No|
 |Cloud Workspace with CAM|Yes|Yes|NA|No|NA|NA|NA|
 
-**Parent Topic:**[Access to cloud environments for ITOM products](../reference/accessing-cloud-itom.md)
+**Parent Topic:**[Access to cloud environments for ITOM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/accessing-cloud-itom.md)
 

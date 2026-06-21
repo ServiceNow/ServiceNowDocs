@@ -2,6 +2,7 @@
 title: FireEye Additional Actions on Endpoint
 description: FireEye integration supports running additional actions beyond the gold standard actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/fireeye-additional-actions-on-endpoint.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response

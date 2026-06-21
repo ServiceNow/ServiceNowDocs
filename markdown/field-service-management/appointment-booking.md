@@ -2,7 +2,10 @@
 title: Appointment booking
 description: Appointment booking feature enables you to configure, manage and create appointments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ Key features of appointment booking include:
 
 ## Appointment Booking based on Capacity and Reservations Management
 
-Appointment Booking considers the defined capacity and reservations for a territory or group to show the available slots. For more information, see [Learn about appointment availability settings for an application configuration](../reference/appt-booking-task-assignment.md).
+Appointment Booking considers the defined capacity and reservations for a territory or group to show the available slots. For more information, see [Learn about appointment availability settings for an application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appt-booking-task-assignment.md).
 

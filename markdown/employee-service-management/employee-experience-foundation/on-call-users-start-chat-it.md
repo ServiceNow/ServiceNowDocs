@@ -2,6 +2,7 @@
 title: Include On-call scheduling users to initiate Microsoft Teams chat
 description: Users who are associated with On-Call Scheduling will be displayed on the Selected column in Start Microsoft Teams Chat modal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/on-call-users-start-chat-it.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,14 +16,14 @@ breadcrumb: [IT Service Management integration, Microsoft Teams Integration for 
 
 Users who are associated with On-Call Scheduling will be displayed on the Selected column in **Start Microsoft Teams Chat** modal.
 
-![Start Microsoft Teams Chat modal](../images/on-call-users-start-chat.png)
+\[Omitted image "on-call-users-start-chat.png"\] Alt text: Start Microsoft Teams Chat modal
 
 **sn\_tcm\_collab\_hook.on\_call\_tables\_for\_start\_chat\_action** system property is created to support this functionality. You can extend this functionality to change, and request tables.
 
-For more information on On-Call Scheduling, see [On-Call Scheduling](https://www.servicenow.com/docs/access?context=c_OnCallScheduling&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US) [On-Call Scheduling](https://www.servicenow.com/docs/access?context=c_OnCallScheduling&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US).
+For more information on On-Call Scheduling, see On-Call Scheduling On-Call Scheduling.
 
--   **[Extend On-Call Scheduling users to initiate Microsoft Teams Chat](../task/extend-on-call-users-start-chat-it.md)**  
+-   **[Extend On-Call Scheduling users to initiate Microsoft Teams Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/extend-on-call-users-start-chat-it.md)**  
 View the list of On-Call Scheduling users in Start Microsoft Teams chat for a change, request, or a request item.
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md)
 

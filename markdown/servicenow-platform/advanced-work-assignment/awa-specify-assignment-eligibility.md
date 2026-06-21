@@ -2,6 +2,7 @@
 title: Define agent pools eligible for assignment
 description: Specify pools of agents eligible to receive overflow work assignments for a queue. An eligible assignment pool can consist of one or more groups of agents available to work on items in the queue. This feature enables Advanced Work Assignment to find a qualified agent from a wider pool of agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/awa-specify-assignment-eligibility.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -80,5 +81,5 @@ The set of groups eligible for assignment. -   Click the lock icon to unlock it 
     The Queues \[awa\_queues\] table is updated with the eligible assignment pool.
 
 
-**Parent Topic:**[Work item queues](../reference/awa-queues.md)
+**Parent Topic:**[Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-queues.md)
 

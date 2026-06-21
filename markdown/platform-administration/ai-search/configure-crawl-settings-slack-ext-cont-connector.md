@@ -2,11 +2,12 @@
 title: Configure crawl settings for a Slack external content connector
 description: Specify the public channels you want your Slack external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-slack-ext-cont-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-11-05"
+last_updated: "2026-05-29"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Slack external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -18,13 +19,13 @@ Specify the public channels you want your Slack external content connector to cr
 
 ## Before you begin
 
-A connector admin must have already created the Slack external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Slack external content connector](create-ext-cont-connector-slack.md).
+A connector administrator must have already created the Slack external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Slack external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-slack.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Slack external content connector crawls all public channels from its specified source system and sends documents with all supported file extensions to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the Slack external content connector crawls all public channels from its specified source system and sends attachments with all supported file extensions to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for the public channels to crawl when running content crawls
 -   Inclusion or exclusion filters for the attachment file extensions to retrieve when running content crawls
@@ -75,7 +76,7 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
         As an example, you might enter `.csv` to exclude attachments with the Comma-Separated Values \(CSV\) file format.
 
-    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](../reference/file-extensions-ext-cont-connector.md).
+    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/file-extensions-ext-cont-connector.md).
 
 6.  Select **Save**.
 
@@ -86,7 +87,7 @@ The Slack external content connector is updated with your crawl scope and file e
 
 ## What to do next
 
-To retrieve content from your Slack source system using your modified crawl settings, create and run a one-time content crawl for your Slack external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your Slack source system using your modified crawl settings, create and run a one-time content crawl for your Slack external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Slack external content connector](../concept/slack-external-content-connector.md)
+**Parent Topic:**[Slack external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/slack-external-content-connector.md)
 

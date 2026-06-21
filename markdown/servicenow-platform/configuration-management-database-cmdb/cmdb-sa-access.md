@@ -2,6 +2,7 @@
 title: Access CMDB success advisor
 description: You can access CMDB success advisor within the CMDB Workspace for both setting up and managing application-specific dashboards. Depending on your progress, you can either begin the setup or access the dashboard to monitor and manage targeted configuration items \(CIs\) for an application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

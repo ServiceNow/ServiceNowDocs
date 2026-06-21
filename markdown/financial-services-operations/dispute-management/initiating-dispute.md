@@ -2,6 +2,7 @@
 title: Initiate a dispute
 description: Begin a dispute case in Financial Services Card Operations for a transaction associated with a card account. You can enter dispute information, fill out the dispute questionnaire, upload supporting documentation, and submit the case for investigation.The Block and reissue new card task automatically triggers if a case's dispute category is Fraud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/initiating-dispute.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -19,19 +20,19 @@ Begin a dispute case in Financial Services Card Operations for a transaction ass
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
 You can dispute one or more transactions that are associated with a card account by creating a dispute case.
 
-To create a new dispute service case, see [Creating a card dispute case](create-dispute-service-case.md), and then continue this procedure from step 6 to initiate the case.
+To create a new dispute service case, see [Creating a card dispute case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/create-dispute-service-case.md), and then continue this procedure from step 6 to initiate the case.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../../common/image/icon-list.png)\).
+2.  Select the lists icon \(\[Omitted image "icon-list.png"\] Alt text: Lists icon.\).
 
 3.  On the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -45,15 +46,15 @@ To create a new dispute service case, see [Creating a card dispute case](create-
 
 6.  Under the **Initiate** playbook stage, fill in the required fields and any other related information.
 
-<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d46912e175">
+<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d43295e175">
 
 Activity
 
-</th><th align="left" id="d46912e178">
+</th><th align="left" id="d43295e178">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46912e184">
+</th></tr></thead><tbody><tr><td id="d43295e184">
 
 **Select transaction**
 
@@ -65,7 +66,7 @@ Provide information on the cardholder and the dispute, such as:-   The account o
 -   The transaction being disputed
 
 
-</td></tr><tr><td id="d46912e207">
+</td></tr><tr><td id="d43295e207">
 
 **Add more transactions**
 
@@ -75,7 +76,7 @@ If the dispute category is Fraud, this activity appears. You may select addition
 
 As transactions are added, they are updated in the **State of transactions** panel.
 
-</td></tr><tr><td id="d46912e223">
+</td></tr><tr><td id="d43295e223">
 
 **Resume dispute case**
 
@@ -85,7 +86,7 @@ This activity is displayed if the case was created using Now Assist for Financia
 
 If the conversation ends before the case is submitted, an agent can resume the intake and review or select the dispute's account and transaction details in this activity.
 
-</td></tr><tr><td id="d46912e245">
+</td></tr><tr><td id="d43295e245">
 
 **Fill dispute questionnaire**
 
@@ -93,7 +94,7 @@ If the conversation ends before the case is submitted, an agent can resume the i
 
 Complete the dispute questionnaire by answering the questions.**Note:** This step appears if you have the Dispute Rules Content Pack for Visa or Dispute Rules Content Pack for Mastercard installed, and the disputed transaction took place on the respective card network.
 
-</td></tr><tr><td id="d46912e263">
+</td></tr><tr><td id="d43295e263">
 
 **Document upload**
 
@@ -101,7 +102,7 @@ Complete the dispute questionnaire by answering the questions.**Note:** This ste
 
 Upload any supporting documentation at this step, such as order details, invoices, and conversations between parties.
 
-</td></tr><tr><td id="d46912e272">
+</td></tr><tr><td id="d43295e272">
 
 **Submit dispute**
 

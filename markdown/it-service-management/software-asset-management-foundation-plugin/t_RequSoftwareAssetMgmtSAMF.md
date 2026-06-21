@@ -2,6 +2,7 @@
 title: Request Software Asset Management Foundation plugin
 description: The Software Asset Management Foundation \(com.snc.sams\) plugin must be activated by ServiceNow personnel. This plugin includes demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/software-asset-management-foundation-plugin/t\_RequSoftwareAssetMgmtSAMF.html
 release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -32,7 +33,7 @@ There are two ways to request a plugin:
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -73,12 +74,12 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Setting up Software Asset Management Foundation plugin](t_SAMSetupSAMF.md)
+**Parent Topic:**[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
 

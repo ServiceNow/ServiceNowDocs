@@ -2,6 +2,7 @@
 title: Questions in data visualizations
 description: You can group or filter table data in data visualizations by questions. The table must support questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/questions-in-dv.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-03-11"
@@ -31,10 +32,10 @@ If there is a Record Producer associated with the table, variables defined in th
 -   Macro
 -   Container
 
-You cannot group by Record Producer variables. For more information, see [Record Producer](https://www.servicenow.com/docs/access?context=c_RecordProducer&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+You cannot group by Record Producer variables. For more information, see Record Producer.
 
--   **[Use questions in data visualizations](../task/use-questions-dv.md)**  
+-   **[Use questions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/use-questions-dv.md)**  
 In visualizations of data from the Task \[task\] hierarchy of tables, you can use questions defined for the table to filter or group the data.
 
-**Parent Topic:**[Configure data visualizations](../../performance-analytics/concept/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-data-visualizations.md)
 

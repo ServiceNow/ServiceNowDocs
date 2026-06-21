@@ -2,6 +2,7 @@
 title: Identify the source of the profile
 description: Specify the name and source of the profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/secureworks-ctp-create-profile-name.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -72,7 +73,7 @@ This option is cleared by default. If this option is disabled, the profile is no
 </td></tr></tbody>
 </table>    The following figure is an example of a completed form.
 
-    ![Secureworks CTP: Create Profile: Identify Source](../image/secureworks-create-profile-name.gif)
+    \[Omitted image "secureworks-create-profile-name.gif"\] Alt text: Secureworks CTP: Create Profile: Identify Source
 
 
 ## What to do next

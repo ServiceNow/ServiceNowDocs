@@ -2,6 +2,7 @@
 title: Generate a chat reply recommendation by using Now Assist for IT Service Management \(ITSM\)
 description: Generate a reply based on the context of the chat conversation using the Now Assist icon. Chat reply recommendations provide agents with quick replies to common questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-chat-recommendation.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -41,19 +42,19 @@ You can do these actions by using Now Assist icon:
 
     For example, if the requester is having an issue with hardware, you may need the hardware model number and serial number.
 
-4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon ![Now assist icon.](../../../common/image/icon-ai-sparkle.png).
+4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon..
 
-    ![Chat message window with Now Assist option.](../image/now-assist-itsm-write-reply.png)
+    \[Omitted image "now-assist-itsm-write-reply.png"\] Alt text: Chat message window with Now Assist option.
 
-<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d274501e164">
+<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d271553e164">
 
 Chat message window
 
-</th><th align="left" id="d274501e167">
+</th><th align="left" id="d271553e167">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d274501e175">
+</th></tr></thead><tbody><tr><td id="d271553e175">
 
 **Typed response**
 
@@ -65,7 +66,7 @@ Provides the option to refine your response.
 -   Shorten
 
 
-</td></tr><tr><td id="d274501e195">
+</td></tr><tr><td id="d271553e195">
 
 **Left blank**
 
@@ -76,7 +77,7 @@ Generates a recommended reply based on the context of the conversation up to thi
 </td></tr></tbody>
 </table>    The reply response appears in the Now Assist context menu modal.
 
-    ![Now Assist context menu modal.](../image/now-assist-itsm-generate-reply.png)
+    \[Omitted image "now-assist-itsm-generate-reply.png"\] Alt text: Now Assist context menu modal.
 
 5.  Review the generated reply and select **Refine** to modify the response, or select **Insert** to paste the response into the chat message window.
 

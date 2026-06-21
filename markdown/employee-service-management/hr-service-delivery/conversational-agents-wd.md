@@ -2,6 +2,7 @@
 title: Use HCM AI agents for HR Service Delivery Advanced Integration with Workday
 description: Place requests to the Workday system using the HR Service Delivery AI agent collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/conversational-agents-wd.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Place requests to the Workday system using the HR Service Delivery AI agent coll
 
 ## HCM AI agents Overview
 
-You can submit requests to the Workday system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure HCM AI agents for HR Service Delivery Advanced Integration with Workday](../task/config-awd-agents.md). For more information on subflow-agent mapping, see [Subflow-agent mapping for HR Service Delivery Advanced Integration with Workday](../reference/awd-agent-mapping.md).
+You can submit requests to the Workday system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure HCM AI agents for HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/config-awd-agents.md). For more information on subflow-agent mapping, see [Subflow-agent mapping for HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/awd-agent-mapping.md).
 
 ## Worker profile retriever AI agent
 
@@ -43,5 +44,5 @@ The Employee details updater AI agent enables you to update personal information
 
 The View paychecks AI agent enables you to view paycheck summaries for the selected period.
 
-**Parent Topic:**[Using](using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
 

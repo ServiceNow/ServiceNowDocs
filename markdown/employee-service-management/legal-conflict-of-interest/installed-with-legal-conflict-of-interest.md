@@ -2,6 +2,7 @@
 title: Components installed with Legal Conflict of Interest
 description: Several types of components are installed with installation of the Legal Conflict of Interest, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-conflict-of-interest/installed-with-legal-conflict-of-interest.html
 release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -15,7 +16,7 @@ breadcrumb: [Legal Conflict of Interest reference, Legal Conflict of Interest, L
 
 Several types of components are installed with installation of the Legal Conflict of Interest, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -110,5 +111,5 @@ Conflict of Interest Disclosure\[sn\_lg\_coi\_conflict\_of\_interest\]
 Stores conflict of interest disclosure records.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Conflict of Interest reference](legal-coi-reference.md)
+</table>**Parent Topic:**[Legal Conflict of Interest reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
 

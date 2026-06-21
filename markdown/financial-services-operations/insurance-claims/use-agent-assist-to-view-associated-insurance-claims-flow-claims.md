@@ -2,6 +2,7 @@
 title: View the associated Insurance claims cases with Agent assist
 description: View the associated claims and relevant knowledge articles by using the Agent assist contextual search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/use-agent-assist-to-view-associated-insurance-claims-flow-claims.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims
@@ -27,19 +28,19 @@ This procedure references service definitions and products that are used in the 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../../use/reporting/image/inline-data-vis-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
 
 3.  Open the task from the case playbook or the Insurance claim adjuster tasks list.
 
-<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d43247e100">
+<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d46655e100">
 
 Option
 
-</th><th align="left" id="d43247e103">
+</th><th align="left" id="d46655e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43247e109">
+</th></tr></thead><tbody><tr><td id="d46655e109">
 
 **From the case playbook**
 
@@ -49,7 +50,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d43247e133">
+</td></tr><tr><td id="d46655e133">
 
 **From the Insurance claim adjuster tasks list**
 
@@ -60,8 +61,8 @@ Steps
 
 
 </td></tr></tbody>
-</table>4.  Select the Agent assist icon \(![Graduation cap icon for Agent assist.](../../../common/image/Form_AgentAssistIcon.png)\) to use the feature.
+</table>4.  Select the Agent assist icon \(\[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: Graduation cap icon for Agent assist.\) to use the feature.
 
-    For more information about Agent assist, see [Finding solutions using Agent assist](https://www.servicenow.com/docs/access?context=agent-assist&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+    For more information about Agent assist, see Finding solutions using Agent assist.
 
 

@@ -2,6 +2,7 @@
 title: Manage input parameters for an Zero Copy Connector for ERP model operation
 description: Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads or updates the system of record from Zero Copy Connector for ERP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -27,7 +28,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the ERP model icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+2.  Open the ERP model page by selecting the ERP model icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
 3.  Select the model with the operation that you want to add inputs to.
 
@@ -35,11 +36,11 @@ If you're already in the process of managing a model and ready to specify inputs
 
 5.  Open a model operation.
 
-    If you do not have a model operation, add one to the model. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](erpc-manage-models-read-op.md).
+    If you do not have a model operation, add one to the model. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
 
 6.  Open an entity.
 
-    If you do not have an entity, add one to the operation. For more information, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](erpc-add-entity-to-model-op.md)
+    If you do not have an entity, add one to the operation. For more information, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md)
 
 7.  Select **Specify inputs**.
 
@@ -48,9 +49,9 @@ If you're already in the process of managing a model and ready to specify inputs
     -   The Operation parameters section, where you define any default values to use if the operation fails.
     -   The Tables/Function call section, where you define the parameters the operation uses. The Table section appears for read operations, and the Function call section appears for BAPI \(Business Application Programming Interface\) operations.
 
-        **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](../concept/erpc-edit-mapped-value-name-in-model-manager.md).
+        **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-edit-mapped-value-name-in-model-manager.md).
 
-    ![Specify input parameters.](../image/erpc-specify-inputs-manager-ys2.png)
+    \[Omitted image "erpc-specify-inputs-manager-ys2.png"\] Alt text: Specify input parameters.
 
 8.  Define whether the operation inputs are required in the **Query validation rule** field.
 
@@ -67,7 +68,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
     1.  Select **+ New input** below the last-defined parameter in the table.
 
-        ![New input button shown with table parameters.](../image/erpc-specify-input-new-input.png)
+        \[Omitted image "erpc-specify-input-new-input.png"\] Alt text: New input button shown with table parameters.
 
         **Note:** When you add an input field, the field is automatically added as a field in the output. The field is listed and is read only in the **Prepopulated outputs** section on the output page.
 
@@ -105,7 +106,7 @@ Type
 
 Definition of how the parameter is sent.-   **Input** parameters have their **Mapped value** automatically populated.
 -   **Constant** defines a parameter whose value never changes, for example, to use as filter criteria. You must specify the value in the parameter's **Mapped value** field.
--   **Join** \(Table read operations only\) indicates that you're creating a table join. For more information, see [Add joins between ERP tables](erp-canvas-add-join-data-model.md).
+-   **Join** \(Table read operations only\) indicates that you're creating a table join. For more information, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-add-join-data-model.md).
 
 
 </td></tr><tr><td>
@@ -114,9 +115,9 @@ Mapped value
 
 </td><td>
 
-Specific value of the parameter.-   For **Input** parameters, accept the system-generated name or edit the name. For more information about editing mapped values, see [Edit input and output mapped value name in Zero Copy Connector for ERP](../concept/erpc-edit-mapped-value-name-in-model-manager.md).
+Specific value of the parameter.-   For **Input** parameters, accept the system-generated name or edit the name. For more information about editing mapped values, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-edit-mapped-value-name-in-model-manager.md).
 -   For **Constant** parameters, enter a set value that's always sent for the parameter.
--   For **Join** parameters, select the field to join the parameter with. For details on creating joins, see [Add joins between ERP tables](erp-canvas-add-join-data-model.md).
+-   For **Join** parameters, select the field to join the parameter with. For details on creating joins, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-add-join-data-model.md).
 
 
 </td></tr></tbody>
@@ -134,14 +135,14 @@ Specific value of the parameter.-   For **Input** parameters, accept the system-
 
     The following example shows inputs and nested inputs for a BAPI.
 
-    ![BAPI input with one field that has nested outputs.](../image/erpc-input-bapi-nested.png)
+    \[Omitted image "erpc-input-bapi-nested.png"\] Alt text: BAPI input with one field that has nested outputs.
 
 14. Select **Save**.
 
 
 ## What to do next
 
-Next, check the output parameters for the operation and update as needed. For more information, see [Choose output parameters for an ERP model](erp-canvas-manage-outputs.md).
+Next, check the output parameters for the operation and update as needed. For more information, see [Choose output parameters for an ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-manage-outputs.md).
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

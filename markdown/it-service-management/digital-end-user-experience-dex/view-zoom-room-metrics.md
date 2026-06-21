@@ -2,6 +2,7 @@
 title: View Zoom room metrics
 description: View detailed metrics for your organization's Zoom rooms using DEX.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/view-zoom-room-metrics.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -19,14 +20,14 @@ View detailed metrics for your organization's Zoom rooms using DEX.
 
 Role required: admin
 
--   Set up DEX for Zoom. For more information, see [Configuring DEX for Zoom](configuring-DEX-for-Zoom.md)
--   Configure advanced monitoring to monitor Zoom calls with DEX. For more details, see [Enable application monitoring](../task/enable-app-monitor.md).
+-   Set up DEX for Zoom. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md)
+-   Configure advanced monitoring to monitor Zoom calls with DEX. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Applications icon \(![The Applications icon.](../image/icon-applications.png)\).
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select **Zoom**.
 
@@ -41,5 +42,5 @@ Role required: admin
 6.  Select the issue count link to open the Details tab, where you can view the issues and the time they occurred.
 
 
-**Parent Topic:**[DEX application and device health](../concept/dex-appl-and-device-health.md)
+**Parent Topic:**[DEX application and device health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-appl-and-device-health.md)
 

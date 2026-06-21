@@ -2,6 +2,7 @@
 title: Review HR artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance Analytics application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-hr-install-artifacts.html
 release: yokohama
 product: Value Library
 classification: value-library

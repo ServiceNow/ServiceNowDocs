@@ -2,6 +2,7 @@
 title: Topics tab
 description: Use the Topics tab in the Conversational Analytics dashboard to identify the least and best performing topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/topics-tab.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Use the **Topics** tab in the Conversational Analytics dashboard to identify the
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -25,7 +26,7 @@ If you are an existing user of this dashboard and want to migrate analytics data
 
 The **Topics** tab provides insights into which Virtual Agent \(VA\) topics are performing well and which aren’t. You can also select multiple topic categories using the **Select Categories** dropdown to visualize data based on your selection. To use the Topics tab, you must have the Chat Analytics Viewer \(chat\_analytics\_viewer\) role.
 
-![Virtual Agent dashboard topics tab.](../images/Dashboard-Topics-2.png)
+\[Omitted image "Dashboard-Topics-2.png"\] Alt text: Virtual Agent dashboard topics tab.
 
 ## Worst performing topics
 
@@ -44,13 +45,13 @@ The topics in this chart are performing well. The horizontal axis lists the topi
 
 ## Spokes used
 
-For more information about the spokes used, see [Legacy - Spokes](topic-spokes-subtab.md).
+For more information about the spokes used, see [Legacy - Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/topic-spokes-subtab.md).
 
 ## List of topics
 
 The **Topics** page list the topics used in the date range specified in the Conversational Analytics Dashboard.
 
-![Virtual Agent dashboard list of topics.](../images/dashboard-list-of-topics.png)
+\[Omitted image "dashboard-list-of-topics.png"\] Alt text: Virtual Agent dashboard list of topics.
 
 |Topic information|Description|
 |-----------------|-----------|
@@ -63,16 +64,16 @@ The **Topics** page list the topics used in the date range specified in the Conv
 
 The **Topic Blocks** page list the topic blocks used in the date range specified in the Conversational Analytics Dashboard.
 
-![Virtual Agent Topic Blocks page showing list of topics.](../images/dashboard-list-of-topic-blocks.png)
+\[Omitted image "dashboard-list-of-topic-blocks.png"\] Alt text: Virtual Agent Topic Blocks page showing list of topics.
 
 The chart shows the number of times each topic block was executed.
 
--   **[Legacy - Topic categories](category-page.md)**  
+-   **[Legacy - Topic categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/category-page.md)**  
 Use the Category page in the Conversational Analytics dashboard to see the performance of Virtual Agent \(VA\) topics divided into categories.
--   **[Legacy - Topics details](topic-details-subtab.md)**  
+-   **[Legacy - Topics details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/topic-details-subtab.md)**  
 Use the Topic Details page in the Conversational Analytics dashboard to see the details of the Virtual Agent \(VA\) topics.
--   **[Legacy - Spokes](topic-spokes-subtab.md)**  
+-   **[Legacy - Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/topic-spokes-subtab.md)**  
 Use the Spokes page to see the details of the spoke actions and subflows for the Virtual Agent \(VA\) topic.
 
-**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](use-the-dashboard-overview.md)
+**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/use-the-dashboard-overview.md)
 

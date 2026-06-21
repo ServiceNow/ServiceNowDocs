@@ -2,6 +2,7 @@
 title: Use Guided Tours in RPA Hub
 description: Use Guided Tours in RPA Hub to get instructions on how to perform a task.​ Guided Tours use a series of steps that may span multiple pages. The tour includes links to detailed documentation.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-guided-tour-rpa-hub.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -24,7 +25,7 @@ Role required: Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn
 
 ## About this task
 
-Guided Tours help train and onboard users within the RPA Hub user interface \(UI\). Each tour contains a series of interactive steps that help you complete a specific task or a process within the same browser window. If needed, administrators can create more tours. For more information, see [Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+Guided Tours help train and onboard users within the RPA Hub user interface \(UI\). Each tour contains a series of interactive steps that help you complete a specific task or a process within the same browser window. If needed, administrators can create more tours. For more information, see .
 
 When you visit a page that has a guided tour for the first time, a welcome screen appears. You can choose to either begin the tour or skip the tour.
 
@@ -40,9 +41,9 @@ In RPA Hub, guided tours are currently available for creating queues and configu
 
     For example, select **Build** &gt; **Queues** to use the guided tour for creating queues.
 
-3.  Select the **Show help** icon \(![Show help icon](../image/help-center-icon-rpa.png)\).
+3.  Select the **Show help** icon \(\[Omitted image "help-center-icon-rpa.png"\] Alt text: Show help icon\).
 
-4.  Select **Pin Help Center menu** icon ![Pin Help Center menu](../image/pol-nav-pin.png) to pin the Help Center side panel on the page.
+4.  Select **Pin Help Center menu** icon \[Omitted image "pol-nav-pin.png"\] Alt text: Pin Help Center menu to pin the Help Center side panel on the page.
 
 5.  Select **Take a Tour**​.
 

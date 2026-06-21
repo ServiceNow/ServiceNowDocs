@@ -2,6 +2,7 @@
 title: ERP-CM candidate list field descriptions
 description: The candidate list in ERP Semantic Mining \(ERP-CM\) displays information on the basic details for each candidate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-candidate-list-details.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -15,7 +16,7 @@ breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Seman
 
 The candidate list in ERP Semantic Mining \(ERP-CM\) displays information on the basic details for each candidate.
 
-For process details, see [Browse an overview of candidates in ERP-CM](../task/erpcm-view-home-page-overview.md).
+For process details, see [Browse an overview of candidates in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-view-home-page-overview.md).
 
 <table id="table_yct_bl4_vvb"><thead><tr><th>
 
@@ -76,7 +77,7 @@ ERP models
 
 </td><td>
 
-Number of ERP models the candidates belongs to.ERP models are configured in Zero Copy Connector for ERP. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform. For more information, see [Building and managing ERP models to work with ERP data](../../erp-integration/concept/work-with-erp-data-models.md).
+Number of ERP models the candidates belongs to.ERP models are configured in Zero Copy Connector for ERP. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
 
 **Note:** This column is available only on the candidates list on the Candidates page, not on the home page.
 
@@ -89,5 +90,5 @@ Similar candidates
 Number of similar candidates. Similarity is based on the remote tables.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

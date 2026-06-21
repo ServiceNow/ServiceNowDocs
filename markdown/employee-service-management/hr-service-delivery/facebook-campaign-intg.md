@@ -2,6 +2,7 @@
 title: Employee Campaigns for Workplace from Facebook
 description: The ServiceNow Employee Campaigns for Workplace from Facebook application enables you to package your content into a campaign and publish the content to groups on Workplace from Facebook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/facebook-campaign-intg.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -44,5 +45,5 @@ A schedule job runs and publishes content to groups on Workplace from Facebook. 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

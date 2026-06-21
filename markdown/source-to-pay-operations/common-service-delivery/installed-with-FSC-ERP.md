@@ -2,6 +2,7 @@
 title: Components installed with ERP Integration Framework
 description: Several types of components are installed with the installation of the ERP Integration Framework application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/common-service-delivery/installed-with-FSC-ERP.html
 release: yokohama
 product: Common Service Delivery
 classification: common-service-delivery
@@ -136,5 +137,5 @@ ERP Source Configuration\[sn\_fcms\_intg\_source\]
 Maintains ERP details such as credentials and web service details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install the Finance and Supply Chain common applications](../../source-to-pay-operations/task/install-fsc-common-apps.md)
+</table>**Parent Topic:**[Install the Finance and Supply Chain common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/install-fsc-common-apps.md)
 

@@ -2,6 +2,7 @@
 title: Record the removal of an asset from a task location on the Contractor Portal
 description: Track the status of an asset that you removed in a work order. You can track the status as you're doing the task from the task location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/remove-asset-cp.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -38,5 +39,5 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 
 The removed asset is successfully recorded in the agent personal stockroom list.
 
-**Parent Topic:**[Record the usage of assets on the Contractor Portal](../concept/record-asset-usage-on-cp.md)
+**Parent Topic:**[Record the usage of assets on the Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/record-asset-usage-on-cp.md)
 

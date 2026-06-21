@@ -2,9 +2,10 @@
 title: Product localization information in Yokohama
 description: Cumulative release notes summary on new Yokohama features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-localization.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-13"
 reading_time_minutes: 1
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -29,7 +30,7 @@ AI Search
 
 </td><td>
 
-AI Search supports international languages. For details of language support by feature, see [Internationalization support for AI Search](https://www.servicenow.com/docs/access?context=international-language-support-ais&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+AI Search supports international languages. For details of language support by feature, see .
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ Now Assist in AI Search
 
 </td><td>
 
-Now Assist in AI Search supports [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) in Now Assist Genius Results. For details, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://www.servicenow.com/docs/access?context=dynamic-translation-na-gr&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) and [Dynamic Translation for Now Assist Actions Genius Results](https://www.servicenow.com/docs/access?context=dynamic-translation-na-actions-gr&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Now Assist in AI Search supports  in Now Assist Genius Results. For details, see  and .
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-[Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) is supported for non-streaming Now Assist Virtual Agent conversations. For details, see [Configure multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) and .
+ is supported for non-streaming Now Assist Virtual Agent conversations. For details, see  and .
 
 </td></tr><tr><td>
 
@@ -125,7 +126,7 @@ RPA Hub
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://www.servicenow.com/docs/access?context=rpa-hub-international-language-support&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US).
+RPA Hub supports international languages. For more information, see Internationalization support for RPA Hub.
 
 </td></tr><tr><td>
 
@@ -144,5 +145,5 @@ Virtual Agent
 The ServiceNow® Localization Framework is integrated in Virtual Agent.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Yokohama features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
 

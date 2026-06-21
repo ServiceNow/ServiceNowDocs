@@ -2,6 +2,7 @@
 title: Exploring Commercial Lines Claims
 description: Learn how the first-notice-of-loss \(FNOL\) representatives, processors, adjusters, special investigation agents, and managers can use the Commercial Lines Claims application to create and manage commercial insurance claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/exploring-commercial-lines-claims.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims

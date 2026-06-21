@@ -2,6 +2,7 @@
 title: Archive and purge summary data tables
 description: Use the archive rules and destroy rules to archive and purge the summary data. Archive and purge the Space Occupancy Daily Summary Data \(sn\_wsd\_wc\_space\_occupancy\_daily\_summary\_data\), Environmental Daily Summary Data \(sn\_wsd\_wc\_environmental\_daily\_summary\_data\), Environmental Hourly Summary Data \(sn\_wsd\_wc\_environmental\_hourly\_summary\_data\), and Wi-Fi Daily Summary Data \(sn\_wsd\_wc\_wifi\_daily\_summary\_data\) table records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/archive-and-purge-summary-data.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
@@ -56,9 +57,9 @@ Role required: admin
 9.  Run the job by selecting the **Run Archive Destroy Now** related link.
 
 
-**Parent Topic:**[Workplace Connectors data summarization](../concept/data-summarization.md)
+**Parent Topic:**[Workplace Connectors data summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/data-summarization.md)
 
-**Previous topic:**[Workplace Connectors data summarization](../concept/data-summarization.md)
+**Previous topic:**[Workplace Connectors data summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/data-summarization.md)
 
-**Next topic:**[Run the DataSummarization on-demand job](run-the-datasummarization-on-demand-job.md)
+**Next topic:**[Run the DataSummarization on-demand job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/run-the-datasummarization-on-demand-job.md)
 

@@ -2,6 +2,7 @@
 title: Upload a manually signed contract document
 description: Upload the wet signed contract document that you have received from the signatories. You need to upload a contract document for a wet signature workflow or if one of the signatories in the electronic workflow decides to do a wet signature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -39,7 +40,7 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
     2.  Select the contract document and select **Open**.
 
-        ![Attach wet signed contract document when one of the signatories decides to do a wet signature instead of electronic signature](../image/cmpro-mixedsig-attachfile.png "Attach wet signed contract document for upload")
+        \[Omitted image "cmpro-mixedsig-attachfile.png"\] Alt text: Attach wet signed contract document when one of the signatories decides to do a wet signature instead of electronic signature
 
         The contract document is attached.
 
@@ -51,13 +52,13 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
     2.  Select **Next**.
 
-        ![Select signatories who have already signed the contract document.](../image/cmpro-mixedsig-selectsig.png "Select signatories")
+        \[Omitted image "cmpro-mixedsig-selectsig.png"\] Alt text: Select signatories who have already signed the contract document.
 
 6.  Review and upload the contract document.
 
     -   Upload the signed contract document - If all signatories have signed the contract document, select **Upload** to upload the document.
     -   Send the uploaded document to the next signatories - If some of the signatures are pending, select **Upload and send for signature** to upload and send the document to the pending signatories.
-    ![Send the contract document to signatories who still need to sign it.](../image/cmpro-mixedsig-sendsig.png "Send for signature")
+    \[Omitted image "cmpro-mixedsig-sendsig.png"\] Alt text: Send the contract document to signatories who still need to sign it.
 
 
 ## Result
@@ -70,5 +71,5 @@ For own paper contracts, the state of the request updated to **Closed complete**
 
 For third-party contracts, the state of the request and the contract status updates to **Contract signed**. To close the contract request, select **Close complete**.
 
-**Parent Topic:**[Signature workflow for a contract request](../concept/cncore-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
 

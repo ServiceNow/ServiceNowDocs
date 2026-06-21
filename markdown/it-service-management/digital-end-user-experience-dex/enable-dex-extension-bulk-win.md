@@ -2,6 +2,7 @@
 title: Enable DEX browser extension on multiple Windows devices
 description: Deploy the DEX browser extension to all your organization's employees using Microsoft Intune.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/enable-dex-extension-bulk-win.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

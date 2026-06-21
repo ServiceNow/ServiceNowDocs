@@ -2,6 +2,7 @@
 title: Generate onboarding ramp-up plan agentic workflow
 description: The Generate onboarding ramp-up plan agentic workflow is an AI-powered solution that helps managers at your organization onboard new employees more efficiently. This workflow uses AI agents to generate personalized plans that are designed to elevate the knowledge and skills of new employees beginning to embark on their onboarding journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/onboarding-ramp-up-plan-agentic-wf.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -98,14 +99,14 @@ This AI agent allows managers to review the AI-generated personalized onboarding
 -   **Exit** – End the session.
 
 </td></tr></tbody>
-</table>-   **[Set Onboarding ramp up trigger to use Employee Center portal](../task/set-trigger-emp-center.md)**  
+</table>-   **[Set Onboarding ramp up trigger to use Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/set-trigger-emp-center.md)**  
 Set Onboarding ramp-up trigger to use Employee Center portal in the trigger configuration so the onboarding ramp-up plan workflow is accessible through the portal. Without setting the portal, the trigger will not be visible or usable in the Employee Center portal.
--   **[Activate Onboarding ramp-up trigger](../task/activate-trigger-rampup.md)**  
+-   **[Activate Onboarding ramp-up trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/activate-trigger-rampup.md)**  
 Enable the Onboarding ramp-up trigger to ensure that the workflow runs at the right time during the employee onboarding. This automates plan generation, reduces manual setup for managers, and improves consistency in onboarding processes.
--   **[Activate the associated Now Assist skills](../task/turn-on-nowassist-skills.md)**  
+-   **[Activate the associated Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/turn-on-nowassist-skills.md)**  
 Enable the Now Assist skills to allow the system to analyze interview notes and job descriptions, extract keywords, and identify relevant skills. This improves skill gap analysis and ensures accurate, personalized ramp-up plans for new employees.
--   **[Add Employee Center to the Now Assist in Virtual Agent display experience](../task/enable-na-va-ec.md)**  
+-   **[Add Employee Center to the Now Assist in Virtual Agent display experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/enable-na-va-ec.md)**  
 Enable Now Assist in Virtual Agent to appear in the Employee Center so you can converse with AI agents during a process that's facilitated by an agentic workflow.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for HRSD](now-assist-hrsd-ai-agents-use-cases.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
 

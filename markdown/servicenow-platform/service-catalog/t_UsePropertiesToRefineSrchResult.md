@@ -2,6 +2,7 @@
 title: Refine search results
 description: Use properties to refine search results in Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/t\_UsePropertiesToRefineSrchResult.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
@@ -23,19 +24,19 @@ Role required: admin
 
 The auto-completion feature returns values that contain an exact match to the letter combination entered.
 
-![Auto-complete begins with first letter you type](../image/CatalogAutoComplete1.png "Catalog auto complete")
+\[Omitted image "CatalogAutoComplete1.png"\] Alt text: Auto-complete begins with first letter you type
 
 Administrators can use the **Additional columns for the "request for" Service Catalog widget** \(glide.sc.request\_for.columns\) property to add columns to this list, to further refine the search results, and help determine which user to select when two users have the same name.
 
 In this example, the property is set to display two additional columns, **Department** and **Title**:
 
-![Distinguish names by department](../image/CatalogAutoComplete2.png "Catalog auto complete using department")
+\[Omitted image "CatalogAutoComplete2.png"\] Alt text: Distinguish names by department
 
 Administrators can use the **Ordering of matches for the "request for" Service Catalog widget**. \(glide.sc.request\_for.order\_by\) property to configure the columns to sort by one of the values.
 
 In this example, the is set to sort the results list by **department**.
 
-![Results are ordered by department](../image/CatalogAutoComplete7.png "Catalog auto complete results by department")
+\[Omitted image "CatalogAutoComplete7.png"\] Alt text: Results are ordered by department
 
 Auto-completion also applies to the **Request for** field, which can be added to the service catalog homepage.
 
@@ -49,8 +50,8 @@ Auto-completion also applies to the **Request for** field, which can be added to
 
 4.  Place the category on the page.
 
-    ![Add a section in the catalog home page](../image/CatalogAutoComplete4.png "Add requested for catalog section")
+    \[Omitted image "CatalogAutoComplete4.png"\] Alt text: Add a section in the catalog home page
 
 
-**Parent Topic:**[Configure search and navigation](../concept/c_ConfigSrchNavUseProps.md)
+**Parent Topic:**[Configure search and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/c_ConfigSrchNavUseProps.md)
 

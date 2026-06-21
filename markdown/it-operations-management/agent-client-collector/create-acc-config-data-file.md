@@ -2,6 +2,7 @@
 title: Create an Agent Client Collector configuration data file
 description: Create an Agent Client Collector configuration data file and associate it with check definitions so that you can view the information about your instance. You can also add or delete an attachment to the configuration data files, which are used by check definitions during check executions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/create-acc-config-data-file.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -21,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-A check definition is an individual check entry in the system. For details, see [Agent Client Collector configuration data files](../concept/acc-config-data-files.md).
+A check definition is an individual check entry in the system. For details, see [Agent Client Collector configuration data files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-config-data-files.md).
 
 Configuration data file attachments contain instance data, such as configuration item \(CI\) information, which is used when executing a check.
 
@@ -35,21 +36,21 @@ Domain separation is supported in the Agent Client Collector configuration data 
 
 3.  Add or remove an attachment.
 
-<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d527890e110">
+<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d360684e110">
 
 Action
 
-</th><th align="left" id="d527890e113">
+</th><th align="left" id="d360684e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d527890e119">
+</th></tr></thead><tbody><tr><td id="d360684e119">
 
 **Add a file**
 
 </td><td>
 
-Synchronize the record and the relevant MID Servers.1.  Select the paper clip icon ![Paper clip icon.](../image/paper-clip-icon.png).
+Synchronize the record and the relevant MID Servers.1.  Select the paper clip icon \[Omitted image "paper-clip-icon.png"\] Alt text: Paper clip icon..
 
 The Attachments dialog box opens.
 
@@ -57,7 +58,7 @@ The Attachments dialog box opens.
 3.  Close the Attachments dialog box.
 
 
-</td></tr><tr><td id="d527890e153">
+</td></tr><tr><td id="d360684e153">
 
 **Delete a file**
 

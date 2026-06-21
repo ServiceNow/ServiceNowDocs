@@ -2,6 +2,7 @@
 title: Provider Connector Configuration for Wi-Fi data
 description: Configure the Provider Connector Configurations table for setting up Wi-Fi data in workplace locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/wsd-provider-connectorconfig-wifi-data.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
@@ -121,5 +122,5 @@ Metric table.
     When records are updated in the Provider Connector Configuration table, the selected spaces or location records are updated in the Provider Space Mapping table. The location records are updated with the location hierarchy \(Region, Campus, Building, floor, and space records\).
 
 
-**Parent Topic:**[Set up Workplace Connectors for Wi-Fi data](../concept/setup-wifi-data-connectors.md)
+**Parent Topic:**[Set up Workplace Connectors for Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-wifi-data-connectors.md)
 

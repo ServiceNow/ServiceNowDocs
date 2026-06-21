@@ -2,6 +2,7 @@
 title: Add a healthcare organization in Healthcare and Life Sciences Service Management Core
 description: Create a healthcare organization for use with Healthcare and Life Sciences Service Management Core.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-configure-healthcare-organizations.html
 release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

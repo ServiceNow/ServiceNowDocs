@@ -2,12 +2,13 @@
 title: Define filter and aggregation criteria
 description: Define and set filter conditions to specify which incoming CrowdStrike Next-Gen SIEM detections should create security incidents. You can also define additional detection field criteria that allows an incoming detection to be appended to an open security incident instead of creating an incident.Set the filtering conditions so that security incidents are created only when the filtering conditions match.Define additional incident aggregation criteria that aggregates an incoming detection to an existing SIR security incident instead of creating similar, potentially duplicate detections. When you use field matching value criteria for each profile, this additional aggregation can reduce the number of active, overlapping security incidents by placing all related detections data on a single security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/filtering-and-aggregation-cs-ng-siem.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Filtering and Aggregation]
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

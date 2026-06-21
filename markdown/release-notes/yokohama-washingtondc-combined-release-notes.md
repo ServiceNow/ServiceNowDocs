@@ -2,6 +2,7 @@
 title: Combined product release notes for upgrades from Washington DC to Yokohama
 description: To help you upgrade from Washington DC to Yokohama, we have combined the cross-family release notes for each product onto one page. Select the products you have to customize the release notes results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-washingtondc-combined-release-notes.html
 release: yokohama
 topic_type: reference
 last_updated: "2020-06-26"
@@ -131,14 +132,6 @@ Agentic Contact Center for Banking
 
 </td></tr><tr><td>
 
-Agentic Desktop
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-agenticdesktop-release-notes.html)
-
-</td></tr><tr><td>
-
 Agent Workspace for HR Case Management
 
 </td><td>
@@ -155,6 +148,14 @@ Agile Development 2.0
 
 </td></tr><tr><td>
 
+AI Agent Advisor
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-aiagentadvisor-release-notes.html)
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
@@ -163,11 +164,11 @@ AI Control Tower
 
 </td></tr><tr><td>
 
-AI-native IT Service Management
+AI Desktop Actions
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-ainativeitservicemanagement-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-aidesktopactions-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -691,11 +692,11 @@ Customer Engagement Sequences
 
 </td></tr><tr><td>
 
-Customer self-service for Sales and Order Management
+Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-customerselfserviceforsalesandordermanagement-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-customerselfserviceforsalescustomerrelationshipmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -712,6 +713,14 @@ Customer Success Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-customersuccessmanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+Data Catalog
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-datacatalog-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -752,6 +761,14 @@ Data Privacy
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-dataprivacy-release-notes.html)
+
+</td></tr><tr><td>
+
+Data products
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-dataproducts-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -931,6 +948,14 @@ Employee Relations
 
 </td></tr><tr><td>
 
+Employee Slate
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-employeeslate-release-notes.html)
+
+</td></tr><tr><td>
+
 EMR Help
 
 </td><td>
@@ -1051,11 +1076,11 @@ Financial Services Operations Integration with Mastercard
 
 </td></tr><tr><td>
 
-Financial Services Operations Integration with Verifi CDRN
+Financial Services Operations Integration with Verifi
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-financialservicesoperationsintegrationwithverificdrn-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-financialservicesoperationsintegrationwithverifi-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1411,6 +1436,14 @@ ITOM Visibility
 
 </td></tr><tr><td>
 
+IT Service Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-itservicemanagement-release-notes.html)
+
+</td></tr><tr><td>
+
 ITSM Mobile Agent
 
 </td><td>
@@ -1747,6 +1780,14 @@ Now Assist Analytics
 
 </td></tr><tr><td>
 
+Now Assist Center
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-nowassistcenter-release-notes.html)
+
+</td></tr><tr><td>
+
 Now Assist for App Engine
 
 </td><td>
@@ -1899,14 +1940,6 @@ Now Assist for Manufacturing Commercial Operations \(MCO\)
 
 </td></tr><tr><td>
 
-Now Assist for Operational Sustainability Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-nowassistforoperationalsustainabilitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Operational Sustainability Management Management
 
 </td><td>
@@ -1939,11 +1972,11 @@ Now Assist for Retail Service Management \(RSM\)
 
 </td></tr><tr><td>
 
-Now Assist for Sales and Order Management for Telecommunications \(SOMT\)
+Now Assist for Sales CRM for Telecommunications
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-nowassistforsalesandordermanagementfortelecommunicationssomt-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-nowassistforsalescrmfortelecommunications-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2048,6 +2081,14 @@ Now Assist for Workplace Service Delivery \(WSD\)
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-nowassistforworkplaceservicedeliverywsd-release-notes.html)
+
+</td></tr><tr><td>
+
+Now Assist for Zero Copy Connector
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-nowassistforzerocopyconnector-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2571,11 +2612,11 @@ Sales Agreement Management
 
 </td></tr><tr><td>
 
-Sales and Order Management for Telecommunications \(SOMT\)
+Sales CRM for Telecommunications
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-salesandordermanagementfortelecommunicationssomt-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-washingtondc-yokohama/yokohama-washingtondc-salescrmfortelecommunications-release-notes.html)
 
 </td></tr><tr><td>
 

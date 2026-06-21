@@ -2,6 +2,7 @@
 title: Configure the rescind process for a Lifecycle Events activity
 description: Cancel and revert work done in a Lifecycle Events case with the rescind process. Rescind activities can be defined to notify employees and departments when a case is rescinded, trigger automated flows, and revert work already completed, such as the provisioning of equipment or the setting up of a workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.html
 release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
@@ -23,7 +24,7 @@ Role required: sn\_hr\_le.admin or sn\_hr\_le.activity\_set\_manager
 
 The rescind process enables you to cancel and revert work done in a Lifecycle Events case. For example, if a new hire decides not to join the company or a job offer is revoked, you can revert work done in the onboarding case.
 
-![A rescinded new hire onboarding case.](../image/rescind-lifecycle-event-example.png)
+\[Omitted image "rescind-lifecycle-event-example.png"\] Alt text: A rescinded new hire onboarding case.
 
 ## Procedure
 
@@ -33,13 +34,13 @@ The rescind process enables you to cancel and revert work done in a Lifecycle Ev
 
     2.  Select the **Activity Sets** tab.
 
-        ![In the Lifecycle Events builder, click the Activity Sets tab.](../image/lifecycle-event-builder-activity-set-tab.png)
+        \[Omitted image "lifecycle-event-builder-activity-set-tab.png"\] Alt text: In the Lifecycle Events builder, click the Activity Sets tab.
 
     3.  Select **Enable Rescind**.
 
-        ![Click "Enable Rescind" to add the Rescind activity set to the Lifecycle Events builder.](../image/lifecycle-event-enable-rescind.png)
+        \[Omitted image "lifecycle-event-enable-rescind.png"\] Alt text: Click "Enable Rescind" to add the Rescind activity set to the Lifecycle Events builder.
 
-        The Lifecycle Events builder displays the Rescind activity set.![The Rescind activity set appears in the Lifecycle Events builder.](../image/lifecycle-event-rescind-activity-set.png)
+        The Lifecycle Events builder displays the Rescind activity set.\[Omitted image "lifecycle-event-rescind-activity-set.png"\] Alt text: The Rescind activity set appears in the Lifecycle Events builder.
 
         **Note:** You can’t set an audience for activity sets that have a trigger type of **Rescind**.
 
@@ -87,13 +88,13 @@ Activity type
 
 </td><td>
 
-Activity type of the rescind activity. Select one of the following activity types:-   [Approval](configure-hr-lifecycle-event-activity.md#)
--   [Employee activity](configure-hr-lifecycle-event-activity.md#)
--   [Fulfiller activity](configure-hr-lifecycle-event-activity.md#)
--   [Notification](configure-hr-lifecycle-event-activity.md#)
--   [Flow](configure-hr-lifecycle-event-activity.md#)
--   [Content](configure-hr-lifecycle-event-activity.md#)
--   [Activity container](configure-hr-lifecycle-event-activity.md#)
+Activity type of the rescind activity. Select one of the following activity types:-   [Approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Employee activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Fulfiller activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
+-   [Activity container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
 
 **Note:** For this activity type, there’s no **Activity to rescind** field at the container level. When configuring the rescind member activities, you can select the corresponding activity to rescind at the member activity level.
 
@@ -133,5 +134,5 @@ Defines whether the activity should trigger for the Lifecycle Events case. You c
 </table>    3.  Repeat the process as needed.
 
 
-**Parent Topic:**[Configure a lifecycle event](configure-hr-lifecycle-event-type.md)
+**Parent Topic:**[Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md)
 

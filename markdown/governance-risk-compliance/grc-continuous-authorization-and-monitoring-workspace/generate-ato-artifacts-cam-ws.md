@@ -2,6 +2,7 @@
 title: Generating ATO artifacts from an authorization package
 description: Generate Authority to Operate \(ATO\) artifacts for Microsoft Word, such as a System Security Plan \(SSP\), Security Assessment Report \(SAR\), Plan of Actions and Milestones \(POA&amp;Ms\), Security Assessment Plan \(SAP\), ATO Letter, and Executive Summary, from an authorization package in CAMWorkspace. Generating ATO artifacts as a Microsoft Word file enables more ways to edit and collaborate, and it helps you comply with security standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-cam-ws.html
 release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -48,11 +49,11 @@ The SSP, SAR, POA&amp;Ms, SAP, ATO Letter, and Executive Summary are reports tha
 
 To configure the predefined CAM Microsoft Word template, you must navigate to **All** &gt; **Continuous Authorization and Monitoring** &gt; **Administration** and set up the following administrative steps:
 
--   [Configuring ATO artifacts report templates using the Document Designer with Word add-in](../../grc-cam/reference/cam-configure-word-based-template.md)
--   [Components installed with Continuous Authorization and Monitoring](../../grc-cam/reference/cam-components-installed.md#)
+-   [Configuring ATO artifacts report templates using the Document Designer with Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
+-   [Components installed with Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md)
 
--   **[Generate ATO artifacts](../task/generate-ato-artifacts-steps-cam-ws.md)**  
+-   **[Generate ATO artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-steps-cam-ws.md)**  
 Generate Authority to Operate \(ATO\) artifacts from the Authorization package overview record page in the CAM Workspace as a Microsoft Word file.
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

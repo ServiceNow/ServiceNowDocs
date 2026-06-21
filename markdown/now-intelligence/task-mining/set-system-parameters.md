@@ -2,6 +2,7 @@
 title: Adjust Task Mining agent parameters
 description: Modify system-level Task Mining agent records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/task-mining/set-system-parameters.html
 release: yokohama
 product: Task Mining
 classification: task-mining
@@ -29,13 +30,13 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.
 
-2.  Select the Configuration icon\(![Task Mining Configuration icon](../image/task-mining-configuration-icon.png)\).
+2.  Select the Configuration icon\(\[Omitted image "task-mining-configuration-icon.png"\] Alt text: Task Mining Configuration icon\).
 
 3.  Under **Configuration**, select **Agent**.
 
 4.  Select the Task Mining agent configuration record that you want to modify.
 
-    For information on the agent configuration records, see [Agent configuration records in Task Mining](../reference/agent-system-configuration-records.md).
+    For information on the agent configuration records, see [Agent configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/agent-system-configuration-records.md).
 
 5.  Modify the **Value** field.
 

@@ -2,6 +2,7 @@
 title: Verify and depart your enterprise assets for disposal using the Mobile Agent application
 description: Use the ServiceNow Mobile Agent application to complete the verification and departure of any enterprise assets that you want to dispose of.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/dispose-enterprise-assets-mobile-agent-app.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Use the ServiceNow® Mobile Agent application to complete the verification and d
 
 ## Before you begin
 
-Before you can complete the verification or departure of an enterprise asset, create a disposal order for that asset. See [Create a disposal order in the Enterprise Asset Workspace](create-eamdisposal-order.md) for detailed instructions.
+Before you can complete the verification or departure of an enterprise asset, create a disposal order for that asset. See [Create a disposal order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
@@ -31,7 +32,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     The home screen for the Enterprise Asset Management application opens.
 
-    ![Enterprise Asset Management home screen in the ServiceNow Mobile Agent application.](../image/eam-mobile-agent-app-home-screen.png)
+    \[Omitted image "eam-mobile-agent-app-home-screen.png"\] Alt text: Enterprise Asset Management home screen in the ServiceNow Mobile Agent application.
 
 3.  Tap **Asset disposal**.
 
@@ -63,7 +64,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     8.  After you scan or enter the asset tag value for all desired enterprise assets, go to the **Review** tab to verify the complete list.
 
-        If you want to remove any enterprise assets from the list, tap the Delete icon \(![Delete icon.](../image/delete-icon-mobile-agent-app.png)\) for that enterprise asset.
+        If you want to remove any enterprise assets from the list, tap the Delete icon \(\[Omitted image "delete-icon-mobile-agent-app.png"\] Alt text: Delete icon.\) for that enterprise asset.
 
     9.  Tap **Submit**.
 
@@ -99,7 +100,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     8.  After you scan or enter the asset tag value for all desired enterprise assets, go to the **Review** tab to verify the complete list.
 
-        If you want to remove any enterprise assets from the list, tap the Delete icon \(![Delete icon.](../image/delete-icon-mobile-agent-app.png)\) for that enterprise asset.
+        If you want to remove any enterprise assets from the list, tap the Delete icon \(\[Omitted image "delete-icon-mobile-agent-app.png"\] Alt text: Delete icon.\) for that enterprise asset.
 
     9.  Tap **Submit**.
 
@@ -122,5 +123,5 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## What to do next
 
-Complete the remaining disposal order tasks on your ServiceNow instance. See [Enterprise asset disposal order stages](../reference/eamasset-disposalorder-stages.md) for more information on enterprise asset disposal order tasks.
+Complete the remaining disposal order tasks on your ServiceNow instance. See [Enterprise asset disposal order stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/eamasset-disposalorder-stages.md) for more information on enterprise asset disposal order tasks.
 

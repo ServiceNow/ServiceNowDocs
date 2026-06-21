@@ -2,6 +2,7 @@
 title: Explore an Zero Copy Connector for ERP content pack
 description: Explore an Zero Copy Connector for ERP content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-explore-a-content-pack.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -23,7 +24,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP models page by selecting the ERP models icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+2.  Open the ERP models page by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
 3.  Review the list of ERP models.
 
@@ -35,7 +36,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 5.  Review the model record for details including the short description, long text, ERP module, and ERP software.
 
-    ![Content pack model record page.](../image/erpc-explore-descriptions.png)
+    \[Omitted image "erpc-explore-descriptions.png"\] Alt text: Content pack model record page.
 
 6.  Select the **Model entities** and **Entity fields** tabs to review the information.
 
@@ -47,13 +48,13 @@ Role required: sn\_erp\_integration.erp\_admin
 
     3.  Select **Clone this model**.
 
-        ![Clone this model modal with new name added.](../image/erpc-cloned-content-pack-model.png)
+        \[Omitted image "erpc-cloned-content-pack-model.png"\] Alt text: Clone this model modal with new name added.
 
         Depending on the size of the model, the cloning process may take a few minutes. When the clone is complete, a success message in green is displayed.
 
     4.  Select the **Models** tab.
 
-    5.  Select the refresh list model icon ![](../../../reuse/icons/product-icons/sync-fill-24.svg).
+    5.  Select the refresh list model icon \[Omitted image "sync-fill-24.svg"\].
 
     6.  Confirm that the new cloned model is listed.
 
@@ -67,35 +68,35 @@ Role required: sn\_erp\_integration.erp\_admin
 
 11. Select the **Read** tile to see that an appropriate entity has already been added.
 
-    ![Read operation with pre-defined entity highlighted.](../image/erpc-explore-read-tile.png)
+    \[Omitted image "erpc-explore-read-tile.png"\] Alt text: Read operation with pre-defined entity highlighted.
 
 12. Select **Specify inputs** to see that a mapping has already been done with typical input parameters.
 
-    ![Read operation with pre-defined inputs listed.](../image/erpc-explore-read-input.png)
+    \[Omitted image "erpc-explore-read-input.png"\] Alt text: Read operation with pre-defined inputs listed.
 
 13. Select **Choose output** to see that a mapping has already been done for the field or general information to send back when calling the model.
 
-    ![Read operation with pre-defined outputs listed.](../image/erpc-explore-read-output.png)
+    \[Omitted image "erpc-explore-read-output.png"\] Alt text: Read operation with pre-defined outputs listed.
 
 14. Select the back button on your browser three times to return to the model manager page.
 
 15. Select the **Update** and **Create** tiles and repeat steps 12 through 14 for each tile to explore the predefined inputs and outputs.
 
-    ![Model manager page with update and create tiles highlighted.](../image/erpc-explore-update-create-tiles.png)
+    \[Omitted image "erpc-explore-update-create-tiles.png"\] Alt text: Model manager page with update and create tiles highlighted.
 
 16. To see the process extensions in a content pack, navigate to **All** &gt; **Workflow Studio** and select **Subflows**.
 
-    ![Workflow Studio subflows list.](../image/erpc-process-extensions-explore1.png)
+    \[Omitted image "erpc-process-extensions-explore1.png"\] Alt text: Workflow Studio subflows list.
 
     **Note:** In the following steps, you simply view a process extension. When you are actually working with process extensions, you copy the subflow and adjust the copy of the subflow so it uses cloned models. For more information, see Using ERP Canvas process extensions.
 
 17. In the **Name** column, select the filter icon, set the filter to **starts with ERP DP**, and select **Apply**.
 
-    ![Workflow Studio filter opened on name column.](../image/erpc-process-extensions-explore2.png)
+    \[Omitted image "erpc-process-extensions-explore2.png"\] Alt text: Workflow Studio filter opened on name column.
 
 18. Select one of the material subflows, for example, **ERP DP: Material Update**.
 
-    ![List of filtered subflows with ERP DP Material Update highlighted.](../image/erpc-process-extensions-explore3.png)
+    \[Omitted image "erpc-process-extensions-explore3.png"\] Alt text: List of filtered subflows with ERP DP Material Update highlighted.
 
 19. View the subflow actions.
 
@@ -103,7 +104,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 21. View the inputs and outputs the subflow contains.
 
-    ![Inputs and outputs section expanded showing the inputs and outputs in the subflow.](../image/erpc-process-extensions-explore4.png)
+    \[Omitted image "erpc-process-extensions-explore4.png"\] Alt text: Inputs and outputs section expanded showing the inputs and outputs in the subflow.
 
 22. Select the back button on your browser to return to the list of subflows.
 
@@ -112,7 +113,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## What to do next
 
-When you're ready to create an application with a content pack, see [Using Zero Copy Connector for ERP content packs](erp-canvas-using-content-packs.md).
+When you're ready to create an application with a content pack, see [Using Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-using-content-packs.md).
 
-**Parent Topic:**[Zero Copy Connector for ERP content packs](../concept/erp-canvas-content-packs.md)
+**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-content-packs.md)
 

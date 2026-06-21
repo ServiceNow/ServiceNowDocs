@@ -2,6 +2,7 @@
 title: Create an inbound asset order line for a requested Device as a Service \(DaaS\) asset
 description: Create an inbound asset order line for each DaaS asset that you want to provide to your customers through an inbound asset order. Use each order line to track and manage the tasks that you must complete to provide the given asset to the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/create-inbound-asset-order-line-daas-asset.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -25,15 +26,15 @@ Role required: sn\_eam\_provider.provider\_asset\_manager
 
 2.  Open the Inbound asset order lines list.
 
-<table id="choicetable_my1_vjg_bhc"><thead><tr><th align="left" id="d294433e78">
+<table id="choicetable_my1_vjg_bhc"><thead><tr><th align="left" id="d49716e78">
 
 Navigation option
 
-</th><th align="left" id="d294433e81">
+</th><th align="left" id="d49716e81">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d294433e87">
+</th></tr></thead><tbody><tr><td id="d49716e87">
 
 **Provider inbound asset order**
 
@@ -44,7 +45,7 @@ Procedure
 3.  On the inbound asset order record, select the **Inbound asset order lines** tab.
 
 
-</td></tr><tr><td id="d294433e120">
+</td></tr><tr><td id="d49716e120">
 
 **Provider inbound asset order line**
 
@@ -72,7 +73,7 @@ From the navigation menu of the Asset operations view, navigate to **Provider** 
 
 ## What to do next
 
-Perform all tasks that are required for completing the inbound asset order line so that you can complete and close the associated inbound asset order. For detailed instructions, see [Completing an inbound asset order for requested Device as a Service \(DaaS\) assets](../concept/completing-inbound-asset-order-daas-assets.md).
+Perform all tasks that are required for completing the inbound asset order line so that you can complete and close the associated inbound asset order. For detailed instructions, see [Completing an inbound asset order for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/completing-inbound-asset-order-daas-assets.md).
 
-**Parent Topic:**[Managing inbound asset orders for requested Device as a Service \(DaaS\) assets](../concept/managing-inbound-asset-orders-daas-assets.md)
+**Parent Topic:**[Managing inbound asset orders for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/managing-inbound-asset-orders-daas-assets.md)
 

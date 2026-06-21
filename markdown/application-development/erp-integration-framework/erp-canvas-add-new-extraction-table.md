@@ -2,6 +2,7 @@
 title: Add a new ERP extraction table in Zero Copy Connector for ERP
 description: Create an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data from the system of record every day, and save the data to a transformation \(staging\) table. The data is then available on the ServiceNow AI Platform, and you can add the extracted data to an ERP model or remote table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-add-new-extraction-table.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,7 +18,7 @@ Create an ERP \(Enterprise Resource Planning\) extraction table to capture large
 
 ## Before you begin
 
-You must first configure the source table, target table, and table transform map before those tables can be added to an ERP extraction table. For more information on creating table transform maps, see [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US).
+You must first configure the source table, target table, and table transform map before those tables can be added to an ERP extraction table. For more information on creating table transform maps, see .
 
 Role required:
 
@@ -34,18 +35,18 @@ You can create multiple ERP extraction tables, and multiple extraction tables ca
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP extraction tables page by selecting the ERP extraction tables icon \(![ERP extraction tables navigation icon](../image/erpc-extraction-table-icon.png)\) in the side panel.
+2.  Open the ERP extraction tables page by selecting the ERP extraction tables icon \(\[Omitted image "erpc-extraction-table-icon.png"\] Alt text: ERP extraction tables navigation icon\) in the side panel.
 
 3.  Select the **New** button.
 
-    ![New extraction table fields.](../image/erpc-new-extraction-table.png)
+    \[Omitted image "erpc-new-extraction-table.png"\] Alt text: New extraction table fields.
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Zero Copy Connector for ERP extraction table field descriptions](../reference/erp-canvas-extraction-table-descriptions.md).
+    For a description of the field values, see [Zero Copy Connector for ERP extraction table field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-table-descriptions.md).
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Extracting and transforming data in Zero Copy Connector for ERP](../concept/erp-canvas-extraction-tables.md)
+**Parent Topic:**[Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
 

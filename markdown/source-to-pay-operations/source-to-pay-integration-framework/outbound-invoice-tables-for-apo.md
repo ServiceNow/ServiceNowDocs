@@ -2,6 +2,7 @@
 title: Outbound invoice staging table
 description: The outbound invoice \[sn\_spend\_intg\_outbound\_invoice\] staging table stores important data about invoices so that an ERP integrator can export this data to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/source-to-pay-integration-framework/outbound-invoice-tables-for-apo.html
 release: yokohama
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

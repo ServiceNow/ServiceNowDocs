@@ -2,6 +2,7 @@
 title: Post a message to a record feed
 description: Use Live Feed to post a message to a record feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_PostingMessagesToRecordFeeds.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -28,7 +29,7 @@ Role required: none
     -   From My Live Feed \(must already be following the record\)
     -   From the **Live Feed** pop-up window
     -   From the **Live Feed** tab on the activity formatter
-    -   Click the **Show Live Feed** button \(![Show Live Feed icon](../image/ShowLiveFeedIcon.png)\) in the form header.
+    -   Click the **Show Live Feed** button \(\[Omitted image "ShowLiveFeedIcon.png"\] Alt text: Show Live Feed icon\) in the form header.
 2.  Compose the message and add images and links.
 
 3.  In the To list, select the record where you want to post the message.
@@ -44,5 +45,5 @@ Role required: none
     **Note:** If the record has journal fields for comments or work notes, your message is automatically added to the appropriate field on the record. If the record has a standard text field for comments on the activity formatter, each live post overwrites the field value. Comments added through Live Feed start with \#LiveFeed on the activity formatter.
 
 
-**Parent Topic:**[Working with record feeds](../concept/c_WorkingWithRecordFeeds.md)
+**Parent Topic:**[Working with record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_WorkingWithRecordFeeds.md)
 

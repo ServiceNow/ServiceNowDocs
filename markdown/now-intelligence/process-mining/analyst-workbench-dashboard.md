@@ -2,6 +2,7 @@
 title: Analyst Workbench
 description: View the visualized process map with tools for managing visualizations and perform analysis tasks from a project's page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/analyst-workbench-dashboard.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -27,7 +28,7 @@ To access the Analyst Workbench:
     When you open a project, by default the Analyst Workbench opens.
 
 
-![Analyst workbench view](../image/explore-analyst-workbench2.png)
+\[Omitted image "explore-analyst-workbench2.png"\] Alt text: Analyst workbench view
 
 ## Breakdown filters
 
@@ -41,23 +42,23 @@ Use the **Breakdown Filters** tab to create and delete filter sets, and set adva
 
 </td><td>
 
-![Breakdown filter tab within the Analyst workbench](../image/breakdown-filter.png)
+\[Omitted image "breakdown-filter.png"\] Alt text: Breakdown filter tab within the Analyst workbench
 
 </td></tr><tr><td>
 
-Use the **Filter Breakdown** icon \(![Filter breakdown](../../../use/performance-analytics/image/funnel-icon.png)\) to filter your breakdowns based on criteria you select in the
+Use the **Filter Breakdown** icon \(\[Omitted image "funnel-icon.png"\] Alt text: Filter breakdown\) to filter your breakdowns based on criteria you select in the
 
 </td><td>
 
-![Breakdown filter tab within the Analyst workbench](../image/breakdown-filter-modal.png)
+\[Omitted image "breakdown-filter-modal.png"\] Alt text: Breakdown filter tab within the Analyst workbench
 
 </td></tr><tr><td>
 
-Use the **Transitions** button to define advanced filters on your transitions. For details on this process, see [Apply a transition filter on an activity](../task/node-to-node-conditions.md).
+Use the **Transitions** button to define advanced filters on your transitions. For details on this process, see [Apply a transition filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/node-to-node-conditions.md).
 
 </td><td>
 
-![Add activity conditions using the Transitions filter](../image/transition-location-1.png)
+\[Omitted image "transition-location-1.png"\] Alt text: Add activity conditions using the Transitions filter
 
 </td></tr></tbody>
 </table>## Variation analysis
@@ -70,7 +71,7 @@ Use the **Variation Analysis** tab to view the routes taken by your records, the
 
 </td><td>
 
-![Breakdown filter tab within the Analyst workbench](../image/variation-analysis.png)
+\[Omitted image "variation-analysis.png"\] Alt text: Breakdown filter tab within the Analyst workbench
 
 </td></tr></tbody>
 </table>## Process map
@@ -81,7 +82,7 @@ Use the **Process map** to view a visualized map of your project. Within the map
 
 </td><td>
 
-![Breakdown filter tab within the Analyst workbench](../image/process-map-example.png)
+\[Omitted image "process-map-example.png"\] Alt text: Breakdown filter tab within the Analyst workbench
 
 </td></tr><tr><td>
 
@@ -94,7 +95,7 @@ Select a node or transition line within the map to view additional details about
 
  Select a bar, and select **Apply as filter** to filter by these results.
 
- For more information on using this tool, [Refining a process map](analyze-data.md).
+ For more information on using this tool, [Refining a process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyze-data.md).
 
  When you select a node, the modal window displays the outgoing and incoming distribution of records via the selected node.
 
@@ -104,9 +105,9 @@ Select a node or transition line within the map to view additional details about
 
 </td><td>
 
-![Details of a node or transition line](../image/node-details-analystwb.png)
+\[Omitted image "node-details-analystwb.png"\] Alt text: Details of a node or transition line
 
- ![Records from, to, and Investigate options in Analyst workbench](../image/process-map-example-2.png)
+ \[Omitted image "process-map-example-2.png"\] Alt text: Records from, to, and Investigate options in Analyst workbench
 
 </td></tr><tr><td>
 
@@ -116,13 +117,13 @@ When you select a transition line, the modal window displays the occurrences, re
 
  For information on each analysis, see the following topics:
 
--   [Cluster analysis](cluster-analysis.md)
--   [Work notes analysis](worknotes-analysis.md)
--   [Automated root cause analysis](auto-rca.md)
+-   [Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/cluster-analysis.md)
+-   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/worknotes-analysis.md)
+-   [Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/auto-rca.md)
 
 </td><td>
 
-![Transition line details](../image/aw-tran-details.png)
+\[Omitted image "aw-tran-details.png"\] Alt text: Transition line details
 
 </td></tr><tr><td>
 
@@ -130,7 +131,7 @@ If a node name is long and is being truncated, you can view its full name. From 
 
 </td><td>
 
-![Auto-fit nodes](../image/auto-fit-nodes.gif)
+\[Omitted image "auto-fit-nodes.gif"\] Alt text: Auto-fit nodes
 
 </td></tr><tr><td>
 
@@ -142,10 +143,10 @@ You can chose to hide only incoming arcs, only outgoing arcs, or both.
 
 </td><td>
 
-![Hide incoming and outgoing arcs](../image/hide-incoming-outgoing.gif)
+\[Omitted image "hide-incoming-outgoing.gif"\] Alt text: Hide incoming and outgoing arcs
 
 </td></tr></tbody>
-</table>**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](../../../use/par-for-workspace/task/configure-po-map.md).
+</table>**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-po-map.md).
 
-**Parent Topic:**[Process details page](project-view-screen.md)
+**Parent Topic:**[Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/project-view-screen.md)
 

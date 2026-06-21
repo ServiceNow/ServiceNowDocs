@@ -2,6 +2,7 @@
 title: Submit a recall order for your enterprise assets
 description: Submit a recall order to initiate the replacement, repair, or retirement of enterprise assets that have been recalled by the asset vendor. You can also choose to provide your users with additional instructions on how to operate your recalled enterprise assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/submit-recall-order.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -152,7 +153,7 @@ Additional information about the recall order.
 
 ## What to do next
 
-[Acknowledge enterprise assets in the recall order](acknowledge-recalled-assets-eam.md).
+[Acknowledge enterprise assets in the recall order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/acknowledge-recalled-assets-eam.md).
 
-**Parent Topic:**[Managing recalled enterprise assets](../concept/managing-recalled-enterprise-assets.md)
+**Parent Topic:**[Managing recalled enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/managing-recalled-enterprise-assets.md)
 

@@ -2,6 +2,7 @@
 title: Disable Zoom meeting password
 description: Disable Zoom meeting password so that you can join a Zoom meeting without any meeting password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/notify/disable-zoom-password.html
 release: yokohama
 product: Notify
 classification: notify
@@ -28,5 +29,5 @@ Role required: notify\_admin or admin
 3.  Click **Update**.
 
 
-**Parent Topic:**[Configure Notify Zoom connector in Notify](configure-notify-zoom-connector.md)
+**Parent Topic:**[Configure Notify Zoom connector in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/notify/configure-notify-zoom-connector.md)
 

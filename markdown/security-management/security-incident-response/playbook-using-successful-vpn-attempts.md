@@ -2,6 +2,7 @@
 title: Use the Successful VPN Attempts from the Service Accounts playbook
 description: Use this playbook to investigate incidents that track successful login attempts from service accounts through VPN. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Successful VPN Attempts from the Service Accounts playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/playbook-using-successful-vpn-attempts.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -32,7 +33,7 @@ Role required:
 
 3.  In Action 3, check whether the service account owner provided a valid business justification.
 
-    ![Response task to check whether the service account owner provided a valid business justification.](../image/playbook-successful-vpn-attempts-overview.png "Successful VPN Attempts from the Service Accounts - Corp/Cloud playbook")
+    \[Omitted image "playbook-successful-vpn-attempts-overview.png"\] Alt text: Response task to check whether the service account owner provided a valid business justification.
 
 4.  In Action 4, if the service account owner provided a valid business justification, perform the following steps:
 
@@ -44,7 +45,7 @@ Role required:
 
         In Action 8, after the post incident review, the flow ends.
 
-    ![Response task to check if the service account owner provided a valid business justification.](../image/playbook-successful-vpn-attempts-investigate.png "Using the Successful VPN Attempts from the Service Accounts - Corp/Cloud playbook")
+    \[Omitted image "playbook-successful-vpn-attempts-investigate.png"\] Alt text: Response task to check if the service account owner provided a valid business justification.
 
 5.  In Action 9, if the service account owner didn’t provide a valid business justification, perform the following steps:
 
@@ -63,5 +64,5 @@ Role required:
     6.  In Action 15, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Successful VPN Attempts from the Service Accounts - Corp/Cloud](../concept/playbook-successful-vpn-attempts.md)
+**Parent Topic:**[Playbook for Successful VPN Attempts from the Service Accounts - Corp/Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-successful-vpn-attempts.md)
 

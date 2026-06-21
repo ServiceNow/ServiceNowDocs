@@ -2,6 +2,7 @@
 title: Terraform account configuration fields
 description: Terraform account configuration form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/terraform-details.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
@@ -65,7 +66,7 @@ Cloud Account Management uses an email address to generate the root email ID for
 
  For example, if your root email ID is myawsaccount@example.com, the Cloud Account Management application appends a request ID to generate myawsaccount-CWSAREQ0000001@example.com.
 
- **Note:** To create a root email, see [Set up and verify root email in AWS](../task/aws-setup.md).
+ **Note:** To create a root email, see [Set up and verify root email in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/aws-setup.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Terraform URL
 
 </td><td>
 
-A default URL appears. You can customize the URL by selecting the ![Edit](../../service-mapping/image/EvalEditIcon.png) icon.
+A default URL appears. You can customize the URL by selecting the \[Omitted image "EvalEditIcon.png"\] Alt text: Edit icon.
 
 </td></tr><tr><td>
 
@@ -116,7 +117,7 @@ Description
 Option to provide a description for the Terraform account.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Create a Terraform account configuration](../task/create-terraform-account-config.md).
+</table>To return to the procedure, see [Create a Terraform account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/create-terraform-account-config.md).
 
-**Parent Topic:**[Cloud Account Management reference](cam-reference.md)
+**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/cam-reference.md)
 

@@ -2,6 +2,7 @@
 title: Document Intelligence workspace with Now Assist
 description: Use the Document Intelligence workspace to review the generative AI predictions made by Now Assist for a document. You can also flag fields and identify missing information in the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-in-document-intelligence/document-intelligence-workspace-with-now-assist.html
 release: yokohama
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -34,7 +35,7 @@ The following illustration shows the Document Intelligence workspace. The worksp
 -   4 - Document fields panel
 -   5 - Table panel
 
-![Document Intelligence workspace screenshot.](../image/docintel-na-workspace.png "Document Intelligence workspace")
+\[Omitted image "docintel-na-workspace.png"\] Alt text: Document Intelligence workspace screenshot.
 
 ## Thumbnail panel
 

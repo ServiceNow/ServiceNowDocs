@@ -2,6 +2,7 @@
 title: Exploring Upgrade Console
 description: Utilize Upgrade Console to gain a comprehensive understanding of your upgrade process and make informed decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-explore.html
 release: yokohama
 product: Upgrade Management
 classification: upgrade-management
@@ -19,11 +20,11 @@ Utilize Upgrade Console to gain a comprehensive understanding of your upgrade pr
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Upgrade Management summary![Upgrade Management summary.](../image/um-icon-summary.png)Access all the relevant information and tools required for your upgrade](um-overview.md)
+[Upgrade Management summary\[Omitted image "um-icon-summary.png"\] Alt text: Upgrade Management summary.Access all the relevant information and tools required for your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-overview.md)
 
 </td><td>
 
-[Upgrade Management guided tour![Upgrade Management guided tour.](../image/um-icon-guided-setup.png) Simplify your upgrade process with the guided setup](um-guided-tour.md)
+[Upgrade Management guided tour\[Omitted image "um-icon-guided-setup.png"\] Alt text: Upgrade Management guided tour. Simplify your upgrade process with the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-guided-tour.md)
 
 </td></tr></tbody>
 </table>You can access Upgrade Console in one of the following ways.
@@ -65,15 +66,15 @@ Using Admin tab option
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|One-stop shop experience for all relevant information for an upgrade|[Upgrade Console summary](um-overview.md)|System administrator|
-|Unfettered access to all tools required for your instance upgrade|[Upgrade Console tools](../reference/um-tools.md)|System administrator|
-|Guided setup process for your instance upgrade|[Access guided setup for Upgrade Console](../task/um-guided-tour-implement.md)|System administrator|
+|One-stop shop experience for all relevant information for an upgrade|[Upgrade Console summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-overview.md)|System administrator|
+|Unfettered access to all tools required for your instance upgrade|[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-tools.md)|System administrator|
+|Guided setup process for your instance upgrade|[Access guided setup for Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-guided-tour-implement.md)|System administrator|
 
 ## What to explore next
 
 To learn more about using Upgrade Console, see:
 
--   [Using Upgrade Console](um-using.md)
--   [Administering Upgrade Console](../reference/um-administer.md#)
--   [Upgrade Management references](../reference/um-references.md)
+-   [Using Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-using.md)
+-   [Administering Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-administer.md)
+-   [Upgrade Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-references.md)
 

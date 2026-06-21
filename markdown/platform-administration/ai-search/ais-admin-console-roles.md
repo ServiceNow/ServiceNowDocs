@@ -2,6 +2,7 @@
 title: AI Search Admin console roles
 description: Roles are associated with the AI Search Admin console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/ais-admin-console-roles.html
 release: yokohama
 product: AI Search
 classification: ai-search

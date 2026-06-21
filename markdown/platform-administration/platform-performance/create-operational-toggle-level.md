@@ -2,6 +2,7 @@
 title: Create an operational toggle level to define thresholds
 description: Create operation toggle levels so that you can define the threshold limits that your application can function within.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/create-operational-toggle-level.html
 release: yokohama
 product: Platform Performance
 classification: platform-performance

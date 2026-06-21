@@ -2,6 +2,7 @@
 title: Start a direct or group conversation
 description: You can start a conversation with one or more users in Connect Chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/connect/t\_StartAConversation.html
 release: yokohama
 product: Connect
 classification: connect
@@ -19,7 +20,7 @@ You can start a conversation with one or more users in Connect Chat.
 
 **Important:**
 
-Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US) for more information.
+Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See Next Experience UI for more information.
 
 Role required: none
 

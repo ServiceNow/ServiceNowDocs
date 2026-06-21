@@ -2,11 +2,12 @@
 title: Track sanctions-related information
 description: Track sanction-related information as part of requesting risk intelligence reports and scores by using the Third-party Risk Management application. Logging and updating sanctions-related information for third parties keeps your team informed as you conduct due diligence as part of your third-party risk program.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-riskintel-track-sanctions.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use risk intelligence reports and scores, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +28,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor that is the due diligence re
 
 3.  On the form, specify if the third party is sanctioned by selecting **Yes** or **No** and fill in the fields.
 
-    For descriptions of all these fields, see [Risk intelligence report request form](../../grc-workspace-vrm/reference/tprm-rir-form.md).
+    For descriptions of all these fields, see [Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md).
 
 4.  Select **Update**.
 

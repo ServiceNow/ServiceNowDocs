@@ -2,6 +2,7 @@
 title: Monitoring API performance
 description: Monitor the performance of your integrations with the Application Insights API metrics graphs. You can monitor how these integrations are performing over time and how those APIs perform over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/api-metrics.html
 release: yokohama
 product: Platform Performance
 classification: platform-performance
@@ -24,8 +25,8 @@ When you select the **API metrics** tab, the list of endpoints is displayed in t
 -   Payload size \(bytes\)
 -   Failure rate \(%\)
 
--   **[Configure API metrics](../task/configure-api-metrics.md)**  
+-   **[Configure API metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/configure-api-metrics.md)**  
 Configure the API metrics feature in Application Insights to enable instance administrators to proactively monitor instance performance.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/application-insights.md)
 

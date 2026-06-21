@@ -2,6 +2,7 @@
 title: Delete an event mapping
 description: Delete an event mapping that you no longer need in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/ui-builder/delete-event-mapping.html
 release: yokohama
 product: UI Builder
 classification: ui-builder
@@ -25,26 +26,26 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/create-page.md).
 
 4.  Select a component with a preset configured.
 
 5.  Select the **Events** tab in the configuration panel.
 
-    ![Arrow pointing to the Events tab in the configuration panel.](../image/delete-event-mapping-events-tab.png)
+    \[Omitted image "delete-event-mapping-events-tab.png"\] Alt text: Arrow pointing to the Events tab in the configuration panel.
 
-6.  Select the delete all icon \(![Delete icon.](../image/uib-delete-event-mapping-icon.png)\) next to the event you want to delete.
+6.  Select the delete all icon \(\[Omitted image "uib-delete-event-mapping-icon.png"\] Alt text: Delete icon.\) next to the event you want to delete.
 
-    ![Arrow pointing to the trash button used to delete an event mapping.](../image/delete-event-mapping-trash.png)
+    \[Omitted image "delete-event-mapping-trash.png"\] Alt text: Arrow pointing to the trash button used to delete an event mapping.
 
 7.  The event mapping is removed from the associated component.
 
-    ![Event mapping removed from the component.](../image/uib-delete-event-mapping-result.png)
+    \[Omitted image "uib-delete-event-mapping-result.png"\] Alt text: Event mapping removed from the component.
 
 
-**Parent Topic:**[Manage actions in UI Builder pages](../concept/work-events.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-events.md)
 

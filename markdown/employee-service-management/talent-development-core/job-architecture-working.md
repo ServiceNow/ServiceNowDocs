@@ -2,6 +2,7 @@
 title: Working with job architecture
 description: Create, update or modify skills and job architecture data from a single location in the Skills Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/job-architecture-working.html
 release: yokohama
 product: Talent Development Core
 classification: talent-development-core
@@ -15,14 +16,14 @@ breadcrumb: [Skills Workspace, Exploring Skills Foundation, Skills Foundation, T
 
 Create, update or modify skills and job architecture data from a single location in the Skills Workspace.
 
--   **[Creating a new role group through the Skills Workspace](../task/create-new-role-group.md)**  
+-   **[Creating a new role group through the Skills Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/create-new-role-group.md)**  
 Add a new role group in the Skills Workspace to create a category of roles in your organization.
--   **[Add more skills to a role group](../task/adding-skills-with-skills-matrix.md)**  
+-   **[Add more skills to a role group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/adding-skills-with-skills-matrix.md)**  
 Add new skills at each role level in a role group that were not added when creating the role group using the Skills Matrix in the Skills Workspace.
--   **[Edit skills and proficiencies in the Skills Matrix](../task/edit-skills-with-skills-matrix.md)**  
+-   **[Edit skills and proficiencies in the Skills Matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/edit-skills-with-skills-matrix.md)**  
 Edit skills data and their proficiency levels to manage the progression at each role level in a role group using the Skills Matrix in the Skills Workspace.
--   **[Create related role groups](../task/related-role-groups.md)**  
+-   **[Create related role groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/related-role-groups.md)**  
 Create a connection between two different role groups in the Skills Workspace to enable a transition path for the employees to move across different role groups.
 
-**Parent Topic:**[Talent Development](../../employee-service-management/concept/egd-employee-growth-development-suite.md)
+**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

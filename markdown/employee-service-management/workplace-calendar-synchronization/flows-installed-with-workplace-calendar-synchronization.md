@@ -2,6 +2,7 @@
 title: Flows installed with Workplace Calendar Synchronization
 description: Below are the flows that run on different timelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-calendar-synchronization/flows-installed-with-workplace-calendar-synchronization.html
 release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

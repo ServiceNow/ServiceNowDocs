@@ -2,6 +2,7 @@
 title: Jumpstart Your Document Intelligence
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Document Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-document-intelligence.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -21,7 +22,7 @@ Jumpstart Your Document Intelligence provides Impact customers with an overview 
 
 **Attention**: This is a separate functionality from Now Assist in Document Intelligence which is not included in this engagement.
 
-For more information on Document Intelligence, see [Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+For more information on Document Intelligence, see .
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 

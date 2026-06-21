@@ -2,7 +2,10 @@
 title: Instance Observer home page
 description: The Home page provides a snapshot of the overall health of your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/instance-observer-home-page.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Access valuable insights into instance availability, basic datacenter informatio
 
 Navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Instance Observer**.
 
-![IO Homepage](../image/io-homepage.png)
+\[Omitted image "io-homepage.png"\] Alt text: IO Homepage
 
 **Note:** Instance Observer **Alerts** support is only available for Advanced and Total packages of ServiceNow Impact.
 

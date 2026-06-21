@@ -2,6 +2,7 @@
 title: Configure Cornerstone for external content indexing
 description: Create and authorize an OAuth 2.0 application in the Cornerstone to allow the Cornerstone external content connector to access your Cornerstone source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-cornerstone-external-content-indexing.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ Role required: none
 
 The Cornerstone external content connector retrieves  from  in your Cornerstone source system using the Cornerstone REST API.
 
-To allow the connector to access your Cornerstone source system via the REST API, you must configure and authorize an OAuth 2.0 application in Cornerstone OnDemand. Your connector admin can use settings copied from the OAuth 2.0 application and its  to configure the Cornerstone external connector for proper connection to your source system.
+To allow the connector to access your Cornerstone source system via the REST API, you must configure and authorize an OAuth 2.0 application in Cornerstone OnDemand. Your connector administrator can use settings copied from the OAuth 2.0 application and its  to configure the Cornerstone external connector for proper connection to your source system.
 
 ## Procedure
 
@@ -42,19 +43,19 @@ To allow the connector to access your Cornerstone source system via the REST API
 
     2.  
 
-        **Important:** Your external content connector admin needs this  when configuring the Cornerstone external content connector.
+        **Important:** Your external content connector administrator needs this  when configuring the Cornerstone external content connector.
 
 
 ## What to do next
 
-Provide the following items to your connector admin:
+Provide the following items to your connector administrator:
 
 -   
 -   
 
-Your connector admin needs these items to configure a Cornerstone external content connector to retrieve Catalogue and Learning objects from your Cornerstone source system.
+Your connector administrator needs these items to configure a Cornerstone external content connector to retrieve Catalogue and Learning objects from your Cornerstone source system.
 
-For details on creating and configuring a Cornerstone external content connector, see [Create a Cornerstone external content connector](create-ext-cont-connector-cornerstone.md).
+For details on creating and configuring a Cornerstone external content connector, see [Create a Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-cornerstone.md).
 
-**Parent Topic:**[Cornerstone external content connector](cornerstone-external-content-connector.md)
+**Parent Topic:**[Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/cornerstone-external-content-connector.md)
 

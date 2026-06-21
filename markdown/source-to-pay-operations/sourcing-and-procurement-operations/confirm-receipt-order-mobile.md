@@ -2,6 +2,7 @@
 title: Confirm receipt of your order from your mobile device
 description: Provide confirmation of receipt of the items you ordered that are in pending receipt state, from your mobile application, so that payment is processed to the supplier accordingly. If you have not received the complete order, you can confirm receipt of a part of your order as well with the date when you received them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/confirm-receipt-order-mobile.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -33,15 +34,15 @@ Role required: sn\_shop.shopper
 
 5.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d31163e86">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d33449e86">
 
 Action
 
-</th><th align="left" id="d31163e89">
+</th><th align="left" id="d33449e89">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d31163e95">
+</th></tr></thead><tbody><tr><td id="d33449e95">
 
 **Received**
 
@@ -53,7 +54,7 @@ Swipe left on the line item, and select **Received** to confirm receipt of the s
 -   **Date received**: Date when you received the items.
 
 
-</td></tr><tr><td id="d31163e126">
+</td></tr><tr><td id="d33449e126">
 
 **Received \(Details screen\)**
 
@@ -71,5 +72,5 @@ Tap on the line item to view the Details screen with the list of all the items p
 6.  Tap the Next icon.
 
 
-**Parent Topic:**[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

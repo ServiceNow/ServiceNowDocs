@@ -2,6 +2,7 @@
 title: Create or edit an EVAM view definition
 description: Create or edit an Entity View Action Mapper \(EVAM\) view definition in the AI Search Admin console to customize how your AI Search results are displayed in the portal or workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/ais-admin-console-evam-configurations.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -33,7 +34,7 @@ An EVAM is a data source type tool that helps standardize how data is displayed 
 
     The result-card Interface shows the EVAM definition if it’s already configured. You can modify the existing EVAM definition or if you’re configuring your application for the first time, you can add a new EVAM definition. For more information, see step 4.
 
-    ![Result-card interface of the search application in the AI Search Admin console where you can change the EVAM definition if needed.](../image/evam-definition-ais.png)
+    \[Omitted image "evam-definition-ais.png"\] Alt text: Result-card interface of the search application in the AI Search Admin console where you can change the EVAM definition if needed.
 
 4.  Update an existing EVAM definition or add a new definition.
 
@@ -41,7 +42,7 @@ An EVAM is a data source type tool that helps standardize how data is displayed 
     -   To add a new EVAM definition and configure the result-card interface for the first time, select **Choose**.
     1.  Create or update an EVAM definition for the result-card interface.
 
-        ![Choose result card interface dialog box in the AI Search Admin console, where you can either select an existing result card interface or create a new interface for the search application.](../image/result-crad-interface-for-evam-definitin.png)
+        \[Omitted image "result-crad-interface-for-evam-definitin.png"\] Alt text: Choose result card interface dialog box in the AI Search Admin console, where you can either select an existing result card interface or create a new interface for the search application.
 
 <table id="table_rq1_hrd_1dc"><thead><tr><th>
 
@@ -76,21 +77,21 @@ Add a new result-card interface for your search application
 
 5.  From the Select a bundle to edit list, select an EVAM configuration bundle.
 
-    You can link more bundles to the selected EVAM definition by selecting **Advanced configuration**. For more information, see [Create an EVAM definition](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+    You can link more bundles to the selected EVAM definition by selecting **Advanced configuration**. For more information, see .
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
 6.  Manage the EVAM view configuration.
 
-<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d374945e252">
+<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d87756e251">
 
 Option
 
-</th><th align="left" id="d374945e255">
+</th><th align="left" id="d87756e254">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d374945e261">
+</th></tr></thead><tbody><tr><td id="d87756e260">
 
 **Create an EVAM view configuration**
 
@@ -100,26 +101,26 @@ Procedure
 2.  In the Create new view config dialog box, review the auto-populated values, and then select **Create**.
 
 
-</td></tr><tr><td id="d374945e285">
+</td></tr><tr><td id="d87756e284">
 
 **Edit the existing EVAM view configuration**
 
 </td><td>
 
 1.  From the View configs list, identify an EVAM view configuration that you want to edit.
-2.  Select the More Actions icon \(![](../../localization-framework/image/more-actions-icon.png)\) and then select **Edit**.
+2.  Select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and then select **Edit**.
 
 
 </td></tr></tbody>
 </table>7.  On the form, fill in the fields.
 
-    For a description of the field values, see [Edit view config form](../reference/ais-edit-view-config-form.md).
+    For a description of the field values, see [Edit view config form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-edit-view-config-form.md).
 
 8.  In the Preview Card section, review the auto-generated JSON to verify the edits that you made to the view configuration.
 
     The following example shows the Edit view config form that helps you review the layout of your result-card interface in the Preview Card section.
 
-    ![Edit view config form showing the preview card.](../image/edit-view-config1.png "Edit view config form")
+    \[Omitted image "edit-view-config1.png"\] Alt text: Edit view config form showing the preview card.
 
 9.  Select **Save**.
 
@@ -130,7 +131,7 @@ Changes made to search result EVAM cards take effect immediately in AI Search ap
 
 ## What to do next
 
-After creating a view configuration, you must activate it. For more information, see [Activate or deactivate an EVAM view configuration](enable-evam-config-ais-admin-console.md).
+After creating a view configuration, you must activate it. For more information, see [Activate or deactivate an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/enable-evam-config-ais-admin-console.md).
 
-**Parent Topic:**[Customizing the result-card interface in AI Search by using EVAM](../concept/ais-admin-console-managing-evam.md)
+**Parent Topic:**[Customizing the result-card interface in AI Search by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-admin-console-managing-evam.md)
 

@@ -2,6 +2,7 @@
 title: Use Agent assist to view associated claims
 description: Use the Agent assist contextual search to view associated claims and relevant knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/use-agent-assist-to-view-associated-claims.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims
@@ -27,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative, sn\_ins\_claim\_cml.aut
 
 3.  Open the task from the case playbook or the Commercial auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d95044e75">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d100166e75">
 
 Option
 
-</th><th align="left" id="d95044e78">
+</th><th align="left" id="d100166e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d95044e84">
+</th></tr></thead><tbody><tr><td id="d100166e84">
 
 **From the case playbook**
 
@@ -45,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d95044e108">
+</td></tr><tr><td id="d100166e108">
 
 **From the Commercial auto claim adjuster tasks list**
 
@@ -58,6 +59,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon to use the feature.
 
-    For more detailed information about Agent assist, refer to[Finding solutions using Agent assist](https://www.servicenow.com/docs/access?context=agent-assist&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+    For more detailed information about Agent assist, refer toFinding solutions using Agent assist.
 
 

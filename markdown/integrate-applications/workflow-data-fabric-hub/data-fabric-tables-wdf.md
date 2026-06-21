@@ -2,6 +2,7 @@
 title: Data fabric tables
 description: Fuel your AI agents and enrich workflows on the ServiceNow AI Platform with external data using data fabric tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/data-fabric-tables-wdf.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -25,7 +26,7 @@ A data fabric table is a virtual representation of data stored in an external so
 
 Access to a data fabric table is controlled the same way access is controlled to a physical table. Data fabric tables belong to the application scope selected by the data steward during their creation.
 
-![A list of your data fabric tables.](../image/wdf-data-fabric-table.png "Data fabric tables in Workflow Data Fabric Hub")
+\[Omitted image "wdf-data-fabric-table.png"\] Alt text: A list of your data fabric tables.
 
 ## Required ServiceNow AI Platform roles
 
@@ -66,13 +67,13 @@ View a list of all the data fabric tables that data stewards have created on the
 
 -   **Analyzing data and generating AI-guided insights using AI Data Explorer**
 
-    Create visualizations and analyses of fetched data through a conversational interface in AI Data Explorer. For more information, see [Use AI to explore data with AI Data Explorer](https://www.servicenow.com/docs/access?context=now-assist-explorer&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+    Create visualizations and analyses of fetched data through a conversational interface in AI Data Explorer. For more information, see .
 
-    **Note:** You must first add the relevant data fabric tables to the Semantic Table Configuration \[sn\_query\_gen\_table\_config\] table in Query Generation. See [Add a table to the semantic data layer](https://www.servicenow.com/docs/access?context=add-table-semantic-layer&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+    **Note:** You must first add the relevant data fabric tables to the Semantic Table Configuration \[sn\_query\_gen\_table\_config\] table in Query Generation. See .
 
 -   **Enhancing the performance of AI experiences using the Knowledge Graph**
 
-    Enhance the performance of Now Assist Virtual Agent, AI agents, and generative AI skills by leveraging data fabric tables in the Knowledge Graph application. For more information, see [Knowledge Graph](https://www.servicenow.com/docs/access?context=knowledge-graph-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+    Enhance the performance of Now Assist Virtual Agent, AI agents, and generative AI skills by leveraging data fabric tables in the Knowledge Graph application. For more information, see .
 
 
 ## Differences between data fabric tables and remote tables

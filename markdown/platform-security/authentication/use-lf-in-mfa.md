@@ -2,6 +2,7 @@
 title: Use Location Filter in MFA Context
 description: Use the location filter criteria created in MFA Context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/use-lf-in-mfa.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -29,7 +30,7 @@ The following procedure describes on how to create a Location Filter with the co
 
 2.  On the **MFA Context** page, select the **Step-Up MFA Policy** information icon and open the record.
 
-    ![MFA record](../images/location-mfa.png)
+    \[Omitted image "location-mfa.png"\] Alt text: MFA record
 
 3.  On the Step-Up MFA Policy page, under the Policy Inputs tab, select **New**.
 
@@ -37,13 +38,13 @@ The following procedure describes on how to create a Location Filter with the co
 
     For example, you want to display MFA for users logging in to the instance outside Australia.
 
-    ![Location Filter for MFA](../images/location-based-mfa.png)
+    \[Omitted image "location-based-mfa.png"\] Alt text: Location Filter for MFA
 
 5.  On the Step-Up MFA Policy page, select the Policy Conditions tab and select **New**.
 
 6.  In the Conditions page, provide the label, conditions, and set it to true.
 
-    ![Condition for MFA](../images/conditions-mfa.png)
+    \[Omitted image "conditions-mfa.png"\] Alt text: Condition for MFA
 
 7.  Select **Submit**.
 

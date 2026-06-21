@@ -2,6 +2,7 @@
 title: Exclude Field Service agents from being assigned work order tasks
 description: Exclude Field Service agents from being assigned work order tasks with dynamic scheduling, or Schedule Optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -19,7 +20,7 @@ Exclude Field Service agents from being assigned work order tasks with dynamic s
 
 Role required: wm\_dispatcher, wm\_manager, wm\_admin
 
-If you’re using Technician Preferences for dynamic scheduling, then you must have the **Ignore Excluded Technician** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to ignore excluded technicians](prevent-excluded-agents.md).
+If you’re using Technician Preferences for dynamic scheduling, then you must have the **Ignore Excluded Technician** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to ignore excluded technicians](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/prevent-excluded-agents.md).
 
 ## Procedure
 
@@ -38,5 +39,5 @@ If you’re using Technician Preferences for dynamic scheduling, then you must h
 7.  Select **Update**.
 
 
-**Parent Topic:**[Manage work order tasks](../../planning-and-policy/concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

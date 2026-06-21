@@ -2,13 +2,14 @@
 title: Configure Partner Relationship Management
 description: Install the PRM \(com.snc.partner\_relationship\_management\) application from ServiceNow Store to enable enterprises to hire partners and improve their sales cycles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/configure-partner-relationship-management.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
-breadcrumb: [Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Partner Relationship Management
@@ -31,7 +32,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Install Partner Relationship Management](../task/install-partner-relationship-management.md)
+[Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/install-partner-relationship-management.md)
 
 </td><td>
 
@@ -43,7 +44,7 @@ admin
 
 </td></tr><tr><td>
 
-[Roles and components of Partner Relationship Management](roles-and-components-of-partner-relationship-management.md)
+[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/roles-and-components-of-partner-relationship-management.md)
 
 </td><td>
 
@@ -55,7 +56,7 @@ admin
 
 </td></tr><tr><td>
 
-[Data model for Partner Relationship Management](data-model-for-partner-relationship-management.md)
+[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/data-model-for-partner-relationship-management.md)
 
 </td><td>
 

@@ -1,7 +1,8 @@
 ---
-title: Events related to the Listening Posts surveys on User Experience Analytics dashboard
-description: The User Experience Analytics dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
+title: Events related to the Listening Posts surveys on Usage Insights dashboard
+description: The Usage Insights dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/lp-user-exp-analytics-events.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -11,17 +12,17 @@ reading_time_minutes: 3
 breadcrumb: [User Experience for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
-# Events related to the Listening Posts surveys on User Experience Analytics dashboard
+# Events related to the Listening Posts surveys on Usage Insights dashboard
 
-The User Experience Analytics dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
+The Usage Insights dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
 
-You can evaluate the successful and unsuccessful attempts of an employee related to the Listening Posts My survey and Take survey widgets by viewing two related events on the User Experience Analytics dashboard: Successful submissions at survey response and Unsuccessful attempts at survey response. For example, understanding the average time taken by an employee to respond to a survey, or view the number of resignations in the survey process could help you evaluate how to improve the design of future surveys or indicate whether more encouragement is needed to increase employee participation.
+You can evaluate the successful and unsuccessful attempts of an employee related to the Listening Posts My survey and Take survey widgets by viewing two related events on the Usage Insights dashboard: Successful submissions at survey response and Unsuccessful attempts at survey response. For example, understanding the average time taken by an employee to respond to a survey, or view the number of resignations in the survey process could help you evaluate how to improve the design of future surveys or indicate whether more encouragement is needed to increase employee participation.
 
 ## Successful submissions at survey response
 
 On Listening Posts survey widgets, the Successful submissions event indicates that the users have attempted the survey and were able submit it without any difficulty. The following image shows the dashboard charts that display employee interactions on the widgets as actions on the associated properties.
 
-![User Experience Analytics dashboard - Successful submission.](../image/lp-analytics-appsee-succ-submit.png "User Experience Analytics dashboard")
+\[Omitted image "lp-analytics-appsee-succ-submit.png"\] Alt text: User Experience Analytics dashboard - Successful submission.
 
 -   Distribution of time spent.
 
@@ -52,7 +53,7 @@ On Listening Posts survey widgets, the Successful submissions event indicates th
 
 On Listening Posts survey widgets, the Unsuccessful attempts event indicates that the users have attempted the survey but were not able complete it or submit it. The following image shows the dashboard charts that display employee interactions on the widgets as actions on the associated properties.
 
-![User Experience Analytics dashboard - Unsuccessful attempts.](../image/lp-analytics-appsee-unsucc-attempt.png "User Experience Analytics dashboard")
+\[Omitted image "lp-analytics-appsee-unsucc-attempt.png"\] Alt text: User Experience Analytics dashboard - Unsuccessful attempts.
 
 An attempt is defined by the actions performed in any of the following three properties: Distribution of time spent, Attempts to rate, and Attempts to comment.
 
@@ -77,5 +78,5 @@ An attempt is defined by the actions performed in any of the following three pro
     The percentage of unsuccessful attempts distributed across the Listening Posts My survey and Take survey widgets.
 
 
-**Parent Topic:**[User Experience for HR Service Delivery](user-exp-hrser.md)
+**Parent Topic:**[User Experience for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/user-exp-hrser.md)
 

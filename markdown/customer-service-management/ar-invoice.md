@@ -2,7 +2,10 @@
 title: Accounts Receivable \(AR\) invoice table
 description: The AR invoice \(sn\_otc\_invoice\) table stores the invoice data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ar-invoice.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 5

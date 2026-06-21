@@ -2,6 +2,7 @@
 title: Use Response templates in an email
 description: Use response templates as reusable messages that you can copy and paste into an email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/agent-ws-response-template-email.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,11 +24,11 @@ Role required: sn\_hr\_core.case\_writer
 
 1.  From the **Details** tab of an HR case, select the **More Actions** button then select **Compose Email**.
 
-    ![Compose email from More Actions](../image/agent-ws-hr-compose-email.png)
+    \[Omitted image "agent-ws-hr-compose-email.png"\] Alt text: Compose email from More Actions
 
-2.  From the New Email Draft tab, click the Response Templates icon \(![Response template icon](../reference/images/response-template-icon.png)\).
+2.  From the New Email Draft tab, click the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\).
 
-    ![HR Agent WS - Email using Response Template](../image/agent-ws-hr-resp-temp-email.png)
+    \[Omitted image "agent-ws-hr-resp-temp-email.png"\] Alt text: HR Agent WS - Email using Response Template
 
 3.  Open the response template, copy, and paste the text into the body of the email.
 

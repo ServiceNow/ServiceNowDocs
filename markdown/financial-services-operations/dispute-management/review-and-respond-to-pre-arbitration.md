@@ -2,6 +2,7 @@
 title: Review and respond to a pre-arbitration request
 description: Review and respond to the pre-arbitration request created by the acquirer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/review-and-respond-to-pre-arbitration.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ The acquirer might choose to initiate pre-arbitration. You can review and respon
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -49,15 +50,15 @@ The acquirer might choose to initiate pre-arbitration. You can review and respon
 
 10. In the **Pre arbitration outcome** drop-down, select one of the options.
 
-<table id="choicetable_hxf_hdv_n2c"><thead><tr><th align="left" id="d63030e172">
+<table id="choicetable_hxf_hdv_n2c"><thead><tr><th align="left" id="d48138e172">
 
 Option
 
-</th><th align="left" id="d63030e175">
+</th><th align="left" id="d48138e175">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d63030e181">
+</th></tr></thead><tbody><tr><td id="d48138e181">
 
 **Resolved**
 
@@ -67,7 +68,7 @@ Decide whether to reverse provisional credit using the **Reverse provisional cre
 
  As a result, the issuer accepts the pre-arbitration request of the acquirer. It reverses provisional credit or convert provisional credit to final credit.
 
-</td></tr><tr><td id="d63030e212">
+</td></tr><tr><td id="d48138e212">
 
 **Unresolved**
 
@@ -87,7 +88,7 @@ After the request executes successfully, the transaction state changes to **Awai
 
 ## What to do next
 
-You can recall the request if you're within three days from the submission date and you haven't received a response yet. To recall the request, select **Recall**. When an arbitration case filing is received, the **Incoming arbitration received** value changes to **Yes** and the transaction state moves to **Work to Progress**. The next activity [Review incoming case filing and appeal](review-incoming-case-filing-and-appeal.md) is displayed.
+You can recall the request if you're within three days from the submission date and you haven't received a response yet. To recall the request, select **Recall**. When an arbitration case filing is received, the **Incoming arbitration received** value changes to **Yes** and the transaction state moves to **Work to Progress**. The next activity [Review incoming case filing and appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/review-incoming-case-filing-and-appeal.md) is displayed.
 
-**Parent Topic:**[Allocation dispute workflow](../concept/allocation-dispute-work-flow.md)
+**Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
 

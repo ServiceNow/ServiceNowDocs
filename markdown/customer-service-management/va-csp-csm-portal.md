@@ -2,7 +2,10 @@
 title: Using Virtual Agent in Customer and Consumer Service Portals
 description: The ServiceNow Virtual Agent platform offers user assistance through an intelligent messaging interface that helps you to deliver conversational support when integrated into your Customer and Consumer Service Portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/va-csp-csm-portal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -21,5 +24,5 @@ With Virtual Agent, you can offer continuous support, improve response times, an
 
 ## Activation
 
-Virtual Agent activates automatically when you enable it for Customer Service Management \(CSM\). Once activated, by default it integrates seamlessly with your CSM and CSP portals. For more information, see [Activate Virtual Agent for CSM](../task/activate-virtual-agent-csm.md).
+Virtual Agent activates automatically when you enable it for Customer Service Management \(CSM\). Once activated, by default it integrates seamlessly with your CSM and CSP portals. For more information, see [Activate Virtual Agent for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-virtual-agent-csm.md).
 

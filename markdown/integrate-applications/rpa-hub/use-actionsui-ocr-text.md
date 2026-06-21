@@ -2,6 +2,7 @@
 title: Use the OCR Text component
 description: Extract the text from an image by using the OCR \(Optical Character Recognition\) Text component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-actionsui-ocr-text.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -25,7 +26,7 @@ Role required: none
 
 Starting with the Yokohama release, the RPA Desktop Design Studio utilizes the latest version of the Tesseract OCR engine. This update improves image pre-processing, and performance optimizations. When updating older automations that include the OCR text component, you may notice slight differences in the output. Therefore, it’s important to validate your automations after the update.
 
-Many properties of the OCR Text component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](../reference/properties-actions-ui-components.md).
+Many properties of the OCR Text component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/properties-actions-ui-components.md).
 
 The properties unique to the OCR Text component are given.
 
@@ -39,7 +40,7 @@ The properties unique to the OCR Text component are given.
 
 2.  Drag the OCR Text component to the Design surface.
 
-3.  To configure the settings, click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
+3.  To configure the settings, click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
 
     The component has default settings that you may review and use.
 
@@ -62,9 +63,9 @@ The properties unique to the OCR Text component are given.
 
 5.  To close the OCR Settings window, click **OK**.
 
-6.  To configure the input, see [Configure port properties](configure-input-port-properties.md).
+6.  To configure the input, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
-7.  To configure the output, see [Configure output port properties](configure-output-port-properties.md).
+7.  To configure the output, see [Configure output port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-output-port-properties.md).
 
 8.  Connect the ports as described in the following table.
 
@@ -156,9 +157,9 @@ Returns the extracted text accuracy figure.
 
 ## Extract text from images and display with the Show component
 
-![Extract text from image and display with the Show component.](../image/OCR_Text_Filepath_2.PNG)
+\[Omitted image "OCR\_Text\_Filepath\_2.PNG"\] Alt text: Extract text from image and display with the Show component.
 
-The OCR Text component takes a path to an image. The image comprises the text "servicenow". The component extracts the text from the image and passes the string to the Show component \(To use the Show component, see [Use the Show component](use-general-messagebox-show.md)\). The Show component takes the text through the Message Data In port and then displays the text in a window.
+The OCR Text component takes a path to an image. The image comprises the text "servicenow". The component extracts the text from the image and passes the string to the Show component \(To use the Show component, see [Use the Show component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/use-general-messagebox-show.md)\). The Show component takes the text through the Message Data In port and then displays the text in a window.
 
-**Parent Topic:**[Actions \(UI\)](../concept/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/actions-ui.md)
 

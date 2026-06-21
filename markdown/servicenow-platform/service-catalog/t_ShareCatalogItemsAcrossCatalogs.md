@@ -2,6 +2,7 @@
 title: Share catalog items across catalogs
 description: You can share a catalog item, enabling users to order that item from different catalogs. For example, you can share a Password Reset item across catalogs serving different teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/t\_ShareCatalogItemsAcrossCatalogs.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
@@ -31,14 +32,14 @@ To share a catalog item across several catalogs:
 
 3.  Select the additional catalogs for that item in the **Catalogs** field.
 
-    ![](../image/ShareCatalogItemsAcrossCatalogs1.png "Shared Catalog Item")
+    \[Omitted image "ShareCatalogItemsAcrossCatalogs1.png"\] Alt text:
 
-    ![](../image/ShareCatalogItemsAcrossCatalogs2.png)
+    \[Omitted image "ShareCatalogItemsAcrossCatalogs2.png"\] Alt text:
 
 4.  Select **Update**.
 
     The shared item then appears in the Catalog Items related list for each catalog selected.
 
 
-**Parent Topic:**[Add a catalog item](t_AssignItemToAddlCatalogsCategory.md)
+**Parent Topic:**[Add a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/t_AssignItemToAddlCatalogsCategory.md)
 

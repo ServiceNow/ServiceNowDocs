@@ -2,6 +2,7 @@
 title: Add Employee Center to the Now Assist in Virtual Agent display experience
 description: Enable Now Assist in Virtual Agent to appear in the Employee Center so you can converse with AI agents during a process that's facilitated by an agentic workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/enable-na-va-ec.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -42,5 +43,5 @@ Role required: admin
 7.  Select **Save and continue**.
 
 
-**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](../concept/onboarding-ramp-up-plan-agentic-wf.md)
+**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/onboarding-ramp-up-plan-agentic-wf.md)
 

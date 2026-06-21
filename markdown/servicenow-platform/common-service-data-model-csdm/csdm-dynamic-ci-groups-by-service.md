@@ -2,6 +2,7 @@
 title: Matching the usage of dynamic CI groups to service type
 description: The type of service determines how you use dynamic CI groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -31,7 +32,7 @@ You can group up to 10,000 similar items that are associated with a technology m
 -   CIs that make up a service instance
 -   CIs that share a particular support group
 
-The **Service Classification** attribute identifies the service as a technology management service. The ownership sync process assigns CI ownership through the technology management service, as described in [Synchronizing group assignment attributes](csdm-data-synchronize.md).
+The **Service Classification** attribute identifies the service as a technology management service. The ownership sync process assigns CI ownership through the technology management service, as described in [Synchronizing group assignment attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize.md).
 
 ## Dynamic CI groups for service instances
 
@@ -39,14 +40,14 @@ For a service instance \(formerly application service\), impact analysis outcome
 
 The **Service Classification** attribute identifies the service as a service instance.
 
-See [Populate an application service using the Dynamic CI Group method](../../configuration-management/task/populate-app-service-dynamic-group.md).
+See [Populate an application service using the Dynamic CI Group method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md).
 
--   **[Synchronizing group assignment attributes](csdm-data-synchronize.md)**  
+-   **[Synchronizing group assignment attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize.md)**  
 To empower a particular user group to manage a collection of CIs or CI classes, set group assignment attributes through the Technical service offering or the CI Class Manager. The operation synchronizes the group attribute data across all CIs that belong to the specified CI class or groups of CIs.
--   **[Set the group for a CI or an entire class of CIs](../task/csdm-data-synchronize-enable.md)**  
+-   **[Set the group for a CI or an entire class of CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize-enable.md)**  
 Synchronize group assignment attributes on entire CI classes and individual CIs using the CI Class Manager.
--   **[Synchronize user groups for a technology management offering](../task/csdm-enable-tso.md)**  
+-   **[Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md)**  
 Synchronize group assignment attributes on entire CI classes and individual CIs in a technical service offering.
 
-**Parent Topic:**[Managing the CSDM framework](csdm-content-frame-using.md)
+**Parent Topic:**[Managing the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-using.md)
 

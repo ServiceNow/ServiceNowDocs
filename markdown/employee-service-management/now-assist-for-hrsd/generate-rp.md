@@ -2,6 +2,7 @@
 title: Generate a fulfillment plan
 description: Auto-generate a fulfillment/execution plan for a case, helping in faster resolution of the HR case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/generate-rp.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -40,10 +41,10 @@ You can generate a case fulfillment plan from either Core UI or Agent Workspace 
     -   Type **Approve** to publish the AI-generated fulfillment plan to the work notes of the case.
     -   Type **Modify** to add prompts for refining the AI-generated fulfillment plan.
     -   Type **Reject** to discard the AI-generated fulfillment plan.
-    ![Fulfillment plan for an HR case on Core UI](../image/generate-plan-ckm.png "Example of AI-generated fulfillment plan on Core UI")
+    \[Omitted image "generate-plan-ckm.png"\] Alt text: Fulfillment plan for an HR case on Core UI
 
 
 
 
-**Parent Topic:**[Resolve HR cases agentic workflow](../concept/employee-issue-resolver-na.md)
+**Parent Topic:**[Resolve HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/employee-issue-resolver-na.md)
 

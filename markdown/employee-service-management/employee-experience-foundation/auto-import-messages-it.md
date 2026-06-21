@@ -2,6 +2,7 @@
 title: Configure Request-based chats to import messages from Microsoft Teams to ServiceNow
 description: Configure request-based chats for IT Service Management integration with Microsoft Teams and HR Service Delivery integration with Microsoft Teams applications enable the system to auto import the chat conversations between the agents and the employees.Create a chat configuration to automatically import the chats between the agents and the requesters for additional tables to extend the auto import functionality.Create a requester mapping to extend the auto-import functionality to other tables.Configure the condition to exclude the chat conversation from auto importing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/auto-import-messages-it.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,7 +27,7 @@ If you are installing the ServiceNow for Microsoft Teams in your environment, th
 -   Request \(sc\_request\)
 -   Change request \(change\_request\)
 
-The admin can extend the auto import feature to the other tables as required. For more information see, [Create requester mapping](../task/create-requester-mapping.md).
+The admin can extend the auto import feature to the other tables as required. For more information see, [Create requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/create-requester-mapping.md).
 
 **Note:** You must manually enable the auto import feature.
 
@@ -48,7 +49,7 @@ The system executes a maximum of 10,000 sub-flows to import the chats for an int
 
 If the system reaches the limit, a message is displayed to the agent that the system level is reached and the chat can’t be auto imported on the **Start Microsoft Teams Chat** modal.
 
-![System limit reached.](../images/system-limit-reached.png)
+\[Omitted image "system-limit-reached.png"\] Alt text: System limit reached.
 
 When the ticket is closed, the system will trigger auto import for one last time posts the new messages in the Work notes \(Chat history\).
 
@@ -56,7 +57,7 @@ If there is an interaction record associated with the parent record then interac
 
 If you want to continue using the default configuration, you can skip the following procedures to extend the auto-import functionality. However, if you want to extend the auto-import functionality to other tables, perform the steps mentioned in the topics below.
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md)
 
 ## Configure the chat to enable auto-import
 
@@ -70,11 +71,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **ServiceNow for Microsoft 365** &gt; **Chat Administration** &gt; **Chat Configuration**.
 
-    ![Chat configuration](../images/chat-configuration.png)
+    \[Omitted image "chat-configuration.png"\] Alt text: Chat configuration
 
 2.  Click **Default** option to view the default OOB configuration.
 
-    ![Default chat configuration](../images/default-chat-configuration.png)
+    \[Omitted image "default-chat-configuration.png"\] Alt text: Default chat configuration
 
     **Note:** If you want to auto-import chats for certain conditions, create a condition.
 
@@ -82,7 +83,7 @@ Role required: admin
 
 4.  Click **New**.
 
-    ![New chat configuration](../images/new-chat-configuration.png)
+    \[Omitted image "new-chat-configuration.png"\] Alt text: New chat configuration
 
 5.  On the form, fill the fields.
 
@@ -177,7 +178,7 @@ Option to provide a text message that displays to the agent when the agent initi
  This field is enabled only if the **Auto Import** option is selected.
 
 </td></tr></tbody>
-</table>    ![New chat configuration](../images/new-chat-configuration-2.png)
+</table>    \[Omitted image "new-chat-configuration-2.png"\] Alt text: New chat configuration
 
 6.  Click **Submit**.
 
@@ -204,7 +205,7 @@ A requestor-mapping record defines which field, in any given table, is the field
 
 2.  Click **New**.
 
-    ![Requestor mapping](../images/requester-mapping.png)
+    \[Omitted image "requester-mapping.png"\] Alt text: Requestor mapping
 
 3.  On the form, fill in the fields.
 
@@ -236,7 +237,7 @@ Alternately, to adhere to platform standards, consider adding an active field to
 
 **Important:**
 
-If you are creating a close condition for a new table, ensure to create business rule for close condition. For more information, see [Configure business rule for close condition](../task/business-rule-close-condition.md).
+If you are creating a close condition for a new table, ensure to create business rule for close condition. For more information, see [Configure business rule for close condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/business-rule-close-condition.md).
 
 ### Procedure
 
@@ -244,7 +245,7 @@ If you are creating a close condition for a new table, ensure to create business
 
 2.  Click **New**.
 
-    ![Configure close condition](../images/configure-close-condition.png)
+    \[Omitted image "configure-close-condition.png"\] Alt text: Configure close condition
 
 3.  On the form, fill in the fields.
 

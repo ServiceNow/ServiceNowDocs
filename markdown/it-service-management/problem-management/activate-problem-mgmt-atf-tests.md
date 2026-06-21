@@ -2,6 +2,7 @@
 title: Activate Problem Management — ATF Tests
 description: You can activate the Problem Management — ATF Tests plugin \(com.snc.problem.atf\) if you have the admin role. This plugin includes demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/problem-management/activate-problem-mgmt-atf-tests.html
 release: yokohama
 product: Problem Management
 classification: problem-management
@@ -31,13 +32,13 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/yokohama-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Problem Management plugins](../concept/problem-mgmt-plugins.md)
+**Parent Topic:**[Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/problem-mgmt-plugins.md)
 
 **Related topics**  
 
 
-[List of Yokohama plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

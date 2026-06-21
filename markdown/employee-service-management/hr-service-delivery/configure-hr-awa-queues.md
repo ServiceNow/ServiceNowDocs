@@ -2,6 +2,7 @@
 title: Configure AWA queues for HR Service Delivery Agent Workspace
 description: Use Advanced Work Assignment Queues to define what work items are routed automatically to agents through a service channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/configure-hr-awa-queues.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +28,7 @@ Role required: sn\_hr\_core.admin
 
 3.  Or, select a queue to edit.
 
-    For more information, see [Work item queues](https://www.servicenow.com/docs/access?context=awa-queues&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+    For more information, see Work item queues.
 
 4.  Select the **Save** icon.
 

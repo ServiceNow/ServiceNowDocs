@@ -2,6 +2,7 @@
 title: Approve a request associated with the Enroll a new supplier user case type from the Source-to-Pay Workspace
 description: As a supplier manager, you can approve or reject the assigned approve requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/approve-supp-case.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -46,5 +47,5 @@ Role required: sn\_slm.manager, sn\_slm.owner, sn\_slm.fulfiller, or sn\_slm.adm
 6.  Select **Save**.
 
 
-**Parent Topic:**[Supplier contact self-registration process](../concept/how-self-reg-works.md)
+**Parent Topic:**[Supplier contact self-registration process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/how-self-reg-works.md)
 

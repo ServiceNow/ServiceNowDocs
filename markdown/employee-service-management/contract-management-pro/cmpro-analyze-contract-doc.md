@@ -2,6 +2,7 @@
 title: Analyze a contract document
 description: Analyze a contract document with generative AI to identify non-standard and missing clauses. You can do this task by using the Now Assist in Contract Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-analyze-contract-doc.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ Analyze a contract document with generative AI to identify non-standard and miss
 
 ## Before you begin
 
-Ensure that Now Assist has data access or your role. For more information, see [Configure data permissions for Now Assist skills](cmpro-conf-roles-skills.md).
+Ensure that Now Assist has data access or your role. For more information, see [Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller or sn\_cm\_core.contract\_fulfiller
 
@@ -25,7 +26,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller or sn\_cm\_core.contract\
 
 -   As an assigned-to collaborator or group manager with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role, you can initiate a Now Assist analysis for a contract document when the contract request is in the Work in progress state.
 -   The Now Assist analysis is run on the latest revision of the contract document.
--   Only documents in Microsoft Word \(.docx\) and PDF formats can be analyzed with the Now Assist application. For more information on the document limitations, see [Limitations in Document Intelligence](https://www.servicenow.com/docs/access?context=hard-limits-in-doc-intel&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+-   Only documents in Microsoft Word \(.docx\) and PDF formats can be analyzed with the Now Assist application. For more information on the document limitations, see .
 -   For contract documents that are in a PDF format, you can run the Now Assist analysis but you can't act on a suggestion.
 
 **Note:** Be sure to review the AI-generated analysis for accuracy.
@@ -34,27 +35,27 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller or sn\_cm\_core.contract\
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d489910e134">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d154907e133">
 
 Method
 
-</th><th align="left" id="d489910e137">
+</th><th align="left" id="d154907e136">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d489910e143">
+</th></tr></thead><tbody><tr><td id="d154907e142">
 
 **Contract Workspace listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Contract requests** &gt; **All**.
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d489910e191">
+</td></tr><tr><td id="d154907e190">
 
 **Workspace used by your application**
 
@@ -66,11 +67,11 @@ Steps
 
 
 </td></tr></tbody>
-</table>2.  If the contextual side panel isn’t open, select the Now Assist Review for contracts icon \(![Now Assist Review from contracts icon](../image/cmpro-ai-sparkel-icon.png)\).
+</table>2.  If the contextual side panel isn’t open, select the Now Assist Review for contracts icon \(\[Omitted image "cmpro-ai-sparkel-icon.png"\] Alt text: Now Assist Review from contracts icon\).
 
     You can analyze contracts in the Now Assist contextual side panel as shown in the following example.
 
-    ![Analyze contracts with Now Assist contextual side panel](../image/cmpro-na-side-panel.png)
+    \[Omitted image "cmpro-na-side-panel.png"\] Alt text: Analyze contracts with Now Assist contextual side panel
 
 3.  On the contract request page, select **Contract documents**.
 
@@ -78,15 +79,15 @@ Steps
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d489910e263">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d154907e262">
 
 Method
 
-</th><th align="left" id="d489910e266">
+</th><th align="left" id="d154907e265">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d489910e272">
+</th></tr></thead><tbody><tr><td id="d154907e271">
 
 **Run Now Assist analysis on a single contract document**
 
@@ -96,7 +97,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with Now Assist**.
 
 
-</td></tr><tr><td id="d489910e299">
+</td></tr><tr><td id="d154907e298">
 
 **Run Now Assist analysis on multiple contract documents**
 
@@ -127,8 +128,8 @@ Steps
 
 7.  View the analysis and select **Back** to go to the analyzed contracts in the Now Assist contextual side panel.
 
-    You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Review the Now Assist suggestions for clause deviations](cmpro-review-contract-document.md).
+    You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Review the Now Assist suggestions for clause deviations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-review-contract-document.md).
 
 
-**Parent Topic:**[Contract analysis using Now Assist in Contract Management](../concept/cncore-NA-review-land.md)
+**Parent Topic:**[Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
 

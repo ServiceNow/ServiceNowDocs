@@ -2,6 +2,7 @@
 title: Resource Management properties
 description: The Resource Management application provides several properties to control allocations, schedules, and other settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/r\_ResourceProperties.html
 release: yokohama
 product: Resource Management
 classification: resource-management
@@ -315,5 +316,5 @@ Excludes the resource assignments with defined statuses from calculating resourc
 This field is left empty.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

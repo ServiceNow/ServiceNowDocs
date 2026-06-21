@@ -2,6 +2,7 @@
 title: Create an appointment reason
 description: Create a reason that employees can use to book an appointment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/create-apt-reason.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,5 +40,5 @@ Role required: sn\_hr\_core.walkup\_admin, sn\_walkup.walkup\_manager
 
 ## What to do next
 
-Add the reasons to the walk-up location queue that you want to use for appointment booking. For more information, see [Create or modify Walk-up Experience locations](https://www.servicenow.com/docs/access?context=configure-walkup-location&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US).
+Add the reasons to the walk-up location queue that you want to use for appointment booking. For more information, see .
 

@@ -2,6 +2,7 @@
 title: Remove the unique constraint from Email Domain
 description: Multiple supplier records can have the same email domain after removing the unique constraint from the Email Domain column of the Supplier Email Domain \[sn\_slm\_email\_domain\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/remove-unique-constraint.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -27,9 +28,9 @@ Role required: admin
 
 2.  Hover and right-click **Email Domain** field to open the Dictionary Entry of `sn_slm_email_domain` table.
 
-    ![Email domain dictionary view of the sn_slm_email_domain table](../image/email-domain.png)
+    \[Omitted image "email-domain.png"\] Alt text: Email domain dictionary view of the sn\_slm\_email\_domain table
 
-3.  Select the form context menu icon \(![](../image/context-menu.png)\) and select **Configure** &gt; **Form Layout**.
+3.  Select the form context menu icon \(\[Omitted image "context-menu.png"\] Alt text:\) and select **Configure** &gt; **Form Layout**.
 
 4.  From the **Available** list of fields, select the **Unique** field and move it to the **Selected** column.
 
@@ -42,5 +43,5 @@ Role required: admin
     **Note:** If you are still unable to invite a supplier contact with duplicate domain, or if the onboarding playbook is stuck while waiting to send out an email to the supplier contact, follow the troubleshooting steps in the KB article [KB1709872](https://support.servicenow.com/kb?sys_kb_id=43cccf6483ca9a10cdbbc430feaad3d4&id=kb_article_view).
 
 
-**Parent Topic:**[Enable M2M mapping between supplier contact and suppliers](enable-m2m-supplier-contacts.md)
+**Parent Topic:**[Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md)
 

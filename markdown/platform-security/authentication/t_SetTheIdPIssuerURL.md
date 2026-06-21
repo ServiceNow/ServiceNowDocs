@@ -2,6 +2,7 @@
 title: Set the IdP issuer URL
 description: Provide the URL to the IdPs who will issue the security token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/t\_SetTheIdPIssuerURL.html
 release: yokohama
 product: Authentication
 classification: authentication

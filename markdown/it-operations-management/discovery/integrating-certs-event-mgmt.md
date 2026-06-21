@@ -2,6 +2,7 @@
 title: Integrate Event Management with Certificate Inventory and Management
 description: In Certificate Inventory and Management version 1.2.0 and later, Event Management can create events and alerts for both expiring and expired certificates, enhancing the system's monitoring capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/integrating-certs-event-mgmt.html
 release: yokohama
 product: Discovery
 classification: discovery
@@ -42,5 +43,5 @@ The integration leverages the Workflow Studio feature to initiate events. It uti
     5.  Select **Save**.
 
 
-**Parent Topic:**[Certificate integrations and notifications](../concept/cert-inventory-mgmt-workflow.md)
+**Parent Topic:**[Certificate integrations and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
 

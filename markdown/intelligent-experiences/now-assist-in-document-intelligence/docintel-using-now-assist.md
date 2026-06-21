@@ -2,6 +2,7 @@
 title: Using Now Assist in Document Intelligence
 description: If you have an agent role, you can use the Now Assist in Document Intelligence workspace to analyze and extract information from your documents with generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-in-document-intelligence/docintel-using-now-assist.html
 release: yokohama
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -18,7 +19,7 @@ If you have an agent role, you can use the Now Assist in Document Intelligence w
 
 The following diagram shows how the Now Assist in Document Intelligence skills are set up and used to process documents.
 
-![Diagram showing the document processing flow in Now Assist in Document Intelligence.](../image/mmasset0020964-using-nadi-horizontal.png "Now Assist in Document Intelligence document processing workflow")
+\[Omitted image "mmasset0020964-using-nadi-horizontal.png"\] Alt text: Diagram showing the document processing flow in Now Assist in Document Intelligence.
 
 In this workflow:
 
@@ -29,10 +30,10 @@ In this workflow:
 -   The agent provides input to validate or correct the values predicted by Now Assist.
 -   The task is completed and the integrated workflow proceeds as defined.
 
--   **[Extract document data with Now Assist in Document Intelligence](../task/extract-document-data-with-now-assist-document-intelligence.md)**  
+-   **[Extract document data with Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-in-document-intelligence/extract-document-data-with-now-assist-document-intelligence.md)**  
 Use the Document Intelligence workspace to review the information that was extracted from a document by Now Assist in Document Intelligence. You can also flag fields for follow-up and identify missing information in the document.
--   **[Review document Q&amp;As with Now Assist in Document Intelligence](../task/review-document-qnas-with-now-assist-document-intelligence.md)**  
+-   **[Review document Q&amp;As with Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-in-document-intelligence/review-document-qnas-with-now-assist-document-intelligence.md)**  
 Use the Document Intelligence workspace to review the question and answer \(Q&amp;A\) predictions provided by Now Assist in Document Intelligence.
 
-**Parent Topic:**[Now Assist in Document Intelligence](docintel-nowassist-landing.md)
+**Parent Topic:**[Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md)
 

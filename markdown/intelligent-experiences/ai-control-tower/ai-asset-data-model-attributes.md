@@ -2,13 +2,14 @@
 title: AI asset data model attributes
 description: Additional attributes for the AI asset data model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/ai-asset-data-model-attributes.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [AI Control Tower Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
 ---
 
 # AI asset data model attributes
@@ -199,5 +200,5 @@ AI model
 Reference to the AI model for which the prompt is created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Control Tower Reference](aict-references.md)
+</table>**Parent Topic:**[AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/aict-references.md)
 

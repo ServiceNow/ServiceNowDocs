@@ -2,6 +2,7 @@
 title: Configuring Talent Feedback
 description: Set up Talent Feedback to be able to use it along with Talent Development.You can install the Talent Feedback application if you have the admin role. Talent Feedback is also installed along with Talent Development and Employee Center Pro.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-feedback/configuring-talent-feedback.html
 release: yokohama
 product: Talent Feedback
 classification: talent-feedback
@@ -15,7 +16,7 @@ breadcrumb: [Talent Feedback, Talent Development, Employee Service Management]
 
 Set up Talent Feedback to be able to use it along with Talent Development.
 
-**Parent Topic:**[Talent Feedback](talent-feedback-landing.md)
+**Parent Topic:**[Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/talent-feedback-landing.md)
 
 ## Install Talent Feedback
 

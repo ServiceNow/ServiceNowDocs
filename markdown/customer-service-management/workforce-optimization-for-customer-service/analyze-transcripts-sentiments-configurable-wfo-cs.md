@@ -2,6 +2,7 @@
 title: Analyze transcripts and sentiments for the Amazon Connect phone channel
 description: Analyze your agent's call recordings, transcripts, and sentiment reports. With this information, you can assess the call quality and train your agents to handle calls better in the future.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/analyze-transcripts-sentiments-configurable-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -31,15 +32,15 @@ When an agent interacts with an external caller, the call gets recorded and tran
 
 2.  Select an interaction record to analyze transcripts and sentiments.
 
-<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d113776e82">
+<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d33221e82">
 
 To analyze call transcripts and sentiments
 
-</th><th align="left" id="d113776e85">
+</th><th align="left" id="d33221e85">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d113776e91">
+</th></tr></thead><tbody><tr><td id="d33221e91">
 
 **From Channels**
 
@@ -47,25 +48,25 @@ Do this
 
 **Note:** You can view call transcripts and sentiments for all interactions that were closed today.
 
- 1.  Click the Channels \(![Channels icon.](../image/channels-new.png)\) icon.
+ 1.  Click the Channels \(\[Omitted image "channels-new.png"\] Alt text: Channels icon.\) icon.
 2.  Click **Amazon Connect \(Phone\)**.
 3.  Select an interaction record.
 
 
-</td></tr><tr><td id="d113776e124">
+</td></tr><tr><td id="d33221e124">
 
 **From Teams**
 
 </td><td>
 
-1.  Click the Teams icon \(![Teams icon.](../image/teams-new.png)\).
+1.  Click the Teams icon \(\[Omitted image "teams-new.png"\] Alt text: Teams icon.\).
 2.  Select a team.
 3.  Select a user.
 4.  Select a KPI.
 5.  Select an interaction record.
 
 
-</td></tr><tr><td id="d113776e157">
+</td></tr><tr><td id="d33221e157">
 
 **From Coaching**
 
@@ -73,18 +74,18 @@ Do this
 
 **Note:** When you have assessments triggered from calls, you can view call transcripts and sentiments for those interactions.
 
- 1.  Click the Coaching \(![Coaching icon.](../image/coaching-new.png)\) icon.
+ 1.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 2.  Click the **Active Assessments** tab.
 3.  Select an assessment.
 
 
-</td></tr><tr><td id="d113776e190">
+</td></tr><tr><td id="d33221e190">
 
 **From Lists**
 
 </td><td>
 
-1.  Click the Lists \(![Lists icon.](../image/list-new.png)\)icon.
+1.  Click the Lists \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\)icon.
 2.  Select an interaction record.
 
 
@@ -93,8 +94,8 @@ Do this
 
     The Amazon Connect application generates the interactions and sentiment analysis of those interactions and displays them as a report in Workforce Optimization for Customer Service.
 
-4.  [Analyze transcripts and sentiments for the Amazon Connect phone channel](analyze-transcripts-sentiments-configurable-wfo-cs.md) and assign training to coach the agents.
+4.  [Analyze transcripts and sentiments for the Amazon Connect phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/analyze-transcripts-sentiments-configurable-wfo-cs.md) and assign training to coach the agents.
 
 
-**Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](../concept/configurable-servicenow-voice-cs.md)
+**Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-servicenow-voice-cs.md)
 

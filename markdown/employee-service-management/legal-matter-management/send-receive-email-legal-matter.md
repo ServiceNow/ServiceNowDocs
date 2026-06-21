@@ -2,6 +2,7 @@
 title: Communicate using emails from Legal Counsel Center
 description: Compose and send emails directly from legal matter record form in the Legal Counsel Center. You can also save the email as draft to send it later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-matter-management/send-receive-email-legal-matter.html
 release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
@@ -27,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d604759e110">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d566680e110">
 
 Option
 
-</th><th align="left" id="d604759e113">
+</th><th align="left" id="d566680e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d604759e119">
+</th></tr></thead><tbody><tr><td id="d566680e119">
 
 **As an assignee**
 
@@ -51,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d604759e148">
+</td></tr><tr><td id="d566680e148">
 
 **As a collaborator**
 
@@ -62,13 +63,13 @@ The state of the legal matter updates to Work in Progress.
 
 
 </td></tr></tbody>
-</table>4.  Click the more actions button \(![More actions button icon.](../../legal-request-management/image/more-button-icon.png)\) and select **Compose Email**.
+</table>4.  Click the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and select **Compose Email**.
 
     The **Compose Email** button is available only when the legal matter is in the Assigned or Work in progress state.
 
 5.  In the **New Email Draft** tab, compose a new email or respond to the email received and send it right away or save it as a draft to send later.
 
-    For more information, see [Communicating via email](https://www.servicenow.com/docs/access?context=using-email&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+    For more information, see Communicating via email.
 
 
 ## Result

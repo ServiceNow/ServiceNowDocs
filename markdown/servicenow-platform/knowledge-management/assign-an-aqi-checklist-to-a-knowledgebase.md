@@ -2,6 +2,7 @@
 title: Assign an AQI checklist to a knowledge base
 description: Before a knowledge reviewer can start performing the AQI review, you must assign an AQI checklist to a knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/assign-an-aqi-checklist-to-a-knowledgebase.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -36,5 +37,5 @@ Role required: knowledge\_admin or admin
 
 ## What to do next
 
-After you assign an AQI checklist to a knowledge base, you can start [performing AQI reviews](perform-an-aqi.md).
+After you assign an AQI checklist to a knowledge base, you can start [performing AQI reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/perform-an-aqi.md).
 

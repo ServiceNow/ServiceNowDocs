@@ -2,6 +2,7 @@
 title: Encryption options in Vaccine Administration Management
 description: Vaccine Administration Management provides encryption support to secure sensitive information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/vaccine-administration-management/vam-encryption-support.html
 release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -23,7 +24,7 @@ The Field Encryption Enterprise option on the ServiceNow AI Platform is supporte
 
 Field Encryption Enterprise provides an enhanced encryption capability compared to Encryption Support and uses the Key Management Framework \(KMF\).
 
-When as an administrator, you install the Vaccine Administration Management application, the crypto modules, and encryption configurations to encrypt sensitive fields along with the KMF are also installed automatically. For managing and auditing cryptographic operations on your ServiceNow instance, as an administrator, you can choose to optionally activate the Field Encryption Enterprise plugin \(com.glide.now.platform.encryption\). For more information about obtaining Field Encryption Enterprise, see [Activate Field Encryption Enterprise](https://www.servicenow.com/docs/access?context=activate-platform-encryption&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US). For more information about selecting the parent crypto module, see [Create a cryptographic module](https://www.servicenow.com/docs/access?context=create-cryptographic-module&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+When as an administrator, you install the Vaccine Administration Management application, the crypto modules, and encryption configurations to encrypt sensitive fields along with the KMF are also installed automatically. For managing and auditing cryptographic operations on your ServiceNow instance, as an administrator, you can choose to optionally activate the Field Encryption Enterprise plugin \(com.glide.now.platform.encryption\). For more information about obtaining Field Encryption Enterprise, see . For more information about selecting the parent crypto module, see Create a cryptographic module.
 
 <table id="table_jzk_qbm_nvb"><thead><tr><th>
 
@@ -210,5 +211,5 @@ sn\_vaccine\_sm\_request
 long\_term\_health\_issues
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+</table>**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

@@ -2,6 +2,7 @@
 title: Delegated Development
 description: Delegated development allows designated users without a system admin role to develop or deploy applications on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/delegated-development-and-deployment/delegated-development-landing.html
 release: yokohama
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -19,15 +20,15 @@ Delegated development allows designated users without a system admin role to dev
 
 <table id="table_kqw_nbc_1dc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Delegated Development](../concept/exploring-delegated-development.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/exploring-delegated-development.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Delegated Development](../task/configuring-delegated-development.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/configuring-delegated-development.md)
 
 </td><td>
 
-[Using![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Using Delegated Development](../task/using-delegated-development.md)
+[Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Using Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/using-delegated-development.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

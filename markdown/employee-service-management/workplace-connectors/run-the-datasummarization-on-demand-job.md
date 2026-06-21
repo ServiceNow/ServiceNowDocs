@@ -2,6 +2,7 @@
 title: Run the DataSummarization on-demand job
 description: Use the on-demand OnDemandDataSummarization scheduled job to retrieve summary data for the required connector type if the DataSummarization scheduled job fails to populate the occupancy, environmental, or Wi-Fi summary reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/run-the-datasummarization-on-demand-job.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
@@ -30,9 +31,9 @@ Role required: admin
 4.  Select **Execute Now**.
 
 
-**Parent Topic:**[Workplace Connectors data summarization](../concept/data-summarization.md)
+**Parent Topic:**[Workplace Connectors data summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/data-summarization.md)
 
-**Previous topic:**[Archive and purge summary data tables](archive-and-purge-summary-data.md)
+**Previous topic:**[Archive and purge summary data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/archive-and-purge-summary-data.md)
 
-**Next topic:**[Migrate event data to new summary tables](migrate-data-from-old-tables-to-new-summary-tables.md)
+**Next topic:**[Migrate event data to new summary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/migrate-data-from-old-tables-to-new-summary-tables.md)
 

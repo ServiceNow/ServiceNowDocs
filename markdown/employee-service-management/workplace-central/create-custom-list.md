@@ -2,6 +2,7 @@
 title: Create a custom list based on a system table
 description: Create a custom list on Workplace Central based on a system table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-central/create-custom-list.html
 release: yokohama
 product: Workplace Central
 classification: workplace-central
@@ -25,7 +26,7 @@ Role required: sn\_wsd\_central.workspace\_user
 
 1.  Navigate to **All** &gt; **Workplace Central** &gt; **Workplace Central**.
 
-2.  Select the **Lists** icon \(![Lists icon.](../images/wsd-central-lists-icon.png)\).
+2.  Select the **Lists** icon \(\[Omitted image "wsd-central-lists-icon.png"\] Alt text: Lists icon.\).
 
 3.  Select the **My Lists** tab, then select **Add new list**.
 
@@ -70,15 +71,15 @@ Columns that are picked from the selected system table and displayed on the cust
 </td></tr></tbody>
 </table>6.  In the Add filters section, use the following options to filter and sort the records in your custom list.
 
-<table id="choicetable_gj5_lfs_z2c"><thead><tr><th align="left" id="d310828e196">
+<table id="choicetable_gj5_lfs_z2c"><thead><tr><th align="left" id="d295071e196">
 
 Option
 
-</th><th align="left" id="d310828e199">
+</th><th align="left" id="d295071e199">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d310828e205">
+</th></tr></thead><tbody><tr><td id="d295071e205">
 
 **Use existing filter**
 
@@ -86,7 +87,7 @@ Description
 
 Use an existing filter that is available with the selected Workplace Central list.
 
-</td></tr><tr><td id="d310828e217">
+</td></tr><tr><td id="d295071e217">
 
 **Save filter**
 
@@ -94,7 +95,7 @@ Use an existing filter that is available with the selected Workplace Central lis
 
 Save the current filter criteria.You can use saved filters for other custom lists. You can also grant permissions to other users to use the filter for their custom lists.
 
-</td></tr><tr><td id="d310828e228">
+</td></tr><tr><td id="d295071e228">
 
 **Refresh \(Update count\)**
 
@@ -102,7 +103,7 @@ Save the current filter criteria.You can use saved filters for other custom list
 
 Update the number of records based on the current filter criteria.
 
-</td></tr><tr><td id="d310828e237">
+</td></tr><tr><td id="d295071e237">
 
 **Editor**
 
@@ -110,7 +111,7 @@ Update the number of records based on the current filter criteria.
 
 Create condition sets for the filter criteria.
 
-</td></tr><tr><td id="d310828e247">
+</td></tr><tr><td id="d295071e247">
 
 **Sort by**
 
@@ -122,5 +123,5 @@ Select fields that are to sort the results in the custom lists in ascending or d
 </table>7.  Select **Create**.
 
 
-**Parent Topic:**[Creating custom lists on Workplace Central](../concept/creating-custom-lists-wsd.md)
+**Parent Topic:**[Creating custom lists on Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/creating-custom-lists-wsd.md)
 

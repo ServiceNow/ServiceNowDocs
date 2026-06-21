@@ -2,6 +2,7 @@
 title: Configure knowledge article templates
 description: Configure knowledge article templates to customize and display content as per your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/configure-knowledge-article-templates.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

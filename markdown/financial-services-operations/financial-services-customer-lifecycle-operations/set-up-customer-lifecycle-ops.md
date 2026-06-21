@@ -2,6 +2,7 @@
 title: Setting up Financial Services Customer Lifecycle Operations
 description: You can set up your implementation for the Financial Services Customer Lifecycle Operations application by installing the application, importing financial services data, and reviewing and configuring the components that are installed with the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/set-up-customer-lifecycle-ops.html
 release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations

@@ -2,6 +2,7 @@
 title: Back out a push
 description: Application developers can back out a push to remove unwanted changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/t\_BackOutAPush.html
 release: yokohama
 product: Team Development
 classification: team-development
@@ -26,5 +27,5 @@ Application developers can back out a push to remove unwanted changes.
 4.  Click **OK** when the confirmation message appears.
 
 
-**Parent Topic:**[Team Development](../concept/c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

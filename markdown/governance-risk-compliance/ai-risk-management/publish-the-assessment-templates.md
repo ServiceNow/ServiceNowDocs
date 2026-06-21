@@ -2,6 +2,7 @@
 title: Publish the assessment templates
 description: When creating a new AI system or updating an existing one, publish the assessment templates before initiating the required assessments such as impact assessment and conformity assessment. You must publish an assessment template so that the assessments can be initiated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/publish-the-assessment-templates.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -45,6 +46,6 @@ The templates are published and ready to be used for assessments. The state of t
 
 ## What to do next
 
--   [Initiate AI assessment on an AI asset](initiate-assessment-on-an-ai-asset.md)
--   [Perform impact assessment on an AI use case](perform-impact-assessment-of-ai-use-case.md)
+-   [Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md)
+-   [Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)
 

@@ -2,6 +2,7 @@
 title: Summarize a case by using Now Assist for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace
 description: Summarize supplier-related cases to learn more about their status, progress, and action items by using the supplier case summarization skill in the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -33,7 +34,7 @@ You can use the supplier case summarization skill in either Core UI or Source-to
 
 1.  Navigate to **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **Lists** &gt; **All work** and select either of the following records:
 
@@ -43,7 +44,7 @@ You can use the supplier case summarization skill in either Core UI or Source-to
 
 5.  In the Record summary section, select **Summarize**.
 
-    ![Summarize option in the Source-to-Pay Workspace.](../image/case-summarization.png)
+    \[Omitted image "case-summarization.png"\] Alt text: Summarize option in the Source-to-Pay Workspace.
 
 6.  Review the summary details.
 
@@ -54,15 +55,15 @@ You can use the supplier case summarization skill in either Core UI or Source-to
     -   **Next steps**: Lists the actions that the supplier managers must take next.
 7.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d34485e209">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d36055e209">
 
 Option
 
-</th><th align="left" id="d34485e212">
+</th><th align="left" id="d36055e212">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d34485e218">
+</th></tr></thead><tbody><tr><td id="d36055e218">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -73,45 +74,45 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d34485e245">
+</td></tr><tr><td id="d36055e245">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the expand card icon \(![Expand card icon.](../../sourcing-procurement-operations/image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../../sourcing-procurement-operations/image/icon-collapse.png)\) to see more details or fewer summary details.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d34485e266">
+</td></tr><tr><td id="d36055e266">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../../sourcing-procurement-operations/image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../../sourcing-procurement-operations/image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
+If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d34485e289">
+</td></tr><tr><td id="d36055e289">
 
 **Copy the record summary**
 
 </td><td>
 
-Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the record summary information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d34485e305">
+</td></tr><tr><td id="d36055e305">
 
 **View the information about the record summary**
 
 </td><td>
 
-If you want to check some details about the summary, select the more info icon \(![More info icon.](../../sourcing-procurement-operations/image/icon-more-info.png)\).
+If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d34485e320">
+</td></tr><tr><td id="d36055e320">
 
 **Refresh the record summary**
 
 </td><td>
 
-If you want to refresh the summary, select the refresh icon \(![Refresh icon.](../../sourcing-procurement-operations/image/icon-refresh.png)\).
+If you want to refresh the summary, select the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon.\).
 
 </td></tr></tbody>
 </table>

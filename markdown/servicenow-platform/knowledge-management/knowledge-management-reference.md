@@ -2,6 +2,7 @@
 title: Knowledge Management reference
 description: Reference topics provide additional information that you can use to configure and administer Knowledge Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/knowledge-management-reference.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

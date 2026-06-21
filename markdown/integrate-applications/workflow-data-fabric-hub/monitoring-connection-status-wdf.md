@@ -2,6 +2,7 @@
 title: Monitoring established connections
 description: Maintain the health of established connections by monitoring connection status in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/monitoring-connection-status-wdf.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -38,5 +39,5 @@ Determine whether a connection requires an update by checking the status on the 
     The connection details have been added, but the connection to the data source isn't working.
 
 
-**Parent Topic:**[Managing zero copy connections in Workflow Data Fabric Hub](managing-connections-wdf.md)
+**Parent Topic:**[Managing zero copy connections in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.md)
 

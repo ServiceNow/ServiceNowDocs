@@ -2,7 +2,10 @@
 title: Request Accelerators and Initiatives
 description: Depending on the Impact package that you are subscribed to, you can request and consume a designated number of concurrent Impact Accelerators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerators.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Depending on the Impact package that you are subscribed to, you can request and 
 
 ## Before you begin
 
-For details on available Accelerators, refer to the [Accelerator catalog](accelerator-catalog.md).
+For details on available Accelerators, refer to the [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/accelerator-catalog.md).
 
 Some Accelerators require additional terms and conditions and are offered pursuant to the applicable [Impact Accelerator Description](https://www.servicenow.com/legal/servicenow-impact.html). For Accelerators that require consent, the terms and conditions must be accepted from the **Manage Permissions** menu.
 

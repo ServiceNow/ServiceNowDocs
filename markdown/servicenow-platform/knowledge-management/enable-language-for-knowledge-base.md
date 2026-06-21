@@ -2,6 +2,7 @@
 title: Enable languages for a knowledge base
 description: Select the languages you want enabled at a knowledge base level. Users can then create articles only for selected languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/enable-language-for-knowledge-base.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -29,7 +30,7 @@ Role required: knowledge\_admin or admin
 
 3.  Click the lock icon to unlock the **Languages** field in the Knowledge base form.
 
-    **Note:** You may need to configure the knowledge base form to include the **Languages** field. Click the form context menu icon \(![context menu](../image/ContextMenu.png)\) and navigate to **Configure** &gt; **Form layout**. Use slushbucket to add the Languages field.
+    **Note:** You may need to configure the knowledge base form to include the **Languages** field. Click the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: context menu\) and navigate to **Configure** &gt; **Form layout**. Use slushbucket to add the Languages field.
 
 4.  Click **Submit**.
 

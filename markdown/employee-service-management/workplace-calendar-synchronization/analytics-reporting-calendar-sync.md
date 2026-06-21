@@ -2,6 +2,7 @@
 title: Analytics and Reporting Solutions for Workplace Calendar Synchronization
 description: Monitor the status of reservation synchronizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-calendar-synchronization/analytics-reporting-calendar-sync.html
 release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

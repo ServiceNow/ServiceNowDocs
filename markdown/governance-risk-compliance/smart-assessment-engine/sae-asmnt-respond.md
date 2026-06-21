@@ -2,6 +2,7 @@
 title: Respond to an assessment
 description: Respond to an assessment that has been assigned to your queue. Your responses to the assessment help with making informed decisions and taking targeted actions by using the Smart Assessment Engine application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-respond.html
 release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -30,7 +31,7 @@ When you’re assigned to a task to respond to an assessment, you submit your re
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **Workspaces** &gt; **Compliance Workspace**
-    2.  Select the task icon ![](../../grc-workspace-vrm/image/icon-tprm-ws-tasks.png) and then navigate to **My pending tasks** &gt; **Control attestations** &gt; **Smart Assessments**.
+    2.  Select the task icon \[Omitted image "icon-tprm-ws-tasks.png"\] Alt text: and then navigate to **My pending tasks** &gt; **Control attestations** &gt; **Smart Assessments**.
 2.  Review any instructions or reference information and answer all relevant questions.
 
     You might see additional question guidance text for your review as you complete the questions. Your responses are automatically saved.

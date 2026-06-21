@@ -2,6 +2,7 @@
 title: Self-register as a visitor
 description: Register as a visitor by providing your details such as your name, purpose of the visit, and host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-services-kiosk/visitor-self-register.html
 release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -57,5 +58,5 @@ Role required: sn\_wsd\_kiosk.viewer
 6.  View the next steps, then select **Done**.
 
 
-**Parent Topic:**[Use Workplace Services Kiosk](../concept/use-workplace-services-kiosk.md)
+**Parent Topic:**[Use Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
 

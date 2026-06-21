@@ -2,6 +2,7 @@
 title: Setting up DEX Desktop Assistant
 description: Download Desktop Assistant and customize the Home page by dividing the page into sections of cards to access applications more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/config-dex-desktop-exp.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Download Desktop Assistant and customize the Home page by dividing the page into
 
 With a Desktop Assistant administrator role \[sn\_dex\_desktop.admin\], you can configure the application.
 
-Refer to the [OAuth documentation](../task/configure-oauth-details.md) for instructions on configuring the SSO provider in the instance.
+Refer to the [OAuth documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/configure-oauth-details.md) for instructions on configuring the SSO provider in the instance.
 
 **Note:** If you experience issues with Desktop Assistant, troubleshoot them by accessing the logs at these locations:
 

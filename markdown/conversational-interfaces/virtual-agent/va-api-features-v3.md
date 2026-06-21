@@ -2,6 +2,7 @@
 title: Virtual Agent API features available in Store release 3.0.x
 description: Virtual Agent API version 3.0.x provides access to more of the same features that are available in Virtual Agent and Agent Chat, including the ability to upload files from a private URL and synchronous handshake enhancements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/va-api-features-v3.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -104,7 +105,7 @@ To use synchronous transfer to a live agent, be aware of the following guideline
     
     ```
 
--   Topics that use the following features are not supported in synchronous mode: [file upload](../reference/va-user-inputs.md), the [Action utility](../reference/va-action.md), and the [Pause topic block](../reference/va-platform-topicblocks.md).
+-   Topics that use the following features are not supported in synchronous mode: [file upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-user-inputs.md), the [Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-action.md), and the [Pause topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-platform-topicblocks.md).
 
 To disable these features and enable synchronous support, follow these steps:
 
@@ -114,7 +115,7 @@ To disable these features and enable synchronous support, follow these steps:
 4.  If you will not be transferring to a live agent in synchronous mode, clear the **Support typing indicator** check box to disable it.
 5.  Select the **Synchronous** check box.
 
-    ![Bot to Bot channel configuration for Synchronous mode shows Enable Notifications and Support typing indicator boxes as unselected. The Synchronous box is selected.](../images/va-api-synchronous-mode.png "Bot to Bot channel with synchronous support enabled")
+    \[Omitted image "va-api-synchronous-mode.png"\] Alt text: Bot to Bot channel configuration for Synchronous mode shows Enable Notifications and Support typing indicator boxes as unselected. The Synchronous box is selected.
 
 6.  Click **Update**.
 
@@ -253,7 +254,7 @@ Virtual Agent API supports file uploads up to 1 GB in size from a private URL. T
 
 -   Provider application ID is optional.
 -   The user ID and provider application ID should be sent before the file name in the payload.
--   The end user must have a role specified in the **glide.attachment.role** property. For more information, see [Require a role to attach files](https://www.servicenow.com/docs/access?context=t_DisablingTheDragAndDropFeature&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+-   The end user must have a role specified in the **glide.attachment.role** property. For more information, see Require a role to attach files.
 -   Basic or OAuth authentication is supported, but Message Authentication is not.
 
 Example message payload from the primary bot:   
@@ -283,15 +284,15 @@ Virtual Agent API sends the following example JSON:
 
 ## Support for transformation of Virtual Agent API request and response
 
-Virtual Agent API supports transformation of request and response payloads to and fro Virtual Agent API. This is helpful in cases where the primary bot has a common response template across all secondary bots. See [Transform Virtual Agent API request and response](transform-virtual-agent-api-request-and-response.md) for more information.
+Virtual Agent API supports transformation of request and response payloads to and fro Virtual Agent API. This is helpful in cases where the primary bot has a common response template across all secondary bots. See [Transform Virtual Agent API request and response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/transform-virtual-agent-api-request-and-response.md) for more information.
 
 ## Support for configuring multiple provider applications
 
-Virtual Agent API enables configuration of multiple provider applications to support use cases where there are multiple primary bots using Virtual Agent API and you need to distinguish between them. See [Configure multiple provider applications](configure-multiple-provider-applications.md) for more information.
+Virtual Agent API enables configuration of multiple provider applications to support use cases where there are multiple primary bots using Virtual Agent API and you need to distinguish between them. See [Configure multiple provider applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-multiple-provider-applications.md) for more information.
 
 ## Support for Now Assist experience
 
-Now Assist experience in Virtual Agent API offers generative AI skills across multiple provider channels. See [Enable Now Assist experience in Virtual Agent API](enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md)for more information.
+Now Assist experience in Virtual Agent API offers generative AI skills across multiple provider channels. See [Enable Now Assist experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md)for more information.
 
 ## Agent Chat enhancements in Virtual Agent API version 3.14.3
 
@@ -299,5 +300,5 @@ Now Assist experience in Virtual Agent API offers generative AI skills across mu
 -   Virtual Agent API sends chat history from primary bot to live agent anywhere in the request during an ongoing conversation. This behavior is controlled by the following system property: allow\_storing\_history\_in\_ongoing-conversation. Set the value of the property to true to send chat history anywhere in the request.
 -   Interaction record contains transcript of chat history along with timestamp of individual messages.
 
-**Parent Topic:**[Using Virtual Agent API](virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-api.md)
 

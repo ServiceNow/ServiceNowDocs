@@ -2,11 +2,12 @@
 title: Link Subflow and Payload to External Queues
 description: Link the subflow and the payload to your external queue to complete external routing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/link-subflow-payload-extrnl.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [External routing overview, Work item queues, Work items, Configure, Advanced Work Assignment, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  In the External third-party provider section, select the provider you chose while creating the payload.
 
-    For more information, see [Create a payload for external third-party providers](create-payload-extrnl-provider.md)
+    For more information, see [Create a payload for external third-party providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/create-payload-extrnl-provider.md)
 
     If you need any additional information, add it in the `additionalParams` of the payload script, and select the added params from the **Document Fields to include** slush bucket.
 
@@ -44,7 +45,7 @@ Role required: admin
 
 ## What to do next
 
-You can perform a quick setup test using the demo data by connecting to your external provider. For more information, see [Define external routing test implementation](../concept/define-extrnl-routng-plugin.md).
+You can perform a quick setup test using the demo data by connecting to your external provider. For more information, see [Define external routing test implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/define-extrnl-routng-plugin.md).
 
-**Parent Topic:**[External routing overview](../concept/awa-external-routing-overview.md)
+**Parent Topic:**[External routing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-external-routing-overview.md)
 

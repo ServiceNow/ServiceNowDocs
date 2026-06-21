@@ -2,6 +2,7 @@
 title: Install Proactive Prompts
 description: You can install the Proactive Prompts application \(com.sn\_pp\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/proactive-prompts/proactive-prompts-install.html
 release: yokohama
 product: Proactive Prompts
 classification: proactive-prompts

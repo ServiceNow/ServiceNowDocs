@@ -2,7 +2,10 @@
 title: Schedule optimization properties
 description: You can set parameters that control how optimization runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/schedule-optimization-properties.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 7
@@ -41,7 +44,7 @@ Qualifier type for schedule optimization
 
 </td><td>
 
-The qualifier type for schedule optimization determines the criteria used to optimize schedules. There are two qualifier types available: "Assignment group" and "Territory."When the Field Service Territory model is enabled, the qualifier type automatically switches to "Territory" and remains fixed. This means that when the Territory model is active, the optimization process focuses on territories instead of assignment groups. For more information, see [Enable the Field Service territory model](../task/enable-territory-model.md).
+The qualifier type for schedule optimization determines the criteria used to optimize schedules. There are two qualifier types available: "Assignment group" and "Territory."When the Field Service Territory model is enabled, the qualifier type automatically switches to "Territory" and remains fixed. This means that when the Territory model is active, the optimization process focuses on territories instead of assignment groups. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 -   Type: String
 -   Default value: Assignment group
@@ -96,7 +99,7 @@ Maximum number of location points allowed in a map vendor call
 
 Numeric value set to determine the maximum number of location points allowed in a map provider call. Changing the default value of sync to async can improve performance and may result in more outbound requests.
 
-Beans.AI is the map provider that Schedule Optimization supports for travel time estimates. For more information, see [Schedule Optimization travel estimate providers](schedule-optimization-travel-estimate-providers.md).
+Beans.AI is the map provider that Schedule Optimization supports for travel time estimates. For more information, see [Schedule Optimization travel estimate providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-travel-estimate-providers.md).
 
 -   Type: Integer
 -   Default value: 300
@@ -457,5 +460,5 @@ Captures additional logs for troubleshooting purposes. It is used for integratio
 </td></tr></tbody>
 </table>**Note:** The 'maint' role is required to edit any performance-related properties. This role is exclusive to internal users. Contact support to make changes.
 
-**Parent Topic:**[Schedule Optimization components](schedule-optimization-components.md)
+**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-components.md)
 

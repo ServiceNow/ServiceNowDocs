@@ -2,7 +2,10 @@
 title: Use the case timeline with other applications
 description: You can use the Customer Service case timeline with other ServiceNow applications by creating a configuration for each application and adding the ResolutionShaper field to the desired form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/use-case-timeline-other-apps.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

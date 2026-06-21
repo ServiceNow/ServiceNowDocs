@@ -2,11 +2,12 @@
 title: Add version to workflow
 description: Add workflow versions to a workflow configuration to support different revisions or iterations of your workflow. Workflow versions filter control objectives based on the version requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/continuous-risk-monitoring/add-version-and-impact-to-workflow.html
 release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Workflow configuration, CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -33,11 +34,11 @@ Workflow versions and impacts work together to filter control objectives:
 
 2.  Select a Workflow Configuration from the list to add the version.
 
-    ![Selecting workflow.](../image/WF-version-and-impact1.png)
+    \[Omitted image "WF-version-and-impact1.png"\] Alt text: Selecting workflow.
 
 3.  On the **Versions** tab, select **New** to add a version.
 
-    ![Selecting new version.](../image/WF-version-and-impact2.png)
+    \[Omitted image "WF-version-and-impact2.png"\] Alt text: Selecting new version.
 
     A new version record page displays to add the version details to the selected workflow configuration.
 
@@ -51,7 +52,7 @@ Workflow versions and impacts work together to filter control objectives:
     |Order|The order in which you want to list the versions in the authorization package.|
     |Filter condition|Enter the condition to filter control objectives for this version.|
 
-    ![New version fields.](../image/WF-version-and-impact3.png)
+    \[Omitted image "WF-version-and-impact3.png"\] Alt text: New version fields.
 
 5.  Select **Submit** to add the new version to the selected workflow configuration.
 
@@ -64,5 +65,5 @@ The workflow version is available for selection in authorization packages based 
 
 ## What to do next
 
-[Add impact to version](add-impact-to-version.md)
+[Add impact to version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/add-impact-to-version.md)
 

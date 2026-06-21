@@ -2,6 +2,7 @@
 title: Add and view the details of a lead
 description: Use the Details tab to add more information about your lead.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/lead-management-details-tab.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Leads** &gt; **All** and select the lead that you’re working with.
 
@@ -47,12 +48,12 @@ Role required: sales\_agent
     |**System Information**|System information such as, time of the lead creation and the user who has created the lead.|
     |**Notes**|Work notes for the lead.|
 
-    To learn more, see [Create a lead](create-new-lead.md).
+    To learn more, see [Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/create-new-lead.md).
 
 4.  Select **Save**.
 
 
 ## What to do next
 
-Use the Product Catalog tab to add products to your lead. To learn more, see [Add products to a lead](lead-management-add-product.md).
+Use the Product Catalog tab to add products to your lead. To learn more, see [Add products to a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/lead-management-add-product.md).
 

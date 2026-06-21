@@ -2,6 +2,7 @@
 title: Update cloud account details
 description: Keep account details up to date so you can identify and resolve policy violations effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/update-account-ownership.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
@@ -30,7 +31,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
 3.  Update account information if necessary.
 
-    1.  Select the Edit icon \(![Edit](../../../reuse/itom/image/workspace-icon-edit.png)\).
+    1.  Select the Edit icon \(\[Omitted image "workspace-icon-edit.png"\] Alt text: Edit\).
 
     2.  Update the information.
 
@@ -43,7 +44,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
 4.  Update the account owner details if necessary.
 
-    1.  Select the Edit icon \(![Edit](../../../reuse/itom/image/workspace-icon-edit.png)\).
+    1.  Select the Edit icon \(\[Omitted image "workspace-icon-edit.png"\] Alt text: Edit\).
 
     2.  Select the account owner from the **Account Owner** from the drop-down list.
 
@@ -65,6 +66,6 @@ Role required: sn\_itom\_cam.cw\_admin
 
     If you have a large number of CIs, the propagation might take some time and changes might not be reflected immediately. You can check the progress by accessing the sn\_itom\_cam\_subscription\_account\_batch\_job\_list table and checking the status of "owner\_name" jobs listed in the **Parameters** column.
 
-6.  Select the Save icon \(![Save](../../../reuse/icons/product-icons/save-outline-24.svg)\).
+6.  Select the Save icon \(\[Omitted image "save-outline-24.svg"\] Alt text: Save\).
 
 

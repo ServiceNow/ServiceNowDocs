@@ -2,6 +2,7 @@
 title: Cloud Migration Assessment
 description: This application is no longer deployed, enhanced, or supported.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-cloud-accelerate/cloud-migration-landing-page.html
 release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate

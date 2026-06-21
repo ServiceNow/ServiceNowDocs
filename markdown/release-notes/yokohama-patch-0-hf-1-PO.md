@@ -2,6 +2,7 @@
 title: Yokohama EA Hotfix 1
 description: The Yokohama EA Hotfix 1 release contains fixes to these problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-patch-0-hf-1-PO.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-02-20"
@@ -20,7 +21,7 @@ The Yokohama EA Hotfix 1 release contains fixes to these problems.
     Build tag: glide-yokohama-12-18-2024\_\_patch0-hotfix1-02-11-2025
 
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -85,8 +86,8 @@ From the 'pa\_indicators' list view and 'indicator' form view, users shouldn't s
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
--   [Yokohama security and notable fixes](yokohama-security-notables.md)
--   [All other Yokohama fixes](yokohama-all-other-fixes.md)
+-   [Yokohama security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-security-notables.md)
+-   [All other Yokohama fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md)
 

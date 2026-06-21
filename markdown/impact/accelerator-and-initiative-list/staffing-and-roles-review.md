@@ -2,6 +2,7 @@
 title: Staffing and Roles Review
 description: Insights into staffing and roles.Guidance on effective role alignmentGuidance on effective role alignment
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/staffing-and-roles-review.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

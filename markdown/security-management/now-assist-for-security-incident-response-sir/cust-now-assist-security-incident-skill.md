@@ -2,6 +2,7 @@
 title: Customize a Now Assist for Security Incident Response skill
 description: Customize some of the input fields of a generative AI skill to suit the requirements of your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.html
 release: yokohama
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -32,7 +33,7 @@ Roles required: admin
     -   Post incident analysis
     -   Security operations metrics analysis
 
-        This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](assess-metrics-sir-aiagent.md) for more information.
+        This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
 
     -   Correlation insights generation
     -   Security incident summarization
@@ -44,7 +45,7 @@ Roles required: admin
 
     1.  On the Security Incident feature card, select **View details**.
 
-    2.  In the Active skills section, locate the skill that you'd like to copy and select the more actions icon \(![More actions icon.](../../security-incident-response/image/cj-sir-flow-more-icon.png)\).
+    2.  In the Active skills section, locate the skill that you'd like to copy and select the more actions icon \(\[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon.\).
 
     3.  Select **Make a copy**.
 
@@ -124,7 +125,7 @@ User roles
 
 </td><td>
 
-Select the expand icon \(![Expand icon.](../image/icon-expand.png)\)
+Select the expand icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand icon.\)
 
 </td></tr><tr><td>
 
@@ -132,7 +133,7 @@ Now Assist panel
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
 </td></tr><tr><td>
 

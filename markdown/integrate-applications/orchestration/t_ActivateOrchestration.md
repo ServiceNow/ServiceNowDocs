@@ -2,6 +2,7 @@
 title: Activate Orchestration
 description: The Orchestration \(com.snc.runbook\_automation\) plugin is available within a separate subscription from the rest of the ServiceNow platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/orchestration/t\_ActivateOrchestration.html
 release: yokohama
 product: Orchestration
 classification: orchestration
@@ -29,7 +30,7 @@ Role required: none
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -70,23 +71,23 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[List of Orchestration plugins](../reference/list-orchestration-plugins.md)**  
+-   **[List of Orchestration plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/list-orchestration-plugins.md)**  
 This table lists all plugins available for Orchestration and their dependencies.
--   **[Orchestration Runtime plugin](../reference/orchestration-runtime-plugin.md)**  
+-   **[Orchestration Runtime plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/orchestration-runtime-plugin.md)**  
 The Orchestration – Runtime plugin enables other applications on the ServiceNow® platform to automate tasks, without requiring an Orchestration subscription.
--   **[List of Orchestration activities](../../../administer/orchestration-activities/reference/r_ListOfOrchestrationActivities.md)**  
+-   **[List of Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/r_ListOfOrchestrationActivities.md)**  
 Use Orchestration activities in a Workflow to integrate with third-party systems.
--   **[Available activity packs](../../../administer/orchestration-activities/task/t_ActivateAnActivityPack.md)**  
+-   **[Available activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/t_ActivateAnActivityPack.md)**  
 Activity packs are available with your subscription to Orchestration.
--   **[Deprecated Orchestration activities](../../../administer/orchestration-activities/reference/r_OrchestrationBasicActivities.md)**  
+-   **[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)**  
 These Orchestration activities have been deprecated.
 
-**Parent Topic:**[Classic Orchestration](../reference/r-orchestration.md)
+**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/r-orchestration.md)
 

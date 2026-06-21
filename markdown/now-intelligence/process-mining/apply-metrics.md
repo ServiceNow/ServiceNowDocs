@@ -2,6 +2,7 @@
 title: Apply metrics
 description: Refine your project visualization to show the KPIs and metrics that are more relevant to your process goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/apply-metrics.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -42,7 +43,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 ## Result
 
-The process map automatically refreshes showing the metric selection. The numbers on the metrics box \(![metrics-boxes](../image/metrics-boxes.png)\) on a route correspond to the metrics you selected.
+The process map automatically refreshes showing the metric selection. The numbers on the metrics box \(\[Omitted image "metrics-boxes.png"\] Alt text: metrics-boxes\) on a route correspond to the metrics you selected.
 
-**Parent Topic:**[Filtering project data](filter-project.md)
+**Parent Topic:**[Filtering project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/filter-project.md)
 

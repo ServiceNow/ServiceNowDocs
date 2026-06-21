@@ -2,6 +2,7 @@
 title: Configure crawl settings for a Trello external content connector
 description: Specify the workspaces you want your Trello external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-trello-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the workspaces you want your Trello external content connector to crawl.
 
 ## Before you begin
 
-A connector admin must have already created the Trello external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Trello external content connector](create-ext-cont-connector-trello.md).
+A connector administrator must have already created the Trello external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-trello.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Trello external content connector retrieves boards found in all workspaces in its specified source system, and sends them and all their cards to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the Trello external content connector retrieves boards found in all workspaces in its specified source system, and sends them and all their cards to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for the workspaces to crawl when running content crawls
 -   Inclusion or exclusion filters for the boards to retrieve when running content crawls
@@ -90,7 +91,7 @@ The Trello external content connector is updated with your modified crawl settin
 
 ## What to do next
 
-To retrieve content from your Trello source system using your modified crawl settings, create and run a one-time content crawl for your Trello external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your Trello source system using your modified crawl settings, create and run a one-time content crawl for your Trello external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Trello external content connector](../concept/trello-external-content-connector.md)
+**Parent Topic:**[Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/trello-external-content-connector.md)
 

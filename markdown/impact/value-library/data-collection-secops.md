@@ -2,6 +2,7 @@
 title: Impact Value Management Data Collection Content Pack for SecOps
 description: Install and configure the Data Collection Content Pack for SecOps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/data-collection-secops.html
 release: yokohama
 product: Value Library
 classification: value-library
@@ -17,10 +18,10 @@ Install and configure the Data Collection Content Pack for SecOps.
 
 Perform the steps in the following order:
 
-1.  [Install the Data Collection Pack for SecOps](../task/dc-secops-install.md)
-2.  [Configure Data Collection for SecOps](../task/dc-secops-config.md)
-3.  [Activate Data Collection for SecOps](../task/dc-secops-activate.md)
-4.  [Review SecOps artifacts](../reference/dc-secops-install-artifacts.md)
+1.  [Install the Data Collection Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-secops-install.md)
+2.  [Configure Data Collection for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-secops-config.md)
+3.  [Activate Data Collection for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-secops-activate.md)
+4.  [Review SecOps artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-secops-install-artifacts.md)
 
-You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](dc-all-modify.md) and [Upgrading the Data Collection Content Pack](dc-all-upgrade.md).
+You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-all-upgrade.md).
 

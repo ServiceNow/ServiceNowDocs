@@ -2,6 +2,7 @@
 title: Add related citations to a control manually
 description: Enable the Citation to Control Mapping feature for more accurate compliance scoring and management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/add-related-citations-to-controls-manually.html
 release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -23,7 +24,7 @@ Role required: Compliance Manager \(sn\_compliance\_ws.corporate\_compliance\_ma
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the List icon \(![List icon.](../../grc-compliance-case-mgmt/image/list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **Compliance library** &gt; **Controls**.
 

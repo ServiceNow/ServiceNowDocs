@@ -2,6 +2,7 @@
 title: Workflows in Legal Service Delivery
 description: The Legal Request Management application installs automated workflows for electronic signature and external storage. These workflows enable support for multiple integrations and accounts at the same time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-service-delivery/legal-integration-app-workflows.html
 release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Legal Service Delivery, Employee Service Management]
 
 The Legal Request Management application installs automated workflows for electronic signature and external storage. These workflows enable support for multiple integrations and accounts at the same time.
 
-These workflows available in Legal Service Delivery are built using [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+These workflows available in Legal Service Delivery are built using .
 
 **Note:** All workflows for Legal Service Delivery applications are read-only by default.
 

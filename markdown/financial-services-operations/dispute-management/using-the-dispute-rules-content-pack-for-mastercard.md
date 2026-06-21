@@ -2,6 +2,7 @@
 title: Using the Dispute Rules Content Pack for Mastercard
 description: By using the Dispute Rules Content Pack for Mastercard's questionnaire, your agents can help customers complete the reason code mapping for their disputes. This mapping enables the agents to categorize the dispute and determine the chargeback eligibility according to the Mastercard Chargeback Guide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/using-the-dispute-rules-content-pack-for-mastercard.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -21,11 +22,11 @@ When an agent disputes a transaction on behalf of a customer, a dispute service 
 
 1.  Create a dispute service case.
 
-    The agent initiates the dispute service process by entering the initial case information and creating a dispute case on behalf of a customer. For more information, see [Creating a card dispute case](../../fso-card-operations/task/create-dispute-service-case.md).
+    The agent initiates the dispute service process by entering the initial case information and creating a dispute case on behalf of a customer. For more information, see [Creating a card dispute case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/create-dispute-service-case.md).
 
 2.  Initiate a dispute.
 
-    The agent enters the dispute details, including the account being referenced, the dispute amount, and the type of dispute. The agent provides the necessary information for the available options in the type of dispute \(Authorization, Point of Interaction Error, Fraud, Cardholder Disputes, Installment Billing Dispute, Cardholder Dispute Not Classified Elsewhere\). For more information, see [Initiate a dispute](../../fso-card-operations/task/initiating-dispute.md#).
+    The agent enters the dispute details, including the account being referenced, the dispute amount, and the type of dispute. The agent provides the necessary information for the available options in the type of dispute \(Authorization, Point of Interaction Error, Fraud, Cardholder Disputes, Installment Billing Dispute, Cardholder Dispute Not Classified Elsewhere\). For more information, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiating-dispute.md).
 
 3.  Submit the case for investigation.
 
@@ -35,10 +36,10 @@ When an agent disputes a transaction on behalf of a customer, a dispute service 
 
     The following example shows the State of transactions panel.
 
-    ![State of transactions panel that displays the disputed and resolved transactions for a card dispute.](../image/state-of-transactions-panel.png "State of transactions panel")
+    \[Omitted image "state-of-transactions-panel.png"\] Alt text: State of transactions panel that displays the disputed and resolved transactions for a card dispute.
 
 
-For more information, see [Submit for investigation](../../fso-card-operations/task/initiating-dispute.md#).
+For more information, see [Submit for investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiating-dispute.md).
 
-**Parent Topic:**[Dispute Rules Content Pack for Mastercard](dispute-rules-content-pack-for-mastercard-landing-page.md)
+**Parent Topic:**[Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Set up Microsoft Dynamics 365
 description: Set the system-level settings for Microsoft Dynamics 365.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-ms-dynamics-365.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub

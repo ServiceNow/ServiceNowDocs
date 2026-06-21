@@ -2,6 +2,7 @@
 title: Update a workplace floor plan
 description: Update a workplace floor plan by uploading a new plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-core/edit-workplace-floor-map-wsd.html
 release: yokohama
 product: Workplace Core
 classification: workplace-core
@@ -96,5 +97,5 @@ The following changes occur:
 
 A original floor record is updated with the floor plan attached to it. The Spaces related list is also updated. To view your changes, go to **Floor Plan Update Logs**.
 
-**Parent Topic:**[Providing your workplace data](../concept/providing-your-workplace-data-wsd.md)
+**Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md)
 

@@ -2,6 +2,7 @@
 title: Complete a supplier task from the Source-to-Pay Workspace
 description: You can mark a supplier task as complete when you finish all the activities related to that task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/complete-supplier-task.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,7 +24,7 @@ Role required: sn\_slm.fulfiller, sn\_slm.owner, or sn\_slm.admin
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Do one of the following:
 
@@ -36,5 +37,5 @@ Role required: sn\_slm.fulfiller, sn\_slm.owner, or sn\_slm.admin
     The state of the task updates to Closed complete.
 
 
-**Parent Topic:**[Manage supplier tasks from the Source-to-Pay Workspace](../concept/managing-tasks.md)
+**Parent Topic:**[Manage supplier tasks from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/managing-tasks.md)
 

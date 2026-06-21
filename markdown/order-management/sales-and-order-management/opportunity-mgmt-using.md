@@ -2,6 +2,7 @@
 title: Using Opportunity Management
 description: Use the Opportunity Management application to create your opportunity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/opportunity-mgmt-using.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management

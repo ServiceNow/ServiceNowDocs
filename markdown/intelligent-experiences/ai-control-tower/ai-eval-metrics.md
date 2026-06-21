@@ -2,13 +2,14 @@
 title: Evaluation metrics and calculations
 description: Metrics against which conversations are evaluated and calculation of adjusted scores.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/ai-eval-metrics.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
 last_updated: "2025-09-03"
 reading_time_minutes: 3
-breadcrumb: [Evaluation dashboard References, AI Control Tower Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Evaluation dashboard References, Reference, AI Control Tower, Enable AI experiences]
 ---
 
 # Evaluation metrics and calculations
@@ -72,5 +73,5 @@ Calculation of Auto eval user satisfaction score, Human user satisfaction score,
 -   The evaluator provides aggregated score per chat, even if there are multiple different requests made by user.
 -   Performance Analytics indicators are used to calculate the average score over time. If you run batch jobs on historical data, then by the definition of Performance Analytics indicators, these evaluations are counted on the evaluation date in aggregated scores and not counted for scores on the actual chat date.
 
-**Parent Topic:**[Evaluation dashboard References](ai-eval-references.md)
+**Parent Topic:**[Evaluation dashboard References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-references.md)
 

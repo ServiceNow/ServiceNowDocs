@@ -2,6 +2,7 @@
 title: Components installed with Application Insights
 description: Several types of components are installed with the installation of the Application Insights application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/installed-with-app-insights.html
 release: yokohama
 product: Platform Performance
 classification: platform-performance
@@ -15,7 +16,7 @@ breadcrumb: [Install Application Insights, Application Insights, Monitoring plat
 
 Several types of components are installed with the installation of the Application Insights application, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](../../plugins/task/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -147,5 +148,5 @@ Conditional threshold \[sn\_app\_insights\_trigger\_condition\]
 Stores the configuration of metric thresholds, which are a logical combination of the individual triggers in the sn\_app\_insights\_metric\_trigger table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Application Insights](../task/install-application-insights.md)
+</table>**Parent Topic:**[Install Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/install-application-insights.md)
 

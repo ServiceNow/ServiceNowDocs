@@ -2,6 +2,7 @@
 title: Integrating Document Intelligence with other applications
 description: Extend the capabilities of Document Intelligence to other ServiceNow applications. Other applications can take advantage of document classification and extraction using Document Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/document-intelligence/integrating-docintel.html
 release: yokohama
 product: Document Intelligence
 classification: document-intelligence
@@ -15,16 +16,16 @@ breadcrumb: [Document Intelligence, Enable AI experiences]
 
 Extend the capabilities of Document Intelligence to other ServiceNow applications. Other applications can take advantage of document classification and extraction using Document Intelligence.
 
--   **[Integrate with a custom application or workflow](../task/configure-integration-setup.md)**  
+-   **[Integrate with a custom application or workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/configure-integration-setup.md)**  
 Configure an integration to trigger document task processing or value extraction. Integrations can be used to quickly set up flows with other applications.
--   **[Integrate with Customer Service Management](integrate-docintel-csm.md)**  
+-   **[Integrate with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/integrate-docintel-csm.md)**  
 Document Intelligence provides document extraction capabilities to Customer Service Management \(CSM\). Extract relevant information from email and case attachments, such as credit card numbers or customer addresses, and add that information to cases.
--   **[Integrate with Financial Services Operations](integrate-docintel-fso.md)**  
+-   **[Integrate with Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/integrate-docintel-fso.md)**  
 Document Intelligence provides document extraction capabilities to Financial Services Operations \(FSO\).
--   **[Integrate with Accounts Payable Operations](integrate-docintel-apo.md)**  
+-   **[Integrate with Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/integrate-docintel-apo.md)**  
 Document Intelligence provides document extraction capabilities to Accounts Payable Operations \(com.sn\_ap\_ic\).
--   **[Integrate with Automation Center](integrate-docintel-automation-center.md)**  
+-   **[Integrate with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/integrate-docintel-automation-center.md)**  
 Use Automation Center to discover opportunities to automate document processing with Document Intelligence.
 
-**Parent Topic:**[Document Intelligence](document-intelligence-landing.md)
+**Parent Topic:**[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/document-intelligence-landing.md)
 

@@ -2,11 +2,12 @@
 title: Create a Now Assist approval task
 description: Create an Now Assist approval task to evaluate the assets. The Now Assist approval task is a sub task of an approval request where you will need approvals from other organizations or entities like Legal review, Security review, Data review, Piracy review etc.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using AI Control Tower, AI Control Tower, Enable AI experiences]
 ---
@@ -42,5 +43,5 @@ Role required: admin
     A Now Assist Approval task of an approval request is created.
 
 
-**Parent Topic:**[Using AI Control Tower](../concept/using-ai-control-tower.md)
+**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

@@ -2,6 +2,7 @@
 title: Setting up labor unions
 description: Set up HR Service Delivery labor unions to define information about the labor unions you support. You can associate an employee membership to a specific union and union chapter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/labor-unions-setting-up.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -101,12 +102,12 @@ The HR admin role can access, read, create, and edit:-   Unions
     The HR profile writer role contains the HR profile reader role. It can access and read Unions, Union Contacts, and Employee Union Membership. It can also edit Employee Union Membership.
 
 
--   **[Create a labor union](../task/labor-unions-create.md)**  
+-   **[Create a labor union](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions-create.md)**  
 Create a union with details that identify it.
--   **[Create a local chapter](../task/labor-unions-local-chapter.md)**  
+-   **[Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md)**  
 Use Local Chapters to set up and track the chapters of your union. Local chapters are children to labor unions.
--   **[Create union contacts](../task/labor-union-contacts.md)**  
+-   **[Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-union-contacts.md)**  
 Use Union Contacts to create and track the people who work for a union or local chapter organization.
 
-**Parent Topic:**[Labor unions](labor-unions.md)
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions.md)
 

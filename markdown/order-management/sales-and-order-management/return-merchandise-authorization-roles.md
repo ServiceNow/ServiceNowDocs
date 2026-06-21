@@ -2,6 +2,7 @@
 title: Return Merchandise Authorization roles
 description: Information about Return Merchandise Authorization \(RMA\) roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/return-merchandise-authorization-roles.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,5 +22,5 @@ Information about Return Merchandise Authorization \(RMA\) roles.
 |sn\_csm\_rma\_case.csm\_rma\_case\_viewer|This role provides granular access to read RMA cases and RMA case Lines.|None|
 |sn\_csm\_rma\_case.csm\_rma\_case\_writer|This role provides granular access to edit or update RMA cases and RMA case Lines.|sn\_csm\_rma\_case.viewer|
 
-**Parent Topic:**[Return Merchandise Authorization Case Management](return-merchandise-authorization-case-management-reference.md)
+**Parent Topic:**[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/return-merchandise-authorization-case-management-reference.md)
 

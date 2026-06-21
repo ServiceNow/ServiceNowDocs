@@ -2,6 +2,7 @@
 title: Set up Outside Firms for Legal Invention Disclosure
 description: Configure Outside Firm records to enable the assignment of outside counsels to review and process the patent filing of Legal Invention Disclosure requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-invention-disclosure/setup-outside-firms.html
 release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -44,7 +45,7 @@ Role required: sn\_lg\_matter.matter\_config
 
 ## What to do next
 
-[Set up Outside Counsels for Legal Invention Disclosure](setup-outside-counsels.md)
+[Set up Outside Counsels for Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/setup-outside-counsels.md)
 
-**Parent Topic:**[Configuring Legal Invention Disclosure](../concept/configure-legal-invention-disclosure.md)
+**Parent Topic:**[Configuring Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 

@@ -2,6 +2,7 @@
 title: Create AI model assets
 description: Create AI assets to track and manage the life cycles of your AI models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/create-ai-model-assets.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
@@ -213,7 +214,7 @@ Report that provides data for the metrics that you’re using to evaluate the ef
 
     -   To specify a prompt that is associated with the AI model, search for and select the prompt from the **AI prompts** field. You can specify more than one prompt.
 
-        **Note:** If an associated dataset or prompt isn’t available, you can add it by selecting **Add new** and then following the proceeding steps in [Create dataset assets](create-dataset-assets.md) or [Create prompt assets](create-prompt-assets.md).
+        **Note:** If an associated dataset or prompt isn’t available, you can add it by selecting **Add new** and then following the proceeding steps in [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-dataset-assets.md) or [Create prompt assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-prompt-assets.md).
 
 8.  Select **Submit for review**.
 
@@ -226,7 +227,7 @@ The AI model is added to your AI asset inventory. It automatically enters the on
 
 ## What to do next
 
-Users who are assigned the AI steward \(sn\_ai\_governance.ai\_steward\) role can start the review process to begin tracking and managing the life cycle of the AI model. For detailed instructions, see [Complete AI asset lifecycle](complete-ai-asset-lifecycle.md).
+Users who are assigned the AI steward \(sn\_ai\_governance.ai\_steward\) role can start the review process to begin tracking and managing the life cycle of the AI model. For detailed instructions, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md).
 
-**Parent Topic:**[Creating AI assets](../concept/creating-ai-assets.md)
+**Parent Topic:**[Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/creating-ai-assets.md)
 

@@ -2,9 +2,10 @@
 title: Deprecation information for all Yokohama features and products
 description: Cumulative release notes summary on deprecation information for Yokohama features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-deprecated-info.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-13"
 reading_time_minutes: 9
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -13,7 +14,7 @@ breadcrumb: [Release notes summaries for Yokohama features, Release notes for up
 
 Cumulative release notes summary on deprecation information for Yokohama features and products.
 
-For information about deprecated plugins in Yokohama, refer to Plugin information[Plugin information for all features and productsPlugin information](https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html)
+For information about deprecated plugins in Yokohama, refer to
 
 <table id="rn-summary-accessibility-table" class="custom-rows"><thead><tr><th class="filter">
 
@@ -69,7 +70,7 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
-CMDB Data manager on Core UI is now deprecated and no longer supported or available for new activation. CMDB Workspace provides the latest experience for this functionality. For more information, see [CMDB Data Manager experience in CMDB Workspace](https://www.servicenow.com/docs/access?context=data-mgr-exp-cmdb-workspace&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+CMDB Data manager on Core UI is now deprecated and no longer supported or available for new activation. CMDB Workspace provides the latest experience for this functionality. For more information, see .
 
 </td></tr><tr><td>
 
@@ -154,7 +155,7 @@ Instance Data Replication
 
 </td><td>
 
-Legacy replication sets are planned for deprecation by the Zurich release. To continue replicating data in Zurich, you must upgrade all legacy replication sets to V2. For details on upgrading legacy replication sets to V2 before the upgrade, see [Upgrading legacy replication sets to V2 in Instance Data Replication](https://www.servicenow.com/docs/access?context=upgrading-legacy-replication-sets-v2&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+Legacy replication sets are planned for deprecation by the Zurich release. To continue replicating data in Zurich, you must upgrade all legacy replication sets to V2. For details on upgrading legacy replication sets to V2 before the upgrade, see .
 
 </td></tr><tr><td>
 
@@ -267,7 +268,7 @@ Predictive Intelligence
 
 </td><td>
 
-With the Yokohama release, ITSM Predictive Intelligence Workbench is deprecated and no longer supported. To obtain the latest experience for this functionality, install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\). For more information, see [ITSM Predictive Intelligence Workbench release notes](../it-service-management/itsm-predictive-intelligence-workbench-rn.md).
+With the Yokohama release, ITSM Predictive Intelligence Workbench is deprecated and no longer supported. To obtain the latest experience for this functionality, install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\). For more information, see [ITSM Predictive Intelligence Workbench release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/itsm-predictive-intelligence-workbench-rn.md).
 
 </td></tr><tr><td>
 
@@ -299,7 +300,7 @@ Supplier Lifecycle Operations
 
 </td><td>
 
--   **[Source-to-Pay Workspace](https://www.servicenow.com/docs/access?context=supplier-manager-workspace&version=yokohama&pubname=yokohama-source-to-pay-operations&ft:locale=en-US)**
+-   ****
 
 Supplier Manager Workspace is being prepared for future deprecation. It’s hidden and no longer activated on new instances. Source-to-Pay Workspace provides the latest experience for this functionality.
 
@@ -327,5 +328,5 @@ Virtual Agent
 Support for Now Assist in Conversational IVR was removed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Yokohama features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
 

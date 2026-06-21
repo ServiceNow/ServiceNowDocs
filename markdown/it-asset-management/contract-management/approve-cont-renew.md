@@ -2,6 +2,7 @@
 title: Approve or reject a contract renewal request
 description: Approve or reject a contract renewal request for all Contract Renewal Request Lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/contract-management/approve-cont-renew.html
 release: yokohama
 product: Contract Management
 classification: contract-management
@@ -39,15 +40,15 @@ Role required: asset\_manager\(core UI and Hardware Asset Workspace only\), cont
 
 5.  Either approve or reject the contract renewal request.
 
-<table id="choicetable_lcq_2fl_4tb"><thead><tr><th align="left" id="d73731e134">
+<table id="choicetable_lcq_2fl_4tb"><thead><tr><th align="left" id="d74958e134">
 
 Action
 
-</th><th align="left" id="d73731e137">
+</th><th align="left" id="d74958e137">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d73731e143">
+</th></tr></thead><tbody><tr><td id="d74958e143">
 
 **Approve the request by selecting Approve**
 
@@ -57,7 +58,7 @@ Result
 -   The Renewal purchase order task or the Manual purchase order task is created.
 
 
-</td></tr><tr><td id="d73731e161">
+</td></tr><tr><td id="d74958e161">
 
 **Reject the request by selecting Reject**
 
@@ -73,5 +74,5 @@ Result
 
 ## What to do next
 
-[Receive a purchase order for contract assets](receive-po.md)
+[Receive a purchase order for contract assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/contract-management/receive-po.md)
 

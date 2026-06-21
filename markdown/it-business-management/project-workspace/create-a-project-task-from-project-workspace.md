@@ -2,6 +2,7 @@
 title: Create and assign project tasks from Project Workspace
 description: Add new tasks for your projects and assign them to your team directly from the new Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/create-a-project-task-from-project-workspace.html
 release: yokohama
 product: Project Workspace
 classification: project-workspace
@@ -23,13 +24,13 @@ Role required: it\_project\_manager
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Select **Add Task**.
 
     A new row is added to the bottom of the data grid of the planning page, with **New Task** as the default name for the task.
 
-    Alternatively, select a project task row and click the Add task below icon \(![Add task icon.](../../project-management/image/icon-add-task.png)\). This action adds a new task right below the task that you selected.![Add task.](../image/add-task-below-option.png)
+    Alternatively, select a project task row and click the Add task below icon \(\[Omitted image "icon-add-task.png"\] Alt text: Add task icon.\). This action adds a new task right below the task that you selected.\[Omitted image "add-task-below-option.png"\] Alt text: Add task.
 
 3.  Edit the details of the task.
 
@@ -48,14 +49,14 @@ Role required: it\_project\_manager
 
 ## What to do next
 
--   Make the new task a subtask of an existing task or a sub project by using the indent task icon\(![Indent task icon.](../image/icon-indent-task.png)\).
+-   Make the new task a subtask of an existing task or a sub project by using the indent task icon\(\[Omitted image "icon-indent-task.png"\] Alt text: Indent task icon.\).
 
-    ![Indent task.](../image/indent-task-option.png)
+    \[Omitted image "indent-task-option.png"\] Alt text: Indent task.
 
--   [Update a project task from the Project Workspace](update-project-task-from-project-workspace.md).
+-   [Update a project task from the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-project-task-from-project-workspace.md).
 
--   **[Update a project task from the Project Workspace](update-project-task-from-project-workspace.md)**  
+-   **[Update a project task from the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-project-task-from-project-workspace.md)**  
 Update the details of existing tasks from the planning page of the Project Workspace.
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-projects-pw.md)
 

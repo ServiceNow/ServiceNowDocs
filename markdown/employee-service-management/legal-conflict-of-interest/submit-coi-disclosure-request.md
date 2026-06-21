@@ -2,6 +2,7 @@
 title: Submit a new conflict of interest disclosure request
 description: Submit a request to obtain the legal clearance before you involve in any activity that might pose a risk of potential conflict with the primary employer duties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.html
 release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -58,5 +59,5 @@ Role required: sn\_lg\_ops.legal\_user
 
     -   Request Details: Review request details.
 
-**Parent Topic:**[Requesting legal clearance for conflict of interests](../concept/submitting-legal-coi-request.md)
+**Parent Topic:**[Requesting legal clearance for conflict of interests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/submitting-legal-coi-request.md)
 

@@ -2,6 +2,7 @@
 title: Lifecyle events for enterprise
 description: The Lifecyle events for enterprise application supports automation of onboarding and other employee lifecycle events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-journey-management/enterprise-onboarding-transitions-landing-page.html
 release: yokohama
 product: Employee Journey Management
 classification: employee-journey-management
@@ -19,15 +20,15 @@ The Lifecyle events for enterprise application helps to improve employee satisfa
 
 <table id="table-onbrd-trans-landing-page" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about automating the fulfillment of employee lifecycle events such as new hire onboarding, offboarding, relocation, promotion, parental leave, and more.](../concept/understanding-enterprise-onboarding-and-transitions.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about automating the fulfillment of employee lifecycle events such as new hire onboarding, offboarding, relocation, promotion, parental leave, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-journey-management/understanding-enterprise-onboarding-and-transitions.md)
 
 </td><td>
 
-[Configure ![Configure](../../../common/image/icon-set-up.png) Install and configure related apps and processes.](../task/onbrd-trans-install.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure Install and configure related apps and processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-journey-management/onbrd-trans-install.md)
 
 </td><td>
 
-[Integrate ![Integrate](../../../common/image/icon-integrate.png) Extend Enterprise Onboarding and Transitions features with integrated features and services.](../concept/onbrd-trans-integrations.md)
+[Integrate \[Omitted image "icon-integrate.png"\] Alt text: Integrate Extend Enterprise Onboarding and Transitions features with integrated features and services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-journey-management/onbrd-trans-integrations.md)
 
 </td></tr></tbody>
 </table>

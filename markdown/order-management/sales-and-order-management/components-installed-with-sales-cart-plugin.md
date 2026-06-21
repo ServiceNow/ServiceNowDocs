@@ -2,6 +2,7 @@
 title: Components installed with Sales Cart
 description: Several types of components are installed with activation of Sales Cart including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/components-installed-with-sales-cart-plugin.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -130,5 +131,5 @@ Sales Cart Pricing Adjustment
 Stores pricing adjustments applied to a sales cart or its line items, including adjustment type, value, and related references.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sales Customer Relationship Management reference](../concept/som-reference.md)
+</table>**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-reference.md)
 

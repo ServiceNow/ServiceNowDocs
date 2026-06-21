@@ -2,6 +2,7 @@
 title: Map ServiceNow Meeting Extensions app ID in ServiceNow
 description: Map the ServiceNow Meeting Extensions app ID in your ServiceNow instance to automatically add the meeting extensions tab in Microsoft Teams for a conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/map-meeting-extensibility-app-id-mt.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -54,7 +55,7 @@ Role required: Microsoft Teams admin
 
 ## What to do next
 
-After completing Meeting Extensions integration with Microsoft Teams, see the section [Meeting Extensions for Microsoft Teams](../concept/meeting-extensibility-ms-teams.md).
+After completing Meeting Extensions integration with Microsoft Teams, see the section [Meeting Extensions for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/meeting-extensibility-ms-teams.md).
 
-**Parent Topic:**[Integrate Meeting Extensions pre-published app with Microsoft Teams](../concept/setup-meeting-extensibility-multi-tenant.md)
+**Parent Topic:**[Integrate Meeting Extensions pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-multi-tenant.md)
 

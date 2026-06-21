@@ -2,6 +2,7 @@
 title: Legacy - Topics details
 description: Use the Topic Details page in the Conversational Analytics dashboard to see the details of the Virtual Agent \(VA\) topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/topic-details-subtab.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Use the Topic Details page in the Conversational Analytics dashboard to see the 
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -27,7 +28,7 @@ If you are an existing user of this dashboard and want to migrate analytics data
 
 You can select the visualized data selecting the topic from the list. Details about the data you selected displays.
 
-![Virtual Agent Analytics Dashboard topic details sub-tab.](../images/dashboard-topic-details-2.png)
+\[Omitted image "dashboard-topic-details-2.png"\] Alt text: Virtual Agent Analytics Dashboard topic details sub-tab.
 
 **Note:** The Y axis is evenly divided over 10 increments. If there are fewer than ten values on the Y axis, some values repeat, for example, five 1's in the previous image.
 
@@ -37,7 +38,7 @@ Use the list menu to display one of the chat interactions in the topic you selec
 
     You can display the number of occurrences and user sessions of the selected topic by selecting **Download**.
 
-    ![Event occurrences table showing date, event name, number of occurrences, and sessions.](../images/dashboard-topic-tab-instances-2.png)
+    \[Omitted image "dashboard-topic-tab-instances-2.png"\] Alt text: Event occurrences table showing date, event name, number of occurrences, and sessions.
 
     In this example, one chat session happened on 2020-12-16.
 
@@ -48,5 +49,5 @@ Use the list menu to display one of the chat interactions in the topic you selec
     The presumption is the user gave up after the last node they visited.
 
 
-**Parent Topic:**[Topics tab](topics-tab.md)
+**Parent Topic:**[Topics tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/topics-tab.md)
 

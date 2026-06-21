@@ -2,12 +2,13 @@
 title: GlideElementDynamicAttributeStore - Global
 description: The GlideElementDynamicAttributeStore API provides convenient script methods for managing dynamic attributes in the current glide record. Use these methods in conjunction with the GlideRecord API to get and set defined dynamic attribute values.Returns a GlideElementDynamicAttribute object representing the dynamic attribute located at the specified dynamic attribute path.Returns the set of dynamic attribute definitions that are present and stored in a field.Returns the set of dynamic attribute definitions that are pointed to in the schema.Returns the display value of the dynamic attribute located at a specified attribute path within a dynamic attribute store. If a display value is not available, it returns the internal value.Returns the internal value of the dynamic attribute pointed to by a passed-in attribute path within a dynamic attribute store.Sets the attribute pointed to by a specified attribute path in a dynamic attribute store to a specified value.Sets the values specified in the passed GlideElementDynamicAttrbuteStore object in the dynamic attribute store of the current GlideRecord element. The current element's data type must be set to Dynamic Attribute Store.Sets the display value of the dynamic attribute located at a specified path within the dynamic attribute store of the current GlideRecord element.Sets the display values specified in the passed GlideDynamicAttrbuteStore object in the dynamic attributes of the current GlideRecord element. The current element's data type must be set to Dynamic Attribute Store in the associated table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -17,17 +18,17 @@ The GlideElementDynamicAttributeStore API provides convenient script methods for
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
-This API extends the [GlideElement - Global](../../GlideElement_global/concept/c_GlideElementAPI.md#) API.
+This API extends the [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideElementAPI.md) API.
 
-For more information on dynamic attributes, see [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information on dynamic attributes, see .
 
 See also:
 
--   [GlideDynamicAttribute - Global](../../GlideDynamicAttribute/concept/GlideDynamicAttributeAPI.md#)
--   [GlideDynamicAttributeStore - Global](../../GlideDynamicAttributeStore/concept/GlideDynamicAttStoreAPI.md#)
--   [GlideTransientDynamicAttribute - Global](../../GlideTransientDynamicAttribute/concept/GlideTransientDynamicAttributeAPI.md#)
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideTransientDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideTransientDynamicAttributeAPI.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
 ## GlideElementDynamicAttributeStore - getDynamicAttribute\(String attributePath\)
 
@@ -116,7 +117,7 @@ Returns the set of dynamic attribute definitions that are present and stored in 
 
 |Type|Description|
 |----|-----------|
-|Array|Array of [GlideDynamicAttribute](../../GlideDynamicAttribute/concept/GlideDynamicAttributeAPI.md#) or [GlideTransientDynamicAttribute](../../GlideTransientDynamicAttribute/concept/GlideTransientDynamicAttributeAPI.md#) objects.|
+|Array|Array of [GlideDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) or [GlideTransientDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideTransientDynamicAttributeAPI.md) objects.|
 
 The following example shows how to retrieve the contents of a stored dynamic attribute, list the attributes it stored, and the attributes in its schema.
 
@@ -163,7 +164,7 @@ Returns the set of dynamic attribute definitions that are pointed to in the sche
 
 |Type|Description|
 |----|-----------|
-|Array|Array of [GlideDynamicAttribute](../../GlideDynamicAttribute/concept/GlideDynamicAttributeAPI.md#) or [GlideTransientDynamicAttribute](../../GlideTransientDynamicAttribute/concept/GlideTransientDynamicAttributeAPI.md#) objects.|
+|Array|Array of [GlideDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) or [GlideTransientDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideTransientDynamicAttributeAPI.md) objects.|
 
 The following example shows how to retrieve the contents of a stored dynamic attribute, list the attributes it stored, and the attributes in its schema.
 
@@ -282,7 +283,7 @@ if(gr_Inc.next()) {
 
 Returns the internal value of the dynamic attribute pointed to by a passed-in attribute path within a dynamic attribute store.
 
-For more information on dynamic attributes, see [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information on dynamic attributes, see .
 
 <table id="table_tnp_rld_bbc" class="parameters"><thead><tr><th>
 
@@ -360,7 +361,7 @@ Output:
 
 Sets the attribute pointed to by a specified attribute path in a dynamic attribute store to a specified value.
 
-For more information on dynamic attributes, see [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information on dynamic attributes, see .
 
 <table id="table_aj2_vmd_bbc" class="parameters"><thead><tr><th>
 
@@ -448,11 +449,11 @@ gr_Inc.insert();
 
 Sets the values specified in the passed GlideElementDynamicAttrbuteStore object in the dynamic attribute store of the current GlideRecord element. The current element's data type must be set to **Dynamic Attribute Store**.
 
-For more information on dynamic attributes, see [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information on dynamic attributes, see .
 
 |Name|Type|Description|
 |----|----|-----------|
-|values|[GlideDynamicAttributeStore](../../GlideDynamicAttributeStore/concept/GlideDynamicAttStoreAPI.md#)|Object that contains the values to set in the current element's dynamic schema. Values not specified in this object are not updated.|
+|values|[GlideDynamicAttributeStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)|Object that contains the values to set in the current element's dynamic schema. Values not specified in this object are not updated.|
 
 |Type|Description|
 |----|-----------|
@@ -612,7 +613,7 @@ values
 
 </td><td>
 
-[GlideDynamicAttributeStore](../../GlideDynamicAttributeStore/concept/GlideDynamicAttStoreAPI.md#)
+[GlideDynamicAttributeStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
 
 </td><td>
 

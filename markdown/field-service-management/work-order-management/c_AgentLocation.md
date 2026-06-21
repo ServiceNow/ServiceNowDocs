@@ -2,6 +2,7 @@
 title: Agent location
 description: The Field Service Management application calculates your location from a set of geographical coordinates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/c\_AgentLocation.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -23,5 +24,5 @@ These coordinates are updated at a predefined interval based on geolocation data
 -   Work order task number
 -   Location timestamp
 
-**Parent Topic:**[Execute a task from the agent map](../task/t_ExecuteATaskFromTheAgentMap.md)
+**Parent Topic:**[Execute a task from the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_ExecuteATaskFromTheAgentMap.md)
 

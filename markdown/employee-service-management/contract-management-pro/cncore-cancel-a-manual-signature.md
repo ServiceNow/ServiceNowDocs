@@ -2,6 +2,7 @@
 title: Cancel the signature process
 description: Cancel a wet signature process for contract documents that have been sent to signatories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-cancel-a-manual-signature.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
@@ -38,5 +39,5 @@ The state of the contract request should be Awaiting signature.
 
 The contract status updates to Signature cancelled, and a notification email is sent to all signatories.
 
-**Parent Topic:**[Signature workflow for a contract request](../concept/cncore-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
 

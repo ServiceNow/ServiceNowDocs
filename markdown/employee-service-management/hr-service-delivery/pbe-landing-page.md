@@ -2,6 +2,7 @@
 title: Persona Based Experiences
 description: Unlock leadership potential and strengthen workforce connections with ServiceNow Persona Based Experiences. Enhance team engagement, cultivate leadership excellence, and foster lasting relationships to drive organizational success. By simplifying management complexities, aligning workforce strengths with business goals, and maintaining connections with key audiences, you have a thriving, future-ready workforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/pbe-landing-page.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Managers face the dual challenge of driving business outcomes while supporting t
 
 <table id="table-benefits"><tbody><tr><td>
 
-![Equip leaders with tools](../../it-operations-management/image/wrench.png)
+\[Omitted image "wrench.png"\] Alt text: Equip leaders with tools
 
 </td><td>
 
@@ -32,7 +33,7 @@ Provide managers and leaders with actionable insights, data visualizations, and 
 
 </td></tr><tr><td>
 
-![Align workforce skills](../../it-service-management/image/landing-consolidate-services.png)
+\[Omitted image "landing-consolidate-services.png"\] Alt text: Align workforce skills
 
 </td><td>
 
@@ -43,7 +44,7 @@ Gain visibility into team capabilities, identify skill gaps, and implement plans
 
 </td></tr><tr><td>
 
-![Maintain relationships](../image/hr-stat-icon-1.png)
+\[Omitted image "hr-stat-icon-1.png"\] Alt text: Maintain relationships
 
 </td><td>
 
@@ -54,7 +55,7 @@ Create a sense of community by providing personalized services, networking oppor
 
 </td></tr><tr><td>
 
-![Optimize / Manage](../image/hr-stat-icon-3.png)
+\[Omitted image "hr-stat-icon-3.png"\] Alt text: Optimize / Manage
 
 </td><td>
 
@@ -65,7 +66,7 @@ Automate processes for onboarding, and career development while reducing manual 
 
 </td></tr><tr><td>
 
-![Dashboards and analytics solutions](../../it-service-management/image/landing-new-heights.png)
+\[Omitted image "landing-new-heights.png"\] Alt text: Dashboards and analytics solutions
 
 </td><td>
 
@@ -98,10 +99,10 @@ Data analytics provides leaders with actionable insights to optimize team perfor
 ## Get started
 
 -   Work with an implementation specialist to achieve your desired business outcomes. To learn more, visit the [Customer Success Center](https://www.servicenow.com/success.html).
--   Read the product documentation, beginning with the [Persona Based Experiences Overview](pbe-landing-page.md).
+-   Read the product documentation, beginning with the [Persona Based Experiences Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/pbe-landing-page.md).
 
 ## Products
 
--   [Manager Hub](manager-hub-overview.md)
--   [Leader Hub](../../td-leader-hub/concept/td-lh-landing.md)
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/manager-hub-overview.md)
+-   [Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/td-lh-landing.md)
 

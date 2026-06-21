@@ -2,6 +2,7 @@
 title: Deployment Request form in the Pipelines and Deployments app
 description: The Deployment Request form is accessed from within the App Engine Studio \(AES\) Pipelines and Deployments app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/deployment-req-form-d-and-p.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -211,5 +212,5 @@ Internal notes.
 </td></tr></tbody>
 </table>When you have saved the form, additional tabs for approval-related information display. The AES admin can use these tabs to approve the request.
 
-**Parent Topic:**[App Engine Studio reference](aes-reference.md)
+**Parent Topic:**[App Engine Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-reference.md)
 

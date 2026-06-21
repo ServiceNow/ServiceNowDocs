@@ -2,6 +2,7 @@
 title: Heatmap visualization example
 description: The heatmap data visualization shows the relationship between two table fields or indicator breakdowns as a spectrum of shading between two colors. The changes in color as you move along the axes reveal patterns in the value of one or both fields or breakdowns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-example-heatmap.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -15,7 +16,7 @@ The heatmap data visualization shows the relationship between two table fields o
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,13 +24,13 @@ By observing how cell colors change across each axis, you can observe if there a
 
 ## Procedure
 
-1.  Follow the first steps to [Create a dial visualization in the Visualization Designer](../../reporting/task/create-dv-dial-ac.md):
+1.  Follow the first steps to [Create a dial visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-dial-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
     2.  Select **New**.
 
-    3.  Select the Heatmap \(![Heatmap icon](../../reporting/image/inline-data-vis-heatmap.png)\) visualization type.
+    3.  Select the Heatmap \(\[Omitted image "inline-data-vis-heatmap.png"\] Alt text: Heatmap icon\) visualization type.
 
 2.  For the moment, skip the header and border section and move to the data source.
 
@@ -47,7 +48,7 @@ By observing how cell colors change across each axis, you can observe if there a
 
     A heatmap data visualization with the current value of the selected data appears in the Visualization Designer. Because the only information you've given is that the visualization represents closed incidents, you see only a single block indicating open incidents. You add columns and rows in the next step.
 
-    ![Animation showing selection of data source, application of filter and result](../../reporting/image/dv-ex-heatmap-data-source.gif)
+    \[Omitted image "dv-ex-heatmap-data-source.gif"\] Alt text: Animation showing selection of data source, application of filter and result
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -77,11 +78,11 @@ By observing how cell colors change across each axis, you can observe if there a
 
     2.  Choose `Descending` for the sort order.
 
-        The columns are ordered with those assignment groups having the highest number of incidents at the top. ![Heatmap report sorted by value in descending order with the legend](../../reporting/image/dv-ex-heatmap-sort-by.png)
+        The columns are ordered with those assignment groups having the highest number of incidents at the top. \[Omitted image "dv-ex-heatmap-sort-by.png"\] Alt text: Heatmap report sorted by value in descending order with the legend
 
 7.  Under Additional settings, select **Show zero**.
 
-    When you show zero, no cells are left empty. The cells with no open incidents also get a color coding.![Heatmap row with zeroes shown for columns with no associated incidents](../../reporting/image/dv-ex-heatmap-show-zero.png)
+    When you show zero, no cells are left empty. The cells with no open incidents also get a color coding.\[Omitted image "dv-ex-heatmap-show-zero.png"\] Alt text: Heatmap row with zeroes shown for columns with no associated incidents
 
 8.  Under Data update, configure how the audience interacts with the visualization.
 
@@ -118,5 +119,5 @@ By observing how cell colors change across each axis, you can observe if there a
 
 You've created a heatmap visualization sorted on two values and configured its values, labels, and data updates. You've also configured the visualization's colors.
 
-**Parent Topic:**[Create a heatmap visualization in the Visualization Designer](../../reporting/task/create-dv-heatmap-ac.md)
+**Parent Topic:**[Create a heatmap visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-heatmap-ac.md)
 

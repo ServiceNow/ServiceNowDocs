@@ -2,6 +2,7 @@
 title: Modify collected metrics under a child policy
 description: Turn off an existing DEX metric for certain configuration item \(CI\) criteria by creating a child policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/modify-collected-metrics.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -27,7 +28,7 @@ Metric collection on any device is managed using agent policies. Agent policies 
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  In the Device and application configuration section, select **Manage policies** on the Agent policies card.
 
@@ -45,7 +46,7 @@ Metric collection on any device is managed using agent policies. Agent policies 
 
 7.  Update the criteria for the child policy.
 
-    ![A new child policy form with the Name and a new parameter highlighted](../image/acc-policy-child.png)
+    \[Omitted image "acc-policy-child.png"\] Alt text: A new child policy form with the Name and a new parameter highlighted
 
 8.  Select **Save**.
 
@@ -57,7 +58,7 @@ Metric collection on any device is managed using agent policies. Agent policies 
 
 12. In the **Check Parameter** form, modify metrics as needed.
 
-    ![Check Parameter form with the metrics value being updated](../image/acc-policy-child-metrics.png)
+    \[Omitted image "acc-policy-child-metrics.png"\] Alt text: Check Parameter form with the metrics value being updated
 
 13. Select the **Update** button.
 

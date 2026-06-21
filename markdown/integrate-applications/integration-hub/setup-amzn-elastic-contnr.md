@@ -2,6 +2,7 @@
 title: Set up the Amazon Elastic Container Service spoke
 description: Integrate the ServiceNow instance and Amazon Elastic Container Service account by using the AWS credentials to authenticate ServiceNow requests.Create a credential record for the Amazon Elastic Container Service account. The Amazon Elastic Container Service spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-amzn-elastic-contnr.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub

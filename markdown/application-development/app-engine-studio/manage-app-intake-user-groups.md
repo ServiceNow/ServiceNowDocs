@@ -2,6 +2,7 @@
 title: Manage user groups for Application Intake
 description: Control which user groups are available for admins to give Creator Studio and App Engine Studio app development permissions to during the Application Intake process. These groups are managed on the User Groups Permission Types \[sn\_app\_intake\_permission\_type\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/manage-app-intake-user-groups.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -32,5 +33,5 @@ Role required: admin
 
 Confirm that you see the correct active groups in an application request in App Engine Management Center.
 
-**Parent Topic:**[Application Intake configuration tasks](../reference/app-intake-config-tasks.md)
+**Parent Topic:**[Application Intake configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/app-intake-config-tasks.md)
 

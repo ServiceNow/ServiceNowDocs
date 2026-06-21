@@ -2,6 +2,7 @@
 title: Test a check definition
 description: Test a check definition on an endpoint device to verify that the Agent Client Collector \(ACC\) plugin is linked and the custom remedial action defined in the Powershell script runs successfully.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/test-check-def.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Test a check definition on an endpoint device to verify that the Agent Client Co
 
 ## Before you begin
 
-Create a check definition and link it to the ACC plugin package. For more information, see [Create a check definition for a custom remedial action](create-check-def-remedial-actions.md).
+Create a check definition and link it to the ACC plugin package. For more information, see [Create a check definition for a custom remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/create-check-def-remedial-actions.md).
 
 Role required: admin
 
@@ -29,7 +30,7 @@ Role required: admin
 
 3.  In the Related Links section, select **Test check**.
 
-4.  In the Test Check dialog box, select the Lookup using list icon ![](../image/icon-magnifying-glass-blue.png) in the **Agent** field.
+4.  In the Test Check dialog box, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: in the **Agent** field.
 
 5.  In the Agent Client Collectors page, select the agent from the Name list.
 

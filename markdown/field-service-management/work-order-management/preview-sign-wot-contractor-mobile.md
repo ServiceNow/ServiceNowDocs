@@ -2,6 +2,7 @@
 title: Sign on closed work order on a mobile device
 description: Customers can digitally sign and confirm work order tasks that are closed with the Closed Complete or Closed Incomplete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/preview-sign-wot-contractor-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -46,5 +47,5 @@ When a work order is closed, you are notified with a link to the work order. Ope
 8.  Click **Accept and Confirm**.
 
 
-**Parent Topic:**[Field Service Contractor for mobile](../concept/wot-fsc.md)
+**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

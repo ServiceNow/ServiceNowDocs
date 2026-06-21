@@ -2,6 +2,7 @@
 title: Allocate subscriptions in Subscription Management
 description: Give users entitlement to ServiceNow products by allocating subscriptions in Subscription Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/allocate-subscriptions-v2.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -40,5 +41,5 @@ Role required: usage\_admin, sn\_sub\_man.admin, oradmin
 
 All group members are allocated subscriptions, giving each member entitlement to use the product. Subscribed users are updated during a daily scheduled job, so it might take up to a day for the changed to be reflected in Subscription Management.
 
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](../concept/managing-user-subscriptions-v2.md)
+**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/managing-user-subscriptions-v2.md)
 

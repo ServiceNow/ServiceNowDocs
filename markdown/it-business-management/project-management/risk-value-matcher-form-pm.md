@@ -2,6 +2,7 @@
 title: Risk value matcher form
 description: Learn about the fields of risk value matcher form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-management/risk-value-matcher-form-pm.html
 release: yokohama
 product: Project Management
 classification: project-management

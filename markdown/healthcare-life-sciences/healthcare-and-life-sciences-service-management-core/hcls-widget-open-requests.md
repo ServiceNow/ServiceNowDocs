@@ -2,6 +2,7 @@
 title: Open requests widget
 description: The Open requests widget displays a list of open requests including healthcare-related cases created for the patient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-widget-open-requests.html
 release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -15,7 +16,7 @@ breadcrumb: [Widget library, Reference, Healthcare and Life Sciences Service Man
 
 The Open requests widget displays a list of open requests including healthcare-related cases created for the patient.
 
-![Screenshot displaying the Open requests widget. For the text description, refer to the Key features section.](../image/hcls-widget-open-requests.png "Open requests widget")
+\[Omitted image "hcls-widget-open-requests.png"\] Alt text: Screenshot displaying the Open requests widget. For the text description, refer to the Key features section.
 
 ## Key features
 
@@ -25,5 +26,5 @@ The Open requests widget displays a list of open requests including healthcare-r
 
 The Open requests widget does not include instance options.
 
-**Parent Topic:**[Patient Portal widget library](hcls-pat-widget-library.md)
+**Parent Topic:**[Patient Portal widget library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pat-widget-library.md)
 

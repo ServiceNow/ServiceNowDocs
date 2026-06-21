@@ -2,6 +2,7 @@
 title: Create and use a variable in RPA Desktop Design Studio
 description: Create a variable in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/configure-variables-rpa-studio.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -50,7 +51,7 @@ There are two types of variables:
 
 4.  After the variable is created, drag the variable to the Design surface as shown in the following example.
 
-    ![Variable is dragged to the Design surface.](../image/create-variable-drag.png "Variable is dragged to the Design surface")
+    \[Omitted image "create-variable-drag.png"\] Alt text: Variable is dragged to the Design surface.
 
 5.  Connect the data and control ports of the variable to the corresponding ports of the other components.
 
@@ -68,13 +69,13 @@ There are two types of variables:
 
 7.  To use variables in either a Data In or a Data Out port, drag the variable onto the Data In or Data Out port on the Design surface as shown in the following example.
 
-    ![Drag the variable to the Data In port on the Design surface.](../image/variable-data-in-port-drag.png "Drag the variable to the Data In port on the Design surface")
+    \[Omitted image "variable-data-in-port-drag.png"\] Alt text: Drag the variable to the Data In port on the Design surface.
 
     The following example shows the output when the variable is dragged to the Data In port.
 
 
 
-    ![Output when the variable is dragged to the Data In port.](../image/varriable-data-port-output.png)
+    \[Omitted image "varriable-data-port-output.png"\] Alt text: Output when the variable is dragged to the Data In port.
 
     **Important:** You might come across the following behaviours when you drag and drop an automation component from the Toolbox, Object explorer, Project explorer, and Skills explorer to the Design surface:
 
@@ -91,5 +92,5 @@ There are two types of variables:
         -   If the port names are the same and the port data types are different, then the data connections are created only if the port data type is can be converted \(the source port data must be converted to target data type. This is known as typecasting or type conversion. For more information on type casting, see [Java Type Casting](https://www.w3schools.com/java/java_type_casting.asp)\). For example, integer to object but not object to integer.
         -   If the port names are the same and the port data type can be converted, but there is already an existing data connection between the two components, then no new data connection is created.
 
-**Parent Topic:**[Building automations](../concept/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-studio-build.md)
 

@@ -2,6 +2,7 @@
 title: Add a new Mentoring participant
 description: As a manager, add members from your team either as mentors or mentees to participate in mentorship program.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/mentoring/add-mentoring-participant.html
 release: yokohama
 product: Mentoring
 classification: mentoring
@@ -76,5 +77,5 @@ State of the participant.-   **Draft**
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Configuring mentoring](../concept/configuring-mentoring-egd.md)
+**Parent Topic:**[Configuring mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/configuring-mentoring-egd.md)
 

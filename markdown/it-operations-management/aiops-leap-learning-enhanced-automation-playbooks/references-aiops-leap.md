@@ -2,6 +2,7 @@
 title: AIOps LEAP reference
 description: These topics provide detailed field description information required during AIOps LEAP installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/references-aiops-leap.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

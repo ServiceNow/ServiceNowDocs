@@ -2,6 +2,7 @@
 title: HR Onboarding Executive dashboard
 description: This dashboard gives Human Resources executives insights into how smoothly new employees progress through onboarding activities. Real-time information gives them all the insights they need to measure and improve the influence of their team on providing a delightful employee experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-onboarding-exec-dashboard.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,11 +18,11 @@ This dashboard gives Human Resources executives insights into how smoothly new e
 
 **Note:** Starting with the Yokohama release, HR onboarding executive dashboard is being prepared for future deprecation.
 
-![Dashboard showing KPI that are relevant to an HR executive following new hires progress](../../../product/human-resources-global/image/hr-onboarding-exec-dashbrd.png "Overview tab")
+\[Omitted image "hr-onboarding-exec-dashbrd.png"\] Alt text: Dashboard showing KPI that are relevant to an HR executive following new hires progress
 
-![The HR Onboarding Executive dashboard Activities Analysis tab showing average number of onboarding activities](../../../product/human-resources-global/image/hr-onboarding-dashbrd-activity.png "Activity Analysis tab")
+\[Omitted image "hr-onboarding-dashbrd-activity.png"\] Alt text: The HR Onboarding Executive dashboard Activities Analysis tab showing average number of onboarding activities
 
-![HR Onboarding Executive dashboard showing cases, requests, and survey results](../../../product/human-resources-global/image/hr-onboarding-dashbrd-new-hire.png "New Hire Experience tab")
+\[Omitted image "hr-onboarding-dashbrd-new-hire.png"\] Alt text: HR Onboarding Executive dashboard showing cases, requests, and survey results
 
 ## End users and roles
 
@@ -121,8 +122,8 @@ The dashboards include the following visualizations:
 
 |Title|Type|
 |-----|----|
-|Overdue Activities - Employee|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|Overdue Activities - Fulfiller|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
+|Overdue Activities - Employee|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|Overdue Activities - Fulfiller|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
 
-**Parent Topic:**[HR Performance Analytics Dashboards](human-resources-content-pack.md)
+**Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
 

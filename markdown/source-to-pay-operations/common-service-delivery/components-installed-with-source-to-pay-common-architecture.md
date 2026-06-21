@@ -2,6 +2,7 @@
 title: Components installed with Source-to-Pay Common Architecture
 description: Several types of components are installed with the installation of the Source-to-Pay Common Architecture application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-common-architecture.html
 release: yokohama
 product: Common Service Delivery
 classification: common-service-delivery
@@ -939,5 +940,5 @@ User Controls\[sn\_shop\_user\_control\]
 Stores the mapping of a user and a shopping control.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install the Finance and Supply Chain common applications](../../source-to-pay-operations/task/install-fsc-common-apps.md)
+</table>**Parent Topic:**[Install the Finance and Supply Chain common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/common-service-delivery/install-fsc-common-apps.md)
 

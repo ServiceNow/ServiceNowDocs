@@ -2,6 +2,7 @@
 title: HR Service Delivery case restrictions for an Employee Relations agent
 description: Even Employee Relations agents with special privileges to view and modify a case are limited from viewing, modifying or restricting a case under certain circumstances for security purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-case-restriction-er-agent.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,11 +44,11 @@ Can view only the tasks assigned to them and not tasks assigned to other employe
 
 Case restriction configuration enables the HR confidential group members to restrict a case using the **Restrict** button available on the case.
 
-Restricting a case means that even if an Employee Relations agent is part of the HR confidential group and is involved in a case, the agent will not have access to that case. For more information on case restriction, see [Configure an employee relations case restriction](../task/hr-er-create-case-restriction.md).
+Restricting a case means that even if an Employee Relations agent is part of the HR confidential group and is involved in a case, the agent will not have access to that case. For more information on case restriction, see [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
 
 ## Security Configuration
 
-For Employee Relations COE \(Center of Excellence\), the HR matching rules skip any Employee Relations agent who meets the criteria so that the case is not assigned to them. For more information, see [Create a COE security policy](../task/hr-create-coe-security-policy.md).
+For Employee Relations COE \(Center of Excellence\), the HR matching rules skip any Employee Relations agent who meets the criteria so that the case is not assigned to them. For more information, see [Create a COE security policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-create-coe-security-policy.md).
 
-COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://www.servicenow.com/docs/access?context=access-control-rules&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are ServiceNow ACLs.
 

@@ -2,6 +2,7 @@
 title: Manage dashboard categories
 description: Dashboard categories enable users to filter the contents of the Dashboard library on terms or phrases assigned by the owner of the dashboard or the analytics\_categories\_admin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/db-categories-manage.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"

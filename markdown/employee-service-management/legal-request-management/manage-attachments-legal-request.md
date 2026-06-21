@@ -2,6 +2,7 @@
 title: Manage attachments for a legal request
 description: Upload supporting documentation, such as documents, email copies, images, or any other files into a legal request while you are working on it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-request-management/manage-attachments-legal-request.html
 release: yokohama
 product: Legal Request Management
 classification: legal-request-management
@@ -23,25 +24,25 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 You can also use these artifacts as a reference material to solve similar requests in future.
 
-If the [external storage option](associate-categories-practice-area.md) is enabled, you can manage document access for users to see these attachments. For more information, see [Document access in a legal request](../concept/document-access-legal-request.md#).
+If the [external storage option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/associate-categories-practice-area.md) is enabled, you can manage document access for users to see these attachments. For more information, see [Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/document-access-legal-request.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d73636e110">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d76151e110">
 
 Option
 
-</th><th align="left" id="d73636e113">
+</th><th align="left" id="d76151e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73636e119">
+</th></tr></thead><tbody><tr><td id="d76151e119">
 
 **As an assignee**
 
@@ -53,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d73636e148">
+</td></tr><tr><td id="d76151e148">
 
 **As a collaborator**
 
@@ -66,34 +67,34 @@ The state of the legal request is Work in progress and the document is Legal rev
 </td></tr></tbody>
 </table>4.  Manage documents in the legal request.
 
-<table id="choicetable_rpv_3f2_f5b"><thead><tr><th align="left" id="d73636e178">
+<table id="choicetable_rpv_3f2_f5b"><thead><tr><th align="left" id="d76151e178">
 
 Option
 
-</th><th align="left" id="d73636e181">
+</th><th align="left" id="d76151e181">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73636e187">
+</th></tr></thead><tbody><tr><td id="d76151e187">
 
 **Using the attachment icon**
 
 </td><td>
 
-The attachment icon ![Attachment icon.](../image/add-attachment-icon.png) appears in the Counsel Assist side bar when the external storage option is not enabled.
+The attachment icon \[Omitted image "add-attachment-icon.png"\] Alt text: Attachment icon. appears in the Counsel Assist side bar when the external storage option is not enabled.
 
  1.  In the Counsel Assist sidebar, select the attachment icon.
 2.  In the **Attachments** pane, add, rename, or remove attachments.
-    -   To upload a document, select the **Browse** button or the add attachment icon \(![Add attachment icon.](../../ppe-inventory-management/image/plus-icon.png)\) and select a file.
+    -   To upload a document, select the **Browse** button or the add attachment icon \(\[Omitted image "plus-icon.png"\] Alt text: Add attachment icon.\) and select a file.
 
-**Note:** The **Browse** button is available when the legal request has no attachments else the add attachment icon ![Add attachment icon.](../../ppe-inventory-management/image/plus-icon.png) is available.
+**Note:** The **Browse** button is available when the legal request has no attachments else the add attachment icon \[Omitted image "plus-icon.png"\] Alt text: Add attachment icon. is available.
 
-    -   To rename an attached file, select the actions icon \(![Actions icon.](../image/more-actions-icon.png)\), select **Rename** and update the file name.
+    -   To rename an attached file, select the actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: Actions icon.\), select **Rename** and update the file name.
     -   To delete an attached file, select the actions icon, select **Remove**.
     -   To download an attached file, select the actions icon, select **Download**.
 
 
-</td></tr><tr><td id="d73636e267">
+</td></tr><tr><td id="d76151e267">
 
 **Using the Documents tab**
 
@@ -112,12 +113,12 @@ In the **Documents** tab, a link to the document is listed in the **External URL
 
     1.  In the **Documents** tab, select a document from the list that you want to delete.
     2.  Select **Delete**.
-Access to these documents to various users is controlled in multiple ways. For more information on managing document access, see [Document access in a legal request](../concept/document-access-legal-request.md#).
+Access to these documents to various users is controlled in multiple ways. For more information on managing document access, see [Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/document-access-legal-request.md).
 
 </td></tr></tbody>
 </table>
--   **[Document access in a legal request](../concept/document-access-legal-request.md#)**  
+-   **[Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/document-access-legal-request.md)**  
 Documents attached to legal requests are uploaded to the configured external storage system when the external storage option is enabled on the legal request intake form. The access of these documents to various personas is controlled in real time, via a scheduled job, or on-demand.
 
-**Parent Topic:**[Work on a legal request](work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/work-on-legal-request.md)
 

@@ -2,6 +2,7 @@
 title: Delete an EVAM view configuration
 description: Delete an unnecessary Entity View Action Mapper \(EVAM\) view configuration from your AI Search application at any time helps to improve the search result performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/delete-evam-config-ais-admin-console.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -23,7 +24,7 @@ Role required: admin or ais\_admin
 
 Deleting unnecessary EVAM view configurations from the configuration bundle makes search faster in the AI Search application. For example, If the Q&amp;A Genius Result view configuration is rarely used in your search application and causes the search results to load slowly, deleting this configuration can improve the search result performance and simplify the interface.
 
-![Delete view configuration dialog box in the AI Search Admin console allows you to confirm the deletion of the view configuration using the Delete button.](../image/delete-evam-view-config-ais.png)
+\[Omitted image "delete-evam-view-config-ais.png"\] Alt text: Delete view configuration dialog box in the AI Search Admin console allows you to confirm the deletion of the view configuration using the Delete button.
 
 ## Procedure
 
@@ -37,12 +38,12 @@ Deleting unnecessary EVAM view configurations from the configuration bundle make
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Select the More Actions icon \(![](../../localization-framework/image/more-actions-icon.png)\), and then select **Delete** at the end of the view configuration row that you want to delete.
+5.  Select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\), and then select **Delete** at the end of the view configuration row that you want to delete.
 
 
 ## Result
 
 The selected view configuration is permanently deleted.
 
-**Parent Topic:**[Customizing the result-card interface in AI Search by using EVAM](../concept/ais-admin-console-managing-evam.md)
+**Parent Topic:**[Customizing the result-card interface in AI Search by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-admin-console-managing-evam.md)
 

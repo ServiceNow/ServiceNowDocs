@@ -2,6 +2,7 @@
 title: Real time anonymization failures
 description: Review real time anonymization\(RTA\) failures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/data-privacy-classic/real-time-anonymization-failures.html
 release: yokohama
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic

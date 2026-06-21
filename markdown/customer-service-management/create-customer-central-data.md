@@ -2,7 +2,10 @@
 title: Create data for Customer Central
 description: When upgrading from an existing release, customers must run a fix script to create data for Customer Central.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-customer-central-data.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Exploring Digital End-user Experience Self-service
 description: The Digital End-user Experience Self-service \(DEX Self-service\) enables you to monitor your device performance through the Device health check, which is available as a widget in Desktop Assistant and Employee Center, or conversationally through the Now Assist-enabled Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-self-service/exploring-dex-self-service.html
 release: yokohama
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -23,9 +24,9 @@ You can access Device health check from the following sources:
 
 |Source|Feature|
 |------|-------|
-|Employee Center|[Check your device's health using Employee Center](../task/check-your-device-s-using-employee-center.md)|
-|Desktop Assistant|[Check your device's health using Desktop Assistant](../task/check-your-device-s-health-using-desktop-assistant.md)|
-|Now Assist for ITSM Virtual Agent|[Check your device’s health using Now Assist for ITSM](../task/check-your-device-s-health-using-now-assist-for-itsm.md)|
+|Employee Center|[Check your device's health using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.md)|
+|Desktop Assistant|[Check your device's health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.md)|
+|Now Assist for ITSM Virtual Agent|[Check your device’s health using Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)|
 
 DEX Self-service provides the following device health categories and sub-categories in the base system.:
 
@@ -41,7 +42,7 @@ DEX Self-service provides the following device health categories and sub-categor
     -   Wifi signal strength
     -   VPN connectivity
 
-**Note:** To configure the categories, see [Configure DEX Self-service categories and subcategories](../task/configuring-dex-self-service-categories.md).
+**Note:** To configure the categories, see [Configure DEX Self-service categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-categories.md).
 
 DEX Self-service provides the following Issue configurations which are mapped to the relevant sub-categories:
 
@@ -61,16 +62,16 @@ DEX Self-service provides the following Issue configurations which are mapped to
 
 **Note:**
 
--   By default, DEX Self-service is inactive in the base system. To activate the DEX Self-service, enable the base system content provided in the **Issue Configuration** screen. For more information, see [Enable DEX Self-service for issue configurations](../task/enable-dex-self-service-issues.md).
--   To edit these issue configurations, see [Customize DEX Self-service issue configurations](../task/configuring-dex-self-service-issues.md).
--   For more information on issue configurations, see [Issue config in Digital End-user Experience Self-service](../reference/issue-config-in-dex-ss.md).
+-   By default, DEX Self-service is inactive in the base system. To activate the DEX Self-service, enable the base system content provided in the **Issue Configuration** screen. For more information, see [Enable DEX Self-service for issue configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/enable-dex-self-service-issues.md).
+-   To edit these issue configurations, see [Customize DEX Self-service issue configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-issues.md).
+-   For more information on issue configurations, see [Issue config in Digital End-user Experience Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/issue-config-in-dex-ss.md).
 
 The DEX Self-service provides the following device actions in the base system:
 
 -   MAC OS- The device action **Reinstall application** is available for Microsoft Teams, Microsoft Outlook, and Zoom applications.
 -   Windows OS- The device action **Clear disk space** is available.
 
-**Note:** To update the device actions, see [Configure DEX Self-service device actions](../task/configuring-dex-self-service-device-actions.md).
+**Note:** To update the device actions, see [Configure DEX Self-service device actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-device-actions.md).
 
 ## DEX Self-service Employee experience
 
@@ -81,10 +82,10 @@ The Employee experience includes the following:
     -   Desktop Assistant
     -   Now Assist for ITSM Virtual Agent
 
-        **Note:** To learn how the virtual agent enables you to check your device health, see [.](../task/check-your-device-s-health-using-now-assist-for-itsm.md)
+        **Note:** To learn how the virtual agent enables you to check your device health, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)
 
 2.  \(Optional\) Select the device to check its health if there are multiple devices.
-3.  View the health of the device by category. It could be Good, Average, or Poor To know about how the device health is calculated, see [Device heath check calculation](../reference/Device-health-check-calculation.md) .
+3.  View the health of the device by category. It could be Good, Average, or Poor To know about how the device health is calculated, see [Device heath check calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/Device-health-check-calculation.md) .
 
     **Note:** Additionally, you can access the Device actions tab irrespective of the device performance. The **Device actions** tab is available if you are accessing Device health check from the Employee Center or Desktop Assistant.
 
@@ -103,19 +104,19 @@ The Employee experience includes the following:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Check the health of the device and applications.|[Using Digital End-user Experience Self-service](using-dex-self-service.md)|Employees|
-|Use remedial actions – Diagnose the device health and use the suggested resolutions for poor performing subcategories. The resolutions are provided either in the form of remedial action button, URL, or self-help instructions. If the resolution does not improve the performance of the subcategories, fallback options are provided.|[Using Digital End-user Experience Self-service](using-dex-self-service.md)|Employees|
-|Use device actions - These actions can be used without having any issue associated with it.  These remedial actions allow the user to maintain good performance of the devices and applications.|[Using Digital End-user Experience Self-service](using-dex-self-service.md)|Employees|
-|Configure the categories, issues, and device actions.|[Configuring Digital End-user Experience Self-service](configuring-dex-self-service.md)|DEX Admin|
+|Check the health of the device and applications.|[Using Digital End-user Experience Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/using-dex-self-service.md)|Employees|
+|Use remedial actions – Diagnose the device health and use the suggested resolutions for poor performing subcategories. The resolutions are provided either in the form of remedial action button, URL, or self-help instructions. If the resolution does not improve the performance of the subcategories, fallback options are provided.|[Using Digital End-user Experience Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/using-dex-self-service.md)|Employees|
+|Use device actions - These actions can be used without having any issue associated with it.  These remedial actions allow the user to maintain good performance of the devices and applications.|[Using Digital End-user Experience Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/using-dex-self-service.md)|Employees|
+|Configure the categories, issues, and device actions.|[Configuring Digital End-user Experience Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service.md)|DEX Admin|
 
 ## What to explore next
 
 To learn more about configuring and using Digital End-user Experience Self-service, see:
 
--   [Configuring Digital End-user Experience Self-service](configuring-dex-self-service.md)
--   [Enable DEX Self-service for issue configurations](../task/enable-dex-self-service-issues.md)
--   [Using Digital End-user Experience Self-service](using-dex-self-service.md)
--   [Check your device's health using Employee Center](../task/check-your-device-s-using-employee-center.md)
--   [Check your device's health using Desktop Assistant](../task/check-your-device-s-health-using-desktop-assistant.md)
--   [Check your device’s health using Now Assist for ITSM](../task/check-your-device-s-health-using-now-assist-for-itsm.md)
+-   [Configuring Digital End-user Experience Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service.md)
+-   [Enable DEX Self-service for issue configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/enable-dex-self-service-issues.md)
+-   [Using Digital End-user Experience Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/using-dex-self-service.md)
+-   [Check your device's health using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.md)
+-   [Check your device's health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.md)
+-   [Check your device’s health using Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)
 

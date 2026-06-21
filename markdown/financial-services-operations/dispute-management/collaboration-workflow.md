@@ -2,6 +2,7 @@
 title: Collaboration workflow
 description: The collaboration workflow involves the issuer initiating pre-arbitration and arbitration for processing errors and consumer disputes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/collaboration-workflow.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -15,7 +16,7 @@ breadcrumb: [Pre-arbitration and arbitration, Working on a dispute case integrat
 
 The collaboration workflow involves the issuer initiating pre-arbitration and arbitration for processing errors and consumer disputes.
 
-![Infographic that highlights the pre-arbitration and arbitration process in collaboration workflow, which is described in the text following this image.](../image/collab-arb-pre-arb-workflows.png)
+\[Omitted image "collab-arb-pre-arb-workflows.png"\] Alt text: Infographic that highlights the pre-arbitration and arbitration process in collaboration workflow, which is described in the text following this image.
 
 1.  The issuer creates a dispute for a transaction. The acquirer can send a dispute response either fully accepting, partially accepting, or declining the dispute on behalf of the merchant. If the acquirer fully accepts the dispute, the dispute is closed and the flow ends.
 2.  If the acquirer partially accepts or declines the dispute, the flow continues.
@@ -25,5 +26,5 @@ The collaboration workflow involves the issuer initiating pre-arbitration and ar
 6.  The case is sent to Visa; they adjudicate and provide the final ruling on the case.
 7.  Either party can appeal the decision if they are dissatisfied, provided they meet the appeal guidelines from Visa.
 
-**Parent Topic:**[Pre-arbitration and arbitration](pre-arbitration-and-arbitration-overview.md)
+**Parent Topic:**[Pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)
 

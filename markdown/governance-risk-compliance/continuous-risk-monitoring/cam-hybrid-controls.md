@@ -2,6 +2,7 @@
 title: Set up baseline controls to generate controls and implement requirements
 description: Use the baseline controls to inherit a control, mark a control as common, or create a hybrid control. Create a hybrid control to inherit requirements partially from common controls and the remaining requirements are created for the control that was generated from the baseline control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-hybrid-controls.html
 release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -75,9 +76,9 @@ In CAM there are two ways to inherit controls from the control objectives source
 
         The Hybrid Controls related list appears with the selected baseline controls. A baseline control is an m2m of a control objective and an authorization package.
 
-        ![Set up baseline controls to inherit controls and requirements.](../image/cam-sort-baseline-controls.png "UI actions on baseline controls")
+        \[Omitted image "cam-sort-baseline-controls.png"\] Alt text: Set up baseline controls to inherit controls and requirements.
 
-    4.  Select the Display/hide hierarchical lists \(![Display or hide hierarchical lists icon.](../image/cam-display-hide-hierarch-icon.png)\) icon to see the inherited requirements.
+    4.  Select the Display/hide hierarchical lists \(\[Omitted image "cam-display-hide-hierarch-icon.png"\] Alt text: Display or hide hierarchical lists icon.\) icon to see the inherited requirements.
 
         All the other requirements that are not listed here are self implemented.
 

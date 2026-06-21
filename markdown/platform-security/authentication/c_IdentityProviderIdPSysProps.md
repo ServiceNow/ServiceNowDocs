@@ -2,6 +2,7 @@
 title: Identity Provider \(IdP\) system properties
 description: An IdP generally offers an XML document containing their authentication and logout metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/c\_IdentityProviderIdPSysProps.html
 release: yokohama
 product: Authentication
 classification: authentication

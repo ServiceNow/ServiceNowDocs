@@ -2,6 +2,7 @@
 title: Download the ServiceNow Security Operations application
 description: The first step in setting up the ServiceNow-to-Splunk integration is to download the ServiceNow Security Operations application from Splunkbase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/download-splunk-app-for-snow.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response

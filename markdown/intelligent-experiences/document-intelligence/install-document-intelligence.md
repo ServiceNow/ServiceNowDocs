@@ -2,6 +2,7 @@
 title: Install Document Intelligence
 description: You can install Document Intelligence \(sn\_docintel\) and Document Intelligence Admin \(sn\_docintel\_admin\) if you have the admin role. The sn\_docintel\_admin application installs related ServiceNow Store dependencies if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/document-intelligence/install-document-intelligence.html
 release: yokohama
 product: Document Intelligence
 classification: document-intelligence
@@ -30,7 +31,7 @@ The following items are installed with Document Intelligence:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Document Intelligence](../reference/installed-with-document-intelligence.md).
+For more information, see [Components installed with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/installed-with-document-intelligence.md).
 
 ## Procedure
 

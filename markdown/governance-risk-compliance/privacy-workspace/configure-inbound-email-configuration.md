@@ -2,6 +2,7 @@
 title: Configure inbound email to enable privacy case creation
 description: This configuration allows administrators to set up a designated email address that employees can use to report privacy cases through email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/configure-inbound-email-configuration.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -46,5 +47,5 @@ Role required: Privacy admin
         This email address is used by requesters to send privacy requests that automatically generate as cases.
 
 
-**Parent Topic:**[Configuring Privacy Management](../concept/configure-privacy-mgmt.md)
+**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 

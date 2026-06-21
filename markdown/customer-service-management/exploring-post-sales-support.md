@@ -2,7 +2,10 @@
 title: Customer Contracts and Entitlements
 description: The Customer Contracts and Entitlements application for Customer Service Management \(CSM\) provides solution to standardize, organize, manage, and use service contracts and entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/exploring-post-sales-support.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ You can use the Customer Contracts and Entitlements application to manage contra
 
 A service contract acts as an agreement between the customer and the organization. A contract includes the consumer or account details, the products covered, and the period for contract activation. Service contract lines store information related to a service or contract offer that is purchased or owned.
 
-Within each contract, entitlements can be defined to detail the specific commitments related to the contract. You can also create independent entitlements that define the type and level of support that a customer receives after a product is purchased. [Sold Products](../../customer-service-management/task/create-sold-item.md) eligible to be serviced under a service contract or entitlement can be added as covered products.
+Within each contract, entitlements can be defined to detail the specific commitments related to the contract. You can also create independent entitlements that define the type and level of support that a customer receives after a product is purchased. [Sold Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-sold-item.md) eligible to be serviced under a service contract or entitlement can be added as covered products.
 
 ## Key features of Customer Contracts and Entitlements
 

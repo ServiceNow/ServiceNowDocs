@@ -2,6 +2,7 @@
 title: Edit a project
 description: Edit a project from the Project Definition form to generate an updated process map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/edit-project.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -38,5 +39,5 @@ Role required: sn\_process\_optimization\_power\_user, or sn\_process\_optimizat
 
 Perform a data extraction on the updated project to view it in the Analyst Workbench, and apply relevant filters.
 
-**Parent Topic:**[Create a project using Classic view](create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/create-proj.md)
 

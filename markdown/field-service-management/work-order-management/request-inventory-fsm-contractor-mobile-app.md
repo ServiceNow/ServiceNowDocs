@@ -2,6 +2,7 @@
 title: Request inventory using the Field Service Contractor for mobile application
 description: Request inventory to receive parts when your stock gets low or you need a part for a particular work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/request-inventory-fsm-contractor-mobile-app.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -72,5 +73,5 @@ You can request the required parts from your group or personal stockroom. If you
 
 The Part Requirements and Transfer Orders related lists are updated automatically in the work order task form.
 
-**Parent Topic:**[Field Service Contractor for mobile](../concept/wot-fsc.md)
+**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

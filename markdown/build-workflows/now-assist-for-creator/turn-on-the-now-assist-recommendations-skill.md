@@ -2,6 +2,7 @@
 title: Turn on the flow recommendations skill
 description: Turn on the flow recommendations skill to get recommendations for the next step of your flow with generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/now-assist-for-creator/turn-on-the-now-assist-recommendations-skill.html
 release: yokohama
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -17,7 +18,7 @@ Turn on the flow recommendations skill to get recommendations for the next step 
 
 ## Before you begin
 
--   Install the Now Assist for Creator application. See [Install Now Assist for Creator](install-now-assist-for-creator.md).
+-   Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
 -   Role required: admin
 
 ## About this task
@@ -30,13 +31,13 @@ Turn on the flow recommendations skill to get recommendations for the next step 
 
 2.  In the workflow list, select **Creator**.
 
-    ![List of cards displayed when selecting Now Assist skills for Creator](../../now-assist-skills/image/na-creator-skill-cards.png)
+    \[Omitted image "na-creator-skill-cards.png"\] Alt text: List of cards displayed when selecting Now Assist skills for Creator
 
 3.  In the Flow recommendations card, select **Turn on**.
 
 4.  In the Flow recommendations card, verify that the skill is active.
 
-    ![Flow recommendations skill listed as active skill](../../now-assist-skills/image/na-creator-flow-skills-active.png)
+    \[Omitted image "na-creator-flow-skills-active.png"\] Alt text: Flow recommendations skill listed as active skill
 
 
 ## What to do next

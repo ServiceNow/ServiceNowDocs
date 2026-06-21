@@ -2,6 +2,7 @@
 title: Inventory Tracker template
 description: Build an application in App Engine Studio \(AES\) using the Inventory Tracker template to track the status of inventory and assets.The following tables, experiences, automated workflows, and roles are included in the Inventory Tracker template for App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/inventory-tracker-template.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,15 +18,15 @@ Build an application in App Engine Studio \(AES\) using the Inventory Tracker te
 
 To use the Inventory Tracker template, install this application from the ServiceNow Store.
 
-![Inventory Tracker template](../image/template-inventory-tracker.png)
+\[Omitted image "template-inventory-tracker.png"\] Alt text: Inventory Tracker template
 
 An inventory tracker app enables your business and teams to easily track what they have, where it is, and who has it. Anytime, anywhere, and on any device. If your company needs to track the stock of items, this app can be used as a stock management tool or inventory tracker at home or in a warehouse.
 
 This app covers three inventory use cases: consumables, loaners, and discontinued. Employees can request items via mobile app or web portal from any warehouse. Inventory managers can set reorder levels and will be automatically notified if an item is low on stock. Discontinued items with outstanding stock can still be requested but will not prompt inventory managers for reorder. Inventory managers can create items manually or by uploading a spreadsheet.
 
-For more information on creating an application using a template, see [Create your app using an application template](../task/use-app-template.md).
+For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/template-library.md)
 
 ## Inventory Tracker template contents
 

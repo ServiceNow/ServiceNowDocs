@@ -2,6 +2,7 @@
 title: Using Channel Management in Workforce Optimization for Customer Service
 description: Route work items to assigned groups using channels. Use skill-based routing to ensure that the right work goes to the right agent. Review real-time performance as your team is actively working on tasks across channels. When you see escalations, you can help your agents resolve issues without the requester being aware of it.Assist agents in real time by joining their chat conversation and collaborate on any record by connecting with the right people instantly to achieve faster resolution​.Monitor your agents' workload and the status of their work items against each service channel and queue so that you can get an idea of how efficiently work is moving through the queue and to your agents.Allocate pending work items to agents to complete the work. Track your agent's performance in overview so that you can analyze and review how that agent is doing.Change the default number of work items that an agent can handle for a service channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/use-channels-configurable-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -19,19 +20,19 @@ Monitor ongoing work and track your agents' performance of your direct reporting
 
 Review real-time performance as your team is actively working on tasks across channels in the following sections.
 
--   The **Overview** section displays the most important key performance indicators \(KPIs\) for each of the service channels in the form of cards. The KPIs appear as per the configuration order in the [service channels](setup-channels-queues-configurable-wfo-cs.md#). The KPI scores are real-time information and automatically refreshed at a regular interval of 5 seconds or as configured in the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [system property](../reference/components-installed-configurable-wfo-cs.md). Also, the service channel cards refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** [system property](../reference/components-installed-configurable-wfo-cs.md) or you can manually refresh by clicking the Refresh \(![Refresh overview data icon.](../image/refresh-sync-new.png)\) icon.
--   **Assignment Group** refines reports on all pages of channels and queues as per the groups selected. Interactive filter based on the assignment group configuration, you can select the assignment group on which you want to refine the data directly from the dashboard. You can disable the **Assignment Group** interactive filter using the **sn\_channel\_mgmt.filter\_config.enable** [system property](../reference/components-installed-configurable-wfo-cs.md).
+-   The **Overview** section displays the most important key performance indicators \(KPIs\) for each of the service channels in the form of cards. The KPIs appear as per the configuration order in the [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-channels-queues-configurable-wfo-cs.md). The KPI scores are real-time information and automatically refreshed at a regular interval of 5 seconds or as configured in the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md). Also, the service channel cards refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) or you can manually refresh by clicking the Refresh \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh overview data icon.\) icon.
+-   **Assignment Group** refines reports on all pages of channels and queues as per the groups selected. Interactive filter based on the assignment group configuration, you can select the assignment group on which you want to refine the data directly from the dashboard. You can disable the **Assignment Group** interactive filter using the **sn\_channel\_mgmt.filter\_config.enable** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md).
 -   The **Queued Work** tab displays the active work interactions being done within each service channel and queues.
 -   The **All Queues** tab displays the list of work items from queue-based routing. You can drill into specific queues and see the active interactions, work items and agents. Track real-time performance of your teams using key performance indicator reports in service channels and queues. Respond to incoming support requests by changing queues as per the priorities.
 -   The **All Agents** tab displays your agents’ ongoing work, presence statuses, channels, work load, and open capacity. You can drill into specific agents to view the agent's profile, on-going tasks, presence state's history, and override channel capacity.
 
 **Note:**
 
--   All lists display the real-time information and are automatically refreshed at a regular interval of 30 seconds or as set in the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [system property](../reference/components-installed-configurable-wfo-cs.md). You can also refresh the service channel cards manually by clicking the Refresh \(![Refresh overview data icon.](../image/refresh-sync-new.png)\) icon.
--   The **All Queues** and **All Agents** lists offer a default sorting and filtering mechanism that lets you to view the records of the selected fields based on a default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. Administrator can customize the default sort order by creating an implementation using the extension points. For more information, see [Use extension points to configure the sort order](setup-channels-queues-configurable-wfo-cs.md#).
--   You will also receive an email notification of your agents' work summary at the end of each day if a [scheduled report](setup-channels-queues-configurable-wfo-cs.md#) is configured.
+-   All lists display the real-time information and are automatically refreshed at a regular interval of 30 seconds or as set in the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md). You can also refresh the service channel cards manually by clicking the Refresh \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh overview data icon.\) icon.
+-   The **All Queues** and **All Agents** lists offer a default sorting and filtering mechanism that lets you to view the records of the selected fields based on a default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. Administrator can customize the default sort order by creating an implementation using the extension points. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-channels-queues-configurable-wfo-cs.md).
+-   You will also receive an email notification of your agents' work summary at the end of each day if a [scheduled report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-channels-queues-configurable-wfo-cs.md) is configured.
 
-**Parent Topic:**[Channel Management in Workforce Optimization for Customer Service](configurable-channels-wfo-cs.md)
+**Parent Topic:**[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-channels-wfo-cs.md)
 
 ## Assist agents by joining their chat conversations with their end users
 
@@ -52,7 +53,7 @@ View the work-in-progress chat interactions and​ see if any of the agents has 
 2.  Do one of the following:
 
     -   Click the **Help Requested** indicator's score on the landing page.
-    -   Click the Channels \(![Channels icon.](../image/channels-new.png)\) icon, select a queue and then click the **Active Interactions** tab.
+    -   Click the Channels \(\[Omitted image "channels-new.png"\] Alt text: Channels icon.\) icon, select a queue and then click the **Active Interactions** tab.
     -   In the **Lists** page, click **Conversation Monitoring** &gt; **Help Requested**.
 3.  Click the interaction record for which you want to join the conversation.
 
@@ -77,14 +78,14 @@ Track the real-time performance of each queue within your service channels. You 
 
 **Note:**
 
--   The records in the list appear based on the column's default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. For example, the **Available agents** column is by default in descending sort order. The administrator can change it to ascending order by creating an implementation using the **sn\_channel\_mgmt.ChannelMgmtExtensionPoint** extension point. For more information, see [Use extension points to configure the sort order](setup-channels-queues-configurable-wfo-cs.md#).
--   The records in the list refresh at a regular interval of 30 seconds. The administrator can change the interval using the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [property](../reference/components-installed-configurable-wfo-cs.md).
+-   The records in the list appear based on the column's default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. For example, the **Available agents** column is by default in descending sort order. The administrator can change it to ascending order by creating an implementation using the **sn\_channel\_mgmt.ChannelMgmtExtensionPoint** extension point. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-channels-queues-configurable-wfo-cs.md).
+-   The records in the list refresh at a regular interval of 30 seconds. The administrator can change the interval using the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md).
 
 ### Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Channels \(![Channels icon.](../image/channels-new.png)\) icon.
+2.  Click the Channels \(\[Omitted image "channels-new.png"\] Alt text: Channels icon.\) icon.
 
 3.  Click the **All Queues** tab.
 
@@ -124,19 +125,19 @@ The active work items remain in the queue and are pending manual allocation for 
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Channels \(![Channels icon.](../image/channels-new.png)\) icon.
+2.  Click the Channels \(\[Omitted image "channels-new.png"\] Alt text: Channels icon.\) icon.
 
 3.  Select the work item using one of the following actions.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d259354e667">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d197423e667">
 
 Navigate To
 
-</th><th align="left" id="d259354e670">
+</th><th align="left" id="d197423e670">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d259354e676">
+</th></tr></thead><tbody><tr><td id="d197423e676">
 
 **Queued Work tab**
 
@@ -144,7 +145,7 @@ Do this
 
 Select the work item.
 
-</td></tr><tr><td id="d259354e685">
+</td></tr><tr><td id="d197423e685">
 
 **Service Channel page**
 
@@ -155,7 +156,7 @@ Select the work item.
 3.  Select the work item.
 
 
-</td></tr><tr><td id="d259354e709">
+</td></tr><tr><td id="d197423e709">
 
 **All Queues**
 
@@ -175,7 +176,7 @@ Select the work item.
 
     For example, if the capacity is 0/4, it means that the agent's maximum capacity is four work items.
 
-    **Note:** You can allocate one work item at a time to the agent that you select. ![Agent availability.](../image/agent_availability_new.png)
+    **Note:** You can allocate one work item at a time to the agent that you select. \[Omitted image "agent\_availability\_new.png"\] Alt text: Agent availability.
 
 5.  Click **Allocate**.
 
@@ -209,14 +210,14 @@ View all agents and their real-time status. Drill down into a specific agent to 
 
 **Note:**
 
--   The records in the list appear based on the column's default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. For example, the agent's **Presence State** column is by default in ascending sort order. The administrator can change it to descending order by creating an implementation using the **sn\_channel\_mgmt.ChannelMgmtExtensionPoint** extension point. For more information, see [Use extension points to configure the sort order](setup-channels-queues-configurable-wfo-cs.md#).
--   The records in the list refresh at a regular interval of 30 seconds. The administrator can change the interval using the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [system property](../reference/components-installed-configurable-wfo-cs.md).
+-   The records in the list appear based on the column's default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. For example, the agent's **Presence State** column is by default in ascending sort order. The administrator can change it to descending order by creating an implementation using the **sn\_channel\_mgmt.ChannelMgmtExtensionPoint** extension point. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-channels-queues-configurable-wfo-cs.md).
+-   The records in the list refresh at a regular interval of 30 seconds. The administrator can change the interval using the **sn\_channel\_mgmt.list\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md).
 
 ### Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Channels \(![Channels icon.](../image/channels-new.png)\) icon.
+2.  Click the Channels \(\[Omitted image "channels-new.png"\] Alt text: Channels icon.\) icon.
 
 3.  Click the **All Agents** tab.
 
@@ -299,7 +300,7 @@ Amount of time the agent has been in the current presence status.
 </td></tr></tbody>
 </table>5.  Select an agent to drill down to view the details.
 
-    Agent profile page appears. The **Current Work** displays the data of the configured key performance indicators \(KPIs\). For more information, see [Configure KPIs for agents](setup-channels-queues-configurable-wfo-cs.md#).
+    Agent profile page appears. The **Current Work** displays the data of the configured key performance indicators \(KPIs\). For more information, see [Configure KPIs for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-channels-queues-configurable-wfo-cs.md).
 
 
 ## Override channel capacity for an agent
@@ -312,7 +313,7 @@ Role required: sn\_csm\_wfo\_workspa.manager
 
 ### About this task
 
-By default, the override capacity is valid for 12 hours. Administrator can change the duration using the**sn\_channel\_mgmt.awa\_agent\_temporary\_override\_time.minutes** [system property](../reference/components-installed-configurable-wfo-cs.md). The capacity resets to the previous value after the specified time. The scheduled job Reset Temporary Capacity Override is executed every two minutes to check the invalid or expired overridden capacity and resets to the previous value. You can override the channel capacity for a single agent at a time. Ensure that an agent to whom you want to override the channel capacity needs to be associated with Advanced Work Assignment and the required channels.
+By default, the override capacity is valid for 12 hours. Administrator can change the duration using the**sn\_channel\_mgmt.awa\_agent\_temporary\_override\_time.minutes** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md). The capacity resets to the previous value after the specified time. The scheduled job Reset Temporary Capacity Override is executed every two minutes to check the invalid or expired overridden capacity and resets to the previous value. You can override the channel capacity for a single agent at a time. Ensure that an agent to whom you want to override the channel capacity needs to be associated with Advanced Work Assignment and the required channels.
 
 ### Procedure
 
@@ -320,32 +321,32 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile page.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d259354e1167">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d197423e1167">
 
 To set the override capacity
 
-</th><th align="left" id="d259354e1170">
+</th><th align="left" id="d197423e1170">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d259354e1176">
+</th></tr></thead><tbody><tr><td id="d197423e1176">
 
 **From Channels**
 
 </td><td>
 
-1.  Click the Channels \(![Channels icon.](../image/channels-new.png)\) icon.
+1.  Click the Channels \(\[Omitted image "channels-new.png"\] Alt text: Channels icon.\) icon.
 2.  Click the **All Agents** tab.
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d259354e1206">
+</td></tr><tr><td id="d197423e1206">
 
 **From Teams**
 
 </td><td>
 
-1.  Click the Teams icon \(![Teams icon.](../image/teams-new.png)\).
+1.  Click the Teams icon \(\[Omitted image "teams-new.png"\] Alt text: Teams icon.\).
 2.  Click the KPI group.
 3.  Select **Group Members** tab.
 4.  Click an agent's record.
@@ -369,5 +370,5 @@ Do this
 
 ### Result
 
-The following snapshot shows an example of an agent' capacity override. A message appears indicating the capacity update is valid for the defined duration. The capacity resets to the previous value after the specified time.![Agent Capacity Override pop-up message displaying the current capacity of the agent along with a field to update the capacity.](../image/override_channel_capacity_new.png)
+The following snapshot shows an example of an agent' capacity override. A message appears indicating the capacity update is valid for the defined duration. The capacity resets to the previous value after the specified time.\[Omitted image "override\_channel\_capacity\_new.png"\] Alt text: Agent Capacity Override pop-up message displaying the current capacity of the agent along with a field to update the capacity.
 

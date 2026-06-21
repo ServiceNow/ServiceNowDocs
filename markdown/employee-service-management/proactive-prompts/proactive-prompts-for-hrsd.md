@@ -2,6 +2,7 @@
 title: Proactive Prompts
 description: Proactive Prompts enable contextual and proactive engagement for managers and employees by bringing actionable insights as prompts into their flow of work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.html
 release: yokohama
 product: Proactive Prompts
 classification: proactive-prompts
@@ -31,19 +32,19 @@ Engage managers and employees through prompts displayed on the most reachable ch
 
 <table id="table_rwk_drp_bwb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Detailed information on Proactive Prompts](proactive-prompts-explore.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Detailed information on Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/proactive-prompts/proactive-prompts-explore.md)
 
 </td><td>
 
-[Configure ![Configure](../../../common/image/icon-set-up.png) Configure the application to get started](proactive-prompts-config.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure Configure the application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/proactive-prompts/proactive-prompts-config.md)
 
 </td></tr><tr><td>
 
-[Use ![Use](../../../common/image/icon-workspace.png) Know how you can use Proactive Prompts](proactive-prompts-using.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use Know how you can use Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/proactive-prompts/proactive-prompts-using.md)
 
 </td><td>
 
-[Reference ![Reference](../../../common/image/icon-reference.png) Get details about tokens, data sources, actions and channels in Proactive Prompts](../reference/proactive-prompts-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Get details about tokens, data sources, actions and channels in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Generate an email response by using Now Assist for IT Service Management \(ITSM\)
 description: Generate an email as a recommendation based on the context of the incident using the Now Assist icon. Email responses can help agents save time and learn efficient ways to respond to requesters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-email-recommendation.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -37,17 +38,17 @@ As an agent, you can do these actions using the Now Assist icon:
 
 2.  Start composing an email using the More actions icon or from the activity stream.
 
-<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d349312e121">
+<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d344241e121">
 
 Method
 
-</th><th align="left" id="d349312e124">
+</th><th align="left" id="d344241e124">
 
 Instructions
 
-</th></tr></thead><tbody><tr><td id="d349312e130">
+</th></tr></thead><tbody><tr><td id="d344241e130">
 
-**Compose email using More actions icon![More actions icon](../image/now-assist-itsm-more-actions-icon.png)**
+**Compose email using More actions icon\[Omitted image "now-assist-itsm-more-actions-icon.png"\] Alt text: More actions icon**
 
 </td><td>
 
@@ -56,7 +57,7 @@ Instructions
 
 The Now Assist icon appears.
 
-3.  Select the Now Assist icon. ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png)
+3.  Select the Now Assist icon. \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
 Now Assist creates an email response as a recommendation.
 
@@ -64,33 +65,33 @@ Now Assist creates an email response as a recommendation.
 
 Get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
 
-</td></tr><tr><td id="d349312e192">
+</td></tr><tr><td id="d344241e192">
 
 **Compose an email from Activity stream**
 
 </td><td>
 
 1.  In the activity stream, select an existing email that you want to reply to.
-2.  Position your cursor within the email message window to see the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png).
-3.  Select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png) to get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
+2.  Position your cursor within the email message window to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
+3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
 
 
 </td></tr></tbody>
-</table>3.  In the email message window, either type a response or leave it empty, and then select the Now Assist ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png)icon.
+</table>3.  In the email message window, either type a response or leave it empty, and then select the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.icon.
 
-    ![Email response workspace screen with Now Assist option](../image/itsm-email-recommendation.png "Email response screen in Service Operations Workspace")
+    \[Omitted image "itsm-email-recommendation.png"\] Alt text: Email response workspace screen with Now Assist option
 
-    ![Email response CoreUI screen with Now Assist option](../image/itsm-email-recommendation-coreui.png "Email response screen in Core UI")
+    \[Omitted image "itsm-email-recommendation-coreui.png"\] Alt text: Email response CoreUI screen with Now Assist option
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d349312e286">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d344241e286">
 
 Email message window
 
-</th><th align="left" id="d349312e289">
+</th><th align="left" id="d344241e289">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d349312e298">
+</th></tr></thead><tbody><tr><td id="d344241e298">
 
 **Typed response**
 
@@ -100,7 +101,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d349312e315">
+</td></tr><tr><td id="d344241e315">
 
 **Left blank**
 

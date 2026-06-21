@@ -2,13 +2,14 @@
 title: Build a needs decision tree
 description: Define the decision tree question nodes, decision paths, and guidance for each decision path using Decision Tree Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/build-needs-decision-tree.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Build a needs decision tree
@@ -45,7 +46,7 @@ As you build your decision tree, for example after adding a decision node or a p
 
     5.  Select the type of answer for your question.
 
-        For a description of the answer types, see [Answer types for questions](https://www.servicenow.com/docs/access?context=type-of-answer&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US).
+        For a description of the answer types, see .
 
     6.  Add more questions.
 
@@ -53,31 +54,31 @@ As you build your decision tree, for example after adding a decision node or a p
 
 5.  Continue building your decision tree in Decision Tree Builder.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d32201e173">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34478e172">
 
 Option
 
-</th><th align="left" id="d32201e176">
+</th><th align="left" id="d34478e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d32201e182">
+</th></tr></thead><tbody><tr><td id="d34478e181">
 
-**[Determine the next node displayed in a decision tree](https://www.servicenow.com/docs/access?context=configure-path-in-gdb&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)**
+****
 
 </td><td>
 
 Configure a path to set the conditions for when the next question is displayed in a decision tree.
 
-</td></tr><tr><td id="d32201e193">
+</td></tr><tr><td id="d34478e191">
 
-**[Add a follow-up set of questions or instructions in a decision tree](https://www.servicenow.com/docs/access?context=configure-decision-node-in-gdb&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)**
+****
 
 </td><td>
 
 Configure a question node to add follow-up questions or instructions. An answer to these questions either leads to a guidance or a further set of questions.
 
-</td></tr><tr><td id="d32201e204">
+</td></tr><tr><td id="d34478e201">
 
 **Add a guidance node for the product recommendation questionnaire**
 
@@ -92,9 +93,9 @@ Configure a guidance node, which identifies the product recommendation displayed
 7.  Select **Save and close**.
 
 
-</td></tr><tr><td id="d32201e255">
+</td></tr><tr><td id="d34478e252">
 
-**[Activate a decision tree](https://www.servicenow.com/docs/access?context=activate-guided-decision-tree&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)**
+****
 
 </td><td>
 
@@ -104,5 +105,5 @@ When your decision tree is complete, select **Activate** in Decision Tree Builde
 </table>
 ## What to do next
 
-[Create a needs template and set the catalog relationship](create-publish-needs-template.md).
+[Create a needs template and set the catalog relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/create-publish-needs-template.md).
 

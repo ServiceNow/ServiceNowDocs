@@ -2,6 +2,7 @@
 title: Request document access for a legal matter
 description: Request access to documents attached to a legal matter that you do not currently have access to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-matter-management/request-doc-access-legal-matter.html
 release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
@@ -25,7 +26,7 @@ Role required: sn\_lg\_ops.legal\_user or sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **Matters**, click **All**.
 

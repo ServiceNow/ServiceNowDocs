@@ -2,6 +2,7 @@
 title: Service Catalog Open API
 description: The Service Catalog Open API provides endpoints to create and retrieve service specifications.Retrieves a list of all service specifications.Retrieves a service specification.Creates a service specification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/service-catalog-open-api.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
@@ -30,7 +31,7 @@ This API creates and updates data in the following tables.
 -   Service Specification \[sn\_prd\_pm\_service\_specification\]
 -   Specification Relationship \[sn\_prd\_pm\_specification\_relationship\]
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 
 ## Service Catalog Open - GET /servicespecification
 
@@ -99,7 +100,7 @@ Filter service specifications by state. Only specifications with a state matchin
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -151,7 +152,7 @@ For paginated queries, this header specifies the total number of records availab
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_qbg_4cm_lsb"><thead><tr><th>
 
@@ -861,7 +862,7 @@ Filter service specifications by state. Only specifications with a state matchin
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -873,7 +874,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -1857,7 +1858,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1870,7 +1871,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

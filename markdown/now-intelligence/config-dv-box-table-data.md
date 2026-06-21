@@ -2,6 +2,7 @@
 title: Table data options for box plot visualizations
 description: When you select a table data source for a box plot visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-box-table-data.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -31,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected a Table data source in [Create a box plot data visualization](../task/create-dv-box-plot.md).
+You have selected a Table data source in [Create a box plot data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-box-plot.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -51,7 +52,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -126,7 +127,7 @@ Field for \[table\]
 The field to group by. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](../concept/c_ReportRanges.md#).
+-   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_ReportRanges.md).
 
 </td></tr><tr><td>
 
@@ -136,7 +137,7 @@ Add alternative group by
 
 This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
 
-For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](../concept/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](../../performance-analytics/concept/select-group-runtime.md).
+For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-group-runtime.md).
 
 **Important:**
 
@@ -261,5 +262,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a box plot data visualization](../task/create-dv-box-plot.md)
+</table>**Parent Topic:**[Create a box plot data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-box-plot.md)
 

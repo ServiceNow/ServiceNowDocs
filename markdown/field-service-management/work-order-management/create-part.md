@@ -2,6 +2,7 @@
 title: Create and source a part requirement request on the Field Service Contractor Portal
 description: Create a part requirement request for a work order task that is assigned to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/create-part.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -46,5 +47,5 @@ Creating a part requirement request automatically creates a part requirement num
 
 The **Part Requirements** and **Transfer Orders** related list is updated automatically with the part requirements information in the work order task form.
 
-**Parent Topic:**[Requesting and receiving required parts](../concept/requesting-and-receiving-parts.md)
+**Parent Topic:**[Requesting and receiving required parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/requesting-and-receiving-parts.md)
 

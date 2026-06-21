@@ -2,6 +2,7 @@
 title: Viewing the requester dashboard
 description: View and manage cloud account requests on requester dashboard. The dashboard provides a view of requested, approved, denied, pending, and active accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/view-requester-dashboard.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
@@ -20,5 +21,5 @@ You can access the dashboard in either of two ways.
 -   Navigate to **All** &gt; **Cloud Workspace** &gt; **Home**
 -   Navigate to **Workspaces** &gt; **Cloud Workspace** &gt; **Home**
 
-![Cloud Workspace requester dashboard view](../image/cam-dashboard.gif "Requester dashboard")
+\[Omitted image "cam-dashboard.gif"\] Alt text: Cloud Workspace requester dashboard view
 

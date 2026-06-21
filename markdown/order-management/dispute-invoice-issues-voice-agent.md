@@ -2,6 +2,7 @@
 title: dispute invoice issues voice agent
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/dispute-invoice-issues-voice-agent.html
 release: yokohama
 topic_type: task
 last_updated: "2026-01-29"
@@ -20,5 +21,5 @@ Role required: admin
 1.  Navigate to **All** &gt; **** &gt; ****.
 
 
-**Parent Topic:**[Standalone agents in Order Management](../concept/now-assist-om-ai-agents.md)
+**Parent Topic:**[Standalone agents in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-om-ai-agents.md)
 

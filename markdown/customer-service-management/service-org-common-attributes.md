@@ -2,7 +2,10 @@
 title: Common attributes of service organizations
 description: By using common attributes to establish a unified reference architecture and data model, you can extend the Customer Service Management data model to support your service organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/service-org-common-attributes.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

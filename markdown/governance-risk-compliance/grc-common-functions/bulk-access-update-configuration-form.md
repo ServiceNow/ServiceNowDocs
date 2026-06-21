@@ -2,6 +2,7 @@
 title: Bulk access update configuration form
 description: Use the Bulk access update configuration form to create a bulk configuration within the Entity Based Access application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/bulk-access-update-configuration-form.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
@@ -72,5 +73,5 @@ Add a record type
 Option to select the record type that you want to include in the scope.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Set access restrictions using an entity based record access update utility](../task/create-a-bulk-access-update-configuration.md)
+</table>**Parent Topic:**[Set access restrictions using an entity based record access update utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/create-a-bulk-access-update-configuration.md)
 

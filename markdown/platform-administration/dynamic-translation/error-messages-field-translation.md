@@ -2,6 +2,7 @@
 title: Error messages in Dynamic Translation
 description: You must be aware of a few error scenarios while using Dynamic Translation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/dynamic-translation/error-messages-field-translation.html
 release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation

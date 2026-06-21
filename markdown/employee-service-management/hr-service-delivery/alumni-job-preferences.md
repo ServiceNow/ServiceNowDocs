@@ -2,6 +2,7 @@
 title: Alumni job preferences
 description: Set your preferences for tailored job opportunities. Jobs that best match your profile are recommended based on these preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/alumni-job-preferences.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -38,7 +39,7 @@ Role required: sn\_asc.alumni
     **Note:**
 
     -   If you don't select any option for a question, that question won’t be considered for score calculation.
-    -   Alumni preferences are configured by your organizations administrator. You can see different preferences depending on how your organization configures the preferences. For more information, see [Configure alumni job preferences](config-alumni-job-pref.md).
+    -   Alumni preferences are configured by your organizations administrator. You can see different preferences depending on how your organization configures the preferences. For more information, see [Configure alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/config-alumni-job-pref.md).
 4.  Select **Save**.
 
 
