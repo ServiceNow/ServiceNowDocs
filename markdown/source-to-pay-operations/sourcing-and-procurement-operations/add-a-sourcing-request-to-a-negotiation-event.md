@@ -2,6 +2,7 @@
 title: Add a sourcing request to a negotiation event
 description: You can manage multi-supplier and multi-product negotiations by mapping similar sourcing requests and related negotiations to a negotiation event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/add-a-sourcing-request-to-a-negotiation-event.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -52,9 +53,9 @@ A new negotiation event is created, which is attached to the selected sourcing r
 
 View an overview of the negotiation event in the **Overview** tab, and other associated information in relevant tabs such as **Details**, **Negotiations**, **Sourcing Requests**, **Purchase Lines**, **Cases**, **Purchasing Tasks**, and **Contracts**.
 
-You can add more sourcing requests to this negotiation event by selecting **Add sourcing request**. Negotiation records are automatically created for each supplier in the sourcing request. You can add more suppliers to this negotiation event as well. For more information, see [Work on a negotiation event](work-on-a-negotiation-event.md).
+You can add more sourcing requests to this negotiation event by selecting **Add sourcing request**. Negotiation records are automatically created for each supplier in the sourcing request. You can add more suppliers to this negotiation event as well. For more information, see [Work on a negotiation event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/work-on-a-negotiation-event.md).
 
-In compliance with fair competition laws, qualify all your suppliers in that negotiation event before you start negotiating with any of them. For more information, see [Supplier qualification](../reference/supplier-qualification.md).
+In compliance with fair competition laws, qualify all your suppliers in that negotiation event before you start negotiating with any of them. For more information, see [Supplier qualification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/supplier-qualification.md).
 
-**Parent Topic:**[Source-to-Pay Workspace](../concept/procurement-specialist-workspace.md)
+**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/procurement-specialist-workspace.md)
 

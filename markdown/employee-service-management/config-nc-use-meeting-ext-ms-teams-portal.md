@@ -2,7 +2,10 @@
 title: Create and configure an app for Meeting Extensions in the Microsoft Teams Developer Portal
 description: Create and configure an app for Meeting Extensions in Microsoft Teams Developer Portal to fetch incident details during the conference call in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/config-nc-use-meeting-ext-ms-teams-portal.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -15,7 +18,7 @@ Create and configure an app for Meeting Extensions in Microsoft Teams Developer 
 
 ## Before you begin
 
-Ensure you have installed Notify connector and other required plugins on your ServiceNow® instance. For more information, see [Install Meeting Extensions for Microsoft Teams](install-meeting-ext-ms-teams.md).
+Ensure you have installed Notify connector and other required plugins on your ServiceNow® instance. For more information, see [Install Meeting Extensions for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/install-meeting-ext-ms-teams.md).
 
 Role required: Microsoft Teams admin
 
@@ -177,7 +180,7 @@ Option to allow users to reconfigure the Meeting Extensions app.
 
 4.  Go to **Single sign-on** and enter the Application ID URI in the format `api://<instance_name>.service-now.com/<client ID in Microsoft Azure>`.
 
-    For information about the Client ID, see [Create an app in Microsoft Teams to enable making calls](../../notify2/task/create-app-ms-teams.md).
+    For information about the Client ID, see [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-app-ms-teams.md).
 
 5.  Add a domain.
 
@@ -192,7 +195,7 @@ Option to allow users to reconfigure the Meeting Extensions app.
 
 ## What to do next
 
-[Upload the app manifest in Microsoft Teams](upload-app-manifest-ms-teams.md).
+[Upload the app manifest in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/upload-app-manifest-ms-teams.md).
 
-**Parent Topic:**[Integrate Meeting Extensions self-configured app with Microsoft Teams](../concept/setup-meeting-extensibility-single-tenant.md)
+**Parent Topic:**[Integrate Meeting Extensions self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/setup-meeting-extensibility-single-tenant.md)
 

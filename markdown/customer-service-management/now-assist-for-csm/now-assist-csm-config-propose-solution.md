@@ -2,6 +2,7 @@
 title: Configure the Propose Solution UI action and declarative action
 description: Add generative AI-specific functionality to the Case form by configuring the Propose Solution UI action and declarative action that are included with the Now Assist for Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-config-propose-solution.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -40,7 +41,7 @@ To use the generative AI functionality, you must deactivate the Propose Solution
 
     2.  Configure the list to show the Application column.
 
-        For more information on how to configure a list, see [Configure the list layout](https://www.servicenow.com/docs/access?context=t_ConfigureTheListLayout&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+        For more information on how to configure a list, see .
 
     3.  Filter the list to display **Propose Solution** in the **Name** field.
 

@@ -2,7 +2,10 @@
 title: Platform Health
 description: Tech Key Performance Indicators\(KPIs\) show how closely you're aligned to ServiceNow technical best practices, offer recommendations for improvement, and help you monitor your instance health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/impact-tech-kpis.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -32,13 +35,13 @@ Tech KPIs empowers you with a easy to use visualizations of your organizations t
 
 ## Monitor
 
-As a benefit of Advanced and Total packages, Impact delivers a daily performance summary of how your instances are doing. You can dive deeper into performance details using Instance Observer, which is supported on all Impact packages, pulling real-time metrics and set up performance alerts. See [Impact Instance Observer](io-overview.md) for more information.
+As a benefit of Advanced and Total packages, Impact delivers a daily performance summary of how your instances are doing. You can dive deeper into performance details using Instance Observer, which is supported on all Impact packages, pulling real-time metrics and set up performance alerts. See [Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/io-overview.md) for more information.
 
 ## Support
 
 Get a dashboard view of your company's cases, case response time, case trends, and changes. You can view specific details on changes or cases in Now Support.
 
-![Cases and trends charts](../image/platform-health-charts.png)
+\[Omitted image "platform-health-charts.png"\] Alt text: Cases and trends charts
 
-Receive developer support to help troubleshoot custom code and configurations. View the consumption report to see named contacts who can request developer support. See [Impact Developer Support](developer-support.md) for more information.
+Receive developer support to help troubleshoot custom code and configurations. View the consumption report to see named contacts who can request developer support. See [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/developer-support.md) for more information.
 

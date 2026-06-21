@@ -2,6 +2,7 @@
 title: Create dependencies for an Enterprise Asset Management work order task
 description: If your work order task requires any upstream or downstream task dependencies, add them to your work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-dependencies-eam-work-order-task.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -38,5 +39,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
 6.  Select **Save**.
 
 
-**Parent Topic:**[Create a work order for an enterprise asset](create-eam-work-order.md)
+**Parent Topic:**[Create a work order for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-eam-work-order.md)
 

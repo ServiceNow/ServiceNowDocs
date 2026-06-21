@@ -2,6 +2,7 @@
 title: Update a non-monetary benefit plan breakdown for a project
 description: Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/update-a-non-monetary-benefit-plan-breakdown-for-a-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -29,7 +30,7 @@ Role required: it\_project\_manager
 
 4.  Open the required non-monetary benefit plan.
 
-5.  In the Non-monetary Benefit Plan Breakdowns related list, click the information icon \(![information icon.](../../planning-and-policy/image/informationicon.png)\) for a non-monetary benefit plan breakdown.
+5.  In the Non-monetary Benefit Plan Breakdowns related list, click the information icon \(\[Omitted image "informationicon.png"\] Alt text: information icon.\) for a non-monetary benefit plan breakdown.
 
 6.  Click **Open Record**.
 
@@ -42,12 +43,12 @@ Role required: it\_project\_manager
     |**Measure**|Measure type specified in the benefit plan.|
     |**Actual benefit**|Actual benefit that is incurred from the project or demand.|
     |**Benefit plan**|Benefit plan to which the benefit plan breakdown belongs.|
-    |**Fiscal period**|Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://www.servicenow.com/docs/access?context=c_FiscalCalendar&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).|
+    |**Fiscal period**|Fiscals generated at the period level. For information on periods, see fiscal calendars.|
     |**Entered benefit**|Benefit in entered value.|
     |**Variance**|The difference between the estimated and actual benefit.|
 
 8.  Click **Update**.
 
 
-**Parent Topic:**[Create a non-monetary benefit plan for a project](create-a-non-monetary-benefit-plan-for-a-project.md)
+**Parent Topic:**[Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md)
 

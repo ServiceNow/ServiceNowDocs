@@ -2,6 +2,7 @@
 title: Questions in data visualizations
 description: You can group or filter table data in data visualizations by questions. The table must support questions.In visualizations of data from the Task \[task\] hierarchy of tables, you can use questions defined for the table to filter or group the data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/questions-in-dv.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-03-11"
@@ -31,9 +32,9 @@ If there is a Record Producer associated with the table, variables defined in th
 -   Macro
 -   Container
 
-You cannot group by Record Producer variables. For more information, see [Record Producer](https://www.servicenow.com/docs/access?context=c_RecordProducer&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+You cannot group by Record Producer variables. For more information, see Record Producer.
 
-**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 
 ## Use questions in data visualizations
 
@@ -55,7 +56,7 @@ Use a question as a filter, a group by, or an alternative group by.
 
 2.  Select one of the following options.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d179869e204">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d164390e204">
 
 **Use the question as a filter**
 
@@ -63,7 +64,7 @@ Use a question as a filter, a group by, or an alternative group by.
 
 Add or edit a data source and select **Add custom conditions**. If any custom conditions have already been defined, select **+ Add**. Then select **Questions** at the bottom of the field list.
 
-</td></tr><tr><td id="d179869e222">
+</td></tr><tr><td id="d164390e222">
 
 **Add the question as a column in a Simple List**
 
@@ -71,7 +72,7 @@ Add or edit a data source and select **Add custom conditions**. If any custom co
 
 Under **Default display**, select **+ Add** next to Columns. Then select **Questions** at the bottom of the field list.
 
-</td></tr><tr><td id="d179869e240">
+</td></tr><tr><td id="d164390e240">
 
 **Add the question as a __group by__**
 
@@ -79,7 +80,7 @@ Under **Default display**, select **+ Add** next to Columns. Then select **Quest
 
 Under **Group by**, select **+ Add**. Then select **Questions** at the bottom of the field list.
 
-</td></tr><tr><td id="d179869e261">
+</td></tr><tr><td id="d164390e261">
 
 **Add the question as an alternative group by**
 
@@ -87,7 +88,7 @@ Under **Group by**, select **+ Add**. Then select **Questions** at the bottom of
 
 Under **Group by**, select **Add alternative group by**. Then select **Questions**.
 
-</td></tr><tr><td id="d179869e279">
+</td></tr><tr><td id="d164390e279">
 
 **Add the question as a column or row in a pivot table**
 
@@ -113,11 +114,11 @@ Under **Group by**, select **+Add** for Columns or Rows, then select **Questions
 
 Here you have opened the Edit data source page for a data visualization. No custom conditions have been defined for this data visualization, so you select **Add custom condition**.
 
-![The Add custom conditions link on the Add or Edit data source page.](../../par-for-workspace/image/dv-data-source-custom-conditions.png)
+\[Omitted image "dv-data-source-custom-conditions.png"\] Alt text: The Add custom conditions link on the Add or Edit data source page.
 
 Next, you scroll down the Select field list to question, select that, and select a question.
 
-![Selecting a question for the custom filter.](../../par-for-workspace/image/add-custom-filter-questions.png)
+\[Omitted image "add-custom-filter-questions.png"\] Alt text: Selecting a question for the custom filter.
 
 Finally you select the operator and the value, such as Is \| A4, and select **Apply**.
 
@@ -125,11 +126,11 @@ Finally you select the operator and the value, such as Is \| A4, and select **Ap
 
 Here you have a simple list showing records on the Incident table. You want to add a column for one of the questions. So, first you select **+ Add** next to Columns under the Default display settings.
 
-![Add button for columns in a Simple List configuration panel.](../../par-for-workspace/image/add-column-dv.png)
+\[Omitted image "add-column-dv.png"\] Alt text: Add button for columns in a Simple List configuration panel.
 
 The Choose a field pane opens. You scroll to the bottom and select **Questions**.
 
-![Choosing a field to add as a column to a simple list.](../../par-for-workspace/image/add-question-column-sl.png)
+\[Omitted image "add-question-column-sl.png"\] Alt text: Choosing a field to add as a column to a simple list.
 
 You select the question you want, such as Adobe Acrobat for a developer laptop, then press **OK**.
 
@@ -137,7 +138,7 @@ You select the question you want, such as Adobe Acrobat for a developer laptop, 
 
 In this case, you have a horizontal bar visualization of data in the Incident table. In the Group by section, you edit the group by. You scroll to the bottom of the list of fields and replace the Active field with questions, and select your question.
 
-![Selecting a Question in a Group by field.](../../par-for-workspace/image/question-dv-groupby.png)
+\[Omitted image "question-dv-groupby.png"\] Alt text: Selecting a Question in a Group by field.
 
 If you want to add a question as a row or column on a Pivot Table, the experience is almost identical.
 
@@ -145,5 +146,5 @@ If you want to add a question as a row or column on a Pivot Table, the experienc
 
 You want a different question as an alternative group by. You select **Add alternative group by** and scroll to **Questions**. Unlike other menus, its position is alphabetical instead of at the bottom. You expand **Questions**, and the list changes to a selection of questions. Not all questions that were available as a group by are available as an alternative group by. Anyway, you select some questions and press **Apply all**.
 
-![Additional group by selector for questions.](../../par-for-workspace/image/dv-alternative-group-by-questions.png)
+\[Omitted image "dv-alternative-group-by-questions.png"\] Alt text: Additional group by selector for questions.
 

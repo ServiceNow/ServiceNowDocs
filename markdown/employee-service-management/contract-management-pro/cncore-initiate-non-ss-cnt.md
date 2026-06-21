@@ -2,6 +2,7 @@
 title: Initiate a non-self-served contract request
 description: As a case owner or fulfiller, initiate the submission of contracts when you want third-party based contract documents to be sent for review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-initiate-non-ss-cnt.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -21,7 +22,7 @@ The initiated contract is assigned according to an assignment rule or manually b
 
 ## Before you begin
 
-Ensure that the initiate contract button has been added to your workspace. For more information, see [Add a workspace action button for initiating a contract request](cncore-config-initiate-cont.md).
+Ensure that the initiate contract button has been added to your workspace. For more information, see [Add a workspace action button for initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-config-initiate-cont.md).
 
 Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 
@@ -122,7 +123,7 @@ The default signature type is Electronic Signature.
 </td></tr></tbody>
 </table>## What to do next
 
-Add contract documents and submit the contract request. For more information, see [Add contract documents to non-self-served contract request](cncore-nss-add-cont-doc.md).
+Add contract documents and submit the contract request. For more information, see [Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md).
 
-**Parent Topic:**[Initiating a contract request](cncore-initiate-contract.md)
+**Parent Topic:**[Initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-initiate-contract.md)
 

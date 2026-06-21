@@ -2,7 +2,10 @@
 title: Cloud permissions required to collect the base system Cloud Configuration Governance configuration keys
 description: The Cloud Configuration Governance requires appropriate cloud permissions to collect the base system configuration keys from the cloud. Therefore, you must set the appropriate permissions in the cloud to suit the needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-permissions-for-collecting-config-keys.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -270,5 +273,5 @@ Azure profile with minimal permissions
 }
 ```
 
-**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-reference.md)
 

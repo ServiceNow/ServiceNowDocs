@@ -2,6 +2,7 @@
 title: AI Search Analytics dashboard
 description: The AI Search Analytics dashboard displays key performance metrics, trends, and reports for AI Search usage on its main page. Its Queries page displays additional information on search queries. Interactive filters enable analysts to view performance analytics for individual search applications over the last 180 days and to select the time frame to analyze.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/ai-search-analytics-dashboard.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -15,25 +16,25 @@ breadcrumb: [Advanced AI Search Management Tools, ServiceNow Store applications 
 
 The AI Search Analytics dashboard displays key performance metrics, trends, and reports for AI Search usage on its main page. Its Queries page displays additional information on search queries. Interactive filters enable analysts to view performance analytics for individual search applications over the last 180 days and to select the time frame to analyze.
 
-![AI Search Analytics dashboard - main page, Overview section.](../image/ais-analytics-db-1-overview.png "AI Search Analytics dashboard - main page, Overview section")
+\[Omitted image "ais-analytics-db-1-overview.png"\] Alt text: AI Search Analytics dashboard - main page, Overview section.
 
-![AI Search Analytics dashboard - main page, Search results section.](../image/ais-analytics-db-2-srch-results.png "AI Search Analytics dashboard - main page, Search results section")
+\[Omitted image "ais-analytics-db-2-srch-results.png"\] Alt text: AI Search Analytics dashboard - main page, Search results section.
 
-![AI Search Analytics dashboard - main page, Queries section.](../image/ais-analytics-db-3-queries.png "AI Search Analytics dashboard - main page, Queries section")
+\[Omitted image "ais-analytics-db-3-queries.png"\] Alt text: AI Search Analytics dashboard - main page, Queries section.
 
-![AI Search Analytics dashboard - main page, Top clicked results section.](../image/ais-analytics-db-4-top-results.png "AI Search Analytics dashboard - main page, Top clicked results section")
+\[Omitted image "ais-analytics-db-4-top-results.png"\] Alt text: AI Search Analytics dashboard - main page, Top clicked results section.
 
-![AI Search Analytics dashboard - Queries page, Queries over time report.](../image/ais-queries-dashboard-1.png "AI Search Analytics dashboard - Queries page, Queries over time report")
+\[Omitted image "ais-queries-dashboard-1.png"\] Alt text: AI Search Analytics dashboard - Queries page, Queries over time report.
 
-![AI Search Analytics dashboard - Queries page, Query Analysis section.](../image/ais-queries-dashboard-2.png "AI Search Analytics dashboard - Queries page, Query Analysis section")
+\[Omitted image "ais-queries-dashboard-2.png"\] Alt text: AI Search Analytics dashboard - Queries page, Query Analysis section.
 
-To access the AI Search Analytics dashboard, navigate to **All** &gt; **User Experience Analytics**, select an application's **Launch Dashboard** link, then select the Search Analytics icon ![](../image/icon-appsee-ai-srch-analytics.png) or link in the modules menu. To learn more about the User Experience Analytics dashboard, see [Overview of the dashboard](https://www.servicenow.com/docs/access?context=user-exp-analytics-dashboard&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+To access the AI Search Analytics dashboard, navigate to **All** &gt; **User Experience Analytics**, select an application's **Launch Dashboard** link, then select the Search Analytics icon \[Omitted image "icon-appsee-ai-srch-analytics.png"\] Alt text: or link in the modules menu. To learn more about the User Experience Analytics dashboard, see Overview of the dashboard.
 
-**Note:** If the dashboard doesn't load, follow the steps from [Configure Service Portal to send analytics data](adv-ais-enable-sp-analytics-data.md) to enable it.
+**Note:** If the dashboard doesn't load, follow the steps from [Configure Service Portal to send analytics data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/adv-ais-enable-sp-analytics-data.md) to enable it.
 
 To access the Queries page, select **View all** in the **Queries** section header of the main page.
 
-You can improve the visual experience by using the dark theme. For more information, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+You can improve the visual experience by using the dark theme. For more information, see .
 
 ## Required ServiceNow AI Platform roles
 
@@ -147,7 +148,7 @@ Search users
 
 </td><td>
 
-Line ![](../../performance-analytics/image/line-icon.png)
+Line \[Omitted image "line-icon.png"\] Alt text:
 
 </td><td>
 
@@ -168,7 +169,7 @@ Total queries
 
 </td><td>
 
-Line ![](../../performance-analytics/image/line-icon.png)
+Line \[Omitted image "line-icon.png"\] Alt text:
 
 </td><td>
 
@@ -186,7 +187,7 @@ Average response time
 
 </td><td>
 
-Donut ![](../../performance-analytics/image/donut-icon.png)
+Donut \[Omitted image "donut-icon.png"\] Alt text:
 
 </td><td>
 
@@ -209,7 +210,7 @@ Searches over time
 
 </td><td>
 
-Line ![](../../performance-analytics/image/line-icon.png)
+Line \[Omitted image "line-icon.png"\] Alt text:
 
 </td><td>
 
@@ -229,7 +230,7 @@ Genius Results \(triggered vs. clicked\)
 
 </td><td>
 
-Horizontal Bar ![](../../performance-analytics/image/horizontal-bar.png)
+Horizontal Bar \[Omitted image "horizontal-bar.png"\] Alt text:
 
 </td><td>
 
@@ -245,7 +246,7 @@ Average click position
 
 </td><td>
 
-Donut ![](../../performance-analytics/image/donut-icon.png)
+Donut \[Omitted image "donut-icon.png"\] Alt text:
 
 </td><td>
 
@@ -266,7 +267,7 @@ Self-Solved Rate
 
 </td><td>
 
-Line ![](../../performance-analytics/image/line-icon.png)
+Line \[Omitted image "line-icon.png"\] Alt text:
 
 </td><td>
 
@@ -288,7 +289,7 @@ Top queries
 
 </td><td>
 
-Table ![](../image/table-icon.png)
+Table \[Omitted image "table-icon.png"\] Alt text:
 
 </td><td>
 
@@ -306,7 +307,7 @@ Queries with no clicks
 
 </td><td>
 
-Table ![](../image/table-icon.png)
+Table \[Omitted image "table-icon.png"\] Alt text:
 
 </td><td>
 
@@ -324,7 +325,7 @@ Queries with no results
 
 </td><td>
 
-Table ![](../image/table-icon.png)
+Table \[Omitted image "table-icon.png"\] Alt text:
 
 </td><td>
 
@@ -346,7 +347,7 @@ Top clicked results
 
 </td><td>
 
-Table ![](../image/table-icon.png)
+Table \[Omitted image "table-icon.png"\] Alt text:
 
 </td><td>
 
@@ -379,7 +380,7 @@ Queries over time
 
 </td><td>
 
-Line ![](../../performance-analytics/image/line-icon.png)
+Line \[Omitted image "line-icon.png"\] Alt text:
 
 </td><td>
 
@@ -399,7 +400,7 @@ Top queries
 
 </td><td>
 
-Table ![](../image/table-icon.png)
+Table \[Omitted image "table-icon.png"\] Alt text:
 
 </td><td>
 
@@ -419,7 +420,7 @@ Queries with no clicks
 
 </td><td>
 
-Table ![](../image/table-icon.png)
+Table \[Omitted image "table-icon.png"\] Alt text:
 
 </td><td>
 
@@ -437,7 +438,7 @@ Queries with no results
 
 </td><td>
 
-Table ![](../image/table-icon.png)
+Table \[Omitted image "table-icon.png"\] Alt text:
 
 </td><td>
 

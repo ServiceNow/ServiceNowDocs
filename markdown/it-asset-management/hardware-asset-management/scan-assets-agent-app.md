@@ -2,6 +2,7 @@
 title: Scan assets by using ServiceNow Agent app
 description: Scan your assets by using the ServiceNow Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/scan-assets-agent-app.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -40,5 +41,5 @@ Role required: asset
     You can start a new scan as many times as you need while the audit is in progress. After you mark the audit as **Complete**, you can't scan any more assets.
 
 
-**Parent Topic:**[Audit your inventory](audit-your-inventory.md)
+**Parent Topic:**[Audit your inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/audit-your-inventory.md)
 

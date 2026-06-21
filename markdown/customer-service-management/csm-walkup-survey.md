@@ -2,7 +2,10 @@
 title: CSM Walk-up Experience customer satisfaction surveys
 description: With Walk-up Experience surveys, users can rate their satisfaction with walk-up location interactions, providing management with feedback to improve the walk-up experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-survey.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ The Walk-up Experience application includes two base-system predefined surveys.
 
     This survey is an onsite, one-click sentiment analysis survey where the user can quickly rate service based on a 1 - 3 scale, where 1 is a negative experience and 3 is a positive experience. The survey uses an image scale of three faces with different sentiments: sad, neutral, and smiling.
 
-    ![Sad, neutral, and smiling faces used in the Walk-up CSAT survey to express sentiments relating to user experience.](../image/WalkupSentimentSurveyFaces.png "Walk-up sentiment analysis survey")
+    \[Omitted image "WalkupSentimentSurveyFaces.png"\] Alt text: Sad, neutral, and smiling faces used in the Walk-up CSAT survey to express sentiments relating to user experience.
 
 -   **Walk-up experience satisfaction survey**
 
@@ -28,5 +31,5 @@ The Walk-up Experience application includes two base-system predefined surveys.
 
 Walk-up administrators and managers can modify these surveys and the associated trigger conditions. Managers and administrators can review responses by question and see a scorecard for each survey on the **Walk-up Experience Dashboard** module. User comments provide feedback that is used to improve the performance of walk-up interactions.
 
-For more detailed information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see [Assessments and Surveys](https://www.servicenow.com/docs/access?context=assessments-surveys-landing-page&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For more detailed information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see Assessments and Surveys.
 

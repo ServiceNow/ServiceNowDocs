@@ -2,11 +2,12 @@
 title: Raise a dispute
 description: As a showback user, if you disagree with any of the information on a statement expense line, then you can raise a dispute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/raise-a-dispute.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -138,5 +139,5 @@ As a service charging owner, you can navigate to **My Open Disputes** to view th
 
 If the service charging owner is not available to resolve the issue, the service charging analyst, as a super user with special privileges, can resolve any open dispute in **My Open Disputes**.
 
-**Parent Topic:**[Financial Charging](../concept/financial-reporting.md)
+**Parent Topic:**[Financial Charging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-reporting.md)
 

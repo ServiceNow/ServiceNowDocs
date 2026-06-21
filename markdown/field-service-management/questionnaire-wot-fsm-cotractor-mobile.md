@@ -2,7 +2,10 @@
 title: Complete questionnaires for work order tasks using the Field Service Contractor for mobile application
 description: Answer to the preset questions associated with a work order task to gather and store the responses for future reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/questionnaire-wot-fsm-cotractor-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: wm\_ext\_agent, wm\_ext\_manager
 
 4.  Select the work order task for which you want to fill out the questionnaire.
 
-5.  Tap the Overflow ![Overflow icon](../image/OverflowIcon.png) icon and then select **Take questionnaire**.
+5.  Tap the Overflow \[Omitted image "OverflowIcon.png"\] Alt text: Overflow icon icon and then select **Take questionnaire**.
 
 6.  On the Pending tab, tap the questionnaire that you’re ready to take.
 
@@ -44,5 +47,5 @@ Role required: wm\_ext\_agent, wm\_ext\_manager
 
 The submitted questionnaire appears in the Completed tab.
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

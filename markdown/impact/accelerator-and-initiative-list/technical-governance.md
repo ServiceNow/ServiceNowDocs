@@ -2,6 +2,7 @@
 title: Technical Governance
 description: Guidance on technical governance management of the ServiceNow Platform
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/technical-governance.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

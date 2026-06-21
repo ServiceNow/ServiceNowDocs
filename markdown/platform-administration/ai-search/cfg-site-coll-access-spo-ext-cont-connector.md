@@ -2,6 +2,7 @@
 title: Configure site collection access for the Microsoft SharePoint Online external content connector
 description: Allow the Microsoft SharePoint Online connector to crawl your site collections by granting SharePoint API FullControl permissions to your registered Microsoft Entra OAuth 2.0 app for the connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/cfg-site-coll-access-spo-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -34,7 +35,7 @@ Role required: none
 
 This task is only required if you specify the Sites.Selected SharePoint API permission instead of the Sites.FullControl.All permission when configuring the registered Microsoft Entra OAuth 2.0 app for the Microsoft SharePoint Online connector.
 
-**Note:** For details on the OAuth 2.0 app configuration process, see [Configure Microsoft SharePoint Online for external content indexing](cfg-azure-spo-ext-cont-connector.md).
+**Note:** For details on the OAuth 2.0 app configuration process, see [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.md).
 
 By default, source system administrators grant the Sites.FullControl.All SharePoint API permission to the registered Microsoft Entra OAuth 2.0 app for the Microsoft SharePoint Online connector. This permission allows the connector to read content, metadata, and security information for all types of content in all source system site collections.
 
@@ -70,19 +71,19 @@ A source system administrator must grant FullControl permission for each site co
 
 4.  Modify or verify permissions for the site collection in your Microsoft Entra OAuth 2.0 app for the Microsoft SharePoint Online external content connector:
 
-    -   To grant the app FullControl permission for the site collection and allow crawling by the Microsoft SharePoint Online external content connector, run this cmdlet in your elevated PowerShell session, replacing `<permissionId>` with the permission ID you recorded in step [3.b](cfg-site-coll-access-spo-ext-cont-connector.md#record-permission-id-substep) and `<siteURL>` with the site collection's URL:
+    -   To grant the app FullControl permission for the site collection and allow crawling by the Microsoft SharePoint Online external content connector, run this cmdlet in your elevated PowerShell session, replacing `<permissionId>` with the permission ID you recorded in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-site-coll-access-spo-ext-cont-connector.md) and `<siteURL>` with the site collection's URL:
 
         ```powershell
         Set-PnPAzureADAppSitePermission -PermissionId <permissionId> -Permissions FullControl -Site <siteUrl>
         ```
 
-    -   To revoke the app's FullControl permission for the site collection and prevent crawling by the Microsoft SharePoint Online external content connector, run this cmdlet in your elevated PowerShell session, replacing `<permissionId>` with the permission ID you recorded in step [3.b](cfg-site-coll-access-spo-ext-cont-connector.md#record-permission-id-substep) and `<siteURL>` with the site collection's URL:
+    -   To revoke the app's FullControl permission for the site collection and prevent crawling by the Microsoft SharePoint Online external content connector, run this cmdlet in your elevated PowerShell session, replacing `<permissionId>` with the permission ID you recorded in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-site-coll-access-spo-ext-cont-connector.md) and `<siteURL>` with the site collection's URL:
 
         ```powershell
         Revoke-PnPAzureADAppSitePermission -PermissionId <permissionId> -Site <siteUrl>
         ```
 
-    -   To view the app's existing permissions for the site collection, run this cmdlet in your elevated PowerShell session, replacing `<permissionId>` with the permission ID you recorded in step [3.b](cfg-site-coll-access-spo-ext-cont-connector.md#record-permission-id-substep) and `<siteURL>` with the site collection's URL:
+    -   To view the app's existing permissions for the site collection, run this cmdlet in your elevated PowerShell session, replacing `<permissionId>` with the permission ID you recorded in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-site-coll-access-spo-ext-cont-connector.md) and `<siteURL>` with the site collection's URL:
 
         ```
         Get-PnPAzureADAppSitePermission -PermissionId <permissionId> -Site <siteUrl>
@@ -94,14 +95,14 @@ A source system administrator must grant FullControl permission for each site co
     Disconnect-PnPOnline
     ```
 
-6.  Repeat steps [2](cfg-site-coll-access-spo-ext-cont-connector.md#first-per-site-step) through [5](cfg-site-coll-access-spo-ext-cont-connector.md#last-per-site-step) for each additional site collection you want to modify permissions for.
+6.  Repeat steps [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-site-coll-access-spo-ext-cont-connector.md) through [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-site-coll-access-spo-ext-cont-connector.md) for each additional site collection you want to modify permissions for.
 
 
 ## What to do next
 
 Provide the list of site collections that have FullControl permissions granted for the Microsoft SharePoint Online external content connector to your ServiceNow AI Platform admin. They need this list to configure a Microsoft SharePoint Online external content connector to crawl only the selected sites.
 
-For details on creating and configuring a Microsoft SharePoint Online external content connector, see [Create a Microsoft SharePoint Online external content connector](create-ext-cont-connector-mspo.md).
+For details on creating and configuring a Microsoft SharePoint Online external content connector, see [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-mspo.md).
 
-**Parent Topic:**[Configure Microsoft SharePoint Online for external content indexing](cfg-azure-spo-ext-cont-connector.md)
+**Parent Topic:**[Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.md)
 

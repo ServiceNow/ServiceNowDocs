@@ -2,6 +2,7 @@
 title: ITSM Maturity Assessment
 description: Guidance on current ITSM process and function maturity, with targeted recommendations on what to tackle next to unlock further value in the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/itsm-maturity-assessment.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

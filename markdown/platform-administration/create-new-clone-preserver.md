@@ -2,6 +2,7 @@
 title: Create new clone preserver
 description: Create clone preservers to protect data on the target instance from being overwritten.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-new-clone-preserver.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"

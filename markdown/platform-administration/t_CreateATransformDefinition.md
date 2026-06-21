@@ -2,6 +2,7 @@
 title: Create a transform definition
 description: The following example describes the procedure for creating a new transform definition. In this example, we create a definition that transforms a number field to an odd or even integer. The transform category is Numeric and the normalization field type is Integer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateATransformDefinition.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -34,5 +35,5 @@ The following example describes the procedure for creating a new transform defin
     -   Transform Categories: Click **Edit** and select **Numeric** as the category to which this definition belongs. Currently, field transformation supports two categories: **Numeric** and **Text**. The **Integer** normalization field type is already associated with this category.
     -   Transform Variables: Define any variables required by this transform definition to perform an action on a field value. Variables are not necessary if a script can perform the action alone.
 
-**Parent Topic:**[Default Transform Definitions](../reference/r_DefsIncludedWFieldTransformation.md)
+**Parent Topic:**[Default Transform Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_DefsIncludedWFieldTransformation.md)
 

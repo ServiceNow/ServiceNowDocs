@@ -2,6 +2,7 @@
 title: Opt-in to Enterprise Asset Management Content Service
 description: Opt in to the Enterprise Asset Management Content Service to share unnormalized enterprise model data such as enterprise models, enterprise model lifecycles, and custom enterprise product models from your organization with ServiceNow to improve the normalization process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/optin-cs-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -23,13 +24,13 @@ Role required: sn\_eam.enterprise\_admin
 
 1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center** &gt; **Normalization opt-in**.
 
-    ![Opt-in for Enterprise Asset Management Content Service](../image/opt-in-eam.png)
+    \[Omitted image "opt-in-eam.png"\] Alt text: Opt-in for Enterprise Asset Management Content Service
 
 2.  Select **Opt-In Agreement** to read the agreement and then select the check box, **Yes, I have read and accept the Opt-in Agreement**.
 
 3.  Select **Opt-In**.
 
-    ![Opt-in page showing the enterprise model data](../image/opt-in-modeldata.png)
+    \[Omitted image "opt-in-modeldata.png"\] Alt text: Opt-in page showing the enterprise model data
 
     The enterprise data such as enterprise models, enterprise model lifecycles, and custom enterprise product models KPIs are automatically enabled.
 
@@ -40,5 +41,5 @@ Role required: sn\_eam.enterprise\_admin
     Once you opt out, the enterprise models, enterprise model lifecycles, and custom enterprise product models KPIs are disabled and your company no longer contributes to the improvement of the normalization process. You still receive incremental content updates, based on what the Content Service team can create from other sources. Your company can rejoin the Enterprise Asset Management Content Service at any time.
 
 
-**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](../concept/config-eam-enterrpriseadmins.md)
+**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-enterrpriseadmins.md)
 

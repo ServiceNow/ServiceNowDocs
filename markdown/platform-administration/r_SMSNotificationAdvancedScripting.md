@@ -2,6 +2,7 @@
 title: SMS notification advanced scripting
 description: You can use these objects and their attributes in your advanced notification scripts on the SMS Notification Service Provider form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_SMSNotificationAdvancedScripting.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -96,5 +97,5 @@ device
 -   device.type
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a service provider](../task/t_CreateAServiceProvider.md)
+</table>**Parent Topic:**[Create a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAServiceProvider.md)
 

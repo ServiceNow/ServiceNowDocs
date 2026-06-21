@@ -2,6 +2,7 @@
 title: Identity Metrics for administrators
 description: View trends of the users, privileged users, active sessions, and integrated account on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/identity/identity-center-for-admin.html
 release: xanadu
 product: Identity
 classification: identity

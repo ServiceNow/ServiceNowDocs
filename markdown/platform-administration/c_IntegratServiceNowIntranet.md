@@ -2,6 +2,7 @@
 title: Integrating ServiceNow with your Intranet
 description: You can add a ServiceNow login link to your intranet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_IntegratServiceNowIntranet.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -13,7 +14,7 @@ breadcrumb: [Supported integration interfaces, Integration options, Integration 
 
 You can add a ServiceNow login link to your intranet.
 
-To deliver ServiceNow content from a web page, see [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+To deliver ServiceNow content from a web page, see Service Portal.
 
-**Parent Topic:**[Supported integration interfaces](../../vendor-specific-integrations/reference/r_SupportedIntegrationInterfaces.md)
+**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_SupportedIntegrationInterfaces.md)
 

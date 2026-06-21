@@ -2,6 +2,7 @@
 title: Update a conditions field to use condition builder v2
 description: In Core UI, you can update a conditions field to display the version 2 condition builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/configure-condition-builder.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ Role required: admin
 
 You add a dictionary attribute to the Conditions field to enable condition builder version 2 \(v2\).
 
-![Condition builder v2 on Approval Rules form](../image/condition-builder-v2.png "Condition builder v2 configured in Approval Rules form")
+\[Omitted image "condition-builder-v2.png"\] Alt text: Condition builder v2 on Approval Rules form
 
 ## Procedure
 
@@ -38,5 +39,5 @@ You add a dictionary attribute to the Conditions field to enable condition build
     The form reloads with the v2 version of the condition builder.
 
 
-**Parent Topic:**[Condition field types](../concept/condition-field-types.md)
+**Parent Topic:**[Condition field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/condition-field-types.md)
 

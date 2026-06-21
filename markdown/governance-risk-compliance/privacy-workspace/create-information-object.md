@@ -2,6 +2,7 @@
 title: Create an information object
 description: Create information objects manually to associate the right data subject types with business processes or applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/create-information-object.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -23,7 +24,7 @@ Role required: sn\_privacy.admin
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  In the Privacy Workspace, select the List icon \(![List icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Privacy Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **Privacy elements** &gt; **AllInformation objects**.
 
@@ -49,5 +50,5 @@ Role required: sn\_privacy.admin
 
 Once the information object is created, you can see the Processing activities and Information object categories related lists.
 
-**Parent Topic:**[Manage the Privacy Management library](../concept/privacy-library-setup.md)
+**Parent Topic:**[Manage the Privacy Management library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/privacy-library-setup.md)
 

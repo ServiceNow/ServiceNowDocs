@@ -2,6 +2,7 @@
 title: Generating the tests
 description: Generate tests automatically by leveraging ServiceNow Test Generation and Cloud Runner application. You can also run these tests with the click of a button.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-generate-tests.html
 release: xanadu
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
@@ -27,7 +28,7 @@ Role required: admin
 
     **Note:** The **Generate Tests** module is visible only to the admins. Even an ATF test admin can't access the **Select Cloud User** module.
 
-    If you already have a test generation running, you will see the following message.![Image showing in progress test generation](../image/atf-app-inprogress-test-generation.png)
+    If you already have a test generation running, you will see the following message.\[Omitted image "atf-app-inprogress-test-generation.png"\] Alt text: Image showing in progress test generation
 
     **Note:** You can't start more than one test generation process simultaneously, but it will queue up for later execution.
 
@@ -37,7 +38,7 @@ Role required: admin
 
     **Note:** You can see the progress and state of each of the test generation and test run in the list.
 
-3.  Select one of the two ways to generate tests.![Generate tests screenshot.](../image/atf-tg-cr-advanced.png)
+3.  Select one of the two ways to generate tests.\[Omitted image "atf-tg-cr-advanced.png"\] Alt text: Generate tests screenshot.
 
     -   Not selecting **Advanced**: Generates tests on every table by default
     -   Selecting **Advanced**: Option to specify a specific table to generate tests
@@ -59,30 +60,30 @@ Role required: admin
 
     **Note:** You can't delete the default **None** preset. Some example presets have been provided which can be edited.
 
-    ![Generate tests screenshot.](../image/atf-app-preset-tabs.png)
+    \[Omitted image "atf-app-preset-tabs.png"\] Alt text: Generate tests screenshot.
 
     Depending on the query created by the preset values, the following tabs return certain data.
 
     -   Users
     -   Tables
     -   Service Catalog
-    **Note:** You can create new condition sets to filter the required information in tabs.![Users screenshot.](../image/atf-app-filter.png)
+    **Note:** You can create new condition sets to filter the required information in tabs.\[Omitted image "atf-app-filter.png"\] Alt text: Users screenshot.
 
 5.  Select **Start Test Generation**.
 
     The Test Generation Started page shows up.
 
-    ![Image showing the test generation started dialog box](../image/atf-app-test-generation-progress.png)
+    \[Omitted image "atf-app-test-generation-progress.png"\] Alt text: Image showing the test generation started dialog box
 
     If you run a test or a suite when the test generation is in progress, one of the following messages shows up.
 
     -   For test run
 
-        ![Image showing test run queue when test generation is in progress](../image/atf-app-queue-test-run.png)
+        \[Omitted image "atf-app-queue-test-run.png"\] Alt text: Image showing test run queue when test generation is in progress
 
     -   For suite run
 
-        ![Image showing suite run queue when test generation is in progress](../image/atf-app-queue-suite-run.png)
+        \[Omitted image "atf-app-queue-suite-run.png"\] Alt text: Image showing suite run queue when test generation is in progress
 
 6.  Go to Suites to see the generated tests.
 

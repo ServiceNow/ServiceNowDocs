@@ -2,6 +2,7 @@
 title: Microsoft Outlook connector methods
 description: The Microsoft Outlook connector methods automate various actions on the Microsoft Outlook. In an automation flow, the methods are connected with other methods and components. To use the methods, you must first expose them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/microsoft-outlook-connector-methods.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -295,7 +296,7 @@ Retrieves and returns a list of folder names from the active outlook account.
 
 Retrieves all details of an email, specified by its unique entry ID \(MailId\).
 
-To specify additional criteria for retrieving all details of an email, on the GetMail method bar, click the method settings icon \(![Method settings icon.](../image/component-settings-icon.png)\), select the required mail items such as CC, BCC, Subject, Body, Sender, To, AttachmentsCount, ReceivedTime, EntryId.
+To specify additional criteria for retrieving all details of an email, on the GetMail method bar, click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon.\), select the required mail items such as CC, BCC, Subject, Body, Sender, To, AttachmentsCount, ReceivedTime, EntryId.
 
 |Parameter|Description|Data port type|Data type|
 |---------|-----------|--------------|---------|
@@ -930,5 +931,5 @@ The SetAccount method must be used initially, before any other method of this co
 |---------|-----------|--------------|---------|
 |AccountName|This parameter specifies the Outlook email account ID on which you want to perform operations.|Data in|String|
 
-**Parent Topic:**[Microsoft Outlook](../concept/microsoft-outlook-connector.md)
+**Parent Topic:**[Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/microsoft-outlook-connector.md)
 

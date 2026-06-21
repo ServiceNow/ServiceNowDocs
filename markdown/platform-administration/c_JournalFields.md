@@ -2,6 +2,7 @@
 title: Journal field type
 description: There are three types of journal field: journal, journal\_list, and journal\_input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_JournalFields.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ There are three types of journal field: journal, journal\_list, and journal\_inp
 |journal\_input|Allow and store input, but do not display the combined inputs. Journal input fields only display with the record they are associated with, so they do not display in the activity stream on the list view.|
 |journal\_list|Do not allow or store input; they merely display the contents of other Journal fields upon which the journal\_list field is dependent. If a journal\_list field is dependent on more than one Journal field, it will chronologically interweave those fields' inputs. The journal\_list field does not display content within the activity stream, but rather in a separate block.|
 
-![Journal field types](../image/JournalFieldTypes.png "Journal fields on a form")
+\[Omitted image "JournalFieldTypes.png"\] Alt text: Journal field types
 
 The example image contains the three available journal field types. The first is a journal field, with its inputs displayed below the field. The second is a journal input field, which does not show its previous inputs. The third is Journal list field, which is configured to show the input from the journal input field above it.
 
@@ -95,12 +96,12 @@ gr.update();
 }
 ```
 
--   **[Render journal field entries as HTML](../task/render-journal-field-entries-as-html.md)**  
+-   **[Render journal field entries as HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/render-journal-field-entries-as-html.md)**  
 Journal fields can render text enclosed within code tags as HTML.
--   **[Journal field display limits](c_JournalFieldDisplayLimits.md#)**  
+-   **[Journal field display limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_JournalFieldDisplayLimits.md)**  
 Journal fields can greatly increase the size of task records because they allow users to enter very large string values.
--   **[Enable the text field character counter](../../reference-pages/task/t_TextFieldCharacterCounter.md)**  
+-   **[Enable the text field character counter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_TextFieldCharacterCounter.md)**  
 By default, multi-line text fields have a 4000 character limit. To help users see how many characters remain before they reach the limit, you can enable the **glide.ui.textarea.character\_counter** property.
 
-**Parent Topic:**[Field types](../../reference-pages/reference/r_FieldTypes.md)
+**Parent Topic:**[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_FieldTypes.md)
 

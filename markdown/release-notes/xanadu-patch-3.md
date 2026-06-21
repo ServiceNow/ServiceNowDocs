@@ -2,6 +2,7 @@
 title: Xanadu Patch 3
 description: The Xanadu Patch 3 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-patch-3.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-12-05"
@@ -29,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Xanadu Patch 3 includes 298 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-xp3.png "Top 10 problem categories")
+\[Omitted image "prb-chart-xp3.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -37,7 +38,7 @@ Xanadu Patch 3 includes fixes for security-related problems that affected certai
 
 ## Changes in Xanadu Patch 3
 
--   **[Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)**
+-   ****
     -   **com.snc.pa.xmr.processes.limit**
 
         The maximum number of KPI Signals Configurations \(pa\_xmr\_processes\) that can be evaluated by the KPI Signals Insight Job. After this number of processes have been evaluated, the remaining processes are ignored.
@@ -4591,11 +4592,11 @@ There is a missing ACL that grants read access to the platform\_ml\_read role fo
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
 -   [Xanadu Patch 2 Hotfix 1](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1705551)
--   [Xanadu Patch 2](xanadu-patch-2.md)
--   [Xanadu Patch 1 Hotfix 3](xanadu-patch-1-hf-3-PO.md)
--   [Xanadu Patch 1](xanadu-patch-1.md)
--   [Xanadu security and notable fixes](xanadu-security-notables.md)
--   [All other Xanadu fixes](xanadu-all-other-fixes.md)
+-   [Xanadu Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-2.md)
+-   [Xanadu Patch 1 Hotfix 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1-hf-3-PO.md)
+-   [Xanadu Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1.md)
+-   [Xanadu security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-security-notables.md)
+-   [All other Xanadu fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/available-versions.md)
 

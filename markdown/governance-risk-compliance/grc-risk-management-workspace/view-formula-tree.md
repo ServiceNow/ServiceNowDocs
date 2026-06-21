@@ -2,6 +2,7 @@
 title: View the calculation breakdown in a formula tree
 description: View a structured and visual representation of the entire calculation chain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/view-formula-tree.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

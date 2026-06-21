@@ -2,7 +2,10 @@
 title: Add a default agent work schedule
 description: Add a default agent schedule so that agents have a schedule assigned to them if their work schedule expires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/add-agent-schedule.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Add a default agent schedule so that agents have a schedule assigned to them if 
 
 Role required: wm\_dispatcher
 
-The Allow Dynamic Scheduling to only use work schedule/WFO system property must be enabled before adding a default agent work schedule. Contact your administrator to turn on the Allow Dynamic Scheduling to only use work schedule/WFO system property. For more information, see [Dynamic scheduling system properties](../reference/dynamic-sched-system-properties.md).
+The Allow Dynamic Scheduling to only use work schedule/WFO system property must be enabled before adding a default agent work schedule. Contact your administrator to turn on the Allow Dynamic Scheduling to only use work schedule/WFO system property. For more information, see [Dynamic scheduling system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/dynamic-sched-system-properties.md).
 
 ## Procedure
 
@@ -25,12 +28,12 @@ The Allow Dynamic Scheduling to only use work schedule/WFO system property must 
 
 2.  Select **Work OrderTask Dynamic Scheduling Config**.
 
-3.  Select the Lookup using list icon \(![lookup icon](../image/lookup-seizmic.png)\).
+3.  Select the Lookup using list icon \(\[Omitted image "lookup-seizmic.png"\] Alt text: lookup icon\).
 
 4.  Select a schedule.
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Using dynamic scheduling](../concept/using-dynamic-scheduling.md)
+**Parent Topic:**[Using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-dynamic-scheduling.md)
 

@@ -2,6 +2,7 @@
 title: Define a job in the job register
 description: Define jobs and their steps \(if any\), in the job register to predefine hazards and controls for each job type in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-define-job-register.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -34,21 +35,21 @@ Consequently, these predefined jobs simplify the process of submitting JSAs and 
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the configuration icon \(![Configuration icon](../image/icon-config.png)\).
+2.  Select the configuration icon \(\[Omitted image "icon-config.png"\] Alt text: Configuration icon\).
 
 3.  In the **Configuration** tab, select **Job register** and then **All**.
 
 4.  Create a job.
 
-<table id="choicetable_l1q_grs_dcc"><thead><tr><th align="left" id="d669148e118">
+<table id="choicetable_l1q_grs_dcc"><thead><tr><th align="left" id="d57699e118">
 
 Option
 
-</th><th align="left" id="d669148e121">
+</th><th align="left" id="d57699e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d669148e127">
+</th></tr></thead><tbody><tr><td id="d57699e127">
 
 **Using the New button**
 
@@ -58,7 +59,7 @@ To define a job from scratch, select **New** in the list.-   If the job has mult
 -   If the job is one step and you want to outline hazards and controls on the job level, select **Single step**.
 
 
-</td></tr><tr><td id="d669148e153">
+</td></tr><tr><td id="d57699e153">
 
 **Copying an existing job**
 
@@ -98,15 +99,15 @@ Use details from an existing job to create a new one in the job register. Copyin
 
 8.  Associate hazards and controls with the job.
 
-<table id="choicetable_k4d_sw3_dcc"><thead><tr><th align="left" id="d669148e333">
+<table id="choicetable_k4d_sw3_dcc"><thead><tr><th align="left" id="d57699e333">
 
 Job type
 
-</th><th align="left" id="d669148e336">
+</th><th align="left" id="d57699e336">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d669148e342">
+</th></tr></thead><tbody><tr><td id="d57699e342">
 
 **For multi-step job**
 
@@ -117,7 +118,7 @@ Add hazards and controls for each step.1.  Navigate to **Job steps** tab.
 3.  In the **Hazards and controls** tab, select **New**.
 
 
-</td></tr><tr><td id="d669148e371">
+</td></tr><tr><td id="d57699e371">
 
 **For single-step job**
 
@@ -182,9 +183,9 @@ Controls that are selected to be added for the hazard.
 
 -   The job is listed in the **Job register** list under **Configuration** on the Health and Safety Workspace. The job is saved in the Job \[sn\_hs\_rm\_job\] table and job steps are saved in the Job step \[sn\_hs\_rm\_job\_step\] table.
 -   The job is available for selection on these forms:
-    -   JSA form when submitting a JSA. For more information, see [Submit JSA form](../reference/hs-submit-jsa-form.md).
-    -   Risks and controls form when conducting a risk assessment. For more information, see [Add a risk and its control measures for a safety risk assessment](add-a-risk-and-its-controls-for-a-safety-risk-assessment.md).
--   The job is also available to import hazards and controls from when performing a risk assessment. For more information, see [Import hazards and controls from a job](import-hazards-and-controls.md).
+    -   JSA form when submitting a JSA. For more information, see [Submit JSA form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-submit-jsa-form.md).
+    -   Risks and controls form when conducting a risk assessment. For more information, see [Add a risk and its control measures for a safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/add-a-risk-and-its-controls-for-a-safety-risk-assessment.md).
+-   The job is also available to import hazards and controls from when performing a risk assessment. For more information, see [Import hazards and controls from a job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/import-hazards-and-controls.md).
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](../concept/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

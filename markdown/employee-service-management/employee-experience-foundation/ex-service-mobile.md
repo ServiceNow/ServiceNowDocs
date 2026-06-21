@@ -2,6 +2,7 @@
 title: Integrated service and experience feedback in Now Mobile
 description: Integrated service and experience feedback in Now Mobile provides greater ease of access to the users to provide their feedback on their user experiences and their service experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ex-service-mobile.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -37,8 +38,8 @@ Similar to the experience feedback in Now Mobile®, you can choose not to share 
 
 You can configure more feedback configurations and definitions apart from the ones available by default.
 
--   For more information on creating a feedback configuration, see [Set up the feedback configuration](../task/config-employee-ex-fdbck.md).
--   For more information on creating a feedback definition, see [Set up the feedback definition](../task/config-feedback-dfnition.md).
+-   For more information on creating a feedback configuration, see [Set up the feedback configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-employee-ex-fdbck.md).
+-   For more information on creating a feedback definition, see [Set up the feedback definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-feedback-dfnition.md).
 
-**Parent Topic:**[Exploring Employee Center](explore-emp-center.md)
+**Parent Topic:**[Exploring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/explore-emp-center.md)
 

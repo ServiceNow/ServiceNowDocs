@@ -2,6 +2,7 @@
 title: Brand an assistant
 description: Decide how your Now Assist in Virtual Agent assistant should look by using the default branding or by creating a branding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.html
 release: xanadu
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Decide how your Now Assist in Virtual Agent assistant should look by using the d
 
 ## Before you begin
 
-[Add information sources to an assistant](add-info-sources-assistant.md)
+[Add information sources to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md)
 
 Role required: virtual\_agent\_admin or admin
 
@@ -31,14 +32,14 @@ Role required: virtual\_agent\_admin or admin
 
     The preview shows how branding is applied to standard chat.
 
-    -   To customize your standard chat branding, see [Set up your Now Assist in Virtual Agent branding](na-va-branding.md).
-    -   To customize your enhanced chat branding [Theming for Now Assist in Virtual Agent enhanced chat](../reference/theming-na-full-page-experience.md).
-    ![Drop-down list to select a Virtual Agent branding.](../image/NAinVA-branding3NOV.png "Virtual Agent look and feel")
+    -   To customize your standard chat branding, see [Set up your Now Assist in Virtual Agent branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/na-va-branding.md).
+    -   To customize your enhanced chat branding [Theming for Now Assist in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/theming-na-full-page-experience.md).
+    \[Omitted image "NAinVA-branding3NOV.png"\] Alt text: Drop-down list to select a Virtual Agent branding.
 
 2.  Select **Save and continue**.
 
 
 ## What to do next
 
-[Manage an assistant chat experience](manage-assistant-chat-experience.md).
+[Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 

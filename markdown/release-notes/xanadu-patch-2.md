@@ -2,6 +2,7 @@
 title: Xanadu Patch 2
 description: The Xanadu Patch 2 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-patch-2.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-10-10"
@@ -29,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Xanadu Patch 2 includes 249 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-xp2.png "Top 10 problem categories")
+\[Omitted image "prb-chart-xp2.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 If your organization is using FSM questionnaires, do not upgrade to Xanadu Patch 2. Plan your future upgrade for a release that includes the fix for PRB1811012.
 
@@ -39,15 +40,15 @@ Xanadu Patch 2 includes fixes for security-related problems that affected certai
 
 ## Changes in Xanadu Patch 2
 
--   **[Platform Analytics Migration Center](https://www.servicenow.com/docs/access?context=data-migration&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)**
+-   ****
 
     You can disable the **Start Moving** and **Activate** Platform Analytics experience options. Create the system property `com.glide.par.coreui.migration.enabled` and set it to `False`. If you set the property to `False` before you migrate any content, both options are disabled. If you set the property to false after you migrate your content, only the **Activate** button is disabled.
 
     If you want to start the migration and view what artifacts are in compatibility mode, and resolve any issues, set the property to `False` after you run the migration to prevent activation of Platform Analytics experience. If you want to prevent the migration process, set the property to `False` first.
 
-    For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information, see .
 
--   **[System properties for Proactive analytics](https://www.servicenow.com/docs/access?context=system-props-proactive-analytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)**
+-   ****
 
     The maximum number of KPI Signals Configurations \(pa\_xmr\_processes\) that can be evaluated by the KPI Signals Insight Job. After this number of processes have been evaluated, the remaining processes are ignored.
 
@@ -3114,10 +3115,10 @@ Unless any exceptions are noted, you can safely upgrade to this release version 
 
 -   [Xanadu Patch 1 Hotfix 2a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704810)
 -   [Xanadu Patch 1 Hotfix 2](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1703882)
--   [Xanadu Patch 1 Hotfix 1](xanadu-patch-1-hf-1.md)
--   [Xanadu Patch 1](xanadu-patch-1.md)
--   [Xanadu security and notable fixes](xanadu-security-notables.md)
--   [All other Xanadu fixes](xanadu-all-other-fixes.md)
+-   [Xanadu Patch 1 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1-hf-1.md)
+-   [Xanadu Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1.md)
+-   [Xanadu security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-security-notables.md)
+-   [All other Xanadu fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/available-versions.md)
 

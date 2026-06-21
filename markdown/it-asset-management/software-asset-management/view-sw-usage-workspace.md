@@ -2,6 +2,7 @@
 title: View or create software usage in workspace
 description: View software usage records to track the usage of software products that you've created reclamation rules for in the Software Asset Workspace. You can also create software usage records manually from third party integrations or Microsoft SCCM integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/view-sw-usage-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

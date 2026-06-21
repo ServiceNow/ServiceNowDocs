@@ -2,6 +2,7 @@
 title: Installed application Performance page
 description: The installed application overview section presents details on the total number of active incidents and alerts and also displays patterns in the type of reported issues. This information is crucial for effective incident management, resource allocation, and proactive identification of potential application vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/installed-app-health-form.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -32,7 +33,7 @@ The installed application overview section presents details on the total number 
 |Current I/O write|Process of storing or writing data to storage devices like hard drives or solid-state drives, within a computer system.|
 |I/O write - Last 2 hours|Process of storing or writing data to storage devices over the last 2 hours.|
 
-To return to the Installed application details page, see [Installed application details](../concept/installed-application-details.md).
+To return to the Installed application details page, see [Installed application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/installed-application-details.md).
 
-**Parent Topic:**[Applications list](application-form.md)
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/application-form.md)
 

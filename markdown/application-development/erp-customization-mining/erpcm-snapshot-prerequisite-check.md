@@ -2,6 +2,7 @@
 title: ERP Customization Mining snapshot prerequisite check
 description: Before snapshot import and export in \(ERP-CM\), a check is performed automatically to confirm that other related processes aren’t in progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-snapshot-prerequisite-check.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -62,5 +63,5 @@ Snapshot is created when all tasks for all Collector entries are completed. Diff
  If user wants to delete all data, or attach a new system, 'table flush trigger' flow will wait for the snapshot to be created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Customization Mining reference](erp-customization-mining-ref.md)
+</table>**Parent Topic:**[ERP Customization Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erp-customization-mining-ref.md)
 

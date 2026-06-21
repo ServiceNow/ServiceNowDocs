@@ -2,6 +2,7 @@
 title: Table data options for box plot visualizations
 description: When you select a table data source for a box plot visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/config-dv-box-table-data.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -31,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected a Table data source in [Create a box plot data visualization](../task/create-dv-box-plot.md).
+You have selected a Table data source in [Create a box plot data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-box-plot.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -51,7 +52,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -133,7 +134,7 @@ Add alternative group by
 
 This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
 
-For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](../../performance-analytics/concept/select-group-runtime.md).
+For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/select-group-runtime.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

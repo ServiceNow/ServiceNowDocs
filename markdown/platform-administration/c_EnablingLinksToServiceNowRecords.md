@@ -2,6 +2,7 @@
 title: Links to records in email notifications
 description: Adding the $\{URI\} parameter to an outbound email body or template creates a link to a specific record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_EnablingLinksToServiceNowRecords.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ Adding the **$\{URI\}** parameter to an outbound email body or template creates 
 
 When a user clicks the word LINK, the instance prompts the user to log in if not already logged in, and then redirects the user to the record specified in the URI.
 
-![](../image/EmailURI.png "Link displayed by ${URI} parameter")
+\[Omitted image "EmailURI.png"\] Alt text:
 
 The $\{URI\} parameter has an extension called the $\{URI+\} format to specify additional arguments in the email link, such as sysparm terms, in addition to the automatically created URI. For example \(whitespace added for improved readability\):
 
@@ -41,7 +42,7 @@ is satisfied. Additionally, the script sets the view to `incident_active`.
 
 ## Linking to a record in Workspace
 
-The `${URI}` and `${URI_REF}` variables don't apply to records in Workspace. To link to a record in Workspace, create a mail script and reference it in your notification. For more information on using mail scripts, see [JavaScript in emails](../../../script/server-scripting/concept/c_UseJavaScriptInEmails.md).
+The `${URI}` and `${URI_REF}` variables don't apply to records in Workspace. To link to a record in Workspace, create a mail script and reference it in your notification. For more information on using mail scripts, see [JavaScript in emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UseJavaScriptInEmails.md).
 
 The mail script that you create should print a URL to the notification. The URL must have the following format:
 
@@ -57,14 +58,14 @@ The following example script shows the logic that a mail script must include to 
   template.print(agentURL + "<br />");
 ```
 
--   **[Enable links to records](../../../script/server-scripting/concept/c_EnableLinksToServiceNowRecords.md)**  
+-   **[Enable links to records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EnableLinksToServiceNowRecords.md)**  
 Adding the special **$\{URI\}** parameter to an outbound email body or template creates a link to a specific record.
--   **[Change the link text](../../../script/server-scripting/concept/c_ChangeTheLinkText.md)**  
+-   **[Change the link text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ChangeTheLinkText.md)**  
 To show the display value of the record as the link text instead of the word LINK, use the $\{URI\_REF\} parameter instead of the $\{URI\} parameter.
--   **[Link to related records](c_LinkToRelatedRecords.md)**  
+-   **[Link to related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_LinkToRelatedRecords.md)**  
 A notification can link to a related record by specifying a reference field in front of the**$\{URI\}** or **$\{URI\_REF\}** parameters.
--   **[Content page links in email notifications](c_LinkingToContentPages.md)**  
+-   **[Content page links in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_LinkingToContentPages.md)**  
 Links to CMS pages can be put in notifications to make it easy for the reader to access the pages.
 
-**Parent Topic:**[Create an email notification](../task/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateANotification.md)
 

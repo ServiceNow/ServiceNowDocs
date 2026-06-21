@@ -2,6 +2,7 @@
 title: Item diagnostic report
 description: For a catalog item data and configuration, you can identify possible violations from the ServiceNow recommended practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-catalog/c\_ItemDiagnostic.html
 release: xanadu
 product: Service Catalog
 classification: service-catalog
@@ -19,7 +20,7 @@ The item diagnostic report includes a score that measures the health of the item
 
 Correct violations for best performance and to maintain expected behavior.
 
-The lower the score, the better \(0 is ideal\). A higher score means that an item has more violations from the ServiceNow recommended practices. Each rule has a different weight and level of importance. For example, a violation of duplicate variables is more likely to result in user issues. An AJAX usage violation is less likely to cause issues since the result could simply cause a delay in the UI.![diagnostic results](../image/ItemDiagnostic.png)
+The lower the score, the better \(0 is ideal\). A higher score means that an item has more violations from the ServiceNow recommended practices. Each rule has a different weight and level of importance. For example, a violation of duplicate variables is more likely to result in user issues. An AJAX usage violation is less likely to cause issues since the result could simply cause a delay in the UI.\[Omitted image "ItemDiagnostic.png"\] Alt text: diagnostic results
 
 ## Default diagnostic rules
 
@@ -107,13 +108,13 @@ Checks if the item has the following variable types:-   Macro
 -   Macro with label
 -   UI Page
 
- For information on the variable availability across various channels, see [Variable support in various channels](../reference/variables-availability.md).
+ For information on the variable availability across various channels, see [Variable support in various channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/variables-availability.md).
 
 </td></tr></tbody>
-</table>![diagnostic details](../image/ItemDiagnosticReport.png)
+</table>\[Omitted image "ItemDiagnosticReport.png"\] Alt text: diagnostic details
 
--   **[Run the Item Diagnostic Results report](../task/run-item-diag-results.md)**  
+-   **[Run the Item Diagnostic Results report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/run-item-diag-results.md)**  
 Identify the catalog items that are not designed per ServiceNow recommended practices to run your catalog efficiently.
 
-**Parent Topic:**[Debugging Service Catalog](debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/debugging-service-catalog.md)
 

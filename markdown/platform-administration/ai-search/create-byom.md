@@ -2,6 +2,7 @@
 title: Create a custom embedding model
 description: Create a custom embedding model in the Generative AI Model Configuration \[sys\_generative\_ai\_model\_config\] table so that your AI Search Retrieval Augmented Generation \(RAG\) application can use it to generate embeddings for semantic indexing. This setup ensures that the model is recognized and properly connected to send and receive requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/create-byom.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Create a custom embedding model in the Generative AI Model Configuration \[sys\_
 
 ## Before you begin
 
-You must create a connection and credential alias for your embedding model. For more information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+You must create a connection and credential alias for your embedding model. For more information, see 
 
 Role required: admin
 
@@ -42,5 +43,5 @@ The new embedding model is created.
 
 Set a provider for the embedding model.
 
-**Parent Topic:**[Configuring bring your own model \(BYOM\)](../concept/creating-byom.md)
+**Parent Topic:**[Configuring bring your own model \(BYOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/creating-byom.md)
 

@@ -2,6 +2,7 @@
 title: System address filters
 description: Prevent your system from communicating with untrusted domains and email addresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/system-address-filters.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -38,7 +39,7 @@ Before you set up system address filters, consider doing the following:
 
 -   Monitor your email to identify suspicious domains and email addresses.
 
-    Using Security Center, you can monitor the blocked and allowed incoming email metrics for your instance. For more information, see [Designate untrusted and trusted email domains](https://www.servicenow.com/docs/access?context=designate-untrusted-trusted-email-domains&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    Using Security Center, you can monitor the blocked and allowed incoming email metrics for your instance. For more information, see Designate untrusted and trusted email domains.
 
 -   Designate someone to set up system address filters by assigning them the email\_account\_admin role.
 
@@ -46,21 +47,21 @@ Before you set up system address filters, consider doing the following:
 
 To set up system address filters for your instance, complete the following tasks:
 
-1.  [Set email address filters](../task/set-email-address-filters.md)
+1.  [Set email address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/set-email-address-filters.md)
 
     Specify which domains and email addresses are allowed or disallowed.
 
-2.  [Create a system address filter](../task/create-system-address-filter.md)
+2.  [Create a system address filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-system-address-filter.md)
 
     Define how email address filters apply to inbound and outbound email.
 
 
 ## Next steps
 
-After you set up system address filters, configure email filters for an added layer of security. Email filters enable you to ignore an inbound email or move it to a particular mailbox. For more information on configuring email filters, see [Email filters](c_EmailFilters.md).
+After you set up system address filters, configure email filters for an added layer of security. Email filters enable you to ignore an inbound email or move it to a particular mailbox. For more information on configuring email filters, see [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailFilters.md).
 
--   **[Set email address filters](../task/set-email-address-filters.md)**  
+-   **[Set email address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/set-email-address-filters.md)**  
 Specify which domains and email addresses are allowed or disallowed.
 
-**Parent Topic:**[Advanced email setup](../../reference-pages/concept/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_AlternateEmailConfigurations.md)
 

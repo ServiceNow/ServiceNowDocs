@@ -2,6 +2,7 @@
 title: Provider Connector Configuration
 description: Register details for the occupancy data provider, the data source type, and connector configuration \(sensor\) details. Filter spaces using a condition builder, and retrieve occupancy data for a workplace location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-connectors/provider-connector-config-occupancy.html
 release: xanadu
 product: Workplace Connectors
 classification: workplace-connectors
@@ -25,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Workplace Connectors** &gt; **Administration** &gt; **Provider Connector Configuration**.
 
-    ![Provider connector configuration.](../images/wsd-provider-connector-configuration.png)
+    \[Omitted image "wsd-provider-connector-configuration.png"\] Alt text: Provider connector configuration.
 
 2.  Select **New**.
 
@@ -100,16 +101,16 @@ Option to select the Space Occupancy metric value.
 
     For example, select **\[Space\]** from the list. Select the filter condition as **\[is\]** and manually enter the spaces **\[A1.001, A1.002, A1.003\]**.
 
-    When a row is created or updated in the space filter conditions, the space records that meet the condition are loaded in the Provider Space Mapping table. A business rule runs in the background to fill the selected space records in the Provider Space Mappings table. For more information, see [Configure Provider Space Mapping for occupancy data](provider-space-mappings-occupancy.md).
+    When a row is created or updated in the space filter conditions, the space records that meet the condition are loaded in the Provider Space Mapping table. A business rule runs in the background to fill the selected space records in the Provider Space Mappings table. For more information, see [Configure Provider Space Mapping for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/provider-space-mappings-occupancy.md).
 
 4.  Select **Submit**.
 
     When a records are updated in the Provider Connector Configuration table, the selected spaces or location records are updated in the Provider Space Mapping table. The location records are updated with the location hierarchy \(Region, Campus, Building, floor, and space records\).
 
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](../concept/setup-occupancy-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Previous topic:**[Connector Configurations](connector-configuration-occupancy.md)
+**Previous topic:**[Connector Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/connector-configuration-occupancy.md)
 
-**Next topic:**[Provider Space Type Mappings](provider-space-type-mapping.md)
+**Next topic:**[Provider Space Type Mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/provider-space-type-mapping.md)
 

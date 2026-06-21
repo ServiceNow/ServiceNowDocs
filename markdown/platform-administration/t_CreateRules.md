@@ -2,6 +2,7 @@
 title: Create rules
 description: The use of rules to normalize a field is intended for large lists of variant field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateRules.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,11 +16,11 @@ The use of rules to normalize a field is intended for large lists of variant fie
 
 ## About this task
 
-Always test your rules before applying them to all the existing records in the database. Prior to creating the rule, make sure to generate the list of [Pending Values](../concept/c_FieldNormalization.md) and create a [normal value](../concept/c_FieldNormalization.md) for the field. A normalized field can have a combination of aliases and rules.
+Always test your rules before applying them to all the existing records in the database. Prior to creating the rule, make sure to generate the list of [Pending Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_FieldNormalization.md) and create a [normal value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_FieldNormalization.md) for the field. A normalized field can have a combination of aliases and rules.
 
 The rules in this example are based on the following Pending Values:
 
-![](../image/NormalizationRules3.png "Normalization rules 3")
+\[Omitted image "NormalizationRules3.png"\] Alt text:
 
 ## Procedure
 
@@ -59,5 +60,5 @@ The rules in this example are based on the following Pending Values:
     Field normalization records are created in the **Test** mode by default, enabling administrators to test normalization rules thoroughly before applying them to the existing records in the database. In the testing mode, the **Start** controls are not available for the **Rule applier** data job. The job can be run only when testing is complete and the **Mode** has been changed to **Active**. In the testing mode, only records that have been created or updated by a user with the normalization\_tester role are normalized. The normalizer and normalization\_tester roles can be combined for a single user or granted separately.
 
 
-**Parent Topic:**[Normal values](../concept/c_WhatFieldNormalizationDoes.md)
+**Parent Topic:**[Normal values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WhatFieldNormalizationDoes.md)
 

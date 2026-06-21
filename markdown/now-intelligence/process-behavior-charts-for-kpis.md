@@ -2,6 +2,7 @@
 title: KPI Signals
 description: KPI Signals notifies you when the behavior of a process changes significantly. This feature applies standard statistical Process Behavior Charts to Performance Analytics indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-behavior-charts-for-kpis.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ KPI Signals uses standard 3-sigma parameters. "Three-sigma" means that the indic
 
 ## Disabling KPI Signals
 
-KPI Signals is activated by default. If you do not want this feature, request a ServiceNow AI Platform administrator to set the property **com.snc.pa.activate\_kpi\_signals** to **false**. Because this property does not exist by default, the administrator must add it. You can refer them to [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+KPI Signals is activated by default. If you do not want this feature, request a ServiceNow AI Platform administrator to set the property **com.snc.pa.activate\_kpi\_signals** to **false**. Because this property does not exist by default, the administrator must add it. You can refer them to Add a system property.
 
 **Important:** If you reactivate KPI Signals, signal detection resumes from the time you originally deactivated the feature, not from the time you reactivated it.
 

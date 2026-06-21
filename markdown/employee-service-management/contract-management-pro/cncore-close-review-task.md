@@ -2,6 +2,7 @@
 title: Cancel an internal review task
 description: As a contract fulfiller, cancel a review task irrespective of its state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-close-review-task.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -23,27 +24,27 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d100477e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d100183e55">
 
 Method
 
-</th><th align="left" id="d100477e58">
+</th><th align="left" id="d100183e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d100477e64">
+</th></tr></thead><tbody><tr><td id="d100183e64">
 
 **Contract Workspace listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Review tasks** &gt; **All**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d100477e111">
+</td></tr><tr><td id="d100183e111">
 
 **Contract Workspace landing page**
 
@@ -54,7 +55,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d100477e144">
+</td></tr><tr><td id="d100183e144">
 
 **Workspace used by your application**
 
@@ -65,7 +66,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d100477e165">
+</td></tr><tr><td id="d100183e165">
 
 **Reviews tab**
 
@@ -91,5 +92,5 @@ Steps
 -   The review task is canceled and the cancellation comments appear in the Additional Comments section of the contract request.
 -   When all the review tasks are cancelled or closed, the contract request State updates to Work in progress.
 
-**Parent Topic:**[Internal review overview](cncore-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

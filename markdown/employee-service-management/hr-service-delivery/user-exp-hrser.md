@@ -2,6 +2,7 @@
 title: User Experience for HR Service Delivery
 description: User Experience Analytics dashboard provides dashboard views for monitoring the key performance indicators \(KPIs\) of web applications built on the Employee Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/user-exp-hrser.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -83,10 +84,10 @@ See how employees use the progress of knowledge articles. Navigate to **User Exp
 
 See the analytics about usage, technical, geographic, events, retention, and more. Navigate to **User Experience Analytics &gt; Analytics** for more information. You can see the reports for various timelines such as daily, weekly, monthly.
 
--   **[View user metrics related to Listening Posts surveys](../task/lp-analytics-appsee.md)**  
+-   **[View user metrics related to Listening Posts surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/lp-analytics-appsee.md)**  
 View user experiences while taking pulse surveys to better understand overall employee interaction with a survey.
--   **[Events related to the Listening Posts surveys on User Experience Analytics dashboard](lp-user-exp-analytics-events.md)**  
+-   **[Events related to the Listening Posts surveys on User Experience Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/lp-user-exp-analytics-events.md)**  
 The User Experience Analytics dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 

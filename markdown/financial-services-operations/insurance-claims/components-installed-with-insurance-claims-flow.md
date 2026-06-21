@@ -2,6 +2,7 @@
 title: Components installed with Insurance claims
 description: Several types of components are installed with the activation of the Insurance claims application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/insurance-claims/components-installed-with-insurance-claims-flow.html
 release: xanadu
 product: Insurance Claims
 classification: insurance-claims
@@ -25,8 +26,8 @@ Several types of components are installed with the activation of the Insurance c
 
 |Store application|Description|
 |-----------------|-----------|
-|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](../../fso-common/reference/financial-services-operations-core-data-model.md).|
-|Playbooks in Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, enabling consistent responses to commonly encountered situations. For more information, see [Playbooks in Customer Service Management](https://www.servicenow.com/docs/access?context=setting-up-csm-playbooks&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).|
+|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/financial-services-operations-core-data-model.md).|
+|Playbooks in Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, enabling consistent responses to commonly encountered situations. For more information, see .|
 
 ## Roles installed
 
@@ -224,7 +225,7 @@ Defines the configuration for the claim incidents that can be created. Use this 
 -   Display order of the service definitions in the playbook
 -   Whether the service definition is shown in the UI or not
 
-For more information, see [Claim Incident Configuration table](../concept/claim-incident-configuration-table.md).
+For more information, see [Claim Incident Configuration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/insurance-claims/claim-incident-configuration-table.md).
 
 </td></tr><tr><td>
 
@@ -267,5 +268,5 @@ Commercial Travel Policy \[sn\_bom\_ct\_ins\_policy\]
 Stores information about a commercial travel policy issued to a policy holder. Extends Insurance Policy \[sn\_bom\_ins\_policy\].
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Insurance claims reference](../concept/insurance-claims-flow-reference.md)
+</table>**Parent Topic:**[Insurance claims reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/insurance-claims/insurance-claims-flow-reference.md)
 

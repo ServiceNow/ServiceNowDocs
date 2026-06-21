@@ -2,6 +2,7 @@
 title: Creating a card disputes case request from the service catalog
 description: Create a card disputes case request from the Customer or Consumer Service Portals by navigating the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +24,7 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 
 1.  Create a request by going to either the portal landing page or the portal menu header and then doing one of the following actions.
 
-<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d42661e54">
+<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d33360e54">
 
 **__Request Something__**
 
@@ -31,7 +32,7 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 
 On the portal landing page, select the **Request Something** link.
 
-</td></tr><tr><td id="d42661e67">
+</td></tr><tr><td id="d33360e67">
 
 **__Requests__**
 
@@ -46,10 +47,10 @@ In the portal menu header, navigate to **Requests** &gt; **Request Something**.
 
 3.  In the card disputes case intake page, fill in the information that is related to the request.
 
-    For more information on the various stages of the card disputes case within the playbook, see [Dispute workflows](../concept/dispute-management-workflows.md)
+    For more information on the various stages of the card disputes case within the playbook, see [Dispute workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management-workflows.md)
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Dispute Intake in Portal](../concept/dispute-playbook-for-portal.md)
+**Parent Topic:**[Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-playbook-for-portal.md)
 

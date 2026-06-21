@@ -2,6 +2,7 @@
 title: View the Access Controls Auditor Suite
 description: View the checks available in the default Access Controls Auditor Suites to understand which checks are executed when this suite runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/view-access-controls-auditor-suites.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -47,5 +48,5 @@ The steps you need to complete to access the default access controls auditor sui
     |Advanced|Advanced configuration options.|
 
 
-**Parent Topic:**[Create new suite](create-new-suite.md)
+**Parent Topic:**[Create new suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/create-new-suite.md)
 

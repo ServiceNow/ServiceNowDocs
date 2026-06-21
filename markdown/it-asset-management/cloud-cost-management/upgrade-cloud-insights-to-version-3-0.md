@@ -2,6 +2,7 @@
 title: Upgrade Cloud Cost Management
 description: You upgrade Cloud Cost Management on the System Applications page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/cloud-cost-management/upgrade-cloud-insights-to-version-3-0.html
 release: xanadu
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -37,6 +38,6 @@ Role required: sys\_admin
 
 7.  Perform the Automatic Test Framework \(ATF\) tests to ensure data continuity after the upgrade.
 
-    See [Run the Automatic Test Framework \(ATF\) tests](atf-tests-after-upgrade.md).
+    See [Run the Automatic Test Framework \(ATF\) tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/cloud-cost-management/atf-tests-after-upgrade.md).
 
 

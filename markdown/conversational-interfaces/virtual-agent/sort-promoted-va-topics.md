@@ -2,6 +2,7 @@
 title: Reorder promoted LLM topics in Virtual Agent
 description: Arrange large language model \(LLM\) topics to a desired non-alphabetical order after promoting them for recommendation by the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/sort-promoted-va-topics.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Arrange large language model \(LLM\) topics to a desired non-alphabetical order 
 
 ## Before you begin
 
-Promote any Virtual Agent LLM topics you want to reorder. For more information, see [Promote or demote LLM topics in Virtual Agent Designer](promote-demote-va-topics.md)
+Promote any Virtual Agent LLM topics you want to reorder. For more information, see [Promote or demote LLM topics in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)
 
 Role required: virtual\_agent\_admin or admin
 
@@ -42,5 +43,5 @@ The list of promoted skills is presented in a Virtual Agent conversation based o
 
 Repeat the previous steps to adjust any other promoted topics to sort them in a desired order.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

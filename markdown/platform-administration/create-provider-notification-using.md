@@ -2,6 +2,7 @@
 title: Create provider notification
 description: Create and update provider notifications, add and implement actions, and customize notifications
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-provider-notification-using.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -13,18 +14,18 @@ breadcrumb: [Provider notifications, Notifications, Configure core features, Adm
 
 Create and update provider notifications, add and implement actions, and customize notifications
 
--   **[Create and update a provider notification for all users](../task/noti-new-update-notification.md)**  
+-   **[Create and update a provider notification for all users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/noti-new-update-notification.md)**  
 Create a notification in the notification provider framework to send to both sys and non-sys users.
--   **[Create default content in a provider](../task/create-default-content.md)**  
+-   **[Create default content in a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-default-content.md)**  
 Create and use the default content for a notification that doesn't have a content provider or some of the fields in the content provider aren’t present.
--   **[Create custom notifications in Next Experience](../../navigation-and-ui/task/create-custom-notifications-next-experience.md)**  
+-   **[Create custom notifications in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-custom-notifications-next-experience.md)**  
 Provide better context and information about users' work by creating custom content for in-product notifications in Next Experience.
--   **[Implementing notification action with a script](../task/notification-action-script.md)**  
+-   **[Implementing notification action with a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/notification-action-script.md)**  
 Use the **Script** field in the Notification Action form to update and implement a notification action.
--   **[Select provider notification action capabilities](../task/noti-provider-action-capabilities.md)**  
+-   **[Select provider notification action capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/noti-provider-action-capabilities.md)**  
 Enable provider notification definitions to accept actions as scriptable action, flow actions, and virtual agent.
--   **[Add actions to the notification content](../task/noti-select-provider-actions-order.md)**  
+-   **[Add actions to the notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/noti-select-provider-actions-order.md)**  
 Use the Link Actions to Content related list to add actions to the notification content, selection of the provider notification and ordering of actions of an actionable content.
 
-**Parent Topic:**[Provider notifications](provider-notifications-landing.md)
+**Parent Topic:**[Provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/provider-notifications-landing.md)
 

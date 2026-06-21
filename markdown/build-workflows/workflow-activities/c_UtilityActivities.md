@@ -2,6 +2,7 @@
 title: Utility workflow activities
 description: Utility activities provide controls over the path of the workflow, and other useful tools.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-activities/c\_UtilityActivities.html
 release: xanadu
 product: Workflow Activities
 classification: workflow-activities

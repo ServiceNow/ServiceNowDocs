@@ -2,7 +2,10 @@
 title: Hide the logout button on the custom portal
 description: You can hide the logout option for your custom portal that appears in the Employee Center tab within Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/disable-logout-button-teams-custom-portal.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **CSS**.
 
-    ![CSS list](../images/system-css.png)
+    \[Omitted image "system-css.png"\] Alt text: CSS list
 
 2.  Click on your custom CSS.
 
 3.  Click **here** to edit the CSS.
 
-    ![Edit CSS](../images/edit-css-2.png)
+    \[Omitted image "edit-css-2.png"\] Alt text: Edit CSS
 
 4.  To disable the logout button from Microsoft Teams desktop application.
 
@@ -67,5 +70,5 @@ Role required: admin
 7.  Refresh the custom portal tab in Microsoft Teams.
 
 
-**Parent Topic:**[Embed a custom portal](customize-custom-portal-employee-center.md)
+**Parent Topic:**[Embed a custom portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/customize-custom-portal-employee-center.md)
 

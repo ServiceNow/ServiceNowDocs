@@ -2,6 +2,7 @@
 title: Create pre-allocated assets
 description: Create a pre-allocated asset that physically exists, but isn’t yet a financial liability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/t\_CreatingPreAllocatedAssets.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -161,5 +162,5 @@ Work notes related to the asset.
 </table>2.  Select **Submit**.
 
 
-**Parent Topic:**[Manage pre-allocated assets](../../hardware-asset-management/concept/manage-preallocated-asset.md)
+**Parent Topic:**[Manage pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/manage-preallocated-asset.md)
 

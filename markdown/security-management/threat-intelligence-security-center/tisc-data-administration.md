@@ -1,7 +1,8 @@
 ---
-title: Administration
+title: Administer
 description: Using the left navigation to navigate to the Administration module within Threat Intelligence Security Centre and view the following modules of TISC data administration, to further set filtering rules, approval rules, define threat score, and manage notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-data-administration.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Threat Intelligence Security Center, Security Operations]
 ---
 
-# Administration
+# Administer
 
 Using the left navigation to navigate to the Administration module within Threat Intelligence Security Centre and view the following modules of TISC data administration, to further set filtering rules, approval rules, define threat score, and manage notifications.
 
@@ -30,7 +31,7 @@ Description
 </td><td>
 
 This section consists of the following rules required during the data management:1.  **Data Imports Approval Rules**: Define the approval rules and integrate the approval flow within the Import Intelligence section after submitting the data import.
-2.  **Inbound Filtering Rules**: Create filter rules in order to filter the incoming source records data.
+2.  **Inbound Filtering Rules**: Create filter rules to filter the incoming source records data.
 3.  **Threat Scoring Rule**: Customize threat score calculator that assigns threat score to the observables.
 
 </td></tr><tr><td>

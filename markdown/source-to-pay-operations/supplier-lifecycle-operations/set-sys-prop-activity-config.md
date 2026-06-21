@@ -2,6 +2,7 @@
 title: Set the property to configure activity configurations
 description: Set the sn\_supplier\_sp.allow\_all\_apps\_configuration property to make activity configurations and filters accessible from all application scopes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/set-sys-prop-activity-config.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-If you set this system property to **true**, you can create or modify an activity configuration to display relevant activities in My active items widget of the Supplier Collaboration Portal. For more information , see [Configure properties for Supplier Lifecycle Operations](../reference/config-prop-supp-mgmt.md).
+If you set this system property to **true**, you can create or modify an activity configuration to display relevant activities in My active items widget of the Supplier Collaboration Portal. For more information , see [Configure properties for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/config-prop-supp-mgmt.md).
 
 ## Procedure
 
@@ -34,5 +35,5 @@ If you set this system property to **true**, you can create or modify an activit
 3.  Select **Save**.
 
 
-**Parent Topic:**[Install Supplier Collaboration Portal](install-supp-central.md)
+**Parent Topic:**[Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md)
 

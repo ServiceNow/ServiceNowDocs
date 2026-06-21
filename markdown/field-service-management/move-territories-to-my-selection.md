@@ -2,7 +2,10 @@
 title: View favorite territories on a map
 description: View and manage territories and their associated resource details in the list view and on a map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/move-territories-to-my-selection.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,12 +30,12 @@ Move a territory to the My Selection list to be able to view it on a map.
 
 2.  In the All Territories list, select a territory that you want to mark as favorite.
 
-3.  Select the Favourite \(![Favourite icon](../image/fsm-star-icon.png)\) icon.
+3.  Select the Favourite \(\[Omitted image "fsm-star-icon.png"\] Alt text: Favourite icon\) icon.
 
 
 ## Result
 
 The selected territory is moved to the My Selections list and displays on a map when selected.
 
-**Parent Topic:**[Using Field Service Territory Planning Console](../concept/using-territory-planning-console.md)
+**Parent Topic:**[Using Field Service Territory Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-territory-planning-console.md)
 

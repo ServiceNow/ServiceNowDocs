@@ -2,6 +2,7 @@
 title: Customize the Connect audio notification sound
 description: You can replace the default Connect audio notification sound with an audio file of your choice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/connect/t\_CustomizeConnectAudioNotifSound.html
 release: xanadu
 product: Connect
 classification: connect
@@ -19,7 +20,7 @@ You can replace the default Connect audio notification sound with an audio file 
 
 Role required: admin
 
-[Upload the audio file](https://www.servicenow.com/docs/access?context=t_UploadAnAudioFile&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) you want to use as the notification sound.
+Upload the audio file you want to use as the notification sound.
 
 Role required: admin
 

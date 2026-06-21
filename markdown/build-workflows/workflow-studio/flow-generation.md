@@ -2,6 +2,7 @@
 title: Flow generation
 description: Create multi-step flows with generative AI. Generate appropriate data pill values for supported flow triggers and action inputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/flow-generation.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -31,7 +32,7 @@ Enable flow generation to gain these benefits.
 
 Access flow generation skills from the Workflow Studio user interface.
 
-![Dialog window with options to build a flow with Now Assist](../images/example-input-build-with-now-assist.png "Flow generation from the Workflow Studio user interface")
+\[Omitted image "example-input-build-with-now-assist.png"\] Alt text: Dialog window with options to build a flow with Now Assist
 
 ## Supported trigger types
 
@@ -50,7 +51,7 @@ Flow generation supports a limited number of trigger types. You can use text dir
 
 Beginning with the Xanadu Patch 1 release, the flow generation skill displays flow annotations below each item added to the flow. The flow annotations contain the text directions that the flow generation skill used to generate the item. You can use these flow annotations to build better text directions and also receive feedback about how your directions map to specific actions, flow logic, and subflows.
 
-![Example flow preview in diagramming view. Each node shows an annotation of the text directions used.](../images/example-flow-preview-with-annotations.png "Flow preview with flow annotations")
+\[Omitted image "example-flow-preview-with-annotations.png"\] Alt text: Example flow preview in diagramming view. Each node shows an annotation of the text directions used.
 
 This example illustrates how the flow generation skill mapped specific text directions to flow items.
 
@@ -68,7 +69,7 @@ This example illustrates how the flow generation skill mapped specific text dire
 
 Beginning with the Xanadu Patch 3 release, the flow generation skill generates appropriate data pill values for supported triggers, actions, and flow logic. The flow generation skill updates the flow preview with data pill values as it generates them. While generating a flow preview, the system displays a check mark icon next to each item that contains generated data pill values. You can see the data pill values generated between the name of the flow component and the flow annotations containing your original text directions. The flow preview displays an animated working icon next to items that are waiting for data pill values to be generated. While the flow preview is generating data pill values, the system displays an option to stop generating the flow preview. If you stop generating the flow preview, you must either manually save and edit the flow, or edit your directions to generate another flow preview.
 
-![Flow preview populating the data pill values of each node.](../images/example-filling-out-flow-properties.jpg "Flow preview with data pill configuration")
+\[Omitted image "example-filling-out-flow-properties.jpg"\] Alt text: Flow preview populating the data pill values of each node.
 
 -   **1. Completed icon**
 
@@ -91,9 +92,9 @@ Beginning with the Xanadu Patch 3 release, the flow generation skill generates a
 
 Beginning with the Xanadu Patch 3 release, you can refer to a specific table in your Now Assist directions by typing a hash tag character and then typing either the table label or table name. As you type, autocomplete displays tables that match your entry. Add hash tag references to your directions when you want to ensure that flow generation selects the correct table for triggers or record-based actions. Hash tag references are particularly useful to help the LLM distinguish between tables that have similar or even identical labels such as the User \[imp\_user\] and User \[sys\_user\] tables.
 
-![Autocomplete table name suggestions for the Strategic hash tag](../images/example-hash-tags-autocomplete.jpg "Hash tag autocomplete")
+\[Omitted image "example-hash-tags-autocomplete.jpg"\] Alt text: Autocomplete table name suggestions for the Strategic hash tag
 
-![Now Assist directions containing a hash tag link to the Strategic Priority table.](../images/example-hash-tags-autocomplete-02.jpg "Now Assist directions with a hash tag table reference")
+\[Omitted image "example-hash-tags-autocomplete-02.jpg"\] Alt text: Now Assist directions containing a hash tag link to the Strategic Priority table.
 
 -   **1. Hash tag text**
 
@@ -219,5 +220,5 @@ Follow these general guidelines when writing Now Assist directions.
     Enclose exact data values in quotations marks to help the LLM distinguish between operation names and data values. For example, the directions, "`Log the value, 'incident reopened'`" make it clear that the text "incident reopened" is a data value.
 
 
-**Parent Topic:**[Exploring Flow Assist](exploring-flow-assist.md)
+**Parent Topic:**[Exploring Flow Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

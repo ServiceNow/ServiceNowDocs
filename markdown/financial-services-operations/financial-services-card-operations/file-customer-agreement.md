@@ -2,6 +2,7 @@
 title: File a customer agreement for a customer
 description: File the customer agreement that is prepared for a customer so that you can to set up a new credit card account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-card-operations/file-customer-agreement.html
 release: xanadu
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -21,13 +22,13 @@ Role required: sn\_bom\_document.agent
 
 ## About this task
 
-This document service task is automatically created for a new credit card case when the credit card task to [determine the card's terms and conditions and update the customer agreement](determine-card-terms-conditions-disclosures.md) completes.
+This document service task is automatically created for a new credit card case when the credit card task to [determine the card's terms and conditions and update the customer agreement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-card-operations/determine-card-terms-conditions-disclosures.md) completes.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Document Service**, open the task list.
 

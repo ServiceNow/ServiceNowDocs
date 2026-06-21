@@ -2,6 +2,7 @@
 title: View the promoted anomaly alerts
 description: View the anomaly alerts that the Advanced Promotion Engine promoted to events, which are then processed as alerts in the All Alerts table. Viewing alerts in the All Alerts table enables you to track the source of the alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/view-promoted-alerts.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -35,6 +36,6 @@ The Alerts table displays all of the relevant issues in the system.
 
 3.  Select an alert to receive more information about the alert.
 
-    For details on the displayed additional information, see [Alerts in Service Operations Workspace](../../service-operations-workspace-itom/concept/view-alert-workspace-itom.md).
+    For details on the displayed additional information, see [Alerts in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/view-alert-workspace-itom.md).
 
 

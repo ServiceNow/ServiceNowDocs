@@ -2,7 +2,10 @@
 title: Exclude Field Service agents from being assigned work order tasks
 description: Exclude Field Service agents from being assigned work order tasks with dynamic scheduling, or Schedule Optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/exclude-agents-from-being-assigned-tasks.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Exclude Field Service agents from being assigned work order tasks with dynamic s
 
 Role required: wm\_dispatcher, wm\_manager, wm\_admin
 
-If you’re using Technician Preferences for dynamic scheduling, then you must have the **Ignore Excluded Technician** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to ignore excluded technicians](prevent-excluded-agents.md).
+If you’re using Technician Preferences for dynamic scheduling, then you must have the **Ignore Excluded Technician** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to ignore excluded technicians](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/prevent-excluded-agents.md).
 
 ## Procedure
 
@@ -36,5 +39,5 @@ If you’re using Technician Preferences for dynamic scheduling, then you must h
 7.  Select **Update**.
 
 
-**Parent Topic:**[Managing work order tasks](../../planning-and-policy/concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Managing work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_WorkOrderTasks.md)
 

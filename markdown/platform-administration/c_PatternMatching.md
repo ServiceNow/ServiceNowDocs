@@ -2,6 +2,7 @@
 title: Pattern matching
 description: Pattern matching in Field Normalization uses special characters differently from regular expressions to create patterns that the platform recognizes when transforming field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_PatternMatching.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -28,5 +29,5 @@ Use the following special characters to create patterns for searches.
 -   **st?ry** matches **story** and **stxry**, but not **my story** or **stairy**.
 -   **\*b?gus\*** matches **bogus**, **my bogus story**, and **His bagus machine**, but not **my bgus story** or **my baigus story**.
 
-**Parent Topic:**[Regular expressions and patterns in field normalization rules](c_RegExpsAndPattFldNormalizeRls.md)
+**Parent Topic:**[Regular expressions and patterns in field normalization rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_RegExpsAndPattFldNormalizeRls.md)
 

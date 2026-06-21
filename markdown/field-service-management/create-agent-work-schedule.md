@@ -2,7 +2,10 @@
 title: Create a work schedule for an agent or technician
 description: Users with the agent schedule administrator role can create one or more work schedules for a customer service agent or a field service technician.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-agent-work-schedule.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-09-13"
 reading_time_minutes: 1
@@ -83,5 +86,5 @@ An agent can have only one primary schedule for a specific range of dates. Prima
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Scheduling and dispatching work order tasks to agents](../../field-service-management/concept/scheduling-and-dispatching-agents.md)
+**Parent Topic:**[Scheduling and dispatching work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-and-dispatching-agents.md)
 

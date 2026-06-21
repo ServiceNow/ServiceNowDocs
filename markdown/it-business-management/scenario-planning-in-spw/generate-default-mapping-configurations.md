@@ -2,6 +2,7 @@
 title: Generate default mapping configurations
 description: Generate default mapping configurations to create table maps for the available applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/scenario-planning-in-spw/generate-default-mapping-configurations.html
 release: xanadu
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -35,7 +36,7 @@ Role required: sn\_align\_core\_apw.admin
     |Agile Development 2.0|Epics|
     |SAFe|SAFe epic|
 
-    ![Create default mappings.](../images/generate-mapping-configurations.gif "Default mapping configurations")
+    \[Omitted image "generate-mapping-configurations.gif"\] Alt text: Create default mappings.
 
     **Note:** Mapping configurations consist of table, field, and choice maps for each record.
 

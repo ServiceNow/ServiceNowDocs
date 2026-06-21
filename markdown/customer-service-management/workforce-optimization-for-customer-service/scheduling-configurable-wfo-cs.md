@@ -2,12 +2,13 @@
 title: Scheduling in Workforce Optimization for Customer Service
 description: By using Scheduling, you can manage your workforce resources efficiently by planning and managing schedules, staffing, and shifts across your teams all from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.Manage your team's schedule by creating a schedule plan that covers a span of time and includes your team's work shifts. You can also assign agents to shifts based on their skills and availability. This way, you can make sure that you are using your resources in the best way possible for your organization.Generate a preview of your schedule plan and publish it so that your agents can see their shifts and schedules ahead of time. You can unpublish a schedule to make changes and then publish it again.Create, update, or monitor your teams' schedule from one location. You can approve or reject requests for swapping shifts or time off for agents within your assignment group.Set recurring meetings or training sessions for your team from the Schedule tab. You can create daily, weekly, monthly, or yearly meetings.Use schedule adherence to evaluate whether or not your agents are adhering to their assigned schedules. You can look for areas where low-value activity can be eliminated or reduced and further analyze staffing levels throughout the day.View the time worked summary of your team members to determine if your teams are adhering to the planned schedules. You can also use historical adherence, which is a reporting view of real-time adherence, to see how well your agents have followed their schedules in the past.Use Demand Forecast to plan the number of staff members that you require so that you have enough agents to do the job.Create a meeting, training, time-off request, or an ad hoc work event from the team calendar.Swap an agent's shift in your assignment group with another agent who can work on that shift and skip the approval process.Empower your teams to sign up for work shifts based on their availability and preference.Specify one or more shifts in a schedule plan for which you would prefer to sign up.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/scheduling-configurable-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 33
+reading_time_minutes: 32
 breadcrumb: [Using Workforce Optimization for Customer Service, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
@@ -27,9 +28,9 @@ With Scheduling, you can do the following:
 -   Analyze whether your team members are following the schedules. If you see a potential issue, you can easily alert your team so that they can take immediate action.
 -   Use historical adherence reports to analyze and recommend coaching opportunities for your agents.
 
-To delve into more information behind your key performance indicators, filters and sidebars, see [Exploring indicators with KPI Details](https://www.servicenow.com/docs/access?context=kpi-details-components&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+To delve into more information behind your key performance indicators, filters and sidebars, see Exploring indicators with KPI Details
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](use-configurable-wfo-cs.md)
+**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/use-configurable-wfo-cs.md)
 
 ## Create a shift plan
 
@@ -49,7 +50,7 @@ In the **Shifts** tab, the shifts are grouped by active and inactive shifts. The
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon](../image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
 3.  Click the **Shifts** tab.
 
@@ -57,15 +58,15 @@ In the **Shifts** tab, the shifts are grouped by active and inactive shifts. The
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d41144e222">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d43193e222">
 
 To
 
-</th><th align="left" id="d41144e225">
+</th><th align="left" id="d43193e225">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d41144e231">
+</th></tr></thead><tbody><tr><td id="d43193e231">
 
 **Create a work shift**
 
@@ -98,7 +99,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Click **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d41144e349">
+</td></tr><tr><td id="d43193e349">
 
 **Create an on-call shift**
 
@@ -148,13 +149,13 @@ Role required: sn\_shift\_planning.admin
 
 ### About this task
 
-You can set the number of days to cache agent schedules using the **sn\_shift\_planning.number\_of\_days\_to\_cache** [system property](../reference/components-installed-configurable-wfo-cs.md). The **Total coverage/demand** row displays the number of agents covering each shift in a day. The day view displays the demand for the number of agents forecast for every hour in a day. For example, 4/5 shows that you have four agents scheduled for an hourly time slot, 11 AM to 12 PM and the agent demand forecast for that hour is 5.
+You can set the number of days to cache agent schedules using the **sn\_shift\_planning.number\_of\_days\_to\_cache** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md). The **Total coverage/demand** row displays the number of agents covering each shift in a day. The day view displays the demand for the number of agents forecast for every hour in a day. For example, 4/5 shows that you have four agents scheduled for an hourly time slot, 11 AM to 12 PM and the agent demand forecast for that hour is 5.
 
 ### Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon.](../image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\) icon.
 
 3.  Create a schedule plan.
 
@@ -162,8 +163,8 @@ You can set the number of days to cache agent schedules using the **sn\_shift\_p
 
         **Note:** You can analyze the staff alignment for a day or for the week.
 
-    2.  In the contextual side panel, click the show schedules icon ![Show Schedules icon.](../image/show-schedule-new.png) to display the schedules.
-    3.  In the Schedules panel, click ![Create New Schedule icon.](../image/create-schedule-new.png) icon.
+    2.  In the contextual side panel, click the show schedules icon \[Omitted image "show-schedule-new.png"\] Alt text: Show Schedules icon. to display the schedules.
+    3.  In the Schedules panel, click \[Omitted image "create-schedule-new.png"\] Alt text: Create New Schedule icon. icon.
     4.  In the **Name** field, enter a name for the schedule plan.
     5.  From the **Start Date** field, select a date to start the schedule plan and click **OK**.
     6.  From the **End Date** field, select a date to end the schedule plan and click **OK**.
@@ -213,12 +214,12 @@ You can also unpublish a schedule make updates, and then publish it again.
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon](../image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\).
 
 3.  Generate a schedule preview.
 
     1.  Click the **Team Calendar** tab.
-    2.  Click the Show Schedules \(![Show Schedules icon.](../image/show-schedule-new.png)\) icon to display in the contextual side panel.
+    2.  Click the Show Schedules \(\[Omitted image "show-schedule-new.png"\] Alt text: Show Schedules icon.\) icon to display in the contextual side panel.
     The team calendar refreshes and generates the preview when you save a work shift.
 
 4.  Publish a schedule.
@@ -258,24 +259,24 @@ Using the calendar, you can do the following:
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Schedule \(![Schedule icon.](../image/schedule-new.png)\) icon.
+2.  Select the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\) icon.
 
 3.  Modify an agent's shift.
 
     The schedule that includes this shift must be in **Preview** or **Published** state.
 
     1.  In the **Team Calendar** tab, navigate and hover over the shift for the agent that you want to modify the schedule for.
-    2.  In the shift pop-up window, select the Edit \(![Edit icon.](../image/edit-new.png)\) icon.
+    2.  In the shift pop-up window, select the Edit \(\[Omitted image "edit-new.png"\] Alt text: Edit icon.\) icon.
     3.  Modify the agent's shift or the shift time.
 
         **Note:** If the existing shift has a break, you can add more breaks to the shift.
 
         -   Select **Select shift times** and modify the **Start time** or **End time** fields to change the timing of the shift.
-        -   Select the **Select preset shift** option and from the Shift plan list, select an existing shift to assign another shift plan to the agent. For more info on creating a shift plan, see [Create a shift plan](scheduling-configurable-wfo-cs.md#).
+        -   Select the **Select preset shift** option and from the Shift plan list, select an existing shift to assign another shift plan to the agent. For more info on creating a shift plan, see [Create a shift plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/scheduling-configurable-wfo-cs.md).
     4.  Select **Save**.
 4.  Approve or reject an agent's time off or shift-swap with another agent.
 
-    **Note:** You must approve a request two days before the time-off or shift-swap start date. If not, the approval is auto-rejected. An administrator can change this default setting. For more information, see Setting the due date for time-off and shift-swap request approvals in [Components installed with Workforce Optimization for Customer Service](../reference/components-installed-configurable-wfo-cs.md) Overlapping time-off requests by an agent is rejected.
+    **Note:** You must approve a request two days before the time-off or shift-swap start date. If not, the approval is auto-rejected. An administrator can change this default setting. For more information, see Setting the due date for time-off and shift-swap request approvals in [Components installed with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) Overlapping time-off requests by an agent is rejected.
 
     |Tab|Description|
     |---|-----------|
@@ -292,7 +293,7 @@ Set recurring meetings or training sessions for your team from the Schedule tab.
 
 ### Before you begin
 
-Configure settings to enable recurring meetings or training sessions. For more information, refer to [Create event types to display them on the team calendar](setup-scheduling-configurable-wfo-cs.md#).
+Configure settings to enable recurring meetings or training sessions. For more information, refer to [Create event types to display them on the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-scheduling-configurable-wfo-cs.md).
 
 Role required: sn\_shift\_planning.admin
 
@@ -300,7 +301,7 @@ Role required: sn\_shift\_planning.admin
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Schedule \(![Schedule icon.](../image/schedule-new.png)\) icon.
+2.  Select the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\) icon.
 
 3.  Navigate to **+New** &gt; **Meeting**.
 
@@ -316,15 +317,15 @@ Role required: sn\_shift\_planning.admin
 
 9.  Select one of the following options from the Repeats list.
 
-<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d41144e1353">
+<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d43193e1353">
 
 Option
 
-</th><th align="left" id="d41144e1356">
+</th><th align="left" id="d43193e1356">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41144e1362">
+</th></tr></thead><tbody><tr><td id="d43193e1362">
 
 **Does not repeat**
 
@@ -332,7 +333,7 @@ Steps
 
 It is a one-time meeting only.
 
-</td></tr><tr><td id="d41144e1371">
+</td></tr><tr><td id="d43193e1371">
 
 **Daily**
 
@@ -342,7 +343,7 @@ It is a one-time meeting only.
 2.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d41144e1395">
+</td></tr><tr><td id="d43193e1395">
 
 **Weekly**
 
@@ -353,7 +354,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d41144e1422">
+</td></tr><tr><td id="d43193e1422">
 
 **Monthly**
 
@@ -367,7 +368,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d41144e1470">
+</td></tr><tr><td id="d43193e1470">
 
 **Yearly**
 
@@ -403,17 +404,17 @@ Role required: sn\_shift\_planning.admin
 
 -   Adherence is a metric to analyze how closely agents follow their schedule in completing the work assignments. Conformance measures the work completed, regardless of when it was completed.
 -   A high adherence rate indicates that agents are sticking to their schedules and offering customer service when expected. Low adherence suggests changing the processes or decisions to manage the team efficiently. The numbers are highlighted in red for non-adherent agents.
--   Schedule adherence and conformance calculations are based on the formulas, agents' actual and planned work timings. The following are the default formulas that are used to calculate adherence and conformance for agents. However, your administrator can change the [formulas](setup-scheduling-configurable-wfo-cs.md#), as required. The following components and formulas are used to calculate adherence and conformance:
+-   Schedule adherence and conformance calculations are based on the formulas, agents' actual and planned work timings. The following are the default formulas that are used to calculate adherence and conformance for agents. However, your administrator can change the [formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-scheduling-configurable-wfo-cs.md), as required. The following components and formulas are used to calculate adherence and conformance:
     -   The **shift\_planning\_clock-in** and **shift\_planning\_clock-out** scripts generate the agents' clock-in and clock-out events from the login and logout sessions. The business rule **Agent Time Work Event Trigger** generates clock-in and clock-out events whenever there is a change in agent's presence state.
     -   **Schedule Adherence**= \(Minutes worked in shift/Scheduled shift time in minutes + Overtime\)
     -   **Conformance**= \(Minutes worked in shift + Overtime\)/Scheduled shift time in minutes
--   The ideal adherence percentage by default is above 70, and conformance is between 80 to 120. However, your administrator can change the threshold values. For more information, see [Configure properties for schedule adherence and conformance](setup-scheduling-configurable-wfo-cs.md#). The agents who do not qualify to the defined threshold values are considered as non-adherent and are highlighted in red.
+-   The ideal adherence percentage by default is above 70, and conformance is between 80 to 120. However, your administrator can change the threshold values. For more information, see [Configure properties for schedule adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-scheduling-configurable-wfo-cs.md). The agents who do not qualify to the defined threshold values are considered as non-adherent and are highlighted in red.
 
 ### Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon.](../image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
 3.  Monitor the schedule adherence of your agents.
 
@@ -454,7 +455,7 @@ Example: A clock-in event gets generated when an agent logs in or changes the pr
 </td></tr></tbody>
 </table>    The following team calendar snapshot illustrates how to measure how well your team members are adhering to their work schedules. The blue bar indicates the planned work shift time and next to that is the actual worked time. The default representations are purple for clock-in time, green for agent's available duration, red for the clock-out time, and grey for agent's non-available time.
 
-    ![Schedule view in the Team Calendar displaying agent availability.](../image/schedule-adherence-cs.png)
+    \[Omitted image "schedule-adherence-cs.png"\] Alt text: Schedule view in the Team Calendar displaying agent availability.
 
 
 ## Analyze adherence and conformance from the time worked summary
@@ -469,11 +470,11 @@ Role required: sn\_shift\_planning.admin
 
 ### About this task
 
-Adherence and conformance calculations are based on the [defined configuration](setup-scheduling-configurable-wfo-cs.md#) and your agents' actual and planned work schedules.
+Adherence and conformance calculations are based on the [defined configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-scheduling-configurable-wfo-cs.md) and your agents' actual and planned work schedules.
 
-**Note:** Your administrator can disable schedule adherence or change the configuration for adherence and conformance. For more information, see [Configure properties for schedule adherence and conformance](setup-scheduling-configurable-wfo-cs.md#).
+**Note:** Your administrator can disable schedule adherence or change the configuration for adherence and conformance. For more information, see [Configure properties for schedule adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-scheduling-configurable-wfo-cs.md).
 
-For information about schedule adherence, see the "Schedule adherence" section of [Scheduling in Workforce Optimization for Field Service](https://www.servicenow.com/docs/access?context=scheduling-wfo-fsm&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).
+For information about schedule adherence, see the "Schedule adherence" section of .
 
 ### Procedure
 
@@ -495,7 +496,7 @@ Analyze time worked summary of your team
 
 </td><td>
 
-1.  Click the Lists icon \(![Lists icon.](../image/list-new.png)\).
+1.  Click the Lists icon \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\).
 2.  Under Schedule Adherence, click **Time Worked Summary**.
 
 **Note:** The **Available Non Planned** time captures the time the agent was available and clocked in outside of the agent's scheduled work events. For example, if an agent is scheduled to attend a training from 13:00 to 14:00 but forgets to clock out that attendance, that time is considered the clocked-in time. The training time from 13:00 to 14:00 is captured as the available non-planned time.
@@ -506,14 +507,14 @@ View your agents' time attendance
 
 </td><td>
 
-1.  Click the Lists icon \(![Lists icon.](../image/list-new.png)\).
+1.  Click the Lists icon \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\).
 2.  Under Schedule Adherence, click **Time Attendance**.
 
 
 </td></tr></tbody>
 </table>    The following schedule adherence example shows how to measure how well your team is adhering and conforming with their work schedules.
 
-    ![Complete summary of the attendance, schedule adherence, and conformance of all the agents in the team.](../image/time_worked_summary_new.png)
+    \[Omitted image "time\_worked\_summary\_new.png"\] Alt text: Complete summary of the attendance, schedule adherence, and conformance of all the agents in the team.
 
 
 ### Example
@@ -553,7 +554,7 @@ Using Demand Forecast, you can:
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon](../image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
 3.  Click the **Team Calendar** tab.
 
@@ -561,15 +562,15 @@ Using Demand Forecast, you can:
 
     You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d41144e2118">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d43193e2117">
 
 To analyze staff alignment
 
-</th><th align="left" id="d41144e2121">
+</th><th align="left" id="d43193e2120">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d41144e2127">
+</th></tr></thead><tbody><tr><td id="d43193e2126">
 
 **For each day**
 
@@ -588,7 +589,7 @@ Select **Day** from the list.The **Total resources needed** row displays the dem
 |Red|The number of agents you have scheduled are less than the demand you have for that interval.|
 |Grey|The demand for the number of agents and the number of agents scheduled is zero for that interval.|
 
-</td></tr><tr><td id="d41144e2211">
+</td></tr><tr><td id="d43193e2210">
 
 **For a given week**
 
@@ -610,7 +611,7 @@ The **Total coverage/demand** row has indicators for the staff alignment.
 </td></tr></tbody>
 </table>    The following scheduling snapshots provide you an example to analyze staff alignment using Demand Forecast. The misaligned staffing indicator in the pop-up shows that the forecast manager has scheduled certain number of agents for each shift but they need more agents to cover them.
 
-    ![Demand Forecast to analyze staff alignment.](../image/demand_forecast_and_scheduling.gif)
+    \[Omitted image "demand\_forecast\_and\_scheduling.gif"\] Alt text: Demand Forecast to analyze staff alignment.
 
 
 ## Add events to the team calendar
@@ -625,13 +626,13 @@ Role required: sn\_shift\_planning.admin
 
 ### About this task
 
-You can create custom event types and add or remove the desired fields. For more information, see [Create event types to display them on the team calendar](setup-scheduling-configurable-wfo-cs.md#).
+You can create custom event types and add or remove the desired fields. For more information, see [Create event types to display them on the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-scheduling-configurable-wfo-cs.md).
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon.](../image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
 3.  Click the **Team Calendar** tab.
 
@@ -639,15 +640,15 @@ You can create custom event types and add or remove the desired fields. For more
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d41144e2435">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d43193e2434">
 
 To
 
-</th><th align="left" id="d41144e2438">
+</th><th align="left" id="d43193e2437">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d41144e2444">
+</th></tr></thead><tbody><tr><td id="d43193e2443">
 
 **Create a meeting, training, or time-off request.**
 
@@ -672,7 +673,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d41144e2550">
+</td></tr><tr><td id="d43193e2549">
 
 **Create a work shift**
 
@@ -703,11 +704,11 @@ Role required: sn\_shift\_planning.admin
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon.](../image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
 3.  In the **Team Calendar** tab, navigate and point to the shift for the agent that you want to swap with another agent.
 
-4.  In the shift pop-up window, click the Shift Swap icon \(![Shift Swap icon.](../image/shift_swap_icon.png)\).
+4.  In the shift pop-up window, click the Shift Swap icon \(\[Omitted image "shift\_swap\_icon.png"\] Alt text: Shift Swap icon.\).
 
 5.  In the **Requested Shift** section, click the **Agent** field and select the agent who can work on that shift.
 
@@ -734,15 +735,15 @@ When a schedule plan is enabled for sign-up, you can receive notifications. You 
 
 1.  Navigate to **All** &gt; **Workforce Optimization for CSM** &gt; **Manager Workspace**
 
-2.  Select the Schedule icon \(![Schedule icon](../image/schedule-icon.png)\).
+2.  Select the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text: Schedule icon\).
 
 3.  Add a schedule plan.
 
     1.  Select the **Team Calendar** tab.
 
-    2.  In the Contextual side panel, click the Show Schedules icon ![Show Schedules icon.](../image/show-schedules-icon.png) to display the schedules.
+    2.  In the Contextual side panel, click the Show Schedules icon \[Omitted image "show-schedules-icon.png"\] Alt text: Show Schedules icon. to display the schedules.
 
-        **Tip:** Select the filter icon \(![Filter schedule](../image/show-filter-icon.png)\) and then select the desired sign-up state and sign-up dates to narrow down the schedule plans enabled for sign-up.
+        **Tip:** Select the filter icon \(\[Omitted image "show-filter-icon.png"\] Alt text: Filter schedule\) and then select the desired sign-up state and sign-up dates to narrow down the schedule plans enabled for sign-up.
 
 <table id="table_fnk_m3l_bvb"><thead><tr><th>
 
@@ -783,7 +784,7 @@ Do this
 
         The image below shows an example of a filled-in Schedule form.
 
-        ![Create shift sign-up](../image/create-shift-signup.png)
+        \[Omitted image "create-shift-signup.png"\] Alt text: Create shift sign-up
 
     5.  To enable your agents to sign up for work shifts, do the following:
 
@@ -799,13 +800,13 @@ Do this
 
         The image below displays the schedule plan that was created.
 
-        ![Select schedule for shift sign-up](../image/select-schedule-shift-signup.png)
+        \[Omitted image "select-schedule-shift-signup.png"\] Alt text: Select schedule for shift sign-up
 
     2.  Select **Add Shift**.
 
         The image below provides an example of a form to enter the details for a shift.
 
-        ![Add shift sign-up](../image/add-shift-signup.png)
+        \[Omitted image "add-shift-signup.png"\] Alt text: Add shift sign-up
 
     3.  In the **Shift** field, select the work shift that you want to add to the schedule plan.
 
@@ -823,15 +824,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d41144e3109">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d43193e3108">
 
 To
 
-</th><th align="left" id="d41144e3112">
+</th><th align="left" id="d43193e3111">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d41144e3118">
+</th></tr></thead><tbody><tr><td id="d43193e3117">
 
 **Auto-assign agents**
 
@@ -839,7 +840,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d41144e3133">
+</td></tr><tr><td id="d43193e3132">
 
 **Assign agents manually**
 
@@ -933,7 +934,7 @@ You can receive notifications when your manager makes a schedule plan available 
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the Schedule icon \(![Schedule icon.](../image/schedule-icon.png)\).
+2.  Select the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text: Schedule icon.\).
 
 3.  Select the **Sign up shifts** tab.
 
@@ -949,7 +950,7 @@ You can receive notifications when your manager makes a schedule plan available 
     |Closed Incomplete|The schedule plan currently does not have shifts for which you could sign up.|
     |Closed Complete|The schedule plan has at least one preferred shift for which you've signed up.|
 
-4.  Select the Overlapping time off icon \(![Overlapping time off.](../image/overlapping-time-off-icon.png)\) to analyze if the time off you have requested or the ones that have been approved overlap with the schedule plan available to you for sign up.
+4.  Select the Overlapping time off icon \(\[Omitted image "overlapping-time-off-icon.png"\] Alt text: Overlapping time off.\) to analyze if the time off you have requested or the ones that have been approved overlap with the schedule plan available to you for sign up.
 
 5.  To sign up for your preferred shifts, select **Add shifts**.
 

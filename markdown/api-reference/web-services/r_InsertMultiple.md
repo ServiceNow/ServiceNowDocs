@@ -2,6 +2,7 @@
 title: insertMultiple
 description: Creates multiple new records for the table targeted in the URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/r\_InsertMultiple.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -169,5 +170,5 @@ The resulting response looks like this:
 </soapenv:Envelope>
 ```
 
-**Parent Topic:**[Data Modification API](r_DataModificationAPI.md)
+**Parent Topic:**[Data Modification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/r_DataModificationAPI.md)
 

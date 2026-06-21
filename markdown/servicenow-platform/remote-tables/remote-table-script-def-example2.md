@@ -2,6 +2,7 @@
 title: Example 2: Retrieving specific records from a third-party source
 description: In this example, we create a script to retrieve specific types of incident records from a third-party source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/remote-tables/remote-table-script-def-example2.html
 release: xanadu
 product: Remote Tables
 classification: remote-tables
@@ -17,8 +18,8 @@ In this example, we create a script to retrieve specific types of incident recor
 
 For Remote Table API information, refer to:
 
--   [v\_table\(\)](https://www.servicenow.com/docs/access?context=v_tableAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
--   [v\_query\(\)](https://www.servicenow.com/docs/access?context=v_queryAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+-   v\_table\(\)
+-   v\_query\(\)
 
 ```
 /**
@@ -185,5 +186,5 @@ If no problems are encountered in the data retrieval, it gets the data body for 
 
 `getTransformerDefinition` defines the schema of the record in the external API response body. It maps each of the fields in the table script to an element in the external record. Any external data elements outside of this mapping are not available in the remote table.
 
-**Parent Topic:**[Create a script definition for a remote table](../task/create-remote-table-script.md)
+**Parent Topic:**[Create a script definition for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/remote-tables/create-remote-table-script.md)
 

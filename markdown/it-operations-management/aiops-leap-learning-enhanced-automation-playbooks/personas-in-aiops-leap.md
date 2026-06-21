@@ -2,6 +2,7 @@
 title: Personas in AIOps LEAP
 description: AIOps LEAP supports different personas who can have different roles assigned to enhance IT Operations Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/personas-in-aiops-leap.html
 release: xanadu
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

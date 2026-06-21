@@ -2,7 +2,10 @@
 title: Request rejected parts from other stockrooms
 description: Request parts from other stockrooms that have been rejected by your peer agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/request-rejected-parts-from-other-stockrooms.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -44,7 +47,7 @@ A part request is created in the Draft state.
 
 ## What to do next
 
-You can source parts for the part request that is created. For more information, see [Request inventory](../concept/request-inventory.md#).
+You can source parts for the part request that is created. For more information, see [Request inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/request-inventory.md).
 
-**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](../concept/easily-track-parts.md)
+**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/easily-track-parts.md)
 

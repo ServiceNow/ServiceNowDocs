@@ -2,6 +2,7 @@
 title: Activate sensitive data redaction for inbound emails plugin
 description: You can activate the Sensitive Data Redaction for Inbound Emails plugin \(com.glide.email\_inbound.redaction\) for Notifications if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/activate-data-redaction-emails-plugin.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -31,18 +32,18 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/find-components.md).
 
 
 ## What to do next
 
-[Activating Data Discovery](https://www.servicenow.com/docs/access?context=activate-data-discovery&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+
 
 **Note:** Data Discovery application does not require a paid subscription when used along with sensitive data redaction for inbound emails plugin.
 
 **Data Discovery patterns**
 
-[Default data patterns](https://www.servicenow.com/docs/access?context=default-data-patterns&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) are used to filter table entries for further classification. The Data Discovery pattern defines the regular expression used to match data against a target table. For more information, see [Configure Data Discovery patterns](https://www.servicenow.com/docs/access?context=configure-data-discovery-patterns&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+ are used to filter table entries for further classification. The Data Discovery pattern defines the regular expression used to match data against a target table. For more information, see .
 
-**Parent Topic:**[Sensitive data redaction](../concept/sensitive-data-redaction.md)
+**Parent Topic:**[Sensitive data redaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/sensitive-data-redaction.md)
 

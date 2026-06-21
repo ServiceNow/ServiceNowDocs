@@ -2,6 +2,7 @@
 title: Use Now Assist to create spokes and build actions
 description: Use Now Assist in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/now-assist-in-spk-gen.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -40,12 +41,12 @@ Now Assist for Spoke Generation v1.5.6 is the latest version.
 
 The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [Now Assist for Creator feature](now-assist-for-creator-landing.md).
+After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [Now Assist for Creator feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md).
 
-![Spoke generation skill inNow Assist Admin console.](../images/creator-skill-now-assist.png "Spoke generation skill in Now Assist Admin console")
+\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke generation skill inNow Assist Admin console.
 
--   For information about the Now Assist Admin console, see [Now Assist Admin console](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
--   For steps to activate the required skill, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   For information about the Now Assist Admin console, see .
+-   For steps to activate the required skill, see .
 
 **Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
 
@@ -61,16 +62,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 
--   **[Install Now Assist for Creator](../task/install-now-assist-spk.md)**  
+-   **[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/install-now-assist-spk.md)**  
 Install the Now Assist for Creator application to use the spoke generation skill.
--   **[Turn on the spoke generation skill](../task/turn-on-spk-gen-skill.md)**  
+-   **[Turn on the spoke generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/turn-on-spk-gen-skill.md)**  
 Turn on the flow generation skill to use generative AI to create spoke.
--   **[Create spoke and build actions using the spoke generation skill in Now Assist](../task/create-spk-now-spk-gen.md)**  
+-   **[Create spoke and build actions using the spoke generation skill in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-spk-now-spk-gen.md)**  
 Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
 
-**Parent Topic:**[Building spokes using Spoke Generator](spoke-builder.md)
+**Parent Topic:**[Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/spoke-builder.md)
 

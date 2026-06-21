@@ -2,7 +2,10 @@
 title: Enable Virtual Agent notifications for IT Service Management
 description: Configure system properties to enable Virtual Agent notifications in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/enable-va-notifications-it.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -46,7 +49,7 @@ The following tables are supported for Virtual Agent notifications in the base s
 
 ## What to do next
 
-You can customize the fields displayed in approval notifications. For more information, see [Customizing approval notification fields](../concept/customizing-approval-notifications.md).
+You can customize the fields displayed in approval notifications. For more information, see [Customizing approval notification fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/customizing-approval-notifications.md).
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](../concept/sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-ms-teams-config-it.md)
 

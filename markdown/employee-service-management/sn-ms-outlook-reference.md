@@ -2,7 +2,10 @@
 title: ServiceNow for Microsoft Outlook reference
 description: Reference topics provide additional information about the lists and forms that you use to configure ServiceNow for Microsoft Outlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/sn-ms-outlook-reference.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,10 +16,10 @@ breadcrumb: [ServiceNow for Microsoft Outlook, Employee Service Management]
 
 Reference topics provide additional information about the lists and forms that you use to configure ServiceNow for Microsoft Outlook.
 
--   **[Properties installed with ServiceNow for Microsoft Outlook](properties-sn-ms-outlook.md)**  
+-   **[Properties installed with ServiceNow for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/properties-sn-ms-outlook.md)**  
 The following properties are installed with the Outlook Actionable Messages plugin.
--   **[Outlook Actionable Messages compatibility for surveys](oam-survey-compatibility.md)**  
+-   **[Outlook Actionable Messages compatibility for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/oam-survey-compatibility.md)**  
 Survey definitions must be compatible with Outlook Actionable Messages \(OAM\) to display surveys in the Microsoft Outlook application.
 
-**Parent Topic:**[Employee Service Management](../../employee-service-management/concept/employee-service-management-overview.md)
+**Parent Topic:**[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-service-management-overview.md)
 

@@ -2,6 +2,7 @@
 title: Upgrade Agent Client Collector for Kubernetes – Visibility Informers remotely
 description: Upgrade Agent Client Collector for Kubernetes – Visibility Informer pods in Kubernetes clusters remotely from the ServiceNow Instance to avoid dependence on your Kubernetes admin. You can upgrade a single Informer or multiple Informers together.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-informer-upgrade-remote.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -34,15 +35,15 @@ Role required: discovery\_admin
 
     **Note:** Only Informers with the value Upgrade Pending in the **Upgrade Status** field can be upgraded. The running status of the Informers must be either Up or Paused.
 
-<table id="choicetable_l24_ctl_sbc"><thead><tr><th align="left" id="d88484e159">
+<table id="choicetable_l24_ctl_sbc"><thead><tr><th align="left" id="d88894e159">
 
 Upgrade
 
-</th><th align="left" id="d88484e162">
+</th><th align="left" id="d88894e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88484e168">
+</th></tr></thead><tbody><tr><td id="d88894e168">
 
 **One Informer**
 
@@ -52,7 +53,7 @@ Steps
 2.  In the Related Links section of the form, select **Upgrade Informer**.
 
 
-</td></tr><tr><td id="d88484e189">
+</td></tr><tr><td id="d88894e189">
 
 **Multiple Informers**
 

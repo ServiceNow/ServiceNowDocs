@@ -2,6 +2,7 @@
 title: Role Trails
 description: Displays audits of roles in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/identity/role-trails.html
 release: xanadu
 product: Identity
 classification: identity
@@ -28,5 +29,5 @@ To access Role Trails, navigate to **All** &gt; **System Security** &gt; **Ident
 |Created By|The user who made the change.|
 |Created|The time and date the audit was performed.|
 
-![Role Trails](../images/role-trails.png)
+\[Omitted image "role-trails.png"\] Alt text: Role Trails
 

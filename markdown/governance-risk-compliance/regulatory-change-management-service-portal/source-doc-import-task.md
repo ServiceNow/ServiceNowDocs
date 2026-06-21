@@ -2,6 +2,7 @@
 title: Source document import tasks
 description: The Regulatory Change Management application processes the alerts that are externally sourced. Source document import tasks are automatically created whenever a source document alert record is marked as applicable. The source document can refer to the legislative and regulatory materials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/regulatory-change-management-service-portal/source-doc-import-task.html
 release: xanadu
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

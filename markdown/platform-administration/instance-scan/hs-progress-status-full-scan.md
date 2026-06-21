@@ -2,6 +2,7 @@
 title: Progress status of a scan
 description: You can check the progress status of a scan by checking the progress tracker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-progress-status-full-scan.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan

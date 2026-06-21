@@ -2,6 +2,7 @@
 title: Organization Management
 description: The Organization Management application provides an easy way to perform such asset management tasks as updating users and adding vendors.You can create a new vendor, which is a company that sells assets or services that your organization purchases. You can also create a new manufacturer, which is a company that builds assets that your organization purchases.The Locations module is the Asset view of the Location table \[cmn\_location\].
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/r\_OrganizationManagement.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -17,7 +18,7 @@ The Organization Management application provides an easy way to perform such ass
 
 It includes managing your vendors and manufacturers, as well as managing locations.
 
-**Parent Topic:**[Asset Management](../concept/c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_AssetManagement.md)
 
 ## Create a new vendor or manufacturer
 
@@ -49,5 +50,5 @@ The Locations module is the Asset view of the Location table \[cmn\_location\].
 
 In addition to the physical specifics for the location, the Asset view includes the **Stock room** designation and a list of configuration items \(CI\) in stock at that location.
 
-![Asset location](../image/AssetLocation.png "Asset location")
+\[Omitted image "AssetLocation.png"\] Alt text: Asset location
 

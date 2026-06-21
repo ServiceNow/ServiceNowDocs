@@ -2,6 +2,7 @@
 title: Impact of associated compliance objects on control requirements
 description: Control objective requirements are created for a control objective. The control requirements are generated for all the controls that are associated with a control objective. However, a control or a control requirement can become non-compliant because of an attestation failure or issue creation at either of the two levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-cor-changes-impact.html
 release: xanadu
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring

@@ -2,7 +2,10 @@
 title: Cloud Configuration Governance roles and system properties
 description: Cloud Configuration Governance users require the appropriate roles and system properties to perform various activities. These roles and system properties are installed with the activation of the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/ccg-roles-and-system-properties.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -114,10 +117,10 @@ When you enable this property, Cloud Configuration Governance writes the logs to
  Ensure that the application scope is **Global**, when you set or clear this property.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](../reference/ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-reference.md)
 
 **Related topics**  
 
 
-[Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_AssignARoleToAUser]
 

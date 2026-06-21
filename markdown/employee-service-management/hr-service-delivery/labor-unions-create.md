@@ -2,6 +2,7 @@
 title: Create a labor union
 description: Create a union with details that identify it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/labor-unions-create.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -39,8 +40,8 @@ Role required: admin
 
     If you select **Save**, the **Local Union Chapters** and **Labor Union Contacts** tabs appear.
 
-    **Note:** For more information on **Local Union Chapters**, see [Create a local chapter](labor-unions-local-chapter.md). For more information on **Labor Union Contacts**, see [Create union contacts](labor-union-contacts.md).
+    **Note:** For more information on **Local Union Chapters**, see [Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md). For more information on **Labor Union Contacts**, see [Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/labor-union-contacts.md).
 
 
-**Parent Topic:**[Setting up labor unions](../concept/labor-unions-setting-up.md)
+**Parent Topic:**[Setting up labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/labor-unions-setting-up.md)
 

@@ -2,6 +2,7 @@
 title: Use the ETL and Transform Map consumers to import data
 description: Use ETL definitions and transform maps to process Kafka events. ETL definitions and transform maps specify the transformation logic to use when pulling data through scheduled imports. You can use the same ETL definitions and transform maps to transform the events received through Kafka.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/use-etl-transform-map-consumers.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -18,10 +19,10 @@ Use ETL definitions and transform maps to process Kafka events. ETL definitions 
 ## Before you begin
 
 -   Role required: integration\_hub\_admin
--   This page is part of the [Stream Connect quick start guide](../concept/stream-connect-quick-start.md).
--   This document shows you how to consume messages through your connection to Hermes. To set up and test your connection, see [Set up a secure connection to the Hermes Messaging Service](https://www.servicenow.com/docs/access?context=set-up-secure-connection-to-hermes&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) and [Testing the connection to Hermes through the ADCv2 gateway](test-connection-hermes.md).
--   The first part of this page shows you how to use the ETL Consumer to consume messages. To use the ETL consumer, you need a [robust import set transformer](../../import-sets/concept/robust-import-set-transformers.md).
--   The second part of this page shows you how to use a Transform Map consumer to consume messages. To use the Transform Map Consumer, you need a [transform map](../../../script/server-scripting/concept/c_CreatingNewTransformMaps.md).
+-   This page is part of the [Stream Connect quick start guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/stream-connect-quick-start.md).
+-   This document shows you how to consume messages through your connection to Hermes. To set up and test your connection, see  and [Testing the connection to Hermes through the ADCv2 gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/test-connection-hermes.md).
+-   The first part of this page shows you how to use the ETL Consumer to consume messages. To use the ETL consumer, you need a [robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/system-import-sets/robust-import-set-transformers.md).
+-   The second part of this page shows you how to use a Transform Map consumer to consume messages. To use the Transform Map Consumer, you need a [transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md).
 
 ## Procedure
 
@@ -63,11 +64,11 @@ Use ETL definitions and transform maps to process Kafka events. ETL definitions 
 
         This means the input message's JSON keys are mapped to the column labels of the Import Set table.
 
-        ![The Kafka ETL Consumer form.](../images/kafka-consumer-example.png)
+        \[Omitted image "kafka-consumer-example.png"\] Alt text: The Kafka ETL Consumer form.
 
     7.  Save the form.
 
-    8.  [Create a Kafka stream](create-kafka-stream.md) for the consumer.
+    8.  [Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/create-kafka-stream.md) for the consumer.
 
     9.  On the Kafka Stream form, set the following field values.
 
@@ -80,7 +81,7 @@ Use ETL definitions and transform maps to process Kafka events. ETL definitions 
 
         You should be able to see the activated subscription.
 
-        ![Example Kafka Stream form for topic2.](../images/kafka-stream-topic2.png)
+        \[Omitted image "kafka-stream-topic2.png"\] Alt text: Example Kafka Stream form for topic2.
 
 3.  Publish messages to topic2.
 
@@ -106,15 +107,15 @@ Use ETL definitions and transform maps to process Kafka events. ETL definitions 
 
         After about one minute, the data should have been imported through the import set.
 
-        ![The Kafka Consumer form with the Import sets tab filled in.](../images/kafka-consumer-import.png)
+        \[Omitted image "kafka-consumer-import.png"\] Alt text: The Kafka Consumer form with the Import sets tab filled in.
 
     4.  To view detailed information about the import set, select the import set number.
 
-        ![Detailed view of the import set.](../images/kafka-import-set.png)
+        \[Omitted image "kafka-import-set.png"\] Alt text: Detailed view of the import set.
 
     5.  To view detailed information about an import set row, select the import set row number.
 
-        ![Detailed view of the import set row](../images/kafka-import-row.png)
+        \[Omitted image "kafka-import-row.png"\] Alt text: Detailed view of the import set row
 
 4.  Create a Transform Map Consumer to consume data.
 
@@ -126,11 +127,11 @@ Use ETL definitions and transform maps to process Kafka events. ETL definitions 
 
     4.  For the **Transform Map** field, select an existing transform map.
 
-        ![The Transform Map Consumer form.](../images/transform-map-consumer.png)
+        \[Omitted image "transform-map-consumer.png"\] Alt text: The Transform Map Consumer form.
 
     5.  Save the form.
 
-    6.  [Create a Kafka stream](create-kafka-stream.md) for the consumer.
+    6.  [Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/create-kafka-stream.md) for the consumer.
 
     7.  On the Kafka Stream form, set the following field values.
 
@@ -143,7 +144,7 @@ Use ETL definitions and transform maps to process Kafka events. ETL definitions 
 
         You should be able to see the activated subscription.
 
-        ![Kafka Stream form for the Transform Map Consumer with subscription information.](../images/transform-map-stream.png)
+        \[Omitted image "transform-map-stream.png"\] Alt text: Kafka Stream form for the Transform Map Consumer with subscription information.
 
 5.  Publish messages to topic2.
 
@@ -174,5 +175,5 @@ Use ETL definitions and transform maps to process Kafka events. ETL definitions 
 
 ## What to do next
 
-[Use the Kafka Producer step and the ProducerV2 API to publish messages](publish-messages-instance-hermes.md).
+[Use the Kafka Producer step and the ProducerV2 API to publish messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/publish-messages-instance-hermes.md).
 

@@ -2,6 +2,7 @@
 title: View self-health monitoring statistics for Metric Intelligence
 description: Monitor the status of components and processes of Metric Intelligence. Use the XMLStats page to view statistics and diagnostic details that can help with troubleshooting issues with Metric Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/xmlstats-oi-self-health.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

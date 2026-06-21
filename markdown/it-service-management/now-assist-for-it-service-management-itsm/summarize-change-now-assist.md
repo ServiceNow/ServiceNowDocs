@@ -2,6 +2,7 @@
 title: Summarize a change request by using Now Assist for IT Service Management \(ITSM\)
 description: Quickly capture the important details of a change request, including the current status, by using the change request summarization skill in the Now Assist for IT Service Management \(ITSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/summarize-change-now-assist.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -41,7 +42,7 @@ A change request summary provides you with a concise summary of a change request
 -   Conflict status
 -   Type
 
-For information about the change request states, see [State progression for normal, standard, and emergency changes](../../change-management/concept/normal-standard-emergency-states.md).
+For information about the change request states, see [State progression for normal, standard, and emergency changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/normal-standard-emergency-states.md).
 
 You can summarize a change request in Core UI and Service Operations Workspace for ITSM.
 
@@ -53,25 +54,25 @@ You can summarize a change request in Core UI and Service Operations Workspace f
 
     **Note:** The Summarize UI action isn’t available for the New or Canceled state.
 
-    The summary appears in a banner on the change request record in Core UI.![Change summary in Core UI](../image/itsm-now-assist-change-summary-core-ui.png)
+    The summary appears in a banner on the change request record in Core UI.\[Omitted image "itsm-now-assist-change-summary-core-ui.png"\] Alt text: Change summary in Core UI
 
     The summary appears in the **Overview** tab on the change request record in Service Operations Workspace.
 
-    ![Change summary in Service Operations Workspace](../image/itsm-now-assist-change-summary-workspace.png)
+    \[Omitted image "itsm-now-assist-change-summary-workspace.png"\] Alt text: Change summary in Service Operations Workspace
 
     You can provide feedback by selecting the thumbs up or thumbs down icon. You can also share the summary using the **Share** button.
 
 3.  When you're finished summarizing a change request, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d206240e212">
+<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d203124e212">
 
 Option
 
-</th><th align="left" id="d206240e215">
+</th><th align="left" id="d203124e215">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d206240e221">
+</th></tr></thead><tbody><tr><td id="d203124e221">
 
 **Save the summary information by adding it to the change request work notes**
 
@@ -82,39 +83,39 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d206240e248">
+</td></tr><tr><td id="d203124e248">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the expand card icon \(![expand card icon.](../image/icon-expand.png)\) to view the complete summary or the collapse card icon \(![collapse card icon.](../image/icon-collapse.png)\) to view a collapsed summary.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d206240e269">
+</td></tr><tr><td id="d203124e269">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
+If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d206240e292">
+</td></tr><tr><td id="d203124e292">
 
 **Copy the change request summary**
 
 </td><td>
 
-If you want to reuse the summary, select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\).
+If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d206240e308">
+</td></tr><tr><td id="d203124e308">
 
 **View the information about the change request summary**
 
 </td><td>
 
-If you want to check some details about the summary, select the more info icon \(![More info icon.](../image/icon-more-info.png)\).
+If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for IT Service Management \(ITSM\)](../concept/using-now-assist-for-itsm.md)
+**Parent Topic:**[Using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md)
 

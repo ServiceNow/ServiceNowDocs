@@ -2,6 +2,7 @@
 title: Conversational Integration with Google Assistant
 description: ServiceNow Conversational Integration with Google Assistant enables ServiceNow Virtual Agent to interact with requesters through the Google voice interface using the Virtual Agent topics. Conversational Integration with Google Assistant uses the custom conversational chat integration framework to interact with the Virtual Agent chatbot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/conv-integ-google.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

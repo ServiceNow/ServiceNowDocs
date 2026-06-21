@@ -2,6 +2,7 @@
 title: Use the Terminate component
 description: End the specified Windows system process by using the Terminate component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-sysprocess-terminate.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Terminate component. For more information about these properties, see [Properties of the System Process components](../reference/util-sysprocess-prop.md).
+You can configure the properties for the Terminate component. For more information about these properties, see [Properties of the System Process components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/util-sysprocess-prop.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ You can configure the properties for the Terminate component. For more informati
 
 2.  Drag the Terminate component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Terminate component to the corresponding ports of the other component as described in the following table.
 
@@ -73,7 +74,7 @@ Yes
 
 ## Example
 
-As part of your automation workflow, after you have opened an app, such as Windows Terminal and ran a command on it, you can terminate the app by providing the process ID in the Terminate component.![Terminate component in a simple workflow showing ProcessId as parameter.](../image/terminate-system-process-rpa.png)
+As part of your automation workflow, after you have opened an app, such as Windows Terminal and ran a command on it, you can terminate the app by providing the process ID in the Terminate component.\[Omitted image "terminate-system-process-rpa.png"\] Alt text: Terminate component in a simple workflow showing ProcessId as parameter.
 
-**Parent Topic:**[System process](../concept/system-process-utilities.md)
+**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/system-process-utilities.md)
 

@@ -2,6 +2,7 @@
 title: Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)
 description: Get a quick overview of the skill inputs and triggers for Now Assist for IT Service Management \(ITSM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -133,7 +134,7 @@ Filter conditions to generate the suggested steps.Similar incidents closed withi
 **Note:**
 
 -   When you create a Major Incident email content recommendation using the default templates, you can use the corresponding Gen AI variables to compose the content.
--   For information on generating Major Incident email content recommendation, see [Major Incident Management email content recommendation](https://www.servicenow.com/docs/access?context=major-incident-management-email-content-recommendation&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   For information on generating Major Incident email content recommendation, see .
 
 <table id="table_cfn_tpt_t2c"><thead><tr><th>
 

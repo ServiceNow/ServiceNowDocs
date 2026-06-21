@@ -2,7 +2,10 @@
 title: Enable chat access for a guest user
 description: Enable chat access for a guest user while configuring ServiceNow for Microsoft Teams settings for a pre-published app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/enable-guest-chat-access-mt.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -15,7 +18,7 @@ Enable chat access for a guest user while configuring ServiceNow® for Microsoft
 
 ## Before you begin
 
-In an upgrade scenario for a pre-published app, after the upgrade process, you must reauthorize the Request-based chat and SSO and Activity Notifications applications. Reauthorization permits your ServiceNow instance to make API calls to Microsoft Azure. As a result, ServiceNow for the Microsoft Teams application workflow is enabled and your consent for the new API permissions is ensured. For more information, see [Grant permissions to required Microsoft Azure apps](authorize-multi-tenant-apps-mt.md).
+In an upgrade scenario for a pre-published app, after the upgrade process, you must reauthorize the Request-based chat and SSO and Activity Notifications applications. Reauthorization permits your ServiceNow instance to make API calls to Microsoft Azure. As a result, ServiceNow for the Microsoft Teams application workflow is enabled and your consent for the new API permissions is ensured. For more information, see [Grant permissions to required Microsoft Azure apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/authorize-multi-tenant-apps-mt.md).
 
 Role required: admin
 
@@ -97,5 +100,5 @@ Auto-populated during the pre-published app installation.
 
 Guests belonging to the selected guest domains can now start or import chats.
 
-**Parent Topic:**[Request-based chat access for a guest user](../concept/guest-user-chat-access-mt.md)
+**Parent Topic:**[Request-based chat access for a guest user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/guest-user-chat-access-mt.md)
 

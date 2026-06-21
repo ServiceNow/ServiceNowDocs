@@ -2,6 +2,7 @@
 title: Enabling dialog intelligence
 description: Enable support for dialog intelligence in ITSM Virtual Agent to let the Virtual Agent dynamically react to user utterances and modifications during your conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/itsm-virtual-agent/dialog-acts-itsm-va.html
 release: xanadu
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -17,7 +18,7 @@ Enable support for dialog intelligence in ITSM Virtual Agent to let the Virtual 
 
 The IT Service Management topics leverage the latest platform Dialog Acts enhancements by changing the toggle from node-level to the topic-level. The Dialog Acts enhancement is enabled for all the topics available in Virtual Agent and Virtual Machine applications.
 
-For more information about Dialog Acts enhancements on the ServiceNow AI Platform, see [Dialog Acts for Virtual Agent](https://www.servicenow.com/docs/access?context=c_dialog-acts&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+For more information about Dialog Acts enhancements on the ServiceNow AI Platform, see .
 
-**Parent Topic:**[Setting up ITSM Virtual Agent](setting-up-itsm-va.md)
+**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
 

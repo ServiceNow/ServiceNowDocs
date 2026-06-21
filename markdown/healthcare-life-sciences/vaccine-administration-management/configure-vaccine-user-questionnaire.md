@@ -2,6 +2,7 @@
 title: Configure an appointment reminder and pre-appointment questionnaire
 description: By default, appointment reminders are not sent to the user. To enable appointment reminders, you must configure the appointment reminder in the appointment configuration record. You can also configure the pre-appointment questionnaire for users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/healthcare-life-sciences/vaccine-administration-management/configure-vaccine-user-questionnaire.html
 release: xanadu
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -33,7 +34,7 @@ The appointment reminder sends a reminder email and a pre-appointment questionna
 
     3.  In the **Appointment reminder** field, select the reminder time.
 
-        **Note:** If the field doesn't appear on the form, a user with the admin role must configure the form layout to include it. In the form header, click the form context menu icon \(![Form context menu icon.](../image/hamburger-icon.png)\). Navigate to **Configure** &gt; **Form Layout** and move the **Appointment reminder** field to the Selected list, then click **Save**.
+        **Note:** If the field doesn't appear on the form, a user with the admin role must configure the form layout to include it. In the form header, click the form context menu icon \(\[Omitted image "hamburger-icon.png"\] Alt text: Form context menu icon.\). Navigate to **Configure** &gt; **Form Layout** and move the **Appointment reminder** field to the Selected list, then click **Save**.
 
         By default, appointment reminders are not sent to the user. If you want the user to receive the email reminder, configuration of both the appointment reminder and the pre-appointment questionnaire is required.
 
@@ -51,14 +52,14 @@ The appointment reminder sends a reminder email and a pre-appointment questionna
 
     3.  In the Variables related list, create or update variables for the questionnaire.
 
-        For details on how to configure a variable, see [Service catalog variables](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariables&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+        For details on how to configure a variable, see Service catalog variables.
 
         **Important:** Do not configure the *task\_id* and *is\_portal* variables.
 
-        ![Variables related list displaying pre-appointment questionnaire variables with the task_id and is portal variables highlighted.](../image/pre-appointment-questionnaire-variables.png)
+        \[Omitted image "pre-appointment-questionnaire-variables.png"\] Alt text: Variables related list displaying pre-appointment questionnaire variables with the task\_id and is portal variables highlighted.
 
     4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

@@ -2,7 +2,10 @@
 title: Subscription summary for IT Asset Management application
 description: You can view how many subscriptions for IT Asset Management applications your organization purchased and allocated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/itam-subscrip-summary.html
 release: xanadu
+product: IT Asset Management
+classification: it-asset-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3

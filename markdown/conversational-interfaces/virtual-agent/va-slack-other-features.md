@@ -2,6 +2,7 @@
 title: Virtual Agent features supported in Slack conversations
 description: Virtual Agent features, such as AI Search results, Virtual Agent notifications, and Virtual Agent Designer controls for creating Virtual Agent conversations are supported in Slack bot conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-slack-other-features.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -21,11 +22,11 @@ This section highlights key Virtual Agent features that are supported in the Con
 
 ## AI Search results
 
-Virtual Agent can generate AI Search results that are displayed as Genius result cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(knowledge base\) and catalog items.
+Virtual Agent can generate AI Search results that are displayed as Genius result cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(knowledge base\) and catalog items.
 
 ## URL navigation for chat links
 
-In Virtual Agent and Live Agent conversations on the Slack app, links to ServiceNow records open automatically in base system portals—including links displayed in output cards, Virtual Agent notifications, and AI Search results. If needed, admins can change the portals in which these links are opened. For configuration details, see [Configure URL navigation for chat links](../../conversational-interfaces/task/ac-configure-url-navigation.md).
+In Virtual Agent and Live Agent conversations on the Slack app, links to ServiceNow records open automatically in base system portals—including links displayed in output cards, Virtual Agent notifications, and AI Search results. If needed, admins can change the portals in which these links are opened. For configuration details, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-configure-url-navigation.md).
 
 ## Trusted Domains
 
@@ -43,7 +44,7 @@ Translation of responses to the conversation language is done using the function
 
 -   The requested language plugin is absent, but fallback is set and enabled​.
 
-    When the requested language plugin is absent, then the fallback language specified in the \[sys\_language\] table is used for the translation process. However, for the fallback mechanism to work, you must enable the **glide\_i18n.language\_fallback\_enabled** system property. By default, the value of the property is **false**. Set it to **true** to enable the fallback mechanism. For more information, see [Set a fallback language](https://www.servicenow.com/docs/access?context=set-fallback-language&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    When the requested language plugin is absent, then the fallback language specified in the \[sys\_language\] table is used for the translation process. However, for the fallback mechanism to work, you must enable the **glide\_i18n.language\_fallback\_enabled** system property. By default, the value of the property is **false**. Set it to **true** to enable the fallback mechanism. For more information, see .
 
 -   The requested language plugin is absent, but fallback is not set/enabled.
 

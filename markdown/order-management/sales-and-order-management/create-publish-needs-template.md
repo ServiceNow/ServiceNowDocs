@@ -2,6 +2,7 @@
 title: Create a needs template and set the catalog relationship
 description: Define a needs template for a decision tree and associate the template with the product catalog to which it belongs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/create-publish-needs-template.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

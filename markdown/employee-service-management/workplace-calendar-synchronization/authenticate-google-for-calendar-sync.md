@@ -2,6 +2,7 @@
 title: Authenticate Google for calendar synchronization
 description: Set up Google to start with reservation synchronization with the Workplace Reservation Management application. Create scopes, credentials and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/authenticate-google-for-calendar-sync.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -19,8 +20,8 @@ Set up Google to start with reservation synchronization with the Workplace Reser
 
 Ensure the following:
 
-1.  Install [Google Calendar Spoke](https://www.servicenow.com/docs/access?context=gcal-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
-2.  [Set up Google Calendar spoke](https://www.servicenow.com/docs/access?context=setup-gcal&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+1.  Install Google Calendar Spoke.
+2.  Set up Google Calendar spoke
 
 Role required: Google Admin
 
@@ -120,9 +121,9 @@ Role required: Google Admin
 9.  Select **DONE**.
 
 
-**Parent Topic:**[Google Calendar - Calendar synchronization](../reference/google-calendar-calendar-synchronization.md)
+**Parent Topic:**[Google Calendar - Calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/google-calendar-calendar-synchronization.md)
 
-**Previous topic:**[Google Calendar - Calendar synchronization](../reference/google-calendar-calendar-synchronization.md)
+**Previous topic:**[Google Calendar - Calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/google-calendar-calendar-synchronization.md)
 
-**Next topic:**[Create a Connection and credential record for Google](create-connection-configuration-with-google.md)
+**Next topic:**[Create a Connection and credential record for Google](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-configuration-with-google.md)
 

@@ -2,7 +2,10 @@
 title: Access the information you need using the Now Mobile Agent application
 description: Search relevant information from knowledge articles and see when your team members are on-site and if they are on schedule.Search through articles from your organization's knowledge base to find helpful information relevant to a work order task assigned to you.Know when your team members are on-site working on a task and if they are on schedule to complete their tasks. You can connect with them by calling or sending a text message.Access knowledge articles that are attached to work order tasks on the Now Mobile Agent application.Provide feedback on a knowledge article by rating the article, marking the article as helpful or not helpful, and posting and replying to comments for the article on the Now Mobile Agent application.Discover articles with similar information on a topic while viewing a knowledge article.View translated versions of published knowledge articles through the ServiceNow Agent mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/access-information-you-need-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 6
@@ -13,7 +16,7 @@ breadcrumb: [Use the Now Mobile Agent application to perform tasks, Using Field 
 
 Search relevant information from knowledge articles and see when your team members are on-site and if they are on schedule.
 
-**Parent Topic:**[Use the Now Mobile Agent application to perform tasks](Use-mobile-app-fsm.md)
+**Parent Topic:**[Use the Now Mobile Agent application to perform tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Use-mobile-app-fsm.md)
 
 ## Access knowledge articles relevant to your work order tasks
 
@@ -29,15 +32,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 2.  View or search for the knowledge article.
 
-<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d112022e118">
+<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d108986e118">
 
 To
 
-</th><th align="left" id="d112022e121">
+</th><th align="left" id="d108986e121">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d112022e127">
+</th></tr></thead><tbody><tr><td id="d108986e127">
 
 **View knowledge articles for a work order task assigned to you**
 
@@ -46,10 +49,10 @@ Do this
 1.  Tap **My Work**.
 2.  In the **My Tasks**, tap **See All**.
 3.  Select and open the desired task.
-4.  Tap the More actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select **View Knowledge**.
+4.  Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **View Knowledge**.
  The application uses the task short description to search all knowledge bases and returns articles based on that search.
 
-</td></tr><tr><td id="d112022e173">
+</td></tr><tr><td id="d108986e173">
 
 **Search knowledge articles**
 
@@ -63,14 +66,14 @@ Do one of the following:
 
  Alternatively, you can browse articles, view popular or the most recently viewed articles by tapping **See All** in the respective section.
 
- For more information on accessing knowledge articles, see [Now Mobile for Knowledge Management](https://www.servicenow.com/docs/access?context=mobile-experience-for-km&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+ For more information on accessing knowledge articles, see Now Mobile for Knowledge Management.
 
 </td></tr></tbody>
 </table>
 **Related topics**  
 
 
-[Configure the Knowledge Management Service portal](https://www.servicenow.com/docs/access?context=knowledge-management-service-portal&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.knowledge-management-service-portal]
 
 ## Access information about your team
 
@@ -92,15 +95,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 4.  Connect with a team member.
 
-<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d112022e309">
+<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d108986e310">
 
 To
 
-</th><th align="left" id="d112022e312">
+</th><th align="left" id="d108986e313">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d112022e318">
+</th></tr></thead><tbody><tr><td id="d108986e319">
 
 **Place a call**
 
@@ -111,7 +114,7 @@ Do one of the following:-   Tap the **Phone** icon and tap **Dial number**to imm
 -   Open the member profile, tap the mobile number, and select **Dial number**.
 
 
-</td></tr><tr><td id="d112022e351">
+</td></tr><tr><td id="d108986e352">
 
 **Send a text message**
 
@@ -124,7 +127,7 @@ Tap the **Phone** icon and tap **Send SMS** to send a text message to the team m
 3.  Select **Send SMS** and send your message through one of the available messaging options.
 
 
-</td></tr><tr><td id="d112022e384">
+</td></tr><tr><td id="d108986e385">
 
 **View the member's location on the map**
 
@@ -199,23 +202,23 @@ You can provide feedback on a knowledge article in either online or offline mode
 
 3.  Provide feedback for the article by marking it as helpful or not helpful, rating it, or leaving a comment.
 
-<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d112022e653">
+<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d108986e654">
 
 To
 
-</th><th align="left" id="d112022e656">
+</th><th align="left" id="d108986e657">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d112022e662">
+</th></tr></thead><tbody><tr><td id="d108986e663">
 
 **Mark an article as helpful or unhelpful**
 
 </td><td>
 
-Tap the helpful icon \(![Helpful icon.](../image/KnowledgeHelpful.png)\) or the not helpful icon \(![Not helpful icon.](../image/KnowledgeNotHelpful.png)\).
+Tap the helpful icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Helpful icon.\) or the not helpful icon \(\[Omitted image "KnowledgeNotHelpful.png"\] Alt text: Not helpful icon.\).
 
-</td></tr><tr><td id="d112022e683">
+</td></tr><tr><td id="d108986e684">
 
 **Rate the article**
 
@@ -223,7 +226,7 @@ Tap the helpful icon \(![Helpful icon.](../image/KnowledgeHelpful.png)\) or the 
 
 Tap the star icons displayed on the article to indicate its effectiveness on a scale of 1 to 5.
 
-</td></tr><tr><td id="d112022e692">
+</td></tr><tr><td id="d108986e693">
 
 **Enter your comment \[available only in online mode\]**
 
@@ -233,7 +236,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Enter the comment and click **Submit**.
 
 
-</td></tr><tr><td id="d112022e716">
+</td></tr><tr><td id="d108986e717">
 
 **View all comments and replies posted for the article \[available only in online mode\]**
 
@@ -243,24 +246,24 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Scroll down to see the comments.
 
 
-</td></tr><tr><td id="d112022e738">
+</td></tr><tr><td id="d108986e739">
 
 **Like a comment on the article \[available only in online mode\]**
 
 </td><td>
 
 1.  Tap the **Comments** tab.
-2.  Underneath a comment, tap the like icon \(![Like icon.](../image/like-comment-now-mobile.png)\).
+2.  Underneath a comment, tap the like icon \(\[Omitted image "like-comment-now-mobile.png"\] Alt text: Like icon.\).
 
 
-</td></tr><tr><td id="d112022e765">
+</td></tr><tr><td id="d108986e766">
 
 **Reply to a comment on the article \[available only in online mode\]**
 
 </td><td>
 
 1.  Tap the **Comments** tab.
-2.  Underneath the comment, tap the reply \(![Reply icon.](../image/reply-comment-now-mobile.png)\) icon.
+2.  Underneath the comment, tap the reply \(\[Omitted image "reply-comment-now-mobile.png"\] Alt text: Reply icon.\) icon.
 3.  Enter your comment in the text box that appears, and then tap **Submit**.
 
 

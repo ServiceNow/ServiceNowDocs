@@ -2,6 +2,7 @@
 title: Enable cost rollup calculations
 description: Enable rollup calculations from the project properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_EnablingCostRollupCalculations.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -32,7 +33,7 @@ Role required: it\_project\_manager
 
 Rollup values are read-only on forms. Point to the icon beside the field for a tooltip message.
 
-![Tooltip message](../image/Rollup_popup.png "Tooltip")
+\[Omitted image "Rollup\_popup.png"\] Alt text: Tooltip message
 
-**Parent Topic:**[Parent-child rollup task calculations](../concept/c_ParentChildRollupTaskCalcs.md)
+**Parent Topic:**[Parent-child rollup task calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ParentChildRollupTaskCalcs.md)
 

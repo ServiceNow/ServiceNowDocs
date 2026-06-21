@@ -2,6 +2,7 @@
 title: View tolerance form
 description: View the invoice processing cases with exceptions in the tolerance form with Tolerance details at header level and Variance details at line level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/view-tolerance-form.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -39,8 +40,8 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist
 
         You can view the variance details of each invoice line under **Invoice line affected** tab in list view and form view.
 
-        **Note:** If the variance value and variance percentage exceed the set limit, the values are highlighted in yellow color with a warning ![](../image/warning-icon.png) icon suffixed with **Exceeds** and **Within** labels. Grey color indicates that the variance value and variance percentage are within the set limits or closed with the check ![](../image/check-icon.png) icon.
+        **Note:** If the variance value and variance percentage exceed the set limit, the values are highlighted in yellow color with a warning \[Omitted image "warning-icon.png"\] icon suffixed with **Exceeds** and **Within** labels. Grey color indicates that the variance value and variance percentage are within the set limits or closed with the check \[Omitted image "check-icon.png"\] icon.
 
 
-**Parent Topic:**[Tolerance Rules and Variances for invoices](../concept/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance Rules and Variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

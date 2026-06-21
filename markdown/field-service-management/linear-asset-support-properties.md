@@ -2,7 +2,10 @@
 title: Linear Assets Support properties
 description: Linear assets support for Field Service Management uses the following system properties, which are located in the System Properties \[sys\_properties\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/linear-asset-support-properties.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -76,5 +79,5 @@ Distance unit used on service location Google Maps.-   Type: Choice list
 -   Default value: roadmap
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Field Service Management reference](../../planning-and-policy/reference/fsm-reference.md)
+</table>**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/fsm-reference.md)
 

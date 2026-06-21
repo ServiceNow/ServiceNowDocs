@@ -2,7 +2,10 @@
 title: View and assign scheduled tasks
 description: Learn about different ways to view tasks in the Scheduled state​.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-and-assign-scheduled-tasks.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -32,15 +35,15 @@ Role required: wm\_dispatcher, wm\_admin, and wm\_agent
 
 1.  You can view tasks in the Scheduled state in one of the following roles​.
 
-<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d133131e98">
+<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d42054e98">
 
 role
 
-</th><th align="left" id="d133131e101">
+</th><th align="left" id="d42054e101">
 
 steps
 
-</th></tr></thead><tbody><tr><td id="d133131e107">
+</th></tr></thead><tbody><tr><td id="d42054e107">
 
 **wm\_dispatcher**
 
@@ -50,7 +53,7 @@ steps
 2.  View the list of scheduled tasks in the dispatcher group.
 
 
-</td></tr><tr><td id="d133131e137">
+</td></tr><tr><td id="d42054e137">
 
 **wm\_admin**
 
@@ -60,7 +63,7 @@ steps
 2.  View the list of all scheduled tasks.
 
 
-</td></tr><tr><td id="d133131e167">
+</td></tr><tr><td id="d42054e167">
 
 **wm\_agent**
 
@@ -109,8 +112,8 @@ It runs every hour by default to move the tasks within the threshold from Schedu
 
 </td></tr></tbody>
 </table>
--   **[Update scheduled tasks on Dispatcher Workspace](scheduled-tasks-workspace.md)**  
+-   **[Update scheduled tasks on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduled-tasks-workspace.md)**  
 As a dispatcher, you can move scheduled tasks to the Assigned state or move them back to the Pending dispatch state in Dispatcher Workspace.
 
-**Parent Topic:**[Scheduling and dispatching work order tasks to agents](../concept/scheduling-and-dispatching-agents.md)
+**Parent Topic:**[Scheduling and dispatching work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-and-dispatching-agents.md)
 

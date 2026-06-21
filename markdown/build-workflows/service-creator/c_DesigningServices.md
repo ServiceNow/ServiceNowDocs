@@ -2,6 +2,7 @@
 title: Designing services
 description: Service creator includes an interface for designing services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/service-creator/c\_DesigningServices.html
 release: xanadu
 product: Service Creator
 classification: service-creator

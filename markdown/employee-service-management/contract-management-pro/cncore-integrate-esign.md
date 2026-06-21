@@ -2,6 +2,7 @@
 title: Configure an e-signature provider
 description: Configure an electronic signature provider to enable users to sign contract documents electronically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-integrate-esign.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -19,13 +20,13 @@ Configure an electronic signature provider to enable users to sign contract docu
 
 Ensure that the administrator has installed and set up spokes in Integration Hub for the electronic signature providers that you want to configure.
 
--   **[Adobe Sign spoke](https://www.servicenow.com/docs/access?context=adobe-sign-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US) v2.5.1 or later version**
+-   **Adobe Sign spoke v2.5.1 or later version**
 
-    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see [Synchronize Adobe Acrobat Sign group with ServiceNow](https://www.servicenow.com/docs/access?context=setup-adobe-sign&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see Synchronize Adobe Acrobat Sign group with ServiceNow.
 
--   **[DocuSign spoke](https://www.servicenow.com/docs/access?context=docusign-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US) v3.3.0 or later version**
+-   **DocuSign spoke v3.3.0 or later version**
 
-    For more information on the setup and creating the Docusign account, see [Set up Docusign eSignature spoke using authorization code grant](https://www.servicenow.com/docs/access?context=setup-docusign-authorization-code&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Docusign account, see .
 
 
 Role required: sn\_cm\_core.contract\_config
@@ -146,5 +147,5 @@ The configuration for the external storage system is ready to be used for storin
 
 **Note:** \(Optional\) You can view, edit, and delete the record.
 
-**Parent Topic:**[Configuring external applications for Contract Management Pro](../concept/cncore-set-ext-app-config.md)
+**Parent Topic:**[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
 

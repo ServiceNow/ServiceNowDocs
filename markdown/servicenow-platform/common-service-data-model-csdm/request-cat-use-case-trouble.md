@@ -2,6 +2,7 @@
 title: Service Catalog considerations
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/request-cat-use-case-trouble.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -19,5 +20,5 @@ Consider these points while implementing the CSDM framework.
 
 -   You can create catalog types that reflect the types of offered products and services.
 
-**Parent Topic:**[Service Catalog product view](request-cat-use-case-product-view.md)
+**Parent Topic:**[Service Catalog product view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/request-cat-use-case-product-view.md)
 

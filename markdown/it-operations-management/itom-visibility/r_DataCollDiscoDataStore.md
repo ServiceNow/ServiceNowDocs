@@ -2,6 +2,7 @@
 title: Datastore data collected by Discovery
 description: Discovery identifies each datastore in the system and creates the relationships with the virtual machines and the ESX servers that use these datastores.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/r\_DataCollDiscoDataStore.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -40,5 +41,5 @@ Discovery uses both the VMWare - vCenter ESX Hosts and VMWare - vCenter Datastor
 |ESX Server|VMware Datastore HostMount \[vcenter\_datastore\_hostmount\]|esx\_server|
 |vCenter Reference|VMware Datastore HostMount \[vcenter\_datastore\_hostmount\]|vcenter\_ref|
 
-**Parent Topic:**[Discovery for VMware vCenter](../concept/c_DiscoveryForVMwareVCenter.md)
+**Parent Topic:**[Discovery for VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_DiscoveryForVMwareVCenter.md)
 

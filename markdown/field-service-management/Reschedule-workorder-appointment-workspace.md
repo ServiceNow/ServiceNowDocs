@@ -2,7 +2,10 @@
 title: Reschedule work order appointment in the CSM Configurable Workspace
 description: Reschedule appointment for an associated work order to dispatch agent to address the customer issue based on rescheduled time slot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/Reschedule-workorder-appointment-workspace.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -17,13 +20,13 @@ Reschedule appointment for an associated work order to dispatch agent to address
 
 Role required: wm\_qualifier and sn\_customerservice\_agent, or wm\_qualifier and sn\_customerservice.consumer\_agent
 
-Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](../concept/appointment-booking-administer.md).
+Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Click the Lists icon \(![Lists icon.](../image/ListIcon.png)\)
+2.  Click the Lists icon \(\[Omitted image "ListIcon.png"\] Alt text: Lists icon.\)
 
 3.  Open either work order or work order task.
 
@@ -37,5 +40,5 @@ Setup the **Field Service Order Configuration** to book an appointment for work 
     The application reschedules an appointment for the work order.
 
 
-**Parent Topic:**[Manage an appointment in CSM Configurable Workspace](../concept/manage-an-appointment-in-csm-configurable-workspace.md)
+**Parent Topic:**[Manage an appointment in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-an-appointment-in-csm-configurable-workspace.md)
 

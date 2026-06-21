@@ -2,7 +2,10 @@
 title: Add permissions to the Microsoft Azure application
 description: Assign permissions to users to enable them to start chat and import chat conversations with employees from Microsoft Teams to ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/authenticate-users-req-based-chat.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -59,5 +62,5 @@ Role required: admin
     **Note:** Users must log in to their Microsoft Azure active directory account to fetch a token with the added permissions.
 
 
-**Parent Topic:**[Register and configure the Request-based chat application on the Microsoft Azure portal](register-app-req-based-chats.md)
+**Parent Topic:**[Register and configure the Request-based chat application on the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/register-app-req-based-chats.md)
 

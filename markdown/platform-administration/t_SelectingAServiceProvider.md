@@ -2,6 +2,7 @@
 title: Select a service provider
 description: You can configure how a device's service provider affects the construction of the device's email address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_SelectingAServiceProvider.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -36,5 +37,5 @@ Role required: admin
     4.  Select **Save**.
 
 
-**Parent Topic:**[Create a service provider](t_CreateAServiceProvider.md)
+**Parent Topic:**[Create a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAServiceProvider.md)
 

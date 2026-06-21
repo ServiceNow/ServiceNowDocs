@@ -2,6 +2,7 @@
 title: Workforce Optimization for Customer Service
 description: Manage and maintain the productivity of your workforce from a single application using Workforce Optimization for Customer Service. With this application, you can efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/configurable-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -17,7 +18,7 @@ Manage and maintain the productivity of your workforce from a single application
 
 **Important:** Starting with the Tokyo release, Legacy Workforce Optimization is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Watch this short video to see how managers use Workforce Optimization for Customer Service.Workforce Optimization for Customer Service![Workforce Optimization for Customer Service]()
+Watch this short video to see how managers use Workforce Optimization for Customer Service.
 
 The application is available on configurable workspaces. Administrators can configure and customize the workspace using the application capabilities to complete the service objectives efficiently.
 
@@ -59,15 +60,15 @@ Customer Service Management \(CSM\) enables you to do these tasks:
 
 <table id="table_nlp_srv_zqb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../common/image/icon-explore.png) Learn about how managers use Workforce Optimization for Customer Service.](explore-configurable-wfo-cs.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how managers use Workforce Optimization for Customer Service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/explore-configurable-wfo-cs.md)
 
 </td><td>
 
-[Configure ![](../../../common/image/icon-set-up.png) Plan and configure your implementation.](setup-configurable-wfo-cs.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-configurable-wfo-cs.md)
 
 </td><td>
 
-[Use ![](../../../common/image/icon-workspace.png) Schedule, coach and train your agents to work on customer cases.](use-configurable-wfo-cs.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Schedule, coach and train your agents to work on customer cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/use-configurable-wfo-cs.md)
 
 </td></tr></tbody>
 </table>

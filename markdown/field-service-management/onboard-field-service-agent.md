@@ -2,7 +2,10 @@
 title: Onboard agents on the Field Service Contractor Portal
 description: Onboard a Field Service agent so the contractor company can assign outsourced work order tasks to be performed at the customer location by that agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/onboard-field-service-agent.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -47,7 +50,7 @@ An external agent of the contractor company is onboarded and the internal manage
 
 ## What to do next
 
-The internal manager receives a request to approve the onboarding of an agent. For more information, see [Approve or reject requests for onboarding agents](Approve-reject-request-onboard-agent.md).
+The internal manager receives a request to approve the onboarding of an agent. For more information, see [Approve or reject requests for onboarding agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Approve-reject-request-onboard-agent.md).
 
-**Parent Topic:**[Field Service Contractor Portal](../concept/field-service-contractor-portal.md)
+**Parent Topic:**[Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-contractor-portal.md)
 

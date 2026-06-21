@@ -2,6 +2,7 @@
 title: Alert grouping types
 description: Alerts are grouped into various types to streamline problem identification and management. An alert can belong to only one alert group at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/Alert-Groups.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -16,8 +17,6 @@ breadcrumb: [Alert grouping, Configuring Event Management, Event Management, ITO
 Alerts are grouped into various types to streamline problem identification and management. An alert can belong to only one alert group at a time.
 
 Watch this brief video to learn about alert grouping and how it organizes alerts into clusters based on specific criteria.
-
-Grouping alerts in ServiceNow ITOM Event Management and Operational Intelligence applications.
 
 You can view all alert groups by navigating to **Event Management** &gt; **All Alerts**, where the icon in the **Group** column denotes the alert group type. Alerts not associated with any group will not have an entry in the **Group** column. Double-click the **Group** column for an alert group to open the Grouped Alerts dialog box, where you can display all alerts in the group and manually add or remove alerts.
 
@@ -61,7 +60,7 @@ Created as part of log analytics event processing.
 
 </td><td>
 
-[Kinds of Health Log Analytics alerts](../../health-log-analytics-operator/reference/hla-op-log-analytics-alert-types.md)
+[Kinds of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md)
 
 </td></tr><tr><td>
 
@@ -81,7 +80,7 @@ Created via business rule \(Calculate correlation rule\) on em\_alert table when
 
 </td><td>
 
-[Create an alert correlation rule](../task/t_EMConfigureAnEventCorrelationRule.md)
+[Create an alert correlation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/t_EMConfigureAnEventCorrelationRule.md)
 
 </td></tr><tr><td>
 
@@ -101,7 +100,7 @@ Created via scheduled job.
 
 </td><td>
 
-[Automated alert grouping](c_SACorrelatedAlertGroups.md)
+[Automated alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/c_SACorrelatedAlertGroups.md)
 
 </td></tr><tr><td>
 
@@ -121,7 +120,7 @@ Created via scheduled job.
 
 </td><td>
 
-[CMDB based alert grouping](cmdb-alert-groups.md)
+[CMDB based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/cmdb-alert-groups.md)
 
 </td></tr><tr><td>
 
@@ -163,7 +162,7 @@ Created via scheduled job.
 
 </td><td>
 
-[Tag cluster alert grouping](alert-clustering-tag-definitions-concept.md)
+[Tag cluster alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/alert-clustering-tag-definitions-concept.md)
 
 </td></tr><tr><td>
 
@@ -183,8 +182,8 @@ Created manually by the user.
 
 </td><td>
 
-[Create alert group manually](../task/t_SAAddAlertCorrelatedAlertGrp.md)
+[Create alert group manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/t_SAAddAlertCorrelatedAlertGrp.md)
 
 </td></tr></tbody>
-</table>For information on scheduled jobs and parameters, refer to [Scheduled jobs and parameters for alert grouping](alert-grp-jobs-parameters.md). For detailed information on configuring alert correlation logic order, see [Configure alert correlation logic order](../task/configure-alert-correlation-logic-order.md).
+</table>For information on scheduled jobs and parameters, refer to [Scheduled jobs and parameters for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/alert-grp-jobs-parameters.md). For detailed information on configuring alert correlation logic order, see [Configure alert correlation logic order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/configure-alert-correlation-logic-order.md).
 

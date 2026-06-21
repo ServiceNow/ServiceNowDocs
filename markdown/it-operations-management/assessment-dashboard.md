@@ -2,7 +2,10 @@
 title: Assessment dashboard in Configurable Workspace of Cloud Migration Assessment
 description: Use the ServiceNow Cloud Migration Assessment application to plan, organize, and track the process of relocating your enterprise IT resources and workloads to cloud platforms. Analyze the IT resources using dashboards that visualize and summarize information on resources by different categories. Use the Assessment dashboard to review the statistics of the migration tasks and monitor the migration progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/assessment-dashboard.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -19,9 +22,9 @@ sn\_cloud\_migration.operator, uses Cloud Migration Assessment.
 
 ## Access the Assessment dashboard
 
-To open the dashboard, navigate to **All** &gt; **** &gt; **Cloud Migration** &gt; **Cloud Migration Workspace**, and then select **Assessment dashboard** ![Assessment dashboard icon](../../../product/itom-governance/image/cm-assessment-dashboard-navigation.png).
+To open the dashboard, navigate to **All** &gt; **** &gt; **Cloud Migration** &gt; **Cloud Migration Workspace**, and then select **Assessment dashboard** \[Omitted image "cm-assessment-dashboard-navigation.png"\] Alt text: Assessment dashboard icon.
 
-![Assessment dashboard](../../../product/itom-governance/image/cm-assessment-dashboard.png "Assessment dashboard")
+\[Omitted image "cm-assessment-dashboard.png"\] Alt text: Assessment dashboard
 
 ## Use cases
 
@@ -76,7 +79,7 @@ Resources by assessment state
 
 </td><td>
 
-Donut![Donut report icon](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut report icon
 
 </td><td>
 
@@ -92,7 +95,7 @@ Assigned resources by state and migration wave
 
 </td><td>
 
-Bar![Bar report icon](../../reporting/image/icon-bar-report-p.png)
+Bar\[Omitted image "icon-bar-report-p.png"\] Alt text: Bar report icon
 
 </td><td>
 
@@ -108,7 +111,7 @@ Resources by target architecture and cloud providers
 
 </td><td>
 
-Bar![Bar report icon](../../reporting/image/icon-bar-report-p.png)
+Bar\[Omitted image "icon-bar-report-p.png"\] Alt text: Bar report icon
 
 </td><td>
 
@@ -124,7 +127,7 @@ Resources by assessment R-disposition
 
 </td><td>
 
-Donut![Donut report icon](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut report icon
 
 </td><td>
 
@@ -135,5 +138,5 @@ Assigned Resource for Migration \[sn\_cloud\_migration\_task\_resource\_m2m\]
 A donut port that shows resources by the migration strategy \(R-disposition\) selected for their respective assessments.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Migration Assessment reference](../../../product/itom-governance/reference/cloud-migration-reference.md)
+</table>**Parent Topic:**[Cloud Migration Assessment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-migration-reference.md)
 

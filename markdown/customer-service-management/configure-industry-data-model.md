@@ -2,7 +2,10 @@
 title: Configure Service Model Foundation
 description: Configure the Service Model Foundation feature to enable a foundational data model framework. You can use this framework to create structured and flexible data models that represent your business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-industry-data-model.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ With the Service Model Foundation plugins, you can support:
 -   External business locations and staff members
 -   Households and household members
 
-For more information about this feature, see [Service Model Foundation overview](../concept/csm-industry-data-model.md).
+For more information about this feature, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-industry-data-model.md).
 
 ## Procedure
 

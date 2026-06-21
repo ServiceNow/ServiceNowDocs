@@ -2,6 +2,7 @@
 title: Delete a Virtual Agent topic
 description: Delete a Virtual Agent topic that is no longer needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/delete-virtual-agent-topic.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +21,7 @@ Delete a Virtual Agent topic that is no longer needed.
 
 Role required: virtual\_agent\_admin or admin
 
-**Note:** An updated Virtual Agent Designer user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not enabled, you will see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](../reference/vad-prev-topics-page.md).
+**Note:** An updated Virtual Agent Designer user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not enabled, you will see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 ## About this task
 
@@ -38,23 +39,23 @@ If you want to remove a topic from your Virtual Agent clients but don't want to 
 
 2.  Use one of the following methods based on either a record on the home page or the header inside a topic.
 
-<table id="choicetable_brb_vgj_jcc"><thead><tr><th align="left" id="d113658e147">
+<table id="choicetable_brb_vgj_jcc"><thead><tr><th align="left" id="d89798e147">
 
 Method
 
-</th><th align="left" id="d113658e150">
+</th><th align="left" id="d89798e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d113658e156">
+</th></tr></thead><tbody><tr><td id="d89798e156">
 
 **Home page - single topic**
 
 </td><td>
 
-Select the show actions for this row icon ![KB link](../images/kebab-menu.png) on the row for the topic that you want to delete, then select **Delete**.
+Select the show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: KB link on the row for the topic that you want to delete, then select **Delete**.
 
-</td></tr><tr><td id="d113658e172">
+</td></tr><tr><td id="d89798e172">
 
 **Home page - multiple topics**
 
@@ -64,14 +65,14 @@ Select the show actions for this row icon ![KB link](../images/kebab-menu.png) o
 2.  Select **Delete**.
  **Note:** If one or more of the selected assets are subflows or actions, the delete option is disabled.
 
-</td></tr><tr><td id="d113658e196">
+</td></tr><tr><td id="d89798e196">
 
 **Topic header bar**
 
 </td><td>
 
 1.  Select a Topic record to open the topic.
-2.  Select the topic actions icon ![KB link](../images/kebab-menu.png), then select **Delete**.
+2.  Select the topic actions icon \[Omitted image "kebab-menu.png"\] Alt text: KB link, then select **Delete**.
 
 
 </td></tr></tbody>
@@ -82,9 +83,9 @@ Select the show actions for this row icon ![KB link](../images/kebab-menu.png) o
 
 ## Result
 
-A toast message also appears for 4 seconds, confirming the topic has been deleted. You can close the message by selecting the dismiss alert icon ![Dismiss alert icon.](../images/gray-x-icon.png).
+A toast message also appears for 4 seconds, confirming the topic has been deleted. You can close the message by selecting the dismiss alert icon \[Omitted image "gray-x-icon.png"\] Alt text: Dismiss alert icon..
 
 If the topic was active and is no longer listed in the home page, the topic is immediately removed from Virtual Agent clients.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

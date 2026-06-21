@@ -2,6 +2,7 @@
 title: Privacy Management home page
 description: The Privacy Management home page provides an overview of the complete privacy risk and compliance posture with details such the overall compliance score and trend, privacy risk assessment status, privacy impact assessment status, control attestations, issues-specific status, and privacy-specific regulatory change tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/privacy-manager-dashboard.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Reporting, Privacy Management, Governance, Risk, and Compliance]
 
 The Privacy Management home page provides an overview of the complete privacy risk and compliance posture with details such the overall compliance score and trend, privacy risk assessment status, privacy impact assessment status, control attestations, issues-specific status, and privacy-specific regulatory change tasks.
 
-![Home page for the privacy manager and analyst.](../image/privacy-analyst-home-page.png "Privacy management home page")
+\[Omitted image "privacy-analyst-home-page.png"\] Alt text: Home page for the privacy manager and analyst.
 
 ## Required roles
 
@@ -61,7 +62,7 @@ Compliance posture by month
 
 </td><td>
 
-Trend chart ![Line chart.](../../../use/performance-analytics/image/line-icon.png)
+Trend chart \[Omitted image "line-icon.png"\] Alt text: Line chart.
 
 </td><td>
 
@@ -73,7 +74,7 @@ Compliance status
 
 </td><td>
 
-Donut ![Donut chart.](../../../use/reporting/image/icon-donut-report.png)
+Donut \[Omitted image "icon-donut-report.png"\] Alt text: Donut chart.
 
 </td><td>
 
@@ -85,7 +86,7 @@ Controls \(by authority documents or by policies\)
 
 </td><td>
 
-Bar chart![Bar graph.](../../../use/reporting/image/BarChart.png)
+Bar chart\[Omitted image "BarChart.png"\] Alt text: Bar graph.
 
 </td><td>
 
@@ -97,7 +98,7 @@ Processing activities by state
 
 </td><td>
 
-Donut![Donut chart.](../../../use/reporting/image/icon-donut-report.png)
+Donut\[Omitted image "icon-donut-report.png"\] Alt text: Donut chart.
 
 </td><td>
 
@@ -112,7 +113,7 @@ Least compliant processing activities
 
 </td><td>
 
-List report ![List report.](../../../use/reporting/image/icon-list-report.png)
+List report \[Omitted image "icon-list-report.png"\] Alt text: List report.
 
 </td><td>
 
@@ -124,7 +125,7 @@ Privacy assessments status
 
 </td><td>
 
-Single score ![Single score.](../../../use/reporting/image/icon-single-score-report.png)
+Single score \[Omitted image "icon-single-score-report.png"\] Alt text: Single score.
 
 </td><td>
 
@@ -136,7 +137,7 @@ Recently completed privacy assessments
 
 </td><td>
 
-List report ![List report.](../../../use/reporting/image/icon-list-report.png)
+List report \[Omitted image "icon-list-report.png"\] Alt text: List report.
 
 </td><td>
 
@@ -148,7 +149,7 @@ Issues
 
 </td><td>
 
-Single score ![Single score.](../../../use/reporting/image/icon-single-score-report.png)
+Single score \[Omitted image "icon-single-score-report.png"\] Alt text: Single score.
 
 </td><td>
 
@@ -160,7 +161,7 @@ Issues by priority
 
 </td><td>
 
-Donut![Donut chart.](../../../use/reporting/image/icon-donut-report.png)
+Donut\[Omitted image "icon-donut-report.png"\] Alt text: Donut chart.
 
 </td><td>
 
@@ -172,7 +173,7 @@ Policy exceptions
 
 </td><td>
 
-Single score ![Single score.](../../../use/reporting/image/icon-single-score-report.png)
+Single score \[Omitted image "icon-single-score-report.png"\] Alt text: Single score.
 
 </td><td>
 
@@ -184,7 +185,7 @@ By risk rating
 
 </td><td>
 
-Donut![Donut chart.](../../../use/reporting/image/icon-donut-report.png)
+Donut\[Omitted image "icon-donut-report.png"\] Alt text: Donut chart.
 
 </td><td>
 
@@ -196,7 +197,7 @@ Indicators
 
 </td><td>
 
-Single score ![Single score.](../../../use/reporting/image/icon-single-score-report.png)
+Single score \[Omitted image "icon-single-score-report.png"\] Alt text: Single score.
 
 </td><td>
 
@@ -208,12 +209,12 @@ Attestations
 
 </td><td>
 
-Single score ![Single score.](../../../use/reporting/image/icon-single-score-report.png)
+Single score \[Omitted image "icon-single-score-report.png"\] Alt text: Single score.
 
 </td><td>
 
 Shows the number of attestations that are open, overdue, and approaching due date.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reporting for Privacy Management](reporting-prm.md)
+</table>**Parent Topic:**[Reporting for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/reporting-prm.md)
 

@@ -2,7 +2,10 @@
 title: Review detailed server information in Configurable Workspace
 description: Review the information on the discovered resources to understand how they are deployed in your current infrastructure. Analyzing and assessing your current infrastructure is the first step in the cloud migration process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/migration-review-server-info.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -27,7 +30,7 @@ In the context of Cloud Migration Assessment, a resource is a server and a virtu
 
 1.  Navigate to **All** &gt; **** &gt; **Cloud Migration** &gt; **Cloud Migration Workspace**.
 
-2.  Filter the information on the Migration Flows window by selecting the relevant category from the **Categories** list ![Categories list](../image/cm-workflows-categories-list-button.png).
+2.  Filter the information on the Migration Flows window by selecting the relevant category from the **Categories** list \[Omitted image "cm-workflows-categories-list-button.png"\] Alt text: Categories list.
 
     For example, select **Physical Server** to display only information related to physical servers. Alternatively, select **AWS** to see which resources are already on the Amazon AWS Cloud.
 
@@ -40,7 +43,7 @@ In the context of Cloud Migration Assessment, a resource is a server and a virtu
     -   **Linux servers**
     The **Servers and VMs** list opens, showing the information filtered to match the category you selected in the **Overview** window.
 
-    ![Servers and VMs list filtered for Linux](../image/cm-servers-VMs-list.png "Filtered list of servers and VMs running Linux")
+    \[Omitted image "cm-servers-VMs-list.png"\] Alt text: Servers and VMs list filtered for Linux
 
 4.  Select the server name in the **Server** column.
 
@@ -62,7 +65,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Refresh list ![Refresh list button](../image/list-refresh-button.png)
+Refresh list \[Omitted image "list-refresh-button.png"\] Alt text: Refresh list button
 
 </td><td>
 
@@ -70,7 +73,7 @@ Refreshes the list to display the most updated information.
 
 </td></tr><tr><td>
 
-List actions ![List actions button](../image/list-actions-button.png)
+List actions \[Omitted image "list-actions-button.png"\] Alt text: List actions button
 
 </td><td>
 
@@ -81,7 +84,7 @@ Selects actions supported for this list:-   **Edit columns** - Adjusts the list 
 
 </td></tr><tr><td>
 
-Show filter panel ![Show filter panel button](../image/show-filter-panel-button.png)
+Show filter panel \[Omitted image "show-filter-panel-button.png"\] Alt text: Show filter panel button
 
 </td><td>
 
@@ -99,10 +102,10 @@ Saves the list in one of the supported formats: Excel, CSV, JSON, PDF.
 </table>7.  To hide a resource that you are not planning to migrate from any list in Cloud Migration Assessment, select this resource, and then select the **Ignore** button.
 
 
-**Parent Topic:**[Review your current infrastructure with Cloud Migration Assessment](migration-review-infrastructure.md)
+**Parent Topic:**[Review your current infrastructure with Cloud Migration Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/migration-review-infrastructure.md)
 
 **Related topics**  
 
 
-[Work with lists in workspace](https://www.servicenow.com/docs/access?context=work-with-lists&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.work-with-lists]
 

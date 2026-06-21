@@ -2,7 +2,10 @@
 title: Display the Time to resolve ribbon component
 description: Activate the ETTR Experience Card so that you can display the Time to resolve ribbon component in your CSM workspaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ettr-activate.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,7 +2,10 @@
 title: Create crews
 description: As a dispatcher, you can create crews in Dispatcher Workspace to which you can assign work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-crews-dispatcher-wrkspc.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: wm\_dispatcher
 
 1.  Navigate to **All** &gt; **Field Service Management** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click the **List** icon \(![List icon.](../../../administer/workspace/image/list-icon-black.png)\).
+2.  Click the **List** icon \(\[Omitted image "list-icon-black.png"\] Alt text: List icon.\).
 
 3.  In the Lists panel, navigate to **Dispatching** &gt; **My Crews**
 
@@ -48,5 +51,5 @@ Role required: wm\_dispatcher
 
 The crew is created along with the related list records, such as Details, Groups, Skills, and Task Assignees.
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](../concept/using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-disp-wrkspc-crew-operations.md)
 

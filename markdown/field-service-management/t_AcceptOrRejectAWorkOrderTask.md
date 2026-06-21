@@ -2,7 +2,10 @@
 title: Accept or reject a work order task
 description: Accept a work order task if you are ready to work on that task. Reject the task and provide a reason if you cannot work on that task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_AcceptOrRejectAWorkOrderTask.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -31,15 +34,15 @@ The task must be in **Assigned** state for an agent to accept or reject the task
 
 3.  Accept or reject the task.
 
-<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d95388e107">
+<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d38276e107">
 
 To
 
-</th><th align="left" id="d95388e110">
+</th><th align="left" id="d38276e110">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d95388e116">
+</th></tr></thead><tbody><tr><td id="d38276e116">
 
 **Accept the task**
 
@@ -47,7 +50,7 @@ Do the following
 
 Click **Accept**. The work order task moves to **Accepted** state.
 
-</td></tr><tr><td id="d95388e131">
+</td></tr><tr><td id="d38276e131">
 
 **Reject the task.**
 
@@ -73,7 +76,7 @@ Available options:
 
 The reason for rejecting the task is populated in the work notes and the task moves to **Pending Dispatch** state.
 
- **Note:** The rejected task is not dynamically scheduled to the same agent for the next 24 hours. This is controlled by the work.management.rejected.technician.duration [system property](../reference/r_PropInstallWFieldServMgmnt.md). However, as an agent you can manually assign the work order task back to yourself or as a dispatcher you can assign it back to the same agent.
+ **Note:** The rejected task is not dynamically scheduled to the same agent for the next 24 hours. This is controlled by the work.management.rejected.technician.duration [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_PropInstallWFieldServMgmnt.md). However, as an agent you can manually assign the work order task back to yourself or as a dispatcher you can assign it back to the same agent.
 
 </td></tr></tbody>
 </table>
@@ -81,5 +84,5 @@ The reason for rejecting the task is populated in the work notes and the task mo
 
 In case an agent accepts a downstream task that is dependent on another task, the downstream task can be started before the upstream task is complete. So when the agent clicks **Start Work**, a message states that open task dependencies exist and asks if the agent wants to start work.
 
-**Parent Topic:**[Execute work order tasks](../concept/c_ExecuteWorkOrderTasks.md)
+**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ExecuteWorkOrderTasks.md)
 

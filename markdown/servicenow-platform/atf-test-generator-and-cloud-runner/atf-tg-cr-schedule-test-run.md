@@ -2,6 +2,7 @@
 title: Scheduling test execution
 description: Use schedules and nightly runs to execute tests and test suites in ServiceNow’s cloud infrastructure allowing you to fully automate ATF test executions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-schedule-test-run.html
 release: xanadu
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner

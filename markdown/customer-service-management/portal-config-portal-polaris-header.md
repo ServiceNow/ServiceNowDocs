@@ -2,7 +2,10 @@
 title: Configure the Portal Polaris Header widget for your portal
 description: Associate the Portal Polaris Header widget as your header for the selected theme on your portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-config-portal-polaris-header.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,11 +32,11 @@ Unlike other widgets in the Configurable Portal widgets, the Portal Polaris Head
 
 2.  On the Service Portal page, search and select `Customer Support` in the Title column.
 
-3.  On the Customer Support page, in the **Theme** field, select the Preview this record icon \(![Preview this record](../image/preview-record.png)\).
+3.  On the Customer Support page, in the **Theme** field, select the Preview this record icon \(\[Omitted image "preview-record.png"\] Alt text: Preview this record\).
 
 4.  Select **Open Record** on the Theme pop-up window.
 
-5.  On the Portal Next Experience Theme page, in the **Header** field, select the Lookup using list icon \(![Look up list](../image/lookup-list.jpg)\).
+5.  On the Portal Next Experience Theme page, in the **Header** field, select the Lookup using list icon \(\[Omitted image "lookup-list.jpg"\] Alt text: Look up list\).
 
     **Note:** If a message appears about the application scope, select **here** to be able to edit the record.
 

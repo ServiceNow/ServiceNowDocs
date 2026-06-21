@@ -2,6 +2,7 @@
 title: Components installed with Creator Studio
 description: When you activate the Creator Studio plugin, various components like tables and user roles are automatically installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-components-installed.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -15,7 +16,7 @@ breadcrumb: [Installing Creator Studio from the ServiceNow Store, Configuring Cr
 
 When you activate the Creator Studio plugin, various components like tables and user roles are automatically installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## What plugins are required to activate Creator Studio?
 
@@ -37,7 +38,7 @@ You must install the following plugins for Creator Studio:
 
 ## Roles installed with Creator Studio
 
-The following table lists all roles installed with Creator Studio. For details on how the roles work with Creator Studio, see [Creator Studio roles and personas](roles-creator-studio.md).
+The following table lists all roles installed with Creator Studio. For details on how the roles work with Creator Studio, see [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/roles-creator-studio.md).
 
 <table id="table_oyr_sy3_v1c"><thead><tr><th>
 
@@ -211,5 +212,5 @@ Creator Studio Activities \[sn\_creatorstudio\_activity\]
 Table where all standard and custom activities for Creator Studio automations are stored.**Note:** This table is readable by Creator Studio users and delegated developers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installing Creator Studio from the ServiceNow Store](../concept/installing-creator-studio-from-the-store.md)
+</table>**Parent Topic:**[Installing Creator Studio from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/installing-creator-studio-from-the-store.md)
 

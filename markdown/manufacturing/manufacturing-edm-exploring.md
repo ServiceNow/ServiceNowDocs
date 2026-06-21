@@ -2,6 +2,7 @@
 title: Manufacturing Commercial Operations Exception and Dispute Management
 description: Automate the order exceptions and invoice disputes management processes with Exception and Dispute Management for Manufacturing Commercial Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/manufacturing-edm-exploring.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-10-16"
@@ -13,7 +14,7 @@ breadcrumb: [Exploring Manufacturing Commercial Operations, Manufacturing]
 
 Automate the order exceptions and invoice disputes management processes with Exception and Dispute Management for Manufacturing Commercial Operations.
 
-![Exception and Dispute Management for Manufacturing Commercial Operations.](../image/mcoexeptionsdispute.png)
+\[Omitted image "mcoexeptionsdispute.png"\] Alt text: Exception and Dispute Management for Manufacturing Commercial Operations.
 
 With Exception and Dispute Management for Manufacturing Commercial Operations, manufacturers can:
 

@@ -2,6 +2,7 @@
 title: Creating and training solutions
 description: Use one of the Predictive Intelligence \(PI\) frameworks to create and train machine-learning solutions. Each framework delivers a different solution type for training the system to predict, recommend, and organize data outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/predictive-intelligence/training-ml-solutions.html
 release: xanadu
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -23,21 +24,21 @@ Select the best framework for your desired prediction:
 
 -   Classification solutions:
 
-    Sets field values during record creation to automatically categorize and route work based on past records. See [Create and train a classification solution](../task/create-solution-definition.md).
+    Sets field values during record creation to automatically categorize and route work based on past records. See [Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
 
 -   Similarity solutions:
 
-    Identifies similarities between new and existing records to recommend resolutions. See [Create and train a similarity solution](../task/create-similarity-solution.md).
+    Identifies similarities between new and existing records to recommend resolutions. See [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 -   Clustering solutions:
 
-    Groups similar records into clusters to identify patterns and major incidents. See [Create and train a clustering solution](../task/create-clustering-solution.md).
+    Groups similar records into clusters to identify patterns and major incidents. See [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
 
 -   Regression solutions:
 
     **Important:** With the Xanadu release, support for creating new regression solutions was removed. You can still edit and train existing regression solutions, but you won't be able to create new ones.
 
-    Uses historic data to predict numeric outputs, such as estimating the time it takes to resolve an incident or case. See [Create and train a regression solution](../task/create-regression-solution.md).
+    Uses historic data to predict numeric outputs, such as estimating the time it takes to resolve an incident or case. See [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/predictive-intelligence/create-regression-solution.md).
 
 
 ## Selecting data records for training your solution
@@ -52,7 +53,7 @@ A solution is only as good as the record data you use to train it. In general, a
 
 ## Exporting your solution for training
 
-![Predictive Intelligence training flow](../images/predictive-intelligence-training-flow.png)
+\[Omitted image "predictive-intelligence-training-flow.png"\] Alt text: Predictive Intelligence training flow
 
 To train a solution, you export its solution definition and associated records to a centralized training server within the same datacenter. When the training completes, the training server exports the solution back to your instance and deletes all of your training data from the server. As every datacenter has its own dedicated training server and the data doesn't leave the datacenter, this service is also available to customers who have data sovereignty requirements.
 

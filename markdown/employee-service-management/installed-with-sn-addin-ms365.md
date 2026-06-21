@@ -2,7 +2,10 @@
 title: Components installed with ServiceNow Add-in for Microsoft 365
 description: Several types of components are installed with activation of the plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/installed-with-sn-addin-ms365.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2024-09-02"
 reading_time_minutes: 1
@@ -117,5 +120,5 @@ Office Control
 Contains information about the office controls, like buttons or menus, created for different add-ins.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](sn-addin-for-ms365-reference.md)
+</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-addin-for-ms365-reference.md)
 

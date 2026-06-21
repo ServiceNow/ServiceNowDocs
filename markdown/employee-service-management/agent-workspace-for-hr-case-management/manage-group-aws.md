@@ -2,6 +2,7 @@
 title: Review users in a user segment group
 description: After creating a user group segment, review and edit users before you create cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/agent-workspace-for-hr-case-management/manage-group-aws.html
 release: xanadu
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -25,7 +26,7 @@ Role required: sn\_hr\_core\_admin
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(![HR Workspace Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
 
 3.  Select the **Bulk case requests** tab.
 
@@ -44,15 +45,15 @@ Role required: sn\_hr\_core\_admin
     -   Included: The user matches the filter criteria and a case will be created for the user.
     -   Excluded: The user does not match the criteria and a case will not be created.
     -   Duplicate: The user is listed multiple times.
-<table id="choicetable_y2w_s5c_3bc"><thead><tr><th align="left" id="d86383e179">
+<table id="choicetable_y2w_s5c_3bc"><thead><tr><th align="left" id="d86916e179">
 
 Review result
 
-</th><th align="left" id="d86383e182">
+</th><th align="left" id="d86916e182">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d86383e188">
+</th></tr></thead><tbody><tr><td id="d86916e188">
 
 **All user statuses are correct**
 
@@ -60,7 +61,7 @@ Action
 
 ?
 
-</td></tr><tr><td id="d86383e197">
+</td></tr><tr><td id="d86916e197">
 
 **Some user statuses need to be modified**
 

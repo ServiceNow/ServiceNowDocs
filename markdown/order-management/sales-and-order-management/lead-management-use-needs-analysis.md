@@ -2,6 +2,7 @@
 title: Get product recommendations for your lead using needs analysis
 description: Choose a needs template from the product selection guide in the product catalog to get product recommendations for sales leads.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/lead-management-use-needs-analysis.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,12 +26,12 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Lead** &gt; **All**.
 
     -   To work on an existing lead, select the lead.
-    -   To [Create a lead](create-new-lead.md), select **New**.
+    -   To [Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-new-lead.md), select **New**.
 
         Immediately after you create the lead, a message confirms that the lead was created. To continue working on the lead, select the link in the message.
 
@@ -48,7 +49,7 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 6.  After replying to the last question, review or select the recommendations:
 
-    -   To review your responses, select the **Edit** ![](../../../reuse/itom/image/workspace-icon-edit.png) icon. You can change your responses if needed.
+    -   To review your responses, select the **Edit** \[Omitted image "workspace-icon-edit.png"\] Alt text: icon. You can change your responses if needed.
     -   To view product recommendations, choose **Select Recommendations**. The Catalog tab displays the recommended products.
 7.  Choose a recommendation by selecting **Add** in the tile for the product that best matches your customer needs.
 

@@ -2,7 +2,10 @@
 title: Create a sales opportunity
 description: Create sales opportunities for services, products, or assets identified during field service visits using the Now Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-opportunity.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -29,15 +32,15 @@ Role required: wm\_technician\_sales\_write
 
 2.  Create a sales opportunity.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d75426e94">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d57973e94">
 
 From
 
-</th><th align="left" id="d75426e97">
+</th><th align="left" id="d57973e97">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d75426e103">
+</th></tr></thead><tbody><tr><td id="d57973e103">
 
 **My Work**
 
@@ -45,11 +48,11 @@ Do this
 
 1.  Tap **My Work**.
 2.  In the **My Tasks** section, select the relevant work order task.
-3.  Tap Overflow action ![overflow action icon](../image/more_actions1.png) icon.
+3.  Tap Overflow action \[Omitted image "more\_actions1.png"\] Alt text: overflow action icon icon.
 4.  Tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d75426e142">
+</td></tr><tr><td id="d57973e142">
 
 **My Work**
 
@@ -60,7 +63,7 @@ Do this
 3.  In the **Related** tab, tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d75426e175">
+</td></tr><tr><td id="d57973e175">
 
 **Sales**
 
@@ -111,5 +114,5 @@ Do this
 
 Tap the opportunity in the **Related** tab to view the details and **Activity** stream of the line items.
 
-**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-field-service-tasks-mobile.md)
 

@@ -2,6 +2,7 @@
 title: Review the properties extracted from a source type in Health Log Analytics
 description: View the properties that were extracted from all the source types in a source type structure in a single table to identify any setup issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-sts-properties-table.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -34,7 +35,7 @@ The procedure in this section explains how to access the Source Type Properties 
 
 3.  Open the **Properties Statistics** related links tab.
 
-    ![The Source Type Properties Stats table.](../image/hla-properties-stats-table.png)
+    \[Omitted image "hla-properties-stats-table.png"\] Alt text: The Source Type Properties Stats table.
 
     The **Source Type Properties Stats** table shows the properties of all the source types that are part of this source type structure.
 
@@ -121,8 +122,8 @@ Only for properties classified as METER: Sample unique values tracked by the sys
     -   For a GAUGE property: The average, minimum, and standard deviation from the expected numerical value.
 6.  Change classification settings on the **Key/Value Mapping** tab.
 
-    For more information, see [Refine the source type structure](hla-source-type-structure-refine.md).
+    For more information, see [Refine the source type structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md).
 
 
-**Parent Topic:**[Set up data inputs for Health Log Analytics manually](hla-data-input-setup-manual.md)
+**Parent Topic:**[Set up data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md)
 

@@ -2,6 +2,7 @@
 title: Coalesce columns in Instance Data Replication
 description: The coalesce columns feature is used to identify records when you perform data inserts, updates, and deletions across instances using Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/instance-data-replication-idr/idr-coalesce.html
 release: xanadu
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -17,7 +18,7 @@ The coalesce columns feature is used to identify records when you perform data i
 
 By default, the **sys\_id** field is used to coalesce records in IDR. Beginning with the San Diego release, you can choose to use a different field.
 
-Use the coalesce columns feature when records on the consumer instance have a different sys\_id than the same record on the producer instance. For example, when the record is created by Discovery and loaded into multiple instances. You select the **Coalesce** field in the [Replication Entry form on the producer](../task/create-p-replication-set.md).
+Use the coalesce columns feature when records on the consumer instance have a different sys\_id than the same record on the producer instance. For example, when the record is created by Discovery and loaded into multiple instances. You select the **Coalesce** field in the [Replication Entry form on the producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/create-p-replication-set.md).
 
 When you select the **Coalesce** field, you must verify the following:
 

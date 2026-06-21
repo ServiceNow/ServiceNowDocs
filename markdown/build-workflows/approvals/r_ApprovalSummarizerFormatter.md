@@ -2,6 +2,7 @@
 title: Approval summarizer formatter
 description: The approval summarizer formatter creates the summary at the bottom of an approval form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/approvals/r\_ApprovalSummarizerFormatter.html
 release: xanadu
 product: Approvals
 classification: approvals
@@ -17,9 +18,9 @@ The approval summarizer formatter creates the summary at the bottom of an approv
 
 The approval summarizer displays different information depending on what is being approved, such as a change request or a service catalog request. Following are two examples.
 
-![Summary of a change request.](../image/SummaryOfAChangeRequest.png "Summary of a change request")
+\[Omitted image "SummaryOfAChangeRequest.png"\] Alt text: Summary of a change request.
 
-![Summary of a catalog request.](../image/SummaryOfACatalogRequest.png "Summary of a catalog request")
+\[Omitted image "SummaryOfACatalogRequest.png"\] Alt text: Summary of a catalog request.
 
 The **Reject** button allows the approver to deny one or more requested items in a multi-item request, before approving the overall request. If a requested item is denied, the workflow for that item never starts. The approver can then choose to **Accept** the item.
 

@@ -2,6 +2,7 @@
 title: Diagnose a processing error in SGC Central
 description: Diagnose processing errors in connections configured for a Service Graph Connector and resolve them within the SGC Central view of the Service Graph Workspace or CMDB Workspace using recommendations from Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/sgcc-diagnose-proc-errors.html
 release: xanadu
 topic_type: task
 last_updated: "2026-03-06"
@@ -23,7 +24,7 @@ Role required: SGC-admin or admin
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon ![](../../configuration-management/image/icon-sgc-central.png) to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  On the Overview page, select the **Processing status** card.
 
@@ -35,7 +36,7 @@ Role required: SGC-admin or admin
 
     **Note:** You can diagnose only one error at a time. The **Diagnose Error** button is enabled only when you select an error from the list.
 
-    ![Errors tab showing the Diagnose error button that is displayed after selecting an error.](../image/sgcc-diagnose-error.png "Diagnose a processing error")
+    \[Omitted image "sgcc-diagnose-error.png"\] Alt text: Errors tab showing the Diagnose error button that is displayed after selecting an error.
 
 5.  Select **Diagnose error**.
 
@@ -44,5 +45,5 @@ Role required: SGC-admin or admin
 
 Now Assist triggers the diagnosis process for the processing error. The Error diagnosis window includes two key sections: Explanation and Recommendation, each focused on explaining the error and providing a solution to resolve it. The recommendation is based on a knowledge article matched using AI Search. A link to the knowledge article is provided in the Source section for additional guidance.
 
-![Error diagnosis result for a processing error, showing the error explanation, a recommendation to resolve the error, and a link to the knowledge article as the source of the recommendation.](../image/sgcc-error-diagnosis.png "Error diagnosis result")
+\[Omitted image "sgcc-error-diagnosis.png"\] Alt text: Error diagnosis result for a processing error, showing the error explanation, a recommendation to resolve the error, and a link to the knowledge article as the source of the recommendation.
 

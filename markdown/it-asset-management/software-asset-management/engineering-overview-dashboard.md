@@ -2,6 +2,7 @@
 title: Engineering License Overview dashboard
 description: Monitor and gain insights into your engineering applications license position and usage by viewing product usage reports in the Engineering License Overview dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/engineering-overview-dashboard.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -27,7 +28,7 @@ The **Overview**, **License Usage Summary**, and **Denial Summary** tabs are upd
 
 ## Overview tab
 
-![Overview tab of the Engineering Applications dashboard showing reports on top used products, top active users, and top idle users](../image/overview-dashboard.png)
+\[Omitted image "overview-dashboard.png"\] Alt text: Overview tab of the Engineering Applications dashboard showing reports on top used products, top active users, and top idle users
 
 This tab gives an overview of the high-level metrics of all engineering applications. You can filter the results in this tab by various date options.
 
@@ -146,7 +147,7 @@ Based on the count of users using products by location.
 </td></tr></tbody>
 </table>## License Usage Summary tab
 
-![License Usage Summary tab in the Engineering Applications dashboard](../image/license-summary.png)
+\[Omitted image "license-summary.png"\] Alt text: License Usage Summary tab in the Engineering Applications dashboard
 
 This tab lets you view data based on a license type \(floating, network, or token\). You can filter the data in this tab by date, license type, and license management server.
 
@@ -209,7 +210,7 @@ All the license management servers that OpenLM or Open iT connect with.
 </td></tr></tbody>
 </table>## Denials Summary tab
 
-![Denials Summary tab in the Engineering Applications dashboard](../image/denials-summary.png)
+\[Omitted image "denials-summary.png"\] Alt text: Denials Summary tab in the Engineering Applications dashboard
 
 You can filter the data in this tab by date, user, or user group.
 
@@ -219,5 +220,5 @@ You can filter the data in this tab by date, user, or user group.
 |Denials by Product|Engineering Application Denial \[samp\_eng\_app\_denial\]|The products that have been denied to users the most.|
 |Denials by License Server|Engineering Application Denial \[samp\_eng\_app\_denial\]|The license servers that have been denied licenses to products the most.|
 
-**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](../../../use/dashboards/application-content-packs/software-asset-mgmt-content-pack.md)
+**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
 

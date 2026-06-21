@@ -2,6 +2,7 @@
 title: Exploring Analytics Generation
 description: Use Analytics Generation to generate Platform Analytics artifacts from conversational interactions. For example, you can ask for information about the number of open incidents and get a single-score data visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/exploring-analytics-assist.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -37,9 +38,9 @@ Analytics Generation currently supports only the data visualization generation s
 
 Access the data visualization generation skill by starting a conversation in Now Assist and asking for information available from a Platform Analytics data source.
 
-![Query asking Now Assist to show all indicators that have not been resolved for over 30 days.](../image/nowass-dv-intro.png "Asking Now Assist for a data visualization")
+\[Omitted image "nowass-dv-intro.png"\] Alt text: Query asking Now Assist to show all indicators that have not been resolved for over 30 days.
 
-![Result of the query showing a list of indicators.](../image/nowass-dv-list.png "Example of a generated data visualization")
+\[Omitted image "nowass-dv-list.png"\] Alt text: Result of the query showing a list of indicators.
 
-**Parent Topic:**[Analytics Generation](../reference/analytics-assist-landing-page.md)
+**Parent Topic:**[Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/analytics-assist-landing-page.md)
 

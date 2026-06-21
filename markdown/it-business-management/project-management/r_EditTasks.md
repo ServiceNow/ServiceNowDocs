@@ -2,6 +2,7 @@
 title: Gantt chart options
 description: Use the Gantt chart to quickly change task attributes, such as start and end time, rather than opening every Task form and modifying field values one by one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/r\_EditTasks.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -41,7 +42,7 @@ Planned start date for the project
 
 Modify the dates in the **Planned start date** column on the console.
 
- You can add tasks that start earlier than the project's planned start date. By default, the planned start date shifts earlier or later when you add tasks to align with the earliest task start date. However, you can enable the [project property](r_InstalledWithProjectManagement.md#project_application_properties) **Rollup project start date from tasks** to retain the planned start date of the project even if you add tasks with a planned start date that is earlier or later.
+ You can add tasks that start earlier than the project's planned start date. By default, the planned start date shifts earlier or later when you add tasks to align with the earliest task start date. However, you can enable the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Rollup project start date from tasks** to retain the planned start date of the project even if you add tasks with a planned start date that is earlier or later.
 
 </td></tr><tr><td>
 
@@ -75,10 +76,10 @@ Resources
 
 </td><td>
 
-To change a user resource for an existing task or add a resource to a new task, double-click the task bar and edit the Assigned to field in the Project Task form.**Note:** The resources in **Assigned to** column can be constrained to be derived only from the allocated resource plans associated with the project or any of its task. The **Derive assignee list from resource plan** field on the [project form](../task/t_CreateAProject.md#table_mb3_rfw_1r) controls the behavior.
+To change a user resource for an existing task or add a resource to a new task, double-click the task bar and edit the Assigned to field in the Project Task form.**Note:** The resources in **Assigned to** column can be constrained to be derived only from the allocated resource plans associated with the project or any of its task. The **Derive assignee list from resource plan** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProject.md) controls the behavior.
 
 </td></tr></tbody>
-</table>The Project Management application provides several properties that control how tasks are calculated and behave. See [Project property](r_InstalledWithProjectManagement.md#project_application_properties) for more information.
+</table>The Project Management application provides several properties that control how tasks are calculated and behave. See [Project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_InstalledWithProjectManagement.md) for more information.
 
-**Parent Topic:**[Gantt chart](../concept/c_GanttChart.md)
+**Parent Topic:**[Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_GanttChart.md)
 

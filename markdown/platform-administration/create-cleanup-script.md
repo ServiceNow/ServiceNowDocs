@@ -2,6 +2,7 @@
 title: Create cleanup scripts
 description: Use cleanup scripts to modify or remove data that is not appropriate for your clone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-cleanup-script.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"

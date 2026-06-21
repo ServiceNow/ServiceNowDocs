@@ -2,6 +2,7 @@
 title: Implementing notification action with a script
 description: Use the Script field in the Notification Action form to update and implement a notification action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/notification-action-script.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -51,5 +52,5 @@ Role required: admin
 6.  Click **Update**.
 
 
-**Parent Topic:**[Create provider notification](../concept/create-provider-notification-using.md)
+**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-provider-notification-using.md)
 

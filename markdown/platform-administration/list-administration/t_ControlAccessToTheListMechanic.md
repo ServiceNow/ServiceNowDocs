@@ -2,6 +2,7 @@
 title: Control which roles can personalize lists
 description: You can control who can create personal lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/t\_ControlAccessToTheListMechanic.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -28,5 +29,5 @@ Role required: admin
 3.  Enter the roles for which personal lists are available, separated by commas, or leave the field blank to allow access for all users \(default\).
 
 
-**Parent Topic:**[Personal list administration](../concept/c_AdministeringPersonalLists.md)
+**Parent Topic:**[Personal list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/c_AdministeringPersonalLists.md)
 

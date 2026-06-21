@@ -2,6 +2,7 @@
 title: Schedule data visualization export
 description: Automate the export and mailing of data visualizations. Help colleagues build presentations, share information with external users, or track data over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/schedule-visn-export-vd.html
 release: xanadu
 topic_type: task
 last_updated: "2025-05-20"
@@ -27,9 +28,9 @@ To view the list of scheduled exports, navigate to **All** &gt; **Platform Analy
 
     **Note:** You cannot export calendar reports or indicator scorecards.
 
-3.  From the More actions menu \(![Context menu icon](../../dashboards/image/icon-vert-3dot-p.png)\), select **Schedule**.
+3.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: Context menu icon\), select **Schedule**.
 
-    ![Schedule option in More actions menu](../image/paw-vd-schedule.png)
+    \[Omitted image "paw-vd-schedule.png"\] Alt text: Schedule option in More actions menu
 
 4.  In the File to export section, specify the following information:
 
@@ -124,7 +125,7 @@ Condition
 
 </td><td>
 
-Conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow platform, see [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).**Warning:** Conditional scripts for scheduled report emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see [Script sandbox property](https://www.servicenow.com/docs/access?context=r_ScriptSandboxing&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow platform, see Scripts.**Warning:** Conditional scripts for scheduled report emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
 
 </td></tr></tbody>
 </table>7.  In the Email details section, specify the recipients and the email subject.
@@ -136,5 +137,5 @@ Conditional script that determines if a scheduled job should run. The last expre
 9.  Select **Save** to save the schedule or **Save and close** to return to the Visualization Designer.
 
 
-**Parent Topic:**[Export a visualization from the Visualization Designer](export-visualization-vd.md)
+**Parent Topic:**[Export a visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/export-visualization-vd.md)
 

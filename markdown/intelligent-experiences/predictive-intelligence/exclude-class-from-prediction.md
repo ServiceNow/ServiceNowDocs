@@ -2,6 +2,7 @@
 title: Exclude a class from prediction
 description: Exclude a class from prediction if its precision or coverage statistics don't meet your threshold of usefulness. For example, exclude it if you don't want the model to predict a particular output field value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/predictive-intelligence/exclude-class-from-prediction.html
 release: xanadu
 product: Predictive Intelligence
 classification: predictive-intelligence

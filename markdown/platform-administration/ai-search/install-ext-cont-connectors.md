@@ -2,6 +2,7 @@
 title: Install External Content Connectors
 description: Install the External Content Connectors applications from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/install-ext-cont-connectors.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -38,14 +39,14 @@ To make content from your external source systems accessible in AI Search, you n
 
     You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select **Install**.
 
 
 ## What to do next
 
-With the External Content Connectors applications installed, AI Search administrators can configure connectors to crawl content, metadata, users, and group memberships from supported external content repositories. For details on external content connector configuration, see [Configuring External Content Connectors](../concept/configuring-ext-cont-connectors.md).
+With the External Content Connectors applications installed, AI Search administrators can configure connectors to crawl content, metadata, users, and group memberships from supported external content repositories. For details on external content connector configuration, see [Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configuring-ext-cont-connectors.md).
 
-**Parent Topic:**[External Content Connectors](../reference/ext-cont-connectors-landing-page.md)
+**Parent Topic:**[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
 

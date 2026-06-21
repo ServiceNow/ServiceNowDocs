@@ -2,6 +2,7 @@
 title: Limit the records for the SLA configuration filter
 description: If too many records are returned by the SLA configuration filter, you can add a property to set the maximum number of records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/t\_EMLimitTheRecordsForSLAConfigFilter.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -21,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-By default, the size of dynamic CI group records is limited to 10,000 elements. Exceeding this limit can affect system stability. If the filter configuration for a specified dynamic CI group returns too many records, you can limit the number of records that are returned by setting the value of the sa.qbs.max\_num\_of\_cis property. For more information, see [Create a Dynamic CI Group](https://www.servicenow.com/docs/access?context=create-it-services&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+By default, the size of dynamic CI group records is limited to 10,000 elements. Exceeding this limit can affect system stability. If the filter configuration for a specified dynamic CI group returns too many records, you can limit the number of records that are returned by setting the value of the sa.qbs.max\_num\_of\_cis property. For more information, see Create a Dynamic CI Group.
 
 ## Procedure
 
@@ -34,5 +35,5 @@ By default, the size of dynamic CI group records is limited to 10,000 elements. 
 3.  Set the value to an integer that represents the maximum number of records to return.
 
 
-**Parent Topic:**[Create an SLA configuration for CIs](t_EMCreateAnSLAConfiguration.md)
+**Parent Topic:**[Create an SLA configuration for CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/t_EMCreateAnSLAConfiguration.md)
 

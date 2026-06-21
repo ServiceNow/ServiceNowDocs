@@ -2,6 +2,7 @@
 title: Jumpstart Your Now Assist for IT Service Management \(ITSM\)
 description: The Jumpstart Your Now Assist for ITSM Accelerator provides a demonstration of the possibilities and capabilities of Now Assist for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/jumpstart-now-assist-itsm.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The Jumpstart Your Now Assist for ITSM Accelerator provides a demonstration of t
 
 Jumpstart Your Now Assist for ITSM provides  Impact customers with a comprehensive overview and an applied demonstration of Now Assist for ITSM. Leveraging Generative AI capabilities, this Accelerator showcases how to automatically generate resolution notes and provide incident and chat conversation summaries. By reducing manual tasks, Now Assist enables faster incident resolution.  This offering highlights the possibilities and capabilities of Now Assist for ITSM,  providing key resources and leading practices for  getting started.
 
-For additional information on the feature, see [Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on the feature, see .
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

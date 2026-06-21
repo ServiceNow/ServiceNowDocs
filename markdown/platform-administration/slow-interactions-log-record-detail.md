@@ -2,6 +2,7 @@
 title: Slow interactions log record detail
 description: Administrators can use Slow Interactions logs to gain insight into how interactions are affecting platform performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/slow-interactions-log-record-detail.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"

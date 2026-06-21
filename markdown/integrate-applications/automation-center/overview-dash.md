@@ -2,6 +2,7 @@
 title: Automation Center Overview dashboard
 description: The Automation Center Workspace landing page is the Overview dashboard, which contains basic score cards, lists, and reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/automation-center/overview-dash.html
 release: xanadu
 product: Automation Center
 classification: automation-center
@@ -48,7 +49,7 @@ The Active Automations section provides reports with the following details in th
 
 -   **Top 10 applications used**
 
-    This graph provides a vertical bar report of the top 10 business applications used. For more information on associating business applications to your automations, see [Business application relationship with CIs for application information](https://www.servicenow.com/docs/access?context=application-relations&version=xanadu&pubname=xanadu-application-portfolio-management&ft:locale=en-US).
+    This graph provides a vertical bar report of the top 10 business applications used. For more information on associating business applications to your automations, see .
 
 
 ## Future Automations
@@ -74,5 +75,5 @@ You can filter the data by department. If no department is selected, the data is
     Lists the automation requests sorted from most recent to oldest.
 
 
-**Parent Topic:**[Automation Center Workspace](automation-center-workspace-ui.md)
+**Parent Topic:**[Automation Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/automation-center/automation-center-workspace-ui.md)
 

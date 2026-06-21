@@ -2,7 +2,10 @@
 title: Allow agents to start traveling before their scheduled work hours
 description: Support flexible work types by allowing agents to start traveling before their scheduled work hours. For example, you may want to add travel time outside of an agent's scheduled work hours in case bad weather suddenly increases travel time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/set-agent-schedule-preferences.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -31,15 +34,15 @@ Role required: wm\_dispatcher, wm\_manager, wm\_admin, or admin
 
 4.  To add or update user records, do one of the following.
 
-<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d75710e117">
+<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d73994e117">
 
 Option
 
-</th><th align="left" id="d75710e120">
+</th><th align="left" id="d73994e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d75710e126">
+</th></tr></thead><tbody><tr><td id="d73994e126">
 
 **Add a new record for this user**
 
@@ -52,7 +55,7 @@ Description
 5.  Click **Submit**.
 
 
-</td></tr><tr><td id="d75710e167">
+</td></tr><tr><td id="d73994e167">
 
 **Updated an existing record**
 
@@ -148,5 +151,5 @@ function updateWorkParamsForAgents(travelOutsideWorkHours) {
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Field service agent management](../concept/field-service-agent-management.md)
+**Parent Topic:**[Field service agent management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-agent-management.md)
 

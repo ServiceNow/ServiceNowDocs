@@ -2,6 +2,7 @@
 title: Export data from a record
 description: Export a record to PDF or XML.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/table-administration-and-data-management/export-form-data.html
 release: xanadu
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -29,7 +30,7 @@ A PDF is generated only if the form has been submitted. An unsubmitted form gene
 
 1.  Navigate to the record that you want to export.
 
-2.  Select the Additional actions menu \(![Additional actions menu.](../../../common/image/Form_MenuIcon.png)\).
+2.  Select the Additional actions menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: Additional actions menu.\).
 
 3.  Select an export option.
 
@@ -41,5 +42,5 @@ A PDF is generated only if the form has been submitted. An unsubmitted form gene
 
 ## Example
 
-![Export data from form options.](../image/ExportFromForm.png "Export options")
+\[Omitted image "ExportFromForm.png"\] Alt text: Export data from form options.
 

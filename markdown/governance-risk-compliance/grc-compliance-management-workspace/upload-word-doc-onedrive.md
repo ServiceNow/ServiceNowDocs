@@ -2,6 +2,7 @@
 title: Upload a Microsoft Word document to Microsoft OneDrive
 description: Upload a Microsoft Word document that exists in your local machine to Microsoft OneDrive and link the document with the policy. As a user, you can access the document from any device and enable multiple users to collaborate on the policy document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-compliance-management-workspace/upload-word-doc-onedrive.html
 release: xanadu
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -19,13 +20,13 @@ Upload a Microsoft Word document that exists in your local machine to Microsoft 
 
 Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_user
 
-**Note:** Verify that you have set up the pre-requisite steps appropriately to upload the Microsoft Word document to cloud. For more information, see [Pre-requisites to enable policy redlining feature](../../grc-policy-and-compliance/concept/pre-req-policy-redlining.md).
+**Note:** Verify that you have set up the pre-requisite steps appropriately to upload the Microsoft Word document to cloud. For more information, see [Pre-requisites to enable policy redlining feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-compliance-management-workspace/pre-req-policy-redlining.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 

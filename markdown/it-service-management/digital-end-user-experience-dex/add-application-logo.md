@@ -2,6 +2,7 @@
 title: Add a logo for your application
 description: Add a logo to improve the visual appeal of your application and to distinguish it from others.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/add-application-logo.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,7 +26,7 @@ You can only add a logo for an existing application.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and from the left pane, select the DEX Administration icon \(![The DEX Administration icon.](../image/icon-administration.png)\).
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and from the left pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text: The DEX Administration icon.\).
 
 2.  Select the **Manage Applications** card.
 
@@ -51,7 +52,7 @@ You can only add a logo for an existing application.
 To see the new application logo, perform the following steps.
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
-2.  From the left pane, select the Applications icon \(![The Applications icon.](../image/icon-applications.png)\).
+2.  From the left pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 3.  Open the application for which you have added the logo.
 
     The logo appears before the name of the application.

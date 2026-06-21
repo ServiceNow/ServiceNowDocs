@@ -2,6 +2,7 @@
 title: Planning for Demand Management
 description: Plan the listed items before setting up Demand Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/demand-management/r\_PlanningForDemandManagement.html
 release: xanadu
 product: Demand Management
 classification: demand-management
@@ -29,7 +30,7 @@ Roles
 
 </td><td>
 
-Determine who has the demand manager \[it\_demand\_manager\] and demand user \[it\_demand\_user\] [roles](../../project-portfolio-suite-with-financials/reference/roles-installed-with-PPS-finance.md#roles_DemandMgmt).
+Determine who has the demand manager \[it\_demand\_manager\] and demand user \[it\_demand\_user\] [roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/ppm-collaboration/roles-installed-with-PPS-finance.md).
 
 </td></tr><tr><td>
 
@@ -82,9 +83,9 @@ Enhancement and defect requests
 Determine if you need the ability to manage enhancement and defect requests as demands. This functionality requires that the Agile Development application is active.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Set up Demand Management](../concept/c_SettingUpDemandManagement.md)
+</table>**Parent Topic:**[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/c_SettingUpDemandManagement.md)
 
-**Previous topic:**[Set up Demand Management](../concept/c_SettingUpDemandManagement.md)
+**Previous topic:**[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/c_SettingUpDemandManagement.md)
 
-**Next topic:**[Populate the stakeholder registry](../task/t_PopulatingTheStakeholderRegistry.md)
+**Next topic:**[Populate the stakeholder registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/t_PopulatingTheStakeholderRegistry.md)
 

@@ -2,6 +2,7 @@
 title: Search in Microsoft Word add-in for ServiceNow Contracts
 description: As a contract configurator, search for templates and clauses in the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-search-addin.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ As a contract configurator, search for templates and clauses in the Microsoft Wo
 
 ## Before you begin
 
-Ensure you have configured the Microsoft Word add-in for ServiceNow Contracts add-in. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](cncore-config-word-addin.md).
+Ensure you have configured the Microsoft Word add-in for ServiceNow Contracts add-in. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
 
 Role required: sn\_cm\_core.contract\_config and canvas\_user
 
@@ -29,7 +30,7 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 3.  On the add-in login screen, enter the credentials of the ServiceNow instance from where you downloaded the manifest file.
 
-    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](cncore-config-word-addin.md)
+    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-config-word-addin.md)
 
 4.  On the **Templates** tab, search for templates with a specific name or state by entering search text in the **Search templates** search field.
 
@@ -37,15 +38,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 5.  Search for clauses that are either in the template or only in the clause library.
 
-<table id="choicetable_esb_crp_dzb"><thead><tr><th align="left" id="d509218e145">
+<table id="choicetable_esb_crp_dzb"><thead><tr><th align="left" id="d473115e145">
 
 Location of the clause
 
-</th><th align="left" id="d509218e148">
+</th><th align="left" id="d473115e148">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d509218e154">
+</th></tr></thead><tbody><tr><td id="d473115e154">
 
 **Part of the template**
 
@@ -57,7 +58,7 @@ Actions
 4.  In the **Search clauses** field, enter the name of the clause you want to search.
 
 
-</td></tr><tr><td id="d509218e187">
+</td></tr><tr><td id="d473115e187">
 
 **Clause library**
 
@@ -73,5 +74,5 @@ Actions
     Active clauses that match the search criteria will be displayed.
 
 
-**Parent Topic:**[Use Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Use Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

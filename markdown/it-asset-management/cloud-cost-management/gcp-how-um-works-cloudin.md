@@ -2,6 +2,7 @@
 title: Unused resources analysis for Google Cloud
 description: Cloud Cost Management uses an optimized Unused resources process for each provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/cloud-cost-management/gcp-how-um-works-cloudin.html
 release: xanadu
 product: Cloud Cost Management
 classification: cloud-cost-management

@@ -2,6 +2,7 @@
 title: NowSDKConfiguration class - Android
 description: The NowSDKConfiguration class contains configuration information needed to initialize the NowSDK.Creates a new NowSDKConfiguration object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/cllent-mobile-api-reference/NowSDKConfigurationAndroidAPI.html
 release: xanadu
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -81,7 +82,7 @@ override fun canRequestPermission(permission: DevicePermission): Boolean =
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - Android](../../concept/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowSDKConfiguration - NowSDKConfiguration\(authorizationProvider: NowSDKAuthorizationProviding, permissionDelegate: DevicePermissionDelegate, logLevel: NowLogLevel\)
 

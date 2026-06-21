@@ -2,6 +2,7 @@
 title: Archive rule and destroy rule properties
 description: Rules to prevent the archive process from consuming too many system resources have been automated. You can manually change the system behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_SetArchiveRuleProcessingBehavior.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -23,7 +24,7 @@ The archive process uses a producer and consumer model. Records are queued for a
 
 **Note:** The archive and destroy properties listed in the table are not used if the Archive Job Execution Chunks \[sys\_archive\_run\_chunk\] table is deleted.
 
-To manually control how many records the archive rule and destroy processes at one interval, you can change these default settings by [adding the following system properties](../../reference-pages/reference/r_AvailableSystemProperties.md#).
+To manually control how many records the archive rule and destroy processes at one interval, you can change these default settings by [adding the following system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md).
 
 |Name|Description|Type|Default Value|
 |----|-----------|----|-------------|
@@ -34,5 +35,5 @@ To manually control how many records the archive rule and destroy processes at o
 |glide.db.archive.max.batches|Number of chunks, which are records from the Archive Job Execution Chunks \[sys\_archive\_run\_chunk\] table, processed by a consumer before it shuts down and schedules another consumer.|Integer|10|
 |glide.db.archiving.max\_consumer\_workers|The maximum number of concurrent consumers cluster-wide.|Integer|4|
 
-**Parent Topic:**[Data Management reference](../../managing-data/reference/data-management-reference.md)
+**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/data-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Work with the Card view on the Location directory
 description: Work with Card view to reserve a space or raise a workplace service request. Filter spaces based on reservation and occupancy data. View designated neighborhoods on the space card. Switch to Map view anytime when you want to locate a workplace location on the map or to get directions to a collaborator or location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-core/wsd-card-view-loc-directory.html
 release: xanadu
 product: Workplace Core
 classification: workplace-core
@@ -37,11 +38,11 @@ Role required: admin
 
     .
 
-3.  If you are on the Map view, select the Card view icon \(![Card view icon on the Location directory to switch to Card view.](../images/wsd-card-view-icon.png)\) to switch to the Card view.
+3.  If you are on the Map view, select the Card view icon \(\[Omitted image "wsd-card-view-icon.png"\] Alt text: Card view icon on the Location directory to switch to Card view.\) to switch to the Card view.
 
     The Card view home page is displayed with a list of all campuses.
 
-    ![Card view home page showing list of campus. Select or search for a campus.](../images/wsd-card-view-new-loc-dir-homepage.png)
+    \[Omitted image "wsd-card-view-new-loc-dir-homepage.png"\] Alt text: Card view home page showing list of campus. Select or search for a campus.
 
 4.  Select a campus from the **Select campus** tab.
 
@@ -51,7 +52,7 @@ Role required: admin
 
 5.  When you select a campus, the **Select Building** tab is enabled.
 
-    ![Location directory card view showing the Select Building option.](../images/wsd-card-view-building-tab-new-loc-directory.png).
+    \[Omitted image "wsd-card-view-building-tab-new-loc-directory.png"\] Alt text: Location directory card view showing the Select Building option..
 
 6.  Select a building from the **Select Building** list option.
 
@@ -63,13 +64,13 @@ Role required: admin
 
     The All spaces page for a selected building is displayed. All spaces in a building are displayed as individual cards.
 
-    **Note:** Space card doesn't show the Show on map option when there’s no map available for a building. The toggle button icon \(![Toggle button to switch to the Map view.](../../wsd-for-mobile/images/wsd-map-card-view-toggle-button.png)\) to switch to Map view is also grayed out on the Card view.
+    **Note:** Space card doesn't show the Show on map option when there’s no map available for a building. The toggle button icon \(\[Omitted image "wsd-map-card-view-toggle-button.png"\] Alt text: Toggle button to switch to the Map view.\) to switch to Map view is also grayed out on the Card view.
 
-    ![All Spaces showing spaces in a selected building with option to reserve a space or raise an workplace service](../images/wsd-card-view-spaces-new-loc-dir.png)
+    \[Omitted image "wsd-card-view-spaces-new-loc-dir.png"\] Alt text: All Spaces showing spaces in a selected building with option to reserve a space or raise an workplace service
 
     Labels or tags available on a space card show Reservation and Occupancy status, number of seats available in that space, and designated neighborhoods. The space card also provides the following information:
 
-    -   Option to mark a space as favorite \( ![Favorite icon to mark a space as favorite.](../../wsd-reservation-management/image/favorite-icon.png)\)
+    -   Option to mark a space as favorite \( \[Omitted image "favorite-icon.png"\] Alt text: Favorite icon to mark a space as favorite.\)
     -   Space name
     -   The employee avatar or workplace profile initials are displayed as image on the space card details.
     -   Occupancy status
@@ -79,9 +80,9 @@ Role required: admin
     -   Space Capacity
     -   Standard workplace services
     -   Neighborhood
-8.  On the space card, select the More actions icon \(![More actions icon to select copy URL and raise an issue options.](../../wsd-for-mobile/images/wsd-more-options-icon-loc-directory.png)\).
+8.  On the space card, select the More actions icon \(\[Omitted image "wsd-more-options-icon-loc-directory.png"\] Alt text: More actions icon to select copy URL and raise an issue options.\).
 
-    ![Card view showing the Copy URL and Raise an Issue options for a space.](../images/wsd-card-view-new-copy-url-loc-directory.png)
+    \[Omitted image "wsd-card-view-new-copy-url-loc-directory.png"\] Alt text: Card view showing the Copy URL and Raise an Issue options for a space.
 
     Select the following options as required:
 
@@ -91,11 +92,11 @@ Role required: admin
 
     The selected space opens in a browser tab. The space card details page shows options to select reservation **Start date and time** and **End date and time**. The selected space is also shown on the map \(if floor map is available\). Complete the reservation process on the Reservation details page.
 
-    ![Space Card details showing option to reserve a space.](../images/wsd-reserve-spac-card-view-loc-dir.png)
+    \[Omitted image "wsd-reserve-spac-card-view-loc-dir.png"\] Alt text: Space Card details showing option to reserve a space.
 
 10. Navigate back to the All spaces page on the Card view and select **Show on map**.
 
-    The space card details panel opens on the map and shows option to raise a request or reserve a space, and get directions to a location for wayfinding. For more information, see [Work with the Map view on the Location Directory](wsd-map-view-loc-directiory.md).
+    The space card details panel opens on the map and shows option to raise a request or reserve a space, and get directions to a location for wayfinding. For more information, see [Work with the Map view on the Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/wsd-map-view-loc-directiory.md).
 
 11. Select **Raise an issue** to request a workplace service or raise a workplace service issue.
 
@@ -105,7 +106,7 @@ Role required: admin
 
     **Note:** The **Show filters** button is displayed on the map when **Show Reservation and/or Occupancy information on the Location directory** \[sn\_wsd\_space\_map.show\_rsv\_occ\_data\_loc\_dir\] map property is set to **Yes** by your administrator. Filters can be applied at a floor or space level. When this property is set to **No**, only space type filters are available for you to select.
 
-    ![Card view showing the filter options for space availability based on reservation status, occupancy status, and space types.](../images/wsd-card-view-show-filters-new-loc-dir.png).
+    \[Omitted image "wsd-card-view-show-filters-new-loc-dir.png"\] Alt text: Card view showing the filter options for space availability based on reservation status, occupancy status, and space types..
 
     Select and filter any of the following options as required:
 
@@ -121,7 +122,7 @@ Role required: admin
         -   Currently booked
     1.  Select the **Occupancy status** check box to view the occupancy status for a selected space or a location on the map.
 
-        **Note:** Occupancy states are only shown on the map if Workplace Connectors is configured for a selected location. Your administrator must also configure the map property **Show Reservation and/or Occupancy information on Location directory \[sn\_wsd\_space\_map.show\_rsv\_occ\_data\_loc\_dir\]**. For more information, see [Configure map properties for Location Directory](configure-map-properties-location-directory.md).
+        **Note:** Occupancy states are only shown on the map if Workplace Connectors is configured for a selected location. Your administrator must also configure the map property **Show Reservation and/or Occupancy information on Location directory \[sn\_wsd\_space\_map.show\_rsv\_occ\_data\_loc\_dir\]**. For more information, see [Configure map properties for Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/configure-map-properties-location-directory.md).
 
     2.  Select the following options as required:
 
@@ -154,14 +155,14 @@ Role required: admin
 
     The selected filters are applied and the **Filter by label** shows filtered items as pills. For example: Booked, Available, and so on. Select **Clear All** to remove the filters.
 
-14. To switch to Map view, select the toggle button \(![Toggle button icon to switch to Map view from card view.](../../wsd-for-mobile/images/wsd-map-card-view-toggle-button.png)\).
+14. To switch to Map view, select the toggle button \(\[Omitted image "wsd-map-card-view-toggle-button.png"\] Alt text: Toggle button icon to switch to Map view from card view.\).
 
-    For more information, see [Work with the Map view on the Location Directory](wsd-map-view-loc-directiory.md).
+    For more information, see [Work with the Map view on the Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/wsd-map-view-loc-directiory.md).
 
 
-**Parent Topic:**[Manage workplace activities and services with Location directory](../concept/location-directory.md)
+**Parent Topic:**[Manage workplace activities and services with Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 
-**Previous topic:**[Work with the Map view on the Location Directory](wsd-map-view-loc-directiory.md)
+**Previous topic:**[Work with the Map view on the Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/wsd-map-view-loc-directiory.md)
 
-**Next topic:**[Publish Now Assist in Virtual Agent topics for Workplace Service Delivery](publish-now-assist-va-topics.md)
+**Next topic:**[Publish Now Assist in Virtual Agent topics for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/publish-now-assist-va-topics.md)
 

@@ -2,6 +2,7 @@
 title: Scheduling in Workforce Optimization for HR
 description: Use Scheduling to manage your workforce resources efficiently by planning and managing schedules, staffing, and shifts across your teams all from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -25,5 +26,5 @@ With Scheduling, you can do the following:
 -   Analyze whether your team members are following the schedules. If you see a potential issue, you can easily alert your team so that they can take immediate action.
 -   Use historical adherence reports to analyze and recommend coaching opportunities for your agents.
 
-To delve into more information behind your key performance indicators, filters and sidebars, see [Exploring indicators with KPI Details](https://www.servicenow.com/docs/access?context=kpi-details-components&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+To delve into more information behind your key performance indicators, filters and sidebars, see Exploring indicators with KPI Details
 

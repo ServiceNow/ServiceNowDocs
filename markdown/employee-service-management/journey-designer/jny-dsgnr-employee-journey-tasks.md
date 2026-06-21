@@ -2,6 +2,7 @@
 title: Employees view and complete journeys
 description: Employees have access to the journeys that are assigned to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-designer/jny-dsgnr-employee-journey-tasks.html
 release: xanadu
 product: Journey Designer
 classification: journey-designer
@@ -49,5 +50,5 @@ Any employee assigned to a journey can view the journey to complete tasks that a
     |Overdue|Manager|No|Yes|No|Yes|This journey is overdue because some tasks haven't been completed. You may not be able to see them because they are assigned to other people.|
 
 
-**Parent Topic:**[Journey view for an employee](view-journey-overview.md)
+**Parent Topic:**[Journey view for an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/view-journey-overview.md)
 

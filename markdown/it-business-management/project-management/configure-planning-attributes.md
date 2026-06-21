@@ -2,6 +2,7 @@
 title: Create or edit planning attributes
 description: Create or edit planning attributes to plan and forecast your resources and financials for a project.Use the Planning attribute form fields to modify a planning attribute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/configure-planning-attributes.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -25,15 +26,15 @@ Role required: pps\_admin, sn\_align\_core.apw\_admin
 
 2.  Use the following options to create or edit a planning attribute.
 
-<table id="choicetable_bwd_pjg_cxb"><thead><tr><th align="left" id="d38151e76">
+<table id="choicetable_bwd_pjg_cxb"><thead><tr><th align="left" id="d41493e76">
 
 Option
 
-</th><th align="left" id="d38151e79">
+</th><th align="left" id="d41493e79">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38151e85">
+</th></tr></thead><tbody><tr><td id="d41493e85">
 
 **To create an attribute**
 
@@ -42,7 +43,7 @@ Description
 1.  Select **New**.
 2.  On the Planning attribute form, fill the fields.
 
-For a description of the field values, see [Planning attribute form](configure-planning-attributes.md#).
+For a description of the field values, see [Planning attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/configure-planning-attributes.md).
 
 3.  Select **Submit**.
 
@@ -53,7 +54,7 @@ The attribute is created and the planning attributes screen is displayed.
 6.  Set the planning attribute to active using the **Active** option to enable it for resource or financial planning.
 
 
-</td></tr><tr><td id="d38151e136">
+</td></tr><tr><td id="d41493e136">
 
 **To update an attribute**
 

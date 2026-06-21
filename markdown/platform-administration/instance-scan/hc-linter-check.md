@@ -2,6 +2,7 @@
 title: Create a linter check
 description: Create a linter check to identify any issues in a script. When a linter check is run on a record, an abstract syntax tree for its code is generated. You can use the abstract syntax tree to analyze issues with the code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hc-linter-check.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan
@@ -20,7 +21,7 @@ Create a linter check to identify any issues in a script. When a linter check is
 Role required: scan\_admin.
 
 ```
-Before performing this task you must complete [Create a check](hs-create-health-check.md).
+Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/instance-scan/hs-create-health-check.md).
 ```
 
 ## Procedure

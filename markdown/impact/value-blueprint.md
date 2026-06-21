@@ -2,7 +2,10 @@
 title: Objectives and outcomes
 description: The value journey lifecycle starts with the creation of the value blueprint, which captures your business objectives, which are high-level goals tied to measurable outcomes that help illustrate value over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/value-blueprint.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Your value blueprint is the basis for creating a personalized Customer Impact pl
 
 The intent is to set a yearly improvement target against these outcomes to be able to capture the incremental improvements and value realized during the upcoming year. Your squad will help you understand where you are and what you can do to meet your objectives.
 
-![Shows the Objectives and outcomes page with Business objectives tiled displayed.](../image/objectives-outcomes.png)
+\[Omitted image "objectives-outcomes.png"\] Alt text: Shows the Objectives and outcomes page with Business objectives tiled displayed.
 
 -   Decide which business objectives you want to focus on and track your progress.
 -   See which trainings, Accelerators, content, and advisory will best support your vision.
@@ -29,5 +32,5 @@ The intent is to set a yearly improvement target against these outcomes to be ab
 
 Select **Manage value blueprint** to customize the products to manage or set up that will display on your value blueprint.
 
-![Manage value blueprint](../image/value-blueprint-manage.png)
+\[Omitted image "value-blueprint-manage.png"\] Alt text: Manage value blueprint
 

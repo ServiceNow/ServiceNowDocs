@@ -2,6 +2,7 @@
 title: Configure your Alexa account
 description: Configure your Alexa account to link it with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-alexa-console.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

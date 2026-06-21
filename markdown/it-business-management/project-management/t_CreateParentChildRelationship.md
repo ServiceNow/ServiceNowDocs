@@ -2,6 +2,7 @@
 title: Create a parent-child relationship on the Project Task form
 description: You can create a child task from any project task form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_CreateParentChildRelationship.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -34,7 +35,7 @@ Role required: it\_project\_manager
 
 To help remember what the parent of any task is, view the breadcrumb at the top of the Project Task form. It is also helpful to configure the form layout to include the **Parent** field. You can also change the parent task from this field.
 
-![Parent task](../image/Parent.png "Parent task")
+\[Omitted image "Parent.png"\] Alt text: Parent task
 
-**Parent Topic:**[Parent-child task relationships](../concept/c_Parent-ChildTaskRelationships.md)
+**Parent Topic:**[Parent-child task relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_Parent-ChildTaskRelationships.md)
 

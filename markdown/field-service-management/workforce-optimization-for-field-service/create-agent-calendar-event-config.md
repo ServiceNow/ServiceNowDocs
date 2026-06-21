@@ -2,6 +2,7 @@
 title: Create an event configuration for an agent calendar
 description: Create configurations for each type of entry displayed on the agent calendar. Entries could include case tasks, work order tasks, appointments, or schedule entries such as event types that you could track and manage on the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/workforce-optimization-for-field-service/create-agent-calendar-event-config.html
 release: xanadu
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -36,15 +37,15 @@ Role required: agent\_schedule\_admin
 
 1.  Navigate to **Agent Schedule** &gt; **Event Configuration** and perform one of the following actions.
 
-<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d127796e123">
+<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d37993e123">
 
 Option
 
-</th><th align="left" id="d127796e126">
+</th><th align="left" id="d37993e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d127796e132">
+</th></tr></thead><tbody><tr><td id="d37993e132">
 
 **Create a configuration from an existing event configuration**
 
@@ -55,7 +56,7 @@ Description
 
 A copy of the selected event type configuration is created.
 
-</td></tr><tr><td id="d127796e155">
+</td></tr><tr><td id="d37993e155">
 
 **Create a new event configuration**
 

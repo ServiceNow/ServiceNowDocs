@@ -2,6 +2,7 @@
 title: Agent Client Collector for Kubernetes – Visibility advanced configuration
 description: This section refers to advanced configuration options for the Agent Client Collector for Kubernetes – Visibility component running in a Kubernetes cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-adv-configuration.html
 release: xanadu
 product: Discovery
 classification: discovery

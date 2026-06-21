@@ -2,6 +2,7 @@
 title: Install SRM from Admin Center or ServiceNow Store
 description: Install the SRM application from the Admin Center or ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-install-sr-store-app.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -43,18 +44,18 @@ Roles and demo data are installed with SRM. The demo data includes templates tha
 
     **Note:** If any dependencies are showing up in red on the app store listing, select the row to open the dependent app and install it. If you already have the dependent app and it is still showing up in red, you can get or reopt it as needed.
 
-    ![To install the Service Reliability Management application, first confirm that all dependencies are resolved.](../image/sr-install-store.png)
+    \[Omitted image "sr-install-store.png"\] Alt text: To install the Service Reliability Management application, first confirm that all dependencies are resolved.
 
-    The example shows us that we have two unresolved dependencies. Before installing the app, we must first resolve this by selecting the two dependencies.![Select the unresolved dependencies to resolve them before installing the application from the ServiceNow store.](../image/sr-install-store2.png)
+    The example shows us that we have two unresolved dependencies. Before installing the app, we must first resolve this by selecting the two dependencies.\[Omitted image "sr-install-store2.png"\] Alt text: Select the unresolved dependencies to resolve them before installing the application from the ServiceNow store.
 
     Demo data comprises the sample records that describe application features for the common use cases. Demo data is loaded when you first install the application on a development or test instance.
 
     Following installation, the **Service Operations Management** card can be used to configure SRM.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Previous topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Next topic:**[Assign an administrator to Service Reliability Management](sr-assign-admins.md)
+**Next topic:**[Assign an administrator to Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-assign-admins.md)
 

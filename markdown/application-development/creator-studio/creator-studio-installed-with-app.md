@@ -2,6 +2,7 @@
 title: Artifacts that Creator Studio generates when users create an app
 description: When a user creates an app in Creator Studio, the ServiceNow AI Platform creates several metadata artifacts, such as tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-installed-with-app.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -87,5 +88,5 @@ Dashboard name: \[App Name\] + RequestsContents:
 -   A simple list showing all open requests
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administering Creator Studio](../concept/administering-creator-studio.md)
+</table>**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/administering-creator-studio.md)
 

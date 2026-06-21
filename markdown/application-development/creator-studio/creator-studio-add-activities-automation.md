@@ -2,6 +2,7 @@
 title: Add activities to an app's playbook in Creator Studio
 description: Add activities to an app's playbook to specify what the automation does to the designated record type. An activity defines what actually happens when a playbook executes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-add-activities-automation.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -17,7 +18,7 @@ Add activities to an app's playbook to specify what the automation does to the d
 
 ## Before you begin
 
-To add [activities](../concept/creator-studio-glossary.md#) to a playbook, you must be given permission to work on the app.
+To add [activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) to a playbook, you must be given permission to work on the app.
 
 ## About this task
 
@@ -37,11 +38,11 @@ The activities that you can add to a playbook are limited by your administrator 
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
@@ -49,9 +50,9 @@ The activities that you can add to a playbook are limited by your administrator 
 
 5.  Check that you're editing the correct playbook in your app by selecting it from the **Automations** tab.
 
-    ![Automations tab in Creator Studio](../image/cs-automations-tab.png)
+    \[Omitted image "cs-automations-tab.png"\] Alt text: Automations tab in Creator Studio
 
-6.  Select the add icon ![](../image/cs-add-icon.png) on the connector where you want to add an activity and choose the square **Add an activity** icon \(![](../image/cs-add-activity-icon.png)\) in the menu that pops up.
+6.  Select the add icon \[Omitted image "cs-add-icon.png"\] Alt text: on the connector where you want to add an activity and choose the square **Add an activity** icon \(\[Omitted image "cs-add-activity-icon.png"\] Alt text:\) in the menu that pops up.
 
 <table id="table_isj_z54_ccc"><thead><tr><th>
 
@@ -68,7 +69,7 @@ Diagram
 </td><td>
 
 1.  Select the **+** icon in the stage.
-2.  In the mini-picker, select the square icon \(![](../image/cs-add-activity-icon.png)\) to add an activity.
+2.  In the mini-picker, select the square icon \(\[Omitted image "cs-add-activity-icon.png"\] Alt text:\) to add an activity.
 
 
 </td></tr><tr><td>
@@ -133,7 +134,7 @@ Placeholder
 Set an undefined activity to be specified later, or a more advanced activity such as an email notification, when an activity is completed.Placeholder activities don't have any logic assigned to them yet, and must be edited in Workflow Studio. Or, you can swap them out later for another type of activity in Creator Studio.
 
 </td></tr></tbody>
-</table>    ![Select which type of activity to add](../image/cs-add-activity-email.png "Activity library for a playbook")
+</table>    \[Omitted image "cs-add-activity-email.png"\] Alt text: Select which type of activity to add
 
     Your new activity and its Activity properties panel appear, where you define what the activity is.
 
@@ -144,7 +145,7 @@ Set an undefined activity to be specified later, or a more advanced activity suc
     |Name|Unique, user-facing name for your activity, which appears to agents and fulfillers while the playbook is running.|
     |Description|Optional details about what the activity accomplishes.|
 
-    ![Activity details panel](../image/cs-assign-to-properties.png "Activity details panel")
+    \[Omitted image "cs-assign-to-properties.png"\] Alt text: Activity details panel
 
 9.  If needed, specify the approver or assignee in the **Select an approver** or **Select an assignee** fields.
 
@@ -180,7 +181,7 @@ Set an undefined activity to be specified later, or a more advanced activity suc
             Select the **Requester** option for the **To** or **Cc** fields to include the person who made the request in the email's recipients.
 
         -   Enter the email's subject in the **Subject** field.
-        -   Enter the body of the email in the textbox. Select the additional toolbar buttons icon \(![](../image/cs-more-actions-icon.png)\) to display more formatting options. For example, you can add images, tables, and links to the email.
+        -   Enter the body of the email in the textbox. Select the additional toolbar buttons icon \(\[Omitted image "cs-more-actions-icon.png"\]\) to display more formatting options. For example, you can add images, tables, and links to the email.
 11. Select at what point the activity should start running in the **When to start** field of the Conditions section.
 
     The options are:
@@ -192,14 +193,14 @@ Set an undefined activity to be specified later, or a more advanced activity suc
 
 12. Define any extra conditions that must be met for the activity to happen by selecting **+ Add conditions**.
 
-    Use the condition builder that appears to specify any other things that must happen for the activity to run. For more information, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+    Use the condition builder that appears to specify any other things that must happen for the activity to run. For more information, see .
 
 13. Select the **Save and close** button to finish setting up your activity.
 
 
 ## What to do next
 
-Continue adding activities and decisions, as well as connectors and parallel processes if needed, to finish creating your playbook. For more information on decisions, see [Add a decision to an app's playbook in Creator Studio](creator-studio-add-decision-automation.md).
+Continue adding activities and decisions, as well as connectors and parallel processes if needed, to finish creating your playbook. For more information on decisions, see [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-add-decision-automation.md).
 
-**Parent Topic:**[Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-working-with-automations.md)
 

@@ -2,13 +2,14 @@
 title: Create Inbound Data Exclusion Rules
 description: Create inbound data exclusion rules in order to filter any type of data or any kind of incoming source records data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/define-filtering-rules.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
-breadcrumb: [About Rules Engine in TISC, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Create Inbound Data Exclusion Rules

@@ -2,6 +2,7 @@
 title: View SSO groups in workspace
 description: View details related to all SSO groups that have access to a SSO application in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/view-ssogroups-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

@@ -2,6 +2,7 @@
 title: Limitations in Dynamic Translation
 description: You must be aware of a few limitations when you integrate with a translation service provider to enable the Dynamic Translation experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/dynamic-translation/limitations-dynamic-translation.html
 release: xanadu
 product: Dynamic Translation
 classification: dynamic-translation

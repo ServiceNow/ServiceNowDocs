@@ -2,7 +2,10 @@
 title: Verify Application Restricted Caller Access \(RCA\) Privileges
 description: Verify that there are no duplicate entries in the Restricted Caller Access \(RCA\) records before uploading an RCA data set to fix the configuration issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/verify-rca-privileges-hr.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-02-01"
 reading_time_minutes: 1
@@ -30,5 +33,5 @@ Role required: admin
 5.  Delete all the entries under **ServiceNow for Microsoft Teams**, and **Collaboration Services** source scopes.
 
 
-**Parent Topic:**[Install HR Service Delivery integration with Microsoft Teams application](install-hr-ms-teams-plugin.md)
+**Parent Topic:**[Install HR Service Delivery integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/install-hr-ms-teams-plugin.md)
 

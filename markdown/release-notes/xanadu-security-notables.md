@@ -2,6 +2,7 @@
 title: Xanadu security and notable fixes
 description: The Xanadu release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-security-notables.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -4348,7 +4349,7 @@ The buttons, **Close Tab**, **Close Other Tabs**, and **Close All Tabs** don't d
 </td></tr></tbody>
 </table>## All Other Fixes
 
-To view a list of all other PRBs fixed in Xanadu, refer to [All other Xanadu fixes](xanadu-all-other-fixes.md).
+To view a list of all other PRBs fixed in Xanadu, refer to [All other Xanadu fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-all-other-fixes.md).
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/available-versions.md)
 

@@ -2,6 +2,7 @@
 title: Scorecards API
 description: The Scorecards API provides endpoints that enable you to query data about Performance Analytics indicators. The query parameters equate to the functions available on the Analytics Hub for drilling down into an indicator.Retrieves details about indicators from the Analytics Hub .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/c\_PerformanceAnalyticsAPI.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -15,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Scorecards API provides endpoints that enable you to query data about Performance Analytics indicators. The query parameters equate to the functions available on the Analytics Hub for drilling down into an indicator.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Scorecards - GET /now/pa/scorecards
 
@@ -417,7 +418,7 @@ sysparm\_tags
 
 </td><td id="entry_c3k_rv3_pw">
 
-Indicator group sys\_id in which to return the indicators of that group. Do not use **sysparm\_uuid** with this parameter.You cannot obtain the sys\_id of an indicator group through this API. Instead, get the sys\_id from the indicator group record. For more information about obtaining sys\_ids from records, see [Unique record identifier \(sys\_id\)](https://servicenow.com/docs?context=platform_unique-record-id&version=sandiego).
+Indicator group sys\_id in which to return the indicators of that group. Do not use **sysparm\_uuid** with this parameter.You cannot obtain the sys\_id of an indicator group through this API. Instead, get the sys\_id from the indicator group record. For more information about obtaining sys\_ids from records, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs?context=platform_unique-record-id&version=sandiego).
 
  Data type: String
 
@@ -469,7 +470,7 @@ Colon-separated list of sys\_id values to specify which indicators, breakdowns, 
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -494,7 +495,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

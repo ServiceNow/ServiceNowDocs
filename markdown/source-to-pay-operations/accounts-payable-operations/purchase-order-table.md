@@ -2,6 +2,7 @@
 title: Purchase order
 description: A purchase order is a binding contract between a buyer and a supplier that authorizes a purchasing transaction. It contains the descriptions, quantities, prices, applicable discounts, payment terms, delivery dates, and other associated terms and conditions with the supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/purchase-order-table.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -37,5 +38,5 @@ An Account Payable Specialist fills the key fields in the purchase order for inv
 |Legal entity|Reference|Internal legal entity making this purchase|
 |Payment term|Reference|The agreed time and conditions of payment to the supplier.|
 
-**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+**Parent Topic:**[Master data table for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

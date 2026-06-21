@@ -2,6 +2,7 @@
 title: Enable playbooks for analyst selection
 description: Add new playbooks to the playbook selection list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/sir-new-ui-add-playbook.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -15,9 +16,9 @@ breadcrumb: [Additional Security Analyst Workspace configuration, Configure the 
 
 Add new playbooks to the playbook selection list.
 
-You can select an appropriate playbook to investigate security incidents in the Security Analyst Workspace \([Manage security threats using the Security Analyst Workspace](sir-new-ui.md)\). The playbook selection option supports only the playbooks which are designed using Flow Designer.
+You can select an appropriate playbook to investigate security incidents in the Security Analyst Workspace \([Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/sir-new-ui.md)\). The playbook selection option supports only the playbooks which are designed using Flow Designer.
 
-![Security Incident New UI: Select playbook](../image/add-task-button-callout-1.png)
+\[Omitted image "add-task-button-callout-1.png"\] Alt text: Security Incident New UI: Select playbook
 
 After you have created a playbook using Flow Designer, follow these steps to include it in the Selected Playbook choice list:
 

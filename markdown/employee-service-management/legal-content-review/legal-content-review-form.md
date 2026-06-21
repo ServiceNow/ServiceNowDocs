@@ -2,6 +2,7 @@
 title: Legal Content Review form
 description: List of fields in the Legal Content Review request in the Legal Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-content-review/legal-content-review-form.html
 release: xanadu
 product: Legal Content Review
 classification: legal-content-review
@@ -25,5 +26,5 @@ List of fields in the Legal Content Review request in the Legal Service Portal.
 |Requested approval date|Approval date for the Legal Content Review request.|
 |Add attachments|Attachments to add to the request.|
 
-**Parent Topic:**[Legal Content Review reference](legal-cr-reference.md)
+**Parent Topic:**[Legal Content Review reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-content-review/legal-cr-reference.md)
 

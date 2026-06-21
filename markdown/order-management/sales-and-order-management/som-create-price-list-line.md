@@ -2,6 +2,7 @@
 title: Create a price list line
 description: Create a price list line and associate it to a product offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-create-price-list-line.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Price Lists** and select the price list to which you're adding the price list line.
 
@@ -83,7 +84,7 @@ Start Date
 
 </td><td>
 
-Starting date and time that the price list line is effective. Select the Calendar icon \(![](../../tmt-telecom-network-inventory/image/calendar-icon.png)\) to choose the start date and time, then select **OK**.
+Starting date and time that the price list line is effective. Select the Calendar icon \(\[Omitted image "calendar-icon.png"\] Alt text:\) to choose the start date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ End Date
 
 </td><td>
 
-Ending date and time that the price list line is no longer effective. After this time, the price list line is no longer active. Select the Calendar icon \(![](../../tmt-telecom-network-inventory/image/calendar-icon.png)\) to choose the end date and time, then select **OK**.
+Ending date and time that the price list line is no longer effective. After this time, the price list line is no longer active. Select the Calendar icon \(\[Omitted image "calendar-icon.png"\] Alt text:\) to choose the end date and time, then select **OK**.
 
 </td></tr><tr><td>
 

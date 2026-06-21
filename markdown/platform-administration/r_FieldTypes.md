@@ -2,6 +2,7 @@
 title: Field types
 description: These field types are available to administrators when creating fields or changing the type of existing fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_FieldTypes.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-01-30"
@@ -379,7 +380,7 @@ Yes
 
 </td><td id="entry_CurrencyField">
 
-Decimal field with four digits after the decimal point.When displayed on a form, a **Currency** field also includes an additional list of choices for selecting the currency type. If there isn't a default value for the field, then empty **Currency** fields use the reference currency. Adding a value causes the field to use the session currency of the active user. See [Change default currency decimal places](../../currency/task/change-currency-fraction-digits.md) for how to use two fraction digits.
+Decimal field with four digits after the decimal point.When displayed on a form, a **Currency** field also includes an additional list of choices for selecting the currency type. If there isn't a default value for the field, then empty **Currency** fields use the reference currency. Adding a value causes the field to use the session currency of the active user. See [Change default currency decimal places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/currency-administration/change-currency-fraction-digits.md) for how to use two fraction digits.
 
 **Note:** After you assign this field type to a field, you can’t change it to the **FX Currency** field type.
 
@@ -1186,7 +1187,7 @@ Yes
 
 </td><td>
 
-Variable character field that stores IPv4 and IPv6 addresses. See [IP address field type](r-IPAddressFieldType.md) for more information.
+Variable character field that stores IPv4 and IPv6 addresses. See [IP address field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r-IPAddressFieldType.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1474,7 +1475,7 @@ No
 
 </td><td id="NameValue">
 
-Name-value pairs field that maps text values. Each mapping is one-to-one, but a single **Name-Value Pairs** field can contain multiple mappings. Each mapping must use a unique name, and the name can’t be empty.For example, you can use a **Name-Value Pairs** field to hold header information for a web service request. In this example, the name of each mapping is the header such as `Content-Type` and the value is the header value, such as `Application/json`. For information on scripting **Name-Value Pairs** fields, see [Name-value pairs field type](../../field-administration/reference/name-value-pair-scripting.md).
+Name-value pairs field that maps text values. Each mapping is one-to-one, but a single **Name-Value Pairs** field can contain multiple mappings. Each mapping must use a unique name, and the name can’t be empty.For example, you can use a **Name-Value Pairs** field to hold header information for a web service request. In this example, the name of each mapping is the header such as `Content-Type` and the value is the header value, such as `Application/json`. For information on scripting **Name-Value Pairs** fields, see [Name-value pairs field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/name-value-pair-scripting.md).
 
 </td></tr><tr><td>
 
@@ -1554,7 +1555,7 @@ Yes
 
 </td><td id="Password2">
 
-Text field that stores passwords with two-way encryption. Two-way encryption stores the password as a secure encrypted value that can be decrypted programmatically within the instance. You can use Password 2 encryption with form variables. To encrypt text fields on forms, see [Password2 encryption with KMF](https://www.servicenow.com/docs/access?context=password-2way-encrypted-fields&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US). The length for password2 field values must be at least 255 characters.
+Text field that stores passwords with two-way encryption. Two-way encryption stores the password as a secure encrypted value that can be decrypted programmatically within the instance. You can use Password 2 encryption with form variables. To encrypt text fields on forms, see Password2 encryption with KMF. The length for password2 field values must be at least 255 characters.
 
 </td></tr><tr><td>
 
@@ -1634,7 +1635,7 @@ Yes
 
 </td><td id="entry_PriceField">
 
-Currency field that enables control over conversions and display. See [Price fields](../../currency/concept/price-fields.md) for more information.
+Currency field that enables control over conversions and display. See [Price fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/currency-administration/price-fields.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2567,44 +2568,44 @@ Yes
  
 
 </td></tr></tbody>
-</table>-   **[Choice list field type](../../field-administration/concept/c_ChoiceLists.md)**  
+</table>-   **[Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ChoiceLists.md)**  
 A choice list is a type of field that lets the user select from a pre-defined set of choices.
--   **[Condition field types](../../field-administration/concept/condition-field-types.md)**  
+-   **[Condition field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/condition-field-types.md)**  
 A condition field specifies when to run business logic such as a business rule or workflow.
--   **[Database field type](r_DatabaseFieldTypes.md)**  
+-   **[Database field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_DatabaseFieldTypes.md)**  
 Several field types are available in the system.
--   **[Dictionary entry data types](../../data-dictionary-tables/reference/r_ValidDataTypeChanges.md)**  
+-   **[Dictionary entry data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_ValidDataTypeChanges.md)**  
 You can only change a dictionary entry's data type when the change does not result in data loss. Use the following guidelines to change a dictionary entry's data type.
--   **[Document ID field](../../field-administration/task/t_CreatingADocumentIDField.md)**  
+-   **[Document ID field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreatingADocumentIDField.md)**  
 You can create document ID fields to reference any record on any table.
--   **[Dynamic attribute store field type](../../field-administration/concept/dynamic-attribute-store-field-type.md)**  
+-   **[Dynamic attribute store field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-attribute-store-field-type.md)**  
 The dynamic attribute store field type stores one or more dynamic attributes and their values.
--   **[Function field](../../../build/platform-functions/concept/platform-support-functions.md#)**  
+-   **[Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-support-functions.md)**  
 Create function fields and scripts in the ServiceNow AI Platform to perform common database transformations and calculations.
--   **[Geo point field type](../../field-administration/concept/geo-point-field-type.md)**  
+-   **[Geo point field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/geo-point-field-type.md)**  
 The geo point data type stores longitude and latitude coordinates.
--   **[HTML field editors](../../../use/using-forms/concept/c_UseHTMLFields.md)**  
+-   **[HTML field editors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UseHTMLFields.md)**  
 An HTML field enables you to insert HTML content directly, which is useful for rich text or custom HTML content within forms. An HTML editor provides simple functionality and HTML source mode editing.
--   **[Configure a field editor for the HTML field](../../form-administration/task/t_ConfigTinyMCEHTMLFieldEditor.md)**  
+-   **[Configure a field editor for the HTML field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfigTinyMCEHTMLFieldEditor.md)**  
 Configure HTML fields to use TinyMCE or the legacy htmlArea editor. The TinyMCE editor provides better stability and more editing functions than the legacy htmlArea editor.
--   **[Image field type](../../field-administration/task/t_UsingImageFields.md)**  
+-   **[Image field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_UsingImageFields.md)**  
 Image fields enable you to add images to forms.
--   **[IP address field type](r-IPAddressFieldType.md)**  
+-   **[IP address field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r-IPAddressFieldType.md)**  
 The **IP Address \(Validated IPV4, IPV6\)** \[ip\_addr\] field type stores valid IPv4 and IPv6 addresses.
--   **[Journal field type](../../field-administration/concept/c_JournalFields.md)**  
+-   **[Journal field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_JournalFields.md)**  
 There are three types of journal field: journal, journal\_list, and journal\_input.
--   **[Name-value pairs field type](../../field-administration/reference/name-value-pair-scripting.md)**  
+-   **[Name-value pairs field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/name-value-pair-scripting.md)**  
 You can access the values stored in a name-value pairs field in scripts using the name.
--   **[Percent complete field type](../../field-administration/concept/c_CreatingAPercentCompleteField.md)**  
+-   **[Percent complete field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_CreatingAPercentCompleteField.md)**  
 Administrators can create percent complete fields, which accept decimal input and appear as progress bars when displayed in lists.
--   **[Phone number field type](../../field-administration/concept/c_UsePhoneNumberFields.md)**  
+-   **[Phone number field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UsePhoneNumberFields.md)**  
 The E.164 phone number standard ensures that all necessary information for a phone number is included and properly formatted to successfully route an international call over a territory's public telephone network.
--   **[Reference field type](../../field-administration/concept/c_ReferenceField.md)**  
+-   **[Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ReferenceField.md)**  
 A reference field stores a reference to a field on another table. For example, the **Caller** field on the Incident table is a reference to the User \[sys\_user\] table.
--   **[Suggestion field type](../../field-administration/task/t_AddingASuggestionField.md)**  
+-   **[Suggestion field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_AddingASuggestionField.md)**  
 To help users find what they are looking for, you can add a suggestion field to any form.
--   **[Wiki field type](../../field-administration/concept/c_WikiFields.md)**  
+-   **[Wiki field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WikiFields.md)**  
 Wikitext fields use the basic wiki markup language and support links to external URLs and to sources within the system.
 
-**Parent Topic:**[Field administration](../concept/c_IntroductionToFields.md)
+**Parent Topic:**[Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntroductionToFields.md)
 

@@ -2,6 +2,7 @@
 title: Remove document access of users in a legal matter
 description: Remove existing users' access to documents attached to a legal matter's artifact when they are no longer required to view those documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-matter-management/remove-doc-access-legal-matter.html
 release: xanadu
 product: Legal Matter Management
 classification: legal-matter-management
@@ -23,7 +24,7 @@ Role required: sn\_lg\_matter.matter\_admin
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **Matters**, click **All**.
 

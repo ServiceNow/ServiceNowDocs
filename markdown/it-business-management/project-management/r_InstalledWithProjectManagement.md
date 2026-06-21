@@ -2,6 +2,7 @@
 title: Properties installed with Project Management
 description: There are several Project properties that you can configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/r\_InstalledWithProjectManagement.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -189,5 +190,5 @@ Synchronize the planned and original dates when creating or updating a project o
 If set to true, this property synchronizes the planned and original dates.Default value: true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Management](../concept/c_ProjectApplicationOverview.md)
+</table>**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

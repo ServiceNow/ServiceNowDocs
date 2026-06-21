@@ -2,6 +2,7 @@
 title: Rightsizing analysis for Google Cloud
 description: Cloud Cost Management uses an optimized Rightsizing process for each provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/cloud-cost-management/gcp-how-rs-works-cloudin.html
 release: xanadu
 product: Cloud Cost Management
 classification: cloud-cost-management

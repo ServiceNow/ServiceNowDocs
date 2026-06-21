@@ -2,7 +2,10 @@
 title: Schedule optimization properties
 description: You can set parameters that control how optimization runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/schedule-optimization-properties.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -41,7 +44,7 @@ Qualifier type for schedule optimization
 
 </td><td>
 
-The qualifier type for schedule optimization determines the criteria used to optimize schedules. There are two qualifier types available: "Assignment group" and "Territory."When the Field Service Territory model is enabled, the qualifier type automatically switches to "Territory" and remains fixed. This means that when the Territory model is active, the optimization process focuses on territories instead of assignment groups. For more information, see [Enable the Field Service territory model](../task/enable-territory-model.md).
+The qualifier type for schedule optimization determines the criteria used to optimize schedules. There are two qualifier types available: "Assignment group" and "Territory."When the Field Service Territory model is enabled, the qualifier type automatically switches to "Territory" and remains fixed. This means that when the Territory model is active, the optimization process focuses on territories instead of assignment groups. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 -   Type: String
 -   Default value: Assignment group
@@ -96,7 +99,7 @@ Maximum number of location points allowed in a map vendor call
 
 </td><td>
 
-Numeric value set to determine the maximum number of location points allowed in a map provider call. Beans.AI is the map provider that Schedule Optimization supports for travel time estimates. For more information, see [Schedule Optimization travel estimate providers](schedule-optimization-travel-estimate-providers.md).
+Numeric value set to determine the maximum number of location points allowed in a map provider call. Beans.AI is the map provider that Schedule Optimization supports for travel time estimates. For more information, see [Schedule Optimization travel estimate providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/schedule-optimization-travel-estimate-providers.md).
 
 -   Type: Integer
 -   Default value: 300
@@ -291,5 +294,5 @@ Packet size to group events for solution processing \(task updates\).This proper
 -   Default value: 10
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Schedule Optimization components](schedule-optimization-components.md)
+</table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/schedule-optimization-components.md)
 

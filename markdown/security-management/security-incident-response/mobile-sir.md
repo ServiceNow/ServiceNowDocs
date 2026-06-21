@@ -2,6 +2,7 @@
 title: Mobile Experience for Security Incident Response
 description: Use your Android or iOS mobile device to manage your security operations center \(SOC\) tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/mobile-sir.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -17,11 +18,11 @@ Use your Android or iOS mobile device to manage your security operations center 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Security Incident Response
 
-If you’re unfamiliar with the basic concepts of the Security Incident Response \( SIR\) product on your ServiceNow AI Platform® instance, see [Security Incident Response Overview dashboard](c_SIROverview.md) for more information about threat intelligence and how this product can help you prioritize and resolve cyberthreats to your organization.
+If you’re unfamiliar with the basic concepts of the Security Incident Response \( SIR\) product on your ServiceNow AI Platform® instance, see [Security Incident Response Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/c_SIROverview.md) for more information about threat intelligence and how this product can help you prioritize and resolve cyberthreats to your organization.
 
 ## Mobile experience for SIR overview
 
@@ -52,15 +53,15 @@ When they’re populated, you can view the following related lists on SIR securi
 
 The following figure illustrates how you log into your ServiceNow AI Platform instance from your mobile device and the structure of the landing screen of the Security Incident Response Mobile app that is displayed after you log in.
 
-For step-by-step instructions about how to set up your ServiceNow AI Platform instance and install the Security Incident Response Mobile app, see [Set up checklist for the Security Incident Response Mobile app](../task/mobile-sir-setupinstll-mobile-app.md). For instructions about how to log in, see [Log in to the Security Incident Response Mobile app](../task/mobile-sir-get-started.md).
+For step-by-step instructions about how to set up your ServiceNow AI Platform instance and install the Security Incident Response Mobile app, see [Set up checklist for the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.md). For instructions about how to log in, see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/mobile-sir-get-started.md).
 
-![SIR Mobile app structure.](../image/mobile_landing-agent.jpg "Security Incident Response Mobile app")
+\[Omitted image "mobile\_landing-agent.jpg"\] Alt text: SIR Mobile app structure.
 
 -   **Applications**
 
     Applications are the ServiceNow® software components such as Security Incident Response \(SIR\), Vulnerability Response \(VR\), Governance, Risk, and Compliance \(GRC\) that provide specific features and functionalities within your ServiceNow AI Platform instance. After you install the Security Incident Response core application and the Security Incident Response Mobile app on your ServiceNow AI Platform instance, the icon for the core application is displayed on the bottom of your Android or iOS mobile device after you log in.
 
-    ![SIR mobile app icon on mobile device highlighted.](../image/mobile-sir-icon.jpg "Security Incident Response Mobile app (Security Incidents) icon")
+    \[Omitted image "mobile-sir-icon.jpg"\] Alt text: SIR mobile app icon on mobile device highlighted.
 
 -   **Folders**
 

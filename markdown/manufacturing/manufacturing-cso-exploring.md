@@ -2,6 +2,7 @@
 title: Manufacturing Commercial Operations Channel Support Operations
 description: Use the Service Bridge application with Manufacturing Commercial Operations for providers to create and publish catalogs of services, receive, and fulfill requests generated from consumers, and establish integrations with consumer instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/manufacturing-cso-exploring.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-11-05"
@@ -13,7 +14,7 @@ breadcrumb: [Exploring Manufacturing Commercial Operations, Manufacturing]
 
 Use the Service Bridge application with Manufacturing Commercial Operations for providers to create and publish catalogs of services, receive, and fulfill requests generated from consumers, and establish integrations with consumer instances.
 
-![Channel Support Operations for Manufacturing Commercial Operations](../image/mcochannel.png)
+\[Omitted image "mcochannel.png"\] Alt text: Channel Support Operations for Manufacturing Commercial Operations
 
 With Channel Support Operations for Manufacturing Commercial Operations, you can:
 
@@ -23,5 +24,5 @@ With Channel Support Operations for Manufacturing Commercial Operations, you can
 -   Increase deflection with tailored self-service portal and workspaces
 -   Improve OEM-channel collaboration with proactive communications and automated channel workflows \(e.g., vehicle handover, service delivery\)
 
-![Channel Support Operations for Manufacturing Commercial Operations](../image/mcochannel2.png)
+\[Omitted image "mcochannel2.png"\] Alt text: Channel Support Operations for Manufacturing Commercial Operations
 

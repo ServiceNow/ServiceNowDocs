@@ -2,6 +2,7 @@
 title: Inbound invoice line fields
 description: The Inbound invoice line table is the source table from where you import the invoice line required fields to successfully create an invoice through the integration framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/inbound-invoice-line-fields.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -232,5 +233,5 @@ Name of the third party application associated with the invoice.
 String
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Inbound Invoice Fields](inbound-invoice-fields.md)
+</table>**Parent Topic:**[Inbound Invoice Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md)
 

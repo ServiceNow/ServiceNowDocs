@@ -2,6 +2,7 @@
 title: Delete a resource assignment using Project Workspace
 description: Delete a resource assignment from Project Workspace. Deleting an assignment also deletes all associated resource allocations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/resource-management/delete-ra-pws-rmw.html
 release: xanadu
 product: Resource Management
 classification: resource-management
@@ -25,10 +26,10 @@ Role required: it\_project\_manager
 
 2.  Enable the **Resource assignments** toggle button to view the resource assignment pane.
 
-3.  From the resource assignment pane, select the row context menu \(![row context menu](../../project-workspace/image/icon-row-context-menu.png)\) and then select **Delete row**.
+3.  From the resource assignment pane, select the row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: row context menu\) and then select **Delete row**.
 
     The resource assignment is deleted from the resource assignment pane.
 
 
-**Parent Topic:**[Managing resource assignments from Project Workspace](../concept/use-ra-rmw.md)
+**Parent Topic:**[Managing resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/use-ra-rmw.md)
 

@@ -2,6 +2,7 @@
 title: Create a work note or comment in HR Agent Workspace
 description: You can add a work note \(private\) or comment to an activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-act-stream-email.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,10 +26,10 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  In the Compose section, select **Comments** \(visible to subject person\) or Work notes \(not visible to subject person.
 
-    ![HR Agent Workspace - Comments or Work notes](../image/agent-ws-hr-comments.png)
+    \[Omitted image "agent-ws-hr-comments.png"\] Alt text: HR Agent Workspace - Comments or Work notes
 
 3.  Click **Post Comments**.
 
-    **Note:** There is also a **Comments/Worknotes** section at the bottom, left side of the form. This section is turned off by default, but can be used to enter text by clicking the accordion icon \(![Accordion icon](../image/playbook-accordion-icon.png)\). After entering text, click **Save**.
+    **Note:** There is also a **Comments/Worknotes** section at the bottom, left side of the form. This section is turned off by default, but can be used to enter text by clicking the accordion icon \(\[Omitted image "playbook-accordion-icon.png"\] Alt text: Accordion icon\). After entering text, click **Save**.
 
 

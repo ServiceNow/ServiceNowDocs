@@ -2,6 +2,7 @@
 title: Upgrade Agent Client Collector on a Linux system
 description: Upgrade your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-linux-upgrade.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -29,7 +30,7 @@ Role required: agent\_client\_collector\_admin
     /usr/lib/systemd/system/acc.service
     ```
 
-2.  Download the .rpm/.deb agent package and signature files, as described in [Install Agent Client Collector on a Linux system](install-acc-linux.md).
+2.  Download the .rpm/.deb agent package and signature files, as described in [Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/install-acc-linux.md).
 
 3.  Upgrade the package.
 
@@ -63,5 +64,5 @@ Role required: agent\_client\_collector\_admin
     ```
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

@@ -2,6 +2,7 @@
 title: Disable attachments on a table
 description: You can prevent users from adding attachments to records on a specific table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/disable-attachments-on-table.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -27,8 +28,8 @@ Role required: admin
 
 4.  Add `no_attachment` to the **Attributes** field, separated by commas from any existing attributes.
 
-    See [Altering tables and fields using dictionary attributes](../../reference-pages/concept/c_DictionaryAttributes.md) for more information.
+    See [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md) for more information.
 
 
-**Parent Topic:**[Administering attachments](../reference/r_AdministeringAttachments.md)
+**Parent Topic:**[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AdministeringAttachments.md)
 

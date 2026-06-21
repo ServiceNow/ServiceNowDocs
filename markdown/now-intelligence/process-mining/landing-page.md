@@ -2,6 +2,7 @@
 title: Projects landing page
 description: From the projects landing page for Process Mining, you can access generated projects, business process insights, and the Analyst Workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/landing-page.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -15,9 +16,9 @@ breadcrumb: [Process Mining workspace, Exploring Process Mining, Process Mining,
 
 From the projects landing page for Process Mining, you can access generated projects, business process insights, and the Analyst Workbench.
 
-The projects landing page shows project cards for projects that have been created by or shared with you for viewing. A project that has been created but not yet generated shows a warning icon ![](../image/warning-icon.png) next to its grayed out title. The warning indicates that the project isn’t available to view.
+The projects landing page shows project cards for projects that have been created by or shared with you for viewing. A project that has been created but not yet generated shows a warning icon \[Omitted image "warning-icon.png"\] Alt text: next to its grayed out title. The warning indicates that the project isn’t available to view.
 
-![Projects landing page](../image/landing-page2.png "Projects landing page")
+\[Omitted image "landing-page2.png"\] Alt text: Projects landing page
 
 Project cards show overview details of mined projects. You can filter them by table, created by, project, activity definition, name, or short description.
 
@@ -35,7 +36,7 @@ Project cards show overview details of mined projects. You can filter them by ta
 
 From a project card, relevant user roles can perform the following tasks by selecting a card's menu.
 
-![Project card menu](../image/project-card.png)
+\[Omitted image "project-card.png"\] Alt text: Project card menu
 
 |Menu item|Description|
 |---------|-----------|
@@ -46,5 +47,5 @@ From a project card, relevant user roles can perform the following tasks by sele
 |Mine Project \(Full\)|Mines a full data extraction for a project.|
 |Delete|Deletes a project.|
 
-**Parent Topic:**[Process Mining workspace](analyst-workbench-overview.md)
+**Parent Topic:**[Process Mining workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/analyst-workbench-overview.md)
 

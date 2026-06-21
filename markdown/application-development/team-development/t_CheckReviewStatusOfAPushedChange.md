@@ -2,6 +2,7 @@
 title: Check the review status of a pushed change
 description: If the parent instance requires pushed changes to undergo code review, changes are placed in the Awaiting Code Review stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/t\_CheckReviewStatusOfAPushedChange.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -17,7 +18,7 @@ If the parent instance requires pushed changes to undergo code review, changes a
 
 ## About this task
 
-If you configure the parent instance to send [notifications](../concept/c_CodeReviewNotifications.md), it sends the submitting developer a notification when the pushed changes are approved or rejected. Developers can also manually check the status of their pushed changes from the Pushes and Pulls module on the submitting instance.
+If you configure the parent instance to send [notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_CodeReviewNotifications.md), it sends the submitting developer a notification when the pushed changes are approved or rejected. Developers can also manually check the status of their pushed changes from the Pushes and Pulls module on the submitting instance.
 
 ## Procedure
 
@@ -37,8 +38,8 @@ If you configure the parent instance to send [notifications](../concept/c_CodeRe
     -   Who submitted a review decision.
     -   What the decision was: either approved or rejected
     -   What comments if any the reviewer provided.
-    ![Code review status](../image/CodeReviewStatus.png)
+    \[Omitted image "CodeReviewStatus.png"\] Alt text: Code review status
 
 
-**Parent Topic:**[Team Development overview](../concept/c_UsingTeamDevelopment.md)
+**Parent Topic:**[Team Development overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_UsingTeamDevelopment.md)
 

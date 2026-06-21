@@ -2,6 +2,7 @@
 title: Source-to-Pay Workspace
 description: The Source-to-Pay Workspace provides experiences and tools that you can use to work on various activities, such as procuring goods, onboarding high-performing suppliers, and processing invoices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.html
 release: xanadu
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -28,19 +29,19 @@ However, if you wish to install just the Source-to-Pay Workspace application, th
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how procurement specialists, supplier managers, accounts payable specialists use Source-to-Pay Workspace.](../../accounts-payable-operations/concept/exploring-source-to-pay-operations.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how procurement specialists, supplier managers, accounts payable specialists use Source-to-Pay Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/exploring-source-to-pay-operations.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your Source-to-Pay Workspace.](../../accounts-payable-operations/concept/configuring-source-to-pay-ws.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your Source-to-Pay Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/configuring-source-to-pay-ws.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg) Create knowledge base articles](../../accounts-payable-operations/concept/using-source-to-pay-ws.md)
+[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Create knowledge base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/using-source-to-pay-ws.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about Source-to-Pay Workspace components and glossary.](../../accounts-payable-operations/reference/source-to-pay-ws-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about Source-to-Pay Workspace components and glossary.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-reference.md)
 
 </td></tr></tbody>
 </table>## End user and roles
@@ -116,14 +117,14 @@ Supplier Administrator: Create, view, update, and delete all the suppliers, case
 sn\_slm.admin
 
 </td></tr></tbody>
-</table>-   **[Exploring Source-to-Pay Workspace](../../accounts-payable-operations/concept/exploring-source-to-pay-operations.md)**  
+</table>-   **[Exploring Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/exploring-source-to-pay-operations.md)**  
 Learn about the key features and capabilities of Source-to-Pay Operations.
--   **[Configuring Source-to-Pay Workspace](../../accounts-payable-operations/concept/configuring-source-to-pay-ws.md)**  
+-   **[Configuring Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/configuring-source-to-pay-ws.md)**  
 Plan and configure your implementation for Source-to-Pay Workspace.
--   **[Using Source-to-Pay Workspace](../../accounts-payable-operations/concept/using-source-to-pay-ws.md)**  
+-   **[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/using-source-to-pay-ws.md)**  
 Procurement specialists, sourcing managers, supplier managers, supplier contacts, accounts payable specialists use the Source-to-Pay Workspace to work on various requests, cases, negotiations, accelerate supplier onboarding, minimize supplier risk, validate invoice processing cases, and maximize productivity.
--   **[Source-to-Pay Workspace reference](../../accounts-payable-operations/reference/source-to-pay-ws-reference.md)**  
+-   **[Source-to-Pay Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-reference.md)**  
 Reference topics provide additional information about articles, lists and forms that you use in Source-to-Pay Workspace.
 
-**Parent Topic:**[Source-to-Pay Operations](source-to-pay-operations-overview.md)
+**Parent Topic:**[Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/finance-and-supply-chain/source-to-pay-operations-overview.md)
 

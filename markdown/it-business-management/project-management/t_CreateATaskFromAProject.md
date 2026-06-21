@@ -2,6 +2,7 @@
 title: Create a project task from a project
 description: Create tasks from the Project form. The fields appear when the Project Portfolio Management is active and the Project form is in the Basic view. Configure the form to display the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_CreateATaskFromAProject.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -90,7 +91,7 @@ State
 
 </td><td>
 
-Current state of the project. The states include: Pending, Open, Work in Progress, Closed Complete, Closed Incomplete, Closed Skipped.The state is automatically rolled up from the project tasks. For more information, see [Project calculation](../concept/c_ProjectWorkbenchProjectCalc.md) and [Parent-child rollup task calculations](../concept/c_ParentChildRollupTaskCalcs.md).
+Current state of the project. The states include: Pending, Open, Work in Progress, Closed Complete, Closed Incomplete, Closed Skipped.The state is automatically rolled up from the project tasks. For more information, see [Project calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectWorkbenchProjectCalc.md) and [Parent-child rollup task calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ParentChildRollupTaskCalcs.md).
 
 </td></tr><tr><td>
 
@@ -224,7 +225,7 @@ Constraint date
 
 </td><td>
 
-A read-only field that determines the start date for tasks with **Start no earlier than**, **Start no later than**, and **Start on specific date** constraints. Use the **Move project** related link to change this date. For more information, see [Change the planned start date of a project](change-planned-start-date-of-project.md).
+A read-only field that determines the start date for tasks with **Start no earlier than**, **Start no later than**, and **Start on specific date** constraints. Use the **Move project** related link to change this date. For more information, see [Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/change-planned-start-date-of-project.md).
 
 </td></tr><tr><td>
 
@@ -242,7 +243,7 @@ Actual start date
 
 Date on which the project task started. The task is set to **Work in Progress** when the actual start date is populated.When you change the **State** or **Percent complete** of the task, the actual dates are auto-populated with the date component copied from the planned dates.
 
- When you populate the actual start and end dates, the time component in actual dates is defaulted to the date component in planned dates when the [**Derive time component from planned dates**](t_CreateAProject.md#table_mb3_rfw_1r) field on Project form is set to True.
+ When you populate the actual start and end dates, the time component in actual dates is defaulted to the date component in planned dates when the [**Derive time component from planned dates**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProject.md) field on Project form is set to True.
 
 </td></tr><tr><td>
 
@@ -295,7 +296,7 @@ Original planned date and time for the task to end.
 
     |Field|Description|
     |-----|-----------|
-    |Checklist|[Checklist](t_CreateAProjectTaskChecklist.md) to track items that must be completed for the task.|
+    |Checklist|[Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProjectTaskChecklist.md) to track items that must be completed for the task.|
 
 5.  Click **Submit**.
 
@@ -312,7 +313,7 @@ If you change the state of a project task from **Work in progress** to **Closed 
 
 The **Percent complete** field appears in the Gantt chart for parent tasks as a light-colored bar \(the part of the task that is complete\). The bar overlaps the darker, underlying bar \(the full task\). For example, a Demo project is 5.41% complete as shown in a pop-up window. The **Phase 1** task is about 50% complete \(not shown in the pop-up window\).
 
-The Project Tasks list and the Project Tasks related list on the Project form include a **Dependency** field. Any dependencies for a task, such as a parent task, are displayed in this field. Click a dependency record. See [Predecessor dependencies in the planning console](../reference/r_ProjectTaskDependencyValues.md) for a description of what you see in this column.
+The Project Tasks list and the Project Tasks related list on the Project form include a **Dependency** field. Any dependencies for a task, such as a parent task, are displayed in this field. Click a dependency record. See [Predecessor dependencies in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_ProjectTaskDependencyValues.md) for a description of what you see in this column.
 
-**Parent Topic:**[Create a project task](t_CreateAProjectTask.md)
+**Parent Topic:**[Create a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProjectTask.md)
 

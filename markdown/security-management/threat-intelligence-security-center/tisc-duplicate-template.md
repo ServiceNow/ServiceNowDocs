@@ -2,13 +2,14 @@
 title: Duplicate a Report Template
 description: Duplicate a report template if you want to add any incremental updates, then you can create a copy of the report template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-duplicate-template.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [Report Templates, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Report Templates, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Duplicate a Report Template

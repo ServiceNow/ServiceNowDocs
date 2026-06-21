@@ -2,6 +2,7 @@
 title: Email
 description: Displays data related to spam emails that are being received externally.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/email.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -17,5 +18,5 @@ Displays data related to spam emails that are being received externally.
 
 **Spam emails** represent the number of junk mail received per day.
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)
 

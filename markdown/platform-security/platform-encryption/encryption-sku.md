@@ -2,6 +2,7 @@
 title: Encryption and Key Management subscription bundle
 description: With Key Management, Column Level Encryption is upgraded at no additional charge to include highly configurable encryption modules. You can also optionally upgrade to the unlimited-use license. Subscribe to the new encryption entitlement bundle, Platform Encryption, which includes Column Level Encryption Enterprise and Cloud Encryption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/platform-encryption/encryption-sku.html
 release: xanadu
 product: Platform Encryption
 classification: platform-encryption
@@ -33,7 +34,7 @@ Column Level Encryption with encryption modules is included for free in your ins
 
 The Platform Encryption group adds the following features and offerings:
 
--   [Column Level Encryption Enterprise](../../now-platform-encryption/concept/now-platform-encryption.md):
+-   [Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/now-platform-encryption.md):
     -   Customer-supplied keys.
     -   Auto key rotation.
     -   Advanced field type support and future updates.
@@ -48,11 +49,11 @@ The Platform Encryption group adds the following features and offerings:
     -   Unlimited encryption modules and module access policies.
     -   Import a key from a web service.
     -   Set a future rotation date for encryption keys.
--   [Cloud Encryption with Key Management](../../encryption-dare/concept/dare-overview.md).
+-   [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/cloud-encryption/dare-overview.md).
 
 ## Additional information
 
 To learn more about key management, see .
 
-**Parent Topic:**[Key Management Framework](../concept/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/encryption.md)
 

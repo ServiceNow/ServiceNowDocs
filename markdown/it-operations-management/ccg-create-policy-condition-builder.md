@@ -2,7 +2,10 @@
 title: Create a policy with the condition builder
 description: Use the condition builder to create a Cloud Configuration Governance policy without writing any code at all. Use it to specify the criteria for identifying and reporting the non-compliant cloud resource configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/ccg-create-policy-condition-builder.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: sn\_itom\_ccg.governor
 
 3.  On the Policy form, fill in the fields.
 
-    For form field description, see [Cloud Configuration Governance Policy form](../reference/ccg-policy-form.md).
+    For form field description, see [Cloud Configuration Governance Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-policy-form.md).
 
     Refer to one of the base system condition builder-based policies as an example for creating the custom policy.
 
@@ -34,5 +37,5 @@ Role required: sn\_itom\_ccg.governor
 
 ## What to do next
 
-Test the policy to make sure that it is working properly. For more information, see [Test the policy](test-ccg-policy.md).
+Test the policy to make sure that it is working properly. For more information, see [Test the policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/test-ccg-policy.md).
 

@@ -2,7 +2,10 @@
 title: Delete a part requirement
 description: Delete a part requirement from a work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_DeleteAPartRequirement.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Delete a part requirement from a work order task.
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## Procedure
 
@@ -34,5 +37,5 @@ Role required: wm\_qualifier or [qualifier combination role](../reference/r_User
     The system deletes the part requirement without displaying a confirmation message.
 
 
-**Parent Topic:**[Create a part requirement](t_CreateAPartRequirement.md)
+**Parent Topic:**[Create a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_CreateAPartRequirement.md)
 

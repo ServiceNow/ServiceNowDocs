@@ -2,6 +2,7 @@
 title: Configure remedial action - Restart Service
 description: Configure the Restart Service remedial action for Microsoft Endpoint Configuration Manager for Investigation \(MECM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/config-ra-restart-service.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -25,7 +26,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 2.  Create a MECM script with the name `RestartService`.
 
-    For more information, see [Create a script in Microsoft Endpoint Configuration Manager](create-mecm-script.md).
+    For more information, see [Create a script in Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/create-mecm-script.md).
 
 3.  Provide the following code in the script block.
 
@@ -48,10 +49,10 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 7.  In the **Action input** field, add the script GUID.
 
-    ![MECM restart service](../image/mecm-restart-service.png)
+    \[Omitted image "mecm-restart-service.png"\] Alt text: MECM restart service
 
 8.  Click **Save**.
 
 
-**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](../concept/config-ci-metrics-mecm-adapter.md)
+**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)
 

@@ -2,11 +2,12 @@
 title: View my statement items as a service owner
 description: As a business service owner, you can view the list of statement items for which you are the service charging owner and you can generate the charge lines for a fiscal period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/view-my-statement-items-as-service-owner.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -46,5 +47,5 @@ After the service charging analyst publishes the showback statements, you can re
 
 You can view the statement items in the business unit owner showback dashboard.
 
-**Parent Topic:**[Financial Charging](../concept/financial-reporting.md)
+**Parent Topic:**[Financial Charging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-reporting.md)
 

@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for Legal Service Delivery \(LSD\)
 description: Use agentic workflows for Legal Service Delivery to analyze general legal requests, predict the appropriate legal category, and initiate a transfer after confirmation from the legal fulfiller or group manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-assist-for-legal-service-delivery/agentic-ai-now-assist-lsd.html
 release: xanadu
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -45,21 +46,21 @@ Uses AI agents to analyze general legal requests, predict the appropriate legal 
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read only.
 
-For more information about the AI agents, see [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information about the AI agents, see .
 
-To run the AI agents autonomously, you must first [duplicate the use case](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US), and then proceed with the following steps:
+To run the AI agents autonomously, you must first duplicate the use case, and then proceed with the following steps:
 
--   Activate the agentic workflow. For more information, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   Activate the agentic workflow. For more information, see .
 -   Activate all agents within the workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
 **Note:**
 
 -   When you modify an agentic workflow, AI agents, or tools, make sure that you update all instructions accordingly.
--   If you have a customized triage legal request agentic use case, update the script include of the business rule with the sys\_id of the customized use case. For more information, see [Activate the business rule for the Triage legal requests agentic workflow](../task/lsd-agentic-config-BR.md).
+-   If you have a customized triage legal request agentic use case, update the script include of the business rule with the sys\_id of the customized use case. For more information, see [Activate the business rule for the Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/lsd-agentic-config-BR.md).
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

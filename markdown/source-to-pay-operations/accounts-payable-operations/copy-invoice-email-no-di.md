@@ -2,6 +2,7 @@
 title: Copy and configure the Invoice processing case for Invoice email flow when Document Intelligence is not installed
 description: Copy and configure the Invoice processing case for Invoice email flow and add a trigger condition to specify when to create an invoice processing case when Document Intelligence is not installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-no-di.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,7 +30,7 @@ The Invoice processing case for Invoice email is the only flow that is available
 
 2.  Search for and open the **Invoice processing case for Invoice email** flow.
 
-3.  Select the more actions icon \(![more actions](../../supplier-lifecycle-operations/image/more-actions-icon.png)\) in the top right and select **Copy flow**.
+3.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions\) in the top right and select **Copy flow**.
 
     The Create a copy of this flow dialog box is displayed.
 

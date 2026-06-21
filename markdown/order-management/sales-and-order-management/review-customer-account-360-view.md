@@ -2,6 +2,7 @@
 title: Review an account by using the 360 View
 description: Review a customer or partner's account by using the 360 View in the Order Management application. You can track the service contracts of your customers or partners. You can also view customer and service orders, cases, products, and equipment to see how you can improve your customer service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/review-customer-account-360-view.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 1.  Navigate to **All** &gt; **Customer Order Management** &gt; **Workspace** &gt; **Configurable Workspace Home**.
 
-2.  From the **Configurable Workspace Lists** tab \(![Lists tab icon to explore different tasks and services.](../image/Lists.png)\), select **Customer**, and then select **Accounts**.
+2.  From the **Configurable Workspace Lists** tab \(\[Omitted image "Lists.png"\] Alt text: Lists tab icon to explore different tasks and services.\), select **Customer**, and then select **Accounts**.
 
 3.  In the Accounts list, select a customer account.
 
@@ -172,7 +173,7 @@ State
 
 </td><td>
 
-State of the customer service case. To learn more, see [Case states](https://www.servicenow.com/docs/access?context=r_CustomerServiceCaseStates&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+State of the customer service case. To learn more, see Case states.
 
 </td></tr></tbody>
 </table>7.  In the Product Inventory section, review the product inventory items for the selected account.
@@ -274,5 +275,5 @@ Name of the customer contact that is associated with the order. To view the deta
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Reviewing customer or partner accounts](../concept/reviewing-customer-accounts.md)
+**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/reviewing-customer-accounts.md)
 

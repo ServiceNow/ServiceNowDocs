@@ -2,7 +2,10 @@
 title: View work order task information
 description: Click the task icon on the agent map to view task details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/c\_ViewWOTaskInformation.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -26,5 +29,5 @@ The following information is included in a summary pop-up window for a single ta
 
 Click the task number link in the summary pop-up or in the summary pane to display the task in a record pop-up. Use the controls under **Related Links** to accept or reject a task and to update your work status by starting or completing a task.
 
-**Parent Topic:**[Manage tasks on the map](../../planning-and-policy/concept/c_ManageTasksOnTheMap.md)
+**Parent Topic:**[Manage tasks on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ManageTasksOnTheMap.md)
 

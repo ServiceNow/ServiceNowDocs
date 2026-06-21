@@ -2,6 +2,7 @@
 title: Configure Now Assist for Supplier Lifecycle Operations \(SLO\)
 description: If you have the admin role, you can configure the Now Assist for Supplier Lifecycle Operations \(SLO\) application so that your supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -22,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for SLO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for SLO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
 
 The following table lists the feature and skill that you can access from the Now Assist Admin console.
 
@@ -30,14 +31,14 @@ The following table lists the feature and skill that you can access from the Now
 |--------------------------|-----|
 |Case summarization|Supplier case summarization|
 
-![Now Assist skills for SLO section, showing the Case summarization feature card.](../image/now-assist-slo.png "Now Assist skills for SLO")
+\[Omitted image "now-assist-slo.png"\] Alt text: Now Assist skills for SLO section, showing the Case summarization feature card.
 
 ## Procedure
 
 1.  Install the Now Assist for Supplier Lifecycle Operations \(SLO\) plugin \(com.snc.sn\_supplier\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)](../concept/now-assist-slo-supporting-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
+    -   For information about the installation process, see .
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
 
 3.  Expand the **Finance and Supply Chain** workflow group and select **Supplier Lifecycle Operations**.
@@ -75,15 +76,15 @@ Supplier case summarization
 
 9.  Define the availability of the skill by selecting **Define Availability**, and then selecting one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d24023e354">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d26433e352">
 
 Option
 
-</th><th align="left" id="d24023e357">
+</th><th align="left" id="d26433e355">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d24023e363">
+</th></tr></thead><tbody><tr><td id="d26433e361">
 
 **Skill is always available**
 
@@ -91,7 +92,7 @@ Description
 
 The skill is available to users at all times.
 
-</td></tr><tr><td id="d24023e372">
+</td></tr><tr><td id="d26433e370">
 
 **Customize skill availability**
 

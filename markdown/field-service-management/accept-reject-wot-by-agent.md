@@ -2,7 +2,10 @@
 title: Accept or reject assigned external work order tasks
 description: As a manager or field service agent of a contractor company, you can accept tasks assigned to you through the Field Service Contractor Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/accept-reject-wot-by-agent.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -37,7 +40,7 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 
 ## What to do next
 
-After accepting the task, you can start working on it. For more information about executing tasks, see [Execute and track external work order tasks](execute-wot.md).
+After accepting the task, you can start working on it. For more information about executing tasks, see [Execute and track external work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/execute-wot.md).
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-tasks.md)
 

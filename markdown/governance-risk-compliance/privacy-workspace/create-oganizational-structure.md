@@ -2,6 +2,7 @@
 title: Create an entity configurations
 description: Create an organizational structure by configuring entity-based access for different levels such as headquarters, regional offices, and subsidiaries, and define access rules for users and groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/create-oganizational-structure.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -115,5 +116,5 @@ Option to set the configuration to active to enforce the access rules.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configure access control](../configure-access-control-by-legal-entity.md)
+**Parent Topic:**[Configure access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

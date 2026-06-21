@@ -2,6 +2,7 @@
 title: Agent Client Collector health instance scan suite
 description: The Agent Client Collector \(ACC\) health instance scan suite consists of checks that detect anomalies and other issues that might occur on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-instance-scan-suite.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -84,7 +85,7 @@ Verifies that the number of records in the sn\_agent\_ci\_extended\_info table m
 </td></tr></tbody>
 </table>For details on importing the `global.ACCInstanceScanUtil` script include, see the [Script Include ACCInstanceScanUtil \[KB1630132\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1630132) article in the Now Support Knowledge Base.
 
-For details on instance scans, see [Instance Scan](https://www.servicenow.com/docs/access?context=hs-landing-page&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For details on instance scans, see .
 
-For details on executing the Agent Client Collector health instance scan suite, see [Execute a suite scan](https://www.servicenow.com/docs/access?context=hc-execute-suite-scan&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For details on executing the Agent Client Collector health instance scan suite, see .
 

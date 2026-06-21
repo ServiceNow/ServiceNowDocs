@@ -2,6 +2,7 @@
 title: Allocate expenses with the workbench
 description: If any of this information looks incorrect, go back to a previous stage and make the necessary modifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/t\_AllocateExpensesWithTheWorkbench.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -21,7 +22,7 @@ Role required: cost\_transparency\_admin or cost\_transparency\_analyst
 
 ## Procedure
 
-1.  [Verify your allocation settings](t_ConfigureGeneralSettings.md) on the **Configuration** tab.
+1.  [Verify your allocation settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_ConfigureGeneralSettings.md) on the **Configuration** tab.
 
 2.  Navigate to the **Review** stage of the workbench.
 
@@ -38,5 +39,5 @@ The system allocates the expenses, creates allocation lines, and changes the **S
 
 **Note:** The system rounds allocation lines to two decimal places. An allocation totaling $100.495 is rounded up to $100.50. An allocation totaling $100.494 is rounded down to $100.49. If an allocation is rounded down to $0.00, the system does not create an allocation line.
 
-**Parent Topic:**[The Allocation Review stage](../concept/c_TheAllocationReviewStage.md)
+**Parent Topic:**[The Allocation Review stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_TheAllocationReviewStage.md)
 

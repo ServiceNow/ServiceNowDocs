@@ -2,7 +2,10 @@
 title: Install Cloud Action Library
 description: You can install the Cloud Action Library application \(sn.itom.cal\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/install-cloud-actions-library.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -43,5 +46,5 @@ Several plugins are installed with the Cloud Action Library application. For mor
 5.  Select **Install**.
 
 
-**Parent Topic:**[Exploring Cloud Action Library](../concept/exploring-cloud-actions-library.md)
+**Parent Topic:**[Exploring Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/exploring-cloud-actions-library.md)
 

@@ -2,6 +2,7 @@
 title: Agent Client Collector for Kubernetes – Visibility support matrix
 description: The Agent Client Collector for Kubernetes – Visibility component is supported on several versions of Kubernetes and OpenShift and in various Kubernetes environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-support-matrix.html
 release: xanadu
 product: Discovery
 classification: discovery

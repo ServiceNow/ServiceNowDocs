@@ -2,6 +2,7 @@
 title: Virtual Agent Designer home page
 description: The Virtual Agent Designer home page lists all conversational assets available in your instance, including subflows, actions, and topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/vad-topics-page.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ The Virtual Agent Designer home page lists all conversational assets available i
 
 To navigate to Virtual Agent Designer, select **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
 
-![Virtual Agent Designer Conversational Studio Topics page view with 4 highlighted sections. For more information, see the Filters and options in the topics page table.](../images/convo-studio-list-view.png "Topics page")
+\[Omitted image "convo-studio-list-view.png"\] Alt text: Virtual Agent Designer Conversational Studio Topics page view with 4 highlighted sections. For more information, see the Filters and options in the topics page table.
 
 <table id="table_vng_lvj_hcc"><thead><tr><th>
 
@@ -35,7 +36,7 @@ Fields and descriptions
 </td><td>
 
 Header bar for navigation and Virtual Agent Designer settings.-   Virtual Agent Designer tab: Select this tab to view the Virtual Agent Designer home page.
--   Topic tabs: Shows any open topics as navigation tabs. Hover over a tab to show its topic type and scope. Select a topic's tab to view that topic. Select the close icon ![Close icon.](../images/gray-x-icon.png) on a tab to close the topic.
+-   Topic tabs: Shows any open topics as navigation tabs. Hover over a tab to show its topic type and scope. Select a topic's tab to view that topic. Select the close icon \[Omitted image "gray-x-icon.png"\] Alt text: Close icon. on a tab to close the topic.
 
 **Note:** If you close a topic with unsaved changes, a warning window opens. Select **Cancel** or **Close without saving**.
 
@@ -45,7 +46,7 @@ If you open more tabs than your browser window can display, a drop-down tab hold
 
 **Note:** Each group of tabs has a random color when you group tabs by app scope.
 
-For more information on changing the scope, see [Change the application scope in Virtual Agent Designer](../task/change-application-scope-vad.md).
+For more information on changing the scope, see [Change the application scope in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/change-application-scope-vad.md).
 
 
 </td></tr><tr><td>
@@ -59,7 +60,7 @@ Controls for filtering, managing, testing, creating, and deleting Virtual Agent 
     -   **Select Assistant**: Drop-down menu to filter topics associated with a given LLM assistant.
     -   **Test Assistant**: Opens the testing window for the topics that are associated with the assistant you selected.
 
-**Note:** If you have not filtered topics with **Select assistant**, the option **Test in Now Assist panel** appears in this drop-down menu. For more information on associating an LLM assistant with a topic, see [Create a Virtual Agent topic](../task/create-virtual-agent-topic.md).
+**Note:** If you have not filtered topics with **Select assistant**, the option **Test in Now Assist panel** appears in this drop-down menu. For more information on associating an LLM assistant with a topic, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
     -   **All**: Button to view all LLM topics.
     -   **Topics**: Button to view only basic LLM topics.
@@ -71,10 +72,10 @@ Controls for filtering, managing, testing, creating, and deleting Virtual Agent 
 ○ **Test active topics**: Button to test all active NLU/keyword topics.
 
 -   **Create**: Button to create a new Virtual Agent topic.
--   Search icon ![Search icon](../images/icon-search.png): Opens a field to enter a string to search for a match in the topic list. When you enter a string, the text is used as a condition in the Filter.
--   Filter icon ![Filter icon.](../images/filter-icon.png): Opens a menu to add filtering conditions that contain a field, operator, and value\(s\). If you define a condition or enter a string using the **Search** button, you can remove it by selecting the delete condition ![Delete condition icon.](../images/gray-x-icon.png) icon.
--   Refresh list icon ![Refresh icon.](../images/refresh-icon-updated.png): Refreshes the currently defined list of topics.
--   Edit columns icon![Edit columns icon.](../images/edit-columns-icon.png): Opens a menu to reorder or change the columns in the topic records list from their defaults.
+-   Search icon \[Omitted image "icon-search.png"\] Alt text: Search icon: Opens a field to enter a string to search for a match in the topic list. When you enter a string, the text is used as a condition in the Filter.
+-   Filter icon \[Omitted image "filter-icon.png"\] Alt text: Filter icon.: Opens a menu to add filtering conditions that contain a field, operator, and value\(s\). If you define a condition or enter a string using the **Search** button, you can remove it by selecting the delete condition \[Omitted image "gray-x-icon.png"\] Alt text: Delete condition icon. icon.
+-   Refresh list icon \[Omitted image "refresh-icon-updated.png"\] Alt text: Refresh icon.: Refreshes the currently defined list of topics.
+-   Edit columns icon\[Omitted image "edit-columns-icon.png"\] Alt text: Edit columns icon.: Opens a menu to reorder or change the columns in the topic records list from their defaults.
 
 </td></tr><tr><td>
 
@@ -97,17 +98,17 @@ List of all topics available, filtered by topic list controls. Default columns i
     -   Modified
 -   **Active**: Indicates whether the topic is **Active** or **Inactive**.
 -   **Last modified**: Time and date when the topic was last modified.
--   **Description**: Short description entered when you create the topic. For more information, see [Create a Virtual Agent topic](../task/create-virtual-agent-topic.md)
+-   **Description**: Short description entered when you create the topic. For more information, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 -   **Promoted in**: Lists the assistants in which the asset is promoted.
--   Show actions for this row ![KB link](../images/kebab-menu.png): Icon to open a menu with the following options.
+-   Show actions for this row \[Omitted image "kebab-menu.png"\] Alt text: KB link: Icon to open a menu with the following options.
 
-    -   **Promoted**: Option to toggle the topic's **Promoted** status. For more information, see [Promote or demote LLM topics in Virtual Agent Designer](../task/promote-demote-va-topics.md).
+    -   **Promoted**: Option to toggle the topic's **Promoted** status. For more information, see [Promote or demote LLM topics in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/promote-demote-va-topics.md).
     -   **Discoverable**: Option to toggle the topic's **Discoverable** status.
     -   **Visible**: Option to toggle the topic's visibility to users.
     -   **Active**: Option to toggle the topic's **Active** status.
-    -   **Delete**: Option to delete the topic. For more information, see [Delete a Virtual Agent topic](../task/delete-virtual-agent-topic.md).
+    -   **Delete**: Option to delete the topic. For more information, see [Delete a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/delete-virtual-agent-topic.md).
 
-**Note:** If you select **Delete**, a warning window opens. Select **Delete** to continue or **Cancel** to stop. For more information, see [Delete a Virtual Agent topic](../task/delete-virtual-agent-topic.md).
+**Note:** If you select **Delete**, a warning window opens. Select **Delete** to continue or **Cancel** to stop. For more information, see [Delete a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/delete-virtual-agent-topic.md).
 
 **Note:** If the topic is inactive and you try to promote it or make it discoverable or visible, you see a message reading `This asset must be active in order to be promoted, discoverable, or visible`. Toggle the topic to Active to perform those actions.
 
@@ -118,12 +119,12 @@ List of all topics available, filtered by topic list controls. Default columns i
 
 </td><td>
 
-Collapsible panel showing recently opened topics and helpful resources. Select the open or close panel icon ![Open panel icon.](../images/open-panel-icon.png)/![Close panel icon.](../images/close-panel-icon.png) to toggle the panel open or closed. -   Pick up where you left off: List of the last 3 topics you opened and when they were last updated. Select any from the list to open that topic.
+Collapsible panel showing recently opened topics and helpful resources. Select the open or close panel icon \[Omitted image "open-panel-icon.png"\] Alt text: Open panel icon./\[Omitted image "close-panel-icon.png"\] Alt text: Close panel icon. to toggle the panel open or closed. -   Pick up where you left off: List of the last 3 topics you opened and when they were last updated. Select any from the list to open that topic.
 -   Latest updates: List of the last 5 users to open a topic, along with the topic name and when it was last updated.
 -   Resources: Links and features available for LLM or NLU topics. You can view localization insights, product documentation, and migrate NLU topics to LLM from here.
 
 **Note:** The **Migrate topics to LLM** option appears in the Resources section only if you have activated Now Assist in Virtual Agent.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer interface reference](../concept/vad-reference.md)
+</table>**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/vad-reference.md)
 

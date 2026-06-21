@@ -2,6 +2,7 @@
 title: Human Resources agent dashboard
 description: The dashboard for HR Agents monitors caseloads to help stay on top of the backlog, enabling the HR Agent to provide a streamlined experience for the organization workforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/human-resources-agent-dashboard.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -62,5 +63,5 @@ The Human Resources Agent dashboard contains the following visualizations:
 |Unassigned Cases|Single Score|
 |Unassigned Cases Distribution|Horizontal bar|
 
-**Parent Topic:**[HR Performance Analytics Dashboards](human-resources-content-pack.md)
+**Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
 

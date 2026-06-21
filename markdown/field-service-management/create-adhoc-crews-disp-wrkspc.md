@@ -2,7 +2,10 @@
 title: Create ad hoc crews in Dispatcher Workspace
 description: Create ad hoc crews for a task if no existing crews are available to work on the task or the task requires specific skills to complete the job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-adhoc-crews-disp-wrkspc.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -36,7 +39,7 @@ The Create Crew option is available in the work order task form if the following
 
 3.  Search for and open a work order task for which you want to create a crew.
 
-    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](search-crew-task.md).
+    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/search-crew-task.md).
 
 4.  Click **Create Crew**.
 
@@ -138,5 +141,5 @@ Option to indicate whether the crew is available for selection when assigning a 
 
 An ad hoc task-specific crew is created along with the related list records, such as Details, Groups, Skills, and Task Assignees.
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](../concept/using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-disp-wrkspc-crew-operations.md)
 

@@ -2,6 +2,7 @@
 title: How CIM Discovery works
 description: This is the processing flow for classifying Common Information Model \(CIM\) storage systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/r\_HowCIMDiscoveryWorks.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -26,20 +27,20 @@ This is the processing flow for classifying Common Information Model \(CIM\) sto
 5.  The wbem port probe appends the SLP data it carries to the CIM Classify probes.
 6.  The CIM Classify probe uses that information to explore the CIM servers.
 
-    ![CIM Shazzam Processing Diagram](../image/CIMShazzamProcessingDiagram.png "CIM Shazzam Processing Diagram")
+    \[Omitted image "CIMShazzamProcessingDiagram.png"\] Alt text: CIM Shazzam Processing Diagram
 
 
 ## The wbem port Probe
 
 The **wbem** probe stores the data it retrieves in the CIM Classification `[discovery_classy_cim]` table. To view the wbem port probe, navigate to **Discovery Definition** &gt; **Port Probes**.
 
-![wbem port probe record](../image/wbemPortProbe.png "wbem port probe record")
+\[Omitted image "wbemPortProbe.png"\] Alt text: wbem port probe record
 
 ## SLP query
 
 The SLP query detects the wbem service \(service:wbem\) on an SLP server and gathers the attributes of the service. To view the SLP Query record, open the wbem port probe record and select **SLP Query** from the **Service Registry Queries** related list.
 
-![SLP Query record](../image/SLPQuery.png "SLP Query record")
+\[Omitted image "SLPQuery.png"\] Alt text: SLP Query record
 
 ## CIM - Classify probe
 
@@ -58,7 +59,7 @@ The mid.cim.interop.namespace system property defines four default storage names
 
 If you’re using multiple storage vendors with custom namespaces not specified as one of the defaults, add the new namespaces to the comma-separated list in this property. If you intend to continue using any of the default namespaces, make sure to include them in the property.
 
-![CIM - Classify probe record](../image/CIMClassifyProbe.png "CIM - Classify probe record")
+\[Omitted image "CIMClassifyProbe.png"\] Alt text: CIM - Classify probe record
 
 ## SMI-S and CIM probes and sensors
 
@@ -80,5 +81,5 @@ If you’re using multiple storage vendors with custom namespaces not specified 
 |SMI - Storage Server|Retrieves SAN and NAS arrays and servers.|
 |SMI - WBEM Service|Retrieves WBEM Service information such as profiles and SMI-S version.|
 
-**Parent Topic:**[Storage Discovery via SMI-S and CIM](r_DataCollDiscoStorageviaSMISCIM.md)
+**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
 

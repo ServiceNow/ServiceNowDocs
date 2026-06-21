@@ -2,6 +2,7 @@
 title: Delete a project template configuration item
 description: Do not delete any of the default template configuration items: project, project task, or project subtask. Doing so affects the ability to create project templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_DelProjTempConfigItem.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -28,5 +29,5 @@ Role required: it\_pps\_admin
 3.  Click **Delete**.
 
 
-**Parent Topic:**[Project template configuration](../concept/c_ProjectTemplateConfiguration.md)
+**Parent Topic:**[Project template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectTemplateConfiguration.md)
 

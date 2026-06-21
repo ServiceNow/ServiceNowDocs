@@ -2,6 +2,7 @@
 title: Viewing data usage on your instance
 description: View a summary of your storage consumption and monitor data usage over time on your current instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/viewing-data-usage.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -19,11 +20,11 @@ View a summary of your storage consumption and monitor data usage over time on y
 -   View and compare the 10 tables consuming the most amount of storage on your current instance.
 -   Analyze storage usage growth on your current instance over time.
 
-You can view an account-level summary of your storage consumption in Subscription Management. See [Monitoring cloud capacity in Subscription Management](../../subscription-management/concept/monitoring-cloud-entitlements.md).
+You can view an account-level summary of your storage consumption in Subscription Management. See [Monitoring cloud capacity in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/monitoring-cloud-entitlements.md).
 
-![Data usage on current instance.](../image/data-viz-console1.png "Data usage on your instance")
+\[Omitted image "data-viz-console1.png"\] Alt text: Data usage on current instance.
 
-![Data usage on your current instance over time.](../image/data-viz-console2.png "Data usage on your instance over time")
+\[Omitted image "data-viz-console2.png"\] Alt text: Data usage on your current instance over time.
 
 ## Required ServiceNow AI Platform roles
 

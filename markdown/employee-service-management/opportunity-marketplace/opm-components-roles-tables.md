@@ -2,6 +2,7 @@
 title: Components, tables, and roles used by Opportunity Marketplace \(OPM\)
 description: Learn about the components used with Opportunity Marketplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/opportunity-marketplace/opm-components-roles-tables.html
 release: xanadu
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -118,7 +119,7 @@ Opportunity Type \[sn\_opp\_market\_opportunity\_type\]
 
 </td><td>
 
-Tracks details about opportunities \(Gig, Project, Volunteer\), such as -   **Title**: The type of opportunity. The standard opportunities provided with OPM are Gig, Project, and Volunteer. You can create your own opportunity types, see [Create other opportunities in Opportunity Marketplace](../task/egd-create-other-opportunities.md).
+Tracks details about opportunities \(Gig, Project, Volunteer\), such as -   **Title**: The type of opportunity. The standard opportunities provided with OPM are Gig, Project, and Volunteer. You can create your own opportunity types, see [Create other opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/opportunity-marketplace/egd-create-other-opportunities.md).
 -   **Description**
 -   **Role display**
 -   **Icon**
@@ -441,5 +442,5 @@ Recruiter
 Recruitment coordinator
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference Opportunity Marketplace roles and tables](../concept/egd-oppt-mrktplc-references.md)
+</table>**Parent Topic:**[Reference Opportunity Marketplace roles and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-references.md)
 

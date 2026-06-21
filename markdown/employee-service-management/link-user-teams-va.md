@@ -2,7 +2,10 @@
 title: Link ServiceNow user account to Microsoft Teams application for Virtual Agent
 description: Link your ServiceNow account to an Microsoft Teams application to access the non-public Virtual Agent topics that use ServiceNow records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/link-user-teams-va.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ The authentication step occurs in your instance or in a Service Portal set by yo
 
     The bot then presents a prompt that provides options to authenticate **Link to ServiceNow**, continue as a guest user, or see the help menu **Check out Tips**.
 
-    ![Link ServiceNow account](../images/link_sn_ms_teams.png)
+    \[Omitted image "link\_sn\_ms\_teams.png"\] Alt text: Link ServiceNow account
 
 4.  Select **Link to ServiceNow** to authenticate.
 
@@ -37,10 +40,10 @@ The authentication step occurs in your instance or in a Service Portal set by yo
 
     **Note:**
 
-    The administrator can auto-link the ServiceNow user accounts to Microsoft Teams. For more information, see [Account linking in pre-built messaging integrations](https://www.servicenow.com/docs/access?context=va-adapter-autolinking&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+    The administrator can auto-link the ServiceNow user accounts to Microsoft Teams. For more information, see Account linking in pre-built messaging integrations.
 
 5.  On the confirmation dialog, select Confirm to link your account.
 
 
-**Parent Topic:**[Employee actions](../concept/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-sn-ms-teams.md)
 

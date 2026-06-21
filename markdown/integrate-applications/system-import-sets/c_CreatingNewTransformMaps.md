@@ -2,6 +2,7 @@
 title: Transform maps
 description: A transform map is a set of field maps that determine the relationships between fields in an import set and fields in an existing ServiceNow table, such as Incident \[incident\] or User \[sys\_user\].
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/system-import-sets/c\_CreatingNewTransformMaps.html
 release: xanadu
 product: System Import Sets
 classification: system-import-sets
@@ -15,7 +16,7 @@ breadcrumb: [Import sets, Imports, Creating integrations with applications]
 
 A transform map is a set of field maps that determine the relationships between fields in an import set and fields in an existing ServiceNow table, such as Incident \[incident\] or User \[sys\_user\].
 
-![Import process transform](../image/ImportProcessTransform.png "Import process transform")
+\[Omitted image "ImportProcessTransform.png"\] Alt text: Import process transform
 
 After creating a transform map, you can reuse it to map data from another import set to the same table.
 
@@ -52,7 +53,7 @@ Users can select multiple transform maps during data import.
 
 The selected transform maps will be executed on the same import set in the order specified.
 
-![Multi-map transform](../../../administer/managing-data/image/MultiMapTransform.png "Multi-map transform")
+\[Omitted image "MultiMapTransform.png"\] Alt text: Multi-map transform
 
 ## Transform map scripts
 

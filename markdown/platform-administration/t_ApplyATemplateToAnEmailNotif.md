@@ -2,6 +2,7 @@
 title: Apply a template to an email notification
 description: After you create an email template, you can apply it to a notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ApplyATemplateToAnEmailNotif.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -30,5 +31,5 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Email templates](../concept/c_EmailTemplates.md)
+**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailTemplates.md)
 

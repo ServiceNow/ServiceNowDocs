@@ -2,6 +2,7 @@
 title: Supported integration interfaces
 description: ServiceNow provides a number of interfaces to be able to directly integrate with the platform. These interfaces are considered part of the platform and are provided at no additional charge.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_SupportedIntegrationInterfaces.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -15,29 +16,29 @@ ServiceNow provides a number of interfaces to be able to directly integrate with
 
 |Interface|
 |---------|
-|[Email](../../../administer/notification/concept/c_InboundEmailActions.md)|
-|[JDBC](../../inbound-other-web-services/task/t_JDBCProbe.md)|
-|[JSONv2 Web Service](https://www.servicenow.com/docs/access?context=c_JSONv2WebService&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
-|[LDAP integration](https://www.servicenow.com/docs/access?context=c_LDAPIntegration&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)|
-|[SOAP web service](https://www.servicenow.com/docs/access?context=c_SOAPWebService&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
-|[REST API](https://www.servicenow.com/docs/access?context=c_RESTAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
-|[SAML](https://www.servicenow.com/docs/access?context=c_SAML2.0WebBrowserSSOProfile&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)|
-|[Digest token authentication](https://www.servicenow.com/docs/access?context=c_DigestTokenAuthentication&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)|
-|[ODBC driver](https://www.servicenow.com/docs/access?context=c_ODBCDriver&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
-|[Data Export](../../../administer/exporting-data/concept/c_ExportData.md)|
-|[CTI](../../incident/reference/r_ComputerTelephonyIntegration.md)|
-|[Syslog probe](r_SyslogProbe.md)|
+|[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_InboundEmailActions.md)|
+|[JDBC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_JDBCProbe.md)|
+|JSONv2 Web Service|
+|LDAP integration|
+|SOAP web service|
+|REST API|
+|SAML|
+|Digest token authentication|
+|ODBC driver|
+|[Data Export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/c_ExportData.md)|
+|[CTI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_ComputerTelephonyIntegration.md)|
+|[Syslog probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_SyslogProbe.md)|
 
--   **[Computer Telephony Integration](../../incident/reference/r_ComputerTelephonyIntegration.md)**  
+-   **[Computer Telephony Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_ComputerTelephonyIntegration.md)**  
 Computer Telephony Integration \(CTI\) is accomplished by the CTI client on the user machine sending a URL to the instance.
--   **[Integrating ServiceNow with your Intranet](../../inbound-other-web-services/concept/c_IntegratServiceNowIntranet.md)**  
+-   **[Integrating ServiceNow with your Intranet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntegratServiceNowIntranet.md)**  
 You can add a ServiceNow login link to your intranet.
--   **[JDBCProbe](../../inbound-other-web-services/task/t_JDBCProbe.md)**  
+-   **[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_JDBCProbe.md)**  
 A JDBC probe runs on the MID Server to query an external database via \[JDBC\] and returns results to ServiceNow.
--   **[Build a search provider for your instance](../../inbound-other-web-services/task/t_BuildSearchProviderForInstance.md)**  
+-   **[Build a search provider for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_BuildSearchProviderForInstance.md)**  
 ServiceNow Search Providers allow you search and our Forums from the IE and Firefox search bar.
--   **[Syslog probe](r_SyslogProbe.md)**  
+-   **[Syslog probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_SyslogProbe.md)**  
 The ServiceNow Syslog probe uses the MID Server to deliver log messages from a ServiceNow instance to another machine, such as a dedicated log server, using the syslog protocol over an IP network.
 
-**Parent Topic:**[Integration options](../../concept/c_IntegrationOptions.md)
+**Parent Topic:**[Integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntegrationOptions.md)
 

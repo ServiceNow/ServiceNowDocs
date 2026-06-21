@@ -2,6 +2,7 @@
 title: Configure attachment system properties
 description: You can disable the drag-and-drop feature. \(Users can still upload attachments by browsing to the file.\) You can also limit the attachment file size, restrict who can upload attachments, and restrict what file extensions can be uploaded.You can specify the maximum size allowable for attachments to avoid issues with the user's active session on the instance. The maximum attachment size for email attachments is configured separately.You can restrict who can upload attachments.The glide.attachment.extensions property restricts the file extensions that users can upload as attachments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_DisablingTheDragAndDropFeature.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -28,7 +29,7 @@ Role required: admin
 3.  Click **Save**.
 
 
-**Parent Topic:**[Administering attachments](../reference/r_AdministeringAttachments.md)
+**Parent Topic:**[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AdministeringAttachments.md)
 
 ## Limit attachment file size
 

@@ -2,6 +2,7 @@
 title: Configure Microsoft DLP IR integration settings
 description: Modify the  Microsoft DLP IR  integration default system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/data-loss-prevention/configure-microsoft-integration-settings.html
 release: xanadu
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -83,5 +84,5 @@ Option to choose whether you want to enable download of the file. By default, th
 
 Your modified integration settings are applied in the next polling interval as defined in the profile.
 
-**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](../concept/dlp-integration-microsoft.md)
+**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/data-loss-prevention/dlp-integration-microsoft.md)
 

@@ -2,6 +2,7 @@
 title: Import product catalog entities
 description: Import product catalog entities by using the ServiceNow Platform import function.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/import-product-catalog-entities.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -29,9 +30,9 @@ Role required: product\_catalog\_admin
 
 3.  If the following message appears, select the link to change the application scope to Product Catalog Management.
 
-    ![](../image/e-i-import-edit-message-screen.png)
+    \[Omitted image "e-i-import-edit-message-screen.png"\] Alt text:
 
-4.  Attach the JSON file by selecting the **Attachments** \(![](../../../reuse/icons/product-icons/paperclip-fill-24.svg)\) icon.
+4.  Attach the JSON file by selecting the **Attachments** \(\[Omitted image "paperclip-fill-24.svg"\] Alt text:\) icon.
 
 5.  Select **Choose file** and select the file you want to import.
 
@@ -57,6 +58,6 @@ Role required: product\_catalog\_admin
 
 ## What to do next
 
--   [View export job status](view-export-job-status.md)
--   [View import job status](view-import-job-status.md)
+-   [View export job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/view-export-job-status.md)
+-   [View import job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/view-import-job-status.md)
 

@@ -2,6 +2,7 @@
 title: Cancel the signature process from the Legal Counsel Center
 description: Cancel a signature process for a legal request from the Legal Counsel Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/snlc-cancel-signature-lcc.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -27,7 +28,7 @@ You can cancel the signature process from the Legal Counsel Center when the lega
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  Open the legal request for which you want to cancel the signature.
 
@@ -42,5 +43,5 @@ You can cancel the signature process from the Legal Counsel Center when the lega
 
 The contract status updates to Signature cancelled, and a notification email is sent to all signatories.
 
-**Parent Topic:**[Signature workflow for a legal request](../concept/snlc-lsd-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 

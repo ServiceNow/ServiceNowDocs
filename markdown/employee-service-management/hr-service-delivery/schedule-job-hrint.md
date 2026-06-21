@@ -2,6 +2,7 @@
 title: Configure the flow for HR Service Delivery Integration with Cornerstone OnDemand
 description: Specify the frequency and time at which you want to run the scheduled flow that pulls learning objects, users, and transcripts from the Cornerstone OnDemand application into the ServiceNow system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/schedule-job-hrint.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

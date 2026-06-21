@@ -2,6 +2,7 @@
 title: Installed with field normalization
 description: Several components are installed with Field Normalization.Manage field normalization and transformation.Create test records for normalizations and transformations. Only records opened by users with this role are available for testing normalization and transformation rules in Test mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_InstalledWithFieldNormalization.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -23,7 +24,7 @@ The following preferences \(**Field Normalization** &gt; **Administration** &gt;
 |Decoration URL|Enter the URL for the help/information link associated with the Field Normalization decoration. This link opens the page presented to users who do not have rights to see the normalization or transformation record. The default link opens a ServiceNow Wiki page with a general explanation of Field Normalization. The purpose of this page is to explain to normal users why a field value they entered was changed automatically.|
 |Restrict decorations to roles|Use this preference to define the user roles that can view the reference icon \(decoration\) adjacent to a normalized field. This decoration displays transformation and normalization records to users with the normalizer role. For all other users, it opens the URL specified in the Decoration URL preference. If this preference does not specify any roles, then all roles can see the decoration.|
 
-![](../image/NormalizationPreferences.png "Normalization preferences")
+\[Omitted image "NormalizationPreferences.png"\] Alt text:
 
 ## Field Normalization business rules
 
@@ -69,12 +70,12 @@ The following business rules were created for this plugin:
 |normalizer|Person authorized to manage field normalization and transformation.|
 |normalization\_tester|Person authorized to create test records for normalizations and transformations. Only records opened by users with this role are available for testing normalization and transformation rules in Test mode.|
 
-**Parent Topic:**[Activate Field Normalization](../task/activate-field-normalization.md)
+**Parent Topic:**[Activate Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/activate-field-normalization.md)
 
 **Related topics**  
 
 
-[Enable auditing for a table](https://www.servicenow.com/docs/access?context=t_EnableAuditingForATable&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.t_EnableAuditingForATable]
 
 ## Normalizer \[normalizer\]
 

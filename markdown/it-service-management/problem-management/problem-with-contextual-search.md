@@ -2,6 +2,7 @@
 title: Working with contextual search
 description: Contextual search display results on forms and record producers based on the text that you provide in a field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/problem-management/problem-with-contextual-search.html
 release: xanadu
 product: Problem Management
 classification: problem-management
@@ -23,10 +24,10 @@ You can:
 -   Use the choice list next to the **Related Search** field to select the category such as **Knowledge \(All\)**, **Pinned Articles**, **Incidents**, **Open Problems**, and **Resolved Problems**.
 -   Attach the article in the **Notes** &gt; **Work notes** if your search result displays knowledge articles.
 
-**Parent Topic:**[Reference section for Problem Management](reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/problem-management/reference-section-for-problem-management.md)
 
 **Related topics**  
 
 
-[Contextual search overview](https://www.servicenow.com/docs/access?context=c_ContextualSearch&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ContextualSearch]
 

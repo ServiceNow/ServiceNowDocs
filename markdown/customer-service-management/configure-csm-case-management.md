@@ -2,7 +2,10 @@
 title: Configure case management
 description: Configure the Customer Service Management features and components that agents and managers use to create and resolve cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-csm-case-management.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3

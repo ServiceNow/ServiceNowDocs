@@ -2,13 +2,14 @@
 title: Template Configuration for Intelligence Sharing
 description: Create and publish an outbound intelligence sharing template to define how threat intelligence is shared from the source TISC instance to the target instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-template-config-sharing.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-04"
 reading_time_minutes: 1
-breadcrumb: [Manual and Automated Sharing using flows, Share Threat Intelligence data between TISC instances, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Manual and Automated Sharing using flows, Share Threat Intelligence data between TISC instances, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Template Configuration for Intelligence Sharing

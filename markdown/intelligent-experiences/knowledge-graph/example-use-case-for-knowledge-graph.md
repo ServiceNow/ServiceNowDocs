@@ -2,6 +2,7 @@
 title: Leverage Knowledge Graph prebuilt integration with Virtual Agent
 description: The prebuilt integrations of Knowledge Graph can help ServiceNow users to drive productivity, enhance decision-making, and unlock the full potential of enterprise data- while maintaining robust data governance and permission controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/knowledge-graph/example-use-case-for-knowledge-graph.html
 release: xanadu
 product: Knowledge Graph
 classification: knowledge-graph
@@ -53,7 +54,7 @@ Here’s an example use case:
 
 An employee uses Virtual Agent to request a laptop replacement. Virtual Agent uses the assigned Knowledge Graph schema to find information and resolve the query with minimal user inputs.
 
-![Knowledge Graph example.](../Images/mmasset0020508-knowledgegraph-vertical.svg)
+\[Omitted image "mmasset0020508-knowledgegraph-vertical.svg"\] Alt text: Knowledge Graph example.
 
 1.  The user uses Virtual Agent to query `Need assistance in laptop replacement.`
 2.  Virtual Agent processes the query and generates the following prompts required for this request:
@@ -89,9 +90,9 @@ Inline citations appear at the end of the relevant synthesized response sentence
 
 Here's an example:
 
-![People results appear in the synthesized response on the portal's search results page and provide details such as the person's name, position, location, and email.](../Images/people-search-example.png "Example of synthesized response for people on the portal's search results page")
+\[Omitted image "people-search-example.png"\] Alt text: People results appear in the synthesized response on the portal's search results page and provide details such as the person's name, position, location, and email.
 
-![People results appear in the synthesized response and provide details such as the person's name, position, location, and email.](../Images/people-citation-kg.png "Example of synthesized response with people inline citations in chat")
+\[Omitted image "people-citation-kg.png"\] Alt text: People results appear in the synthesized response and provide details such as the person's name, position, location, and email.
 
 Selecting the person's name presents a popover. The information in the popover can include the following information:
 
@@ -106,7 +107,7 @@ Selecting the person's name presents a popover. The information in the popover c
 
     -   Shared Microsoft SharePoint files between you and the person found, appear only on the people popover.
     -   The shared files only appear after you have completed the prompt to **Log in**, and signed in successfully. If you do not have a valid token, you will be prompted to sign in and re-directed to Microsoft login page.
-    -   If you have not configured Microsoft OneDrive application, see [Configure Microsoft OneDrive application for Knowledge Graph](../Task/create-microsoft-onedrive-app.md).
-    ![Shared files in people citation card](../Images/people-citation-window-kg.png)
+    -   If you have not configured Microsoft OneDrive application, see [Configure Microsoft OneDrive application for Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/knowledge-graph/create-microsoft-onedrive-app.md).
+    \[Omitted image "people-citation-window-kg.png"\] Alt text: Shared files in people citation card
 
 

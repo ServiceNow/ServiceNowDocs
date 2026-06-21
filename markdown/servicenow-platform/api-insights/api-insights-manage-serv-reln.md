@@ -2,6 +2,7 @@
 title: Managing application service relationships for APIs
 description: You can associate APIs with relevant configuration items \(CIs\) to ensure accurate mappings between APIs and the configuration items they support.View existing relationships between an API and application services.Create relationships between an API and application services.Remove relationships between an API and application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/api-insights/api-insights-manage-serv-reln.html
 release: xanadu
 product: API Insights
 classification: api-insights
@@ -25,15 +26,15 @@ By using application service relationships, you can:
 -   Understand the dependencies between APIs and the CIs they support.
 -   Manage and monitor API performance and its impact on critical business services and CIs.
 
-For more information, see [Application services](../../configuration-management/concept/application-services.md).
+For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 The available actions for handling application service relationships for APIs include:
 
--   [View application service relationships](api-insights-manage-serv-reln.md#).
--   [Create application service relationships](api-insights-manage-serv-reln.md#).
--   [Remove application service relationships](api-insights-manage-serv-reln.md#).
+-   [View application service relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/api-insights/api-insights-manage-serv-reln.md).
+-   [Create application service relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/api-insights/api-insights-manage-serv-reln.md).
+-   [Remove application service relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/api-insights/api-insights-manage-serv-reln.md).
 
-**Note:** When managing multiple API relationships for application services, you can automate the mapping. For more information, see [Automate tag-based relationship mapping](../../../Chunk1864793858.md#).
+**Note:** When managing multiple API relationships for application services, you can automate the mapping. For more information, see [Automate tag-based relationship mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
 ## View application service relationships
 

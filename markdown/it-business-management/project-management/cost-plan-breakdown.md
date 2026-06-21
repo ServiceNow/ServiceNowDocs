@@ -2,6 +2,7 @@
 title: Cost plan breakdown
 description: A cost plan breakdown captures the estimated cost and actual cost for every fiscal period. Cost plan, project, demand, program, and portfolio are the breakdowns types that are available.Update a cost plan breakdown record that specifies the estimated and actual cost, at a granular level, for specific fiscal periods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/cost-plan-breakdown.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -32,7 +33,7 @@ A cost plan breakdown captures the estimated cost and actual cost for every fisc
     If a project or a demand is part of a portfolio, the breakdown type of **Portfolio** provides the aggregate of portfolio level costs per period.
 
 
-**Parent Topic:**[Create a project cost plan](../task/t_CreateAProjectCostPlan.md)
+**Parent Topic:**[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProjectCostPlan.md)
 
 ## Update a cost plan breakdown
 
@@ -56,15 +57,15 @@ Role required: it\_project\_manager
 
 6.  In the Cost Plan Breakdown form, view and update the enabled fields.
 
-<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d95440e215">
+<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d90635e215">
 
 Field
 
-</th><th align="left" id="d95440e218">
+</th><th align="left" id="d90635e218">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d95440e224">
+</th></tr></thead><tbody><tr><td id="d90635e224">
 
 **Task**
 
@@ -72,7 +73,7 @@ Description
 
 Task to which the cost plan breakdown belongs.
 
-</td></tr><tr><td id="d95440e233">
+</td></tr><tr><td id="d90635e233">
 
 **Portfolio**
 
@@ -80,7 +81,7 @@ Task to which the cost plan breakdown belongs.
 
 Portfolio to which the cost plan breakdown belongs.
 
-</td></tr><tr><td id="d95440e242">
+</td></tr><tr><td id="d90635e242">
 
 **Entered currency**
 
@@ -88,7 +89,7 @@ Portfolio to which the cost plan breakdown belongs.
 
 Currency specified in the cost plan.
 
-</td></tr><tr><td id="d95440e251">
+</td></tr><tr><td id="d90635e251">
 
 **Exchange rate**
 
@@ -96,7 +97,7 @@ Currency specified in the cost plan.
 
 Rate in effect for the period corresponding to the cost plan breakdown. When the period corresponding to the cost plan break down has multiple rates, the rate in effect on the first date of that period is used. Exchange rate is used to convert entered cost into functional cost. It is obtained from the itfm\_fx\_rate \[budget\_reference\_rates\] table.
 
-</td></tr><tr><td id="d95440e264">
+</td></tr><tr><td id="d90635e264">
 
 **Actual**
 
@@ -104,7 +105,7 @@ Rate in effect for the period corresponding to the cost plan breakdown. When the
 
 Actual cost generated from processed expense lines.
 
-</td></tr><tr><td id="d95440e273">
+</td></tr><tr><td id="d90635e273">
 
 **Cost plan**
 
@@ -112,15 +113,15 @@ Actual cost generated from processed expense lines.
 
 Cost plan to which the cost plan breakdown belongs.
 
-</td></tr><tr><td id="d95440e282">
+</td></tr><tr><td id="d90635e282">
 
 **Fiscal period**
 
 </td><td>
 
-Fiscals generated at period level. For information on periods, see [fiscal calendars](https://www.servicenow.com/docs/access?context=c_FiscalCalendar&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Fiscals generated at period level. For information on periods, see fiscal calendars.
 
-</td></tr><tr><td id="d95440e295">
+</td></tr><tr><td id="d90635e295">
 
 **Entered cost**
 
@@ -128,7 +129,7 @@ Fiscals generated at period level. For information on periods, see [fiscal calen
 
 Breakdown amount in entered currency.
 
-</td></tr><tr><td id="d95440e304">
+</td></tr><tr><td id="d90635e304">
 
 **Functional cost**
 
@@ -136,7 +137,7 @@ Breakdown amount in entered currency.
 
 Functional cost obtained by multiplying exchange rate with entered cost.
 
-</td></tr><tr><td id="d95440e313">
+</td></tr><tr><td id="d90635e313">
 
 **Exchange rate date**
 

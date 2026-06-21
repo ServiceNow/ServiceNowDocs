@@ -2,6 +2,7 @@
 title: Azure virtual machine footprint
 description: The following tables describe Azure virtual machine \(VM\) resource consumption in a Linux environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/azure-vm-metrics-footprint.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -45,5 +46,5 @@ The following tables describe Azure virtual machine \(VM\) resource consumption 
 |Process CPU utilization|65%|
 |Host CPU utilization|˜93%|
 
-**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

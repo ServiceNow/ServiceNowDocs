@@ -2,6 +2,7 @@
 title: Configuration Compliance correlation
 description: Configuration Compliance provides prioritization and test result grouping \(into remediation task\) to aid remediation of non-compliance issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/vuln-config-compl-correlation.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -46,7 +47,7 @@ The group membership precedence only applies to items where the item did not pas
 
 The **Result** value determines the state. We ignore remediation tasks in the **Closed-Fixed** and **Closed-Canceled** state. The item state is computed from the states of all other remediation tasks it belongs to or is set to **Open**, if no other remediation task exists for the item.
 
-![Remediation task order of precedence](../image/OrderOfPrecedence.png)
+\[Omitted image "OrderOfPrecedence.png"\] Alt text: Remediation task order of precedence
 
 ## Remediation Tasks creation
 
@@ -69,5 +70,5 @@ There are two ways to create and populate **Remediation Tasks**.
 
 **Ungrouped Test Results** contain all non-pass test results that are not members of an active \(non-**Closed**\) remediation task. This module is updated after every import and whenever test results are added or removed from a remediation task.
 
-**Parent Topic:**[Configuration Compliance imported data](vuln-config-compl-policies.md)
+**Parent Topic:**[Configuration Compliance imported data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-policies.md)
 

@@ -2,6 +2,7 @@
 title: Integration with Industry products
 description: Provides an integration between the Industry products and Field Service Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-integrations/industry-products-integration.html
 release: xanadu
 product: Field Service Integrations
 classification: field-service-integrations
@@ -25,8 +26,8 @@ When a customer or consumer views a case from any of the Industry products, they
 
 The following ServiceNow® Industry Products extend the value of supporting data models, frameworks, and capabilities required to integrate with work orders in Field Service Management.
 
--   Financial Services Operations. For more information, see [Financial Services Operations integration with Field Service Management](https://www.servicenow.com/docs/access?context=integration-with-fsm&version=xanadu&pubname=xanadu-financial-services-operations&ft:locale=en-US).
--   -   Technology Provider Service Management. For more information, see [Technology Provider Service Management integration with Field Service Management](https://www.servicenow.com/docs/access?context=technology-provider-service-mgt-overview&version=xanadu&pubname=xanadu-technology&ft:locale=en-US).
+-   Financial Services Operations. For more information, see Financial Services Operations integration with Field Service Management.
+-   -   Technology Provider Service Management. For more information, see Technology Provider Service Management integration with Field Service Management.
 
 ## Product use rights included with Industry products
 
@@ -55,5 +56,5 @@ Updating the **Account** field on the Work Order form also updates the **Company
 
 Updating the **Contact** field on the Work Order form updates the **Caller** field.
 
-**Parent Topic:**[Integrating Field Service Management with other applications](integrate-fsm-other-applications.md)
+**Parent Topic:**[Integrating Field Service Management with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-integrations/integrate-fsm-other-applications.md)
 

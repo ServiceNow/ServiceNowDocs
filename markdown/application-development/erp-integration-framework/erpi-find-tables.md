@@ -2,6 +2,7 @@
 title: View and edit ERP remote table details with ERP Data Hub
 description: View and edit details for ERP \(Enterprise Resource Planning\) remote tables in ERP Data Hub, such as their attachment settings and short descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erpi-find-tables.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -24,19 +25,19 @@ Role required:
 
 ## About this task
 
-To ensure data integrity, you can't create new remote tables in ERP Data Hub, but you can clone existing ERP models and extend standard ERP remote tables to customize them. For more information, see [Clone an ERP model in ERP Data Hub](erp-canvas-clone-data-model.md).
+To ensure data integrity, you can't create new remote tables in ERP Data Hub, but you can clone existing ERP models and extend standard ERP remote tables to customize them. For more information, see [Clone an ERP model in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-clone-data-model.md).
 
-For information on adding and removing fields to and from remote tables, see [Customize fields for an ERP remote table in ERP Data Hub](erp-canvas-build-remote-table.md).
+For information on adding and removing fields to and from remote tables, see [Customize fields for an ERP remote table in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-build-remote-table.md).
 
-ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table. For more information, see [Extracting and transforming data in ERP Data Hub](../concept/erp-canvas-extraction-tables.md).
+ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table. For more information, see [Extracting and transforming data in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-extraction-tables.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **ERP Data Hub** &gt; **ERP Data Hub Home**.
 
-2.  Open the Remote tables page by selecting the remote tables icon \(![remote tables navigation icon](../image/erpc-remote-table-icon.png)\) in the side panel.
+2.  Open the Remote tables page by selecting the remote tables icon \(\[Omitted image "erpc-remote-table-icon.png"\] Alt text: remote tables navigation icon\) in the side panel.
 
-    ![Remote tables list](../image/erpc-remote-tables-list.png "ERP Data Hub remote tables page")
+    \[Omitted image "erpc-remote-tables-list.png"\] Alt text: Remote tables list
 
 3.  View the details for a remote table by selecting the remote table **Name**.
 
@@ -46,7 +47,7 @@ ERP remote tables have a limit of 1,000 records. If you need a larger amount of 
 
 5.  Edit the remote table details as needed.
 
-    For a description of the field values, see [ERP Data Hub remote table form field descriptions](../reference/erp-canvas-remote-table-descriptions.md).
+    For a description of the field values, see [ERP Data Hub remote table form field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-remote-table-descriptions.md).
 
 6.  View the fields in the remote table by selecting the **Remote table fields** tab.
 
@@ -55,5 +56,5 @@ ERP remote tables have a limit of 1,000 records. If you need a larger amount of 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Using ERP remote tables in ERP Data Hub](../concept/erp-canvas-work-with-remote-tables.md)
+**Parent Topic:**[Using ERP remote tables in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-work-with-remote-tables.md)
 

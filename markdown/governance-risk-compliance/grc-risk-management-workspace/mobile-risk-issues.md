@@ -2,6 +2,7 @@
 title: Assign Risk Management issues with the GRC Mobile application
 description: Assign unassigned issues to a member of your assignment group. Navigate through the record to view more details about the Risk Statement, the Risk record, and Remediation Tasks associated with an issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-issues.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -25,48 +26,48 @@ Edit or assign an issue from the list of records. Alternatively, add or work not
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](mobile-login-risk-mobileapp.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.md).
 
 2.  With the Risk landing screen displayed, under the `Team's Unassigned Work` section, tap **Issues**.
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![Team's unassigned work issues highlighted.](../image/mobile_Risk_overview-app-redo.png)
+    \[Omitted image "mobile\_Risk\_overview-app-redo.png"\] Alt text: Team's unassigned work issues highlighted.
 
     The Issues screen is displayed with a list of records.
 
-    ![Unassigned work issues list.](../image/mobile-risk-issue-UW-list.jpg)
+    \[Omitted image "mobile-risk-issue-UW-list.jpg"\] Alt text: Unassigned work issues list.
 
-3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](mobile-risk-set-filters.md) to search for records that match specific search criteria.
+3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To edit or assign an issue directly from the list of records displayed on the Issues screen, swipe left on a record to open the menu.
 
-    ![Swipe action on issue record.](../image/mobile-risk-uw-issue-swipe.jpg)
+    \[Omitted image "mobile-risk-uw-issue-swipe.jpg"\] Alt text: Swipe action on issue record.
 
 5.  In the menu that is displayed, choose one from the following table to continue.
 
     |Option|Description|
     |------|-----------|
-    |**Edit**|In the Extend by days field on the Edit Issue screen that is displayed, enter a value. This value is added to the Duration field in your ServiceNow AI Platform instance. Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.|
+    |**Edit**|In the Extend by days field on the Edit Issue screen that is displayed, enter a value. This value is added to the Duration field in your ServiceNow AI Platform instance. Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.|
     |**Assign**|On the Issue Assignment screen that is displayed, tap the **Assignment Group** and **Assigned to** fields to assign the issue.|
 
 6.  Alternatively, with the Issues screen displayed, tap a record on the list to open it and view more details.
 
 7.  With the fields on the issue record displayed, choose one in the following table to continue.
 
-    ![Issue record with tabs highlighted.](../image/mobile-risk-issue-uw-record.jpg)
+    \[Omitted image "mobile-risk-issue-uw-record.jpg"\] Alt text: Issue record with tabs highlighted.
 
-<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d296342e248">
+<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d265349e248">
 
 Option
 
-</th><th align="left" id="d296342e251">
+</th><th align="left" id="d265349e251">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d296342e257">
+</th></tr></thead><tbody><tr><td id="d265349e257">
 
 **Details tab**
 
@@ -78,20 +79,20 @@ Tap the **Control Objective/Risk Statement** field to expand it. A list of Risk 
 
 Tap the **Control/Risk** field to expand it. A list of Risk records is displayed. Tap an item on the list to open the record. With the record displayed, select the **Details** or **Activity Stream** tabs for more information.
 
--   At the top right of the screen with the Issue screen displayed, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and assign the issue. Follow the steps described in the preceding table.
+-   At the top right of the screen with the Issue screen displayed, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d296342e298">
+</td></tr><tr><td id="d265349e298">
 
 **Activity Stream tab**
 
 </td><td>
 
-With the Activity Stream tab selected, choose one to continue.-   View work notes and additional comments. Tap the plus icon \(![Plus icon.](../../grc-common/image/mobile_instances_plus.png)\) to add a work note or attach a file.
--   At the top right of the screen, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to assign or edit the issue. Follow the steps described in the preceding table.
+With the Activity Stream tab selected, choose one to continue.-   View work notes and additional comments. Tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\) to add a work note or attach a file.
+-   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to assign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d296342e328">
+</td></tr><tr><td id="d265349e328">
 
 **Related List tab**
 
@@ -99,10 +100,10 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 
 With the Related List tab selected, follow these steps.1.  Tap **Remediation Tasks** to expand the field. On the Remediation Task screen, view the items on the related list that are associated with the Issue record.
 2.  On the list that is displayed, tap an item to open the record and view more details about the task.
-3.  After your review, with navigate back to the issue record and tap the menu \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to assign or edit the issue. Follow the steps described in the preceding table.
+3.  After your review, with navigate back to the issue record and tap the menu \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to assign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d296342e358">
+</td></tr><tr><td id="d265349e358">
 
 **Tap a screen icon at the bottom of the screen.**
 
@@ -117,5 +118,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Risk icon to ret
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Mobile experience for GRC Risk Management](../concept/mobile-risk-overview.md)
+**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
 

@@ -2,6 +2,7 @@
 title: Local Authentication
 description: Use ServiceNow local authentication to secure the users login on a local device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/local-authentication.html
 release: xanadu
 product: Authentication
 classification: authentication

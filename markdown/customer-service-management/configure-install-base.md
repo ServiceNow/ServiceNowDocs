@@ -2,7 +2,10 @@
 title: Configure install base
 description: Track which products and services have been purchased by a customer, how they have been installed or provisioned, along with the detailed configuration for each installed item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-install-base.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -23,11 +26,11 @@ Install base requires the Customer Service Install Base Management plugin \(com.
 
 Capture the install base for a customer by creating sold products, install base items, and installed products to enable customer service agents to easily trace issues back to the right product, instances of that product, and other entities that might impact their functioning.
 
-Before setting up your install base, create your product data by creating or importing product models. For more information, see [Configure product data](configure-csm-products.md).
+Before setting up your install base, create your product data by creating or importing product models. For more information, see [Configure product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configure-csm-products.md).
 
 This example shows the summary of the customer's purchase on the Solana microwave.
 
-![Solana corporation sells 800 series microwave in different colors and two capacity choices. Boxeo installed one model in their break room in the office as installed base and manages it.](../image/install-base-example.png "Using install base management")
+\[Omitted image "install-base-example.png"\] Alt text: Solana corporation sells 800 series microwave in different colors and two capacity choices. Boxeo installed one model in their break room in the office as installed base and manages it.
 
 There are three parts to setting up your install base.
 

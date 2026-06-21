@@ -2,6 +2,7 @@
 title: Insights Explorer settings
 description: You can configure Insights Explorer settings to control for example, the refresh frequency or the display of related records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/metric-explorer-settings.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -45,5 +46,5 @@ Enable any indicator to display related records such as incidents or problems fo
 </table>**Related topics**  
 
 
-[Dependency Views map indicators](https://www.servicenow.com/docs/access?context=t_CreateModifyNGBSMMapIndicators&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_CreateModifyNGBSMMapIndicators]
 

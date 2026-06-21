@@ -2,6 +2,7 @@
 title: View your users' health and safety status
 description: View the health and safety status of your team to check their progress on company requirements for returning to the workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-readiness-core/manager-view-health-status.html
 release: xanadu
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -31,10 +32,10 @@ All users can view the health and safety status of their direct reports. However
 
     **Note:** A user is **Cleared** or **Not Cleared** based on the health and safety requirements of their current location.
 
-    ![User view of health and safety status for their direct reports.](../image/health-status-manager.png)
+    \[Omitted image "health-status-manager.png"\] Alt text: User view of health and safety status for their direct reports.
 
 2.  View the specific list of requirements that a user has cleared or not cleared by clicking **View Details**.
 
 
-**Parent Topic:**[Employee Health and Safety Status](../concept/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

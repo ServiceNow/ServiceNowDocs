@@ -2,6 +2,7 @@
 title: Creator Studio and domain separation
 description: Domain separation is not supported in Creator Studio. This means that you can't separate data, processes, and administrative tasks into distinct groups, called domains, within the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-domain-separation.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -19,12 +20,12 @@ Domain separation is not supported in Creator Studio. This means that you can't 
 
 Though there may be a domain specified on data tables that Creator Studio uses, Creator Studio doesn't provide any special handling of data based on domains.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
-**Parent Topic:**[Configuring Creator Studio](configuring-creator-studio.md)
+**Parent Topic:**[Configuring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/configuring-creator-studio.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

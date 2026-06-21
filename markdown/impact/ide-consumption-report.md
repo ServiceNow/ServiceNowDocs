@@ -2,7 +2,10 @@
 title: Consumption Report
 description: The Consumption Report provides an overview of your Impact tier features and their usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/ide-consumption-report.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

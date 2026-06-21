@@ -2,6 +2,7 @@
 title: CIs in maintenance mode
 description: Configure anomaly detection to exclude metrics for CIs that are in maintenance mode from model learning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/cis-maintenance-mode.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,7 +18,7 @@ Configure anomaly detection to exclude metrics for CIs that are in maintenance m
 
 You can change the settings of system properties to include or exclude metric data for CIs while they are in maintenance mode.
 
-When the system property [sa.model\_learner.maint\_event\_record\_history\_enabled](../reference/installed-with-metrics.md) is set to true \(default\), Metric Intelligence stores historical information about the times CIs enter and exit maintenance mode. When the system property [sa\_metric.maint\_exclusion](../reference/installed-with-metrics.md) is set to true \(default\), metrics from CIs that are in maintenance mode are excluded from model learning.
+When the system property [sa.model\_learner.maint\_event\_record\_history\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/installed-with-metrics.md) is set to true \(default\), Metric Intelligence stores historical information about the times CIs enter and exit maintenance mode. When the system property [sa\_metric.maint\_exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/installed-with-metrics.md) is set to true \(default\), metrics from CIs that are in maintenance mode are excluded from model learning.
 
-**Parent Topic:**[Metric Intelligence](operational-metrics.md)
+**Parent Topic:**[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/operational-metrics.md)
 

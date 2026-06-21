@@ -2,6 +2,7 @@
 title: Create a credit service case for a covenant breach or loan restructuring
 description: Create a credit service case to handle a covenant breach or restructuring of a loan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-loan-operations/create-credit-case-loan-ops.html
 release: xanadu
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -24,7 +25,7 @@ Role required:
 
 **Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see .
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -34,7 +35,7 @@ An API in the backend can also trigger a Covenant Breach credit service case whe
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab under **Credit Service Cases**, click **All**.
 

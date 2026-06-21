@@ -2,7 +2,10 @@
 title: Review time recorded for a task
 description: Agents can review the time recorded for work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-agent-review-time.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ The **Time Worked** related list on the Work Order Task form displays the Time W
 3.  To view a record, click the **Category**.
 
 
-**Parent Topic:**[Record the time worked on a work order task](../concept/Recording-time-spent-on-work-order-tasks.md)
+**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Recording-time-spent-on-work-order-tasks.md)
 

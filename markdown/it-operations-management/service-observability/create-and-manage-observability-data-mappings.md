@@ -2,6 +2,7 @@
 title: Create and manage observability data mappings
 description: Map your services to the data from a connected external application performance management \(APM\) instance, and view it in charts for the service and its related entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-observability/create-and-manage-observability-data-mappings.html
 release: xanadu
 product: Service Observability
 classification: service-observability
@@ -17,7 +18,7 @@ Map your services to the data from a connected external application performance 
 
 ## Before you begin
 
--   If you are on version 1.5.0, activate the services that have data from an external APM instance. For instructions on how to activate the services, see [Activate teams and services](../concept/activate-teams-and-services.md). For later versions, you don't need to activate services. You can map any of the following service types:
+-   If you are on version 1.5.0, activate the services that have data from an external APM instance. For instructions on how to activate the services, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/activate-teams-and-services.md). For later versions, you don't need to activate services. You can map any of the following service types:
     -   Application
     -   Managed application
     -   Calculated application
@@ -26,7 +27,7 @@ Map your services to the data from a connected external application performance 
     -   Business services
     -   Technical
     -   Tag-based
--   [Connect an observability data source](connect-an-observability-data-source.md)
+-   [Connect an observability data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/connect-an-observability-data-source.md)
 
 Role required: sn\_sow\_svcobs.admin
 
@@ -55,7 +56,7 @@ If some of your metrics on different entities use a different key name or a diff
 
 Each entity type has its own dashboard and each metric and related CI has its own chart.
 
-**Note:** If you are mapping Datadog entities, read [Datadog considerations](datadog-considerations.md) before attempting this procedure.
+**Note:** If you are mapping Datadog entities, read [Datadog considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/datadog-considerations.md) before attempting this procedure.
 
 ## Procedure
 
@@ -69,7 +70,7 @@ Each entity type has its own dashboard and each metric and related CI has its ow
 
 4.  Choose the services that should use this mapping.
 
-    For version 1.5.0: Enter the names of the activated services that you want to map. For information about activating services, see [Activate teams and services](../concept/activate-teams-and-services.md).
+    For version 1.5.0: Enter the names of the activated services that you want to map. For information about activating services, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/activate-teams-and-services.md).
 
     For version 1.6.x and later:
 
@@ -95,15 +96,15 @@ Each entity type has its own dashboard and each metric and related CI has its ow
 
 7.  If some of your entities use different key names or values, create exceptions to the default policy by configuring them in the Exceptions card.
 
-    For a description of the field values, see [Observability data mapping form](../reference/observability-data-mapping-form.md).
+    For a description of the field values, see [Observability data mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/observability-data-mapping-form.md).
 
 
 ## Result
 
 On the **Observability** tab of the Service details page, dashboards and charts appear for the entities found from the mapping.
 
--   **[Datadog considerations](datadog-considerations.md)**  
+-   **[Datadog considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/datadog-considerations.md)**  
 Read this topic to understand how to correctly configure your data mappings for a Datadog integration with Service Observability.
 
-**Parent Topic:**[Configuring Service Observability](../concept/configuring-service-observability.md)
+**Parent Topic:**[Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/configuring-service-observability.md)
 

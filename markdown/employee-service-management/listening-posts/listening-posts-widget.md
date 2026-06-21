@@ -2,6 +2,7 @@
 title: Widgets for Listening Posts
 description: Pre-configured widgets help to display a pulse survey that is raised from Listening Posts onto Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/listening-posts/listening-posts-widget.html
 release: xanadu
 product: Listening Posts
 classification: listening-posts

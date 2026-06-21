@@ -2,6 +2,7 @@
 title: Add or modify content type for Content Publishing
 description: Use Content Types to associate the content type category with a service portal widget to determine where content resides on your service portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ecpro-manage-content-types.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,17 +28,17 @@ The base system provides content types and content that you can use.
 
 2.  Click **New** or an existing content type to edit.
 
-    **Note:** For more information on how to create and use content types, see [Content Library](../concept/ec-streamline-content.md).
+    **Note:** For more information on how to create and use content types, see [Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
-<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d129020e100">
+<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d126397e100">
 
 Field
 
-</th><th align="left" id="d129020e103">
+</th><th align="left" id="d126397e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d129020e109">
+</th></tr></thead><tbody><tr><td id="d126397e109">
 
 **Name**
 
@@ -45,7 +46,7 @@ Description
 
 Unique name that describes the content.
 
-</td></tr><tr><td id="d129020e118">
+</td></tr><tr><td id="d126397e118">
 
 **Category**
 
@@ -57,9 +58,9 @@ The content type categories are:-   Portal Content
 -   To-do Content
 -   Mobile Content
 
-For more information, see [Content Library](../concept/ec-streamline-content.md).
+For more information, see [Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
-</td></tr><tr><td id="d129020e156">
+</td></tr><tr><td id="d126397e156">
 
 **Associated widgets**
 
@@ -67,7 +68,7 @@ For more information, see [Content Library](../concept/ec-streamline-content.md)
 
 Widgets that can show the type of content you are defining or editing.
 
-</td></tr><tr><td id="d129020e165">
+</td></tr><tr><td id="d126397e165">
 
 **Active**
 
@@ -75,7 +76,7 @@ Widgets that can show the type of content you are defining or editing.
 
 Indicates that the content type is active and available to use.
 
-</td></tr><tr><td id="d129020e175">
+</td></tr><tr><td id="d126397e175">
 
 **Value**
 

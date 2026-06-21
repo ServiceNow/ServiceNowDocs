@@ -2,6 +2,7 @@
 title: Create a Talent Development Aspiration
 description: Create Aspirations to define and track professional and personal interests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/egd-create-aspirations.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -50,7 +51,7 @@ Role required: None
 
 ## What to do next
 
-You can create a **Growth Plan** from your **Aspiration**. For details about creating growth plans, see [Create a growth plan](egd-create-growth-plan.md)
+You can create a **Growth Plan** from your **Aspiration**. For details about creating growth plans, see [Create a growth plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/egd-create-growth-plan.md)
 
-**Parent Topic:**[Using the Talent Development Core application](../concept/egd-use.md)
+**Parent Topic:**[Using the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/egd-use.md)
 

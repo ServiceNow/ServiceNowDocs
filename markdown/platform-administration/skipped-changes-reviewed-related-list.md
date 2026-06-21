@@ -2,6 +2,7 @@
 title: Skipped Changes Reviewed related list
 description: Skipped Changes Reviewed lists update records that previously appeared on the Skipped Changes to Review related list and have been reviewed. When you select a skipped record to review and set a Resolution Status to a value other than Not Reviewed, the update record moves to the Skipped Changes Reviewed related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/skipped-changes-reviewed-related-list.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -146,5 +147,5 @@ Changed by vendor
 Indicates whether the file has been changed by the vendor since the last upgrade.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Upgrade History module: Track every upgrade](c_UpgradeHistory.md)
+</table>**Parent Topic:**[Upgrade History module: Track every upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UpgradeHistory.md)
 

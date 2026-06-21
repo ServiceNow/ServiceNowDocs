@@ -2,6 +2,7 @@
 title: Set up the Incident Management form
 description: Configure the Incident form to see the impact of an incident and then restore affected services. The CSDM framework enables you to view rich context for incidents: the CIs involved in the incident and the service offerings, business applications, and business services that the incident affects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/csdm-inc-mgt-form-configure.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -34,9 +35,9 @@ Incident Management leverages the CSDM data structure to display information tha
     -   **Populate Impacted Services based on Affected CIs**. This property enables display and update of the **Impacted Services/CIs** related list when you perform the **Refresh Impacted Services** action.
     -   **Populate the Business Application related list for incidents**
     -   **Populate the Service Offering related list for incidents**
-    The properties are fully described in [Incident Management properties](../reference/incident-management-properties.md).
+    The properties are fully described in [Incident Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/incident-management-properties.md).
 
-3.  Ensure that the **Principle Class** option is selected for the CI or CI class as described in [Create a CI class](https://www.servicenow.com/docs/access?context=t_CreateCIType&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) and [Update the list of classes in the Principal Class filter](https://www.servicenow.com/docs/access?context=update-principal-class-filter&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+3.  Ensure that the **Principle Class** option is selected for the CI or CI class as described in  and .
 
 4.  Navigate to **All** &gt; **Incident** &gt; **Open** and fill in the following fields:
 
@@ -79,7 +80,7 @@ The CI or the affected service. \(Hardware, application, and cloud \[physical CI
  You can then use the CI to identify details for incident routing. For example, you can use the CI data like Support Group and provide information about the service impact by using dependency relationships.
 
 </td></tr></tbody>
-</table>    ![Incident form with numbered fields.](../image/incident-form-use-case.png)
+</table>    \[Omitted image "incident-form-use-case.png"\] Alt text: Incident form with numbered fields.
 
 5.  Review the information.
 
@@ -87,5 +88,5 @@ The CI or the affected service. \(Hardware, application, and cloud \[physical CI
     -   The services and service offerings that are related to the populated CI appear in the **Impacted Services/CIs** related list \[task\_cmdb\_ci\_service\].
     -   The services and CIs impacted by the incident appear in the **Impacted Services/CIs** related list \[task\_cmdb\_ci\_service\].
 
-**Parent Topic:**[Applying CSDM guidelines to Incident Management](../concept/itsm-incident-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/itsm-incident-use-case-product-view.md)
 

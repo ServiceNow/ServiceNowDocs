@@ -2,6 +2,7 @@
 title: Create or add an xNF instance
 description: Create or add an existing xNF \(different types of network functions\) instance by using the Telecommunications Network Inventory application. You can create xNF instances to model your 5G network.Created topics for STRY55389656 - DOC1072742
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-network-inventory/telecommunications-network-inventory/create\_application\_services.html
 release: xanadu
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -32,7 +33,7 @@ Application services support a business or technical service and are mapped to t
 
 3.  On the Create an Application Service form, in the Basic Details section, fill in the fields.
 
-    To get a description of the field values, see [Create an application service](https://www.servicenow.com/docs/access?context=create-it-services&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    To get a description of the field values, see .
 
 4.  In the set relationships section, select the **Business application** tab.
 
@@ -126,7 +127,7 @@ Number of interconnected CI levels to apply to this application service.**Note:*
 
 ## What to do next
 
-You can review, update the fields, create a related tab record, or delete a record. To learn more, see [Update or delete a service record](../concept/update_or_delete_a_service_record.md).
+You can review, update the fields, create a related tab record, or delete a record. To learn more, see [Update or delete a service record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/update_or_delete_a_service_record.md).
 
-**Parent Topic:**[Create xNF and xNF instances](../concept/services.md)
+**Parent Topic:**[Create xNF and xNF instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/services.md)
 

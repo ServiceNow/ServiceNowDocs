@@ -2,16 +2,23 @@
 title: Advanced form configuration
 description: Administrators can configure advanced form features, such as form focus, form splits, and derived fields.The Insert and Insert and Stay options are disabled by default for task records such as incidents and change requests. You can set a system property to show these options for task records.Switch the focus on a form to the first element on the page instead of the first writable field to make the form more accessible to users who use screen readers.Administrators can hide the template bar for a table by creating a system property.By default, when you press the Enter key in a simple one-line text field, a choice list, or a Boolean field, the form is submitted.Form splits enable you to organize fields on a form into columns. Administrators must add a property to enable form splits.You can specify which form fields are required in forms. This action prevents users with the personalize\_form role from removing the field by configuring the form layout.You can configure the type of label that appears for derived fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/advanced-form-administration.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Advanced form configuration
 
 Administrators can configure advanced form features, such as form focus, form splits, and derived fields.
+
+-   [Allow insert options on task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/advanced-form-administration.md) to let users insert a new task record, such as an incident or change request, from the task record they are currently viewing.
+-   [Turn off focusing on the first writable field of a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/advanced-form-administration.md) if you want to prevent the cursor from hopping to the first writable field on a form.
+-   [Deactivate form submission with the Enter key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/advanced-form-administration.md) if you want users to be able to press the Enter key for reasons other than submitting the form.
+-   [Enable multiple form splits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/advanced-form-administration.md), which organizes the fields into multiple columns, if you want to design forms with more than the default two column layout.
+-   [Define required fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/advanced-form-administration.md) to prevent users from removing them when they configure the form.
 
 ## Allow insert options on task records
 
@@ -67,7 +74,7 @@ Creating a table-specific property and setting it to false prevents users from d
 
 1.  Navigate to `sys_properties.list`.
 
-2.  [Add a system property](../../reference-pages/reference/r_AvailableSystemProperties.md#) with the following settings.
+2.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md) with the following settings.
 
     |Property|Value|
     |--------|-----|
@@ -113,9 +120,9 @@ Role required: admin
 
 ### About this task
 
-![Configuration of two form splits](../image/FormSplitConfiguration.png "Configuration of two form splits")
+\[Omitted image "FormSplitConfiguration.png"\] Alt text: Configuration of two form splits
 
-![Two form splits](../image/FormSplitExample.png "Example of the form with two form splits")
+\[Omitted image "FormSplitExample.png"\] Alt text: Two form splits
 
 When you organize fields in this manner and the user is viewing the form on a small mobile device, the fields within the first split are listed before the fields in the second split. In this example, the **Asset tag**, **State**, **Serial number**, and **Substate** field are listed before any of the fields below them. You can also create elements that span the form at the top of the form.
 
@@ -129,7 +136,7 @@ When you organize fields in this manner and the user is viewing the form on a sm
 
 3.  Enter the following information.
 
-<table id="choicetable_qyc_wqq_pt"><tbody><tr><td id="d229329e565">
+<table id="choicetable_qyc_wqq_pt"><tbody><tr><td id="d208012e625">
 
 **Name**
 
@@ -137,7 +144,7 @@ When you organize fields in this manner and the user is viewing the form on a sm
 
 glide.ui.form\_multiple\_splits
 
-</td></tr><tr><td id="d229329e574">
+</td></tr><tr><td id="d208012e634">
 
 **Description**
 
@@ -145,7 +152,7 @@ glide.ui.form\_multiple\_splits
 
 Enable multiple form splits
 
-</td></tr><tr><td id="d229329e583">
+</td></tr><tr><td id="d208012e643">
 
 **Type**
 
@@ -153,7 +160,7 @@ Enable multiple form splits
 
 true \| false
 
-</td></tr><tr><td id="d229329e592">
+</td></tr><tr><td id="d208012e652">
 
 **Value**
 
@@ -203,7 +210,7 @@ The expected \(although not the only\) use case for this feature is as part of a
 
     The following example sets the **Short description** field on the Incident form to be required.
 
-    ![Required form field](../image/RequiredFormField.png)
+    \[Omitted image "RequiredFormField.png"\] Alt text: Required form field
 
     If you decide later that you do not want to make the field required, clear the **Required** checkbox. This action is preferable to deleting the record.
 
@@ -233,13 +240,13 @@ An example would be displaying the email address for the caller when looking at 
 
 <table id="table_DisplayingInformationFromOtherRecords"><tbody><tr><td>
 
-![Available fields](../image/AvailableTableFields.png "Available table fields")
+\[Omitted image "AvailableTableFields.png"\] Alt text: Available fields
 
  Choose the **Caller** field and click the expander icon.
 
 </td><td>
 
-![Caller fields](../image/CallerFields.png "Caller fields")
+\[Omitted image "CallerFields.png"\] Alt text: Caller fields
 
  Select the available fields associated with the **Caller** field.
 

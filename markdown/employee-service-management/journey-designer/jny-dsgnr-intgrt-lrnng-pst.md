@@ -2,6 +2,7 @@
 title: Integrating Learning Posts with Journey designer
 description: Integrate Learning Posts with Journey designer to create and access an omni-channel learning experience empowering employees with the right learning at the right time, making learning accessible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-designer/jny-dsgnr-intgrt-lrnng-pst.html
 release: xanadu
 product: Journey Designer
 classification: journey-designer
@@ -24,7 +25,7 @@ ServiceNow® Learning Posts is a ServiceNow Store application.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Integrating the Learning Posts app with Journey designer enables you to manage recommended learning for journeys from inside Journey designer.
 
@@ -37,15 +38,15 @@ The Recommended Learning feature combines Learning Posts with Predictive Intelli
 -   Mentors can: Add recommended learning if they have permission to edit a journey if they have **Can add recommended learning** permission.
 -   Administrator: Manage recommended learning for journey configurations.
 
-**Note:** Administrators set permissions in journey configurations. See, [Update users' permissions for journeys](../task/jny-dsgnr-update-user-permissions.md).
+**Note:** Administrators set permissions in journey configurations. See, [Update users' permissions for journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/jny-dsgnr-update-user-permissions.md).
 
 ## Administrator manage Recommended Learning for Journey Configurations
 
-Administrators Create recommended learning records for Journey Configurations that are associated with a Journey type. The recommended learning is then accessed by journey owners, mentors, and employees. Only an administrator can delete recommended learning from a journey configuration. See, [Add or modify recommended learning in the Journey designer app](../task/jny-dsgnr-config-reco-lrnng.md).
+Administrators Create recommended learning records for Journey Configurations that are associated with a Journey type. The recommended learning is then accessed by journey owners, mentors, and employees. Only an administrator can delete recommended learning from a journey configuration. See, [Add or modify recommended learning in the Journey designer app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/jny-dsgnr-config-reco-lrnng.md).
 
 ## Journey owners and mentors can add recommended learning to a journey
 
-Journey owners or mentors with the **Can add recommended learning** permission for a journey configuration are able to add recommended courses to individual journeys. See, [Add recommended learning to a journey](../task/jny-dsgnr-add-recommended-learning.md).
+Journey owners or mentors with the **Can add recommended learning** permission for a journey configuration are able to add recommended courses to individual journeys. See, [Add recommended learning to a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/jny-dsgnr-add-recommended-learning.md).
 
-**Parent Topic:**[Integrations for Journey designer app](jny-integrations-1.md)
+**Parent Topic:**[Integrations for Journey designer app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

@@ -2,6 +2,7 @@
 title: Configure ServiceNow Store application notification preferences
 description: You can set notification preferences for each application you've procured and each trial you've requested. By default, notifications are sent to the email address associated with your Now Support account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/configure-store-notifications.html
 release: xanadu
 topic_type: task
 last_updated: "2025-10-08"
@@ -29,6 +30,6 @@ Role required: none
 
 5.  Select **Manage Notifications**.
 
-6.  Select the edit icon ![](../../currency/images/currency-edit.png) to change which email address receives application notifications.
+6.  Select the edit icon \[Omitted image "currency-edit.png"\] Alt text: to change which email address receives application notifications.
 
 

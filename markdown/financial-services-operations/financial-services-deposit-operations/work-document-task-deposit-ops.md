@@ -2,6 +2,7 @@
 title: Work on a document task to verify documents for a deposit case
 description: Work on a document task to verify inbound documents that are needed for a deposit service case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-deposit-operations/work-document-task-deposit-ops.html
 release: xanadu
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -32,7 +33,7 @@ For more information, see .
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Document Service**, open the task list.
 
@@ -56,5 +57,5 @@ For more information, see .
 -   The document task moves to the Closed Complete state.
 -   In the parent deposit case, the Verify documents stage in the case playbook shows as complete and the case moves to the next stage.
 
-**Parent Topic:**[Using Financial Services Deposit Operations](../concept/using-deposit-ops.md)
+**Parent Topic:**[Using Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-deposit-operations/using-deposit-ops.md)
 

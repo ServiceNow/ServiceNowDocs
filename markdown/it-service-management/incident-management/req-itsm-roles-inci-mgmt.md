@@ -2,6 +2,7 @@
 title: Request ITSM Roles — Incident Management
 description: Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles — Incident Management plugin \(com.snc.itsm.roles.incident\_management\) to gain more control over the access that different service desk agents, technicians, and managers have within your Incident Management process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/req-itsm-roles-inci-mgmt.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -91,11 +92,11 @@ If you don't have an account manager, decide to delay activation after purchase,
 
 2.  On the All Applications page, select **Request Plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    ![Message informing customers about new service portal with a link provided.](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
 
 4.  Select your instance.
 
@@ -142,20 +143,20 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
 
-    ![Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 
     For additional details about requesting a plugin, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
 
 
--   **[Components installed with ITSM Roles — Incident Management](../reference/inci-roles-instld-itsm-roles.md)**  
+-   **[Components installed with ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/inci-roles-instld-itsm-roles.md)**  
 Several user roles are installed with activation of the ITSM Roles — Incident Management plugin \(com.snc.itsm.roles.incident\_management\).
 
-**Parent Topic:**[Incident Management plugins](../concept/incident-mgmt-plugins.md)
+**Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/incident-mgmt-plugins.md)
 
 **Related topics**  
 
 
-[List of Xanadu plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

@@ -2,7 +2,10 @@
 title: Create a relationship between household members
 description: Create a relationship between two consumers who are current members of the same household.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-household-member-relation.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

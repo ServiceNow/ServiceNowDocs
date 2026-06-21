@@ -2,7 +2,10 @@
 title: Portal Object widget
 description: The Portal Object widget displays key information of a record from the tables available on your ServiceNow instance. Additionally, your users can take related actions on the selected record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-object-widget.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ The Portal Object widget enables you to display information from a specified tab
 
 The Portal Object widget currently supports both desktop and mobile versions.
 
-![Portal Object widget displaying information and related actions for a record.](../image/port-object.png "Portal Object widget")
+\[Omitted image "port-object.png"\] Alt text: Portal Object widget displaying information and related actions for a record.
 
-For more information about how to configure the Portal Object widget, see [Add and configure the Portal Object widget](../task/add-conf-port-object-widget.md).
+For more information about how to configure the Portal Object widget, see [Add and configure the Portal Object widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/add-conf-port-object-widget.md).
 

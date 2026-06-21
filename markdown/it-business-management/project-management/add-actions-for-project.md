@@ -2,6 +2,7 @@
 title: Add actions for a project
 description: Add actions that are required for resolving an issue or risk for a project. You can also convert a risk, issue, or decision to an action based on your analysis and plan for resolution of a risk or issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/add-actions-for-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -129,7 +130,7 @@ Short description
 
 Brief description of the action such as what the action entails, how to implement the action, who it affects, and the action outcome.As you start typing the title for your action, the related actions that potentially match your action title appear.
 
- Click the Suggestion icon \(![suggestion icon](../../planning-and-policy/image/suggestions-icon.png)\) to select a description from the list of predefined actions.
+ Click the Suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: suggestion icon\) to select a description from the list of predefined actions.
 
 </td></tr><tr><td>
 
@@ -155,8 +156,8 @@ Information about the action. Add work notes to communicate about the status of 
 
 ## What to do next
 
--   Convert an action to a request change and close the action. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](convert-ridac-for-project.md).
--   Associate the action with your existing risk, issue, and decision records so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](reassociate-ridac-project.md).
+-   Convert an action to a request change and close the action. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/convert-ridac-for-project.md).
+-   Associate the action with your existing risk, issue, and decision records so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/reassociate-ridac-project.md).
 
-**Parent Topic:**[RIDAC records for a project in Project Workspace](../concept/ridac-entries-for-project.md)
+**Parent Topic:**[RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/ridac-entries-for-project.md)
 

@@ -2,6 +2,7 @@
 title: Create an automation project from a template
 description: Create an automation project from the default automation templates that RPA Desktop Design Studio provides or the templates that you have designed on the RPA Desktop Design Studio and published to the RPA Hub. An automation template caters to a use case and provides a framework of automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/create-automation-with-template.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -51,8 +52,8 @@ The default templates that the RPA Desktop Design Studio provides are RPA Deskto
 
     The automation project is created.
 
-    ![Automation template.](../image/rpa-studio-automation-template.png)
+    \[Omitted image "rpa-studio-automation-template.png"\] Alt text: Automation template.
 
 
-**Parent Topic:**[Building automations](../concept/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/rpa-studio-build.md)
 

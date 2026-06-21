@@ -2,6 +2,7 @@
 title: Supplier table
 description: The Supplier \[sn\_fin\_supplier\] table stores important information about a supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/slo-supplier-table.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -54,5 +55,5 @@ The Supplier \[sn\_fin\_supplier\] table contains the following fields.
 |Primary phone number|String|Phone number of the primary contact from the supplier side.|
 |Fax number|String|Number to which documents can be faxed to the supplier.|
 
-**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

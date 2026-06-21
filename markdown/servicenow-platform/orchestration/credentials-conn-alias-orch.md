@@ -2,11 +2,12 @@
 title: Introduction to credentials, connections, and aliases for Orchestration
 description: All application integrations in Orchestration require connection information, credentials, and connection and credential aliases to their respective applications to access resources.Define an alias to label a credential or connection record.Orchestration requires credentials to access resources.Use the connections table to setup a JMS, JDBC, or HTTP\(s\) connection to a target host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/orchestration/credentials-conn-alias-orch.html
 release: xanadu
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 9
 breadcrumb: [Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,7 +28,7 @@ You can add additional connection attributes to an alias, which are available in
 
 The credential alias resolves only credential data. Along with alias data model, you can use a scriptable API which can get connection and credential data during runtime.
 
-**Parent Topic:**[Orchestration activity designer](c_WorkflowActivityDesigner.md)
+**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md)
 
 ## Using Connection and Credential Alias with Orchestration
 
@@ -85,11 +86,11 @@ Supports Test Credential option
 
 </th></tr></thead><tbody><tr><td>
 
-[Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+Applicative credentials
 
 </td><td>
 
-The credentials to explore the applications on a device or computer. [Discovery patterns used by ITOM Visibility](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US) often need applicative credentials.
+The credentials to explore the applications on a device or computer. Discovery patterns used by ITOM Visibility often need applicative credentials.
 
 </td><td>
 
@@ -97,7 +98,7 @@ No
 
 </td></tr><tr><td>
 
-[Amazon Web Service credentials](https://www.servicenow.com/docs/access?context=r_CloudManagementCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+Amazon Web Service credentials
 
 </td><td>
 
@@ -109,7 +110,7 @@ No
 
 </td></tr><tr><td>
 
-[Azure Service Principal and Enterprise Agreement credentials](https://www.servicenow.com/docs/access?context=r_CloudManagementCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+Azure Service Principal and Enterprise Agreement credentials
 
 </td><td>
 
@@ -121,7 +122,7 @@ No
 
 </td></tr><tr><td>
 
-[Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+Basic authentication credentials
 
 </td><td>
 
@@ -133,7 +134,7 @@ No
 
 </td></tr><tr><td>
 
-[CIM credentials](https://www.servicenow.com/docs/access?context=r_CIMCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+CIM credentials
 
 </td><td>
 
@@ -145,7 +146,7 @@ No
 
 </td></tr><tr><td>
 
-[Cloud credentials](https://www.servicenow.com/docs/access?context=r_CloudManagementCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+Cloud credentials
 
 </td><td>
 
@@ -157,7 +158,7 @@ No
 
 </td></tr><tr><td>
 
-[JDBC credentials](https://www.servicenow.com/docs/access?context=r_JDBCCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+JDBC credentials
 
 </td><td>
 
@@ -169,7 +170,7 @@ Yes
 
 </td></tr><tr><td>
 
-[JMS credentials](https://www.servicenow.com/docs/access?context=r_JMSCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+JMS credentials
 
 </td><td>
 
@@ -181,7 +182,7 @@ Yes
 
 </td></tr><tr><td>
 
-[OAuth 2.0 credentials](https://www.servicenow.com/docs/access?context=oauth-2-credentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+OAuth 2.0 credentials
 
 </td><td>
 
@@ -193,7 +194,7 @@ OAuth 2.0 credentials enable ServiceNow® to obtain access to user accounts on a
 
 </td></tr><tr><td>
 
-[SNMP community credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=xanadu&pubname=xanadu-platform-security&section=r_SNMPCommunityCredentialsForm&ft:locale=en-US)
+SNMP community credentials
 
 </td><td>
 
@@ -205,7 +206,7 @@ Yes
 
 </td></tr><tr id="row_yc2_zp5_5y"><td>
 
-[SNMPv3 credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=xanadu&pubname=xanadu-platform-security&section=r_SNMPCredentialsForm&ft:locale=en-US)
+SNMPv3 credentials
 
 </td><td>
 
@@ -217,7 +218,7 @@ Yes
 
 </td></tr><tr><td>
 
-[SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+SSH credentials
 
 </td><td>
 
@@ -229,7 +230,7 @@ Yes
 
 </td></tr><tr><td>
 
-[SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+SSH credentials
 
 </td><td>
 
@@ -241,7 +242,7 @@ Yes
 
 </td></tr><tr><td>
 
-[VMware credentials](https://www.servicenow.com/docs/access?context=r_VMwareCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+VMware credentials
 
 </td><td>
 
@@ -253,11 +254,11 @@ Yes
 
 </td></tr><tr><td>
 
-[Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+Windows credentials
 
 </td><td>
 
-The user name and password required to access Windows computers. Several [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) must be met to use Windows credentials.
+The user name and password required to access Windows computers. Several Windows credentials must be met to use Windows credentials.
 
 </td><td>
 
@@ -266,9 +267,9 @@ Yes
 </td></tr></tbody>
 </table>### How MID Servers use credentials
 
-By default, Windows MID Servers use the login credentials of the MID Server service on the host machine to discover Windows devices in the network. You should [Configure Windows MID Server service credentials](../../../product/mid-server/concept/mid-server-install-prereqs.md#) so that they have domain or local administrator privileges. For Linux and UNIX machines and network devices, the MID Server uses the SSH and SNMP credentials configured in the instance in **Discovery** &gt; **Credentials**.
+By default, Windows MID Servers use the login credentials of the MID Server service on the host machine to discover Windows devices in the network. You should [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/mid-server/mid-server-install-prereqs.md) so that they have domain or local administrator privileges. For Linux and UNIX machines and network devices, the MID Server uses the SSH and SNMP credentials configured in the instance in **Discovery** &gt; **Credentials**.
 
-MID Servers that Orchestration uses must have access to the necessary credentials to execute commands on computers in the network as specified by the [Workflow activities](https://www.servicenow.com/docs/access?context=c_WorkflowActivities&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US). Orchestration can use the same SSH and SNMP credentials as Discovery, but has two additional credentials designed for specific workflow activities: Windows \(for [PowerShell](../../orchestration-activities/concept/c_OrchestrPowerShellActivities.md#)\) and VMware.
+MID Servers that Orchestration uses must have access to the necessary credentials to execute commands on computers in the network as specified by the Workflow activities. Orchestration can use the same SSH and SNMP credentials as Discovery, but has two additional credentials designed for specific workflow activities: Windows \(for [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_OrchestrPowerShellActivities.md)\) and VMware.
 
 ### Encryption and decryption
 
@@ -286,7 +287,7 @@ When credentials are requested by the MID Server, the platform decrypts the cred
 
 ### Credential order
 
-Credentials can be assigned an order value in the [Credentials form](https://www.servicenow.com/docs/access?context=t_CreateCredential&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US), which forces the application to try all the credentials at their disposal in a certain sequence. If you do not specify an order value, the application tries the credentials in the Credentials \[discovery\_credential\] table randomly, until it finds one that works, such as when Orchestration attempts to run a command on an SSH server \(such as a Linux or UNIX machine\), or when Discovery attempts to query an SNMP device \(such as a printer, router, or UPS\).
+Credentials can be assigned an order value in the Credentials form, which forces the application to try all the credentials at their disposal in a certain sequence. If you do not specify an order value, the application tries the credentials in the Credentials \[discovery\_credential\] table randomly, until it finds one that works, such as when Orchestration attempts to run a command on an SSH server \(such as a Linux or UNIX machine\), or when Discovery attempts to query an SNMP device \(such as a printer, router, or UPS\).
 
 After identifying the credentials for a device, Discovery and Orchestration create an affinity between the credentials and the device using the Credential Affinity `[dscy_credentials_affinity]` table. All subsequent discoveries or Orchestration activities attempt to match the credentials in this table with a device for which an affinity exists. If credentials for a device change, Discovery and Orchestration try all available credentials again until they create a new affinity.
 

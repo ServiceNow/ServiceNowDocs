@@ -2,7 +2,10 @@
 title: Service Model Foundation modules
 description: The Service Model Foundation plugins add several modules to the application navigator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/industry-data-model-modules.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

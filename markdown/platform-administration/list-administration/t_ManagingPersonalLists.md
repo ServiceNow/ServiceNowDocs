@@ -2,6 +2,7 @@
 title: Manage personal lists
 description: Administrators can manage personal lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/t\_ManagingPersonalLists.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -26,10 +27,10 @@ Role required: admin
 2.  Personal lists have a user value in the **User** field.
 
 
-**Parent Topic:**[Personal list administration](../concept/c_AdministeringPersonalLists.md)
+**Parent Topic:**[Personal list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/c_AdministeringPersonalLists.md)
 
 **Related topics**  
 
 
-[Personal lists](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_PersonalLists]
 

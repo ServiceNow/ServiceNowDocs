@@ -2,6 +2,7 @@
 title: Delete a field from a table
 description: You can delete custom fields that you created. Custom fields begin with u\_. It is recommended that you remove the field from forms and lists instead of deleting it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_DeleteFields.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -44,5 +45,5 @@ You cannot delete base system fields. In addition, any missing base system field
     4.  To proceed, click **Delete**.
 
 
-**Parent Topic:**[Add and customize a field in a table](../../field-administration/task/t_CreatingNewFields.md)
+**Parent Topic:**[Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreatingNewFields.md)
 

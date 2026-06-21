@@ -2,6 +2,7 @@
 title: Create a task ordering rule
 description: Dynamic scheduling uses task ordering rules to prioritize and arrange tasks effectively. These rules ensure tasks are handled in the right sequence, helping you streamline field service operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/create-task-ordering-rule.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -87,5 +88,5 @@ Dynamic scheduling will use this rule to prioritize tasks based on the criteria 
 
 ## What to do next
 
-[Create a task unassignment constraint](create-unassignment-constraint.md)
+[Create a task unassignment constraint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-unassignment-constraint.md)
 

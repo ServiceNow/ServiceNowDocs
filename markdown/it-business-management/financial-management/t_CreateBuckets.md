@@ -2,6 +2,7 @@
 title: Create an account bucket
 description: You can create account buckets in the workbench, but you can also create them with the Bucket form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/t\_CreateBuckets.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -29,7 +30,7 @@ Role required: cost\_transparency\_admin
 
 4.  Click **Submit**.
 
-    ![The Bucket form](../image/bucket_form_Helsinki.png "The Bucket form")
+    \[Omitted image "bucket\_form\_Helsinki.png"\] Alt text: The Bucket form
 
 <table id="table_i2c_wtf_xq"><thead><tr><th>
 
@@ -93,5 +94,5 @@ Parent bucket that this bucket is associated with.
 </table>    When you put expenses into buckets, you can also add new buckets and create conditions for buckets that filter the data that goes into the bucket.
 
 
-**Parent Topic:**[Account buckets](../concept/c_AccountBuckets.md)
+**Parent Topic:**[Account buckets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_AccountBuckets.md)
 

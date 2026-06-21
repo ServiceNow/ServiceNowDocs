@@ -2,6 +2,7 @@
 title: Add or edit a parent on an SRM alert
 description: If an alert has a parent, you can manually update it to reflect its new criteria.REVISE FOR SRM
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-add-alert-parent.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,19 +28,19 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d269489e94">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d251604e94">
 
 Option
 
-</th><th align="left" id="d269489e97">
+</th><th align="left" id="d251604e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269489e103">
+</th></tr></thead><tbody><tr><td id="d251604e103">
 
 **In the alert list view**
 
@@ -54,7 +55,7 @@ Select **Update**.
 
 **Note:** If you bulk select alerts, the change applies to all the alerts selected. For assignments, team members are notified according to their notification preferences.
 
-</td></tr><tr><td id="d269489e139">
+</td></tr><tr><td id="d251604e139">
 
 **In the alert form**
 
@@ -70,5 +71,5 @@ Select a new **Parent** alert from the list menu.
 </table>    The new parent is displayed in the alert and the alert list view.
 
 
-**Parent Topic:**[Working with alerts in SRM](../concept/sr-work-alerts.md)
+**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-alerts.md)
 

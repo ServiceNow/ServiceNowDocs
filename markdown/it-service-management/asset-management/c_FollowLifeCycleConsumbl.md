@@ -2,6 +2,7 @@
 title: Consumables life cycle
 description: Consumables are assets that are not tracked individually, but as a group of the same model.Consumables are tracked as a group of the same model, but you can view individual consumables in the consumable model record.Create a consumable to track an asset as a group of the same model.To consume consumable assets, they must have a state of In Stock and a substate of Available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/c\_FollowLifeCycleConsumbl.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -37,7 +38,7 @@ The consumable lifecycle stages are as follows.
 -   Retired
 -   Missing
 
-**Parent Topic:**[Asset Management](c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_AssetManagement.md)
 
 ## View consumable assets
 

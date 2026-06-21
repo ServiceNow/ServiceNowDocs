@@ -2,6 +2,7 @@
 title: Configuring ERP Customization Mining
 description: Set up ERP Customization Mining \(ERP-CM\) to enable the app to scan the system of record for candidates to replatform. Administrators can also quickly check the health of the ERP \(Enterprise Resource Planning\) connection and investigate any issues, and view knowledge articles related to errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/configuring-ecm.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -28,7 +29,7 @@ For the credentials, use an SAP service type user account in your system of reco
     -   SQLM\_API\_GET\_NEXT\_DATA\_PACKAGE
 -   S\_TABU\_NAM with Activity 03 \(Display\) for the following table: TRNSPACET
 
-There are additional authorizations needed for ERP Data Hub. For more information, see [Configuring ERP Data Hub](../../erp-integration/concept/erp-integration-configuration-overview.md).
+There are additional authorizations needed for ERP Data Hub. For more information, see [Configuring ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-integration-configuration-overview.md).
 
 **Note:** The credentials you specify for the ERP Data Hub connection must match the service user credentials in the system of record.
 
@@ -38,11 +39,11 @@ ERP Data Hub and ERP-CM currently support ECC \(minimum SAP Netweaver 7.31\) and
 
 **Note:** Each installation of ERP-CM supports adding up to 10 systems. However, ERP-CM can connect to only one live ERP system at a time.
 
-You should install ERP Data Hub and add credentials there before you install and configure ERP-CM. For more information, see [Configure the ERP Data Hub credentials and connection](../../erp-integration/task/set-up-erp-integration-connection.md).
+You should install ERP Data Hub and add credentials there before you install and configure ERP-CM. For more information, see [Configure the ERP Data Hub credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
 
 The number of ERP connections you can have per ServiceNow instance depends on your license. If you have the ERP-CM license, you get one connection per instance.
 
-For details on Connections and Credentials, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For details on Connections and Credentials, see .
 
 ## Plugins for ERP Customization Mining
 
@@ -88,30 +89,30 @@ com.snc.uib.sn\_erp\_mining
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **[Configure SAP for ERP-CM](../task/ecm-configure-sap-system.md)**  
+-   **[Configure SAP for ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/ecm-configure-sap-system.md)**  
 Enable SQLM \(SQL Monitor\) on the productive system and confirm that ST03 \(Workload Monitor\) is collected for daily workloads before you can install ERP Customization Mining \(ERP-CM\).
--   **[Install ERP Customization Mining](../task/install-erp-customization-mining.md)**  
+-   **[Install ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/install-erp-customization-mining.md)**  
 Install the ERP Customization Mining \(ERP-CM\) application \(sn\_erp\_mining\) if you have the admin role from the ServiceNow Store.
--   **[Run Guided Setup for ERP Customization Mining](../task/set-up-erp-customization-mining-guided.md)**  
+-   **[Run Guided Setup for ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/set-up-erp-customization-mining-guided.md)**  
 Run the Guided Setup to configure ERP Customization Mining \(ERP-CM\).
--   **[Configure a new ERP Customization Mining connection](../task/set-up-erp-customization-mining.md)**  
+-   **[Configure a new ERP Customization Mining connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/set-up-erp-customization-mining.md)**  
 Specify the Connections and Credentials alias for ERP Customization Mining \(ERP-CM\) to connect to the ERP \(Enterprise Resource Planning\) system.
--   **[Update an ERP-CM connection](../task/update-ecm-connection.md)**  
+-   **[Update an ERP-CM connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/update-ecm-connection.md)**  
 Update the Connections and Credentials alias for ERP Customization Mining \(ERP-CM\) to change the connection to the ERP \(Enterprise Resource Planning\) system. For example, you may want to change from a non-production system to a production system.
--   **[Check and troubleshoot the data refresh status for ERP Customization Mining](../task/erpcm-check-data-connection.md)**  
+-   **[Check and troubleshoot the data refresh status for ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-check-data-connection.md)**  
 Check the data refresh status to find out when ERP Customization Mining \(ERP-CM\) most recently loaded ERP \(Enterprise Resource Planning\) data from the system of record.
--   **[Create a snapshot to share and save data in ERP Customization Mining](../task/create-a-snapshot-to-share-and-save-data.md)**  
+-   **[Create a snapshot to share and save data in ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md)**  
 Export and import ERP Customization Mining base data to save and share.
--   **[Getting notifications for ERP Customization Mining connection updates](erpcm-notifications.md)**  
+-   **[Getting notifications for ERP Customization Mining connection updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-notifications.md)**  
 ERP Customization Mining \(ERP-CM\) can email you about the success and failures of ERP \(Enterprise Resource Planning\) system connections.
--   **[Configure notifications for ERP-CM tasks](../task/erpcm-enable-notifications.md)**  
+-   **[Configure notifications for ERP-CM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-enable-notifications.md)**  
 Enable notifications to find out when ERP Customization Mining \(ERP-CM\) succeeds or fails in a mining job for the ERP \(Enterprise Resource Planning\) system of record.
--   **[ERP Customization Mining roles](erp-personas-roles.md)**  
+-   **[ERP Customization Mining roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erp-personas-roles.md)**  
 Administrators assign roles to give team members permission to configure or use ERP Customization Mining \(ERP-CM\).
--   **[ERP-CM and security](erpcm-and-security.md)**  
+-   **[ERP-CM and security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-and-security.md)**  
 In addition to role-based security and access control, ERP Customization Mining \(ERP-CM\) protects personally identifiable ERP \(Enterprise Resource Planning\) data in other ways.
 
-**Parent Topic:**[ERP Customization Mining \(ERP-CM\)](erp-customization-mining-overview.md)
+**Parent Topic:**[ERP Customization Mining \(ERP-CM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erp-customization-mining-overview.md)
 

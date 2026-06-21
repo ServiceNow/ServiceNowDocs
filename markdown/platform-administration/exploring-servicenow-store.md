@@ -2,6 +2,7 @@
 title: Exploring the ServiceNow Store
 description: Learn about the ServiceNow Store procurement workflow and how apps, products, and integrations can help your organization enhance the ServiceNow AI Platform experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/exploring-servicenow-store.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-07-31"
@@ -39,23 +40,23 @@ The following table provides examples of the different types of ServiceNow Store
 
 The following shows the overall workflow of finding, procuring, and installing solutions from the ServiceNow Store.
 
-![Infographic showing the app procurement and installation process, along with which users can complete each stage. For more details, refer to the following description.](../image/mmasset0020704-producing-and-using-apps-from-store-vertical.png "Procuring and using apps from the ServiceNow Store")
+\[Omitted image "mmasset0020704-producing-and-using-apps-from-store-vertical.png"\] Alt text: Infographic showing the app procurement and installation process, along with which users can complete each stage. For more details, refer to the following description.
 
 1.  Find and evaluate solutions on the ServiceNow Store to determine which apps might improve your organization's ServiceNow AI Platform experience. Finding and evaluating solutions might be done by administrators, developers, process owners, solutions consultants, or platform architects.
 2.  Procure apps or trials from the ServiceNow Store to extend production or non-production instance capabilities. Procurement might be done by administrators, process owners, developers, or technical consultants.
-3.  Install procured solutions using the Application Manager. Installation must be performed by an administrator. For more information about using the Application Manager, see [Application Manager](../../application-manager/concept/application-manager.md).
-4.  Update installed solutions using the Application Manager to take advantage of the latest improvements. Upgrades must be performed by an administrator. For more information about using the Application Manager, see [Application Manager](../../application-manager/concept/application-manager.md).
+3.  Install procured solutions using the Application Manager. Installation must be performed by an administrator. For more information about using the Application Manager, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/application-manager.md).
+4.  Update installed solutions using the Application Manager to take advantage of the latest improvements. Upgrades must be performed by an administrator. For more information about using the Application Manager, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/application-manager.md).
 5.  Leave a review on the ServiceNow Store listing details of any app or product that you have used. Anyone who has experience using a solution can leave a review at any time.
 
 ## What to explore next
 
 To learn more about using the ServiceNow Store, see:
 
--   [Tracking your ServiceNow Store activity](tracking-store-activity.md)
--   [Understanding plugins, apps, integrations, and products](plugins-apps-products-integrations.md#)
--   [Getting apps and trials from the ServiceNow Store](getting-apps-trials.md)
--   [Reviewing apps](reviewing-apps.md)
--   [Getting apps as an on-premise customer](getting-apps-on-prem.md)
--   [Using the ServiceNow Store in a regulated environment](using-regulated-store.md)
--   [ServiceNow Store reference](../reference/store-reference.md)
+-   [Tracking your ServiceNow Store activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/tracking-store-activity.md)
+-   [Understanding plugins, apps, integrations, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/plugins-apps-products-integrations.md)
+-   [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/getting-apps-trials.md)
+-   [Reviewing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/reviewing-apps.md)
+-   [Getting apps as an on-premise customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/getting-apps-on-prem.md)
+-   [Using the ServiceNow Store in a regulated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-regulated-store.md)
+-   [ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/store-reference.md)
 

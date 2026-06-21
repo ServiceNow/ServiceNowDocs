@@ -2,6 +2,7 @@
 title: Use an existing role for your application
 description: Use a previously created role for your application in App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/aes-existing-role.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -19,14 +20,14 @@ Use a previously created role for your application in App Engine Studio \(AES\).
 
 Your application must contain either data or experiences in order to add an existing role. For more information about adding data or experiences to your application, see the following guidance:
 
--   [Create a data model for your application](../concept/add-data.md)
--   [Add an application experience](../concept/add-experience.md)
+-   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/add-data.md)
+-   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/add-experience.md)
 
 Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 ## About this task
 
-App Engine Studio includes default roles that you can use for your application. For more information on the default roles, see [Base system roles](https://www.servicenow.com/docs/access?context=r_BaseSystemRoles&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+App Engine Studio includes default roles that you can use for your application. For more information on the default roles, see .
 
 ## Procedure
 
@@ -34,13 +35,13 @@ App Engine Studio includes default roles that you can use for your application. 
 
 2.  From the My Apps page, open your application.
 
-3.  In your application, next to Security, select the add icon \(![Add icon](../image/plus-icon.png)\).
+3.  In your application, next to Security, select the add icon \(\[Omitted image "plus-icon.png"\] Alt text: Add icon\).
 
 4.  Select **Use an existing role**, and then select **Continue**.
 
     **Important:** If your application doesn't contain data or experiences, the **Use an existing role option** will appear, but you cannot select it.
 
-    ![Option to use an existing role](../image/use-existing-role-purple.png "Option to use an existing role")
+    \[Omitted image "use-existing-role-purple.png"\] Alt text: Option to use an existing role
 
 5.  Select the search field and then select a role from the list.
 
@@ -71,5 +72,5 @@ App Engine Studio includes default roles that you can use for your application. 
 9.  Select **Save**.
 
 
-**Parent Topic:**[Add application security](../concept/add-security.md)
+**Parent Topic:**[Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/add-security.md)
 

@@ -2,6 +2,7 @@
 title: Activate teams and services in SRM
 description: Activate teams and services on ServiceNow's platform to be managed in the SRM application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -85,9 +86,9 @@ On the **Activate teams and services** page, the following options appear:
 
 You can select the options to view the teams or services.
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Import services for use in Service Reliability Management](sr-import-services.md)
+**Previous topic:**[Import services for use in Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-import-services.md)
 
-**Next topic:**[Customize service approval settings in SRM](sr-add-approval-services.md)
+**Next topic:**[Customize service approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-approval-services.md)
 

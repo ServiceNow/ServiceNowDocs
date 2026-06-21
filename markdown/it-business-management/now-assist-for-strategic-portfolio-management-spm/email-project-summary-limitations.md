@@ -2,6 +2,7 @@
 title: Additional information on Email project summary skill
 description: View the additional information about email project summary skill such as column restrictions, date criteria, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/now-assist-for-strategic-portfolio-management-spm/email-project-summary-limitations.html
 release: xanadu
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm

@@ -2,6 +2,7 @@
 title: Create a sales cycle for an opportunity
 description: Create a sales cycle type for an opportunity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-management-sales-cycle-types.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -40,5 +41,5 @@ Role required: sales\_ops\_specialist
 
 ## What to do next
 
-Add sales cycle stages to your opportunity. To learn more, see [Create opportunity stages](opportunity-management-opportunity-stages.md).
+Add sales cycle stages to your opportunity. To learn more, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/opportunity-management-opportunity-stages.md).
 

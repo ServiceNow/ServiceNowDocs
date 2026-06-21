@@ -2,6 +2,7 @@
 title: Verify integration for the First Advantage service
 description: The integration is configured to push background check data between the HR service in HR Service Delivery and the First Advantage service. You can verify the preconfigured settings and determine whether they meet your needs or if further customization is required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/verify-base-inbound-integration-for-first-advantage.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ The integration is configured to push background check data between the HR servi
 
 ## Before you begin
 
-**Important:** Integrating with the First Advantage service is being prepared for deprecation. It will be hidden and unavailable for activation from Zurich, but will continue to be supported till Brazil. If you have an active subscription, you can still activate the plugin by submitting a [plugin activation request](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/plugins/task/t_RequestAPlugin.html). For more details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** Integrating with the First Advantage service is being prepared for deprecation. It will be hidden and unavailable for activation from Zurich, but will continue to be supported till Brazil. If you have an active subscription, you can still activate the plugin by submitting a plugin activation request. For more details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Role required: sn\_hr\_integrations.admin
 
@@ -68,9 +69,9 @@ Role required: sn\_hr\_integrations.admin
         |HR Integrations Background Check Staging \[sn\_hr\_integrations\_background\_check\_staging\]|HR Talent Management Case \[sn\_hr\_core\_case\_talent\_management\]|
 
 
-**Parent Topic:**[Integrating with the First Advantage service](../concept/hr-integrations-with-first-advantage.md)
+**Parent Topic:**[Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
 
-**Previous topic:**[Provide source credentials for the First Advantage service](hr-integrations-sources-first-advantage.md)
+**Previous topic:**[Provide source credentials for the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-integrations-sources-first-advantage.md)
 
-**Next topic:**[Add background check packages for the First Advantage service](background-check-package-for-first-advantage.md)
+**Next topic:**[Add background check packages for the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/background-check-package-for-first-advantage.md)
 

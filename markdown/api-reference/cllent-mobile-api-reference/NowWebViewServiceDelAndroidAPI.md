@@ -2,6 +2,7 @@
 title: NowWebViewServiceDelegate interface - Android
 description: The NowWebViewServiceDelegate API provides callbacks for notification of issues within the NowWebService processing such as when a flow ends or a navigation fails.Callback that notifies the host application that the specified flow has ended.Callback that notifies the host application that navigation has failed with the specified error reason.Callback that notifies the host application that the screen should be dismissed.Callback that notifies the host application that the provided URL is unsupported.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/cllent-mobile-api-reference/NowWebViewServiceDelAndroidAPI.html
 release: xanadu
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API r
 
 The NowWebViewServiceDelegate API provides callbacks for notification of issues within the NowWebService processing such as when a flow ends or a navigation fails.
 
-**Parent Topic:**[Mobile SDK API reference - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowWebViewServiceDelegate - flowEnded\(flowName: String?\)
 

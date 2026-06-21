@@ -2,6 +2,7 @@
 title: Update the display limit of items on Prioritization and Roadmap
 description: Create a system property to update the display limit of the items shown in Prioritization and Roadmap views in Strategic Planning Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/scenario-planning-in-spw/update-the-display-limit-of-roadmap-item-milestones.html
 release: xanadu
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -47,15 +48,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d269338e153">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d48794e153">
 
 Field
 
-</th><th align="left" id="d269338e156">
+</th><th align="left" id="d48794e156">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269338e162">
+</th></tr></thead><tbody><tr><td id="d48794e162">
 
 **Name**
 
@@ -67,7 +68,7 @@ Description
 -   **sn\_align\_ws.goal\_hierarchy.max\_records** for goals in hierarchy.
 
 
-</td></tr><tr><td id="d269338e193">
+</td></tr><tr><td id="d48794e193">
 
 **Type**
 
@@ -75,7 +76,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d269338e202">
+</td></tr><tr><td id="d48794e202">
 
 **Value**
 
@@ -84,10 +85,10 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>    For information on the other form fields, see the field description table in Add a system property.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Prioritization display settings in Strategic Planning](../concept/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
+**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
 

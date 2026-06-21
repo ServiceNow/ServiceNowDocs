@@ -2,6 +2,7 @@
 title: Configure notifications in Service Operations Workspace
 description: Customize notifications that are sent to an agent to update about various changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/configure-notifcations-sow-itsm.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -28,9 +29,9 @@ An agent is notified in the following scenarios:
 -   A change request, incident, or problem assigned to an agent has any updates.
 -   A task is delegated to the agent.
 
-The notification icon shows notification alerts. The icon shows a badge with notification count and new notifications for a short duration.![SOW notification alert](../image/sow-notification-alert.png)
+The notification icon shows notification alerts. The icon shows a badge with notification count and new notifications for a short duration.\[Omitted image "sow-notification-alert.png"\] Alt text: SOW notification alert
 
-Use the notification icon to view the notifications.![SOW notifications](../image/sow-notifications.png)
+Use the notification icon to view the notifications.\[Omitted image "sow-notifications.png"\] Alt text: SOW notifications
 
 ## Procedure
 

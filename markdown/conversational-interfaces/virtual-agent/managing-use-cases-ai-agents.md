@@ -2,6 +2,7 @@
 title: Managing AI agents in Virtual Agent Designer
 description: View AI agents created in AI Agent Studio through Virtual Agent Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -16,17 +17,17 @@ breadcrumb: [Getting started with Virtual Agent Designer, Building and deploying
 
 View AI agents created in AI Agent Studio through Virtual Agent Designer.
 
-**Note:** An updated Virtual Agent Designer user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not enabled, you will see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](../reference/vad-prev-topics-page.md).
+**Note:** An updated Virtual Agent Designer user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not enabled, you will see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 **Role required**: virtual\_agent\_admin
 
-When you select an AI agent, it opens in AI Agent Studio. AI agents currently can't be created or edited in Virtual Agent Designer. You can only view them in Virtual Agent Designer. They can be created, edited, tested, and deleted only in AI Agent Studio. For more details, see [AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+When you select an AI agent, it opens in AI Agent Studio. AI agents currently can't be created or edited in Virtual Agent Designer. You can only view them in Virtual Agent Designer. They can be created, edited, tested, and deleted only in AI Agent Studio. For more details, see .
 
 ## AI agents in Virtual Agent Designer
 
 Select the **AI agents** option to see all the AI agents activated for Virtual Agent Designer.
 
-![AI agents in Virtual Agent Designer.](../images/vad-ai-agent.png)
+\[Omitted image "vad-ai-agent.png"\] Alt text: AI agents in Virtual Agent Designer.
 
 |Column|Description|
 |------|-----------|
@@ -37,7 +38,7 @@ Select the **AI agents** option to see all the AI agents activated for Virtual A
 |Last modified|Time when the AI agent was last modified.|
 |Description|Description of the AI agent.|
 
-Use the row actions icon \( ![Row actions icon.](../images/kebab-menu.png)\) to work with visibility settings for **Promoted**, **Discoverable**, **Visible**, and **Active**:
+Use the row actions icon \( \[Omitted image "kebab-menu.png"\] Alt text: Row actions icon.\) to work with visibility settings for **Promoted**, **Discoverable**, **Visible**, and **Active**:
 
 <table id="table_fsb_pt1_cfc"><thead><tr><th>
 
@@ -97,10 +98,10 @@ Delete option for AI agent is inactive in Virtual Agent Designer. The AI agent c
     -   Turn on the **Display** toggle.
     -   Select the assistants where the AI agent becomes discoverable.
     -   Select the user roles that can access the AI agent in Virtual Agent Designer.
-    ![Virtual Agent card in an AI agent.](../images/va-card-ai-agent.png)
+    \[Omitted image "va-card-ai-agent.png"\] Alt text: Virtual Agent card in an AI agent.
 
 
-For detailed information about creating AI agents, see [Create an AI agent](https://www.servicenow.com/docs/access?context=configure-next-best-action-agent&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For detailed information about creating AI agents, see .
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

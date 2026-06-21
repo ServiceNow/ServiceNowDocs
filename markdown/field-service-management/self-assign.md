@@ -2,7 +2,10 @@
 title: Accept or reject a work order task on a mobile device
 description: Accept or reject a work order task assigned to you through the Field Service Contractor for mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/self-assign.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -43,5 +46,5 @@ The task is either accepted or rejected. If the task is rejected, it is reassign
 
 -   If an agent rejects the task, it is reassigned to the agent's manager.
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

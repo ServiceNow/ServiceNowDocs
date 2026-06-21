@@ -2,6 +2,7 @@
 title: Domain separation and Vaccine Administration Management
 description: Domain separation is supported for Vaccine Administration Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/healthcare-life-sciences/vaccine-administration-management/VAM-domain-separation.html
 release: xanadu
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -25,11 +26,11 @@ Domain separation is supported for Vaccine Administration Management. Domain sep
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview
 
-The Vaccine Administration Management application includes domain separation for transactional data like vaccination programs and vaccination appointments. The application is based on the [Healthcare and Life Sciences data model](../../healthcare-life-sciences/concept/hcls-serv-mgmt-core.md) that also includes domain separation.
+The Vaccine Administration Management application includes domain separation for transactional data like vaccination programs and vaccination appointments. The application is based on the [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core.md) that also includes domain separation.
 
 ## How domain separation works in Vaccine Administration Management
 

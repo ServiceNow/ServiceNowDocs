@@ -2,6 +2,7 @@
 title: Activate Playbooks for Field Service Management
 description: Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/work-order-management/activate-process-automation-designer-for-fsm.html
 release: xanadu
 product: Work Order Management
 classification: work-order-management
@@ -33,11 +34,11 @@ If you don't have an account manager, decide to delay activation after purchase,
 
 2.  On the All Applications page, select **Request Plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    ![Message informing customers about new service portal with a link provided.](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
 
 4.  Select your instance.
 
@@ -84,7 +85,7 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
 
-    ![Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 
@@ -93,7 +94,7 @@ The date and time to activate the plugin.
 
 ## Result
 
-Enabling the **Playbooks for Field Service Management \[com.sn\_fsm\_playbook\]** plugin lets you create Playbooks for these tables and their [extensions](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US):
+Enabling the **Playbooks for Field Service Management \[com.sn\_fsm\_playbook\]** plugin lets you create Playbooks for these tables and their extensions:
 
 -   Work Task Flow \[sf\_work\_task\]
 -   Work Order Flow \[sf\_work\_order\]

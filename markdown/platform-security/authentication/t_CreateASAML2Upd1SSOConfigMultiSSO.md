@@ -2,6 +2,7 @@
 title: SAML 2.0 configuration using Multi-Provider SSO
 description: You can create or update a SAML 2.0 SSO configuration from the Multi-Provider SSO feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/t\_CreateASAML2Upd1SSOConfigMultiSSO.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -33,7 +34,7 @@ Role required: admin
     -   To create a new configuration, click **New** &gt; **SAML**.
 3.  Enter the IdP information by one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d171127e116">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d52067e116">
 
 **Using a metadata descriptor URL**
 
@@ -41,7 +42,7 @@ Role required: admin
 
 Click the URL check box and enter the URL of the IdP that you are using.
 
-</td></tr><tr><td id="d171127e125">
+</td></tr><tr><td id="d52067e125">
 
 **Using metadata descriptor XML file**
 
@@ -49,7 +50,7 @@ Click the URL check box and enter the URL of the IdP that you are using.
 
 Click the XML check box and paste in the XML data generated from the IdP you are using.
 
-</td></tr><tr><td id="d171127e134">
+</td></tr><tr><td id="d52067e134">
 
 **Entering metadata manually**
 
@@ -58,7 +59,7 @@ Click the XML check box and paste in the XML data generated from the IdP you are
 Close the popup window and manually enter the data in the property fields.
 
 </td></tr></tbody>
-</table>    All required fields must be filled-in on the Identity Provider form. ![IdP form](../../authentication/images/idp-initial-screen-top.png)
+</table>    All required fields must be filled-in on the Identity Provider form. \[Omitted image "idp-initial-screen-top.png"\] Alt text: IdP form
 
 <table id="table_lf5_c3d_4z"><thead><tr><th>
 
@@ -238,7 +239,7 @@ No
 
 </td><td>
 
-Choose the client type, based on the type of your client. Options:**Iframe Embedded**.**Note:** If client type field is required for your configuration, you can edit the form and add the field. To know more, see [Configure client type for OAuth and SSO records](../../authentication/concept/client-type.md).
+Choose the client type, based on the type of your client. Options:**Iframe Embedded**.**Note:** If client type field is required for your configuration, you can edit the form and add the field. To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>4.  Encryption And Signing tab
@@ -252,14 +253,14 @@ Choose the client type, based on the type of your client. Options:**Iframe Embed
         -   **Encryption** \(`glide.authenticate.sso.saml2.encryption.keystore`\)
     -   Make sure to update the key alias and key password of the **Signing** and **Encryption** keystores in the Identity Provider record and generate the metadata \(Select **Generate Metadata**\).
     -   Upload the signing and encryption certificates present in the generated metadata \(XML\) to the Identity Provider.
-    ![Encryption And Signing](../../authentication/images/encryption-signing.png)
+    \[Omitted image "encryption-signing.png"\] Alt text: Encryption And Signing
 
     |Property|Description|
     |--------|-----------|
-    |Signing Key Alias|Enter the Signing alias of the key entry stored in [SAML 2.0 SP Keystore](../../saml/task/t_CreatingAServiceProviderKeyStore.md).|
-    |Signing Key Password|Enter the Signing password of the key entry stored in [SAML 2.0 SP Keystore](../../saml/task/t_CreatingAServiceProviderKeyStore.md).|
-    |Encryption Key Alias|Enter the Encryption alias of the key entry stored in [SAML 2.0 SP Keystore](../../saml/task/t_CreatingAServiceProviderKeyStore.md).|
-    |Encryption Key Password|Enter the Encryption password of the key entry stored in [SAML 2.0 SP Keystore](../../saml/task/t_CreatingAServiceProviderKeyStore.md).|
+    |Signing Key Alias|Enter the Signing alias of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
+    |Signing Key Password|Enter the Signing password of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
+    |Encryption Key Alias|Enter the Encryption alias of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
+    |Encryption Key Password|Enter the Encryption password of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
     |Encrypt Assertion|Select the check box to encrypt the assertion in the SAML response. The metadata generated for the IDP embeds the x509 certificate, which the IDP uses to encrypt the assertion in the SAML response that it generates.|
     |Signing Signature Algorithm|Enter the URL that points to the SAML 2.0 Identity Provider AuthnRequest Consumer for eSignature Authentication.|
     |Sign AuthnRequest|Select the check box to enable the IdP single-sign on service to receive a signed AuthnRequest.|
@@ -268,7 +269,7 @@ Choose the client type, based on the type of your client. Options:**Iframe Embed
 
 5.  User Provisioning tab
 
-    ![User Provisioning Tab](../../authentication/images/user-provisioning.png)
+    \[Omitted image "user-provisioning.png"\] Alt text: User Provisioning Tab
 
     |Property|Description|
     |--------|-----------|
@@ -277,7 +278,7 @@ Choose the client type, based on the type of your client. Options:**Iframe Embed
 
 6.  Advanced tab
 
-    ![Advanced tab](../../authentication/images/advanced.png)
+    \[Omitted image "advanced.png"\] Alt text: Advanced tab
 
 <table id="table_aqk_mnd_4z"><thead><tr><th>
 
@@ -381,7 +382,7 @@ Request
 
 </td><td>
 
-An unique id as part of request, the id can be user name, employee id, and so on.**Note:** Both redirect and post binding is supported for request. The option to set this field only appears after a successful test connection. For more information see, [Testing IdP connections](t_TestIdPConnections.md).
+An unique id as part of request, the id can be user name, employee id, and so on.**Note:** Both redirect and post binding is supported for request. The option to set this field only appears after a successful test connection. For more information see, [Testing IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/t_TestIdPConnections.md).
 
 </td></tr><tr><td>
 
@@ -389,7 +390,7 @@ Response
 
 </td><td>
 
-An unique id as part of response, the id can be user name, employee id, and so on. **Note:** Both redirect and post binding is supported for response. The option to set this field only appears after a successful test connection. For more information see, [Testing IdP connections](t_TestIdPConnections.md).
+An unique id as part of response, the id can be user name, employee id, and so on. **Note:** Both redirect and post binding is supported for response. The option to set this field only appears after a successful test connection. For more information see, [Testing IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/t_TestIdPConnections.md).
 
 </td></tr></tbody>
 </table>

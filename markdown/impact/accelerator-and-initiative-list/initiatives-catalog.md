@@ -2,6 +2,7 @@
 title: Initiatives catalog
 description: Initiatives are the actionable engagements and workstreams that support your digital transformation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/initiatives-catalog.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -20,21 +21,21 @@ Initiatives are the actionable engagements and workstreams that support your dig
 
 <table id="table_v5t_ds1_p1c" class="nav-card"><tbody><tr><td>
 
-[Access to Expertise](../concept/access-expertise-initiative.md)
+[Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/accelerator-and-initiative-list/access-expertise-initiative.md)
 
- ![](../../../reuse/icons/brand-icons/bus-start-discussion.svg) Seek feature guidance and the most effective path forward provided by subject matter experts.
-
-</td></tr><tr><td>
-
-[Get started with Developer Support](getting-started-developer-support.md)
-
- ![](../../../reuse/icons/brand-icons/bus-it-leader.svg) Gain an understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.
+ \[Omitted image "bus-start-discussion.svg"\] Alt text: Seek feature guidance and the most effective path forward provided by subject matter experts.
 
 </td></tr><tr><td>
 
-[Preventive Care](../concept/preventive-care.md)
+[Get started with Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/accelerator-and-initiative-list/getting-started-developer-support.md)
 
- ![](../../../reuse/icons/brand-icons/bus-compliance.svg) A premium, engineer-led diagnostic of instance performance executed quarterly.
+ \[Omitted image "bus-it-leader.svg"\] Alt text: Gain an understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.
+
+</td></tr><tr><td>
+
+[Preventive Care](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/accelerator-and-initiative-list/preventive-care.md)
+
+ \[Omitted image "bus-compliance.svg"\] Alt text: A premium, engineer-led diagnostic of instance performance executed quarterly.
 
 </td></tr></tbody>
 </table>

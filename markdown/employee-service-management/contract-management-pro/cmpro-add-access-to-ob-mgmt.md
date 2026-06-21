@@ -2,6 +2,7 @@
 title: Add access to obligation management from contract repository records
 description: As an administrator, add the Obligations tab in contract repository records to manage contract obligations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cmpro-add-access-to-ob-mgmt.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Select a contract record.
 
-3.  Right-click the context menu icon ![Context menu icon](../../universal-task/images/context-menu.png) and select **Configure** &gt; **Related Lists**.
+3.  Right-click the context menu icon \[Omitted image "context-menu.png"\] Alt text: Context menu icon and select **Configure** &gt; **Related Lists**.
 
 4.  In the **View** list, select the workspace view that should include the Obligations tab.
 
@@ -40,7 +41,7 @@ Role required: admin
 
 The Obligations tab will appear in contract repository records.
 
-For more information on roles required to work on obligation management, see [Components installed with Contract Management Pro](../reference/cncore-comp-ccore.md).
+For more information on roles required to work on obligation management, see [Components installed with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-comp-ccore.md).
 
-**Parent Topic:**[Add and configure contract request functionality](../concept/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 

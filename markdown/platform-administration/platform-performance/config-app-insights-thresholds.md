@@ -2,6 +2,7 @@
 title: Configure Application Insights thresholds
 description: Configure conditional thresholds to trigger an alert that notifies you when one or more metrics, such as response time, is outside of the desired range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/config-app-insights-thresholds.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -49,7 +50,7 @@ Role required: sn\_app\_insights.admin or admin
 
 14. To create a trigger action, select the threshold from the Thresholds list and from the ellipsis, select **Create flow**.
 
-    The ServiceNow® Workflow Studio opens with a default template in place. For more information about configuring triggers, see [Configure Application Insights threshold triggers](conf-app-insights-thresh-triggers.md).
+    The ServiceNow® Workflow Studio opens with a default template in place. For more information about configuring triggers, see [Configure Application Insights threshold triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/conf-app-insights-thresh-triggers.md).
 
 15. To delete a threshold, select it from the Thresholds list and from the ellipsis, select **Delete**.
 
@@ -66,5 +67,5 @@ Role required: sn\_app\_insights.admin or admin
 
 The threshold is listed on the **Thresholds** tab and is shown as a horizontal dotted red line on the associated graph.
 
-**Parent Topic:**[Application Insights](../concept/application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/application-insights.md)
 

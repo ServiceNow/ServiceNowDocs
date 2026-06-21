@@ -2,6 +2,7 @@
 title: Close a legal request through Mobile Agent
 description: Close a legal request assigned to you when you've resolved it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-mobile/close-legal-request-mobile.html
 release: xanadu
 product: Legal Mobile
 classification: legal-mobile

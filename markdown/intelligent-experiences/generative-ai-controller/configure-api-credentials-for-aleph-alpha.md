@@ -2,6 +2,7 @@
 title: Configure API Credentials for Aleph Alpha
 description: Configure your API credentials to use Aleph Alpha in custom workflows and Virtual Agent Designer topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-aleph-alpha.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -31,7 +32,7 @@ In order to use Aleph Alpha as your LLM provider for Generative AI Controller ca
 
 2.  Open the record for Aleph Alpha Spoke.
 
-    ![Create New Connection & Credential related link highlighted on the screen.](../image/gai-create-new-connection-aleph.png)
+    \[Omitted image "gai-create-new-connection-aleph.png"\] Alt text: Create New Connection &amp; Credential related link highlighted on the screen.
 
 3.  Select the **Create New Connection &amp; Credential** related link.
 
@@ -46,5 +47,5 @@ In order to use Aleph Alpha as your LLM provider for Generative AI Controller ca
 
 You can now use Aleph Alpha Completion OneExtend Capabilities in Flow Designer, Virtual Agent Designer, and scripts to create custom experiences with generative AI.
 
-![Complete connection for Aleph Alpha.](../image/gai-created-connection-aleph.png)
+\[Omitted image "gai-created-connection-aleph.png"\] Alt text: Complete connection for Aleph Alpha.
 

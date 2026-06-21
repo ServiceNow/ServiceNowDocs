@@ -2,6 +2,7 @@
 title: Create configuration values for risk impact
 description: Use the Risk Impact module to create configuration values for the impact vector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/risk-impact-config.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -44,5 +45,5 @@ Role required: sn\_eam.enterprise\_admin
     **Note:** You cannot add or delete any impact configuration records after you select **Freeze**. You can however edit the **Label** field in the existing records.
 
 
-**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](../concept/config-eam-enterrpriseadmins.md)
+**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-enterrpriseadmins.md)
 

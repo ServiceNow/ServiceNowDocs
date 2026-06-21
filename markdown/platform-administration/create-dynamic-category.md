@@ -2,6 +2,7 @@
 title: Create a dynamic category
 description: Create a container for organizing dynamic attribute groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-dynamic-category.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -43,11 +44,11 @@ Dynamic categories inherit the group membership of their extended hierarchy. For
 
 ## Create a dynamic category for capturing everything about electronics
 
-![A dynamic category for capturing everything about Electronics.](../image/dynamic-parent-category-example.png)
+\[Omitted image "dynamic-parent-category-example.png"\] Alt text: A dynamic category for capturing everything about Electronics.
 
 ## Create a dynamic category called Televisions that extends from the Electronics dynamic category
 
-![A dynamic category that extends from Electronics for capturing everything about televisions.](../image/dynamic-child-category-example.png)
+\[Omitted image "dynamic-child-category-example.png"\] Alt text: A dynamic category that extends from Electronics for capturing everything about televisions.
 
 ## What to do next
 
@@ -57,5 +58,5 @@ If you determine that you need another dynamic attribute group for multiple prod
 
 For example, you might need attributes for capturing Volts, Amps, and Watts in a product record. You can add the attributes to a new group called Electrical Specs, and then add the group to the Electronics category. Because the Televisions category extends from the Electronics category, the Electrical Specs group is automatically inherited by the Televisions category.
 
-**Parent Topic:**[Dynamic Schema](../concept/dynamic-schema.md)
+**Parent Topic:**[Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-schema.md)
 

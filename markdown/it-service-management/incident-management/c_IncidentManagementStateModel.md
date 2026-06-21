@@ -2,6 +2,7 @@
 title: Life cycle of an Incident
 description: Incident Management is responsible for managing the life cycle of incidents, from creation to closure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/c\_IncidentManagementStateModel.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -17,7 +18,7 @@ Incident Management is responsible for managing the life cycle of incidents, fro
 
 The Incident Management process has many states, and each is vitally important to the success of the process and the quality of service delivered. The different states can be represented in a diagram as follows:
 
-![Incident state flow diagram](../image/IM_StateModel.png "Incident management state model flow")
+\[Omitted image "IM\_StateModel.png"\] Alt text: Incident state flow diagram
 
 <table id="table_t51_21c_b5"><thead><tr><th>
 
@@ -83,5 +84,5 @@ Canceled
 Incident was triaged but found to be a duplicate incident, an unnecessary incident, or not an incident at all.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Incident Management](incident-management-process.md)
+</table>**Parent Topic:**[Exploring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/incident-management-process.md)
 

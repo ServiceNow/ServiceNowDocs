@@ -2,6 +2,7 @@
 title: Configure API metrics
 description: Configure the API metrics feature in Application Insights to enable instance administrators to proactively monitor instance performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/configure-api-metrics.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -38,5 +39,5 @@ Role required: admin
     -   Plugin ID: com.glide.rest.analytics.metricbase
     -   Name: API Metrics
 
-**Parent Topic:**[Monitoring API performance](../concept/api-metrics.md)
+**Parent Topic:**[Monitoring API performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/api-metrics.md)
 

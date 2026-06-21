@@ -2,6 +2,7 @@
 title: Upgrade an agent in an instance
 description: Perform selective self-upgrade instead of bulk upgrade for enhanced efficiency when working with agents that are difficult to access, such as agents deployed in the cloud. You can perform selective upgrade on up to 20 agents at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/upgrade-agent-from-instance.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

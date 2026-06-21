@@ -2,7 +2,10 @@
 title: Enable Zoom chat integration
 description: Enable the Zoom Team Chat feature on your ServiceNow instance by setting the related system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/enable-zoom-chat-integration.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -42,5 +45,5 @@ Role required: admin
 
 The Zoom Team Chat feature on the ServiceNow instance is enabled.
 
-**Parent Topic:**[Configuring Collaboration services for Zoom](../concept/configure-sn-zoom.md)
+**Parent Topic:**[Configuring Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-sn-zoom.md)
 

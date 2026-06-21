@@ -2,6 +2,7 @@
 title: Service Catalog checkout models
 description: The service catalog defaults to one-step checkout model, but also allows two-step checkout. Administrators and users with the catalog\_admin role can enable and configure the two-step checkout model and control how the delivery address is populated.You can enable the two-step checkout to specify a recipient, delivery address, and special instructions for an order.Administrators can control how the delivery address is populated. By default the delivery address is defined by the client script called set location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-catalog/c\_EnableATwoStepCheckout.html
 release: xanadu
 product: Service Catalog
 classification: service-catalog
@@ -25,7 +26,7 @@ The service catalog also supports a two-step checkout model. Under this model, w
 
 Access check for a catalog item is performed during its checkout. This check is also applicable in scripts and APIs.
 
-**Parent Topic:**[Service Catalog request fulfillment](request-fulfillment.md)
+**Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/request-fulfillment.md)
 
 ## Enable the two-step checkout process
 
@@ -54,7 +55,7 @@ Role required: admin
 
 Administrators can control how the delivery address is populated. By default the delivery address is defined by the client script called set location.
 
-![Requested for](../image/SpecifyRequesterLocation.png "Requested for")
+\[Omitted image "SpecifyRequesterLocation.png"\] Alt text: Requested for
 
 When the two-step checkout process is enabled, the `set location` script retrieves the address of the user and enters formatted details in the Deliver to field.
 

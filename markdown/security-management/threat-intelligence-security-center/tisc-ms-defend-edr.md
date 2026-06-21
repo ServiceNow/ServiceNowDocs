@@ -2,13 +2,14 @@
 title: Send observables to EDR
 description: Send observables to the EDR security tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-ms-defend-edr.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-04-14"
 reading_time_minutes: 1
-breadcrumb: [Microsoft Defender for EDR Integration, TISC Security Tools integrations, TISC Integrations, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Microsoft Defender for EDR Integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Send observables to EDR
@@ -48,5 +49,5 @@ Role required: sn\_sec\_tisc.analyst
     **Note:** Once the execution is initiated or completed, a work notes is posted on the activity stream of the form view and you can verify the execution progress accordingly.
 
 
-**Parent Topic:**[Microsoft Defender for EDR Integration](../concept/tisc-ms-defender-integration.md)
+**Parent Topic:**[Microsoft Defender for EDR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-ms-defender-integration.md)
 

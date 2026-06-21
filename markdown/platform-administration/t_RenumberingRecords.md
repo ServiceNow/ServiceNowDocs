@@ -2,6 +2,7 @@
 title: Configure left padding of a system number in a table
 description: You can configure the left padding of the system numbers on a table. For example, pad the Number field on an Incident, Problem, or Change Request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_RenumberingRecords.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ You can configure the left padding of the system numbers on a table. For example
 
 ## Before you begin
 
-If you are configuring numbers on a custom table or a table that does not extend the task table, then, before performing the following procedure, you must prepare business rules and script includes. For more information, see [Prepare to left-pad number fields in custom tables](t_PrepToLeftPadNumFldsInCustmTbls.md).
+If you are configuring numbers on a custom table or a table that does not extend the task table, then, before performing the following procedure, you must prepare business rules and script includes. For more information, see [Prepare to left-pad number fields in custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_PrepToLeftPadNumFldsInCustmTbls.md).
 
 Role required: admin
 
@@ -39,12 +40,12 @@ Role required: admin
 
     Number padding is applied to both existing and new records.
 
-    ![Sys number padded](../image/SysNumberPadded.png)
+    \[Omitted image "SysNumberPadded.png"\] Alt text: Sys number padded
 
     The result of the configuration in the image is an Incident number that is left padded.
 
-    ![Padded incident number](../image/PaddedIncidentnumber.png)
+    \[Omitted image "PaddedIncidentnumber.png"\] Alt text: Padded incident number
 
 
-**Parent Topic:**[Prepare to left-pad number fields in custom tables](t_PrepToLeftPadNumFldsInCustmTbls.md)
+**Parent Topic:**[Prepare to left-pad number fields in custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_PrepToLeftPadNumFldsInCustmTbls.md)
 

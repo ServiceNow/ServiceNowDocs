@@ -2,6 +2,7 @@
 title: Setting notification preferences in Core UI
 description: You can set your own notification preferences, including personal subscriptions and channels for receiving them. All users can set these preferences through the Notifications tab of the System Settings window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/user-notification-preferences.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -25,7 +26,7 @@ With the **Notifications** tab, you can:
 
 In new and upgraded instances that use the Core UI interface, the System Settings window is the central location for managing your notification preferences for Next Experience. The Notification Preference User Interface plugin \(com.glide.notification.preference.ui\) is activated by default.
 
-![Examples of notification preferences in Core UI System Settings window and UI15 and earlier interfaces](../image/NotifPrefsUI16UI15.png "Notification preferences in Core UI and UI15")
+\[Omitted image "NotifPrefsUI16UI15.png"\] Alt text: Examples of notification preferences in Core UI System Settings window and UI15 and earlier interfaces
 
 In UI15 and earlier interfaces:
 
@@ -43,9 +44,9 @@ In UI15 and earlier interfaces:
 
 To switch to the Core UI from Next Experience, set the property **glide.ui.polaris.core.notification\_preference.enabled** to true.
 
-To access your notification preferences, click the gear icon \(![gear icon](../image/IconUI16Gear.png)\) in the banner frame, and in the System Settings window, click the **Notifications** tab. You can also access the System Settings by navigating to **Self Service** &gt; **My Notification Preferences**.
+To access your notification preferences, click the gear icon \(\[Omitted image "IconUI16Gear.png"\] Alt text: gear icon\) in the banner frame, and in the System Settings window, click the **Notifications** tab. You can also access the System Settings by navigating to **Self Service** &gt; **My Notification Preferences**.
 
-![Notification settings in the System Settings window](../image/NotifiTabSystemSettings.png "Notifications tab in System Settings window")
+\[Omitted image "NotifiTabSystemSettings.png"\] Alt text: Notification settings in the System Settings window
 
 In the **Notifications** tab, use the settings in the following table to manage your notifications.
 
@@ -83,8 +84,8 @@ Notification channels
 </td><td>
 
 List of your channels for receiving notifications. Use this section to:-   Enable or disable a channel by using its toggle switch. If you disable a channel, notifications are not delivered through that channel.
--   [Add channels](../task/create-channel.md) using the **Create Channel** option.
--   [Modify channel information](../task/modify-notif-channel.md). Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
+-   [Add channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-channel.md) using the **Create Channel** option.
+-   [Modify channel information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/modify-notif-channel.md). Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
 
 </td></tr><tr id="NotificationsByCategory"><td>
 
@@ -96,22 +97,22 @@ List of notification categories that identify and group related notifications. E
 
  -   Edit settings for a notification:
     -   Enable or disable channels for the selected notification.
-    -   [Apply notification conditions](../task/apply-notification-conditions.md), such as schedules and filters, that affect the delivery of the notification.
--   [Create personal notifications](../task/create-personal-notifications.md), which are subscriptions to specific notifications that matter to you.
+    -   [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/apply-notification-conditions.md), such as schedules and filters, that affect the delivery of the notification.
+-   [Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-personal-notifications.md), which are subscriptions to specific notifications that matter to you.
 
 </td></tr></tbody>
 </table>**Note:** Subscription-based notifications are not domain aware and cannot support domain-specific settings.
 
--   **[Subscription-based notifications](c_SubscriptionBasedNotifications.md)**  
+-   **[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_SubscriptionBasedNotifications.md)**  
 Subscription-based notifications enable users to proactively subscribe to items that interest them and unsubscribe from messages that are not mandatory.
--   **[Create notification channels](../task/create-channel.md)**  
+-   **[Create notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-channel.md)**  
 You can add channels to receive your notifications. A notification channel is an email account or voice message system that you have access to.
--   **[Modify notification channels](../task/modify-notif-channel.md)**  
+-   **[Modify notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/modify-notif-channel.md)**  
 You can update channel information for your notifications.
--   **[Delete a notification channel](../task/delete-notif-channel.md)**  
+-   **[Delete a notification channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/delete-notif-channel.md)**  
 Delete a notification channel so that you no longer receive notifications through the channel.
--   **[Apply notification conditions](../task/apply-notification-conditions.md)**  
+-   **[Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/apply-notification-conditions.md)**  
 Set various conditions and filters to control the notifications you receive. You can also enable or disable an email digest and the delivery of individual notifications by channel.
 
-**Parent Topic:**[Notification Preferences](preferences-landing.md)
+**Parent Topic:**[Notification Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/preferences-landing.md)
 

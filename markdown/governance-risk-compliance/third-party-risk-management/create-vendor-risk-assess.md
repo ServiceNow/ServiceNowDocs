@@ -2,6 +2,7 @@
 title: Create an external assessment — Legacy process
 description: Create an assessment and initiate the third-party risk assessment life cycle. An external assessment specifies the details for the third party or engagement and defines the plan for completing the assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/create-vendor-risk-assess.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -29,7 +30,7 @@ Assessments can be created on-demand or can recur on a specified schedule. When 
 
 2.  Select **New** and then fill in the fields.
 
-    ![Vendor Risk Assessment form.](../image/vendor-risk-assessment.png)
+    \[Omitted image "vendor-risk-assessment.png"\] Alt text: Vendor Risk Assessment form.
 
 <table id="table_FloorForm"><thead><tr><th>
 
@@ -95,7 +96,7 @@ Repeating assessment
 
 </td><td>
 
-The assessment used to create the current assessment. **Note:** You can create repeating assessments if you are using the classic assessment engine. You can configure rules that auto-generate and send questionnaires and doc requests to engagements and third parties using the Event-driven management feature if you are using the Smart Assessment Engine. For more information, see [Configure a risk assessment to recur on a schedule](define-repeating-vend-assess.md) and [Event-driven management — automate assessment processes](../../grc-workspace-vrm/task/tprm-event-drvn-mgt-rule-create.md).
+The assessment used to create the current assessment. **Note:** You can create repeating assessments if you are using the classic assessment engine. You can configure rules that auto-generate and send questionnaires and doc requests to engagements and third parties using the Event-driven management feature if you are using the Smart Assessment Engine. For more information, see [Configure a risk assessment to recur on a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/define-repeating-vend-assess.md) and [Event-driven management — automate assessment processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-create.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +116,7 @@ Owner
 
 The individual who owns an assessment for audit purposes and monitors and manages overall assessment processes. The owner is responsible for confirming that the assessment is completed in a timely fashion by the third party, reviewing their responses, and creating and resolving issues. To drive the assessment to its completion, they are notified when an assessment reaches a particular milestone. They must have the TPR manager or TPR assessor role.
 
- For new requests, if the **Owner** field is empty, then the following action happens: The system sends an email notification to all users in the group that is specified in the **Assignment group**. The message states that the request was received and is in the **New** state. The message also includes a link to the details page for the request. See [Add users to groups based on responsibilities](../../grc-vendor-risk-implementation/task/tprm-groups-add-users-to.md).
+ For new requests, if the **Owner** field is empty, then the following action happens: The system sends an email notification to all users in the group that is specified in the **Assignment group**. The message states that the request was received and is in the **New** state. The message also includes a link to the details page for the request. See [Add users to groups based on responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-groups-add-users-to.md).
 
  **Note:** If the **Owner** field is empty and you select **Start the IRQ process**, then you become the owner.
 
@@ -139,7 +140,7 @@ State
 
 </td><td>
 
-The process of collecting assessment data from a third party transitions through several states. See [Life cycle states of a external assessment](../concept/tprm-external-assessment-lifecycle.md) for detailed descriptions.
+The process of collecting assessment data from a third party transitions through several states. See [Life cycle states of a external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md) for detailed descriptions.
 
 </td></tr><tr><td>
 
@@ -402,16 +403,16 @@ Public information about the assessment.
 
     Additional related lists appear. If you left the **Assessment template** field empty and want to use assessment templates to associate multiple questionnaires and/or document requests with this assessment, use the Questionnaires or Document Requests related lists.
 
-    ![Several related lists appear when you save the Vendor Risk Assessment form.](../image/assessment-related-lists.png)
+    \[Omitted image "assessment-related-lists.png"\] Alt text: Several related lists appear when you save the Vendor Risk Assessment form.
 
 4.  To associate existing questionnaires and/or document requests with the assessment, perform the following steps.
 
     1.  Open the Questionnaires or Document Requests related list.
     2.  Select **Edit**, select the questionnaires or document requests to use, and then select **Save**.
     3.  Repeat for the other type of questions, if needed.
-5.  To create new questionnaire and/or document request templates and associate them with the assessment, see [Create a questionnaire or document request template](create-questionnaire-template.md).
+5.  To create new questionnaire and/or document request templates and associate them with the assessment, see [Create a questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.md).
 
-    **Important:** In the next step, you can choose to submit the questionnaire to the third party. To pre-populate the questionnaire with responses from the most recently closed assessment, you must select the **Include previous responses** option before you submit it to the third party. The setting cannot be changed after the questionnaire is sent to the third party. See [Create a questionnaire or document request template](create-questionnaire-template.md).
+    **Important:** In the next step, you can choose to submit the questionnaire to the third party. To pre-populate the questionnaire with responses from the most recently closed assessment, you must select the **Include previous responses** option before you submit it to the third party. The setting cannot be changed after the questionnaire is sent to the third party. See [Create a questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.md).
 
 6.  Select **Submit to third party**.
 
@@ -424,9 +425,9 @@ Public information about the assessment.
 
 7.  When the third-party contact is ready to respond to the assessment, they open the assessment in the Third-party portal.
 
-    ![Working with an assessment in the third-party portal.](../image/portal-updated-assess.png)
+    \[Omitted image "portal-updated-assess.png"\] Alt text: Working with an assessment in the third-party portal.
 
-    **Note:** In the example, one of the questionnaires requires a signature. The third party or reviewer must save and e-sign the questionnaire or document request before it can be submitted. For more information, see [E-signatures on questionnaires or document requests](../../grc-workspace-vrm/task/tprm-ws-approve-with-e-sig.md).
+    **Note:** In the example, one of the questionnaires requires a signature. The third party or reviewer must save and e-sign the questionnaire or document request before it can be submitted. For more information, see [E-signatures on questionnaires or document requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-ws-approve-with-e-sig.md).
 
 8.  The TPR assessor moves the state of the assessment to **Generating Observations**.
 
@@ -441,5 +442,5 @@ Public information about the assessment.
 
 The TPR assessor works through the third-party portal with the third party to close the assessment.
 
-![Vendor risk assessment life cycle.](../image/vrm-workflow.png)
+\[Omitted image "vrm-workflow.png"\] Alt text: Vendor risk assessment life cycle.
 

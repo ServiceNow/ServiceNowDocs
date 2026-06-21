@@ -2,6 +2,7 @@
 title: Create participants for document templates
 description: Define actions and the order of actions for participants. The type of action and order are considered while initiating document tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-wdt-create-participant.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +19,7 @@ Define actions and the order of actions for participants. The type of action and
 ## Before you begin
 
 -   You need to define participants only when you want to use the document template flow. If you only want to generate a PDF document, defining participants is not mandatory.
--   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](../../human-resources/concept/c_HRDocumentTemplates.md).
+-   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/c_HRDocumentTemplates.md).
 -   Role required: sn\_cm\_core.contract\_config
 
 ## Procedure
@@ -33,7 +34,7 @@ Define actions and the order of actions for participants. The type of action and
 
 5.  On the form, fill in the fields:
 
-    For description on the field values, see [Participant form for Microsoft Word document templates](../reference/cncore-wdt-participant-form.md).
+    For description on the field values, see [Participant form for Microsoft Word document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-wdt-participant-form.md).
 
 6.  Click **Submit**.
 
@@ -42,8 +43,8 @@ Define actions and the order of actions for participants. The type of action and
 
 The participant is added to the document template.
 
--   **[Participant form for Microsoft Word document templates](../reference/cncore-wdt-participant-form.md)**  
+-   **[Participant form for Microsoft Word document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-wdt-participant-form.md)**  
 Use the Participant form to add participants in a Microsoft Word document template.
 
-**Parent Topic:**[Configure document templates for standard letters or documents](cncore-wdt-other-bu.md)
+**Parent Topic:**[Configure document templates for standard letters or documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-wdt-other-bu.md)
 

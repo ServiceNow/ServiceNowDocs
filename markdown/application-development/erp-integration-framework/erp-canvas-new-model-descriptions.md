@@ -2,6 +2,7 @@
 title: ERP Data Hub new model field descriptions
 description: The Create new system form in ERP Data Hub contains details for the ERP \(Enterprise Resource Planning\) model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-new-model-descriptions.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -45,7 +46,7 @@ ERP system
 
 </td><td>
 
-ERP system the ERP model connects to.The connected ERP system enables access to information about field and tables and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in ERP Data Hub](../task/create-an-erp-system.md) and [View a list of ERP Data Hub systems](../task/view-and-monitor-erp-systems-health.md).
+ERP system the ERP model connects to.The connected ERP system enables access to information about field and tables and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/create-an-erp-system.md) and [View a list of ERP Data Hub systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/view-and-monitor-erp-systems-health.md).
 
 </td></tr><tr><td>
 
@@ -88,5 +89,5 @@ Comments
 Comments on the ERP model. Comments are public, and visible to other ServiceNow AI Platform users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Data Hub field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Data Hub field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

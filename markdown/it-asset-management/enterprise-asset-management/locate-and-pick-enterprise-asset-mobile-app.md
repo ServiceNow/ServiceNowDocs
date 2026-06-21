@@ -2,6 +2,7 @@
 title: Locate and pick the enterprise assets in your stockroom using the Mobile Agent application
 description: Locate an enterprise asset placed in a specific aisle and space in the stockroom by using indoor maps. After locating the asset, pick and drop off the asset to another location within the stockroom using the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/locate-and-pick-enterprise-asset-mobile-app.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -33,8 +34,8 @@ Role required: inventory\_user
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon \(![Filter icon](../image/filter-mobile-task-eam.png)\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon \(![Filter icon](../image/filter-mobile-task-eam.png)\), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\), tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the Asset pick task for which you have started work.
 
 6.  To locate the enterprise asset in the stockroom, on the **Details** tab, tap **Locate**.
@@ -73,5 +74,5 @@ Role required: inventory\_user
     -   The **Location** field of the asset is updated with the drop off location only if you have specified the drop off location.
     -   The Enterprise Asset request flow and Enterprise Refresh Request flow proceed to the next stage.
 
-**Parent Topic:**[Manage enterprise asset pick tasks using the Mobile Agent application](../concept/manage-asset-pick-task-eam-mobile-app.md)
+**Parent Topic:**[Manage enterprise asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/manage-asset-pick-task-eam-mobile-app.md)
 

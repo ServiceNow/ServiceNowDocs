@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Financial Services Operations \(FSO\)
 description: With the Now Assist for Financial Services Operations \(FSO\) application, your agent can use generative AI to summarize the case details, understand the case context, and wrap up cases faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.html
 release: xanadu
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -94,11 +95,11 @@ Provides a customized skill that is configured with a series of related tables f
 </table>
 ## Now Assist panel in Financial Services Workspace
 
-An agent can use the Now Assist panel in Financial Services Workspace. This conversational interface enables an agent to request a case summary. For more information about the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+An agent can use the Now Assist panel in Financial Services Workspace. This conversational interface enables an agent to request a case summary. For more information about the Now Assist panel, see .
 
 ## Sensitive data handling
 
-Personally identifiable information and other sensitive data can be masked so that it doesn't appear in generative AI prompts. Placeholder text is sent with the prompt instead, and that placeholder text is replaced with the original text after the response has been received. This two-way masking ensures that your users see the correct values, but the Now LLM Service isn't exposed to any sensitive information. For more information, see [Configure sensitive data handling for generative AI](https://www.servicenow.com/docs/access?context=configure-sensitive-data-handling-for-generative-ai&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Personally identifiable information and other sensitive data can be masked so that it doesn't appear in generative AI prompts. Placeholder text is sent with the prompt instead, and that placeholder text is replaced with the original text after the response has been received. This two-way masking ensures that your users see the correct values, but the Now LLM Service isn't exposed to any sensitive information. For more information, see .
 
-**Important:** Exercise caution when using Now Assist for FSO with cases that contain sensitive data or other regulated workloads, such as healthcare claims. Now Assist for FSO should not be used for processing protected health information \(PHI\). When using Now Assist for FSO in a protected industry, validate and test the generated results in accordance with corresponding legislation and requirements. See [AI limitations](now-assist-for-financial-services-operations.md#id_jvg_1wv_lbc) for more information.
+**Important:** Exercise caution when using Now Assist for FSO with cases that contain sensitive data or other regulated workloads, such as healthcare claims. Now Assist for FSO should not be used for processing protected health information \(PHI\). When using Now Assist for FSO in a protected industry, validate and test the generated results in accordance with corresponding legislation and requirements. See [AI limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) for more information.
 

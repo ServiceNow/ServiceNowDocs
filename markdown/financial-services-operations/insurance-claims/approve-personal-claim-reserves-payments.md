@@ -2,6 +2,7 @@
 title: Approve a reserve or payment amount
 description: A claims manager can approve claim reserve and payment amounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/insurance-claims/approve-personal-claim-reserves-payments.html
 release: xanadu
 product: Insurance Claims
 classification: insurance-claims
@@ -29,7 +30,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 2.  Open the task one of the following ways.
 
-<table><tbody><tr><td id="d81677e72">
+<table><tbody><tr><td id="d45674e72">
 
 **From the landing page**
 
@@ -37,13 +38,13 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 Select the task from the My pending tasks list.
 
-</td></tr><tr><td id="d81677e81">
+</td></tr><tr><td id="d45674e81">
 
 **From the Personal lines claims approvals list**
 
 </td><td>
 
-1.  Select the lists icon \(![lists icon.](../../fso-card-operations/image/list-icon.png)\).
+1.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 2.  In the **Lists** tab, under **Personal lines claims approvals**, open one of the following:
     -   **My approvals - Reserves**
     -   **My approvals - Payments**

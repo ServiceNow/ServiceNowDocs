@@ -2,7 +2,10 @@
 title: Configure a default assignment group on the team calendar
 description: Set an assignment group as default to readily access them on the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/configure-default-agent-group.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Whenever you log in to the team calendar, agents in the default assignment group
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Manager** &gt; **Workforce**.
 
-2.  Select the settings icon.\(![Dispatcher Workspace settings icon](../image/fsm-dsw-settings-icon.png)\)
+2.  Select the settings icon.\(\[Omitted image "fsm-dsw-settings-icon.png"\] Alt text: Dispatcher Workspace settings icon\)
 
 3.  In the Default Group list, select a group that you would like to set as default.
 
@@ -36,5 +39,5 @@ Whenever you log in to the team calendar, agents in the default assignment group
     **Note:** If your default assignment group is removed, the agent list shows users from the first group in the list displayed in alphabetical order.
 
 
-**Parent Topic:**[Change views in Workforce](switch-views-in-workforce.md)
+**Parent Topic:**[Change views in Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/switch-views-in-workforce.md)
 

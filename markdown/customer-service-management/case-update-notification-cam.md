@@ -2,7 +2,10 @@
 title: Case update notifications
 description: Contacts, consumers, and contributor users added to a case with the authorized representative responsibility can receive all email notifications that are also received by the primary contact of the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/case-update-notification-cam.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-11"
 reading_time_minutes: 1
@@ -19,11 +22,11 @@ Consumers added as an additional consumer to the sold product with the Authorize
 
 Internal users added as related parties to the case with the Authorized Representative responsibility can receive all email notifications that are received by the primary contact or consumer of the case.
 
-For case resolved emails, related parties with the Authorized Representative responsibility can accept or reject the proposed solution. The responses of emails from related parties are treated similarly to the primary contact or consumer on the case. For more information, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For case resolved emails, related parties with the Authorized Representative responsibility can accept or reject the proposed solution. The responses of emails from related parties are treated similarly to the primary contact or consumer on the case. For more information, see Create an email notification.
 
 ## Role assignments for authorized representatives
 
-Related parties that are added to cases must also be assigned one of the Customer Access Management \(CAM\) roles, such as the sn\_customerservice.case\_authorized\_contributor role. For more information, see [Roles installed with Customer Access Management](../reference/r_rolesinstalledwithcustaccessmgmt.md).
+Related parties that are added to cases must also be assigned one of the Customer Access Management \(CAM\) roles, such as the sn\_customerservice.case\_authorized\_contributor role. For more information, see [Roles installed with Customer Access Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md).
 
 ## Adding related parties to notifications
 

@@ -2,6 +2,7 @@
 title: Implement Virtual and Live Agent chat
 description: The Mobile SDK enables you to easily implement Virtual and Live Agent chat services within your iOS application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/developer-guides/mobsdk-ios-imp-chat.html
 release: xanadu
 product: Developer Guides
 classification: developer-guides
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK Developer Guide - iOS, Developer guides, API implementat
 
 The Mobile SDK enables you to easily implement Virtual and Live Agent chat services within your iOS application.
 
-You use the [NowChatService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowChatService/concept/NowChatServiceiOSAPI.md#) API to create the chat user interface. Once the UI is created, you must then start the chat session, and then start the chat service. Similar to other Mobile SDK feature services, the NowChatService API provides two implementations for some of its methods, including the startChat\(\) method. One implementation returns a [Combine](https://developer.apple.com/documentation/combine) publisher, and the other calls a completion handler with the return results.
+You use the [NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md) API to create the chat user interface. Once the UI is created, you must then start the chat session, and then start the chat service. Similar to other Mobile SDK feature services, the NowChatService API provides two implementations for some of its methods, including the startChat\(\) method. One implementation returns a [Combine](https://developer.apple.com/documentation/combine) publisher, and the other calls a completion handler with the return results.
 
 The following is a snippet from the sample application that shows how to initialize and start a chat UI and session.
 
@@ -64,11 +65,11 @@ private func initializeChatService() {
 }
 ```
 
-Before you can leverage the chat functionality within your application, you must configure Virtual Agent within your ServiceNow instance. For details, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+Before you can leverage the chat functionality within your application, you must configure Virtual Agent within your ServiceNow instance. For details, see .
 
 ## Passing context variables to Live Agent and Virtual Agent chat
 
-You can pass chat context variables when starting a chat session by passing the **contextData** parameter in the [NowChatService - startChat\(contextData: \[String: Any\]?\)](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowChatService/concept/NowChatServiceiOSAPI.md#) or [NowChatService - startChat\(contextData: \[String: Any\]? = nil, \_ completion: @escaping \(Result&lt;Void, NowChatServiceError&gt;\)\)](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowChatService/concept/NowChatServiceiOSAPI.md#) functions. For additional information on chat context variables, see [Live agent chat context variables](https://www.servicenow.com/docs/access?context=live-agent-chat-context-vars&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+You can pass chat context variables when starting a chat session by passing the **contextData** parameter in the [NowChatService - startChat\(contextData: \[String: Any\]?\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md) or [NowChatService - startChat\(contextData: \[String: Any\]? = nil, \_ completion: @escaping \(Result&lt;Void, NowChatServiceError&gt;\)\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md) functions. For additional information on chat context variables, see .
 
 ```
 func startChat() {
@@ -89,5 +90,5 @@ func startChat() {
 
 ## Theme the chat user interface
 
-You can customize the colors of the Live Agent and Virtual Agent chat UI by passing a theme object in the makeChatUI\(\) call. For a list of all of the elements that you can customize, see [NowChatColoring protocol - iOS](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowChatColoring/concept/NowChatColoringiOSProtocol.md#). By default, the chat UI uses the **NowUIColor** theme for all NowSDK UI elements. Refer to the [NowChatThemeable protocol - iOS](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowChatThemeable/concept/NowChatThemeableiOSProtocol.md) for sample code snippets on how to apply a theme to your chat UI.
+You can customize the colors of the Live Agent and Virtual Agent chat UI by passing a theme object in the makeChatUI\(\) call. For a list of all of the elements that you can customize, see [NowChatColoring protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatColoringiOSProtocol.md). By default, the chat UI uses the **NowUIColor** theme for all NowSDK UI elements. Refer to the [NowChatThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatThemeableiOSProtocol.md) for sample code snippets on how to apply a theme to your chat UI.
 

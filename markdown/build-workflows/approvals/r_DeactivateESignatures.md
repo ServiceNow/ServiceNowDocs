@@ -2,6 +2,7 @@
 title: De-activate e-signatures
 description: Use this procedure to de-activate e-signatures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/approvals/r\_DeactivateESignatures.html
 release: xanadu
 product: Approvals
 classification: approvals

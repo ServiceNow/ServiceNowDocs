@@ -2,6 +2,7 @@
 title: Article versioning changes
 description: Article versioning introduces new actions that allow knowledge users to create and revise versions of existing articles. It also introduces new fields and related lists to the Knowledge form, new columns to the Knowledge list, and updates to Knowledge dashboard reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/article-versioning-changes.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -95,5 +96,5 @@ The article view page shows a version history section for articles that have bee
 -   Click the version number to open that particular version of the article.
 -   When viewing an outdated article, a message informs the user that a newer updated version is available. The message includes a link to the latest version.
 
-**Parent Topic:**[Knowledge Management reference](../../../knowledge-management-reference.md)
+**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Edit a playbook in Creator Studio
 description: Update a playbook to change its settings, or rearrange or remove tasks, to make it work for your app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-edit-automation.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -41,11 +42,11 @@ If you want to add complex, unsupported items to a playbook \(such as optional a
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
@@ -53,17 +54,17 @@ If you want to add complex, unsupported items to a playbook \(such as optional a
 
 5.  Check that you're editing the correct playbook in your app by selecting it from the **Automations** tab.
 
-    ![Selection from the Automations tab](../image/cs-automation-tab-selection.png)
+    \[Omitted image "cs-automation-tab-selection.png"\] Alt text: Selection from the Automations tab
 
 6.  Address any errors in the playbook's logic by selecting the error message icon.
 
     In the error tray that appears, you can open the properties to fix each error by selecting the **Location** link.
 
-    ![Select the error location to open it](../image/cs-automation-errors.png)
+    \[Omitted image "cs-automation-errors.png"\] Alt text: Select the error location to open it
 
 7.  Edit the playbook's settings.
 
-    1.  Select the more actions icon \(![](../image/cs-more-actions-icon.png)\) and select **Properties**.
+    1.  Select the more actions icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text:\) and select **Properties**.
 
     2.  Update any of the settings.
 
@@ -81,20 +82,20 @@ If you want to add complex, unsupported items to a playbook \(such as optional a
 
 9.  Swap a placeholder activity if you want to replace it with another activity type.
 
-    1.  Hover over the placeholder activity and select the replace activity icon \(![Replace activity icon](../image/crs-replace-icon.png)\) to directly open the activity picker.
+    1.  Hover over the placeholder activity and select the replace activity icon \(\[Omitted image "crs-replace-icon.png"\] Alt text: Replace activity icon\) to directly open the activity picker.
 
-        ![Select the replace activity icon](../image/crs-swap-placeholder.png "Swap out a placeholder activity")
+        \[Omitted image "crs-swap-placeholder.png"\] Alt text: Select the replace activity icon
 
     2.  Select the new activity from the activity picker.
 
     3.  Update the **Label** and **Description** as needed, or any of the other properties of the activity.
 
-        For more information, see [Add activities to an app's playbook in Creator Studio](creator-studio-add-activities-automation.md).
+        For more information, see [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-add-activities-automation.md).
 
-10. Delete any unnecessary activities by hovering over the activity and selecting the delete icon \(![](../image/cs-delete-icon.png)\).
+10. Delete any unnecessary activities by hovering over the activity and selecting the delete icon \(\[Omitted image "cs-delete-icon.png"\] Alt text:\).
 
-11. Make any advanced edits in Workflow Studio by selecting the more actions icon \(![](../image/cs-more-actions-icon.png)\) and selecting **Open in Workflow Studio**.
+11. Make any advanced edits in Workflow Studio by selecting the more actions icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text:\) and selecting **Open in Workflow Studio**.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-working-with-automations.md)
 

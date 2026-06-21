@@ -2,6 +2,7 @@
 title: Agent Client Collector logs
 description: Agent Client Collector logs measure the activity of the Agent Client Collector. Log feedback can be helpful in identifying the areas of the agent with issues if agent performance is less than optimal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-logs-concept.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,5 +18,5 @@ Agent Client Collector logs measure the activity of the Agent Client Collector. 
 
 You can configure the levels of severity that you want the logs to monitor, such as Error, Debug, and Info. You can also configure how often to delete logs, to preserve system resources.
 
-For details on locating Agent Client Collector logs, see [View the Agent Client Collector logs](../task/acc-view-log.md).
+For details on locating Agent Client Collector logs, see [View the Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-view-log.md).
 

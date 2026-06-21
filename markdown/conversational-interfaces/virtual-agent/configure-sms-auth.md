@@ -2,6 +2,7 @@
 title: Configure SMS authentication
 description: Authenticate all users using Conversational SMS Integration with Twilio with Soft PIN \(SN\) and Google authenticators as the 2-factor authentication mechanisms for account linking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-sms-auth.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

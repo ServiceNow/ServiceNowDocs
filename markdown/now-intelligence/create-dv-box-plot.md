@@ -2,6 +2,7 @@
 title: Create a box plot data visualization
 description: Use a box plot to show the median and lower and upper quartiles of numeric data along with outliers. You can also compare the distribution of different groups of this data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/create-dv-box-plot.html
 release: xanadu
 topic_type: task
 last_updated: "2025-09-04"
@@ -18,7 +19,7 @@ Use a box plot to show the median and lower and upper quartiles of numeric data 
 
 **Important:** The box plot visualization is included in the latest data visualizations application from the ServiceNow® Store.
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -32,7 +33,7 @@ For information about the use of a Box plot visualization in a dashboard, see [t
 
 2.  Select **New**.
 
-3.  Select the Box Plot \(![vertical box icon](../image/inline-data-vis-box.png)\) visualization type.
+3.  Select the Box Plot \(\[Omitted image "inline-data-vis-box.png"\] Alt text: vertical box icon\) visualization type.
 
 4.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
@@ -48,7 +49,7 @@ For information about the use of a Box plot visualization in a dashboard, see [t
 
 5.  Open the Data Source selector and select a table.
 
-6.  Configure the data settings as described in [Table data options for box plot visualizations](../reference/config-dv-box-table-data.md).
+6.  Configure the data settings as described in [Table data options for box plot visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/config-dv-box-table-data.md).
 
 7.  Under **Presentation**, provide display and color information..
 
@@ -155,7 +156,7 @@ Set color type
 
 </td><td>
 
--   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+-   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see .
 -   Single color/Colors per metric: Select a single color in the **Set value color** field. Interacting with that field opens a selector where you can choose the color from either a set of icons or from a list. You can also search for a color. Entering a search value has the selector show you a list of colors filtered by that search value.
 
 
@@ -184,7 +185,7 @@ Action
 
 </td><td>
 
-Choose the event that occurs when a user clicks in a chart or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](../../par-for-workspace/concept/dv-chart-interactions.md).
+Choose the event that occurs when a user clicks in a chart or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/dv-chart-interactions.md).
 
 -   **Go to data view** opens the records view in a Core UI list or KPI Details relevant to the associated segment or visualization. Records do not open in Workspace embedded lists.
 
@@ -203,7 +204,7 @@ Not supported for User Experience Analytics data sources.
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](add-dv-new-db.md)
--   [Share a data visualization in the Visualization Designer](share-dv-ac.md#)
--   [Bookmark a visualization in the Visualization Designer](../../dashboards/task/bookmark-dv-ac.md)
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/add-dv-new-db.md)
+-   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/share-dv-ac.md)
+-   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/bookmark-dv-ac.md)
 

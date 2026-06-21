@@ -2,6 +2,7 @@
 title: Smart Card in RPA Hub
 description: Smart card login for a Windows machine is a secure method of logging into the system using a physical smart card instead of a username and password. It’s commonly used in organizations to enhance security, particularly in environments with high security requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/smart-card-il.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -16,7 +17,7 @@ breadcrumb: [Exploring RPA Hub, RPA Hub, Robotic Process Automation \(RPA\) Hub,
 
 Smart card login for a Windows machine is a secure method of logging into the system using a physical smart card instead of a username and password. It’s commonly used in organizations to enhance security, particularly in environments with high security requirements.
 
-With Robotic Process Automation \(RPA\), you can run unattended automations on the machines that use smart cards for authentication. While configuring a robot credential, you can store the smart card username and password to allow the unattended robot to log in to machines that use smart card. For more information about configuring Smart Card for an unattended robot, see [Create a robot credential in RPA Hub](../task/create-credential-set-botprocess.md).
+With Robotic Process Automation \(RPA\), you can run unattended automations on the machines that use smart cards for authentication. While configuring a robot credential, you can store the smart card username and password to allow the unattended robot to log in to machines that use smart card. For more information about configuring Smart Card for an unattended robot, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-credential-set-botprocess.md).
 
 ## Smart Card limitations
 

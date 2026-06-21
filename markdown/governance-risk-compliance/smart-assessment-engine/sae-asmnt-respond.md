@@ -2,6 +2,7 @@
 title: Respond to an assessment
 description: Respond to an assessment that has been assigned to your queue. Your responses to the assessment help with making informed decisions and taking targeted actions by using the Smart Assessment Engine application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/smart-assessment-engine/sae-asmnt-respond.html
 release: xanadu
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -32,7 +33,7 @@ When you’re assigned a task to respond to an assessment, you submit your respo
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **Workspaces** &gt; **Compliance Workspace**
-    2.  Select the task icon \(![Task icon.](../../grc-workspace-vrm/image/icon-tprm-ws-tasks.png)\) and then navigate to **My pending tasks** &gt; **Control attestations** &gt; **Smart Assessments**.
+    2.  Select the task icon \(\[Omitted image "icon-tprm-ws-tasks.png"\] Alt text: Task icon.\) and then navigate to **My pending tasks** &gt; **Control attestations** &gt; **Smart Assessments**.
 3.  Review any instructions or reference information.
 
     You may see additional question guidance text for your review as you complete the questions.

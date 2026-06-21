@@ -2,6 +2,7 @@
 title: Use the UserDomain component
 description: Retrieve the user domain name that is associated with a current user as part of an automation Workflow by using the UserDomain component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-environment-userdomain.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the UserDomain component. For more information about these properties, see [Properties of the Environment components](../reference/util-environment-prop.md).
+You can configure the properties for the UserDomain component. For more information about these properties, see [Properties of the Environment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/util-environment-prop.md).
 
 ## Procedure
 
@@ -83,5 +84,5 @@ No. Connecting the port is optional.
 </table>4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Environment](../concept/environment-utility.md)
+**Parent Topic:**[Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/environment-utility.md)
 

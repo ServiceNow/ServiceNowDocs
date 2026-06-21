@@ -2,6 +2,7 @@
 title: Resolve a skipped update and set a resolution status
 description: Review the reason for each skipped record to resolve each skipped update after an upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-resolve-skipped-update.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -40,7 +41,7 @@ When an object is customized, the system adds a corresponding record to the Cust
 
 3.  In the Skipped Changes to Review related list, select the update record to resolve.
 
-    See [Review skipped records using related lists](uc-access-rl.md#).
+    See [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrade-center/uc-access-rl.md).
 
 4.  Review the list of changes.
 

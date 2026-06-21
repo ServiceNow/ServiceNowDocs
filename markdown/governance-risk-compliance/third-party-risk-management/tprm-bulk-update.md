@@ -2,6 +2,7 @@
 title: Update existing records in bulk
 description: Update existing records in bulk from the Digital resilience third-party registers using Third-party Risk Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-bulk-update.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -25,13 +26,13 @@ Only DORA administrators can view the **Upload** option and perform this task.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Excel download/upload requests** and then create an Excel download request by selecting **New**.
 
 3.  On the form, select **Download** as the request type and fill in the remaining fields.
 
-    For descriptions of all these fields, see [Create New Excel download/upload request form](../reference/tprm-excel-upload-download-req.md).
+    For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
 
 4.  Select **Save**.
 
@@ -57,7 +58,7 @@ Only DORA administrators can view the **Upload** option and perform this task.
 
 9.  On the form, select **Upload** as the request type and fill in the remaining fields.
 
-    For descriptions of all these fields, see [Create New Excel download/upload request form](../reference/tprm-excel-upload-download-req.md).
+    For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
 
     **Note:** Only DORA administrators can view the **Upload** option and perform this task.
 

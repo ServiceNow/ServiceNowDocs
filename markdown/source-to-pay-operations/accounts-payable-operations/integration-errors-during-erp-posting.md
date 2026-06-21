@@ -2,6 +2,7 @@
 title: Integration errors
 description: The ERP integration framework enables Accounts Payable Operations specialists to work on system-generated integration error tasks that record integration issues associated with invoices posted to the ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/integration-errors-during-erp-posting.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,5 +24,5 @@ Integration admins are notified about the integration errors through **Integrati
 
 Playbooks are designed to auto-create an error task and attach the error task to the respective invoice case.
 
-The Accounts Payable Operations specialists can also view the ERP posting errors through the Accounts Payable Operations home page. For more information on the home page, see [APO landing page](acc-pay-workspace-landing-page.md).
+The Accounts Payable Operations specialists can also view the ERP posting errors through the Accounts Payable Operations home page. For more information on the home page, see [APO landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-landing-page.md).
 

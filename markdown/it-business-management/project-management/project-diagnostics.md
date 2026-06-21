@@ -2,11 +2,12 @@
 title: Use Project Diagnostics to detect corrupt project data
 description: Project Diagnostics uses the Application Diagnostics Tool to detect corrupt data in a project, such as tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations in a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/project-diagnostics.html
 release: xanadu
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Project Diagnostics, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -27,15 +28,15 @@ Project Diagnostics can also detect whether date calculations in a project appea
 
 1.  Determine whether you want to run a diagnostic scan on a single project or multiple projects.
 
-<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d102433e55">
+<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d102234e55">
 
 Scope
 
-</th><th align="left" id="d102433e58">
+</th><th align="left" id="d102234e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d102433e64">
+</th></tr></thead><tbody><tr><td id="d102234e64">
 
 **All Projects**
 
@@ -43,7 +44,7 @@ Steps
 
 Navigate to **Project Administration** &gt; **Project Diagnostics**.
 
-</td></tr><tr><td id="d102433e85">
+</td></tr><tr><td id="d102234e85">
 
 **Single Project**
 
@@ -61,15 +62,15 @@ Navigate to **Project Administration** &gt; **Project Diagnostics**.
 
 4.  From the **Diagnostics** section, run a single diagnostic scan or multiple scans on the projects matching the filter criteria.
 
-<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d102433e145">
+<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d102234e145">
 
 Task
 
-</th><th align="left" id="d102433e148">
+</th><th align="left" id="d102234e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d102433e154">
+</th></tr></thead><tbody><tr><td id="d102234e154">
 
 **Run multiple diagnostic scans**
 
@@ -79,7 +80,7 @@ Steps
 2.  Click **Run Diagnostics** at the top-right corner of the page.
 
 
-</td></tr><tr><td id="d102433e175">
+</td></tr><tr><td id="d102234e175">
 
 **Run a specific diagnostic scan**
 
@@ -95,5 +96,5 @@ Steps
 
 ## What to do next
 
-Add your own [diagnostic scans](../../project-portfolio-suite-with-financials/task/create-diagnostic-scan-map-script.md) and [fix scripts](../../project-portfolio-suite-with-financials/task/add-diagnostic-and-fix-script.md).
+Add your own [diagnostic scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/create-diagnostic-scan-map-script.md) and [fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/add-diagnostic-and-fix-script.md).
 

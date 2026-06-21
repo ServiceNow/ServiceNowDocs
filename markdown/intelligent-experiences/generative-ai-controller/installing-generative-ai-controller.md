@@ -2,6 +2,7 @@
 title: Installing Generative AI Controller
 description: You can install the Generative AI Controller application \(sn.generative.ai\) with Now Assist applications if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/installing-generative-ai-controller.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -20,9 +21,9 @@ You can install the Generative AI Controller application \(sn.generative.ai\) wi
 
 You must be on Vancouver patch 2 or later.
 
-Generative AI Controller is included as a dependency for all Now Assist applications. It is not recommended to install the application by itself. Instead, you can install Now Assist applications from the Now Assist Admin console or directly from the ServiceNow Store. For details, see [Install Now Assist plugins](../../now-assist-admin/task/install-now-assist-feature-plugins.md).
+Generative AI Controller is included as a dependency for all Now Assist applications. It is not recommended to install the application by itself. Instead, you can install Now Assist applications from the Now Assist Admin console or directly from the ServiceNow Store. For details, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
-![Now Assist Admin console links to browse plugins by workflow](../image/now-assist-console-install-plugins.png "Now Assist Admin console plugin installation")
+\[Omitted image "now-assist-console-install-plugins.png"\] Alt text: Now Assist Admin console links to browse plugins by workflow
 
 The Sensitive Data Handler plugin is required to successfully use Generative AI Controller. It is installed with the latest version of the application, but if you have an earlier version of Generative AI Controller on your instance you may need to add the Sensitive Data handler manually.
 

@@ -2,6 +2,7 @@
 title: Create an investment board
 description: View the projects and demands that are important to you by creating a personalized investment board using filter criteria you define.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/create-an-investment-report.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -27,15 +28,15 @@ Role required: it\_project\_manager, it\_project\_user, or sn\_ppm\_finance\_rea
 
 3.  In the Create new window, fill in the fields
 
-<table id="choicetable_hbf_kvl_v1b"><thead><tr><th align="left" id="d103137e83">
+<table id="choicetable_hbf_kvl_v1b"><thead><tr><th align="left" id="d102854e83">
 
 Field
 
-</th><th align="left" id="d103137e86">
+</th><th align="left" id="d102854e86">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d103137e92">
+</th></tr></thead><tbody><tr><td id="d102854e92">
 
 **Name**
 
@@ -43,7 +44,7 @@ Description
 
 Name for the investment board.
 
-</td></tr><tr><td id="d103137e101">
+</td></tr><tr><td id="d102854e101">
 
 **Type**
 
@@ -54,7 +55,7 @@ Level to filter projects and demands. -   **Portfolio**: When selected, projects
 -   **Demands/Projects**: When selected, demands and projects matching that type are displayed, and are not bound to any particular portfolio or program.
 
 
-</td></tr><tr><td id="d103137e128">
+</td></tr><tr><td id="d102854e128">
 
 **Portfolio**
 
@@ -64,7 +65,7 @@ Name of the portfolio from which the projects and demands are filtered.
 
  This option is available only when **Type** is **Portfolio**.
 
-</td></tr><tr><td id="d103137e149">
+</td></tr><tr><td id="d102854e149">
 
 **Program**
 
@@ -74,7 +75,7 @@ Name of the program from which the projects and demands are filtered.
 
  This option is available only when **Type** is **Program**.
 
-</td></tr><tr><td id="d103137e171">
+</td></tr><tr><td id="d102854e171">
 
 **Demand/Projects**
 
@@ -86,7 +87,7 @@ Option to specify filter criteria for projects and demands. **Note:**
 -   You can view a CSM column in an Investment Portal board, but you cannot add a filter on such columns in the board.
 
 
-</td></tr><tr><td id="d103137e190">
+</td></tr><tr><td id="d102854e190">
 
 **Active projects and demands**
 
@@ -96,7 +97,7 @@ Check box to filter only active projects and demands.
 
 This option is available only when **Type** is **Portfolio** or **Program**.
 
-</td></tr><tr><td id="d103137e211">
+</td></tr><tr><td id="d102854e211">
 
 **Create**
 
@@ -112,5 +113,5 @@ Option to complete the creation of investment board.
 
 Once your investment board is created, it opens up in the Investment Portal page.
 
-**Note:** By default, the investment board contains those widgets that have **Include by default** check box [selected](configure-investment-metrics.md). You can add or remove widgets from your investment board by using [Widget Configuration](use-investment-portal.md#image_cwc_2xh_ycb).
+**Note:** By default, the investment board contains those widgets that have **Include by default** check box [selected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/configure-investment-metrics.md). You can add or remove widgets from your investment board by using [Widget Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/use-investment-portal.md).
 

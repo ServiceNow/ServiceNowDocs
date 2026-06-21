@@ -2,7 +2,10 @@
 title: Associate an address to an account
 description: Users can associate addresses to an account using the Account address related list on the account form or the location form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/associate-address-account.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,6 +32,6 @@ Role required: admin
 
 4.  Fill the details in account address form and select **Submit**.
 
-    For more information about the table fields, see [Account Address table](../concept/account-address-table.md).
+    For more information about the table fields, see [Account Address table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/account-address-table.md).
 
 

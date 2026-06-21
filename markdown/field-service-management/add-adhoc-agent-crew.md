@@ -2,7 +2,10 @@
 title: Assign an ad hoc agent to the crew on a work order task
 description: Add ad hoc members to a work order task that requires a crew.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/add-adhoc-agent-crew.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -45,5 +48,5 @@ You can add ad hoc agents to work on a crew task. These agents join the crew mem
 
 An ad hoc agent is added to the crew task.
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](../concept/using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-disp-wrkspc-crew-operations.md)
 

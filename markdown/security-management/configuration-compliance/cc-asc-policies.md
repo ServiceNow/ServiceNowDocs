@@ -2,6 +2,7 @@
 title: Configuration Compliance imported data for Microsoft Defender for Cloud Integration
 description: Configuration Compliance imports policies, tests, authoritative sources, and test results from third-party integrations and stores them in modules for viewing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-asc-policies.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -80,7 +81,7 @@ The **Assessment Integration** pulls the data assessments only if there is a sta
 
 ## CI lookup rules for identifying CIs from Microsoft Defender for Cloud integrations
 
-When data is imported from a third-party integration, Configuration Compliance automatically uses resource data to search for matches in the Configuration Management Database \(CMDB\), using CI Lookup Rules. These rules are used to identify the configuration items \(CIs\) and add them to the test result record to aid in remediation. Base system CI lookup rules are available for Resource ID, Name, and S3 Bucket. For more information on CI lookup rules, see [CI lockup rules for Microsoft Defender for Cloud Integration for Security Operations](../../../vulnerability-config-compliance/reference/cloud-ci-look-up-for-ms-paloalto.md).
+When data is imported from a third-party integration, Configuration Compliance automatically uses resource data to search for matches in the Configuration Management Database \(CMDB\), using CI Lookup Rules. These rules are used to identify the configuration items \(CIs\) and add them to the test result record to aid in remediation. Base system CI lookup rules are available for Resource ID, Name, and S3 Bucket. For more information on CI lookup rules, see [CI lockup rules for Microsoft Defender for Cloud Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cloud-ci-look-up-for-ms-paloalto.md).
 
-**Parent Topic:**[Microsoft Defender for Cloud Integration for Security Operations](cc_asc_overview.md)
+**Parent Topic:**[Microsoft Defender for Cloud Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc_asc_overview.md)
 

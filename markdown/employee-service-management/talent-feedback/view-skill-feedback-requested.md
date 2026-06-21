@@ -2,6 +2,7 @@
 title: View and submit feedback
 description: You can view any feedback request sent to you and submit the feedback on Talent Feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-feedback/view-skill-feedback-requested.html
 release: xanadu
 product: Talent Feedback
 classification: talent-feedback
@@ -69,5 +70,5 @@ Text box to write your feedback.
     **Note:** Repeat these steps for other skills requested \(if any\) and then select **Submit**.
 
 
-**Parent Topic:**[Working with Skill feedback in Talent Feedback](../concept/skill-feedback-feature.md)
+**Parent Topic:**[Working with Skill feedback in Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/skill-feedback-feature.md)
 

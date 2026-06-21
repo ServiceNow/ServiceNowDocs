@@ -2,6 +2,7 @@
 title: Microsoft 365 integration
 description: Create an integration with Microsoft 365 to download subscription information that is compared with software installations for compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/microsoft-o365.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -38,32 +39,32 @@ SAM managers can use the Microsoft 365 integration to do the following:
 -   Get user subscription information for all the Microsoft 365 plans purchased on the Microsoft 365 admin center, such as Microsoft Office 365, Microsoft 365, and so on.
 -   Determine license compliance of Microsoft 365 subscriptions by reconciling user subscription, entitlement, and software installations.
 -   View active, inactive, and unassigned subscriptions by their last activity date.
--   Get user activity for individual Microsoft Office 365 software products within Microsoft 365 subscriptions. For more information, see [Evaluating software usage activity for Microsoft 365 subscriptions](integrate-with-microsoft.md#).
+-   Get user activity for individual Microsoft Office 365 software products within Microsoft 365 subscriptions. For more information, see [Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/integrate-with-microsoft.md).
 -   Get user activity with device-specific activation count details from the Microsoft 365 admin portal that helps in identifying users who have activated their Microsoft subscriptions on at least one device. The activation count also helps SAM managers accurately determine the total number of activations across both desktops and devices.
 -   Get automated optimization recommendations and workflows for Microsoft 365 subscriptions.
 -   Determine potential savings while acting on the recommendation.
--   Find your available licenses from the subscription details for the Microsoft 365 portal in the Optimization and savings dashboard in the Software Asset Workspace. For more information, see [Optimization and savings dashboard in workspace](../reference/optimization-dashboard-workspace.md).
+-   Find your available licenses from the subscription details for the Microsoft 365 portal in the Optimization and savings dashboard in the Software Asset Workspace. For more information, see [Optimization and savings dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/optimization-dashboard-workspace.md).
 
 Access the content related to software subscriptions by navigating to **SaaS License** &gt; **Overview**.
 
--   **Office 365 &amp; Adobe Cloud** in the Software asset analytics view of [SaaS overview dashboard in workspace](../reference/saas-dashboard-workspace.md).
+-   **Office 365 &amp; Adobe Cloud** in the Software asset analytics view of [SaaS overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
 -   **Software Models** lists software model records for subscription products.
 -   **All User Subscriptions** lists all subscription records for subscription products \(also accessible through the **Software Asset** &gt; **Discovery** &gt; **Software Subscriptions** navigation menu\).
 -   **Create New Profile** creates a Microsoft 365 subscription profile.
 -   **All Integration Profiles** lists Microsoft 365 subscription profile records.
 
-Software Asset Management uses the subscription information to determine license compliance and perform optimization. View license compliance on the [License usage view](sam-workspace-workbench.md) and optimization on the [Optimization and Savings dashboard](../reference/optimization-dashboard-workspace.md).
+Software Asset Management uses the subscription information to determine license compliance and perform optimization. View license compliance on the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.md) and optimization on the [Optimization and Savings dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/optimization-dashboard-workspace.md).
 
 The **SAM - Import M365 User Subscriptions** scheduled job runs once every week to obtain subscription information from Software Asset Management.
 
-For setting up Microsoft 365 integration to determine license compliance and optimization, follow the steps in [Integrating with Microsoft 365](integrate-with-microsoft.md#).
+For setting up Microsoft 365 integration to determine license compliance and optimization, follow the steps in [Integrating with Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/integrate-with-microsoft.md).
 
-**Note:** You must activate the add-on Microsoft content pack \(com.snc.samp.microsoft\) [plugin](../task/t_RequSoftwareAssetMgmt.md) to view Microsoft 365 compliance reporting on the [Office 365 &amp; Adobe Cloud dashboard in Software Asset Management classic](sam-saas-subscription-dash.md) and [SaaS overview dashboard in workspace](../reference/saas-dashboard-workspace.md).
+**Note:** You must activate the add-on Microsoft content pack \(com.snc.samp.microsoft\) [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) to view Microsoft 365 compliance reporting on the [Office 365 &amp; Adobe Cloud dashboard in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-saas-subscription-dash.md) and [SaaS overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
 
--   **[Integrating with Microsoft 365](integrate-with-microsoft.md#)**  
+-   **[Integrating with Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/integrate-with-microsoft.md)**  
 Integrating your ServiceNow instance with the Microsoft 365 service enables you to track your software subscriptions and software usage to determine license compliance and act on optimization opportunities.
--   **[Creating reserve entitlements for Microsoft online services](creating-0365-reserve-entitlements.md)**  
+-   **[Creating reserve entitlements for Microsoft online services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/creating-0365-reserve-entitlements.md)**  
 You can create reserve entitlements for Microsoft online services to add licenses to your existing Microsoft 365 subscriptions. You can pay for the new licenses during your true-up process.
 
-**Parent Topic:**[Software Asset Management publisher pack for Microsoft](microsoft-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
 

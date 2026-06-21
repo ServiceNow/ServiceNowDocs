@@ -2,7 +2,10 @@
 title: Integrating and using ServiceNow with Zoom
 description: Collaboration services for Zoom Team Chat enables agents to initiate chat with employees and import the chat, and enables employees to view and receive chat service from within  the Zoom application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/integrate-sn-zoom.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,8 +22,8 @@ Collaboration services for Zoom Team Chat offers the following functionality:
 -   Agents can import the Zoom chat transcript back to the task record as a comment.
 -   Employees can view and receive the task record resolution service from within  the Zoom application.
 
--   **[Enhance employee experience by integrating ServiceNow with Zoom](enhance-emp-exp-integrating-sn-zoom.md)**  
+-   **[Enhance employee experience by integrating ServiceNow with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/enhance-emp-exp-integrating-sn-zoom.md)**  
 ServiceNow integration with Zoom helps employees to interact with agents and resolve their IT-related issues using Zoom.
 
-**Parent Topic:**[ServiceNow for Zoom](sn_zoomIntegration.md)
+**Parent Topic:**[ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn_zoomIntegration.md)
 

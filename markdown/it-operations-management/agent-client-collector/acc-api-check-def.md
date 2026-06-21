@@ -2,6 +2,7 @@
 title: Create a check definition
 description: Create a check definition to execute the osquery command on the Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-api-check-def.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -50,5 +51,5 @@ Role required: agent\_client\_collector\_integration or agent\_client\_collector
     The test result appears, indicating its success or failure.
 
 
-**Parent Topic:**[Working with checks and policies](../concept/checks-policies-working-with.md)
+**Parent Topic:**[Working with checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/checks-policies-working-with.md)
 

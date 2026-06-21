@@ -2,6 +2,7 @@
 title: Viewing Stream Connect Message Replication statistics
 description: When message replications are running, the system creates a metrics record for each active topic replication every 60 seconds. Metrics records provide information about topic replications. You can view metrics records on the Message Replication Statistics \[sys\_sc\_channel\_replication\_metric\] table. You can also view metrics records for a topic by checking the Message Replication Statistics on its Kafka Topic Replication record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/stream-connect-message-rep-stats.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -27,5 +28,5 @@ When message replications are running, the system creates a metrics record for e
 |Destination|Name of the topic used as the destination.|
 |Direction|Direction of the replication, either **To ServiceNow** or **From ServiceNow**.|
 
-**Parent Topic:**[Stream Connect Message Replication](../concept/stream-connect-message-replication.md)
+**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

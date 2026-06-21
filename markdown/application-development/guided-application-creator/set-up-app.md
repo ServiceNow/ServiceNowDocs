@@ -2,6 +2,7 @@
 title: Setting up an application in Guided Application Creator
 description: Set up an application in Guided Application Creator to store information and manage business processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/guided-application-creator/set-up-app.html
 release: xanadu
 product: Guided Application Creator
 classification: guided-application-creator
@@ -15,13 +16,11 @@ breadcrumb: [Guided Application Creator, Building pro-code applications, Develop
 
 Set up an application in Guided Application Creator to store information and manage business processes.
 
-Shows how to create a no-code application on the ServiceNow platform quickly and easily through Guided Application Creator.
-
-**Note:** Although the video describes creating a workspace in Guided Application Creator, this feature is no longer supported.Instead, you can create a workspace using App Engine Studio. For more information, see [Building applications in App Engine Studio](../../app-engine-studio/concept/aes-app-creation.md).
+**Note:** Although the video describes creating a workspace in Guided Application Creator, this feature is no longer supported.Instead, you can create a workspace using App Engine Studio. For more information, see [Building applications in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-app-creation.md).
 
 ## Requirements
 
-Plan your application before you build it. Define the business requirements of your organization, and then identify what information you want the application to track. For more information on the application development process, see [Building applications](../../custom-application/concept/build-applications.md).
+Plan your application before you build it. Define the business requirements of your organization, and then identify what information you want the application to track. For more information on the application development process, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/build-applications.md).
 
 To work in Guided Application Creator, use a different browser. For more detail on Internet Explorer 11 support, see [KB0683275](https://support.servicenow.com/kb_view.do?sysparm_article=KB0683275).
 
@@ -29,23 +28,23 @@ You must have the sn\_g\_app\_creator.app\_creator or admin role to access Guide
 
 ## What to do
 
-1.  [Create an application record in Guided Application Creator](gac-create-app-record.md).
+1.  [Create an application record in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-create-app-record.md).
 
     Create an application record in Guided Application Creator to identify a custom application.
 
-2.  [Define roles in Guided Application Creator](gac-create-roles.md).
+2.  [Define roles in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-create-roles.md).
 
     Create or select roles in Guided Application Creator for the members of your organization who use your custom application.
 
-3.  [Select user experiences in Guided Application Creator](gac-select-ux.md).
+3.  [Select user experiences in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-select-ux.md).
 
     Let users access your application via the ServiceNow Agent mobile app or lists and forms.
 
-4.  [Designate data tables in Guided Application Creator](gac-designate-data-table.md).
+4.  [Designate data tables in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-designate-data-table.md).
 
     Select an existing table or create a custom table in Guided Application Creator to store data for your custom business application.
 
-5.  [Customize user experiences in Guided Application Creator](gac-customize-ux.md#).
+5.  [Customize user experiences in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-customize-ux.md).
 
     Customize how the application appears in each user experience that you select.
 
@@ -56,25 +55,25 @@ You must have the sn\_g\_app\_creator.app\_creator or admin role to access Guide
 
 Although your application is ready to use, you may need to customize your application to fit the needs of your organization.
 
-In [ServiceNow Studio](../../applications/concept/c_ServiceNowStudio.md), configure:
+In [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/c_ServiceNowStudio.md), configure:
 
 -   System notifications
 -   Form layouts
 -   UI policy
 -   Reports
 
-You can also learn how to automate your processes and create business logic for your application in [Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+You can also learn how to automate your processes and create business logic for your application in Flows in Workflow Studio.
 
--   **[Create an application record in Guided Application Creator](gac-create-app-record.md)**  
+-   **[Create an application record in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-create-app-record.md)**  
 Create an application record in Guided Application Creator to identify a custom application.
--   **[Define roles in Guided Application Creator](gac-create-roles.md)**  
+-   **[Define roles in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-create-roles.md)**  
 Create or select roles in Guided Application Creator for the members of your organization who use your custom application.
--   **[Select user experiences in Guided Application Creator](gac-select-ux.md)**  
+-   **[Select user experiences in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-select-ux.md)**  
 Let users access your application via the ServiceNow Agent mobile app or lists and forms.
--   **[Designate data tables in Guided Application Creator](gac-designate-data-table.md)**  
+-   **[Designate data tables in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-designate-data-table.md)**  
 Select an existing table or create a custom table in Guided Application Creator to store data for your custom business application.
--   **[Customize user experiences in Guided Application Creator](gac-customize-ux.md#)**  
+-   **[Customize user experiences in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-customize-ux.md)**  
 Customize how the application appears in each user experience that you select.
 
-**Parent Topic:**[Guided Application Creator](../concept/guided-app-creator.md)
+**Parent Topic:**[Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/guided-app-creator.md)
 

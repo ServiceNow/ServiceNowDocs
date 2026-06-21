@@ -2,6 +2,7 @@
 title: Data model enhancements from Agile Development 1.0 to Agile Development 2.0
 description: Agile Development 2.0 offers a few data model enhancements over Agile Development 1.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/agile-development/data-model-enhancements.html
 release: xanadu
 product: Agile Development
 classification: agile-development
@@ -15,19 +16,19 @@ breadcrumb: [Agile Development 2.0 enhancements over Agile Development 1.0, Migr
 
 Agile Development 2.0 offers a few data model enhancements over Agile Development 1.0.
 
-**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
+**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
 ## Use of the common platform construct — Assignment Group
 
 To map an agile team \(scrum team\), Agile Development 1.0 uses a separate entity called the Release Team table \( scrum\_pp\_team\). This entity is associated to a release entity as displayed in the following screen shot.
 
-![Teams within a release](../image/scrum-release-view1.png "Scrum release")
+\[Omitted image "scrum-release-view1.png"\] Alt text: Teams within a release
 
 All other tasks on platform such as incidents, problems, changes, projects rely on the assignment group entity to make assignments to a group. Group managers can run reports on an assignment group to gain insight into the work assigned to their groups.
 
 To standardize the use of a group across platform even for scrum work such as stories and tasks, the standard construct Assignment Group is used as opposed to the standalone entity Release Team. Agile Development 2.0 uses assignment groups to map agile teams. An assignment group of type Agile Team is used for defining an agile team.
 
-![Use of Assignment Groups in Agile Development 2.0](../image/assignmentgroups-agile2.png "Groups")
+\[Omitted image "assignmentgroups-agile2.png"\] Alt text: Use of Assignment Groups in Agile Development 2.0
 
 ## Agile team \(group\) need not be created for each release
 
@@ -35,15 +36,15 @@ With Agile Development 1.0, teams are to be created for each release and the tea
 
 With Agile Development 2.0, groups are created independent of releases, and you can work on stories from multiple releases without recreating the group for every release.
 
-![Teams within a release](../image/scrum-release3.png "Scrum release") ![Same team is created four times, one for each release](../image/teams3.png "Scrum release")
+\[Omitted image "scrum-release3.png"\] Alt text: Teams within a release \[Omitted image "teams3.png"\] Alt text: Same team is created four times, one for each release
 
 ## Sprints can be created without a release
 
 With Agile Development 1.0, creating a release is mandatory for creating sprints. Sprints cannot be created for a team independently. Agile Development 1.0 mandates the creation of a release for story execution via sprints. If there is no release, sprint cannot be populated on a story record.
 
-![Sprints created in the context of a release](../image/scrum-release4.png "Sprints")
+\[Omitted image "scrum-release4.png"\] Alt text: Sprints created in the context of a release
 
-In Agile Development 2.0, sprints are associated with Assignment Groups. ![Sprints are associated with Assignment Groups](../image/group4.png)
+In Agile Development 2.0, sprints are associated with Assignment Groups. \[Omitted image "group4.png"\] Alt text: Sprints are associated with Assignment Groups
 
 ## Team backlog can be maintained independent of release
 
@@ -53,7 +54,7 @@ With Agile Development 1.0, a team cannot be defined without defining a release.
 
 With Agile Development 2.0, an assignment group is not created within a release. It can be associated to the release, but not created within a release. Hence, an assignment group can maintain its own backlog.
 
-![Group backlog with Agile Development 2.0](../image/stories1.png "Group backlog with Agile Development 2.0")
+\[Omitted image "stories1.png"\] Alt text: Group backlog with Agile Development 2.0
 
 ## Association between Release and Group
 
@@ -68,7 +69,7 @@ Specify the number of sprints for which the group works in a release. From the c
 
 Total Release Capacity = 90+ 160 = 250 points
 
-![Release — Group association in Agile Development 2.0](../image/scrum-release5.png)
+\[Omitted image "scrum-release5.png"\] Alt text: Release — Group association in Agile Development 2.0
 
-**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](../concept/appendix.md)
+**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/agile-development/appendix.md)
 

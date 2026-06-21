@@ -2,6 +2,7 @@
 title: Participant form for Microsoft Word document templates
 description: Use the Participant form to add participants in a Microsoft Word document template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-wdt-participant-form.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -150,5 +151,5 @@ Optional
 When enabled, a participant will be skipped if the participant user and participant email is not available. This check is done during runtime only and not while configuring the template.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create participants for document templates](../task/cncore-wdt-create-participant.md)
+</table>**Parent Topic:**[Create participants for document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-wdt-create-participant.md)
 

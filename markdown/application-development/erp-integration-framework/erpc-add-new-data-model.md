@@ -2,6 +2,7 @@
 title: Add a new ERP model
 description: Add an ERP \(Enterprise Resource Planning\) model in ERP Data Hub to create a data set that contains ERP tables from the system of record, and enables you to read and send updates to the ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erpc-add-new-data-model.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -27,17 +28,17 @@ An ERP model functions as a staging area that contains all potential fields you 
 
 1.  Navigate to **All** &gt; **ERP Data Hub** &gt; **ERP Data Hub Home**.
 
-2.  Open the ERP models page by selecting the ERP models icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+2.  Open the ERP models page by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
 3.  Select **New**.
 
 4.  On the new model tab, fill in the fields.
 
-    For a description of the field values, see [ERP Data Hub new model field descriptions](../reference/erp-canvas-new-model-descriptions.md).
+    For a description of the field values, see [ERP Data Hub new model field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-new-model-descriptions.md).
 
 5.  Select **Save**.
 
-6.  Open the ERP models page again by selecting the ERP models icon \(![ERP model icon](../image/erpc-data-model-icon.png)\).
+6.  Open the ERP models page again by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\).
 
 7.  Update the page by selecting the refresh list icon.
 
@@ -48,8 +49,8 @@ An ERP model functions as a staging area that contains all potential fields you 
 
 After you add a new ERP model, you can manage it to specify additional criteria, such as which tables it reads and joins, any parameters for inputs and outputs, and whether it uses a BAPIs \(Business Application Programming Interface\) to update the system of record. For more information, see the following topics:
 
--   [Managing how models read and update the ERP system](../concept/erpc-managing-models-read.md)
--   [Add joins between ERP tables](erp-canvas-add-join-data-model.md)
+-   [Managing how models read and update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-managing-models-read.md)
+-   [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-add-join-data-model.md)
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

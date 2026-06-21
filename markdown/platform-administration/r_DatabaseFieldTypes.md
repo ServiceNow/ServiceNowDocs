@@ -2,6 +2,7 @@
 title: Database field type
 description: Several field types are available in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_DatabaseFieldTypes.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -13,7 +14,7 @@ breadcrumb: [Field types, Field administration, Forms, fields, and lists, Config
 
 Several field types are available in the system.
 
-This table shows field types and corresponding MySQL database types. Typically, it isn't necessary to perform any actions at the database level. To learn about changing a field type, see [System dictionary](../../data-dictionary-tables/concept/c_SystemDictionary.md).
+This table shows field types and corresponding MySQL database types. Typically, it isn't necessary to perform any actions at the database level. To learn about changing a field type, see [System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/c_SystemDictionary.md).
 
 |Field types|Options|Dictionary XML type|MySQL DB type|
 |-----------|-------|-------------------|-------------|
@@ -43,5 +44,5 @@ This table shows field types and corresponding MySQL database types. Typically, 
 -   A string field defined in the platform with a max length of x, where x = 41-255 characters, inclusive → VARCHAR\(x\) \[examples: String 42 is VARCHAR\(42\) and String 211 is VARCHAR\(211\)\].
 -   A string field defined in the platform with a max length of 256 and upwards → MEDIUMTEXT.
 
-**Parent Topic:**[Field types](r_FieldTypes.md)
+**Parent Topic:**[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_FieldTypes.md)
 

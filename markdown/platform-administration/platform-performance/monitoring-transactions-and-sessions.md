@@ -2,6 +2,7 @@
 title: Monitoring users and transaction performance through Application Insights
 description: Maintain the health and performance of your instance by monitoring key metrics related to users and transactions through the Application Insights Users and Transactions graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/monitoring-transactions-and-sessions.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -34,5 +35,5 @@ Dig deeper into a potential performance issue by drilling down to analyze issues
 -   Look for spikes that indicate times of heaviest traffic on the instance in the **Logged in Users** detail graph. Monitor the trend lines to determine when the system is busiest.
 -   Determine whether performance degradation is happening on one node, across all nodes, or on a set of nodes that are consolidated using the **Group by Performance** option. Compare the node metrics to the **1-Day Moving Average** amount. If you don’t see any obvious issues, look for anomalies in execution counts or high execution times on the **Slow Patterns** tab. If you see both, start your investigation there.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/application-insights.md)
 

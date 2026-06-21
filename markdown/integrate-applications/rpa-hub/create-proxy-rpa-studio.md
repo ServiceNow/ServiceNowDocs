@@ -2,6 +2,7 @@
 title: Create a proxy in RPA Desktop Design Studio
 description: Create a proxy at a component level in RPA Desktop Design Studio to extract the additional properties of that component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/create-proxy-rpa-studio.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Create a proxy at a component level in RPA Desktop Design Studio to extract the 
 
 ## Before you begin
 
-Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](configure-components.md).
+Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-components.md).
 
 Role required: none
 
@@ -31,7 +32,7 @@ Use the **Create Proxy** option to add or modify some functionalities of an alre
 
     For example, the proxy of the DateTime component appears as shown in the example.
 
-    ![Proxy component.](../image/proxy-component.png "Proxy component")
+    \[Omitted image "proxy-component.png"\] Alt text: Proxy component.
 
 2.  Double-click the proxy component title bar to open the CHOOSE PROPERTIES dialog box.
 
@@ -39,16 +40,16 @@ Use the **Create Proxy** option to add or modify some functionalities of an alre
 
     For example, select the Day and DayOfWeek properties as shown in the example.
 
-    ![Choose properties window appears to select the applicable proxy properties.](../image/choose-properties-proxy.png "Choose Properties dialog box")
+    \[Omitted image "choose-properties-proxy.png"\] Alt text: Choose properties window appears to select the applicable proxy properties.
 
 4.  Click **OK**.
 
     If you hover over the Data Out port of the DateTime component after executing the component, you can see the Day as 27 and the DayOfWeek as Saturday in the following examples.
 
-    ![Day as 27 in the DateTime component.](../image/data-proxy-day.png "Day as 27 in the DateTime component")
+    \[Omitted image "data-proxy-day.png"\] Alt text: Day as 27 in the DateTime component.
 
-    ![DayOfWeek as Saturday in the DateTime component.](../image/data-proxy-dayofweek.png "DayOfWeek as Saturday in the DateTime component")
+    \[Omitted image "data-proxy-dayofweek.png"\] Alt text: DayOfWeek as Saturday in the DateTime component.
 
 
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/rpa-studio-use.md)
 

@@ -2,6 +2,7 @@
 title: Migrating NLU/keyword Virtual Agent topics to LLM topics
 description: The topic migration workflow enables you to migrate your existing Natural Language Understanding \(NLU\) and keyword topics into new large language model \(LLM\) topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/llm-topic-migration.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +33,7 @@ If no migration issues occur, the preceding asset types can all optionally be pu
 
 Users with the virtual\_agent\_admin role or sn\_vad\_genai.topic\_migration\_admin role can work with topic migration. Topic migration is accessible through Virtual Agent Designer in the **Migrate Topics to LLM** option.
 
-![Migrate Topics to LLM is an option in the Virtual Agent Designer header.](../images/llm-topic-migration-vad-new.png "Migrate Topics to LLM option in Virtual Agent Designer")
+\[Omitted image "llm-topic-migration-vad-new.png"\] Alt text: Migrate Topics to LLM is an option in the Virtual Agent Designer header.
 
 ## System properties
 
@@ -46,7 +47,7 @@ The **Detail description** field is required for LLM topics but not for NLU/keyw
 
 **Note:** NLU utterances themselves are not effective if you use them as topic descriptions for LLM topics. Avoid using NLU utterances for LLM topic descriptions. LLM topic descriptions require more specific detailed information.
 
-For more information on editing topic descriptions, see [Migrate NLU topics to LLM topics](../task/migrate-nlu-llm.md). For examples of strong topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](va-llm-instruction-guidelines.md).
+For more information on editing topic descriptions, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/migrate-nlu-llm.md). For examples of strong topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 ## Node descriptions
 
@@ -77,7 +78,7 @@ Contains script or data pill
 Migrates using the following template: `Collect + Node name`.For example, if you have an NLU node named `Get incident number` and the **Prompt** field's value contains a script or data pill, then the migrated LLM node's **Detail description** field's value is `Collect Get incident number`.
 
 </td></tr></tbody>
-</table>If the topics that you plan to migrate include scripts or data pills in their existing **Prompt** field, review and update the LLM **Detail description** field after migration for each affected topic. A warning message of `Add relevant detail description` appears for LLM topics on the Virtual Agent Designer canvas for each node that migrated with the template of `Collect + Node name`. Updating the description to something more accurate and descriptive improves your users' experience of interacting with the Virtual Agent. For an example of a strong node description, see [LLM description and instruction guidelines for Virtual Agent topics](va-llm-instruction-guidelines.md).
+</table>If the topics that you plan to migrate include scripts or data pills in their existing **Prompt** field, review and update the LLM **Detail description** field after migration for each affected topic. A warning message of `Add relevant detail description` appears for LLM topics on the Virtual Agent Designer canvas for each node that migrated with the template of `Collect + Node name`. Updating the description to something more accurate and descriptive improves your users' experience of interacting with the Virtual Agent. For an example of a strong node description, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 The following entities can be migrated from NLU nodes to LLM nodes:
 
@@ -91,18 +92,18 @@ If an NLU node is mapped to an entity, those utterances' entities are added to t
 -   `[Prior NLU Prompt field value]` if the value was text-only and not a script or data pill.
 -   `[Additional instructions: For this input, the data should be extracted from the user input if it has a value from this list of words: [simple entity word list].`
 
-![Prompt field values migrate to the Detail description field values along with NLU entities.](../images/nlu-llm-node-prompt-detail-desc-example.png "Example of an NLU node with associated entities migrating to an LLM node")
+\[Omitted image "nlu-llm-node-prompt-detail-desc-example.png"\] Alt text: Prompt field values migrate to the Detail description field values along with NLU entities.
 
 If you had vocabulary sources established in your NLU topic's text nodes, the list and table vocabulary sources migrate into LLM nodes. Text nodes with list vocabulary sources are migrated into static choice nodes. The vocab source selections appear in the LLM static choice node's **Detail description** field under an `Additional instructions:` make-shift header value. Text nodes with table vocabulary sources are migrated into dynamic choice nodes. The vocabulary source's table is migrated into the LLM dynamic choice node's **Table** field. The vocabulary source selections are migrated into a script and appear in the LLM dynamic choice node's **Detail description** field under an `Additional instructions:` make-shift header value.
 
 ## Migration issues
 
-You can access migration issue data either by searching for `topic_migration_execution_item.list` in the Navigation pane or downloading the .CSV file version of the table. After you've migrated topics, the downloadable .CSV file is accessible through the **Review migration log** option in the topic migration's Migrate topics step. For more information about migration issues, see [NLU to LLM migration log](../reference/llm-topic-migration-error-log.md).
+You can access migration issue data either by searching for `topic_migration_execution_item.list` in the Navigation pane or downloading the .CSV file version of the table. After you've migrated topics, the downloadable .CSV file is accessible through the **Review migration log** option in the topic migration's Migrate topics step. For more information about migration issues, see [NLU to LLM migration log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.md).
 
--   **[Migrate NLU topics to LLM topics](../task/migrate-nlu-llm.md)**  
+-   **[Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/migrate-nlu-llm.md)**  
 Migrate one or more of your existing Natural Language Understanding \(NLU\) or keyword topics into new large language model \(LLM\) topics while maintaining your original NLU/keyword topics. After migration is complete, choose whether to publish your new LLM topics.
--   **[NLU to LLM migration log](../reference/llm-topic-migration-error-log.md)**  
+-   **[NLU to LLM migration log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.md)**  
 The Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table includes data when migrating Natural Language Understanding \(NLU\) topics to large language model \(LLM\) topics such as the migration status, migration issues, and migrated or published topic information.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

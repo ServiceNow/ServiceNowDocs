@@ -2,6 +2,7 @@
 title: Maintain type mappings
 description: Use Type mappings to convert the Type and Subtype locations in Mappedin to the Table and Space type used in Workplace Space Mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/wsm-mappedin-type-mappings.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -77,5 +78,5 @@ The space type you are associating a Mappedin location.**Note:** The Location ty
 </table>3.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Convert Mappedin data to Workplace Space Mapping data](../concept/wsm-mappedin-type-table.md)
+**Parent Topic:**[Convert Mappedin data to Workplace Space Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/wsm-mappedin-type-table.md)
 

@@ -2,6 +2,7 @@
 title: ServiceNow Store reference
 description: Reference topics provide more information about guest review form fields and types of ServiceNow Store listings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/store-reference.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-07-31"
@@ -14,12 +15,12 @@ breadcrumb: [ServiceNow Store, Administering applications, Get started, Administ
 
 Reference topics provide more information about guest review form fields and types of ServiceNow Store listings.
 
--   **[Guest contact form fields](guest-contact-form-fields.md)**  
+-   **[Guest contact form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/guest-contact-form-fields.md)**  
 A description of the fields on the Guest contact form in the ServiceNow Store.
--   **[Guest review form fields](guest-review-form-fields.md)**  
+-   **[Guest review form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/guest-review-form-fields.md)**  
 A description of the fields on the Guest review form in the ServiceNow Store, as well as which fields are publicly visible after the review is published.
--   **[ServiceNow Store glossary](../concept/store-glossary.md#)**  
+-   **[ServiceNow Store glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/store-glossary.md)**  
 Review important terms related to the ServiceNow Store to help determine which listings meet your organization's needs.
 
-**Parent Topic:**[Administering applications](../../../build/applications/reference/administering-applications.md)
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/administering-applications.md)
 

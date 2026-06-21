@@ -2,6 +2,7 @@
 title: Create a dependency from the planning console
 description: You can create a dependency between two tasks on the planning console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_CreateADependency.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -21,9 +22,9 @@ Role required: it\_project\_manager
 
 ## About this task
 
-You can create any type of dependency. See [Project task relationships and dependencies](../concept/c_ProjectTaskRelationDepend.md) for an explanation of each type.
+You can create any type of dependency. See [Project task relationships and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectTaskRelationDepend.md) for an explanation of each type.
 
-You can also create dependencies by using the Predecessor column on the Planning Console. See [Predecessor dependencies in the planning console](../reference/r_ProjectTaskDependencyValues.md) for more information.
+You can also create dependencies by using the Predecessor column on the Planning Console. See [Predecessor dependencies in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_ProjectTaskDependencyValues.md) for more information.
 
 ## Procedure
 
@@ -37,8 +38,8 @@ You can also create dependencies by using the Predecessor column on the Planning
 
 4.  Confirm that your dependency is correct.
 
-    You can [make changes to the dependency](t_ModifyProjectTaskDependencies.md) as needed.
+    You can [make changes to the dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_ModifyProjectTaskDependencies.md) as needed.
 
 
-**Parent Topic:**[Project task dependencies](../concept/c_TaskDependencies.md)
+**Parent Topic:**[Project task dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_TaskDependencies.md)
 

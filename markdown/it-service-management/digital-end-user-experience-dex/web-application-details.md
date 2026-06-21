@@ -2,6 +2,7 @@
 title: Web application details
 description: Enjoy a comprehensive visibility into application performance, user engagement, and trends, promoting a positive digital experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/web-application-details.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -19,13 +20,13 @@ Enjoy a comprehensive visibility into application performance, user engagement, 
 
 Monitor the performance of your application in real-time to verify that your application is available and responding to requests. To refine your search based on specific locations, use the **Location** filter. By default, the graphs display the latest data from the last two hours.
 
-For more information on each card, see [Web application — Overview page](../reference/web-application-overview-form.md).
+For more information on each card, see [Web application — Overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/web-application-overview-form.md).
 
 ## Web application metrics
 
 Monitor the performance of your application. Watching Web application performance metrics like active users, started sessions, average response time, and web requests helps you promote optimal application functionality and user experience.
 
-For more information on each card, see [Web application — Performance page](../reference/web-app-health-form.md)
+For more information on each card, see [Web application — Performance page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/web-app-health-form.md)
 
 ## Users
 
@@ -37,11 +38,11 @@ Monitor your active and impacted users to gain an accurate measure of how many u
 
 -   On the Impacted users page, use the **Users** filter to view an impacted user's details.
 
-For more information on each field, see [Web application — Devices page](../reference/web-app-users-form.md).
+For more information on each field, see [Web application — Devices page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/web-app-users-form.md).
 
 ## Trends
 
 Get a graphical view of your application metrics to see how the value of one or more metrics changes over time. Values along the horizontal axis of the trend report represent the time measurement. Values on the vertical axis represent the changes to the metric being monitored.
 
-For more information on the card, see [Web application — Trends page](../reference/web-app-trends-form.md).
+For more information on the card, see [Web application — Trends page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/web-app-trends-form.md).
 

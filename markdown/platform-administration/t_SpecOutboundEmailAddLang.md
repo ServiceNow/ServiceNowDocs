@@ -2,6 +2,7 @@
 title: Specify an outbound email address for a particular language
 description: You can specify a different email address for each language your instance supports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_SpecOutboundEmailAddLang.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -40,5 +41,5 @@ Role required: admin
     All notifications for that event originate from the specified email address and go out in the language of the recipient.
 
 
-**Parent Topic:**[Create an email notification](t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateANotification.md)
 

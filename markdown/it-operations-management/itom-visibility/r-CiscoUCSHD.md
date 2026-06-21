@@ -2,6 +2,7 @@
 title: Cisco Unified Computing System \(UCS\)-HD device discovery
 description: Discovery and Service Mapping Patterns application uses the to find Cisco UCS equipment, including chassis and blades. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/r-CiscoUCSHD.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,17 +20,17 @@ Discovery and Service Mapping Patterns application uses the to find Cisco UCS eq
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   **Create SNMP credentials**
 
-    For more information, see [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    For more information, see .
 
 -   **Create applicative credentials**
 
-    Create applicative credentials for the **Cisco UCS Equipment \[cmdb\_ci\_ucs\_equipment\]** CI type. For more information, see [Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    Create applicative credentials for the **Cisco UCS Equipment \[cmdb\_ci\_ucs\_equipment\]** CI type. For more information, see .
 
 -   **Classifier, pattern, and OIDs**
 
@@ -106,5 +107,5 @@ These relationships are created to support UCS - HD discovery.
 |cmdb\_ci\_ucs\_equipment|Contains::Contained by|cmdb\_ci\_ucs\_chassis|
 |cmdb\_ci\_server|Runs on::Runs|cmdb\_ci\_ucs\_blade|
 
-**Parent Topic:**[Network device discovery](../concept/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

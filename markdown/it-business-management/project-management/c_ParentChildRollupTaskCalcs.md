@@ -2,6 +2,7 @@
 title: Parent-child rollup task calculations
 description: Date changes, stage changes, and value calculations roll up from child tasks to parent tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/c\_ParentChildRollupTaskCalcs.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -44,7 +45,7 @@ Cost calculations roll up when the costing add-on is active.
 -   **Estimated cost**: The sum of all cost estimates at the beginning of a project. Estimated costs of child tasks roll up to parent tasks and to the project.
 -   **Actual cost**: By default for the project, the sum of all costs of all the expense lines, and are typically associated with a time card and a labor rate. To track costs, you can derive rates using any of the following options:
 
-    -   Associate a [rate model](../../project-portfolio-suite-with-financials/concept/rate-model.md) to the project.
+    -   Associate a [rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/rate-model/rate-model.md) to the project.
     -   Define rate cards for the task and labor expenses.
     -   Associate rate at the resource plan level.
     These rates automatically generate expense lines showing actual expenditures, which are associated with the projects. If rate cards are defined, the task expense lines are generated as each project task closes, and labor expense lines are generated when time cards are approved. Expense lines are visible in the **Expense Lines** related list, which requires the **Advanced view** on both Project and Project Task forms.
@@ -72,8 +73,8 @@ Project states can also roll down. If you change the state of a project to close
     -   Child tasks with a **Start on** date that has passed are changed to start **ASAP** and the state is changed to **Work in Progress**.
     -   Child tasks with a **Start on** date that has not yet passed retain the same start on date but the state is changed to **Open**.
 
--   **[Enable cost rollup calculations](../task/t_EnablingCostRollupCalculations.md)**  
+-   **[Enable cost rollup calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_EnablingCostRollupCalculations.md)**  
 Enable rollup calculations from the project properties.
 
-**Parent Topic:**[Project task relationships and dependencies](c_ProjectTaskRelationDepend.md)
+**Parent Topic:**[Project task relationships and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectTaskRelationDepend.md)
 

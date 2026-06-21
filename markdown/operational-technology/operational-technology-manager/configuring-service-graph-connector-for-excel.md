@@ -2,6 +2,7 @@
 title: Configuring Service Graph Connector for Microsoft Excel
 description: Configure the Service Graph Connector for Microsoft Excel to import your existing Operational Technology data from a populated Microsoft Excel flat-file spreadsheet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,7 +20,7 @@ Use the Service Graph Connector for Microsoft Excel guided setup and complete ta
 
 Navigate to **All** &gt; **Industrial Workspace Admin** &gt; **Guided Setup**, open the following guided setups, and complete the tasks.
 
-For more information on using guided setup, see [Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+For more information on using guided setup, see Guided Setup.
 
 <table id="table_dfl_3jt_5xb"><thead><tr><th>
 
@@ -43,7 +44,7 @@ Review class mappings
 
 </td><td>
 
-Review and update the class mappings available for the Service Graph Connector for Microsoft Excel.**Note:** To review the class mappings available, you need to install the Industrial Core plugin that contains the class mapping template tables for the OT Service Graph Connectors. For more information about the Industrial Core plugin, see [List of plugins \(Xanadu\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Review and update the class mappings available for the Service Graph Connector for Microsoft Excel.**Note:** To review the class mappings available, you need to install the Industrial Core plugin that contains the class mapping template tables for the OT Service Graph Connectors. For more information about the Industrial Core plugin, see .
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ Staging table configuration
 
 Configure to determine which factors constitute in identifying a unique name for a CI.
 
- For more information on system properties, see [System properties that impact SG-OT Device Excel Import processing](../task/system-properties-sg-ot-asset-excel-import.md).
+ For more information on system properties, see [System properties that impact SG-OT Device Excel Import processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/system-properties-sg-ot-asset-excel-import.md).
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Prepare Data
 
 Create and prepare the spreadsheet by positioning your existing data in the correct columns.
 
- For more information to prepare the data, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](../task/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
+ For more information to prepare the data, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Run validations against the imported data to update the Validation stage of the 
 
 **Note:** You don't need to select any records on the list to run validations. Validations are run on all the records present in the staging table.
 
- For more information about validating records, see [Managing Validations](managing-validations.md).
+ For more information about validating records, see [Managing Validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/managing-validations.md).
 
 </td></tr><tr><td>
 
@@ -94,12 +95,12 @@ Schedule Import
 Import data from the staging table to the import set table and review it in the OT list views and Workspace.
 
 </td></tr></tbody>
-</table>-   **[Assign Pre-import OT Worksheet Entry Review roles](../task/assign-pre-import-ot-worksheet-entry-review-tool-for-sgc-import-roles.md)**  
+</table>-   **[Assign Pre-import OT Worksheet Entry Review roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/assign-pre-import-ot-worksheet-entry-review-tool-for-sgc-import-roles.md)**  
 Assign roles to the users  or user groups so that you can manage the Excel Service Graph Connector staging table and ETL.
--   **[Preview existing OT records in the CMDB](../task/preview-existing-asset-records.md)**  
+-   **[Preview existing OT records in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/preview-existing-asset-records.md)**  
 Preview existing Operational Technology \(OT\) device records in the Configuration Management Database \(CMDB\) before you import any new records from the staging table. By previewing existing records, you can avoid reconciling or merging unrelated records.
--   **[Review class mappings](../task/review-class-mappings-sgc-excel.md)**  
+-   **[Review class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.md)**  
 Review and update the class mappings available for the Service Graph Connector for Microsoft Excel.
 
-**Parent Topic:**[Service Graph Connector for Microsoft Excel](service-graph-connector-for-OT-excel.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)
 

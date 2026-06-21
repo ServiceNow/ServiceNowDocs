@@ -2,6 +2,7 @@
 title: Review your vaccine responses
 description: If you would like to review your recently reported COVID-19 vaccinations or add an attachment to a record, access your previous vaccine responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/review-your-vaccinations.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -27,9 +28,9 @@ Role required: sn\_imt\_core.privacy\_consent\_user
 
     -   If you are adding an attachment, such as proof of vaccination, add the attachment and then click **Update**.
 
-        **Note:** For information on managing attachments, see [Manage attachments](https://www.servicenow.com/docs/access?context=t_ManagingAttachments&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+        **Note:** For information on managing attachments, see Manage attachments.
 
     -   If you are reviewing the record, review the record and click **Back** to return to the list of vaccine responses.
 
-**Parent Topic:**[Vaccination Status](../concept/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/vaccination-status.md)
 

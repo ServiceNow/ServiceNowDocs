@@ -2,6 +2,7 @@
 title: Add a report to a responsive dashboard
 description: Make actionable decisions faster by combining relevant reports and widgets onto a dashboard. Navigating to single reports and widgets is time-consuming and less efficient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/reporting/add-report-to-dashboard.html
 release: xanadu
 product: Reporting
 classification: reporting
@@ -19,7 +20,7 @@ Make actionable decisions faster by combining relevant reports and widgets onto 
 
 Role required: Any user who can create a report can add it to a responsive dashboard.
 
-Watch this six-minute video to learn about generating reports, creating reports in the Report Designer, and sharing and scheduling reports. How to generate new reports, create reports in the report designer, share reports, and schedule reports.
+Watch this six-minute video to learn about generating reports, creating reports in the Report Designer, and sharing and scheduling reports.
 
 ## Procedure
 
@@ -27,7 +28,7 @@ Watch this six-minute video to learn about generating reports, creating reports 
 
 2.  Select the report you want to add.
 
-3.  Click the Sharing icon \(![](../../dashboards/image/icon-share-db.png)\) and select **Add to Dashboard**.
+3.  Click the Sharing icon \(\[Omitted image "icon-share-db.png"\] Alt text:\) and select **Add to Dashboard**.
 
 4.  Select if you want to add the report to a **Homepage** or **Dashboard** \(default\).
 
@@ -40,5 +41,5 @@ Watch this six-minute video to learn about generating reports, creating reports 
 7.  Select **Edit** to move or resize the widget.
 
 
-**Parent Topic:**[Distribute reports](../concept/c_DistributeReports.md)
+**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/c_DistributeReports.md)
 

@@ -2,6 +2,7 @@
 title: Create an allegation record for HR Service Delivery Employee Relations in the legacy UI or Agent Workspace
 description: Use Allegations to provide additional details for an ER case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/hr-er-create-allegation.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,7 +36,7 @@ Role required: sn\_hr\_er.case\_writer
 
     1.  Navigate to **All** &gt; **HR Case Management** &gt; **HR Agent Workspace**.
 
-    2.  Select the **Lists** icon \(![Lists icon](../image/agent-ws-hr-list-icon.png)\).
+    2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
     3.  Select an ER case.
 

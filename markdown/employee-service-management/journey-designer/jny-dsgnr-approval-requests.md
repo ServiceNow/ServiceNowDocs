@@ -2,6 +2,7 @@
 title: Review and approve plan configuration changes
 description: Approvers receive approval tasks to track reviewing, approving, and rejecting changes to a plan configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-designer/jny-dsgnr-approval-requests.html
 release: xanadu
 product: Journey Designer
 classification: journey-designer
@@ -50,15 +51,15 @@ Role required: assigned as approver for a plan configuration
 
 3.  Review the changes.
 
-<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d563035e114">
+<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d513154e114">
 
 Options
 
-</th><th align="left" id="d563035e117">
+</th><th align="left" id="d513154e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d563035e123">
+</th></tr></thead><tbody><tr><td id="d513154e123">
 
 **Approve or Reject changes**
 
@@ -68,7 +69,7 @@ Description
 -   **Reject**:
 
 
-</td></tr><tr><td id="d563035e145">
+</td></tr><tr><td id="d513154e145">
 
 **View comment added by the owner**
 
@@ -90,5 +91,5 @@ Description
     The right pane includes the details of the approval. You can **Reject** or **Approve** the changes.
 
 
-**Parent Topic:**[Journey designer plan configuration approvers](../concept/jny-dsgnr-config-plan-approvers.md)
+**Parent Topic:**[Journey designer plan configuration approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/jny-dsgnr-config-plan-approvers.md)
 

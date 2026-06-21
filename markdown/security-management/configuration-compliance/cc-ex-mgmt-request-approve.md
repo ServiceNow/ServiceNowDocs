@@ -2,6 +2,7 @@
 title: Requesting and approving an exception for a remediation task
 description: You can request to defer the remediation of a remediation task for a specified period. Users who are a part of the approver group can approve exception requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-ex-mgmt-request-approve.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -25,25 +26,25 @@ You can request to defer the remediation of a remediation task for a specified p
 
 To request or approve exception requests, see:
 
--   [Request an exception for a remediation task in Configuration Compliance](../task/cc-ex-request-test-result-group.md)
--   [Approve an exception request in Configuration Compliance](../task/cc-ex-request-approve.md)
+-   [Request an exception for a remediation task in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-ex-request-test-result-group.md)
+-   [Approve an exception request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-ex-request-approve.md)
 
 **Note:**
 
 Email notifications are sent at every stage of exception management, providing the status and other details of a request. For example, when an exception is requested, the requester receives an email confirming that the request is raised. The approver also receives an email stating that an exception has been requested.
 
-Starting from v14.11 of Configuration Compliance, you can configure the time frames for approving exceptions, along with email notifications for both the approver and requester after a set number of days. When a request is raised, the test result changes to In-Review status and a state change record is created. If the approver doesn't respond within the configured time frame, the test result reverts to Open status. The previous state is stored in the **backup\_state** field. For more information, see [Configure approval rules for Exception Management](../../vulnerability-response/task/exception-mgt-approval-rules.md).
+Starting from v14.11 of Configuration Compliance, you can configure the time frames for approving exceptions, along with email notifications for both the approver and requester after a set number of days. When a request is raised, the test result changes to In-Review status and a state change record is created. If the approver doesn't respond within the configured time frame, the test result reverts to Open status. The previous state is stored in the **backup\_state** field. For more information, see [Configure approval rules for Exception Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/vulnerability-response/exception-mgt-approval-rules.md).
 
--   **[Request an exception for a remediation task in Configuration Compliance](../task/cc-ex-request-test-result-group.md)**  
+-   **[Request an exception for a remediation task in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-ex-request-test-result-group.md)**  
 Request an exception to defer the remediation of a remediation task for a specified period if it can’t be remediated immediately.
--   **[Request an extension for an exception rule in Configuration Compliance](../task/extend-cc-ex-rule-request.md)**  
+-   **[Request an extension for an exception rule in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/extend-cc-ex-rule-request.md)**  
 Request an extension for a deferred exception rule before it reaches its deferred until due date. As a remediation owner, you’re no longer required to wait until the deferred due date to make this request.
--   **[Request an exception for remediation tasks using GRC: Policy and Compliance Management](../task/integrate-with-grc-cc.md)**  
+-   **[Request an exception for remediation tasks using GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/integrate-with-grc-cc.md)**  
 Request policy exceptions using the GRC policy exception management capability in the Policy and Compliance Management application from within Configuration Compliance.
--   **[Approve an exception request in Configuration Compliance](../task/cc-ex-request-approve.md)**  
+-   **[Approve an exception request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-ex-request-approve.md)**  
 Approve exception requests for remediation tasks that can't be remediated immediately. You must assess these requests for risk and then approve them for deferral until they can be remediated.
--   **[Define policy reason mappings](../task/define-policy-reason-mappings.md)**  
+-   **[Define policy reason mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/define-policy-reason-mappings.md)**  
 You can define the reason choices to be available to any user who requests an exception.
 
-**Parent Topic:**[Configuration Compliance remediation](vuln-config-compl-remediation.md)
+**Parent Topic:**[Configuration Compliance remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-remediation.md)
 

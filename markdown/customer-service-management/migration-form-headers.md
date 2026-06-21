@@ -2,7 +2,10 @@
 title: Form headers
 description: Learn how Workspace form headers function with Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/migration-form-headers.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,5 +28,5 @@ To migrate your Workspace form header to Configurable Workspace, add an addition
 -   Legacy form headers function without modification, but may affect the functionality of Configurable Workspace.
 -   Add the Form header component to your Configurable Workspace for additional functionality.
 
-For additional information, see [Set up a form header in Configurable Workspace](../task/config-csm-config-ws-form-header.md).
+For additional information, see [Set up a form header in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-csm-config-ws-form-header.md).
 

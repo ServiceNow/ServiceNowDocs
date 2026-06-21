@@ -2,6 +2,7 @@
 title: Setting up Commercial Lines Claims
 description: You can install and configure the Commercial Lines Claims application so that your first-notice-of-loss \(FNOL\) representatives, processors, and adjusters can begin servicing your commercial insurance claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/insurance-claims/setting-up-commercial-lines-claims.html
 release: xanadu
 product: Insurance Claims
 classification: insurance-claims

@@ -2,6 +2,7 @@
 title: Content controls in Word Document Templates
 description: Word Document Templates supports content controls that act as placeholder for the content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-wdt-doc-contentctrl.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -15,7 +16,7 @@ breadcrumb: [Configure templates for standard letters, Configure Contract Manage
 
 Word Document Templates supports content controls that act as placeholder for the content.
 
-**Note:** You must add content controls in the Microsoft Word document before you [Configure document templates for standard letters or documents](../task/cncore-wdt-other-bu.md). Content controls must be added using a Windows system only.
+**Note:** You must add content controls in the Microsoft Word document before you [Configure document templates for standard letters or documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-wdt-other-bu.md). Content controls must be added using a Windows system only.
 
 The following types of content controls are supported.
 
@@ -29,5 +30,5 @@ While creating content control in the word document template, you can prefix the
 
 For more information on how to work with content controls, refer to the [Microsoft support](https://support.microsoft.com/en-us) site.
 
-**Parent Topic:**[Configure document templates for standard letters or documents](../task/cncore-wdt-other-bu.md)
+**Parent Topic:**[Configure document templates for standard letters or documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-wdt-other-bu.md)
 

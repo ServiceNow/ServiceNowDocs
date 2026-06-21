@@ -2,6 +2,7 @@
 title: Device heath check calculation
 description: Device health calculation and categorization of performance as Good, Average, or Poor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-self-service/Device-health-check-calculation.html
 release: xanadu
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service

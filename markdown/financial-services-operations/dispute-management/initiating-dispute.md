@@ -2,6 +2,7 @@
 title: Initiate a dispute
 description: Begin a dispute case in Financial Services Card Operations for a transaction associated with a card account. You can enter dispute information, fill out the dispute questionnaire, upload supporting documentation, and submit the case for investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/initiating-dispute.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -19,19 +20,19 @@ Begin a dispute case in Financial Services Card Operations for a transaction ass
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
 You can dispute one or more transactions that are associated with a card account by creating a dispute case.
 
-To create a new dispute service case, see [Create a card dispute service case](create-dispute-service-case.md), and then continue this procedure from step 6 to initiate the case.
+To create a new dispute service case, see [Create a card dispute service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/create-dispute-service-case.md), and then continue this procedure from step 6 to initiate the case.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../../common/image/icon-list.png)\).
+2.  Select the lists icon \(\[Omitted image "icon-list.png"\] Alt text: Lists icon.\).
 
 3.  On the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -45,15 +46,15 @@ To create a new dispute service case, see [Create a card dispute service case](c
 
 6.  Under the **Initiate** playbook stage, fill in the required fields and any other related information.
 
-<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d46131e171">
+<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d38240e171">
 
 Activity
 
-</th><th align="left" id="d46131e174">
+</th><th align="left" id="d38240e174">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46131e180">
+</th></tr></thead><tbody><tr><td id="d38240e180">
 
 **Select transaction**
 
@@ -65,7 +66,7 @@ Provide information on the cardholder and the dispute, such as:-   The account o
 -   The transaction being disputed
 
 
-</td></tr><tr><td id="d46131e203">
+</td></tr><tr><td id="d38240e203">
 
 **Add more transactions**
 
@@ -75,7 +76,7 @@ If the dispute category is Fraud, this activity appears. You may select addition
 
 As transactions are added, they are updated in the **State of transactions** panel.
 
-</td></tr><tr><td id="d46131e219">
+</td></tr><tr><td id="d38240e219">
 
 **Fill dispute questionnaire**
 
@@ -83,7 +84,7 @@ As transactions are added, they are updated in the **State of transactions** pan
 
 Complete the dispute questionnaire by answering the questions.**Note:** This step appears if you have the Dispute Rules Content Pack for Visa or Dispute Rules Content Pack for Mastercard installed, and the disputed transaction took place on the respective card network.
 
-</td></tr><tr><td id="d46131e236">
+</td></tr><tr><td id="d38240e236">
 
 **Document upload**
 
@@ -91,7 +92,7 @@ Complete the dispute questionnaire by answering the questions.**Note:** This ste
 
 Upload any supporting documentation at this step, such as order details, invoices, and conversations between parties.
 
-</td></tr><tr><td id="d46131e246">
+</td></tr><tr><td id="d38240e246">
 
 **Submit dispute**
 
@@ -112,5 +113,5 @@ Select the checkbox to acknowledge that you have read and understood the disclai
     |**__Submit__**|When you select **Submit**, the system executes the chargeback eligibility rules in the background. These rules determine if the transaction is eligible for a chargeback, which is based on the answers that were provided in the questionnaire and the reason code. The chargeback eligibility information is recorded in the card disputes transaction.|
 
 
-**Parent Topic:**[Work on a dispute case](work-dispute-case.md)
+**Parent Topic:**[Work on a dispute case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/work-dispute-case.md)
 

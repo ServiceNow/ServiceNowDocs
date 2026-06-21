@@ -2,6 +2,7 @@
 title: Recalculate costs of all resource plans in a project
 description: Recalculate the resource costs of all resource plans in a project whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/recalculate-resource-costs-of-a-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -27,7 +28,7 @@ Role required: project\_manager
 
 ## About this task
 
-This option recalculates the costs of all resource plans of the project at once. You can also open a resource plan from the **Resource Plans** related list to [recalculate the resource costs of an individual resource plan](../../resource-management/task/recalculate-resource-costs.md).
+This option recalculates the costs of all resource plans of the project at once. You can also open a resource plan from the **Resource Plans** related list to [recalculate the resource costs of an individual resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/recalculate-resource-costs.md).
 
 ## Procedure
 

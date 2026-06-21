@@ -2,7 +2,10 @@
 title: View an agent profile
 description: An agent profile displays the agent's personal information as well as the work status, schedule, location, and time zone. View the agent's profile from the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-agent-profile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -54,8 +57,8 @@ Agents can view the list of the members their group and their current schedules 
     2.  Click **Save**.
 
 
--   **[Update an agent's profile](manage-agent-profile-team-calendar.md)**  
+-   **[Update an agent's profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-agent-profile-team-calendar.md)**  
 Update shifts, skills, schedules, work parameters, and work order tasks for agents in your assignment groups.
 
-**Parent Topic:**[Managing agents and agent groups on the team calendar](../concept/manage-agents-agent-groups.md)
+**Parent Topic:**[Managing agents and agent groups on the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-agents-agent-groups.md)
 

@@ -2,6 +2,7 @@
 title: Create a Subscription Management administrator
 description: Create a Subscription Management administrator by assigning the usage\_admin role to an administrator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/assign-usage-admin-v2.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -36,5 +37,5 @@ Assign the usage\_admin role to users that manage subscriptions for your organiz
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Subscription Management](../concept/configuring-subscription-management-v2.md)
+**Parent Topic:**[Configuring Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configuring-subscription-management-v2.md)
 

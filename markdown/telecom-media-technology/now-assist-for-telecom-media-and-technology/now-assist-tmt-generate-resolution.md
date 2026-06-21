@@ -2,6 +2,7 @@
 title: Generate the resolution notes for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Generate the resolution notes for a service problem case by using the resolution notes generation skill in the Now Assist for TMT application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution.html
 release: xanadu
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -23,7 +24,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 You can also propose the resolution to the customer, and then add the resolution information to the service problem case record. Generating resolution notes may help you wrap up cases faster and provide information about the service problem case resolution to other agents who might encounter similar issues. The Generate resolution notes action is available to the customer service agents who have assigned service problem cases in the Open state.
 
-You can also generate resolution information on demand from the Now Assist panel. For more information, see [Resolution notes generation](https://www.servicenow.com/docs/access?context=now-assist-rn-summarization&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+You can also generate resolution information on demand from the Now Assist panel. For more information, see .
 
 **Note:** The resolution notes generation skill requires a minimum of 50 words in the service problem case record to generate the resolution notes. If the resolution notes cannot be generated, the system displays a message at the top in the Resolution notes modal.
 
@@ -72,5 +73,5 @@ You can also generate resolution information on demand from the Now Assist panel
 -   The case moves to the Resolved state.
 -   The resolution is proposed to the customer.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-spm-using.md)
+**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

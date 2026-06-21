@@ -2,6 +2,7 @@
 title: Buy a partner application
 description: Log in to the ServiceNow Store and purchase an application that lists a non-ServiceNow provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/buy-partner-app.html
 release: xanadu
 topic_type: task
 last_updated: "2025-07-31"
@@ -28,21 +29,21 @@ Role required: none
 
 3.  Select **Request purchase** to request approval from the provider if necessary.
 
-    You receive an email informing you whether your request is approved. If you have questions, you can contact the application provider. For more information about contacting a provider, see [Contact a seller](contact-seller.md).
+    You receive an email informing you whether your request is approved. If you have questions, you can contact the application provider. For more information about contacting a provider, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/contact-seller.md).
 
 4.  On the listing details page for the app, initiate the purchase by selecting **Buy**.
 
 5.  Select either **Credit Card** or **Purchase Order** as your payment type.
 
-<table id="choicetable_rcj_45l_bdc"><thead><tr><th align="left" id="d227718e164">
+<table id="choicetable_rcj_45l_bdc"><thead><tr><th align="left" id="d88745e164">
 
 Payment type
 
-</th><th align="left" id="d227718e167">
+</th><th align="left" id="d88745e167">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d227718e173">
+</th></tr></thead><tbody><tr><td id="d88745e173">
 
 **Credit card**
 
@@ -53,7 +54,7 @@ Procedure
 3.  Select **Pay**.
 
 
-</td></tr><tr><td id="d227718e202">
+</td></tr><tr><td id="d88745e202">
 
 **Purchase order**
 
@@ -83,12 +84,12 @@ You're sent an emailed confirmation once the purchase order is processed.
 
 ## Result
 
-The application is available for installation from the Application Manager within 24 hours. For more information about using the Application Manager, see [Application Manager](../../application-manager/concept/application-manager.md).
+The application is available for installation from the Application Manager within 24 hours. For more information about using the Application Manager, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/application-manager.md).
 
 Confirmation emails for the application and any dependencies that were procured are sent to the email address associated with your ServiceNow Store account.
 
 If the application isn't available to install from the Application Manager within 24 hours, try the following actions.
 
--   Verify that all necessary dependencies have been procured. For more information, see [Evaluating version requirements and dependencies](../concept/versions-dependencies.md).
+-   Verify that all necessary dependencies have been procured. For more information, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/versions-dependencies.md).
 -   If the previous options don't work, contact Now Support for assistance.
 

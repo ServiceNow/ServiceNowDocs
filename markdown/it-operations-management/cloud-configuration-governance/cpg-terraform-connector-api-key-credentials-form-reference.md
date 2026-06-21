@@ -2,6 +2,7 @@
 title: Cloud Provisioning and Governance: Terraform Connector API Key Credentials form reference
 description: The Cloud Provisioning and Governance: Terraform Connector uses API key credentials to authenticate the requests sent to the Terraform Enterprise and Terraform Cloud and the version control systems provisioned in them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.html
 release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -107,5 +108,5 @@ Credential alias
 Credential alias that can resolve the credential.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Provisioning and Governance: Terraform Connector reference](cpg-terraform-connector-reference.md)
+</table>**Parent Topic:**[Cloud Provisioning and Governance: Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
 

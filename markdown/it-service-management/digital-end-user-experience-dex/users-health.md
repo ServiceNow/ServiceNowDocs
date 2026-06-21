@@ -2,6 +2,7 @@
 title: Device health
 description: View the overall operational status and performance of a user's device. Assess the performance using key metrics and indicators such as system uptime, pending updates and patches, recent crashes or blue/black screens, battery health, and application stability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/users-health.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -15,7 +16,7 @@ breadcrumb: [Device details, Application and Device Health, Monitor, Digital End
 
 View the overall operational status and performance of a user's device. Assess the performance using key metrics and indicators such as system uptime, pending updates and patches, recent crashes or blue/black screens, battery health, and application stability.
 
-The system updates the device data using policies every 72 hours. Additionally, you can manually populate the on-demand data by selecting the refresh icon \(![Refresh icon used to refresh the page.](../image/icon-dex-refresh.png)\). To learn more about the policies, see [DEX policies for macOS](../reference/dex-policies-mac.md) and [DEX policies for Windows](../reference/dex-policies-windows.md).
+The system updates the device data using policies every 72 hours. Additionally, you can manually populate the on-demand data by selecting the refresh icon \(\[Omitted image "icon-dex-refresh.png"\] Alt text: Refresh icon used to refresh the page.\). To learn more about the policies, see [DEX policies for macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/dex-policies-mac.md) and [DEX policies for Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/dex-policies-windows.md).
 
 ## Device health overview
 
@@ -51,5 +52,5 @@ The Hardware section provides key details about the hard drive, offering insight
 
 These details collectively offer a comprehensive overview of the hard drive characteristics and functionalities and are essential for maintenance, troubleshooting, compatibility, capacity planning, and overall system management.
 
-For information on each field, see [Device health page](../reference/user-health-card.md).
+For information on each field, see [Device health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/user-health-card.md).
 

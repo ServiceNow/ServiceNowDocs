@@ -2,6 +2,7 @@
 title: Contracts Core
 description: Learn more about Contracts Core through a sample workflow and review the benefits it can provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-expl-ccore.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -37,6 +38,6 @@ Save time and the manual work of filling out contract documents or standard lett
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Effectively manage a library of clauses and clause variations.|[Clause Management](cncore-expl-clause-mgmt.md)|Contract configurator|
-|Create word document template to generate contract documents or standard letters according to the request submitted.|[Word Document Templates](cncore-expl-wdt.md)|Contract configurator|
+|Effectively manage a library of clauses and clause variations.|[Clause Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-clause-mgmt.md)|Contract configurator|
+|Create word document template to generate contract documents or standard letters according to the request submitted.|[Word Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-wdt.md)|Contract configurator|
 

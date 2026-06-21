@@ -2,6 +2,7 @@
 title: Outbound cost allocation staging table
 description: The outbound cost allocation \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\] staging table stores important data about cost allocation information so that an ERP integrator can export this data to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/outbound-cost-allocation-table.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -30,5 +31,5 @@ The following table lists fields for the outbound cost allocation \[sn\_spend\_i
 |Invoice line|Reference|Line items on the invoice.|
 |Integration status|Choice|Status of the integration process.|
 
-**Parent Topic:**[Create New Invoice Line form](create-invoice-line-form.md)
+**Parent Topic:**[Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md)
 

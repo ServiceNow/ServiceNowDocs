@@ -2,6 +2,7 @@
 title: Available sources for the predefined web sources external content connector
 description: List of public web sources that search administrators can retrieve searchable content from using the predefined web sources external content connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/available-websources-ext-cont-connectors.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -54,7 +55,7 @@ List of public web sources that search administrators can retrieve searchable co
 |Webex|https://help.webex.com/|
 |Zoom|https://support.zoom.com/hc|
 
-For details on creating and configuring predefined web sources external content connectors, see [Create a predefined web sources external content connector](../task/create-ext-cont-connector-websources.md) and [Configure crawl settings for the predefined web sources external content connector](../task/configure-crawl-settings-websources-ext-cont-connector.md).
+For details on creating and configuring predefined web sources external content connectors, see [Create a predefined web sources external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-websources.md) and [Configure crawl settings for the predefined web sources external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configure-crawl-settings-websources-ext-cont-connector.md).
 
-**Parent Topic:**[External Content Connectors reference](../concept/reference-ext-cont-connectors.md)
+**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ext-cont-connectors.md)
 

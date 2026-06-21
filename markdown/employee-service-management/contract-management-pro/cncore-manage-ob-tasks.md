@@ -2,6 +2,7 @@
 title: Approve or reject obligation tasks
 description: As an obligation fulfiller, review obligation tasks in Obligation Management that have been submitted for approval, and take the appropriate action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-manage-ob-tasks.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -23,15 +24,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open the obligation task from the notification email, Employee Center, or Contract Workspace.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d631084e64">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d189684e64">
 
 Options
 
-</th><th align="left" id="d631084e67">
+</th><th align="left" id="d189684e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d631084e73">
+</th></tr></thead><tbody><tr><td id="d189684e73">
 
 **From the email notification**
 
@@ -39,7 +40,7 @@ Steps
 
 Select the link in the notification email sent when an obligation task is assigned to you for approval to access the obligation task.
 
-</td></tr><tr><td id="d631084e82">
+</td></tr><tr><td id="d189684e82">
 
 **From Employee Center**
 
@@ -50,7 +51,7 @@ Select the link in the notification email sent when an obligation task is assign
 3.  Select the obligation task under the **Open** tab.
 
 
-</td></tr><tr><td id="d631084e124">
+</td></tr><tr><td id="d189684e124">
 
 **From Contract Workspace**
 
@@ -59,7 +60,7 @@ Select the link in the notification email sent when an obligation task is assign
 **Note:** The sn\_cm\_workspace.contract\_workspace\_user role is required to access Legal Counsel Center.
 
  1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **My work**.
 4.  Select **Pending approvals**.
 5.  Select the obligation record that needs approval.
@@ -68,15 +69,15 @@ Select the link in the notification email sent when an obligation task is assign
 </td></tr></tbody>
 </table>2.  Review the obligation task and approve or reject it.
 
-<table id="choicetable_ygc_svh_tcc"><thead><tr><th align="left" id="d631084e194">
+<table id="choicetable_ygc_svh_tcc"><thead><tr><th align="left" id="d189684e194">
 
 Options
 
-</th><th align="left" id="d631084e197">
+</th><th align="left" id="d189684e197">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d631084e203">
+</th></tr></thead><tbody><tr><td id="d189684e203">
 
 **From Employee Center**
 
@@ -86,7 +87,7 @@ Steps
 -   To reject the task, select **Reject**.
 
 
-</td></tr><tr><td id="d631084e230">
+</td></tr><tr><td id="d189684e230">
 
 **From Contract Workspace**
 
@@ -104,5 +105,5 @@ If the obligation task is approved, the assigned user is notified and the state 
 
 When the obligation task is rejected, the assigned user is notified and the state of the obligation task changes to Open.
 
-**Parent Topic:**[Obligation Management](../concept/cncore-obligation-management.md)
+**Parent Topic:**[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-obligation-management.md)
 

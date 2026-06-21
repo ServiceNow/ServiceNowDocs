@@ -2,6 +2,7 @@
 title: Platform Analytics data visualization tables
 description: The following tables relate to Platform Analytics data visualizations and can be accessed through scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/par-dv-tables.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-02-24"
@@ -27,5 +28,5 @@ The following tables relate to Platform Analytics data visualizations and can be
 |par\_visualization|Contains all data visualizations in the visualization library. Extends par\_component.|
 |par\_visualization\_permission|Contains the role, group, and user permissions for all data visualizations in the visualization library. Extends par\_component\_permission.|
 
-**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

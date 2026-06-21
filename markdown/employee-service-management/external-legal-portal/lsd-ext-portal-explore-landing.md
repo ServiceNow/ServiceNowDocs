@@ -2,6 +2,7 @@
 title: Exploring External Legal Service Center
 description: Learn more about External Legal Service Center with a sample workflow and review the benefits it can provide for different users in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/external-legal-portal/lsd-ext-portal-explore-landing.html
 release: xanadu
 product: External Legal Portal
 classification: external-legal-portal
@@ -107,9 +108,9 @@ Legal team
 
 To learn more about configuring and using External Legal Service Center, see:
 
--   [Configuring up External Legal Service Center](lsd-ext-portal-config-land-page.md)
--   [Using External Legal Service Center](lsd-ext-portal-use-landing.md)
--   [External Legal Service Center reference](lsd-ext-portal-reference-landing.md)
+-   [Configuring up External Legal Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/external-legal-portal/lsd-ext-portal-config-land-page.md)
+-   [Using External Legal Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/external-legal-portal/lsd-ext-portal-use-landing.md)
+-   [External Legal Service Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/external-legal-portal/lsd-ext-portal-reference-landing.md)
 
-**Parent Topic:**[Legal Service Delivery](../../legal-request-management/concept/legal-management-overview.md)
+**Parent Topic:**[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/legal-management-overview.md)
 

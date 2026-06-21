@@ -2,6 +2,7 @@
 title: Create post incident review questionnaire categories
 description: You can use the questionnaire categories that come with the base system or create your own categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/t\_CreatePIRSurveyCategories.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

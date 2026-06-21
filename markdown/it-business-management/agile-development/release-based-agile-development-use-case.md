@@ -2,11 +2,12 @@
 title: Release-based development use case in Agile Development
 description: An example of release-based development and delivery model using Agile Development.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/agile-development/release-based-agile-development-use-case.html
 release: xanadu
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Agile Development use cases, Explore, Agile Development 2.0, Strategic Portfolio Management]
 ---
@@ -30,7 +31,7 @@ The usual activities involved in a release-based agile development are:
 
 The following illustration provides a high-level overview of the workflow in a release-based Agile Development environment.
 
-![Steps of release-based agile development, which starts with maintaining a product backlog. Stories from the product backlog are assigned to the teams, assigned to a release, and scheduled for sprints.](../image/ReleaseBasedAgileUseCase.png "Release based agile development workflow example")
+\[Omitted image "ReleaseBasedAgileUseCase.png"\] Alt text: Steps of release-based agile development, which starts with maintaining a product backlog. Stories from the product backlog are assigned to the teams, assigned to a release, and scheduled for sprints.
 
-**Parent Topic:**[Agile Development use cases](agile-workflow-use-cases.md)
+**Parent Topic:**[Agile Development use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/agile-development/agile-workflow-use-cases.md)
 

@@ -2,6 +2,7 @@
 title: Additional data input setup tasks
 description: After performing the initial data input setup and configuration, continue with the remaining data input setup tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-extra.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -15,12 +16,12 @@ breadcrumb: [Set up data inputs for Health Log Analytics manually, Health Log An
 
 After performing the initial data input setup and configuration, continue with the remaining data input setup tasks.
 
--   **[Verify your log sources](../task/hla-log-sources-review.md)**  
+-   **[Verify your log sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-log-sources-review.md)**  
 Verify that all your log sources are present and active after Health Log Analytics tagging has assigned a log to a service instance and components, and has automatically mapped the log to a source.
--   **[Add timestamp formats](../task/hla-timestamp-formats-add.md)**  
+-   **[Add timestamp formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-timestamp-formats-add.md)**  
 Define any timestamp format that does not appear in the list of defined formats. Health Log Analytics must be able to read timestamps of any format contained in your log files.
--   **[Delete a log source](../task/hla-log-source-delete.md)**  
+-   **[Delete a log source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-log-source-delete.md)**  
 Delete a log source with or without its associated log data in Health Log Analytics.
 
-**Parent Topic:**[Set up data inputs for Health Log Analytics manually](../task/hla-data-input-setup-manual.md)
+**Parent Topic:**[Set up data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md)
 

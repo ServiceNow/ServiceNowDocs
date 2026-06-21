@@ -2,6 +2,7 @@
 title: Create an xNF
 description: Create business applications to manage all xNFs \(different types of network functions\) in the Telecommunications Network Inventory application. You can create xNFs to model your 5G network.Created topics for STRY55389656 - DOC1072742
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-network-inventory/telecommunications-network-inventory/create\_business\_applications.html
 release: xanadu
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -32,14 +33,14 @@ This task enables you to create, review, and update all xNFs. By default, 19 fun
 
 3.  On the form, fill in the fields.
 
-    To see a description of the fields, see [Design domain of the CSDM framework](https://www.servicenow.com/docs/access?context=design-domain&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    To see a description of the fields, see .
 
 4.  Select **Submit**.
 
 
 ## What to do next
 
-You can review, update the fields, create a related tab record, or delete a record. To learn more, see [Update or delete a service record](../concept/update_or_delete_a_service_record.md).
+You can review, update the fields, create a related tab record, or delete a record. To learn more, see [Update or delete a service record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/update_or_delete_a_service_record.md).
 
-**Parent Topic:**[Create xNF and xNF instances](../concept/services.md)
+**Parent Topic:**[Create xNF and xNF instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/services.md)
 

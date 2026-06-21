@@ -2,6 +2,7 @@
 title: Create Task Recommendation Policies
 description: Create policies to recommend the best available work order tasks for agents based on the specified rules and conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/create-task-recommendation-policies.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -58,10 +59,10 @@ The recommendation policy is created successfully. The policy has the Filtering 
 
 ## What to do next
 
-You can customize optional filter constraints and ranking criteria. For more information, see [Create a filter constraint or a ranking criteria for a task recommendation policy](create-filtering-constraint.md).
+You can customize optional filter constraints and ranking criteria. For more information, see [Create a filter constraint or a ranking criteria for a task recommendation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-filtering-constraint.md).
 
--   **[Create a filter constraint or a ranking criteria for a task recommendation policy](create-filtering-constraint.md)**  
+-   **[Create a filter constraint or a ranking criteria for a task recommendation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-filtering-constraint.md)**  
 Define a filtering constraints or a ranking criteria for a task recommendation policy. Filter the best matched tasks for the agent based on the filter ordering rules.
 
-**Parent Topic:**[Setting up Intelligent Task Recommendations](../concept/administer-task-recommendations.md)
+**Parent Topic:**[Setting up Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/administer-task-recommendations.md)
 

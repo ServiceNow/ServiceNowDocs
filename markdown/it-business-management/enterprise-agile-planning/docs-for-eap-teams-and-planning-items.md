@@ -2,6 +2,7 @@
 title: Collaborate using Docs in EAP
 description: Store and manage all kinds of documentation for Agile teams and their planning items \(Epics, Capabilities, and Features\) from a centralized location of Enterprise Agile Planning workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/enterprise-agile-planning/docs-for-eap-teams-and-planning-items.html
 release: xanadu
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -50,22 +51,22 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 -   Summarize, elaborate, or shorten selected text.
 
-    ![Summarize, elaborate, or shorten the selected text](../images/eap-now-assist-selected-content.png)
+    \[Omitted image "eap-now-assist-selected-content.png"\] Alt text: Summarize, elaborate, or shorten the selected text
 
 -   Summarize the entire content on the page.
 
-    ![Summarize the entire content on the page](../images/eap-now-assist-doc-summarize.png)
+    \[Omitted image "eap-now-assist-doc-summarize.png"\] Alt text: Summarize the entire content on the page
 
 
 **Note:**
 
--   Summarizing Docs content in EAP requires activating the EAP doc summarization Now Assist skill. For more information, see [Configure Now Assist for Strategic Portfolio Management \(SPM\)](../../now-assist-spm/task/configure-now-assist-for-spm.md).
+-   Summarizing Docs content in EAP requires activating the EAP doc summarization Now Assist skill. For more information, see [Configure Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
 -   If there’s more content to summarize, you can remove some content and retry.
 -   Because the output is AI-generated, review it to ensure accuracy.
 
 ## Real-time collaboration within EAP Docs
 
-With the feature of real-time collaboration, edit a Doc page concurrently with multiple other editors. Colored cursors denote the current location of each editor on the page. You can choose to show or hide these live presence indicators based on your preference while working on or reviewing the content of the page.![Real-time collaboration in EAP Docs.](../images/eap-docs-rtc.png)
+With the feature of real-time collaboration, edit a Doc page concurrently with multiple other editors. Colored cursors denote the current location of each editor on the page. You can choose to show or hide these live presence indicators based on your preference while working on or reviewing the content of the page.\[Omitted image "eap-docs-rtc.png"\] Alt text: Real-time collaboration in EAP Docs.
 
 **Note:** Application performance may degrade with a large number of concurrent editors.
 

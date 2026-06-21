@@ -2,6 +2,7 @@
 title: Manual metric definition fields
 description: Detailed explanation of the fields on the manual metric definition form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/manual-md-reuse.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -138,9 +139,9 @@ The system assigns the specified Data owner or Data owner group to the Metric.
 
 -   **Advanced**
 
-The system assigns a Data owner based on the assignment configuration. ESG admins \[sn\_esg.admin\] or Risk admins \[sn\_risk.admin\] can set assignment configurations to dynamically assign data owners. For more information on creating assignment configurations see, [Create an assignment configuration](https://www.servicenow.com/docs/access?context=create-assign-config-mmd&version=xanadu&pubname=xanadu-environmental-social-governance&ft:locale=en-US) and [Assignment Configuration New Record](../../grc-common/reference/assignment-configuration-new-record.md).
+The system assigns a Data owner based on the assignment configuration. ESG admins \[sn\_esg.admin\] or Risk admins \[sn\_risk.admin\] can set assignment configurations to dynamically assign data owners. For more information on creating assignment configurations see,  and [Assignment Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/assignment-configuration-new-record.md).
 
-**Note:** This is available if you have the GRC: Approver Configurator application installed. For more information see, [Using Approver Configurator for setting up approvals](../../grc-common/concept/approval-configuration.md).
+**Note:** This is available if you have the GRC: Approver Configurator application installed. For more information see, [Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/approval-configuration.md).
 
 
 </td></tr><tr><td>
@@ -223,7 +224,7 @@ Approver type
 Type of the approver of the metric definition. The choices are as follows:-   **User**
 -   **User group**
 
-**Note:** This field appears only when the Metric approval property is set to **Simple**. For more information see, [Components installed with ESG Management](https://www.servicenow.com/docs/access?context=components-installed-with-esg&version=xanadu&pubname=xanadu-environmental-social-governance&ft:locale=en-US).
+**Note:** This field appears only when the Metric approval property is set to **Simple**. For more information see, .
 
 **Note:** Only groups that include at least one member with the ESG Metrics Manager role or higher can be selected the User Group.
 
@@ -236,7 +237,7 @@ Approver
 Approver user or approver group that is responsible to approve the metric definition. The choices are as follows:-   **Approver**: Displayed when the User option is selected.
 -   **Approver group**: Displayed when the User option is selected.
 
-**Note:** This field appears only when the Metric approval property is set to **Simple**. For more information see, [Components installed with ESG Management](https://www.servicenow.com/docs/access?context=components-installed-with-esg&version=xanadu&pubname=xanadu-environmental-social-governance&ft:locale=en-US).
+**Note:** This field appears only when the Metric approval property is set to **Simple**. For more information see, .
 
 **Note:** Only users with the ESG Program Manager role or higher can be selected.
 
@@ -277,7 +278,7 @@ Direction that you want to see the metric in. The choices are as follows:-   **N
 -   **Maximize**: If the desired metric direction is upward, select this option.
 -   **Milestone**: When the metric direction isn’t applicable, but the metric is tracked against a milestone, select this option.
 
-**Note:** Thresholds can be set for all directions excluding **Milestone**. For more information on creating thresholds, see [Create a threshold for a metric](https://www.servicenow.com/docs/access?context=create-a-threshold-for-a-metric&version=xanadu&pubname=xanadu-environmental-social-governance&ft:locale=en-US)
+**Note:** Thresholds can be set for all directions excluding **Milestone**. For more information on creating thresholds, see 
 
 </td></tr><tr><td>
 

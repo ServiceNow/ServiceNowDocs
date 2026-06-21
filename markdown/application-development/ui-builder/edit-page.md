@@ -2,6 +2,7 @@
 title: Edit a page
 description: Edit a page to change the page name, path, and parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/ui-builder/edit-page.html
 release: xanadu
 product: UI Builder
 classification: ui-builder
@@ -31,11 +32,11 @@ Edit page settings to change the name and path of your page. This is useful if y
 
 3.  Select **Settings** next to the page that you want to edit.
 
-    ![Arrow pointing to settings button to edit page settings.](../image/edit-page-settings-link.png)
+    \[Omitted image "edit-page-settings-link.png"\] Alt text: Arrow pointing to settings button to edit page settings.
 
 4.  In the page settings window you can change the name, path, and parameters of your page.
 
-    ![Page settings screen with page parameters help text highlighted.](../image/edit-page-settings.png)
+    \[Omitted image "edit-page-settings.png"\] Alt text: Page settings screen with page parameters help text highlighted.
 
 5.  Add required parameters to your page URL.
 
@@ -45,9 +46,9 @@ Edit page settings to change the name and path of your page. This is useful if y
 
         A required parameter is a piece of data that your page requires, such as a sys\_id, table, or query. Required parameters are useful for components, because they can bind to the value of the required parameter.
 
-        ![Required parameters in page settings.](../image/required-parameter-settings.png)
+        \[Omitted image "required-parameter-settings.png"\] Alt text: Required parameters in page settings.
 
-        For more information, see [Manage UI Builder pages and page variants](../concept/work-pages.md).
+        For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/work-pages.md).
 
 6.  Add optional pieces of data that you want to add to the URL of your page.
 
@@ -57,12 +58,12 @@ Edit page settings to change the name and path of your page. This is useful if y
 
         Unlike required parameters, optional parameters are always name and value pairs that work no matter what order that they are provided in.
 
-        ![Optional parameters in page settings.](../image/optional-parameter-settings.png)
+        \[Omitted image "optional-parameter-settings.png"\] Alt text: Optional parameters in page settings.
 
-        For more information, see [Manage UI Builder pages and page variants](../concept/work-pages.md).
+        For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/work-pages.md).
 
 7.  Click **Save**.
 
 
-**Parent Topic:**[Manage UI Builder pages and page variants](../concept/work-pages.md)
+**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/work-pages.md)
 

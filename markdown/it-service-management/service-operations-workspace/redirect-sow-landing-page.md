@@ -2,6 +2,7 @@
 title: Redirect non-admin users to Service Operations Workspace
 description: Enable a non-admin user to start prioritizing tasks quickly by redirecting to Service Operations Workspace after logging in to the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/redirect-sow-landing-page.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -19,7 +20,7 @@ Enable a non-admin user to start prioritizing tasks quickly by redirecting to Se
 
 Role required: admin
 
-Ensure that Next Experience is enabled on your instance. For information about its activation, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Ensure that Next Experience is enabled on your instance. For information about its activation, see Considerations for activating Next Experience.
 
 ## Procedure
 

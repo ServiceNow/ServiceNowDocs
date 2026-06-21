@@ -2,6 +2,7 @@
 title: KPI Threshold table
 description: The KPI Threshold \[sn\_kpi\_threshold\] table stores the information about threshold values or value ranges configured for KPIs or KPI templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/kpi-threshold-table.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -30,5 +31,5 @@ The KPI Threshold \[sn\_kpi\_threshold\] table contains the following fields.
 |Normalized value|Integer|Indicates a value that has been calculated from its original figure to fit a specific scale for easy comparison with other values. For example, a scale of 1–5.|
 |Color|String|Color for the threshold.|
 
-**Parent Topic:**[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](primary-data-tables-srpm.md)
+**Parent Topic:**[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/primary-data-tables-srpm.md)
 

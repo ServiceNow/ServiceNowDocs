@@ -2,6 +2,7 @@
 title: Exploring Retail Core
 description: Whether you're starting or expanding your implementation of the Retail Core application, learn more about the features available to optimize your retail organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-operations-explore.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -35,7 +36,7 @@ Retail Core helps you accomplish the following:
 
 ## Retail Core workflow
 
-![Diagram showing a common retail operations workflow.](../image/exploring-retail.png "Retail Core")
+\[Omitted image "exploring-retail.png"\] Alt text: Diagram showing a common retail operations workflow.
 
 
 
@@ -49,15 +50,15 @@ Retail Core helps you accomplish the following:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Digitize retail organization information and streamline the setup experience.|[Retail Core data model](rahi-retail-data-model.md)|Admin|
-|Automate retail operations by enabling support request creation and fulfillment.|[Retail case](rahi-retail-case.md)|Store Associate, Store Manager|
+|Digitize retail organization information and streamline the setup experience.|[Retail Core data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-data-model.md)|Admin|
+|Automate retail operations by enabling support request creation and fulfillment.|[Retail case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-case.md)|Store Associate, Store Manager|
 
 ## What to explore next
 
 To learn more about configuring and using Retail Core, see:
 
--   [Configuring Retail Core](rahi-retail-operations-configuring.md)
--   [Create support requests for your retail organization](rahi-retail-operations-create-support-requests.md)
--   [Resolve support requests for your retail organization](rahi-retail-operations-fulfill-support-requests.md)
--   [Retail Core reference](rahi-retail-operations-reference.md)
+-   [Configuring Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-configuring.md)
+-   [Create support requests for your retail organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-create-support-requests.md)
+-   [Resolve support requests for your retail organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-fulfill-support-requests.md)
+-   [Retail Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-reference.md)
 

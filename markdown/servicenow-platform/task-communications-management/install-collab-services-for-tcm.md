@@ -2,6 +2,7 @@
 title: Install Collaboration Services for Task Communications Management
 description: Install the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\) from ServiceNow Store to get the Slack functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/task-communications-management/install-collab-services-for-tcm.html
 release: xanadu
 product: Task Communications Management
 classification: task-communications-management
@@ -33,7 +34,7 @@ Role required: admin
 **Related topics**  
 
 
-[List of plugins \(Xanadu\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 
-[Configure Slack workspace](https://www.servicenow.com/docs/access?context=configure-slack-workspace&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+[bundle-crint.configure-slack-workspace]
 

@@ -2,6 +2,7 @@
 title: Bar visualization examples
 description: Bar visualizations enable you to show the comparative size or frequency of different categories or groups, for example, sales in different regions or over different periods of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/dv-example-bar.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"

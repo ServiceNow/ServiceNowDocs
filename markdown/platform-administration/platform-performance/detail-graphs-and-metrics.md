@@ -2,6 +2,7 @@
 title: Application Insights detail graphs and metrics
 description: The Application Insights detail graphs provide views of individual metrics at the node level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/detail-graphs-and-metrics.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -45,5 +46,5 @@ The Application Insights detail graphs provide views of individual metrics at th
 |Average Database Response Time|**sql\_response** key in the Stats column in the Node stats \[sys\_cluster\_node\_stats\] table|Average response time \(in milliseconds\) for database operations|
 |Database Throughput|**database\_throughput** key in the Stats column in the Node stats \[sys\_cluster\_node\_stats\] table|Number of transactions processed per second.|
 
-**Parent Topic:**[Working with Application Insights graphs](working-with-application-insights-graphs.md)
+**Parent Topic:**[Working with Application Insights graphs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/working-with-application-insights-graphs.md)
 

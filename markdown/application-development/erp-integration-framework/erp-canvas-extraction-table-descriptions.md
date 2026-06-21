@@ -2,6 +2,7 @@
 title: ERP Data Hub extraction table field descriptions
 description: The Extraction table form in ERP Data Hub enables you to create and edit extraction tables in the ERP \(Enterprise Resource Planning\) model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-extraction-table-descriptions.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -49,7 +50,7 @@ Table that the extracted data is cached and stored in.The transform table is a t
 
 The specified Glide table connects the source ERP extraction table and the target table for the extracted data.
 
-If you use a custom transform table, you must first create the table on the ServiceNow AI Platform, and the table must be in the application scope. For more information on creating table transform maps, see [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+If you use a custom transform table, you must first create the table on the ServiceNow AI Platform, and the table must be in the application scope. For more information on creating table transform maps, see .
 
 </td></tr><tr><td>
 
@@ -108,5 +109,5 @@ Work notes
 Private notes that only you can view.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Data Hub field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Data Hub field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

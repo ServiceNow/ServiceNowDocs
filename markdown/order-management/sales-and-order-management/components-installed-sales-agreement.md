@@ -2,6 +2,7 @@
 title: Components installed with Sales Agreement Management
 description: Several types of components are installed with activation of the Sales Agreement Management plugins, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/components-installed-sales-agreement.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

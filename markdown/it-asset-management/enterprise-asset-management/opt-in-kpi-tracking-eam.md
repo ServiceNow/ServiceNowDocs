@@ -2,6 +2,7 @@
 title: Opt in to model categories to track performance KPIs for enterprise assets
 description: Monitor the performance KPIs of enterprise assets in your organization by enabling the KPI tracking for the models to which the assets belong.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/opt-in-kpi-tracking-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -36,7 +37,7 @@ Role required: sn\_eam.enterprise\_admin
 
 ## What to do next
 
-[Create an operational schedule for enterprise assets](create-operational-schedule-eam.md).
+[Create an operational schedule for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-operational-schedule-eam.md).
 
-**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Enterprise Asset Workspace](../concept/configure-kpi-settings-eam.md)
+**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/configure-kpi-settings-eam.md)
 

@@ -2,6 +2,7 @@
 title: Connect an observability data source
 description: Connect Service Observability to an external application performance management \(APM\) instance. Service Observability displays metrics in the Service Operations Workspace \(SOW\) from that APM instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-observability/connect-an-observability-data-source.html
 release: xanadu
 product: Service Observability
 classification: service-observability
@@ -54,7 +55,7 @@ Service Observability supports the following APM vendors:
 
     **Note:** For New Relic, the User name field should be the New Relic account ID.
 
-    For a description of the field values, see [Add connection form](../reference/add-connection-form.md).
+    For a description of the field values, see [Add connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/add-connection-form.md).
 
 4.  Select **Save**.
 
@@ -65,7 +66,7 @@ A new connection appears in the list of observability data sources. You use this
 
 ## What to do next
 
-Map your connection to the services that you want to monitor in Service Observability. See [Create and manage observability data mappings](create-and-manage-observability-data-mappings.md).
+Map your connection to the services that you want to monitor in Service Observability. See [Create and manage observability data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
 
-**Parent Topic:**[Configuring Service Observability](../concept/configuring-service-observability.md)
+**Parent Topic:**[Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/configuring-service-observability.md)
 

@@ -2,6 +2,7 @@
 title: Assign an administrator to Service Reliability Management
 description: Add people from your ServiceNow instance to administer the \( your service operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-assign-admins.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  In the **Service Operations Management** tile, select **Configure**.
 
-    ![Service Operations Management tile](../../it-operations-management/image/som-config.png)
+    \[Omitted image "som-config.png"\] Alt text: Service Operations Management tile
 
     You’re taken to **Service Operations Management**
 
@@ -38,9 +39,9 @@ Role required: admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Install SRM from Admin Center or ServiceNow Store](sr-install-sr-store-app.md)
+**Previous topic:**[Install SRM from Admin Center or ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-install-sr-store-app.md)
 
-**Next topic:**[Import services for use in Service Reliability Management](sr-import-services.md)
+**Next topic:**[Import services for use in Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-import-services.md)
 

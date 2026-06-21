@@ -2,6 +2,7 @@
 title: Access to Experts
 description: The Access to Experts Accelerator connects Impact customers to ServiceNow subject matter experts via personalized virtual coaching sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/access-experts-acc.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -21,7 +22,7 @@ Access to Experts targets precise and actionable guidance on the ServiceNow Plat
 
 Sessions offer specialized guidance on various ServiceNow product topics, aimed at accelerating value realization and outcomes on the ServiceNow Platform.
 
-**Note:** Impact squad members may determine that an Access to Experts Accelerator is to be requested based on the information submitted in the [Access to Expertise](../concept/access-expertise-initiative.md) initiative. The Accelerator is not available to be requested by customers outside of the Initiative.
+**Note:** Impact squad members may determine that an Access to Experts Accelerator is to be requested based on the information submitted in the [Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/accelerator-and-initiative-list/access-expertise-initiative.md) initiative. The Accelerator is not available to be requested by customers outside of the Initiative.
 
 ## Requestable topics
 
@@ -43,7 +44,7 @@ The Access to Experts Accelerator applies to a selected set of requestable topic
     -   Detail current ServiceNow platform implementation phases and areas for enhancement
     -   Receive actionable feedback on general guidelines and recommendations.
 
-For examples of requests or additional information on the request process, see [Request Access to Expertise](../task/access-expertise.md).
+For examples of requests or additional information on the request process, see [Request Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/accelerator-and-initiative-list/access-expertise.md).
 
 **Note:** This Accelerator is exclusively available as a restricted release in Impact Advanced and Total packages to select Impact squads and customers with the May 17, 2024 Impact SKUs.
 

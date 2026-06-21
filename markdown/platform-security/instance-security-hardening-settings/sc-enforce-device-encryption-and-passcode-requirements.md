@@ -2,6 +2,7 @@
 title: Enforce device encryption and passcode requirements \[New in Security Center 1.3\]
 description: The glide.sg.device\_encryption\_enabled property enforces the Federal Information Processing Standard \(FIPS 140-2\) Encryption. Mobile device encryption and passcode ensure that an unauthorized user cannot access the content of a device even if the device is physically obtained.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-enforce-device-encryption-and-passcode-requirements.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Authentication](sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -102,5 +103,5 @@ Functional impact
 When this property is set to true, the mobile app will verify if device encryption is enabled. If encryption is not enabled, users will not be allowed to log into the current instance on mobile.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

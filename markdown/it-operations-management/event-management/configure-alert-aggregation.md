@@ -2,6 +2,7 @@
 title: Configure pattern based alert aggregation
 description: Configure the Alert Aggregation Learner \(Service Analytics Alert Aggregation Learner - Daily\), which is an offline job that runs daily to process past alerts. The Alert Aggregation Learner identifies patterns of related alerts using a combination of pattern-based and probabilistic techniques.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/configure-alert-aggregation.html
 release: xanadu
 product: Event Management
 classification: event-management

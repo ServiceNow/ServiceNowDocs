@@ -2,7 +2,10 @@
 title: Using the team calendar
 description: The team calendar lists the agents in the selected group and displays the work order tasks assigned to each agent. It also displays other events such as case tasks, appointments, and personal time-off.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/using-team-calendar.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -26,16 +29,16 @@ Users can also customize the settings to set default groups and a default starti
 
 Based on the group visibility permissions, agents can view the list of the members their group and their group members' schedules.
 
-An administrator can [Configure Workforce](configuring-workforce.md) to customize the team calendar, set system properties for group and territory views, increase visibility for better coordination, and allow users to switch between viewing assignment groups and territories.
+An administrator can [Configure Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/configuring-workforce.md) to customize the team calendar, set system properties for group and territory views, increase visibility for better coordination, and allow users to switch between viewing assignment groups and territories.
 
 **Note:** If Workforce Optimization is installed and activated, events are view only. Use Manager Workspace in Workforce Optimization to create and edit events.
 
--   **[Managing agents and agent groups on the team calendar](manage-agents-agent-groups.md)**  
+-   **[Managing agents and agent groups on the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-agents-agent-groups.md)**  
 View agent events, add events for agents, and search agents and agent groups using the team calendar. You can also add or edit agent skills.
--   **[Create a personal event](creating-an-event.md)**  
+-   **[Create a personal event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/creating-an-event.md)**  
 Enable agents and managers to efficiently schedule events, including time off and appointments, through Workforce. Additionally, managers have the capability to organize meetings.
--   **[View personal events on the Team calendar](view-personal-events-on-the-team-calendar.md)**  
+-   **[View personal events on the Team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/view-personal-events-on-the-team-calendar.md)**  
 View events, such as agent time off, agent appointments, and meetings using Workforce.
 
-**Parent Topic:**[Workforce](using-manager-workforce.md)
+**Parent Topic:**[Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-manager-workforce.md)
 

@@ -2,6 +2,7 @@
 title: Minimize one-time out of band verifier lifetime duration \[Updated in Security Center 1.3\]
 description: Manage the time duration for out-of-band verifiers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-short-one-time-out-of-band-verifier-lifetime.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Authentication](sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -99,8 +100,8 @@ References
 
 </td><td>
 
-[Multi-factor authentication criteria](../../../integrate/authentication/concept/multi-factor-authentication-criteria.md)
+[Multi-factor authentication criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/multi-factor-authentication-criteria.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

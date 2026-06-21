@@ -2,6 +2,7 @@
 title: Conversational Integration with Alexa
 description: ServiceNow Conversational Integration with Alexa enables ServiceNow Virtual Agent to interact with requesters through the Amazon Alexa voice interface using the Virtual Agent topics. Conversational Integration with Alexa uses the custom conversational chat integration framework to interact with the Virtual Agent chatbot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/conv-integ-alexa.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ ServiceNow® Conversational Integration with Alexa enables ServiceNow® Virtual 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Overview of Conversational Integration with Alexa
 
@@ -25,5 +26,5 @@ Enable your users to initiate an Alexa voice chat conversation with a virtual ag
 
 **Note:** The Conversational Integration with Alexa supports both screen-less and screen-based Alexa-enabled devices.
 
-To get started with the Conversational Integration with Alexa application, see [Configure Conversational Integration with Alexa](configure-amazon-alexa.md).
+To get started with the Conversational Integration with Alexa application, see [Configure Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/configure-amazon-alexa.md).
 

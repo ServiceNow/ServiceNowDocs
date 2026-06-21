@@ -2,6 +2,7 @@
 title: Spendint API - POST /sn\_spend\_intg/spendint/invoice
 description: Accepts invoices from third-party providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/spendint-POST-invoice.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -472,5 +473,5 @@ Possible responses:
 }
 ```
 
-**Parent Topic:**[Spendint API](../concept/spendint-api.md)
+**Parent Topic:**[Spendint API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api.md)
 

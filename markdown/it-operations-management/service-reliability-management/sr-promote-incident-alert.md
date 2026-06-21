@@ -2,6 +2,7 @@
 title: Promote an SRM alert to an incident
 description: Promote an alert to an incident if you think the alert poses a serious issue and must be taken care of as soon as possible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-promote-incident-alert.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -42,5 +43,5 @@ Role required: Responder, Manager, or Administrator
     The incident is created and displayed in the **Incident** field. The alert is listed on the **Related records** tab on the incident. Any attachments on the alert are copied over to the incident.
 
 
-**Parent Topic:**[Working with alerts in SRM](../concept/sr-work-alerts.md)
+**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-alerts.md)
 

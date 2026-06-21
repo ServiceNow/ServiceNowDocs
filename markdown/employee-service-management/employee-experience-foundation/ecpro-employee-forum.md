@@ -2,6 +2,7 @@
 title: Employee Forums
 description: Employee Forums delivers Communities features to the Employee Center Pro portal to help employees connect, engage, and collaborate with other employees. Use Employee Forums to share business information, promote employee engagement, encourage ideas and feedback, and to give your employees a voice.Provide content to your employees through employee forums.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ecpro-employee-forum.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,14 +18,14 @@ Employee Forums delivers Communities features to the Employee Center Pro portal 
 
 Employee Forums enhances employee self-service by providing access to Communities through an out-of-the-box menu item, which takes users to the community where they can post, view, and subscribe to topics.
 
-![The Communities plugin includes an out-of-the-box menu item for employee forums](../images/emp-forum-menu.jpg)
+\[Omitted image "emp-forum-menu.jpg"\] Alt text: The Communities plugin includes an out-of-the-box menu item for employee forums
 
 Employee Forums integrate with campaigns and content publishing so that:
 
 -   Content managers can create and schedule content to a forum or topic from Content Publishing.
 -   Campaign managers can build campaigns that include forum content. Community or forum content can include blog posts, events, videos, or links to posts or other content.
 
-Before content managers can use Employee Forums, an admin must first configure Communities, including forums and topics. These features serve as publishing destinations for managers creating content via Content Publishing. For information on communities, see [Communities](https://www.servicenow.com/docs/access?context=servicenow-communities&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+Before content managers can use Employee Forums, an admin must first configure Communities, including forums and topics. These features serve as publishing destinations for managers creating content via Content Publishing. For information on communities, see Communities.
 
 ## Add or modify forum content
 
@@ -38,8 +39,8 @@ Role required: sn\_cd.content\_manager
 
 Creating forum content also requires the following to post to a community or forum:
 
--   A forum to post community content. For information on creating forums, see [Configure community forums](https://www.servicenow.com/docs/access?context=configure-forums-topics&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
--   The `Content Publishing: Post to Forums` scheduled job runs every hour by default to process posts. For more information on scheduled jobs, see [Components installed with Content Publishing](../reference/installed-with-content-delivery.md).
+-   A forum to post community content. For information on creating forums, see Configure community forums.
+-   The `Content Publishing: Post to Forums` scheduled job runs every hour by default to process posts. For more information on scheduled jobs, see [Components installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/installed-with-content-delivery.md).
 
 **Note:** The Communities \(com.sn\_communities\) plugin must be activated in order to use this feature.
 
@@ -75,7 +76,7 @@ Classification of the community post. Fields used to define the post change base
 -   Community Event
 -   Community Video
 -   Forums Post List \(lists posts from a specific forum\)
- **Note:** For more information on community content types, see [Community content types](https://www.servicenow.com/docs/access?context=c_communities-content-types&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+ **Note:** For more information on community content types, see Community content types.
 
 </td></tr><tr><td>
 
@@ -104,7 +105,7 @@ Use block content
 
 </td><td>
 
-Indicates that you are using block content and not rich text. For information on creating block content, see [Add or modify block content](../task/ecpro-manage-block-content.md).
+Indicates that you are using block content and not rich text. For information on creating block content, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
 
 </td></tr><tr><td>
 
@@ -276,7 +277,7 @@ Link to the video you want to post to your community, use as part of a campaign,
 -   facebook.com
 -   vimeo.com
 -   youtube.com
- For more information on video content, see [Add or modify links to other content sources](../task/ecpro-manage-link-content.md).
+ For more information on video content, see [Add or modify links to other content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md).
 
 </td></tr><tr><td>
 
@@ -345,9 +346,9 @@ The number of forum posts you want to appear.Only appears when you select **Most
 
 ### What to do next
 
--   Go to Schedule Content to define the audience, date, and time your content is available. For more information, see [Scheduling the delivery of content](../task/ecpro-schedule-content.md).
+-   Go to Schedule Content to define the audience, date, and time your content is available. For more information, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
 
     **Note:** If you edit published forum content, you must create a new Schedule content record to publish the updates.
 
--   Or, go to Campaign Content to add your content to a campaign bundle. For more information, see [Create campaign bundles/stages](../task/ecpro-manage-campaign-bundles.md).
+-   Or, go to Campaign Content to add your content to a campaign bundle. For more information, see [Create campaign bundles/stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-manage-campaign-bundles.md).
 

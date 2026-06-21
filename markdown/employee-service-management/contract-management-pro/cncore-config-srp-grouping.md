@@ -2,6 +2,7 @@
 title: Group contract documents by contract type in the contract request form
 description: As an administrator, group the contract documents by contract type in the contract request form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-config-srp-grouping.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -23,7 +24,7 @@ Role required: admin
 
 **Note:** In Legal Counsel Center and Contract Workspace, the contract documents are grouped based on the contract type, by default.
 
-Customize the Standard Record Page \(SRP\) to display contract documents grouped by contract type in the Contract document tab through UI Builder, a web user interface builder. For more information, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Customize the Standard Record Page \(SRP\) to display contract documents grouped by contract type in the Contract document tab through UI Builder, a web user interface builder. For more information, see .
 
 ## Procedure
 
@@ -53,5 +54,5 @@ Customize the Standard Record Page \(SRP\) to display contract documents grouped
 6.  Select **Apply**.
 
 
-**Parent Topic:**[Add and configure contract request functionality](../concept/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 

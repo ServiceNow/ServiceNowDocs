@@ -2,6 +2,7 @@
 title: Set up a custom portal
 description: Configure the ServiceNow Employee Center portal appearance of your organization’s custom portal in Zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/zoom-set-up-custom-portal.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -128,8 +129,8 @@ Description for the HTTP response header.
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
 
-        For more information about adding a header, see [Configure HTTP response headers](https://www.servicenow.com/docs/access?context=configure-http-response-header&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+        For more information about adding a header, see Configure HTTP response headers.
 
 
-**Parent Topic:**[Employee Center for Zoom](zoom-ec-create-app.md)
+**Parent Topic:**[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
 

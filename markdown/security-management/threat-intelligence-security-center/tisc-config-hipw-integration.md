@@ -2,6 +2,7 @@
 title: Configure and enable Have I Been Pwned integration
 description: Configure API credentials and enrichment behavior through the dedicated Have I Been Pwned \(HIBP\) configuration tile in TISC integration settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-config-hipw-integration.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-02-24"
 reading_time_minutes: 2
 keywords: [Have I Been Pwned, HIBP, observable enrichment, integration, breach detection]
-breadcrumb: [Have I Been Pwned integration, Configure Observable Enrichment, TISC Enrichment Integrations, TISC Integrations, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Have I Been Pwned integration, Configure Observable Enrichment, TISC Enrichment Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure and enable Have I Been Pwned integration
@@ -40,7 +41,7 @@ The integration supports the following observable types:
 
 1.  Using your instance, access **Threat Intelligence Security Center**.
 
-2.  [Download the integration from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
+2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/download-app-first-time.md).
 
 3.  When the installation is complete, navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
@@ -86,7 +87,7 @@ After it is configured, Have I Been Pwned can be selected for performing enrichm
 
 ## What to do next
 
-Run observable enrichment, see [Run Have I Been Pwned enrichment integration](tisc-hibp-enrichment-integration.md) on the detailed procedure.
+Run observable enrichment, see [Run Have I Been Pwned enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-hibp-enrichment-integration.md) on the detailed procedure.
 
-**Parent Topic:**[Have I Been Pwned integration](../concept/tisc-hibp-integration.md)
+**Parent Topic:**[Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-hibp-integration.md)
 

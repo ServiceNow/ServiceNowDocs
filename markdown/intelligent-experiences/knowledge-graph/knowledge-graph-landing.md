@@ -2,6 +2,7 @@
 title: Knowledge Graph
 description: The Knowledge Graph application, uses the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of Now Assist Virtual Agent, AI agents, and generative AI skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/knowledge-graph/knowledge-graph-landing.html
 release: xanadu
 product: Knowledge Graph
 classification: knowledge-graph
@@ -20,19 +21,19 @@ The Knowledge Graph application, uses the structured and unstructured data from 
 
 <table id="table_ktz_stq_fcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore Knowledge Graph](exploring-knowledge-graph.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Knowledge Graph](../Task/configuring-knowledge-graph.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.md)
 
 </td></tr><tr><td>
 
-[Use Knowledge Graph![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Create and edit Knowledge Graph schemas](../Task/using-knowledge-graph-designer.md)
+[Use Knowledge Graph\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create and edit Knowledge Graph schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Additional information to configure Knowledge Graph](../Reference/reference-for-knowledge-graph.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Additional information to configure Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/knowledge-graph/reference-for-knowledge-graph.md)
 
 </td></tr></tbody>
 </table>

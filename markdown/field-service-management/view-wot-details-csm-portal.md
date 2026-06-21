@@ -2,7 +2,10 @@
 title: View and add comments to work order tasks from the Customer or Consumer Service Portal
 description: View the details of any work orders and related tasks from the Customer or Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-wot-details-csm-portal.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -38,5 +41,5 @@ Customers can view work orders and related work orders tasks of their own or rel
     **Note:** A work note can be seen only by agents, but both agents and customers can see additional comments.
 
 
-**Parent Topic:**[Managing work order tasks from the Customer or Consumer Service Portal](../concept/use-customer-experience.md)
+**Parent Topic:**[Managing work order tasks from the Customer or Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/use-customer-experience.md)
 

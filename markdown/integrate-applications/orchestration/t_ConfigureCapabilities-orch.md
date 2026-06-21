@@ -2,6 +2,7 @@
 title: Configure MID Server capabilities
 description: MID Server capabilities define the specific functions of a MID Server within an IP address range, allowing an application to select the most appropriate MID Server. Configure capabilities on MID Servers for applications like Orchestration, , and .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/orchestration/t\_ConfigureCapabilities-orch.html
 release: xanadu
 product: Orchestration
 classification: orchestration
@@ -144,5 +145,5 @@ WMI
     The capability defined here also appears in the primary record for this MID Server.
 
 
-**Parent Topic:**[MID Server capabilities](product/mid-server/reference/r_MIDServerCapabilities.md)
+**Parent Topic:**[MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

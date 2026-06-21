@@ -2,6 +2,7 @@
 title: Create accommodation types
 description: Accommodation types help define and categorize accommodation requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/hr-er-accommodation-type.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

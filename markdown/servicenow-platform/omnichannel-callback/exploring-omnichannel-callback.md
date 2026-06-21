@@ -2,6 +2,7 @@
 title: Exploring Omnichannel Callback
 description: Learn more about Omnichannel Callback and review its benefits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/omnichannel-callback/exploring-omnichannel-callback.html
 release: xanadu
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -82,7 +83,7 @@ Customers
 
 </td></tr><tr><td>
 
-The user can request for a video callback at an appointed time. Currently, video callback is supported only via the Zoom service and requires the Zoom extension for Omnichannel Callback Store app. For more information, see [Zoom extension for Omnichannel Callback](../../zoom-channel-omni-callback/Concept/zoom-extension-omni-callback.md).
+The user can request for a video callback at an appointed time. Currently, video callback is supported only via the Zoom service and requires the Zoom extension for Omnichannel Callback Store app. For more information, see [Zoom extension for Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/callback-over-zoom/zoom-extension-omni-callback.md).
 
 </td><td>
 

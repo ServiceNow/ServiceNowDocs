@@ -2,6 +2,7 @@
 title: Update the recipient list for Major Incident Management updates based on application usage
 description: Customize the attributes of the recipient list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/recipient-lists-for-mim.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

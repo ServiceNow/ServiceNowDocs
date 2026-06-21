@@ -2,6 +2,7 @@
 title: Set up a safety audit schedule
 description: Create an audit schedule and define the top-level audit details and the recurrence, for example, monthly or bi-monthly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-setup-safety-audit-schedule.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,7 +24,7 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  Select **Audit schedules** list and then **All**.
 
@@ -31,7 +32,7 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
 
 5.  On the form, fill in the fields.
 
-    Define the audit scope, finalize the goals, and choose regulations for the audit so that the audit process is well structured and organized. For more information on audit field descriptions, see [Audit schedule form](../reference/hs-audit-schedule-form.md).
+    Define the audit scope, finalize the goals, and choose regulations for the audit so that the audit process is well structured and organized. For more information on audit field descriptions, see [Audit schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-audit-schedule-form.md).
 
 6.  Select **Save**.
 
@@ -47,7 +48,7 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
     -   Standards and documents used to benchmark findings
     -   Audit actions
     -   Risk assessments
-    For more information on completing an audit record, see, [Create and manage a safety audit](hs-create-manage-safety-audit-workspace.md).
+    For more information on completing an audit record, see, [Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md).
 
 9.  Alternatively, select **Create Audits** in the audit schedule record to create an audit record.
 
@@ -64,12 +65,12 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
 
     Audit records are created using the **Automate audit schedule** flow available with the application. To generate the audits instantly rather than on scheduled days, your administrator can adjust the job in this flow.
 
-    The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer-home-landing-page&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US) basics.
+    The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the Flow Designer basics.
 
 -   All audit records for an audit schedule are generated in its **Scheduled audits** tab. These audit records are also available under **Audits** &gt; **All**.
 -   All required fields are copied from the audit schedule to its audit records.
 -   The assigned user receives a notification about the audit survey. They can complete the audit in the Employee Center or on Now Mobile app.
--   The safety agent can also create actions for the survey responses. For more information, see [Add an action from survey response in safety inspection through Employee center](add-action-from-survey-response-in-safety-inspection.md)
+-   The safety agent can also create actions for the survey responses. For more information, see [Add an action from survey response in safety inspection through Employee center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/add-action-from-survey-response-in-safety-inspection.md)
 
-**Parent Topic:**[Safety inspections and audits](../concept/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

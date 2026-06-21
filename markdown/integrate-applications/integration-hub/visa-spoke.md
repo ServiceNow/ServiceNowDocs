@@ -2,6 +2,7 @@
 title: Visa Spoke
 description: Integrate the ServiceNow instance with the Visa Spoke to seamlessly invoke Visa APIs under Visa Resolve Online \(VROL\) for Visa card dispute process. You can use the spoke to search for transactions, collaborate with merchants, manage disputes and perform other functions with enhanced security. Also reuse this short description in the release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/visa-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -153,5 +154,5 @@ The Visa Spoke provides actions to invoke Visa APIs under Visa Resolve Online \(
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For more information about setting up the spoke, see [Set up Visa Spoke](../task/set-up-visa-spoke.md#).
+For more information about setting up the spoke, see [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/set-up-visa-spoke.md).
 

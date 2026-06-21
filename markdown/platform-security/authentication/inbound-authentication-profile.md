@@ -2,6 +2,7 @@
 title: REST API access policies
 description: REST API access policies allow you to restrict access to inbound REST APIs based on the authentication type and the specified filter criteria of the access policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/inbound-authentication-profile.html
 release: xanadu
 product: Authentication
 classification: authentication

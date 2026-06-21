@@ -2,6 +2,7 @@
 title: Monitor capacity subscription calculations in Subscription Management
 description: View how a capacity total is calculated to keep your subscription in compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/view-how-totals-calculated-capacity-subscriptions-v2.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -45,5 +46,5 @@ Role required: admin or usage\_admin
 7.  If the capacity subscription is out of compliance, adjust the number of allocated resources or increase the capacity subscription.
 
 
-**Parent Topic:**[Monitoring capacity subscriptions](../concept/monitoring-capacity-subscriptions.md)
+**Parent Topic:**[Monitoring capacity subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/monitoring-capacity-subscriptions.md)
 

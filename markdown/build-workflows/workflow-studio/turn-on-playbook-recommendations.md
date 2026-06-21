@@ -2,6 +2,7 @@
 title: Turn on playbook recommendations
 description: Turn on the playbook recommendations skill to get recommendations for the activity definition to use in your placeholder activities with AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/turn-on-playbook-recommendations.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -36,12 +37,12 @@ Turn on the playbook recommendations skill to get recommendations for the activi
 
 5.  In the Playbook Assist card, verify that the **Playbook recommendations** skill is activated under **All Playbook Assist skills**.
 
-    ![The Playbook Assist card in the Now Assist admin panel showing the activated Playbook Generation and Playbook Recommendations skills](../images/playbook-assist-card-xanadu.png)
+    \[Omitted image "playbook-assist-card-xanadu.png"\] Alt text: The Playbook Assist card in the Now Assist admin panel showing the activated Playbook Generation and Playbook Recommendations skills
 
 
 ## What to do next
 
 Grant the **now.assist.creator** role to each user who will use the playbook recommendations skill.
 
-**Parent Topic:**[Configuring Playbook Assist](../concept/configuring-playbook-assist.md)
+**Parent Topic:**[Configuring Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-playbook-assist.md)
 

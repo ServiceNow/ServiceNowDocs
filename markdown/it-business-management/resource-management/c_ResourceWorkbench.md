@@ -2,6 +2,7 @@
 title: Capacity planning overview
 description: Capacity Planning page provides resource managers with a comprehensive view of capacity, allocations, and utilization of resources. As a resource manager, you can use it to review resource capacity and existing allocations and then confirm resources to a demand or project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/resource-management/c\_ResourceWorkbench.html
 release: xanadu
 product: Resource Management
 classification: resource-management
@@ -17,9 +18,9 @@ Capacity Planning page provides resource managers with a comprehensive view of c
 
 **Important:** Capacity planning is being deprecated starting Xanadu release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Resource Managers are encouraged to use the [Planning user capacity in Strategic Planning Workspace](../../spw-capacity-planning/concept/using-cap-plan-spw.md) to view and manage the capacity, allocations, and utilization of resources.
+Resource Managers are encouraged to use the [Planning user capacity in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/using-cap-plan-spw.md) to view and manage the capacity, allocations, and utilization of resources.
 
-The capacity planning page is based on Service Portal which enables you to configure, customize, and extend it per your requirements and organizational workflow. See [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for more information.
+The capacity planning page is based on Service Portal which enables you to configure, customize, and extend it per your requirements and organizational workflow. See Service Portal for more information.
 
 The Capacity Planning page is divided into following sections:
 
@@ -43,10 +44,10 @@ The Capacity Planning page is divided into following sections:
 
 **Note:** If a resource plan is already allocated, you cannot select it to see its details in the resource forecast section.
 
-![Capacity Planning page](../image/ConfirmResourcesView.png "Capacity Planning page example")
+\[Omitted image "ConfirmResourcesView.png"\] Alt text: Capacity Planning page
 
--   **[Review capacity of the resources](../task/review-capacity-for-resources.md)**  
+-   **[Review capacity of the resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/review-capacity-for-resources.md)**  
 Use the capacity planning page to review the capacity and utilization trends of the resources associated with the requested resource plans.
 
-**Parent Topic:**[Resource Management classic](c_ResourceManagement.md)
+**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/c_ResourceManagement.md)
 

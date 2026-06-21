@@ -2,6 +2,7 @@
 title: Reopen a closed legal request
 description: Reopen a request if you're not satisfied with the resolution given by the legal team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-request-management/reopen-legal-request-requester.html
 release: xanadu
 product: Legal Request Management
 classification: legal-request-management
@@ -48,5 +49,5 @@ The request is reopened, and its state changes to Work in Progress. The request 
 
 If the administrator has configured email notifications, the assigned user, practice area lead, assignment group manager,and any collaborators added to the request will receive notifications about the reopening of the request by the requester. If the legal request assignment group permissions is not No Access then all assignment group members also notified.
 
-**Parent Topic:**[Using legal services](../concept/submitting-legal-request.md)
+**Parent Topic:**[Using legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/submitting-legal-request.md)
 

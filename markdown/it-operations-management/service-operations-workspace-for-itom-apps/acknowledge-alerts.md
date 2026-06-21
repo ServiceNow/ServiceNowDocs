@@ -2,6 +2,7 @@
 title: Acknowledge viewed alerts in Express List
 description: Acknowledge alerts that you’ve viewed to remove clutter in the Express List pane.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/acknowledge-alerts.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -29,21 +30,21 @@ Use Acknowledge to denote that the alert is known, and can temporarily be ignore
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express List icon \(![Express List icon](../../event-management/image/express-list1.png)\).
+2.  From the navigation bar, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
 
 3.  Acknowledge selected alerts.
 
     You can acknowledge alerts regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d188865e104">
+<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d177116e104">
 
 Location
 
-</th><th align="left" id="d188865e107">
+</th><th align="left" id="d177116e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d188865e113">
+</th></tr></thead><tbody><tr><td id="d177116e113">
 
 **The Express List pane**
 
@@ -53,14 +54,14 @@ Action
 
 You can select more than one alert row.
 
-**Note:** You can perform the action on up to 1,000 alerts simultaneously by selecting the **Select All** check box in the Active alerts list. ![Select All check box.](../image/el-select-all.png)
+**Note:** You can perform the action on up to 1,000 alerts simultaneously by selecting the **Select All** check box in the Active alerts list. \[Omitted image "el-select-all.png"\] Alt text: Select All check box.
 
-To display the individual alerts inside a group, select the chevron icon \(![Chevron icon.](../image/icon-chevron.png)\) at the beginning of the alert group row.
+To display the individual alerts inside a group, select the chevron icon \(\[Omitted image "icon-chevron.png"\] Alt text: Chevron icon.\) at the beginning of the alert group row.
 
 2.  From the **Close** drop-down list at the top right of the alert list, select **Acknowledge**.
 
 
-</td></tr><tr><td id="d188865e166">
+</td></tr><tr><td id="d177116e166">
 
 **The Express List preview panel for group alerts**
 
@@ -68,7 +69,7 @@ To display the individual alerts inside a group, select the chevron icon \(![Che
 
 1.  Select an alert group row check box.
 2.  In the **Alerts in group** tab, select an alert tile.
-3.  Select the more actions icon \(![More actions icon](../../event-management/image/more-actions-icon.png)\).
+3.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\).
 4.  Select **Acknowledge**.
 
 

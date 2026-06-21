@@ -2,7 +2,10 @@
 title: Review and approve time sheets
 description: Managers can review time cards and time sheets for agents in their assignment groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-manager-approve-time.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -35,5 +38,5 @@ Role required: wm\_manager
     If rate cards are applicable for the time worked, expense lines are generated as part of the time sheets. Users with the financial\_mgmt\_user role can view these expense lines.
 
 
-**Parent Topic:**[Record the time worked on a work order task](../concept/Recording-time-spent-on-work-order-tasks.md)
+**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Recording-time-spent-on-work-order-tasks.md)
 

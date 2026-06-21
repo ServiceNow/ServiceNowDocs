@@ -2,6 +2,7 @@
 title: Formatting functions in HTML field editors
 description: The formatting table displays how to control the way text appears.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_Formatting.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -37,11 +38,11 @@ Align Center
 
 </td><td>
 
-![Center text align html](../image/CenterTextAlignHTML.png)
+\[Omitted image "CenterTextAlignHTML.png"\] Alt text: Center text align html
 
 </td><td>
 
-![TinyMCE v6 Align Center](../image/TinyMCEV6-align-center_icon.png)
+\[Omitted image "TinyMCEV6-align-center\_icon.png"\] Alt text: TinyMCE v6 Align Center
 
 </td><td>
 
@@ -55,11 +56,11 @@ Align Left
 
 </td><td>
 
-![Left text align html](../image/LeftTextAlignHTML.png)
+\[Omitted image "LeftTextAlignHTML.png"\] Alt text: Left text align html
 
 </td><td>
 
-![TinyMCE v6 Align Left](../image/TinyMCEV6-align-left_icon.png)
+\[Omitted image "TinyMCEV6-align-left\_icon.png"\] Alt text: TinyMCE v6 Align Left
 
 </td><td>
 
@@ -73,11 +74,11 @@ Align Right
 
 </td><td>
 
-![Right text align html](../image/RightTextAlignHTML.png)
+\[Omitted image "RightTextAlignHTML.png"\] Alt text: Right text align html
 
 </td><td>
 
-![TinyMCE v6 Align Right](../image/TinyMCEV6-align-right_icon.png)
+\[Omitted image "TinyMCEV6-align-right\_icon.png"\] Alt text: TinyMCE v6 Align Right
 
 </td><td>
 
@@ -91,11 +92,11 @@ Background Color
 
 </td><td>
 
-![Background color html](../image/BgColorHTML.png)
+\[Omitted image "BgColorHTML.png"\] Alt text: Background color html
 
 </td><td>
 
-![TinyMCE v6 Background Color](../image/TinyMCEV6-background-color_icon.png)
+\[Omitted image "TinyMCEV6-background-color\_icon.png"\] Alt text: TinyMCE v6 Background Color
 
 </td><td>
 
@@ -107,11 +108,11 @@ Blocks
 
 </td><td>
 
-![Paragraph styles html](../image/ParaStylesHTML.png)
+\[Omitted image "ParaStylesHTML.png"\] Alt text: Paragraph styles html
 
 </td><td>
 
-![TinyMCE v6 Blocks](../image/TinyMCEV6-blocks_icon.png)
+\[Omitted image "TinyMCEV6-blocks\_icon.png"\] Alt text: TinyMCE v6 Blocks
 
 </td><td>
 
@@ -127,7 +128,7 @@ Toggles the visibility of block level elements in the editable area. It’s simi
 
 </td><td>
 
-![TinyMCE v6 block-quotes](../image/TinyMCEV6-blockquote_icon.png)
+\[Omitted image "TinyMCEV6-blockquote\_icon.png"\] Alt text: TinyMCE v6 block-quotes
 
 </td><td>
 
@@ -139,11 +140,11 @@ Bold
 
 </td><td>
 
-![Bold html](../image/BoldHTML.png)
+\[Omitted image "BoldHTML.png"\] Alt text: Bold html
 
 </td><td>
 
-![TinyMCE v6 Bold](../image/TinyMCEV6-bold_icon.png)
+\[Omitted image "TinyMCEV6-bold\_icon.png"\] Alt text: TinyMCE v6 Bold
 
 </td><td>
 
@@ -157,11 +158,11 @@ Bullet List
 
 </td><td>
 
-![Bullet html](../image/BulletedHTML.png)
+\[Omitted image "BulletedHTML.png"\] Alt text: Bullet html
 
 </td><td>
 
-![TinyMCE v6 Bullet List](../image/TinyMCEV6-bullet-list_icon.png)
+\[Omitted image "TinyMCEV6-bullet-list\_icon.png"\] Alt text: TinyMCE v6 Bullet List
 
 </td><td>
 
@@ -173,11 +174,11 @@ Font Family
 
 </td><td>
 
-![Font Family html drop-down menu](../image/FontFamilyHTML.png)
+\[Omitted image "FontFamilyHTML.png"\] Alt text: Font Family html drop-down menu
 
 </td><td>
 
-![TinyMCE v6 Font Family drop-down menu](../image/TinyMCEV6-fontfamily_icon.png)
+\[Omitted image "TinyMCEV6-fontfamily\_icon.png"\] Alt text: TinyMCE v6 Font Family drop-down menu
 
 </td><td>
 
@@ -189,11 +190,11 @@ Font Size
 
 </td><td>
 
-![Font size html](../image/FontSizeHTML.png)
+\[Omitted image "FontSizeHTML.png"\] Alt text: Font size html
 
 </td><td>
 
-![TinyMCE v6 Font Size drop-down menu](../image/TinyMCEV6-fontsize_icon.png)
+\[Omitted image "TinyMCEV6-fontsize\_icon.png"\] Alt text: TinyMCE v6 Font Size drop-down menu
 
 </td><td>
 
@@ -205,11 +206,11 @@ Increase Indent
 
 </td><td>
 
-![Indent html](../image/IndentHTML.png)
+\[Omitted image "IndentHTML.png"\] Alt text: Indent html
 
 </td><td>
 
-![TinyMCE v6 Increase Indent](../image/TinyMCEV6-increase-indent_icon.png)
+\[Omitted image "TinyMCEV6-increase-indent\_icon.png"\] Alt text: TinyMCE v6 Increase Indent
 
 </td><td>
 
@@ -223,11 +224,11 @@ Italic
 
 </td><td>
 
-![Italic html](../image/ItalicHTML.png)
+\[Omitted image "ItalicHTML.png"\] Alt text: Italic html
 
 </td><td>
 
-![TinyMCE v6 Italic](../image/TinyMCEV6-italic_icon.png)
+\[Omitted image "TinyMCEV6-italic\_icon.png"\] Alt text: TinyMCE v6 Italic
 
 </td><td>
 
@@ -241,11 +242,11 @@ Justify
 
 </td><td>
 
-![Full text align html](../image/FullTextAlignHTML.png)
+\[Omitted image "FullTextAlignHTML.png"\] Alt text: Full text align html
 
 </td><td>
 
-![TinyMCE v6 Justify](../image/TinyMCEV6-justify_icon.png)
+\[Omitted image "TinyMCEV6-justify\_icon.png"\] Alt text: TinyMCE v6 Justify
 
 </td><td>
 
@@ -263,7 +264,7 @@ Applies justified alignment, which stretches the lines to be equal widths, to th
 
 </td><td>
 
-![TinyMCE v6 LTR](../image/TinyMCEV6-ltr_icon.png)
+\[Omitted image "TinyMCEV6-ltr\_icon.png"\] Alt text: TinyMCE v6 LTR
 
 </td><td>
 
@@ -279,7 +280,7 @@ Sets the directionality of contents to from left to right.
 
 </td><td>
 
-![TinyMCE v6 New Document](../image/TinyMCEV6-new-document_icon.png)
+\[Omitted image "TinyMCEV6-new-document\_icon.png"\] Alt text: TinyMCE v6 New Document
 
 </td><td>
 
@@ -295,7 +296,7 @@ Non-breaking
 
 </td><td>
 
-![TinyMCE v6 Non-breaking](../image/TinyMCEV6-nonbreaking_icon.png)
+\[Omitted image "TinyMCEV6-nonbreaking\_icon.png"\] Alt text: TinyMCE v6 Non-breaking
 
 </td><td>
 
@@ -307,11 +308,11 @@ Numbered List
 
 </td><td>
 
-![Numbered html](../image/NumberedHTML.png)
+\[Omitted image "NumberedHTML.png"\] Alt text: Numbered html
 
 </td><td>
 
-![TinyMCE v6 Numbered List](../image/TinyMCEV6-numbered-list_icon.png)
+\[Omitted image "TinyMCEV6-numbered-list\_icon.png"\] Alt text: TinyMCE v6 Numbered List
 
 </td><td>
 
@@ -323,11 +324,11 @@ Outdent
 
 </td><td>
 
-![Decrease Indent html](../image/DeIndentHTML.png)
+\[Omitted image "DeIndentHTML.png"\] Alt text: Decrease Indent html
 
 </td><td>
 
-![TinyMCE v6 Outdent](../image/TinyMCEV6-outdent_icon.png)
+\[Omitted image "TinyMCEV6-outdent\_icon.png"\] Alt text: TinyMCE v6 Outdent
 
 </td><td>
 
@@ -347,7 +348,7 @@ Removes indentation from the current or selected paragraphs, removing 30 px of l
 
 </td><td>
 
-![TinyMCE v6 Page-break](../image/TinyMCEV6-pagebreak_icon.png)
+\[Omitted image "TinyMCEV6-pagebreak\_icon.png"\] Alt text: TinyMCE v6 Page-break
 
 </td><td>
 
@@ -363,7 +364,7 @@ Inserts a page-break into the editor.
 
 </td><td>
 
-![TinyMCE v6 Remove format](../image/TinyMCEV6-remove-formatting_icon.png)
+\[Omitted image "TinyMCEV6-remove-formatting\_icon.png"\] Alt text: TinyMCE v6 Remove format
 
 </td><td>
 
@@ -379,7 +380,7 @@ Removes the formatting from the selected text.
 
 </td><td>
 
-![TinyMCE v6 RTL](../image/TinyMCEV6-rtl_icon.png)
+\[Omitted image "TinyMCEV6-rtl\_icon.png"\] Alt text: TinyMCE v6 RTL
 
 </td><td>
 
@@ -395,7 +396,7 @@ Strike through
 
 </td><td>
 
-![TinyMCE v6 Strike through](../image/TinyMCEV6-strikethrough_icon.png)
+\[Omitted image "TinyMCEV6-strikethrough\_icon.png"\] Alt text: TinyMCE v6 Strike through
 
 </td><td>
 
@@ -411,7 +412,7 @@ Applies strikethough formatting to the selected text.
 
 </td><td>
 
-![TinyMCE v6 Subscript](../image/TinyMCEV6-subscript_icon.png)
+\[Omitted image "TinyMCEV6-subscript\_icon.png"\] Alt text: TinyMCE v6 Subscript
 
 </td><td>
 
@@ -427,7 +428,7 @@ Applies subscript formatting to the selected text.
 
 </td><td>
 
-![TinyMCE v6 Superscript](../image/TinyMCEV6-superscript_icon.png)
+\[Omitted image "TinyMCEV6-superscript\_icon.png"\] Alt text: TinyMCE v6 Superscript
 
 </td><td>
 
@@ -439,11 +440,11 @@ Text Color
 
 </td><td>
 
-![Text color html](../image/TextColorHTML.png)
+\[Omitted image "TextColorHTML.png"\] Alt text: Text color html
 
 </td><td>
 
-![TinyMCE v6 Text Color](../image/TinyMCEV6-text-color_icon.png)
+\[Omitted image "TinyMCEV6-text-color\_icon.png"\] Alt text: TinyMCE v6 Text Color
 
 </td><td>
 
@@ -455,11 +456,11 @@ Underline
 
 </td><td>
 
-![Underline html](../image/UlineHTML.png)
+\[Omitted image "UlineHTML.png"\] Alt text: Underline html
 
 </td><td>
 
-![TinyMCE v6 Underline](../image/TinyMCEV6-underline_icon.png)
+\[Omitted image "TinyMCEV6-underline\_icon.png"\] Alt text: TinyMCE v6 Underline
 
 </td><td>
 
@@ -468,10 +469,10 @@ Applies underline formatting to the selected text or current word.
  Keyboard shortcut: CTRL + U
 
 </td></tr></tbody>
-</table>-   **[Highlight text in TinyMCE](../concept/c_HighlightTextInTheTinyMCEEditor.md)**  
+</table>-   **[Highlight text in TinyMCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_HighlightTextInTheTinyMCEEditor.md)**  
 On the bottom bar of TinyMCE, the path of HTML tags for the text at the cursor position is displayed.
--   **[Insert a line break in the HTML editor](../concept/c_InsertALineBreak.md)**  
+-   **[Insert a line break in the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_InsertALineBreak.md)**  
 When you use the `Enter` key, the editor creates a paragraph element \(`<p>`\) tag, which appears as a double space.
 
-**Parent Topic:**[Configure the HTML toolbar](../../../administer/form-administration/task/t_ConfigureTheTinyMCEHTMLToolbar.md)
+**Parent Topic:**[Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md)
 

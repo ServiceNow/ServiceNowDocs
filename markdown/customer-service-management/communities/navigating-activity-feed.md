@@ -2,6 +2,7 @@
 title: Navigating the activity feed
 description: The activity feed provides a central place for community users to view information and interact. It lists the most recent activity in the community based on your network, posts, and subscriptions. You can reply, comment, and give feedback directly from the activity feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/navigating-activity-feed.html
 release: xanadu
 product: Communities
 classification: communities
@@ -23,5 +24,5 @@ The activity feed provides a central place for community users to view informati
 |Feedback|Provide feedback on content that you find useful. There are four supported types of content feedback: comment, upvote, helpful, and mark as correct answer.|
 |Reply|Reply to a question or another reply.|
 
-**Parent Topic:**[Use a community](../task/use-community-forums.md)
+**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/use-community-forums.md)
 

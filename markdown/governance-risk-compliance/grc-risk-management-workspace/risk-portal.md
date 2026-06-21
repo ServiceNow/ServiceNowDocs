@@ -2,6 +2,7 @@
 title: GRC Risk Portal
 description: The GRC Risk Portal is a simplified interface that enables the GRC business users to view their tasks and their group's tasks. The Risk Portal also enables users to report risk events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/risk-portal.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -20,7 +21,7 @@ To access the Risk Portal, navigate to **Risk** &gt; **Risk Portal**. To use thi
 -   **My pending tasks**: View the tasks that are pending and are assigned to you. For example, if you have a risk assessment assigned to you, you can launch it from the Risk Portal.
 -   **My group's tasks**: View the tasks assigned to your group.
 -   **My items**: View the requests you have raised. For example, issues, policy exceptions, remediation tasks and so on.
--   **Report**: Report a risk event. To see how you can report a risk event from the Risk Portal see, [Report a risk event from the Risk Portal](../task/report-risk-event-risk-portal.md)
+-   **Report**: Report a risk event. To see how you can report a risk event from the Risk Portal see, [Report a risk event from the Risk Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-risk-portal.md)
 
-![GRC Risk Portal.](../image/risk-portal.jpg "Risk Portal")
+\[Omitted image "risk-portal.jpg"\] Alt text: GRC Risk Portal.
 

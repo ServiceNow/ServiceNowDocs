@@ -2,6 +2,7 @@
 title: Customer Service Management AI agent collection triage cases agentic workflow
 description: Use CSM AI agents agentic workflow to process all routine cases coming in through email and other offline channels and increase agent productivity through faster resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/case-resolving-use-case.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -22,7 +23,7 @@ Using the Triage cases agentic workflow, handle end-to-end validation, creation,
 
 Refer to the information provided here on agents, tools, and triggers that are related to the Triage cases agentic workflow in AI agents for Customer Service Management.
 
-To modify the Triage cases agentic workflow [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
+To modify the Triage cases agentic workflow duplicate it, and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -37,7 +38,7 @@ To access the agentic workflow:
 
 ## Access control lists \(ACLs\)
 
-Access Control Lists \(ACLs\) are preconfigured to support the Triage use case, including AI agents and their associated flows and actions, such as the Document Verification Agent. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies. For more information, see [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Access Control Lists \(ACLs\) are preconfigured to support the Triage use case, including AI agents and their associated flows and actions, such as the Document Verification Agent. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies. For more information, see .
 
 When updating the agent role for the Triage Cases Agentic Workflow, it’s important to also update the corresponding Access Control Lists \(ACLs\) to ensure proper permissions. To manually update ACLs for custom roles:
 
@@ -79,7 +80,7 @@ In the triaging the case agentic workflow, perform the following steps:
 
 The agent executes the **testing** in AI Agent Studio for the agentic workflow.
 
-![AI Agent Studio showing the testing output for Triage cases agentic workflow.](../image/case-resolving-use-case-output-in-ai-agent-studio.png "Example of a Triage cases agentic workflow testing in AI Agent Studio")
+\[Omitted image "case-resolving-use-case-output-in-ai-agent-studio.png"\] Alt text: AI Agent Studio showing the testing output for Triage cases agentic workflow.
 
-In the Now Assist panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](../task/request-gen-ai-capabilities-csm-now-assist-panel.md).
+In the Now Assist panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
 

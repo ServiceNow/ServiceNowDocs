@@ -2,6 +2,7 @@
 title: Share requested information for internal review
 description: As a contract fulfiller, share information requested by the reviewer to proceed with the contract document review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-send-info-reviewtask.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,27 +28,27 @@ The work notes added when requesting information are available in the Activity s
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d133839e61">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d109800e61">
 
 Method
 
-</th><th align="left" id="d133839e64">
+</th><th align="left" id="d109800e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d133839e70">
+</th></tr></thead><tbody><tr><td id="d109800e70">
 
 **Contract Workspace listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Review tasks** &gt; **All**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d133839e117">
+</td></tr><tr><td id="d109800e117">
 
 **Contract Workspace landing page**
 
@@ -58,7 +59,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d133839e150">
+</td></tr><tr><td id="d109800e150">
 
 **Workspace used by your application**
 
@@ -69,7 +70,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d133839e171">
+</td></tr><tr><td id="d109800e171">
 
 **Reviews tab**
 
@@ -97,5 +98,5 @@ Steps
 
 The information is shared with reviewer and the review task State changes to Work in progress.
 
-**Parent Topic:**[Internal review overview](cncore-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

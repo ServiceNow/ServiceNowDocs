@@ -2,6 +2,7 @@
 title: Configure adaptive authentication properties
 description: After activating Adaptive Authentication, configure adaptive authentication properties according to your security requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/configure-adaptive-auth-properties.html
 release: xanadu
 product: Authentication
 classification: authentication

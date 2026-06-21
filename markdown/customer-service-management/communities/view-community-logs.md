@@ -2,6 +2,7 @@
 title: View community logs
 description: Community logs display information about who has viewed or searched for content in a community. The list view displays all log entries, unless filtered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/view-community-logs.html
 release: xanadu
 product: Communities
 classification: communities
@@ -31,5 +32,5 @@ Role required: sn\_communities.admin
     |View Log|View who has viewed what and where in the community.|
 
 
-**Parent Topic:**[Configure a community](configure-communities.md)
+**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/configure-communities.md)
 

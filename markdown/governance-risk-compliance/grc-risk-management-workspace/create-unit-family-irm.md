@@ -2,6 +2,7 @@
 title: Create a unit family
 description: Create a unit family to group similar units together. For example, the various units of distance such as miles and kilometers can be grouped. Unit families help you to organize units during unit conversion.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/create-unit-family-irm.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -23,7 +24,7 @@ Role required: admin
 
 Creating unit families also supports conversion of units. Sometimes, the unit in which metric data is entered may be different from the reporting unit of the metric definition. In such cases, the units must be converted. For example, the metric data may be entered in US gallons and the reporting unit in the metric definition is Liters. If US gallon and liters belong to the same unit family such as Volume, you can convert the units.
 
-Various formulas are used to convert different units. If the reporting unit of a metric definition belongs to a unit family that has the conversion factor as **Calculated**, then the metric data tasks for that metric must be provided in the same unit as the metric definition. For example, if the reporting unit for temperature in a metric definition is Celsius, and if the conversion factor of temperature is set to **Calculated**, then all the metric data tasks for that metric definition can only be provided in Celsius. In such cases, users can specify the formula that must be used for the conversion. For more information see, [Formula building in a calculated metric definition](../concept/formula-building-at-metric-definition-and-entity-level.md).
+Various formulas are used to convert different units. If the reporting unit of a metric definition belongs to a unit family that has the conversion factor as **Calculated**, then the metric data tasks for that metric must be provided in the same unit as the metric definition. For example, if the reporting unit for temperature in a metric definition is Celsius, and if the conversion factor of temperature is set to **Calculated**, then all the metric data tasks for that metric definition can only be provided in Celsius. In such cases, users can specify the formula that must be used for the conversion. For more information see, [Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/formula-building-at-metric-definition-and-entity-level.md).
 
 ## Procedure
 

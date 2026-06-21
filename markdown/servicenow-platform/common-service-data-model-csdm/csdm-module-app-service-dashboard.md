@@ -2,6 +2,7 @@
 title: Monitoring and managing application services
 description: The Application services dashboard enables you to monitor and manage application services to ensure that application services are fully configured and are populated in the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-dashboard.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -17,7 +18,7 @@ The Application services dashboard enables you to monitor and manage application
 
 ## Working in the dashboard
 
-A report on the dashboard, for example, can direct you to an application service that is not configured with a service population method so you can repair it. For information on working in the dashboard, see [Monitor the health of application services on the Application Services dashboard](../../configuration-management/task/app-service-dashboard.md).
+A report on the dashboard, for example, can direct you to an application service that is not configured with a service population method so you can repair it. For information on working in the dashboard, see [Monitor the health of application services on the Application Services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
-**Parent Topic:**[Managing the CSDM framework](csdm-content-frame-using.md)
+**Parent Topic:**[Managing the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-using.md)
 

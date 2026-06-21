@@ -2,6 +2,7 @@
 title: Customizations Unchanged related list
 description: Customizations Unchanged lists all records that were skipped \(due to a customization\), but the changes that were going to be applied in this upgrade have not changed from the last upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/customizations-unchanged-related-list.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -29,7 +30,7 @@ File name
 
 </td><td>
 
-Name of unchanged sys\_upgrade\_history\_log record. Select it if you want to access [Upgrade Details](../task/t_ResolveASkippedUpdate.md) and add comment text, or set a resolution status for it.
+Name of unchanged sys\_upgrade\_history\_log record. Select it if you want to access [Upgrade Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ResolveASkippedUpdate.md) and add comment text, or set a resolution status for it.
 
 </td></tr><tr><td>
 
@@ -119,8 +120,8 @@ Table
 Table that contains the record.
 
 </td></tr></tbody>
-</table>-   **[Revert a customization](../task/revert-customization.md)**  
+</table>-   **[Revert a customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/revert-customization.md)**  
 To prevent customizations from being overwritten by system upgrades, the upgrade process automatically skips changes to objects that have been customized. You may want to overwrite your customizations when a software upgrade contains a feature that you would like to implement.
 
-**Parent Topic:**[Upgrade History module: Track every upgrade](c_UpgradeHistory.md)
+**Parent Topic:**[Upgrade History module: Track every upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UpgradeHistory.md)
 

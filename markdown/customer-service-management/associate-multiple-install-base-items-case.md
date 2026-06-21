@@ -2,7 +2,10 @@
 title: Associate multiple install base items to a case
 description: In the Customer Service Management application, you can associate one or more related install base items to a case to access all the install base items that are associated to the parent install base item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/associate-multiple-install-base-items-case.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Set up primary and secondary filters for Security Analyst Workspace
 description: The Security Analyst Workspace base system includes a set of primary filters for narrowing down the list of security incidents for analysis \(for security incidents assigned to you, all open incidents, and so forth\) and a set of quick \(or secondary\) filters for narrowing down the list even further \(by new incidents, open incidents, only critical incidents, and so forth\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/set-up-filters-for-new-ui.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -21,11 +22,11 @@ You can use the Classic environment to define additional primary and secondary f
 
 As you define filters to be used in the Security Analyst Workspace, you can assign tags to indicate whether they can be used as primary or secondary filters. Primary filters are shown at the top of the security incident list.
 
-![Primary filter](../image/primary-filter.png)
+\[Omitted image "primary-filter.png"\] Alt text: Primary filter
 
 Click **Edit** next to the Quick Filters option to select secondary \(or quick\) filters.
 
-![Secondary or quick filter selection](../image/secondary-filters.png)
+\[Omitted image "secondary-filters.png"\] Alt text: Secondary or quick filter selection
 
 Role required: admin or sn\_sec\_cmn.write
 
@@ -43,7 +44,7 @@ Role required: admin or sn\_sec\_cmn.write
 
         For example, the **Open Incidents with Priority = Critical** filter, uses these conditions.
 
-        ![Filter conditions](../image/filter-conditions.png)
+        \[Omitted image "filter-conditions.png"\] Alt text: Filter conditions
 
     4.  Click **Submit**.
 
@@ -59,5 +60,5 @@ Role required: admin or sn\_sec\_cmn.write
 **Related topics**  
 
 
-[Create and edit filters](https://www.servicenow.com/docs/access?context=t_EditingSavedFilters&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.t_EditingSavedFilters]
 

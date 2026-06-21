@@ -2,6 +2,7 @@
 title: Relate a test template to a control objective
 description: Audit owners can create generic control test templates for a control objective, avoiding the creation of individual control test plans for every control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/audit-management/t\_RelateTestTempToPolState.html
 release: xanadu
 product: Audit Management
 classification: audit-management
@@ -28,5 +29,5 @@ Role required: sn\_audit.admin or sn\_audit.manager
 3.  Select a control objective and click **Update**.
 
 
-**Parent Topic:**[Manage test templates and test plans](../concept/c_AuditTesting.md)
+**Parent Topic:**[Manage test templates and test plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/audit-management/c_AuditTesting.md)
 

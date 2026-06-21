@@ -2,6 +2,7 @@
 title: Train the classification solution to predict the assignment group for Ethics Complaint
 description: Train the legal request classification solution definition to identify and predict an group assignment using the description and subcategory for an Ethics Complaint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/lsd-PI-train-auto-assign-ethics.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -31,8 +32,8 @@ Ensure that you have installed Predictive Intelligence \(com.glide.platform\_ml\
 
 3.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Classification Definition form fields, see [Create and train classification solution](https://www.servicenow.com/docs/access?context=create-solution-definition&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    For more information about the Classification Definition form fields, see Create and train classification solution.
 
 
-**Parent Topic:**[Configure Predictive Intelligence for Legal Service Delivery](lsd-PI-configure-landing.md)
+**Parent Topic:**[Configure Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/lsd-PI-configure-landing.md)
 

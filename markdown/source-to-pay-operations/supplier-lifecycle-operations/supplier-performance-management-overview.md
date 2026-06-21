@@ -2,6 +2,7 @@
 title: Supplier Relationship and Performance Management
 description: Managing supplier relationship and performance is a key aspect of supplier management that aims to optimize the value and quality of the products and services delivered by suppliers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/supplier-performance-management-overview.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -31,9 +32,9 @@ To install Supplier Relationship and Performance Management, the following plugi
     -   KPI Framework \(com.snc.sn\_kpi\)
     -   Supplier Common Architecture \(com.snc.sn\_slm\)
 
-For more information about configuring Supplier Relationship and Performance Management, see [Configure Supplier Relationship and Performance Management](configuring-supplier-performance-mgmt.md).
+For more information about configuring Supplier Relationship and Performance Management, see [Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md).
 
-For more information about using Supplier Relationship and Performance Management, see [Using Supplier Relationship and Performance Management](using-supplier-relationship-and-performance-management.md).
+For more information about using Supplier Relationship and Performance Management, see [Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md).
 
-For more information about Supplier Relationship and Performance Management data model and primary tables, see [Supplier Relationship and Performance Management reference](supplier-relationship-and-performance-management-reference.md).
+For more information about Supplier Relationship and Performance Management data model and primary tables, see [Supplier Relationship and Performance Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-reference.md).
 

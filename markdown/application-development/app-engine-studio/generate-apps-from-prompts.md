@@ -2,6 +2,7 @@
 title: Generate apps with Now Assist for Creator for use with AES
 description: Have a conversation with the Now Assist for Creator application to start building applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/generate-apps-from-prompts.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,7 +16,7 @@ breadcrumb: [Now Assist for app generation in AES, Create your app, Building app
 
 Have a conversation with the Now Assist for Creator application to start building applications.
 
-**Note:** If you using a Xanadu Store Release 2 instance, Now Assist for app generation works with ServiceNow Studio \(not App Engine Studio\). For detailed information, see [Now Assist for app generation in ServiceNow Studio](../../now-assist-app-gen/concept/sns-now-assist-app-gen-landing.md).
+**Note:** If you using a Xanadu Store Release 2 instance, Now Assist for app generation works with ServiceNow Studio \(not App Engine Studio\). For detailed information, see [Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md).
 
 This video shows you how to perform the following procedure in App Engine Studio.
 
@@ -23,7 +24,7 @@ Generate apps with Now Assist for Creator
 
 ## Before you begin
 
-To use app generation, you must activate the skill in Now Assist for Creator. For more information, see [Install Now Assist for app generation to use with AES](install-now-assist-app-generation.md).
+To use app generation, you must activate the skill in Now Assist for Creator. For more information, see [Install Now Assist for app generation to use with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/install-now-assist-app-generation.md).
 
 Role required: admin and now.assist.creator
 
@@ -31,13 +32,13 @@ Role required: admin and now.assist.creator
 
 ## About this task
 
-When app generation is enabled on an instance, the Now Assist icon \(![Now Assist icon.](../../../common/image/icon-ai-sparkle.png)\) appears on the home page banner.
+When app generation is enabled on an instance, the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\) appears on the home page banner.
 
 ## Procedure
 
 1.  Open the Now Assist panel by selecting the Now Assist icon.
 
-    ![Now Assist highlighted in banner.](../image/aes-app-gen-toolbar.png)
+    \[Omitted image "aes-app-gen-toolbar.png"\] Alt text: Now Assist highlighted in banner.
 
 2.  In the Now Assist panel, select **Create an app**.
 
@@ -47,53 +48,53 @@ When app generation is enabled on an instance, the Now Assist icon \(![Now Assis
 
     Describe your application's use case so Now Assist understands the purpose of your application. You can be highly detailed if you have a clear idea of what you want. If you don't, start with a broad description. Now Assist narrows down your app's requirements.
 
-    ![Initial stage in which Now Assist asks user for the purpose of the application.](../image/app-generation-task-initiation.png)
+    \[Omitted image "app-generation-task-initiation.png"\] Alt text: Initial stage in which Now Assist asks user for the purpose of the application.
 
 4.  Continue the conversation with Now Assist by providing details about how you want the app to work.
 
     Now Assist asks you questions to understand the data to be collected, the users involved and their permissions, and the desired interface. Your answers help Now Assist create the correct tables, roles, access control lists \(ACLs\), forms, and record producers for your application.
 
-    If you know exactly how you want your app to work, be specific about its functionality. If you don't, interact with Now Assist to determine the correct application requirements. For more information, see [General guidelines for using app generation in AES](../concept/general-guidelines-app-generation.md).
+    If you know exactly how you want your app to work, be specific about its functionality. If you don't, interact with Now Assist to determine the correct application requirements. For more information, see [General guidelines for using app generation in AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/general-guidelines-app-generation.md).
 
     When Now Assist collects enough information, it provides a detailed summary of the application requirements.
 
-    ![Conversation stage showing the back-and-forth conversation between the user and Now Assist in refining the application requirements.](../image/app-generation-task-conversation.png)
+    \[Omitted image "app-generation-task-conversation.png"\] Alt text: Conversation stage showing the back-and-forth conversation between the user and Now Assist in refining the application requirements.
 
 5.  Review the summary of your application requirements.
 
     **Note:** Because the information is generated by AI, review the text to make sure it's accurate.
 
-    ![Summary of the application requirements based on the conversation with the user.](../image/app-generation-task-summary.png)
+    \[Omitted image "app-generation-task-summary.png"\] Alt text: Summary of the application requirements based on the conversation with the user.
 
 6.  Finalize and generate the app.
 
     1.  If necessary, select **Make changes** to keep the Now Assist panel open so that you can keep editing.
 
-        ![User is presented with the option to make changes, which is highlighted, or generate the application.](../image/app-generation-task-make-changes.png)
+        \[Omitted image "app-generation-task-make-changes.png"\] Alt text: User is presented with the option to make changes, which is highlighted, or generate the application.
 
         Continue to interact with Now Assist until the summary it produces matches your app's requirements.
 
     2.  After you're satisfied with the application requirements, select **Generate app**.
 
-        ![User is presented with the option to make changes or generate the application, which is highlighted.](../image/app-generation-task-generate.png)
+        \[Omitted image "app-generation-task-generate.png"\] Alt text: User is presented with the option to make changes or generate the application, which is highlighted.
 
         Now Assist tells you what it's generating.
 
-        ![Now Assist provides a summary of what it's generating.](../image/app-generation-task-generate-1.png)
+        \[Omitted image "app-generation-task-generate-1.png"\] Alt text: Now Assist provides a summary of what it's generating.
 
         Now Assist provides a link to open the app and its supporting components in App Engine Studio:
 
-        ![Now Assist provides a link to open the application.](../image/app-generation-task-generate-2.png)
+        \[Omitted image "app-generation-task-generate-2.png"\] Alt text: Now Assist provides a link to open the application.
 
-        For more information about App Engine Studio, see [Build apps using App Engine Studio](../concept/aes-overview.md).
+        For more information about App Engine Studio, see [Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-overview.md).
 
 
 ## Result
 
 Now that your app is created, review its contents and verify for accuracy. Then, use the tools in App Engine Studio to add more features and enhance your app further.
 
--   **[Review the apps generated by Now Assist for Creator in App Engine Studio](reviewing-applications-generated-by-now-assist.md)**  
+-   **[Review the apps generated by Now Assist for Creator in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/reviewing-applications-generated-by-now-assist.md)**  
 In Xanadu Store Release 1, use the App Engine Studio development environment to verify and modify the application that you created with Now Assist for Creator.
 
-**Parent Topic:**[Now Assist for app generation in AES](../concept/now-assist-app-landing.md)
+**Parent Topic:**[Now Assist for app generation in AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/now-assist-app-landing.md)
 

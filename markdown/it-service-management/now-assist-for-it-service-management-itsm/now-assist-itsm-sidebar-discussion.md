@@ -2,6 +2,7 @@
 title: Summarize a Sidebar discussion by using Now Assist for IT Service Management \(ITSM\)
 description: Generate a summary of Sidebar discussions between agents, requesters, and subject matter experts by using the Sidebar discussion summarization skill in the Now Assist for IT Service Management \(ITSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-sidebar-discussion.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -17,8 +18,8 @@ Generate a summary of Sidebar discussions between agents, requesters, and subjec
 
 ## Before you begin
 
--   Next Experience must be enabled to summarize Sidebar discussions in Core UI. For more information, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
--   The Sidebar Chat Summarization skill must be enabled. For more information, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   Next Experience must be enabled to summarize Sidebar discussions in Core UI. For more information, see .
+-   The Sidebar Chat Summarization skill must be enabled. For more information, see .
 
 Role required: itil
 
@@ -34,7 +35,7 @@ You can do these actions by using the Sidebar discussion summarization skill:
 
 You can use Sidebar discussion summarization for any task table that you have enabled Sidebar on.
 
-Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more information, see [Sidebar and Microsoft Teams](https://www.servicenow.com/docs/access?context=sidebar-teams-overview&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more information, see .
 
 ## Procedure
 
@@ -42,23 +43,23 @@ Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more
 
 2.  Choose an existing discussion, or start a new discussion.
 
-3.  Generate a summary of the Sidebar discussion during the conversation either by either entering `/Summarize` in the Active Sidebar discussion window, or by selecting the quick action icon ![Quick action icon.](../image/now-assist-sidebar-lightning-bolt-icon.png) and selecting **Summarize**.
+3.  Generate a summary of the Sidebar discussion during the conversation either by either entering `/Summarize` in the Active Sidebar discussion window, or by selecting the quick action icon \[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: Quick action icon. and selecting **Summarize**.
 
-    ![Sidebar discussion summarization.](../image/now-assist-itsm-sidebar-discuss.png)
+    \[Omitted image "now-assist-itsm-sidebar-discuss.png"\] Alt text: Sidebar discussion summarization.
 
     The Sidebar discussion summary appears in the Discussion that is summarized by the Now Assist modal.
 
 4.  Add the summary to the incident work notes, and provide feedback about it.
 
-<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d393325e244">
+<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d378467e241">
 
 Option
 
-</th><th align="left" id="d393325e247">
+</th><th align="left" id="d378467e244">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d393325e253">
+</th></tr></thead><tbody><tr><td id="d378467e250">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -69,13 +70,13 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d393325e280">
+</td></tr><tr><td id="d378467e277">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you'd like to provide feedback, select either the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\), or the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\)
+If you'd like to provide feedback, select either the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\), or the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\)
 
  This feedback improves the generative AI model and can help to improve future versions of this skill.
 
@@ -83,5 +84,5 @@ If you'd like to provide feedback, select either the helpful icon \(![Helpful ic
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for IT Service Management \(ITSM\)](../concept/using-now-assist-for-itsm.md)
+**Parent Topic:**[Using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md)
 

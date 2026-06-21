@@ -2,6 +2,7 @@
 title: Using Sales Customer Relationship Management applications
 description: As agents and managers, you use the CSM Configurable Workspace to complete various tasks when using the Sales Customer Relationship Management applications. From the workspace you can access product catalogs to see the product offerings available in your organization. You also use the product configurator to create quotes and orders, manage sold products and product inventory, and work on MACD orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-using.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,7 +20,7 @@ As agents and managers, you use the CSM Configurable Workspace to complete vario
 
 When you start an opportunity, quote, or order, a **Catalog** tab \(related list\) opens, which provides a visual display of the product offerings available in a catalog.
 
-![Product catalog interface that shows the product catalog hierarchy, product tiles with product images, and search option.](../image/som-catalog-ui.png "Product catalog interface")
+\[Omitted image "som-catalog-ui.png"\] Alt text: Product catalog interface that shows the product catalog hierarchy, product tiles with product images, and search option.
 
 The catalog view has the following features for selecting products:
 
@@ -38,5 +39,5 @@ The interface consists of three main sections:
 -   **Option selection**: Displays the product options that can be selected, for example product characteristics such as color or model.
 -   **Current Selection**: Shows the pricing for the options that you select. The pricing is calculated automatically and displayed dynamically as you select product options.
 
-![Agent interface that shows the product hierarchy, option selection, and current selection with pricing](../image/l2c-configurator-callouts-2.png "Product configurator")
+\[Omitted image "l2c-configurator-callouts-2.png"\] Alt text: Agent interface that shows the product hierarchy, option selection, and current selection with pricing
 

@@ -2,7 +2,10 @@
 title: Service Model Foundation households
 description: The household entity represents a group of consumers that usually share a common address and use services as a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/industry-data-model-households.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 3

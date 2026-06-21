@@ -2,6 +2,7 @@
 title: Data collected by Agent Client Collector for Kubernetes – Visibility
 description: The Agent Client Collector for Kubernetes – Visibility Informer collects data on Kubernetes resources and populates various CMDB tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-collected-data.html
 release: xanadu
 product: Discovery
 classification: discovery

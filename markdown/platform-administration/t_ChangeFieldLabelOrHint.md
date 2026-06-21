@@ -2,6 +2,7 @@
 title: Change the field label or hint
 description: You can change a field's label or the text that appears as a hint when you point your mouse device to the field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ChangeFieldLabelOrHint.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -81,7 +82,7 @@ Hint
 
 A short description of the field that displays when a user hovers over it. HTML in field hints isn’t supported, but line breaks are allowed.
 
-![The hint for the Caller field on an Incident.](../image/hint.png)
+\[Omitted image "hint.png"\] Alt text: The hint for the Caller field on an Incident.
 
 </td></tr><tr><td>
 
@@ -103,10 +104,10 @@ This field should be left empty, as it’s no longer used.
 </table>4.  Select **Update**.
 
 
-**Parent Topic:**[Add and customize a field in a table](../../field-administration/task/t_CreatingNewFields.md)
+**Parent Topic:**[Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreatingNewFields.md)
 
 **Related topics**  
 
 
-[Add help to a field label on a form](https://www.servicenow.com/docs/access?context=t_FieldLabelForm&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.t_FieldLabelForm]
 

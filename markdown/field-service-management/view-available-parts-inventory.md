@@ -2,7 +2,10 @@
 title: Track inventory
 description: View a map that shows stockrooms with available parts relative to your location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-available-parts-inventory.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,8 +24,8 @@ Role required: wm\_agent
 
 As an agent, you can search parts from your personal stock room, peers' stockroom, and warehouse to complete your work order tasks. The stockroom locations' information appear in the form of interactive map and cards in the **Asset map** screen. You can use the following icons to navigate between the stockroom locations.
 
--   Use the Direction icon \(![Direction icon.](../image/directions-icon.jpg)\) to view the location of the logged-in user and Show directions icon \(![Show directions icon.](../image/direction-icon.jpg)\) to navigate between the stockroom locations.
--   Use the Location list icon \(![Location list icon.](../image/list-view.jpg)\) to view the stockrooms in the list view and Location map icon \(![Location map icon.](../image/map-view.jpg)\) to view the stockrooms in the map view.
+-   Use the Direction icon \(\[Omitted image "directions-icon.jpg"\] Alt text: Direction icon.\) to view the location of the logged-in user and Show directions icon \(\[Omitted image "direction-icon.jpg"\] Alt text: Show directions icon.\) to navigate between the stockroom locations.
+-   Use the Location list icon \(\[Omitted image "list-view.jpg"\] Alt text: Location list icon.\) to view the stockrooms in the list view and Location map icon \(\[Omitted image "map-view.jpg"\] Alt text: Location map icon.\) to view the stockrooms in the map view.
 
 ## Procedure
 
@@ -32,15 +35,15 @@ As an agent, you can search parts from your personal stock room, peers' stockroo
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_ack_gnh_wfb"><thead><tr><th align="left" id="d31928e121">
+<table id="choicetable_ack_gnh_wfb"><thead><tr><th align="left" id="d34392e121">
 
 To
 
-</th><th align="left" id="d31928e124">
+</th><th align="left" id="d34392e124">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d31928e130">
+</th></tr></thead><tbody><tr><td id="d34392e130">
 
 **Search for parts**
 
@@ -48,10 +51,10 @@ Do this
 
 1.  Tap **Inventory**.
 2.  Enter a keyword to search parts.
-3.  Tap Search icon \(![Search icon.](../image/search_icon.png)\)
+3.  Tap Search icon \(\[Omitted image "search\_icon.png"\] Alt text: Search icon.\)
 
 
-</td></tr><tr><td id="d31928e160">
+</td></tr><tr><td id="d34392e160">
 
 **Check part availability with your preference**
 
@@ -69,7 +72,7 @@ Do this
 7.  Tap **Next** icon.
  Swipe each part record displayed below the map to the left or the right to see the location of the selected part.
 
-</td></tr><tr><td id="d31928e217">
+</td></tr><tr><td id="d34392e217">
 
 **View parts in your personal stock room**
 
@@ -85,7 +88,7 @@ The stockroom locations' information appear in the form of interactive map and c
 
 ## What to do next
 
-[Request inventory](../concept/request-inventory.md#)
+[Request inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/request-inventory.md)
 
-**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](../concept/easily-track-parts.md)
+**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/easily-track-parts.md)
 

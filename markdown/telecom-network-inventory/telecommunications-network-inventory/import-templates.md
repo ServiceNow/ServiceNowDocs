@@ -2,6 +2,7 @@
 title: Import templates
 description: Create an import template request to import your inventory templates, enforce data formatting, and streamline the process using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-network-inventory/telecommunications-network-inventory/import-templates.html
 release: xanadu
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,7 +28,7 @@ After you create an import template request, a detailed summary is generated tha
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Import** &gt; **Import Templates**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Import** &gt; **Import Templates**.
 
 3.  Select **New**.
 
@@ -41,7 +42,7 @@ After you create an import template request, a detailed summary is generated tha
     |Description|Short description of the import template|
     |File|Select **Attach File** to attach the import inventory template file.|
 
-5.  Add attachments such as graphics or documents by selecting the attachment icon \(![Attachment icon.](../image/attachments-icon.png)\).
+5.  Add attachments such as graphics or documents by selecting the attachment icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon.\).
 
 6.  Download the demo data and the template by selecting **Create Excel Template**.
 
@@ -59,7 +60,7 @@ The **Import Results** tab appears next to the Details tab where you can view, a
 ## What to do next
 
 -   Redirect to the generated inventory template from the **Import Results** tab.
--   Delete a record. To learn more, see [Delete a record](delete-inventory-record.md).
+-   Delete a record. To learn more, see [Delete a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/delete-inventory-record.md).
 
-**Parent Topic:**[Import Models and Templates](../concept/import-models-and-templates.md)
+**Parent Topic:**[Import Models and Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 

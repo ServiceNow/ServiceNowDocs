@@ -2,6 +2,7 @@
 title: Azure Virtual Machine Scale Sets \(VMSS\) Instance discovery
 description: The Discovery and Service Mapping Patterns application uses the Azure - VM Scale Set \(LP\) and the Azure VM Instance - Uniform Scale Set patterns to find Azure Virtual Machine Scale Sets \(VMSS\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/AzureVMScaleSetInstance.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -22,13 +23,13 @@ VMSS let you create and manage a group of load balanced virtual machines \(VMs\)
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-To learn about VMSS and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](../../service-mapping/reference/r_SupportedApplications.md).
+To learn about VMSS and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 ## Prerequisites
 
-Verify the Azure discovery prerequisites section in [Microsoft Azure Cloud components discovery using patterns](../../service-mapping/reference/azure-cloud-discovery-patterns.md).
+Verify the Azure discovery prerequisites section in [Microsoft Azure Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -78,13 +79,13 @@ Discovery populates the data in the CMDB when running the Azure VM Instance - Un
 |Install Status \[install\_status\]|Install status of the image. Default value is Installed.|
 |Operational status \[operational\_status\]|Operational status of the image. Default value is operational.|
 
-**Note:** When using the Image \[cmdb\_ci\_os\_template\] table to store Cloud OS Images, you may notice an unusually large number of records. To avoid this issue, you can store the discovered OS images in the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. For more information, see [Enable Cloud OS Image discovery](../task/enable-cloud-os-image-discovery-pattern.md).
+**Note:** When using the Image \[cmdb\_ci\_os\_template\] table to store Cloud OS Images, you may notice an unusually large number of records. To avoid this issue, you can store the discovered OS images in the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. For more information, see [Enable Cloud OS Image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/enable-cloud-os-image-discovery-pattern.md).
 
 |Field|Description|
 |-----|-----------|
 |Name \[name\]|Name of the hardware type.|
 
-**Note:** When using the Hardware Type \[cmdb\_ci\_compute\_template\] table to store the hardware types, you may notice an unusually large number of records. To avoid this issue, you can store the discovered hardware types in the Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table. For more information, see [Enable the Cloud Hardware Type class extension](../task/enable-hardware-type-class-extension.md).
+**Note:** When using the Hardware Type \[cmdb\_ci\_compute\_template\] table to store the hardware types, you may notice an unusually large number of records. To avoid this issue, you can store the discovered hardware types in the Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table. For more information, see [Enable the Cloud Hardware Type class extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/enable-hardware-type-class-extension.md).
 
 ## CI relationships
 
@@ -123,5 +124,5 @@ Both the Azure - VM Scale Set \(LP\) and the Azure VM Instance - Uniform Scale S
 |Key \[key\]|Tag name.|
 |Value \[value\]|Tag value.|
 
-**Parent Topic:**[Available discovery patterns](../../service-mapping/concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

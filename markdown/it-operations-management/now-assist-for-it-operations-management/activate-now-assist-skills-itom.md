@@ -2,6 +2,7 @@
 title: Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\)
 description: You can activate the Now Assist skills for use in Now Assist for IT Operations Management \(ITOM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/now-assist-for-it-operations-management/activate-now-assist-skills-itom.html
 release: xanadu
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -17,7 +18,7 @@ You can activate the Now Assist skills for use in Now Assist for IT Operations M
 
 ## Before you begin
 
-Before activating the Now Assist skills, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
+Before activating the Now Assist skills, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 Role required: admin
 
@@ -50,5 +51,5 @@ Activate the Now Assist skills in the Now Assist for IT Operations Management \(
     3.  Select **Save and test**.
 
 
-**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](../concept/now-assist-itom-configure.md)
+**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

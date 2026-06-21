@@ -2,6 +2,7 @@
 title: Reset Multi-factor Authentication \(MFA\) for users
 description: Administrators can reset MFA for users who deleted the app, lost access to the device, or have no alternative MFA associated with their device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/reset-multi-factor-authentication.html
 release: xanadu
 product: Authentication
 classification: authentication

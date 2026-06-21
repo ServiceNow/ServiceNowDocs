@@ -2,12 +2,13 @@
 title: Exploring Employee Center
 description: Employee Center portal is a unified portal that connects systems across an enterprise within one destination site to provide a centralized employee portal. It requires minimal configuration and a wide variety of features to extend portal functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/explore-emp-center.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Employee Center, Employee Service Management]
 ---
 
@@ -50,11 +51,11 @@ Service catalog and Knowledge Base articles
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -62,208 +63,220 @@ AI Search
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-Chat \([live agent](employee-center-chat-configuration.md), virtual agent\)
+Chat \([live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/employee-center-chat-configuration.md), virtual agent\)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-Curated Experiences \([Unified Taxonomy for Employee Center](config-taxonomy.md), [Dynamic topic pages](dynamic-topic-page.md)\)
+Curated Experiences \([Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-taxonomy.md), [Dynamic topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/dynamic-topic-page.md)\)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-[Complete tasks](employee-center-to-dos-page-configuration.md) and [Manage requests](employee-center-requests-page-configuration.md)
+[Complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md) and [Manage requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-[Content recommendations \(via "recommended for you"\)](rfy-ec.md)
+[Content recommendations \(via "recommended for you"\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/rfy-ec.md)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-[Cross-channel Favorites](app-launcher-usability.md)
+[Cross-channel Favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/app-launcher-usability.md)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-[Unified employee profile](employee-profile-portal.md)
+[Unified employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-[Guided Self-Service in Employee Center](gss-guided-self-service-overview.md)
+[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-Employee communications-   [Content Library](ec-streamline-content.md)
--   [Dynamic Topic Microsites](cm-ec-manage.md)
--   [Employee News](ec-news-articles.md)
--   [Content engagement](ec-content-engagement.md)
--   [Campaigns](ecpro-campaigns.md)
--   [Content Analytics](ecpro-content-automation-analytics.md)
--   [Content Governance](ec-content-governance.md) \(workflow for new content requests\)
+Employee communications-   [Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
+-   [Dynamic Topic Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/cm-ec-manage.md)
+-   [Employee News](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-news-articles.md)
+-   [Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
+-   [Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
+-   [Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md)
+-   [Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-governance.md) \(workflow for new content requests\)
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-Enterprise Search \(with [SharePoint Online Search Connector](../../sharepoint-online-search/concept/sharepoint-search-overview.md)\)
+Enterprise Search \(with [SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sharepoint-search-overview.md)\)
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-Integration-powered capabilities-   [App Launcher](web-application-employee-about.md)
--   [Approval Hub](approval-hub-intro.md)
+Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/web-application-employee-about.md)
+-   [Approval Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/approval-hub-intro.md)
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-[Manager Hub](../../human-resources/concept/manager-hub-overview.md)
+[Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/manager-hub-overview.md)
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-[Org chart](employee-profile-org-chart.md) and [Dotted-line relationships](../task/add-other-manager-relationship.md)
+[Org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md) and [Dotted-line relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/add-other-manager-relationship.md)
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-[Employee Forums](ecpro-employee-forum.md#)
+[Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md)
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-[Employee Center Pro Kiosk](deskless-kiosk-overview.md)
+[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-[Integrated experience and service feedback](ex-fdback-ovrvw.md)
+[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ex-fdback-ovrvw.md)
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr></tbody>
-</table>For more information on Employee Center and Employee Center Pro features, see [Employee Center features and interface](emp-center-user-interface.md) and [Employee Center Pro features and interface](emp-center-vs-ec-pro.md).
+</table>For more information on Employee Center and Employee Center Pro features, see [Employee Center features and interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/emp-center-user-interface.md) and [Employee Center Pro features and interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/emp-center-vs-ec-pro.md).
+
+## Employee Center users
+
+|User|Description|
+|----|-----------|
+|||
+| | |
+|Content admin \(Employee Center Pro only\)|Content admins assign content requests.|
+|Content author \(Employee Center Pro only\)|Content authors create and publish content to the employee portal and mobile app, and produce campaigns.|
+|Employee|Employees access the Employee Center via the portal or mobile app to perform various tasks including submitting requests, searching for content, and completing tasks.|
+
+For more information on Employee Center roles, see [Employee Center users and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/emp-center-personas.md).
 
 ## What to explore next
 
 To learn more about configuring, managing, and using Employee Center, see:
 
--   [Configuring Employee Center](setup-emp-center.md)
--   [Managing Employee Center](manage-emp-center.md)
--   [Using Employee Center](using-emp-center.md)
--   [Employee Center reference](../reference/emp-center-reference.md)
+-   [Configuring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/setup-emp-center.md)
+-   [Managing Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/manage-emp-center.md)
+-   [Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/using-emp-center.md)
+-   [Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 

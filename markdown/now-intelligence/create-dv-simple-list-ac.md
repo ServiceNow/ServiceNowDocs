@@ -2,6 +2,7 @@
 title: Create a simple list visualization in the Visualization Designer
 description: List reports display data in the form of an expandable list. For example, an incident report grouped by priority displays only the priority names and a number of records that display if the user selects the priority. You can configure whether lists display expanded or collapsed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/create-dv-simple-list-ac.html
 release: xanadu
 topic_type: task
 last_updated: "2025-04-09"
@@ -15,7 +16,7 @@ List reports display data in the form of an expandable list. For example, an inc
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ The simple list differs from other visualizations in several ways:
 -   No option to export the List from dashboards
 -   No option to paginate the records instead of using the **View all** link
 
-**Note:** You can include Spotlight information in a simple list. Configure the list to display information from the Spotlight \[spotlight\] table. For more information, see [Spotlights on Platform Analytics dashboards](../../performance-analytics/concept/spotlights-configurable-workspaces.md). For general information about the Spotlight feature, see [Ranking records with Spotlight](../../performance-analytics/concept/spotlight.md).
+**Note:** You can include Spotlight information in a simple list. Configure the list to display information from the Spotlight \[spotlight\] table. For more information, see [Spotlights on Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/spotlight/spotlights-configurable-workspaces.md). For general information about the Spotlight feature, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/spotlight/spotlight.md).
 
 ## Procedure
 
@@ -37,7 +38,7 @@ The simple list differs from other visualizations in several ways:
 
 2.  Select **New**.
 
-3.  Select the List-Simple \(![Simple list visualization icon](../../../reuse/icons/product-icons/list-outline-24.svg)\) visualization type.
+3.  Select the List-Simple \(\[Omitted image "list-outline-24.svg"\] Alt text: Simple list visualization icon\) visualization type.
 
 4.  Configure the title, filters, visible columns, and highlighted values.
 
@@ -226,7 +227,7 @@ When turned on, the empty state image for the list component is not displayed.
     |Title|Provide a name for your list visualization.|
     |Hide total number of records|Removes the number of records, usually found next to the title.|
     |Hide last refresh information|Hides the indication of when the visualization was last refreshed.|
-    |Hide option to refresh|Removes the refresh icon \(![Refresh icon](../../dashboards/image/icon-db-refresh.png)\) from the visualization.|
+    |Hide option to refresh|Removes the refresh icon \(\[Omitted image "icon-db-refresh.png"\] Alt text: Refresh icon\) from the visualization.|
 
 8.  Set advanced options.
 
@@ -287,7 +288,7 @@ The key to use for sourcing and saving a user preference which specifies the col
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](add-dv-new-db.md)
--   [Share a data visualization in the Visualization Designer](share-dv-ac.md#)
--   [Bookmark a visualization in the Visualization Designer](../../dashboards/task/bookmark-dv-ac.md)
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/add-dv-new-db.md)
+-   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/share-dv-ac.md)
+-   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/bookmark-dv-ac.md)
 

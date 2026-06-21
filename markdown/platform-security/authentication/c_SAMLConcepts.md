@@ -2,6 +2,7 @@
 title: SAML 2.0 concepts
 description: Familiarize yourself with these SAML concepts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/c\_SAMLConcepts.html
 release: xanadu
 product: Authentication
 classification: authentication

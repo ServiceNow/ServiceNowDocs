@@ -2,6 +2,7 @@
 title: Defining filter and aggregation criteria
 description: Define and set filter conditions to specify which incoming CrowdStrike Next-Gen SIEM detections should create security incidents. You can also define additional detection field criteria that allows an incoming detection to be appended to an open security incident instead of creating an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/filtering-and-aggregation-cs-ng-siem.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

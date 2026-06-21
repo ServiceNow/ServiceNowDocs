@@ -2,7 +2,10 @@
 title: Create Microsoft Teams campaign stages using the Campaign Builder Experience
 description: Use the Campaign Experience Builder to create stages for your campaign. Campaign builder provides a simple, single-page view for managing content and assembling your campaign.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-campaign-stage-content-exp-builder.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: sn\_ca.campaign\_manager or sn\_cd.content\_admin or admin
 
 ## About this task
 
-For information about campaigns and campaign bundles/stages, see [Creating campaigns with Content Experiences](../../employee-center/concept/ecpro-campaigns.md).
+For information about campaigns and campaign bundles/stages, see [Creating campaigns with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 
 ## Procedure
 
@@ -104,5 +107,5 @@ Brief description about the campaign bundle.
 
 The campaign is delivered to the employees on the scheduled job timeline.
 
-**Parent Topic:**[Create Microsoft Teams campaigns using the Content Experience Builder](../concept/create-campaign-content-experience-builder.md)
+**Parent Topic:**[Create Microsoft Teams campaigns using the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-campaign-content-experience-builder.md)
 

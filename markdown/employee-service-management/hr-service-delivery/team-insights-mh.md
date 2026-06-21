@@ -2,6 +2,7 @@
 title: Get team insights
 description: Find data visualizations about your team, their service requests, journeys, and learnings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/team-insights-mh.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Create Skill Determination rules to assign skills to work items
 description: Create Skill Determination rules to identify skills required by agents to work on work items and automatically associate them to those work items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/skills-management/conf-simple-skill-determination-rule.html
 release: xanadu
 product: Skills Management
 classification: skills-management
@@ -79,15 +80,15 @@ Adds skills to work items using a script.
 
 7.  Create the rule.
 
-<table id="choicetable_vx5_gc1_wgb"><thead><tr><th align="left" id="d164327e198">
+<table id="choicetable_vx5_gc1_wgb"><thead><tr><th align="left" id="d74463e198">
 
 Rule type
 
-</th><th align="left" id="d164327e201">
+</th><th align="left" id="d74463e201">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d164327e207">
+</th></tr></thead><tbody><tr><td id="d74463e207">
 
 **Create a simple rule**
 
@@ -98,9 +99,9 @@ Steps
 3.  If a skill is optional for selected work item, in the **Mandatory** field, select **False**.
 4.  In the **Skill Level** field, add a level for the skill. You must configure the form to display this field.
 
-For information about defining skill levels, see [Define a skill level type](../../skills-management/task/define-skill-level-type.md).
+For information about defining skill levels, see [Define a skill level type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/skills-management/define-skill-level-type.md).
 
-</td></tr><tr><td id="d164327e259">
+</td></tr><tr><td id="d74463e259">
 
 **Create a lookup rule**
 
@@ -119,7 +120,7 @@ The **Skills Field** that connects the source and reference tables is automatica
 8.  From the **Lookup table field** drop-down menu, select an attribute to map to the source table.
 
 
-</td></tr><tr><td id="d164327e331">
+</td></tr><tr><td id="d74463e331">
 
 **Create an advanced rule**
 
@@ -133,5 +134,5 @@ The **Skills Field** that connects the source and reference tables is automatica
 </table>8.  Click **Submit**.
 
 
-**Parent Topic:**[Routing work items to agents based on skills](../../skills-management/concept/skill-based-routing.md)
+**Parent Topic:**[Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/skills-management/skill-based-routing.md)
 

@@ -2,6 +2,7 @@
 title: Submit to Zscaler Sandbox analysis
 description: Use the Zscaler Internet Access products sandbox service to analyzes files in a virtual environment to detect malicious behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/submit-to-zscaler-sandbox-analysis.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +28,7 @@ The name and source fields are auto-filled, and the configuration is enabled by 
 
 The analysis for the file that is associated with the MD5 hash should be complete and the corresponding report should be in the Zscaler sandbox. If the MD5 hash that you send does not have a report in Zscaler, you get an error message.
 
-![Pre-filled sandbox submission configuration record.](../image/zscaler-sandbox-submission.png "Zscaler Sandbox Submission")
+\[Omitted image "zscaler-sandbox-submission.png"\] Alt text: Pre-filled sandbox submission configuration record.
 
 ## Procedure
 

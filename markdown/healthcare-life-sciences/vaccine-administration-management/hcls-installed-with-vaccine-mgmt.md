@@ -2,6 +2,7 @@
 title: Components installed with Vaccine Administration Management
 description: Several types of components are installed with Vaccine Administration Management, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/healthcare-life-sciences/vaccine-administration-management/hcls-installed-with-vaccine-mgmt.html
 release: xanadu
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -15,7 +16,7 @@ breadcrumb: [Vaccine Administration Management reference, Vaccine Administration
 
 Several types of components are installed with Vaccine Administration Management, including user roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 

@@ -2,6 +2,7 @@
 title: openFrameAPI - Client
 description: The openFrameAPI provides methods that interact with OpenFrame. OpenFrame is an omni-present frame that communication partners can use to integrate their systems into the ServiceNow platform.Returns the logged in agent’s current presence state.Hides the OpenFrame in the TopFrame.Initializes OpenFrame. This must be the first method that you call.Checks to see if the OpenFrame is visible in the TopFrame.Opens a custom URL in the UI16 interface.Opens a form URL.Opens a ServiceNow form with a child tab if invoked in a workspace or opens an entity if invoked in the UI16 interface.Opens a list URL in the UI16 interface.Sets the OpenFrame mode.Sets the OpenFrame height.Defines icons in the OpenFrame header that are placed next to the close icon.Sets the presence indicator to display agent availability in a workspace.Sets the OpenFrame size.Sets the OpenFrame subtitle.Sets the OpenFrame title.Sets the OpenFrame's title icon.Sets the OpenFrame width.Makes the OpenFrame visible in the TopFrame.Subscribes to a specified event.Returns the OpenFrame API version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/c\_openFrameAPI.html
 release: xanadu
 product: API Reference
 classification: api-reference
@@ -21,7 +22,7 @@ OpenFrame has two significant parts: one that lives in the ServiceNow applicatio
 
 **Note:** To stay current with reference to the OpenFrame library, use the following resource URI: `https://[servicenow instance]/scripts/openframe/latest/openFrameAPI.min.js`.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/api-client.md)
 
 ## openFrameAPI - getAWAAgentPresence\(String success, String failure\)
 
@@ -258,7 +259,7 @@ function
 
 </td><td>
 
-Name of the callback function to use if the init method succeeds. The [OpenFrame configuration](https://www.servicenow.com/docs/access?context=t_CreateAnOpenFrameConfiguration&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US) stored in the system is passed as a parameter to the callback function.
+Name of the callback function to use if the init method succeeds. The OpenFrame configuration stored in the system is passed as a parameter to the callback function.
 
 </td></tr><tr><td>
 
@@ -576,7 +577,7 @@ Object
 Key value pairs that describe the content to use when opening the list URL.Valid values:
 
 -   entity: Table name
--   query: [Encoded query string](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+-   query: Encoded query string
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -692,7 +693,7 @@ imageTitle:'hold', id:102}]);
 
 Sets the presence indicator to display agent availability in a workspace.
 
-For more information on configuring OpenFrame, refer to [Create an OpenFrame configuration](https://www.servicenow.com/docs/access?context=t_CreateAnOpenFrameConfiguration&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US)
+For more information on configuring OpenFrame, refer to Create an OpenFrame configuration
 
 <table id="table_o4l_p1c_jhb" class="parameters"><thead><tr><th>
 
@@ -1007,7 +1008,7 @@ In AWA, the **openframe\_awa\_workitem\_accepted** and **openframe\_awa\_workite
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
 -   **workItem.isAutoAccepted**: Flag that indicates whether the work item was automatically accepted by the system. Set to true if the work item was auto-accepted.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://www.servicenow.com/docs/access?context=transfer-chat-queue&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.serviceChannel**: List of service channels associated with the work item task.
     -   **workItem.serviceChannel.name**: Name of the service channel, such as Chat or Phone.
@@ -1047,7 +1048,7 @@ In AWA, the **openframe\_awa\_workitem\_rejected** event returns the `workItem` 
 -   **workItem.document**: List of documents associated with the work item task.
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://www.servicenow.com/docs/access?context=transfer-chat-queue&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.rejection**: List of reasons for the rejection of the work item.
     -   **workItem.rejection.reason**: Name of the reason for rejecting the work items.

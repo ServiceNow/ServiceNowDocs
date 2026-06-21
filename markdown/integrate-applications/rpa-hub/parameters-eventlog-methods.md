@@ -2,6 +2,7 @@
 title: Parameters of the EventLog connector methods
 description: Learn about the parameters of the EventLog connector methods in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/parameters-eventlog-methods.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -70,7 +71,7 @@ Yes
 </td></tr></tbody>
 </table>## Enter inputs for parameters
 
-To enter inputs for the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To enter inputs for the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
-**Parent Topic:**[Eventlog](../concept/eventlog.md)
+**Parent Topic:**[Eventlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/eventlog.md)
 

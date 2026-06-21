@@ -2,6 +2,7 @@
 title: Delete a card from the Home page
 description: Delete a card when you no longer need it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/delete-card.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -27,13 +28,13 @@ Role required: sn\_dex\_desktop.admin
 
 3.  Under **Desktop Assistant Section**, select the section name under which the card is positioned.
 
-    ![On the form, select to open the section under which you can find all the cards for that section.](../image/desktop-exp-delete-card-1.png)
+    \[Omitted image "desktop-exp-delete-card-1.png"\] Alt text: On the form, select to open the section under which you can find all the cards for that section.
 
 4.  From the **Desktop Assistant Card** column, select the check box that appears before the name of the card that you want to remove.
 
 5.  From the Actions on selected rows drop-down list, select **Delete**.
 
-    ![On this page, you can select the card to remove and also the option to delete the card.](../image/desktop-exp-delete-card-2.png)
+    \[Omitted image "desktop-exp-delete-card-2.png"\] Alt text: On this page, you can select the card to remove and also the option to delete the card.
 
 6.  In the Confirmation window, select **Delete**.
 

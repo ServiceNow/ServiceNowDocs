@@ -2,6 +2,7 @@
 title: Workplace Calendar Synchronization references
 description: Learn more about the roles, tables, system properties, scheduled jobs and flows installed with the Workplace Calendar Synchronization application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-references.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -15,16 +16,16 @@ breadcrumb: [Workplace Calendar Synchronization, Workplace Service Delivery, Emp
 
 Learn more about the roles, tables, system properties, scheduled jobs and flows installed with the Workplace Calendar Synchronization application.
 
--   **[Components installed with Workplace Calendar Synchronization](../reference/components-installed-with-workplace-calendar-syncn.md)**  
+-   **[Components installed with Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/components-installed-with-workplace-calendar-syncn.md)**  
 Several types of components are installed with the Workplace Calendar Synchronization application, including tables and user roles.
--   **[Properties installed with Workplace Calendar Synchronization](../reference/properties-installed-with-workplace-calendar-syncn.md)**  
+-   **[Properties installed with Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/properties-installed-with-workplace-calendar-syncn.md)**  
 Customize the properties available with Workplace Calendar Synchronization.
--   **[Scheduled jobs installed with Workplace Calendar Synchronization](../reference/scheduled-jobs-installed-with-workplace-calendar-synchronization.md)**  
+-   **[Scheduled jobs installed with Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/scheduled-jobs-installed-with-workplace-calendar-synchronization.md)**  
 The Workplace Calendar Synchronization includes scheduled jobs to process a few synchronizations seamlessly.
--   **[Flows installed with Workplace Calendar Synchronization](../reference/flows-installed-with-workplace-calendar-synchronization.md)**  
+-   **[Flows installed with Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/flows-installed-with-workplace-calendar-synchronization.md)**  
 Below are the flows that run on different timelines.
--   **[Instance scan findings](../reference/sacn-finding-messages.md)**  
+-   **[Instance scan findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/sacn-finding-messages.md)**  
 After the instance scan completes, on the Scan Result form, review the findings in the Scan Findings related list.
 
-**Parent Topic:**[Workplace Calendar Synchronization](workplace-calendar-sync-feat.md)
+**Parent Topic:**[Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-feat.md)
 

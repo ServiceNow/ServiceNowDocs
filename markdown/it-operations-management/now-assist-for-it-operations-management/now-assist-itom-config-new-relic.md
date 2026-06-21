@@ -2,6 +2,7 @@
 title: Configure the New Relic analysis AI agent
 description: Connect the New Relic analysis AI agent to your New Relic instance to use it in the Analyze alert impact agentic workflow. Once connected, the AI agent gathers information to help you investigate alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-config-new-relic.html
 release: xanadu
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -19,8 +20,8 @@ Connect the New Relic analysis AI agent to your New Relic instance to use it in 
 
 Before configuring the New Relic analysis AI agent, you must do the following:
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
--   [Integrate New Relic with Event Management](../../event-management/task/new-relic-events-integration.md).
+-   Install Now Assist for IT Operations Management \(ITOM\).
+-   [Integrate New Relic with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/new-relic-events-integration.md).
 -   Copy your New Relic API key.
 
     The New Relic API key must be a user key, also known as a personal API key.
@@ -38,15 +39,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d576995e142">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d421637e142">
 
 Field
 
-</th><th align="left" id="d576995e145">
+</th><th align="left" id="d421637e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d576995e151">
+</th></tr></thead><tbody><tr><td id="d421637e151">
 
 **Connection Name**
 
@@ -54,7 +55,7 @@ Description
 
 Name of your New Relic connection. This name helps you identify it later. For example, New Relic Prod.
 
-</td></tr><tr><td id="d576995e166">
+</td></tr><tr><td id="d421637e166">
 
 **Connection URL**
 
@@ -62,7 +63,7 @@ Name of your New Relic connection. This name helps you identify it later. For ex
 
 URL of the New Relic AI API: `https://nrai-streaming.service.newrelic.com`. The connection URL might vary by region or account.
 
-</td></tr><tr><td id="d576995e181">
+</td></tr><tr><td id="d421637e181">
 
 **API Key**
 
@@ -70,7 +71,7 @@ URL of the New Relic AI API: `https://nrai-streaming.service.newrelic.com`. The 
 
 New Relic API key.
 
-</td></tr><tr><td id="d576995e192">
+</td></tr><tr><td id="d421637e192">
 
 **Header Name**
 
@@ -90,7 +91,7 @@ Activate the New Relic analysis AI agent to use it in the Analyze alert impact a
 
 **Note:** While working in AI Agent Studio, make sure that the Alert information retrieval AI agent is active. It's also required for the Analyze alert impact agentic workflow.
 
-To learn more about using the New Relic analysis AI agent in the Analyze alert impact agentic workflow, see [Use the Analyze alert impact agentic workflow](now-assist-itom-use-aia.md).
+To learn more about using the New Relic analysis AI agent in the Analyze alert impact agentic workflow, see [Use the Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md).
 
-**Parent Topic:**[Configuring AI agents for Now Assist for ITOM](../concept/itom-ai-agent-configuration.md)
+**Parent Topic:**[Configuring AI agents for Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md)
 

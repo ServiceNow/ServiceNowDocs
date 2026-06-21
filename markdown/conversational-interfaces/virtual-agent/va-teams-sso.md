@@ -2,6 +2,7 @@
 title: Configuring smart links in Microsoft Teams
 description: Configure smart links for your Virtual Agent app in Microsoft Teams to enable different link opening experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-teams-sso.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -24,9 +25,9 @@ Smart link settings in the admin console enable admins to define one of the thre
 
 Through link authentication and Single Sign-On \(SSO\) support, link content can be rendered in a pop-up, Microsoft Teams tab, or a new browser tab.
 
-You can configure smart links for Microsoft Teams from the URL navigation system action under **Target Location**. For more information about configuring smart links, see [Create a smart link preference](../../conversational-interfaces/task/create-smart-link-preference.md).
+You can configure smart links for Microsoft Teams from the URL navigation system action under **Target Location**. For more information about configuring smart links, see [Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/create-smart-link-preference.md).
 
-There are three valid link opening options that are applicable to Microsoft Teams and the smart link settings in admin console enables admins to define where to open a link in Microsoft Teams.![Valid link opening options applicable to Microsoft Teams. Load in Place, New Browser Tab, and Popup options are highlighted.](../images/msteams-link-open-options.png)
+There are three valid link opening options that are applicable to Microsoft Teams and the smart link settings in admin console enables admins to define where to open a link in Microsoft Teams.\[Omitted image "msteams-link-open-options.png"\] Alt text: Valid link opening options applicable to Microsoft Teams. Load in Place, New Browser Tab, and Popup options are highlighted.
 
 1.  **Load in Place**: Links open inside a Microsoft Teams tab.
 

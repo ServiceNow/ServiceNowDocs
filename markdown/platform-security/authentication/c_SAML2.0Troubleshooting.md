@@ -2,6 +2,7 @@
 title: SAML 2.0 troubleshooting
 description: Before contacting support, try the troubleshooting solutions available in the knowledge base on Hi.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/c\_SAML2.0Troubleshooting.html
 release: xanadu
 product: Authentication
 classification: authentication

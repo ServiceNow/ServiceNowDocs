@@ -2,7 +2,10 @@
 title: Start work
 description: What to do when you are ready to begin traveling to the first task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_StartWork.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -31,12 +34,12 @@ As a field service agent, to provide a more accurate representation of the work 
 
     -   When the agent clicks **Start Travel**, the customer receives a notification email and SMS that an agent is coming.
     -   A sub state **On Route** is automatically set to determine that you have started travel for the work order task.
-    -   The **Check-In** option appears when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled. For more information, see [Global domain configurations](t_ConfigureFieldService.md) and [Onsite arrival and check-in](../../field-service-management/reference/onsite-arrival-and-check-in.md).
+    -   The **Check-In** option appears when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_ConfigureFieldService.md) and [Onsite arrival and check-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/onsite-arrival-and-check-in.md).
 3.  Open the task record and do either of the following to mark your arrival or check-in at the work location.
 
     -   To perform any task related activities before starting work, click **Check-In**
 
-        **Note:** At this stage, a notification is sent to the customer, informing them that the agent has arrived on-site and is ready to begin the work. For more information, see [Customer notifications for work order tasks](../../field-service-management/concept/Customer-notification-work-order-tasks.md). The substate **Onsite Arrival** is automatically set, indicating that you have reached your travel destination for the work order task.
+        **Note:** At this stage, a notification is sent to the customer, informing them that the agent has arrived on-site and is ready to begin the work. For more information, see [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-management/Customer-notification-work-order-tasks.md). The substate **Onsite Arrival** is automatically set, indicating that you have reached your travel destination for the work order task.
 
     -   To start work directly and check-in automatically, click **Start Work**.
     -   The **Actual work start** field is automatically updated with the current system time, marking the beginning of the task.
@@ -55,5 +58,5 @@ As a field service agent, to provide a more accurate representation of the work 
 
 The cumulative amount of time worked on the task is captured in the **Actual Work Duration** field. This total includes the time you started working on the task until you closed work on the task, excluding any time paused on the work.
 
-**Parent Topic:**[Manage tasks on the map](../concept/c_ManageTasksOnTheMap.md)
+**Parent Topic:**[Manage tasks on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ManageTasksOnTheMap.md)
 

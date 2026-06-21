@@ -2,6 +2,7 @@
 title: View a workflow example in the IT Remediation Workspace
 description: View an example of an end-to-end workflow in the IT Remediation Workspace. See how IT specialists might use the workspace to monitor critical vulnerable items and remediate the vulnerabilities assigned to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/it-remediation-workspace/vr-ws-view-ITRO-workflow.html
 release: xanadu
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -22,8 +23,6 @@ Role required: sn\_vul.remediation\_owner, sn\_vul.app\_security\_champion, sn\_
 ## Procedure
 
 1.  Click the following image to view the steps of the workflow.
-
-    IT Remediation Workspace demo
 
     The image includes the following tasks:
 

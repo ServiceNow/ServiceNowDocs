@@ -2,6 +2,7 @@
 title: Install Legal Counsel Center Workspace
 description: You can install the Legal Counsel Center application \(sn\_lg\_cf\_workspace\) if you have the admin role. The application installs ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery

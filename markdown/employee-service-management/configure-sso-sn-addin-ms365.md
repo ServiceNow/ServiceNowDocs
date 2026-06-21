@@ -2,7 +2,10 @@
 title: Configure single sign-on for ServiceNow Add-in for Microsoft 365
 description: Configure single sign-on \(SSO\) for your add-in so users don't have to sign-in to Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/configure-sso-sn-addin-ms365.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-13"
 reading_time_minutes: 1
@@ -27,8 +30,8 @@ Role required: sn\_outlook\_addin.outlook\_addin\_setup, sn\_hr\_sp.admin, sn\_h
 
 4.  In the **Allowed Domains** field, enter the SSO domain for your add-in.
 
-    ![Office Manifest form with the Login Page not Required field selected and an SSO domain URL added to the Allowed Domains field.](../images/sn-addin-ms365-sso.png)
+    \[Omitted image "sn-addin-ms365-sso.png"\] Alt text: Office Manifest form with the Login Page not Required field selected and an SSO domain URL added to the Allowed Domains field.
 
 
-**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](../concept/configuring-sn-addin-for-ms365.md)
+**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configuring-sn-addin-for-ms365.md)
 

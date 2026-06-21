@@ -2,6 +2,7 @@
 title: Validate HTML in journal fields
 description: Prevent users from saving invalid HTML in a journal field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ValidateHTMLInJournalFields.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  Add the property **glide.ui.allow\_deep\_html\_validation**.
 
-    For instructions, see [Add a system property](../../reference-pages/reference/r_AvailableSystemProperties.md#).
+    For instructions, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md).
 
 2.  Set the **Value** to **true**.
 
@@ -29,8 +30,8 @@ Role required: admin
 
     Users now see a warning in the activity formatter when they enter invalid HTML code in a journal field.
 
-    ![Invalid HTML message](../image/InvalidHTML.png)
+    \[Omitted image "InvalidHTML.png"\] Alt text: Invalid HTML message
 
 
-**Parent Topic:**[Render journal field entries as HTML](render-journal-field-entries-as-html.md)
+**Parent Topic:**[Render journal field entries as HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/render-journal-field-entries-as-html.md)
 

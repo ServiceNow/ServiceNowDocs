@@ -2,6 +2,7 @@
 title: Set up your retail support team
 description: Set up your retail support team by creating a group then assigning the sn\_retail.support\_agent role to members of that group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-setup-support-team.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,11 +20,11 @@ Role required: admin
 
 You can assign a role to a group to grant access to applications and modules to group members.
 
-Before assigning the sn\_retail.support\_agent role to a group of users, you must [Create a user group](https://servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/users-and-groups/task/t_CreateAGroup.html) and then [Add users to a group](https://add%20a%20user%20to%20a%20group/).
+Before assigning the sn\_retail.support\_agent role to a group of users, you must Create a user group and then [Add users to a group](https://add%20a%20user%20to%20a%20group/).
 
 When you assign roles to groups rather than to individual users, members of the group inherit the role.
 
-When a user switches groups, the new group role is assigned automatically. For information about the Service Mapping roles, see [Control user access to application services](https://servicenow.com/docs/csh?topicname=control-user-access-to-business-services&version=washingtondc&pubname=washingtondc-it-operations-management).
+When a user switches groups, the new group role is assigned automatically. For information about the Service Mapping roles, see [Control user access to application services](https://www.servicenow.com/docs/access?context=control-user-access-to-business-services&version=washingtondc).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Run Certificate Discovery via certificate file import
 description: In Certificate Inventory and Management, you can discover certificates by importing certificate files into the system using pattern-based Discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/run-cert-inventory-mgmt-import.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -36,7 +37,7 @@ The import certificates are discovered using the Import SSL Certificate pattern,
 
 1.  Create a Discovery schedule with the following fields.
 
-    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](t_CreateADiscoverySchedule.md).
+    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
     1.  Select **Discovery**: **Import Certificates**
 

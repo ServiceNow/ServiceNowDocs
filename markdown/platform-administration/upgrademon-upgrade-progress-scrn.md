@@ -2,6 +2,7 @@
 title: Upgrade Progress
 description: When an upgrade is underway, Upgrade Progress displays progress bars and other information to help monitor the process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrademon-upgrade-progress-scrn.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -13,7 +14,7 @@ breadcrumb: [Monitor an upgrade to an instance, Upgrade Monitor module: Upgrade 
 
 When an upgrade is underway, Upgrade Progress displays progress bars and other information to help monitor the process.
 
-![Upgrade progress screen](../image/upgrade-progress-01-small.png "Upgrade Progress")
+\[Omitted image "upgrade-progress-01-small.png"\] Alt text: Upgrade progress screen
 
 <table><thead><tr><th>
 
@@ -112,5 +113,5 @@ Successful upgrade
 When the selected node is online, shows how long the node has been online. If the selected node is offline, shows how long the node has been offline.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Monitor an upgrade to an instance](../task/monitor-upgrade-apply-upgrade.md)
+</table>**Parent Topic:**[Monitor an upgrade to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/monitor-upgrade-apply-upgrade.md)
 

@@ -2,6 +2,7 @@
 title: Proactive Engagement use cases
 description: This section lists some of the most common use cases in Proactive Engagement that are designed for seamless implementation and quick results. You can deploy these use cases that are tailored to some of the common challenges seen as required by your organization to meet your specific needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/proactive-engagement/use-cases.html
 release: xanadu
 product: Proactive Engagement
 classification: proactive-engagement
@@ -156,5 +157,5 @@ Inability to access any application in a secure, private network.
 Provide end users with self-help instructions to reconnect to Zscaler.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Proactive Engagement reference](../proactive-engagement-reference.md)
+</table>**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/proactive-engagement/proactive-engagement-reference.md)
 

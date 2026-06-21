@@ -2,6 +2,7 @@
 title: Defining a horizontal relationship
 description: By using a compatibility rule, you can define the horizontal relationships between your product, service, and resource specifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/horizontal-relationships.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

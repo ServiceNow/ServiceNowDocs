@@ -2,6 +2,7 @@
 title: Create a Manager Workspace landing page
 description: Create a landing page based on your business requirement.Set a default landing page to surface the information that is most relevant for your business.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/create-configurable-csm-landing-page.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -237,7 +238,7 @@ The type of report that renders.
 10. Select **Update** to save changes to the landing page.
 
 
-**Parent Topic:**[Configuring Workforce Optimization for Customer Service](../concept/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Configuring Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-configurable-wfo-cs.md)
 
 ## Set the default landing page
 

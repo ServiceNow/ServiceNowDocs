@@ -2,6 +2,7 @@
 title: Edit a variable for Cloud Provisioning and Governance
 description: Edit an existing cloud variable or create a new cloud variable to gather information for ordering a catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-configuration-governance/create-cldmgmt-variable.html
 release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

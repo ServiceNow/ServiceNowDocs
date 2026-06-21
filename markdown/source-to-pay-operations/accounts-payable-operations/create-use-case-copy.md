@@ -2,6 +2,7 @@
 title: Create a copy of the default Invoice Processing use case
 description: Create a copy of the default invoice processing use case to customize the invoice flow in your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -38,9 +39,9 @@ Do this task to copy the default **DO NOT USE- Invoice Processing V5** use case 
 4.  Click **Duplicate** button
 
     -   The copy is saved automatically into your environment.
-    -   A copy of the DO NOT USE - Invoice Processing V5 use case is created with the name entered. You can see the copied use case by navigating to **All** &gt; **Document Intelligence** &gt; **Use Cases**. For more information on configuring use case, see [Configuring Document Intelligence](https://www.servicenow.com/docs/access?context=doc-intel-administration&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    -   A copy of the DO NOT USE - Invoice Processing V5 use case is created with the name entered. You can see the copied use case by navigating to **All** &gt; **Document Intelligence** &gt; **Use Cases**. For more information on configuring use case, see .
     -   A flow named DocIntel Extract Values Flow is created. This flow is suffixed with the name of the copied use case that was created after you clicked the copy icon. For example, DocIntel Extract Values Flow - name of the entered use case - Invoice Processing v3. You can see this flow by navigating to **All** &gt; **Process Automation** &gt; **Flow Designer** and searching for the flow name.
 
-        You must add the missing information in the newly created flow by copying the existing information from the default DocIntel Extract Values Flow - Invoice Processing v3. For more information, see [Configure the newly created DocIntel Extract Values Flow](configure-extract-values-flow.md).
+        You must add the missing information in the newly created flow by copying the existing information from the default DocIntel Extract Values Flow - Invoice Processing v3. For more information, see [Configure the newly created DocIntel Extract Values Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/configure-extract-values-flow.md).
 
 

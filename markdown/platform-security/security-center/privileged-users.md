@@ -2,6 +2,7 @@
 title: Privileged Users
 description: View the trend line for the privileged users \(active and inactive\) and their activity on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/privileged-users.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -35,5 +36,5 @@ Below is an explanation of the privileged users:
 -   Need to reset password: Users that need to reset their password.
 -   Password reset failures of the users: Number of password failures per user.
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)
 

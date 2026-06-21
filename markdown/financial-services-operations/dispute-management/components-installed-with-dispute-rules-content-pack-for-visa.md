@@ -2,6 +2,7 @@
 title: Components installed with the Dispute Rules Content Pack for Visa plugin
 description: Several types of components are installed with the installation of the Dispute Rules Content Pack for Visa plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-visa.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -23,5 +24,5 @@ Several types of components are installed with the installation of the Dispute R
 |------|-----------|
 |Financial Services Card Operations \[com.sn\_bom\_credit\_card\]|Enables quick processing of credit card applications and card transaction disputes.|
 
-**Parent Topic:**[Dispute Rules Content Pack for Visa reference](../concept/dispute-content-pack-for-visa-reference.md)
+**Parent Topic:**[Dispute Rules Content Pack for Visa reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-content-pack-for-visa-reference.md)
 

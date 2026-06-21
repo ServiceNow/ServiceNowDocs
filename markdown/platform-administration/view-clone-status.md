@@ -2,6 +2,7 @@
 title: View clone status
 description: You can view the status of a clone to make sure the cloning process isn't stuck.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/view-clone-status.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -31,8 +32,8 @@ Role required: admin
 
     The system updates the **State** field and produces a log entry in the **Clone Log** that shows the status of the clone.
 
-    ![Clone log](../image/clone-log.png)
+    \[Omitted image "clone-log.png"\] Alt text: Clone log
 
-    If a cloning status is failed, you might [roll back the cloning](roll-back-a-clone.md) and [schedule a new cloning](schedule-cloning.md).
+    If a cloning status is failed, you might [roll back the cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/roll-back-a-clone.md) and [schedule a new cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/schedule-cloning.md).
 
 

@@ -2,7 +2,10 @@
 title: Import Update set from XML and install fix script
 description: Import update set from XML to provide cross-scope access to HR Service Delivery applications and run fix script to display field decorator in the ticket.Run the fix\_script\_start\_chat\_field\_decorator\_HR in the ServiceNow instance to display Start Microsoft Teams chat field decorator in the ticket to initiate a chat with the requester.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/upload-rca-hr.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -31,7 +34,7 @@ Following table depicts the RCA record mapping to its feature.
 |human\_resources\_service\_portal\_rca\_records.xml|\{ Employee Center \}|\[com.sn\_hr\_service\_portal\]|
 |human\_resources\_workspace\_rca.xml|\{Human Resources Scoped App: Workspace\}|\[com.sn\_hr\_agent\_workspace\]|
 
-For more information about the Update sets, see [Update set transfers](https://www.servicenow.com/docs/access?context=update-set-transfers&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+For more information about the Update sets, see Update set transfers.
 
 ## Procedure
 
@@ -39,7 +42,7 @@ For more information about the Update sets, see [Update set transfers](https://w
 
     If you can't find the XML files, click **Show more** to view the list of supporting links and docs.
 
-    ![Update sets from HR Service Delivery integration with Microsoft Teams store page](../images/hrsd_store_show_more.png)
+    \[Omitted image "hrsd\_store\_show\_more.png"\] Alt text: Update sets from HR Service Delivery integration with Microsoft Teams store page
 
 2.  Click each of the XML files to download on to your computer.
 
@@ -51,7 +54,7 @@ For more information about the Update sets, see [Update set transfers](https://w
     -   document\_templates\_rca\_records.xml
     -   fix\_script\_start\_chat\_field\_decorator\_HR
     -   human\_resources\_workspace\_rca.xml
-    ![Update sets from HR Service Delivery integration with Microsoft Teams store page](../images/rca_records_hrsd.png)
+    \[Omitted image "rca\_records\_hrsd.png"\] Alt text: Update sets from HR Service Delivery integration with Microsoft Teams store page
 
 3.  Navigate to upload XML files.
 
@@ -76,7 +79,7 @@ For more information about the Update sets, see [Update set transfers](https://w
 
 The RCA and fix script XMLs are uploaded.
 
-**Parent Topic:**[Install HR Service Delivery integration with Microsoft Teams application](install-hr-ms-teams-plugin.md)
+**Parent Topic:**[Install HR Service Delivery integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/install-hr-ms-teams-plugin.md)
 
 ## Install Fix Script for HR Service Delivery integration with Microsoft Teams
 
@@ -98,6 +101,6 @@ Role required: admin
 
 5.  Select **Run Fix Script**.
 
-    The ![Microsoft Teams decorator](../images/teams-decorator.png) icon is displayed as a field decorator in a record.
+    The \[Omitted image "teams-decorator.png"\] Alt text: Microsoft Teams decorator icon is displayed as a field decorator in a record.
 
 

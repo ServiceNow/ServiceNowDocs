@@ -2,7 +2,10 @@
 title: Accept or reject requests from push notifications
 description: As a Field Service agent, you can accept or reject work order tasks using push notification actions without having to open the Now Mobile Agent mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/accept-reject-wot-push-notification.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,15 +28,15 @@ Role required: wm\_agent
 
 3.  Process the request.
 
-<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d24457e70">
+<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d26887e70">
 
 To
 
-</th><th align="left" id="d24457e73">
+</th><th align="left" id="d26887e73">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d24457e79">
+</th></tr></thead><tbody><tr><td id="d26887e79">
 
 **Accept working on the work order task notification**
 
@@ -41,7 +44,7 @@ Do this
 
 Click **Accept**
 
-</td></tr><tr><td id="d24457e91">
+</td></tr><tr><td id="d26887e91">
 
 **Reject the task notification**
 
@@ -51,5 +54,5 @@ Click **Reject** **Note:** If you reject the task notification, the task assignm
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Actionable push notifications in the Now Mobile Agent application](../concept/actionable-push-notifications.md)
+**Parent Topic:**[Actionable push notifications in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/actionable-push-notifications.md)
 

@@ -2,6 +2,7 @@
 title: Enable or disable personal lists
 description: You can enable or disable personal lists through the UI Macros module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/t\_ActivatingTheListMechanic.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -26,5 +27,5 @@ Role required: ui\_macro\_admin
 2.  Activate \(or deactivate\) the **list\_mechanic2** UI macro.
 
 
-**Parent Topic:**[Personal list administration](../concept/c_AdministeringPersonalLists.md)
+**Parent Topic:**[Personal list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/c_AdministeringPersonalLists.md)
 

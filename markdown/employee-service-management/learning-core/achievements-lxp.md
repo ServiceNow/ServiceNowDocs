@@ -2,6 +2,7 @@
 title: Achievements
 description: The Achievements tab on My Learning shows you all your learning achievements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/learning-core/achievements-lxp.html
 release: xanadu
 product: Learning Core
 classification: learning-core
@@ -15,11 +16,11 @@ breadcrumb: [My Learning, Exploring Learning, Learning, Talent Development, Empl
 
 The **Achievements** tab on My Learning shows you all your learning achievements.
 
-![Achievements tab](../image/achievements-lxp.png "Achievements tab")
+\[Omitted image "achievements-lxp.png"\] Alt text: Achievements tab
 
 |Widget|Description|
 |------|-----------|
 |Achievements|Shows your learning achievements. When you learn something new and complete a course you can earn achievements and see them here.|
 
-**Parent Topic:**[My Learning](overview-lxp.md)
+**Parent Topic:**[My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/learning-core/overview-lxp.md)
 

@@ -2,6 +2,7 @@
 title: Test the Excel Service Graph connector
 description: The troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/excel-service-graph-connector-troubleshooting.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -91,7 +92,7 @@ The validation state is set to Pending validation, when the following attributes
 -   Rack Number
 -   Slot Number
 
- For more information about the system properties, see [System properties that impact SG-OT Device Excel Import processing](../task/system-properties-sg-ot-asset-excel-import.md).
+ For more information about the system properties, see [System properties that impact SG-OT Device Excel Import processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/system-properties-sg-ot-asset-excel-import.md).
 
 </td></tr><tr><td>
 
@@ -144,5 +145,5 @@ No records are available in the staging table.
  Access all the logs related to Excel SGC in **All** &gt; **System logs** &gt; **System log** &gt; **All**. Search for the string SGOTExcel in the Message column.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for Microsoft Excel](../concept/service-graph-connector-for-OT-excel.md)
+</table>**Parent Topic:**[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)
 

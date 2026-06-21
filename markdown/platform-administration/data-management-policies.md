@@ -2,6 +2,7 @@
 title: Managing the growth of data on your instance
 description: Manage the growth and storage of data on your instance using data management policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/data-management-policies.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -29,12 +30,12 @@ You can define and access the data management policy for a table by navigating t
 -   View and update the data management policy for tables with archive rules or table cleaner rules. After upgrading to at least Xanadu, data management policies are automatically created for any table with an archive rule or table cleaner rule.
 -   Create a data management policy for any table that accumulates data that can be archived or deleted periodically. Create archive rules and table cleaner rules to manage the growth of data.
 
--   **[Create a data management policy](../task/create-data-management-policy.md)**  
+-   **[Create a data management policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-data-management-policy.md)**  
 Define a set of rules for managing the data in a table on your instance.
--   **[Archiving records](archiving-older-records.md)**  
+-   **[Archiving records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/archiving-older-records.md)**  
 Manage table size growth and improve query performance by archiving records.
--   **[Deleting older or unwanted records](deleting-older-records.md)**  
+-   **[Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/deleting-older-records.md)**  
 Delete older, expired, or unwanted records from tables automatically.
 
-**Parent Topic:**[Data Management](c_DataManagement.md)
+**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DataManagement.md)
 

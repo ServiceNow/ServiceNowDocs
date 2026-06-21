@@ -2,6 +2,7 @@
 title: View an alert analysis by Now Assist in Express List
 description: View an alert analysis created by ServiceNow Now Assist using generative AI. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/now-assist-for-it-operations-management/alert-summary-now-assist-express-list.html
 release: xanadu
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -18,8 +19,8 @@ View an alert analysis created by ServiceNow® Now Assist using generative AI. A
 
 ## Before you begin
 
--   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
--   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](../concept/now-assist-itom.md).
+-   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+-   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
 
 **Note:** Currently, Now Assist for ITOM only analyzes tag-based, rule-based, and Log Analytics alert groups. For all other alert group types, it only analyzes the parent alert.
 
@@ -29,9 +30,9 @@ Role required: evt\_mgmt\_operator
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the Express List icon \(![Express List icon.](../../event-management/image/express-list1.png)\) in the left navigation bar.
+2.  Select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon.\) in the left navigation bar.
 
-3.  In the Active alerts list, select the information icon \(![Information icon.](../../event-management/image/info.png)\) to the left of an alert.
+3.  In the Active alerts list, select the information icon \(\[Omitted image "info.png"\] Alt text: Information icon.\) to the left of an alert.
 
 4.  On the preview panel Info tab, select **Analyze** in Alert analysis by Now Assist.
 
@@ -51,7 +52,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![Copy to clipboard icon.](../../service-operations-workspace-itom/image/icon-copy-to-clipboard.png)
+\[Omitted image "icon-copy-to-clipboard.png"\] Alt text: Copy to clipboard icon.
 
 </td><td>
 
@@ -59,7 +60,7 @@ Copy the content of the alert analysis to the clipboard.
 
 </td></tr><tr><td>
 
-![Refresh icon.](../../service-operations-workspace-itom/image/icon-refresh-alert-summary.png)
+\[Omitted image "icon-refresh-alert-summary.png"\] Alt text: Refresh icon.
 
 </td><td>
 
@@ -67,5 +68,5 @@ Refresh the alert analysis.**Note:** Refreshing regenerates the results. Past re
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for IT Operations Management \(ITOM\)](../concept/now-assist-itom-use.md)
+**Parent Topic:**[Using Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

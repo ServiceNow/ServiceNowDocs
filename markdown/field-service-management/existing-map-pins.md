@@ -2,7 +2,10 @@
 title: Map pins in Dispatcher Workspace
 description: Unique map pins in the dispatch map mark the location of tasks and agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/existing-map-pins.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Users with the wm\_dispatcher, wm\_admin, or wm\_initiator\_qualifier\_dispatche
 
 The dispatch map shows the geographical area containing the agents from any assignment group that is part of your dispatch group.
 
-For a list of map pins and a description of their meaning, see [Existing map pins in Dispatcher Workspace](../../planning-and-policy/reference/r_DispatcherView.md).
+For a list of map pins and a description of their meaning, see [Existing map pins in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_DispatcherView.md).
 
-For information about changing the appearance of a map pin, see [Change the assigned graphics of map pins on the dispatch map](../task/customize-map-pins.md).
+For information about changing the appearance of a map pin, see [Change the assigned graphics of map pins on the dispatch map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/customize-map-pins.md).
 

@@ -2,6 +2,7 @@
 title: Community content types
 description: There are seven supported content types: Answer, Blog, Comment, Document, Event, Question, and Video.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/c\_communities-content-types.html
 release: xanadu
 product: Communities
 classification: communities
@@ -89,8 +90,8 @@ Event
 Create an event that other community users can register for and attend.
 
 </td></tr></tbody>
-</table>-   **[Configure community content types](../task/enable-content-types-for-community.md)**  
+</table>-   **[Configure community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/enable-content-types-for-community.md)**  
 Configure content types, such as videos and blogs, for the community.
 
-**Parent Topic:**[Configure a community](../task/configure-communities.md)
+**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/configure-communities.md)
 

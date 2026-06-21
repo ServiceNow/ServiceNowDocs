@@ -2,6 +2,7 @@
 title: Increase the allowed number of breadcrumb entries
 description: You can add a property to allow for a larger number of breadcrumb entries in the filter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/increase-breadcrumb-entries.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -41,8 +42,8 @@ Role required: admin
 
     The number of entries you entered in the Value field displays before ending in a \[…\].
 
-    ![Breadcrumb entries for incidents numbering from INC0010001 to INC0010015](../image/BreadcrumbEntries.png "Breadcrumb entries")
+    \[Omitted image "BreadcrumbEntries.png"\] Alt text: Breadcrumb entries for incidents numbering from INC0010001 to INC0010015
 
 
-**Parent Topic:**[Restrict filters and breadcrumbs with fixed queries](t_RestrictBreadcrmbsWFixedQueries.md)
+**Parent Topic:**[Restrict filters and breadcrumbs with fixed queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_RestrictBreadcrmbsWFixedQueries.md)
 

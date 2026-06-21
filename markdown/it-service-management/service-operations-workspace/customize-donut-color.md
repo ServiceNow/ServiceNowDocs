@@ -2,6 +2,7 @@
 title: Configure the donut color in the Overview section
 description: Create a visual experience that works the best for donuts in the Overview section.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/customize-donut-color.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace

@@ -2,6 +2,7 @@
 title: Integrate with Contract Management Pro
 description: With the integration of Quote Management and Contract Management Pro, sales agents can initiate contract requests while finalizing a deal and formalizing agreements between you and your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/quote-management-integrate-contract-management.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,10 +32,10 @@ Role required: admin
 
 4.  Complete the initial configuration steps to set up this integration.
 
-    For more information on setting up Contract Management Pro, see [Configure Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-config-cmpro&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+    For more information on setting up Contract Management Pro, see .
 
 
 ## What to do next
 
-To learn more, see [Set up Contracts Core](https://www.servicenow.com/docs/access?context=cncore-setup-cmpro&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US) and [Initiate a contract request](quote-management-create-contract.md).
+To learn more, see  and [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-management-create-contract.md).
 

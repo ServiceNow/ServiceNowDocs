@@ -2,6 +2,7 @@
 title: Install AES from the ServiceNow Store for the first time
 description: Install App Engine Studio \(AES\) from the ServiceNow Store for the first time. The installation involves several easy steps. Some steps are performed on the ServiceNow Store and some in your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/download-aes-first-time.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -36,7 +37,7 @@ For a list of all dependencies and tools installed with the AES product, see the
 
 ## Result
 
-![Install the AES product](../image/aes-activate-plugin.jpg)
+\[Omitted image "aes-activate-plugin.jpg"\] Alt text: Install the AES product
 
-**Parent Topic:**[AES and the ServiceNow Store](../concept/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-installation-store.md)
 

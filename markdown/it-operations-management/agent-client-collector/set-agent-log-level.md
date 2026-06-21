@@ -2,6 +2,7 @@
 title: Set the agent log level
 description: Configure the agent log level directly from your ServiceNow instance, without needing to access the acc.yml configuration file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/set-agent-log-level.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -38,5 +39,5 @@ Role required: agent\_client\_collector\_admin
     -   In the related links, select **Reset Log Level**.
     -   Restart the agent.
 
-**Parent Topic:**[Using Agent Client Collector logs](../concept/logs-acc.md)
+**Parent Topic:**[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/logs-acc.md)
 

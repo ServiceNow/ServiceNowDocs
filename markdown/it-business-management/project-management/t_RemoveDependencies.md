@@ -2,6 +2,7 @@
 title: Remove a dependency
 description: Use the planning console to remove a dependency that is no longer necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_RemoveDependencies.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -29,7 +30,7 @@ Removing the dependency also deletes the dependency record in the Planned Task R
 
 2.  Do either of the following.
 
-<table id="choicetable_pjv_3lx_ft"><tbody><tr><td id="d90963e71">
+<table id="choicetable_pjv_3lx_ft"><tbody><tr><td id="d91529e71">
 
 **On the Gantt chart**
 
@@ -39,7 +40,7 @@ Removing the dependency also deletes the dependency record in the Planned Task R
 -   Double-click the relationship and then click **Delete** on the **Planned Task Relationship** form that appears.
 
 
-</td></tr><tr><td id="d90963e98">
+</td></tr><tr><td id="d91529e98">
 
 **On the WBS list**
 
@@ -51,5 +52,5 @@ Removing the dependency also deletes the dependency record in the Planned Task R
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Project task dependencies](../concept/c_TaskDependencies.md)
+**Parent Topic:**[Project task dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_TaskDependencies.md)
 

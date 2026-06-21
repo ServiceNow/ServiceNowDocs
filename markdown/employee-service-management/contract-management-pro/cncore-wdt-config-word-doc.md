@@ -2,6 +2,7 @@
 title: Configure a Microsoft Word document template
 description: Upload a word document and add participants with whom you require signatures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-wdt-config-word-doc.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -95,7 +96,7 @@ User criteria
 
 </td><td>
 
-Audience criteria for this document. For example, you can create a letter intended for only Canadian employees.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+Audience criteria for this document. For example, you can create a letter intended for only Canadian employees.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -176,7 +177,7 @@ If you specify an end date, you must also specify a start date.
 
 ## What to do next
 
-1.  To add participants with whom you must obtain signatures, see [Create participants for document templates](cncore-wdt-create-participant.md).
+1.  To add participants with whom you must obtain signatures, see [Create participants for document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-wdt-create-participant.md).
 2.  To create template mappings, click **Parse Word Document**.
 3.  To insert signatures, open a **Signature\_** record in the **Template mappings** related list.
 
@@ -191,9 +192,9 @@ If you specify an end date, you must also specify a start date.
     -   Signatory name
     -   Signatory email
     -   Signatory title
-    For a full list, see [Content controls in Word Document Templates](../concept/cncore-wdt-doc-contentctrl.md)
+    For a full list, see [Content controls in Word Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-wdt-doc-contentctrl.md)
 
 4.  Select **Publish**.
 
-**Parent Topic:**[Configure document templates for standard letters or documents](cncore-wdt-other-bu.md)
+**Parent Topic:**[Configure document templates for standard letters or documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-wdt-other-bu.md)
 

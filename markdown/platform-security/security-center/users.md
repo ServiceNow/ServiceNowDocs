@@ -2,6 +2,7 @@
 title: Users
 description: View the trend line for total users \(active and inactive\) and their activity on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/users.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -34,5 +35,5 @@ Below is an explanation of the type of users:
 -   Need to reset password: Users that need to reset their password.
 -   Password reset failures of the users: Number of password failures per user.
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)
 

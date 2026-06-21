@@ -2,6 +2,7 @@
 title: Include dynamic attribute groups in a dynamic category
 description: Organize your dynamic attribute groups by relating a dynamic attribute group to a dynamic category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/add-dynamic-attribute-groups-dynamic-category.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -43,11 +44,11 @@ After you define dynamic categories, place your dynamic attribute groups into ea
 
 ## Add a dynamic attribute group to a dynamic category
 
-![Add the product dimensions dynamic attribute group to the televisions dynamic category.](../image/dynamic-category-group-member-example.png)
+\[Omitted image "dynamic-category-group-member-example.png"\] Alt text: Add the product dimensions dynamic attribute group to the televisions dynamic category.
 
 ## What to do next
 
 Add more dynamic attribute groups to the category as needed. For example, when adding dynamic attribute groups to the television category, you might add the dynamic attribute groups that you created for product dimensions, screen resolutions, sound formats, and wattage.
 
-**Parent Topic:**[Dynamic Schema](../concept/dynamic-schema.md)
+**Parent Topic:**[Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-schema.md)
 

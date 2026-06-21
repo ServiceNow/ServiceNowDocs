@@ -2,6 +2,7 @@
 title: Create a custom spoke
 description: To set up a custom integration in SaaS License Management, create a spoke to connect with a SaaS application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/create-saas-spoke.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -21,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-If there's already a spoke for the SaaS application that you're integrating with, you can use the existing spoke instead of creating one. For a list of applications that have ServiceNow® Integration Hub spokes, see [IntegrationHub available spokes](https://www.servicenow.com/docs/access?context=spokes-list&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+If there's already a spoke for the SaaS application that you're integrating with, you can use the existing spoke instead of creating one. For a list of applications that have ServiceNow® Integration Hub spokes, see IntegrationHub available spokes.
 
-Use ServiceNow® Studio to create a spoke. For more information about Studio, see [ServiceNow Studio](https://www.servicenow.com/docs/access?context=c_ServiceNowStudio&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Use ServiceNow® Studio to create a spoke. For more information about Studio, see ServiceNow Studio.
 
 ## Procedure
 
@@ -58,9 +59,9 @@ As you continue building your custom integration, use the spoke to save the foll
 
 If you are publishing your custom spoke application on the ServiceNow Store, also use the spoke to save your subflows.
 
-**Parent Topic:**[SaaS License Connections](../concept/saas-license-connections.md)
+**Parent Topic:**[SaaS License Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/saas-license-connections.md)
 
-**Previous topic:**[SaaS License Connections](../concept/saas-license-connections.md)
+**Previous topic:**[SaaS License Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/saas-license-connections.md)
 
-**Next topic:**[Create a custom integration profile](create-integration-custom.md)
+**Next topic:**[Create a custom integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-integration-custom.md)
 

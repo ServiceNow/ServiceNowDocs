@@ -2,6 +2,7 @@
 title: Improve portal load time with asynchronous loading
 description: Reduce the time employees spend waiting for the portal to load by enabling widgets to load data asynchronously. This allows widgets to display information as it becomes available, improving overall portal performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/optimize-performance-of-employee-center-home-page.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -42,5 +43,5 @@ By default, widgets try to load and display data simultaneously. This can cause 
 4.  Click **Save**.
 
 
-**Parent Topic:**[Improve portal performance](../concept/improve-manage.md)
+**Parent Topic:**[Improve portal performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/improve-manage.md)
 

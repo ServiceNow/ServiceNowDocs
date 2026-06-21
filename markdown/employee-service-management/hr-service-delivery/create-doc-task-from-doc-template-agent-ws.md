@@ -2,6 +2,7 @@
 title: Create and sign document tasks from document tasks in Agent Workspace
 description: Create document tasks directly in the HR Service Delivery Agent Workspace using document templates and sign off on them from Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/create-doc-task-from-doc-template-agent-ws.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,13 +26,13 @@ Role required: admin
 
 2.  Select an HR case for the document task.
 
-    In the **HR service** field, make sure that an HR service that has document template is selected. For example, request an employment verification letter or generate an offer letter. For more information, see [Create a case in Agent Workspace for HR Case Management](agent-ws-configurable-hr-create-case.md).
+    In the **HR service** field, make sure that an HR service that has document template is selected. For example, request an employment verification letter or generate an offer letter. For more information, see [Create a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md).
 
 3.  Click the **Start Work** button.
 
 4.  Select the **Preview document** option.
 
-    The document is displayed with options to cancel, edit, generate or initiate document task. For more information, see[Document tasks generation in Document Templates](task-mapped-participants.md).
+    The document is displayed with options to cancel, edit, generate or initiate document task. For more information, see[Document tasks generation in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/task-mapped-participants.md).
 
 5.  Select the **Initiate document task** button.
 

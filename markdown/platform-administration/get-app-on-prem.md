@@ -2,6 +2,7 @@
 title: Get an app as an on-premise customer
 description: Procure and download an encrypted app from the ServiceNow Store for use with your on-premise \(self-hosted\) instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/get-app-on-prem.html
 release: xanadu
 topic_type: task
 last_updated: "2025-07-31"
@@ -23,7 +24,7 @@ Role required: none
 
 If your on-premise instance isn't connected to the internet or to the ServiceNow Store, you can download encrypted applications to use on your instance. Procure and download the application using a computer with internet access, then transfer the necessary files to your instance.
 
-If your on-premise instance has been connected to the ServiceNow Store, refer to [Getting apps and trials from the ServiceNow Store](../concept/getting-apps-trials.md) instead.
+If your on-premise instance has been connected to the ServiceNow Store, refer to [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/getting-apps-trials.md) instead.
 
 **Important:** You must repeat this process for each instance you want to upload the app to.
 
@@ -31,8 +32,8 @@ If your on-premise instance has been connected to the ServiceNow Store, refer to
 
 1.  From a computer with internet access, log in to the ServiceNow Store and procure the app.
 
-    -   For more details about procuring apps from the commercial ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](../concept/getting-apps-trials.md).
-    -   For more details about procuring apps in a regulated environment, see [Using the ServiceNow Store in a regulated environment](../concept/using-regulated-store.md).
+    -   For more details about procuring apps from the commercial ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/getting-apps-trials.md).
+    -   For more details about procuring apps in a regulated environment, see [Using the ServiceNow Store in a regulated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-regulated-store.md).
 2.  From the app listing details on the ServiceNow Store, select **Manage Entitlements** to confirm that all of your instances have been entitled.
 
 3.  Select **On-prem Download**.
@@ -51,5 +52,5 @@ If your on-premise instance has been connected to the ServiceNow Store, refer to
 
 ## What to do next
 
-Transfer the `.store` file to your on-premise instance to upload the app. For more information, see [Upload an app to an on-premise instance](upload-app-on-prem-instance.md).
+Transfer the `.store` file to your on-premise instance to upload the app. For more information, see [Upload an app to an on-premise instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upload-app-on-prem-instance.md).
 

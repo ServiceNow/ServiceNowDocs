@@ -2,7 +2,10 @@
 title: Configure accounts and contacts
 description: An account is a supported external customer and a contact is a user who is an employee of an account.Use Customer Service Management guided setup to import existing accounts and contacts.An account code is a unique identifier for an account, while an account path establishes the account hierarchy.After importing customer account information, update the com.snc.cs\_base.last.generated.code.tree.path property with the correct account code value.An account is a supported external customer. Use the Customer Service Management application to create account records.An account can have multiple addresses, such as a main address as well as shipping and billing addresses.A contact is a user who is an employee of an account. Use the Customer Service Management application to create contact records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-csm-accounts-contacts.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 7
@@ -23,7 +26,7 @@ There are two types of accounts: customer accounts and partner accounts. The **C
 
 A partner is a supported external customer that sells to and supports other customers. A partner can report and manage cases on behalf of customers. A partner can also be a customer.
 
-**Note:** After importing customer account data, you must also [set the account code system property](configure-csm-accounts-contacts.md#).
+**Note:** After importing customer account data, you must also [set the account code system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configure-csm-accounts-contacts.md).
 
 An account can have multiple contacts but a contact can be associated with only one account. A contact can have one or more associated assets and service contracts. A contact can also have a user ID and can log in to the customer portal.
 
@@ -46,7 +49,7 @@ Role required: admin
 
 ### About this task
 
-After importing customer account data, you must also [set the account code system property](configure-csm-accounts-contacts.md#).
+After importing customer account data, you must also [set the account code system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configure-csm-accounts-contacts.md).
 
 ### Procedure
 
@@ -83,7 +86,7 @@ An account code must be unique. Attempting to insert a new record with previousl
 
 An account path establishes the hierarchy among different accounts. This path is stored in the **Account Path** on the Account form.
 
-An account path is a combination of the account codes for each account in the hierarchy. For example, let's use the following accounts to demonstrate account paths.![Account hierarchy example with three levels of parent and child companies](../image/csm-config-workspace-account-hierarchy-example.png)
+An account path is a combination of the account codes for each account in the hierarchy. For example, let's use the following accounts to demonstrate account paths.\[Omitted image "csm-config-workspace-account-hierarchy-example.png"\] Alt text: Account hierarchy example with three levels of parent and child companies
 
 <table id="table_mxm_dst_jyb"><thead><tr><th>
 
@@ -209,7 +212,7 @@ A partner is a supported external customer that sells to and supports other cust
 
     -   To create a customer account, click **Accounts**.
     -   To create a partner account, click **Partners**.
-2.  Click **New** and fill in the fields on the [Account form](../reference/customer-service-account-form.md).
+2.  Click **New** and fill in the fields on the [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/customer-service-account-form.md).
 
     When a new customer account record is created, the system uses the **com.snc.cs\_base.last.generated.code.tree.path** system property to determine a unique account code value for the account. The property is then updated with this latest assigned value so that the next account code value can be set as a unique value for the next account record insert.
 
@@ -228,7 +231,7 @@ Role required: sn\_customerservice\_manager or admin
 
 #### About this task
 
-The main address for an account is stored in fields on the [Account form](../reference/customer-service-account-form.md). Shipping and billing addresses for an account are created and stored in the **Addresses** related list. An account can have multiple shipping and billing addresses.
+The main address for an account is stored in fields on the [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/customer-service-account-form.md). Shipping and billing addresses for an account are created and stored in the **Addresses** related list. An account can have multiple shipping and billing addresses.
 
 #### Procedure
 

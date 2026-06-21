@@ -2,6 +2,7 @@
 title: Configuring Multi-day scheduling
 description: Field Service Multi-day task scheduling helps dispatchers manage tasks that require more than a single workday to complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/configuring-multi-day-scheduling.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -30,8 +31,8 @@ This system is adept at handling complex tasks that need extended time, verifyin
 
 In disaster recovery operations, a cleanup task may require a 20-hour commitment. With multi-day scheduling, the task can be distributed across three days, ensuring that agents aren't overworked or idle, which in turn maximizes productivity and well-being. The agents who are involved in this task are locked and aren't available for other assignments during these three days.
 
--   **[Activate Field Service Multi-Day Task Scheduling](../task/install-multi-day-tasks.md)**  
+-   **[Activate Field Service Multi-Day Task Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/install-multi-day-tasks.md)**  
 Install the Field Service Multi-Day Task Scheduling application to enable scheduling of work order tasks across multiple days. You can activate the Field Service Multi-Day Task Scheduling plugin \(com.snc.fsm\_multiday\_tasks\) for Field Service if you have the admin role.
 
-**Parent Topic:**[Additional scheduling configuration options](advanced-scheduling-and-dispatching-capabilities.md)
+**Parent Topic:**[Additional scheduling configuration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/advanced-scheduling-and-dispatching-capabilities.md)
 

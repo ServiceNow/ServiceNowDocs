@@ -2,6 +2,7 @@
 title: Create approval levels for Exception Management in Configuration Compliance
 description: Define the levels of users and user groups that are going to approve the exception requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-exception-mgt-config-approval-rule.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -131,5 +132,5 @@ Edit the users listed in the groups.
 
 There can be different approval levels for remediation tasks for Linux and Windows servers.
 
-**Parent Topic:**[Configure approval rules for Exception Management in Configuration Compliance](cc-exception-mgt-approval-rules.md)
+**Parent Topic:**[Configure approval rules for Exception Management in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-exception-mgt-approval-rules.md)
 

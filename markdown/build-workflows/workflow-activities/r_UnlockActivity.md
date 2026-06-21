@@ -2,6 +2,7 @@
 title: Unlock workflow activity
 description: The Unlock activity releases a lock that was previously placed by the Lock activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-activities/r\_UnlockActivity.html
 release: xanadu
 product: Workflow Activities
 classification: workflow-activities
@@ -23,7 +24,7 @@ Input variables determine the initial behavior of the activity.
 
 |Field|Description|
 |-----|-----------|
-|Lock key|The Mutex key that releases the lock. This key must match the key specified by a **Lock** activity. For more information, see [Lock activity](https://www.servicenow.com/docs/access?context=r_LockActivity&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).|
+|Lock key|The Mutex key that releases the lock. This key must match the key specified by a **Lock** activity. For more information, see Lock activity.|
 
 ## States
 

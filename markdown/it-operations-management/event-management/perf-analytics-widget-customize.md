@@ -2,6 +2,7 @@
 title: Customize Performance Analytics widgets
 description: Customize the appearance of widgets when viewing Performance Analytics visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/perf-analytics-widget-customize.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -25,13 +26,13 @@ Role required: user
 
 2.  On the **Dashboards** page, select a dashboard to view.
 
-3.  Select the Sharing icon \(![Sharing icon](../image/sharing-icon.png)\) on the top right corner of the page.
+3.  Select the Sharing icon \(\[Omitted image "sharing-icon.png"\] Alt text: Sharing icon\) on the top right corner of the page.
 
-4.  Move to the top section of the relevant widget and select the Edit Widget icon \(![Edit widget icon](../image/edit-widget-icon.png)\).
+4.  Move to the top section of the relevant widget and select the Edit Widget icon \(\[Omitted image "edit-widget-icon.png"\] Alt text: Edit widget icon\).
 
 5.  In the Edit Widget dialog box, configure the options.
 
-    For details, see [Performance Analytics Edit Widget dialog box](../reference/edit-widget.md).
+    For details, see [Performance Analytics Edit Widget dialog box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/edit-widget.md).
 
 6.  Select **Done** in the Edit Widget dialog box.
 
@@ -40,8 +41,8 @@ Role required: user
 
 Users with the admin role can customize colors and fonts.
 
--   For more information on customizing colors, see [Performance Analytics widgets](https://www.servicenow.com/docs/access?context=c_Widgets&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+-   For more information on customizing colors, see .
 -   To customize fonts, navigate to **sys\_ux\_theme\_property.list** and edit the applicable fonts.
 
-**Parent Topic:**[Event Management Platform Analytics Solutions](../application-content-packs/event-content-pack.md)
+**Parent Topic:**[Event Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/event-content-pack.md)
 

@@ -2,7 +2,10 @@
 title: Add and configure the Portal Banner Carousel widget
 description: Add a Portal Banner Carousel widget to the portal and modify its presentation and behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-portal-banner-carousel-widget.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,9 +18,9 @@ Add a Portal Banner Carousel widget to the portal and modify its presentation an
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-config-portal-widget.md).
 
-If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](create-page-configurable-portal-widget.md).
+If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/create-page-configurable-portal-widget.md).
 
 Role required: sp\_admin or admin
 
@@ -33,17 +36,17 @@ Role required: sp\_admin or admin
 
 5.  In the Layouts section, drag the Container layout onto the portal edit page.
 
-6.  On the container, select the Pencil icon \(![Pencil icon](../image/icon-pencil-ac.png)\).
+6.  On the container, select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
 
 7.  In the **Width** field, select **Fluid**.
 
 8.  Select **Save**.
 
-9.  On the container, add a set of columns by selecting the plus button \(![Plus button](../image/portal-plus-icon.png)\).
+9.  On the container, add a set of columns by selecting the plus button \(\[Omitted image "portal-plus-icon.png"\] Alt text: Plus button\).
 
-10. In the column, select the Edit page properties icon \(![Edit page properties icon.](../image/icon-portal-page.png)\) in the Service Portal Designer banner.
+10. In the column, select the Edit page properties icon \(\[Omitted image "icon-portal-page.png"\] Alt text: Edit page properties icon.\) in the Service Portal Designer banner.
 
-    **Note:** Verify that **Column** is selected in the breadcrumbs navigation.![Service Portal Designer banner displaying the Column breadcrumb.](../image/portal-banner-widget-breadcrumbs.jpg)
+    **Note:** Verify that **Column** is selected in the breadcrumbs navigation.\[Omitted image "portal-banner-widget-breadcrumbs.jpg"\] Alt text: Service Portal Designer banner displaying the Column breadcrumb.
 
 11. On the Page window, in the **Page Specific CSS** field, paste the following CSS code:
 
@@ -67,11 +70,11 @@ Role required: sp\_admin or admin
 
 15. In the Edit page, select the Portal Banner Carousel widget.
 
-16. Select the Pencil icon \(![Pencil icon](../image/icon-pencil-ac.png)\).
+16. Select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
 
 17. On the Instance form, fill in the fields.
 
-    For a description of the field values, see [Portal Banner Carousel widget instance options form](../reference/port-banner-carousel-inst-options.md).
+    For a description of the field values, see [Portal Banner Carousel widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/port-banner-carousel-inst-options.md).
 
 18. Select **Save**.
 

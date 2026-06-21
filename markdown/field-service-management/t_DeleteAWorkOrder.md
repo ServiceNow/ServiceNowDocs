@@ -2,7 +2,10 @@
 title: Delete a work order
 description: For tracking purposes, you should close or cancel an existing work order that is no longer in use. Closed and canceled work orders are inactive and don't appear on work order lists. Avoid deleting a work order unless you're cleaning up errors, such as duplicate work orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_DeleteAWorkOrder.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -34,5 +37,5 @@ Deleting a work order automatically deletes associated work order tasks, so agen
 4.  Confirm the action when prompted.
 
 
-**Parent Topic:**[Managing work orders](../concept/c_ManageWorkOrders.md)
+**Parent Topic:**[Managing work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ManageWorkOrders.md)
 

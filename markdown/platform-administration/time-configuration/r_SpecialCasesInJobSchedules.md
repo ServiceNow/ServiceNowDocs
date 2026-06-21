@@ -2,6 +2,7 @@
 title: Special cases in job schedules
 description: Some special cases require care in job scheduling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/time-configuration/r\_SpecialCasesInJobSchedules.html
 release: xanadu
 product: Time Configuration
 classification: time-configuration
@@ -84,5 +85,5 @@ Scheduled Script Execution and Scheduled Jobs are categorized as data records in
 
 You can optionally export and import data records via XML. However, to prevent unexpected data changes, Schedule Item \[sys\_trigger\] records are not created for data records imported from an XML file such as an update set. To run scheduled jobs or scripts imported from another instance, update the corresponding job or script record in the target instance.
 
-**Parent Topic:**[Scheduled jobs](../../reference-pages/concept/c_ScheduledJobs.md)
+**Parent Topic:**[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/time-configuration/c_ScheduledJobs.md)
 

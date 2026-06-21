@@ -2,6 +2,7 @@
 title: Edit a flow
 description: Edit an existing flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/flow-edit.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -41,7 +42,7 @@ As of the Washington DC release, flows open in a read-only state to protect them
 
     While editing a flow, your changes are automatically saved each time you select **Done** to close the configuration options. Each time the flow is saved, the Save indicator icon is updated.
 
-<table id="choicetable_opd_n4h_x1b"><tbody><tr><td id="d110694e116">
+<table id="choicetable_opd_n4h_x1b"><tbody><tr><td id="d104832e116">
 
 **Change the flow name, description, or roles**
 
@@ -49,7 +50,7 @@ As of the Washington DC release, flows open in a read-only state to protect them
 
 In the main header, select **Properties,** enter the values you want into the appropriate fields, then select **Update**.**Note:** You can’t change the application scope of a flow after you’ve saved it.
 
-</td></tr><tr><td id="d110694e134">
+</td></tr><tr><td id="d104832e134">
 
 **To edit the trigger**
 
@@ -57,7 +58,7 @@ In the main header, select **Properties,** enter the values you want into the ap
 
 In your flow, select the trigger description, fill in the fields as desired, then select **Done**.**Note:** Modifying triggers can result in the deletion of referenced action configurations.
 
-</td></tr><tr><td id="d110694e149">
+</td></tr><tr><td id="d104832e149">
 
 **To edit an existing action**
 
@@ -65,7 +66,7 @@ In your flow, select the trigger description, fill in the fields as desired, the
 
 In your flow, select the action description, fill in the fields as desired, then select **Done**.
 
-</td></tr><tr><td id="d110694e161">
+</td></tr><tr><td id="d104832e161">
 
 **To add a new action**
 
@@ -77,25 +78,25 @@ To add an action at the end of a flow, select the plus icon in the ACTION sectio
 
  **Important:** Workflow Studio displays an asterisks character beside any action, flow logic, or subflow that is missing any required field values. Open the action, flow logic, or subflow to add the required field values.
 
-</td></tr><tr><td id="d110694e182">
+</td></tr><tr><td id="d104832e182">
 
 **To undo the last edit**
 
 </td><td>
 
-Select **Undo last action** to revert your last change. ![](../images/icon-undo.png)
+Select **Undo last action** to revert your last change. \[Omitted image "icon-undo.png"\] Alt text:
 
  Workflow Studio stores your last 20 configuration changes. You can’t undo changes that create records. For example, converting actions into a subflow creates a subflow, and therefore can't be undone. You can select **Undo last action** multiple times to revert multiple changes.
 
 **Important:** The undo option is only available during your current user session. Closing the flow tab or the Workflow Studio browser tab ends your current user session and clears out your undo history.
 
-</td></tr><tr><td id="d110694e215">
+</td></tr><tr><td id="d104832e215">
 
 **To redo the last undo**
 
 </td><td>
 
-Select **Redo last action** to reapply the last reverted change. ![](../images/icon-redo.png)
+Select **Redo last action** to reapply the last reverted change. \[Omitted image "icon-redo.png"\] Alt text:
 
  Workflow Studio stores your last 20 configuration changes. You can select **Redo last action** multiple times to reapply multiple changes.
 
@@ -107,5 +108,5 @@ Select **Redo last action** to reapply the last reverted change. ![](../images/i
     Workflow Studio automatically saves changes as you add and edit items. It also saves when you test or activate a flow.
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-flow.md)
 

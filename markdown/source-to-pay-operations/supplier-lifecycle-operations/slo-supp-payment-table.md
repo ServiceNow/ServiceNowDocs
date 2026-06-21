@@ -2,6 +2,7 @@
 title: Supplier Payment Information table
 description: The Supplier Payment Information \[sn\_fin\_supplier\_payment\] table stores important information about the payment information of a supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/slo-supp-payment-table.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -200,5 +201,5 @@ Password2
 Account number of the beneficiary.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+</table>**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

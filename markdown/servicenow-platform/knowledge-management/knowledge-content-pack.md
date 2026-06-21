@@ -2,6 +2,7 @@
 title: Knowledge Management Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/knowledge-content-pack.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -17,13 +18,13 @@ Platform Analytics Solutions contain preconfigured dashboards. These dashboards 
 
 ## Platform Analytics Solutions
 
-Platform Analytics data visualizations use Performance Analytics [indicator](https://www.servicenow.com/docs/access?context=now-platform-glossary&version=xanadu&pubname=xanadu-glossary&section=gloss-indicator&ft:locale=en-US) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 **Important:** Set up and test Platform Analytics Solutions on a non-production instance before enabling them in production.
 
 To enable the solution for Knowledge Management, an admin can navigate to **Performance Analytics** &gt; **Guided Setup**. Click **Get Started** then scroll to the section for Knowledge Management. The guided setup takes you through the entire setup and configuration process.
 
-**Note:** You must [Activate the Knowledge Management Advanced plugin](../../../product/knowledge-management/task/activate-knowledge-advanced-plugin.md).
+**Note:** You must [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
 
 ## Domain separation and 'Run As' user
 
@@ -37,15 +38,15 @@ In London , this Solution was replaced with a new version, `com.snc.pa.knowledge
 
 If you have Self-Service Analytics activated on an instance, you can add Self-Service analytics widgets to your Performance Analytics dashboards or a Service Portal. To obtain a ready-made set of indicators and breakdowns, activate the Self-Service Analytics PA \(**com.snc.pa.self\_service\_analytics**\) plugin. Find the Self-Service indicators through the Performance Analytics Admin Console, then create widgets and add them to your dashboard or portal. Also activate the \[SSA\] Self-Service Analytics data collection job.
 
--   **[Knowledge Management dashboard](knowledge-management-dashboard.md)**  
+-   **[Knowledge Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/knowledge-management-dashboard.md)**  
 The Knowledge Management dashboard helps knowledge content owners and managers to determine the usage and quality of their knowledge content. It helps confirm that the proper processes and procedures are being followed for content creation.
 
-**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](../../../product/knowledge-management/concept/analytics-and-reporting-solutions-for-knowlege-management.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/analytics-and-reporting-solutions-for-knowlege-management.md)
 
 **Related topics**  
 
 
-[Platform Analytics Solutions](https://www.servicenow.com/docs/access?context=content-packs-in-form-analytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+[bundle-par.content-packs-in-form-analytics]
 
-[Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+[bundle-par.c_PremiumPerformanceAnalytics]
 

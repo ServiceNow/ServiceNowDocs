@@ -2,6 +2,7 @@
 title: NowChatService class - iOS
 description: The NowChatService class provides Virtual and Live Agent chat capabilities.Initializes a new NowChatService instance.Creates a UIViewController that hosts the chat user interface.Shuts down the chat service, including any active chat sessions.Starts a chat session.Starts a chat session and executes a completion block after chat session has started.Subscribes to the unread message count listener.Unsubscribes from receiving the unread message count listener.Updates the NowChat UI theme with the specified UI theme. Use this function to update the chat UI theme after it has been initially set using the makeChatUI\(\) function such as when changing the theme from light to dark.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.html
 release: xanadu
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -31,7 +32,7 @@ configuration
 
 </td><td>
 
-Configuration settings provided when the service was initialized.Data type: [NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationiOSStruct.md#)
+Configuration settings provided when the service was initialized.Data type: [NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ Type of session.Possible values:
 Data type: SessionType
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowChatService - init\(configuration: NowServiceConfiguration, delegate: NowChatServiceDelegate?, coreServiceProvider: NowCoreServiceProviding? = nil\)
 
@@ -89,7 +90,7 @@ configuration
 
 </td><td>
 
-[NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationiOSStruct.md#)
+[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)
 
 </td><td>
 
@@ -143,12 +144,12 @@ let chatService = NowChatService(configuration: serviceConfig, delegate: delegat
 
 Creates a `UIViewController` that hosts the chat user interface.
 
-Although this function creates the chat UI, you must still initiate the chat session by calling the startChat\(\) function. You should make this call as the chat UI becomes visible. For more details, see the associated sample application and the [Mobile SDK Developer Guide - iOS](../../../../../../integrate/guides/mobile_sdk/mobile_sdk-ios/concept/mobsdk-ios-overview.md).
+Although this function creates the chat UI, you must still initiate the chat session by calling the startChat\(\) function. You should make this call as the chat UI becomes visible. For more details, see the associated sample application and the [Mobile SDK Developer Guide - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/mobsdk-ios-overview.md).
 
 |Name|Type|Description|
 |----|----|-----------|
 |theme|NowChatThemeable Object|Theme information for the chat UI to create.|
-|chatOptions|[NowChatOptions?](../../NowChatOptions/concept/NowChatOptionsiOS.md#)|Optional. Options to apply to the chat session.|
+|chatOptions|[NowChatOptions?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)|Optional. Options to apply to the chat session.|
 
 <table id="table_mkt_lvj_npb" class="returns"><thead><tr><th>
 
@@ -252,7 +253,7 @@ func makeViewState() -> ViewState {
 
 Starts a chat session.
 
-**Note:** If you want to execute a completion task after the chat session is started, use the [NowChatService - startChat\(contextData: \[String: Any\]? = nil, \_ completion: @escaping \(Result&lt;Void, NowChatServiceError&gt;\)\)](NowChatServiceiOSAPI.md#) function.
+**Note:** If you want to execute a completion task after the chat session is started, use the [NowChatService - startChat\(contextData: \[String: Any\]? = nil, \_ completion: @escaping \(Result&lt;Void, NowChatServiceError&gt;\)\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md) function.
 
 <table id="table_myg_12k_npb" class="parameters"><thead><tr><th>
 
@@ -276,7 +277,7 @@ contextData
 
 </td><td>
 
-Optional. Dictionary containing chat context variables that are passed into the chat session.For additional information on chat context variables, see [Live agent chat context variables](https://www.servicenow.com/docs/access?context=live-agent-chat-context-vars&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+Optional. Dictionary containing chat context variables that are passed into the chat session.For additional information on chat context variables, see .
 
 </td></tr></tbody>
 </table><table id="table_nyg_12k_npb" class="returns"><thead><tr><th>
@@ -357,7 +358,7 @@ contextData
 
 </td><td>
 
-Optional. Dictionary containing chat context variables that are passed into the chat session.For additional information on chat context variables, see [Live agent chat context variables](https://www.servicenow.com/docs/access?context=live-agent-chat-context-vars&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+Optional. Dictionary containing chat context variables that are passed into the chat session.For additional information on chat context variables, see .
 
 </td></tr><tr><td>
 
@@ -551,7 +552,7 @@ Updates the NowChat UI theme with the specified UI theme. Use this function to u
 
 |Name|Type|Description|
 |----|----|-----------|
-|theme|[NowChatThemeable](../../NowChatThemeable/concept/NowChatThemeableiOSProtocol.md)|Theme to update the chat UI with.|
+|theme|[NowChatThemeable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatThemeableiOSProtocol.md)|Theme to update the chat UI with.|
 
 |Type|Description|
 |----|-----------|

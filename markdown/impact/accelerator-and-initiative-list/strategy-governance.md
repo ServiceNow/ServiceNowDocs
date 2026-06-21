@@ -2,6 +2,7 @@
 title: Strategy Governance
 description: Guidance on aligning ServiceNow strategic roadmap to business outcomes
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/strategy-governance.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

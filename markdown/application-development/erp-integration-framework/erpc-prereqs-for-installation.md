@@ -2,6 +2,7 @@
 title: Requirements for installing ERP Data Hub
 description: Before you install ERP Data Hub, you must complete several configurations, on both the ERP \(Enterprise Resource Planning\) system and on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erpc-prereqs-for-installation.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,14 +18,14 @@ Before you install ERP Data Hub, you must complete several configurations, on bo
 
 ## Licensing
 
-You must have a license and get entitlement to ERP Data Hub for installation. For more information, see [Licensing](../../custom-application/reference/licensing.md).
+You must have a license and get entitlement to ERP Data Hub for installation. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/licensing.md).
 
 ## ServiceNow AI Platform plugins
 
 The following plugins and servers are required for installing ERP Data Hub:
 
--   Integration Hub plugin \(for more information, see [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)\)
--   Remote Tables plugin \(for more information, see [Activate the remote tables plugin](https://www.servicenow.com/docs/access?context=activate-remote-tables-plugin&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)\)
+-   Integration Hub plugin \(for more information, see \)
+-   Remote Tables plugin \(for more information, see \)
 -   MID Server: The MID Server must be configured to install ERP Data Hub. See the following section for more information.
 
 ## MID Server requirements
@@ -40,12 +41,12 @@ Find your MID Server on the ServiceNow AI Platform in **All** &gt; **MID Server*
 1.  In the **Supported applications** tab, edit the list to include ERP Data Hub.
 2.  In the **Capabilities** tab, in addition to **ALL**, edit the list to include ERP Data Hub.
 
-    ![MID server record related lists with capabilities tab displayed showing ERP Data Hub and all.](../image/erpc-mid-server-capabilities.png)
+    \[Omitted image "erpc-mid-server-capabilities.png"\] Alt text: MID server record related lists with capabilities tab displayed showing ERP Data Hub and all.
 
 
-For more information, see [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For more information, see .
 
-Assign the mid\_user user the sn\_erp\_integration.erp\_mid\_server role. The role enables the [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) to use the ImportSet API to send data to the ServiceNow instance.
+Assign the mid\_user user the sn\_erp\_integration.erp\_mid\_server role. The role enables the  to use the ImportSet API to send data to the ServiceNow instance.
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Users**
 2.  Find and select the **mid\_user**.
@@ -97,11 +98,11 @@ For required spokes, contact the admin of your SAP ECC RFC account to obtain the
 -   Create a record called "SAP Jco so" and attach `libsapjco3.so`. Use this file if your MID Server is installed on a Linux server.
 -   Create a record called "SAP Eco Jar" and attach `sapjco3.jar`. Use this file for both Windows and Linux.
 
-**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see [Synchronize a JAR file to MID Servers](https://www.servicenow.com/docs/access?context=t_SynchronizeAJARFiletoMIDServers&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see .
 
 The MID Server restarts multiple times during this process.
 
-For more information on spoke integration, see [SAP ECC RFC Spoke](https://www.servicenow.com/docs/access?context=sap-ecc-rfc-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+For more information on spoke integration, see .
 
 ## SAP configuration
 
@@ -115,5 +116,5 @@ Additionally, you need the following on your ERP system:
 -   SAP S/4HANA \(all versions supported\)
 -   SAP Java Connector
 
-**Parent Topic:**[Configuring ERP Data Hub](../concept/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

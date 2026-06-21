@@ -2,6 +2,7 @@
 title: Integrating with Tableau Cloud
 description: Integrating your Software Asset Management application with the Tableau Cloud application enables you to track your software subscriptions and to reclaim stale licenses.Register a Tableau Cloud application through the Tableau Cloud admin portal.Create an integration profile to track software subscriptions and optimize licensing for the Tableau Cloud service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/integrate-with-tableau-cloud.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -29,7 +30,7 @@ Register a Tableau Cloud application through the Tableau Cloud admin portal.
 
 ### Before you begin
 
--   Activate the Tableau spoke. For more information, see [Tableau spoke](https://www.servicenow.com/docs/access?context=tableau-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+-   Activate the Tableau spoke. For more information, see .
 -   Tableau Cloud Role required: site administrator
 
 ### Procedure
@@ -70,7 +71,7 @@ Register a Tableau Cloud application through the Tableau Cloud admin portal.
 
             The Connected App that you created gets displayed on the Connected Apps page. By default, the Connected App is inactive.
 
-        8.  To enable the Connected App, select the ellipsis icon \(![Ellipsis icon.](../../../reuse/icons/product-icons/ellipsis-horizontal-outline-24.svg)\) next to the Connected App name and then select **Enable**.
+        8.  To enable the Connected App, select the ellipsis icon \(\[Omitted image "ellipsis-horizontal-outline-24.svg"\] Alt text: Ellipsis icon.\) next to the Connected App name and then select **Enable**.
 
             The status of the Connected App shows as enabled.
 
@@ -101,15 +102,15 @@ If you’re using the Software Asset Workspace, the option to create the integra
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d36725e472">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d38705e471">
 
 Interface
 
-</th><th align="left" id="d36725e475">
+</th><th align="left" id="d38705e474">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d36725e481">
+</th></tr></thead><tbody><tr><td id="d38705e480">
 
 **Core UI**
 
@@ -120,7 +121,7 @@ Action
 3.  Select **Tableau Cloud**.
 
 
-</td></tr><tr><td id="d36725e523">
+</td></tr><tr><td id="d38705e522">
 
 **Software Asset Workspace**
 
@@ -198,7 +199,7 @@ The **Subflow** field is automatically set to **Tableau Cloud Reclaim Subscripti
 
     A draft integration profile is created. The integration profile uses the Tableau Cloud Download Subscriptions subflow to retrieve user data from the Tableau Cloud application.
 
-4.  Open the connection &amp; credential aliases record by selecting the preview icon \(![Preview icon.](../../../common/image/Form_ReferenceLookupIcon.png)\) beside the **Connection &amp; Credential** field.
+4.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Preview icon.\) beside the **Connection &amp; Credential** field.
 
 5.  Select **Open Record** in the record preview.
 
@@ -256,7 +257,7 @@ Token Name
 
 </td><td>
 
-The Token name that you provided while registering the Tableau Cloud application by using the PAT authentication type.For more information, see [Register a Tableau Cloud application](integrate-with-tableau-cloud.md#).
+The Token name that you provided while registering the Tableau Cloud application by using the PAT authentication type.For more information, see [Register a Tableau Cloud application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-tableau-cloud.md).
 
 </td></tr><tr><td>
 
@@ -264,7 +265,7 @@ Token Secret
 
 </td><td>
 
-The Token secret that you copied while registering the Tableau Cloud application by using the PAT authentication type.For more information, see [Register a Tableau Cloud application](integrate-with-tableau-cloud.md#).
+The Token secret that you copied while registering the Tableau Cloud application by using the PAT authentication type.For more information, see [Register a Tableau Cloud application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-tableau-cloud.md).
 
 </td></tr><tr><td>
 
@@ -286,7 +287,7 @@ Secret ID
 
 </td><td>
 
-The Secret ID that you copied while registering the Tableau Cloud application by using the JWT authentication type.For more information, see [Register a Tableau Cloud application](integrate-with-tableau-cloud.md#).
+The Secret ID that you copied while registering the Tableau Cloud application by using the JWT authentication type.For more information, see [Register a Tableau Cloud application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-tableau-cloud.md).
 
 </td></tr><tr><td>
 
@@ -294,7 +295,7 @@ Secret Value
 
 </td><td>
 
-The Secret value that you copied while registering the Tableau Cloud application by using the JWT authentication type.For more information, see [Register a Tableau Cloud application](integrate-with-tableau-cloud.md#).
+The Secret value that you copied while registering the Tableau Cloud application by using the JWT authentication type.For more information, see [Register a Tableau Cloud application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-tableau-cloud.md).
 
 </td></tr><tr><td>
 
@@ -332,18 +333,18 @@ Life span of the generated JSON Web Token \(JWT\).Default value: 3600 sec
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../task/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/run-recon-workspace.md).
 

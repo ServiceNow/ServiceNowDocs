@@ -2,6 +2,7 @@
 title: Calendar integration
 description: With email notifications, you can use import export maps to leverage information about records and integrate with Outlook or another calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_CalendarIntegration.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -33,10 +34,10 @@ The instance uses the **External Name** value as the variable name in the email 
 |dtstart|*$\{dtstart*\}|change\_request|start\_date|Planned start date|
 |dtend|*$\{dtend*\}|change\_request|end\_date|Planned end date|
 
--   **[Map date fields to iCalendar variables](../task/t_MapDateFieldsToiCalVariables.md)**  
+-   **[Map date fields to iCalendar variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_MapDateFieldsToiCalVariables.md)**  
 You can specify what fields provide the date information in calendar invitation notifications by changing the field mappings of the *dtstart* and *dtend* variables in the import export map for the iCalendar invitation.
--   **[Create iCalendar invitations for custom tables](../task/t_CRiCalendarInvCustomTables.md)**  
+-   **[Create iCalendar invitations for custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CRiCalendarInvCustomTables.md)**  
 To generate iCalendar invitations that use field values from custom tables, create an import export map that computes the values of the iCalendar fields.
 
-**Parent Topic:**[Email templates](../concept/c_EmailTemplates.md)
+**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailTemplates.md)
 

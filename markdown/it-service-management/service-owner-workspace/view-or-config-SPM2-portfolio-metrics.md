@@ -2,6 +2,7 @@
 title: Configure Service Owner Workspace portfolio metrics
 description: Decide which metrics to configure for your service portfolio to measure the performance of your service offerings in Service Owner Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/view-or-config-SPM2-portfolio-metrics.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -21,11 +22,11 @@ Role required: admin or portfolio\_admin
 
 ## About this task
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. Customers who opt in for the new standard portfolio structure use metrics calculated from key performance indicators \(KPIs\) in Digital Portfolio Management \(DPM\). For more information, see [Digital Portfolio Management](../../digital-portfolio-management/reference/dpm-landing.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. Customers who opt in for the new standard portfolio structure use metrics calculated from key performance indicators \(KPIs\) in Digital Portfolio Management \(DPM\). For more information, see [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-landing.md).
 
 <table id="table_e2x_rbr_nkb"><tbody><tr><td>
 
-![Set up Service Owner Workspace](../image/SOWSetupBanner2.png "Navigate")
+\[Omitted image "SOWSetupBanner2.png"\] Alt text: Set up Service Owner Workspace
 
 </td></tr></tbody>
 </table>## Procedure
@@ -50,6 +51,6 @@ Role required: admin or portfolio\_admin
 
 5.  Click **Submit**.
 
-    For more information about Service Owner Workspace metrics and weight configuration, see [Service Owner Workspace performance metrics](../concept/understanding-SPM2-perform-metrics.md).
+    For more information about Service Owner Workspace metrics and weight configuration, see [Service Owner Workspace performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/understanding-SPM2-perform-metrics.md).
 
 

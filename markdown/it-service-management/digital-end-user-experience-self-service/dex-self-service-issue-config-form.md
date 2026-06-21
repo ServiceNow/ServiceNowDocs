@@ -2,6 +2,7 @@
 title: DEX Self-service issue configuration form
 description: The DEX Self-service issue configuration form presents elaborate data on the form's fields and their corresponding descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-self-service/dex-self-service-issue-config-form.html
 release: xanadu
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -130,7 +131,7 @@ Resolution
 
 </td><td>
 
-Enter the resolution code.**Note:** The resolutions are provided from ServiceNow Proactive Engagement. To configure the resolutions, see [Configuring Proactive Engagement resolutions with DEX](../../proactive-engagement/configuring-metric-rule.md).
+Enter the resolution code.**Note:** The resolutions are provided from ServiceNow Proactive Engagement. To configure the resolutions, see [Configuring Proactive Engagement resolutions with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/proactive-engagement/configuring-metric-rule.md).
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Renew certificate using ACME automated flow of DNS challenge
 description: Request to renew the certificate and automatically retrieve the certificates for an application using an Automated Certificate Management Environment \(ACME\) automated flow of DNS challenge.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/renew-certificate-using-acme-automated-flow-dns.html
 release: xanadu
 product: Discovery
 classification: discovery

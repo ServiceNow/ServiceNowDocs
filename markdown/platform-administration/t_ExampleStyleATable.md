@@ -2,6 +2,7 @@
 title: Add a table to an HTML editor
 description: Add and format an example table to a knowledge article using HTML field controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ExampleStyleATable.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -21,9 +22,9 @@ Role required: admin
 
 In this task, you create and format a table in either htmlArea or TinyMCE v6.8.3. The resulting tables should look similar to one of the following images.
 
-![Table example html](../image/TableExampleHTML.png "Table example in htmlArea")
+\[Omitted image "TableExampleHTML.png"\] Alt text: Table example html
 
-![TinyMCE v6.8.3 Table example](../image/TinyMCEV6-table-example.png "Table example in TinyMCE v6.8.3")
+\[Omitted image "TinyMCEV6-table-example.png"\] Alt text: TinyMCE v6.8.3 Table example
 
 If you enter alternative values for aspects such as width, cell spacing, cell padding, border, and alignment, the resulting table varies from the examples given.
 
@@ -101,5 +102,5 @@ If you enter alternative values for aspects such as width, cell spacing, cell pa
 10. Enter data in the table cells and then save the article.
 
 
-**Parent Topic:**[Table functions in HTML field editor](../reference/r_TinyMCEVersion4Editor.md)
+**Parent Topic:**[Table functions in HTML field editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_TinyMCEVersion4Editor.md)
 

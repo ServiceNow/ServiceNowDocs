@@ -2,6 +2,7 @@
 title: Standard ERP Data Hub fields within remote tables
 description: The standard ERP \(Enterprise Resource Planning\) remote tables available for use in ERP Data Hub contain fields from additional SAP tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erpi-standard-tables-within-tables.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,7 +16,7 @@ breadcrumb: [ERP Data Hub standard tables, fields, and models, ERP Data Hub refe
 
 The standard ERP \(Enterprise Resource Planning\) remote tables available for use in ERP Data Hub contain fields from additional SAP tables.
 
-The standard remote tables contain the following additional fields. For details on the standard tables, see [Standard remote tables for ERP Data Hub](erpi-standard-remote-tables.md).
+The standard remote tables contain the following additional fields. For details on the standard tables, see [Standard remote tables for ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpi-standard-remote-tables.md).
 
 |Remote table|Source table|ERP field name|Mapped field name|
 |------------|------------|--------------|-----------------|
@@ -177,5 +178,5 @@ The standard remote tables contain the following additional fields. For details 
 |SAP Transport|E071|OBJ\_NAME|object\_name|
 |SAP Transport|E071|PGMID|program\_id|
 
-**Parent Topic:**[ERP Data Hub standard tables, fields, and models](erp-canvas-standard-tables-and-fields-landing.md)
+**Parent Topic:**[ERP Data Hub standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

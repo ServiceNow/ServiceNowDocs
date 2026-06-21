@@ -2,6 +2,7 @@
 title: Configure worker profile settings
 description: Configure parameters to ensure that worker profiles are synchronized between Workday and ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/config-w-sync.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

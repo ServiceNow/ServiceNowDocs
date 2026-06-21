@@ -2,6 +2,7 @@
 title: Create a service provider
 description: Administrators can configure service providers for devices that use SMS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateAServiceProvider.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** Service providers such as AT&amp;T and Verizon may soon be deprecating the **email-to-text** functionality. See [Using Notify with SMS](https://www.servicenow.com/docs/access?context=c_NotifySMS&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for SMS delivery.
+**Important:** Service providers such as AT&amp;T and Verizon may soon be deprecating the **email-to-text** functionality. See  for SMS delivery.
 
 Administrators also have the option of configuring how a device's service provider affects the construction of the device's email address.
 
@@ -123,10 +124,10 @@ Optional attributes of an SMS device used inside an SMS service provider's **Adv
 
 </td></tr></tbody>
 </table>
--   **[Select a service provider](t_SelectingAServiceProvider.md)**  
+-   **[Select a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_SelectingAServiceProvider.md)**  
 You can configure how a device's service provider affects the construction of the device's email address.
--   **[SMS notification advanced scripting](../reference/r_SMSNotificationAdvancedScripting.md)**  
+-   **[SMS notification advanced scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_SMSNotificationAdvancedScripting.md)**  
 You can use these objects and their attributes in your advanced notification scripts on the SMS Notification Service Provider form.
 
-**Parent Topic:**[Subscription-based notifications](../concept/c_SubscriptionBasedNotifications.md)
+**Parent Topic:**[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_SubscriptionBasedNotifications.md)
 

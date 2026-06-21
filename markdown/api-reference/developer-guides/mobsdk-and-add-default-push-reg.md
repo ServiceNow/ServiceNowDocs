@@ -2,6 +2,7 @@
 title: Add a default push registration
 description: Register the push notification so that all users of your application receive the push notifications by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/developer-guides/mobsdk-and-add-default-push-reg.html
 release: xanadu
 product: Developer Guides
 classification: developer-guides
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  In **Notification**, enter `Virtual Agent Message Push Notification`.
 
-    ![VA message push notification](../../image/mobsdk-push-default_reg.png)
+    \[Omitted image "mobsdk-push-default\_reg.png"\] Alt text: VA message push notification
 
 5.  Select **Submit**.
 

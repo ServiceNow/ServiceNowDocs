@@ -2,6 +2,7 @@
 title: Integrating with PagerDuty
 description: Integrating your Software Asset Management application with the PagerDuty application enables you to track your software subscriptions and to reclaim unused licenses.Create a PagerDuty application to integrate with your ServiceNow instance.After you create a PagerDuty application, configure OAuth 2.0 application to administer PagerDuty and access user-specific data on user login.Create a PagerDuty integration profile to track software subscriptions and optimize licensing for your PagerDuty applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/integrate-with-pagerduty.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -77,8 +78,8 @@ Create a PagerDuty application to integrate with your ServiceNow instance.
 
 ### Before you begin
 
--   Activate the PagerDuty spoke. For more information, see [PagerDuty Spoke](https://www.servicenow.com/docs/access?context=pagerduty-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
--   PagerDuty Role required: Refer to the [Minimal user permissions](integrate-with-pagerduty.md#) table.
+-   Activate the PagerDuty spoke. For more information, see .
+-   PagerDuty Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-pagerduty.md) table.
 
 ### Procedure
 
@@ -118,13 +119,13 @@ After you create a PagerDuty application, configure OAuth 2.0 application to adm
 
 ### Before you begin
 
-PagerDuty Role required: Refer to the [Minimal user permissions](integrate-with-pagerduty.md#) table.
+PagerDuty Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-pagerduty.md) table.
 
 ### Procedure
 
 1.  On the Add New App page of your PagerDuty account, select **Scoped OAuth** or **Classic User OAuth** in the Authorization section.
 
-    For more information about the permission scopes, refer to the [Minimal user permissions](integrate-with-pagerduty.md#) table.
+    For more information about the permission scopes, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-pagerduty.md) table.
 
 2.  In the **Redirect URL** field, enter the URL of the OAuth provider that users are redirected to after authentication.
 
@@ -159,15 +160,15 @@ If you’re using Software Asset Workspace, the option to create the PagerDuty i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d107923e649">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d106054e648">
 
 Interface
 
-</th><th align="left" id="d107923e652">
+</th><th align="left" id="d106054e651">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d107923e658">
+</th></tr></thead><tbody><tr><td id="d106054e657">
 
 **Core UI**
 
@@ -178,7 +179,7 @@ Action
 3.  Select **PagerDuty Integration Profile**.
 
 
-</td></tr><tr><td id="d107923e700">
+</td></tr><tr><td id="d106054e699">
 
 **Software Asset Workspace**
 
@@ -244,7 +245,7 @@ Type of integration profile. This field is automatically set to `PagerDuty Subsc
 
     **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
-    You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+    You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 5.  On the **Reclaim Subscription Subflow** tab, verify that the **Subflow** field is set to `PagerDutyReclaim Subscription Subflow`.
 
@@ -252,7 +253,7 @@ Type of integration profile. This field is automatically set to `PagerDuty Subsc
 
     Your ServiceNow instance creates a draft integration profile. The integration profile uses the PagerDuty Download Subscriptions, PagerDuty Update User Activity, and PagerDuty Reclaim Subscription subflows to retrieve user data from the PagerDuty application.
 
-7.  Open the connection &amp; credential aliases record by selecting the preview icon \(![Preview icon.](../image/preview-icon.png)\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+7.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 8.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -267,7 +268,7 @@ Type of integration profile. This field is automatically set to `PagerDuty Subsc
 
 10. Select **Create and Get OAuth Token**.
 
-    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](integrate-with-pagerduty.md#) table.
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-pagerduty.md) table.
 
     You’re redirected to the PagerDuty Accounts page.
 
@@ -284,18 +285,18 @@ Type of integration profile. This field is automatically set to `PagerDuty Subsc
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../task/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/run-recon-workspace.md).
 

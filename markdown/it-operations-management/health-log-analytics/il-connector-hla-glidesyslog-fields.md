@@ -2,6 +2,7 @@
 title: ServiceNow System Logs Retriever integration configuration fields
 description: Description of the fields on the ServiceNow System Logs Retriever integration configuration form for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-glidesyslog-fields.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -49,5 +50,5 @@ Description
 Option to add a brief description of the integration to help identify it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure a ServiceNow System Logs connector](../task/il-connector-hla-glide-syslog.md)
+</table>**Parent Topic:**[Configure a ServiceNow System Logs connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-glide-syslog.md)
 

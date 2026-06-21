@@ -2,6 +2,7 @@
 title: Preconfigured in-form analytics
 description: Preconfigured in-form analytics are available as plugins for several applications and their associated tables and forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/available-in-form-analytics.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ Preconfigured in-form analytics are available as plugins for several application
 |Performance Analytics - Context Sensitive Analytics for Incident|com.snc.pa.incident.context\_sensitive\_analytic|Incident \[incident\]|
 |Performance Analytics - Context Sensitive Analytics for Problem Management|com.snc.pa.problem.context\_sensitive\_analytic|Problem \[problem\]|
 
-**Note:** When you activate a plugin for preconfigured in-form analytics, you also activate the Performance Analytics Solution for that application. For more information, see [Analytics solutions](../concept/content-packs-in-form-analytics.md).
+**Note:** When you activate a plugin for preconfigured in-form analytics, you also activate the Performance Analytics Solution for that application. For more information, see [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/content-packs-in-form-analytics.md).
 
-**Parent Topic:**[In-form analytics](../../performance-analytics/concept/in-form-analytics.md)
+**Parent Topic:**[In-form analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/in-form-analytics.md)
 

@@ -2,7 +2,10 @@
 title: Set email notification preferences
 description: Customers can set preferences for email notifications that are sent when customer service agents perform different actions on cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_SetEmailNotificationPref.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

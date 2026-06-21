@@ -2,6 +2,7 @@
 title: Map an individual OT device to an equipment model entity
 description: Perform on-demand mapping of an OT device to the ISA equipment model entity for the sites that you have access to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/industrial-process-manager/automatedly-map-ot-assets-to-isa-entities.html
 release: xanadu
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -19,8 +20,8 @@ Perform on-demand mapping of an OT device to the ISA equipment model entity for 
 
 The following plugins must be installed:
 
--   [Operational Technology Manager](../../mftg-manufacturing-oper-tech-mgr/concept/operational-technology-manager.md)
--   [Industrial Process Manager](../../mftg-manufacturing-process-mgr/concept/industrial-process-manager-overview.md)
+-   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/operational-technology-manager.md)
+-   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
 
 Role required: sn\_ot\_amazing\_write and cmdb\_ot\_viewer
 
@@ -34,12 +35,12 @@ Role required: sn\_ot\_amazing\_write and cmdb\_ot\_viewer
 
 3.  In the Related Links section, select **Map OT device**.
 
-    ![OT devices form related links section- platform UI](../image/map-ot-device.png)
+    \[Omitted image "map-ot-device.png"\] Alt text: OT devices form related links section- platform UI
 
 
 ## Result
 
 If there is an active OT subnet that matches the IP address and site of the selected device, the device is mapped.
 
-**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

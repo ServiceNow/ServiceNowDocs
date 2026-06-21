@@ -2,6 +2,7 @@
 title: Exploring Software Asset Management
 description: The Software Asset Management application's user interface is enhanced to make it more user friendly and intuitive, allowing you to better manage your software installations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/explore-sam-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -27,7 +28,7 @@ For releases prior to Xanadu, if you activated the older Software Asset Manageme
 
 **Note:** After the Software Asset Workspace is activated, the menus in the classic Software Asset Management application are hidden for the features that have been moved to the Software Asset Workspace.
 
-For detailed information on configuring and using the Software Asset workspace, refer to [Configuring Software Asset Workspace](Config-sam-workspace.md) and [Using Software Asset Workspace](sam-workspace.md).
+For detailed information on configuring and using the Software Asset workspace, refer to [Configuring Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/Config-sam-workspace.md) and [Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace.md).
 
 ## Using the classic Software Asset Management application
 
@@ -35,7 +36,7 @@ To continue using the classic Software Asset Management application, you need to
 
 If you later decide to use the Software Asset Workspace, you need to activate the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin.
 
-For detailed information on using the classic Software Asset Management application, refer to [Using Software Asset Management classic](using-sam-classic.md).
+For detailed information on using the classic Software Asset Management application, refer to [Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/using-sam-classic.md).
 
 ## Menus that continue to reside in Software Asset Management classic
 
@@ -91,68 +92,68 @@ Software Asset Demand
  
 
 </td></tr></tbody>
-</table>-   **[Software Asset Management overview](c_SAMOverview.md)**  
+</table>-   **[Software Asset Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMOverview.md)**  
 An overview of the functionality of the Software Asset Management application.
--   **[Now Mobile app for Software Asset Management](now-moile-app-for-sam.md)**  
+-   **[Now Mobile app for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/now-moile-app-for-sam.md)**  
 Use the Now Mobile app to view the hardware and software assets that are assigned to you.
--   **[Virtual Agent for software requests](virtual-agent-software-request-auto-allocation.md)**  
+-   **[Virtual Agent for software requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/virtual-agent-software-request-auto-allocation.md)**  
 You can implement ServiceNow® Virtual Agent to enable your employees to request software through a predefined conversational interface that is powered by artificial intelligence. Virtual Agent helps address software requests automatically so that your IT fulfillment professionals can focus on more complex requests and incidents.
--   **[Software Asset Management Content Service](c_SAMContentService.md)**  
+-   **[Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMContentService.md)**  
 Opt in to the Software Asset Management Content Service to share unnormalized software installation data from your organization with ServiceNow to improve the normalization process.
--   **[Software models and Software entitlements](software-models-and-entitlements.md)**  
+-   **[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/software-models-and-entitlements.md)**  
 A software model is a profile of the software that you've purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you've purchased.
--   **[Software model relationship to software installation](swmodel-swinstall-rel.md)**  
+-   **[Software model relationship to software installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/swmodel-swinstall-rel.md)**  
 Associating each software installation with a software model lets you perform audit reporting of licensable and non-licensable software.
--   **[Software license metrics](c_SAMLicenseMetrics.md)**  
+-   **[Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md)**  
 License metrics are set in software entitlements and used for reconciliation in various metric groups and software model combinations.
--   **[Software discovery and normalization](c_SAMDiscovery.md)**  
+-   **[Software discovery and normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMDiscovery.md)**  
 After you've imported your entitlements, use ServiceNow Discovery or Microsoft SCCM to discover software installations in your environment and transfer that data into the ServiceNow AI Platform.
--   **[Software Asset Management software suites](software-suites.md)**  
+-   **[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/software-suites.md)**  
 Software Suites is a way for a software publisher to group related applications as a set.
--   **[Discovery models and software installations](c_DiscoveryModels.md)**  
+-   **[Discovery models and software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_DiscoveryModels.md)**  
 Software discovery models are automatically created during discovery to identify and normalize the software installed in your environment.
--   **[End of Life \(EOL\) and End of Support \(EOS\) life cycles](calculated-lifecycles.md)**  
+-   **[End of Life \(EOL\) and End of Support \(EOS\) life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/calculated-lifecycles.md)**  
 In the absence of vendor-provided life cycles, use calculated life cycles to assess and manage your risks by creating EOL and EOS life cycles for your software products. You can also use approximated dates to improve life cycle coverage.
--   **[File Signature Normalization](sam-file-based-discovery.md)**  
+-   **[File Signature Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-file-based-discovery.md)**  
 File-based discovery finds files on UNIX or Windows servers and processes them with an established set of rules that enhance the identification of installed software. Use the results to monitor specific file types on network servers for security purposes or to manage your software licenses with the File Signature Normalization plugin for Software Asset Management - Professional \(SAMP\).
--   **[Downgrade Rights](downgrade-rights.md)**  
+-   **[Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/downgrade-rights.md)**  
 The concept of downgrading licenses is built into the Software Asset Management plugin feature. Downgrade rights is the process of having acquired the rights to the latest version of software but using the rights to license earlier versions of the same software.
--   **[Software license maintenance](software-license-maintenance.md)**  
+-   **[Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/software-license-maintenance.md)**  
 Get visibility into your software maintenance entitlements to effectively manage these licenses throughout their life cycle.
--   **[Software Asset Management health check](sam-health-check.md)**  
+-   **[Software Asset Management health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-health-check.md)**  
 The Health Check ServiceNow Store application gives a correct and reliable overview of your Software Asset Management configurations and recommends you to correct any errors that may exist.
--   **[Reconciliation of licenses across global entities](reconcile-licenses-global-entities.md)**  
+-   **[Reconciliation of licenses across global entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/reconcile-licenses-global-entities.md)**  
 Share entitlements across different entities within your organization by creating consumption rules for entitlements.
--   **[Software reconciliation for compliance](c_SAMReconciliation.md)**  
+-   **[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMReconciliation.md)**  
 Automated license reconciliation keeps license positions accurate and up-to-date without manual calculations. Reconciliation runs weekly or on demand.
--   **[Software reclamation rules](sw-reclamation-rules.md)**  
+-   **[Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sw-reclamation-rules.md)**  
 Reclamation rules aggregate usage over time and specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
--   **[Software installation optimization and removal](c_SAMOptimization.md)**  
+-   **[Software installation optimization and removal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMOptimization.md)**  
 You can optimize your environment by reclaiming unused software as well as removing unauthorized software.
--   **[Allocation management on Software Asset Management](allocation-management-sam.md)**  
+-   **[Allocation management on Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/allocation-management-sam.md)**  
 Software Asset Management \(SAM\) offers optimal license assignment confirming that licensing entities are allocated according to the available entitlements.
--   **[Employee off-boarding process for asset reclamation](itasset-offboarding.md)**  
+-   **[Employee off-boarding process for asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/itasset-offboarding.md)**  
 Coordinate an employee's off-boarding process via a workflow that lets you request, assess, and remove assets.
--   **[Bring your own license or subscription to the public cloud](byol-concepts.md)**  
+-   **[Bring your own license or subscription to the public cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/byol-concepts.md)**  
 Bring your own license \(BYOL\) support enables you to determine the license compliance of your Microsoft and Oracle software products across hybrid infrastructures. Bring your own subscription \(BYOS\) support enables you to determine the license compliance of your Red Hat Enterprise Linux \(RHEL\) software products across hybrid infrastructures.
--   **[Understanding your cluster infrastructure](understand-sam-cluster.md)**  
+-   **[Understanding your cluster infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/understand-sam-cluster.md)**  
 Get a holistic and strategic analysis of all the entities in your clusters in one view on the Software Asset Management application.
--   **[Executive insights into KPIs using the Asset Management Executive dashboard](itam-exec-dashboard.md)**  
+-   **[Executive insights into KPIs using the Asset Management Executive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/itam-exec-dashboard.md)**  
 Use the Asset Management Executive dashboard to gain visibility into critical KPIs for the Software Asset Management application, Hardware Asset Management application, and the Cloud Cost Management application via a single dashboard.
--   **[Cloud cost simulation](cloud-cost-simulator.md)**  
+-   **[Cloud cost simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/cloud-cost-simulator.md)**  
 Simulate the cost of moving your on-premise resources to the cloud environment before performing the migration.
--   **[Software asset connections](third-party-discovery-sam.md)**  
+-   **[Software asset connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/third-party-discovery-sam.md)**  
 Use third-party discovery sources to discover the installed software data that you can integrate with the Software Asset Management application.
--   **[Use Software Asset Management with Governance, Risk, and Compliance](sam_riskmgmt.md)**  
+-   **[Use Software Asset Management with Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam_riskmgmt.md)**  
 Use the Software Asset Management application in conjunction with the Governance, Risk, and Compliance suite of applications to holistically work on compliance, risk, and regulatory aspects.
--   **[Using Software Asset Management with Agent Client Collector](sam-agentclientcollector.md)**  
+-   **[Using Software Asset Management with Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-agentclientcollector.md)**  
 Use the Agent Client Collector application to collect software inventory and usage data for the Software Asset Management application.
--   **[Use Software Asset Management and Application Portfolio Management to manage technology onboarding](sam-tpm.md)**  
+-   **[Use Software Asset Management and Application Portfolio Management to manage technology onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-tpm.md)**  
 Use the Software Asset Management application along with Technology Reference Model \(TRM\) of Application Portfolio Management to manage onboarding of technologies.
--   **[Software Asset Management Guided Experiences](playbook-entitlementsetup-workspace.md)**  
+-   **[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)**  
 The Software Asset Management Guided Experiences application provides step-by-step guidance for completing tasks in your daily software management activities.
--   **[Engineering license servers](eng-license-server.md)**  
+-   **[Engineering license servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/eng-license-server.md)**  
 View the list of all the license management servers that OpenLM or Open iT connect with to get data into your ServiceNow instance.
 
-**Parent Topic:**[Software Asset Management](c_SoftwareAssetMgmt.md)
+**Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

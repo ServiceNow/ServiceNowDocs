@@ -2,11 +2,12 @@
 title: Recording automations
 description: Capture your actions from your desktop or web applications and convert them into an automation flow by using the recorder option in the RPA Desktop Design Studio application. You can record attended and unattended automations by using this capability. When you record an automation, you don't have to create it manually by using connectors or components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/recording-automations.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 4
 breadcrumb: [Using automations, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Creating integrations with applications]
 ---
@@ -21,7 +22,7 @@ Capture your actions from your desktop or web applications and convert them into
 
 When you use the recorder, you can highlight the different elements in an application. These highlights enable you to differentiate the different type of elements. You can then perform the required action for each element. Each element has a default action and a list of sub-actions.
 
-![Highlighting an element when using the recorder.](../image/action-recorder-highlight.png "Highlighting an element by using the recorder")
+\[Omitted image "action-recorder-highlight.png"\] Alt text: Highlighting an element when using the recorder.
 
 ## Recorded actions pane
 
@@ -33,7 +34,7 @@ When a recording is saved, the RPA Desktop Design Studio application generates a
 
 ## Configuring the screen match rules
 
-The screens and elements of the recording are also configured as objects to **Global Objects**. You can configure the screen match rules and the element attributes based on your preference, by using the Universal App Connector. For more information on how to use the Universal App Connector, see [Universal app connector](universal-app-connector.md).
+The screens and elements of the recording are also configured as objects to **Global Objects**. You can configure the screen match rules and the element attributes based on your preference, by using the Universal App Connector. For more information on how to use the Universal App Connector, see [Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/universal-app-connector.md).
 
 ## Enhanced element interrogations
 
@@ -41,21 +42,21 @@ The screens and elements of the recording are also configured as objects to **Gl
 
 When you record an action in the application, the element name is automatically filled in the Recorded actions pane. The element name is captured from the target application. In the following example, while recording the SendKeys action, the element name "Location" is automatically filled, followed by "with text" and the keys or text value that is inputted by the user during the recording phase. If no default element name is available in the target application, the type of element is used as the name.
 
-![SendKeys action on element name "Location".](../../../release-notes/image/recording-screen-element.png "SendKeys Action type")
+\[Omitted image "recording-screen-element.png"\] Alt text: SendKeys action on element name "Location".
 
 ## Rearrange recorded actions
 
 You can move and position your recorded actions and screens in the Recorded actions pane. You can also rearrange recorded elements in the Recorded actions pane. The recorded screen segment is split when a recorded action from a screen segment is dropped on to a different screen segment.
 
-![Rearranged elements in the Recorded actions pane.](../../../release-notes/image/recorder-screen-split.png "Rearranged elements in the Recorded actions pane")
+\[Omitted image "recorder-screen-split.png"\] Alt text: Rearranged elements in the Recorded actions pane.
 
 For example, when you record two actions of the QUOTES SYSTEM application, \(DoubleClick and Click\) and two actions of the Badge Tool application \(Focus and GetText\). Then, the list of actions are displayed in the Recorded actions pane, in the order in which they are recorded.
 
-![Actions in the Recorded actions pane before rearranging.](../image/applications-actions-before-rearranging-rpa.png "Actions in the Recorded actions pane before rearranging")
+\[Omitted image "applications-actions-before-rearranging-rpa.png"\] Alt text: Actions in the Recorded actions pane before rearranging.
 
 When you move the Focus action from the Badge Tool application to the top of the list and above the QUOTES SYSTEM application. Then, the list of actions are displayed as follows in the Recorded actions pane, after the hierarchy is rearranged. The recordings of the QUOTES SYSTEM application are split.
 
-![Actions in the Recorded actions pane after rearranging.](../image/applications-actions-after-rearranging-rpa.png "Actions in the Recorded actions pane after rearranging")
+\[Omitted image "applications-actions-after-rearranging-rpa.png"\] Alt text: Actions in the Recorded actions pane after rearranging.
 
 When you save the recording, the automation is generated accordingly. The automation flow is generated based on the new sequence of actions in the Recorded actions pane.
 
@@ -63,11 +64,11 @@ When you save the recording, the automation is generated accordingly. The automa
 
 Instead of deleting and re-recording an action, you can update the action type or element details by editing the recorded action, using the Edit action icon, in the Recorded actions pane. For example, you can edit the "GetText" action type on "About" element name in the following image.
 
-![Edit action on the Recorded actions panel.](../../../release-notes/image/recorder-action-edit.png "Edit a recorded action")
+\[Omitted image "recorder-action-edit.png"\] Alt text: Edit action on the Recorded actions panel.
 
 After selecting the edit action, you can change the action type to "SetText" or element name to "Tools" from "About" and select **Update**, as shown in the following example.
 
-![Select the Update button after editing the recorded action.](../../../release-notes/image/recorder-edit-second-step.png "Update the recorded action after editing")
+\[Omitted image "recorder-edit-second-step.png"\] Alt text: Select the Update button after editing the recorded action.
 
 ## Launch application
 
@@ -84,10 +85,10 @@ Using a recorder to create an automation provides the following benefits:
 
 For information on the known issues and limitations for recording automations, see [Known issues and limitations of RPA Desktop Design Studio for recording automations \[KB1225708\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1225708).
 
--   **[Record an automation](../task/create-recorded-automation.md)**  
+-   **[Record an automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-recorded-automation.md)**  
 Record an automation by using the recorder option in the RPA Desktop Design Studio application. The actions that you perform on the application elements can be saved as an automation flow to the automation project.
--   **[Types of elements and actions for the recorder](../reference/element-actions-recorder.md)**  
+-   **[Types of elements and actions for the recorder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/element-actions-recorder.md)**  
 The actions are the activities that you can perform on an application element such as a text box, button, hyperlinks, and so on. By using these actions, you can build an automation flow in the RPA Desktop Design Studio recorder.
 
-**Parent Topic:**[Using automations](rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/rpa-studio-use.md)
 

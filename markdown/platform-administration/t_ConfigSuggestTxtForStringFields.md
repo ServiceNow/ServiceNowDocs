@@ -2,6 +2,7 @@
 title: Configure suggested text for string fields
 description: You can configure the suggested text options for string fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ConfigSuggestTxtForStringFields.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -32,7 +33,7 @@ Role required: personalize\_choices
 
 ## Example
 
-![Configure choices](../image/PersonalizeChoices.png)
+\[Omitted image "PersonalizeChoices.png"\] Alt text: Configure choices
 
-**Parent Topic:**[Suggestion field type](t_AddingASuggestionField.md)
+**Parent Topic:**[Suggestion field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_AddingASuggestionField.md)
 

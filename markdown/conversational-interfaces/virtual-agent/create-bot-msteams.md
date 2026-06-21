@@ -2,6 +2,7 @@
 title: Create a Bot in Microsoft Teams
 description: You must create a bot in Microsoft Teams to be able to integrate with the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/create-bot-msteams.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -52,5 +53,5 @@ Role required: none
 
 ## What to do next
 
-[Integrate your Self-configured bot with single Microsoft Teams tenant](teams-install-custom-app.md).
+[Integrate your Self-configured bot with single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/teams-install-custom-app.md).
 

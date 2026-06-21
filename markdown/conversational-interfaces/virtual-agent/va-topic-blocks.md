@@ -2,6 +2,7 @@
 title: Topic Block utility
 description: Use a Topic Block in a Virtual Agent conversation to perform a specific function or subflow that runs certain steps in a calling topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-topic-blocks.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ Use a Topic Block in a Virtual Agent conversation to perform a specific function
 
 ## Topic Block utility properties
 
-For more information, see [Add a reusable topic block to a calling topic or topic block](../task/add-topic-blocks-to-topic.md).
+For more information, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).
 
 <table id="table_nff_y1b_3db"><thead><tr><th>
 
@@ -60,11 +61,11 @@ Input mapping
 
 The variables to be used as input to the selected topic block. For example, the following image has example variables:
 
- ![In this example, input mapping variables include catalog item ID, execute contextual search, confirm catalog item, and show end state card.](../images/map-tb-input-values.png)
+ \[Omitted image "map-tb-input-values.png"\] Alt text: In this example, input mapping variables include catalog item ID, execute contextual search, confirm catalog item, and show end state card.
 
  The contents of this area change according to the topic block you selected. Options may include string input, referenced records, scripts, and so forth.
 
- With **Use dynamic Topic Block** active, you add all input mappings manually instead by selecting the Manage inputs to define icon ![Manage inputs to define icon.](../images/manage-inputs-outputs.png). Inputs are handled similarly to the Input Parameters dialog box in the Start segment of a [reusable topic block](../task/create-topic-blocks.md).
+ With **Use dynamic Topic Block** active, you add all input mappings manually instead by selecting the Manage inputs to define icon \[Omitted image "manage-inputs-outputs.png"\] Alt text: Manage inputs to define icon.. Inputs are handled similarly to the Input Parameters dialog box in the Start segment of a [reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-topic-blocks.md).
 
 </td></tr><tr><td>
 
@@ -74,11 +75,11 @@ Output mapping
 
 The variables to be output by the selected topic block. For example, the following image has example variables that are enabled:
 
- ![In this example, output mapping variables include record ID, record table, and user option variables.](../images/map-output-vars-tb.png)
+ \[Omitted image "map-output-vars-tb.png"\] Alt text: In this example, output mapping variables include record ID, record table, and user option variables.
 
  The contents of this area change according to the topic block you selected.
 
- With **Use dynamic Topic Block** active, you add all input mappings manually instead by selecting the Manage outputs to define icon ![Manage outputs to define icon.](../images/manage-inputs-outputs.png). Inputs are handled similarly to the Input Parameters dialog box in the Start segment of a reusable topic block.
+ With **Use dynamic Topic Block** active, you add all input mappings manually instead by selecting the Manage outputs to define icon \[Omitted image "manage-inputs-outputs.png"\] Alt text: Manage outputs to define icon.. Inputs are handled similarly to the Input Parameters dialog box in the Start segment of a reusable topic block.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -99,7 +100,7 @@ A no-code condition statement or low-code script that specifies a condition for 
 </td></tr></tbody>
 </table>## Example Topic Block utilities
 
-![Topic Block utility properties include the reference to an available topic block, input mapping variables to the topic block, and the output variables that the topic block will pass.](../images/topic-block-initial-props.png)![Topic Block utility properties with the Use dynamic Topic Block toggle switch turned on.](../images/topic-block-dynamic.png)
+\[Omitted image "topic-block-initial-props.png"\] Alt text: Topic Block utility properties include the reference to an available topic block, input mapping variables to the topic block, and the output variables that the topic block will pass.\[Omitted image "topic-block-dynamic.png"\] Alt text: Topic Block utility properties with the Use dynamic Topic Block toggle switch turned on.
 
 ## Using dynamic Topic Blocks
 
@@ -133,5 +134,5 @@ You can create two separate Topic Block invocations to handle the password-reset
 
 The script in the dynamic Topic Block expression returns a value based on your input. In this example, if you input `Ford` or `Toyota`, the Virtual Agent will call for the appropriate troubleshooting topic. If you input any other value, the Virtual Agent returns a general troubleshooting topic instead.
 
-**Parent Topic:**[Virtual Agent Designer utilities](va-utilities.md)
+**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-utilities.md)
 

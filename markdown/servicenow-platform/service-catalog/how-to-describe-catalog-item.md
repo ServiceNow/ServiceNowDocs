@@ -2,6 +2,7 @@
 title: How to describe a catalog item
 description: Now Assist uses the description that you write to generate a catalog item for you. If you're using Now Assist for creating a catalog item, use these points to describe your catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-catalog/how-to-describe-catalog-item.html
 release: xanadu
 product: Service Catalog
 classification: service-catalog
@@ -32,5 +33,5 @@ Now Assist uses the description that you write to generate a catalog item for yo
 
 **Note:** If your description contains offensive or inappropriate content, Now Assist recognizes such content, and might not generate the catalog item for you.
 
-**Parent Topic:**[Catalog item generation reference](catalog-item-generation-reference.md)
+**Parent Topic:**[Catalog item generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 

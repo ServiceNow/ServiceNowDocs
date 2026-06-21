@@ -2,6 +2,7 @@
 title: Now Assist Creator role
 description: The \[now.assist.creator\] role grants users access to Now Assist for Creator skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/now-assist-for-creator/creator-roles-1.html
 release: xanadu
 product: Now Assist for Creator
 classification: now-assist-for-creator

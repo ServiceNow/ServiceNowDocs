@@ -2,6 +2,7 @@
 title: Claim a Phone number
 description: Claim a Phone number to set up IVR \(Interactive Voice Response\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/claim-phone-nmbr-ivr.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -48,5 +49,5 @@ Role required: admin
 
 ## What to do next
 
-Invoke an automated caller interaction with bots to fulfill the caller's request within the ServiceNow instance. For more information, see [Configure a contact flow for an automated caller interaction](https://www.servicenow.com/docs/access?context=establish-automated-bot-interactions&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Invoke an automated caller interaction with bots to fulfill the caller's request within the ServiceNow instance. For more information, see Configure a contact flow for an automated caller interaction.
 

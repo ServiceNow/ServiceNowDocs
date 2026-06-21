@@ -2,6 +2,7 @@
 title: Set up escalation policies for your team in SRM
 description: Set up an escalation policy for your team to ensure that alerts or incidents are resolved in a timely manner by the appropriate team member.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-create-escalation-policies.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -37,7 +38,7 @@ An escalation policy is a set of guidelines that outlines how and when incidents
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the teams icon \(![Teams.](../image/icon-sr-teams.png)\).
+2.  From the left navigation pane, select the teams icon \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select the **Escalation triggers and policies** tab.
 
@@ -45,19 +46,19 @@ An escalation policy is a set of guidelines that outlines how and when incidents
 
 5.  On the Escalation policy form, fill in the fields.
 
-    For more information, see [Set up escalation policies form in SRM](../reference/sr-set-up-escalation-policies-form.md)
+    For more information, see [Set up escalation policies form in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-set-up-escalation-policies-form.md)
 
 6.  Select **Add escalation step** to define the additional steps for escalation and escalation path.
 
-    For more information on the Add escalation step form, see [Set up escalation policies form in SRM](../reference/sr-set-up-escalation-policies-form.md).
+    For more information on the Add escalation step form, see [Set up escalation policies form in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-set-up-escalation-policies-form.md).
 
 7.  Select **Save changes**.
 
 8.  Add another escalation policy to the team for another category of alert or incident by selecting **Add a policy**.
 
 
--   **[Escalation triggers in SRM](sr-trigger-escalation-policy.md)**  
+-   **[Escalation triggers in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.md)**  
 Trigger an escalation policy for the associated team.
 
-**Parent Topic:**[Working with SRM teams](../concept/sr-work-teams.md)
+**Parent Topic:**[Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-teams.md)
 

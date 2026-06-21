@@ -2,6 +2,7 @@
 title: Update other assigned audit tasks in Audit Workspace
 description: Update the audit tasks such as walkthroughs and interviews that are assigned to you when you get a notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/audit-management/update-assigned-audit-tasks-ws.html
 release: xanadu
 product: Audit Management
 classification: audit-management
@@ -27,7 +28,7 @@ Audit tasks are completed throughout an engagement and provide documented eviden
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Click the tasks icon \(![Tasks icon.](../image/TasksIcon.jpg)\).
+2.  Click the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
 
     The workspace opens listing **All** tasks in the **My pending tasks** tab. You can view **All – Audit tasks** assigned to you.
 

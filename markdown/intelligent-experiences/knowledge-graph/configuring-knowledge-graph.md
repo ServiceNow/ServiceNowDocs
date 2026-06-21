@@ -2,6 +2,7 @@
 title: Configuring Knowledge Graph
 description: Plan and configure Knowledge Graph implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.html
 release: xanadu
 product: Knowledge Graph
 classification: knowledge-graph
@@ -26,5 +27,5 @@ On activation, the following Knowledge Graph plugins are installed by default:
 
 To implement the Knowledge Graph adoption, you must configure Knowledge Graph for Virtual Agent.
 
-For OOTB integration with Now Assist Virtual Agent for Slot filling, configure Knowledge Graph in Virtual Agent. Refer [Configuring Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US) for admin guided setup.
+For OOTB integration with Now Assist Virtual Agent for Slot filling, configure Knowledge Graph in Virtual Agent. Refer  for admin guided setup.
 

@@ -2,6 +2,7 @@
 title: Set up the Oracle EBS spoke
 description: Integrate the ServiceNow instance and your Oracle EBS instance using a basic authentication to authenticate the ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-oebs-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -30,7 +31,7 @@ Integrate the ServiceNow instance and your Oracle EBS instance using a basic aut
 
 3.  In SQL Developer or an SQL client, compile all the PKB and PLS files in the APPS schema.
 
-    ![Compile the PLS and PKB files.](../image/oebs-compile.png)
+    \[Omitted image "oebs-compile.png"\] Alt text: Compile the PLS and PKB files.
 
 4.  In Oracle EBS server, deploy the Oracle EBS REST API.
 
@@ -54,7 +55,7 @@ Integrate the ServiceNow instance and your Oracle EBS instance using a basic aut
 
         2.  If you aren't generating .ildt file for the XXSN\_CREATE\_PO\_PKG.pls file, replace `po` and `$PO_TOP` with required `Top`.
         3.  If you aren't generating .ildt file for the XXSN\_CREATE\_PO\_PKG.pls file, replace `XXSN_CREATE_PO_PKG.pls` with the required package name.
-        ![Uploaded package name](../image/oebs-package-name.png)
+        \[Omitted image "oebs-package-name.png"\] Alt text: Uploaded package name
 
     3.  Upload the generated iLDT file to Integration repository by executing this command:
 
@@ -64,21 +65,21 @@ Integrate the ServiceNow instance and your Oracle EBS instance using a basic aut
 
         **Note:** Replace `XXSN_CREATE_PO_PKG_` with the required package name.
 
-        ![Package name](../image/oebs-pkg-name.png)
+        \[Omitted image "oebs-pkg-name.png"\] Alt text: Package name
 
     4.  Log in to your Oracle E-Business Suite instance as system administrator.
 
     5.  Switch to the **Integrated SOA Gateway** responsibility and select **Integration Repository**.
 
-        ![Select Integration Repository.](../image/oebs-integration-repo.png)
+        \[Omitted image "oebs-integration-repo.png"\] Alt text: Select Integration Repository.
 
     6.  Search for the web service with the internal name, `XXSN_CREATE_PO_PKG`.
 
-        ![Search with the internal name of web service.](../image/oebs-search-int-name.png)
+        \[Omitted image "oebs-search-int-name.png"\] Alt text: Search with the internal name of web service.
 
     7.  Click the link in the search result to access the list of available metods in the interface package.
 
-        ![PLSQL interface.](../image/oebs-plsql-interface.png)
+        \[Omitted image "oebs-plsql-interface.png"\] Alt text: PLSQL interface.
 
         **Note:** In the PL/SQL interface type, both SOAP and REST web services are available. However, this procedure focuses on the REST web service.
 
@@ -88,13 +89,13 @@ Integrate the ServiceNow instance and your Oracle EBS instance using a basic aut
         2.  Click **Deploy**.
     9.  View the Create PO method by clicking the **REST Web Service** tab.
 
-        ![Deploy the services.](../image/oebs-ret-emp-num.png)
+        \[Omitted image "oebs-ret-emp-num.png"\] Alt text: Deploy the services.
 
-        ![Deploy the services.](../image/oebs-ret-emp-num2.png)
+        \[Omitted image "oebs-ret-emp-num2.png"\] Alt text: Deploy the services.
 
     10. Enter the unique service alias name, select the **Create PO** method, and click **Deploy**.
 
-        ![Deployment confirmation,](../image/oebs-conf-msg.png)
+        \[Omitted image "oebs-conf-msg.png"\] Alt text: Deployment confirmation,
 
         A confirmation message is displayed that the service is successfully deployed.
 
@@ -102,21 +103,21 @@ Integrate the ServiceNow instance and your Oracle EBS instance using a basic aut
 
     12. Open the **Grants** tab, select **Create PO**, and click **Create Grant**.
 
-        ![](../image/oebs-create-grant.png)
+        \[Omitted image "oebs-create-grant.png"\] Alt text:
 
     13. Select a grantee type, enter the user name to whom you want to give the grant access to use the web service, and click **Create Grant**.
 
-        ![Grant access to use the web service.](../image/oebs-give-grant.png)
+        \[Omitted image "oebs-give-grant.png"\] Alt text: Grant access to use the web service.
 
         A confirmation message is displayed mentioning that the grant has been successfully created.
 
-        ![Confirmation message.](../image/oebs-grant-conf.png)
+        \[Omitted image "oebs-grant-conf.png"\] Alt text: Confirmation message.
 
         **Note:** To revoke grant, click **Revoke Grants** in the **Grants** tab and select the required users.
 
     14. Perform the above steps for all the required actions and ensure that you use the same names \(associated with the respective action\) as mentioned in the Resource Path column of the following table:
 
-        ![Action names.](../image/action-alias-oebs.png)
+        \[Omitted image "action-alias-oebs.png"\] Alt text: Action names.
 
     15. Restart the server and using PuTTY, perform these steps up on logging in to the Oracle EBS server.
 

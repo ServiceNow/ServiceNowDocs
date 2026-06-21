@@ -2,7 +2,10 @@
 title: Assign a team member to an account
 description: Assign a team member to an account by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application. When you assign a team member to an account with account manager responsibility, they can view the information and perform actions on behalf of the accounts, such as creating or updating cases from the customer portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_AssignTeamMemberToAccount.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

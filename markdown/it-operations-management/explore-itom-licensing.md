@@ -2,7 +2,10 @@
 title: Exploring ITOM/OT SU Licensing
 description: Learn more about ServiceNow ITOM/OT SU Licensing, the different ITOM subscriptions it includes, and its benefit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/explore-itom-licensing.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,6 +24,6 @@ The ITOM/OT SU Licensing application calculates and displays how many subscripti
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Viewing the usage of ITOM applications to make informed decisions about your ITOM subscriptions, allowing your organization to optimize resource allocation more effectively.|[Review resource usage against allocated subscription units](../task/view-resource-usage-licenses.md)|admin|
-|Analyzing resource usage and status in comparison to your purchased subscriptions is facilitated by dashboard reports. These reports visually present both the daily usage count and the average consumption of subscription units over a 90-day period.|[ITOM/OT SU Licensing dashboard](../../../use/dashboards/application-content-packs/itom-licensing-dashboard.md)|admin|
+|Viewing the usage of ITOM applications to make informed decisions about your ITOM subscriptions, allowing your organization to optimize resource allocation more effectively.|[Review resource usage against allocated subscription units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/view-resource-usage-licenses.md)|admin|
+|Analyzing resource usage and status in comparison to your purchased subscriptions is facilitated by dashboard reports. These reports visually present both the daily usage count and the average consumption of subscription units over a 90-day period.|[ITOM/OT SU Licensing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-licensing-dashboard.md)|admin|
 

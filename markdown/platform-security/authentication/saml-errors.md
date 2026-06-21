@@ -2,6 +2,7 @@
 title: Multi-SSO \(SAML 2.0\) errors and fixes
 description: A list of common errors and associated fixes for a Multi-SSO \(SAML 2.0\) setup and configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/saml-errors.html
 release: xanadu
 product: Authentication
 classification: authentication

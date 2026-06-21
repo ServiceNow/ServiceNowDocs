@@ -2,6 +2,7 @@
 title: Request an exception in the IT Remediation Workspace
 description: Request an exception for the host vulnerable item \(VIT\), application vulnerability item \(AVIT\), container vulnerable item \(CVIT\) and remediation task \(VUL, AVUL, CVUL, or CRG\) from the IT Remediation Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/it-remediation-workspace/vr-ws-request-exception.html
 release: xanadu
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -42,7 +43,7 @@ Starting with version 19.0 of Vulnerability Response, you can request exceptions
 
 Starting with version 18.0, you can request exceptions for application vulnerability items and container vulnerability items.
 
-For more information about requesting exceptions in the classic environment, see [Request an exception for a remediation task](raise-exception-vg.md).
+For more information about requesting exceptions in the classic environment, see [Request an exception for a remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/vulnerability-response/raise-exception-vg.md).
 
 ## Procedure
 

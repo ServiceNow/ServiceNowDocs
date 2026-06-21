@@ -2,6 +2,7 @@
 title: Add a custom field mapping in the staging table for Service Graph
 description: Add a custom field to the staging table and map the custom field from the staging table to the CI field through Excel SGC.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/add-new-column-mappings-excel-service-graph.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -17,9 +18,9 @@ Add a custom field to the staging table and map the custom field from the stagin
 
 ## Before you begin
 
-To configure the form layout, see [Configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+To configure the form layout, see Configure the form layout.
 
-To create a custom field on the staging table, see [Add and customize a field in a table](https://www.servicenow.com/docs/access?context=t_CreatingNewFields&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+To create a custom field on the staging table, see Add and customize a field in a table.
 
 Roles required:
 
@@ -32,17 +33,17 @@ Roles required:
 
 2.  Download the Excel template.
 
-    For more information, see [Download Excel template](download-excel-template.md).
+    For more information, see [Download Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/download-excel-template.md).
 
     If records are present in the staging table, you can edit the value for the column in the existing records.
 
 3.  Prepare the Excel template.
 
-    For more information, see [Preparing your Pre-import OT worksheet entry review tool for Service Graph Connector import](preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
+    For more information, see [Preparing your Pre-import OT worksheet entry review tool for Service Graph Connector import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
 
 4.  Import the Excel template.
 
-    For more information, see [Import Excel template](import-excel-template.md).
+    For more information, see [Import Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/import-excel-template.md).
 
 5.  Navigate to **All** &gt; **Industrial Workspace Admin** &gt; **OT Manager** &gt; **Import OT Devices - Script Includes** and select the `SGOTAssetImportExcelConstants` script include.
 
@@ -52,7 +53,7 @@ Roles required:
 
     Make sure that there is a comma \(,\) added at the end of the line above the new line. In this example, a comma is added after the "custom\_fields": "custom\_fields" line.
 
-    ![Updated ETL column name with SGOTAssetImportExcelConstants.](../image/custom-field-new.png)
+    \[Omitted image "custom-field-new.png"\] Alt text: Updated ETL column name with SGOTAssetImportExcelConstants.
 
 7.  Select **Update** to save your changes.
 
@@ -64,11 +65,11 @@ Roles required:
 
 11. From the ETL Transform Map Assistant, in the Specify Basic Details section of the guided setup, select **Import Source Data and Provide Basic Details**.
 
-    ![Select step 1: Provide basic information for the ETL Transform Map.](../image/step-1-provide-basic-info-etl-transform.png)
+    \[Omitted image "step-1-provide-basic-info-etl-transform.png"\] Alt text: Select step 1: Provide basic information for the ETL Transform Map.
 
 12. In the **Sample Import Set** field, select **Auto-pull a new import set**.
 
-    ![Sample Import Set field, select Auto-pull a new import set.](../image/sample-import-set-auto-pull-new-set.png)
+    \[Omitted image "sample-import-set-auto-pull-new-set.png"\] Alt text: Sample Import Set field, select Auto-pull a new import set.
 
 13. Select **Save**.
 
@@ -78,7 +79,7 @@ Roles required:
 
 15. From the ETL Transform Map Assistant page, in the Prepare Source Data for Mapping section, select **Preview and prepare data**.
 
-    ![Preview and prepare data.](../image/prepare-source-data.png)
+    \[Omitted image "prepare-source-data.png"\] Alt text: Preview and prepare data.
 
     If the column is not visible, repeat the steps 11 through 14.
 
@@ -94,31 +95,31 @@ Roles required:
 
     2.  For the Hardware 1 class, select **Edit Mapping**.
 
-        ![Select CMDB Classes to Map Source Data](../image/select-cmdb-clasess-map-source-data.png)
+        \[Omitted image "select-cmdb-clasess-map-source-data.png"\] Alt text: Select CMDB Classes to Map Source Data
 
 19. In the Add Attribute dialog box that appears, from the **Attribute** list, select **Comments**.
 
-    ![Map Hardware 1 class - Add Attribute dialog box.](../image/map-hardware-add-attribute-dialog.png)
+    \[Omitted image "map-hardware-add-attribute-dialog.png"\] Alt text: Map Hardware 1 class - Add Attribute dialog box.
 
 20. Select **Save**.
 
     A new field named “Comments” is displayed. You may need to scroll to see the field.
 
-    ![New comments field added.](../image/map-hardware-1-new-comments-field.png)
+    \[Omitted image "map-hardware-1-new-comments-field.png"\] Alt text: New comments field added.
 
 21. From the Data pane, drag the data pill to the Comments **Source Column** field.
 
-    ![Map to hardware.](../image/map-cmdb.png)
+    \[Omitted image "map-cmdb.png"\] Alt text: Map to hardware.
 
-    You can also select the source column icon \( ![Source column icon.](../image/source-column-icon.png) \) to select the data mapping field for it.
+    You can also select the source column icon \( \[Omitted image "source-column-icon.png"\] Alt text: Source column icon. \) to select the data mapping field for it.
 
     The Source Column includes the data pill.
 
-    ![Source Column field filled with a data pill.](../image/map-cmdb-1.png)
+    \[Omitted image "map-cmdb-1.png"\] Alt text: Source Column field filled with a data pill.
 
 22. Navigate back to the **CMDB Classes to Map Source Data** of the Map Data to CMDB and Add Relationships section in the ETL Transform Map Assistant page.
 
-    ![Navigate back to the CMDB Classes to Map Source Data page.](../image/map-hardware-navigate-back-cmdb-classes.png)
+    \[Omitted image "map-hardware-navigate-back-cmdb-classes.png"\] Alt text: Navigate back to the CMDB Classes to Map Source Data page.
 
 23. Select **Mark as Complete**.
 
@@ -128,7 +129,7 @@ Roles required:
 
     2.  In the Preview Sample Integration Results and Schedule Import section of the guided setup, select **Test and Rollback Integration Results**.
 
-        ![ETL Transform Map Assistant - Test and Rollback Integration Results.](../image/etl-test-rollback.png)
+        \[Omitted image "etl-test-rollback.png"\] Alt text: ETL Transform Map Assistant - Test and Rollback Integration Results.
 
     3.  Select **Run Integration**.
 
@@ -136,16 +137,16 @@ Roles required:
 
     5.  Select **Mark as Complete**.
 
-        ![After the Test and Rollback Integration Results successfully runs, confirm that the Excel sheet is updated.](../image/test-rollback-integration.png)
+        \[Omitted image "test-rollback-integration.png"\] Alt text: After the Test and Rollback Integration Results successfully runs, confirm that the Excel sheet is updated.
 
     6.  Select **Perform Rollback**.
 
-        ![Select Perform Rollback.](../image/rollback-options-plc.png)
+        \[Omitted image "rollback-options-plc.png"\] Alt text: Select Perform Rollback.
 
     7.  If the ETL is not activated, select **Activate**.
 
     The new column field mapping is successfully added and verified.
 
 
-**Parent Topic:**[Service Graph Connector for Microsoft Excel](../concept/service-graph-connector-for-OT-excel.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)
 

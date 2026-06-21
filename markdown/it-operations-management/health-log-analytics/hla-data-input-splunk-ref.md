@@ -2,6 +2,7 @@
 title: Splunk data input configuration fields
 description: Description of the fields on the Splunk data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-data-input-splunk-ref.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -92,5 +93,5 @@ The protocol used for streaming log messages to your ServiceNow instance.-   TCP
 |Character encoding|The character encoding for this data input.|UTF-8|
 |Drop if queue is full|Option for selecting to discard logs if there is a load on the MID Server.| |
 
-**Parent Topic:**[Configure data inputs \(Splunk\)](../task/hla-data-input-splunk.md)
+**Parent Topic:**[Configure data inputs \(Splunk\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-splunk.md)
 

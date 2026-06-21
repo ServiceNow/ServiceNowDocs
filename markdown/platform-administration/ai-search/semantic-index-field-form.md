@@ -2,6 +2,7 @@
 title: Semantic Index Field form
 description: The Semantic Index Field form contains information about a field from an AI Search indexed source that you want to index for semantic vector search. Use this form when defining or modifying semantic index fields in a semantic index configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/semantic-index-field-form.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -15,9 +16,9 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Semantic Index Field form contains information about a field from an AI Search indexed source that you want to index for semantic vector search. Use this form when defining or modifying semantic index fields in a semantic index configuration.
 
-To learn about defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](../task/configure-semantic-indexing-ais.md). For details on semantic index configuration fields, see [Semantic Index Configuration form](semantic-index-configuration-form.md).
+To learn about defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configure-semantic-indexing-ais.md). For details on semantic index configuration fields, see [Semantic Index Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/semantic-index-configuration-form.md).
 
-**Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one [Now Assist application](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) installed.
+**Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one Now Assist application installed.
 
 <table id="table_t1b_wjh_xcc"><thead><tr><th>
 
@@ -87,5 +88,5 @@ Name of the source table field to include in the semantic index. This field's va
  This field is automatically set to **attachment\_body** when **Attachment** is selected from **Type**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ais.md)
 

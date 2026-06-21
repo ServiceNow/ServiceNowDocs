@@ -2,6 +2,7 @@
 title: Download the Excel template
 description: Download the Microsoft Excel template to create and populate a Microsoft Excel spreadsheet with your existing Operational Technology data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/download-excel-template.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -32,7 +33,7 @@ Role required: admin
     |Insert|Use this template to add new records to a table.|
     |Update|Use this template to change values within existing records in a table. This template contains one row for each record in the list. The current list filter determines what records the template contains.|
 
-    ![Download the Excel template.](../image/import-excel-template.png)
+    \[Omitted image "import-excel-template.png"\] Alt text: Download the Excel template.
 
 4.  Clear the **Include all fields in the template** check box to include only the columns that appear in the list in the template.
 
@@ -53,5 +54,5 @@ Open the spreadsheet using your preferred application.
 
 The template contains a **Directions** tab describing how to use the template.
 
-**Parent Topic:**[Easy import](../concept/easy-import.md)
+**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/easy-import.md)
 

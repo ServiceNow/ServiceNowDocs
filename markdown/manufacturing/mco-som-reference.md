@@ -2,6 +2,7 @@
 title: Order Management for Manufacturing Commercial Operations reference
 description: Reference topics provide additional information about the Order Management for Manufacturing Commercial Operations application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-som-reference.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-10-09"

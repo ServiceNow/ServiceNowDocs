@@ -2,6 +2,7 @@
 title: Using AI agentic workflows in Now Assist for Security Incident Response
 description: Use the Security Incident Response AI agents to complete your tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/now-assist-for-security-incident-response-sir/using-now-assist-ai-agents-sir.html
 release: xanadu
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -74,14 +75,14 @@ This agentic workflow helps the security analysts to identify a security inciden
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read-only.
 
-To modify an agentic workflow, you must first [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US), and then proceed with the following steps:
+To modify an agentic workflow, you must first , and then proceed with the following steps:
 
--   [Activate](../task/now-assist-sir-activate-agentic-workflow.md) the workflow.
+-   [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/now-assist-sir-activate-agentic-workflow.md) the workflow.
 -   Activate all the AI agents within the workflow.
 -   If required, you can add a trigger to invoke the workflow automatically.
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

@@ -2,6 +2,7 @@
 title: Get started with Project Management
 description: Project Management includes tools to help you create, view, and manage projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/project-management-intro.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -15,12 +16,12 @@ breadcrumb: [Project Management, Project Portfolio Management, Strategic Portfol
 
 Project Management includes tools to help you create, view, and manage projects.
 
-Watch this six-minute video to learn more about the purpose of Project Management, the project workspace, the project template, baseline, additional project considerations, and viewing the project in the workspace.Introduction to Project and Program Management including the purpose of Project Management, the project workspace and template, baseline, project considerations, and viewing the project.
+Watch this six-minute video to learn more about the purpose of Project Management, the project workspace, the project template, baseline, additional project considerations, and viewing the project in the workspace.
 
 Project Management consists of following features:
 
--   [Project workbench](c_ProjectWorkbench.md) gives project managers the ability to manage the different aspects of a project from a single page. This workbench supports both Project Management and Application Lifecycle Management applications, allowing for a hybrid approach to project management. Project managers can create projects that combine both Waterfall and Agile methodologies by using Waterfall, Agile, and Test phases.
--   [Project templates](c_ProjectTemplates.md) define the basic structure of a project, including project tasks and subtasks, attachments, and other project information. The project template feature gives project managers a simple way to create, save, and reuse this project structure.
+-   [Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectWorkbench.md) gives project managers the ability to manage the different aspects of a project from a single page. This workbench supports both Project Management and Application Lifecycle Management applications, allowing for a hybrid approach to project management. Project managers can create projects that combine both Waterfall and Agile methodologies by using Waterfall, Agile, and Test phases.
+-   [Project templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectTemplates.md) define the basic structure of a project, including project tasks and subtasks, attachments, and other project information. The project template feature gives project managers a simple way to create, save, and reuse this project structure.
 
 Project Management also includes features that enable you to achieve your project goals in alignment with the other activities your organization is managing, such as:
 
@@ -30,7 +31,7 @@ Project Management also includes features that enable you to achieve your projec
 
     In this example, the project is in **Delivering** phase. The phase is selected in the **Phase** field on the project record.
 
-    ![screenshot for project phase formatter](../image/PhaseFormatter.png "Project phase formatter")
+    \[Omitted image "PhaseFormatter.png"\] Alt text: screenshot for project phase formatter
 
 
 ## Key terms
@@ -139,5 +140,5 @@ You can use Project Management as a separate application or it can be activated 
 
 This application provides a simplified, team-oriented approach to IT development by combining several individual applications and integrating the different components of the project development life cycle.
 
-**Parent Topic:**[Project Management](c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

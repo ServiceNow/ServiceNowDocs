@@ -2,6 +2,7 @@
 title: Slow transactions log record detail
 description: As an administrator, you can use Slow Transactions logs to gain insight into how transactions are affecting platform performance. To aid in debugging, you can filter transaction log detail by application scope, limiting transactions to only those transactions originating in specific scopes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/slow-transactions-log-record-detail.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"

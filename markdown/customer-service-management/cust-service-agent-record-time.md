@@ -2,7 +2,10 @@
 title: Record time worked for a case or activity
 description: Customer service agents can record time worked on a case or case task as well as time spent on other activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/cust-service-agent-record-time.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ When an agent creates a time worked record, a time card and time sheet are autom
 
 1.  To record time worked from a Case form or Case Task form.
 
-<table id="choicetable_wwf_xcz_jjb"><tbody><tr><td id="d94381e84">
+<table id="choicetable_wwf_xcz_jjb"><tbody><tr><td id="d95470e84">
 
 **Platform interface**
 
@@ -35,13 +38,13 @@ When an agent creates a time worked record, a time card and time sheet are autom
 
 Navigate to a case or task and click **Record Time**.
 
-</td></tr><tr><td id="d94381e96">
+</td></tr><tr><td id="d95470e96">
 
 **Agent Workspace**
 
 </td><td>
 
-Navigate to a case or task, click the more UI actions icon \(![More UI Actions icon.](../image/agent-workspace-more-ui-actions-icon.jpg)\), and click **Record Time**.
+Navigate to a case or task, click the more UI actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\), and click **Record Time**.
 
 </td></tr></tbody>
 </table>    This action opens a Time Worked form with the **Task** and **User** fields already populated.
@@ -64,7 +67,7 @@ Navigate to a case or task, click the more UI actions icon \(![More UI Actions i
 
 7.  Click one of the following actions.
 
-<table id="choicetable_lzj_xhz_acm"><tbody><tr><td id="d94381e214">
+<table id="choicetable_lzj_xhz_acm"><tbody><tr><td id="d95470e214">
 
 **Platform interface**
 
@@ -72,7 +75,7 @@ Navigate to a case or task, click the more UI actions icon \(![More UI Actions i
 
 Click **Submit**.
 
-</td></tr><tr><td id="d94381e226">
+</td></tr><tr><td id="d95470e226">
 
 **Agent Workspace**
 

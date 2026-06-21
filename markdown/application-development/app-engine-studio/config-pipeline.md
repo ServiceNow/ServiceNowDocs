@@ -2,6 +2,7 @@
 title: Configure your pipeline
 description: Configure your App Engine Studio \(AES\) pipeline so that your administrator can quickly move an application from one environment to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/config-pipeline.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,7 +18,7 @@ Configure your App Engine Studio \(AES\) pipeline so that your administrator can
 
 ## Before you begin
 
-You must create all of your pipeline environment records before completing these steps. For more information, see [Configure your pipeline environments](config-pipeline-environments.md).
+You must create all of your pipeline environment records before completing these steps. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/config-pipeline-environments.md).
 
 Role required: admin or app\_engine\_admin
 
@@ -27,7 +28,7 @@ Role required: admin or app\_engine\_admin
 
 2.  Select **New**.
 
-    ![Creating a new pipeline record](../image/new-pipeline-purple.png "Pipeline - new record")
+    \[Omitted image "new-pipeline-purple.png"\] Alt text: Creating a new pipeline record
 
 3.  On the form, fill in the fields.
 
@@ -48,5 +49,5 @@ Role required: admin or app\_engine\_admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Pipelines and Deployments configuration tasks](../reference/p-and-d-config-tasks.md)
+**Parent Topic:**[Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/p-and-d-config-tasks.md)
 

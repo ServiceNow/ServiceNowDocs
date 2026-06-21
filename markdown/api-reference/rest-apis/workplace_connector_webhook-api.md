@@ -2,6 +2,7 @@
 title: Workplace Connector Webhook API
 description: The Workplace Connector Webhook API is a generic interface that enables data from different kinds of workplace hardware or sensors \(such as badging systems or occupancy sensors\) to be stored in Workplace Service Delivery tables.Creates a record in the Connector Events \[sn\_wsd\_wc\_connector\_events\] table and then stores the hardware/sensor-based event data passed in the endpoint's payload into the Payload field of that record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/workplace\_connector\_webhook-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -17,13 +18,13 @@ The Workplace Connector Webhook API is a generic interface that enables data fro
 
 This API runs in the `sn_wsd_wc` namespace. To access this API the Workplace Connectors \(com.sn\_wsd\_wc\) plugin must be activated.
 
-Before calling this API, you must configure records in the Connector Configuration \[sn\_wsd\_wc\_connector\_config\] and Provider Configuration \[sn\_wsd\_wc\_provider\_config\] tables. For information on how to configure these records, see [Configure Workplace Connectors](https://www.servicenow.com/docs/access?context=configure-workplace-connectors&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+Before calling this API, you must configure records in the Connector Configuration \[sn\_wsd\_wc\_connector\_config\] and Provider Configuration \[sn\_wsd\_wc\_provider\_config\] tables. For information on how to configure these records, see .
 
 In addition, you must set up an extension point that defines the data conversion/mapping from the hardware/sensor-based event payload to the target ServiceNow table, such as the Employee Attendance Data \[sn\_wsd\_wc\_employee\_attendance\_data\] table.
 
-For additional information on workplace connector webhooks, see [Workplace Connectors](https://www.servicenow.com/docs/access?context=workplace-connectors-landing-page&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+For additional information on workplace connector webhooks, see .
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Workplace Connector Webhook - POST /workplace\_connector\_webhook/event
 
@@ -137,7 +138,7 @@ Data type: JSON object
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -150,7 +151,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

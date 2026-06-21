@@ -2,6 +2,7 @@
 title: Set the IdP issuer URL
 description: Provide the URL to the IdPs who will issue the security token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/t\_SetTheIdPIssuerURL.html
 release: xanadu
 product: Authentication
 classification: authentication

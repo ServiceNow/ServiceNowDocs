@@ -2,6 +2,7 @@
 title: Customize a Now Assist for Security Incident Response skill
 description: Customize some of the input fields of a generative AI skill to suit the requirements of your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.html
 release: xanadu
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -32,7 +33,7 @@ Roles required: admin
     -   Security incident summarization
     -   Security operations metrics analysis
 
-        This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](assess-metrics-sir-aiagent.md) for more information.
+        This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
 
     -   Correlation insights generation
     -   Post incident analysis
@@ -42,7 +43,7 @@ Roles required: admin
 
 3.  Create a copy of a skill and customize the input fields.
 
-    1.  Select the more actions icon \(![More actions icon.](../../security-incident-response/image/cj-sir-flow-more-icon.png)\) on a card.
+    1.  Select the more actions icon \(\[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon.\) on a card.
 
     2.  Select **Make a copy**.
 
@@ -124,7 +125,7 @@ Now Assist panel
 
 </td><td>
 
-Select the **Display** toggle to display the skill in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Select the **Display** toggle to display the skill in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
 The security incident recommended actions and post-incident analysis skills are not available from the Now Assist panel.
 

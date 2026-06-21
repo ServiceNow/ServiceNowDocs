@@ -2,6 +2,7 @@
 title: Source requests from Enterprise Asset workspace
 description: You can create a request in the Service Catalog application and source that request from the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/source-requests-from-workspace.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -45,5 +46,5 @@ Role required: proc\_user
     A task for transfer order line or purchase order line is created if you selected **Transfer** or **Purchase**. You can open the request to view the task.
 
 
-**Parent Topic:**[Procuring enterprise assets](../concept/procuring-assets.md)
+**Parent Topic:**[Procuring enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/procuring-assets.md)
 

@@ -2,6 +2,7 @@
 title: Use App Engine instead of customization
 description: App Engine development tools, such as Creator Studio, offer an excellent alternative to customizing existing applications on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-config-vs-custom.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio

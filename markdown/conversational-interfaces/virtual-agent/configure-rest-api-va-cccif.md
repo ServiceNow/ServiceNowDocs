@@ -2,6 +2,7 @@
 title: Create and configure a scripted REST API for your custom chat integration
 description: Create a scripted REST API, add a scripted REST resource, set security and content negotiation, and set REST API rate limits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-rest-api-va-cccif.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Create a scripted REST API, add a scripted REST resource, set security and conte
 
 ## Before you begin
 
-[Map rich controls to the channel in your custom chat integration](map-rich-controls-va-cccif.md).
+[Map rich controls to the channel in your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/map-rich-controls-va-cccif.md).
 
 Role required: admin
 
@@ -293,5 +294,5 @@ Users restricted by this rule. Select **All users**.
 
 ## What to do next
 
-[Create the action scripts for your custom chat integration](create-action-scripts-va-cccif.md)
+[Create the action scripts for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-action-scripts-va-cccif.md)
 

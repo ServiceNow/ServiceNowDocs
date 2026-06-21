@@ -2,6 +2,7 @@
 title: ISA Equipment Model system properties
 description: Enable the system properties for the ISA Equipment Model as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/industrial-process-manager/isa-equipment-model-system-properties.html
 release: xanadu
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 
 Enable the system properties for the ISA Equipment Model as needed.
 
-You can access the system properties for the ISA Equipment Model by navigating to **All** &gt; **Industrial Workspace Admin** &gt; **All OT Properties**. For more information about how to view and edit the OT system properties, see [View and edit OT system properties](../task/view-and-edit-ot-system-properties.md).
+You can access the system properties for the ISA Equipment Model by navigating to **All** &gt; **Industrial Workspace Admin** &gt; **All OT Properties**. For more information about how to view and edit the OT system properties, see [View and edit OT system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-process-manager/view-and-edit-ot-system-properties.md).
 
 The following table describes the system properties for the ISA Equipment Model.
 
@@ -25,5 +26,5 @@ The following table describes the system properties for the ISA Equipment Model.
 |sn\_isa\_model.short\_code\_validation\_max\_length|The maximum length for the short code validation.|Integer|
 |sn\_isa\_model.user\_search\_matching\_attribute|The column on the User Table \[sys\_user\] that matches with a user in the system. By default, the Email column on the User table is used.|String|
 
-**Parent Topic:**[Industrial Process Manager reference](manufacturing-process-mgr-reference.md)
+**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
 

@@ -2,6 +2,7 @@
 title: Configure suggested text for journal fields
 description: You can configure the suggested text options for journal fields, such as work notes or the activity stream. Suggested text options for journal fields are unavailable in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ConfigSuggestTxtForJournalFields.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -32,7 +33,7 @@ Role required: personalize\_responses
 
 ## Example
 
-![Configure responses](../image/PersonalizeResponses.png)
+\[Omitted image "PersonalizeResponses.png"\] Alt text: Configure responses
 
-**Parent Topic:**[Suggestion field type](t_AddingASuggestionField.md)
+**Parent Topic:**[Suggestion field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_AddingASuggestionField.md)
 

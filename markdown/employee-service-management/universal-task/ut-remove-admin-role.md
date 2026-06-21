@@ -2,6 +2,7 @@
 title: Remove the Universal Task admin role from the admin role
 description: Remove the sn\_uni\_task.admin role from the admin role so that you can prevent a user with the default admin role from viewing all Universal Task tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/universal-task/ut-remove-admin-role.html
 release: xanadu
 product: Universal Task
 classification: universal-task
@@ -42,9 +43,9 @@ By default, a system administrator also contains the sn\_uni\_task.admin role an
 6.  Click **Save**.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Hide the template bar on the Universal Task form](ut-hide-template-bar.md)
+**Previous topic:**[Hide the template bar on the Universal Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-task/ut-hide-template-bar.md)
 
-**Next topic:**[Email notification layout for Universal Task notifications](../concept/email-notification-ut.md)
+**Next topic:**[Email notification layout for Universal Task notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-task/email-notification-ut.md)
 

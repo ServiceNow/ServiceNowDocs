@@ -2,6 +2,7 @@
 title: Return to Workplace Knowledge Management
 description: Knowledge Management provides information to your employees during the return to workplace process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/safe-workplace/return-workplace-knowledge.html
 release: xanadu
 product: Safe Workplace
 classification: safe-workplace
@@ -26,10 +27,10 @@ The following knowledge articles are provided with Enterprise Employee Experienc
     -   Found in the **Review workplace health &amp; safety guidelines** activity, under the **Get ready to return** activity set, under the **Employee Return to Workplace** lifecycle event.
     -   Also found in the **Return to Workplace Welcome Back** campaign content, under the **Welcome back to the workplace** campaign bundle.
 
-For more information on using HR Knowledge Management, see [HR Knowledge Management](../../human-resources/concept/hr-knowledge-management.md).
+For more information on using HR Knowledge Management, see [HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-knowledge-management.md).
 
--   **[Accessing the Return to Workplace knowledge articles](../task/access-return-workplace-kb.md)**  
+-   **[Accessing the Return to Workplace knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/access-return-workplace-kb.md)**  
 Create or modify knowledge articles to share information across your organization.
 
-**Parent Topic:**[Enterprise Employee Experience Pack](return-workplace-employee-exp-pack.md)
+**Parent Topic:**[Enterprise Employee Experience Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/return-workplace-employee-exp-pack.md)
 

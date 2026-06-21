@@ -2,6 +2,7 @@
 title: Change default values of copied project
 description: Reset or change the default values for copied fields in the new copied partial or complete project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_ModifyTheCopyProjectUIPage.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -70,5 +71,5 @@ Child tasks are defined with the same relationships, each lasting for the same d
 4.  Click **Update**.
 
 
-**Parent Topic:**[Copy a project](t_CopyAProject.md)
+**Parent Topic:**[Copy a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CopyAProject.md)
 

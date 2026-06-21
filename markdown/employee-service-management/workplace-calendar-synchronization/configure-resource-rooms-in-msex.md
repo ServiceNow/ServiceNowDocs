@@ -2,6 +2,7 @@
 title: Configure resource rooms in Microsoft Exchange Online
 description: Specify your delegated user email in the Microsoft portal to access the resource calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/configure-resource-rooms-in-msex.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -42,7 +43,7 @@ The user is configured as the delegated user.
 
 ## What to do next
 
-[Setup personal authentication mode OAuth connectivity with Microsoft Exchange Online](setup-personal-auth-mode-oauth-connectivity-with-msex.md).
+[Setup personal authentication mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/setup-personal-auth-mode-oauth-connectivity-with-msex.md).
 
-**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](../concept/personal-auth-mode-connection-with-msex.md)
+**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
 

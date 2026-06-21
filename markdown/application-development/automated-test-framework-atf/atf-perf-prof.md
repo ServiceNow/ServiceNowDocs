@@ -2,6 +2,7 @@
 title: Performance profiling
 description: Performance profiling allows you to do performance testing on your instances.Execute performance profiling on a test or a suite for performance testing on your instance. You can also detect performance degradation when you upgrade your instance and then investigate and fix the issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/automated-test-framework-atf/atf-perf-prof.html
 release: xanadu
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -21,7 +22,7 @@ You can execute performance profiling on any of your ATF tests or suites. For ea
 
 **Note:** Performance profiling can’t be done on more than 1 test simultaneously. It doesn’t support parallel performance assessment.
 
-![Running a performance test](../image/atf-10-runs.png)
+\[Omitted image "atf-10-runs.png"\] Alt text: Running a performance test
 
 **Note:** When you execute a performance test run, the system pauses and waits for any ongoing jobs to finish before starting the test run. This helps in avoiding any slowdown of your instance.
 

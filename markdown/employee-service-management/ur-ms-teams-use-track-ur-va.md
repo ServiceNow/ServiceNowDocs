@@ -2,7 +2,10 @@
 title: Update or cancel a universal request using Microsoft Teams
 description: Update or cancel a universal request with the help of the Virtual Agent. You can access the Virtual Agent from the Microsoft Teams application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/ur-ms-teams-use-track-ur-va.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -37,8 +40,8 @@ Role required: none
 
 8.  Select the appropriate responses to complete your request.
 
-    For a sample Virtual Agent conversation, see [Universal Request Virtual Agent conversation flows](../../universal-request/concept/ur-va-conversation-flows.md).
+    For a sample Virtual Agent conversation, see [Universal Request Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-request-for-hr-service-delivery/ur-va-conversation-flows.md).
 
 
-**Parent Topic:**[Employee actions](../concept/ur-ms-teams-use-employee.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ur-ms-teams-use-employee.md)
 

@@ -2,6 +2,7 @@
 title: Customize fields for an ERP remote table in ERP Data Hub
 description: Add or remove columns in remote tables in ERP Data Hub to create your ERP \(Enterprise Resource Planning\) model. For example, remove fields with sensitive information, such as birthdays.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-build-remote-table.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -26,7 +27,7 @@ Role required:
 
 ERP Data Hub scans the system of record for the ERP model to find all available fields that you can add to a remote table. You can view all available fields from the ERP system in the ERP model. Using the **Manage fields** modal to add available columns from the ERP system to a remote table automatically creates them in the remote table.
 
-If you don't see the fields that you want to add to the remote table, you must first add them to the model. For more information, see [Choose output parameters for an ERP model](erp-canvas-manage-outputs.md).
+If you don't see the fields that you want to add to the remote table, you must first add them to the model. For more information, see [Choose output parameters for an ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-manage-outputs.md).
 
 The connected ERP model, which is defined on the remote table **Details** tab, controls the available fields on the remote table. If you change the ERP model for a remote table, the available fields change as well.
 
@@ -36,7 +37,7 @@ The connected ERP model, which is defined on the remote table **Details** tab, c
 
 1.  Navigate to **All** &gt; **ERP Data Hub** &gt; **ERP Data Hub Home**.
 
-2.  Open the Remote tables page by selecting the remote tables icon \(![remote tables navigation icon](../image/erpc-remote-table-icon.png)\) in the side panel.
+2.  Open the Remote tables page by selecting the remote tables icon \(\[Omitted image "erpc-remote-table-icon.png"\] Alt text: remote tables navigation icon\) in the side panel.
 
 3.  Select a table to work with by selecting the **Name**.
 
@@ -52,10 +53,10 @@ The connected ERP model, which is defined on the remote table **Details** tab, c
 
         The ServiceNow AI Platform updates the fields on the remote table with your changes.
 
-    ![Manage fields to customize the remote table](../image/erpc-manage-fields-remote-tables.png "ERP Data Hub customizing the remote table")
+    \[Omitted image "erpc-manage-fields-remote-tables.png"\] Alt text: Manage fields to customize the remote table
 
 5.  Confirm that the fields appear correctly as columns on the remote table by selecting the **Remote table fields** tab.
 
 
-**Parent Topic:**[Using ERP remote tables in ERP Data Hub](../concept/erp-canvas-work-with-remote-tables.md)
+**Parent Topic:**[Using ERP remote tables in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-work-with-remote-tables.md)
 

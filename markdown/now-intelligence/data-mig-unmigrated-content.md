@@ -2,6 +2,7 @@
 title: Content not migrated or migrated in compatibility mode
 description: Most dashboard content is migrated to the new Platform Analytics experience. However, some visualizations, aspects of visualizations, and filters are inserted in the migrated dashboard as embedded content \(iframes\), also known as compatibility mode. Some configurations are not migrated at all.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/data-mig-unmigrated-content.html
 release: xanadu
 topic_type: reference
 last_updated: "2026-02-11"
@@ -77,7 +78,7 @@ Generic visualization configurations migrated in compatibility mode:
 -   List default drilldown view configured in Report Designer
 -   Business calendar \(as trend by\) for timeseries reports
 -   Timeseries PA breakdown: top X elements
--   [Breakdown element](../../performance-analytics/concept/performance-analytics-glossary.md#) = empty for breakdowns based on choice field
+-   [Breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/performance-analytics-glossary.md) = empty for breakdowns based on choice field
 -   Sort by Performance Analytics breakdown based on choice field order
 -   Single score with compare X period back
 -   Pivot scorecard support for element filter

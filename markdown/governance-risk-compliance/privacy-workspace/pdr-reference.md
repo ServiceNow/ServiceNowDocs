@@ -2,6 +2,7 @@
 title: Personal Data Rights reference
 description: Reference topics provide additional information such as tables, and roles that are installed with the Personal Data Rights application. These topics also provide supporting information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/pdr-reference.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -121,7 +122,7 @@ Personal data rights request sn\_grc\_pdr\_request
 Collects information with respect to personal data rights.
 
 </td></tr></tbody>
-</table>For information about feature roles, see [GRC Feature roles](../../grc-common/reference/grc-feature-roles-common-core.md).
+</table>For information about feature roles, see [GRC Feature roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/grc-feature-roles-common-core.md).
 
-**Parent Topic:**[Privacy Management reference](privacy-mgmt-reference.md)
+**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
 

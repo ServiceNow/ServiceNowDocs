@@ -2,6 +2,7 @@
 title: Upgrade the Agent Client Collector manually on a Linux system
 description: Perform a manual upgrade of your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-install-upgrade-linux.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,8 +18,8 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
 
 ## Before you begin
 
--   Ensure that you have configured the Agent Client Collector web server. For more information, see [Configure the websocket server on the MID Server](acc-configure-web-server.md).
--   Ensure that you have installed a Linux version of the Agent Client Collector. For more information, see [Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md).
+-   Ensure that you have configured the Agent Client Collector web server. For more information, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-configure-web-server.md).
+-   Ensure that you have installed a Linux version of the Agent Client Collector. For more information, see [Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-install-linux-concept.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -97,5 +98,5 @@ Role required: agent\_client\_collector\_admin
     `sudo tail -f /var/log/servicenow/agent-client-collector/acc.log`
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

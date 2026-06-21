@@ -2,6 +2,7 @@
 title: CdmPoliciesApi
 description: The CdmPoliciesApi provides endpoints that enable you to manage policy mappings of deployables in Configuration Data Management \(CDM\). Policies that are properly mapped to a deployable are executed when a snapshot of the deployable is validated.Deletes the mapping of a specified policy to a deployable.Returns the resolved inputs for a specified policy mapping of a deployable.Maps a specified policy to a deployable.Updates the additionalDeployablesInput input variable of a Configuration Data Management \(CDM\) policy mapping.Updates a specified input variable for a Configuration Data Management \(CDM\) policy mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/policies-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -22,9 +23,9 @@ You must have one of the following roles to access the endpoints in this API:
 
 In addition, the Configuration Data Management \(CDM\) plugin must be activated for this API to be available in an instance.
 
-For additional information on policy mappings, see [Map policies to a deployable](https://www.servicenow.com/docs/access?context=cdm-deployable-map-policy-to&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on policy mappings, see Map policies to a deployable.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## CdmPoliciesApi - DELETE /sn\_cdm/policies/mappings
 
@@ -96,7 +97,7 @@ Required. Name of the associated policy. Located in the Policy \[sn\_pace\_polic
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -121,7 +122,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -192,7 +193,7 @@ None - results defined by the HTTP status code
 
 Returns the resolved inputs for a specified policy mapping of a deployable.
 
-For additional information on policy mappings, see [Map policies to a deployable](https://www.servicenow.com/docs/access?context=cdm-deployable-map-policy-to&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US) and [Validating and correcting configuration data](https://www.servicenow.com/docs/access?context=cdm-validating-cfg-data&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on policy mappings, see Map policies to a deployable and Validating and correcting configuration data.
 
 The caller of this endpoint must have the CDM Viewer role.
 
@@ -260,7 +261,7 @@ Required. Name of the associated policy. Located in the Policy \[sn\_pace\_polic
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -285,7 +286,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -416,7 +417,7 @@ Default: All fields as determined by the endpoint
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -429,7 +430,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -757,7 +758,7 @@ Updates the additionalDeployablesInput input variable of a Configuration Data Ma
 
 The additionalDeployablesInput input variable contains the additional deployables you can assign to an existing policy mapping. They are similar to mapping inputs, but they have a specific array structure.
 
-For additional information on policy mappings, see [Map policies to a deployable](https://www.servicenow.com/docs/access?context=cdm-deployable-map-policy-to&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on policy mappings, see Map policies to a deployable.
 
 The caller of this endpoint must have the CDM Admin role.
 
@@ -868,7 +869,7 @@ Default: All fields as determined by the endpoint
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -881,7 +882,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -905,7 +906,7 @@ io\_definition
 
 </td><td>
 
-Details about the associated PaCE IO definition record.For additional information on PaCE, see [Policy as Code Engine \(PaCE\)](https://www.servicenow.com/docs/access?context=pace-managing-policies&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Details about the associated PaCE IO definition record.For additional information on PaCE, see .
 
 Data type: Object
 
@@ -959,7 +960,7 @@ policy\_mapping
 
 </td><td>
 
-Details about the PaCE policy-mapping record.For additional information on PaCE, see [Policy as Code Engine \(PaCE\)](https://www.servicenow.com/docs/access?context=pace-managing-policies&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Details about the PaCE policy-mapping record.For additional information on PaCE, see .
 
 Data type: Object
 
@@ -1070,7 +1071,7 @@ Return result:
 
 Updates a specified input variable for a Configuration Data Management \(CDM\) policy mapping.
 
-For additional information on policy mappings, see [Map policies to a deployable](https://www.servicenow.com/docs/access?context=cdm-deployable-map-policy-to&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on policy mappings, see Map policies to a deployable.
 
 The caller of this endpoint must have the CDM Admin role.
 
@@ -1164,7 +1165,7 @@ Default: All fields as determined by the endpoint
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1177,7 +1178,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1201,7 +1202,7 @@ io\_definition
 
 </td><td>
 
-Details about the associated PaCE IO definition record.For additional information on PaCE, see [Policy as Code Engine \(PaCE\)](https://www.servicenow.com/docs/access?context=pace-managing-policies&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Details about the associated PaCE IO definition record.For additional information on PaCE, see .
 
 Data type: Object
 
@@ -1255,7 +1256,7 @@ policy\_mapping
 
 </td><td>
 
-Details about the PaCE policy-mapping record.For additional information on PaCE, see [Policy as Code Engine \(PaCE\)](https://www.servicenow.com/docs/access?context=pace-managing-policies&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Details about the PaCE policy-mapping record.For additional information on PaCE, see .
 
 Data type: Object
 

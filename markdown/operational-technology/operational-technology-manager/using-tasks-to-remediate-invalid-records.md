@@ -2,6 +2,7 @@
 title: Use OT staging tasks to remediate invalid records
 description: Remediate invalid records in the SG OT Excel Stagings table by using Operational Technology \(OT\) staging tasks. Using OT staging tasks can help you track the invalid records that you need to fix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/using-tasks-to-remediate-invalid-records.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -29,7 +30,7 @@ You can use OT staging tasks to remediate your invalid records in the SG OT Exce
 
 2.  In the table header, select the **Create tasks** button.
 
-    The following confirmation message appears.![Confirmation message in the table header. It states "Staging task creation process for all invalid records have started in the background. It may take a few minutes to complete."](../image/staging-task-creation-message.png)
+    The following confirmation message appears.\[Omitted image "staging-task-creation-message.png"\] Alt text: Confirmation message in the table header. It states "Staging task creation process for all invalid records have started in the background. It may take a few minutes to complete."
 
 3.  Wait for the staging task creation process to complete.
 
@@ -105,5 +106,5 @@ Assigned group that works on the staging task.
 
 The staging task record is now created and assigned to the user who is responsible for remediation.
 
-**Parent Topic:**[Managing Validations](../concept/managing-validations.md)
+**Parent Topic:**[Managing Validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/managing-validations.md)
 

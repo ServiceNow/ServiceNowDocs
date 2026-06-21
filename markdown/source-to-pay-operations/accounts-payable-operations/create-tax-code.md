@@ -2,6 +2,7 @@
 title: Create tax codes to be added in an invoice
 description: Create tax codes to be added in an invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/create-tax-code.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -45,5 +46,5 @@ Role required: Tax manager
 
 The tax code details are added to the invoice.
 
-**Parent Topic:**[Tax calculations](../concept/tax-calculations-in-apo.md)
+**Parent Topic:**[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/tax-calculations-in-apo.md)
 

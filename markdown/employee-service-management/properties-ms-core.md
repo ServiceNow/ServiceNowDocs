@@ -2,7 +2,10 @@
 title: Properties installed with Microsoft Integrations Core
 description: The following properties are installed with the Microsoft Integrations Core plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/properties-ms-core.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -60,5 +63,5 @@ Use this property to set the portal to be embedded in Microsoft Teams when a use
 -   Default value: none
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow for Microsoft Teams reference](reference-sn-teams.md)
+</table>**Parent Topic:**[ServiceNow for Microsoft Teams reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/reference-sn-teams.md)
 

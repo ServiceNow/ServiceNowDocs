@@ -2,6 +2,7 @@
 title: Install and configure Microsoft Defender for Cloud Integration for Security Operations
 description: Install and configure the Microsoft Defender for Cloud Integration for Security Operations, so that you can use the data that is imported from Microsoft Defender for Cloud to prioritize and remediate any misconfigurations on your assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc\_asc\_install\_configure.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -119,5 +120,5 @@ Whether the credentials and subscription ID that are provided are valid.
 </table>7.  Configure or run the integrations by selecting **Save and test**.
 
 
-**Parent Topic:**[Microsoft Defender for Cloud Integration for Security Operations](../concept/cc_asc_overview.md)
+**Parent Topic:**[Microsoft Defender for Cloud Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc_asc_overview.md)
 

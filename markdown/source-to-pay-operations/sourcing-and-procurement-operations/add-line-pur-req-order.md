@@ -2,6 +2,7 @@
 title: Add a line to an existing purchase requisition or order
 description: You can add a new purchase line to an existing purchase requisition or order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/add-line-pur-req-order.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -330,5 +331,5 @@ Enter additional comments if any.
     A confirmation message screen appears.
 
 
-**Parent Topic:**[Purchase revision flows](../concept/purchase-revision-flows.md)
+**Parent Topic:**[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
 

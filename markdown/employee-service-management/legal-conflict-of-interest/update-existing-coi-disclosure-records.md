@@ -2,6 +2,7 @@
 title: Update an existing conflict of interest disclosure record
 description: You can update an existing conflict of interest disclosure record to change the validity period or the status of the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-conflict-of-interest/update-existing-coi-disclosure-records.html
 release: xanadu
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -39,5 +40,5 @@ You can only update conflict of interest disclosure records that have the confli
 4.  Click **Update**.
 
 
-**Parent Topic:**[Managing conflict of interest disclosure requests](../concept/managing-legal-coi-request.md)
+**Parent Topic:**[Managing conflict of interest disclosure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-conflict-of-interest/managing-legal-coi-request.md)
 

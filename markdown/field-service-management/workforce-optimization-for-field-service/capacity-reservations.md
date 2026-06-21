@@ -2,6 +2,7 @@
 title: Capacity Reservations reservation rules
 description: Capacity Reservations reservation rules enable you to efficiently distribute total work capacity among work order tasks based on their different attributes, such as work type, location, so on.Create reservation rules based on different types of work to reserve the workload capacity for work order tasks.Reserve a specific percentage of capacity for different attributes of work order tasks, such as work type, location, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/workforce-optimization-for-field-service/capacity-reservations.html
 release: xanadu
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -71,7 +72,7 @@ Manage work assignments by using reservation rules based on defined capacity. Fo
 5.  |Field|Description|
 |-----|-----------|
 |Name|Name of the reservation rule.|
-|Demand Channel|Select the demand channel for the reservation rule. For more information, see [Create a demand channel](../task/create-a-demand-channel.md).|
+|Demand Channel|Select the demand channel for the reservation rule. For more information, see [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md).|
 |Table|wm\_task table on which the condition applies. This field is read only.|
 
 6.  In the **Condition** field, click **Add Filter Condition** or **Add "Or" Clause** to set the filter condition for reserving the workload capacity.

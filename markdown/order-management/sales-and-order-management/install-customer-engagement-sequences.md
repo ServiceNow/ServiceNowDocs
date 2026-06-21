@@ -2,6 +2,7 @@
 title: Install Customer Engagement Sequences
 description: You can install the Customer Engagement Sequences application \(com.sn\_crm\_sequence\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/install-customer-engagement-sequences.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -29,7 +30,7 @@ The following items are installed with Customer Engagement Sequences:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Customer Engagement Sequences](../reference/components-installed-customer-engagement-sequences.md).
+For more information, see [Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/components-installed-customer-engagement-sequences.md).
 
 ## Procedure
 

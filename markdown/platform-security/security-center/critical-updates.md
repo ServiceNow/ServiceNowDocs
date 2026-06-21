@@ -2,6 +2,7 @@
 title: Customer Actions
 description: Use the Customer Actions tool to implement important security updates based on your instance and the configuration of plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/critical-updates.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -15,7 +16,7 @@ breadcrumb: [Security configuration console, Security Center, Platform Security]
 
 Use the Customer Actions tool to implement important security updates based on your instance and the configuration of plugins.
 
-![Customer Actions app homepage](../images/critical-updates-homepage.png)
+\[Omitted image "critical-updates-homepage.png"\] Alt text: Customer Actions app homepage
 
 ServiceNow updates your instance with family releases and patches to keep base system platform code and functionality current and secure. However can be additional actions you can take to secure your instance that are unique to your custom instance configuration. These recommended updates are found in the Customer Actions tool.
 
@@ -53,14 +54,14 @@ Access this tool by navigating to **Customer Actions** within Security Center.
     Select a tab to view a list of actions in each category.
 
 
-For details on how to review individual Customer Actions, see [View Customer Actions](../task/view-activity-of-critical-updates.md).
+For details on how to review individual Customer Actions, see [View Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/view-activity-of-critical-updates.md).
 
-For information on how to apply the changes recommended by Customer Actions, see [Implement Customer Actions](../task/implement-steps-for-critical-updates.md).
+For information on how to apply the changes recommended by Customer Actions, see [Implement Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/implement-steps-for-critical-updates.md).
 
--   **[Implement Customer Actions](../task/implement-steps-for-critical-updates.md)**  
+-   **[Implement Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/implement-steps-for-critical-updates.md)**  
 Learn how to implement Customer Actions on your instance to increase its security posture.
--   **[View Customer Actions](../task/view-activity-of-critical-updates.md)**  
+-   **[View Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/view-activity-of-critical-updates.md)**  
 See details of all of the activity related to your Customer Actions.
 
-**Parent Topic:**[Security configuration console](homepage.md)
+**Parent Topic:**[Security configuration console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/homepage.md)
 

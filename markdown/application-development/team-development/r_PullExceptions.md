@@ -2,6 +2,7 @@
 title: Pull exceptions
 description: Pulling ignores versions when certain conditions occur.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/r\_PullExceptions.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -23,5 +24,5 @@ Pulling ignores versions when certain conditions occur.
 |Previously resolved collisions|When you resolved a collision by accepting either the pulled version or local version of a record, the pull remembers your decision and accepts the version that you indicated as a "previously resolved collision".|
 |Skipped|Pulls skip versions where there is a problem with the version record such as a corrupt or missing version.|
 
-**Parent Topic:**[Team Development overview](../concept/c_UsingTeamDevelopment.md)
+**Parent Topic:**[Team Development overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_UsingTeamDevelopment.md)
 

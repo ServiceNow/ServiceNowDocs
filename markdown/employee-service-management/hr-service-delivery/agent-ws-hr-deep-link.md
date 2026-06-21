@@ -2,6 +2,7 @@
 title: Using the deep link feature in HR Service Delivery Agent Workspace
 description: Deep links are a way to access information from outside of HR Service Delivery Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-deep-link.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,5 +18,5 @@ Deep links are a way to access information from outside of HR Service Delivery A
 
 Use deep links to access information that is not readily available within HR Service Delivery Agent Workspace. For example, use deep links to access a third-party application that you use frequently.
 
-For more information on configuring deep links, see [Link generator for HR Service Delivery](HRLinkGenerator.md).
+For more information on configuring deep links, see [Link generator for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/HRLinkGenerator.md).
 

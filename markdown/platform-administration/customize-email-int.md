@@ -2,6 +2,7 @@
 title: Customize email address internationalization
 description: Customize email address internationalization to turn off processing of inbound and outbound emails, disable support for inbound emails or to add email address format for decoding international email addresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/customize-email-int.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -182,5 +183,5 @@ Define the roles that have write access to this property.
     4.  Select **Update**.
 
 
-**Parent Topic:**[Email address internationalization](../concept/email-address-internationalization.md)
+**Parent Topic:**[Email address internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/email-address-internationalization.md)
 

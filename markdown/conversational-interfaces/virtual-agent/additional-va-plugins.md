@@ -2,6 +2,7 @@
 title: Additional plugins for Virtual Agent
 description: After activating Virtual Agent, you can activate additional plugins to enable other features for conversation design.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/additional-va-plugins.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Activate Virtual Agent, Configuring Virtual Agent, Virtual Agent, C
 
 After activating Virtual Agent, you can activate additional plugins to enable other features for conversation design.
 
-You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+You must have the admin role to activate these additional plugins. For details, see Activate a plugin.
 
 <table id="table_jwv_ct2_qhb"><thead><tr><th>
 
@@ -33,7 +34,7 @@ Description
 
 </td><td>
 
-Enables [predefined Virtual Agent conversations, reusable topic blocks, and prebuilt ServiceNow NLU models](prebuilt-topics-ITSM.md) for the Customer Service Management, HR Service Delivery, and IT Service Management applications.
+Enables [predefined Virtual Agent conversations, reusable topic blocks, and prebuilt ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md) for the Customer Service Management, HR Service Delivery, and IT Service Management applications.
 
  -   Requires the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin to be activated.
 -   Automatically activates the NLU Workbench \(com.snc.nlu\_studio\) plugin.
@@ -64,5 +65,5 @@ Conversational Analytics Dashboard\[com.sn.conversational.analytics\]
 Provides insights into user interactions so you can see how well Virtual Agent understood and resolved user issues.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Virtual Agent](../task/activate-virtual-agent.md)
+</table>**Parent Topic:**[Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/activate-virtual-agent.md)
 

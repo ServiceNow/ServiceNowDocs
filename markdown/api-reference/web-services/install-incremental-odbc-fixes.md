@@ -2,6 +2,7 @@
 title: Install an ODBC driver patch
 description: Use ServiceNow patches to install incremental ODBC fixes that occur between major ODBC releases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/install-incremental-odbc-fixes.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -69,5 +70,5 @@ Incremental ODBC patches contain only fixes to the ODBC driver and do not includ
         ```
 
 
-**Parent Topic:**[Installing the ODBC driver](../concept/c_InstallingTheODBCDriver.md)
+**Parent Topic:**[Installing the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_InstallingTheODBCDriver.md)
 

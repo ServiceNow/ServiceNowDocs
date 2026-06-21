@@ -2,6 +2,7 @@
 title: Components installed with the Qualys Integration for Security Operations
 description: The following roles, scheduled jobs, and tables are installed with the Qualys Integration for Security Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-qualys-installed-with.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -15,7 +16,7 @@ breadcrumb: [Configure PCRS, Qualys, Configuration Compliance integrations, Conf
 
 The following roles, scheduled jobs, and tables are installed with the Qualys Integration for Security Operations.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## View filtered lists for components installed with an application
 
@@ -245,5 +246,5 @@ Qualys PC Policy Importsn\_vul\_qualys\_pc\_policy\_import
 Table extending the import set row. Field map transformation is skipped and the response attachment is processed directly with the onComplete script.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure the PCRS parameters](../task/cc-config-qualys.md)
+</table>**Parent Topic:**[Configure the PCRS parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-config-qualys.md)
 

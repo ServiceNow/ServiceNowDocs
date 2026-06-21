@@ -2,6 +2,7 @@
 title: Promote or demote LLM topics in Virtual Agent Designer
 description: Promote topics in Virtual Agent Designer, after associating them with a large language model \(LLM\) assistant, to have them suggested to the user by the LLM assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/promote-demote-va-topics.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ Promote topics in Virtual Agent Designer, after associating them with a large la
 
 ## Before you begin
 
-Associate an LLM topic, conversational subflow, or conversational action with an LLM assistant. For more information, see [Create a Virtual Agent topic](create-virtual-agent-topic.md), [Managing conversational subflows in Virtual Agent Designer](../concept/managing-conversational-subflows.md), and [Managing conversational actions in Virtual Agent Designer](../concept/managing-conversational-actions.md).
+Associate an LLM topic, conversational subflow, or conversational action with an LLM assistant. For more information, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [Managing conversational subflows in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/managing-conversational-subflows.md), and [Managing conversational actions in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/managing-conversational-actions.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -28,11 +29,11 @@ After you associate a conversational subflow, conversational action, or topic wi
 
 System topics, setup topics, topic blocks, custom controls, and small talk topics cannot be promoted.
 
-**Note:** You can also promote NLU/keyword topics by creating topic recommendations in Conversational Interfaces settings. For more information, see [Using Virtual Agent Topic Recommendations](../concept/va-topic-recommendations.md).
+**Note:** You can also promote NLU/keyword topics by creating topic recommendations in Conversational Interfaces settings. For more information, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-topic-recommendations.md).
 
-You can check the asset's **Promoted** status under the Show actions for this row icon ![KB link](../images/kebab-menu.png). The **Promoted** status shows a check mark when the topic is promoted.
+You can check the asset's **Promoted** status under the Show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: KB link. The **Promoted** status shows a check mark when the topic is promoted.
 
-For more information, see [Create a Virtual Agent topic](create-virtual-agent-topic.md) and [LLM assistants](../../now-assist-in-va/concept/llm-assistants.md).
+For more information, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) and [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
 ## Procedure
 
@@ -44,22 +45,22 @@ For more information, see [Create a Virtual Agent topic](create-virtual-agent-to
 
 3.  Find the asset that you want to promote or demote.
 
-4.  Select the more actions for this row icon ![KB link](../images/kebab-menu.png), and then select **Promote**to toggle the asset's **Promoted** status.
+4.  Select the more actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: KB link, and then select **Promote**to toggle the asset's **Promoted** status.
 
     If the asset is already promoted, the asset has a check mark next to the **Promoted** status. Demoting the asset removes the check mark.
 
 
 ## Result
 
-![Virtual Agent chat window showing a list of promoted topics.](../images/promoted-llm-topic-list.png "Promoted topics displayed in Virtual Agent chat")
+\[Omitted image "promoted-llm-topic-list.png"\] Alt text: Virtual Agent chat window showing a list of promoted topics.
 
 The topic is added to the list of topics promoted by the LLM Assistant, while a demoted topic is removed from the list.
 
-A toast message also appears for 4 seconds, confirming the topic has been promoted or demoted. You can close the message by selecting the Close icon ![Close icon.](../images/gray-x-icon.png).
+A toast message also appears for 4 seconds, confirming the topic has been promoted or demoted. You can close the message by selecting the Close icon \[Omitted image "gray-x-icon.png"\] Alt text: Close icon..
 
 ## What to do next
 
-[Reorder promoted LLM topics in Virtual Agent](sort-promoted-va-topics.md)
+[Reorder promoted LLM topics in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/sort-promoted-va-topics.md)
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

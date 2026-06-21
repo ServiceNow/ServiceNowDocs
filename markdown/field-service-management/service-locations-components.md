@@ -2,7 +2,10 @@
 title: Field Service with Service Locations Support components
 description: Roles installed with activation of the Field Service with Service Locations Support \(com.snc.fsm\_service\_locations\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/service-locations-components.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Components installed with additional plugins for Field Service Mana
 
 Roles installed with activation of the Field Service with Service Locations Support \(com.snc.fsm\_service\_locations\) plugin.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -44,5 +47,5 @@ Provides access for creating a new service location address.
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](../reference/components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/components-inst-additional-plugin.md)
 

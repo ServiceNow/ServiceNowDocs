@@ -2,6 +2,7 @@
 title: View your employee goals
 description: View your goals by accessing your career profile. Your goals that appear in the Goals widget are filtered into the following categories: active, complete, archive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-goals/egd-goals-view-goals.html
 release: xanadu
 product: Employee Goals
 classification: employee-goals
@@ -38,5 +39,5 @@ Role required: employee \[sn\_egd\_act.employee\]
 5.  Select the **Active**, **Completed**, or **Archived** tabs in the Goals widget to view your goals by the category in which they're filtered.
 
 
-**Parent Topic:**[Using Employee Goals](../concept/egd-goals-using.md)
+**Parent Topic:**[Using Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-goals/egd-goals-using.md)
 

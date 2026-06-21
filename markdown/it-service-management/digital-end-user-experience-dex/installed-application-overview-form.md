@@ -2,6 +2,7 @@
 title: Installed application — Overview page
 description: The overview page for an installed application provides information on the active alerts, incidents, impacted devices, and the average-time-to-resolve for the incidents. Tracking the total active incidents can help you to monitor and manage the overall health of the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/installed-application-overview-form.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -23,5 +24,5 @@ The overview page for an installed application provides information on the activ
 |Active alerts and incidents last 7 days|Patterns in the type of incidents and alerts that are reported in a particular context over the last 7 days.|
 |Average MTTR incidents, all time|Mean time to resolve \(MTTR\) incidents created for this application.|
 
-**Parent Topic:**[Applications list](application-form.md)
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/application-form.md)
 

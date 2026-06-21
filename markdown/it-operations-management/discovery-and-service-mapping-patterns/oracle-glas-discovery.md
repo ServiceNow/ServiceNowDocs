@@ -2,6 +2,7 @@
 title: Oracle Global License Advisory Services \(GLAS\) data collection using patterns
 description: The ServiceNow Discovery application uses the Oracle verified GLAS Data Collection pattern to discover Oracle GLAS data. This data includes discovered Oracle Database, Middleware, and Java configuration items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -26,13 +27,13 @@ The Oracle GLAS Data Collection pattern is an extension of the following pattern
 
 The Oracle Database and Middleware patterns execute the pattern extensions, and the data collected is stored in the ServiceNow tables for GLAS data. The Oracle GLAS Data Collection Database pattern can be used on the ServiceNow AI Platform beginning with the Paris release. The Oracle GLAS Data Collection Middleware pattern can be used on the ServiceNow AI Platform beginning with the Rome release. The Oracle Java pattern can be used on the ServiceNow AI Platform beginning with the Washington DC release.
 
-For details on how to view and download the collected Oracle GLAS data, see [Download Oracle Global License Advisory Services \(GLAS\) data](../task/download-oracle-glas-data.md).
+For details on how to view and download the collected Oracle GLAS data, see [Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.md).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-To learn about the supported versions of Oracle, refer to [Detailed information on products discovered by ITOM Visibility](r_SupportedApplications.md).
+To learn about the supported versions of Oracle, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 ## Prerequisites
 
@@ -61,8 +62,8 @@ To learn about the supported versions of Oracle, refer to [Detailed information 
 
     Verify that you have the following credentials for your operating system, and then create credentials for them on the ServiceNow AI Platform:
 
-    -   UNIX credentials using SSH. For more information, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
-    -   Windows credentials using PowerShell/WMI. For more information, see [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    -   UNIX credentials using SSH. For more information, see .
+    -   Windows credentials using PowerShell/WMI. For more information, see .
 
         **Note:** PowerShell and WMI credentials are required only for Database collection.
 
@@ -306,7 +307,7 @@ SYS.DBA\_MINING\_MODELS
 </td></tr></tbody>
 </table>-   **Create applicative credentials for Oracle Instance**
 
-    Create applicative credentials on the ServiceNow AI Platform. For more information, see [Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    Create applicative credentials on the ServiceNow AI Platform. For more information, see .
 
 -   **For virtual machines: Verify virtual machine credentials**
 
@@ -435,7 +436,7 @@ In the pattern flow, the Java processes are discovered by Application Dependency
 
 For information about privileged user access, see [KB1705845](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1705845). If you are on a family release earlier than Yokohama, you must download the update set from the Knowledge Base article and follow the instructions for applying it.
 
-For more information about Agent Client Collector with patterns, see [Application patterns for the Agent Client Collector](../../agent-client-collector/concept/application-patterns-acc.md).
+For more information about Agent Client Collector with patterns, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/application-patterns-acc.md).
 
 -   **Data collected**
 
@@ -480,7 +481,7 @@ For more information about Agent Client Collector with patterns, see [Applicatio
     |File information|Provides a reference to the \[cmdb\_file\_information\] table. Relevant only for file-based discovery \(FBD\); in pattern-based discovery, this field remains empty.|
 
 
-Download the Oracle GLAS report in the Discovery Admin Workspace. For more information, see [Download Oracle Global License Advisory Services \(GLAS\) data](../task/download-oracle-glas-data.md).
+Download the Oracle GLAS report in the Discovery Admin Workspace. For more information, see [Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.md).
 
 ## Oracle GLAS Data Collection
 
@@ -490,5 +491,5 @@ Starting with Data Collection for Oracle Global Licensing and Advisory Services 
 
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** to view and access the Oracle GLAS Data Collection.
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

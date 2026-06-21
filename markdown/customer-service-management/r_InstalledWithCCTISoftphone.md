@@ -2,7 +2,10 @@
 title: Components installed with CTI Softphone
 description: Several types of components are installed with CTI Softphone.Tables are added with activation of CTI Softphone.Script includes are added with activation of CTI Softphone.Business rules are added with activation of CTI Softphone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/r\_InstalledWithCCTISoftphone.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

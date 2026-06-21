@@ -2,6 +2,7 @@
 title: Create a shipment carrier record in Enterprise Asset Workspace
 description: Create a shipping carrier record in the Enterprise Asset workspace to associate the carrier with an integration profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-shipment-carrier-record-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -61,7 +62,7 @@ Integration profile
 
 Profile for integrating with the third-party carrier's application.
 
- For more details, see [View integration profiles for third-party shipping carriers in the Enterprise Asset Workspace](view-shipping-carrier-integration-profiles-eam.md).
+ For more details, see [View integration profiles for third-party shipping carriers in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/view-shipping-carrier-integration-profiles-eam.md).
 
 </td></tr><tr><td>
 
@@ -111,5 +112,5 @@ Additional information about the carrier.
     The shipping carrier record is created and added to the Shipping carrier list.
 
 
-**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](../concept/config-eam-enterrpriseadmins.md)
+**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-enterrpriseadmins.md)
 

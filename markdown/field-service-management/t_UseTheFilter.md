@@ -2,7 +2,10 @@
 title: Customize the display of task information on the agent map
 description: Configure the agent map to display assigned and unassigned tasks for an agent on the specified date. Display agent location and routing numbers for tasks dispatched on that day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_UseTheFilter.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,15 +28,15 @@ Role required: wm\_agent
 
 3.  Change the filter settings as needed.
 
-<table id="choicetable_jh3_jhn_kfb"><thead><tr><th align="left" id="d117577e96">
+<table id="choicetable_jh3_jhn_kfb"><thead><tr><th align="left" id="d55538e96">
 
 Option
 
-</th><th align="left" id="d117577e99">
+</th><th align="left" id="d55538e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d117577e105">
+</th></tr></thead><tbody><tr><td id="d55538e105">
 
 **Date**
 
@@ -41,7 +44,7 @@ Description
 
 Displays the current date. Select a different date to view task assignments for that day.
 
-</td></tr><tr><td id="d117577e114">
+</td></tr><tr><td id="d55538e114">
 
 **Show my location**
 
@@ -49,7 +52,7 @@ Displays the current date. Select a different date to view task assignments for 
 
 Displays your current location on the map with an agent location icon. Clear the check box to remove this icon from the map. If the system cannot locate you automatically by mobile device, it uses the location of a continuing task or the home office.
 
-</td></tr><tr><td id="d117577e126">
+</td></tr><tr><td id="d55538e126">
 
 **Show routing numbers**
 
@@ -57,7 +60,7 @@ Displays your current location on the map with an agent location icon. Clear the
 
 Displays the routing numbers for the tasks dispatched for the date selected in the calendar. Clear the check box to hide the routing numbers.
 
-</td></tr><tr><td id="d117577e135">
+</td></tr><tr><td id="d55538e135">
 
 **Assigned**
 
@@ -65,7 +68,7 @@ Displays the routing numbers for the tasks dispatched for the date selected in t
 
 Displays all assigned tasks for the selected date. Clear the checkbox to hide assigned tasks.
 
-</td></tr><tr><td id="d117577e145">
+</td></tr><tr><td id="d55538e145">
 
 **Unassigned**
 
@@ -80,5 +83,5 @@ Displays all unassigned tasks for the selected date. Clear the checkbox to hide 
     -   To cancel the changes made to the configuration, click **Cancel**.
     -   To optimize the agent's task route, click **Optimize Route**.
 
-**Parent Topic:**[Manage tasks on the map](../concept/c_ManageTasksOnTheMap.md)
+**Parent Topic:**[Manage tasks on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ManageTasksOnTheMap.md)
 

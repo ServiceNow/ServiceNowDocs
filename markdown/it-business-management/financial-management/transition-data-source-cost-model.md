@@ -2,6 +2,7 @@
 title: Prerequisites to modify data source of a cost model
 description: Clean the cost model of its existing data source and all the data collected and accumulated in the associated tables. Follow the steps to seamlessly change the data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/transition-data-source-cost-model.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -26,5 +27,5 @@ Clean the cost model of its existing data source and all the data collected and 
     6.  The records from the Cost Allocation Runs Log \[itfm\_ca\_run\_log\] table for the cost model.
 2.  Modify the data source of the cost model.
 
-**Parent Topic:**[Create a cost model from Cost Model form](../task/t_CreateACostModel.md)
+**Parent Topic:**[Create a cost model from Cost Model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_CreateACostModel.md)
 

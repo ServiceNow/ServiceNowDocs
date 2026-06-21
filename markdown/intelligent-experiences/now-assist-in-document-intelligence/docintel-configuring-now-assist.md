@@ -2,6 +2,7 @@
 title: Configuring Now Assist in Document Intelligence
 description: If you have the admin role, you can configure the Now Assist in Document Intelligence feature, enabling agents to use its generative AI skills within their application workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.html
 release: xanadu
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -16,7 +17,7 @@ breadcrumb: [Now Assist in Document Intelligence, Enable AI experiences]
 
 If you have the admin role, you can configure the Now Assist in Document Intelligence feature, enabling agents to use its generative AI skills within their application workspace.
 
-For the Xanadu release, there is no stand-alone configuration of Now Assist in Document Intelligence. The contract metadata extraction skill and the contract analysis skill contain the Now Assist in Document Intelligence feature. These skills are available with the Now Assist in Contract Management workflows. For more information, see [Now Assist in Contract Management](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+For the Xanadu release, there is no stand-alone configuration of Now Assist in Document Intelligence. The contract metadata extraction skill and the contract analysis skill contain the Now Assist in Document Intelligence feature. These skills are available with the Now Assist in Contract Management workflows. For more information, see .
 
-**Parent Topic:**[Now Assist in Document Intelligence](docintel-nowassist-landing.md)
+**Parent Topic:**[Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md)
 

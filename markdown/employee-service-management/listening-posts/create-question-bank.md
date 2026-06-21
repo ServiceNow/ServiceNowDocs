@@ -2,6 +2,7 @@
 title: Create a question bank in Listening Posts
 description: Create a repository of questions to use in a pulse survey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/listening-posts/create-question-bank.html
 release: xanadu
 product: Listening Posts
 classification: listening-posts
@@ -34,8 +35,8 @@ Role required: sn\_lp.creator
 
 4.  In the **Questions** related list, click **New** to add questions to the question bank.
 
-    For more information, see [Create a pulse question in Listening Posts](create-pulseq.md).
+    For more information, see [Create a pulse question in Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/listening-posts/create-pulseq.md).
 
 
-**Parent Topic:**[Create a pulse question in Listening Posts](create-pulseq.md)
+**Parent Topic:**[Create a pulse question in Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/listening-posts/create-pulseq.md)
 

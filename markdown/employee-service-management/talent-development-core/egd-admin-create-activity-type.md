@@ -2,6 +2,7 @@
 title: Create Talent Development Activity Types
 description: As a Talent Development Core admin you create Activity Types that are used in growth plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/egd-admin-create-activity-type.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -31,10 +32,10 @@ An **Activity Types** help to identify what an activity is intended to do.
 
 3.  Complete the **Activity Type** form.
 
-    Read details about the different fields in [Talent Activity Types reference](../reference/egd-activity-type-form.md).
+    Read details about the different fields in [Talent Activity Types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/egd-activity-type-form.md).
 
 4.  Select **Submit**
 
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](../concept/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/egd-administration.md)
 

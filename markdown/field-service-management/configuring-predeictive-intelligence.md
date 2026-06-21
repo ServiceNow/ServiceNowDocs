@@ -2,7 +2,10 @@
 title: Configuring Predictive Intelligence for Field Service Management
 description: Predictive Intelligence solution definitions helps assisting agents with various tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/configuring-predeictive-intelligence.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

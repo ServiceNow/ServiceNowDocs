@@ -2,6 +2,7 @@
 title: Create SLO form
 description: Create an SLO, an SLI, and Error budget policies to help you and your team track your service health and take necessary actions when required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-level-objective-management/sr-create-slo-sli-form.html
 release: xanadu
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -17,7 +18,7 @@ Create an SLO, an SLI, and Error budget policies to help you and your team track
 
 ## Service level objective form
 
-Set up your service level objectives. For more information, see [Create SLO, SLI, and Error budget policies](../../slo-management/task/sr-create-slo-sli.md).
+Set up your service level objectives. For more information, see [Create SLO, SLI, and Error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
 
 <table id="id_sdb_v2n_y1c"><thead><tr><th>
 
@@ -139,5 +140,5 @@ Period for which the metrics are calculated. The available options are:-   **Mon
 </td></tr></tbody>
 </table>**Note:** The **Assignment group** is auto-populated.
 
-**Parent Topic:**[SLO Management reference](../../slo-management/reference/service-level-objective-management-reference.md)
+**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

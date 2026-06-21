@@ -2,6 +2,7 @@
 title: OSCAL namespace
 description: To include CAM specific information, custom properties with a unique namespace are used to add impact and tailor the content as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-namespace.html
 release: xanadu
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace

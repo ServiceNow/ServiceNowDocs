@@ -2,6 +2,7 @@
 title: View related info from TISC
 description: Use this section to view the related info such as related threat actors, attack patterns, campaigns, and cases from TISC in SIR workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/tisc-related-info-sir.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -46,8 +47,8 @@ Role required: sn\_si.analyst
         |Campaigns|Shows information from TISC for Campaigns related to the selected observables.|
         |Cases|Shows information from TISC for TISC cases related to the selected observables.|
 
-        ![TISC Context - View Related Info.](../../secops-analyst-workspace/image/tisccontext-view-related-info.png)
+        \[Omitted image "tisccontext-view-related-info.png"\] Alt text: TISC Context - View Related Info.
 
 
-**Parent Topic:**[Working with TISC Context](../../secops-analyst-workspace/concept/working-with-tisc-context.md)
+**Parent Topic:**[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/working-with-tisc-context.md)
 

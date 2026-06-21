@@ -2,6 +2,7 @@
 title: Working with alerts in SRM
 description: Events take the form of alerts under reliability tasks in SRM. From creation to resolution, SRM enables you to manage your alerts through the entire alert life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-work-alerts.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -31,47 +32,47 @@ When a Service is deleted, its integrations, alerts, incidents, and automations 
 
 Responders and above are notified for updates to alerts based on their notification preferences.
 
-Selecting the attachments ![Attachments icon.](../image/icon-sr-attachment.png) icon toggles the **Attachments** panel open or closed.
+Selecting the attachments \[Omitted image "icon-sr-attachment.png"\] Alt text: Attachments icon. icon toggles the **Attachments** panel open or closed.
 
-For more information on the areas and fields available in an alert, see [SRM alert workspace](../reference/sr-alerts-workspace.md).
+For more information on the areas and fields available in an alert, see [SRM alert workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-alerts-workspace.md).
 
 Respond to an alert in the following ways:
 
--   [Acknowledge an SRM alert](../task/sr-acknowledge-alert.md) that requires attention.
--   [Add work notes to an SRM alert](../task/sr-add-alert-worknotes.md)
--   [Update the severity of one or more SRM alerts](../task/sr-update-alert-severity.md)
--   [Reassign an SRM alert](../task/sr-reassign-alert-user.md)
--   [Manually create SRM tags](../task/sr-create-tags.md)
--   [Close an SRM alert](../task/sr-close-alert.md)
+-   [Acknowledge an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-acknowledge-alert.md) that requires attention.
+-   [Add work notes to an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-alert-worknotes.md)
+-   [Update the severity of one or more SRM alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-update-alert-severity.md)
+-   [Reassign an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-reassign-alert-user.md)
+-   [Manually create SRM tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-tags.md)
+-   [Close an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-close-alert.md)
 
     If there have been no updates, open alerts are automatically closed after 7 days. Closed alerts are automatically deleted after 90 days.
 
--   [Reopen an SRM alert](../task/sr-reopen-alert.md)
+-   [Reopen an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-reopen-alert.md)
 
--   **[Manually create an SRM alert](../task/sr-create-alert.md)**  
+-   **[Manually create an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-alert.md)**  
 Create an alert for testing or if you think an issue poses a risk and should be evaluated as soon as possible.
--   **[Acknowledge an SRM alert](../task/sr-acknowledge-alert.md)**  
+-   **[Acknowledge an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-acknowledge-alert.md)**  
 Place an alert in the Acknowledged state if the alert has issues that must be addressed. You can acknowledge an alert without assigning it to yourself.
--   **[Update the severity of one or more SRM alerts](../task/sr-update-alert-severity.md)**  
+-   **[Update the severity of one or more SRM alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-update-alert-severity.md)**  
 If the severity of an alert should be changed, you can manually update it to reflect its new criticality.
--   **[Update the state of one or more SRM alerts](../task/sr-update-alert-state.md)**  
+-   **[Update the state of one or more SRM alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-update-alert-state.md)**  
 If the state of an alert must be changed, you can manually update it to reflect its new status.
--   **[Add or edit a task on an SRM alert](../task/sr-add-alert-task.md)**  
+-   **[Add or edit a task on an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-alert-task.md)**  
 If an alert has a task, you can manually add it.
--   **[Add or edit a parent on an SRM alert](../task/sr-add-alert-parent.md)**  
+-   **[Add or edit a parent on an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-alert-parent.md)**  
 If an alert has a parent, you can manually update it to reflect its new criteria.
--   **[Add or edit a knowledge article to an SRM alert](../task/sr-add-alert-kb.md)**  
+-   **[Add or edit a knowledge article to an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-alert-kb.md)**  
 If an alert has a knowledge article associated with it, you can manually add it.
--   **[Reassign an SRM alert](../task/sr-reassign-alert-user.md)**  
+-   **[Reassign an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-reassign-alert-user.md)**  
 Reassign an alert to a responder when the alert task should be addressed by a particular user.
--   **[Add work notes to an SRM alert](../task/sr-add-alert-worknotes.md)**  
+-   **[Add work notes to an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-alert-worknotes.md)**  
 Add work notes to an alert that are visible to all members of the alert team.
--   **[Close an SRM alert](../task/sr-close-alert.md)**  
+-   **[Close an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-close-alert.md)**  
 Close an alert, if you think it is not an issue, or if it has already been handled.
--   **[Reopen an SRM alert](../task/sr-reopen-alert.md)**  
+-   **[Reopen an SRM alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-reopen-alert.md)**  
 Reopen a closed alert if you think the issue is not yet resolved.
--   **[Promote an SRM alert to an incident](../task/sr-promote-incident-alert.md)**  
+-   **[Promote an SRM alert to an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-promote-incident-alert.md)**  
 Promote an alert to an incident if you think the alert poses a serious issue and must be taken care of as soon as possible.
 
-**Parent Topic:**[Working with SRM reliability tasks](../task/sr-work-reliability-tasks.md)
+**Parent Topic:**[Working with SRM reliability tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-reliability-tasks.md)
 

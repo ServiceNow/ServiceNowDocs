@@ -2,6 +2,7 @@
 title: Create a learning path in Workforce Optimization for HR
 description: Create a learning path, add relevant skills and course items, and publish the path. When your agents complete the path, any skills associated with the path are automatically added to the agent's profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/create-learning-path-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr

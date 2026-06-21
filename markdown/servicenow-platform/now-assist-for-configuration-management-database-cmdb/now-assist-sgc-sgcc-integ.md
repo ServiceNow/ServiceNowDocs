@@ -2,6 +2,7 @@
 title: Integrating Now Assist for Service Graph Connectors \(SGC\) with SGC Central
 description: You can leverage generative AI capabilities and resolve processing errors displayed in the SGC Central view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-sgcc-integ.html
 release: xanadu
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -17,5 +18,5 @@ You can leverage generative AI capabilities and resolve processing errors displa
 
 When the Service Graph Connector diagnosis skill is enabled, you can use the Now Assist for SGC application in the SGC Central view of the CMDB Workspace to generate recommendations for resolving processing errors.
 
-To learn more, see [Diagnose a processing error in SGC Central](../../sgc-central/task/sgcc-diagnose-proc-errors.md).
+To learn more, see [Diagnose a processing error in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/sgcc-diagnose-proc-errors.md).
 

@@ -2,6 +2,7 @@
 title: Manage Service Catalog items for the Zero Touch request flow
 description: As a catalog administrator, configure your Service Catalog items so that the hardware asset requests can be fulfilled by an external provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/manage-service-catalog-items-ztr.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -17,7 +18,7 @@ As a catalog administrator, configure your Service Catalog items so that the har
 
 Complete the following tasks for your catalog requests to be available for fulfillment through the Zero Touch request flow:
 
-1.  [Associate your catalog items with the Zero Touch request flow](../task/associate-catalog-items-with-ztr.md).
-2.  [Create variables for the catalog item associated with the Zero Touch request flow](../task/create-variables-for-items-consumer.md).
-3.  [Associate a catalog item with a remote record producer](../task/associate-catalog-item-with-record-producer.md).
+1.  [Associate your catalog items with the Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/associate-catalog-items-with-ztr.md).
+2.  [Create variables for the catalog item associated with the Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/create-variables-for-items-consumer.md).
+3.  [Associate a catalog item with a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/associate-catalog-item-with-record-producer.md).
 

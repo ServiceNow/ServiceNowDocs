@@ -2,6 +2,7 @@
 title: Define a threshold amount for the risk event response template
 description: Define a threshold limit for assigning risk event approvers. A threshold limit is defined to determine if a risk event needs an approver.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/define-threshold-amount-risk-event.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -21,7 +22,7 @@ Role required: sn\_risk.manager and sn\_risk.admin
 
 ## About this task
 
-Based on the risk loss amount, you can decide whether approvers are required for the risk events losses. For example, for any risk event that results in a loss of $1000 or less, an approver is not needed. But for any amount beyond $1000, the risk event must be evaluated and an approver is automatically assigned. There can be multiple levels of approvals depending on your defined thresholds. For a better understanding, see the following image. ![Risk event thresholds for approval](../image/threshold-risk-event.png)
+Based on the risk loss amount, you can decide whether approvers are required for the risk events losses. For example, for any risk event that results in a loss of $1000 or less, an approver is not needed. But for any amount beyond $1000, the risk event must be evaluated and an approver is automatically assigned. There can be multiple levels of approvals depending on your defined thresholds. For a better understanding, see the following image. \[Omitted image "threshold-risk-event.png"\] Alt text: Risk event thresholds for approval
 
 In the previous example, the following rules are applied.
 
@@ -52,5 +53,5 @@ In the previous example, the following rules are applied.
 
 The response template is updated with the threshold limit and approver details.
 
-**Parent Topic:**[Create a risk event response template](create-risk-event-response-template.md)
+**Parent Topic:**[Create a risk event response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-response-template.md)
 

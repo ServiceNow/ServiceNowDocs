@@ -2,6 +2,7 @@
 title: Define a frame in a style sheet
 description: Add style definitions for any custom frame UI macro you create.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/content-management-system/t\_DefineTheFrameInAStyleSheet.html
 release: xanadu
 product: Content Management System
 classification: content-management-system
@@ -40,5 +41,5 @@ Each frame has its own class name.
 4.  Click **Update**.
 
 
-**Parent Topic:**[Format a frame](t_Frame.md)
+**Parent Topic:**[Format a frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/content-management-system/t_Frame.md)
 

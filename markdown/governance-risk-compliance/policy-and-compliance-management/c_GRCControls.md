@@ -2,6 +2,7 @@
 title: Manage controls
 description: Controls are specific implementations of a control objective. Retired controls do not appear in the list. Before defining controls, take time to rationalize, consolidate, and define the important controls in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/policy-and-compliance-management/c\_GRCControls.html
 release: xanadu
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -25,13 +26,13 @@ If you upload all your controls in bulk, you are missing the opportunity to refi
 -   Is there a control you can put in place that reduces process overhead and improves IT performance while also mitigating risk?
 -   Can a complicated control be replaced with a simpler more effective control?
 
-**Note:** When you define controls manually or when you import them from the Unified Compliance Framework \(UCF\), an entity is associated with the controls. It is a mandatory field on the Control form. If, however, you import controls from a source other than the UCF, you may encounter controls that do not have associated entities. It is important that you return to the Control form and [add an entity to the control](../task/t_CreateAControl.md). Missing entities can cause unreliable results in calculations. Also, if you encounter a control with an entity that has been disabled, the control should be retired.
+**Note:** When you define controls manually or when you import them from the Unified Compliance Framework \(UCF\), an entity is associated with the controls. It is a mandatory field on the Control form. If, however, you import controls from a source other than the UCF, you may encounter controls that do not have associated entities. It is important that you return to the Control form and [add an entity to the control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md). Missing entities can cause unreliable results in calculations. Also, if you encounter a control with an entity that has been disabled, the control should be retired.
 
 ## Consolidate your controls
 
 Look for opportunities to consolidate controls. Look for common, repeated controls across multiple regulatory authorities of frameworks \(for example, SOX and GLBA and AML\). Avoid operating a single control multiple times for each regulation, by cross-mapping controls and eliminating the redundant ones. This process establishes a single consolidated set of controls = control framework, performing and preserving the cross mapping of controls is critical for audits.
 
-![Industry regulations and requirements overlap](../../grc-common/image/industry-regulations.png "Industry regulations and requirements overlap")
+\[Omitted image "industry-regulations.png"\] Alt text: Industry regulations and requirements overlap
 
 ## Define controls and business rules
 

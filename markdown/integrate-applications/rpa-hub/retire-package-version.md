@@ -2,6 +2,7 @@
 title: Retire a package version in RPA Hub
 description: Retire a package version in RPA Hub so that the version can't be used again. After a package version is retired, it can’t be used again.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/retire-package-version.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Retire a package version in RPA Hub so that the version can't be used again. Aft
 
 ## Before you begin
 
-Create a package. For more information, see [Create a package to assign to a bot process](create-package.md).
+Create a package. For more information, see [Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-package.md).
 
 Verify that the package and associated package versions aren’t assigned to any non-retired bot process.
 
@@ -29,14 +30,14 @@ Role required: sn\_rpa\_fdn.rpa\_developer or sn\_rpa\_fdn.rpa\_admin
 
 You can retire a package in two ways:
 
--   Retire a package and all the associated package versions are also retired automatically. For more information about retiring a package, see [Retire an RPA Hub package](retire-package.md).
+-   Retire a package and all the associated package versions are also retired automatically. For more information about retiring a package, see [Retire an RPA Hub package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/retire-package.md).
 -   Retire only the package version, by following the steps mentioned in this task.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **Packages**.
 
@@ -47,5 +48,5 @@ You can retire a package in two ways:
 6.  When you see the confirmation prompt, select **Retire**.
 
 
-**Parent Topic:**[Managing RPA Hub](../concept/managing-rpa-hub.md)
+**Parent Topic:**[Managing RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/managing-rpa-hub.md)
 

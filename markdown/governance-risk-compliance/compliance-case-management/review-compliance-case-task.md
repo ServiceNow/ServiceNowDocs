@@ -2,6 +2,7 @@
 title: Review and close a case task
 description: Review and close a case task after a case task owner provides responses and observations for the case in the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/compliance-case-management/review-compliance-case-task.html
 release: xanadu
 product: Compliance Case Management
 classification: compliance-case-management
@@ -27,15 +28,15 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 3.  Review the case task and then select one of the following options.
 
-<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d329324e77">
+<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d205509e77">
 
 Choice
 
-</th><th align="left" id="d329324e80">
+</th><th align="left" id="d205509e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d329324e86">
+</th></tr></thead><tbody><tr><td id="d205509e86">
 
 **To request revision of the details provided by the case task owner**
 
@@ -46,7 +47,7 @@ Steps
 3.  Select **Request revision**.
 
 
-</td></tr><tr><td id="d329324e113">
+</td></tr><tr><td id="d205509e113">
 
 **To close the task as complete**
 
@@ -57,7 +58,7 @@ Steps
 3.  Select **Close as complete**.
 
 
-</td></tr><tr><td id="d329324e140">
+</td></tr><tr><td id="d205509e140">
 
 **To close the task as incomplete**
 
@@ -68,7 +69,7 @@ Steps
 3.  Select **Close as incomplete**.
 
 
-</td></tr><tr><td id="d329324e167">
+</td></tr><tr><td id="d205509e167">
 
 **To cancel the case task**
 
@@ -81,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Work on a case task](work-on-compliance-case-task.md)
+**Parent Topic:**[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.md)
 

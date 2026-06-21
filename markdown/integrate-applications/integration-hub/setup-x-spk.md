@@ -2,6 +2,7 @@
 title: Set up the X spoke
 description: Integrate the ServiceNow instance and X account to authenticate the requests from ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-x-spk.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub

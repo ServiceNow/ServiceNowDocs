@@ -2,6 +2,7 @@
 title: System email log and mailboxes
 description: The system email log records all emails that the instance creates or receives. System mailboxes are filtered views of this log.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_EmailLogs.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ The system email log records all emails that the instance creates or receives. S
 
 Every notification email that the instance creates or receives is recorded in an Email \[sys\_email\] record. You can navigate to a log of these records at **System Logs** &gt; **Emails**.
 
-The System Mailboxes are filtered views of the Emails \[sys\_email\] table. The instance assigns an email record to a system mailbox depending on the values of the **Type** and **State** fields. For more information, see [System mailboxes](../../notification/concept/c_SystemMailboxes.md).
+The System Mailboxes are filtered views of the Emails \[sys\_email\] table. The instance assigns an email record to a system mailbox depending on the values of the **Type** and **State** fields. For more information, see [System mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_SystemMailboxes.md).
 
 The following fields can be included in the layout of the system log and any of the system mailboxes:
 
@@ -190,5 +191,5 @@ Headers
 Any headers embedded in the email.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email FAQs and troubleshooting notification emails](../../notification/concept/troubleshooting-notification-emails.md)
+</table>**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/troubleshooting-notification-emails.md)
 

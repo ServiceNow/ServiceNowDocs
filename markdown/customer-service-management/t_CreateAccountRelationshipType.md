@@ -2,7 +2,10 @@
 title: Create an account relationship type
 description: Create an account relationship type by defining the types of source and target accounts and providing a name for the relationship between these accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_CreateAccountRelationshipType.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

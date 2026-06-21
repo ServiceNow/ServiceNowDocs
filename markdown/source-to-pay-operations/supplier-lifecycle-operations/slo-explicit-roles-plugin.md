@@ -2,6 +2,7 @@
 title: Explicit Roles in Supplier Lifecycle Operations
 description: You can grant access to your instance to both internal and external users. However, it is important to differentiate their access levels for added security. To achieve this, every user must have at least one role, allowing the instance to distinguish between internal and external users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/slo-explicit-roles-plugin.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -21,7 +22,7 @@ Groups and role containment structures also cannot include both roles, as this w
 
 You must install the Explicit Roles \[com.glide.explicit\_roles\] plugin while installing Supplier Lifecycle Operations. Supplier Lifecycle Operations is dependent on the Explicit Roles \[com.glide.explicit\_roles\] plugin.
 
-For more information about ServiceNow AI Platform explicit roles, see [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information about ServiceNow AI Platform explicit roles, see .
 
-**Parent Topic:**[Install Supplier Lifecycle Operations](../task/install-supp-mgmt.md)
+**Parent Topic:**[Install Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
 

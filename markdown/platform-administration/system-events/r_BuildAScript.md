@@ -2,6 +2,7 @@
 title: The incident events business rule
 description: The incident events business rule comes with the system and defines a number of events that can be triggered by different actions in the Incident table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/system-events/r\_BuildAScript.html
 release: xanadu
 product: System Events
 classification: system-events
@@ -15,7 +16,7 @@ breadcrumb: [System events reference, System Events, Configure core features, Ad
 
 The incident events business rule comes with the system and defines a number of events that can be triggered by different actions in the Incident table.
 
-![Incident events business rule snippet](../image/IncidentEvents.png "Incident events business rule")
+\[Omitted image "IncidentEvents.png"\] Alt text: Incident events business rule snippet
 
 This business rule defines several events, three of which are triggered after a record in the Incident table is inserted or updated. The first script is:
 
@@ -56,5 +57,5 @@ The gs.eventQueue function takes the following parameters:
 
 **Note:** The gs.EventQueue function works directly with the backend and therefore business rules that are called by gs.EventQueue\(\) are not invoked.
 
-**Parent Topic:**[System events reference](system-events-reference.md)
+**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/system-events/system-events-reference.md)
 

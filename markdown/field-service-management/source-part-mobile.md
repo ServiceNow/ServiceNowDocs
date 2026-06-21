@@ -2,7 +2,10 @@
 title: View transfer order lines for requested parts
 description: View all transfer order lines for the parts that are requested by you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/source-part-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -30,15 +33,15 @@ Transfer orders move necessary parts between stockrooms or to a location where a
 
 2.  View the transfer orders.
 
-<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d102760e83">
+<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d68620e83">
 
 To
 
-</th><th align="left" id="d102760e86">
+</th><th align="left" id="d68620e86">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d102760e92">
+</th></tr></thead><tbody><tr><td id="d68620e92">
 
 **View transfer order lines for a part requirement**
 
@@ -51,7 +54,7 @@ Do this
 5.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d102760e137">
+</td></tr><tr><td id="d68620e137">
 
 **View transfer order lines related to a work order task**
 
@@ -65,7 +68,7 @@ Do this
 6.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d102760e192">
+</td></tr><tr><td id="d68620e192">
 
 **View transfer order lines for a part request**
 
@@ -81,7 +84,7 @@ Do this
 </table>
 ## What to do next
 
-You can pickup parts from your peer agents for the part request. For more information, see [Pick up a part to complete tasks](../concept/picking-up-parts.md#) and [Pick up a part to complete tasks](../concept/picking-up-parts.md#).
+You can pickup parts from your peer agents for the part request. For more information, see [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/picking-up-parts.md) and [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/picking-up-parts.md).
 
-**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](../concept/easily-track-parts.md)
+**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/easily-track-parts.md)
 

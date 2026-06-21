@@ -2,6 +2,7 @@
 title: Trigger alert binding to a CI
 description: Trigger a new alert to manually bind an alert to a CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/t\_EMManuallyBindAlertCI.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -26,5 +27,5 @@ Role required: evt\_mgmt\_admin
     -   Delete the alert and resend the event.
     -   Close the alert, temporarily set the **evt\_mgmt.active\_interval** system property time to `0`, and then resend the alert. After the bind completes, reset the property back to the previous value.
 
-**Parent Topic:**[Alert binding to CIs with event rules](../reference/r_EMHowAlertsBindCI.md)
+**Parent Topic:**[Alert binding to CIs with event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/r_EMHowAlertsBindCI.md)
 

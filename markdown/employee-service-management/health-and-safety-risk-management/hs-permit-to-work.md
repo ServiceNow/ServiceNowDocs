@@ -2,11 +2,12 @@
 title: Permit-to-work
 description: The permit to work system streamlines request management and efficiently issues work permits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -33,14 +34,14 @@ If these tasks aren’t managed properly, it could pose significant risks. The p
 -   Adequate training for workers on risks, safety measures, and permit requirements.
 -   Regular monitoring and supervision on safety conformance and permit conditions throughout the duration of the activity.
 
--   **[Create a permit-to-work request](../task/hs-create-permit-to-work-request.md)**  
+-   **[Create a permit-to-work request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-create-permit-to-work-request.md)**  
 The permit-to-work request is submitted by the worker who carries out the job with significant risk.
--   **[Approve or reject a permit](../task/hs-approve-reject-permit.md)**  
+-   **[Approve or reject a permit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-approve-reject-permit.md)**  
 Review the permit and approve or reject it through the employee center.
--   **[Issue a permit to work](../task/hs-issue-permit.md)**  
+-   **[Issue a permit to work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-issue-permit.md)**  
 A permit coordinator can issue a permit after the permit approver approves a request.
--   **[Add an action to a health and safety permit-to-work request](../task/hs-add-health-safety-action-permit.md)**  
+-   **[Add an action to a health and safety permit-to-work request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-add-health-safety-action-permit.md)**  
 Create a Health and Safety action to a requested permit-to-work. This helps to address the root cause of any reported safety occurrence.
 
-**Parent Topic:**[Using Health and Safety Risk Management](hs-using-hs-risk-mgmt.md)
+**Parent Topic:**[Using Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-using-hs-risk-mgmt.md)
 

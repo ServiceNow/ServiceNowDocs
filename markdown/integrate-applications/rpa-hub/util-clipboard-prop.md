@@ -2,6 +2,7 @@
 title: Properties of the Clipboard components
 description: Learn about the properties of the Clipboard components in RPA Desktop Design Studio Clipboard utility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/util-clipboard-prop.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ Learn about the properties of the Clipboard components in RPA Desktop Design Stu
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Clipboard](../concept/clipboard.md)
+**Parent Topic:**[Clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/clipboard.md)
 

@@ -2,7 +2,10 @@
 title: CAL - AWS S3 Get ACL subflow
 description: Subflow that retrieves the Access Control List \(ACL\) details for the specified Amazon Web Services \(AWS\) S3 bucket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cal-aws-s3-get-acl.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -17,11 +20,11 @@ Subflow that retrieves the Access Control List \(ACL\) details for the specified
 
 -   **Subscription requirements**
 
-    To use this subflow in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+    To use this subflow in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see Request Integration Hub.
 
 -   **Role requirements**
 
-    This subflow requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://www.servicenow.com/docs/access?context=user-access-flow-designer&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+    This subflow requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
 
 
 ## Cloud permission
@@ -186,5 +189,5 @@ You can use these outputs as inputs for other actions.
     For federated login, the subflow doesn't return any Owner Display Name.
 
 
-**Parent Topic:**[Cloud Action Library reference](cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-action-library-reference.md)
 

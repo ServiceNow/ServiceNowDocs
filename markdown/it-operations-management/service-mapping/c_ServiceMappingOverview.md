@@ -2,6 +2,7 @@
 title: Service Mapping
 description: The ServiceNow Service Mapping application discovers all application services in your organization and builds a comprehensive map of all devices, applications, and configuration profiles used in these application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-mapping/c\_ServiceMappingOverview.html
 release: xanadu
 product: Service Mapping
 classification: service-mapping
@@ -31,23 +32,23 @@ Map services across dynamic cloud-based providers with a high degree of accuracy
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about application services, different methods of mapping application services, and how other ServiceNow applications use data collected with Service Mapping](../concept/service-mapping-get-started.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about application services, different methods of mapping application services, and how other ServiceNow applications use data collected with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/service-mapping-get-started.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your implementation.](../concept/service-mapping-setup.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/service-mapping-setup.md)
 
 </td><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Map application services](../task/map-application-suggestion.md)
+[Manage\[Omitted image "bus-optimize-manage.svg"\] Alt text:Map application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/map-application-suggestion.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-service-map.svg)Review mapping application services for analysis and maintenance.](../concept/using-service-mapping.md)
+[Use\[Omitted image "bus-service-map.svg"\] Alt text:Review mapping application services for analysis and maintenance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/using-service-mapping.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like roles, tables, and properties.](service-mapping-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like roles, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/service-mapping-reference.md)
 
 </td><td>
 

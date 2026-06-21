@@ -2,6 +2,7 @@
 title: Indexing content from AI Search indexed sources
 description: AI Search indexes records on indexed source tables to make their content searchable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/indexing-content-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -28,7 +29,7 @@ To index additional fields from referenced tables, you can configure **dot\_walk
 
 You can create both **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** field settings for the same reference field.
 
-For instructions on configuring **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** field settings, see [Enable indexing of referenced table fields for an AI Search indexed source](field-settings-ais.md#). For more information on field settings, see [Field settings for AI Search](field-settings-ais.md#). To learn about search source filters, see [Search sources in AI Search](search-sources-ais.md). For details on facet filters, see [Create a facet in an AI Search application configuration](../task/create-facet-ais.md). To understand EVAM configurations, see [Entity View Action Mapping](https://www.servicenow.com/docs/access?context=evam-overview&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For instructions on configuring **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** field settings, see [Enable indexing of referenced table fields for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/field-settings-ais.md). For more information on field settings, see [Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/field-settings-ais.md). To learn about search source filters, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/search-sources-ais.md). For details on facet filters, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-facet-ais.md). To understand EVAM configurations, see Entity View Action Mapping.
 
 ## Indexing content from source record attachments
 
@@ -50,7 +51,7 @@ AI Search provides limited support for encrypted record attachments:
 -   The encrypted attachment's MIME type is detected as `application/octet-stream`.
 -   No feedback for the encrypted attachment appears in ingestion log messages.
 
-Attachment indexing is controlled by an indexed source's **index\_attachments** attribute. To verify that attachment indexing is enabled for an indexed source, see [Enable indexing of attachments for an AI Search indexed source](indexed-source-attributes-ais.md#).
+Attachment indexing is controlled by an indexed source's **index\_attachments** attribute. To verify that attachment indexing is enabled for an indexed source, see [Enable indexing of attachments for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
 ## Indexing content from source record tags
 
@@ -58,23 +59,23 @@ AI Search can index tags found on source table records. Search results display i
 
 By default, indexing ignores tags from source records. You can enable indexing of tags for each indexed source. Choose whether you want to index all shared and globally visible tags or just globally visible tags.
 
-For details on enabling tag indexing for an indexed source, see [Enable indexing of tags for an AI Search indexed source](indexed-source-attributes-ais.md#).
+For details on enabling tag indexing for an indexed source, see [Enable indexing of tags for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
 ## Indexing content from the Task table and its child tables
 
-When defining an indexed source that indexes records from the Task table or any of its child tables, you must specify a retention policy. For details on retention policies, see [Indexed source retention policies and filter conditions](retention-policies-conditions-ais.md).
+When defining an indexed source that indexes records from the Task table or any of its child tables, you must specify a retention policy. For details on retention policies, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/retention-policies-conditions-ais.md).
 
 ## Reindexing content
 
 You must perform a full table reindex for an indexed source under the following circumstances:
 
 -   After you add, modify, or delete an indexed source attribute or a field setting for the indexed source.
--   If you want to update indexed values for fields on tables referenced by source table records. As an example, the **company** field on the User \[sys\_user\] table stores a reference to the Company \[core\_company\] table. If you configure indexing for values for fields on the referenced Company table, such as **city** or **website**, you must reindex the User table to update those indexed Company table field values. For details on configuring indexing of referenced table fields, see [Enable indexing of referenced table fields for an AI Search indexed source](field-settings-ais.md#).
+-   If you want to update indexed values for fields on tables referenced by source table records. As an example, the **company** field on the User \[sys\_user\] table stores a reference to the Company \[core\_company\] table. If you configure indexing for values for fields on the referenced Company table, such as **city** or **website**, you must reindex the User table to update those indexed Company table field values. For details on configuring indexing of referenced table fields, see [Enable indexing of referenced table fields for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/field-settings-ais.md).
 
--   **[Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md)**  
+-   **[Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md)**  
 Make content from an internal indexed source searchable by performing a full table index. This procedure indexes existing records from the source table and any child tables configured for indexing. You can manually reindex content from an internal indexed source by repeating this procedure.
--   **[Perform a full table index or reindex for multiple AI Search indexed sources](../task/index-multiple-sources-ais.md)**  
+-   **[Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-multiple-sources-ais.md)**  
 Make content from multiple internal indexed sources searchable by performing a full table index. This procedure indexes existing records from the source tables and any child tables configured for indexing. You can manually reindex content from internal indexed sources by repeating this procedure.
 
-**Parent Topic:**[Indexed sources in AI Search](indexed-sources-ais.md)
+**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-sources-ais.md)
 

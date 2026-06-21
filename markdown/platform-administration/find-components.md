@@ -2,6 +2,7 @@
 title: Find components installed with an application
 description: Activating a plugin installs an application on your instance. Each application consists of components such as tables, user roles, and scheduled jobs. To view all components that are installed with an application, see the Application Files table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/find-components.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -18,7 +19,7 @@ Activating a plugin installs an application on your instance. Each application c
 -   The application plugin must be activated.
 -   Roles required: admin or the application admin role
 
-    **Note:** The application admin role is only required for applications that use the [Application administration](https://www.servicenow.com/docs/access?context=application-administration&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US) feature. For example, Vulnerability Response.
+    **Note:** The application admin role is only required for applications that use the Application administration feature. For example, Vulnerability Response.
 
 
 ## About this task
@@ -31,16 +32,16 @@ In the Application Files table, look up the components that are installed with t
 
     The list of Application Files records is displayed.
 
-2.  Click the personalize list icon \(![gear icon](../../../common/image/gear.png)\), and add the **Package** column to the list.
+2.  Click the personalize list icon \(\[Omitted image "gear.png"\] Alt text: gear icon\), and add the **Package** column to the list.
 
 3.  Filter the list with these conditions to show only the components for the plugin:
 
     **\[Package\] \[is\] \[ _&lt;plugin name&gt;_\]**
 
-4.  In the **Class** column heading, click the menu icon \(![menu icon](../image/HamburgerMenu.png)\) and select **Group by Class**.
+4.  In the **Class** column heading, click the menu icon \(\[Omitted image "HamburgerMenu.png"\] Alt text: menu icon\) and select **Group by Class**.
 
 5.  Select the class of information that you want to view.
 
 
-**Parent Topic:**[Basic system configuration](../../core-configuration/concept/p_CoreConfigurationOverview.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/p_CoreConfigurationOverview.md)
 

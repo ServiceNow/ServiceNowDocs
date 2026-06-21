@@ -2,6 +2,7 @@
 title: Dot-walking from reference fields in a data visualization
 description: Dot-walking provides access to fields on extended, or related, tables, enabling you to create data visualizations on fields from those tables.Learn how to dot walk table fields in a data visualization of table data. See how to start from a parent table, such as Task, and dot walk to include data from extended tables, such as Indicator and Problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/ext-table-fields-dot-walk-vis-des.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -14,18 +15,18 @@ breadcrumb: [Platform Analytics]
 
 Dot-walking provides access to fields on extended, or related, tables, enabling you to create data visualizations on fields from those tables.
 
-You can access references on extended tables from the Metric, Group by/Stack by, column/row, or Trend by fields in the Configuration panel, or when you add custom conditions when you choose the data source. The Sorting option also enables you to configure the sort order of applicable reference fields on extended tables. Tables that reference other tables are denoted with an arrow \(![Expand icon for data visualizations](../../par-for-workspace/image/icon-dv-expand.png)\) icon.
+You can access references on extended tables from the Metric, Group by/Stack by, column/row, or Trend by fields in the Configuration panel, or when you add custom conditions when you choose the data source. The Sorting option also enables you to configure the sort order of applicable reference fields on extended tables. Tables that reference other tables are denoted with an arrow \(\[Omitted image "icon-dv-expand.png"\] Alt text: Expand icon for data visualizations\) icon.
 
 Dot-walking references a field by building a chain of field names separated by dots \(periods\). For instance, **incident.assigned\_to.company** references the company of the user assigned to an incident. The recommended limit for chain length is three levels.
 
 **Note:** Dot-walking applies only to visualizations of table data sources.
 
-**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 
 **Related topics**  
 
 
-[Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.dot-walking-examples]
 
 ## Dot walk fields in Visualization Designer
 
@@ -60,11 +61,11 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 6.  Under Field, navigate to the desired reference field.
 
-    Reference fields have an Expand arrow ![Expand icon for data visualizations](../../par-for-workspace/image/icon-dv-expand.png).
+    Reference fields have an Expand arrow \[Omitted image "icon-dv-expand.png"\] Alt text: Expand icon for data visualizations.
 
 7.  Select the Expand arrow to show a list of fields in the table that the reference field points to.
 
-    ![Dot-walking to the Incident.Category field.](../image/dv-ext-tables-choose-field.png)
+    \[Omitted image "dv-ext-tables-choose-field.png"\] Alt text: Dot-walking to the Incident.Category field.
 
 8.  Select a field, or continue to dot walk across reference fields until you find the desired field.
 
@@ -76,15 +77,15 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 In this example, you create a simple list of data from the Task table and include fields from the Indicator \[indicator\] and Problem \[problem\] tables, which extend Task.
 
 1.  You navigate to the Data Visualizations list in the Platform Analytics library and select **New**.
-2.  In the **Visualization type** field, you select Simple list \(![simple list icon](../image/inline-data-vis-list.png)\).
+2.  In the **Visualization type** field, you select Simple list \(\[Omitted image "inline-data-vis-list.png"\] Alt text: simple list icon\).
 3.  In the Configuration tab, you keep the default Task \[task\] table.
 
-    ![Report on extended tables in Visualization Designer, Configuration panel, with visualization name Active Incidents and Problems of Priority 1 or 2, Source type=Table, and Table=Task](../image/report-ext-tables-data-vis-des.png)
+    \[Omitted image "report-ext-tables-data-vis-des.png"\] Alt text: Report on extended tables in Visualization Designer, Configuration panel, with visualization name Active Incidents and Problems of Priority 1 or 2, Source type=Table, and Table=Task
 
 4.  In the Columns field, you select **+Add** and scroll down to Incident.
-5.  Next to Incident, you see an Expand arrow ![Expand icon for data visualizations](../../par-for-workspace/image/icon-dv-expand.png) that indicates you can dot-walk. So you click that arrow, and scroll down through the fields on the Incident table until you reach the Category field, which you select.
+5.  Next to Incident, you see an Expand arrow \[Omitted image "icon-dv-expand.png"\] Alt text: Expand icon for data visualizations that indicates you can dot-walk. So you click that arrow, and scroll down through the fields on the Incident table until you reach the Category field, which you select.
 
-    ![Dot-walking to the Incident.Category field.](../image/dv-ext-tables-choose-field.png)
+    \[Omitted image "dv-ext-tables-choose-field.png"\] Alt text: Dot-walking to the Incident.Category field.
 
 6.  You repeat this process to add the Problem.Related incident field.
 7.  Add the Number, State, Assigned to, and Short Description fields, and move them into the order you want.
@@ -96,7 +97,7 @@ In this example, you create a simple list of data from the Task table and includ
 
 The final visualization shows either Incident.Category values, Problem.Related Incidents values, or both.
 
-![Data visualization showing Incident.Category data.](../image/dv-extended-table-category.png "Active Incidents and Problems data visualization showing Incident.Category content")
+\[Omitted image "dv-extended-table-category.png"\] Alt text: Data visualization showing Incident.Category data.
 
-![Data visualization showing Problem.Related incident data.](../image/dv-extended-table-rel-incidents.png "Active Incidents and Problems data visualization showing Related incident.Problem content")
+\[Omitted image "dv-extended-table-rel-incidents.png"\] Alt text: Data visualization showing Problem.Related incident data.
 

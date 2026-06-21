@@ -2,6 +2,7 @@
 title: UX: Design for Employee Center
 description: The UX \(User Experience\): Design for Employee Center Accelerator provides UX Design support and expert guidance to help customers get started with Employee Center design.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/ux-design-employee-center.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The UX \(User Experience\): Design for Employee Center Accelerator provides UX D
 
 UX: Design for Employee Center provides tailored UX Design advisory support, offering design resources, UI inspiration, and expert guidance from ServiceNow UX Experts to help your design and implementation teams kickstart your Employee Center design.
 
-See [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US) on Employee Center.
+See  on Employee Center.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

@@ -2,6 +2,7 @@
 title: Configure the chat channel
 description: Activate the virtual agent chatbot \(chat channel\) in the supplier portal for suppliers to complete Accounts Payable Operations related self-service tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/configure-the-chat-channel.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -30,8 +31,8 @@ Role required: Accounts payable specialist, Accounts payable agent, supplier.
 
 2.  Choose a flow, which you want to view.
 
-    For more information on flows, refer [Virtual agent flows](../concept/virtual-agent-flows.md).
+    For more information on flows, refer [Virtual agent flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/virtual-agent-flows.md).
 
 
-**Parent Topic:**[Virtual agent flows](../concept/virtual-agent-flows.md)
+**Parent Topic:**[Virtual agent flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/virtual-agent-flows.md)
 

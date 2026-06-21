@@ -2,6 +2,7 @@
 title: Exploring Instance Data Replication
 description: Instance Data Replication \(IDR\) replicates data updates on one instance, called the producer instance, to one or more other instances, called the consumer instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/instance-data-replication-idr/exploring-instance-data-replication.html
 release: xanadu
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -18,12 +19,12 @@ Instance Data Replication \(IDR\) replicates data updates on one instance, calle
 ## IDR overview
 
 -   Data is automatically replicated to one or more other instances.
--   Data can be [modified and mapped to any table and table column](../task/modify-replicated-data.md) on other instances. For example, you can modify and map table columns to localize data for different locales.
--   Data that is updated on consumer instances can be [replicated to the producer instance](../task/bi-directional-replication.md).
+-   Data can be [modified and mapped to any table and table column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/modify-replicated-data.md) on other instances. For example, you can modify and map table columns to localize data for different locales.
+-   Data that is updated on consumer instances can be [replicated to the producer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/bi-directional-replication.md).
 
     Data, such as problem requests, can be copied to consumer instances for third parties to use. The third party can update the problem issue on the consumer instance. The data can then be updated on the producer instance.
 
--   Business rules can trigger [post-replication workflows](../task/post-replication-actions.md), such as generating notifications or validating the replication.
+-   Business rules can trigger [post-replication workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/post-replication-actions.md), such as generating notifications or validating the replication.
 -   Data that is in transit during a crash is recoverable.
 
 ## How Instance Data Replication works
@@ -40,13 +41,13 @@ You can initiate seeding requests on a consumer instance when you activate a con
 
 After seeding, replication involves data updates only. An audit trail contains a history of those record updates.
 
-By default, the table data on a producer instance goes into the tables of the same name on consumer instances. [Transformation](../task/modify-replicated-data.md) is the process of replicating producer data in tables or table columns that have a different name on the consumer instances.
+By default, the table data on a producer instance goes into the tables of the same name on consumer instances. [Transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/modify-replicated-data.md) is the process of replicating producer data in tables or table columns that have a different name on the consumer instances.
 
-IDR [adapters](../task/modify-replicated-data.md) modify data before storing it on consumer instances. Adapters perform string and mathematical operations, such as converting one currency to another, or converting one time zone to another.
+IDR [adapters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/modify-replicated-data.md) modify data before storing it on consumer instances. Adapters perform string and mathematical operations, such as converting one currency to another, or converting one time zone to another.
 
-![Data replicates from a producer instance to one or more consumer instances.](../image/idr-concept-diagram-with-adapter.png "IDR overview")
+\[Omitted image "idr-concept-diagram-with-adapter.png"\] Alt text: Data replicates from a producer instance to one or more consumer instances.
 
-**Warning:** IDR overwrites data on instances and can replicate sensitive data. Avoid potential data loss and data exposure, by testing your IDR implementation in a pre-production environment. See [data privacy in IDR](data-privacy-consumers-idr.md) for more information.
+**Warning:** IDR overwrites data on instances and can replicate sensitive data. Avoid potential data loss and data exposure, by testing your IDR implementation in a pre-production environment. See [data privacy in IDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/data-privacy-consumers-idr.md) for more information.
 
 ## IDR and instance upgrades
 
@@ -62,7 +63,7 @@ Upgrading your instance with IDR enabled is a seamless process.
 
 -   Do not use IDR to clone instances.
 
-    IDR does not replicate metadata tables, child metadata tables, and most user and system tables. IDR is designed to replicate data, not to clone instances. For example, the Application File \[sys\_metadata\] table and tables that extend \[sys\_metadata\] \(including the Business Rules \[sys\_script\], Catalog \[sc\_catalog\], and Workflow \[wf\_workflow\] tables\) are excluded and can't be replicated. For details on cloning, see [System clone](https://www.servicenow.com/docs/access?context=c_SystemClone&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    IDR does not replicate metadata tables, child metadata tables, and most user and system tables. IDR is designed to replicate data, not to clone instances. For example, the Application File \[sys\_metadata\] table and tables that extend \[sys\_metadata\] \(including the Business Rules \[sys\_script\], Catalog \[sc\_catalog\], and Workflow \[wf\_workflow\] tables\) are excluded and can't be replicated. For details on cloning, see .
 
 -   Avoid using IDR to replicate a series of large attachments on a regular basis. If you need to include attachments that are larger than 10 MB regularly, monitor IDR to ensure that the lag time doesn't exceed expectations.
 -   Avoid continuous replication of CMDB tables. Replicating CMDB data as changes occur can create performance issues or unforeseen consequences with replication due to the number of records involved. If you must replicate CMDB tables, consider scheduling replication or use conditions to constrain the count of replicated records and ensure all required columns are included in the replication set.

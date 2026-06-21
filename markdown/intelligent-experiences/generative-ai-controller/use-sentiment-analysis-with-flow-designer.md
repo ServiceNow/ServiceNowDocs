@@ -2,6 +2,7 @@
 title: Use Sentiment Analysis with Workflow Studio
 description: Create a flow to upgrade the assignment group of a case if the user has a negative sentiment in the short description.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/use-sentiment-analysis-with-flow-designer.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -23,7 +24,7 @@ Role required: admin
 
 The Sentiment Analysis capability helps determine whether the user-generated text has a positive or negative sentiment. If a user is expressing negative statements such as "Level 1 support couldn't help me," you could upgrade the assignment group automatically for the case to help the user have a better experience.
 
-For more information on tracking Generative AI Controller usage, see [Monitoring Now Assist usage](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more information on tracking Generative AI Controller usage, see Monitoring Now Assist usage.
 
 ## Procedure
 
@@ -51,11 +52,11 @@ For more information on tracking Generative AI Controller usage, see [Monitoring
 
 11. Drag a data pill from the Data panel or select the data pill picker icon.
 
-    In this case, drag the **Trigger** &gt; **Case Record** &gt; **Short description**. ![Short description added to the utterance field.](../image/sa-short-description-utterance.png)
+    In this case, drag the **Trigger** &gt; **Case Record** &gt; **Short description**. \[Omitted image "sa-short-description-utterance.png"\] Alt text: Short description added to the utterance field.
 
 12. Select **Done**.
 
-    ![Complete sentiment analysis utterance](../image/sa-complete-utterance.png)
+    \[Omitted image "sa-complete-utterance.png"\] Alt text: Complete sentiment analysis utterance
 
 13. Add an action by selecting **Add an Action, Flow Logic, or Subflow**.
 
@@ -65,13 +66,13 @@ For more information on tracking Generative AI Controller usage, see [Monitoring
 
 16. For the **Condition** field, drag a data pill or select the data pill picker icon to search for the correct condition.
 
-    In this case, drag the **Sentiment Analysis** &gt; **response**. ![Short description field added.](../image/sa-if-condition-data-pill-picker.png)
+    In this case, drag the **Sentiment Analysis** &gt; **response**. \[Omitted image "sa-if-condition-data-pill-picker.png"\] Alt text: Short description field added.
 
 17. Select `contains` the value `Negative`.
 
     **Note:** Capitalization matters. This flow won't work if the value is set to `negative`.
 
-    ![Completed condition for If logic statement.](../image/sa-complete-if-statement.png)
+    \[Omitted image "sa-complete-if-statement.png"\] Alt text: Completed condition for If logic statement.
 
 18. Search for **Update Record** and select the action.
 
@@ -87,7 +88,7 @@ For more information on tracking Generative AI Controller usage, see [Monitoring
 
     The field value depends on your use case. In this example, the value is set to `Service Desk`.
 
-    ![Update record action filled in with Sentiment Analysis response setting assignment group to Service Desk.](../image/sa-complete-update-record.png)
+    \[Omitted image "sa-complete-update-record.png"\] Alt text: Update record action filled in with Sentiment Analysis response setting assignment group to Service Desk.
 
 22. Select **Done**.
 

@@ -2,7 +2,10 @@
 title: Form Mapping Configurations form
 description: The Form Mapping Configurations form helps you customize mapping of emails and forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/form-mapping-config-form.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2024-09-05"
 reading_time_minutes: 1
@@ -70,5 +73,5 @@ Active
 Option to activate the mapping configuration record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](sn-addin-for-ms365-reference.md)
+</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-addin-for-ms365-reference.md)
 

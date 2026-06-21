@@ -2,6 +2,7 @@
 title: Working with SRM integrations
 description: Integrations within SRM provide the ability to use monitoring and collaborating tools to manage alerts and incidents efficiently by the users. SRM integrations are added or created within Services only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-work-integrations.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -19,8 +20,8 @@ SRM strives to integrate with tools needed by you to collaborate and resolve inc
 
 **Note:** If you have roles within ITOM which deal with Integrations you will see an Integrations icon in the left navigation pane. These do not create, connect with, nor can be used by SRM.
 
--   **[Available SRM integrations](sr-builtin-integrations.md)**  
+-   **[Available SRM integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-builtin-integrations.md)**  
  Integrations are part of Services within SRM. SRM uses integrations to bring together all of the metrics and logs from your infrastructure and gain insight into the unified system as a whole — you can see pieces individually and also how individual pieces are impacting the whole.
 
-**Parent Topic:**[Add a service to SRM](../task/sr-add-service.md)
+**Parent Topic:**[Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-service.md)
 

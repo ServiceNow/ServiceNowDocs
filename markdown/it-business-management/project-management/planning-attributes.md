@@ -2,6 +2,7 @@
 title: Planning attributes
 description: Planning attributes are designed to define and work on attribute-based resource mapping in Resource Management and to generate labor costs for these resources in financials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/planning-attributes.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -17,7 +18,7 @@ Planning attributes are designed to define and work on attribute-based resource 
 
 An attribute is a property or a characteristic defined as a resource or a task type, which is considered for attribute-based planning. These attributes can be used for resource management and financial planning.
 
-After the planning attributes are identified, as an admin, you can [create or edit planning attributes](../task/configure-planning-attributes.md#) based on project requirements and metadata available from the resource table. Working on creating planning attributes involves identifying and defining the attributes to use for a project planning process.
+After the planning attributes are identified, as an admin, you can [create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/configure-planning-attributes.md) based on project requirements and metadata available from the resource table. Working on creating planning attributes involves identifying and defining the attributes to use for a project planning process.
 
 <table id="table_yks_wgm_vwb"><thead><tr><th>
 
@@ -53,9 +54,9 @@ Project Manager \(Project Financials\)
 
 |Attribute name|Resource Management|Financials|
 |--------------|-------------------|----------|
-|Employee Type|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Expense Type|![No](../../../reuse/images/icon-error-red-x.png).|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Group|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|
-|Role|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Skill|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|
+|Employee Type|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Expense Type|\[Omitted image "icon-error-red-x.png"\] Alt text: No.|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Group|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|
+|Role|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Skill|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|
 

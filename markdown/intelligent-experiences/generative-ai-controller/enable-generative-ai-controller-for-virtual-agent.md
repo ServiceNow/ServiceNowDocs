@@ -2,6 +2,7 @@
 title: Enable a generative AI capability in Virtual Agent Designer
 description: Add generative AI functionality to Virtual Agent topics to generate text, summarize information, analyze user sentiment, and interact with large language models \(LLMs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/enable-generative-ai-controller-for-virtual-agent.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -36,7 +37,7 @@ Role required: admin
     |Capability|Capability that is available in the Virtual Agent Designer with your preferred provider. You must have at least one provider for the capabilities, but you don't need to use the same provider for all the capabilities.|
     |Execution Mode|Mode that determines when a capability is executed in relation to other processes. For Virtual Agent Designer, select `Async`. The `Sync` and `Fire and Forget` options aren’t supported.|
 
-    ![Form completed with generic prompt as the definition and async as the execution mode](../image/gaic-builder-config.png "Generic Prompt builder definition form")
+    \[Omitted image "gaic-builder-config.png"\] Alt text: Form completed with generic prompt as the definition and async as the execution mode
 
 5.  Select **Submit**.
 

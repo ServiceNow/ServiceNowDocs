@@ -2,6 +2,7 @@
 title: Create an Amazon CloudFormation Stack
 description: Create an AWS CloudFormation stack to provision all the infrastructure resources required to enable the Conversational IVR feature. You will be populating a template provided by ServiceNow that will then generate the required configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/create-amzn-cloudformation-stack.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -153,7 +154,7 @@ Prompt audio S3 file key
 
 </td><td>
 
-Provide the name of the Prompt file that you have uploaded in [Create an Amazon S3 bucket](create-amazon-s3-bucket.md).The Prompt file is an audio file containing the ringtone when customer connects to an agent.
+Provide the name of the Prompt file that you have uploaded in [Create an Amazon S3 bucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-amazon-s3-bucket.md).The Prompt file is an audio file containing the ringtone when customer connects to an agent.
 
 </td><td>
 
@@ -237,5 +238,5 @@ n/a
 
 ## What to do next
 
-[Claim a Phone number](claim-phone-nmbr-ivr.md).
+[Claim a Phone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/claim-phone-nmbr-ivr.md).
 

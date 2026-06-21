@@ -2,6 +2,7 @@
 title: Receive assets from inbound shipments at your stockroom in the Hardware Asset Workspace
 description: Receive hardware and consumable assets from one or more shipments that are in transit to your stockroom in the Hardware Asset Workspace. You can receive assets from shipments originating from any workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/receive-shipment-assets-ham.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -73,5 +74,5 @@ If the asset details are valid, the following changes occur:
 
 **Note:** If any of the asset details are invalid, an error message in shown in the **Alert** column for the corresponding asset record. You should resolve the error before receiving the assets.
 
-**Parent Topic:**[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace](../concept/manage-stockroom-receive-hws.md)
+**Parent Topic:**[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/manage-stockroom-receive-hws.md)
 

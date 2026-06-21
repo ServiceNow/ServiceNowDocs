@@ -2,6 +2,7 @@
 title: Change the full discovery frequency in Agent Client Collector for Kubernetes – Visibility
 description: Customize how often you want the Agent Client Collector for Kubernetes – Visibility Informer to run a full discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-config-full-discovery-frequency.html
 release: xanadu
 product: Discovery
 classification: discovery

@@ -2,6 +2,7 @@
 title: Pre-link Virtual Agent requesters for integration with Microsoft Teams
 description: Pre-link your Virtual Agent requesters to a ServiceNow instance before they run the Conversational Integration with Microsoft Teams. Batch pre-linking enables your Virtual Agent users to immediately chat with a virtual agent and receive notifications without going through the initial authentication linking process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/prelink-va-users-integ-msteams.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,9 +18,9 @@ Pre-link your Virtual Agent requesters to a ServiceNow instance before they run 
 
 ## Before you begin
 
--   [Install Conversational Integration with Microsoft Teams](teams-install.md), with the **Automatically Link ServiceNow user profiles** option enabled.
--   [Set up Microsoft Teams Graph spoke](https://www.servicenow.com/docs/access?context=set-up-msteams&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
--   [Set up Microsoft Active Directory spoke](https://www.servicenow.com/docs/access?context=set-up-ad&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+-   [Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/teams-install.md), with the **Automatically Link ServiceNow user profiles** option enabled.
+-   Set up Microsoft Teams Graph spoke.
+-   .
 
 Roles required:
 
@@ -52,12 +53,12 @@ Batch pre-linking happens automatically via the **MS Teams Daily Pre Install Job
 
 3.  In the **Run** field, change the run time to your desired time.
 
-4.  For a description of the other fields that you can change in this form, including **Time zone**, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+4.  For a description of the other fields that you can change in this form, including **Time zone**, see Automatically run a script of your choosing.
 
 5.  Select **Save**.
 
 
 ## What to do next
 
-You can also customize the auto-linking process for Conversational Integration with Microsoft Teams. For more information, see [Customize auto-linking for Conversational Integration with Microsoft Teams](customize-autolink-msteams.md).
+You can also customize the auto-linking process for Conversational Integration with Microsoft Teams. For more information, see [Customize auto-linking for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/customize-autolink-msteams.md).
 

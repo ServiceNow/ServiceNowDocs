@@ -2,6 +2,7 @@
 title: Guidance based recommendations in Recommended Actions for ITSM
 description: ITSM base system includes the following guidance based recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/guidance-based-recommendations-in-recommended-actions-for-itsm.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -158,5 +159,5 @@ Returns guidance-based recommendations. The resolved incidents which have matchi
  Select **Copy resolution** action to copy the resolution and associate the incident with the recommended resolved incident.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recommended Actions for ITSM reference](../concept/recommended-actions-for-itsm-reference.md)
+</table>**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
 

@@ -2,7 +2,10 @@
 title: Qualify a work order
 description: When a work order is assigned to you for qualification, review and qualify its tasks to ensure that they contain enough information for the groups that are dispatched to work on them. Qualifying work order tasks is required only when Field Service Management is configured for manual qualification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_QualifyATask.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: wm\_qualifier
 
 ## About this task
 
-If Field Service Management is configured for automatic qualification, you do not need to complete this process. Work orders are automatically qualified and tasks are automatically created for them. For details on manual and automatic qualification, see [Qualifying work orders](../concept/c_QualifyWorkOrders.md).
+If Field Service Management is configured for automatic qualification, you do not need to complete this process. Work orders are automatically qualified and tasks are automatically created for them. For details on manual and automatic qualification, see [Qualifying work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_QualifyWorkOrders.md).
 
 On the Work Order form, you can qualify tasks from the Work Order Tasks related list. You can qualify a single task or multiple tasks at the same time. While you qualify a single task, you can also qualify any sibling tasks, which are different tasks that are related to the same order.
 
@@ -48,5 +51,5 @@ On the Work Order form, you can qualify tasks from the Work Order Tasks related 
     2.  From the **Actions** choice list, select **Qualified**.
 
 
-**Parent Topic:**[Qualifying work orders](../concept/c_QualifyWorkOrders.md)
+**Parent Topic:**[Qualifying work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_QualifyWorkOrders.md)
 

@@ -2,6 +2,7 @@
 title: Exploring Personal Lines Claims
 description: Learn how the first-notice-of-loss \(FNOL\) representatives, processors, adjusters, special investigation agents, and managers can use the Personal Lines Claims application to create and manage personal insurance claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/insurance-claims/exploring-personal-lines-claims.html
 release: xanadu
 product: Insurance Claims
 classification: insurance-claims

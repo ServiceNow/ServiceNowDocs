@@ -2,6 +2,7 @@
 title: Configure access to the compose email feature
 description: Configure the role required to access the compose email feature that enables you to send emails directly from a supplier case or supplier task in the Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/config-access-compose-email.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -30,5 +31,5 @@ Role required: admin
 3.  Select **Save**.
 
 
-**Parent Topic:**[Composing emails with predefined content from the Source-to-Pay Workspace](../concept/email-composer-slm-workspace.md)
+**Parent Topic:**[Composing emails with predefined content from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/email-composer-slm-workspace.md)
 

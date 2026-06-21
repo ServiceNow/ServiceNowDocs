@@ -2,6 +2,7 @@
 title: Xanadu Patch 5
 description: The Xanadu Patch 5 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-patch-5.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-01-10"
@@ -29,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Xanadu Patch 5 includes 179 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-xp5.png "Top 10 problem categories")
+\[Omitted image "prb-chart-xp5.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -3138,16 +3139,16 @@ Date format errors are present in date fields within workspace views.
 </td></tr></tbody>
 </table>## Fixes included
 
--   [Xanadu Patch 4 Hotfix 2](xanadu-patch-4-hf-2-PO.md)
--   [Xanadu Patch 4 Hotfix 1](xanadu-patch-4-hf-1-PO.md)
--   [Xanadu Patch 4](xanadu-patch-4.md)
--   [Xanadu Patch 3 Hotfix 2](xanadu-patch-3-hf-2.md)
--   [Xanadu Patch 3](xanadu-patch-3.md)
--   [Xanadu Patch 2](xanadu-patch-2.md)
+-   [Xanadu Patch 4 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-4-hf-2-PO.md)
+-   [Xanadu Patch 4 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-4-hf-1-PO.md)
+-   [Xanadu Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-4.md)
+-   [Xanadu Patch 3 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-3-hf-2.md)
+-   [Xanadu Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-3.md)
+-   [Xanadu Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-2.md)
 -   [Xanadu Patch 1 Hotfix 2b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1707176)
--   [Xanadu Patch 1](xanadu-patch-1.md)
--   [Xanadu security and notable fixes](xanadu-security-notables.md)
--   [All other Xanadu fixes](xanadu-all-other-fixes.md)
+-   [Xanadu Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1.md)
+-   [Xanadu security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-security-notables.md)
+-   [All other Xanadu fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/available-versions.md)
 

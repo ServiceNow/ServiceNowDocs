@@ -2,7 +2,10 @@
 title: Disable the Now Virtual Agent
 description: Disable the Now Virtual Agent app to avoid duplicate notifications from Microsoft Teams when you install and integrate ServiceNow for Microsoft Teams with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/disable-now-virtual-agent-ms-teams.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -50,8 +53,8 @@ You must first block the Now Virtual Agent app, so it stops showing up for emplo
 
 5.  Select **Actions**, then select **Block app**.
 
-    ![Now Virtual Agent app in Microsoft Teams.](../images/block-now-virtual-agent-ms-teams.png)
+    \[Omitted image "block-now-virtual-agent-ms-teams.png"\] Alt text: Now Virtual Agent app in Microsoft Teams.
 
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](../concept/c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/c_employee_ex_tnt.md)
 

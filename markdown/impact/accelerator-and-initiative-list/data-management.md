@@ -2,6 +2,7 @@
 title: Jumpstart Your Database Management
 description: The Jumpstart Your Database Management Accelerator provides a demonstration of the possibilities and capabilities of Database Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/data-management.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

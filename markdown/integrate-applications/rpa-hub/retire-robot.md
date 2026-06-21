@@ -2,6 +2,7 @@
 title: Retire an RPA Hub robot
 description: Retire a robot to turn it off. It is one of the life-cycle stages of a robot. After you retire a robot, it cannot be used further.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/retire-robot.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Retire a robot to turn it off. It is one of the life-cycle stages of a robot. Af
 
 ## Before you begin
 
-Create a robot. For more information, see [Creating a robot in RPA Hub](../concept/create-robot.md).
+Create a robot. For more information, see [Creating a robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-robot.md).
 
 Verify that the robot is not assigned to any bot process or robot pool.
 
@@ -37,7 +38,7 @@ You cannot retire an unattended robot if it is associated to an unattended bot p
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Administration**, select **Robots**.
 
@@ -48,5 +49,5 @@ You cannot retire an unattended robot if it is associated to an unattended bot p
 6.  In the Confirmation dialog box, select **Retire**.
 
 
-**Parent Topic:**[Managing RPA Hub](../concept/managing-rpa-hub.md)
+**Parent Topic:**[Managing RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/managing-rpa-hub.md)
 

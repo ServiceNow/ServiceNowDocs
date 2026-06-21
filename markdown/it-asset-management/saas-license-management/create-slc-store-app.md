@@ -2,6 +2,7 @@
 title: Create a store app for a custom integration
 description: Publish your custom integration application on the ServiceNow Store to make it available for others to use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/create-slc-store-app.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -95,7 +96,7 @@ Source Scope
 
 Your custom integration application. This field is populated automatically.
 
- To select a different application, click the Settings \(![Settings icon](../../../common/image/List_PersonalizeListIcon.png)\) icon on the banner frame of your ServiceNow instance. On the System Settings dialog box, select the **Developer** tab and then choose an application from the **Application** drop-down list.
+ To select a different application, click the Settings \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: Settings icon\) icon on the banner frame of your ServiceNow instance. On the System Settings dialog box, select the **Developer** tab and then choose an application from the **Application** drop-down list.
 
 </td></tr><tr><td>
 
@@ -103,7 +104,7 @@ Target Scope
 
 </td><td>
 
-Application from which resources are being requested. Click the search \(![Search icon](../image/search-icon.png)\) icon to locate and select the **Global** application.
+Application from which resources are being requested. Click the search \(\[Omitted image "search-icon.png"\] Alt text: Search icon\) icon to locate and select the **Global** application.
 
 </td></tr><tr><td>
 
@@ -153,9 +154,9 @@ Authorization for this cross scope privilege record. Select **Allowed**.
 
 Before you publish your custom integration application on the ServiceNow Store, make sure that your actions and subflows are active, published, and saved in your application.
 
-**Parent Topic:**[SaaS License Connections](../concept/saas-license-connections.md)
+**Parent Topic:**[SaaS License Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/saas-license-connections.md)
 
-**Previous topic:**[Publish a custom integration profile](publish-integration-custom.md)
+**Previous topic:**[Publish a custom integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/publish-integration-custom.md)
 
-**Next topic:**[Review a software reclamation rule](add-reclamation-rule-sub.md)
+**Next topic:**[Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md)
 

@@ -2,6 +2,7 @@
 title: Configure Work Orders for Retail Core
 description: Retail Core users can create work orders from their retail cases using the CSM/FSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-configure-work-orders.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -19,5 +20,5 @@ In Retail Core, both work orders and work order tasks must be created and comple
 
 Work orders used in Retail Core are configured just as they are for Field Service Management.
 
-For information on configuring work orders, see [Configuring work orders](https://www.servicenow.com/docs/access?context=configure-work-orders&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).
+For information on configuring work orders, see .
 

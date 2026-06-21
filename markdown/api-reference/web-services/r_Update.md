@@ -2,6 +2,7 @@
 title: update
 description: Updates an existing record in the targeted table in the URL, identified by the mandatory sys\_id field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/r\_Update.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -56,7 +57,7 @@ Sample SOAP response
 
 For language-specific update samples, refer to the following topics:
 
-[Perl SOAP::Lite](../../examples/concept/c_PerlWebServicesClientExamples.md#update)
+[Perl SOAP::Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_PerlWebServicesClientExamples.md)
 
 Java Apache Axis2
 
@@ -64,5 +65,5 @@ Microsoft .NET
 
 Python
 
-**Parent Topic:**[Data Modification API](r_DataModificationAPI.md)
+**Parent Topic:**[Data Modification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/r_DataModificationAPI.md)
 

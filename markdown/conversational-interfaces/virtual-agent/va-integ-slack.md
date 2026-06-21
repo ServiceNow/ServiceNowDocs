@@ -2,6 +2,7 @@
 title: Integrating ServiceNow Virtual Agent with Slack
 description: Enables ServiceNow Virtual Agent to integrate with the Slack application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-integ-slack.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

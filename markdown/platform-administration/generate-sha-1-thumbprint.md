@@ -2,6 +2,7 @@
 title: Generate SHA-1 thumbprint
 description: Generate an SHA-1 thumbprint using the JWT provider's sys\_id, the Java Key Store \(JKS\) certificate's sys\_id, and the JKS certificate's alias to the GraphCertificateOAuthTemplate script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/generate-sha-1-thumbprint.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -40,7 +41,7 @@ Role required: admin
 
 ## What to do next
 
-[Create an OAuth API script](create-oauth-api-script-cred-flow.md)
+[Create an OAuth API script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-oauth-api-script-cred-flow.md)
 
-**Parent Topic:**[Configure client credential flow for SMTP OAuth2 using certificate-based authentication](config-credential-flow-certificate.md)
+**Parent Topic:**[Configure client credential flow for SMTP OAuth2 using certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/config-credential-flow-certificate.md)
 

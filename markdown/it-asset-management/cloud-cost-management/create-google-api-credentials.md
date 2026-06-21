@@ -2,6 +2,7 @@
 title: Create Google API credentials
 description: To access data securely on your provider account, the Discovery process must be present with appropriate credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/cloud-cost-management/create-google-api-credentials.html
 release: xanadu
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -48,5 +49,5 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin
 **Related topics**  
 
 
-[Cloud credentials](https://www.servicenow.com/docs/access?context=r_CloudManagementCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.r_CloudManagementCredentialsForm]
 

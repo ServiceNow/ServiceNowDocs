@@ -2,6 +2,7 @@
 title: System properties that impact SG-OT Device Excel Import processing
 description: The SG-OT Device Excel Import process depends on the following system properties for successful completion.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/system-properties-sg-ot-asset-excel-import.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -54,5 +55,5 @@ The SG-OT Device Excel Import process depends on the following system properties
 -   This property belongs to the sn\_otsm\_sgc scope and is automatically appended to this property name.
 -   Requires the admin, cmdb\_ot\_admin, and cmdb\_inst\_admin roles for read and write operations.
 
-**Parent Topic:**[Easy import](../concept/easy-import.md)
+**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/easy-import.md)
 

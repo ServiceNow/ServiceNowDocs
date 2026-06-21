@@ -2,6 +2,7 @@
 title: Define email client from addresses
 description: Set an allowable email address that is displayed in the From address of a message sent from the email client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/define-email-client-from-addresses.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -30,5 +31,5 @@ Role required: admin
     The From address is added to the Email Client From Address \[sys\_email\_client\_from\_address\] table.
 
 
-**Parent Topic:**[Email client configurations](../concept/email-client-configuration.md)
+**Parent Topic:**[Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/email-client-configuration.md)
 

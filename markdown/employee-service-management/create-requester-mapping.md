@@ -2,7 +2,10 @@
 title: Create requester mapping
 description: Create a requester mapping to extend the auto-import functionality to other tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-requester-mapping.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ A requestor-mapping record defines which field, in any given table, is the field
 
 2.  Click **New**.
 
-    ![Requestor mapping](../images/requester-mapping.png)
+    \[Omitted image "requester-mapping.png"\] Alt text: Requestor mapping
 
 3.  On the form, fill in the fields.
 
@@ -43,5 +46,5 @@ A requestor-mapping record defines which field, in any given table, is the field
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](../concept/auto-import-messages.md)
+**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/auto-import-messages.md)
 

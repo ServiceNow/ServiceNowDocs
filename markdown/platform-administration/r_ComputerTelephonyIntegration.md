@@ -2,6 +2,7 @@
 title: Computer Telephony Integration
 description: Computer Telephony Integration \(CTI\) is accomplished by the CTI client on the user machine sending a URL to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_ComputerTelephonyIntegration.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -52,5 +53,5 @@ The CTI Processing script does the following:
     2.  If the user does not have any open incidents, the popup screen shows a new incident with information provided in the URL shown.
 4.  If a user was not identified and a taskID is given and the taskID exists, then nothing happens. The code to handle this case is commented out. If you want the popup screen to show the details for the task, you must modify the CTI Processing script to put the functionality in a separate non-client-callable function.
 
-**Parent Topic:**[Supported integration interfaces](../../vendor-specific-integrations/reference/r_SupportedIntegrationInterfaces.md)
+**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_SupportedIntegrationInterfaces.md)
 

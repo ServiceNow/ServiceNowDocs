@@ -2,6 +2,7 @@
 title: Developer and deployment permissions
 description: Using Manage Developers, administrators can assign one or more developer and deployment permissions to a group or user for a specific application. These permissions designate the specific actions the assigned user can perform for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/delegated-development-and-deployment/developer-permissions.html
 release: xanadu
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -25,7 +26,7 @@ For example, you might grant permissions that enable a user to upgrade the appli
 |----------|-----------|
 |Delete Application|Grants the assigned developer within a scoped app rights to delete the application.|
 |Source Control|Grants the assigned developer full access to source control.|
-|All File Types|Grants the assigned developer access to all application file types, including some not granted by the other options. This permission is equivalent to granting the user the admin role but with some limitations. Specifically, it provides access to all file types that are configured in your application per the Manage Developers task in the Application Creator. For an example of such file types, see the permissions example in [Delegated development and deployment](../concept/c_DelegatedDevelopment.md).|
+|All File Types|Grants the assigned developer access to all application file types, including some not granted by the other options. This permission is equivalent to granting the user the admin role but with some limitations. Specifically, it provides access to all file types that are configured in your application per the Manage Developers task in the Application Creator. For an example of such file types, see the permissions example in [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).|
 |Playbooks|Grants the assigned developer access to the Playbooks design environment to create processes. Editing activity subflows or actions requires the **Flow Designer** permission.|
 |Integrations|Grants the assigned developer access to web service APIs, REST APIs, data sources, and Integration Hub - Import.|
 |Reporting|Grants the assigned developer access to reports and scheduled reports.|
@@ -46,7 +47,7 @@ For example, you might grant permissions that enable a user to upgrade the appli
 
 ## Deployment permissions
 
-The update set deployment permissions are hidden by default and require a system administrator to enable them with system properties. See [Display or hide update set deployment permissions](../task/display-or-hide-deployment-permissions.md) for more information.
+The update set deployment permissions are hidden by default and require a system administrator to enable them with system properties. See [Display or hide update set deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/delegated-development-and-deployment/display-or-hide-deployment-permissions.md) for more information.
 
 The Submit for Deployment, Manage Collaborators, and Invite Collaborators delegated development permission sets are only available with the Developer Collaborator feature. They will not be shown in Manage Developers.
 
@@ -80,7 +81,7 @@ Publish To App Store
 
 </td><td>
 
-Grants a user with an assigned delegated developer role permission to publish associated application to the ServiceNow Store in the current instance. **Note:** The **Upgrade App**, **Publish To App Repo**, and **Publish To App Store** permissions display by default. The **Publish To Update Set** permission only displays if manually enabled by a system administrator. For more details, see [Display or hide update set deployment permissions](../task/display-or-hide-deployment-permissions.md).
+Grants a user with an assigned delegated developer role permission to publish associated application to the ServiceNow Store in the current instance. **Note:** The **Upgrade App**, **Publish To App Repo**, and **Publish To App Store** permissions display by default. The **Publish To Update Set** permission only displays if manually enabled by a system administrator. For more details, see [Display or hide update set deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/delegated-development-and-deployment/display-or-hide-deployment-permissions.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Flow Assist
 description: Use Flow Assist to generate flows from text prompts and to generate recommendations for the next step of a flow. Flow Assist is part of the Now Assist for Creator application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/flow-assist-landing.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -19,19 +20,19 @@ Use Flow Assist to generate flows from text prompts and to generate recommendati
 
 <table id="table_jb4_kgc_r1c" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about what Flow Assist supports](../concept/exploring-flow-assist.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about what Flow Assist supports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Enable Flow Assist for an instance](../concept/configuring-flow-assist.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable Flow Assist for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-flow-assist.md)
 
 </td></tr><tr><td>
 
-[![](../../../reuse/icons/brand-icons/bus-workflow.svg)Create flow outlines with generative AI](../concept/flow-generation.md)
+[\[Omitted image "bus-workflow.svg"\] Alt text:Create flow outlines with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-generation.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about the roles required to use Flow Assist](flow-assist-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about the roles required to use Flow Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-assist-reference.md)
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
@@ -54,16 +55,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 
--   **[Exploring Flow Assist](../concept/exploring-flow-assist.md)**  
+-   **[Exploring Flow Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)**  
 Use Flow Assist to generate flows from text prompts and to generate recommendations for the next step of a flow. Flow Assist is part of the Now Assist for Creator application.
--   **[Configuring Flow Assist](../concept/configuring-flow-assist.md)**  
+-   **[Configuring Flow Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-flow-assist.md)**  
 Enable Flow Assist skills in the Now Assist for Creator application so that you can get started with building flows faster.
--   **[Flow Assist reference](flow-assist-reference.md)**  
+-   **[Flow Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-assist-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 
-**Parent Topic:**[Exploring flows](../../workflow-studio/concept/exploring-flows.md)
+**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/exploring-flows.md)
 

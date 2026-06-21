@@ -2,6 +2,7 @@
 title: Oracle GoldenGate discovery
 description: The ServiceNow Discovery and Service Mapping applications find Oracle GoldenGate version 12c components using the Oracle Golden Gate pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/oracle-golden-gate-discovery.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -23,7 +24,7 @@ You can use this pattern on the ServiceNow AI Platform using Kingston, London, o
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -425,7 +426,7 @@ Operational status of the CI. Select **Operational**.
 </td></tr></tbody>
 </table>The Dependency Views map shows discovered load balancer CIs and the relationships between them.
 
-![CIs and connections on a Dependency Views map](../image/GoldenGateRelations.png)
+\[Omitted image "GoldenGateRelations.png"\] Alt text: CIs and connections on a Dependency Views map
 
 ## CI relationships
 
@@ -645,5 +646,5 @@ Replicat process count\[count\_replicat\]
 Counter of replicat processes that are managed by the Oracle Golden Gate manager instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available discovery patterns](available-patterns.md)
+</table>**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

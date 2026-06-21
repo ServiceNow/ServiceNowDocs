@@ -2,6 +2,7 @@
 title: Create a procurement task
 description: As a procurement specialist, create a procurement task for the shopper or employer from the contextual panel of a procurement object details page in Source-to-Pay Workspace, to address your procurement-related business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-task.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -230,5 +231,5 @@ Time taken to resolve the task, in days, hours, minutes, and seconds.
     If you have created a procurement task with action type as Sign document, a document task is automatically created and assigned to the selected shopper or employee.
 
 
-**Parent Topic:**[Source-to-Pay Workspace](../concept/procurement-specialist-workspace.md)
+**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/procurement-specialist-workspace.md)
 

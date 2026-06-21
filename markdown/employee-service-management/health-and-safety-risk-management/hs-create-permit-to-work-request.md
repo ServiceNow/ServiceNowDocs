@@ -2,11 +2,12 @@
 title: Create a permit-to-work request
 description: The permit-to-work request is submitted by the worker who carries out the job with significant risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-create-permit-to-work-request.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Permit-to-work, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -27,7 +28,7 @@ Role required: sn\_hs\_rm.permit\_requestor
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Permit-to-work form](../reference/hs-permit-to-work-form.md).
+    For a description of the field values, see [Permit-to-work form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-permit-to-work-form.md).
 
     **Note:** Additional fields must be filled on the permit to work form depending on the type of the permit selected.
 
@@ -56,5 +57,5 @@ Role required: sn\_hs\_rm.permit\_requestor
     **Note:** The printed permit and checklist can be signed and attached in the attachment tab for this permit. The attached documents can be viewed in the activity stream.
 
 
-**Parent Topic:**[Permit-to-work](../concept/hs-permit-to-work.md)
+**Parent Topic:**[Permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)
 

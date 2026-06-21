@@ -2,7 +2,10 @@
 title: Activate Major Issue Management
 description: Activate the Major Issue Management plugin to use the major issue management feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate-major-issue-mgmt.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

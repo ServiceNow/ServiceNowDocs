@@ -2,6 +2,7 @@
 title: Enable and Configure Restart for Playbooks
 description: Configure your playbook so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/enable-define-restart.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ Role required: pd\_author
 
 When you open an existing playbook in Workflow Studio for the first time after upgrading to the Process Automation Designer 25.1.2 ServiceNow Store app, a banner message notifies you to enable restart for your playbook. You must enable the restart feature before you can perform the task below.
 
-![Restart notification in Workflow Studio](../images/restart-enable-message.png)
+\[Omitted image "restart-enable-message.png"\] Alt text: Restart notification in Workflow Studio
 
 This message only displays for existing playbooks. Restart is automatically enabled for new playbooks and does not change any other features and functions.
 
@@ -39,13 +40,13 @@ This message only displays for existing playbooks. Restart is automatically enab
 
         The Playbooks builder displays.
 
-    3.  In the upper right-hand corner, open the **More actions menu**![More actions menu](../images/icon-horizontal-menu.png), and select **Properties**.
+    3.  In the upper right-hand corner, open the **More actions menu**\[Omitted image "icon-horizontal-menu.png"\] Alt text: More actions menu, and select **Properties**.
 
         The **Additional Properties** modal displays.
 
     4.  At the bottom of the **General** tab, check the **Allow this process to be restarted during runtime** box.
 
-        ![](../images/restart-playbook-setting.png)
+        \[Omitted image "restart-playbook-setting.png"\] Alt text:
 
         Agents can now restart the whole playbook.
 
@@ -65,19 +66,19 @@ This message only displays for existing playbooks. Restart is automatically enab
 
     3.  Open the stage or activity you want to configure restart settings for.
 
-        ![Activity and stage restart rules in the side panel](../images/playbooks-restart-rules.png)
+        \[Omitted image "playbooks-restart-rules.png"\] Alt text: Activity and stage restart rules in the side panel
 
     4.  Select what you want the stage or activity to do when restarted.
 
-<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d38374e284">
+<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d39688e284">
 
 Rule
 
-</th><th align="left" id="d38374e287">
+</th><th align="left" id="d39688e287">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38374e293">
+</th></tr></thead><tbody><tr><td id="d39688e293">
 
 **Skip on restart**
 
@@ -85,7 +86,7 @@ Description
 
 The stage or activity only runs during a playbook's initial run. It never runs during a restarted run.**Note:** This setting is helpful if you don't want new tasks or records to be created during a restarted run, because the original execution and resulting record is still relevant.
 
-</td></tr><tr><td id="d38374e307">
+</td></tr><tr><td id="d39688e307">
 
 **Run always**
 
@@ -93,7 +94,7 @@ The stage or activity only runs during a playbook's initial run. It never runs d
 
 The stage or activity always runs, whether during an initial or restarted run.
 
-</td></tr><tr><td id="d38374e316">
+</td></tr><tr><td id="d39688e316">
 
 **Skip on first run**
 
@@ -106,18 +107,18 @@ The stage or activity runs only during restarted runs. It never runs during an i
 
     -   Restart settings are reflected in both the Diagram view and Board view of the Workflow Studio Playbooks builder.
 
-        ![Run always icon on a stage in Diagram view](../images/run-always.png)
+        \[Omitted image "run-always.png"\] Alt text: Run always icon on a stage in Diagram view
 
-        ![Skip on first run icon on an activity in board view](../images/skip-first-run-board.png)
+        \[Omitted image "skip-first-run-board.png"\] Alt text: Skip on first run icon on an activity in board view
 
     -   Restart buttons are added to context menus in your playbook.
 
-        ![Restart stage button in context menu during runtime](../images/restart-stage-pe.png)
+        \[Omitted image "restart-stage-pe.png"\] Alt text: Restart stage button in context menu during runtime
 
 3.  To test your playbook with the restart options, select **Test** in the upper right-hand corner and open the **Playbook preview**.
 
-    ![Restart playbook button in context menu in Playbook preview](../images/restart-playbook-pe.png)
+    \[Omitted image "restart-playbook-pe.png"\] Alt text: Restart playbook button in context menu in Playbook preview
 
 
-**Parent Topic:**[Restart](../concept/restart.md)
+**Parent Topic:**[Restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/restart.md)
 

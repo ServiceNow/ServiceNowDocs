@@ -2,6 +2,7 @@
 title: Function field
 description: Create function fields and scripts in the ServiceNow AI Platform to perform common database transformations and calculations.Create a field that displays the results of a database function, such as a mathematical operation, field length computation, or day of the week calculation. Test in a subproduction instance before deploying to a production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-support-functions.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -47,7 +48,7 @@ Because function field calculations are not stored in the database, some operati
 
 -   Function fields cannot be encrypted, since a function field value is never stored in the database.
 -   Function fields cannot be converted to regular fields or vice versa.
--   Function fields that you create in the Reporting UI do not support dot-walking. For more information, see [Configure function fields in Reporting](https://www.servicenow.com/docs/access?context=configure-function-fields&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+-   Function fields that you create in the Reporting UI do not support dot-walking. For more information, see Configure function fields in Reporting.
 -   Security is evaluated on the components of the function and on the calculated value of the field. When used in visualizations, sections that contain information that the user is not permitted to see are hidden from the user.
 -   Field function names must be unique.
 
@@ -59,13 +60,13 @@ Platform functions can be defined in two ways:
 
     |APIs|Description|
     |----|-----------|
-    |[Scoped GlideDBFunctionBuilder](https://www.servicenow.com/docs/access?context=GlideDBFunctionBuilderScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|Construct the function to perform a SQL operation.|
-    |[GlideRecord - addFunction\(Object function\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|Apply the function to a GlideRecord.|
-    |[GlideDBFunctionCaseBuilder - Global](https://www.servicenow.com/docs/access?context=GlideDBFunctionCaseBuilderAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|Build case statements.|
+    |Scoped GlideDBFunctionBuilder|Construct the function to perform a SQL operation.|
+    |GlideRecord - addFunction\(Object function\)|Apply the function to a GlideRecord.|
+    ||Build case statements.|
 
 2.  Create a field that holds the function definition, as shown in the following example.
 
-    ![Function field definition](../image/platform-functions-dictionary-entry.png)
+    \[Omitted image "platform-functions-dictionary-entry.png"\] Alt text: Function field definition
 
     Select the **Function field** check box on the Dictionary Entry \[sys\_dictionary\] form. This action specifies that the field runs a function rather than stores a value.
 
@@ -367,7 +368,7 @@ Returns a geo\_point field with the coordinates “\(80.206458, 25.767242\)”.
  Return type: Geo point
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Field types](../../../administer/reference-pages/reference/r_FieldTypes.md)
+</table>**Parent Topic:**[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_FieldTypes.md)
 
 ## Create a function field to perform database functions
 
@@ -455,7 +456,7 @@ For example, the following function definition creates a field that shows the sh
 
 `glidefunction:concat(short_description, ' ', caller_id.name)`
 
-**Note:** Function parameters support dot-walking. See [Dot-walking to data in related tables](https://www.servicenow.com/docs/access?context=c_DotWalking&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+**Note:** Function parameters support dot-walking. See .
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.
@@ -466,7 +467,7 @@ For example, the following function definition creates a field that shows the sh
 
 7.  Add the function field to the list.
 
-    See [Configure items on forms or in lists using a list collector](https://www.servicenow.com/docs/access?context=t_UseSlushbuckets&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+    See .
 
 
 ### Result

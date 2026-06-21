@@ -2,6 +2,7 @@
 title: Install Now Assist for Service Graph Connectors \(SGC\)
 description: Install the Now Assist for Service Graph Connectors \(SGC\) application to enable generative AI capabilities for diagnosing Service Graph Connector issues on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-install.html
 release: xanadu
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -23,16 +24,16 @@ Role required: admin
 
 ## About this task
 
-You use the Now Assist Admin console to install and configure Now Assist for SGC. The console enables you to install plugins and to configure the generative AI skills. For more information, see [Now Assist Admin console](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+You use the Now Assist Admin console to install and configure Now Assist for SGC. The console enables you to install plugins and to configure the generative AI skills. For more information, see .
 
 ## Procedure
 
-1.  Install the Now Assist for Service Graph Connectors \(sn\_nowassist\_sgc\) plugin as described in [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+1.  Install the Now Assist for Service Graph Connectors \(sn\_nowassist\_sgc\) plugin as described in .
 
-2.  Turn on the Now Assist panel [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+2.  Turn on the Now Assist panel .
 
 
 ## What to do next
 
-[Enable a Now Assist for Service Graph Connectors \(SGC\) skill](now-assist-sgc-enable-skill.md).
+[Enable a Now Assist for Service Graph Connectors \(SGC\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-enable-skill.md).
 

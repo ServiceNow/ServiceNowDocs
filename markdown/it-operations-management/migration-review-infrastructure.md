@@ -2,7 +2,10 @@
 title: Review your current infrastructure with Cloud Migration Assessment
 description: Use the holistic view of all discovered resources to assess your infrastructure. You can also drill in and see detailed information on all discovered resources. Understanding which resources your organization uses is an important step in planning the migration process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/migration-review-infrastructure.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -33,7 +36,7 @@ You can view at a glance the number of deployed servers, applications, and virtu
 
 2.  Review the summary of the discovered resources on the **Overview** tab.
 
-    ![Review information about servers.](../image/cm-workflows-servers-breakdown.png "Overview tab showing information about servers")
+    \[Omitted image "cm-workflows-servers-breakdown.png"\] Alt text: Review information about servers.
 
     By default the **Overview** tab shows only the categories that have discovered information for these categories. The category is hidden unless there is related information to display for it. For example, if there is no discovered information on Amazon AWS Cloud resources, the AWS category does not appear under the **Categories** filter.
 
@@ -65,16 +68,16 @@ You can view at a glance the number of deployed servers, applications, and virtu
 4.  In the **Server breakdown** pie chart report and the **Resources by category** bar report, hide irrelevant server CI classes by selecting their names in the chart legend.
 
 
--   **[Review detailed server information in Configurable Workspace](migration-review-server-info.md)**  
+-   **[Review detailed server information in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/migration-review-server-info.md)**  
 Review the information on the discovered resources to understand how they are deployed in your current infrastructure. Analyzing and assessing your current infrastructure is the first step in the cloud migration process.
--   **[Review detailed information on virtual machines in Configurable Workspace](migration-review-vm-info.md)**  
+-   **[Review detailed information on virtual machines in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/migration-review-vm-info.md)**  
 Review the information on the discovered virtual machines \(VMs\) to understand how they are deployed in your current infrastructure. Analyzing and assessing your current infrastructure is the first step in the cloud migration process.
--   **[Review detailed application information in Configurable Workspace](migration-review-application-info.md)**  
+-   **[Review detailed application information in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/migration-review-application-info.md)**  
 Review the information on the discovered applications to understand how they are deployed in your current infrastructure. Analyzing and assessing your current infrastructure is the first step in the cloud migration process.
 
-**Parent Topic:**[Planning the migration process](../concept/cloud-migration-planning.md)
+**Parent Topic:**[Planning the migration process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-migration-planning.md)
 
-**Previous topic:**[Analyzing your current infrastructure](../concept/cloud-migration-analyzing-resources.md)
+**Previous topic:**[Analyzing your current infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-migration-analyzing-resources.md)
 
-**Next topic:**[Review detailed server information in Configurable Workspace](migration-review-server-info.md)
+**Next topic:**[Review detailed server information in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/migration-review-server-info.md)
 

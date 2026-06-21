@@ -2,6 +2,7 @@
 title: Install Unattended Robot
 description: You can install the Unattended Robot application in your Windows machine if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/install-rpa-runtime.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -48,9 +49,9 @@ Ensure that you meet the following set up requirements:
 -   Verify that the **glide.cometd.websocket.enabled** system property is set to true in the ServiceNow instance.
 -   Verify that the websockets are also enabled on the client machine where the unattended robot runs.
 
-Download and unzip the installation file for the Unattended Robot application. For more information, see [Download the RPA applications from RPA Hub](../../rpa-hub/task/download-installer-rpa.md).
+Download and unzip the installation file for the Unattended Robot application. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/download-installer-rpa.md).
 
-![Download the Unattended Robot application from the RPA Downloads page.](../image/install-unattended-downloads-rpa.png "Download Unattended Robot application")
+\[Omitted image "install-unattended-downloads-rpa.png"\] Alt text: Download the Unattended Robot application from the RPA Downloads page.
 
 Role required: admin
 
@@ -75,5 +76,5 @@ You can see the Unattended Robot icon on your desktop.
 
 ## What to do next
 
-Set up the Unattended Robot application. For more information, see [Set up Unattended Robot](set-up-rpa-runtime.md).
+Set up the Unattended Robot application. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/set-up-rpa-runtime.md).
 

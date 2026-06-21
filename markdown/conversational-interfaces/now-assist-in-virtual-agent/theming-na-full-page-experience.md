@@ -2,6 +2,7 @@
 title: Theming for Now Assist in Virtual Agent enhanced chat
 description: You can customize the look and feel of the Now Assist in Virtual Agent enhanced chat experience in your ServiceNow portal by updating the relevant Cascading Style Sheet \(CSS\) variables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/now-assist-in-virtual-agent/theming-na-full-page-experience.html
 release: xanadu
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -15,11 +16,11 @@ breadcrumb: [Configuring Now Assist in Virtual Agent, Now Assist in Virtual Agen
 
 You can customize the look and feel of the Now Assist in Virtual Agent enhanced chat experience in your ServiceNow portal by updating the relevant Cascading Style Sheet \(CSS\) variables.
 
-As a Virtual Agent admin or admin, you can customize the default enhanced chat theming variables. Information on how to customize theming can be found in [Create a portal theme](https://www.servicenow.com/docs/access?context=c_CustomCSS&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US). Edit these variables in the following table within the CSS variables field \(sp\_theme\) record. You can also configure these variables with a CSS Include associated with a portal's theme.
+As a Virtual Agent admin or admin, you can customize the default enhanced chat theming variables. Information on how to customize theming can be found in . Edit these variables in the following table within the CSS variables field \(sp\_theme\) record. You can also configure these variables with a CSS Include associated with a portal's theme.
 
 **Note:** For the variables, `nass` refers to enhanced chat.
 
-For more information about enhanced chat, see [Enhanced chat](../concept/nava-enhanced-chat.md).
+For more information about enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
 
 <table id="table_ok3_wwm_bdc"><thead><tr><th>
 

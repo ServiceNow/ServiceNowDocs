@@ -2,6 +2,7 @@
 title: Create a remedial action
 description: Create your custom remedial actions from Check Definitions to resolve end-point related issues using Playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/create-remedial-action.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

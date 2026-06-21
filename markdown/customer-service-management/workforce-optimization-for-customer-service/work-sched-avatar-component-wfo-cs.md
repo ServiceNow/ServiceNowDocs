@@ -2,6 +2,7 @@
 title: Configure an avatar component for Work scheduler
 description: Use the Container component to add an avatar and the user name of the work item assignee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/work-sched-avatar-component-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -35,8 +36,8 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
     2.  In the **Config** tab, do the following:
 
-        1.  Select the Edit component visibility icon \(![Edit component visibility icon](../image/edit-comp-visibility-icon.png)\).
-        2.  Hover over the **Hide component** field and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+        1.  Select the Edit component visibility icon \(\[Omitted image "edit-comp-visibility-icon.png"\] Alt text: Edit component visibility icon\).
+        2.  Hover over the **Hide component** field and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
         3.  In the **Hide component** field, enter `!@state.cardProps.assignedTo`
         4.  In the **Direction** menu, select **Row**.
         5.  In the **Styles** tab, in the **Align items** field, select the center icon.
@@ -47,42 +48,42 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
     The Components pop-up screen appears.
 
-<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d89864e220">
+<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d91026e220">
 
 To
 
-</th><th align="left" id="d89864e223">
+</th><th align="left" id="d91026e223">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d89864e229">
+</th></tr></thead><tbody><tr><td id="d91026e229">
 
 **Add the Avatar component**
 
 </td><td>
 
 In the configure tab, set the size, user name, and tooltip.1.  In the **Size** menu, select **Medium**.
-2.  Hover over the **User name** menu, and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+2.  Hover over the **User name** menu, and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
 3.  In the **User name** menu, type **!@state.cardProps.assignedTo**.
-4.  Hover over the **Tooltip text** menu, and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+4.  Hover over the **Tooltip text** menu, and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
 5.  In the **Tooltip text** menu, type **!@state.cardProps.assignedTo**.
 
 
-</td></tr><tr><td id="d89864e292">
+</td></tr><tr><td id="d91026e292">
 
 **Add the Label Value Tabbed component**
 
 </td><td>
 
 In the configure tab, set the size, and items.1.  In the **Size** menu, select **Small**.
-2.  Hover over the **Items** field and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+2.  Hover over the **Items** field and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
 3.  In the Items field, enter `[{value: @state.cardProps.assignedTo}`
 4.  Select **Save**.
 
 
 </td></tr></tbody>
-</table>    Here's a demo on how to configure an avatar component for Work scheduler Configure an avatar component for Work Scheduler
+</table>    Here's a demo on how to configure an avatar component for Work scheduler
 
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/create-workscheduler-card-wfo-cs.md)
 

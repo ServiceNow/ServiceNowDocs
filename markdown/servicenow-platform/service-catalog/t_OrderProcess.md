@@ -2,6 +2,7 @@
 title: Request an order guide
 description: Once created, order guides present the customer with a three-step ordering process by default.Consider a scenario where you have a New Employee Hire order guide that provides services and items as part of the onboarding process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-catalog/t\_OrderProcess.html
 release: xanadu
 product: Service Catalog
 classification: service-catalog
@@ -30,7 +31,7 @@ Role required: admin
     **Note:** The Check Out step can be omitted from an order guide to provide a quicker two-step process. To omit this third step, select the **Two step** check box when creating the order guide.
 
 
-**Parent Topic:**[Order guides](../concept/c_ServiceCatalogOrderGuides.md)
+**Parent Topic:**[Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md)
 
 ## Review an order guide example
 
@@ -46,16 +47,16 @@ Role required: admin
 
 1.  Describe Needs: The order guide prompts the end user for information.
 
-    ![order guide form - employee onboarding IT](../image/DescribeNeedsG.png)
+    \[Omitted image "DescribeNeedsG.png"\] Alt text: order guide form - employee onboarding IT
 
 2.  Choose Options: The order guide uses the information entered and predefined rules to generate options.
 
-    ![order guide form - email account](../image/ChooseOptionsG.png)
+    \[Omitted image "ChooseOptionsG.png"\] Alt text: order guide form - email account
 
     The end user selects configuration options for the ordered items, and provides any additional information needed.
 
 3.  Check Out: The end-user reviews and edits item information, then click **Submit Order** to place the request.
 
-    ![shopping cart](../image/CheckoutG.png)
+    \[Omitted image "CheckoutG.png"\] Alt text: shopping cart
 
 

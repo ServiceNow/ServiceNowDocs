@@ -2,6 +2,7 @@
 title: Review crawl history and analytics for an external content connector
 description: View crawl history records and analytics for an external content connector. Drill into a crawl history record to see detailed metrics and errors from the crawl in question.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/review-crawl-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -45,5 +46,5 @@ You can select an individual crawl history record to examine a crawl in more det
     **Note:** Canceling a crawl may take a minute or two. During this time, the connector may continue to retrieve searchable content and security principals and feed them to AI Search.
 
 
-**Parent Topic:**[Reviewing external content connector crawl results and analytics](../concept/reviewing-external-content-connector-results-and-analytics.md)
+**Parent Topic:**[Reviewing external content connector crawl results and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reviewing-external-content-connector-results-and-analytics.md)
 

@@ -2,6 +2,7 @@
 title: Data collected for VMware vCenter Server
 description: Discovery identifies and classifies information about VMware vCenter servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/r\_VCenterDataCollected.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,7 +20,7 @@ Discovery identifies and classifies information about VMware vCenter servers.
 
 The vCenter table schema is illustrated in the following diagram:
 
-![vCenter table schema](../image/vcenter_table_schema.png "vCenter table schema")
+\[Omitted image "vcenter\_table\_schema.png"\] Alt text: vCenter table schema
 
 Several tables are cloud-agnostic tables, meaning that they can be populated for any cloud resource, not just vCenter resources. Look in the sub tables that extend the cloud-agnostic tables to find discovered CIs.
 
@@ -34,7 +35,7 @@ Several tables are cloud-agnostic tables, meaning that they can be populated for
 
 ## vCenter data
 
-Discovery uses multiple [vCenter probes](r_ListOfDiscoveryProbes.md) to collect this data from vCenter. The data is saved in tables extend from the Configuration item \[cmdb\_ci\] table.
+Discovery uses multiple [vCenter probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/r_ListOfDiscoveryProbes.md) to collect this data from vCenter. The data is saved in tables extend from the Configuration item \[cmdb\_ci\] table.
 
 |Field label|Column name|
 |-----------|-----------|
@@ -300,7 +301,7 @@ vCenter CIs can be members of folders or clusters, which affect how Discovery cr
 
 This diagram illustrates vCenter relationships:
 
-![vCenter relationships](../image/vcenter-relationships.png "vCenter relationships")
+\[Omitted image "vcenter-relationships.png"\] Alt text: vCenter relationships
 
 <table id="table_fzd_bly_5p"><thead><tr><th>
 
@@ -595,7 +596,7 @@ Virtual Machine Template \[cmdb\_ci\_vmware\_template\]
 
 These additional relationships are created when Cloud Management \(CMP\) is active.
 
-![vCenter relationships for Cloud Management](../image/CMPRelationshipsDiagram.png)
+\[Omitted image "CMPRelationshipsDiagram.png"\] Alt text: vCenter relationships for Cloud Management
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
@@ -621,7 +622,7 @@ These additional relationships are created when Cloud Management \(CMP\) is acti
 
 ## VMware tags
 
-You can attach tags to vSphere objects, such as virtual machines, through the vSphere interface. The tags can then be grouped into categories. Objects with tags are sortable and searchable based on the parameters you give the tags and categories. The [VMWare — vCenter VM Tags](vcenter-probes.md#section_ffy_jmz_mhb) probe discovers these tags. You can view the discovered tags by opening the virtual machine record in **cmdb\_ci\_vmware\_instance**. Then go to the **Key Values** tab.
+You can attach tags to vSphere objects, such as virtual machines, through the vSphere interface. The tags can then be grouped into categories. Objects with tags are sortable and searchable based on the parameters you give the tags and categories. The [VMWare — vCenter VM Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/vcenter-probes.md) probe discovers these tags. You can view the discovered tags by opening the virtual machine record in **cmdb\_ci\_vmware\_instance**. Then go to the **Key Values** tab.
 
 |Field label and name|Description|
 |--------------------|-----------|
@@ -630,5 +631,5 @@ You can attach tags to vSphere objects, such as virtual machines, through the vS
 |Tag \[tag\]|Source in vCenter from which tags are fetched. In this case, the value is always **Tags**.|
 |Value \[value\]|Tag name that is applied to the resource in vCenter.|
 
-**Parent Topic:**[Discovery for VMware vCenter](../concept/c_DiscoveryForVMwareVCenter.md)
+**Parent Topic:**[Discovery for VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_DiscoveryForVMwareVCenter.md)
 

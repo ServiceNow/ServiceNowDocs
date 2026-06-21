@@ -2,6 +2,7 @@
 title: Add a template notification
 description: Adding a template notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/service-creator/t\_AddingATemplateNotification.html
 release: xanadu
 product: Service Creator
 classification: service-creator

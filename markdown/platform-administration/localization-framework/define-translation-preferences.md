@@ -2,6 +2,7 @@
 title: Configure the Localization Framework preferences
 description: Configure the preferences to request the translation in the activated languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/localization-framework/define-translation-preferences.html
 release: xanadu
 product: Localization Framework
 classification: localization-framework
@@ -51,7 +52,7 @@ Artifact
 
 Artifact for the settings being defined.You can select either **All Artifacts** or an artifact of your choice, such as **catalog\_item** or **nlu\_model**.
 
- **Note:** To select Virtual Agent topics, Document Templates, Document Template Block Content, HTML Document Template, Knowledge Base or Email notification artifacts, you must activate specific plugins. For more information, see [Supported artifacts in Localization Framework](../concept/supported-artifacts-lf.md).
+ **Note:** To select Virtual Agent topics, Document Templates, Document Template Block Content, HTML Document Template, Knowledge Base or Email notification artifacts, you must activate specific plugins. For more information, see [Supported artifacts in Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/supported-artifacts-lf.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +85,7 @@ Enable machine translate
 
 </td><td>
 
-Option to enable the machine translation service for selected languages.**Note:** Dynamic Translation must be installed to use machine translation. For more information, see [Activate Dynamic Translation](../../dynamic-translation/task/activate-dynamic-translation.md).
+Option to enable the machine translation service for selected languages.**Note:** Dynamic Translation must be installed to use machine translation. For more information, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/activate-dynamic-translation.md).
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Translator
 
 </td><td>
 
-List of the available translator services for machine translation. **Note:** Ensure that at least one third-party translator configuration record is integrated and active. For more information, see [Integration with other translation services](../../dynamic-translation/concept/integration-with-other-translation-services.md).
+List of the available translator services for machine translation. **Note:** Ensure that at least one third-party translator configuration record is integrated and active. For more information, see [Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/integration-with-other-translation-services.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -114,9 +115,9 @@ TMS
 
 List of all the TMS services available for machine translation. By default, the **RWS** and the **XTM** TMS are available.
 
- You can also choose a configured custom TMS. For more information, see [Translation Management System configurations](../concept/tms-configuration.md).
+ You can also choose a configured custom TMS. For more information, see [Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/tms-configuration.md).
 
-If you are configuring a spoke instance per the Localization Framework Hub and Spoke architecture, select `Localization Framework Hub` in this field. For more information, see [Localization Framework Hub and Spoke architecture](../concept/localization-framework-hub-spoke-architecture.md)
+If you are configuring a spoke instance per the Localization Framework Hub and Spoke architecture, select `Localization Framework Hub` in this field. For more information, see [Localization Framework Hub and Spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md)
 
 .
 
@@ -195,7 +196,7 @@ Workflow
 
 </td><td>
 
-List of all the workflows available for the translation process. For more information on the available workflows, see [Workflows in the Localization Framework](../reference/workflow-localization-framework.md).
+List of all the workflows available for the translation process. For more information on the available workflows, see [Workflows in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/workflow-localization-framework.md).
 
 </td></tr><tr><td>
 
@@ -220,9 +221,9 @@ Auto translation mode
 </td><td>
 
 Option to select the auto-translation mode. The available options are as follows: -   **Machine Translate**
--   **Send to TMS**. If the instance has been set up as a spoke in the[Localization Framework Hub and Spoke architecture](../concept/localization-framework-hub-spoke-architecture.md), this setting will submit the translation request to the hub.
+-   **Send to TMS**. If the instance has been set up as a spoke in the[Localization Framework Hub and Spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md), this setting will submit the translation request to the hub.
 -   **Send via Email**
-For more information, see [Translation Modes](../concept/translation-modes.md) **Note:** Ensure that you have configured the Translation Preferences for the selected auto translation mode.
+For more information, see [Translation Modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/translation-modes.md) **Note:** Ensure that you have configured the Translation Preferences for the selected auto translation mode.
 
 </td></tr><tr><td>
 
@@ -275,5 +276,5 @@ List of all the available user groups. **Note:** Ensure that the localization ma
 </table>10. Select **Submit**.
 
 
-**Parent Topic:**[Localization Framework settings](../concept/localization-settings.md)
+**Parent Topic:**[Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/localization-settings.md)
 

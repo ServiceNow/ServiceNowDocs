@@ -2,6 +2,7 @@
 title: Create or modify an appointment booking service configuration
 description: Create or modify an appointment booking configuration for a service within an application that is provided to customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/appt-booking-create-service-config.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -135,7 +136,7 @@ Appointment is mandatory
 
 </td><td>
 
-Enable this check box if it is mandatory that a customer create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment on the [Select Appointment window](../reference/appt-booking-select-appt-window.md) before submitting the service request.
+Enable this check box if it is mandatory that a customer create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment on the [Select Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/appt-booking-select-appt-window.md) before submitting the service request.
 -   If disabled, the user can submit the service request without selecting an appointment.
 
 
@@ -297,7 +298,7 @@ An appointment booking service configuration is created or modified.
 
 ## What to do next
 
-Create service configuration rules to customize service configuration as per your requirement. Each service configuration can have multiple service configuration rules. For more information, see [Create appointment booking service configuration rules](create-appt-booking-service-config-rules.md).
+Create service configuration rules to customize service configuration as per your requirement. Each service configuration can have multiple service configuration rules. For more information, see [Create appointment booking service configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.md).
 
-**Parent Topic:**[Configuring Appointment Booking](../concept/appointment-booking-administer.md)
+**Parent Topic:**[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 

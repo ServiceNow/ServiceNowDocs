@@ -2,6 +2,7 @@
 title: About Dispute Management
 description: ServiceNow Dispute Management enables issuing banks to deflect card disputes, streamline data collection, and simplify payment exception operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/disputes-overview.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -40,16 +41,16 @@ Dispute management is important because it:
 -   Efficient processes help minimize penalties and financial losses associated with disputes.
 -   The system can handle disputes for multiple card networks, including Visa and Mastercard, providing banks with scalability and adaptability.
 
--   **[Dispute workflows](../../fso-card-operations/concept/dispute-management-workflows.md)**  
+-   **[Dispute workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management-workflows.md)**  
 As a card dispute agent or agent connector, you can work on a credit or debit card dispute cases by investigating and resolving dispute requests for cardholders.
--   **[Dispute playbook](dispute-playbook.md)**  
+-   **[Dispute playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-playbook.md)**  
 Dispute agents use the dispute playbook to review and work on their cases and tasks. The playbook provides the end-to-end life cycle for the tasks performed during the dispute handling process, from the time a dispute is logged to the final resolution and communication to the customer.
--   **[Dispute workspaces](dispute-workspaces.md)**  
+-   **[Dispute workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-workspaces.md)**  
 Dispute workspaces enhance the management of dispute resolution processes and consist of both the agent and manager workspaces.
--   **[Dispute decision tables](../../fso-card-operations/concept/dispute-decision-tables.md)**  
+-   **[Dispute decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-decision-tables.md)**  
 Decision tables in Dispute Management provide decision logic for card dispute processing.
--   **[Dispute intake](../../fso-card-operations/concept/dispute-questionnaire.md)**  
+-   **[Dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-questionnaire.md)**  
 Dispute intake are designed to capture the relevant information required for dispute intake.
 
-**Parent Topic:**[Dispute Management](dispute-management.md)
+**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management.md)
 

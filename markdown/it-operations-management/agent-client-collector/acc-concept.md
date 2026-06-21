@@ -2,6 +2,7 @@
 title: Agent Client Collector architecture
 description: The Agent Client Collector is a ServiceNow agent installed on your Windows, Linux, and macOS devices to monitor your company’s infrastructure and installed applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-concept.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -23,7 +24,7 @@ A **policy** is a combination of the CIs being monitored by the Agent Client Col
 
 After the initial launch of the Agent Client Collector, the agent collects information on its host and the host's processes. To do so, the agent pushes the collected information to the instance through the MID Server. The instance creates a CI for the host and also creates CIs for applications classified from the running processes' information, such as Microsoft SQL Server. Once those CIs are created, the active policies defined for the CIs are downloaded to the agent’s MID Server and are then pushed to the agent. This is illustrated in the following diagram.
 
-![Agent client collector configuration flow](../image/ACC-Configuration-Flow-New.png)
+\[Omitted image "ACC-Configuration-Flow-New.png"\] Alt text: Agent client collector configuration flow
 
 The flow indicates the following:
 

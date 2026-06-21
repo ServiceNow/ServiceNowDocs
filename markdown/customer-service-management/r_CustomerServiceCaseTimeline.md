@@ -2,7 +2,10 @@
 title: Case timeline
 description: The timeline provides a visual display of case activities. The timeline appears at the top of the Case form when viewed by an agent or manager in the Customer Service Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/r\_CustomerServiceCaseTimeline.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -15,7 +18,7 @@ The timeline provides a visual display of case activities. The timeline appears 
 
 The timeline uses blue circles to represent case state changes and markers to represent case activities. The information included in the timeline is also shown on the Case form in the **Activity** history.
 
-![Case timeline displaying different case states and case activities.](../image/CustomerServiceCaseTimeline.png "Customer Service Case Timeline")
+\[Omitted image "CustomerServiceCaseTimeline.png"\] Alt text: Case timeline displaying different case states and case activities.
 
 ## Header
 

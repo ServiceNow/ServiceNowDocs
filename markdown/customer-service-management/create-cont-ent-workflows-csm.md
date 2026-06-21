@@ -2,7 +2,10 @@
 title: Creating contracts and entitlements using workflows
 description: After a product offer is selected by the customer and the product is sold to the customer, this workflow creates contracts and entitlements based on the services associated with that sold product and the extra services that the customer has purchased.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-cont-ent-workflows-csm.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -32,7 +35,7 @@ For every order with multiple product offerings, a single contract with multiple
 
 ## Creating contracts from product inventory records
 
-If the system property sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management is set to true, order fulfillment workflows create product inventories based on customer orders, product offerings and specifications. On creation of a product inventory, contract lines and entitlements will be created. When a product inventory undergoes a state change, the associated contract lines and entitlements are synced. For more information, see [Product inventory configurations](../../customer-service-management/concept/product_inventory_configurations.md). Product inventory records trigger updates to contracts and entitlements under the following conditions:
+If the system property sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management is set to true, order fulfillment workflows create product inventories based on customer orders, product offerings and specifications. On creation of a product inventory, contract lines and entitlements will be created. When a product inventory undergoes a state change, the associated contract lines and entitlements are synced. For more information, see [Product inventory configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/product_inventory_configurations.md). Product inventory records trigger updates to contracts and entitlements under the following conditions:
 
 -   Process Telecom Order Line flow: The ADD flow creates contract and entitlement records from the product inventory. The MODIFY flow updates the states of the contract line items and entitlements.
 -   Post Process Telecom Top Domain Order flow: The MODIFY flow updates the states, fields, and characteristics for contract line items and entitlements.
@@ -42,7 +45,7 @@ If the system property sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_managem
 
 Customer Life Cycle Workflows Policy decision table decides the target entity while renewing and modifying service contracts, service contract lines, and entitlements. Based on this decision table, users can create a quote or an order while renewing or modifying a service contract, service contract line, or an entitlement.
 
-![Customer Life Cycle Workflows Policy decision table.](../images/cust-lifecycle-wf-decisiontable.png "Customer Life Cycle Workflows Policy decision table")
+\[Omitted image "cust-lifecycle-wf-decisiontable.png"\] Alt text: Customer Life Cycle Workflows Policy decision table.
 
 You can configure rules based on the five available input parameters to create quotes while renewing and modifying contracts. Select the value of Target Entity Name as `sn_ind_tmt_orm_order_line_item` to create an order. Select the value of Target Entity Name as `sn_quote_mgmt_core_quote_line_item` to create a quote. If the user selects a quote, the quote is approved and the status changes to **Complete** to create an order. Ensure that you have installed Order Management \(com.sn\_ind\_tmt\_orm\) and Quote Management \(sn\_quote\_mgmt\) plugins to enable selecting the target entity for renewal and modify workflows. Both these plugins will enable users to create a quote or an order while renewing or modifying a service contract, service contract line, or an entitlement.
 

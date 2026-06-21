@@ -2,6 +2,7 @@
 title: Child Table form
 description: The Child Table form contains information about indexed source child tables defined for AI Search. Use this form when creating or modifying a child table of an indexed source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/child-table-form-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Child Table form contains information about indexed source child tables defined for AI Search. Use this form when creating or modifying a child table of an indexed source.
 
-For details on creating or modifying an indexed source child table, see [Create an indexed source](../task/create-indexed-source-ais.md).
+For details on creating or modifying an indexed source child table, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-indexed-source-ais.md).
 
 |Field|Description|
 |-----|-----------|
@@ -24,5 +25,5 @@ For details on creating or modifying an indexed source child table, see [Create 
 |Active|Option to activate indexing for the child table.|
 |Application|Application scope for the child table indexing configuration. This field is automatically set.|
 
-**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ais.md)
 

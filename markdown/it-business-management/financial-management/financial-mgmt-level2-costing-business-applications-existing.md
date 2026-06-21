@@ -2,6 +2,7 @@
 title: Financial Management Level 2 Costing – Business Applications dashboard
 description: The Level 2 Costing – Business Applications dashboard provides an executive view into the total expenses on business applications consolidated for a quarter and year-to-date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/financial-mgmt-level2-costing-business-applications-existing.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -23,7 +24,7 @@ The dashboard provides visibility on the application cost to an extent that you 
 
 The dashboard is based on the Level 2 Costing – Business Applications cost model. This cost model aligns business applications to business units and hence you can know the cost of applications that support each business unit.
 
-![Screenshot showing Level 2 Costing – Business Applications dashboard.](../image/Level2CostingBusinessApplicationsDashboard.png "Level 2 Costing – Business Applications dashboard")
+\[Omitted image "Level2CostingBusinessApplicationsDashboard.png"\] Alt text: Screenshot showing Level 2 Costing – Business Applications dashboard.
 
 ## End user and roles
 
@@ -57,9 +58,9 @@ The dashboard is based on the Level 2 Costing – Business Applications cost mod
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Business Applications Cost with Drivers|Bar![Bar stacked report](../../../reuse/reporting/image/bar-stacked.svg)|Displays the amount that each account in the Business Application consumes from different buckets \(cost pools\).|
-|Average Enterprise Cost per CPU|Spline![Spline report](../../../reuse/reporting/image/spline.svg)|Displays the trend of average unit cost per CPU.|
-|Business Unit – Business Application|Pivot![Pivot report](../../../reuse/reporting/image/pivot.svg)|Gives a tabular view of the amount breakup spent by the business units on the applications for the last four quarters.|
+|Business Applications Cost with Drivers|Bar\[Omitted image "bar-stacked.svg"\] Alt text: Bar stacked report|Displays the amount that each account in the Business Application consumes from different buckets \(cost pools\).|
+|Average Enterprise Cost per CPU|Spline\[Omitted image "spline.svg"\] Alt text: Spline report|Displays the trend of average unit cost per CPU.|
+|Business Unit – Business Application|Pivot\[Omitted image "pivot.svg"\] Alt text: Pivot report|Gives a tabular view of the amount breakup spent by the business units on the applications for the last four quarters.|
 
-**Parent Topic:**[Financial Management Platform Analytics Solutions](financial-content-pack.md)
+**Parent Topic:**[Financial Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-content-pack.md)
 

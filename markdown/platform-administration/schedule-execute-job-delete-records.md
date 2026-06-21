@@ -2,6 +2,7 @@
 title: Schedule or execute a job to delete records
 description: Schedule a date and time to execute a delete job or execute the job immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/schedule-execute-job-delete-records.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Consider scheduling the delete job to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use the table cleaner option instead. For more information, see [Deleting older or unwanted records](../concept/deleting-older-records.md).
+Consider scheduling the delete job to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use the table cleaner option instead. For more information, see [Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/deleting-older-records.md).
 
 ## Procedure
 
@@ -29,15 +30,15 @@ Consider scheduling the delete job to run during non-business hours to minimize 
 
 3.  Determine whether to schedule the delete job for a later time or run it right away.
 
-<table id="choicetable_kdq_2q5_qtb"><thead><tr><th align="left" id="d261106e89">
+<table id="choicetable_kdq_2q5_qtb"><thead><tr><th align="left" id="d130159e89">
 
 Option
 
-</th><th align="left" id="d261106e92">
+</th><th align="left" id="d130159e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d261106e98">
+</th></tr></thead><tbody><tr><td id="d130159e98">
 
 **Schedule the delete job**
 
@@ -48,7 +49,7 @@ Description
 3.  Select **Update** to save the schedule.
 
 
-</td></tr><tr><td id="d261106e125">
+</td></tr><tr><td id="d130159e125">
 
 **Run the delete job now**
 
@@ -66,7 +67,7 @@ Description
 </table>
 ## Result
 
-The records are scheduled for deletion or deleted immediately. If you want to restore the deleted records, see [Rollback a delete job](rollback-delete-job.md).
+The records are scheduled for deletion or deleted immediately. If you want to restore the deleted records, see [Rollback a delete job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/rollback-delete-job.md).
 
-**Parent Topic:**[Deleting records safely](../concept/deleting-records-safely.md)
+**Parent Topic:**[Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/deleting-records-safely.md)
 

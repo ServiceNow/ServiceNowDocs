@@ -2,6 +2,7 @@
 title: Attachments not appearing after import
 description: If attachments are not appearing as expected for data sources or on a security incident after third-party integration imports, check your IP restrictions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-attachments-not-appearing.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -19,5 +20,5 @@ IP access restrictions can prevent attachments from being seen unless you are lo
 
 For example, when you run a third-party host import integration, if you do not see any attachments on your data sources, check your IP restrictions and add users to the safe list prior to import.
 
-**Parent Topic:**[Resolving Qualys Vulnerability Integration issues](cc-qualys-troubleshooting.md)
+**Parent Topic:**[Resolving Qualys Vulnerability Integration issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-qualys-troubleshooting.md)
 

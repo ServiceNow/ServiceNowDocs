@@ -2,6 +2,7 @@
 title: Install multiple applications in a batch
 description: The Batch Installation feature helps you install multiple applications, plugins, or application-customizations together, instead of having to install them serially one at a time. You can access this feature either from the Continuous Integration and Continuous Delivery \(CI/CD\) APIs via three new endpoints, or via the CI/CD Spoke on Integration Hub using Workflow Studio subflows and actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/cicd-spoke-batch-install.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -24,9 +25,9 @@ A batch can contain any combination of the following types:
 
 ## Batch installation methods
 
-For details on installing applications in a batch via the REST API see [Continuous Integration/Continuous Delivery \(CI/CD\) API](https://www.servicenow.com/docs/access?context=cicd-api&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+For details on installing applications in a batch via the REST API see Continuous Integration/Continuous Delivery \(CI/CD\) API.
 
-For details on installing applications in a batch with the [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US) application, see [Continuous Integration and Continuous Delivery \(CICD\) spoke](https://www.servicenow.com/docs/access?context=cicd-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+For details on installing applications in a batch with the Flow Designer application, see Continuous Integration and Continuous Delivery \(CICD\) spoke.
 
-**Parent Topic:**[Using Legacy Application Manager](../../../build/applications/task/using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 

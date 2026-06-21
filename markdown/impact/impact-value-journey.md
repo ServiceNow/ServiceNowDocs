@@ -2,7 +2,10 @@
 title: Value Journey
 description: Use Value Journey to get a closer look at your Value blueprint, and Business Value Reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/impact-value-journey.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,15 +24,15 @@ The value journey constitutes a continuous loop of the end-to-end process of man
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Objectives and outcomes](value-blueprint.md)
+[Objectives and outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/value-blueprint.md)
 
- ![](../../../reuse/icons/brand-icons/bus-investor-relations-2.svg) Illustrate value over time with Business Objectives, which are high level goals tied to measurable outcomes. Your squad will help you understand where you are and what you can do to meet your objectives.
+ \[Omitted image "bus-investor-relations-2.svg"\] Alt text: Illustrate value over time with Business Objectives, which are high level goals tied to measurable outcomes. Your squad will help you understand where you are and what you can do to meet your objectives.
 
 </td><td align="center">
 
-[Business value reports](business-value-reports.md)
+[Business value reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/value-library/business-value-reports.md)
 
- ![](../../../reuse/icons/brand-icons/bus-datasheet.svg) Your Impact squad performs a Value Realization Assessment and captures the data in a Value Report.
+ \[Omitted image "bus-datasheet.svg"\] Alt text: Your Impact squad performs a Value Realization Assessment and captures the data in a Value Report.
 
 </td></tr></tbody>
 </table>-   View the Outcome Summary tab to capture the progress related to the outcome in one place.​

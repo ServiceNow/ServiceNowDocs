@@ -2,6 +2,7 @@
 title: Train the NLU model
 description: Use the UKG Topics Model \(Natural Language Understanding model\) to recognize and process employee utterances, intentions \(intents\), and objects of, or contexts for, an action \(entities\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/nlu-ukg-model.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

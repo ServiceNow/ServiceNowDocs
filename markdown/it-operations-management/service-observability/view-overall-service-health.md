@@ -2,6 +2,7 @@
 title: View overall service health
 description: View overall service health and related events, like alerts and changes, with the Overview tab on the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-observability/view-overall-service-health.html
 release: xanadu
 product: Service Observability
 classification: service-observability
@@ -17,8 +18,8 @@ View overall service health and related events, like alerts and changes, with th
 
 ## Before you begin
 
--   For version 1.5, a service must be activated. For more information, see [Activate teams and services](../concept/activate-teams-and-services.md).
--   A data mapping must be configured. For more information, see [Create and manage observability data mappings](create-and-manage-observability-data-mappings.md).
+-   For version 1.5, a service must be activated. For more information, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/activate-teams-and-services.md).
+-   A data mapping must be configured. For more information, see [Create and manage observability data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
 
 Role required: operator \[snc\_sow\_svcobs.manager\]
 
@@ -38,7 +39,7 @@ When you have been notified that a service is experiencing performance issues, y
     -   **Express list** alert: Select a service from the **Impacted services** column.
     The Service Details page opens and the Overview tab is displayed.
 
-    If charts are displaying error messages, see [Chart error states](../reference/chart-error-states.md).
+    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/chart-error-states.md).
 
 2.  Use the charts in the Overview section to help determine where there might be performance issues.
 
@@ -50,10 +51,10 @@ When you have been notified that a service is experiencing performance issues, y
 
 4.  Use the other charts on the page to view related information about the service, such as recent changes, open incidents, and trends for incidents and alerts.
 
-    These charts help explain whether recurring incidents or alerts might be caused by performance issues on the service. For detailed information about using this page, refer to the corresponding Overview templates for your APM vendor described in [Observability templates](../reference/observability-templates.md).
+    These charts help explain whether recurring incidents or alerts might be caused by performance issues on the service. For detailed information about using this page, refer to the corresponding Overview templates for your APM vendor described in [Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/observability-templates.md).
 
 
 ## What to do next
 
-To view more detailed metrics and metrics for related entities, select the **Observability** tab. For more information, see [View service health metrics](view-service-health-metrics.md).
+To view more detailed metrics and metrics for related entities, select the **Observability** tab. For more information, see [View service health metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/view-service-health-metrics.md).
 

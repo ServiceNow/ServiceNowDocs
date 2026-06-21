@@ -2,6 +2,7 @@
 title: Components installed with Subscription Management
 description: Several components are installed with activation of the Subscription Management plugin \(com.glide.subscription\_management\), including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/installed-with-subscription-management.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -93,5 +94,5 @@ Unallocated Group Recommendations
 \[Remote table\] Product recommendations for unallocated groups
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Subscription Management reference](subscription-management-reference-v2.md)
+</table>**Parent Topic:**[Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/subscription-management-reference-v2.md)
 

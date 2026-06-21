@@ -2,6 +2,7 @@
 title: Configuring Audit Management
 description: Use the steps in the GRC Audit Management application checklist to download the Audit Management from the ServiceNow Store, and get it ready for operation. Mandatory and optional setup steps, as well as an implementation checklist, are provided to simplify the setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/audit-management/audit-imple-overview.html
 release: xanadu
 product: Audit Management
 classification: audit-management
@@ -17,5 +18,5 @@ Use the steps in the GRC Audit Management application checklist to download the 
 
 The flow of mandatory steps in the checklist are as follows:
 
-![Mandatory steps to implement audit management](../image/grc-audit-imple-workflow.png "Audit Management implementation steps")
+\[Omitted image "grc-audit-imple-workflow.png"\] Alt text: Mandatory steps to implement audit management
 

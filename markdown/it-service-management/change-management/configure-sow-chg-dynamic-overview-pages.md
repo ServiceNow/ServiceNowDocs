@@ -2,6 +2,7 @@
 title: Manage the workspace configuration for a Change request in Service Operations Workspace
 description: Utilize the new table-based configuration to align with the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.Show the activity stream bar for a for a change request in Service Operations Workspace.Configure the order of the cards that display in the Overview section for a change request in Service Operations Workspace.You can configure if the Work notes or Additional comments sections to display for a change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.html
 release: xanadu
 product: Change Management
 classification: change-management
@@ -24,7 +25,7 @@ With this you can configure the following components in the workspace configurat
 -   Control the display of activity stream bar in the Overview pages
 -   Configure the journal fields
 
-**Parent Topic:**[Using Change Management](../../change-management/concept/using-change-management.md)
+**Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/using-change-management.md)
 
 ## Show the activity stream bar
 
@@ -46,7 +47,7 @@ Role required: admin
 
     The action bar is shown on the Service Operations Workspace at the bottom of the screen.
 
-    ![Action bar in change request record](../image/display-action-bar.png)
+    \[Omitted image "display-action-bar.png"\] Alt text: Action bar in change request record
 
 
 ## Configure the order of the cards in Overview section

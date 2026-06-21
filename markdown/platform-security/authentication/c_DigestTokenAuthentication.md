@@ -2,6 +2,7 @@
 title: Digest token authentication
 description: The digest token authentication passes user credentials and a digest token within an unencrypted HTTP header.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/c\_DigestTokenAuthentication.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -17,15 +18,15 @@ The digest token authentication passes user credentials and a digest token withi
 
 <table id="table_j5l_5hy_zyb" class="nav-card"><tbody><tr><td>
 
-[Explore![Explore](../../../common/image/icon-explore.png)](../../authentication/concept/explore-digest-token.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/explore-digest-token.md)
 
- [Learn the features and business value of Digest token authentication.](../../authentication/concept/explore-digest-token.md)
+ [Learn the features and business value of Digest token authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/explore-digest-token.md)
 
 </td><td>
 
-[Configure![Use](../../../common/image/icon-set-up.png)](../task/t_EnterDigestPropsMultiProviderSSO.md)
+[Configure\[Omitted image "icon-set-up.png"\] Alt text: Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/t_EnterDigestPropsMultiProviderSSO.md)
 
- [Understand how to configure Digest token authentication.](../task/t_EnterDigestPropsMultiProviderSSO.md)
+ [Understand how to configure Digest token authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/t_EnterDigestPropsMultiProviderSSO.md)
 
 </td></tr></tbody>
 </table>

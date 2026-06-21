@@ -2,6 +2,7 @@
 title: Operational Technology Unified Map experience in the Industrial Workspace
 description: The Operational Technology \(OT\) Unified Map available in the Industrial Workspace provides a unified experience to view the relationships between devices and other configuration items \(CIs\), and view related items, like OT incidents and change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/industrial-workspace/unified-maps-experience-iw.html
 release: xanadu
 product: Industrial Workspace
 classification: industrial-workspace
@@ -34,11 +35,11 @@ On the Unified Map, you can also see the highlighted nodes of the following rela
 -   Active OT Alerts
 -   OT Vulnerable Items
 
-The following image shows a Unified Map for an OT incident record with the home node highlighted.![OT Unified Map for an OT incident record with the home node highlighted](../image/industrial-process-map-view.png)
+The following image shows a Unified Map for an OT incident record with the home node highlighted.\[Omitted image "industrial-process-map-view.png"\] Alt text: OT Unified Map for an OT incident record with the home node highlighted
 
-For more information about configuring the OT Unified Maps experience, see [Setting up the Operational Technology Unified Map experience](../task/setting-up-unified-maps-experience.md).
+For more information about configuring the OT Unified Maps experience, see [Setting up the Operational Technology Unified Map experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-workspace/setting-up-unified-maps-experience.md).
 
-For more information about viewing an OT Unified Map, see [View an Operational Technology Unified Map](../task/view-ot-unified-map.md).
+For more information about viewing an OT Unified Map, see [View an Operational Technology Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-workspace/view-ot-unified-map.md).
 
-**Parent Topic:**[Exploring the Industrial Workspace](../../operational-technology-management/concept/exploring-industrial-workspace.md)
+**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 

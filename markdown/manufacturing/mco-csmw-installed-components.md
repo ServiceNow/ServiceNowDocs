@@ -2,6 +2,7 @@
 title: Components installed with Customer Service Management for Manufacturing Commercial Operations
 description: Several types of components are installed with CSM workspaces for Manufacturing Commercial Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-csmw-installed-components.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-10-10"
@@ -13,5 +14,5 @@ breadcrumb: [Customer Service Management reference, Manufacturing Commercial Ope
 
 Several types of components are installed with CSM workspaces for Manufacturing Commercial Operations.
 
-For information on the components installed with Customer Service Management for Manufacturing Commercial Operations, see [Components installed with Customer Service Management](https://www.servicenow.com/docs/access?context=r_InstalledWithCustomerService&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+For information on the components installed with Customer Service Management for Manufacturing Commercial Operations, see .
 

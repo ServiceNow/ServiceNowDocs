@@ -2,6 +2,7 @@
 title: Preview a knowledge article with knowledge blocks
 description: Preview a knowledge article with knowledge blocks by user or, if published, by date. For an unpublished article, you can preview the article by user by impersonating different users to see how the article displays or hides block content \(based on the user criteria set at the knowledge base and knowledge block level\). For published articles, you can preview the article by both user and date to see how the article appears in past versions for different users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/preview-knowledge-article-with-knowledge-blocks.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -27,19 +28,19 @@ Role required: user must have contributor access to the knowledge base.
 
 3.  In the **Related Links** section, click **Preview Article with Blocks**.
 
-    ![Preview article with knowledge blocks.](../image/knowledge-blocks-preview-article-with-blocks.png)
+    \[Omitted image "knowledge-blocks-preview-article-with-blocks.png"\] Alt text: Preview article with knowledge blocks.
 
 4.  Preview the article as one of the following.
 
-<table id="choicetable_of1_rfr_4fb"><thead><tr><th align="left" id="d122028e104">
+<table id="choicetable_of1_rfr_4fb"><thead><tr><th align="left" id="d128961e104">
 
 Option
 
-</th><th align="left" id="d122028e107">
+</th><th align="left" id="d128961e107">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d122028e113">
+</th></tr></thead><tbody><tr><td id="d128961e113">
 
 **Unpublished article**
 
@@ -47,7 +48,7 @@ Details
 
 Preview the article by user. In the **View As** field, you can search for and impersonate different users to see how the article appears based on the can and cannot read access of the user.
 
-</td></tr><tr><td id="d122028e125">
+</td></tr><tr><td id="d128961e125">
 
 **Published article**
 
@@ -59,5 +60,5 @@ Preview the article by user and date:-   In the **View As** field, you can searc
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using knowledge blocks](../../../using-knowlege-blocks.md)
+**Parent Topic:**[Using knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/using-knowlege-blocks.md)
 

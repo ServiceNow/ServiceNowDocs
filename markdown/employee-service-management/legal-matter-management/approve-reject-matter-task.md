@@ -2,6 +2,7 @@
 title: Approve or reject a legal matter task
 description: As a matter owner, you can review and approve or reject matter tasks that are marked as complete by the task owners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-matter-management/approve-reject-matter-task.html
 release: xanadu
 product: Legal Matter Management
 classification: legal-matter-management
@@ -23,7 +24,7 @@ Role required: sn\_lg\_matter.matter\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **My Work**, click **Items Pending Approvals**.
 

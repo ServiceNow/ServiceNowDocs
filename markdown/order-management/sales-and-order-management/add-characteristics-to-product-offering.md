@@ -2,6 +2,7 @@
 title: Add characteristic and characteristic options to a product offering
 description: Add characteristic and characteristic options to an existing product offering using the Product Offering Characteristic tab in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/add-characteristics-to-product-offering.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ There are a number of ways to create characteristic and characteristic options. 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering that you're working with.
 

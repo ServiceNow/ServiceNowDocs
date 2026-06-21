@@ -2,13 +2,14 @@
 title: Configure a new TAXII Feed
 description: You can maintain TAXII feeds for sharing STIX-formatted information. Each TAXII feed contains one or more TAXII collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-configure-a-new-taxii-feed.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-01-20"
 reading_time_minutes: 5
-breadcrumb: [Understanding STIX TAXII, Threat Intelligence Feeds, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Understanding STIX TAXII, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure a new TAXII Feed
@@ -194,7 +195,7 @@ Run Frequency of Collections
 
 The scheduling interval which will be applied to the TAXII collection records. Run frequency for a TAXII collection can be modified in the TAXII collection form view if required.**Note:** This setting will be applied as default to all the TAXII collections that are fetched. There is an option to override the setting in TAXII Collections if required.
 
- For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://servicenow.com/docs/bundle/vancouver-platform-administration/page/administer/reference-pages/task/t_ScheduleAScriptExecution.html).
+ For more information, see Scheduled Jobs and how to Automatically run a script of your choosing.
 
 </td></tr><tr><td>
 
@@ -220,5 +221,5 @@ The start date from when the data needed to be fetched. This field should be set
 8.  Enable the TAXII Collections to retrieve the STIX objects available in these TAXII collections.
 
 
-**Parent Topic:**[Understanding STIX TAXII](../concept/threat-intelligence-security-center-feeds.md)
+**Parent Topic:**[Understanding STIX TAXII](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/threat-intelligence-security-center-feeds.md)
 

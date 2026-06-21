@@ -2,6 +2,7 @@
 title: Use the IsLeapYear component
 description: Specify a year to find out whether it's a leap year by using the IsLeapYear component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-datetime-isleapyear.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the IsLeapYear component. For more information about these properties, see [Properties of the DateTime components](../reference/util-datetime-prop.md).
+You can configure the properties for the IsLeapYear component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/util-datetime-prop.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ You can configure the properties for the IsLeapYear component. For more informat
 
 4.  Drag the GetPart component to the Design surface.
 
-5.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+5.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 6.  Connect the data and control ports of the IsLeapYear component to the corresponding ports of the other components as described in the following table and image.
 
@@ -49,7 +50,7 @@ You can configure the properties for the IsLeapYear component. For more informat
 
 ## IsLeapYear component with GetPart and Now component
 
-![GetPart component extracts a date part from the Now component, and IsLeapYear determines if the year is a leap year.](../image/isleapyear-datetime-utlities-rpa.png "IsLeapYear component")
+\[Omitted image "isleapyear-datetime-utlities-rpa.png"\] Alt text: GetPart component extracts a date part from the Now component, and IsLeapYear determines if the year is a leap year.
 
-**Parent Topic:**[DateTime](../concept/datetime-utility.md)
+**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/datetime-utility.md)
 

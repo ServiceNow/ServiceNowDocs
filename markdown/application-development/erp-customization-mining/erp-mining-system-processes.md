@@ -2,6 +2,7 @@
 title: ERP-CM system connection tasks
 description: ERP Customization Mining \(ERP-CM\) runs a number of tasks when connecting to the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erp-mining-system-processes.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -25,5 +26,5 @@ ERP Customization Mining \(ERP-CM\) runs a number of tasks when connecting to th
 -   Extraction of Namespace Data
 -   Running ML similarity analysis
 
-**Parent Topic:**[ERP Customization Mining reference](erp-customization-mining-ref.md)
+**Parent Topic:**[ERP Customization Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erp-customization-mining-ref.md)
 

@@ -2,6 +2,7 @@
 title: Select fields for an extraction table in ERP Data Hub
 description: Add or remove fields for an extraction table in ERP Data Hub. For example, you may want to remove fields with sensitive information, such as birthdays.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erpc-select-extraction-table-fields.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,7 +18,7 @@ Add or remove fields for an extraction table in ERP Data Hub. For example, you m
 
 ## Before you begin
 
-If you don't see the fields that you want to add to the extraction table, you must first add them to the model. For more information, see [Choose output parameters for an ERP model](erp-canvas-manage-outputs.md).
+If you don't see the fields that you want to add to the extraction table, you must first add them to the model. For more information, see [Choose output parameters for an ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-manage-outputs.md).
 
 Role required:
 
@@ -28,7 +29,7 @@ Role required:
 
 1.  Navigate to **All** &gt; **ERP Data Hub** &gt; **ERP Data Hub Home**.
 
-2.  Open the ERP extraction tables page by selecting the ERP extraction tables icon \(![ERP extraction tables navigation icon](../image/erpc-extraction-table-icon.png)\) in the side panel.
+2.  Open the ERP extraction tables page by selecting the ERP extraction tables icon \(\[Omitted image "erpc-extraction-table-icon.png"\] Alt text: ERP extraction tables navigation icon\) in the side panel.
 
 3.  Select an extraction table to work with by selecting the **Name**.
 
@@ -47,5 +48,5 @@ Role required:
 5.  Confirm that the fields appear correctly as columns on the extraction table by selecting the **Extraction table fields** tab.
 
 
-**Parent Topic:**[Extracting and transforming data in ERP Data Hub](../concept/erp-canvas-extraction-tables.md)
+**Parent Topic:**[Extracting and transforming data in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
 

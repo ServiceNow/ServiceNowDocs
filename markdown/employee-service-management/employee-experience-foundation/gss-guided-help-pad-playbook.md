@@ -2,6 +2,7 @@
 title: Build a visual flow for Guided Self-Service
 description: Create a visual playbook flow of activities so that employees can find information in a more intuitive and visual way.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/gss-guided-help-pad-playbook.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,9 +18,9 @@ Create a visual playbook flow of activities so that employees can find informati
 
 ## Before you begin
 
-Understand the basics of playbooks and workflow studio [Building playbooks](https://www.servicenow.com/docs/access?context=building-a-process&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US) and [Create an activity definition](https://www.servicenow.com/docs/access?context=create-activity-definition&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+Understand the basics of playbooks and workflow studio  and .
 
-Review the information from [Guided Self-Service reference](../reference/gss-guided-self-service-reference-info.md).
+Review the information from [Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md).
 
 Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
@@ -29,7 +30,7 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
     Here’s a sample illustration of the entire flow.
 
-    ![process design flow](../images/gss-playbook-design-flow.png "Visual flow")
+    \[Omitted image "gss-playbook-design-flow.png"\] Alt text: process design flow
 
     Each activity definition contains some basic configuration details, automation plan, and activity experience.
 
@@ -40,7 +41,7 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
     -   **Add activity** &gt; **Guided Self-Service in Employee Center** &gt; **Catalog Item Guidance**.
     -   **Add activity** &gt; **Guided Self-Service in Employee Center** &gt; **Show Knowledge Article Guidance** &gt; **Instruction activity'**.
     -   **Add activity** &gt; **Common Activities** &gt; **Instruction Activity**.
-    ![Add activity for GSS](../images/gss-add-activity-ec-interactive.png "Add activity")
+    \[Omitted image "gss-add-activity-ec-interactive.png"\] Alt text: Add activity for GSS
 
     For more information, see the activity information such as Input, Output, and Advanced Properties on the UI.
 
@@ -48,11 +49,11 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
     Here’s a sample illustration for time off flow.
 
-    ![Workflow Studio PAD design](../images/gss-pad-trigger-flow-confi.png "Step-by-step playbook flow")
+    \[Omitted image "gss-pad-trigger-flow-confi.png"\] Alt text: Workflow Studio PAD design
 
     **Note:** Ensure you configure the Restart rule as always for all or each activity in the flow. Do not use the restart operation with just one activity.
 
-    Based on the security access and user permissions, the catalog item and KB appear. For more information, see [Create a playbook](https://www.servicenow.com/docs/access?context=create-process-definition&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+    Based on the security access and user permissions, the catalog item and KB appear. For more information, see .
 
     **Note:** The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in **Workflow Studio**.
 
@@ -63,7 +64,7 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
     -   **Guided:** Displays an interactive, step-by-step interface that guides users through the playbook stages and activities, providing contextual assistance and decision support at each step.
 5.  Go to **Playbook** &gt; **...** &gt; **Properties** &gt; **Additional properties**, and select **Allow this playbook to be restarted during runtime** options on the pop-up window to enable restart function.
 
-    ![additional property selection](../images/gss-additional-properties.png "Select additional property")
+    \[Omitted image "gss-additional-properties.png"\] Alt text: additional property selection
 
 6.  Click **Activate** to reflect all the updates to the GSS or playbook.
 
@@ -82,5 +83,5 @@ GSS is configured to guide employees.
     **Note:** When a user or user group doesn't have permission to a catalog or a KB article, the `You do not have access to this item.` message appears. You can contact the admin for permissions.
 
 
-For more information, see [Use Guided Self-Service](../concept/gss-guided-self-service-homepage.md).
+For more information, see [Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md).
 

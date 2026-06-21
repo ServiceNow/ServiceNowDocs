@@ -2,7 +2,10 @@
 title: Respond to a comment in a notification
 description: A comment in the activity stream generates a notification to which the user can respond directly, without leaving Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/comments-notification.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -35,7 +38,7 @@ If the user needs to take an additional action, such as attaching a document, th
     -   Requested item
 4.  Click the notification to view the details.
 
-    ![Comment in the notification](../images/comment-notification.png)
+    \[Omitted image "comment-notification.png"\] Alt text: Comment in the notification
 
 5.  Click **Send reply**.
 
@@ -46,5 +49,5 @@ If the user needs to take an additional action, such as attaching a document, th
 8.  Click **View ticket details** to view the complete details of the ticket.
 
 
-**Parent Topic:**[Employee actions](../concept/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-sn-ms-teams.md)
 

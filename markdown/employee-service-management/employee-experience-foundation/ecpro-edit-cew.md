@@ -2,6 +2,7 @@
 title: Modify the Content Experiences widget
 description: You can edit the banner of your Content Experiences widget to create a modern and unique layout for your content in the Content Experiences widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ecpro-edit-cew.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation

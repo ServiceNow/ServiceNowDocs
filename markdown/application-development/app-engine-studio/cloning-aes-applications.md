@@ -2,6 +2,7 @@
 title: Cloning instances with AES
 description: Learn how to protect the data, tables, and templates you've created in App Engine Studio when using System Clone to copy instances from production to non-production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/cloning-aes-applications.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -20,7 +21,7 @@ Learn how to protect the data, tables, and templates you've created in App Engin
 The following are requirements for cloning instances with AES:
 
 1.  Ensure that all of your AES plugins are installed across all instances.
-2.  If you're cloning a production instance, verify that you've set up a data preserver on the target instances to preserve the Automated Test Framework \(ATF\) and Instance Scan properties. For more information about data preservers, see [Data preservation on cloning target instances](https://www.servicenow.com/docs/access?context=data-preservation&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+2.  If you're cloning a production instance, verify that you've set up a data preserver on the target instances to preserve the Automated Test Framework \(ATF\) and Instance Scan properties. For more information about data preservers, see .
 
     **Important:** By default, the ATF system property is disabled to prevent you from accidentally running these tests on a production system. Running ATF on a production instance is neither recommended nor supported due to the potential for data corruption or outages.
 
@@ -75,14 +76,14 @@ Admins must protect custom templates from being overwritten during the cloning p
 
 When you create a template in AES, a scoped app is automatically generated on the Custom Applications \[sys\_app.list\] table in your instance. Though they have different contents, template applications and standard custom applications are treated similarly on the ServiceNow AI Platform. So, preserving app templates during a system clone works the same way as preserving an application.
 
-To protect app templates on your non-production instances, follow the process in [Preserve applications and customizations in development during a system clone](https://www.servicenow.com/docs/access?context=data-preservation&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+To protect app templates on your non-production instances, follow the process in Preserve applications and customizations in development during a system clone.
 
 ## More information on cloning and data preservation
 
 See the following topics for more information on cloning and data preservation:
 
--   For more information on using the System Clone tool, see [System clone](https://www.servicenow.com/docs/access?context=c_SystemClone&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
--   For more information on data preservation, see [Data preservation on cloning target instances](https://www.servicenow.com/docs/access?context=data-preservation&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+-   For more information on using the System Clone tool, see System clone.
+-   For more information on data preservation, see Data preservation on cloning target instances.
 -   For more details on cloning instances with AES, see the App Engine Studio System Administrator Guide on [ServiceNow University](https://learning.servicenow.com/).
 
 <table id="table_m51_zrm_jtb-3"><thead><tr><th>
@@ -99,22 +100,22 @@ ServiceNow provides several additional resources on cloning instances with App E
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-webinar.svg) [Cloning basics knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1214608)
+\[Omitted image "bus-webinar.svg"\] Alt text: [Cloning basics knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1214608)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-whitepaper.svg)[Cloning instances tips and tricks knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1214621)
+\[Omitted image "bus-whitepaper.svg"\] Alt text:[Cloning instances tips and tricks knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1214621)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-3-person.svg) [Extensive FAQ knowledge article on cloning instances](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0715621)
+\[Omitted image "bus-3-person.svg"\] Alt text: [Extensive FAQ knowledge article on cloning instances](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0715621)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-learn.svg) [App Engine Enterprise - Data Preservation During System Clone Whitepaper](https://learning.servicenow.com/nowcreate?id=nc_asset&asset_id=4b22db79479e91185cbdaf44846d43e1)
+\[Omitted image "bus-learn.svg"\] Alt text: [App Engine Enterprise - Data Preservation During System Clone Whitepaper](https://learning.servicenow.com/nowcreate?id=nc_asset&asset_id=4b22db79479e91185cbdaf44846d43e1)
 
 **Note:** You must log in to ServiceNow University to access this resource.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring App Engine Studio and related apps](aes-setup.md)
+</table>**Parent Topic:**[Configuring App Engine Studio and related apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-setup.md)
 

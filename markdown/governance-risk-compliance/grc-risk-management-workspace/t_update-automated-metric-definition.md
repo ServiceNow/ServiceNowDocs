@@ -2,6 +2,7 @@
 title: Update a metric definition
 description: Update an existing metric definition to collect the new metrics. You can associate new goals, targets, and entities with the metric definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/t\_update-automated-metric-definition.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

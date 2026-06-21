@@ -2,11 +2,12 @@
 title: User Role Inheritance API
 description: The User Role Inheritance API provides endpoints that allow you to see the roles that a specific user inherited.Returns a specified user's granted and inherited roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/user-role-inheritance-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -19,7 +20,7 @@ This API requires the Contextual Security: Role Management V2 REST API \(com.gli
 
 A user’s role can be directly granted, inherited from other roles, or inherited from groups. You must have the user\_admin role to access this API.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## User Role Inheritance - GET /global/user\_role\_inheritance
 
@@ -60,7 +61,7 @@ Optional. Version of the endpoint to access. For example, `v1` or `v2`.Only spec
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -85,7 +86,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

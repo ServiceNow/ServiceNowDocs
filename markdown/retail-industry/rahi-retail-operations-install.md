@@ -2,6 +2,7 @@
 title: Activate Retail Core
 description: You can install the Retail Core application if you have the admin role. The application includes demo data for Retail Operations and installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-operations-install.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -29,7 +30,7 @@ The following items are installed with Retail Core:
 -   ServiceNow® Store applications
 -   Related Party Configurations
 
-For more information, see [Components installed with Retail Core](../concept/rahi-retail-operations-components-installed.md).
+For more information, see [Components installed with Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-components-installed.md).
 
 ## Procedure
 
@@ -39,7 +40,7 @@ For more information, see [Components installed with Retail Core](../concept/rah
 
     You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  If you're prompted, follow the links to the ServiceNow® Store to get any additional entitlements for dependencies.
 

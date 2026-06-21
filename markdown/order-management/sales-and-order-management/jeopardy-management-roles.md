@@ -2,6 +2,7 @@
 title: Jeopardy Management roles and personas
 description: Learn more about how the roles and personas in Order Management may change by adopting Jeopardy Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/jeopardy-management-roles.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

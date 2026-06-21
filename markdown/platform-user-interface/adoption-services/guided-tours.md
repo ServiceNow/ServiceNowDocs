@@ -2,6 +2,7 @@
 title: Guided tours
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/guided-tours.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services
@@ -13,23 +14,21 @@ breadcrumb: [Adoption services, Configure user experiences]
 
 # Guided tours
 
-A sample guided tour and instructions on creating a guided tour.
-
 Watch this five-minute video to learn about creating guided tours that help users learn how to perform tasks in ServiceNow.
 
 ## Get started
 
 <table id="table_c2g_zps_nyb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Guided Tours features.](exploring-guided-tours.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Guided Tours features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/adoption-services/exploring-guided-tours.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Guided Tours.](configuring-guided-tours.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Guided Tours.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/adoption-services/configuring-guided-tours.md)
 
 </td><td>
 
-[Using![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Using Guided Tours.](using-guided-tours.md)
+[Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Using Guided Tours.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/adoption-services/using-guided-tours.md)
 
 </td></tr><tr><td>
 

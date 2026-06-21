@@ -2,6 +2,7 @@
 title: Configure the Portable Virtual Agent chat widget
 description: Configure the Portable Virtual Agent chat widget to run Virtual Agent on third-party web pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-portable-va-web-client.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Configure the Portable Virtual Agent chat widget to run Virtual Agent on third-p
 
 ## Before you begin
 
-**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the sn\_va\_web\_client\_app\_embed page for public access. For more information, see [Make UI pages public or private](https://www.servicenow.com/docs/access?context=t_MakeAPagePublic&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the sn\_va\_web\_client\_app\_embed page for public access. For more information, see .
 
 Role required: admin
 
@@ -64,7 +65,7 @@ Source value of the HTTP header directive: `Content-Security-Policy:frame-ancest
 
 
 </td></tr></tbody>
-</table>    For more information about source values that you can specify, see [CSP:frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors#Syntax) and [Virtual agent embedded client content security policy \(instance security hardening\)](https://www.servicenow.com/docs/access?context=sc-publicly-exposed-virtual-agent-embedded-web-client&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) in [Hardening settings](https://www.servicenow.com/docs/access?context=security-hardening-settings&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+</table>    For more information about source values that you can specify, see [CSP:frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors#Syntax) and Virtual agent embedded client content security policy \(instance security hardening\) in .
 
 4.  Return to the System Properties \[sys\_properties\] table to search for the **com.glide.cs.embed.xframe\_options** property by name.
 
@@ -197,7 +198,7 @@ The number of seconds to cache the client session. After an initial CORS request
 
 ## What to do next
 
-[Add the Portable Virtual Agent Chat Widget to a third-party website](add-portable-va-client-website.md).
+[Add the Portable Virtual Agent Chat Widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/add-portable-va-client-website.md).
 
-**Parent Topic:**[Configuring the portable Virtual Agent chat widget](../concept/use-portable-va-web-client.md)
+**Parent Topic:**[Configuring the portable Virtual Agent chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
 

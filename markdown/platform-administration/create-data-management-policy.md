@@ -2,6 +2,7 @@
 title: Create a data management policy
 description: Define a set of rules for managing the data in a table on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-data-management-policy.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -81,8 +82,8 @@ Option to activate the data management policy. You must activate the data manage
 
 Define archive and cleanup rules for the table by creating rules in the data management policy.
 
--   [Create an archive rule](../../database-rotation/task/t_CreateAnArchiveRule.md#)
--   [Create a table cleanup rule](activate-table-cleanup.md)
+-   [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAnArchiveRule.md)
+-   [Create a table cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/activate-table-cleanup.md)
 
-**Parent Topic:**[Managing the growth of data on your instance](../concept/data-management-policies.md)
+**Parent Topic:**[Managing the growth of data on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/data-management-policies.md)
 

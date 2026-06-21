@@ -2,6 +2,7 @@
 title: Pre-date a project task
 description: Move the planned start date of a task prior to the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/pre-date-prj-dt.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -37,15 +38,15 @@ Before pre-dating a project task, note the following conditions:
 
 3.  On the Project form, update the planned start date for a project task using either of the following options.
 
-<table id="choicetable_h1v_kq4_nlb"><thead><tr><th align="left" id="d116324e93">
+<table id="choicetable_h1v_kq4_nlb"><thead><tr><th align="left" id="d115435e93">
 
 Option
 
-</th><th align="left" id="d116324e96">
+</th><th align="left" id="d115435e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d116324e102">
+</th></tr></thead><tbody><tr><td id="d115435e102">
 
 **From the Project Task form**
 
@@ -55,7 +56,7 @@ Steps
 2.  On the Project Task form, click the **Dates** tab and update the **Planned start date** for the task.
 
 
-</td></tr><tr><td id="d116324e126">
+</td></tr><tr><td id="d115435e126">
 
 **From the Planning Console**
 

@@ -2,6 +2,7 @@
 title: Configuring Playbook Assist
 description: Enable Playbook Assist skills in the Now Assist for Creator application so that you can get started with building playbooks faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/configuring-playbook-assist.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -15,16 +16,16 @@ breadcrumb: [Playbook Assist, Exploring playbooks, Exploring Workflow Studio, Wo
 
 Enable Playbook Assist skills in the Now Assist for Creator application so that you can get started with building playbooks faster.
 
--   **[Install Playbook Assist](../task/install-playbook-assist.md)**  
+-   **[Install Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/install-playbook-assist.md)**  
 Install the Now Assist for Creator application to add the Playbook Assist generative AI capability to your playbooks.
--   **[Turn on the playbook generation skill](../task/turn-on-playbook-generation-skill.md)**  
+-   **[Turn on the playbook generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md)**  
 Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbooks.
--   **[Turn on playbook generation with images](../task/turn-on-playbook-gen-img.md)**  
+-   **[Turn on playbook generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/turn-on-playbook-gen-img.md)**  
 Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbooks from an image.
--   **[Change the maximum image size](../task/change-max-img-size.md)**  
+-   **[Change the maximum image size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/change-max-img-size.md)**  
 Adjust the maximum size that is accepted for images used for playbook generation.
--   **[Turn on playbook recommendations](../task/turn-on-playbook-recommendations.md)**  
+-   **[Turn on playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/turn-on-playbook-recommendations.md)**  
 Turn on the playbook recommendations skill to get recommendations for the activity definition to use in your placeholder activities with AI Search.
 
-**Parent Topic:**[Playbook Assist](playbook-assist-landing.md)
+**Parent Topic:**[Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-assist-landing.md)
 

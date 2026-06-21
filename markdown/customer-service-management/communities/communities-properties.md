@@ -2,6 +2,7 @@
 title: Properties installed with Communities
 description: Community administrators can use properties to configure Communities behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/communities-properties.html
 release: xanadu
 product: Communities
 classification: communities
@@ -830,5 +831,5 @@ Enter the maximum number of times a user can post Social Q&amp;A questions per d
 -   Location: System Properties
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communities](servicenow-communities.md)
+</table>**Parent Topic:**[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/servicenow-communities.md)
 

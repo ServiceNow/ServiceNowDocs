@@ -2,6 +2,7 @@
 title: Integration with Automation discovery
 description: Run automation discovery from within Process Mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/auto-disc.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -25,10 +26,10 @@ The report groups records by the predicted opportunity for automation. For uncat
 
 For applications such as Virtual Agent, Automation Discovery helps you implement automation opportunities that can lead to deflections and faster incident resolutions.
 
-For details on automation discovery, see [Automation Discovery](../../automation-discovery/concept/automation-discovery.md).
+For details on automation discovery, see [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/automation-discovery.md).
 
--   **[Configure automation discovery](../task/config-finding-def-auto-disc.md)**  
+-   **[Configure automation discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/config-finding-def-auto-disc.md)**  
 Automation discovery helps you analyze your records and identity opportunities for automation.
 
-**Parent Topic:**[Integrating Process Mining](integrating-process-mining.md)
+**Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/integrating-process-mining.md)
 

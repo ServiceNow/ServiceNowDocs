@@ -2,6 +2,7 @@
 title: Validation framework for Register of Information
 description: The validation framework helps ensure that RoI packages meet regulatory requirements defined by the DORA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-validation-roi.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management

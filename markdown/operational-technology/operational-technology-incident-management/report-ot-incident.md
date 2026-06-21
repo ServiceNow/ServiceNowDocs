@@ -2,6 +2,7 @@
 title: Report an incident
 description: Create an Operational Technology \(OT\) incident record to report a deviation from an expected standard of operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-incident-management/report-ot-incident.html
 release: xanadu
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -213,5 +214,5 @@ Information about how to resolve the incident or the steps taken to resolve it, 
 
 Now, the assignment group and assignee are aware that there's an OT incident that needs to be addressed.
 
-**Parent Topic:**[Using Operational Technology Incident Management](../concept/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

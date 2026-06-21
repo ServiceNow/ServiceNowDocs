@@ -2,6 +2,7 @@
 title: Constrain the assignment group field
 description: This example shows how to use an advanced reference qualifier with JavaScript and a script include to restrict the incident Assignment group choices to only the groups that contain the user specified in the Assigned to field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ExJSConstrainAssignmentGroupField.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -39,7 +40,7 @@ Role required: personalize\_dictionary or admin
 
     This name ensures the API Name is generated correctly, based on the Name field.
 
-10. [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US) with the following JavaScript code.
+10. Script includes with the following JavaScript code.
 
     Ensure that the **Accessible form** field is properly set for the environment.
 
@@ -87,5 +88,5 @@ Role required: personalize\_dictionary or admin
 
 To test, create an incident and select a user in the **Assigned to** field. Click the **Assignment group** lookup icon. Only the groups that contain the user you selected appear. For example, you assign an incident to Bob Smith, who belongs to the **Database** group and the **Networking** group. The only options that appear in the assignment group are **Database** and **Networking**.
 
-**Parent Topic:**[Configure reference qualifiers](t_ConfigureReferenceQualifiers.md)
+**Parent Topic:**[Configure reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfigureReferenceQualifiers.md)
 

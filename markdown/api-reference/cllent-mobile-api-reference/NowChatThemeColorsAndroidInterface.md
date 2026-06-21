@@ -2,6 +2,7 @@
 title: NowChatTheme interface - Android
 description: The NowChatTheme interface defines default colors for the elements in the Live Agent and Virtual Agent chat UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/cllent-mobile-api-reference/NowChatThemeColorsAndroidInterface.html
 release: xanadu
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -294,5 +295,5 @@ textTertiary
 Weekday for calendar, placeholder.Default value: \#454D5B
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - Android](../../concept/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

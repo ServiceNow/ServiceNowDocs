@@ -2,6 +2,7 @@
 title: Playbook for updating the supplier primary data
 description: Source-to-Pay Workspace includes a playbook that you use for updating the supplier primary data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ Source-to-Pay Workspace includes a playbook that you use for updating the suppli
 
 ## Review supplier primary data request playbook
 
-This playbook provides step-by-step guidance for cases related to updating supplier primary data. The playbook includes a supplier case flow containing various stages and activities that you must complete to close the supplier case. For more information, see [Interact with Playbook](https://www.servicenow.com/docs/access?context=playbook-ui&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+This playbook provides step-by-step guidance for cases related to updating supplier primary data. The playbook includes a supplier case flow containing various stages and activities that you must complete to close the supplier case. For more information, see Interact with Playbook.
 
 This playbook is used for updating the supplier primary data when:
 
@@ -32,13 +33,13 @@ This playbook is displayed only for these case types:
 -   Supplier information change request
 -   Supplier location change request
 
-![Review supplier primary data request playbook.](../image/primary-data-playbook.png "Review supplier primary data request playbook on the Playbook tab")
+\[Omitted image "primary-data-playbook.png"\] Alt text: Review supplier primary data request playbook.
 
 ## Review supplier primary data request playbook flow
 
 The following diagram illustrates the flow of the activities in each stage of the Review supplier primary data request playbook.
 
-![Review supplier primary data request playbook.](../image/primary-data-playbook-flow.png "Review supplier primary data request playbook flow")
+\[Omitted image "primary-data-playbook-flow.png"\] Alt text: Review supplier primary data request playbook.
 
 ## Review supplier primary data request playbook stages and activities
 
@@ -87,7 +88,7 @@ As a supplier manager or fulfiller, you can use this activity to decide whether 
 -   Approve changes: Approves your changes.
 -   Reject changes: Rejects your changes and opens the Reject changes stage.
 
- For more information, see [Non-Interactive activities](https://www.servicenow.com/docs/access?context=non-interactive-activities&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+ For more information, see Non-Interactive activities.
 
 </td></tr><tr><td rowspan="3">
 
@@ -169,5 +170,5 @@ You can do the following:
 Updates the case to Closed Rejected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing supplier cases from the Source-to-Pay Workspace](managing-cases.md)
+</table>**Parent Topic:**[Managing supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

@@ -2,6 +2,7 @@
 title: View sequence tasks
 description: View sequence tasks assigned to you from the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/view-sequence-tasks.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sequence viewer \[sn\_crm\_sequence.viewer\]
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Sequences** &gt; **My Sequence Tasks**.
 
@@ -111,7 +112,7 @@ Timestamp when the sequence task was created.
 
 ## What to do next
 
-Engage with your prospective customers by following the activities in the sequence steps. For more information, see [Complete predefined customer engagement tasks](execute-sequence-steps.md).
+Engage with your prospective customers by following the activities in the sequence steps. For more information, see [Complete predefined customer engagement tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/execute-sequence-steps.md).
 
-**Parent Topic:**[Using Customer Engagement Sequences](../concept/using-customer-engagement-sequences.md)
+**Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/using-customer-engagement-sequences.md)
 

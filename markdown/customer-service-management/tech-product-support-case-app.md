@@ -2,7 +2,10 @@
 title: Technology Product Support Case application
 description: The Technology Product Support Case application enables technology companies to provide support for digital products and services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/tech-product-support-case-app.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,11 +24,11 @@ The Technology Product Support Case application includes the following features:
 
 |Feature|Description|
 |-------|-----------|
-|[Case type](tech-product-support-case-type.md)|The Technology Product Support case type includes the tables, roles, SLAs, and other processes and data needed to resolve technology issues.|
-|[Record page](tech-product-support-record-page.md)|The Technology Product Support record page provides a simplified case view that enables agents to research and resolve technology cases.|
-|[Playbook](tech-product-support-playbook.md)|The Technology Product Support process page includes a playbook that provides step-by-step guidance for resolving technology cases. This playbook guides agents through the case flow and provides the contextual information to complete each stage and the associated activities.|
-|[Playbook stages and activities](tech-product-support-playbook-stages.md)|The Technology Product Support playbook includes stages and activities that assist agents in researching and resolving technology cases.|
-|[Record producer](tech-product-support-case-type.md#section_y4c_hgy_1bc)|The Technology Product Support Case application includes a record producer that customers can use to create cases from the Customer Service Portal.|
+|[Case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/tech-product-support-case-type.md)|The Technology Product Support case type includes the tables, roles, SLAs, and other processes and data needed to resolve technology issues.|
+|[Record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/tech-product-support-record-page.md)|The Technology Product Support record page provides a simplified case view that enables agents to research and resolve technology cases.|
+|[Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/tech-product-support-playbook.md)|The Technology Product Support process page includes a playbook that provides step-by-step guidance for resolving technology cases. This playbook guides agents through the case flow and provides the contextual information to complete each stage and the associated activities.|
+|[Playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/tech-product-support-playbook-stages.md)|The Technology Product Support playbook includes stages and activities that assist agents in researching and resolving technology cases.|
+|[Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/tech-product-support-case-type.md)|The Technology Product Support Case application includes a record producer that customers can use to create cases from the Customer Service Portal.|
 
 ## Application information
 
@@ -33,5 +36,5 @@ The Technology Product Support Case application \(sn\_tech\_product\_support\) i
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

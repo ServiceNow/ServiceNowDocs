@@ -2,6 +2,7 @@
 title: WSD Search API
 description: The Workplace Service Delivery \(WSD\) Search API provides endpoints to search for available locations and workplace items such as reservables, reservable modules, and available shifts.Checks whether the specified reservables are available for the specified times.Searches for the best reservable item match based on provided search criteria.Determines whether an overlapping reservation exists based on the passed parameters.Searches for available reservable items using a specified reservable model configuration.Returns an encoded query that you can use to search for available shifts in the Shift \[sn\_wsd\_core\_shift\] table.Returns an availability score for reservable items for specified timeslots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/wsd\_search-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -19,9 +20,9 @@ To access this API, the caller must have the sn\_wsd\_core.workplace\_user role 
 
 This API runs in the `sn_wsd_rsv` namespace.
 
-For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://www.servicenow.com/docs/access?context=workplace-rsv-mgmt-feat&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+For additional information on Workplace Reservation Management, see Workplace Reservation Management.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## WSD Search - GET /api/sn\_wsd\_rsv/search/availability
 
@@ -111,7 +112,7 @@ reservable\_module
 
 </td><td id="reservable_module-reserv-entry">
 
-Required. Sys\_id of the reservable module to include in the search. A [reservable module](https://www.servicenow.com/docs/access?context=config-reservable-module&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US) groups similar types of workplace items. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
+Required. Sys\_id of the reservable module to include in the search. A reservable module groups similar types of workplace items. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
 
 </td></tr><tr><td>
 
@@ -156,7 +157,7 @@ shift
 
 Required if the specified reservable modules are based on a shift. Sys\_id of the shift to associate with the reservation. Located in the Shift \[sn\_wsd\_core\_shift\] table. If this parameter is passed in, the **end** parameter isn't required.
 
-For additional information on shift-based reservations, see [Enable shift-based reservation](https://www.servicenow.com/docs/access?context=wsd-reservation-setup&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+For additional information on shift-based reservations, see Enable shift-based reservation.
 
 Data type: String
 
@@ -177,7 +178,7 @@ Format: UTC or local time \(yyyy-mm-dd hh:mm:ss\)
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -202,7 +203,7 @@ Data format of the request body. Supported types: **application/json**, **applic
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -835,7 +836,7 @@ include\_standard\_​services
 
 </td><td id="include_standard_services-reserv-entry">
 
-Flag that indicates whether to return the standard services information in the response.A standard service describes basic provisions available with a reservable workplace item when the reservation is made, such as white boards, additional monitors, and similar services. For additional information on standard services, see [Standard services](https://www.servicenow.com/docs/access?context=standard-service&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US). This information is located in the Standard Service \[sn\_wsd\_rsv\_standard\_service\] table.
+Flag that indicates whether to return the standard services information in the response.A standard service describes basic provisions available with a reservable workplace item when the reservation is made, such as white boards, additional monitors, and similar services. For additional information on standard services, see Standard services. This information is located in the Standard Service \[sn\_wsd\_rsv\_standard\_service\] table.
 
 Valid values:
 
@@ -872,7 +873,7 @@ reservable\_module
 
 </td><td id="reservable_module-reserv-entry">
 
-Required. Sys\_id of the reservable module to include in the search. A [reservable module](https://www.servicenow.com/docs/access?context=config-reservable-module&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US) groups similar types of workplace items. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
+Required. Sys\_id of the reservable module to include in the search. A reservable module groups similar types of workplace items. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
 
 </td></tr><tr><td>
 
@@ -911,7 +912,7 @@ Default: None
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -936,7 +937,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1412,7 +1413,7 @@ result.reservableUnits.defaultPrivacyValue
 
 </td><td>
 
-Flag that indicates the default privacy setting for the reservable.For additional information on these privacy settings, see [Location privacy settings and impact](https://www.servicenow.com/docs/access?context=location-privacy-settings-and-impact&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+Flag that indicates the default privacy setting for the reservable.For additional information on these privacy settings, see Location privacy settings and impact.
 
  Possible values:
 
@@ -1979,7 +1980,7 @@ result.reservableUnits.showPrivacyOption
 
 </td><td>
 
-Flag that indicates whether an employee can override the privacy settings for the associated reservable.For additional information on these privacy settings, see [Location privacy settings and impact](https://www.servicenow.com/docs/access?context=location-privacy-settings-and-impact&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+Flag that indicates whether an employee can override the privacy settings for the associated reservable.For additional information on these privacy settings, see Location privacy settings and impact.
 
  Valid values:
 
@@ -2546,7 +2547,7 @@ shift\_info\_object
 
 </td><td>
 
-Details of the shift to check for overlap. For additional information on shift-based reservations, see [Enable shift-based reservation](https://www.servicenow.com/docs/access?context=wsd-reservation-setup&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+Details of the shift to check for overlap. For additional information on shift-based reservations, see Enable shift-based reservation.
 
 Data type: Object
 
@@ -2612,7 +2613,7 @@ Required. Sys\_id of the user to check for overlapping reservations. Located in 
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2637,7 +2638,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2822,7 +2823,7 @@ include\_standard\_​services
 
 </td><td id="include_standard_services-reserv-entry">
 
-Flag that indicates whether to return the standard services information in the response.A standard service describes basic provisions available with a reservable workplace item when the reservation is made, such as white boards, additional monitors, and similar services. For additional information on standard services, see [Standard services](https://www.servicenow.com/docs/access?context=standard-service&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US). This information is located in the Standard Service \[sn\_wsd\_rsv\_standard\_service\] table.
+Flag that indicates whether to return the standard services information in the response.A standard service describes basic provisions available with a reservable workplace item when the reservation is made, such as white boards, additional monitors, and similar services. For additional information on standard services, see Standard services. This information is located in the Standard Service \[sn\_wsd\_rsv\_standard\_service\] table.
 
 Valid values:
 
@@ -2853,7 +2854,7 @@ Required if the `rsv_path` parameter is set to `browse_by_neighborhood`.
 
 Sys\_id of the neighborhood record to use in the encoded query. Located in the Neighborhood \[sn\_wsd\_spcmgmt\_neighborhood\] table.
 
-For additional information on neighborhood space reservations, see [Create neighborhood reservations](https://www.servicenow.com/docs/access?context=create-neighborhood-reservations&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+For additional information on neighborhood space reservations, see .
 
  Data type: String
 
@@ -2903,7 +2904,7 @@ reservable\_module
 
 </td><td id="reservable_module-reserv-entry">
 
-Required. Sys\_id of the reservable module to include in the search. A [reservable module](https://www.servicenow.com/docs/access?context=config-reservable-module&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US) groups similar types of workplace items. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
+Required. Sys\_id of the reservable module to include in the search. A reservable module groups similar types of workplace items. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
 
 </td></tr><tr><td>
 
@@ -2987,7 +2988,7 @@ shift
 
 Sys\_id of the shift to associate with the reservation. Located in the Shift \[sn\_wsd\_core\_shift\] table. If this parameter is passed in, the **end** parameter isn't required.
 
-For additional information on shift-based reservations, see [Enable shift-based reservation](https://www.servicenow.com/docs/access?context=wsd-reservation-setup&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+For additional information on shift-based reservations, see Enable shift-based reservation.
 
 Data type: String
 
@@ -3024,7 +3025,7 @@ Default: None
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -3049,7 +3050,7 @@ Data format of the request body. Supported types: **application/json**, **applic
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -4533,7 +4534,7 @@ Shift start date and time to include in the encoded query.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -4558,7 +4559,7 @@ Data format of the request body. Supported types: **application/json**, **applic
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -4855,7 +4856,7 @@ Start date and time of the reservable.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -4888,7 +4889,7 @@ Data format of the request body. Only supports **application/json**.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

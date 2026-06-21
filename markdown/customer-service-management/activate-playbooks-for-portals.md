@@ -2,7 +2,10 @@
 title: Set up Playbooks for Portals
 description: Set up Playbooks for Portals to provide end users with the playbook experience on your service portal.Portal user can save a case during the intake process and continue at a later time​ with the draft state.Activate the record generator to the portal case and display the new guided playbook to the user. Portal user can navigate through the playbook steps to complete the case intake.Activate a new onboarding playbook with self-service in Playbooks \(PAD\) to ensure that the new playbook is visible.Activate guided onboarding in playbook content items and verify that the new content item launches the playbook record generator that is associated with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate-playbooks-for-portals.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 4
@@ -26,17 +29,17 @@ Plugins required:
 -   Case Playbook for Onboarding: sn\_onboarding \(required if you need the out of the box playbook experience\)
 -   Case Playbook for Product Support: sn\_product \(required if you want to use the product case playbook and record generator\)
 
-Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](customer-service-case-playbooks.md).
+Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/customer-service-case-playbooks.md).
 
 ## Summary of steps for setting up Playbooks for Portals
 
 You can set up Playbooks for Portals using the following high level steps.
 
-1.  Activate guided onboarding in the playbook content items. For more information, see [Activate guided onboarding in Playbook content items](activate-playbooks-for-portals.md#).
-2.  Define your process using Workflow Studio. See [Create a playbook](https://www.servicenow.com/docs/access?context=create-process-definition&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US) for more information.
-3.  Activate the draft state in the onboarding case type state. For more information, see [Activate the draft state in the onboarding case type state](activate-playbooks-for-portals.md#).
-4.  Activate the record generator. For more information, see [Activate the Record Generator](activate-playbooks-for-portals.md#).
-5.  Set up ACLs \(Access Control Lists\) to provide the appropriate read, write, and create permissions for users. See [Explicit Roles in CSM](../../../administer/contextual-security/concept/explicit-roles-in-csm.md) for more information.
+1.  Activate guided onboarding in the playbook content items. For more information, see [Activate guided onboarding in Playbook content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-playbooks-for-portals.md).
+2.  Define your process using Workflow Studio. See  for more information.
+3.  Activate the draft state in the onboarding case type state. For more information, see [Activate the draft state in the onboarding case type state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-playbooks-for-portals.md).
+4.  Activate the record generator. For more information, see [Activate the Record Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-playbooks-for-portals.md).
+5.  Set up ACLs \(Access Control Lists\) to provide the appropriate read, write, and create permissions for users. See [Explicit Roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/explicit-roles-in-csm.md) for more information.
 
     **Note:** Add write and create roles with a condition based on "State=draft" so that users can only edit the fields in the draft state.
 

@@ -2,6 +2,7 @@
 title: DevOps accelerator for control compliance, PaCE execution, and exception management
 description: GRC: DevOps Accelerator is an application that enables your customers to evaluate the compliance for DevOps policies and GRC control objectives integrating with Policy as a Code Engine \(PaCE\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/policy-and-compliance-management/devops-accelerator-pace-pc.html
 release: xanadu
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -39,11 +40,11 @@ GRC: DevOps Accelerator plugin maps the relationship between PaCE policies and c
 
     As part of DevOps accelerator, the mapping relationships between control objectives and PaCE policies are shipped to the customers. The relationship is captured in Control objective to items \[sn\_compliance\_control\_objective\_item\] table, where the **Control objective** column and **Item record** column, which is the PaCE policy, list the data.
 
-    ![Control objective to item table.](../image/DevOpsMappingPC.png "Control objective to item table")
+    \[Omitted image "DevOpsMappingPC.png"\] Alt text: Control objective to item table.
 
 -   **DevOps policy to control objective staging table**
 
-    ![DevOps accelerator staging table.](../image/DevOpsStagingPC.png "DevOps accelerator staging table")
+    \[Omitted image "DevOpsStagingPC.png"\] Alt text: DevOps accelerator staging table.
 
     There is a staging table as a part of DevOps accelerator, which is DevOps policy to control objective staging \[sn\_grc\_devops\_policy\_control\_objective\_staging\] table. A user with Compliance admin role can view the table.
 

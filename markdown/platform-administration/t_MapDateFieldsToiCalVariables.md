@@ -2,6 +2,7 @@
 title: Map date fields to iCalendar variables
 description: You can specify what fields provide the date information in calendar invitation notifications by changing the field mappings of the dtstart and dtend variables in the import export map for the iCalendar invitation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_MapDateFieldsToiCalVariables.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -30,5 +31,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Calendar integration](../reference/r_CalendarIntegration.md)
+**Parent Topic:**[Calendar integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_CalendarIntegration.md)
 

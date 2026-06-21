@@ -2,6 +2,7 @@
 title: Set dashboards as home for all users
 description: While it is possible for individual users to set dashboards, rather than homepages, you can also set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/set-dashboards-as-home-for-all-users.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -23,12 +24,12 @@ Role required: admin
 
 The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Center dashboards take over homepage functionality.
 
-Use the [Homepage deprecation help tool](../concept/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
+Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
 
 For more information, see:
 
--   [Dashboards in the Analytics Center](../../performance-analytics/concept/analytics-center-dashboards.md).
--   [Working with responsive dashboards](../concept/c_ResponsiveDashboards.md).
+-   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/analytics-center-dashboards.md).
+-   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/c_ResponsiveDashboards.md).
 
 ## Procedure
 
@@ -50,7 +51,7 @@ For more information, see:
 
 8.  Select **Submit**.
 
-    ![User preference form with description, name, type, and value filled in. User field is blank.](../image/user-pref-all-homepages-db.png)
+    \[Omitted image "user-pref-all-homepages-db.png"\] Alt text: User preference form with description, name, type, and value filled in. User field is blank.
 
 
 ## Result
@@ -59,5 +60,5 @@ All users see the last dashboard that they visited when they log in to ServiceNo
 
 ## What to do next
 
-[Set a specific dashboard as home for all users](set-specific-db-as-home-for-all-users.md)
+[Set a specific dashboard as home for all users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/set-specific-db-as-home-for-all-users.md)
 

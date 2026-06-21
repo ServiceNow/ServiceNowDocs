@@ -2,6 +2,7 @@
 title: Tax type fields
 description: As a Tax manager, you can create tax types to be applied to an invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/tax-type-fields.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -68,5 +69,5 @@ Active
 The status of the tax type. By default the active check box is inactive.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+</table>**Parent Topic:**[Master data table for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

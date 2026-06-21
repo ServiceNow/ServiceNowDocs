@@ -2,6 +2,7 @@
 title: PowerShell commands run by Discovery
 description: These are the PowerShell cmdlets and their parameters that Discovery runs to control and automate the administration of Windows servers and applications. Included are the probe parameters and MID Server scripts that contain the commands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/powershell-cmdlets-run-by-discovery.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -914,5 +915,5 @@ Writes text to the verbose message stream in Windows PowerShell. Typically, the 
     -   ExecuteRemote.psm1
 
 </td></tr></tbody>
-</table>**Parent Topic:**[PowerShell for Discovery and Service Mapping](r_PowerShellForDiscovery.md)
+</table>**Parent Topic:**[PowerShell for Discovery and Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/r_PowerShellForDiscovery.md)
 

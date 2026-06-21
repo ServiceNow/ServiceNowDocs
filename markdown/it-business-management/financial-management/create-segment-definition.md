@@ -2,6 +2,7 @@
 title: Create a segment definition
 description: Define segments to be used with cost and budget models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/create-segment-definition.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -57,5 +58,5 @@ You can create more than one segment in the same transaction table with differen
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Segments](../concept/segments.md)
+**Parent Topic:**[Segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/segments.md)
 

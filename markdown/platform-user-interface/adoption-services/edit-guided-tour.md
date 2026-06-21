@@ -2,6 +2,7 @@
 title: Edit a guided tour
 description: You can modify the settings of a guided tour, such as the roles that access the tour. You can also edit, add, delete, and reorganize the guided tour steps, and apply additional formatting to the instructional text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/edit-guided-tour.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services
@@ -41,15 +42,15 @@ Use the Guided Tour Designer \(GTD\) to add, delete, and reorganize guided tour 
 
 4.  Having exited the form view, you can perform any of the following steps in the GTD.
 
-<table id="choicetable_y5v_htx_1z"><thead><tr><th align="left" id="d123540e153">
+<table id="choicetable_y5v_htx_1z"><thead><tr><th align="left" id="d54410e153">
 
 To
 
-</th><th align="left" id="d123540e156">
+</th><th align="left" id="d54410e156">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d123540e162">
+</th></tr></thead><tbody><tr><td id="d54410e162">
 
 **Edit the text or trigger in a step**
 
@@ -57,7 +58,7 @@ Do this
 
 Navigate to the UI page the step is in and click the step in the list on the right. For example, if the tour starts in the list view but you want to edit a step in the form, open the form. The steps in the current view are numbered inside a red circle.Complete your changes and click **Save**.
 
-</td></tr><tr><td id="d123540e177">
+</td></tr><tr><td id="d54410e177">
 
 **Delete an introduction, step, or conclusion**
 
@@ -65,7 +66,7 @@ Navigate to the UI page the step is in and click the step in the list on the rig
 
 Point to the step that you want to delete and then select the **⊝** icon.
 
-</td></tr><tr><td id="d123540e189">
+</td></tr><tr><td id="d54410e189">
 
 **Place the callout on a different page element**
 
@@ -76,7 +77,7 @@ Point to the step that you want to delete and then select the **⊝** icon.
 3.  Drag the step into the correct position in the order of steps.
 
 
-</td></tr><tr><td id="d123540e213">
+</td></tr><tr><td id="d54410e213">
 
 **Apply text formatting in the step instructions**
 
@@ -84,7 +85,7 @@ Point to the step that you want to delete and then select the **⊝** icon.
 
 In the Guided Tour Steps related list, click the step number.1.  Point to the step that you want to edit and then select the edit icon to open the Content HTML formatter.
 
-![Edit step](../image/gtd-edit-icon.png "Edit step")
+\[Omitted image "gtd-edit-icon.png"\] Alt text: Edit step
 
 2.  Edit the content and apply formatting as appropriate.
 
@@ -97,7 +98,7 @@ Do not add images or video to the text. These media types are not supported in c
 3.  Click **Update**.
 
 
-</td></tr><tr><td id="d123540e253">
+</td></tr><tr><td id="d54410e253">
 
 **Rearrange steps**
 
@@ -105,7 +106,7 @@ Do not add images or video to the text. These media types are not supported in c
 
 Drag the steps to the desired order.
 
-</td></tr><tr><td id="d123540e262">
+</td></tr><tr><td id="d54410e262">
 
 **Test the tour**
 
@@ -113,7 +114,7 @@ Drag the steps to the desired order.
 
 Click **Preview** if the tour is in draft status. Click **Play** if it is published. The page opens in a new list or tab and you can test each step. Note any steps that need corrections.
 
-</td></tr><tr><td id="d123540e277">
+</td></tr><tr><td id="d54410e277">
 
 **Change the guided tour status**
 

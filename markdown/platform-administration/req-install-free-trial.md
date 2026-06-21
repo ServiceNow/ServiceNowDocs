@@ -2,6 +2,7 @@
 title: Request and install free application trial
 description: Request and install a free application trial of an application before procuring the application directly from your ServiceNow instance, without navigating to ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/req-install-free-trial.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -60,5 +61,5 @@ Role required: admin
 6.  Click **Go to install**.
 
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 

@@ -2,6 +2,7 @@
 title: Users and associated actions for the regulatory change tasks
 description: Managers with the sn\_grc\_reg\_change.manager role and the users with the sn\_grc\_reg\_change.user role can view and perform certain tasks in the Regulatory Change Tasks module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/regulatory-change-management-service-portal/views-and-actions.html
 release: xanadu
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

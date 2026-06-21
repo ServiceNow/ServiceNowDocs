@@ -2,6 +2,7 @@
 title: External dependencies
 description: As a project manager, you can use an external dependency to set up a dependency from a task in one project to a task in another project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/external-dependencies.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -19,7 +20,7 @@ External dependencies help you to see the impact of changes in project schedules
 
 ## How external dependencies work
 
-To define the external dependency, select a project task from the predecessor project to be linked to the task in the successor project. When an external dependency is [added](../task/create-external-dependency-planning-console.md), the system adds shadow tasks in both the successor and predecessor projects.
+To define the external dependency, select a project task from the predecessor project to be linked to the task in the successor project. When an external dependency is [added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/create-external-dependency-planning-console.md), the system adds shadow tasks in both the successor and predecessor projects.
 
 A shadow task is a read-only task in the respective project. It has the database attribute **shadow** set to true and **orig\_sys\_id** pointing to the **sys\_id** of its original task. The shadow task is kept in sync with its original task whenever the relations are processed.
 
@@ -49,10 +50,10 @@ Where:
 -   `Project` is the project where the relation is seen.
 -   `External` is the external dependency.
 
--   **[Types of external dependencies](external-dependency-types.md)**  
+-   **[Types of external dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/external-dependency-types.md)**  
 The Project management application supports two types of external dependencies - hard and soft.
--   **[Add an external dependency on planning console](../task/create-external-dependency-planning-console.md)**  
+-   **[Add an external dependency on planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/create-external-dependency-planning-console.md)**  
 Add an external dependency between two projects on the planning console. Use the work breakdown structure \(WBS\) column of the planning console to create a dependency between the different projects tasks.
 
-**Parent Topic:**[Project Management](c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

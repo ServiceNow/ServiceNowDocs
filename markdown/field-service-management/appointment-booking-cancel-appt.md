@@ -2,7 +2,10 @@
 title: Cancel an appointment for a customer
 description: Dispatchers and agents can cancel appointments for customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/appointment-booking-cancel-appt.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -38,5 +41,5 @@ A dispatcher or an agent can cancel an appointment for a customer from a work or
 
 The customer receives SMS and email notification that their scheduled appointment is canceled.
 
-**Parent Topic:**[Manage an appointment for a customer](../concept/manage-an-appointment-for-a-customer.md)
+**Parent Topic:**[Manage an appointment for a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-an-appointment-for-a-customer.md)
 

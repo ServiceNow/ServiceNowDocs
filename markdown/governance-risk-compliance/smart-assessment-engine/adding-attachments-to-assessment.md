@@ -2,6 +2,7 @@
 title: Adding attachments to assessment
 description: You may have documents or image files that provide additional information for the assessment, you can attach these documents to assessments in the open state. These documents and image files can be added as attachments to the assessment for reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/smart-assessment-engine/adding-attachments-to-assessment.html
 release: xanadu
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -26,11 +27,11 @@ Role required: sn\_smart\_asmt.actor
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **Workspaces** &gt; **Compliance Workspace**
-    2.  Select the list icon \(![List icon.](../../grc-workspace-vrm/image/icon-tprm-ws-list.png)\).
+    2.  Select the list icon \(\[Omitted image "icon-tprm-ws-list.png"\] Alt text: List icon.\).
     3.  Navigate to **Control attestations** &gt; **Smart Assessments**.
 2.  Select the assessments in which you want to add the attachments.
 
-3.  From the contextual sidebar, select the **Attachment** icon ![Attachment icon.](../../../reuse/icons/product-icons/user-group-outline-24.svg).
+3.  From the contextual sidebar, select the **Attachment** icon \[Omitted image "user-group-outline-24.svg"\] Alt text: Attachment icon..
 
     The **Attachments** sidebar appears.
 

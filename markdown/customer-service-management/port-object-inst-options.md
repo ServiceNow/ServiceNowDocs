@@ -2,7 +2,10 @@
 title: Portal Object widget instance options form
 description: Instance options enable you to configure the Portal Object widget on a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/port-object-inst-options.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2

@@ -2,6 +2,7 @@
 title: Configure your pipeline environments
 description: Set up your App Engine Studio \(AES\) production and non-production \(for example, development, test, and/or staging\) environments by adding the URLs and credentials used to access each instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/config-pipeline-environments.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Select **New**.
 
-    ![Creating a new environment](../image/new-environment-purple.png "Environment - new record")
+    \[Omitted image "new-environment-purple.png"\] Alt text: Creating a new environment
 
 3.  On the form, fill in the fields.
 
@@ -98,7 +99,7 @@ Is Controller?
 
 </td><td>
 
-Identifies if this instance is a controller. This should be selected for the production environment record where you plan to manage deployment requests. For more information, see [Configure your controller instance](config-controller-instance.md).
+Identifies if this instance is a controller. This should be selected for the production environment record where you plan to manage deployment requests. For more information, see [Configure your controller instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/config-controller-instance.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -108,5 +109,5 @@ Identifies if this instance is a controller. This should be selected for the pro
     For example, if you defined a production environment, repeat the procedure again to define a development environment. Then repeat the procedure once more to define a test environment.
 
 
-**Parent Topic:**[Pipelines and Deployments configuration tasks](../reference/p-and-d-config-tasks.md)
+**Parent Topic:**[Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/p-and-d-config-tasks.md)
 

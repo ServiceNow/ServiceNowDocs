@@ -2,6 +2,7 @@
 title: SOAP web service import sets
 description: Web service import sets complement direct web services and scripted SOAP web services by providing a web service interface to import sets tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/soap-web-service-import-sets.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -23,12 +24,12 @@ For example:
 
 `http://<instance name>.service-now.com/imp_notification.do?WSDL`.
 
-**Parent Topic:**[SOAP web service](c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_SOAPWebService.md)
 
 **Related topics**  
 
 
-[Web service import sets](https://www.servicenow.com/docs/access?context=c_WebServiceImportSets&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+[bundle-crint.c_WebServiceImportSets]
 
-[Import sets key concepts](https://www.servicenow.com/docs/access?context=c_ImportSetsKeyConcepts&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+[bundle-crint.c_ImportSetsKeyConcepts]
 

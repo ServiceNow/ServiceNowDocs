@@ -2,6 +2,7 @@
 title: Install all applications in a product
 description: Install all applications and plugins included in a product using Application Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/install-all-product-apps.html
 release: xanadu
 product: Application Manager
 classification: application-manager
@@ -46,7 +47,7 @@ Some applications and plugins can't be uninstalled after they've been installed.
 
     2.  Procure any dependencies that aren't licensed from the ServiceNow Store.
 
-        For more information, see [Getting apps and trials from the ServiceNow Store](../../servicenow-store/concept/getting-apps-trials.md).
+        For more information, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/getting-apps-trials.md).
 
     3.  Go back to the product details page and repeat for each application dependency.
 
@@ -60,15 +61,15 @@ Some applications and plugins can't be uninstalled after they've been installed.
 
 8.  Install the product now or schedule installation for a later time.
 
-<table id="choicetable_dm4_3km_yfc"><thead><tr><th align="left" id="d235258e232">
+<table id="choicetable_dm4_3km_yfc"><thead><tr><th align="left" id="d212701e232">
 
 Installation option
 
-</th><th align="left" id="d235258e235">
+</th><th align="left" id="d212701e235">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d235258e241">
+</th></tr></thead><tbody><tr><td id="d212701e241">
 
 **Install now**
 
@@ -78,7 +79,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d235258e265">
+</td></tr><tr><td id="d212701e265">
 
 **Install later**
 

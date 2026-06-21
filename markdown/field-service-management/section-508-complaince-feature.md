@@ -2,7 +2,10 @@
 title: Section 508 compliance features
 description: You can view and interact with the certain Field Service features using Section 508 compliance features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/section-508-complaince-feature.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -17,13 +20,13 @@ You can view and interact with the certain Field Service features using Section 
 
 Access the following Field Service Management features using Section 508 compliance features:
 
--   [Workforce Optimization for Field Service Manager Workspace dashboard](../../../use/dashboards/application-content-packs/wfo-fsm-manager-wrkspc-dashboard.md)
--   [Managing agent calendar](../../customer-service-management/concept/agent-calendar.md)
+-   [Workforce Optimization for Field Service Manager Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wfo-fsm-manager-wrkspc-dashboard.md)
+-   [Managing agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/agent-calendar.md)
 
-**Parent Topic:**[Field Service Management reference](../../planning-and-policy/reference/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/fsm-reference.md)
 
 **Related topics**  
 
 
-[Accessibility features](https://www.servicenow.com/docs/access?context=c_SetUpSect508ComplianceFeature&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_SetUpSect508ComplianceFeature]
 

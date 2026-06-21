@@ -2,11 +2,12 @@
 title: Create a free-form roadmap view in Strategic Planning
 description: Create a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/scenario-planning-in-spw/create-free-form-roadmap-view-spw.html
 release: xanadu
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Managing free-form roadmap views in Strategic Planning, Create a free-form roadmap in Strategic Planning Workspace, Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -35,7 +36,7 @@ You can create up to three private views and up to 10 shared \(public\) views pe
 
     The **Save as new view** option appears on the free-form roadmap header.
 
-    ![shared view in strategic planning.](../images/create-free-form-roadmap-view-spw.gif)
+    \[Omitted image "create-free-form-roadmap-view-spw.gif"\] Alt text: shared view in strategic planning.
 
 4.  From the free-form roadmap header, select **Save as new view**.
 
@@ -56,8 +57,8 @@ The shared view for the free-form roadmap is created and will be visible to all 
 
 ## What to do next
 
--   Share the free-form roadmap with your stakeholders to start collaborating on the free-form roadmap. See [Share a free-form roadmap with stakeholders in Strategic Planning Workspace](share-a-roadmap-with-stakeholders.md).
--   Edit a free-form roadmap view to make any changes to the existing view. See [Edit a free-form roadmap view in Strategic Planning](edit-free-form-roadmap-view-spw.md).
+-   Share the free-form roadmap with your stakeholders to start collaborating on the free-form roadmap. See [Share a free-form roadmap with stakeholders in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/share-a-roadmap-with-stakeholders.md).
+-   Edit a free-form roadmap view to make any changes to the existing view. See [Edit a free-form roadmap view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/edit-free-form-roadmap-view-spw.md).
 
-**Parent Topic:**[Managing free-form roadmap views in Strategic Planning](../concept/managing-free-form-roadmap-views-spw.md)
+**Parent Topic:**[Managing free-form roadmap views in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/managing-free-form-roadmap-views-spw.md)
 

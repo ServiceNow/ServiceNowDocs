@@ -2,6 +2,7 @@
 title: Financial Services Complaint Management dashboard
 description: With the Financial Services Complaint Management dashboard, you can get an insight into how your team and business are performing for the complaints that were received for your financial services. You can monitor the status of the complaint service cases, see trends, and drill down into the details from a single view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-complaint-management/fso-complaint-mgmt-dashboard.html
 release: xanadu
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -26,11 +27,11 @@ For any time that you specify, you can view the details for the closed cases tha
 
 ## Access the Financial Services Complaint Management dashboard
 
-To access the Financial Services Complaint Management dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Financial Services Complaint Management dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon.\).
 
 Alternatively, you can navigate to **All** &gt; **Complaint Management** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see Analytics Center.
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout as usual by navigating to **All** &gt; **Complaint Management** &gt; **Dashboard**.
 
@@ -133,7 +134,7 @@ Closed Cases – Top 10 Complaint Categories
 
 </td><td>
 
-Horizontal Bar ![Horizontal bar graph icon.](../../performance-analytics/image/horizontal-bar.png)
+Horizontal Bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar graph icon.
 
 </td><td>
 
@@ -154,5 +155,5 @@ The following table shows the available filters in the Financial Services Compla
 |Complaint Category|Choice|Shows all the active complaint categories for the Complaint service \[sn\_bom\_compl\_service\] table.|
 |Complaint Type|Choice|Shows all the active complaint types for the Complaint service \[sn\_bom\_compl\_service\] table.|
 
-**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-content-pack.md)
 

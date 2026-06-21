@@ -2,6 +2,7 @@
 title: Share a Platform Analytics dashboard
 description: Share a dashboard with other users, groups, or roles to create a shared view of data that you can use to collaborate. You can grant viewing rights or both viewing and editing rights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/share-db-in-ac.html
 release: xanadu
 topic_type: task
 last_updated: "2024-12-04"
@@ -32,7 +33,7 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 2.  Select the dashboard you want to share.
 
-3.  Select the **More actions** button \(![More actions button](../image/icon-vert-3dot-p.png)\) and choose **Share**.
+3.  Select the **More actions** button \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions button\) and choose **Share**.
 
     The Share Dashboard dialog opens.
 
@@ -48,7 +49,7 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d32061e166">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d28235e166">
 
 **Add as viewer**
 
@@ -56,7 +57,7 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 Grant only viewing rights to the users, groups, or roles you are sharing the dashboard with. They cannot edit it.
 
-</td></tr><tr><td id="d32061e175">
+</td></tr><tr><td id="d28235e175">
 
 **Add as editor**
 
@@ -76,13 +77,13 @@ Grant editing rights to the users, groups, or roles you are sharing the dashboar
 
 The roles, groups, and users you have shared the dashboard with appear when you reopen the dialog, along with the rights you have given them.
 
-![Dashboard sharing dialog showing who the dashboard has been shared with and whether they can edit or only view it.](../../par-for-workspace/image/db-share-dialog.png)
+\[Omitted image "db-share-dialog.png"\] Alt text: Dashboard sharing dialog showing who the dashboard has been shared with and whether they can edit or only view it.
 
-**Tip:** The users, groups, and roles with which a dashboard is shared are also visible in the dashboard details. For more information, see [Configure Platform Analytics dashboard details](config-db-in-ac.md).
+**Tip:** The users, groups, and roles with which a dashboard is shared are also visible in the dashboard details. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/config-db-in-ac.md).
 
 ## What to do next
 
 You can change the rights of whom you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can edit list for each user, group, or role.
 
-![Rights selector for a user, group, or role that a dashboard was shared with.](../../par-for-workspace/image/db-share-rights-selector.png)
+\[Omitted image "db-share-rights-selector.png"\] Alt text: Rights selector for a user, group, or role that a dashboard was shared with.
 

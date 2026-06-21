@@ -2,6 +2,7 @@
 title: Assign roles to Retail Core users
 description: Assign specific roles to give retail users visibility into organizations and the hierarchies they manage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-assign-roles-users.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -27,9 +28,9 @@ You can assign roles to individual users or groups. When you apply roles to grou
 
 User roles can be configured during the initial set up process for retail organizations or at any time thereafter as needed.
 
-For the list of roles included with Retail Core, see the Base roles installed with Retail Operations table in [Components installed with Retail Core](../concept/rahi-retail-operations-components-installed.md).
+For the list of roles included with Retail Core, see the Base roles installed with Retail Operations table in [Components installed with Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-components-installed.md).
 
-For instructions on assigning roles to individual users, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For instructions on assigning roles to individual users, see .
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Jumpstart Your Generative AI
 description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow Generative AI \(Artificial Intelligence\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/jumpstart-generative-ai.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

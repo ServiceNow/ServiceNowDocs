@@ -2,6 +2,7 @@
 title: Revert normalization of hardware and consumable models
 description: Revert the normalization of hardware and consumable models in the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/revert-norm-ham.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -27,15 +28,15 @@ Hardware and consumable models with a status of **Fully Normalized**, **Partiall
 
 1.  Navigate to a normalized hardware or consumable record.
 
-<table id="choicetable_dsq_fhg_ywb"><thead><tr><th align="left" id="d184164e65">
+<table id="choicetable_dsq_fhg_ywb"><thead><tr><th align="left" id="d66299e65">
 
 Interface
 
-</th><th align="left" id="d184164e68">
+</th><th align="left" id="d66299e68">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d184164e74">
+</th></tr></thead><tbody><tr><td id="d66299e74">
 
 **Core UI**
 
@@ -45,7 +46,7 @@ Action
 -   For consumable models, navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Consumable models**.
 
 
-</td></tr><tr><td id="d184164e122">
+</td></tr><tr><td id="d66299e122">
 
 **Hardware Asset Workspace**
 
@@ -73,5 +74,5 @@ After the revert normalization process is complete, the following changes take p
 -   The deactivated rule can no longer normalize any more models. The deactivated rule can't be reactivated. It’s a one time procedure.
 -   The **Revert Normalization** option on the model record is replaced with the **Normalize** option.
 
-**Parent Topic:**[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

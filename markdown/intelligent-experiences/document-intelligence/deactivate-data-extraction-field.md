@@ -2,6 +2,7 @@
 title: Deactivate a data extraction field
 description: Deactivate fields that you don’t want to use as part of your use case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/deactivate-data-extraction-field.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence

@@ -2,6 +2,7 @@
 title: Administering attachments
 description: Administrators can configure system properties for how files are uploaded and attached to records. Uploading, viewing, and deleting file attachments triggers a single event that can be used for notifications or in scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_AdministeringAttachments.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -17,7 +18,7 @@ Administrators can configure system properties for how files are uploaded and at
 
 When you store an attachment to any table, a record is created in the Attachment \[sys\_attachment\] table that contains attachment metadata. The file data is stored in the Attachment Document \[sys\_attachment\_doc\] table, in 4k chunks. For example, if you attach a 12k file called **My\_attachment.pdf**, then there is an Attachment entry with three related Attachment Document entries.
 
-To learn how to upload attachments to records, see [Add and manage attachments](https://www.servicenow.com/docs/access?context=t_AddingAnAttachment&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+To learn how to upload attachments to records, see Add and manage attachments.
 
 ## Activity stream thumbnail scaling
 
@@ -79,16 +80,16 @@ To change debugging options for attachment indexing, add these system properties
 
 **Note:** To learn more about the properties that affect attachments processing, see Attachments \(instance security hardening\) in Instance Security Hardening Settings.
 
--   **[Configure attachment system properties](../task/t_DisablingTheDragAndDropFeature.md#)**  
+-   **[Configure attachment system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_DisablingTheDragAndDropFeature.md)**  
 You can disable the drag-and-drop feature. \(Users can still upload attachments by browsing to the file.\) You can also limit the attachment file size, restrict who can upload attachments, and restrict what file extensions can be uploaded.
--   **[Disable attachments on a table](../task/disable-attachments-on-table.md)**  
+-   **[Disable attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/disable-attachments-on-table.md)**  
 You can prevent users from adding attachments to records on a specific table.
--   **[Index attachments on a table](../task/t_DisablingAttachmentsOnATable.md)**  
+-   **[Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_DisablingAttachmentsOnATable.md)**  
 You can enable attachment indexing for a table so text searches can return matches from the record and its file attachments.
--   **[Hide the attachment \[view\] link](../task/t_HidingTheAttachmentViewLink.md)**  
+-   **[Hide the attachment \[view\] link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_HidingTheAttachmentViewLink.md)**  
 Users can open an attachment by clicking either the file name or the **\[view\]** link. The **\[view\]** link opens the file from within the browser, which executes JavaScript code as part of the attachment. You can hide the **\[view\]** link. Users can still view attachments by clicking the file name.
--   **[Configure attachment icons](../task/t_ConfiguringAttachmentIcons.md)**  
+-   **[Configure attachment icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfiguringAttachmentIcons.md)**  
 Configure the icon that appears beside an attachment of a particular file type.
 
-**Parent Topic:**[Form administration](../concept/form-administration.md)
+**Parent Topic:**[Form administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/form-administration.md)
 

@@ -2,6 +2,7 @@
 title: Financial Services Client Lifecycle dashboard
 description: With the Financial Services Client Lifecycle dashboard, you can get insight into how your team and business are performing for the client lifecycle cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-customer-lifecycle-operations/fso-client-lifecycle-dashboard.html
 release: xanadu
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
@@ -26,11 +27,11 @@ You can monitor the status of the client lifecycle cases, see trends, and drill 
 
 ## Access the Financial Services Client Lifecycle dashboard
 
-To access the Financial Services Client Lifecycle dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Financial Services Client Lifecycle dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon.\).
 
 Alternatively, you can navigate to **Client Lifecycle** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see Analytics Center.
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout as usual by navigating to **All** &gt; **Client Lifecycle** &gt; **Dashboard**.
 
@@ -118,5 +119,5 @@ The following table shows the available filters in the Client Lifecycle dashboar
 |----|----|-----------|
 |Age|Bucket|Shows the age ranges in days for the Client Lifecycle cases.|
 
-**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-content-pack.md)
 

@@ -2,6 +2,7 @@
 title: Modify cloning schedules
 description: You can cancel scheduled clonings but not modify them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/modify-cloning-schedule.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-This topic assumes that you have a [cloning schedule](schedule-cloning.md) that you want to modify. Cloning schedules cannot be modified. Instead, you have to cancel scheduled clonings and create a new cloning schedule.
+This topic assumes that you have a [cloning schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/schedule-cloning.md) that you want to modify. Cloning schedules cannot be modified. Instead, you have to cancel scheduled clonings and create a new cloning schedule.
 
 ## Procedure
 
@@ -29,7 +30,7 @@ This topic assumes that you have a [cloning schedule](schedule-cloning.md) that 
 
 2.  To delete one or more scheduled clonings, on the **Recurring Clones**tab, select the check box next to the row\(s\) you want to cancel and on **Actions on selected rows**, click **Delete**.
 
-3.  If you deleted all future clonings, you can create a new [cloning schedule](schedule-cloning.md).
+3.  If you deleted all future clonings, you can create a new [cloning schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/schedule-cloning.md).
 
     You cannot create more than one cloning schedule for a target instance.
 

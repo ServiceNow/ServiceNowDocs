@@ -2,6 +2,7 @@
 title: Org talent page
 description: The Org talent page provides your organizational leaders with a centralized location to view the talents of each team that exists within their organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/td-lh-org-talent.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,8 +51,8 @@ Widget is a search bar that appears above the organizational chart. Search resul
 -   Department
 
 </td></tr></tbody>
-</table>-   **[Team details page](td-lh-team-details.md)**  
+</table>-   **[Team details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/td-lh-team-details.md)**  
 The Team details page provides your organizational leaders with visibility into the skills and talent composition of a team that exists within the leader's organization.
 
-**Parent Topic:**[Exploring Leader Hub](td-lh-explore.md)
+**Parent Topic:**[Exploring Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/td-lh-explore.md)
 

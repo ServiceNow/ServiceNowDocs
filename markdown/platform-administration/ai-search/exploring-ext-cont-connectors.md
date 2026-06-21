@@ -2,6 +2,7 @@
 title: Exploring External Content Connectors
 description: Using External Content Connectors, AI Search applications can search content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online. Expanding search recall to include external content makes it easier and faster for search users to locate the information they need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/exploring-ext-cont-connectors.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -29,24 +30,24 @@ The current release includes these external content connectors:
 -   Microsoft Teams external content connector
 -   Predefined web sources external content connector
 
-    **Note:** For the list of predefined web sources you can crawl using this external connector, see [Available sources for the predefined web sources external content connector](../reference/available-websources-ext-cont-connectors.md).
+    **Note:** For the list of predefined web sources you can crawl using this external connector, see [Available sources for the predefined web sources external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/available-websources-ext-cont-connectors.md).
 
 -   Slack external content connector
 -   ServiceNow documentation external content connector
 
 Search administrators can schedule content and user mapping crawls to suit your indexing requirements. If the need arises, search administrators can also run either type of crawl on demand.
 
-**Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see [Transaction reports in Integration Hub Usage Dashboard](https://www.servicenow.com/docs/access?context=use-the-integration-hub-usage-dashboard&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+**Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see .
 
-Each external content connector has its own indexed source for crawled content. You can configure search sources for an external content connector's indexed source and include those search sources in your search profiles, just as you would for any other indexed source. To learn more about indexed sources, see [Indexed sources in AI Search](indexed-sources-ais.md).
+Each external content connector has its own indexed source for crawled content. You can configure search sources for an external content connector's indexed source and include those search sources in your search profiles, just as you would for any other indexed source. To learn more about indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-sources-ais.md).
 
-All external content connectors support semantic vector indexing of content retrieved from crawled source systems. Only features which use semantic vector search with the Now LLM Service can take advantage of this support. For details on semantic vector indexing and search, see [Semantic vector search in AI Search](semantic-search-ais.md).
+All external content connectors support semantic vector indexing of content retrieved from crawled source systems. Only features which use semantic vector search with the Now LLM Service can take advantage of this support. For details on semantic vector indexing and search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/semantic-search-ais.md).
 
 ## External Content Connectors workflow
 
 In this infographic, see a sample workflow of how different users in an organization interact with External Content Connectors to enable indexing and search of content and metadata from supported external sources.
 
-![Infographic showing how ServiceNow AI Platform admins, AI Search users, and AI Search high security administrators work with the External Content Connectors to enable search for content from source systems. For details, refer to the following description.](../image/mmasset0020715-external-content-connectors-workflow-horizontal.svg "Configuring and using External Content Connectors")
+\[Omitted image "mmasset0020715-external-content-connectors-workflow-horizontal.svg"\] Alt text: Infographic showing how ServiceNow AI Platform admins, AI Search users, and AI Search high security administrators work with the External Content Connectors to enable search for content from source systems. For details, refer to the following description.
 
 In this External Content Connectors workflow:
 
@@ -67,14 +68,14 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Configure source systems for external content indexing|[Configuring source systems for external content indexing](cfg-src-sys-ext-content-indexing.md)|Source system administrators|
-|Create connectors to retrieve searchable content and security principals from supported external data source systems|[Creating external content connectors](../task/creating-ext-cont-connectors.md)|Administrators|
-|Control the scope of external content connector crawls by specifying source system locations to crawl and content types to feed to AI Search for indexing|[Configuring crawl settings for external content connectors](cfg-crawl-settings-ext-cont-connector.md)|Search administrators|
-|Update searchable content and metadata from source systems on demand or on a scheduled recurring basis|[Run a one-time full or partial document crawl for an external content connector](../task/run-doc-crawl-ext-cont-connector.md)|Search administrators|
-|Update user security principals from source systems on demand or on a scheduled recurring basis|[Run a one-time user mapping crawl for an external content connector](../task/run-umap-crawl-ext-cont-connector.md)|Search administrators|
-|Review metrics for source system items retrieved by content crawls|[Review crawl history and analytics for an external content connector](../task/review-crawl-ext-cont-connector.md)|Search administrators|
-|Review user and group access permissions retrieved by user mapping crawls|[Review user mappings for an external content connector](../task/review-usr-maps-ext-cont-connector.md)|Search high security administrators|
-|Search content and metadata indexed from external data source systems|[Searching in AI Search](use-ais.md)|AI Search users|
+|Configure source systems for external content indexing|[Configuring source systems for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-src-sys-ext-content-indexing.md)|Source system administrators|
+|Create connectors to retrieve searchable content and security principals from supported external data source systems|[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/creating-ext-cont-connectors.md)|Administrators|
+|Control the scope of external content connector crawls by specifying source system locations to crawl and content types to feed to AI Search for indexing|[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-crawl-settings-ext-cont-connector.md)|Search administrators|
+|Update searchable content and metadata from source systems on demand or on a scheduled recurring basis|[Run a one-time full or partial document crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-doc-crawl-ext-cont-connector.md)|Search administrators|
+|Update user security principals from source systems on demand or on a scheduled recurring basis|[Run a one-time user mapping crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-umap-crawl-ext-cont-connector.md)|Search administrators|
+|Review metrics for source system items retrieved by content crawls|[Review crawl history and analytics for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/review-crawl-ext-cont-connector.md)|Search administrators|
+|Review user and group access permissions retrieved by user mapping crawls|[Review user mappings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/review-usr-maps-ext-cont-connector.md)|Search high security administrators|
+|Search content and metadata indexed from external data source systems|[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/use-ais.md)|AI Search users|
 
 ## Interaction with Now Assist Genius Results
 
@@ -82,8 +83,8 @@ If you have the Now Assist in AI Search and Now Assist in Virtual Agent ServiceN
 
 External content search results are ignored when generating Now Assist Q&amp;A or Now Assist Actions Genius Result answers.
 
--   **[Domain separation and External Content Connectors](ext-cont-connectors-domain-separation.md)**  
+-   **[Domain separation and External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ext-cont-connectors-domain-separation.md)**  
 Domain separation is unsupported for External Content Connectors. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[External Content Connectors](../reference/ext-cont-connectors-landing-page.md)
+**Parent Topic:**[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
 

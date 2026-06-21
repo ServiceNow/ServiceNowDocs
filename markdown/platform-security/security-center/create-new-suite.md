@@ -2,6 +2,7 @@
 title: Create new suite
 description: Create and schedule a custom suite so that you can analyze the security of your instance for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/create-new-suite.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -70,10 +71,10 @@ A suite is a collection of checks that can be used for a scan. View a list of sc
     3.  **Save**.
 
 
--   **[Clone the access controls auditor suite](clone-the-auditor-suite.md)**  
+-   **[Clone the access controls auditor suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/clone-the-auditor-suite.md)**  
 Clone and customize the default access controls auditor suite in your instance to create a new suite tailored to your organization's security practices.
--   **[View the Access Controls Auditor Suite](view-access-controls-auditor-suites.md)**  
+-   **[View the Access Controls Auditor Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/view-access-controls-auditor-suites.md)**  
 View the checks available in the default Access Controls Auditor Suites to understand which checks are executed when this suite runs.
 
-**Parent Topic:**[Scan suites](../concept/sec-center-suites.md)
+**Parent Topic:**[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sec-center-suites.md)
 

@@ -2,12 +2,13 @@
 title: Exploring Agent Client Collector for Kubernetes – Visibility
 description: Agent Client Collector for Kubernetes – Visibility enables you to gain visibility into on-premises Kubernetes clusters as well as the various Cloud deployments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-exploring.html
 release: xanadu
 product: Discovery
 classification: discovery
 topic_type: concept
 last_updated: "2026-01-15"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Agent Client Collector, Kubernetes, Visibility, overview, introduction, benchmark, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Kubernetes discovery using Agent Client Collector for Kubernetes – Visibility, Container discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,17 +17,17 @@ breadcrumb: [Kubernetes discovery using Agent Client Collector for Kubernetes �
 
 Agent Client Collector for Kubernetes – Visibility enables you to gain visibility into on-premises Kubernetes clusters as well as the various Cloud deployments.
 
-Agent Client Collector for Kubernetes – Visibility detects changes on resources in a Kubernetes cluster. It performs continuous discovery, reports any changes back to your instance, and updates the Configuration Management Database \(CMDB\) with the latest data. For the latest information on supported cloud deployments, see the [https://www.servicenow.com/docs/bundle/zurich-it-operations-management/page/product/cloud-native-operations-visibility/reference/cnov-support-matrix.html](https://www.servicenow.com/docs/bundle/zurich-it-operations-management/page/product/cloud-native-operations-visibility/reference/cnov-support-matrix.html) article in the Now Support Knowledge Base.
+Agent Client Collector for Kubernetes – Visibility detects changes on resources in a Kubernetes cluster. It performs continuous discovery, reports any changes back to your instance, and updates the Configuration Management Database \(CMDB\) with the latest data. For the latest information on supported cloud deployments, see the [Agent Client Collector for Kubernetes – Visibility support matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/cnov-support-matrix.md) article in the Now Support Knowledge Base.
 
 ## How it works
 
-When you deploy Agent Client Collector for Kubernetes – Visibility, Kubernetes creates a Deployment resource in the cluster with the latest data. For the latest information on supported cloud deployments, see the [https://www.servicenow.com/docs/bundle/zurich-it-operations-management/page/product/cloud-native-operations-visibility/reference/cnov-support-matrix.html](https://www.servicenow.com/docs/bundle/zurich-it-operations-management/page/product/cloud-native-operations-visibility/reference/cnov-support-matrix.html) article in the Now Support Knowledge Base. This resource uses a secret stored in Kubernetes to connect to your ServiceNow instance.
+When you deploy Agent Client Collector for Kubernetes – Visibility, Kubernetes creates a Deployment resource in the cluster with the latest data. For the latest information on supported cloud deployments, see the [Agent Client Collector for Kubernetes – Visibility support matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/cnov-support-matrix.md) article in the Now Support Knowledge Base. This resource uses a secret stored in Kubernetes to connect to your ServiceNow instance.
 
 The Agent Client Collector for Kubernetes – Visibility Deployment resource contains a pod called Informer, which connects to the Kubernetes API server and receives events on the resources in the cluster from it. The Informer sends the collected data to the instance through the External Communication Channel \(ECC\) Queue table, using the ServiceNow Table API to read from and write to the queue. The Informer then updates the appropriate tables in the CMDB.
 
 **Note:** If the Informer is unable to report the changes, for example due to a network problem, the resources that were added to the cluster during the event are added to the CMDB after the next full discovery cycle. The resources that were removed from the cluster during the event are marked as Absent and deleted after two full discovery cycles.
 
-For more information about the Kubernetes resources on which the Informer collects data and the CMDB tables it populates, see [Data collected by Agent Client Collector for Kubernetes – Visibility](../reference/cnov-collected-data.md).
+For more information about the Kubernetes resources on which the Informer collects data and the CMDB tables it populates, see [Data collected by Agent Client Collector for Kubernetes – Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/cnov-collected-data.md).
 
 ## Initial and periodic discovery
 

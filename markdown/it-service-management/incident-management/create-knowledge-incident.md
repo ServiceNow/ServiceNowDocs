@@ -2,6 +2,7 @@
 title: Create a knowledge article from an incident
 description: When you are ready to close an incident, you can create a knowledge article so the next time the issue comes up the resolution is easy to find.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/create-knowledge-incident.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -17,7 +18,7 @@ When you are ready to close an incident, you can create a knowledge article so t
 
 ## Before you begin
 
-KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\) must be activated. When activated, **Incident Create Knowledge** business rule does not run. For more information, see [Activate KCS Integration for Incident Management](activate-kcs-integration-for-im.md).
+KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\) must be activated. When activated, **Incident Create Knowledge** business rule does not run. For more information, see [Activate KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/activate-kcs-integration-for-im.md).
 
 Role required: itil, sn\_incident\_write, or admin
 
@@ -49,7 +50,7 @@ When an incident is closed automatically or by the caller, a draft knowledge art
 
     The **Knowledge** related list on the Incident form is populated with the new draft knowledge article. The draft article does not appear in the knowledge base \(KB\) for users until it is reviewed and published.
 
-    If the **Knowledge submission** workflow \(glide.knowman.submission.workflow\) is enabled from the System Properties \[sys\_properties\] table, the content in the **Short description** and **Additional comments** fields of the incident form become a knowledge submission instead of an article. The **KB Submissions** related list on the Incident form is populated with the new knowledge submission. For more information on creating a knowledge article and workflows, see [Create knowledge from incident](https://www.servicenow.com/docs/access?context=t_ApproveKnowledgeSubmission&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) and [Knowledge workflows](https://www.servicenow.com/docs/access?context=r_KnowledgeWorkflows&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    If the **Knowledge submission** workflow \(glide.knowman.submission.workflow\) is enabled from the System Properties \[sys\_properties\] table, the content in the **Short description** and **Additional comments** fields of the incident form become a knowledge submission instead of an article. The **KB Submissions** related list on the Incident form is populated with the new knowledge submission. For more information on creating a knowledge article and workflows, see Create knowledge from incident and Knowledge workflows.
 
     When the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\) is not activated, **Knowledge** check box is visible instead of **Create Knowledge** related link. You can select the check box and enter a resolution in the**Additional comments \(Customer visible\)** field and then close the incident. In such case, a knowledge article is created automatically using the **Incident Create Knowledge** business rule.
 

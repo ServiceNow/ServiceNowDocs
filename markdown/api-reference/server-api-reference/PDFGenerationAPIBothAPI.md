@@ -2,6 +2,7 @@
 title: PDFGenerationAPI - Scoped, Global
 description: The PDFGenerationAPI provides support for PDF conversion and handling PDF fields.Instantiates a new PDFGenerationAPI object.Converts an HTML string to a PDF document.Converts an HTML string into a PDF with header and footer content.Fills fields in an editable PDF and attaches it to the provided record.Fills fields in an editable PDF, flattens the data fields, and attaches it to the provided record.Fills fields in an editable PDF, adds signature image, flattens the data fields, and attaches it to the provided record.Gets a list of editable fields in a PDF document. Enables listing editable PDF fields without manually opening the file to check.Gets the field type of set of editable fields from a PDF document.Fills fields in an editable PDF, creates an image, and converts it to a Base64-encoded PDF.Gets the page size of a PDF document.Checks if the PDF document contains editable fields.Applies redaction to a PDF document based on the given rectangle coordinates, search keywords, or both. A redacted copy of the original PDF is generated in the Attachments \[sys\_attachment\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -22,33 +23,33 @@ This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.app
 The methods in this class enable the following tasks:
 
 -   Dynamically generate a PDF from an HTML string and attach it to a record
-    -   – [PDFGenerationAPI – convertToPDF\(String html, String targetTable, String targetTableSysId, String pdfName, String fontFamilySysId, Object documentConfiguration\)](PDFGenerationAPIBothAPI.md#)
-    -   – [PDFGenerationAPI – convertToPDFWithHeaderFooter\(String html, String targetTable, String targetTableSysId, String pdfName, Object headerFooterInfo, String fontFamilySysId, Object documentConfiguration\)](PDFGenerationAPIBothAPI.md#)
+    -   – [PDFGenerationAPI – convertToPDF\(String html, String targetTable, String targetTableSysId, String pdfName, String fontFamilySysId, Object documentConfiguration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+    -   – [PDFGenerationAPI – convertToPDFWithHeaderFooter\(String html, String targetTable, String targetTableSysId, String pdfName, Object headerFooterInfo, String fontFamilySysId, Object documentConfiguration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 -   Queue a PDF to be generated from an HTML string and attached to a record
     -   – 
     -   – 
 -   Fill fields in a PDF
-    -   [PDFGenerationAPI – fillDocumentFieldsAndFlatten\(Object fieldsMap, String sysId, String tableName, String tableSysId, String pdfName, Object flatten\)](PDFGenerationAPIBothAPI.md#)
-    -   [PDFGenerationAPI – fillDocumentFields\(Object fieldsMap, String sysId, String tableName, String tableSysId, String pdfName\)](PDFGenerationAPIBothAPI.md#)
-    -   [PDFGenerationAPI – isDocumentFillable\(String sysId\)](PDFGenerationAPIBothAPI.md#)
+    -   [PDFGenerationAPI – fillDocumentFieldsAndFlatten\(Object fieldsMap, String sysId, String tableName, String tableSysId, String pdfName, Object flatten\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+    -   [PDFGenerationAPI – fillDocumentFields\(Object fieldsMap, String sysId, String tableName, String tableSysId, String pdfName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+    -   [PDFGenerationAPI – isDocumentFillable\(String sysId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 -   Sign a PDF
-    -   [PDFGenerationAPI – fillFieldsAndMergeSignature\(Object fieldsMap, String sysId, String tableName, String tableSysId, String pdfName, PdfMergeSignRequestor requestor, Object flatten\)](PDFGenerationAPIBothAPI.md#)
-    -   [PDFGenerationAPI – getFilledDocumentWithSignatureAsBase64\(Object fieldsMap, String sysId, PdfMergeSignRequestor requestor, Object flatten\)](PDFGenerationAPIBothAPI.md#)
--   Restrict editing filled fields as flattened or partially flattened – [PDFGenerationAPI – fillDocumentFieldsAndFlatten\(Object fieldsMap, String sysId, String tableName, String tableSysId, String pdfName, Object flatten\)](PDFGenerationAPIBothAPI.md#)
+    -   [PDFGenerationAPI – fillFieldsAndMergeSignature\(Object fieldsMap, String sysId, String tableName, String tableSysId, String pdfName, PdfMergeSignRequestor requestor, Object flatten\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+    -   [PDFGenerationAPI – getFilledDocumentWithSignatureAsBase64\(Object fieldsMap, String sysId, PdfMergeSignRequestor requestor, Object flatten\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   Restrict editing filled fields as flattened or partially flattened – [PDFGenerationAPI – fillDocumentFieldsAndFlatten\(Object fieldsMap, String sysId, String tableName, String tableSysId, String pdfName, Object flatten\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 -   Retrieve PDF page size and field data
-    -   [PDFGenerationAPI – getPdfPageSizes\(String sysId\)](PDFGenerationAPIBothAPI.md#)
-    -   [PDFGenerationAPI – getDocumentFieldsType\(String sysId\)](PDFGenerationAPIBothAPI.md#)
-    -   [PDFGenerationAPI – getDocumentFields\(String sysId\)](PDFGenerationAPIBothAPI.md#)
--   Redact information in a PDF – [PDFGenerationAPI – redact\(Object inputJson\)](PDFGenerationAPIBothAPI.md#)
+    -   [PDFGenerationAPI – getPdfPageSizes\(String sysId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+    -   [PDFGenerationAPI – getDocumentFieldsType\(String sysId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+    -   [PDFGenerationAPI – getDocumentFields\(String sysId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   Redact information in a PDF – [PDFGenerationAPI – redact\(Object inputJson\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 
 **Note:** These methods can also be used for documents created by non-catalog items.
 
 Related APIs:
 
--   [PdfMergeSignRequestor](../../PdfMergeSignRequestorBoth/concept/PdfMergeSignRequestorBothAPI.md#)
--   [SVGToPDFConversionAPI](../../SVGToPDFConversionAPIBoth/concept/SVGToPDFConversionAPBothAPI.md#)
+-   [PdfMergeSignRequestor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PdfMergeSignRequestorBothAPI.md)
+-   [SVGToPDFConversionAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/SVGToPDFConversionAPBothAPI.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## PDFGenerationAPI – PDFGenerationAPI\(\)
 
@@ -70,7 +71,7 @@ Converts an HTML string to a PDF document.
 
 This method creates a PDF using the page size A4 – 595 × 842 points. Content will be truncated if it exceeds this size.
 
-To generate a PDF with additional settings, such as page size, orientation, and page numbers, use [convertToPDFWithHeaderFooter\(\)](PDFGenerationAPIBothAPI.md#).
+To generate a PDF with additional settings, such as page size, orientation, and page numbers, use [convertToPDFWithHeaderFooter\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md).
 
 <table id="table_sj4_p5j_34b" class="parameters"><thead><tr><th>
 
@@ -746,15 +747,15 @@ Fills fields in an editable PDF and attaches it to the provided record.
 
 Use the following methods to determine if the PDF is fillable and get field information:
 
--   [isDocumentFillable\(\)](PDFGenerationAPIBothAPI.md#)
--   [getDocumentFields\(\)](PDFGenerationAPIBothAPI.md#)
--   [getDocumentFieldsType\(\)](PDFGenerationAPIBothAPI.md#)
+-   [isDocumentFillable\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   [getDocumentFields\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   [getDocumentFieldsType\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 
 PDFGenerationAPI provides additional fill methods with different options:
 
--   [fillDocumentFieldsAndFlatten\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF, flattens the data fields, and attaches it to the provided record.
--   [fillFieldsAndMergeSignature\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF, adds signature image, flattens the data fields, and attaches it to the provided record.
--   [getFilledDocumentWithSignatureAsBase64\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF, creates an image, and converts it to a Base64-encoded PDF.
+-   [fillDocumentFieldsAndFlatten\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF, flattens the data fields, and attaches it to the provided record.
+-   [fillFieldsAndMergeSignature\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF, adds signature image, flattens the data fields, and attaches it to the provided record.
+-   [getFilledDocumentWithSignatureAsBase64\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF, creates an image, and converts it to a Base64-encoded PDF.
 
 <table id="table_ohl_lzj_34b" class="parameters"><thead><tr><th>
 
@@ -916,15 +917,15 @@ Fills fields in an editable PDF, flattens the data fields, and attaches it to th
 
 Use the following methods to determine if the PDF is fillable and get field information:
 
--   [isDocumentFillable\(\)](PDFGenerationAPIBothAPI.md#)
--   [getDocumentFields\(\)](PDFGenerationAPIBothAPI.md#)
--   [getDocumentFieldsType\(\)](PDFGenerationAPIBothAPI.md#)
+-   [isDocumentFillable\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   [getDocumentFields\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   [getDocumentFieldsType\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 
 PDFGenerationAPI provides additional fill methods with different options:
 
--   [fillDocumentFields\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF and attaches it to the provided record.
--   [fillFieldsAndMergeSignature\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF, adds signature image, flattens the data fields, and attaches it to the provided record.
--   [getFilledDocumentWithSignatureAsBase64\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF, creates an image, and converts it to a Base64-encoded PDF.
+-   [fillDocumentFields\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF and attaches it to the provided record.
+-   [fillFieldsAndMergeSignature\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF, adds signature image, flattens the data fields, and attaches it to the provided record.
+-   [getFilledDocumentWithSignatureAsBase64\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF, creates an image, and converts it to a Base64-encoded PDF.
 
 <table id="table_xp4_thk_34b" class="parameters"><thead><tr><th>
 
@@ -1118,15 +1119,15 @@ Fills fields in an editable PDF, adds signature image, flattens the data fields,
 
 Use the following methods to determine if the PDF is fillable and get field information:
 
--   [isDocumentFillable\(\)](PDFGenerationAPIBothAPI.md#)
--   [getDocumentFields\(\)](PDFGenerationAPIBothAPI.md#)
--   [getDocumentFieldsType\(\)](PDFGenerationAPIBothAPI.md#)
+-   [isDocumentFillable\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   [getDocumentFields\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   [getDocumentFieldsType\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 
 PDFGenerationAPI provides additional fill methods with different options:
 
--   [fillDocumentFields\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF and attaches it to the provided record.
--   [fillDocumentFieldsAndFlatten\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF, flattens the data fields, and attaches it to the provided record.
--   [getFilledDocumentWithSignatureAsBase64\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF, creates an image, and converts it to a Base64-encoded PDF.
+-   [fillDocumentFields\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF and attaches it to the provided record.
+-   [fillDocumentFieldsAndFlatten\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF, flattens the data fields, and attaches it to the provided record.
+-   [getFilledDocumentWithSignatureAsBase64\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF, creates an image, and converts it to a Base64-encoded PDF.
 
 <table id="table_xp4_thk_34b" class="parameters"><thead><tr><th>
 
@@ -1206,7 +1207,7 @@ requestor
 
 </td><td>
 
-[PdfMergeSign​Requestor](../../PdfMergeSignRequestorBoth/concept/PdfMergeSignRequestorBothAPI.md#)
+[PdfMergeSign​Requestor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PdfMergeSignRequestorBothAPI.md)
 
 </td><td>
 
@@ -1609,15 +1610,15 @@ Base64 encoding enables you to output a PDF as a string within a text document, 
 
 Use the following methods to determine if the PDF is fillable and get field information:
 
--   [isDocumentFillable\(\)](PDFGenerationAPIBothAPI.md#)
--   [getDocumentFields\(\)](PDFGenerationAPIBothAPI.md#)
--   [getDocumentFieldsType\(\)](PDFGenerationAPIBothAPI.md#)
+-   [isDocumentFillable\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   [getDocumentFields\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+-   [getDocumentFieldsType\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 
 PDFGenerationAPI provides additional fill methods with different options:
 
--   [fillDocumentFields\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF and attaches it to the provided record.
--   [fillDocumentFieldsAndFlatten\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF, flattens the data fields, and attaches it to the provided record.
--   [fillFieldsAndMergeSignature\(\)](PDFGenerationAPIBothAPI.md#) – Fills fields in an editable PDF, adds signature image, flattens the data fields, and attaches it to the provided record.
+-   [fillDocumentFields\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF and attaches it to the provided record.
+-   [fillDocumentFieldsAndFlatten\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF, flattens the data fields, and attaches it to the provided record.
+-   [fillFieldsAndMergeSignature\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md) – Fills fields in an editable PDF, adds signature image, flattens the data fields, and attaches it to the provided record.
 
 <table id="table_w4w_xhk_34b" class="parameters"><thead><tr><th>
 
@@ -1661,7 +1662,7 @@ requestor
 
 </td><td>
 
-[PdfMergeSign​Requestor](../../PdfMergeSignRequestorBoth/concept/PdfMergeSignRequestorBothAPI.md#)
+[PdfMergeSign​Requestor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PdfMergeSignRequestorBothAPI.md)
 
 </td><td>
 
@@ -1941,7 +1942,7 @@ Applies redaction to a PDF document based on the given rectangle coordinates, se
 
 **Note:**
 
--   Redaction results might include an unexpected white redacted text block that overwrites text not intended to be redacted. If this event occurs, you can manually select the content for redaction using the **highlightedSections** property or the PDF Generation Utilities plugin. For more information, see [Redact data from documents](https://www.servicenow.com/docs/access?context=redact-sensitive-data&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+-   Redaction results might include an unexpected white redacted text block that overwrites text not intended to be redacted. If this event occurs, you can manually select the content for redaction using the **highlightedSections** property or the PDF Generation Utilities plugin. For more information, see .
 -   This method doesn’t support redaction in PDFs containing JBIG2 images.
 
 <table id="table_drx_h3k_34b" class="parameters"><thead><tr><th>

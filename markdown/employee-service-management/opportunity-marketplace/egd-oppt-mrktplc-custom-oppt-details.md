@@ -2,6 +2,7 @@
 title: Create custom opportunity details records in Opportunity Marketplace
 description: You can customize the details for an opportunity type in Opportunity Marketplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-details.html
 release: xanadu
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -50,5 +51,5 @@ Role required: admin
 
 The copied \(cloned\) opportunity details record is available to select by opportunity owners.
 
-**Parent Topic:**[Creating custom opportunity types in Opportunity Marketplace](../concept/egd-oppt-mrktplc-custom-oppt-type.md)
+**Parent Topic:**[Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md)
 

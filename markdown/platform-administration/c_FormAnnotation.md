@@ -2,6 +2,7 @@
 title: Administering form annotations
 description: Form annotations are additional pieces of information on a form, such as a line or paragraph of text. Use form annotations to provide on-screen instructions to your users.You can store multiple translations of form annotation text.You can define the form annotation types to control their appearance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_FormAnnotation.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ Form annotations are additional pieces of information on a form, such as a line 
 
 Form annotations are enabled by default in the base system. To disable them, set the `glide.ui.form_annotations` system property to false.
 
-**Parent Topic:**[Form administration](form-administration.md)
+**Parent Topic:**[Form administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/form-administration.md)
 
 ## Support multiple languages for a form annotation
 
@@ -27,7 +28,7 @@ Role required: admin
 
 ### About this task
 
-To support multiple languages, use [message records](../../localization/reference/r_MessageTable.md) to translate annotation text.
+To support multiple languages, use [message records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/system-localization/r_MessageTable.md) to translate annotation text.
 
 ### Procedure
 

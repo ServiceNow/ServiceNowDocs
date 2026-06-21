@@ -2,6 +2,7 @@
 title: Finding and working with candidates to replatform
 description: Use ERP Customization Mining \(ERP-CM\) to identify potential ERP \(Enterprise Resource Planning\) app candidates for replatforming.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/work-with-candidates.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -30,14 +31,14 @@ If you delete a candidate from ERP-CM, it automatically reappears the next time 
 
 If ERP-CM shows that a candidate has a number of similar candidates, consider building one app that meets the needs of some or all similar candidates when you replatform.
 
--   **[Browse an overview of candidates in ERP-CM](../task/erpcm-view-home-page-overview.md)**  
+-   **[Browse an overview of candidates in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-view-home-page-overview.md)**  
 View the ERP Customization Mining \(ERP-CM\) home page for a summary of ERP \(Enterprise Resource Planning\) app candidates to replatform onto the ServiceNow AI Platform.
--   **[View and work with candidate details in ERP-CM](../task/erpcm-view-work-with-candidate-details.md)**  
+-   **[View and work with candidate details in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-view-work-with-candidate-details.md)**  
 View and edit candidate details and recommended actions in ERP Customization Mining \(ERP-CM\). Analyze ERP \(Enterprise Resource Planning\) system scan results, linked ERP models, usage, and similar candidates.
--   **[Check candidate recommendations in ERP-CM](../task/erpcm-work-with-recommendations.md)**  
+-   **[Check candidate recommendations in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-work-with-recommendations.md)**  
 Check the actions that ERP Customization Mining \(ERP-CM\) suggests to improve the ease of replatforming an ERP \(Enterprise Resource Planning\) candidate.
--   **[Save potential candidates to replatform](../task/erpcm-find-candidates.md)**  
+-   **[Save potential candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-find-candidates.md)**  
 Use ERP Customization Mining \(ERP-CM\) to save ERP \(Enterprise Resource Planning\) app candidates to replatform.
 
-**Parent Topic:**[ERP Customization Mining \(ERP-CM\)](erp-customization-mining-overview.md)
+**Parent Topic:**[ERP Customization Mining \(ERP-CM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erp-customization-mining-overview.md)
 

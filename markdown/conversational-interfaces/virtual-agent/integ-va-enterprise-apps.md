@@ -2,6 +2,7 @@
 title: Integrating Virtual Agent with enterprise messaging apps
 description: Integrating enterprise messaging apps such as Slack, Microsoft Teams, and Workplace with ServiceNow Virtual Agent associates the app with your ServiceNow instance to facilitate conversations across the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/integ-va-enterprise-apps.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

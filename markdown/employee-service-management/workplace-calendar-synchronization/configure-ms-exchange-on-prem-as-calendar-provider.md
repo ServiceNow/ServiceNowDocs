@@ -2,6 +2,7 @@
 title: Configure Microsoft Exchange On-Premises as calendar provider
 description: Set Microsoft Exchange On-Premises as calendar provider to sync reservations. Specify the calendar processor, the sync-related settings, and strict mode preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/configure-ms-exchange-on-prem-as-calendar-provider.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -160,17 +161,17 @@ Select the option to synchronize all the past reservations from the specified **
 
 5.  In the Reservable Sync Configurations related list, add the reservable sync configurations with which you want to synchronize reservations.
 
-    To add a new one, refer to [Add a Reservable Sync Configuration](add-reservable-sync-config.md).
+    To add a new one, refer to [Add a Reservable Sync Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.md).
 
 
 ## What to do next
 
 -   Set the scheduled job, **WSDRS Sync Calendar items** to **True**. The scheduled job is set to **False** by default and it must be enabled to start synchronizing. You can set the scheduled job time as you want. At any time, you can also manually execute it.
--   [Add a Reservable Sync Configuration](add-reservable-sync-config.md)
+-   [Add a Reservable Sync Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.md)
 
-**Parent Topic:**[Create a normal mode connection for Microsoft Exchange On-Premises](../concept/create-a-normal-mode-connection-with-exchange-onprem.md)
+**Parent Topic:**[Create a normal mode connection for Microsoft Exchange On-Premises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-a-normal-mode-connection-with-exchange-onprem.md)
 
-**Previous topic:**[Create a Connection and credential alias for Microsoft Exchange On-Premises](create-a-connection-and-credential-alias-for-ms-exch-onprem.md)
+**Previous topic:**[Create a Connection and credential alias for Microsoft Exchange On-Premises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-a-connection-and-credential-alias-for-ms-exch-onprem.md)
 
-**Next topic:**[Create a strict mode connection for Microsoft Exchange On-Premises](../concept/create-a-strict-mode-connection-for-onprem.md)
+**Next topic:**[Create a strict mode connection for Microsoft Exchange On-Premises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-a-strict-mode-connection-for-onprem.md)
 

@@ -2,6 +2,7 @@
 title: Configure the Dynatrace analysis AI agent
 description: Connect the Dynatrace analysis AI agent to your Dynatrace instance to use it in the Analyze alert impact agentic workflow. Once connected, the AI agent gathers information to help you investigate alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-config-dynatrace.html
 release: xanadu
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -19,8 +20,8 @@ Connect the Dynatrace analysis AI agent to your Dynatrace instance to use it in 
 
 Before configuring the Dynatrace analysis AI agent, you must do the following:
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
--   [Integrate Dynatrace platform events with Event Management](../../event-management/concept/dynatrace-events-integration.md).
+-   Install Now Assist for IT Operations Management \(ITOM\).
+-   [Integrate Dynatrace platform events with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/dynatrace-events-integration.md).
 -   Copy your Dynatrace connection URL and Dynatrace access token or personal access token.
 
     The Dynatrace access token or personal access token must have the `problems.read` scope.
@@ -38,15 +39,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d269292e158">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d251050e158">
 
 Field
 
-</th><th align="left" id="d269292e161">
+</th><th align="left" id="d251050e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269292e167">
+</th></tr></thead><tbody><tr><td id="d251050e167">
 
 **Connection Name**
 
@@ -54,7 +55,7 @@ Description
 
 Name of your Dynatrace connection. This name helps you identify it later. For example, `Dynatrace analysis AI agent connection`.
 
-</td></tr><tr><td id="d269292e184">
+</td></tr><tr><td id="d251050e184">
 
 **Connection URL**
 
@@ -62,7 +63,7 @@ Name of your Dynatrace connection. This name helps you identify it later. For ex
 
 URL of your Dynatrace instance. Dynatrace URLs follow this format: `https://<your-resource-name>.live.dynatrace.com`.
 
-</td></tr><tr><td id="d269292e202">
+</td></tr><tr><td id="d251050e202">
 
 **Access token or personal access token \(must prefix with 'Api-Token '\)**
 
@@ -70,7 +71,7 @@ URL of your Dynatrace instance. Dynatrace URLs follow this format: `https://<you
 
 Dynatrace access token or personal access token. The token must begin with `Api-Token`, for example, `Api-Token dt0s01.STABCDEF12345.G3HIJKLMNOP`.
 
-</td></tr><tr><td id="d269292e219">
+</td></tr><tr><td id="d251050e219">
 
 **Header Name**
 
@@ -90,7 +91,7 @@ Activate the Dynatrace analysis AI agent to use it in the Analyze alert impact a
 
 **Note:** While working in AI Agent Studio, make sure that the Alert information retrieval AI agent is active. It's also required for the Analyze alert impact agentic workflow.
 
-To learn more about using the Dynatrace analysis AI agent in the Analyze alert impact agentic workflow, see [Use the Analyze alert impact agentic workflow](now-assist-itom-use-aia.md).
+To learn more about using the Dynatrace analysis AI agent in the Analyze alert impact agentic workflow, see [Use the Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md).
 
-**Parent Topic:**[Configuring AI agents for Now Assist for ITOM](../concept/itom-ai-agent-configuration.md)
+**Parent Topic:**[Configuring AI agents for Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md)
 

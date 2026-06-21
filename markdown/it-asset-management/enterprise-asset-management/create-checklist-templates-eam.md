@@ -2,6 +2,7 @@
 title: Create a checklist template for your Enterprise Asset Management work orders
 description: Create a checklist template for your work orders that gets added as a work order template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-checklist-templates-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -31,15 +32,15 @@ You can either copy from an existing checklist template and edit and add more ch
 
 3.  In the **Create checklist template** dialog box, fill in the fields.
 
-<table id="choicetable_yjr_z2v_21c"><thead><tr><th align="left" id="d132048e89">
+<table id="choicetable_yjr_z2v_21c"><thead><tr><th align="left" id="d127754e89">
 
 Field
 
-</th><th align="left" id="d132048e92">
+</th><th align="left" id="d127754e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d132048e98">
+</th></tr></thead><tbody><tr><td id="d127754e98">
 
 **Name**
 
@@ -47,7 +48,7 @@ Description
 
 Name of the checklist template.
 
-</td></tr><tr><td id="d132048e107">
+</td></tr><tr><td id="d127754e107">
 
 **Copy from template**
 
@@ -55,7 +56,7 @@ Name of the checklist template.
 
 List of existing templates that you can copy from.
 
-</td></tr><tr><td id="d132048e116">
+</td></tr><tr><td id="d127754e116">
 
 **Checklist items**
 
@@ -73,5 +74,5 @@ The checklist items for the template. -   If you selected a template from the **
 
 The checklist template is created and appears in the Checklist templates list. After a checklist template is created, it can't be edited and can be used by other applications too.
 
-**Parent Topic:**[Managing work orders for your enterprise assets](../concept/create-manage-wo-enterprise-assets.md)
+**Parent Topic:**[Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md)
 

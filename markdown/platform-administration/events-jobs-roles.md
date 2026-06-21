@@ -2,6 +2,7 @@
 title: System Events and Jobs dashboard roles
 description: Events and Jobs dashboard is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/events-jobs-roles.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -13,11 +14,11 @@ breadcrumb: [Monitor System Events and Scheduled Jobs dashboards, Maintain and m
 
 Events and Jobs dashboard is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## System administrator \[admin\]
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 The admin can access all information on the events and jobs dashboard. They can also setup an alert on an instance level.
 
@@ -35,7 +36,7 @@ The admin can access all information on the events and jobs dashboard. They can 
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://www.servicenow.com/docs/access?context=t_ElevateToAPrivilegedRole&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see .
 
     No.
 

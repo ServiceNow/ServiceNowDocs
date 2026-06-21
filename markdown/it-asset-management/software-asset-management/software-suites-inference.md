@@ -2,6 +2,7 @@
 title: Software suites inference
 description: Suite inference is used to determine whether the software is part of a suite and to infer the best or efficient suite to use when licensing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/software-suites-inference.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -114,5 +115,5 @@ The following are some common use cases that help in understanding how license c
     This is an invalid use case, as the subscriptions should be listed at the same level as the entitlement. It appears there’s a misconfiguration in the Microsoft 365 admin center, which must be corrected.
 
 
-**Parent Topic:**[Software Asset Management software suites](software-suites.md)
+**Parent Topic:**[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/software-suites.md)
 

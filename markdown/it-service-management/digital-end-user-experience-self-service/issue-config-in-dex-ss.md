@@ -2,6 +2,7 @@
 title: Issue config in Digital End-user Experience Self-service
 description: The Digital End-user Experience Self-service provides the following issue configurations in the base system. By default, all these issue configurations are disabled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-self-service/issue-config-in-dex-ss.html
 release: xanadu
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service

@@ -2,6 +2,7 @@
 title: Project and project task states
 description: In the base system, the states in project and project task inherit the states in Task table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/project-and-project-task-states.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -26,12 +27,12 @@ The states are grouped into different categories as shown below:
 |4|Closed Incomplete|Closed|
 |7|Closed Skipped|Closed|
 
-The category information for the states is declared in [dictionary override](https://www.servicenow.com/docs/access?context=c_DictionaryOverrides&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) of State column in Planned task \(`planned_task`\) table in **Attributes** field. Planned task is the parent table for project and project task tables.
+The category information for the states is declared in dictionary override of State column in Planned task \(`planned_task`\) table in **Attributes** field. Planned task is the parent table for project and project task tables.
 
--   **[View default project and project task state categories](../task/view-default-project-task-states.md)**  
+-   **[View default project and project task state categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/view-default-project-task-states.md)**  
 View category information for the default project and project task states. In the base system, the states in project and project task inherit the states in Task table.
--   **[Customize a state for project or project task](../task/customize-project-task-states.md)**  
+-   **[Customize a state for project or project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/customize-project-task-states.md)**  
 Add or modify a state of project or project task using dictionary override.
 
-**Parent Topic:**[Project Management](c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

@@ -2,11 +2,12 @@
 title: Plan sprints
 description: Streamline your sprint planning and completion activities using the Sprint Planning tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/ppm-collaboration/plan-sprint-activity.html
 release: xanadu
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Agile Development 2.0 integration with Project Portfolio Management, Explore, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,15 +32,15 @@ Role required: scrum\_admin, scrum\_master, or scrum\_sprint\_planner
 
 4.  Use either of options to view all the active stories assigned to the team, but not assigned to any sprint in the Backlog section.
 
-<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d102260e94">
+<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d102058e94">
 
 Action
 
-</th><th align="left" id="d102260e97">
+</th><th align="left" id="d102058e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d102260e103">
+</th></tr></thead><tbody><tr><td id="d102058e103">
 
 **Using the drag feature**
 
@@ -47,7 +48,7 @@ Description
 
 This option can be used to move stories within the backlog, move stories from the backlog to any sprint, or move stories from one sprint to another. Point to a story in the backlog and drag it to the required location.
 
-</td></tr><tr><td id="d102260e115">
+</td></tr><tr><td id="d102058e115">
 
 **Using the keyboard**
 
@@ -73,5 +74,5 @@ This option can be used to move stories only within a backlog or a sprint.
         The sprint disappears from the **Sprint Planning** tab and appears in the Sprint list as complete.
 
 
-**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](../../sdlc-scrum/concept/c_SDLCIntegrationWithProjectPortfolioSuite.md)
+**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)
 

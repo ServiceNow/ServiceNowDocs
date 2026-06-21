@@ -2,6 +2,7 @@
 title: Entity filters
 description: Entity types enable you to find and create entities that match a set of filter conditions. Entity types include predefined entity filters that define the data to be displayed in the user interface. The entity filter defines the table from which data is pulled into each entity type for display.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.html
 release: xanadu
 product: GRC Common Functions
 classification: grc-common-functions
@@ -32,8 +33,8 @@ The **Entity filters** tab displays the following information:
 
 Use the new Entity class field in the entity filters under the entity type to assign an entity class to an entity filter. When you use an entity filter to create an entity, an entity class gets assigned to it automatically.
 
--   **[Create an entity filter](../../grc-common-workspace/task/create-new-entity-filter-ws.md)**  
+-   **[Create an entity filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/create-new-entity-filter-ws.md)**  
 Create an entity filter under an entity type in the workspace view. Entities in entity type are created based on the conditions set in the Entity Filter. The entity filter defines the table from which data is pulled into each entity type for display.
 
-**Parent Topic:**[Entity types](../../grc-common-workspace/concept/entity-type-in-risk-ws.md)
+**Parent Topic:**[Entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/entity-type-in-risk-ws.md)
 

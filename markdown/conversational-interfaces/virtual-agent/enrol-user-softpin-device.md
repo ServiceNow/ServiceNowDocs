@@ -2,6 +2,7 @@
 title: Enroll user Soft PIN and Device in ServiceNow instance
 description: Enroll the user Soft PIN and Device in your ServiceNow instance to setup callback authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/enrol-user-softpin-device.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

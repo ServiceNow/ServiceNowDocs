@@ -2,6 +2,7 @@
 title: Set system properties for scheduler
 description: Set the system property sn\_ap\_apm.exception.engine.scheduler\_cool\_off\_period which defines the time interval in minutes after which the invoice is picked for processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/set-system-properties-for-scheduler.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

@@ -2,6 +2,7 @@
 title: Install and configure Learning
 description: Configure Learning by setting up the following dependencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/learning-core/configuring-learning.html
 release: xanadu
 product: Learning Core
 classification: learning-core
@@ -19,10 +20,10 @@ Configure Learning by setting up the following dependencies.
 
 Dependent plugins and apps for Learning:
 
--   [Manager Hub](manager-hub-overview.md)
--   [Skills Foundation](../../skills-intelligence/concept/skills-intelligence.md)
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/manager-hub-overview.md)
+-   [Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/skills-intelligence.md)
 
-    When the Skills Foundation property **sn\_skills\_int.enable\_skills** is set to true, the use of Skills Foundation is enabled for all Learning. See [Configuring Skills Foundation](../../skills-intelligence/concept/configuring-skills-intelligence.md) for more information about Skills Foundation properties.
+    When the Skills Foundation property **sn\_skills\_int.enable\_skills** is set to true, the use of Skills Foundation is enabled for all Learning. See [Configuring Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/configuring-skills-intelligence.md) for more information about Skills Foundation properties.
 
 
 Role required: admin
@@ -64,8 +65,8 @@ Dependencies
 
 The Learning application depends on other applications such as Learning Core and Employee Profile.
 
--   **[Activate and setup Learning](setup-activate-learning.md)**  
+-   **[Activate and setup Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/learning-core/setup-activate-learning.md)**  
 Learn how to set up and start using Learning.
 
-**Parent Topic:**[Learning](exploring-learning-exp.md)
+**Parent Topic:**[Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/learning-core/exploring-learning-exp.md)
 

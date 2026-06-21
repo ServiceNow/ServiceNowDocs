@@ -2,6 +2,7 @@
 title: Knowledge articles for Enterprise Asset Management
 description: Create and attach knowledge articles about enterprise models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/knowledge-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management

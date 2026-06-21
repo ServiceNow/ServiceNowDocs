@@ -2,6 +2,7 @@
 title: Dialog component properties
 description: Refer to the descriptions of the properties of the Dialog components. You can update the properties, if required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/dialog-component-properties.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ Refer to the descriptions of the properties of the Dialog components. You can up
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Dialogs](../concept/dialogs.md)
+**Parent Topic:**[Dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/dialogs.md)
 

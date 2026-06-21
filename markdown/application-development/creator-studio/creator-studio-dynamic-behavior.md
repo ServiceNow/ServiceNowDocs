@@ -2,6 +2,7 @@
 title: Make a form change based on responses in Creator Studio
 description: Make a form update based on how users answer a question using dynamic behavior. For example, if a user says they want a T-shirt for an event they're attending, you can make a T-shirt size field required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-dynamic-behavior.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -17,7 +18,7 @@ Make a form update based on how users answer a question using dynamic behavior. 
 
 ## Before you begin
 
-You must name the form before you can add [dynamic behavior](../concept/creator-studio-glossary.md#) to it.
+You must name the form before you can add [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) to it.
 
 To add dynamic behavior to a form, you must be given permission to work on the app.
 
@@ -35,17 +36,17 @@ To add dynamic behavior to a form, you must be given permission to work on the a
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
 4.  Check that you're editing the correct form in your app by selecting it from the **Request forms** tab.
 
-    ![Selection from the Request forms tab](../image/cs-request-forms-tab.png)
+    \[Omitted image "cs-request-forms-tab.png"\] Alt text: Selection from the Request forms tab
 
 5.  Select the question that should be affected by how users answer one or more previous questions.
 
@@ -53,7 +54,7 @@ To add dynamic behavior to a form, you must be given permission to work on the a
 
 6.  Select the **Behaviors** tab of the settings panel.
 
-    ![Add behavior button on the Question details panel](../image/crs-add-behavior-btn.png "Add behavior button on the Behaviors panel")
+    \[Omitted image "crs-add-behavior-btn.png"\] Alt text: Add behavior button on the Question details panel
 
 7.  Define the conditions that will make the form change in the Conditions section.
 
@@ -69,7 +70,7 @@ To add dynamic behavior to a form, you must be given permission to work on the a
 
         For example, you could select **Is** as the operator for the **Do you want a T-shirt?** field.
 
-        For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+        For more information, see .
 
     4.  Enter or select the value for the user's response to the trigger question.
 
@@ -79,7 +80,7 @@ To add dynamic behavior to a form, you must be given permission to work on the a
 
     6.  Build another set of conditions by selecting the **Add condition set** button and repeating steps a-e.
 
-    ![Dynamic behavior settings for T-shirt question](../image/crs-dynamic-panel-fields.png "Dynamic behavior example")
+    \[Omitted image "crs-dynamic-panel-fields.png"\] Alt text: Dynamic behavior settings for T-shirt question
 
 8.  Define how the form changes in response to the conditions that you defined in the Action section of the **Behaviors** panel.
 
@@ -94,7 +95,7 @@ To add dynamic behavior to a form, you must be given permission to work on the a
         -   **Choose a value**
         You can add multiple actions, but you can add only one of each type of action for each set of dynamic behavior.
 
-        ![Choose an action for the behavior](../image/crs-dynamic-actions.png "Dynamic behavior actions")
+        \[Omitted image "crs-dynamic-actions.png"\] Alt text: Choose an action for the behavior
 
     2.  Choose what happens for each action that you select.
 
@@ -105,9 +106,9 @@ To add dynamic behavior to a form, you must be given permission to work on the a
 
 ## Result
 
-The question appears with a dynamic icon \(![](../image/crs-dynamic-indicator.png)\) to indicate that it has dynamic behavior.
+The question appears with a dynamic icon \(\[Omitted image "crs-dynamic-indicator.png"\] Alt text:\) to indicate that it has dynamic behavior.
 
 The dynamic behavior appears in a card on the **Behavior** tab of the settings panel. You can select the card at any time to view or edit its details, or select the **Add behavior** button to add another dynamic behavior.
 
-**Parent Topic:**[Working with forms in Creator Studio](../concept/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-work-with-forms.md)
 

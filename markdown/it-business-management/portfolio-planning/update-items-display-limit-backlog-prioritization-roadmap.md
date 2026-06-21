@@ -2,6 +2,7 @@
 title: Update the display limit of items for Prioritization and Roadmap in Portfolio Planning
 description: Create a system property to update the display limit of the items shown in Prioritization page, Roadmap page, and the item milestones on the roadmap view in Portfolio Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/portfolio-planning/update-items-display-limit-backlog-prioritization-roadmap.html
 release: xanadu
 product: Portfolio Planning
 classification: portfolio-planning
@@ -45,15 +46,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d76738e137">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d48662e137">
 
 Field
 
-</th><th align="left" id="d76738e140">
+</th><th align="left" id="d48662e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d76738e146">
+</th></tr></thead><tbody><tr><td id="d48662e146">
 
 **Name**
 
@@ -65,7 +66,7 @@ Description
 -   **sn\_align\_ws.goal\_hierarchy.max\_records** for goals in hierarchy.
 
 
-</td></tr><tr><td id="d76738e177">
+</td></tr><tr><td id="d48662e177">
 
 **Type**
 
@@ -73,7 +74,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d76738e186">
+</td></tr><tr><td id="d48662e186">
 
 **Value**
 
@@ -82,10 +83,10 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>    For information on the other form fields, see the field description table in Add a system property.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](../concept/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
+**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
 

@@ -2,6 +2,7 @@
 title: Legacy - Usage tab
 description: The Usage tab provides summary information about conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/usage-tab.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ The **Usage** tab provides summary information about conversations.
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -31,7 +32,7 @@ The **Usage** tab answers questions such as:
 
 To access the **Usage** tab, you must have the chat analytics admin role or the chat analytics viewer role.
 
-![Widgets displayed in the Usage tab: Conversation type, Average conversation duration, Languages, and Topics sent via actionable notification.](../images/usage-tab.png "Usage tab")
+\[Omitted image "usage-tab.png"\] Alt text: Widgets displayed in the Usage tab: Conversation type, Average conversation duration, Languages, and Topics sent via actionable notification.
 
 Selecting the data or pointing to the data in the visualizations displays additional information about the data.
 
@@ -42,5 +43,5 @@ Selecting the data or pointing to the data in the visualizations displays additi
 |Languages|Languages used by users and the number of conversations in each language.|
 |Topic sent via the Actionable notification|The number of actionable notifications delivered from virtual agent to the users for the selected time range, and the number and percentage of actionable notifications that users engaged with, and did not engage with.|
 
-**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](use-the-dashboard-overview.md)
+**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/use-the-dashboard-overview.md)
 

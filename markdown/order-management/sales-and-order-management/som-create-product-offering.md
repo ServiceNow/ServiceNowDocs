@@ -2,6 +2,7 @@
 title: Create product offerings
 description: Create and publish a product offering in Sales Customer Relationship Management. Product offerings represent entities that are orderable from the provider of the catalog and includes pricing information. Once published, product offerings become available to order agents when creating leads, opportunities, quotes, and orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-create-product-offering.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_ca
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select **New**.
 
@@ -163,7 +164,7 @@ Start Date
 
 </td><td>
 
-Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon \(![](../image/field-calendar.png)\) to choose the start date and time, then select **OK**.
+Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text:\) to choose the start date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -171,7 +172,7 @@ End Date
 
 </td><td>
 
-Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon \(![](../image/field-calendar.png)\) to choose the end date and time, then select **OK**.
+Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text:\) to choose the end date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -264,11 +265,11 @@ Length of the contract:-   12 months
 
 ## What to do next
 
--   [Create product characteristics and characteristic options](som-product-config-add-characteristics.md)
--   [Add product visuals](som-product-config-add-visuals.md)
--   [Add product catalog categories](som-product-config-offering-categories.md)
--   [Add related contracts to product offerings](som-product-config-related-contracts.md)
--   [Add a unit of measure to a product offering](som-product-config-add-unit-of-measure.md)
--   [Create a product offering version](som-product-config-create-new-version.md)
--   [Create product offering relationship groups](som-product-config-relationship-groups.md)
+-   [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-product-config-add-characteristics.md)
+-   [Add product visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-product-config-add-visuals.md)
+-   [Add product catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-product-config-offering-categories.md)
+-   [Add related contracts to product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-product-config-related-contracts.md)
+-   [Add a unit of measure to a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-product-config-add-unit-of-measure.md)
+-   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-product-config-create-new-version.md)
+-   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-product-config-relationship-groups.md)
 

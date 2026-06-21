@@ -2,6 +2,7 @@
 title: Financial Management for licensed APM users
 description: If you are an Enterprise Architecture \(formerly Application Portfolio Management\) licensed user and using Financial Management, then the base system provides you with a Business Application Costing cost model that you can use to evaluate the cost of your business applications along with its prescribed metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/financial-management-apm.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -17,7 +18,7 @@ If you are an Enterprise Architecture \(formerly Application Portfolio Managemen
 
 ## Business Application Costing cost model
 
-![Business application costing cost model](../image/BusinessAppCostingCostModel.png "Business application costing cost model")
+\[Omitted image "BusinessAppCostingCostModel.png"\] Alt text: Business application costing cost model
 
 The specifications of the Business Application Costing cost model are:
 
@@ -25,7 +26,7 @@ The specifications of the Business Application Costing cost model are:
 -   IT shared service segment accounts are sourced from the IT shared service table \[itfm\_shared\_service\].
 -   Business application segment accounts \(the middle layer in this model\) are sourced from the Business Application \[cmdb\_ci\_business\_app\] table. This table is the source of accounts to the applications segment. Or, it can be Application \[cmdb\_ci\_appl\] table or other custom tables.
 -   The business unit layer is tied to the platform business unit table \[business\_unit\].
--   There is no data source to this cost model, which means that you should enter the spend information directly into the model and not come from the general ledger. Using the general ledger as a source of spend information is an optional feature that you can configure. See [Prerequisites to modify data source of a cost model](../reference/transition-data-source-cost-model.md) for more information.
+-   There is no data source to this cost model, which means that you should enter the spend information directly into the model and not come from the general ledger. Using the general ledger as a source of spend information is an optional feature that you can configure. See [Prerequisites to modify data source of a cost model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/transition-data-source-cost-model.md) for more information.
 
 ## Seeded IT Shared Services
 
@@ -80,7 +81,7 @@ The specifications of the Business Application Costing cost model are:
 
     The metric allocates shared service cost to applications based on the following weighted metric:
 
-    ![Allocate to Applications using active user count.](../image/PrescribedMetricSStoBAonUC.png "Allocate to Applications using active user count")
+    \[Omitted image "PrescribedMetricSStoBAonUC.png"\] Alt text: Allocate to Applications using active user count.
 
     -   The Business Application \[cmdb\_ci\_business\_app\] table provides a list of all business applications.
     -   The prescribed metric performs a sum of active users and weights the costs accordingly to the receiving applications by **Sys ID**.
@@ -88,7 +89,7 @@ The specifications of the Business Application Costing cost model are:
 
     The metric allocates shared service cost to applications based on the following weighting table:
 
-    ![Allocate to Application based on Compute Power](../image/PrescribedMetric7.png "Allocate to Application based on Compute Power")
+    \[Omitted image "PrescribedMetric7.png"\] Alt text: Allocate to Application based on Compute Power
 
     -   The CI Relationship \[cmdb\_rel\_ci\] table provides a list of all relationships between configuration items.
     -   The prescribed metric performs a count of configuration items where the Child.Class = Server and weights the costs accordingly to the receiving applications.
@@ -96,7 +97,7 @@ The specifications of the Business Application Costing cost model are:
 
     The metric allocates shared service cost to business unit based on the following weighting table:
 
-    ![Allocate to Business Unit on Headcount](../image/PrescribedMetric3.png "Allocate to Business Unit on Headcount")
+    \[Omitted image "PrescribedMetric3.png"\] Alt text: Allocate to Business Unit on Headcount
 
     -   The User \[sys\_user\] table provides a list of all system users and their related department.
     -   The Department \[cmn\_department\] table provides a list of all departments and their related business unit.
@@ -109,12 +110,12 @@ The specifications of the Business Application Costing cost model are:
 
 There are three performance analytic dashboards that you can access with Business Application Costing cost model. They are:
 
--   [Application TCO dashboard](../../../use/dashboards/application-content-packs/financial-mgmt-application-TCO-dashboard.md).
--   [Business Application Costing dashboard](../../../use/dashboards/application-content-packs/financial-mgmt-level2-costing-business-applications.md).
--   [CIO Dashboard for Business Applications.](../../../use/dashboards/application-content-packs/cio-dashboard-business-application.md) [CIO Dashboard for Business Applications](../../../use/dashboards/application-content-packs/cio-dashboard-business-application.md).
+-   [Application TCO dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-mgmt-application-TCO-dashboard.md).
+-   [Business Application Costing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-mgmt-level2-costing-business-applications.md).
+-   [CIO Dashboard for Business Applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/cio-dashboard-business-application.md) [CIO Dashboard for Business Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/cio-dashboard-business-application.md).
 
--   **[Configure business application costing cost model](../task/modify-bus-app-costing-cost-model.md)**  
+-   **[Configure business application costing cost model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/modify-bus-app-costing-cost-model.md)**  
 Configure the business application costing cost model to allocate expenses and generate bucket cost lines for the fiscal periods to suit your requirements.
 
-**Parent Topic:**[Financial Management](c_ITFinance.md)
+**Parent Topic:**[Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_ITFinance.md)
 

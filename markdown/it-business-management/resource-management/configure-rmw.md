@@ -2,6 +2,7 @@
 title: Configure Resource Management Workspace
 description: Configure Resource Management Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/resource-management/configure-rmw.html
 release: xanadu
 product: Resource Management
 classification: resource-management
@@ -15,10 +16,10 @@ breadcrumb: [Resource Management Workspace, Project Portfolio Management, Strate
 
 Configure Resource Management Workspace.
 
--   **[Install Resource Management Workspace](../task/config-rmw.md)**  
+-   **[Install Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/config-rmw.md)**  
 Install the Resource Management Workspace application from the ServiceNow Store.
--   **[Define custom statuses for resource assignments](../task/define-custom-status-ra.md)**  
+-   **[Define custom statuses for resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/define-custom-status-ra.md)**  
 Define and assign custom statuses for resource assignments to mark the assignments based on your organization requirements.
 
-**Parent Topic:**[Resource Management Workspace](rsrc-mgmt-wrkspc.md)
+**Parent Topic:**[Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/rsrc-mgmt-wrkspc.md)
 

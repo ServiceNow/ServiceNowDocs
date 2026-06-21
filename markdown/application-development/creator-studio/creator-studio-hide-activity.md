@@ -2,6 +2,7 @@
 title: Make an activity unavailable in playbooks
 description: Deactivate an activity to stop users from adding it to playbooks in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-hide-activity.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -31,16 +32,16 @@ Role required: admin or app\_engine\_admin
 
     The Creator Studio Activities table appears.
 
-    ![Table showing all activities defined for Creator Studio playbooks](../image/crs-activities-table.png "Creator Studio Activities table")
+    \[Omitted image "crs-activities-table.png"\] Alt text: Table showing all activities defined for Creator Studio playbooks
 
 2.  Open the Creator Studio Activity record for the activity that you want to hide by selecting is **Short Description** field.
 
 3.  Hide the activity by clearing the **Active** check box.
 
-    ![Clear the Active box](../image/crs-activity-active-box.png "Creator Studio Activity record")
+    \[Omitted image "crs-activity-active-box.png"\] Alt text: Clear the Active box
 
 4.  Select **Update** to save the record.
 
 
-**Parent Topic:**[Administering activities in Creator Studio](../concept/creator-studio-administering-activities.md)
+**Parent Topic:**[Administering activities in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-administering-activities.md)
 

@@ -2,6 +2,7 @@
 title: Exploring Demand Management
 description: Learn more about Demand Management and its process flow, and reviewing its benefits to your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/demand-management/exploring-demand-management.html
 release: xanadu
 product: Demand Management
 classification: demand-management
@@ -21,25 +22,25 @@ In Demand Management assess the ideas submitted through the Idea Portal or ideat
 
 ## Demand Management workflow
 
-In demand management, a demand can be in any of the following states.![Demand state changes](../image/DemandStatesFuji.png)
+In demand management, a demand can be in any of the following states.\[Omitted image "DemandStatesFuji.png"\] Alt text: Demand state changes
 
-The demand states are Draft, Submitted, Screening, Approved, and Completed. For more information, see [Use Demand Management](../reference/r_UsingDemandManagement.md).
+The demand states are Draft, Submitted, Screening, Approved, and Completed. For more information, see [Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/r_UsingDemandManagement.md).
 
 ## Demand Management benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|View and assess ideas that have been approved to be demands in a central location.|[Demand workbench](c_DemandWorkbench.md)|Demand Manager|
+|View and assess ideas that have been approved to be demands in a central location.|[Demand workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/c_DemandWorkbench.md)|Demand Manager|
 |Track the progress of an accepted idea as it moves through the demand life cycle \(idea to a demand, to a project, enhancement, change, or defect\).| | |
-|Manage and track the financials of your demands in corporate, regional currency, or the same currency that you want to use for managing the project|[Multicurrency in Demand Management](multicurrency-demand.md)|Demand Manager|
-|Add users to the stakeholder registry so that demand and project management can automatically populate the stakeholder list when a user creates a demand or project.|[Populate the stakeholder registry](../task/t_PopulatingTheStakeholderRegistry.md)|Demand Manager|
+|Manage and track the financials of your demands in corporate, regional currency, or the same currency that you want to use for managing the project|[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/multicurrency-demand.md)|Demand Manager|
+|Add users to the stakeholder registry so that demand and project management can automatically populate the stakeholder list when a user creates a demand or project.|[Populate the stakeholder registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/t_PopulatingTheStakeholderRegistry.md)|Demand Manager|
 
--   **[Demand Management process flow](../reference/r_DemandManagementProcessFlow.md)**  
+-   **[Demand Management process flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/r_DemandManagementProcessFlow.md)**  
 The Demand Management process flow consists of the following tasks.
--   **[Demand workbench](c_DemandWorkbench.md)**  
+-   **[Demand workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/c_DemandWorkbench.md)**  
 The demand workbench provides a central location for viewing and assessing business demands.
--   **[Predictive Intelligence for Demand Management](predictive-intelligence-for-demand.md)**  
+-   **[Predictive Intelligence for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/predictive-intelligence-for-demand.md)**  
 The Predictive Intelligence for Demand Management capability uses machine-learning algorithms to search and display similar demands while creating a demand in the Demand form.
 
-**Parent Topic:**[Demand Management](c_DemandManagement.md)
+**Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/c_DemandManagement.md)
 

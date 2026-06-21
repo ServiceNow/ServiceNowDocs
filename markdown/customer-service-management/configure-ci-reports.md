@@ -2,7 +2,10 @@
 title: Configure reports for the Customer Information view
 description: Configure which reports to display on the Customer Information view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-ci-reports.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin
 
 Reports are displayed in the Customer Information view in Agent Workspace.
 
-![Case overview displaying a circular graph that represents the overall progress of the case.](../image/customer-reports.jpg)
+\[Omitted image "customer-reports.jpg"\] Alt text: Case overview displaying a circular graph that represents the overall progress of the case.
 
 ## Procedure
 

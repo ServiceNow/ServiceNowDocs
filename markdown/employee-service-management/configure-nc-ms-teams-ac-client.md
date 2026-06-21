@@ -2,7 +2,10 @@
 title: Configuring Notify connector for Microsoft Teams app in Microsoft Teams
 description: Configure the manifest file in Microsoft Teams client or admin center to use Notify connector for Microsoft Teams app.Configure the manifest file in Microsoft Teams client to use Notify connector for Microsoft Teams app.Configure the manifest file in Microsoft Teams admin center to use Notify connector for Microsoft Teams app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/configure-nc-ms-teams-ac-client.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,10 +18,10 @@ Configure the manifest file in Microsoft Teams client or admin center to use Not
 
 You can upload the manifest file in Microsoft Teams using one of the following procedures.
 
--   [Configure Notify connector for Microsoft Teams app in Microsoft Teams](configure-nc-ms-teams-ac-client.md#)
--   [Configure Notify connector for Microsoft Teams app in Microsoft Teams](configure-nc-ms-teams-ac-client.md#)
+-   [Configure Notify connector for Microsoft Teams app in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-nc-ms-teams-ac-client.md)
+-   [Configure Notify connector for Microsoft Teams app in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-nc-ms-teams-ac-client.md)
 
-**Parent Topic:**[Integrate Meeting Extensions pre-published app with Microsoft Teams](setup-meeting-extensibility-multi-tenant.md)
+**Parent Topic:**[Integrate Meeting Extensions pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/setup-meeting-extensibility-multi-tenant.md)
 
 ## Configure Notify connector for Microsoft Teams app in Microsoft Teams
 

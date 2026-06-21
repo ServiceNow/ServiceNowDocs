@@ -2,6 +2,7 @@
 title: Access Knowledge Graph Schemas
 description: Use Knowledge Graph Designer to create, edit, and manage Knowledge Graph schemas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/knowledge-graph/access-knowledge-graph-designer.html
 release: xanadu
 product: Knowledge Graph
 classification: knowledge-graph
@@ -138,7 +139,7 @@ alm\_asset table's columns:
 
 </td></tr></tbody>
 </table>    -   NLQ graph Scheme: Helps requesters with personalized responses on people queries and Natural Language queries. Also supports people citation card. By default the user NLQ graph is connected which is used for people queries but you also have sample graph schema for other employee queries. For more details see [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778).
-    ![Knowledge Graph Designer landing page.](../Images/knowledge-graph-landing-page.png)
+    \[Omitted image "knowledge-graph-landing-page.png"\] Alt text: Knowledge Graph Designer landing page.
 
     You can also create a Knowledge Graph schema from the landing page.
 

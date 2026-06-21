@@ -2,6 +2,7 @@
 title: Escalation triggers in SRM
 description: Trigger an escalation policy for the associated team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: Manager or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the teams icon \(![Teams.](../image/icon-sr-teams.png)\).
+2.  From the left navigation pane, select the teams icon \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select the **Escalation triggers and policies** tab.
 
@@ -49,5 +50,5 @@ Role required: Manager or Administrator
     You can also add support for escalation triggers to run on alerts, if needed \(instead of incidents\). You can add up to 5000 events or 250 alerts per second stream. To add the on-call for alerts support, either run the XML on trigger\_rule\_table\_cfg trigger table or create the record manually in the Trigger Rule Table Config page.
 
 
-**Parent Topic:**[Set up escalation policies for your team in SRM](sr-create-escalation-policies.md)
+**Parent Topic:**[Set up escalation policies for your team in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-escalation-policies.md)
 

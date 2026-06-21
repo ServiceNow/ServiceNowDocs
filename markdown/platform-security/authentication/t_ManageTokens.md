@@ -2,6 +2,7 @@
 title: Manage OAuth tokens
 description: Open OAuth tokens to provide access to restricted resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/t\_ManageTokens.html
 release: xanadu
 product: Authentication
 classification: authentication

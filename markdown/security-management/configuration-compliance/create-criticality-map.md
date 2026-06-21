@@ -2,6 +2,7 @@
 title: Create a Configuration Compliance criticality map
 description: Configuration Compliance criticality mapping provides a transform map for third-party source criticality fields to recognizable fields in Configuration Compliance severity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/create-criticality-map.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -81,5 +82,5 @@ The configuration issue associated with the control is a minor risk and can be i
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](../concept/cc-configuring.md)
+**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-configuring.md)
 

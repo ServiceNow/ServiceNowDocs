@@ -2,6 +2,7 @@
 title: App creation tutorial
 description: This tutorial series guides you through the entire process of building an application using the low-code tools available in the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/app-creation-example.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -29,7 +30,7 @@ Step 1
 
 </td><td>
 
-[Planning your application](app-tutorial-introduction.md)
+[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/app-tutorial-introduction.md)
 
 </td></tr><tr><td>
 
@@ -37,7 +38,7 @@ Step 2
 
 </td><td>
 
-[Create an app](../task/app-tutorial-create-an-app.md)
+[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/app-tutorial-create-an-app.md)
 
 </td></tr><tr><td>
 
@@ -45,7 +46,7 @@ Step 3
 
 </td><td>
 
-[Building a data model](app-tutorial-data-model.md)
+[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/app-tutorial-data-model.md)
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ Step 4
 
 </td><td>
 
-[Creating user experiences](app-tutorial-experience-layer.md)
+[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/app-tutorial-experience-layer.md)
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Step 5
 
 </td><td>
 
-[Adding logic and automation](app-tutorial-logic-automation-layer.md)
+[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Step 6
 
 </td><td>
 
-[Test your application](../task/app-tutorial-test-app.md)
+[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Managing custom skills in Virtual Agent Designer
 description: View custom skills through Virtual Agent Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/managing-custom-skills.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -16,13 +17,13 @@ breadcrumb: [Getting started with Virtual Agent Designer, Building and deploying
 
 View custom skills through Virtual Agent Designer.
 
-**Note:** An updated Virtual Agent Designer user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not enabled, you will see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](../reference/vad-prev-topics-page.md).
+**Note:** An updated Virtual Agent Designer user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not enabled, you will see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 **Role required**: virtual\_agent\_admin
 
-When you select a custom skill, it opens the skill in Now Assist Skill Kit. Custom skills currently can't be created in Virtual Agent Designer. You can only view them in Virtual Agent Designer. The skills can be created, tested, and deleted only in Now Assist Skill Kit. For more details on creating skills, see [Create a skill](https://www.servicenow.com/docs/access?context=create-new-skill&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+When you select a custom skill, it opens the skill in Now Assist Skill Kit. Custom skills currently can't be created in Virtual Agent Designer. You can only view them in Virtual Agent Designer. The skills can be created, tested, and deleted only in Now Assist Skill Kit. For more details on creating skills, see .
 
-![Custom skills pill in Virtual Agent Designer.](../images/vad-custom-skills.png "Custom skills as viewed in Virtual Agent Designer")
+\[Omitted image "vad-custom-skills.png"\] Alt text: Custom skills pill in Virtual Agent Designer.
 
 |Column|Description|
 |------|-----------|
@@ -33,7 +34,7 @@ When you select a custom skill, it opens the skill in Now Assist Skill Kit. Cust
 |Last modified|Time that the skill was last modified.|
 |Description|Description of the custom skill.|
 
-Use the row actions icon ![KB link](../images/kebab-menu.png) to work with visibility settings for **Promoted**, **Discoverable**, **Visible**, and **Active**:
+Use the row actions icon \[Omitted image "kebab-menu.png"\] Alt text: KB link to work with visibility settings for **Promoted**, **Discoverable**, **Visible**, and **Active**:
 
 |Option|Description|
 |------|-----------|
@@ -51,8 +52,8 @@ Custom skills become available in Virtual Agent Designer based on the deployment
     -   Select **Platform skills** in the **Feature** list.
     -   Select the **Now Assist panel** card to enable the skill through the Now Assist Panel.
 
--   For more information about the Now Assist Panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
--   For more information about Now Assist Skill Kit, see [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   For more information about the Now Assist Panel, see .
+-   For more information about Now Assist Skill Kit, see .
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

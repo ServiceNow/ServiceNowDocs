@@ -2,6 +2,7 @@
 title: Apache Kafka data input configuration fields
 description: Description of the fields on the Apache Kafka data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-data-input-kafka-ref.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -84,7 +85,7 @@ The MID Server cluster to which the log data is pulled.The data input runs on a 
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   The default maximum number of data inputs streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs running on it, even when that MID Server is down.
 
-For more information about MID Server clusters, see [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).This field is required.
+For more information about MID Server clusters, see Configure a MID Server cluster.This field is required.
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. **Note:** If no relevant service instance exists, [Create an service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. **Note:** If no relevant service instance exists, Create an service instance and add CIs to it. Set the status of the new service instance to Operational.
 
 This field is required.
 
@@ -225,13 +226,13 @@ Kafka credentials
 
 </td><td>
 
-Reference to the Apache Kafka credentials.You can display the Kafka SSL credentials form by selecting the information icon \(![Information icon.](../../agent-client-collector/image/icon-info.png)\) and then selecting **Open Record**. The form enables you to choose the security protocol used for authenticating with Apache Kafka from the following options:
+Reference to the Apache Kafka credentials.You can display the Kafka SSL credentials form by selecting the information icon \(\[Omitted image "icon-info.png"\] Alt text: Information icon.\) and then selecting **Open Record**. The form enables you to choose the security protocol used for authenticating with Apache Kafka from the following options:
 
  -   **SSL** - SSL channel.
 -   **SASL\_SSL** - SASL authenticated, SSL channel.
 -   **SASL\_PLAINTEXT** - SASL authenticated, non-encrypted channel.
 
- For a description of the fields on the Kafka SSL credentials form, see [Kafka SSL credentials fields](hla-data-input-kafka-credentials.md).
+ For a description of the fields on the Kafka SSL credentials form, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
 
 </td><td>
 
@@ -263,5 +264,5 @@ logs
 |Character encoding|The character encoding for this data input.|UTF-8|
 |Drop if queue is full|Option for selecting to discard logs if there is a load on the MID Server.|False|
 
-**Parent Topic:**[Configure data inputs \(Apache Kafka\)](../task/hla-data-input-kafka.md)
+**Parent Topic:**[Configure data inputs \(Apache Kafka\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-kafka.md)
 

@@ -2,6 +2,7 @@
 title: Add line items to a lead
 description: Create a new product line item for your lead by entering the details, such as product offering and quantity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/lead-management-use-line-items-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to **List** view ![](../image/Lists.png)and select **Leads - All**.
+1.  Navigate to **List** view \[Omitted image "Lists.png"\] Alt text:and select **Leads - All**.
 
 2.  From the **Leads List** window, select the lead you want to work with and select the **Line Items** tab.
 
@@ -44,5 +45,5 @@ Role required: sales\_agent
 
 ## What to do next
 
-Add a task to your lead. To learn more, see [Add lead tasks](lead-management-use-tasks-tab.md).
+Add a task to your lead. To learn more, see [Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/lead-management-use-tasks-tab.md).
 

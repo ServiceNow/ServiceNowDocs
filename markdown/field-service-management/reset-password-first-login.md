@@ -2,7 +2,10 @@
 title: Log in to the Field Service Contractor Portal for the first time
 description: Click the link in the email you are sent after you are onboarded to change your password so you can log in for the first time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/reset-password-first-login.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -40,5 +43,5 @@ Role required: none
 8.  Click **Login**.
 
 
-**Parent Topic:**[Field Service Contractor Portal](../concept/field-service-contractor-portal.md)
+**Parent Topic:**[Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-contractor-portal.md)
 

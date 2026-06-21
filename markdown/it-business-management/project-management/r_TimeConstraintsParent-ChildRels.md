@@ -2,6 +2,7 @@
 title: Time constraints in parent-child relationships
 description: Parent-child task relationships have several effects on task time constraints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/r\_TimeConstraintsParent-ChildRels.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -35,5 +36,5 @@ Parent-child task relationships have several effects on task time constraints.
     A task with **Start no later than** or **Start on specific date** time constraint cannot be a parent task. When a new child task is added to a task with these time constraints, the time constraint for the parent task is changed to **Start ASAP**.
 
 
-**Parent Topic:**[Parent-child task relationships](../concept/c_Parent-ChildTaskRelationships.md)
+**Parent Topic:**[Parent-child task relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_Parent-ChildTaskRelationships.md)
 

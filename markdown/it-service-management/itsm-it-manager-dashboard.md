@@ -2,7 +2,10 @@
 title: Legacy: IT Manager dashboard
 description: Follow the daily and weekly progress of incidents, problems, and requests for your assignment groups.Define generic industry-based fixed costs to analyze impact by channel using the IT Manager dashboard in ITSM Performance Analytics Solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/itsm-it-manager-dashboard.html
 release: xanadu
+product: IT Service Management
+classification: it-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 10
@@ -13,9 +16,9 @@ breadcrumb: [Legacy: Performance Analytics ITSM Dashboards, Platform Analytics I
 
 Follow the daily and weekly progress of incidents, problems, and requests for your assignment groups.
 
-**Important:** Starting with the Xanadu release, the IT Manager dashboard is deprecated. Users can access the [ITSM Success Dashboards](../../../product/itsm-success-dashboard/concept/explore-success-dashboard-indicators.md) to view the metrics for their assignment groups.
+**Important:** Starting with the Xanadu release, the IT Manager dashboard is deprecated. Users can access the [ITSM Success Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md) to view the metrics for their assignment groups.
 
-![Animated tour of the tabs of the IT Manager dashboard](../image/itsm-it-manager.gif)
+\[Omitted image "itsm-it-manager.gif"\] Alt text: Animated tour of the tabs of the IT Manager dashboard
 
 ## End user and roles
 
@@ -298,7 +301,7 @@ The following indicators do not appear on the dashboard but are used in formulas
 -   SLA Definition
 -   State \(Change, Request, Problem\)
 
-**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](itsm-dashboards-content-pack.md)
+**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-dashboards-content-pack.md)
 
 ## Define fixed costs for IT Manager dashboard
 
@@ -314,7 +317,7 @@ Use the fixed cost model to analyze the cost for incidents and requests across c
 
 Cost definitions are stored in the Fixed Cost Definitions \[fixed\_cost\_definitions\] table.
 
-![ITManagerFixedCosts](../../../product/it-service-management/image/it-manager-fixed-costs.png "IT Manager Fixed Costs")
+\[Omitted image "it-manager-fixed-costs.png"\] Alt text: ITManagerFixedCosts
 
 <table id="table_ohy_dcg_sfb"><thead><tr><th>
 

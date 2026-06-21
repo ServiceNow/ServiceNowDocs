@@ -2,6 +2,7 @@
 title: Setup checklist for Continuous Authorization and Monitoring
 description: The checklist includes the tasks that you must complete to prepare the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-setup-checklist.html
 release: xanadu
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -23,7 +24,7 @@ Role required: admin, sn\_irm\_cont\_auth.admin
 
 1.  Create and print a PDF of the checklist topic and check off tasks as you complete them.
 
-    To generate a PDF, select the **Save As PDF** icon \(![Save as PDF icon](../image/save-as-pdf.png)\) at the top of this topic and select **Selected topic**.
+    To generate a PDF, select the **Save As PDF** icon \(\[Omitted image "save-as-pdf.png"\] Alt text: Save as PDF icon\) at the top of this topic and select **Selected topic**.
 
 <table id="table_lqq_1qt_rhb"><thead><tr><th>
 
@@ -35,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![checkbox](../../grc-audit-implementation/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -50,15 +51,15 @@ As a user with the System Administrator role, verify that you have the GRC core 
     -   GRC: Risk Management
     -   GRC: Audit Management
 4.  After the applications have been installed, install the Continuous Authorization and Monitoring core application.
- If any application is not visible in your instance, you can download it from the ServiceNow Store. For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](../../grc-common/concept/grc-and-store.md).
+ If any application is not visible in your instance, you can download it from the ServiceNow Store. For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/governance-risk-and-compliance/grc-and-store.md).
 
 </td></tr><tr><td>
 
-![checkbox](../../grc-audit-implementation/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
-As a user with the CAM Administrator role, assigned users with the required roles as described in [Assign Continuous Authorization and Monitoring roles to users and groups](assign-cam-roles.md).
+As a user with the CAM Administrator role, assigned users with the required roles as described in [Assign Continuous Authorization and Monitoring roles to users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/assign-cam-roles.md).
 
 </td></tr></tbody>
 </table>

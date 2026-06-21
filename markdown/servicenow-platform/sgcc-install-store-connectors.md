@@ -2,6 +2,7 @@
 title: Install a Service Graph Connector from ServiceNow Store in SGC Central
 description: Explore ServiceNow Store to request and use a Service Graph Connector with no available entitlements from within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/sgcc-install-store-connectors.html
 release: xanadu
 topic_type: task
 last_updated: "2026-02-27"
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon ![](../../configuration-management/image/icon-sgc-central.png) to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  Select **Explore connectors**.
 

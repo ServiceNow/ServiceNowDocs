@@ -2,6 +2,7 @@
 title: Journey view for an employee
 description: As an employee with journeys in Journey designer, view your journey overview and tasks associated with that journey in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-designer/view-journey-overview.html
 release: xanadu
 product: Journey Designer
 classification: journey-designer
@@ -34,12 +35,12 @@ Use the Activity tab to add any journey activity updates in the activity field a
 
 Use the Attachments tab to add supporting attachments to the journey, if needed.
 
--   **[Employees view and complete journeys](jny-dsgnr-employee-journey-tasks.md)**  
+-   **[Employees view and complete journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/jny-dsgnr-employee-journey-tasks.md)**  
 Employees have access to the journeys that are assigned to them.
--   **[Configure task count for your next tasks widget](configure-next-tasks-widget.md)**  
+-   **[Configure task count for your next tasks widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/configure-next-tasks-widget.md)**  
 You can configure how many tasks you want to see in your next tasks widget.
--   **[View and update your next tasks](view-your-next-tasks-jd.md)**  
+-   **[View and update your next tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/view-your-next-tasks-jd.md)**  
 View your next tasks using the **Your next tasks** widget on the My journeys page to understand the next steps in your journey.
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](../concept/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

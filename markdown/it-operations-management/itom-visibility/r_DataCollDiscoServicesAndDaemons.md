@@ -2,6 +2,7 @@
 title: IP service and daemon discovery
 description: Discovery identifies and classifies information about services and daemons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/r\_DataCollDiscoServicesAndDaemons.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -23,5 +24,5 @@ Discovery identifies and classifies information about services and daemons.
 |CI|`cmdb_ip_service_ci`|ci|Internal reference|
 |Service|`cmdb_ip_service_ci`|service|Internal reference|
 
-**Parent Topic:**[Network device discovery](../concept/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

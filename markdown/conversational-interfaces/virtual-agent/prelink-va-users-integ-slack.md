@@ -2,6 +2,7 @@
 title: Pre-link Virtual Agent requesters before integration with Slack
 description: Pre-link your Virtual Agent requesters to a ServiceNow instance before they run the Conversational Integration with Slack. Batch pre-linking enables your Virtual Agent users immediately to chat with a virtual agent and receive notifications without going through the initial authentication linking process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/prelink-va-users-integ-slack.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,8 +18,8 @@ Pre-link your Virtual Agent requesters to a ServiceNow instance before they run 
 
 ## Before you begin
 
--   [Manage the ServiceNow Virtual Agent integration with Slack](configure-va-slack.md), with the **Automatically Link ServiceNow user profiles** option enabled.
--   [Set up Slack Spoke](https://www.servicenow.com/docs/access?context=set-up-slack&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+-   [Manage the ServiceNow Virtual Agent integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/configure-va-slack.md), with the **Automatically Link ServiceNow user profiles** option enabled.
+-   Set up Slack Spoke.
 
 Roles required:
 
@@ -51,7 +52,7 @@ Batch pre-linking happens automatically via the **Slack Daily Pre-Link Job** sch
 
 3.  In the **Run** field, change the run time to your desired time.
 
-4.  For a description of the other fields that you can change in this form, including **Time zone**, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+4.  For a description of the other fields that you can change in this form, including **Time zone**, see Automatically run a script of your choosing.
 
 5.  Click **Save**.
 

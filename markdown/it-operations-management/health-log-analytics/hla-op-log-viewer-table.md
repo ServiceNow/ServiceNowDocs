@@ -2,6 +2,7 @@
 title: Customize the Log viewer table
 description: Add or remove columns in the Log viewer table to show only the data you want to view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-op-log-viewer-table.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,7 +20,7 @@ Add or remove columns in the **Log viewer** table to show only the data you want
 
 Role required: evt\_mgmt\_operator, or evt\_mgmt\_admin
 
-**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [Customize the Log viewer table](hla-op-log-viewer-table-sow.md).
+**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [Customize the Log viewer table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-log-viewer-table-sow.md).
 
-**Parent Topic:**[Viewing the logs for an alert on the Log viewer](../concept/hla-op-logs-log-viewer-concept.md)
+**Parent Topic:**[Viewing the logs for an alert on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md)
 

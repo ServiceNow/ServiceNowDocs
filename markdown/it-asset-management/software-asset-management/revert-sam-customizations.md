@@ -2,6 +2,7 @@
 title: Revert Software Asset Management customizations
 description: After installing the Software Asset Management application for the first time, or upgrading from the Software Asset Management Foundation plugin, you need to revert customizations for all features work. The Revert Customizations module in the Software Asset Management application can revert customized files related to Software Asset Management back to the base configurations that were skipped during the installation or upgrade process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/revert-sam-customizations.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -28,7 +29,7 @@ To ensure feature functionality, you must revert customizations after:
 -   A new installation of the Software Asset Management Professional \(com.snc.samp\) plugin
 -   Upgrading from the Software Asset Management Foundation \(com.snc.sams\) plugin
 
-You can also [revert customizations](https://www.servicenow.com/docs/access?context=revert-customization&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) using the **System Diagnostics** &gt; **Upgrade History** navigation.
+You can also revert customizations using the **System Diagnostics** &gt; **Upgrade History** navigation.
 
 ## Procedure
 

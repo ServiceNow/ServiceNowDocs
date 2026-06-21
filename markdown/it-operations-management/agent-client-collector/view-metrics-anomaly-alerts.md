@@ -2,6 +2,7 @@
 title: View anomaly alerts
 description: Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from the regular IT alerts, and are not displayed in the Service Operations Workspace. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/view-metrics-anomaly-alerts.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -38,5 +39,5 @@ Metric Intelligence monitors historical data to ensure that metric bounds are ac
 
 ## What to do next
 
-Create an Advanced Promotion Engine Definition, to define the conditions which must be met to promote anomaly alerts to IT alerts. For details, see [Create a definition for the Advanced Promotion Engine](../../agent-client-collector/task/create-advanced-promotion-engine.md).
+Create an Advanced Promotion Engine Definition, to define the conditions which must be met to promote anomaly alerts to IT alerts. For details, see [Create a definition for the Advanced Promotion Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/create-advanced-promotion-engine.md).
 

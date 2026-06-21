@@ -2,7 +2,10 @@
 title: Activate and configure appointment booking reminders for Walk-up Experience
 description: Configure scheduled appointment reminders for Walk-up Experience users. Reminders ensure users attend appointments in a timely manner or reschedule or cancel an appointment if they can no longer attend.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-activate-appt-reminder.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -37,7 +40,7 @@ In order for appointment booking reminders to operate, you must activate the **A
 
     The system opens an **Appointment Booking Service Configuration** form.
 
-7.  Click the menu button \( ![Menu icon.](../../../common/image/Form_MenuIcon.png)\) and scroll to **Configure** &gt; **Form Layout**.
+7.  Click the menu button \( \[Omitted image "Form\_MenuIcon.png"\] Alt text: Menu icon.\) and scroll to **Configure** &gt; **Form Layout**.
 
 8.  Select **Appointment reminder** from the **Available** list and move it to the **Selected** list using the add button.
 

@@ -2,6 +2,7 @@
 title: Creating a contract template using Microsoft Word add-in for ServiceNow Contracts
 description: Create contract templates by using Microsoft Word add-in for ServiceNow Contracts to add content controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -15,16 +16,16 @@ breadcrumb: [Configure contract templates for a contract request, Configure Cont
 
 Create contract templates by using Microsoft Word add-in for ServiceNow Contracts to add content controls.
 
--   **[Create a contract template to contain content controls](../task/cncore-create-ct-word-addin.md)**  
+-   **[Create a contract template to contain content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.md)**  
 Create a contract template using the Microsoft Word add-in for ServiceNow Contracts to which you can then add content controls.
--   **[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](../task/cncore-add-contrl-wrd-addin.md)**  
+-   **[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)**  
 As a contract configurator, add content controls using the Microsoft Word add-in for ServiceNow Contracts. Content controls act as placeholders in contract templates.
--   **[Upload and parse a Microsoft Word document that includes content controls](../task/cncore-upload-doc-addin.md)**  
+-   **[Upload and parse a Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md)**  
 As a contract configurator, after adding the content controls to the Microsoft Word document to be used for the contract template using the Microsoft Word Add-in for ServiceNow Contracts, upload the document to the ServiceNow instance.
--   **[Complete clause mapping to build a clause library](../task/cncore-clause-map-addin.md)**  
+-   **[Complete clause mapping to build a clause library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-clause-map-addin.md)**  
 As a contract configurator, complete clause mapping to build a clause library of clause variations containing the content marked in the Microsoft Word document using the Microsoft Word Add-in for ServiceNow Contracts.
--   **[Add conditions for a contract table mapping](../task/cncore-add-filter-table-map.md)**  
+-   **[Add conditions for a contract table mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-add-filter-table-map.md)**  
 As a contract configurator, use condition builders to define criteria for a table mapping for a contract template so only the essential data from the mapped table is displayed in the contract document.
 
-**Parent Topic:**[Configure contract templates for a contract request](cncore-document-templates.md)
+**Parent Topic:**[Configure contract templates for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-document-templates.md)
 

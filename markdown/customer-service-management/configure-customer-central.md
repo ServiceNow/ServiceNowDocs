@@ -2,7 +2,10 @@
 title: Configure Customer Central
 description: Provide customer service agents with all the information about a customer in one central place by configuring the Customer Information and Customer Activity views for Customer Central.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-customer-central.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Customer Central consists of two views, Customer Information and Customer Activi
 
 **Note:** If you are using CSM Agent Workspace, Customer Central is displayed on the Interaction record. If you are using CSM Configurable Workspace, Customer Central is displayed on the interaction, account, contact, or consumer records. Both views are highly configurable and can be adapted to suit the needs of your business.
 
-For more details, see [Customer Central](../concept/customer-central.md).
+For more details, see [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/customer-central.md).
 
 ## Procedure
 
@@ -37,10 +40,10 @@ For more details, see [Customer Central](../concept/customer-central.md).
 
     |Task|Description|
     |----|-----------|
-    |[Activate Customer Central](activate-customer-central.md)|Activate the Customer Central plugin to use customer central.|
-    |[Configure the Customer Information view using CSM Agent Workspace](configure-information-tab.md)|Configure the display of the Customer Information view using the CSM Agent Workspace.|
-    |[Configure the Customer Information view using the CSM Configurable Workspace](cust-central-configure-info-tab.md)|Configure the display of the Customer Information view using the CSM Configurable Workspace.|
-    |[Configure the Customer Activity view](configure-customer-activity.md)|Configure the display of the customer activity view.|
+    |[Activate Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-customer-central.md)|Activate the Customer Central plugin to use customer central.|
+    |[Configure the Customer Information view using CSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configure-information-tab.md)|Configure the display of the Customer Information view using the CSM Agent Workspace.|
+    |[Configure the Customer Information view using the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/cust-central-configure-info-tab.md)|Configure the display of the Customer Information view using the CSM Configurable Workspace.|
+    |[Configure the Customer Activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configure-customer-activity.md)|Configure the display of the customer activity view.|
 
 4.  To perform a task, select **Configure**.
 

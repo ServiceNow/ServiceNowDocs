@@ -2,6 +2,7 @@
 title: Configure crawl settings for the Microsoft Teams external content connector
 description: Specify the teams you want your Microsoft Teams external content connector to crawl. Define inclusion or exclusion filters for file extensions to dictate the types of documents the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/configure-crawl-settings-msteams-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -57,7 +58,7 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
     3.  In the **File extension** field, select the file extensions that you want to include or exclude.
 
-        For details on the supported file extensions, see [File extensions supported in External Content Connectors](../reference/file-extensions-ext-cont-connector.md).
+        For details on the supported file extensions, see [File extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/file-extensions-ext-cont-connector.md).
 
 6.  Select **Save**.
 
@@ -68,7 +69,7 @@ The Microsoft Teams external content connector is updated with your crawl scope 
 
 ## What to do next
 
-Now that you've configured the crawl for your Microsoft Teams external content connector, you can schedule crawls to run on a recurring basis, or you can run one-time crawls on demand. For details on scheduling crawls, see [Define a crawl schedule for an external content connector](define-schedule-ext-cont-connector.md). To learn how to run one-time crawls on demand, see [Run a one-time full or partial document crawl for an external content connector](run-doc-crawl-ext-cont-connector.md) and [Run a one-time user mapping crawl for an external content connector](run-umap-crawl-ext-cont-connector.md).
+Now that you've configured the crawl for your Microsoft Teams external content connector, you can schedule crawls to run on a recurring basis, or you can run one-time crawls on demand. For details on scheduling crawls, see [Define a crawl schedule for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/define-schedule-ext-cont-connector.md). To learn how to run one-time crawls on demand, see [Run a one-time full or partial document crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-doc-crawl-ext-cont-connector.md) and [Run a one-time user mapping crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-umap-crawl-ext-cont-connector.md).
 
-**Parent Topic:**[Configuring crawl settings for external content connectors](../concept/cfg-crawl-settings-ext-cont-connector.md)
+**Parent Topic:**[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-crawl-settings-ext-cont-connector.md)
 

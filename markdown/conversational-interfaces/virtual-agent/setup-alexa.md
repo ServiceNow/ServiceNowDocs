@@ -2,6 +2,7 @@
 title: Set up Conversational Integration with Alexa
 description: Set up the Conversational Integration with Alexa application so that you can engage customers in conversations with bots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/setup-alexa.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -31,25 +32,25 @@ Set up the Conversational Integration with Alexa application so that you can eng
 
         For more information, see the [Alexa documentation](https://developer.amazon.com/en-GB/docs/alexa/ask-overviews/create-developer-account.html).
 
-    2.  [Create an Alexa skill](create-alexa-skill.md).
+    2.  [Create an Alexa skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-alexa-skill.md).
 
         For more information, see the [Alexa documentation](https://developer.amazon.com/en-US/docs/alexa/custom-skills/steps-to-build-a-custom-skill.html).
 
-    3.  [Build an Alexa skill model](build-alexa-skill.md).
+    3.  [Build an Alexa skill model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/build-alexa-skill.md).
 
         For more information, see the [Alexa documentation](https://developer.amazon.com/en-GB/docs/alexa/conversations/build-model.html).
 
     4.  Configure an Alexa skill.
 
-        For more information, see [Configure an Alexa skill](confgure-alexa-for-snow-instance.md)
+        For more information, see [Configure an Alexa skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/confgure-alexa-for-snow-instance.md)
 
         .
 
-    5.  [Test an Alexa skill on the developer console](test-alexa-skill.md).
+    5.  [Test an Alexa skill on the developer console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/test-alexa-skill.md).
 
         For more information, see the [Alexa documentation](https://developer.amazon.com/en-US/docs/alexa/devconsole/test-your-skill.html).
 
-    6.  [Account linking with Alexa](../concept/account-linking-alexa.md).
+    6.  [Account linking with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/account-linking-alexa.md).
 
         For more information, see the [Alexa documentation](https://developer.amazon.com/en-US/docs/alexa/account-linking/account-linking-for-custom-skills.html).
 
@@ -60,10 +61,10 @@ Role required: external\_app\_install\_admin, va\_admin, or admin
 
 1.  Associate a provider channel identity record with your Alexa account.
 
-    For more information, see [Create a provider channel identity record for Alexa](create-provider-channel-id-record-alexa.md).
+    For more information, see [Create a provider channel identity record for Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-provider-channel-id-record-alexa.md).
 
 2.  Associate inbound message records with a message auth record.
 
-    For more information, see [Set up message authentication for Alexa](setup-message-auth-alexa.md).
+    For more information, see [Set up message authentication for Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/setup-message-auth-alexa.md).
 
 

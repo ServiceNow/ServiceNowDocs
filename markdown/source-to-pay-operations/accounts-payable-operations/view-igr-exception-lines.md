@@ -2,6 +2,7 @@
 title: View invoice line details for a line-level invoice exception
 description: View details about invoice lines to understand why a line-level invoice exception has been created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/view-igr-exception-lines.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -27,7 +28,7 @@ The **Invoice lines affected** tab is displayed only for exception tasks that ar
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Do one of the following:
 
@@ -40,5 +41,5 @@ The **Invoice lines affected** tab is displayed only for exception tasks that ar
 6.  Select the **Invoice lines affected** tab to view details about each invoice line exception.
 
 
-**Parent Topic:**[Invoice exceptions](../concept/work-with-invoice-exceptions.md)
+**Parent Topic:**[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md)
 

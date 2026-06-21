@@ -2,7 +2,10 @@
 title: Manage a task that has an SLA
 description: How to access and manage tasks with SLAs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_ManageATaskWithASLA.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ Role required: wm\_admin, wm\_dispatcher, or dispatcher combination role
     |Skills Needed|Skills needed to perform the work.|
     |Parts Needed|Parts needed to perform the work.|
 
-    ![Field Service agent's SLA map showing the low, medium, and high risk SLA tasks at their location.](../../field-service-management/image/SLAMap.png "SLA map detail")
+    \[Omitted image "SLAMap.png"\] Alt text: Field Service agent's SLA map showing the low, medium, and high risk SLA tasks at their location.
 
 2.  Click the task number link to display the record in a pop-up window in the map.
 
@@ -46,5 +49,5 @@ Role required: wm\_admin, wm\_dispatcher, or dispatcher combination role
     |Business time left|Amount of time remaining for this SLA on the business calendar. If no business calendar exists, then this value is the same as the actual time remaining.|
 
 
-**Parent Topic:**[Use an SLA map](../concept/c_UseTheSLAMap.md)
+**Parent Topic:**[Use an SLA map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_UseTheSLAMap.md)
 

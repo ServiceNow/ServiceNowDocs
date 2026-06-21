@@ -2,7 +2,10 @@
 title: Change the time zone in Dispatcher Workspace
 description: You can change the time zone that shows on the calendar or hybrid view in Dispatcher Workspace to quickly move between the time zones that your agents are working in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/change-timezone-calendar.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ When you change the time zone in Dispatcher Workspace, the agent card shows the 
 
 Role required: wm\_dispatcher
 
-You must have more than one time zone configured. For more information, see the Calendar section in [Enable Dispatcher Workspace settings](dispatcher-wrkspc-settings.md).
+You must have more than one time zone configured. For more information, see the Calendar section in [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/dispatcher-wrkspc-settings.md).
 
 ## Procedure
 

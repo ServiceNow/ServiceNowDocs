@@ -2,6 +2,7 @@
 title: Components installed with HR Integrations
 description: Several types of components install with the activation of the HR Integrations plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/components-installed-with-hr-integrations.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Activate HR Integrations, HR Integrations, Integration of HR Servic
 
 Several types of components install with the activation of the HR Integrations plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -247,5 +248,5 @@ HR Integrations Worker Profile\[sn\_hr\_integrations\_worker\_profile\]
 Staging table for worker profiles, effective worker profiles, and future worker profiles.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate HR Integrations](../task/activate-hr-integrations.md)
+</table>**Parent Topic:**[Activate HR Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/activate-hr-integrations.md)
 

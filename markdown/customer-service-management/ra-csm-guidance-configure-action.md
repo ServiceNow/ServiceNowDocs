@@ -2,7 +2,10 @@
 title: Configure guidance actions in Recommended Actions
 description: Configure the actions that an agent can perform for a Recommended Actions guidance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-csm-guidance-configure-action.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2

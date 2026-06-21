@@ -2,6 +2,7 @@
 title: Table data options for pivot table visualizations
 description: When you select a table data source for a pivot table visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/config-dv-pivot-table-data.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -31,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected a Table data source in [Create a pivot table visualization in the Visualization Designer](../task/create-dv-pivot-ac.md).
+You have selected a Table data source in [Create a pivot table visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-pivot-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -61,7 +62,7 @@ Field
 
 Field to apply the metric to, for **Average**, **Sum**, or **Count Distinct** aggregations. You may further be able to aggregate on fields from extended tables.The data is shown in a format that matches the field type. For example, if you select an integer field, such as the **Priority** field, the data is expressed as a number. If you select a duration field, such as **Business duration** on the Incident table, the aggregated data is expressed in days, hours, and minutes.
 
-If function fields were created in Report Designer for the table, they are available in the dropdown list. For more information, see [Report on function fields](../concept/function-fields-reporting.md).
+If function fields were created in Report Designer for the table, they are available in the dropdown list. For more information, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/function-fields-reporting.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

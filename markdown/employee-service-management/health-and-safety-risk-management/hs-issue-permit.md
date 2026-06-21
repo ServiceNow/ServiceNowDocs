@@ -2,6 +2,7 @@
 title: Issue a permit to work
 description: A permit coordinator can issue a permit after the permit approver approves a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-issue-permit.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,7 +24,7 @@ Role required: sn\_hs\_rm.permit\_coordinator
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  Open the **Permit to work** list and select **All** and then select a permit to review.
 
@@ -43,5 +44,5 @@ Role required: sn\_hs\_rm.permit\_coordinator
     -   Select **Cancel permit** in the UI action menu, if there are unsafe conditions.
     -   Select **Suspend permit** in the UI action menu, if a danger is expected after the permit is issued. The permit can be suspended until the inspection is completed.
 
-**Parent Topic:**[Permit-to-work](../concept/hs-permit-to-work.md)
+**Parent Topic:**[Permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)
 

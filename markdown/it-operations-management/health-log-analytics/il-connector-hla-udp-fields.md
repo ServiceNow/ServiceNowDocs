@@ -2,6 +2,7 @@
 title: UDP integration configuration fields
 description: Description of the fields on the UDP integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-udp-fields.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -141,5 +142,5 @@ Drop if queue is full
 Option for selecting to discard logs if many processes are waiting in the queue to access the MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure UDP integrations](../task/il-connector-hla-udp.md)
+</table>**Parent Topic:**[Configure UDP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-udp.md)
 

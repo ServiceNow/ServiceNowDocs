@@ -2,6 +2,7 @@
 title: Disable Entity Expansion within the XMLDocument2 Streaming Parser \[Updated in Security Center 1.5\]
 description: If customizations do not require entity expansion, use the glide.stax.allow\_entity\_resolution property to completely disable external entity expansion. The XML completes parsing but doesn't include any internal or external entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -33,7 +34,7 @@ Before setting this property:
 |---------|-----------|
 |Property name|**glide.stax.allow\_entity\_resolution**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](validation-sanitization-encoding.md)|
+|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
 |Purpose|This remediation control must be enabled to defend against an XML Entity Expansion/Billion Laugh attack.|
 |Recommended value|false|
 |Default value|true|
@@ -41,9 +42,9 @@ Before setting this property:
 |Security risk|\(Critical\) An attacker can use this vulnerability to expand data exponentially, quickly consuming all system resources.|
 |Workaround|If the customization requires entity expansion, set this property to true and follow the steps documented in XMLdoc2 entity validation with whitelist.|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+To learn more about adding or creating a system property, see 
 
 For more information about OWASp resources, see [OWASp](https://owasp.org/www-project-top-ten/2017/A4_2017-XML_External_Entities_(XXE)).
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

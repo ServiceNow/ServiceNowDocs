@@ -2,6 +2,7 @@
 title: Configure a permit type
 description: Create a permit type to be selected in the permit-to-work request form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-configure-permit-type.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -21,7 +22,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 ## About this task
 
-The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role to enable the permit coordinator to perform this configuration. For more information, see [Configure permit-to-work](../concept/hs-configure-permit-to-work.md).
+The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role to enable the permit coordinator to perform this configuration. For more information, see [Configure permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-configure-permit-to-work.md).
 
 ## About this task
 
@@ -39,7 +40,7 @@ A permit type is a specific category of permit that a permit requestor selects w
 
 4.  On the form, fill in the fields.
 
-    For more information on the field description, see [Choice new record form](../reference/hs-choice-new-record-form.md).
+    For more information on the field description, see [Choice new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-choice-new-record-form.md).
 
 5.  Select **Submit**.
 
@@ -54,13 +55,13 @@ A permit type is a specific category of permit that a permit requestor selects w
 
         This creates a variable set with variables that are grouped.
 
-    5.  On the form, fill in the fields. For more information on the field description, see [Variable set new record form](../reference/hs-variable-set-new-record-form.md).
+    5.  On the form, fill in the fields. For more information on the field description, see [Variable set new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-variable-set-new-record-form.md).
     6.  Select **Submit**.
         -   Repeat the steps to create additional variable sets for the same record producer. These variable sets includes permit type specific questions that appear on the permit-to-work request form when the permit type is selected.
-        -   For more information on variable sets and the layout, see [Variable set layout](https://www.servicenow.com/docs/access?context=c_DefineVariableSetLayout&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+        -   For more information on variable sets and the layout, see .
 7.  Add customized questions to the permit type.
 
-    1.  Open a variable set and on the form fill in the fields. For more information on the field description, see [Variable new record form](../reference/hs-variable-new-record.md).
+    1.  Open a variable set and on the form fill in the fields. For more information on the field description, see [Variable new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.md).
     2.  Select **Submit**.
 8.  Link the variable set to permit type.
 
@@ -73,5 +74,5 @@ A permit type is a specific category of permit that a permit requestor selects w
     The variable set with the questions is linked with the permit type and these questions appear on the permit-to-work request form when the permit type is selected.
 
 
-**Parent Topic:**[Configure permit-to-work](../concept/hs-configure-permit-to-work.md)
+**Parent Topic:**[Configure permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-configure-permit-to-work.md)
 

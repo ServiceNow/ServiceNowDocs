@@ -2,6 +2,7 @@
 title: Syslog probe
 description: The ServiceNow Syslog probe uses the MID Server to deliver log messages from a ServiceNow instance to another machine, such as a dedicated log server, using the syslog protocol over an IP network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_SyslogProbe.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ The ServiceNow Syslog probe uses the MID Server to deliver log messages from a S
 
 ## How the Syslog probe works
 
-The syslog probe is launched by a ServiceNow [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US) \(called Syslog\) that can be invoked from a [Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US), event, or Orchestration activity and is launched by a MID Server. A syslog server or any server that can receive messages using the syslog protocol must be installed on the recipient \(target\) machine. Typically, a dedicated log server in the network is configured to receive all internal syslog messages. Some products that accept syslog messages are:
+The syslog probe is launched by a ServiceNow Script includes \(called Syslog\) that can be invoked from a Business rules, event, or Orchestration activity and is launched by a MID Server. A syslog server or any server that can receive messages using the syslog protocol must be installed on the recipient \(target\) machine. Typically, a dedicated log server in the network is configured to receive all internal syslog messages. Some products that accept syslog messages are:
 
 -   ArcSight
 -   Splunk
@@ -26,7 +27,7 @@ The syslog probe is launched by a ServiceNow [Script includes](https://www.servi
 
 The Acme Corporation wants to send a log message from their ServiceNow instance to an ArcSight syslog server inside their corporate firewall each time a user login fails. The system administrator uses the login.failed event to trigger a business rule that invokes the Syslog Script Include each time a login fails. Acme's MID Server checks the ECC Queue for work and picks up the syslog probe, which contains the log entry. The MID Server then sends the log message to the ArcSight server, which gathers log messages from all the machine in the internal network.
 
-![Syslog probe diagram](../image/SyslogProbeDiagram.png "Syslog probe diagram")
+\[Omitted image "SyslogProbeDiagram.png"\] Alt text: Syslog probe diagram
 
 ## Code sample
 
@@ -44,5 +45,5 @@ This code does the following:
 -   Sends the message to your syslog server
 -   Launches the probe via the MID Server named "Eclipse"
 
-**Parent Topic:**[Supported integration interfaces](r_SupportedIntegrationInterfaces.md)
+**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_SupportedIntegrationInterfaces.md)
 

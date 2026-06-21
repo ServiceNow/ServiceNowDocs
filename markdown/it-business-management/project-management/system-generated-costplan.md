@@ -2,6 +2,7 @@
 title: System-generated cost plans
 description: When an expense line is created without populating the Cost Plan field, system-generated cost plans are created automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/system-generated-costplan.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -33,5 +34,5 @@ When you create a time card and approve it, an expense line of type CapEx is cre
 
 For customers upgrading to Xanadu, you can run the project diagnostics, **Associate orphan expense lines to the system generated cost plan**, to associate orphan expense lines to a system-generated cost plan. The diagnostic scan lists the expense lines that are not associated to any cost plan. When you run the fix script, system-generated cost plans are created, and the orphan expense lines are associated to the system-generated cost plans.
 
-**Parent Topic:**[Create a project cost plan](../task/t_CreateAProjectCostPlan.md)
+**Parent Topic:**[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProjectCostPlan.md)
 

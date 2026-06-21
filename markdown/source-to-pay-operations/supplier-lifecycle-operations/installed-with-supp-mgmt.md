@@ -2,6 +2,7 @@
 title: Components installed with Supplier Lifecycle Operations
 description: Several types of components are installed with activation of Supplier Lifecycle Operations, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,9 +16,9 @@ breadcrumb: [Install Supplier Lifecycle Operations, Configuring Supplier Lifecyc
 
 Several types of components are installed with activation of Supplier Lifecycle Operations, including tables and user roles.
 
-The user roles and tables, even though installed along with Supplier Lifecycle Operations, reside in the Supplier Common Architecture application. For more information, see [Supplier Common Architecture](../concept/supplier-common.md).
+The user roles and tables, even though installed along with Supplier Lifecycle Operations, reside in the Supplier Common Architecture application. For more information, see [Supplier Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/supplier-common.md).
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -292,5 +293,5 @@ Organization Tax Details
 Stores the tax registration details of the supplier.**Note:** This table has been added in the Finance Common Architecture \(com.sn\_fin\) plugin.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Supplier Lifecycle Operations](../task/install-supp-mgmt.md)
+</table>**Parent Topic:**[Install Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
 

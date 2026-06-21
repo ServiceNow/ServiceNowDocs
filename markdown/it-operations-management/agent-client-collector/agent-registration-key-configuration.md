@@ -2,6 +2,7 @@
 title: Configure an agent registration key
 description: Configure an agent registration key so that you can deploy Agent Client Collector by using ITOM Cloud Services. With ITOM Cloud Services, you can deploy Agent Client Collector without a MID Server, which saves the MID Server for more persistent resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/agent-registration-key-configuration.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,7 +18,7 @@ Configure an agent registration key so that you can deploy Agent Client Collecto
 
 ## Before you begin
 
-Install the plugins necessary for ITOM Cloud Services, as described in [Agent Client Collector installation](../concept/acc-installation.md).
+Install the plugins necessary for ITOM Cloud Services, as described in [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-installation.md).
 
 Role required: agent\_client\_collector\_admin
 

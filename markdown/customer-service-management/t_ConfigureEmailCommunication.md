@@ -2,7 +2,10 @@
 title: Configure an email address for a product
 description: Users with the system administrator role can configure an email address that creates a case for a specific product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_ConfigureEmailCommunication.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

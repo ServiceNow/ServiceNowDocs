@@ -2,6 +2,7 @@
 title: Set up a work configuration
 description: Create a work configuration for a work item. Add filters that display key information that the manager wants to analyze. This work configuration will determine how the work items display on the Work scheduler calendar in manager workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-work-scheduler-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -110,7 +111,7 @@ The route where the card layout is defined for this work item type. The route di
 -   Assignment group field
 -   Start date field
 -   End date field
-If you need additional fields, you must add them in the **Extra fields** field. For information on defining a card layout, see [Create a Work Scheduler card using UI Builder](https://www.servicenow.com/docs/access?context=create-workscheduler-card-wfo-itsm&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If you need additional fields, you must add them in the **Extra fields** field. For information on defining a card layout, see Create a Work Scheduler card using UI Builder.
 
 </td></tr><tr><td>
 
@@ -149,10 +150,10 @@ Select a matching rule for the work configuration.
 
     4.  Add the desired conditions for the work configuration filter.
 
-        For information on adding conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+        For information on adding conditions, see Condition builder.
 
     5.  Select **Update**.
 
 
-**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](../concept/setting-up-work-scheduler-wfo-cs.md)
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setting-up-work-scheduler-wfo-cs.md)
 

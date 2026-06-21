@@ -2,6 +2,7 @@
 title: AWS Kinesis discovery
 description: The ServiceNow Discovery application uses the Amazon Kinesis discovery pattern to find Kinesis services available on Amazon Web Services \(AWS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/amazon-kinesis-discovery.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -22,7 +23,7 @@ Kinesis is a managed, scalable, AWS cloud-based service that allows real-time pr
 -   Kinesis Data Firehose - load data streams into AWS data stores.
 -   Kinesis Data Analytics- process and analyze streaming data.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -88,5 +89,5 @@ The status of the stream.
 |AWS Kinesis Firehose|Hosted on::Hosts|AWS Datacenter|
 |AWS Kinesis Data Analytics|Hosted on::Hosts|AWS Datacenter|
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

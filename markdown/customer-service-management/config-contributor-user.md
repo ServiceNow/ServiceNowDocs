@@ -2,7 +2,10 @@
 title: Configure Contributor Users
 description: The CSM Contributor User plugin enables you to engage middle office teams in resolving customer issues and requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-contributor-user.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin
 
 With the provided roles, relationships, and user profile attributes, contributors can report and collaborate on cases created for customers, service organizations, or themselves.
 
-The CSM Query Rules plugin is automatically activated by CSM Contributor User plugin \(com.snc.csm\_contributor\_user\). For more information, see [CSM Query Rules](../reference/csm-query-rules.md).
+The CSM Query Rules plugin is automatically activated by CSM Contributor User plugin \(com.snc.csm\_contributor\_user\). For more information, see [CSM Query Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-query-rules.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: IP address field type
 description: The IP Address \(Validated IPV4, IPV6\) \[ip\_addr\] field type stores valid IPv4 and IPv6 addresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r-IPAddressFieldType.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -40,7 +41,7 @@ The following are examples of valid IP addresses:
 
 The IP address `ip_addr` field is a Variable Character \(VARCHAR\) field with a length of 40 characters. The values are normally stored in standard \(dot-decimal or canonical\) notation for both IPv4 and IPv6 addresses regardless of the notation you use when you input values in the field.
 
-For example, if you enter an IPv6 address in a non-canonical format \(expanded or any other valid formats per [IETF RFC5952](https://tools.ietf.org/html/rfc5952)\), by default, the system will store it in canonical format unless an IP Data Control attribute value is defined on that column with a different address format. See the \[ip\_data\_control\] glide attribute section in [Altering tables and fields using dictionary attributes](../concept/c_DictionaryAttributes.md) for more details.
+For example, if you enter an IPv6 address in a non-canonical format \(expanded or any other valid formats per [IETF RFC5952](https://tools.ietf.org/html/rfc5952)\), by default, the system will store it in canonical format unless an IP Data Control attribute value is defined on that column with a different address format. See the \[ip\_data\_control\] glide attribute section in [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md) for more details.
 
 ## Support for data migration
 
@@ -54,5 +55,5 @@ Provide support in migrating IP addresses stored as string fields to the new **I
 -   **expanded**: The IP addresses are validated and stored in an expanded form to support efficient database range queries. Invalid IP addresses are rejected.
 -   **none**: No validation or normalization is performed in this value type. It is used only as an emergency mechanism as it essentially reverts this type to a plain string field.
 
-**Parent Topic:**[Field types](r_FieldTypes.md)
+**Parent Topic:**[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_FieldTypes.md)
 

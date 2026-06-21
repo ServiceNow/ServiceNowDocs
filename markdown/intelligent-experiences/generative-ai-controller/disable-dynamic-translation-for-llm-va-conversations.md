@@ -2,6 +2,7 @@
 title: Disable Dynamic Translation for LLM Virtual Agent conversations
 description: Enable dynamic translation of chat messages into English before they are sent to the ServiceNow large language model \(Now LLM\) in generative AI topics to support users who speak other languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/disable-dynamic-translation-for-llm-va-conversations.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -17,7 +18,7 @@ Enable dynamic translation of chat messages into English before they are sent to
 
 ## Before you begin
 
-You must have Dynamic Translation for Virtual Agent installed and active for your Virtual Agent. For more information, check out [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://www.servicenow.com/docs/access?context=dynamic-lang-detection-translation-enhanced-chat&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+You must have Dynamic Translation for Virtual Agent installed and active for your Virtual Agent. For more information, check out .
 
 Role required: admin
 
@@ -31,7 +32,7 @@ There are certain limitations of Dynamic Translation for Virtual Agent. Catalog 
 
 1.  Navigate to the System Properties table by entering `sys_properties.list` in the navigator.
 
-2.  Select the magnifying glass icon \(![Magnifying glass icon.](../../../reuse/icons/product-icons/magnifying-glass-fill-24.svg)\) to expand the column search row.
+2.  Select the magnifying glass icon \(\[Omitted image "magnifying-glass-fill-24.svg"\] Alt text: Magnifying glass icon.\) to expand the column search row.
 
 3.  In the Name column, enter `sn_generative_ai.disable_dynamic_translation` and press **Enter** to search, and then open the matching record.
 

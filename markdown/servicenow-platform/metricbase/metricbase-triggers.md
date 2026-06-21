@@ -2,6 +2,7 @@
 title: Triggering flows using MetricBase data
 description: Time-series data that is stored in the MetricBase database can trigger Workflow Studio flows. These triggers can log incidents, send emails, and create other alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/metricbase/metricbase-triggers.html
 release: xanadu
 product: MetricBase
 classification: metricbase
@@ -17,9 +18,9 @@ Time-series data that is stored in the MetricBase database can trigger Workflow 
 
 A trigger definition is a set of conditions that automatically executes a Workflow Studio flow. When you create a trigger definition in MetricBase and associate it with a flow, the trigger definition transfers from your instance to the MetricBase server. After you activate the trigger and flow, MetricBase monitors time-series data in the MetricBase database. When time-series data matches the initial triggering condition, and then transitions from one condition to the next, a transition trigger is generated and added to the queue. The instance polls the queue, processes the transition trigger, and then executes the Workflow Studio flow.
 
-![Trigger workflow](../image/mb-glide-relationship.png "Trigger workflow")
+\[Omitted image "mb-glide-relationship.png"\] Alt text: Trigger workflow
 
-For more information about time-series policies, see [Create a time-series definition in MetricBase](../task/set-up-data-monitoring.md).
+For more information about time-series policies, see [Create a time-series definition in MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/metricbase/set-up-data-monitoring.md).
 
 ## High-level overview of implementing triggers
 

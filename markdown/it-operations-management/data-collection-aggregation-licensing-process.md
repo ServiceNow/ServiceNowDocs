@@ -2,7 +2,10 @@
 title: Data collection and aggregation for licensing process
 description: ITOM/OT SU Licensing application counts CIs for ITOM applications and uses a daily average count for the last 90 days to produce license statistics for purchased subscription units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/data-collection-aggregation-licensing-process.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Exploring ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscripti
 
 ITOM/OT SU Licensing application counts CIs for ITOM applications and uses a daily average count for the last 90 days to produce license statistics for purchased subscription units.
 
-ServiceNow charges for various ITOM applications, including ITOM Visibility, ITOM Discovery, ITOM Health, Health Log Analytics, ITOM Cloud Accelerate, and ITOM Optimization. For specific information about the products and features covered by ITOM subscriptions, see [Subscriptions for IT Operations Management](itom-license-module.md).
+ServiceNow charges for various ITOM applications, including ITOM Visibility, ITOM Discovery, ITOM Health, Health Log Analytics, ITOM Cloud Accelerate, and ITOM Optimization. For specific information about the products and features covered by ITOM subscriptions, see [Subscriptions for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-license-module.md).
 
 The process of collecting and aggregating information for licensing purposes involves the following steps:
 
@@ -24,5 +27,5 @@ The process of collecting and aggregating information for licensing purposes inv
 
 As a result, you can view the statistics on how your organization uses purchased subscription units.
 
-![ITOM application license flow](../image/itom-licensing-flow.png "ITOM application license flow")
+\[Omitted image "itom-licensing-flow.png"\] Alt text: ITOM application license flow
 

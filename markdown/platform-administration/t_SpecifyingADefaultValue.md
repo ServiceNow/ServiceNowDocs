@@ -2,6 +2,7 @@
 title: Specify a default field value
 description: A default value populates a value in a field when a new record is created.Review the following examples about specifying default field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_SpecifyingADefaultValue.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -32,7 +33,7 @@ The default value populates the field on the blank form for a new record, and al
     **Note:** The default value should be the underlying value that would be present in the field, not the label. For example, in a choice list field, use the **value** of the choice as the default value, not the choice's name.
 
 
-**Parent Topic:**[Add and customize a field in a table](t_CreatingNewFields.md)
+**Parent Topic:**[Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreatingNewFields.md)
 
 ## Default field value examples
 
@@ -42,7 +43,7 @@ Review the following examples about specifying default field values.
 
 Here is an example that sets a default value for the **Priority** field.
 
-![](../image/DefaultValueConstant.png "Default value constant")
+\[Omitted image "DefaultValueConstant.png"\] Alt text:
 
 ### Javascript default values
 
@@ -80,5 +81,5 @@ To set a default value for a duration field, use the following in the **Default 
 javascript:current.duration_field.setDisplayValue('3 04:30:14');
 ```
 
-Avoid hard-coding a particular date-time. If the system date-time format changes, the value becomes invalid. Instead, select the **Use dynamic default** check box and assign a dynamic filter option. For more information on dynamic filters, see [Create a dynamic filter option](https://www.servicenow.com/docs/access?context=t_DynamicFilterOptions&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) .
+Avoid hard-coding a particular date-time. If the system date-time format changes, the value becomes invalid. Instead, select the **Use dynamic default** check box and assign a dynamic filter option. For more information on dynamic filters, see Create a dynamic filter option .
 

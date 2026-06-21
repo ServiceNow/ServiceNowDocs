@@ -2,6 +2,7 @@
 title: Read/write role for email client templates \[email\_client\_template\_write\]
 description: Reads and writes email client templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/email-client-roles-4.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"

@@ -2,6 +2,7 @@
 title: Configure Osqueryd schedule for SAM total usage metrics
 description: SAM total usage metrics works by relying on the Osqueryd service running on the target host. Configure the Osqueryd service to run the required schedule Osquery on the host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/import-external-pack-file-for-sam-total-usage-metrics.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -48,7 +49,7 @@ Role required: admin
 
 ## Result
 
-You can now [Configure Osquery logs for SAM total usage metrics](configure-osquery-logs-for-sam-total-usage-metrics.md).
+You can now [Configure Osquery logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md).
 
-**Parent Topic:**[Using push-based Discovery and SAM together](../concept/using-enhanced-discovery-and-sam-together.md)
+**Parent Topic:**[Using push-based Discovery and SAM together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/using-enhanced-discovery-and-sam-together.md)
 

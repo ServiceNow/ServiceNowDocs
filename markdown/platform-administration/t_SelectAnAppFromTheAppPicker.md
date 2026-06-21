@@ -2,6 +2,7 @@
 title: Select an application from the application picker
 description: Use the application picker to select the application scope to which any new records and updates apply.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_SelectAnAppFromTheAppPicker.html
 release: xanadu
 topic_type: task
 last_updated: "2024-09-05"
@@ -23,13 +24,13 @@ Application developers must select an application as their current scope context
 
 ## Procedure
 
-1.  In the Unified Navigation menu, select the picker icon\(![](../image/icon-scope.png)\).
+1.  In the Unified Navigation menu, select the picker icon\(\[Omitted image "icon-scope.png"\] Alt text:\).
 
-    When your application scope is set to a non-Global scope, the picker icon displays with a red ring \(![](../image/icon-scope-changed.png)\).
+    When your application scope is set to a non-Global scope, the picker icon displays with a red ring \(\[Omitted image "icon-scope-changed.png"\] Alt text:\).
 
 2.  Select **Application scope** to open a list of scopes available to you.
 
-    ![In Unified Navigation, the application scope picker icon is highlighted.](../image/application-scope-picker-unif-nav.png "Application scope picker in Unified Navigation")
+    \[Omitted image "application-scope-picker-unif-nav.png"\] Alt text: In Unified Navigation, the application scope picker icon is highlighted.
 
 3.  When admins change the application scope, the system automatically switches the current update set to be the application's default update set.
 
@@ -38,11 +39,11 @@ Application developers must select an application as their current scope context
 
 ## What to do next
 
-The application picker is part of the Next Experience picker. For more information, see [Exploring Next Experience pickers](https://www.servicenow.com/docs/access?context=next-experience-pickers&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+The application picker is part of the Next Experience picker. For more information, see .
 
-For more information about application scoping, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+For more information about application scoping, see .
 
-For more information about selecting update sets, see [Select the current update set in Unified Navigation](https://www.servicenow.com/docs/access?context=select-update-set-system-settings&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+For more information about selecting update sets, see .
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 

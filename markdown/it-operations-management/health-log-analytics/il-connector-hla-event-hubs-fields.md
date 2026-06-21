@@ -2,6 +2,7 @@
 title: Microsoft Azure Event Hubs integration configuration fields
 description: Description of the fields on the Microsoft Azure Event Hubs integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-event-hubs-fields.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -99,7 +100,7 @@ The MID Server cluster to which the log data is pulled.The data input runs on a 
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   The default maximum number of data inputs streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs running on it, even when that MID Server is down.
 
-For more information about MID Server clusters, see [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).This field is required.
+For more information about MID Server clusters, see Configure a MID Server cluster.This field is required.
 
 </td></tr></tbody>
 </table><table id="table_dy2_g5t_ngc"><thead><tr><th>
@@ -252,5 +253,5 @@ Drop if queue is full
 Option for selecting to discard logs if there is a load on the MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Set up a Microsoft Azure Event Hubs integration for Health Log Analytics](../task/il-connector-hla-event-hubs.md)
+</table>**Parent Topic:**[Set up a Microsoft Azure Event Hubs integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-event-hubs.md)
 

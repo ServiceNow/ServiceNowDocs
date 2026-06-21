@@ -2,7 +2,10 @@
 title: Translate the Microsoft Teams manifest file
 description: ServiceNow for Microsoft Teams supports localization to multiple languages, using UTF-8 for international characters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/localize-manifest-file.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,9 +16,9 @@ breadcrumb: [Integration for Employee Experience, Setup for integrating pre-publ
 
 ServiceNow for Microsoft Teams supports localization to multiple languages, using UTF-8 for international characters.
 
-You must activate the localized plugins in your instance. To install the language plugin, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+You must activate the localized plugins in your instance. To install the language plugin, see Activate a language.
 
-After installing the language plugin, you must create and download the manifest file and upload the file to Microsoft Teams. To download the manifest file, refer [Create and download the manifest file for pre-published apps](../task/download-manifest-file-mt.md).
+After installing the language plugin, you must create and download the manifest file and upload the file to Microsoft Teams. To download the manifest file, refer [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/download-manifest-file-mt.md).
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/c_employee_ex_tnt.md)
 

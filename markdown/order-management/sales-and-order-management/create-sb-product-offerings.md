@@ -2,6 +2,7 @@
 title: Create a product offering for a remote catalog item
 description: Create a product offering in a Service Exchange provider instance. When you publish the product offering, a remote record producer is created for the remote catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/create-sb-product-offerings.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ When you're creating the product offering, use the **Distribution channel** fiel
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace on the provider instance, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace on the provider instance, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings**.
 
@@ -109,7 +110,7 @@ Start date
 
 </td><td>
 
-Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon \(![](../image/field-calendar.png)\) to choose the start date and time, then select **OK**.
+Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text:\) to choose the start date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ End date
 
 </td><td>
 
-Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon \(![](../image/field-calendar.png)\) to choose the end date and time, then select **OK**.
+Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text:\) to choose the end date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -276,15 +277,15 @@ Name of the previous version of the product offering, For example:-   When you c
 
 7.  When you finish creating the product offering version, select one of the following actions.
 
-<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d28822e540">
+<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d31235e540">
 
 Action
 
-</th><th align="left" id="d28822e543">
+</th><th align="left" id="d31235e543">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28822e549">
+</th></tr></thead><tbody><tr><td id="d31235e549">
 
 **Publish**
 
@@ -294,7 +295,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d28822e567">
+</td></tr><tr><td id="d31235e567">
 
 **Update**
 
@@ -302,7 +303,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d28822e576">
+</td></tr><tr><td id="d31235e576">
 
 **Copy**
 
@@ -321,5 +322,5 @@ Copy the data in this product offering so that you can create a product offering
 </table>
 ## What to do next
 
-[Associate consumer criteria to a remote record producer](associate-criteria-remote-catalog.md) for this remote catalog item.
+[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/associate-criteria-remote-catalog.md) for this remote catalog item.
 

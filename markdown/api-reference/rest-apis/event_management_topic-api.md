@@ -2,6 +2,7 @@
 title: Event Management Topic Open API
 description: The Event Management Topic Open API provides an endpoint that enables you to send a topic through your message broker and store it on a ServiceNow instance.Creates a new record in the Topic \[sn\_api\_notif\_mgmt\_topic\] table and saves the passed topic information to that record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/event\_management\_topic-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -19,7 +20,7 @@ Using this API you can store topics created through your message broker in the S
 
 This API runs in the `sn-api-notif-mgmt` namespace and requires the sn\_api\_notif\_mgmt.event\_mgmt\_integration role.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Event Management Topic Open - POST /sn\_api\_notif\_mgmt/topic
 
@@ -154,7 +155,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -167,7 +168,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

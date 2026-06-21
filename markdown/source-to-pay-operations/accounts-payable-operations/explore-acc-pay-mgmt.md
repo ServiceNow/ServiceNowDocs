@@ -2,6 +2,7 @@
 title: Exploring Accounts Payable Operations
 description: Learn about the key features and capabilities of Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -17,7 +18,7 @@ Learn about the key features and capabilities of Accounts Payable Operations.
 
 The following figure illustrates the end-to-end invoice automation process.
 
-![Invoice automation process](../image/invoice-processing.png "End-to-end invoice automation process")
+\[Omitted image "invoice-processing.png"\] Alt text: Invoice automation process
 
 ## Key features
 
@@ -59,14 +60,14 @@ Accounts Payable Operations includes the following applications:
     The ServiceNow Accounts Payable Operations integration with Document Intelligence application captures data from invoices that are received through email or through APIs and automatically creates invoices and invoice lines in the Accounts Payable Operations application.
 
 
--   **[Accounts Payable Invoice Processing](acc-pay-invoice-processing.md)**  
+-   **[Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md)**  
 Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) enables Accounts Payable Specialists to ingest invoice documents and extract invoice data using ServiceNow® Document Intelligence.
--   **[Invoice Case Management](acc-pay-case-mgmt-overview.md)**  
+-   **[Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/acc-pay-case-mgmt-overview.md)**  
 With Invoice Case Management, agents can manage and work on their assigned invoice cases, request more information from suppliers or employees, and create and assign tasks to users using the Accounts Payable workspace.
--   **[Source-to-Pay Workspace](acc-pay-workspace.md)**  
+-   **[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/acc-pay-workspace.md)**  
 The Source-to-Pay Workspace enables you to manage and work on cases and tasks related to invoices and invoice exceptions.
--   **[Accounts Payable Operations integration with Document Intelligence](apo-docintel-integration.md)**  
+-   **[Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/apo-docintel-integration.md)**  
 Accounts Payable Operations integration with Document Intelligence \(com.sn\_ap\_ic\) enables you to automatically capture data from incoming invoices, thus significantly reducing manual effort.
 
-**Parent Topic:**[Accounts Payable Operations](acc-pay-mgmt-landing-page.md)
+**Parent Topic:**[Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: ERP Data Hub connection and credentials field descriptions
 description: The Connection and Credential Alias modal contains connection and credential details that specify how ERP Data Hub connects to the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-system-connection-form-details.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -98,5 +99,5 @@ Name of load balancer.Enter this value only if the connection you're specifying 
 |Password|Password to authenticate and log in to the system of record.|
 |Credential Name|Alias or name for the login credential.|
 
-**Parent Topic:**[ERP Data Hub field descriptions](erp-canvas-field-descriptions.md)
+**Parent Topic:**[ERP Data Hub field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

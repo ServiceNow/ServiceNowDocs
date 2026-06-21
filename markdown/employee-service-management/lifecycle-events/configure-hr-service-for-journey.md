@@ -2,6 +2,7 @@
 title: Configure an HR service for a journey
 description: Create a corresponding HR service so that the lifecycle event can be requested for service as part of an employee's journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/lifecycle-events/configure-hr-service-for-journey.html
 release: xanadu
 product: Lifecycle Events
 classification: lifecycle-events
@@ -21,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-HR services are the requests and assistance an HR organization provides its employees, and they are the starting point for HR case creation. You must create an HR service for a lifecycle event so that it can be requested for service. To learn more about HR services, including whether to make an HR service available for internal use only or for employee self-service, see [HR services](../concept/hr-service-administration.md).
+HR services are the requests and assistance an HR organization provides its employees, and they are the starting point for HR case creation. You must create an HR service for a lifecycle event so that it can be requested for service. To learn more about HR services, including whether to make an HR service available for internal use only or for employee self-service, see [HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-service-administration.md).
 
 ## Procedure
 
@@ -72,18 +73,18 @@ COE
 Select the COE you want the HR service to be categorized under.**Note:** An HR service for a Lifecycle event can be associated with any HR Center of Excellence \(COE\).
 
 </td></tr></tbody>
-</table>    ![On the HR service form, set the Fulfillment type to Journey](../image/create-hr-service-for-jny.png)
+</table>    \[Omitted image "create-hr-service-for-jny.png"\] Alt text: On the HR service form, set the Fulfillment type to Journey
 
 4.  Fill in the other fields on the form, as appropriate.
 
-    For further details on the form fields, see [Configure an HR service](configure-hr-service.md).
+    For further details on the form fields, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 5.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Building a lifecycle event](../concept/hr-lifecycle-event-configuration.md)
+**Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
-**Previous topic:**[Configure an HR service for a lifecycle event](create-hr-service-for-lifecycle-event.md)
+**Previous topic:**[Configure an HR service for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/lifecycle-events/create-hr-service-for-lifecycle-event.md)
 
-**Next topic:**[Using the Test Activity Sets tool for a lifecycle event activity set](../concept/hr-lifecycle-event-test-tool.md)
+**Next topic:**[Using the Test Activity Sets tool for a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md)
 

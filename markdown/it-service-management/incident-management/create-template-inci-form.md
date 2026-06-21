@@ -2,6 +2,7 @@
 title: Create a template from the incident form
 description: Create a template that define default values for forms so that users can easily create incident. You need to have appropriate permissions before creating templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/create-template-inci-form.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -23,13 +24,13 @@ Role required: itil, sn\_incident\_write, or admin
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Create**.
 
-2.  Click the more options icon ![More options icon](../../change-management/image/more-options.png) and then click **Toggle Template Bar** to see the template bar.
+2.  Click the more options icon \[Omitted image "more-options.png"\] Alt text: More options icon and then click **Toggle Template Bar** to see the template bar.
 
-    ![Toggle template bar](../image/toggle-template-bar.png)
+    \[Omitted image "toggle-template-bar.png"\] Alt text: Toggle template bar
 
-3.  On the template bar, click the add icon \(![Add icon](../image/add_icon.png)\).
+3.  On the template bar, click the add icon \(\[Omitted image "add\_icon.png"\] Alt text: Add icon\).
 
-    ![Click add to create template.](../image/create-template-inci-form.png)
+    \[Omitted image "create-template-inci-form.png"\] Alt text: Click add to create template.
 
 4.  On the form, fill in the fields.
 

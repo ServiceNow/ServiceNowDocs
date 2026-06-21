@@ -2,6 +2,7 @@
 title: Specify the configuration item for metric rules
 description: Choose application or device and define filter conditions for the metric rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/specify-metric-rule-applications.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -49,5 +50,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Define alert metric criteria](define-alert-metric-criteria.md).
+[Define alert metric criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.md).
 

@@ -2,6 +2,7 @@
 title: Report an issue using the Business Location Service Portal
 description: Use the Report an Issue catalog item in the Business Location Service Portal to submit a retail case support request for issues that can be resolved within your retail organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-report-issue-ssp.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -25,15 +26,15 @@ Role required: sn\_retail.associate, sn\_retail.support\_agent, or sn\_retail.ma
 
 3.  Fill in the following fields.
 
-<table id="choicetable_xjt_mlc_ccc"><thead><tr><th align="left" id="d18161e76">
+<table id="choicetable_xjt_mlc_ccc"><thead><tr><th align="left" id="d20830e76">
 
 Field
 
-</th><th align="left" id="d18161e79">
+</th><th align="left" id="d20830e79">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d18161e85">
+</th></tr></thead><tbody><tr><td id="d20830e85">
 
 **Requesting Retail Store**
 
@@ -43,7 +44,7 @@ The name of the store associated with this issue report.Defaults to the store as
 
 The supporting retail organization is automatically set to this value.
 
-</td></tr><tr><td id="d18161e97">
+</td></tr><tr><td id="d20830e97">
 
 **Priority**
 
@@ -51,7 +52,7 @@ The supporting retail organization is automatically set to this value.
 
 Indicates the priority level of this request.
 
-</td></tr><tr><td id="d18161e106">
+</td></tr><tr><td id="d20830e106">
 
 **Short Description**
 
@@ -59,7 +60,7 @@ Indicates the priority level of this request.
 
 A short description of the issue.
 
-</td></tr><tr><td id="d18161e115">
+</td></tr><tr><td id="d20830e115">
 
 **Description**
 

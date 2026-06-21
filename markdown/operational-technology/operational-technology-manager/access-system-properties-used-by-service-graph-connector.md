@@ -2,6 +2,7 @@
 title: Access system properties used by the Service Graph Connector
 description: As an admin, view system properties related to the Service Graph Connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/access-system-properties-used-by-service-graph-connector.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -30,5 +31,5 @@ Role required: admin, cmdb\_inst\_admin, or cmdb\_ot\_admin
 2.  View the list of scripts.
 
 
-**Parent Topic:**[Service Graph Connector for Microsoft Excel](../concept/service-graph-connector-for-OT-excel.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)
 

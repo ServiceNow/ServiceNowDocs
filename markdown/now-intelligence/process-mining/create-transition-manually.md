@@ -2,6 +2,7 @@
 title: Create a transition filter manually
 description: Create a transition filter to meet your needs and apply it to view the result on the process graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/create-transition-manually.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -29,13 +30,13 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 4.  Select **Transitions** from the Advanced filters area.
 
-    ![Transitions from Advanced filters area](../image/transition-location-1.png)
+    \[Omitted image "transition-location-1.png"\] Alt text: Transitions from Advanced filters area
 
     The transition filter form is displayed.
 
 5.  Fill the transition filter form with the required conditions.
 
-    ![Transition filter conditions](../image/transition-filter.png)
+    \[Omitted image "transition-filter.png"\] Alt text: Transition filter conditions
 
     1.  Define an activity by adding conditions that contain a field, operator, and values.
 
@@ -55,9 +56,9 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
         -   Eventually followed by
         -   Not directly followed by
         -   Not eventually followed by
-    5.  Select \(![Add activity conditions using the Transitions filter](../image/show-constraint.png)\) next to **No constraints added** text to edit constraints for this relationship.
+    5.  Select \(\[Omitted image "show-constraint.png"\] Alt text: Add activity conditions using the Transitions filter\) next to **No constraints added** text to edit constraints for this relationship.
 
-        After creating a constraint, you can select \(![Add activity conditions using the Transitions filter](../image/hide-constraint.png)\) to minimize the constraint editor.
+        After creating a constraint, you can select \(\[Omitted image "hide-constraint.png"\] Alt text: Add activity conditions using the Transitions filter\) to minimize the constraint editor.
 
     6.  Select **+ Add Chain** \(on the top right\) to create an additional chain of activities.
 
@@ -72,5 +73,5 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 6.  When the task completes, select **View result** in the Scheduled tasks panel of the Analyst Workbench.
 
 
-**Parent Topic:**[Apply a transition filter on an activity](../concept/node-to-node-conditions.md)
+**Parent Topic:**[Apply a transition filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/node-to-node-conditions.md)
 

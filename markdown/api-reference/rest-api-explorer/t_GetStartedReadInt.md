@@ -2,6 +2,7 @@
 title: Read the inserted incident
 description: Use the Location header from the POST response to run a GET request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-api-explorer/t\_GetStartedReadInt.html
 release: xanadu
 product: REST API Explorer
 classification: rest-api-explorer
@@ -41,8 +42,8 @@ Use the REST API Explorer to send the following request:
 
     The response also indicates the **Status code** and **Execution time** \(in milliseconds\) of the request.
 
-    ![REST API Explorer GET response](../image/rest-api-exp-get-response-2.png)
+    \[Omitted image "rest-api-exp-get-response-2.png"\] Alt text: REST API Explorer GET response
 
 
-**Parent Topic:**[Use the REST API Explorer](../concept/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

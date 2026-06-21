@@ -2,7 +2,10 @@
 title: Create a field recommendation in Recommended Actions
 description: Create a field recommendation that you can select when configuring a recommended action. Field recommendations auto-fill a value or suggest a value for a field. For example, this type of action can recommend the assignment group based on the text in the case short description.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-csm-field-recs-create.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -15,7 +18,7 @@ Create a field recommendation that you can select when configuring a recommended
 
 ## Before you begin
 
-Use the CSM default record page or the CSM Interaction record page to display field recommendations in CSM Configurable Workspace. For setting the CSM default record page or the CSM Interaction record page as default page, see [Set record page order](config-csm-ws-set-record-page-order.md).
+Use the CSM default record page or the CSM Interaction record page to display field recommendations in CSM Configurable Workspace. For setting the CSM default record page or the CSM Interaction record page as default page, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 Role required: sn\_nb\_action.next\_best\_action\_author, admin
 

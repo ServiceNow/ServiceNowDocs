@@ -2,7 +2,10 @@
 title: Set up a ribbon configuration in CSM Configurable Workspace
 description: Create a ribbon setting and add that setting to a ribbon configuration for CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-csm-config-ws-ribbon.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -205,7 +208,7 @@ Width
 
 </td><td>
 
-The number of columns the component occupies in the ribbon. The width of the page is 12 columns. When using multiple components, the total combined width of all the components must equal 12 or less.**Note:** The width is ignored if the ribbon is configured to display in the [contextual side panel](config-csm-display-header-in-sidebar.md).
+The number of columns the component occupies in the ribbon. The width of the page is 12 columns. When using multiple components, the total combined width of all the components must equal 12 or less.**Note:** The width is ignored if the ribbon is configured to display in the [contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-csm-display-header-in-sidebar.md).
 
 </td></tr><tr><td>
 

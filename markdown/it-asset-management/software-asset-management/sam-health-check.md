@@ -2,6 +2,7 @@
 title: Software Asset Management health check
 description: The Health Check ServiceNow Store application gives a correct and reliable overview of your Software Asset Management configurations and recommends you to correct any errors that may exist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/sam-health-check.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -17,7 +18,7 @@ The Health Check ServiceNow Store application gives a correct and reliable overv
 
 The Health Check application can be used by multiple personas such as implementation partners, SAM managers, and support analysts to determine the health check of their configurations.
 
-Use the Health Check ServiceNow Store application at any point during the deployment of the Software Asset Management application to identify errors. For example, configuration errors such as incorrect setup of entitlements or software models, or missing data attributes found from Discovery. For details on running a health check scan, see [Run a health check scan for Software Asset Management](../task/run-healthcheck.md).
+Use the Health Check ServiceNow Store application at any point during the deployment of the Software Asset Management application to identify errors. For example, configuration errors such as incorrect setup of entitlements or software models, or missing data attributes found from Discovery. For details on running a health check scan, see [Run a health check scan for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/run-healthcheck.md).
 
 The current set of checks include checks for the following configurations:
 
@@ -34,7 +35,7 @@ The scheduled job, **SAM - Trigger Full Scan**, runs weekly on the KPI categorie
 
 Notifications regarding the health checks can be viewed in the Software Asset overview view.
 
-After the health scan is performed, view the results on the Health Check dashboard. View the results in the form of reports that you can download and those reports give recommendations on resolving the issues. For more information, see [Health check](health-check-dboard.md).
+After the health scan is performed, view the results on the Health Check dashboard. View the results in the form of reports that you can download and those reports give recommendations on resolving the issues. For more information, see [Health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/health-check-dboard.md).
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

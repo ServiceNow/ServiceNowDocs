@@ -2,6 +2,7 @@
 title: Cancel a clone
 description: You can cancel requested, scheduled, and active clones without negatively impacting system stability or usability. Canceling a clone restores the target instance to the pre-clone state, retaining all original data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/cancel-clone.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-![Active clone log](../image/ActiveSystemClone.png "Active system clone")
+\[Omitted image "ActiveSystemClone.png"\] Alt text: Active clone log
 
 After starting a clone, the **Clone Log** and **Database Table Clones** related lists appear on the form. These related lists show general log messages, and the details of individual tables respectively.
 
@@ -39,7 +40,7 @@ The duration a clone remains active varies upon the amount of data being cloned,
 
     The **Cancel Clone** modal displays.
 
-    ![Cancel clone](../image/cancel-clone-telemetry.png)
+    \[Omitted image "cancel-clone-telemetry.png"\] Alt text: Cancel clone
 
 4.  In **Specify Reason**, select a reason for the cancellation and click **OK**, or select **Others**, enter a reason in the text box and click **OK**.
 
@@ -48,5 +49,5 @@ The duration a clone remains active varies upon the amount of data being cloned,
 
 ## What to do next
 
-If you want to restart a canceled clone, you must create a [new clone request](t_StartAClone.md).
+If you want to restart a canceled clone, you must create a [new clone request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_StartAClone.md).
 

@@ -2,6 +2,7 @@
 title: Disable ServiceNow root of trust \[Removed in 1.5\]
 description: Use the com.snc.csf.servicenow\_root\_of\_trust.disabled property to control which build key certificates are trusted on an instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-disable-servicenow-root-of-trust.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Malicious code](sc-malicious-code.md)
+[Malicious code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-malicious-code.md)
 
 </td></tr><tr><td>
 
@@ -99,8 +100,8 @@ References
 
 </td><td>
 
--   [Change your Root of Trust configuration](../../encryption/concept/change-rot-overview.md)
--   [Disable ServiceNow Root of Trust](../../encryption/task/disable-sn-rot.md)
+-   [Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/change-rot-overview.md)
+-   [Disable ServiceNow Root of Trust](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/disable-sn-rot.md)
 
 </td></tr><tr><td>
 
@@ -111,5 +112,5 @@ Functional impact
 This property enables or disables Servicenow Root of Trust.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Malicious code](sc-malicious-code.md)
+</table>**Parent Topic:**[Malicious code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-malicious-code.md)
 

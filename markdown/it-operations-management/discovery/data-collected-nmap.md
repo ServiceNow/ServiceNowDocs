@@ -2,6 +2,7 @@
 title: Nmap commands and data collected with credential-less Discovery
 description: Nmap executes in phases when collecting data and runs a controlled set of safe commands with two patterns for exploring applications and devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/data-collected-nmap.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -289,5 +290,5 @@ Redirects `stdout` to a XML file.
 Redirects errors messages written by Nmap to `stderr` to the specified file.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Credential-less Discovery with Nmap](../concept/nmap-credential-less-discovery.md)
+</table>**Parent Topic:**[Credential-less Discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/nmap-credential-less-discovery.md)
 

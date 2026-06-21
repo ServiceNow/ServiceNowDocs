@@ -2,6 +2,7 @@
 title: Install the AES product and integrations
 description: Install the App Engine Studio \(AES\) product to ensure you get all the dependencies, integrations, and tools, such as templates and builders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/aes-install-product-integrations.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -27,11 +28,11 @@ Role required: admin
 
 2.  Locate the App Engine Studio product \(not the application\), and select **Install**.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
     **Note:** You must select the AES product, not the application.
 
-    ![Install the AES product](../image/aes-activate-plugin.jpg)
+    \[Omitted image "aes-activate-plugin.jpg"\] Alt text: Install the AES product
 
 3.  On the Install dialog box, review the list of applications and dependencies to install.
 
@@ -48,5 +49,5 @@ Role required: admin
 
 App Engine Studio is installed on your instance.
 
-**Parent Topic:**[AES and the ServiceNow Store](../concept/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-installation-store.md)
 

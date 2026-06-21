@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection Investigate and resolve ITSM incidents agentic workflow
 description: Use the Investigate and resolve ITSM incidents AI agent team to get recommendations to resolve an incident based on the incident number. Check for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -24,7 +25,7 @@ Using the Investigate and resolve ITSM incidents agentic workflow:
 2.  Check for Knowledge articles and similar incidents.
 3.  Get recommended steps for incident resolution.
 
-To modify the Investigate and resolve ITSM incidents agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Investigate and resolve ITSM incidents agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or a tool, make sure that you update all instructions accordingly.
 
@@ -97,9 +98,9 @@ In the agentic workflow record:
     **Example of Investigate and resolve ITSM incidents agentic workflow output in the ServiceNow AI Agent Studio**
 
 
-![Investigate and resolve ITSM incidents agentic workflow output.](../image/now-assist-itsm-aiagents-incident-resolution-workflow.png)
+\[Omitted image "now-assist-itsm-aiagents-incident-resolution-workflow.png"\] Alt text: Investigate and resolve ITSM incidents agentic workflow output.
 
-In the AI Agent Studio, the human agent gets notified as soon as the recommendations to resolve incidents get generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](../task/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as the recommendations to resolve incidents get generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
-**Parent Topic:**[Using agentic workflows in Now Assist for ITSM](now-assist-itsm-ai-agents-use-cases.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md)
 

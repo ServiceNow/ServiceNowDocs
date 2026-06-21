@@ -2,6 +2,7 @@
 title: Platform Analytics dashboard tables
 description: The following tables relate to Platform Analytics dashboards and can be accessed through scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/par-dashboard-tables.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-05-19"

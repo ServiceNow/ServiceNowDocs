@@ -2,6 +2,7 @@
 title: NetApp SolidFire storage system discovery
 description: ServiceNow Discovery uses the NetApp SolidFire storage system discovery pattern to find clusters and nodes on the SolidFire storage system. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -17,7 +18,7 @@ ServiceNow Discovery uses the NetApp SolidFire storage system discovery pattern 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -92,7 +93,7 @@ Option for enabling this schedule for discovery. Select this check box to enable
 </table>    3.  Right-click the header of the Discovery Schedule form and select **Save**.
     4.  Click the **Serverless Execution Patterns** tab, click **New**, and then fill in the form.
 
-        ![Serverless execution pattern](../image/serverless-execution-pattern.png)
+        \[Omitted image "serverless-execution-pattern.png"\] Alt text: Serverless execution pattern
 
         |Field|Description|
         |-----|-----------|
@@ -158,7 +159,7 @@ The discovered SolidFire configuration data includes the following tables and fi
 
 The Dependency Views map shows all discovered SolidFire storage system clusters and nodes in your organization and the relationships between them.
 
-![SolidFire storage system dependency view](../image/storage-system-dependency.jpg)
+\[Omitted image "storage-system-dependency.jpg"\] Alt text: SolidFire storage system dependency view
 
 ## CI relationships
 
@@ -171,5 +172,5 @@ The Dependency Views map shows all discovered SolidFire storage system clusters 
 |Storage server \(main CI\)|Runs On::Runs|Storage cluster|
 |Storage server \(main CI\)|Contains::Contained By|Disk|
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

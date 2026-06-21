@@ -2,6 +2,7 @@
 title: Histogram reports
 description: Histograms group numbers in a data set into ranges. The data used in a histogram is continuous data. Continuous data is measured whereas discrete data, which is used in bar charts, is counted.Histograms group numbers in a continuous data set into ranges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/reporting/c\_CreatingHistograms.html
 release: xanadu
 product: Reporting
 classification: reporting
@@ -17,11 +18,11 @@ Histograms group numbers in a data set into ranges. The data used in a histogram
 
 For example, a histogram can show the pattern of P1 incidents logged over a four-week period after a product release. For the first week after the product was released, P1 incidents are low because users do not really understand the product enough to use it. In the second week, more users start working with the product and P1 issues increased. In the third week, P1 issues increase even more as more users began working with the product. In the fourth week, P1 issues stay the same as the third week. The information suggests that it is not necessary to increase support staff until the third week after a product is released.
 
-**Note:** When accessibility is enabled, this visualization includes a report that screen readers can interpret. For more information, see [Enabling accessibility features](https://www.servicenow.com/docs/access?context=c_SetUpSect508ComplianceFeature&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+**Note:** When accessibility is enabled, this visualization includes a report that screen readers can interpret. For more information, see Enabling accessibility features.
 
-![Histogram Report example](../image/histo-report-ex.png "Histogram report")
+\[Omitted image "histo-report-ex.png"\] Alt text: Histogram Report example
 
-**Parent Topic:**[Report types](../reference/report-types-creation-details-rd.md)
+**Parent Topic:**[Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/report-types-creation-details-rd.md)
 
 ## Create a histogram report
 
@@ -41,37 +42,37 @@ Roles required: itil, report\_user, report\_group, report\_global, report\_admin
 
 3.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d136910e196">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d42714e196">
 
 **Data source**
 
 </td><td>
 
-Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](c_ReportSources.md#).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
+Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d136910e215">
+</td></tr><tr><td id="d42714e215">
 
 **Table**
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see Retrieving external data using remote tables and scripts
 
-</td></tr><tr><td id="d136910e234">
+</td></tr><tr><td id="d42714e234">
 
 **External import**
 
 </td><td>
 
-Choose an existing imported report source, or select the Upload icon \(![Upload icon](../image/upload-icon.png)\) to import a new file. See [Create a report from an imported Microsoft Excel document](../task/create-report-with-imported-data-source.md).
+Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d136910e259">
+</td></tr><tr><td id="d42714e259">
 
 **MetricBase**
 
 </td><td>
 
-MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see [MetricBase](https://www.servicenow.com/docs/access?context=metricbase&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see MetricBase.
 
 </td></tr></tbody>
 </table>4.  Select **Next**.
@@ -96,7 +97,7 @@ Configure function field
 
 </td><td>
 
-Configure fields based on calculation of multiple inputs including arithmetic functions. For more information, see [Report on function fields](function-fields-reporting.md). Function field results are calculated when the report is run. You can use the results for aggregations and grouping. You have to save the report before you can configure function fields.Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
+Configure fields based on calculation of multiple inputs including arithmetic functions. For more information, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/function-fields-reporting.md). Function field results are calculated when the report is run. You can use the results for aggregations and grouping. You have to save the report before you can configure function fields.Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
 
 </td></tr><tr><td>
 
@@ -104,12 +105,12 @@ Measured by
 
 </td><td>
 
-Select a field to report against. The values from this field appear on the X axis of the histogram and determine the width of the bars. Select the info icon \(![](../image/icon-info.png)\) for a description of the selected field.
+Select a field to report against. The values from this field appear on the X axis of the histogram and determine the width of the bars. Select the info icon \(\[Omitted image "icon-info.png"\] Alt text:\) for a description of the selected field.
 
 </td></tr></tbody>
-</table>7.  To limit the information displayed in the report, select the filter icon \(![](../../../common/image/List_FilterIcon.png)\) and specify conditions to filter the report data.
+</table>7.  To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text:\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+    To learn how to construct conditions, see Condition builder.
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
@@ -118,6 +119,6 @@ Select a field to report against. The values from this field appear on the X axi
 
 ### What to do next
 
--   Select the Report info icon \(![](../../../common/image/Form_ReferenceLookupIcon.png)\) and add a description of the report.
--   Select the sharing icon \(![](../image/ShareIcon.png)\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules.
+-   Select the Report info icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text:\) and add a description of the report.
+-   Select the sharing icon \(\[Omitted image "ShareIcon.png"\] Alt text:\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules.
 

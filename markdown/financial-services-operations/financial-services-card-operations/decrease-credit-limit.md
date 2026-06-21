@@ -2,6 +2,7 @@
 title: Decrease the credit limit of a card
 description: Decrease the credit limit of a customer's credit card as per the credit card service request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-card-operations/decrease-credit-limit.html
 release: xanadu
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -19,19 +20,19 @@ Decrease the credit limit of a customer's credit card as per the credit card ser
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
 When a credit card service case for a decrease in the credit limit is created, the Decrease Credit Limit flow is triggered. This flow automatically creates a credit card task in the **Tasks** tab of the case to decrease the credit limit for the customer.
 
-For more information on the flows that are installed with the Financial Services Card Operations application, see [Designer flows for Financial Services Operations applications](../../fso-common/reference/flow-designer-flows-fso-apps.md).
+For more information on the flows that are installed with the Financial Services Card Operations application, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/flow-designer-flows-fso-apps.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Credit Card Service Cases**, open the case list.
 

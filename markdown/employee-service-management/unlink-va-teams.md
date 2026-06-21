@@ -2,7 +2,10 @@
 title: Unlink your ServiceNow user account from Microsoft Teams for Virtual Agent
 description: Unlinking your account from Microsoft Teams to deactivate the association between your ServiceNow account and the Microsoft Teams application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/unlink-va-teams.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -34,5 +37,5 @@ After you unlink your account, you can no longer engage in Virtual Agent convers
     **Note:** Even though you unlinked your account, you can still run public Virtual Agent conversations. To link your account again, repeat steps 1 through 3 for the associated messaging integration and in the **Actions on selected rows...** click **Link account**.
 
 
-**Parent Topic:**[Employee actions](../concept/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-sn-ms-teams.md)
 

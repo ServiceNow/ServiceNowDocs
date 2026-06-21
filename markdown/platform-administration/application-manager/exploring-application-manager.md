@@ -2,6 +2,7 @@
 title: Exploring Application Manager
 description: Application Manager provides admins the ability to install, update, and manage licensed applications and plugins for their instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/exploring-application-manager.html
 release: xanadu
 product: Application Manager
 classification: application-manager
@@ -38,22 +39,22 @@ The Application Manager main page includes three main tabs: **Available for you*
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Install any application or plugin included in your license, or any application obtained through the ServiceNow Store.|[Install applications and plugins](../../../build/applications/task/installing-applications-in-application-manager.md)|Administrators|
-|Update installed applications and plugins to get access to the latest features.|[Update applications and plugins](updating-apps-app-manager.md)|Administrators|
-|Repair applications and plugins to return them to their original state if accidental changes occur.|[Repair applications and plugins](repairing-apps-app-manager.md)|Administrators|
-|View all applications and plugins available to install and complete the installation process. This includes applications and plugins included in your license and applications obtained from the ServiceNow Store.|[View all available applications](available-for-you-app-mgr.md)|Administrators|
-|Review a list of all installed applications and plugins that can be updated to a newer version and complete the update process.|[View applications and plugins with available updates](updates-app-mgr.md)|Administrators|
-|View a list of all applications and plugins that have been installed on your ServiceNow AI Platform instance. Select an application or plugin from the list to display its description and technical details.|[View all installed applications and plugins](installed-app-mgr.md)|Administrators|
-|View the description and technical details of any available or installed application or plugin. Technical details include dependencies and system requirements. Any options to update, uninstall, or repair the application or plugin are also included.|[View technical details of available or installed applications and plugins](app-details-app-mgr.md)|Administrators|
-|Access an overview of recent and upcoming Application Manager activity, including installations, updates, scheduled jobs, and errors.|[View the Activity log](app-mgr-activity-log.md)|Administrators|
+|Install any application or plugin included in your license, or any application obtained through the ServiceNow Store.|[Install applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/installing-applications-in-application-manager.md)|Administrators|
+|Update installed applications and plugins to get access to the latest features.|[Update applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/updating-apps-app-manager.md)|Administrators|
+|Repair applications and plugins to return them to their original state if accidental changes occur.|[Repair applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/repairing-apps-app-manager.md)|Administrators|
+|View all applications and plugins available to install and complete the installation process. This includes applications and plugins included in your license and applications obtained from the ServiceNow Store.|[View all available applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/available-for-you-app-mgr.md)|Administrators|
+|Review a list of all installed applications and plugins that can be updated to a newer version and complete the update process.|[View applications and plugins with available updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/updates-app-mgr.md)|Administrators|
+|View a list of all applications and plugins that have been installed on your ServiceNow AI Platform instance. Select an application or plugin from the list to display its description and technical details.|[View all installed applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/installed-app-mgr.md)|Administrators|
+|View the description and technical details of any available or installed application or plugin. Technical details include dependencies and system requirements. Any options to update, uninstall, or repair the application or plugin are also included.|[View technical details of available or installed applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/app-details-app-mgr.md)|Administrators|
+|Access an overview of recent and upcoming Application Manager activity, including installations, updates, scheduled jobs, and errors.|[View the Activity log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/app-mgr-activity-log.md)|Administrators|
 
 ## What to explore next
 
 To learn more about configuring and using Application Manager, see:
 
--   [Configuring Application Manager](configuring-app-manager.md)
--   [Installing applications, plugins, and products](installing-apps-app-manager.md)
--   [Updating applications](updating-apps-app-manager.md)
--   [Uninstalling applications](uninstalling-apps-app-manager.md)
--   [Repairing applications and plugins with Application Manager](repairing-apps-app-manager.md)
+-   [Configuring Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/configuring-app-manager.md)
+-   [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/installing-apps-app-manager.md)
+-   [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/updating-apps-app-manager.md)
+-   [Uninstalling applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/uninstalling-apps-app-manager.md)
+-   [Repairing applications and plugins with Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/repairing-apps-app-manager.md)
 

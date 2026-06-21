@@ -2,7 +2,10 @@
 title: Extend On-Call Scheduling users to initiate Microsoft Teams Chat
 description: View the list of On-Call Scheduling users in Start Microsoft Teams chat for a change, request, or a request item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/extend-on-call-users-start-chat.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -23,13 +26,13 @@ Role required: admin
 
     The list of properties in the System Properties \[sys\_properties\] table appears.
 
-    ![System properties list.](../images/sys-properties.png)
+    \[Omitted image "sys-properties.png"\] Alt text: System properties list.
 
 2.  In the Name search field, enter `sn_tcm_collab_hook.on_call_tables_for_start_chat_action`.
 
 3.  Select **sn\_tcm\_collab\_hook.on\_call\_tables\_for\_start\_chat\_action** system property.
 
-    ![TCM system property details.](../images/sn-tcm-collab-system-property.png)
+    \[Omitted image "sn-tcm-collab-system-property.png"\] Alt text: TCM system property details.
 
 4.  In the Value field, provide the tables to which you must extend the functionality.
 
@@ -38,5 +41,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Include On-call scheduling users to initiate Microsoft Teams chat](../concept/on-call-users-start-chat.md)
+**Parent Topic:**[Include On-call scheduling users to initiate Microsoft Teams chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/on-call-users-start-chat.md)
 

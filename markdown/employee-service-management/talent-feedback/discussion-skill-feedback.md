@@ -2,6 +2,7 @@
 title: Begin a discussion from a Talent Feedback request
 description: You can choose to begin a discussion regarding a talent feedback request using the Discuss option.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-feedback/discussion-skill-feedback.html
 release: xanadu
 product: Talent Feedback
 classification: talent-feedback
@@ -73,5 +74,5 @@ A message to the participants explaining the feedback/skill.
 </table>5.  Select **Start discussion**.
 
 
-**Parent Topic:**[View feedback requests](view-feedback-request.md)
+**Parent Topic:**[View feedback requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/view-feedback-request.md)
 

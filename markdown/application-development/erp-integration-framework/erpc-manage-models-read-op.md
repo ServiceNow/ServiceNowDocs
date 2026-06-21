@@ -2,6 +2,7 @@
 title: Add an operation to a model in ERP Data Hub
 description: Add an operation to an ERP \(Enterprise Resource Planning\) model in ERP Data Hub to define how it retrieves data from or writes data to the ERP system, or creates a new instance of the business object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erpc-manage-models-read-op.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -29,13 +30,13 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
 
 1.  Navigate to **All** &gt; **ERP Data Hub** &gt; **ERP Data Hub Home**.
 
-2.  Open the ERP model page by selecting the ERP model icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+2.  Open the ERP model page by selecting the ERP model icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
 3.  Select the model to which you want to add an operation.
 
 4.  Select the **Manage model** button.
 
-    ![Add model operation button appears on the ERP model manager page](../image/erpc-model-operation-page-manager.png "ERP model manager page")
+    \[Omitted image "erpc-model-operation-page-manager.png"\] Alt text: Add model operation button appears on the ERP model manager page
 
 5.  Select **Add model operation**.
 
@@ -44,7 +45,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
     -   **Update** sends data back to write to the ERP system.
     -   **Read** reads and retrieves data from the ERP system and brings it onto the ServiceNow AI Platform.
     -   **Create** is used to create a new instance of the business object in the SAP system. \(Available starting in Xanadu Store Release 2\)
-    ![Specify the type of operation you're adding](../image/erpc-add-operation-modal.png "Add operation")
+    \[Omitted image "erpc-add-operation-modal.png"\] Alt text: Specify the type of operation you're adding
 
 7.  Select **Save and continue**.
 
@@ -55,9 +56,9 @@ The foundation of the operation is created.
 
 ## What to do next
 
-Next, you must add the read or update entity to the operation. For more information, see [Add a read, update, or create entity to a model in ERP Data Hub](erpc-add-entity-to-model-op.md)
+Next, you must add the read or update entity to the operation. For more information, see [Add a read, update, or create entity to a model in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md)
 
-You can select the delete icon \(![Delete icon](../../../reuse/icons/product-icons/trash-outline-24.svg)\) on the operation's card to remove any operations you don't need, or to start over.
+You can select the delete icon \(\[Omitted image "trash-outline-24.svg"\] Alt text: Delete icon\) on the operation's card to remove any operations you don't need, or to start over.
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

@@ -2,6 +2,7 @@
 title: Accessing the lifecycle events
 description: Access the Employee Return to Workplace and Return to Workplace Location Readiness employee experiences from Lifecycle Events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/safe-workplace/access-return-workplace.html
 release: xanadu
 product: Safe Workplace
 classification: safe-workplace
@@ -26,5 +27,5 @@ Role required: sn\_hr\_le.activity\_writer
 2.  From the Manage Lifecycle Events list, select **Employee Return to Workplace** or **Return to Workplace Location Readiness**.
 
 
-**Parent Topic:**[Return to Workplace Location Readiness and Employee Return to Workplace lifecycle events](../concept/return-workplace-le.md)
+**Parent Topic:**[Return to Workplace Location Readiness and Employee Return to Workplace lifecycle events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/return-workplace-le.md)
 

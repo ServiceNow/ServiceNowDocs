@@ -2,6 +2,7 @@
 title: Business rule use cases
 description: Use cases for business rules include aborting a database action and restricting record access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/scripts/useful-business-rules.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -15,10 +16,10 @@ breadcrumb: [Useful scripts, Scripting, Building pro-code applications, Developi
 
 Use cases for business rules include aborting a database action and restricting record access.
 
--   **[Abort a database action](c_AbortDatabaseActionBusRule.md)**  
+-   **[Abort a database action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/c_AbortDatabaseActionBusRule.md)**  
 You can use a before business rule script to cancel or abort the current database action using the current.setAbortAction\(true\) method.
--   **[Restricting record access](c_ExScptDftBfrQryBsnRu.md)**  
+-   **[Restricting record access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/c_ExScptDftBfrQryBsnRu.md)**  
 You can use a query business rule that executes before the database query to prevent users from accessing certain records.
 
-**Parent Topic:**[Useful scripts](usefulScripts.md)
+**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/usefulScripts.md)
 

@@ -2,7 +2,10 @@
 title: Dispatching work order tasks
 description: When all of the work order tasks associated with a work order are qualified, you can dispatch the work order tasks. You can dispatch them from either the task form, the task map, or Dispatcher Workspace.Dispatch a work order task from the dispatch queue. You can also reassign the task from the queue.Dispatch a work order task from the task map. You can also reassign the task from the map.Automatically match a task to a nearby agent who has the necessary skills and a schedule that can accommodate the task.Request more details from the qualifier if there is not enough information in the task record to dispatch a work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/c\_DispatchWorkOrderTasks.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 6
@@ -13,19 +16,19 @@ breadcrumb: [Scheduling and dispatching work order tasks to agents, Using Field 
 
 When all of the work order tasks associated with a work order are qualified, you can dispatch the work order tasks. You can dispatch them from either the task form, the task map, or Dispatcher Workspace.
 
-When all of the associated work order tasks are qualified, the state of the parent work order changes to Qualified. If you have already [sourced parts](c_SourceParts.md) and created [transfer order lines](../task/create-transfer-order.md), then you are ready to begin dispatching the work order tasks to agents.
+When all of the associated work order tasks are qualified, the state of the parent work order changes to Qualified. If you have already [sourced parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_SourceParts.md) and created [transfer order lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/create-transfer-order.md), then you are ready to begin dispatching the work order tasks to agents.
 
 Users with the following roles can dispatch work order tasks: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher, or wm\_admin.
 
 You can dispatch work order tasks to qualified work agents from these locations:
 
--   [Dispatch queue](c_DispatchWorkOrderTasks.md#): Dispatch tasks to agents from task records.
--   [Task map](c_DispatchWorkOrderTasks.md#): Dispatch tasks to agents using a Google map with geolocation.
+-   [Dispatch queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_DispatchWorkOrderTasks.md): Dispatch tasks to agents from task records.
+-   [Task map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_DispatchWorkOrderTasks.md): Dispatch tasks to agents using a Google map with geolocation.
 -   Dispatcher Workspace: Dispatch tasks to agents using the drag-and-drop and auto-assign capabilities.
 
-**Note:** When dynamic scheduling is enabled, dispatchers can manually double-book an agent for more than one work order task with overlapping time. You can enable double booking using **work.management.allow.doublebooking.dynamicscheduling** [system property](../reference/r_InstalledWithFSM.md).
+**Note:** When dynamic scheduling is enabled, dispatchers can manually double-book an agent for more than one work order task with overlapping time. You can enable double booking using **work.management.allow.doublebooking.dynamicscheduling** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_InstalledWithFSM.md).
 
-**Parent Topic:**[Scheduling and dispatching work order tasks to agents](../../field-service-management/concept/scheduling-and-dispatching-agents.md)
+**Parent Topic:**[Scheduling and dispatching work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-and-dispatching-agents.md)
 
 ## Dispatch a work order task from the dispatch queue
 
@@ -43,15 +46,15 @@ Role required: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher, or wm\_admi
 
 3.  Assign task to an agent or a crew.
 
-<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d82259e232">
+<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d37080e232">
 
 Option
 
-</th><th align="left" id="d82259e235">
+</th><th align="left" id="d37080e235">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d82259e241">
+</th></tr></thead><tbody><tr><td id="d37080e241">
 
 **If Territory Planning is not enabled**
 
@@ -64,7 +67,7 @@ Description
 
 A warning message appears if the assigned task is outside the radius between the task location and the agent's location.
 
-</td></tr><tr><td id="d82259e273">
+</td></tr><tr><td id="d37080e273">
 
 **If Territory Planning is enabled**
 
@@ -128,7 +131,7 @@ You can use the dispatch map if you urgently need to dispatch a task or to reass
 
 5.  Click an agent icon to show the agent's name, skills, and schedule.
 
-6.  Click the icon ![paper with a plus sign on top of it](../../field-service-management/image/WM_Assign_Task_icon.png) beside the agent's name to assign the task to that agent.
+6.  Click the icon \[Omitted image "WM\_Assign\_Task\_icon.png"\] Alt text: paper with a plus sign on top of it beside the agent's name to assign the task to that agent.
 
 
 ### Result

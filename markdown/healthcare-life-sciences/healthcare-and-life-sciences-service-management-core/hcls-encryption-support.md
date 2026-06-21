@@ -2,6 +2,7 @@
 title: Encryption options in Healthcare and Life Sciences Service Management Core
 description: Healthcare and Life Sciences Service Management Core provides encryption support to secure sensitive information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-encryption-support.html
 release: xanadu
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -25,9 +26,9 @@ Column Level Encryption Enterprise provides an enhanced encryption capability co
 
 When as an administrator, you install the Healthcare and Life Sciences Service Management Core application, the crypto modules and encryption configurations to encrypt sensitive fields along with the KMF are also installed automatically. For managing and auditing cryptographic operations on your ServiceNow instance, as an administrator, you can choose to optionally activate the Column Level Encryption Enterprise plugin \(com.glide.now.platform.encryption\).
 
-For more information about obtaining Column Level Encryption Enterprise, see [Activate Column Level Encryption Enterprise](https://www.servicenow.com/docs/access?context=activate-platform-encryption&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US). For more information about selecting the parent crypto module, see [Create a cryptographic module](https://www.servicenow.com/docs/access?context=create-cryptographic-module&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information about obtaining Column Level Encryption Enterprise, see Activate Column Level Encryption Enterprise. For more information about selecting the parent crypto module, see Create a cryptographic module.
 
-For more information on Column Level Encryption Standard and Column Level Encryption Enterprise, see [Column Level Encryption](https://www.servicenow.com/docs/access?context=column-level-encryption-landing&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information on Column Level Encryption Standard and Column Level Encryption Enterprise, see .
 
 <table id="table_btm_wgb_mvb"><thead><tr><th>
 

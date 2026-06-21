@@ -2,7 +2,10 @@
 title: Create a work order task using the Now Mobile Agent application
 description: As an agent, create work order tasks using the mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/mobile-agent-create-a-wot.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ To add locations, agents must have the sn\_fsm\_service\_loc.wm\_service\_locati
 
     -   To create a work order task from Draft tasks, navigate to **My Work** &gt; **Draft tasks** &gt; **Create new work**.
     -   To create a work order task from an asset, navigate to the asset then tap **Create new work**.
-    -   To create a work order task from the Work order overflow menu, navigate to the work order and select the **Overflow menu** ![Overflow icon.](../image/more-actions-mobile-icon.png). Select **Create new work**.
+    -   To create a work order task from the Work order overflow menu, navigate to the work order and select the **Overflow menu** \[Omitted image "more-actions-mobile-icon.png"\] Alt text: Overflow icon.. Select **Create new work**.
     -   To create a sibling work order task, open the selected work order task. Then navigate to **Related** &gt; **Sibling work order tasks** &gt; **Create new sibling task**.
     -   To create a work order task from an Install base Affected Product, navigate to the install base affected product then tap **Create new work**.
 2.  Fill in the fields.
@@ -76,7 +79,7 @@ Location
 
 </td><td>
 
-Geographical area where the work needs to be done. The location is critical for determining the agent assigned to the task.If you don’t want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad hoc locations in work orders and work order tasks](../concept/service-locations-work-orders.md).
+Geographical area where the work needs to be done. The location is critical for determining the agent assigned to the task.If you don’t want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/service-locations-work-orders.md).
 
 </td></tr><tr><td>
 
@@ -106,5 +109,5 @@ Exact technical description of the work to be performed. Provide as much detail 
 </table>3.  Tap **Submit**.
 
 
-**Parent Topic:**[Use the Now Mobile Agent application to perform tasks](../concept/Use-mobile-app-fsm.md)
+**Parent Topic:**[Use the Now Mobile Agent application to perform tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Use-mobile-app-fsm.md)
 

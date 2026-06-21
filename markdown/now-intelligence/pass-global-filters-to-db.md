@@ -2,6 +2,7 @@
 title: Pass global filters to the dashboard page template
 description: Global filters are sent to the dashboard serve as filters for the visualizations within the dashboard. These filters are merged with existing filters in the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/pass-global-filters-to-db.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"

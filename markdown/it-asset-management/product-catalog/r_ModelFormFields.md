@@ -2,6 +2,7 @@
 title: Model form fields
 description: There are fields on the Model form that apply to all types of models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/product-catalog/r\_ModelFormFields.html
 release: xanadu
 product: Product Catalog
 classification: product-catalog
@@ -103,7 +104,7 @@ Depreciation
 
 </td><td>
 
-The [depreciation scheme](../../asset-management/concept/c_CreatingFixedAssets.md#) for the model.
+The [depreciation scheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/c_CreatingFixedAssets.md) for the model.
 
 </td></tr><tr><td>
 
@@ -195,5 +196,5 @@ Product Catalog
 The information about the model as it appears in the product catalog and service catalog. Information only appears if the model has been published to the product catalog.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Models](../concept/c_Models.md)
+</table>**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/product-catalog/c_Models.md)
 

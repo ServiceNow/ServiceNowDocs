@@ -2,6 +2,7 @@
 title: Entitle an application from your ServiceNow instance
 description: Manage entitlement of applications from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ent-app.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -29,9 +30,9 @@ Role required: admin
 
     **Note:** The **Instance not entitled** filter is only displayed if your instance has an application that has been purchased and not entitled.
 
-3.  Select the menu icon \( ![Menu icon](../image/menu-icon.png) \) on the application tile, and select **Entitle this instance**.
+3.  Select the menu icon \( \[Omitted image "menu-icon.png"\] Alt text: Menu icon \) on the application tile, and select **Entitle this instance**.
 
-    ![Entitle an app.](../image/entitle-app.png)
+    \[Omitted image "entitle-app.png"\] Alt text: Entitle an app.
 
 4.  In the Application entitlement dialog box, select **OK**.
 
@@ -42,7 +43,7 @@ Application entitlement is provided to your ServiceNow instance.
 
 ## What to do next
 
-[Install](t_InstallApplications.md) the application if it’s compatible with the version of your ServiceNow instance.
+[Install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_InstallApplications.md) the application if it’s compatible with the version of your ServiceNow instance.
 
-**Parent Topic:**[Manage entitlements from your ServiceNow instance](entite-app.md)
+**Parent Topic:**[Manage entitlements from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/entite-app.md)
 

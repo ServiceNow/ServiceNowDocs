@@ -2,6 +2,7 @@
 title: Run quick start tests for Employee Center
 description: Employee Center provides several quick start tests you can run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/atf-employee-center.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Search and select the quick start tests you want to run.
 
-    For information on available quick start tests, see [Quick start tests for Employee Center](../../../administer/atf-quick-start-tests/reference/quick-start-tests-employee-center.md).
+    For information on available quick start tests, see [Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center.md).
 
 3.  Click **Run Test**.
 
@@ -36,7 +37,7 @@ Role required: admin
 
 ## What to do next
 
-Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See [Performance profiling](https://www.servicenow.com/docs/access?context=atf-perf-prof&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See .
 
-**Parent Topic:**[Quick start tests for Employee Center](../../../administer/atf-quick-start-tests/reference/quick-start-tests-employee-center.md)
+**Parent Topic:**[Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center.md)
 

@@ -2,6 +2,7 @@
 title: ERP Data Hub new system field descriptions
 description: The Create new system form in ERP Data Hub contains information on connection details for the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-create-new-system-descriptions.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -45,7 +46,7 @@ Connection \(HTTP connection available starting in Xanadu Store Release 2\)
 
 </td><td>
 
-Alias of the connection credential that you configured to connect to the system of record. You can select only from connections in the ERP Data Hub scope.For more information, see [Configure the ERP Data Hub credentials and connection](../task/set-up-erp-integration-connection.md).
+Alias of the connection credential that you configured to connect to the system of record. You can select only from connections in the ERP Data Hub scope.For more information, see [Configure the ERP Data Hub credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ ETL data sources/Extraction tables
 
 </td><td>
 
-Number of ERP extraction tables in the ERP system.Link a system to an extraction table by adding the system to the ERP extraction table record in ERP Data Hub. For more information, see [Add a new ERP extraction table in ERP Data Hub](../task/erp-canvas-add-new-extraction-table.md).
+Number of ERP extraction tables in the ERP system.Link a system to an extraction table by adding the system to the ERP extraction table record in ERP Data Hub. For more information, see [Add a new ERP extraction table in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Remote tables
 
 </td><td>
 
-Number of remote tables in the ERP system.Link a system to a remote table by adding the system to the ERP remote table record in ERP Data Hub. For more information, see [View and edit ERP remote table details with ERP Data Hub](../task/erpi-find-tables.md).
+Number of remote tables in the ERP system.Link a system to a remote table by adding the system to the ERP remote table record in ERP Data Hub. For more information, see [View and edit ERP remote table details with ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpi-find-tables.md).
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Updated \(on heartbeat tabs\)
 Date and time when the heartbeat was last changed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Data Hub field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Data Hub field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

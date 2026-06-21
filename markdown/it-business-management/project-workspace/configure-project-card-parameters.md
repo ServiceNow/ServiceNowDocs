@@ -2,6 +2,7 @@
 title: Configure parameters displayed on project cards in classic Project Workspace
 description: Configure the parameters that are displayed on a project card in My Projects Space page of classic Project Workspace. A card shows the project summary so that project managers can quickly gauge project status and health by looking at the card.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-workspace/configure-project-card-parameters.html
 release: xanadu
 product: Project Workspace
 classification: project-workspace
@@ -39,7 +40,7 @@ The project workspace overview page **My Projects Space** displays the projects 
     The parameters displayed are derived from the records in \[pm\_home\_page\_card\] table. In \[pm\_home\_page\_card\] table, each project state is assigned some parameters to be displayed.
 
 
-![Project card in project workspace.](../image/ProjectWorkspaceCard.png "Project card example")
+\[Omitted image "ProjectWorkspaceCard.png"\] Alt text: Project card in project workspace.
 
 You can configure the information which is displayed in row 2 and row3 on a card.
 
@@ -74,7 +75,7 @@ You can configure the information which is displayed in row 2 and row3 on a card
 
         The following screenshot shows a JSON example of adding Risks, Issues, Actions, and Overdue tasks parameters under **Updates** heading for Open state.
 
-        ![Example project card configuration](../image/ProjectWorkspaceCardConfiguration.png "Example JSON for Row 3 configuration")
+        \[Omitted image "ProjectWorkspaceCardConfiguration.png"\] Alt text: Example project card configuration
 
     3.  Click **Submit**.
 
@@ -83,5 +84,5 @@ You can configure the information which is displayed in row 2 and row3 on a card
     The parameter is added or updated for the selected state. It appears under selected section in row 3 on the project cards for the state it was added.
 
 
-**Parent Topic:**[Project workspace classic - Legacy](../concept/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/project-workspace-classic.md)
 

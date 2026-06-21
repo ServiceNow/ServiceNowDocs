@@ -2,6 +2,7 @@
 title: Problem Management considerations
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/pm-use-case-trouble.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -20,5 +21,5 @@ Consider these points while implementing the CSDM framework.
     -   The problem is for an application issue: In this scenario the application service may be populated in the configuration\_item attribute on the Problem form representing the unique deployment of an application stack. For example, the application service of MyApp 3.0 Prod has been reported as being unavailable.
     -   The problem on an infrastructure CI is impacting devices. In this scenario the application service may be populated on the problem’s Impacted Services related list, task\_cmdb\_ci\_service, to identify the Application Service as one of the impacted services. For example, the Server Acme42 may be impacting my Application Service of MyApp 3.0 Prod and other related services.
 
-**Parent Topic:**[Problem Management product view](pm-use-case-product-view.md)
+**Parent Topic:**[Problem Management product view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/pm-use-case-product-view.md)
 

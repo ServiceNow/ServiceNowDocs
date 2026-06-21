@@ -2,9 +2,12 @@
 title: Confirm Assignment pop-up window
 description: When using the dynamic scheduling feature, the Confirm Assignment pop-up window displays the task assignment recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/dynamic-sched-confirm-assignment.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Select and assign multiple tasks, Using dynamic scheduling, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
 ---
@@ -68,5 +71,5 @@ Clicking **Save** confirms the task assignment recommendations listed in the Con
 
 System administrators can also view task assignment debug logs in the Confirm Assignment pop-up window by enabling the **com.snc.dynamic.scheduling.showlogs** system property. This information is displayed below each task in the pop-up window. Collapse or expand the debug log by clicking on the task.
 
-**Parent Topic:**[Select and assign multiple tasks](../task/select-tasks-for-bulk-assignment.md)
+**Parent Topic:**[Select and assign multiple tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/select-tasks-for-bulk-assignment.md)
 

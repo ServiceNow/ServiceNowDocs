@@ -2,6 +2,7 @@
 title: CimProbeResult - Global
 description: The CimProbeResult script include provides methods to process Common Information Model \(CIM\) probe results.Gets the named instances for the specified named queries.Gets all the queries for the current CIM probe.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/c\_CimProbeResultAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CimProbeResult script include provides methods to process Common Information
 
 Use to process CIM probe results in any server-side discovery script.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## CimProbeResult - getNamedInstances\(String namedQueries\)
 

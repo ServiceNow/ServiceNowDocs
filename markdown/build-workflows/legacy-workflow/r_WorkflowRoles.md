@@ -2,6 +2,7 @@
 title: Workflow roles
 description: Certain roles are required to use workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/legacy-workflow/r\_WorkflowRoles.html
 release: xanadu
 product: Legacy Workflow
 classification: legacy-workflow
@@ -15,7 +16,7 @@ breadcrumb: [Workflow administration, Classic Workflow, Build workflows]
 
 Certain roles are required to use workflows.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
 <table id="table_g2t_fww_1r"><thead><tr><th>
 
@@ -43,7 +44,7 @@ Web service administrator
 
 </td><td>
 
-Accesses and uses REST and SOAP messages in the [Orchestration activity designer](https://www.servicenow.com/docs/access?context=c_WorkflowActivityDesigner&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US). Creates and edits custom activities that use the REST web service and SOAP web service templates.
+Accesses and uses REST and SOAP messages in the Orchestration activity designer. Creates and edits custom activities that use the REST web service and SOAP web service templates.
 
 </td></tr><tr><td>
 
@@ -76,5 +77,5 @@ Workflow publisher
 Checks out with force checkout option, validates, publishes, and deletes graphical workflows.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow administration](../concept/c_WorkflowAdministration.md)
+</table>**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
 

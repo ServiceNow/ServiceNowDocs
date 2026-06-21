@@ -2,11 +2,12 @@
 title: Create New Agency form
 description: Use the Create New Agency form in Compliance Workspace to create a regulatory agency. The regulatory agency is a new record type that handles regulatory changes or compliance case management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-common-functions/create-new-agency-form.html
 release: xanadu
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Add a regulatory agency, Regulatory Agency Library, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -37,5 +38,5 @@ For a description of the form field values, see the following table.
 |Settings|
 |Functional domain|Functional domain of the regulatory agency.|
 
-**Parent Topic:**[Add a regulatory agency](add-regulatory-agency.md)
+**Parent Topic:**[Add a regulatory agency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/add-regulatory-agency.md)
 

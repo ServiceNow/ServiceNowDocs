@@ -2,6 +2,7 @@
 title: Install AIOps LEAP
 description: You can install the AIOps LEAP application \(sn\_itom\_leap\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plug-ins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/install-aiops-leap-application.html
 release: xanadu
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -32,7 +33,7 @@ The following items are installed with AIOps LEAP:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with AIOps LEAP](../reference/components-installed-with-aiops-leap.md).
+For more information, see [Components installed with AIOps LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/components-installed-with-aiops-leap.md).
 
 ## Procedure
 

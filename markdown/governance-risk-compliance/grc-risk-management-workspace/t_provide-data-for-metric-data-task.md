@@ -2,6 +2,7 @@
 title: Provide data for a metric data task
 description: Use the metric data task to provide data for a manual metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/t\_provide-data-for-metric-data-task.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

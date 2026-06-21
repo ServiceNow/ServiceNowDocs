@@ -2,6 +2,7 @@
 title: Worknotes analysis
 description: Worknotes analysis helps you understand the operational reasons behind activity transitions, as recorded in worknotes and comments. Typical examples include transitions from resolved to work in progress or changes in assignment groups, such as from service desk to specialist group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/worknotes-analysis.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -19,12 +20,12 @@ Analyzing work notes helps clarify the reasons behind a transition. This process
 
 **Note:** Worknotes analysis is available for a record count between 100 and 300,000.
 
--   **[Configure worknotes analysis](../task/configure-worknotes-analysis.md)**  
+-   **[Configure worknotes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/configure-worknotes-analysis.md)**  
 Configure worknotes analysis for a process table to view the worknotes analysis for a project based on that process table.
--   **[Perform worknotes analysis](../task/perform-worknotes-analysis.md)**  
+-   **[Perform worknotes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/perform-worknotes-analysis.md)**  
 Generate a worknotes analysis on a transition.
--   **[Resubmit worknotes analysis](../task/resubmit-worknotes-analysis.md)**  
+-   **[Resubmit worknotes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/resubmit-worknotes-analysis.md)**  
 If a worknotes analysis fails for some reason, you can resubmit it.
 
-**Parent Topic:**[Analyzing and getting process insights](analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/analyze-get-process-insights.md)
 

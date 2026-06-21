@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist in Contract Management
 description: Use agentic workflows for Contract Management Pro to set contract renewal or termination reminders autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cmpro-agentic-workflows.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -47,16 +48,16 @@ Uses AI agents to retrieve contract details such as renewal notice period, termi
 
 To modify an agentic workflow, you must first duplicate it, and then update it. For more information see:
 
--   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)
--   [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)
--   [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)
+-   
+-   
+-   
 
 **Note:** When you modify an agentic workflow, AI agents, or tools, make sure that you update all instructions accordingly.
 
-If you have customized the Manage contract repository agentic workflow, [update the script include to run it autonomously.](../task/cmpro-script-includ-agenticAI.md)
+If you have customized the Manage contract repository agentic workflow, [update the script include to run it autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.md)
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

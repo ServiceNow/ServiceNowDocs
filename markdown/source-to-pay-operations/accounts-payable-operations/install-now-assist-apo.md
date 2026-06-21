@@ -2,6 +2,7 @@
 title: Install Now Assist for Accounts Payable Operations \(APO\)
 description: Install the APO plugin \[sn\_ap\_gen\_ai\] so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/install-now-assist-apo.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -60,15 +61,15 @@ Case summarization
 
 9.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d108018e222">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d103010e222">
 
 Option
 
-</th><th align="left" id="d108018e225">
+</th><th align="left" id="d103010e225">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d108018e231">
+</th></tr></thead><tbody><tr><td id="d103010e231">
 
 **Skill is always available**
 
@@ -76,7 +77,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d108018e240">
+</td></tr><tr><td id="d103010e240">
 
 **Customize skill availability**
 

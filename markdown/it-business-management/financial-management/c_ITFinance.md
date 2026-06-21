@@ -2,6 +2,7 @@
 title: Financial Management
 description: Use the ServiceNow Financial Management application to allocate, track, and report on expenses in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/c\_ITFinance.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -27,7 +28,7 @@ Starting March 2021, Financial Modeling is no longer available for activation.
         Enhancements to the application in the future would be done only on the performance but not to the functionality.
 
 
-Watch this five-minute video to learn more about financial planning, actual expenses, and budgeting.Information about financial planning, actual expenses, and budgeting in financial management
+Watch this five-minute video to learn more about financial planning, actual expenses, and budgeting.
 
 The application provides a workbench, which is a visual tool that you can use to extract expenses from your general ledger. You can also use it to process the expenses, and map them to the functions used by IT. Various reports are also available to help you know exactly how much of your expenditures are related to IT.
 
@@ -54,24 +55,24 @@ The following are required to use Financial Management:
 -   For all financial overview and dashboard reports to function properly, activate Report Charting v2 on your instance.
 -   If you are using Internet Explorer, use version 11 or later. You can also use any of the other generally supported web browsers.
 
--   **[Installed with Financial Management](../reference/r_InstalledWithITFinance.md)**  
+-   **[Installed with Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/r_InstalledWithITFinance.md)**  
 Several components are installed with the Financial Management application.
--   **[Read-only roles for Financial Management](../reference/user-roles-fm-apm.md)**  
+-   **[Read-only roles for Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/user-roles-fm-apm.md)**  
 You can restrict the level of access of your users with a read-only role that enables them to view the Financial Management \(FM\) dashboards. Users with the read-only role can view FM reports and the underlying tables that provide data.
--   **[Domain separation and Financial Management](domain-separation-financial-management.md)**  
+-   **[Domain separation and Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/domain-separation-financial-management.md)**  
 Domain separation is unsupported in Financial Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Financial Management for licensed APM users](financial-management-apm.md)**  
+-   **[Financial Management for licensed APM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-management-apm.md)**  
 If you are an Enterprise Architecture \(formerly Application Portfolio Management\) licensed user and using Financial Management, then the base system provides you with a Business Application Costing cost model that you can use to evaluate the cost of your business applications along with its prescribed metrics.
--   **[Financial Management for licensed SPM users](financial-management-spm.md)**  
+-   **[Financial Management for licensed SPM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-management-spm.md)**  
 If you are a Strategic Portfolio Management \(SPM\) user and have activated Financial Management, then the base system provides you with a Service Offering Costing cost model. Use this cost model to evaluate the amount spent at each level of service. Financial Modeling allocates expenses and generates cost lines based on the level of service for a defined price.
--   **[Financial Modeling](cost-transparency-setup.md)**  
+-   **[Financial Modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/cost-transparency-setup.md)**  
 With Financial Modeling, you can determine the allocation rules and run them automatically for all data in the future. There are several other components that you must set up before you can use the workbench to allocate expenses.
--   **[Financial Charging](financial-reporting.md)**  
+-   **[Financial Charging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-reporting.md)**  
 Financial charging is an integral part of financial management that helps in reporting the financial aspects of a business service to various stakeholders in the organization that consume the service such as the business unit heads, department heads, or account heads.
--   **[Quick start test for Financial Management](../../../administer/atf-quick-start-tests/reference/quick-start-tests-itfm.md)**  
+-   **[Quick start test for Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/quick-start-tests-itfm.md)**  
 Validate that Financial Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
--   **[Financial Management Platform Analytics Solutions](../../../use/dashboards/application-content-packs/financial-content-pack.md)**  
+-   **[Financial Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-content-pack.md)**  
 Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
-**Parent Topic:**[Project Portfolio Management](../../project-portfolio-suite/concept/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

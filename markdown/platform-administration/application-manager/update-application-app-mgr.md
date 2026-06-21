@@ -2,6 +2,7 @@
 title: Update an application or plugin
 description: Update an application or plugin to get the latest features that are compatible with your instance version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/update-application-app-mgr.html
 release: xanadu
 product: Application Manager
 classification: application-manager
@@ -40,19 +41,19 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 5.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
 
-    If any dependencies are categorized as **Needs to be procured from store**, procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block updates, see [Updating applications](../concept/updating-apps-app-manager.md).
+    If any dependencies are categorized as **Needs to be procured from store**, procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block updates, see [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/updating-apps-app-manager.md).
 
 6.  Install the update now or schedule installation for a later time.
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d75632e191">
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d66253e191">
 
 Installation option
 
-</th><th align="left" id="d75632e194">
+</th><th align="left" id="d66253e194">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d75632e200">
+</th></tr></thead><tbody><tr><td id="d66253e200">
 
 **Install now**
 
@@ -62,7 +63,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d75632e224">
+</td></tr><tr><td id="d66253e224">
 
 **Install later**
 

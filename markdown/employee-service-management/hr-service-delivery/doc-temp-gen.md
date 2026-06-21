@@ -2,6 +2,7 @@
 title: Using Document Templates: Generic use case
 description: Understand how to use Document Templates outside of HR Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/doc-temp-gen.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -55,12 +56,12 @@ Role required: admin
 4.  To view the document tasks that are associated to a record:
 
     1.  Open the record, for example, an incident record.
-    2.  Configure the related lists.![Configure Related Lists on a record](../image/config-rl.png)
+    2.  Configure the related lists.\[Omitted image "config-rl.png"\] Alt text: Configure Related Lists on a record
 
-        A slushbucket opens. Add **Document Task -&gt; Parent** and **Save**.![Add document Tasks related list to an incident record](../image/config-rl2.png)
+        A slushbucket opens. Add **Document Task -&gt; Parent** and **Save**.\[Omitted image "config-rl2.png"\] Alt text: Add document Tasks related list to an incident record
 
         Document tasks associated to the record are displayed in **Document tasks** related list.
 
-        ![Document tasks related list appears on the record form](../image/doc-tasks-rl.png)
+        \[Omitted image "doc-tasks-rl.png"\] Alt text: Document tasks related list appears on the record form
 
 

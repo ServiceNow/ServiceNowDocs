@@ -2,9 +2,12 @@
 title: Sales and Order Management Request Tracker
 description: Track the status of Sales and Order Management workflows and enable agents to track the status of any synchronous and asynchronous flows. It also supports processing dependent records sequentially to make sure that the data stays accurate and consistent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/som\_request\_tracker.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 3
 breadcrumb: [Sales and Order Management workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

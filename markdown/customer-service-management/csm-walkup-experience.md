@@ -2,7 +2,10 @@
 title: Walk-up Experience for Customer Service Management
 description: The ServiceNow Walk-up Experience for Customer Service Management application enables you to set up a contact channel to support both online check-in and onsite check-in to a pre-established walk-up service center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-experience.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
@@ -67,10 +70,10 @@ User personas and roles are defined as follows:
 
 ## Configuring Walk-up Experience for Customer Service Management
 
-To get started with Walk-up Experience for Customer Service Management, see [Configure Walk-up Experience for Customer Service Management](../task/configure-walk-up-csm.md).
+To get started with Walk-up Experience for Customer Service Management, see [Configure Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configure-walk-up-csm.md).
 
--   **[Walk-up Experience for guest users](csm-walkup-guest-store-app.md)**  
+-   **[Walk-up Experience for guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-walkup-guest-store-app.md)**  
 The Walk-up Experience application can enable guest users to manage walk-up appointments online from the Consumer Service Portal or Customer Service Portal home page.
 
-**Parent Topic:**[Customer Service Management](c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/c_CustomerServiceManagement.md)
 

@@ -2,11 +2,12 @@
 title: Add a software pattern normalization rule
 description: You can add a pattern normalization rule to normalize specific software products in your environment based on a common pattern.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/t\_AddAPatternNormRule.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Software discovery and normalization, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
 ---
@@ -153,5 +154,5 @@ Choose the language.-   Dutch
 </table>2.  Once the rule is created, to apply the rule so applicable discovery models are normalized without delay, click the **Apply Rule** related link.
 
 
-**Parent Topic:**[Software discovery and normalization](../concept/c_SAMDiscovery.md)
+**Parent Topic:**[Software discovery and normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMDiscovery.md)
 

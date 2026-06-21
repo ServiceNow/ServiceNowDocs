@@ -2,6 +2,7 @@
 title: Exploring Access Simulator
 description: Access Simulator helps you simulate how access to the specified table would change once a role or group is assigned or removed from the user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/identity/explore-access-simulator.html
 release: xanadu
 product: Identity
 classification: identity
@@ -21,10 +22,10 @@ Access Simulator
 
 Access Simulator can be used for the simulating access on a user for the following scenarios:
 
--   [Adding a Role to the user](../task/add-role-to-user.md)
--   [Removing a Role from the user](../task/remove-role-from-user.md)
--   [Adding the user to a Group](../task/add-user-to-group.md)
--   [Removing the user from a Group](../task/remove-user-from-group.md)
+-   [Adding a Role to the user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/add-role-to-user.md)
+-   [Removing a Role from the user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/remove-role-from-user.md)
+-   [Adding the user to a Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/add-user-to-group.md)
+-   [Removing the user from a Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/remove-user-from-group.md)
 
-To know more about the Access Simulator settings and enable take actions, see [Configuring the Access Simulator \(Take actions\)](../task/configure-access-simulator.md).
+To know more about the Access Simulator settings and enable take actions, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/configure-access-simulator.md).
 

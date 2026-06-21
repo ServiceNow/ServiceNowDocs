@@ -2,6 +2,7 @@
 title: Customize auto-linking for Conversational Integration with Microsoft Teams
 description: Customize auto-linking for user profiles by defining the email Id of the user in any custom table rather than just the User \[sys\_user\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/customize-autolink-msteams.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

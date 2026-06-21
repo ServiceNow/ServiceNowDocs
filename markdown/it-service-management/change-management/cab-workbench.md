@@ -2,12 +2,13 @@
 title: Change Advisory Board \(CAB\) workbench
 description: The Change Advisory Board \(CAB\) workbench enables a CAB manager to schedule, plan, and manage CAB meetings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change-management/cab-workbench.html
 release: xanadu
 product: Change Management
 classification: change-management
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Exploring Change Management, Change Management, IT Service Management]
 ---
 
@@ -16,8 +17,6 @@ breadcrumb: [Exploring Change Management, Change Management, IT Service Manageme
 The Change Advisory Board \(CAB\) workbench enables a CAB manager to schedule, plan, and manage CAB meetings.
 
 CAB meetings are typically intended to review and authorize change requests and review recently implemented changes. A standard agenda with the relevant change request details enables the CAB members to conduct risk and impact analysis prior to the CAB meeting.
-
-Overview of the CAB Workbench. This video covers: What is the CAB Workbench, CAB Manager, Benefits of the CAB Workbench, Key Structures of the CAB Workbench.
 
 The CAB workbench assists you in managing CAB meetings in the following ways:
 
@@ -46,7 +45,7 @@ The CAB workbench assists you in managing CAB meetings in the following ways:
     Record meeting notes from a specific CAB meeting and share these notes with other meeting attendees.
 
 
-The CAB Definition \(cab\_definition\) table inherits the domain properties from the Schedule \(cmn\_schedule\) table which has the Domain and Domain path columns. As the CAB Definition table makes use of the same Child Schedule and Schedule Entry tables as the Schedule table, domain support is identical, where the domain\_master attribute is used to derive Domain from a parent record. For more information, refer [Domain support for schedules](https://www.servicenow.com/docs/access?context=domain-support-for-schedules&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) .
+The CAB Definition \(cab\_definition\) table inherits the domain properties from the Schedule \(cmn\_schedule\) table which has the Domain and Domain path columns. As the CAB Definition table makes use of the same Child Schedule and Schedule Entry tables as the Schedule table, domain support is identical, where the domain\_master attribute is used to derive Domain from a parent record. For more information, refer Domain support for schedules .
 
-**Parent Topic:**[Exploring Change Management](exploring-change-management.md)
+**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/exploring-change-management.md)
 

@@ -2,7 +2,10 @@
 title: Open the CSM/FSM Configurable Workspace experience in UI Builder
 description: Access the CSM/FSM Configurable Workspace experience in UI Builder for editing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-config-ws-open-in-uib.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-02-04"
 reading_time_minutes: 1

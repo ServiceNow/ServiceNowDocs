@@ -2,6 +2,7 @@
 title: Sidebar and Microsoft Teams
 description: Sidebar's integration with Microsoft Teams enables Sidebar users and Microsoft Teams users to communicate with each other from their respective platforms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/sidebar/sidebar-teams-overview.html
 release: xanadu
 product: Sidebar
 classification: sidebar
@@ -31,14 +32,14 @@ A Sidebar user must already have a Microsoft Teams account to communicate with a
 
 ## Differentiating between Sidebar and Microsoft Teams users
 
-To differentiate Sidebar users from the Microsoft Teams users, a Microsoft Teams icon ![Microsoft Teams icon.](../image/teams-icon.png) displays next to the Microsoft Teams user name. The Microsoft Teams icon displays next to Microsoft Teams user names in discussion windows and search results, but not in the activity stream.
+To differentiate Sidebar users from the Microsoft Teams users, a Microsoft Teams icon \[Omitted image "teams-icon.png"\] Alt text: Microsoft Teams icon. displays next to the Microsoft Teams user name. The Microsoft Teams icon displays next to Microsoft Teams user names in discussion windows and search results, but not in the activity stream.
 
 | | |
 |---|---|
-|Discussion window with Microsoft Teams icon|![Discussion window with Microsoft Teams icon highlighted next to username External One.](../image/discussion-teams-icon.png)|
-|All tab on the Discussion window with Microsoft Teams icon|![Discussion window with the All tab selected, and Microsoft Teams icon highlighted.](../image/all-tab-teams-icon.png)|
-|Discussion window with Microsoft Teams icon next to search results|![Start a sidebar discussion window with Microsoft Teams icon highlighted next to two search results.](../image/search-teams-icon.png)|
-|Discussion info window with Microsoft Teams icon|![Discussion info window, with Microsoft Teams icon highlighted next to username External One.](../image/discussion-info-teams-icon.png)|
+|Discussion window with Microsoft Teams icon|\[Omitted image "discussion-teams-icon.png"\] Alt text: Discussion window with Microsoft Teams icon highlighted next to username External One.|
+|All tab on the Discussion window with Microsoft Teams icon|\[Omitted image "all-tab-teams-icon.png"\] Alt text: Discussion window with the All tab selected, and Microsoft Teams icon highlighted.|
+|Discussion window with Microsoft Teams icon next to search results|\[Omitted image "search-teams-icon.png"\] Alt text: Start a sidebar discussion window with Microsoft Teams icon highlighted next to two search results.|
+|Discussion info window with Microsoft Teams icon|\[Omitted image "discussion-info-teams-icon.png"\] Alt text: Discussion info window, with Microsoft Teams icon highlighted next to username External One.|
 
 ## Adding users to a discussion
 
@@ -61,15 +62,15 @@ Errors messages appear in these situations:
 
 -   If Sidebar is unable to deliver a message to a Microsoft Teams user, the message "Not delivered in Teams" displays. Depending on how error message notifications in Sidebar are configured, the message displays to just the Sidebar user who sent the message or to all Sidebar users in the discussion.
 
-    ![Message window displaying Not delivered in Teams message](../image/sidebar-not-delivered-message.png)
+    \[Omitted image "sidebar-not-delivered-message.png"\] Alt text: Message window displaying Not delivered in Teams message
 
 -   If you delete a message that you previously sent from Sidebar to Microsoft Teams but Microsoft Teams is unable to delete the message, then the message "Not deleted in Teams" displays.
 
-    ![Message window displaying Not deleted in Teams message](../image/sidebar-not-deleted-message.png)
+    \[Omitted image "sidebar-not-deleted-message.png"\] Alt text: Message window displaying Not deleted in Teams message
 
 -   If you edit a message that you previously sent from Sidebar to Microsoft Teams but Microsoft Teams is unable to update the message, then the message "Not updated in Teams" displays.
 
-    ![Message window displaying Not updated in Teams message](../image/sidebar-not-updated-message.png)
+    \[Omitted image "sidebar-not-updated-message.png"\] Alt text: Message window displaying Not updated in Teams message
 
 
 ## Removing users from a discussion
@@ -88,7 +89,7 @@ ServiceNow's access to Microsoft Teams group chats and messages is restricted to
 
 The discussion participants aren’t synchronized if the integration between Sidebar and Microsoft Teams is changed multiple times.
 
-![What happens if you turn the Sidebar-Teams configuration off and on.](../image/sidebar-teams-on-off.png "Synchronizing example")
+\[Omitted image "sidebar-teams-on-off.png"\] Alt text: What happens if you turn the Sidebar-Teams configuration off and on.
 
 ## Domain separation with Sidebar-Microsoft Teams integration
 

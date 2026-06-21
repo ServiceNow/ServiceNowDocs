@@ -2,6 +2,7 @@
 title: Properties of the System Process components
 description: Learn about the properties of the System Process components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/util-sysprocess-prop.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,5 +22,5 @@ Learn about the properties of the System Process components in RPA Desktop Desig
 |Delay After Execution|The number of seconds to pause after running.|
 |Delay Before Execution|The number of seconds to pause before running.|
 
-**Parent Topic:**[System process](../concept/system-process-utilities.md)
+**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/system-process-utilities.md)
 

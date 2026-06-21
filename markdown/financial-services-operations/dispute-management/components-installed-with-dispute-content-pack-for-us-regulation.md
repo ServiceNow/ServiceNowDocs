@@ -2,6 +2,7 @@
 title: Components installed with Dispute Content Pack for US Regulations
 description: The Dispute Content Pack for US Regulations plugin installs components such as SLAs and additional plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/components-installed-with-dispute-content-pack-for-us-regulation.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -105,5 +106,5 @@ Reg Z resolution limit
 Card Disputes Service Case\[sn\_bom\_credit\_card\_disputes\_service\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Dispute Content Pack for US Regulations reference](../concept/dispute-content-pack-for-us-regulation-reference.md)
+</table>**Parent Topic:**[Dispute Content Pack for US Regulations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-reference.md)
 

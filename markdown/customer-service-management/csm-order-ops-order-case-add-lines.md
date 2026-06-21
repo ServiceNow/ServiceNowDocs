@@ -2,7 +2,10 @@
 title: Add orders or order lines to an order case
 description: Add orders or order lines to an existing order case. You can also delete orders or order lines from an existing order case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-order-ops-order-case-add-lines.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-10-30"
 reading_time_minutes: 1

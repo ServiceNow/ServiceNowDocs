@@ -2,6 +2,7 @@
 title: Legal Counsel Center
 description: The Legal Counsel Center is the next experience Workspace that enables the legal department members to work with actionable widgets to quickly categorize, prioritize, and efficiently resolve legal issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/legal-counsel-center-landing.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -15,12 +16,12 @@ breadcrumb: [Legal Service Delivery, Employee Service Management]
 
 The Legal Counsel Center is the next experience Workspace that enables the legal department members to work with actionable widgets to quickly categorize, prioritize, and efficiently resolve legal issues.
 
-It is a redesigned and restructured version of the Legal Counsel Center Classic Workspace experience built on a configurable UI Builder version. For more information on UI Builder, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+It is a redesigned and restructured version of the Legal Counsel Center Classic Workspace experience built on a configurable UI Builder version. For more information on UI Builder, see UI Builder
 
 **Important:**
 
 -   The legacy Legal Counsel Center was renamed as Legal Counsel Center Classic.
--   Legal Counsel Center Classic is being prepared for deprecation. It will be hidden and no longer available for activation for new customers but will continue to work and be supported for existing customers. For enhanced workspace experience, use [Legal Counsel Center](legal-counsel-center-landing.md). For details, see the Deprecation Process \[KB0867184\] article in the Now Support knowledge base.
+-   Legal Counsel Center Classic is being prepared for deprecation. It will be hidden and no longer available for activation for new customers but will continue to work and be supported for existing customers. For enhanced workspace experience, use [Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md). For details, see the Deprecation Process \[KB0867184\] article in the Now Support knowledge base.
 
 Review the following details to understand the key offerings and differences between these applications:
 
@@ -49,11 +50,11 @@ Leverage UI Builder-   Edit component properties
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td></tr><tr><td>
 
@@ -61,11 +62,11 @@ AI search
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td></tr><tr><td>
 
@@ -73,11 +74,11 @@ Integration with the Legal Tracker application for Outside counsel engagement
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td></tr><tr><td colspan="3">
 
@@ -89,11 +90,11 @@ Legal Request Management
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -101,11 +102,11 @@ Legal Matter Management
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -113,11 +114,11 @@ Contract Management Pro for Legal Service Delivery
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td></tr><tr><td>
 
@@ -125,11 +126,11 @@ Legal Simple Intellectual Property
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td></tr><tr><td>
 
@@ -137,11 +138,11 @@ Legal Conflict of Interest
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -149,11 +150,11 @@ Legal Content Review
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -161,11 +162,11 @@ Legal Digital Forensics
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -173,11 +174,11 @@ Legal Investigations
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -185,11 +186,11 @@ Legal Simple Contracts
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -197,11 +198,11 @@ Legal Simple Privacy
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -209,11 +210,11 @@ Legal Stock Preclearance
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr></tbody>
 </table>

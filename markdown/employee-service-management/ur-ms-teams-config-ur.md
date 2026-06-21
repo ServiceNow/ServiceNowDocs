@@ -2,7 +2,10 @@
 title: Configure Universal Request integration with Microsoft Teams
 description: Complete the following procedures to configure the Universal Request integration with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/ur-ms-teams-config-ur.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,8 +16,8 @@ breadcrumb: [Microsoft Teams Integration for Employee Experience, Configure, Ser
 
 Complete the following procedures to configure the Universal Request integration with Microsoft Teams.
 
--   **[Set up Virtual Agent for Universal Request integration with Microsoft Teams](../task/ur-ms-teams-setup-va.md)**  
+-   **[Set up Virtual Agent for Universal Request integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ur-ms-teams-setup-va.md)**  
 Publish the default Virtual Agent topics \(conversation flows\) so that they can be used in the Universal Request integration with Microsoft Teams application.
 
-**Parent Topic:**[Configuring Microsoft Teams integration for Employee Experience](c_employee_ex_config.md)
+**Parent Topic:**[Configuring Microsoft Teams integration for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/c_employee_ex_config.md)
 

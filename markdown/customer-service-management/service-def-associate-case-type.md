@@ -2,7 +2,10 @@
 title: Associate a case type with a service definition
 description: After creating a service definition, you can associate a case type with the definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/service-def-associate-case-type.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

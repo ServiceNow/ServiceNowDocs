@@ -2,6 +2,7 @@
 title: Commits included in DevOps change request
 description: The DevOps artifact package and its associated artifact versions are used to determine which commits are included in a DevOps change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-change-velocity/dev-ops-commits-release.html
 release: xanadu
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -605,5 +606,5 @@ Continuing with the use case:
 -   No commits from Artifact Version built on test are shown.
 -   The number of commits shown in the change request will be the same as the number in the tool.
 
-**Parent Topic:**[Artifacts and packages](using-dev-ops-release-change.md)
+**Parent Topic:**[Artifacts and packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/using-dev-ops-release-change.md)
 

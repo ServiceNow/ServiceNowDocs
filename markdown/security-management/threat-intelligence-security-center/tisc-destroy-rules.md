@@ -2,6 +2,7 @@
 title: Destroy Rules in TISC
 description: View the destroy rules that are provisioned in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-destroy-rules.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -29,6 +30,6 @@ Role required: admin
 
 3.  Click on any rule to view the archive duration period.
 
-    ![TISC Destroy Rules.](../image/tisc-destroy-rules.png)
+    \[Omitted image "tisc-destroy-rules.png"\] Alt text: TISC Destroy Rules.
 
 

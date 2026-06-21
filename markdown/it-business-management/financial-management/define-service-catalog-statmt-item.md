@@ -2,11 +2,12 @@
 title: Define a service catalog statement item
 description: A business service can be represented by a service catalog category or a catalog item. When a service request from the service catalog is fulfilled, the price listed for the service in the service catalog item is captured as the cost of the statement item for a fiscal period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/define-service-catalog-statmt-item.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 3
 breadcrumb: [Determine the statement item type, Financial charging application setup, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -55,7 +56,7 @@ Business Service
 
 </td><td>
 
-Business service that uses the statement item as a configured item.You can [create a service](https://www.servicenow.com/docs/access?context=create-or-modify-SPM2-services&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+Business service that uses the statement item as a configured item.You can create a service.
 
 </td></tr><tr><td>
 
@@ -161,10 +162,10 @@ Price adjustment based on a percentage of the average unit cost of the catalog i
 
 ## What to do next
 
-To [create breakdown records for the service catalog statement item](create-service-catalog-breakdowns.md), click **New** in the Service Catalog Breakdowns related list.
+To [create breakdown records for the service catalog statement item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/create-service-catalog-breakdowns.md), click **New** in the Service Catalog Breakdowns related list.
 
--   **[Create service catalog breakdowns](create-service-catalog-breakdowns.md)**  
+-   **[Create service catalog breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/create-service-catalog-breakdowns.md)**  
 Create service catalog breakdowns by fragmenting the service catalog category of the business service to its catalog item components into a more detailed level.
 
-**Parent Topic:**[Determine the statement item type](determine-statement-item.md)
+**Parent Topic:**[Determine the statement item type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/determine-statement-item.md)
 

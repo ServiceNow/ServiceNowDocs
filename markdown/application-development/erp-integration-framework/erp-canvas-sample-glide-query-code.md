@@ -2,6 +2,7 @@
 title: Sample Glide query for ERP data in ERP Data Hub
 description: Access data from the ERP \(Enterprise Resource Planning\) system of record through the Glide API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-sample-glide-query-code.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -25,5 +26,5 @@ sap_customer_gr.getValue('name');
 
 ```
 
-**Parent Topic:**[ERP Data Hub reference](erp-integration-reference.md)
+**Parent Topic:**[ERP Data Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-integration-reference.md)
 

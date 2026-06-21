@@ -2,6 +2,7 @@
 title: Request the External Content for AI Search plugin
 description: Request activation of the External Content for AI Search plugin \(com.glide.ais.external\_content\) to enable indexing of searchable content and metadata from records in external data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/activate-ext-content-ais-plugin.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Request activation of the External Content for AI Search plugin \(com.glide.ais.
 
 ## Before you begin
 
-You must purchase a paid subscription before requesting activation of the plugin. For details on purchasing a paid subscription for a plugin, see [ServiceNow plugins](../../plugins/concept/c_ServiceNowPlugins.md).
+You must purchase a paid subscription before requesting activation of the plugin. For details on purchasing a paid subscription for a plugin, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ServiceNowPlugins.md).
 
 Role required: admin
 
@@ -31,11 +32,11 @@ You can't activate the External Content for AI Search plugin from your instance 
 
 2.  On the All Applications page, select **Request Plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    ![Message informing customers about new service portal with a link provided.](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
 
 4.  Select your instance.
 
@@ -82,12 +83,12 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
 
-    ![Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 
     For additional details about requesting a plugin, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
 
 
-**Parent Topic:**[Indexing and searching external content in AI Search](../concept/external-content-ais.md)
+**Parent Topic:**[Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/external-content-ais.md)
 

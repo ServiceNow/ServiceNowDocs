@@ -2,6 +2,7 @@
 title: DynamicSchemaAPI - Global
 description: The DynamicSchemaAPI provides methods to clear the various caches used by the dynamic schema implementation.Clears the entire dynamic category cache \(DynamicCategoryCache\).Clears the entire dynamic choice set cache \(DynamicChoiceSets\).Clears the DynamicAttributeGroups and DynamicAttributes caches.Clears the specified dynamic attribute group from the DynamicAttributeGroup cache.Clears a specified dynamic schema category from the DynamicCategoryCache.Clears a specified dynamic schema choice set from the DynamicChoiceSets cache.Returns the DynamicSchemaAPI singleton.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/DynamicSchemaAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -19,9 +20,9 @@ You must have the dynamic\_schema\_writer role to execute any of the clear\(\) m
 
 **Note:** You shouldn't need to call the clear\(\) methods in a production environment. Use these methods when you are troubleshooting your implementation if you think there is a possible caching problem causing stale data.
 
-For more information on dynamic attributes, see [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more information on dynamic attributes, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## DynamicSchemaAPI - clearDynamicCategoryCache\(\)
 

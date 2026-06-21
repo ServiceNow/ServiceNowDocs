@@ -2,7 +2,10 @@
 title: Proactive Recommendations configuration for Engagement Messenger
 description: The Proactive Recommendations feature enables you to show context-based suggestions in real time and to configure the recommendations experience on Engagement Messenger.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/em-behav-recom.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2

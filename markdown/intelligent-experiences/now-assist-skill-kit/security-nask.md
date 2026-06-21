@@ -2,6 +2,7 @@
 title: Security for Now Assist Skill Kit
 description: Enable security controls for Now Assist skills and custom skills through access control lists \(ACLs\) and user identities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/now-assist-skill-kit/security-nask.html
 release: xanadu
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit

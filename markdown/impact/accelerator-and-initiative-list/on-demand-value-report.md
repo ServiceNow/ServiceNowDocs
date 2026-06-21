@@ -2,6 +2,7 @@
 title: On-Demand Value Report
 description: Customers can use this accelerator to request a business value report on-demand.Customers can use this accelerator to request a business value report on-demand.Advanced customers can use this accelerator to request a business value report on demand.Customers can use this accelerator to request a business value report on-demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/on-demand-value-report.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

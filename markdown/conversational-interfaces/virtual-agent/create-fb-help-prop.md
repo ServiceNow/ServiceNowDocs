@@ -2,6 +2,7 @@
 title: Configure the help link for the Virtual Agent Facebook Messenger integration \(Legacy\)
 description: Use the va.messenger.help.url system property to create the link that opens a web help page when requesters use the Help command in the Virtual Agent Facebook Messenger integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/create-fb-help-prop.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

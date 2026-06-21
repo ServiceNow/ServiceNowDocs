@@ -2,11 +2,12 @@
 title: Microsoft Teams Spoke
 description: The Microsoft Teams spoke provides actions which post messages and ServiceNow incident, problem, and change record details to Microsoft Teams channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/microsoft-teams-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Creating integrations with applications]
 ---
@@ -52,5 +53,5 @@ The following inputs are common to the Microsoft Teams actions:
 
 You can add a Microsoft Teams Post Incident Details action to a flow which identifies newly created high priority incidents and a specified theme color.
 
-![Post Incident Details action added to a flow](../images/example-msteams-action.png)
+\[Omitted image "example-msteams-action.png"\] Alt text: Post Incident Details action added to a flow
 

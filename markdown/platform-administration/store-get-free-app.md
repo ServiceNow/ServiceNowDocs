@@ -2,6 +2,7 @@
 title: Get a free application
 description: Get an app that's available at no additional cost from the ServiceNow Store when the app has custom terms and conditions or requires provider approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/store-get-free-app.html
 release: xanadu
 topic_type: task
 last_updated: "2025-07-31"
@@ -51,12 +52,12 @@ Applications that are available at no additional cost must be procured from the 
 
 ## Result
 
-The application is available for installation from the Application Manager within 24 hours. For more information about using the Application Manager, see [Application Manager](../../application-manager/concept/application-manager.md).
+The application is available for installation from the Application Manager within 24 hours. For more information about using the Application Manager, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/application-manager.md).
 
 Confirmation emails for the application and any dependencies that were procured are sent to the email address associated with your ServiceNow Store account.
 
 If the application isn't available to install from the Application Manager within 24 hours, try the following actions.
 
--   Verify that all necessary dependencies have been procured. For more information, see [Evaluating version requirements and dependencies](../concept/versions-dependencies.md).
+-   Verify that all necessary dependencies have been procured. For more information, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/versions-dependencies.md).
 -   If the previous options don't work, contact Now Support for assistance.
 

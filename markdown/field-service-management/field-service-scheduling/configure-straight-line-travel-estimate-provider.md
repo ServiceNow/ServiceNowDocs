@@ -2,6 +2,7 @@
 title: Configure the travel estimate provider
 description: Use straight-line travel estimate provider to use the built-in time and distance travel estimates based on latitude and longitude. Use Beans.AI, the map provider that Schedule Optimization supports, for more accurate travel time estimates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/configure-straight-line-travel-estimate-provider.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling

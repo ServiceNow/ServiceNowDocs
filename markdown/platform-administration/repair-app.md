@@ -2,6 +2,7 @@
 title: Repair a ServiceNow application
 description: Repair a ServiceNow application by reinstalling it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/repair-app.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -42,5 +43,5 @@ The application and its dependencies are reinstalled.
     With a repair, all the files with sys\_update\_xml records are added to the remote update set. The remote update set is named with the format: "Repair/Upgrade app &lt;app scope name&gt; at &lt;timestamp&gt;".
 
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 

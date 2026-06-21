@@ -2,6 +2,7 @@
 title: Components installed with Financial Services Treasury Operations
 description: Several types of components are installed with installation of the Financial Services Treasury Operations application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-treasury-operations/installed-with-fso-treasury-ops.html
 release: xanadu
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -15,7 +16,7 @@ breadcrumb: [Financial Services Treasury Operations reference, Financial Service
 
 Several types of components are installed with installation of the Financial Services Treasury Operations application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they are not already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Plugins installed
 
@@ -41,9 +42,9 @@ Enables the extension of tables from the Customer Service Management application
 |Store application|Description|
 |-----------------|-----------|
 |Financial Services Operations Core|Stores the customer data that is needed to make treasury service requests. For more information, see .|
-|Document Processor|Enables the management of document services tasks that are used in Financial Services Treasury Operations operations workflows. For more information, see [Integrate with Financial Services Document Processor](../../fso-common/concept/fso-document-processor.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://www.servicenow.com/docs/access?context=customer-service-case-playbooks&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).|
-|CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see [CSM Contributor User](https://www.servicenow.com/docs/access?context=config-contributor-user&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).|
+|Document Processor|Enables the management of document services tasks that are used in Financial Services Treasury Operations operations workflows. For more information, see [Integrate with Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-document-processor.md).|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
+|CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see CSM Contributor User.|
 
 ## Roles installed
 
@@ -122,7 +123,7 @@ Treasury contributor\[sn\_bom\_treasury.contributor\]
 -   View the status of treasury service cases and document services tasks
 -   Work on treasury cases till the Initiate and Review stage
 
- **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+ **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -147,7 +148,7 @@ Treasury agent connector\[sn\_bom\_treasury.agent\_connector\]
 -   Submit treasury service requests
 -   Work on treasury cases and tasks to fulfil requests for accounts managed by them
 
- **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+ **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -244,5 +245,5 @@ Treasury Task\[sn\_bom\_treasury\_task\]
 Stores all treasury tasks for all treasury cases. This table extends the Financial Task \[sn\_bom\_task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Treasury Operations reference](../concept/fso-treasury-operations-reference.md)
+</table>**Parent Topic:**[Financial Services Treasury Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-treasury-operations/fso-treasury-operations-reference.md)
 

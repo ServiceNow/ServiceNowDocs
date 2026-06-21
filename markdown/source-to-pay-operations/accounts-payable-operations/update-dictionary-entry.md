@@ -2,6 +2,7 @@
 title: Configure Antivirus Scanning
 description: Configure Antivirus Scanning across your instance and at the table level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/update-dictionary-entry.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

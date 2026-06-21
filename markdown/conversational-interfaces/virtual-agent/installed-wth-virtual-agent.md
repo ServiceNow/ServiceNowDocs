@@ -2,6 +2,7 @@
 title: Installed with Virtual Agent
 description: Various types of components are installed with activation of the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/installed-wth-virtual-agent.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Activate Virtual Agent, Configuring Virtual Agent, Virtual Agent, C
 
 Various types of components are installed with activation of the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -24,12 +25,12 @@ With the Virtual Agent Administrator \[virtual\_agent\_admin\] role, users can c
 -   If using Natural Language Understanding, the NLU admin role is included.
 -   If the Virtual Agent admin is granted access to AI Search-related tables, the search application administrator role \[search\_application\_admin\] is included.
 -   If the Virtual Agent admin is granted access to Entity View Action Mapper tables, the EVAM admin role \[evam\_admin\] is included.
--   For multilanguage support, the localization\_requestor role is included by default. For more information, see [Localization Framework roles](https://www.servicenow.com/docs/access?context=roles-localization-framework&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) .
--   For more information on the roles contained in virtual\_agent\_admin, see [Virtual Agent roles](VA-roles.md#).
+-   For multilanguage support, the localization\_requestor role is included by default. For more information, see Localization Framework roles .
+-   For more information on the roles contained in virtual\_agent\_admin, see [Virtual Agent roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/VA-roles.md).
 
 ## Users installed
 
-The Glide Conversation Server plugin \(com.glide.cs\) automatically installs a virtual agent user \(virtual.agent\) in the User \[sys\_user\] table. Ongoing [Virtual Agent interactions](../concept/va-interactions.md) are assigned to this virtual agent user. If you're using Advanced Work Assignment \(AWA\), interactions assigned to the virtual agent user are not routed by AWA. The virtual agent user is also used in the default web chat branding settings to associate a virtual agent user profile with a bot avatar.
+The Glide Conversation Server plugin \(com.glide.cs\) automatically installs a virtual agent user \(virtual.agent\) in the User \[sys\_user\] table. Ongoing [Virtual Agent interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-interactions.md) are assigned to this virtual agent user. If you're using Advanced Work Assignment \(AWA\), interactions assigned to the virtual agent user are not routed by AWA. The virtual agent user is also used in the default web chat branding settings to associate a virtual agent user profile with a bot avatar.
 
 ## Tables installed
 
@@ -428,8 +429,8 @@ Stores Virtual Agent context variables.
 |com.glide.cs.suggest.enable\_phonetic\_search|Enables phonetic searching on topic searches when set to true.|
 |com.glide.cs.suggest.enable\_spell\_check|Enables alternate search spellings on topic searches when set to true.|
 
--   **[Virtual Agent roles](VA-roles.md#)**  
+-   **[Virtual Agent roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/VA-roles.md)**  
 Virtual Agent adds several roles for users operating as Virtual Agent administrators.
 
-**Parent Topic:**[Activate Virtual Agent](../task/activate-virtual-agent.md)
+**Parent Topic:**[Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/activate-virtual-agent.md)
 

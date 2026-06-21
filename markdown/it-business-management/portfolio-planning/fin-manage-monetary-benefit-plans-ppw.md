@@ -2,6 +2,7 @@
 title: Manage monetary benefit plans for your planning items in Portfolio Planning
 description: Create and manage monetary benefit plans to capture the potential benefits while executing your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/portfolio-planning/fin-manage-monetary-benefit-plans-ppw.html
 release: xanadu
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,7 +18,7 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 ## Before you begin
 
--   [Add monetary and non-monetary benefit plans related lists](add-benefit-plans-planning-items-ppw-fin.md)
+-   [Add monetary and non-monetary benefit plans related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/add-benefit-plans-planning-items-ppw-fin.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -28,17 +29,17 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 3.  Select the **Monetary Benefit Plans** related list.
 
-    ![GIF showing selection of Monetary Benefit Plans related link.](../../spw-financials/images/fin-slct-monetary-benefit-plan-gif.gif)
+    \[Omitted image "fin-slct-monetary-benefit-plan-gif.gif"\] Alt text: GIF showing selection of Monetary Benefit Plans related link.
 
 4.  On the Benefit Plan form, fill the fields.
 
-    For a description of the field names, see [Benefit Plan form](../../project-management/task/create-project-benefit-plan.md#table_benefit_plan_form)
+    For a description of the field names, see [Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/create-project-benefit-plan.md)
 
 5.  Select **Save**.
 
 
 ## What to do next
 
--   [Edit monetary benefit plan](fin-edit-monetary-benefit-plan-ppw.md).
--   [Capture actual monetary benefits](fin-manage-actual-monetary-benefit-ppw.md).
+-   [Edit monetary benefit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/fin-edit-monetary-benefit-plan-ppw.md).
+-   [Capture actual monetary benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/fin-manage-actual-monetary-benefit-ppw.md).
 

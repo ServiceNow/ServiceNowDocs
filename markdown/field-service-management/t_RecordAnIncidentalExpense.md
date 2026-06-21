@@ -2,7 +2,10 @@
 title: Record an incidental expense
 description: Record incidental expenses associated with your business travel through the Field Service application to execute work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_RecordAnIncidentalExpense.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -124,5 +127,5 @@ An incidental record is created, the system generates an expense line if the fol
 
 Field service administrators and agents can view all incidentals by navigating to **Field Service** &gt; **Agent** &gt; **Incidentals**.
 
-**Parent Topic:**[Execute work order tasks](../concept/c_ExecuteWorkOrderTasks.md)
+**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ExecuteWorkOrderTasks.md)
 

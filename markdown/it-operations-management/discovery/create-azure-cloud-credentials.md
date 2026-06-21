@@ -2,6 +2,7 @@
 title: Create Azure cloud credentials
 description: If your cloud resources are in an Azure cloud, create credentials that can access the Azure account. This procedure requires configuration in your Azure account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/create-azure-cloud-credentials.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -42,7 +43,7 @@ Roles required:
 
     Enter the following information for your application:
 
-    ![Register an application](../image/register-app-azure.png)
+    \[Omitted image "register-app-azure.png"\] Alt text: Register an application
 
     |Field|Description|
     |-----|-----------|
@@ -93,7 +94,7 @@ Expiration for the key.**Note:** Your organization may apply policies to restric
 
     1.  Paste the subscription ID into the text editor and label it **Subscription ID**.
 
-        The text file that you generate during this procedure might look something like this: ![Text file that temporarily holds Azure service principal credential values](../image/azure-text-file.png)
+        The text file that you generate during this procedure might look something like this: \[Omitted image "azure-text-file.png"\] Alt text: Text file that temporarily holds Azure service principal credential values
 
     2.  Navigate to the subscription and select **Access Control \(IAM\)** from the menu.
 
@@ -107,7 +108,7 @@ Expiration for the key.**Note:** Your organization may apply policies to restric
 
     5.  Select the name you created in step 2 in the **Select** field and select **Save**.
 
-        ![Add role assignment](../image/add-role-assignment.png)
+        \[Omitted image "add-role-assignment.png"\] Alt text: Add role assignment
 
 10. Select the **Azure Service Principal** type credential.
 
@@ -148,7 +149,7 @@ Select **Client secret**.The **Secret key** field appears when you select **Clie
 </td></tr></tbody>
 </table>12. Copy and paste values from the temporary text file into the remaining fields.
 
-    ![Azure credentials](../image/azure-copy-to-service-principal.png)
+    \[Omitted image "azure-copy-to-service-principal.png"\] Alt text: Azure credentials
 
     |Credentials form field|Azure Service Principal value|
     |----------------------|-----------------------------|

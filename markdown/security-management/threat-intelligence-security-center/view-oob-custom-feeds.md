@@ -2,13 +2,14 @@
 title: View Custom Feed
 description: View the custom feed that are shipped within the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/view-oob-custom-feeds.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # View Custom Feed
@@ -36,10 +37,10 @@ Role required: sn\_sec\_tisc.admin
 4.  Click **Edit** to edit the feed.
 
 
--   **[Configure custom CrowdStrike feed](premium-threat-feed-for-crowdstrike.md)**  
+-   **[Configure custom CrowdStrike feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/premium-threat-feed-for-crowdstrike.md)**  
 The CrowdStrike feed enables users to ingest indicators, actors, reports, and their associated context from the CrowdStrike Falcon Intelligence feed into TISC.
--   **[Configure custom MISP feed](tisc-premium-misp.md)**  
+-   **[Configure custom MISP feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-premium-misp.md)**  
 The Malware Information Sharing Platform \(MISP\) API feed enables you to import events from the MISP server, along with their associated attributes and objects, into the TISC library.
 
-**Parent Topic:**[View Threat Intel Feeds](../concept/base-system-threat-intel-feeds.md)
+**Parent Topic:**[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)
 

@@ -2,6 +2,7 @@
 title: CI relationships in the CSDM
 description: For configuration management to be most effective, establish relationships between the objects and configuration items \(CIs\) in the conceptual CSDM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/ci-relationships.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -21,9 +22,9 @@ For configuration management to be most effective, establish relationships betwe
 -   The relationships commonly created as part of Service Mapping and Discovery are the standard for infrastructure CIs. If you map the elements manually, be sure to consider how Discovery would have treated them.
 -   Not all objects in the CSDM conceptual model are CMDB tables, and not all the objects have relationships. You might need to create some of the following required relationships.
 
-![CSDM relationships.](../image/csdm-relationships.png)
+\[Omitted image "csdm-relationships.png"\] Alt text: CSDM relationships.
 
-**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://www.servicenow.com/docs/access?context=SPM2-taxonomy&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See .
 
 ## Resources in the ServiceNow Community
 
@@ -31,5 +32,5 @@ For an extended explanation of the business application reference attribute's ro
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[CSDM reference](csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

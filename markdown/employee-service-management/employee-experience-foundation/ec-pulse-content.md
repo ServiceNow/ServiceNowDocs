@@ -2,6 +2,7 @@
 title: Pulse survey content
 description: You can create and send Pulse surveys to your employees as a way to receive feedback.Create pulse surveys that can be delivered to your employees to obtain feedback, drive action, and measure impact.Create a question in a pulse survey or add a question to pulse question bank.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ec-pulse-content.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -74,11 +75,11 @@ Option to indicate that the pulse content is active and available for use.
 
 8.  In the **Questions** related list:
 
-    -   To add a question to content, click **New**. For more information, see [Create a pulse question](ec-pulse-content.md#).
+    -   To add a question to content, click **New**. For more information, see [Create a pulse question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-pulse-content.md).
     -   To add a question from Question Bank, click **From Question Bank**.
-    Add Content \(of type Pulse Content\) to a campaign in Content Experiences or schedule content in Content Publishing. For more information, see [Publishing content](ec-content-publishing-schedule.md).
+    Add Content \(of type Pulse Content\) to a campaign in Content Experiences or schedule content in Content Publishing. For more information, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
 
-    **Note:** For more information, see [Listening Posts](../../human-resources/concept/listening-posts-1.md).
+    **Note:** For more information, see [Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
 
 ## Create a pulse question

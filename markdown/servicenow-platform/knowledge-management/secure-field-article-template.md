@@ -2,6 +2,7 @@
 title: Restrict access to fields in an article template
 description: Use encryption modules to set field-level security in article templates and display the fields based on role permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/secure-field-article-template.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -19,17 +20,17 @@ Use encryption modules to set field-level security in article templates and disp
 
 Role required: security\_admin
 
-**Note:** Use Knowledge blocks to restrict the content within the same field. For more information, see [Knowledge blocks](../concept/knowledge-blocks.md).
+**Note:** Use Knowledge blocks to restrict the content within the same field. For more information, see [Knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/knowledge-blocks.md).
 
 ## Procedure
 
 1.  Create an encryption module for the article template field to be encrypted.
 
-    See [Create a cryptographic module](https://www.servicenow.com/docs/access?context=create-cryptographic-module&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) for details.
+    See Create a cryptographic module for details.
 
 2.  Associate the article template field with the encryption module.
 
-    See [Encrypting fields and attachments](https://www.servicenow.com/docs/access?context=field-encryption-key-management&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) for details.
+    See Encrypting fields and attachments for details.
 
     1.  Navigate to **System Security** &gt; **Field Encryption** &gt; **Encryption Field Configurations** and click **New**.
 
@@ -103,10 +104,10 @@ Method
 
 Depending on their role permissions defined for the encrypted field, users can view the field on the article template.
 
-**Parent Topic:**[Configure knowledge article templates](../../../configure-knowledge-article-templates.md)
+**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
 
 **Related topics**  
 
 
-[Encryption support](https://www.servicenow.com/docs/access?context=column-level-encryption-landing&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.column-level-encryption-landing]
 

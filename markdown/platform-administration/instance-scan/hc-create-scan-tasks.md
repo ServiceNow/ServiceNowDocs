@@ -2,6 +2,7 @@
 title: Creating scan tasks
 description: Create a scan task to facilitate task assignments from the finding of a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hc-create-scan-tasks.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan

@@ -2,6 +2,7 @@
 title: Create KPI units
 description: Create KPI units to be used as measurement units for the quantitative performance of the supplier KPIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-units.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -61,7 +62,7 @@ Unit family
 
 </td><td>
 
-Category under which the unit is listed. For example, the unit **US Dollars** is listed under the **Currency** Unit family.**Note:** You can see the list of existing Unit families by selecting the look-up \(![Look-up icon](../image/look-up-icon.png)\) icon. If none is listed, you can create one by selecting **New**.
+Category under which the unit is listed. For example, the unit **US Dollars** is listed under the **Currency** Unit family.**Note:** You can see the list of existing Unit families by selecting the look-up \(\[Omitted image "look-up-icon.png"\] Alt text: Look-up icon\) icon. If none is listed, you can create one by selecting **New**.
 
 </td></tr><tr><td>
 
@@ -97,11 +98,11 @@ Domain
 
 </td><td>
 
-Domain category under which the unit is listed. By default, the Domain is set as **Global**.**Note:** You can see the list of existing domains by selecting the look-up \(![Look-up icon](../image/look-up-icon.png)\) icon. If none is listed, you can create one by selecting **New**.
+Domain category under which the unit is listed. By default, the Domain is set as **Global**.**Note:** You can see the list of existing domains by selecting the look-up \(\[Omitted image "look-up-icon.png"\] Alt text: Look-up icon\) icon. If none is listed, you can create one by selecting **New**.
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 

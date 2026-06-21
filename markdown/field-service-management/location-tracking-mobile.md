@@ -2,7 +2,10 @@
 title: Using location tracking in the Now Mobile Agent application
 description: Use location tracking so that you can keep a record of your location, either for a defined period of time or while you perform tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/location-tracking-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -24,7 +27,7 @@ Your administrator selects which tracking options are available to you. There ar
     Starts location tracking for a defined period of time or tracks your location continuously.
 
 
-To monitor your activity, turn on location tracking from your mobile device. Location tracking continues even when there is no internet connection. For more information, see [Using location tracking for mobile](https://www.servicenow.com/docs/access?context=mobile-location&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US).
+To monitor your activity, turn on location tracking from your mobile device. Location tracking continues even when there is no internet connection. For more information, see Using location tracking for mobile.
 
-**Parent Topic:**[Use the Now Mobile Agent application to perform tasks](Use-mobile-app-fsm.md)
+**Parent Topic:**[Use the Now Mobile Agent application to perform tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Use-mobile-app-fsm.md)
 

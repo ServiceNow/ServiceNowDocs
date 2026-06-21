@@ -2,6 +2,7 @@
 title: Glide Server APIs
 description: ServiceNow provides APIs for the Glide Server.The GlideAggregate class is an extension of GlideRecord and allows database aggregation \(COUNT, SUM, MIN, MAX, AVG\) queries to be done. This can be helpful in creating customized reports or in calculations for calculated fields.GlideAggregate is an extension of GlideRecord and its use is probably best shown through a series of examples.GlideRecord is a special Java class \(GlideRecord.java\) that can be used in JavaScript exactly as if it was a native JavaScript class.GlideRecordSecure is a class inherited from GlideRecord that performs the same functions as GlideRecord, and also enforces ACLs.The GlideSystem API provides methods for retrieving information.The GlideDateTime class provides methods for performing operations on GlideDateTime objects, such as instantiating GlideDateTime objects or working with glide\_date\_time fields.The GlideDate and GlideDateTime APIs are used to manipulate date and time values.Examples of JavaScript that can be used to set the value of a duration field.You can specify a date format with a sequence of specific date and time pattern strings. A pattern string consists of one or more uppercase and lowercase letters from A to Z. Any text within quotation marks is ignored and is instead copied into the date output.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/scripts/p\_GlideServerAPIs.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [Server-side scripting, Scripting, Building pro-code applications, D
 
 ServiceNow provides APIs for the Glide Server.
 
-**Parent Topic:**[Server-side scripting](../../server-scripting/concept/c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/c_ServerScripting.md)
 
 ## GlideAggregate
 
@@ -23,7 +24,7 @@ The GlideAggregate class is an extension of GlideRecord and allows database aggr
 
 **Note:** This functionality requires a knowledge of JavaScript.
 
-For additional information, refer to [GlideAggregate](https://www.servicenow.com/docs/access?context=c_GlideAggregateScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US) API.
+For additional information, refer to GlideAggregate API.
 
 ### GlideAggregate examples
 
@@ -239,7 +240,7 @@ GlideRecord:
 -   is used for database operations instead of writing SQL queries.
 -   is an object that contains zero or more records from one table. Another way to say this is that a GlideRecord is an ordered list.
 
-A GlideRecord contains both records \(rows\) and fields \(columns\). The field names are the same as the underlying database column names. For additional information, refer to [GlideRecord - Scoped](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+A GlideRecord contains both records \(rows\) and fields \(columns\). The field names are the same as the underlying database column names. For additional information, refer to GlideRecord - Scoped.
 
 **Note:** Use of `gs.sql())` scripting syntax was discontinued in Geneva. Use standard GlideRecord syntax in its place.
 
@@ -347,7 +348,7 @@ The GlideSystem \(referred to by the variable name '*gs*' in business rules\) pr
 
 Many of the GlideSystem methods facilitate the easy inclusion of dates in query ranges and are most often used in filters and reporting.
 
-For additional information, see [GlideSystem](https://www.servicenow.com/docs/access?context=c_GlideSystemScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+For additional information, see GlideSystem.
 
 ## GlideDateTime
 
@@ -363,7 +364,7 @@ The GlideDate and GlideDateTime APIs are used to manipulate date and time values
 
 **Note:** This functionality requires a knowledge of JavaScript.
 
-For additional information, refer to [GlideDate](https://www.servicenow.com/docs/access?context=c_GlideDateScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US) API and [GlideDateTime](https://www.servicenow.com/docs/access?context=c_GlideDateTimeScoped&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US) API.
+For additional information, refer to GlideDate API and GlideDateTime API.
 
 You can create a GlideDateTime object from a GlideDate object by passing in the GlideDate object as a parameter to the GlideDateTime constructor. By default, the GlideDateTime object is expressed in the internal format, yyyy-MM-dd HH:mm:ss and the system time zone UTC.
 
@@ -383,7 +384,7 @@ Output:
 2015-01-01 00:00:00
 ```
 
-See also [Modify a GlideDateTime field value](../../useful-scripts/concept/useful-server-side-scripts.md#).
+See also [Modify a GlideDateTime field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/useful-server-side-scripts.md).
 
 ### Set a duration field value in script
 
@@ -393,7 +394,7 @@ Examples of JavaScript that can be used to set the value of a duration field.
 
 #### Using the GlideDateTime.subtract\(\) method
 
-The subtract\(GlideDateTime start, GlideDateTime end\) method in [GlideDateTime](https://www.servicenow.com/docs/access?context=c_GlideDateTimeScoped&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US) enables you to set the duration value using a given start date/time and end date/time. An example on how to set the duration for the time a task was opened is:
+The subtract\(GlideDateTime start, GlideDateTime end\) method in GlideDateTime enables you to set the duration value using a given start date/time and end date/time. An example on how to set the duration for the time a task was opened is:
 
 ```
 var duration = GlideDateTime.subtract(start, end);

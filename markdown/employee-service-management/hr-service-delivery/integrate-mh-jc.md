@@ -2,6 +2,7 @@
 title: Integrate Manager Hub
 description: Extend Manager Hub capabilities by integrating with other applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/integrate-mh-jc.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

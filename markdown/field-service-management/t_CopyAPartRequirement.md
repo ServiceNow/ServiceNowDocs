@@ -2,7 +2,10 @@
 title: Copy a part requirement
 description: Copy a part requirement to quickly create another, similar part requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_CopyAPartRequirement.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Copy a part requirement to quickly create another, similar part requirement.
 
 ## Before you begin
 
-Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## Procedure
 
@@ -34,5 +37,5 @@ Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifie
 6.  In the Source Work Order list, right-click on a work order task number and select **Paste Part Requirement**.
 
 
-**Parent Topic:**[Create a part requirement](t_CreateAPartRequirement.md)
+**Parent Topic:**[Create a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_CreateAPartRequirement.md)
 

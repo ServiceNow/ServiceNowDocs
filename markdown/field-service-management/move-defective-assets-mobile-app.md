@@ -2,7 +2,10 @@
 title: Move defective assets through the transfer process
 description: Add defective parts from your stockroom to the drop-off list. Generate transfer orders to move these items to the stockroom where it needs to be dropped off.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/move-defective-assets-mobile-app.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -31,15 +34,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Do one of the following to move the part to the stockroom where it needs to be returned.
 
-<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d106636e101">
+<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d68643e101">
 
 To
 
-</th><th align="left" id="d106636e104">
+</th><th align="left" id="d68643e104">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d106636e110">
+</th></tr></thead><tbody><tr><td id="d68643e110">
 
 **Drop off**
 
@@ -49,7 +52,7 @@ Do this
 2.  Swipe the part to the left and click **Add to drop-off list**.
 
 
-</td></tr><tr><td id="d106636e131">
+</td></tr><tr><td id="d68643e131">
 
 **View part details and then drop off**
 
@@ -78,7 +81,7 @@ A new transfer order line is created.
 
 -   If a transfer order for the drop-off location doesn’t exist, then a new transfer order is created and the transfer order line added to that transfer order.
 
-For more information on asset transfers, see [Move an asset through the transfer process](../../planning-and-policy/task/create-transfer-order-line-task.md).
+For more information on asset transfers, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/create-transfer-order-line-task.md).
 
-**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](../concept/easily-track-parts.md)
+**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/easily-track-parts.md)
 

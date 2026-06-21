@@ -2,6 +2,7 @@
 title: Execute a test scan
 description: Execute a test scan to verify if the check works as expected. The test scan enables you to test a single check instead of a full scan by selecting a single check and selecting Test Check on the Check form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-execute-test-scan.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan

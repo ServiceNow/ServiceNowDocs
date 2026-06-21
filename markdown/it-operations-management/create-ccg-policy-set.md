@@ -2,7 +2,10 @@
 title: Create a policy set
 description: Create a policy set in Cloud Configuration Governance to group policies that enforce a given security or organization standard. When the scan configuration runs the policy set, it identifies the cloud resources that don’t adhere to the set standards. A policy set can contain one or more policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/create-ccg-policy-set.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

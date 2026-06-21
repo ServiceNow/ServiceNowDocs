@@ -2,6 +2,7 @@
 title: Using log correlators to detect relationships in log data
 description: Log correlators are keys or values in log data that detect correlations between alerts. For example, a log correlator could detect when the interface ID of a particular network device occurs simultaneously in multiple warnings across different service instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -21,7 +22,7 @@ Most log lines include a metadata portion plus a message portion. Some log lines
 
 The two types of log correlators, free text correlators and log property correlators, analyze the different portions of each log to identify relationships between log data from multiple log sources.
 
-**Tip:** If two separate alerts mention the same term in their attributed events, consider specifying that term as a log correlator. For more information, see [Add a log correlator to identify relationships in logs](../task/hla-op-correlator-define.md).
+**Tip:** If two separate alerts mention the same term in their attributed events, consider specifying that term as a log correlator. For more information, see [Add a log correlator to identify relationships in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-correlator-define.md).
 
 -   **Free text correlators**
 
@@ -42,12 +43,12 @@ You can specify the set of log sources whose log data are analyzed by a log corr
 -   **All sources**: The system applies the log correlator to log lines from all log sources.
 -   **Specified source**: For a log correlator, the system analyzes only log lines from the log source that you specify.
 
-For instructions for specifying the set of log sources, see [Add a log correlator to identify relationships in logs](../task/hla-op-correlator-define.md).
+For instructions for specifying the set of log sources, see [Add a log correlator to identify relationships in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-correlator-define.md).
 
--   **[Add a log correlator to identify relationships in logs](../task/hla-op-correlator-define.md)**  
+-   **[Add a log correlator to identify relationships in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-correlator-define.md)**  
 Detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
--   **[Exclude a source from a log correlator](../../health-log-analytics-admin/task/hla-correlators-exclude-source.md)**  
+-   **[Exclude a source from a log correlator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-correlators-exclude-source.md)**  
 Prevent the system from analyzing log lines from a specific source by excluding that source from the log correlator.
 
-**Parent Topic:**[Using Health Log Analytics](../reference/hla-op-guide-binder.md)
+**Parent Topic:**[Using Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-guide-binder.md)
 

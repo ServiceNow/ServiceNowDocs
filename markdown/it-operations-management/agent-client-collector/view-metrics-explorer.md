@@ -2,6 +2,7 @@
 title: View metric values in the Insights Explorer
 description: Metric Intelligence calculates statistics for CI metric data. Insights Explorer displays these metric values as metric charts for the CIs in the CMDB. Insights Explorer lets you overlap any metrics for any CIs in a single chart to create a multi-layered view of metric values across a time range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/view-metrics-explorer.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -27,19 +28,19 @@ Insights Explorer displays metric boundaries according to the most recently conf
 
 You can also access the Insights Explorer from the following maps:
 
--   [View metrics in a Dependency Views map](https://www.servicenow.com/docs/access?context=view-ci-metrics&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
--   [View metrics from a business service map](t_EMViewDashboard.md)
+-   View metrics in a Dependency Views map
+-   [View metrics from a business service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/t_EMViewDashboard.md)
 
-![Dashboard for Metric Intelligence metrics, where you can display charts for selected CI metrics.](../image/InsightsExplorerLondon.png "Insights Explorer")
+\[Omitted image "InsightsExplorerLondon.png"\] Alt text: Dashboard for Metric Intelligence metrics, where you can display charts for selected CI metrics.
 
 If the host name of the CI is available, it appears underneath the CI name. Host name is populated by retrieving the node information from the generated binding event as part of metric binding.
 
 To navigate to a CI for which to display metrics:
 
--   Use Hottest Configuration Items \(![Hottest Configuration Items icon.](../image/hottest-config-items.png)\) to quickly access the 10 most anomalous CIs.
--   Use Configuration Items \(![Use Configuration Items icon.](../image/pinned-config-items.png)\) to create a separate custom list of any CIs from the CMDB and then add the metrics for these CIs to the canvas.
--   Use Application services \(![Use Application Services icon.](../image/business-service-cis.png)\) to create a custom list of application services that let you drill into the CIs of these services. You can then add metrics for these CIs to the canvas.
--   Use CMDB Groups \(![Use CMDB Groups icon.](../image/cmdb-group-cis.png)\) to create a custom list of CMDB Groups that let you drill into the CIs of these groups. You can then add metrics for these CIs to the canvas.
+-   Use Hottest Configuration Items \(\[Omitted image "hottest-config-items.png"\] Alt text: Hottest Configuration Items icon.\) to quickly access the 10 most anomalous CIs.
+-   Use Configuration Items \(\[Omitted image "pinned-config-items.png"\] Alt text: Use Configuration Items icon.\) to create a separate custom list of any CIs from the CMDB and then add the metrics for these CIs to the canvas.
+-   Use Application services \(\[Omitted image "business-service-cis.png"\] Alt text: Use Application Services icon.\) to create a custom list of application services that let you drill into the CIs of these services. You can then add metrics for these CIs to the canvas.
+-   Use CMDB Groups \(\[Omitted image "cmdb-group-cis.png"\] Alt text: Use CMDB Groups icon.\) to create a custom list of CMDB Groups that let you drill into the CIs of these groups. You can then add metrics for these CIs to the canvas.
 
 The following colors, which are based on color settings for alert severities, indicate anomaly severities:
 
@@ -88,7 +89,7 @@ Modifications in the Insights Explorer remain during the session, and once the I
 
     For each metric, a sparkline displays metric values for the CI for the last hour. Point to the sparkline to display the metric value at each point of time.
 
-    If [resource binding](../concept/resource-binding.md) is enabled, then the list of series being monitored for a CI also contains series that belong to a resource and metric. The naming convention for such series is '&lt;resource name&gt;/&lt;metric name&gt;'. For a series that is only bound to a CI, the naming convention is '&lt;metric name&gt;'.
+    If [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/resource-binding.md) is enabled, then the list of series being monitored for a CI also contains series that belong to a resource and metric. The naming convention for such series is '&lt;resource name&gt;/&lt;metric name&gt;'. For a series that is only bound to a CI, the naming convention is '&lt;metric name&gt;'.
 
 3.  Drag a metric to the **Drop Metric To Create Chart** area on the canvas and point to the chart to display the exact metric value at each point of time.
 
@@ -104,17 +105,17 @@ Modifications in the Insights Explorer remain during the session, and once the I
 
     In the SEARCH RESULTS section, click the + icon next to an item that you want to add to the ADDED ITEMS section. Or, use advanced search:
 
-    -   Select ![Use Configuration Items icon.](../image/pinned-config-items.png) and then click ![Add CI icon.](../image/AddItem.png) **Add Configuration Item** to add any specific CIs. In the Add Configuration Items dialog box, select a **CI Class Type** such as Linux Server.
-    -   Select ![Use Application Services icon.](../image/business-service-cis.png) and then click ![Add Application Service icon.](../image/AddItem.png) **Add Application Service** to add all CIs included in a specified application services. In the Add Application Services dialog box, select `Discovered Service` or `Manual Service` as the **CI Class Type** and then specify filter conditions to narrow down the search.
+    -   Select \[Omitted image "pinned-config-items.png"\] Alt text: Use Configuration Items icon. and then click \[Omitted image "AddItem.png"\] Alt text: Add CI icon. **Add Configuration Item** to add any specific CIs. In the Add Configuration Items dialog box, select a **CI Class Type** such as Linux Server.
+    -   Select \[Omitted image "business-service-cis.png"\] Alt text: Use Application Services icon. and then click \[Omitted image "AddItem.png"\] Alt text: Add Application Service icon. **Add Application Service** to add all CIs included in a specified application services. In the Add Application Services dialog box, select `Discovered Service` or `Manual Service` as the **CI Class Type** and then specify filter conditions to narrow down the search.
 
         **Note:** You can add an application services only if its **Operational Status** is ‘operational’.
 
-    -   Select ![Use CMDB Groups icon.](../image/cmdb-group-cis.png) and then click ![Add CMDB Group icon.](../image/AddItem.png) **Add CMDB Group** to add all CIs included in a specified CMDB group. In the CMDB Groups dialog box specify filter conditions such as **\[GroupName\] \[starts with\] \[d\]**, to narrow down the search.
+    -   Select \[Omitted image "cmdb-group-cis.png"\] Alt text: Use CMDB Groups icon. and then click \[Omitted image "AddItem.png"\] Alt text: Add CMDB Group icon. **Add CMDB Group** to add all CIs included in a specified CMDB group. In the CMDB Groups dialog box specify filter conditions such as **\[GroupName\] \[starts with\] \[d\]**, to narrow down the search.
     After selecting the items that you want to add, click **Add**.
 
 5.  Add related CIs:
 
-    1.  Click the **Add related CIs** \(![Add related CIs icon.](../image/Insights-Explorer-Related-Items.png)\) icon next to a CI.
+    1.  Click the **Add related CIs** \(\[Omitted image "Insights-Explorer-Related-Items.png"\] Alt text: Add related CIs icon.\) icon next to a CI.
 
         The Add Related Configuration Items dialog box appears, displaying all relationships in which the selected CI is a parent or a child.
 
@@ -131,7 +132,7 @@ Modifications in the Insights Explorer remain during the session, and once the I
 7.  Click the cog **Settings** icon to open application settings:
 
     -   Enable, disable, or set the frequency for refreshing anomaly data on the Insights Explorer.
-    -   Activate or deactivate the display of related lists such as All Alerts, Incidents, and Problems. For more information, see [Create or modify map indicators](https://www.servicenow.com/docs/access?context=t_CreateModifyNGBSMMapIndicators&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    -   Activate or deactivate the display of related lists such as All Alerts, Incidents, and Problems. For more information, see .
 8.  Click the **Chart Settings** icon to toggle the display of statistics and aggregations on the chart.
 
     Enabling or disabling an item to add or to remove metrics from a chart, also updates the legend of the chart to reflect the change.
@@ -208,6 +209,6 @@ Displays the raw, unaggregated metric values. These values are kept only for the
 
 -   Right-click on a CI in the right-hand side bar and select **View Form** to open its CI form.
 -   Click the map icon next to an application service listed in the **Application Services** tab, to open its application service map.
--   Click Remove \(![Remove CI icon.](../image/remove-ci.png)\) next to a CI to remove it from the Insights Explorer.
+-   Click Remove \(\[Omitted image "remove-ci.png"\] Alt text: Remove CI icon.\) next to a CI to remove it from the Insights Explorer.
 -   Click the Export icon in a chart to download it as a .png or .svg image, or as a .pdf document.
 

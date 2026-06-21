@@ -2,6 +2,7 @@
 title: ERP Data Hub ERP model table field descriptions
 description: The Entity fields tab for an ERP \(Enterprise Resource Planning\) model in ERP Data Hub displays the table fields that are included in the ERP model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-erp-data-model-table-fields.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -86,5 +87,5 @@ Is queryable
 Option to indicate whether you can retrieve data from the field without querying the source table.Smaller tables, such as a currency table, can have data stored locally and thus don't require a query to retrieve fields.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Data Hub field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Data Hub field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

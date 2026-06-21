@@ -2,6 +2,7 @@
 title: Combined product release notes for upgrades from Vancouver to Xanadu
 description: To help you upgrade from Vancouver to Xanadu, we have combined the cross-family release notes for each product onto one page. Select the products you have to customize the release notes results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-vancouver-combined-release-notes.html
 release: xanadu
 topic_type: reference
 last_updated: "2020-06-26"

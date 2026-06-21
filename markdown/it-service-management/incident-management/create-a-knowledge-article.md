@@ -2,6 +2,7 @@
 title: Create a knowledge article from an incident using an article template
 description: Provide a resolution for an issue by creating a knowledge article from an incident with fields defined in an article template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/create-a-knowledge-article.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -19,13 +20,13 @@ Provide a resolution for an issue by creating a knowledge article from an incide
 
 Role required: itil, sn\_incident\_write, or admin
 
-Activate the [KCS Integration for Incident Management](activate-kcs-integration-for-im.md) plugin \(com.snc.incident.knowledge\).
+Activate the [KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/activate-kcs-integration-for-im.md) plugin \(com.snc.incident.knowledge\).
 
 ## About this task
 
 You can create a knowledge article only when the incident is resolved and you have not already created a knowledge article from that incident.
 
-**Note:** Incident managers with the sn\_km\_ml.knowledge\_curation\_user role can use the Demand Insights for Incidents dashboard to identify which incidents have no or insufficient knowledge coverage. For more information, refer [Demand Insights for Incidents dashboard](https://www.servicenow.com/docs/access?context=demand-insights-incidents-dashboard&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+**Note:** Incident managers with the sn\_km\_ml.knowledge\_curation\_user role can use the Demand Insights for Incidents dashboard to identify which incidents have no or insufficient knowledge coverage. For more information, refer Demand Insights for Incidents dashboard.
 
 ## Procedure
 
@@ -37,7 +38,7 @@ You can create a knowledge article only when the incident is resolved and you ha
 
     -   Under Related Links, click **Create Knowledge**.
     -   Right-click the form header and click **Create Knowledge**.
-    The Incident-KCS article - HTML template provided with the base system appears. If you want to create your own article template, refer to [Create an article template](https://www.servicenow.com/docs/access?context=create-a-new-article-templates&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    The Incident-KCS article - HTML template provided with the base system appears. If you want to create your own article template, refer to Create an article template.
 
 4.  On the form, fill in the fields.
 
@@ -49,7 +50,7 @@ You can create a knowledge article only when the incident is resolved and you ha
     |Valid to|Date after which the knowledge article is deleted from the database. After this date, the article does not appear in the search result.|
     |Confidence|Maturity of an article based on its completeness and reusability.|
     |Version|\[Auto-generated\] Displays the article version number, which is incremented when changes are made to a published article.|
-    |Workflow|\[Auto-generated\] Workflow that is followed for creating the knowledge article. For more information, refer [Knowledge workflows](https://www.servicenow.com/docs/access?context=r_KnowledgeWorkflows&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) .|
+    |Workflow|\[Auto-generated\] Workflow that is followed for creating the knowledge article. For more information, refer Knowledge workflows .|
     |Source Task|\[Auto-generated\] Incident record from which you have created the article.|
     |Attachment link|Check box to automatically download an attached article instead of opening the article, when you access an article.|
     |Display attachments|Check box to display attachments in the knowledge article. The attachments appear below the article text.|
@@ -58,7 +59,7 @@ You can create a knowledge article only when the incident is resolved and you ha
     |Issue|Information on the cause of the incident.|
     |Resolution|Method used to resolve the incident.|
 
-    **Note:** The **Confidence** and **Governance** fields appear when the Knowledge Management KCS Capabilities plugin \(com.snc.knowledge\_kcs\_capabilities\) is activated. For more information, see [Managing the KCS article state](https://www.servicenow.com/docs/access?context=managing-kcs-article-states&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    **Note:** The **Confidence** and **Governance** fields appear when the Knowledge Management KCS Capabilities plugin \(com.snc.knowledge\_kcs\_capabilities\) is activated. For more information, see Managing the KCS article state.
 
 5.  Click **Submit**.
 

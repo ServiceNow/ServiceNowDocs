@@ -2,6 +2,7 @@
 title: Create a Google Drive external content connector
 description: Create an external content connector to retrieve searchable content and security principals from your Google Drive source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/create-ext-cont-connector-gdrive.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -18,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your Google Drive source system to allow access by the Google Drive external content connector. For details on configuring these settings in the source system, see [Configure Google Drive for external content indexing](cfg-gcloud-settings-gdrive-ext-cont-connector.md).
+A source system administrator must have already configured your Google Drive source system to allow access by the Google Drive external content connector. For details on configuring these settings in the source system, see [Configure Google Drive for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-gcloud-settings-gdrive-ext-cont-connector.md).
 
 Role required: admin
 
@@ -94,11 +95,11 @@ Your new Google Drive external content connector appears in the Connectors secti
 
 ## What to do next
 
-You can optionally define crawl settings for your new Google Drive external content connector. Using these settings, you can limit the set of shared drives you want the connector to crawl, or define the file extensions for documents you want the connector's crawls to include or exclude. To learn how to configure the connector's crawl settings, see [Configure crawl settings for the Google Drive external content connector](configure-crawl-settings-gdrive-ext-cont-connector.md).
+You can optionally define crawl settings for your new Google Drive external content connector. Using these settings, you can limit the set of shared drives you want the connector to crawl, or define the file extensions for documents you want the connector's crawls to include or exclude. To learn how to configure the connector's crawl settings, see [Configure crawl settings for the Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configure-crawl-settings-gdrive-ext-cont-connector.md).
 
-If you want the connector to crawl everything in the source system, and don't want to apply file-extension inclusion or exclusion filters, you can skip definition of crawl settings and go straight on to define a crawl schedule for your new connector or run one-time crawls for it. For details on defining a crawl schedule, see [Define a crawl schedule for an external content connector](define-schedule-ext-cont-connector.md). To learn about running one-time crawls, see [Run a one-time full or partial document crawl for an external content connector](run-doc-crawl-ext-cont-connector.md) and [Run a one-time user mapping crawl for an external content connector](run-umap-crawl-ext-cont-connector.md).
+If you want the connector to crawl everything in the source system, and don't want to apply file-extension inclusion or exclusion filters, you can skip definition of crawl settings and go straight on to define a crawl schedule for your new connector or run one-time crawls for it. For details on defining a crawl schedule, see [Define a crawl schedule for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/define-schedule-ext-cont-connector.md). To learn about running one-time crawls, see [Run a one-time full or partial document crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-doc-crawl-ext-cont-connector.md) and [Run a one-time user mapping crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-umap-crawl-ext-cont-connector.md).
 
-You can create search sources for the connector's indexed source and link them to your search profiles. To view the connector's indexed source, navigate to **All** &gt; **AI Search** &gt; **AI Search Index** &gt; **Indexed Sources**. For information about creating search sources and linking them to search profiles, see [Search sources in AI Search](../concept/search-sources-ais.md).
+You can create search sources for the connector's indexed source and link them to your search profiles. To view the connector's indexed source, navigate to **All** &gt; **AI Search** &gt; **AI Search Index** &gt; **Indexed Sources**. For information about creating search sources and linking them to search profiles, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/search-sources-ais.md).
 
-**Parent Topic:**[Creating external content connectors](creating-ext-cont-connectors.md)
+**Parent Topic:**[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/creating-ext-cont-connectors.md)
 

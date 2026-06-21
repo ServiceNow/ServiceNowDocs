@@ -2,11 +2,12 @@
 title: Create service catalog breakdowns
 description: Create service catalog breakdowns by fragmenting the service catalog category of the business service to its catalog item components into a more detailed level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/create-service-catalog-breakdowns.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Define a service catalog statement item, Determine the statement item type, Financial charging application setup, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -43,5 +44,5 @@ For example, the IT Services Consumables statement item can provide the breakdow
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Define a service catalog statement item](define-service-catalog-statmt-item.md)
+**Parent Topic:**[Define a service catalog statement item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/define-service-catalog-statmt-item.md)
 

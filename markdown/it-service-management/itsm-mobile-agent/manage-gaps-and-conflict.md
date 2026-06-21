@@ -2,6 +2,7 @@
 title: Manage gaps and conflicts with On-Call Scheduling
 description: Resolve all gaps and conflicts for the shifts in your group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/itsm-mobile-agent/manage-gaps-and-conflict.html
 release: xanadu
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

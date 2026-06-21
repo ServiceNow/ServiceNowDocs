@@ -2,6 +2,7 @@
 title: Use the ChangeResolution component
 description: Change the resolution of a user's system screen as part of an automation Workflow by using the ChangeResolution component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-screen-changeresolution.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the ChangeResolution component. For more information about these properties, see [Properties of the Screen components](../reference/util-screen-prop.md).
+You can configure the properties for the ChangeResolution component. For more information about these properties, see [Properties of the Screen components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/util-screen-prop.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ You can configure the properties for the ChangeResolution component. For more in
 
 2.  Drag the ChangeResolution component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the ChangeResolution component to the corresponding ports of the other components as described in the following table.
 
@@ -40,5 +41,5 @@ You can configure the properties for the ChangeResolution component. For more in
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Screen](../concept/screen.md)
+**Parent Topic:**[Screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/screen.md)
 

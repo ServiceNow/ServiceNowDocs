@@ -2,6 +2,7 @@
 title: Document access in a legal matter
 description: Documents attached to legal matters are uploaded to the configured external storage system when the external storage option is enabled on an intake form with All or matter type selected. The access permission of these documents to various personas is controlled in real time, via a scheduled job, or on-demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-matter-management/document-access-legal-matter.html
 release: xanadu
 product: Legal Matter Management
 classification: legal-matter-management

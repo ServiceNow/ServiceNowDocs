@@ -2,7 +2,10 @@
 title: Create a contact relationship for an account
 description: Create a contact relationship for an account by selecting a contact and then assigning a responsibility to that contact in the Customer Service Management \(CSM\) application. Through this relationship, a contact can effectively manage the accounts and can execute actions on behalf of the associated accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_CreateAContactRelationship.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ Starting with the Xanadu release, Customer Service Management \(CSM\) introduced
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Contact Relationship form](../reference/csm-contact-relationship-form.md).
+    For a description of the field values, see [Contact Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-contact-relationship-form.md).
 
 5.  Select **Submit**.
 

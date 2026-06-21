@@ -2,6 +2,7 @@
 title: View an order timeline
 description: View Gantt chart timelines that display the status of a domain order and order tasks, show dependencies between order tasks, and identify tasks that are in jeopardy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/view-order-timelines.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Customer Orders** &gt; **All**.
 
@@ -33,15 +34,15 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 5.  To change the information or elements displayed in the timeline view, use these options.
 
-<table id="choicetable_pwy_bnv_c1c"><thead><tr><th align="left" id="d22854e109">
+<table id="choicetable_pwy_bnv_c1c"><thead><tr><th align="left" id="d23064e109">
 
 Option
 
-</th><th align="left" id="d22854e112">
+</th><th align="left" id="d23064e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d22854e118">
+</th></tr></thead><tbody><tr><td id="d23064e118">
 
 **Add or change columns**
 
@@ -52,7 +53,7 @@ Description
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d22854e145">
+</td></tr><tr><td id="d23064e145">
 
 **Change the timeline elements displayed**
 
@@ -63,7 +64,7 @@ Description
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d22854e172">
+</td></tr><tr><td id="d23064e172">
 
 **Adjust the time scale used**
 
@@ -73,5 +74,5 @@ In the time scale dropdown, select the time view, such as day, week month, or ye
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Order Management](../concept/reviewing-approving-fulfilling-orders.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/reviewing-approving-fulfilling-orders.md)
 

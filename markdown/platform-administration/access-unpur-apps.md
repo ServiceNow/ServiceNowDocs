@@ -2,6 +2,7 @@
 title: Accessing unpurchased recommended apps on ServiceNow Store
 description: Administrators can access the list of unpurchased ServiceNow Store apps, view recommended apps, and view details of the required app without navigating to the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/access-unpur-apps.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -34,5 +35,5 @@ To access the list of unpurchased ServiceNow Store apps, navigate to **System Ap
     You will be redirected to the ServiceNow Store from where you can purchase the app.
 
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 

@@ -2,6 +2,7 @@
 title: Slack Spoke
 description: Use the Slack spoke to post messages and manage access to channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/slack-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -25,7 +26,7 @@ The Slack spoke v1.8.0 is the latest version.
 
 ## Slack account requirements
 
-The Slack spoke requires creating a workspace and custom app on your Slack account to generate the OAuth 2.0 tokens for the Slack spoke. See [Configure Slack app](../tasks/configure-slack-workspace.md).
+The Slack spoke requires creating a workspace and custom app on your Slack account to generate the OAuth 2.0 tokens for the Slack spoke. See [Configure Slack app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-slack-workspace.md).
 
 **Note:** The spoke set up procedure outlined here requires bot user tokens only. You can't use the Create User and Deactivate User actions while using the bot token scopes. To use these actions, you must obtain user token from your Slack account.
 
@@ -63,7 +64,7 @@ Post Actionable Message
 
 </td><td>
 
-Posts an actionable message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack-1.md).
+Posts an actionable message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Post Approval Message
 
 </td><td>
 
-Posts an approval message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack-1.md).
+Posts an approval message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
 </td></tr><tr><td>
 
@@ -226,7 +227,7 @@ Post Actionable Message
 
 </td><td>
 
-Posts an actionable message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack-1.md).
+Posts an actionable message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
 </td></tr><tr><td>
 
@@ -234,7 +235,7 @@ Post Approval Message
 
 </td><td>
 
-Posts an approval message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack-1.md).
+Posts an approval message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
 </td></tr><tr><td>
 
@@ -320,7 +321,7 @@ Deactivate Subscription
 
 </td><td>
 
-Deactivates a user subscription in Slack. To use this action, perform the steps outlined in the Create a Slack Enterprise Grid application and Create a Slack Enterprise connection section in [Integrating with Slack](https://www.servicenow.com/docs/access?context=integrate-with-slack&version=xanadu&pubname=xanadu-it-asset-management&ft:locale=en-US).
+Deactivates a user subscription in Slack. To use this action, perform the steps outlined in the Create a Slack Enterprise Grid application and Create a Slack Enterprise connection section in .
 
 </td></tr><tr><td>
 
@@ -328,7 +329,7 @@ Look up Access Logs Stream
 
 </td><td>
 
-Retrieves the access logs for all users since the provided oldest date. To use this action, perform the steps outlined in the Create a Slack workspace application and Create a Slack workspace connection section in [Integrating with Slack](https://www.servicenow.com/docs/access?context=integrate-with-slack&version=xanadu&pubname=xanadu-it-asset-management&ft:locale=en-US).
+Retrieves the access logs for all users since the provided oldest date. To use this action, perform the steps outlined in the Create a Slack workspace application and Create a Slack workspace connection section in .
 
 </td></tr><tr><td>
 
@@ -336,7 +337,7 @@ Look up Users Stream
 
 </td><td>
 
-Retrieves all users in the Slack Enterprise grid. To use this action, perform the steps outlined in the Create a Slack Enterprise Grid application and Create a Slack Enterprise connection section in [Integrating with Slack](https://www.servicenow.com/docs/access?context=integrate-with-slack&version=xanadu&pubname=xanadu-it-asset-management&ft:locale=en-US).
+Retrieves all users in the Slack Enterprise grid. To use this action, perform the steps outlined in the Create a Slack Enterprise Grid application and Create a Slack Enterprise connection section in .
 
 </td></tr></tbody>
 </table>**Note:**
@@ -346,16 +347,16 @@ Retrieves all users in the Slack Enterprise grid. To use this action, perform th
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See  for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://www.servicenow.com/docs/access?context=clone-ai-agent&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for more information about creating a clone.
--   See [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 
@@ -367,7 +368,7 @@ Available AI agents include:
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
@@ -561,5 +562,5 @@ Slack Modal Configuration \[sn\_slack\_ah\_v2\_slack\_modal\_configuration\]
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up Slack spoke](../../integrationhub-store-spokes/task/set-up-slack-1.md).
+For information about setting up the spoke, see [Set up Slack spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 

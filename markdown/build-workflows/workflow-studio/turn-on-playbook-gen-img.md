@@ -2,6 +2,7 @@
 title: Turn on playbook generation with images
 description: Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbooks from an image.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/turn-on-playbook-gen-img.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -37,12 +38,12 @@ Turn on the Now Assist for Creator playbook generation skill to use generative A
 
 5.  In the Playbook Assist card, verify that the playbook generation with images skill is activated under **All Playbook Assist skills**.
 
-    ![The Now Assist for Creator Playbook card in the Now Assist admin panel showing the activated Playbook Generation, Playbook Recommendations, and Playbook generation with images skills](../images/playbook-assist-skills-11_2004.png)
+    \[Omitted image "playbook-assist-skills-11\_2004.png"\] Alt text: The Now Assist for Creator Playbook card in the Now Assist admin panel showing the activated Playbook Generation, Playbook Recommendations, and Playbook generation with images skills
 
 
 ## What to do next
 
 Grant the **now.assist.creator** role to each user who will use the playbook generation with images skill.
 
-**Parent Topic:**[Configuring Playbook Assist](../concept/configuring-playbook-assist.md)
+**Parent Topic:**[Configuring Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-playbook-assist.md)
 

@@ -2,6 +2,7 @@
 title: Modify security incident map
 description: Administrators in the global domain, can modify how the security incident map handles security incidents using filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/t\_ModifySecIncGeoHeatmap.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +28,7 @@ Role required: sn\_si.admin
 
 3.  Click **Edit Report**.
 
-    ![Filters available for Security Incident map](../image/ConfigureSecIncGeoHeatmap.png)
+    \[Omitted image "ConfigureSecIncGeoHeatmap.png"\] Alt text: Filters available for Security Incident map
 
 4.  Click **Add Filter Condition** to add or edit filters.
 
@@ -36,5 +37,5 @@ Role required: sn\_si.admin
 6.  Click **Save**.
 
 
-**Parent Topic:**[Security incident map](../concept/c_SecurityIncidentGeoHeatmap.md)
+**Parent Topic:**[Security incident map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/c_SecurityIncidentGeoHeatmap.md)
 

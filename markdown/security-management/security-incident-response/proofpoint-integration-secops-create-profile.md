@@ -2,6 +2,7 @@
 title: Create an event profile for the Proofpoint Integration for Security Operations
 description: Create an event profile to identify the events you want to import from the Proofpoint product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/proofpoint-integration-secops-create-profile.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -125,15 +126,15 @@ Text to help you identify this event profile.
 
 11. Select one for the import type and how often you want to import event data.
 
-<table id="choicetable_ehs_bq4_b2c"><thead><tr><th align="left" id="d123864e400">
+<table id="choicetable_ehs_bq4_b2c"><thead><tr><th align="left" id="d55072e400">
 
 Option
 
-</th><th align="left" id="d123864e403">
+</th><th align="left" id="d55072e403">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d123864e409">
+</th></tr></thead><tbody><tr><td id="d55072e409">
 
 **Ongoing Events Ingestion**
 
@@ -144,7 +145,7 @@ Select this to import events on a regular interval. Provide a start date, the en
 -   **Input initial Ingestion Time**
 
 
-</td></tr><tr><td id="d123864e433">
+</td></tr><tr><td id="d55072e433">
 
 **One Time Retrieval**
 

@@ -2,6 +2,7 @@
 title: Container discovery
 description: Container discovery enables IT departments of companies to collect detailed information about their container management tools in the infrastructure. Discovery finds resources in major container management services providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/container-discovery.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -16,9 +17,9 @@ breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 
 Container discovery enables IT departments of companies to collect detailed information about their container management tools in the infrastructure. Discovery finds resources in major container management services providers.
 
-[Kubernetes discovery using patterns](../../service-mapping/concept/kubernetes-discovery.md)
+[Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/kubernetes-discovery.md)
 
-[Amazon ECS resource discovery](../../service-mapping/reference/aws-ecs-fargate-discovery.md)
+[Amazon ECS resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.md)
 
-[Pivotal Cloud Foundry discovery](../../service-mapping/concept/pivotal-cloud-foundry.md)
+[Pivotal Cloud Foundry discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/pivotal-cloud-foundry.md)
 

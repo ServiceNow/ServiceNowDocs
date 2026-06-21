@@ -2,6 +2,7 @@
 title: Configure Virtual Agent settings for Microsoft Teams
 description: Configure your Microsoft Teams bots that are integrated with Virtual Agent to enable notifications, to link ServiceNow user profiles, and to set up system messages and contextual actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-va-msteams-settings.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -31,7 +32,7 @@ Role required: admin
 
 5.  In the Enable Link Authentication section, configure the different link opening experiences using Smart Links.
 
-    For more information about enabling link authentication for your Microsoft Teams bots, see [Configure link authentication and opening experience in Microsoft Teams](link-opening-authentication-msteams.md).
+    For more information about enabling link authentication for your Microsoft Teams bots, see [Configure link authentication and opening experience in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/link-opening-authentication-msteams.md).
 
 6.  Swipe to the left the **Enable Notification for all users** toggle button to disable notifications for the linked users.
 
@@ -45,11 +46,11 @@ Role required: admin
 
     -   **System Messages**: Customize the default system messages displayed during Virtual Agent conversations.
 
-        For more information about changing or updating a system message, see [Change system messages](../../conversational-interfaces/task/ac-change-system-messages.md).
+        For more information about changing or updating a system message, see [Change system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-change-system-messages.md).
 
     -   **Contextual Actions**: Customize the supported actions per user command inputs.
 
-        For more information about updating a contextual action, see [Contextual actions for custom chat integrations](../reference/contextual-actions.md#).
+        For more information about updating a contextual action, see [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/contextual-actions.md).
 
 
 ## What to do next
@@ -57,5 +58,5 @@ Role required: admin
 The Virtual Agent bot and Microsoft Teams tenant are now integrated for use on your ServiceNow instance. Your messaging users are automatically linked to their ServiceNow accounts.
 
 -   Notify your users that the Virtual Agent bot for Microsoft Teams is available for use.
--   To improve the live agent experience for your users, you can activate the display of the estimated wait time for live chat support. When a user asks to chat with a live agent, a card shows the approximate wait time to talk with an agent, and gives the user the option to cancel the chat. For details on activating this feature, see [Configure Agent Chat](../../conversational-interfaces/task/ac-configure-agent-chat.md).
+-   To improve the live agent experience for your users, you can activate the display of the estimated wait time for live chat support. When a user asks to chat with a live agent, a card shows the approximate wait time to talk with an agent, and gives the user the option to cancel the chat. For details on activating this feature, see [Configure Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 

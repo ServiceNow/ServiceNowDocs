@@ -2,6 +2,7 @@
 title: Word Document Templates
 description: Word Document Templates, part of Contracts Core, enables you to create templates or standard letters that are used to generate contracts or documents according to a submitted request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-expl-wdt.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro

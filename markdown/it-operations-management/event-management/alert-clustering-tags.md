@@ -2,6 +2,7 @@
 title: Create alert clustering tags
 description: Alert clustering tags represent an improved way to correlate alerts. Alerts with identical or similar tags \(depending on the configured match method\) are joined together to form a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/alert-clustering-tags.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -25,7 +26,7 @@ Role required: evt\_mgmt\_admin
 
 2.  Click **New**.
 
-3.  Fill in the values on the [Event Management tag based alert clustering tag form](../reference/tag-based-alert-clustering-tag-form.md).
+3.  Fill in the values on the [Event Management tag based alert clustering tag form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/tag-based-alert-clustering-tag-form.md).
 
 4.  Select **Submit**.
 

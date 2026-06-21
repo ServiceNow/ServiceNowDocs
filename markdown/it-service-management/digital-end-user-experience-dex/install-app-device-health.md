@@ -2,6 +2,7 @@
 title: Install Digital End-User Experience
 description: Digital End-User Experience \(DEX\) is available with activation of the Digital End-User Experience \[sn\_dex\] plugin. You can install the DEX product \[sn\_dex\] if you have the admin role. During installation, Application and Device Health is included as a component in DEX.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/install-app-device-health.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -29,7 +30,7 @@ The following items are installed with Digital End-User Experience:
 -   Roles
 -   Tables
 
-For more information, see [Installed with DEX](../reference/components-installed-with-dex.md).
+For more information, see [Installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.md).
 
 For information about DEX data migration, see the [KB1646364](https://support.servicenow.com/kb_view.do?sysparm_article=KB1646364) article in the knowledge base.
 

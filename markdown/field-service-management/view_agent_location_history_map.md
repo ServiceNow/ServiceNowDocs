@@ -2,7 +2,10 @@
 title: View agent location history map
 description: Access a historical map of field service agents' locations to track and analyze their activities over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view\_agent\_location\_history\_map.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -38,5 +41,5 @@ Field service agents have the ability to view and monitor their own location his
     **Note:** The work order task number appears if the agent activity is a task. You can open the work order task record to view the details.
 
 
-**Parent Topic:**[Workforce](../concept/using-manager-workforce.md)
+**Parent Topic:**[Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-manager-workforce.md)
 

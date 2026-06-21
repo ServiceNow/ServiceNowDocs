@@ -2,6 +2,7 @@
 title: Map UR fields with target table fields
 description: Define the fields that you want to map between the universal request and the target table fields that you already configured. This configuration enables you to copy the values of mapped fields from the universal request to the new ticket, and vice versa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/universal-request-for-hr-service-delivery/transfer-fields-mapping.html
 release: xanadu
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -29,15 +30,15 @@ To map automatically the fields, select **Map fields automatically** related lin
 
 2.  Open the configuration for which you want to map the fields.
 
-<table id="choicetable_mmq_lyn_mtb"><thead><tr><th align="left" id="d145844e83">
+<table id="choicetable_mmq_lyn_mtb"><thead><tr><th align="left" id="d141673e83">
 
 Mapping type
 
-</th><th align="left" id="d145844e86">
+</th><th align="left" id="d141673e86">
 
 Description and action
 
-</th></tr></thead><tbody><tr><td id="d145844e92">
+</th></tr></thead><tbody><tr><td id="d141673e92">
 
 **Direct transfer mappings**
 
@@ -51,7 +52,7 @@ Map the fields to create service level tickets when a ticket is transferred from
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d145844e133">
+</td></tr><tr><td id="d141673e133">
 
 **Associated ticket mappings**
 
@@ -65,7 +66,7 @@ Map the fields to create an associated ticket for universal request.On the **Ass
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d145844e174">
+</td></tr><tr><td id="d141673e174">
 
 **Create UR mappings**
 
@@ -73,7 +74,7 @@ Map the fields to create an associated ticket for universal request.On the **Ass
 
 Map the fields to create automatically a universal request when a request is raised from any of the available channels.
 
-**Note:** Before you perform this step, ensure that you’ve created a new Before insert business rule to call the respective API. For more information, see [Create a business rule to automatically create universal request](ur-create-brule-omnichannel.md).
+**Note:** Before you perform this step, ensure that you’ve created a new Before insert business rule to call the respective API. For more information, see [Create a business rule to automatically create universal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-request-for-hr-service-delivery/ur-create-brule-omnichannel.md).
 
  On the **Create UR Mappings** tab,
 
@@ -89,5 +90,5 @@ Map the fields to create automatically a universal request when a request is rai
 3.  Select **Update**.
 
 
-**Parent Topic:**[Configure mappings](ur-transfer-map-config.md)
+**Parent Topic:**[Configure mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-request-for-hr-service-delivery/ur-transfer-map-config.md)
 

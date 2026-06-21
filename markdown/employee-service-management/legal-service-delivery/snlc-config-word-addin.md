@@ -2,6 +2,7 @@
 title: Configure the Microsoft Word add-in for ServiceNow Contracts
 description: As an admin, configure the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/snlc-config-word-addin.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -29,15 +30,15 @@ Role required: admin
 
 4.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d291390e100">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d273524e100">
 
 System
 
-</th><th align="left" id="d291390e103">
+</th><th align="left" id="d273524e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d291390e109">
+</th></tr></thead><tbody><tr><td id="d273524e109">
 
 **macOS**
 
@@ -51,7 +52,7 @@ Steps
 6.  Navigate to the menu **Home**.
 
 
-</td></tr><tr><td id="d291390e162">
+</td></tr><tr><td id="d273524e162">
 
 **Windows**
 
@@ -65,7 +66,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d291390e219">
+</td></tr><tr><td id="d273524e219">
 
 **Microsoft Word Online**
 
@@ -86,5 +87,5 @@ Steps
 
 The **ServiceNow Contracts** add-in is available in the Home ribbon.
 
-**Parent Topic:**[Configure Contract Management Pro for Legal Service Delivery](../concept/snlc-config-sn-legal-contracts.md)
+**Parent Topic:**[Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md)
 

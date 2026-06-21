@@ -2,6 +2,7 @@
 title: Archive email manually
 description: You can archive email messages manually on demand instead of waiting for the instance to archive them based on a scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ArchiveEmail.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -37,8 +38,8 @@ You can manually archive email messages that meet these archive rules or any add
 
 4.  Select **Run Archive Now**.
 
-    **Note:** You can also [Create an archive rule](../../database-rotation/task/t_CreateAnArchiveRule.md#).
+    **Note:** You can also [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAnArchiveRule.md).
 
 
-**Parent Topic:**[Email retention](../concept/email-retention.md)
+**Parent Topic:**[Email retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/email-retention.md)
 

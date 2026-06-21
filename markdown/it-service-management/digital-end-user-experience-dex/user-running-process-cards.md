@@ -2,6 +2,7 @@
 title: Running processes page
 description: Observe running process metrics to gain insights into how running processes are performing and identify performance bottlenecks or issues that might be impacting the digital experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/user-running-process-cards.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -82,7 +83,7 @@ PPID
 Parent Process ID \(PPID\) is the unique numerical identifier assigned to the parent process of a running process.**Note:** The PPID is useful for process management because it enables administrators to identify the processes that spawned child processes and track the flow of processes in the system. The PPID is also used to manage the resources allocated to a process and confirm that child processes have access to the necessary resources.
 
 </td></tr></tbody>
-</table>To return to the users details page, see [Device details](../concept/dex-workspace-user-details.md).
+</table>To return to the users details page, see [Device details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/dex-workspace-user-details.md).
 
-**Parent Topic:**[Device details pages](user-device-details-pages.md)
+**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

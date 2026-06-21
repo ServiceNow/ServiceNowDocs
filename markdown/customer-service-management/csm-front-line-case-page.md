@@ -2,7 +2,10 @@
 title: Front-line case page
 description: The front-line case page provides a simplified case view that enables front-line agents to quickly gather context, categorize cases, and provide prompt responses to customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-front-line-case-page.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 14
@@ -22,7 +25,7 @@ The Front-line case page focuses on the essential functionality that front-line 
 
 The Front-line case page is included with the CSM Configurable Workspace application.
 
-![The Front-line case page enables agents to focus on four main areas, including contact information, case details, the activity stream, and the contextual side panel.](../image/front-line-case-page-template.png "Front-line case page")
+\[Omitted image "front-line-case-page-template.png"\] Alt text: The Front-line case page enables agents to focus on four main areas, including contact information, case details, the activity stream, and the contextual side panel.
 
 ## Front-line case page variant
 
@@ -42,7 +45,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The Front-line case page variant is active for new and upgrade customers.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page variant available to the selected audience. The Front-line case page variant is active for new and upgrade customers.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -68,7 +71,7 @@ Audience
 
 The audience determines who can see the page variant. The Front-line case page has the following audience: **CSM - Front-line Agent**This audience includes the sn\_cwf\_wrkspc.frontline\_agent role.
 
-For more information, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -114,7 +117,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://www.servicenow.com/docs/access?context=setting-record-tags-agent-workspace&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see Group and find records using tags in workspace.
 
 </td></tr><tr><td>
 
@@ -122,7 +125,7 @@ Action bar
 
 </td><td>
 
-The action bar contains the actions available to users while working on case records. The specific actions are determined by factors such as the user role, case state, and other attributes.-   **In-progress Actions**: Provides a list of minimized [modeless dialogs](csm-front-line-case-page-modeless-dialogs.md) and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
+The action bar contains the actions available to users while working on case records. The specific actions are determined by factors such as the user role, case state, and other attributes.-   **In-progress Actions**: Provides a list of minimized [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
 -   **Create**: Create records such as work orders, incidents, and requests.
 -   **Compose**: Compose comments, work notes, and emails in modeless dialogs.
 -   **Manage case**: Perform case management actions such as accepting a case or requesting information.
@@ -144,7 +147,7 @@ Agents can use the contact lookup component to do the following:-   Search for a
 
 The contact lookup component displays information in record cards. These cards display contact information and provide quick access to customer details such name, email, and phone.
 
-For more information, see the [Contact lookup component](csm-front-line-case-page.md#section_dnl_3f4_s1c) section below.
+For more information, see the [Contact lookup component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-front-line-case-page.md) section below.
 
 </td></tr><tr><td>
 
@@ -171,7 +174,7 @@ The case summarization component appears above the activity stream. When an agen
 -   Post the summary to the activity stream.
 -   Refresh the summary.
 
-The case summarization component requires the Now Assist for Customer Service Management \(CSM\) application to be activated and configured. For more information, see the [Case summarization component](csm-front-line-case-page.md#section_ots_wnh_s1c) section below.
+The case summarization component requires the Now Assist for Customer Service Management \(CSM\) application to be activated and configured. For more information, see the [Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-front-line-case-page.md) section below.
 
 </td></tr><tr><td>
 
@@ -179,9 +182,9 @@ Activity stream
 
 </td><td>
 
-The activity stream component displays a list of activities occurring on a case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.For more information, see the [Activity stream component](csm-front-line-case-page.md#section_ntx_lnh_s1c) section below.
+The activity stream component displays a list of activities occurring on a case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.For more information, see the [Activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-front-line-case-page.md) section below.
 
-**Note:** The Front-line case page uses [modeless dialogs](csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails.
+**Note:** The Front-line case page uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails.
 
 </td></tr><tr><td>
 
@@ -199,8 +202,8 @@ The contextual side panel component includes different tools that agents can use
 
 For more information, see the following sections:
 
--   [Contextual side panel component](csm-front-line-case-page.md#section_trg_ypr_m1c)
--   [Related lists component](csm-front-line-case-page.md#section_urr_nrh_s1c)
+-   [Contextual side panel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-front-line-case-page.md)
+-   [Related lists component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-front-line-case-page.md)
 
 </td></tr></tbody>
 </table>## Action bar component
@@ -217,7 +220,7 @@ The Front-line case page supports actions from the following Customer Service Ma
 -   Time Recording for Customer Service \(com.snc.csm\_time\_recording\)
 -   Omni-Experience Standard Feature Set
 
-If you are using any additional plugins, you need to add the actions from those plugins to the Front-line case page action bar. For more information, see [Configure the Front-line case page action bar](../task/config-front-line-case-page-action-bar.md).
+If you are using any additional plugins, you need to add the actions from those plugins to the Front-line case page action bar. For more information, see [Configure the Front-line case page action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-front-line-case-page-action-bar.md).
 
 ## Contact lookup component
 
@@ -254,14 +257,14 @@ Using this component, agents can:
 
 To use the case summarization component with the Front-line case page, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](now-assist-csm-supporting-info.md)
--   [Configure the case summarization skill in the Now Assist Admin console](now-assist-csm-configuring.md).
+-   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
+-   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 
 ## Activity stream component
 
 The activity stream component displays a list of the activities occurring on a case record. The activities in the list can be collapsed or expanded. When collapsed, the agent can quickly scan the list to get an overview of case activities. When expanded, the agent can see detailed information individual activities.
 
-![The front-line case page activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.](../image/front-line-case-page-activity-stream.png "Front-line case page activity stream component")
+\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The front-line case page activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.
 
 The activities in the activity stream are represented by tiles that use icons and colors to indicate the activity type.
 
@@ -292,7 +295,7 @@ When expanded, each activity also includes:
 -   For attachments, a small preview of the attached file.
 -   For chats, a sidebar chat card.
 
-The activity stream uses [Modeless dialogs](csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails.
+The activity stream uses [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails.
 
 ## Contextual side panel component
 
@@ -323,7 +326,7 @@ Recommended Actions
 
 </td><td>
 
-The Recommended Actions tab includes [AI search](ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 From the list of search results, agents can do the following:
 
@@ -336,9 +339,9 @@ From the list of search results, agents can do the following:
     -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
 -   View successful actions by selecting the Actions history icon.
 
-For more information, see [Use AI search in Recommended Actions to resolve cases](../task/nba-use-ai-search.md).
+For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 
@@ -382,14 +385,14 @@ The Related Lists tab provides access the case related lists.The Front-line case
 
 An indicator displays the number of records available in a related list. When expanded, the records in a related list are displayed in card format.
 
-For more information, see the [Related lists component](csm-front-line-case-page.md#section_urr_nrh_s1c) section below.
+For more information, see the [Related lists component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-front-line-case-page.md) section below.
 
 </td></tr></tbody>
 </table>## Related lists component
 
 The related lists component provides access to the case related lists. This component uses an expandable accordion format. Agents can expand the desired lists to see the related items. This component also displays an icon with the number of items in a list.
 
-![The Front-line case page related lists component in the contextual side panel uses an accordion format to expand and display related list items](../image/front-line-case-page-related-lists.png "Front-line case page related lists component")
+\[Omitted image "front-line-case-page-related-lists.png"\] Alt text: The Front-line case page related lists component in the contextual side panel uses an accordion format to expand and display related list items
 
 Related lists include the following actions:
 

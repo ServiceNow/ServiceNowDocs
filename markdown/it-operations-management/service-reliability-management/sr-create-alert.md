@@ -2,6 +2,7 @@
 title: Manually create an SRM alert
 description: Create an alert for testing or if you think an issue poses a risk and should be evaluated as soon as possible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-create-alert.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -31,7 +32,7 @@ Role required: Responder, Manager, or Administrator
 
 3.  Select **Trigger alert** from the **Alert** list header.
 
-    ![Reliability tasks landing page.](../image/sr-trigger-alert.png)
+    \[Omitted image "sr-trigger-alert.png"\] Alt text: Reliability tasks landing page.
 
 4.  In the **Trigger an alert** window, fill in the fields.
 
@@ -171,12 +172,12 @@ Enter relevant processing information.
 
 8.  Add any comments or work notes in the **Compose** panel.
 
-9.  Add an attachment related to the alert using the attachment icon ![attachment icon](../image/icon-sr-attachment.png).
+9.  Add an attachment related to the alert using the attachment icon \[Omitted image "icon-sr-attachment.png"\] Alt text: attachment icon.
 
 10. Select **Save**.
 
-    The alert refreshes with comments, work notes, and activity captured in the **Activity** stream. For more information on alert fields, see [SRM alert workspace](../reference/sr-alerts-workspace.md).
+    The alert refreshes with comments, work notes, and activity captured in the **Activity** stream. For more information on alert fields, see [SRM alert workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-alerts-workspace.md).
 
 
-**Parent Topic:**[Working with alerts in SRM](../concept/sr-work-alerts.md)
+**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-alerts.md)
 

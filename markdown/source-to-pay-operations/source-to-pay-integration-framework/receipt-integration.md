@@ -2,6 +2,7 @@
 title: Receipt integration
 description: Receipts are created in Source-to-Pay \(S2P\) and synchronized to the ERP system asynchronously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-integration-framework/receipt-integration.html
 release: xanadu
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

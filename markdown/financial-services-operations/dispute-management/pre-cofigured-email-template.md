@@ -2,6 +2,7 @@
 title: Preconfigured email templates in a card dispute flow
 description: Email templates are pre-formatted files that you can use to start creating email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/pre-cofigured-email-template.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -70,7 +71,7 @@ Template that notifies users that their dispute submission is denied.
 </td></tr></tbody>
 </table>The following example shows a sample email template.
 
-![Sample email acknowledgement letter.](../image/Email_ack_submission.jpg)
+\[Omitted image "Email\_ack\_submission.jpg"\] Alt text: Sample email acknowledgement letter.
 
-**Parent Topic:**[Managing dispute service requests](managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/managing-card-disputes.md)
 

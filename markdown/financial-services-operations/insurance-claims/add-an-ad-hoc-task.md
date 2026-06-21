@@ -2,6 +2,7 @@
 title: Add an ad-hoc task for an Insurance claims case
 description: Create a task for an Insurance claims case to help prioritize and plan your claim work better.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/insurance-claims/add-an-ad-hoc-task.html
 release: xanadu
 product: Insurance Claims
 classification: insurance-claims
@@ -29,15 +30,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_fp4_xnh_vcc"><thead><tr><th align="left" id="d86494e86">
+<table id="choicetable_fp4_xnh_vcc"><thead><tr><th align="left" id="d53664e86">
 
 Option
 
-</th><th align="left" id="d86494e89">
+</th><th align="left" id="d53664e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d86494e95">
+</th></tr></thead><tbody><tr><td id="d53664e95">
 
 **From the landing page**
 
@@ -45,13 +46,13 @@ Steps
 
 From a claims list, select the claim case that you want to create a task for.
 
-</td></tr><tr><td id="d86494e104">
+</td></tr><tr><td id="d53664e104">
 
 **From the applicable case/tasks list**
 
 </td><td>
 
-1.  Select the lists icon \(![Lists icon.](../../../use/reporting/image/inline-data-vis-list.png)\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
 2.  On the **Lists** tab, navigate to one of the following applicable lists \(or the list category that is specific to your custom workflow\):
     -   As a processor, select **Insurance claim cases**, and then select **All**.
     -   As an adjuster, select **Insurance claim adjuster tasks**, and then select **All**.

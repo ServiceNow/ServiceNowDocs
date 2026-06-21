@@ -2,6 +2,7 @@
 title: Create and manage queue triggers
 description: Create and manage queue triggers to set off multiple actions during customer wait times for a particular queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/advanced-work-assignment/awa-create-queue-triggers.html
 release: xanadu
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -100,5 +101,5 @@ Name of the existing Virtual Agent topic that appears to the users when the max 
     The queue triggers are added to or updated in the Queue Triggers related list.
 
 
-**Parent Topic:**[Work item queues](../reference/awa-queues.md)
+**Parent Topic:**[Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/advanced-work-assignment/awa-queues.md)
 

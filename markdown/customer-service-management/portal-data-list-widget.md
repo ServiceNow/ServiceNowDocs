@@ -2,7 +2,10 @@
 title: Portal Data List widget
 description: The Portal Data List widget displays data related to cases from selected case tables in either a list or card format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-data-list-widget.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,17 +18,17 @@ The Portal Data List widget displays data related to cases from selected case ta
 
 The list view displays a columnar list of cases and their information. You can also display the data list without the category on the left and pin the first column.
 
-![Portal Data List widget displaying different cases and their details in list format.](../image/portal-datalist-widget-list-view.png "Portal Data List widget list view")
+\[Omitted image "portal-datalist-widget-list-view.png"\] Alt text: Portal Data List widget displaying different cases and their details in list format.
 
 The card view displays case information in stacked cards.
 
-![Portal Data List widget displaying different cases and their details in card format.](../image/portal-datalist-widget-card-view.png "Portal Data List widget card view")
+\[Omitted image "portal-datalist-widget-card-view.png"\] Alt text: Portal Data List widget displaying different cases and their details in card format.
 
-![Data List widget displaying list of cases without categories.](../image/data-list-without-categories.png "Portal Data List widget without categories")
+\[Omitted image "data-list-without-categories.png"\] Alt text: Data List widget displaying list of cases without categories.
 
 Each row in the widget represents a record. You can search, view, sort, and interact with the information presented.
 
-For more information about how to configure the instance options for the Portal Data List widget, see [Add and configure the Portal Data List widget](../task/config-data-list-widget-inst-optns.md).
+For more information about how to configure the instance options for the Portal Data List widget, see [Add and configure the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-data-list-widget-inst-optns.md).
 
 The Data List portal widget can be used in the following scenarios:
 

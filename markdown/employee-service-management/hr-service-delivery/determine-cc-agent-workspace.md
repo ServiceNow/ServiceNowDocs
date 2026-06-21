@@ -2,6 +2,7 @@
 title: Similar closed cases in HR Service Delivery Agent Workspace
 description: Help an HR agent resolve the current case by displaying similar closed cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/determine-cc-agent-workspace.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,5 +33,5 @@ The Similar Closed HR Cases \(ml\_sn\_sn\_hr\_core\_global\_similar\_closed\_hr\
 -   The Predictive Intelligence \(com.glide.platform\_ml\) plugin is installed.
 -   The **glide.platform\_ml.auto\_training.enabled** system property is set to true.
 
-**Parent Topic:**[Machine learning solutions for HR Service Delivery Agent Workspace](agent-ws-hr-prediction-service.md)
+**Parent Topic:**[Machine learning solutions for HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-prediction-service.md)
 

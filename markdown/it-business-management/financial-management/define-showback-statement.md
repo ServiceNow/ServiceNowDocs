@@ -2,11 +2,12 @@
 title: Define, generate, and publish a showback statement
 description: Showback tells the consumers what it costs a service organization such as IT to deliver services to them. Defining a showback statement helps to capture the reporting entity \(for example, a business unit\) to whom you want the showback statement to be reported to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/define-showback-statement.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 3
 breadcrumb: [Financial charging application setup, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -118,12 +119,12 @@ User group who can see the report.All the members of the user group can see the 
 
 7.  Click **Delete** to delete the record.
 
-    [Create statement lines](determine-statement-item.md) for the Showback Statement by clicking the Showback Statement Line Definitions **New** button.
+    [Create statement lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/determine-statement-item.md) for the Showback Statement by clicking the Showback Statement Line Definitions **New** button.
 
 
 ## What to do next
 
-[Monitor the showback statements in the service pricing console](view-service-pricing-console.md).
+[Monitor the showback statements in the service pricing console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/view-service-pricing-console.md).
 
-**Parent Topic:**[Financial charging application setup](../concept/financial-reporting-appln-setup.md)
+**Parent Topic:**[Financial charging application setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-reporting-appln-setup.md)
 

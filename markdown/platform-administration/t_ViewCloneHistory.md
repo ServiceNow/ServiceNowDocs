@@ -2,6 +2,7 @@
 title: View clone history
 description: You can view the status and history of any system clone request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ViewCloneHistory.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -27,7 +28,7 @@ The System Clone \[clone\_instance\] table stores records for all previously and
 
     Clone history also displays the **State** for current and past clones. Clones in the **Draft** state do not appear on the Clone History table.
 
-    ![Clone completed](../image/CloneCompleted.png)
+    \[Omitted image "CloneCompleted.png"\] Alt text: Clone completed
 
     |Clone state|Description|
     |-----------|-----------|

@@ -2,6 +2,7 @@
 title: Integrating with Confluence Cloud
 description: Integrating your Software Asset Management application with the Confluence Cloud application enables you to track your software subscriptions and to reclaim unused licenses.Create a Confluence Cloud OAuth 2.0 \(3LO\) application to enable access to the Confluence Cloud API.Obtain the value of the Cloud ID of the Confluence Cloud cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Create a Confluence Cloud integration profile to track software subscriptions and optimize licensing for your Confluence Cloud applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/integrate-with-confluence-cloud.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -76,7 +77,7 @@ Create a Confluence Cloud OAuth 2.0 \(3LO\) application to enable access to the 
 
 ### Before you begin
 
-Atlassian Role required: Refer to the [Minimal user permissions](integrate-with-confluence-cloud.md#) table.
+Atlassian Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md) table.
 
 ### Procedure
 
@@ -182,15 +183,15 @@ If you’re using Software Asset Workspace, the option to create the Confluence 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d146905e658">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d113934e658">
 
 Interface
 
-</th><th align="left" id="d146905e661">
+</th><th align="left" id="d113934e661">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d146905e667">
+</th></tr></thead><tbody><tr><td id="d113934e667">
 
 **Core UI**
 
@@ -201,7 +202,7 @@ Action
 3.  Select **Confluence Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d146905e709">
+</td></tr><tr><td id="d113934e709">
 
 **Software Asset Workspace**
 
@@ -267,7 +268,7 @@ Type of integration profile. This field is automatically set to **Confluence Clo
 
     **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
-    You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+    You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 5.  On the **Reclaim Subscription Subflow** tab, verify that the **Subflow** field is set to **Confluence Cloud Reclaim Subscription Subflow**.
 
@@ -277,7 +278,7 @@ Type of integration profile. This field is automatically set to **Confluence Clo
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_conflunce\_spoke.confluence\_subscription\_activity\_reclaim** when all the processes are selected.
 
-7.  Open the connection &amp; credential aliases record by selecting the preview icon \(![Preview icon.](../image/preview-icon.png)\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+7.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 8.  If you see a text on the record as `This record is in the Confluence Cloud Spoke application, but 'xxx' is the current application. To edit the record click here, select the link`, set the configuration template record to **SAM SaaS Confluence Cloud**.
 
@@ -311,7 +312,7 @@ Connection URL
 
 API URL for Confluence Cloud.This field is automatically set to `https://api.atlassian.com`.
 
- For Software Asset Management - SaaS License Management version 14.0.8 and above, provide the URL of your Confluence Cloud instance in the `https://api.atlassian.com/ex/confluence/<Cloud-ID` format. For more information about getting the value of Cloud ID, see [Obtain the Cloud ID value of Confluence Cloud instance](integrate-with-confluence-cloud.md#).
+ For Software Asset Management - SaaS License Management version 14.0.8 and above, provide the URL of your Confluence Cloud instance in the `https://api.atlassian.com/ex/confluence/<Cloud-ID` format. For more information about getting the value of Cloud ID, see [Obtain the Cloud ID value of Confluence Cloud instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md).
 
 </td></tr><tr><td>
 
@@ -335,12 +336,12 @@ OAuth Redirect URL
 
 </td><td>
 
-URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the callback URL that you specified in [Create a Confluence Cloud OAuth 2.0 \(3LO\) application](integrate-with-confluence-cloud.md#).
+URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the callback URL that you specified in [Create a Confluence Cloud OAuth 2.0 \(3LO\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md).
 
 </td></tr></tbody>
 </table>12. Select **Create and Get OAuth Token**.
 
-    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](integrate-with-confluence-cloud.md#) table.
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md) table.
 
 13. When the dialog box appears, grant permission to the Confluence Cloud application.
 
@@ -389,18 +390,18 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../task/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/run-recon-workspace.md).
 

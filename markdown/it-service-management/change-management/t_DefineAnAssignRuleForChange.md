@@ -2,6 +2,7 @@
 title: Create a change request assignment rule
 description: You can define assignment rules to automate the process of assigning change requests to the appropriate group or individual.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change-management/t\_DefineAnAssignRuleForChange.html
 release: xanadu
 product: Change Management
 classification: change-management
@@ -42,7 +43,7 @@ To test the assignment rule, navigate to **Change** &gt; **Create New** and ente
 
 Save the change and see that it was automatically assigned to the **Database** group.
 
-![Assignment group added to the change request](../image/ChangeRequestAssignmentRule.png)
+\[Omitted image "ChangeRequestAssignmentRule.png"\] Alt text: Assignment group added to the change request
 
-**Parent Topic:**[Configuring Change Management](../concept/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/configure-change-management.md)
 

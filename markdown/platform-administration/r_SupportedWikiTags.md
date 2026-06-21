@@ -2,6 +2,7 @@
 title: Supported wiki tags
 description: Basic tags are supported for Wikitext fields in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_SupportedWikiTags.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -137,7 +138,7 @@ Placed images
 
 </td><td>
 
-\[\[Image:&lt;image name&gt;\]\] For more information on uploading images or files to the database, see [Storing images in the database](https://www.servicenow.com/docs/access?context=c_StoringImagesInTheDatabase&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+\[\[Image:&lt;image name&gt;\]\] For more information on uploading images or files to the database, see Storing images in the database.
 
 </td></tr><tr><td>
 
@@ -150,5 +151,5 @@ Most common HTML tags are supported
  &lt;b&gt;bold&lt;/b&gt;, &lt;strong&gt;strong&lt;/strong&gt;, &lt;i&gt;italics&lt;/i&gt;, &lt;h1&gt;header1&lt;/h1&gt;, &lt;h2&gt;header2&lt;/h2&gt;, &lt;h3&gt;header3&lt;/h3&gt;, &lt;p&gt;paragraph&lt;/p&gt;, &lt;sub&gt;sub&lt;/sub&gt;, &lt;sup&gt;sup&lt;/sup&gt;, &lt;center&gt;center&lt;/center&gt;
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Wiki field type](../concept/c_WikiFields.md)
+</table>**Parent Topic:**[Wiki field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WikiFields.md)
 

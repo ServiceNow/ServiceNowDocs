@@ -2,6 +2,7 @@
 title: Parameters for WMI connector methods
 description: The parameters for the Windows Management Instrumentation \(WMI\) connector methods enable you to send custom inputs to the WMI to perform different actions such as get disk details, environment value, CPU usage, and more as part of an automation Workflow in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/connector-wmi-method-parameters.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -36,7 +37,7 @@ The parameters for the Windows Management Instrumentation \(WMI\) connector meth
 
 ## Input parameter values
 
-To input the parameter values, see [Configure port properties](../task/configure-input-port-properties.md).
+To input the parameter values, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
-**Parent Topic:**[ITSM connector](../concept/itsm.md)
+**Parent Topic:**[ITSM connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/itsm.md)
 

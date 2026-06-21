@@ -2,6 +2,7 @@
 title: Legal Request Management
 description: The ServiceNow Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department and a streamlined, collaborative process for the legal department to quickly resolve these requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-request-management/legal-request-management-landing-page.html
 release: xanadu
 product: Legal Request Management
 classification: legal-request-management
@@ -21,32 +22,32 @@ Legal teams can collaborate in a centralized Legal Counsel Center to manage lega
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore icon.](../../../common/image/icon-explore.png) Learn about how employees, paralegal staff, and lawyers use Legal Request Management.](../concept/legal-request-management-overview.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore icon. Learn about how employees, paralegal staff, and lawyers use Legal Request Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/legal-request-management-overview.md)
 
 </td><td>
 
-[Set up ![Setup icon.](../../../common/image/icon-configure.png) Set up practice areas, intake forms, and other configurations.](../concept/legal-ops-administration.md)
+[Set up \[Omitted image "icon-configure.png"\] Alt text: Setup icon. Set up practice areas, intake forms, and other configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/legal-ops-administration.md)
 
 </td><td>
 
-[Request ![Request icon.](../../../reuse/images/request.png) Submit and track legal requests.](../concept/submitting-legal-request.md)
+[Request \[Omitted image "request.png"\] Alt text: Request icon. Submit and track legal requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/submitting-legal-request.md)
 
 </td></tr><tr><td>
 
-[Manage ![Manage icon.](../../../common/image/icon-workspace.png) Manage legal requests.](../concept/managing-legal-request.md)
+[Manage \[Omitted image "icon-workspace.png"\] Alt text: Manage icon. Manage legal requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/managing-legal-request.md)
 
 </td><td>
 
-[Analytics and Reporting ![Analytics and Reporting icon.](../../human-resources/image/icon-report.png) Coordinate work and improve processes with preconfigured dashboards.](../../../use/application-content-packs/concept/legalsd-content-pack.md)
+[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Analytics and Reporting icon. Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 
 </td><td>
 
-[Reference ![Reference icon.](../../../common/image/icon-reference.png) Get details about components such as roles, tables, plugins, and store applications that are installed.](legal-request-management-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference icon. Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/legal-request-management-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Troubleshoot and get help
 

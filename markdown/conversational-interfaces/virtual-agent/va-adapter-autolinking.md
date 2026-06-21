@@ -2,6 +2,7 @@
 title: Account linking in pre-built messaging integrations
 description: In Virtual Agent, account linking maps the users of a supported chat or messaging application to their ServiceNow user profile. Account auto-linking authenticates your messaging users, which enables users to automatically access Virtual Agent topics that involve ServiceNow records. If needed, users can also manually unlink from or link to their ServiceNow accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-adapter-autolinking.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

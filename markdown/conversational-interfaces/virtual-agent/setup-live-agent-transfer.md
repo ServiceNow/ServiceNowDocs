@@ -2,6 +2,7 @@
 title: Sync Agents to setup Live Agent transfer
 description: After the installation and configuration of Amazon Connect, you must sync agents to enable live transfer. You can sync agents stored in Amazon Connect with the agents on your ServiceNow agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/setup-live-agent-transfer.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

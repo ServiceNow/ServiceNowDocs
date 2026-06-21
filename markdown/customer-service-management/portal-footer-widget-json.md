@@ -2,7 +2,10 @@
 title: Portal Polaris Footer widget JSON parameters
 description: Use the JSON parameters to define aspects of the Portal Polaris Footer widget on the portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-footer-widget-json.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -53,7 +56,7 @@ sitemap\_links\_menu\_sys\_id
 
 </td><td>
 
-The system identifier \(sys\_id\) of the menu record is used to display sitemap links in the Portal Polaris Footer widget. You can create a menu record and map it to the sitemap links by including its sys\_id in the JSON code. For more information on how to create a menu record, see [Menu Item form](https://www.servicenow.com/docs/access?context=menu-item-form&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+The system identifier \(sys\_id\) of the menu record is used to display sitemap links in the Portal Polaris Footer widget. You can create a menu record and map it to the sitemap links by including its sys\_id in the JSON code. For more information on how to create a menu record, see .
 
 </td></tr><tr><td>
 
@@ -61,7 +64,7 @@ footer\_links\_menu\_sys\_id
 
 </td><td>
 
-The system identifier \(sys\_id\) of the menu record is used to display footer links in the Portal Polaris Footer widget. You can create a menu record and map it to the footer links by including its sys\_id in the JSON code. For more information on how to create a menu record, see [Menu Item form](https://www.servicenow.com/docs/access?context=menu-item-form&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+The system identifier \(sys\_id\) of the menu record is used to display footer links in the Portal Polaris Footer widget. You can create a menu record and map it to the footer links by including its sys\_id in the JSON code. For more information on how to create a menu record, see .
 
 </td></tr><tr><td>
 
@@ -69,7 +72,7 @@ social\_links\_menu\_sys\_id
 
 </td><td>
 
-The system identifier \(sys\_id\) of the menu record is used to display social links in the Portal Polaris Footer widget. You can create a menu record and map it to the social links by including its sys\_id in the JSON code. For more information on how to create a menu record, see [Menu Item form](https://www.servicenow.com/docs/access?context=menu-item-form&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+The system identifier \(sys\_id\) of the menu record is used to display social links in the Portal Polaris Footer widget. You can create a menu record and map it to the social links by including its sys\_id in the JSON code. For more information on how to create a menu record, see .
 
 </td></tr></tbody>
 </table>

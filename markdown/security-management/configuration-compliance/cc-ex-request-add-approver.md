@@ -2,6 +2,7 @@
 title: Add an exception approver for Configuration Compliance
 description: Add users to the approver groups so that you can request an exception for a remediation task in Configuration Compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-ex-request-add-approver.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -214,5 +215,5 @@ Photo that you can upload by clicking on **Click to add...**.
     The approver must navigate to **All** &gt; **Configuration Compliance** &gt; **My Approvals** and approve requests.
 
 
-**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](../concept/cc-configuring.md)
+**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-configuring.md)
 

@@ -2,6 +2,7 @@
 title: Generate SP metadata for SAML/SSO custom URL installations
 description: A SAML or SSO installation needs the SP metadata generated for the IdP before the custom URL instance generates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/generate-idp-metadata-sso.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -27,7 +28,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 1.  Choose your installed SSO plugin:
 
-<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d31990e77">
+<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d34176e77">
 
 **Multi-Provider SSO**
 
@@ -35,7 +36,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 Navigate to **Multi-Provider SSO** &gt; **Identity Providers**. Choose an IdP and click the **Generate Metadata** button. The integration automatically generates the instance's SP metadata from the system property settings.
 
-</td></tr><tr><td id="d31990e98">
+</td></tr><tr><td id="d34176e98">
 
 **SAML 2 SSO**
 
@@ -90,6 +91,6 @@ Navigate to **SAML 2 Single Sign-on** &gt; **Metadata**. The integration automat
 
     The redirect URL is synonymous with the callback URL that the authorization server redirects to.
 
-7.  To use Google reCAPTCHA service, [set up an API key pair.](https://www.servicenow.com/docs/access?context=t_ConfigureGoogleRecaptcha&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+7.  To use Google reCAPTCHA service, set up an API key pair.
 
 

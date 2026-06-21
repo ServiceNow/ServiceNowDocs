@@ -2,6 +2,7 @@
 title: Configure the JavaScript connector
 description: Configure the JavaScript connector by writing custom script and validating custom classes and functions. Then you execute the script by providing values for the functions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/configure-javascript-connector.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -31,13 +32,13 @@ Role required: Developer
 
 4.  Enter the custom JavaScript in the Script pane.
 
-    ![Script pane in Script Editor](../image/jscript-scripteditor.png "Script pane in Script Editor")
+    \[Omitted image "jscript-scripteditor.png"\] Alt text: Script pane in Script Editor
 
 5.  Select **Validate**.
 
     If your custom script has any errors, it is displayed in the Errors pane. Resolve the errors and select **Validate** to check for errors again.
 
-    ![Error pane for Script Editor](../image/jscript-error.png "Error pane for Script Editor")
+    \[Omitted image "jscript-error.png"\] Alt text: Error pane for Script Editor
 
 6.  Click **OK**.
 
@@ -48,5 +49,5 @@ Role required: Developer
 
 The custom script you created by using the JavaScript connector is now ready to be used in your automation.
 
-**Parent Topic:**[JavaScript](../concept/javascript.md)
+**Parent Topic:**[JavaScript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/javascript.md)
 

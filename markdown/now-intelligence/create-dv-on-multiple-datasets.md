@@ -2,6 +2,7 @@
 title: Create a data visualization based on multiple data sets
 description: Here's a simple example of creating a report based on multiple datasets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/create-dv-on-multiple-datasets.html
 release: xanadu
 topic_type: task
 last_updated: "2025-07-30"
@@ -15,7 +16,7 @@ Here's a simple example of creating a report based on multiple datasets.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/platform-analytics-roles.md).
 
 ## Procedure
 
@@ -25,7 +26,7 @@ Role required: Anyone with access to data can create a visualization of that dat
 
 3.  For the purposes of this example, create a Vertical bar visualization based on the Incident \[incident\] table.
 
-    For more information, see [Create a horizontal or vertical bar data visualization](create-dv-bar-ac.md).
+    For more information, see [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-bar-ac.md).
 
 4.  Add two data sources: the Incident \[incident\] table and the Problem \[problem\] tables.
 

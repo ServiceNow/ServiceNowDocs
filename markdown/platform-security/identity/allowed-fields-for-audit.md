@@ -2,6 +2,7 @@
 title: Fields supported and not supported for Identity Access and Audit
 description: List of fields that are supported and not supported for audit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/identity/allowed-fields-for-audit.html
 release: xanadu
 product: Identity
 classification: identity

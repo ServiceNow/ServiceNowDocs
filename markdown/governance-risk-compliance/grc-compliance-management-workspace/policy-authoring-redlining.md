@@ -2,6 +2,7 @@
 title: Policy authoring and redlining in Compliance Workspace
 description: Policies are effective when they’re carefully monitored and revised periodically. By reviewing and updating them at regular intervals, organizations can maintain updated policies to avoid audit and compliance risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-compliance-management-workspace/policy-authoring-redlining.html
 release: xanadu
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

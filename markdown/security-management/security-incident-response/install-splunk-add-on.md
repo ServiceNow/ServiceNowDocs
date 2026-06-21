@@ -2,6 +2,7 @@
 title: Install the ServiceNow Security Operations add-on for Splunk
 description: Install the ServiceNow Security Operations add‐on for Splunk to link Splunk to ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/install-splunk-add-on.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

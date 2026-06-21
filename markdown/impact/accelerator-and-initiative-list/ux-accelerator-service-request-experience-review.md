@@ -2,6 +2,7 @@
 title: UX: Catalog Request Experience Review
 description:  The User Experience \(UX\): Catalog Request Experience Review Accelerator reviews your Service Catalog,  forms  and form  design and identifies areas  of improvement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

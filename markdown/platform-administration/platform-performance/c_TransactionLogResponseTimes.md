@@ -2,6 +2,7 @@
 title: Reviewing transaction logs
 description: The instance automatically logs the vital statistics of every transaction that it processes, and that information is available to you as an administrator. Reviewing transaction logs can help identify latency and performance issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/c\_TransactionLogResponseTimes.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -21,7 +22,7 @@ To see the average response time of all listed transactions, select and hold \(o
 
 You can limit the list to those transactions that took place during the time period of interest. The default filter returns transactions from today.
 
-![Transaction log](../image/TransactionLog1.png "Transaction log")
+\[Omitted image "TransactionLog1.png"\] Alt text: Transaction log
 
 For each completed transaction, available information includes the following \(times are in milliseconds\):
 
@@ -34,7 +35,7 @@ For each completed transaction, available information includes the following \(t
 -   **Business rule count**: number of business rules executed.
 -   **Network time**: network transmission time, both from and to the user.
 
-**Note:** You can change which columns are shown and their order by selecting the Update Personalized List icon \(![Update Personalized List icon](../../../reuse/icons/product-icons/gear-outline-24.svg)\)
+**Note:** You can change which columns are shown and their order by selecting the Update Personalized List icon \(\[Omitted image "gear-outline-24.svg"\] Alt text: Update Personalized List icon\)
 
-**Parent Topic:**[Monitoring platform performance](monitoring-platform-performance.md)
+**Parent Topic:**[Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/monitoring-platform-performance.md)
 

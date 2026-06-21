@@ -2,6 +2,7 @@
 title: Send a contract document for signature
 description: After a contract document has been reviewed and finalized, send the document for signature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-send-doc-signature.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ After a contract document has been reviewed and finalized, send the document for
 
 ## Before you begin
 
-The contract document must have been reviewed and finalized, and the contract status must be set to Document ready. For more information, see [Review a contract document in your workspace](cncore-request-changes-ss-cntr.md) and [Work on a contract change request](cncore-finalize-document-ss-cntr-1.md).
+The contract document must have been reviewed and finalized, and the contract status must be set to Document ready. For more information, see [Review a contract document in your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-request-changes-ss-cntr.md) and [Work on a contract change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
 Role required: sn\_cm\_core.contract\_user
 
@@ -34,8 +35,8 @@ Role required: sn\_cm\_core.contract\_user
     -   If a message is displayed containing the details of the contract document, select **Send for signature**.
     -   If a message is displayed stating that the signatories aren't synchronized:
         1.  Update and sync the signatures.
-            -   For versions of Contract Management Pro starting with 1.2.1, see [Resolve the failure to send contract documents for signature \(starting with Contract Management Pro 1.2.1\)](cncore-sync-doc-user.md).
-            -   For earlier versions of Contract Management Pro, see [Resolve an error during send for signature](cncore-sync-signatories-user.md).
+            -   For versions of Contract Management Pro starting with 1.2.1, see [Resolve the failure to send contract documents for signature \(starting with Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-sync-doc-user.md).
+            -   For earlier versions of Contract Management Pro, see [Resolve an error during send for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-sync-signatories-user.md).
         2.  Select **Send for signature**.
         3.  Select **Send for signature** in the confirmation message.
 
@@ -43,7 +44,7 @@ Role required: sn\_cm\_core.contract\_user
 
 The document is sent for signature to the specified signatories. The activity stream displays details of the contract document that is sent for signature.
 
-The contract request state and contract status updates to Awaiting Signature. For more information, see [Signature workflow for a contract request](../concept/cncore-signature-workflow.md).
+The contract request state and contract status updates to Awaiting Signature. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
 
-**Parent Topic:**[Reviewing and finalizing a self-serve contract document](cncore-review-finalize-contract.md)
+**Parent Topic:**[Reviewing and finalizing a self-serve contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-review-finalize-contract.md)
 

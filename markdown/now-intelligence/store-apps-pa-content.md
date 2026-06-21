@@ -2,6 +2,7 @@
 title: ServiceNow Store applications with Performance Analytics content
 description: The following applications on the ServiceNow Store include Performance Analytics components, such as a dashboard showing widgets for indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/store-apps-pa-content.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -15,49 +16,49 @@ The following applications on the ServiceNow® Store include Performance Analyti
 
 Unlike Platform Analytics solutions, these applications include stand-alone functionality. The Performance Analytics components included in the application support this functionality.
 
-A Performance Analytics administrator may need to reschedule the [data collection jobs](../../performance-analytics/concept/performance-analytics-glossary.md#) provided with these applications. Most of the applications do not have historical data collection jobs, and their scheduled jobs are active by default.
+A Performance Analytics administrator may need to reschedule the [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/performance-analytics-glossary.md) provided with these applications. Most of the applications do not have historical data collection jobs, and their scheduled jobs are active by default.
 
 **Note:** Be aware that these applications may have licensing requirements. Check the entry for the app on the ServiceNow Store.
 
 ## Configuration Management Database applications
 
-[CSDM and CMDB Data Foundations dashboards](https://www.servicenow.com/docs/access?context=csdm-cmdb-foundations-dashboards&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+CSDM and CMDB Data Foundations dashboards
 
 ## Customer Service applications
 
--   [Conversational Analytics dashboard in Platform Analytics experience](https://www.servicenow.com/docs/access?context=VA-dashboard-landing-page-pae&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US)
--   [Workforce Optimization for Customer Service Management](https://www.servicenow.com/docs/access?context=configurable-wfo-cs&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US)
+-   
+-   Workforce Optimization for Customer Service Management
 
 ## DevOps applications
 
-[DevOps Insights](https://www.servicenow.com/docs/access?context=insights-dashboard-dev-ops&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
+DevOps Insights
 
 ## Employee Service Management
 
-[Safe Workplace dashboard](https://www.servicenow.com/docs/access?context=safe-workplace-dashboard&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
+Safe Workplace dashboard
 
 ## IT Asset Management applications
 
-[Cloud Insights](https://www.servicenow.com/docs/access?context=cloud-insights-landing-page&version=xanadu&pubname=xanadu-it-asset-management&ft:locale=en-US)
+Cloud Insights
 
 ## Strategic Portfolio Management applications
 
-[Strategic Spend Tracking for PPM](https://www.servicenow.com/docs/access?context=ppm-strategic-spend-tracking-dashboard&version=xanadu&pubname=xanadu-it-business-management&ft:locale=en-US)
+Strategic Spend Tracking for PPM
 
 ## IT Operations Management applications
 
-[Firewall Audits and Reporting](https://www.servicenow.com/docs/access?context=firewall-audit-reporting&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US)
+Firewall Audits and Reporting
 
 ## IT Service Management applications
 
--   [Coaching](https://www.servicenow.com/docs/access?context=coaching-landing&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
--   [Continual Improvement Management](https://www.servicenow.com/docs/access?context=continual-improvements-dashboard&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
--   [On-Call Scheduling](https://www.servicenow.com/docs/access?context=viewing-performance-report-oncall&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
--   [Service Portfolio Management Premium \(Service Owner Workspace\)](https://www.servicenow.com/docs/access?context=SPM2-premium&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
+-   Coaching
+-   Continual Improvement Management
+-   On-Call Scheduling
+-   Service Portfolio Management Premium \(Service Owner Workspace\)
 
 ## AI Experience applications
 
-[NLU Workbench](https://www.servicenow.com/docs/access?context=nlu-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)
+NLU Workbench
 
-**Parent Topic:**[Analytics solutions](../concept/content-packs-in-form-analytics.md)
+**Parent Topic:**[Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/content-packs-in-form-analytics.md)
 

@@ -2,6 +2,7 @@
 title: Tax code fields
 description: As a Tax manager, you can create tax codes to be applied in an invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/create-tax-code-fields.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -30,5 +31,5 @@ The following table displays the fields in the tax code form.
 |Active|The status of the tax code.|
 |ERP source|The name of the ERP source for which the tax code is generated.|
 
-**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+**Parent Topic:**[Master data table for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

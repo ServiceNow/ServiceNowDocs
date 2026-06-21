@@ -2,6 +2,7 @@
 title: NowChatOptions - iOS
 description: The NowChatOptions class enables you to configure options, such as showing a prompt before closing a chat window or disable features while using chat, on a chat session.Creates and returns a ClosePrompt object based on the passed parameters. You then pass this object into the NowChatOptions\(\) method to configure the close prompt options within a chat session.Configures options for the current chat session. This method enables you to show a prompt before closing a chat window, disable features while using chat, and force a new chat conversation when the chat service starts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.html
 release: xanadu
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API refer
 
 The NowChatOptions class enables you to configure options, such as showing a prompt before closing a chat window or disable features while using chat, on a chat session.
 
-**Parent Topic:**[Mobile SDK API reference - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowChatOptions - ClosePrompt\(header: String?, message: String, acceptButtonTitle: String, declineButtonTitle: String\)
 
@@ -132,7 +133,7 @@ closePrompt
 
 </td><td>
 
-[ClosePrompt](NowChatOptionsiOS.md#) object
+[ClosePrompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) object
 
 </td><td>
 
@@ -176,7 +177,7 @@ Default: false
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|chatOptions|Returns a chatOptions object that you can pass in the [NowChatService - makeChatUI\(theme: NowChatThemeable, chatOptions: NowChatOptions? = nil\) -&gt; Result&lt;UIViewController, NowChatServiceError&gt;\)](../../NowChatService/concept/NowChatServiceiOSAPI.md#) method.|
+|chatOptions|Returns a chatOptions object that you can pass in the [NowChatService - makeChatUI\(theme: NowChatThemeable, chatOptions: NowChatOptions? = nil\) -&gt; Result&lt;UIViewController, NowChatServiceError&gt;\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md) method.|
 
 The following code example shows how to call this function.
 

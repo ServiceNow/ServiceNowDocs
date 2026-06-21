@@ -2,6 +2,7 @@
 title: MID Server integration configuration fields
 description: Description of the fields on the MID Server integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-mid-fields.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -116,5 +117,5 @@ Drop if queue is full
 Option for selecting to discard logs if many processes are waiting in the queue to access the MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure MID Server integrations](../task/il-connector-hla-mid.md)
+</table>**Parent Topic:**[Configure MID Server integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-mid.md)
 

@@ -2,6 +2,7 @@
 title: Use translation management
 description: Use translation management to create and manage translation tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/use-translation-management.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -15,18 +16,18 @@ breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content ca
 
 Use translation management to create and manage translation tasks.
 
--   **[Create translation assignments for knowledge articles](product/knowledge-management/task/create-translation-assignments.md)**  
+-   **[Create translation assignments for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/create-translation-assignments.md)**  
 Assign knowledge articles to language experts to ensure accurate translations. Identify the language experts and create assignment rules so that translation tasks are automatically assigned to language experts and groups.
--   **[Auto-create translation tasks](product/knowledge-management/task/auto-create-translation-tasks.md)**  
+-   **[Auto-create translation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/auto-create-translation-tasks.md)**  
 Auto-create translation tasks in specified languages to avoid having to manually create translation tasks after an article is published. The available languages are determined by the language plugins that have been installed on your instance.
--   **[Bulk Translation for knowledge articles](product/knowledge-management/concept/bulk-translation.md)**  
+-   **[Bulk Translation for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/bulk-translation.md)**  
 Perform bulk translations of knowledge articles in multiple languages using the Localization Framework application.
--   **[Translate a knowledge article from a translation task](product/knowledge-management/task/translate-knowledge-article.md)**  
+-   **[Translate a knowledge article from a translation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/translate-knowledge-article.md)**  
 Start translating articles once they are published and assigned to you for translation.
--   **[Translate knowledge blocks within an article](product/knowledge-management/task/translate-knowledge-article-with-blocks.md)**  
+-   **[Translate knowledge blocks within an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/translate-knowledge-article-with-blocks.md)**  
 If a selected article indicates that a knowledge block is missing a translation, you must translate the knowledge block before you can translate the article.
--   **[Request missing translations for available languages](product/knowledge-management/task/request-translations-missing-languages.md)**  
+-   **[Request missing translations for available languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/request-translations-missing-languages.md)**  
 Manually create translation tasks if an article does not have translation tasks created for all the languages you have configured.
 
-**Parent Topic:**[Using Knowledge Management](using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

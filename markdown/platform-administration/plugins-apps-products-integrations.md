@@ -2,6 +2,7 @@
 title: Understanding plugins, apps, integrations, and products
 description: Learn the difference between plugins, apps, integrations, and products, and understand the role each plays in the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/plugins-apps-products-integrations.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-07-31"
@@ -20,15 +21,15 @@ A plugin is a set of customizations that extends the functionality of the Servic
 
 New plugins are made available during instance upgrades in accordance with your organization's ServiceNow licensing agreement. Plugins can’t be purchased through the ServiceNow Store.
 
-For more information about plugins, see [ServiceNow plugins](../../plugins/concept/c_ServiceNowPlugins.md).
+For more information about plugins, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ServiceNowPlugins.md).
 
 ## Apps
 
 An app is a standalone piece of code that implements a collection of features on the ServiceNow AI Platform. You can try, buy, or get apps according to your ServiceNow licensing agreement through the ServiceNow Store.
 
-After getting an app from the ServiceNow Store, install it using the Application Manager. For more information, see [Application Manager](../../application-manager/concept/application-manager.md).
+After getting an app from the ServiceNow Store, install it using the Application Manager. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/application-manager.md).
 
-You can also create your own apps. For more information about creating apps for your ServiceNow AI Platform instance, see [Building applications](https://www.servicenow.com/docs/access?context=build-applications&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+You can also create your own apps. For more information about creating apps for your ServiceNow AI Platform instance, see .
 
 ## Integrations
 
@@ -38,5 +39,5 @@ An integration is a type of app that connects your instance to various systems o
 
 Products are collections of apps that work together to add additional features and capabilities to your ServiceNow AI Platform instance.
 
-For more information about procuring products, see [Getting products](getting-products.md).
+For more information about procuring products, see [Getting products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/getting-products.md).
 

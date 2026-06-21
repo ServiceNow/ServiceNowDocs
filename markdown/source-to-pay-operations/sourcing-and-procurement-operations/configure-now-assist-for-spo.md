@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Sourcing and Procurement Operations \(SPO\)
 description: If you have the admin role, you can configure the Now Assist for Sourcing and Procurement Operations \(SPO\) application so that your requesters, procurement specialists, and sourcing managers can use the generative AI skills in Source-to-Pay Workspace Workspace and Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for SPO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for SPO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -55,14 +56,14 @@ Conversational intake
 -   Now Assist Topics
 
 </td></tr></tbody>
-</table>![Now Assist skills for SPO section, showing the Summarization for fulfillers and Conversational intake feature cards.](../image/now-assist-for-spo.png "Now Assist skills for SPO")
+</table>\[Omitted image "now-assist-for-spo.png"\] Alt text: Now Assist skills for SPO section, showing the Summarization for fulfillers and Conversational intake feature cards.
 
 ## Procedure
 
 1.  Install the Now Assist for Sourcing and Procurement Operations \(SPO\) plugin \(sn\_spend\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](../concept/now-assist-spo-supporting-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md).
+    -   For information about the installation process, see .
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
 
 3.  Expand the **Finance and Supply Chain** workflow group and select **SPO**.
@@ -89,7 +90,7 @@ On the Conversation intake skill card, verify that your AI conversational intake
 
 **Note:** The Platform AI conversational experience skills are active by default.
 
- For more information, see [Configuring Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -117,15 +118,15 @@ Summarization for fulfillers
 
 10. Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d140653e427">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d79707e424">
 
 Option
 
-</th><th align="left" id="d140653e430">
+</th><th align="left" id="d79707e427">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d140653e436">
+</th></tr></thead><tbody><tr><td id="d79707e433">
 
 **Skill is always available**
 
@@ -133,7 +134,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d140653e445">
+</td></tr><tr><td id="d79707e442">
 
 **Customize skill availability**
 
@@ -146,15 +147,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d140653e481">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d79707e478">
 
 Option
 
-</th><th align="left" id="d140653e484">
+</th><th align="left" id="d79707e481">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d140653e490">
+</th></tr></thead><tbody><tr><td id="d79707e487">
 
 **In-product**
 
@@ -162,13 +163,13 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d140653e501">
+</td></tr><tr><td id="d79707e498">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
 </td></tr></tbody>
 </table>13. Select **Save and continue** to go to the next step.

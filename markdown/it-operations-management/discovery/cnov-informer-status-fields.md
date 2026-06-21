@@ -2,6 +2,7 @@
 title: Agent Client Collector for Kubernetes – Visibility Informer status fields
 description: The fields in the Agent Client Collector for Kubernetes – Visibility Informers table describe the status of the Informer pods deployed in your Kubernetes clusters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-informer-status-fields.html
 release: xanadu
 product: Discovery
 classification: discovery

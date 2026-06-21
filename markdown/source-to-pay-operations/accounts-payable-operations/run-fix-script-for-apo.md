@@ -2,6 +2,7 @@
 title: Run the fix script for Accounts Payable Operations
 description: Run the fix script for successful installation of Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/run-fix-script-for-apo.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

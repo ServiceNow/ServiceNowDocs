@@ -2,6 +2,7 @@
 title: Opt out of the ServiceNow Store products
 description: Opt out of the required product available on ServiceNow Store by navigating to the ServiceNow Products module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/optout-products.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -35,5 +36,5 @@ Opt out of the required product available on ServiceNow Store by navigating to t
     4.  Click **Opt-out**.
 
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 

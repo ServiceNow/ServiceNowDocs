@@ -2,6 +2,7 @@
 title: Customize tabs in Asset Workspace
 description: Adjust the content shown in the tabs of Asset Workspace or Hardware Asset Workspace views to meet your specific business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/asset-management/customize-tabs-asset-workspace.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -32,15 +33,15 @@ In the Asset Management Workspace, the content displayed in tabs such as All Ass
 
 1.  In UIB settings, deactivate the All Assets tab by deselecting the **Active** check box for the Availability option.
 
-    ![Deselect the Active check box for the Availability option.](../image/customize-tabs.png)
+    \[Omitted image "customize-tabs.png"\] Alt text: Deselect the Active check box for the Availability option.
 
 2.  The tab details in the Asset Estate page are fetched using the getAssetEstateTabs function defined in the script include.
 
-    ![getAssetEstateTabs function defined in the script include.](../image/customize-tabs-script-include.png)
+    \[Omitted image "customize-tabs-script-include.png"\] Alt text: getAssetEstateTabs function defined in the script include.
 
 3.  Comment out the JSON section containing details related to the All Assets tab and save the Script Include file.
 
-    ![Commenting out the JSON section containing details related to the All Assets tab.](../image/customize-tabs-json-comment.png)
+    \[Omitted image "customize-tabs-json-comment.png"\] Alt text: Commenting out the JSON section containing details related to the All Assets tab.
 
 4.  Reload the Asset estate page in the workspace.
 

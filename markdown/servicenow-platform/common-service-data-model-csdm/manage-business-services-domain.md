@@ -2,6 +2,7 @@
 title: Manage Portfolio domain of the CSDM framework
 description: The Manage Portfolio domain is a layer on top of the CSDM conceptual model that interacts with the other CSDM domains. The typical user, a service owner, might be responsible for services in more than one domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -15,7 +16,7 @@ breadcrumb: [CSDM data domains, Explore, CSDM, Configuration Management, Extend 
 
 The Manage Portfolio domain is a layer on top of the CSDM conceptual model that interacts with the other CSDM domains. The typical user, a service owner, might be responsible for services in more than one domain.
 
-![Manage Portfolio domain.](../image/manage-business-svcs-domain.png)
+\[Omitted image "manage-business-svcs-domain.png"\] Alt text: Manage Portfolio domain.
 
 For example, in the Sell/Consume domain, the service owner for Human Resources \(HR\) might be financially responsible for the business application that provides HR services. The service owner might also need to manage the HR application instances \(known as application services or systems\) and might also be accountable for the impact the application has on the business.
 
@@ -25,5 +26,5 @@ Because of these additional responsibilities, CSDM enables service owners to ove
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[Common Service Data Model — conceptual model](csdm-conceptual-model.md)
+**Parent Topic:**[Common Service Data Model — conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
 

@@ -2,6 +2,7 @@
 title: Solving issues on translated dashboards
 description: Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/solving-issues-translated-dashboards.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +18,7 @@ Users can only find translated dashboards under certain configurations. You can 
 
 ## Before you begin
 
-On instances with language plugins enabled, the application first determines the database behind the instance. If the database is MySQL, then it looks for the user's session language and searches for the translated dashboard. For more information about language plugins, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+On instances with language plugins enabled, the application first determines the database behind the instance. If the database is MySQL, then it looks for the user's session language and searches for the translated dashboard. For more information about language plugins, see Activate a language.
 
 The search function only works for translated dashboards when the instance uses the MySQL database and the dashboard translation is provided.
 
@@ -39,7 +40,7 @@ Role required: admin
 
     Extra languages are available when there are enabled language plugins on the instance.
 
-7.  From the context menu \(![](../../dashboards/image/icon-context-p.png)\), select **Dashboard Properties**.
+7.  From the context menu \(\[Omitted image "icon-context-p.png"\] Alt text:\), select **Dashboard Properties**.
 
 8.  Translate the dashboard name into the target language and click **Update**.
 

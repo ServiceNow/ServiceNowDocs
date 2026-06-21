@@ -2,6 +2,7 @@
 title: Navigation Tab form
 description: The Navigation Tab form contains information about navigation tabs defined for search application configurations in AI Search. Use this form when configuring display settings for a navigation tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/navigation-tab-form-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Navigation Tab form contains information about navigation tabs defined for search application configurations in AI Search. Use this form when configuring display settings for a navigation tab.
 
-For information on configuring navigation tab display settings for an AI Search application, see [Configure navigation tabs in an AI Search application configuration](../task/config-nav-tabs-ais.md).
+For information on configuring navigation tab display settings for an AI Search application, see [Configure navigation tabs in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/config-nav-tabs-ais.md).
 
 |Field|Description|
 |-----|-----------|
@@ -25,5 +26,5 @@ For information on configuring navigation tab display settings for an AI Search 
 |Label|Label to display for the navigation tab in the search application.|
 |Search Context Config|Search application configuration for the navigation tab.|
 
-**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ais.md)
 

@@ -2,6 +2,7 @@
 title: Asset and CI management
 description: Asset and configuration item \(CI\) management refers to creating assets, setting appropriate states and substates, synchronizing assets and CIs, managing consumables, and retiring assets.Create hardware, software, consumable, bundle, pallet, mobile, and facility assets using the Core UI or the Hardware Asset Workspace.You can retire an asset at any time.You can delete an asset at any time.When you map the asset and CI fields, synchronization happens both ways. Changes to either the asset or CI record are updated to the logically mapped record. You can synchronize custom mappings and mappings provided with the base instance.Map the asset State and Substate fields to the CI Install Status field. The Substatus field of the CI Install Status field should not be used for hardware CIs.Map the asset State and Substate fields to the CI Hardware Status field. Don't use the Substatus field on hardware CIs because the CI synchronization does not update the field when assets are updated. When you create the mapping, you can set the synchronization direction from the asset, CI, or both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/c\_ManagingAssets.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -34,7 +35,7 @@ The State field of asset record and Status field of CI record are synchronized s
 
 The following diagram illustrates the concept of Asset-CI mapping and synchronization.
 
-![Overview of Asset-CI mapping and synchronization process](../image/AssetCImapsync.png "Overview of Asset-CI mapping and synchronization")
+\[Omitted image "AssetCImapsync.png"\] Alt text: Overview of Asset-CI mapping and synchronization process
 
 This synchronization and mapping is based on the following factors:
 
@@ -97,9 +98,9 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 -   When the system property is set to **false**, synchronization of the CSDM Lifecycle fields is through the legacy State and Substate fields.
 -   When the system property is set to **true**, the CSDM Life Cycle Stage and Status fields are directly synchronized.
 
-**Note:** If you are activating the CSDM \(csdm.lifecycle.migration.activated\) plugin on your ServiceNow instance for the first time, and you have custom States and Substates for the asset or CI, then make sure to configure mapping between the legacy fields and the CSDM Lifecycle fields. For more information, see [Enabling CSDM life-cycle sync between legacy fields and related assets](https://www.servicenow.com/docs/access?context=csdm-life-cycle-standard-values&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+**Note:** If you are activating the CSDM \(csdm.lifecycle.migration.activated\) plugin on your ServiceNow instance for the first time, and you have custom States and Substates for the asset or CI, then make sure to configure mapping between the legacy fields and the CSDM Lifecycle fields. For more information, see .
 
-![Synchronization of status fields](../image/asset-ci-ibi-sync.png "Asset, CI, and IBI synchronization when the csdm.lifecycle.sync.between.ci.and.asset.activated system property is set to false")
+\[Omitted image "asset-ci-ibi-sync.png"\] Alt text: Synchronization of status fields
 
 -   **Synchronization of updates from asset to IBI and CI**
 
@@ -118,7 +119,7 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
     Updates made to the Status and Substatus fields of a CI are synchronized with the corresponding fields of the asset. The legacy fields of the asset are then synchronized with the Life Cycle Stage and Life Cycle Stage Status fields of the IBI asset through the CSDM fields. For example, when the Status and Substatus fields of a CI are updated to Retired and Donated, the corresponding fields of the asset change. The changes from the asset are synchronized with the IBI asset and the Life Cycle Stage and Life Cycle Stage Status fields change to End of Life and Retired.
 
 
-![Synchronization through CSDM fields](../image/asset-ci-ibi-sync-new-prop.png "Asset, CI, and IBI synchronization when the csdm.lifecycle.sync.between.ci.and.asset.activated system property is set to true")
+\[Omitted image "asset-ci-ibi-sync-new-prop.png"\] Alt text: Synchronization through CSDM fields
 
 -   **Synchronization of updates from asset to CI and IBI**
 
@@ -178,7 +179,7 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
     Unless there isn't any change in the mapping tables, these cached mappings are fetched during the synchronization resulting in the improved system performance.
 
 
-**Parent Topic:**[Asset Management](c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_AssetManagement.md)
 
 ## Create assets
 
@@ -192,15 +193,15 @@ Role required: asset
 
 1.  Create an asset.
 
-<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d108455e737">
+<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d73874e736">
 
 Interface
 
-</th><th align="left" id="d108455e740">
+</th><th align="left" id="d73874e739">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d108455e746">
+</th></tr></thead><tbody><tr><td id="d73874e745">
 
 **Core UI**
 
@@ -211,7 +212,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d108455e785">
+</td></tr><tr><td id="d73874e784">
 
 **Hardware Asset Workspace**
 
@@ -225,7 +226,7 @@ Action
 </td></tr></tbody>
 </table>2.  On the Asset record fields form, fill in the fields.
 
-    For a description of the field values, see [Asset record fields](https://www.servicenow.com/docs/access?context=asset-record-fields&version=xanadu&pubname=xanadu-it-asset-management&ft:locale=en-US).
+    For a description of the field values, see .
 
 3.  Submit or save the asset form.
 
@@ -329,7 +330,7 @@ Role required: admin or asset
 
 Asset synchronization does not update this field when hardware assets are updated. When you create the mapping, you can set the synchronisation direction from Asset to CI, but not from CI to Asset. For non-Hardware CI classes, you can set the synchronisation in both the directions.
 
-The hardware and consumable assets don't have the Build state and Design substate because they are already prepared. Therefore, the Asset CI install status mappings table doesn't have a mapping for the Build state. For more details on asset states, see [Set asset states and substates](../task/t_SettingAssetStatesAndSubstates.md).
+The hardware and consumable assets don't have the Build state and Design substate because they are already prepared. Therefore, the Asset CI install status mappings table doesn't have a mapping for the Build state. For more details on asset states, see [Set asset states and substates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/t_SettingAssetStatesAndSubstates.md).
 
 ### Procedure
 
@@ -364,7 +365,7 @@ Role required: admin or asset
 
 **Note:** If you upgraded from a prior release and you've customized the AssetAndCISynchronizer script before the upgrade, overwrite the customization and then recreate the custom mappings.
 
-The hardware and consumable assets don't have the Build state and Design substate because they are already prepared. Therefore, the Asset CI hardware state mappings table doesn't have a mapping for the Build state. For more details on asset states, see [Set asset states and substates](../task/t_SettingAssetStatesAndSubstates.md).
+The hardware and consumable assets don't have the Build state and Design substate because they are already prepared. Therefore, the Asset CI hardware state mappings table doesn't have a mapping for the Build state. For more details on asset states, see [Set asset states and substates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/t_SettingAssetStatesAndSubstates.md).
 
 ### About this task
 

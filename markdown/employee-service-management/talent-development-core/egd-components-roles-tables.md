@@ -2,6 +2,7 @@
 title: Components installed with Talent Development Core
 description: Several type of components are installed with Talent Development Core, including roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/egd-components-roles-tables.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -15,7 +16,7 @@ breadcrumb: [Talent Development Core application reference, Talent Development C
 
 Several type of components are installed with Talent Development Core, including roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Talent Development Core Roles
 
@@ -46,5 +47,5 @@ Tables are used to track and maintain relationships among different ServiceNow a
 |Peer Configuration|\[sn\_egd\_core\_peer\]|
 |Sample text|\[sn\_egd\_core\_sample\_text\]|
 
-**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/egd-reference.md)
 

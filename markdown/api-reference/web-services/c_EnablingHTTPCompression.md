@@ -2,6 +2,7 @@
 title: Enable HTTP compression
 description: By default, the SOAP request is accepted un-compressed and the result of the request is returned un-compressed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/c\_EnablingHTTPCompression.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -28,5 +29,5 @@ Accept-Encoding: gzip
 
 ```
 
-**Parent Topic:**[SOAP web service](c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_SOAPWebService.md)
 

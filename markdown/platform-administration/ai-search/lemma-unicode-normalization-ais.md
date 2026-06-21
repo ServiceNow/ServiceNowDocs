@@ -2,6 +2,7 @@
 title: Lemma and Unicode normalization
 description: AI Search normalizes inflected words and Unicode glyphs during indexing and at search query time. Normalization improves search recall and enables users to find content with variant forms of their search query terms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/lemma-unicode-normalization-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -43,11 +44,11 @@ The following table describes interactions between normalization and other searc
 
 |Feature|Interaction with lemma and Unicode normalization|
 |-------|------------------------------------------------|
-|[Genius Results](genius-results-ais.md)|Search query terms added by lemma or Unicode normalization can't trigger Genius Result configurations with Term trigger conditions.|
-|[Result improvement rules](result-improvement-rules-ais.md)|A search query term added by lemma or Unicode normalization can trigger a result improvement rule if it matches the rule's Query trigger.|
-|[Stop words](stop-words-ais.md)|If a search query term is defined as a stop word, AI Search removes that term without normalizing it.|
-|[Synonyms](synonyms-ais.md)|If a search query term is defined as a synonym, AI Search doesn't normalize it.|
-|[Typo handling](typo-handling-ais.md)|AI Search performs lemma and Unicode normalization on auto-corrected search query terms.|
+|[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/genius-results-ais.md)|Search query terms added by lemma or Unicode normalization can't trigger Genius Result configurations with Term trigger conditions.|
+|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/result-improvement-rules-ais.md)|A search query term added by lemma or Unicode normalization can trigger a result improvement rule if it matches the rule's Query trigger.|
+|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/stop-words-ais.md)|If a search query term is defined as a stop word, AI Search removes that term without normalizing it.|
+|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/synonyms-ais.md)|If a search query term is defined as a synonym, AI Search doesn't normalize it.|
+|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/typo-handling-ais.md)|AI Search performs lemma and Unicode normalization on auto-corrected search query terms.|
 
-**Parent Topic:**[Administering AI Search](administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/administer-ais.md)
 

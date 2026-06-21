@@ -2,6 +2,7 @@
 title: Standard ticket page
 description: Configure individual request types to display the request-specific information, while still having a consistent layout that is similar to other request types. This configuration ensures a consistent experience when viewing submitted requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/standard-ticket-page.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -15,11 +16,11 @@ breadcrumb: [Creating portal pages, Configuring Service Portal, Service Portal, 
 
 Configure individual request types to display the request-specific information, while still having a consistent layout that is similar to other request types. This configuration ensures a consistent experience when viewing submitted requests.
 
-For new instances, the standard ticket page is available by default. For upgraded instances, you need to activate the Standard Ticket Route page route map. For information about activating this page route map, see [Activate the page route map for the standard ticket page](../task/config-pageroutemap-stpage.md).
+For new instances, the standard ticket page is available by default. For upgraded instances, you need to activate the Standard Ticket Route page route map. For information about activating this page route map, see [Activate the page route map for the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/config-pageroutemap-stpage.md).
 
 The information displayed in each section of a standard ticket page depends on the individual request type. If a configurable section has no specified values or if a user does not have access to the information, it is not visible.
 
-![Incident standard ticket page](../image/inci-in-service-portal.png "Standard ticket page for an incident")
+\[Omitted image "inci-in-service-portal.png"\] Alt text: Incident standard ticket page
 
 ## Header section
 
@@ -55,7 +56,7 @@ If configured, this section displays the following types of tabs for a submitted
 
     -   If the current ticket is a universal request, then all requests associated \(through the **Parent** field on the task table\) with child tickets of the universal request are displayed.
     -   If the current ticket is not a universal request, then all requests associated \(through the **Parent** field on the task table\) with the current ticket are displayed.
-    For information on defining filters for the My Requests widget, see [Define filters for My Requests](https://www.servicenow.com/docs/access?context=configure-my-requests&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    For information on defining filters for the My Requests widget, see Define filters for My Requests.
 
 -   Custom tab
 
@@ -65,7 +66,7 @@ By default, the **Activity** and **Attachments** tabs are available.
 
 For each request type of a cross-scope application, the following configurations are required:
 
--   Restricted caller access privileges for the following standard ticket page widgets so that these widgets can access the application tables. For information about these privileges, see [Application access settings](https://www.servicenow.com/docs/access?context=c_ApplicationAccessSettings&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+-   Restricted caller access privileges for the following standard ticket page widgets so that these widgets can access the application tables. For information about these privileges, see .
     -   Widget: Standard Ticket Header
     -   Widget: Standard Ticket Attachments
     -   Widget: Standard Ticket Tab
@@ -87,17 +88,17 @@ Ticket configurations are process domain-separated. For any request type record,
 
 **Note:** For a table, only one active configuration is allowed per domain.
 
--   **[Configure the standard ticket page](../task/configure-st-page.md)**  
+-   **[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/configure-st-page.md)**  
 Give Service Portal users a consistent way to view their submitted requests. You can configure the standard ticket page for different request types.
--   **[Activate the page route map for the standard ticket page](../task/config-pageroutemap-stpage.md)**  
+-   **[Activate the page route map for the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/config-pageroutemap-stpage.md)**  
 If you have upgraded your instance, redirect the ticket page to standard\_ticket page in Service Portal and view requests on the standard ticket page.
 
-**Parent Topic:**[Creating portal pages](c_Pages.md)
+**Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/c_Pages.md)
 
 **Related topics**  
 
 
-[Standard ticket page for a requested item](https://www.servicenow.com/docs/access?context=stpage-req-item&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.stpage-req-item]
 
-[Incident standard ticket page](https://www.servicenow.com/docs/access?context=incident-stnd-ticket-page&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
+[bundle-itsm.incident-stnd-ticket-page]
 

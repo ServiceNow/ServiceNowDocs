@@ -2,6 +2,7 @@
 title: TISC Data Archival
 description: The Threat Intelligence Security Center is provisioned with archival rules in the base system for the TISC table. The related records are also added in the base system to the TISC archive rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-data-archival.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -84,7 +85,7 @@ Role required: admin
 
     **Note:**
 
-    For information on how the archival rules are created, see [Create an archive rule](https://www.servicenow.com/docs/access?context=t_CreateAnArchiveRule&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    For information on how the archival rules are created, see .
 
 4.  Select an archival rule.
 

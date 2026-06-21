@@ -2,6 +2,7 @@
 title: Domain separation and lifecycle reports
 description: There are certain domain separation aspects to consider when running software lifecycle reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/domain-sep-sam-lifecycle.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -52,7 +53,7 @@ If the SP sets up software models for Cisco corporate as well as Cisco Mexico, e
 |Walmart USA|SQL Server 2012|2014|5| | |
 |Walmart Mexico|SQL Server 2012|2014|20| | |
 
-To learn more about software lifecycles, see [Create software models in Software Asset Management classic](https://www.servicenow.com/docs/access?context=record-terms-software-licenses&version=xanadu&pubname=xanadu-it-asset-management&ft:locale=en-US). To learn about domain separation path setup, see [Domain separation setup and administration](https://www.servicenow.com/docs/access?context=c_DomainSeparationSetup&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+To learn more about software lifecycles, see Create software models in Software Asset Management classic. To learn about domain separation path setup, see Domain separation setup and administration
 
-**Parent Topic:**[Domain separation and Asset Management](../../asset-management/concept/domain-separation-asset-management.md)
+**Parent Topic:**[Domain separation and Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/domain-separation-asset-management.md)
 

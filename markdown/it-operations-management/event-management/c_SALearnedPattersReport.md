@@ -2,6 +2,7 @@
 title: Learned Patterns report
 description: The Learned Patterns report helps you assess the efficiency and depth of analysis of alert aggregation and helps you to identify higher-frequency occurring alert patterns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/c\_SALearnedPattersReport.html
 release: xanadu
 product: Event Management
 classification: event-management

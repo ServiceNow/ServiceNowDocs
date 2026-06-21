@@ -2,6 +2,7 @@
 title: Account sentiment dashboard in Now Assist for Customer Service Management \(CSM\)
 description: A sentiment analysis dashboard is a powerful visualization tool that showcases the sentiment scores derived from customer cases. This dashboard can include various features and metrics to help organizations gain comprehensive details into their customer sentiments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/account-sentiment-dashboard-in-now-assist-for-customer-service-management.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -34,7 +35,7 @@ The integration of a sentiment analysis dashboard empowers organizations to make
 
 Account owners can view the sentiment on all accounts and notice trends using the sentiment dashboard. The account record displays the sentiment trend over time, and the dashboard is accessible by opening the account record. The account page features a sentiment widget under the record information, providing an overview of the account sentiment trend for the past 7 days.
 
-![Sentiment on accounts showing trends in the dashboard view](../image/sentiment-analysis-dashboard.png)
+\[Omitted image "sentiment-analysis-dashboard.png"\] Alt text: Sentiment on accounts showing trends in the dashboard view
 
 The chart shows the sentiment trend by the number of cases within the selected time frame, along with a breakdown chart for further analysis. Tool tips appear when you hover over data points, revealing the number of breakdowns. Select the bar to see the cases corresponding to the selection. You can apply different filters, including:
 
@@ -45,5 +46,5 @@ The chart shows the sentiment trend by the number of cases within the selected t
 -   Priority: High, medium, low, critical, uncategorized
 -   Assigned to: All agents in the system
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

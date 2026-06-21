@@ -2,6 +2,7 @@
 title: Components installed with AES
 description: Several types of components are installed with activation of the App Engine Studio \(AES\) plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/installed-with-aes.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,7 +16,7 @@ breadcrumb: [Installing App Engine Studio, Configuring App Engine Studio and rel
 
 Several types of components are installed with activation of the App Engine Studio \(AES\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -59,7 +60,7 @@ App Engine Studio app template admin
 
 Administers the use, sharing, and activation or deactivation of templates.
 
- This role is assigned by an admin to individual users. For more information, see [Manage template access](../task/manage-template-access.md).
+ This role is assigned by an admin to individual users. For more information, see [Manage template access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/manage-template-access.md).
 
 </td><td>
 
@@ -78,7 +79,7 @@ App Engine Studio user
 
 Builds applications in App Engine Studio.
 
- This role is assigned automatically to users in the App Engine Studio Users group. For more information, see [Grant user access to AES](../task/grant-aes-access.md).
+ This role is assigned automatically to users in the App Engine Studio Users group. For more information, see [Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/grant-aes-access.md).
 
 </td><td>
 
@@ -135,7 +136,7 @@ Deployment Request
 
 </td><td>
 
-Requests to review and publish an application that a developer created in App Engine Studio. From the deployment request form, a reviewer can deploy the application to different environments, accept or reject an application, and send feedback to a developer. For more information, see [Managing app deployments using Pipelines and Deployments](../concept/aes-review-apps-p-and-d.md).
+Requests to review and publish an application that a developer created in App Engine Studio. From the deployment request form, a reviewer can deploy the application to different environments, accept or reject an application, and send feedback to a developer. For more information, see [Managing app deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-review-apps-p-and-d.md).
 
 </td></tr><tr><td>
 
@@ -145,7 +146,7 @@ Pipeline
 
 </td><td>
 
-Configurations for deploying applications to different environments. There can be only one active pipeline at a time. You update this table as you create a pipeline for the deployment of applications from App Engine Studio. For more information, see [Managing app deployments using Pipelines and Deployments](../concept/aes-review-apps-p-and-d.md).
+Configurations for deploying applications to different environments. There can be only one active pipeline at a time. You update this table as you create a pipeline for the deployment of applications from App Engine Studio. For more information, see [Managing app deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-review-apps-p-and-d.md).
 
 </td></tr><tr><td>
 
@@ -215,7 +216,7 @@ Details about application files that a developer creates in App Engine Studio. T
 -   Pipeline Environment Order
 -   Pipeline Types
 
-The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see [Data preservation on cloning target instances](https://www.servicenow.com/docs/access?context=data-preservation&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see Data preservation on cloning target instances.
 
-**Parent Topic:**[Installing App Engine Studio](../task/install-aes.md)
+**Parent Topic:**[Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/install-aes.md)
 

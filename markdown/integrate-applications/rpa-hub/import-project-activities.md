@@ -2,6 +2,7 @@
 title: Import project in RPA Desktop Design Studio
 description: Import a project to reuse resources, such as activities, variables, attended automation forms, and other global objects from a different automation project in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/import-project-activities.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,15 +18,15 @@ Import a project to reuse resources, such as activities, variables, attended aut
 
 ## Before you begin
 
-Create an automation project. For more information, see [Create an automation project manually](create-automation-project.md).
+Create an automation project. For more information, see [Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-automation-project.md).
 
-Create an activity. For more information, see [Create and use an activity in RPA Desktop Design Studio](configure-activity-rpa-studio.md).
+Create an activity. For more information, see [Create and use an activity in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-activity-rpa-studio.md).
 
-Create a variable. For more information, see [Create and use a variable in RPA Desktop Design Studio](configure-variables-rpa-studio.md).
+Create a variable. For more information, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-variables-rpa-studio.md).
 
-Create an attended automation form. For more information, see [Create an attended automation form in RPA Desktop Design Studio](create-rda-form.md).
+Create an attended automation form. For more information, see [Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-rda-form.md).
 
-Install plugins to design automations. For more information, see [Manage plugins in RPA Desktop Design Studio](install-plugins-rpa-studio.md).
+Install plugins to design automations. For more information, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/install-plugins-rpa-studio.md).
 
 Role required: none
 
@@ -48,5 +49,5 @@ Role required: none
 7.  Click **OK**.
 
 
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/rpa-studio-use.md)
 

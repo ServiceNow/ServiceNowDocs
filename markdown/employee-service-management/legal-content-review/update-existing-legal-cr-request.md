@@ -2,6 +2,7 @@
 title: Update a Legal Content Review request
 description: Update request details, add comments, or upload documents in a Legal Content Review request you submitted while it is still in the New or Assigned state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-content-review/update-existing-legal-cr-request.html
 release: xanadu
 product: Legal Content Review
 classification: legal-content-review
@@ -45,26 +46,26 @@ Role required: sn\_lg\_ops.legal\_user
 
 9.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d114402e151">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d77749e151">
 
 Option
 
-</th><th align="left" id="d114402e154">
+</th><th align="left" id="d77749e154">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d114402e160">
+</th></tr></thead><tbody><tr><td id="d77749e160">
 
 **If the Attachments tab is visible**
 
 </td><td>
 
--   To upload a new document, select the add attachment icon \(![Add attachment icon.](../../legal-request-management/image/add-attachment-icon.png)\) and select a file.
--   To rename an attached file, select the edit file name icon \(![Edit file name icon.](../../legal-request-management/image/rename-icon.png)\) and update the file name.
--   To remove an attached file, select the delete icon \(![Delete icon.](../../legal-request-management/image/delete-icon.png)\).
+-   To upload a new document, select the add attachment icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachment icon.\) and select a file.
+-   To rename an attached file, select the edit file name icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit file name icon.\) and update the file name.
+-   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d114402e199">
+</td></tr><tr><td id="d77749e199">
 
 **If the Documents tab is visible**
 
@@ -83,5 +84,5 @@ A link to the document is listed in the **External URL** column of the documents
     **Note:** The **Approvals** tab appears only when the Legal Content Review request or its attachment has approval records.
 
 
-**Parent Topic:**[Legal Content Review requests](../concept/legal-content-review-requests.md)
+**Parent Topic:**[Legal Content Review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-content-review/legal-content-review-requests.md)
 

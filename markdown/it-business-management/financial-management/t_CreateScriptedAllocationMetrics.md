@@ -2,6 +2,7 @@
 title: Create scripted allocation metrics
 description: You can create scripted metrics and methods using the standard Cost Allocation Metric form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/t\_CreateScriptedAllocationMetrics.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -21,7 +22,7 @@ Role required: cost\_transparency\_admin
 
 ## About this task
 
-You can create weighted metrics in scripted form and scripted methods [Allocation metrics](../concept/c_AllocationMetrics.md) for more information.
+You can create weighted metrics in scripted form and scripted methods [Allocation metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_AllocationMetrics.md) for more information.
 
 ## Procedure
 
@@ -35,7 +36,7 @@ You can create weighted metrics in scripted form and scripted methods [Allocatio
 
 5.  Click **Submit**.
 
-    ![The Cost Allocation Metric form](../image/scripted_metric_geneva.png "Example scripted metric")
+    \[Omitted image "scripted\_metric\_geneva.png"\] Alt text: The Cost Allocation Metric form
 
     |Field|Description|
     |-----|-----------|
@@ -52,5 +53,5 @@ You can create weighted metrics in scripted form and scripted methods [Allocatio
     **Note:** You cannot delete a rule that is referenced by a locked allocation line.
 
 
-**Parent Topic:**[Allocation metrics](../concept/c_AllocationMetrics.md)
+**Parent Topic:**[Allocation metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_AllocationMetrics.md)
 

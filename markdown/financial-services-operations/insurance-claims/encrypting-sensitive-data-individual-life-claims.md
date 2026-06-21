@@ -2,6 +2,7 @@
 title: Encrypting sensitive data in Individual Life Claims
 description: Individual life claims contain personal or sensitive data fields that may require encryption. As an administrator for Individual Life Claims, you should take precautions to ensure that these fields are encrypted with Column Level Encryption. That way, you help to preserve the data privacy of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/insurance-claims/encrypting-sensitive-data-individual-life-claims.html
 release: xanadu
 product: Insurance Claims
 classification: insurance-claims
@@ -17,7 +18,7 @@ Individual life claims contain personal or sensitive data fields that may requir
 
 ## Overview
 
-The Individual Life Claims data model enables you to record the details for individual benefits claims. Individual Life Claims includes a death benefit claim workflow that covers the entire claim life cycle, from the first-notice-of-loss \(FNOL\) to the case closure. For more information, see [Individual Life Claims workflows](individual-life-claims-workflows.md).
+The Individual Life Claims data model enables you to record the details for individual benefits claims. Individual Life Claims includes a death benefit claim workflow that covers the entire claim life cycle, from the first-notice-of-loss \(FNOL\) to the case closure. For more information, see [Individual Life Claims workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/insurance-claims/individual-life-claims-workflows.md).
 
 You may choose to encrypt fields that contain sensitive data by using Column Level Encryption.
 
@@ -37,7 +38,7 @@ The following table lists some fields that can contain sensitive data.
 
 ## Encrypting the sensitive data
 
-Fields in Individual Life Claims can be encrypted by using Column Level Encryption. For more information, see [Column Level Encryption](https://www.servicenow.com/docs/access?context=column-level-encryption-landing&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Fields in Individual Life Claims can be encrypted by using Column Level Encryption. For more information, see .
 
-**Parent Topic:**[Setting up Individual Life Claims](setting-up-individual-life-claims.md)
+**Parent Topic:**[Setting up Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/insurance-claims/setting-up-individual-life-claims.md)
 

@@ -2,6 +2,7 @@
 title: Review the asset condition results
 description: After the enterprise technician has completed the condition evaluation, the enterprise asset manager reviews the condition evaluation and views the reports in the Work management dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/review-service-event-conditions.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -36,5 +37,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
 5.  On the dashboard, scroll down to view the asset condition overview.
 
 
-**Parent Topic:**[Managing work orders for your enterprise assets](../concept/create-manage-wo-enterprise-assets.md)
+**Parent Topic:**[Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md)
 

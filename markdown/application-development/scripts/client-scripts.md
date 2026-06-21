@@ -2,6 +2,7 @@
 title: Client scripts
 description: Client scripts allow the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/scripts/client-scripts.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -14,8 +15,6 @@ breadcrumb: [Client-side scripting, Scripting, Building pro-code applications, D
 # Client scripts
 
 Client scripts allow the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
-
-Introduction to client scripts, script types, APIs, and good practices
 
 Use client scripts to configure forms, form fields, and field values while the user is using the form. Client scripts can:
 
@@ -32,7 +31,7 @@ Client scripts are intended to optimize the user experience on a form. Client sc
 
 To prevent unwanted access to data, ensure that sensitive fields are hidden or read-only through ACLs or data policies.
 
-For more information, see [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) or [Data policy](https://www.servicenow.com/docs/access?context=c_DataPolicy&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more information, see  or .
 
 ## Where client scripts run
 
@@ -174,7 +173,7 @@ Messages
 
 </td><td>
 
-Text string \(one per line\) available to the client script as localized messages using getmessage\('\[message\]'\). For additional information, see [Translate a client script message](https://www.servicenow.com/docs/access?context=t_TranslateAClientScriptMessage&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Text string \(one per line\) available to the client script as localized messages using getmessage\('\[message\]'\). For additional information, see Translate a client script message.
 
 </td></tr><tr><td>
 
@@ -193,5 +192,5 @@ Isolate script
 New client scripts are run in strict mode, with direct DOM access disabled. Access to jQuery, prototype, and the window object are also disabled. To disable this on a per-script basis, configure this form and select the **Isolate script** check box. To disable this feature for all new globally-scoped client-side scripts set the system property glide.script.block.client.globals to false.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Client-side scripting](client-side-scripting-overview.md)
+</table>**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/client-side-scripting-overview.md)
 

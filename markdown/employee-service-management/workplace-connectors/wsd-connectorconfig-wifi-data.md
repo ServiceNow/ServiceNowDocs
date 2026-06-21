@@ -2,6 +2,7 @@
 title: Set up Connector Configuration for Wi-Fi data
 description: Configure the Connector Configurations table for loading the Wi-Fi data in the target Wi-Fi Access Data table \(sn\_wsd\_wc\_wifi\_access\_data\). The connector configuration table retrieves the data from different Wi-Fi data providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-connectors/wsd-connectorconfig-wifi-data.html
 release: xanadu
 product: Workplace Connectors
 classification: workplace-connectors
@@ -61,7 +62,7 @@ Extension Point Definition
 
 </td><td>
 
-Extension point definition for the Wi-Fi data. Search using the lookup list icon \(![Lookup list icon.](../images/wsd-lookup-list-icon.png)\) to locate the extension point definition **WifiAccessLogDataHandler**.
+Extension point definition for the Wi-Fi data. Search using the lookup list icon \(\[Omitted image "wsd-lookup-list-icon.png"\] Alt text: Lookup list icon.\) to locate the extension point definition **WifiAccessLogDataHandler**.
 
 </td></tr><tr><td>
 
@@ -75,5 +76,5 @@ Time \(in minutes\) beyond which data is considered stale.Beyond this time, fres
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Set up Workplace Connectors for Wi-Fi data](../concept/setup-wifi-data-connectors.md)
+**Parent Topic:**[Set up Workplace Connectors for Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/setup-wifi-data-connectors.md)
 

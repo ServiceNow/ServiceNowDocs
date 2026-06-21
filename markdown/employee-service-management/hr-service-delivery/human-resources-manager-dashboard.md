@@ -2,6 +2,7 @@
 title: Human Resources manager dashboard
 description: The dashboard for HR Managers provides insights on how HR teams are meeting expectations. The HR Manager can measure and improve the influence of their team on meeting and exceeding workforce expectations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/human-resources-manager-dashboard.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,11 +18,11 @@ The dashboard for HR Managers provides insights on how HR teams are meeting expe
 
 **Note:** This dashboard is available in the Human Resources Scoped App content pack.
 
-![The Overview tab of the HR Manager dashboard that is included in the Performance Analytics Human Resources Scoped App out of the box solution](../../../product/human-resources-global/image/hr-manager-dshbrd-overview.png "Overview tab") ![Bottom of the Overview tab](../../../product/human-resources-global/image/hr-manager-dshbrd-overview-btm.png "Overview tab")
+\[Omitted image "hr-manager-dshbrd-overview.png"\] Alt text: The Overview tab of the HR Manager dashboard that is included in the Performance Analytics Human Resources Scoped App out of the box solution \[Omitted image "hr-manager-dshbrd-overview-btm.png"\] Alt text: Bottom of the Overview tab
 
-![The Operational tabl of the HR Manager dashboard](../../../product/human-resources-global/image/hr-manager-operational-tab.png "Operational tab")
+\[Omitted image "hr-manager-operational-tab.png"\] Alt text: The Operational tabl of the HR Manager dashboard
 
-![The Backlog Monitor tab of the HR Manager dashboard](../../../product/human-resources-global/image/hr-manager-backlog-tab.png "Backlog monitor tab")
+\[Omitted image "hr-manager-backlog-tab.png"\] Alt text: The Backlog Monitor tab of the HR Manager dashboard
 
 ## End users and roles
 
@@ -149,5 +150,5 @@ The Human Resources Manager dashboard contains the following visualizations:
 |Time Spent in Each Group\(last 6 months\)|Multilevel Pivot|
 |Unassigned Cases|Single Score|
 
-**Parent Topic:**[HR Performance Analytics Dashboards](human-resources-content-pack.md)
+**Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
 

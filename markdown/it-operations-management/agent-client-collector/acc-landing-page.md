@@ -2,6 +2,7 @@
 title: Agent Client Collector
 description: The Agent Client Collector is an agent that is installed on infrastructure components. The Agent Client Collector is built on a Sensu framework which enables you to adopt and extend monitoring checks from the community. It executes commands on the machines it is installed on and sends output data to the ServiceNow instance via the MID Server, storing events and metrics in the relevant database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-landing-page.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,31 +18,29 @@ The Agent Client Collector is an agent that is installed on infrastructure compo
 
 Watch this video for an overview of how the Agent Client Collector works.
 
-Agent Client Collector overview. Approximately four minutes eight seconds long.
-
 <table id="id_pyq_vxt_x1c" class="nav-card"><tbody><tr><td>
 
-[Agent Client Collector Framework![](../../../reuse/icons/brand-icons/bus-automated-testing-framework.svg)Analyze CI data sent to the instance, and provide data to other Agent Client Collector applications.](acc-framework-landing-page.md)
+[Agent Client Collector Framework\[Omitted image "bus-automated-testing-framework.svg"\] Alt text:Analyze CI data sent to the instance, and provide data to other Agent Client Collector applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-framework-landing-page.md)
 
 </td><td>
 
-[Agent Client Collector Monitoring![](../../../reuse/icons/brand-icons/bus-monitor.svg)Monitor your service availability and ensure that your infrastructure and its applications are running properly.](acc-monitoring-landing-page.md)
+[Agent Client Collector Monitoring\[Omitted image "bus-monitor.svg"\] Alt text:Monitor your service availability and ensure that your infrastructure and its applications are running properly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-monitoring-landing-page.md)
 
 </td><td>
 
-[Agent Client Collector for Visibility![](../../../reuse/icons/brand-icons/bus-extend-visability.svg)Collect host data on servers using Agent Client Collector for Visibility.](acc-visibility-landing-page.md)
+[Agent Client Collector for Visibility\[Omitted image "bus-extend-visability.svg"\] Alt text:Collect host data on servers using Agent Client Collector for Visibility.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-visibility-landing-page.md)
 
 </td></tr><tr><td>
 
-[Agent Client Collector Log Analytics![](../../../reuse/icons/brand-icons/bus-log-store.svg)Stream log data from Linux and Windows hosts to a ServiceNow instance.](acc-log-analytics.md)
+[Agent Client Collector Log Analytics\[Omitted image "bus-log-store.svg"\] Alt text:Stream log data from Linux and Windows hosts to a ServiceNow instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-log-analytics.md)
 
 </td><td>
 
-[Security Incident Response![](../../../reuse/icons/brand-icons/bus-security-incident-response.svg)Automate security incident enrichment data collection and response actions using the Agent Client Collector.](acc-security-incident-response.md)
+[Security Incident Response\[Omitted image "bus-security-incident-response.svg"\] Alt text:Automate security incident enrichment data collection and response actions using the Agent Client Collector.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-security-incident-response.md)
 
 </td><td>
 
-[Live CI View ![](../../../reuse/icons/brand-icons/bus-transaction-data.svg)View live data for incident related CIs to help resolve incidents.](../task/acc-live-ci-view.md)
+[Live CI View \[Omitted image "bus-transaction-data.svg"\] Alt text:View live data for incident related CIs to help resolve incidents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-live-ci-view.md)
 
 </td></tr></tbody>
 </table>

@@ -2,7 +2,10 @@
 title: ServiceNow for Zoom
 description: The ServiceNow integrations with Zoom helps you create a better, more connected experience for users. Employees get seamless self-service without having to leave the Zoom client, and agents can resolve cases faster using Zoom chat, video, and telephony tools.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/sn\_zoomIntegration.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -52,7 +55,7 @@ Enhance employee experience by integrating Employee Center with the Zoom applica
 
 </td><td>
 
-Available to all customers using the Employee Center. To access Employee Center in the Zoom application, see [Employee Center for Zoom](../../employee-center/task/zoom-ec-create-app.md).
+Available to all customers using the Employee Center. To access Employee Center in the Zoom application, see [Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md).
 
 </td><td>
 
@@ -68,7 +71,7 @@ Pre-integrated with IT Service Management.
 
  Can also be integrated with HR Service Delivery and other Enterprise Service Management applications.
 
- Collaboration services. For information about Collaboration services, see [Collaboration services](https://www.servicenow.com/docs/access?context=collab-services-tcm&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+ Collaboration services. For information about Collaboration services, see Collaboration services.
 
 </td><td>
 
@@ -83,7 +86,7 @@ Enable agents to collaborate on tickets with Zoom Meetings
 
 Notify plugin
 
- To implement Notify connector for Zoom, see [Notify Zoom connector](https://www.servicenow.com/docs/access?context=notify-zoom-connector&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+ To implement Notify connector for Zoom, see Notify Zoom connector.
 
 </td><td>
 
@@ -95,7 +98,7 @@ Build custom integrations
 
 </td><td>
 
-For information about building custom integrations, see [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+For information about building custom integrations, see Zoom spoke.
 
 </td><td>
 
@@ -106,23 +109,23 @@ Create custom integrations using Zoom spoke.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../common/image/icon-explore.png) Learn about how agents and employees use Collaboration services for Zoom.](explore-sn-zoom.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how agents and employees use Collaboration services for Zoom.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/explore-sn-zoom.md)
 
 </td><td>
 
-[Configure ![](../../../common/image/icon-set-up.png) Plan and configure your implementation.](configure-sn-zoom.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-sn-zoom.md)
 
 </td><td>
 
-[Integrate ![](../../../common/image/icon-integrate.png) Extend Zoom capabilities by integrating with other applications.](integrate-sn-zoom.md)
+[Integrate \[Omitted image "icon-integrate.png"\] Alt text: Extend Zoom capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/integrate-sn-zoom.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../common/image/icon-workspace.png) Initiate and import Zoom chat messages.](integrate-sn-zoom.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Initiate and import Zoom chat messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/integrate-sn-zoom.md)
 
 </td><td>
 
-[Reference ![](../../../common/image/icon-reference.png) Get details about components like Zoom APIs.](../reference/reference-sn-zoom.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components like Zoom APIs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/reference-sn-zoom.md)
 
 </td><td>
 

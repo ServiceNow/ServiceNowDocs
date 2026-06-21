@@ -2,7 +2,10 @@
 title: CSM Configurable Workspace form headers
 description: Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-workspace-form-headers.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -71,20 +74,20 @@ Account
 
 You can configure the form header to display secondary values either below the primary value or in the Contextual side panel. The **record\_secondary\_values\_location** property controls this setting.
 
-![Case form header that shows secondary values for case Account, Contact, Priority, and State under the Short description primary value.](../../../product/customer-service-management/image/csm-config-workspace-case-form-header.png "Case form header secondary values displayed below the primary value")
+\[Omitted image "csm-config-workspace-case-form-header.png"\] Alt text: Case form header that shows secondary values for case Account, Contact, Priority, and State under the Short description primary value.
 
-![Case form header that shows secondary values for case Account, Contact, Priority, and State in the Contextual side panel.](../../../product/customer-service-management/image/csm-config-workspace-case-form-header-sidebar.png "Case form header secondary values displayed in the Contextual side panel")
+\[Omitted image "csm-config-workspace-case-form-header-sidebar.png"\] Alt text: Case form header that shows secondary values for case Account, Contact, Priority, and State in the Contextual side panel.
 
 See the following topics for more information about configuring form headers in CSM Configurable Workspace:
 
--   [Set up a form header in CSM Configurable Workspace](../../../product/customer-service-management/task/config-csm-config-ws-form-header.md)
--   [Display the form ribbon and form header secondary values in the Contextual side panel](../../../product/customer-service-management/task/config-csm-display-header-in-sidebar.md)
+-   [Set up a form header in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-csm-config-ws-form-header.md)
+-   [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-csm-display-header-in-sidebar.md)
 
 **Note:** One form header configuration, **CSM/FSM Configurable Workspace Header Config**, is included with CSM Configurable Workspace.
 
 ## Form header components
 
-For CSM Configurable Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://www.servicenow.com/docs/access?context=using-ui-builder&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+For CSM Configurable Workspace, the form header is made up of individual components that can be configured with UI Builder.
 
 Individual components provide customers with flexible and granular configuration options. Customers can control the placement, size and spacing of these components, giving them the ability to show additional information that agents may need.
 

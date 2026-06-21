@@ -2,6 +2,7 @@
 title: Security in Legal Service Delivery
 description: Legal Service Delivery provides security through various ServiceNow AI Platform security features such as Restricted Caller Access, Encryption Support, and Edge Encryption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/legal-apps-security.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -32,7 +33,7 @@ When you define cross-scope access to an application resource, use the following
     This setting is recommended for the production phase after development is complete.
 
 
-For more information, refer to [Define cross-scope access to an application resource](https://www.servicenow.com/docs/access?context=set-RCA-level&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+For more information, refer to Define cross-scope access to an application resource.
 
 ## Encryption for Legal Service Delivery
 
@@ -40,21 +41,21 @@ Legal Service Delivery provides encryption to secure sensitive information.
 
 Encryption prevents unauthorized users viewing specific fields. To encrypt fields in Legal Service Delivery, Column Level Encryption is activated by default and provides role-based encryption functions.
 
-For more information on encryption, see [Column Level Encryption](https://www.servicenow.com/docs/access?context=column-level-encryption-landing&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information on encryption, see .
 
 ## Edge Encryption for Legal Service Delivery
 
 ServiceNow® Edge Encryption ™ encrypts sensitive data on your company premises before sending it over the internet to your ServiceNow instance \(encrypted in flight\), where it remains encrypted at rest.
 
-For more information, see [Understanding Edge Encryption](https://www.servicenow.com/docs/access?context=c_EdgeEncryptionOverview&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information, see Understanding Edge Encryption.
 
-Because edge encryption is enabled on a proxy server on your side of the network, there is significant planning, network administration and management, and setup required. For more information, see [Planning for Edge Encryption](https://www.servicenow.com/docs/access?context=c_EdgeEncryptionPlanning&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Because edge encryption is enabled on a proxy server on your side of the network, there is significant planning, network administration and management, and setup required. For more information, see Planning for Edge Encryption.
 
-To install edge encryption, see [Edge Encryption installation](https://www.servicenow.com/docs/access?context=c_InstallEdgeEncryptionProxy&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+To install edge encryption, see Edge Encryption installation.
 
-To configure edge encryption, see [Edge Encryption configuration](https://www.servicenow.com/docs/access?context=edge-config&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+To configure edge encryption, see Edge Encryption configuration.
 
-You can encrypt columns \(fields\) or attachments associated with tables. See [Encrypt fields using encryption configurations](https://www.servicenow.com/docs/access?context=c_ConfigureCloudEdge&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+You can encrypt columns \(fields\) or attachments associated with tables. See Encrypt fields using encryption configurations.
 
-**Note:** There are limitations when using edge encryption. See [Edge Encryption limitations](https://www.servicenow.com/docs/access?context=edge-encryption-limitations&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+**Note:** There are limitations when using edge encryption. See Edge Encryption limitations.
 

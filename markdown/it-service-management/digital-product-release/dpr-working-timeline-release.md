@@ -2,6 +2,7 @@
 title: Managing a timeline-oriented release
 description: Managing a timeline-oriented release involves following a series of deadlines and milestones and adjusting as necessary to keep your release on track.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-product-release/dpr-working-timeline-release.html
 release: xanadu
 product: Digital Product Release
 classification: digital-product-release
@@ -32,7 +33,7 @@ The following is the general flow that a timeline-oriented release goes through:
 -   When all phases in the release are completed, the release moves to the Review state.
 -   When the review of the release is completed, the release moves to the Completed state.
 
-For more information, see [Release for a product or service](dpr-product-release.md).
+For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-product-release.md).
 
 ## Working on a timeline-oriented release
 
@@ -42,11 +43,11 @@ For more information, see [Release for a product or service](dpr-product-release
 
 </td><td>
 
-[Work on a release for a single product or service![](../image/dpr-icon-rls-single.png)Learn about working on a timeline-oriented release to deliver a single product or service.](../task/dpr-work-release.md#)
+[Work on a release for a single product or service\[Omitted image "dpr-icon-rls-single.png"\] Alt text:Learn about working on a timeline-oriented release to deliver a single product or service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-work-release.md)
 
 </td><td>
 
-[Work on a release for multiple products![](../image/dpr-icon-rls-multi.png)Learn about working on a timeline-oriented release to deliver multiple products.](../task/dpr-work-release-timeline-multi.md)
+[Work on a release for multiple products\[Omitted image "dpr-icon-rls-multi.png"\] Alt text:Learn about working on a timeline-oriented release to deliver multiple products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-work-release-timeline-multi.md)
 
 </td><td>
 

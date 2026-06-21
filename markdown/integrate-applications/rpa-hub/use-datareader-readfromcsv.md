@@ -2,6 +2,7 @@
 title: Use the ReadFromCSV component
 description: Read data from a CSV file by using the ReadFromCSV component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-datareader-readfromcsv.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -25,7 +26,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the ReadFromCSV component. For more information about these properties, see [Properties of the Data Reader components](../reference/util-datareader-prop.md).
+You can configure the properties for the ReadFromCSV component. For more information about these properties, see [Properties of the Data Reader components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/util-datareader-prop.md).
 
 -   **Real-world scenario: Extracting product inventory data**
 
@@ -38,7 +39,7 @@ You can configure the properties for the ReadFromCSV component. For more informa
 
 2.  Drag the ReadFromCSV component to the Design surface.
 
-3.  To configure the input fields, see [Use the ReadFromCSV component](use-datareader-readfromcsv.md).
+3.  To configure the input fields, see [Use the ReadFromCSV component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/use-datareader-readfromcsv.md).
 
 4.  Connect the data and control ports of the ReadFromCSV component to the corresponding ports of the other components as described in the following table.
 
@@ -56,5 +57,5 @@ You can configure the properties for the ReadFromCSV component. For more informa
 6.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Data Reader](../concept/datareader-utility.md)
+**Parent Topic:**[Data Reader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/datareader-utility.md)
 

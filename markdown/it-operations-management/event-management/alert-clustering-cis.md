@@ -2,6 +2,7 @@
 title: Create key values to cluster alerts
 description: Create key values to cluster CIs, using the Key Values table. Key values create an additional way to determine commonality between alerts and to combine them into groups. For example, you may want to group alerts on CIs that share the same supplier or location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/alert-clustering-cis.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -31,7 +32,7 @@ Role required: evt\_mgmt\_admin
 
     The results appear in the Key Values table.
 
-    ![Key Values table](../image/key-values-table.png "Key Values table")
+    \[Omitted image "key-values-table.png"\] Alt text: Key Values table
 
 
 ## Result

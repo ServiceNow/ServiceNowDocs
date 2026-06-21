@@ -2,6 +2,7 @@
 title: Multi Provider Document Services Framework Framework roles
 description: Multi Provider Document Services Framework Framework is installed with these roles.Configure multi provider, remote document action, and corresponding subflows.Create, update, and delete documents managed for providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/document-management-services/multi-provider-roles.html
 release: xanadu
 product: Document Management Services
 classification: document-management-services
@@ -15,9 +16,9 @@ breadcrumb: [Installed with Multi Provider Document Services Framework, Multi Pr
 
 Multi Provider Document Services Framework Framework is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
-**Parent Topic:**[Installed with Multi Provider Document Services Framework](installed-with-multi-provider-framework.md)
+**Parent Topic:**[Installed with Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/document-management-services/installed-with-multi-provider-framework.md)
 
 ## Administrator \[mp\_document\_admin\]
 

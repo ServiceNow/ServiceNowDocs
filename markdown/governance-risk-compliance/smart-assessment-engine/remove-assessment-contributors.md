@@ -2,6 +2,7 @@
 title: Remove assessment contributors
 description: The assessment owner can remove contributors from an assessment as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/smart-assessment-engine/remove-assessment-contributors.html
 release: xanadu
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -26,15 +27,15 @@ Role required: admin
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **Workspaces** &gt; **Compliance Workspace**
-    2.  Select the list icon \(![List icon.](../../grc-workspace-vrm/image/icon-tprm-ws-list.png)\).
+    2.  Select the list icon \(\[Omitted image "icon-tprm-ws-list.png"\] Alt text: List icon.\).
     3.  Navigate to **Control attestations** &gt; **Smart Assessments**.
 2.  Select the assessments from which you want to remove the contributors.
 
     The assessment owner and admin can remove contributors from the assessment.
 
-3.  Select the Contributors icon![Contributor icon.](../../../reuse/icons/product-icons/user-group-outline-24.svg) on the contextual sidebar.
+3.  Select the Contributors icon\[Omitted image "user-group-outline-24.svg"\] Alt text: Contributor icon. on the contextual sidebar.
 
-4.  Select **Remove user** option using the ![Manage user icon.](../../../reuse/icons/product-icons/ellipsis-vertical-fill-24.svg) on the contributor tile that you wish to remove.
+4.  Select **Remove user** option using the \[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: Manage user icon. on the contributor tile that you wish to remove.
 
 5.  Read the warning message in the confirmation dialog and select **Remove user**.
 

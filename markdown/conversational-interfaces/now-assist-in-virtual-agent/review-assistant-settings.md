@@ -2,6 +2,7 @@
 title: Review assistant settings
 description: Review your assistant settings and test your assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/now-assist-in-virtual-agent/review-assistant-settings.html
 release: xanadu
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Review your assistant settings and test your assistant.
 
 ## Before you begin
 
-[Manage an assistant chat experience](manage-assistant-chat-experience.md).
+[Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -31,7 +32,7 @@ Role required: virtual\_agent\_admin or admin
 
     1.  If selected portals only have the standard chat experience or only the enhanced chat experience enabled, the drop-down list doesn't appear. If both experience types are enabled, the drop-down list shows both of them.
 
-        ![Test the Virtual Agent.](../image/NAinVA-review-052025.png "Test your assistant")
+        \[Omitted image "NAinVA-review-052025.png"\] Alt text: Test the Virtual Agent.
 
         If you select **Enhanced chat**, the Virtual Agent Designer test panel for the enhanced chat experience is launched.
 
@@ -43,7 +44,7 @@ Role required: virtual\_agent\_admin or admin
 
         If a portal or messaging channel wasn't selected, the following message appears.
 
-        ![Message indicating that no display experience was selected.](../image/NAinVA-no-display.png)
+        \[Omitted image "NAinVA-no-display.png"\] Alt text: Message indicating that no display experience was selected.
 
         The `Select at least one display experience in order to turn on this assistant`**** alert appears at the top of the page, and you aren't able to turn on the assistant until you have made a selection in the Display experience.
 
@@ -68,5 +69,5 @@ Role required: virtual\_agent\_admin or admin
 
 ## Result
 
-Now Assist in Virtual Agent is active, and topics can be associated with the Now Assist in Virtual Agent [LLM assistants](../concept/llm-assistants.md).
+Now Assist in Virtual Agent is active, and topics can be associated with the Now Assist in Virtual Agent [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 

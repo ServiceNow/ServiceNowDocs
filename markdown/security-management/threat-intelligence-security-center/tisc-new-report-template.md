@@ -2,13 +2,14 @@
 title: Create a new Report Template
 description: Create a new case report template according to your business needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-new-report-template.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
-breadcrumb: [Report Templates, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Report Templates, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Create a new Report Template

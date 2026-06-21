@@ -2,6 +2,7 @@
 title: Submitting a fraud case request
 description: An agent can begin the workflow by submitting a fraud case request that is received from a consumer or business contact in the Intelligent Servicing for Fraud application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/intelligent-servicing-for-fraud/sumbitting-a-service-request-as-card-fraud-by-alert.html
 release: xanadu
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud

@@ -2,6 +2,7 @@
 title: Use the ReadBarcodes component
 description: Read multiple barcodes and return their contents by using the ReadBarcode component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-utilities-barcode-readbarcodes.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -33,7 +34,7 @@ The ReadBarcodes component returns a single output that contains concatenated te
 
 3.  Confirm the configuration of the component's input fields.
 
-    For more information, see [Configure port properties](configure-input-port-properties.md).
+    For more information, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the ReadBarcodes component to the corresponding ports of the other components as described in the following table.
 
@@ -45,5 +46,5 @@ The ReadBarcodes component returns a single output that contains concatenated te
     To test the component, on the **Design** tab, select **Run**.
 
 
-**Parent Topic:**[Barcode](../concept/barcode.md)
+**Parent Topic:**[Barcode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/barcode.md)
 

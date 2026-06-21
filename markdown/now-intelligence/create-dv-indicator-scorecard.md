@@ -2,6 +2,7 @@
 title: Create an Indicator Scorecard
 description: The Indicator Scorecard component enables users to visualize and compare data between multiple Performance Analytics indicators. It highlights the information regarding the last score collected, the change from the previous data point, the trend over time, and the value of the target to achieve.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/create-dv-indicator-scorecard.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ The Indicator Scorecard component enables users to visualize and compare data be
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ For information about the use of an Indicator Scorecard in a dashboard, see [the
 
 2.  Select **New**.
 
-3.  Select the Indicator Scorecard \(![Indicator scorecard icon](../image/inline-data-vis-scorecard.png)\) visualization type.
+3.  Select the Indicator Scorecard \(\[Omitted image "inline-data-vis-scorecard.png"\] Alt text: Indicator scorecard icon\) visualization type.
 
 4.  Configure the filtering and sorting capabilities of the Indicator Scorecard.
 
@@ -179,7 +180,7 @@ Time series aggregation
 
 </td><td>
 
-Time series aggregation to apply to all Indicators selected. To learn more about time series aggregations, see [Applying time series aggregations](../../performance-analytics/concept/applying-time-series-aggregations.md#).
+Time series aggregation to apply to all Indicators selected. To learn more about time series aggregations, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
 
 </td></tr><tr><td>
 
@@ -337,7 +338,7 @@ Only the **Go to data view** interaction is available. This action opens the ind
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](add-dv-new-db.md)
--   [Share a data visualization in the Visualization Designer](share-dv-ac.md#)
--   [Bookmark a visualization in the Visualization Designer](../../dashboards/task/bookmark-dv-ac.md)
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/add-dv-new-db.md)
+-   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/share-dv-ac.md)
+-   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/bookmark-dv-ac.md)
 

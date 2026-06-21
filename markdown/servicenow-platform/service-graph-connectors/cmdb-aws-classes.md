@@ -2,6 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for AWS
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from AWS. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-graph-connectors/cmdb-aws-classes.html
 release: xanadu
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -1138,7 +1139,7 @@ The following attributes in the VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\] table
 
 ## Related content
 
-[Data mapping for Service Graph Connector for AWS](cmdb-data-mapping-aws.md)
+[Data mapping for Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-graph-connectors/cmdb-data-mapping-aws.md)
 
-[Service Graph Connector for AWS properties](cmdb-sgc-aws-props.md)
+[Service Graph Connector for AWS properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-graph-connectors/cmdb-sgc-aws-props.md)
 

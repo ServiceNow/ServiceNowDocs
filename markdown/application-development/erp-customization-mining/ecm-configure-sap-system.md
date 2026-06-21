@@ -2,6 +2,7 @@
 title: Configure SAP for ERP-CM
 description: Enable SQLM \(SQL Monitor\) on the productive system and confirm that ST03 \(Workload Monitor\) is collected for daily workloads before you can install ERP Customization Mining \(ERP-CM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/ecm-configure-sap-system.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -48,5 +49,5 @@ Role required: none
     2.  Verify that the **Workload data** field is set to **Daily**.
 
 
-**Parent Topic:**[Configuring ERP Customization Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/configuring-ecm.md)
 

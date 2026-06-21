@@ -2,6 +2,7 @@
 title: Enable the display of contract request details
 description: As an administrator, enable the display of contract request details in the contract request form by adding related fields to display on the form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-configure-header.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -44,5 +45,5 @@ Display the contract request fields and its values, add the following form heade
 6.  Select **Save**.
 
 
-**Parent Topic:**[Add and configure contract request functionality](../concept/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 

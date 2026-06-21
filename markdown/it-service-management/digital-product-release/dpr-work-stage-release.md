@@ -2,6 +2,7 @@
 title: Work on a stage-oriented release for a single product or service
 description: Monitor and work on a release that follows the stage-oriented release process to release a single product or service.You can start over a stage-oriented release from any previously completed phase if you encounter an issue that requires you to go back.View the release status and work on its phases and tasks, and policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-product-release/dpr-work-stage-release.html
 release: xanadu
 product: Digital Product Release
 classification: digital-product-release
@@ -23,7 +24,7 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\).
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\).
 
 3.  Select a release from the list to open.
 
@@ -31,23 +32,23 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
 5.  Select the **Overview** section to review and modify release details, get an overview of its status, or change its readiness target date.
 
-    For more information, see [Review and update release details](dpr-work-release-details.md) and [Retarget a release](dpr-work-release-readiness-target.md).
+    For more information, see [Review and update release details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-work-release-details.md) and [Retarget a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-work-release-readiness-target.md).
 
 6.  Select the **Release scope** section to review and update the scope of the release by adding or removing the product features and enhancements.
 
-    For more information, see [Update the scope of a release](dpr-work-release-scope.md).
+    For more information, see [Update the scope of a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-work-release-scope.md).
 
 7.  Select the **Configuration items** section to review and manage the configuration items in the release.
 
-    You can add more configuration items or remove the existing ones as needed. For more information, see [Manage configuration items in a release](dpr-work-release-config-items.md).
+    You can add more configuration items or remove the existing ones as needed. For more information, see [Manage configuration items in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-work-release-config-items.md).
 
 8.  Select the **Change requests** section to review and manage the change requests in the release.
 
-    You can add new or existing change requests or remove the existing ones as needed. For more information, see [Manage change requests in a release](dpr-work-release-change-request.md).
+    You can add new or existing change requests or remove the existing ones as needed. For more information, see [Manage change requests in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-work-release-change-request.md).
 
 9.  From the Release form header, select the number under the Artifacts to manage artifacts added to the release.
 
-    For more information, see [Manage artifacts in a release](dpr-work-release-artifact.md).
+    For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
 
 ## Restart the release phase
@@ -66,7 +67,7 @@ By restarting a phase, you can reassess and adjust the plan to overcome the new 
 
 ### Procedure
 
-1.  On the Release execution page, select the release phase action button \(![Release phase action icon.](../../../common/image/icon-menu.png)\) and then select **Restart phase**.
+1.  On the Release execution page, select the release phase action button \(\[Omitted image "icon-menu.png"\] Alt text: Release phase action icon.\) and then select **Restart phase**.
 
 2.  On the Restart phase dialog box, select a phase from where you want to restart.
 
@@ -95,7 +96,7 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
 1.  Select **Release execution** to view the release status and work on its phases, tasks, and policies.
 
-    ![Release execution page of a stage-oriented release to track its progress.](../image/dpr-release-execution-stage2.png)
+    \[Omitted image "dpr-release-execution-stage2.png"\] Alt text: Release execution page of a stage-oriented release to track its progress.
 
 2.  Update a release phase.
 
@@ -131,7 +132,7 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
     The task is created in the Pending state andadded to the selected phase.
 
-    For an approval task, an approval record is created for the approver to review and take action. For more information, see [Approve or reject a release task](dpr-approve-reject-release-task.md).
+    For an approval task, an approval record is created for the approver to review and take action. For more information, see [Approve or reject a release task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-approve-reject-release-task.md).
 
 4.  Track and manage the progress of tasks for the selected phase.
 
@@ -175,6 +176,6 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
 7.  Close a release after verifying its completeness.
 
-    For more information, see [Close a release](dpr-complete-release.md).
+    For more information, see [Close a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-complete-release.md).
 
 

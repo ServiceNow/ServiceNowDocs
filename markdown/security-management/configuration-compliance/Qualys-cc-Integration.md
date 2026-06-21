@@ -2,6 +2,7 @@
 title: Qualys integration with Configuration Compliance
 description: The Qualys Policy Compliance collects the data and automatically sends it to the Qualys application, which continuously analyzes and correlates the information. It easily integrates as the Qualys Integration for Security Operations to map configuration findings to CIs and business services to determine the impact and priority of potential misconfigurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/Qualys-cc-Integration.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -60,18 +61,18 @@ If the Qualys Vulnerability Integration is already installed on your system, and
 
 Navigate to **All** &gt; **Qualys Vulnerability Integration** &gt; **Primary Integrations** and edit the **Qualys API Credentials** field under the **Qualys REST Details** tab.
 
--   **[Configure the PCRS parameters](../task/cc-config-qualys.md)**  
+-   **[Configure the PCRS parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-config-qualys.md)**  
 Starting with v12.6.3 of Qualys Integration for Security Operations, you can use the Qualys PCRS Policy Host Integration and Qualys PCRS Test Results Integration for importing test results with new sets of Qualys APIs. These integrations need a gateway URL to fetch information from Qualys.
--   **[Update configuration items with the network partition identifier for the Qualys Integration](../task/qualys-updateci-npi-cc.md)**  
+-   **[Update configuration items with the network partition identifier for the Qualys Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/qualys-updateci-npi-cc.md)**  
 Create unique configuration items \(CIs\) for assets in your environment that share IP addresses. Identify the distinct assets across your environment and automatically update the CIs on your existing discovered item, vulnerable item, and detection records to give you more details about your vulnerabilities.
--   **[Set additional filter parameters for Qualys imports](../task/cc-qualys-add-filters.md)**  
+-   **[Set additional filter parameters for Qualys imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-qualys-add-filters.md)**  
 Customize the filtering parameters for your scheduled queries with the Qualys Vulnerability Integration to help you further refine the vulnerability data you import with the supported Qualys integrations.
--   **[Resolving Qualys Vulnerability Integration issues](cc-qualys-troubleshooting.md)**  
+-   **[Resolving Qualys Vulnerability Integration issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-qualys-troubleshooting.md)**  
 Some commonly encountered issues, along with workarounds are discussed.
--   **[Qualys integration run status chart](cc-qualys-integr-run-status.md)**  
+-   **[Qualys integration run status chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-qualys-integr-run-status.md)**  
 The Qualys Integration Run Status module is a graphical view of the status of Qualys integration runs.
--   **[Qualys REST messages](qualys-rest-messages-cc.md)**  
+-   **[Qualys REST messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/qualys-rest-messages-cc.md)**  
 Qualys REST messages are used to make calls to the Qualys API to fetch the compliance data.
 
-**Parent Topic:**[Configuration Compliance integrations](../../../vulnerability-config-compliance/concept/vuln-config-compl-integrations.md)
+**Parent Topic:**[Configuration Compliance integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-integrations.md)
 

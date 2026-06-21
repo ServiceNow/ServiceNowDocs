@@ -2,6 +2,7 @@
 title: Schedule the CrowdStrike Next-Gen SIEM detection retrieval
 description: Configure a schedule to define how and when you pull detections from the CrowdStrike Next-Gen SIEM tenant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/schedule-retrieve-and-ingest-inc-data.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -97,5 +98,5 @@ The date since historical detections were ingested from CrowdStrike Next-Gen SIE
 
 ## What to do next
 
-[Automate detection updates and closures](automate-inc-crowdstrike-ng.md)
+[Automate detection updates and closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/automate-inc-crowdstrike-ng.md)
 

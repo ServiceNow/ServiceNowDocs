@@ -2,6 +2,7 @@
 title: Limiting results with a view
 description: The description element in the returned RSS xml is constructed using the view as specified in the URL, when no view is specified, the default no-name view is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/c\_LimitingResultsWithAView.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -27,5 +28,5 @@ Additionally, the RSS item title can be modified using the **sysparm\_title\_vie
 https://<instance name>.service-now.com/incident.do?sysparm_query=priority=1&sysparm_view=ess&sysparm_title_view=rss_title&RSS
 ```
 
-**Parent Topic:**[RSS feed generator](c_RSSFeedGenerator.md)
+**Parent Topic:**[RSS feed generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_RSSFeedGenerator.md)
 

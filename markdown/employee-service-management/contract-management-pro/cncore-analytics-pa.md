@@ -2,6 +2,7 @@
 title: Platform Analytics Solutions for Contract Management Pro
 description: The Contracts Dashboard in Contract Management Pro is an analytics and reporting solution that enables you to make data-driven decisions through insights and trends derived from contract request data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-analytics-pa.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro

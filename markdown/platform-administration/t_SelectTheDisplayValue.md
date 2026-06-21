@@ -2,6 +2,7 @@
 title: Select a field as the table display value
 description: Only one field can be defined as the display value for a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_SelectTheDisplayValue.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -44,5 +45,5 @@ When you set the **Display** value to **true**, a business rule sets the **Displ
     5.  The field named in the Glide Property **glide.record.display\_value\_default**
     6.  The **Created on** field of the referenced record.
 
-**Parent Topic:**[Display values](../concept/c_DisplayValues.md)
+**Parent Topic:**[Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DisplayValues.md)
 

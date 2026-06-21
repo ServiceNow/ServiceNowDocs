@@ -2,6 +2,7 @@
 title: Export to OpenAPI specification
 description: Export a REST API as an OpenAPI specification to import it into another web services tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-api-explorer/export-openapi-specification.html
 release: xanadu
 product: REST API Explorer
 classification: rest-api-explorer
@@ -35,7 +36,7 @@ Role required: web\_service\_admin, rest\_api\_explorer, or admin
 
 3.  Below the list of API methods, select the link for the export format you want to use.
 
-<table id="choicetable_un2_fp2_25b"><tbody><tr><td id="d198108e136">
+<table id="choicetable_un2_fp2_25b"><tbody><tr><td id="d188781e136">
 
 **Export OpenAPI Specification \(YAML\)**
 
@@ -43,7 +44,7 @@ Role required: web\_service\_admin, rest\_api\_explorer, or admin
 
 Format the export in YAML.
 
-</td></tr><tr><td id="d198108e145">
+</td></tr><tr><td id="d188781e145">
 
 **Export OpenAPI Specification \(JSON\)**
 
@@ -67,5 +68,5 @@ The system downloads the API in the format you selected.
 
 Import the API into a web services tool such as Postman or Insomnia.
 
-**Parent Topic:**[Use the REST API Explorer](../concept/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

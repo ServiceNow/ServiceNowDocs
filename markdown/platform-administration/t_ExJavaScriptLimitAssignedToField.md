@@ -2,6 +2,7 @@
 title: Constrain the assigned to field by role
 description: This example shows how to use JavaScript and a business rule to restrict the incident Assigned to field choices to only the users with the itil\_admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ExJavaScriptLimitAssignedToField.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -82,5 +83,5 @@ You can also change itil\_admin to any other role on a reference field that refe
     ```
 
 
-**Parent Topic:**[Configure reference qualifiers](t_ConfigureReferenceQualifiers.md)
+**Parent Topic:**[Configure reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfigureReferenceQualifiers.md)
 

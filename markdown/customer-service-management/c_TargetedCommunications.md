@@ -2,7 +2,10 @@
 title: Targeted communications
 description: The Targeted Communications application provides the ability to create and send articles and emails to internal and external customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/c\_TargetedCommunications.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -25,7 +28,7 @@ The process of publishing articles is based on workflows and two default workflo
 
 Customer contacts and consumers can view publications by logging in to the Customer Service Portal or the Consumer Service Portal and selecting the **Publications** link in the portal header. Employees can view these publications by navigating to **Targeted Communications** &gt; **Publications** in the application navigator.
 
-**Note:** For more info see, [Components installed with additional plugins for Customer Service Management](../reference/inst-wi-cust-serv-addtl-plugins.md)
+**Note:** For more info see, [Components installed with additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/inst-wi-cust-serv-addtl-plugins.md)
 
 ## Publication article stages
 

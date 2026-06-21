@@ -2,6 +2,7 @@
 title: Define fields and weights for the risk rule
 description: Customize the parameters and weights for the risk rule so that you can generate risk scores that use the test and asset data that are unique to your organization. By selecting the fields that are included in the risk rule, you can define an effective risk scoring framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/define-fields-weights-risk-rule.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -144,5 +145,5 @@ Preview the items in this table that match the defined conditions. This field ap
 
 In the Rule page, activate and reapply the rule to reevaluate the risk score on the active test result.
 
-**Parent Topic:**[Configuration Compliance calculators and calculator rules](../concept/config-compliance-calculator-rules.md)
+**Parent Topic:**[Configuration Compliance calculators and calculator rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/config-compliance-calculator-rules.md)
 

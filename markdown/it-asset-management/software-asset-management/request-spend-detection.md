@@ -2,6 +2,7 @@
 title: Request Software Spend Detection
 description: Request Software Spend Detection to track, analyze, and optimize software spending. To access Software Spend Detection, enable the Software Asset Management - Spend Detection \(com.sn\_sam\_spend\) plugin. This plugin includes demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/request-spend-detection.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ Request Software Spend Detection to track, analyze, and optimize software spendi
 
 Before you can request Software Spend Detection, you must sign the Software Spend Detection legal agreement. For more information about the Software Spend Detection legal agreement, contact your ServiceNow account representative.
 
-To use Software Spend Detection, you must activate the Software Asset Management Professional \(com.snc.samp\) plugin on your ServiceNow instance. For more information about activating Software Asset Management Professional, see [Request Software Asset Management](t_RequSoftwareAssetMgmt.md).
+To use Software Spend Detection, you must activate the Software Asset Management Professional \(com.snc.samp\) plugin on your ServiceNow instance. For more information about activating Software Asset Management Professional, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 **Note:** Software Spend Detection is not supported for on-premises users hosting their own ServiceNow instance.
 
@@ -31,11 +32,11 @@ Role required: admin
 
 2.  On the All Applications page, select **Request Plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    ![Message informing customers about new service portal with a link provided.](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
 
 4.  Select your instance.
 
@@ -82,12 +83,12 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
 
-    ![Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 
     For additional details about requesting a plugin, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
 
 
-**Parent Topic:**[Software Spend Detection](../concept/software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/software-spend-detection.md)
 

@@ -2,6 +2,7 @@
 title: Automation details fields
 description: The fields to be configured in the Automation details section of the Respond page, when creating an alert automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/automation-details-fields.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -21,7 +22,7 @@ The fields to be configured in the Automation details section of the Respond pag
 |Automation is managed by|The group that owns, edits, and can delete the automation. The value of this field is determined by the value of the **Assignment group** field when configuring an automation condition in the **If these conditions are met...** section.|
 |Description|A description of the automation's functionality.|
 
-To return to the main topic, see [Create Respond automation](../task/esc-notify-alert-sow-itom.md).
+To return to the main topic, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/esc-notify-alert-sow-itom.md).
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

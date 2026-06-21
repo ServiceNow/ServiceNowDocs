@@ -2,6 +2,7 @@
 title: Edit a question in Catalog Builder
 description: Edit an existing question if you want to improve it by adding dynamic form behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-catalog/edit-question-cat-builder.html
 release: xanadu
 product: Service Catalog
 classification: service-catalog
@@ -39,19 +40,19 @@ You can’t edit the questions that belong to single-row and multi-row variable 
 
 4.  Deactivate a question.
 
-    1.  Point to the question and select the deactivate icon \(![Deactivate icon.](../image/deactivate-quest.png)\).
+    1.  Point to the question and select the deactivate icon \(\[Omitted image "deactivate-quest.png"\] Alt text: Deactivate icon.\).
 
     2.  In the dialog box, select **Deactivate**.
 
 5.  Edit a question.
 
-    1.  Point to the question and select the edit icon \(![Edit icon.](../image/edit-quest-builder.png)\).
+    1.  Point to the question and select the edit icon \(\[Omitted image "edit-quest-builder.png"\] Alt text: Edit icon.\).
 
     2.  Make the required changes and select **Save**.
 
 6.  Add dynamic form behavior to a question.
 
-    1.  Point to the question and select the UI policies icon \(![UI policies icon.](../image/dyn-beh-quest.png)\) for defining dynamic behavior.
+    1.  Point to the question and select the UI policies icon \(\[Omitted image "dyn-beh-quest.png"\] Alt text: UI policies icon.\) for defining dynamic behavior.
 
     2.  In the Dynamic behavior dialog box, select **Define new behavior**.
 
@@ -188,5 +189,5 @@ Option to set a message that you want to show when the condition is met.
     **Note:** When dynamic behavior is added, a catalog UI policy and action is created and a short description is automatically generated.
 
 
-**Parent Topic:**[Creating or editing catalog item template](create-cat-item-template-cat-builder.md)
+**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
 

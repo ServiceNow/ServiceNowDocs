@@ -2,6 +2,7 @@
 title: View the promoted events
 description: View the anomaly alerts that the Advanced Promotion Engine promoted to IT events. Viewing IT events enables you to track the source of the event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/view-promoted-events.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -21,7 +22,7 @@ Role required: evt\_mgmt\_user
 
 ## About this task
 
-The system generates an IT event when an anomaly alert is promoted. Those events then become IT alerts. For details, see [View the promoted anomaly alerts](view-promoted-alerts.md).
+The system generates an IT event when an anomaly alert is promoted. Those events then become IT alerts. For details, see [View the promoted anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/view-promoted-alerts.md).
 
 ## Procedure
 

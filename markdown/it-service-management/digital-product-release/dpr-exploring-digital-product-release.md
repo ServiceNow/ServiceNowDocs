@@ -2,6 +2,7 @@
 title: Exploring Digital Product Release
 description: The ServiceNow Digital Product Release application enables you to streamline the process of delivering digital products and services by managing the process from planning to delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-product-release/dpr-exploring-digital-product-release.html
 release: xanadu
 product: Digital Product Release
 classification: digital-product-release
@@ -25,7 +26,7 @@ This solution automates processes that enable collaboration between stakeholders
 
 A digital product or service has a release life cycle that starts with planning, goes through development, and ends with delivery. There are many different phases to a release life cycle, and each phase can have its own set of activities. The following infographic illustrates the life cycle of digital products and services.
 
-![Infographic showing the release life-cycle for digital products and services. For details, refer to the following description.](../image/dpr-release-workflow.png "Release life cycle for digital products and services")
+\[Omitted image "dpr-release-workflow.png"\] Alt text: Infographic showing the release life-cycle for digital products and services. For details, refer to the following description.
 
 1.  Create a product or service and add features, product enhancements,and releases.
 2.  Plan the scope of a release by moving product enhancements into releases.
@@ -82,11 +83,11 @@ Engineering lead
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Define release readiness targets for single or recurring release schedules.|[Release readiness target](../task/dpr-create-rls-readiness-target.md)|Release manager|
-|Define release templates that include phases, tasks, policies, and approval tasks.|[Release templates](../task/dpr-create-release-template.md)|Release manager|
-|Create policies to automate the release process.|[Policy administration](../reference/dpr-policies.md)|Release manager|
-|Manage products, services,features, product enhancements,versions, and initiate a release.|[Release planning](../task/dpr-plan-feature-version.md)|Product manager|
-|Plan and manage the release process from start to finish.|[Release execution](../task/dpr-work-release.md#)|Release manager|
+|Define release readiness targets for single or recurring release schedules.|[Release readiness target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-create-rls-readiness-target.md)|Release manager|
+|Define release templates that include phases, tasks, policies, and approval tasks.|[Release templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-create-release-template.md)|Release manager|
+|Create policies to automate the release process.|[Policy administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-policies.md)|Release manager|
+|Manage products, services,features, product enhancements,versions, and initiate a release.|[Release planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-plan-feature-version.md)|Product manager|
+|Plan and manage the release process from start to finish.|[Release execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-work-release.md)|Release manager|
 
 ## Digital Product Release key terms
 
@@ -137,14 +138,14 @@ Engineering lead
     The release must be associated with a release readiness target date, which determines the start and end dates for phases and tasks based on the target date.
 
 
--   **[Digital Product Release Workspace](dpr-workspace.md)**  
+-   **[Digital Product Release Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-workspace.md)**  
 The Digital Product Release Workspace provides a single location for release admins to define release processes and release readiness targets. Product managers can use it to create and manage products and features, define the scope in versions, and plan and execute releases.
--   **[Release for a product or service](dpr-product-release.md)**  
+-   **[Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-product-release.md)**  
 A release groups all the tasks \(projects, epics, stories, enhancements, defects, problems, incidents, and so on\) planned for a specific version of a product or service. Digital Product Release provides two different processes: timeline-oriented and stage-oriented, to help you in executing your releases.
--   **[Holiday schedules in a release](dpr-release-holiday-schedule.md)**  
+-   **[Holiday schedules in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-release-holiday-schedule.md)**  
 You can associate a holiday schedule with a release so that the phase and release durations are calculated considering non-working days.
--   **[Digital Product Release dashboards](dpr-dashboard-release.md)**  
+-   **[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-dashboard-release.md)**  
 Release dashboards provide insights into your releases. You can see their progress, identify any potential risks, and track their software quality. This information can help you to make informed decisions about your releases and ensure their success.
 
-**Parent Topic:**[Digital Product Release](../reference/dpr-landing-page.md)
+**Parent Topic:**[Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Set On-call team preferences in SRM
 description: Set on-call preferences for team members to increase the efficiency of your business operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-set-on-call-prefs.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the teams icon \(![Teams.](../image/icon-sr-teams.png)\).
+2.  From the left navigation pane, select the teams icon \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select the team card to open.
 
@@ -35,15 +36,15 @@ Role required: Manager, or Administrator
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_pxz_gj2_mbc"><thead><tr><th align="left" id="d492861e105">
+<table id="choicetable_pxz_gj2_mbc"><thead><tr><th align="left" id="d233009e105">
 
 Field
 
-</th><th align="left" id="d492861e108">
+</th><th align="left" id="d233009e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d492861e114">
+</th></tr></thead><tbody><tr><td id="d233009e114">
 
 **On-call shift managers**
 
@@ -51,7 +52,7 @@ Description
 
 Team managers for the on-call shift.
 
-</td></tr><tr><td id="d492861e123">
+</td></tr><tr><td id="d233009e123">
 
 **PTO requests**
 
@@ -63,7 +64,7 @@ Requests for Paid Time Off \(PTO\) made by team members. Choices are:-   System 
 -   Not allowed
 
 
-</td></tr><tr><td id="d492861e146">
+</td></tr><tr><td id="d233009e146">
 
 **First day of the week**
 
@@ -71,7 +72,7 @@ Requests for Paid Time Off \(PTO\) made by team members. Choices are:-   System 
 
 First day of your work week.**Note:** This option is available for Washington DC and later releases only.
 
-</td></tr><tr><td id="d492861e157">
+</td></tr><tr><td id="d233009e157">
 
 **Allow shift schedule overlap**
 
@@ -79,7 +80,7 @@ First day of your work week.**Note:** This option is available for Washington DC
 
 Option to allow schedules to overlap
 
-</td></tr><tr><td id="d492861e167">
+</td></tr><tr><td id="d233009e167">
 
 **Escalation rule on shift overlap**
 
@@ -95,5 +96,5 @@ Choices are:-   System default \(Escalate to all shifts\)
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Create your SRM On-call schedule](sr-create-on-call-schedule.md)
+**Parent Topic:**[Create your SRM On-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)
 

@@ -2,6 +2,7 @@
 title: Use the GetProperty component
 description: Get the value of a property from a JSON object by using the GetProperty component in the RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-utilities-json-getproperty.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties for the GetProperty component, see [Properties of the JSON utilities](../reference/properties-utilities-json.md).
+To configure the properties for the GetProperty component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/properties-utilities-json.md).
 
 ## Procedure
 
@@ -44,7 +45,7 @@ To configure the properties for the GetProperty component, see [Properties of th
 
 4.  Drag the GetProperty component to the Design surface.
 
-5.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+5.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 6.  Connect the ports as described in the following table.
 
@@ -117,8 +118,8 @@ Returns the value of the property.If no property value is found, the port return
 
     The name is displayed as Abel Tutor when you right-click the GetProperty Data Out port.
 
-    ![Example of GetProperty component.](../image/get-property-utlities-json-example.png "GetProperty component automation example")
+    \[Omitted image "get-property-utlities-json-example.png"\] Alt text: Example of GetProperty component.
 
 
-**Parent Topic:**[JSON](../concept/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/json.md)
 

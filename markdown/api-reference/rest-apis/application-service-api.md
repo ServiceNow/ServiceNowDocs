@@ -2,6 +2,7 @@
 title: Application Service API
 description: The Application Service API provides endpoints that enable you to create, modify, and update application services.Retrieves a list of configuration items \(CI\) in a mapped application service and the relationships between them. Only retrieves content for services that were manually created.Returns basic information about a specified application service and its associated business context.Creates an application service or update an existing application service.Creates an application service record stub in the Application Service \[cmdb\_ci\_service\_auto\] table and populates it with the passed in information.Populates the specified application service with a specified set of downstream configuration items \(CI\).Updates the specified application service with the passed in basic information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/application-service-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -19,7 +20,7 @@ This API requires that the user have the Application Service administrator \[app
 
 **Important:** Starting with the Rome release, the Application Service API is no longer enhanced or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Application Service - GET /now/cmdb/app\_service/\{sys\_id\}/getContent
 
@@ -76,7 +77,7 @@ The values are not case-sensitive.Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -101,7 +102,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -361,7 +362,7 @@ curl "https://instance.servicenow.com/api/now/cmdb/app_service/2fce42d80a0a0bb40
 
 Returns basic information about a specified application service and its associated business context.
 
-**Note:** This endpoint has been deprecated, use [SG Services – POST – /sg\_services/app\_service/find](sg_services-api.md#) instead.
+**Note:** This endpoint has been deprecated, use [SG Services – POST – /sg\_services/app\_service/find](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/sg_services-api.md) instead.
 
 ### URL format
 
@@ -404,7 +405,7 @@ Required, if **name** is not passed in. Unique number that identifies the applic
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -416,7 +417,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -631,7 +632,7 @@ Default URL: `/api/now/cmdb/app_service/create`
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -664,7 +665,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -795,7 +796,7 @@ Creates an application service record stub in the Application Service \[cmdb\_ci
 
 Before storing the record, it validates the passed parameters and the uniqueness of the application service name. It also creates upstream relationships which provide business context to the service by associating the specified business applications, business service offerings, and technical service offerings to the service application. It does not create downstream relationships to infrastructure. To define downstream relationships you must call the Application Service - PUT /now/cmdb/csdm/app\_service/\{service\_sys\_id\}/populate\_service endpoint.
 
-**Note:** This endpoint has been deprecated, use [SG Services – POST – /sg\_services/app\_service/register](sg_services-api.md#) instead.
+**Note:** This endpoint has been deprecated, use [SG Services – POST – /sg\_services/app\_service/register](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/sg_services-api.md) instead.
 
 ### URL format
 
@@ -914,7 +915,7 @@ List of sys\_ids of the technical service offerings to relate to the application
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -927,7 +928,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1028,9 +1029,9 @@ curl -X POST \
 
 Populates the specified application service with a specified set of downstream configuration items \(CI\).
 
-Before calling this endpoint, you must call the [POST /now/cmdb/csdm/app\_service/register\_service](application-service-api.md#) endpoint to create the application service.
+Before calling this endpoint, you must call the [POST /now/cmdb/csdm/app\_service/register\_service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/application-service-api.md) endpoint to create the application service.
 
-**Note:** This endpoint has been deprecated, use [SG Services – POST – /sg\_services/app\_service/populate](sg_services-api.md#) instead.
+**Note:** This endpoint has been deprecated, use [SG Services – POST – /sg\_services/app\_service/populate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/sg_services-api.md) instead.
 
 ### URL format
 
@@ -1118,7 +1119,7 @@ population\_method.attributes
 
 </td><td>
 
-List of attributes to associate with the CI, such as host, port, name, and URL.For additional information on entry points, see [Entry point attributes](https://www.servicenow.com/docs/access?context=r_EntryPointsforBizSvcDef&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US).
+List of attributes to associate with the CI, such as host, port, name, and URL.For additional information on entry points, see Entry point attributes.
 
  **Note:** You must pass all required attributes.
 
@@ -1155,7 +1156,7 @@ population\_method.entry\_point
 
 </td><td>
 
-Required if **population\_method.type** = discovery. Entry point into the application service. For additional information on entry points, see [Entry point attributes](https://www.servicenow.com/docs/access?context=r_EntryPointsforBizSvcDef&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US) and [Create entry point types for Service Mapping](https://www.servicenow.com/docs/access?context=t_CreateEntryPoint&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US).Data type: String
+Required if **population\_method.type** = discovery. Entry point into the application service. For additional information on entry points, see Entry point attributes and Create entry point types for Service Mapping.Data type: String
 
 </td></tr><tr><td>
 
@@ -1215,7 +1216,7 @@ Required. Type of CI to populate.Valid values:
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1228,7 +1229,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1344,7 +1345,7 @@ Updates the specified application service with the passed in basic information.
 
 It also validates the uniqueness of the application service by checking the passed in information against the Identification and Reconciliation engine \(IRE\) rules defined on the application service class.
 
-**Note:** This endpoint has been deprecated, use [SG Services – POST – /sg\_services/app\_service/update](sg_services-api.md#) instead.
+**Note:** This endpoint has been deprecated, use [SG Services – POST – /sg\_services/app\_service/update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/sg_services-api.md) instead.
 
 ### URL format
 
@@ -1461,7 +1462,7 @@ List of sys\_ids of the technical service offerings to relate to the application
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1474,7 +1475,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

@@ -2,6 +2,7 @@
 title: Creating a robot in RPA Hub
 description: You can create an attended or an unattended robot in RPA Hub to run the bot process, if you have the RPA admin role or RPA release manager role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/create-robot.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ You can create an attended or an unattended robot in RPA Hub to run the bot proc
 
 |Task|Description|
 |----|-----------|
-|[Create an unattended robot](../task/create-unattended-robot.md)|Create unattended robots to run the unattended bot processes for tasks that are highly repetitive, rule-based, and do not require human decision-making during execution. For example, invoice processing for the Finance department.|
-|[Create an attended robot](../task/create-attended-robot.md)|Create attended robots to run the attended bot processes for tasks that require human decision-making, involve interactions with user interfaces, or need input from employees. For example, guided data entry and validation for order processing.|
-|[Add assigned studio users to an unattended robot](../task/assigned-studio-users-rpa.md)|Assign one or more users \(RPA developers or RPA admins\) to an unattended robot, so that the users can access the specific robot in the **Assigned Bot Process** section of the RPA Desktop Design Studio application.|
+|[Create an unattended robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-unattended-robot.md)|Create unattended robots to run the unattended bot processes for tasks that are highly repetitive, rule-based, and do not require human decision-making during execution. For example, invoice processing for the Finance department.|
+|[Create an attended robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-attended-robot.md)|Create attended robots to run the attended bot processes for tasks that require human decision-making, involve interactions with user interfaces, or need input from employees. For example, guided data entry and validation for order processing.|
+|[Add assigned studio users to an unattended robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/assigned-studio-users-rpa.md)|Assign one or more users \(RPA developers or RPA admins\) to an unattended robot, so that the users can access the specific robot in the **Assigned Bot Process** section of the RPA Desktop Design Studio application.|
 

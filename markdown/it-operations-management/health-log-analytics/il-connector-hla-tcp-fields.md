@@ -2,6 +2,7 @@
 title: TCP integration configuration fields
 description: Description of the fields on the TCP integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-tcp-fields.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -179,5 +180,5 @@ Line breaker delimiters
 The line break character separating the raw log lines.Splitting values must be separated by a comma followed by a space: ", ". For example: "\\r, \\n, , splitHere, \#".
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure TCP integrations](../task/il-connector-hla-tcp.md)
+</table>**Parent Topic:**[Configure TCP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-tcp.md)
 

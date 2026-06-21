@@ -2,6 +2,7 @@
 title: Work on an invoice inquiry case
 description: Work on an invoice inquiry case to resolve an issue raised by the suppliers or employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/work-inquiry-case.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,13 +24,13 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
 
 An invoice case with a category of Inquiry is referred to as an invoice inquiry case.
 
-Typically, an invoice inquiry case is automatically created when you receive an inquiry email. However, the agent can also manually create an invoice inquiry case from the Source-to-Pay Workspace. For more information, see [Create an invoice inquiry case manually](create-inquiry-case.md).
+Typically, an invoice inquiry case is automatically created when you receive an inquiry email. However, the agent can also manually create an invoice inquiry case from the Source-to-Pay Workspace. For more information, see [Create an invoice inquiry case manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/create-inquiry-case.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Do one of the following:
 
@@ -45,19 +46,19 @@ Typically, an invoice inquiry case is automatically created when you receive an 
 
 6.  Do one of the following:
 
-    -   Request more information about the invoice inquiry case from the requester. For more information, see [Request additional information from the requester for an invoice inquiry case](request-caller-info-inquiry-case.md).
+    -   Request more information about the invoice inquiry case from the requester. For more information, see [Request additional information from the requester for an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.md).
 
         The state of the case updates to Awaiting requester info.
 
-    -   Submit the invoice inquiry case for an internal review. For more information, see [Submit an invoice inquiry case for an internal review](submit-inquiry-case-internal-review.md).
+    -   Submit the invoice inquiry case for an internal review. For more information, see [Submit an invoice inquiry case for an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/submit-inquiry-case-internal-review.md).
 
         The state of the case updates to Awaiting internal info.
 
-    -   Create an invoice task and assign it to a user or group to resolve the invoice inquiry case. For more information, see [Create an invoice task](create-apm-task.md).
+    -   Create an invoice task and assign it to a user or group to resolve the invoice inquiry case. For more information, see [Create an invoice task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/create-apm-task.md).
 7.  Close an invoice inquiry case when all the activities and tasks for resolving the case are completed.
 
-    For more information, see [Close an invoice inquiry case](close-inquiry-case.md).
+    For more information, see [Close an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/close-inquiry-case.md).
 
 
-**Parent Topic:**[Invoice inquiry cases](../concept/work-with-inquiry-cases.md)
+**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
 

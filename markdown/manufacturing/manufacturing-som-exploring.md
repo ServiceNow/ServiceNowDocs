@@ -2,6 +2,7 @@
 title: Manufacturing with Sales Customer Relationship Management
 description: Optimize the lead-to-cash cycle with Sales Customer Relationship Management for Manufacturing Commercial Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/manufacturing-som-exploring.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-10-16"
@@ -21,5 +22,5 @@ With Sales Customer Relationship Management for Manufacturing Commercial Operati
 -   Automate order fulfillment across front, middle, and back office teams.
 -   Manage post-sale changes, upgrades, and renewals.
 
-![Sales Customer Relationship Management for Manufacturing Commercial Operations](../image/mcosom.png)
+\[Omitted image "mcosom.png"\] Alt text: Sales Customer Relationship Management for Manufacturing Commercial Operations
 

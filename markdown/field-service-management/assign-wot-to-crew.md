@@ -2,7 +2,10 @@
 title: Assign work order tasks to crews on Dispatcher Workspace
 description: Assign crews to a work order task that requires a crew of agents in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/assign-wot-to-crew.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 5
@@ -15,14 +18,14 @@ Assign crews to a work order task that requires a crew of agents in Dispatcher W
 
 ## Before you begin
 
-If you’re scheduling a task across multiple schedule entries or days, a work schedule must have been assigned to the crew. For more information, see [Create a work schedule for an agent or technician](../../customer-service-management/task/create-agent-work-schedule.md).
+If you’re scheduling a task across multiple schedule entries or days, a work schedule must have been assigned to the crew. For more information, see [Create a work schedule for an agent or technician](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/create-agent-work-schedule.md).
 
 **Note:** If the crew schedule hasn’t been defined and you’re auto-assigning a task, the default schedule is used.
 
 If you want to assign work order tasks to crews in the territories that best match their location, you must enable the following options:
 
--   The Field Service territory model **Field\_Service\_Territories**. For more information, see [Enable the Field Service territory model](enable-territory-model.md).
--   The **Territory** option in Dispatcher Workspace must be enabled to view the territory information in the task card and the agent card. For more information, see [Enable Dispatcher Workspace settings](dispatcher-wrkspc-settings.md).
+-   The Field Service territory model **Field\_Service\_Territories**. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
+-   The **Territory** option in Dispatcher Workspace must be enabled to view the territory information in the task card and the agent card. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/dispatcher-wrkspc-settings.md).
 
 Role required: wm\_dispatcher
 
@@ -48,7 +51,7 @@ Task assignment methods:
 When scheduling tasks for multiple days:
 
 -   View the crew schedule for a selected time period in calendar, such as day, work day, week, two weeks, or four weeks. The calendar also displays the assigned task window spanned across multiple days or weeks.
--   View the recommended crews for the task using the **Auto Assign Rules** option. For more information, see [Search for appropriate field service agents](search-agents-tasks.md).
+-   View the recommended crews for the task using the **Auto Assign Rules** option. For more information, see [Search for appropriate field service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/search-agents-tasks.md).
 
 ## Procedure
 
@@ -58,7 +61,7 @@ When scheduling tasks for multiple days:
 
 3.  Search for and open the work order task that you want to assign.
 
-    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](search-crew-task.md).
+    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/search-crew-task.md).
 
 4.  Select the **Needs Crew** check box if it isn’t already selected.
 
@@ -66,15 +69,15 @@ When scheduling tasks for multiple days:
 
 6.  Assign the crew task.
 
-<table id="choicetable_tv1_54y_xrb"><thead><tr><th align="left" id="d39100e243">
+<table id="choicetable_tv1_54y_xrb"><thead><tr><th align="left" id="d37096e243">
 
 Option
 
-</th><th align="left" id="d39100e246">
+</th><th align="left" id="d37096e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39100e252">
+</th></tr></thead><tbody><tr><td id="d37096e252">
 
 **To assign a task manually**
 
@@ -85,30 +88,30 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d39100e276">
+</td></tr><tr><td id="d37096e276">
 
 **To manually assign a task from the task panel**
 
 </td><td>
 
-1.  Select the More actions icon \(![More actions icon](../image/more_actions.png)\) for a task that requires a crew in the task panel.
+1.  Select the More actions icon \(\[Omitted image "more\_actions.png"\] Alt text: More actions icon\) for a task that requires a crew in the task panel.
 2.  Select the **Assign** field.
 3.  Search for and select a crew in the **Assigned crew** field.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d39100e315">
+</td></tr><tr><td id="d37096e315">
 
 **To auto-assign the task to a crew from the task panel**
 
 </td><td>
 
-1.  Select the More actions icon \(![More actions icon](../image/more_actions.png)\) on the crew task card.
+1.  Select the More actions icon \(\[Omitted image "more\_actions.png"\] Alt text: More actions icon\) on the crew task card.
 2.  Select **Auto Assign**.
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d39100e348">
+</td></tr><tr><td id="d37096e348">
 
 **To auto-assign the task to a crew from the task record**
 
@@ -119,39 +122,39 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d39100e376">
+</td></tr><tr><td id="d37096e376">
 
 **To auto-assign the task to a crew from a list**
 
 </td><td>
 
-1.  Select the Lists icon \( ![List icon.](../image/lists_icon.png)\) and select **My Dispatch Queue**.
+1.  Select the Lists icon \( \[Omitted image "lists\_icon.png"\] Alt text: List icon.\) and select **My Dispatch Queue**.
 2.  Select the work order task.
 3.  Select **Auto Assign**.
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d39100e415">
+</td></tr><tr><td id="d37096e415">
 
 **To manually assign a task from the contextual side panel**
 
 </td><td>
 
 1.  Select a work order task in the task panel or on the map.
-2.  Select the Overflow actions \(![overflow actions](../image/overflow-actions.png)\) icon in the contextual side panel.
+2.  Select the Overflow actions \(\[Omitted image "overflow-actions.png"\] Alt text: overflow actions\) icon in the contextual side panel.
 3.  Select the **Assign** field.
 4.  Search for and select a crew in the **Assigned crew** field.
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d39100e457">
+</td></tr><tr><td id="d37096e457">
 
 **To auto-assign the task to a crew from the contextual side panel**
 
 </td><td>
 
 1.  Select a work order task in the task panel or on the map.
-2.  Select the Overflow actions \(![overflow actions](../image/overflow-actions.png)\) icon in the contextual side panel.
+2.  Select the Overflow actions \(\[Omitted image "overflow-actions.png"\] Alt text: overflow actions\) icon in the contextual side panel.
 3.  Select **Auto Assign**.
 4.  Select **Confirm**.
 
@@ -164,5 +167,5 @@ Description
 
 The task is assigned to the crew. All crew members receive a push notification that the work order task is assigned. The Task Assignees related list is added to the work order task. The list displays the names of crew members, which include both the leader of the crew and the agents in the crew.
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](../concept/using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-disp-wrkspc-crew-operations.md)
 

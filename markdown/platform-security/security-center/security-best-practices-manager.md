@@ -2,6 +2,7 @@
 title: Security Best Practices
 description: Use Security Best Practices to implement privacy and security configuration tasks on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/security-best-practices-manager.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -28,7 +29,7 @@ Security Best Practices provide the following:
 
 The home page includes graphs that represent the total number of security best practices completed overall, the number of best practices completed by maturity level, and a table with all the security best practices available.
 
-The table enables you to apply filters so that you can sort and save filtered lists, which you can use as work lists for different use cases or roles. See [save a filtered list](../task/apply-filters-to-the-security-best-practices-table.md#) for more information.
+The table enables you to apply filters so that you can sort and save filtered lists, which you can use as work lists for different use cases or roles. See [save a filtered list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/apply-filters-to-the-security-best-practices-table.md) for more information.
 
 The following are explanations of the fields related to the security best practices table.
 
@@ -135,22 +136,22 @@ The **best practice update history** card provides a snapshot of the release inf
 
 ## Security Best Practices task steps page
 
-When you select the subtab **task steps**, you’ll be taken to a page that provides you with step-by-step instructions for how to implement the security best practice. See [complete a security best practice](../task/complete-a-security-best-practice-on-your-servicenow-instance.md) for more information.
+When you select the subtab **task steps**, you’ll be taken to a page that provides you with step-by-step instructions for how to implement the security best practice. See [complete a security best practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/complete-a-security-best-practice-on-your-servicenow-instance.md) for more information.
 
 ## Security Best Practices activity page
 
-The activities are listed from newest to oldest so that you can analyze the most recent activity first. Each update to an activity is timestamped, and you can use search and filter to query for information. See [apply filters to the security best practices table](../task/apply-filters-to-the-security-best-practices-table.md#) for more information.
+The activities are listed from newest to oldest so that you can analyze the most recent activity first. Each update to an activity is timestamped, and you can use search and filter to query for information. See [apply filters to the security best practices table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/apply-filters-to-the-security-best-practices-table.md) for more information.
 
--   **[Complete a security best practice](../task/complete-a-security-best-practice-on-your-servicenow-instance.md)**  
+-   **[Complete a security best practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/complete-a-security-best-practice-on-your-servicenow-instance.md)**  
 Learn how to complete a security best practice on your ServiceNow instance.
--   **[View activity of a best practice](../task/view-activity-of-a-best-practice.md)**  
+-   **[View activity of a best practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/view-activity-of-a-best-practice.md)**  
 Track the chronological and timestamped history related to a security best practice that you're completing on your ServiceNow instance, along with the user that initiated the activity.
--   **[View data of completed best practices](../task/view-statistics-of-completed-best-practices.md)**  
+-   **[View data of completed best practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/view-statistics-of-completed-best-practices.md)**  
 See visual representations of the total amount of best practices completed, or segmented by maturity level.
--   **[Filters the security best practices table](../task/apply-filters-to-the-security-best-practices-table.md#)**  
+-   **[Filters the security best practices table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/apply-filters-to-the-security-best-practices-table.md)**  
 Apply filters to return more relevant results for your security best practices.
--   **[Best Practices](../reference/best-practices.md)**  
+-   **[Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/best-practices.md)**  
 Learn details about the Best Practices in the Security Posture Console.
 
-**Parent Topic:**[Security posture console](sc-posture-console.md)
+**Parent Topic:**[Security posture console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-posture-console.md)
 

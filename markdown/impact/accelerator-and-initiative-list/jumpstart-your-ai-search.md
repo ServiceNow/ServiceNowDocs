@@ -2,6 +2,7 @@
 title: Jumpstart Your AI Search
 description: The Jumpstart Your AI \(Artificial Intelligence\) Search Accelerator provides guidance on enabling and configuring AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/jumpstart-your-ai-search.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

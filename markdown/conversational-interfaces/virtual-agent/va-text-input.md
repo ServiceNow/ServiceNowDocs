@@ -2,6 +2,7 @@
 title: Text user input control
 description: The Text user input control in a Virtual Agent topic prompts the user for a text string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-text-input.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -56,7 +57,7 @@ Detail description
 
 </td><td>
 
-Description of the information that you need from users. If the **Allow automatic slot filling** toggle is deactivated, you can create a dynamic detail description by selecting the Data Pill Picker icon ![Data pill picker icon](../images/variable-reference-picker.png) to define conditions, or select the Open Editor icon ![Script icon](../images/icon-script.png) to enter a script. If the **Allow automatic slot filling** toggle is activated, you can only enter a static description.
+Description of the information that you need from users. If the **Allow automatic slot filling** toggle is deactivated, you can create a dynamic detail description by selecting the Data Pill Picker icon \[Omitted image "variable-reference-picker.png"\] Alt text: Data pill picker icon to define conditions, or select the Open Editor icon \[Omitted image "icon-script.png"\] Alt text: Script icon to enter a script. If the **Allow automatic slot filling** toggle is activated, you can only enter a static description.
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ Text format that is validated when a user enters certain text items. If the user
 -   URL: Web address format
 -   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format is not entered.
 
-For phone and IP address format examples, see [E.164 phone formats](https://www.servicenow.com/docs/access?context=r_ConfigureE.164PhoneNumberFields&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and [IP address field types](https://www.servicenow.com/docs/access?context=r-IPAddressFieldType&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For phone and IP address format examples, see E.164 phone formats and IP address field types.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -137,11 +138,11 @@ Input prompt
 
 </th></tr></thead><tbody><tr><td>
 
-![Text user input properties include node name, detail description, and input format. Advanced options include Enforce user prompt and Additional instructions to LLM, defined by text input, conditions, or scripts.](../images/va-text-input-llm-2.png)
+\[Omitted image "va-text-input-llm-2.png"\] Alt text: Text user input properties include node name, detail description, and input format. Advanced options include Enforce user prompt and Additional instructions to LLM, defined by text input, conditions, or scripts.
 
 </td><td>
 
-![Web client showing input prompt. The text reads, "Could you please provide your first service catalog item?"](../images/va-text-input-web-llm.png "Web UI Text user input prompt")
+\[Omitted image "va-text-input-web-llm.png"\] Alt text: Web client showing input prompt. The text reads, "Could you please provide your first service catalog item?"
 
 </td></tr></tbody>
 </table>## Text user input control properties for NLU topic discovery
@@ -194,7 +195,7 @@ Text format that is validated when a user enters certain text items. If the user
 -   URL: Web address format
 -   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format is not entered.
 
-For phone and IP address format examples, see [E.164 phone formats](https://www.servicenow.com/docs/access?context=r_ConfigureE.164PhoneNumberFields&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and [IP address field types](https://www.servicenow.com/docs/access?context=r-IPAddressFieldType&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For phone and IP address format examples, see E.164 phone formats and IP address field types.
 
 </td></tr><tr><td>
 
@@ -233,7 +234,7 @@ The method digest algorithm based on the standard WS-security standard. Choose o
 -   **SHA-256 \(lower case\)**
 -   **SHA-1 \(lower case\)**
 
-For more information about the WS-security standards, see [WS-Security properties](https://www.servicenow.com/docs/access?context=ws-security-properties&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+For more information about the WS-security standards, see WS-Security properties.
 
 </td></tr><tr><td>
 
@@ -328,17 +329,17 @@ Input prompt
 
 </th></tr></thead><tbody><tr><td rowspan="2">
 
-![Text user input properties include the node name, prompt, input format, and optional NLU entity.](../images/va-text-input-properties.png "Text input control basic properties")
+\[Omitted image "va-text-input-properties.png"\] Alt text: Text user input properties include the node name, prompt, input format, and optional NLU entity.
 
- ![Under Make this input secure, slide the toggle switch to enable the feature. The Hash function and Encryption salt fields display.](../images/va-text-input-properties-adv1.png "Make this input secure (Advanced properties)")
+ \[Omitted image "va-text-input-properties-adv1.png"\] Alt text: Under Make this input secure, slide the toggle switch to enable the feature. The Hash function and Encryption salt fields display.
 
 </td><td>
 
-![Input prompt shown in the web client. The text reads, "Please enter a short description of what you're looking for."](../images/va-text-input-web.png "Web UI Text user input prompt")
+\[Omitted image "va-text-input-web.png"\] Alt text: Input prompt shown in the web client. The text reads, "Please enter a short description of what you're looking for."
 
 </td></tr><tr><td>
 
-![Secure user input on a mobile app that displays dots in place of the password.](../images/va-text-input-mobile.png "User input prompt on a mobile app with the Make this input secure toggle switch enabled")
+\[Omitted image "va-text-input-mobile.png"\] Alt text: Secure user input on a mobile app that displays dots in place of the password.
 
 </td></tr></tbody>
 </table>## Channel support
@@ -360,5 +361,5 @@ Input prompt
 |Apple Messages for Business|Not supported|Supported|None|
 |Alexa \(Voice\)|Not supported|Supported|For screen devices, character limits may apply. For more information, see the [Alexa developer documentation](https://developer.amazon.com/en-US/docs/alexa/custom-skills/display-interface-reference.html).|
 
-**Parent Topic:**[Virtual Agent Designer user input controls](va-user-inputs.md)
+**Parent Topic:**[Virtual Agent Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

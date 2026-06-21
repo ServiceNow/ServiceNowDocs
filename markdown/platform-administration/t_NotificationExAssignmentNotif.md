@@ -2,6 +2,7 @@
 title: Notification example: notify task assignees
 description: Notify users who are assigned a Task \[task\] record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_NotificationExAssignmentNotif.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -51,5 +52,5 @@ Set up your email as a test email address. Navigate to **System Properties** &gt
     2.  Check your email for assignment notifications.
 
 
-**Parent Topic:**[Create an email notification](t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateANotification.md)
 

@@ -2,6 +2,7 @@
 title: Manage ITSM Predictive Intelligence Workbench use cases
 description: View your ITSM Predictive Intelligence Workbench use cases to monitor model performance and reevaluate the associated models, if necessary. You can also continue setup of models you started, but did not complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-manage-use-cases.html
 release: xanadu
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -23,7 +24,7 @@ Role required: piwb\_admin or piwb\_manager
 
 **Important:**
 
-Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](../../task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md)
+Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -40,12 +41,12 @@ Via the Models detail page you can access the **Test** tab to perform the follow
 
     The **Use Cases - All** page opens displaying all use cases. The status of the use case is depicted on the card, for example, **In progress**. Other statuses include, **Completed** and **Monitoring**.
 
-    ![Predictive Intelligence Workbench All Use Cases.](../image/piwb-all-use-cases.png)
+    \[Omitted image "piwb-all-use-cases.png"\] Alt text: Predictive Intelligence Workbench All Use Cases.
 
 2.  Click a use case to continue with implementation.
 
     Or you can evaluate performance if the use case is in the **Monitoring** state.
 
-    **Note:** If a use case is under performing, the net automation is lower than the threshold configured in the Settings page. See [Configure ITSM Predictive Intelligence Workbench settings](itsm-piwb-config-settings.md).
+    **Note:** If a use case is under performing, the net automation is lower than the threshold configured in the Settings page. See [Configure ITSM Predictive Intelligence Workbench settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-config-settings.md).
 
 

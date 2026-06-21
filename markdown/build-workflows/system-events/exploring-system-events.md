@@ -2,6 +2,7 @@
 title: Exploring system events
 description: Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response to the conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/system-events/exploring-system-events.html
 release: xanadu
 product: System Events
 classification: system-events
@@ -49,19 +50,19 @@ Realize the benefits of leveraging system events by doing the following tasks in
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Allows users to define new events that can be triggered by specific conditions or actions, enabling customized work-flows and automated responses.|[Create an event](../task/t_CreateYourOwnEvent.md)|Developers, Administrators, IT Service Managers|
-|Captures event activity in logs for auditing, debugging, and monitoring system behavior, providing insights into event performance and bottlenecks.|[Event logs](../reference/r_EventLogs.md)|Administrators, Compliance Officers, Security Analysts|
-|Schedules jobs to be executed automatically at specific times or intervals, ensuring routine tasks are performed without manual intervention.|[Implement automated job scheduling](../task/auto-job-scheduling.md)|Operations Teams, IT Service Managers, Administrators|
-|Transfers events between queues or categories, helping optimize processing priority and load balancing in event-driven systems.|[Move an event](../task/move_event.md)|Administrators, Developers|
-|Registers custom or system-defined events in the platform to make them available for triggering specific actions or work-flows.|[Register an event](../task/t_RegisterAnEvent.md)|Developers, Administrators|
-|Provides the ability to reprocess failed or incomplete events, ensuring system reliability and minimizing the impact of errors.|[Reprocess an event](../task/t_ReprocessAnEvent.md)|IT Operations Teams, Developers, Administrators|
-|Enables seamless transfer of contextual data from work-flows to notifications, ensuring messages contain relevant and actionable information for recipients.|[Pass event parameters from a work-flow to a notification](../../notification/task/t_PassEventParameters.md)|Developers, IT Service Managers, HR Professionals|
+|Allows users to define new events that can be triggered by specific conditions or actions, enabling customized work-flows and automated responses.|[Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/system-events/t_CreateYourOwnEvent.md)|Developers, Administrators, IT Service Managers|
+|Captures event activity in logs for auditing, debugging, and monitoring system behavior, providing insights into event performance and bottlenecks.|[Event logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)|Administrators, Compliance Officers, Security Analysts|
+|Schedules jobs to be executed automatically at specific times or intervals, ensuring routine tasks are performed without manual intervention.|[Implement automated job scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/system-events/auto-job-scheduling.md)|Operations Teams, IT Service Managers, Administrators|
+|Transfers events between queues or categories, helping optimize processing priority and load balancing in event-driven systems.|[Move an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/system-events/move_event.md)|Administrators, Developers|
+|Registers custom or system-defined events in the platform to make them available for triggering specific actions or work-flows.|[Register an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/system-events/t_RegisterAnEvent.md)|Developers, Administrators|
+|Provides the ability to reprocess failed or incomplete events, ensuring system reliability and minimizing the impact of errors.|[Reprocess an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/system-events/t_ReprocessAnEvent.md)|IT Operations Teams, Developers, Administrators|
+|Enables seamless transfer of contextual data from work-flows to notifications, ensuring messages contain relevant and actionable information for recipients.|[Pass event parameters from a work-flow to a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/system-events/t_PassEventParameters.md)|Developers, IT Service Managers, HR Professionals|
 
 ## What to explore next
 
 To learn more about configuring and using System events, see:
 
--   [Configuring system events](configuring-system-events.md)
--   [Managing system events](managing-system-events.md)
--   [System events reference](../reference/system-events-reference.md)
+-   [Configuring system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/system-events/configuring-system-events.md)
+-   [Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/system-events/managing-system-events.md)
+-   [System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/system-events/system-events-reference.md)
 

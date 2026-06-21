@@ -2,6 +2,7 @@
 title: Slow mutex locks record detail
 description: Administrators can use slow mutex logs to gain insight into how mutex locks are affecting platform performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_stats\_slow\_mutex.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"

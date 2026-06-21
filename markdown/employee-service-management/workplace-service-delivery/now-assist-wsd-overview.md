@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Workplace Service Delivery \(WSD\)
 description: The Now Assist in Virtual Agent assists Workplace Service Delivery workplace employees to book meeting spaces conveniently and quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-service-delivery/now-assist-wsd-overview.html
 release: xanadu
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -61,6 +62,6 @@ The following Agentic AI workflows are available for Now Assist for WSD:-   Mana
 
 To learn more about configuring and using Now Assist for Workplace Service Delivery \(WSD\), see:
 
--   [Configuring Now Assist for WSD](now-assist-wsd-configuring.md)
--   [Using Now Assist for WSD](now-assist-wsd-using.md)
+-   [Configuring Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery/now-assist-wsd-configuring.md)
+-   [Using Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery/now-assist-wsd-using.md)
 

@@ -2,11 +2,12 @@
 title: Define a cost model statement item
 description: The cost of the item or service is derived from the allocation lines of financial modeling application. The statement item captures the cost from the segment accounts, specific accounts in a segment, or buckets in an account, which gives you the cost of the statement item for a fiscal period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/define-cost-model-statement-item.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 3
 breadcrumb: [Determine the statement item type, Financial charging application setup, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -87,7 +88,7 @@ Business service
 
 </td><td>
 
-Business service that uses the statement item as a configured item.You can also [define a service](https://www.servicenow.com/docs/access?context=create-or-modify-SPM2-services&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+Business service that uses the statement item as a configured item.You can also define a service.
 
 </td></tr><tr><td>
 
@@ -205,10 +206,10 @@ Price adjustment based on a percentage of the average unit cost of the segment a
 
 ## What to do next
 
-To [create breakdown records for the cost model statement item](create-cost-model-breakdowns.md), click **New** in the Cost Model Breakdowns related list.
+To [create breakdown records for the cost model statement item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/create-cost-model-breakdowns.md), click **New** in the Cost Model Breakdowns related list.
 
--   **[Create cost model breakdowns](create-cost-model-breakdowns.md)**  
+-   **[Create cost model breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/create-cost-model-breakdowns.md)**  
 Create breakdowns for the cost model statement item providing more clarity by reporting the components that constitute the cost model statement item and the cost associated with each of these components.
 
-**Parent Topic:**[Determine the statement item type](determine-statement-item.md)
+**Parent Topic:**[Determine the statement item type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/determine-statement-item.md)
 

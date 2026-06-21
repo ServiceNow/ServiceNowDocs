@@ -2,6 +2,7 @@
 title: Create a data visualization from a list
 description: You can create a Platform Analytics vertical bar or pie data visualization from inside a Core UI list. If you have a data visualization role, you can save, share, export, or duplicate the visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/create-data-viz-from-list.html
 release: xanadu
 topic_type: task
 last_updated: "2024-11-26"
@@ -19,7 +20,7 @@ Role required: You need a role that gives access to the list. To save, share, ex
 
 ## About this task
 
-If you are on a new instance or an instance that has fully migrated to Platform Analytics, follow this procedure. Otherwise, you create a Core UI pie or bar report, instead. In this case, see [Run a report from a list](../../reporting/task/t_RunAReport.md#).
+If you are on a new instance or an instance that has fully migrated to Platform Analytics, follow this procedure. Otherwise, you create a Core UI pie or bar report, instead. In this case, see [Run a report from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/t_RunAReport.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ If you are on a new instance or an instance that has fully migrated to Platform 
 
 3.  Select **Pie Chart** or **Bar Chart**.
 
-    ![Create a pie or bar data visualization from a list](../../reporting/image/run-report-from-list.png)
+    \[Omitted image "run-report-from-list.png"\] Alt text: Create a pie or bar data visualization from a list
 
     The data visualization is generated and opened in the Visualization Designer.
 

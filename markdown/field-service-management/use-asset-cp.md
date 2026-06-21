@@ -2,7 +2,10 @@
 title: Record the assets used during a work task on the Contractor Portal
 description: Record any assets that you use during the execution of a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/use-asset-cp.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -38,5 +41,5 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 
 The asset you used is successfully recorded in the agent personal stockroom.
 
-**Parent Topic:**[Record the usage of assets on the Contractor Portal](../concept/record-asset-usage-on-cp.md)
+**Parent Topic:**[Record the usage of assets on the Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/record-asset-usage-on-cp.md)
 

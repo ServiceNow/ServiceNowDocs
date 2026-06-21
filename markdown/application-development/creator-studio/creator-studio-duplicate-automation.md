@@ -2,6 +2,7 @@
 title: Copy an automated playbook in Creator Studio
 description: Duplicate an existing playbook and make small changes to it, which may be faster than creating an entirely new automated playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-duplicate-automation.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -35,11 +36,11 @@ To copy a playbook, you must be given permission to work on the app.
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
@@ -47,16 +48,16 @@ To copy a playbook, you must be given permission to work on the app.
 
 5.  Select the playbook that you want to copy from the **Automations** tab.
 
-    ![Selection of a playbook from the Automations tab](../image/cs-automations-tab.png)
+    \[Omitted image "cs-automations-tab.png"\] Alt text: Selection of a playbook from the Automations tab
 
-6.  Select the more actions menu icon \(![](../image/cs-more-actions-icon.png)\).
+6.  Select the more actions menu icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text:\).
 
 7.  Select **Duplicate**.
 
-    ![Duplicate menu option](../image/cs-duplicate-playbook.png "Copy a playbook")
+    \[Omitted image "cs-duplicate-playbook.png"\] Alt text: Duplicate menu option
 
 8.  Choose the **Duplicate** button in the confirmation modal.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-working-with-automations.md)
 

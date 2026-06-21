@@ -2,6 +2,7 @@
 title: CdmSharedLibraryApi
 description: The CdmSharedLibraryApi provides endpoints that enable you to create and manage shared libraries and shared components. It also has endpoints that enable you to upload and export the configuration data of a shared component.Deletes the shared library with the specified name.Deletes the specified shared component from the specified library.Returns the current status of the specified shared library upload request.Creates a new shared library with the specified name.Creates the specified shared component under the specified library.Enables you to create and manage shared libraries and shared components. This endpoint creates a shared component node in the CDM Node \[sn\_cdm\_node\] table and a shared component record in the CDM Shared Component \[sn\_cdm\_shared\_component\] table.Uploads files as part of the Configuration Data Model \(CDM\) under the components folder in a shared library.Updates the shared library information. Use this endpoint to update the name, description, state of a shared library, and the user groups that can access the library.Updates the name and description of the specified shared component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/shared\_libraries-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -20,9 +21,9 @@ This API requires the Configuration Data Management \(CDM\) plugin to be activat
 -   CDM Editor Role
 -   CDM Admin Role
 
-For additional information on shared libraries and shared components, see [Sharing components among applications — Component libraries](https://www.servicenow.com/docs/access?context=cdm-component-libraries&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on shared libraries and shared components, see Sharing components among applications — Component libraries.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## CdmSharedLibraryApi - DELETE /sn\_cdm/shared\_libraries
 
@@ -78,7 +79,7 @@ Required. Name of the shared library to delete. Located in the CDM Application \
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -109,7 +110,7 @@ Default: **application/json**
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -258,7 +259,7 @@ Required. Name of the shared library where the component to delete is located. L
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -289,7 +290,7 @@ Default: **application/json**
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -445,7 +446,7 @@ Sys\_id of the upload request whose status to return. This value is returned by 
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -476,7 +477,7 @@ Default: **application/json**
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -592,7 +593,7 @@ output.publish\_option
 
 </td><td>
 
-Value of the publish option passed in the associated upload call. For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+Value of the publish option passed in the associated upload call. For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
  Data type: String
 
@@ -836,7 +837,7 @@ Default: All users with the CDM Editor role can edit data within the shared libr
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -867,7 +868,7 @@ Default: **application/json**
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1071,7 +1072,7 @@ Required. Name of the shared library under which to create the component. This l
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1102,7 +1103,7 @@ Default: **application/json**
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1230,7 +1231,7 @@ The CDM Editor role is required to access this endpoint.
 
 **Note:** By default, the maximum content upload size is 2MB. You can modify this default by updating the sn\_cdm.max\_allowed\_upload\_file\_size property.
 
-**Note:** This upload method cannot be used to modify nodes. Use the alternative [CdmSharedLibraryApi - POST /sn\_cdm/shared\_libraries/uploads/components/file](shared_libraries-api.md#) method to modify nodes.
+**Note:** This upload method cannot be used to modify nodes. Use the alternative [CdmSharedLibraryApi - POST /sn\_cdm/shared\_libraries/uploads/components/file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/shared_libraries-api.md) method to modify nodes.
 
 ### URL format
 
@@ -1427,7 +1428,7 @@ Valid values:
 -   publish\_new\_and\_unpublish\_old: Publish the new snapshot created after the commit and unpublish the existing snapshot.
 -   publish\_none: Do not publish any snapshots.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -1448,7 +1449,7 @@ Required. Name of the shared library to create or manage. Located in the CDM App
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_fyp_pmb_fwb" class="rest_api_request_headers"><thead><tr><th>
 
@@ -1481,7 +1482,7 @@ Data format of the request body. Supported types: **text/plain** and **applicati
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -1692,9 +1693,9 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://www.servicenow.com/docs/access?context=cdm-changesets-version-control&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US) associated with the application, such as Chset-102. This changeset must be in the "Open" state. Located in the CDM Changeset \[sn\_cdm\_changeset\] table.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state. Located in the CDM Changeset \[sn\_cdm\_changeset\] table.Data type: String
 
-Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
+Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/applications-api.md) results.
 
 </td></tr><tr><td>
 
@@ -1759,7 +1760,7 @@ Configuration data to upload. By default, file size uploads are limited to 5 MB.
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1792,7 +1793,7 @@ Content Type of the file to be uploaded. Examples: application/zip, text/plain, 
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_cdq_fft_byb"><thead><tr><th>
 
@@ -1889,7 +1890,7 @@ upload\_id
 
 </td><td>
 
-Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.Data type: String
+Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -2026,7 +2027,7 @@ Comma separated list of fields in the CDM Application \[sn\_cdm\_application\] t
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2057,7 +2058,7 @@ Default: **application/json**
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2263,7 +2264,7 @@ Comma separated list of fields in the CDM Shared Component \[sn\_cdm\_shared\_co
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2294,7 +2295,7 @@ Default: **application/json**
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

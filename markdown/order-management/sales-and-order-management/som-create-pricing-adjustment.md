@@ -2,6 +2,7 @@
 title: Create and publish a product attribute-based pricing adjustment
 description: Create a pricing adjustment for a product offering based on its product characteristics, such as the product size or color. A pricing adjustment can be a markup or markdown percentage, amount, or a pricing override.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-create-pricing-adjustment.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,11 +22,11 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 ## About this task
 
-In this task, you specify the product characteristics to which the pricing adjustment applies. Then you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see [Using decision tables](https://www.servicenow.com/docs/access?context=using-decision-builder&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+In this task, you specify the product characteristics to which the pricing adjustment applies. Then you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see .
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Attribute Adjustments**.
 
@@ -73,7 +74,7 @@ In this task, you specify the product characteristics to which the pricing adjus
 
 7.  Test your decision table.
 
-    For more information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://www.servicenow.com/docs/access?context=test-decision-table-in-decision-builder&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+    For more information on testing your decision table before publishing it, see .
 
 8.  In the **Details** tab for the attribute adjustment, select **Publish**.
 

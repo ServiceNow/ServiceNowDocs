@@ -2,6 +2,7 @@
 title: Add a knowledge article link to a post or reply
 description: Use the ID of a knowledge article to post it as a reply to a Live Feed conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/t\_AddKnowledgeArtLinkPostRep.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -27,8 +28,8 @@ Role required: none
 
 2.  When you are finished entering your message, click **Post** or **Reply**.
 
-    ![KB link](../image/KBLink.png "KB link")
+    \[Omitted image "KBLink.png"\] Alt text: KB link
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

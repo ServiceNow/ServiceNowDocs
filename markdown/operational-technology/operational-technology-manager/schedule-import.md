@@ -2,6 +2,7 @@
 title: Schedule the time interval to import data
 description: Schedule the time interval to import the data from the staging table to the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/schedule-import.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -34,5 +35,5 @@ Role required: admin or cmdb\_inst\_admin
     In the staging table, the table cleaner deletes all records that are successfully imported. For more information about table cleaner, see .
 
 
-**Parent Topic:**[Service Graph Connector for Microsoft Excel](../concept/service-graph-connector-for-OT-excel.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)
 

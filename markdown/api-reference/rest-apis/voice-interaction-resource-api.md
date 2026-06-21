@@ -2,6 +2,7 @@
 title: Voice Interaction Resource API
 description: The Voice Interaction API provides endpoints to transcribe and store voice interactions between agents and callers during a telephone conversation. It works in conjunction with Virtual Agent and Live Agent chats.Terminates the specified voice interaction. Once called, no additional voice messages are translated and stored for the phone conversation.Creates a voice interaction record within the Interaction \[interaction\] table.Creates a conversation record within the Conversation \[sys\_cs\_conversation\] table for the specified interaction.Adds the specified voice conversations messages to the specified voice transaction record. These messages are typically generated using third-party vendor software. Currently, only Amazon Connect is supported.Adds messages to an existing voice interaction after a call is completed. You can use this API to attach transcribed messages of a voice call between an agent and caller.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/voice-interaction-resource-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -17,21 +18,21 @@ The Voice Interaction API provides endpoints to transcribe and store voice inter
 
 You can use this API to persist transcribed messages from an on-going phone call in real-time or to transcribe and store an existing voice conversation recording for historical purposes. Transcribed messages appear in Agent Workspace, allowing agents to leverage features such as agent assist and search, while talking to a caller. Transcribed messages are persisted in the Conversation Message \[sys\_cs\_message\] table.
 
-![Transcribed messages in Agent Workspace](../image/vir-agent_workspace.png)
+\[Omitted image "vir-agent\_workspace.png"\] Alt text: Transcribed messages in Agent Workspace
 
 ## Call flow
 
 The following call flow shows how to use the Voice Interaction API to create a voice interaction record, transcribe and store the messages within that voice conversation, and then close the voice conversation record. You can also use business rules and other scripts to perform this functionality, however, this type of implementation is not covered in this section.
 
-1.  First, call the [Voice Interaction Resource - POST /cs/voice-interactions](voice-interaction-resource-api.md#) endpoint to create a voice interaction record in the Interaction \[interaction\] table.
-2.  Then call the [Voice Interaction Resource - POST /cs/voice-interactions/\{interactionId\}/messages](voice-interaction-resource-api.md#) endpoint to store translated messages from the voice conversation into the Conversation Message table. If you are processing a real-time conversation, you should call this endpoint frequently, so that the messages appear in Agent Workspace in a timely manner. When processing a recording for historical purposes, you can pass all messages in a single endpoint call.
-3.  Once you are finished persisting the voice messages, call the [Voice Interaction Resource - PATCH /cs/voice-interactions/\{interactionId\}/state](voice-interaction-resource-api.md#) endpoint to terminate the capture and close the voice interaction record.
+1.  First, call the [Voice Interaction Resource - POST /cs/voice-interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint to create a voice interaction record in the Interaction \[interaction\] table.
+2.  Then call the [Voice Interaction Resource - POST /cs/voice-interactions/\{interactionId\}/messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint to store translated messages from the voice conversation into the Conversation Message table. If you are processing a real-time conversation, you should call this endpoint frequently, so that the messages appear in Agent Workspace in a timely manner. When processing a recording for historical purposes, you can pass all messages in a single endpoint call.
+3.  Once you are finished persisting the voice messages, call the [Voice Interaction Resource - PATCH /cs/voice-interactions/\{interactionId\}/state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint to terminate the capture and close the voice interaction record.
 
 ## Availability
 
 This API is available in the base ServiceNow system. Access is restricted by the ACLs imposed on the Interaction \[interaction\] and Conversation \[sys\_cs\_conversation\] tables.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Voice Interaction Resource - PATCH /cs/voice-interactions/\{interactionId\}/state
 
@@ -67,7 +68,7 @@ interactionId
 
 </td><td>
 
-Sys\_id of the interaction record whose voice interaction to terminate. Located in the Interaction \[interaction\] table and passed back by the [Voice Interaction Resource - POST /cs/voice-interactions](voice-interaction-resource-api.md#) endpoint.Data type: String
+Sys\_id of the interaction record whose voice interaction to terminate. Located in the Interaction \[interaction\] table and passed back by the [Voice Interaction Resource - POST /cs/voice-interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -107,7 +108,7 @@ Required. State of the voice interaction.Only supported value: closed\_complete
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -140,7 +141,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -294,7 +295,7 @@ Required. Phone number of the caller who made the call associated with the voice
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -327,7 +328,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -353,8 +354,8 @@ interactionId
 
 Sys\_id of the newly created voice interaction record. Located in the Interaction \[interaction\] table. Use this sys\_id when:
 
--   Calling the [Voice Interaction Resource - POST /cs/voice-interactions/\{interactionId\}/messages](voice-interaction-resource-api.md#) endpoint to add a message to the voice interaction.
--   Calling the [Voice Interaction Resource - PATCH /cs/voice-interactions/\{interactionId\}/state](voice-interaction-resource-api.md#) endpoint to end the voice interaction.
+-   Calling the [Voice Interaction Resource - POST /cs/voice-interactions/\{interactionId\}/messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint to add a message to the voice interaction.
+-   Calling the [Voice Interaction Resource - PATCH /cs/voice-interactions/\{interactionId\}/state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint to end the voice interaction.
 
  Data type: String
 
@@ -421,7 +422,7 @@ interactionId
 
 </td><td>
 
-Sys\_id of the interaction record for which to create the conversation record. This value is returned by the [Voice Interaction Resource - POST /cs/voice-interactions](voice-interaction-resource-api.md#) endpoint and stored in the Interaction \[interaction\] table.Data type: String
+Sys\_id of the interaction record for which to create the conversation record. This value is returned by the [Voice Interaction Resource - POST /cs/voice-interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint and stored in the Interaction \[interaction\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -491,7 +492,7 @@ Required. Phone number of the caller who made the call associated with the voice
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -524,7 +525,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -600,7 +601,7 @@ interactionId
 
 </td><td>
 
-Sys\_id of the interaction record to add the specified messages to. This value is returned by the [Voice Interaction Resource - POST /cs/voice-interactions](voice-interaction-resource-api.md#) endpoint and stored in the Interaction \[interaction\] table.Data type: String
+Sys\_id of the interaction record to add the specified messages to. This value is returned by the [Voice Interaction Resource - POST /cs/voice-interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint and stored in the Interaction \[interaction\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -782,7 +783,7 @@ Valid values:
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -815,7 +816,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -988,7 +989,7 @@ interactionId
 
 </td><td id="vto-interactionId-REST-entry">
 
-Sys\_id of the interaction record to add the specified messages to. This value is returned by the [Voice Interaction Resource - POST /cs/voice-interactions](voice-interaction-resource-api.md#) endpoint and stored in the Interaction \[interaction\] table.Data type: String
+Sys\_id of the interaction record to add the specified messages to. This value is returned by the [Voice Interaction Resource - POST /cs/voice-interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint and stored in the Interaction \[interaction\] table.Data type: String
 
 </td></tr><tr><td>
 
@@ -1167,7 +1168,7 @@ Valid values:
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1200,7 +1201,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

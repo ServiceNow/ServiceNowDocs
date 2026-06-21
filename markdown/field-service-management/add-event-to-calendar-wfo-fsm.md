@@ -2,7 +2,10 @@
 title: Add events to the team calendar
 description: Create a meeting, training, time-off request, personal, or an ad hoc work event from the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/add-event-to-calendar-wfo-fsm.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -19,13 +22,13 @@ Role required: sn\_shift\_planning.admin
 
 ## About this task
 
-You can create custom event types and add or remove fields. For more information, see [Create event types to display on the team calendar with Workforce Optimization for Field Service](../concept/set-up-scheduling-wfo-fsm.md#).
+You can create custom event types and add or remove fields. For more information, see [Create event types to display on the team calendar with Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/set-up-scheduling-wfo-fsm.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon.](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
 3.  Click the **Team Calendar** tab.
 
@@ -33,15 +36,15 @@ You can create custom event types and add or remove fields. For more information
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d51599e116">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d52411e116">
 
 To
 
-</th><th align="left" id="d51599e119">
+</th><th align="left" id="d52411e119">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d51599e125">
+</th></tr></thead><tbody><tr><td id="d52411e125">
 
 **Create a meeting, training, or time-off request.**
 
@@ -66,7 +69,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d51599e231">
+</td></tr><tr><td id="d52411e231">
 
 **Create a work shift**
 
@@ -83,5 +86,5 @@ In the **Attendees** field, start typing the name of each of the attendees for t
 </table>6.  Click **Save**.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](../concept/scheduling-wfo-fsm.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-wfo-fsm.md)
 

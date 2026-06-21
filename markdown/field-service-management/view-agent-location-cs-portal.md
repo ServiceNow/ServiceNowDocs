@@ -2,7 +2,10 @@
 title: Track the current location of field service agents
 description: View the current location of agents to track their estimated time of arrival.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-agent-location-cs-portal.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -36,5 +39,5 @@ Role required: sn\_customerservice.customer and sn\_customerservice.consumer
     The map refreshes automatically to display the latest location of an agent.
 
 
-**Parent Topic:**[Managing work order tasks from the Customer or Consumer Service Portal](../concept/use-customer-experience.md)
+**Parent Topic:**[Managing work order tasks from the Customer or Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/use-customer-experience.md)
 

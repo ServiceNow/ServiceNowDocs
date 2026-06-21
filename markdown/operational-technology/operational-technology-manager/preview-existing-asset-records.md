@@ -2,6 +2,7 @@
 title: Preview existing OT records in the CMDB
 description: Preview existing Operational Technology \(OT\) device records in the Configuration Management Database \(CMDB\) before you import any new records from the staging table. By previewing existing records, you can avoid reconciling or merging unrelated records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/preview-existing-asset-records.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -38,5 +39,5 @@ If a matching configuration item \(CI\) is in the CMDB when you import OT device
 2.  View the matching CI by selecting it from the Matching CI in the CMDB column.
 
 
-**Parent Topic:**[Configuring Service Graph Connector for Microsoft Excel](../concept/configuring-service-graph-connector-for-excel.md)
+**Parent Topic:**[Configuring Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

@@ -2,6 +2,7 @@
 title: Notification variables
 description: Use notification variables to display dynamic information in the body of a notification such as a field value, a link to a record, or a link to system preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/notification-variables.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -73,7 +74,7 @@ None
 Display a link to the current record.-   **URI**: The link text is the word `LINK`.
 -   **URI\_REF**: The link text is the display value of the record.
 
- **Note:** These variables don't apply to records in Workspace. To link to a record in Workspace, create a mail script that prints a URL to a notification. For more information, see [Linking to a record in Workspace](c_EnablingLinksToServiceNowRecords.md#link-to-workspace-record).
+ **Note:** These variables don't apply to records in Workspace. To link to a record in Workspace, create a mail script that prints a URL to a notification. For more information, see [Linking to a record in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EnablingLinksToServiceNowRecords.md).
 
 </td><td>
 
@@ -214,7 +215,7 @@ $\{`image-field-name`\}
 
 Source: `<img src='${picture}?t=medium'/>`
 
- Output:![notification image variable](../image/apple-watch.png)
+ Output:\[Omitted image "apple-watch.png"\] Alt text: notification image variable
 
 </td></tr><tr><td>
 
@@ -225,11 +226,11 @@ Source: `<img src='${picture}?t=medium'/>`
 
 $\{URI\} Source: `Click here to view incident: ${URI}`
 
- $\{URI\} Output: ![Example that shows how the link text word Link serves as the link to the current record](../image/variable-uri.png)
+ $\{URI\} Output: \[Omitted image "variable-uri.png"\] Alt text: Example that shows how the link text word Link serves as the link to the current record
 
  $\{URI\_REF\} Source: `Click here to view incident: ${URI_REF}`
 
- $\{URI\_REF\} Output: ![Example that shows how the link text displayed is the value of the record](../image/variable-uri-ref.png)
+ $\{URI\_REF\} Output: \[Omitted image "variable-uri-ref.png"\] Alt text: Example that shows how the link text displayed is the value of the record
 
 </td></tr><tr><td>
 
@@ -245,7 +246,7 @@ Click here to view Incident: ${URI_REF}
 Click here to view Related Problem: ${problem_id.URI_REF}
 ```
 
- Output: ![Example that shows a link to a record listed in a reference field](../image/RelatedRecordLink.png)
+ Output: \[Omitted image "RelatedRecordLink.png"\] Alt text: Example that shows a link to a record listed in a reference field
 
 </td></tr><tr><td>
 
@@ -263,9 +264,9 @@ $\{notification:body\}
 
 </td><td rowspan="4">
 
-Source: ![How a variable for the email body works in an email layout.](../image/email-layout-go-to-instance-button.png)
+Source: \[Omitted image "email-layout-go-to-instance-button.png"\] Alt text: How a variable for the email body works in an email layout.
 
- Output:![How the variable for the link to notification preferences works.](../image/email-preview-with-layout.png)
+ Output:\[Omitted image "email-preview-with-layout.png"\] Alt text: How the variable for the link to notification preferences works.
 
 </td></tr><tr><td>
 
@@ -280,5 +281,5 @@ $\{NOTIF\_UNSUB\}
 $\{NOTIF\_PREFS\}
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an email notification](../task/t_CreateANotification.md)
+</table>**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateANotification.md)
 

@@ -2,6 +2,7 @@
 title: Create a metric unit
 description: Define the units in which the metric scores are displayed. The units can be numbers, percentages, currencies, quantities of time, or any other unit that you define. The commonly used units are provided by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/t\_create-a-unit.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

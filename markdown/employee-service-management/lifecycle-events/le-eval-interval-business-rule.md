@@ -2,6 +2,7 @@
 title: View and use the Condition with Event BR \(Demo\) business rule
 description: You can view and use the Condition with Event BR \(Demo\) business rule to trigger an evaluation of your activity set faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/lifecycle-events/le-eval-interval-business-rule.html
 release: xanadu
 product: Lifecycle Events
 classification: lifecycle-events
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Select a case that was created from the New Hire Onboarding \(Demo\) lifecycle event.
 
-3.  Select the Additional actions \(![Additional actions icon](../image/additional-actions-icon.png) icon.
+3.  Select the Additional actions \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon icon.
 
 4.  Select **Configure** and then **Business Rules**.
 
@@ -37,7 +38,7 @@ Role required: admin
 
 6.  Select the **Advanced** tab.
 
-    In the Script field, you can view how this business rule works. It looks for the running flows for the LE/HR case. When it finds the HR Activity Set Trigger Check workflow, it broadcasts the check\_activity\_set\_trigger event to the flow. This is what triggers the evaluation of an activity set faster rather than wait for the value \(default is four hours\) in the **Evaluation interval** field.![Condition with Event BR demo business rule](../image/condition-event-BR-buss-rule.png)
+    In the Script field, you can view how this business rule works. It looks for the running flows for the LE/HR case. When it finds the HR Activity Set Trigger Check workflow, it broadcasts the check\_activity\_set\_trigger event to the flow. This is what triggers the evaluation of an activity set faster rather than wait for the value \(default is four hours\) in the **Evaluation interval** field.\[Omitted image "condition-event-BR-buss-rule.png"\] Alt text: Condition with Event BR demo business rule
 
 7.  When you change the state of the LE/HR case to **Work in Progress**, the activity set triggers.
 
@@ -47,8 +48,8 @@ Role required: admin
 
     The Timer was cancelled when the LE/HR case state was changed to **Work in Progress** and the **check\_activity\_set\_trigger** event was fired.
 
-    ![HR Activity Set Trigger Check workflow](../image/le-case-act-set-trigger-check.png)
+    \[Omitted image "le-case-act-set-trigger-check.png"\] Alt text: HR Activity Set Trigger Check workflow
 
 
-**Parent Topic:**[Lifecycle Events evaluation interval](../concept/le-evaluation-interval1.md)
+**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

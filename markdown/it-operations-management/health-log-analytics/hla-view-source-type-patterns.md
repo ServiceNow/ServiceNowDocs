@@ -2,6 +2,7 @@
 title: Review the patterns extracted from a source type in Health Log Analytics
 description: View all learned patterns extracted from a source type in a source type structure, together with the log sources in which these patterns appeared. Reviewing these patterns can provide valuable insights into the log message patterns that Health Log Analytics tracks for each source type and log source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-view-source-type-patterns.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -37,5 +38,5 @@ Role required: evt\_mgmt\_admin
     |Domain|The domain to which the pattern belongs.|
 
 
-**Parent Topic:**[Set up data inputs for Health Log Analytics manually](hla-data-input-setup-manual.md)
+**Parent Topic:**[Set up data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md)
 

@@ -2,6 +2,7 @@
 title: Localization Framework Roles
 description: Localization Framework uses different roles to manage different aspects of the application.Manage the following aspects of the Localization Framework application.Request translations for all the configured artifacts into one or more languages.Provide translations for the requested artifact items and approve and publishe the translations.Provides the ability for the users to translate the content without the need of a localization task.Owns the localization projects. Adds all the localization requested items to the projects. Only a Localization manager has the authority to start the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/localization-framework/roles-localization-framework.html
 release: xanadu
 product: Localization Framework
 classification: localization-framework
@@ -15,9 +16,9 @@ breadcrumb: [Explore Localization Framework, Localization Framework, Translation
 
 Localization Framework uses different roles to manage different aspects of the application.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Explore Localization Framework](../concept/exploring-localization-framework.md)
+**Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/exploring-localization-framework.md)
 
 ## Localization administrator \[localization\_admin\]
 
@@ -142,5 +143,5 @@ If the Localization Framework Hub and Spoke architecture is set up, the localiza
 -   Localization Framework Hub Translation Request \[sn\_lf\_hub\_translation\_request\]
 -   Localization Framework Hub Translation Item \[sn\_lf\_hub\_translation\_item\]
 
-For more information, see [Localization Framework Hub and Spoke architecture](../concept/localization-framework-hub-spoke-architecture.md)
+For more information, see [Localization Framework Hub and Spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md)
 

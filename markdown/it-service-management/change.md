@@ -2,7 +2,10 @@
 title: Change dashboard
 description: Dashboard providing a view into Change request workflow with metrics around successful and failed Change Request for different Change models and types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change.html
 release: xanadu
+product: IT Service Management
+classification: it-service-management
 topic_type: concept
 last_updated: "2024-09-02"
 reading_time_minutes: 1

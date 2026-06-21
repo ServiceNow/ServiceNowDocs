@@ -2,6 +2,7 @@
 title: Create a JMS activity
 description: Create a custom JMS activity to retrieve or send messages to external systems using the Java Messaging Service.Configure your system to use Java Messaging Service \(JMS\) with a custom Orchestration JMS activity.You use execution parameters to create the input process script in the Preprocessing form.Use these parameters to create a post-processing script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/orchestration/t\_CreateAJMSActivity.html
 release: xanadu
 product: Orchestration
 classification: orchestration
@@ -34,21 +35,21 @@ The JMS activity supports third party JMS providers whose JMS client application
 
 ## Procedure
 
-1.  Create or verify your [JMS credential](https://www.servicenow.com/docs/access?context=r_JMSCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) .
+1.  Create or verify your JMS credential .
 
     Your JMS credentials must have permission for the target database and proper configuration for the corresponding JMS connection. Credentials must be set up before you can create a JMS activity.
 
-2.  Create or verify your [JMS connection](t_CreateAJMSActivity.md#) .
+2.  Create or verify your [JMS connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/t_CreateAJMSActivity.md) .
 
     Your JMS connection must be configured with valid JMS credentials set up before you can create a JMS activity.
 
-3.  Create a [custom activity](https://www.servicenow.com/docs/access?context=create-custom-activities&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+3.  Create a custom activity.
 
     This action creates a custom activity using a template.
 
-4.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the JMS Execution Command.
+4.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/CreateInputVariables.md), configure the JMS Execution Command.
 
-<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d136259e161">
+<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d143663e161">
 
 **Configure your credential**
 
@@ -56,7 +57,7 @@ The JMS activity supports third party JMS providers whose JMS client application
 
 Fill in the fields necessary for your database connection.
 
-</td></tr><tr><td id="d136259e170">
+</td></tr><tr><td id="d143663e170">
 
 **Connection Factory**
 
@@ -64,7 +65,7 @@ Fill in the fields necessary for your database connection.
 
 Name of the JMS Connection Factory. You should create or verify your JMS connection. This configuration links the name of the Initial Context Factory with the URL of the JMS provider.
 
-</td></tr><tr><td id="d136259e179">
+</td></tr><tr><td id="d143663e179">
 
 **Destination Type**
 
@@ -77,7 +78,7 @@ Type of destination used for this message:-   **Queue**: Message is queued for p
 -   **Topic**: Message is used for publish and subscribe communication.
 
 
-</td></tr><tr><td id="d136259e206">
+</td></tr><tr><td id="d143663e206">
 
 **Destination Name**
 
@@ -85,7 +86,7 @@ Type of destination used for this message:-   **Queue**: Message is queued for p
 
 Name of the queue or topic destination that is configured on the JMS provider.
 
-</td></tr><tr><td id="d136259e215">
+</td></tr><tr><td id="d143663e215">
 
 **Message Type**
 
@@ -93,7 +94,7 @@ Name of the queue or topic destination that is configured on the JMS provider.
 
 The JMS message type value. Only the **Text Message** type is supported. The queue or topic destination must be configured to receive or send only Text Message. Other message types are dropped, since the JMS Activity cannot process them.
 
-</td></tr><tr><td id="d136259e228">
+</td></tr><tr><td id="d143663e228">
 
 **Operation**
 
@@ -101,7 +102,7 @@ The JMS message type value. Only the **Text Message** type is supported. The que
 
 The programmatic operation to perform on the destination. The choices are **PUT** or **GET**.
 
-</td></tr><tr><td id="d136259e243">
+</td></tr><tr><td id="d143663e243">
 
 **Timeout \(Secs\)**
 
@@ -109,7 +110,7 @@ The programmatic operation to perform on the destination. The choices are **PUT*
 
 Allowed time to wait for a message in the message queue before it times out, in seconds. The default is **30**.
 
-</td></tr><tr><td id="d136259e255">
+</td></tr><tr><td id="d143663e255">
 
 **Custom message headers**
 
@@ -117,7 +118,7 @@ Allowed time to wait for a message in the message queue before it times out, in 
 
 The custom header values in a name/value pair format, that is available on the JMS destination. **Note:** This is only supported for a **PUT** operation.
 
-</td></tr><tr><td id="d136259e270">
+</td></tr><tr><td id="d143663e270">
 
 **Message payload**
 
@@ -125,7 +126,7 @@ The custom header values in a name/value pair format, that is available on the J
 
 Actual message content or payload that is sent to the JMS destination.**Note:** This is only supported for a **PUT** operation.
 
-</td></tr><tr><td id="d136259e285">
+</td></tr><tr><td id="d143663e285">
 
 **Credential tag**
 
@@ -133,7 +134,7 @@ Actual message content or payload that is sent to the JMS destination.**Note:** 
 
 A tag for an individual credential for a JMS activity in an Orchestration workflow.
 
-</td></tr><tr><td id="d136259e294">
+</td></tr><tr><td id="d143663e294">
 
 **Required MID Server capabilities**
 
@@ -145,10 +146,10 @@ MID Server to use, by capabilities.
 </table>
 ## What to do next
 
--   Use [auto-mapping](automap-output-variable-inputs.md) to generate outputs and parsing rules
--   If you do not use auto-mapping, you can manually [create output variables](t_CreateAnOutputVariable.md#) and [create parsing rules](t_CreateAParsingRule.md#)
+-   Use [auto-mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/automap-output-variable-inputs.md) to generate outputs and parsing rules
+-   If you do not use auto-mapping, you can manually [create output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/t_CreateAnOutputVariable.md) and [create parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/t_CreateAParsingRule.md)
 
-**Parent Topic:**[Orchestration custom activity templates](../concept/c_ActivityDesignerComponents.md)
+**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_ActivityDesignerComponents.md)
 
 ## Create a JMS connection for an Orchestration activity
 
@@ -168,7 +169,7 @@ The MID Server must have the correct JMS connection factories for your organizat
 
 2.  Click **New** and add.
 
-<table id="choicetable_yqs_2c4_5y"><tbody><tr><td id="d136259e456">
+<table id="choicetable_yqs_2c4_5y"><tbody><tr><td id="d143663e456">
 
 **Name**
 
@@ -176,7 +177,7 @@ The MID Server must have the correct JMS connection factories for your organizat
 
 A unique and descriptive name for identifying the file in the instance.
 
-</td></tr><tr><td id="d136259e465">
+</td></tr><tr><td id="d143663e465">
 
 **Version**
 
@@ -184,7 +185,7 @@ A unique and descriptive name for identifying the file in the instance.
 
 A version number for the file, if one is available.
 
-</td></tr><tr><td id="d136259e474">
+</td></tr><tr><td id="d143663e474">
 
 **Source**
 
@@ -192,7 +193,7 @@ A version number for the file, if one is available.
 
 Location of the JAR file for reference purposes. Source information is not used by the system.
 
-</td></tr><tr><td id="d136259e483">
+</td></tr><tr><td id="d143663e483">
 
 **Description**
 
@@ -209,7 +210,7 @@ Short description of the JAR file and its purpose in the instance.
 
 5.  Click **New**, add the following, and click **Submit**.
 
-<table id="choicetable_gqc_pd4_5y"><tbody><tr><td id="d136259e537">
+<table id="choicetable_gqc_pd4_5y"><tbody><tr><td id="d143663e537">
 
 **Name**
 
@@ -217,7 +218,7 @@ Short description of the JAR file and its purpose in the instance.
 
 Unique name of this connection factory.
 
-</td></tr><tr><td id="d136259e546">
+</td></tr><tr><td id="d143663e546">
 
 **Initial Context Factory**
 
@@ -225,7 +226,7 @@ Unique name of this connection factory.
 
 Name of the JNDI class that is used to create the InitialContext. **Note:** For example, to connect to ActiveMQ V5.10 \(JMS Provider\), the value is `org.apache.activemq.jndi.ActiveMQInitialContextFactory`.
 
-</td></tr><tr><td id="d136259e561">
+</td></tr><tr><td id="d143663e561">
 
 **Provider URL**
 
@@ -238,7 +239,7 @@ Location of the running JMS provider installation. **Note:** For example, to con
 
 7.  Click **New**, select **JMS Credentials**, and provide the user name and password the MID should use to communicate with the JMS provider.
 
-    For more information, see [JMS credentials](https://www.servicenow.com/docs/access?context=r_JMSCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) [JMS credentials](https://www.servicenow.com/docs/access?context=r_JMSCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    For more information, see JMS credentials JMS credentials.
 
 8.  Click **Submit**.
 
@@ -441,7 +442,7 @@ Array of hashmap
 
 </td><td>
 
-Capability values used to select the MID Server. For more information, see [MID Server capabilities](../../../product/mid-server/reference/r_MIDServerCapabilities.md). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
+Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
 var valueCapability = {'NEW_MID_CAPABIILTY':'NEW_MID_CAPABILITY_VALUE'};
 executionParam.valueCapabilities.push(valueCapability);
 ```

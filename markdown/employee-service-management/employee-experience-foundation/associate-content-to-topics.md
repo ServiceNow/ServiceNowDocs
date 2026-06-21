@@ -2,6 +2,7 @@
 title: Associate connected content to a topic
 description: Associate all existing and new content to the cloned taxonomy topics. You can add catalog items, knowledge bases, and quick links to the topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/associate-content-to-topics.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,12 +28,12 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields and description, see [Connected Content form](../reference/connected-content-form.md).
+    For more information on the fields and description, see [Connected Content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/connected-content-form.md).
 
 4.  Click **Submit**.
 
 
 ## What to do next
 
-For more information, see [Taxonomy and connected content](../concept/track-new-content.md#).
+For more information, see [Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/track-new-content.md).
 

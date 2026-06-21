@@ -2,6 +2,7 @@
 title: Components installed with Knowledge Management Core
 description: Several types of components are installed with activation of the Knowledge Management Core plugin \(com.glideapp.knowledge\) including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/Installed-with-km-core.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -15,7 +16,7 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 Several types of components are installed with activation of the Knowledge Management Core plugin \(com.glideapp.knowledge\) including user roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available.
 
@@ -233,5 +234,5 @@ Knowledge Applied to Tasks\[m2m\_kb\_task\]
 Stores information about articles attached to tasks \(incident, case, or problem\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Knowledge Management reference](../../../knowledge-management-reference.md)
+</table>**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

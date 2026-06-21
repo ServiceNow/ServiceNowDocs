@@ -2,6 +2,7 @@
 title: Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Use inputs for each skill to configure how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.html
 release: xanadu
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

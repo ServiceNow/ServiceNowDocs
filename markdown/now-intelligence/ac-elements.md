@@ -2,6 +2,7 @@
 title: Platform Analytics dashboard overview
 description: Platform Analytics dashboards have a shared layout of data, utilities, and controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/ac-elements.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -17,12 +18,12 @@ Platform Analytics dashboards have a shared layout of data, utilities, and contr
 
 When the dashboard is being viewed, rather than edited, it has the following components.
 
-![Section of a dashboard with each of its components numbered. The explanation of each number is in the list that follows.](../../par-for-workspace/image/inline-db-components.png)
+\[Omitted image "inline-db-components.png"\] Alt text: Section of a dashboard with each of its components numbered. The explanation of each number is in the list that follows.
 
 1.  Dashboard title
 2.  Refresh information
 
-    Indicates how long ago the dashboard was refreshed. Admins can configure refresh intervals. For more information, see [Configure Platform Analytics dashboard settings](../task/configure-ac-db-settings.md#).
+    Indicates how long ago the dashboard was refreshed. Admins can configure refresh intervals. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/configure-ac-db-settings.md).
 
 3.  Certification badge.
 
@@ -34,11 +35,11 @@ When the dashboard is being viewed, rather than edited, it has the following com
 
 5.  Details button
 
-    Select to show ownership and sharing information about the dashboard. To learn more, see [Configure Platform Analytics dashboard details](../task/config-db-in-ac.md).
+    Select to show ownership and sharing information about the dashboard. To learn more, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/config-db-in-ac.md).
 
 6.  Insights button
 
-    Shows configured insights cards. For more information, see [Proactive analytics insights on dashboards](../../par-for-workspace/concept/proactive-analytics.md).
+    Shows configured insights cards. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/proactive-analytics/proactive-analytics.md).
 
 7.  Edit button
 
@@ -61,7 +62,7 @@ When the dashboard is being viewed, rather than edited, it has the following com
 
 Dashboards contain a combination of visual elements to show data.
 
-![Untitled dashboard with the Add new element menu expanded to show elements you can add to the dashboard](../../par-for-workspace/image/inline-db-elements.png)
+\[Omitted image "inline-db-elements.png"\] Alt text: Untitled dashboard with the Add new element menu expanded to show elements you can add to the dashboard
 
 -   **[Data visualization](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/sn-par-visualization-base/usage)**
 

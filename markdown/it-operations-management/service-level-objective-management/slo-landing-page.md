@@ -2,6 +2,7 @@
 title: Service Level Objective Management
 description: Service Level Objective Management \(SLO Management\) helps your organisation define, track, and meet agreed-upon service quality standards. It works in conjunction with Service Level Agreements \(SLAs\) to ensure service delivery meets customer expectations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-level-objective-management/slo-landing-page.html
 release: xanadu
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -35,11 +36,11 @@ Service Level Objective Management \(SLO Management\) helps your organisation de
 
 <table id="table_b4x_psb_4bc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Service Level Objective Management concepts and features.](../concept/exploring-service-level-objective-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Service Level Objective Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/exploring-service-level-objective-management.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-investor-relations-2.svg)Using Service Level Objective Management](../task/using-service-level-objective-management.md)
+[Use\[Omitted image "bus-investor-relations-2.svg"\] Alt text:Using Service Level Objective Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

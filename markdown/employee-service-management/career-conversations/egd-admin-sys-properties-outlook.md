@@ -2,6 +2,7 @@
 title: Set system properties for Microsoft Outlook integration
 description: Use system properties to enable integration between Career Conversations and Microsoft Outlook so you can simultaneously create and schedule conversations with the Career Conversations app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/career-conversations/egd-admin-sys-properties-outlook.html
 release: xanadu
 product: Career Conversations
 classification: career-conversations
@@ -41,5 +42,5 @@ Role required: admin \[sn\_egd\_act.admin\]
     **Important:** Select **Update** to save the values you defined for each of the previously mentioned system properties.
 
 
-**Parent Topic:**[Administer and maintain Career Conversations](../concept/egd-activities-administration.md)
+**Parent Topic:**[Administer and maintain Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/career-conversations/egd-activities-administration.md)
 

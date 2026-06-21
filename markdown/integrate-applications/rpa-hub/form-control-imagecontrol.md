@@ -2,6 +2,7 @@
 title: Methods and events of the ImageControl element
 description: The ImageControl element in RPA Desktop Design Studio enables you to display images in a form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/form-control-imagecontrol.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -83,5 +84,5 @@ The methods and events of the ImageControl element are displayed in the Object E
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/form-control-methods-events.md)
 

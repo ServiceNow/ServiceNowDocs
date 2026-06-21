@@ -2,6 +2,7 @@
 title: Setup personal authentication mode OAuth connectivity with Microsoft Exchange Online
 description: Create a personal authentication mode application registry for Microsoft Exchange Online with ServiceNow instance for OAuth authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/setup-personal-auth-mode-oauth-connectivity-with-msex.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -17,11 +18,11 @@ Create a personal authentication mode application registry for Microsoft Exchang
 
 ## Before you begin
 
-[Configure Microsoft Azure](configure-azure-personal-auth-mode.md)
+[Configure Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/configure-azure-personal-auth-mode.md)
 
 Ensure that the application scope is set to **Workplace Calendar Synchronization**. Otherwise, do the following:
 
-1.  Select the Application scope icon \(![Application scope to set the scope of your application.](../image/application-scope-globe-icon.png)\) on the Employee Center home page.
+1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope to set the scope of your application.\) on the Employee Center home page.
 2.  In the drop- down, select the option consisting **Application scope:**.
 3.  In the filter navigator, search and select **Workplace Calendar Synchronization**.
 4.  Refresh the page.
@@ -65,5 +66,5 @@ Role required: admin
 
 The OAuth registration is added for Microsoft Exchange Online with personal authentication mode OAuth entity profiles and OAuth entity scopes.
 
-**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](../concept/personal-auth-mode-connection-with-msex.md)
+**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
 

@@ -2,6 +2,7 @@
 title: Configure Agent Chat for Source-to-Pay Workspace
 description: Use Agent Chat Settings to configure Agent Chat for Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/configure-agent-chat-spo.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -29,10 +30,10 @@ Role required: admin
 
     The Quick Action Toolbar Controls is displayed.
 
-    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see [Setting up quick action toolbar controls](https://www.servicenow.com/docs/access?context=ci-quick-actions-overview&version=xanadu&pubname=xanadu-conversational-interfaces&section=ac-configure-qa-toolbar-controls&ft:locale=en-US).
+    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see .
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Setting up Advanced Work Assignment for Source-to-Pay Operations](../concept/awa-spo-setup.md)
+**Parent Topic:**[Setting up Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo-setup.md)
 

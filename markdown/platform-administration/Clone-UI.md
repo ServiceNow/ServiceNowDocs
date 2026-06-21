@@ -2,6 +2,7 @@
 title: Clone Admin Console
 description: The Clone Admin Console provides a streamlined experience and enhanced visibility for cloning data between instances. You’ll find your existing clone profiles, exclusions, preservers, and scripts within the new console. It has added guidance on the clone request page, an on-demand backup option, and provides more visibility into clone progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/Clone-UI.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-03-25"
@@ -17,7 +18,7 @@ Clone Admin Console overview video
 
 ## Cloning
 
-Clone copies data and metadata from one ServiceNow instance \(source instance\) to another ServiceNow instance \(target instance\). Cloning is typically used to copy the data and metadata from a production instance to a non-production instance to test changes. Cloning data comes from the most recent, daily backup. To learn more about clone, see [System clone](c_SystemClone.md).
+Clone copies data and metadata from one ServiceNow instance \(source instance\) to another ServiceNow instance \(target instance\). Cloning is typically used to copy the data and metadata from a production instance to a non-production instance to test changes. Cloning data comes from the most recent, daily backup. To learn more about clone, see [System clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_SystemClone.md).
 
 ## Notes regarding the Clone Admin Console
 
@@ -57,7 +58,7 @@ The **Overview** tab displays the current number of **Clone instances** and **Cl
 
 On the **Clone instances** tab, you can view all currently available clone instances. Once you add an instance to this list, you can use it as a clone source or clone target for your clones. To add your non-production instance to your clone instances list, select **New**.
 
-The **Clone profiles** tab displays all of your available **Clone profiles**. You can think of clone profiles as templates for clone, which you can customize, save and reuse to achieve consistent outcomes with each of your clones. To learn more about Clone Profiles see [Clone profiles for clone requests](../reference/system-profile-clone.md).
+The **Clone profiles** tab displays all of your available **Clone profiles**. You can think of clone profiles as templates for clone, which you can customize, save and reuse to achieve consistent outcomes with each of your clones. To learn more about Clone Profiles see [Clone profiles for clone requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/system-profile-clone.md).
 
 **Note:** The profile **System Profile** is available out-of-the-box and can't be modified.
 
@@ -83,7 +84,7 @@ The **Preservers** tab displays a list of all of your available data preservers.
 
 **Note:** Child tables must be individually preserved.
 
-To create a preserver see [Create new clone preserver](../task/create-new-clone-preserver.md).
+To create a preserver see [Create new clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-new-clone-preserver.md).
 
 Importance of saving your in-flight dev work. During a clone, in-progress development work is over-written \(for example work-in-progress update sets, scoped apps which only exist on the target instance but not on the source instance\). If you have in-progress update sets, you must export them prior to the clone and reimport them after the clone is finished. If you have custom applications which are not yet deployed to production, you must install the respective plugins or apps after the clone is completed. To learn more about clone and app development best practices, see Whitepaper [here](https://learning.servicenow.com/nowcreate/en?id=nc_asset&asset_id=ce3c254697cc82d06eedb30e6253af3b&nc_source=copy_asset_link).
 
@@ -103,11 +104,11 @@ Tip for dealing with large quantities of in-progress updates sets:
 10. Back on your target instance, you can set the parent update set back to work in progress, and unparent it.
 11. On the source instance: Retrieved parent update set can now be cleaned up \(i.e. deleted\).
 
-The **Cleanup scripts** tab displays a list of all of your available scripts. You can write cleanup scripts to automate post-clone steps. To create a cleanup script see [Create cleanup scripts](../task/create-cleanup-script.md).
+The **Cleanup scripts** tab displays a list of all of your available scripts. You can write cleanup scripts to automate post-clone steps. To create a cleanup script see [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-cleanup-script.md).
 
 ## Request clone
 
 The app features a clone request page, with guidance and explanations for how the various clone settings affect your clone. The new request page also features a new scheduling calendar to help to prevent timing conflicts with ServiceNow maintenance windows.
 
-To learn more about how to request a clone see [Request a clone in the Clone Admin Console](../task/clone-ui-request-clone.md).
+To learn more about how to request a clone see [Request a clone in the Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/clone-ui-request-clone.md).
 

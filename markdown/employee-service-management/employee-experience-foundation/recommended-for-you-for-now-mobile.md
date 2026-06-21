@@ -2,6 +2,7 @@
 title: Recommended for you in Now Mobile
 description: Recommended for you section is available on Now Mobile app, providing quick access to the section through mobile bringing in more flexibility of usage for customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/recommended-for-you-for-now-mobile.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Recommended for you for Now Mobile app lets the user easily access relevant item
 
 By default, top five recommendations are visible on the widget, at once. The widget gives the user a preview of a knowledge article, showing the title, description, and the time-lapsed since it was added to the recommendations. Similarly, the catalog items show the description and the price of the product, if any.
 
-Also, there is a **Favorite** icon available to [add a card to your favorite list](emp-center-mobile-exp.md).
+Also, there is a **Favorite** icon available to [add a card to your favorite list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/emp-center-mobile-exp.md).
 
 The article or the catalog item opens in a Mobile Employee Service Portal \(MESP\) view when a user clicks any recommendation.
 
@@ -33,7 +34,7 @@ The Employee Center Core application must be upgraded to the latest version of S
 
 The default validity of the recommendations is for six months on the Now Mobile app.
 
-For more information on configuring Recommended for you, see [Recommended for you](rfy-ec.md).
+For more information on configuring Recommended for you, see [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/rfy-ec.md).
 
-**Parent Topic:**[Exploring Employee Center](explore-emp-center.md)
+**Parent Topic:**[Exploring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/explore-emp-center.md)
 

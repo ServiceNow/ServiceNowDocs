@@ -2,6 +2,7 @@
 title: Work Scheduler components in Workforce Optimization for Customer Service reference
 description: Workforce Optimization for ITSM has properties to configure the Work scheduler default behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/work-scheduler-wfo-cs-reference.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -74,5 +75,5 @@ Defines which users are shown in Work scheduler when suggestions are enabled and
 -   **Default value**: 0
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Workforce Optimization for Customer Service](../concept/setup-configurable-wfo-cs.md)
+</table>**Parent Topic:**[Configuring Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-configurable-wfo-cs.md)
 

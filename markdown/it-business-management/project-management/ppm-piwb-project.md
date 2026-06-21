@@ -2,6 +2,7 @@
 title: PPM PIWB template - Find similar projects
 description: Use a guided template that walks you through training the Similar Projects solution definition for finding similar projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/ppm-piwb-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -37,6 +38,6 @@ Role required: piwb\_manager
 
     Configure or train the **Similarity** solution for finding similar projects.
 
-    -   To configure the Similar Projects solution definition \(ml\_sn\_global\_global\_similar\_projects\), click **Configure**. For more information, see [Train the similarity solution for Project Management to find similar projects](../../project-management/task/train-similarity-solution-pm.md).
+    -   To configure the Similar Projects solution definition \(ml\_sn\_global\_global\_similar\_projects\), click **Configure**. For more information, see [Train the similarity solution for Project Management to find similar projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/train-similarity-solution-pm.md).
     -   To train the Similar Projects solution definition \(ml\_sn\_global\_global\_similar\_projects\), click **Train**.
 

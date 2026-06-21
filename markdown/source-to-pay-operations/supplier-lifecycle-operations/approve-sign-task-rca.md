@@ -2,6 +2,7 @@
 title: Approve application restricted caller access privileges for Sign document supplier task type
 description: Approve restricted caller access \(RCA\) privileges after you create a supplier task of action type Sign document for the very first time so that you can create and use subsequent Sign document supplier tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -40,5 +41,5 @@ Approving RCAs is a one-time activity.
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configure the document template for the Sign document action type for supplier task](configure-pdf-template-sign-doc-task.md)
+**Parent Topic:**[Configure the document template for the Sign document action type for supplier task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

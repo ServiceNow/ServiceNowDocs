@@ -2,6 +2,7 @@
 title: Using push-based Discovery and horizontal IP-based Discovery together
 description: Discovery performed by ACC-V is compatible and can coexist with horizontal IP-based Discovery. You may have ACC installed on a given target host and still have that host as part of a horizontal IP-based Discovery schedule as well.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/using-enhanced-discovery-and-agent-less-discovery-together.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -15,7 +16,7 @@ breadcrumb: [Using Agent Client Collector for Visibility, Agent Client Collector
 
 Discovery performed by ACC-V is compatible and can coexist with horizontal IP-based Discovery. You may have ACC installed on a given target host and still have that host as part of a horizontal IP-based Discovery schedule as well.
 
-To avoid conflicts, ACC-V does not perform Discovery when the target host’s IP already has a CI that has been discovered by horizontal IP-based Discovery \(discovery\_source is ServiceNow\). To override this behavior, set the system property \[**sn\_agent.disco\_disable\_ci\_clobber\_of\_agentless\_disco**\] to false. This setting is ignored if horizontal IP-based Discovery was not performed over a specific time. Update the system property \[**sn\_agent.disco\_ci\_clobber\_of\_agentless\_disco\_threshold\_days**\] if necessary. The default is 14 days. See [System properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) for more details.
+To avoid conflicts, ACC-V does not perform Discovery when the target host’s IP already has a CI that has been discovered by horizontal IP-based Discovery \(discovery\_source is ServiceNow\). To override this behavior, set the system property \[**sn\_agent.disco\_disable\_ci\_clobber\_of\_agentless\_disco**\] to false. This setting is ignored if horizontal IP-based Discovery was not performed over a specific time. Update the system property \[**sn\_agent.disco\_ci\_clobber\_of\_agentless\_disco\_threshold\_days**\] if necessary. The default is 14 days. See System properties for more details.
 
 To enable Discovery using Agent Client Collector, enable the following Discovery properties on the Discovery properties page \(**All** &gt; **Discovery Definition** &gt; **Properties**\):
 
@@ -48,5 +49,5 @@ Enables cleanup for software’s name and version. If set to **true**, it remove
  **Note:** Once the property is set to **false**, to disable the cleanup, duplicate records are generated for a given software. Name and Version are the primary identifiers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Agent Client Collector for Visibility](acc-v-using-agent-client-collector-for-visibility.md)
+</table>**Parent Topic:**[Using Agent Client Collector for Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
 

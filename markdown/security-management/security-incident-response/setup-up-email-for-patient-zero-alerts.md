@@ -2,6 +2,7 @@
 title: Set up email alerts for Patient 0 events
 description: Configure Zscaler Internet Access product to identify and scan for unknown, potentially malicious files, such as Patient 0 events so that you can protect your network from malicious files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/setup-up-email-for-patient-zero-alerts.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -29,19 +30,19 @@ Patient O is an alert class that includes an unknown file that has been permitte
 
 2.  In the Inbound Email Configuration section, select the **Email receiving enabled** option.
 
-    ![Configuring inbound email.](../image/zscaler-inbound-email-config.png "Inbound email configuration")
+    \[Omitted image "zscaler-inbound-email-config.png"\] Alt text: Configuring inbound email.
 
 3.  Click **Save**.
 
 4.  Navigate to **System Mailboxes** &gt; **Administration** &gt; **Email Accounts**.
 
-    ![ServiceNow AI Platform SMTP email account.](../image/zscaler-smtp-email-account.png)
+    \[Omitted image "zscaler-smtp-email-account.png"\] Alt text: ServiceNow AI Platform SMTP email account.
 
 5.  Select the **ServiceNow SMTP** email account.
 
     Note the user name. The user name that is identified here is the ServiceNow AI Platform email address that you use to configure in Zscaler for Patient 0 alerts.
 
-    ![User name for the ServiceNow AI Platform SMTP account.](../image/zscaler-user-name.png "User name for the ServiceNow AI Platform SMTP account")
+    \[Omitted image "zscaler-user-name.png"\] Alt text: User name for the ServiceNow AI Platform SMTP account.
 
 6.  Log in to the Zscaler Internet Access administration portal.
 

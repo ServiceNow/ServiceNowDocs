@@ -2,7 +2,10 @@
 title: Configure notification, approval, and survey for your portal header
 description: Display menu items like notification, approval, and survey on your portal header.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-config-notification-approval-surveys.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -25,7 +28,7 @@ Role required: sp\_admin or admin
 
 2.  On the Service Portal page, search and select `Customer Support` in the Title column.
 
-3.  On the Customer Support page, in the **Main menu** field, select the Preview this record icon \(![Preview this record](../image/preview-record.png)\).
+3.  On the Customer Support page, in the **Main menu** field, select the Preview this record icon \(\[Omitted image "preview-record.png"\] Alt text: Preview this record\).
 
 4.  Select **Open Record** on the Instance with Menu pop-up window.
 

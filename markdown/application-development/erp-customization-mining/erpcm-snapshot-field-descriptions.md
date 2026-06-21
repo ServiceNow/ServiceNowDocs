@@ -2,6 +2,7 @@
 title: ERP Customization Mining snapshot field descriptions
 description: The snapshot list in ERP Customization Mining \(ERP-CM\) displays information about import and export snapshots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-snapshot-field-descriptions.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -26,5 +27,5 @@ The snapshot features is available starting in Xanadu Store Release 2.
 |Created by|User that created the snapshot.|
 |Updated|Date and time the snapshot was most recently updated.|
 
-**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

@@ -2,6 +2,7 @@
 title: Create a supplier case
 description: As a procurement specialist, with an additional supplier role of sn\_supplier.fulfiller, create a supplier case from the list view of Source-to-Pay Workspace to address your supplier-related business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier-case.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -56,5 +57,5 @@ Role required: sn\_shop.procurement\_specialist
 7.  Select **Save**.
 
 
-**Parent Topic:**[Source-to-Pay Workspace](../concept/procurement-specialist-workspace.md)
+**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/procurement-specialist-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Summarize action
 description: Use the Summarize action with Workflow Studio to summarize information with the AI model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/summarize-action.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller

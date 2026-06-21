@@ -2,6 +2,7 @@
 title: Execute an update set scan
 description: Use update set scan to execute applicable checks against records that are affected by the update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-execute-update-set-scan.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan

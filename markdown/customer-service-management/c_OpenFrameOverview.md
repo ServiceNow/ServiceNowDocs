@@ -2,7 +2,10 @@
 title: OpenFrame overview
 description: OpenFrame provides a communication frame that customer service agents use to place and receive customer calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/c\_OpenFrameOverview.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -39,7 +42,7 @@ OpenFrame includes these components:
 **Note:**
 
 -   To stay current with reference to the OpenFrame library, use the following resource URI: `https://[servicenow instance]/scripts/openframe/latest/openFrameAPI.min.js`.
--   To integrate softphone into the ServiceNow AI Platform using OpenFrame, add the third-party URLs of telephony services in the following property: **glide.ui.concourse.onmessage\_enforce\_same\_origin\_whitelist**. For more information see, [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US), and Enable URL allow list for cross-origin iframe communication in Instance Security Hardening Settings.
+-   To integrate softphone into the ServiceNow AI Platform using OpenFrame, add the third-party URLs of telephony services in the following property: **glide.ui.concourse.onmessage\_enforce\_same\_origin\_whitelist**. For more information see, Available system properties, and Enable URL allow list for cross-origin iframe communication in Instance Security Hardening Settings.
 
 ## Using the OpenFrame window
 
@@ -78,7 +81,7 @@ In Agent Workspace, click the phone icon:
 
 -   In the banner frame.
 -   Next to the **Contact** or **Consumer** fields on the Case form.
- With the admin role, you can configure the phone icon. For more information, see [CTI integration with the Case form](c_CTIIntegrationWithTheCaseForm.md#).
+ With the admin role, you can configure the phone icon. For more information, see [CTI integration with the Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/c_CTIIntegrationWithTheCaseForm.md).
 
 </td></tr><tr><td>
 
@@ -121,5 +124,5 @@ With the admin role, you can create or modify an OpenFrame configuration. This c
 **Related topics**  
 
 
-[openFrameAPI - Client](https://www.servicenow.com/docs/access?context=c_openFrameAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+[bundle-crapiref.c_openFrameAPI]
 

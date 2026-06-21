@@ -2,6 +2,7 @@
 title: Use schedule flows in Oracle EBS
 description: Use the schedule flows to retrieve information from Oracle EBS, including invoices, cost centers, product models, payment terms, purchasing organizations, departments, GL accounts, currencies, FX rates, invoice payment details, suppliers, plant addresses, and legal entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-integration-framework/using-schedule-flows-oracle-ebs.html
 release: xanadu
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -60,12 +61,12 @@ The Accounts Payable Operations Integration with Oracle EBS supports the followi
 |----|-----------|
 |Create AP invoice|Creates AP invoice in Oracle EBS.|
 
--   **[Manually trigger flows or subflows in Oracle EBS \(Inbound\)](../task/manually-trigger-subflows-oracle-ebs.md)**  
+-   **[Manually trigger flows or subflows in Oracle EBS \(Inbound\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)**  
 You can manually trigger flows or subflows in Oracle EBS on demand. Follow these steps to manually trigger a flow or subflow.
--   **[Use a flow or subflow in Oracle EBS \(Outbound\)](../task/use-flow-or-subflow-oracle-ebs.md)**  
+-   **[Use a flow or subflow in Oracle EBS \(Outbound\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/use-flow-or-subflow-oracle-ebs.md)**  
 A flow or subflow can be executed in Oracle EBS using the Workflow Studio. Follow these steps to run a flow or subflow.
--   **[Copy a flow or subflow in Oracle EBs](../task/copy-flow-or-subflow-oracle-ebs.md)**  
+-   **[Copy a flow or subflow in Oracle EBs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/copy-flow-or-subflow-oracle-ebs.md)**  
 You can create a copy of the a flow or subflow and make the necessary modifications. Use the following steps to activate a flow or subflow.
 
-**Parent Topic:**[Using Source-to-Pay integration with Oracle EBS](using-source-to-pay-oracle-ebs-integration.md)
+**Parent Topic:**[Using Source-to-Pay integration with Oracle EBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/using-source-to-pay-oracle-ebs-integration.md)
 

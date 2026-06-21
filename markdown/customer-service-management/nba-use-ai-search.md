@@ -2,7 +2,10 @@
 title: Use AI search in Recommended Actions to resolve cases
 description: As an agent, use AI search in Recommended Actions to help address customer issues and resolve cases quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/nba-use-ai-search.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -23,13 +26,13 @@ Role required: sn\_nb\_action.next\_best\_action\_user
 
 2.  Open the customer service record.
 
-3.  Select the Recommended Actions icon \(![Recommended Actions icon.](../image/nba-icon.png)\) in the Contextual Side Panel.
+3.  Select the Recommended Actions icon \(\[Omitted image "nba-icon.png"\] Alt text: Recommended Actions icon.\) in the Contextual Side Panel.
 
 4.  Select the **AI search** tab.
 
 5.  In the **Search bar** field, enter your search query.
 
-6.  Select the Search icon \(![Search icon](../image/search_icon.png)\) or press Enter.
+6.  Select the Search icon \(\[Omitted image "search\_icon.png"\] Alt text: Search icon\) or press Enter.
 
     The AI search results or genius results or both are displayed as cards.
 

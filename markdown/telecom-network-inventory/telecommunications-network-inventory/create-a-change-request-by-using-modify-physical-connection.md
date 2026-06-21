@@ -2,6 +2,7 @@
 title: Create a change request by using modify physical connection
 description: Added as per STRY55846126 - DOC1078400Create a change request using modify physical connection endpoints model to modify a physical connection and it's details using Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-network-inventory/telecommunications-network-inventory/create-a-change-request-by-using-modify-physical-connection.html
 release: xanadu
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -23,7 +24,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Changes** &gt; **All**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Changes** &gt; **All**.
 
 3.  Select the **New** button.
 
@@ -31,11 +32,11 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 5.  On the form, fill in the fields.
 
-    To learn more, see [Change request and change task forms](../concept/change_request_forms.md).
+    To learn more, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 6.  Select **Submit**.
 
-    A new change request is created. Further, a change task is automatically created and other related tabs appear. To learn more, see [Change request related tabs](../reference/tni-change-request-related-tabs.md)
+    A new change request is created. Further, a change task is automatically created and other related tabs appear. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)
 
 7.  Select **Change Tasks** tab.
 
@@ -43,7 +44,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 9.  On the Task Attributes form, update the physical connection endpoints and details, as required.
 
-    For a description of the field values, see [Change request and change task forms](../concept/change_request_forms.md).
+    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 10. Select **Submit**.
 
@@ -54,5 +55,5 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 12. Select **Save**.
 
 
-**Parent Topic:**[Create a change request from Network Inventory Workspace](create_a_change_request_in_tni.md)
+**Parent Topic:**[Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md)
 

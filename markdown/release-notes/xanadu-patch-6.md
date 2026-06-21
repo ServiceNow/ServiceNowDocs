@@ -2,6 +2,7 @@
 title: Xanadu Patch 6
 description: The Xanadu Patch 6 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-patch-6.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-02-13"
@@ -29,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Xanadu Patch 6 includes 151 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-xp6.png "Top 10 problem categories")
+\[Omitted image "prb-chart-xp6.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -37,7 +38,7 @@ Xanadu Patch 6 includes fixes for security-related problems that affected certai
 
 ## Changes in Xanadu Patch 6
 
--   **[Hyperautomation and low-code](https://www.servicenow.com/docs/access?context=hyperautomation-low-code-landing-page&version=xanadu&pubname=xanadu-hyperautomation-low-code&ft:locale=en-US)**
+-   ****
 
     The External Content Connectors ServiceNow® Store application enables AI Search applications to search content and metadata from supported external data repositories, such as Atlassian Confluence Cloud and Microsoft SharePoint Online
 
@@ -2395,15 +2396,15 @@ Mobile users with SSO logins are logged out with Zero Trust Access \(ZTA\) mobil
 </td></tr></tbody>
 </table>## Fixes included
 
--   [Xanadu Patch 5 Hotfix 1](xanadu-patch-5-hf-1-PO.md)
--   [Xanadu Patch 5](xanadu-patch-5.md)
+-   [Xanadu Patch 5 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-5-hf-1-PO.md)
+-   [Xanadu Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-5.md)
 -   [Xanadu Patch 4a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1774457)
--   [Xanadu Patch 4](xanadu-patch-4.md)
--   [Xanadu Patch 3](xanadu-patch-3.md)
--   [Xanadu Patch 2](xanadu-patch-2.md)
--   [Xanadu Patch 1](xanadu-patch-1.md)
--   [Xanadu security and notable fixes](xanadu-security-notables.md)
--   [All other Xanadu fixes](xanadu-all-other-fixes.md)
+-   [Xanadu Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-4.md)
+-   [Xanadu Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-3.md)
+-   [Xanadu Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-2.md)
+-   [Xanadu Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1.md)
+-   [Xanadu security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-security-notables.md)
+-   [All other Xanadu fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/available-versions.md)
 

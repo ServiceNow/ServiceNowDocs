@@ -2,7 +2,10 @@
 title: Mobile Executive Experience
 description: The mobile Impact Executive Experience allows customer executives to access Impact from anywhere on their mobile browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/impact-mobile.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

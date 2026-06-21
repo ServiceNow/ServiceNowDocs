@@ -2,6 +2,7 @@
 title: Use the script editor to format correlation event values for ArcSight ESM integration
 description: In addition to the directly mapped fields from the ingested correlation event values, use the script editor to format field values on the security incident during the mapping step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/arcsight-esm-create-profile-script.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

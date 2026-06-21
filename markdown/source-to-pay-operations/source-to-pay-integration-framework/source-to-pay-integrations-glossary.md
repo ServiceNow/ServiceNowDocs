@@ -2,6 +2,7 @@
 title: Source-to-Pay Integrations glossary
 description: Learn about the terms and concepts used in Source-to-Pay \(S2P\) integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.html
 release: xanadu
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -18,9 +19,9 @@ Learn about the terms and concepts used in Source-to-Pay \(S2P\) integrations.
 
 Glossary terms are grouped alphabetically.
 
-[A](source-to-pay-integrations-glossary.md#) \| [C](source-to-pay-integrations-glossary.md#) \| [D](source-to-pay-integrations-glossary.md#) \| [E](source-to-pay-integrations-glossary.md#) \| [I](source-to-pay-integrations-glossary.md#) \| [M](source-to-pay-integrations-glossary.md#) \| [P](source-to-pay-integrations-glossary.md#) \| [R](source-to-pay-integrations-glossary.md#) \| [S](source-to-pay-integrations-glossary.md#) \| [T](source-to-pay-integrations-glossary.md#) \| [W](source-to-pay-integrations-glossary.md#)
+[A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md) \| [C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md) \| [D](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md) \| [E](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md) \| [I](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md) \| [M](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md) \| [P](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md) \| [R](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md) \| [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md) \| [T](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md) \| [W](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integrations-glossary.md)
 
-**Parent Topic:**[Source-to-Pay integrations reference](../reference/s2p-integrations-reference.md)
+**Parent Topic:**[Source-to-Pay integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/s2p-integrations-reference.md)
 
 ## A
 

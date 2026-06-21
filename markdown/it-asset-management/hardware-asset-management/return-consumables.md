@@ -2,6 +2,7 @@
 title: Return consumable assets to stockrooms
 description: Move a consumable asset that is in a consumed state and has completed its life cycle back to an in-stock status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/return-consumables.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -40,5 +41,5 @@ Role required: asset, itil, itil\_admin
     You return to the consumable record. A message appears at the top of the form layout with the number of assets that you have retired.
 
 
-**Parent Topic:**[Consumables life cycle](../../asset-management/concept/c_FollowLifeCycleConsumbl.md)
+**Parent Topic:**[Consumables life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/c_FollowLifeCycleConsumbl.md)
 

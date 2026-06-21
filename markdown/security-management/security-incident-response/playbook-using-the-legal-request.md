@@ -2,6 +2,7 @@
 title: Using the MSIM playbook
 description: Use these steps to learn how you can use the Legal MSIM playbook in the MSIM Workspace and its capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/playbook-using-the-legal-request.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

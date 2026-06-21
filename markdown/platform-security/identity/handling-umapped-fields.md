@@ -2,6 +2,7 @@
 title: Handling unmapped fields
 description: You can handle unmapped fields in SCIM customization in different ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/identity/handling-umapped-fields.html
 release: xanadu
 product: Identity
 classification: identity

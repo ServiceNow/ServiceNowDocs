@@ -2,6 +2,7 @@
 title: Set up notifications for a custom Slack app
 description: Send ServiceNow notifications to users via your own Slack bot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/configure-notif-custom-Slack-app.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,8 +16,8 @@ Send ServiceNow notifications to users via your own Slack bot.
 
 ## Before you begin
 
--   [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
--   [Request the Messaging Notification plugin](request-messaging-notification.md)
+-   Request Integration Hub
+-   [Request the Messaging Notification plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/request-messaging-notification.md)
 -   Create a custom application for Slack
 
 Role required: admin or messaging\_admin
@@ -66,15 +67,15 @@ Role required: admin or messaging\_admin
 
 3.  Next to the Slack listing, click **Install**.
 
-4.  On the JSON Configuration window, paste the JSON that you created in Step [1](configure-notif-custom-Slack-app.md#create-json).
+4.  On the JSON Configuration window, paste the JSON that you created in Step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configure-notif-custom-Slack-app.md).
 
-    ![Example JSON](../image/custom-slack-app-json.png)
+    \[Omitted image "custom-slack-app-json.png"\] Alt text: Example JSON
 
 5.  Click **Submit**.
 
 6.  On the confirmation window, click **Skip**.
 
-    ![Confirmation window](../image/slack-confirmation-window.png)
+    \[Omitted image "slack-confirmation-window.png"\] Alt text: Confirmation window
 
 
 ## Result
@@ -85,9 +86,9 @@ The system creates a notification channel for your custom Slack app automaticall
 
 -   Link ServiceNow user accounts to your custom Slack app so that users can take action on notifications that are delivered by your Slack bot.
 -   For each user account that you link, enable the notification channel using the system settings.
--   Create notifications for your custom Slack app by following the steps in [Create a messaging notification](create-messaging-notification.md) and [Configure message content](configure-message-content.md).
+-   Create notifications for your custom Slack app by following the steps in [Create a messaging notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-messaging-notification.md) and [Configure message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configure-message-content.md).
 
-**Parent Topic:**[Notifications in messaging applications](../concept/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/messaging-integration.md)
 
 **Related topics**  
 

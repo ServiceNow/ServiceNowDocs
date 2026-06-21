@@ -2,11 +2,12 @@
 title: Service charging
 description: As a service owner, you can use the Service Pricing Console to monitor the consumption of the services, the status of each statement item, and can set the pricing for the statement items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/service-charging.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -19,10 +20,10 @@ As a service owner, you can use the Service Pricing Console to monitor the consu
 
 As a service charging analyst, you can analyze and research on the economic trends and conditions of the business and make necessary charging recommendations for the business service.
 
--   **[Monitor service charges in the service pricing console](../task/view-service-pricing-console.md)**  
+-   **[Monitor service charges in the service pricing console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/view-service-pricing-console.md)**  
 As a service owner use the service pricing console to generate service charge lines, view the service charge lines, and set pricing policy. Setting the pricing policy generates the rate card, which captures the set price, surcharge or discount details.
--   **[Create ratecards to fix price for your business service](../task/create-ratecards-for-business-service.md)**  
+-   **[Create ratecards to fix price for your business service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/create-ratecards-for-business-service.md)**  
 Create a ratecard that lists prices for your business service or business service components. As a service owner, you can create a ratecard for a statement item, which represents the business service that you own. The ratecard is based on the pricing policy method attached to the statement item for a fiscal period.
 
-**Parent Topic:**[Financial Charging](financial-reporting.md)
+**Parent Topic:**[Financial Charging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-reporting.md)
 

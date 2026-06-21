@@ -2,6 +2,7 @@
 title: View Credly badges
 description: As an employee, sync external badges into your organization’s Credly account and view them on your career profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/view-credly-badges.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -36,5 +37,5 @@ Role required: learning.user
     -   If you don't see your credentials, contact your admin to setup your Credly account.
     -   To sync your external badges, see KB00010001.
 
-**Parent Topic:**[Using the Talent Development Core application](../../employee-service-management/concept/egd-use.md)
+**Parent Topic:**[Using the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/egd-use.md)
 

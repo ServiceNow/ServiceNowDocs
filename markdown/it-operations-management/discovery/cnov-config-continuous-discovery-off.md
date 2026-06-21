@@ -2,6 +2,7 @@
 title: Deactivate continuous discovery in Agent Client Collector for Kubernetes – Visibility
 description: Switch off continuous discovery by Agent Client Collector for Kubernetes – Visibility if all you need is periodic snapshots of your cluster resources. If you have multiple clusters with frequent changes, deactivating continuous discovery reduces the load on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-config-continuous-discovery-off.html
 release: xanadu
 product: Discovery
 classification: discovery

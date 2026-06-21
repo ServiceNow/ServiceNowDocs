@@ -2,6 +2,7 @@
 title: Legacy - Filter options in funnels
 description: Use filter options for creating steps in funnels. You can create steps in funnels for cumulative filtering of a conversation flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/filter-options-funnels.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Use filter options for creating steps in funnels. You can create steps in funnel
 
 ## Overview of filter options
 
-You can define each step depending on your data of interest in the conversation flow. For more information, see [Funnels tab](../concept/funnels-tab.md).
+You can define each step depending on your data of interest in the conversation flow. For more information, see [Funnels tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/funnels-tab.md).
 
 A step consists of the following:
 
@@ -72,5 +73,5 @@ List of all topics that were used in the conversation flow. The list of topics c
 **Note:** When a funnel contains topics that were modified, for example, nodes were added or removed, after the funnel was created, the funnel does not consider those changes. You have to create a new funnel to account for those changes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Funnels tab](../concept/funnels-tab.md)
+</table>**Parent Topic:**[Funnels tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/funnels-tab.md)
 

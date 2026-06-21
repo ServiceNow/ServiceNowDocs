@@ -2,6 +2,7 @@
 title: Dispute intake
 description: Dispute intake are designed to capture the relevant information required for dispute intake.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/dispute-questionnaire.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ Dispute intake are designed to capture the relevant information required for dis
 
 The dispute intake form is designed to gather all necessary information before submitting a claim to the card network. This form includes a variety of questions that help identify the dispute reason code based on the case type and responses to specific questions such as "What is incorrect about this transaction?" or "Did you authorize the transaction?".
 
-The Event Inquiry application provides a comprehensive overview of the events that led to the dispute. To understand how the Event Inquiry application works and how to customize the dispute intake form, see [Configuring additional questions for Dispute Intake](../task/configuring-additional-questions-for-dispute-intake.md).
+The Event Inquiry application provides a comprehensive overview of the events that led to the dispute. To understand how the Event Inquiry application works and how to customize the dispute intake form, see [Configuring additional questions for Dispute Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/configuring-additional-questions-for-dispute-intake.md).
 
 The intake process simplifies data collection, making it easier for dispute agents to complete the intake, map reason codes, and assess chargeback eligibility. This streamlined approach ensures that all relevant information is captured efficiently, enhancing the overall dispute resolution process.
 
@@ -42,7 +43,7 @@ Key tables in Event Inquiry include:
 
 The Dispute Intake form has been extended into the Dispute Intake table. The table includes both cardholder and agent related questions, while the Dispute Cardholder Intake table addresses cardholder-related questions. Previously, these tables were part of the Dispute Rules Content Pack for Visa, but that dependency has now been removed. They are now available under Financial Services Card Operations, so any customer who installs this application automatically has access tp the questionnaire.
 
-![Shows the questionnaire data model tables.](../image/questionnaire-data-model.png "Questionnaire data model")
+\[Omitted image "questionnaire-data-model.png"\] Alt text: Shows the questionnaire data model tables.
 
 ## Why use a generic questionnaire design?
 
@@ -54,8 +55,8 @@ A generic questionnaire design:
 -   Allows for seamless collection of standardized questions across different transaction networks, with easy updates as needed for each network.
 -   Simplifies the data model across multiple transaction networks, optimizing the dispute processing regardless of the network involved.
 
--   **[Configuring additional questions for Dispute Intake](../task/configuring-additional-questions-for-dispute-intake.md)**  
+-   **[Configuring additional questions for Dispute Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/configuring-additional-questions-for-dispute-intake.md)**  
 Configure the questionnaire that appears for dispute agents or cardholders when they intiate a dispute.
 
-**Parent Topic:**[About Dispute Management](../../fso-deposit-operations/concept/disputes-overview.md)
+**Parent Topic:**[About Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/disputes-overview.md)
 

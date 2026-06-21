@@ -2,7 +2,10 @@
 title: Upload a manifest to the Microsoft admin center
 description: Upload the manifest file to the Microsoft admin center to enable the add-in for all employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/upload-manifest-ms-admin-center.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-04"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Upload the manifest file to the Microsoft admin center to enable the add-in for 
 
 ## Before you begin
 
-Ensure that you have downloaded a manifest file for the add-in. For more information, see [Create a manifest file](create-ms365-addin-manifest.md).
+Ensure that you have downloaded a manifest file for the add-in. For more information, see [Create a manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-ms365-addin-manifest.md).
 
 Role required: Microsoft Admin
 
@@ -42,5 +45,5 @@ Role required: Microsoft Admin
     For more information about deploying add-ins, see [Deploy an Office Add-in using the admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#deploy-an-office-add-in-using-the-admin-center) in the Microsoft documentation.
 
 
-**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](../concept/configuring-sn-addin-for-ms365.md)
+**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configuring-sn-addin-for-ms365.md)
 

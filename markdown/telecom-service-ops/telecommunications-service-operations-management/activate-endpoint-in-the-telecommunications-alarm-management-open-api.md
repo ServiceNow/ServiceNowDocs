@@ -2,6 +2,7 @@
 title: Activate the endpoint of the Telecommunications Alarm Management Open API connection
 description: Activate the endpoint of the Telecommunications Alarm Management Open API connection. By activating the endpoint, you receive the incoming notifications from the external system for the topic that you registered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.html
 release: xanadu
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -37,5 +38,5 @@ You activate the subscribed endpoints of the Telecommunications Alarm Management
 4.  Select **Activate**.
 
 
-**Parent Topic:**[Handling the external events using Telecommunications API notification](../concept/telecommunications-api-notification.md)
+**Parent Topic:**[Handling the external events using Telecommunications API notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
 

@@ -2,6 +2,7 @@
 title: Quick start test for Asset Management
 description: Validate that Asset Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/quick-start-tests-am.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -23,10 +24,10 @@ Asset Management quick start tests requires the Asset Management plugin \(com.sn
 |----|-----------|---------------|
 |Asset Sourcing - Consume local asset stock|Validates the consume local asset stock flow.|Xanadu|
 
-**Parent Topic:**[Asset Management](../../../product/asset-management/concept/c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_AssetManagement.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

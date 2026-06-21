@@ -2,6 +2,7 @@
 title: Update product locations at the order line level
 description: Agents can use the copy function to update product locations at the order line level Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/order-mgt-copy-order-line-location.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ Agents can change the location of products at the order line level by using the 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  From the **Customer Orders** &gt; **All**, select the order you want to work with and select the **Line Items** tab.
 
@@ -33,19 +34,19 @@ Agents can change the location of products at the order line level by using the 
 
 4.  Select **Copy**.
 
-    ![](../image/som-copy-order-line-location.png)
+    \[Omitted image "som-copy-order-line-location.png"\]
 
 5.  In the **Copy line items** window, choose any one of the options.
 
-<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d41542e119">
+<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d37743e119">
 
  
 
-</th><th align="left" id="d41542e121">
+</th><th align="left" id="d37743e121">
 
  
 
-</th></tr></thead><tbody><tr><td id="d41542e126">
+</th></tr></thead><tbody><tr><td id="d37743e126">
 
 **Keep original location**
 
@@ -53,7 +54,7 @@ Agents can change the location of products at the order line level by using the 
 
 Line items for the selected quote are created and the source location is retained.
 
-</td></tr><tr><td id="d41542e135">
+</td></tr><tr><td id="d37743e135">
 
 **Choose new location**
 
@@ -71,5 +72,5 @@ This action copies the quote line items to a new location.In the **Service locat
     The order lines are copied and added to the order line items list with a new location.
 
 
-**Parent Topic:**[Create an order in Order Management](som-create-product-order.md)
+**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-create-product-order.md)
 

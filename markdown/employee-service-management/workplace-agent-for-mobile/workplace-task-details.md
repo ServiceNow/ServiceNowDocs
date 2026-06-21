@@ -2,6 +2,7 @@
 title: Workplace task details
 description: You can close the workplace tasks at any time in the application. You can open a task from your Work view or by opening the case to which it’s associated with.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-agent-for-mobile/workplace-task-details.html
 release: xanadu
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
@@ -21,8 +22,8 @@ When you select the workplace task details card, the task details open in a sepa
 
 On the task details page, you can use the following options:
 
--   **Location pin**: Select the Location pin \(![location icon](../images/wsdagentmob-locationicon.png)\) to view the location pin of the workplace location associated with the task on the floor map
--   **Save**: The **Save** option \(![Save icon](../images/wsdagentmob-saveicon.png)\) enables you to save the case in case you want to view it easily in a single window. You can view the saved cases in the **Saved** tab at the bottom of the screen.
+-   **Location pin**: Select the Location pin \(\[Omitted image "wsdagentmob-locationicon.png"\] Alt text: location icon\) to view the location pin of the workplace location associated with the task on the floor map
+-   **Save**: The **Save** option \(\[Omitted image "wsdagentmob-saveicon.png"\] Alt text: Save icon\) enables you to save the case in case you want to view it easily in a single window. You can view the saved cases in the **Saved** tab at the bottom of the screen.
 
 The task details default view displays the following information:
 
@@ -46,7 +47,7 @@ You can perform the following actions on a task from the detail page:
     The option enables you to post comments on the task. You can post work notes and also additional comments.
 
 
-For more actions, select the action menu ![Menui con](../images/wsdagentmob-actions.png) on the top-right header of the task details page. The following actions are displayed:
+For more actions, select the action menu \[Omitted image "wsdagentmob-actions.png"\] Alt text: Menui con on the top-right header of the task details page. The following actions are displayed:
 
 -   **Assign task**
 

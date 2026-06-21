@@ -2,6 +2,7 @@
 title: Edit a delivery channel
 description: Edit an email, instant message, SMS, or voice channel for receiving notifications, and schedule when the channel can receive notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/edit-or-delete-a-channel.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -25,12 +26,12 @@ Role required: none
 
 3.  Expand the delivery channel that you want to edit.
 
-4.  Select the more actions icon ![More actions icon](../image/delete_cn.png) for the channel and select **Edit**.
+4.  Select the more actions icon \[Omitted image "delete\_cn.png"\] Alt text: More actions icon for the channel and select **Edit**.
 
 5.  Make the changes to the channel name, email address, or schedule.
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](../concept/advanced-notification-prefrences.md)
+**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/advanced-notification-prefrences.md)
 

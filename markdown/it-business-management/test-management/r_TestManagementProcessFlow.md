@@ -2,6 +2,7 @@
 title: Test Management process flow
 description: The tasks associated with manual software testing can be divided into several steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/test-management/r\_TestManagementProcessFlow.html
 release: xanadu
 product: Test Management
 classification: test-management

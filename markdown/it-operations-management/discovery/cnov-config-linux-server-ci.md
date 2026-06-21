@@ -2,6 +2,7 @@
 title: Create a cmdb\_ci\_linux\_server CI for each Kubernetes node
 description: Configure if you want the Agent Client Collector for Kubernetes – Visibility Informer to create a cmdb\_ci\_linux\_server CI for each Kubernetes node.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-config-linux-server-ci.html
 release: xanadu
 product: Discovery
 classification: discovery

@@ -2,7 +2,10 @@
 title: Renew a service contract
 description: Renew a service contract and its hierarchy on the CSM Configurable Workspace to renew the services before the service contract expires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/cce-renew-service-contract.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -40,7 +43,7 @@ Role required:
 
 7.  Select **Renew**.
 
-    An order or a quote is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](../concept/create-cont-ent-workflows-csm.md#section_qp4_rxv_tcc).
+    An order or a quote is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to renew the service contract is created. You can select the quote number from the confirmation message to view the renewed quote line items. The quote is approved and the status changes to **Complete** to create an order.
     -   If the selected target entity is an order, an order to renew the service contract is created. You can select the order number from the confirmation message to view the renewed order line items.

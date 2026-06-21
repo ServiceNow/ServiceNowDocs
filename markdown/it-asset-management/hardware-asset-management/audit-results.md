@@ -2,6 +2,7 @@
 title: Audit results
 description: The Audit results shows the status of the assets when the scheduled or blind audits of asset stockrooms and other locations is complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/audit-results.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -31,5 +32,5 @@ The following related lists show asset information:
 -   Scanned Assets: Shows a list of all assets that are scanned during the audit. The list is updated each time scans are submitted from the ServiceNow Agent app.
 -   Excluded Assets: Shows a list of all assets scanned as part of the audit which are excluded from Hardware Asset Management.
 
-**Parent Topic:**[View audit results](../task/view-audit-results.md)
+**Parent Topic:**[View audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/view-audit-results.md)
 

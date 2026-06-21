@@ -2,7 +2,10 @@
 title: Close an external work order task as incomplete
 description: Close a work order task as incomplete if there is work pending on the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/close-ext-wot-incomplete.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -98,5 +101,5 @@ All follow-on tasks generated from any of the work order tasks are in **Closed C
 
 The task is closed successfully and a follow-up task is created if you have selected **Yes** from the Create a follow-on task? list.
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-tasks.md)
 

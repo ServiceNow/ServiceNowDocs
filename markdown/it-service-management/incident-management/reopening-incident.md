@@ -2,6 +2,7 @@
 title: Reopening an incident
 description: Reopen an incident from the resolution notification email or from the incident to get answer for your query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/reopening-incident.html
 release: xanadu
 product: Incident Management
 classification: incident-management

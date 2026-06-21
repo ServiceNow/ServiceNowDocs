@@ -2,6 +2,7 @@
 title: Basics of Project Management
 description: A project is any planned, collaborative effort that is designed to achieve an objective. The Project Management application not only helps you plan and track projects, it integrates with other applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/basics-project-management.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -17,7 +18,7 @@ A project is any planned, collaborative effort that is designed to achieve an ob
 
 There are several paths available to manage a project. The best path usually depends on business needs. The phases in the graphic are designed to get a project up and running with the minimum amount of effort:
 
-![Project phases](../image/Project_phases.png "Project phases")
+\[Omitted image "Project\_phases.png"\] Alt text: Project phases
 
 ## Set up the project
 
@@ -35,11 +36,11 @@ Before creating a project, consider the following questions and issues:
 
 -   Is the project part of a larger portfolio of projects?
 
-    Also consider [portfolio planning](c_PortfolioManagement.md) and how the project relates to similar projects or initiatives.
+    Also consider [portfolio planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-management/c_PortfolioManagement.md) and how the project relates to similar projects or initiatives.
 
 -   What types of dependencies do the tasks have with other tasks?
 
-    The Project Management application supports various dependencies. See: [Project task relationships and dependencies](c_ProjectTaskRelationDepend.md).
+    The Project Management application supports various dependencies. See: [Project task relationships and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectTaskRelationDepend.md).
 
 -   Can milestones and project baselines help manage a project?
 
@@ -82,10 +83,10 @@ After creating a project record, create tasks.
 
 It is easiest to build task relationships and dependencies while creating sets of tasks.
 
--   A dependency means that a task relies on other tasks to be performed \(completely or partially\) before it can be performed. For information on different types of dependencies supported, see [Project task relationships and dependencies](c_ProjectTaskRelationDepend.md).
+-   A dependency means that a task relies on other tasks to be performed \(completely or partially\) before it can be performed. For information on different types of dependencies supported, see [Project task relationships and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectTaskRelationDepend.md).
 -   A relationship means a parent-child relationship whereby several subtasks are configured under a parent task or phase, which rolls up fields like **Planned duration** and **Estimated cost**.
 
-    Use the [Gantt chart](c_GanttChart.md) with task forms and related lists to [build relationships](c_ProjectTaskRelationDepend.md). Add milestones based on the major events of a project and create dependencies between milestones and tasks, if necessary.
+    Use the [Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_GanttChart.md) with task forms and related lists to [build relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectTaskRelationDepend.md). Add milestones based on the major events of a project and create dependencies between milestones and tasks, if necessary.
 
     Also set up notifications to alert project task assignees when their tasks move to the **Work in Progress** state. See Creating Project Tasks for more information on creating tasks.
 
@@ -104,7 +105,7 @@ After the preceding steps are complete, the project can be started. To measure t
 
 **Start the Project**
 
-[Start the project](../task/t_StartAProject.md) by changing the project state to **Work in Progress**. When you change the **State** field on the Project form to **Work in Progress**, the Actual start date of the project changes to the planned start date.
+[Start the project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_StartAProject.md) by changing the project state to **Work in Progress**. When you change the **State** field on the Project form to **Work in Progress**, the Actual start date of the project changes to the planned start date.
 
 **Monitor the Project and Customize Dashboards**
 
@@ -114,11 +115,11 @@ When the project is underway, continue to access project records and edit severa
 
 ## Close the Project
 
-When the project is complete, change its state to **Closed complete** on the project form. When a project is in the [closed state](../task/t_CloseAProject.md), the Project Management application calculates actual values like **Actual duration**.
+When the project is complete, change its state to **Closed complete** on the project form. When a project is in the [closed state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CloseAProject.md), the Project Management application calculates actual values like **Actual duration**.
 
-Post-project activities include analyzing project baselines and actual values and generating a final project dashboard. You can [cancel the future resource plans](../../resource-management/task/cancel-resource-plan-from-project-or-demand.md) and [complete the allocated resource plans](../../resource-management/task/complete-resource-plan-from-project-or-demand.md) for the closed project.
+Post-project activities include analyzing project baselines and actual values and generating a final project dashboard. You can [cancel the future resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.md) and [complete the allocated resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md) for the closed project.
 
 If the project was successful and can be used as a template for future projects, make a copy of it. If the project was created from a change, incident, or problem record, there are several other activities to perform in ServiceNow.
 
-**Parent Topic:**[Project Management](c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

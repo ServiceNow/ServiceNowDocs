@@ -2,6 +2,7 @@
 title: Inventory asset creation
 description: Inventory assets are not created upfront when fixed assets are created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/inventory-asset-creation.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -38,9 +39,9 @@ To view the asset related list, navigate to **Asset** &gt; **Portfolios** &gt; *
 |Recipient|Recipient of the asset.|
 |Received|Date when the asset was received.|
 
-For more information on asset creation, see [Create assets](https://www.servicenow.com/docs/access?context=c_ManagingAssets&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For more information on asset creation, see Create assets.
 
 A fixed asset related list has also been added. It displays the fixed asset that is associated with this inventory asset if a capitalization policy was satisfied.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

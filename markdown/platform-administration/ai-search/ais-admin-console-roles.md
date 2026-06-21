@@ -2,6 +2,7 @@
 title: AI Search Admin console roles
 description: Roles are associated with the AI Search Admin console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/ais-admin-console-roles.html
 release: xanadu
 product: AI Search
 classification: ai-search

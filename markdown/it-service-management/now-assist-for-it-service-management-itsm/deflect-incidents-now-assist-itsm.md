@@ -2,6 +2,7 @@
 title: Use self-service to deflect incidents in a ServiceNow portal using Now Assist
 description: Designed to reduce the number of incidents to be resolved by deflecting issues with self-service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/deflect-incidents-now-assist-itsm.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -26,21 +27,21 @@ Role required: none
 
 2.  Select the Create Incident with the **Now Assist** record producer.
 
-3.  In the **Please describe your issue below** field, enter the issue you'd like to resolve and click outside of the field to generate the results.![Find solutions or track an issue using Now Assist for ITSM](../image/itsm-now-assist-deflect-create-incidents.png)
+3.  In the **Please describe your issue below** field, enter the issue you'd like to resolve and click outside of the field to generate the results.\[Omitted image "itsm-now-assist-deflect-create-incidents.png"\] Alt text: Find solutions or track an issue using Now Assist for ITSM
 
     Now Assist AI generates the results based on available knowledge articles and catalog items.
 
 4.  Resolve the issue or track it with an incident.
 
-<table id="choicetable_awv_vsq_4dc"><thead><tr><th align="left" id="d76620e110">
+<table id="choicetable_awv_vsq_4dc"><thead><tr><th align="left" id="d77002e110">
 
 To
 
-</th><th align="left" id="d76620e113">
+</th><th align="left" id="d77002e113">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d76620e119">
+</th></tr></thead><tbody><tr><td id="d77002e119">
 
 **Track the issue with an incident**
 
@@ -50,7 +51,7 @@ Do this
 
 Additional fields such as **Urgency** are added to the form.
 
-![Track an issue that's deflected using Now Assist for ITSM](../image/itsm-now-assist-deflect-track-incidents.png)
+\[Omitted image "itsm-now-assist-deflect-track-incidents.png"\] Alt text: Track an issue that's deflected using Now Assist for ITSM
 
 2.  In the **Urgency** field, select the level of importance to address the issue.
 
@@ -60,7 +61,7 @@ You can also select the Add attachments icon and add files related to the issue.
 
 The incident is created and automatically assigned to you. If you aren’t ready to create the incident, select **Save as Draft** to submit it later.
 
-</td></tr><tr><td id="d76620e166">
+</td></tr><tr><td id="d77002e166">
 
 **Resolve the issue**
 
@@ -70,5 +71,5 @@ Select **Solution found** and use the AI-generated solution to resolve the issue
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for IT Service Management \(ITSM\)](../concept/using-now-assist-for-itsm.md)
+**Parent Topic:**[Using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md)
 

@@ -2,6 +2,7 @@
 title: Apply a transition filter on an activity
 description: Activity transitions filtering enables you to get closer views of the different routes that records go through.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/node-to-node-conditions.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -24,10 +25,10 @@ You can apply a transition filter in two ways:
 -   By creating a specific condition manually
 -   By applying transition filter on a pre-defined filter
 
--   **[Create a transition filter manually](../task/create-transition-manually.md)**  
+-   **[Create a transition filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/create-transition-manually.md)**  
 Create a transition filter to meet your needs and apply it to view the result on the process graph.
--   **[Apply transition filter on a pre-defined filter](../task/apply-transitionfilter.md)**  
+-   **[Apply transition filter on a pre-defined filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/apply-transitionfilter.md)**  
 Apply a transition filter on a selected node or connection.
 
-**Parent Topic:**[Filtering project data](../task/filter-project.md)
+**Parent Topic:**[Filtering project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/filter-project.md)
 

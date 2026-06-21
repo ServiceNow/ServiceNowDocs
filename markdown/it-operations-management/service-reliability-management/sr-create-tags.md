@@ -2,6 +2,7 @@
 title: Manually create SRM tags
 description: Tags help you classify and categorize data, or otherwise add information there isn't a field for. SRM imports tags and attaches them to services, alerts, and incidents. However, you can also create tags manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-create-tags.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -39,13 +40,13 @@ There are two ways that tags can enter the system and attach to an alert or inci
 
 3.  Open a service, alert, or incident.
 
-4.  In the header, use the Tag icon ![Tag icon](../image/icon-sr-tag.png) to add tags.
+4.  In the header, use the Tag icon \[Omitted image "icon-sr-tag.png"\] Alt text: Tag icon to add tags.
 
 5.  Enter your tag in the pop-up window.
 
     Your tag is saved and appears below the Add Tag box along with any other tags already applied.
 
-    ![The Tags box showing a created tag](../image/sr-tag-added.png)
+    \[Omitted image "sr-tag-added.png"\] Alt text: The Tags box showing a created tag
 
 6.  Select anywhere in the form to close the pop-up.
 
@@ -56,5 +57,5 @@ There are two ways that tags can enter the system and attach to an alert or inci
     Adding tags to an alert is not considered an update, so no automations run when you add a tag.
 
 
-**Parent Topic:**[SRM interface](../concept/sr-navigate-interface.md)
+**Parent Topic:**[SRM interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-navigate-interface.md)
 

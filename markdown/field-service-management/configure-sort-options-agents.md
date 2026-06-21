@@ -2,7 +2,10 @@
 title: Configure agent list sort options
 description: Configure the options available for dispatchers to sort agents in the Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/configure-sort-options-agents.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

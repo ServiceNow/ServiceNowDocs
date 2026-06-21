@@ -2,6 +2,7 @@
 title: Dynamic actions script for list context menus
 description: The Dynamic actions script field, on the Context Menu form, defines a script. The script populates a list context menu with dynamic options, such as filters or views.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/r\_DynamicActionsScript.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -33,5 +34,5 @@ g_contextMenu.addAction('50', g_itemName, 'showRowsPerPage("50");', g_itemOrder)
 
 **Note:** The action script for this item must define the showRowsPerPage function so that when selecting this menu item, that function is called with an argument of 50.
 
-**Parent Topic:**[Customize list context menus](../task/t_CreateAContextMenu.md)
+**Parent Topic:**[Customize list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_CreateAContextMenu.md)
 

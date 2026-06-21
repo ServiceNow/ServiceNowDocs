@@ -2,6 +2,7 @@
 title: Security jump-start - ACL rules plugin
 description: The Security jump-start access control level \(ACL Rules\) plugin is installed automatically on all new instances. Use this plugin to quickly secure multiple system tables and expedite the production launch process for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/access-control/r\_SecurityJumpStartACLRules.html
 release: xanadu
 product: Access Control
 classification: access-control

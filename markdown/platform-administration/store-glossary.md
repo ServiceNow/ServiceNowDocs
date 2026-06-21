@@ -2,6 +2,7 @@
 title: ServiceNow Store glossary
 description: Review important terms related to the ServiceNow Store to help determine which listings meet your organization's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/store-glossary.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-09-19"
@@ -13,7 +14,7 @@ breadcrumb: [Reference, ServiceNow Store, Administering applications, Get starte
 
 Review important terms related to the ServiceNow Store to help determine which listings meet your organization's needs.
 
-**Parent Topic:**[ServiceNow Store reference](../reference/store-reference.md)
+**Parent Topic:**[ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/store-reference.md)
 
 ## application
 
@@ -31,7 +32,7 @@ Services, dashboards, and implementation guides offered by ServiceNow partners a
 
 ## custom tables
 
-A non-exempt table created by a platform administrator and not included as part of the base ServiceNow AI Platform system. Custom table entitlements are included with certain licenses and subscriptions. For more information, see [Custom tables](../../table-administration/concept/custom-tables.md).
+A non-exempt table created by a platform administrator and not included as part of the base ServiceNow AI Platform system. Custom table entitlements are included with certain licenses and subscriptions. For more information, see [Custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/custom-tables.md).
 
 ## generative AI
 

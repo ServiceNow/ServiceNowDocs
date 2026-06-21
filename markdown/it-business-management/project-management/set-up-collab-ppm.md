@@ -2,6 +2,7 @@
 title: Setting up PPM collaboration for Slack
 description: Integrate your ServiceNow instance with your organization's Slack to enable collaboration of your projects in Slack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/set-up-collab-ppm.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -15,14 +16,14 @@ breadcrumb: [PPM Collaboration, Project Management, Project Portfolio Management
 
 Integrate your ServiceNow instance with your organization's Slack to enable collaboration of your projects in Slack.
 
-PPM Collaboration uses the Slack spoke actions such as creating a channel for your project, adding or removing your project team members, archiving the channel when the project is closed, posting a message when a record is updated, and so on. To enable these spoke actions, you must integrate your ServiceNow instance with Slack to authenticate ServiceNow requests. For more information, see [Set up Slack spoke](https://www.servicenow.com/docs/access?context=set-up-slack&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+PPM Collaboration uses the Slack spoke actions such as creating a channel for your project, adding or removing your project team members, archiving the channel when the project is closed, posting a message when a record is updated, and so on. To enable these spoke actions, you must integrate your ServiceNow instance with Slack to authenticate ServiceNow requests. For more information, see Set up Slack spoke.
 
-**Important:** When you activate Slack spoke, a [Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) for Slack is created by default with the ID **sn\_slack\_ah\_v2.Slack**. The connection that is active \(the Active field is set to **true**\) in Connections related list of this alias uses this default ID to connect your ServiceNow instance to Slack. Therefore, you can have multiple connections associated with this alias but ensure that only one connection is active at any given time.
+**Important:** When you activate Slack spoke, a Connection &amp; Credential alias for Slack is created by default with the ID **sn\_slack\_ah\_v2.Slack**. The connection that is active \(the Active field is set to **true**\) in Connections related list of this alias uses this default ID to connect your ServiceNow instance to Slack. Therefore, you can have multiple connections associated with this alias but ensure that only one connection is active at any given time.
 
-**Parent Topic:**[Project Management](../../project-management/concept/c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 
 **Related topics**  
 
 
-[Slack spoke v2](https://www.servicenow.com/docs/access?context=slack-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+[bundle-crint.slack-spoke]
 

@@ -2,7 +2,10 @@
 title: Close a case from the Customer Service Portal
 description: Customers and consumers can close cases from the Customer and Consumer Service Portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/customer-close-case-from-portal.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Project Status app
 description: The Project Status mobile app enables you to track the status of your projects, collaborate with stakeholders to resolve exceptions, and take timely actions regardless of your location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/mobile-project-status.html
 release: xanadu
 product: Project Management
 classification: project-management

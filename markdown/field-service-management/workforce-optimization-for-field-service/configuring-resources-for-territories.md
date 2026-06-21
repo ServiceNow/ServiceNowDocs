@@ -2,6 +2,7 @@
 title: Configuring resources for territories
 description: Configure resources for territories effortlessly by linking them to groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/workforce-optimization-for-field-service/configuring-resources-for-territories.html
 release: xanadu
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

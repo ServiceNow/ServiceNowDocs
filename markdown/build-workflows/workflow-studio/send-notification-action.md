@@ -2,6 +2,7 @@
 title: Send Notification action
 description: Send an email notification to predefined recipients with predefined content. Select or create a Notification \[sysevent\_email\_action\] record to configure the email notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/send-notification-action.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -50,12 +51,12 @@ Use these general guidelines when using the Send Notification action.
 
 -   **Select the Send Notification action to send an email notification**
 
-    Select this action when you want to send an email notification to predefined recipients containing predefined content. For information about creating an email notification, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    Select this action when you want to send an email notification to predefined recipients containing predefined content. For information about creating an email notification, see .
 
 -   **Use a Integration Hub spoke action for other types of notifications**
 
-    Use an Integration Hub spoke action to send a notification through an external service such as Microsoft Teams. For a list of available integration spokes and their actions, see [Integration Hub available spokes](https://www.servicenow.com/docs/access?context=spokes-list&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+    Use an Integration Hub spoke action to send a notification through an external service such as Microsoft Teams. For a list of available integration spokes and their actions, see .
 
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-actions.md)
 

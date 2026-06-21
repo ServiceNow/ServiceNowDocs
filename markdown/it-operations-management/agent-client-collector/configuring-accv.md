@@ -2,6 +2,7 @@
 title: Configuring Agent Client Collector for Visibility
 description: Plan and configure your Agent Client Collector for Visibility \(ACC-V\) implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/configuring-accv.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -28,7 +29,7 @@ Configuring Agent Client Collector for Visibility requires the following:
 -   Ensure that you have local\_system\_account privileges.
 -   ITOM Discovery or ITOM Visibility SKUs \(SU-based licensing\) is required.
 
-You can then download and install the Agent Client Collector for Visibility \(ACC-V\) application from the ServiceNow Store or from the instance \[sn\_acc\_visibility\]. See [Agent Client Collector Installation](acc-installation.md) for details.
+You can then download and install the Agent Client Collector for Visibility \(ACC-V\) application from the ServiceNow Store or from the instance \[sn\_acc\_visibility\]. See [Agent Client Collector Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-installation.md) for details.
 
 **Note:** The ServiceNow Store regularly releases new applications and updates to applications that are created by the ServiceNow Store. If you already have the application, you can download the latest version to enhance your existing experience. Since different features are available or enhanced each time an application is released in the Store, the content and features available are indicated by version number in this document.
 

@@ -2,6 +2,7 @@
 title: Configure MID Server integrations
 description: Configure an integration for collecting and streaming MID Server log messages to your ServiceNow instance for processing by Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-mid.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -20,13 +21,13 @@ Configure an integration for collecting and streaming MID Server log messages to
 
 **Important:** You can create only one MID Server integration per MID Server.
 
--   Ensure that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+-   Ensure that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see .
 
-    ![MID Server configuration with Log Ingestion capability enabled.](../image/hla-mid-log-ingestion.png)
+    \[Omitted image "hla-mid-log-ingestion.png"\] Alt text: MID Server configuration with Log Ingestion capability enabled.
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   If the MID Server IP address is exposed by network address translation \(NAT\), a load balancer, or a similar device, it must have a public IP address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=xanadu&pubname=xanadu-servicenow-platform&section=t_SetMIDServerProperties&ft:locale=en-US).
+-   If the MID Server IP address is exposed by network address translation \(NAT\), a load balancer, or a similar device, it must have a public IP address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see Create a MID Server property.
 
 Role required: evt\_mgmt\_admin
 
@@ -34,7 +35,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left pane, select the Integrations Launchpad icon \(![Integration Launchpad icon](../../service-operations-workspace-itom/image/integrations-launchpad.png)\)
+2.  From the left pane, select the Integrations Launchpad icon \(\[Omitted image "integrations-launchpad.png"\] Alt text: Integration Launchpad icon\)
 
 3.  In the **Browse integrations** tab, enter `mid` in the search field.
 
@@ -44,11 +45,11 @@ Role required: evt\_mgmt\_admin
 
 5.  On the **Provide details** form, fill in the fields.
 
-    For a description of the fields, see the **Provide details** section in [MID Server integration configuration fields](../reference/il-connector-hla-mid-fields.md).
+    For a description of the fields, see the **Provide details** section in [MID Server integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-mid-fields.md).
 
 6.  Select **Advanced Settings** and fill in the fields.
 
-    For a description of the fields, see the **Advanced Settings** section in [MID Server integration configuration fields](../reference/il-connector-hla-mid-fields.md).
+    For a description of the fields, see the **Advanced Settings** section in [MID Server integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-mid-fields.md).
 
 7.  Select **Save**.
 
@@ -75,17 +76,17 @@ MID Server log messages start streaming to your ServiceNow instance. The tile fo
 
 ## What to do next
 
-Review the log data streaming status and sources of the integration on the **Overview** tab. Leverage the displayed information to refine how HLA reads the log data by adjusting your integration configuration. For more information, see [Review log data streaming status and sources of an integration](il-connector-overview-tab.md).
+Review the log data streaming status and sources of the integration on the **Overview** tab. Leverage the displayed information to refine how HLA reads the log data by adjusting your integration configuration. For more information, see [Review log data streaming status and sources of an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-overview-tab.md).
 
 **Note:** You can go directly from this tab to the Data Input Mapping, Source Type Structures, and Log Sources pages with context from the integration. If the log data is not properly mapped, structured, or sourced, you can go back and adjust the configuration of the integration. If the Service Operations Workspace Log Analytics application is installed, the View menu also provides direct access to the Log Viewer, where you can see the raw logs that the integration ingests.
 
-1.  Select the View menu icon \(![View menu icon.](../../health-log-analytics-operator/image/icon-menu-sow.png)\).
+1.  Select the View menu icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: View menu icon.\).
 2.  Choose the appropriate menu option.
 3.  Review the displayed information.
 4.  Adjust the integration configuration if needed.
 
--   **[MID Server integration configuration fields](../reference/il-connector-hla-mid-fields.md)**  
+-   **[MID Server integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-mid-fields.md)**  
 Description of the fields on the MID Server integration configuration forms for Health Log Analytics.
 
-**Parent Topic:**[Set up integrations from Integrations Launchpad](../concept/hla-data-input-setup-integrations.md)
+**Parent Topic:**[Set up integrations from Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md)
 

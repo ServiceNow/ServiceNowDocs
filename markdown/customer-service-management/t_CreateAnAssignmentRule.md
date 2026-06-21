@@ -2,7 +2,10 @@
 title: Create an assignment rule for case routing
 description: Create a rule that assigns those cases that meet the matching rule criteria to a customer service agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_CreateAnAssignmentRule.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -128,5 +131,5 @@ A script to determine advanced assignment rule functionality. Scripts provide ac
 **Related topics**  
 
 
-[Define assignment rules](https://www.servicenow.com/docs/access?context=c_DefineAssignmentRules&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_DefineAssignmentRules]
 

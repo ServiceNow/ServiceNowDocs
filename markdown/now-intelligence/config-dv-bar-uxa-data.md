@@ -2,6 +2,7 @@
 title: User Experience Analytics data options for bar visualizations
 description: When you select a User Experience Analytics data source for a horizontal or vertical bar visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/config-dv-bar-uxa-data.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -31,11 +32,11 @@ Data source
 
 </td><td>
 
-You have selected a User Experience Analytics data source in [Create a horizontal or vertical bar data visualization](../task/create-dv-bar-ac.md).
+You have selected a User Experience Analytics data source in [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-bar-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-MetricYou can set multiple metrics. If you have the latest version of the Data Visualizations application from the ServiceNow Store, you can set dashboard filters to apply only to specific metrics. For more information, see [Chart options for multiple metrics](../concept/chart-options-multi-metrics.md).
+MetricYou can set multiple metrics. If you have the latest version of the Data Visualizations application from the ServiceNow Store, you can set dashboard filters to apply only to specific metrics. For more information, see [Chart options for multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/chart-options-multi-metrics.md).
 
 </td></tr><tr><td>
 
@@ -51,7 +52,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -135,7 +136,7 @@ Add alternative group by
 
 This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
 
-For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](../../performance-analytics/concept/select-group-runtime.md).
+For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/select-group-runtime.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

@@ -2,6 +2,7 @@
 title: Add or modify disability insurance benefits
 description: You can add or modify a disability insurance benefit for an employee using the Disability Insurance Benefits module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/t\_CreateOrModifyDisabilityBenefit.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -61,5 +62,5 @@ Employees can ask questions about disability insurance benefits or be enrolled i
 8.  Click **Update**.
 
 
-**Parent Topic:**[HR Profile](../concept/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

@@ -2,6 +2,7 @@
 title: Import the Excel template
 description: After updating the import template with the new data, import the template to your instance to validate and find missing, duplicate, and invalid data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/import-excel-template.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Right-click the column heading and select **Import** from the menu.
 
-    ![Import the Excel template.](../image/import-excel-template.png)
+    \[Omitted image "import-excel-template.png"\] Alt text: Import the Excel template.
 
 3.  Select **Insert** or **Update** as the import type.
 
@@ -40,5 +41,5 @@ Role required: admin
 7.  If the template passes validation and the imported preview matches your expectations, select **Complete Import** to import data into the staging table.
 
 
-**Parent Topic:**[Easy import](../concept/easy-import.md)
+**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/easy-import.md)
 

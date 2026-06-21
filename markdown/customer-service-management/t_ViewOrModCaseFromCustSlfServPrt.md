@@ -2,7 +2,10 @@
 title: View or modify a case from the Customer Service Portal
 description: View or modify the information in a selected customer service case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_ViewOrModCaseFromCustSlfServPrt.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Manage control indicators using the Compliance Workspace
 description: Continuous monitoring involves activities related to identifying and creating key risk and controls indicators. The Compliance Overview is available to compliance administrators and compliance managers, providing an executive view into compliance requirements, overall compliance, and compliance breakdowns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-compliance-management-workspace/manage-control-indicators-ws.html
 release: xanadu
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -46,7 +47,7 @@ Each authority document is defined in a record and the related lists on that rec
 
 The relationships of these authority document related list items are visible in the GRC Workbench in the Policy and Compliance Management application.
 
-**Note:** You can [add content reference tags to authority documents](../../grc-common/concept/content-references.md#). Content reference tags allow you to filter records in order to more easily identify the content packs, integrations, and use case accelerators associated with the authority documents.
+**Note:** You can [add content reference tags to authority documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/content-references.md). Content reference tags allow you to filter records in order to more easily identify the content packs, integrations, and use case accelerators associated with the authority documents.
 
 ## Citations
 
@@ -54,5 +55,5 @@ Citations contain the provisions of the authority document, which can be interre
 
 You can create citations or import them from UCF authority documents and then create any necessary relationships between the citations.
 
-**Note:** You can [add content reference tags to citations](../../grc-common/concept/content-references.md#). Content reference tags allow you to filter records in order to more easily identify the content packs, integrations, and use case accelerators associated with the citations.
+**Note:** You can [add content reference tags to citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/content-references.md). Content reference tags allow you to filter records in order to more easily identify the content packs, integrations, and use case accelerators associated with the citations.
 

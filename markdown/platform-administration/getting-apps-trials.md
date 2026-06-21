@@ -2,6 +2,7 @@
 title: Getting apps and trials from the ServiceNow Store
 description: Learn more about the different procurement flows for apps from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/getting-apps-trials.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-07-31"
@@ -26,44 +27,44 @@ Apps and integrations on the ServiceNow Store are either available to purchase o
 
 Procure apps for any production or non-production instance in one of the following ways:
 
--   [Get a free application](../task/store-get-free-app.md)
+-   [Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/store-get-free-app.md)
 
     Get an app that's available at no additional cost from the ServiceNow Store when the app has custom terms and conditions or requires provider approval.
 
--   [Buy a ServiceNow application](../task/buy-servicenow-app.md)
+-   [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/buy-servicenow-app.md)
 
     Log in to the ServiceNow Store and purchase an application that lists ServiceNow as the provider.
 
--   [Buy a partner application](../task/buy-partner-app.md)
+-   [Buy a partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/buy-partner-app.md)
 
     Log in to the ServiceNow Store and purchase an application that lists a non-ServiceNow provider.
 
 
 Many apps provide a 30-day trial at no additional cost. The trial enables you to install the app on your non-production instances to determine whether you want to continue with procurement for production instances.
 
-If a trial is available for an app, the listing has a **Request 30-day trial** option in the app listingand the app details page in the Application Manager shows the "Trial Available" state indicator.. For more information about starting an app trial, see [Start an application trial from the ServiceNow Store](../task/start-trial.md).
+If a trial is available for an app, the listing has a **Request 30-day trial** option in the app listingand the app details page in the Application Manager shows the "Trial Available" state indicator.. For more information about starting an app trial, see [Start an application trial from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/start-trial.md).
 
 Once an app has been procured, it’s available to install from the Application Manager.
 
 ## Additional information
 
--   [Getting products](getting-products.md)
+-   [Getting products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/getting-products.md)
 
     Procure products from the ServiceNow Store based on the terms of your license. A product is a collection of functionalities, typically including multiple applications, that aims to fulfill a category of business need.
 
--   [Contact a seller](../task/contact-seller.md)
+-   [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/contact-seller.md)
 
     Contact an app's provider through the ServiceNow Store to ask questions about the app and its procurement.
 
--   [Evaluating version requirements and dependencies](versions-dependencies.md)
+-   [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/versions-dependencies.md)
 
     Learn how version compatibility and technical dependencies can affect your ability to install and use apps.
 
--   [Terms and conditions in the ServiceNow Store](sn-store-tncs.md)
+-   [Terms and conditions in the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/sn-store-tncs.md)
 
     Learn about when terms and conditions must be signed in the ServiceNow Store. Unsigned terms and conditions block procurement and installations.
 
--   [Application Manager](../../application-manager/concept/application-manager.md)
+-   [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/application-manager.md)
 
     Use the Application Manager to install, update, repair, or uninstall an app after it's been procured.
 

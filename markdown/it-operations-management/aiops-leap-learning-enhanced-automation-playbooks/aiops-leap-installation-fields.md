@@ -2,6 +2,7 @@
 title: AIOps LEAP installation fields
 description: Description of the field values that you configure while installing AIOps LEAP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-installation-fields.html
 release: xanadu
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

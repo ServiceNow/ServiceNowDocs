@@ -2,6 +2,7 @@
 title: Configure a data privacy job
 description: Configure a data privacy job on your production instance to use anonymized data on your non-production instance for user and data class jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/data-privacy-classic/config-data-privacy-job.html
 release: xanadu
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -28,7 +29,7 @@ Role required: data\_privacy\_processor and admin
 
 1.  Elevate to the **data\_privacy\_processor** role.
 
-    For details on role elevation, see [Elevate to a privileged role](t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **System Security** &gt; **Data Privacy** &gt; **Data Privacy Job**.
 
@@ -66,7 +67,7 @@ Privacy Configuration
 
 </td><td>
 
-The privacy policy configuration to use for this job. For detail on Privacy policy configurations, see [Create a data privacy policy](config-dp-policy.md).
+The privacy policy configuration to use for this job. For detail on Privacy policy configurations, see [Create a data privacy policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/data-privacy-classic/config-dp-policy.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +83,7 @@ Dry Run
 
 </td><td>
 
-Run the job as a test. No records are affected when running this job. Results are displayed in the **Summary** field as though the job had executed.**Note:** **Dry Run** must be turned off when configuring a data privacy job with rollback. See [Roll back a data privacy job](rollback-data-privacy-job.md) for details.
+Run the job as a test. No records are affected when running this job. Results are displayed in the **Summary** field as though the job had executed.**Note:** **Dry Run** must be turned off when configuring a data privacy job with rollback. See [Roll back a data privacy job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/data-privacy-classic/rollback-data-privacy-job.md) for details.
 
 </td></tr><tr><td>
 
@@ -141,6 +142,6 @@ The end of the time window to run this job. The job runs before the time entered
 7.  Choose one of the following functions:
 
     -   **Cancel Job**: Cancels the data privacy job.
-    -   **Pause**: Pauses job and rollback recording, if rollback has been selected. A warning message will display after a three-day expiry period for rollback contexts. See [Roll back a data privacy job](rollback-data-privacy-job.md) for details.
+    -   **Pause**: Pauses job and rollback recording, if rollback has been selected. A warning message will display after a three-day expiry period for rollback contexts. See [Roll back a data privacy job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/data-privacy-classic/rollback-data-privacy-job.md) for details.
     -   **Resume**: Restarts a paused job. Rollback is not supported for resumed jobs if paused. Cancel the job and create a data privacy job. The recording uses an unexpired rollback context.
 

@@ -2,9 +2,10 @@
 title: Product localization information in Xanadu
 description: Cumulative release notes summary on new Xanadu features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/rn-summary-localization.html
 release: xanadu
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-13"
 reading_time_minutes: 1
 breadcrumb: [Release notes summaries for Xanadu features, Release notes for upgrading from Washington DC, Learn about the Xanadu release, Xanadu release notes]
 ---
@@ -29,7 +30,7 @@ AI Search
 
 </td><td>
 
-AI Search supports international languages. For details of language support by feature, see [Internationalization support for AI Search](https://www.servicenow.com/docs/access?context=international-language-support-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+AI Search supports international languages. For details of language support by feature, see .
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Document Intelligence
 
 </td><td>
 
--   **[Chinese and Japanese language support](https://www.servicenow.com/docs/access?context=languages-supported-by-document-intelligence&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)**
+-   **Chinese and Japanese language support**
 
 Process documents in additional languages with added support for Simplified Chinese and Japanese.
 
@@ -72,7 +73,7 @@ Generative AI Controller
 
 </td><td>
 
-Generative AI Controller uses [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://www.servicenow.com/docs/access?context=dynamic-translation-na-ms-azure-oem&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for multi-language support. You can enable dynamic translation from the Now Assist Admin console.
+Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multi-language support. You can enable dynamic translation from the Now Assist Admin console.
 
 </td></tr><tr><td>
 
@@ -104,7 +105,7 @@ Now Assist in AI Search
 
 </td><td>
 
-Now Assist in AI Search supports [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) in Now Assist Genius Results. For details, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://www.servicenow.com/docs/access?context=dynamic-translation-na-gr&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and [Dynamic Translation for Now Assist Actions Genius Results](https://www.servicenow.com/docs/access?context=dynamic-translation-na-actions-gr&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Now Assist in AI Search supports  in Now Assist Genius Results. For details, see  and .
 
 </td></tr><tr><td>
 
@@ -112,7 +113,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-[Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) is supported in Now Assist Virtual Agent conversations. For details, see [Enable translation for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) and [Localization options for Virtual Agent](https://www.servicenow.com/docs/access?context=multi-language-options-va&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+ is supported in Now Assist Virtual Agent conversations. For details, see  and .
 
 </td></tr><tr><td>
 
@@ -128,7 +129,7 @@ RPA Hub
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://www.servicenow.com/docs/access?context=rpa-hub-international-language-support&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+RPA Hub supports international languages. For more information, see Internationalization support for RPA Hub.
 
 </td></tr><tr><td>
 
@@ -139,5 +140,5 @@ Virtual Agent
 The ServiceNow® Localization Framework is integrated in Virtual Agent.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Xanadu features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Xanadu features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/release-notes-summaries.md)
 

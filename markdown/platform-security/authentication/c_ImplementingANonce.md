@@ -2,6 +2,7 @@
 title: Implementing a nonce
 description: You can implement a nonce to be used with single sign-on digest authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/c\_ImplementingANonce.html
 release: xanadu
 product: Authentication
 classification: authentication

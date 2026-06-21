@@ -2,6 +2,7 @@
 title: Collaboration in assessments
 description: Collaboration in Smart Assessment Engine allows you to add multiple contributors to an assessment and support live collaboration with real-time updates. It also displays presence indicators to show who is currently active on the assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.html
 release: xanadu
 product: Smart Assessment Engine
 classification: smart-assessment-engine

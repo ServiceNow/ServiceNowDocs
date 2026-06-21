@@ -2,6 +2,7 @@
 title: Domain separation and Asset Management
 description: Domain separation is supported in Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/domain-separation-asset-management.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -25,15 +26,15 @@ Domain separation is supported in Asset Management. Domain separation enables yo
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
--   **[Domain separation and lifecycle reports](../../software-asset-management2/concept/domain-sep-sam-lifecycle.md)**  
+-   **[Domain separation and lifecycle reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/domain-sep-sam-lifecycle.md)**  
 There are certain domain separation aspects to consider when running software lifecycle reports.
 
-**Parent Topic:**[Asset Management](c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_AssetManagement.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

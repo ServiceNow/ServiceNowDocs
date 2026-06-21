@@ -2,6 +2,7 @@
 title: App compatibility with Creator Studio
 description: You can open apps built in Creator Studio in other ServiceNow products, but only apps built in Creator Studio can be opened in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-opening-apps-from-others.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -23,9 +24,9 @@ If you add complex functionality to an app in another builder and then re-open t
 
 For more information, see the following products:
 
--   [ServiceNow Studio](../../servicenow-studio/concept/servicenow-studio-landing.md)
--   [App Engine Studio](../../app-engine-studio/concept/aes-overview.md)
--   [Catalog Builder](https://www.servicenow.com/docs/access?context=catalog-builder&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+-   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
+-   [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-overview.md)
+-   
 
 ## Opening apps built in other products in Creator Studio
 

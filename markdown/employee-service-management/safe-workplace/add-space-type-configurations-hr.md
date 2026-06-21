@@ -2,6 +2,7 @@
 title: Add a space type configuration
 description: Configure the different types of spaces available in your workplace. You can add spaces based on different space types. The space types enable your employee to identify the different types of spaces that are available on a floor in a Mappedin floor map
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/safe-workplace/add-space-type-configurations-hr.html
 release: xanadu
 product: Safe Workplace
 classification: safe-workplace
@@ -43,5 +44,5 @@ Role required:sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
 The space type is configured. You can select this space type while creating a space or a type mapping.
 
-**Parent Topic:**[Providing your workplace data](../concept/providing-your-workplace-data.md)
+**Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/providing-your-workplace-data.md)
 

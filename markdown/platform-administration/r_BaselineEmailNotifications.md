@@ -2,6 +2,7 @@
 title: Baseline email notifications
 description: The baseline system provides several email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_BaselineEmailNotifications.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -1100,5 +1101,5 @@ cmdb.unscheduled.change
 </td></tr></tbody>
 </table>**Note:**
 
-**Parent Topic:**[Create an email notification](../../notification/task/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateANotification.md)
 

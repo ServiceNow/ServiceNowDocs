@@ -2,7 +2,10 @@
 title: Properties installed with Now Assist for Employee Experience
 description: Properties available with the Now Assist for Employee Experience application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/properties-installed-with-now-assist-for-emp-exp.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2025-03-28"
 reading_time_minutes: 1
@@ -42,5 +45,5 @@ Set the portal that you want to use for the To-do configuration. To set multiple
 -   Default value: esc
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for Employee Experience reference](../concept/reference-now-assist-for-emp-exp.md)
+</table>**Parent Topic:**[Now Assist for Employee Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/reference-now-assist-for-emp-exp.md)
 

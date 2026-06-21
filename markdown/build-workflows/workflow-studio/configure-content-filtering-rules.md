@@ -2,6 +2,7 @@
 title: Configure content filtering rules
 description: Use content filtering rules to specify the role a user must have to access content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/configure-content-filtering-rules.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -51,5 +52,5 @@ Workflow Studio includes several content definitions and filtering rules by defa
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Content filtering for Workflow Studio flows](../concept/content-filtering-flow-designer.md)
+**Parent Topic:**[Content filtering for Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/content-filtering-flow-designer.md)
 

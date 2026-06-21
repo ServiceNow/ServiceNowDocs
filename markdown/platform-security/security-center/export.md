@@ -2,6 +2,7 @@
 title: Export
 description: Discover the data that is commonly exported, and which users do the exporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/export.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -18,5 +19,5 @@ Discover the data that is commonly exported, and which users do the exporting.
 -   Total exports: Total count of table records exported by user.
 -   Classified exports: Total count of table records exported, summarized by the data classification assigned to them.
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)
 

@@ -2,6 +2,7 @@
 title: Configure crawl settings for the ServiceNow product documentation external content connector
 description: Choose the products that you want your ServiceNow product documentation external content connector to crawl documentation for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -51,5 +52,5 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
 The ServiceNow product documentation external content connector is updated with your chosen crawl scope.
 
-**Parent Topic:**[Configuring crawl settings for external content connectors](../concept/cfg-crawl-settings-ext-cont-connector.md)
+**Parent Topic:**[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-crawl-settings-ext-cont-connector.md)
 

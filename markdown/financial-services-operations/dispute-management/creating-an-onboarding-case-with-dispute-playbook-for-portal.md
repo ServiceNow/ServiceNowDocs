@@ -2,6 +2,7 @@
 title: Creating a card disputes case with the Dispute Intake in Portal
 description: Whether you're a contact or a consumer, you can create a card disputes case in either the Customer Service Portal or Consumer Service Portal, respectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -25,11 +26,11 @@ Let's see how a cardholder creates a card disputes case from the dispute intake 
 
 1.  Create a card disputes case.
 
-    The cardholder creates a request by navigating to either the portal landing page or the portal menu header. For more information on how to create a request, see [Creating a card disputes case request from the service catalog](../task/create-an-onboarding-request-from-the-service-catalog.md)
+    The cardholder creates a request by navigating to either the portal landing page or the portal menu header. For more information on how to create a request, see [Creating a card disputes case request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.md)
 
 2.  Initiate a dispute.
 
-    The cardholder selects the financial account to initiate a dispute. They then choose the disputed transaction from the list of transactions under the financial account and provide additional information to determine the dispute category by answering the questions. For more details on the various stages of activities, see [Initiate a dispute](../task/initiating-dispute.md).
+    The cardholder selects the financial account to initiate a dispute. They then choose the disputed transaction from the list of transactions under the financial account and provide additional information to determine the dispute category by answering the questions. For more details on the various stages of activities, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/initiating-dispute.md).
 
     **Note:** If the dispute category is Fraud, the cardholder can select additional transactions from the transaction list if more than one transaction is being disputed.
 
@@ -43,10 +44,10 @@ Let's see how a cardholder creates a card disputes case from the dispute intake 
 
 5.  Submit the case for review.
 
-    The cardholder reviews the dispute amount, adds any additional comments regarding the disputed transactions, and then submits the case for review. For more information, see [Investigating a dispute](../task/investigate-a-dispute.md).
+    The cardholder reviews the dispute amount, adds any additional comments regarding the disputed transactions, and then submits the case for review. For more information, see [Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/investigate-a-dispute.md).
 
 
-**Note:** Before submitting an application, you can save it as a draft to return and complete later. Once saved, you can find your drafts in the case list under **Requests** &gt; **All Requests**. After submission, you can view updates on the case in the dispute tracker. For more information on the dispute tracker, see [Viewing the status of a request using the dispute tracker](../task/view-the-status-of-a-request.md)
+**Note:** Before submitting an application, you can save it as a draft to return and complete later. Once saved, you can find your drafts in the case list under **Requests** &gt; **All Requests**. After submission, you can view updates on the case in the dispute tracker. For more information on the dispute tracker, see [Viewing the status of a request using the dispute tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/view-the-status-of-a-request.md)
 
-**Parent Topic:**[Dispute Intake in Portal](dispute-playbook-for-portal.md)
+**Parent Topic:**[Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-playbook-for-portal.md)
 

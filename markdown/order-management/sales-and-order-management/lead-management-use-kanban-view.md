@@ -2,6 +2,7 @@
 title: Manage leads using Kanban view
 description: Personalize and manage the leads information that is most relevant to you and your stakeholders using the Kanban view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/lead-management-use-kanban-view.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All**.
 
@@ -31,6 +32,6 @@ Role required: sales\_agent
 
     -   To change a lead stage, drag the lead card from one state and drop it into another state.
     -   To view the leads by different categories, such as industry, source, and reason, select **Group by:** drop-down menu on the page.
-    -   You can take various actions for your leads, such as creating a lead task, assigning a lead, and composing an email by selecting the three vertical dots \(![](../image/icon-three-dots.png)\) either on a lead card or vertical leads stage header.
-    -   To create a new lead directly from this page, select **New** button. To learn more, see [Create a lead](create-new-lead.md).
+    -   You can take various actions for your leads, such as creating a lead task, assigning a lead, and composing an email by selecting the three vertical dots \(\[Omitted image "icon-three-dots.png"\] Alt text:\) either on a lead card or vertical leads stage header.
+    -   To create a new lead directly from this page, select **New** button. To learn more, see [Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-new-lead.md).
 

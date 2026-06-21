@@ -2,6 +2,7 @@
 title: Installing and configuring Service Exchange for Providers
 description: To set up and configure the Service Exchange for Providers application for Manufacturing Commercial Operations, follow these steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-install-configure-sb-providers.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-12-02"
@@ -33,7 +34,7 @@ Install the Service Exchange for Providers application.
 
 </td><td>
 
-See [Install Service Exchange for Providers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-provider&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+See .
 
 </td></tr><tr><td>
 
@@ -49,7 +50,7 @@ Migrate from Service Exchange legacy version if required.
 
 </td><td>
 
-See [Migrate from Service Exchange \(legacy\)](https://www.servicenow.com/docs/access?context=service-bridge-v2-migrate&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).**Note:** This feature is supported only for Service Exchange 1.x.x versions.
+See .**Note:** This feature is supported only for Service Exchange 1.x.x versions.
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Set up a new provider record.
 
 </td><td>
 
-See [Set up a Service Exchange provider record](https://www.servicenow.com/docs/access?context=service-bridge-v2-new-provider&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+See .
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ Assign Service Exchange roles for providers.
 
 </td><td>
 
-See [User roles for providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-personas&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+See .
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Create catalog personas.
 
 </td><td>
 
-See [Create catalog personas](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-catalog-persona&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+See .
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ Create remote choice definitions.
 
 </td><td>
 
-See [Create remote choice definitions in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-choice-fld-defs&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US)
+See 
 
 </td></tr><tr><td>
 
@@ -89,7 +90,7 @@ Create remote catalog items.
 
 </td><td>
 
-See [Create remote catalogs in Service Exchange for providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-remote-catalog&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+See .
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ Create remote task definitions.
 
 </td><td>
 
-See [Create remote task definitions in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+See .
 
 </td></tr><tr><td>
 
@@ -105,7 +106,7 @@ Create transforms.
 
 </td><td>
 
-See [Create a transform in Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-transform&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+See .
 
 </td></tr><tr><td>
 
@@ -113,7 +114,7 @@ Update Authorized Users settings.
 
 </td><td>
 
-See [Update settings for Authorized Users](https://www.servicenow.com/docs/access?context=service-bridge-v2-configure-settings&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+See .
 
 </td></tr></tbody>
 </table>

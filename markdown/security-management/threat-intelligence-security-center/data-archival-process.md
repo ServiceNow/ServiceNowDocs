@@ -2,6 +2,7 @@
 title: TISC Data Archival
 description: Data grows rapidly in tables with increased adoption of the platform. Some tables come within the base system with various data management policies, but other users are needed to implement them by themselves.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/data-archival-process.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

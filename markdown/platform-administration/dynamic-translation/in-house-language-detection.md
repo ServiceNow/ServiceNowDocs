@@ -2,6 +2,7 @@
 title: Language Detection spoke
 description: ServiceNow Language Detection Service spoke provides a single subflow and action to detect the language of the given text using the ServiceNow language detection service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/dynamic-translation/in-house-language-detection.html
 release: xanadu
 product: Dynamic Translation
 classification: dynamic-translation
@@ -51,7 +52,7 @@ Detect Language \[detect\_language\_v3\] or \[detect\_language\_v4\]
 
 </td><td>
 
-Detects the languages of texts using ServiceNow Language Detection Service.The v4 flows for Dynamic Translation are supported from the Xanadu Patch 3 release. For more information, see [Migrate customized Translator Configurations to v4 flows](../task/migrate-v4-dynamic-translation.md).
+Detects the languages of texts using ServiceNow Language Detection Service.The v4 flows for Dynamic Translation are supported from the Xanadu Patch 3 release. For more information, see [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).
 
 </td></tr></tbody>
 </table>## Spoke action
@@ -76,7 +77,7 @@ Detect Language \[detect\_language\_v3\] or \[detect\_language\_v4\]
 
 </td><td>
 
-Detects the languages of texts using ServiceNow Language Detection Service. The v4 flows for Dynamic Translation are supported from the Xanadu Patch 3 release. For more information, see [Migrate customized Translator Configurations to v4 flows](../task/migrate-v4-dynamic-translation.md).
+Detects the languages of texts using ServiceNow Language Detection Service. The v4 flows for Dynamic Translation are supported from the Xanadu Patch 3 release. For more information, see [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).
 
 </td></tr></tbody>
 </table>The ServiceNow Language Detection service uses the following Dynamic Translation APIs to detect the language of the input texts:
@@ -84,5 +85,5 @@ Detects the languages of texts using ServiceNow Language Detection Service. The 
 -   getDetectedLanguage: Provides text to identify the languages.
 -   getDetectedLanguages: Provides texts to identify the languages.
 
-For more information, see [DynamicTranslation API](dyn-translation-apis.md).
+For more information, see [DynamicTranslation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/dyn-translation-apis.md).
 

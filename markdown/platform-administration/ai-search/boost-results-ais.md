@@ -2,6 +2,7 @@
 title: Boost search results using a result improvement rule
 description: Increase the relevancy scores for search results that satisfy a custom set of conditions.This list describes the types of search result relevancy boost that you can apply using a result improvement rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/boost-results-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Increase the relevancy scores for search results that satisfy a custom set of co
 
 ## Before you begin
 
-Create your result improvement rule first to define your trigger conditions. For steps to create a result improvement rule, see [Create a result improvement rule](create-result-improve-rule-ais.md).
+Create your result improvement rule first to define your trigger conditions. For steps to create a result improvement rule, see [Create a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-result-improve-rule-ais.md).
 
 Role required: ais\_admin
 
@@ -37,13 +38,13 @@ Negative boost weights reduce the relevancy scores for boosted search results. E
 
 When a single search result is affected by multiple boost actions, AI Search adds the individual boost weights together to determine the total relevancy score modifier. For example, a search result boosted by three rules with boost weights 100, 150, and –25 has a total boost weight of 225, increasing its final relevancy score by 22.5% of its original value.
 
-**Note:** Boost actions don't change the set of results returned for your search, so you can't boost a record that doesn't match your search. If you want to add a search result into your results whether or not it matches your search, try using a promote action instead. For details on this action, see [Promote search results using a result improvement rule](promote-results-ais.md).
+**Note:** Boost actions don't change the set of results returned for your search, so you can't boost a record that doesn't match your search. If you want to add a search result into your results whether or not it matches your search, try using a promote action instead. For details on this action, see [Promote search results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/promote-results-ais.md).
 
 ## Procedure
 
 1.  In the Actions related list, select **Create Boost Action**.
 
-2.  On [the Rule - Action Mapping form](../reference/rule-action-map-form-ais.md), set the boost weight and fill in the other fields.
+2.  On [the Rule - Action Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/rule-action-map-form-ais.md), set the boost weight and fill in the other fields.
 
 3.  Select **Submit**.
 
@@ -52,9 +53,9 @@ When a single search result is affected by multiple boost actions, AI Search add
 
 ## What to do next
 
-To make new or updated result improvement rule settings take effect, publish the search profile you edited. For details on publishing a search profile, see [Publish an AI Search search profile](publish-search-profile-ais.md).
+To make new or updated result improvement rule settings take effect, publish the search profile you edited. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Result improvement rules](../concept/result-improvement-rules-ais.md)
+**Parent Topic:**[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/result-improvement-rules-ais.md)
 
 ## List of result improvement rule boost types
 

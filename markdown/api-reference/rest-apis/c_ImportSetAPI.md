@@ -2,6 +2,7 @@
 title: Import Set API
 description: The Import Set API provides endpoints that allow you to interact with import set tables.Retrieves the specified import staging record and resulting transformation result.Inserts incoming data into a specified staging table and triggers transformation based on predefined transform maps in the import set table.Inserts multiple records into a specified staging table and triggers transformation based on predefined transform maps or Robust Transform Engine \(RTE\) configurations in a single request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/c\_ImportSetAPI.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -21,7 +22,7 @@ This API transforms incoming data based on associated transform maps. The import
 
 Access to tables via the REST API is restricted by BasicAuth. To allow access to tables without any authentication or authorization, add the table name to sys\_public.list. ACLs defined on tables are still enforced, and it is the administrator's responsibility to deactivate ACLs.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Import Set - GET /now/import/\{stagingTableName\}/\{sys\_id\}
 
@@ -78,7 +79,7 @@ Sys\_id of the record that contains the data.Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -103,7 +104,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -311,7 +312,7 @@ Name-value pairs to insert in the import fields.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -344,7 +345,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -536,7 +537,7 @@ stagingTableName
 
 </td><td>
 
-Name of the import set table from which to import the data. Refer to [Import sets key concepts](https://www.servicenow.com/docs/access?context=c_ImportSetsKeyConcepts&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).Data type: String
+Name of the import set table from which to import the data. Refer to Import sets key concepts.Data type: String
 
 </td></tr></tbody>
 </table><table class="rest_api_query_parameters"><thead><tr><th>
@@ -580,7 +581,7 @@ Data source file
 
 </td><td>
 
-This request body format matches the JSON file format used to create the data source. Provide the request body in the same format as the JSON in the data source. JSON input varies depending on the properties in your data source. Refer to JSON information in [File type data source](https://www.servicenow.com/docs/access?context=r_FileTypeDataSource&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).-   This option is only available if the staging table was created using a JSON data source. Refer to [Create a File type data source](https://www.servicenow.com/docs/access?context=create-file-type-data-source&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+This request body format matches the JSON file format used to create the data source. Provide the request body in the same format as the JSON in the data source. JSON input varies depending on the properties in your data source. Refer to JSON information in File type data source.-   This option is only available if the staging table was created using a JSON data source. Refer to Create a File type data source.
 -   You must define the path of the data source in the Data Source \[sys\_data\_source\] table in the **Path for each row** field.
 -   To change the default behavior for the REST Insert Multiple user, create an entry in the REST Insert Multiples \[sys\_rest\_insert\_multiple\] table.
 -   Enable the **Use data source format** in the REST insert multiple entry.
@@ -627,14 +628,14 @@ This request body format matches staging table columns. Use the **records** arra
 }
 ```
 
- The [Data dictionary tables](https://www.servicenow.com/docs/access?context=c_DataDictionaryTables&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) provides details on table fields in the system.
+ The  provides details on table fields in the system.
 
  Data type: Array
 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -647,7 +648,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

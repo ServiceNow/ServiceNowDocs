@@ -2,6 +2,7 @@
 title: Manage collaboration requests
 description: As an admin, view and approve or reject collaboration requests in the App Engine Management Center \(AEMC\) from developers who want assistance building their applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/manage-collaboration-requests.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -31,7 +32,7 @@ Requests from collaborators may be approved automatically depending on permissio
 -   Creator Studio users who have already created an app \(or have had one created for them\) have delegated development permissions, and are automatically approved to collaborate on other apps.
 -   Current delegated developers without the Creator Studio User or Creator Studio Restricted User roles are automatically approved to collaborate in Creator Studio.
 
-For more information about managing collaboration and permissions, see [Collaborate with other developers](../concept/aes-collaboration-feature-overview.md#).
+For more information about managing collaboration and permissions, see [Collaborate with other developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-collaboration-feature-overview.md).
 
 ## Procedure
 
@@ -43,14 +44,14 @@ For more information about managing collaboration and permissions, see [Collabor
 
 2.  Select a collaboration request to review its details.
 
-    ![Pending Collaboration request record](../image/collaboration-record.png "Pending collaboration request record")
+    \[Omitted image "collaboration-record.png"\] Alt text: Pending Collaboration request record
 
 3.  Return to the **Details** tab and review the request.
 
 4.  Approve or reject the request.
 
-    -   If the request is approved, the user invited to be a collaborator is added as a developer to the specified app. The collaborator can now work on the parts of the app defined in the Collaboration Descriptor, but cannot concurrently develop other apps in AES. For more information about the AES User role, see [Components installed with App Engine Studio](../reference/installed-with-aes.md).
+    -   If the request is approved, the user invited to be a collaborator is added as a developer to the specified app. The collaborator can now work on the parts of the app defined in the Collaboration Descriptor, but cannot concurrently develop other apps in AES. For more information about the AES User role, see [Components installed with App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/installed-with-aes.md).
     -   If the request is rejected, the request is closed, and the primary developer is notified by email.
 
-**Parent Topic:**[Managing requests using AEMC](../concept/manage-aemc-requests.md)
+**Parent Topic:**[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/manage-aemc-requests.md)
 

@@ -2,6 +2,7 @@
 title: SaaS detection report
 description: Use the SaaS detection report to discover and manage all SaaS applications accessed via a browser and configured within the ServiceNow Agent Client Collector for Visibility - Content \(ACC-VC\) product. The SaaS applications that can be managed through this report can be paid or free ones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/shadow-saas-analytics.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -17,7 +18,7 @@ Use the SaaS detection report to discover and manage all SaaS applications acces
 
 **Important:** To view the SaaS detection report, you must do the following:
 
--   Request and install version 14.0.9 or later of the Software Asset Management -SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](../task/request-saas-license-management.md).
+-   Request and install version 14.0.9 or later of the Software Asset Management -SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/request-saas-license-management.md).
 -   Install the Agent Client Collector for Visibility - Content \(ACC-VC\) product version 1.3.0 or later.
 
 This report helps you manage your shadow IT spend more effectively by viewing all the users who access these applications, the usage of these applications, and how long each application has been used.
@@ -113,5 +114,5 @@ Total duration for which the product has been accessed by its users.
 |Total accessed time|Total duration for which the application has been accessed by a user.|
 |Last accessed time|Last time when the application was accessed by a user.|
 
-**Parent Topic:**[Software Asset Management references](references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/references.md)
 

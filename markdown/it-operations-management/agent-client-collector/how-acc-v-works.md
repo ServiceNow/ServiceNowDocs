@@ -2,6 +2,7 @@
 title: How Agent Client Collector for Visibility works
 description: Agent Client Collector for Visibility \(ACC-V\) requires installation of ServiceNow Agent Client Collector \(ACC\) on the target host. ACC is a derivative of Sensu-Go, an open-source software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/how-acc-v-works.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -40,7 +41,7 @@ The ACC-V Check Definition, **Enhanced Discovery**, is initiated by the ServiceN
 
 During this time, the MID Server also serves any relevant Assets or Plugins that the ACC requests, making sure it is relevant to the particular Operating System, platform, OS version, and architecture on which the ACC is running.
 
-You can edit and modify all parts of the ACC-V application including check type, policy, and check definition. See [Checks and policies](checks-policies.md) for more information.
+You can edit and modify all parts of the ACC-V application including check type, policy, and check definition. See [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/checks-policies.md) for more information.
 
 ## Virtual machines and cloud instances
 

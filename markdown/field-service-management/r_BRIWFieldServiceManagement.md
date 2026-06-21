@@ -2,7 +2,10 @@
 title: Business rules installed with Field Service Management
 description: Business rules are added with Field Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/r\_BRIWFieldServiceManagement.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -376,5 +379,5 @@ Work Order\[wm\_order\]
 When set to active, the query rules on the underlying table will be used to filter the records based on territory of the logged-in user.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Field Service Management](r_InstalledWithFSM.md)
+</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_InstalledWithFSM.md)
 

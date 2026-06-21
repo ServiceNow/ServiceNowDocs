@@ -2,6 +2,7 @@
 title: Create a capability profile for the CrowdStrike Falcon Insight integration
 description: Create a profile and select the CrowdStrike Falcon Insight capabilities that you want the profile to run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/create-a-capability-profile-for-the-crowdstrike-falcon-insight-integration.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -150,12 +151,12 @@ Capabilities of the CrowdStrike Falcon Insight profile.Select the capabilities t
 </td></tr></tbody>
 </table>    The following example shows a complete form for a profile with the Get System Details capability.
 
-    ![Falcon Insight Profile Details.](../image/falcon-insight-profile-details.png)
+    \[Omitted image "falcon-insight-profile-details.png"\] Alt text: Falcon Insight Profile Details.
 
 4.  Click **Next**.
 
 
 ## What to do next
 
-Now you can[configure your profile](configure-profiles-and-security-incidents-for-the-crowdstrike-falcon-insight-integration.md). Ensure that you have [reviewed the concepts for configuring profiles and trigger conditions](../concept/define-trigger-conditions.md) before you configure the profile.
+Now you can[configure your profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/configure-profiles-and-security-incidents-for-the-crowdstrike-falcon-insight-integration.md). Ensure that you have [reviewed the concepts for configuring profiles and trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/define-trigger-conditions.md) before you configure the profile.
 

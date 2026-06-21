@@ -2,6 +2,7 @@
 title: Install Agent Client Collector on Windows using ITOM Cloud Services
 description: Install Agent Client Collector on a Windows machine without a MID Server by using ITOM Cloud Services. When you send information through the cloud, you enable the MID Server to be used for more persistent resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-cloud-service-install-windows.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -19,13 +20,13 @@ Install Agent Client Collector on a Windows machine without a MID Server by usin
 
 Install the ITOM Cloud Services plugin \(sn\_itom\_cloud\_svc\).
 
-Create an agent registration key, as described in [Configure an agent registration key](agent-registration-key-configuration.md).
+Create an agent registration key, as described in [Configure an agent registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/agent-registration-key-configuration.md).
 
 Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-For details on working with Cloud Services, see [DEX Architecture](https://www.servicenow.com/docs/access?context=dex-architecture&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For details on working with Cloud Services, see .
 
 ## Procedure
 
@@ -56,7 +57,7 @@ CONNECT\_WITHOUT\_MID
 
 </td><td>
 
-Specify **true** to enable ITOM Cloud Services \(**true**\). If you don't specify a value, the regular MID Server websocket installation is invoked.For details on configuring a websocket on the MID Server, see [Configure the websocket server on the MID Server](acc-configure-web-server.md).
+Specify **true** to enable ITOM Cloud Services \(**true**\). If you don't specify a value, the regular MID Server websocket installation is invoked.For details on configuring a websocket on the MID Server, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-configure-web-server.md).
 
 </td></tr><tr><td>
 
@@ -84,5 +85,5 @@ ServiceNow instance that the agent is registering with.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Agent Client Collector installation on a Windows machine](../concept/acc-windows-install-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Windows machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-windows-install-concept.md)
 

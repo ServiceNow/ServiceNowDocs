@@ -2,6 +2,7 @@
 title: Create a messaging notification
 description: Notifications define when a message is sent, who it is sent to, and what it contains. To send a notification to Slack or Teams, add a messaging content record to the notification and configure the notification messaging channel. Notifications that require action must be sent to individual users instead of groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-messaging-notification.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -25,7 +26,7 @@ Role required: admin
 
 3.  Fill in or modify the fields as appropriate.
 
-    ![Identifying the notification](../image/EmailNotifFormTop.png)
+    \[Omitted image "EmailNotifFormTop.png"\] Alt text: Identifying the notification
 
 <table id="table_tlr_5hd_rdb"><thead><tr><th>
 
@@ -76,7 +77,7 @@ Enter a description for this notification.
 
 5.  Open the **When to send** tab and complete the form.
 
-    ![Specifying when to send the notification.](../image/email_notification_when_to_send.png)
+    \[Omitted image "email\_notification\_when\_to\_send.png"\] Alt text: Specifying when to send the notification.
 
     **Note:** If the same trigger generates multiple notifications, the system only sends one notification. The system considers all other notifications, even if they have a different subject and body, as duplicates. The Ignore Duplicates business rule controls this functionality.
 
@@ -96,7 +97,7 @@ Send when
 
 Select under what condition the notification is sent: -   When a record is inserted or updated
 -   When a particular event is fired
--   When [Notification step](https://www.servicenow.com/docs/access?context=trigger-notification-action-designer&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US) in Flow Designer
+-   When Notification step in Flow Designer
 
 
 </td></tr><tr><td>
@@ -145,7 +146,7 @@ Advanced condition
 
 </td><td>
 
-Create a script to define more filter conditions, like sending a notification based on the current messaging record, changing field values, or changing system properties. [The advanced condition](../concept/c_OptSpecifyingAdvancedCond.md) script must return **true** or set a global answer variable to **true** to send the notification.
+Create a script to define more filter conditions, like sending a notification based on the current messaging record, changing field values, or changing system properties. [The advanced condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_OptSpecifyingAdvancedCond.md) script must return **true** or set a global answer variable to **true** to send the notification.
 
  The advanced condition script uses the following global variables:
 
@@ -232,5 +233,5 @@ Select this check box if the event parameter 2 contains one or more notification
 8.  Click **Update**.
 
 
-**Parent Topic:**[Notifications in messaging applications](../concept/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/messaging-integration.md)
 

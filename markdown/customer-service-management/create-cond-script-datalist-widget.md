@@ -2,7 +2,10 @@
 title: Hide or show categories in the Data List widget
 description: Create a condition script to hide or show a category in the Portal Data List widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-cond-script-datalist-widget.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Create a condition script to hide or show a category in the Portal Data List wid
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see[Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md)
+The UI Components for Customer Portals plugin must have been activated. For more information, see[Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-config-portal-widget.md)
 
 Role required: admin or sp\_admin
 

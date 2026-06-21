@@ -2,6 +2,7 @@
 title: Configure Osqueryd logs for SAM total usage metrics
 description: By default, Osquery supports log rotation based on size. To enable it for SAM total usage metrics and to configure the log size and rotation, you need to add specific flags for Osqueryd service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -70,5 +71,5 @@ This file has read/write permissions and contains the marker data: **Data and La
 
 The Osqueryd can also be configured to write its logs to a custom directory path instead of the default directory. If you choose a custom directory, modify the check definition \[samadvanced-background-log-check\].
 
-**Parent Topic:**[Using push-based Discovery and SAM together](../concept/using-enhanced-discovery-and-sam-together.md)
+**Parent Topic:**[Using push-based Discovery and SAM together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/using-enhanced-discovery-and-sam-together.md)
 

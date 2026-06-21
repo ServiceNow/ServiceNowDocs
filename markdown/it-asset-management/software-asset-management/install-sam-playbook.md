@@ -2,6 +2,7 @@
 title: Install Software Asset Management Guided Experiences
 description: Install the Software Asset Management Guided Experiences \(com.sn\_sam\_playbook\) application for step-by-step guidance for completing tasks in your daily software management activities.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/install-sam-playbook.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -40,7 +41,7 @@ The following items are installed with the Software Asset Management Guided Expe
 
     You can search for the application by its name or ID. If you can’t find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -53,5 +54,5 @@ The following items are installed with the Software Asset Management Guided Expe
 5.  Select **Install**.
 
 
-**Parent Topic:**[Software Asset Management Guided Experiences](../concept/playbook-entitlementsetup-workspace.md)
+**Parent Topic:**[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)
 

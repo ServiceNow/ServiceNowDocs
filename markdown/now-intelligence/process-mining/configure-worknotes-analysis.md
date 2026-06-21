@@ -2,6 +2,7 @@
 title: Configure worknotes analysis
 description: Configure worknotes analysis for a process table to view the worknotes analysis for a project based on that process table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/configure-worknotes-analysis.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -30,9 +31,9 @@ Configure worknotes analysis for a process table to view the worknotes analysis 
 
 2.  Select a table from the list if you want to configure worknotes analysis for a table available in the list.
 
-    If you don’t have the table listed, select **New**. For more information, see [Create process configuration record for the table](create-process-config.md).
+    If you don’t have the table listed, select **New**. For more information, see [Create process configuration record for the table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/create-process-config.md).
 
-    ![Configure Worknotes Analysis](../image/worknotes-configure.png)
+    \[Omitted image "worknotes-configure.png"\] Alt text: Configure Worknotes Analysis
 
 3.  In the **Work Note Analysis** tab, fill in the fields.
 
@@ -83,5 +84,5 @@ Enter user names that are associated with system-generated work notes to exclude
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Worknotes analysis](../concept/worknotes-analysis.md)
+**Parent Topic:**[Worknotes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/worknotes-analysis.md)
 

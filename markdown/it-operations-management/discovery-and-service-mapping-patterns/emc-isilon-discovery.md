@@ -2,6 +2,7 @@
 title: Dell EMC Isilon discovery
 description: The ServiceNow Discovery application uses the Dell EMC Isilon pattern to find components of Dell EMC Isilon. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/emc-isilon-discovery.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -15,17 +16,17 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 The ServiceNow Discovery application uses the Dell EMC Isilon pattern to find components of Dell EMC Isilon. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-For a complete list of devices and applications that ITOM Visibility can discover, see [Detailed information on products discovered by ITOM Visibility](../reference/r_SupportedApplications.md).
+For a complete list of devices and applications that ITOM Visibility can discover, see [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   **Create SNMP Community credentials**
 
-    Create an SNMP Community credential for the Isilon cluster. The discovery process begins with using SNMP-based queries to classify an application as an Isilon cluster. For more information, see SNMP community credentials in [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    Create an SNMP Community credential for the Isilon cluster. The discovery process begins with using SNMP-based queries to classify an application as an Isilon cluster. For more information, see SNMP community credentials in .
 
 -   **Verify Dell EMC Isilon user permissions and roles**
 
@@ -51,7 +52,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   ISI\_PRIV\_SMB
 -   **Create basic authentication credentials**
 
-    In the Credentials module of the ServiceNow platform, create a basic authentication credential for the same Dell EMC Isilon user. For more information, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    In the Credentials module of the ServiceNow platform, create a basic authentication credential for the same Dell EMC Isilon user. For more information, see .
 
 
 ## Data collected by Discovery for Dell EMC Isilon
@@ -118,7 +119,7 @@ The graphic illustrates CIs that are part of Isilon discovery.
 
 **Note:** This Dependency Views map was simplified for clarity. Your Isilon deployments can contain many more CIs.
 
-![Isilon components](../image/Isilon-components.png "Dependency Views showing Isilon components")
+\[Omitted image "Isilon-components.png"\] Alt text: Isilon components
 
 ## CI Relationships
 
@@ -140,5 +141,5 @@ The graphic illustrates CIs that are part of Isilon discovery.
 |cmdb\_ci\_storage\_volume|Owns::Owned by|cmdb\_ci\_storage\_cluster|
 |cmdb\_ci\_storage\_pool|Owns::Owned by|cmdb\_ci\_storage\_cluster \(reference **hosted\_by**\)|
 
-**Parent Topic:**[Available discovery patterns](available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

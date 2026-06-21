@@ -2,6 +2,7 @@
 title: Add a Health and Safety related document
 description: Add and store documents Health and Safety related documents so that they can be easily and appropriately referenced in related records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-core/add-hs-related-document.html
 release: xanadu
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -23,7 +24,7 @@ Role required: sn\_ohs\_im.document\_writer
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the configuration icon \(![Configuration icon](../../hs-risk-management/image/icon-config.png)\).
+2.  Select the configuration icon \(\[Omitted image "icon-config.png"\] Alt text: Configuration icon\).
 
 3.  In the **Configuration** tab, select **Standards and documents** and then **All**.
 
@@ -33,7 +34,7 @@ Role required: sn\_ohs\_im.document\_writer
 
 5.  On the form, fill in the fields.
 
-    For more information on field descriptions, see [Health and Safety document form](../reference/hs-document-form.md).
+    For more information on field descriptions, see [Health and Safety document form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-core/hs-document-form.md).
 
 6.  Select **Save**.
 
@@ -43,5 +44,5 @@ Role required: sn\_ohs\_im.document\_writer
 -   The document is listed in the **Standards and documents** list under **Configuration** and is saved in the Health and Safety document \[sn\_ohs\_im\_document\] table.
 -   The document is available to be referenced in Health and Safety records such as **Documents** tab on the Contractor company form when uploading documents related to the company or its workers.
 
-**Parent Topic:**[Using Health and Safety Core](../../hs-core/concept/using-hs-core.md)
+**Parent Topic:**[Using Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-core/using-hs-core.md)
 

@@ -2,6 +2,7 @@
 title: Active Sessions
 description: View the trend line of the active users on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/sc-active-sessions.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -20,5 +21,5 @@ The trend line can be viewed for the following metrics:
 -   User sessions: Metrics related to active user sessions on your instance.
 -   Privileged user sessions: Metrics related to privileged users or those who have been assigned additional roles.
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)
 

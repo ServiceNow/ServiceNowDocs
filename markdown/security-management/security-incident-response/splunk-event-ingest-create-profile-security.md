@@ -2,6 +2,7 @@
 title: Create and name an event profile for the Splunk Enterprise Security event ingestion integration
 description: You create an event profile in your ServiceNow AI Platform instance and determine which Splunk notable events create security incidents.Depending on the profile defined, Splunk ES notable events are automatically ingested into the Security Operations environment of your ServiceNow AI Platform instance.You can set up a profile so that notable events are automatically ingested.After you have created a profile for a scheduled notable event type ingestion, select a Splunk Enterprise Security correlation rule name for this profile for which you want to map corresponding notable events to a ServiceNow AI Platform Security Incident Response security incident.After you identify the specific correlation rule and notable event type for the profile, the next step is to map individual notable event fields to the fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.During the notable event field-mapping step, you map individual event fields from notable events to fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.After you complete the mapping step, preview the values that you mapped in a ServiceNow AI Platform Security Incident Response \(SIR\) security incident. This preview step permits you to verify that you have mapped all the notable fields that you want displayed on the security incident.For automated notable event ingestion profiles, this step is required in the event profile configuration. During this step, you can verify the default settings for notable event retrieval or modify the scheduling as needed. This step also permits you to retrieve historical notable events using a date range.Security incidents can be created and updated after they are created with a bi-directional interface with the Splunk Enterprise Security integration.Depending on the profile defined, Splunk ES notable events are forwarded manually as discrete notable events into the Security Operations environment of your ServiceNow AI Platform instance.You can set up a profile for manual forwarded events.During the notable event field mapping step, you map individual event fields from notable events to fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.Install and set up the ServiceNow Security Operations Event Ingestion Addon for Splunk Enterprise Security application in your Splunk enterprise console or Splunk Cloud instance if you want to export events manually and on-demand from your Splunk Enterprise Security console for this integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -43,9 +44,9 @@ All notables are initially ingested for a configured correlation search type in 
 
     There’s a one-to-one relationship between notable events that are ingested with a profile and connections to your Splunk ES console: one notable event type for one connection.
 
-4.  To create profiles for scheduled notable events, see [Set up a profile for scheduled notable event ingestion](splunk-event-ingest-create-profile-security.md#).
+4.  To create profiles for scheduled notable events, see [Set up a profile for scheduled notable event ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md).
 
-5.  To create profiles for manual event forwarding, see [Set up a profile for manual event forwarding](splunk-event-ingest-create-profile-security.md#).
+5.  To create profiles for manual event forwarding, see [Set up a profile for manual event forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md).
 
 
 ## Set up a profile for scheduled notable event ingestion
@@ -56,13 +57,13 @@ The following table shows the list of tasks you need to follow to set up a profi
 
 |Task|Section|
 |----|-------|
-|Create an event profile|See [Create profiles for scheduled notable event ingestion](splunk-event-ingest-create-profile-security.md#)|
-|Select notable events based on correlation search name|See [Select notable events based on correlation rule name for the profile for Splunk ES Event Ingestion integration](splunk-event-ingest-create-profile-security.md#)|
-|Map notable event fields|See [Mapping notable event fields for the Splunk Enterprise Security integration](splunk-event-ingest-create-profile-security.md#)|
-|Create custom mappings|See [Create mappings for Splunk ES notable event incident review and contributing event details \(scheduled ingestion\)](splunk-event-ingest-create-profile-security.md#)|
-|Preview the security incident|See [Preview the security incident for the Splunk Enterprise Security Event Ingestion integration](splunk-event-ingest-create-profile-security.md#)|
-|Schedule and retrieve new and updated notable events|See [Schedule and retrieve new and updated notable events for the Splunk Enterprise Security Event Ingestion integration](splunk-event-ingest-create-profile-security.md#)|
-|Automate notable event updates and closure based on SIR incident status|See [Automate notable event updates and closure based on SIR incident status](splunk-event-ingest-create-profile-security.md#)|
+|Create an event profile|See [Create profiles for scheduled notable event ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)|
+|Select notable events based on correlation search name|See [Select notable events based on correlation rule name for the profile for Splunk ES Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)|
+|Map notable event fields|See [Mapping notable event fields for the Splunk Enterprise Security integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)|
+|Create custom mappings|See [Create mappings for Splunk ES notable event incident review and contributing event details \(scheduled ingestion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)|
+|Preview the security incident|See [Preview the security incident for the Splunk Enterprise Security Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)|
+|Schedule and retrieve new and updated notable events|See [Schedule and retrieve new and updated notable events for the Splunk Enterprise Security Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)|
+|Automate notable event updates and closure based on SIR incident status|See [Automate notable event updates and closure based on SIR incident status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)|
 
 ### Create profiles for scheduled notable event ingestion
 
@@ -145,7 +146,7 @@ Additional text to help you distinguish this profile from other profiles.
 </td></tr></tbody>
 </table>    The following figure is an example of a completed form for a scheduled notable event type.
 
-    ![Splunk ES Event Profile](../image/new-images/notable-event-profile.png)
+    \[Omitted image "notable-event-profile.png"\] Alt text: Splunk ES Event Profile
 
 5.  For a profile with a scheduled notable event, choose one option to continue with the profile configuration.
 
@@ -187,19 +188,19 @@ View the available correlation rules in your ServiceNow AI Platform instance so 
     |In the Correlation Rule List, double-click a Correlation Rule.|The **Selected** column is populated with your selection.|
     |In the Correlation Rule List, single-click a Correlation Rule.|The correlation rule is selected. With the arrow keys, move the selected correlation rule from **Available** to **Selected**.|
 
-    ![Splunk ES Event Profile: Select Notable Event](../image/new-images/splunk_es_profile_select.png)
+    \[Omitted image "splunk\_es\_profile\_select.png"\] Alt text: Splunk ES Event Profile: Select Notable Event
 
 3.  Choose one option to continue.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d226967e857">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d88493e857">
 
 Option
 
-</th><th align="left" id="d226967e860">
+</th><th align="left" id="d88493e860">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d226967e866">
+</th></tr></thead><tbody><tr><td id="d88493e866">
 
 **Continue, or alternatively, click Mapping in the progress bar**
 
@@ -207,7 +208,7 @@ Description
 
 The Mapping form is displayed. **Mapping** is selected on the progress bar. The next step is to map notable event fields to a SIR security incident.
 
-</td></tr><tr><td id="d226967e883">
+</td></tr><tr><td id="d88493e883">
 
 **Update**
 
@@ -215,7 +216,7 @@ The Mapping form is displayed. **Mapping** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Notable Event Profiles list is displayed.
 
-</td></tr><tr><td id="d226967e892">
+</td></tr><tr><td id="d88493e892">
 
 **Previous**
 
@@ -223,7 +224,7 @@ Your data is saved and the Splunk Notable Event Profiles list is displayed.
 
 The **Name** step is displayed.
 
-</td></tr><tr><td id="d226967e904">
+</td></tr><tr><td id="d88493e904">
 
 **Delete**
 
@@ -251,7 +252,7 @@ If Multiple correlations are used, then notable events can be fetched by selecti
 
 After you click to fetch data, the Splunk notable event field names and corresponding values are populated on the left side of the form. These are the Splunk notable event fields that are available to map to the SIR security incident fields. Some fields can be mapped multiple times to the SIR security incident fields.
 
-![Default mapping for scheduled notable events](../image/new-images/splunk_es_default_notable.png)
+\[Omitted image "splunk\_es\_default\_notable.png"\] Alt text: Default mapping for scheduled notable events
 
 You may prefer to review a few sample notable events on your Splunk console to ingest for the field mapping configuration step. This step is labeled Mapping on the progress bar. If this page is not displayed, click **Mapping** on the progress bar. You can ingest up to five sample notable events from Splunk Enterprise Security to assist with the notable event field mapping process. There are options to either ingest the five most recent notable events for the correlation rule selected or ingest up to five specific notable events based on the notable event IDs.
 
@@ -298,13 +299,13 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     In the following figure, the field-name value pairs for the ingested notable event, or the imported sample events, are displayed on the left side of this form after the ingestion pull is completed. These values are the values that you map to the security incident fields on the SIR Incident Field Mapping side of the form.
 
-    ![Fetch sample data and ingested notable events](../image/new-images/splunk_map_initial_security.png)
+    \[Omitted image "splunk\_map\_initial\_security.png"\] Alt text: Fetch sample data and ingested notable events
 
 3.  To map a field value from the left side of the form to a field on the security incident on the right side of the form, click-hold a blue field name on the left side of the form.
 
 4.  Drag the field name, for example, `rule_name`, and drop it on a field in the Input Expression column next to a field name in the Security Incident column.
 
-    ![Drag-and-drop for values shown by arrow.](../image/splunk_es_drag_drop.png)
+    \[Omitted image "splunk\_es\_drag\_drop.png"\] Alt text: Drag-and-drop for values shown by arrow.
 
     The field value is displayed in the Input Expression column. In the following image, `rule_name` is mapped to the `Short description` field on the security incident. However, you can match any value from the left side to a field on the right. Verify that the value is mapped correctly on the security incident during the preview step.
 
@@ -312,7 +313,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     A gray field indicates that a field has been selected and mapped to a field on the security incident. This color-coding helps you track the mapping.
 
-    ![Short description field and value on security incident highlighted](../image/splunk_es_map_3_security.png)
+    \[Omitted image "splunk\_es\_map\_3\_security.png"\] Alt text: Short description field and value on security incident highlighted
 
 5.  To add fields to the default fields displayed on the security incident on the right side of the form, follow these steps.
 
@@ -324,7 +325,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
         In the expanded list for the new field, some fields are shaded. In the following figure, `rule_name` has a gray background, because it has been mapped in the security incident. Similar to the color-coding for the notable events fields on the left side of the form, this color-coding for the security incident fields on the right helps you track the already mapped SIR incident fields.
 
-        ![Category field mapping](../image/splunk_es_map_4_security.png)
+        \[Omitted image "splunk\_es\_map\_4\_security.png"\] Alt text: Category field mapping
 
         **Note:** So that multiple observables can be displayed on the same security incident, the Observable field can be mapped multiple times with different values. Similarly, the Configuration Item and Work notes fields support multiple values. If you try to map two values to a field that cannot support multiple values, when you preview the incident, an error message is displayed that there is no value for the field. Similarly, if a field on a security incident has a list from which you can choose multiple options, and you try to map an option to that field that is not displayed on the list, the field is not populated on the security incident.
 
@@ -336,7 +337,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     The following figure is an example of an edited mapping. In the bottom field on the right, the Work notes field is added, and it has more than one value. Note that for long text string field, you can expand the mapping field to see the full string and re-size as needed by pulling the lower right corner of the field as indicated in screen shot below with the added Work notes field:
 
-    ![Work notes with multiple values highlighted](../image/splunk_es_mapexample_security.png)
+    \[Omitted image "splunk\_es\_mapexample\_security.png"\] Alt text: Work notes with multiple values highlighted
 
     **Warning:** Please note that in the **SIR Incident Field Mapping** section, the URL and port number mentioned in the **Input Expression** field is just an example and not the URL or port number provided out-of-the-box.
 
@@ -344,9 +345,9 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     The following image is an example of how the values in the preceding image are displayed on the security incident.
 
-    ![Work Note field value displayed on security incident.](../image/splunksi_notes.png)
+    \[Omitted image "splunksi\_notes.png"\] Alt text: Work Note field value displayed on security incident.
 
-7.  To receive updates for the mapped fields in SIR, select the **Enable Updates** check box against the Input Expression.![Enable updates check box selected](../image/splunk_es_enable_updates.png)
+7.  To receive updates for the mapped fields in SIR, select the **Enable Updates** check box against the Input Expression.\[Omitted image "splunk\_es\_enable\_updates.png"\] Alt text: Enable updates check box selected
 
 8.  After you have completed the preceding field-mapping steps, you can use the same field values in the Incident Generation Conditions builder to define additional criteria that an incoming notable event must satisfy to create a SIR security incident.
 
@@ -358,7 +359,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
         The options in the lists for the first field in the Filter conditions builder match the fields that are displayed on the Notable Event Sample Ingestion section for the events you ingested. These fields are dynamic and change depending on the Splunk notable events that you ingest, or the event that you select for the manually forwarded notable event samples. Criteria that you enter are case-sensitive, and they must match exactly the values of the Splunk Enterprise Security notable event. If you are not sure about the values to enter in the filter fields, you may prefer to return to your Splunk Enterprise Security console and review your notable events for the keywords.
 
-        ![Filter conditions builder](../image/splunk_es_filters_security.png)
+        \[Omitted image "splunk\_es\_filters\_security.png"\] Alt text: Filter conditions builder
 
     2.  Using the lists and fields of the conditions builder, set filters for the first row.
 
@@ -370,7 +371,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
         The following image is an example with two conditions that must be matched before security incidents are created.
 
-        ![Filter conditions builder:2](../image/splunk_es_filters_2_security.png)
+        \[Omitted image "splunk\_es\_filters\_2\_security.png"\] Alt text: Filter conditions builder:2
 
         You have set the incident generation conditions so that security incidents are created only when both of the filtering conditions that you entered are matched.
 
@@ -394,11 +395,11 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
         All the field values that you select in the multi-selection input field are matched for aggregation criteria using the AND condition. Click **Add New Criteria** to select multiple field matching conditions where aggregation occurs if any one of the multi-selected field conditions that are defined are met using the OR condition.
 
-        ![Aggregation criteria](../image/splunk_es_event_aggregation.png)
+        \[Omitted image "splunk\_es\_event\_aggregation.png"\] Alt text: Aggregation criteria
 
         If a new notable event matches all the values that are selected in the aggregation field conditions in the mapping step, the new notable event is automatically added to the most recently opened security incident with the same field values. As a user with the sn\_si.analyst role working with security incidents, you can view all the added aggregate notable events on a related list on a security incident. All of the aggregated notable events on a security incident are displayed on the Splunk Event to Tasks related list. This list details associated timestamps and aggregated field values. This information helps you understand why these notable events are being aggregated to existing security incidents. If this tab is not displayed, scroll to the left side of the record under Related Links and click the **Show All Related Lists** link.
 
-        ![Splunk Event to Tasks related list highlighted](../image/splunk_es_event_aggregation2.png)
+        \[Omitted image "splunk\_es\_event\_aggregation2.png"\] Alt text: Splunk Event to Tasks related list highlighted
 
     4.  To log a work note for a new notable event that is recently added on the security incident, select the check box to enable this option.
 
@@ -408,15 +409,15 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 10. Choose one to continue with the profile configuration.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d226967e1588">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d88493e1588">
 
 Option
 
-</th><th align="left" id="d226967e1591">
+</th><th align="left" id="d88493e1591">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d226967e1597">
+</th></tr></thead><tbody><tr><td id="d88493e1597">
 
 ** **
 
@@ -424,7 +425,7 @@ Description
 
  
 
-</td></tr><tr><td id="d226967e1604">
+</td></tr><tr><td id="d88493e1604">
 
 **Continue**
 
@@ -432,7 +433,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d226967e1621">
+</td></tr><tr><td id="d88493e1621">
 
 **Update**
 
@@ -440,7 +441,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d226967e1630">
+</td></tr><tr><td id="d88493e1630">
 
 **Previous**
 
@@ -448,7 +449,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The Notable Event Selection form is displayed.
 
-</td></tr><tr><td id="d226967e1640">
+</td></tr><tr><td id="d88493e1640">
 
 **Delete**
 
@@ -484,13 +485,13 @@ Preview a security incident and edit the mapping again as required to fix fields
 
 4.  From the Sample Notable Event IDs choice list, select an item.
 
-    ![Select event choice list expanded.](../image/new-images/splunk-es-preview.png)
+    \[Omitted image "splunk-es-preview.png"\] Alt text: Select event choice list expanded.
 
     The security incident is displayed. Do not change any information in the fields. This view is a read-only view, and a record of this security incident is not saved.
 
 5.  Review the field mapping of the notable event values on the security incident.
 
-    ![Error message on a security incident in the preview.](../image/new-images/preview-select-event.png)
+    \[Omitted image "preview-select-event.png"\] Alt text: Error message on a security incident in the preview.
 
     The preceding image is an example of a preview with a mapping error. In this example, a field value from the notable event does not have an acceptable value for the reference field on the SIR incident form. An error message is displayed that indicates an input value was not found for the `Configuration item` field in the ServiceNow® customer management database \(CMDB\). As a result, this mapped field value will not appear on the SIR security incident form without further modification.
 
@@ -502,19 +503,19 @@ Preview a security incident and edit the mapping again as required to fix fields
 
     The following figure is an example of the Incident Details tab on the bottom half of a SIR security incident after all error messages are resolved. For this example, the Description and Work notes fields were mapped, and these fields are populated with the values from the value pairs pulled from the Splunk Enterprise Security notable event samples. The first Work notes field has no value. This field was left blank on the mapping grid during the mapping step. The additional Work Note fields that have values were added to the mapping section.
 
-    ![Work note and Description fields on the security incident preview](../image/previewsplunk_es_worknote_security.png)
+    \[Omitted image "previewsplunk\_es\_worknote\_security.png"\] Alt text: Work note and Description fields on the security incident preview
 
 9.  After you have fixed any errors and verified that the fields are the way you want them, choose one option to continue.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d226967e1841">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d88493e1841">
 
 Option
 
-</th><th align="left" id="d226967e1844">
+</th><th align="left" id="d88493e1844">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d226967e1850">
+</th></tr></thead><tbody><tr><td id="d88493e1850">
 
 **Continue**
 
@@ -522,7 +523,7 @@ Description
 
 The Scheduling form is displayed for profiles with scheduled notable events. **Scheduling** is selected on the progress bar.
 
-</td></tr><tr><td id="d226967e1864">
+</td></tr><tr><td id="d88493e1864">
 
 **Finish**
 
@@ -530,7 +531,7 @@ The Scheduling form is displayed for profiles with scheduled notable events. **S
 
 For profiles with configured for manual event forwarding, click **Finish**. There is no scheduling step for profiles with event data that are exported on-demand directly from the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d226967e1879">
+</td></tr><tr><td id="d88493e1879">
 
 **Update**
 
@@ -538,7 +539,7 @@ For profiles with configured for manual event forwarding, click **Finish**. Ther
 
 Your data is saved, and you are returned to the Splunk Event Profiles list.
 
-</td></tr><tr><td id="d226967e1891">
+</td></tr><tr><td id="d88493e1891">
 
 **Previous**
 
@@ -546,7 +547,7 @@ Your data is saved, and you are returned to the Splunk Event Profiles list.
 
 The Mapping step on the progress bar is displayed.
 
-</td></tr><tr><td id="d226967e1901">
+</td></tr><tr><td id="d88493e1901">
 
 **Delete**
 
@@ -558,7 +559,7 @@ Delete this event profile and the Splunk Event Profiles list is displayed.
 </table>
 #### What to do next
 
-If no error messages are displayed, and you are satisfied with the field mapping on the security incident, the next step is to [Schedule and retrieve alerts for the Splunk Enterprise Event Ingestion integration](splunk-event-ingest-schedule.md).
+If no error messages are displayed, and you are satisfied with the field mapping on the security incident, the next step is to [Schedule and retrieve alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-schedule.md).
 
 ### Schedule and retrieve new and updated notable events for the Splunk Enterprise Security Event Ingestion integration
 
@@ -586,15 +587,15 @@ When the polling schedule is set, the scheduled job pulls both new and updated n
 
 2.  Choose one to schedule how and when notable events are pulled from the Splunk Enterprise Security console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d226967e2023">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d88493e2023">
 
 Option
 
-</th><th align="left" id="d226967e2026">
+</th><th align="left" id="d88493e2026">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d226967e2032">
+</th></tr></thead><tbody><tr><td id="d88493e2032">
 
 **-   On-going Event Ingestion field selected
 -   One-Time Retrieval field cleared
@@ -604,7 +605,7 @@ Description
 
 On-going EventBased on the default setting, the ServiceNow AI Platform instance pulls from the Splunk Enterprise Security server for new and updated notable events every five minutes. Security incidents are created if notable events are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d226967e2059">
+</td></tr><tr><td id="d88493e2059">
 
 **-   On-going Notable Event field cleared
 -   One-Time Retrieval field selected
@@ -619,7 +620,7 @@ One-Time RetrievalUse this configuration if you want a one-time pull to ingest h
 After the notable events are pulled, this setting will not retrieve more notable events for this profile going forward from the current date. This setting populates the security incident with all the notable events that are found for the range you enter.
 
 </td></tr></tbody>
-</table>    ![Scheduling page with calendar displayed.](../image/splunk_es_scheduling_security.png)
+</table>    \[Omitted image "splunk\_es\_scheduling\_security.png"\] Alt text: Scheduling page with calendar displayed.
 
     As an example for scheduling an initial notable event ingestion time, if you have a daily Splunk security check that runs once a day at 4 AM local time, you can set up the corresponding notable event profile in your ServiceNow AI Platform instance to run at 4:05 AM local time to capture the security failure event right away and create a security incident. Enter `04 05 00` in the Initial event ingestion field. In the Increment \(Minutes\) field, enter `1440` \(24 hours\) to schedule the next event ingestion for 24 hours from the initial event ingestion. Both the initial event ingestion time and next event ingestion time are displayed in the fields.
 
@@ -665,15 +666,15 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 2.  Follow the instructions below to complete the configuration for updating notable events based on security incident updates.
 
-<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d226967e2318">
+<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d88493e2318">
 
 Option or Field
 
-</th><th align="left" id="d226967e2321">
+</th><th align="left" id="d88493e2321">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d226967e2327">
+</th></tr></thead><tbody><tr><td id="d88493e2327">
 
 **Update Notable Events upon SIR Incident Creation**
 
@@ -681,7 +682,7 @@ Description
 
 Select this option if you want to update the notable event status and add additional comments when a security incident is created from the notable event. This can occur for both the initial triggering notable events that create the security incident, as well as aggregated events.
 
-</td></tr><tr><td id="d226967e2336">
+</td></tr><tr><td id="d88493e2336">
 
 **Initial Notable Event Status Update**
 
@@ -689,7 +690,7 @@ Select this option if you want to update the notable event status and add additi
 
 You must select a status option from the menu that displays all available status values retrieved from the Splunk Enterprise Security server. This may include a custom created status, such as ServiceNow - Assigned as shown in the screen shot below. Select the status value to be set for all notable events when a security incident is created for an ingested notable event. This includes notables that create new incidents and notables that are ingested and aggregated to an existing open incident.
 
-</td></tr><tr><td id="d226967e2351">
+</td></tr><tr><td id="d88493e2351">
 
 **Initial Comments posted back to Notable Event**
 
@@ -697,7 +698,7 @@ You must select a status option from the menu that displays all available status
 
 In addition to updating the notable status value, you can also post comments to the notable event incident review history. As indicated in the instructions, you may edit the default text displayed in the comments section including adding or modifying the substitution variables using format $⁠\{field name\}$ for any field on the Security Incident Response incident form.
 
-</td></tr><tr><td id="d226967e2363">
+</td></tr><tr><td id="d88493e2363">
 
 **Close out Notable Events upon SIR Incident Closure**
 
@@ -705,7 +706,7 @@ In addition to updating the notable status value, you can also post comments to 
 
 Select this option if you want to update the notable event status and add additional comments when a security incident is closed from the notable event. This will occur for both the initial triggering notable events that create the security incident, as well as aggregated events.
 
-</td></tr><tr><td id="d226967e2373">
+</td></tr><tr><td id="d88493e2373">
 
 **Closure Notable Event Status Update**
 
@@ -713,7 +714,7 @@ Select this option if you want to update the notable event status and add additi
 
 You must select a status option from the list menu that displays all available status values that are retrieved from the Splunk Enterprise Security server. This may include a custom created status, such as ServiceNow - Assigned as shown in the screen shot below. Select the status value to be set for all notable events when a security incident is created for an ingested notable event. This includes notables that create new incidents as well as notables that are ingested and aggregated to an existing open incident.
 
-</td></tr><tr><td id="d226967e2388">
+</td></tr><tr><td id="d88493e2388">
 
 **Closure Comments Posted back to Notable Event**
 
@@ -721,7 +722,7 @@ You must select a status option from the list menu that displays all available s
 
 In addition to updating the notable status value, you can also post closure comments to the notable event incident review history. As indicated in the instructions, you may edit the default text displayed in the comments section including adding or modifying the substitution variables using format $⁠\{field name\}$ for any field on the Security Incident Response incident form.
 
-</td></tr><tr><td id="d226967e2400">
+</td></tr><tr><td id="d88493e2400">
 
 **Update SIR Automation Activity with Splunk Event comments**
 
@@ -731,7 +732,7 @@ Option to update your Splunk Event comments in the SIR Automation Activity. The 
 
 Starting from Splunk Enterprise Security version 8.0.x, the comments field has been deprecated, and therefore our application can no longer retrieve comments from Splunk Enterprise Security.
 
-</td></tr><tr><td id="d226967e2429">
+</td></tr><tr><td id="d88493e2429">
 
 **Update Splunk comments with SIR work notes**
 
@@ -746,11 +747,11 @@ Option to update your SIR work notes in the Splunk Event comments. The comment i
 
     The following image shows the Additional Options tab with default values populated:
 
-    ![Additional Options:1](../image/splunk_es_additional_security.png)
+    \[Omitted image "splunk\_es\_additional\_security.png"\] Alt text: Additional Options:1
 
     With the Additional Options configuration enabled, the notable event incident review shows the status change and an update to the history comments:
 
-    ![Additional Options: 2](../image/splunk_es_additional1_security.png)
+    \[Omitted image "splunk\_es\_additional1\_security.png"\] Alt text: Additional Options: 2
 
 
 ## Set up a profile for manual event forwarding
@@ -773,7 +774,7 @@ Create an event profile
 
 </td><td>
 
-See [Create profiles for manually forwarded events](splunk-event-ingest-create-profile-security.md#)
+See [Create profiles for manually forwarded events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)
 
 </td></tr><tr><td>
 
@@ -781,7 +782,7 @@ Map notable event fields
 
 </td><td>
 
-See [Mapping notable event fields for the Splunk Enterprise Security integration](splunk-event-ingest-create-profile-security.md#)
+See [Mapping notable event fields for the Splunk Enterprise Security integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)
 
 </td></tr><tr><td>
 
@@ -789,7 +790,7 @@ Create custom mappings
 
 </td><td>
 
-See [Create mappings for Splunk ES notable event incident review and contributing event details \(manual forwarding\)](splunk-event-ingest-create-profile-security.md#)
+See [Create mappings for Splunk ES notable event incident review and contributing event details \(manual forwarding\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)
 
 </td></tr><tr><td>
 
@@ -797,7 +798,7 @@ Preview the security incident
 
 </td><td>
 
-See [Preview the security incident for the Splunk Enterprise Security Event Ingestion integration](splunk-event-ingest-create-profile-security.md#)
+See [Preview the security incident for the Splunk Enterprise Security Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)
 
 </td></tr><tr><td>
 
@@ -805,7 +806,7 @@ Set up your Splunk environment for manual ingestion
 
 </td><td>
 
-See [Set up your Splunk environment for manual event ingestion for the Splunk Enterprise Security Notable Event Ingestion integration](splunk-event-ingest-create-profile-security.md#)
+See [Set up your Splunk environment for manual event ingestion for the Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)
 
 </td></tr><tr><td>
 
@@ -813,7 +814,7 @@ Automate notable event updates and closure based on SIR incident status
 
 </td><td>
 
-See [Automate notable event updates and closure based on SIR incident status](splunk-event-ingest-create-profile-security.md#)
+See [Automate notable event updates and closure based on SIR incident status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md)
 
 </td></tr></tbody>
 </table>### Create profiles for manually forwarded events
@@ -836,7 +837,7 @@ Role required: sn\_si.admin
 
         Refer to the following figures and tables for more information about the available mapping options in the Mapping Options choice list.
 
-        ![Splunk: manual event forwarding](../image/splunk-manualevent1-security.png)
+        \[Omitted image "splunk-manualevent1-security.png"\] Alt text: Splunk: manual event forwarding
 
 <table id="table_psp_nxq_chb"><thead><tr><th>
 
@@ -915,7 +916,7 @@ Text to help you distinguish this profile from other profiles.
 
         For a profile with an existing field mapping, refer to the following figure and table for more information.
 
-        ![Manual: existing profile](../image/copy_mapping_security.png)
+        \[Omitted image "copy\_mapping\_security.png"\] Alt text: Manual: existing profile
 
 <table id="table_epm_wqf_dhb"><thead><tr><th>
 
@@ -1028,7 +1029,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
         These fields are the field-value pairs that are exported and displayed on the Mapping page in your ServiceNow AI Platform® instance.
 
-        ![Splunk ES: Select notable events for export](../image/splunk_es_export_XML.png)
+        \[Omitted image "splunk\_es\_export\_XML.png"\] Alt text: Splunk ES: Select notable events for export
 
     4.  In your Splunk Enterprise console, in the upper right of the Search page, click the **Export** icon.
 
@@ -1038,7 +1039,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     7.  Click **Export**.
 
-        ![Splunk ES: Export XML file](../image/splunk_es_export_XML_2.png)
+        \[Omitted image "splunk\_es\_export\_XML\_2.png"\] Alt text: Splunk ES: Export XML file
 
         The exported Splunk notable event XML file must now be uploaded to your ServiceNow AI Platform® instance.
 
@@ -1046,7 +1047,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     9.  In the Notable Event Sample Ingestion column, click **Load Attachment Data**.
 
-        ![Splunk ES: Load attachment data](../image/splunk_es_load_attachment.png)
+        \[Omitted image "splunk\_es\_load\_attachment.png"\] Alt text: Splunk ES: Load attachment data
 
     10. In the dialog that is displayed, click **Choose files** and navigate to the `.xml` file that you exported and click **Open**.
 
@@ -1054,7 +1055,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
         The value pairs for the fields that you exported for the event are displayed on the left side of the mapping form.
 
-3.  Follow steps 5 to 10 in the [Create mappings for Splunk ES notable event incident review and contributing event details \(scheduled ingestion\)](splunk-event-ingest-create-profile-security.md#) section.
+3.  Follow steps 5 to 10 in the [Create mappings for Splunk ES notable event incident review and contributing event details \(scheduled ingestion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md) section.
 
 
 ### Set up your Splunk environment for manual event ingestion for the Splunk Enterprise Security Notable Event Ingestion integration
@@ -1065,7 +1066,7 @@ Install and set up the ServiceNow Security Operations Event Ingestion Addon for 
 
 Installing and setting up the ServiceNow Security Operations Event Ingestion Addon for Splunk Enterprise Security application in your Splunk enterprise console or Splunk Cloud instance is optional.
 
-Verify that you have installed the application for this integration from the ServiceNow Store prior to installing the addon plugin from splunkbase that is required for manual event ingestion. If you have not installed the application for the integration from the ServiceNow Store, see [Install and configure Splunk Enterprise Security Notable Event Ingestion integration](splunk-event-ingest-install-and-configure-security.md) and follow the instructions to install it.
+Verify that you have installed the application for this integration from the ServiceNow Store prior to installing the addon plugin from splunkbase that is required for manual event ingestion. If you have not installed the application for the integration from the ServiceNow Store, see [Install and configure Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-install-and-configure-security.md) and follow the instructions to install it.
 
 Role required: Splunk Enterprise Security administrator
 
@@ -1109,17 +1110,17 @@ For manual event forwarding, you can identify up to two different ServiceNow AI 
 
         The following figure is an example of a completed form in your Splunk Enterprise Security console.
 
-        ![API endpoints](../image/splunk_es_api_endpoint_security.png)
+        \[Omitted image "splunk\_es\_api\_endpoint\_security.png"\] Alt text: API endpoints
 
-<table id="choicetable_knk_rmg_wgb"><thead><tr><th align="left" id="d226967e3679">
+<table id="choicetable_knk_rmg_wgb"><thead><tr><th align="left" id="d88493e3679">
 
 Field on Specify ServiceNow Primary Instance section
 
-</th><th align="left" id="d226967e3682">
+</th><th align="left" id="d88493e3682">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d226967e3688">
+</th></tr></thead><tbody><tr><td id="d88493e3688">
 
 **Workflow action label**
 
@@ -1129,7 +1130,7 @@ Name of the ServiceNow AI Platform workflow for your production \(primary\) inst
 
  In your Splunk Enterprise Security console, this workflow name is displayed for the production \(Primary\) instance in the expanded `Event Actions` drop-down list of a search. This name is the name of your production instance. You can edit the name.
 
-</td></tr><tr><td id="d226967e3718">
+</td></tr><tr><td id="d88493e3718">
 
 **URL**
 
@@ -1137,7 +1138,7 @@ Name of the ServiceNow AI Platform workflow for your production \(primary\) inst
 
 The URL for the ServiceNow AI Platform instance you entered in the preceding Workflow action label field.Copy the URL in your browser and paste it in this field in the form.
 
-</td></tr><tr><td id="d226967e3733">
+</td></tr><tr><td id="d88493e3733">
 
 **Endpoint**
 
@@ -1152,15 +1153,15 @@ Base API path. For more information, refer to the figure that follows the table.
 5.  In the Base API path column on the refreshed page, copy this value and paste it in the Endpoint field on the form. An example base api path is, `/api/sn_sec_splunk_v2/event_ingestion`.
 
 
-</td></tr><tr><td id="d226967e3784">
+</td></tr><tr><td id="d88493e3784">
 
 **Username**
 
 </td><td>
 
-User name for your ServiceNow AI Platform instance. This name is the user name for the ServiceNow AI Platform instance in which you assigned a user with the \(sn\_sec\_splunk\_v2.api\_account\_access\) role for manual event forwarding. For more information about assigning this role, see [Set up your ServiceNow AI Platform instance for the Splunk Enterprise Event Ingestion integration](splunk-event-ingest-setup-sn.md).
+User name for your ServiceNow AI Platform instance. This name is the user name for the ServiceNow AI Platform instance in which you assigned a user with the \(sn\_sec\_splunk\_v2.api\_account\_access\) role for manual event forwarding. For more information about assigning this role, see [Set up your ServiceNow AI Platform instance for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-setup-sn.md).
 
-</td></tr><tr><td id="d226967e3817">
+</td></tr><tr><td id="d88493e3817">
 
 **Password**
 
@@ -1168,7 +1169,7 @@ User name for your ServiceNow AI Platform instance. This name is the user name f
 
 Password for your ServiceNow AI Platform instance.This password is the password for the ServiceNow AI Platform instance in which you assigned a user with the \(sn\_sec\_splunk\_v2.api\_account\_access\) role for manual event forwarding.
 
-</td></tr><tr><td id="d226967e3835">
+</td></tr><tr><td id="d88493e3835">
 
 **\(Optional\) Fields on Specify ServiceNow Secondary Instance section**
 
@@ -1176,7 +1177,7 @@ Password for your ServiceNow AI Platform instance.This password is the password 
 
 Description These fields are optional. You are not required to specify a secondary instance.
 
-</td></tr><tr><td id="d226967e3850">
+</td></tr><tr><td id="d88493e3850">
 
 **Workflow action label**
 
@@ -1184,7 +1185,7 @@ Description These fields are optional. You are not required to specify a seconda
 
 Name of the ServiceNow AI Platform workflow for your secondary \(staging\) instance. This name is the name of a ServiceNow AI Platform instance that your users who are monitoring Splunk events identify as a secondary instance, for example, ServiceNow Event Ingestion \(Staging\).In your Splunk Enterprise Security console, this workflow name is displayed for the staging \(Secondary\) instance in the expanded Event Actions drop-down list of a search. This ServiceNow AI Platform instance is your staging instance. You can edit the name.
 
-</td></tr><tr><td id="d226967e3880">
+</td></tr><tr><td id="d88493e3880">
 
 **URL**
 
@@ -1192,7 +1193,7 @@ Name of the ServiceNow AI Platform workflow for your secondary \(staging\) insta
 
 The URL for the ServiceNow AI Platform instance you entered in the preceding Workflow action label field for the secondary ServiceNow AI Platform instance.Copy the URL in your browser and paste it in this field in the form.
 
-</td></tr><tr><td id="d226967e3898">
+</td></tr><tr><td id="d88493e3898">
 
 **Endpoint**
 
@@ -1200,7 +1201,7 @@ The URL for the ServiceNow AI Platform instance you entered in the preceding Wor
 
 Base API path. This value for the Base API path for your secondary instance is the same value as the Base API path for your primary instance. See the preceding figure of the form for more information.
 
-</td></tr><tr><td id="d226967e3907">
+</td></tr><tr><td id="d88493e3907">
 
 **Username**
 
@@ -1208,7 +1209,7 @@ Base API path. This value for the Base API path for your secondary instance is t
 
 Username for your ServiceNow AI Platform staging instance. The user must have the \(sn\_sec\_splunk\_v2.api\_account\_access\) role.
 
-</td></tr><tr><td id="d226967e3920">
+</td></tr><tr><td id="d88493e3920">
 
 **Password**
 
@@ -1219,7 +1220,7 @@ Password for your ServiceNow AI Platform staging instance. The user must have th
 </td></tr></tbody>
 </table>    The following figure is an example of the Scripted REST APIs list in your ServiceNow AI Platform. The list displays the location of the endpoint value of a ServiceNow AI Platform instance that you enter in the form as part of the set up for the ServiceNow Security Operations Event Ingestion Addon for Splunk Enterprise Security extension in your Splunk Enterprise Security console.
 
-    ![Base API path highlighted.](../image/splunk_es_api_path_security.png)
+    \[Omitted image "splunk\_es\_api\_path\_security.png"\] Alt text: Base API path highlighted.
 
 3.  In the setup form in your Splunk Enterprise Security console, click **Save** to save your edits.
 

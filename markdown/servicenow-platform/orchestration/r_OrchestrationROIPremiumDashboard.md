@@ -2,6 +2,7 @@
 title: Orchestration ROI premium reports
 description: The premium dashboard provides detailed reports on calculated savings over time.To view the Orchestration ROI premium reports, you must request activation of the Orchestration - ROI Premium \(com.snc.runbook\_automation.roi\_premium\) plugin. The Orchestration - ROI Premium plugin is included with an Orchestration subscription, but must be activated by request.Orchestration ROI premium reports use a Performance Analytics job that must be activated before premium reports can be generated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/orchestration/r\_OrchestrationROIPremiumDashboard.html
 release: xanadu
 product: Orchestration
 classification: orchestration
@@ -15,9 +16,9 @@ breadcrumb: [Orchestration ROI reports, Orchestration ROI, Orchestration applica
 
 The premium dashboard provides detailed reports on calculated savings over time.
 
-The ROI premium reports require the Orchestration - ROI Premium plugin and are built using [Performance Analytics](https://www.servicenow.com/docs/access?context=c_PerformanceAnalytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US). The Orchestration - ROI Premium plugin is dependent on the [Performance Analytics - Premium](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US) plugin which requires a separate subscription.
+The ROI premium reports require the Orchestration - ROI Premium plugin and are built using Performance Analytics. The Orchestration - ROI Premium plugin is dependent on the Performance Analytics - Premium plugin which requires a separate subscription.
 
-**Important:** You must activate the Performance Analytics [scheduled collection job](r_OrchestrationROIPremiumDashboard.md#) before Orchestration ROI premium can display data.
+**Important:** You must activate the Performance Analytics [scheduled collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/r_OrchestrationROIPremiumDashboard.md) before Orchestration ROI premium can display data.
 
 To access the ROI premium dashboard, navigate to **Orchestration** &gt; **ROI Reports** &gt; **Premium Dashboard**.
 
@@ -25,7 +26,7 @@ To access the ROI premium dashboard, navigate to **Orchestration** &gt; **ROI Re
 
 The ROI By Category tab contains three reports showing the calculated savings over time by category.
 
-![Calculated savings monthly by category](../image/ROICalculatedSavingsReport1.png "Calculated savings monthly by category")
+\[Omitted image "ROICalculatedSavingsReport1.png"\] Alt text: Calculated savings monthly by category
 
 <table id="table_c3q_srz_zs"><thead><tr><th>
 
@@ -67,7 +68,7 @@ Shows the running sum of calculated savings for all categories in the last 12 mo
 
 The ROI By Automation Entry tab contains two reports showing the calculated savings over time by automation entry.
 
-![Calculated savings for the current month by automation entry](../image/ROICalculatedSavingsReport2.png "Calculated savings for the current month by automation entry")
+\[Omitted image "ROICalculatedSavingsReport2.png"\] Alt text: Calculated savings for the current month by automation entry
 
 <table id="table_d1d_m31_1t"><thead><tr><th>
 
@@ -96,7 +97,7 @@ Shows the top 10 automation entries that have the most calculated savings in the
 -   **Table**: Detailed Savings Report \[detailed\_savings\_report\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Orchestration ROI reports](../concept/c_OrchestrationROIDashboards.md)
+</table>**Parent Topic:**[Orchestration ROI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_OrchestrationROIDashboards.md)
 
 ## Request Orchestration ROI premium reports
 
@@ -104,7 +105,7 @@ To view the Orchestration ROI premium reports, you must request activation of th
 
 ### Before you begin
 
-The Orchestration - ROI Premium plugin requires the [Performance Analytics - Premium](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US) plugin, which must be purchased separately.
+The Orchestration - ROI Premium plugin requires the Performance Analytics - Premium plugin, which must be purchased separately.
 
 Role required: admin
 
@@ -114,11 +115,11 @@ Role required: admin
 
 2.  On the All Applications page, select **Request Plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    ![Message informing customers about new service portal with a link provided.](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
 
 4.  Select your instance.
 
@@ -165,7 +166,7 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
 
-    ![Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 
@@ -194,7 +195,7 @@ The scheduled job required to calculate premium ROI reports is called \[PA ROI\]
 
 4.  The scheduling options appear for the value selected in the **Run** field.
 
-    For instructions on creating a schedule, see [Create or schedule a data collection job](https://www.servicenow.com/docs/access?context=t_CreatASchedDataCollJob&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+    For instructions on creating a schedule, see Create or schedule a data collection job.
 
 5.  To execute the schedule directly from the job definition, click **Execute Now**.
 

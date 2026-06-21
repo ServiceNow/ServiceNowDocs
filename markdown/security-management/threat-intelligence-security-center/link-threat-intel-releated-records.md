@@ -2,6 +2,7 @@
 title: Link Threat Intel Related Records
 description: Link the related records that are related to the corresponding threat intel objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -42,5 +43,5 @@ Role required: sn\_sec\_tisc.analyst
     Click **Unlink** button to unlink the objects
 
 
-**Parent Topic:**[Observables](../concept/observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/observables.md)
 

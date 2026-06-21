@@ -2,6 +2,7 @@
 title: Resource planning with Project Workspace
 description: Use the Resource Management application to allocate and manage your resources in the Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.html
 release: xanadu
 product: Project Workspace
 classification: project-workspace
@@ -33,7 +34,7 @@ Resource assignment is a process of allocating a resource or group of resources 
 
 **Note:**
 
-Resource efforts calculations are driven by the `com.snc.resource_management.exclude_status_from_capacity` property. Admin can configure this property to calculate efforts for certain defined resource assignments only. For more information, see [Resource Management properties](../../resource-management/reference/r_ResourceProperties.md).
+Resource efforts calculations are driven by the `com.snc.resource_management.exclude_status_from_capacity` property. Admin can configure this property to calculate efforts for certain defined resource assignments only. For more information, see [Resource Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/r_ResourceProperties.md).
 
 Edit the child resource assignments directly using the inline editing from the resource assignment pane.
 
@@ -45,16 +46,16 @@ The Resource allocation view combines a hierarchical task structure by resource 
 
 Allocation heatmap modal gives you an overview of the resource utilization to identify the over allocated and the available resources. The allocations are color-coded to display the availability of the resources and help you to identify the availability of the resource for the filtered time frame. The new heatmap modal gives you the following insights for a resource such as the assigned tasks with their respective project owner, resource status, efforts for each task, total utilization percentage for the approved tasks, and the remaining capacity.
 
-![Legend for resource allocation view.](../../resource-management-workspace/images/rmw-heatmap-legend.png)
+\[Omitted image "rmw-heatmap-legend.png"\] Alt text: Legend for resource allocation view.
 
 ## Heatmap breakdown
 
-![Heatmap modal explaining different parameter values of resource allocation.](../../resource-management-workspace/images/rmw-allocation-modal.png "Allocation heatmap breakdown")
+\[Omitted image "rmw-allocation-modal.png"\] Alt text: Heatmap modal explaining different parameter values of resource allocation.
 
 From the above example, you can see the breakdown of the approved work items along with the rolled up efforts, Utilization percentage, and the Remaining capacity for the month of January 2025. The approved work is within the resource capacity as the remaining capacity is 120 hours. Resource manager can use these insights to decide and allocate the pending work items to another resource with available effort.
 
--   **[Resource assignments in Project Workspace](resource-assignments-pw.md)**  
+-   **[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/resource-assignments-pw.md)**  
 Optimize project execution by assigning resources to tasks within the Project Workspace. You can create resource assignments for any project or project task, specifying the tasks to be performed and the resources to be allocated.
 
-**Parent Topic:**[Project Workspace](../../project-workspace/concept/project-workspace-landing-page.md)
+**Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/project-workspace-landing-page.md)
 

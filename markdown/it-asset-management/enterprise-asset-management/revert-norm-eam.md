@@ -2,6 +2,7 @@
 title: Revert normalization
 description: You can revert the normalization of enterprise models in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/revert-norm-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -40,5 +41,5 @@ Enterprise models with a status of **Fully Normalized**, **Partially Normalized*
     -   The deactivated rule can no longer normalize any more models. The deactivated rule can't be reactivated. It is a one time procedure.
     -   The **Revert Normalization** option on the model record is replaced with the **Normalize** option.
 
-**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](../concept/config-eam-enterrpriseadmins.md)
+**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-enterrpriseadmins.md)
 

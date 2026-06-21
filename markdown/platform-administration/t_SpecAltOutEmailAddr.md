@@ -2,6 +2,7 @@
 title: Specify alternative outbound email addresses for notifications
 description: By default, the system sends all outbound email notifications from the default email address of the instance, but you can specify an alternative address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_SpecAltOutEmailAddr.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -46,5 +47,5 @@ For organizations that need to send email messages from specific email addresses
 8.  Click **Update**.
 
 
-**Parent Topic:**[Create an email notification](t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateANotification.md)
 

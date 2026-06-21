@@ -2,6 +2,7 @@
 title: Create a card dispute service case
 description: An agent can begin the card dispute or report a dispute by creating a dispute case on behalf of a customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/create-dispute-service-case.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -19,9 +20,9 @@ An agent can begin the card dispute or report a dispute by creating a dispute ca
 
 Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispute\_agent\_connector, or sn\_bom\_credit\_card.contributor
 
-**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](../../fso-common/reference/fso-core-roles.md).
+**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-core-roles.md).
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## Procedure
 
@@ -31,15 +32,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispu
 
 3.  Create a case from the dispute service case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d89333e106">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d38232e106">
 
 Option
 
-</th><th align="left" id="d89333e109">
+</th><th align="left" id="d38232e109">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d89333e115">
+</th></tr></thead><tbody><tr><td id="d38232e115">
 
 **Dispute case from the dispute case list**
 
@@ -49,7 +50,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d89333e145">
+</td></tr><tr><td id="d38232e145">
 
 **Dispute case from an interaction record**
 
@@ -58,7 +59,7 @@ Steps
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Open the required interaction record for the customer.
 3.  Select **Create Case**.
- For information on how to create an interaction, see [Create an interaction](https://www.servicenow.com/docs/access?context=create-interactions&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+ For information on how to create an interaction, see Create an interaction.
 
 </td></tr></tbody>
 </table>4.  In the Create a new case dialog box, select **Card disputes services** from the category list.
@@ -71,7 +72,7 @@ Steps
 ## Result
 
 -   A dispute service case is created in the New state.
--   The dispute agent can continue working through the Initiate phase of the case. See [Initiate a dispute](initiating-dispute.md).
+-   The dispute agent can continue working through the Initiate phase of the case. See [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/initiating-dispute.md).
 
-**Parent Topic:**[Managing dispute service requests](../concept/managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/managing-card-disputes.md)
 

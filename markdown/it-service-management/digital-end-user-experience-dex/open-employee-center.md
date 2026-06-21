@@ -2,6 +2,7 @@
 title: Open Employee Center
 description: Open Employee Center to get a single, unified portal to find information, get help, and request the services you need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/open-employee-center.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Open Employee Center to get a single, unified portal to find information, get he
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](install-app-device-health.md) and [Download and install Desktop Assistant](download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 You must also map the Employee Center card to the Employee Center portal of your organization.
 
@@ -29,6 +30,6 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
     The Employee Center page opens.
 
-    ![The Employee Center page.](../image/desktop-exp-emp-center-details.png)
+    \[Omitted image "desktop-exp-emp-center-details.png"\] Alt text: The Employee Center page.
 
 

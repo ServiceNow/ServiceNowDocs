@@ -2,6 +2,7 @@
 title: Express List keyboard shortcuts
 description: Use keyboard shortcuts to quickly perform common actions in the Express List.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/el-keyboard-shortcuts.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps

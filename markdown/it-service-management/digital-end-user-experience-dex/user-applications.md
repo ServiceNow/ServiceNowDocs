@@ -2,6 +2,7 @@
 title: Applications page
 description: View essential details for managing applications such as name, version, type, daily usage, and the last access date and time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/user-applications.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -64,7 +65,7 @@ Last access time
 Date/time of the most recent access of the application.Knowing when an application was last accessed can help identify potential security risks or unauthorized access to an application. It can also provide insights into the performance of the application. If the user hasn’t accessed the app in a while, it might suggest that it's no longer needed, underused, or causing user difficulties.
 
 </td></tr></tbody>
-</table>To return to the users details page, see [Device details](../concept/dex-workspace-user-details.md) and to return to the user's application page, see [Applications](../concept/users-applications.md).
+</table>To return to the users details page, see [Device details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/dex-workspace-user-details.md) and to return to the user's application page, see [Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/users-applications.md).
 
-**Parent Topic:**[Device details pages](user-device-details-pages.md)
+**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

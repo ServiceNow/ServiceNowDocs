@@ -2,6 +2,7 @@
 title: Run a health check scan for Software Asset Management
 description: Run a health check scan on your Software Asset Management configurations and get recommendations on fixing any errors that may exist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/run-healthcheck.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -56,5 +57,5 @@ You can run a health check scan to know the health score for the complete config
     Once the errors are fixed, you can run the scan again to see improved health scores.
 
 
-**Parent Topic:**[Configuring Software Asset Workspace](../concept/Config-sam-workspace.md)
+**Parent Topic:**[Configuring Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/Config-sam-workspace.md)
 

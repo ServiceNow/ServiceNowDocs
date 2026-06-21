@@ -2,6 +2,7 @@
 title: Delete metric rules
 description: Remove metric rules to adjust monitoring criteria and thresholds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/delete-metric-rules.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,7 +26,7 @@ Deleting any rules results in their permanent removal, and they cannot be retrie
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and from the left pane, select the Administration icon \(![The Administration icon.](../image/icon-administration.png)\).
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and from the left pane, select the Administration icon \(\[Omitted image "icon-administration.png"\] Alt text: The Administration icon.\).
 
 2.  Select the **Metric rules** card.
 
@@ -33,7 +34,7 @@ Deleting any rules results in their permanent removal, and they cannot be retrie
 
 3.  Select the check box preceding the name of the metric rule to select it for deletion.
 
-    ![Metric rules selected for deletion.](../image/metric-rules-delete.png)
+    \[Omitted image "metric-rules-delete.png"\] Alt text: Metric rules selected for deletion.
 
 4.  Select **Delete**.
 

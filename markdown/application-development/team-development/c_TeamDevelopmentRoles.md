@@ -2,6 +2,7 @@
 title: Team Development roles
 description: To use Team Development, developers must have admin access to their development instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/c\_TeamDevelopmentRoles.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -15,11 +16,11 @@ breadcrumb: [Team Development, Planning your application, Building applications]
 
 To use Team Development, developers must have admin access to their development instance.
 
-To allow pushes to the parent instance, a [remote instance connection](../task/t_DefineARemoteInstance.md) must be defined with a user account that has admin access to the parent instance.
+To allow pushes to the parent instance, a [remote instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/t_DefineARemoteInstance.md) must be defined with a user account that has admin access to the parent instance.
 
-To limit developer access to the parent instance, see [Granting Access Rights to Developers](../reference/r_GrantingAccessRightsToDevelopers.md).
+To limit developer access to the parent instance, see [Granting Access Rights to Developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/r_GrantingAccessRightsToDevelopers.md).
 
-To use code review features, users must have the teamdev\_code\_reviewer role. See [Code Review](c_CodeReview.md).
+To use code review features, users must have the teamdev\_code\_reviewer role. See [Code Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_CodeReview.md).
 
-**Parent Topic:**[Team Development](c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_TeamDevelopment.md)
 

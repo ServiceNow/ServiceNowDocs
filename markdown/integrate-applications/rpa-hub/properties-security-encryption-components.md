@@ -2,6 +2,7 @@
 title: Properties of the Encryption components
 description: Learn about the properties of the Encryption components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/properties-security-encryption-components.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ Learn about the properties of the Encryption components in RPA Desktop Design St
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Encryption components](../concept/encryption-components.md)
+**Parent Topic:**[Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/encryption-components.md)
 

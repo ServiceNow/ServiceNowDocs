@@ -2,6 +2,7 @@
 title: Resubmit worknotes analysis
 description: If a worknotes analysis fails for some reason, you can resubmit it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/resubmit-worknotes-analysis.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -29,8 +30,8 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
     To view the error details, select **View error details**.
 
-    ![Resumbit worknotes analysis](../image/worknotes-resubmit.png)
+    \[Omitted image "worknotes-resubmit.png"\] Alt text: Resumbit worknotes analysis
 
 
-**Parent Topic:**[Worknotes analysis](../concept/worknotes-analysis.md)
+**Parent Topic:**[Worknotes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/worknotes-analysis.md)
 

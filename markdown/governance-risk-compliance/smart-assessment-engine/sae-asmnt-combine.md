@@ -2,6 +2,7 @@
 title: Submit combined assessments
 description: Combine your Smart Assessment Engine assessments so you can respond to all of them together. You can also configure your responses to replicate automatically across all applicable assessments so you don't need to fill them in manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/smart-assessment-engine/sae-asmnt-combine.html
 release: xanadu
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -26,7 +27,7 @@ Role required: sn\_smart\_asmt.actor
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **Workspaces** &gt; **Compliance Workspace**
-    2.  Select the list icon \(![List icon.](../../grc-workspace-vrm/image/icon-tprm-ws-list.png)\).
+    2.  Select the list icon \(\[Omitted image "icon-tprm-ws-list.png"\] Alt text: List icon.\).
     3.  Navigate to **Control attestations** &gt; **Smart Assessments**.
 2.  Select the assessments that you want to combine.
 
@@ -40,7 +41,7 @@ Role required: sn\_smart\_asmt.actor
 
     2.  Copy your responses across all combined assessments by turning on the **Enable auto copy** toggle switch.
 
-        -   The auto-copy feature is activated when the combined assessment is created and can’t be changed later. For more details, refer to [Combining assessments and copying responses](../concept/combine-assessments.md).
+        -   The auto-copy feature is activated when the combined assessment is created and can’t be changed later. For more details, refer to [Combining assessments and copying responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/smart-assessment-engine/combine-assessments.md).
         -   The auto-copy feature is available only when combined assessments originate from the same template. If the assessments are from different templates, the auto-copy feature remains disabled and cannot be activated.
 5.  Select **Continue**.
 

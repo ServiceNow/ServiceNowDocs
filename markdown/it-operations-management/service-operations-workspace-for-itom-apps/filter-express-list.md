@@ -2,6 +2,7 @@
 title: Filtering the alert display in the Express List pane
 description: Filters help you create different views of categorized alerts, creating a targeted list of alerts to prioritize and focus on, saving time and minimizing distractions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/filter-express-list.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -34,7 +35,7 @@ The fields in the interactive filter panel on the left side enable you to create
 
 You can interactively view what happens if you add or remove any of the fields. The numbers next to each attribute indicate the number of alerts that are returned.
 
-![Sample result of filtering choices on the alerts list.](../image/el-interactive.png)
+\[Omitted image "el-interactive.png"\] Alt text: Sample result of filtering choices on the alerts list.
 
 In the Express List filter panel, you can perform the following actions:
 

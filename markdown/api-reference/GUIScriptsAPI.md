@@ -2,6 +2,7 @@
 title: GlideUIScripts - Client
 description: The GlideUIScripts API provides methods to access UI scripts from within client-side code.Calls a UI script from a client script or other client-side code. Returns a promise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/GUIScriptsAPI.html
 release: xanadu
 product: API Reference
 classification: api-reference
@@ -21,7 +22,7 @@ This API is only supported in Workspaces and Service Portal. It is not supported
 
 To use this API, the **UI Type** field must be set to **Mobile / Service Portal** or **All** on both the client script and the UI script. It cannot be set to **Desktop**.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/api-client.md)
 
 ## GlideUIScripts - getUIScript\(String scriptName\)
 

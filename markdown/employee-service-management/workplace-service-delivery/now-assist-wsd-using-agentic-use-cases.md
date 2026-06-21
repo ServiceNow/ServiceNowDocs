@@ -2,6 +2,7 @@
 title: Using AI agent workflows in Now Assist for WSD
 description: Agentic workflows in Now Assist for WSD help complete workplace tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-service-delivery/now-assist-wsd-using-agentic-use-cases.html
 release: xanadu
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -40,7 +41,7 @@ This team of AI agents come together when there’s a meeting room maintenance c
 -   The location is blocked by AI agents for maintenance.
 -   If there are any existing reservations in the maintenance workspace, AI agents relocate or move the reservations to an available location.
 
- AI agents reduce repetitive tasks for Workplace event planners. They provide assistance and verify that employees have access to functional spaces within an organization during an outage or emergency maintenance. AI Agents handle the work for Workplace Event Planners so that they can focus on more important and complex tasks that require human intervention. For more information, see [Manage temporary space closures agentic workflow](../task/maintenance-meeting-room-agent-ai.md).
+ AI agents reduce repetitive tasks for Workplace event planners. They provide assistance and verify that employees have access to functional spaces within an organization during an outage or emergency maintenance. AI Agents handle the work for Workplace Event Planners so that they can focus on more important and complex tasks that require human intervention. For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery/maintenance-meeting-room-agent-ai.md).
 
 </td><td>
 
@@ -62,7 +63,7 @@ This team of AI agents help Workplace Event Planners and autonomously reschedule
 -   Analyze the reservation retrieved from the previous step.
 -   Update Workplace case notes with all the actions taken.
 
- For more information, see [Help manage workplace reservations agentic workflow](../task/manage-workplace-reservations-agent-ai.md).
+ For more information, see [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery/manage-workplace-reservations-agent-ai.md).
 
 </td><td>
 
@@ -77,7 +78,7 @@ Optimize Cleaning activities
 
 </td><td>
 
-This team of AI agents get all open workplace maintenance management cases. The **Workplace Planned Maint Nightly Run** scheduled job runs on a daily or hourly basis to create maintenance cases. Each workplace maintenance case represents a cleaning or a maintenance case on a location for a certain time interval, also known as schedule \(on a daily or hourly basis\). The Optimize cleaning activities agentic AI workflow retrieves space utilization threshold for each workplace maintenance cases. Based on the space utilization threshold data, it creates new maintenance cases or deactivates underutilized maintenance cases. For more information, see [Optimize cleaning activities agentic workflow](optimize-cleaning-activities-agent.md).
+This team of AI agents get all open workplace maintenance management cases. The **Workplace Planned Maint Nightly Run** scheduled job runs on a daily or hourly basis to create maintenance cases. Each workplace maintenance case represents a cleaning or a maintenance case on a location for a certain time interval, also known as schedule \(on a daily or hourly basis\). The Optimize cleaning activities agentic AI workflow retrieves space utilization threshold for each workplace maintenance cases. Based on the space utilization threshold data, it creates new maintenance cases or deactivates underutilized maintenance cases. For more information, see [Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery/optimize-cleaning-activities-agent.md).
 
 </td><td>
 
@@ -108,6 +109,6 @@ To run the AI agents autonomously, you must first duplicate the agentic workflow
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

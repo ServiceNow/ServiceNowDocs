@@ -2,7 +2,10 @@
 title: Prioritize a work order task for Schedule Optimization
 description: Add penalties and values to a work order task to define the importance of the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/prioritize-a-work-order-task-for-schedule-optimization.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Add penalties and values to a work order task to define the importance of the ta
 
 Role required: wm\_dispatcher
 
-An admin must [Configure the policy to enable dispatchers to prioritize work order tasks](configure-the-policy-to-enable-dispatchers-to-prioritize-work-order-tasks.md).
+An admin must [Configure the policy to enable dispatchers to prioritize work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/configure-the-policy-to-enable-dispatchers-to-prioritize-work-order-tasks.md).
 
 ## About this task
 
@@ -33,10 +36,10 @@ Optimization penalties and values are only used for Schedule Optimization.
 
 4.  On the form, fill in the fields.
 
-    For a list of field descriptions on a work order task, see [Create a work order task](../../planning-and-policy/task/t_CreateAWorkOrderTask.md).
+    For a list of field descriptions on a work order task, see [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_CreateAWorkOrderTask.md).
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Managing work order tasks](../../planning-and-policy/concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Managing work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_WorkOrderTasks.md)
 

@@ -2,6 +2,7 @@
 title: Add a related case to a supplier case from the Source-to-Pay Workspace
 description: If a supplier case has related cases, you can add them to that supplier case from the Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/add-related-case.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,7 +24,7 @@ Role required: sn\_slm.owner or sn\_slm.admin
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the List page, navigate to and select a case.
 
@@ -38,5 +39,5 @@ Role required: sn\_slm.owner or sn\_slm.admin
     When you add a related case, the supplier case you added it under becomes the parent case of that related case.
 
 
-**Parent Topic:**[Managing supplier cases from the Source-to-Pay Workspace](../concept/managing-cases.md)
+**Parent Topic:**[Managing supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

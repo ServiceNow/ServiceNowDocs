@@ -2,6 +2,7 @@
 title: Example - Restrict a field
 description: This access control prevents everyone except an administrator from editing the Short Description field of an incident record in a list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/r\_ExampleRestrictAField.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -15,7 +16,7 @@ breadcrumb: [Configuring contextual security for the list editor, List editor ad
 
 This access control prevents everyone except an administrator from editing the Short Description field of an incident record in a list.
 
-![](../image/RestrictTheIncidentShortDescription.png "Restrict the Incident Short Description")
+\[Omitted image "RestrictTheIncidentShortDescription.png"\] Alt text:
 
 -   **Type:** record
 -   **Operation:** list\_edit
@@ -23,9 +24,9 @@ This access control prevents everyone except an administrator from editing the S
 -   **Admin overrides:** Select the check box.
 -   **Script:** `answer = false;`
 
-**Parent Topic:**[Configuring contextual security for the list editor](r_ConfigListEditorContextSecurity.md)
+**Parent Topic:**[Configuring contextual security for the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ConfigListEditorContextSecurity.md)
 
-**Previous topic:**[Example - Restrict a table](r_ExampleRestrictATable.md)
+**Previous topic:**[Example - Restrict a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ExampleRestrictATable.md)
 
-**Next topic:**[Example - Restrict a field with a script](r_ExampleRestrictAFieldWithAScript.md)
+**Next topic:**[Example - Restrict a field with a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ExampleRestrictAFieldWithAScript.md)
 

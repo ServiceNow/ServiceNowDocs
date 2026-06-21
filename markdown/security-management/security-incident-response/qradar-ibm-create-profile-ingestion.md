@@ -2,6 +2,7 @@
 title: Ingesting the sample IBM QRadar offenses
 description: You can ingest sample offenses for one or more selected IBM QRadar rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/qradar-ibm-create-profile-ingestion.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +30,7 @@ Role required: sn\_si.admin
 
     -   Retrieve most recent offenses: The three most recent offenses for the selected rules are retrieved.
     -   Select offenses based on offenses ID: Specify the offense ID for the offenses to be retrieved. You can specify a maximum of 3 offense ids separated by commas.
-    ![IBM QRadar: Create Profile: Mapping: Default](../image/ibm-qradar-profile-mapping-default.png)
+    \[Omitted image "ibm-qradar-profile-mapping-default.png"\] Alt text: IBM QRadar: Create Profile: Mapping: Default
 
 3.  Click **Fetch Sample Data** to pull the latest sample offense data from the IBM QRadar console for the selected offense rules.
 
@@ -40,7 +41,7 @@ Role required: sn\_si.admin
     -   Common: In this case, you can specify conditions for events or flows and either or both conditions are met, an offense is created.
     The pull for sample offenses may take a few moments. A message indicating that the transaction is working is displayed at the top of the screen. Depending on the rule or rules that triggered the offense, along with the offense fields, the event or flow fields are populated as shown in the figure below:
 
-    ![IBM QRadar Mapping Sample offense and Events](../image/ibm-qradar-profile-mapping-mixed.png)
+    \[Omitted image "ibm-qradar-profile-mapping-mixed.png"\] Alt text: IBM QRadar Mapping Sample offense and Events
 
     **Note:** The event or flow fields displayed belong to the first event or flow field that triggered the offense based on the corresponding event or flow rule.
 
@@ -78,15 +79,15 @@ Role required: sn\_si.admin
         -   source\_addresses \(source\_ip\)
     Select the **Fetch additional event and flow fields \(Optional\)** check box. You can fetch sample event and flow data from any active, valid custom event and flow fields. Specify the custom fields separated by commas as shown below:
 
-    ![IBM QRadar: Create Profile: Mapping: Custom](../image/ibm-qradar-profile-mapping-custom1.png)
+    \[Omitted image "ibm-qradar-profile-mapping-custom1.png"\] Alt text: IBM QRadar: Create Profile: Mapping: Custom
 
     Click **Fetch Sample Data**. The specified event or flow fields along with their values \(if available\) are appended to the Event or Flow section as shown below:
 
-    ![IBM QRadar: Create Profile: Mapping: Custom: Result](../image/ibm-qradar-profile-mapping-custom2.png)
+    \[Omitted image "ibm-qradar-profile-mapping-custom2.png"\] Alt text: IBM QRadar: Create Profile: Mapping: Custom: Result
 
     After you fetch the sample data, the corresponding values for these fields are populated on the left side of the form.
 
-    ![IBM QRadar: Create Profile: Populated Offenses](../image/ibm-qradar-profile-ingest.png)
+    \[Omitted image "ibm-qradar-profile-ingest.png"\] Alt text: IBM QRadar: Create Profile: Populated Offenses
 
 
 ## What to do next

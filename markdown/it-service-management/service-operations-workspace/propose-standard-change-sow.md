@@ -2,6 +2,7 @@
 title: Propose a standard change template
 description: Propose a new standard change template when you identify a need while creating a change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/propose-standard-change-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -27,7 +28,7 @@ As an IT technician, you can propose a standard change template for a change req
 
 1.  Create a new change request to open the standard change catalog.
 
-2.  From the **More Actions** icon \(![more actions icon](../../itsm-workspace/image/vertical-more-action.png)\), select **Propose a new template**.
+2.  From the **More Actions** icon \(\[Omitted image "vertical-more-action.png"\] Alt text: more actions icon\), select **Propose a new template**.
 
 3.  Fill the fields of the Standard Change Proposal form.
 
@@ -42,5 +43,5 @@ As an IT technician, you can propose a standard change template for a change req
 
 The proposal for a new standard change template is created with the status **In Progress**.
 
-**Parent Topic:**[Standard change catalog](../concept/standard-change-catalog-sow.md)
+**Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/standard-change-catalog-sow.md)
 

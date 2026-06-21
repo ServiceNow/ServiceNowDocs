@@ -2,6 +2,7 @@
 title: Remember me
 description: When the Remember me check box is selected at login, a cookie is stored on the user's computer. This cookie automatically authenticates the user upon subsequent visits.You can change the default value of the Remember me check box.You can remove the Remember me check box so users do not have access to this feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/c\_ChSetRemMeChkbxCookie.html
 release: xanadu
 product: Authentication
 classification: authentication

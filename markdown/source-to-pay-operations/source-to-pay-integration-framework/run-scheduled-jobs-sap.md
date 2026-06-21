@@ -2,6 +2,7 @@
 title: Run scheduled jobs in SAP ECC and SAP S4 HANA
 description: Run adhoc scheduled jobs to look up entity primary data from the target SAP ECC and SAP S4 HANA ERP source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-integration-framework/run-scheduled-jobs-sap.html
 release: xanadu
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -36,5 +37,5 @@ Executes on-demand scheduled jobs on true entities of an ERP source target and f
     Entity inbound tables are populated with primary data.
 
 
-**Parent Topic:**[Scheduled jobs to look up primary data in SAP ECC and SAP S4 HANA](../concept/scheduled-jobs-to-primary-data-sap.md)
+**Parent Topic:**[Scheduled jobs to look up primary data in SAP ECC and SAP S4 HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/scheduled-jobs-to-primary-data-sap.md)
 

@@ -2,6 +2,7 @@
 title: Set up bi-directional webhook for the monday.com spoke
 description: Configure a webhook to subscribe to monday.com with a ServiceNow callback URL.Register a monday webhook in ServiceNow to notify the ServiceNow app when certain events occur in monday.comSpecify a webhook callback URL in your monday account to create a webhook.Create a webhook routing policy and customize a subflow according to your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-webhook-monday.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub

@@ -2,7 +2,10 @@
 title: Set up Cloud Configuration Governance for Microsoft Azure
 description: Set up access to the Microsoft Azure cloud accounts in Cloud Configuration Governance to enable interaction between the application and the cloud. The application requires access to the cloud accounts of your organization to scan the cloud resources for non-compliant configurations and remediate them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/set-up-ccg-for-azure.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: sn\_itom\_ccg.scheduling\_admin
 
 1.  Create Microsoft Azure credentials that can access the Microsoft Azure account.
 
-    For more information, see [Create Azure cloud credentials](../../discovery/task/create-azure-cloud-credentials.md).
+    For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/create-azure-cloud-credentials.md).
 
 2.  Create an Integration Hub connection for Microsoft Azure.
 
@@ -76,8 +79,8 @@ Tenant ID of the Microsoft Azure account.Replace `{tenant}` with the Microsoft A
 
 3.  Run datacenter discovery to identify the datacenters attached with the service accounts.
 
-    For more information, see [Run datacenter discovery](../../cloud-management-v2-setup/task/disco-datacntrs-in-srv-acct.md).
+    For more information, see [Run datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md).
 
 
-**Parent Topic:**[Exploring Cloud Configuration Governance](../concept/exploring-cloud-configuration-governance.md)
+**Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/exploring-cloud-configuration-governance.md)
 

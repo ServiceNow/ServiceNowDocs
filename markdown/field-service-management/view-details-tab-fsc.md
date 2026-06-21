@@ -2,7 +2,10 @@
 title: View details screen on the Field Service Contractor for mobile in ServiceNow Agent application
 description: Use Field Service Contractor for mobile application to view work order fields detail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-details-tab-fsc.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -50,5 +53,5 @@ The Details screen shows complete information about a work order task. The contr
     |Assigned to|Shows the agent or manager currently assigned to the task|
 
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

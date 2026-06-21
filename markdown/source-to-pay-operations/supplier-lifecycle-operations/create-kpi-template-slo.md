@@ -2,6 +2,7 @@
 title: Create a KPI template
 description: Create a KPI template to define KPIs against which you measure the supplier performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-template-slo.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -26,7 +27,7 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 2.  Do one of the following:
 
     -   Under Quick actions, select **Create KPI template**.
-    -   Select the list icon \(![List icon.](../image/cases-list-icon.png)\), navigate to **Lists** &gt; **Performance management** &gt; **KPI Templates**, and then select **New**.
+    -   Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\), navigate to **Lists** &gt; **Performance management** &gt; **KPI Templates**, and then select **New**.
 3.  On the form, fill in the fields.
 
 <table id="table_u4m_243_btb"><thead><tr><th>
@@ -190,8 +191,8 @@ The frequency for collecting the KPI data. The available options are:-   Daily
 </table>4.  Select **Save**.
 
 
--   **[Create KPI thresholds](create-kpi-threshold.md)**  
+-   **[Create KPI thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-threshold.md)**  
 Create KPI thresholds that consist of predefined values that serve as benchmarks or limits for evaluating performance against specific objectives.
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: View allocation lines
 description: After you complete an allocation, you can view the allocation lines that the application created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/t\_ViewAllocationLines.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -39,12 +40,12 @@ Role required: cost\_transparency\_admin
 
 3.  Click **Update**.
 
-    ![An example allocation line](../image/Cost_allocation_form.png "An example allocation line")
+    \[Omitted image "Cost\_allocation\_form.png"\] Alt text: An example allocation line
 
     |Field|Description|
     |-----|-----------|
     |Amount|The amount of this allocation.|
-    |Fiscal period|The [fiscal period](t_ViewFiscalPeriods.md) [fiscal period](t_ViewFiscalPeriods.md) this expense belongs in.|
+    |Fiscal period|The [fiscal period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_ViewFiscalPeriods.md) [fiscal period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_ViewFiscalPeriods.md) this expense belongs in.|
     |GL Entry|The groomed expense from which this allocation line was derived.|
     |Final|If the allocation line was processed by a rule that is marked final or if no subsequent rule can process this allocation. Reports are run on final allocation lines.|
     |Bucket|The bucket that the allocation belongs to. This bucket is taken from the expense during allocation.|
@@ -52,5 +53,5 @@ Role required: cost\_transparency\_admin
     |\[Dimensions\]|The segments in the hierarchy of segments. The segments fields that contain values are the segments that you specified in the allocation methods that processed the allocation. If more than one method processes an allocation, all the allocated segments specified in all the methods contain a value. To make a change, click the lookup icon next for each dimension and select the relevant record.|
 
 
-**Parent Topic:**[Expense allocation](../concept/c_ExpenseAllocation.md)
+**Parent Topic:**[Expense allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_ExpenseAllocation.md)
 

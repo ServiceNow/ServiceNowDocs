@@ -2,6 +2,7 @@
 title: Active Directory Domain Controller discovery
 description: The Discovery and Service Mapping Patterns application uses the Active Directory Domain Controller On Windows pattern to find active directory domain controllers running on a Windows server. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/r-ActiveDirectory.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -30,5 +31,5 @@ Discovery populates the data in the CMDB when running the Active Directory Domai
 |Class|sys\_class\_name|
 |TCP port\(s\)|tcp\_port|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_Software.md)
 

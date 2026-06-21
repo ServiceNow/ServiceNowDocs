@@ -2,6 +2,7 @@
 title: Office 365 &amp; Adobe Cloud dashboard in Software Asset Management classic
 description: View compliance analysis results related to Microsoft Office 365 and Adobe Cloud License Management in Software Asset Management classic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/sam-saas-subscription-dash.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -29,9 +30,9 @@ The dashboard is updated whenever a new reconciliation result is available. You 
 
 You can manage Adobe subscription information with Adobe I/O authentication integration.
 
-**Note:** The add-on Adobe publisher pack \(com.sn\_samp\_adobe\) [plugin](../task/t_RequSoftwareAssetMgmt.md) must be installed to view Adobe subscription reporting.
+**Note:** The add-on Adobe publisher pack \(com.sn\_samp\_adobe\) [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) must be installed to view Adobe subscription reporting.
 
-Only Adobe software products that are recognized as subscription software are shown. [Adobe integration](adobe-cloud-integration.md) must be set up to view compliance information.
+Only Adobe software products that are recognized as subscription software are shown. [Adobe integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/adobe-cloud-integration.md) must be set up to view compliance information.
 
 -   List of Active Subscriptions with no Active Adobe Software installs
 
@@ -48,7 +49,7 @@ Only Adobe software products that are recognized as subscription software are sh
 
 ## SaaS subscription reports
 
-![](../image/SAMDash365.png "Office 365 and Adobe Cloud")
+\[Omitted image "SAMDash365.png"\] Alt text:
 
-**Parent Topic:**[Software Asset Management publisher pack for Adobe](adobe-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/adobe-publisher-pack.md)
 

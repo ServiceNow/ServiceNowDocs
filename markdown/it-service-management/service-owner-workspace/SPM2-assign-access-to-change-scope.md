@@ -2,6 +2,7 @@
 title: Change scope to Service Portfolio Management Premium
 description: Grant access to a dedicated user to enable switching the scope from Global to Service Portfolio Management Premium to create a custom automated indicator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/SPM2-assign-access-to-change-scope.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -21,16 +22,16 @@ Role required: admin
 
 ## About this task
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](../concept/SPM2-premium.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md).
 
 <table id="table_e2x_rbr_nkb"><tbody><tr><td>
 
-![Set up Service Owner Workspace](../image/SOWSetupBanner2.png "Navigate")
+\[Omitted image "SOWSetupBanner2.png"\] Alt text: Set up Service Owner Workspace
 
 </td></tr></tbody>
 </table>Both the indicator and the job must be in the same scope. Provide a user with delegated developer access and the pa\_admin role to change the scope from Global to Service Portfolio Management Premium when creating custom indicators for Service Portfolio Management Premium jobs.
 
-![Assign access to change scope](../image/SOW_assignaccess.gif)
+\[Omitted image "SOW\_assignaccess.gif"\] Alt text: Assign access to change scope
 
 ## Procedure
 

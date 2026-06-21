@@ -2,6 +2,7 @@
 title: Set the SOAP default security policy
 description: Set the SOAP default security policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/t\_SetTheSOAPDefaultSecurityPolicy.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -28,5 +29,5 @@ Role required: web\_service\_admin or admin
 3.  Click **Save**.
 
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_SOAPWebService.md)
 

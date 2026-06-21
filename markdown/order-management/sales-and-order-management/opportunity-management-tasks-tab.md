@@ -2,6 +2,7 @@
 title: Add opportunity tasks
 description: Create opportunity tasks to capture additional details of your customer's requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-management-tasks-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_manager
 
 ## Procedure
 
-1.  Navigate to **List** view ![](../image/Lists.png)and select **Opportunity - All**.
+1.  Navigate to **List** view \[Omitted image "Lists.png"\] Alt text:and select **Opportunity - All**.
 
 2.  Select the opportunity that you want to work with and select the **Tasks** tab.
 
@@ -46,5 +47,5 @@ Role required: sales\_manager
 
 ## What to do next
 
-You can create appointments in your opportunity tasks. To learn more, see [Create appointments](opportunity-management-create-an-appoinment.md).
+You can create appointments in your opportunity tasks. To learn more, see [Create appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/opportunity-management-create-an-appoinment.md).
 

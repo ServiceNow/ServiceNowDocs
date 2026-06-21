@@ -2,6 +2,7 @@
 title: Manually refresh Agent Client Collector certificates
 description: Refresh Agent Client Collector self-signed certificates manually to validate Agent Client Collector plugins, instead of waiting for the scheduled synchronization. For example, you can use this feature when the agent can't validate a plugin and you don't want to wait for the scheduled synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/manually-sync-certificates.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

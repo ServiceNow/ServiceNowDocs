@@ -2,6 +2,7 @@
 title: Run scheduled jobs
 description: Run adhoc scheduled jobs to fetch entity primary data from the target ERP source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-integration-framework/execute-scheduled-job.html
 release: xanadu
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

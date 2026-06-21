@@ -2,6 +2,7 @@
 title: Generate correlation insights from the Security Incident Response Workspace with Now Assist for Security Incident Response
 description: Generate and view correlation insights in the Security Incident Response Workspace to help you connect past events to the security incident you are working on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-correlation-insights-now-assist-sir-entry-points.html
 release: xanadu
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -17,7 +18,7 @@ Generate and view correlation insights in the Security Incident Response Workspa
 
 ## Before you begin
 
-Version 3.0 of Now Assist for Security Incident Response supports generating correlation insights from the Security Incident Response Workspace. See [Supporting information for Now Assist for Security Incident Response](../concept/supporting-information-now-assist-security-incident.md) for more information.
+Version 3.0 of Now Assist for Security Incident Response supports generating correlation insights from the Security Incident Response Workspace. See [Supporting information for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/supporting-information-now-assist-security-incident.md) for more information.
 
 Roles required: sn\_si.analyst, sn\_si.manager or sn\_si.basic
 
@@ -42,14 +43,14 @@ Roles required: sn\_si.analyst, sn\_si.manager or sn\_si.basic
 
     A dialog opens. After a few moments, your correlation insights are displayed. You have the following options from this dialog:
 
-    -   Refresh insights \(![Circling arrows icon that refresh the page.](../../secops-integration-threat-security-center/image/enrich-refresh-icon.png)\) - You can change the items in the list after your initial insights are generated and update your results.
-    -   Expand \(![Arrows icon that expands the page.](../../../common/image/icon-fit-to-screen.png)\) - Resize the dialog and drag it around on the page.
+    -   Refresh insights \(\[Omitted image "enrich-refresh-icon.png"\] Alt text: Circling arrows icon that refresh the page.\) - You can change the items in the list after your initial insights are generated and update your results.
+    -   Expand \(\[Omitted image "icon-fit-to-screen.png"\] Alt text: Arrows icon that expands the page.\) - Resize the dialog and drag it around on the page.
     You have the following options for each correlation insight entry in the dialog.
 
     -   **Change time range** - Select a time range to reload the dialog with matching insights. Your results for this entry are automatically regenerated if you select a new time range. The time range for each entry is displayed next to the insight, for example, `35.35.35.35. (100 days)`.
     -   Last generated - The date that the insight was last generated.
-    -   Rate the content - \(![Thumbs up icon for helpful.](../image/icon-helpful.png)\) and \(![Thumbs down icon for not helpful.](../image/icon-not-helpful.png)\).
-    -   Copy - \(![Pages icon to show copy action.](../image/icon-copy.png)\) Copy the insight to the clipboard.
+    -   Rate the content - \(\[Omitted image "icon-helpful.png"\] Alt text: Thumbs up icon for helpful.\) and \(\[Omitted image "icon-not-helpful.png"\] Alt text: Thumbs down icon for not helpful.\).
+    -   Copy - \(\[Omitted image "icon-copy.png"\] Alt text: Pages icon to show copy action.\) Copy the insight to the clipboard.
     -   **Share to work notes** - Edit the content and publish it to the work notes on the security incident.
     Correlation insights are stored for observables when you generate them for the first time based on the default lookup period \(30 days\). These insights are stored until you regenerate insights for the observables with a different lookup period. Modify the 30-day limit for the query by following these steps:
 

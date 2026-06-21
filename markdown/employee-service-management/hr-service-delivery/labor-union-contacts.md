@@ -2,6 +2,7 @@
 title: Create union contacts
 description: Use Union Contacts to create and track the people who work for a union or local chapter organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/labor-union-contacts.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -67,7 +68,7 @@ Labor union
 
 </td><td>
 
-The labor union that the contact person is associated with. **Note:** For more information, see [Create a labor union](labor-unions-create.md).
+The labor union that the contact person is associated with. **Note:** For more information, see [Create a labor union](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/labor-unions-create.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Local union chapter
 
 </td><td>
 
-The chapter of the labor union the contact person is associated with.**Note:** For more information, see [Create a local chapter](labor-unions-local-chapter.md).
+The chapter of the labor union the contact person is associated with.**Note:** For more information, see [Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md).
 
 </td></tr><tr><td>
 
@@ -89,5 +90,5 @@ The contact person's role within the labor union.
 </table>4.  Select **Save** or **Submit**.
 
 
-**Parent Topic:**[Setting up labor unions](../concept/labor-unions-setting-up.md)
+**Parent Topic:**[Setting up labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/labor-unions-setting-up.md)
 

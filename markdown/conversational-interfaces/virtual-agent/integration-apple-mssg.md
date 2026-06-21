@@ -2,6 +2,7 @@
 title: Conversational Integration with Apple Messages for Business
 description: The Conversational Integration with Apple Messages for Business application allows customers to engage with your business using their Apple devices. Conversational Integration with Apple Messages for Business provides rich messaging capabilities such as Apple pay, forms, time picker, and authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/integration-apple-mssg.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,13 +18,13 @@ The Conversational Integration with Apple Messages for Business application allo
 
 ## Overview of Conversational Integration with Apple Messages for Business
 
-Enable requesters to interact in a Apple Messages for Business chat with a virtual agent or live agent using the ServiceNow® Conversational Integration with Apple Messages for Business application. The application connects a requester with a virtual agent or live agent using your company's Apple Messages for Business account. To get started with the Conversational Integration with Apple Messages for Business application, see [Install Conversational Integration with Apple Messages for Business](../task/messg-apple-install.md).
+Enable requesters to interact in a Apple Messages for Business chat with a virtual agent or live agent using the ServiceNow® Conversational Integration with Apple Messages for Business application. The application connects a requester with a virtual agent or live agent using your company's Apple Messages for Business account. To get started with the Conversational Integration with Apple Messages for Business application, see [Install Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-apple-install.md).
 
 ## Apple Messages for Business entry points
 
 Customers can start a conversation with an agent from a variety of entry points. From each of these entry points, customers can launch the Apple messages app and compose a message. You can add custom buttons to a website, app, or social media page, so that customers can start a conversation with a Virtual Agent or live agent. For a full overview of the options available, see the [Apple documentation](https://register.apple.com/resources/messages/messaging-documentation/message-with-customers#entry-points-overview).
 
-![Device with Apple "message us" button displayed](../images/amb-app.png "Apple message example")
+\[Omitted image "amb-app.png"\] Alt text: Device with Apple "message us" button displayed
 
 -   iMessage
 -   Apple Maps
@@ -77,7 +78,7 @@ Time pickers
 
 Provides time slots for users to choose for appointments, deliveries, and services.
 
- To use time pickers, you must have [Conversational Appointment Booking](https://www.servicenow.com/docs/access?context=conv_appt_booking&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US) installed.
+ To use time pickers, you must have  installed.
 
 </td></tr><tr><td>
 
@@ -132,5 +133,5 @@ Users or live or virtual agents can send PDF documents during a chat.
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

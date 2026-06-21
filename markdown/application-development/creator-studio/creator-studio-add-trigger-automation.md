@@ -2,6 +2,7 @@
 title: Edit the trigger for a playbook in Creator Studio
 description: Define the trigger for a playbook in Creator Studio to specify what makes the playbook start running.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-add-trigger-automation.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -39,11 +40,11 @@ To edit the trigger for a playbook, you must be given permission to work on the 
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
@@ -51,9 +52,9 @@ To edit the trigger for a playbook, you must be given permission to work on the 
 
 5.  Check that you're editing the correct playbook in your app by selecting it from the **Automations** tab.
 
-    ![Selection of a playbook from the Automations tab](../image/cs-automation-tab-selection.png)
+    \[Omitted image "cs-automation-tab-selection.png"\] Alt text: Selection of a playbook from the Automations tab
 
-6.  Select the **Trigger** \(![](../image/cs-trigger-icon.png)\).
+6.  Select the **Trigger** \(\[Omitted image "cs-trigger-icon.png"\] Alt text:\).
 
     The Additional properties modal appears, where you can edit some of the trigger's settings.
 
@@ -68,14 +69,14 @@ To edit the trigger for a playbook, you must be given permission to work on the 
 
 9.  Change the conditions that must be met for the playbook to begin running by selecting **Add condition set**.
 
-    -   If you want to trigger the playbook based on the value of a column in a table, select the **[Field](../concept/creator-studio-glossary.md#)** that you want to be the trigger, as well as its condition **Operator** and the specific trigger **Value**. For example, when a **Start date** is **after** the **Date** needed.
+    -   If you want to trigger the playbook based on the value of a column in a table, select the **[Field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md)** that you want to be the trigger, as well as its condition **Operator** and the specific trigger **Value**. For example, when a **Start date** is **after** the **Date** needed.
     -   If you want to trigger the playbook based on the response from a form, select **Questions** as the trigger **Field**. Then select the question you want in the **Question** field, the condition **Operator** and the answer's **Value**.
-    ![Use a specific answer to a form's question as trigger](../image/crs-trigger-question-answer.png "Question answer as trigger for an automation")
+    \[Omitted image "crs-trigger-question-answer.png"\] Alt text: Use a specific answer to a form's question as trigger
 
-    Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+    Add as many conditions as you need. For more information, see .
 
 10. Save your changes by selecting the **Done** button.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-working-with-automations.md)
 

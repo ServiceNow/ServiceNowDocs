@@ -2,7 +2,10 @@
 title: View scheduling history for work order tasks
 description: View the history of the scheduling method of work order tasks that are assigned and scheduled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-scheduling-history.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -40,5 +43,5 @@ View the scheduling history of the work order task with the following details:
 
 The work order task assignments with the scheduling method appear.
 
-**Parent Topic:**[Scheduling and dispatching work order tasks to agents](../concept/scheduling-and-dispatching-agents.md)
+**Parent Topic:**[Scheduling and dispatching work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-and-dispatching-agents.md)
 

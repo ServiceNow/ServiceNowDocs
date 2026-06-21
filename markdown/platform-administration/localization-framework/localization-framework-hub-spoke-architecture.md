@@ -2,6 +2,7 @@
 title: Localization Framework Hub and Spoke architecture
 description: Enable one central instance to fulfill translation requests submitted from other instances using the Localization Framework Hub and Spoke architecture. Install optional Localization Framework plugins to configure one of your instances as a hub and other instances as spokes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.html
 release: xanadu
 product: Localization Framework
 classification: localization-framework
@@ -27,7 +28,7 @@ To set up this architecture, use the admin role to install the following plugins
 -   Localization Framework Hub \[com.sn.localization\_framework.hub\]. Install this plugin on the instance you designate as a hub.
 -   Localization Framework Spoke \[com.sn.localization\_framework.spoke\]. Install this plugin on the instances you designate as spokes.
 
-For more information on installation, see [Activate Localization Framework](../task/activate-lf-plugin.md).
+For more information on installation, see [Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/activate-lf-plugin.md).
 
 When both plugins are installed, use the admin or localization\_admin role to configure the connection between hub and spoke instances. On the hub instance:
 
@@ -51,5 +52,5 @@ On a spoke instance:
 
 From the perspective of the spoke instance, the hub acts as a TMS.
 
-**Parent Topic:**[Configure the Localization Framework](configuring-localization-framework.md)
+**Parent Topic:**[Configure the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/configuring-localization-framework.md)
 

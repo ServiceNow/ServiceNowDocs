@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection Generate change request plans agentic workflow
 description: Use the Change request planning AI agent team to monitor similar change requests autonomously and generate the necessary plans. This approach may help reduce the time required for scheduling changes and managing change-related risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-change-planner-usecase.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -20,7 +21,7 @@ Use the Change request planning AI agent team to monitor similar change requests
 
 Generate the desired change plans using a team of AI agents in the Generate change request plans agentic workflow.
 
-To modify the Generate change request plans agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Generate change request plans agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 
@@ -66,10 +67,10 @@ In the use agentic workflow:
 
     **Example of a Generate change request plans agentic workflow output in the ServiceNow StudioAI Agent Studio**
 
-    ![Generate change request plans agentic workflow output.](../image/now-assist-itsm-aiagents-change-imp-nap.png)
+    \[Omitted image "now-assist-itsm-aiagents-change-imp-nap.png"\] Alt text: Generate change request plans agentic workflow output.
 
 
-In the AI Agent Studio, the human agent gets notified as soon as the report gets generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](../task/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as the report gets generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
-**Parent Topic:**[Using agentic workflows in Now Assist for ITSM](now-assist-itsm-ai-agents-use-cases.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md)
 

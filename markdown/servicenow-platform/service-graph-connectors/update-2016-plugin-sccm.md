@@ -2,6 +2,7 @@
 title: Upgrade from the legacy SCCM plugin to the Service Graph Connector for Microsoft SCCM
 description: Deactivate the scheduled imports and pull records so that you can upgrade from the Microsoft SCCM 2016 plugin or an earlier version of the plugin to the Service Graph Connector for Microsoft SCCM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-graph-connectors/update-2016-plugin-sccm.html
 release: xanadu
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -47,7 +48,7 @@ Any customizations to the SCCM 2016 plugin will not automatically migrate. The c
 
 3.  Deactivate the scheduled imports from the older SCCM plugin.
 
-    For more information on how to deactivate scheduled imports, see [Upgrade the SCCM integration version](https://www.servicenow.com/docs/access?context=t_UpgradeSCCMIntegrationVersion&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    For more information on how to deactivate scheduled imports, see Upgrade the SCCM integration version.
 
 4.  Delete duplicate OS software records in the older SCCM plugin.
 
@@ -71,7 +72,7 @@ Any customizations to the SCCM 2016 plugin will not automatically migrate. The c
 
 5.  After you are finished deactivating the scheduled imports and deleting the duplicate OS records from the older SCCM plugin, configure the connector.
 
-    For instructions, see [Configure the Service Graph Connector for Microsoft SCCM](configure-sccm-integration.md).
+    For instructions, see [Configure the Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-graph-connectors/configure-sccm-integration.md).
 
 6.  Clean up the Disk and Network Adapter records created by the SCCM plugin.
 

@@ -2,6 +2,7 @@
 title: Deleted hardening settings
 description: This list contains the hardening settings which have been removed in Security Center baseline version 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/deleted-hardening-settings.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -22,5 +23,5 @@ This list contains the hardening settings which have been removed in Security Ce
 -   Block Direct Inserts to MID ECC Queue for Code Signing Requirement
 -   Log All Outbound HTTP Request Fields
 
-**Parent Topic:**[Deleted hardening settings for baseline version 4.0](deleted-hardening-settings-for-version-four.md)
+**Parent Topic:**[Deleted hardening settings for baseline version 4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-version-four.md)
 

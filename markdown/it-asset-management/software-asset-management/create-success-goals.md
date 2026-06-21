@@ -2,6 +2,7 @@
 title: Create success goals for Software Asset Management
 description: Create success goals to track the success of the Software Asset Management application in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/create-success-goals.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -27,7 +28,7 @@ Role required: sam\_admin
 
 3.  On the form, fill in the details.
 
-    For a description of the field values, see [SAM Success Goal Details](../reference/sam-success-goal-details.md).
+    For a description of the field values, see [SAM Success Goal Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-success-goal-details.md).
 
 4.  Select **Save**.
 

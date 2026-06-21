@@ -2,6 +2,7 @@
 title: Create custom enterprise product models
 description: If you have a product model that is not represented in the Enterprise Asset Management Content Service yet, you can create a custom product model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-custom-product-model-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -43,5 +44,5 @@ Role required: sn\_eam.enterprise\_admin
     After the product model is created, normalize the product model.
 
 
-**Parent Topic:**[Normalizing enterprise models](../concept/normalizing-enterprise-models.md)
+**Parent Topic:**[Normalizing enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/normalizing-enterprise-models.md)
 

@@ -2,6 +2,7 @@
 title: Working with schedule view
 description: You can check any reservations created in your workplace and also make changes using the schedule view of the event planner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-central/working-with-schedule-view.html
 release: xanadu
 product: Workplace Central
 classification: workplace-central
@@ -55,7 +56,7 @@ You can view reservations created in any campus, building, or floor of your orga
 
     The Workplace Analytics dashboard opens.
 
-2.  On the left pane, select the **Event planner** icon \(![Event planner icon.](../images/event-planner-icon.png)\).
+2.  On the left pane, select the **Event planner** icon \(\[Omitted image "event-planner-icon.png"\] Alt text: Event planner icon.\).
 
     The Event Planner dashboard opens.
 
@@ -103,7 +104,7 @@ You can view reservations created in any campus, building, or floor of your orga
 
     By default, the calendar is set to a 30-minute view, that is, the **Day view 30 minutes** option is selected.
 
-9.  To understand the status of the reservation, that is, to know the state of the reservation by its color, select the **Legends** \(![Legends icon.](../images/evnt-plnnr-legend-icon.png)\) option.
+9.  To understand the status of the reservation, that is, to know the state of the reservation by its color, select the **Legends** \(\[Omitted image "evnt-plnnr-legend-icon.png"\] Alt text: Legends icon.\) option.
 
 10. To view the details of the reservation, do the following:
 
@@ -111,7 +112,7 @@ You can view reservations created in any campus, building, or floor of your orga
 
         The reservation details such as the start and end time, total duration, type of reservation and current state is displayed.
 
-    2.  To view the reservation details on the side panel, select the Open side panel icon \(![Open side panel icon.](../images/evnt-plnnr-opensidepanelicon.png)\).
+    2.  To view the reservation details on the side panel, select the Open side panel icon \(\[Omitted image "evnt-plnnr-opensidepanelicon.png"\] Alt text: Open side panel icon.\).
 
     3.  To open the reservation on the portal and view more details, select **Open reservation**.
 
@@ -148,13 +149,13 @@ You can view reservations created in any campus, building, or floor of your orga
         -   To change the reservation and keep the services, edit the reservation first.
 13. To create a reservation on the selected campus, select **Create new reservation**.
 
-    For more information on how to make a reservation, refer to [Create a reservation](../../wsd-reservation-management/task/create-reservation-request-1.md).
+    For more information on how to make a reservation, refer to [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
 
--   **[Allow Event planners to handle reservations with more flexibility](../concept/event-planner-bypass-validation-rule-overview.md)**  
+-   **[Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md)**  
 Reservation planners can bypass or overrule certain settings in the Reservable module while moving a reservation to another location in the Event planner Scheduled View.
--   **[Move reservations between Reservable modules using the Schedule view](evnt-planner-scheduled-view-move-rsv.md)**  
+-   **[Move reservations between Reservable modules using the Schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-central/evnt-planner-scheduled-view-move-rsv.md)**  
 Reservation or space planners can move or update reservation between Reservable modules. Planners with sn\_wsd\_rsv.bypass\_module\_validation role can bypass the Reservable module configuration settings.
 
-**Parent Topic:**[Working with Event planner](../concept/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-central/working-with-event-planner.md)
 

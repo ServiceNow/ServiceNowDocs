@@ -2,6 +2,7 @@
 title: Reassign an Assessment type case task
 description: Reassign an Assessment type case task to another user in the GRC: Compliance Case Management application. For example, a case analyst or a case task owner can reassign a compliance case task to another case task owner if a case task is wrongly assigned or isn’t accepted by the case task owner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/compliance-case-management/reassign-a-compliance-case-task.html
 release: xanadu
 product: Compliance Case Management
 classification: compliance-case-management
@@ -46,5 +47,5 @@ As a case task owner, you can also accept the task, start working on it, and the
 7.  In the Reassign case task dialog box, select **Reassign**.
 
 
-**Parent Topic:**[Work on a case task](work-on-compliance-case-task.md)
+**Parent Topic:**[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.md)
 

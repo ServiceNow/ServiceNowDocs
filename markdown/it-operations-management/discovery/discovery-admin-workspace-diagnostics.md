@@ -2,11 +2,12 @@
 title: Discovery Admin Workspace Diagnostics
 description: Diagnostics allows you to prioritize and address Discovery schedule errors. Create and manage Error Tasks to track progress on resolving errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/discovery-admin-workspace-diagnostics.html
 release: xanadu
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

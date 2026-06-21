@@ -2,6 +2,7 @@
 title: Special handling notes with HR Service Delivery Agent Workspace
 description: Get an agent's attention by adding special handling notes to a case.Configure an HR table to use special handling notes. You must do this before you can create special handling notes.Create special handling notes that an agent can see for a specific HR case or an HR case with a set of conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-special-handling.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,18 +24,18 @@ To configure special handling notes for HR Service Delivery Agent Workspace, do 
 
 1.  Edit the special handling notes properties.
 
-    For more information, see [Configure special handling notes properties](https://www.servicenow.com/docs/access?context=t_EnableOnScreenAlertProperties&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+    For more information, see Configure special handling notes properties.
 
 2.  Create special handling notes for an HR table.
 
-    For more information, see [Configure special handling notes](https://www.servicenow.com/docs/access?context=configure-special-handling-notes&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+    For more information, see Configure special handling notes.
 
 3.  Create a special handling note.
 
-    For more information, see [Configure special handling notes](https://www.servicenow.com/docs/access?context=configure-special-handling-notes&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+    For more information, see Configure special handling notes.
 
 
-For more information, see Highlighted values in the form header and [Special handling notes](https://www.servicenow.com/docs/access?context=c_OnScreenAlerts&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+For more information, see Highlighted values in the form header and Special handling notes.
 
 ## Configure special handling notes in HR Service Delivery Agent Workspace
 
@@ -107,9 +108,9 @@ Type
 
 </td><td>
 
-Type of special handling note that you can select:-   Standard: Select this option to display a special handling note for a specific record. When you select the ![Lookup documents using list icon](../image/magnifying-glass.png) Lookup documents using list icon, you can select a table and associated record.
+Type of special handling note that you can select:-   Standard: Select this option to display a special handling note for a specific record. When you select the \[Omitted image "magnifying-glass.png"\] Alt text: Lookup documents using list icon Lookup documents using list icon, you can select a table and associated record.
 
-![Special Handling Notes - Related record](../reference/images/hr-special-handling-notes-standard.png)
+\[Omitted image "hr-special-handling-notes-standard.png"\] Alt text: Special Handling Notes - Related record
 
 -   Conditional: Select this option to use filter conditions to specify when a special handling note appears.
 
@@ -120,7 +121,7 @@ Display as a pop-up alert
 
 </td><td>
 
-Special handling note that appears as a pop-up alert. **Note:** Currently, a pop-up alert is the only way to show special handling notes. Select this option to show special handling notes. If you leave this option clear, special handling notes appear on the HR case form as an embedded list on the platform version of HR. For more information, see [Work an HR case](../task/t_CreateAnHRCase.md).
+Special handling note that appears as a pop-up alert. **Note:** Currently, a pop-up alert is the only way to show special handling notes. Select this option to show special handling notes. If you leave this option clear, special handling notes appear on the HR case form as an embedded list on the platform version of HR. For more information, see [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md).
 
 </td></tr><tr><td>
 
@@ -161,7 +162,7 @@ Effective on
 
 </td><td>
 
-Field that is available when you leave the **Effective immediately** option unselected.Select the ![Select date and time icon](../reference/images/calendar-icon.png) Select date and time icon to select the date and time when the special handling note appears.
+Field that is available when you leave the **Effective immediately** option unselected.Select the \[Omitted image "calendar-icon.png"\] Alt text: Select date and time icon Select date and time icon to select the date and time when the special handling note appears.
 
 </td></tr><tr><td>
 
@@ -169,7 +170,7 @@ Expires on
 
 </td><td>
 
-Field where you can set a date and time to automatically inactivate a special handling note. Click the ![Select date and time icon](../reference/images/calendar-icon.png) Select date and time icon to access the calendar where you can choose the date and time to activate the special handling note.
+Field where you can set a date and time to automatically inactivate a special handling note. Click the \[Omitted image "calendar-icon.png"\] Alt text: Select date and time icon Select date and time icon to access the calendar where you can choose the date and time to activate the special handling note.
 
 </td></tr><tr><td>
 
@@ -197,7 +198,7 @@ Conditions
 
 Field that is available when you select **Conditional** from the **Type** field.Select the conditions when met that would show the special handling note. For example, let's say that you want to add a special handling note for a General Inquiry case for an employee named Aileen Mottern, you would select: **\[HR profile\] \[is\] \[Aileen Mottern\]**.
 
-**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+**Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>4.  Click **Submit** or **Update**.

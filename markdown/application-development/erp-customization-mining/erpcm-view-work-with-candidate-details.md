@@ -2,6 +2,7 @@
 title: View and work with candidate details in ERP-CM
 description: View and edit candidate details and recommended actions in ERP Customization Mining \(ERP-CM\). Analyze ERP \(Enterprise Resource Planning\) system scan results, linked ERP models, usage, and similar candidates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-view-work-with-candidate-details.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -23,11 +24,11 @@ Role required: sn\_erp\_mining.erp\_user
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Customization Mining**.
 
-2.  In the side panel, select the candidates icon \(![Candidates icon](../image/erpcm-candidates-icon.png)\).
+2.  In the side panel, select the candidates icon \(\[Omitted image "erpcm-candidates-icon.png"\] Alt text: Candidates icon\).
 
 3.  View and edit the basic details for a candidate in a new tab within ERP-CM by selecting the candidate **Name** in the candidates list.
 
-    Alternatively, you can select a candidate directly on the ERP-CM home page. For more information, see [Browse an overview of candidates in ERP-CM](erpcm-view-home-page-overview.md).
+    Alternatively, you can select a candidate directly on the ERP-CM home page. For more information, see [Browse an overview of candidates in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-view-home-page-overview.md).
 
     The **Details** tab of the candidate is where you can review and update any basic details, as well as work with comments, attachments, and the Activity stream.
 
@@ -90,13 +91,13 @@ Additional information about the candidate.
 </td></tr></tbody>
 </table>4.  Work with the next recommended steps by selecting the **Recommendations** tab.
 
-    For more information, see [Check candidate recommendations in ERP-CM](erpcm-work-with-recommendations.md).
+    For more information, see [Check candidate recommendations in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-work-with-recommendations.md).
 
 5.  View details on which tables were relevant to the candidate and the details of their scan on the ERP system by selecting the **ERP scan results** tab.
 
-    For a description of the field values, see [ERP-CM candidate scan results field descriptions](../reference/erpcm-candidate-scan-results-descriptions.md).
+    For a description of the field values, see [ERP-CM candidate scan results field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-candidate-scan-results-descriptions.md).
 
-    ![ERP-CM scan results](../image/erpcm-candidate-scan.png "Candidate scan results")
+    \[Omitted image "erpcm-candidate-scan.png"\] Alt text: ERP-CM scan results
 
 6.  Check and note which ERP models are ERP-CM identified as being related to the candidate by selecting the **Models** tab.
 
@@ -116,7 +117,7 @@ Additional information about the candidate.
 
     Similar candidates are helpful when planning how to best replatform a legacy app. When you replatform a custom app from the system of record, you don't have to replicate the old app exactly. Use the replatforming process to design a better app, perhaps one that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform.
 
-    For a description of the field values, see [ERP-CM similar candidates field descriptions](../reference/erpcm-similar-candidates-field-descriptions.md).
+    For a description of the field values, see [ERP-CM similar candidates field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-similar-candidates-field-descriptions.md).
 
 9.  Select the **Save** button and save any changes you made to the candidate details.
 
@@ -125,13 +126,13 @@ Additional information about the candidate.
 
 After you work with the candidate details and identify similar candidates, you can:
 
--   [Check candidate recommendations in ERP-CM](erpcm-work-with-recommendations.md).
--   [Save potential candidates to replatform](erpcm-find-candidates.md).
--   Continue building remote table and extraction tables in the relevant ERP model in ERP Data Hub, making the data available on the ServiceNow AI Platform. For more information, see [Using ERP models, extraction tables, and remote tables](../../erp-integration/concept/work-with-erp-systems-connections-and-remote-tables.md).
+-   [Check candidate recommendations in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-work-with-recommendations.md).
+-   [Save potential candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-find-candidates.md).
+-   Continue building remote table and extraction tables in the relevant ERP model in ERP Data Hub, making the data available on the ServiceNow AI Platform. For more information, see [Using ERP models, extraction tables, and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md).
 
 **Note:**
 
 If you delete a candidate from ERP-CM, it automatically reappears the next time the ERP system is scanned. Instead of deleting candidates, use the **Save as potential candidate** feature to organize your candidates.
 
-**Parent Topic:**[Finding and working with candidates to replatform](../concept/work-with-candidates.md)
+**Parent Topic:**[Finding and working with candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/work-with-candidates.md)
 

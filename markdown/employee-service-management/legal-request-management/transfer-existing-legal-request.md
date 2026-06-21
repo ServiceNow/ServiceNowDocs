@@ -2,6 +2,7 @@
 title: Transfer a legal request
 description: Transfer a legal request to a new practice area or category if the request was submitted with an inappropriate practice area or category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-request-management/transfer-existing-legal-request.html
 release: xanadu
 product: Legal Request Management
 classification: legal-request-management
@@ -27,7 +28,7 @@ Role required: sn\_lg\_ops.request\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  Select **Assigned to Me** under **Legal Requests**.
 
@@ -35,7 +36,7 @@ Role required: sn\_lg\_ops.request\_fulfiller
 
 4.  Open the legal request that you want to transfer.
 
-5.  Select the More Actions icon \(![More Actions icon.](../../../common/image/icon-ellipses.png)\) and then select **Transfer Request**.
+5.  Select the More Actions icon \(\[Omitted image "icon-ellipses.png"\] Alt text: More Actions icon.\) and then select **Transfer Request**.
 
 6.  In the dialog box, fill in the fields.
 
@@ -92,7 +93,7 @@ Any comments that would be helpful in relation to the transfer of the legal requ
 
     -   If you do not have the complete variable information, select **Send to Requester** to send the request back to the requester.
 
-        An email notification is sent to the requester, and requested for. For more information, see [Update a legal request by requester](submit-legal-request-requester.md).
+        An email notification is sent to the requester, and requested for. For more information, see [Update a legal request by requester](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/submit-legal-request-requester.md).
 
 
 ## Result
@@ -105,5 +106,5 @@ Any comments that would be helpful in relation to the transfer of the legal requ
 -   After the request is sent to the requester, the fulfiller's name is moved from the Collaborators field to the Watch list.
 -   The request state is changed to New after the variables are updated and submitted by the fulfiller or the requester.
 
-**Parent Topic:**[Work on a legal request](work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/work-on-legal-request.md)
 

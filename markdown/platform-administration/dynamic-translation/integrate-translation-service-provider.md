@@ -2,6 +2,7 @@
 title: Integrate with a translation service provider
 description: Integrate with a third-party translation provider of your choice for machine translation of user-generated text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/dynamic-translation/integrate-translation-service-provider.html
 release: xanadu
 product: Dynamic Translation
 classification: dynamic-translation
@@ -25,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**, then select **New** to create subflows to detect the language of the input text and translate the input text, as well as actions, using the following guidance.
 
-    For information, see [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+    For information, see Workflow Studio.
 
     1.  Map error codes from your machine translation provider to the error codes and standardized error messages supported by ServiceNow.
 
@@ -41,7 +42,7 @@ Role required: admin
 
     2.  Ensure that the inputs and output fields are in the following format for subflows.
 
-        **Note:** When creating subflows, you can refer to the subflows that are available by default if required. For example: Detect Language \[detect\_language\_v4\] and Translate Text \[translate\_text\_v3\]. For more information, see [Migrate customized Translator Configurations to v4 flows](migrate-v4-dynamic-translation.md).
+        **Note:** When creating subflows, you can refer to the subflows that are available by default if required. For example: Detect Language \[detect\_language\_v4\] and Translate Text \[translate\_text\_v3\]. For more information, see [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).
 
 <table id="table_z5q_q5t_23b"><thead><tr><th>
 
@@ -65,7 +66,7 @@ texts
 
 </td><td>
 
-Input texts whose language should be detected.Version v3 supports bulk detection \(detection of multiple texts input in a single string\). With the Xanadu Patch 3 release, version v4 supports [Exclusion Framework](../concept/dyn-translation-exclusion-framework.md) as well as bulk detection.
+Input texts whose language should be detected.Version v3 supports bulk detection \(detection of multiple texts input in a single string\). With the Xanadu Patch 3 release, version v4 supports [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md) as well as bulk detection.
 
 </td><td>
 
@@ -89,7 +90,7 @@ Information about the code and confidence of the languages detected by the trans
 { 'code' : 'fr',  'confidence' : '0.93'  }
 ```
 
- For more information refer to the getDetectedLanguages section of [DynamicTranslation - Scoped](https://www.servicenow.com/docs/access?context=DynamicTranslation&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+ For more information refer to the getDetectedLanguages section of DynamicTranslation - Scoped.
 
 </td><td>
 
@@ -204,7 +205,7 @@ Translated texts in the specified target languages. Each element of the array is
 
 ```
 
- For more information refer to the getTranslations section of [DynamicTranslation - Scoped](https://www.servicenow.com/docs/access?context=DynamicTranslation&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+ For more information refer to the getTranslations section of DynamicTranslation - Scoped.
 
 </td><td>
 
@@ -225,25 +226,25 @@ Choice
 </td></tr></tbody>
 </table>        **Note:** Ensure that the **Run As** field is set to **User who initiates session** in the flow properties.
 
-2.  [Create a custom translator configuration](create-custom-translator.md) for your service provider in the Translator Configurations table, and set the record to active.
+2.  [Create a custom translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/create-custom-translator.md) for your service provider in the Translator Configurations table, and set the record to active.
 
     When you create the record in the Translator Configurations table, search for the subflows you created in the previous step..
 
 3.  If your instance is on Xanadu Patch 3 or higher, and you intend to use Exclusion Framework, enter your translation provider's exclusion tags in the Exclusion Provider Pattern table.
 
-    Refer to your provider's documentation to obtain these tags. For more information about entering the tags, see [Add an Exclusion Provider Pattern](dyn-translation-exclusion-provider.md).
+    Refer to your provider's documentation to obtain these tags. For more information about entering the tags, see [Add an Exclusion Provider Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/dyn-translation-exclusion-provider.md).
 
 4.  Create a language code mapping to associate your provider's language codes to ServiceNow language codes.
 
-    For more information, see [Create a language code mapping](create-language-code-mapping.md).
+    For more information, see [Create a language code mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/create-language-code-mapping.md).
 
 
 ## What to do next
 
-For information about APIs, see [DynamicTranslation API](../concept/dyn-translation-apis.md).
+For information about APIs, see [DynamicTranslation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/dyn-translation-apis.md).
 
--   **[Create a custom translator configuration](create-custom-translator.md)**  
+-   **[Create a custom translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/create-custom-translator.md)**  
 Configure Dynamic Translation for a third-party machine translation provider of your choice.
 
-**Parent Topic:**[Integration with other translation services](../concept/integration-with-other-translation-services.md)
+**Parent Topic:**[Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/integration-with-other-translation-services.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with the email client
 description: Several types of components are installed with activation of the Email Client \(com.glide.email\_client\) and Email Client Template \(com.glide.email\_client\_template\) plugins, including tables and user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/installed-with-email-client.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -13,9 +14,9 @@ breadcrumb: [Email client, Notifications, Configure core features, Administer th
 
 Several types of components are installed with activation of the Email Client \(com.glide.email\_client\) and Email Client Template \(com.glide.email\_client\_template\) plugins, including tables and user roles and tables.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](../../plugins/task/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/find-components.md).
 
 ## Tables installed
 

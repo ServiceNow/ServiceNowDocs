@@ -2,6 +2,7 @@
 title: Execute RFC in the Source-to-Pay with SAP integration
 description: Execute RFC from the available list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-integration-framework/execute-rfc-source-to-pay-sap-integration.html
 release: xanadu
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -27,7 +28,7 @@ Step 4 - Create ERP Source is ERP source configuration table.
 
 Step 5 - Create Service, add flow and give the necessary inputs in the fields.
 
-![Figure 0-1: Flow chart illustrating RFC Execution.](../image/rfc-execution.png)
+\[Omitted image "rfc-execution.png"\] Alt text: Figure 0-1: Flow chart illustrating RFC Execution.
 
 **Name**: ZSN\_BAPI\_GET\_DATA
 
@@ -126,18 +127,18 @@ Reason for error. Populated only when an error occurs. Error returned from SAP i
 </td></tr></tbody>
 </table>-   Error! Reference source not found.
 
-    ![Function Builder Initial Screen](../../sourcing-procurement-operations/image/function-builder-initial-screen.png "Function Builder Initial Screen")
+    \[Omitted image "function-builder-initial-screen.png"\] Alt text: Function Builder Initial Screen
 
 -   Error! Reference source not found.Error! Reference source not found.
 
-    ![IMPORT, CHANGING, and TABLES parameters](../../sourcing-procurement-operations/image/test-function-module.png "Enter the IMPORT, CHANGING, and TABLES parameters")
+    \[Omitted image "test-function-module.png"\] Alt text: IMPORT, CHANGING, and TABLES parameters
 
--   ![Results data](../../sourcing-procurement-operations/image/test-function-module-result-screen.png "Results data")
+-   \[Omitted image "test-function-module-result-screen.png"\] Alt text: Results data
 
 -   Error! Reference source not found
 
-    ![Results data](../../sourcing-procurement-operations/image/structure-editor.png "Results data")
+    \[Omitted image "structure-editor.png"\] Alt text: Results data
 
-    ![Results Data](../../sourcing-procurement-operations/image/structure-editor-display-it.png "Results data")
+    \[Omitted image "structure-editor-display-it.png"\] Alt text: Results Data
 
 

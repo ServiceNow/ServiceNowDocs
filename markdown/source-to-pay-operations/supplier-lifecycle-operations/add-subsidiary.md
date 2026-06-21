@@ -2,6 +2,7 @@
 title: Add a subsidiary for a supplier from the Source-to-Pay Workspace
 description: If a supplier has subsidiaries, you can add them to that supplier from the Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/add-subsidiary.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -38,5 +39,5 @@ Role required: sn\_slm.owner or sn\_slm.admin
     When you add a subsidiary, the supplier you added it under becomes the parent entity of that subsidiary.
 
 
-**Parent Topic:**[Create a supplier from the Source-to-Pay Workspace](new-supplier.md)
+**Parent Topic:**[Create a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/new-supplier.md)
 

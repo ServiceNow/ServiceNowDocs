@@ -2,6 +2,7 @@
 title: Configuring AI agents for Now Assist for ITOM
 description: Configure AI agents for the Analyze alert impact agentic workflow. Once configured, the AI agents gather information to help you investigate alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.html
 release: xanadu
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -15,12 +16,12 @@ breadcrumb: [Configuring Now Assist for IT Operations Management \(ITOM\), Now A
 
 Configure AI agents for the Analyze alert impact agentic workflow. Once configured, the AI agents gather information to help you investigate alerts.
 
--   **[Configure the Dynatrace analysis AI agent](../task/now-assist-itom-config-dynatrace.md)**  
+-   **[Configure the Dynatrace analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-config-dynatrace.md)**  
 Connect the Dynatrace analysis AI agent to your Dynatrace instance to use it in the Analyze alert impact agentic workflow. Once connected, the AI agent gathers information to help you investigate alerts.
--   **[Configure the Kentik analysis AI agent](../task/now-assist-itom-config-kentik.md)**  
+-   **[Configure the Kentik analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-config-kentik.md)**  
 Connect the Kentik analysis AI agent to your Kentik instance to use it in the Analyze alert impact agentic workflow. Once connected, the AI agent gathers information to help you investigate alerts.
--   **[Configure the New Relic analysis AI agent](../task/now-assist-itom-config-new-relic.md)**  
+-   **[Configure the New Relic analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-config-new-relic.md)**  
 Connect the New Relic analysis AI agent to your New Relic instance to use it in the Analyze alert impact agentic workflow. Once connected, the AI agent gathers information to help you investigate alerts.
 
-**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](now-assist-itom-configure.md)
+**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

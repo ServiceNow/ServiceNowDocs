@@ -2,6 +2,7 @@
 title: Modify decision table structure in Workflow Studio
 description: Evolve with your business logic by modifying the inputs or columns of your decision table in Workflow Studio.Modify an input by changing the label, modifying the type and associated properties, and changing the mandatory toggle.Narrow down the list of results to only information that you need to see for Reference type input and result fields in decision tables in Workflow Studio.Make changes to an existing filter on Reference type inputs or results in decision tables in Workflow Studio.Delete inputs that are no longer necessary from your decision table in Workflow Studio. Deleting an input also deletes any related condition columns.Modify a condition column by renaming the label, editing the description, or updating the input type or default operator of your decision table in Workflow Studio.Change the data that a decision evaluates by changing the source table for that decision table in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/format-decision-table-in-decision-designer.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Using decision tables, Using Workflow Studio, Workflow Studio, Buil
 
 Evolve with your business logic by modifying the inputs or columns of your decision table in Workflow Studio.
 
-**Parent Topic:**[Using decision tables](using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/using-decision-builder.md)
 
 ## Modify an input for a decision table
 
@@ -23,7 +24,7 @@ Modify an input by changing the label, modifying the type and associated propert
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -64,15 +65,15 @@ Role required: admin or decision\_table\_admin
 
 4.  Create a filter for an input or result.
 
-<table id="choicetable_mgh_hb1_cyb"><thead><tr><th align="left" id="d58684e271">
+<table id="choicetable_mgh_hb1_cyb"><thead><tr><th align="left" id="d57832e271">
 
 Action
 
-</th><th align="left" id="d58684e274">
+</th><th align="left" id="d57832e274">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d58684e280">
+</th></tr></thead><tbody><tr><td id="d57832e280">
 
 **Create a filter for a Reference type input**
 
@@ -87,7 +88,7 @@ The **Reference** column appears and displays the Reference table.
 4.  In the **Table** field, select the table you want to reference. For example, `sys_user`.
 
 
-</td></tr><tr><td id="d58684e330">
+</td></tr><tr><td id="d57832e330">
 
 **Create a filter for a Reference type result**
 
@@ -135,7 +136,7 @@ Role required: admin
 
 4.  Select an input or result that you want to modify.
 
-5.  Point to the result column header, and select the Edit column properties icon \(![Edit column properties icon](../image/Pencil.png)\).
+5.  Point to the result column header, and select the Edit column properties icon \(\[Omitted image "Pencil.png"\] Alt text: Edit column properties icon\).
 
 6.  Select **Modify reference filter**.
 
@@ -152,7 +153,7 @@ Delete inputs that are no longer necessary from your decision table in Workflow 
 
 Deleting an input from a decision table can break a flow, playbook, or script passing data through the input. Because of this possibility, you should know where the decision table is used before deleting anything from it.
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -162,7 +163,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 3.  Select a decision table.
 
-4.  At the end of the input row, select the Input menu options icon \(![Input menu options icon.](../image/ellipses.png)\), and select **Delete**.
+4.  At the end of the input row, select the Input menu options icon \(\[Omitted image "ellipses.png"\] Alt text: Input menu options icon.\), and select **Delete**.
 
 5.  Select **Save**.
 
@@ -173,7 +174,7 @@ Modify a condition column by renaming the label, editing the description, or upd
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -183,7 +184,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 3.  Select a decision table.
 
-4.  Point to the condition column header and select the Edit column properties icon \(![Edit icon.](../image/Pencil.png)\).
+4.  Point to the condition column header and select the Edit column properties icon \(\[Omitted image "Pencil.png"\] Alt text: Edit icon.\).
 
 5.  Make your changes and select **Done**.
 
@@ -198,7 +199,7 @@ Change the data that a decision evaluates by changing the source table for that 
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -208,7 +209,7 @@ Role required: admin, decision\_table\_admin, delegated developer permissions. F
 
 3.  Select a decision table.
 
-4.  Point to the results column header and select the Edit column properties icon \(![Edit icon.](../image/Pencil.png)\).
+4.  Point to the results column header and select the Edit column properties icon \(\[Omitted image "Pencil.png"\] Alt text: Edit icon.\).
 
 5.  Replace the existing result table with a new source table.
 

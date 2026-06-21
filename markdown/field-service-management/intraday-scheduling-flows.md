@@ -2,7 +2,10 @@
 title: Intra-day schedule automation flows and subflows
 description: The flows and subflows for configuring intra-day schedule automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/intraday-scheduling-flows.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -35,5 +38,5 @@ The flows and subflows for configuring intra-day schedule automation.
 |FSM wait for work start|Checks that the agent started work at the specified time.|
 |Run task recommendation|Recommends tasks for an agent with free time. For example, the task recommendation will run if the agent has cancelled tasks or ended a task early.|
 
-**Parent Topic:**[Field Service Management reference](../../planning-and-policy/reference/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/fsm-reference.md)
 

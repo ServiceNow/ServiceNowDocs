@@ -2,6 +2,7 @@
 title: Convert a lead into an opportunity
 description: Convert a lead into an opportunity in Lead Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/lead-management-use-convert-lead.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and select the lead that you’re working with.
 
@@ -61,7 +62,7 @@ Opportunity
 
 </td><td>
 
-Details to create an opportunity. To learn more, see [Create an opportunity](../concept/create-new-opportunity.md).-   Create new: Select if you want to create an opportunity.
+Details to create an opportunity. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-new-opportunity.md).-   Create new: Select if you want to create an opportunity.
 -   Choose existing: Select if you already have an existing opportunity.
 **Note:** Select the check box if you don't want to create an opportunity for the lead.
 
@@ -92,7 +93,7 @@ Opportunity
 
 </td><td>
 
-Details to create an opportunity. To learn more, see [Create an opportunity](../concept/create-new-opportunity.md).-   Create new: Select if you want to create an opportunity.
+Details to create an opportunity. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-new-opportunity.md).-   Create new: Select if you want to create an opportunity.
 -   Choose existing: Select if you already have an existing opportunity.
 **Note:** Select the check box if you don't want to create an opportunity for the lead.
 

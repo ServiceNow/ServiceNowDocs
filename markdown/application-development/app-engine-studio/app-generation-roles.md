@@ -2,6 +2,7 @@
 title: App generation roles for AES
 description: The following roles are installed for use with the Now Assist for Creator app generation skill.Access all system features, functions, and data, regardless of security constraints.Create applications through a conversation with generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/app-generation-roles.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,9 +16,9 @@ breadcrumb: [App generation in AES reference, Now Assist for app generation in A
 
 The following roles are installed for use with the Now Assist for Creator app generation skill.
 
-**Note:** If you using a Xanadu Store Release 2 instance, Now Assist for app generation works with ServiceNow Studio \(not App Engine Studio\). For detailed information, see [Now Assist for app generation in ServiceNow Studio](../../now-assist-app-gen/concept/sns-now-assist-app-gen-landing.md).
+**Note:** If you using a Xanadu Store Release 2 instance, Now Assist for app generation works with ServiceNow Studio \(not App Engine Studio\). For detailed information, see [Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md).
 
-**Parent Topic:**[App generation in AES reference](now-assist-app-reference.md)
+**Parent Topic:**[App generation in AES reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/now-assist-app-reference.md)
 
 ## Administrator \[admin\] role for Now Assist with AES
 

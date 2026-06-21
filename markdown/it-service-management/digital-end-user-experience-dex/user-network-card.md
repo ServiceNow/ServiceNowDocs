@@ -2,6 +2,7 @@
 title: Network monitoring page
 description: View the various aspects of the Network monitoring section of a user or device. This section includes network server information, connection details, performance metrics, and application network hops. Use this information to assess the user's network performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/user-network-card.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -58,7 +59,7 @@ Route that consists of several hops between a user’s device and a destination.
 |RTT2|Duration in milliseconds \(ms\) that it takes for the second packet to get to a hop and back.|
 |RTT3|Duration in milliseconds \(ms\) that it takes for the third packet to get to a hop and back.|
 
-To return to the main network page, see [Network monitoring](../concept/users-network.md).
+To return to the main network page, see [Network monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/users-network.md).
 
-**Parent Topic:**[Device details pages](user-device-details-pages.md)
+**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

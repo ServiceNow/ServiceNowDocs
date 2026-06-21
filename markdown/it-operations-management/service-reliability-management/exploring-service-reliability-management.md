@@ -2,6 +2,7 @@
 title: Exploring Service Reliability Management
 description: Service Reliability Management \(SRM\) provides a self-serve, guided experience for teams to autonomously manage the health of their technical services. The experience is built using the Service Operations Workspace application and combines ITOM and ITSM capabilities into a single service operations workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/exploring-service-reliability-management.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -22,7 +23,7 @@ Optimize service health with Service Reliability Management \(SRM\) for teams in
 -   Use on-call escalations to respond to issues identified by your monitoring and ITOM alerts in a timely manner.
 -   Reduce setup friction with guided self-service to onboard distributed teams with separated data, empowered access, and minimal governance from central IT.
 
-When SRM is activated, several plugins and applications are also installed. For more information, see [Plugins or applications installed with ITOM Health](../../it-operations-management/reference/plugin-app-itom-health.md).
+When SRM is activated, several plugins and applications are also installed. For more information, see [Plugins or applications installed with ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/plugin-app-itom-health.md).
 
 ## SRM users
 
@@ -124,11 +125,11 @@ Inherits 17 roles including the following:
 -   slo\_operator
 
 </td></tr></tbody>
-</table>For more information, see [SRM roles and responsibilities](../reference/sr-roles.md).
+</table>For more information, see [SRM roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-roles.md).
 
 ## SRM workflow
 
-![Infographic showing how responders, managers, and administrators manage teams, register services, define SLO, monitor integrations, respond to notifications, and remediate incidents. For details, refer to the following description.](../image/sr-explore-workfflows.png)
+\[Omitted image "sr-explore-workfflows.png"\] Alt text: Infographic showing how responders, managers, and administrators manage teams, register services, define SLO, monitor integrations, respond to notifications, and remediate incidents. For details, refer to the following description.
 
 1.  Product teams in IT or Lines of Business continuously deliver new technical and application services. Example: New customer billing portal.
 2.  Along with SLO Management, teams have access to implement themselves on SRM to register these services and define service level objectives \(SLO\) to ensure business outcomes. Example: 95% monthly availability for billing portal.
@@ -142,27 +143,27 @@ Inherits 17 roles including the following:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Team-based experience|[Working with SRM teams](sr-work-teams.md)|Service Reliability Responder, Manager, and administrator|
-|Service registration|[Working with SRM services](sr-work-services.md)|Service Reliability Responder, Manager, and administrator|
-|Prebuilt integrations|[Working with SRM integrations](sr-work-integrations.md)|Service Reliability Responder, Manager, and administrator|
-|Measure service health|[Working with Reliability metrics](../../slo-management/concept/sr-work-SLI-SLO.md)|Service Reliability Responder, Manager, and administrator|
-|On-call coverage|[Create your SRM On-call schedule](../task/sr-create-on-call-schedule.md)|Service Reliability Responder, Manager, and administrator|
-|Remediate high severity alerts and incidents|[Working with SRM reliability tasks](../task/sr-work-reliability-tasks.md)|Service Reliability Responder, Manager, and administrator|
+|Team-based experience|[Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-teams.md)|Service Reliability Responder, Manager, and administrator|
+|Service registration|[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-services.md)|Service Reliability Responder, Manager, and administrator|
+|Prebuilt integrations|[Working with SRM integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-integrations.md)|Service Reliability Responder, Manager, and administrator|
+|Measure service health|[Working with Reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md)|Service Reliability Responder, Manager, and administrator|
+|On-call coverage|[Create your SRM On-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)|Service Reliability Responder, Manager, and administrator|
+|Remediate high severity alerts and incidents|[Working with SRM reliability tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-reliability-tasks.md)|Service Reliability Responder, Manager, and administrator|
 
 ## What to explore next
 
 To learn more about configuring and using SRM, see:
 
--   [Configuring Service Reliability Management](configuring-service-reliability-management.md)
--   [Using Service Reliability Management](using-service-reliability-management.md)
--   [Service Reliability Management reference](../reference/service-reliability-management-reference.md)
+-   [Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
+-   [Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/using-service-reliability-management.md)
+-   [Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 
--   **[Get started with Service Reliability Management](sr-get-started.md)**  
+-   **[Get started with Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-get-started.md)**  
 SRM accelerates your path to viewing service health in the context of service level objectives and incident resolution. Helps IT Operations and DevOps teams deliver on the promise of agility, performance, and uptime.
--   **[SRM alert workspace](../reference/sr-alerts-workspace.md)**  
+-   **[SRM alert workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-alerts-workspace.md)**  
 The alert workspace contains various areas containing alert details and possible actions.
--   **[SRM incident workspace](../reference/sr-incidents-workspace.md)**  
+-   **[SRM incident workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-incidents-workspace.md)**  
 The incident workspace contains various panels containing incident details and possible actions.
 
-**Parent Topic:**[Service Reliability Management](../reference/sr-landing-page.md)
+**Parent Topic:**[Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-landing-page.md)
 

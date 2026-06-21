@@ -2,6 +2,7 @@
 title: Configure Conversational IVR with Amazon Connect
 description: Configure Amazon Connect service provider to integrate with Virtual Agent and use interactive voice response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-va-ivr.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -35,7 +36,7 @@ Role required: admin
 
     Conversational IVR with Amazon Connect supports multiple service provider applications and you can create new ones if you want.
 
-    ![Selecting the VA Amazon Connect Service Provider for configuring interactive voice response.](../images/amzn-cnct-provider.png)
+    \[Omitted image "amzn-cnct-provider.png"\] Alt text: Selecting the VA Amazon Connect Service Provider for configuring interactive voice response.
 
 5.  To finish setting up Amazon Connect, select the application name from the Provider Channel Identities section.
 
@@ -109,7 +110,7 @@ The login URL from the AWS Console.
 
 ## What to do next
 
--   [Sync Agents to setup Live Agent transfer](setup-live-agent-transfer.md)
--   [Configure user authentication for Conversational IVR](setup-user-authentication-ivr.md)
--   [Manage bot messages for Conversational IVR](edit-va-ivr-messages.md)
+-   [Sync Agents to setup Live Agent transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/setup-live-agent-transfer.md)
+-   [Configure user authentication for Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/setup-user-authentication-ivr.md)
+-   [Manage bot messages for Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/edit-va-ivr-messages.md)
 

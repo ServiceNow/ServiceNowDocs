@@ -2,6 +2,7 @@
 title: Use the Password component
 description: Generate any random password by using the Password component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-utilities-random-password.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -30,7 +31,7 @@ You can define the complexity of the password based on the following rules:
 -   Number of symbols: The default count is 1.
 -   Numbers. The default number is 1.
 
-To configure the properties for the Password component, see [Properties of the Random components](../reference/properties-random-component.md).
+To configure the properties for the Password component, see [Properties of the Random components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/properties-random-component.md).
 
 ## Procedure
 
@@ -38,7 +39,7 @@ To configure the properties for the Password component, see [Properties of the R
 
 2.  Drag the Password component to the Design surface.
 
-3.  To provide the inputs to the fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To provide the inputs to the fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Password component to the corresponding ports of the other components as described in the following table.
 
@@ -55,5 +56,5 @@ To configure the properties for the Password component, see [Properties of the R
 5.  To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[Random](../concept/random.md)
+**Parent Topic:**[Random](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/random.md)
 

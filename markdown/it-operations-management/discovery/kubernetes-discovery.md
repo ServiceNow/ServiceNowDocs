@@ -2,6 +2,7 @@
 title: Kubernetes discovery using patterns
 description: The ServiceNow ITOM Visibility finds Kubernetes and OpenShift components using patterns and creates application services containing them. Discovery also finds Kubernetes events and frequently updates the CMDB to reflect the dynamic Kubernetes environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/kubernetes-discovery.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -19,7 +20,7 @@ The ServiceNow ITOM Visibility finds Kubernetes and OpenShift components using p
 Discovery uses the Kubernetes pattern and its extension sections to discover Kubernetes components:
 
 -   The **Collect OpenShift info** extension section of the Kubernetes pattern discovers the OpenShift components of the Kubernetes deployment. The OpenShift Build Config extension section is available from Store version 1.0.53.
--   The **Service Mesh** extension discovers service mesh details. This information enables the pattern to create service-to-service relations, shown as Connects to::Connected. Service mesh discovery requires deploying Istio on your K8s \(Kubernetes\) cluster. The Service Mesh extension section is available from [Kubernetes extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-kubernetes&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US). It’s supported on the ServiceNow AI Platform using the Madrid release or later.
+-   The **Service Mesh** extension discovers service mesh details. This information enables the pattern to create service-to-service relations, shown as Connects to::Connected. Service mesh discovery requires deploying Istio on your K8s \(Kubernetes\) cluster. The Service Mesh extension section is available from Kubernetes extension classes. It’s supported on the ServiceNow AI Platform using the Madrid release or later.
 -   The **Collect Container Repository** and extension section finds container registries and images in these registries.
 
 In addition, Discovery uses the Kubernetes Event pattern to discover events for Kubernetes components.
@@ -49,11 +50,11 @@ The patterns have been validated with the following Kubernetes and Red Hat OpenS
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
-**Note:** For prerequisites for Kubernetes Cloud infrastructure discovery, see [below](kubernetes-discovery.md#section_qgk_lbh_dtb).
+**Note:** For prerequisites for Kubernetes Cloud infrastructure discovery, see [below](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/kubernetes-discovery.md).
 
 **Note:** Running automatic serverless Kubernetes schedules fetches the Bearer token. Adding credentials is unnecessary.
 
@@ -81,7 +82,7 @@ Perform the following steps so that Discovery can use the pattern to successfull
 
             `kubectl config view`
 
-        2.  In the output, find the username and password.![Locate the lines that contain information on password and username.](../image/kubernetes-username-password.png)
+        2.  In the output, find the username and password.\[Omitted image "kubernetes-username-password.png"\] Alt text: Locate the lines that contain information on password and username.
 
             **Note:** If in a certain environment, `kubectl config view` command is not showing the expected details, use the `supported` command from the Kubernetes admin to fetch the user name and password details.
 
@@ -274,9 +275,9 @@ Cluster resource ID example:-   Azure Kubernetes clusters- Resource ID.
 
     **Note:** When the pattern is run for the first time, it stores an event\_timestamp. Later on it collects only the delta events based on the timestamp. The more often the pattern is run, the fewer updates to the CMDB IRE are needed.
 
-    Create a serverless execution pattern for the discovery schedule and assign it to the Kubernetes Events pattern. Configure the parameters required by the Kubernetes pattern as described in [Configuring execution pattern attributes](kubernetes-discovery.md#table_obc_k2z_3db).
+    Create a serverless execution pattern for the discovery schedule and assign it to the Kubernetes Events pattern. Configure the parameters required by the Kubernetes pattern as described in [Configuring execution pattern attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/kubernetes-discovery.md).
 
-10. To include discovered components into application services, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](tag_discovery_configuration.md).
+10. To include discovered components into application services, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/tag_discovery_configuration.md).
 
 ## Prerequisites for Kubernetes Cloud infrastructure discovery
 
@@ -765,7 +766,7 @@ String
  
 
 </td></tr></tbody>
-</table>**Note:** `<service_account_id>` is the account ID name under Cloud Service Accounts. For more information, see: [Create discovery schedules for cloud resources](../../discovery/concept/discovery-manager.md#)
+</table>**Note:** `<service_account_id>` is the account ID name under Cloud Service Accounts. For more information, see: [Create discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/discovery-manager.md)
 
 ## Kubernetes Credential-less or mid-in-cluster discovery
 
@@ -1904,9 +1905,9 @@ The graphic illustrates CIs that are part of Kubernetes discovery.
 
 **Note:** This Dependency Views map was simplified for clarity. Your Kubernetes deployments may contain many more CIs.
 
-![Relationships between Kubernetes configuration items and Kubernetes workload tables](../../it-operations-management/image/kubernetes-diagram.jpeg "Components of the Kubernetes deployment")
+\[Omitted image "kubernetes-diagram.jpeg"\] Alt text: Relationships between Kubernetes configuration items and Kubernetes workload tables
 
-![Namespace contains OpenShift configuration items](../../it-operations-management/image/openshift-diagram.jpeg "Components of the Kubernetes deployment including OpenShift")
+\[Omitted image "openshift-diagram.jpeg"\] Alt text: Namespace contains OpenShift configuration items
 
 ## CI relationships collected by the Kubernetes pattern
 
@@ -2404,7 +2405,7 @@ Service Mapping uses tag-based discovery to create application service maps incl
 
 ## Kubernetes dashboard
 
-After Discovery finishes discovering components of the Kubernetes deployment, you can navigate to **All** &gt; **Configuration** &gt; **Kubernetes** and view the statistics on discovered Kubernetes components. Fore more information, see [Kubernetes dashboard](../../../use/dashboards/application-content-packs/kubernetes-dashboard.md).
+After Discovery finishes discovering components of the Kubernetes deployment, you can navigate to **All** &gt; **Configuration** &gt; **Kubernetes** and view the statistics on discovered Kubernetes components. Fore more information, see [Kubernetes dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/kubernetes-dashboard.md).
 
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** and use the enhanced dashboard.
 

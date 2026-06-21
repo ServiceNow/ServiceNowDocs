@@ -2,6 +2,7 @@
 title: Video hosting integrations framework
 description: Connect Content Publishing with a video hosting service, to make the hosted videos available for content authoring and publishing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/content-providers.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,12 +32,12 @@ Content Publishing offers content managers the ability to build content using vi
 
 -   **Content processor**
 
-    Content processors provide an interface to configure API calls to the video hosting service. They are powered by subflows from the Flow Designer. For more information, see [Building subflows](https://www.servicenow.com/docs/access?context=subflows&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+    Content processors provide an interface to configure API calls to the video hosting service. They are powered by subflows from the Flow Designer. For more information, see .
 
     There are two actions available:
 
     -   Authorize: enables employees to view private videos without providing credentials
-    -   Search: adds a button to the Rich Content Editor interface that enables a content manager to view thumbnails of available videos, instead of copy-pasting the video URL.![Click Open video library to view thumbnails of available videos](../images/processor-search.gif)
+    -   Search: adds a button to the Rich Content Editor interface that enables a content manager to view thumbnails of available videos, instead of copy-pasting the video URL.\[Omitted image "processor-search.gif"\] Alt text: Click Open video library to view thumbnails of available videos
     Each content processor is associated with a content provider mapping and appears in the related list.
 
 -   **Content Rendering parameter**
@@ -52,10 +53,10 @@ The following process overview guides you through setting up content providers s
 
 1.  The following domains are available out-of-the-box: youtube.com, player.vimeo.com, vimeo.com,players.brightcove.net, and brightcove.net. To configure an additional domain, the system admin must add the host domain to the `glide.html.enable_media_sites` system property.
 
-    For more information, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+    For more information, see 
 
-2.  [Configure content provider and mapping](../task/configure-content-provider.md)
-3.  If the video hosting service contains private videos that require credentials, [Configure a video authorization](../task/configure-content-processor.md)
-4.  \(Optional\) To provide content managers with an interface where they can select a video, [Configure video content search](../task/configure-content-search.md)
-5.  \(Optional\) To add interface elements to the Rich Content Editor video picker, [Configure content rendering parameter](../task/configure-content-rendering-parameter.md)
+2.  [Configure content provider and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/configure-content-provider.md)
+3.  If the video hosting service contains private videos that require credentials, [Configure a video authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/configure-content-processor.md)
+4.  \(Optional\) To provide content managers with an interface where they can select a video, [Configure video content search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/configure-content-search.md)
+5.  \(Optional\) To add interface elements to the Rich Content Editor video picker, [Configure content rendering parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/configure-content-rendering-parameter.md)
 

@@ -2,6 +2,7 @@
 title: Setup the Amazon Connect spoke for VA IVR
 description: Set up the Amazon Connect spoke for Conversational IVR to integrate your ServiceNow instance with Amazon Connect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/setup-amzn-connect-spoke.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -21,6 +22,6 @@ Role required: admin
 
 ## Procedure
 
-1.  To set up the Amazon Connect spoke for Conversational IVR with Amazon Connect, see [Setup Amazon Connect spoke](https://www.servicenow.com/docs/access?context=setup-amzn-connect&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+1.  To set up the Amazon Connect spoke for Conversational IVR with Amazon Connect, see Setup Amazon Connect spoke.
 
 

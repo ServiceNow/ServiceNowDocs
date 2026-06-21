@@ -2,6 +2,7 @@
 title: Using the SIG questionnaire for a risk assessment
 description: Third parties can use the Shared Assessments Standardized Information Gathering questionnaire \(SIG\) to provide assessment documentation in the Third-party Risk Management application. The third-party contact can upload the pre-filled SIG spreadsheet or respond to a form-based questionnaire that is imported to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -39,7 +40,7 @@ Your third party might run into the following issues when using a SIG:
 -   If a third party attempts to load the data from a version of SIG that is older than the current version, some questions might not be mapped or parsed correctly \(for example, if you load data for SIG 2021 full on SIG 2022 full\).
 -   Loading a version of SIG prior to 2021 isn’t supported.
 
-**Note:** For more information about using the GRC: SIG Questionnaire Integration plugin, see [Standardized Information Gathering \(SIG\) Questionnaire Integration](../../grc-sig-questionnaire/concept/grc-sig-integration.md), [Install the GRC: SIG Questionnaire Integration](../../grc-sig-questionnaire/task/install-grc-sig-plugin.md), and [Verify the SIG Questionnaire Integration in Third-party Risk Management](../../grc-sig-questionnaire/task/verify-grc-sig-vendor-risk.md).
+**Note:** For more information about using the GRC: SIG Questionnaire Integration plugin, see [Standardized Information Gathering \(SIG\) Questionnaire Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/grc-sig-integration.md), [Install the GRC: SIG Questionnaire Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/install-grc-sig-plugin.md), and [Verify the SIG Questionnaire Integration in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/verify-grc-sig-vendor-risk.md).
 
-For instructions that you can send to third-party contacts, see [Respond using the SIG](../task/tprm-tpcontact-use-sig.md).
+For instructions that you can send to third-party contacts, see [Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md).
 

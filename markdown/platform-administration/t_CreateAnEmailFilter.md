@@ -2,6 +2,7 @@
 title: Create an email filter
 description: You can create email filters to apply a custom action script or filter actions when email matches your filter's conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateAnEmailFilter.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -46,8 +47,8 @@ Role required: admin
 
     The two choices in the base system are: Mark as Ignored and Move to Junk. You can use the Action script to perform additional email tasks.
 
-    **Note:** Before creating additional email actions with a script, see [Inbound Email Actions](../concept/c_InboundEmailActions.md). Like business rules, inbound email actions use both conditions and scripts and can provide a number of useful actions on emails the instance receives.
+    **Note:** Before creating additional email actions with a script, see [Inbound Email Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_InboundEmailActions.md). Like business rules, inbound email actions use both conditions and scripts and can provide a number of useful actions on emails the instance receives.
 
 
-**Parent Topic:**[Email filters](../concept/c_EmailFilters.md)
+**Parent Topic:**[Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailFilters.md)
 

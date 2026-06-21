@@ -2,6 +2,7 @@
 title: Finding form
 description: When an inspection or audit survey is complete, the safety manager can use the Findings form to log findings gathered from survey responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-audit-finding-form.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Em
 
 When an inspection or audit survey is complete, the safety manager can use the Findings form to log findings gathered from survey responses.
 
-For information on conducting an audit, see [Create and manage a safety audit](../task/hs-create-manage-safety-audit-workspace.md).
+For information on conducting an audit, see [Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md).
 
 <table id="table_qbc_q3p_2dc"><thead><tr><th>
 
@@ -122,5 +123,5 @@ Work notes
 Additional details for the finding.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

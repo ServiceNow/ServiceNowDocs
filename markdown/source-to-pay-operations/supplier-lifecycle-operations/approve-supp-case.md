@@ -2,6 +2,7 @@
 title: Approve a request associated with the Enroll a new supplier user case type from the Source-to-Pay Workspace
 description: As a supplier manager, you can approve or reject the assigned approve requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/approve-supp-case.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -46,5 +47,5 @@ Role required: sn\_slm.manager, sn\_slm.owner, sn\_slm.fulfiller, or sn\_slm.adm
 6.  Select **Save**.
 
 
-**Parent Topic:**[How supplier contact self-registration works](../concept/how-self-reg-works.md)
+**Parent Topic:**[How supplier contact self-registration works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/how-self-reg-works.md)
 

@@ -2,7 +2,10 @@
 title: Integrate Customer Service Virtual Agent with Facebook Messenger \(Legacy\)
 description: Integrate the Customer Service Virtual Agent with Facebook Messenger to enable bot conversations in the messenger.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/update-authentication-facebook-va-integration.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -22,11 +25,11 @@ Role required: virtual\_agent\_admin or admin
 -   Make sure Virtual Agent is integrated with Facebook Messenger.
 -   Make sure you have the token and secret for the messenger.
 
-For information on integrating the Virtual Agent with Facebook Messenger and for retrieving the messenger token and secret, see [Set up Virtual Agent integration for consumer messaging apps](https://www.servicenow.com/docs/access?context=integ-va-consumer-apps&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+For information on integrating the Virtual Agent with Facebook Messenger and for retrieving the messenger token and secret, see Set up Virtual Agent integration for consumer messaging apps.
 
 ## About this task
 
-With this integration, you can get help using Virtual Agent chatbot conversations. For more information on getting help, see [Customer Service Virtual Agent conversations](../concept/csm-virtual-agent-chatbot.md) .
+With this integration, you can get help using Virtual Agent chatbot conversations. For more information on getting help, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-virtual-agent-chatbot.md) .
 
 ## Procedure
 

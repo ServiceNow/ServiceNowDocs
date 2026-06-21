@@ -2,6 +2,7 @@
 title: Exploring Access Analyzer
 description: Analyze identities on the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/identity/explore-access-analyzer.html
 release: xanadu
 product: Identity
 classification: identity

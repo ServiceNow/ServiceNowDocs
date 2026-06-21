@@ -2,6 +2,7 @@
 title: Show a route
 description: Show one or more routes that followed different sequences of steps in your process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/show-variant-route.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -31,7 +32,7 @@ Analyzing routes can help you see the complexities in your process, and determin
 
 3.  Select **Show route\(s\)**.
 
-    ![Show a route](../image/show-route2.png)
+    \[Omitted image "show-route2.png"\] Alt text: Show a route
 
     **Note:** After applying one of more routes, the breakdowns listed in the **Breakdown Filters** tab display only those breakdowns applicable to those routes.
 
@@ -41,5 +42,5 @@ Analyzing routes can help you see the complexities in your process, and determin
 -   To go back to the original process map, select **Clear route**.
 -   To see different routes, select other routes from the list, then select **Show route\(s\)**.
 
-**Parent Topic:**[Exploring and comparing workflow routes](../concept/explore-routes.md)
+**Parent Topic:**[Exploring and comparing workflow routes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/explore-routes.md)
 

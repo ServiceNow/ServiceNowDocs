@@ -2,6 +2,7 @@
 title: Engineering license servers
 description: View the list of all the license management servers that OpenLM or Open iT connect with to get data into your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/eng-license-server.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -19,5 +20,5 @@ You can view information about all the license management servers by navigating 
 
 Information such as the name of the server, the current status of the server, and the last connection time is displayed in the Engineering Application License Servers form layout.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

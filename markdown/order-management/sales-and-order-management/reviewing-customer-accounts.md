@@ -2,6 +2,7 @@
 title: Reviewing customer or partner accounts
 description: Learn how your order entry and fulfillment agents, managers, and fulfillers can use the 360 View in the Order Management application to get a better perspective about the activity that is associated with a customer's or partner's account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/reviewing-customer-accounts.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -24,10 +25,10 @@ As an order agent, manager, or fulfiller, you can use your customer's or partner
 -   How many active requests or customer service cases the account has, and what are their current states.
 -   What products and equipment the customer has ordered or has installed at their sites. By using this information, your order agents can gain insights into what additional products or services they can sell to the customer.
 
-**Note:** To learn how to create new customer accounts, see [Configure accounts and contacts](https://www.servicenow.com/docs/access?context=configure-csm-accounts-contacts&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US) in Customer Service Management \(CSM\).
+**Note:** To learn how to create new customer accounts, see Configure accounts and contacts in Customer Service Management \(CSM\).
 
--   **[Review an account by using the 360 View](../task/review-customer-account-360-view.md)**  
+-   **[Review an account by using the 360 View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/review-customer-account-360-view.md)**  
 Review a customer or partner's account by using the 360 View in the Order Management application. You can track the service contracts of your customers or partners. You can also view customer and service orders, cases, products, and equipment to see how you can improve your customer service.
 
-**Parent Topic:**[Using Order Management](reviewing-approving-fulfilling-orders.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/reviewing-approving-fulfilling-orders.md)
 

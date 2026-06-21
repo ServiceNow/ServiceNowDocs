@@ -2,6 +2,7 @@
 title: Set up the Credly spoke
 description: Integrate the ServiceNow instance and Credly by creating a custom OAuth application in Credly to authenticate ServiceNow requests.Create a connection record for your Credly spoke. The Credly connection and credential aliases use these connections to perform actions in Credly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/credly-setup.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub

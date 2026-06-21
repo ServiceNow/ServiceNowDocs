@@ -2,6 +2,7 @@
 title: Repairing applications and plugins with Application Manager
 description: Repairing an application or plugin returns it to its original state without needing to uninstall and reinstall it manually. Repairing applications or plugins can help resolve issues related to accidental modifications or corrupted files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/repairing-apps-app-manager.html
 release: xanadu
 product: Application Manager
 classification: application-manager
@@ -25,5 +26,5 @@ When you repair an application with a customization, the customization is also r
 
 It’s assumed the complete set of customizations for an application is within the application customization. When repairing, installing, or upgrading the underlying application or plugin that has an associated app customization, changes made outside of that application customization are overwritten.
 
-For more information about customizations, see [Customization vs. configuration with Creator Studio](https://www.servicenow.com/docs/access?context=creator-studio-custom-vs-config&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+For more information about customizations, see .
 

@@ -2,6 +2,7 @@
 title: Send CAB meeting request to attendees
 description: You can send CAB meeting invitations to attendees for each CAB meeting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change-management/send-cab-meeting-request-attendees.html
 release: xanadu
 product: Change Management
 classification: change-management
@@ -27,7 +28,7 @@ You can send meeting invitations from a CAB meeting only.
 
 1.  Navigate to the CAB meeting for which you want to send out invitations using one of the following steps.
 
-<table id="choicetable_mqf_2kv_lz"><tbody><tr><td id="d358599e60">
+<table id="choicetable_mqf_2kv_lz"><tbody><tr><td id="d122859e60">
 
 **Open from the CAB meeting list**
 
@@ -37,7 +38,7 @@ You can send meeting invitations from a CAB meeting only.
 2.  Select and open the CAB meeting to modify.
 
 
-</td></tr><tr><td id="d358599e90">
+</td></tr><tr><td id="d122859e90">
 
 **Open from the CAB definition list**
 
@@ -54,5 +55,5 @@ You can send meeting invitations from a CAB meeting only.
     The CAB meeting invitation is sent to all listed attendees.
 
 
-**Parent Topic:**[Create a single CAB meeting occurrence](create-a-cab-meeting.md)
+**Parent Topic:**[Create a single CAB meeting occurrence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/create-a-cab-meeting.md)
 

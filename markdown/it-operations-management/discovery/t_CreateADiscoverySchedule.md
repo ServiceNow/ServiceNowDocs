@@ -2,6 +2,7 @@
 title: Schedule a horizontal discovery
 description: A discovery schedule determines what horizontal discovery searches for, when it runs, and which MID Servers are used. Create a discovery schedule for your local environment or a schedule for discovering the resources in your cloud service account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/t\_CreateADiscoverySchedule.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -19,7 +20,7 @@ A discovery schedule determines what horizontal discovery searches for, when it 
 
 Ensure that your discovery schedule conforms to security best practices, such as limiting the range of discovery targets and using the most secure credentials.
 
-Make sure to [test your credentials](https://www.servicenow.com/docs/access?context=t_CreateCredential&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) before you run a schedule. Bad credentials are a leading cause of failed discoveries.
+Make sure to test your credentials before you run a schedule. Bad credentials are a leading cause of failed discoveries.
 
 Roles required: discovery\_admin or admin
 
@@ -27,7 +28,7 @@ Roles required: discovery\_admin or admin
 
 You can use a discovery schedule to launch horizontal discovery, which uses probes, sensors, and pattern operations to scan your network for CIs. Use this procedure to create a schedule manually from the **Discovery Schedules** form.
 
-Service Mapping also provides a discovery schedule for top-down discovery. See [Schedule a top-down discovery by Service Mapping](../../service-mapping/task/t_CreateDiscoSchedForCITypes.md) for more information.
+Service Mapping also provides a discovery schedule for top-down discovery. See [Schedule a top-down discovery by Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/t_CreateDiscoSchedForCITypes.md) for more information.
 
 Use the **Discovery Schedules** module in the Discovery application to:
 
@@ -42,7 +43,7 @@ Use the **Discovery Schedules** module in the Discovery application to:
 -   Run a discovery schedule manually.
 -   Run a discovery on a single IP address.
 
-**Note:** To view the run-results of your schedules for both IP-based and Cloud Discovery, use the summaries on the [Discovery Home page](../concept/discovery-home-page.md#). The Home page publishes the details of any errors that might have occurred and displays possible actions to take to remediate problems.
+**Note:** To view the run-results of your schedules for both IP-based and Cloud Discovery, use the summaries on the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/discovery-home-page.md). The Home page publishes the details of any errors that might have occurred and displays possible actions to take to remediate problems.
 
 ## Procedure
 
@@ -55,7 +56,7 @@ Use the **Discovery Schedules** module in the Discovery application to:
     -   **Create a Cloud Discovery schedule**: Creates a schedule, using the Discovery Manager wizard, for discovering resources in a cloud service account.
 3.  Complete the discovery schedule form, using the fields in the table.
 
-    For more information, see [Discovery Schedule form reference](../reference/discovery-schedule-form.md).
+    For more information, see [Discovery Schedule form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/discovery-schedule-form.md).
 
 4.  Right-click in the header of the record and select **Save** from the context menu.
 
@@ -63,6 +64,6 @@ Use the **Discovery Schedules** module in the Discovery application to:
 
     **Note:** To improve security, limit the range of discovery targets to exclude unnecessary networks and devices.
 
-6.  Define the frequency of schedule running as described in [Run options for discovery schedules](../../it-operations-management/reference/discovery-schedule-run-options.md).
+6.  Define the frequency of schedule running as described in [Run options for discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/discovery-schedule-run-options.md).
 
 

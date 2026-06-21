@@ -2,6 +2,7 @@
 title: Device metrics page
 description: Access real-time metrics like CPU, memory, disk usage, I/O operations, battery, and energy consumption for insights into system resource utilization, performance, and improvement areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/user-device-metrics.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -77,7 +78,7 @@ Rate at which data is read from or written to a storage device. This metric prov
 |EMI energy consumption|Energy consumed by electromagnetic interference, crucial for interference reduction.|
 |Other energy consumption|Energy usage not covered by specific categories, offering comprehensive insights.|
 
-To return to the main device metrics page, see [../concept/users-device-metrics.md](../concept/users-device-metrics.md).
+To return to the main device metrics page, see []().
 
-**Parent Topic:**[Device details pages](user-device-details-pages.md)
+**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

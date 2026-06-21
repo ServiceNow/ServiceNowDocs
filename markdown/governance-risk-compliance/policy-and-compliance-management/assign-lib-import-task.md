@@ -2,6 +2,7 @@
 title: Assign a library import task for approval
 description: Assign a library import task to the compliance managers assignment group by using the library import task form in the GRC: Policy and Compliance integrator application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/policy-and-compliance-management/assign-lib-import-task.html
 release: xanadu
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -27,7 +28,7 @@ Role required: sn\_compliance.admin
 
     The library import task is displayed in the New state as shown in the following example.
 
-    ![Library import task.](../image/lib-import-task-new-related-list.png "Library import task in the New state")
+    \[Omitted image "lib-import-task-new-related-list.png"\] Alt text: Library import task.
 
 2.  On the form, fill in the fields.
 
@@ -147,5 +148,5 @@ Provider import tasks that are related to the library import task. This task is 
 
 ## What to do next
 
-To learn how to approve the library import task that is assigned to the compliance managers assignment group, see [Approve the library import task](approve-lib-import-task.md).
+To learn how to approve the library import task that is assigned to the compliance managers assignment group, see [Approve the library import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/policy-and-compliance-management/approve-lib-import-task.md).
 

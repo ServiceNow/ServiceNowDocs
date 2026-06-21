@@ -2,6 +2,7 @@
 title: Update a manually created metric
 description: Update a manually created manual metric to add goals, metric data, and targets. Associate citations to the metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/t\_update-manual-metric.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

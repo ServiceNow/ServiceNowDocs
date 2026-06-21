@@ -2,6 +2,7 @@
 title: Define available query parameters
 description: Define available query parameters to control what values a requesting user can pass in the request URI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-api-explorer/t\_DefineAvailableQueryParameters.html
 release: xanadu
 product: REST API Explorer
 classification: rest-api-explorer
@@ -40,7 +41,7 @@ Role required: web\_service\_admin
 
 ## What to do next
 
-After defining available query parameters, associate the parameters to a scripted REST resource. For details, see [Associate query parameters to a resource](AssocQueryParmResource.md).
+After defining available query parameters, associate the parameters to a scripted REST resource. For details, see [Associate query parameters to a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/AssocQueryParmResource.md).
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

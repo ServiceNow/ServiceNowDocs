@@ -2,6 +2,7 @@
 title: Install ERP Customization Mining
 description: Install the ERP Customization Mining \(ERP-CM\) application \(sn\_erp\_mining\) if you have the admin role from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/install-erp-customization-mining.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -21,7 +22,7 @@ You must:
 
 -   Have a license and get entitlement to ERP-CM before you can install the application.
 
-    For more information, see [Licensing](../../custom-application/reference/licensing.md).
+    For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/licensing.md).
 
 -   Install ERP Data Hub. Use the application to configure connections to the system of record, as well as ERP \(Enterprise Resource Planning\) data models.
 -   Configure the JCO connector before you install ERP-CM. See the SAP documentation for more information.
@@ -56,8 +57,8 @@ The installation is complete. Select **Close** to return to the ServiceNow Store
 
 After you install ERP-CM, ERP data from the connected system of record populates the ERP extraction tables in ERP Data Hub. For example, ERP application activity, Collector directory data, and Namespace data. You can then incorporate extracted data into ERP data models and remote tables for use as a data source when building apps on ServiceNow. For more information, see the following topics:
 
--   [View ERP extraction tables](../../erp-integration/task/view-etl-data-sources.md)
--   [Standard ERP models and extraction tables for ERP Data Hub](../../erp-integration/reference/erp-canvas-standard-extraction-tables.md)
+-   [View ERP extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/view-etl-data-sources.md)
+-   [Standard ERP models and extraction tables for ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-standard-extraction-tables.md)
 
-**Parent Topic:**[Configuring ERP Customization Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/configuring-ecm.md)
 

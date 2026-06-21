@@ -2,6 +2,7 @@
 title: Restrict the primary contact role for a contact from the Source-to-Pay Workspace
 description: Remove the primary contact role for a contact to prevent them from accessing all the contacts and tasks in the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/restrict-contact-ws.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -41,5 +42,5 @@ Role required: sn\_slm.owner
     The Primary contact column is set to **false** for this contact on the new table page, and the contact no longer has the primary contact role.
 
 
-**Parent Topic:**[Managing supplier contacts from the Source-to-Pay Workspace](../concept/managing-contacts-smw.md)
+**Parent Topic:**[Managing supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md)
 

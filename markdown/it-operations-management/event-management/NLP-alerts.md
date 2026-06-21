@@ -2,6 +2,7 @@
 title: Verify text-based clustering solution
 description: Event Management uses Natural Language Processing \(NLP\) algorithms to identify common text patterns in alerts and create alert groups such as clustering algorithm.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/NLP-alerts.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -39,6 +40,6 @@ Role required: evt\_mgmt\_admin
 
 4.  Select **Submit &amp; Train**.
 
-    For details on ML solutions, see [Reviewing your ML solution training jobs](https://www.servicenow.com/docs/access?context=reviewing-ml-solution-training-jobs&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    For details on ML solutions, see Reviewing your ML solution training jobs.
 
 

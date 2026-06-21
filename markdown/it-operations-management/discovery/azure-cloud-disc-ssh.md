@@ -2,6 +2,7 @@
 title: Run Azure Cloud Discovery using Service Principal with SSH Certificates
 description: Discover Linux virtual machines on Azure using Service Principal \(SP\) with short-lived SSH certificates. Using these certificates circumvents the need for passwords or public and private key-pairs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/azure-cloud-disc-ssh.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -31,7 +32,7 @@ Role required: admin
 
 3.  Fill in the form with the required info and submit.
 
-    ![The Azure Service Principle record.](../image/azure-cloud-disc-ssh-new-record.png)
+    \[Omitted image "azure-cloud-disc-ssh-new-record.png"\] Alt text: The Azure Service Principle record.
 
 4.  Navigate to **Discovery** &gt; **Credentials** and select **New**.
 
@@ -43,7 +44,7 @@ Role required: admin
 
 7.  Navigate to the Cloud Discovery Workspace home page and select **Cloud discovery**.
 
-    ![The Cloud discovery workspace home page.](../image/azure-cloud-disc-ssh-workspace.png)
+    \[Omitted image "azure-cloud-disc-ssh-workspace.png"\] Alt text: The Cloud discovery workspace home page.
 
 8.  Select **New discovery schedule**.
 
@@ -51,7 +52,7 @@ Role required: admin
 
 10. Create a new cloud account using your Azure Service Principal credential.
 
-    For more information, see [Set up Azure service accounts](../../it-operations-management/task/setup-azure-service-accounts.md).
+    For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/setup-azure-service-accounts.md).
 
 11. Select data centers.
 

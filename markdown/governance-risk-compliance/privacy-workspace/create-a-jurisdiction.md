@@ -2,6 +2,7 @@
 title: Create a jurisdiction for a region
 description: Create jurisdictions for regions for data breach notification obligations as each obligation is broken down by jurisdiction. Jurisdiction can be created two levels below a region.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/create-a-jurisdiction.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -34,5 +35,5 @@ Role required: sn\_privacy\_case.privacy\_case\_admin. This role must contain th
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Create a region](create-a-region.md)
+**Parent Topic:**[Create a region](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/create-a-region.md)
 

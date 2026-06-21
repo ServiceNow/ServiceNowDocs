@@ -2,6 +2,7 @@
 title: Email composer \[email\_composer\]
 description: Creates email client messages and can read email client templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/email-client-roles-2.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"

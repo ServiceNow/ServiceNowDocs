@@ -2,6 +2,7 @@
 title: View connected Zoom accounts
 description: View the list of Zoom accounts connected to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/zoom-view-connected-accounts.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,5 +31,5 @@ Role required: admin
 3.  Select any Account ID value to see the associated Zoom account details.
 
 
-**Parent Topic:**[Employee Center for Zoom](zoom-ec-create-app.md)
+**Parent Topic:**[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
 

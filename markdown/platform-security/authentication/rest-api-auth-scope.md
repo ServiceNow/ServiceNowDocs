@@ -2,6 +2,7 @@
 title: REST API Auth Scope
 description: Use the REST API Auth Scope to provide access to a specific REST API
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/rest-api-auth-scope.html
 release: xanadu
 product: Authentication
 classification: authentication

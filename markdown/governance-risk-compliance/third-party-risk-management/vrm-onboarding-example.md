@@ -2,6 +2,7 @@
 title: Example — Onboarding a third party
 description: Acme, a large manufacturing company, is in the process of onboarding a new third party to supply critical components for their production line. To help ensure the third party's reliability and to mitigate potential risks, Acme starts a thorough third-party risk management onboarding process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/vrm-onboarding-example.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management

@@ -2,13 +2,14 @@
 title: Edit a Published Report Template
 description: Use this section to edit a published report template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/edit-report-templates.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-06-30"
 reading_time_minutes: 1
-breadcrumb: [Report Templates, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Report Templates, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Edit a Published Report Template

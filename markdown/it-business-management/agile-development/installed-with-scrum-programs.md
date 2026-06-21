@@ -2,6 +2,7 @@
 title: Components installed with Scrum Programs
 description: Understand the roles, tables, business rules, and UI macros that are installed when you activate the Scrum Programs plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/agile-development/installed-with-scrum-programs.html
 release: xanadu
 product: Agile Development
 classification: agile-development
@@ -15,7 +16,7 @@ breadcrumb: [Activate Scrum Programs, Scrum Programs, Agile Development 2.0, Str
 
 Understand the roles, tables, business rules, and UI macros that are installed when you activate the Scrum Programs plugin.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed with Scrum Programs
 

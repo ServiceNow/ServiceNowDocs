@@ -2,6 +2,7 @@
 title: AWS Firehose integration configuration fields
 description: Description of the fields on the AWS Firehose integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-firehose-fields.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -49,5 +50,5 @@ Description
 Option to add a brief description of the integration to help identify it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Amazon Data Firehose integrations](../task/il-connector-hla-firehose.md)
+</table>**Parent Topic:**[Configure Amazon Data Firehose integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-firehose.md)
 

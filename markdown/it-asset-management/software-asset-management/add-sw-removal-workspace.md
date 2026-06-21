@@ -2,6 +2,7 @@
 title: Add a software removal candidate in workspace
 description: Removal candidates reclaim software resources in your environment. They are created automatically from reclamation rules or can be created manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/add-sw-removal-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

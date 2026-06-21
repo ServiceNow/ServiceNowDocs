@@ -2,7 +2,10 @@
 title: Create a remediation action
 description: Create a remediation action in Cloud Configuration Governance for the remediations that doesn’t require any additional input parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/ccg-create-remediation.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -67,7 +70,7 @@ Requires approval
 
 </td><td>
 
-Option to enforce approval for the remediation action. For more information on approvals, see [Approvals](https://www.servicenow.com/docs/access?context=r_Approvals&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+Option to enforce approval for the remediation action. For more information on approvals, see Approvals.
 
 </td></tr><tr><td>
 
@@ -91,5 +94,5 @@ Name of the remediation catalog item that can be used to raise a remediation req
 
 ## What to do next
 
-Run the remediation action to fix the identified violation. For more information, see [Run remediation](ccg-run-remediation.md).
+Run the remediation action to fix the identified violation. For more information, see [Run remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-run-remediation.md).
 

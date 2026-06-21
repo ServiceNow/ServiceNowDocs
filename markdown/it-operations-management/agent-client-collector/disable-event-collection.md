@@ -2,6 +2,7 @@
 title: Disable event collection
 description: For performance reasons, you might want to disable the collection of events from a data source from which metric data is also collected. You can disable event collection for data sources such as Nagios XI server, SolarWinds monitoring system, and Zabbix server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/disable-event-collection.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

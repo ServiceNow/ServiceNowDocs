@@ -2,6 +2,7 @@
 title: Create a source for failure and resolution codes
 description: Create a source to be associated with any failure or resolution code. The source for a code could be internal, external, or even from a manufacturer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-source-failure-res-code.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -73,5 +74,5 @@ Brief description of the source.
 
 The source that you created is shown in the Sources list.
 
-**Parent Topic:**[Manage failure and resolution codes](../concept/manage-failure-res-codes-eam.md)
+**Parent Topic:**[Manage failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md)
 

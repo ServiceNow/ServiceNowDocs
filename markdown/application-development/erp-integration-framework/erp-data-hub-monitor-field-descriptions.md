@@ -2,6 +2,7 @@
 title: ERP Data Hub Monitor field descriptions
 description: The ERP Data Hub Monitor enables you to track ERP transactions and their progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-data-hub-monitor-field-descriptions.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -113,7 +114,7 @@ Encoded query
 
 Encoded query being used for the specific transaction.
 
- For more information, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -132,5 +133,5 @@ Response item count
 The number of records that were read.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Data Hub field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Data Hub field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

@@ -2,6 +2,7 @@
 title: File extensions supported in External Content Connectors
 description: Search administrators can restrict the items an external content connector crawls by specifying file extensions in inclusion or exclusion filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/file-extensions-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -107,7 +108,7 @@ Rich Text Format
 `.rtf`
 
 </td></tr></tbody>
-</table>For details on defining file-extension inclusion and exclusion filters in external content connectors, see [Configuring crawl settings for external content connectors](../concept/cfg-crawl-settings-ext-cont-connector.md).
+</table>For details on defining file-extension inclusion and exclusion filters in external content connectors, see [Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-crawl-settings-ext-cont-connector.md).
 
-**Parent Topic:**[External Content Connectors reference](../concept/reference-ext-cont-connectors.md)
+**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ext-cont-connectors.md)
 

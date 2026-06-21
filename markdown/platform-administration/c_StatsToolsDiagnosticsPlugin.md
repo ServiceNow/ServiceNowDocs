@@ -2,6 +2,7 @@
 title: Stats Tools
 description: To aid in performance evaluation, the Stats Tools records statistics for system activities that affect performance such as the execution of queries, scripts, and transactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_StatsToolsDiagnosticsPlugin.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"

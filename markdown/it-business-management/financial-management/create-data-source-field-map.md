@@ -2,6 +2,7 @@
 title: Create a data source field map
 description: Field maps create a reference between the data source columns and transaction columns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/create-data-source-field-map.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -101,5 +102,5 @@ Check box to make the field map reference available for cost bucket split when u
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Financial data import](../concept/c_FinancialManagementImport.md)
+**Parent Topic:**[Financial data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_FinancialManagementImport.md)
 

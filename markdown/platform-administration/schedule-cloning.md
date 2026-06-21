@@ -2,6 +2,7 @@
 title: Schedule cloning
 description: You can use System Clone to schedule automatic cloning, which is the easiest way to keep your cloned instances up to date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/schedule-cloning.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Instead of manually cloning instances, you can schedule cloning that happens automatically. You create a cloning schedule in the same interface you use to [create a clone](t_StartAClone.md). This topic assumes that you created a clone but not a cloning schedule for it.
+Instead of manually cloning instances, you can schedule cloning that happens automatically. You create a cloning schedule in the same interface you use to [create a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_StartAClone.md). This topic assumes that you created a clone but not a cloning schedule for it.
 
 ## Procedure
 
@@ -31,25 +32,25 @@ Instead of manually cloning instances, you can schedule cloning that happens aut
 
     The **Options** panel appears.
 
-    ![](../image/schedule-conflict-calendar.png)
+    \[Omitted image "schedule-conflict-calendar.png"\]
 
 3.  **Note:** A target instance must be selected or an error message appears.
 
     Select the **Conflict calendar** to view a calendar with their current clone time and potential conflicts if you want to schedule for a different time.
 
-    The conflict calendar appears in a new tab.![](../image/schedule-conflict-calendar-view.png)
+    The conflict calendar appears in a new tab.\[Omitted image "schedule-conflict-calendar-view.png"\]
 
 4.  Enter values in the following fields to schedule automatic clonings.
 
-<table id="choicetable_wdr_dfs_fhb"><thead><tr><th align="left" id="d241257e134">
+<table id="choicetable_wdr_dfs_fhb"><thead><tr><th align="left" id="d72497e134">
 
 Field
 
-</th><th align="left" id="d241257e137">
+</th><th align="left" id="d72497e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d241257e143">
+</th></tr></thead><tbody><tr><td id="d72497e143">
 
 **Clone frequency**
 
@@ -59,7 +60,7 @@ Defines how often this target automatically receives clone data and the maximum 
 -   Bi-Weekly – The maximum number of occurrences is 13.
 -   Monthly – The maximum number of occurrences is 7.
 
-</td></tr><tr><td id="d241257e171">
+</td></tr><tr><td id="d72497e171">
 
 **No. of occurrences**
 

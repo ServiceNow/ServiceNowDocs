@@ -2,10 +2,11 @@
 title: Upgrade information for all Xanadu features and products
 description: Cumulative release notes summary on upgrade information for Xanadu features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/rn-summary-upgrade-info.html
 release: xanadu
 topic_type: reference
-last_updated: "2026-04-08"
-reading_time_minutes: 19
+last_updated: "2026-06-13"
+reading_time_minutes: 18
 breadcrumb: [Release notes summaries for Xanadu features, Release notes for upgrading from Washington DC, Learn about the Xanadu release, Xanadu release notes]
 ---
 
@@ -29,16 +30,16 @@ AI Search
 
 </td><td>
 
-[Xanadu Patch 3](../quality/xanadu-patch-3.md):
+[Xanadu Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-3.md):
 
--   After you upgrade to Xanadu Patch 3 from an earlier release, make knowledge block content searchable by reindexing all your indexed sources that include knowledge articles. For details on reindexing, see [Perform a full table index or reindex for a single AI Search indexed source](https://www.servicenow.com/docs/access?context=index-single-source-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) or [Perform a full table index or reindex for multiple AI Search indexed sources](https://www.servicenow.com/docs/access?context=index-multiple-sources-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+-   After you upgrade to Xanadu Patch 3 from an earlier release, make knowledge block content searchable by reindexing all your indexed sources that include knowledge articles. For details on reindexing, see  or .
 
 Xanadu:
 
 After you upgrade to Xanadu from an earlier release, perform the following steps to add the Dashboards, data visualizations, and KPIs navigation tabs to global search results in AI Search for Next Experience:
 
-1.  Update the AI Search for Next Experience ServiceNow Store application to version 4 or later. For update instructions, see [Install an update to a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallUpdates&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
-2.  Commit the update set provided in the [AI Search for Next Experience 4.0 PAR tables update sets \(KB1644544\)](https://support.servicenow.com/kb_view.do?sysparm_article=KB1644544) article in the Now Support Knowledge Base. To learn more about update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+1.  Update the AI Search for Next Experience ServiceNow Store application to version 4 or later. For update instructions, see .
+2.  Commit the update set provided in the [AI Search for Next Experience 4.0 PAR tables update sets \(KB1644544\)](https://support.servicenow.com/kb_view.do?sysparm_article=KB1644544) article in the Now Support Knowledge Base. To learn more about update sets, see .
 
 </td></tr><tr><td>
 
@@ -70,7 +71,7 @@ Application Vulnerability Response
 
 </td><td>
 
--   For information about the new features of Vulnerability Response, see [Vulnerability Response release notes](../security-operations/secops-vuln-resp-rn.md).
+-   For information about the new features of Vulnerability Response, see [Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/secops-vuln-resp-rn.md).
 -   For more information about the released versions of the Application Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Xanadu release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
@@ -198,7 +199,7 @@ Goal Framework for SPM
 
 </td><td>
 
-After upgrading to Goal Framework for SPM v2.3.0, run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job. This scheduled job migrates the existing values in the **Review frequency** and **Breakdown interval** fields to the **Check-in frequency** field in the target records. For more information on how these values are migrated for targets with different values, see [Target breakdowns migration](https://www.servicenow.com/docs/access?context=target-breakdowns-migration&version=xanadu&pubname=xanadu-it-business-management&ft:locale=en-US).
+After upgrading to Goal Framework for SPM v2.3.0, run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job. This scheduled job migrates the existing values in the **Review frequency** and **Breakdown interval** fields to the **Check-in frequency** field in the target records. For more information on how these values are migrated for targets with different values, see .
 
 </td></tr><tr><td>
 
@@ -254,21 +255,21 @@ MID Server
 
 </td><td>
 
-For the latest MID Server system requirements, see [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US). The minimum JRE version supported is 11.0.9 and the recommended version is 11.0.16.1.
+For the latest MID Server system requirements, see MID Server system requirements. The minimum JRE version supported is 11.0.9 and the recommended version is 11.0.16.1.
 
 If you have installed your own JRE, the upgrade process takes the following actions to verify that the MID Server uses a supported JRE:
 
 -   If a MID Server is using an unsupported version of the JRE when it upgrades, the upgrade process displays a warning message with the minimum and recommended JRE version.
 -   If a supported JRE is running on the MID Server host, the upgraded MID Server uses that version.
 
-All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages [MID Server upgrades](https://www.servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages MID Server upgrades.
 
-Only one Windows MID Server service is permitted according to executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See [MID Server fails to start](https://www.servicenow.com/docs/access?context=mid-startup-fails&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information.
+Only one Windows MID Server service is permitted according to executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See MID Server fails to start for more information.
 
 For more information about MID Server upgrades, see the following topics:
 
--   [MID Server pre-upgrade check](https://www.servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US): Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
--   [Upgrade the MID Server manually](https://www.servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US): Describes how to upgrade your MID Servers manually.
+-   MID Server pre-upgrade check: Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
+-   Upgrade the MID Server manually: Describes how to upgrade your MID Servers manually.
 
 </td></tr><tr><td>
 
@@ -298,7 +299,7 @@ Now Assist for Security Operations
 
 </td><td>
 
-For more information about required applications for Now Assist for Vulnerability Response, see [Supporting information for Now Assist for Vulnerability Response](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-vr&version=xanadu&pubname=xanadu-security-management&ft:locale=en-US). For more information about required applications for Now Assist for Security Incident Response, see [Supporting information for Now Assist for Security Incident Response](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-security-incident&version=xanadu&pubname=xanadu-security-management&ft:locale=en-US).
+For more information about required applications for Now Assist for Vulnerability Response, see . For more information about required applications for Now Assist for Security Incident Response, see .
 
 The AI Search application must be enabled so that the Recommended Actions skill works for security incidents. To verify AI Search is enabled on your instance, navigate to **All** &gt; **AI Search** &gt; **AI Search Status**. Contact support if the page indicates AI Search is not enabled.
 
@@ -315,7 +316,7 @@ If you’re upgrading from Order Management for Telecommunications and Media ver
 -   Starting with the  Washington DC release, the  Monthly Recurring Charges  \(MRC\) and the  Non-Recurring Charges  \(NRC\) for product offerings and product attribute characteristics are no longer stored in the product offering data model. Instead, the MRC and NRC are stored in the Pricing data model in price lists and price list lines. If you want to upgrade your pricing information to use price lists after upgrading to  Washington DC, see the  [Price Management Plugin \(com.sn\_csm\_pricing\) uptake for Telecommunications, Media, and Technology customers upgrading to Washington \[KB1585863\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1585863) article in the Now Support Knowledge Base.
 -   After upgrading to the  Xanadu release, a fix script runs automatically to deactivate certain telecommunications list records that are no longer needed to resume the capture of an unfinished order. For more information on these records and using the former order capture process, see the  [Deprecating Telco List for Order Capture \[KB1586538\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1586538) article in the Now Support Knowledge Base.
 
-If you’re an upgrade customer who uses the **contract start date** and **contract end date** fields and has records, you can migrate those records to the latest data model by running the **Migrate data from deprecated contract fields to new fields on Order and Order Lines** scheduled job. This scheduled job must be manually executed by navigating to **System Definitions** &gt; **Scheduled Jobs**. For more information on scheduled jobs, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+If you’re an upgrade customer who uses the **contract start date** and **contract end date** fields and has records, you can migrate those records to the latest data model by running the **Migrate data from deprecated contract fields to new fields on Order and Order Lines** scheduled job. This scheduled job must be manually executed by navigating to **System Definitions** &gt; **Scheduled Jobs**. For more information on scheduled jobs, see Scheduled jobs.
 
 </td></tr><tr><td>
 
@@ -372,13 +373,13 @@ Upgrade any of these currently installed Microsoft Software Installers \(MSIs\) 
 -   Unattended Robot
 -   Unattended Robot Login Agent
 
-For more information, see [Download the RPA applications from RPA Hub](https://www.servicenow.com/docs/access?context=download-installer-rpa&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+For more information, see Download the RPA applications from RPA Hub.
 
 The following upgrade information is applicable only when you’re upgrading from San Diego or Tokyo to Xanadu.
 
 Based on the number of records in the application file table, you could experience a potential delay while upgrading the RPA Hub applications from Tokyo or earlier releases to Xanadu.
 
-Before upgrading RPA Hub to Xanadu, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+Before upgrading RPA Hub to Xanadu, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see .
 
 After you upgrade to Xanadu, the bot process definitions change to the new structure, which is the bot process configuration.
 
@@ -390,7 +391,7 @@ Security Posture Control
 
 </td><td>
 
-For a complete list of the applications that are required to implement Security Posture Control, see [Install Security Posture Control](https://www.servicenow.com/docs/access?context=spc-install&version=xanadu&pubname=xanadu-security-management&ft:locale=en-US).
+For a complete list of the applications that are required to implement Security Posture Control, see Install Security Posture Control.
 
 </td></tr><tr><td>
 
@@ -432,7 +433,7 @@ ServiceNow SDK
 
 </td><td>
 
-Upgrade to the latest version of the ServiceNow SDK with the `now-sdk upgrade` command. For more information, see [Upgrade the ServiceNow SDK](https://www.servicenow.com/docs/access?context=upgrade-servicenow-sdk&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Upgrade to the latest version of the ServiceNow SDK with the `now-sdk upgrade` command. For more information, see .
 
 </td></tr><tr><td>
 
@@ -440,7 +441,7 @@ Skills Management
 
 </td><td>
 
-The skills dashboard is automatically migrated to the [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) in the Xanadu release. When you upgrade, you can automatically access the Skills dashboard in the [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+The skills dashboard is automatically migrated to the  in the Xanadu release. When you upgrade, you can automatically access the Skills dashboard in the .
 
 </td></tr><tr><td>
 
@@ -456,7 +457,7 @@ Strategic Planning
 
 </td><td>
 
-After upgrading to Strategic Planning v4.3.2, run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job. This scheduled job migrates the existing values in the **Review frequency** and **Breakdown interval** fields to the **Check-in frequency** field in the target records. For more information on how these values are migrated for targets with different values, see [Target breakdowns migration](https://www.servicenow.com/docs/access?context=target-breakdowns-migration-spw&version=xanadu&pubname=xanadu-it-business-management&ft:locale=en-US).
+After upgrading to Strategic Planning v4.3.2, run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job. This scheduled job migrates the existing values in the **Review frequency** and **Breakdown interval** fields to the **Check-in frequency** field in the target records. For more information on how these values are migrated for targets with different values, see .
 
 </td></tr><tr><td>
 
@@ -464,7 +465,7 @@ Subscription Management
 
 </td><td>
 
-Subscription Management version 3.2 is active by default on all instances of the Xanadu release. Update to Subscription Management version 4.0 or later to use the latest features. For more information about updating Subscription Management, see [Update an application or plugin](https://www.servicenow.com/docs/access?context=update-application-app-mgr&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Subscription Management version 3.2 is active by default on all instances of the Xanadu release. Update to Subscription Management version 4.0 or later to use the latest features. For more information about updating Subscription Management, see .
 
 </td></tr><tr><td>
 
@@ -482,7 +483,7 @@ Third-party Risk Management
 
 If you are a VRM user upgrading to TPRM, when upgrading to Vancouver or later from an earlier release, you must run each upgrade sequentially to ensure that fix scripts run correctly. This means upgrading from Utah to Vancouver, Vancouver to Washington DC, and so on. If the scripts do not run in the correct order, it can result in data inconsistencies, broken functionalities, and conflicts.
 
-For more information on upgrading from VRM to TPRM, see [Third-party Risk Management upgrade information](../governance-risk-compliance/grc-tprm-upgrade-info.md).
+For more information on upgrading from VRM to TPRM, see [Third-party Risk Management upgrade information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/grc-tprm-upgrade-info.md).
 
 </td></tr><tr><td>
 
@@ -499,7 +500,7 @@ Vulnerability Response integrations
 </td><td>
 
 -   For more information about the released versions of the Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Xanadu release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
--   For information about the new features of Vulnerability Response, see [Vulnerability Response release notes](../security-operations/secops-vuln-resp-rn.md).
+-   For information about the new features of Vulnerability Response, see [Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/secops-vuln-resp-rn.md).
 
 </td></tr><tr><td>
 
@@ -510,5 +511,5 @@ Workflow Studio
 As of Washington DC patch 3, updating Workflow Studio automatically updates all of its application dependencies such as ServiceNow® Workflow Studio, Playbook, and ServiceNow® Decision Builder. You can no longer see or update the individual application dependencies of Workflow Studio from the ServiceNow® Store or the list of plugins.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Xanadu features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Xanadu features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/release-notes-summaries.md)
 

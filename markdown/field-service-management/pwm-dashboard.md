@@ -2,7 +2,10 @@
 title: Planned Work Management Home page
 description: Planned Work Management Home page enables you to monitor your work plans, schedules, and work orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/pwm-dashboard.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Managing work orders for the planned work, Using Field Service Mana
 
 Planned Work Management Home page enables you to monitor your work plans, schedules, and work orders.
 
-![Planned Work Management dashboard displaying work plans, work schedules, and planned work orders represented by tiles and graphs.](../../../product/field-service-management/image/pwm-home-page.png)
+\[Omitted image "pwm-home-page.png"\] Alt text: Planned Work Management dashboard displaying work plans, work schedules, and planned work orders represented by tiles and graphs.
 
 ## End user and roles
 
@@ -84,7 +87,7 @@ Active plans
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -100,7 +103,7 @@ Plans expiring in the next 30 days
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -116,7 +119,7 @@ Overdue work orders
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -132,7 +135,7 @@ Upcoming schedules with no work orders
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -164,7 +167,7 @@ Work orders by state
 
 </td><td>
 
-Stacked bar chart ![](../../../reuse/reporting/image/bar-stacked.svg)
+Stacked bar chart \[Omitted image "bar-stacked.svg"\] Alt text:
 
 </td><td>
 
@@ -191,5 +194,5 @@ List
 Display the number of work orders that are not compliant with the corresponding maintenance plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing work orders for the planned work](../../../product/field-service-management/concept/creating-work-orders-from-planned-work.md)
+</table>**Parent Topic:**[Managing work orders for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/creating-work-orders-from-planned-work.md)
 

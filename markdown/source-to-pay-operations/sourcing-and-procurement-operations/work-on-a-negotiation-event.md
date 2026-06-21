@@ -2,6 +2,7 @@
 title: Work on a negotiation event
 description: You can work on a negotiation event and complete an entire workflow, right from starting negotiations with multiple suppliers, to awarding one or multiple suppliers, or rejecting bids. Awarding suppliers create purchase requisitions for the selected suppliers and items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/work-on-a-negotiation-event.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -47,15 +48,15 @@ Role required: sn\_shop.procurement\_specialist
 
 9.  Do one of these actions.
 
-<table id="choicetable_bhm_f5c_htb"><thead><tr><th align="left" id="d79657e153">
+<table id="choicetable_bhm_f5c_htb"><thead><tr><th align="left" id="d77578e153">
 
 Action
 
-</th><th align="left" id="d79657e156">
+</th><th align="left" id="d77578e156">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79657e162">
+</th></tr></thead><tbody><tr><td id="d77578e162">
 
 **Save**
 
@@ -63,7 +64,7 @@ Description
 
 Saves the details of the negotiation event for further action.
 
-</td></tr><tr><td id="d79657e171">
+</td></tr><tr><td id="d77578e171">
 
 **Cancel**
 
@@ -71,7 +72,7 @@ Saves the details of the negotiation event for further action.
 
 Cancels the negotiation event and moves all its negotiations and associated sourcing requests and purchase lines to the Closed Cancelled state. This negotiation event is no longer considered for the awarding process.
 
-</td></tr><tr><td id="d79657e180">
+</td></tr><tr><td id="d77578e180">
 
 **Award single supplier**
 
@@ -79,7 +80,7 @@ Cancels the negotiation event and moves all its negotiations and associated sour
 
 Opens the **Select a supplier to award** dialog box, where you can select one of the suppliers from the list and select **OK** to award the supplier. The awarded negotiation moves to the Closed Decided state while all the others move to Closed Rejected. The purchase lines for the awarded negotiation are automatically converted to purchase requisitions.
 
-</td></tr><tr><td id="d79657e195">
+</td></tr><tr><td id="d77578e195">
 
 **Award multiple suppliers**
 
@@ -87,9 +88,9 @@ Opens the **Select a supplier to award** dialog box, where you can select one of
 
 Opens the **Award suppliers** tab, where you can select one or more suppliers from the list and select **Review selection** to award the suppliers. The awarded negotiations move to the Closed Decided state while the others move to Closed Rejected. The purchase lines for the awarded negotiation are automatically converted to purchase requisitions.
 
- For information on more options that are available to you on this tab, see [Award multiple suppliers from a negotiation event](award-multiple-suppliers-from-a-ne.md).
+ For information on more options that are available to you on this tab, see [Award multiple suppliers from a negotiation event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/award-multiple-suppliers-from-a-ne.md).
 
-</td></tr><tr><td id="d79657e224">
+</td></tr><tr><td id="d77578e224">
 
 **Reject bids**
 
@@ -101,5 +102,5 @@ Opens the **Reject all bids?** dialog box, where you must enter your reason for 
 </table>10. Select **View purchase requisitions** from the negotiation event or the awarded negotiation to view the details of the newly created purchase requisitions.
 
 
-**Parent Topic:**[Source-to-Pay Workspace](../concept/procurement-specialist-workspace.md)
+**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/procurement-specialist-workspace.md)
 

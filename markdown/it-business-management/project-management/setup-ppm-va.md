@@ -2,6 +2,7 @@
 title: Enable Virtual Agent for PPM
 description: Enable Virtual Agent for PPM to start chatting with the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/setup-ppm-va.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -19,7 +20,7 @@ Enable Virtual Agent for PPM to start chatting with the Virtual Agent.
 
 Role required: admin, virtual\_agent\_admin
 
-The base system provides predefined Virtual Agent topics \(chatbot conversations\). To customize a topic, duplicate it and then edit it. See [Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US)
+The base system provides predefined Virtual Agent topics \(chatbot conversations\). To customize a topic, duplicate it and then edit it. See Virtual Agent Designer
 
 ## Procedure
 

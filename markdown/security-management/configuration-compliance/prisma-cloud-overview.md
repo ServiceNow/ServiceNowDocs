@@ -2,6 +2,7 @@
 title: Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud
 description: Prisma Cloud is an API-based cloud infrastructure security solution. It connects to your cloud environment and monitors the resources deployed on the public cloud environments, such as Amazon Web Services \(AWS\), Microsoft Azure, and so on. You get complete visibility and control over risks within your public cloud infrastructure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/prisma-cloud-overview.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -94,18 +95,18 @@ Prisma Alerts Integration
 -   Provides incremental support. The integration runs daily after the last integration run time.
 
 </td></tr></tbody>
-</table>-   **[Preparing for installing the Vulnerability Response Integration with Palo Alto Prisma Cloud](preparing-prisma-cloud.md)**  
+</table>-   **[Preparing for installing the Vulnerability Response Integration with Palo Alto Prisma Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/preparing-prisma-cloud.md)**  
 Prepare for installing the Vulnerability Response Integration with Palo Alto Prisma Cloud by performing setup tasks.
--   **[Install and configure the Vulnerability Response Integration with Palo Alto Prisma Cloud application](install-and-configure-prisma-cloud.md)**  
+-   **[Install and configure the Vulnerability Response Integration with Palo Alto Prisma Cloud application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/install-and-configure-prisma-cloud.md)**  
 Install the Vulnerability Response Integration with Palo Alto Prisma Cloud application to use the imported data from Prisma Cloud. Use this data to prioritize and remediate misconfigurations on your assets.
--   **[Configure the Vulnerability Response Integration with Palo Alto Prisma Cloud application](configure-vulnerability-response-prisma-cloud.md)**  
+-   **[Configure the Vulnerability Response Integration with Palo Alto Prisma Cloud application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/configure-vulnerability-response-prisma-cloud.md)**  
 Configure the Vulnerability Response Integration with Palo Alto Prisma Cloud application. Use the imported data from Prisma Cloud to prioritize and remediate misconfigurations on your assets.
--   **[Verify the Vulnerability Response Integration with Palo Alto Prisma Cloud import run status](verify-integration-run.md)**  
+-   **[Verify the Vulnerability Response Integration with Palo Alto Prisma Cloud import run status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/verify-integration-run.md)**  
 Use the Vulnerability Response Integration with Palo Alto Prisma Cloud import run status to verify the success of your integration runs and to identify any issues.
--   **[Data mapping](cc-prisma-import-data.md)**  
+-   **[Data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-prisma-import-data.md)**  
 The data from Prisma Cloud is imported in the Configuration Compliance module of the ServiceNow instance.
--   **[Prisma Cloud REST Messages](prisma-cloud-rest-messages.md)**  
+-   **[Prisma Cloud REST Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/prisma-cloud-rest-messages.md)**  
 Prisma REST messages are used to make calls to the Prisma Application Programming Interface \(API\) to fetch the compliance data.
 
-**Parent Topic:**[Configuration Compliance integrations](../../../vulnerability-config-compliance/concept/vuln-config-compl-integrations.md)
+**Parent Topic:**[Configuration Compliance integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-integrations.md)
 

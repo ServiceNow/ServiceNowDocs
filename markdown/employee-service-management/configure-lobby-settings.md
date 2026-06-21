@@ -2,7 +2,10 @@
 title: Configure Lobby Settings
 description: You can override the lobby settings in your instance to allow the participants to join the conference call without waiting in the lobby.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/configure-lobby-settings.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -23,15 +26,15 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Notify** &gt; **Microsoft Teams** &gt; **Configuration**.
 
-    ![Notify settings](../image/sn-notify-settings.png)
+    \[Omitted image "sn-notify-settings.png"\] Alt text: Notify settings
 
     **Note:** In the **Setup** tab, ensure that **Enable create online meeting** option is selected.
 
-    ![Enable create online meeting option](../image/enable-create-online-meeting.png)
+    \[Omitted image "enable-create-online-meeting.png"\] Alt text: Enable create online meeting option
 
 2.  Select **Override Lobby settings** option.
 
-    ![Override Lobby settings tab](../image/override-lobby-settings-tab.png)
+    \[Omitted image "override-lobby-settings-tab.png"\] Alt text: Override Lobby settings tab
 
     The **Lobby Bypass Settings** tab appears once you select the **Override Lobby settings** option.
 
@@ -39,16 +42,16 @@ Role required: admin
 
     **Note:** If you have an Microsoft Azure audio conferencing subscription, you must enable this option to enable the users to join the conference call via phone numbers.
 
-    ![Enable audio conferencing option](../image/enable-audio-conf-01.png)
+    \[Omitted image "enable-audio-conf-01.png"\] Alt text: Enable audio conferencing option
 
 4.  Select **Lobby Bypass Settings** tab.
 
-    ![Lobby bypass settings tab](../image/lobby-bypass-settings.png)
+    \[Omitted image "lobby-bypass-settings.png"\] Alt text: Lobby bypass settings tab
 
     1.  **Who can Bypass Lobby**: Select the participants who can automatically join the conference call.
     2.  **Allow dial-in users to bypass the lobby**: This option appears only if **Enable Audio Conferencing** option is selected in **Audio Conferencing** tab. Select this option to allow the participants to automatically join the conference call if they have joined using the conference bridge number.
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](../concept/config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/config-notify-ms-teams.md)
 

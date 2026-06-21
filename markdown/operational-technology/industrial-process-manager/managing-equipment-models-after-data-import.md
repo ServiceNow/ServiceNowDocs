@@ -2,6 +2,7 @@
 title: Managing equipment models
 description: The Equipment Model Manager enables you to review and manage ISA-95 equipment model data. You use it to review imported equipment model data or to manually create an equipment model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/industrial-process-manager/managing-equipment-models-after-data-import.html
 release: xanadu
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -22,12 +23,12 @@ An equipment model maps the operational elements of a particular facility. For e
 -   Review child entities.
 -   Review or associate additional OT devices with the selected equipment model entity
 
-**Note:** Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with assigned cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_viewer roles can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](create-user-criteria-for-equipment-model-entity-site-users.md).
+**Note:** Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with assigned cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_viewer roles can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
 
--   **[Review and update the equipment model details](equipment-model-workspace.md)**  
+-   **[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-process-manager/equipment-model-workspace.md)**  
 Review and update the details for an equipment model that you imported into the ServiceNow AI Platform so that you can make sure that the information is correct. You can also manually create a new equipment model entity and then add details to it.
--   **[Automated mapping of OT devices to the Equipment Model](../../mftg-manufacturing/task/automate-mappings-between-ot-assets-and-equipment-model-entity.md)**  
+-   **[Automated mapping of OT devices to the Equipment Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)**  
 Automate mapping of OT devices to the production process.​
 
-**Parent Topic:**[Using Industrial Process Manager with the Operational Technology Manager](../concept/using-manufacturing-process-manager.md)
+**Parent Topic:**[Using Industrial Process Manager with the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-process-manager/using-manufacturing-process-manager.md)
 

@@ -2,6 +2,7 @@
 title: Variable set new record form
 description: Field description to create a new variable set record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-variable-set-new-record-form.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -26,5 +27,5 @@ Field description to create a new variable set record.
 |Layout|Set the layout display.|
 |Description|Description of the variable set.|
 
-**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

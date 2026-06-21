@@ -2,6 +2,7 @@
 title: Auto determination of assignment group in HR Service Delivery Agent Workspace
 description: Auto determine the assignment group for a case in HR Service Delivery Agent Workspace. Enable an HR agent to transfer the case to the correct assignment group rather than having to spend significant time manually identifying groups for the HR cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/determine-group-hr-agent-workspace.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -34,7 +35,7 @@ By default the Auto Assignment Group for HR Cases solution definition is configu
 -   There are 10000 records of HR case study matching the filters defined in the solution definition.
 -   The **glide.platform\_ml.auto\_training.enabled** system property is set to true.
 
-**Note:** Auto training does not happen if any one of the preceding conditions is not met. In such a case, [Manually train the HR predictive model](https://servicenow.com/docs/bundle/vancouver-employee-service-management/page/product/human-resources/task/hr-predictive-intelligence-train.html). Navigate to the **HR AI configuration** module, open the Case Assignment group record, and map the manually configured solution definition.
+**Note:** Auto training does not happen if any one of the preceding conditions is not met. In such a case, [Manually train the HR predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md). Navigate to the **HR AI configuration** module, open the Case Assignment group record, and map the manually configured solution definition.
 
-**Parent Topic:**[Machine learning solutions for HR Service Delivery Agent Workspace](agent-ws-hr-prediction-service.md)
+**Parent Topic:**[Machine learning solutions for HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-prediction-service.md)
 

@@ -2,6 +2,7 @@
 title: Create a dynamic choice set
 description: Define a fixed set of values for an attribute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-choice-set.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -41,11 +42,11 @@ For some dynamic attributes, you might want to limit the possible values that ar
 
 ## Add choice set for screen types
 
-![Add a choice set for type of screens.](../image/dynamic-choice-set-example.png)
+\[Omitted image "dynamic-choice-set-example.png"\] Alt text: Add a choice set for type of screens.
 
 ## What to do next
 
-[Add choices to a dynamic choice set](add-choices-choice-set.md)
+[Add choices to a dynamic choice set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/add-choices-choice-set.md)
 
-**Parent Topic:**[Dynamic Schema](../concept/dynamic-schema.md)
+**Parent Topic:**[Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-schema.md)
 

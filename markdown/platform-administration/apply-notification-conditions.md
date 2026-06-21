@@ -2,6 +2,7 @@
 title: Apply notification conditions
 description: Set various conditions and filters to control the notifications you receive. You can also enable or disable an email digest and the delivery of individual notifications by channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/apply-notification-conditions.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
--   Enable or disable an email digest if a digest is available for the notification. An [email digest](../concept/email-digests.md) is a single email that summarizes the activity for the notification during a time interval that you specify. Admins configure the email digest content for a notification.
+-   Enable or disable an email digest if a digest is available for the notification. An [email digest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/email-digests.md) is a single email that summarizes the activity for the notification during a time interval that you specify. Admins configure the email digest content for a notification.
 -   Enable or disable a channel on which the notification is received.
 -   Set preconfigured schedules and filters that determine when you receive your notifications.
 -   Set more advanced filter conditions to limit the notifications delivered to you.
@@ -61,5 +62,5 @@ Role required: none
     2.  Select **Save**.
 
 
-**Parent Topic:**[Setting notification preferences in Core UI](../concept/user-notification-preferences.md)
+**Parent Topic:**[Setting notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/user-notification-preferences.md)
 

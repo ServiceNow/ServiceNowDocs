@@ -2,6 +2,7 @@
 title: Add or create an issue for a privacy case
 description: Identify and manage issues related to the impacted areas for the reported privacy case. You can also create issues from the Privacy Case Management landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/add-issues.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -23,7 +24,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list ![List icon](../../grc-compliance-case-mgmt/image/list-icon.png) icon.
+2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon icon.
 
 3.  Select **All Cases**.
 
@@ -31,15 +32,15 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 5.  Select the Issues related list and do one of the following.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d141476e104">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d76200e104">
 
 Option
 
-</th><th align="left" id="d141476e107">
+</th><th align="left" id="d76200e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d141476e113">
+</th></tr></thead><tbody><tr><td id="d76200e113">
 
 **To add an existing issue**
 
@@ -50,17 +51,17 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d141476e139">
+</td></tr><tr><td id="d76200e139">
 
 **To create an issue**
 
 </td><td>
 
-Refer to the [new issue creation form](../../grc-operational-res-ws/reference/create-new-issue-opres-ws.md).
+Refer to the [new issue creation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/create-new-issue-opres-ws.md).
 
 </td></tr></tbody>
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

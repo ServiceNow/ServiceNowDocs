@@ -2,6 +2,7 @@
 title: Configuring filters for Manager Workspace
 description: Configure filters for scheduling and coaching applications and use the default filter for channel management to refine your search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/configuring-filters-manager-configurable-workspace.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -57,7 +58,7 @@ Table
 
 Table for which the filter is configured. **Note:** You can filter only on specific tables or database views for each module.
 
-Refer to Filter Configuration Tables in [Manager Workspace](../reference/components-installed-configurable-wfo-cs.md) for a list of tables and database views you can use for each application.
+Refer to Filter Configuration Tables in [Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) for a list of tables and database views you can use for each application.
 
 </td></tr><tr><td>
 
@@ -121,5 +122,5 @@ Metadata defined seismic component.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Workforce Optimization for Customer Service](../concept/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Configuring Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-configurable-wfo-cs.md)
 

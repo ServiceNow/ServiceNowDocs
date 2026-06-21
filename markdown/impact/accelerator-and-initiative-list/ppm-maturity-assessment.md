@@ -2,6 +2,7 @@
 title: Project Portfolio Management Maturity Assessment
 description: The Project Portfolio Management \(PPM\) Maturity Assessment Accelerator provides guidance on maximizing the resources available with PPM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/ppm-maturity-assessment.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The Project Portfolio Management \(PPM\) Maturity Assessment Accelerator provide
 
 Project Portfolio Management Maturity Assessment provides Impact Advanced and Total Customers with prescriptive guidance, leading practices content, and a maturity analysis of their ServiceNow instance PPM. The Assessment aims to help you streamline the undertaking of organizing the complex tasks of multiple programs, processes, operations, and projects and create a big-picture view of the projects as a single entity to help prioritize and sequence them for optimal business returns.
 
-See [Project Portfolio Management](https://www.servicenow.com/docs/access?context=c_ProjectPortfolioSuite&version=xanadu&pubname=xanadu-it-business-management&ft:locale=en-US) for information on PPM.
+See  for information on PPM.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

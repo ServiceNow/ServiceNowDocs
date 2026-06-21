@@ -2,6 +2,7 @@
 title: Review and finalize the contract document
 description: Review and finalize the contract document for sending it for signature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-simple-contracts/finalize-contract-document-nda.html
 release: xanadu
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -52,5 +53,5 @@ Role required: sn\_lg\_ops.legal\_user
 
 When the contract document is finalized, send it for signature by selecting **Send for signature**.
 
-**Parent Topic:**[Non-disclosure agreement requests in Legal Simple Contracts](../concept/legal-request-nda.md)
+**Parent Topic:**[Non-disclosure agreement requests in Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-simple-contracts/legal-request-nda.md)
 

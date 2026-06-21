@@ -2,6 +2,7 @@
 title: Migrate to 15-minute forecasting
 description: Migrate to 15-minute demand forecasting that enables managers to view their agent staffing forecast at 15-minute intervals on the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/migrate-15-minute-forecasting.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -29,7 +30,7 @@ Starting with the Tokyo release, 15-minute forecasting is the default forecastin
 
 1.  Set the **sn\_agent\_forecast.forecast\_interval** system property value to `15`.
 
-    1.  Set the application scope to Agent Forecast using the [application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+    1.  Set the application scope to Agent Forecast using the application picker.
 
     2.  Enter `sys_properties.list` in the navigation filter, and then open the **sn\_agent\_forecast.forecast\_interval** property.
 
@@ -45,7 +46,7 @@ Starting with the Tokyo release, 15-minute forecasting is the default forecastin
 
 3.  Create new data collection definitions, formula parameters, and group forecast configuration.
 
-    For more info, see [Configure the data collection to forecast the demand for resources](configure-data-collection-demand-forecast.md).
+    For more info, see [Configure the data collection to forecast the demand for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/configure-data-collection-demand-forecast.md).
 
 4.  Run the **Collect historical data** on-demand job to collect historical data at 15-minute interval.
 
@@ -64,5 +65,5 @@ Starting with the Tokyo release, 15-minute forecasting is the default forecastin
     3.  Click **Execute Now**.
 
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](../concept/configuring-demand-forecast-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/configuring-demand-forecast-configurable-wfo-cs.md)
 

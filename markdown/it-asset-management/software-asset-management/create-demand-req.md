@@ -2,6 +2,7 @@
 title: Create a demand requirement
 description: Create a demand requirement for rationalizing your SaaS and SSO applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/create-demand-req.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

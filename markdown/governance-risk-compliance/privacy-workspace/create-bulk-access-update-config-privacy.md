@@ -2,6 +2,7 @@
 title: Set access restrictions using an entity based record access update utility
 description: Set access restrictions for the existing records in bulk by using the Entity based record access update utility guided-experience. Use the workflow to enable or disable access to record types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/create-bulk-access-update-config-privacy.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -72,5 +73,5 @@ The system provides real-time status tracking of update operations, categorized 
 
 Entity-based restrictions are enabled at the record level for the scoped entity. The system creates a scheduled job that runs at intervals \(default: 1 hour\) to update records in batches for entity-based access restrictions.
 
-**Parent Topic:**[Configure access control](../configure-access-control-by-legal-entity.md)
+**Parent Topic:**[Configure access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

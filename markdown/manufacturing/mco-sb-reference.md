@@ -2,6 +2,7 @@
 title: Service Bridge for Manufacturing Commercial Operations reference
 description: Reference topics provide additional information about the Service Bridge for Manufacturing Commercial Operations data model and configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-sb-reference.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-10-16"
@@ -13,5 +14,5 @@ breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing]
 
 Reference topics provide additional information about the Service Bridge for Manufacturing Commercial Operations data model and configurations.
 
-For more reference information about Service Bridge, see [Service Exchange reference](https://www.servicenow.com/docs/access?context=service-bridge-v2-reference&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+For more reference information about Service Bridge, see .
 

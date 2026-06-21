@@ -2,6 +2,7 @@
 title: Components installed with Security Incident Response
 description: Several types of components are installed when you download and activate the Security Incident Response application, including user roles, tables, properties, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/installed-with-sir.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -15,7 +16,7 @@ breadcrumb: [Install and configure Security Incident Response, Security Incident
 
 Several types of components are installed when you download and activate the Security Incident Response application, including user roles, tables, properties, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 

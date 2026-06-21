@@ -2,6 +2,7 @@
 title: Components installed with Manufacturing Commercial Operations with Service Exchange
 description: Several types of components are installed when you activate the Service Exchange application in Manufacturing Commercial Operations, including tables and user roles.Several types of components are installed when you activate the Service Exchange for Providers application in Manufacturing Commercial Operations, including tables and user roles.Several types of components are installed with activation of the Service Exchange for Consumers application in Manufacturing Commercial Operations, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-sb-installed-components.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -261,7 +262,7 @@ Provider side transform records.
 
 Several types of components are installed with activation of the Service Exchange for Consumers application in Manufacturing Commercial Operations, including tables and user roles.
 
-**Note:** The Application Files \[sys\_metadata\] table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files \[sys\_metadata\] table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ### Roles installed
 

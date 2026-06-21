@@ -2,6 +2,7 @@
 title: Collected scores and com.snc.pa.breakdown\_element\_cutoff
 description: The elements of a breakdown that the Analytics Hub and KPI Details display for a selected date depend on the number of elements and the value of com.snc.pa.breakdown\_element\_cutoff.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/collected-element-display-cutoff.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +18,7 @@ The elements of a breakdown that the Analytics Hub and KPI Details display for a
 
 In general, when the number of elements for a breakdown exceeds **com.snc.pa.breakdown\_element\_cutoff**, the Analytics Hub and KPI Details display only the elements that have ever had a score.
 
-For a formula indicator, the elements that have ever had a score for all the contributing automated indicators are displayed. These scores do not need to be on the same date. The requirement is only that for each [contributing indicator](performance-analytics-glossary.md#), on some date, there was a score for the element.
+For a formula indicator, the elements that have ever had a score for all the contributing automated indicators are displayed. These scores do not need to be on the same date. The requirement is only that for each [contributing indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/performance-analytics-glossary.md), on some date, there was a score for the element.
 
 For collected scores of an automated indicator—that is, for all scores other than real-time scores—there are two behaviors:
 
@@ -34,21 +35,21 @@ This example uses KPI Details to explore the Assignment Group breakdown for the 
 
 First is the default case, where **com.snc.pa.breakdown\_element\_cutoff**=50. This value is higher than the number of elements of Assignment Group. Therefore, for any selected date, all elements of the breakdown group are displayed.
 
-![All elements of the Assignment Group breakdown being displayed.](../image/element-display-all.gif)
+\[Omitted image "element-display-all.gif"\] Alt text: All elements of the Assignment Group breakdown being displayed.
 
 The next case is where **com.snc.pa.breakdown\_element\_cutoff**=10. The number of elements in the Assignment Group breakdown far exceeds this value. However, only eight elements have ever had a score. This number is less than the cutoff value of 10, so for any date, all eight elements are shown, even when null.
 
-![All elements of Assignment Group that ever had a score being displayed.](../image/element-display-all-ever-not-null.gif)
+\[Omitted image "element-display-all-ever-not-null.gif"\] Alt text: All elements of Assignment Group that ever had a score being displayed.
 
 Finally, there is the case where **com.snc.pa.breakdown\_element\_cutoff**=5. This number is less than the number of elements that have ever had a score. Now only the elements with a non-null value or a change value on the selected date are shown on that date. Different elements are thus shown for different dates.
 
-![Only non-null and changed elements of Assignment Group being shown for each date.](../image/element-display-only-not-null.gif)
+\[Omitted image "element-display-only-not-null.gif"\] Alt text: Only non-null and changed elements of Assignment Group being shown for each date.
 
 **Note:**
 
 The Analytics Settings Manager element is shown for March 7 despite having a null value. It is shown because it had a value of 5 for the previous collection period and thus has a change value of -5 for March 7.
 
-![Number of Open Incidents with Assignment Group: Analytics Settings Managers at zero for today and 5 for yesterday.](../image/element-display-day-before.png)
+\[Omitted image "element-display-day-before.png"\] Alt text: Number of Open Incidents with Assignment Group: Analytics Settings Managers at zero for today and 5 for yesterday.
 
-**Parent Topic:**[Performance Analytics properties](../reference/pa-properties.md)
+**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/pa-properties.md)
 

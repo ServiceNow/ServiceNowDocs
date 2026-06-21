@@ -2,6 +2,7 @@
 title: Accessing the Return to Workplace knowledge articles
 description: Create or modify knowledge articles to share information across your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/safe-workplace/access-return-workplace-kb.html
 release: xanadu
 product: Safe Workplace
 classification: safe-workplace
@@ -32,5 +33,5 @@ Role required: knowledge\_admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Return to Workplace Knowledge Management](../concept/return-workplace-knowledge.md)
+**Parent Topic:**[Return to Workplace Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/return-workplace-knowledge.md)
 

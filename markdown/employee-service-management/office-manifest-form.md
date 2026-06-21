@@ -2,7 +2,10 @@
 title: Office Manifest form
 description: The Office Manifest form helps you configure a manifest file for the ServiceNow Add-in for Microsoft 365.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/office-manifest-form.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2024-09-03"
 reading_time_minutes: 1
@@ -112,5 +115,5 @@ List of domains that are allowed to access the add-in.This field is available on
 </td></tr></tbody>
 </table>**Note:** You can configure single sign-on \(SSO\) for your add-in by selecting the **Login Page not Required** field and providing the SSO domain in the **Allowed Domains** field.
 
-**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](sn-addin-for-ms365-reference.md)
+**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-addin-for-ms365-reference.md)
 

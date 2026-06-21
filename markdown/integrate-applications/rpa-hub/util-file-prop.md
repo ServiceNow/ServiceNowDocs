@@ -2,6 +2,7 @@
 title: Properties of the File components
 description: Learn about the properties of the File components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/util-file-prop.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,5 +22,5 @@ Learn about the properties of the File components in RPA Desktop Design Studio.
 |Delay After Execution|The number of seconds to pause after running.|
 |Delay Before Execution|The number of seconds to pause before running.|
 
-**Parent Topic:**[File](../concept/file.md)
+**Parent Topic:**[File](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/file.md)
 

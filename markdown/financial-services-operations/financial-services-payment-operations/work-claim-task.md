@@ -2,6 +2,7 @@
 title: Work on a claim task for an external refund
 description: Using a claim task, follow up with the third-party bank for a claim refund.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-payment-operations/work-claim-task.html
 release: xanadu
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -29,19 +30,19 @@ You can create an ad hoc claim task by navigating to the **Claim Tasks** tab of 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon\).
 
 3.  Open the claim task from a claim case or from the Claim Tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d107049e93">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d51493e93">
 
 Option
 
-</th><th align="left" id="d107049e96">
+</th><th align="left" id="d51493e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d107049e102">
+</th></tr></thead><tbody><tr><td id="d51493e102">
 
 **From a claim case**
 
@@ -52,7 +53,7 @@ Steps
 3.  In the case, click the **Claim Tasks** tab and click the claim task.
 
 
-</td></tr><tr><td id="d107049e135">
+</td></tr><tr><td id="d51493e135">
 
 **From the Claim Tasks list**
 
@@ -78,7 +79,7 @@ Steps
 
 Update the associated claim case as per the refund or information that you receive from the refund bank.
 
-**Note:** If the claim is not closed within the number of days mentioned in the **sn\_bom\_payment.claim\_follow \_up\_interval\_in\_days** [payment property](../reference/properties-installed-with-payment-operations.md), the system creates another follow-up claim task for the claim.
+**Note:** If the claim is not closed within the number of days mentioned in the **sn\_bom\_payment.claim\_follow \_up\_interval\_in\_days** [payment property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-payment-operations/properties-installed-with-payment-operations.md), the system creates another follow-up claim task for the claim.
 
-**Parent Topic:**[Work on a claim with an external refund](work-claim-with-external-refund.md)
+**Parent Topic:**[Work on a claim with an external refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-payment-operations/work-claim-with-external-refund.md)
 

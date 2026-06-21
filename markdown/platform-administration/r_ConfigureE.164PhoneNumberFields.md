@@ -2,6 +2,7 @@
 title: E.164 phone number field configuration
 description: Administrators can use the phone number system properties and dictionary attributes to do certain things.By default, phone number fields require that a phone number match the display format of the selected territory.By default, users can enter phone numbers in their territory's local format and do not have to format the number for international dialing.By default, an E.164 phone number field always displays phone numbers in an international format.A property controls how territory labels are displayed.A property is available to control the display of prefixes.By default, an E.164 phone number field always displays the phone territory that is associated with the phone number.Several properties are available to configure E.164 phone number fields.You can override the global system property with certain dictionary attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_ConfigureE.164PhoneNumberFields.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -17,7 +18,7 @@ The system properties apply the configuration option to all phone number fields 
 
 **Note:** Alpha numeric characters are not allowed and is not considered as a valid phone number.
 
-**Parent Topic:**[Phone number field type](../concept/c_UsePhoneNumberFields.md)
+**Parent Topic:**[Phone number field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UsePhoneNumberFields.md)
 
 ## Requiring territory format validation
 
@@ -25,11 +26,11 @@ By default, phone number fields require that a phone number match the display fo
 
 By default, phone number fields require that a phone number match the display format of the selected territory. If a phone number does not match this format, the input box displays a red line underneath the phone number or the whole box turns red, and users are prevented from saving it.
 
-![](../image/PhoneE164Strict.png "Phone e164 strict")
+\[Omitted image "PhoneE164Strict.png"\] Alt text:
 
 Setting the **glide.phone\_number\_e164.strict** system property to **false** or adding the **pn\_strict** dictionary attribute allows the phone number input box to display a green line underneath numbers that do not match the territory format listed for the selected territory or the whole box turns green. You can use the **Other / Unknown** territory to store otherwise invalid phone numbers.
 
-![](../image/PhoneE164NoStrict.png "Phone e164 not strict")
+\[Omitted image "PhoneE164NoStrict.png"\] Alt text:
 
 **Warning:** Switching from optional territory format validation to required territory format validation may result in some phone numbers failing validation altogether. In such cases, the E.164 phone number field displays an error message.
 
@@ -39,9 +40,9 @@ By default, users can enter phone numbers in their territory's local format and 
 
 The phone number field automatically formats local phone numbers into E.164-compliant international phone numbers when the user finishes editing the field. As long as the phone number entered matches the territory's format for a local number, users can save the phone number.
 
-![](../image/PhoneE164EntryLocal.png "Phone e164 entry local")
+\[Omitted image "PhoneE164EntryLocal.png"\] Alt text:
 
-![](../image/PhoneE164DisplayInternational.png "Phone e164 display international")
+\[Omitted image "PhoneE164DisplayInternational.png"\] Alt text:
 
 Changing the **glide.phone\_number\_e164.allow\_national\_entry** system property or adding the **pn\_allow\_national\_entry** dictionary attribute requires users to enter a phone number in the territory's international format, which starts with the plus \(+\) character. Users cannot save a locally formatted phone number, and the phone number input box displays a red line underneath phone numbers without the proper international formatting.
 
@@ -49,9 +50,9 @@ Changing the **glide.phone\_number\_e164.allow\_national\_entry** system propert
 
 By default, an E.164 phone number field always displays phone numbers in an international format.
 
-![North American phone number displaying in local format.](../image/PhoneE164DisplayInternational.png "Phone e164 display international")
+\[Omitted image "PhoneE164DisplayInternational.png"\] Alt text: North American phone number displaying in local format.
 
-Change the E.164 phone number to use the local format in certain circumstances by [adding the following system property](../../reference-pages/reference/r_AvailableSystemProperties.md#):
+Change the E.164 phone number to use the local format in certain circumstances by [adding the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md):
 
 <table id="simpletable_xsy_m3x_vz"><thead><tr><th>
 
@@ -78,7 +79,7 @@ Description
 </td></tr></tbody>
 </table>Select one of the possible values to determine how the system handles the E.164 phone number.
 
-You can also [add the following dictionary attribute](../../data-dictionary-tables/task/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
+You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
 
 <table id="simpletable_nn2_x3x_vz"><thead><tr><th>
 
@@ -105,11 +106,11 @@ A property controls how territory labels are displayed.
 
 You can display territory labels next to the number in an E.164 phone number field by setting the system property or adding the dictionary attribute. This display is useful if the territory selector choice list is turned off and you want the user to see the territory for the entered phone number.
 
-![Phone display with the phone number +44 01733 753363 and the territory label United Kingdom.](../image/E164PhoneDisplayTerritoryLabels.png "E164 phone display territory labels")
+\[Omitted image "E164PhoneDisplayTerritoryLabels.png"\] Alt text: Phone display with the phone number +44 01733 753363 and the territory label United Kingdom.
 
 Enabling territory labels also displays the phone territory in lists.
 
-[Add the following system property](../../reference-pages/reference/r_AvailableSystemProperties.md#) to display the territory label next to the number in an E.164 phone number.
+[Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md) to display the territory label next to the number in an E.164 phone number.
 
 <table id="simpletable_xsy_m3x_vz"><thead><tr><th>
 
@@ -137,7 +138,7 @@ Determines when an E.164 phone number field displays a territory label.-   **__T
     -   **none**: Does not display the territory label.
 
 </td></tr></tbody>
-</table>You can also [add the following dictionary attribute](../../data-dictionary-tables/task/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
+</table>You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
 
 <table id="simpletable_nn2_x3x_vz"><thead><tr><th>
 
@@ -164,9 +165,9 @@ A property is available to control the display of prefixes.
 
 You can enable the display of the international direct dialing prefix, which appears between the territory selector choice list and the input box for an E.164 phone number field on forms, by setting the system property or adding the dictionary attribute.
 
-![Phone display with the international direct dialing prefix before the phone number field](../image/E164PhoneDisplayIdd.png "E164 phone display idd")
+\[Omitted image "E164PhoneDisplayIdd.png"\] Alt text: Phone display with the international direct dialing prefix before the phone number field
 
-[Add the following system property](../../reference-pages/reference/r_AvailableSystemProperties.md#) to display the international direct dialing prefix.
+[Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md) to display the international direct dialing prefix.
 
 <table id="simpletable_xsy_m3x_vz"><thead><tr><th>
 
@@ -186,7 +187,7 @@ Determines whether to display the international direct dialing prefix between th
 -   Default value: false
 
 </td></tr></tbody>
-</table>You can also [add the following dictionary attribute](../../data-dictionary-tables/task/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
+</table>You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
 
 <table id="simpletable_nn2_x3x_vz"><thead><tr><th>
 
@@ -213,9 +214,9 @@ By default, an E.164 phone number field always displays the phone territory that
 
 Changing the system property or adding the dictionary attribute hides the territory selector choice list. If the territory selector choice list is hidden, users can only enter a local or national number.
 
-![Number field with no selector displayed.](../image/PhoneE164HideSelector.png "Phone e164 hide selector")
+\[Omitted image "PhoneE164HideSelector.png"\] Alt text: Number field with no selector displayed.
 
-[Add the following system property](../../reference-pages/reference/r_AvailableSystemProperties.md#) to show or hide the territory selector choice list.
+[Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md) to show or hide the territory selector choice list.
 
 <table id="simpletable_xsy_m3x_vz"><thead><tr><th>
 
@@ -235,7 +236,7 @@ Determines whether to display the territory selector choice list. Hiding the ter
 -   Default value: true
 
 </td></tr></tbody>
-</table>You can also [add the following dictionary attribute](../../data-dictionary-tables/task/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
+</table>You can also [add the following dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md) to a specific field to override the system property:
 
 <table id="simpletable_nn2_x3x_vz"><thead><tr><th>
 
@@ -282,7 +283,7 @@ Determines whether all phone number fields must match the display format for the
 
  -   Type: true \| false
 -   Default value: true
--   Location: [Add](../../reference-pages/reference/r_AvailableSystemProperties.md#) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -294,7 +295,7 @@ Determines whether users can enter phone numbers in the local format or whether 
 
  -   Type: true \| false
 -   Default value: true
--   Location: [Add](../../reference-pages/reference/r_AvailableSystemProperties.md#) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -307,9 +308,9 @@ Determines whether to display E.164 phone numbers in local format.-   Type: stri
 -   Other possible values:
     -   **true or form**: Displays phone numbers in a local format on forms, but displays an international format on lists.
     -   **all**: Always displays phone numbers in a local format.
-    -   **user**: Only displays phone numbers in a local format when the phone number matches the local setting of the current user. The local setting of the current user is determined by the location associated with the [user record](../../users-and-groups/task/t_CreateAUser.md).
+    -   **user**: Only displays phone numbers in a local format when the phone number matches the local setting of the current user. The local setting of the current user is determined by the location associated with the [user record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/user-administration/t_CreateAUser.md).
     -   **false**: Does not display phone numbers in local format.
--   Location: [Add](../../reference-pages/reference/r_AvailableSystemProperties.md#) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -319,7 +320,7 @@ glide.phone\_number\_e164.display\_territory\_selector
 
 Determines whether to display the territory selector choice list. Hiding the territory selector choice list restricts users to entering only local or national phone numbers.-   Type: true \| false
 -   Default value: true
--   Location: [Add](../../reference-pages/reference/r_AvailableSystemProperties.md#) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -337,7 +338,7 @@ Determines when an E.164 phone number field displays a territory label.-   Type:
     -   **list**: Displays the territory label in a list.
     -   **list-national**: Displays the territory label in a list if the number is in national format.
     -   **none**: Does not display the territory label.
--   Location: [Add](../../reference-pages/reference/r_AvailableSystemProperties.md#) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -347,7 +348,7 @@ glide.phone\_number\_e164.display\_users\_idd
 
 Determines whether to display the international direct dialing prefix between the territory selector choice list and the input field on forms.-   Type: true \| false
 -   Default value: false
--   Location: [Add](../../reference-pages/reference/r_AvailableSystemProperties.md#) to the System Properties \[sys\_properties\] table.
+-   Location: [Add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AvailableSystemProperties.md) to the System Properties \[sys\_properties\] table.
 
 </td></tr></tbody>
 </table>## E.164 phone number field dictionary attributes

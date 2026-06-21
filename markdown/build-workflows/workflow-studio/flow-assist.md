@@ -2,6 +2,7 @@
 title: Exploring Flow Assist
 description: Use Flow Assist to generate flows from text prompts and to generate recommendations for the next step of a flow. Flow Assist is part of the Now Assist for Creator application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/flow-assist.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -19,8 +20,8 @@ Use Flow Assist to generate flows from text prompts and to generate recommendati
 
 Flow Assist offers generative AI capabilities to flow authors.
 
--   The Flow generation skill lets flow authors create or edit a flow from text prompts. See [Flow generation](flow-generation.md) for more information about this skill.
--   The Flow recommendation skill provides flow authors with recommendations for the next step in their flow. See [Flow recommendations](flow-recommendations.md) for more information about this skill.
+-   The Flow generation skill lets flow authors create or edit a flow from text prompts. See [Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-generation.md) for more information about this skill.
+-   The Flow recommendation skill provides flow authors with recommendations for the next step in their flow. See [Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-recommendations.md) for more information about this skill.
 
 ## Supported versions
 
@@ -35,10 +36,10 @@ The Now Assist for Creator application supports Flow Assist skills in these user
 |Workflow Studio properties for a new flow or subflow|Flow generation|
 |Workflow Studio design environment|Flow recommendations|
 
--   **[Flow generation](flow-generation.md)**  
+-   **[Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-generation.md)**  
 Create multi-step flows with generative AI. Generate appropriate data pill values for supported flow triggers and action inputs.
--   **[Flow recommendations](flow-recommendations.md)**  
+-   **[Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-recommendations.md)**  
 Select the next component in your flow from a list of AI-generated recommendations. The system generates recommendations based on the current position in the flow and the flow component names listed before.
 
-**Parent Topic:**[Flow Assist](../reference/flow-assist-landing.md)
+**Parent Topic:**[Flow Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-assist-landing.md)
 

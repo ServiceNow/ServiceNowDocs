@@ -2,11 +2,12 @@
 title: Setting a concurrent session limit by user or role
 description: You can set a concurrent session limit on a specific user or on a particular role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/set-session-limit-user-role.html
 release: xanadu
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Limit concurrent sessions, Authentication, Access Management]
 ---

@@ -2,6 +2,7 @@
 title: Execute a full scan
 description: Execute a scan for the entire instance by selecting Execute Full Scan. Implementing a full scan runs all the active checks present in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-execute-full-scan.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan
@@ -27,7 +28,7 @@ Role required: admin
 
     The progress tracker shows the status of the scan.
 
-    ![Image showing full scan progress tracker](../image/hs-progress-worker.png)
+    \[Omitted image "hs-progress-worker.png"\] Alt text: Image showing full scan progress tracker
 
     **Note:** Running of multiple full scans simultaneously is not allowed. If two or more checks overlap during full scan execution, only the first check succeeds. The first check keeps running while the other overlapping checks fail immediately.
 

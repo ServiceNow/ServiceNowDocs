@@ -2,6 +2,7 @@
 title: View Configuration Compliance test groups
 description: Once you have imported the results of a third-party scan into your instance, you can see your test compliance at the test group level. Use this view before an audit of that test group and any associated test records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/view-vuln-config-compl-policies.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -146,9 +147,9 @@ The values represent CIs from all active test results \(any state other than **C
 
     Starting with v23.0 of Vulnerability Response:
 
-    -   You can enable or disable the import of test results for a Qualys test group in the Vulnerability Manager Workspace. For more information, see [Enable or disable the import of test results for a Qualys test group](enable-disable-imports-qualys.md).
+    -   You can enable or disable the import of test results for a Qualys test group in the Vulnerability Manager Workspace. For more information, see [Enable or disable the import of test results for a Qualys test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/vulnerability-manager-workspace/enable-disable-imports-qualys.md).
     -   The **Mark deprecated** button is renamed to **Disable import**.
     -   The **Is deprecated** column is renamed to **Is import disabled**.
 
-**Parent Topic:**[Configuration Compliance reference information](../reference/cc-reference-info.md)
+**Parent Topic:**[Configuration Compliance reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-reference-info.md)
 

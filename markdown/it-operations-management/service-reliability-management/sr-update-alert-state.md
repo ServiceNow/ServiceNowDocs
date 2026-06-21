@@ -2,6 +2,7 @@
 title: Update the state of one or more SRM alerts
 description: If the state of an alert must be changed, you can manually update it to reflect its new status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-update-alert-state.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,21 +28,21 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Select the **Alerts** tab.
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d90554e101">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d90032e101">
 
 Option
 
-</th><th align="left" id="d90554e104">
+</th><th align="left" id="d90032e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d90554e110">
+</th></tr></thead><tbody><tr><td id="d90032e110">
 
 **In the alert list view**
 
@@ -53,7 +54,7 @@ Description
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d90554e141">
+</td></tr><tr><td id="d90032e141">
 
 **In the alert form**
 
@@ -65,10 +66,10 @@ Description
 
 
 </td></tr></tbody>
-</table>    For value choices, see [SRM alert states](../reference/sr-alerts-states.md).
+</table>    For value choices, see [SRM alert states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-alerts-states.md).
 
     The updated state is displayed in the alert and the alert list view.
 
 
-**Parent Topic:**[Working with alerts in SRM](../concept/sr-work-alerts.md)
+**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-alerts.md)
 

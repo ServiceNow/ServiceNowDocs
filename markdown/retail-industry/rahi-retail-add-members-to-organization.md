@@ -2,6 +2,7 @@
 title: Add members to a retail organization
 description: Add members to your organization to enable them to view and complete tasks within your retail organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-add-members-to-organization.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -101,5 +102,5 @@ This member's role. Options are: -   Area manager
 
 ## What to do next
 
-Ensure that this member has the appropriate role. For more information, see [Assign roles to Retail Core users](../task/rahi-retail-assign-roles-users.md).
+Ensure that this member has the appropriate role. For more information, see [Assign roles to Retail Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-assign-roles-users.md).
 

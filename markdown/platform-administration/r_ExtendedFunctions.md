@@ -2,6 +2,7 @@
 title: Extended functions in HTML field editor
 description: The extended functions available for working with HTML content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_ExtendedFunctions.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -39,7 +40,7 @@ Accordion\*
 
 </td><td>
 
-![TinyMCE v6.8.3 Accordion](../image/TinyMCEV6-accordion_icon.png)
+\[Omitted image "TinyMCEV6-accordion\_icon.png"\] Alt text: TinyMCE v6.8.3 Accordion
 
 </td><td>
 
@@ -51,11 +52,11 @@ Add character map\*
 
 </td><td>
 
-![Spec Char html](../image/SpecCharHTML.png)
+\[Omitted image "SpecCharHTML.png"\] Alt text: Spec Char html
 
 </td><td>
 
-![TinyMCE v6.8.3 Add character map](../image/TinyMCEV6-add-character-map_icon.png)
+\[Omitted image "TinyMCEV6-add-character-map\_icon.png"\] Alt text: TinyMCE v6.8.3 Add character map
 
 </td><td>
 
@@ -71,7 +72,7 @@ Anchor\*
 
 </td><td>
 
-![TinyMCE v6.8.3 Anchor](../image/TinyMCEv6-anchor_icon.png)
+\[Omitted image "TinyMCEv6-anchor\_icon.png"\] Alt text: TinyMCE v6.8.3 Anchor
 
 </td><td>
 
@@ -83,7 +84,7 @@ Cleanup Messy Code
 
 </td><td>
 
-![Cleanup html](../image/CleanupHTML.png)
+\[Omitted image "CleanupHTML.png"\] Alt text: Cleanup html
 
 </td><td>
 
@@ -99,15 +100,15 @@ Edit HTML Source/Code
 
 </td><td>
 
-![Html editor button](../image/HTMLEditorButton.png)
+\[Omitted image "HTMLEditorButton.png"\] Alt text: Html editor button
 
 </td><td>
 
-![TinyMCE v6.8.3 Code](../image/TinyMCEV6-code_icon.png)
+\[Omitted image "TinyMCEV6-code\_icon.png"\] Alt text: TinyMCE v6.8.3 Code
 
 </td><td>
 
-Opens HTML source code in a separate window. See [Editing in HTML Source Mode](../concept/c_UseHTMLFields.md).
+Opens HTML source code in a separate window. See [Editing in HTML Source Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UseHTMLFields.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +120,7 @@ Emoticons\*
 
 </td><td>
 
-![TinyMCE v6.8.3 Emoticons](../image/TinyMCEV6-emoticons_icon.png)
+\[Omitted image "TinyMCEV6-emoticons\_icon.png"\] Alt text: TinyMCE v6.8.3 Emoticons
 
 </td><td>
 
@@ -135,7 +136,7 @@ Insert date/time\*
 
 </td><td>
 
-![TinyMCE v6.8.3 Insert date/time](../image/TinyMCEV6-insertdatetime_icon.png)
+\[Omitted image "TinyMCEV6-insertdatetime\_icon.png"\] Alt text: TinyMCE v6.8.3 Insert date/time
 
 </td><td>
 
@@ -147,15 +148,15 @@ Insert/Edit Embedded Media
 
 </td><td>
 
-![Media html](../image/MediaHTML.png)
+\[Omitted image "MediaHTML.png"\] Alt text: Media html
 
 </td><td>
 
-![TinyMCE v6.8.3 Embed media](../image/TinyMCEV6-embed_icon.png)
+\[Omitted image "TinyMCEV6-embed\_icon.png"\] Alt text: TinyMCE v6.8.3 Embed media
 
 </td><td>
 
-Embeds a video from the video library or an attachment. You can also add videos to the video library with this feature. To learn more, see [Embedding Video in HTML Fields](../task/t_EmbeddingVideoInHTMLFields.md).
+Embeds a video from the video library or an attachment. You can also add videos to the video library with this feature. To learn more, see [Embedding Video in HTML Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_EmbeddingVideoInHTMLFields.md).
 
 </td></tr><tr><td>
 
@@ -163,15 +164,15 @@ Insert/Edit Image
 
 </td><td>
 
-![Image html](../image/ImageHTML.png)
+\[Omitted image "ImageHTML.png"\] Alt text: Image html
 
 </td><td>
 
-![TinyMCE v6.8.3 Image](../image/TinyMCEV6-image_icon.png)
+\[Omitted image "TinyMCEV6-image\_icon.png"\] Alt text: TinyMCE v6.8.3 Image
 
 </td><td>
 
-Inserts an image from the image library or an attachment. You can also add images to the image library with this feature. To learn more, see [Embedding Images in HTML Fields](../task/t_EmbeddingImagesInHTMLFields.md).
+Inserts an image from the image library or an attachment. You can also add images to the image library with this feature. To learn more, see [Embedding Images in HTML Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_EmbeddingImagesInHTMLFields.md).
 
 </td></tr><tr><td>
 
@@ -179,11 +180,11 @@ Insert/Edit Link
 
 </td><td>
 
-![Link html](../image/LinkHTML.png)
+\[Omitted image "LinkHTML.png"\] Alt text: Link html
 
 </td><td>
 
-![TinyMCE v6.8.3 Link](../image/TinyMCEV6-link_icon.png)
+\[Omitted image "TinyMCEV6-link\_icon.png"\] Alt text: TinyMCE v6.8.3 Link
 
 </td><td>
 
@@ -197,7 +198,7 @@ Insert Horizontal Line
 
 </td><td>
 
-![Hr html](../image/HrHTML.png)
+\[Omitted image "HrHTML.png"\] Alt text: Hr html
 
 </td><td>
 
@@ -213,7 +214,7 @@ Preview\*
 
 </td><td>
 
-![Preview html](../image/PreviewHTML.png)
+\[Omitted image "PreviewHTML.png"\] Alt text: Preview html
 
 </td><td>
 
@@ -233,7 +234,7 @@ Print\*
 
 </td><td>
 
-![TinyMCE v6.8.3 Print](../image/TinyMCEV6-print_icon.png)
+\[Omitted image "TinyMCEV6-print\_icon.png"\] Alt text: TinyMCE v6.8.3 Print
 
 </td><td>
 
@@ -245,11 +246,11 @@ Remove link\*
 
 </td><td>
 
-![Unlink html](../image/UnlinkHTML.png)
+\[Omitted image "UnlinkHTML.png"\] Alt text: Unlink html
 
 </td><td>
 
-![TinyMCE v6.8.3 Unlink](../image/TinyMCEV6-unlink_icon.png)
+\[Omitted image "TinyMCEV6-unlink\_icon.png"\] Alt text: TinyMCE v6.8.3 Unlink
 
 </td><td>
 
@@ -261,7 +262,7 @@ Spell Checker
 
 </td><td>
 
-![Spell html](../image/SpellHTML.png)
+\[Omitted image "SpellHTML.png"\] Alt text: Spell html
 
 </td><td>
 
@@ -277,11 +278,11 @@ Toggle Full Screen Mode\*
 
 </td><td>
 
-![Full screen html](../image/FullScreenHTML.png)
+\[Omitted image "FullScreenHTML.png"\] Alt text: Full screen html
 
 </td><td>
 
-![TinyMCE v6.8.3 Full screen](../image/TinyMCEV6-fullscreen_icon.png)
+\[Omitted image "TinyMCEV6-fullscreen\_icon.png"\] Alt text: TinyMCE v6.8.3 Full screen
 
 </td><td>
 
@@ -297,7 +298,7 @@ Visual blocks\*
 
 </td><td>
 
-![TinyMCE v6.8.3 Visual blocks](../image/TinyMCEV6-blocks_icon.png)
+\[Omitted image "TinyMCEV6-blocks\_icon.png"\] Alt text: TinyMCE v6.8.3 Visual blocks
 
 </td><td>
 
@@ -309,7 +310,7 @@ Visual chars\*
 
 </td><td>
 
-![Toggle guides html](../image/ToggleGuidesHTML.png)
+\[Omitted image "ToggleGuidesHTML.png"\] Alt text: Toggle guides html
 
 </td><td>
 
@@ -322,18 +323,18 @@ Shows or hides invisible elements in the article, such as collapsed table border
 </td></tr></tbody>
 </table>**Note:** \*These options aren’t available with htmlArea.
 
--   **[Embed images in the HTML editor](../task/t_EmbeddingImagesInHTMLFields.md)**  
+-   **[Embed images in the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_EmbeddingImagesInHTMLFields.md)**  
 You can use the HTML field image picker to embed images into HTML fields, and to add images to the image library.
--   **[Link a website in HTML editor](../task/t_LinkingToAWebsiteInHTMLFields.md)**  
+-   **[Link a website in HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_LinkingToAWebsiteInHTMLFields.md)**  
 You can insert a link to a website in an HTML field.
--   **[Embed videos in the HTML editor](../task/t_EmbeddingVideoInHTMLFields.md)**  
+-   **[Embed videos in the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_EmbeddingVideoInHTMLFields.md)**  
 You can insert videos into HTML fields. You can also add videos to the video library using the HTML Insert/Modify Video form.
--   **[Define video file types for HTML fields](../task/t_DefineVideoTypesForHTMLFields.md)**  
+-   **[Define video file types for HTML fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_DefineVideoTypesForHTMLFields.md)**  
 You can define the types of video files that can be added to HTML fields.
--   **[Disable user access to the image library for HTML area](../../../administer/form-administration/task/t_ModifyImageUploads.md)**  
+-   **[Disable user access to the image library for HTML area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ModifyImageUploads.md)**  
 By default, users can use and upload images to the image library from an HTML field. You can disable access to the image library from HTML fields. This is only applicable to HTML area and not TinyMCE.
--   **[Configure accordion in TinyMCE HTML editor](../../../administer/form-administration/task/add-accordion-in-tinymce-html-editor.md)**  
+-   **[Configure accordion in TinyMCE HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/add-accordion-in-tinymce-html-editor.md)**  
 You can enable the accordion on the TinyMCE HTML editor in both CoreUI and workspaces. When enabled, the accordion button appears on the HTML editor and can be used to expand/collapse content.
 
-**Parent Topic:**[Configure the HTML toolbar](../../../administer/form-administration/task/t_ConfigureTheTinyMCEHTMLToolbar.md)
+**Parent Topic:**[Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md)
 

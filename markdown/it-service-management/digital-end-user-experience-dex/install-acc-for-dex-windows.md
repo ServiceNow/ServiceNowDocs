@@ -2,6 +2,7 @@
 title: Install ACC for DEX on Windows
 description: Install Agent Client Collector \(ACC\) to work with Digital End-User Experience \(DEX\) to monitor and collect data, provide insights into system performance, identify issues, and enable proactive maintenance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -105,8 +106,8 @@ Optional string. To disable verification of the installer certification validati
 4.  To collect DEX metrics, restart the ACC service using one of the following methods:
 
     -   Add **Remote Desktop user** to ServiceNow user.
-    -   [Run as a local system account user](run-acc-local-sys-account.md).
-    -   [Run as a managed group user](run-acc-as-managed-group-user.md).
+    -   [Run as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/run-acc-local-sys-account.md).
+    -   [Run as a managed group user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/run-acc-as-managed-group-user.md).
 5.  Restart the Agent Client Collector service.
 
 

@@ -2,6 +2,7 @@
 title: Add details to a quote
 description: Use the Details tab to add basic information to a quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/quote-management-details-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All** and select your quote.
 
@@ -65,7 +66,7 @@ The **State** option contains options for tracking the quote status.-   Draft - 
 -   Expired - Shows that the quote is beyond its expiration date. Reset the expiration date to make the quote active again.
 -   Canceled - Use this state to show that the quote is canceled.
 -   Closed - Shows that the quote is closed.
--   Completed - Shows that the quote is completed. When a quote is set to **Completed**, the quote can be used to create an order. If Sales agreement is selected, the quote can be using to create a sales agreement. For more info, see [Convert quotes into orders](quote-management-customer-orders-tab.md) and [Enable a sales agreement in a quote](quote-create-sales-agreement.md).
+-   Completed - Shows that the quote is completed. When a quote is set to **Completed**, the quote can be used to create an order. If Sales agreement is selected, the quote can be using to create a sales agreement. For more info, see [Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-management-customer-orders-tab.md) and [Enable a sales agreement in a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-create-sales-agreement.md).
 -   Rejected - Managers can reject quotes if there are errors or other issues. Rejected quotes can be returned to a draft state to fix any errors.
 
 
@@ -117,7 +118,7 @@ Enable Sales Agreement quote option
 
 Option indicating that you want the quote to generate a sales agreement. The quote can't have any line items. Add line items once the option is selected. When the quote state is changed to Complete, the Create Sales Agreement button appears. If you select the **Enable sales agreement quote** option, also add an **Agreement start date** and **Agreement end date**.
 
-See [Create a sales agreement](create-new-sales-agreement.md) for more information.
+See [Create a sales agreement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-new-sales-agreement.md) for more information.
 
 </td></tr><tr><td>
 

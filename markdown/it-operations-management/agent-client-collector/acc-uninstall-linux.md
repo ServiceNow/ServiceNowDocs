@@ -2,6 +2,7 @@
 title: Uninstall Agent Client Collector from a Linux system using a single-line command
 description: Uninstall the Agent Client Collector from a Linux machine by running an efficient single-line command. If the script is not connected to the instance, you might have to uninstall Agent Client Collector manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-uninstall-linux.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -28,5 +29,5 @@ Role required: agent\_client\_collector\_admin
     **Note:** Uninstalling the Agent Client Collector removes the `acc.yml` file and its directory from your machine.
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

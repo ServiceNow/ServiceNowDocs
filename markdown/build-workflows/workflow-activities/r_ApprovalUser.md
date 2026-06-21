@@ -2,6 +2,7 @@
 title: Approval - User workflow activity
 description: The Approval - User activity creates one or more individual user approvals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-activities/r\_ApprovalUser.html
 release: xanadu
 product: Workflow Activities
 classification: workflow-activities

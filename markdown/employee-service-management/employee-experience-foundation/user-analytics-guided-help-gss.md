@@ -2,6 +2,7 @@
 title: Guided Self-Service user experience analytics
 description: Visually analyze Guided Self-Service usage, user behavior, and other information from the user experience dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/user-analytics-guided-help-gss.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,7 +32,7 @@ The dashboard provides the following metrics:
 -   **Retention**: Indicates the retention info.
 -   **Funnel**: Indicates the funnel details based on the user.
 
-![Guided Self-Service dashboard for illustration](../images/user-exp-analytics-guided-self-service.png "User experience analytics dashboard - Guided Self-Service")
+\[Omitted image "user-exp-analytics-guided-self-service.png"\] Alt text: Guided Self-Service dashboard for illustration
 
 ## User and roles
 
@@ -61,17 +62,17 @@ Events list can help you understand usage patterns, features popularity, and ide
 -   PLAYBOOK\_COMPLETED: A guided process \(playbook\) that the user completed.
 -   Guided Self-service Action clicked: The action button that the user clicked.
 
-For more information, see [Events](https://www.servicenow.com/docs/access?context=view-events&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+For more information, see .
 
 ## Funnel analysis
 
 A funnel analysis shows the percentage of users who completed a desired Guided Self-Service action along a critical path. Funnel reports show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific Guided Self-Service flow.
 
-For more information, see [Funnel reports in User Experience Analytics](https://www.servicenow.com/docs/access?context=funnel-reports-uxa&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+For more information, see .
 
 ## Retention
 
 View data such as how many new users you have and how many returned. User retention data also shows you the frequency of user sessions and the average time in between sessions given a certain time period.
 
-For more information, see [User retention](https://www.servicenow.com/docs/access?context=view-retention-analytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+For more information, see .
 

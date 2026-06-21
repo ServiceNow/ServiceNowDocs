@@ -2,7 +2,10 @@
 title: Create dependencies between work order tasks
 description: If a work order contains multiple tasks, you can create dependencies between the tasks that determine the order in which tasks are performed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_SetAnUpstreamTask.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ If a work order contains multiple tasks, you can create dependencies between the
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## About this task
 
@@ -61,5 +64,5 @@ To set up dependencies:
 
 With this work order tasks dependency, the system requires the "Install Server" task to be completed before the "Configure Server" task can begin.
 
-**Parent Topic:**[Managing work order tasks](../concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Managing work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_WorkOrderTasks.md)
 

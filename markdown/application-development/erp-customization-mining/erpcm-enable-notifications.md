@@ -2,12 +2,13 @@
 title: Configure notifications for ERP-CM tasks
 description: Enable notifications to find out when ERP Customization Mining \(ERP-CM\) succeeds or fails in a mining job for the ERP \(Enterprise Resource Planning\) system of record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-enable-notifications.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: task
 last_updated: "2024-08-01"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configuring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
@@ -17,19 +18,19 @@ Enable notifications to find out when ERP Customization Mining \(ERP-CM\) succee
 
 ## Before you begin
 
-Before you can set up notifications for yourself, your admin must add you to the ERP Customization Mining Notification group. For more information, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Before you can set up notifications for yourself, your admin must add you to the ERP Customization Mining Notification group. For more information, see .
 
 Role required: sn\_erp\_mining.erp\_admin, sn\_erp\_mining.erp\_user
 
 ## About this task
 
-For general information on preferences, see [System and custom notification and delivery channel preferences in Next Experience](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For general information on preferences, see .
 
 ## Procedure
 
 1.  From your user profile, navigate to **Preferences**.
 
-    ![Navigate to user preferences](../image/erpcm-user-preferences.png)
+    \[Omitted image "erpcm-user-preferences.png"\] Alt text: Navigate to user preferences
 
 2.  Select the **Notifications** card.
 
@@ -37,7 +38,7 @@ For general information on preferences, see [System and custom notification and 
 
 4.  Select the open in new tab icon for **Custom Notifications**.
 
-    ![ERP-CM notifications are in the Custom notifications](../image/erpcm-select-custom-prefs.png "Open custom notifications")
+    \[Omitted image "erpcm-select-custom-prefs.png"\] Alt text: ERP-CM notifications are in the Custom notifications
 
 5.  Select the **Create notification** button.
 
@@ -70,7 +71,7 @@ Select the notification that you want. The options are:-   **ERP Extraction Comp
 
 
 </td></tr></tbody>
-</table>    ![Enter notification preferences in the modal](../image/erpcm-notification-dialog.png)
+</table>    \[Omitted image "erpcm-notification-dialog.png"\] Alt text: Enter notification preferences in the modal
 
 7.  Select the **Next** button.
 
@@ -93,5 +94,5 @@ Select the notification that you want. The options are:-   **ERP Extraction Comp
 
 The notification email you receive contains a link that takes you to the record for the customization mining job. You can view the progress of its tasks by selecting the **Show training progress** Related Link. The tasks there also appear in the Connection tasks overview list on the **Overview** tab of the Connection status page. You could then select to **Show matching** on a day's **Task period** value in the Connection tasks overview list to see the status of all tasks for that day.
 
-**Parent Topic:**[Configuring ERP Customization Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/configuring-ecm.md)
 

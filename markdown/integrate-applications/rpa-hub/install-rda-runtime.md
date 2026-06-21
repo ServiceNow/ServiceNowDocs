@@ -2,6 +2,7 @@
 title: Install Attended Robot
 description: You can install the Attended Robot application in your Windows machine if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/install-rda-runtime.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -39,7 +40,7 @@ The recommended requirements are as follows:
 
 An attended robot is mapped to only one user.
 
-Download and unzip the installation file for the Attended Robot application. For more information, see [Download the RPA applications from RPA Hub](../../rpa-hub/task/download-installer-rpa.md).
+Download and unzip the installation file for the Attended Robot application. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/download-installer-rpa.md).
 
 Microsoft Edge WebView2 Runtime is a prerequisite for the ServiceNow login screen to work with RPA users. The Microsoft Edge WebView2 Runtime is installed by default with only specific releases of Windows 10 OS. If it is not available, ensure to install the Microsoft Edge WebView2 Runtime.
 
@@ -68,5 +69,5 @@ You can see the Attended Robot icon on your desktop.
 
 ## What to do next
 
-Set up the Attended Robot application. For more information, see [Set up Attended Robot](set-up-rda-runtime.md).
+Set up the Attended Robot application. For more information, see [Set up Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/set-up-rda-runtime.md).
 

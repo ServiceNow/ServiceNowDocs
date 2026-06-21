@@ -2,7 +2,10 @@
 title: Get a custom add-in for Microsoft Outlook
 description: Get the custom add-in for your Microsoft Outlook client to use the features configured by your admin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/custom-addin-outlook.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-04"
 reading_time_minutes: 1
@@ -38,5 +41,5 @@ Role required: None
 
 The custom add-in is added to your Microsoft Outlook client. You can use it to request catalog items or open incidents and cases based on your emails.
 
-**Parent Topic:**[Using ServiceNow Add-in for Microsoft 365](../concept/using-sn-addin-for-ms365.md)
+**Parent Topic:**[Using ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/using-sn-addin-for-ms365.md)
 

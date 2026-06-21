@@ -2,7 +2,10 @@
 title: ServiceNow for Microsoft Teams integration API permissions for Notify connector and Meeting Extensions
 description: Following are API permissions requested by the ServiceNow integration with Microsoft Teams for Notify connector and Meeting Extensions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/nc-meeting-ext-api-permissions.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -90,5 +93,5 @@ TeamsTab.ReadWriteForChat.All \(Application\)
 Permission allows the app to open a tab with incident details within a meeting as part of Meeting Extensibility.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow for Microsoft Teams reference](../../sn-teams/reference/reference-sn-teams.md)
+</table>**Parent Topic:**[ServiceNow for Microsoft Teams reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/reference-sn-teams.md)
 

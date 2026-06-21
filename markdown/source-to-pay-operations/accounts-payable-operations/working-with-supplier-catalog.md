@@ -2,6 +2,7 @@
 title: Working with Supplier Catalog
 description: Supplier uses the Supplier Catalog to submit new invoice inquiry and invoice to the Accounts Payable Operations team to evaluate and resolve the cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -19,13 +20,13 @@ Supplier can perform the following actions in the **Supplier Catalog** &gt;**Inv
 
 **Note:** You can also select **Raise a request** option in the Supplier Collaboration Portal header to perform the following actions.
 
--   [Submit Invoice Inquiry](../task/submit-invoice-inquiry-case.md)
--   [Submit new Invoice](../task/submit-new-invoice.md)
+-   [Submit Invoice Inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md)
+-   [Submit new Invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.md)
 
--   **[Submit Invoice Inquiry](../task/submit-invoice-inquiry-case.md)**  
+-   **[Submit Invoice Inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md)**  
 Supplier uses the Supplier Collaboration Portal to create an inquiry related to an invoice and submits it to the Accounts Payable Operations team to evaluate and resolve the inquiry.
--   **[Submit new Invoice](../task/submit-new-invoice.md)**  
+-   **[Submit new Invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.md)**  
 Supplier creates and submits an invoice requesting for payment from Accounts Payable Operations team. The invoices are of type PO-invoice or Non-PO invoice.
 
-**Parent Topic:**[Using Supplier Collaboration Portal in APO](using-supplier-collaboration-portal.md)
+**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 

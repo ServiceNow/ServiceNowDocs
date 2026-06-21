@@ -2,6 +2,7 @@
 title: Exploring Financial Services Customer Lifecycle Operations
 description: You can use Financial Services Customer Lifecycle Operations to simplify and streamline the management of business and consumer accounts throughout their entire customer life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-customer-lifecycle-operations/explore-customer-lifecycle-ops.html
 release: xanadu
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations

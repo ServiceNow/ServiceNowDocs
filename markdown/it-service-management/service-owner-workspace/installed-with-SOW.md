@@ -2,6 +2,7 @@
 title: Installed with Service Owner Workspace
 description: Service Owner Workspace automatically activates the Service Portfolio Management Premium plugin \(com.snc.spm\). Service Portfolio Management Premium installs the following components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/installed-with-SOW.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -15,9 +16,9 @@ breadcrumb: [Activate Service Owner Workspace, Setting up Service Owner Workspac
 
 Service Owner Workspace automatically activates the Service Portfolio Management Premium plugin \(com.snc.spm\). Service Portfolio Management Premium installs the following components.
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](../concept/SPM2-premium.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md).
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Service Portfolio Management Premium
 

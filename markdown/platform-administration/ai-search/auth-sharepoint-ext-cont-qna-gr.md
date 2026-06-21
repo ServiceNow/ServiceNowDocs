@@ -2,6 +2,7 @@
 title: Sign in to Microsoft SharePoint Online to authorize External Content Q&amp;A Genius Results
 description: Obtain an OAuth 2.0 token from Microsoft SharePoint Online so that External Content Q&amp;A Genius Results can find documents and generate answers when you search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/auth-sharepoint-ext-cont-qna-gr.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -43,5 +44,5 @@ Perform this task to generate a valid OAuth 2.0 token in Microsoft SharePoint On
     **Note:** External Content Q&amp;A Genius Results respect your Microsoft SharePoint Online user profile security settings. If you're not seeing an expected Genius Result answer, it's a good idea to check with your Microsoft SharePoint Online administrator to make sure you have access to the appropriate source documents.
 
 
-**Parent Topic:**[External Content Q&amp;A Genius Results](../concept/external-content-qna.md)
+**Parent Topic:**[External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/external-content-qna.md)
 

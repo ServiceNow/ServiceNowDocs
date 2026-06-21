@@ -2,6 +2,7 @@
 title: View campaign targets
 description: Use campaign targets to view a list of employees that your campaign has targeted, their status, and the date they were added.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/manage-campaign-targets.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,5 +29,5 @@ Role required: sn\_ca.campaign\_manager, sn\_cd.content\_admin
     The campaign target list appears with the date the user was added, the user, the campaign the user is assigned, and if the campaign is active.
 
 
-**Parent Topic:**[Analyzing your campaign for effectiveness](../concept/ecpro-content-automation-reevaluate-audience.md)
+**Parent Topic:**[Analyzing your campaign for effectiveness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-content-automation-reevaluate-audience.md)
 

@@ -2,6 +2,7 @@
 title: Migrate event data to new summary tables
 description: You can migrate old sensor event data from the existing tables to the new summary data tables using the OnDemandDataMigration scheduled job. This job summarizes daily aggregated data based on specified criteria such as day-wise, location hierarchy-wise, and business entity-wise for occupancy, environment, badging, and Wi-Fi data. The summarized data is stored in the new Space Occupancy Daily Summary Data, Wi-Fi Daily Summary Data, Environmental Daily Summary Data, and Environmental Hourly Summary Data tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-connectors/migrate-data-from-old-tables-to-new-summary-tables.html
 release: xanadu
 product: Workplace Connectors
 classification: workplace-connectors
@@ -30,5 +31,5 @@ Role required: admin
 4.  Select **Execute Now**.
 
 
-**Parent Topic:**[Workplace Connectors Data Summarization](../concept/data-summarization.md)
+**Parent Topic:**[Workplace Connectors Data Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/data-summarization.md)
 

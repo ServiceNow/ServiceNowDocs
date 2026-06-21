@@ -2,6 +2,7 @@
 title: Manage the source document import tasks
 description: Manage the source document tasks, the associated source document alerts, and other relevant details in the Regulatory Change Tasks module. Use these tasks to identify and comply with the source document changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/regulatory-change-management-service-portal/manage-source-document-import-tasks.html
 release: xanadu
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

@@ -2,6 +2,7 @@
 title: Disable function field creation
 description: Configure a system property to remove the ability to create function fields in the Report Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/reporting/disable-function-field-creation.html
 release: xanadu
 product: Reporting
 classification: reporting
@@ -36,5 +37,5 @@ Role required: admin.
 
 The option to configure function fields does not appear in the Report Designer for any user.
 
-**Parent Topic:**[Report on function fields](../concept/function-fields-reporting.md)
+**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/function-fields-reporting.md)
 

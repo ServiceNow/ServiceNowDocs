@@ -2,6 +2,7 @@
 title: Available actions
 description: Before you can use any ServiceNow application, you must verify that you have entitlement to it, meaning that you have valid licenses to use it. Then, you can install the application and its plugins from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/app-installation.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ Before you can use any ServiceNow application, you must verify that you have ent
 
 **Note:** The information in this section describes using the legacy or classic application manager experience.
 
-A new Application Manager experience is now available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all your licensed applications, plugins, installed applications, and available updates. For more information, see [Application Manager](../../../administer/application-manager/concept/application-manager.md).
+A new Application Manager experience is now available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all your licensed applications, plugins, installed applications, and available updates. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/application-manager.md).
 
 <table id="table_f33_lrm_cr"><thead><tr><th>
 
@@ -125,5 +126,5 @@ None
 Edit a legacy application.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Legacy Application Manager](exploring-legacy-application-manager.md)
+</table>**Parent Topic:**[Exploring Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/exploring-legacy-application-manager.md)
 

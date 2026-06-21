@@ -2,6 +2,7 @@
 title: Enable support for right-to-left languages
 description: When the session language is a right-to-left language, the direction of the portal user interface is mirrored to display from right to left.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ec-direction-right-to-left-languages.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ When the session language is a right-to-left language, the direction of the port
 
 ## Before you begin
 
-Understand how the UI works for a right-to-left language, see [CSS for right-to-left languages in portals](https://servicenow.com/docs/bundle/vancouver-platform-user-interface/page/build/service-portal/concept/css-directives-right-to-left-languages.html).
+Understand how the UI works for a right-to-left language, see CSS for right-to-left languages in portals.
 
 Role required: sp\_admin or admin
 
@@ -47,7 +48,7 @@ When the session language is a right-to-left language, the direction of the port
 
 **Note:** When you support Right-to-Left languages, change the **Card Content Alignment** field value to Right. Alternatively, use the center alignment to avoid issues.
 
-For more information, see [Modify the Quick links widget display](../task/config-quick-links-widget.md).
+For more information, see [Modify the Quick links widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-quick-links-widget.md).
 
-**Parent Topic:**[Portal configuration](../task/portal-config.md)
+**Parent Topic:**[Portal configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/portal-config.md)
 

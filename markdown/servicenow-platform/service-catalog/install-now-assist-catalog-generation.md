@@ -2,6 +2,7 @@
 title: Install Now Assist in Catalog Builder
 description: Install the Now Assist for Creator application from the ServiceNow Store to get Now Assist in Catalog Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-catalog/install-now-assist-catalog-generation.html
 release: xanadu
 product: Service Catalog
 classification: service-catalog
@@ -42,16 +43,16 @@ Now Assist in Catalog Builder is a capability within the Now Assist for Creator 
 
     3.  On the Service Catalog card, verify that the Catalog item generation skill is active.
 
-        ![Catalog item generation skill](../image/catalog-item-gen-skill-page.png)
+        \[Omitted image "catalog-item-gen-skill-page.png"\] Alt text: Catalog item generation skill
 
         **Note:** If the skill isn’t active, select **View details**. Then on the Service Catalog page, turn on the Catalog item generation skill.
 
-        For more information about Now Assist Admin, see [Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+        For more information about Now Assist Admin, see .
 
 
 ## What to do next
 
 Grant the catalog\_builder\_editor and now.assist.creator roles to enable users to create catalog items using Now Assist.
 
-**Parent Topic:**[Configuring Now Assist in Catalog Builder](../concept/configuring-catalog-item-generation.md)
+**Parent Topic:**[Configuring Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)
 

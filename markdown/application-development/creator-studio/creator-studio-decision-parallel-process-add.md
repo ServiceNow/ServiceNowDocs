@@ -2,6 +2,7 @@
 title: Add a parallel process to an app's playbook in Creator Studio
 description: Create parallel processes in Creator Studio to make things happen in your app at the same time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-decision-parallel-process-add.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -37,11 +38,11 @@ Activities on a process's parallel branches run at the same time as other specif
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
@@ -49,19 +50,19 @@ Activities on a process's parallel branches run at the same time as other specif
 
 5.  Check that you're editing the correct playbook in your app by selecting it from the **Automations** tab.
 
-    ![Selection of a playbook from the Automations tab](../image/cs-automation-tab-selection.png)
+    \[Omitted image "cs-automation-tab-selection.png"\] Alt text: Selection of a playbook from the Automations tab
 
 6.  Choose one of the following ways to add a parallel branch in the diagram view.
 
-    -   Select the add icon \(![](../image/cs-add-icon.png)\) and choose the **Add a parallel path** icon \(![](../image/cs-parallel-path-icon.png)\) in the menu that pops up.
-    -   Select the Drag new connecter dot icon \(![](../image/cs-drag-new-connector-icon.png)\) for the parallel process’s starting activity and drag it to the activity or decision that should be the end point of the parallel process.
+    -   Select the add icon \(\[Omitted image "cs-add-icon.png"\] Alt text:\) and choose the **Add a parallel path** icon \(\[Omitted image "cs-parallel-path-icon.png"\] Alt text:\) in the menu that pops up.
+    -   Select the Drag new connecter dot icon \(\[Omitted image "cs-drag-new-connector-icon.png"\] Alt text:\) for the parallel process’s starting activity and drag it to the activity or decision that should be the end point of the parallel process.
     **Note:** If you can't see the Drag new connector dot icon, you might need to hover over the activity to see it.
 
-    ![Hover over the activity to see the Drag new connector icon](../image/cs-drag-new-connector.png)
+    \[Omitted image "cs-drag-new-connector.png"\] Alt text: Hover over the activity to see the Drag new connector icon
 
 7.  Add activities to the parallel branch as needed.
 
-    For more information, see [Add activities to an app's playbook in Creator Studio](creator-studio-add-activities-automation.md).
+    For more information, see [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-add-activities-automation.md).
 
 8.  If you want to have several activities happen in a parallel process as soon as the playbook is triggered, complete the following steps.
 
@@ -72,5 +73,5 @@ Activities on a process's parallel branches run at the same time as other specif
     3.  Select the **Save and close** button.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-working-with-automations.md)
 

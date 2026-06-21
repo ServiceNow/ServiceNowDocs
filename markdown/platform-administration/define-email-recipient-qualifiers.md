@@ -2,6 +2,7 @@
 title: Define email client recipient qualifiers
 description: Create a configuration that controls the auto-complete list of recipients displayed in the email client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/define-email-recipient-qualifiers.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -114,5 +115,5 @@ If you selected Script for the **Type**, enter a script that uses these variable
     The recipient qualifier configuration is added to the Recipient Qualifier \[sys\_recipient\_qualifier\] table and is available for use in an email client configuration.
 
 
-**Parent Topic:**[Email client configurations](../concept/email-client-configuration.md)
+**Parent Topic:**[Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/email-client-configuration.md)
 

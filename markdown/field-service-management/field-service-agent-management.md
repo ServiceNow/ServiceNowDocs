@@ -2,7 +2,10 @@
 title: Field service agent management
 description: Field Service managers can view and manage the skills, schedules, and work order tasks of agents in their assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-agent-management.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -64,12 +67,12 @@ Time Sheets - Pending Approval
 Lists the time sheets for the agents in the manager's assignment group that need manager approval.
 
 </td></tr></tbody>
-</table>-   **[Use the agent calendar](../../customer-service-management/concept/use-agent-calendar.md#)**  
+</table>-   **[Use the agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/use-agent-calendar.md)**  
 Users with the agent calendar user role can add events to their personal calendar and configure the calendar to show or hide different types of events.
--   **[Managing agent calendar](../../customer-service-management/concept/agent-calendar.md)**  
+-   **[Managing agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/agent-calendar.md)**  
 Customer service agents and field service technicians can use the agent calendar to see work schedules and assignments and also add personal events such as meetings or appointments.
--   **[Allow agents to start traveling before their scheduled work hours](../task/set-agent-schedule-preferences.md)**  
+-   **[Allow agents to start traveling before their scheduled work hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/set-agent-schedule-preferences.md)**  
 Support flexible work types by allowing agents to start traveling before their scheduled work hours. For example, you may want to add travel time outside of an agent's scheduled work hours in case bad weather suddenly increases travel time.
 
-**Parent Topic:**[Scheduling and dispatching work order tasks to agents](scheduling-and-dispatching-agents.md)
+**Parent Topic:**[Scheduling and dispatching work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-and-dispatching-agents.md)
 

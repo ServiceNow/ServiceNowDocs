@@ -2,6 +2,7 @@
 title: Components installed with Accounts Payable Operations integration with Document Intelligence
 description: Several types of components are installed with activation of the Accounts Payable Operations integration with Document Intelligence \(com.sn\_ap\_ic\) application plugin, including user roles, flows, and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/installed-with-docintel-apm.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -19,7 +20,7 @@ Several types of components are installed with activation of the Accounts Payabl
 
 You must have the Accounts Payable Specialist \(sn\_ap\_apm.accounts\_payable\_specialist\) role to review an invoice in Document Intelligence and enter values in the invoice fields.
 
-For more information about the roles that are installed with Document Intelligence, see [Components installed with Document Intelligence](https://www.servicenow.com/docs/access?context=installed-with-document-intelligence&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information about the roles that are installed with Document Intelligence, see .
 
 ## Flows installed
 
@@ -111,5 +112,5 @@ Invoice Line Stage
 Stores the invoice line data extracted by Document Intelligence.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](../concept/apm-integration-docintel.md)
+</table>**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md)
 

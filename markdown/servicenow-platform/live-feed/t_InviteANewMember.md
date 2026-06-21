@@ -2,6 +2,7 @@
 title: Invite a new member
 description: You can invite another user to join a team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/t\_InviteANewMember.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -33,8 +34,8 @@ Role required: admin
 
     The invited member's picture appears.
 
-    ![Invited member](../image/InvitedMember.png)
+    \[Omitted image "InvitedMember.png"\] Alt text: Invited member
 
 
-**Parent Topic:**[Use teams in Live Feed](../concept/c_UseTeamsInLiveFeed.md)
+**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 

@@ -2,6 +2,7 @@
 title: Create quote versions
 description: Use the Revisions tab to create and view the versions of your quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/quote-management-revisions-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ The Revisions tab shows all the versions of a quote. Version numbers are sequent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Select **Quotes****All**.
 
@@ -33,7 +34,7 @@ The Revisions tab shows all the versions of a quote. Version numbers are sequent
 
 4.  Select the **Revisions** tab.
 
-5.  Select the **More Actions**![](../image/more-options.png) icon and select **Create new version**.
+5.  Select the **More Actions**\[Omitted image "more-options.png"\] Alt text: icon and select **Create new version**.
 
     A new version of the quote is created. Select the quote in the message to open the new version. The **Active** option, if selected indicates the **Active** version of the quote. Use the Revisions tab to view a list of all the current quote versions. quote in the message to open the new version. Version numbers are sequential.
 

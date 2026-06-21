@@ -2,6 +2,7 @@
 title: Design Review
 description: Evaluation of current or proposed solution designEvaluation of current or proposed solution designEvaluation of current or proposed solution design
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/design-review.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

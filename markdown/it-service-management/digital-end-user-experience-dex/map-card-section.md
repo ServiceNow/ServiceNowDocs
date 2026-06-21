@@ -2,6 +2,7 @@
 title: Map a card to a section
 description: Map the card to the section under which it must appear.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/map-card-section.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Map the card to the section under which it must appear.
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](install-app-device-health.md) and [Download and install Desktop Assistant](download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.admin
 
@@ -31,7 +32,7 @@ By default, Desktop Assistant provides: My Resources.
 
 2.  In the Section to Card Mappings section, select **New**.
 
-    ![Page where you can map a specific card to a section in you Home page.](../image/desktop-exp-card-mapping.png)
+    \[Omitted image "desktop-exp-card-mapping.png"\] Alt text: Page where you can map a specific card to a section in you Home page.
 
 3.  In the **Desktop Assistant Card** field, select the card you have created.
 

@@ -2,6 +2,7 @@
 title: Advanced app metrics page
 description: Access the advanced app metrics for the Microsoft Configuration Manager \(MCM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/adanced-app-metrics-page.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -238,5 +239,5 @@ Configuration Manager Health Evaluation
 Validates client health and auto-fixes known issues.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Applications list](application-form.md)
+</table>**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/application-form.md)
 

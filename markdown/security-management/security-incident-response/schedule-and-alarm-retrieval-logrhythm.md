@@ -2,6 +2,7 @@
 title: Schedule and retrieve LogRhythm alarms
 description: After you preview the security incident with the LogRhythm alarms that you have selected and mapped, you are ready to schedule alarm retrieval. After you complete this step, the alarm profile is ready to be activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/schedule-and-alarm-retrieval-logrhythm.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -27,19 +28,19 @@ Scheduling permits you to modify the scheduling and the types of alarms selected
 
 1.  Click the **Scheduling** step on the progress bar.
 
-    ![Scheduling highlighted on progress bar.](../image/logrhythm_scheduling.png)
+    \[Omitted image "logrhythm\_scheduling.png"\] Alt text: Scheduling highlighted on progress bar.
 
 2.  Choose from the following options to configure your alarm retrieval.
 
-<table id="choicetable_lvr_kdr_f2b"><thead><tr><th align="left" id="d124547e87">
+<table id="choicetable_lvr_kdr_f2b"><thead><tr><th align="left" id="d55862e87">
 
 Option
 
-</th><th align="left" id="d124547e90">
+</th><th align="left" id="d55862e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d124547e96">
+</th></tr></thead><tbody><tr><td id="d55862e96">
 
 **Enable incremental alarm retrieval**
 
@@ -47,7 +48,7 @@ Description
 
 Default is selected. Select this option to retrieve incremental alarms.
 
-</td></tr><tr><td id="d124547e105">
+</td></tr><tr><td id="d55862e105">
 
 **Polling interval \(in minutes\)**
 
@@ -57,7 +58,7 @@ The ServiceNow AI Platform instance pulls from the LogRhythm Client Console for 
 
  This setting can be changed, however, the default setting balances alarm ingestion against server load and retrieves the most current data.
 
-</td></tr><tr><td id="d124547e126">
+</td></tr><tr><td id="d55862e126">
 
 **Next Alarm ingestion time \(estimated\)**
 
@@ -65,7 +66,7 @@ The ServiceNow AI Platform instance pulls from the LogRhythm Client Console for 
 
 Displays when the next scheduled ingestion would occur for the current alarm profile. This is only an estimated time.
 
-</td></tr><tr><td id="d124547e135">
+</td></tr><tr><td id="d55862e135">
 
 **Enable historical alarm retrieval**
 
@@ -98,7 +99,7 @@ Enter specific alarm IDs. You pull the specified alarms, and you can enter multi
 
     2.  In the **Pulling start date** field, click on the calender that is displayed, select the date followed by the green check mark to save your entry.
 
-        ![Task: Select the date in the calendar and save it with green check mark.](../image/logrhythm-scheduling-ingestion.gif)
+        \[Omitted image "logrhythm-scheduling-ingestion.gif"\] Alt text: Task: Select the date in the calendar and save it with green check mark.
 
         The date is displayed.
 
@@ -120,7 +121,7 @@ Enter specific alarm IDs. You pull the specified alarms, and you can enter multi
 
 ## What to do next
 
-After you configure the Ongoing Alarm Ingestion and One Time Retrieval details, the next step is to [Additional options for LogRhythm alarms](verify-alarm-closure-logrhythm.md).
+After you configure the Ongoing Alarm Ingestion and One Time Retrieval details, the next step is to [Additional options for LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/verify-alarm-closure-logrhythm.md).
 
-**Parent Topic:**[Creating an alarm profile for LogRhythm](create-alarm-profile-logrhythm.md)
+**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

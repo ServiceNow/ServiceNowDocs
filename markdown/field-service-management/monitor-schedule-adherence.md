@@ -2,7 +2,10 @@
 title: Monitor schedule adherence of your agents
 description: Use schedule adherence to evaluate whether your agents are adhering to their assigned schedules. You can look for areas where low-value activity can be eliminated or reduced and further analyze staffing levels throughout the day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/monitor-schedule-adherence.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -19,13 +22,13 @@ Role required: sn\_shift\_planning.admin
 
 ## About this task
 
-For information on schedule adherence, see the "Schedule adherence" section in [Scheduling in Workforce Optimization for Field Service](../concept/scheduling-wfo-fsm.md).
+For information on schedule adherence, see the "Schedule adherence" section in [Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-wfo-fsm.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon.](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
 3.  Monitor the schedule adherence of your agents.
 
@@ -66,8 +69,8 @@ Example: A clock-in event gets generated when an agent logs in or changes the pr
 </td></tr></tbody>
 </table>    The following team calendar snapshot illustrates how to measure how well your team members are adhering to their work schedules. The blue bar indicates the planned work shift time and next to that is the actual worked time. The default representations are purple for clock-in time, green for agent's available duration, red for the clock-out time, and grey for agent's non-available time.
 
-    ![Schedule view in the Team Calendar displaying agent availability.](../../workforce-optimization-for-customer-service-configurable/image/schedule-adherence-cs.png)
+    \[Omitted image "schedule-adherence-cs.png"\] Alt text: Schedule view in the Team Calendar displaying agent availability.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](../concept/scheduling-wfo-fsm.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-wfo-fsm.md)
 

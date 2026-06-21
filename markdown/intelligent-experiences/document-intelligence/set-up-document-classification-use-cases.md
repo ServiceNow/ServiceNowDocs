@@ -2,6 +2,7 @@
 title: Set up document classification use cases
 description: A document classification use case is a set of categories used to classify your documents and their individual pages. It’s made up of the use case record and its related fields \(classes\), and all related machine learning \(ML\) models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/set-up-document-classification-use-cases.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -27,15 +28,15 @@ After you’ve defined a document classification use case, agents can begin proc
 
 Set up a document classification use case in the following steps.
 
-1.  [Create a use case](../task/create-a-document-classification-use-case.md).
+1.  [Create a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/create-a-document-classification-use-case.md).
 
     Define the name and properties for the use case.
 
-2.  [Create document classes using fields](../task/create-document-classes.md).
+2.  [Create document classes using fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/create-document-classes.md).
 
     Define the classes or categories that the AI will learn to detect and apply to documents.
 
-3.  [Train the use case](../task/train-a-use-case.md).
+3.  [Train the use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/train-a-use-case.md).
 
     Initiate a training job to provide user inputs from completed document tasks to the AI for continuous improvement.
 

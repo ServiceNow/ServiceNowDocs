@@ -2,6 +2,7 @@
 title: Create a stockroom type for enterprise assets
 description: If the base system stockroom types don't meet your needs, you can create a custom stockroom type in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-eamstockroom-type.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
 
 ## About this task
 
-Stockroom types are categories of stockrooms. For detailed information on stockroom types, see [Stockroom Types](https://www.servicenow.com/docs/access?context=c_Stockrooms&version=xanadu&pubname=xanadu-it-service-management&section=r_StockroomTypes&ft:locale=en-US)
+Stockroom types are categories of stockrooms. For detailed information on stockroom types, see Stockroom Types
 
 ## Procedure
 
@@ -45,5 +46,5 @@ Stockroom types are categories of stockrooms. For detailed information on stockr
     The newly created stockroom type appears in the **Stockroom types** tab.
 
 
-**Parent Topic:**[Create and manage enterprise asset inventory](../concept/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

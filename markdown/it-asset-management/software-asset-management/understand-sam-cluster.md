@@ -2,6 +2,7 @@
 title: Understanding your cluster infrastructure
 description: Get a holistic and strategic analysis of all the entities in your clusters in one view on the Software Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/understand-sam-cluster.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT 
 
 Get a holistic and strategic analysis of all the entities in your clusters in one view on the Software Asset Management application.
 
-The SAM Cluster 360° feature simplifies the process of analyzing a cluster, which is typically a time-consuming task. This feature helps SAM managers to make strategic decisions by providing them with a visually comprehensive view of their cluster setup, licensing, and cluster health issues. Drill down to each node on a cluster for a deeper understanding. For detailed information on your cluster, see [View your cluster setup in 360 degrees](../task/view-360-sam-cluster.md).
+The SAM Cluster 360° feature simplifies the process of analyzing a cluster, which is typically a time-consuming task. This feature helps SAM managers to make strategic decisions by providing them with a visually comprehensive view of their cluster setup, licensing, and cluster health issues. Drill down to each node on a cluster for a deeper understanding. For detailed information on your cluster, see [View your cluster setup in 360 degrees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/view-360-sam-cluster.md).
 
 ## Cluster overview
 
@@ -27,7 +28,7 @@ The VMs can move across the hosts depending on certain settings such as High ava
 
 Factors such as the number of VMs, movement of VMs, hosts, and VM cores in a cluster can affect your license compliance.
 
-![Cluster setup](../image/cluster-details.png "Cluster setup")
+\[Omitted image "cluster-details.png"\] Alt text: Cluster setup
 
 ## Benefits of SAM Cluster 360°
 
@@ -40,5 +41,5 @@ The SAM Cluster 360° feature helps you to view and analyze the following concep
 -   All software, licensable and non-licensable, running on a cluster.
 -   All software consuming licenses.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

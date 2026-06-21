@@ -2,6 +2,7 @@
 title: Enable a hierarchical list
 description: You can enable hierarchical lists to make data from related lists directly accessible from within a v2 list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/t\_EnableAHierarchicalList.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -33,11 +34,11 @@ Hierarchical lists enable a user to view the contents of the related lists of a 
 
 3.  Click the arrow for a record number to display the related lists for the record.
 
-    ![Hierarchical list](../image/HierarchicalList.png)
+    \[Omitted image "HierarchicalList.png"\] Alt text: Hierarchical list
 
 
--   **[Use list controls in hierarchical lists](t_SelectARelatedList.md)**  
+-   **[Use list controls in hierarchical lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_SelectARelatedList.md)**  
 By default, no related list tabs are visible in a hierarchical list and only a single related list is displayed at a time. The column headers are hidden by default.
 
-**Parent Topic:**[List administration](../../core-configuration/concept/p_ListAdministration.md)
+**Parent Topic:**[List administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/p_ListAdministration.md)
 

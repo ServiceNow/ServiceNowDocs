@@ -2,7 +2,10 @@
 title: Integrating Employee Center and Virtual Agent with Microsoft Teams for GCC-H or DoD
 description: You can integrate Employee Center and the Virtual Agent bot with Microsoft Teams to enable Government Community Cloud High \(GCC-H\) and US Department of Defense \(DoD\) customers to interact with agents through Virtual Agent and access the attached files in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/ec-teams-va-integration-gcch.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,17 +30,17 @@ The overall process to integrate Employee Center with your Microsoft Teams tenan
 
 1.  Activate the IT Service Management integration with Microsoft Teams plugin \(sn\_now\_teams\_it\) and Glide Virtual Agent plugin \(com.glide.cs.chatbot\).
 
-    **Note:** For more information on activating plugins, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    **Note:** For more information on activating plugins, see .
 
-2.  [Create Microsoft Azure application and authenticate users to access Employee Center in Microsoft Teams](../task/authenticate-users-your-hub-ms-teams.md).
-3.  [Create a bot in Microsoft Teams for GCC-H or DoD](https://www.servicenow.com/docs/access?context=create-msteams-bot-gcch&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
-4.  [Integrate your Self-configured bot with Microsoft Teams for GCC-H or DoD](https://www.servicenow.com/docs/access?context=link-msteams-bot-snow&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
-5.  [Update your Microsoft Teams tenant URL for GCC-H or DoD](../task/gcch-response-header.md).
-6.  [Modify and download the manifest file for GCC-H or DoD](../task/modify-download-manifest-file.md).
-7.  [Upload manifest file in Microsoft Teams](../task/upload-manifest-ms-teams.md).
+2.  [Create Microsoft Azure application and authenticate users to access Employee Center in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/authenticate-users-your-hub-ms-teams.md).
+3.  .
+4.  .
+5.  [Update your Microsoft Teams tenant URL for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/gcch-response-header.md).
+6.  [Modify and download the manifest file for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/modify-download-manifest-file.md).
+7.  [Upload manifest file in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/upload-manifest-ms-teams.md).
 
--   **[Modify and download the manifest file for GCC-H or DoD](../task/modify-download-manifest-file.md)**  
+-   **[Modify and download the manifest file for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/modify-download-manifest-file.md)**  
 Create and download the ServiceNow for Microsoft Teams manifest file from your instance to enable Microsoft Teams to use the ServiceNow for Teams app.
 
-**Parent Topic:**[Integrating ServiceNow with Microsoft Teams for GCC-H or DoD](setup-sn-ms-teams-gcch.md)
+**Parent Topic:**[Integrating ServiceNow with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/setup-sn-ms-teams-gcch.md)
 

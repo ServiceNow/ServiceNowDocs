@@ -2,6 +2,7 @@
 title: Confirm receipt of your order from Shopping Hub Home
 description: Provide confirmation of receipt of the items you ordered that are in pending receipt state from Shopping Hub Home, so that payment is processed to the supplier accordingly. If you have not received the complete order, you can confirm receipt of a part of your order as well with the date when you received them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/work-receipt-todos.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -33,15 +34,15 @@ Role required: sn\_shop.shopper
 
 5.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d143398e107">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d33359e107">
 
 Action
 
-</th><th align="left" id="d143398e110">
+</th><th align="left" id="d33359e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d143398e116">
+</th></tr></thead><tbody><tr><td id="d33359e116">
 
 **Received selected**
 
@@ -53,7 +54,7 @@ Confirms receipt of the selected orders. On the **Confirm receipt** window, fill
 -   **Date received**: Date when you received the items.
 
 
-</td></tr><tr><td id="d143398e143">
+</td></tr><tr><td id="d33359e143">
 
 **Received all**
 
@@ -65,5 +66,5 @@ Confirms receipt of all the orders. On the **Confirm you received everything** w
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

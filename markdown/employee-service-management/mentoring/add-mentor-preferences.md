@@ -2,6 +2,7 @@
 title: Add mentor preferences
 description: As a mentor, add your preferences to help mentees find out if you're the right match for them
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/mentoring/add-mentor-preferences.html
 release: xanadu
 product: Mentoring
 classification: mentoring
@@ -17,7 +18,7 @@ As a mentor, add your preferences to help mentees find out if you're the right m
 
 ## Before you begin
 
-Enroll as a mentee. For more information, see [Enroll as a mentor or mentee](enroll-mentoring.md)
+Enroll as a mentee. For more information, see [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/enroll-mentoring.md)
 
 Role required: none
 
@@ -100,5 +101,5 @@ Options available are:-   Women in the workspace
     **Note:** You can also save your preferences by select **Save as draft**, if you are not ready to enroll as a mentee yet.
 
 
-**Parent Topic:**[Enroll as a mentor or mentee](enroll-mentoring.md)
+**Parent Topic:**[Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/enroll-mentoring.md)
 

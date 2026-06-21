@@ -2,6 +2,7 @@
 title: Create an Alexa skill
 description: Create an Alexa-hosted skill using the Alexa developer console. Creating an Alexa skill helps you prepare to use the Alexa app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/create-alexa-skill.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

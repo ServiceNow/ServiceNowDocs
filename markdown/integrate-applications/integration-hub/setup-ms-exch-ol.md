@@ -2,6 +2,7 @@
 title: Set up Microsoft Exchange Online spoke
 description: Integrate the ServiceNow instance and Microsoft Exchange Online account by creating a custom OAuth application in Microsoft Exchange Online to authenticate ServiceNow requests.Provide authorization to the ServiceNow instance by registering an application with Azure AD.Register Microsoft Exchange Online as the OAuth provider so that the ServiceNow instance can request OAuth 2.0 tokens.Authorize the Microsoft Exchange Online spoke actions by creating credential records for the application registered in the Microsoft Azure portal. The Microsoft Exchange Online connection and credential alias uses these credentials to authorize actions.Create a credential record for the Microsoft Exchange Online spoke Mailbox actions. The Microsoft Exchange Online spoke connection and credential alias uses these credentials to authorize Mailbox actions.Perform actions in Microsoft Exchange Online by creating connection records for your Microsoft Exchange Online account. The Microsoft Exchange Online spoke connection and credential alias uses these connections to perform actions.Modify the short description to provide spoke specific information.Create a connection record for your Microsoft Exchange Online spoke Mailbox actions. The Microsoft Exchange Online spoke connection and credential aliases use these connections to perform only Mailbox actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-ms-exch-ol.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -39,7 +40,7 @@ Complete these steps from the Microsoft Azure portal. For instructions on regist
 
 2.  For the **Required Permissions**, select **Microsoft Graph**.
 
-    ![Permissions required for Microsoft Exchange Online spoke](../image/ms-exchange-online-spoke-permissions.png)
+    \[Omitted image "ms-exchange-online-spoke-permissions.png"\] Alt text: Permissions required for Microsoft Exchange Online spoke
 
 3.  Record the **Client Secret** for use in later configurations.
 

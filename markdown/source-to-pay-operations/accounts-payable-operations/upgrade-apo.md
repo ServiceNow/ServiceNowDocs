@@ -2,6 +2,7 @@
 title: Upgrade Accounts Payable Operations from version 2.0
 description: Upgrade Accounts Payable Operations with Document Intelligence from lower to higher versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/upgrade-apo.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

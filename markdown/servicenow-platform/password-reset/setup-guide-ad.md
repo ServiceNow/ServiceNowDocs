@@ -2,6 +2,7 @@
 title: Set up Microsoft Active Directory for Password Reset
 description: Enable connections to Active Directory \(AD\) by activating the Password Reset Windows App and Microsoft AD for Password Reset available in the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/password-reset/setup-guide-ad.html
 release: xanadu
 product: Password Reset
 classification: password-reset

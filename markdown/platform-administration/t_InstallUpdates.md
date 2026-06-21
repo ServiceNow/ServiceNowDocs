@@ -2,6 +2,7 @@
 title: Install an update to a ServiceNow Store application
 description: Install an update to an application that you purchased from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_InstallUpdates.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -32,12 +33,12 @@ Role required: admin
     **Note:** When customers upgrade to this new version of your application, the Deletes in your author\_elective\_update folder will be written as Skips in the Upgrade History entry for this application upgrade. Your users can browse the Skip list, and apply the changes on a case-by-case basis. Your customers have the option of setting com.glide.apps.include\_my\_deletes to false, which will skip writing Skip records as well.
 
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 
 **Related topics**  
 
 
-[Developer and deployment permissions](https://www.servicenow.com/docs/access?context=t_AddADeveloper&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.t_AddADeveloper]
 
-[System-managed developer and deployment roles](https://www.servicenow.com/docs/access?context=delegated_deployment_user_roles&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.delegated_deployment_user_roles]
 

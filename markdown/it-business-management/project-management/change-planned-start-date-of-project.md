@@ -2,6 +2,7 @@
 title: Change the planned start date of a project
 description: Adjust the schedule of a project by changing the planned start date of a project and shifting it later or earlier than the current planned schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/change-planned-start-date-of-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -37,15 +38,15 @@ Changing the planned start date of a project to a new date also moves all its ta
 
 1.  Change the planned start date of a project using either of the following options.
 
-<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d284796e105">
+<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d149314e105">
 
 Option
 
-</th><th align="left" id="d284796e108">
+</th><th align="left" id="d149314e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d284796e114">
+</th></tr></thead><tbody><tr><td id="d149314e114">
 
 **From the Planning console**
 
@@ -53,10 +54,10 @@ Steps
 
 1.  Navigate to **Project** &gt; **Projects** &gt; **Project Workspace**.
 2.  Open the project for which you want to change the planned start date.
-3.  In the Planning Console, click the more actions icon \(![More Actions icon](../../planning-and-policy/image/gannt_chart_icon.png)\) and then select the **Move project** option.
+3.  In the Planning Console, click the more actions icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More Actions icon\) and then select the **Move project** option.
 
 
-</td></tr><tr><td id="d284796e156">
+</td></tr><tr><td id="d149314e156">
 
 **From the Project form**
 
@@ -90,5 +91,5 @@ Steps
     For example, say a project is starting on November 10 with a Start On task starting on November 15, giving an offset of five days. If you move the project start date to November 20, then the task start date will be moved to November 25, maintaining the five-day offset from the project start date.
 
 -   All project tasks with Start ASAP constraint are moved to the new start date based on the **Constraint Date** field on the project form. The tasks must be in the Open or Pending state.
--   If the **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property is selected, all related entities like cost plan, resource plan, and benefit plans are moved relative to the project start date. For more information on how to set this property, see [Properties installed with Project Management](../reference/r_InstalledWithProjectManagement.md#project_application_properties).
+-   If the **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property is selected, all related entities like cost plan, resource plan, and benefit plans are moved relative to the project start date. For more information on how to set this property, see [Properties installed with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_InstalledWithProjectManagement.md).
 

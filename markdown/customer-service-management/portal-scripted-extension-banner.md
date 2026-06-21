@@ -2,7 +2,10 @@
 title: Provide web page link buttons to display on the Portal Banner widget
 description: Provide a link to a web page that you want to display by defining primary or secondary buttons on the Portal Banner widget. The widget displays these buttons by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-scripted-extension-banner.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Provide a link to a web page that you want to display by defining primary or sec
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-config-portal-widget.md).
 
 Role required: sp\_admin or admin
 

@@ -2,7 +2,10 @@
 title: Customer Portal Usage dashboard
 description: The Customer Portal Usage dashboard enables you to understand the user usage of portals by presenting an aggregate count of sessions created every month.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/customer-portal-usage-dashboard.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,13 +16,13 @@ breadcrumb: [Using the Customer Service Portal, Customer communication, Using Cu
 
 The Customer Portal Usage dashboard enables you to understand the user usage of portals by presenting an aggregate count of sessions created every month.
 
-These sessions don’t represent individual users. For example, if a user accesses the portal on two different days, it counts as two separate sessions. For more information about how an aggregate session is counted, see [Portal usage calculation](../reference/csm-portal-user-sessions-timeouts.md). You can access the dashboard by navigating to **All** &gt; **Self Service** &gt; **Dashboards**. On the dashboard page, search Customer Portal Usage dashboard.
+These sessions don’t represent individual users. For example, if a user accesses the portal on two different days, it counts as two separate sessions. For more information about how an aggregate session is counted, see [Portal usage calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-portal-user-sessions-timeouts.md). You can access the dashboard by navigating to **All** &gt; **Self Service** &gt; **Dashboards**. On the dashboard page, search Customer Portal Usage dashboard.
 
 To access more detailed information, place your mouse device over any of the graphical reports. These graphs can be saved as PNG or JPEG files, enabling you to add them to emails or include them in your presentations. Additionally, all graphs can be updated to display the current data. An example of the dashboard layout is shown in the following image.
 
 **Note:** The Customer Portal usage tab is available when the Customer Service \(com.sn\_customerservice\) plugin is activated.
 
-![Customer portal usage dashboard. For descriptions of the reports included on this dashboard, see the Reports section that follows.](../image/customer-portal-usage-dashboard.png "Customer portal usage dashboard")
+\[Omitted image "customer-portal-usage-dashboard.png"\] Alt text: Customer portal usage dashboard. For descriptions of the reports included on this dashboard, see the Reports section that follows.
 
 ## End user and roles
 

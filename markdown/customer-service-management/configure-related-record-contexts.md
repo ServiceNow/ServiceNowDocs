@@ -2,7 +2,10 @@
 title: Configure related record contexts
 description: This type of configuration record defines the context in which related records appear in the Related Records tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-related-record-contexts.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

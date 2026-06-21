@@ -2,6 +2,7 @@
 title: Setting up Financial Services Complaint Management
 description: You can set up your implementation for the Financial Services Complaint Management application by installing the application, importing financial services data, and reviewing and configuring the components that are installed with the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-complaint-management/setting-up-fso-complaint-mgmt.html
 release: xanadu
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management

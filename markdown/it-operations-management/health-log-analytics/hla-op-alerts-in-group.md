@@ -2,6 +2,7 @@
 title: View the list of Log Analytics alerts in a Log Analytics group
 description: View the list of all Log Analytics alerts in a Log Analytics group on the Alerts in group tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-op-alerts-in-group.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -21,7 +22,7 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
 
 ## About this task
 
-For a detailed description of Log Analytics groups and Log Analytics alerts, see [Types of Health Log Analytics alerts](../reference/hla-op-log-analytics-alert-types.md).
+For a detailed description of Log Analytics groups and Log Analytics alerts, see [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md).
 
 ## Procedure
 
@@ -87,7 +88,7 @@ Priority group that indicates the order in which to resolve alerts. Choices are 
 -   **High**
 -   **Moderate**
 -   **Low**
- The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](../../event-management/concept/alert-priority.md).
+ The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/alert-priority.md).
 
 </td></tr><tr><td>
 
@@ -142,5 +143,5 @@ Most recent time when the alert information or state was updated.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Information on the Overview tab for a Log Analytics group](../reference/hla-op-ovrvw-tab-log-anltcs-alerts.md)
+**Parent Topic:**[Information on the Overview tab for a Log Analytics group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-ovrvw-tab-log-anltcs-alerts.md)
 

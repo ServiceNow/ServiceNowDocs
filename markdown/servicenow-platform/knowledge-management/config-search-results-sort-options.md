@@ -2,6 +2,7 @@
 title: Configure sort widget instance options
 description: Configure widget instance options for the knowledge sort widget on the Knowledge Management Service Portal search results page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/config-search-results-sort-options.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -55,7 +56,7 @@ CSS
 
 </td><td>
 
-Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://www.servicenow.com/docs/access?context=scss-primer&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.
 
 </td></tr><tr><td>
 
@@ -93,5 +94,5 @@ The labels for the fields that appear in the sort options. The default is **View
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](../concept/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

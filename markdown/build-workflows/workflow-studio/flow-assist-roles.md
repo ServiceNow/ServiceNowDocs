@@ -2,6 +2,7 @@
 title: Flow Assist roles
 description: The following roles are installed for use with the Now Assist for Creator flow generation and flow recommendations skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/flow-assist-roles.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ The following roles are installed for use with the Now Assist for Creator flow g
 
 You can grant users entitlement to the applications that you purchase on the ServiceNow AI Platform by allocating subscriptions in Subscription Management. You allocate subscriptions by adding one or more groups with measured roles to a product subscription.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 ## Now Assist Creator \[now.assist.creator\]
 
@@ -40,5 +41,5 @@ This role grants users access to both the flow generation and flow recommendatio
     None
 
 
-**Parent Topic:**[Flow Assist reference](flow-assist-reference.md)
+**Parent Topic:**[Flow Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-assist-reference.md)
 

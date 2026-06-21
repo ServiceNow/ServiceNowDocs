@@ -2,6 +2,7 @@
 title: Understand your System Events Dashboard
 description: Use the System Event Processing dashboard to set the filters to display information about events and queues.The Scores and tab shows what's going on in the event processing system.Use the Current Scores section to have a direct check on the sysevent table and shows the current states of the events.Use the Trends section to have a metric-based graphical understanding of the activities in the event processing system.Review the details of an alert set every 15 minutes mostly on an instance level. By default, five alerts are provided along with the application. The alerts are setup based on a set of conditions, including what queue it applies to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/setup-event-monitoring-dashboard.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  Go to **All** &gt; **System Diagnostics** &gt; **System Events Dashboard**.
 
-    ![Image showing System Event Monitoring dashboard](../image/system-events-dashboard.png)
+    \[Omitted image "system-events-dashboard.png"\] Alt text: Image showing System Event Monitoring dashboard
 
     The System Event Monitoring dashboard shows up.
 
@@ -145,7 +146,7 @@ Role required: admin
 
 4.  Select the alert you just updated.
 
-    **Note:** You can open the Event Alert form for the selected alert by selecting the Created column. If you select the Alert Configuration column, the Event Alert Configuration form for the selected alert shows up. You can also open the Event Alert form by selecting the 'i' icon.![](../image/events-alert-form.png)
+    **Note:** You can open the Event Alert form for the selected alert by selecting the Created column. If you select the Alert Configuration column, the Event Alert Configuration form for the selected alert shows up. You can also open the Event Alert form by selecting the 'i' icon.\[Omitted image "events-alert-form.png"\] Alt text:
 
 5.  Select **Reset alert** if the alert notification is no longer required.
 

@@ -2,6 +2,7 @@
 title: Flow Designer and Integration Hub usage in Microsoft Graph Security API integration
 description: Using the Flow Designer and Integration Hub functionality, several subflows and actions have been built as part of the Microsoft Graph Security API integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/ms-graph-flow-designer.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

@@ -2,6 +2,7 @@
 title: Sample ASP Script for unencrypted single sign-on
 description: This sample ASP .NET code creates a simple authentication portal and passes an unencrypted HTTP header as a URL parameter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/c\_SampleASPScriptUnencryptedSSO.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -41,7 +42,7 @@ Change the ASP code to redirect users to the proper instance and create the prop
   </ head > <body > <form id = "form1"  runat = "server" > <h2 >< b > Portal Page Login  </ b >< / h2 > <hr style = "position: static" / > <br / > <asp:Label ID = "Label2"  runat = "server"  Font- Size = "Larger" Height = "21px" Style = "position: static"Text = "Instance URL:" Width = "113px" >< / asp:Label> <asp:TextBox ID = "urlBox"  runat = "server"  Font- Size = "Large" Style = "position: static" >< / asp:TextBox> <br / > <br / > <asp:Label ID = "Label1"  runat = "server"  Font- Size = "Larger" Height = "17px" Style = "position: static;"Text = "User Id:" Width = "113px" >< / asp:Label> <asp:TextBox ID = "userNameBox"  runat = "server"  Font- Size = "Large" Style = "position: static;" >< / asp:TextBox> <br / > <br / > <asp:Button ID = "Button1"  runat = "server" Height = "39px" Style = "position: static;" Text = "Ok"Width = "88px" OnClick = "go_to" / > </ form > </ body > </ html >
 ```
 
-![A designer](../image/Designer.jpg "Designer")
+\[Omitted image "Designer.jpg"\] Alt text: A designer
 
-**Parent Topic:**[Inbound web service examples](../../../integrate/examples/concept/c_InboundWebServiceExamples.md)
+**Parent Topic:**[Inbound web service examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_InboundWebServiceExamples.md)
 

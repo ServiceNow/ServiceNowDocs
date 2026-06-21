@@ -2,6 +2,7 @@
 title: Widget diagnostics
 description: Resolve Service Portal page issues by identifying widget customization levels and checking widget code directly from a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/sp-diagnostic-tool.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -73,7 +74,7 @@ Base system widget that you configured in any of the following ways:-   Modified
 
 <table id="table_avs_mbb_gjb"><tbody><tr><td>
 
-![Identifying customization levels](../image/diagnostic-tool.png)
+\[Omitted image "diagnostic-tool.png"\] Alt text: Identifying customization levels
 
 </td><td>
 
@@ -87,29 +88,29 @@ Base system widget that you configured in any of the following ways:-   Modified
 
 After you've identified the customization levels of widgets on a portal page, check the code in each widget.
 
-To view the widget code from the portal page, click the information icon \(![Information icon](../image/info-icon.png)\) on a widget.
+To view the widget code from the portal page, click the information icon \(\[Omitted image "info-icon.png"\] Alt text: Information icon\) on a widget.
 
-![Widget diagnostics window](../image/widget-diagnostics-window.png)
+\[Omitted image "widget-diagnostics-window.png"\] Alt text: Widget diagnostics window
 
 From the widget diagnostics window, you can check the widget code in several ways:
 
--   [View a widget record from a portal page](../task/view-widget-record.md)
+-   [View a widget record from a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/view-widget-record.md)
 
     View and identify potentially problematic code in the widget record without navigating away from the portal page.
 
--   [View related records](../task/view-related-records.md)
+-   [View related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/view-related-records.md)
 
     View and identify potentially problematic code in the widget dependencies, Angular Providers, and ng-templates that are being used by the widget.
 
--   [Compare changes to related records](../task/compare-related-record-changes.md)
+-   [Compare changes to related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/compare-related-record-changes.md)
 
     Compare an Angular Provider or ng-template against its previous version so that you check if your most recent code changes are causing issues on a portal page.
 
--   [Compare changes to a customized widget](../task/compare-widget-versions.md)
+-   [Compare changes to a customized widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/compare-widget-versions.md)
 
     Compare your most recent update of a customized widget against the previous version to check if your recent changes are causing issues on a portal page.
 
--   [Compare a customized widget against the base system](../task/compare-with-base-system.md)
+-   [Compare a customized widget against the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/compare-with-base-system.md)
 
     Identify customizations to a base system widget so that you can revert your customized widgets and resolve issues on a portal page.
 
@@ -118,13 +119,13 @@ From the widget diagnostics window, you can check the widget code in several way
 
 Of the four customization levels, the highest priority issue is customized widgets. These widgets aren't supported in system upgrades. If you're experiencing page issues during an upgrade, it may be because you have a customized widget on your portal page.
 
-To resolve page issues that may be caused by customized widgets, identify which parts of the widget code have been customized. Then revert the code to the original configuration. For more information on identifying these code differences, see [Compare a customized widget against the base system](../task/compare-with-base-system.md).
+To resolve page issues that may be caused by customized widgets, identify which parts of the widget code have been customized. Then revert the code to the original configuration. For more information on identifying these code differences, see [Compare a customized widget against the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/compare-with-base-system.md).
 
 **Tip:** Even if a customized widget is not causing page issues now, you may want to revert to the original widget to prevent issues during upgrades later.
 
 If you're still experiencing page issues after reverting customized widgets, check your new and cloned widgets next.
 
-With a new widget, it's likely that your most recent code changes are causing issues on your portal page. To identify your most recent changes so that you can debug your code, follow the steps in [Compare changes to related records](../task/compare-related-record-changes.md).
+With a new widget, it's likely that your most recent code changes are causing issues on your portal page. To identify your most recent changes so that you can debug your code, follow the steps in [Compare changes to related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/compare-related-record-changes.md).
 
 If you cloned a widget prior to a system upgrade, it's likely that the cloned widget didn't receive the same updated code as the base system widget. In this case, it's recommended that you clone the widget again and add your customizations to the clone.
 
@@ -140,16 +141,16 @@ There are several known limitations using widget diagnostics from a portal page:
 -   The widget dependencies that are listed on the portal page reflect only the first-level dependencies. Any dependency that is nested deeper than the first level is not included. To further troubleshoot the widget, check the nested dependencies in the widget record.
 -   There is no way for the system to track a Widget Dependency after you've deleted it.
 
--   **[View a widget record from a portal page](../task/view-widget-record.md)**  
+-   **[View a widget record from a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/view-widget-record.md)**  
 View and identify potentially problematic code in the widget record without navigating away from the portal page.
--   **[View related records](../task/view-related-records.md)**  
+-   **[View related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/view-related-records.md)**  
 View and identify potentially problematic code in the widget dependencies, Angular Providers, and ng-templates that are being used by the widget.
--   **[Compare changes to related records](../task/compare-related-record-changes.md)**  
+-   **[Compare changes to related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/compare-related-record-changes.md)**  
 Compare an Angular Provider or ng-template against its previous version so that you check if your most recent code changes are causing issues on a portal page.
--   **[Compare changes to a customized widget](../task/compare-widget-versions.md)**  
+-   **[Compare changes to a customized widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/compare-widget-versions.md)**  
 Compare your most recent update of a customized widget against the previous version to check if your recent changes are causing issues on a portal page.
--   **[Compare a customized widget against the base system](../task/compare-with-base-system.md)**  
+-   **[Compare a customized widget against the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/compare-with-base-system.md)**  
 Identify customizations to a base system widget so that you can revert your customized widgets and resolve issues on a portal page.
 
-**Parent Topic:**[Developing custom widgets](widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/widget-dev-guide.md)
 

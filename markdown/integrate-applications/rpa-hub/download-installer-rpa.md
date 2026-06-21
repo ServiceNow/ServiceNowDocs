@@ -2,6 +2,7 @@
 title: Download the RPA applications from RPA Hub
 description: Select and download the Robotic Process Automation \(RPA\) applications in your Windows machine from RPA Hub as a prerequisite for installing the applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/download-installer-rpa.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -40,9 +41,9 @@ Do this task to download the following RPA applications:
 
 2.  In the RPA Downloads page, do any of the following actions to download the required application:
 
-    -   Select the download icon \(![Download icon.](../image/rpa-hub-download-icon.png)\).
-    -   Select the copy link \(![Copy Link icon.](../image/rpa-hub-copyurl-icon.png)\). In a browser, right-click and select **paste and go** option.
-    ![RPA Downloads.](../image/downloads-rpa.png "RPA Downloads")
+    -   Select the download icon \(\[Omitted image "rpa-hub-download-icon.png"\] Alt text: Download icon.\).
+    -   Select the copy link \(\[Omitted image "rpa-hub-copyurl-icon.png"\] Alt text: Copy Link icon.\). In a browser, right-click and select **paste and go** option.
+    \[Omitted image "downloads-rpa.png"\] Alt text: RPA Downloads.
 
     A dialog box might prompt you to save or open the zip file.
 
@@ -53,11 +54,11 @@ Do this task to download the following RPA applications:
 
 ## What to do next
 
-Install RPA Desktop Design Studio. For more information, see [Install RPA Desktop Design Studio](../../rpa-studio/task/install-rpa-studio.md).
+Install RPA Desktop Design Studio. For more information, see [Install RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/install-rpa-studio.md).
 
-To run an unattended bot process, install Unattended Robot and install Unattended Robot Login Agent. For more information, see [Install Unattended Robot](../../rpa-runtime/task/install-rpa-runtime.md) and [Install Unattended Robot Login Agent](../../rpa-runtime/task/install-rpa-runtime-login-agent.md).
+To run an unattended bot process, install Unattended Robot and install Unattended Robot Login Agent. For more information, see [Install Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/install-rpa-runtime.md) and [Install Unattended Robot Login Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/install-rpa-runtime-login-agent.md).
 
-To run an attended bot process, install Attended Robot. For more information, see [Install Attended Robot](../../rda-runtime/task/install-rda-runtime.md).
+To run an attended bot process, install Attended Robot. For more information, see [Install Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/install-rda-runtime.md).
 
-Add the ServiceNow RPA Chrome extension to your Chrome browser to launch the Robotic Process Automation \(RPA\) applications in this browser and to establish a browser interaction. For more information, see [Add the ServiceNow RPA Chrome extension](add-google-chrome-extension-rpa.md).
+Add the ServiceNow RPA Chrome extension to your Chrome browser to launch the Robotic Process Automation \(RPA\) applications in this browser and to establish a browser interaction. For more information, see [Add the ServiceNow RPA Chrome extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/add-google-chrome-extension-rpa.md).
 

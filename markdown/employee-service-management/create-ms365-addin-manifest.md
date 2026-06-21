@@ -2,7 +2,10 @@
 title: Create a manifest file
 description: Create and download a manifest file with the configurations that you want to enable for the ServiceNow Add-in for Microsoft 365.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-ms365-addin-manifest.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-02"
 reading_time_minutes: 1
@@ -25,9 +28,9 @@ Role required: sn\_outlook\_addin.outlook\_addin\_setup, sn\_hr\_sp.admin, sn\_h
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Office Manifest form](../reference/office-manifest-form.md).
+    For a description of the field values, see [Office Manifest form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/office-manifest-form.md).
 
-    You can also configure single sign-on \(SSO\) for your add-in. For more information, see [Configure single sign-on for ServiceNow Add-in for Microsoft 365](configure-sso-sn-addin-ms365.md).
+    You can also configure single sign-on \(SSO\) for your add-in. For more information, see [Configure single sign-on for ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-sso-sn-addin-ms365.md).
 
 4.  Save the record.
 
@@ -35,7 +38,7 @@ Role required: sn\_outlook\_addin.outlook\_addin\_setup, sn\_hr\_sp.admin, sn\_h
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values, see [Office Control form](../reference/office-control-form.md).
+    For a description of the field values, see [Office Control form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/office-control-form.md).
 
     **Note:** For Office Controls of the type Menu, you can create menu items by using the related list in the Office Control record.
 
@@ -52,8 +55,8 @@ The manifest is configured and activated for the ServiceNow Add-in for Microsoft
 
 ## What to do next
 
--   [Configure single sign-on for ServiceNow Add-in for Microsoft 365](configure-sso-sn-addin-ms365.md)
--   [Upload a manifest to the Microsoft admin center](upload-manifest-ms-admin-center.md)
+-   [Configure single sign-on for ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-sso-sn-addin-ms365.md)
+-   [Upload a manifest to the Microsoft admin center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/upload-manifest-ms-admin-center.md)
 
-**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](../concept/configuring-sn-addin-for-ms365.md)
+**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configuring-sn-addin-for-ms365.md)
 

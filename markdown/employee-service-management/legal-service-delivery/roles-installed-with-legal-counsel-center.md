@@ -2,6 +2,7 @@
 title: Roles installed with Legal Counsel Center
 description: User roles are installed with activation of the Legal Counsel Center Workspace plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/roles-installed-with-legal-counsel-center.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -80,7 +81,7 @@ Workspace user \[workspace\_user\]
 </td></tr></tbody>
 </table>## User roles
 
-Any user with sn\_lg\_ops.legal\_fulfiller and sn\_lg\_ops.request\_fulfiller roles can access Legal Counsel Center. You can customize Legal Counsel Center for different roles depending on assignment group, practice areas, and other access credentials. For more information on customization, see [Configure Legal Counsel Center Workspace](configure-legal-counsel-center-workspace.md).
+Any user with sn\_lg\_ops.legal\_fulfiller and sn\_lg\_ops.request\_fulfiller roles can access Legal Counsel Center. You can customize Legal Counsel Center for different roles depending on assignment group, practice areas, and other access credentials. For more information on customization, see [Configure Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/configure-legal-counsel-center-workspace.md).
 
 ## Accessing Legal Counsel Center
 

@@ -2,6 +2,7 @@
 title: Enable work order management query rules for service organizations \[New in Security Center 1.5 and updated in 2.0\]
 description: Use the sn\_fsm.use\_query\_rules property to apply rules and filters to the Field Service Management tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-enable-work-order-management-query-rules.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -111,8 +112,8 @@ References
 
 </td><td>
 
-[Field Service Management reference](https://www.servicenow.com/docs/access?context=fsm-reference&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US)
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

@@ -2,6 +2,7 @@
 title: Sync document and view policy text
 description: Update the document and view the content in the Policy text field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-compliance-management-workspace/sync-document-view-policy-redlining.html
 release: xanadu
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -27,7 +28,7 @@ Contextually, Cloud refers to documents that reside in Microsoft OneDrive, Micro
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 

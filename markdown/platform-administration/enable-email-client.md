@@ -2,6 +2,7 @@
 title: Enable the email client for a table
 description: Enable the email client for a table so that users can send emails directly from the table record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/enable-email-client.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -29,7 +30,7 @@ The email client is enabled by default on the Incident \[incident\] table. You c
 
     For example, to enable the email client for the Problem \[problem\] table, navigate to **Problem** &gt; **Open**, and then open any problem record.
 
-2.  On the form, select the menu icon \(![Menu icon](../../../build/applications/image/menu-icon.png)\) and then select **Configure** &gt; **Dictionary**.
+2.  On the form, select the menu icon \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) and then select **Configure** &gt; **Dictionary**.
 
 3.  On the Dictionary Entries list, open the record of type **Collection**.
 
@@ -44,5 +45,5 @@ The email client is enabled by default on the Incident \[incident\] table. You c
 6.  Select **Update**.
 
 
-**Parent Topic:**[Configure email client](../concept/configuring-email-client.md)
+**Parent Topic:**[Configure email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configuring-email-client.md)
 

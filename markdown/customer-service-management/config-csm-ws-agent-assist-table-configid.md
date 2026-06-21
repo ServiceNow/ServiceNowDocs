@@ -2,7 +2,10 @@
 title: Configure the Agent Assist and Response Template tabs in the contextual side panel
 description: Add a table configuration for the Agent Assist tab or Response Template tab for custom tables or custom case types in the contextual side panel in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-csm-ws-agent-assist-table-configid.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

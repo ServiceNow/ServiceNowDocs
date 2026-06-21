@@ -2,6 +2,7 @@
 title: Create a topic subscription
 description: Subscribe to the topic in the ServiceNow AI Platform that you want respond to the incoming notification from the external system. By subscribing to the topic, the subscriber receives the notifications based on the topics that you subscribe to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-service-ops/telecommunications-service-operations-management/create-subscription-api-notification.html
 release: xanadu
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -26,7 +27,7 @@ Role required: admin, sn\_api\_notif\_mgmt.subscription\_creator
 
 You subscribe to the available topics for the incoming notifications from the external system, based on the customer preference. You generate the callback URL to share with the customers. When a request from an external system hits the callback URL, it initiates the creation of an event in the Event Management application.
 
-Additionally, you register the topic subscription to start receiving the incoming notifications. When you create a topic subscription, it creates a record in the Topic Subscription \[sn\_api\_notif\_mgmt\_subscription\] table. To learn more about the methods to query and manipulate records in the Topic Subscription, see [TopicSubscriptionUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=TopicSubscriptionUtilAPIScoped&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+Additionally, you register the topic subscription to start receiving the incoming notifications. When you create a topic subscription, it creates a record in the Topic Subscription \[sn\_api\_notif\_mgmt\_subscription\] table. To learn more about the methods to query and manipulate records in the Topic Subscription, see .
 
 ## Procedure
 
@@ -106,5 +107,5 @@ A trigger definition is created for the callback URL and the topic is registered
 
 In the Workflow Studio, you activate the endpoints of the Telecommunications Alarm Management Open API connection.
 
-**Parent Topic:**[Handling the external events using Telecommunications API notification](../concept/telecommunications-api-notification.md)
+**Parent Topic:**[Handling the external events using Telecommunications API notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
 

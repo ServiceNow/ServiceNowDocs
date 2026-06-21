@@ -2,6 +2,7 @@
 title: Learning tasks widgets
 description: The Learning tasks and Learning tasks – Completed \(pre-configured widgets\) help to display learning tasks in the To-dos page in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/ln-tasks-wid.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

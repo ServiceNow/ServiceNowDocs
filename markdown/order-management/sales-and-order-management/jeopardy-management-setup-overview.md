@@ -2,6 +2,7 @@
 title: Jeopardy Management setup overview
 description: Learn about how to set up and configure Jeopardy Management for Order Management for Telecommunications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/jeopardy-management-setup-overview.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

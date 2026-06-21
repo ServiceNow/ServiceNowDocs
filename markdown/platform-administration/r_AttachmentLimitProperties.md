@@ -2,6 +2,7 @@
 title: Attachment limit properties
 description: Several properties control email attachment limits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_AttachmentLimitProperties.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -94,5 +95,5 @@ Reports can be scheduled for email distribution as attachments. Large reports ma
 
 If a user attempts to export numerous records from a list that exceeds a configured warning threshold, a dialog box offers the option to email the exported records as an attachment. If the attachment exceeds the outbound attachment size limit, the system sends the email without the exported record list attached and logs a warning message.
 
-**Parent Topic:**[Email size limits](../concept/c_EmailAttachmentLimits.md)
+**Parent Topic:**[Email size limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailAttachmentLimits.md)
 

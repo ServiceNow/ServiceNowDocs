@@ -2,6 +2,7 @@
 title: Visualization Designer roles
 description: There are several roles associated with the Visualization Designer and Visualization Library. Roles limit what users can do with visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/visualization-designer-roles.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -134,7 +135,7 @@ Any role, to delete a data visualization that you created. viz\_admin or higher 
 
 </td></tr><tr><td>
 
-[Control data source availability by role](../task/dv-use-data-source-acl.md)
+[Control data source availability by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/dv-use-data-source-acl.md)
 
 </td><td>
 
@@ -142,7 +143,7 @@ admin
 
 </td></tr><tr><td>
 
-[Configure chart interactions](../../reporting/task/configure-go-data.md)
+[Configure chart interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/configure-go-data.md)
 
 </td><td>
 
@@ -150,7 +151,7 @@ Any role if you have the right to edit the data visualization. The viewer needs 
 
 </td></tr><tr><td>
 
-[Use service catalog variables in data visualizations](../../reporting/concept/dv-rep-sc-variables.md#)
+[Use service catalog variables in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/dv-rep-sc-variables.md)
 
 </td><td>
 
@@ -158,12 +159,12 @@ viz\_creator or higher
 
 </td></tr><tr><td>
 
-[Create coloring rules for data visualizations](../../performance-analytics/concept/colors-dv.md#)
+[Create coloring rules for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/colors-dv.md)
 
 </td><td>
 
 Any role if you have the right to edit the data visualization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+</table>**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

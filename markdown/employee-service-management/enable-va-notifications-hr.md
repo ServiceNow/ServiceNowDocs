@@ -2,7 +2,10 @@
 title: Enable Virtual Agent notifications for HR Service Delivery
 description: Configure system properties to enable Virtual Agent notifications in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/enable-va-notifications-hr.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -38,5 +41,5 @@ After upgrading to [HR Service Delivery for Microsoft 365](https://store.service
     The comment notifications for all HR Core and HR Task tables are enabled.
 
 
-**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](../concept/sn-ms-teams-config-hr.md)
+**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-ms-teams-config-hr.md)
 

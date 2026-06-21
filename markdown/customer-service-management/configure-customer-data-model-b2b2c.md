@@ -2,7 +2,10 @@
 title: Configure Customer Data Models for B2B2C
 description: Configure the Customer Data Models for B2B2C application to enable business customers to support their end consumers by creating cases and tracking the services for products and services consumers use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-customer-data-model-b2b2c.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -22,8 +25,8 @@ With the business-to-business-to-consumer \(B2B2C\) model, you can support busin
 -   Employees of a business customer.
 -   End consumers of a business customer.
 
-1.  [Activate the Customer Data Models for B2B2C plugin](../task/activate-customer-data-models-b2b2c.md).
-2.  [Configure the Account and Consumer forms](../task/config-b2b2c-data-model-forms.md).
-3.  [Configure the Install Base Items and Sold Products lists](../task/config-b2b2c-data-model-lists.md).
-4.  [Configure the Case list](../task/config-b2b2c-data-model-case-list.md).
+1.  [Activate the Customer Data Models for B2B2C plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-customer-data-models-b2b2c.md).
+2.  [Configure the Account and Consumer forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-b2b2c-data-model-forms.md).
+3.  [Configure the Install Base Items and Sold Products lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-b2b2c-data-model-lists.md).
+4.  [Configure the Case list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-b2b2c-data-model-case-list.md).
 

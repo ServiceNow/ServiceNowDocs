@@ -2,6 +2,7 @@
 title: Working with Regulations
 description: This page provides dispute agents with the information they need to handle dispute cases effectively and allows dispute managers to monitor case progress and take necessary actions to ensure compliance. The integration with the Dispute Content Pack for US Regulations application helps issuers track dispute cases governed by US regulations \(Reg E and Reg Z\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/working-with-regulations.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -17,9 +18,9 @@ This page provides dispute agents with the information they need to handle dispu
 
 ## Creating card dispute case
 
-Agents can manage dispute cases for their customers by using the dispute service case and its tasks. To learn on how to create a card dispute case, see[Create a card dispute service case](../task/create-dispute-service-case.md).
+Agents can manage dispute cases for their customers by using the dispute service case and its tasks. To learn on how to create a card dispute case, see[Create a card dispute service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/create-dispute-service-case.md).
 
-This process includes various stages. For more details on these stages, see [Dispute workflows](dispute-management-workflows.md).
+This process includes various stages. For more details on these stages, see [Dispute workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management-workflows.md).
 
 ## Dispute categories
 
@@ -44,7 +45,7 @@ Dispute categories include Fraud, Authorization, Processing Error, and Consumer 
 
 ## Dispute questionnaire
 
-When a dispute agent or cardholder opens a dispute, they are presented with a corresponding set of questions. Designing clear, simple questions streamlines information gathering, helping customers or front-office agents understand and respond easily. For more details on configuring the questionnaire, see [Dispute intake](dispute-questionnaire.md).
+When a dispute agent or cardholder opens a dispute, they are presented with a corresponding set of questions. Designing clear, simple questions streamlines information gathering, helping customers or front-office agents understand and respond easily. For more details on configuring the questionnaire, see [Dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-questionnaire.md).
 
 ## Dispute decision tables
 
@@ -54,14 +55,14 @@ The following table lists the decision tables used in Dispute Rules Content Pack
 |--------------|-----------|
 |Reg E resolution days |Determines the Reg E resolution days for a Case based on transaction type and country. The default duration is set to 45 days.|
 
-For more information on the Decision tables that provide the logic for processing card disputes, see [Dispute decision tables](dispute-decision-tables.md)
+For more information on the Decision tables that provide the logic for processing card disputes, see [Dispute decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-decision-tables.md)
 
 ## About the Dispute Content Pack for US Regulations
 
 The Dispute Content Pack for US Regulations designed to help financial institutions comply with US regulatory requirements for dispute management. This content pack includes predefined rules and workflows that align with US regulations, ensuring that all necessary steps are taken to handle disputes in accordance with the law.
 
--   **[Dispute Content Pack for US Regulations](../../dispute-content-pack-US-regulation/concept/dispute-content-pack-for-us-regulation-landing-page.md)**  
+-   **[Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.md)**  
 The ServiceNow® Dispute Content Pack for US Regulations enables issuers in the United States \(US\) to track dispute cases and conform with regulatory guidelines.
 
-**Parent Topic:**[Dispute Management](../../fso-deposit-operations/concept/dispute-management.md)
+**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management.md)
 

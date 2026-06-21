@@ -2,13 +2,14 @@
 title: Managing the Threat Lookup Reputation Calculator
 description: You can use the Threat Lookup Finding Calculator to calculate the observable findings based on the responses received from threat lookup vendor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/manage-threat-lookup-reputation-calculator.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
-breadcrumb: [Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Managing the Threat Lookup Reputation Calculator
@@ -45,7 +46,7 @@ To view the Threat Lookup Reputation Calculator, perform the following steps:
 
 3.  Click on the required Threat Lookup Reputation Calculator to view the details of the calculator.
 
-    ![View Threat Lookup Reputation Calculators](../image/enrich-view-threat-calculator.png)
+    \[Omitted image "enrich-view-threat-calculator.png"\] Alt text: View Threat Lookup Reputation Calculators
 
 
 ## Create Threat Lookup Reputation Calculator
@@ -63,7 +64,7 @@ To create a Threat Lookup Reputation Calculator, perform the following steps:
 
 3.  To create a Threat Lookup Reputation Calculator, click **New**.
 
-    ![Create aThreat Lookup Reputation Calculator](../image/enrich-create-threat-calculator.png)
+    \[Omitted image "enrich-create-threat-calculator.png"\] Alt text: Create aThreat Lookup Reputation Calculator
 
 4.  On the form, fill the fields.
 

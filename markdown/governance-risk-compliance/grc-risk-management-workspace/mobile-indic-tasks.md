@@ -2,6 +2,7 @@
 title: Assign Risk Management indicator tasks with the GRC Mobile application
 description: Assign unassigned indicator tasks to a member of your assignment group. An indicator task is related to a Risk record that is assigned to your compliance group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-indic-tasks.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -25,25 +26,25 @@ Assign an Indicator Task from the list of records. Alternatively, view the detai
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](mobile-login-risk-mobileapp.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.md).
 
 2.  With the Risk landing screen displayed, under the `Team's Unassigned Work` section, tap **Indicator Tasks**.
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![Indicator tasks applet highlighted.](../image/mobile_Risk_overview-app-redo.png)
+    \[Omitted image "mobile\_Risk\_overview-app-redo.png"\] Alt text: Indicator tasks applet highlighted.
 
     The Indicator Tasks screen is displayed with a list of records.
 
-    ![Indicator tasks record list.](../image/mobile-risk-indatask-list.jpg)
+    \[Omitted image "mobile-risk-indatask-list.jpg"\] Alt text: Indicator tasks record list.
 
-3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](mobile-risk-set-filters.md) to search for records that match specific search criteria.
+3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To assign a task directly from the list of records displayed on the Indicator Tasks screen, swipe left on a record to open the menu.
 
-    ![Swipe action on indicator task record.](../image/mobile-risk-indic-tasks-swipe.jpg)
+    \[Omitted image "mobile-risk-indic-tasks-swipe.jpg"\] Alt text: Swipe action on indicator task record.
 
 5.  Tap **Assign**.
 
@@ -53,7 +54,7 @@ Assign an Indicator Task from the list of records. Alternatively, view the detai
 
     The name of the user is displayed on the Assign Indicator Task screen. You can assign indicator tasks to any user.
 
-7.  Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
+7.  Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
     After you assign the task to a user, the record is no longer displayed on the Indicator Tasks list.
 
@@ -61,35 +62,35 @@ Assign an Indicator Task from the list of records. Alternatively, view the detai
 
 9.  With the fields on the record displayed, choose one in the following table to continue.
 
-    ![Indicator task record details.](../image/mobile-risk-indc-task-record.jpg)
+    \[Omitted image "mobile-risk-indc-task-record.jpg"\] Alt text: Indicator task record details.
 
-<table id="choicetable_qrs_kqz_13b"><thead><tr><th align="left" id="d335684e236">
+<table id="choicetable_qrs_kqz_13b"><thead><tr><th align="left" id="d265346e236">
 
 Option
 
-</th><th align="left" id="d335684e239">
+</th><th align="left" id="d265346e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d335684e245">
+</th></tr></thead><tbody><tr><td id="d265346e245">
 
 **Details tab**
 
 </td><td>
 
-With the Details tab selected, to assign the record, at the top right of the screen, tap the menu icon \(![Menu icon](../../grc-common/image/mobile-top-menu.png)\). Follow the steps described in the preceding table.
+With the Details tab selected, to assign the record, at the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\). Follow the steps described in the preceding table.
 
-</td></tr><tr><td id="d335684e260">
+</td></tr><tr><td id="d265346e260">
 
 **Activity Stream tab**
 
 </td><td>
 
-With the Activity Stream tab selected, choose one to continue.-   View work notes and additional comments. Tap the plus icon \(![Plus icon.](../../grc-common/image/mobile_instances_plus.png)\) to add a work note or attach a file.
--   At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\). Tap Assign. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
+With the Activity Stream tab selected, choose one to continue.-   View work notes and additional comments. Tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\) to add a work note or attach a file.
+-   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\). Tap Assign. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
 
-</td></tr><tr><td id="d335684e299">
+</td></tr><tr><td id="d265346e299">
 
 **Tap a screen icon at the bottom of the screen.**
 
@@ -104,5 +105,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Risk icon to ret
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Mobile experience for GRC Risk Management](../concept/mobile-risk-overview.md)
+**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
 

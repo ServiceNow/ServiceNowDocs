@@ -2,6 +2,7 @@
 title: ERP-CM similar candidates field descriptions
 description: The Similar candidates tab in ERP Customization Mining \(ERP-CM\) displays information on similar candidates for replatforming ERP \(Enterprise Resource Planning\) apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-similar-candidates-field-descriptions.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -71,7 +72,7 @@ Similarity
 
 Numeric score representing how similar the candidates are, from 0 through 1.A higher score, for example 0.94, indicates very similar candidates.
 
-For more information, see [Recommendations and similar candidates in ERP-CM](../concept/erpcm-recommendations-and-similar-candidates.md).
+For more information, see [Recommendations and similar candidates in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-recommendations-and-similar-candidates.md).
 
 </td></tr><tr><td>
 
@@ -90,5 +91,5 @@ Updated
 Date and time the similar candidate details were most recently updated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

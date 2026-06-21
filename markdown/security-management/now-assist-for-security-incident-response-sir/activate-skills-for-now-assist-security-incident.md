@@ -2,6 +2,7 @@
 title: Configure and activate a skill for Now Assist for Security Incident Response
 description: Configure and review the details for a skill in the Guided Setup. You can activate a skill from the Guided Setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.html
 release: xanadu
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -26,7 +27,7 @@ Role required: admin
 
 2.  Select **Security Operations** from the list.
 
-    You cannot edit the skills that are included with the application. To edit the default settings, you must make a copy. For more information about customizing a skill, see [Customize a Now Assist for Security Incident Response skill](cust-now-assist-security-incident-skill.md).
+    You cannot edit the skills that are included with the application. To edit the default settings, you must make a copy. For more information about customizing a skill, see [Customize a Now Assist for Security Incident Response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
 
     These Security Incident Response skills are displayed:
 
@@ -36,7 +37,7 @@ Role required: admin
 
         **Note:**
 
-        This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](assess-metrics-sir-aiagent.md) for more information.
+        This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
 
     -   Correlation insights generation
     -   Post incident analysis
@@ -66,7 +67,7 @@ Role required: admin
 
     If you choose to modify fields, select only the supported options from the lists provided as part of your input data.
 
-    If you modify the inputs or triggers for a skill, you determine how and when a skill is used. You can't modify a skill's input data source. The data source contains the tables and fields that the skill relies on. However, you can copy a skill and customize it. For more information, see [Customize a Now Assist for Security Incident Response skill](cust-now-assist-security-incident-skill.md).
+    If you modify the inputs or triggers for a skill, you determine how and when a skill is used. You can't modify a skill's input data source. The data source contains the tables and fields that the skill relies on. However, you can copy a skill and customize it. For more information, see [Customize a Now Assist for Security Incident Response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
 
 8.  If available, select **Customize Prompt** to test the prompt on a security incident record.
 
@@ -74,15 +75,15 @@ Role required: admin
 
 10. Choose one of the following options to define availability.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d372685e285">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d73319e285">
 
 Option
 
-</th><th align="left" id="d372685e288">
+</th><th align="left" id="d73319e288">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d372685e294">
+</th></tr></thead><tbody><tr><td id="d73319e294">
 
 **Skill is always available**
 
@@ -90,7 +91,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d372685e303">
+</td></tr><tr><td id="d73319e303">
 
 **Customize skill availability**
 
@@ -103,17 +104,17 @@ The skill is available only when certain conditions are met \(Default\).Use the 
 
 12. Choose **Select display**.
 
-    Select the expand icons \(![Expand icon.](../image/icon-expand.png)\) in the sections under Select Display to determine where you'd like the skill to display and who can view it. Skills might have some or all of the following options after you expand a section.
+    Select the expand icons \(\[Omitted image "icon-expand.png"\] Alt text: Expand icon.\) in the sections under Select Display to determine where you'd like the skill to display and who can view it. Skills might have some or all of the following options after you expand a section.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d372685e353">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d73319e353">
 
 Option
 
-</th><th align="left" id="d372685e356">
+</th><th align="left" id="d73319e356">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d372685e362">
+</th></tr></thead><tbody><tr><td id="d73319e362">
 
 **In-product desktop**
 
@@ -121,17 +122,17 @@ Description
 
 Select the **Display** toggle so that Now Assist skills with this option are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d372685e377">
+</td></tr><tr><td id="d73319e377">
 
 **Now Assist panel**
 
 </td><td>
 
-Select the **Display** toggle to display the skill in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Select the **Display** toggle to display the skill in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
 The security incident recommended actions and post-incident analysis skills are not available from the Now Assist panel.
 
-</td></tr><tr><td id="d372685e408">
+</td></tr><tr><td id="d73319e407">
 
 **Conversational experiences**
 

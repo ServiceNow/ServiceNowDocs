@@ -2,7 +2,10 @@
 title: Test the policy
 description: Test the Cloud Configuration Governance policy against the configuration data imported for a previous scan run. Test the policy to make sure that it is working properly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/test-ccg-policy.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

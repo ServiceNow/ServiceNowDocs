@@ -2,6 +2,7 @@
 title: Update configuration items with the network partition identifier for the Qualys Integration
 description: Create unique configuration items \(CIs\) for assets in your environment that share IP addresses. Identify the distinct assets across your environment and automatically update the CIs on your existing discovered item, vulnerable item, and detection records to give you more details about your vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/qualys-updateci-npi-cc.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -58,7 +59,7 @@ Starting with v14.0 of Vulnerability Response and v12.1 of the Qualys Vulnerabil
 
 4.  Choose **Host Detection Configuration**.
 
-5.  Choose **Enable Lookup By Network Partition** check box from the **Lookup By Network Partition** section.![Qulays Lookup By Network Partition check box](../../../secops-integration-vr/qualys/image/qualys-update-by-network-partition.png)
+5.  Choose **Enable Lookup By Network Partition** check box from the **Lookup By Network Partition** section.\[Omitted image "qualys-update-by-network-partition.png"\] Alt text: Qulays Lookup By Network Partition check box
 
 6.  Click **Finish**.
 
@@ -77,5 +78,5 @@ Starting with v14.0 of Vulnerability Response and v12.1 of the Qualys Vulnerabil
     After you activate the scheduled job and save the records, you alternatively can update your existing discovered items with CIs that include the network partition identifier by launching scheduled jobs on-demand. The CIs on your existing discovered item, vulnerable item, and detection records are automatically updated.
 
 
-**Parent Topic:**[Qualys integration with Configuration Compliance](../concept/Qualys-cc-Integration.md)
+**Parent Topic:**[Qualys integration with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/Qualys-cc-Integration.md)
 

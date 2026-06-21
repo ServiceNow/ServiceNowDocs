@@ -2,6 +2,7 @@
 title: Map the self-registration configuration to Supplier Collaboration Portal
 description: Map the external user self-registration configuration to the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ Map the external user self-registration configuration to the Supplier Collaborat
 
 ## Before you begin
 
-[Configure self-registration for external users](config-reg-for-external-users-slm.md).
+[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md).
 
 Role required: admin
 
@@ -36,7 +37,7 @@ Role required: admin
 
 ## What to do next
 
-Supplier contacts can self-register to the Supplier Collaboration Portal. For more information, see [Self-register to the Supplier Collaboration Portal](self-reg-to-supp-central.md).
+Supplier contacts can self-register to the Supplier Collaboration Portal. For more information, see [Self-register to the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/self-reg-to-supp-central.md).
 
-**Parent Topic:**[Configure self-registration for external users](config-reg-for-external-users-slm.md)
+**Parent Topic:**[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)
 

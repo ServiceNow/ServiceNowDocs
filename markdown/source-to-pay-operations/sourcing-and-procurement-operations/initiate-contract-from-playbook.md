@@ -2,6 +2,7 @@
 title: Initiate a contract request from the playbook
 description: Initiate a contract request for sourcing requests or negotiation event from the playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-playbook.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -42,5 +43,5 @@ Role required: admin
 9.  Select **Initiate**.
 
 
-**Parent Topic:**[Initiate a contract request](initiate-contract-request.md)
+**Parent Topic:**[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-request.md)
 

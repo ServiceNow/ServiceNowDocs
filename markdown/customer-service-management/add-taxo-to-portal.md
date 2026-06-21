@@ -2,7 +2,10 @@
 title: Add a taxonomy to your portal
 description: Create a taxonomy to organize knowledge articles and catalog items under topics which are relevant to your user. Associate a taxonomy to your portal to display the relevant topics on the widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/add-taxo-to-portal.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

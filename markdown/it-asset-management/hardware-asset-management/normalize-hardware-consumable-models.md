@@ -2,6 +2,7 @@
 title: Normalize hardware and consumable models
 description: After you've created your hardware and consumable models, normalize the information of the model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -35,7 +36,7 @@ Role required: admin or asset
     -   **Product Catalog** &gt; **Product Models** &gt; **Consumable Models**
 2.  To create a model, select **New**.
 
-3.  On the Hardware Model or Consumable Model form, [fill in the details](create-hardware-consumable-model.md).
+3.  On the Hardware Model or Consumable Model form, [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
 
 4.  Select **Save**.
 
@@ -51,7 +52,7 @@ Role required: admin or asset
 
         All normalization fields are cleared and you can manually normalize your model.
 
-        **Note:** This option is only available if the model is Fully Normalized, Partially Normalized, or Manufacturer Normalized. **Revert Normalization** is visible only to users with the ham\_admin role in a non-domain separated instance and is visible to users with the role ham\_admin + domain\_admin in a domain-separated instance. For more information, see [Revert normalization of hardware and consumable models](revert-norm-ham.md).
+        **Note:** This option is only available if the model is Fully Normalized, Partially Normalized, or Manufacturer Normalized. **Revert Normalization** is visible only to users with the ham\_admin role in a non-domain separated instance and is visible to users with the role ham\_admin + domain\_admin in a domain-separated instance. For more information, see [Revert normalization of hardware and consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/revert-norm-ham.md).
 
 6.  Select **Save**.
 
@@ -64,7 +65,7 @@ You've created a hardware model for the Lenovo ThinkPad T43 and you want your as
 
 Review the normalization status of the model by selecting the **Normalization** section.
 
-![Normalization related list with details added.](../image/partially-normalized-example.png "Normalization status")
+\[Omitted image "partially-normalized-example.png"\] Alt text: Normalization related list with details added.
 
 The normalization status is set to Partially Normalized because the name of the model is missing.
 
@@ -74,7 +75,7 @@ Select **Save**.
 
 The **Normalization Status** field displays **Manually Normalized**.
 
-![The Normalization Status field is updated to Manually Normalized.](../image/manually-normalized-example.png "Manually Normalized status")
+\[Omitted image "manually-normalized-example.png"\] Alt text: The Normalization Status field is updated to Manually Normalized.
 
-**Parent Topic:**[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

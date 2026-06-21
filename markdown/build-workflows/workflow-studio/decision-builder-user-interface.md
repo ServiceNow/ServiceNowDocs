@@ -2,6 +2,7 @@
 title: Decision Builder user interface
 description: Learn more about the decision tables user interface in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/decision-builder-user-interface.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -17,19 +18,19 @@ Learn more about the decision tables user interface in Workflow Studio.
 
 ## Decision tables homepage in Workflow Studio
 
-![Decision tables section of Workflow Studio](../image/workflow-studio-home-dec.png)
+\[Omitted image "workflow-studio-home-dec.png"\] Alt text: Decision tables section of Workflow Studio
 
 You can do the following on the Decision tables homepage in Workflow Studio:
 
 -   Create a table by selecting **New** and selecting **Decision table**.
 -   Open a table that you've already created.
 -   Sort and filter the list of your decision tables.
--   Edit the available columns by selecting the List Actions icon \(![](../../../build/app-engine-studio/image/gear-icon.png)\).
+-   Edit the available columns by selecting the List Actions icon \(\[Omitted image "gear-icon.png"\] Alt text:\).
 -   Delete selected decision tables.
 
 ## New decision table
 
-![New decision table page](../image/db-new-table.png)
+\[Omitted image "db-new-table.png"\] Alt text: New decision table page
 
 You can do the following on a new decision table:
 
@@ -40,7 +41,7 @@ You can do the following on a new decision table:
 
 ## Decision table
 
-![New decision table with an input being created](../image/db-empty-table.png)
+\[Omitted image "db-empty-table.png"\] Alt text: New decision table with an input being created
 
 When you first create a decision table, you can do the following:
 
@@ -53,7 +54,7 @@ When you first create a decision table, you can do the following:
 
 ## Complete decision table
 
-![Complete decision table](../image/db-complete-table.png)
+\[Omitted image "db-complete-table.png"\] Alt text: Complete decision table
 
 On a saved decision table, you can do the following:
 
@@ -63,5 +64,5 @@ On a saved decision table, you can do the following:
 -   Export to Excel, edit the decision rows again, and import into Decision Builder to update the decision table.
 -   Test your decision table to make sure the rules provide the desired outcome for a given set of input data.
 
-**Parent Topic:**[Exploring decision tables](decision-designer-overview.md)
+**Parent Topic:**[Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/decision-designer-overview.md)
 

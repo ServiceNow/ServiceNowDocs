@@ -2,6 +2,7 @@
 title: Set up Ethoca spoke
 description: Integrate the ServiceNow instance with the Ethoca account using the OAuth protocol \(version 1.0a\) for secure authorization to authenticate ServiceNow requests.Use the certificate generated during the Ethoca account configuration to sign the request and payloads.Create a credential record for your Ethoca account. The Ethoca spoke connection and credential alias uses these credentials to authorize actions.Create a connection record for your Ethoca account. The Ethoca spoke connection and credential aliases use these connections to perform actions in Ethoca.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/set-up-ethoca-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -48,7 +49,7 @@ Use the certificate generated during the Ethoca account configuration to sign th
     |Active|Option to make the client certificate active.|
     |Short description|Short description of the user client certificate.|
 
-4.  Click the manage attachments icon \(![Manage attachments icon.](../image/attachments-icon.png)\) and attach a Ethoca certificate.
+4.  Click the manage attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Manage attachments icon.\) and attach a Ethoca certificate.
 
 5.  Click **Validate Stores/Certificates** to validate the certificate.
 

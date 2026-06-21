@@ -2,6 +2,7 @@
 title: Audit enterprise asset inventory
 description: Audit your enterprise asset inventory to learn where your assets are and what their current status is.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
-You can use the [Mobile Agent application for Enterprise Asset Management](../concept/eam-mobile-agent-app.md) to scan asset tags or enter them manually. If an asset is scanned but its asset tag does not exist in our database, then by default, that asset is mapped to an unknown model record. The unknown model record appears on the **All enterprise models** tab of the **Model Management** view in the Enterprise Asset Workspace. The asset manager manually associates this asset to the appropriate model. You can't change, update or delete an unknown model.
+You can use the [Mobile Agent application for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/eam-mobile-agent-app.md) to scan asset tags or enter them manually. If an asset is scanned but its asset tag does not exist in our database, then by default, that asset is mapped to an unknown model record. The unknown model record appears on the **All enterprise models** tab of the **Model Management** view in the Enterprise Asset Workspace. The asset manager manually associates this asset to the appropriate model. You can't change, update or delete an unknown model.
 
 **Note:** Starting with Enterprise Asset Management version 9.0, you can also audit the licensed hardware assets in the Enterprise Asset Workspace only if the Hardware Asset Management application is activated.
 
@@ -156,5 +157,5 @@ Date on which you want to scan the assets.
     |New|Number of assets that were scanned but do not have a record in your ServiceNow instance.|
 
 
-**Parent Topic:**[Create and manage enterprise asset inventory](../concept/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

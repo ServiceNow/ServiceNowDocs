@@ -2,6 +2,7 @@
 title: Delete a visualization in the Visualization Designer
 description: You can delete a data visualization that is no longer useful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/delete-visualization-vd.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -26,12 +27,12 @@ Role required: You can delete any data visualization that you created. If you ha
 
 2.  Open the data visualization that you want to delete.
 
-3.  From the More actions menu \(![More actions menu icon](../image/icon-vert-3dot-p.png)\), select **Delete**.
+3.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\), select **Delete**.
 
 4.  Confirm the deletion.
 
     You cannot undo this action.
 
 
-**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

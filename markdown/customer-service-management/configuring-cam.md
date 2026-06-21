@@ -2,7 +2,10 @@
 title: Configure customer access management
 description: Ensure that the customer access management is set up correctly for the user by completing all configuration tasks using the Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configuring-cam.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,9 +22,9 @@ Customer access management enables you to support multiple contacts and consumer
 
 |Task|Description|
 |----|-----------|
-|[Customer access management tables and plugins](../reference/csm-cust-access-mgmt-tables.md).|Add new tables or modify existing tables to enable customer access management.|
-|[Install roles with customer access management](../reference/r_rolesinstalledwithcustaccessmgmt.md).|Use different predefined functional and granular roles to establish relationships between users and entities.|
-|[Create a responsibility definition](../task/t_CreateAResponsibilityDefinition.md)|Define a role or responsibility that can support your organization and users in the Customer Service Management \(CSM\) application.|
-|[Configure access through the responsibility access configuration](../task/declarative-resposibility-framework.md)|Streamline how you create and update your responsibility definitions and access configurations by using the declarative responsibility framework in the Customer Service Management \(CSM\) application.|
-|[Add related party configurations to cases, sold products, install bases, or service organizations](../task/adding-related-party-config-to-case.md).|Link related party entity responsibilities to responsibility definitions by adding related party configurations to a case.|
+|[Customer access management tables and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-cust-access-mgmt-tables.md).|Add new tables or modify existing tables to enable customer access management.|
+|[Install roles with customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md).|Use different predefined functional and granular roles to establish relationships between users and entities.|
+|[Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/t_CreateAResponsibilityDefinition.md)|Define a role or responsibility that can support your organization and users in the Customer Service Management \(CSM\) application.|
+|[Configure access through the responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/declarative-resposibility-framework.md)|Streamline how you create and update your responsibility definitions and access configurations by using the declarative responsibility framework in the Customer Service Management \(CSM\) application.|
+|[Add related party configurations to cases, sold products, install bases, or service organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/adding-related-party-config-to-case.md).|Link related party entity responsibilities to responsibility definitions by adding related party configurations to a case.|
 

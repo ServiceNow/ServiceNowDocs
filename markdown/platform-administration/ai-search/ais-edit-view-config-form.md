@@ -2,6 +2,7 @@
 title: Edit view config form
 description: The Edit view config form contains information about EVAM view configurations defined for search application configurations in AI Search. Use this form when creating or modifying a view configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/ais-edit-view-config-form.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [AI Search Admin Console reference, AI Search Admin console, Service
 
 The Edit view config form contains information about EVAM view configurations defined for search application configurations in AI Search. Use this form when creating or modifying a view configuration.
 
-For details on creating or modifying a view configuration, see [Create or edit an EVAM view definition](../task/ais-admin-console-evam-configurations.md).
+For details on creating or modifying a view configuration, see [Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ais-admin-console-evam-configurations.md).
 
 ## Edit view config form
 

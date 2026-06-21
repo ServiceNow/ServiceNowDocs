@@ -2,6 +2,7 @@
 title: Example - Teams using Workforce Optimization for Customer Service
 description: Understand how you can manage your teams from a single location using an example.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/example-teams-configurable-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -37,11 +38,7 @@ Managers can set up and use Teams by performing the following steps:
 
 Get an overview of how you can set up team performance and how KPI aggregates are calculated.
 
-Workforce Optimization for Customer Service Set Up Team Performance
-
 Get an overview of how you can analyze team performance in this video.
 
-Workforce Optimization for Customer Service Analyze Team Performance
-
-For detailed information on how to setup and use Teams, see [teams](setting-teams-configurable-wfo-cs.md#).
+For detailed information on how to setup and use Teams, see [teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setting-teams-configurable-wfo-cs.md).
 

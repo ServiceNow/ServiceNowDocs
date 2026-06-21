@@ -2,6 +2,7 @@
 title: Modify the my favorites widget display
 description: The My Favorites widget displays the favorited content for quick use. You can configure the instance options to control the appearance of the widget, such as the title and number of items to display you want to view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/config-favorites-instance-options.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +30,7 @@ Role required: sp\_admin or admin
 
     Instance options page appears.
 
-    ![Instance options](../images/favorites-instance-options.png "Instance options")
+    \[Omitted image "favorites-instance-options.png"\] Alt text: Instance options
 
     .
 
@@ -103,8 +104,8 @@ You may make the load configuration Synchronous for the widgets visible on the H
 </td></tr></tbody>
 </table>4.  Click **Save**.
 
-    For more information, see [Cross-channel favorites](../concept/app-launcher-usability.md).
+    For more information, see [Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/app-launcher-usability.md).
 
 
-**Parent Topic:**[Customize the Employee Center with widgets](../concept/emp-center-topic-inst-options.md)
+**Parent Topic:**[Customize the Employee Center with widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md)
 

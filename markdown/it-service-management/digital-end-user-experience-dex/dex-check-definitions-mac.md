@@ -2,6 +2,7 @@
 title: DEX check definitions for macOS
 description: Check definitions for macOS are predetermined sets of rules and criteria that assess the performance, security, and conformance of macOS devices. These checks can cover various aspects such as CPU usage, memory usage, battery details, and firewall status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/dex-check-definitions-mac.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -762,5 +763,5 @@ cache\_path = &lt;Path to the cache folder&gt;
 Clears the application cache.**Note:** Cache path is supported for Zoom, Microsoft Outlook, and Microsoft Teams. Enter cache path without the path to the user. For example, if the cache is at path C:\\User\\&lt;UserName&gt;\\AppData\\Roaming\\Zoom\\data enter AppData\\Roaming\\Zoom\\data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Content Playbook reference](dex-content-playbook-reference.md)
+</table>**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
 

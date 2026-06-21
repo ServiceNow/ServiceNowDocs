@@ -2,6 +2,7 @@
 title: Integrating Virtual Agent with consumer messaging apps
 description: Integrating consumer messaging apps such as LINE, Twilio, WhatsApp, Google Business Messages, and Facebook Messenger with ServiceNow Virtual Agent associates the app with your ServiceNow instance to facilitate end-to-end conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/integ-va-consumer-apps.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

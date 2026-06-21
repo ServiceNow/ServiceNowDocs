@@ -2,6 +2,7 @@
 title: Using Now Assist for Financial Services Operations \(FSO\)
 description: If you have an agent role, you can summarize the case details with the Now Assist for Financial Services Operations \(FSO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.html
 release: xanadu
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -17,10 +18,10 @@ If you have an agent role, you can summarize the case details with the Now Assis
 
 Summarize the case details to understand the case context quicker. These summaries are useful for long-running or complex cases.
 
--   **[Summarize a case by using Now Assist for Financial Services Operations \(FSO\)](../task/summarize-case-using-now-assist-fso.md)**  
+-   **[Summarize a case by using Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-case-using-now-assist-fso.md)**  
 Generate a summary from the defined fields on the case record and quickly understand the case context by using the case summarization skill in the Now Assist for Financial Services Operations \(FSO\) application.
--   **[Request generative AI capabilities in Financial Services Operations with Now Assist panel](../task/request-generative-ai-capabilities-in-fso.md)**  
+-   **[Request generative AI capabilities in Financial Services Operations with Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/request-generative-ai-capabilities-in-fso.md)**  
 Request the contextual generative AI capabilities, such as a case summary, in the Financial Services Operations \(FSO\) application by using the conversational interface in the Now Assist panel.
 
-**Parent Topic:**[Now Assist for Financial Services Operations \(FSO\)](now-assist-for-financial-services-operations.md)
+**Parent Topic:**[Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
 

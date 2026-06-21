@@ -2,6 +2,7 @@
 title: Get product recommendations using needs analysis
 description: Choose a needs template from the product selection guide in the product catalog to get product recommendations for sales opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opp-mgmt-use-needs-analysis.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -30,7 +31,7 @@ A needs template is a questionnaire that you complete to create product recommen
 2.  Navigate to **Opportunity** &gt; **All**.
 
     -   To work on an existing opportunity, select the opportunity.
-    -   To [create an opportunity](../concept/create-new-opportunity.md), select **New**.
+    -   To [create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-new-opportunity.md), select **New**.
 
         Immediately after you create the opportunity, a message confirms that the opportunity was created. To continue working on the opportunity, select the link in the message.
 
@@ -48,7 +49,7 @@ A needs template is a questionnaire that you complete to create product recommen
 
 6.  After replying to the last question, review or select the recommendations:
 
-    -   To review your responses, select the **Edit** ![](../../../reuse/itom/image/workspace-icon-edit.png) icon. You can change your responses if needed.
+    -   To review your responses, select the **Edit** \[Omitted image "workspace-icon-edit.png"\] Alt text: icon. You can change your responses if needed.
     -   To view product recommendations, choose **Select Recommendations**. The Catalog tab displays the recommended products.
 7.  Choose a recommendation by selecting **Add** in the card for the product that best matches your customer needs.
 

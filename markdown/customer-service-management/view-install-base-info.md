@@ -2,7 +2,10 @@
 title: View install base information from the Customer Service Portal
 description: View a list of install base to track the instances provisioned for your account and which products or services run on them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/view-install-base-info.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

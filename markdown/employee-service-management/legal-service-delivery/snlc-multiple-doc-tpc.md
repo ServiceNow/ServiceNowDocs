@@ -2,6 +2,7 @@
 title: Resubmit third-party contract request
 description: As a legal user, resubmit contract request in draft state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/snlc-multiple-doc-tpc.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -27,15 +28,15 @@ For a custom record producer, if no documents are attached, the legal request wi
 
 1.  Open the third-party contract review request.
 
-<table id="d9911e52"><thead><tr><th align="left" id="d220667e57">
+<table id="d9745e52"><thead><tr><th align="left" id="d209373e57">
 
 Method
 
-</th><th align="left" id="d220667e60">
+</th><th align="left" id="d209373e60">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d220667e66">
+</th></tr></thead><tbody><tr><td id="d209373e66">
 
 **Using Legal Service Portal**
 
@@ -48,7 +49,7 @@ Action
 5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
 
-</td></tr><tr><td id="d220667e115">
+</td></tr><tr><td id="d209373e115">
 
 **Employee Center**
 
@@ -64,15 +65,15 @@ Action
 </td></tr></tbody>
 </table>2.  In the Documents section, attach documents.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d220667e172">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d209373e172">
 
 Method
 
-</th><th align="left" id="d220667e175">
+</th><th align="left" id="d209373e175">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d220667e181">
+</th></tr></thead><tbody><tr><td id="d209373e181">
 
 **__Choose a file__**
 
@@ -82,7 +83,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d220667e206">
+</td></tr><tr><td id="d209373e206">
 
 **__Drag file__**
 
@@ -90,7 +91,7 @@ Actions
 
 Drag files from your local computer into your browser window to attach them to the current record.
 
-</td></tr><tr><td id="d220667e216">
+</td></tr><tr><td id="d209373e216">
 
 **Copy and paste clipboard files**
 
@@ -105,15 +106,15 @@ Drag files from your local computer into your browser window to attach them to t
 
 3.  Classify the attached documents.
 
-<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d220667e246">
+<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d209373e246">
 
 Classification
 
-</th><th align="left" id="d220667e249">
+</th><th align="left" id="d209373e249">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d220667e255">
+</th></tr></thead><tbody><tr><td id="d209373e255">
 
 **Contract document**
 
@@ -123,7 +124,7 @@ Actions
 2.  Select the type of contract relevant to the document.
  **Note:** At least one document should be classified as a contract document.
 
-</td></tr><tr><td id="d220667e279">
+</td></tr><tr><td id="d209373e279">
 
 **Supporting document**
 
@@ -137,5 +138,5 @@ Actions
 </table>4.  Select **Resubmit**.
 
 
-**Parent Topic:**[Create a legal request for a third-party contract review](snlc-submit-request-tpc.md)
+**Parent Topic:**[Create a legal request for a third-party contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-submit-request-tpc.md)
 

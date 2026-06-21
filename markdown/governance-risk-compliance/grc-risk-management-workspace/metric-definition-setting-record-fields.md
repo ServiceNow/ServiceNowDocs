@@ -2,6 +2,7 @@
 title: Metric definition setting record fields
 description: The fields of the metric definition setting record form are explained in this topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/metric-definition-setting-record-fields.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

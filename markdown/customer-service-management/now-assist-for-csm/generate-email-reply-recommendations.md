@@ -2,6 +2,7 @@
 title: Generate an email response by using Now Assist for Customer Service Management \(CSM\)
 description: Generate an email response that is based on the case and email context by using the Now Assist icon. With mail responses, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -29,7 +30,7 @@ An agent can do these actions by using the Now Assist icon:
 -   Refine the recommendation by elaborating or shortening the response.
 -   Availability of email template recommendations while composing an email.
 
-**Note:** The mail response skill is on the Case skill card in the Customer group. For more info, see [email response](https://www.servicenow.com/docs/access?context=now-assist-email-recommendation&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+**Note:** The mail response skill is on the Case skill card in the Customer group. For more info, see email response.
 
 ## Procedure
 
@@ -37,52 +38,52 @@ An agent can do these actions by using the Now Assist icon:
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d147131e118">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d32905e118">
 
 Method
 
-</th><th align="left" id="d147131e121">
+</th><th align="left" id="d32905e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147131e127">
+</th></tr></thead><tbody><tr><td id="d32905e127">
 
 **Compose email from More actions**
 
 </td><td>
 
 1.  Select **Compose email**.
-2.  Write six or more words and then select the words that you just wrote to see the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png)
-3.  Select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png) to generate a response.
+2.  Write six or more words and then select the words that you just wrote to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
+3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to generate a response.
 4.  Select **Refine** to shorten or elaborate the content.
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d147131e178">
+</td></tr><tr><td id="d32905e178">
 
 **Compose an email from Activity stream**
 
 </td><td>
 
 1.  In the activity stream, select an existing email that you want to reply to.
-2.  Position your cursor within the email message window to see the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png).
-3.  Select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png) to receive a recommendation that is based on the existing context.
+2.  Position your cursor within the email message window to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
+3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to receive a recommendation that is based on the existing context.
 
 
 </td></tr></tbody>
-</table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png).
+</table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-    ![Generated email response.](../image/now-assist-email-reply-recommendation.png "Now Assist icon modal")
+    \[Omitted image "now-assist-email-reply-recommendation.png"\] Alt text: Generated email response.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d147131e246">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d32905e246">
 
 Email message window
 
-</th><th align="left" id="d147131e249">
+</th><th align="left" id="d32905e249">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d147131e258">
+</th></tr></thead><tbody><tr><td id="d32905e258">
 
 **Typed response**
 
@@ -92,7 +93,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d147131e275">
+</td></tr><tr><td id="d32905e275">
 
 **Left blank**
 
@@ -100,7 +101,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d147131e284">
+</td></tr><tr><td id="d32905e284">
 
 **Use template**
 
@@ -116,5 +117,5 @@ Shows email template recommendations while composing an email.
 6.  Select **Send Email** or discard the draft if you don’t like the recommendation.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

@@ -2,6 +2,7 @@
 title: App Engine and App Engine Studio
 description: ServiceNow App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization. The App Engine Enterprise version includes App Engine Studio \(AES\) for building low-code apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/app-engine-vs-aes.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -14,8 +15,6 @@ breadcrumb: [Exploring App Engine Studio, Build apps using App Engine Studio, Bu
 # App Engine and App Engine Studio
 
 ServiceNow® App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization. The App Engine Enterprise version includes App Engine Studio \(AES\) for building low-code apps.
-
-Streamline app development with App Engine
 
 ## App Engine Starter and Enterprise versions
 
@@ -41,19 +40,19 @@ ServiceNow provides several additional resources on App Engine.
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-dollar-sign.svg) [App Engine Enterprise purchase overview and version comparison](https://www.servicenow.com/products/now-platform-app-engine.html)
+\[Omitted image "bus-dollar-sign.svg"\] Alt text: [App Engine Enterprise purchase overview and version comparison](https://www.servicenow.com/products/now-platform-app-engine.html)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-datasheet.svg) [App Engine Enterprise data sheet \(PDF\)](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/other-document/entitlements/sn-app-engine.pdf)
+\[Omitted image "bus-datasheet.svg"\] Alt text: [App Engine Enterprise data sheet \(PDF\)](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/other-document/entitlements/sn-app-engine.pdf)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-contract.svg) [Entitlements for subscription products](https://www.servicenow.com/products/entitlements.html)
+\[Omitted image "bus-contract.svg"\] Alt text: [Entitlements for subscription products](https://www.servicenow.com/products/entitlements.html)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-ebook.svg) [Custom table guide \(PDF\)](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/custom-table-guide.pdf)
+\[Omitted image "bus-ebook.svg"\] Alt text: [Custom table guide \(PDF\)](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/custom-table-guide.pdf)
 
 </td></tr></tbody>
 </table>

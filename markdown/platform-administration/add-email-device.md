@@ -2,6 +2,7 @@
 title: Add a new notification delivery channel
 description: Add new channels for email, instant message, SMS, and voice to receive notifications and set a schedule for the channel for the notifications you want to receive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/add-email-device.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -34,5 +35,5 @@ Role required: none
 7.  Select **Save**.
 
 
-**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](../concept/advanced-notification-prefrences.md)
+**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/advanced-notification-prefrences.md)
 

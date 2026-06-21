@@ -2,7 +2,10 @@
 title: Reassign a work order task to yourself on a mobile device
 description: Reassign a work order task to yourself through the Field Service Contractor for mobile feature of the ServiceNow Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/assign-wot-yourself.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
 
 3.  Select the work order task from the list.
 
-4.  Tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon.
+4.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon.
 
 5.  Tap **Assign to me**.
 
@@ -36,5 +39,5 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
 
 The work order task is successfully assigned to yourself and can be accessed from the **Open tasks** screen. The Notification navigation tab shows a message confirming that the work order task has been reassigned to you.
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

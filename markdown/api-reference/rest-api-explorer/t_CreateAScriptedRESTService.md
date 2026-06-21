@@ -2,6 +2,7 @@
 title: Create a scripted REST API
 description: Create a scripted REST API to define web service endpoints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-api-explorer/t\_CreateAScriptedRESTService.html
 release: xanadu
 product: REST API Explorer
 classification: rest-api-explorer
@@ -40,22 +41,22 @@ By default, scripted REST APIs contain an ACL that prohibits users with the snc\
 
 After you create the API, configure the service as needed such as by creating resources, assigning ACLs, or specifying supported request and response formats.
 
--   **[Create a scripted REST API resource](t_CreateAScriptedRESTAPIResource.md)**  
+-   **[Create a scripted REST API resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_CreateAScriptedRESTAPIResource.md)**  
 Create a scripted REST API resource to define the HTTP method, the processing script, and to override settings from the parent service.
--   **[Define scripted REST API headers](t_DefineRESTServiceHeaders.md)**  
+-   **[Define scripted REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_DefineRESTServiceHeaders.md)**  
 Define scripted REST API headers to control which headers the API accepts and can respond with.
--   **[Define available query parameters](t_DefineAvailableQueryParameters.md)**  
+-   **[Define available query parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_DefineAvailableQueryParameters.md)**  
 Define available query parameters to control what values a requesting user can pass in the request URI.
--   **[Associate query parameters to a resource](AssocQueryParmResource.md)**  
+-   **[Associate query parameters to a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/AssocQueryParmResource.md)**  
 Associate scripted REST API query parameters to a resource.
--   **[Configure a scripted REST API to require an ACL](t_WbSvcRqACL.md)**  
+-   **[Configure a scripted REST API to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_WbSvcRqACL.md)**  
 Requests to scripted REST APIs respect platform ACLs, and the requesting user must meet any table ACL requirements to access instance data. Additionally, you can configure the scripted REST API to require a specific ACL.
--   **[Enable versioning for a scripted REST API](t_EnableVersioning.md)**  
+-   **[Enable versioning for a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_EnableVersioning.md)**  
 Enable versioning for a scripted REST API to provide multiple versions of the API while maintaining compatibility with existing integrations.
--   **[Control request and response content type](../concept/c_SpecifyContentType.md)**  
+-   **[Control request and response content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_SpecifyContentType.md)**  
 Controls which content types are allowed in scripted REST API requests and responses.
--   **[Controlling maximum request size](../reference/r_ControllingMaxRequestSize.md)**  
+-   **[Controlling maximum request size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/r_ControllingMaxRequestSize.md)**  
 You can specify the maximum file size allowed in a scripted REST API request payload.
 
-**Parent Topic:**[Scripted REST APIs](../concept/c_CustomWebServices.md)
+**Parent Topic:**[Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_CustomWebServices.md)
 

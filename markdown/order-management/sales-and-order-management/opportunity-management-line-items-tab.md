@@ -2,6 +2,7 @@
 title: Add line items to an opportunity
 description: Create a new product line item for your opportunity by entering the details, such as product offering and quantity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-management-line-items-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to the **List** view ![list icon](../image/Lists.png) and select **Opportunity - All**.
+1.  In the CSM Configurable Workspace, navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: list icon and select **Opportunity - All**.
 
 2.  From the **Opportunity List** view, select the opportunity you want to work with and select the **Line Items** tab.
 
@@ -191,5 +192,5 @@ Any additional information related to the opportunity line item.
 
 ## What to do next
 
-Add a task to your opportunity. To learn more, see [Add opportunity tasks](opportunity-management-tasks-tab.md).
+Add a task to your opportunity. To learn more, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/opportunity-management-tasks-tab.md).
 

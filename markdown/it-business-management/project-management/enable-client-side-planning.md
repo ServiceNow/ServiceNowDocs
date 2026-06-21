@@ -2,6 +2,7 @@
 title: Enable client side planning
 description: Enable client side planning in planning console to enable project scheduling at the client side.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/enable-client-side-planning.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -31,8 +32,8 @@ Build your project structure quickly on the client side without having to save d
 
 3.  Select the **Enable Client Side Planning** check box to enable project scheduling at client side.
 
-    **Note:** To enable this check box, the [project property](../reference/r_InstalledWithProjectManagement.md) **Enable firing of Business Rules on save from Planning Console** must be set to false.
+    **Note:** To enable this check box, the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Enable firing of Business Rules on save from Planning Console** must be set to false.
 
 
-**Parent Topic:**[Client side planning console](../concept/client-side-planning-console.md)
+**Parent Topic:**[Client side planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/client-side-planning-console.md)
 

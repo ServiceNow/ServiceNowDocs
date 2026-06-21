@@ -2,6 +2,7 @@
 title: Configure the space man on the landing page
 description: Change the image of the space man to an image your choice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/modify-space-man-landing-page.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace

@@ -2,7 +2,10 @@
 title: Update crew requirements for the work order task in Dispatcher Workspace
 description: As a dispatcher, you can add or update the number of agents required to perform a particular type of work to complete the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/add-crew-size-disp-wrkspc.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ The default minimum crew size is two for work order tasks created using the work
 
 1.  Navigate to **All** &gt; **Field Service Management** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click the **List** icon \(![List icon.](../../../administer/workspace/image/list-icon-black.png)\).
+2.  Click the **List** icon \(\[Omitted image "list-icon-black.png"\] Alt text: List icon.\).
 
 3.  In the Lists panel, navigate to **Work Order Tasks** &gt; **My Work Order Tasks**.
 
@@ -42,5 +45,5 @@ The default minimum crew size is two for work order tasks created using the work
 6.  Click **Save**.
 
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](../concept/using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-disp-wrkspc-crew-operations.md)
 

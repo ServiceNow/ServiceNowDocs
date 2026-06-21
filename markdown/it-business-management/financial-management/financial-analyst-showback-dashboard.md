@@ -2,6 +2,7 @@
 title: Financial analyst showback dashboard
 description: As a financial analyst, you can use the Financial Analyst Showback dashboard central interface to view all the showback statements that are generated. The dashboard helps to analyze the cost of delivering services to the business and the recovery or showback of that cost.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/financial-analyst-showback-dashboard.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -48,5 +49,5 @@ The data are retrieved from the ITFM\_Charge\_Expense\_Line\_Details table.
     Lists the total cost breakdown details of the statement item or business units for the last period.
 
 
-**Parent Topic:**[Financial Charging](financial-reporting.md)
+**Parent Topic:**[Financial Charging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-reporting.md)
 

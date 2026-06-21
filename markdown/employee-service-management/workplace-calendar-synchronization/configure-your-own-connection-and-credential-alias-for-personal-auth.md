@@ -2,6 +2,7 @@
 title: Configure your own connection and credential alias for personal authentication mode
 description: Configure your own connection and credential alias if you don’t want to use the default alias created during the personal authentication mode application registration. You can configure your calendar to use the alias as an override alias.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/configure-your-own-connection-and-credential-alias-for-personal-auth.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -21,7 +22,7 @@ Configure your own connection and credential alias if you don’t want to use th
 
 Ensure that the application scope is set to **Workplace Calendar Synchronization**. Otherwise, do the following:
 
-1.  Select the Application scope icon \(![Application scope icon.](../image/application-scope-globe-icon.png)\) on the top-right corner of your Employee Center home page.
+1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon.\) on the top-right corner of your Employee Center home page.
 2.  In the drop- down, select the option consisting **Application scope**.
 3.  In the filter navigator, search and select **Workplace Calendar Synchronization**.
 4.  Refresh the page.
@@ -30,7 +31,7 @@ Role required: admin
 
 ## About this task
 
-The application by default provides a connection and credential. Perform this procedure if you want to create your own connection and credential alias instead of using the default alias. If you want to use the default alias, refer to [Configure personal authentication mode Connection and Credential alias for Microsoft Exchange Online](configure-personal-auth-mode-connection-and-credential-alias.md).
+The application by default provides a connection and credential. Perform this procedure if you want to create your own connection and credential alias instead of using the default alias. If you want to use the default alias, refer to [Configure personal authentication mode Connection and Credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/configure-personal-auth-mode-connection-and-credential-alias.md).
 
 ## Procedure
 
@@ -65,7 +66,7 @@ The application by default provides a connection and credential. Perform this pr
         |-----|------------|
         |Name|Name of the credential. Provide a unique name to differentiate from the default credentials provided by the application.|
         |Active|Option to activate the credential.|
-        |OAuth Entity Profile|Select the default OAuth entity profile that was generated when you performed the personal authentication mode app registry in [Setup personal authentication mode OAuth connectivity with Microsoft Exchange Online](setup-personal-auth-mode-oauth-connectivity-with-msex.md).|
+        |OAuth Entity Profile|Select the default OAuth entity profile that was generated when you performed the personal authentication mode app registry in [Setup personal authentication mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/setup-personal-auth-mode-oauth-connectivity-with-msex.md).|
         |Applies to|Specify how you want to apply to the MID Servers.|
         |Order|Order for the credential.|
 
@@ -103,5 +104,5 @@ The application by default provides a connection and credential. Perform this pr
     5.  Select **Submit**.
 
 
-**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](../concept/personal-auth-mode-connection-with-msex.md)
+**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
 

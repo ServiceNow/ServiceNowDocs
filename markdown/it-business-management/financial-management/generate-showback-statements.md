@@ -2,11 +2,12 @@
 title: Generate showback statements for upcoming fiscal period
 description: As a service charging analyst, review the status log of all showback statements for the last fiscal period that the statements were generated for and the date that the showback statements were published on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/generate-showback-statements.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Showback statements, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -58,12 +59,12 @@ You can also create a record or log of the last generated and published details 
 
         The **Published** column indicates whether the showback statements have been published or not by the status of true or false. If the status is false, it means that the showback is not yet published and available for the showback user to see.
 
-        Review the generated showback statement and publish the statement for the showback user to see the report, by navigating to [Showback Statement Definition](define-showback-statement.md).
+        Review the generated showback statement and publish the statement for the showback user to see the report, by navigating to [Showback Statement Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/define-showback-statement.md).
 
 
 ## What to do next
 
-After you publish the showback statement, the showback user can see the showback statement in [My Showback Statements](view-my-showback-statements.md).
+After you publish the showback statement, the showback user can see the showback statement in [My Showback Statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/view-my-showback-statements.md).
 
-**Parent Topic:**[Showback statements](../concept/showback-statements.md)
+**Parent Topic:**[Showback statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/showback-statements.md)
 

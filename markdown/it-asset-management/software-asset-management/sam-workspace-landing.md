@@ -2,6 +2,7 @@
 title: Software asset overview
 description: Enhance your software asset management experience by using the modernized and user-friendly software asset overview view. The software asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/sam-workspace-landing.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ Use the software asset overview view to:
 
 -   Gain insights into key metrics such as compliance trends, true-up costs, potential savings, normalization rates.
 -   Execute routine tasks such as running reconciliation or creating entitlements.
--   Configure Microsoft SQL Server and Microsoft Windows Server on your ServiceNow instance through the Guided Setup. For more information, see [Software Asset Management Guided Experiences](playbook-entitlementsetup-workspace.md).
+-   Configure Microsoft SQL Server and Microsoft Windows Server on your ServiceNow instance through the Guided Setup. For more information, see [Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md).
 -   Get actionable insights into your software assets via alerts and notifications.
 -   Sort by product or publisher to narrow down your results.
 -   Filter by Published status to view reports and dashboards only related to the software products that you manage in a phase-wise implementation of Software Asset Management.
@@ -35,7 +36,7 @@ Use the software asset overview view to:
     However, you can also view reports related to the products that aren't published by setting this filter to **Unpublished**. To view reports related to all the products, clear the Published status filter.
 
 
-![Software asset overview landing page](../image/asset-overview-workspace.png "Software asset overview view")
+\[Omitted image "asset-overview-workspace.png"\] Alt text: Software asset overview landing page
 
 Select any widget to view detailed information. All the widgets are updated whenever a new reconciliation result is available.
 
@@ -336,7 +337,7 @@ Entitlement Import Errors \[samp\_entitlement\_import\]
 
 </td><td>
 
-The number of entitlement import errors where the purchase orders have an associated procurement integration profile.**Note:** This alert appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](../../procurement/task/install-proc-int.md).
+The number of entitlement import errors where the purchase orders have an associated procurement integration profile.**Note:** This alert appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/procurement/install-proc-int.md).
 
 </td></tr><tr><td>
 
@@ -501,7 +502,7 @@ Software Entitlements \[alm\_license\]
 
 </td><td>
 
-Number of entitlements created from purchase orders that have an associated procurement integration profile.**Note:** This notification appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](../../procurement/task/install-proc-int.md).
+Number of entitlements created from purchase orders that have an associated procurement integration profile.**Note:** This notification appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/procurement/install-proc-int.md).
 
 </td></tr></tbody>
 </table>

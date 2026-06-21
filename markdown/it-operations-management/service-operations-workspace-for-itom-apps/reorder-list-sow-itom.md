@@ -2,11 +2,12 @@
 title: Reorder list in Service Operations Workspace for ITOM
 description: Reorder lists to prioritize information and enhance workflow organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/reorder-list-sow-itom.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configuring Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
@@ -23,16 +24,16 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left navigation bar, select the List icon \(![List icon](../image/list-icon-sow-itom.png)\).
+2.  From the left navigation bar, select the List icon \(\[Omitted image "list-icon-sow-itom.png"\] Alt text: List icon\).
 
 3.  Select the **My Lists** tab.
 
-    ![Reorder lists](../image/sow-reorder-list.png)
+    \[Omitted image "sow-reorder-list.png"\] Alt text: Reorder lists
 
 4.  Select the list you want to reorder.
 
 5.  Select **Reorder** to adjust the position of the list.
 
-    ![Reorder lists](../image/sow-reorder-list.png)
+    \[Omitted image "sow-reorder-list.png"\] Alt text: Reorder lists
 
 

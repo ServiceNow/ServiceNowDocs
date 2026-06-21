@@ -2,6 +2,7 @@
 title: Provider properties for Amazon Connect
 description: View and update the provider properties available for Amazon Connect
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/provider-properties-ivr.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -25,11 +26,11 @@ Role required: admin
 
 2.  Select the provider **VA Amazon Connect Adapter Provider**.
 
-    ![Connections table.](../images/provider-prop-01.png)
+    \[Omitted image "provider-prop-01.png"\] Alt text: Connections table.
 
 3.  In the Provider Channels form, select the **Provider Properties** tab.
 
-    ![Provider properties tab.](../images/provider-prop-02.png)
+    \[Omitted image "provider-prop-02.png"\] Alt text: Provider properties tab.
 
 
 ## What to do next

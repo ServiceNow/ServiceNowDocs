@@ -2,7 +2,10 @@
 title: Request based chat - Start and import chat from classic view
 description: Initiate a conversation with the requester to resolve the ticket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/initiate-conversation-requester.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -22,12 +25,12 @@ You must have the "write" role to use the **Start Microsoft Teams chat** and **I
 |Request|sn\_request\_write|ITSM Roles — Request Management \(com.snc.itsm.roles.request\_management\) plugin|
 |HR Case|sn\_hr\_core.case\_writer|Human Resources Scoped App — Employee Relations \[com.sn\_hr\_employee\_relations\] plugin|
 
--   **[Request-based chat - Start and import chat from field decorator](../task/initiate-chat-record-field-decorator.md)**  
+-   **[Request-based chat - Start and import chat from field decorator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/initiate-chat-record-field-decorator.md)**  
 Interact with a requester in Microsoft Teams from the chat icon from the workspace to quickly resolve the ticket.
--   **[Request-based chat - Start and import chat from Start Microsoft Teams chat action](../task/initiate-chat-record.md)**  
+-   **[Request-based chat - Start and import chat from Start Microsoft Teams chat action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/initiate-chat-record.md)**  
 Interact with a requester in Microsoft Teams for an issue related to an incident, request item, change request, and HR case records to quickly resolve the ticket.
--   **[Import messages from a ticket manually](../task/import-messages.md)**  
+-   **[Import messages from a ticket manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/import-messages.md)**  
 You can import the conversation with a user from Microsoft Teams and append them in the **Comments** to store all the important messages in the ServiceNow instance.
 
-**Parent Topic:**[Agent actions](agent-sn-ms-teams.md)
+**Parent Topic:**[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/agent-sn-ms-teams.md)
 

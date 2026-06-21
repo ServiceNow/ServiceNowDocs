@@ -2,6 +2,7 @@
 title: Integrating a Self-configured bot with Slack workspace
 description: Enables ServiceNow Virtual Agent to allow multiple ServiceNow instances to integrate with single Slack workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-integ-single-slack.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

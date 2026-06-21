@@ -2,6 +2,7 @@
 title: Define field styles
 description: Field styles enable you to declare individual CSS styles for a field in a list or form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_DefineFieldStyles.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -110,12 +111,12 @@ color:white;
     javascript: current.state == "Completed" && current.error_tables > 0
     ```
 
-4.  To add alternative text for a style, [configure the form](../../form-administration/concept/configure-form-layout.md#) to add the alternative text field.
+4.  To add alternative text for a style, [configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configure-form-layout.md) to add the alternative text field.
 
     For styles like the VIP style icon, you can add alternative text so that screen readers can differentiate between the style and the text.
 
 5.  Select **Submit** or **Update**.
 
 
-**Parent Topic:**[Add and customize a field in a table](../../field-administration/task/t_CreatingNewFields.md)
+**Parent Topic:**[Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreatingNewFields.md)
 

@@ -2,6 +2,7 @@
 title: Set breakdown definitions
 description: Set the breakdown definitions that act as filters for your project. Breakdown definitions are used to filter and analyze the data based on specific criteria or attributes. These definitions enable you to break down the analysis into smaller subsets, focusing on specific dimensions or perspectives of the process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/breakdown.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -19,7 +20,7 @@ Set the breakdown definitions that act as filters for your project. Breakdown de
 
 Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
 
--   [Create a project or template using Project Builder](define-workflow-model.md)
+-   [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/define-workflow-model.md)
 
 ## About this task
 
@@ -45,7 +46,7 @@ This is an optional task.
 
 5.  Select **New** in the Breakdowns area.
 
-    ![Breakdown](../image/breakdown.png)
+    \[Omitted image "breakdown.png"\] Alt text: Breakdown
 
 6.  Select **Save**.
 
@@ -53,7 +54,7 @@ This is an optional task.
 
 7.  Select a breakdown to edit it.
 
-    ![Edit breakdown](../image/breakdown-edit.png)
+    \[Omitted image "breakdown-edit.png"\] Alt text: Edit breakdown
 
     You can add a display name and a filter condition to the breakdown.
 
@@ -62,5 +63,5 @@ This is an optional task.
     If you want to add or edit anything in the **Scope your analysis** page, select **Previous**.
 
 
-**Parent Topic:**[Scoping your analysis](../concept/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/scope-analysis.md)
 

@@ -2,6 +2,7 @@
 title: Process pending Risk acceptance tasks with the GRC Mobile application
 description: Process pending approval requests for Risk Management acceptance tasks that are submitted to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-accpt-tasks.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -25,32 +26,32 @@ Approve or reject a pending request from the list of records. Alternatively, vie
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](mobile-login-risk-mobileapp.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.md).
 
 2.  With the Risk landing screen displayed, tap **Risk Acceptance Tasks**.
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![Risk Acceptance Tasks highlighted.](../image/mobile_Risk_applet_callout_Risk_Acceptance_rd_Tasks.png)
+    \[Omitted image "mobile\_Risk\_applet\_callout\_Risk\_Acceptance\_rd\_Tasks.png"\] Alt text: Risk Acceptance Tasks highlighted.
 
     The Risk Acceptance Tasks screen is displayed with a list of records.
 
-    ![Risk acceptance records.](../image/mobile-risk-acc.jpg)
+    \[Omitted image "mobile-risk-acc.jpg"\] Alt text: Risk acceptance records.
 
-3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](mobile-risk-set-filters.md) to search for records that match specific search criteria.
+3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To approve or reject a request directly from the list, with the Risk Acceptance Tasks screen displayed, swipe left on a record to open the menu.
 
-    ![Swipe action on Risk Acceptance record.](../image/mobile-risk-accept-swipe.jpg)
+    \[Omitted image "mobile-risk-accept-swipe.jpg"\] Alt text: Swipe action on Risk Acceptance record.
 
 5.  On the menu that is displayed, choose one to continue.
 
     |Option|Description|
     |------|-----------|
-    |**Approve**|In the Comments field, enter comments. Comments are optional for approvals. Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.|
-    |**Reject**|In the Comments field, enter comments. Comments are required for rejections. Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.|
+    |**Approve**|In the Comments field, enter comments. Comments are optional for approvals. Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.|
+    |**Reject**|In the Comments field, enter comments. Comments are required for rejections. Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.|
 
 6.  Alternatively, with the Risk Acceptance Tasks screen displayed, follow these steps to view more details or add a work note to a record on the list.
 
@@ -62,37 +63,37 @@ Approve or reject a pending request from the list of records. Alternatively, vie
 
     On the record that is displayed, choose one from the following table to continue.
 
-    ![Risk acceptance task details.](../image/mobile-risk-accpttask-details.jpg)
+    \[Omitted image "mobile-risk-accpttask-details.jpg"\] Alt text: Risk acceptance task details.
 
-<table id="choicetable_mw5_22s_c3b"><thead><tr><th align="left" id="d137804e263">
+<table id="choicetable_mw5_22s_c3b"><thead><tr><th align="left" id="d139259e263">
 
 Option
 
-</th><th align="left" id="d137804e266">
+</th><th align="left" id="d139259e266">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d137804e272">
+</th></tr></thead><tbody><tr><td id="d139259e272">
 
 **Details tab**
 
 </td><td>
 
-With the Details tab selected, to approve or reject the request, at the top left of the screen, tap the back arrow icon![back arrow icon.](../../grc-common/image/back.jpg)
+With the Details tab selected, to approve or reject the request, at the top left of the screen, tap the back arrow icon\[Omitted image "back.jpg"\] Alt text: back arrow icon.
 
-two times to navigate back to the Risk Acceptance Task record. With the Risk Acceptance Task screen displayed, tap the menu icon \(![Menu icon](../../grc-common/image/mobile-top-menu.png)\) to approve or reject the request. Follow the steps described in the preceding table.
+two times to navigate back to the Risk Acceptance Task record. With the Risk Acceptance Task screen displayed, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\) to approve or reject the request. Follow the steps described in the preceding table.
 
-</td></tr><tr><td id="d137804e296">
+</td></tr><tr><td id="d139259e296">
 
 **Activity Stream tab**
 
 </td><td>
 
-With the Activity Stream tab selected, follow these steps.1.  View the work notes and additional comments. To add a work note or attach a file, tap the plus icon \(![Plus icon.](../../grc-common/image/mobile_instances_plus.png)\).
-2.  Navigate back to the Risk Acceptance Task record as described in the preceding option and tap the menu icon \(![Menu icon](../../grc-common/image/mobile-top-menu.png)\) to approve or reject the request.
+With the Activity Stream tab selected, follow these steps.1.  View the work notes and additional comments. To add a work note or attach a file, tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\).
+2.  Navigate back to the Risk Acceptance Task record as described in the preceding option and tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\) to approve or reject the request.
 
 
-</td></tr><tr><td id="d137804e326">
+</td></tr><tr><td id="d139259e326">
 
 **Tap a screen icon at the bottom of the screen.**
 
@@ -107,5 +108,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Risk icon to ret
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Mobile experience for GRC Risk Management](../concept/mobile-risk-overview.md)
+**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
 

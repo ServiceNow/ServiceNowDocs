@@ -2,6 +2,7 @@
 title: Add a push notification to the Push Default Registrations table
 description: After you create a new push notification, add it to the Push Default Registration table. Push notifications registered in this table are listed and automatically enabled in the notification settings of your ServiceNow mobile app users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/add-push-notif-reg-table.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"

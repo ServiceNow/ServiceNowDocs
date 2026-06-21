@@ -2,6 +2,7 @@
 title: Message logs for individual emails
 description: The email log entries for an individual notification email are accessible as a related list in the email record. The Error string field in the email record can provide additional information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/message-logs-individual-emails.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -31,7 +32,7 @@ For outbound notifications, the email system log provides reasons that recipient
 
 Each log entry corresponds to a reason for inclusion or exclusion. For example, all users who were excluded because they are inactive appear in a single log entry.
 
-A series of system properties can be used to fine-tune the information to be logged. Two properties, glide.notification.recipient.include\_logging and glide.notification.recipient.exclude\_logging, control all recipient inclusion and exclusion logging. Several other [properties](../../reference-pages/reference/r_AdditionalProperties.md) allow you to tailor the information reported in the logs to meet your needs. All of the properties are enabled by default.
+A series of system properties can be used to fine-tune the information to be logged. Two properties, glide.notification.recipient.include\_logging and glide.notification.recipient.exclude\_logging, control all recipient inclusion and exclusion logging. Several other [properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AdditionalProperties.md) allow you to tailor the information reported in the logs to meet your needs. All of the properties are enabled by default.
 
-**Parent Topic:**[Email FAQs and troubleshooting notification emails](../concept/troubleshooting-notification-emails.md)
+**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/troubleshooting-notification-emails.md)
 

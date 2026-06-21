@@ -2,6 +2,7 @@
 title: Configuring knowledge bases to enable guest users to publish knowledge articles from the Source-to-Pay Workspace
 description: Configure knowledge bases so that you can publish the created knowledge articles.Configure a knowledge base so that you can publish the knowledge base articles from the Source-to-Pay Workspace.After creating a knowledge base article, publish the article from the Source-to-Pay Workspace to make it available for external users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-workspace/configuring-kb-publish.html
 release: xanadu
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Configuring Source-to-Pay Workspace, Source-to-Pay Workspace, Sourc
 
 Configure knowledge bases so that you can publish the created knowledge articles.
 
-**Parent Topic:**[Configuring Source-to-Pay Workspace](../../accounts-payable-operations/concept/configuring-source-to-pay-ws.md)
+**Parent Topic:**[Configuring Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/configuring-source-to-pay-ws.md)
 
 ## Configure knowledge bases from the Source-to-Pay Workspace
 
@@ -54,7 +55,7 @@ Role required: sn\_slm.manager, sn\_shop.procurement\_specialist\_manager, or ad
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and
 
 3.  Navigate to **Lists** &gt; **Knowledge**, and then select one of the following:
 

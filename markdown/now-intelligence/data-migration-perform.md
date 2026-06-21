@@ -2,6 +2,7 @@
 title: Perform full data migration
 description: Migrate your existing dashboards, reports, interactive filters, and Performance Analytics widgets to the Platform Analytics experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/data-migration-perform.html
 release: xanadu
 topic_type: task
 last_updated: "2024-09-23"
@@ -45,7 +46,7 @@ Dashboards with visualizations or other widgets migrated in compatibility mode m
 
     The length of the migration process depends on the number of dashboards, reports, filters, and Performance Analytics widgets you have on your instance.
 
-4.  [Evaluate the results](data-migration-evaluate.md).
+4.  [Evaluate the results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/data-migration-evaluate.md).
 
 5.  Select **Activate** to complete the migration process.
 
@@ -56,9 +57,9 @@ Dashboards with visualizations or other widgets migrated in compatibility mode m
 
 Your dashboards and other migrated content are now found under the library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library**.
 
-![Platform Analytics menu path](../image/data-mig-plat-admin-lib-menu-path.png)
+\[Omitted image "data-mig-plat-admin-lib-menu-path.png"\] Alt text: Platform Analytics menu path
 
 ## What to do next
 
-[Evaluate full data migration](data-migration-evaluate.md)
+[Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/data-migration-evaluate.md)
 

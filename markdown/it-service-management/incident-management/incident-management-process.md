@@ -2,6 +2,7 @@
 title: Exploring Incident Management
 description: ServiceNow Incident Management supports the incident management process with the ability to identify and log incidents, classify and prioritize incidents, assign incidents to appropriate users or groups, escalate, resolve, and report incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/incident-management-process.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -17,7 +18,7 @@ ServiceNow Incident Management supports the incident management process with the
 
 ## Incident Management overview
 
-Any user can record an incident and track it until service is restored and the issue is resolved. Each incident is generated as a task record that contains pertinent information. Incidents can be assigned to appropriate service desk members, who resolve the task and document the investigation. After the incident is resolved, you can manually close the incident. You can also close incidents automatically based on the last updated date or the resolution date of the incident. For more information about auto-closing incidents, see [Configure incidents to close automatically](../task/configure-incident-auto-close.md).
+Any user can record an incident and track it until service is restored and the issue is resolved. Each incident is generated as a task record that contains pertinent information. Incidents can be assigned to appropriate service desk members, who resolve the task and document the investigation. After the incident is resolved, you can manually close the incident. You can also close incidents automatically based on the last updated date or the resolution date of the incident. For more information about auto-closing incidents, see [Configure incidents to close automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/configure-incident-auto-close.md).
 
 Any user can log an incident within the system using the following methods.
 
@@ -49,8 +50,8 @@ ServiceNow Incident Management supports the incident management process in the f
 
 Any user can record an incident and track it through the entire incident life cycle until service is restored and the issue is resolved.
 
--   **[Life cycle of an Incident](c_IncidentManagementStateModel.md)**  
+-   **[Life cycle of an Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/c_IncidentManagementStateModel.md)**  
 Incident Management is responsible for managing the life cycle of incidents, from creation to closure.
 
-**Parent Topic:**[Incident Management](c_IncidentManagement.md)
+**Parent Topic:**[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/c_IncidentManagement.md)
 

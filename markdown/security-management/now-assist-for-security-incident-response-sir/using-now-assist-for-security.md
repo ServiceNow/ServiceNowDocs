@@ -2,6 +2,7 @@
 title: Using Now Assist for Security Incident Response to close security incidents
 description: Security analysts can close security incidents quickly from within their flow of work with the generative AI skills supported by Now Assist for Security Incident Response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/now-assist-for-security-incident-response-sir/using-now-assist-for-security.html
 release: xanadu
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -25,7 +26,7 @@ With generative AI skills with Now Assist for Security Incident Response, your s
 -   Generate post incident analysis data
 -   Generate performance metrics for your remediation teams.
 
-    This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](../task/assess-metrics-sir-aiagent.md) for more information.
+    This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
 
 -   Generate correlation insights to speed up incident investigation.
 
@@ -45,24 +46,24 @@ Security managers and analysts can generate recommended next steps and post-inci
 
 Security managers and analysts can create remediation tasks from generated recommended actions only from security incidents in the Security Incident Response Workspace.
 
-1.  [Summarize a security incident with Now Assist for Security Incident Response](../task/summarize-security-incident-now-assist-sec-incident.md)
+1.  [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
 
     Generate a summary for a security incident that includes the underlying issue, incident details, related lists data \(observables\), and key actions already taken.
 
-2.  [Generate recommended actions for a security incident with Now Assist for Security Incident Response](../task/generate-recommended-actions-now-assist-for-security.md)
-3.  [Generate a post-incident analysis for a security incident with Now Assist for Security Incident Response](../task/generate-pia-report-now-assist-security-incident.md)
-4.  [Generate correlation insights with Now Assist for Security Incident Response](../task/generate-correlation-insights-now-assist-for-security.md)
-5.  [Generate closure notes for a security incident with Now Assist for Security Incident Response](../task/generate-closure-notes-si-now-assist-sec-incident.md)
+2.  [Generate recommended actions for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
+3.  [Generate a post-incident analysis for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
+4.  [Generate correlation insights with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-correlation-insights-now-assist-for-security.md)
+5.  [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
 
     Automatically generate the closure notes for a security incident.
 
-6.  [Request generative AI skills in the Now Assist panel for Now Assist for Security Incident Response](../task/request-genai-from-now-assist-panel-now-assist-sec-incident.md)
+6.  [Request generative AI skills in the Now Assist panel for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/request-genai-from-now-assist-panel-now-assist-sec-incident.md)
 
     Generate summaries and closure notes from the Now Assist panel.
 
     **Note:** The security incident recommended actions and post-incident analysis skills are not available from the Now Assist panel.
 
-7.  [Customize a Now Assist for Security Incident Response skill](../task/cust-now-assist-security-incident-skill.md)
+7.  [Customize a Now Assist for Security Incident Response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md)
 
     Customize the input fields of a skill to suit the requirements of your environment.
 

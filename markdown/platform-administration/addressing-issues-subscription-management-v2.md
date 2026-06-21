@@ -2,6 +2,7 @@
 title: Addressing issues in Subscription Management
 description: Stay in compliance by mapping custom tables and custom applications to subscriptions in Subscription Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/addressing-issues-subscription-management-v2.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ Stay in compliance by mapping custom tables and custom applications to subscript
 -   Maintain accurate entitlements by mapping custom tables and custom applications to a recommended product subscription or a product subscription of your choice.
 -   Plan for future subscription needs by assessing your custom table entitlements.
 
-![Subscription issues](../image/subscription-management-issues.png "Subscription issues")
+\[Omitted image "subscription-management-issues.png"\] Alt text: Subscription issues
 
 ## Accessing subscription issues
 
@@ -27,7 +28,7 @@ Access information on subscription issues on the **Issues** tab by navigating to
 
 ## Unmapped global custom tables
 
-Determine whether you have custom tables in the global scope that aren't mapped to a valid product subscription by accessing the **Unmapped global custom tables** tab. Keep custom table entitlements current by mapping the tables to a product subscription. For more information, see [Map custom tables to a product subscription in Subscription Management](../task/allocate-custom-table-subsc-app-v2.md).
+Determine whether you have custom tables in the global scope that aren't mapped to a valid product subscription by accessing the **Unmapped global custom tables** tab. Keep custom table entitlements current by mapping the tables to a product subscription. For more information, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/allocate-custom-table-subsc-app-v2.md).
 
 Custom tables that aren’t mapped to a subscription appear on the **Issues** tab the day after they’re created.
 
@@ -35,7 +36,7 @@ Custom tables that aren’t mapped to a subscription appear on the **Issues** ta
 
 Determine whether you have custom tables in a scoped application that aren't currently mapped to a valid product subscription by accessing the **Unmapped custom applications** tab. Ensure that entitlements for these tables are current by mapping the application to a product subscription.
 
-You map tables in a scoped application at the application-level, which eases administration because you don't need to map tables individually after the application is mapped. For more information, see [Map a custom application to a product subscription in Subscription Management](../task/map-custom-applications-v2.md).
+You map tables in a scoped application at the application-level, which eases administration because you don't need to map tables individually after the application is mapped. For more information, see [Map a custom application to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/map-custom-applications-v2.md).
 
 Custom applications that aren’t mapped to a subscription appear on the **Issues** tab the day after they’re created.
 

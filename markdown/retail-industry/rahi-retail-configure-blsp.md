@@ -2,6 +2,7 @@
 title: Configure Business Location Service Portal for Retail Core
 description: Retail Core users can utilize the Business Location Service Portal to create and close retail case support requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-configure-blsp.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ Retail Core users can utilize the Business Location Service Portal to create and
 
 Retail Core enables users to leverage the Business Location Service Portal \(BLSP\) available with the Customer Service Management application to manage their retail case support requests.
 
-![UI showing Business Location Service Portal for retail.](../image/blsp_2.png)
+\[Omitted image "blsp\_2.png"\] Alt text: UI showing Business Location Service Portal for retail.
 
-For more information on the Business Location Service Portal, see [Using the Business Location Service Portal](https://www.servicenow.com/docs/access?context=using-blsp-portal&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+For more information on the Business Location Service Portal, see .
 

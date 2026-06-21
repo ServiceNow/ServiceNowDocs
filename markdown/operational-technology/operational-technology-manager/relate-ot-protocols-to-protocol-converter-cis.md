@@ -2,6 +2,7 @@
 title: Map OT protocols to protocol converter CIs
 description: Relate Operational Technology \(OT\) protocols to protocol converter configuration items \(CI\) in the Industrial Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/relate-ot-protocols-to-protocol-converter-cis.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -38,5 +39,5 @@ Role required: cmdb\_ot\_editor
 7.  To remove protocol records from the related list, select the records you want to remove and click on **Remove**.
 
 
-**Parent Topic:**[OT device related items and related lists](../reference/ot-assets-related-links-and-lists.md)
+**Parent Topic:**[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)
 

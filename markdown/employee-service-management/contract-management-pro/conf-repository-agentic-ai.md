@@ -2,6 +2,7 @@
 title: Activate business rules for the Manage contract repository agentic workflow
 description: Activate the Agentic AI - Set reminders for contract and the Update Agent Set reminders for contract business rules to autonomously run the Manage contract repository agentic workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/conf-repository-agentic-ai.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro

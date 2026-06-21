@@ -2,6 +2,7 @@
 title: Change the value for agents being considered early or late
 description: Change the value that determines whether an agent is early or late.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/intraday-scheduling-time-value.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -40,5 +41,5 @@ By default, agents are considered early or late if they’re 30% early or late f
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Intraday schedule automation](../concept/config-intraday-scheduling-steps.md)
+**Parent Topic:**[Configuring Intraday schedule automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/config-intraday-scheduling-steps.md)
 

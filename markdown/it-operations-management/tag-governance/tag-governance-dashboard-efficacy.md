@@ -2,6 +2,7 @@
 title: Tag Governance dashboard – Efficacy tab
 description: The Efficacy tab displays the results of tag audits as tag health ratings and compliance coverage of CIs. Interactive widgets show tag coverage status and tagging trends over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/tag-governance/tag-governance-dashboard-efficacy.html
 release: xanadu
 product: Tag Governance
 classification: tag-governance
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Tag Governance, Tag Governance, ITOM Visibility, IT Opera
 
 The Efficacy tab displays the results of tag audits as tag health ratings and compliance coverage of CIs. Interactive widgets show tag coverage status and tagging trends over time.
 
-![Efficacy tab](../image/tag-dashboard-efficacy-tab.png "Efficacy tab")
+\[Omitted image "tag-dashboard-efficacy-tab.png"\] Alt text: Efficacy tab
 
 ## Ratings
 

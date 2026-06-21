@@ -2,6 +2,7 @@
 title: Create an employee form
 description: Create or modify an employee form so that you can collect employee input. Configuration of the employee form is a three-part process. First, create the employee form record. Second, use the survey designer to build one or more questions for the employee form. Third, you can map questions from the employee form to corresponding fields on a target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/configure-hr-employee-form.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -37,7 +38,7 @@ Role required: sn\_hr\_core.admin
 
     The **Form Designer** button appears.
 
-    ![The Form Designer button appears after you save the employee form.](../image/employee-form-form-designer-button.png)
+    \[Omitted image "employee-form-form-designer-button.png"\] Alt text: The Form Designer button appears after you save the employee form.
 
 5.  Click **Form Designer** to open the survey designer in a new window.
 
@@ -52,23 +53,23 @@ Role required: sn\_hr\_core.admin
     -   Number
     -   String
     -   Reference
-    For further details on the different question types, see [Survey designer elements](https://www.servicenow.com/docs/access?context=c_SurveyDesignerElements&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    For further details on the different question types, see Survey designer elements.
 
     The following GIF shows an example of a user building a reference question and a boolean question in the survey designer.
 
     **Note:** Make sure to provide each question a name so that you can more easily identify the question when creating mappings or HR criteria records.
 
-    ![User building questions in the survey designer.](../image/employee-form-survey-designer-example.gif)
+    \[Omitted image "employee-form-survey-designer-example.gif"\] Alt text: User building questions in the survey designer.
 
 7.  After building your questions, click **Save and Publish**.
 
-    ![Click Save and Publish in the survey designer to save and publish the questions for your employe form.](../image/employee-form-survey-designer-save-publish.png)
+    \[Omitted image "employee-form-survey-designer-save-publish.png"\] Alt text: Click Save and Publish in the survey designer to save and publish the questions for your employe form.
 
 8.  Return to and reload the employee form.
 
     The **Add Mappings** field appears on the employee form.
 
-    ![The Add Mappings field appears on the employee form after you save and publish your questions in the survey designer.](../image/employee-form-add-mappings-option.png)
+    \[Omitted image "employee-form-add-mappings-option.png"\] Alt text: The Add Mappings field appears on the employee form after you save and publish your questions in the survey designer.
 
 9.  If you want to map one or more questions to fields on a table, fill in the following new fields on the form.
 
@@ -102,7 +103,7 @@ Conditions
 
 </td><td>
 
-Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>    For example, you can map an employee form to the HR Profile \[sn\_hr\_core\_profile\] table with the following condition:
@@ -111,7 +112,7 @@ Use the condition builder to identify one record on the table to access. Make su
 
     The result is that the logged-in user's HR profile record is accessed for mapping.
 
-    ![A condition that is set to User, is dynamic, Me. This means that only the logged in user can update their HR profile.](../image/employee-form-add-mappings-for-hr-profile-table.png)
+    \[Omitted image "employee-form-add-mappings-for-hr-profile-table.png"\] Alt text: A condition that is set to User, is dynamic, Me. This means that only the logged in user can update their HR profile.
 
 10. To map one or more questions from the employee form to fields on the target table.
 
@@ -170,7 +171,7 @@ Option to make the question read-only. If selected, the user can read but not up
 </td></tr></tbody>
 </table>        For example, you can map a question for the user's manager to the corresponding field on the User \[sys\_user\] table. When the user views the employee form in an HR task, they will see their manager's name filled in for that field. Because it is marked as read-only, the user will be able to read but not update that field.
 
-        ![A field mapping where the manager question is mapped to a corresponding table field.](../image/employee-form-field-mapping-example.png)
+        \[Omitted image "employee-form-field-mapping-example.png"\] Alt text: A field mapping where the manager question is mapped to a corresponding table field.
 
     3.  Click **Submit** or **Update**.
 
@@ -185,11 +186,11 @@ You can use the employee form in task forms to collect employee input from users
 
 The following GIF shows an example of an HR agent creating a collect employee input task for an employee, Eva Seahorn, as part of an HR case.
 
-![An HR agent creating an HR task in an HR task to collect employee input.](../image/employee-form-hr-case-hr-task.gif)
+\[Omitted image "employee-form-hr-case-hr-task.gif"\] Alt text: An HR agent creating an HR task in an HR task to collect employee input.
 
 The follow GIF shows an example of the employee, Eva Seahorn, then completing the collect employee input to-do in the Employee Center.
 
-![An employee completing a collect employee input to-do in the Employee Center.](../image/employee-form-esc-to-do.gif)
+\[Omitted image "employee-form-esc-to-do.gif"\] Alt text: An employee completing a collect employee input to-do in the Employee Center.
 
-**Parent Topic:**[Collect employee input](../concept/employee-form-configuration.md)
+**Parent Topic:**[Collect employee input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/employee-form-configuration.md)
 

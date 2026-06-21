@@ -2,6 +2,7 @@
 title: Report a payslip issue in Oracle HCM
 description: Report an issue in your Oracle HCM payslip from Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/payslips-ahcm.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

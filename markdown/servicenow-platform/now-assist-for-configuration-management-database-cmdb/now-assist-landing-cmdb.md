@@ -2,6 +2,7 @@
 title: Now Assist for Configuration Management Database \(CMDB\)
 description: Use the ServiceNow Now Assist for Configuration Management Database \(CMDB\) application to view comprehensive summaries for configuration items \(CIs\) directly on CI forms and to accelerate the process of remediating duplicate CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.html
 release: xanadu
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -19,15 +20,15 @@ Use the ServiceNow® Now Assist for Configuration Management Database \(CMDB\) a
 
 <table id="table_mzj_vxd_rcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Now Assist for CMDB](now-assist-cmdb-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-exploring.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate the Now Assist for CMDB skills](now-assist-cmdb-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Now Assist for CMDB skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Apply AI skills and agentic workflows to accelerate results.](now-assist-cmdb-using-1.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Apply AI skills and agentic workflows to accelerate results.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -53,7 +54,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

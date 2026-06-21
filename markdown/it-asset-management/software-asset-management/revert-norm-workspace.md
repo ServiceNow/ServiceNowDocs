@@ -2,6 +2,7 @@
 title: Revert normalization in the workspace
 description: You can revert the normalization of discovery models in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/revert-norm-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

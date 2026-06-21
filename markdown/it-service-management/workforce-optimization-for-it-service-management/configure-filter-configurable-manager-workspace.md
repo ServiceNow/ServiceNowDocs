@@ -2,6 +2,7 @@
 title: Configure filters for ITSM Manager Workspace
 description: Define filter configurations for Schedule, Coaching, and Channels applications. You can use these filters to refine your search and view targeted results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/workforce-optimization-for-it-service-management/configure-filter-configurable-manager-workspace.html
 release: xanadu
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -54,7 +55,7 @@ Table
 Table that is used for the filter configuration. **Note:**
 
 -   You can filter only on specific tables or database views for each module.
--   For a list of tables and database views that you can use for each module, see the Filter Configuration Tables section in [Workforce Optimization for ITSM components](../reference/components-installed-workforce-optimization-itsm.md).
+-   For a list of tables and database views that you can use for each module, see the Filter Configuration Tables section in [Workforce Optimization for ITSM components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/components-installed-workforce-optimization-itsm.md).
 
 
 </td></tr><tr><td>
@@ -111,5 +112,5 @@ Option that enables the filter configuration in Manager Workspace.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](../concept/advanced-configuration-workforce-optimization-itsm.md)
+**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
 

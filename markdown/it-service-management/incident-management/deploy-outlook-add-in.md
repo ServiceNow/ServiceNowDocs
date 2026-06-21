@@ -2,6 +2,7 @@
 title: Deploy the ServiceNow Add-in for Microsoft Outlook
 description: Deploy the ServiceNow add-in for Microsoft Outlook to chat with a virtual agent, create incidents and VTB tasks from within the Microsoft Outlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/deploy-outlook-add-in.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -60,7 +61,7 @@ You can add or remove fields directly on the Incident form for users with the it
 
 7.  To customize the Incident form for users with the itil role, configure the Incident form layout directly.
 
-    1.  Click the context menu icon \(![Context menu icon.](../image/outlook-context-menu.png)\) on the form and select **View** &gt; **Outlook**.
+    1.  Click the context menu icon \(\[Omitted image "outlook-context-menu.png"\] Alt text: Context menu icon.\) on the form and select **View** &gt; **Outlook**.
 
     2.  Click the context menu again and select **Configure** &gt; **Form Layout**.
 
@@ -75,5 +76,5 @@ You can add or remove fields directly on the Incident form for users with the it
     3.  Paste the copied sys\_id into the **Value** field of the **Provide sys\_id of the record producer for create incident action from Outlook Add-In** \(**sn\_outlook\_addin.create\_incident\_cat\_item**\) system property.
 
 
-**Parent Topic:**[Configuring Microsoft Outlook to create incidents and VTB tasks](../concept/create-incident-outlook.md)
+**Parent Topic:**[Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/create-incident-outlook.md)
 

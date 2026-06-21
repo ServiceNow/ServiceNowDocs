@@ -2,7 +2,10 @@
 title: View CIs consuming ITOM subscription units
 description: Generate a list of currently countable CIs for each of the ITOM applications: ITOM Visibility, Discovery, ITOM Health, Health Log Analytics, ITOM Cloud Accelerate, and ITOM Optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-licensing-count.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

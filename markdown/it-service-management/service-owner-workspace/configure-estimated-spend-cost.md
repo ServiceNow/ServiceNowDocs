@@ -2,6 +2,7 @@
 title: Configure the estimated spend offering cost source
 description: Define the source used to calculate the estimated cost for service offerings. You can use the default local model or access the preconfigured Financial Management service offering cost models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/configure-estimated-spend-cost.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -21,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](../concept/SPM2-premium.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md).
 
 <table id="table_e2x_rbr_nkb"><tbody><tr><td>
 
-![Use Service Owner Workspace](../image/SOWUseBanner2.png "Navigate")
+\[Omitted image "SOWUseBanner2.png"\] Alt text: Use Service Owner Workspace
 
 </td></tr></tbody>
 </table>The Service Portfolio Management Estimated Spend plugin \(com.snc.spm.spend\) is automatically activated with Service Owner Workspace.

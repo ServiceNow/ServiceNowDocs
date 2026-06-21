@@ -2,12 +2,13 @@
 title: Define allowed ServiceNow internal IP addresses \[Updated in Security Center 1.3 and 1.5\]
 description: Use the glide.ip.authenticate.strict property to specify IP ranges that can make inbound connections on an instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
 last_updated: "2026-01-26"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
 
@@ -101,7 +102,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -130,9 +131,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Note:** A deny all rule is needed to be added into IP access control to restrict access from any IP's not added into IP access control. All required allowed IP's are then needed to be added into IP access control.
+</table>To learn more about adding or creating a system property, see .
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
-
-**Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

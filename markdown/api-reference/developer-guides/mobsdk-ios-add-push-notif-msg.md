@@ -2,6 +2,7 @@
 title: Add a push notification message
 description: Configure the message displayed to users when they receive their push notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/developer-guides/mobsdk-ios-add-push-notif-msg.html
 release: xanadu
 product: Developer Guides
 classification: developer-guides

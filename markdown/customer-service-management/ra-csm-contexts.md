@@ -2,7 +2,10 @@
 title: Contexts in Recommended Actions
 description: A context enables agents to see recommendations for records from a table when certain rules are met. These recommendations can help agents by suggesting actions to take based on the record context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-csm-contexts.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 7
@@ -34,7 +37,7 @@ The Context form includes the name and description of the context, the selected 
 -   **Rules**: Displays the rules that have been created for the context, including the selected user roles. You can create a rule only from the Rules related list on the Context form.
 -   **Recommendations**: Displays the recommendations associated with the context rules, including the action type and action. You can create a recommendation only from the Recommendation related list on the Rule form.
 -   **Search result mapping**: Displays mappings between AI search outputs and Recommended Actions inputs.
--   **Inherited rules**: Displays the rules inherited from the parent context. The Inherited rules related list appears only for the contexts that have the parent context assigned. For more information on how the parent context rules are inherited by the child context, see [Apply rules to tables extended from the context table](ra-csm-rules.md#section_rules-apply-extended-tables).
+-   **Inherited rules**: Displays the rules inherited from the parent context. The Inherited rules related list appears only for the contexts that have the parent context assigned. For more information on how the parent context rules are inherited by the child context, see [Apply rules to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/ra-csm-rules.md).
 -   **Extended contexts**: Displays all the contexts which use the current context as a parent context. This related list appears only for the parent contexts.
 
 The Contexts list includes an Active column. You can use this column to view and set the Active value for a context record. The Context form includes an **Active** field that you can use to activate or deactivate a context record.
@@ -57,7 +60,7 @@ The **sn\_nb\_action.async\_ra\_timeout** system property specifies the timeout 
 
 ## Inheriting the rules and recommendations from hierarchical contexts
 
-The parent context field appears only when the table selected in the Table field has one or more parent tables for which context is defined. Using the Parent context field, you can import it's active rules and recommendations into the extended context. When you click the search icon on this field, the list of contexts of parent tables is displayed. You can select any one parent context from the list. The rules that are inherited appear in the Inherited Rules related list. For more information on how to configure rules so that the recommendations are inherited by the extended context, see [Apply rules to tables extended from the context table](ra-csm-rules.md#section_rules-apply-extended-tables).
+The parent context field appears only when the table selected in the Table field has one or more parent tables for which context is defined. Using the Parent context field, you can import it's active rules and recommendations into the extended context. When you click the search icon on this field, the list of contexts of parent tables is displayed. You can select any one parent context from the list. The rules that are inherited appear in the Inherited Rules related list. For more information on how to configure rules so that the recommendations are inherited by the extended context, see [Apply rules to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/ra-csm-rules.md).
 
 ## Inheriting the rules and recommendations from hierarchical contexts
 

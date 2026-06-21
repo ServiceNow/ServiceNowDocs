@@ -2,6 +2,7 @@
 title: Financial Services Complaint Management data model
 description: The Financial Services Complaint Management data model provides a framework that is used in the complaint management workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-complaint-management/fso-complaints-mgmt-data-model.html
 release: xanadu
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -23,13 +24,13 @@ This data model uses a combination of tables to store data:
 
 -   Tables that are included with complaints management application.
 
-    For more information on tables that are installed with Financial Services Complaint Management, see [Components installed with Financial Services Complaint Management](../reference/installed-with-fso-complaints-mgmt.md).
+    For more information on tables that are installed with Financial Services Complaint Management, see [Components installed with Financial Services Complaint Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-complaint-management/installed-with-fso-complaints-mgmt.md).
 
 -   Tables that are from the Customer Service Management \(CSM\) application.
     -   Extends the Sold Product \[sn\_install\_base\_sold\_product\] table for financial account and financial transaction tables.
     -   Uses these CSM tables to support customers: Consumer \[csm\_consumer\], Account \[customer\_account\], and Contact \[customer\_contact\]
 
-        For more information on these CSM tables that store customer records, see [Accounts and contacts](https://www.servicenow.com/docs/access?context=configure-csm-accounts-contacts&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US) and [Consumers](https://www.servicenow.com/docs/access?context=configure-csm-consumers&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+        For more information on these CSM tables that store customer records, see Accounts and contacts and Consumers.
 
 -   ServiceNow AI Platform tables.
 

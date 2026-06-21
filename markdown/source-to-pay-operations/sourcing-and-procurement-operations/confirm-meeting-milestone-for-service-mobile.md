@@ -2,6 +2,7 @@
 title: Confirm meeting a milestone for your service from your mobile device
 description: Provide confirmation on whether the supplier has met a milestone for a service you had ordered, from your mobile application, so that payment can be processed to the supplier for that milestone. If a milestone has not been met by the due date, you can choose to push the due date to a later date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/confirm-meeting-milestone-for-service-mobile.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -35,15 +36,15 @@ You can provide confirmation on whether the supplier has met a milestone for a s
 
 4.  On the **To-do** tab, do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d141849e89">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d93797e89">
 
 Action
 
-</th><th align="left" id="d141849e92">
+</th><th align="left" id="d93797e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141849e98">
+</th></tr></thead><tbody><tr><td id="d93797e98">
 
 **Confirm milestone**
 
@@ -51,7 +52,7 @@ Description
 
 Select **Confirm milestone** and provide your response, if any, in the **Additional comments** field.
 
-</td></tr><tr><td id="d141849e113">
+</td></tr><tr><td id="d93797e113">
 
 **Defer completion**
 
@@ -59,7 +60,7 @@ Select **Confirm milestone** and provide your response, if any, in the **Additio
 
 Tap on the Actions icon, and select **Defer completion** to push the milestone to a later date.On the **Defer completion** screen, pick a new completion date and provide your reason for changing the date.
 
-</td></tr><tr><td id="d141849e131">
+</td></tr><tr><td id="d93797e131">
 
 **Cancel milestone**
 
@@ -73,5 +74,5 @@ Tap on the Actions icon, and select **Cancel milestone** to cancel the milestone
 5.  Tap the Next icon.
 
 
-**Parent Topic:**[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

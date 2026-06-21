@@ -2,6 +2,7 @@
 title: ERP Data Hub scheduled extraction field descriptions
 description: The Scheduled extraction form in ERP Data Hub enables you to create and edit jobs to extract data at regular intervals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-data-hub-scheduled-extraction-field-descriptions.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -83,7 +84,7 @@ Maximum no of retries on error
 
 </td><td>
 
-If the job fails, set the maximum number of retries \(from 0 through 10\) the scheduled job should attempt before stopping.**Note:** Each retry uses the same query and retries the entire job. For example, if the total job contains 5000 records and the job fails after 2000 records are successfully processed, the entire job is rerun again on the next retry. For more information, see [Import sets key concepts](https://www.servicenow.com/docs/access?context=c_ImportSetsKeyConcepts&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+If the job fails, set the maximum number of retries \(from 0 through 10\) the scheduled job should attempt before stopping.**Note:** Each retry uses the same query and retries the entire job. For example, if the total job contains 5000 records and the job fails after 2000 records are successfully processed, the entire job is rerun again on the next retry. For more information, see .
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Generate encoded query script
 
 </td><td>
 
-Generate an encoded query script to use on the extraction table to fetch the data. For example:![Sample generated encoded query script.](../image/erpc-schedule-extraction-generate-query.png)
+Generate an encoded query script to use on the extraction table to fetch the data. For example:\[Omitted image "erpc-schedule-extraction-generate-query.png"\] Alt text: Sample generated encoded query script.
 
 The script entered in **Generate encoded query script** takes precedence over information entered into the **Encoded query** field. You can append the encoded query to the script \(as in the example\).
 
@@ -109,10 +110,10 @@ Encoded query
 
 </td><td>
 
-Create an encoded query string using a filter on the extraction table list and paste the string into this field. For example:![Sample encoded query.](../image/erpc-schedule-extraction-encoded-query.png)
+Create an encoded query string using a filter on the extraction table list and paste the string into this field. For example:\[Omitted image "erpc-schedule-extraction-encoded-query.png"\] Alt text: Sample encoded query.
 
-For more information, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+For more information, see .
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Data Hub field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Data Hub field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

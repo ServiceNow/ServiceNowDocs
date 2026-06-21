@@ -2,6 +2,7 @@
 title: NowWebViewController class - iOS
 description: The NowWebViewController class provides functions that enable you to manage a web viewer.If the request is authenticated, starts loading the initial URL provided during instantiation using the makeWebViewController\(\) method.Updates the NowWebView theme with the specified UI theme. Use this function to update the web UI theme after it has been initially set using the makeWebViewController\(\) function, such as when changing the theme from light to dark.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/cllent-mobile-api-reference/NWebViewControlleriOSAPI.html
 release: xanadu
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API refer
 
 The NowWebViewController class provides functions that enable you to manage a web viewer.
 
-![Web page load flow](../../image/mobsdk-web-start-flow.png)
+\[Omitted image "mobsdk-web-start-flow.png"\] Alt text: Web page load flow
 
-**Parent Topic:**[Mobile SDK API reference - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowWebViewController - loadPage\(\)
 
@@ -55,7 +56,7 @@ Updates the NowWebView theme with the specified UI theme. Use this function to u
 
 |Name|Type|Description|
 |----|----|-----------|
-|themeColors|[NowWebThemeable](../../NowWebThemeable/concept/NowWebThemeableiOSProtocol.md)|Theme to update the web UI with.|
+|themeColors|[NowWebThemeable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowWebThemeableiOSProtocol.md)|Theme to update the web UI with.|
 
 |Type|Description|
 |----|-----------|

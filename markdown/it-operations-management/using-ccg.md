@@ -2,7 +2,10 @@
 title: Using Cloud Configuration Governance
 description: Cloud Configuration Governance provides a set of ready-to-use policies. You can either use these policies to identify the non-compliant cloud resource configurations within your cloud organization, or create custom policies. After identifying the non-compliant cloud resource configurations, you can use the remediation feature of the application to fix the violations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/using-ccg.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

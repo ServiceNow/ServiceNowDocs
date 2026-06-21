@@ -2,6 +2,7 @@
 title: ITSM Predictive Intelligence Workbench notifications
 description: Email notifications are added with Predictive Intelligence Workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-notifications.html
 release: xanadu
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -17,7 +18,7 @@ Email notifications are added with Predictive Intelligence Workbench.
 
 **Important:**
 
-Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](../../task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md)
+Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -60,7 +61,7 @@ Use case Model training failedTable: PI Solution Model \[piwb\_model\]
 Sends an email to a specified user group when a use case model training has failed.
 
 </td></tr></tbody>
-</table>Create an ITSM Predictive Intelligence Workbench user group and add users or roles to ensure Predictive Intelligence process architects are notified during the use case model implementation process. Refer to [Create an ITSM Predictive Intelligence Workbench user group](../task/itsm-piwb-user-groups.md).
+</table>Create an ITSM Predictive Intelligence Workbench user group and add users or roles to ensure Predictive Intelligence process architects are notified during the use case model implementation process. Refer to [Create an ITSM Predictive Intelligence Workbench user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-user-groups.md).
 
-For more details about email notifications for Predictive Intelligence Workbench, refer to [Preview email notification](https://www.servicenow.com/docs/access?context=t_PreviewingNotifications&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more details about email notifications for Predictive Intelligence Workbench, refer to Preview email notification.
 

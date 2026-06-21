@@ -2,6 +2,7 @@
 title: Create a Custom Type Element
 description: Create a list type element, which defines the related list elements more declaratively with filter options such as assignment groups and labels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/create-a-custom-type-element.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ Role required: sn\_msi.workspace\_manager
 
 6.  Navigate to **Report subsection elements** &gt; **New**.
 
-7.  Fill in the report subsection elements form with the required details as explained in [Create Report Subsection Element template](create-report-subsection-element-template.md).
+7.  Fill in the report subsection elements form with the required details as explained in [Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/create-report-subsection-element-template.md).
 
 8.  Navigate to the Report Subsection element Type field, and select the **Custom** option.
 
@@ -43,15 +44,15 @@ Role required: sn\_msi.workspace\_manager
 
 9.  On the Custom content form, fill in the fields.
 
-<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d385929e146">
+<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d366232e146">
 
 Field
 
-</th><th align="left" id="d385929e149">
+</th><th align="left" id="d366232e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d385929e155">
+</th></tr></thead><tbody><tr><td id="d366232e155">
 
 **Dynamic content**
 
@@ -59,7 +60,7 @@ Description
 
 Enter the dynamic content such as the template scripts.
 
-</td></tr><tr><td id="d385929e164">
+</td></tr><tr><td id="d366232e164">
 
 **Run time configurable**
 
@@ -67,7 +68,7 @@ Enter the dynamic content such as the template scripts.
 
 Select this check box if the custom element type is run time configurable.
 
-</td></tr><tr><td id="d385929e173">
+</td></tr><tr><td id="d366232e173">
 
 **Runtime config UX App Route**
 
@@ -79,7 +80,7 @@ Enter the Runtime configuration UX App Route value when a UIB page is created wi
 </table>
 ## The following is an example of the report template subsection element type for a Technical Status Report
 
-![Report template subsection element type for a Technical Status Report](../image/custom-element-type.png "Report subsection element type")
+\[Omitted image "custom-element-type.png"\] Alt text: Report template subsection element type for a Technical Status Report
 
-**Parent Topic:**[Create Report Subsection Element template](create-report-subsection-element-template.md)
+**Parent Topic:**[Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/create-report-subsection-element-template.md)
 

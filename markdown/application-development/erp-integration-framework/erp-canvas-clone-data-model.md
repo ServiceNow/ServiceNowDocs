@@ -2,6 +2,7 @@
 title: Clone an ERP model in ERP Data Hub
 description: Clone a standard ERP \(Enterprise Resource Planning\) model that ships with ERP Data Hub. After you clone the model you can make modifications, for example, by adding new fields or tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-clone-data-model.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -25,7 +26,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
 
 ## About this task
 
-ERP Data Hub provides a standard set of ERP models, such as SAP Material Stock and SAP Purchase Document. You can also build new models. For a list of standard ERP models, which you must clone to modify, see [Standard ERP models and extraction tables for ERP Data Hub](../reference/erp-canvas-standard-extraction-tables.md).
+ERP Data Hub provides a standard set of ERP models, such as SAP Material Stock and SAP Purchase Document. You can also build new models. For a list of standard ERP models, which you must clone to modify, see [Standard ERP models and extraction tables for ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-standard-extraction-tables.md).
 
 Cloning ERP models to make customizations ensures that your changes don't break connections to other ServiceNow AI Platform applications.
 
@@ -33,7 +34,7 @@ Cloning ERP models to make customizations ensures that your changes don't break 
 
 1.  Navigate to **All** &gt; **ERP Data Hub** &gt; **ERP Data Hub Home**.
 
-2.  Open the ERP models page by selecting the ERP models icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+2.  Open the ERP models page by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
 3.  Select the name of ERP model that you want to clone.
 
@@ -45,7 +46,7 @@ Cloning ERP models to make customizations ensures that your changes don't break 
 
     ERP Data Hub clones the model and displays a success message.
 
-7.  Open the ERP models page by selecting the ERP models icon \(![ERP model icon](../image/erpc-data-model-icon.png)\).
+7.  Open the ERP models page by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\).
 
 8.  In the **ERP model name** column, select the cloned model you created.
 
@@ -53,12 +54,12 @@ Cloning ERP models to make customizations ensures that your changes don't break 
 
     **Warning:** Changing the ERP system connected to the ERP model affects the available remote tables and extraction tables. If you change the ERP system, you must confirm the change on a warning modal.
 
-    For a description of the field values, see [ERP Data Hub clone model field descriptions](../reference/erp-canvas-clone-model-fields.md).
+    For a description of the field values, see [ERP Data Hub clone model field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-clone-model-fields.md).
 
 
 ## What to do next
 
-Next, manage the model to specify additional criteria, such as which tables it reads and joins, as well as defining read and update operations and input/output parameters. For more information, see [Managing how models read and update the ERP system](../concept/erpc-managing-models-read.md).
+Next, manage the model to specify additional criteria, such as which tables it reads and joins, as well as defining read and update operations and input/output parameters. For more information, see [Managing how models read and update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-managing-models-read.md).
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

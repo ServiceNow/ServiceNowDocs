@@ -2,6 +2,7 @@
 title: Guest contact form fields
 description: A description of the fields on the Guest contact form in the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/guest-contact-form-fields.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-01-30"
@@ -22,5 +23,5 @@ A description of the fields on the Guest contact form in the ServiceNow Store.
 |Country|Country where you are located.|
 |Message to Seller|Question or request.|
 
-**Parent Topic:**[ServiceNow Store reference](store-reference.md)
+**Parent Topic:**[ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/store-reference.md)
 

@@ -2,6 +2,7 @@
 title: Set up the Jira spoke for Jira Server
 description: Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.Integrate the ServiceNow instance and Jira Server using API Token to authenticate ServiceNow requests.Generate a personal access token from the Jira Server instance.Create an API key credential record to authenticate the requests from ServiceNow.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-jira-server.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -121,11 +122,11 @@ Generate a personal access token from the Jira Server instance.
 
 2.  Click the user profile icon and click **Profile**.
 
-3.  Under **Personal Access Tokens**, click **Create token**.![Create a personal access token.](../image/jira-spoke-server-api-token.png)
+3.  Under **Personal Access Tokens**, click **Create token**.\[Omitted image "jira-spoke-server-api-token.png"\] Alt text: Create a personal access token.
 
-4.  On the Create a personal access token form, fill in the required values.![Fill in the values to create a personal access token.](../image/jira-spoke-server-api-token1.png)
+4.  On the Create a personal access token form, fill in the required values.\[Omitted image "jira-spoke-server-api-token1.png"\] Alt text: Fill in the values to create a personal access token.
 
-    The value of personal access token is generated and displayed. Copy this value for later use.![Copy the value of the generated token.](../image/jira-spoke-server-api-token2.png)
+    The value of personal access token is generated and displayed. Copy this value for later use.\[Omitted image "jira-spoke-server-api-token2.png"\] Alt text: Copy the value of the generated token.
 
 
 ### Create a credential record for the Jira spoke
@@ -208,7 +209,7 @@ Role required: admin
 
     2.  Enter the value `server` for **server\_type**.
 
-    ![Set the value of server_type to server.](../image/jira-spoke-attribute-server.png)
+    \[Omitted image "jira-spoke-attribute-server.png"\] Alt text: Set the value of server\_type to server.
 
 6.  Click **Submit**.
 

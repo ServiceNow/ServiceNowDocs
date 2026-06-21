@@ -2,6 +2,7 @@
 title: Uninstall Agent Client Collector from a Linux system
 description: Uninstall the Agent Client Collector from a Linux machine manually if the command script is unavailable due to the specific agent not being connected to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-linux-uninstall.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -49,5 +50,5 @@ By default, an uninstalled agent is removed from the system after 30 days. To mo
     **Warning:** Do not use the command rm -Rf, as this can cause data loss.
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

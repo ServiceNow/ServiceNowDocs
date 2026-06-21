@@ -2,6 +2,7 @@
 title: Configure Playbooks for Retail Core
 description: Retail Core users can use playbooks to complete the tasks and activities that are needed to resolve specific types of cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-configure-playbooks.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -22,5 +23,5 @@ A playbook includes multiple stages and each stage includes one or more activiti
 
 Playbooks for use with Retail Core are configured just as they are for Customer Service Management.
 
-For information on configuring your Playbooks experience, see [Configure Playbooks for Customer Service Management](https://www.servicenow.com/docs/access?context=csm-playbooks-configuring&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+For information on configuring your Playbooks experience, see .
 

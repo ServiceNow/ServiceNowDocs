@@ -2,6 +2,7 @@
 title: Using
 description: Understand how you can use HR Service Delivery Advanced Integration with Workday to process advanced employee information at ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,16 +16,16 @@ breadcrumb: [HR Service Delivery Advanced Integration with Workday, Integration 
 
 Understand how you can use HR Service Delivery Advanced Integration with Workday to process advanced employee information at ServiceNow.
 
--   **[Time off request to Workday](w-timeoff.md)**  
+-   **[Time off request to Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/w-timeoff.md)**  
 You can submit a time off request to Workday from Employee Center.
--   **[Change legal name through Virtual Agent](../task/change-legal-na-awd.md)**  
+-   **[Change legal name through Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/change-legal-na-awd.md)**  
 Change your legal name change through Virtual Agent chat in Employee Center.
--   **[Publish the VA topic template for legal name change](../task/nlu-awd.md)**  
+-   **[Publish the VA topic template for legal name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/nlu-awd.md)**  
 Publish the Workday Legal Name Change Template which contains an NLU model that recognizes and processes employee utterances, intentions \(intents\), and objects of, or contexts for, an action \(entities\).
--   **[Report an issue with your payslip](../task/payslips-awd.md)**  
+-   **[Report an issue with your payslip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/payslips-awd.md)**  
 Report an issue with your Workday payslip from Employee Center.
--   **[Now Assist Virtual Agent topics for HR Service Delivery Advanced Integration with Workday](now-assist-va-awd.md)**  
+-   **[Now Assist Virtual Agent topics for HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/now-assist-va-awd.md)**  
 You can use the Now Assist Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the Workday system in Employee Center.
 
-**Parent Topic:**[Integration of HR Service Delivery with third-party systems](integrate-third-party-systems.md)
+**Parent Topic:**[Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/integrate-third-party-systems.md)
 

@@ -2,6 +2,7 @@
 title: Default deny property
 description: The default deny property \(glide.sm.default\_mode\) controls the security manager default behavior when the only matching ACL rules are the wildcard table ACL rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/access-control/c\_DefaultDenyProperty.html
 release: xanadu
 product: Access Control
 classification: access-control

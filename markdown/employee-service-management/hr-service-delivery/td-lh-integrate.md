@@ -2,6 +2,7 @@
 title: Integrations for Leader Hub
 description: Extend the Leader Hub application's capabilities by integrating with the Talent Development suite of applications to acquire pertinent data about the talent in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/td-lh-integrate.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

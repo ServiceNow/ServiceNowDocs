@@ -2,6 +2,7 @@
 title: Create an improvement initiative from Digital Portfolio Management
 description: Create an improvement initiative from the Digital Portfolio Management \(DPM\) Workspace. DPM enables you to create an improvement initiative for any business or technical services that you own.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-portfolio-management/dpm-create-initiative.html
 release: xanadu
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -17,7 +18,7 @@ Create an improvement initiative from the Digital Portfolio Management \(DPM\) W
 
 ## Before you begin
 
-For the required plugins to create improvement initiatives in Digital Portfolio Management, see the Continual Improvement Management area of [Digital Portfolio Management related applications and data sources](../reference/dpm-related-products.md).
+For the required plugins to create improvement initiatives in Digital Portfolio Management, see the Continual Improvement Management area of [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-related-products.md).
 
 Role required: sn\_dpm.dpm\_manager
 
@@ -35,7 +36,7 @@ You can manage and create improvement initiatives for services or service offeri
 
 4.  On the form, fill in the fields.
 
-    For details on the improvement initiative process, see [Create an improvement request](../../continual-improvement-management/task/create-cim-request.md).
+    For details on the improvement initiative process, see [Create an improvement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/continual-improvement-management/create-cim-request.md).
 
 <table id="table_rz5_lfx_msb"><thead><tr><th>
 
@@ -107,7 +108,7 @@ State
 
 </td><td>
 
-State of the improvement initiative. This field is read only. For descriptions, see [Continual Improvement Management reference](../../continual-improvement-management/reference/cim-reference.md)
+State of the improvement initiative. This field is read only. For descriptions, see [Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/continual-improvement-management/cim-reference.md)
 
  -   New
 -   Accepted
@@ -366,5 +367,5 @@ Any notes that you want to add to the improvement initiative \(these notes are n
 </table>5.  **Save** the improvement initiative.
 
 
-**Parent Topic:**[Work with solution data in Digital Portfolio Management](../concept/dpm-working-with.md)
+**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-working-with.md)
 

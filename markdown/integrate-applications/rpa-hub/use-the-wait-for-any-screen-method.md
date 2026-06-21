@@ -2,6 +2,7 @@
 title: Use the WaitForAnyScreen method for Universal App Connector
 description: Find one or more application screens and optionally, their child elements within a time period that you specify and then perform actions that you specify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-the-wait-for-any-screen-method.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -27,7 +28,7 @@ When you use the WaitForAnyScreen method, it tries to find a screen by matching 
 
 1.  Configure the UAC.
 
-    To learn to configure the application screens and child elements, see [Use the Universal App Connector](configure-uac.md).
+    To learn to configure the application screens and child elements, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-uac.md).
 
 2.  Under Global Objects, double-click the **UniversalApplication** object.
 
@@ -37,7 +38,7 @@ When you use the WaitForAnyScreen method, it tries to find a screen by matching 
 
 4.  Configure the WaitForAnyScreen method.
 
-    1.  Select the settings icon \(![Wait For Any Screen method settings icon.](../image/uac-connector-settings-icon.png)\).
+    1.  Select the settings icon \(\[Omitted image "uac-connector-settings-icon.png"\] Alt text: Wait For Any Screen method settings icon.\).
 
     2.  On the CHOOSE SCREENS window, select one or more application screens.
 
@@ -45,7 +46,7 @@ When you use the WaitForAnyScreen method, it tries to find a screen by matching 
 
         The application screen that you selected appears in the WaitForAnyScreen method.
 
-        ![Captured screen on the Wait For Any Screen method.](../image/uac-connector-captured-screen.png)
+        \[Omitted image "uac-connector-captured-screen.png"\] Alt text: Captured screen on the Wait For Any Screen method.
 
     4.  Configure the parameters on the WaitForAnyScreen method.
 
@@ -193,5 +194,5 @@ No
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Universal app connector](../concept/universal-app-connector.md)
+**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/universal-app-connector.md)
 

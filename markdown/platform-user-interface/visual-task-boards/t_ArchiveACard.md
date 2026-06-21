@@ -2,6 +2,7 @@
 title: Archive a Visual Task Board card
 description: Archiving a card is a non-destructive way to remove a card from a freeform Visual Task Board. You can archive cards you are no longer working on to reduce visual clutter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/visual-task-boards/t\_ArchiveACard.html
 release: xanadu
 product: Visual Task Boards
 classification: visual-task-boards
@@ -27,7 +28,7 @@ Role required: none
 
 -   Perform one of the following actions.
 
-<table id="choicetable_pxj_ytk_kv"><tbody><tr><td id="d94409e67">
+<table id="choicetable_pxj_ytk_kv"><tbody><tr><td id="d54148e67">
 
 **Archive one card from the lane view**
 
@@ -37,7 +38,7 @@ Role required: none
 2.  In the confirmation dialog, click **Archive**.
 
 
-</td></tr><tr><td id="d94409e91">
+</td></tr><tr><td id="d54148e91">
 
 **Archive one card from the card details**
 
@@ -48,13 +49,13 @@ Role required: none
 3.  In the confirmation dialog, click **Confirm**.
 
 
-</td></tr><tr><td id="d94409e124">
+</td></tr><tr><td id="d54148e124">
 
 **Archive all the cards in a lane**
 
 </td><td>
 
-1.  In the lane header, click the more options icon \(![More options icon](../image/IconMoreOptions.png)\).
+1.  In the lane header, click the more options icon \(\[Omitted image "IconMoreOptions.png"\] Alt text: More options icon\).
 2.  Select **Archive All Tasks**.
 3.  In the confirmation dialog, click **Archive**.
 
@@ -63,8 +64,8 @@ Role required: none
 </table>
 ## What to do next
 
--   To see all archived cards for the current board, from the board navigation panel, open the board information menu \(![Board information icon](../image/BoardInfoIcon.png)\) and click **View Archived Tasks**.
+-   To see all archived cards for the current board, from the board navigation panel, open the board information menu \(\[Omitted image "BoardInfoIcon.png"\] Alt text: Board information icon\) and click **View Archived Tasks**.
 -   To restore an archived card, point to it and click **Restore**.
 
-**Parent Topic:**[Working with Visual Task Board cards](../reference/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

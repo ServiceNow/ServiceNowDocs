@@ -2,6 +2,7 @@
 title: Add a decision to an app's playbook in Creator Studio
 description: Add decisions, which are if/then conditions, to define branches, or different paths of an automation's playbook in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-add-decision-automation.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -23,7 +24,7 @@ To add decisions to a playbook, you must be given permission to work on the app.
 
 Each decision should have at least two branches, with each branch representing a possible outcome for the decision. The second branch can be the ELSE branch, which is required. The ELSE branch will be followed when all other conditions on other branches are false. Think of the else branch as the catch-all case for the decision.
 
-![Playbook with multiple decision branches](../image/cs-playbook-with-decisions.png "Example decision with branches")
+\[Omitted image "cs-playbook-with-decisions.png"\] Alt text: Playbook with multiple decision branches
 
 ## Procedure
 
@@ -39,11 +40,11 @@ Each decision should have at least two branches, with each branch representing a
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
@@ -51,9 +52,9 @@ Each decision should have at least two branches, with each branch representing a
 
 5.  Check that you're editing the correct playbook in your app by selecting it from the **Automations** tab.
 
-    ![Automations tab in Creator Studio](../image/cs-automations-tab.png)
+    \[Omitted image "cs-automations-tab.png"\] Alt text: Automations tab in Creator Studio
 
-6.  Select the add icon \(![](../image/cs-add-icon.png)\) on the connector here you want to add a decision and choose the diamond-shaped **Add a decision** icon \(![](../image/cs-add-decision-icon.png)\) in the menu that pops up.
+6.  Select the add icon \(\[Omitted image "cs-add-icon.png"\] Alt text:\) on the connector here you want to add a decision and choose the diamond-shaped **Add a decision** icon \(\[Omitted image "cs-add-decision-icon.png"\] Alt text:\) in the menu that pops up.
 
     You must be in the Diagram view to add a decision.
 
@@ -64,7 +65,7 @@ Each decision should have at least two branches, with each branch representing a
     |Playbook name|Unique, user-facing name for the decisions, which appears to agents and fulfillers while the playbook is running.|
     |Description|Optional details about what the decision accomplishes.|
 
-    ![Basic details for a decision](../image/cs-decision-properties.png "Playbook decision properties")
+    \[Omitted image "cs-decision-properties.png"\] Alt text: Basic details for a decision
 
 8.  Define the decision's schedule.
 
@@ -119,7 +120,7 @@ Start with delay
 
 </td><td>
 
-Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see [Start with delay input properties](https://www.servicenow.com/docs/access?context=start-with-delay-properties&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see .
 
 </td></tr><tr><td>
 
@@ -130,7 +131,7 @@ Restart rules
 What the decision does when a playbook is restarted. The options are:-   **Skip on restart**: Skip this decision when the playbook run is due to a restart.
 -   **Run always**: Always run this decision, including first runs.
 -   **Skip on first run**: Skip this decision during the first run.
-For more information, see [Restart a playbook](https://www.servicenow.com/docs/access?context=restart-a-playbook&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+For more information, see .
 
 </td></tr></tbody>
 </table>10. Create the conditions for each branch, or possible outcome for the decision on the **Branches** tab of the Decision properties panel.
@@ -139,7 +140,7 @@ For more information, see [Restart a playbook](https://www.servicenow.com/docs/a
 
     2.  Select the **Add condition** button and specify what conditions should be met for the branch to take effect.
 
-        For more information, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+        For more information, see .
 
     3.  Select the **Add new branch** button and add as many branches as needed.
 
@@ -175,5 +176,5 @@ The app processes only the first listed branch with conditions met.If you select
 11. Select **Save and close**.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-working-with-automations.md)
 

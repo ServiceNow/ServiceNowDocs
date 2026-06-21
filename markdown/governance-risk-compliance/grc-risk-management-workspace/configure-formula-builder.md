@@ -2,6 +2,7 @@
 title: Configure the formula builder
 description: Specify the formula context, the tables, and the identifiers before you can build a formula.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/configure-formula-builder.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

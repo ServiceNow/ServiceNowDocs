@@ -2,6 +2,7 @@
 title: Setup Splunk environment
 description: ServiceNow Security Operations Integration enables seamless integration between Splunk and ServiceNow Security Operations. To set up or change the ServiceNow instance where new security incidents and security events are created, use the setup action in the application list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/setup-chg-instance.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -41,15 +42,15 @@ This ServiceNow extension addon is required so that security incidents can be cr
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d448837e159">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d359852e159">
 
 Field
 
-</th><th align="left" id="d448837e162">
+</th><th align="left" id="d359852e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d448837e168">
+</th></tr></thead><tbody><tr><td id="d359852e168">
 
 **URL**
 
@@ -57,7 +58,7 @@ Description
 
 URL of the ServiceNow instance for your Splunk Enterprise Security console or Splunk Cloud instance.
 
-</td></tr><tr><td id="d448837e186">
+</td></tr><tr><td id="d359852e186">
 
 **Auth type**
 
@@ -67,7 +68,7 @@ Authentication method to be used for API requests. The available options include
 -   **OAuth 2.0 Authentication**: Uses access tokens to authenticate requests.
 
 
-</td></tr><tr><td id="d448837e207">
+</td></tr><tr><td id="d359852e207">
 
 **Basic Authentication**
 
@@ -75,7 +76,7 @@ Authentication method to be used for API requests. The available options include
 
  
 
-</td></tr><tr><td id="d448837e215">
+</td></tr><tr><td id="d359852e215">
 
 **Username**
 
@@ -83,7 +84,7 @@ Authentication method to be used for API requests. The available options include
 
 Username of the user.User with the \(sn\_si.integration\_user, sn\_si.analyst\) role should be present in the ServiceNow instance specified in the preceding URL field.
 
-</td></tr><tr><td id="d448837e230">
+</td></tr><tr><td id="d359852e230">
 
 **Password**
 
@@ -91,7 +92,7 @@ Username of the user.User with the \(sn\_si.integration\_user, sn\_si.analyst\) 
 
 Password of the user.User with the \(sn\_si.integration\_user, sn\_si.analyst\) role should be present in the ServiceNow instance specified in the preceding URL field.
 
-</td></tr><tr><td id="d448837e244">
+</td></tr><tr><td id="d359852e244">
 
 **Confirm Password**
 
@@ -99,7 +100,7 @@ Password of the user.User with the \(sn\_si.integration\_user, sn\_si.analyst\) 
 
 Renter the password to confirm it.
 
-</td></tr><tr><td id="d448837e253">
+</td></tr><tr><td id="d359852e253">
 
 **OAuth 2.0 Authentication**
 
@@ -107,23 +108,23 @@ Renter the password to confirm it.
 
  
 
-</td></tr><tr><td id="d448837e261">
+</td></tr><tr><td id="d359852e261">
 
 **Client ID**
 
 </td><td>
 
-Client ID of the app created on the ServiceNow Server. For information on how to get the Client ID, see [Configure Application Registry on the ServiceNow instance](configure-application-registry-splunk.md)
+Client ID of the app created on the ServiceNow Server. For information on how to get the Client ID, see [Configure Application Registry on the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/configure-application-registry-splunk.md)
 
-</td></tr><tr><td id="d448837e279">
+</td></tr><tr><td id="d359852e279">
 
 **Client Secret**
 
 </td><td>
 
-Client Secret of the app created on the ServiceNow Server. For information on how to get the Client Secret, see [Configure Application Registry on the ServiceNow instance](configure-application-registry-splunk.md)
+Client Secret of the app created on the ServiceNow Server. For information on how to get the Client Secret, see [Configure Application Registry on the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/configure-application-registry-splunk.md)
 
-</td></tr><tr><td id="d448837e297">
+</td></tr><tr><td id="d359852e297">
 
 **Redirect URL**
 
@@ -131,7 +132,7 @@ Client Secret of the app created on the ServiceNow Server. For information on ho
 
 The URL to be redirected to. Copy and paste this URL in the redirect URL field of the Application Registries record.
 
-</td></tr><tr><td id="d448837e309">
+</td></tr><tr><td id="d359852e309">
 
 **Optional Proxy**
 
@@ -139,7 +140,7 @@ The URL to be redirected to. Copy and paste this URL in the redirect URL field o
 
  
 
-</td></tr><tr><td id="d448837e317">
+</td></tr><tr><td id="d359852e317">
 
 **Proxy URL**
 
@@ -147,7 +148,7 @@ The URL to be redirected to. Copy and paste this URL in the redirect URL field o
 
 Proxy URL for your Splunk Enterprise Security console or Splunk Cloud instance.
 
-</td></tr><tr><td id="d448837e332">
+</td></tr><tr><td id="d359852e332">
 
 **Port**
 
@@ -155,7 +156,7 @@ Proxy URL for your Splunk Enterprise Security console or Splunk Cloud instance.
 
 Address of the port.
 
-</td></tr><tr><td id="d448837e341">
+</td></tr><tr><td id="d359852e341">
 
 **Username**
 
@@ -163,7 +164,7 @@ Address of the port.
 
 Username that you created for the Proxy account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d448837e353">
+</td></tr><tr><td id="d359852e353">
 
 **Password**
 
@@ -171,7 +172,7 @@ Username that you created for the Proxy account on the Splunk Enterprise Securit
 
 Password that you created for the Proxy account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d448837e365">
+</td></tr><tr><td id="d359852e365">
 
 **Confirm Password**
 
@@ -179,7 +180,7 @@ Password that you created for the Proxy account on the Splunk Enterprise Securit
 
 Renter the password to confirm it.
 
-</td></tr><tr><td id="d448837e375">
+</td></tr><tr><td id="d359852e375">
 
 **Logging Level Setup**
 
@@ -187,7 +188,7 @@ Renter the password to confirm it.
 
  
 
-</td></tr><tr><td id="d448837e383">
+</td></tr><tr><td id="d359852e383">
 
 **Logging Level**
 
@@ -199,7 +200,7 @@ The level of reporting logs generated by the integration, meaning the name of th
 -   **debug**
  By default, the value is **info**.
 
-</td></tr><tr><td id="d448837e417">
+</td></tr><tr><td id="d359852e417">
 
 **API Selection**
 
@@ -207,7 +208,7 @@ The level of reporting logs generated by the integration, meaning the name of th
 
  
 
-</td></tr><tr><td id="d448837e425">
+</td></tr><tr><td id="d359852e425">
 
 **API Selection**
 
@@ -218,12 +219,12 @@ Select one of the following APIs:-   Table API
 
 
 </td></tr></tbody>
-</table>    ![ServiceNow Security Operations Integration set up on Splunk](../image/splunk-es-config.gif)
+</table>    \[Omitted image "splunk-es-config.gif"\] Alt text: ServiceNow Security Operations Integration set up on Splunk
 
 6.  Select **Save**.
 
 
 ## What to do next
 
-[Using ServiceNow Security Operations Integration add-on](using-sn-secops-int-addon.md)
+[Using ServiceNow Security Operations Integration add-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/using-sn-secops-int-addon.md)
 

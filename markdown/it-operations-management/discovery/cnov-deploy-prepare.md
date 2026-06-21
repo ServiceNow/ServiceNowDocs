@@ -2,6 +2,7 @@
 title: Prepare for Agent Client Collector for Kubernetes – Visibility deployment
 description: Prepare your ServiceNow instance and the Kubernetes cluster for Agent Client Collector for Kubernetes – Visibility deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-deploy-prepare.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -20,7 +21,7 @@ Prepare your ServiceNow instance and the Kubernetes cluster for Agent Client Col
 
 -   Verify that the following applications are installed and activated:
     -   Discovery and Service Mapping Patterns
-    -   Kubernetes Visibility Agent \(KVA\), \(for more information, see [Install Agent Client Collector for Kubernetes – Visibility](cnov-deploy-install.md)\)
+    -   Kubernetes Visibility Agent \(KVA\), \(for more information, see [Install Agent Client Collector for Kubernetes – Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/cnov-deploy-install.md)\)
 -   Verify that the Kubernetes command line tool kubectl is installed and configured to communicate with your cluster. For more information, see the [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) documentation.
 -   If you plan to use a Helm chart for the installation, verify that the Helm tool is available. For more information, see the [Helm](https://helm.sh/) documentation.
 -   If you plan to deploy KVA in the OKE \(Oracle Kubernetes Engine\) environment, you need to create a Kubernetes Cluster on Oracle Cloud Infrastructure. For more information, see the [Oracle](https://www.oracle.com/) documentation.
@@ -33,7 +34,7 @@ Role required: admin for steps performed on the ServiceNow instance.
 
 2.  Choose or create a user with at least the mid\_server role.
 
-    For information about adding a new user to your instance, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US). For information about granting a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    For information about adding a new user to your instance, see . For information about granting a role to a user, see .
 
 3.  In the Kubernetes cluster, choose or create a namespace in which you want to deploy Agent Client Collector for Kubernetes – Visibility.
 
@@ -107,5 +108,5 @@ Your ServiceNow instance and the Kubernetes cluster are ready for Agent Client C
 
 ## What to do next
 
-[Install Agent Client Collector for Kubernetes – Visibility](cnov-deploy-install.md).
+[Install Agent Client Collector for Kubernetes – Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/cnov-deploy-install.md).
 

@@ -2,6 +2,7 @@
 title: Citrix NetScaler SDX discovery
 description: The ServiceNow Discovery application can discover Citrix NetScaler SDX devices using the Citrix NetScaler SDX pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/citrix-netscaler-sdx-discovery.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -24,7 +25,7 @@ The classification mechanism includes a new trigger\_probe\_m2m table, which def
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -33,7 +34,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Discovery and Service Mapping Patterns \(version 1.0.72\)
 -   **Create SSH credentials**
 
-    Create SSH credentials for the Citrix NetScaler SDX device. For more information, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    Create SSH credentials for the Citrix NetScaler SDX device. For more information, see .
 
 -   **Verify permissions for the following commands**
 
@@ -66,7 +67,7 @@ Discovery populates the data in the CMDB when running the Citrix NetScaler SDX p
 
 On the Dependency Views map you can see all discovered Citrix NetScaler SDX resources in your organization, and the relationships between them.
 
-![Citrix NetScaler SDX dependency](../image/citrix-netscaler-dependency.jpg)
+\[Omitted image "citrix-netscaler-dependency.jpg"\] Alt text: Citrix NetScaler SDX dependency
 
 ## CI relationships
 
@@ -76,5 +77,5 @@ These relationships are created to support Citrix NetScaler SDX discovery:
 |---|------------|---|
 |Citrix Netscaler \[cmdb\_ci\_lb\_netscaler\]|Registered on::Has registered|Citrix NetScaler SDX \[cmdb\_ci\_citrix\_netscaler\_sdx\]|
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

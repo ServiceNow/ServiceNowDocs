@@ -2,6 +2,7 @@
 title: View SSO users in workspace
 description: View details of all users that have direct access to a SSO application in the Software Asset Workspace, but not through membership in a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/view-ssousers-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

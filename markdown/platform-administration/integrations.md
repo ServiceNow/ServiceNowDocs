@@ -2,6 +2,7 @@
 title: ServiceNow AI Platform integrations
 description: Integrate third-party applications into the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/integrations.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"

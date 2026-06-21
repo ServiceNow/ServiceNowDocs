@@ -2,6 +2,7 @@
 title: Import services for use in Service Reliability Management
 description: Filter and import services on ServiceNow's platform to be managed in the Service Operations Management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-import-services.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -60,9 +61,9 @@ Role required: admin
 7.  Use the **View imported services** link that now appears in the **Assign and import** &gt; **Import services** screen to see all the services available in SRM.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Assign an administrator to Service Reliability Management](sr-assign-admins.md)
+**Previous topic:**[Assign an administrator to Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-assign-admins.md)
 
-**Next topic:**[Activate teams and services in SRM](sr-activate-teams-and-services-in-srm.md)
+**Next topic:**[Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md)
 

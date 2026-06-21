@@ -2,7 +2,10 @@
 title: Change start and end locations for agents
 description: Change the start-of-day and end-of-day locations for your agents, offering the flexibility needed for specific work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/change-agent-start-end-location.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: wm\_manager, wm\_admin
 
 ## About this task
 
-Ensure the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](Activate-fsm-territory-planning.md).
+Ensure the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md).
 
 ## Procedure
 
@@ -52,5 +55,5 @@ Ensure the Territory Planning plugin is activated. For more information, see [Ac
 
 The scheduling mechanisms consider an agent's start and end locations from the `Agent Schedule Attribute Plans` table for the given day.
 
-**Parent Topic:**[Using Field Service Territory Planning Console](../concept/using-territory-planning-console.md)
+**Parent Topic:**[Using Field Service Territory Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-territory-planning-console.md)
 

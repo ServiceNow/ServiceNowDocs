@@ -2,6 +2,7 @@
 title: End of Life \(EOL\) and End of Support \(EOS\) life cycles
 description: In the absence of vendor-provided life cycles, use calculated life cycles to assess and manage your risks by creating EOL and EOS life cycles for your software products. You can also use approximated dates to improve life cycle coverage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/calculated-lifecycles.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -21,7 +22,7 @@ You can create EOL and EOS life cycles based on industry averages, measured in m
 
 **Note:** The life cycles can be created by the sam\_user or the sam\_admin role.
 
-You can override the global industry averages by specifying custom values pertaining to a product or a publisher. The life cycles are calculated based on the product or publisher values that you specified. For details on specifying custom values in the Software Asset Workspace, see [Create averages for product life cycles in workspace](../task/create-lifecycle-averages-workspace.md), and for specifying values in the Software Asset Management classic application, see [Create averages for product life cycles in Software Asset Management classic](../task/create-lifecycle-averages-classic.md).
+You can override the global industry averages by specifying custom values pertaining to a product or a publisher. The life cycles are calculated based on the product or publisher values that you specified. For details on specifying custom values in the Software Asset Workspace, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md), and for specifying values in the Software Asset Management classic application, see [Create averages for product life cycles in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-lifecycle-averages-classic.md).
 
 When creating EOL or EOS life cycles, keep the following pre-requisites in mind:
 
@@ -56,7 +57,7 @@ Once created, the EOL and EOS life cycles are visible in the software model page
 
 To improve life cycle report coverage, approximate life cycles dates are assigned to life cycles without a date.
 
-Select the system property \(com.snc.samp.use\_lifecycle\_approximation\), to include the approximate life cycle dates when generating the life cycle report. For details on this property, see [Software Asset Management properties](../reference/sam-properties.md).
+Select the system property \(com.snc.samp.use\_lifecycle\_approximation\), to include the approximate life cycle dates when generating the life cycle report. For details on this property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-properties.md).
 
 The new table, Software Lifecycle Code \[software\_lifecycle\_code\], contains all the approximation codes along with a description of each code. For a detailed explanation of life cycle codes, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1642485](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1642485).
 
@@ -77,5 +78,5 @@ For better visibility of all the life cycle phases, the following columns have b
 
 EOL, EOS, and End of Extended Support dates for all build versions are not shipped by the Content Service. The life cycle report inherits such dates from the generic version.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

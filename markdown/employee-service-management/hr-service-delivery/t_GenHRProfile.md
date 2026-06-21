@@ -2,6 +2,7 @@
 title: Generate HR Profiles
 description: For new customers using HR Service Delivery, you can create an HR profile for multiple employees using conditions and criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/t\_GenHRProfile.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,5 +36,5 @@ Role required: sn\_hr\_core.basic or sn\_hr\_core.manager
 3.  Click **Create Profiles**.
 
 
-**Parent Topic:**[HR Profile](../concept/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

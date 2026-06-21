@@ -2,6 +2,7 @@
 title: Modify a team
 description: If you are team administrator, you can modify an existing team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/t\_ModifyATeam.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -27,12 +28,12 @@ Role required: admin
 
 3.  From the team list, select the team name.
 
-4.  Click the edit icon \(![Edit icon](../image/GearIcon.png)\).
+4.  Click the edit icon \(\[Omitted image "GearIcon.png"\] Alt text: Edit icon\).
 
 5.  Modify the team properties as needed.
 
 6.  Click **Save**.
 
 
-**Parent Topic:**[Use teams in Live Feed](../concept/c_UseTeamsInLiveFeed.md)
+**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 

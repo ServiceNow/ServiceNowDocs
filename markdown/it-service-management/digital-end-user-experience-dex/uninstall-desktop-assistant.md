@@ -2,6 +2,7 @@
 title: Uninstall DEX Desktop Assistant
 description: Remove Desktop Assistant effortlessly using single-line uninstaller commands for a clean system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/uninstall-desktop-assistant.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,11 +26,11 @@ Role required: sn\_dex\_desktop.admin
 
 1.  Navigate to **Desktop Assistant** &gt; **Deployment** &gt; **Installer and Uninstaller**.
 
-    ![The Desktop Assistant downloads page from where you can download Desktop Assistant.](../image/desktop-exp-installer-download.png)
+    \[Omitted image "desktop-exp-installer-download.png"\] Alt text: The Desktop Assistant downloads page from where you can download Desktop Assistant.
 
 2.  Under the Single-line Uninstall Commands section, perform the following steps:
 
-    1.  Select the command icon \(![The command or installer icon to copy the command.](../image/icon-installer-blue.png)\) to copy the command or script to execute.
+    1.  Select the command icon \(\[Omitted image "icon-installer-blue.png"\] Alt text: The command or installer icon to copy the command.\) to copy the command or script to execute.
     2.  On your system, open Terminal.app \(Mac\) or PowerShell \(Windows\).
     3.  Paste the command and press Enter.
     4.  When prompted for a password, enter your active directory password and press Enter.

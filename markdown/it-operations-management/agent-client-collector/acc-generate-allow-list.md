@@ -2,6 +2,7 @@
 title: Generate an Agent Client Collector allow list
 description: Specify the checks to be included in the list of checks that are enabled to run on the agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-generate-allow-list.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -77,5 +78,5 @@ Boolean. Determines whether to verify that the argument was added to the allow l
     The location of this file is indicated in the **allow-list** parameter of the agent's `acc.yml` file.
 
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](../concept/data-collection-enabling.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

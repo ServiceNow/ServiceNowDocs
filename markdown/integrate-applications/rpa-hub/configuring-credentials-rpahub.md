@@ -2,6 +2,7 @@
 title: Configuring credentials in RPA Hub
 description: In RPA Hub, you can create application credentials, robot credentials, and Time-based One-time Password \(TOTP\) authentications and link them to multiple bot processes through a credential group. Set up external credential vault to retrieve robot credentials, application credentials, or Time-based One-time Password \(TOTP\) seed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/configuring-credentials-rpahub.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub

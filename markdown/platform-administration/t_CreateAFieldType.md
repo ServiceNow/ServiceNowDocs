@@ -2,6 +2,7 @@
 title: Enable a field type for normalization or transformation
 description: Create or modify a normalization field type record to enable a specific field data type for use with normalization or transformation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateAFieldType.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -45,8 +46,8 @@ To normalize or transform a value in a reference field, apply the processing to 
 
     The String field type is associated with the Text Transform Category, which contains these transform definitions. Any of these associations are configurable.
 
-    ![Normalization Field Type](../image/NormalizationFieldType.png)
+    \[Omitted image "NormalizationFieldType.png"\] Alt text: Normalization Field Type
 
 
-**Parent Topic:**[Field normalization and transformation](../concept/c_FieldNormalization.md)
+**Parent Topic:**[Field normalization and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_FieldNormalization.md)
 

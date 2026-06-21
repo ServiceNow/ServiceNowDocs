@@ -2,7 +2,10 @@
 title: Configure Walk-up Experience schedules
 description: Once you know the hours of operation for your Walk-up Experience location, you can either access the base-system default schedules or create new schedules to associate with your walk-up location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-schedules.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,6 +30,6 @@ Role required: admin or sn\_csm\_walkup.walkup\_admin
 
 3.  Complete the Schedule New record form or modify fields on an existing form.
 
-    To complete this process and for detailed information on creating, modifying, and using schedules in the system, including a definition of all form fields, refer to [Schedules](https://www.servicenow.com/docs/access?context=c_UseSchedules&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    To complete this process and for detailed information on creating, modifying, and using schedules in the system, including a definition of all form fields, refer to Schedules.
 
 

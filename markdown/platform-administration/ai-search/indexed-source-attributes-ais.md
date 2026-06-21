@@ -2,6 +2,7 @@
 title: Indexed source attributes for AI Search
 description: An indexed source attribute defines indexing behavior for all records from an indexed source.Define an indexed source attribute to configure the AI Search content indexing behavior for all records on a source table.Configure an indexed source attribute to enable indexing of content from tags found on records from an indexed source.Configure an indexed source attribute to enable indexing of content from attachments found on records from an indexed source.You can adjust indexing behavior for an AI Search indexed source by configuring indexed source attributes and values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/indexed-source-attributes-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -23,7 +24,7 @@ Examples of how you might use indexed source attributes include the following.
 
 An indexed source's attributes appear in its Advanced Configuration related list.
 
-**Parent Topic:**[Indexed sources in AI Search](indexed-sources-ais.md)
+**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-sources-ais.md)
 
 ## Create an indexed source attribute in AI Search
 
@@ -35,7 +36,7 @@ Role required: ais\_admin
 
 ### About this task
 
-For details on available indexed source attributes and values, see [List of AI Search indexed source attributes](indexed-source-attributes-ais.md#).
+For details on available indexed source attributes and values, see [List of AI Search indexed source attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
 ### Procedure
 
@@ -47,7 +48,7 @@ For details on available indexed source attributes and values, see [List of AI S
 
 4.  On the Indexed Source Attribute form, fill in the fields.
 
-    For a description of the field values, see [Indexed Source Attribute form](../reference/indexed-source-attribute-form-ais.md).
+    For a description of the field values, see [Indexed Source Attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-source-attribute-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -58,7 +59,7 @@ The new indexed source attribute appears in the Advanced Configuration related l
 
 ### What to do next
 
-To make the new indexed source attribute take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+To make the new indexed source attribute take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 ## Enable indexing of tags for an AI Search indexed source
 
@@ -72,7 +73,7 @@ Role required: ais\_admin
 
 By default, AI Search indexing ignores tags from source records. You can enable indexing of tags for all records from an indexed source. Choose whether you want to index all shared and globally visible tags or only globally visible tags. Private tags are never indexed.
 
-For more general instructions on defining indexed source attributes, see [Create an indexed source attribute in AI Search](indexed-source-attributes-ais.md#).
+For more general instructions on defining indexed source attributes, see [Create an indexed source attribute in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
 ### Procedure
 
@@ -93,7 +94,7 @@ For more general instructions on defining indexed source attributes, see [Create
     |everyone\_only|Only tags shared with everyone are indexed.|
     |all\_shared|All shared tags \(**Everyone**, **Groups and Users**\) are indexed.|
 
-    For a description of the field values, see [Indexed Source Attribute form](../reference/indexed-source-attribute-form-ais.md).
+    For a description of the field values, see [Indexed Source Attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-source-attribute-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -104,7 +105,7 @@ The new **index\_tags** indexed source attribute appears in the Advanced Configu
 
 ### What to do next
 
-To make the new **index\_tags** attribute take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+To make the new **index\_tags** attribute take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 ## Enable indexing of attachments for an AI Search indexed source
 
@@ -139,7 +140,7 @@ Attachment indexing is controlled by an indexed source's **index\_attachments** 
 -   true \(default value\): Attachments are indexed for records from the indexed source.
 -   false: Attachments aren't indexed for records from the indexed source.
 
-The following procedure explains how to make sure this attribute is set to true for an indexed source. For more general instructions on defining indexed source attributes, see [Create an indexed source attribute in AI Search](indexed-source-attributes-ais.md#).
+The following procedure explains how to make sure this attribute is set to true for an indexed source. For more general instructions on defining indexed source attributes, see [Create an indexed source attribute in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
 ### Procedure
 
@@ -160,13 +161,13 @@ Attachment indexing is enabled for the indexed source.
 
 ### What to do next
 
-If you changed the **index\_attachments** attribute's value from **false** to **true**, reindex content for the indexed source. For details on reindexing, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+If you changed the **index\_attachments** attribute's value from **false** to **true**, reindex content for the indexed source. For details on reindexing, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 ## List of AI Search indexed source attributes
 
 You can adjust indexing behavior for an AI Search indexed source by configuring indexed source attributes and values.
 
-For instructions on defining AI Search indexed source attributes, see [Create an indexed source attribute in AI Search](indexed-source-attributes-ais.md#).
+For instructions on defining AI Search indexed source attributes, see [Create an indexed source attribute in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
 <table id="table_m5b_r3j_smb"><thead><tr><th>
 
@@ -184,7 +185,7 @@ filter
 
 Specify a filter condition that applies on the indexed source table and all of its child tables configured for indexing. Indexing ignores source records that don't pass this filter condition.
 
- If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -199,7 +200,7 @@ Control indexing behavior for attachments from indexed records. Supported values
 
  Default value: **true**
 
- If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -217,7 +218,7 @@ Control indexing behavior for tags from indexed records. Supported values:
 
 **Note:** Search results display indexed tags based on the visibility of the result record instead of the visibility of the tag.
 
- If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -234,7 +235,7 @@ Control indexing behavior for translated fields from indexed records. Supported 
 
 **Note:** For tables with manually mapped records, such as kb\_knowledge, indexing ignores this attribute and honors the manual mapping.
 
- If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -251,7 +252,7 @@ Control indexing behavior for translated reference fields from indexed records.
 
  Default value: **true**
 
- If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -269,5 +270,5 @@ Control precedence of external user read access permissions and external group d
 **Note:** This attribute only applies to indexed sources for external content schema tables. If you apply this attribute to an indexed source for an internal table, it has no effect.
 
 </td></tr></tbody>
-</table>**Note:** Indexed source attributes are records on the AI Search Configuration Attribute \[ais\_configuration\_attribute\] table that have Table as their **Applies To** field value. Records on this table that have Column as their **Applies To** field value are [Field settings for AI Search](field-settings-ais.md#).
+</table>**Note:** Indexed source attributes are records on the AI Search Configuration Attribute \[ais\_configuration\_attribute\] table that have Table as their **Applies To** field value. Records on this table that have Column as their **Applies To** field value are [Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/field-settings-ais.md).
 

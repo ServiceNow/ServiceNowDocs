@@ -2,6 +2,7 @@
 title: Installed with Model Management
 description: Several types of components are installed with Model Management.Model Management uses a number of business rules.Model Management includes a number of client scripts.Model Management includes the property glide.cmdb\_model.display\_name.shorten.Model Management includes script includes.Model Management includes numerous tables.Model Management includes UI policies.Model Management includes user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/c\_InstalledWithModelManagement.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -17,7 +18,7 @@ Several types of components are installed with Model Management.
 
 Demo data is available with Model Management.
 
-**Parent Topic:**[Asset Management](c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_AssetManagement.md)
 
 ## Business rules installed with Model Management
 

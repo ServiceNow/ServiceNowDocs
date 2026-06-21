@@ -2,6 +2,7 @@
 title: Manage scenarios in Strategic Planning
 description: Use the Manage scenarios option to view a list of all scenarios, rename scenarios, or delete scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/scenario-planning-in-spw/manage-scenarios-in-strategic-planning.html
 release: xanadu
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -33,15 +34,15 @@ Role required:sn\_align\_core.apw\_user
 
 4.  Do any of the following actions.
 
-<table id="choicetable_qhd_5v3_ccc"><thead><tr><th align="left" id="d166274e111">
+<table id="choicetable_qhd_5v3_ccc"><thead><tr><th align="left" id="d147556e111">
 
 Action
 
-</th><th align="left" id="d166274e114">
+</th><th align="left" id="d147556e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166274e120">
+</th></tr></thead><tbody><tr><td id="d147556e120">
 
 **Delete a scenario**
 
@@ -51,7 +52,7 @@ Description
 2.  Select **Delete**.
 
 
-</td></tr><tr><td id="d166274e141">
+</td></tr><tr><td id="d147556e141">
 
 **Rename a scenario**
 

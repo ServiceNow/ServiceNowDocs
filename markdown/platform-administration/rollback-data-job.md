@@ -2,6 +2,7 @@
 title: Rollback a data job
 description: Use rollback to revert changes made by a normalization or transformation data job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/rollback-data-job.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -34,5 +35,5 @@ You can only rollback completed data jobs.
     The values in the **Pending Values** Related List are removed and the data job **State** indicates that it was rolled back.
 
 
-**Parent Topic:**[Normalization and transformation data jobs](../concept/normalization-data-jobs.md)
+**Parent Topic:**[Normalization and transformation data jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/normalization-data-jobs.md)
 

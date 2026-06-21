@@ -2,6 +2,7 @@
 title: Create an inbound email action
 description: Create inbound email actions to define the actions that the system takes when an email is received.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreatingAnInboundEmailAction.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -172,8 +173,8 @@ Enter the script that the action runs. Typically, this script uses the validator
  The following objects are available:
 
 -   **current**: access the record referred to by the inbound email. For example, `current.assigned_to` accesses the person assigned to the task.
--   **event**: access one of the parameters of the originating event. For example, `event.parm1` accesses the first parameter of the event or `event.parm2` for the second parameter. See [Events](https://www.servicenow.com/docs/access?context=events&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US) for more information.
--   **email**: access the inbound current email record. For example, `email.subject` accesses the content in the subject line of the email. See [Accessing email object variables](../reference/r_AccessingEmailObjsWithVars.md) for more information.
+-   **event**: access one of the parameters of the originating event. For example, `event.parm1` accesses the first parameter of the event or `event.parm2` for the second parameter. See Events for more information.
+-   **email**: access the inbound current email record. For example, `email.subject` accesses the content in the subject line of the email. See [Accessing email object variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AccessingEmailObjsWithVars.md) for more information.
 -   **logger**: add a message to the log file with the source set to `email.<Sys ID of incoming email>`. For example: `logger.log ("Some information")`
 
 
@@ -203,5 +204,5 @@ Enter a number to define the order in which this email action should be processe
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Inbound email actions](../concept/use-inbound-email-action.md)
+**Parent Topic:**[Use Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/use-inbound-email-action.md)
 

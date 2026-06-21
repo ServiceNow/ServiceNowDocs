@@ -2,6 +2,7 @@
 title: Managing deployments using pipelines in AEMC
 description: Manage applications at all stages of deployment, view multiple pipelines, and approve or reject deployment requests using the App Engine Management Center \(AEMC\).Schedule apps to deploy to production at a future time to load balance your systems using the App Engine Management Center \(AEMC\).Change the details of a deployment request in App Engine Management Center \(AEMC\).Cancel a scheduled app deployment in App Engine Management Center \(AEMC\) if you no longer need to deploy the app to production. Canceling the scheduled deployment request cancels the scheduled deployment and also the entire request itself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/manage-deployments-using-aemc.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,17 +18,17 @@ Manage applications at all stages of deployment, view multiple pipelines, and ap
 
 The Active deployment requests in the pipeline section of the AEMC Overview page shows the number of apps at each deployment stage within each of your pipelines. You can select **Show all requests**, **Show requests**, or **Show published requests** next to the corresponding sections to see an overview of each group of requests.
 
-![Pipelines in each stage of deployment](../image/pipeline.png)
+\[Omitted image "pipeline.png"\] Alt text: Pipelines in each stage of deployment
 
 For a full picture of all your pipeline deployment requests, access the Pipelines page in AEMC. View all of your pipelines, quickly access each deployment request record, and filter each pipeline section to see only the requests that match your criteria.
 
-![Show and filter deployment requests on the Pipelines page](../image/pipeline-show-requests.png)
+\[Omitted image "pipeline-show-requests.png"\] Alt text: Show and filter deployment requests on the Pipelines page
 
 ## Change Management integration
 
-You can integrate an existing Change Management program with your app deployment processes to add oversight into your deployments and have apps deploy according to a scheduled Change window. For more information, see [Manage deployment requests](../task/manage-deployment-requests.md).
+You can integrate an existing Change Management program with your app deployment processes to add oversight into your deployments and have apps deploy according to a scheduled Change window. For more information, see [Manage deployment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/manage-deployment-requests.md).
 
-**Parent Topic:**[Managing app development using the App Engine Management Center](monitor-requests-using-aemc.md)
+**Parent Topic:**[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/monitor-requests-using-aemc.md)
 
 ## Schedule app deployments in AEMC
 

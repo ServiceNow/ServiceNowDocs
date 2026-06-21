@@ -2,6 +2,7 @@
 title: Collaborate with project stakeholders
 description: Collaborate with the project manager and other stakeholders on a project to provide project updates, share documents, or send emails through the mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/collaborate-on-project-mobile.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -31,7 +32,7 @@ Role required: portfolio\_manager or project\_manager or project\_user
 
     -   Add activities to a project status report such as the ability to add work notes or comments, select and upload a picture, or attach photos and files.
         1.  Tap the **Activity** tab.
-        2.  Tap the add activity icon \(![Add activity icon](../image/mobile-plus-icon.png)\) and select one of the options:
+        2.  Tap the add activity icon \(\[Omitted image "mobile-plus-icon.png"\] Alt text: Add activity icon\) and select one of the options:
             -   Add Work Notes
             -   Add Additional Comments
             -   Open Camera
@@ -39,7 +40,7 @@ Role required: portfolio\_manager or project\_manager or project\_user
             -   Attach File
     -   Send an email to the project manager for additional details of the project.
         1.  Tap the **Details** tab.
-        2.  Tap the send email icon \(![Send email icon](../image/mobile-send-email-icon.png)\).
+        2.  Tap the send email icon \(\[Omitted image "mobile-send-email-icon.png"\] Alt text: Send email icon\).
         3.  In the email application, compose the email, add addresses, and send.
 
             By default, the **To** field is populated with the email ID of the project manager. You can add other stakeholders.

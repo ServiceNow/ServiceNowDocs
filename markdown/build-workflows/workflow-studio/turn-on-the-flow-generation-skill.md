@@ -2,6 +2,7 @@
 title: Turn on the flow generation skill
 description: Turn on the flow generation skill to use generative AI to create and edit flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/turn-on-the-flow-generation-skill.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -36,12 +37,12 @@ Turn on the flow generation skill to use generative AI to create and edit flows.
 
 5.  In the Flow Assist card, verify that the **Flow generation** skill is activated under **All Flow Assist skills**.
 
-    ![Flow Assist card displaying the Flow generation skill as activated.](../images/now-assist-creator-skills-activated.png)
+    \[Omitted image "now-assist-creator-skills-activated.png"\] Alt text: Flow Assist card displaying the Flow generation skill as activated.
 
 
 ## What to do next
 
 Grant the now.assist.creator and flow\_designer roles to each user who will use the flow generation skill.
 
-**Parent Topic:**[Configuring Flow Assist](../concept/configuring-flow-assist.md)
+**Parent Topic:**[Configuring Flow Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-flow-assist.md)
 

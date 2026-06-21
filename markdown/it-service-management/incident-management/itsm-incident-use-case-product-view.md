@@ -2,6 +2,7 @@
 title: Applying CSDM guidelines to Incident Management
 description: Incident Management supports the incident management process with the ability to identify and log incidents, classify and prioritize incidents, assign incidents to appropriate users or groups, escalate, resolve, and report incidents. The goal of this product view is to help you to understand how Incident Management key entities work with the core CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/itsm-incident-use-case-product-view.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -26,7 +27,7 @@ Features of Incident Management that get the most benefit from the CSDM include:
 
 Incident Management includes a form you can use to report incidents.
 
-![Elements on the Incident form with numbered fields.](../image/incident-form.png "Incident form")
+\[Omitted image "incident-form.png"\] Alt text: Elements on the Incident form with numbered fields.
 
 The incident form references the following attributes and related lists.
 
@@ -39,16 +40,16 @@ The incident form references the following attributes and related lists.
 
 ## For more information
 
-For more details about Incident Management, see [Incident Management](c_IncidentManagement.md).
+For more details about Incident Management, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/c_IncidentManagement.md).
 
--   **[Incident Management and CSDM tables](../reference/itsm-incident-use-case.md)**  
+-   **[Incident Management and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/itsm-incident-use-case.md)**  
 Incident Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Incident Management.
--   **[Incident Management use case](itsm-incident-use-case-example.md)**  
+-   **[Incident Management use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/itsm-incident-use-case-example.md)**  
 Incident Management restores normal service operation, while also minimizing impact to your business and maintaining the quality of your data.
--   **[Set up the Incident Management form](../task/csdm-inc-mgt-form-configure.md)**  
+-   **[Set up the Incident Management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/csdm-inc-mgt-form-configure.md)**  
 Configure the Incident form to see the impact of an incident and then restore affected services. The CSDM framework enables you to view rich context for incidents: the CIs involved in the incident and the service offerings, business applications, and business services that the incident affects.
--   **[Incident Management considerations](itsm-incident-use-case-trouble.md)**  
+-   **[Incident Management considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/itsm-incident-use-case-trouble.md)**  
 Consider these points while implementing the CSDM framework.
 
-**Parent Topic:**[Configuring Incident Management](incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/incident-configuration.md)
 

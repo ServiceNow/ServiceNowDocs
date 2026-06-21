@@ -2,6 +2,7 @@
 title: Microsoft Outlook Add-In for Legal Service Delivery reference
 description: Reference topics provide additional information about components installed, the lists and forms that you use in ServiceNow for Legal add-in for Outlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/lsd-outlook-addin-refrence.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -15,8 +16,8 @@ breadcrumb: [Microsoft Outlook Add-In for Legal Service Delivery, Integration of
 
 Reference topics provide additional information about components installed, the lists and forms that you use in ServiceNow for Legal add-in for Outlook.
 
--   **[Components installed with Microsoft Outlook Add-In for Legal Service Delivery](lsd-outlook-addin-components.md)**  
+-   **[Components installed with Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/lsd-outlook-addin-components.md)**  
 Several types of components are installed with activation of the Microsoft Outlook Add-In for Legal Service Delivery application, including user roles.
 
-**Parent Topic:**[Microsoft Outlook Add-In for Legal Service Delivery](lsd-outlook-addin-landing.md)
+**Parent Topic:**[Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/lsd-outlook-addin-landing.md)
 

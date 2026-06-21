@@ -2,6 +2,7 @@
 title: Execute RPA scripts
 description: Run the Robotic Process Automation \(RPA\) script on demand to validate and unlock the robots in a domain and its child domains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/execute-rpa-script.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Run the Robotic Process Automation \(RPA\) script on demand to validate and unlo
 
 ## Before you begin
 
-Familiarise with license distribution in RPA Hub concepts. For more information, see [License distribution in RPA Hub](../concept/license-rpa-hub.md).
+Familiarise with license distribution in RPA Hub concepts. For more information, see [License distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/license-rpa-hub.md).
 
 To unlock the robots in a domain, ensure that the license entitlement and consumption is compliant.
 

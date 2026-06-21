@@ -2,6 +2,7 @@
 title: Pulls and pushes
 description: Developers synchronize their instances to the parent instance by pulling and pushing versions of customized records and resolving collisions between versions on the parent instance and the development instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/c\_PullsAndPushes.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -25,5 +26,5 @@ Comparing reports the differences between two peer instances. You can choose whi
 
 The Pushes and Pulls related list on the team dashboard displays the user who created a change and the remote instance where the change was created.
 
-**Parent Topic:**[Team Development](c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_TeamDevelopment.md)
 

@@ -2,6 +2,7 @@
 title: Configure a Data Discovery job
 description: Configure a Data Discovery job and review the status of ongoing jobs. A Data Discovery job defines when a pattern is executed on a target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/data-discovery/configure-data-discovery-jobs.html
 release: xanadu
 product: Data Discovery
 classification: data-discovery

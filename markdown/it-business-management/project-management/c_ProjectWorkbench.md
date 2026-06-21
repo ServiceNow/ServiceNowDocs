@@ -2,6 +2,7 @@
 title: Project workbench
 description: The project workbench provides a central location for creating and managing projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/c\_ProjectWorkbench.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -38,16 +39,16 @@ The project workbench displays project information in two distinct areas. The to
 
 The project workbench scales to fit the available browser height. If necessary, scroll bars are added to display the workbench details.
 
-![The project workbench](../image/ProjectWorkbench.png "Project Workbench")
+\[Omitted image "ProjectWorkbench.png"\] Alt text: The project workbench
 
--   **[Access the project workbench](../task/t_AccessTheProjectWorkbench.md)**  
+-   **[Access the project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_AccessTheProjectWorkbench.md)**  
 Access the project workbench from the Project form or from the application navigator.
--   **[Components of project workbench](components-project-workbench.md)**  
+-   **[Components of project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/components-project-workbench.md)**  
 The project workbench displays project information in two distinct areas. The top pane displays the project visualization, and the bottom pane displays phase details in a list view or visual task board. There is also a header above the workbench that includes several buttons and controls.
--   **[Project calculation](c_ProjectWorkbenchProjectCalc.md)**  
+-   **[Project calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectWorkbenchProjectCalc.md)**  
 When creating a project, the project manager can select the type of calculation to use: manual or automatic \(default\).
--   **[Project workbench actions](c_UsingProjectWorkbench.md)**  
+-   **[Project workbench actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_UsingProjectWorkbench.md)**  
 The project workbench allows project managers to manage all aspects of a project.
 
-**Parent Topic:**[Project Management](c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

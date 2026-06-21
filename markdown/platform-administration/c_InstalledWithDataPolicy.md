@@ -2,6 +2,7 @@
 title: Installed with data policy
 description: Data policy includes several components that are installed on the instance.Access and maintain data policies to specific users. Grant this role access to the System Policy application
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_InstalledWithDataPolicy.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -26,9 +27,9 @@ The **System Policy** &gt; **Data Policies** module displays a list of all data 
 
 ## Roles
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Data policy](c_DataPolicy.md)
+**Parent Topic:**[Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DataPolicy.md)
 
 ## Data Policy Administrator\[data\_policy\_admin\]
 

@@ -2,6 +2,7 @@
 title: Define a quick message
 description: Create predefined content to add in the email client so that users can write emails consistently and efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_QuickMessages.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -109,5 +110,5 @@ Content to insert in the **Message Text** field in the email client. By default,
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Composing emails with quick messages](../concept/quick-message.md)
+**Parent Topic:**[Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/quick-message.md)
 

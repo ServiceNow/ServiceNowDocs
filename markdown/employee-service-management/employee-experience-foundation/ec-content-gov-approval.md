@@ -2,6 +2,7 @@
 title: Add or remove content approvers
 description: A content admin can modify the content approvers list for a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ec-content-gov-approval.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,5 +37,5 @@ Role required: sn\_cd.content\_admin
 7.  Click **Update**.
 
 
-**Parent Topic:**[Managing content requests with Content Governance](ec-content-governance.md)
+**Parent Topic:**[Managing content requests with Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-governance.md)
 

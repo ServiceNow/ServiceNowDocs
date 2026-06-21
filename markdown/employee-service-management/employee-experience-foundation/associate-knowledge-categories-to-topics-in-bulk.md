@@ -2,6 +2,7 @@
 title: Associate content categories to topics
 description: Associate content from multiple content categories to a topic in the taxonomy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/associate-knowledge-categories-to-topics-in-bulk.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,7 +36,7 @@ User criteria required: Taxonomy Manager.
     -   Catalog item Categories
 5.  In the corresponding collection list window, do one of the following actions:
 
-    -   Select a category and then click the right arrow icon \(![Right-arrow icon.](../images/right-arrow-icon.png)\) icon.
+    -   Select a category and then click the right arrow icon \(\[Omitted image "right-arrow-icon.png"\] Alt text: Right-arrow icon.\) icon.
     -   Double-click a category.
     **Note:** In the Collection list, you can search for knowledge categories by entering the category name or by using wild cards \(\*\).
 
@@ -48,10 +49,10 @@ User criteria required: Taxonomy Manager.
 
 ## What to do next
 
-For more information, see [Taxonomy and connected content](../concept/track-new-content.md#).
+For more information, see [Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/track-new-content.md).
 
 **Related topics**  
 
 
-[Define a knowledge article category](https://www.servicenow.com/docs/access?context=t_DefineAKnowledgeCategory&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_DefineAKnowledgeCategory]
 

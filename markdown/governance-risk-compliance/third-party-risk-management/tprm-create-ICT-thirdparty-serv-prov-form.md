@@ -2,6 +2,7 @@
 title: Create New ICT third-party service provider form
 description: On the Create New ICT third-party service provider form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-create-ICT-thirdparty-serv-prov-form.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management

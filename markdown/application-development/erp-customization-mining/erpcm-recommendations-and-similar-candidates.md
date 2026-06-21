@@ -2,6 +2,7 @@
 title: Recommendations and similar candidates in ERP-CM
 description: The record for each candidate in ERP Customization Mining \(ERP-CM\) displays information on suggested next steps and similar candidates to help you in replatforming an ERP \(Enterprise Resource Planning\) app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-recommendations-and-similar-candidates.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -23,9 +24,9 @@ For example, you may need to create a workflow in Workflow Studio for one candid
 
 Each recommended action has an estimated effort, which is a numerical score that assesses how well the ServiceNow AI Platform has matching functionality. Green actions require little-to-no effort, while red actions are more difficult.
 
-![ERP Customization Mining candidates page with recommendations tab displayed.](../image/ecm-recommendations-tab.png)
+\[Omitted image "ecm-recommendations-tab.png"\] Alt text: ERP Customization Mining candidates page with recommendations tab displayed.
 
-For more information on recommended actions, see [Check candidate recommendations in ERP-CM](../task/erpcm-work-with-recommendations.md).
+For more information on recommended actions, see [Check candidate recommendations in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-work-with-recommendations.md).
 
 ## Similar candidates in candidate details
 
@@ -33,5 +34,5 @@ For each candidate, ERP-CM displays a **Similar candidates** tab, which lists ea
 
 Similar candidates are helpful when planning how to best replatform a legacy app. When you replatform a custom app from the system of record, you don't have to replicate the old app exactly. Use the replatforming process to design a better app, perhaps one that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform.
 
-**Parent Topic:**[Exploring ERP Customization Mining](exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/exploring-ecm.md)
 

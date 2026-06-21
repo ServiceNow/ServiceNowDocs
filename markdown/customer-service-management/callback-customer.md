@@ -2,7 +2,10 @@
 title: Address a callback request from a customer
 description: As a customer service agent, call a customer back either immediately or at the date and time requested by the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/callback-customer.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

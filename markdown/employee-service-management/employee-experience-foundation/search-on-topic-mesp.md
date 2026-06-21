@@ -2,6 +2,7 @@
 title: Search topic content in Now Mobile app
 description: The search functionality for topic content is available on the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/search-on-topic-mesp.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,5 +27,5 @@ To access the search functionality for topic content in the Now Mobile app:
 -   You must upgrade to Utah release and install the Now Mobile version 28.
 -   You must enable the AI Search functionality.
 
-**Parent Topic:**[Exploring Employee Center](explore-emp-center.md)
+**Parent Topic:**[Exploring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/explore-emp-center.md)
 

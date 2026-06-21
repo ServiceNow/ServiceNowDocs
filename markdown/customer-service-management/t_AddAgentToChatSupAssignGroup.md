@@ -2,7 +2,10 @@
 title: Add an agent to the chat support assignment group
 description: Agents must be added to the chat support assignment group before they can receive chat requests. This assignment group is used by the Customer Service Management chat communication channel to route chat requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_AddAgentToChatSupAssignGroup.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -33,5 +36,5 @@ Role required: sn\_customerservice\_manager or admin
 **Related topics**  
 
 
-[Connect Support](https://www.servicenow.com/docs/access?context=c_ConnectSupport&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_ConnectSupport]
 

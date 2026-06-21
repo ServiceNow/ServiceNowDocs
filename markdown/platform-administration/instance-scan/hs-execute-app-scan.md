@@ -2,6 +2,7 @@
 title: Execute an app scan
 description: Scan the installed files of an application as well as the application record itself with applicable checks by executing an application scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-execute-app-scan.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan

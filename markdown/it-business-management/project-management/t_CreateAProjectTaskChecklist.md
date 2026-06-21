@@ -2,6 +2,7 @@
 title: Use a project task checklist
 description: You can create a checklist in a project task to track items that must be completed in the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_CreateAProjectTaskChecklist.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -32,5 +33,5 @@ Role required: it\_project\_user, it\_project\_manager
     To save a checklist as a template, click the down arrow next to **Checklist** and select **Save as Template**.
 
 
-**Parent Topic:**[Project task checklists](../concept/c_project-task-checklists.md)
+**Parent Topic:**[Project task checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_project-task-checklists.md)
 

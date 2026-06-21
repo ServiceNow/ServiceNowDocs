@@ -2,7 +2,10 @@
 title: Pick up an asset
 description: Agents can view a consolidated list, grouped by stockroom, of all their assets that are waiting to be picked up.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_PickUpAnAsset.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -35,5 +38,5 @@ The agents can physically pick up the assets and then record them as delivered. 
 3.  After physically picking up the items, select a check box next to the transfer order column, then go to the **Actions** choice list and select **Deliver**.
 
 
-**Parent Topic:**[Managing inventory in Field Service Management](../../field-service-management/concept/sourcing-parts.md)
+**Parent Topic:**[Managing inventory in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/sourcing-parts.md)
 

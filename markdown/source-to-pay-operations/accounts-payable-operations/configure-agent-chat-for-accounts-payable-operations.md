@@ -2,6 +2,7 @@
 title: Configure Agent chat for Accounts Payable Operations
 description: Configure agent chat settings to interact with an Accounts Payable Operations agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,10 +30,10 @@ Role required: admin
 
     The Quick Action Toolbar Controls is displayed.
 
-    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see [Configuring Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-configuring&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see .
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Configure Advanced Work Assignment for Accounts Payable Operations](configure-advanced-work-assignment-for-apo.md)
+**Parent Topic:**[Configure Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/configure-advanced-work-assignment-for-apo.md)
 

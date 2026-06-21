@@ -2,7 +2,10 @@
 title: Update equipment statuses with the Mobile Agent
 description: Check in, check out, or report broken equipment using the My Equipment applet in the Mobile Agent.Check out or check back in equipment assigned to your work order tasks or crew through the Mobile Agent.Report breakdowns of equipment assigned to your work order tasks or crew through the Mobile Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/update-equipment-statuses-with-the-now-mobile-agent-application.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Use the Now Mobile Agent application to perform tasks, Using Field 
 
 Check in, check out, or report broken equipment using the **My Equipment** applet in the Mobile Agent.
 
-**Parent Topic:**[Use the Now Mobile Agent application to perform tasks](Use-mobile-app-fsm.md)
+**Parent Topic:**[Use the Now Mobile Agent application to perform tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Use-mobile-app-fsm.md)
 
 ## Check equipment out or in with the Mobile Agent
 

@@ -2,6 +2,7 @@
 title: Define a breakdown source
 description: Specify a facts table to serve as a data source for breakdowns. Apply conditions to specify the elements for this breakdown source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/t\_DefiningABreakdownSource.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -25,11 +26,11 @@ Always use a facts table with a field that has a unique value for every record, 
 
 **Tip:** As in this example, if you use Choice \[sys\_choice\] for the facts table, put conditions on the Table, Element, and Language fields. Also filter out Inactive records.
 
-![The filled out breakdown source form for Incident.Category, showing facts table, field, and conditions](../image/CreatingBreakdownSourcesExample.png)
+\[Omitted image "CreatingBreakdownSourcesExample.png"\] Alt text: The filled out breakdown source form for Incident.Category, showing facts table, field, and conditions
 
 The breakdown source uses the following records from the Choice table:
 
-![Filtered choice table records corresponding to breakdown source example.](../image/choices-table-category-element.png)
+\[Omitted image "choices-table-category-element.png"\] Alt text: Filtered choice table records corresponding to breakdown source example.
 
 **Note:** The Choice table includes every possible choice from every table, which is why it has Table and Element columns. Most other facts tables you would use for a breakdown source are simpler.
 
@@ -71,15 +72,15 @@ The breakdown source uses the following records from the Choice table:
 
 8.  Define **RELATED LIST CONDITIONS** to include a relationship with another table in the filter.
 
-    For more information, see [Add related list conditions](https://www.servicenow.com/docs/access?context=create-related-list-query&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+    For more information, see Add related list conditions.
 
     For example, consider a breakdown source for Configuration Item \(CI\) Managers. The facts table is User \[sys\_user\], but the only condition you can apply from this table is to filter for active users. No field on the table lets you select only users who are CI Managers. You get hundreds of results.
 
-    ![Breakdown source only filtering on active users](../image/bkdown-source-wo-related-list.png)
+    \[Omitted image "bkdown-source-wo-related-list.png"\] Alt text: Breakdown source only filtering on active users
 
     If you add a condition that the Name on the User record must match at least one entry in the Managed by column of the Configuration Item \[cmdb\_ci\] table, the breakdown source only returns the users who are CI Managers.
 
-    ![Breakdown source with related list condition](../image/bkdown-source-rel-list-cond.png)
+    \[Omitted image "bkdown-source-rel-list-cond.png"\] Alt text: Breakdown source with related list condition
 
 9.  In **Label for unmatched**, write a custom label to use when the value in a mapped field on an indicator source record does not match any elements on the breakdown source.
 
@@ -89,12 +90,12 @@ The breakdown source uses the following records from the Choice table:
 
 10. In the **Security** tab, set whether to exclude or include breakdown source elements by role based on element security lists.
 
-    For more information, see [Define an elements security list](t_ControlAccessToABreakdown.md#).
+    For more information, see [Define an elements security list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/t_ControlAccessToABreakdown.md).
 
 
 ## What to do next
 
-Create breakdowns that use this breakdown source. You can open the **Breakdowns** tab and click **New**. The **Breakdown** form opens, as described in [Create an automated breakdown](t_CreatingABreakdownForIndicators.md). After you create breakdowns that use this source, these breakdowns are listed in the **Breakdowns** tab.
+Create breakdowns that use this breakdown source. You can open the **Breakdowns** tab and click **New**. The **Breakdown** form opens, as described in [Create an automated breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/t_CreatingABreakdownForIndicators.md). After you create breakdowns that use this source, these breakdowns are listed in the **Breakdowns** tab.
 
-**Parent Topic:**[Breakdown sources](../concept/breakdown-sources.md)
+**Parent Topic:**[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/breakdown-sources.md)
 

@@ -2,12 +2,13 @@
 title: Configure a communication plan in Major Incident Management
 description: Configure a communication plan and tasks for effective communication with various stakeholders about the progress, milestones, and issues related to the different stages of a major incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/configure-comm-plan-mim-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2024-08-01"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Setting up communication templates and plans in Major Incident Management, Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -17,7 +18,7 @@ Configure a communication plan and tasks for effective communication with variou
 
 ## Before you begin
 
-The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](install-mim-sow.md).
+The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Role required: admin
 
@@ -43,7 +44,7 @@ Role required: admin
 
 4.  Select **New** to create a communication plan definition.
 
-    For more information on creating a communication plan, see [Define a communication plan](https://www.servicenow.com/docs/access?context=create-comm-plan-definition&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    For more information on creating a communication plan, see .
 
     After a communication plan definition is created, the following related lists appear in the communication plan definition record:
 
@@ -51,16 +52,16 @@ Role required: admin
     -   Communication Contact Definitions
 5.  Select the Communication Task Definitions related list and then select **New** to create a communication task.
 
-    For more information on creating a communication task, see [Define a communication task](https://www.servicenow.com/docs/access?context=create-comm-task-definition&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    For more information on creating a communication task, see .
 
 6.  On the Communication task record, select the required communication channel related link and define the communication channel.
 
-    For more information on creating a communication channel, see [Define a communication channel](https://www.servicenow.com/docs/access?context=create-comm-channel-definition&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    For more information on creating a communication channel, see .
 
 7.  On the Communication plan definition record, select the Communication contact definition related list.
 
 8.  Select **New** to create a communication contact definition.
 
-    For more information on creating a communication contact definition, see [Define a communication contact](https://www.servicenow.com/docs/access?context=create-comm-contact-definition&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    For more information on creating a communication contact definition, see .
 
 

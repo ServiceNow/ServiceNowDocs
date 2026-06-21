@@ -2,6 +2,7 @@
 title: Use cases for grouping and consumption rules
 description: Learn how grouping and consumption rules are used during the reconciliation process through some use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/usecases-grouping-consumptionrules.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -23,7 +24,7 @@ We have two entitlements. Entitlement 1 is owned by company A and entitlement 2 
 
 In this use case, no grouping or consumption rules leads to a single product result that shows the following outcomes:
 
-![use case with no grouping and no consumption rules](../image/usecase1.png)
+\[Omitted image "usecase1.png"\] Alt text: use case with no grouping and no consumption rules
 
 In this scenario, the entitlement owners are ignored and consumption is unrestricted. Available rights of the two entitlements are combined into one license metric result under one product result. Additionally, any installation can be licensed with the last one installation being unlicensed due to insufficient rights.
 
@@ -31,7 +32,7 @@ In this scenario, the entitlement owners are ignored and consumption is unrestri
 
 In this use case, grouping is specified but there are no consumption rules that lead to a parent product result that shows the following outcomes:
 
-![use case for grouping and no consumption rules](../image/usecase2.png)
+\[Omitted image "usecase2.png"\] Alt text: use case for grouping and no consumption rules
 
 In this scenario, the entitlement owner is recognized and reconciliation results are broken down. See there is a parent product result individual product results and license metric results for company A and company B. Note, however, that the five installs under the company A LMR might be any 5 installs since consumption is unrestricted. Same for company B. It will depends on the order of the devices processed which entitlement is used.
 
@@ -39,7 +40,7 @@ In this scenario, the entitlement owner is recognized and reconciliation results
 
 In this use case, no grouping is specified but consumption rules are specified that leads to a single product result that shows the following outcomes:
 
-![use case for no grouping and consumption rules](../image/usecase3.png)
+\[Omitted image "usecase3.png"\] Alt text: use case for no grouping and consumption rules
 
 In this scenario, there’s a single product result but the entitlements can no longer be combined into one license metric result. Two license metric results are created that only company A and company B can consume from respectively. The company C installation is unlicensed.
 
@@ -47,9 +48,9 @@ In this scenario, there’s a single product result but the entitlements can no 
 
 In this use case, both grouping and consumption rules are specified that lead to a parent product result that shows the following outcomes:
 
-![use case with grouping and consumption rules](../image/usecase4.png)
+\[Omitted image "usecase4.png"\] Alt text: use case with grouping and consumption rules
 
 In this scenario, consumption is restricted and the products results are broken down by company grouping. Company C also gets its own product result with no license metric result to show the unlicensed installation.
 
-**Parent Topic:**[Grouping and consumption rules in reconciliation](grouping-consumptionrules.md)
+**Parent Topic:**[Grouping and consumption rules in reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/grouping-consumptionrules.md)
 

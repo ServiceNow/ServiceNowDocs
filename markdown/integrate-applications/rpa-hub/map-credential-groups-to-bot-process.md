@@ -2,6 +2,7 @@
 title: Associate a credential group to a bot process
 description: Enable a robot to perform an automation in RPA Hub by mapping a credential group to an unattended bot process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/map-credential-groups-to-bot-process.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,13 +18,13 @@ Enable a robot to perform an automation in RPA Hub by mapping a credential group
 
 ## Before you begin
 
-Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](../concept/create-botprocess.md), [Bot process configuration form in RPA Hub](../reference/bot-process-config-form.md), and [Bot Process form in RPA Hub](../reference/bot-process-form.md).
+Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/bot-process-config-form.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/bot-process-form.md).
 
-Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](../concept/create-botprocess.md).
+Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-botprocess.md).
 
-Create a credential group. For more information, see [Create a credential group in RPA Hub](create-credential-group.md#).
+Create a credential group. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-credential-group.md).
 
-You can associate the credential group to an unattended bot process that doesn’t have the life-cycle stage status set to **Retired** or **Published**. For more information, see [Life-cycle stage statuses of a bot process in RPA Hub](../reference/lifecycle-stages-botprocess.md).
+You can associate the credential group to an unattended bot process that doesn’t have the life-cycle stage status set to **Retired** or **Published**. For more information, see [Life-cycle stage statuses of a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/lifecycle-stages-botprocess.md).
 
 You can't edit the **Process Credential Mappings** record when the life-cycle stage status of the associated bot process is set to **Published**.
 
@@ -41,7 +42,7 @@ A credential group includes application credentials and a robot credential.
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **Bot Process**.
 
@@ -55,7 +56,7 @@ A credential group includes application credentials and a robot credential.
 
 8.  Provide access to authorized users.
 
-    For more information, see [Provide users with access to a credential group](create-credential-group.md#).
+    For more information, see [Provide users with access to a credential group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-credential-group.md).
 
 9.  Select **Save**.
 

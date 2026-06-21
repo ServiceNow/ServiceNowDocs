@@ -2,7 +2,10 @@
 title: Create Microsoft Teams campaign stages using the Campaign Builder Experience
 description: Use the Campaign Experience Builder to create stages for your campaign. Campaign builder provides a simple, single-page view for managing content and assembling your campaign.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-campaign-stage-content-exp-mt.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: sn\_ca.campaign\_manager or sn\_cd.content\_admin
 
 ## About this task
 
-For information about campaigns and campaign bundles and stages, see [Creating campaigns with Content Experiences](../../employee-center/concept/ecpro-campaigns.md).
+For information about campaigns and campaign bundles and stages, see [Creating campaigns with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 
 ## Procedure
 
@@ -35,7 +38,7 @@ For information about campaigns and campaign bundles and stages, see [Creating c
     |:----|:----------|
     |Title|Name of the campaign bundle.|
     |Campaign|Option to choose a campaign that is associated with the campaign bundle.|
-    |Trigger type|Option to choose a trigger type that determines how the campaign bundle starts or ends. To learn more about triggers, see [Campaign bundle triggers](../../employee-center/reference/ecpro-triggers.md)|
+    |Trigger type|Option to choose a trigger type that determines how the campaign bundle starts or ends. To learn more about triggers, see [Campaign bundle triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-triggers.md)|
     |Offset trigger start|Enables you to move the end date forward or backward from the value in the **Trigger type** field.|
     |Specify end|Indicates whether you want the campaign bundle to have a specific end.|
     |Description|Brief description for the campaign bundle.|
@@ -104,5 +107,5 @@ Brief description about the campaign bundle.
 
 The campaign is delivered to the employees according to the scheduled job timeline.
 
-**Parent Topic:**[Create Microsoft Teams campaigns with the Content Experience Builder](../concept/create-campaign-content-exp-builder-mt.md)
+**Parent Topic:**[Create Microsoft Teams campaigns with the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-campaign-content-exp-builder-mt.md)
 

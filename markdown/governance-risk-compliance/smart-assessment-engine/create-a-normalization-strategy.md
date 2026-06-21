@@ -2,6 +2,7 @@
 title: Create a normalization strategy
 description: You can create a custom normalization strategy as required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/smart-assessment-engine/create-a-normalization-strategy.html
 release: xanadu
 product: Smart Assessment Engine
 classification: smart-assessment-engine

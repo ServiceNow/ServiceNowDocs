@@ -2,6 +2,7 @@
 title: Create an OAuth credential record for Notify with Cisco Webex
 description: Create a credential record for the Notify with Cisco Webex account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/notify/create-oauth-credential-notify-webex.html
 release: xanadu
 product: Notify
 classification: notify
@@ -99,5 +100,5 @@ Credential alias associated with the spoke.
     On successful authentication, a confirmation message is displayed on the header.
 
 
-**Parent Topic:**[Configure Notify Cisco Webex Connector](../concept/setup-cisco-webex-notify.md)
+**Parent Topic:**[Configure Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/notify/setup-cisco-webex-notify.md)
 

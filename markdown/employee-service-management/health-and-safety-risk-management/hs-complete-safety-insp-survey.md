@@ -2,6 +2,7 @@
 title: Complete a safety inspection or audit survey through Employee Center
 description: Complete a safety inspection or audit survey assigned to you through the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-complete-safety-insp-survey.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -21,9 +22,9 @@ Role required: none
 
 ## About this task
 
--   You can also take an inspection or audit survey on the Now Mobile app using the **My Assessments and Surveys** applet launcher. For more information, see [Surveys in the Now Mobile app](https://www.servicenow.com/docs/access?context=c_SurveyServicePortal&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
--   You can complete an inspection or audit survey offline as well through the Mobile Agent app. Surveys completed offline are synchronized once an internet connection is established. For more information, see [Complete a safety inspection or audit survey in the offline mode](../../hs-health-safety-mobile/task/complete-safety-inspection-survey-offline-mode.md).
--   For more information on how an admin configures which survey field type should display the **Create action** check box, see [Configure the create action check box for safety inspection survey in the Mobile Agent app](../../hs-health-safety-mobile/task/hs-configure-create-action-checkbox-mobile-survey.md).
+-   You can also take an inspection or audit survey on the Now Mobile app using the **My Assessments and Surveys** applet launcher. For more information, see Surveys in the Now Mobile app.
+-   You can complete an inspection or audit survey offline as well through the Mobile Agent app. Surveys completed offline are synchronized once an internet connection is established. For more information, see [Complete a safety inspection or audit survey in the offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/complete-safety-inspection-survey-offline-mode.md).
+-   For more information on how an admin configures which survey field type should display the **Create action** check box, see [Configure the create action check box for safety inspection survey in the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/hs-configure-create-action-checkbox-mobile-survey.md).
 -   An inspection or audit manager can also complete a survey from the Health and Safety Workspace by selecting **Open inspection survey** in the inspection record or **Open audit survey** in the audit record.
 
 ## Procedure
@@ -44,5 +45,5 @@ The survey results are linked back to the inspection or audit record that it was
 -   **Inspection survey results** tab of the inspection.
 -   **Audit survey results** tab of the audit survey in an audit.
 
-**Parent Topic:**[Safety inspections and audits](../concept/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

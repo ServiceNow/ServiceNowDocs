@@ -2,11 +2,12 @@
 title: Software Asset Management migration
 description: Migrate from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.When migrating from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/c\_SAMMigration.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 5
 breadcrumb: [Setting up Software Asset Management, Software Asset Management, IT Asset Management]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Setting up Software Asset Management, Software Asset Management, IT
 
 Migrate from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
 
-After automatic changes are performed during plugin activation, successful migration from the Software Asset Management \(com.snc.software\_asset\_management\) plugin to the Software Asset Management Professional \(com.snc.samp\) plugin requires a [manual procedure](c_SAMMigration.md#) to be performed by the customer.
+After automatic changes are performed during plugin activation, successful migration from the Software Asset Management \(com.snc.software\_asset\_management\) plugin to the Software Asset Management Professional \(com.snc.samp\) plugin requires a [manual procedure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMMigration.md) to be performed by the customer.
 
 Customizations to forms and lists may need to be manually overwritten by the customer after plugin activation. In addition, certain fields in software models, software entitlements, user/device allocations forms require manual configuration by the customer after plugin activation.
 
@@ -64,7 +65,7 @@ The Software Asset Management Professional \(com.snc.samp\) plugin performs thes
     |Business rules|Legacy business rules applied to discovery models are disabled.|
 
 
-**Parent Topic:**[Setting up Software Asset Management](setup-sam.md)
+**Parent Topic:**[Setting up Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/setup-sam.md)
 
 ## Overwrite customizations for Software Asset Management migration
 
@@ -84,7 +85,7 @@ If these lists and forms have been customized before the migration, they may hav
 -   Discovery Models
 -   Software Installations
 
-You can review plugin activation changes in the [Upgrade History](https://www.servicenow.com/docs/access?context=c_UpgradeHistory&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) module to determine what changes have automatically been skipped so you can [resolve a skipped update](https://www.servicenow.com/docs/access?context=t_ResolveASkippedUpdate&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US), if needed.
+You can review plugin activation changes in the Upgrade History module to determine what changes have automatically been skipped so you can resolve a skipped update, if needed.
 
 Certain fields added by the migration also must be configured to take advantage of the new features offered.
 
@@ -127,5 +128,5 @@ Certain fields added by the migration also must be configured to take advantage 
 **Related topics**  
 
 
-[plugin](https://www.servicenow.com/docs/access?context=c_SoftwareAssetManagement&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_SoftwareAssetManagement]
 

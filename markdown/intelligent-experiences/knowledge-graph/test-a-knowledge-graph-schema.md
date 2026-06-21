@@ -2,6 +2,7 @@
 title: Test a Knowledge Graph schema
 description: Promote functionality by entering a query and testing the Knowledge Graph schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/knowledge-graph/test-a-knowledge-graph-schema.html
 release: xanadu
 product: Knowledge Graph
 classification: knowledge-graph
@@ -33,7 +34,7 @@ Role required: kg\_admin
 
 4.  In the Query section of the Test Knowledge Graph Schema window, enter your question and select **Run Query**.
 
-    ![Test Knowledge Graph schema window.](../Images/test-kg-schema.png)
+    \[Omitted image "test-kg-schema.png"\] Alt text: Test Knowledge Graph schema window.
 
     The query response and response time are displayed in the results section.
 

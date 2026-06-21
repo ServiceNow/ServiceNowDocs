@@ -2,6 +2,7 @@
 title: Configure due dates for supplier cases
 description: Configure due dates for different case types so that the Due date field is auto-populated when you create supplier cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/configure-case-due-date.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -56,5 +57,5 @@ Although the **Due date** field is auto-populated for a supplier case type, you 
 3.  Select **Save**.
 
 
-**Parent Topic:**[Managing supplier cases from the Source-to-Pay Workspace](../concept/managing-cases.md)
+**Parent Topic:**[Managing supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

@@ -2,6 +2,7 @@
 title: Submit a task from the Source-to-Pay Workspace
 description: Submit a task in Draft state to indicate that it is ready to be worked on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/submit-supplier-task.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,7 +24,7 @@ Role required: sn\_slm.manager, sn\_slm.fulfiller, sn\_slm.owner, or sn\_slm.adm
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Do one of the following:
 
@@ -36,5 +37,5 @@ Role required: sn\_slm.manager, sn\_slm.fulfiller, sn\_slm.owner, or sn\_slm.adm
     The state of the task updates to Awaiting completion, indicating that the task is ready to be worked on.
 
 
-**Parent Topic:**[Managing supplier tasks from the Source-to-Pay Workspace](../concept/managing-tasks.md)
+**Parent Topic:**[Managing supplier tasks from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-tasks.md)
 

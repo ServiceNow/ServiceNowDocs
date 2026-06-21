@@ -2,6 +2,7 @@
 title: View and edit employees' growth plans
 description: Review your employees' growth plans to keep track of their progress and help them in their career development.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/egd-view-edit-employees-growth-plans.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -62,5 +63,5 @@ The activity will be added to your growth plan.
 -   Review your progress.
 -   Continue to edit your growth plan.
 
-**Parent Topic:**[Using the Talent Development Core application](../concept/egd-use.md)
+**Parent Topic:**[Using the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/egd-use.md)
 

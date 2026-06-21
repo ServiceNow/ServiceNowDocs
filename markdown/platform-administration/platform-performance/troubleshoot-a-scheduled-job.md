@@ -2,6 +2,7 @@
 title: Troubleshoot a scheduled job through Application Insights
 description: Identify a scheduled job that is causing slow performance or running more often than necessary through the Scheduled Jobs table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/troubleshoot-a-scheduled-job.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -35,7 +36,7 @@ Role required: sn\_app\_insights.admin or admin
 
 4.  View the performance for the scheduled job over time by analyzing the **Processing Duration** detail graph.
 
-    ![Processing duration detail graph](../image/app-insights-scheduled-jobs.png)
+    \[Omitted image "app-insights-scheduled-jobs.png"\] Alt text: Processing duration detail graph
 
     Determine whether the job is running unexpectedly, running during business hours, or running during peak usage time periods.
 
@@ -51,5 +52,5 @@ Role required: sn\_app\_insights.admin or admin
 8.  Continue making adjustments to the schedule or job details until the average processing duration improves.
 
 
-**Parent Topic:**[Application Insights](../concept/application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/application-insights.md)
 

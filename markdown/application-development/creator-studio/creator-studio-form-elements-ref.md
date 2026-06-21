@@ -2,6 +2,7 @@
 title: Available question types in Creator Studio
 description: Build apps using different types of questions on a form in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-form-elements-ref.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -102,7 +103,7 @@ Question set
 
 </td><td>
 
-Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see [Service catalog variable sets](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariableSets&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see .
 
 **Note:**
 
@@ -310,7 +311,7 @@ Filter conditions
 
 </td><td>
 
-Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see .
 
 </td><td>
 
@@ -319,5 +320,5 @@ Conditions that must be met to view certain choices. Select **Add condition** an
 -   Multi-select
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Creator Studio reference](creator-studio-reference.md)
+</table>**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-reference.md)
 

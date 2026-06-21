@@ -2,6 +2,7 @@
 title: Modify banner width options
 description: Modify the width of the Employee Center Pro banner widget, on the home page, to suit your preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/change-default-width-of-employee-center-pro-home-page-banner.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -38,16 +39,16 @@ Configure the width of the Employee Center Pro banner widget, in one of the foll
 
 4.  To keep the banner compressed, change the **Width** to **Fixed** and select **Update**.
 
-    ![The image shows the compressed home page banner provided with fixed view.](../images/fixed-view.jpg "Fixed width view")
+    \[Omitted image "fixed-view.jpg"\] Alt text: The image shows the compressed home page banner provided with fixed view.
 
 5.  To expand the banner to fit the screen, change the **Width** to **Fluid** and select **Update**.
 
-    ![The image shows a fit-to-screen banner provided with fluid width view.](../images/fluid-view.jpg "Fluid width view")
+    \[Omitted image "fluid-view.jpg"\] Alt text: The image shows a fit-to-screen banner provided with fluid width view.
 
 
 ## Result
 
 Set the banner widget on the Employee Center Pro home page to your preferred width.
 
-**Parent Topic:**[Customize the Employee Center with widgets](../concept/emp-center-topic-inst-options.md)
+**Parent Topic:**[Customize the Employee Center with widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md)
 

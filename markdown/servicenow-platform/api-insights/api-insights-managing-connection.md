@@ -2,6 +2,7 @@
 title: Managing API data connections added for Service Graph Connectors in API Insights
 description: You can view the status of your API data connections, including success rates, processing status, and ongoing executions, and monitor the progress of connections added using Service Graph Connectors in API Insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/api-insights/api-insights-managing-connection.html
 release: xanadu
 product: API Insights
 classification: api-insights
@@ -15,6 +16,6 @@ breadcrumb: [API Insights, CMDB schema model, Exploring CMDB, Configuration Mana
 
 You can view the status of your API data connections, including success rates, processing status, and ongoing executions, and monitor the progress of connections added using Service Graph Connectors in API Insights.
 
--   [View the status of API data connections in API Insights](../task/api-insights-view-conn.md).
--   [Monitor configuration progress of connections in API Insights](../task/api-insights-monitor-con.md).
+-   [View the status of API data connections in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/api-insights/api-insights-view-conn.md).
+-   [Monitor configuration progress of connections in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/api-insights/api-insights-monitor-con.md).
 

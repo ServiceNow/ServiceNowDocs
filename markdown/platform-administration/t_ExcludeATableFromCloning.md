@@ -2,6 +2,7 @@
 title: Exclude a table from cloning
 description: Exclude a table to create an empty but usable table on the target instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ExcludeATableFromCloning.html
 release: xanadu
 topic_type: task
 last_updated: "2025-09-10"
@@ -27,13 +28,13 @@ The **System Clone** &gt; **Exclude Tables** module lists the tables that aren�
 
 `sys_db_object` and `sys_db_object.*` can’t be added to the exclusions.
 
-When excluding child tables of the Task table, which use the [table per hierarchy extension model](../../platform-performance/concept/c_TaskTableFlattening.md), child tables are excluded. You don’t need to exclude the parent Task table together with the child table.
+When excluding child tables of the Task table, which use the [table per hierarchy extension model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/c_TaskTableFlattening.md), child tables are excluded. You don’t need to exclude the parent Task table together with the child table.
 
 You can use wildcards to exclude several tables from cloning with one entry. For example, `sys_script.*` excludes all tables starting with sys\_script.
 
 **Note:** The wildcard has to include the dot '.' before the asterisk.
 
-To preserve the existing data on the target instance, see [Create a data preserver](../concept/data-preservation.md#). Data on tables that reference the table, such as business rules, isn’t excluded. To avoid unexpected results, we \(strongly\) advise against altering out-of-box preservers.
+To preserve the existing data on the target instance, see [Create a data preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/data-preservation.md). Data on tables that reference the table, such as business rules, isn’t excluded. To avoid unexpected results, we \(strongly\) advise against altering out-of-box preservers.
 
 To preserve or exclude related tables, you must preserve and exclude all of the following tables. If any of the tables are missed, the customer may not be able to log in to the instance after a clone.
 

@@ -2,6 +2,7 @@
 title: Install Employee Travel Safety
 description: You can install Employee Travel Safety if you have the admin role.Several types of components are installed with Employee Travel Safety, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-travel-safety/install-employee-travel.html
 release: xanadu
 product: Employee Travel Safety
 classification: employee-travel-safety
@@ -100,13 +101,13 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 4.  Click **Activate**.
 
 
-**Parent Topic:**[Employee Travel Safety](../concept/employee-travel-safety.md)
+**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-travel-safety/employee-travel-safety.md)
 
 ## Components installed with Employee Travel Safety
 
 Several types of components are installed with Employee Travel Safety, including user roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ### Roles installed
 

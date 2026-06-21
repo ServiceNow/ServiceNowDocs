@@ -2,6 +2,7 @@
 title: Health check
 description: Use the Health check dashboard to view the results of the health scan that is performed on the configurations in your Software Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/health-check-dboard.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -19,13 +20,13 @@ To access the Health check dashboard, navigate to **Software Asset Workspace** &
 
 Ensure that you’ve activated the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin and installed the ITAM Health Check application from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/88804de177a94110ce3b5a11fe5a99c4/2.0.4?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DITAM%2520health%2520check&sl=sh) to view the Health check dashboard. You must have the scan\_user and sam\_admin role to access this dashboard and view the health score data.
 
-**Note:** If you are on the Rome or the San Diego releases, you must execute the full scan to view the results in the base system scan dashboard. For details on executing a full scan, see [Execute full scan](https://www.servicenow.com/docs/access?context=hs-execute-full-scan&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** If you are on the Rome or the San Diego releases, you must execute the full scan to view the results in the base system scan dashboard. For details on executing a full scan, see Execute full scan.
 
 Select **Domain** and choose a domain to view the health check results.
 
 You can also perform a scan for a suite by selecting **Execute Scan**. Verify the scan result to act accordingly.
 
-![Health check tab in the Success portal](../image/feb-health-check.png "Health check dashboard")
+\[Omitted image "feb-health-check.png"\] Alt text: Health check tab in the Success portal
 
 <table id="table_whp_cqv_1tb"><thead><tr><th>
 

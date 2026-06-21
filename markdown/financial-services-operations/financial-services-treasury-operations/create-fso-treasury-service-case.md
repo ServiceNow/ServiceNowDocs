@@ -2,6 +2,7 @@
 title: Create a treasury service case
 description: Begin the treasury service application process by creating a treasury case on behalf of your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-treasury-operations/create-fso-treasury-service-case.html
 release: xanadu
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -21,7 +22,7 @@ Role required: sn\_bom\_treasury.contributor or sn\_bom\_treasury.agent\_connect
 
 **Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see .
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -31,19 +32,19 @@ A treasury agent can also create a treasury service case by navigating to **Trea
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  Create a treasury case from the treasury case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d105245e116">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d77780e116">
 
 Option
 
-</th><th align="left" id="d105245e119">
+</th><th align="left" id="d77780e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d105245e125">
+</th></tr></thead><tbody><tr><td id="d77780e125">
 
 **Treasury case from the treasury case list**
 
@@ -53,7 +54,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d105245e155">
+</td></tr><tr><td id="d77780e155">
 
 **Treasury case from an interaction record**
 
@@ -62,7 +63,7 @@ Steps
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Open the required interaction record for the customer.
 3.  Click **Create Case**.
- For information on how to create an interaction, see [Create an interaction](https://www.servicenow.com/docs/access?context=create-interactions&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+ For information on how to create an interaction, see Create an interaction.
 
 </td></tr></tbody>
 </table>4.  In the Create a new case dialog box, select the treasury service that you want to create a case for.
@@ -88,5 +89,5 @@ Collect all the required customer information and submit the application.
 1.  In the **Playbook** tab, fill the data in the Initiate stage.​
 2.  Submit the application to back-office agents for fulfilment.
 
-**Parent Topic:**[Using Financial Services Treasury Operations](../concept/using-treasury-ops.md)
+**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
 

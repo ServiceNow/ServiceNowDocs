@@ -2,6 +2,7 @@
 title: Customize the map properties
 description: Customize how your map renders in the Workplace Service Portal by configuring Workplace Space Mapping properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/wsm-configure-map-properties.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -109,7 +110,7 @@ Enable display of permanent seat assignments on map.\[sn\_wsd\_space\_display\_s
 
 </td><td>
 
-Displays permanent seat assignments on a map. The employee names are also displayed if the employee names are part of a workplace profile. Select **Yes**.A Toggle button is available on the floor map to enable or disable this option. For more information, see [Display permanent seat assignments on floor maps](../../wsd-reservation-management/task/display-permanent-seats-on-maps.md).
+Displays permanent seat assignments on a map. The employee names are also displayed if the employee names are part of a workplace profile. Select **Yes**.A Toggle button is available on the floor map to enable or disable this option. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
 
 **Note:** This property is available when you have Indoor Mapping maps.
 
@@ -155,5 +156,5 @@ The filters are retained or persist across browser sessions and tabs. If you log
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Setting up Workplace Space Mapping](../concept/set-up-workplace-service-mapping.md)
+**Parent Topic:**[Setting up Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/set-up-workplace-service-mapping.md)
 

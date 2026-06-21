@@ -2,6 +2,7 @@
 title: Create module lifecycle policy exceptions
 description: Create a module policy exception to change the lifecycle policy of a key at the module level for an instance. The exception\(s\) applies only to that module and not to the entire instance. For example, if the administrator configured symmetric keys to be limited to one year at the instance level, an exception can be made at the module level to be two years.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/platform-encryption/create-module-policy-exceptions.html
 release: xanadu
 product: Platform Encryption
 classification: platform-encryption
@@ -43,5 +44,5 @@ Role required: sn\_kmf.cryptographic\_manager and sn\_kmf.admin
 6.  Click **Submit** to be returned to the Cryptographic Module table.
 
 
-**Parent Topic:**[Create a cryptographic module life-cycle policy](create-cryptographic-module-lifecycle-policy.md)
+**Parent Topic:**[Create a cryptographic module life-cycle policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/platform-encryption/create-cryptographic-module-lifecycle-policy.md)
 

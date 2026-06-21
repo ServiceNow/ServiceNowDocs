@@ -2,6 +2,7 @@
 title: Activate a plugin on a personal developer instance
 description: You can test a plugin on your personal developer instance \(PDI\) before launching it in a production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/activate-plugin-pdi.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -45,7 +46,7 @@ All Applications page
 
 In your PDI, navigate to **System Applications** &gt; **All Available Applications** &gt; **All**. Find the plugin and then activate it.
 
- For more information on using the All Applications page, see [Activate a plugin](t_ActivateAPlugin.md).
+ For more information on using the All Applications page, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ActivateAPlugin.md).
 
 </td></tr><tr><td>
 
@@ -58,14 +59,14 @@ Developer Site
 
 The Instance Management widget is titled **Your Instance**. It contains information such as the status, URL, and release version of your PDI.
 
-![Selecting to activate a plugin in the Instance Management widget](../image/activate-plugin-pdi.png)
+\[Omitted image "activate-plugin-pdi.png"\] Alt text: Selecting to activate a plugin in the Instance Management widget
 
 3.  On the window, locate the plugin to activate.
 4.  Next to the plugin listing, select **Activate**.
 
 If available, you can further select to activate the plugin only or include demo data.
 
-![Activating a plugin from the window titled "Your instance actions"](../image/activate-plugin-dev-portal.png)
+\[Omitted image "activate-plugin-dev-portal.png"\] Alt text: Activating a plugin from the window titled "Your instance actions"
 
 </td></tr></tbody>
 </table>

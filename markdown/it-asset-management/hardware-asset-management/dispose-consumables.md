@@ -2,6 +2,7 @@
 title: Plan disposal of consumable assets
 description: Make the consumable assets that are no longer required in your stockrooms ready for disposal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/dispose-consumables.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -58,7 +59,7 @@ When you mark assets for disposal, you are only making them available for dispos
 
 ## What to do next
 
-[Create a disposal order](create-disposal-order.md).
+[Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/create-disposal-order.md).
 
-**Parent Topic:**[Consumables life cycle](../../asset-management/concept/c_FollowLifeCycleConsumbl.md)
+**Parent Topic:**[Consumables life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/c_FollowLifeCycleConsumbl.md)
 

@@ -2,6 +2,7 @@
 title: Modify the Recommended for you widget display
 description: The Recommended for you widget displays catalog items and knowledge articles, enabling you to view information that is most relevant to you. You can configure the instance options to control the appearance of the widget, such as the title, number of items to display, and what category of items you want to view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/config-recommended-for-you.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ Role required: sp\_admin or admin
 
 2.  Press and hold the control key, right-click the Recommended for you widget, and then select **Instance Options**.
 
-    ![Recommended for you widget instance options.](../images/reco-for-you-inst-opts.png)
+    \[Omitted image "reco-for-you-inst-opts.png"\] Alt text: Recommended for you widget instance options.
 
 3.  Configure the instance options.
 
@@ -124,5 +125,5 @@ Option to show the widget with empty state message.
 </table>4.  Click **Save**.
 
 
-**Parent Topic:**[Recommended for you](../concept/rfy-ec.md)
+**Parent Topic:**[Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/rfy-ec.md)
 

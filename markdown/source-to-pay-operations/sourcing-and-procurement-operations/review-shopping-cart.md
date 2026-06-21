@@ -2,6 +2,7 @@
 title: Review your shopping cart
 description: When you are done with your shopping, review your shopping cart to ensure that you have the right products from the right suppliers in the right quantities in your cart.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/review-shopping-cart.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -39,7 +40,7 @@ Role required: sn\_shop.shopper
 
 ## What to do next
 
-When you’re done reviewing your cart, you can proceed with the final checkout. For more information on how to proceed, see [Complete your checkout](complete-your-checkout.md).
+When you’re done reviewing your cart, you can proceed with the final checkout. For more information on how to proceed, see [Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md).
 
-**Parent Topic:**[Shopping cart](../concept/shopping-cart.md)
+**Parent Topic:**[Shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/shopping-cart.md)
 

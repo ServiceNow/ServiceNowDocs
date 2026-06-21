@@ -2,7 +2,10 @@
 title: Create a drop off list
 description: Agents can create a drop off list of assets at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_CreateADropOffList.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ As an example, the agent might have several assets that were removed when comple
 
 After creating a drop-off list, there are two ways to add items to the list.
 
--   Use the **Add Defective** button to add items that are in their personal stockroom with a substate of **Defective**. For more information about defective items, see [Recording Asset Usage](t_RecordAssetUsage.md).
+-   Use the **Add Defective** button to add items that are in their personal stockroom with a substate of **Defective**. For more information about defective items, see [Recording Asset Usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_RecordAssetUsage.md).
 -   Create a transfer order line for an item in the personal stockroom.
 
     The item cannot have a substate of **Reserved** or **Defective**, and cannot already be included on another drop off list.
@@ -45,5 +48,5 @@ After creating a drop-off list, there are two ways to add items to the list.
         Only items in an agent's personal stockroom that are not reserved, not defective, and not included on another drop off list are available for selection.
 
 
-**Parent Topic:**[Use drop off lists](../concept/c_UseDropOffLists.md)
+**Parent Topic:**[Use drop off lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_UseDropOffLists.md)
 

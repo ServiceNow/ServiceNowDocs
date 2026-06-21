@@ -2,6 +2,7 @@
 title: Explore Contract Management Pro
 description: Learn more about the Contract Management Pro application through a sample workflow and review the benefits that it can provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-expl-cmpro.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -21,25 +22,25 @@ Contract Management Pro is a contract management solution that's easy to use and
 
 The components of Contract Management Pro are:
 
--   [Contracts Core](cncore-expl-ccore.md)
--   [Microsoft Word add-in for ServiceNow Contracts](cncore-expl-snc-addin.md)
--   [Self-served and non-self-served contract requests](cncore-expl-ss-nss-contracts.md)
+-   [Contracts Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-ccore.md)
+-   [Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-snc-addin.md)
+-   [Self-served and non-self-served contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-ss-nss-contracts.md)
 
 ## Contract Management Pro benefits
 
 |Benefit|Key feature|Role|
 |-------|-----------|----|
-|Effectively manage a library of clause variations.|[Clause Management](cncore-expl-clause-mgmt.md)|Contract configurator|
-|Create contract templates or standard letters that are used to generate contracts or documents based on the values in the submitted request.|[Word Document Templates](cncore-expl-wdt.md)|Contract configurator|
-|Add content controls that act as placeholders for the content in Microsoft Word documents on macOS systems and on Windows systems by using an add-in. Content controls can be added manually only on a Windows system.|[Microsoft Word add-in for ServiceNow Contracts](cncore-expl-snc-addin.md)|Contract configurator|
-|Initiate self-served or non-self-served contract requests.|[Self-served and non-self-served contract requests](cncore-expl-ss-nss-contracts.md)|Contract user|
-|Service a self-served contract request.|[Use a self-served contract request](cncore-request-ss-contract-1.md)|Contract user or Contract fulfiller|
-|Revise, approve, and provide a signature for a non-self-served contract request.|[Use non-self-served contract request](cncore-req-nss-contract-1.md)|Contract user or Contract fulfiller|
-|Get review and feedback from the internal subject matter experts on contract documents.|[Internal review overview](../task/cncore-expert-review.md)|Contract fulfiller or Contract reviewer|
-|Get an insight on the volume of contract requests that are handled by your team.|[Using the Contracts Dashboard](../../../use/dashboards/application-content-packs/cncore-contracts-dashboard.md)|Contract fulfiller|
-|Work with actionable widgets to categorize, prioritize, and efficiently work on contract requests.|[Contract Workspace](cncore-contract-workspace.md)|Contract user or Contract fulfiller|
-|Track and manage contract obligations to help ensure compliance and minimize risks.|[Obligation Management](cncore-obligation-management.md)|Obligation user or Obligation fulfiller|
-|Use Now Assist in Contract Management to analyze contracts for non-standard and missing clauses, and to extract information from signed contracts to add in the contract repository.|[Now Assist in Contract Management](cncore-now-assit-landing.md)|Now Assist contract fulfiller|
+|Effectively manage a library of clause variations.|[Clause Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-clause-mgmt.md)|Contract configurator|
+|Create contract templates or standard letters that are used to generate contracts or documents based on the values in the submitted request.|[Word Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-wdt.md)|Contract configurator|
+|Add content controls that act as placeholders for the content in Microsoft Word documents on macOS systems and on Windows systems by using an add-in. Content controls can be added manually only on a Windows system.|[Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-snc-addin.md)|Contract configurator|
+|Initiate self-served or non-self-served contract requests.|[Self-served and non-self-served contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-ss-nss-contracts.md)|Contract user|
+|Service a self-served contract request.|[Use a self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)|Contract user or Contract fulfiller|
+|Revise, approve, and provide a signature for a non-self-served contract request.|[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)|Contract user or Contract fulfiller|
+|Get review and feedback from the internal subject matter experts on contract documents.|[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expert-review.md)|Contract fulfiller or Contract reviewer|
+|Get an insight on the volume of contract requests that are handled by your team.|[Using the Contracts Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-contracts-dashboard.md)|Contract fulfiller|
+|Work with actionable widgets to categorize, prioritize, and efficiently work on contract requests.|[Contract Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-contract-workspace.md)|Contract user or Contract fulfiller|
+|Track and manage contract obligations to help ensure compliance and minimize risks.|[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-obligation-management.md)|Obligation user or Obligation fulfiller|
+|Use Now Assist in Contract Management to analyze contracts for non-standard and missing clauses, and to extract information from signed contracts to add in the contract repository.|[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)|Now Assist contract fulfiller|
 
 ## Contract Management Pro workflow
 
@@ -64,7 +65,7 @@ A Contract Management Pro configurator takes the following actions to set up the
 
 A workflow for a self-served contract request might progress as shown in this process:
 
-1.  The Contract requester initiates a contract request. For more information, see [Initiating a contract request](../task/cncore-initiate-contract.md).
+1.  The Contract requester initiates a contract request. For more information, see [Initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
     -   If there are no validation errors, a contract request is created in the Work in progress state.
     -   If there are any signatory validation errors, the contract requester resolves them and resubmits the contract request.
 2.  A contract document is generated from a contract template and the metadata, clauses, signatories, and tables are added dynamically according to predefined conditions.
@@ -99,7 +100,7 @@ A workflow for a self-served contract request might progress as shown in this pr
 
 A workflow for non-self-served contract request might progress as follows:
 
-1.  The Contract requester initiates a contract request from the workspace. For more information, see [Initiating a contract request](../task/cncore-initiate-contract.md).
+1.  The Contract requester initiates a contract request from the workspace. For more information, see [Initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
 2.  A contract request is created in the Draft state.
 3.  The Contract requester uploads a single contract or multiple contracts and their supporting documents and classifies them.
 4.  The contract fulfiller views the contract document attached to the contract request.

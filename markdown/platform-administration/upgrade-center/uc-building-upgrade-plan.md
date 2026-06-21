@@ -2,6 +2,7 @@
 title: Building your Upgrade Plan
 description: Build your upgrade plan to experience a seamless and an accelerated upgrade by packaging the applications in an upgrade plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-building-upgrade-plan.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -35,7 +36,7 @@ Role required: admin
 
 3.  Click **Build** to start the upgrade plan build.
 
-    Upgrade Plan takes up all the skipped records and publish it on to the app repository. See Upgrade Plan background operations section in [Upgrade Plan overview](../concept/uc-upgrade-plan.md) for more information.
+    Upgrade Plan takes up all the skipped records and publish it on to the app repository. See Upgrade Plan background operations section in [Upgrade Plan overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrade-center/uc-upgrade-plan.md) for more information.
 
     **Note:** Ensure all the applications in the instance are in ready state to be published on to the app repository.
 
@@ -65,11 +66,11 @@ Role required: admin
 
 8.  Click **Publish** to publish the Upgrade Plan.
 
-    See Upgrade Plan background operations section in [Upgrade Plan overview](../concept/uc-upgrade-plan.md) for more information.
+    See Upgrade Plan background operations section in [Upgrade Plan overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrade-center/uc-upgrade-plan.md) for more information.
 
     **Note:** Install all the required applications and plugins and resolve all the skipped records before publishing the upgrade plan. If you want to delete the Upgrade Plan, click **Delete**. The **Delete** option is available only for the Upgrade Plans that are not yet published.
 
-    ![](../image/uc-publish-plan.png)
+    \[Omitted image "uc-publish-plan.png"\] Alt text:
 
     The upgrade plan is now ready to be installed in the consumer instance.
 

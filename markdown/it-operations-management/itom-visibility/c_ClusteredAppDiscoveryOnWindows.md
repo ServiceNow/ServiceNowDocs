@@ -2,6 +2,7 @@
 title: Clustered application discovery on Windows
 description: A process and its corresponding resource information can be used to determine whether the process is a clustered process.To detect Windows clustered applications, create a process classifier for that CI type.In the second step, relate the process classifier to the information that is in the Windows Cluster resources table.The value field defines two JavaScript objects, called resourceType and isMatch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/c\_ClusteredAppDiscoveryOnWindows.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,7 +20,7 @@ The **Microsoft SQL Server** process classifier that comes with your instance id
 
 To detect Windows clustered applications with Discovery, you create a process classifier that detects whether a process is a clustered process. Perform the following steps:
 
-**Parent Topic:**[Software discovery](c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_Software.md)
 
 ## Create a classifier for clustered processes
 
@@ -39,7 +40,7 @@ Role required: discovery\_admin
 
 4.  Click **Submit**.
 
-    ![Process Classification form](../image/ProcessClassificationForm2.png "Process Classification form")
+    \[Omitted image "ProcessClassificationForm2.png"\] Alt text: Process Classification form
 
 <table id="table_xf2_wcr_dr"><thead><tr><th>
 
@@ -122,7 +123,7 @@ Role required: admin
 
 ### About this task
 
-The [Windows Cluster](../reference/r_WindowsServerClusterDiscovery.md) resources table is cmdb\_ci\_win\_cluster\_resource. This relationship is built through JavaScript.
+The [Windows Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_WindowsServerClusterDiscovery.md) resources table is cmdb\_ci\_win\_cluster\_resource. This relationship is built through JavaScript.
 
 ### Procedure
 
@@ -136,14 +137,14 @@ The [Windows Cluster](../reference/r_WindowsServerClusterDiscovery.md) resources
 
 5.  Click **Submit**.
 
-    ![Classifier parameter](../image/ClassifierParameterForm.png "Classifier parameter form")
+    \[Omitted image "ClassifierParameterForm.png"\] Alt text: Classifier parameter
 
     |Field|Description|
     |-----|-----------|
     |Name|Select a unique name.|
     |Application|Select **Global**.|
     |Type|Enter **Cluster**.|
-    |Value|This field defines two JavaScript objects, called resourceType and isMatch. For more information, see [Populate the Value field on the Classifier Parameter form](c_ClusteredAppDiscoveryOnWindows.md#).|
+    |Value|This field defines two JavaScript objects, called resourceType and isMatch. For more information, see [Populate the Value field on the Classifier Parameter form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_ClusteredAppDiscoveryOnWindows.md).|
 
 
 ## Populate the Value field on the Classifier Parameter form
@@ -206,5 +207,5 @@ If there are multiple matches to the resourceType condition, the matching functi
 resourceType: "Physical Disk" 
 ```
 
-![windows cluster resource tab](../image/WindowsClusterResourcesTab.png "Windows Cluster Resources tab")
+\[Omitted image "WindowsClusterResourcesTab.png"\] Alt text: windows cluster resource tab
 

@@ -2,6 +2,7 @@
 title: Define a CORS rule
 description: You can define a CORS rule to control which domains can access REST API endpoints and other web resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-api-explorer/t\_DefineACORSRule.html
 release: xanadu
 product: REST API Explorer
 classification: rest-api-explorer
@@ -115,5 +116,5 @@ Select this option turn on the CORS rule.
 6.  Select **Submit**.
 
 
-**Parent Topic:**[REST APIs](../concept/c_RESTAPI.md)
+**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md)
 

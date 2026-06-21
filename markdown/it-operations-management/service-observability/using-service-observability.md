@@ -2,6 +2,7 @@
 title: Monitoring services and investigating issues
 description: Operators use Service Observability to monitor the health of their services and to triage and manage incidents. They can view performance metrics from external application performance management \(APM\) systems in the context of an application service and its related CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-observability/using-service-observability.html
 release: xanadu
 product: Service Observability
 classification: service-observability
@@ -21,11 +22,11 @@ Service Observability can display metrics from an APM instance in context of a s
 
 The **Overview** tab on the Service Details page shows high-level performance metrics for the service and other contextual information such as open alerts or incidents affecting the service. The **Observability** tab displays more detailed metrics from the APM for the service, along with metrics for inferred entities that are found through data mappings configured during setup. It also shows information about CIs related to those inferred entities. Instead of having to switch to an external tool, an operator can view those external metrics in the context of the Service Operations Workspace \(SOW\).
 
--   [View overall service health](../task/view-overall-service-health.md)
+-   [View overall service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/view-overall-service-health.md)
 
     In the **Overview** tab of the Service Details page in the SOW, view overall service health and related information, like alerts and changes.
 
--   [View service health metrics](../task/view-service-health-metrics.md)
+-   [View service health metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/view-service-health-metrics.md)
 
     In the **Observability** tab, view more detailed service metrics, as well as metrics from related APM-monitored entities such as databases and hosts.
 

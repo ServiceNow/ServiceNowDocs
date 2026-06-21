@@ -2,7 +2,10 @@
 title: Review the active notifications for Microsoft Teams
 description: The notifications added by ServiceNow for Microsoft Teams, might duplicate existing notifications in your instance. Review and disable any duplicate notifications to avoid notifying users multiple times for the same event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/disable-notifications-teams.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ You will find the following duplicate notifications after installing the IT Serv
 
 1.  Navigate to **All** &gt; **ServiceNow for Microsoft 365** &gt; **Notifications** &gt; **Provider Notifications**.
 
-    You can also navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications**. ![Notifications](../images/notifications.png)
+    You can also navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications**. \[Omitted image "notifications.png"\] Alt text: Notifications
 
 2.  On the Notifications list, select the **Name** column to sort the list in alphabetical order.
 
@@ -37,13 +40,13 @@ You will find the following duplicate notifications after installing the IT Serv
 
 3.  Search for the **Incident Update** notification.
 
-    ![Duplicate notifications](../images/duplicate-notifications02.png)
+    \[Omitted image "duplicate-notifications02.png"\] Alt text: Duplicate notifications
 
 4.  Select one of the **Incident Update** notifications.
 
 5.  Clear the **Active** field.
 
-    ![Un-check active option](../images/un-check_active.png)
+    \[Omitted image "un-check\_active.png"\] Alt text: Un-check active option
 
 6.  Select **Update**.
 
@@ -56,5 +59,5 @@ You will find the following duplicate notifications after installing the IT Serv
 
 Leave a comment on an incident record, only one notification appears about the comment in Microsoft Teams.
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](../concept/sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-ms-teams-config-it.md)
 

@@ -2,6 +2,7 @@
 title: Talent Activity Types reference
 description: Administrators create activity types that are used by managers and employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/egd-activity-type-form.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -23,5 +24,5 @@ Administrators create activity types that are used by managers and employees.
 |**Order**|A numeric value used to determine the display order of activity types.|
 |**Value**|The value used to track the activity type.|
 
-**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/egd-reference.md)
 

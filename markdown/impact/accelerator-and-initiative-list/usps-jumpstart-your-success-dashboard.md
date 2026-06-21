@@ -2,6 +2,7 @@
 title: Jumpstart Your Success Dashboard- US Public Sector
 description: Demonstration of what is possible with the Success Dashboard via a demonstration instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/usps-jumpstart-your-success-dashboard.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

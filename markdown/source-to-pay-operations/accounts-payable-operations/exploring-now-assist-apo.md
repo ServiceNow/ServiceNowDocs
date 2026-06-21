@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Accounts Payable Operations \(APO\)
 description: With the Now Assist for Accounts Payable Operations \(APO\) application, an accounts payable \(AP\) fulfiller can use generative AI to summarize the details of a case to quickly get the context of the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

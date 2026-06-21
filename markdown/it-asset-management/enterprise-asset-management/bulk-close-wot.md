@@ -2,6 +2,7 @@
 title: Bulk closure of work order tasks
 description: Close multiple work order tasks in one go.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/bulk-close-wot.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -50,5 +51,5 @@ Role required: enterprise\_asset\_technician
     The selected work orders tasks are closed.
 
 
-**Parent Topic:**[Managing work for your enterprise assets](../concept/managing-work-enterprise-assets.md)
+**Parent Topic:**[Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md)
 

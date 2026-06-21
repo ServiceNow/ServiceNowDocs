@@ -2,6 +2,7 @@
 title: Enable URL allowlist for cross-origin iframe communication
 description: Use the glide.ui.concourse.onmessage\_enforce\_same\_origin property to enable cross-origin communication between iframes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-enable-url-allowlist-for-cross-origin-iframe-communication.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -24,16 +25,16 @@ Use the **glide.ui.concourse.onmessage\_enforce\_same\_origin** property to enab
 |Property name|**glide.ui.concourse.onmessage\_enforce\_same\_origin**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
 |Data type|boolean|
-|Category|[Access control](sc-access-control.md)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Purpose|To enable inclusion listing of trusted domains, so they can communicate between iframes for openframe.|
 |Recommended value|true|
 |Default value|true|
 |Security risk rating|4.2|
 |Functional impact|If you do not inclusion list intended domains, the ability to embed other pages within ServiceNow AI Platform instances may be limited.|
 |Security risk|\(High\) If a web page contains event handlers that do not perform proper origin validation, a web page, or script from any origin, can communicate with it. It can also initiate any functionality performed by the event handler.|
-|References|[OpenFrame overview](https://www.servicenow.com/docs/access?context=c_OpenFrameOverview&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US)|
+|References|OpenFrame overview|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

@@ -2,6 +2,7 @@
 title: Work with extracted metadata
 description: Review the metadata extracted from a contract and add it to the contract repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-review-metatdata.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -30,28 +31,28 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open a contract repository record where you want to review extracted information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d541127e69">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d502489e69">
 
 Method
 
-</th><th align="left" id="d541127e72">
+</th><th align="left" id="d502489e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d541127e78">
+</th></tr></thead><tbody><tr><td id="d502489e78">
 
 **Contract Workspace**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(![List icon.](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.\).
 3.  Select **Executed contracts**.
 4.  Select **All**.
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d541127e126">
+</td></tr><tr><td id="d502489e126">
 
 **Workspace used by your application**
 
@@ -92,8 +93,8 @@ Steps
 
     The information is submitted to be added to the mapped fields in the contract repository.
 
-    When the extraction process is completed, you can view the status of the extracted fields in the **Extraction results** related list in the contract repository record. For more information on the status of the fields, see [Metadata extraction results](../reference/cncore-metadata-ext-results.md).
+    When the extraction process is completed, you can view the status of the extracted fields in the **Extraction results** related list in the contract repository record. For more information on the status of the fields, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md).
 
 
-**Parent Topic:**[Metadata extraction using Now Assist in Contract Management](../concept/cncore-metadata-extract-land.md)
+**Parent Topic:**[Metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
 

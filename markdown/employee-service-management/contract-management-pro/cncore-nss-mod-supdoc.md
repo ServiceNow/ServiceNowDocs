@@ -2,6 +2,7 @@
 title: Modify supporting documents in the contract request
 description: As a contract fulfiller, add, classify, or remove supporting documents submitted in the contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-nss-mod-supdoc.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,31 +28,31 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 3.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d599944e67">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d557460e67">
 
 Action
 
-</th><th align="left" id="d599944e70">
+</th><th align="left" id="d557460e70">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d599944e76">
+</th></tr></thead><tbody><tr><td id="d557460e76">
 
 **Add supporting documents**
 
 </td><td>
 
-[Add supporting documents to the contract request](cncore-ss-add-suprt-doc.md)
+[Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)
 
-</td></tr><tr><td id="d599944e90">
+</td></tr><tr><td id="d557460e90">
 
 **Reclassify supporting documents**
 
 </td><td>
 
-[Reclassify supporting documents in the contract request](cncore-nss-reclassify-supdoc.md)
+[Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)
 
-</td></tr><tr><td id="d599944e104">
+</td></tr><tr><td id="d557460e104">
 
 **Remove the supporting document**
 
@@ -66,5 +67,5 @@ Steps
 </table>4.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Use non-self-served contract request](../concept/cncore-req-nss-contract-1.md)
+**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

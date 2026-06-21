@@ -2,6 +2,7 @@
 title: Time limited authentication
 description: Support time limited authentication for your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/time-limited-authentication.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -17,21 +18,21 @@ Support time limited authentication for your ServiceNow instance.
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore![Explore](../../../common/image/icon-explore.png)](explore-tla.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/explore-tla.md)
 
- [Learn the features and business value of Time limited authentication.](explore-tla.md)
+ [Learn the features and business value of Time limited authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/explore-tla.md)
 
 </td><td>
 
-[Activate![Use](../../../common/image/icon-set-up.png)](../task/activate-time-limited-authentication.md)
+[Activate\[Omitted image "icon-set-up.png"\] Alt text: Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/activate-time-limited-authentication.md)
 
- [Understand how to Activate Time limited authentication.](../task/activate-time-limited-authentication.md)
+ [Understand how to Activate Time limited authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/activate-time-limited-authentication.md)
 
 </td></tr><tr><td>
 
-[Tutorial: Time limited authentication![Reference](../../../common/image/icon-reference.png)](../task/time-based-authentication-with-mfa.md)
+[Tutorial: Time limited authentication\[Omitted image "icon-reference.png"\] Alt text: Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/time-based-authentication-with-mfa.md)
 
- [Know about the properties in Zero Trust Access.](../task/time-based-authentication-with-mfa.md)
+ [Know about the properties in Zero Trust Access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/time-based-authentication-with-mfa.md)
 
 </td><td>
 

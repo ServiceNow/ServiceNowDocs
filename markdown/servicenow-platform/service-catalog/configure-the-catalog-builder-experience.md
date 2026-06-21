@@ -2,6 +2,7 @@
 title: Add a step, section, or question to a catalog item wizard
 description: Add a step, section, or question to a catalog item wizard so catalog item editors can enter custom details while creating catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-catalog/configure-the-catalog-builder-experience.html
 release: xanadu
 product: Service Catalog
 classification: service-catalog
@@ -21,7 +22,7 @@ Role required: catalog\_admin
 
 ## About this task
 
-This video shows you how to add a step, section, or question to a catalog item wizard.This video demonstrates how to add a step, section, or question to a catalog item wizard.
+This video shows you how to add a step, section, or question to a catalog item wizard.
 
 ## Procedure
 
@@ -31,15 +32,15 @@ This video shows you how to add a step, section, or question to a catalog item w
 
 3.  Add steps, sections, or questions to the Catalog Builder wizard.
 
-<table id="choicetable_stn_4yc_vtb"><thead><tr><th align="left" id="d515618e93">
+<table id="choicetable_stn_4yc_vtb"><thead><tr><th align="left" id="d69013e88">
 
 Option
 
-</th><th align="left" id="d515618e96">
+</th><th align="left" id="d69013e91">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d515618e102">
+</th></tr></thead><tbody><tr><td id="d69013e97">
 
 **Create a step**
 
@@ -48,12 +49,12 @@ Procedure
 1.  Select **New** from the Catalog Wizards Steps related list.
 2.  On the Catalog Wizard Step form, fill in the fields.
 
-For a description of the field values, see [Fields in Service Catalog Wizard forms](catalog-wizard.md).
+For a description of the field values, see [Fields in Service Catalog Wizard forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/catalog-wizard.md).
 
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d515618e140">
+</td></tr><tr><td id="d69013e135">
 
 **Create a section**
 
@@ -63,7 +64,7 @@ For a description of the field values, see [Fields in Service Catalog Wizard for
 2.  Create a section by selecting **New** from the Catalog Wizard Section related list.
 3.  On the Catalog Wizard Section form, fill in the fields.
 
-For a description of the field values, see [Fields in Service Catalog Wizard forms](catalog-wizard.md).
+For a description of the field values, see [Fields in Service Catalog Wizard forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/catalog-wizard.md).
 
 4.  Select **Submit**.
 
@@ -78,22 +79,22 @@ For a description of the field values, see [Fields in Service Catalog Wizard for
 2.  Create a question or variable by selecting **New** on the **Variables** related tab.
 3.  On the Variable form, fill in the fields.
 
-For a description of the field values, see [Fields in Service Catalog Wizard forms](catalog-wizard.md).
+For a description of the field values, see [Fields in Service Catalog Wizard forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/catalog-wizard.md).
 
-4.  Enter details in the Annotations, Type specifications, and Default Value tabs. For more information, see [Create a service catalog variable](t_CreateAVariableForACatalogItem.md).
+4.  Enter details in the Annotations, Type specifications, and Default Value tabs. For more information, see [Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md).
 5.  Select **Submit**.
 6.  Navigate to the section where you want to add the question.
 7.  Add the question to the section by selecting **New** from the **Catalog Wizard Question** related list.
 8.  On the Catalog Wizard Question form, fill in the fields.
 
-For a description of the field values, see [Fields in Service Catalog Wizard forms](catalog-wizard.md).
+For a description of the field values, see [Fields in Service Catalog Wizard forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/catalog-wizard.md).
 
 9.  Select **Submit**.
 
 
 </td></tr></tbody>
-</table>    For more information about the fields and their descriptions of the Catalog Wizard form, see [Catalog Wizard form](../reference/service-catalog-wizard-forms-field.md).
+</table>    For more information about the fields and their descriptions of the Catalog Wizard form, see [Catalog Wizard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/service-catalog-wizard-forms-field.md).
 
 
-**Parent Topic:**[Setting up the Catalog Builder](set-up-cat-builder.md)
+**Parent Topic:**[Setting up the Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/set-up-cat-builder.md)
 

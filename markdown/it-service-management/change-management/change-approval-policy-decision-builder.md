@@ -2,6 +2,7 @@
 title: Create a Change approval policy using decision builder
 description: Create a change approval policy using the Change approval policy decision builder to define the approvals that should be generated for your change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change-management/change-approval-policy-decision-builder.html
 release: xanadu
 product: Change Management
 classification: change-management
@@ -33,7 +34,7 @@ Role required: admin or change\_manager
 
 4.  In the **Execution** field, select an option to determine the approach to implement your decision.
 
-<table id="choicetable_dsq_35w_f5b"><tbody><tr><td id="d182079e105">
+<table id="choicetable_dsq_35w_f5b"><tbody><tr><td id="d179923e105">
 
 **First decision that matches**
 
@@ -41,7 +42,7 @@ Role required: admin or change\_manager
 
 Uses the first matching decision in ascending order of the value defined in the **Order** column of the **Decisions** list. The associated approval definition is applied.
 
-</td></tr><tr><td id="d182079e123">
+</td></tr><tr><td id="d179923e123">
 
 **Run all decisions that match**
 
@@ -184,5 +185,5 @@ Operator used to evaluate a user-specified value. A default operator is required
 
 A change approval policy is created and is evaluated on a change request that matches the defined condition.
 
-**Parent Topic:**[Creating change approval policies](../concept/using-change-approval-policies-cf.md)
+**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/using-change-approval-policies-cf.md)
 

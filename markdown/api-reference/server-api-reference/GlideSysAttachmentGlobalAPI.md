@@ -2,6 +2,7 @@
 title: GlideSysAttachment - Global
 description: The GlideSysAttachment API provides methods for handling attachments.Creates an instance of the GlideSysAttachment class.Copies attachments from the source record to the target record.Deletes the specified attachment.Returns a GlideRecord containing the matching attachment metadata such as name, type, or size.Returns a GlideScriptableInputStream object given the sys\_id of an attachment.Attaches a specified attachment to the specified record.Inserts an attachment using the input stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideSysAttachment API provides methods for handling attachments.
 
 Content is returned as a GlideScriptableInputStream object when getContentStream\(\) is called. The GlideScriptableInputStream contains the actual bytes not converted into a string.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## GlideSysAttachment - GlideSysAttachment\(\)
 
@@ -111,7 +112,7 @@ Output:
 
 Returns a GlideScriptableInputStream object given the sys\_id of an attachment.
 
-You can use the [GlideTextReader](../../GlideTextReaderScoped/concept/c_GlideTextReaderScopedAPI.md#) API to read the content stream.
+You can use the [GlideTextReader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideTextReaderScopedAPI.md) API to read the content stream.
 
 |Name|Type|Description|
 |----|----|-----------|

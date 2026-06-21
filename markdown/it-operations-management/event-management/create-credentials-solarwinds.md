@@ -2,6 +2,7 @@
 title: Create SolarWinds monitor credentials
 description: Create credentials to access SolarWinds monitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/create-credentials-solarwinds.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -44,10 +45,10 @@ Role required: evt\_mgmt\_admin
 
 The credential for use with the SolarWinds monitor connector is created.
 
-**Parent Topic:**[Configure event collection from SolarWinds monitor](t_EMConfigureSolarwindsConnectorJS.md)
+**Parent Topic:**[Configure event collection from SolarWinds monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/t_EMConfigureSolarwindsConnectorJS.md)
 
 **Related topics**  
 
 
-[Credentials and connection information](https://www.servicenow.com/docs/access?context=r-credentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.r-credentials]
 

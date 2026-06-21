@@ -2,6 +2,7 @@
 title: Create and manage reports in workspace
 description: Create and manage your report tiles in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/create-new-report-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -29,7 +30,7 @@ All the base system Software Asset Management reports and the custom created rep
 
 2.  In the License usage view, select the **Reports** tab.
 
-    ![Reports tab](../image/reportstab-workspace.png)
+    \[Omitted image "reportstab-workspace.png"\] Alt text: Reports tab
 
 3.  Select **Manage Reports**.
 
@@ -37,7 +38,7 @@ All the base system Software Asset Management reports and the custom created rep
 
     The Create New SAM Workbench Report page appears.
 
-    ![Create a new report](../image/create-report-workspace.png)
+    \[Omitted image "create-report-workspace.png"\] Alt text: Create a new report
 
 5.  Fill in the details in the page.
 

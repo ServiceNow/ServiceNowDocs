@@ -2,6 +2,7 @@
 title: Mark records for deletion
 description: Mark records for deletion according to one or more criteria by creating a delete job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/mark-records-for-deletion.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -56,7 +57,7 @@ The job is saved and the form displays options to schedule the job or execute it
 
 ## What to do next
 
-[Preview affected records for deletion](preview-affected-records-for-deletion.md).
+[Preview affected records for deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/preview-affected-records-for-deletion.md).
 
-**Parent Topic:**[Deleting records safely](../concept/deleting-records-safely.md)
+**Parent Topic:**[Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/deleting-records-safely.md)
 

@@ -2,6 +2,7 @@
 title: Activate the Platform Analytics Solution for Advanced AI Search Management Tools
 description: Activate the content pack ServiceNow Store application for the Platform Analytics Solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/install-adv-ais-mgmt-tools.html
 release: xanadu
 product: AI Search
 classification: ai-search

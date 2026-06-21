@@ -2,6 +2,7 @@
 title: Source-to-Pay Workspace Case Details page
 description: The Source-to-Pay Workspace Case Details page is displayed when you select the link of a supplier case to view more details about that case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-workspace/supp-ws-case-details-page.html
 release: xanadu
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -17,7 +18,7 @@ The Source-to-Pay Workspace Case Details page is displayed when you select the l
 
 On the Source-to-Pay Workspace List page, navigate to **Lists** &gt; **Cases** and select any of the sub-modules to view a list of cases. Select the link to the case in the Number column to open the Case Details page.
 
-For more information about viewing cases in the Source-to-Pay Workspace, see [View a supplier case from the Source-to-Pay Workspace](../task/view-supp-case-ws.md).
+For more information about viewing cases in the Source-to-Pay Workspace, see [View a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/view-supp-case-ws.md).
 
 The Case Details page contains the following options.
 
@@ -37,12 +38,12 @@ Multi-tab interface
 
 When you select a link for a case, each case opens in a separate tab in the top-left corner, which enables you to easily navigate between multiple open cases. Each case displays information in the following tabs:
 
--   **Playbook** tab: Displays either the playbook to onboard a supplier or the generic playbook depending on the case type. For more information, see [Using the supplier onboarding playbook to onboard suppliers](use-playbooks-onboard-supp.md#) and [Case playbook for specific supplier case types](gen-playbook-cases.md).
+-   **Playbook** tab: Displays either the playbook to onboard a supplier or the generic playbook depending on the case type. For more information, see [Using the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md) and [Case playbook for specific supplier case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/gen-playbook-cases.md).
 -   **Details** tab: Contains the Supplier Case, Summary Details, and Resolution Information sections.
     -   Supplier Case: Displays information about the supplier case.
     -   Summary Details: Displays the parent case, related location, start and end dates for the case.
     -   Resolution Information: Displays the resolution information and close notes for the case.
--   **Supplier Information** tab: Displays information about the supplier. For more information about this tab, see [Supplier Information tab](supp-info-tab.md).
+-   **Supplier Information** tab: Displays information about the supplier. For more information about this tab, see [Supplier Information tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-workspace/supp-info-tab.md).
 -   **Supplier Tasks** tab: Lists the supplier tasks for the supplier case.
 -   **Related Cases** tab: Lists the child supplier cases related to the parent supplier case.
 
@@ -50,7 +51,7 @@ If you've not installed Third-party Risk Management, the playbook creates suppli
 
 -   **Approvals** tab: Lists the approval records, their approval status, and the persons who need to approve this case.
 
-**Important:** Supplier Lifecycle Operations creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Important:** Supplier Lifecycle Operations creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see .
 
 -   **Risk Assessments** tab: Displays the risk assessments for a supplier.
 
@@ -87,7 +88,7 @@ Contextual side panel
 
 </td><td>
 
-This panel appears below the UI actions. Select the supplier overview icon \(![Supplier overview icon.](../image/supp-overview-icon.png)\) to open the following panels:
+This panel appears below the UI actions. Select the supplier overview icon \(\[Omitted image "supp-overview-icon.png"\] Alt text: Supplier overview icon.\) to open the following panels:
 
 -   Supplier overview: Displays the following information about the supplier.
     -   **Supplier**: Name of the supplier.
@@ -103,7 +104,7 @@ Depending on the risk score of the supplier, the following risk ratings are disp
         -   3 - Moderate
         -   4 - Low
         -   5 - Very Low
-For more information about risk ratings and risk scores, see [Set up risk rating scales for scoring](https://www.servicenow.com/docs/access?context=tprm-risk-rating-scales-config&version=xanadu&pubname=xanadu-governance-risk-compliance&ft:locale=en-US).
+For more information about risk ratings and risk scores, see .
 
     -   **Onboarded**: Status of whether the supplier is onboarded into the ERP system. The options are Yes or No.
     -   **DUNS number**: Unique, 9-digit identifier for a supplier.
@@ -112,9 +113,9 @@ For more information about risk ratings and risk scores, see [Set up risk rating
     -   **Country of Registration**: The country in which the supplier is registered.
 -   Supplier contacts: Displays information about the supplier contacts. An Admin label next to the contact's name indicates that the contact is a primary contact. If a supplier has more than five supplier contacts, the **View all** option is displayed. Select **View all** to view a list of all the contacts for the supplier.
 
- Select the attachments icon \(![Attachments icon.](../image/attachments-icon.png)\) to open the Attachments panel, which enables you to attach documents to the case.
+ Select the attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachments icon.\) to open the Attachments panel, which enables you to attach documents to the case.
 
- Select the agent assist icon \(![Agent Assist icon.](../image/agent-assist-icon.png)\) to open the Agent Assist panel, which enables you to search for information across multiple sources such as catalog items, knowledge articles, supplier cases, problems, and open incidents.
+ Select the agent assist icon \(\[Omitted image "agent-assist-icon.png"\] Alt text: Agent Assist icon.\) to open the Agent Assist panel, which enables you to search for information across multiple sources such as catalog items, knowledge articles, supplier cases, problems, and open incidents.
 
 </td></tr></tbody>
 </table>

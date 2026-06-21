@@ -2,7 +2,10 @@
 title: Create an asset
 description: Create a record for a specific instance of a product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/c\_CreateAnAsset.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,7 +35,7 @@ Customer Service Management leverages the Asset Management application to create
     -   Consumable
     -   License
     -   Facility
-4.  Fill in the fields for the selected asset type on the [Asset form](../reference/customer-service-asset-form.md), as appropriate.
+4.  Fill in the fields for the selected asset type on the [Asset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/customer-service-asset-form.md), as appropriate.
 
 5.  Click **Submit**.
 

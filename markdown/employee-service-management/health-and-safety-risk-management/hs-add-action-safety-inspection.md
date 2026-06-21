@@ -2,6 +2,7 @@
 title: Add an action for a safety inspection or audit
 description: Add an action for each finding to address any issues or implement measures necessary to improve workplace safety. You can add multiple actions for an inspection or audit finding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-add-action-safety-inspection.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -17,7 +18,7 @@ Add an action for each finding to address any issues or implement measures neces
 
 ## About this task
 
-For more information on adding an action for a safety inspection through Mobile Agent, see [Add actions for safety inspections survey in Mobile Agent app](../../hs-health-safety-mobile/task/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md)
+For more information on adding an action for a safety inspection through Mobile Agent, see [Add actions for safety inspections survey in Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md)
 
 ## Before you begin
 
@@ -30,19 +31,19 @@ Role required:
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  Create an action from an inspection or audit record or the Actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d650326e119">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d94998e119">
 
 Option
 
-</th><th align="left" id="d650326e122">
+</th><th align="left" id="d94998e122">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d650326e128">
+</th></tr></thead><tbody><tr><td id="d94998e128">
 
 **From an inspection record**
 
@@ -53,7 +54,7 @@ Steps
 3.  In the **Inspection actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d650326e161">
+</td></tr><tr><td id="d94998e161">
 
 **From an audit record**
 
@@ -64,7 +65,7 @@ Steps
 3.  In the **Audit actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d650326e194">
+</td></tr><tr><td id="d94998e194">
 
 **From the Actions list**
 
@@ -74,7 +75,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d650326e221">
+</td></tr><tr><td id="d94998e221">
 
 **From the Findings related item**
 
@@ -89,7 +90,7 @@ Steps
 </td></tr></tbody>
 </table>4.  On the form, fill in the fields.
 
-    For information on field descriptions, see [Health and Safety action form](../../ohs-incident-management/reference/hs-action-form.md).
+    For information on field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 5.  Select **Save**.
 
@@ -110,5 +111,5 @@ Steps
     -   The action is duplicated and appears in the **My Tasks** list of the assigned user on the Employee Center.
     -   The action is also listed in the **Actions** list on the Health and Safety Workspace.
 
-**Parent Topic:**[Safety inspections and audits](../concept/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

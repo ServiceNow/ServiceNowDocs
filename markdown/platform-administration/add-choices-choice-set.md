@@ -2,6 +2,7 @@
 title: Add choices to a dynamic choice set
 description: Build out a dynamic choice set by defining the choices that belong to it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/add-choices-choice-set.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -44,15 +45,15 @@ After you create a dynamic choice set, define each of the choices that comprise 
 
 ## Add a dynamic choice to a dynamic choice set
 
-![Add a choice to the screen type choice set.](../image/dynamic-choice-example.png)
+\[Omitted image "dynamic-choice-example.png"\] Alt text: Add a choice to the screen type choice set.
 
 ## Choices defined in choice set
 
-![Choices in a choice set.](../image/dynamic-choice-set-choices-example.png)
+\[Omitted image "dynamic-choice-set-choices-example.png"\] Alt text: Choices in a choice set.
 
 ## What to do next
 
 Add more choices as needed. Create a dynamic attribute whose values are derived from the dynamic choice set.
 
-**Parent Topic:**[Dynamic Schema](../concept/dynamic-schema.md)
+**Parent Topic:**[Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-schema.md)
 

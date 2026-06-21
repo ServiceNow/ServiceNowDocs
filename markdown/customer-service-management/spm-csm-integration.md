@@ -2,7 +2,10 @@
 title: Integrate with Service Portfolio Management using Guided Setup
 description: Use the Guided Setup to integrate Customer Service Management with the Service Portfolio Management \(SPM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/spm-csm-integration.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -43,5 +46,5 @@ To configure the integration with Service Portfolio Management, use the Customer
 **Related topics**  
 
 
-[Service Portfolio Management](https://www.servicenow.com/docs/access?context=c_ServicePortfolioManagementv2&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_ServicePortfolioManagementv2]
 

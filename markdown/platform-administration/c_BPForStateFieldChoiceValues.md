@@ -2,6 +2,7 @@
 title: Configure state field choice values
 description: State fields are a subset of choice list fields. Keep the following information in mind when you configure choice values for the state field.Follow these examples for modifying the states of incidents and change requests.Business rules in the system make assumptions about state values. You can troubleshoot business rules to see the order in which they run and see how it affects changes you make to State field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_BPForStateFieldChoiceValues.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -25,7 +26,7 @@ You can define any of the following attributes for a state field by configuring 
 |default\_close\_state|Optional attribute to define the state value of the default close state if you want to define business rules that automatically close a task. Defaults to 3, typically Closed Complete if attribute is not defined.|
 |default\_work\_state|Optional attribute to define the state value of the default working state if you want to define business rules that automatically set a task for working. Defaults to 2, typically Work in Progress if the attribute is not defined.|
 
-**Parent Topic:**[Choice list field type](c_ChoiceLists.md)
+**Parent Topic:**[Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ChoiceLists.md)
 
 ## State modification examples
 

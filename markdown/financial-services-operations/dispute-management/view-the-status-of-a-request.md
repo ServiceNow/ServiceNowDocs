@@ -2,6 +2,7 @@
 title: Viewing the status of a request using the dispute tracker
 description: Track the progress of card disputes case requests using the dispute tracker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/view-the-status-of-a-request.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -30,5 +31,5 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 4.  Check the status of the disputed case, view the list of disputed transactions, and review the submitted documents in the dispute tracker.
 
 
-**Parent Topic:**[Dispute Intake in Portal](../concept/dispute-playbook-for-portal.md)
+**Parent Topic:**[Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-playbook-for-portal.md)
 

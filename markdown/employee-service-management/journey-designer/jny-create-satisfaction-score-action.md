@@ -2,6 +2,7 @@
 title: Create a satisfaction score action
 description: A satisfaction score action triggers a widget to appear to the employee, containing either a URL or request to schedule a meeting, when the specific condition is met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-designer/jny-create-satisfaction-score-action.html
 release: xanadu
 product: Journey Designer
 classification: journey-designer
@@ -19,7 +20,7 @@ A satisfaction score action triggers a widget to appear to the employee, contain
 
 Role required: admin
 
-Install and configure Listening Posts: [Integrating Listening Posts with Journey designer](../concept/integrating-li-with-jny.md)
+Install and configure Listening Posts: [Integrating Listening Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/integrating-li-with-jny.md)
 
 ## Procedure
 
@@ -44,5 +45,5 @@ Install and configure Listening Posts: [Integrating Listening Posts with Journey
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

@@ -2,6 +2,7 @@
 title: Create or edit Configuration Compliance assignment rules
 description: Create rules to automatically assign test results based on filter conditions. These rules assign test results as they are imported.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/create-cc-assign-rules.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -121,5 +122,5 @@ Select the user group responsible for remediating tests that match the condition
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](../concept/cc-configuring.md)
+**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-configuring.md)
 

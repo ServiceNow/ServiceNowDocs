@@ -2,6 +2,7 @@
 title: Create or modify a script macro
 description: Administrators can define new script macros or modify existing script macros.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/scripts/t\_ManageScriptMacros.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -38,5 +39,5 @@ Script macros provide shortcuts for typing commonly used code. Several script ma
     |Text|Full macro text that replaces the name in the editor.|
 
 
-**Parent Topic:**[Syntax editor plugin](../concept/c_SyntaxEditorPlugin.md)
+**Parent Topic:**[Syntax editor plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/c_SyntaxEditorPlugin.md)
 

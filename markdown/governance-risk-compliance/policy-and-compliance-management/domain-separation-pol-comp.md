@@ -2,6 +2,7 @@
 title: Domain separation in GRC: Policy and Compliance Management
 description: Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/policy-and-compliance-management/domain-separation-pol-comp.html
 release: xanadu
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -25,7 +26,7 @@ Domain separation enables you to separate data, processes, and administrative ta
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Benefits of having domain-separated tables in Policy and Compliance Management
 
@@ -49,7 +50,7 @@ While GRC supports separation of data, separation of logic and process is not fu
     For example, suppose you have domains that look like:
 
 
-![Domain separation in GRC.](../image/domain-separation-pc.png "Domain separation")
+\[Omitted image "domain-separation-pc.png"\] Alt text: Domain separation in GRC.
 
 -   If you have a risk or control that you want to be assessed by users in domains A and B, the risk or control should be generated or manually created at the global level. If the risk or control is created in Domain B, you will not be able to recreate the risk or control in Domain A due to indexing.
 -   If you have a risk or control that you want to be assessed by users in TOP and Domain A, you can create the risk or control in Domain A.
@@ -112,10 +113,10 @@ The following changes are made to the domain assignment process to manage data s
 |Article Template|User Domain|
 |Compliance data source registry|User Domain|
 
-**Parent Topic:**[Policy and Compliance Management reference](reference-data-policy-compliance.md)
+**Parent Topic:**[Policy and Compliance Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/policy-and-compliance-management/reference-data-policy-compliance.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

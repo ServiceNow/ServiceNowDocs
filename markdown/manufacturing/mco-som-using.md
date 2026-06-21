@@ -2,6 +2,7 @@
 title: Using Sales Customer Relationship Management for Manufacturing Commercial Operations
 description: The Order Management application for Manufacturing Commercial Operations creates a seamless ordering experience for your manufacturing customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-som-using.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-10-10"
@@ -15,5 +16,5 @@ The Order Management application for Manufacturing Commercial Operations creates
 
 Use Sales Customer Relationship Management as the system of action and relay order status via the customer service portal. Orders can be captured and fulfilled in any system and synced back to the Sales Customer Relationship Management order table.
 
-![MCO Sales Customer Relationship Management workflow](../image/mco-som-workflow.png "Sales Customer Relationship Management workflow")
+\[Omitted image "mco-som-workflow.png"\] Alt text: MCO Sales Customer Relationship Management workflow
 

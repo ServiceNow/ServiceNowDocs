@@ -2,9 +2,12 @@
 title: Track the current location of agents from email or SMS notifications
 description: Track the current location of agents and their estimated time of arrival through email or SMS notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/track-agents-sms.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Managing work order tasks from the Customer or Consumer Service Portal, Using Field Service Management, Field Service Management]
 ---
@@ -34,5 +37,5 @@ A link is sent through email or SMS notifications to track the current location 
 
 The agent tracking map for the related work order task opens for you to track the agent.
 
-**Parent Topic:**[Managing work order tasks from the Customer or Consumer Service Portal](../concept/use-customer-experience.md)
+**Parent Topic:**[Managing work order tasks from the Customer or Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/use-customer-experience.md)
 

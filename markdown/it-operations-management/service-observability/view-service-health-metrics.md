@@ -2,6 +2,7 @@
 title: View service health metrics
 description: View detailed metrics for a service, as well as information and metrics from related entities, such as databases and hosts, on the Observability tab in SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-observability/view-service-health-metrics.html
 release: xanadu
 product: Service Observability
 classification: service-observability
@@ -29,8 +30,8 @@ For example, say you have metrics from New Relic used to monitor services, datab
 
 ## Before you begin
 
--   For version 1.5.0, a service must be activated. For more information, see [Activate teams and services](../concept/activate-teams-and-services.md).
--   A data mapping must be configured. For more information, see [Create and manage observability data mappings](create-and-manage-observability-data-mappings.md).
+-   For version 1.5.0, a service must be activated. For more information, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/activate-teams-and-services.md).
+-   A data mapping must be configured. For more information, see [Create and manage observability data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
 
 Role required: operator \[snc\_sow\_svcobs.manager\]
 
@@ -46,7 +47,7 @@ Role required: operator \[snc\_sow\_svcobs.manager\]
     -   **Express list** alert: Select a service from the **Impacted services** column.
     The Service Details page opens and the Overview tab is displayed.
 
-    If charts are displaying error messages, see [Chart error states](../reference/chart-error-states.md).
+    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/chart-error-states.md).
 
 2.  Select the **Observability** tab.
 
@@ -65,6 +66,6 @@ Role required: operator \[snc\_sow\_svcobs.manager\]
     -   Display metrics from a different time period using the time picker. The default time period is the last hour.
     -   Refresh the charts to the current time period of the last hour by selecting the **Refresh** button.
     -   Hover over a point to view detailed information.
-    For detailed information about using this page, refer to the corresponding Observability templates for your APM vendor described in [Observability templates](../reference/observability-templates.md).
+    For detailed information about using this page, refer to the corresponding Observability templates for your APM vendor described in [Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/observability-templates.md).
 
 

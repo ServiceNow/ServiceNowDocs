@@ -2,6 +2,7 @@
 title: Using Machine Learning APIs
 description: Use ServiceNow Machine Learning \(ML\) APIs to train Machine Learning models and run inferences.This section briefly describes classes for training ML solutions and running inferences with trained solutions.Follow this example breakdown to learn how to configure and train a solution.Follow these example breakdowns to learn how to manage trained solution versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/predictive-intelligence/using-ml-apis.html
 release: xanadu
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -17,7 +18,7 @@ Use ServiceNow Machine Learning \(ML\) APIs to train Machine Learning models and
 
 ML APIs enable training solutions and managing solution versions. You can get and set active versions, monitor training status, and more. The ML API also provides encoders, which enable using term frequency–inverse document frequency \(TF-IDF\) as a word corpus. Predictability estimates enable assessing the predictive value of table columns.
 
-**Note:** Predictive Intelligence APIs run with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see [Query ACLs](https://www.servicenow.com/docs/access?context=query-acl-rule&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+**Note:** Predictive Intelligence APIs run with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see .
 
 ## ML API class overview
 
@@ -27,7 +28,7 @@ This section briefly describes classes for training ML solutions and running inf
 
     A dataset is a set of records including a table name, columns, and row selection criteria to use as input for ML training algorithms. Datasets don't contain the actual data.
 
-    For more information, see [DatasetDefinition](https://www.servicenow.com/docs/access?context=DatasetDefinitionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+    For more information, see DatasetDefinition.
 
 -   **ML objects – Solutions, Encoders, and Estimates**
 
@@ -39,48 +40,48 @@ This section briefly describes classes for training ML solutions and running inf
 
     For more information, see:
 
-    -   [ClassificationSolution](https://www.servicenow.com/docs/access?context=ClassificationSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [ClusteringSolution](https://www.servicenow.com/docs/access?context=ClusteringSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [Encoder](https://www.servicenow.com/docs/access?context=EncoderAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [PredictabilityEstimate](https://www.servicenow.com/docs/access?context=PredictabilityEstimateAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [RegressionSolution](https://www.servicenow.com/docs/access?context=RegressionSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [SimilaritySolution](https://www.servicenow.com/docs/access?context=SimilaritySolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+    -   ClassificationSolution
+    -   ClusteringSolution
+    -   Encoder
+    -   PredictabilityEstimate
+    -   RegressionSolution
+    -   SimilaritySolution
 -   **Stores**
 
     ML objects are maintained in a specific store for each object type. Each store class includes methods for add, get, update, and delete operations.
 
     For more information, see:
 
-    -   [ClassificationSolutionStore](https://www.servicenow.com/docs/access?context=ClassificationSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [ClusteringSolutionStore](https://www.servicenow.com/docs/access?context=ClusteringSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [EncoderStore](https://www.servicenow.com/docs/access?context=EncoderStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [PredictabilityEstimateStore](https://www.servicenow.com/docs/access?context=PredictabilityEstimateStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [RegressionSolutionStore](https://www.servicenow.com/docs/access?context=RegressionSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [SimilaritySolutionStore](https://www.servicenow.com/docs/access?context=SimilaritySolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+    -   ClassificationSolutionStore
+    -   ClusteringSolutionStore
+    -   EncoderStore
+    -   PredictabilityEstimateStore
+    -   RegressionSolutionStore
+    -   SimilaritySolutionStore
 -   **Versions**
 
     Each trained object results in a new version that you can run tasks on. Use the version API to get any solution version and run tasks on it.
 
     For more information, see:
 
-    -   [ClassificationSolutionVersion](https://www.servicenow.com/docs/access?context=ClassificationSolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [ClusteringSolutionVersion](https://www.servicenow.com/docs/access?context=ClusteringSolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [EncoderVersion](https://www.servicenow.com/docs/access?context=EncoderVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [PredictabilityEstimateVersion](https://www.servicenow.com/docs/access?context=PredictabilityEstimateVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [RegressionSolutionVersion](https://www.servicenow.com/docs/access?context=RegressionSolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [SimilaritySolutionVersion](https://www.servicenow.com/docs/access?context=SimilaritySolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+    -   ClassificationSolutionVersion
+    -   ClusteringSolutionVersion
+    -   EncoderVersion
+    -   PredictabilityEstimateVersion
+    -   RegressionSolutionVersion
+    -   SimilaritySolutionVersion
 
 ### Putting it together: ML API flows
 
 You can use the following flow to configure and train solutions, encoders, and predictability estimates:
 
-![This image illustrates the API flow from defining dataset, creating a ML object, adding the ML object to a store, and training the ML object.](../images/ml-api-flow-solution1.png "ML API flow – Solution, encoder, and estimate training")
+\[Omitted image "ml-api-flow-solution1.png"\] Alt text: This image illustrates the API flow from defining dataset, creating a ML object, adding the ML object to a store, and training the ML object.
 
 **Note:** The encoder definitions support multiple dataset definitions, but have the same training flow.
 
 To train a solution with an encoder, create the encoder first, then include the encoder in the solution configuration.
 
-![This image illustrates the API flow from defining dataset, creating a solution object specifying an existing encoder, adding the solution to a store, and training the solution.](../images/ml-api-flow-solution2-encoder.png "ML API flow – Solution API training with encoder")
+\[Omitted image "ml-api-flow-solution2-encoder.png"\] Alt text: This image illustrates the API flow from defining dataset, creating a solution object specifying an existing encoder, adding the solution to a store, and training the solution.
 
 ML object encoder requirements:
 
@@ -95,9 +96,9 @@ Follow this example breakdown to learn how to configure and train a solution.
 
 -   **Configure and train a solution**
 
-    ![This image illustrates the API flow from defining dataset, creating a classification solution object, adding the solution to a store, and training the solution.](../images/ml-api-flow-classification.png)
+    \[Omitted image "ml-api-flow-classification.png"\] Alt text: This image illustrates the API flow from defining dataset, creating a classification solution object, adding the solution to a store, and training the solution.
 
-    1.  Define a dataset using the [DatasetDefinition](https://www.servicenow.com/docs/access?context=DatasetDefinitionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US) API.
+    1.  Define a dataset using the DatasetDefinition API.
 
         ```
         var myData = new sn_ml.DatasetDefinition({
@@ -122,36 +123,36 @@ Follow this example breakdown to learn how to configure and train a solution.
         });
         ```
 
-        -   [ClassificationSolution\(\)](https://www.servicenow.com/docs/access?context=ClassificationSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [ClusteringSolution\(\)](https://www.servicenow.com/docs/access?context=ClusteringSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [Encoder\(\)](https://www.servicenow.com/docs/access?context=EncoderAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [PredictabilityEstimate\(\)](https://www.servicenow.com/docs/access?context=PredictabilityEstimateAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [RegressionSolution\(\)](https://www.servicenow.com/docs/access?context=RegressionSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [SimilaritySolution\(\)](https://www.servicenow.com/docs/access?context=SimilaritySolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+        -   ClassificationSolution\(\)
+        -   ClusteringSolution\(\)
+        -   Encoder\(\)
+        -   PredictabilityEstimate\(\)
+        -   RegressionSolution\(\)
+        -   SimilaritySolution\(\)
     3.  Add the solution definition to the store using the add\(\) method.
 
         ```
         var my_unique_name = sn_ml.ClassificationSolutionStore.add(mySolution);
         ```
 
-        -   [ClassificationSolutionStore - add\(\)](https://www.servicenow.com/docs/access?context=ClassificationSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [ClusteringSolutionStore – add\(\)](https://www.servicenow.com/docs/access?context=ClusteringSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [EncoderStore - add\(\)](https://www.servicenow.com/docs/access?context=EncoderStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [PredictabilityEstimateStore - add\(\)](https://www.servicenow.com/docs/access?context=PredictabilityEstimateStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [RegressionSolutionStore - add\(\)](https://www.servicenow.com/docs/access?context=RegressionSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [SimilaritySolutionStore - add\(\)](https://www.servicenow.com/docs/access?context=SimilaritySolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+        -   ClassificationSolutionStore - add\(\)
+        -   ClusteringSolutionStore – add\(\)
+        -   EncoderStore - add\(\)
+        -   PredictabilityEstimateStore - add\(\)
+        -   RegressionSolutionStore - add\(\)
+        -   SimilaritySolutionStore - add\(\)
     4.  Train the solution using the submitTrainingJob\(\) method. After training is complete, you can manage the trained solution using a solution version API. A solution can be retrained multiple times. Each training results in a new solution "version" on which you can run inferences.
 
         ```
         var myClassifierVersion = mySolution.submitTrainingJob();
         ```
 
-        -   [ClassificationSolution - submitTrainingJob\(\)](https://www.servicenow.com/docs/access?context=ClassificationSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [ClusteringSolutionVersion – submitTrainingJob\(\)](https://www.servicenow.com/docs/access?context=ClusteringSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [Encoder - submitTrainingJob\(\)](https://www.servicenow.com/docs/access?context=EncoderAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [PredictabilityEstimate - submitTrainingJob\(\)](https://www.servicenow.com/docs/access?context=PredictabilityEstimateAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [RegressionSolution - submitTrainingJob\(\)](https://www.servicenow.com/docs/access?context=RegressionSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [SimilaritySolution - submitTrainingJob\(\)](https://www.servicenow.com/docs/access?context=SimilaritySolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+        -   ClassificationSolution - submitTrainingJob\(\)
+        -   ClusteringSolutionVersion – submitTrainingJob\(\)
+        -   Encoder - submitTrainingJob\(\)
+        -   PredictabilityEstimate - submitTrainingJob\(\)
+        -   RegressionSolution - submitTrainingJob\(\)
+        -   SimilaritySolution - submitTrainingJob\(\)
 -   **View all classification solutions in a store**
 
     You can use the store getAllNames\(\) method to see a list of all solutions that have been added to the store.
@@ -170,12 +171,12 @@ Follow this example breakdown to learn how to configure and train a solution.
     ]
     ```
 
-    -   [ClassificationSolutionStore - getAllNames\(\)](https://www.servicenow.com/docs/access?context=ClassificationSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [ClusteringSolutionStore – getAllNames\(\)](https://www.servicenow.com/docs/access?context=ClusteringSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [EncoderStore - getAllNames\(\)](https://www.servicenow.com/docs/access?context=EncoderStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [PredictabilityEstimateStore - getAllNames\(\)](https://www.servicenow.com/docs/access?context=PredictabilityEstimateStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [RegressionSolutionStore - getAllNames\(\)](https://www.servicenow.com/docs/access?context=RegressionSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-    -   [SimilaritySolutionStore - getAllNames\(\)](https://www.servicenow.com/docs/access?context=SimilaritySolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+    -   ClassificationSolutionStore - getAllNames\(\)
+    -   ClusteringSolutionStore – getAllNames\(\)
+    -   EncoderStore - getAllNames\(\)
+    -   PredictabilityEstimateStore - getAllNames\(\)
+    -   RegressionSolutionStore - getAllNames\(\)
+    -   SimilaritySolutionStore - getAllNames\(\)
 
 ## Getting started with ML API solution versions
 
@@ -185,7 +186,7 @@ Follow these example breakdowns to learn how to manage trained solution versions
 
     Get the classification solution from the store, choose a version, and check its training status. The methods used for checking training status are applicable to all ML object types.
 
-    ![This image illustrates the API flow from accessing an classification solution in the store, choosing a solution version, and checking its training status.](../images/ml-api-flow-classification-getStat.png)
+    \[Omitted image "ml-api-flow-classification-getStat.png"\] Alt text: This image illustrates the API flow from accessing an classification solution in the store, choosing a solution version, and checking its training status.
 
     1.  Get the solution from the classification solution store using the get\(\) method.
 
@@ -194,12 +195,12 @@ Follow these example breakdowns to learn how to manage trained solution versions
         var mlSolution = sn_ml.ClassificationSolutionStore.get('ml_x_snc_global_global_my_solution_definition');
         ```
 
-        -   [ClassificationSolutionStore - get\(\)](https://www.servicenow.com/docs/access?context=ClassificationSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [ClusteringSolutionStore – get\(\)](https://www.servicenow.com/docs/access?context=ClusteringSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [EncoderStore - get\(\)](https://www.servicenow.com/docs/access?context=EncoderStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [PredictabilityEstimateStore - get\(\)](https://www.servicenow.com/docs/access?context=PredictabilityEstimateStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [RegressionSolutionStore - get\(\)](https://www.servicenow.com/docs/access?context=RegressionSolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [SimilaritySolutionStore - get\(\)](https://www.servicenow.com/docs/access?context=SimilaritySolutionStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+        -   ClassificationSolutionStore - get\(\)
+        -   ClusteringSolutionStore – get\(\)
+        -   EncoderStore - get\(\)
+        -   PredictabilityEstimateStore - get\(\)
+        -   RegressionSolutionStore - get\(\)
+        -   SimilaritySolutionStore - get\(\)
     2.  Access the most recent solution version using the getLatestVersion\(\) solution method and get its training status using the getStatus\(\) version method.
 
         ```
@@ -215,16 +216,16 @@ Follow these example breakdowns to learn how to manage trained solution versions
 
         |getLatestVersion\(\)|getStatus\(\)|
         |--------------------|-------------|
-        |[ClassificationSolution - getLatestVersion\(\)](https://www.servicenow.com/docs/access?context=ClassificationSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|[ClassificationSolutionVersion - getStatus\(\)](https://www.servicenow.com/docs/access?context=ClassificationSolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
-        |[ClusteringSolution – getLatestVersion\(\)](https://www.servicenow.com/docs/access?context=ClusteringSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|[ClusteringSolutionVersion – getStatus\(\)](https://www.servicenow.com/docs/access?context=ClusteringSolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
-        |[Encoder - getLatestVersion\(\)](https://www.servicenow.com/docs/access?context=EncoderAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|[EncoderVersion - getStatus\(\)](https://www.servicenow.com/docs/access?context=EncoderVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
-        |[PredictabilityEstimate - getLatestVersion\(\)](https://www.servicenow.com/docs/access?context=PredictabilityEstimateAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|[PredictabilityEstimateVersion - getStatus\(\)](https://www.servicenow.com/docs/access?context=PredictabilityEstimateVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
-        |[RegressionSolution - getLatestVersion\(\)](https://www.servicenow.com/docs/access?context=RegressionSolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|[RegressionSolutionVersion - getStatus\(\)](https://www.servicenow.com/docs/access?context=RegressionSolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
-        |[SimilaritySolution - getLatestVersion\(\)](https://www.servicenow.com/docs/access?context=SimilaritySolutionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|[SimilaritySolutionVersion - getStatus\(\)](https://www.servicenow.com/docs/access?context=SimilaritySolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
+        |ClassificationSolution - getLatestVersion\(\)|ClassificationSolutionVersion - getStatus\(\)|
+        |ClusteringSolution – getLatestVersion\(\)|ClusteringSolutionVersion – getStatus\(\)|
+        |Encoder - getLatestVersion\(\)|EncoderVersion - getStatus\(\)|
+        |PredictabilityEstimate - getLatestVersion\(\)|PredictabilityEstimateVersion - getStatus\(\)|
+        |RegressionSolution - getLatestVersion\(\)|RegressionSolutionVersion - getStatus\(\)|
+        |SimilaritySolution - getLatestVersion\(\)|SimilaritySolutionVersion - getStatus\(\)|
 
 -   **Get predictions using a solution version**
 
-    After the solution has been trained, get the trained version and run a prediction on it. Get the solution you created from the store. Next, choose the trained version and predict the trained version. ![This image illustrates the API flow from accessing classification solution in the store, choosing a solution version, and getting prediction input data.](../images/ml-api-flow-classification-predict.png)
+    After the solution has been trained, get the trained version and run a prediction on it. Get the solution you created from the store. Next, choose the trained version and predict the trained version. \[Omitted image "ml-api-flow-classification-predict.png"\] Alt text: This image illustrates the API flow from accessing classification solution in the store, choosing a solution version, and getting prediction input data.
 
     **Note:** Predictions cannot be made on encoders and predictability estimates.
 
@@ -235,7 +236,7 @@ Follow these example breakdowns to learn how to manage trained solution versions
         var mlSolution = sn_ml.ClassificationSolutionStore.get('ml_x_snc_global_global_my_solution_definition');
         ```
 
-    2.  Use the [GlideRecord](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US) API get\(\) method to provide a record from the Incident \[incident\] table.
+    2.  Use the GlideRecord API get\(\) method to provide a record from the Incident \[incident\] table.
 
         ```
         // single GlideRecord input
@@ -258,10 +259,10 @@ Follow these example breakdowns to learn how to manage trained solution versions
         var results = mlSolution.getLatestVersion().predict(input, options);
         ```
 
-        -   [ClassificationSolutionVersion - predict\(\)](https://www.servicenow.com/docs/access?context=ClassificationSolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [ClusteringSolutionVersion – predict\(\)](https://www.servicenow.com/docs/access?context=ClusteringSolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [RegressionSolutionVersion - predict\(\)](https://www.servicenow.com/docs/access?context=RegressionSolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
-        -   [SimilaritySolutionVersion - predict\(\)](https://www.servicenow.com/docs/access?context=SimilaritySolutionVersionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+        -   ClassificationSolutionVersion - predict\(\)
+        -   ClusteringSolutionVersion – predict\(\)
+        -   RegressionSolutionVersion - predict\(\)
+        -   SimilaritySolutionVersion - predict\(\)
     5.  Print the predicted results output.
 
         ```

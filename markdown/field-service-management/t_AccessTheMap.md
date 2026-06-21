@@ -2,7 +2,10 @@
 title: Access an SLA map
 description: How to access the SLA map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_AccessTheMap.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -24,5 +27,5 @@ Role required: wm\_admin, wm\_dispatcher, or dispatcher combination role
     The map opens in the geographical area containing work orders with SLAs that are assigned to your dispatch group.
 
 
-**Parent Topic:**[Use an SLA map](../concept/c_UseTheSLAMap.md)
+**Parent Topic:**[Use an SLA map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_UseTheSLAMap.md)
 

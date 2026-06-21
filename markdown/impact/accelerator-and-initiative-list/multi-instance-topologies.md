@@ -2,6 +2,7 @@
 title: Multi-instance Topologies
 description: This Accelerator provides education on drivers and topology alternatives to support multiple production instance implementations delivered within the context of a single-customer production implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/multi-instance-topologies.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

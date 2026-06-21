@@ -2,6 +2,7 @@
 title: Email user matching
 description: When the instance receives an email message, the system searches for an existing user record with the same email address as the sender.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_MatchingEmailToExistingUsers.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -24,5 +25,5 @@ When the instance receives an email message, the system searches for an existing
 
 Inbound Email Action scripts no longer support the `gs.createUser()` method. Use either the automatically-generated email variables or the `gs.GetUserID()` method instead.
 
-**Parent Topic:**[References for Inbound email](../concept/references-inbound-email.md)
+**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/references-inbound-email.md)
 

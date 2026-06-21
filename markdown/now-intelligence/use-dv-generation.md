@@ -2,6 +2,7 @@
 title: Use Analytics Generation
 description: In the Now Assist panel, request generative AI to create a visualization of data that you want to see. If you are on a dashboard that you can edit, you can add the visualization to that dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/use-dv-generation.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -25,15 +26,15 @@ Role required: now.assist.creator and now\_assist\_panel\_user. You need access 
 
 2.  Open the Now Assist panel.
 
-    ![Control for opening the Now Assist panel.](../image/nowass-open-nowass-panel.png)
+    \[Omitted image "nowass-open-nowass-panel.png"\] Alt text: Control for opening the Now Assist panel.
 
 3.  Select **Create a data visualization**.
 
-    ![Now Assist panel showing option to create a data visualization.](../image/nowass-create-dv.png)
+    \[Omitted image "nowass-create-dv.png"\] Alt text: Now Assist panel showing option to create a data visualization.
 
 4.  Ask for data to see.
 
-    For example, ask "Can I see open incidents by priority?" You then would get a chart of the count of incidents divided across priorities where active=true. You can specify the chart type, too, but not all charts are supported. For more information about what kind of questions you can ask, see [Guidelines and example questions](../concept/example-questions-generating-dv.md) and [Limitations to generating data visualizations](../reference/limitations-generating-dv.md).
+    For example, ask "Can I see open incidents by priority?" You then would get a chart of the count of incidents divided across priorities where active=true. You can specify the chart type, too, but not all charts are supported. For more information about what kind of questions you can ask, see [Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/example-questions-generating-dv.md) and [Limitations to generating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/limitations-generating-dv.md).
 
 5.  To add the visualization to a dashboard, select **Add to dashboard**.
 
@@ -41,13 +42,13 @@ Role required: now.assist.creator and now\_assist\_panel\_user. You need access 
 
 6.  To edit the visualization, select **Edit in visualization designer**.
 
-    If you have the viz\_creator role, you can save the visualization to the Data Visualizations library. For more information, see [Edit a data visualization in the Visualization Designer](../../dashboards/task/edit-dv-ac-center.md).
+    If you have the viz\_creator role, you can save the visualization to the Data Visualizations library. For more information, see [Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/edit-dv-ac-center.md).
 
 7.  You have an optional, iterative process to change the visualization that you see.
 
     1.  Select **Yes** to the question **Would you like to modify the generated visualization?**
 
-        ![Now Assist panel asking if you want to modify the generated visualization.](../image/nowass-mod-gen-query.png)
+        \[Omitted image "nowass-mod-gen-query.png"\] Alt text: Now Assist panel asking if you want to modify the generated visualization.
 
     2.  In answer to the prompt **What would you like to modify**, request one of the following:
 
@@ -62,12 +63,12 @@ Role required: now.assist.creator and now\_assist\_panel\_user. You need access 
 
 You get a generated data visualization. This visualization is inside the Now Assist panel, if it will fit. You have the option to pop it out in that case. If the visualization would not fit, it is popped out by default.
 
-![Result of the query showing a list of indicators.](../image/nowass-dv-list.png "Example of a generated data visualization")
+\[Omitted image "nowass-dv-list.png"\] Alt text: Result of the query showing a list of indicators.
 
--   **[Guidelines and example questions](../concept/example-questions-generating-dv.md)**  
+-   **[Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/example-questions-generating-dv.md)**  
 This section shows guidelines and some typical questions you could ask in the Now Assist panel to generate data visualizations.
--   **[Limitations to generating data visualizations](../reference/limitations-generating-dv.md)**  
+-   **[Limitations to generating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/limitations-generating-dv.md)**  
 While Analytics Generation is designed to handle a wide range of queries and scenarios, certain cases are currently not supported or only partially supported.
 
-**Parent Topic:**[Analytics Generation](../reference/analytics-assist-landing-page.md)
+**Parent Topic:**[Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/analytics-assist-landing-page.md)
 

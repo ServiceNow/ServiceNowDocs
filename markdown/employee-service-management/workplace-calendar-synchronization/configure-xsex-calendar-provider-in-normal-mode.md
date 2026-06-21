@@ -2,6 +2,7 @@
 title: Configure Microsoft Exchange Online calendar provider
 description: Configure Microsoft Exchange Online as a calendar provider in normal mode to synchronize reservations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/configure-xsex-calendar-provider-in-normal-mode.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -17,13 +18,13 @@ Configure Microsoft Exchange Online as a calendar provider in normal mode to syn
 
 ## Before you begin
 
-**Important:** If you do not want to use the default alias provided by the application for the calendar provider, you can create your own connection and credential alias. Refer to [Create your own connection and credential alias for Microsoft Exchange Online](create-own-connection-and-credential-alias-normalmode.md).
+**Important:** If you do not want to use the default alias provided by the application for the calendar provider, you can create your own connection and credential alias. Refer to [Create your own connection and credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.md).
 
-[Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections](create-connection-and-credential-alias-for-msexchange-.md). If you do not want to use the default alias then create your own alias. Refer to [Create your own connection and credential alias for Microsoft Exchange Online](create-own-connection-and-credential-alias-normalmode.md).
+[Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-and-credential-alias-for-msexchange-.md). If you do not want to use the default alias then create your own alias. Refer to [Create your own connection and credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.md).
 
 Ensure that the application scope is set to **Microsoft Exchange Online Spoke**. Otherwise, do the following:
 
-1.  Select the Application scope icon \(![Application scope icon.](../image/application-scope-globe-icon.png)\) on the top-right corner of your Employee Center homepage.
+1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon.\) on the top-right corner of your Employee Center homepage.
 2.  In the drop- down, select the option consisting **Application scope:**.
 3.  In the filter navigator, search and select **Microsoft Exchange Online Spoke**.
 4.  Refresh the page.
@@ -34,7 +35,7 @@ Role required: admin
 
 ## About this task
 
-Configure Microsoft Exchange Online as calendar provider. If you want to specify your own alias, then enable the **Override alias** option. To create your own alias, refer to [Create your own connection and credential alias for Microsoft Exchange Online](create-own-connection-and-credential-alias-normalmode.md).
+Configure Microsoft Exchange Online as calendar provider. If you want to specify your own alias, then enable the **Override alias** option. To create your own alias, refer to [Create your own connection and credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.md).
 
 ## Procedure
 
@@ -146,9 +147,9 @@ The calendar provider is added.
 
 **Warning:** Reservations that are created using calendar providers cannot be edited in the Workplace Reservation Management application.
 
-**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](../concept/create-connection-with-msex-in-normal-mode.md)
+**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
 
-**Previous topic:**[Create your own connection and credential alias for Microsoft Exchange Online](create-own-connection-and-credential-alias-normalmode.md)
+**Previous topic:**[Create your own connection and credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.md)
 
-**Next topic:**[Create a strict mode connection with Microsoft Exchange Online](../concept/strict-mode-configurations-for-connection-with-msex.md)
+**Next topic:**[Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md)
 

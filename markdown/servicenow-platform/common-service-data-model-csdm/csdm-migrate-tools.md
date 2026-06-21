@@ -2,6 +2,7 @@
 title: CSDM migration tools
 description: Migration tools simplify the process of migrating your data to the CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -27,13 +28,13 @@ Navigate to **All** &gt; **Configuration** and then select **CMDB Data Foundatio
 -   The metrics provide visible results of evaluation. Color codes and weighted priority help with planning.
 -   Each metric includes a link to a remediation playbook with background and plays for remediation.
 
-See [Monitor system foundations in the CSDM and the CMDB Data Foundations Dashboards](../../configuration-management/concept/csdm-cmdb-foundations-dashboards.md).
+See [Monitor system foundations in the CSDM and the CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
 ## CSDM Data Foundations dashboard
 
 Navigate to **All** &gt; **Configuration** and then select **CSDM Data Foundations Dashboard**.
 
-The CSDM dashboard focuses on key data elements to support you in implementing the CSDM framework. The reports on each tab display the data metrics that are appropriate for the maturity of your organization's CSDM implementation stage \(foundation, crawl, walk, run, and fly\). See [CSDM Data Foundations dashboard](csdm-data-foundations-dashboard.md).
+The CSDM dashboard focuses on key data elements to support you in implementing the CSDM framework. The reports on each tab display the data metrics that are appropriate for the maturity of your organization's CSDM implementation stage \(foundation, crawl, walk, run, and fly\). See [CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md).
 
-**Parent Topic:**[Migrate existing data to the CSDM framework](../task/migrate.md)
+**Parent Topic:**[Migrate existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/migrate.md)
 

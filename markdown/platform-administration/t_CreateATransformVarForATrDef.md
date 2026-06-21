@@ -2,6 +2,7 @@
 title: Create a transform variable for a transform definition
 description: Transform variables enable an administrator to apply the same definition to different fields in different ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateATransformVarForATrDef.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -44,5 +45,5 @@ Transform variables contain values used by a script to perform a field transform
 6.  Save the choice list variables and return to the transform definition form to create the script.
 
 
-**Parent Topic:**[Default Transform Definitions](../reference/r_DefsIncludedWFieldTransformation.md)
+**Parent Topic:**[Default Transform Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_DefsIncludedWFieldTransformation.md)
 

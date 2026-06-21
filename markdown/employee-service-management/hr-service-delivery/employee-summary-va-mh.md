@@ -2,6 +2,7 @@
 title: Use the Employee Summary Virtual Agent topic in Manager Hub
 description: Activate and use the Employee Summary Virtual Agent topic to access employee contribution summaries, view consolidated profiles, and track employee progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/employee-summary-va-mh.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -44,10 +45,10 @@ Role required: admin
 
 2.  Publish the **Employee Summary** Virtual Agent topic.
 
-    For more information, see [Publish a Virtual Agent topic](https://www.servicenow.com/docs/access?context=publish-virtual-agent-topic&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+    For more information, see .
 
 3.  View the Employee Summary reports topic.
 
-    For more information, see [View employee summary reports](../../td-leader-hub/task/employee-summary-lh.md).
+    For more information, see [View employee summary reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-hrsd/employee-summary-lh.md).
 
 

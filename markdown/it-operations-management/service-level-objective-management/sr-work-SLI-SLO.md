@@ -2,6 +2,7 @@
 title: Working with Reliability metrics
 description: Use the SRM reliability metrics to define service level indicators \(SLI\), service level objectives \(SLO\), and error budget policies to track your service health and take necessary actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.html
 release: xanadu
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -30,15 +31,15 @@ The key features of the SRM metrics are:
 -   Error budget policies
 -   Error budget visualization
 
-Navigate to the **Services** &gt; **Overview** tab to view all associated critical data for Reliability and Error Budget metrics. See [Working with SRM services](../../service-reliability/concept/sr-work-services.md) for more information.
+Navigate to the **Services** &gt; **Overview** tab to view all associated critical data for Reliability and Error Budget metrics. See [Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-services.md) for more information.
 
-**Note:** Scores are only visible when SLIs and SLOs and Error budgets have been created and there are affected. See [Create SLO, SLI, and Error budget policies](../task/sr-create-slo-sli.md) for more detailed information.
+**Note:** Scores are only visible when SLIs and SLOs and Error budgets have been created and there are affected. See [Create SLO, SLI, and Error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) for more detailed information.
 
 ## Reliability metrics tab
 
 Navigate to the **Services** &gt; **Reliability metrics** tab to view the service level objectives \(SLO\) for a service.
 
-![The reliability metrics tab shows a list of the service level objectives for a selected service.](../../service-reliability/image/sr-slo-list-view.png "SRM reliability metrics list view")
+\[Omitted image "sr-slo-list-view.png"\] Alt text: The reliability metrics tab shows a list of the service level objectives for a selected service.
 
 **Note:** Updating the SLO changes the state and results in retiring this SLO record and creating a new copy for accurate monitoring purposes.
 
@@ -82,10 +83,10 @@ Navigate to the **Services** &gt; **Reliability metrics** tab to view the servic
 
 **Note:** Service level objective history \[sn\_sow\_srm\_slo\_history\] and Service level indicator metric \[sn\_sow\_srm\_sli\_metric\] records are archived after one year and destroyed five years after that. Doing this is expected to result in greater performance along with equal longevity data retention. No queries are run against archived tables.
 
--   **[Create SLO, SLI, and Error budget policies](../task/sr-create-slo-sli.md)**  
+-   **[Create SLO, SLI, and Error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)**  
 Create SLO, SLI, and Error budget policies to help you and your team track your service health and take the necessary actions when required.
--   **[Edit a reliability indicator](../task/sr-edit-sli-slo.md)**  
+-   **[Edit a reliability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md)**  
 Update the details of a reliability indicator when required.
 
-**Parent Topic:**[Using SLO Management](../task/using-service-level-objective-management.md)
+**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

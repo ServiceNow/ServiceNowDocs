@@ -2,7 +2,10 @@
 title: Configure close condition
 description: Configure the condition to exclude the chat conversation from auto importing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/configure-close-condition.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ Alternately, to adhere to platform standards, consider adding an active field to
 
 2.  Click **New**.
 
-    ![Configure close condition](../images/configure-close-condition.png)
+    \[Omitted image "configure-close-condition.png"\] Alt text: Configure close condition
 
 3.  On the form, fill in the fields.
 
@@ -46,8 +49,8 @@ Alternately, to adhere to platform standards, consider adding an active field to
 
     **Note:**
 
-    If you are creating a close condition for a new table, ensure to create business rule for close condition. For more information, refer [Configure business rule for close condition](business-rule-close-condition.md).
+    If you are creating a close condition for a new table, ensure to create business rule for close condition. For more information, refer [Configure business rule for close condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/business-rule-close-condition.md).
 
 
-**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](../concept/auto-import-messages.md)
+**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/auto-import-messages.md)
 

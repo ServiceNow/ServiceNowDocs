@@ -2,6 +2,7 @@
 title: Microsoft Azure Log Analytics data input configuration fields
 description: Description of the fields on the Microsoft Azure Log Analytics data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-data-input-azure-ref.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -84,7 +85,7 @@ The MID Server cluster to which the log data is pulled.The data input runs on a 
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   The default maximum number of data inputs streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs running on it, even when that MID Server is down.
 
-For more information about MID Server clusters, see [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).This field is required.
+For more information about MID Server clusters, see Configure a MID Server cluster.This field is required.
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data.**Note:** If no relevant service instance exists, [Create an service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data.**Note:** If no relevant service instance exists, Create an service instance and add CIs to it. Set the status of the new service instance to Operational.
 
 This field is required.
 
@@ -308,5 +309,5 @@ The Customer ID used to call the Microsoft Azure Log Analytics REST API.
 |Polling interval|The interval, in seconds, to wait before polling for new events.|0|
 |Drop if queue is full|Option for selecting to discard logs if there is a load on the MID Server.|False|
 
-**Parent Topic:**[Configure data inputs \(Microsoft Azure Log Analytics\)](../task/hla-data-input-azure.md)
+**Parent Topic:**[Configure data inputs \(Microsoft Azure Log Analytics\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-azure.md)
 

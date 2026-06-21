@@ -2,6 +2,7 @@
 title: Verify the SIG Questionnaire Integration in Third-party Risk Management
 description: After installing SIG Questionnaire Integration, verify that the SIG questionnaire templates are available within the Third-party Risk Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-common-functions/verify-grc-sig-vendor-risk.html
 release: xanadu
 product: GRC Common Functions
 classification: grc-common-functions
@@ -29,5 +30,5 @@ Role required: Third-party Risk Manager \(sn\_vdr\_risk\_asmt.vendor\_risk\_mana
     -   SIG Core 2025, 2024, 2023, 2022, and 2021
     -   SIG Lite 2025, 2024, 2023, 2022, and 2021
 
-**Parent Topic:**[Standardized Information Gathering \(SIG\) Questionnaire Integration](../concept/grc-sig-integration.md)
+**Parent Topic:**[Standardized Information Gathering \(SIG\) Questionnaire Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/grc-sig-integration.md)
 

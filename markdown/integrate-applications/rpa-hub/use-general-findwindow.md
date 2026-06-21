@@ -2,6 +2,7 @@
 title: Use the Find Window component
 description: Set the focus back on various windows that are inactive or running in the background as part of a Robotic Process Automation workflow in the RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-general-findwindow.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -23,7 +24,7 @@ Role required: none
 
 The Find Window component identifies one or more rules associated with a Window and later uses the rules to set the focus back on the window. The component also returns the window handle of the window.
 
-You can configure the properties for the Find Window component. For more information about these properties, see [Properties of the General components](../reference/Properties-general-components.md).
+You can configure the properties for the Find Window component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/Properties-general-components.md).
 
 ## Procedure
 
@@ -31,11 +32,11 @@ You can configure the properties for the Find Window component. For more informa
 
 2.  Drag the Find Window component to the Design surface.
 
-3.  Click the component settings icon \(![Component settings icon](../image/component-settings-icon.png)\).
+3.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon\).
 
-4.  Click and drag the capture window icon \(![Capture window icon.](../image/drag-window.png)\) and drop it on the window that you want to find.
+4.  Click and drag the capture window icon \(\[Omitted image "drag-window.png"\] Alt text: Capture window icon.\) and drop it on the window that you want to find.
 
-    The POTENTIAL MATCH RULES window shows the rules matching the window.![Rules matching a window](../image/find-window.png)
+    The POTENTIAL MATCH RULES window shows the rules matching the window.\[Omitted image "find-window.png"\] Alt text: Rules matching a window
 
 5.  Select a rule by clicking the rule.
 
@@ -58,5 +59,5 @@ You can configure the properties for the Find Window component. For more informa
 9.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/general-component.md)
 

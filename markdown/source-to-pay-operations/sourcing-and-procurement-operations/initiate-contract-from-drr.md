@@ -2,6 +2,7 @@
 title: Initiate a contract request from Dynamic Related Records \(DRR\)
 description: Initiate a contract request for purchase requisitions, sourcing requests, negotiations, or sourcing events from the Dynamic Related Records \(DRR\) section.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-drr.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -40,5 +41,5 @@ Role required: admin
 7.  Select **Initiate**.
 
 
-**Parent Topic:**[Initiate a contract request](initiate-contract-request.md)
+**Parent Topic:**[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-request.md)
 

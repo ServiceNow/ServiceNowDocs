@@ -2,6 +2,7 @@
 title: Risk assessment flow when Third-party Risk Due Diligence is installed
 description: If you have installed both the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] and GRC: Third-party Risk Due Diligence \[com.sn\_tprm\_onboarding\] plugins, the Perform risk assessment playbook triggers the flow that includes activities to create a due diligence request, complete Inherent Risk Questionnaire \(IRQ\) assessments, and conduct risk assessments for a third-party and an engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-slo-tprm.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,13 +16,13 @@ breadcrumb: [Perform risk assessment playbook, Create a supplier from the Source
 
 If you have installed both the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] and GRC: Third-party Risk Due Diligence \[com.sn\_tprm\_onboarding\] plugins, the Perform risk assessment playbook triggers the flow that includes activities to create a due diligence request, complete Inherent Risk Questionnaire \(IRQ\) assessments, and conduct risk assessments for a third-party and an engagement.
 
-![Risk assessment flow with due diligence.](../image/risk-flow-slo-tprmdd.png "Risk assessment flow when Third-party Risk Due Diligence is installed")
+\[Omitted image "risk-flow-slo-tprmdd.png"\] Alt text: Risk assessment flow with due diligence.
 
 In this flow, the following occurs:
 
 1.  The supplier manager receives a supplier onboarding request.
-2.  The supplier manager uses the onboarding playbook, which provides a streamlined and guided process to onboard suppliers. For more information, see [Using the supplier onboarding playbook to onboard suppliers](use-playbooks-onboard-supp.md#).
-3.  The supplier manager submits a due diligence request. For more information about the fields in this activity, see [Request due diligence for a third-party engagement](https://www.servicenow.com/docs/access?context=tprm-ws-request-dd-for-engagement&version=xanadu&pubname=xanadu-governance-risk-compliance&ft:locale=en-US).
+2.  The supplier manager uses the onboarding playbook, which provides a streamlined and guided process to onboard suppliers. For more information, see [Using the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
+3.  The supplier manager submits a due diligence request. For more information about the fields in this activity, see .
 
     The supplier manager must fill in the details and assign the due diligence request to the TPR manager.
 
@@ -37,11 +38,11 @@ In this flow, the following occurs:
 
     After the case is closed, you can continue with completing the activities in the Activation stage.
 
-    For more information about the due diligence workflow, see [Due diligence workflow](https://www.servicenow.com/docs/access?context=tprm-workflow-in-workspace&version=xanadu&pubname=xanadu-governance-risk-compliance&ft:locale=en-US).
+    For more information about the due diligence workflow, see .
 
 
--   **[Playbook stages and activities when Third-party Risk Due Diligence is installed](risk-flow-tprmdd-stages.md)**  
+-   **[Playbook stages and activities when Third-party Risk Due Diligence is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-tprmdd-stages.md)**  
 The following table lists the Perform risk assessment playbook stages and activities when Third-party risk Due Diligence is installed.
 
-**Parent Topic:**[Perform risk assessment playbook](perform-risk-playbook.md)
+**Parent Topic:**[Perform risk assessment playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/perform-risk-playbook.md)
 

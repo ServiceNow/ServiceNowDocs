@@ -2,6 +2,7 @@
 title: Computer telephony integration \(CTI\) for HR Service Delivery Agent Workspace
 description: Computer Telephony Integration \(CTI\) allows HR Service Delivery Agent Workspace to support inbound and outbound telephone calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-cti.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

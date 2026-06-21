@@ -2,6 +2,7 @@
 title: Suspend and resume an HR case
 description: If you are unable to close the HR case within the duration specified in the service level agreement \(SLA\), you can suspend the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/t\_SuspendAndResumeAnHRCase.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,7 +44,7 @@ For example, to contact a vendor, such as the insurance administrator or payroll
 
 4.  In the **Work Note** field, enter information about why the case is suspended.
 
-    **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
 
 5.  Click **Suspend**.
 
@@ -54,5 +55,5 @@ For example, to contact a vendor, such as the insurance administrator or payroll
     The SLA progress is resumed.
 
 
-**Parent Topic:**[HR Case Management](../concept/c_HRCaseManagement.md)
+**Parent Topic:**[HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

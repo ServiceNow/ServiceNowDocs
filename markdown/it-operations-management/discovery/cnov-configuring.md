@@ -2,6 +2,7 @@
 title: Configuring Agent Client Collector for Kubernetes – Visibility
 description: Set up Agent Client Collector for Kubernetes – Visibility by performing the described procedures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-configuring.html
 release: xanadu
 product: Discovery
 classification: discovery

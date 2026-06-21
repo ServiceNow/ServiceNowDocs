@@ -2,6 +2,7 @@
 title: Analytics and reporting for Configuration Compliance
 description: The following reports are provided for monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-pa-cc.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -25,12 +26,12 @@ View policies, CIs, tests, and test results on the Configuration Compliance Over
 |Group Rules|Remediation Task Rules|
 |Policy|Test group|
 
--   **[Configuration Compliance reporting](vuln-config-compl-overview.md)**  
+-   **[Configuration Compliance reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-overview.md)**  
 The Configuration Compliance homepage provides an executive view into policies, CIs, tests, and test results, helping security staff pinpoint areas of concern quickly. Configuration Compliance significance charts can be added, as needed. You can also return Configuration Compliance -related information using the global search feature.
--   **[Configuration Compliance dashboard](../../../use/application-content-packs/concept/cc-content-pack.md)**  
+-   **[Configuration Compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-content-pack.md)**  
 This Platform Analytics Solution contains prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides visibility into non-compliant host level and cloud control plane configurations.
--   **[Aggregated reports framework for Configuration Compliance](vr-common-content-pack-cc.md)**  
+-   **[Aggregated reports framework for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vr-common-content-pack-cc.md)**  
 Using aggregated reports framework, you can create reports for the data that involves complex and long-running on-the-fly queries for better performance.
 
-**Parent Topic:**[Configuration Compliance](../reference/vr-config-compliance-landing.md)
+**Parent Topic:**[Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vr-config-compliance-landing.md)
 

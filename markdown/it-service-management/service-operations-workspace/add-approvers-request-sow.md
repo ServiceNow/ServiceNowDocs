@@ -2,6 +2,7 @@
 title: Add approvers to approve a request in SOW
 description: Assign one or more approvers to the request or requested items to expedite the process and ensure that the user's request is handled quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/add-approvers-request-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -40,5 +41,5 @@ Role required: sn\_request\_write, admin
 8.  Select **Add**.
 
 
-**Parent Topic:**[Request Management in Service Operations Workspace](../concept/request-sow.md)
+**Parent Topic:**[Request Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/request-sow.md)
 

@@ -2,6 +2,7 @@
 title: Drill down within benchmark KPI data \(deprecated\)
 description: You can drill down within benchmark KPI data for further analysis within Performance Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/benchmarks/t\_ViewBenchKPIIndScore.html
 release: xanadu
 product: Benchmarks
 classification: benchmarks
@@ -35,8 +36,8 @@ You can drill down on a benchmark value from the KPI performance trends chart to
 
 3.  To drill down further into the Performance Analytics scorecard, click a value in your benchmark data on the performance trends chart.
 
-    **Note:** For additional analysis on **Chart**, **Scores**, **Comments**, or **More info**, see [Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+    **Note:** For additional analysis on **Chart**, **Scores**, **Comments**, or **More info**, see Performance Analytics.
 
 
-**Parent Topic:**[Deprecated Benchmarks dashboard](../concept/c_BenchDashboard.md)
+**Parent Topic:**[Deprecated Benchmarks dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/benchmarks/c_BenchDashboard.md)
 

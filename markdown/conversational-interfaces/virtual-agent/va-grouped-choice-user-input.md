@@ -2,6 +2,7 @@
 title: Grouped Choice user input control
 description: Use the Grouped Choice user input control in a Virtual Agent topic to list multiple groups of choices in one message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-grouped-choice-user-input.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +20,7 @@ Use the Grouped Choice user input control in a Virtual Agent topic to list multi
 
 The Grouped Choice list prompts users to select related choices in one message through the default **Select a choice** button. You can enable multi-select for each choice's group and also provide images and short descriptions to create a richer user experience. Users are presented with groups of choices where they're required to submit one selection before returning to the Virtual Agent topic.
 
-Inputs are recorded on the Interactions \[interactions\] table. For more information, see [Virtual Agent interaction records](../concept/va-interactions.md).
+Inputs are recorded on the Interactions \[interactions\] table. For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-interactions.md).
 
 ## Grouped Choice user input control properties
 
@@ -202,19 +203,19 @@ List prompt
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties include the node name, prompt, and the list of possible choices.](../images/va-grouped-choice-properties-sheet.png "Grouped choice input control basic properties")
+\[Omitted image "va-grouped-choice-properties-sheet.png"\] Alt text: Basic properties include the node name, prompt, and the list of possible choices.
 
  
 
-![Group choice properties include an internal name and the way this group should display to the user. Each choice consists of a name, value, image, and description.](../images/va-grouped-choice-dialog-box.png)
+\[Omitted image "va-grouped-choice-dialog-box.png"\] Alt text: Group choice properties include an internal name and the way this group should display to the user. Each choice consists of a name, value, image, and description.
 
 </td><td>
 
-![A chat window displays the default "Select a choice" button. The list of choices appears when the user selects it.](../images/va-grouped-choice-default-button.png "Web UI Grouped Choice list default prompt")
+\[Omitted image "va-grouped-choice-default-button.png"\] Alt text: A chat window displays the default "Select a choice" button. The list of choices appears when the user selects it.
 
- ![A chat window displays a custom button. It reads, "Select flight information" and includes a photo of an airplane.](../images/va-grouped-choice-customized-button.png "Web UI Grouped Choice list with customized title and image")
+ \[Omitted image "va-grouped-choice-customized-button.png"\] Alt text: A chat window displays a custom button. It reads, "Select flight information" and includes a photo of an airplane.
 
- ![An example list of choices. The first prompts the user to select the class type for their flight. The second asks the user to select a meal type.](../images/va-grouped-choice-user-example.png "Web UI Grouped Choice list")
+ \[Omitted image "va-grouped-choice-user-example.png"\] Alt text: An example list of choices. The first prompts the user to select the class type for their flight. The second asks the user to select a meal type.
 
 </td></tr></tbody>
 </table>## Channel support
@@ -234,5 +235,5 @@ List prompt
 |Apple Messages for Business|Not supported|Not applicable|
 |Alexa \(Voice\)|Not supported|Not applicable|
 
-**Parent Topic:**[Virtual Agent Designer user input controls](va-user-inputs.md)
+**Parent Topic:**[Virtual Agent Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

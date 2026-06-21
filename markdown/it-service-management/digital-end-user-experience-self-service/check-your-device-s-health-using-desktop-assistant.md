@@ -2,6 +2,7 @@
 title: Check your device's health using Desktop Assistant
 description: Use DEX Self-service capability to check your device health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.html
 release: xanadu
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -27,11 +28,11 @@ The Device health check appears as a widget, which allows you to check the devic
 
 1.  Open **Desktop Assistant** page.
 
-    To know more, see [Open Desktop Assistant](open-desktop-exp.md).
+    To know more, see [Open Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/open-desktop-exp.md).
 
 2.  On the  **Desktop Assistant** home page, select the  **Device health check ** card.
 
-    ![Device_health_check_home_page](../image/DA_Home.png)
+    \[Omitted image "DA\_Home.png"\] Alt text: Device\_health\_check\_home\_page
 
 3.  Select the device for which you want to see the health.
 
@@ -41,23 +42,23 @@ The Device health check appears as a widget, which allows you to check the devic
 
 4.  To check the device performance, select the **Diagnose** tab.
 
-    ![Diagnose_tab_in_Device_health_check_home_page](../image/DA_categories.png)
+    \[Omitted image "DA\_categories.png"\] Alt text: Diagnose\_tab\_in\_Device\_health\_check\_home\_page
 
 5.  Select the poor performing categories in the **Diagnose** tab.
 
-    The issues and the resolutions to resolve the issues appear.![Issues_and_resolutions_to_improve_the_device_health](../image/DA_issues.png)
+    The issues and the resolutions to resolve the issues appear.\[Omitted image "DA\_issues.png"\] Alt text: Issues\_and\_resolutions\_to\_improve\_the\_device\_health
 
 6.  View and use the resolution to improve the category.
 
     **Note:**
 
-    -   The resolution can be remedial action button, a Self-help instruction, or an URL. For more information, see [Resolution for Proactive Engagement](../../proactive-engagement/reference/resolutions.md).
+    -   The resolution can be remedial action button, a Self-help instruction, or an URL. For more information, see [Resolution for Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/proactive-engagement/resolutions.md).
     -   If a remedial action has already been triggered in the last 24 hours either from the **Diagnose** or **Device actions** tab, the remedial action button will be disabled. It will be reactivated after 24hours post action trigger.
     For resolutions of type remedial action, if the resolution is successful \(if there is improvement in evaluation metric\) or for resolution of type URL, self-help instructions, a feedback question appears. You can select **Yes** or **No** to confirm if this process was helpful is resolving the issue.
 
     In case the answer is **No**, the fallback option to open an IT ticket appears based on configuration. After you open a ticket, the ticket Id is visible for employees to access the details and status of the ticket. For resolutions of type remedial action, If the resolution fails, then automatically the fallback option to open an IT ticket appears based on configuration. After you open a ticket, the ticket Id is visible for employees to access the details and status of the ticket.
 
-7.  To trigger any device actions independent of the device performance, select the **Device actions** tab.![Device_actions_tab_in_Device_health_check_home_page](../image/DA_Device_actions.png)
+7.  To trigger any device actions independent of the device performance, select the **Device actions** tab.\[Omitted image "DA\_Device\_actions.png"\] Alt text: Device\_actions\_tab\_in\_Device\_health\_check\_home\_page
 
     **Note:**
 

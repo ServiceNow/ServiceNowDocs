@@ -2,6 +2,7 @@
 title: Generate search results by using Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\)
 description: Generate actionable search results from knowledge article results in Legal Counsel Center, Employee Center, and global search by using Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-use-genius-result.html
 release: xanadu
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -19,9 +20,9 @@ Generate actionable search results from knowledge article results in Legal Couns
 
 For Legal Counsel Center, Q&amp;A Genius Results is activated by default when you install and activate AI Search and Now Assist for Legal Service Delivery \(LSD\).
 
-For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://www.servicenow.com/docs/access?context=enabling-now-assist-qa-grs&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and [Enable Now Assist genius results](../../employee-center/task/na-qa-activate.md).
+For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see  and [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/na-qa-activate.md).
 
-For more information on the other supported search engines, see [Search in Legal Service Delivery](../concept/lsd-search-overview.md).
+For more information on the other supported search engines, see [Search in Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/lsd-search-overview.md).
 
 Role required:
 
@@ -46,7 +47,7 @@ Role required:
 
 With your search results, you also see an answer card with a topic snippet and an answer snippet extracted from a single knowledge article. You can view the full article directly from the answer card.
 
-![Q&A Genius Results in Legal Counsel Center.](../image/lsd-na-genius-result.png)
+\[Omitted image "lsd-na-genius-result.png"\] Alt text: Q&amp;A Genius Results in Legal Counsel Center.
 
-**Parent Topic:**[Using Now Assist for Legal Service Delivery \(LSD\)](../concept/now-assist-lsd-using.md)
+**Parent Topic:**[Using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-using.md)
 

@@ -2,6 +2,7 @@
 title: Create a data lineage for a processing activity
 description: Establish a data lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a data lineage or hierarchy that tracks where personal data is shared. This understanding helps mitigate privacy-related risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -105,10 +106,10 @@ Brief description of the relationship.
 
     The relationship node is created.
 
-8.  To view the inflow and outflow of data for a particular record, select the ![Recenter nodemap](../image/recenter-nodemap.jpg) icon.
+8.  To view the inflow and outflow of data for a particular record, select the \[Omitted image "recenter-nodemap.jpg"\] Alt text: Recenter nodemap icon.
 
-9.  To view the details of the processing activity and the entity if a processing activity is associated with the selected record, select the ![Details](../image/details-icon.jpg) icon.
+9.  To view the details of the processing activity and the entity if a processing activity is associated with the selected record, select the \[Omitted image "details-icon.jpg"\] Alt text: Details icon.
 
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

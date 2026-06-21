@@ -2,6 +2,7 @@
 title: Exploring Manufacturing Commercial Operations
 description: Learn how the  Manufacturing Commercial Operations solution can help your organization speed up revenue and create differentiated customer and channel experiences while reducing operations costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/manufacturing-explore.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ With Manufacturing Commercial Operations applications combined with ServiceNow w
 
 To support end-to-end operations, Manufacturing Commercial Operations provides the following features, capabilities and applications.
 
-![Manufacturing Commercial Operations graphic](../image/mco-visual-exploring.png)
+\[Omitted image "mco-visual-exploring.png"\] Alt text: Manufacturing Commercial Operations graphic
 
 -   **Manage an entire manufacturing ecosystem in real-time**
 

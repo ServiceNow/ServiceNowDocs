@@ -2,6 +2,7 @@
 title: Guided setup
 description: Use guided setup to step through the initial configuration of any product or application that provides a Guided Setup module. Guided setup assists you with planning the roll-out of the product and performing the basic configuration to go live.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/guided-setup.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services
@@ -25,7 +26,7 @@ The home page for guided setup contains an overview of configuration types for y
 
 ## Guided setup categories page
 
-![guided setup categories page.](../image/guided-setup-categories-new.png)
+\[Omitted image "guided-setup-categories-new.png"\] Alt text: guided setup categories page.
 
 The categories page contains an overview and descriptions of the categories and associated tasks. You can click either the drop down arrow to view information about the category or the **Start** button to open the guided setup steps and begin configuration.
 
@@ -53,7 +54,7 @@ The categories page contains an overview and descriptions of the categories and 
 
 ## Guided setup task page
 
-![guided setup task page.](../image/guided-setup-task-new.png)'
+\[Omitted image "guided-setup-task-new.png"\] Alt text: guided setup task page.'
 
 To perform a task click on one of the tasks listed and check the **Mark as complete** checkbox once completed.
 
@@ -65,7 +66,7 @@ Other actions you can take include:
 
     **Note:** It may be necessary to mark a task as complete to move on to the next task.
 
--   **Embedded Help** Click ![help icon.](../image/help-icon-new.png) for more information about the task.
+-   **Embedded Help** Click \[Omitted image "help-icon-new.png"\] Alt text: help icon. for more information about the task.
 
 ## Other guided setup features
 

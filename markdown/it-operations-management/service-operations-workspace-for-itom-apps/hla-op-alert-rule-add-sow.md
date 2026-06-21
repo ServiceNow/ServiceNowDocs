@@ -2,6 +2,7 @@
 title: Add a Log Analytics alert rule
 description: Define a Log Analytics alert rule when you encounter log data that should generate an alert. The alert rule generates an alert for a specified metric with a threshold that you specify and sets the properties of the generated alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-rule-add-sow.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,11 +24,11 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 1.  Open the **Log viewer** using one of the following methods:
 
-    -   Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the Log Viewer icon \(![Log viewer icon.](../image/icon-log-viewer-sow.png)\).
+    -   Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the Log Viewer icon \(\[Omitted image "icon-log-viewer-sow.png"\] Alt text: Log viewer icon.\).
     -   While viewing log entries for an alert on the **Surrounding logs** tab, select **Log viewer**.
 2.  Define and run a search.
 
-    For more information, see [Define, save, and share a search of log data](hla-op-search-queries-manage-sow.md).
+    For more information, see [Define, save, and share a search of log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md).
 
 3.  When a search returns log data that should generate an alert, click **Save** or **Save as** to save the search.
 
@@ -83,7 +84,7 @@ Component
 
 </td><td>
 
-The component to which this alert rule applies.By default, this is the component that was defined on the Log viewer. You can choose a different component by selecting the search icon \(![Search icon.](../image/icon-search-sow.png)\) in the Component row and then selecting the required component from the list.
+The component to which this alert rule applies.By default, this is the component that was defined on the Log viewer. You can choose a different component by selecting the search icon \(\[Omitted image "icon-search-sow.png"\] Alt text: Search icon.\) in the Component row and then selecting the required component from the list.
 
 </td></tr></tbody>
 </table>9.  Fill in the fields related to the threshold that will trigger the alert rule.
@@ -99,5 +100,5 @@ The component to which this alert rule applies.By default, this is the component
 10. Select **Save**.
 
 
-**Parent Topic:**[Adding, changing, or deleting Log Analytics alert rules](../../service-operations-workspace-itom/concept/hla-alert-rules-manage-sow-itom.md)
+**Parent Topic:**[Adding, changing, or deleting Log Analytics alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-alert-rules-manage-sow-itom.md)
 

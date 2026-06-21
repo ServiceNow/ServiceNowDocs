@@ -2,11 +2,12 @@
 title: Configure rate limiting for providers
 description: Configure rate limiting to control the traffic flow to the one\_extend request by restricting the number of requests that can be made within a certain time frame.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/configure-rate-limit.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
 ---

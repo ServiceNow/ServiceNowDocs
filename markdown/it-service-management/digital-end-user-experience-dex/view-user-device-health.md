@@ -2,6 +2,7 @@
 title: View the details of a user device
 description: View the health of a device to get an overview of its status and identify any potential issues. You can use this information to optimize the device's performance and ensure that it continues to function efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/view-user-device-health.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -23,12 +24,12 @@ Role required: sn\_dex.user or ITIL
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and from the left pane, select the Users icon \(![The Users icon.](../image/icon-users.png)\).
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and from the left pane, select the Users icon \(\[Omitted image "icon-users.png"\] Alt text: The Users icon.\).
 
 2.  Select the user name whose device health information you want to view.
 
 3.  From the **Device** drop-down list, select the device for which you want to get details.
 
-    For more information on metrics, see [Device health](../concept/users-health.md).
+    For more information on metrics, see [Device health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/users-health.md).
 
 

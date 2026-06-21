@@ -2,7 +2,10 @@
 title: Raise a request using the ServiceNow Add-in for Microsoft 365
 description: Open a relevant catalog item or form to raise a request with pre-filled information from your email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/raise-request-addin-ms365.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-10"
 reading_time_minutes: 1
@@ -36,5 +39,5 @@ Role required: None
 4.  Fill in the form or the catalog item request, then select **Submit**.
 
 
-**Parent Topic:**[Using ServiceNow Add-in for Microsoft 365](../concept/using-sn-addin-for-ms365.md)
+**Parent Topic:**[Using ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/using-sn-addin-for-ms365.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Financial Services Complaint Management
 description: Several types of components are installed with installation of the Financial Services Complaint Management application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-complaint-management/installed-with-fso-complaints-mgmt.html
 release: xanadu
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -15,7 +16,7 @@ breadcrumb: [Financial Services Complaint Management reference, Financial Servic
 
 Several types of components are installed with installation of the Financial Services Complaint Management application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they are not already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Plugins installed
 
@@ -41,7 +42,7 @@ Enables the extension of tables from the Customer Service Management application
 |Store application|Description|
 |-----------------|-----------|
 |Financial Services Operations Core|Stores the customer data that is needed to make complaint service requests. For more information, see .|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://www.servicenow.com/docs/access?context=customer-service-case-playbooks&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
 
 ## Roles installed
 
@@ -101,7 +102,7 @@ Complaint contributor\[sn\_bom\_compl.contributor\]
 -   Submit complaint service requests
 -   Work on complaint cases and tasks for accounts managed by them until the Initiate and Review stage
 
- **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+ **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -120,7 +121,7 @@ Complaint agent connector\[sn\_bom\_compl.agent\_connector\]
 -   Submit complaint service requests
 -   Work on complaint cases and tasks to resolve complaints for accounts managed by them.
 
- **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+ **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 </td><td>
 

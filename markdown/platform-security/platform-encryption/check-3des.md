@@ -2,6 +2,7 @@
 title: Prepare your instance for GlideEncrypter deprecation
 description: Use an instance scan script to find and remove GlideEncrypter API calls on your instance. Removing these calls is a necessary step in deprecating 3DES encryption on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/platform-encryption/check-3des.html
 release: xanadu
 product: Platform Encryption
 classification: platform-encryption
@@ -33,7 +34,7 @@ The GlideEncrypter API is planned for deprecation as of the Zurich release of Se
 
 4.  In the **Column Type Check** record, select **Test Check** to run the scan.
 
-    During the scan execution a **Execute Test Scan**, a window displays the progress of the scan.![Scan progress window](../image/scan-progress.png)
+    During the scan execution a **Execute Test Scan**, a window displays the progress of the scan.\[Omitted image "scan-progress.png"\] Alt text: Scan progress window
 
     **Note:** This scan checks only records that have been created or modified by the customer.
 
@@ -51,12 +52,12 @@ The GlideEncrypter API is planned for deprecation as of the Zurich release of Se
 
 8.  After removing **GlideEncrypter** calls from your scripts, run the scan again to ensure that there are no remaining calls to the API.
 
-    ![Completed scan with no errors, warnings, or findings](../image/scan-progress-2.png)
+    \[Omitted image "scan-progress-2.png"\] Alt text: Completed scan with no errors, warnings, or findings
 
 
 ## What to do next
 
-[Deprecate GlideEncrypter usage of 3DES for password2 fields](../concept/password2-3des-deprecation.md)
+[Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/platform-encryption/password2-3des-deprecation.md)
 
-**Parent Topic:**[Key Management Framework](../../encryption/concept/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/encryption.md)
 

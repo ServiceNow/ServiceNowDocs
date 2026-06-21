@@ -2,6 +2,7 @@
 title: Execute a point scan
 description: Execute all applicable checks against a single record, update set or an application by selecting Run Point Scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-execute-point-scan.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan

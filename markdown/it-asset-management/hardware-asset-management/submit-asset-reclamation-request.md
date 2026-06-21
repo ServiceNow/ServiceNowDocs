@@ -2,6 +2,7 @@
 title: Submit an asset reclamation request
 description: Use Reclaim Asset catalog item to efficiently reclaim hardware assets when an employee leaves an organization or moves to a different role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/submit-asset-reclamation-request.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -101,5 +102,5 @@ Any instructions if you want to mention.
     An Asset Reclamation Request is created.
 
 
-**Parent Topic:**[Reclaim hardware assets](../concept/manage-asset-reclaim.md)
+**Parent Topic:**[Reclaim hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/manage-asset-reclaim.md)
 

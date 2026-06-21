@@ -2,7 +2,10 @@
 title: View events in the Mobile Agent
 description: View events in the Mobile Agent to stay updated on your schedule, and any events planned for the day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-event-mobile-agent-app.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -26,5 +29,5 @@ Role required: wm\_agent
 3.  Tap the event to view it.
 
 
-**Parent Topic:**[Manage events with the Mobile Agent](../concept/events-now-mobile-application.md)
+**Parent Topic:**[Manage events with the Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/events-now-mobile-application.md)
 

@@ -2,6 +2,7 @@
 title: Configure API credentials for Google AI Studio
 description: Configure your API credentials to use Google AI Studio in custom workflows and Virtual Agent Designer topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-google-makersuite.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -33,7 +34,7 @@ In order to use Google AI Studio as your LLM provider for Generative AI Controll
 
 3.  Select the **Create New Connection &amp; Credential** related link.
 
-    ![Create New Connection & Credential related link highlighted on the screen.](../image/gai-create-new-connection-makersuite.png)
+    \[Omitted image "gai-create-new-connection-makersuite.png"\] Alt text: Create New Connection &amp; Credential related link highlighted on the screen.
 
 4.  Enter your API key.
 
@@ -46,9 +47,9 @@ In order to use Google AI Studio as your LLM provider for Generative AI Controll
 
 You can now use AI Studio \(Google Cloud Chat Completion\) and AI Studio \(Google Cloud Chat Completion\) in Flow Designer, Virtual Agent Designer, and scripts to create custom experiences with generative AI.
 
-![Complete connection for Google AI Studio.](../image/gai-created-connection-makersuite.png)
+\[Omitted image "gai-created-connection-makersuite.png"\] Alt text: Complete connection for Google AI Studio.
 
 ## What to do next
 
-Use your LLM provider to [create flows](use-generative-ai-controller-with-flow-designer.md) with Flow Designer, [topics](use-generative-ai-controller-with-virtual-agent-designer.md) with Virtual Agent Designer, or [scripts](script-with-generative-ai.md) to provide the benefits of generative AI to your users.
+Use your LLM provider to [create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/use-generative-ai-controller-with-flow-designer.md) with Flow Designer, [topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/use-generative-ai-controller-with-virtual-agent-designer.md) with Virtual Agent Designer, or [scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/script-with-generative-ai.md) to provide the benefits of generative AI to your users.
 

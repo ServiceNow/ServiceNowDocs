@@ -2,6 +2,7 @@
 title: DEX system tables for remedial actions
 description: Definitions for any remedial action are predetermined based on the rules and criteria that store configuration settings for remedial actions. Each execution of the remedial action is maintained in the DEX tables to track the progress of remedial action executions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/dex-sys-table-ra.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

@@ -2,6 +2,7 @@
 title: Change a project version name
 description: Change the name of a project version for easier referencing when viewing and comparing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/edit-version-name.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -25,7 +26,7 @@ Role required: administrator
 
 2.  Select the project, which has a version whose name you want edit.
 
-3.  Select the ellipsis \(![](../image/po-ellipsis-purple.png)\) menu on in the upper right corner of the screen, and choose **Edit Versions**.
+3.  Select the ellipsis \(\[Omitted image "po-ellipsis-purple.png"\] Alt text:\) menu on in the upper right corner of the screen, and choose **Edit Versions**.
 
 4.  In the **Edit Versions** list, select the version to change by selecting the name.
 
@@ -34,5 +35,5 @@ Role required: administrator
 6.  Select **Save**.
 
 
-**Parent Topic:**[Comparing projects](comparing-models.md)
+**Parent Topic:**[Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/comparing-models.md)
 

@@ -2,6 +2,7 @@
 title: Kafka SSL credentials fields
 description: Description of the fields on the Kafka SSL credentials form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -140,5 +141,5 @@ Additional Kafka consumer properties
 Semicolon-separated string of additional Kafka consumer properties. For example: ssl.protocol=TLSv1.2;ssl.enabled.protocols=TLSv1.2,TLSv1.1
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure data inputs \(Apache Kafka\)](../task/hla-data-input-kafka.md)
+</table>**Parent Topic:**[Configure data inputs \(Apache Kafka\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-kafka.md)
 

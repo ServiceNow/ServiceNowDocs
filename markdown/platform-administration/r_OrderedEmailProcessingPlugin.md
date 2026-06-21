@@ -2,6 +2,7 @@
 title: Specifying the inbound email processing order
 description: You can configure a processing order for inbound email actions and use the order to manage multiple filters in inbound email actions.Configure the processing order for inbound email actions to force them to run in a prescribed order.Use process ordering and the stop\_processing command to manage multiple filters in inbound email actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_OrderedEmailProcessingPlugin.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ You can configure a processing order for inbound email actions and use the order
 
 The Ordered Email Processing \(com.glide.email\_ordered\_processing\) plugin is enabled by default for new instances. Users with the admin role can activate the plugin for upgraded instances. The plugin adds the **Order** column to the Rules \[sysrule\] table, which the instance uses to determine when to process emails. Admins can also add a command to an action script that halts processing after the script runs.
 
-**Parent Topic:**[Configure inbound email actions](../concept/configure-inbound-email.md)
+**Parent Topic:**[Configure inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configure-inbound-email.md)
 
 ## Configure the processing order
 

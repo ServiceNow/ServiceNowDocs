@@ -2,6 +2,7 @@
 title: Create a VRM third party record
 description: Set up the key data and contact information for a third party that your organization will engage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-ws-third-party-create-new.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -31,7 +32,7 @@ You can import third-party data from a spreadsheet, integrate the data from an o
 
 1.  Use either of the following methods to start the process:
 
-    -   In the Vendor Management Workspace, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Third parties** &gt; **All Third parties**.
+    -   In the Vendor Management Workspace, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Third parties** &gt; **All Third parties**.
     -   Navigate to **All** &gt; **Third-party Risk Management** &gt; **All Third parties**.
 2.  Select **New** and then fill in the fields.
 
@@ -137,7 +138,7 @@ Risk rating
 
 </td><td>
 
-After third-party risk assessment responses have been received, this weighted average of the components \(that is, the risk ratings of assessments, engagements, and subsidiaries\) is calculated. For more information, see [Setting up VRM third-party hierarchies and engagements](../concept/vendor-hierarchy-engagements.md).
+After third-party risk assessment responses have been received, this weighted average of the components \(that is, the risk ratings of assessments, engagements, and subsidiaries\) is calculated. For more information, see [Setting up VRM third-party hierarchies and engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/vendor-hierarchy-engagements.md).
 
 </td></tr><tr><td>
 
@@ -343,7 +344,7 @@ Risk intelligence rating
 
 </td><td>
 
-See [Integrating scores from risk intelligence providers](../concept/tprm-riskintelprvdr-overview.md).
+See [Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md).
 
 </td></tr><tr><td>
 
@@ -372,7 +373,7 @@ If you selected **Override risk rating**, you must enter a reason for the overri
 </td></tr></tbody>
 </table>3.  If Third-party Risk Management is integrated with other GRC applications, or if you set up vendor hierarchies \(that is, third-party risk domains, component criteria, and risk scoring rules\), the form can include some or all of the following related lists.
 
-    For more information, see [Setting up VRM third-party hierarchies and engagements](../concept/vendor-hierarchy-engagements.md).
+    For more information, see [Setting up VRM third-party hierarchies and engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/vendor-hierarchy-engagements.md).
 
     **Note:** Risk domains are called "risk areas" in some platform applications.
 

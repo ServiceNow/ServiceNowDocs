@@ -2,6 +2,7 @@
 title: Integrating Vendor Management Workspace with other ServiceNow applications
 description: Bring in data from other ServiceNow applications to assess the relationship with your vendors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/vendor-management-workspace/vendor-manager-workspace-integrations.html
 release: xanadu
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Configuring Vendor Management Workspace, Vendor Management Workspac
 
 Bring in data from other ServiceNow applications to assess the relationship with your vendors.
 
-The image shows a comprehensive view of all applications that you could integrate with Vendor Management Workspace. ![Vendor Management Workspace integrations](../image/vendor-management-workspace-integrations.png)
+The image shows a comprehensive view of all applications that you could integrate with Vendor Management Workspace. \[Omitted image "vendor-management-workspace-integrations.png"\] Alt text: Vendor Management Workspace integrations
 
 The table provides a description of each application that can be integrated with Vendor Management Workspace.
 

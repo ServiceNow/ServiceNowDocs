@@ -2,6 +2,7 @@
 title: Create a dynamic schema reference
 description: Add a reference field that points to the dynamic schema metadata that you've created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-dynamic-schema-reference.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -27,15 +28,15 @@ Role required: admin
 
 4.  Create a reference to your dynamic schema for a group, multiple groups, category, or multiple categories.
 
-<table id="choicetable_dx5_4lv_gbc"><thead><tr><th align="left" id="d277615e87">
+<table id="choicetable_dx5_4lv_gbc"><thead><tr><th align="left" id="d147581e87">
 
 Reference Type
 
-</th><th align="left" id="d277615e90">
+</th><th align="left" id="d147581e90">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d277615e96">
+</th></tr></thead><tbody><tr><td id="d147581e96">
 
 **Dynamic attribute group reference**
 
@@ -45,7 +46,7 @@ Steps
 2.  Enter a name for the dynamic attribute group that you're referring to in the Column label field.
 
 
-</td></tr><tr><td id="d277615e117">
+</td></tr><tr><td id="d147581e117">
 
 **Dynamic attribute groups reference**
 
@@ -55,7 +56,7 @@ Steps
 2.  Enter a name for the dynamic attribute groups that you're referring to in the Column label field.
 
 
-</td></tr><tr><td id="d277615e138">
+</td></tr><tr><td id="d147581e138">
 
 **Dynamic category reference**
 
@@ -65,7 +66,7 @@ Steps
 2.  Enter a name for the dynamic category that you're referring to in the Column label field.
 
 
-</td></tr><tr><td id="d277615e159">
+</td></tr><tr><td id="d147581e159">
 
 **Dynamic categories**
 
@@ -83,11 +84,11 @@ Steps
 
 ## Add a reference to a dynamic attribute group
 
-![Add a List field that references a dynamic attribute group.](../image/dynamic-schema-reference-example.png)
+\[Omitted image "dynamic-schema-reference-example.png"\] Alt text: Add a List field that references a dynamic attribute group.
 
 ## What to do next
 
-[Create a dynamic attribute store field](create-dynamic-attribute-store-field.md)
+[Create a dynamic attribute store field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-dynamic-attribute-store-field.md)
 
-**Parent Topic:**[Storing dynamic attributes on a record](../concept/storing-dynamic-attributes.md)
+**Parent Topic:**[Storing dynamic attributes on a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/storing-dynamic-attributes.md)
 

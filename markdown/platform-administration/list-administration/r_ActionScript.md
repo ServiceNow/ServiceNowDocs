@@ -2,6 +2,7 @@
 title: Action script for list context menus
 description: The Action script field, on the Context Menu form, defines a script. The script runs when someone selects the context menu option.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/r\_ActionScript.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -36,5 +37,5 @@ Another example is the use of these variables in a list header menu to sort a li
 g_list.sortDescending(g_fieldName);
 ```
 
-**Parent Topic:**[Customize list context menus](../task/t_CreateAContextMenu.md)
+**Parent Topic:**[Customize list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_CreateAContextMenu.md)
 

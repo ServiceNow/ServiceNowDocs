@@ -2,6 +2,7 @@
 title: Configure Case Management for Retail Core
 description: Retail Core users can create retail cases as needed while utilizing case management from Customer Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-configure-case-management.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ Retail Core users can create retail cases as needed while utilizing case managem
 
 Retail Core leverages existing Customer Service Management case management functionality to extend these case types to fit their needs and workflows.
 
-![A retail case for Retail Operations Core.](../image/case.png)
+\[Omitted image "case.png"\] Alt text: A retail case for Retail Operations Core.
 
-For information on how you can further configure case management, see [Configure case management](https://www.servicenow.com/docs/access?context=configure-csm-case-management&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+For information on how you can further configure case management, see .
 

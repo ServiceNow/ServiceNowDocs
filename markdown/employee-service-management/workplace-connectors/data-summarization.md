@@ -2,6 +2,7 @@
 title: Workplace Connectors Data Summarization
 description: Execute the DataSummarization schedule job to retrieve the daily aggregate summary data. When the schedule job runs, it collects the data from target table and MetricBase and stores the daily aggregate data into the respective summary table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-connectors/data-summarization.html
 release: xanadu
 product: Workplace Connectors
 classification: workplace-connectors
@@ -15,7 +16,7 @@ breadcrumb: [Workplace Connectors references, Workplace Connectors, Workplace Se
 
 Execute the DataSummarization schedule job to retrieve the daily aggregate summary data. When the schedule job runs, it collects the data from target table and MetricBase and stores the daily aggregate data into the respective summary table.
 
-The MetricBase application stores time series data, which is data that is sampled at regular intervals. The administrator specifies a metric to store and how often to collect it by creating a time-series definition in MetricBase. The time-series data is sent from instance to the MetricBase server using the MetricBase API**.**For more information about MetricBase, see [Defining and collecting MetricBase data](https://www.servicenow.com/docs/access?context=collecting-metricbase-data&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+The MetricBase application stores time series data, which is data that is sampled at regular intervals. The administrator specifies a metric to store and how often to collect it by creating a time-series definition in MetricBase. The time-series data is sent from instance to the MetricBase server using the MetricBase API**.**For more information about MetricBase, see .
 
 Workplace Connectors supports retrieving the time series data from the MetricBase and populates the data into the following summary tables:
 
@@ -28,16 +29,16 @@ Navigate to **All** &gt; **Workplace Connectors** &gt; **Summary** to view the s
 |Environmental Daily Summary Data|The Environmental Daily Summary Data table \(sn\_wsd\_wc\_environmental\_daily\_summary\_data\) displays daily aggregate environment data, including air quality and temperature for a workplace. The **DataSummarization** scheduled job runs daily and loads the daily aggregate summary data into the Environmental Daily Summary Data table. It collects metric data from the target table \(Occupancy and Environment data\) and MetricBase and populates the summary table data.|
 |Environmental Hourly Summary Data|The Environmental Daily Summary Data table \(sn\_wsd\_wc\_environmental\_hourly\_summary\_data\) displays hourly aggregate environment data, including air quality and temperature data for a workplace. The **DataSummarization** scheduled job runs daily and loads the hourly aggregate summary data into the Environmental Hourly Summary Data table. It collects metric data from the target table \(Occupancy and Environment data\) and MetricBase and populates the summary table data.|
 
--   **[Archive and purge summary data tables](../task/archive-and-purge-summary-data.md)**  
+-   **[Archive and purge summary data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/archive-and-purge-summary-data.md)**  
 Use the archive rules and destroy rules to archive and purge the summary data. Archive and purge the Space Occupancy Daily Summary Data \(sn\_wsd\_wc\_space\_occupancy\_daily\_summary\_data\), Environmental Daily Summary Data \(sn\_wsd\_wc\_environmental\_daily\_summary\_data\), Environmental Hourly Summary Data \(sn\_wsd\_wc\_environmental\_hourly\_summary\_data\), Wi-Fi Daily Summary Data \(sn\_wsd\_wc\_wifi\_daily\_summary\_data\) table records.
--   **[Run the DataSummarization on-demand job](../task/run-the-datasummarization-on-demand-job.md)**  
+-   **[Run the DataSummarization on-demand job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/run-the-datasummarization-on-demand-job.md)**  
 Use the ad-hoc OnDemandDataSummarization schedule job to retrieve summary data for the required connector type if the DataSummarization schedule job fails to populate the occupancy, environmental, or Wi-Fi summary reports.
--   **[Migrate event data to new summary tables](../task/migrate-data-from-old-tables-to-new-summary-tables.md)**  
+-   **[Migrate event data to new summary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/migrate-data-from-old-tables-to-new-summary-tables.md)**  
 You can migrate old sensor event data from the existing tables to the new summary data tables using the OnDemandDataMigration scheduled job. This job summarizes daily aggregated data based on specified criteria such as day-wise, location hierarchy-wise, and business entity-wise for occupancy, environment, badging, and Wi-Fi data. The summarized data is stored in the new Space Occupancy Daily Summary Data, Wi-Fi Daily Summary Data, Environmental Daily Summary Data, and Environmental Hourly Summary Data tables.
 
-**Parent Topic:**[Workplace Connectors references](workplace-connectors-references.md)
+**Parent Topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 
-**Previous topic:**[Environmental data form for Workplace Connectors](../reference/wsd-environmental-data-form-fields.md)
+**Previous topic:**[Environmental data form for Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/wsd-environmental-data-form-fields.md)
 
-**Next topic:**[Archive and purge summary data tables](../task/archive-and-purge-summary-data.md)
+**Next topic:**[Archive and purge summary data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/archive-and-purge-summary-data.md)
 

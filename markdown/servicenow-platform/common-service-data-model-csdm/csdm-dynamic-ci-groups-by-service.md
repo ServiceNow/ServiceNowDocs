@@ -2,6 +2,7 @@
 title: Matching the usage of dynamic CI groups to service type
 description: The type of service determines how you use dynamic CI groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -31,7 +32,7 @@ You can group up to 10,000 similar items that are associated with a technology m
 -   CIs that make up a service instance
 -   CIs that share a particular support group
 
-The **Service Classification** attribute identifies the service as a technology management service. The ownership sync process assigns CI ownership through the technology management service, as described in [Synchronizing group assignment attributes](csdm-data-synchronize.md).
+The **Service Classification** attribute identifies the service as a technology management service. The ownership sync process assigns CI ownership through the technology management service, as described in [Synchronizing group assignment attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize.md).
 
 ## Dynamic CI groups for service instances
 
@@ -39,7 +40,7 @@ For a service instance \(formerly application service\), impact analysis outcome
 
 The **Service Classification** attribute identifies the service as a service instance.
 
-See [Populate an application service using the Dynamic CI Group method](../../configuration-management/task/populate-app-service-dynamic-group.md).
+See [Populate an application service using the Dynamic CI Group method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md).
 
-**Parent Topic:**[Synchronizing group assignment attributes](csdm-data-synchronize.md)
+**Parent Topic:**[Synchronizing group assignment attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize.md)
 

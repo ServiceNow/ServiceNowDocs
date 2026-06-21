@@ -2,7 +2,10 @@
 title: Viewing an agent's calendar
 description: You can view an agent's schedule, availability, personal events, and tasks that are either assigned or work in progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/viewing-agents-calendar.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -20,9 +23,9 @@ The calendar displays agent information for a selected day, work day, or week. A
 -   Scheduled work start time
 -   Actual work start time
 
-**Note:** No visual indicator appears for the tasks that don't have a specified travel start time. Additionally, **Estimated onsite arrival buffer duration** is considered only when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled and have been added to the task card. For more information, see [Global domain configurations](../../planning-and-policy/task/t_ConfigureFieldService.md).
+**Note:** No visual indicator appears for the tasks that don't have a specified travel start time. Additionally, **Estimated onsite arrival buffer duration** is considered only when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled and have been added to the task card. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_ConfigureFieldService.md).
 
-![Calendar showing tasks assigned to agents, available agents, and agent schedules for a selected day or week.](../image/agent-calendar-schedule.png)
+\[Omitted image "agent-calendar-schedule.png"\] Alt text: Calendar showing tasks assigned to agents, available agents, and agent schedules for a selected day or week.
 
 As a dispatcher, you can do the following:
 

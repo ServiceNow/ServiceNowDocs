@@ -2,11 +2,12 @@
 title: NLU language support
 description: The NLU Workbench application provides support for creating NLU models in different languages for use in other applications, such as Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/nlu-service/nlu-language-support.html
 release: xanadu
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
 ---
@@ -17,7 +18,7 @@ The NLU Workbench application provides support for creating NLU models in differ
 
 The platform supports NLU for 17 languages. Ten of these languages available to your models have both intent and entity support; the remaining 7 languages have intent-only support. \(Japanese entity support includes character annotation.\)
 
-**Note:** Install the language plugins for languages you want to use in NLU. Installing and activating language plugins ensures that the languages are available in your instance. For more information see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** Install the language plugins for languages you want to use in NLU. Installing and activating language plugins ensures that the languages are available in your instance. For more information see .
 
 <table id="table_wdv_ymx_z4b"><thead><tr><th>
 
@@ -83,7 +84,7 @@ Utterances for all languages are case insensitive during intent prediction.
 
 Below is a detailed list of the currently available NLU languages and the intents, entities, vocabulary, features, and applications they support.
 
-![A chart of NLU'scurrently available languages and the intents, entities, vocabulary, and features they support](../images/nlu-capabilities.png "Supported languages and features")
+\[Omitted image "nlu-capabilities.png"\] Alt text: A chart of NLU'scurrently available languages and the intents, entities, vocabulary, and features they support
 
-**Parent Topic:**[Exploring Natural Language Understanding](nlu-explore.md)
+**Parent Topic:**[Exploring Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/nlu-service/nlu-explore.md)
 

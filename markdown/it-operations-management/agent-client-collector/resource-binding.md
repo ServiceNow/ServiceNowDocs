@@ -2,6 +2,7 @@
 title: Metric binding to resources
 description: Bind metrics to resources to simplify metric events binding by enabling binding to resources such as specific disks or web pages, in addition to binding to CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/resource-binding.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -41,9 +42,9 @@ The MID Server generates metric binding events that are processed by the instanc
 
 ## Configure resource binding
 
--   Ensure that the [sa.metric.use.resource.binding](../reference/installed-with-metrics.md) system property is set to true \(default\).
+-   Ensure that the [sa.metric.use.resource.binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/installed-with-metrics.md) system property is set to true \(default\).
 -   For series intended to be bound to resources, ensure that the **resource\_path** attribute is populated by doing either step:
-    -   Use an event rule to add the **resource\_path** attribute to the **Additional information** field in events. For more information, see [Create an event rule to map metrics to specific CIs](event-rule-bind-metrics-to-ci.md).
+    -   Use an event rule to add the **resource\_path** attribute to the **Additional information** field in events. For more information, see [Create an event rule to map metrics to specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/event-rule-bind-metrics-to-ci.md).
     -   Populate the **resource\_path** attribute as a part of the respective CI identifier when data is sent to the MID Server for processing.
 -   Review the default mappings in the CI Type To Resource Class \[sa\_ci\_type\_to\_resource\_class\] table and adjust as needed. It is critical that mappings are set as desired prior to data processing.
 
@@ -74,5 +75,5 @@ Mappings of CI classes to resource classes are stored in the CI Type To Resource
 |cmdb\_ci\_database|ci\_resource\_database|
 |cmdb\_ci\_vm\_object|ci\_resource\_vm\_object|
 
-**Parent Topic:**[Metric binding](metric-binding.md)
+**Parent Topic:**[Metric binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/metric-binding.md)
 

@@ -2,6 +2,7 @@
 title: Integer values for default choice lists
 description: Choice provide four default values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_IntValsForDfltChoiceList.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -36,5 +37,5 @@ On the Incident table, the **Active**, **State**, and **Incident state** fields 
 
 **Note:** Notice that these business rules do not change incident\_state based on a change to either the **Active** field or the **State** field. Changes to incident\_state drive the other two fields, not the other way around.
 
-**Parent Topic:**[Choice list field type](c_ChoiceLists.md)
+**Parent Topic:**[Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ChoiceLists.md)
 

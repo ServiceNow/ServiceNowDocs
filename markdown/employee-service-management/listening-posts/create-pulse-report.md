@@ -2,6 +2,7 @@
 title: Add a pulse report in Listening Posts
 description: Capture more demographics and have relevant breakdowns by adding reports within a theme. Add a report by specifying an order in which the report must appear on the Pulse Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/listening-posts/create-pulse-report.html
 release: xanadu
 product: Listening Posts
 classification: listening-posts
@@ -36,5 +37,5 @@ Role required: sn\_lp.creator
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Create a pulse theme in Listening Posts](create-pulse-theme.md)
+**Parent Topic:**[Create a pulse theme in Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/listening-posts/create-pulse-theme.md)
 

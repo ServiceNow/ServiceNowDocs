@@ -2,6 +2,7 @@
 title: Discovery classification parameters
 description: These parameters are available for Discovery classifiers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/classification-parameters.html
 release: xanadu
 product: Discovery
 classification: discovery

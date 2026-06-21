@@ -2,6 +2,7 @@
 title: Guidances in Recommended Actions for ITSM
 description: ITSM base system includes the following guidances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/guidances-in-recommended-actions-for-itsm.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -38,5 +39,5 @@ ITSM base system includes the following guidances.
 |\[Task\] Link problem|Enables agents to view the relevant information and action for problems.|
 |\[Task\] Order item|This guidance action shows relevant information and action of catalog item. This guidance can be shown on any task type.|
 
-**Parent Topic:**[Recommended Actions for ITSM reference](../concept/recommended-actions-for-itsm-reference.md)
+**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
 

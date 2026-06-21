@@ -2,6 +2,7 @@
 title: Use extension points in Pricing Management
 description: Use extension points to call custom scripts from external sources that control pricing logic used in the Pricing Management feature of the Sales Customer Relationship Management \(SOM\) applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/extension-points-som-pricing.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

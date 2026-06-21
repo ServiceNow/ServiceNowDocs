@@ -2,7 +2,10 @@
 title: Move an asset through the transfer process
 description: Use transfer order line tasks to move assets through the shipment or drop-off transfer process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-transfer-order-line-task.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -21,7 +24,7 @@ Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or qualifier
 
 Transfer order line tasks are created to move transfer order lines from one stage to the other. A transfer order line initially has one transfer order line task for completing the fulfillment. When you fulfill a asset requirement and close the task, the system automatically creates two transfer order line tasks: one to prepare for shipment and another one to drop off the asset.
 
-Closing a transfer order line completes the task, moves the transfer order line task to the next stage, and creates the next task in the process until you close all tasks required for completing the transfer order line. For more information on the stages of transfer, see [Transfer order line stages](https://www.servicenow.com/docs/access?context=transfer-orders-asset&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+Closing a transfer order line completes the task, moves the transfer order line task to the next stage, and creates the next task in the process until you close all tasks required for completing the transfer order line. For more information on the stages of transfer, see Transfer order line stages.
 
 ## Procedure
 
@@ -45,15 +48,15 @@ Closing a transfer order line completes the task, moves the transfer order line 
     -   The short description text for the transfer order line task for drop off is "Receive" and the state is Open.
 6.  Drop off or prepare for shipment.
 
-<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d97962e144">
+<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d95278e144">
 
 To
 
-</th><th align="left" id="d97962e147">
+</th><th align="left" id="d95278e147">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d97962e153">
+</th></tr></thead><tbody><tr><td id="d95278e153">
 
 **Prepare for shipment**
 
@@ -95,7 +98,7 @@ This task has the short description text "Deliver" and the state Open.
 
 This task automatically moves to the Closed Complete state.
 
-</td></tr><tr><td id="d97962e235">
+</td></tr><tr><td id="d95278e235">
 
 **Drop off**
 

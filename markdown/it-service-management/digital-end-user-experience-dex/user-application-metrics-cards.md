@@ -2,6 +2,7 @@
 title: Application performance pages
 description: Access performance and usage data for a specific application to evaluate its efficiency, identify bottlenecks, and make informed optimization decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/user-application-metrics-cards.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -110,7 +111,7 @@ Number of crashes
 Trend of the application's crashes on the device over the last 2 hours.**Note:** Analyzing this graph enables you to identify potential issues, pinpoint trends, and take proactive measures to enhance the application's reliability and user experience.
 
 </td></tr></tbody>
-</table>To return to the application metrics main page, see [Users — Application Performance](../concept/users-application-metrics.md).
+</table>To return to the application metrics main page, see [Users — Application Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/users-application-metrics.md).
 
 ## Device — Web application performance
 
@@ -165,5 +166,5 @@ Availability
 Percentage of time that a service is operational and accessible to users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Device details pages](user-device-details-pages.md)
+</table>**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

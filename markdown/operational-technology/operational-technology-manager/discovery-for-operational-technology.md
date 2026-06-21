@@ -2,6 +2,7 @@
 title: Discovery for Operational Technology
 description: You can run the Discovery for Operational Technology function to discover IT class Operational Technology \(OT\) devices in designated Purdue levels in your Industrial Control System \(ICS\) networks. IT class items include switches, routers, and computers that exist both in data centers and in your factories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/discovery-for-operational-technology.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,7 +20,7 @@ You can run the Discovery for Operational Technology function to discover IT cla
 
 The Discovery for Operational Technology process operates in a manner that is similar to the standard Discovery processes.
 
-![Targeted Purdue levels in standard and Operational Technology Discovery.](../image/OT-discovery-targeted-zones.png "Targeted Purdue levels in standard and Operational Technology Discovery")
+\[Omitted image "OT-discovery-targeted-zones.png"\] Alt text: Targeted Purdue levels in standard and Operational Technology Discovery.
 
 Standard Discovery processing in the ServiceNow AI Platform® normally takes place in the following Purdue levels in your enterprise:
 
@@ -43,7 +44,7 @@ You typically run Discovery for Operational Technology in the DMZ \(or IDMZ, Pur
 
 **Note:** To avoid the possibility of disrupting your industrial operations, you should not run Discovery processes against Purdue levels 0 through 2 in your ICS networks.
 
-![Discovery for Operational Technology processing.](../image/ot-discovery-schedule-processing.png "Discovery for Operational Technology processing")
+\[Omitted image "ot-discovery-schedule-processing.png"\] Alt text: Discovery for Operational Technology processing.
 
 When you run an OT discovery schedule, it performs the following processing:
 
@@ -54,23 +55,23 @@ When you run an OT discovery schedule, it performs the following processing:
 3.  In addition to the location attribute, it also pushes the defined attributes from the OT discovery schedule to the CI and to the related OT entity records.
 4.  It also creates OT entity records for the applications installed on discovered OT devices. To view the applications that have OT entity records created through OT Discovery, navigate to the Industrial Workspace list view and open the **Applications** list under **Operational Technology \(OT\)**.
 
--   **[Discovery for Operational Technology related links and lists](../reference/discovery-for-ot-related-links-lists.md)**  
+-   **[Discovery for Operational Technology related links and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/discovery-for-ot-related-links-lists.md)**  
 Discovery for Operational Technology contains several related links and lists.
--   **[Create an Operational Technology discovery schedule and run the Discovery process](../task/run-discovery-for-operational-technology.md)**  
+-   **[Create an Operational Technology discovery schedule and run the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/run-discovery-for-operational-technology.md)**  
 Define Operational Technology \(OT\) discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 
-**Parent Topic:**[Using the Operational Technology Manager](using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 
 **Related topics**  
 
 
-[Operation Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.cmdb-ci-class-models-operation-technology]
 
-[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-landing]
 
-[Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US)
+[bundle-itom.r-discovery]
 
-[Horizontal discovery process flow with probes and sensors](https://www.servicenow.com/docs/access?context=c_DiscoProcessFlows&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US)
+[bundle-itom.c_DiscoProcessFlows]
 
-[Schedule a horizontal discovery](https://www.servicenow.com/docs/access?context=t_CreateADiscoverySchedule&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US)
+[bundle-itom.t_CreateADiscoverySchedule]
 

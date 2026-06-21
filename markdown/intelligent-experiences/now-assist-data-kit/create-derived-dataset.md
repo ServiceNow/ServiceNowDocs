@@ -2,6 +2,7 @@
 title: Create a derived dataset
 description: Create a smaller dataset from an existing dataset through generative AI by using the Now Assist Data Kit application. A derived dataset enables you to choose a smaller dataset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/now-assist-data-kit/create-derived-dataset.html
 release: xanadu
 product: Now Assist Data Kit
 classification: now-assist-data-kit

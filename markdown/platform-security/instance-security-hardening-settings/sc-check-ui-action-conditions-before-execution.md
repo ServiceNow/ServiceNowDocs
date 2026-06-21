@@ -2,6 +2,7 @@
 title: Check UI action conditions before execution
 description: Use the glide.security.strict.actions property to enable checking of UI actions conditions in forms and lists before they execute. When you set this property to true, it adds an extra layer of validation on the table UI actions before they are executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-check-ui-action-conditions-before-execution.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -21,7 +22,7 @@ Use the **glide.security.strict.actions** property to enable checking of UI acti
 |---------|-----------|
 |Property name|**glide.security.strict.actions**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Access control](sc-access-control.md)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Purpose|To ensure an extra layer of validation on the table UI actions before they are executed.|
 |Data type|boolean|
 |Recommended value|true|
@@ -31,7 +32,7 @@ Use the **glide.security.strict.actions** property to enable checking of UI acti
 |Security risk|\(Low\) Access request is always checked when transactions happen between two zones. This operation validates any UI actions before the form renders for the end user.|
 |References|High security plugin|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

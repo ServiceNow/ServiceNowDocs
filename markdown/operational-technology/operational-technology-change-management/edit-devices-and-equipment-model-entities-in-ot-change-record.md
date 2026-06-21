@@ -2,6 +2,7 @@
 title: Edit the related devices and equipment model entities in a change record
 description: Add or remove the related Operational Technology \(OT\) devices and equipment model entities directly from an OT change record. You can track the relationship between the change request and its affected items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-change-management/edit-devices-and-equipment-model-entities-in-ot-change-record.html
 release: xanadu
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -31,15 +32,15 @@ Role required: sn\_ot\_change\_write or sn\_ot\_change\_admin
 
 5.  Add or remove a related OT device.
 
-<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d42921e106">
+<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d28748e106">
 
 Action
 
-</th><th align="left" id="d42921e109">
+</th><th align="left" id="d28748e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42921e115">
+</th></tr></thead><tbody><tr><td id="d28748e115">
 
 **Add a related OT device from the change record**
 
@@ -51,7 +52,7 @@ Description
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d42921e145">
+</td></tr><tr><td id="d28748e145">
 
 **Remove a related OT device from the change record**
 
@@ -69,5 +70,5 @@ Description
 6.  Add or remove an equipment model entity from a change record by repeating steps 4 and 5 but in the Impacted Equipment Model Entities related list.
 
 
-**Parent Topic:**[Using Operational Technology Change Management](../concept/using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

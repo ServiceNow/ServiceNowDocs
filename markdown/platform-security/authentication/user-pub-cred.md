@@ -2,6 +2,7 @@
 title: Configure MFA with Biometrics
 description: Administrators can use the User Public Credentials list to view and manager user created credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/user-pub-cred.html
 release: xanadu
 product: Authentication
 classification: authentication

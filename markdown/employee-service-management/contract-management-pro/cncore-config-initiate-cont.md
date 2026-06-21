@@ -2,6 +2,7 @@
 title: Add a workspace action button for initiating a contract request
 description: Define an action button in your workspace and map it to the built-in action that initiates a contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-config-initiate-cont.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -26,7 +27,7 @@ Role required: admin
 
     1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **Form Actions**
 
-        For more information, see [Customizing Configurable Workspace with declarative actions](https://www.servicenow.com/docs/access?context=declarative-actions-landing&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+        For more information, see 
 
     2.  Select **New**.
 
@@ -37,11 +38,11 @@ Role required: admin
         |Implemented as|UFX Client Action|
         |Specify client action|Initiate contract|
 
-        ![Add initiate contract declarative action to your workspace](../image/cmpro-bu-form-actn-initiate-cntr.png)
+        \[Omitted image "cmpro-bu-form-actn-initiate-cntr.png"\] Alt text: Add initiate contract declarative action to your workspace
 
     4.  On the form, fill in the other fields.
 
-        For details, see [Action assignment form](../reference/cmpro-actn-assignment-form.md)
+        For details, see [Action assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cmpro-actn-assignment-form.md)
 
     5.  Right-click the form header and select **Save**.
 
@@ -93,9 +94,9 @@ Role required: admin
 
     7.  On the form, fill in the other fields.
 
-        ![Create event mapping for initiate contract action](../image/cmpro-uptake-ux-add-event.png)
+        \[Omitted image "cmpro-uptake-ux-add-event.png"\] Alt text: Create event mapping for initiate contract action
 
-        For a description of the field values, see [UFX Add on Event mapping form](../reference/cmpro-ufx-event-map-form.md).
+        For a description of the field values, see [UFX Add on Event mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cmpro-ufx-event-map-form.md).
 
     8.  Select **Submit**.
 
@@ -112,7 +113,7 @@ Role required: admin
 
 An action button to initiate contract requests from a contract record is available in your workspace.
 
-![Initiate action button added to your workspace](../image/cmpro-bu-initiate-contract-button.png "Initiate contract action configured")
+\[Omitted image "cmpro-bu-initiate-contract-button.png"\] Alt text: Initiate action button added to your workspace
 
-**Parent Topic:**[Add and configure contract request functionality](../concept/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 

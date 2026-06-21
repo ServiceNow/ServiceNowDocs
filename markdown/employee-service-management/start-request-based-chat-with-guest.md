@@ -2,7 +2,10 @@
 title: Request-based chat - Start chat with guest user from a record
 description: Start a Microsoft Teams chat with the guest user of an external and allowed domain through a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/start-request-based-chat-with-guest.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Start a Microsoft Teams chat with the guest user of an external and allowed doma
 
 ## Before you begin
 
-The guest user must be authenticated with chat access. For more information, see [Enable chat access for guest users](enable-guest-chat-access-st.md) for self-configured app and [Enable chat access for a guest user](enable-guest-chat-access-mt.md) for pre-published app instances.
+The guest user must be authenticated with chat access. For more information, see [Enable chat access for guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/enable-guest-chat-access-st.md) for self-configured app and [Enable chat access for a guest user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/enable-guest-chat-access-mt.md) for pre-published app instances.
 
 The guest users list is fetched from the Microsoft Azure AD. For more information, see [Guest access in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/guest-access).
 
@@ -63,5 +66,5 @@ All team members see an announcement message in the Microsoft Teams channel thre
 
 A tag with the label **External** indicates that a user is guest and not present in the allowed-domain.
 
-**Parent Topic:**[Agent actions](../concept/agent-sn-ms-teams.md)
+**Parent Topic:**[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/agent-sn-ms-teams.md)
 

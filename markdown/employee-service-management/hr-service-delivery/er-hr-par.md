@@ -2,6 +2,7 @@
 title: Analytics and Reporting Solutions for Employee Relations
 description: Analytics and Reporting Solutions contain prepackaged Performance Analytics content for use with other ServiceNow AI Platform products. This Analytics and Reporting Solution provides you with historical trends and data comparisons for Employee Relations to assess organizational performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/er-hr-par.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -26,5 +27,5 @@ The following roles and tasks are associated with this Solution:
 **Related topics**  
 
 
-[Analytics and Reporting Solutions](https://www.servicenow.com/docs/access?context=content-packs-in-form-analytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+[bundle-par.content-packs-in-form-analytics]
 

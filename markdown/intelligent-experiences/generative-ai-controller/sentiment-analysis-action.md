@@ -2,6 +2,7 @@
 title: Sentiment Analysis action
 description: Use the Sentiment Analysis action with Workflow Studio and Virtual Agent to detect the sentiment of your users from their input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/sentiment-analysis-action.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller

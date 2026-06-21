@@ -2,6 +2,7 @@
 title: Manual Approvals workflow activity
 description: The Manual Approvals activity watches and manages any approvals that users add manually outside of the workflow process. This activity only selects approvals that are in the Not requested state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-activities/r\_ManualApprovals.html
 release: xanadu
 product: Workflow Activities
 classification: workflow-activities

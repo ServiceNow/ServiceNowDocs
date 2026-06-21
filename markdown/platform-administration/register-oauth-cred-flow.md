@@ -2,6 +2,7 @@
 title: Register an OAuth Provider
 description: Use the information generated during the Microsoft Azure account configuration to register an application as an OAuth provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/register-oauth-cred-flow.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -65,7 +66,7 @@ OAuth API Script
 
 </td><td>
 
-OAuth API script name. For more information see, [OAuth API Script](oauth-api-script.md). **Note:** This field is required only while using certificates.
+OAuth API script name. For more information see, [OAuth API Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/oauth-api-script.md). **Note:** This field is required only while using certificates.
 
 </td></tr><tr><td>
 
@@ -113,7 +114,7 @@ Redirect URL
 
 ## What to do next
 
-Use the OAuth profile to create an email account with SMTP OAuth2.0. For more information, see [Create an email account with SMTP OAuth2.0](create-email-account-smtp.md).
+Use the OAuth profile to create an email account with SMTP OAuth2.0. For more information, see [Create an email account with SMTP OAuth2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-email-account-smtp.md).
 
-**Parent Topic:**[Send email using client credential flow](../concept/send-email-client-credential-flow.md)
+**Parent Topic:**[Send email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/send-email-client-credential-flow.md)
 

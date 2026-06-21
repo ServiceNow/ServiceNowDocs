@@ -2,6 +2,7 @@
 title: Use the For Each component
 description: Traverse each item in a collection in the order of first to last using the For Each component in the RPA Desktop Design Studio. The collection can be an array, list, or a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-loops-foreach.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -37,7 +38,7 @@ You can configure the properties for the For Each component.
 
 2.  Drag the For Each component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the For Each component to the corresponding ports of the other components as described in the following table.
 
@@ -49,5 +50,5 @@ You can configure the properties for the For Each component.
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Loops](../concept/loops.md)
+**Parent Topic:**[Loops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/loops.md)
 

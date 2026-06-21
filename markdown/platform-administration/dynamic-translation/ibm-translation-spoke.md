@@ -2,6 +2,7 @@
 title: IBM Watson Language Translator Service spoke
 description: With the Xanadu release, the IBM Watson Language Translator Service Spoke is no longer available because it has been deprecated. This information is provided for legacy context. The spoke provided subflows and actions to dynamically translate user-entered texts and to detect the language of user-entered texts using the IBM translation service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/dynamic-translation/ibm-translation-spoke.html
 release: xanadu
 product: Dynamic Translation
 classification: dynamic-translation
@@ -14,8 +15,6 @@ breadcrumb: [Integration with other translation services, Dynamic Translation, T
 # IBM Watson Language Translator Service spoke
 
 With the Xanadu release, the IBM Watson Language Translator Service Spoke is no longer available because it has been deprecated. This information is provided for legacy context. The spoke provided subflows and actions to dynamically translate user-entered texts and to detect the language of user-entered texts using the IBM translation service.
-
-Integrate Dynamic Translation with IBM translation service.
 
 **Important:** IBM announced the deprecation of the IBM Watson Translator Service for IBM Cloud in all regions. As of December 10, 2024, the service is withdrawn entirely and no longer available to any customers. For more information, see [https://cloud.ibm.com/docs/language-translator?topic=language-translator-release-notes](https://cloud.ibm.com/docs/language-translator?topic=language-translator-release-notes).
 
@@ -57,7 +56,7 @@ For information on the IBM Language Translator API and the notice of deprecation
 
 ## Connection and credential alias requirements
 
-IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Credentials and connection information](https://www.servicenow.com/docs/access?context=r-credentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see Credentials and connection information.
 
 This spoke used the IBMTranslation alias \(sn\_ibm\_trans\_spoke.IBMTranslation\) to authorize actions.
 
@@ -66,5 +65,5 @@ The following were the connection alias requirements.
 -   Connection type: HTTP
 -   Connection URL: Base URL provided by IBM to connect to the language translator service. Users can have a different URL based on their geographical preference.
 
-**Parent Topic:**[Integration with other translation services](integration-with-other-translation-services.md)
+**Parent Topic:**[Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/integration-with-other-translation-services.md)
 

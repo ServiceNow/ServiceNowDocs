@@ -2,6 +2,7 @@
 title: Add field types in Guided Application Creator
 description: When you add fields to a custom table in Guided Application Creator, there are only 18 field types available by default. You can add a property to include more field types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/guided-application-creator/gac-add-field-types.html
 release: xanadu
 product: Guided Application Creator
 classification: guided-application-creator
@@ -21,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-For a list of field types that are available in the ServiceNow AI Platform, see [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For a list of field types that are available in the ServiceNow AI Platform, see Field types.
 
 ## Procedure
 
-1.  [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) with the following settings:
+1.  Add a system property with the following settings:
 
     -   Name: **sn\_g\_app\_creator.field\_types**
     -   Type: string
@@ -36,5 +37,5 @@ For a list of field types that are available in the ServiceNow AI Platform, see 
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Guided Application Creator](../concept/guided-app-creator.md)
+**Parent Topic:**[Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/guided-app-creator.md)
 

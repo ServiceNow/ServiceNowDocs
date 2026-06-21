@@ -2,6 +2,7 @@
 title: Create a task for a supplier case from the Source-to-Pay Workspace
 description: You can create a task for a supplier case and assign it to a supplier contact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/create-new-task-for-supp-case.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -27,15 +28,15 @@ Role required: sn\_slm.manager, sn\_slm.owner, sn\_slm.fulfiller, or sn\_slm.adm
 
 2.  Do one of the following.
 
-<table id="choicetable_n1f_rqh_wtb"><thead><tr><th align="left" id="d28020e73">
+<table id="choicetable_n1f_rqh_wtb"><thead><tr><th align="left" id="d30135e73">
 
 To
 
-</th><th align="left" id="d28020e76">
+</th><th align="left" id="d30135e76">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d28020e82">
+</th></tr></thead><tbody><tr><td id="d30135e82">
 
 **Create a supplier task from Quick actions**
 
@@ -47,13 +48,13 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
     2.  From the **Create** drop-down list, select **Supplier task**.
 
 
-</td></tr><tr><td id="d28020e119">
+</td></tr><tr><td id="d30135e119">
 
 **Create a supplier task from the List page**
 
 </td><td>
 
-1.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and do one of the following:
+1.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and do one of the following:
     -   Navigate to **Lists** &gt; **My work** &gt; **Open tasks**
     -   Navigate to **Lists** &gt; **All work** &gt; **Supplier tasks**
     -   Navigate to **Lists** &gt; **All work** &gt; **Employee tasks**
@@ -62,13 +63,13 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
 3.  In the Create new task dialog box, in the **Task type** field, select **Supplier Task**.
 
 
-</td></tr><tr><td id="d28020e213">
+</td></tr><tr><td id="d30135e213">
 
 **Create a supplier task from the Case details page**
 
 </td><td>
 
-1.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and do one of the following:
+1.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and do one of the following:
     -   Navigate to **Lists** &gt; **My work** &gt; **Open cases**
     -   Navigate to **Lists** &gt; **All work** &gt; **Cases**
 2.  In the Number column, select the link to the case that you want to create a task for, and do one of the following:
@@ -120,13 +121,13 @@ Create a task for an internal employee
 
 
 </td></tr></tbody>
-</table>    For more information about the form fields and descriptions on the Create a new task form, see [Create new task form](../reference/create-new-supplier-task-form.md).
+</table>    For more information about the form fields and descriptions on the Create a new task form, see [Create new task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-task-form.md).
 
 4.  Select **Submit**.
 
 5.  On the Task form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Task form](../reference/slo-task-form.md).
+    For more information about the form fields and descriptions, see [Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/slo-task-form.md).
 
 6.  Select **Save**.
 
@@ -139,7 +140,7 @@ Create a task for an internal employee
 
 ## What to do next
 
-The supplier contact to whom this task is assigned can view it on the My To-dos page. For more information, see [Viewing supplier contact tasks from the Supplier Collaboration Portal](../concept/my-to-dos.md).
+The supplier contact to whom this task is assigned can view it on the My To-dos page. For more information, see [Viewing supplier contact tasks from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/my-to-dos.md).
 
-**Parent Topic:**[Managing supplier tasks from the Source-to-Pay Workspace](../concept/managing-tasks.md)
+**Parent Topic:**[Managing supplier tasks from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-tasks.md)
 

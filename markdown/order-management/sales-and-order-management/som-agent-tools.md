@@ -2,6 +2,7 @@
 title: Configuring agent tools in Sales Customer Relationship Management
 description: The applications in Sales Customer Relationship Management share common features and tools for agents, such as the Product Configurator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-agent-tools.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

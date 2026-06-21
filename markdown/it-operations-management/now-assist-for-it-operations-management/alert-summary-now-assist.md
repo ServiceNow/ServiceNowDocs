@@ -2,6 +2,7 @@
 title: Exploring Now Assist for IT Operations Management \(ITOM\)
 description: The ServiceNow Now Assist for IT Operations Management \(ITOM\) application uses generative AI to provide alert analyses in Event Management. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/now-assist-for-it-operations-management/alert-summary-now-assist.html
 release: xanadu
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management

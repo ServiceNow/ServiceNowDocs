@@ -2,6 +2,7 @@
 title: Create a public/private key pair for the Microsoft SharePoint Online external content connector
 description: Generate a public/private key pair for the Microsoft SharePoint Online external content connector. Extract the public key as a DER-encoded binary X.509 format certificate for use in configuring API access for the connector in the Microsoft Entra admin center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/gen-cert-spo-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -69,7 +70,7 @@ To configure public/private key pair authentication for the connector, you need 
 
     **Important:** Ignore the keytool warning message about migrating your keystore to the PKCS12 format. The external content connector only supports the Java KeyStore format.
 
-2.  Export your public key in DER-encoded binary X.509 certificate format by running the following keytool command, replacing `<cer-file>` with a filename of your choice and replacing `<alias>`, `<jks-file>`, and `<password>` with the same values you used in step [1](gen-cert-spo-ext-cont-connector.md#generate-keypair-jks):
+2.  Export your public key in DER-encoded binary X.509 certificate format by running the following keytool command, replacing `<cer-file>` with a filename of your choice and replacing `<alias>`, `<jks-file>`, and `<password>` with the same values you used in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/gen-cert-spo-ext-cont-connector.md):
 
     ```
     keytool -export -alias <alias> -file <cer-file>.cer -keystore <jks-file>.jks -storepass "<password>" -storetype JKS
@@ -104,7 +105,7 @@ DER-encoded binary X.509 format public key certificate file
 
 </td><td>
 
-Provide this certificate file to your Microsoft SharePoint Online administrator. They will need to upload the certificate to the Microsoft Entra admin center when configuring an OAuth 2.0 application for the Microsoft SharePoint Online external content connector. For more information on configuring an OAuth 2.0 application in the Microsoft Entra admin center for the Microsoft SharePoint Online external content connector, see [Configure Microsoft SharePoint Online for external content indexing](cfg-azure-spo-ext-cont-connector.md).
+Provide this certificate file to your Microsoft SharePoint Online administrator. They will need to upload the certificate to the Microsoft Entra admin center when configuring an OAuth 2.0 application for the Microsoft SharePoint Online external content connector. For more information on configuring an OAuth 2.0 application in the Microsoft Entra admin center for the Microsoft SharePoint Online external content connector, see [Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.md).
 
 </td></tr><tr><td>
 
@@ -112,8 +113,8 @@ JKS keystore file and password
 
 </td><td>
 
-Provide this Java KeyStore file and its password to your ServiceNow AI Platform admins. They will need the file and password when configuring the Microsoft SharePoint Online external content connector. For details on creating and configuring the Microsoft SharePoint Online external content connector, see [Create a Microsoft SharePoint Online external content connector](create-ext-cont-connector-mspo.md).
+Provide this Java KeyStore file and its password to your ServiceNow AI Platform admins. They will need the file and password when configuring the Microsoft SharePoint Online external content connector. For details on creating and configuring the Microsoft SharePoint Online external content connector, see [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-mspo.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Microsoft SharePoint Online for external content indexing](cfg-azure-spo-ext-cont-connector.md)
+</table>**Parent Topic:**[Configure Microsoft SharePoint Online for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.md)
 

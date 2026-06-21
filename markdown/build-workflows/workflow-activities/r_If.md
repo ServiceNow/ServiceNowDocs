@@ -2,6 +2,7 @@
 title: If workflow activity
 description: The If activity checks a condition or script to determine if a Yes or No transition should be taken.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-activities/r\_If.html
 release: xanadu
 product: Workflow Activities
 classification: workflow-activities
@@ -56,5 +57,5 @@ The activity state tells the workflow engine what to do with the activity.
 |Cancelled|This activity, or the workflow that contains this activty, was canceled.|
 |Error|A JavaScript error occurred. Review the logs for error details.|
 
-**Parent Topic:**[Condition Workflow activities](r_ConditionActivites.md)
+**Parent Topic:**[Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-activities/r_ConditionActivites.md)
 

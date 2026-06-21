@@ -2,6 +2,7 @@
 title: Subflows
 description: Use the subflows to pull data from the Ultimate Kronos Group application into a ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/flows-ukg.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

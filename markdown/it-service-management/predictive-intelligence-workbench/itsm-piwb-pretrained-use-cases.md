@@ -2,6 +2,7 @@
 title: Predictive Intelligence Workbench pretrained use cases
 description: The pretrain functionality mechanism for use cases enables and trains the machine learning solution definition when you activate the Predictive Intelligence Workbench application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-pretrained-use-cases.html
 release: xanadu
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -17,13 +18,13 @@ The pretrain functionality mechanism for use cases enables and trains the machin
 
 **Important:**
 
-Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](../../task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md)
+Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 When a pretrained machine learning solution exists in the system, Predictive Intelligence Workbench highlights the use case templates with the **Pretrained** flag.
 
-![ITSM Predictive Intelligence Workbench pretrained model use case template](../image/ITSMPIWBPretrainedModel.png "ITSM Predictive Intelligence Workbench pretrained model use case template")
+\[Omitted image "ITSMPIWBPretrainedModel.png"\] Alt text: ITSM Predictive Intelligence Workbench pretrained model use case template
 
 The **Pretrained** flag for use case templates displays when the following criteria are met.
 

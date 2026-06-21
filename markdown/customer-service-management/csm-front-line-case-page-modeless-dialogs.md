@@ -2,7 +2,10 @@
 title: Modeless dialogs
 description: Use modeless dialogs, windows that overlay the main window content, to create and post comments and work notes to the activity stream and to compose and send emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-front-line-case-page-modeless-dialogs.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-11-05"
 reading_time_minutes: 11
@@ -179,7 +182,7 @@ Apply a template to an email
 
 To apply a template to an email:
 
-1.  Select the Apply templates icon \(![Compose email apply templates icon](../image/csm-email-modeless-dialog-apply-template.png)\) in the Compose email modeless dialog footer to display a list of available templates in the Template preview modal.
+1.  Select the Apply templates icon \(\[Omitted image "csm-email-modeless-dialog-apply-template.png"\] Alt text: Compose email apply templates icon\) in the Compose email modeless dialog footer to display a list of available templates in the Template preview modal.
 
 The Template preview modal displays the available email templates. It does not display quick messages or response templates.
 
@@ -195,7 +198,7 @@ Minimize a Compose Email window
 
 </td><td>
 
-Minimized emails appear in a list in the In-process Actions menu in the action bar.Select the Minimize icon \(![Compose email minimize icon](../image/csm-email-modeless-dialog-minimize.png)\) in the Compose Email window header to move the email draft to the In-progress Actions menu.
+Minimized emails appear in a list in the In-process Actions menu in the action bar.Select the Minimize icon \(\[Omitted image "csm-email-modeless-dialog-minimize.png"\] Alt text: Compose email minimize icon\) in the Compose Email window header to move the email draft to the In-progress Actions menu.
 
 </td></tr><tr><td>
 
@@ -214,7 +217,7 @@ Maximize a Compose Email window
 
 </td><td>
 
-Select the Maximize icon \(![Compose email maximize icon](../image/csm-email-modeless-dialog-maximize.png)\) in the Compose Email window header to expand the Compose Email window to the full screen.Select the Maximize icon again to exit the Maximize mode.
+Select the Maximize icon \(\[Omitted image "csm-email-modeless-dialog-maximize.png"\] Alt text: Compose email maximize icon\) in the Compose Email window header to expand the Compose Email window to the full screen.Select the Maximize icon again to exit the Maximize mode.
 
 </td></tr><tr><td>
 
@@ -222,7 +225,7 @@ Open a draft email in a sub-tab
 
 </td><td>
 
-Select the Pop out icon \(![Compose email pop out icon](../image/csm-email-modeless-dialog-pop-out.png)\) in the Compose Email window header to open the draft email in a sub-tab.The Compose Email window closes when the email opens in the sub-tab.
+Select the Pop out icon \(\[Omitted image "csm-email-modeless-dialog-pop-out.png"\] Alt text: Compose email pop out icon\) in the Compose Email window header to open the draft email in a sub-tab.The Compose Email window closes when the email opens in the sub-tab.
 
 </td></tr><tr><td>
 
@@ -230,7 +233,7 @@ Close a Compose Email window
 
 </td><td>
 
-Select the Close icon \(![Compose email close icon](../image/csm-email-modeless-dialog-close.png)\) in the Compose Email window header.The system saves the text as a draft email and closes the Compose Email window.
+Select the Close icon \(\[Omitted image "csm-email-modeless-dialog-close.png"\] Alt text: Compose email close icon\) in the Compose Email window header.The system saves the text as a draft email and closes the Compose Email window.
 
 </td></tr><tr><td>
 
@@ -238,7 +241,7 @@ View a list of draft emails
 
 </td><td>
 
-Select the View drafts icon \(![Compose email view drafts icon](../image/csm-email-modeless-dialog-view-drafts.png)\) in the Compose Email window footer. Selecting this icon displays a list that includes the most recent email drafts. The list also includes the following actions:
+Select the View drafts icon \(\[Omitted image "csm-email-modeless-dialog-view-drafts.png"\] Alt text: Compose email view drafts icon\) in the Compose Email window footer. Selecting this icon displays a list that includes the most recent email drafts. The list also includes the following actions:
 
 -   **Manage drafts**: Displays the Manage drafts pop-up window. From this window, you can view a list of all draft emails. You can also delete email drafts from this window.
 -   **Create new email**: creates a new email in the Compose email window.
@@ -249,7 +252,7 @@ Select an email draft
 
 </td><td>
 
-Select the View drafts icon \(![Compose email view drafts icon](../image/csm-email-modeless-dialog-view-drafts.png)\) in the Compose Email window footer. Selecting this icon displays a list that includes the most recent email drafts. You can select a recent draft from this list.
+Select the View drafts icon \(\[Omitted image "csm-email-modeless-dialog-view-drafts.png"\] Alt text: Compose email view drafts icon\) in the Compose Email window footer. Selecting this icon displays a list that includes the most recent email drafts. You can select a recent draft from this list.
 
  To view a list of all email drafts:
 
@@ -276,7 +279,7 @@ Discard the current draft email
 
 </td><td>
 
-1.  Select the Discard draft icon \(![Compose email discard draft icon](../image/csm-email-modeless-dialog-discard-draft.png)\) in the Compose Email window footer.
+1.  Select the Discard draft icon \(\[Omitted image "csm-email-modeless-dialog-discard-draft.png"\] Alt text: Compose email discard draft icon\) in the Compose Email window footer.
 2.  Confirm the Discard action by selecting **Discard** in the confirmation pop-up window.
 
 The system displays a message that the draft email has been discarded.
@@ -287,7 +290,7 @@ Delete an email draft from the Manage drafts pop-up window
 
 </td><td>
 
-1.  Select the View drafts icon \(![Compose email view drafts icon](../image/csm-email-modeless-dialog-view-drafts.png)\) in the Compose Email window footer.
+1.  Select the View drafts icon \(\[Omitted image "csm-email-modeless-dialog-view-drafts.png"\] Alt text: Compose email view drafts icon\) in the Compose Email window footer.
 2.  Select **Manage drafts** to display the Manage drafts pop-up window.
 3.  Select an email to delete by enabling the check box.
 4.  Select **Delete** in the pop-up window.
@@ -310,7 +313,7 @@ The email header includes the following fields:
 -   **Bcc**
 -   **Subject**
 
-You can expand and collapse the email header as needed by selecting the expand header \(![Compose email expand header icon](../image/csm-email-modeless-dialog-header-expand.png)\) and collapse header \(![Compose email collapse header icon](../image/csm-email-modeless-dialog-header-collapse.png)\) icons.
+You can expand and collapse the email header as needed by selecting the expand header \(\[Omitted image "csm-email-modeless-dialog-header-expand.png"\] Alt text: Compose email expand header icon\) and collapse header \(\[Omitted image "csm-email-modeless-dialog-header-collapse.png"\] Alt text: Compose email collapse header icon\) icons.
 
 When the email header is expanded, you can edit the information in these fields. When the email header is collapsed:
 
@@ -336,7 +339,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Discard draft \(![Compose email discard draft icon](../image/csm-email-modeless-dialog-discard-draft.png)\)
+Discard draft \(\[Omitted image "csm-email-modeless-dialog-discard-draft.png"\] Alt text: Compose email discard draft icon\)
 
 </td><td>
 
@@ -344,7 +347,7 @@ Select this icon to delete the current draft. Then confirm the delete action in 
 
 </td></tr><tr><td>
 
-Apply template \(![Compose email apply templates icon](../image/csm-email-modeless-dialog-apply-template.png)\)
+Apply template \(\[Omitted image "csm-email-modeless-dialog-apply-template.png"\] Alt text: Compose email apply templates icon\)
 
 </td><td>
 
@@ -352,7 +355,7 @@ Select this icon to display a list of available templates. You can select a temp
 
 </td></tr><tr><td>
 
-View drafts \(![Compose email view drafts icon](../image/csm-email-modeless-dialog-view-drafts.png)\)
+View drafts \(\[Omitted image "csm-email-modeless-dialog-view-drafts.png"\] Alt text: Compose email view drafts icon\)
 
 </td><td>
 
@@ -365,7 +368,7 @@ Email-related actions include:
 
 </td></tr><tr><td>
 
-Attach file \(![Compose email attach file icon](../image/csm-email-modeless-dialog-attach-file.png)\)
+Attach file \(\[Omitted image "csm-email-modeless-dialog-attach-file.png"\] Alt text: Compose email attach file icon\)
 
 </td><td>
 

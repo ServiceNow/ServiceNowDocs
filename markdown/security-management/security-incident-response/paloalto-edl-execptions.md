@@ -2,6 +2,7 @@
 title: EDL entry exceptions for Palo Alto Networks Next-Generation Firewall
 description: There are restrictions for adding External Dynamic List \(EDL\) entries to EDLs. If duplicate, compatibility, or CIDR \(Classless Inter-Domain Routing\) conflicts exist when you try to add EDL entries to EDLs, error messages are displayed that help you resolve these errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/paloalto-edl-execptions.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -19,13 +20,13 @@ There are restrictions for adding External Dynamic List \(EDL\) entries to EDLs.
 
 Each EDL only accepts entries that are compatible with its observable type. If you create a Domain EDL and you try to attach an IP address observable to it, an incompatible error message is displayed. For example, a domain EDL can only accept domain observables, as illustrated in the following figure.
 
-![EDL entry Compatibility error message.](../image/4-30-ip-incompatible-error.png "Compatibility error")
+\[Omitted image "4-30-ip-incompatible-error.png"\] Alt text: EDL entry Compatibility error message.
 
 ## Duplication exception
 
 An observable cannot be activated on multiple EDLs of the same observable type. If a URL observable is already activated on a URL EDL, and you try to activate the same observable on a Phishing URL EDL, a duplication error message is displayed.
 
-![EDL entry duplicate error message.](../image/4-30-url-alreadyexists.png "Duplication error")
+\[Omitted image "4-30-url-alreadyexists.png"\] Alt text: EDL entry duplicate error message.
 
 ## CIDR \(Classless Inter-Domain Routing\) exception
 
@@ -33,11 +34,11 @@ If you attempt to attach a single IP address to an EDL, and this IP address is p
 
 
 
-![EDL entry CIDR conflict message.](../image/4-30-cidr-ip.png)
+\[Omitted image "4-30-cidr-ip.png"\] Alt text: EDL entry CIDR conflict message.
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](../concept/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Approve EDL entries for Palo Alto Networks Next-Generation Firewall](../task/paloalto-apprv-edl-entries-sncr.md)
+**Previous topic:**[Approve EDL entries for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/paloalto-apprv-edl-entries-sncr.md)
 
-**Next topic:**[\(Optional\) Edit the security tag name for Palo Alto Networks Next-Generation Firewall](../task/paloalto_edit_sectag_name.md)
+**Next topic:**[\(Optional\) Edit the security tag name for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/paloalto_edit_sectag_name.md)
 

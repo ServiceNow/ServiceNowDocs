@@ -2,6 +2,7 @@
 title: Playbooks roles
 description: Grant users one or more Playbooks roles to enable them to create triggers, playbooks, and activity definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/process-automation-designer-roles.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -17,9 +18,9 @@ Grant users one or more Playbooks roles to enable them to create triggers, playb
 
 ## Roles
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
-System administrators can grant users access to Playbooks by assigning [delegated development permissions](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US) or directly assigning [Roles](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US). The following user roles are available for Playbooks:
+System administrators can grant users access to Playbooks by assigning delegated development permissions or directly assigning Roles. The following user roles are available for Playbooks:
 
 <table id="table_h1y_drx_blb"><thead><tr><th>
 
@@ -126,7 +127,7 @@ playbook.activity\_def\_read
 Enables users to view all activity definitions.
 
 </td></tr></tbody>
-</table>**Note:** Granting users Playbooks roles does not automatically allow them to access the Workflow Studio design environment. Granting users access to Workflow Studio may be helpful when creating activity definitions. For more information on Workflow Studio roles, see [user access to Flow Designer](../../flow-designer/concept/user-access-flow-designer.md).
+</table>**Note:** Granting users Playbooks roles does not automatically allow them to access the Workflow Studio design environment. Granting users access to Workflow Studio may be helpful when creating activity definitions. For more information on Workflow Studio roles, see [user access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/user-access-flow-designer.md).
 
-**Parent Topic:**[Playbooks reference](process-automation-designer-reference.md)
+**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

@@ -2,6 +2,7 @@
 title: Allocate expenses using service offering allocation map
 description: You can allocate expenses based on the actual consumption of services offered using the weighted method. In the weighted rollup method the metric weights the amount by the account values. Use the service offering allocation maps table to store your actual consumption data of the cost for service offerings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/use-service-offering-allocation-maps.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -39,8 +40,8 @@ Although the base system provides you with the default **Equal** method to roll 
 
 4.  Click **Submit**.
 
-    For more information on the calculated spend per offering and to configure the estimated spend offering cost source, see [Financial Management for Service Owner Workspace](https://www.servicenow.com/docs/access?context=financial-management-SPM2&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+    For more information on the calculated spend per offering and to configure the estimated spend offering cost source, see Financial Management for Service Owner Workspace.
 
 
-**Parent Topic:**[Financial Management for licensed SPM users](../concept/financial-management-spm.md)
+**Parent Topic:**[Financial Management for licensed SPM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-management-spm.md)
 

@@ -2,7 +2,10 @@
 title: Import messages from Agent Workspace
 description: You can import the conversation with a user from the agent workspace and append them in the Comments to store all the important messages in the ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/import-messages-agent-workspace.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,12 +32,12 @@ Role required: user
 
 2.  From the **Start Microsoft Teams Chat** menu, select **Import messages**.
 
-    ![Option to import messages.](../images/import-messages-agent-workspace.png)
+    \[Omitted image "import-messages-agent-workspace.png"\] Alt text: Option to import messages.
 
     **Note:** If you aren't logged in, you receive a prompt to log into Microsoft Teams.
 
 3.  Select the messages that you would like to import, then select **Import messages**.
 
 
-**Parent Topic:**[Request-based chat - Start and import chat from Workspace](../concept/initiate-chat-agent-workspace.md)
+**Parent Topic:**[Request-based chat - Start and import chat from Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/initiate-chat-agent-workspace.md)
 

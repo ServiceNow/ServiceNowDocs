@@ -2,6 +2,7 @@
 title: Disable public access to favorites \[Updated in Security Center 1.3 and 2.0\]
 description: Use the glide.ui.magellan.favorites.allow\_public to specify whether unauthenticated users are allowed to see Favorites in the navigator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/public-access-favorites.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -30,7 +31,7 @@ Public Access to Favorites will be compliant if **glide.ui.magellan.favorites.al
 |Security Dependencies|Set **glide.ui.magellan.favorites.allow\_public** to **false**.|
 |Functional impact|\(Medium\) Enabling this property acts as a layer of protection from unauthorized users.|
 |Security risk|\(Medium\) If this property is not enabled, there is a risk of unauthorized access to sensitive data.|
-|References|[Create or view favorites](https://www.servicenow.com/docs/access?context=view-favorite-lists&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)|
+|References|Create or view favorites|
 
-**Parent Topic:**[Access control](../../security-center/reference/sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

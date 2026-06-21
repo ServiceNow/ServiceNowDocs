@@ -2,6 +2,7 @@
 title: Associate query parameters to a resource
 description: Associate scripted REST API query parameters to a resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-api-explorer/AssocQueryParmResource.html
 release: xanadu
 product: REST API Explorer
 classification: rest-api-explorer
@@ -36,7 +37,7 @@ Role required: web\_service\_admin
 
 ## What to do next
 
-After associating the parameters with a scripted REST resource, configure any required ACLs for the API or endpoint. For details, see [Configure a scripted REST API resource to require an ACL](t_WbSvcOpRqACL.md).
+After associating the parameters with a scripted REST resource, configure any required ACLs for the API or endpoint. For details, see [Configure a scripted REST API resource to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_WbSvcOpRqACL.md).
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

@@ -2,7 +2,10 @@
 title: Consumer Service Portal changes
 description: Activating the Customer Service Household plugin enables you to view households and household members on the Consumer Service Portal as well as view and create cases for household members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/industry-data-model-portal-changes.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2

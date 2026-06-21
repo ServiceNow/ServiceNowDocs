@@ -2,6 +2,7 @@
 title: Static WSDL example
 description: This example demonstrates the FakeStockValue WSDL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/r\_StaticWSDLExample.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -33,5 +34,5 @@ This example demonstrates the FakeStockValue WSDL.
 </definitions>
 ```
 
-**Parent Topic:**[Create a static WSDL](../task/t_CreateAStaticWSDL.md)
+**Parent Topic:**[Create a static WSDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/t_CreateAStaticWSDL.md)
 

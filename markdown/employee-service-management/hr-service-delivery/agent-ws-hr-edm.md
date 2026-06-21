@@ -2,6 +2,7 @@
 title: Employee Document Management for HR Service Delivery Agent Workspace
 description: Employee Document Management provides storage space, a filing system, the ability to easily retrieve documents, defining who can view sensitive documents, and when to purge documents.Create or upload employee documents to an HR case using the HR Service Delivery Agent Workspace.Move employee documents from a case in HR Service Delivery Agent Workspace to employee document repository. The employee document repository provides a central repository for quick and easy identification of documents using different sorting features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-edm.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Using the HR Service Delivery Agent Workspace, HR Service Delivery 
 
 Employee Document Management provides storage space, a filing system, the ability to easily retrieve documents, defining who can view sensitive documents, and when to purge documents.
 
-For more information about Employee Document Management, see [Employee Document Management](hr-employee-doc-management.md).
+For more information about Employee Document Management, see [Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-document-management/hr-employee-doc-management.md).
 
 ## Create or upload employee documents using HR Service Delivery Agent Workspace
 
@@ -51,7 +52,7 @@ Employee Document
 
 Employee document to upload.Click **Browse** to upload an employee document.
 
- By default, the maximum size of a document allowed is 30 MB. The default can be changed from the**Maximum file upload size in megabytes** field in Employee Document Properties. For more information, see [Properties for Employee Document Management application](../reference/employee-doc-properties.md).
+ By default, the maximum size of a document allowed is 30 MB. The default can be changed from the**Maximum file upload size in megabytes** field in Employee Document Properties. For more information, see [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-document-management/employee-doc-properties.md).
 
  After selecting a document, the read-only fields show the file size, file format, created on, and created by.
 
@@ -137,7 +138,7 @@ Role required: sn\_hr\_ef.document\_writer, sn\_hr\_core.case\_writer
 
 3.  Click **Move Attachments**.
 
-    ![Move employee documents from agent workspace to employee document management](../task/move-docs-workspace1.png)
+    \[Omitted image "move-docs-workspace1.png"\] Alt text: Move employee documents from agent workspace to employee document management
 
 4.  In the Move Attachments to Employee documents window:
 
@@ -146,15 +147,15 @@ Role required: sn\_hr\_ef.document\_writer, sn\_hr\_core.case\_writer
     3.  Click **Move Selected**.
     **Note:** The **Target COE** and **Topic Detail** fields can be modified only if the document has been added under the wrong type of HR case.
 
-    ![Move employee documents from agent workspace to employee document management](../task/move-docs-workspace2.png)
+    \[Omitted image "move-docs-workspace2.png"\] Alt text: Move employee documents from agent workspace to employee document management
 
 
 ### Result
 
 -   The employee documents move from the HR case to the employee document repository.
--   To view a list of all employee documents in the list column, select **Employee Documents**. ![List of employee documents](../task/move-docs-workspace3.png)
--   The moved attachments appears in the contextual side panel under the ![Employee documents icon](../image/employee-documents.png) employee documents icon within the case.
+-   To view a list of all employee documents in the list column, select **Employee Documents**. \[Omitted image "move-docs-workspace3.png"\] Alt text: List of employee documents
+-   The moved attachments appears in the contextual side panel under the \[Omitted image "employee-documents.png"\] Alt text: Employee documents icon employee documents icon within the case.
 
-    ![Moved attachments appearing in the contextual side panel](../task/move-docs-workspace4.png)
+    \[Omitted image "move-docs-workspace4.png"\] Alt text: Moved attachments appearing in the contextual side panel
 
 

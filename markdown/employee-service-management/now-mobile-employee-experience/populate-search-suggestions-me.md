@@ -2,6 +2,7 @@
 title: Populate search suggestions in the mobile apps
 description: If you are upgrading from a previous release, run a script to populate search suggestions with data from a platform search table to provide search suggestions to your users. Alternatively, you can wait until users search for keywords instead of running this script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-mobile-employee-experience/populate-search-suggestions-me.html
 release: xanadu
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -19,13 +20,13 @@ If you are upgrading from a previous release, run a script to populate search su
 
 Role required: admin
 
-In new instances, the search suggestions are enabled by default. In upgraded instances, you must enable the search suggestions. For more information, see [Enable search suggestions](https://www.servicenow.com/docs/access?context=enable-search-suggestions&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+In new instances, the search suggestions are enabled by default. In upgraded instances, you must enable the search suggestions. For more information, see Enable search suggestions.
 
 ## About this task
 
 The ServiceNow AI Platform collects search data and analytics that generate search suggestions. If you are upgrading from a previous release, the search analytics do not contain any data yet. To immediately provide suggestions to your users, you can populate the search suggestions using knowledge, catalog, and user search records from the Text Searches \[text\_search\] table.
 
-Search suggestions improve over time as more people use the app. Search Suggestions is a ServiceNow AI Platform feature. For more information, see [Search Suggestions](https://www.servicenow.com/docs/access?context=search-suggestions-overview&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Search suggestions improve over time as more people use the app. Search Suggestions is a ServiceNow AI Platform feature. For more information, see Search Suggestions.
 
 **Warning:** Populating search suggestions can be a resource-intensive task that may take a while to complete. Do not run this script during peak hours. Populating search suggestions is not supported on domain-separated instances.
 
@@ -44,5 +45,5 @@ Search suggestions improve over time as more people use the app. Search Suggesti
 
 Users see suggestions when they start typing in a search field in the Now Mobile app.
 
-**Parent Topic:**[Configuring Now Mobile](../concept/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

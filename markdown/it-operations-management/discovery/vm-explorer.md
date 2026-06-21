@@ -2,6 +2,7 @@
 title: Virtual Machine \(VM\) Explorer dashboard
 description: The Discovery Admin Workspace displays information on the activity and capacity of your Virtual Machine instances as revealed by discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/vm-explorer.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -15,7 +16,7 @@ breadcrumb: [Discovery Admin Workspace Insights, Discovery Admin Workspace, Expl
 
 The Discovery Admin Workspace displays information on the activity and capacity of your Virtual Machine instances as revealed by discovery.
 
-![VM dashboard](../image/vm_daw.png)
+\[Omitted image "vm\_daw.png"\] Alt text: VM dashboard
 
 ## Required ServiceNow AI Platform roles
 
@@ -61,7 +62,7 @@ Virtual machines by class
 
 </td><td>
 
-![bar](../../../use/reporting/image/icon-bar-report-p.png)
+\[Omitted image "icon-bar-report-p.png"\] Alt text: bar
 
 </td><td>
 
@@ -77,7 +78,7 @@ Virtual machines by state
 
 </td><td>
 
-![pie](../../../use/reporting/image/icon-pie-report-p.png)
+\[Omitted image "icon-pie-report-p.png"\] Alt text: pie
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Use the Now Assist CI summarizer AI agent
 description: View a concise summary of key configuration item \(CI\) data directly on a CI form, in the workspace, or from any list. The summary can include discovery and class details, associated business services, security vulnerabilities, and related records like incidents, alerts, problems, and change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-ci-summarizer.html
 release: xanadu
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -33,45 +34,45 @@ Like all agents, the agent is available for use by any agentic workflow. In addi
 
 2.  Select **Summarize**.
 
-    ![Summarize button on the CI form.](../../configuration-management/image/na-cmdb-summarize-button.png)
+    \[Omitted image "na-cmdb-summarize-button.png"\] Alt text: Summarize button on the CI form.
 
     Now Assist generates and displays summary information for the CI, as in this example.
 
-    ![Summary information.](../../configuration-management/image/na-cmdb-ci-summary-example.png)
+    \[Omitted image "na-cmdb-ci-summary-example.png"\] Alt text: Summary information.
 
 3.  Provide feedback, copy the summary text to the clipboard, or refresh the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d339890e133">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d355667e133">
 
 Option
 
-</th><th align="left" id="d339890e136">
+</th><th align="left" id="d355667e136">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d339890e142">
+</th></tr></thead><tbody><tr><td id="d355667e142">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select thumbs-up ![thumbs up icon](../../configuration-management/image/icon-thumbs-up.png). If you think that the summary wasn’t helpful, select thumbs-down ![thumbs down icon](../../configuration-management/image/icon-thumbs-down.png).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you think that the summary was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\] Alt text: thumbs up icon. If you think that the summary wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\] Alt text: thumbs down icon.This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d339890e165">
+</td></tr><tr><td id="d355667e165">
 
 **Copy the summary**
 
 </td><td>
 
-Select the copy to clipboard icon ![copy to clipboard icon](../../configuration-management/image/icon-clipboard.png) to use the summary information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] Alt text: copy to clipboard icon to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d339890e180">
+</td></tr><tr><td id="d355667e180">
 
 **Refresh the summary**
 
 </td><td>
 
-If you think that data might have changed after you viewed the summary, select the redo icon ![redo icon](../../configuration-management/image/icon-redo.png) to refresh the summary information.
+If you think that data might have changed after you viewed the summary, select the redo icon \[Omitted image "icon-redo.png"\] Alt text: redo icon to refresh the summary information.
 
 </td></tr></tbody>
 </table>

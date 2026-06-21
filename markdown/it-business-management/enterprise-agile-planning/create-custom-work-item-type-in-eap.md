@@ -2,6 +2,7 @@
 title: Create a custom work item type in EAP
 description: Create a custom work item type to include in the Agile configurations for Enterprise Agile Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/enterprise-agile-planning/create-custom-work-item-type-in-eap.html
 release: xanadu
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -29,7 +30,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Work item type form](../reference/work-item-type-form-for-eap.md).
+    For field information, see [Work item type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/enterprise-agile-planning/work-item-type-form-for-eap.md).
 
 4.  Deselect the **Create module** check box.
 
@@ -38,5 +39,5 @@ Role required: admin
 
 ## What to do next
 
-For any new work item type tables, create relevant form views and list views. See [Create or update form views for EAP work items](create-or-update-form-views-for-eap-work-items.md) and [Create or update list view for EAP work items](create-or-update-list-views-for-eap-work-items.md).
+For any new work item type tables, create relevant form views and list views. See [Create or update form views for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.md) and [Create or update list view for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.md).
 

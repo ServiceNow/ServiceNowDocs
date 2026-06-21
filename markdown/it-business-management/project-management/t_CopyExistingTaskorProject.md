@@ -2,6 +2,7 @@
 title: Copy an existing task or project
 description: Save time when building a project by copying tasks from other projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_CopyExistingTaskorProject.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -37,17 +38,17 @@ The **Copy partial project** option copies a selected task and its child tasks i
 
     The copied task is added to the current task or project. If a project was copied, then all the tasks are inserted into a new sub-project.
 
-    ![Copy partial project](../image/copy_partial_project.png)
+    \[Omitted image "copy\_partial\_project.png"\] Alt text: Copy partial project
 
 
 ## Result
 
 The copied tasks are inserted as a child of whatever task or project that you are currently viewing. Actual duration and the actual start and end dates are reset to null values. The state is set to **New** and percent complete is set to **0**.
 
-By default only the short description, planned dates and duration fields are copied from source project to the target project. If additional columns must be copied, they should be declared in the [project property](../reference/r_InstalledWithProjectManagement.md#project_application_properties) **List of attributes that will be copied from the originating project task**.
+By default only the short description, planned dates and duration fields are copied from source project to the target project. If additional columns must be copied, they should be declared in the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_InstalledWithProjectManagement.md) **List of attributes that will be copied from the originating project task**.
 
--   **[Change default values of copied fields](t_ChangeDefaultValCopiedProjTasks.md)**  
+-   **[Change default values of copied fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_ChangeDefaultValCopiedProjTasks.md)**  
 Change the default values of in the new partial project.
 
-**Parent Topic:**[Create a project task](t_CreateAProjectTask.md)
+**Parent Topic:**[Create a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProjectTask.md)
 

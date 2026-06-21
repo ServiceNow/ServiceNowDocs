@@ -2,6 +2,7 @@
 title: Assign roles for Hardware Vulnerability Assessment
 description: Assign roles to users so that they can configure properties, and use hardware vulnerability assessments features, capabilities, and data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/industrial-workspace/assign-hva-roles.html
 release: xanadu
 product: Industrial Workspace
 classification: industrial-workspace
@@ -58,9 +59,9 @@ Can view and perform assessments related to Hardware Vulnerability Assessment.
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).|
-    |**Assign a role to a group**|See [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).|
+    |**Assign a role to a user**|See Assign a role to a user.|
+    |**Assign a role to a group**|See Assign a role to a group.|
 
 
-**Parent Topic:**[Setting up Hardware Vulnerability Assessment of OT devices using guided setup](configure-hva-using-guided-setup.md)
+**Parent Topic:**[Setting up Hardware Vulnerability Assessment of OT devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 

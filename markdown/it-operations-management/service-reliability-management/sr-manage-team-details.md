@@ -2,6 +2,7 @@
 title: Manage your SRM team details
 description: Add or edit team members, description, contact information of you team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-manage-team-details.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the teams icon \(![Teams.](../image/icon-sr-teams.png)\).
+2.  From the left navigation pane, select the teams icon \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select the team card whose details you want to update.
 
@@ -43,5 +44,5 @@ Role required: Responder, Manager, or Administrator
 5.  Select **Save**.
 
 
-**Parent Topic:**[Add an SRM team](sr-create-team.md)
+**Parent Topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-team.md)
 

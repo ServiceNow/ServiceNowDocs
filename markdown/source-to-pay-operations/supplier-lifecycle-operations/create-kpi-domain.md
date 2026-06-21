@@ -2,6 +2,7 @@
 title: Create KPI performance domains
 description: Create KPI performance domains to classify various KPIs into categories. The KPIs under different performance domains can be viewed in the KPI management tab and the Performance dashboard to measure the supplier performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-domain.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -40,5 +41,5 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Configure your investment metrics as widgets
 description: Configure investment metrics based on your business requirements. These metrics appear as widgets on the Investment Portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/configure-investment-metrics.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -111,7 +112,7 @@ Include by default
 
 Check box to show an active investment widget by default on:-   new boards
 -   existing boards that do not have widget selection configured
-The check box is selected by default.For more information on configuring widgets on an investment board, see [Widget Configuration](use-investment-portal.md#image_cwc_2xh_ycb).
+The check box is selected by default.For more information on configuring widgets on an investment board, see [Widget Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/use-investment-portal.md).
 
 </td></tr><tr><td>
 

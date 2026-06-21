@@ -2,6 +2,7 @@
 title: Business unit owner showback dashboard
 description: As a business unit owner, you can use the Business Unit Owner Showback dashboard interface to see the statement items assigned to the business unit owner, set the pricing policy, and view the last period cost.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/business-unit-owner-showback-dashboard.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -34,5 +35,5 @@ You can also navigate to **Financial Charging** &gt; **My Showback Dashboard** t
     Lists all the showback statements owned by the business unit owner.
 
 
-**Parent Topic:**[Financial Charging](financial-reporting.md)
+**Parent Topic:**[Financial Charging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-reporting.md)
 

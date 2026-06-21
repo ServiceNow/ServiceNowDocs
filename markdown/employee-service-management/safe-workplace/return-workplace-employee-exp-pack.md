@@ -2,6 +2,7 @@
 title: Enterprise Employee Experience Pack
 description: Enterprise Employee Experience Pack is a new store application that delivers preconfigured process flows and sample content to help you quickly implement enterprise-wide use cases across multiple departments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/safe-workplace/return-workplace-employee-exp-pack.html
 release: xanadu
 product: Safe Workplace
 classification: safe-workplace
@@ -26,13 +27,13 @@ Bringing your workforce back into your reopened office after a closure requires 
 
 Enterprise Employee Experience Pack is an application that works with:
 
--   HR Service Delivery: For more information on using HR Service Delivery, see [HR Service Delivery](../../human-resources/concept/hr-service-delivery.md).
--   Lifecycle Events: For more information on using Lifecycle Events, see [Understanding Lifecyle events for enterprise](../../human-resources/concept/understanding-enterprise-onboarding-and-transitions.md).
--   Content Automation: For more information on using Content Automation, see [Creating campaigns with Content Experiences](../../employee-center/concept/ecpro-campaigns.md).
--   Content Delivery: For more information on using Content Delivery, see [Creating to-do content](../../employee-center/concept/ec-to-do-content.md#).
--   HR Knowledge Management: For more information on using HR Knowledge Management, see [HR Knowledge Management](../../human-resources/concept/hr-knowledge-management.md).
+-   HR Service Delivery: For more information on using HR Service Delivery, see [HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-service-delivery.md).
+-   Lifecycle Events: For more information on using Lifecycle Events, see [Understanding Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/understanding-enterprise-onboarding-and-transitions.md).
+-   Content Automation: For more information on using Content Automation, see [Creating campaigns with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
+-   Content Delivery: For more information on using Content Delivery, see [Creating to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-to-do-content.md).
+-   HR Knowledge Management: For more information on using HR Knowledge Management, see [HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-knowledge-management.md).
 -   Employee Service Center or Service Portal.
-    -   For more information on using the Employee Service Center \(ESC\), see [Employee Center](../../employee-center/concept/employee-center-landing-page.md).
+    -   For more information on using the Employee Service Center \(ESC\), see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
     -   For more information on using the Service Portal, see .
 
 **Note:** Some of the configurations are installed conditionally based on specific plugin activation.
@@ -47,14 +48,14 @@ For full functionality, Enterprise Employee Experience Pack works with:
 -   Employee Health Screening
 -   Workplace Core
 
--   **[Install Enterprise Employee Experience Pack](../task/install-return-workplace.md)**  
+-   **[Install Enterprise Employee Experience Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/install-return-workplace.md)**  
 You must have the admin role to install the Enterprise Employee Experience Pack application.
--   **[Return to Workplace campaigns](return-workplace-campaigns.md)**  
+-   **[Return to Workplace campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/return-workplace-campaigns.md)**  
 Use campaigns to deliver important messages and information to your employees that are going through the Return to Workplace process.
--   **[Return to Workplace Location Readiness and Employee Return to Workplace lifecycle events](return-workplace-le.md)**  
+-   **[Return to Workplace Location Readiness and Employee Return to Workplace lifecycle events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/return-workplace-le.md)**  
 Lifecycle events enable you to automate a collection of activities to help prepare your employees and your workplace for the return to work.
--   **[Return to Workplace Knowledge Management](return-workplace-knowledge.md)**  
+-   **[Return to Workplace Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/return-workplace-knowledge.md)**  
 Knowledge Management provides information to your employees during the return to workplace process.
 
-**Parent Topic:**[Safe Workplace](../../human-resources/concept/safe-workplace.md)
+**Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/safe-workplace.md)
 

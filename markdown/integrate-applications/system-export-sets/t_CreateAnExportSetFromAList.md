@@ -2,6 +2,7 @@
 title: Create an export set from a list
 description: You can quickly create an export set from a list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/system-export-sets/t\_CreateAnExportSetFromAList.html
 release: xanadu
 product: System Export Sets
 classification: system-export-sets

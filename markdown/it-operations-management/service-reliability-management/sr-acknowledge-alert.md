@@ -2,6 +2,7 @@
 title: Acknowledge an SRM alert
 description: Place an alert in the Acknowledged state if the alert has issues that must be addressed. You can acknowledge an alert without assigning it to yourself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-acknowledge-alert.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Select the **Alerts** tab.
 
@@ -35,12 +36,12 @@ Role required: Responder, Manager, or Administrator
 
 5.  Select **Acknowledge**.
 
-    You’re assigned to the alert or alerts that you have chosen. For more information on the alert form and actions, see [SRM alert states](../reference/sr-alerts-states.md).
+    You’re assigned to the alert or alerts that you have chosen. For more information on the alert form and actions, see [SRM alert states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-alerts-states.md).
 
-    **Note:** You can acknowledge an alert from the Alert form itself by selecting the **Acknowledged** check box, however, the alert isn’t automatically assigned to you. You must select an assignee in the **Assigned to** field and select **Save**. See [SRM alert workspace](../reference/sr-alerts-workspace.md).
+    **Note:** You can acknowledge an alert from the Alert form itself by selecting the **Acknowledged** check box, however, the alert isn’t automatically assigned to you. You must select an assignee in the **Assigned to** field and select **Save**. See [SRM alert workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-alerts-workspace.md).
 
-    For more information on the alert form and actions, see [SRM alert workspace](../reference/sr-alerts-workspace.md) or [SRM alert states](../reference/sr-alerts-states.md).
+    For more information on the alert form and actions, see [SRM alert workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-alerts-workspace.md) or [SRM alert states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-alerts-states.md).
 
 
-**Parent Topic:**[Working with alerts in SRM](../concept/sr-work-alerts.md)
+**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-alerts.md)
 

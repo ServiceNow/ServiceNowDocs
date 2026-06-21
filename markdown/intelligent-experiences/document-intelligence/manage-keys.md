@@ -2,6 +2,7 @@
 title: Create a field for data extraction
 description: Set up fields as part of your use case. Document Intelligence uses fields to identify and extract data from documents. Fields can be grouped to help DocIntel extract data from documents with tables, check box lists, and other logical groupings of fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/manage-keys.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -55,10 +56,10 @@ Role required: sn\_docintel.manager
 
     The type of form depends on the type of field that you selected in the previous step.
 
-    -   [Single field form](../reference/single-field-form.md)
-    -   [Single field group form](../reference/single-field-group-form.md)
-    -   [Check box list form](../reference/check-box-list-form.md)
-    -   [Table form](../reference/table-form.md)
+    -   [Single field form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/single-field-form.md)
+    -   [Single field group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/single-field-group-form.md)
+    -   [Check box list form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/check-box-list-form.md)
+    -   [Table form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/table-form.md)
 6.  Select **Save**.
 
 

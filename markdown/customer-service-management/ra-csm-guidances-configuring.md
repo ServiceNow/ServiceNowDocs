@@ -2,7 +2,10 @@
 title: Configuring Recommended Actions guidances
 description: After creating guidances with the Recommended Actions application, you can configure the Recommended Actions component in UI Builder to determine how those guidances are displayed in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-csm-guidances-configuring.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-12-03"
 reading_time_minutes: 5
@@ -15,17 +18,17 @@ After creating guidances with the Recommended Actions application, you can confi
 
 ## Guidance overview
 
-A guidance is a suggested action that an agent can take as they work to resolve tasks, such as customer service cases. Guidances are created with the Recommended Actions application. For more information, see [Create a guidance in Recommended Actions](../task/ra-csm-guidances-create.md).
+A guidance is a suggested action that an agent can take as they work to resolve tasks, such as customer service cases. Guidances are created with the Recommended Actions application. For more information, see [Create a guidance in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/ra-csm-guidances-create.md).
 
 After creating a guidance, you can configure a preview experience \(card view\) and a detail view \(full article view\). These experiences determine how a guidance is displayed in the Recommended Actions tab of the contextual side panel in CSM Configurable Workspace. For more information, see the following topics:
 
--   [Configure a guidance preview experience](../task/ra-csm-guidance-configure-preview.md)
--   [Customize a guidance preview experience in UI Builder](../task/customize-ra-preview-experience.md)
--   [Customize a guidance detail view in U Builder](../task/customize-ra-detail-experience.md)
+-   [Configure a guidance preview experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/ra-csm-guidance-configure-preview.md)
+-   [Customize a guidance preview experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/customize-ra-preview-experience.md)
+-   [Customize a guidance detail view in U Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/customize-ra-detail-experience.md)
 
 ## Recommended Actions component configuration
 
-Recommended Actions is a component that you can add to a record page in [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US). This component displays a list of recommended actions to an agent, based on the context of the current record.
+Recommended Actions is a component that you can add to a record page in UI Builder. This component displays a list of recommended actions to an agent, based on the context of the current record.
 
 You can use the Recommended Actions component properties to configure additional guidance settings. For more information about configuring the Recommended Actions component, including the properties and events, in the [Next Experience Components](https://developer.servicenow.com/dev.do#!/reference/now-experience/rome/components) documentation.
 
@@ -35,11 +38,11 @@ The Recommended Actions component includes the **Recommended action specific con
 
 -   Selecting the guidances or decision trees to show or hide in the Recommended Actions tab.
 -   Selecting the order of the actions to determine the primary action \(displayed as a button on the guidance card\) and secondary actions \(displayed on the overflow menu\).
--   Selecting which type of experience to uptake on a record page: modal or modeless dialog. For more information, see [Modal and modeless dialog experiences](ra-csm-guidances-attach-share-article.md#section_kwb_pbf_ddc).
+-   Selecting which type of experience to uptake on a record page: modal or modeless dialog. For more information, see [Modal and modeless dialog experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/ra-csm-guidances-attach-share-article.md).
 
 The **Recommended action specific configuration** property is available in the Configure tab of the Recommended Actions component. Point to the property and select **Edit** to display the property details in a modal. This property includes expandable sections for each guidance, which are identified by the sys ID of the guidance or decision tree record. Within these sections are settings for each action associated with the guidance or decision tree.
 
-![The recommended action specific configuration property includes sections for each guidance and settings that are specific to the actions in each guidance.](../image/ra-csm-specific-config-property.png "Recommended action specific configuration property")
+\[Omitted image "ra-csm-specific-config-property.png"\] Alt text: The recommended action specific configuration property includes sections for each guidance and settings that are specific to the actions in each guidance.
 
 The property displays the following fields for each guidance.
 

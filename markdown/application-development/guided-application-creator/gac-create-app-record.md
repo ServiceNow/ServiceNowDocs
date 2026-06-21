@@ -2,6 +2,7 @@
 title: Create an application record in Guided Application Creator
 description: Create an application record in Guided Application Creator to identify a custom application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/guided-application-creator/gac-create-app-record.html
 release: xanadu
 product: Guided Application Creator
 classification: guided-application-creator
@@ -17,7 +18,7 @@ Create an application record in Guided Application Creator to identify a custom 
 
 ## Before you begin
 
-By default, developers can't create applications in the global scope in Guided Application Creator. You can limit global application development to certain developers by assigning them an additional role. For more information, see [Allow global application development in Guided Application Creator](gac-activate-global.md).
+By default, developers can't create applications in the global scope in Guided Application Creator. You can limit global application development to certain developers by assigning them an additional role. For more information, see [Allow global application development in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-activate-global.md).
 
 Role required: sn\_g\_app\_creator.app\_creator or admin
 
@@ -63,18 +64,18 @@ Scope of your application. The application scope is set automatically when you n
 
  If available, you can also select to create your application in the global scope.
 
- For more information on application scopes, see [Application scope](../../applications/concept/c_ApplicationScope.md).
+ For more information on application scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_ApplicationScope.md).
 
 </td></tr></tbody>
 </table>3.  Give your application a logo image.
 
     You can drag and drop an image on the logo field, or you can select **Drag and drop or browse to upload logo**.
 
-    ![Logo field](../image/logo-field.png)
+    \[Omitted image "logo-field.png"\] Alt text: Logo field
 
 4.  Select **Create** to assign roles for your application.
 
-    To continue building your application in Guided Application Creator, follow the steps in [Define roles in Guided Application Creator](gac-create-roles.md).
+    To continue building your application in Guided Application Creator, follow the steps in [Define roles in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-create-roles.md).
 
     You can optionally exit Guided Application Creator on the **Let's create some roles for this app** screen to save the application and add more functions to it later. To exit, select **X** to close the screen and then select **Yes, close**.
 
@@ -85,5 +86,5 @@ Scope of your application. The application scope is set automatically when you n
 
 Your application record is saved in the Custom Application \[sys\_app\] table. You are added as a delegated developer for the application. To view your application later, navigate to **System Applications** &gt; **My Company Applications**.
 
-**Parent Topic:**[Setting up an application in Guided Application Creator](set-up-app.md)
+**Parent Topic:**[Setting up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/set-up-app.md)
 

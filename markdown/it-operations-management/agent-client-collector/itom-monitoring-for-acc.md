@@ -2,6 +2,7 @@
 title: Operating system and application monitoring using Agent Client Collector
 description: IT Operations Management \(ITOM\) monitoring for the Agent Client Collector is installed on the ServiceNow instance. It monitors the specific operating system and applications that are installed on the host machine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/itom-monitoring-for-acc.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -47,7 +48,7 @@ Apache HTTP Server
 
 </td><td>
 
-See [Configure Agent Client Collector Apache HTTP server monitoring](../task/acc-apache-http-server.md).
+See [Configure Agent Client Collector Apache HTTP server monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-apache-http-server.md).
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Apache Tomcat
 
 </td><td>
 
-See [Configure Agent Client Collector Apache Tomcat monitoring](../task/acc-apache-tomcat-monitoring.md).
+See [Configure Agent Client Collector Apache Tomcat monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-apache-tomcat-monitoring.md).
 
 </td></tr><tr><td>
 

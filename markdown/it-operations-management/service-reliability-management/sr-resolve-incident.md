@@ -2,6 +2,7 @@
 title: Resolve an SRM incident
 description: Resolve an incident, if you need it reviewed, or you think it has already been handled, but aren't ready to close it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-resolve-incident.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,21 +28,21 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Select the **Incidents** tab.
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d74823e101">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d76588e101">
 
 Option
 
-</th><th align="left" id="d74823e104">
+</th><th align="left" id="d76588e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d74823e110">
+</th></tr></thead><tbody><tr><td id="d76588e110">
 
 **In the incident list view**
 
@@ -51,7 +52,7 @@ Steps
 2.  Select **OK**.
 
 
-</td></tr><tr><td id="d74823e134">
+</td></tr><tr><td id="d76588e134">
 
 **In the incident form**
 
@@ -62,7 +63,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>    For value choices, see [SRM incident workspace](../reference/sr-incidents-workspace.md).
+</table>    For value choices, see [SRM incident workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
     The new state is displayed in the incident list view and incident form and form header.
 
@@ -75,5 +76,5 @@ Resolved incidents remain in the Incidents list view. Check your filters if you 
 
 When you resolve an incident, the related alerts remain open until you close the incident.
 
-**Parent Topic:**[Working with Incidents in SRM](../concept/sr-work-incidents.md)
+**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

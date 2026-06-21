@@ -2,6 +2,7 @@
 title: Components installed with Order Management for Manufacturing Foundation
 description: Several types of components are installed when you activate the Order Management application in Manufacturing Commercial Operations, including tables, properties, and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-som-installed-components.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-10-10"

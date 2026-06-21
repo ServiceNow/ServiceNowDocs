@@ -2,6 +2,7 @@
 title: Monitor ERP Data Hub logged extraction and remote lookup transactions
 description: Use the new monitoring feature to track each ERP transaction and its progress. Filter the ERP Data Hub task information, such as successes, failures, and more, as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -23,14 +24,14 @@ Role required: admin and sn\_erp\_integration.erp\_user
 
 1.  Navigate to **All** &gt; **ERP Data Hub**.
 
-2.  Open the ERP monitor page by selecting the Monitor icon \(![ERP monitor navigation icon](../image/erp-monitor-icon-sidebar.png)\) in the side panel.
+2.  Open the ERP monitor page by selecting the Monitor icon \(\[Omitted image "erp-monitor-icon-sidebar.png"\] Alt text: ERP monitor navigation icon\) in the side panel.
 
 3.  Select the **Extractions** and **Remote lookup** tabs to view transaction information.
 
-    ![ERP Data Hub monitor page with extractions tab selected.](../image/erp-monitor-extractions-tab.png)
+    \[Omitted image "erp-monitor-extractions-tab.png"\] Alt text: ERP Data Hub monitor page with extractions tab selected.
 
-    For a description of the field values, see [ERP Data Hub Monitor field descriptions](../reference/erp-data-hub-monitor-field-descriptions.md).
+    For a description of the field values, see [ERP Data Hub Monitor field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-data-hub-monitor-field-descriptions.md).
 
 
-**Parent Topic:**[Extracting and transforming data in ERP Data Hub](../concept/erp-canvas-extraction-tables.md)
+**Parent Topic:**[Extracting and transforming data in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
 

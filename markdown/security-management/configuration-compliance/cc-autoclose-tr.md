@@ -2,6 +2,7 @@
 title: Use Auto-Close Stale Test Results in Configuration Compliance
 description: Activate Auto-Close Stale Test Results \(TRs\) to automatically close older test results based on filter conditions that you set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-autoclose-tr.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -17,7 +18,7 @@ Activate Auto-Close Stale Test Results \(TRs\) to automatically close older test
 
 ## Before you begin
 
-For more information about this feature, key terms, and any setup that may be required for your third-party integrations that import test result data, see [Automatically closing stale test results in Configuration Compliance](../concept/cc-autoclose-tr-overview.md).
+For more information about this feature, key terms, and any setup that may be required for your third-party integrations that import test result data, see [Automatically closing stale test results in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-autoclose-tr-overview.md).
 
 Role required: sn\_vulc.admin
 
@@ -27,7 +28,7 @@ Role required: sn\_vulc.admin
 
 2.  Fill in the fields on the form.
 
-    ![Auto-Close Stale Test Results form](../image/cc-auto-close-tr-form.png)
+    \[Omitted image "cc-auto-close-tr-form.png"\] Alt text: Auto-Close Stale Test Results form
 
     |Field|Value|
     |-----|-----|
@@ -50,5 +51,5 @@ Role required: sn\_vulc.admin
     2.  If at least one TR is **Closed - Fixed** and the rest are **Closed - Stale**, the remediation task state transitions to **Closed - Fixed**.
     3.  If all the TRs in a remediation task are **Closed - Stale**, the TRG state transitions to **Closed - Canceled**.
 
-**Parent Topic:**[Automatically closing stale test results in Configuration Compliance](../concept/cc-autoclose-tr-overview.md)
+**Parent Topic:**[Automatically closing stale test results in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-autoclose-tr-overview.md)
 

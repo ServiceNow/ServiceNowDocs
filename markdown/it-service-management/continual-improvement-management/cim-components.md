@@ -2,6 +2,7 @@
 title: Components installed with Continual Improvement Management
 description: Several types of components are installed with activation of the com.sn\_cim plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/continual-improvement-management/cim-components.html
 release: xanadu
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -15,7 +16,7 @@ breadcrumb: [Continual Improvement Management reference, Continual Improvement M
 
 Several types of components are installed with activation of the com.sn\_cim plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -215,5 +216,5 @@ Enable the property to create the default phase when an improvement initiative i
 -   Default value: No
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Continual Improvement Management reference](cim-reference.md)
+</table>**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/continual-improvement-management/cim-reference.md)
 

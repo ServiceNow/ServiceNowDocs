@@ -2,6 +2,7 @@
 title: Create and manage Journey Accelerator plan types
 description: Create plan types to manage the top-level classification for stages and tasks in a Journey Accelerator plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-accelerator/create-manage-ja-plans.html
 release: xanadu
 product: Journey Accelerator
 classification: journey-accelerator
@@ -36,7 +37,7 @@ Managers select a plan type when they are configuring a specific plan. As an adm
     -   View for manager
     -   View for employee
     -   View for mentor
-    See, [Customize and manage Journey Accelerator plan headers](create-manage-plan-headers.md) to customize headers for a plan.
+    See, [Customize and manage Journey Accelerator plan headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-accelerator/create-manage-plan-headers.md) to customize headers for a plan.
 
 4.  Click the search icon next to a role to change the header configuration for that role.
 

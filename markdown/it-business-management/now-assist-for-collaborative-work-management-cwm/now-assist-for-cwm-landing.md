@@ -2,6 +2,7 @@
 title: Now Assist for Collaborative Work Management \(CWM\)
 description: The Now Assist for CWM application uses generative AI skills to improve time to value for the tasks you perform in the CWM workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.html
 release: xanadu
 product: Now Assist for Collaborative Work Management \(CWM\)
 classification: now-assist-for-collaborative-work-management-cwm
@@ -19,19 +20,19 @@ The Now Assist for CWM application uses generative AI skills to improve time to 
 
 <table id="table_np5_rf3_y2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn the features and key benefits](exploring-now-asssist-for-cwm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the features and key benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/now-assist-for-collaborative-work-management-cwm/exploring-now-asssist-for-cwm.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up the implementation](../task/configure-now-assist-for-collaborative-work-management.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-community.svg)Start using generative AI capabilities in CWM](../task/using-now-assist-for-cwm.md)
+[Use\[Omitted image "bus-community.svg"\] Alt text:Start using generative AI capabilities in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/now-assist-for-collaborative-work-management-cwm/using-now-assist-for-cwm.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about roles, tables, and system properties](now-assist-for-cwm-reference.md#)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about roles, tables, and system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -51,7 +52,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect task data \(for Case Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect task data \(for Case Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

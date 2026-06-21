@@ -2,6 +2,7 @@
 title: Map hardware assets to an operational schedule
 description: Create an asset schedule to map the hardware assets to an operation schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/create-asset-schedule-ham.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -112,5 +113,5 @@ Indicates whether the asset schedule is active.
 6.  To sync the mapping between the assets and the operational schedules on demand, select **Sync KPI records**.
 
 
-**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace](../concept/configure-kpi-settings-ham.md)
+**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/configure-kpi-settings-ham.md)
 

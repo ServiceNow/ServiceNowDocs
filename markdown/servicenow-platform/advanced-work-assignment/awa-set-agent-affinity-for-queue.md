@@ -2,6 +2,7 @@
 title: Set Agent Affinity rules
 description: Specify the Agent Affinity rules to determine the order in which work items in a queue are sorted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/advanced-work-assignment/awa-set-agent-affinity-for-queue.html
 release: xanadu
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -66,5 +67,5 @@ Value of this rule relative to the other rules in the queue. Rules are ordered f
     You can specify a maximum of three Agent Affinity rules per queue.
 
 
-**Parent Topic:**[Using Agent Affinity](../concept/awa-agent-affinity-concept.md)
+**Parent Topic:**[Using Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/advanced-work-assignment/awa-agent-affinity-concept.md)
 

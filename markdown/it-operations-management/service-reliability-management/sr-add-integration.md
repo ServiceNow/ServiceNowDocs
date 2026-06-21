@@ -2,6 +2,7 @@
 title: Add an integration to SRM
 description: Add an integration to monitor events and SLO/SLI for your service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-add-integration.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -29,7 +30,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the services icon \(![Services icon](../image/icon-sr-services.png)\).
+2.  From the left navigation pane, select the services icon \(\[Omitted image "icon-sr-services.png"\] Alt text: Services icon\).
 
 3.  Select a service.
 
@@ -77,5 +78,5 @@ Role required: Responder, Manager, or Administrator
         The integration is **Active** and available in your instance.
 
 
-**Parent Topic:**[Available SRM integrations](../concept/sr-builtin-integrations.md)
+**Parent Topic:**[Available SRM integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-builtin-integrations.md)
 

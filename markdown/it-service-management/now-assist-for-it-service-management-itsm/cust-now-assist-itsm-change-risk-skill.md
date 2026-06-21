@@ -2,12 +2,13 @@
 title: Customize a Now Assist for IT Service Management \(ITSM\) change risk explanation skill
 description: Enhance the efficiency to explain the risk of a change request by adding input fields and custom fields. You can also add more information to generate the explanation the using Now Assist for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-skill.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 6
+reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
 breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -38,7 +39,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the More actions icon ![More actions icon.](../../itsm-workspace/image/more-actions-icon.png) for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    3.  Select the More actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -48,7 +49,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](../reference/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -75,7 +76,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
         **Important:** If you add a new field with the same name as an existing field, the name and description of the new field will override the description of the existing field.
 
-        ![Choose input data screen for change request risk explanation](../image/itsm-now-assist-change-choose-input.png)
+        \[Omitted image "itsm-now-assist-change-choose-input.png"\] Alt text: Choose input data screen for change request risk explanation
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -112,7 +113,7 @@ Description of the base input field value.
 
         The data sources could include related tables and relationships. The Change Risk Details related input table with read-only fields is available by default. You can’t edit the existing data source fields but you can add new related tables or relationships by selecting **+New data source** and then selecting the desired option.
 
-        ![Additional input data sources](../image/itsm-now-assist-additional-input.png)
+        \[Omitted image "itsm-now-assist-additional-input.png"\] Alt text: Additional input data sources
 
 <table id="table_pcg_3zw_pdc"><thead><tr><th>
 
@@ -154,9 +155,9 @@ Relationship between the input table and the table field.
 
         If you turn the **Use similar changes as a data source** toggle button off, past similar changes won’t be included.
 
-        **Note:** You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+        **Note:** You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see .
 
-        ![Similar changes for change risk explanation](../image/itsm-now-assist-change-similar-changes.png)
+        \[Omitted image "itsm-now-assist-change-similar-changes.png"\] Alt text: Similar changes for change risk explanation
 
         The **Short description** field is available by default. You can edit or remove the following fields:
 
@@ -171,7 +172,7 @@ Relationship between the input table and the table field.
 
         **Important:** When you add a new related table with the same name as an existing table, the fields and the descriptions in the new table will override the fields and descriptions in the existing table.
 
-        ![Similar changes additional input](../image/itsm-now-assist-similar-changes-additional-input.png)
+        \[Omitted image "itsm-now-assist-similar-changes-additional-input.png"\] Alt text: Similar changes additional input
 
     5.  Select **Save and continue** to go to the next step.
 
@@ -181,7 +182,7 @@ Relationship between the input table and the table field.
 
         If the result shows that risk isn’t calculated for the change request, then the prompt created isn’t effective. If the output displays a prompt response, then the LLM has used the configurations in the previous steps and has passed them to the prompt to create the explanation.
 
-        ![Testing the output in change request risk explanation](../image/itsm-now-assist-test-output.png)
+        \[Omitted image "itsm-now-assist-test-output.png"\] Alt text: Testing the output in change request risk explanation
 
     2.  Select **Save and Continue** to go to the next step.
 
@@ -207,7 +208,7 @@ Relationship between the input table and the table field.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

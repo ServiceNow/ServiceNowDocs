@@ -2,6 +2,7 @@
 title: Applying CSDM guidelines to Problem Management
 description: Problem Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Problem Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/pm-use-case.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -22,7 +23,7 @@ Problem Management manages and uses CSDM tables. Several ServiceNow products ben
 3.  Business Service \[cmdb\_ci\_service\_business\] table and Technical service \[cmdb\_ci\_service\_technical\] table: Use the service classification attribute to identify business services and technical services.
 4.  Service Offering table \[service\_offering\]: Utilized as a choice list attribute to filter types of service offerings like Business Service, Technical Service, and Application Service.
 
-![CSDM tables used by Problem Management.](../image/pm-used-tables-csdm4.0.png)
+\[Omitted image "pm-used-tables-csdm4.0.png"\] Alt text: CSDM tables used by Problem Management.
 
 ## Products that add value to Problem Management
 
@@ -41,5 +42,5 @@ When you use Problem Management with one of the following ServiceNow products, y
 -   Governance, Risk, and Compliance \(GRC\): Auditors can leverage the business applications and related Information Objects. This helps auditors understand the design-time data sensitivity for scoping audits, measuring risks, and managing audit activities.
 -   Asset Management: Manages the software and hardware life cycles for business applications and business services.
 
-**Parent Topic:**[Problem Management product view](../concept/pm-use-case-product-view.md)
+**Parent Topic:**[Problem Management product view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/pm-use-case-product-view.md)
 

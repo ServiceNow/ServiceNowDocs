@@ -2,6 +2,7 @@
 title: Define an EVAM view template
 description: You can configure multiple view templates per datasource based on conditions to customize how data displays for users. The view template maps fields from the view configuration to component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.html
 release: xanadu
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -21,7 +22,7 @@ Role required: admin or evam\_admin
 
 ## About this task
 
-The view template is referenced from the EVAM view configuration record. For more information, see [Define an EVAM view configuration](define-template-predicate.md).
+The view template is referenced from the EVAM view configuration record. For more information, see [Define an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/entity-view-action-mapper-evam/define-template-predicate.md).
 
 ## Procedure
 

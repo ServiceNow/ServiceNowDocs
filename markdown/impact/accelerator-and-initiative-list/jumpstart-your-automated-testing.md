@@ -2,6 +2,7 @@
 title: Jumpstart Your Automated Testing
 description: Prescriptive guidance on enabling and utilizing Automated Test Framework
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/jumpstart-your-automated-testing.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

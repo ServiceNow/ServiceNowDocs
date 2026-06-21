@@ -2,7 +2,10 @@
 title: Customer data
 description: Customer data consists of information about people who are not part of your organization, including accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/customer-service-customer-data.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Financial Services Business Loan Operations dashboard
 description: With the Financial Services Business Loan Operations dashboard, you can get an insight into how your team and business are performing for business loan cases. You can monitor the status of loan cases, see trends, and drill down into the details from a single view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-loan-operations/business-loan-operations-dashboard.html
 release: xanadu
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -28,11 +29,11 @@ For any time period that you specify, you can view the details for the open case
 
 ## Access the Financial Services Business Loan Operations dashboard
 
-To access the Financial Services Business Loan Operations dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Financial Services Business Loan Operations dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon.\).
 
 Alternatively, you can navigate to **All** &gt; **Loan Operations** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see Analytics Center.
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout as usual by navigating to **All** &gt; **Loan Operations** &gt; **Dashboard**.
 
@@ -115,5 +116,5 @@ Needs to be able to customize views.
 -   Age
 -   Service
 
-**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-content-pack.md)
 

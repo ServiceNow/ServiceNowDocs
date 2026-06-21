@@ -2,6 +2,7 @@
 title: Analyze log lines that surround an anomaly
 description: View the log lines around an anomaly to help you identify the root cause of a Log Analytics alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-surrounding-logs-view-sow.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -25,7 +26,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 2.  Select the **Surrounding logs** tab and review the information.
 
-    The tab displays the list of log lines that were generated one minute before and one second after the Log Analytics alert. For an explanation of the information on the tab, see [Analyzing log lines to identify the root cause of an alert](../concept/hla-op-surrounding-logs-view-concept-sow.md).
+    The tab displays the list of log lines that were generated one minute before and one second after the Log Analytics alert. For an explanation of the information on the tab, see [Analyzing log lines to identify the root cause of an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-surrounding-logs-view-concept-sow.md).
 
 3.  View a different timespan of the log lines using one of the following methods:
 
@@ -34,5 +35,5 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 4.  View the anomalous log data graphically as a function of time by selecting **Log viewer**.
 
 
-**Parent Topic:**[Analyzing log lines to identify the root cause of an alert](../concept/hla-op-surrounding-logs-view-concept-sow.md)
+**Parent Topic:**[Analyzing log lines to identify the root cause of an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-surrounding-logs-view-concept-sow.md)
 

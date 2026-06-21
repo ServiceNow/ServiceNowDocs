@@ -2,6 +2,7 @@
 title: Add a log correlator to identify relationships in logs
 description: Detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-op-correlator-define.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -21,21 +22,21 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 ## About this task
 
-To learn more about the types and functions of log correlators, see [Using log correlators to detect relationships in log data](../concept/hla-op-correlator-what-is-a.md). For more information on log sources, see [Verify your log sources](../../health-log-analytics-admin/task/hla-log-sources-review.md).
+To learn more about the types and functions of log correlators, see [Using log correlators to detect relationships in log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md). For more information on log sources, see [Verify your log sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-log-sources-review.md).
 
 ## Procedure
 
 1.  Use one of the following methods to add a log correlator.
 
-<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d538594e104">
+<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d412041e104">
 
 Option
 
-</th><th align="left" id="d538594e107">
+</th><th align="left" id="d412041e107">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d538594e113">
+</th></tr></thead><tbody><tr><td id="d412041e113">
 
 **Add a log correlator for a specific log source**
 
@@ -46,7 +47,7 @@ Procedure
 3.  Click **New**.
 
 
-</td></tr><tr><td id="d538594e158">
+</td></tr><tr><td id="d412041e158">
 
 **Add a log correlator that applies either to all log sources or to only those log sources that become active after you define this log correlator**
 
@@ -79,7 +80,7 @@ Type
 
 Type of log correlator. Choices are as follows.-   **Free text correlator**: The log correlator analyzes text in the log message.
 -   **Log-key correlator**: The log correlator analyzes log metadata. For example, the name of a service instance in your infrastructure. Log property correlators are specific to the business context of your environment.
- For more information, see [Using log correlators to detect relationships in log data](../concept/hla-op-correlator-what-is-a.md).
+ For more information, see [Using log correlators to detect relationships in log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +119,7 @@ Excluded sources
 
 Sources that are excluded from the log correlator. The system does not analyze log lines from sources that are listed in this field.**Note:** This field applies only when the **Range of analysis** field is set **All sources** or **Only new sources**.
 
- For information about excluding a source from a log correlator, see [Exclude a source from a log correlator](../../health-log-analytics-admin/task/hla-correlators-exclude-source.md).
+ For information about excluding a source from a log correlator, see [Exclude a source from a log correlator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-correlators-exclude-source.md).
 
 </td></tr><tr><td>
 
@@ -132,5 +133,5 @@ Source of the log correlator. The log correlator analyzes the data of this log s
 </table>3.  Select **Active** and then click **Submit**.
 
 
-**Parent Topic:**[Using log correlators to detect relationships in log data](../concept/hla-op-correlator-what-is-a.md)
+**Parent Topic:**[Using log correlators to detect relationships in log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
 

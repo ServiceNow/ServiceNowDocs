@@ -2,6 +2,7 @@
 title: Email unsubscribe links
 description: Administrators can enable your users to stop receiving particular email messages by adding unsubscribe links to notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/email-unsubscribe.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -118,11 +119,11 @@ Manage your ${NOTIF_PREFS} or ${NOTIF_PREFS+link_text="click here"}.
 
 When rendered in an email notification, the unsubscribe links display only the link text.
 
-![An email wiith unsubscribe and notification preferences links.](../image/example-unsubscribe-links.png "Sample email with unsubscribe links")
+\[Omitted image "example-unsubscribe-links.png"\] Alt text: An email wiith unsubscribe and notification preferences links.
 
 If the **Unsubscribe** link is selected, the email client creates a message similar to the one shown in the following figure.
 
-![An email that shows how the email client works after the unsubscribe link is selected.](../image/example-unsubscribe-by-email.png "Sample unsubscribe by email message")
+\[Omitted image "example-unsubscribe-by-email.png"\] Alt text: An email that shows how the email client works after the unsubscribe link is selected.
 
-**Parent Topic:**[Create an email notification](../task/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateANotification.md)
 

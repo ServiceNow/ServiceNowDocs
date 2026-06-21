@@ -2,6 +2,7 @@
 title: Configuration Compliance calculators and calculator rules
 description: Configuration Compliance automate calculating initial values for the fields on test results. The condition for each calculator is evaluated in order, and the first matching calculator is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/config-compliance-calculator-rules.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -46,7 +47,7 @@ By default, a base system **Default Risk Calculator** is provided. If you want t
 
 You can adjust the values to use in the Default Risk Rule and how much weight to give each of these values. Weights are used to adjust how much each element counts when setting the base Risk Score.
 
-Starting with Configuration Compliance version 13.0, you can customize the criteria for the default risk rule. For more information, see [Define fields and weights for the risk rule](../task/define-fields-weights-risk-rule.md).
+Starting with Configuration Compliance version 13.0, you can customize the criteria for the default risk rule. For more information, see [Define fields and weights for the risk rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/define-fields-weights-risk-rule.md).
 
 ## Assigning a weightage percentage
 
@@ -91,14 +92,14 @@ In addition, the risk score is automatically recalculated in the following scena
 -   When a configuration item \(CI\) changes from non-internet facing to internet facing.
 -   When the associated Common Vulnerabilities and Exposures \(CVEs\) or third-party entries \(TPEs\) on the vulnerability items \(VIs\) are linked to a CVE Known Exploit Vulnerability \(KEV\).
 
--   **[Define fields and weights for the risk rule](../task/define-fields-weights-risk-rule.md)**  
+-   **[Define fields and weights for the risk rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/define-fields-weights-risk-rule.md)**  
 Customize the parameters and weights for the risk rule so that you can generate risk scores that use the test and asset data that are unique to your organization. By selecting the fields that are included in the risk rule, you can define an effective risk scoring framework.
--   **[Edit risk rollup calculators for Configuration Compliance](../task/v11create-rollup-calc.md)**  
+-   **[Edit risk rollup calculators for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/v11create-rollup-calc.md)**  
 Edit an existing risk rollup calculator.
--   **[Create, edit, and reapply risk calculators for Configuration Compliance](../task/v11reapplycalc.md)**  
+-   **[Create, edit, and reapply risk calculators for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/v11reapplycalc.md)**  
 Calculator rules can be applied to all affected test results and collections on-demand. Vulnerability managers may use this feature adjust their risk calculator configuration and apply changes on-demand to import findings.
--   **[Examples for Configuration Compliance risk score calculation](../reference/config-compliance-risk-calculator-example.md#)**  
+-   **[Examples for Configuration Compliance risk score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/config-compliance-risk-calculator-example.md)**  
 Starting with v13.0 of Configuration Compliance, you can customize the criteria for the default risk rule. Use risk scores provided by third-party vendors like Qualys and Tenable for risk score calculations.
 
-**Parent Topic:**[Create a Configuration Compliance calculator group](../task/create-confi-compl-calc-group.md)
+**Parent Topic:**[Create a Configuration Compliance calculator group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/create-confi-compl-calc-group.md)
 

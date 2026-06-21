@@ -2,6 +2,7 @@
 title: Xanadu Patch 8
 description: The Xanadu Patch 8 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-patch-8.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-04-10"
@@ -29,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Xanadu Patch 8 includes 147 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-xp8.png "Top 10 problem categories")
+\[Omitted image "prb-chart-xp8.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -37,7 +38,7 @@ Xanadu Patch 8 includes fixes for security-related problems that affected certai
 
 ## Changes in Xanadu Patch 8
 
--   **[Create a marketplace engagement method](https://www.servicenow.com/docs/access?context=create-marketplace-eng-mthd&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US)**
+-   ****
 
     Progressive push
 
@@ -45,7 +46,7 @@ Xanadu Patch 8 includes fixes for security-related problems that affected certai
 
     If the contractor does not respond or accept within a specified time frame, the request is shared automatically to the next ranked candidate. This process continues sequentially down the ranking list until it is shared with all contractors.
 
--   **[Add a contractor to Marketplace participants post-push](https://www.servicenow.com/docs/access?context=push-task-fsm-mktplc&version=xanadu&pubname=xanadu-field-service-management&section=managing-task-fsm-marketplace&ft:locale=en-US)**
+-   ****
 
     Use the Add Contractor button to add an eligible contractor to the list of marketplace participants once a work order task has already been pushed to Marketplace.
 
@@ -2189,15 +2190,15 @@ Unless any exceptions are noted, you can safely upgrade to this release version 
 
 -   [Xanadu Patch 7 Hot Fix 1](https://downloads.docs.servicenow.com/enus/xanadu/rn/hotfix/xanadu-patch-7-hf-1.pdf)
 -   [Xanadu Patch 7a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2038547)
--   [Xanadu Patch 7](xanadu-patch-7.md)
--   [Xanadu Patch 6](xanadu-patch-6.md)
--   [Xanadu Patch 5](xanadu-patch-5.md)
--   [Xanadu Patch 4](xanadu-patch-4.md)
--   [Xanadu Patch 3](xanadu-patch-3.md)
--   [Xanadu Patch 2](xanadu-patch-2.md)
--   [Xanadu Patch 1](xanadu-patch-1.md)
--   [Xanadu security and notable fixes](xanadu-security-notables.md)
--   [All other Xanadu fixes](xanadu-all-other-fixes.md)
+-   [Xanadu Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-7.md)
+-   [Xanadu Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-6.md)
+-   [Xanadu Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-5.md)
+-   [Xanadu Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-4.md)
+-   [Xanadu Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-3.md)
+-   [Xanadu Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-2.md)
+-   [Xanadu Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1.md)
+-   [Xanadu security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-security-notables.md)
+-   [All other Xanadu fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/available-versions.md)
 

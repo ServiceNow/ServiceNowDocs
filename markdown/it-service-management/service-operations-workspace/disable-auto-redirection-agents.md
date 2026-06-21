@@ -2,6 +2,7 @@
 title: Disable auto-redirection for all agents to Service Operations Workspace
 description: Verify that the agents aren't automatically redirected to Service Operations Workspace after logging in to the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/disable-auto-redirection-agents.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace

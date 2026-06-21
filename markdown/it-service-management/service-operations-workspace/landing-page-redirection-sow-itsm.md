@@ -2,6 +2,7 @@
 title: Landing page redirection in SOW for ITSM
 description: Redirection enables you to automatically route users to the SOW landing page upon login.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/landing-page-redirection-sow-itsm.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace

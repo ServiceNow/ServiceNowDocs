@@ -2,6 +2,7 @@
 title: Installed application — Number of crashes section
 description: View the number of crashes to gauge the application's stability, identify performance trends, and make informed decisions to enhance its reliability and user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/installed-app-crash-rate-form.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -42,7 +43,7 @@ Number of crashes - &lt;time&gt;**Note:** The &lt;time&gt; range of the performa
 Trend of crash count over a specific duration.The trend reflects the application's stability and reliability, with fluctuations indicating changes in performance.
 
 </td></tr></tbody>
-</table>To return to the Installed application details page, see [Installed application details](../concept/installed-application-details.md).
+</table>To return to the Installed application details page, see [Installed application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/installed-application-details.md).
 
-**Parent Topic:**[Applications list](application-form.md)
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/application-form.md)
 

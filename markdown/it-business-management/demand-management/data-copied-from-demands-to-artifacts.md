@@ -2,6 +2,7 @@
 title: Data migrated from demands to artifacts
 description: Data fields that are migrated from a demand to an artifact when the artifact is created from the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/demand-management/data-copied-from-demands-to-artifacts.html
 release: xanadu
 product: Demand Management
 classification: demand-management
@@ -15,8 +16,8 @@ breadcrumb: [Reference, Demand Management, Project Portfolio Management, Strateg
 
 Data fields that are migrated from a demand to an artifact when the artifact is created from the demand.
 
--   **[Data migrated from a demand to a created project](data-copied-from-demand-to-project.md)**  
+-   **[Data migrated from a demand to a created project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/data-copied-from-demand-to-project.md)**  
 Data fields are migrated from a demand to a project when the project is created from the demand.
 
-**Parent Topic:**[Demand Management reference](../../service-portfolio-management2/concept/demand-management-reference.md)
+**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/demand-management-reference.md)
 

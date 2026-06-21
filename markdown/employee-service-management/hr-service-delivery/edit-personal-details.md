@@ -2,6 +2,7 @@
 title: Edit personal details
 description: Review your personal details and edit them if necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/edit-personal-details.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

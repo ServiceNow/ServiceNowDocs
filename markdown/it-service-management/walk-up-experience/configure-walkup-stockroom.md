@@ -2,6 +2,7 @@
 title: Create or modify a Walk-up Experience stockroom
 description: Create stockrooms and assign assets and groups specifically for your walk-up location. Walk-up stockrooms contain common assets that visitors to the walk-up location will typically request, such as a computer mouse, monitors, and cables. The walk-up location stockroom should be easily accessible to your walk-up location for fast request fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/walk-up-experience/configure-walkup-stockroom.html
 release: xanadu
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -40,8 +41,8 @@ Stockrooms are separate, standalone entities in the Asset Management application
     |Type|Type of stockroom. Chose **Walk-up** to create a walk-up stockroom.|
     |Manager|Person in charge of the stockroom. Receives restocking notifications and requests for the stockroom stock rules.|
 
-    For more information on creating or modifying a stockroom, and adding and managing stockroom assets, refer to [Stockrooms](../../asset-management/concept/c_Stockrooms.md#) .
+    For more information on creating or modifying a stockroom, and adding and managing stockroom assets, refer to [Stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_Stockrooms.md) .
 
 
-**Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

@@ -2,6 +2,7 @@
 title: Workflows for SLA
 description: SLA typically uses workflows to send notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-level-management/c\_WorkflowsForSLA.html
 release: xanadu
 product: Service Level Management
 classification: service-level-management
@@ -23,10 +24,10 @@ The **SLA Notification and Escalation Workflow** creates the events that send ou
 
 **Note:** This feature is available only in new instances starting with Jakarta or a later release. The Problem Management Best Practice – Jakarta plugin \(com.snc.best\_practice.problem.jakarta\) plugin must be activate.
 
-**Parent Topic:**[Service Level Management reference](service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-level-management/service-level-management-reference.md)
 
 **Related topics**  
 
 
-[Workflow editor](https://www.servicenow.com/docs/access?context=workflow-editor&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.workflow-editor]
 

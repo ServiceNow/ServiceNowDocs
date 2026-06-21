@@ -2,6 +2,7 @@
 title: Add actions to the notification content
 description: Use the Link Actions to Content related list to add actions to the notification content, selection of the provider notification and ordering of actions of an actionable content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/noti-select-provider-actions-order.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -107,5 +108,5 @@ Option to link actions from event parm2. Actions must be sys\_ids from the **sys
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Create provider notification](../concept/create-provider-notification-using.md)
+**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-provider-notification-using.md)
 

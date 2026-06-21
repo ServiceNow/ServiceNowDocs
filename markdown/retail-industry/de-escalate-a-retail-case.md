@@ -2,6 +2,7 @@
 title: De-escalate a retail case
 description: De-escalate a retail case when needed using the related links within a retail case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/de-escalate-a-retail-case.html
 release: xanadu
 topic_type: task
 last_updated: "2024-10-16"

@@ -2,6 +2,7 @@
 title: Career hub overview
 description: The Career hub tab provides a summary view of your growth and development plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/egd-career-hub-expl.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -147,7 +148,7 @@ Skill Self-Rating
 
 </td><td>
 
-As you work on your career and talent development activities, you receive monthly reminders for you to refresh your career profile. Read more about updating your profile and skills in the [Career tab in Employee Center](../../skills-intelligence/concept/manage-skills-profile.md) topic.
+As you work on your career and talent development activities, you receive monthly reminders for you to refresh your career profile. Read more about updating your profile and skills in the [Career tab in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/manage-skills-profile.md) topic.
 
 </td></tr><tr><td>
 
@@ -166,5 +167,5 @@ Your skill range
 Gets you started with uploading a resume and adding skills to your profile.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Explore Talent Development Core](egd-explore.md)
+</table>**Parent Topic:**[Explore Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/egd-explore.md)
 

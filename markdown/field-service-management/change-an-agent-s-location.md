@@ -2,7 +2,10 @@
 title: Change map marker location in the Territory Planning console
 description: Update the location of your map markers for a dynamic and accurate visual representation of your data entities on the map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/change-an-agent-s-location.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -19,7 +22,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_
 
 ## About this task
 
-You can move the map marker icons from the current location to the new location only when the `Enable location change on map` field is selected and a valid `Script` is provided while creating the marker layer overlays. For more information, see [Create a marker layer overlay](../concept/configuring-map-overlay.md#).
+You can move the map marker icons from the current location to the new location only when the `Enable location change on map` field is selected and a valid `Script` is provided while creating the marker layer overlays. For more information, see [Create a marker layer overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/configuring-map-overlay.md).
 
 ## Procedure
 
@@ -27,15 +30,15 @@ You can move the map marker icons from the current location to the new location 
 
 2.  Edit location for marker overlay data items.
 
-<table id="choicetable_j1m_5b2_2yb"><thead><tr><th align="left" id="d46811e92">
+<table id="choicetable_j1m_5b2_2yb"><thead><tr><th align="left" id="d37108e92">
 
 To
 
-</th><th align="left" id="d46811e95">
+</th><th align="left" id="d37108e95">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d46811e101">
+</th></tr></thead><tbody><tr><td id="d37108e101">
 
 **Edit location of a single icon map marker**
 
@@ -43,16 +46,16 @@ Do the following
 
 -   Select the desired map marker icon on the map.
 -   The data item card appears in the contextual side panel.
--   Click the **More actions** icon \(![More actions icon.](../image/more_actions.png)\) and select **Edit location**.
+-   Click the **More actions** icon \(\[Omitted image "more\_actions.png"\] Alt text: More actions icon.\) and select **Edit location**.
 
 **Note:**
 
-You can move the map marker icon from the current location to the new location only when the `Enable location change on map` field is selected and a valid `Script` is provided while creating the marker layer overlays. For more information, see [Create a marker layer overlay](../concept/configuring-map-overlay.md#).
+You can move the map marker icon from the current location to the new location only when the `Enable location change on map` field is selected and a valid `Script` is provided while creating the marker layer overlays. For more information, see [Create a marker layer overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/configuring-map-overlay.md).
 
 -   Drag and drop the map marker to the desired location or enter the address manually in the **New Location** field.
 
 
-</td></tr><tr><td id="d46811e156">
+</td></tr><tr><td id="d37108e156">
 
 **Edit location of all items in a co-located marker data item**
 
@@ -73,7 +76,7 @@ You can move the map marker icon from the current location to the new location o
 
 ## Result
 
-The following snapshots illustrate the process of changing data item locations when selecting a single map marker or a co-located map marker icon.![GIF displaying the process of changing the map overlay data item's location.](../image/csp.gif)
+The following snapshots illustrate the process of changing data item locations when selecting a single map marker or a co-located map marker icon.\[Omitted image "csp.gif"\] Alt text: GIF displaying the process of changing the map overlay data item's location.
 
-**Parent Topic:**[Using Field Service Territory Planning Console](../concept/using-territory-planning-console.md)
+**Parent Topic:**[Using Field Service Territory Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-territory-planning-console.md)
 

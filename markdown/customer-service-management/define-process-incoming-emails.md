@@ -2,7 +2,10 @@
 title: Define rules to process incoming emails
 description: Define your email-related business processes using inbound email flows. This enables you to manage emails along with your customer service processes through a visual Flow Designer interface without having to design or request complex scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/define-process-incoming-emails.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-09-19"
 reading_time_minutes: 1
@@ -68,7 +71,7 @@ Email flows use conditional logic to incorporate multiple business processes in 
 **Related topics**  
 
 
-[Building flows](https://www.servicenow.com/docs/access?context=flows&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.flows]
 
-[Building custom actions](https://www.servicenow.com/docs/access?context=actions&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.actions]
 

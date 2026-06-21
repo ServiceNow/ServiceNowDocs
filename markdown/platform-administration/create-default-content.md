@@ -2,6 +2,7 @@
 title: Create default content in a provider
 description: Create and use the default content for a notification that doesn't have a content provider or some of the fields in the content provider aren’t present.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-default-content.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -42,5 +43,5 @@ Role required: admin
     A new default content has been created.
 
 
-**Parent Topic:**[Create provider notification](../concept/create-provider-notification-using.md)
+**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-provider-notification-using.md)
 

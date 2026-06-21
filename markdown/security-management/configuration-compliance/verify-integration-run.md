@@ -2,6 +2,7 @@
 title: Verify the Vulnerability Response Integration with Palo Alto Prisma Cloud import run status
 description: Use the Vulnerability Response Integration with Palo Alto Prisma Cloud import run status to verify the success of your integration runs and to identify any issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/verify-integration-run.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -57,5 +58,5 @@ During integration execution, multiple processes are generated, and data is rece
         Under the **Items** tab, click the vulnerability integration run to view the number of new tests results imported, updated, and ignored. The **Configuration Items** tab also gets populated based on the number of test results created.
 
 
-**Parent Topic:**[Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud](prisma-cloud-overview.md)
+**Parent Topic:**[Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/prisma-cloud-overview.md)
 

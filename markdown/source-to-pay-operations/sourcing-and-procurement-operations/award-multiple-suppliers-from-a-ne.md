@@ -2,6 +2,7 @@
 title: Award multiple suppliers from a negotiation event
 description: When negotiations are complete for a negotiation event, you can award one or multiple suppliers from the negotiation event, or reject all bids, as required. Awarding suppliers create purchase requisitions for the selected suppliers and items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/award-multiple-suppliers-from-a-ne.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -44,5 +45,5 @@ Role required: sn\_shop.procurement\_specialist
     **Note:** The negotiation event is moved to Closed Complete, with the individual negotiations under it moved to Closed Decided or Closed Rejected based on your selection. The awarded sourcing requests are moved to Closed Complete, with purchase requisitions automatically created for the purchase lines. All the other sourcing requests are moved to the Closed Rejected state.
 
 
-**Parent Topic:**[Source-to-Pay Workspace](../concept/procurement-specialist-workspace.md)
+**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/procurement-specialist-workspace.md)
 

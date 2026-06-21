@@ -2,6 +2,7 @@
 title: Card disputes data model
 description: This section outlines the card disputes data model and the tables installed with the disputes application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/dispute-data-model.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ This section outlines the card disputes data model and the tables installed with
 
 The following diagram shows the tables and their relationships within the card disputes data model.
 
-![Diagram showing the relationships between various tables in the card disputes data model.](../../fso-deposit-operations/image/MMASSET0020606-card-dispute-data-model.png "Dispute data model")
+\[Omitted image "MMASSET0020606-card-dispute-data-model.png"\] Alt text: Diagram showing the relationships between various tables in the card disputes data model.
 
 ## Card disputes tables
 
@@ -64,5 +65,5 @@ The following diagram shows the tables and their relationships within the card d
 |Consumer|csm\_consumer|Table in ServiceNow represents a B2C customer. This table helps in organizing and maintaining consumer information, ensuring that all relevant details are easily accessible and manageable|
 |Contact|customer\_contact|This table helps in organizing and maintaining contact details, ensuring that all relevant information is easily accessible and manageable.|
 
-**Parent Topic:**[Dispute Management](../../fso-deposit-operations/concept/dispute-management.md)
+**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management.md)
 

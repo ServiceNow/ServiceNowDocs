@@ -2,6 +2,7 @@
 title: Add a custom implementation for device classification
 description: Customize the base system classification of an device based on the type, os\_version, and firmware\_version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/adding-custom-implementation-for-asset-classification.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -37,7 +38,7 @@ Role required: cmdb\_inst\_admin, import\_admin, import\_scheduler, admin
 
     Make sure that the result returned from the **getAssetCMDBSysClassNameWithOtEntityTypeSysId** extension point follows the format mentioned in the comments. Any change in the result string format results in import failure or irregularities. The format should be &lt;cmdb class name&gt;:::&lt;ot entity type sys id&gt;.
 
-<table id="choicetable_thp_13x_drb"><tbody><tr><td id="d49864e124">
+<table id="choicetable_thp_13x_drb"><tbody><tr><td id="d24877e124">
 
 **getAssetCMDBSysClassNameWithOtEntityTypeSysId\(/\*string\*/ type, /\*string\*/ osVersion, /\*string\*/ firmwareVersion\)**
 
@@ -45,7 +46,7 @@ Role required: cmdb\_inst\_admin, import\_admin, import\_scheduler, admin
 
 Implement this method to return the CMDB sys class name that the device belongs to, along with the OT Entity type sys\_id concatenated with “:::”.For unclassified devices, the OT device type is set to ot\_base.
 
-</td></tr><tr><td id="d49864e138">
+</td></tr><tr><td id="d24877e138">
 
 **getComputerType\(\(/\*string\*/ operatingSystem\)**
 
@@ -63,5 +64,5 @@ Returns the CMDB sys class name based on the operating system passed.
 
 From the related lists Implementations tab, open the base system extension point implementation to inactivate it.
 
-**Parent Topic:**[Service Graph Connector for Microsoft Excel](../concept/service-graph-connector-for-OT-excel.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)
 

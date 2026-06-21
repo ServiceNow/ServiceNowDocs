@@ -2,6 +2,7 @@
 title: Risk assessment form
 description: Risk assessment managers can use the risk assessment form to conduct their risk assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-risk-assessment-form.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Em
 
 Risk assessment managers can use the risk assessment form to conduct their risk assessments.
 
-For information on performing risk assessments, see [Conduct a safety risk assessment](../task/hs-conduct-risk-assessment.md).
+For information on performing risk assessments, see [Conduct a safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-conduct-risk-assessment.md).
 
 <table id="table_h2z_pzc_c1c"><thead><tr><th>
 
@@ -124,5 +125,5 @@ Additional comments
 Any comments related to the assessment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

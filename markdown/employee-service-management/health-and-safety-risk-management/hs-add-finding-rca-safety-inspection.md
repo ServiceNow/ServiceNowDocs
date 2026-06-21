@@ -2,6 +2,7 @@
 title: Add a finding and root cause analysis for a safety inspection
 description: Record a finding based on the survey results for a safety inspection and perform a root cause analysis \(RCA\) for it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-add-finding-rca-safety-inspection.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,7 +24,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  In the **Inspections** list, select **All** and open an inspection record to add a finding.
 
@@ -62,7 +63,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager
 
 ## What to do next
 
-Add actions for each finding to ensure that any issues are prevented or corrected. For more information, see [Add an action for a safety inspection or audit](hs-add-action-safety-inspection.md).
+Add actions for each finding to ensure that any issues are prevented or corrected. For more information, see [Add an action for a safety inspection or audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-add-action-safety-inspection.md).
 
-**Parent Topic:**[Safety inspections and audits](../concept/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

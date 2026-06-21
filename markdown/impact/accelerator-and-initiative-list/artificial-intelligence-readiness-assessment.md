@@ -2,6 +2,7 @@
 title: Artificial Intelligence Readiness Assessment
 description: The Artificial Intelligence \(AI\) Readiness Assessment Accelerator provides an assessment and guidance related to your readiness to start adopting ServiceNow AI capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -34,7 +35,7 @@ This Accelerator provides you with an assessment and guidance on your readiness 
 
 Your Impact Squad provides guidance based on your responses to an AI Readiness Self-assessment that highlights key readiness criteria related to your selected ServiceNow AI capabilities.
 
-See [Enable AI experiences](https://www.servicenow.com/docs/access?context=ai-products&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for additional information on ServiceNow AI-based tools.
+See  for additional information on ServiceNow AI-based tools.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

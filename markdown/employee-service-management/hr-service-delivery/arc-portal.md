@@ -2,6 +2,7 @@
 title: Anonymous Report Center \(ARC\)
 description: Employees can submit sensitive complaints or misconduct cases anonymous to the agent working on the case, using the Anonymous Report Center \(ARC\) portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/arc-portal.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,7 +32,7 @@ From the Employee Center, employees can choose to submit a complaint through the
 
 **Note:**
 
--   A report key \(optional\) can be generated that allows the person filing the complaint to track and view details about the progress of the anonymous case and respond to any follow up questions. Without the report key, the person who made the anonymous report cannot access their report. For more information, see [Setting up the Anonymous Report Center](arc-setup.md).
+-   A report key \(optional\) can be generated that allows the person filing the complaint to track and view details about the progress of the anonymous case and respond to any follow up questions. Without the report key, the person who made the anonymous report cannot access their report. For more information, see [Setting up the Anonymous Report Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/arc-setup.md).
 -   Anonymous Report Center \(ARC\) does not display all widgets if the guest user is deleted from the instance.
 -   Although HR agents can’t track users through the ARC portal, system admins can potentially trace users via their IP addresses.
 

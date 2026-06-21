@@ -2,7 +2,10 @@
 title: Configuring Field Service Management using Guided Setup
 description: Field Service Management Guided Setup provides a sequence of tasks that help you import and configure the foundation data for Field Service Management on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/configuring-field-service-management-with-guided-setup.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-23"
 reading_time_minutes: 1

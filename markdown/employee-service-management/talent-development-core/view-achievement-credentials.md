@@ -2,6 +2,7 @@
 title: View credentials in Achievements and Credentials
 description: View all type of user credentials in Achievements and Credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/view-achievement-credentials.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -46,5 +47,5 @@ Role required: admin
     |Updates|Information about the most recent updates made to the credential.|
 
 
-**Parent Topic:**[Achievements and Credentials in Talent Development Core](achievements-and-credentials-in-td.md)
+**Parent Topic:**[Achievements and Credentials in Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/achievements-and-credentials-in-td.md)
 

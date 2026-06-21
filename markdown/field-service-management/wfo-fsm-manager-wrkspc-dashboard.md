@@ -2,7 +2,10 @@
 title: Workforce Optimization for Field Service Manager Workspace dashboard
 description: Monitor your teams' work and organizational performance using Workforce Optimization for Field Service. Stay on top of the status of the tasks your teams are working on at a given time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/wfo-fsm-manager-wrkspc-dashboard.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -13,7 +16,7 @@ breadcrumb: [Managing Workforce Optimization for Field Service, Using Field Serv
 
 Monitor your teams' work and organizational performance using Workforce Optimization for Field Service. Stay on top of the status of the tasks your teams are working on at a given time.
 
-![Dashboard showing active agent statuses and work order tasks filtered by priority and status.](../../../product/field-service-management/image/Manager-wrkspc.png)
+\[Omitted image "Manager-wrkspc.png"\] Alt text: Dashboard showing active agent statuses and work order tasks filtered by priority and status.
 
 ## End user and roles
 
@@ -109,7 +112,7 @@ Tasks by SLA
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -121,7 +124,7 @@ Tasks by priority
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -133,7 +136,7 @@ Pending approval
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -145,7 +148,7 @@ Closed work orders
 
 </td><td>
 
-Stacked bar chart ![](../../../reuse/reporting/image/bar-stacked.svg)
+Stacked bar chart \[Omitted image "bar-stacked.svg"\] Alt text:
 
 </td><td>
 
@@ -169,7 +172,7 @@ Planned vs actual task duration
 
 </td><td>
 
-Stacked bar chart ![](../../../reuse/reporting/image/bar-stacked.svg)
+Stacked bar chart \[Omitted image "bar-stacked.svg"\] Alt text:
 
 </td><td>
 
@@ -193,7 +196,7 @@ Active Agent Status
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -205,7 +208,7 @@ Active Work order tasks
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -217,7 +220,7 @@ Top assignment groups
 
 </td><td>
 
-Donut ![](../../reporting/image/icon-donut-report.png)
+Donut \[Omitted image "icon-donut-report.png"\] Alt text:
 
 </td><td>
 
@@ -229,7 +232,7 @@ Pending tasks by status
 
 </td><td>
 
-Donut ![](../../reporting/image/icon-donut-report.png)
+Donut \[Omitted image "icon-donut-report.png"\] Alt text:
 
 </td><td>
 
@@ -241,7 +244,7 @@ Active Tasks by status
 
 </td><td>
 
-Donut ![](../../reporting/image/icon-donut-report.png)
+Donut \[Omitted image "icon-donut-report.png"\] Alt text:
 
 </td><td>
 
@@ -253,7 +256,7 @@ Tasks by closure status
 
 </td><td>
 
-Donut ![](../../reporting/image/icon-donut-report.png)
+Donut \[Omitted image "icon-donut-report.png"\] Alt text:
 
 </td><td>
 
@@ -272,5 +275,5 @@ List
 Displays the list of active tasks by status.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing Workforce Optimization for Field Service](../../../product/field-service-management/concept/using-wfo-fsm.md)
+</table>**Parent Topic:**[Managing Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-wfo-fsm.md)
 

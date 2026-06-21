@@ -2,6 +2,7 @@
 title: Work on a dispute case
 description: Work on a card dispute case to review case information, ensure that any outstanding tasks are completed, and resolve the service request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/work-dispute-case.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -19,14 +20,14 @@ Work on a card dispute case to review case information, ensure that any outstand
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
 When a customer requires resolution of a dispute, there are two ways a case is raised:
 
 -   An agent initiates a case and provides dispute transaction details, triggering a workflow for the transaction.
--   A customer files a dispute through their financial institution's customer portal. \(See [Dispute Intake in Portal](../concept/dispute-playbook-for-portal.md) for more information.\) The dispute agent assigned to the case then reviews the submitted details, makes updates as necessary, then submits the case for investigation.
+-   A customer files a dispute through their financial institution's customer portal. \(See [Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-playbook-for-portal.md) for more information.\) The dispute agent assigned to the case then reviews the submitted details, makes updates as necessary, then submits the case for investigation.
 
 Throughout the workflow, dispute agents complete their assigned tasks, and the statuses of tasks associated with the case update. Depending on the task updates, a workflow might have additional or fewer tasks. If there are more than one disputed transactions associated with a case, the case remains open until the workflows for each transaction are completed and closed.
 
@@ -36,7 +37,7 @@ Use the case playbook that provides the activities and tasks required to researc
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../../use/reporting/image/inline-data-vis-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -81,16 +82,16 @@ Use the case playbook that provides the activities and tasks required to researc
 
 The tasks update to Closed Complete.
 
--   **[Initiate a dispute](initiating-dispute.md)**  
+-   **[Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/initiating-dispute.md)**  
 Begin a dispute case in Financial Services Card Operations for a transaction associated with a card account. You can enter dispute information, fill out the dispute questionnaire, upload supporting documentation, and submit the case for investigation.
--   **[Review a dispute from cardholder intake](review-a-dispute-from-cardholder-intake.md)**  
+-   **[Review a dispute from cardholder intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/review-a-dispute-from-cardholder-intake.md)**  
 Review dispute cases in Financial Services Operations submitted by customers from a dispute intake portal. You can verify the disputed transactions, update the dispute reason, and submit for investigation after review.
--   **[Investigating a dispute](investigate-a-dispute.md)**  
+-   **[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/investigate-a-dispute.md)**  
 Complete tasks such as determining a recovery option, writing off a disputed transaction amount, and provide immediate final credit, notify the merchant, initiate provisional credit, determine reversal of provisional credit, and investigate the transaction.
--   **[Initiating a chargeback](initiate-a-chargeback.md)**  
+-   **[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/initiate-a-chargeback.md)**  
 Complete tasks such as reporting fraud, initiating a chargeback, and refunding a merchant.
--   **[Close a card dispute](closure-dispute-case.md)**  
+-   **[Close a card dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/closure-dispute-case.md)**  
 After you have completed all tasks in a card dispute case, you can add final details and close the case in the Closure playbook stage.
 
-**Parent Topic:**[Managing dispute service requests](../concept/managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/managing-card-disputes.md)
 

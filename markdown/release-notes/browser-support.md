@@ -2,6 +2,7 @@
 title: Browser support
 description: Browser support varies for each version of the user interface \(UI\). Some features have additional browser requirements, which are noted in the appropriate documentation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/browser-support.html
 release: xanadu
 topic_type: reference
 last_updated: "2026-03-12"
@@ -176,7 +177,7 @@ Not supported
 Latest version of iOS and SafariLatest version of Android and Chrome
 
 </td></tr></tbody>
-</table>\*Mobile phone browsers do not support the desktop version of the UI. Instead, mobile browsers use the [mobile UI](https://www.servicenow.com/docs/access?context=mobile-access-options&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US).
+</table>\*Mobile phone browsers do not support the desktop version of the UI. Instead, mobile browsers use the mobile UI.
 
 ## Firefox
 

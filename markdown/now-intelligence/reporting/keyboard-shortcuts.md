@@ -2,6 +2,7 @@
 title: Report Designer keyboard shortcuts
 description: Keyboard shortcuts enable you to perform certain functions in the Report Designer without using your mouse.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/reporting/keyboard-shortcuts.html
 release: xanadu
 product: Reporting
 classification: reporting
@@ -24,10 +25,10 @@ You can use the following keyboard shortcuts.
 |Open the domain picker. \(This shortcut only works if domain separation is enabled.|`Control + Alt (Option) + D`|
 |Opens the **Data** tab|`Control + Alt (Option) + 1`|
 
-**Parent Topic:**[Reporting reference](../concept/reporting-reference.md)
+**Parent Topic:**[Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/reporting-reference.md)
 
 **Related topics**  
 
 
-[Keyboard shortcuts](https://www.servicenow.com/docs/access?context=r_KeyboardShortcuts&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.r_KeyboardShortcuts]
 

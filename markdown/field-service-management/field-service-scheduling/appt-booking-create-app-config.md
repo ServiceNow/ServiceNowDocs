@@ -2,6 +2,7 @@
 title: Create or modify an appointment booking application configuration
 description: Create or modify an appointment booking configuration for an application. The information stored in this configuration applies to all the services within that application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/appt-booking-create-app-config.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -67,7 +68,7 @@ Availability Method
 
 Use one of the methods to determine appointment availability. The selection depends on the Field Service Management configuration setting in the **Assignment method for tasks** field: -   **Number of appointments per slot**: Define a specific number of appointments per time slot. Use this availability method if the task assignment method is set to **manually**.
 -   **Scripted**: Use the Field Service Management configuration setting to determine availability if the task assignment method is set to **using auto assignment** or **dynamic scheduling**. This is the default setting.
--   **Based on capacity**: Determine appointments based on the capacity defined in the capacity management settings. For more information, see [Create a capacity assignment](../concept/assign-work-based-on-the-defined-capacity-.md)
+-   **Based on capacity**: Determine appointments based on the capacity defined in the capacity management settings. For more information, see [Create a capacity assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.md)
 
 This option is available when the Task Table is selected as work\_order and Field Service Capacity and Reservations Management plugin is installed.
 
@@ -77,7 +78,7 @@ Advanced Calendar view for Portal
 
 </td><td>
 
-Option to display advanced calendar view for available appointments in the [Select Appointment window](../reference/appt-booking-select-appt-window.md) on your portal. This view displays appointments categorized in different time slots of the day, such as Morning, Afternoon, and Evening.
+Option to display advanced calendar view for available appointments in the [Select Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/appt-booking-select-appt-window.md) on your portal. This view displays appointments categorized in different time slots of the day, such as Morning, Afternoon, and Evening.
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ Calendar View
 
 </td><td>
 
-Display available appointments in the [Select Appointment window](../reference/appt-booking-select-appt-window.md) on the Customer or Consumer Service Portal for a single day or for a week.
+Display available appointments in the [Select Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/appt-booking-select-appt-window.md) on the Customer or Consumer Service Portal for a single day or for a week.
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ The application configuration is created or modified.
 
 ## What to do next
 
-Create service configurations for each of the services available to the customers. For more information, see, [Create or modify an appointment booking service configuration](appt-booking-create-service-config.md).
+Create service configurations for each of the services available to the customers. For more information, see, [Create or modify an appointment booking service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appt-booking-create-service-config.md).
 
-**Parent Topic:**[Configuring Appointment Booking](../concept/appointment-booking-administer.md)
+**Parent Topic:**[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 

@@ -2,6 +2,7 @@
 title: Configure sensitive data handling for generative AI
 description: Set up and configure how personally identifiable information and other sensitive data is removed from generative AI prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/configure-sensitive-data-handling-for-generative-ai.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -37,7 +38,7 @@ There are some considerations for using the Sensitive Data Handler with generati
 
 2.  Select the Sensitive Data Regex record you would like to apply for generative AI prompts.
 
-3.  Unlock the Categories field by selecting the lock icon ![Lock icon.](../../../common/image/icon-lock.png).
+3.  Unlock the Categories field by selecting the lock icon \[Omitted image "icon-lock.png"\] Alt text: Lock icon..
 
 4.  Enter `Generative AI` in the target field and select the record.
 
@@ -45,7 +46,7 @@ There are some considerations for using the Sensitive Data Handler with generati
 
 6.  Set the Status field to Active if it is not already.
 
-    ![Example sensitive data regex record with a name and pattern filled with Generative AI as the category](../image/gen-ai-sensitive-data-regex.png)
+    \[Omitted image "gen-ai-sensitive-data-regex.png"\] Alt text: Example sensitive data regex record with a name and pattern filled with Generative AI as the category
 
 7.  Select **Update** to save the record.
 

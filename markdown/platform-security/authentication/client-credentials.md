@@ -2,6 +2,7 @@
 title: Client Credentials
 description: Use the OAuth client credentials grant type for Inbound Integrations from a third party OAuth client to the ServiceNow platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/client-credentials.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -24,5 +25,5 @@ To use the client credentials grant type, you must perform the following steps:
 -   Create the `glide.oauth.inbound.client.credential.grant_type.enabled` system property.
 -   Add the **OAuth Application User** field to the OAuth Entity form.
 
-![Client Credentials](../images/client-credentials.png)
+\[Omitted image "client-credentials.png"\] Alt text: Client Credentials
 

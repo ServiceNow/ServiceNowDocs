@@ -2,6 +2,7 @@
 title: Dispute workspaces
 description: Dispute workspaces enhance the management of dispute resolution processes and consist of both the agent and manager workspaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/dispute-workspaces.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -45,5 +46,5 @@ Dispute workspaces enhance the management of dispute resolution processes and co
     **Note:** As a dispute manager, you can also act as a fullfiller and submit tasks for approval.
 
 
-**Parent Topic:**[About Dispute Management](disputes-overview.md)
+**Parent Topic:**[About Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/disputes-overview.md)
 

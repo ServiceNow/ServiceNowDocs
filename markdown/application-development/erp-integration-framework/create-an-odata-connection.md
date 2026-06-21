@@ -2,6 +2,7 @@
 title: Create an OData connection in ERP Data Hub
 description: Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/create-an-odata-connection.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -19,7 +20,7 @@ Create an OData v2 connection to link to SAP via HTTP so data can be extracted f
 
 Role required: sn\_erp\_integration.erp\_admin
 
-For information about OData connections in ERP Data Hub, see [Connect ERP Data Hub to SAP using OData and HTTP](../concept/erp-canvas-use-odata-and-http-connection.md) and [OData capabilities supported by ERP Data Hub](../reference/erp-data-hub-odata-query-capabilities.md).
+For information about OData connections in ERP Data Hub, see [Connect ERP Data Hub to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md) and [OData capabilities supported by ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
 
 ## About this task
 
@@ -33,15 +34,15 @@ Your administrator must enable the **sn\_erp\_integration.enableModelModificatio
 
 2.  Create a connection and credential alias, specifying HTTP as the **Connection type**.
 
-    For more information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    For more information, see Create a Connection &amp; Credential alias.
 
 3.  Create an HTTP connection and associate it with the new alias.
 
-    **Note:** For more information, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US). If you choose to use a MID Server, users with access to the services can use the same credential for RFC and HTTP.
+    **Note:** For more information, see . If you choose to use a MID Server, users with access to the services can use the same credential for RFC and HTTP.
 
 4.  Create a system with the HTTP connection.
 
-    For more information, see [Create an ERP system in ERP Data Hub](create-an-erp-system.md).
+    For more information, see [Create an ERP system in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/create-an-erp-system.md).
 
 5.  On the system record, confirm that the heartbeats are successful and the retrieval status is complete.
 
@@ -49,7 +50,7 @@ Your administrator must enable the **sn\_erp\_integration.enableModelModificatio
 
 6.  Create a model and, after saving, open the model record.
 
-    For more information, see [Add a new ERP model](erpc-add-new-data-model.md).
+    For more information, see [Add a new ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-add-new-data-model.md).
 
 7.  Select **Manage model**.
 
@@ -77,13 +78,13 @@ Your administrator must enable the **sn\_erp\_integration.enableModelModificatio
 
 11. Select **Specify inputs** to check the information and edit as needed.
 
-    For more information, see [Manage input parameters for an ERP Data Hub model operation](erpc-manage-model-inputs.md).
+    For more information, see [Manage input parameters for an ERP Data Hub model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
 
 12. Select **Choose output** to check the information and edit as needed.
 
-    For more information, see [Choose output parameters for an ERP model](erp-canvas-manage-outputs.md).
+    For more information, see [Choose output parameters for an ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-manage-outputs.md).
 
-13. Open the ERP systems list by selecting the systems icon \(![ERP systems icon](../image/erp-systems-icon-sidebar.png)\) in the side panel.
+13. Open the ERP systems list by selecting the systems icon \(\[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: ERP systems icon\) in the side panel.
 
 14. Select the system.
 
@@ -91,7 +92,7 @@ Your administrator must enable the **sn\_erp\_integration.enableModelModificatio
 
 16. Create a model.
 
-    1.  Open the ERP models page by selecting the ERP models icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+    1.  Open the ERP models page by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
     2.  Select **New**.
 
@@ -156,5 +157,5 @@ Your administrator must enable the **sn\_erp\_integration.enableModelModificatio
     9.  View and check the output, for example, in **Output Data**, select the **Response** to view the output.
 
 
-**Parent Topic:**[Connect ERP Data Hub to SAP using OData and HTTP](../concept/erp-canvas-use-odata-and-http-connection.md)
+**Parent Topic:**[Connect ERP Data Hub to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

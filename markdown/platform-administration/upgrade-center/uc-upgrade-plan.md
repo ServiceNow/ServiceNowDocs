@@ -2,6 +2,7 @@
 title: Upgrade Plan overview
 description: Accelerate your upgrades by packaging your skipped records and customizations into the relevant application container \(global apps or app customizations\). Upgrade Plans help you define applications and target versions to be installed in your instance. It automates the installation of these applications during upgrades, giving you a seamless upgrade experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-upgrade-plan.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -22,7 +23,7 @@ You will need the following instances to use Upgrade Plan.
 -   Builder instance: Build your upgrade plan
 -   Consumer instance: Implement your created upgrade plan
 
-**Note:** Ensure that you have upgraded your instance to the latest available version to build the upgrade plan. It is recommended to configure your dev instance as your builder instance. You are required to install the upgrade plan before upgrading your consumer instance. See [Upgrade Plan Properties](../reference/uc-properties.md#table_h4b_wq2_5tb) for more details.
+**Note:** Ensure that you have upgraded your instance to the latest available version to build the upgrade plan. It is recommended to configure your dev instance as your builder instance. You are required to install the upgrade plan before upgrading your consumer instance. See [Upgrade Plan Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrade-center/uc-properties.md) for more details.
 
 When you upgrade an instance, resolutions are skipped, and customizations are often loaded post upgrade. This causes temporary breakdown of features until fully loaded. Tasks like committing update sets, installing new plugins and applications, and multiple update are also time consuming. Use the Upgrade Plan feature to automate these post-upgrade tasks by tracking your actions and replay the steps on all the required instances. You don’t have to manually apply post-upgrade tasks which helps in reducing downtime.
 
@@ -74,7 +75,7 @@ During the building of the upgrade plan, the following operations are done at th
     -   The global records are packaged into the global customization upgrade plan app and published to the app repo
     -   The scoped skipped records are packaged into the respective app customization packages
     -   When the upgrade plan is published, a global application is created, for example, **Upgrade Plan - release name**
--   Existing ServiceNow features like Global Application and App customization are used as application containers that can be installed in all the required instances. See [Legacy - Global application file management](https://www.servicenow.com/docs/access?context=manage_global_application_files&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US) and [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US) for more information.
+-   Existing ServiceNow features like Global Application and App customization are used as application containers that can be installed in all the required instances. See  and  for more information.
 -   If you install any applications or plugins, they are also captured in the Upgrade plan. But, since they are application life cycle items, they are never pushed to the App Repository.
 
 During the consumption of the upgrade plan, the following operations are done at the background:

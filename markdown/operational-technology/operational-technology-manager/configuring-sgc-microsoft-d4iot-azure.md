@@ -2,6 +2,7 @@
 title: Configure the Service Graph Connector for Microsoft Defender for IoT \(Azure\)
 description: Use the guided setup for the Service Graph Connector for Microsoft Defender for IoT \(Azure\) to lead you through the integration steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-azure.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,10 +20,10 @@ Use the guided setup for the Service Graph Connector for Microsoft Defender for 
 
 Dependencies and requirements:
 
--   -   The [Integration Commons for CMDB](https://www.servicenow.com/docs/access?context=integration-commons-for-cmdb&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) store app, which is automatically installed.
--   The [CMDB CI Class Models](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US), which is automatically installed.
+-   -   The  store app, which is automatically installed.
+-   The , which is automatically installed.
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 
 Role required: admin
@@ -33,7 +34,7 @@ Role required: admin
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Microsoft Defender for IoT \(Azure\) application by using the application picker.
 
-    For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+    For more information, see .
 
 2.  Navigate to **All** &gt; **Service Graph for MSFT D4IoT \(Azure\)** &gt; **Guided Setup**.
 
@@ -208,11 +209,11 @@ Set this property to add more filters for device import apart from the Device Su
 
 11. When configuration items \(CIs\) are created in the CMDB, asset records are created.
 
-    The asset record contains the model category of the CI. For more information about the model categories for Operational Technology \(OT\), see [Model categories for Operational Technology](../reference/model-categories-for-ot.md). To view the model category for an OT device, complete the following:
+    The asset record contains the model category of the CI. For more information about the model categories for Operational Technology \(OT\), see [Model categories for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/model-categories-for-ot.md). To view the model category for an OT device, complete the following:
 
     1.  Navigate to **All** &gt; **Operational Technology \(OT\)** &gt; **All OT Devices**.
     2.  Select the OT device that you want to view the asset record for.
-    3.  Next to the **Asset** field, select the **Preview this record** \(![Preview this record icon](../image/preview-record-icon.png)\) icon.
+    3.  Next to the **Asset** field, select the **Preview this record** \(\[Omitted image "preview-record-icon.png"\] Alt text: Preview this record icon\) icon.
     4.  Select **Open Record**.
 12. To troubleshoot the Service Graph Connector for Microsoft Defender for IoT \(Azure\), complete the following:
 
@@ -248,5 +249,5 @@ Also, review the **Security Reader** permission. This permission must be enabled
 -   View Azure workbooks
 -   View Defender for IoT settings
 
-**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(Azure\)](../concept/integration-sgc-microsoft-defender-iot-azure.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-azure.md)
 

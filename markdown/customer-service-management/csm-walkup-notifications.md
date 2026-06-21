@@ -2,7 +2,10 @@
 title: Configure Walk-up Experience notifications
 description: As an administrator, you can create and use notifications to notify requesters about events that impact them while they are getting their issue addressed through walk-up experience. Requesters are notified of online appointments they have taken or when their issue is assigned to a store representative by email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-notifications.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -40,8 +43,8 @@ Walk-up Experience includes several base-system notifications that you can use o
 
     For more information, refer to the following topics:
 
-    -   [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
-    -   [Create a push message](https://www.servicenow.com/docs/access?context=t_CreateAPushMessage&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
-    For complete information regarding using the System Notification application, refer to [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    -   Create an email notification
+    -   Create a push message
+    For complete information regarding using the System Notification application, refer to Notifications.
 
 

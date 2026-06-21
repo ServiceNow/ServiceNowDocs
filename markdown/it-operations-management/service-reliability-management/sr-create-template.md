@@ -2,6 +2,7 @@
 title: Manually create an SRM template
 description: Templates help you quickly create SRM services, alerts, incidents, or teams from existing forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-create-template.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -33,7 +34,7 @@ Role required: Responder, Manager, or Administrator
 
 3.  Open a service, team, alert, or incident.
 
-4.  In the far right panel, select the Template icon ![Template icon](../image/icon-sr-template.png) and select **Create**.
+4.  In the far right panel, select the Template icon \[Omitted image "icon-sr-template.png"\] Alt text: Template icon and select **Create**.
 
 5.  Fill in the fields on the **Create New Template** form, as appropriate.
 
@@ -151,5 +152,5 @@ A template must be active to be used.
 </table>    The template is created and you can see I in the template panel.
 
 
-**Parent Topic:**[SRM interface](../concept/sr-navigate-interface.md)
+**Parent Topic:**[SRM interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-navigate-interface.md)
 

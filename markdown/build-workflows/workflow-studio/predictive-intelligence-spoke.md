@@ -2,6 +2,7 @@
 title: Machine Learning solutions for Flow Designer
 description: Provides actions to make predictions from trained Predictive Intelligence solutions. Also reuse this short description in the release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/predictive-intelligence-spoke.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Provides actions to make predictions from trained Predictive Intelligence soluti
 
 ## Predictive Intelligence subscription
 
-This spoke requires a subscription to Predictive Intelligence. For more information, see [Install Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+This spoke requires a subscription to Predictive Intelligence. For more information, see .
 
 ## Key features
 
@@ -63,10 +64,10 @@ Predictive Intelligence for Flow Designer provides these user roles to control a
 |---------|-----------|
 |ml\_admin|Grants access to all Predictive Intelligence features|
 
-**Parent Topic:**[Spokes](../concept/spokes.md)
+**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/spokes.md)
 
 **Related topics**  
 
 
-[Use Predictive Intelligence in Flow Designer with ML actions](https://www.servicenow.com/docs/access?context=use-predictive-intelligence-flow-designer-ml-actions&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.use-predictive-intelligence-flow-designer-ml-actions]
 

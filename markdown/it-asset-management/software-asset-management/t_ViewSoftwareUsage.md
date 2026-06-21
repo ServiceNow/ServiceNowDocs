@@ -2,6 +2,7 @@
 title: View or create software usage in Software Asset Management classic
 description: View software usage records to track the usage of software products that you've created reclamation rules for in the Software Asset Management classic application. You can also create software usage records manually from third party integrations or Microsoft SCCM integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/t\_ViewSoftwareUsage.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -145,5 +146,5 @@ Date and time that the software product was last used.
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[Using Software Asset Management classic](../concept/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/using-sam-classic.md)
 

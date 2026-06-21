@@ -2,7 +2,10 @@
 title: View a drop off list
 description: Agents can view a consolidated list, grouped by stockroom, of all items that have been added to drop off lists by all agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_ViewADropOffList.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -24,5 +27,5 @@ Role required: wm\_agent
 2.  Expand a group by clicking the arrow beside the group name.
 
 
-**Parent Topic:**[Use drop off lists](../concept/c_UseDropOffLists.md)
+**Parent Topic:**[Use drop off lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_UseDropOffLists.md)
 

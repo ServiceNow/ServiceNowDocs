@@ -2,6 +2,7 @@
 title: Domain separation for Emergency Outreach
 description: This application fully supports domain separation service provider \(SP\) use cases. The following table lists the domain separation use cases for service providers \(SPs\) using this application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/emergency-outreach/emergency-outreach-domain-separation.html
 release: xanadu
 product: Emergency Outreach
 classification: emergency-outreach
@@ -39,5 +40,5 @@ Some modules in the Emergency Outreach application are affected by domain separa
     Reporting dashboard, shows aggregate of all notifications and their acknowledgment status.
 
 
-**Parent Topic:**[Emergency Outreach](../concept/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/emergency-outreach/emergency-outreach.md)
 

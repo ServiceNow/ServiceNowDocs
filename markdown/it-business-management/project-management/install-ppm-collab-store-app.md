@@ -2,6 +2,7 @@
 title: Install PPM Collaboration
 description: Install the PPM Collaboration \(sn\_ppm\_collab\) application from ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/install-ppm-collab-store-app.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -68,11 +69,11 @@ The following components are installed with installation of the application:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with PPM Collaboration](../reference/components-installed-with-ppm-collab.md).
+For more information, see [Components installed with PPM Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/components-installed-with-ppm-collab.md).
 
 ## What to do next
 
-[Setting up PPM collaboration for Slack](../concept/set-up-collab-ppm.md).
+[Setting up PPM collaboration for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/set-up-collab-ppm.md).
 
-**Parent Topic:**[Project Management](../../project-management/concept/c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

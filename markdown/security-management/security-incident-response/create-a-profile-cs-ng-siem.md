@@ -2,6 +2,7 @@
 title: Create a detection profile for CrowdStrike Next-Gen SIEM
 description: Determine the CrowdStrike Next-Gen SIEM detections that are suitable for creating security incidents by creating a detection profile in your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/create-a-profile-cs-ng-siem.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -95,5 +96,5 @@ Optional description of the profile.
 
 ## What to do next
 
-[Set correlation rules for CrowdStrike Next-Gen SIEM integration](select-correlation-rules-cs-ng-siem.md)
+[Set correlation rules for CrowdStrike Next-Gen SIEM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/select-correlation-rules-cs-ng-siem.md)
 

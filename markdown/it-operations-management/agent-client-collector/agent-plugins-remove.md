@@ -2,6 +2,7 @@
 title: Clear Agent Client Collector assets
 description: Clear the asset and configuration file cache folder and control plugin downloads. Clearing the cache folder removes unwanted plugins that have synced to the agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/agent-plugins-remove.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

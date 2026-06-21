@@ -2,6 +2,7 @@
 title: Activate the Apply for Citizen Development catalog item
 description: Enable citizen developers to submit their ideas for applications by activating the Apply for Citizen Development catalog item. This is the first step in configuring the App Engine Studio \(AES\) Application Intake app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/activate-catalog-item-for-app-intake.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **Application Intake** &gt; **Guided Setup**.
 
-    For more information, see [Configure App Engine Studio](../concept/configure-aes.md).
+    For more information, see [Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/configure-aes.md).
 
 2.  Either start the process or continue with a process in progress.
 
@@ -40,5 +41,5 @@ Role required: admin
 7.  Close the browser window and return to the Application Intake guided setup.
 
 
-**Parent Topic:**[Application Intake configuration tasks](../reference/app-intake-config-tasks.md)
+**Parent Topic:**[Application Intake configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/app-intake-config-tasks.md)
 

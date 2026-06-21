@@ -2,6 +2,7 @@
 title: Set improvement opportunities using Finding Builder
 description: Set improvement opportunities from the Finding Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/find-build-classic.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -35,12 +36,12 @@ Set improvement opportunities from the Finding Builder.
 
 4.  To create a rule-based improvement opportunity, select **Create** on the Rule-based card.
 
-    For more information, see [Set rule-based improvement opportunity](rule-based-builder.md).
+    For more information, see [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/rule-based-builder.md).
 
 5.  To create an automated improvement opportunity, select **Create** on any of the automated opportunity card.
 
-    For more information, see [Automated improvement opportunities](../concept/automated-findings.md).
+    For more information, see [Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/automated-findings.md).
 
 
-**Parent Topic:**[Setting improvement opportunity for projects](../concept/project-imp-opp.md)
+**Parent Topic:**[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/project-imp-opp.md)
 

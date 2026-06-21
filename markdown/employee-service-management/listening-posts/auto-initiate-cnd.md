@@ -2,6 +2,7 @@
 title: Automatically initiate a pulse survey from Listening Posts
 description: Send automated surveys to measure employee satisfaction with a recent experience, like closing an HR task initiated from a life cycle event, by applying auto trigger conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/listening-posts/auto-initiate-cnd.html
 release: xanadu
 product: Listening Posts
 classification: listening-posts
@@ -109,5 +110,5 @@ Condition builder that defines the criteria that must be true to send the survey
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Create a pulse survey in Listening Posts](create-pulse-survey.md)
+**Parent Topic:**[Create a pulse survey in Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/listening-posts/create-pulse-survey.md)
 

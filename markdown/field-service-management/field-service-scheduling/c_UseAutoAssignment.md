@@ -2,6 +2,7 @@
 title: Configuring Auto Assignment scheduling
 description: The auto assignment feature can be enabled for requests or tasks, depending on the Service Management \(SM\) application's configuration settings.Automatically assign a task to a dispatch group when the Requests are assigned using auto-assignment option is set in the SM application's configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/c\_UseAutoAssignment.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -40,14 +41,14 @@ You can configure whether an agent's home location should be considered when aut
 
  -   If the **Use Google Maps API for travel time estimates** geolocation property is enabled, then you can select Google Maps API or straight-line estimates in the properties for calculating estimated travel time and distance.
 -   If the **Use Google Maps API for travel time estimates** isn’t enabled, then the system uses the value in the Estimated Travel Duration field in the work order task to determine task assignment for the agent.
--   For more information, see [Components installed with Field Service Management](../../planning-and-policy/reference/r_InstalledWithFSM.md).
+-   For more information, see [Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_InstalledWithFSM.md).
 
  **Note:** Set up the following configurations:
 
 -   Enable **Use agent or task scheduling** to calculate the estimated time to arrive.
 -   Enable **Auto-selection of agents will consider location of agents** to configure the agent’s home location.
 
-For more information about enabling the configurations, see [Global domain configurations.](../../planning-and-policy/task/t_ConfigureFieldService.md)
+For more information about enabling the configurations, see [Global domain configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_ConfigureFieldService.md)
 
 </td></tr><tr><td>
 
@@ -55,9 +56,9 @@ Skills
 
 </td><td>
 
-You can configure whether an agent's skills should be considered when auto-assigning a task.If you’re assigning tasks to agents based on [mandatory skills](../../customer-service-management/concept/configure-mandatory-skills-feature.md) requirements, you can’t auto-assign tasks if the agent doesn't have the mandatory skills required to perform the task.
+You can configure whether an agent's skills should be considered when auto-assigning a task.If you’re assigning tasks to agents based on [mandatory skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/configure-mandatory-skills-feature.md) requirements, you can’t auto-assign tasks if the agent doesn't have the mandatory skills required to perform the task.
 
- **Note:** The work.management.use.mandatory.skills [system property](../../planning-and-policy/reference/r_InstalledWithFSM.md) must be enabled to configure the agent's skills.
+ **Note:** The work.management.use.mandatory.skills [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_InstalledWithFSM.md) must be enabled to configure the agent's skills.
 
 </td></tr><tr><td>
 
@@ -89,10 +90,10 @@ Agent schedules
 
 </td><td>
 
-Auto-assignment considers agents schedules from Workforce Optimization for Field Service application to auto-assign a task only if the **Enable Shift Scheduling for FSM to Determine Availability** property is enabled. For more information, see [Global domain configurations](../../planning-and-policy/task/t_ConfigureFieldService.md).
+Auto-assignment considers agents schedules from Workforce Optimization for Field Service application to auto-assign a task only if the **Enable Shift Scheduling for FSM to Determine Availability** property is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_ConfigureFieldService.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Additional scheduling configuration options](advanced-scheduling-and-dispatching-capabilities.md)
+</table>**Parent Topic:**[Additional scheduling configuration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/advanced-scheduling-and-dispatching-capabilities.md)
 
 ## Auto assignment of a request and a task
 
@@ -118,7 +119,7 @@ Role required: wm\_qualifier, wm\_initiator
 
     By default, ServiceNow enters the current date and time in the **Window start** field. If you don’t create a schedule or a fixed window, ServiceNow uses the **start** value to look for an agent who has that time slot open.
 
-    For instructions, see [Creating Work Order Tasks](../../planning-and-policy/task/t_CreateAWorkOrderTask.md).
+    For instructions, see [Creating Work Order Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_CreateAWorkOrderTask.md).
 
 5.  Click **Qualified** or **Ready for Work**.
 

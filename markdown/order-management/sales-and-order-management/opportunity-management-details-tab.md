@@ -2,6 +2,7 @@
 title: Add and view the details of an opportunity
 description: Use the Details tab to add and view information about your opportunity, including the source and competitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-management-details-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

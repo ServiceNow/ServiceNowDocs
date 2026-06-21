@@ -2,6 +2,7 @@
 title: Storing dynamic attributes on a record
 description: After you define the categories, groups, and attributes in your dynamic schema, enable users to store the attributes and their values on a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/storing-dynamic-attributes.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -13,12 +14,12 @@ breadcrumb: [Dynamic Schema, Field administration, Forms, fields, and lists, Con
 
 After you define the categories, groups, and attributes in your dynamic schema, enable users to store the attributes and their values on a record.
 
--   **[Create a dynamic schema reference](../task/create-dynamic-schema-reference.md)**  
+-   **[Create a dynamic schema reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-dynamic-schema-reference.md)**  
 Add a reference field that points to the dynamic schema metadata that you've created.
--   **[Create a dynamic attribute store field](../task/create-dynamic-attribute-store-field.md)**  
+-   **[Create a dynamic attribute store field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-dynamic-attribute-store-field.md)**  
 Store dynamic attributes on a record using a dynamic attribute store field.
--   **[Add dynamic attributes to a record](../task/add-dynamic-attributes-record.md)**  
+-   **[Add dynamic attributes to a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/add-dynamic-attributes-record.md)**  
 Store dynamic attributes and their values on a record.
 
-**Parent Topic:**[Dynamic Schema](dynamic-schema.md)
+**Parent Topic:**[Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-schema.md)
 

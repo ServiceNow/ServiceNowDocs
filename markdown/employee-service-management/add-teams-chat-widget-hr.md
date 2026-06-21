@@ -2,7 +2,10 @@
 title: Add Teams Chat widget
 description: Add the Teams Chat widget to enable employees to view or continue chats with agents and view and access the content of attached files in the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/add-teams-chat-widget-hr.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -25,7 +28,7 @@ Role required: sp\_admin
 
 3.  On the Ticket Configuration form, fill in the fields.
 
-    For more information about the field descriptions, see [Configure the standard ticket page](https://www.servicenow.com/docs/access?context=configure-st-page&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+    For more information about the field descriptions, see Configure the standard ticket page.
 
 4.  Right-click in the page header and select **Save**.
 
@@ -136,5 +139,5 @@ Comma-separated list of tab widget parameters. This field appears only when **Cu
 
 A Teams Chat tab is added in each record of the Employee Center My Request page for the configured ticket type or table.
 
-**Parent Topic:**[Microsoft Teams Chat widget in Employee Center](../concept/config-std-ticket-page-teams-hr.md)
+**Parent Topic:**[Microsoft Teams Chat widget in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/config-std-ticket-page-teams-hr.md)
 

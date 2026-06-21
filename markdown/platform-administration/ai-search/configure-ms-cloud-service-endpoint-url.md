@@ -2,6 +2,7 @@
 title: Configure the Microsoft cloud service endpoint URL
 description: Specify the proper cloud service endpoint URL to use for external content connectors that crawl your Microsoft cloud application tenants.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/configure-ms-cloud-service-endpoint-url.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -48,5 +49,5 @@ By default, this property's value is `https://login.microsoftonline.com`, the en
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring External Content Connectors](../concept/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configuring-ext-cont-connectors.md)
 

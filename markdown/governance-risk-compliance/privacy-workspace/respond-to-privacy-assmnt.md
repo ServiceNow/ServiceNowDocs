@@ -2,6 +2,7 @@
 title: Respond to a privacy screening assessment
 description: As an entity owner or a processing activity key stakeholder, respond to the privacy assessment that is initiated by the privacy lead.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/respond-to-privacy-assmnt.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -31,15 +32,15 @@ While responding to an assessment, you can reassign the assessment to another us
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_o5d_vrr_xxb"><thead><tr><th align="left" id="d72563e102">
+<table id="choicetable_o5d_vrr_xxb"><thead><tr><th align="left" id="d39398e102">
 
 Choice
 
-</th><th align="left" id="d72563e105">
+</th><th align="left" id="d39398e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d72563e111">
+</th></tr></thead><tbody><tr><td id="d39398e111">
 
 **To take the assessment**
 
@@ -59,7 +60,7 @@ Action
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d72563e161">
+</td></tr><tr><td id="d39398e161">
 
 **To reassign the assessment**
 
@@ -80,5 +81,5 @@ Action
 
 The responses are captured in the respective entity and the processing activity. The responses are then reviewed by the privacy teams.
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

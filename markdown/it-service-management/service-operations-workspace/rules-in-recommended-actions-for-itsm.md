@@ -2,6 +2,7 @@
 title: Rules in Recommended Actions for ITSM
 description: ITSM base system includes the following rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/rules-in-recommended-actions-for-itsm.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -56,5 +57,5 @@ Major Incident with no Problem record
 This will show all valid recommendations for the major incidents with no problem record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recommended Actions for ITSM reference](../concept/recommended-actions-for-itsm-reference.md)
+</table>**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
 

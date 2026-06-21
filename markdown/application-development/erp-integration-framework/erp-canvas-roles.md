@@ -2,6 +2,7 @@
 title: ERP Data Hub roles
 description: Administrators assign roles to give team members permission to configure or use ERP Data Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-roles.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,9 +18,9 @@ Administrators assign roles to give team members permission to configure or use 
 
 **Important:** When you assign ERP Data Hub \(Enterprise Resource Planning\) roles to a user, you must include the scope. For example, assign the `sn_erp_mining.erp_admin` role, not just `erp_admin`.
 
-For more on assigning roles, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more on assigning roles, see .
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 ## ERP Data Hub roles
 
@@ -264,5 +265,5 @@ sap\_vendor\_user
 sn\_erp\_integration\_st\_sap\_vendor
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring ERP Data Hub](../concept/erp-integration-configuration-overview.md)
+</table>**Parent Topic:**[Configuring ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

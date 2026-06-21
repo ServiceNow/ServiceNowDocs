@@ -2,6 +2,7 @@
 title: Create schema
 description: Create schema to create delimited files in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/create-schema.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -124,7 +125,7 @@ Columns of the schema as a JSON array. For each column, specify column name and 
 ]
 ```
 
-. For more information, see [Create a data gathering action for a dynamic template](https://www.servicenow.com/docs/access?context=create-data-gathering-action-dynamic-template&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).**Note:** Ensure that you surround the key and value with quotation marks.
+. For more information, see Create a data gathering action for a dynamic template.**Note:** Ensure that you surround the key and value with quotation marks.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

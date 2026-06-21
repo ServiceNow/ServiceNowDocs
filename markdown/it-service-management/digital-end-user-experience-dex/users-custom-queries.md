@@ -2,6 +2,7 @@
 title: Custom queries
 description: Use the custom queries to access operating system information using SQL, enabling in-depth system analysis and issue resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/users-custom-queries.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

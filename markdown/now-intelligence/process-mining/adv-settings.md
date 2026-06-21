@@ -2,6 +2,7 @@
 title: Set use cases
 description: Use cases are common patterns you may be interested in your analysis. Once enabled, they are automatically configured for the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/adv-settings.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -46,5 +47,5 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 7.  Select **Save**.
 
 
-**Parent Topic:**[Scoping your analysis](../concept/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/scope-analysis.md)
 

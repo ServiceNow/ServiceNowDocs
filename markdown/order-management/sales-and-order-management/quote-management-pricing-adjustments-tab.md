@@ -2,6 +2,7 @@
 title: View manual pricing adjustments
 description: Use the Pricing Adjustments tab in Quote Management to view and update manual pricing adjustments made to order line items in your quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/quote-management-pricing-adjustments-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,11 +22,11 @@ Role required: sales\_agent
 
 ## About this task
 
-To create a pricing adjustment, see [Add pricing adjustment to a quote line item](quote-management-add-pricing-adjustment.md).
+To create a pricing adjustment, see [Add pricing adjustment to a quote line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-management-add-pricing-adjustment.md).
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Select **Quotes** &gt; **All**.
 

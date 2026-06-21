@@ -2,6 +2,7 @@
 title: Scan findings
 description: A finding is a reference to a record that has violated a rule from a check on the instance. You can find the source record and the number of times the record triggered the rules of a given check.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/scan-findings.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -15,7 +16,7 @@ breadcrumb: [Security scanner, Security configuration console, Security Center, 
 
 A finding is a reference to a record that has violated a rule from a check on the instance. You can find the source record and the number of times the record triggered the rules of a given check.
 
-![Scan findings list in a scan result](../images/scan-results.png)
+\[Omitted image "scan-results.png"\] Alt text: Scan findings list in a scan result
 
 Navigate to the **Scan Findings** tab withing your scan result to view the list of scan findings. Select a link under the **Created** column to drill down and view granular details related to a finding.
 
@@ -72,5 +73,5 @@ Navigate to the **Scan Findings** tab withing your scan result to view the list 
     Instructions on how to resolve issues reported by the scan.
 
 
-**Parent Topic:**[Security scanner](sc-scanning.md)
+**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-scanning.md)
 

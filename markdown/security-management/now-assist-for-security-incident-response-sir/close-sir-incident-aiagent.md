@@ -2,6 +2,7 @@
 title: Close a security incident
 description: Chat with an AI agent in the Now Assist panel to help you close a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/now-assist-for-security-incident-response-sir/close-sir-incident-aiagent.html
 release: xanadu
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -26,21 +27,21 @@ Role required: sn\_si.analyst or sn\_si.manager
 
 2.  Open the security incident that you want to close by using the AI agent.
 
-3.  Select the Now Assist \(![Now assist panel for AI agent icon.](../image/ai-icon-now-assist.png)\) icon.
+3.  Select the Now Assist \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now assist panel for AI agent icon.\) icon.
 
     The Now Assist panel is displayed.
 
 4.  Close the security incident by using one of the following options.
 
-<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d36783e112">
+<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d39338e112">
 
 Option
 
-</th><th align="left" id="d36783e115">
+</th><th align="left" id="d39338e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36783e121">
+</th></tr></thead><tbody><tr><td id="d39338e121">
 
 **Close a security incident**
 
@@ -66,7 +67,7 @@ The AI agent closes the security incident.
 
 **Note:** When a field is changed, the activity stream appends the words "AI AGENT:" with a description of the update made by the AI agent. For example, `AI AGENT: Close code is updated`.
 
-</td></tr><tr><td id="d36783e224">
+</td></tr><tr><td id="d39338e224">
 
 **Close a security incident as false positive**
 

@@ -2,6 +2,7 @@
 title: HPE Security ArcSight ESM - Email Parser integration
 description: The HPE Security ArcSight ESM - Email Parser integration is supported using an email parser that consumes email notifications from ESM to create security incidents.HPE Security ArcSight ESM - Email Parser integration uses email notifications from ESM to drive enrichment, and response workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/arcsight-emailparser-integration.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +34,7 @@ An HPE Security ArcSight ESM - Email Parser template is provided to use for the 
 
     The available security integrations appear as a series of cards.
 
-    ![HPE Security Arcsight ESM - Email Parser card](../image/arcsight-emailparser-plugin-card.png)
+    \[Omitted image "arcsight-emailparser-plugin-card.png"\] Alt text: HPE Security Arcsight ESM - Email Parser card
 
 2.  In the HPE Security ArcSight ESM - Email Parser card, click **Configure**.
 
@@ -41,7 +42,7 @@ An HPE Security ArcSight ESM - Email Parser template is provided to use for the 
 
 4.  Click the **ArcSight ESM** link to edit the settings in the template email parser provided.
 
-    At a minimum, fill in the `Email is from` field. To create you own email parser, see [Create email parsers in Security Operations](../../../security-operations-common/task/parsing-emails.md).
+    At a minimum, fill in the `Email is from` field. To create you own email parser, see [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/parsing-emails.md).
 
 5.  Check the **Active** box.
 

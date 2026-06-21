@@ -2,6 +2,7 @@
 title: Equifax Spoke
 description: Integrate the ServiceNow instance with the Equifax spoke to access important information about the credit history for a customer, fraud alerts, digital identity verification, transaction screening, and other relevant data.Also reuse this short description in the release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/equifax-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -50,5 +51,5 @@ Integration Hub uses aliases to manage connection and credential information, an
 
 
 
-For information about setting up the spoke, see [Set up Equifax spoke](../task/set-up-equifax-spoke.md#).
+For information about setting up the spoke, see [Set up Equifax spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/set-up-equifax-spoke.md).
 

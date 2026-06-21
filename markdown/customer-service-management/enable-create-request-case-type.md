@@ -2,7 +2,10 @@
 title: Enable the Create Request UI action for case types
 description: Enable the Create Request UI action for case type tables that extend the Case \[sn\_customerservice\_case\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/enable-create-request-case-type.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Manage operational resource plans from the allocation workbench
 description: Create and manage operational resource plans effectively from one place using the Resource Allocation Workbench without having to navigate individually to the operational resource plan's form or list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/resource-management/manage-operational-rp-raw.html
 release: xanadu
 product: Resource Management
 classification: resource-management
@@ -19,11 +20,11 @@ Create and manage operational resource plans effectively from one place using th
 
 **Important:** Allocation workbench is being deprecated starting Xanadu release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Resource Managers are encouraged to use the [Resource Management Workspace](../../resource-management-workspace/concept/rsrc-mgmt-wrkspc.md) to allocate, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get the insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
+Resource Managers are encouraged to use the [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/rsrc-mgmt-wrkspc.md) to allocate, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get the insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
 
 ## Before you begin
 
-Enable the **Create and manage operational resource plans from the resource allocation workbench** property by navigating to **All** &gt; **Project Administration** &gt; **Properties - Resource** to create operational resource plans from the Allocation Workbench. For more information, see [Resource Management properties](../reference/r_ResourceProperties.md).
+Enable the **Create and manage operational resource plans from the resource allocation workbench** property by navigating to **All** &gt; **Project Administration** &gt; **Properties - Resource** to create operational resource plans from the Allocation Workbench. For more information, see [Resource Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/r_ResourceProperties.md).
 
 Role required: resource\_manager
 
@@ -33,7 +34,7 @@ Role required: resource\_manager
 
 2.  On the Allocation Boards page, select the allocation board whose operational resource plans you want to manage.
 
-3.  Select the **Configuration** icon \(![Configuration](../image/configurationiconraw.png)\), and select **Operational plans**.
+3.  Select the **Configuration** icon \(\[Omitted image "configurationiconraw.png"\] Alt text: Configuration\), and select **Operational plans**.
 
     The following management options are available in the resource grid, which displays the operational resource plans.
 
@@ -51,7 +52,7 @@ Create an operational resource plan
 
 </td><td>
 
-Select the list icon \(![List view](../image/dropdown_raw.png)\) next to **New Plan** on the top-right corner, and select **New Operational Plan**. After the operational resource plan is created, it appears under the Operational Resource Plans header in the resource grid.
+Select the list icon \(\[Omitted image "dropdown\_raw.png"\] Alt text: List view\) next to **New Plan** on the top-right corner, and select **New Operational Plan**. After the operational resource plan is created, it appears under the Operational Resource Plans header in the resource grid.
 
 </td></tr><tr><td>
 
@@ -60,7 +61,7 @@ Allocate a resource plan
 </td><td>
 
 1.  Open a resource plan in the resource grid.
-2.  Select the **Actions** icon \(![Actions icon](../../planning-and-policy/image/ellipsis-vertical-icon.png)\), and select **Change State &gt; Allocate**.
+2.  Select the **Actions** icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon\), and select **Change State &gt; Allocate**.
 
 
 </td></tr><tr><td>
@@ -70,7 +71,7 @@ Extend a resource plan
 </td><td>
 
 1.  Open a resource plan in the resource grid.
-2.  Select the **Actions** icon \(![Actions icon.](../../planning-and-policy/image/ellipsis-vertical-icon.png)\), and select **Extend Resource Plan**.
+2.  Select the **Actions** icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon.\), and select **Extend Resource Plan**.
 3.  Enter the new end date of the resource plan in the **New end date** field.
 4.  Select the type of request and select **Ok**.
 
@@ -82,7 +83,7 @@ Allocate extension
 </td><td>
 
 Allocate resources for the extended period requested by the project manager.1.  Open a resource plan in the resource grid.
-2.  Select the **Actions** icon \(![Actions icon.](../../planning-and-policy/image/ellipsis-vertical-icon.png)\), and select **Allocate Extension**.
+2.  Select the **Actions** icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon.\), and select **Allocate Extension**.
 
 
 </td></tr><tr><td>
@@ -91,7 +92,7 @@ Allocate resources for a requested group, role, or user resource plan for the wh
 
 </td><td>
 
-Allocate users the percentage of their capacity specified in the operational resource plan. For more information, see [Confirm or allocate resources from the Allocation Workbench](confirm-allocate-specific-time.md).
+Allocate users the percentage of their capacity specified in the operational resource plan. For more information, see [Confirm or allocate resources from the Allocation Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/confirm-allocate-specific-time.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Allocate resources for a group, role, or user resource plan for a specific perio
 
 </td><td>
 
-Allocate users the percentage of their capacity specified in the operational resource plan. For more information, see [Confirm or allocate resources from the Allocation Workbench](confirm-allocate-specific-time.md).
+Allocate users the percentage of their capacity specified in the operational resource plan. For more information, see [Confirm or allocate resources from the Allocation Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/confirm-allocate-specific-time.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +109,7 @@ Delete a resource plan
 </td><td>
 
 1.  Open a resource plan in the resource grid.
-2.  Select the **Actions** icon \(![Actions icon.](../../planning-and-policy/image/ellipsis-vertical-icon.png)\), and select **Delete**.
+2.  Select the **Actions** icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon.\), and select **Delete**.
 
 
 </td></tr><tr><td>
@@ -127,7 +128,7 @@ You can copy the existing value from a cell and update the cells to its right. F
 
     -   Right-click on the cell that you want to copy the value from and select the **Fill Right** option.
 
-![Row-context menu option.](../image/fill-right-option.png)
+\[Omitted image "fill-right-option.png"\] Alt text: Row-context menu option.
 
     -   Fill in the details of the number of cells that you want to update and the hours.
     -   Select **Update**.
@@ -140,7 +141,7 @@ Reduce the duration of an allocated resource plan
 </td><td>
 
 If no actuals are posted for the future in the resource plan, then all allocated or confirmed hours of the resources are released when you reduce the resource plan. If actuals are posted for the future, then the resource plan end date is updated to the future date on which actuals are present. All allocated or confirmed hours of all resources from the date on which actuals are present to the original end date are released.1.  Open a resource plan in the resource grid.
-2.  Select the **Actions** icon \(![Actions icon.](../../planning-and-policy/image/ellipsis-vertical-icon.png)\) on a resource plan row in the resource grid.
+2.  Select the **Actions** icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon.\) on a resource plan row in the resource grid.
 3.  Select **Reduce Resource Plan**.
 4.  Enter the new end date of the resource plan in the **End date** field, and select **Yes**.
 
@@ -151,7 +152,7 @@ Complete a resource plan
 
 </td><td>
 
-After all the associated tasks are complete or canceled, as a resource manager you can mark the resource plan complete and closed. 1.  Select the **Actions** icon \(![Actions icon.](../../planning-and-policy/image/ellipsis-vertical-icon.png)\) on a resource plan row in the resource grid.
+After all the associated tasks are complete or canceled, as a resource manager you can mark the resource plan complete and closed. 1.  Select the **Actions** icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon.\) on a resource plan row in the resource grid.
 
 2.  Select **Complete**.
 
@@ -166,7 +167,7 @@ Cancel a resource plan
 </td><td>
 
 When a resource plan is no longer required, as a resource manager you can cancel it, which also cancels its past and future allocations.1.  Open a resource plan in the resource grid.
-2.  Select the **Actions** icon \(![Actions icon.](../../planning-and-policy/image/ellipsis-vertical-icon.png)\) on a resource plan row in the resource grid.
+2.  Select the **Actions** icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon.\) on a resource plan row in the resource grid.
 3.  Select **Cancel**.
 
 
@@ -180,5 +181,5 @@ In the resource grid section, expand a resource plan entry. The user level alloc
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Allocation workbench](../concept/allocation-workbench.md)
+**Parent Topic:**[Allocation workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/allocation-workbench.md)
 

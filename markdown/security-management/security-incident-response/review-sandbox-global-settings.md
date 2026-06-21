@@ -2,6 +2,7 @@
 title: Review the sandbox global settings
 description: If you experience issues with file or URL submission results, review and modify the global sandbox settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/review-sandbox-global-settings.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

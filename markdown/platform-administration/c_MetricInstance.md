@@ -2,6 +2,7 @@
 title: Metric instance
 description: A metric instance is a record in the metric\_instance table. A record holds one instance of a metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_MetricInstance.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ A metric instance is a record in the metric\_instance table. A record holds one 
 
 Metric instance records get created and updated in one of two ways: 1\) If the metric is a duration, the system automatically populates the metric instance table with duration values. 2\) If the metric is calculated from a script, the script itself must populate the metric\_instance table.
 
-![Metric plugin](../image/metric-definition.png "Metric plugin")
+\[Omitted image "metric-definition.png"\] Alt text: Metric plugin
 
 Some of the notable fields in the metric\_instance table are:
 

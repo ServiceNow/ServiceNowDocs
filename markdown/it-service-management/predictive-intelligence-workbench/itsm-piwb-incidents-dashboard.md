@@ -2,6 +2,7 @@
 title: ITSM Predictive Intelligence Workbench dashboard
 description: ITSM Predictive Intelligence Workbench provides the Predictive Intelligence for Incidents dashboard to enable you to measure the value of using machine learning to automate your IT business processes. Monitor use case models and view associated statistics. Effectively demonstrate business value to stakeholders with dashboard views.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-incidents-dashboard.html
 release: xanadu
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -17,15 +18,15 @@ ITSM Predictive Intelligence Workbench provides the Predictive Intelligence for 
 
 **Important:**
 
-Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](../../../product/task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md)
+Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Know exactly what stage your model workflows are in with automated comments on specific ServiceNow® Performance Analytics indicators. Comments appear on the **Actual Net Automation** indicators. Model stages comments include, when the model is integrated, when an integration is removed, when an existing model is changed to a new model, and when retraining is complete.
 
-![Predictive Intelligence for Incidents dashboard Business Value tab](../../../product/itsm-predictive-intel-workbench/image/PIWBBusinessValue-part1.png "Business Value tab")
+\[Omitted image "PIWBBusinessValue-part1.png"\] Alt text: Predictive Intelligence for Incidents dashboard Business Value tab
 
-![Predictive Intelligence for Incidents dashboard Monitoring Models tab](../../../product/itsm-predictive-intel-workbench/image/PIWBMonitoringModels-pt1.png "Monitoring Models tab")
+\[Omitted image "PIWBMonitoringModels-pt1.png"\] Alt text: Predictive Intelligence for Incidents dashboard Monitoring Models tab
 
 You can view the Net Automation Threshold graph on the **Monitoring Models** tab. This threshold is a computation of the difference between estimated net automation and the underperformance property values. Thresholds are calculated daily and notifications are sent to stakeholders when thresholds are breached.
 
@@ -36,7 +37,7 @@ View automatic comments on the **Actual Net Automation** indicator at various st
 -   Existing model is changed to a new model
 -   Integrated model is retrained
 
-![Predictive Intelligence for Incidents dashboard Model Statistics tab](../../../product/itsm-predictive-intel-workbench/image/PIWBModelStatistics.png "Model Statistics tab")
+\[Omitted image "PIWBModelStatistics.png"\] Alt text: Predictive Intelligence for Incidents dashboard Model Statistics tab
 
 ## End user and roles
 
@@ -138,7 +139,7 @@ Predictions Skipped
 
 </td><td>
 
-Single Score![Single score icon](../../performance-analytics/image/single-score.png)
+Single Score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -154,7 +155,7 @@ Predictions Skipped
 
 </td><td>
 
-Line![Line icon](../../../reuse/reporting/image/line-trend.svg)
+Line\[Omitted image "line-trend.svg"\] Alt text: Line icon
 
 </td><td>
 
@@ -170,7 +171,7 @@ Class Distribution - Training Data
 
 </td><td>
 
-Bar![Bar icon](../../../reuse/reporting/image/bar-stacked.svg)
+Bar\[Omitted image "bar-stacked.svg"\] Alt text: Bar icon
 
 </td><td>
 
@@ -186,7 +187,7 @@ Predictions Skipped \(line\).
 
 </td><td>
 
-Single Score![Single score icon](../../performance-analytics/image/single-score.png)
+Single Score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -202,7 +203,7 @@ Classes Excluded due to Low Distribution
 
 </td><td>
 
-Single Score![Single score icon](../../performance-analytics/image/single-score.png)
+Single Score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -218,7 +219,7 @@ Class Distribution - Actual
 
 </td><td>
 
-Bar![Bar icon](../../../reuse/reporting/image/bar-stacked.svg)
+Bar\[Omitted image "bar-stacked.svg"\] Alt text: Bar icon
 
 </td><td>
 
@@ -234,7 +235,7 @@ Predicted Correctly
 
 </td><td>
 
-Single Score![Single score icon](../../performance-analytics/image/single-score.png)
+Single Score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -250,7 +251,7 @@ Predicted Correctly
 
 </td><td>
 
-Line![Line icon](../../../reuse/reporting/image/line-trend.svg)
+Line\[Omitted image "line-trend.svg"\] Alt text: Line icon
 
 </td><td>
 
@@ -266,7 +267,7 @@ Predicted Incorrectly
 
 </td><td>
 
-Single Score![Single score icon](../../performance-analytics/image/single-score.png)
+Single Score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -282,7 +283,7 @@ Predicted Incorrectly
 
 </td><td>
 
-Line![Line icon](../../../reuse/reporting/image/line-trend.svg)
+Line\[Omitted image "line-trend.svg"\] Alt text: Line icon
 
 </td><td>
 
@@ -298,7 +299,7 @@ Prediction Classes
 
 </td><td class="icon">
 
-Single Score![Single score icon](../../performance-analytics/image/single-score.png)
+Single Score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 

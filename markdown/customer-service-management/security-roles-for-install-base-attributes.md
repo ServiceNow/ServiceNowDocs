@@ -2,7 +2,10 @@
 title: Security roles for the install base characteristics
 description: You can assign functional and granular roles to Customer Service Management \(CSM\) users and administrators so that they can access the different capabilities and features of the install base characteristics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/security-roles-for-install-base-attributes.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

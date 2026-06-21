@@ -2,6 +2,7 @@
 title: Create invoice cost allocation form
 description: Allocate invoice line cost across multiple cost centers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation-form.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -99,5 +100,5 @@ Ledger account
 Ledger account that incurs the cost of the allocated transaction amount.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create New Invoice Line form](create-invoice-line-form.md)
+</table>**Parent Topic:**[Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md)
 

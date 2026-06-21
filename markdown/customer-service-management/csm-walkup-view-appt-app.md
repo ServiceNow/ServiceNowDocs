@@ -2,7 +2,10 @@
 title: View or modify a Walk-up Experience appointment booking configuration
 description: View the base system default appointment booking configuration to determine if the criteria meets your walk-up appointment booking requirement. You can modify the configuration to manage appointment booking. The information stored in the Walk-up Experience appointment booking configuration applies to all the services within the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-view-appt-app.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Review the policy exception and extension request using the Compliance Workspace
 description: After reviewing a policy exception request using the Compliance Workspace, a compliance manager can accept or reject the request. However, if the compliance manager doesn't have enough information to decide, they can request a risk assessment by the risk manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-compliance-management-workspace/review-policy-ext-and-extension-req-ws.html
 release: xanadu
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_compliance.manager
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Click **All policy exceptions** in the Policy exceptions list.
 
@@ -31,15 +32,15 @@ Role required: sn\_compliance.manager
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d261345e109">
+<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d258975e109">
 
 Option
 
-</th><th align="left" id="d261345e112">
+</th><th align="left" id="d258975e112">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d261345e118">
+</th></tr></thead><tbody><tr><td id="d258975e118">
 
 **To view or add impacted controls to the policy exception**
 
@@ -50,7 +51,7 @@ Action
 3.  Choose the controls to associate to the policy exception.
 
 
-</td></tr><tr><td id="d261345e145">
+</td></tr><tr><td id="d258975e145">
 
 **To view mitigating controls on the policy exception**
 
@@ -58,7 +59,7 @@ Action
 
 Click the Mitigating Controls tab.
 
-</td></tr><tr><td id="d261345e154">
+</td></tr><tr><td id="d258975e154">
 
 **To view or add risks to the policy exception**
 
@@ -66,7 +67,7 @@ Click the Mitigating Controls tab.
 
 Click the Risks tab.**Note:** This option is available when Risk Management plugin is also activated.
 
-</td></tr><tr><td id="d261345e166">
+</td></tr><tr><td id="d258975e166">
 
 **To view or add approvers to the policy exception**
 
@@ -74,7 +75,7 @@ Click the Risks tab.**Note:** This option is available when Risk Management plug
 
 Click the Approvers tab.
 
-</td></tr><tr><td id="d261345e179">
+</td></tr><tr><td id="d258975e179">
 
 **To request extension**
 
@@ -90,15 +91,15 @@ Click the Approvers tab.
 </td></tr></tbody>
 </table>6.  Perform one of the following actions.
 
-<table id="choicetable_rg1_mrb_gqb"><thead><tr><th align="left" id="d261345e237">
+<table id="choicetable_rg1_mrb_gqb"><thead><tr><th align="left" id="d258975e237">
 
 Option
 
-</th><th align="left" id="d261345e240">
+</th><th align="left" id="d258975e240">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d261345e246">
+</th></tr></thead><tbody><tr><td id="d258975e246">
 
 **To request additional information before approvalThis is an approver's task.
 
@@ -108,7 +109,7 @@ Action
 
 Select More \(...\) icon and select **Request more information**.An email notification is sent to the requester that the policy exception request was approved and goes into effect.
 
-</td></tr><tr><td id="d261345e262">
+</td></tr><tr><td id="d258975e262">
 
 **To provide additional information requested by approverThis is a requester's task.
 
@@ -118,7 +119,7 @@ Select More \(...\) icon and select **Request more information**.An email notifi
 
 After making changes to the policy request, select **Send Information** to provide additional information requested by approver.**Note:** When an approver requests for additional information, the state changes to Analyze and substate to Awaiting requester information.
 
-</td></tr><tr><td id="d261345e278">
+</td></tr><tr><td id="d258975e278">
 
 **To approve the policy exception**
 
@@ -131,7 +132,7 @@ The Approve exception request dialog appears.
 -   Review the summary, optionally add additional comments, and select **Confirm**.
  An email notification is sent to the requester that the PER was approved and goes into effect.
 
-</td></tr><tr><td id="d261345e311">
+</td></tr><tr><td id="d258975e311">
 
 **To reject the policy exception**
 
@@ -147,7 +148,7 @@ If the Additional comments field is empty, you cannot reject the extension reque
 
  An email notification is sent to the requester that the PER was rejected and the request is closed.
 
-</td></tr><tr><td id="d261345e347">
+</td></tr><tr><td id="d258975e347">
 
 **To approve the policy extension**
 
@@ -160,7 +161,7 @@ The Approve extension request dialog appears.
 -   Review the summary, optionally add additional comments, and select **Confirm**.
  An email notification is sent to the requester that the extension request was approved and goes into effect.
 
-</td></tr><tr><td id="d261345e380">
+</td></tr><tr><td id="d258975e380">
 
 **To reject the policy extension**
 
@@ -176,7 +177,7 @@ If the Additional comments field is empty, you cannot reject the extension reque
 
  An email notification is sent to the requester that the extension request was rejected and the request is closed.
 
-</td></tr><tr><td id="d261345e415">
+</td></tr><tr><td id="d258975e415">
 
 **To request a risk assessment on the policy exception**
 
@@ -188,7 +189,7 @@ Click **Request Risk Assessment**.
 
  **Note:** This option is available when Risk Management is also activated.
 
-</td></tr><tr><td id="d261345e439">
+</td></tr><tr><td id="d258975e439">
 
 **To request business owner approval**
 

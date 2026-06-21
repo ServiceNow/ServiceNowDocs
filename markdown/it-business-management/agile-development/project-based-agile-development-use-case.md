@@ -2,11 +2,12 @@
 title: Project-based development use case in Agile Development
 description: An example of project-based development and delivery model in Agile Development.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/agile-development/project-based-agile-development-use-case.html
 release: xanadu
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Agile Development use cases, Explore, Agile Development 2.0, Strategic Portfolio Management]
 ---
@@ -40,7 +41,7 @@ The usual activities involved in a project-based Agile Development include the f
 
 The following illustration provides a high-level overview of the workflow in a project-based Agile Development environment.
 
-![Project-based agile development work flow. Stories from the product backlog are them assigned to different projects, prioritized, and assigned to teams. The teams then schedule these stories into sprints.](../image/ProjectBasedAgileUseCase.png "Project-based Agile Development workflow example")
+\[Omitted image "ProjectBasedAgileUseCase.png"\] Alt text: Project-based agile development work flow. Stories from the product backlog are them assigned to different projects, prioritized, and assigned to teams. The teams then schedule these stories into sprints.
 
-**Parent Topic:**[Agile Development use cases](agile-workflow-use-cases.md)
+**Parent Topic:**[Agile Development use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/agile-development/agile-workflow-use-cases.md)
 

@@ -2,6 +2,7 @@
 title: Disable a metric for a CI
 description: Metric Intelligence can be configured to collect significant amounts of data, some of which might not be necessary. To improve performance, you can disable a specific metric for a specific CI to stop processing data related to the specified metric and CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/disable-metric-per-ci.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

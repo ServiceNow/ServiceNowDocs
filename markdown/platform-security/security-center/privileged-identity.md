@@ -2,6 +2,7 @@
 title: Privileged Identity
 description: Analyze data related to metrics for users with privileged identity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/privileged-identity.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -23,5 +24,5 @@ This dashboard displays data related to privileged identity users and their acti
 -   ServiceNow logins: Total count of logins by ServiceNow employees.
 -   Admin users added: Total number of users given the admin role.
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)
 

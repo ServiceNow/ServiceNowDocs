@@ -2,6 +2,7 @@
 title: Reclassify contract documents in third-party contract request
 description: As a contract fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -38,5 +39,5 @@ Role required: sn\_cm\_core.contract\_fulfiller
 7.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Use non-self-served contract request](../concept/cncore-req-nss-contract-1.md)
+**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

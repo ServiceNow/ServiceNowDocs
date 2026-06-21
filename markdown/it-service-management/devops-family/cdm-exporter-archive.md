@@ -2,13 +2,14 @@
 title: Archive an exporter
 description: Archive an exporter to preserve its record and remove it from the lists that you use in your everyday work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-family/cdm-exporter-archive.html
 release: xanadu
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [Export a snapshot, Use, DevOps Config, IT Service Management]
+breadcrumb: [Export a snapshot, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Archive an exporter

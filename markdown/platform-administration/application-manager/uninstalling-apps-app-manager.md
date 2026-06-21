@@ -2,6 +2,7 @@
 title: Uninstalling applications
 description: Application Manager can be used to uninstall applications that are no longer in use on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/uninstalling-apps-app-manager.html
 release: xanadu
 product: Application Manager
 classification: application-manager

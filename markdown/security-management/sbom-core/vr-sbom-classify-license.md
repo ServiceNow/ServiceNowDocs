@@ -2,6 +2,7 @@
 title: Classify imported licenses in the Software Bill of Materials Workspace
 description: Classify the component licenses you upload with your SBOM files with the License Classification feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/sbom-core/vr-sbom-classify-license.html
 release: xanadu
 product: SBOM Core
 classification: sbom-core
@@ -31,15 +32,15 @@ Role required: sn\_sbom\_response.managelicense
 
 3.  To classify licenses, choose one.
 
-<table id="choicetable_inv_wvz_ycc"><thead><tr><th align="left" id="d451032e100">
+<table id="choicetable_inv_wvz_ycc"><thead><tr><th align="left" id="d142158e100">
 
 Option
 
-</th><th align="left" id="d451032e103">
+</th><th align="left" id="d142158e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d451032e109">
+</th></tr></thead><tbody><tr><td id="d142158e109">
 
 **Bulk edit records or edit more than one record on the list.**
 
@@ -50,7 +51,7 @@ Description
 3.  Update the classification.
 
 
-</td></tr><tr><td id="d451032e130">
+</td></tr><tr><td id="d142158e130">
 
 **Edit and update the classification on the record.**
 
@@ -62,6 +63,6 @@ Description
 
 
 </td></tr></tbody>
-</table>4.  After you classify licenses, you are ready to [Resolve classified licenses to components](vr-sbom-assign-license.md).
+</table>4.  After you classify licenses, you are ready to [Resolve classified licenses to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/sbom-core/vr-sbom-assign-license.md).
 
 

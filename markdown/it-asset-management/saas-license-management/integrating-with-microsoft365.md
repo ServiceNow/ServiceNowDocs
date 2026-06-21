@@ -2,6 +2,7 @@
 title: Integrating with Microsoft Dynamics 365 and Power Apps
 description: Integrating your ServiceNow instance with the Microsoft Dynamics 365 and Power Apps service enables you to track your software subscriptions and to reclaim unused licenses.Set up Microsoft Azure Active Directory \(AD\).Set the system-level settings for Microsoft Dynamics 365 and Power Apps.Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track your software subscriptions and to reclaim unused licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/integrating-with-microsoft365.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -202,15 +203,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d189107e676">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114010e676">
 
 Interface
 
-</th><th align="left" id="d189107e679">
+</th><th align="left" id="d114010e679">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d189107e685">
+</th></tr></thead><tbody><tr><td id="d114010e685">
 
 **Core UI**
 
@@ -221,7 +222,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d189107e727">
+</td></tr><tr><td id="d114010e727">
 
 **Software Asset Workspace**
 
@@ -242,9 +243,9 @@ Action
 
     A draft integration profile is created. In the **Download Subscription Subflow** tab, the **Connection &amp; Credential** field appears and is automatically set to **sn\_ms\_365\_spoke.Microsoft\_365\_Graph**. In the **Calculate Activity Subflow** tab, the **Connection &amp; Credential** field appears and is automatically set to **sn\_ms\_365\_spoke.Microsoft\_365\_Dynamics**.
 
-5.  Under the **Download Subscription Subflow** tab, beside the **Connection &amp; Credential** field, select the preview \(![preview icon](../image/preview-icon.png)\) icon.
+5.  Under the **Download Subscription Subflow** tab, beside the **Connection &amp; Credential** field, select the preview \(\[Omitted image "preview-icon.png"\] Alt text: preview icon\) icon.
 
-6.  Under the **Please Enter the Credential Information** section, enter the values you received from [Set up Microsoft Azure Active Directory](integrating-with-microsoft365.md#).
+6.  Under the **Please Enter the Credential Information** section, enter the values you received from [Set up Microsoft Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
 
     1.  In the **Tenant ID** field, enter your Tenant ID.
 
@@ -260,7 +261,7 @@ Action
 
 8.  If you’re prompted to log in to your Microsoft 365 account, enter your Microsoft 365 credentials and log in to your Microsoft 365 account.
 
-9.  Under the **Calculate Activity Subflow** tab, beside the **Connection &amp; Credential** field, select the Preview \(![Preview](../image/preview-icon.png)\) icon.
+9.  Under the **Calculate Activity Subflow** tab, beside the **Connection &amp; Credential** field, select the Preview \(\[Omitted image "preview-icon.png"\] Alt text: Preview\) icon.
 
 10. Select **Create New connection and credential alias**.
 
@@ -289,18 +290,18 @@ Action
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../task/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/run-recon-workspace.md).
 

@@ -2,6 +2,7 @@
 title: Create an escalation trigger rule
 description: Create a trigger rule to specify both the conditions under which an escalation process should begin and the actions \(workflow or script\) to perform for the escalation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/on-call-scheduling/create-trigger-rule-oncall.html
 release: xanadu
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -60,7 +61,7 @@ Task table that applies to the trigger rule.
 **Note:**
 
 -   Only tables and database views that are in the same scope as the trigger rule appear in the list.
--   Tables that do not extend tasks do appear in the list only if those tables are configured for trigger rules in the [Trigger Rule Table Configuration](configure-tables-for-escalation-trigger-rule.md) \[trigger\_rule\_table\_cfg\] table.
+-   Tables that do not extend tasks do appear in the list only if those tables are configured for trigger rules in the [Trigger Rule Table Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.md) \[trigger\_rule\_table\_cfg\] table.
 .
 
 </td></tr><tr><td>
@@ -163,5 +164,5 @@ Script \(server-side JavaScript\) to execute. Available only if the **Trigger ac
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Designing an escalation process](../concept/designing-escalation-process-oncall.md)
+**Parent Topic:**[Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)
 

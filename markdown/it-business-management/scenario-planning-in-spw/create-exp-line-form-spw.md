@@ -2,6 +2,7 @@
 title: Create expense line form
 description: Use this form to create expense lines for your actual expense.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/scenario-planning-in-spw/create-exp-line-form-spw.html
 release: xanadu
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -112,5 +113,5 @@ Summary type
 Business purpose of the expense line.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

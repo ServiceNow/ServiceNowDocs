@@ -2,6 +2,7 @@
 title: Close a project
 description: Closing the project involves more than just changing the project state to closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_CloseAProject.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -55,15 +56,15 @@ For projects created from an incident, problem, or change, updating the project 
 
 ## What to do next
 
--   [Cancel the resource plans](../../resource-management/task/cancel-resource-plan-from-project-or-demand.md) associated with the project in any of the following conditions:
+-   [Cancel the resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.md) associated with the project in any of the following conditions:
     -   There is a corresponding resource plan in the Confirmed, Planning, or Requested state.
     -   There is a resource plan in the Allocated state with the start date later than the project end date.
--   [Complete the resource plans](../../resource-management/task/complete-resource-plan-from-project-or-demand.md) associated with the project in the following conditions:
+-   [Complete the resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md) associated with the project in the following conditions:
     -   There is a corresponding resource plan in the Allocated state.
     -   The start date of the resource plan is on or before the actual end date of the project or task.
 
--   **[View actual project costs](../../project-portfolio-suite-with-financials/task/t_ViewActualProjectCosts.md)**  
+-   **[View actual project costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_ViewActualProjectCosts.md)**  
 When you are using Project Portfolio Management with Financials, you can view actual project costs on cost plans and projects.
 
-**Parent Topic:**[Project Management](../concept/c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

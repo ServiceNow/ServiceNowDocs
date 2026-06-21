@@ -2,6 +2,7 @@
 title: Escape Excel Formulas \[Updated in Security Center 1.3\]
 description: Use the glide.export.escape\_formulas property to prevent Excel Injection, also, known as formula injection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -23,7 +24,7 @@ Excel injection occurs when websites embed untrusted entries inside Excel files.
 |---------|-----------|
 |Property name|**glide.export.escape\_formulas**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](validation-sanitization-encoding.md)|
+|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
 |Purpose|To prevent application against the Excel or formula injection.|
 |Recommended value|true|
 |Default value|false|
@@ -31,9 +32,9 @@ Excel injection occurs when websites embed untrusted entries inside Excel files.
 |Functional impact|Maliciously crafted formulas can be used for hijacking the user's computer by exploiting vulnerabilities in the spreadsheet software.|
 |Security risk|\(Moderate\) Malicious formulae pose a risk even when the embedding spreadsheet doesn't contain any sensitive information, as they can be used to compromise the viewer's computer.|
 |Workaround|As an alternative consider stripping all trailing white spaces where possible, and limiting all client-supplied data to alpha-numeric characters.|
-|References|[Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)|
+|References|Available system properties|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

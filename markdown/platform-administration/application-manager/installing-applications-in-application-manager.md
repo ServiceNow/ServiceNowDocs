@@ -2,6 +2,7 @@
 title: Install an application or plugin
 description: Install, update, or schedule multiple application installations to your instance using the Application Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/installing-applications-in-application-manager.html
 release: xanadu
 product: Application Manager
 classification: application-manager

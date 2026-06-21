@@ -2,6 +2,7 @@
 title: Editing functions in HTML field editor
 description: Several editing functions are built into TinyMCE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_EditingFunctions.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -13,7 +14,7 @@ breadcrumb: [Configure the HTML toolbar, Configure a field editor for the HTML f
 
 Several editing functions are built into TinyMCE.
 
-You can add more edit functions to TinyMCE v6.8.3 using the **glide.ui.html.editor.toolbar** property and properties on the **UI Properties** page. For more information on configuring the edit functions, see [Configure the HTML toolbar](../../../administer/form-administration/task/t_ConfigureTheTinyMCEHTMLToolbar.md).
+You can add more edit functions to TinyMCE v6.8.3 using the **glide.ui.html.editor.toolbar** property and properties on the **UI Properties** page. For more information on configuring the edit functions, see [Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md).
 
 <table id="table_xg1_bcg_vq"><thead><tr><th>
 
@@ -37,11 +38,11 @@ Cut\*
 
 </td><td>
 
-![Cut html](../image/CutHTML.png)
+\[Omitted image "CutHTML.png"\] Alt text: Cut html
 
 </td><td>
 
-![TinyMCE v6.8.3Cut](../image/TinyMCEV6-cut_icon.png)
+\[Omitted image "TinyMCEV6-cut\_icon.png"\] Alt text: TinyMCE v6.8.3Cut
 
 </td><td>
 
@@ -55,11 +56,11 @@ Copy\*
 
 </td><td>
 
-![Copy html](../image/CopyHTML.png)
+\[Omitted image "CopyHTML.png"\] Alt text: Copy html
 
 </td><td>
 
-![TinyMCE v6.8.3 Copy](../image/TinyMCEV6-copy_icon.png)
+\[Omitted image "TinyMCEV6-copy\_icon.png"\] Alt text: TinyMCE v6.8.3 Copy
 
 </td><td>
 
@@ -73,7 +74,7 @@ Find/Replace
 
 </td><td>
 
-![Find replace html](../image/FindReplaceHTML.png)
+\[Omitted image "FindReplaceHTML.png"\] Alt text: Find replace html
 
 </td><td>
 
@@ -89,11 +90,11 @@ Paste\*
 
 </td><td>
 
-![Paste html](../image/PasteHTML.png)
+\[Omitted image "PasteHTML.png"\] Alt text: Paste html
 
 </td><td>
 
-![TinyMCE v6.8.3 Paste](../image/TinyMCEV6-paste_icon.png)
+\[Omitted image "TinyMCEV6-paste\_icon.png"\] Alt text: TinyMCE v6.8.3 Paste
 
 </td><td>
 
@@ -107,11 +108,11 @@ Paste as Plain Text\*
 
 </td><td>
 
-![Paste text html](../image/PasteTextHTML.png)
+\[Omitted image "PasteTextHTML.png"\] Alt text: Paste text html
 
 </td><td>
 
-![TinyMCE v6.8.3 Paste as plain text](../image/TinyMCEV6-paste-text_icon.png)
+\[Omitted image "TinyMCEV6-paste-text\_icon.png"\] Alt text: TinyMCE v6.8.3 Paste as plain text
 
 </td><td>
 
@@ -123,7 +124,7 @@ Paste from Word
 
 </td><td>
 
-![Paste from Word html](../image/PasteWordHTML.png)
+\[Omitted image "PasteWordHTML.png"\] Alt text: Paste from Word html
 
 </td><td>
 
@@ -139,11 +140,11 @@ Undo\*
 
 </td><td>
 
-![Undo html](../image/UndoHTML.png)
+\[Omitted image "UndoHTML.png"\] Alt text: Undo html
 
 </td><td>
 
-![TinyMCE v6.8.3 Undo](../image/TinyMCEV6-undo_icon.png)
+\[Omitted image "TinyMCEV6-undo\_icon.png"\] Alt text: TinyMCE v6.8.3 Undo
 
 </td><td>
 
@@ -155,11 +156,11 @@ Redo\*
 
 </td><td>
 
-![Redo html](../image/RedoHTML.png)
+\[Omitted image "RedoHTML.png"\] Alt text: Redo html
 
 </td><td>
 
-![TinyMCE v6.8.3 Redo](../image/TinyMCEV6-redo_icon.png)
+\[Omitted image "TinyMCEV6-redo\_icon.png"\] Alt text: TinyMCE v6.8.3 Redo
 
 </td><td>
 
@@ -168,8 +169,8 @@ Reapplies the last reverted edit.
 </td></tr></tbody>
 </table>**Note:** \*These options aren't available with htmlArea.
 
--   **[Paste content into an HTML editor](../task/paste-html-editor.md)**  
+-   **[Paste content into an HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/paste-html-editor.md)**  
 Paste content from a desktop application to the HTML editor. Content might not paste the same from every application.
 
-**Parent Topic:**[Configure the HTML toolbar](../../../administer/form-administration/task/t_ConfigureTheTinyMCEHTMLToolbar.md)
+**Parent Topic:**[Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md)
 

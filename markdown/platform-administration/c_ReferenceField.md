@@ -2,6 +2,7 @@
 title: Reference field type
 description: A reference field stores a reference to a field on another table. For example, the Caller field on the Incident table is a reference to the User \[sys\_user\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_ReferenceField.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -32,18 +33,18 @@ Administrators can create new reference fields and configure several options for
 
 **Tip:** For troubleshooting information, see the [Reference field is not showing the expected display value when selected or it appears blank \[KB0693859\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0693859) article in the Now Support Knowledge Base.
 
--   **[Add a reference field](../task/t_AddAReferenceField.md)**  
+-   **[Add a reference field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_AddAReferenceField.md)**  
 Add reference fields to a table using the same method as for any other field.
--   **[Display values](c_DisplayValues.md)**  
+-   **[Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DisplayValues.md)**  
 Reference fields store a sys\_id for each referenced record in the database, but the sys\_id is not shown.
--   **[Decorations](c_Decorations.md)**  
+-   **[Decorations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_Decorations.md)**  
 Reference decorations are icons which appear next to the reference field.
--   **[Reference qualifiers](../../../script/server-scripting/concept/c_ReferenceQualifiers.md)**  
+-   **[Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ReferenceQualifiers.md)**  
 Use reference qualifiers to filter the data that is returned for a reference field.
--   **[Auto-complete for reference fields](c_AutoCompleteForReferenceFields.md#)**  
+-   **[Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_AutoCompleteForReferenceFields.md)**  
 By default, a reference field auto-completes as the user types in the field.
--   **[Recent selections](c_RecentSelections.md)**  
+-   **[Recent selections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_RecentSelections.md)**  
 Reference fields store a list of each user's recent selections to enable you to quickly select past values when filling in a reference field.
 
-**Parent Topic:**[Field types](../../reference-pages/reference/r_FieldTypes.md)
+**Parent Topic:**[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_FieldTypes.md)
 

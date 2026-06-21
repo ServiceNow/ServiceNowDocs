@@ -2,6 +2,7 @@
 title: Financial Management Level 3 Costing – Business Capabilities dashboard
 description: The Level 3 Costing – Business Capabilities dashboard provides an executive view into the total spend drilled down to the business units or business capabilities for a quarter and year-to-date. The dashboard provides visibility on the cost of supporting a business capability and helps communicate value in terms of the business functions aligned to the business capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/financial-mgmt-level3-costing-business-capabilities.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -21,7 +22,7 @@ This feature is available only when you own an ITBM Analyst license.
 
 The dashboard is based on Level 3 Costing – Business Capabilities cost model. The model aligns the actual capability that is associated with a business application with the high-level business capability.
 
-![Screenshot showing Level 3 Costing – Business Capabilities dashboard](../image/Level3CostingBusinessCapabilitiesDashboard.png "Level 3 Costing – Business Capabilities dashboard")
+\[Omitted image "Level3CostingBusinessCapabilitiesDashboard.png"\] Alt text: Screenshot showing Level 3 Costing – Business Capabilities dashboard
 
 ## End user and roles
 
@@ -54,9 +55,9 @@ The dashboard is based on Level 3 Costing – Business Capabilities cost model. 
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Business Capabilities with Drivers|Bar![Bar stacked report](../../../reuse/reporting/image/bar-stacked.svg)|Displays the total amount spent on business capabilities stacked by buckets \(cost pools\) from which the amount is allocated.|
-|Average Enterprise Cost per CPU|Spline![Spline chart](../../../reuse/reporting/image/spline.svg)|Displays the trend of average unit cost per CPU.|
-|Business Units – Business Capabilities|Pivot![Pivot report](../../../reuse/reporting/image/pivot.svg)|Gives a tabular view of the amount spent on the business capabilities by the business units for the last four quarters.|
+|Business Capabilities with Drivers|Bar\[Omitted image "bar-stacked.svg"\] Alt text: Bar stacked report|Displays the total amount spent on business capabilities stacked by buckets \(cost pools\) from which the amount is allocated.|
+|Average Enterprise Cost per CPU|Spline\[Omitted image "spline.svg"\] Alt text: Spline chart|Displays the trend of average unit cost per CPU.|
+|Business Units – Business Capabilities|Pivot\[Omitted image "pivot.svg"\] Alt text: Pivot report|Gives a tabular view of the amount spent on the business capabilities by the business units for the last four quarters.|
 
-**Parent Topic:**[Financial Management Platform Analytics Solutions](financial-content-pack.md)
+**Parent Topic:**[Financial Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-content-pack.md)
 

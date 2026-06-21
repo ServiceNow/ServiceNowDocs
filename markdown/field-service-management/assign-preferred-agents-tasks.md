@@ -2,7 +2,10 @@
 title: Assign preferred agents to tasks
 description: Identify the agents most preferred for working on a customer account and assign them to tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/assign-preferred-agents-tasks.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -17,9 +20,9 @@ Identify the agents most preferred for working on a customer account and assign 
 
 Role required: wm\_dispatcher, wm\_manager, wm\_admin
 
-If you’re using Technician Preferences for dynamic scheduling, then you must have the **Prioritize preferred and secondary technicians** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to assign preferred technicians to tasks](excluded-preferred-agents.md).
+If you’re using Technician Preferences for dynamic scheduling, then you must have the **Prioritize preferred and secondary technicians** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/excluded-preferred-agents.md).
 
-If you're using Technician Preferences for Schedule Optimization then your administrator must [Configure the policy to assign preferred technicians to tasks](configure-the-policy-to-assign-preferred-technicians-to-tasks.md).
+If you're using Technician Preferences for Schedule Optimization then your administrator must [Configure the policy to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/configure-the-policy-to-assign-preferred-technicians-to-tasks.md).
 
 ## About this task
 
@@ -46,5 +49,5 @@ Technician Preferences are used by dynamic scheduling and Schedule Optimization.
 7.  Select **Update**.
 
 
-**Parent Topic:**[Managing work order tasks](../../planning-and-policy/concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Managing work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_WorkOrderTasks.md)
 

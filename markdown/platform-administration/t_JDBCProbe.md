@@ -2,6 +2,7 @@
 title: JDBCProbe
 description: A JDBC probe runs on the MID Server to query an external database via \[JDBC\] and returns results to ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_JDBCProbe.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -36,16 +37,16 @@ Contact Customer Service and Support to activate the **Integration - JDBC** \(co
 4.  Click **Activate**.
 
 
--   **[Direct JDBC Probe](../concept/c_DirectJDBCProbe.md)**  
+-   **[Direct JDBC Probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DirectJDBCProbe.md)**  
 A direct JDBC probe specifies all the parameters necessary in the outbound ECC Queue XML payload.
--   **[JDBC Probes via Data Source](../concept/c_JDBCProbesViaDataSource.md)**  
+-   **[JDBC Probes via Data Source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_JDBCProbesViaDataSource.md)**  
 JDBC probes are executed via a JDBC data source when an import is running against the data source.
--   **[Select \* JDBC Probe short cut](../concept/c_SelectJDBCProbeShortCut.md)**  
+-   **[Select \* JDBC Probe short cut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_SelectJDBCProbeShortCut.md)**  
 Alternatively, you may specify a **table\_name** parameter instead of a work element and the following query could be executed.
--   **[Parameters](../reference/r_DirectJDBCProbeParameters.md)**  
+-   **[Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_DirectJDBCProbeParameters.md)**  
 The following parameters are available in a direct JDBC probe.
--   **[Using the Work Element](../concept/c_UsingTheWorkElement.md)**  
+-   **[Using the Work Element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UsingTheWorkElement.md)**  
 The work element encodes SQL statements to be executed by the probe.
 
-**Parent Topic:**[Supported integration interfaces](../../vendor-specific-integrations/reference/r_SupportedIntegrationInterfaces.md)
+**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_SupportedIntegrationInterfaces.md)
 

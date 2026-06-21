@@ -2,7 +2,10 @@
 title: Agent location
 description: The Field Service Management application calculates your location from a set of geographical coordinates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/c\_AgentLocation.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,5 +24,5 @@ These coordinates are updated at a predefined interval based on geolocation data
 -   Work order task number
 -   Location timestamp
 
-**Parent Topic:**[Execute a task from the agent map](../task/t_ExecuteATaskFromTheAgentMap.md)
+**Parent Topic:**[Execute a task from the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_ExecuteATaskFromTheAgentMap.md)
 

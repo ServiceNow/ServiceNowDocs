@@ -2,6 +2,7 @@
 title: Time series visualization type use cases
 description: Time series visualizations can emphasize the trend in the data or specific changes in the data. They can show one data source or compare several related data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/time-series-visualization-types.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -27,7 +28,7 @@ Visualizing trends in the scores of an indicator
 
 </th></tr></thead><tbody><tr><td>
 
-Line![line visualization](../image/inline-data-vis-line.png)
+Line\[Omitted image "inline-data-vis-line.png"\] Alt text: line visualization
 
 </td><td>
 
@@ -35,7 +36,7 @@ Shows how one or more values change over time by connecting a series of data poi
 
 </td></tr><tr><td>
 
-Spline![spline visualization](../image/inline-data-vis-spline.png)
+Spline\[Omitted image "inline-data-vis-spline.png"\] Alt text: spline visualization
 
 </td><td>
 
@@ -43,7 +44,7 @@ Shows how one or more values change over time by connecting a series of data poi
 
 </td></tr><tr><td>
 
-Scatter![scatter visualization - med](../image/inline-data-vis-trend.png)
+Scatter\[Omitted image "inline-data-vis-trend.png"\] Alt text: scatter visualization - med
 
 </td><td>
 
@@ -55,7 +56,7 @@ Comparing scores in a data source
 
 </td></tr><tr><td>
 
-Column![column visualization](../image/inline-data-vis-bar-column.png)
+Column\[Omitted image "inline-data-vis-bar-column.png"\] Alt text: column visualization
 
 </td><td>
 
@@ -63,7 +64,7 @@ Shows changes in data over time by displaying values as proportional vertical co
 
 </td></tr><tr><td>
 
-Step![Data visualization step line type - med](../image/inline-data-vis-stepline.png)
+Step\[Omitted image "inline-data-vis-stepline.png"\] Alt text: Data visualization step line type - med
 
 </td><td>
 
@@ -75,7 +76,7 @@ Comparing scores or trends between data sources
 
 </td></tr><tr><td>
 
-Area![area visualization](../image/inline-data-vis-area.png)
+Area\[Omitted image "inline-data-vis-area.png"\] Alt text: area visualization
 
 </td><td>
 

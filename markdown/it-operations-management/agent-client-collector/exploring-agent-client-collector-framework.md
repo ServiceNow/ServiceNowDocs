@@ -2,6 +2,7 @@
 title: Exploring Agent Client Collector Framework
 description: Learn how the Agent Client Collector Framework \(ACC-F\) helps measure the performance of your infrastructure machines. Agent Client Collector Framework analyzes data on installed agents to discover and monitor your Configuration items \(CIs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -23,7 +24,7 @@ The Agent Client Collector is an agent that is installed on infrastructure compo
 
 The following illustration describes the layout and data flow within the Agent Client Collector Framework application.
 
-![ACC-F Infographic](../image/acc-framework-infographic.png "Collecting and distributing data with ACC-F")
+\[Omitted image "acc-framework-infographic.png"\] Alt text: ACC-F Infographic
 
 1.  ACC-F is deployed on the customer's ServiceNow instance.
 2.  Agents are installed on the host machines \(Linux, Windows, or macOS\) and collect data on the hosts and configuration items \(CIs\).
@@ -43,10 +44,10 @@ Agent Client Collector Framework provides data to other Agent Client Collector c
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Monitor your system’s health, performance, and availability through automated collection of events and metrics, leveraging automated configurations.|[Agent Client Collector Monitoring](acc-monitoring-landing-page.md)|NOC User, Event Management administrator|
-|Track server inventory, software installations and usage continuously with non-admin access and minimal network communication.|[Agent Client Collector for Visibility](acc-visibility-landing-page.md)|CMDB/Discovery administrator|
+|Monitor your system’s health, performance, and availability through automated collection of events and metrics, leveraging automated configurations.|[Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-monitoring-landing-page.md)|NOC User, Event Management administrator|
+|Track server inventory, software installations and usage continuously with non-admin access and minimal network communication.|[Agent Client Collector for Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-visibility-landing-page.md)|CMDB/Discovery administrator|
 |Gather detailed inventory data of devices not connected to your network or running in isolated environments \(air-gapped\).|[Agent Client Collector Framework Air Gapped Configuration Item Management Solution](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1585753)|CMDB/Discovery administrator|
-|Minimize triage time of incidents by direct access of live device details and interactions to remediate.|[View live CI data with Agent Client Collector](../task/acc-live-ci-view.md)|ITSM user|
-|Trigger remote actions against managed devices, without additional credential or network communication.|[Agent Client Collector Security Incident Response](acc-security-incident-response.md)|Automation expert|
-|Stream log data into your instance to predict problems and solve them before they happen, to minimize user impact.|[Agent Client Collector Log Analytics](acc-log-analytics.md)|Agent Client Collector administrator|
+|Minimize triage time of incidents by direct access of live device details and interactions to remediate.|[View live CI data with Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-live-ci-view.md)|ITSM user|
+|Trigger remote actions against managed devices, without additional credential or network communication.|[Agent Client Collector Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-security-incident-response.md)|Automation expert|
+|Stream log data into your instance to predict problems and solve them before they happen, to minimize user impact.|[Agent Client Collector Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-log-analytics.md)|Agent Client Collector administrator|
 

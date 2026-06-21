@@ -2,6 +2,7 @@
 title: Set up document extraction use cases
 description: In Document Intelligence, a use case is used to define the structure of a type of document you want to process. It's made up of the use case record and its related fields, field groups, integrations, flows, and all the related machine learning \(ML\) models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/set-up-document-extraction-use-cases.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -21,7 +22,7 @@ In a document extraction use case, you define the information that you want the 
 
 For example, if you want to process invoice documents, you may want an “Invoice” use case. This use case could have fields for date, invoice number, item, and so on, to define which information needs to be extracted from the document.
 
-![Document extraction use case showing fields and field groups.](../image/docintel-ext-use-case-example.png)
+\[Omitted image "docintel-ext-use-case-example.png"\] Alt text: Document extraction use case showing fields and field groups.
 
 After you've defined a document extraction use case, agents can begin processing documents for it in document tasks.
 
@@ -29,21 +30,21 @@ After you've defined a document extraction use case, agents can begin processing
 
 Set up a document extraction use case in the following steps.
 
-1.  [Create a use case](../task/create-tasks.md).
+1.  [Create a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/create-tasks.md).
 
     Define the name, target table, and language for the use case.
 
-2.  [Create a field for data extraction](../task/manage-keys.md).
+2.  [Create a field for data extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/manage-keys.md).
 
     Define the fields that the AI will learn to detect and extract values from.
 
     Define any groupings of fields to help extract and organize data gathered from tables or information patterns, like check box lists.
 
-3.  [Configure data extraction modes](../task/configure-data-extraction-modes.md).
+3.  [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/configure-data-extraction-modes.md).
 
     Define how fields should be extracted from documents in a document task.
 
-4.  [Set up integrations](../task/configure-integration-setup.md).
+4.  [Set up integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/configure-integration-setup.md).
 
     Configure an integration to trigger document task processing or value extraction for workflows with other applications.
 

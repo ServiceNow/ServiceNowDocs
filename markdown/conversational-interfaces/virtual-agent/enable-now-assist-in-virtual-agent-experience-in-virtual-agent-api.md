@@ -2,6 +2,7 @@
 title: Enable Now Assist experience in Virtual Agent API
 description: Enable Now Assist experience in Virtual Agent API to support generative AI skills across multiple provider channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Enable Now Assist experience in Virtual Agent API to support generative AI skill
 
 ## Before you begin
 
-Set up Now Assist in Virtual Agent. See [Configuring Now Assist in Virtual Agent](../../now-assist-in-va/task/configure-now-assist-va.md) for more information.
+Set up Now Assist in Virtual Agent. See [Configuring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) for more information.
 
 Role required: admin
 
@@ -39,5 +40,5 @@ Role required: admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Using Virtual Agent API](virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/virtual-agent-api.md)
 

@@ -2,6 +2,7 @@
 title: Export data in OSCAL format
 description: From the Authorization package overview record page, generate zip files and export the record's mapped content details in OSCAL format. This action enables you to export your authorization package from CAM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-oscal-models.html
 release: xanadu
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -23,7 +24,7 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
 1.  Navigate to **All** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the CAM Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Select Authorization packages from the **RMF** list.
 
@@ -31,17 +32,17 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
     **Note:** The authorization package must be in Implement state to generate OSCAL SSP.
 
-5.  Select the more actions icon \(![More actions icon.](../../grc-workspace-risk/image/icon-more-actions-risk.png)\) and then select the **Export OSCAL SSP** option from the list.
+5.  Select the more actions icon \(\[Omitted image "icon-more-actions-risk.png"\] Alt text: More actions icon.\) and then select the **Export OSCAL SSP** option from the list.
 
     A message appears stating that the OSCAL report is being processed and that the file will be exported. A zip is generated which contains JSON files along with some diagrams.
 
     **Note:** If you do not have the Integration Hub Pro entitlement that is not included in the CAM Workspace, then follow the steps in the [Generate OSCAL Models without zip \[KB1651422\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1651422) article in the Now Support Knowledge Base to generate the OSCAL models.
 
-6.  Refresh the page and select the attachment icon \(![Attachment icon.](../../../common/image/Form_Attachment.png)\) in the sidebar.
+6.  Refresh the page and select the attachment icon \(\[Omitted image "Form\_Attachment.png"\] Alt text: Attachment icon.\) in the sidebar.
 
-7.  Select the action icon \(![More actions icon](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png)\) in the oscal-ssp.zip and then select the **Download** option.
+7.  Select the action icon \(\[Omitted image "more-actions-vertical-icon.png"\] Alt text: More actions icon\) in the oscal-ssp.zip and then select the **Download** option.
 
-    ![Dowload oscal-ssp-zip from the sidebar.](../image/cam-oscal-ssp-zip.png)
+    \[Omitted image "cam-oscal-ssp-zip.png"\] Alt text: Dowload oscal-ssp-zip from the sidebar.
 
 8.  Right-click the zip file and select **Open** to extract the file contents from the oscal-ssp.zip.
 

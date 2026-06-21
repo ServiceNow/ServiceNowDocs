@@ -2,7 +2,10 @@
 title: Script includes installed with Field Service Management
 description: Script includes are added with Field Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/r\_ScriptIncInstWFieldSrvMgmnt.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,5 +32,5 @@ Field Service Management adds the following geolocation script includes.
 |WMGeolocationUtils|Provides utilities for Field Service Management geolocation maps.|
 |WorkTaskRouting|Routing functionality for work order tasks.|
 
-**Parent Topic:**[Components installed with Field Service Management](r_InstalledWithFSM.md)
+**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_InstalledWithFSM.md)
 

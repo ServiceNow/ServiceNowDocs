@@ -2,6 +2,7 @@
 title: Create an audience
 description: Create or modify an audience record to define the conditions or criteria that users must meet to view content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ec-audiences.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -71,7 +72,7 @@ User Criteria \[user\_criteria\]
 
 </td><td>
 
-Criteria based on role, department, group, location, or company. User criteria is a platform feature. See [User criteria for Service Portal](https://www.servicenow.com/docs/access?context=user-criteria&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Criteria based on role, department, group, location, or company. User criteria is a platform feature. See .
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ HR Criteria \[sn\_hr\_core\_criteria\]
 
 </td><td>
 
-\(HR Service Delivery only\) Use pre-defined HR criteria. HR criteria is based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\] or User \[sys\_user\] tables. The base system provides examples that can be used.**Note:** For more information, see [HR criteria](../../human-resources/concept/hr-criteria.md#) and [Configure an HR criteria record](../../human-resources/concept/hr-criteria.md#).
+\(HR Service Delivery only\) Use pre-defined HR criteria. HR criteria is based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\] or User \[sys\_user\] tables. The base system provides examples that can be used.**Note:** For more information, see [HR criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-criteria.md) and [Configure an HR criteria record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-criteria.md).
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Browse and choose a file with populated with user names or email addresses. -   
 
 If you click **Save** and the **Allow Ownership for Audiences** property is set to **Yes**, the **Restrict audience by user** and **Restrict audience by group** related lists appear.
 
-**Note:** For more information on restricting an audience by user or group, see [Content Ownership](../concept/ecpro-content-restriction.md) and [Assign ownership of an audience](ecpro-ca-cd-audience-delegation.md).
+**Note:** For more information on restricting an audience by user or group, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md) and [Assign ownership of an audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-ca-cd-audience-delegation.md).
 

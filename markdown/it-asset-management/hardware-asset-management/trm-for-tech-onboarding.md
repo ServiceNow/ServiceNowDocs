@@ -2,6 +2,7 @@
 title: Manage onboarding of hardware products using Application Portfolio Management
 description: Onboard your hardware products and manage the Technology Reference Model \(TRM\) life-cycle by using Technology Reference Model \(TRM\) of Application Portfolio Management along with the Hardware Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/trm-for-tech-onboarding.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT 
 
 Onboard your hardware products and manage the Technology Reference Model \(TRM\) life-cycle by using Technology Reference Model \(TRM\) of Application Portfolio Management along with the Hardware Asset Management application.
 
-The Technology Reference Model enables you to maintain a list of hardware products with information on their approval of use within the organization. The TRM library is maintained by enterprise architects and used by application owners. For detailed information on TRM, see [Technology Reference Model](https://www.servicenow.com/docs/access?context=technology-reference-model-in-apm&version=xanadu&pubname=xanadu-application-portfolio-management&ft:locale=en-US). TRM enables application owners to request hardware products to be used in the organization, onboard the product, and define the TRM life-cycle phases.
+The Technology Reference Model enables you to maintain a list of hardware products with information on their approval of use within the organization. The TRM library is maintained by enterprise architects and used by application owners. For detailed information on TRM, see . TRM enables application owners to request hardware products to be used in the organization, onboard the product, and define the TRM life-cycle phases.
 
 Each hardware product model is associated with a set of life-cycle phases with a start and end date. The Hardware Asset Management application gives visibility into the TRM life-cycle phases for all hardware models associated with a product.
 

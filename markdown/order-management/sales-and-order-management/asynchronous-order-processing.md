@@ -2,6 +2,7 @@
 title: Asynchronous order processing for large customer and consumer orders
 description: If you're an administrator for a communications service provider \(CSP\), you can support a high volume of enterprise, multi-site customer orders and consumer orders by using asynchronous order processing in the ServiceNow Order Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/asynchronous-order-processing.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -39,15 +40,15 @@ This validation is managed by the **create\_product\_order\_validation\_async** 
 
 When the order details are successfully validated, a scheduled job runs to pick up the records from the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table and then creates entries in the customer order table as shown in the following diagram.
 
-![Workflow showing how an asynchronous order is created. For text description, refer to the steps that follow.](../image/asynchronous-order-processing.png "Asynchronous order processing workflow")
+\[Omitted image "asynchronous-order-processing.png"\] Alt text: Workflow showing how an asynchronous order is created. For text description, refer to the steps that follow.
 
 The asynchronous order processing follows these steps:
 
-1.  You must activate the Product Order Open API. The new parameter mode enables the API to process the orders synchronously or asynchronously. For more information about the API, see [Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+1.  You must activate the Product Order Open API. The new parameter mode enables the API to process the orders synchronously or asynchronously. For more information about the API, see Product Order Open API.
 2.  After you receive a high volume of orders or a large number of the order payloads through the Product Order Open API in the async mode, the order details are first validated. The order details include the product offering, order line items, order specifications, order line items characteristics, and the specification relationship of order line items.
 3.  After the validation of the order details is complete, an entry for each order with a unique record ID is created in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table. The following diagram shows how the inbound queue state model works.
 
-    ![Model for Inbound Queue State process. For text description, refer to step 3 in this section.](../image/asynchronous-order-processing-inbound-queue.png "Inbound Queue state model")
+    \[Omitted image "asynchronous-order-processing-inbound-queue.png"\] Alt text: Model for Inbound Queue State process. For text description, refer to step 3 in this section.
 
 4.  When all the orders are captured in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table, a scheduled job runs to create the customer orders for the records in the New state.
 

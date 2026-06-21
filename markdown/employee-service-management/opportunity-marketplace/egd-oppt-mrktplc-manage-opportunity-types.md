@@ -2,6 +2,7 @@
 title: Manage and create opportunity types in Opportunity Marketplace
 description: As an Opportunity Marketplace admin \[sn\_opp\_market.admin\], you can manage Opportunity types that are provided with the base system or create custom opportunity types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-manage-opportunity-types.html
 release: xanadu
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -73,7 +74,7 @@ Select this option so that you can embed multiple roles within an opportunity.
 
 </td><td>
 
-Select from the list of available user criteria. **User Criteria Records** are created and maintained from **All** &gt; **Change** &gt; **Administration** &gt; **User Criteria**, see [Create a user criteria record for Change Management](https://www.servicenow.com/docs/access?context=create-user-criteria&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+Select from the list of available user criteria. **User Criteria Records** are created and maintained from **All** &gt; **Change** &gt; **Administration** &gt; **User Criteria**, see .
 
 </td></tr><tr><td>
 
@@ -135,5 +136,5 @@ A URL that links to help for this form.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Install and configure Opportunity Marketplace](../concept/egd-oppt-mrktplc-inst-config.md)
+**Parent Topic:**[Install and configure Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-inst-config.md)
 

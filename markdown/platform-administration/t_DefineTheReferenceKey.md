@@ -2,6 +2,7 @@
 title: Define the reference key
 description: By default, reference fields store the sys\_id of the record in the database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_DefineTheReferenceKey.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -34,5 +35,5 @@ By defining a reference key, you can identify a field other than sys\_id to use 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Add a reference field](t_AddAReferenceField.md)
+**Parent Topic:**[Add a reference field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_AddAReferenceField.md)
 

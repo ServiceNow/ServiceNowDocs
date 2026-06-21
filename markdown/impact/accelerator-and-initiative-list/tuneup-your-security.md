@@ -2,6 +2,7 @@
 title: TuneUp Your Security
 description: Guidance on platform security
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/tuneup-your-security.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

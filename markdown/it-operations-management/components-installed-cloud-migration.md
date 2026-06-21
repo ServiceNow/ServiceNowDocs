@@ -2,7 +2,10 @@
 title: Components installed with Cloud Migration Assessment
 description: Several types of components are installed with the activation of the Cloud Migration Assessment plugin, including tables, user roles, properties, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/components-installed-cloud-migration.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -94,7 +97,7 @@ A comma-separated allow list of categories for Cloud Migration Assessment. Only 
 -   **Location**: **Cloud Migration** &gt; **Administration** &gt; **Properties**
 
 </td></tr></tbody>
-</table>In addition to the listed components, Cloud Migration Assessment comes with the following VMware probe: VMWare - vCenter VM Performance. For more information, see [vCenter probes and probe parameters](../../discovery/reference/vcenter-probes.md#).
+</table>In addition to the listed components, Cloud Migration Assessment comes with the following VMware probe: VMWare - vCenter VM Performance. For more information, see [vCenter probes and probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/vcenter-probes.md).
 
-**Parent Topic:**[Cloud Migration Assessment reference](cloud-migration-reference.md)
+**Parent Topic:**[Cloud Migration Assessment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-migration-reference.md)
 

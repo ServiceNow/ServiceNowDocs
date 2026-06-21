@@ -2,6 +2,7 @@
 title: Create an operational toggle level to define thresholds
 description: Create operation toggle levels so that you can define the threshold limits that your application can function within.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/create-operational-toggle-level.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance

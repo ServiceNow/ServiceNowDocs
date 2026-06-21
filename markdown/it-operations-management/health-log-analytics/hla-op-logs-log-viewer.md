@@ -2,6 +2,7 @@
 title: View log data for an alert
 description: View a chart of the frequency of anomalous log lines and the associated log data on the Log viewer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-op-logs-log-viewer.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,7 +20,7 @@ View a chart of the frequency of anomalous log lines and the associated log data
 
 Role required: evt\_mgmt\_operator, or evt\_mgmt\_admin
 
-**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [View log data for an alert](hla-op-logs-log-viewer-sow.md).
+**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [View log data for an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-sow.md).
 
-**Parent Topic:**[Viewing the logs for an alert on the Log viewer](../concept/hla-op-logs-log-viewer-concept.md)
+**Parent Topic:**[Viewing the logs for an alert on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md)
 

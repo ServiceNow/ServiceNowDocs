@@ -2,6 +2,7 @@
 title: Create a cloud policy
 description: A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort workflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-configuration-governance/create-cloud-policy.html
 release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,12 +18,12 @@ A cloud policy can override a property value set by a user, create an approval t
 
 ## Before you begin
 
--   Optional: [Create one or more cloud policy groups](create-cloud-policy-group-1.md).
+-   Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 -   Role required: sn\_cmp.cloud\_governor or admin
 
 ## About this task
 
-This procedure describes every policy type except approval policies \(on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation\). See [Create a cloud approval policy](create-cloud-approval-policy-1.md) for instructions on creating a policy with an approval trigger.
+This procedure describes every policy type except approval policies \(on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation\). See [Create a cloud approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown) for instructions on creating a policy with an approval trigger.
 
 ## Procedure
 
@@ -30,7 +31,7 @@ This procedure describes every policy type except approval policies \(on Bluepri
 
 2.  Click **New** and then fill in the form.
 
-    ![Policy form](../image/new-cloud-policy.png "Example policy form")
+    \[Omitted image "new-cloud-policy.png"\] Alt text: Policy form
 
 <table id="table_zk1_ctq_fz"><thead><tr><th>
 
@@ -70,7 +71,7 @@ Policy Trigger
 
 </td><td>
 
-A trigger that specifies when the policy should be applied. For example, the **on Lease end** trigger applies the policy when the lease for a stack ends. See [Triggers for cloud policies](../reference/policy-triggers-cloud-mgt-1.md).
+A trigger that specifies when the policy should be applied. For example, the **on Lease end** trigger applies the policy when the lease for a stack ends. See [Triggers for cloud policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
 </td></tr><tr><td>
 
@@ -130,7 +131,7 @@ Order of Execution
 
 Specify a number that represents the order in which the policy is applied. A policy with a lower number runs before a policy with a higher number. For example, a policy with **Order** of **100** runs before a policy with an **Order** of **200**.
 
- **Note:** The **Order of Execution** property does not apply for on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation policies. See [Create a cloud approval policy](create-cloud-approval-policy-1.md) for details.
+ **Note:** The **Order of Execution** property does not apply for on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation policies. See [Create a cloud approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown) for details.
 
 </td></tr><tr><td>
 
@@ -148,5 +149,5 @@ Status
 
 ## What to do next
 
-[Configure a cloud policy rule](configure-cloud-policy-rule-1.md) for the policy.
+[Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown) for the policy.
 

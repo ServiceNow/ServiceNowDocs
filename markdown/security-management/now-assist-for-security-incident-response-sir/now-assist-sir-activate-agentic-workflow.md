@@ -2,6 +2,7 @@
 title: Activate an agentic workflow for Now Assist for Security Incident Response
 description: You must activate the agentic workflows for Now Assist for Security Incident Response from the AI Agent Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/now-assist-for-security-incident-response-sir/now-assist-sir-activate-agentic-workflow.html
 release: xanadu
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -17,7 +18,7 @@ You must activate the agentic workflows for Now Assist for Security Incident Res
 
 ## Before you begin
 
-The Now Assist panel must be activated. See [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for more information.
+The Now Assist panel must be activated. See  for more information.
 
 Role required: aia-admin
 
@@ -27,7 +28,7 @@ Role required: aia-admin
 
 2.  Select the card for the agentic workflow that you want to configure and activate.
 
-    If you want to modify an agentic workflow, you can [duplicate](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) it, adjust the settings to suit your specific needs, and activate the duplicate.
+    If you want to modify an agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicate.
 
     The Guided setup is displayed. The Describe and connect page is read-only.
 

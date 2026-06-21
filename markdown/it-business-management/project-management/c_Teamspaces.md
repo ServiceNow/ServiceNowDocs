@@ -2,6 +2,7 @@
 title: Teamspaces
 description: A teamspace appears as an application in the instance application navigator. The teamspace includes module links that come from the Project Portfolio Management applications, such as the Project, Idea, Demand, Program and Portfolio applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/c\_Teamspaces.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -17,7 +18,7 @@ A teamspace appears as an application in the instance application navigator. The
 
 Use teamspaces to provide functional and data separation of these applications between different teams in your organization. The following is an example teamspace for a marketing team:
 
-![An example teamspace for marketing](../image/marketing_teamspace.png "Example teamspace")
+\[Omitted image "marketing\_teamspace.png"\] Alt text: An example teamspace for marketing
 
 ## Teamspace activation
 

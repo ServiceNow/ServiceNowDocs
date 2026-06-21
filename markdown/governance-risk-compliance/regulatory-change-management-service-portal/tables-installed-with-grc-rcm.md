@@ -2,6 +2,7 @@
 title: Tables installed with Governance, Risk, and Compliance
 description: Some tables are added by default with activation of the Governance, Risk, and Compliance plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/regulatory-change-management-service-portal/tables-installed-with-grc-rcm.html
 release: xanadu
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -176,5 +177,5 @@ Indicator Supporting Data Statistics \[sn\_grc\_indicator\_supporting\_data\_sta
 Stores statistics of indicators for collecting supporting data, which is leveraged by the supporting data collection job.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Regulatory Change Management reference](rcm-reference.md)
+</table>**Parent Topic:**[Regulatory Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/regulatory-change-management-service-portal/rcm-reference.md)
 

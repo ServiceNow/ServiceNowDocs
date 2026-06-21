@@ -2,6 +2,7 @@
 title: Stream Connect Message Replication
 description: Replicate data between your Apache Kafka environment and ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/stream-connect-message-replication.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -21,7 +22,7 @@ Stream Connect Message Replication uses a MID Server to run the data replication
 
 ## Enabling a MID Server to replicate data
 
-Stream Connect Message Replication uses a MID Server with a replicator extension to replicate data to and from your local Kafka. For instructions on how to configure the MID Server, see [Configuring MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Stream Connect Message Replication uses a MID Server with a replicator extension to replicate data to and from your local Kafka. For instructions on how to configure the MID Server, see .
 
 The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.
 
@@ -33,9 +34,9 @@ The MID Server must be able to access Hermes endpoints through the firewall. Wor
 
 Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. To configure a Connection &amp; Credential alias:
 
-1.  [Create Kafka SSL credentials](../tasks/create-kafka-ssl-credentials.md) with the authentication data required for the connection.
-2.  [Configure a Kafka connection](../tasks/configure-kafka-connection.md) to connect to your Kafka environment.
-3.  [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US), to associate the connection information and credential data. The Connection &amp; Credential alias should have a **Connection type** of **Kafka** and must be accessible from the MID Server.
+1.  [Create Kafka SSL credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/create-kafka-ssl-credentials.md) with the authentication data required for the connection.
+2.  [Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-kafka-connection.md) to connect to your Kafka environment.
+3.  , to associate the connection information and credential data. The Connection &amp; Credential alias should have a **Connection type** of **Kafka** and must be accessible from the MID Server.
 
 These steps are for configuring a Connection &amp; Credential alias for connecting to Kafka. You don't need to set up connections or credentials for connecting to Hermes, because the MID Server automatically handles the creation of the required keystore, truststore, and certificates.
 
@@ -47,7 +48,7 @@ A Message Replication record represents a single Kafka cluster. For example, if 
 
 A Kafka Topic Replication record specifies the replication from a single source topic to a single destination topic. You can't replicate a single source topic to multiple destinations. You can only replicate to each destination once. Kafka Topic Replication records are stored in the Kafka Topic Replications \[sys\_kafka\_topic\_replication\] table.
 
-For a step-by-step guide to creating message and topic replication records, see [Create message and Kafka topic replications in Stream Connect](../tasks/configure-message-topic-reps-sc.md).
+For a step-by-step guide to creating message and topic replication records, see [Create message and Kafka topic replications in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-message-topic-reps-sc.md).
 
 ## Viewing message replication statistics
 
@@ -55,7 +56,7 @@ Once replications are running, the system creates a metrics record for each acti
 
 You can view metrics records on the Message Replication Statistics \[sys\_sc\_channel\_replication\_metric\] table. You can also view metrics records for a particular topic by checking the Message Replication Statistics on its Kafka Topic Replication record.
 
-For a list of message replication metrics and their descriptions, see [Viewing Stream Connect Message Replication statistics](../reference/stream-connect-message-rep-stats.md).
+For a list of message replication metrics and their descriptions, see [Viewing Stream Connect Message Replication statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/stream-connect-message-rep-stats.md).
 
 ## Required plugin
 
@@ -71,14 +72,14 @@ The message\_replication\_user role can view records in the message replication 
 
 Most issues are logged in the MID Server log. Additional debug logging can be enabled by setting the **glide.stream\_connect.message\_replication.debug** MID Server property to **true**.
 
--   **[Create message and Kafka topic replications in Stream Connect](../tasks/configure-message-topic-reps-sc.md)**  
+-   **[Create message and Kafka topic replications in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-message-topic-reps-sc.md)**  
 Set up message and topic replications to replicate data between your Apache Kafka environment and ServiceNow.
--   **[Create Kafka SSL credentials](../tasks/create-kafka-ssl-credentials.md)**  
+-   **[Create Kafka SSL credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/create-kafka-ssl-credentials.md)**  
 Configure SSL credentials for your Apache Kafka connection.
--   **[Configure a Kafka connection](../tasks/configure-kafka-connection.md)**  
+-   **[Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-kafka-connection.md)**  
 Configure a connection to your Apache Kafka environment.
--   **[Viewing Stream Connect Message Replication statistics](../reference/stream-connect-message-rep-stats.md)**  
+-   **[Viewing Stream Connect Message Replication statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/stream-connect-message-rep-stats.md)**  
 When message replications are running, the system creates a metrics record for each active topic replication every 60 seconds. Metrics records provide information about topic replications. You can view metrics records on the Message Replication Statistics \[sys\_sc\_channel\_replication\_metric\] table. You can also view metrics records for a topic by checking the Message Replication Statistics on its Kafka Topic Replication record.
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

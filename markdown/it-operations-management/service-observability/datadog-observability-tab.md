@@ -2,6 +2,7 @@
 title: Datadog Observability tab for Service Observability
 description: Dashboard and charts on the Datadog Observability tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-observability/datadog-observability-tab.html
 release: xanadu
 product: Service Observability
 classification: service-observability
@@ -73,5 +74,5 @@ This dashboard displays metrics for PostgreSQL databases related to the service.
 |Buffer Hits|Number of times disk blocks were found in the buffer cache, so that a read was not necessary.|Datadog|
 |All PostgreSQL Instances|Information of all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[Datadog templates](datadog-templates.md)
+**Parent Topic:**[Datadog templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/datadog-templates.md)
 

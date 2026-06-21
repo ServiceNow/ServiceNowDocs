@@ -2,6 +2,7 @@
 title: Configuring app generation in AES
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/configuring-now-assist-app.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -13,10 +14,10 @@ breadcrumb: [Now Assist for app generation in AES, Create your app, Building app
 
 # Configuring app generation in AES
 
-**Note:** If you using a Xanadu Store Release 2 instance, Now Assist for app generation works with ServiceNow Studio \(not App Engine Studio\). For detailed information, see [Now Assist for app generation in ServiceNow Studio](../../now-assist-app-gen/concept/sns-now-assist-app-gen-landing.md).
+**Note:** If you using a Xanadu Store Release 2 instance, Now Assist for app generation works with ServiceNow Studio \(not App Engine Studio\). For detailed information, see [Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md).
 
--   **[Install Now Assist for app generation to use with AES](../task/install-now-assist-app-generation.md)**  
+-   **[Install Now Assist for app generation to use with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/install-now-assist-app-generation.md)**  
 
 
-**Parent Topic:**[Now Assist for app generation in AES](now-assist-app-landing.md)
+**Parent Topic:**[Now Assist for app generation in AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/now-assist-app-landing.md)
 

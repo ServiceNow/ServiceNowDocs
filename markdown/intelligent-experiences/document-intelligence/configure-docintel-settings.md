@@ -2,6 +2,7 @@
 title: Configure Document Intelligence settings
 description: Use general settings to control how Document Intelligence displays information to users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/configure-docintel-settings.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -51,7 +52,7 @@ Candidate score
 
 Select **Auto-sync** to make confidence scores visible next to each recommendation.
 
- For more information, see [Confidence scores](../concept/docintel-confidence-scores.md).
+ For more information, see [Confidence scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/docintel-confidence-scores.md).
 
 </td></tr><tr><td>
 

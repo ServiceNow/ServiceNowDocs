@@ -2,6 +2,7 @@
 title: User Experience Analytics data options for dial visualizations
 description: When you select a User Experience Analytics data source for a dial visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/config-dv-dial-uxa-data.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -27,7 +28,7 @@ Data source
 
 </td><td>
 
-You have selected a User Experience Analytics data source in [Create a dial visualization in the Visualization Designer](../task/create-dv-dial-ac.md).
+You have selected a User Experience Analytics data source in [Create a dial visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-dial-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -47,7 +48,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

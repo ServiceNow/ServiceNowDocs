@@ -2,6 +2,7 @@
 title: Complete a form from Employee Center
 description: Fill in a form that your procurement specialist has sent to you, and submit it directly from Employee Center. This action is listed as a task under My Tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/complete-form-task-ec.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -38,5 +39,5 @@ Role required: sn\_shop.shopper
 
 You can view the completed task in the **Completed** tab.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](../concept/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

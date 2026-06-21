@@ -2,7 +2,10 @@
 title: Reassign a work order task to an agent on a mobile device
 description: As a manager, you can reassign a work order task to an agent through the Field Service Contractor for mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/reassign-work-order-task.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,7 +31,7 @@ Role required: wm\_ext\_manager
     -   Tap the **Today's tasks** screen.
 3.  Review the work order task.
 
-4.  On the work order task, tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon.
+4.  On the work order task, tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon.
 
 5.  Tap the **Reassign task** function.
 
@@ -45,5 +48,5 @@ Role required: wm\_ext\_manager
 
 The work order task is reassigned to a contractor agent.
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

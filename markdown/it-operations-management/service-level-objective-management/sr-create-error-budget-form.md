@@ -2,6 +2,7 @@
 title: Create Error budget policies form
 description: Create an SLO, an SLI, and Error budget policies to help you and your team track your service health and take necessary actions when required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-level-objective-management/sr-create-error-budget-form.html
 release: xanadu
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -17,7 +18,7 @@ Create an SLO, an SLI, and Error budget policies to help you and your team track
 
 ## Error budget policies form
 
-Set up your error budget policies form. For more information, see [Create SLO, SLI, and Error budget policies](../task/sr-create-slo-sli.md).
+Set up your error budget policies form. For more information, see [Create SLO, SLI, and Error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
 
 <table id="table_rqy_bnq_ybc"><thead><tr><th>
 
@@ -60,5 +61,5 @@ Action you want to take when a breach occurs.-   Create incident
 -   Send an email
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SLO Management reference](service-level-objective-management-reference.md)
+</table>**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

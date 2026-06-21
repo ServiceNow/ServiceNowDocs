@@ -2,6 +2,7 @@
 title: Approval rule form
 description: The approval rule form captures all the information needed to create an approval rule. An admin or third-party risk admin can create an approval rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-ar-form.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -70,7 +71,7 @@ Type of approver:
 -   Specific approvers: Your choice of approvers.
 -   Approver from source: Users or groups from the source table.
 -   Dynamic approvers: Approvers that are selected dynamically from any table.
--   Scripted approvers: Script to determine your approvers. In the following example, a new approval rule record is shown with Scripted approvers as the selected **Approver type**. A script is started where you can update the parent, users, and groups parameters.![For a description, see the text that precedes this example.](../../grc-business-continuity-management/image/approval-rule-sample-script.png)
+-   Scripted approvers: Script to determine your approvers. In the following example, a new approval rule record is shown with Scripted approvers as the selected **Approver type**. A script is started where you can update the parent, users, and groups parameters.\[Omitted image "approval-rule-sample-script.png"\] Alt text: For a description, see the text that precedes this example.
 
 **Note:**
 
@@ -81,7 +82,7 @@ If you have the admin role, you can set up an approval rule only with the follow
 -   Specific approvers
 -   Approver from source
 
-For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](../../grc-common/reference/roles-installed-with-approver-configurator.md).
+For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
 
 </td></tr><tr><td>
 
@@ -180,5 +181,5 @@ Script
 Script to determine approvers. **users** and **groups** in the script are selected as approvers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Approval process management](tprm-ws-dd-mgt-pg-approvals.md)
+</table>**Parent Topic:**[Approval process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.md)
 

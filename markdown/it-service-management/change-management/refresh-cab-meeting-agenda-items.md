@@ -2,6 +2,7 @@
 title: Modify CAB meeting details
 description: You can modify the agenda items for a specific CAB meeting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change-management/refresh-cab-meeting-agenda-items.html
 release: xanadu
 product: Change Management
 classification: change-management
@@ -27,7 +28,7 @@ After you update the CAB board or change request conditions, refresh the CAB mee
 
 1.  Navigate to the CAB meeting whose agenda you want to modify using one of the following steps.
 
-<table id="choicetable_mh3_bkv_lz"><tbody><tr><td id="d184985e62">
+<table id="choicetable_mh3_bkv_lz"><tbody><tr><td id="d122856e62">
 
 **Open from the CAB meeting list**
 
@@ -37,7 +38,7 @@ After you update the CAB board or change request conditions, refresh the CAB mee
 2.  Select and open the CAB meeting to modify.
 
 
-</td></tr><tr><td id="d184985e92">
+</td></tr><tr><td id="d122856e92">
 
 **Open from the CAB definition list**
 
@@ -124,10 +125,10 @@ Check box to mark each pre-approved change request as **Complete** in the CAB me
 5.  Click **Update** to save your changes.
 
 
-**Parent Topic:**[Create a single CAB meeting occurrence](create-a-cab-meeting.md)
+**Parent Topic:**[Create a single CAB meeting occurrence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/create-a-cab-meeting.md)
 
 **Related topics**  
 
 
-[OR conditions](https://www.servicenow.com/docs/access?context=c_UsingORConditions&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_UsingORConditions]
 

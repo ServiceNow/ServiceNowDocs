@@ -2,6 +2,7 @@
 title: Purchase order lines
 description: Purchase order lines provide information of the individual lines under a purchase requisition or a sourcing request for the referenced supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/purchase-order-lines.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -290,5 +291,5 @@ General Ledger Account
 The account to which capital or operational expenses will be posted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+</table>**Parent Topic:**[Master data table for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

@@ -2,6 +2,7 @@
 title: Set up RPA Desktop Design Studio
 description: Set up RPA Desktop Design Studio to add your ServiceNow RPA Hub instance details in Connection Manager and to start using the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/set-up-rpa-studio.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Setup of RPA Desktop Design Studio application
 
 ## Before you begin
 
-Install RPA Desktop Design Studio. For more information on how to install it, see [Install RPA Desktop Design Studio](install-rpa-studio.md).
+Install RPA Desktop Design Studio. For more information on how to install it, see [Install RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/install-rpa-studio.md).
 
 Role required: none
 
@@ -31,15 +32,15 @@ You can do this task when you’re setting up RPA Desktop Design Studio for the 
 
 ## Procedure
 
-1.  From your desktop, double-click the RPA Desktop Design Studio icon \(![RPA Desktop Design Studio icon.](../image/rpa-design-studio-icon.png)\).
+1.  From your desktop, double-click the RPA Desktop Design Studio icon \(\[Omitted image "rpa-design-studio-icon.png"\] Alt text: RPA Desktop Design Studio icon.\).
 
     If you’re using RPA Desktop Design Studio for the first time, you can add the instance details in the Connection Manager dialog box.
 
-    ![Add the ServiceNow instance in Connection Manager.](../image/add-instance-cm.png "Connection Manager")
+    \[Omitted image "add-instance-cm.png"\] Alt text: Add the ServiceNow instance in Connection Manager.
 
 2.  When you start using RPA Desktop Design Studio and want to add an instance from Connection Manager, select **Add New**.
 
-    ![Add new instance from Connection Manager.](../image/addnew-cm.png "Add new instance from Connection Manager")
+    \[Omitted image "addnew-cm.png"\] Alt text: Add new instance from Connection Manager.
 
 3.  On the form, fill in the fields.
 
@@ -73,7 +74,7 @@ Mark as default
 
 </td><td>
 
-Option for enabling this instance as the default. RPA Desktop Design Studio launches each time by using this default instance.Clearing this option opens the Connection Manager dialog box each time you double-click the RPA Desktop Design Studio icon \(![RPA Desktop Design Studio icon.](../image/rpa-design-studio-icon.png)\).
+Option for enabling this instance as the default. RPA Desktop Design Studio launches each time by using this default instance.Clearing this option opens the Connection Manager dialog box each time you double-click the RPA Desktop Design Studio icon \(\[Omitted image "rpa-design-studio-icon.png"\] Alt text: RPA Desktop Design Studio icon.\).
 
 </td></tr><tr><td>
 
@@ -92,11 +93,11 @@ Option for launching the instance in the default browser of your machine.
 
 5.  Select **Proceed** and the plugins from the RPA Hub instance download to your machine.
 
-    ![Downloading plugins from the RPA Hub instance.](../image/plugin-download.png "Downloading plugins from the RPA Hub instance")
+    \[Omitted image "plugin-download.png"\] Alt text: Downloading plugins from the RPA Hub instance.
 
     When the plugins download, the login page of your RPA Hub instance is displayed.
 
-    ![Login page for the RPA Hub instance.](../image/connection-manager-auth.png "Login page for the RPA Hub instance")
+    \[Omitted image "connection-manager-auth.png"\] Alt text: Login page for the RPA Hub instance.
 
     **Note:** If the error `Connection failed. Verify if the RPA Plugins are available in the ServiceNow instance.` is displayed when you start RPA Desktop Design Studio, select **OK** and configure a ServiceNow instance URL that has the RPA plugins installed. Restart RPA Desktop Design Studio and try again.
 
@@ -104,7 +105,7 @@ Option for launching the instance in the default browser of your machine.
 
     The RPA Hub instance authentication page is displayed.
 
-    ![RPA Hub instance authentication.](../image/cm-authenticate.png "RPA Hub instance authentication")
+    \[Omitted image "cm-authenticate.png"\] Alt text: RPA Hub instance authentication.
 
     **Important:**
 
@@ -117,5 +118,5 @@ Option for launching the instance in the default browser of your machine.
 
 ## What to do next
 
-You can start creating automations from the RPA Desktop Design Studio home page. For more information on how to create automations, see [Create an automation project manually](create-automation-project.md).
+You can start creating automations from the RPA Desktop Design Studio home page. For more information on how to create automations, see [Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-automation-project.md).
 

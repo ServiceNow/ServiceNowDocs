@@ -2,6 +2,7 @@
 title: Change request project task relationship
 description: The rules that apply to all parent-child tasks also govern the relationship between project task and the project task link.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/r\_ChangeReqProjTaskRelship.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -52,5 +53,5 @@ When you start a project, tasks that have **Start ASAP** as the time constraint 
 
 Modifications made in the Project Management application do not propagate to a linked change request record, so closing a project does not close a linked change. When you successfully implement a change and close the project it belongs to, you must go to the change request record and manually change the state to **Closed**.
 
-**Parent Topic:**[Change requests and project tasks](../concept/c_ChangeRequestsAndProjectTasks.md)
+**Parent Topic:**[Change requests and project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ChangeRequestsAndProjectTasks.md)
 

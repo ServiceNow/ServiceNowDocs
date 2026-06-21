@@ -2,6 +2,7 @@
 title: Default skipped rules
 description: Reduce considerable processing time with the default skipped rules to auto-retain high friction causing configuration metadata types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-default-skipped-rules.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -35,7 +36,7 @@ The following is the list of tables from which if any skipped record is being ge
 
 The skipped records that are retained automatically by the default skipped rules are found in the Skipped Changes Reviewed related list.
 
-![Image showing retained skipped rules in the Skipped Changes Reviewed related list](../image/uc-default-skipped-rules.png)
+\[Omitted image "uc-default-skipped-rules.png"\] Alt text: Image showing retained skipped rules in the Skipped Changes Reviewed related list
 
 **Note:** You can also find a comment for each retained skipped records to show the related table it was generated from during the upgrade process.
 

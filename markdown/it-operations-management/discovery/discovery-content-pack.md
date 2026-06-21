@@ -2,6 +2,7 @@
 title: Discovery Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/discovery-content-pack.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -17,7 +18,7 @@ Platform Analytics Solutions contain preconfigured dashboards. These dashboards 
 
 ## Platform Analytics Solutions
 
-Platform Analytics data visualizations use Performance Analytics [indicator](https://www.servicenow.com/docs/access?context=now-platform-glossary&version=xanadu&pubname=xanadu-glossary&section=gloss-indicator&ft:locale=en-US) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 **Important:** Set up and test Platform Analytics Solutions on a non-production instance before enabling them in production.
 
@@ -26,7 +27,7 @@ To enable the solution plugin for Discovery, an admin can navigate to **System D
 **Related topics**  
 
 
-[Platform Analytics Solutions](https://www.servicenow.com/docs/access?context=content-packs-in-form-analytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+[bundle-par.content-packs-in-form-analytics]
 
-[Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+[bundle-par.c_PremiumPerformanceAnalytics]
 

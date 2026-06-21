@@ -2,6 +2,7 @@
 title: Search the community
 description: Enter a keyword to use the type-ahead search on the Community homepage or enter one or more words to view all search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/search.html
 release: xanadu
 product: Communities
 classification: communities
@@ -38,10 +39,10 @@ Role required: sn\_communities.community\_user
     A list of matching search results appears.
 
 
--   **[Refine your search results](refine-search-results.md)**  
+-   **[Refine your search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/refine-search-results.md)**  
 Refine your search results to narrow down the content displayed.
--   **[Sort your search results](sort.md)**  
+-   **[Sort your search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/sort.md)**  
 Sort your community search results to narrow down the content displayed.
 
-**Parent Topic:**[Use a community](use-community-forums.md)
+**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/use-community-forums.md)
 

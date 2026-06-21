@@ -2,6 +2,7 @@
 title: Event Registration template
 description: Build an application in App Engine Studio \(AES\) using the Event Registration template to manage scheduling, booking, and registration for company events.The following tables, experiences, automated workflows, and roles are included in the Event Registration template for App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/event-reg-template.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,15 +18,15 @@ Build an application in App Engine Studio \(AES\) using the Event Registration t
 
 To use the Event Registration template, install this application from the ServiceNow Store.
 
-![Event Registration template](../image/template-event-registration.png)
+\[Omitted image "template-event-registration.png"\] Alt text: Event Registration template
 
 An internal event registration app allows your event organizers to publish a list of events to employees and collect attendees in a centralized database. The app helps streamline the event discovery and registration process.
 
 Event organizers can manage events and wait-lists, publish new events, and view registered users’ details. Employees and attendees can view a list of events, view event info, and register to attend in a portal. Organizers can set the size of the event, and requesters will automatically be added to a wait-list.
 
-For more information on creating an application using a template, see [Use an application template](../task/use-app-template.md).
+For more information on creating an application using a template, see [Use an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/template-library.md)
 
 ## Event Registration template contents
 

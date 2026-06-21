@@ -2,6 +2,7 @@
 title: Configuring TISC add-on in Splunk
 description: Follow this below procedure to configure the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-configure-splunk.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 6
 keywords: [configure, tisc add-on, splunk]
-breadcrumb: [TISC add-on for Splunk overview, Configure Sighting Search, Sighting Search, TISC Enrichment Integrations, TISC Integrations, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC add-on for Splunk overview, Configure Sighting Search, Sighting Search, TISC Enrichment Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configuring TISC add-on in Splunk
@@ -153,7 +154,7 @@ JSON based filters allows you to define more intricate conditions.
     {"boolean_operator":"AND","filters":[{"field_name":"reputation","operator":"IN","field_value":"clean,suspicious,malicious"},{"field_name":"threat_score","operator":">","field_value":"90"},{"field_name":"confidence","operator":">","field_value":"90"},{"field_name":"type","operator":"=","field_value":"ip_v4_address"}]}
     ```
 
-    **Note:** Accounts are active by default, but inputs are inactive by default, you must activate them to start importing the data. For possible filters refer to Observable\_filters section in [Adds observable source records to the Threat Intelligence Security Center \(TISC\)](https://www.servicenow.com/docs/bundle/xanadu-api-reference/page/integrate/inbound-rest/concept/tisc-api.html#title_tisc-POST-observables) application.
+    **Note:** Accounts are active by default, but inputs are inactive by default, you must activate them to start importing the data. For possible filters refer to Observable\_filters section in Adds observable source records to the Threat Intelligence Security Center \(TISC\) application.
 
 9.  Click **Add** to add the inputs.
 
@@ -215,8 +216,8 @@ JSON based filters allows you to define more intricate conditions.
     These fields along with any others defined by your criteria will be available in Splunk and can be viewed, searched, and analyzed through the search tab.
 
 
--   **[Data storage in Splunk](../concept/tisc-storage-splunk.md)**  
+-   **[Data storage in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-storage-splunk.md)**  
 This section outlines how TISC utilizes lookups during the integration within Splunk's Key-Value store for data storage. It details how these lookups are configured and retrieved within Splunk.
 
-**Parent Topic:**[TISC add-on for Splunk overview](../concept/tisc-addon-splunk.md)
+**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
 

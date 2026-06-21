@@ -2,6 +2,7 @@
 title: Override metric data task response
 description: As a metrics manager, if you think that the response provided for a quantitative or qualitative metric must be modified, you can edit the data and provide a justification for the modification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/t\_override-mdt-response.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

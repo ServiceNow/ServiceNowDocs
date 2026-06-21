@@ -2,6 +2,7 @@
 title: Create a script for a transform definition
 description: Create the script at any time during the configuration of a definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateAScriptForATransformDef.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -69,12 +70,12 @@ If the position value starts with /regex/, everything after that is a regular ex
 
     The script references the variable in the form variables.odd\_even.
 
-    ![Column named referenced in variable](../image/ColumnNameReferencedInVariable.png)
+    \[Omitted image "ColumnNameReferencedInVariable.png"\] Alt text: Column named referenced in variable
 
 3.  Update the record to complete the configuration.
 
     The Odd/Even transform definition is now ready to use in a field transformation.
 
 
-**Parent Topic:**[Default Transform Definitions](../reference/r_DefsIncludedWFieldTransformation.md)
+**Parent Topic:**[Default Transform Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_DefsIncludedWFieldTransformation.md)
 

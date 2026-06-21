@@ -2,6 +2,7 @@
 title: Configure workspace settings in Workspace Builder
 description: Define workspace settings in App Engine Studio \(AES\) to control the basic functionality of the workspace, such as name and record page navigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/workspace-builder/configure-workspace-settings.html
 release: xanadu
 product: Workspace Builder
 classification: workspace-builder
@@ -17,11 +18,9 @@ Define workspace settings in App Engine Studio \(AES\) to control the basic func
 
 This video shows you how to perform the following procedure.
 
-This video shows you how to configure workspace settings in Workspace Builder.
-
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -29,17 +28,17 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 
 2.  From the My Apps page, open your application.
 
-3.  Next to the workspace you created, select the additional actions icon \(![Additional actions icon](../image/additional-actions-icon-purple.png)\) and then select **Edit**.
+3.  Next to the workspace you created, select the additional actions icon \(\[Omitted image "additional-actions-icon-purple.png"\] Alt text: Additional actions icon\) and then select **Edit**.
 
     You can also select the bar that lists the workspace in the Experience section of your app.
 
-    ![Select to edit a workspace](../image/wb-edit-worspace-experience-purple.png "Edit a workspace")
+    \[Omitted image "wb-edit-worspace-experience-purple.png"\] Alt text: Select to edit a workspace
 
     The workspace appears in Workspace Builder.
 
 4.  Display the Settings form by selecting **Workspace settings** in the Workspace Builder header.
 
-    ![Define settings for your workplace](../image/wb-settings-dialog-new-theme.png)
+    \[Omitted image "wb-settings-dialog-new-theme.png"\] Alt text: Define settings for your workplace
 
 5.  On the **General** tab of the form, specify or change the basic settings for the workspace by filling in the editable fields.
 
@@ -98,7 +97,7 @@ Source of information when users perform a search in the workspace. You can reus
 -   Dark mode.
 **Note:** AI Search must be enabled for your instance to select an AI Search profile.
 
-For more information, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -149,7 +148,7 @@ Table
 
 Data table that is added to when a user creates a record. The table you select automatically has associated lists.**Note:** The tables specified when the workspace was created appear automatically. Select **Add a table** to incorporate additional tables into the workspace. You can add each table only once.
 
- To remove a table, select its delete icon \(![Delete a table from record navigation](../image/trash-icon.png)\). No confirmation message appears, but you can select **Cancel** to revert the deletion.
+ To remove a table, select its delete icon \(\[Omitted image "trash-icon.png"\] Alt text: Delete a table from record navigation\). No confirmation message appears, but you can select **Cancel** to revert the deletion.
 
 </td></tr><tr><td>
 
@@ -163,5 +162,5 @@ Brief label for the option that appears when users select the new record menu. S
 </table>8.  Select **Save**.
 
 
-**Parent Topic:**[Add a workspace](add-workspace.md)
+**Parent Topic:**[Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/workspace-builder/add-workspace.md)
 

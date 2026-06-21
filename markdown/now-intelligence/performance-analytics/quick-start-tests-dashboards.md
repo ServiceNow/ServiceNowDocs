@@ -2,6 +2,7 @@
 title: Quick start tests for Dashboards
 description: Validate that Dashboards still work after you make any configuration change such as applying an upgrade. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/quick-start-tests-dashboards.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -25,5 +26,5 @@ Dashboards quick start tests require activating the Automated Test Framework - R
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

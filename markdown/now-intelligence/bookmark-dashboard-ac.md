@@ -2,6 +2,7 @@
 title: Bookmark a Platform Analytics dashboard
 description: Bookmark a dashboard so that you can find it easily in the Analytics Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/bookmark-dashboard-ac.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -24,7 +25,7 @@ Role required: Any, if the user has access to the dashboard
 
 2.  Select the dashboard that you want to bookmark.
 
-3.  From the More actions menu \(![More actions menu icon](../image/icon-vert-3dot-p.png)\), select **Add to bookmarks**.
+3.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\), select **Add to bookmarks**.
 
 
 ## Result
@@ -33,5 +34,5 @@ In the **Dashboards** overview, the selected dashboard appears in the Bookmarked
 
 ## What to do next
 
-To remove a bookmark, choose the bookmarked dashboard and select **Remove bookmark** from the More actions menu \(![More actions menu icon](../image/icon-vert-3dot-p.png)\).
+To remove a bookmark, choose the bookmarked dashboard and select **Remove bookmark** from the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\).
 

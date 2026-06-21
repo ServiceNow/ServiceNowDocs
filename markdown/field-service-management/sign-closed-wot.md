@@ -2,7 +2,10 @@
 title: Sign on closed work order on the Contractor Portal
 description: Customers can digitally sign and confirm work orders that are closed with the Closed Complete or Closed Incomplete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/sign-closed-wot.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -52,5 +55,5 @@ When a work order is closed, you are notified with a link to the work order. Ope
 
 The signed PDF summary is generated and attached to the Work Order form.
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-tasks.md)
 

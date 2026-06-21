@@ -2,6 +2,7 @@
 title: Configure the PCRS parameters
 description: Starting with v12.6.3 of Qualys Integration for Security Operations, you can use the Qualys PCRS Policy Host Integration and Qualys PCRS Test Results Integration for importing test results with new sets of Qualys APIs. These integrations need a gateway URL to fetch information from Qualys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-config-qualys.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -42,8 +43,8 @@ The gateway URL must be added in your ServiceNow instance.
 4.  On the Integration Instance Parameters tab, locate the **posture\_api\_version** parameter and set the value to 2.0 or 5.0 as required.
 
 
--   **[Components installed with the Qualys Integration for Security Operations](../reference/cc-qualys-installed-with.md)**  
+-   **[Components installed with the Qualys Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-qualys-installed-with.md)**  
 The following roles, scheduled jobs, and tables are installed with the Qualys Integration for Security Operations.
 
-**Parent Topic:**[Qualys integration with Configuration Compliance](../concept/Qualys-cc-Integration.md)
+**Parent Topic:**[Qualys integration with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/Qualys-cc-Integration.md)
 

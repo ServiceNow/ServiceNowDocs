@@ -2,6 +2,7 @@
 title: Request a clone
 description: Request a clone to copy data from a production instance to a non-production instance or to copy data between non-production instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_StartAClone.html
 release: xanadu
 topic_type: task
 last_updated: "2025-03-25"
@@ -40,13 +41,13 @@ If cloning from a source backup fails, the system uses the legacy clone engine i
 
     This instance becomes the source instance of the clone request.
 
-2.  [Clone Target Registration and Authentication](t_CreateACloneTarget.md) record for each target instance that you want to receive clone data.
+2.  [Clone Target Registration and Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateACloneTarget.md) record for each target instance that you want to receive clone data.
 
-3.  Verify the list of tables that are excluded from cloning and [add or remove tables to exclude](t_ExcludeATableFromCloning.md) from the target instance.
+3.  Verify the list of tables that are excluded from cloning and [add or remove tables to exclude](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ExcludeATableFromCloning.md) from the target instance.
 
 4.  Verify the list of tables and system properties that you want saved on the target instance with the following.
 
-    You can use [data preservers](../concept/data-preservation.md#). You can also [create or modify data preservers](../concept/data-preservation.md#), as needed.
+    You can use [data preservers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/data-preservation.md). You can also [create or modify data preservers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/data-preservation.md), as needed.
 
     The legacy clone engine does not support data preservers for these records:
 
@@ -56,13 +57,13 @@ If cloning from a source backup fails, the system uses the legacy clone engine i
     -   Dot-walked queries
     If you are preserving any data that the legacy clone engine does not support, verify that there is a recent backup of the target instance available. If the clone-from-backup-process fails for any reason, you can restore the target instance from the backup.
 
-5.  [Preserve any unpublished applications](../concept/data-preservation.md#) on the target instance.
+5.  [Preserve any unpublished applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/data-preservation.md) on the target instance.
 
 6.  Navigate to **System Clone** &gt; **Request Clone**.
 
 7.  Specify a predefined clone profile.
 
-    A clone profile stores target and clone options. The clone profile automatically populates your clone request with your selected profile settings. See [clone profiles for clone requests](../reference/system-profile-clone.md).
+    A clone profile stores target and clone options. The clone profile automatically populates your clone request with your selected profile settings. See [clone profiles for clone requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/system-profile-clone.md).
 
 8.  In the **Target instance** field, select the target instance that you want to receive the cloned data.
 
@@ -167,7 +168,7 @@ Clone frequency
 
 </td><td>
 
-This option allows you to schedule recurring clones from your source to your target instance. It allows you to define the clone frequency and the maximum number of occurrences. By default, the clone frequency is set to None. For more information about scheduling cloning, see [Schedule cloning](schedule-cloning.md).
+This option allows you to schedule recurring clones from your source to your target instance. It allows you to define the clone frequency and the maximum number of occurrences. By default, the clone frequency is set to None. For more information about scheduling cloning, see [Schedule cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/schedule-cloning.md).
 
 </td></tr></tbody>
 </table>12. Click **Submit**.
@@ -187,7 +188,7 @@ This option allows you to schedule recurring clones from your source to your tar
 
 You can:
 
--   [Schedule automatic clonings](schedule-cloning.md).
--   [Cancel your clone request](cancel-clone.md).
--   [View the cloning history](t_ViewCloneHistory.md) of completed clonings.
+-   [Schedule automatic clonings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/schedule-cloning.md).
+-   [Cancel your clone request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/cancel-clone.md).
+-   [View the cloning history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ViewCloneHistory.md) of completed clonings.
 

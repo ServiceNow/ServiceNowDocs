@@ -2,6 +2,7 @@
 title: Configure the visibility of landing page sections
 description: Configure if few sections of the landing page should be visible or hidden. For example, Quick links and Upcoming sections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/configure-visibility-landing-page-sections.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace

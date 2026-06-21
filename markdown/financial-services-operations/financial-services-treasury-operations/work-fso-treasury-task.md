@@ -2,6 +2,7 @@
 title: Work on a treasury task for due diligence or fulfilment
 description: Work on a treasury task to perform due diligence or fulfilment activities for the parent treasury service case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-treasury-operations/work-fso-treasury-task.html
 release: xanadu
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -19,7 +20,7 @@ Work on a treasury task to perform due diligence or fulfilment activities for th
 
 Role required: sn\_bom\_treasury.agent or sn\_bom\_treasury.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -39,19 +40,19 @@ If assignment rules are configured, the task is automatically assigned to a trea
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  Open the task from the case playbook or the treasury task list.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d36449e124">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d44836e124">
 
 Option
 
-</th><th align="left" id="d36449e127">
+</th><th align="left" id="d44836e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d36449e133">
+</th></tr></thead><tbody><tr><td id="d44836e133">
 
 **From the case playbook**
 
@@ -64,7 +65,7 @@ Steps
 
 **Note:** The Due diligence activity is available only for an RDC treasury case.
 
-</td></tr><tr><td id="d36449e174">
+</td></tr><tr><td id="d44836e174">
 
 **From the Treasury task list**
 
@@ -92,5 +93,5 @@ Steps
 
 The treasury task moves to the Closed Complete state.
 
-**Parent Topic:**[Using Financial Services Treasury Operations](../concept/using-treasury-ops.md)
+**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
 

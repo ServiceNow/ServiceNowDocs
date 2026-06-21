@@ -2,6 +2,7 @@
 title: Splunk TCP integration configuration fields
 description: Description of the fields on the Splunk TCP integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-splunktcp-fields.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -194,5 +195,5 @@ Drop if queue is full
 Option for selecting to discard logs if there is a load on the MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Splunk TCP integrations](../task/il-connector-hla-splunktcp.md)
+</table>**Parent Topic:**[Configure Splunk TCP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-splunktcp.md)
 

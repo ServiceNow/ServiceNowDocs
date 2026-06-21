@@ -2,6 +2,7 @@
 title: Contact a seller
 description: Contact the provider of an app through the ServiceNow Store to ask questions about the app and its procurement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/contact-seller.html
 release: xanadu
 topic_type: task
 last_updated: "2025-07-31"
@@ -28,15 +29,15 @@ If you have questions about an app offered by ServiceNow, contact your account m
 
 2.  On the contact form, fill in the fields, which depend on whether you're logged in with your Now Support credentials.
 
-<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d244701e153">
+<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d88791e153">
 
 Logged in status
 
-</th><th align="left" id="d244701e156">
+</th><th align="left" id="d88791e156">
 
 Fields displayed
 
-</th></tr></thead><tbody><tr><td id="d244701e162">
+</th></tr></thead><tbody><tr><td id="d88791e162">
 
 **Logged in**
 
@@ -44,7 +45,7 @@ Fields displayed
 
 Provide the reason for contacting the seller and your message.
 
-</td></tr><tr><td id="d244701e174">
+</td></tr><tr><td id="d88791e174">
 
 **Not Logged in**
 
@@ -52,7 +53,7 @@ Provide the reason for contacting the seller and your message.
 
 On the guest contact form, fill in the fields.
 
- For a description of the field values, see [Guest contact form fields](../reference/guest-contact-form-fields.md).
+ For a description of the field values, see [Guest contact form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/guest-contact-form-fields.md).
 
 </td></tr></tbody>
 </table>3.  Select **Send** to submit the form.

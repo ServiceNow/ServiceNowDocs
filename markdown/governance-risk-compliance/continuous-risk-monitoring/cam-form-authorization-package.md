@@ -2,6 +2,7 @@
 title: Fields on the Authorization Package form
 description: After you have defined the authorization boundaries for the assets or systems to send through the Authorization to Operate process, you must create an authorization package for that purpose. The package is processed through the seven steps mandated by the RMF.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-form-authorization-package.html
 release: xanadu
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -26,5 +27,5 @@ After you have defined the authorization boundaries for the assets or systems to
 |Authorization boundary|The authorization boundary for this package.|
 |System purpose|The purpose behind this authorization package.|
 
-**Parent Topic:**[CAM reference](../concept/reference-grc-cam.md)
+**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

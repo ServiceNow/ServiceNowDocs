@@ -2,6 +2,7 @@
 title: Setting up the product configurator
 description: Control the product options displayed in the product configurator interface by using the Open State Management API framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/confguring-product-configurator.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

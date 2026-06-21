@@ -2,6 +2,7 @@
 title: Configuring Manufacturing Commercial Operations
 description: Set up Manufacturing Commercial Operations to enable manufacturers to manage the end-to-end lifecycle of your manufacturing products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/configuring-manufacturing-foundation.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -34,7 +35,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Install and configure [Customer Service Management](https://servicenow.com/docs/bundle/vancouver-customer-service-management/page/product/customer-service-management/task/t_ActivateCustomerService.html)
+Install and configure Customer Service Management
 
 </td><td>
 
@@ -42,7 +43,7 @@ Install the Customer Service Management application from the ServiceNow Store st
 
 </td></tr><tr><td>
 
-[Install and configure Lead Management](https://www.servicenow.com/docs/access?context=configure-lead-management&version=xanadu&pubname=xanadu-order-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -50,7 +51,7 @@ Install the Lead Management application from the ServiceNow Store. This applicat
 
 </td></tr><tr><td>
 
-[Install and configure Opportunity Management](https://www.servicenow.com/docs/access?context=configure-opportunity-mgmt&version=xanadu&pubname=xanadu-order-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -58,7 +59,7 @@ Install the Opportunity Management application from the ServiceNow Store store. 
 
 </td></tr><tr><td>
 
-[Install and configure Quote Management](https://www.servicenow.com/docs/access?context=configure-quote-management&version=xanadu&pubname=xanadu-order-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -66,7 +67,7 @@ Install the Quote Management application from the ServiceNow Store store. It ena
 
 </td></tr><tr><td>
 
-Install and configure [Order Management](https://servicenow.com/docs/bundle/washingtondc-order-management/page/product/tmt-order-mgt/concept/order-mgt-exploring.html)
+Install and configure Order Management
 
 </td><td>
 
@@ -74,7 +75,7 @@ Install the Order Management application from the ServiceNow Store. This applica
 
 </td></tr><tr><td>
 
-[Install and configure Sales Agreement Management](https://www.servicenow.com/docs/access?context=configure-sales-agreement-mgmt&version=xanadu&pubname=xanadu-order-management&ft:locale=en-US)
+Install and configure Sales Agreement Management
 
 </td><td>
 
@@ -82,7 +83,7 @@ Install the Sales Agreement Management application from the ServiceNow Store sto
 
 </td></tr><tr><td>
 
-Install and configure [Service Model Foundation](https://servicenow.com/docs/bundle/vancouver-customer-service-management/page/product/customer-service-management/task/configure-industry-data-model.html)
+Install and configure Service Model Foundation
 
 </td><td>
 
@@ -90,7 +91,7 @@ Install the Service Model Foundation application from the ServiceNow Store store
 
 </td></tr><tr><td>
 
-Install and configure [Install Base Management](https://servicenow.com/docs/bundle/vancouver-customer-service-management/page/product/customer-service-management/task/configure-install-base.html)
+Install and configure Install Base Management
 
 </td><td>
 
@@ -102,7 +103,7 @@ Install and configure Service Exchange for Providers
 
 </td><td>
 
-See [Install Service Exchange for Providers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-provider&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+See .
 
 </td></tr><tr><td>
 
@@ -110,7 +111,7 @@ Install and configure Service Exchange for Consumers
 
 </td><td>
 
-See [Install Service Exchange for Consumers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-customer&version=xanadu&pubname=xanadu-service-bridge&ft:locale=en-US).
+See .
 
 </td></tr></tbody>
 </table>-   Work with an implementation specialist to streamline your manufacturing setup process. To learn more, see the [Customer Success Center](https://www.servicenow.com/success.html).

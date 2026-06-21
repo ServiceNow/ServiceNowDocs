@@ -2,6 +2,7 @@
 title: Archive push notifications manually
 description: You can manually archive push notifications on demand instead of waiting for the instance to archive them based on a scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/archive-push-notification-manually.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -39,5 +40,5 @@ You can manually archive push notification messages that meet the default archiv
 4.  Click **Run Archive Now**.
 
 
-**Parent Topic:**[Push notification retention](../concept/push-notification-retention.md)
+**Parent Topic:**[Push notification retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/push-notification-retention.md)
 

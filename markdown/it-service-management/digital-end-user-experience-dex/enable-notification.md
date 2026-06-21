@@ -2,6 +2,7 @@
 title: Enable or disable notifications
 description: Enable notifications to stay informed and engaged receiving timely updates and notifications about important events and activities within the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/enable-notification.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -23,7 +24,7 @@ Role required: sn\_dex\_desktop.admin
 
 1.  Navigate to **Desktop Assistant** &gt; **Configuration** &gt; **Application**.
 
-    ![The Desktop Assistant page that provides options to modify your home page title or brief description, as well as to activate notifications and the chat icon.](../image/dex-da-home-page-form.png)
+    \[Omitted image "dex-da-home-page-form.png"\] Alt text: The Desktop Assistant page that provides options to modify your home page title or brief description, as well as to activate notifications and the chat icon.
 
 2.  On the Desktop Assistant page, select or clear **Notifications Enabled**.
 
@@ -32,11 +33,11 @@ Role required: sn\_dex\_desktop.admin
 
 ## Result
 
-If you enable notifications, a bell icon \(![The Notifications bell icon](../image/icon-notification-bell.png)\) appears on the Desktop Assistant header. If you disable notifications, a bell icon disappears from the header.
+If you enable notifications, a bell icon \(\[Omitted image "icon-notification-bell.png"\] Alt text: The Notifications bell icon\) appears on the Desktop Assistant header. If you disable notifications, a bell icon disappears from the header.
 
 When enabled, push notifications are sent to employees using Desktop Assistant.
 
-![](../image/DA_Home.png)
+\[Omitted image "DA\_Home.png"\] Alt text:
 
-For more information, see [Desktop Assistant notifications](../concept/da-push-notifications.md). To view notifications and stay up to date with important information and events, see [View notifications](view-notifications.md).
+For more information, see [Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/da-push-notifications.md). To view notifications and stay up to date with important information and events, see [View notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/view-notifications.md).
 

@@ -2,6 +2,7 @@
 title: MetricBase data options for time series visualizations
 description: The following data options are available for all time series type visualizations of MetricBase data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/config-dv-time-series-mb-data.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -27,11 +28,11 @@ Data source
 
 </td><td>
 
-You have selected a MetricBase data source in [Create time series visualizations](../task/create-dv-time-series-ac.md).
+You have selected a MetricBase data source in [Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-time-series-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-MetricIf there is more than one metric, you can change the time series chart type for that metric by clicking the Change chart type icon. Also, if there is more than one metric, you can use the More options list to select a main metric and to add a Y-axis for each metric. Lastly, if you have the latest version of the Data Visualizations application from the ServiceNow Store, you can set dashboard filters to apply only to specific metrics. For more information, see [Chart options for multiple metrics](../concept/chart-options-multi-metrics.md).
+MetricIf there is more than one metric, you can change the time series chart type for that metric by clicking the Change chart type icon. Also, if there is more than one metric, you can use the More options list to select a main metric and to add a Y-axis for each metric. Lastly, if you have the latest version of the Data Visualizations application from the ServiceNow Store, you can set dashboard filters to apply only to specific metrics. For more information, see [Chart options for multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/chart-options-multi-metrics.md).
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Transform
 
 </td><td>
 
-Option to apply a transform to the data. For example, you can select **Envelope** to show the minimum and maximum \(envelope\) value within the dataset. For more information, see [MetricBase transforms](metricbase-transforms.md).
+Option to apply a transform to the data. For example, you can select **Envelope** to show the minimum and maximum \(envelope\) value within the dataset. For more information, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/metricbase-transforms.md).
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ Model
 
 </td><td>
 
-Prediction model to use to transform the data. If a model does not already exist, you can create one. To learn more, see [Detect anomalies in MetricBase data using predictive models](https://www.servicenow.com/docs/access?context=train-a-model&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).This property applies only when **Transform** is Predict.
+Prediction model to use to transform the data. If a model does not already exist, you can create one. To learn more, see Detect anomalies in MetricBase data using predictive models.This property applies only when **Transform** is Predict.
 
 </td></tr><tr><td>
 
@@ -177,7 +178,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -315,7 +316,7 @@ Add alternative group by
 
 This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
 
-For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](../../performance-analytics/concept/select-group-runtime.md).
+For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/select-group-runtime.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -395,7 +396,7 @@ Configure forecast
 
 </td><td>
 
-Opens a dialog for configuring forecasting on this data visualization. A forecast configuration on the data visualization overrides any configuration set on the data source, such as an indicator. This override applies only to the specific data visualization.This option is available only when Show forecast is turned on. For more information, see [Configure a forecast in a time series visualization](../task/configure-forecast-ts-viz.md#).
+Opens a dialog for configuring forecasting on this data visualization. A forecast configuration on the data visualization overrides any configuration set on the data source, such as an indicator. This override applies only to the specific data visualization.This option is available only when Show forecast is turned on. For more information, see [Configure a forecast in a time series visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/configure-forecast-ts-viz.md).
 
 </td></tr><tr><td>
 

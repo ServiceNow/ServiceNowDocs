@@ -2,6 +2,7 @@
 title: Viewing all your investment boards in one location
 description: Display all your important investment boards in a single location using the My Investment views page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/my-investments-tabs.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -17,8 +18,8 @@ Display all your important investment boards in a single location using the My I
 
 When you open the Investment Portal module, you start in the My Investments Views page where you can:
 
--   [Create investment boards using filter conditions](../task/create-an-investment-report.md).
--   [View widgets on an investment board](../task/configure-investment-metrics.md).
+-   [Create investment boards using filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/create-an-investment-report.md).
+-   [View widgets on an investment board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/configure-investment-metrics.md).
 -   Search for an investment board by the name or owner.
 -   View boards in different color bands based on the applied filter, such as portfolio or program. For example, the green color band on the card, in the following screen shot, indicates that the projects and demands are filtered by a portfolio.
 -   Drill down an investment board to review its projects and demands in terms of cost, schedule, and scope.
@@ -37,8 +38,8 @@ Access investment boards more quickly by using tabs.
 Key details of an investment board include:
 
 -   **Row 1**: Name, owner, and type of the board.
--   **Row 2**: Some out-of-box investment metrics. The number of metrics displayed in this row is fixed, but you can [configure](../task/configure-investment-metrics.md) which metrics are displayed,
+-   **Row 2**: Some out-of-box investment metrics. The number of metrics displayed in this row is fixed, but you can [configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/configure-investment-metrics.md) which metrics are displayed,
 
-    ![Investment board](../image/configureinvestmentmetrics.png "Example of an investment board")
+    \[Omitted image "configureinvestmentmetrics.png"\] Alt text: Investment board
 
 

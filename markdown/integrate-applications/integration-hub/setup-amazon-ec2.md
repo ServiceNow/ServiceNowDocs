@@ -2,6 +2,7 @@
 title: Set up the Amazon EC2 spoke
 description: Integrate the ServiceNow instance and Amazon EC2 using AWS credentials to authenticate ServiceNow requests.Create Credential records for the Amazon EC2 instance. The Amazon EC2 spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-amazon-ec2.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -43,15 +44,15 @@ Role required: admin
 
 5.  On the form, fill these values.
 
-<table id="choicetable_v11_rdx_glb"><thead><tr><th align="left" id="d535908e192">
+<table id="choicetable_v11_rdx_glb"><thead><tr><th align="left" id="d318241e192">
 
 Field
 
-</th><th align="left" id="d535908e195">
+</th><th align="left" id="d318241e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d535908e201">
+</th></tr></thead><tbody><tr><td id="d318241e201">
 
 **Name**
 
@@ -59,7 +60,7 @@ Description
 
 Name to uniquely identify the connection record. For example, enter `AWS Credentials`.
 
-</td></tr><tr><td id="d535908e213">
+</td></tr><tr><td id="d318241e213">
 
 **Active**
 
@@ -67,7 +68,7 @@ Name to uniquely identify the connection record. For example, enter `AWS Credent
 
 Option to actively use the credential record.
 
-</td></tr><tr><td id="d535908e222">
+</td></tr><tr><td id="d318241e222">
 
 **Access Key ID**
 
@@ -75,7 +76,7 @@ Option to actively use the credential record.
 
 Access Key ID of the user with full access to EC2.
 
-</td></tr><tr><td id="d535908e231">
+</td></tr><tr><td id="d318241e231">
 
 **Secret Access Key**
 
@@ -83,7 +84,7 @@ Access Key ID of the user with full access to EC2.
 
 Secret Access Key of the user with full access to EC2.
 
-</td></tr><tr><td id="d535908e241">
+</td></tr><tr><td id="d318241e241">
 
 **Credential alias**
 
@@ -91,7 +92,7 @@ Secret Access Key of the user with full access to EC2.
 
 Associated credential record.
 
-</td></tr><tr><td id="d535908e250">
+</td></tr><tr><td id="d318241e250">
 
 **Authentication Algorithm**
 

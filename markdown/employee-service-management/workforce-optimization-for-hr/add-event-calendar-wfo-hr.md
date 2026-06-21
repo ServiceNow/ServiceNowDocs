@@ -2,6 +2,7 @@
 title: Add events to a team calendar
 description: Create a meeting, training, time-off request, or an adhoc work event from the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/add-event-calendar-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -23,7 +24,7 @@ Role required: sn\_hr\_wfo.admin
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
 3.  Click the **Team Calendar** tab.
 
@@ -31,15 +32,15 @@ Role required: sn\_hr\_wfo.admin
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d510861e99">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d474646e99">
 
 To
 
-</th><th align="left" id="d510861e102">
+</th><th align="left" id="d474646e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d510861e108">
+</th></tr></thead><tbody><tr><td id="d474646e108">
 
 **Create a meeting, training, or time-off request.**
 
@@ -64,7 +65,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d510861e212">
+</td></tr><tr><td id="d474646e212">
 
 **Create a work shift**
 

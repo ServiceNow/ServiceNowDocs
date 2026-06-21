@@ -2,6 +2,7 @@
 title: Update an existing conflict of interest disclosure request
 description: Update an existing conflict of interest disclosure request to obtain the legal clearance again before it expires. You might want to get fresh approvals for an extension of the period or for the revised conditions that might pose a risk of potential conflict with the primary employer duties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-conflict-of-interest/update-existing-coi-disclosure-request.html
 release: xanadu
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -33,7 +34,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 5.  In the **Do you want to create new / update existing COI ?**, select **Update** to update the details of the request you submitted in the past.
 
-    To submit a fresh request, select **New**. See [Submit a new conflict of interest disclosure request](submit-coi-disclosure-request.md).
+    To submit a fresh request, select **New**. See [Submit a new conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md).
 
 6.  In the **Active / Inactive COI Records** field, select a COI record that you want to update.
 
@@ -45,26 +46,26 @@ Role required: sn\_lg\_ops.legal\_user
 
 8.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d325483e152">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d158706e152">
 
 Option
 
-</th><th align="left" id="d325483e155">
+</th><th align="left" id="d158706e155">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d325483e161">
+</th></tr></thead><tbody><tr><td id="d158706e161">
 
 **If the Attachments tab is visible**
 
 </td><td>
 
--   To upload a new document, select the add attachment icon \(![Add attachment icon.](../../legal-request-management/image/add-attachment-icon.png)\) and select a file.
--   To rename an attached file, select the edit file name icon \(![Edit file name icon.](../../legal-request-management/image/rename-icon.png)\) and update the file name.
--   To remove an attached file, select the delete icon \(![Delete icon.](../../legal-request-management/image/delete-icon.png)\).
+-   To upload a new document, select the add attachment icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachment icon.\) and select a file.
+-   To rename an attached file, select the edit file name icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit file name icon.\) and update the file name.
+-   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d325483e200">
+</td></tr><tr><td id="d158706e200">
 
 **If the Documents tab is visible**
 
@@ -85,5 +86,5 @@ The conflict of interest disclosure request is updated and the state is set as N
 
 The approval details appear under the **Approvals** tab on the Standard Ticket page.
 
-**Parent Topic:**[Requesting legal clearance for conflict of interests](../concept/submitting-legal-coi-request.md)
+**Parent Topic:**[Requesting legal clearance for conflict of interests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-conflict-of-interest/submitting-legal-coi-request.md)
 

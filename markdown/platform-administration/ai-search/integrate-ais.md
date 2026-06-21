@@ -2,6 +2,7 @@
 title: Integrating AI Search into other ServiceNow AI Platform applications
 description: AI Search integrates with other ServiceNow AI Platform applications. Populate your UI Builder pages with search components and customize display of search results and Genius Results with EVAM definitions. Improve incident deflection in Service Portal by configuring AI Search Assist for record producers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/integrate-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ The AI Search components are described in detail on the [ServiceNow® Developer 
 -   [Search results](https://developer.servicenow.com/dev.do#!/reference/now-experience/vancouver/shared-components/sn-search-results-container/overview)
 -   [Tab filter](https://developer.servicenow.com/dev.do#!/reference/now-experience/vancouver/shared-components/sn-tab-filter/overview)
 
-For details on adding components to your pages in UI Builder, see [Add and configure components](https://www.servicenow.com/docs/access?context=add-components&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+For details on adding components to your pages in UI Builder, see Add and configure components.
 
 ## Entity View Action Mapping \(EVAM\) definitions
 
@@ -36,16 +37,16 @@ AI Search provides EVAM configurations that you can use to customize display of 
 
 You can customize EVAM settings to display AI Search results as a card grid view or as a list view. Users can page through large data sets of search results and see different views based on filtering.
 
-For details on EVAM definitions, configurations, templates, and configuration bundles, see [Entity View Action Mapping \(EVAM\)](https://www.servicenow.com/docs/access?context=evam-overview&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For details on EVAM definitions, configurations, templates, and configuration bundles, see Entity View Action Mapping \(EVAM\).
 
 ## Service Portal record producer integration
 
 AI Search Assist is a Service Portal widget that uses AI Search to improve incident deflection by displaying the most relevant set of related search results within a record producer. You can use AI Search Assist instead of Contextual Search.
 
-For more details on the AI Search Assist widget, see [AI Search Assist record producer integration for Service Portal](ai-search-assist.md).
+For more details on the AI Search Assist widget, see [AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ai-search-assist.md).
 
--   **[AI Search Assist record producer integration for Service Portal](ai-search-assist.md)**  
+-   **[AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ai-search-assist.md)**  
 AI Search Assist is a Service Portal widget that uses AI Search to improve incident deflection by displaying the most relevant set of related Catalog Item and knowledge article search results within a record producer. You can use AI Search Assist instead of Contextual Search.
 
-**Parent Topic:**[AI Search](overview-ais.md)
+**Parent Topic:**[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/overview-ais.md)
 

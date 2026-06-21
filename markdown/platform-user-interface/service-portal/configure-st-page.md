@@ -2,6 +2,7 @@
 title: Configure the standard ticket page
 description: Give Service Portal users a consistent way to view their submitted requests. You can configure the standard ticket page for different request types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/configure-st-page.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -266,8 +267,8 @@ Comma-separated list of tab widget parameters. This field appears only when **Cu
 8.  On the Ticket Configuration form, click **Update**.
 
 
--   **[Enable instance options for the Activity tab](enable-instanceop-activity.md)**  
+-   **[Enable instance options for the Activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/enable-instanceop-activity.md)**  
 Format the work notes and add @mentions in the Activity tab on a standard ticket page.
 
-**Parent Topic:**[Standard ticket page](../concept/standard-ticket-page.md)
+**Parent Topic:**[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/standard-ticket-page.md)
 

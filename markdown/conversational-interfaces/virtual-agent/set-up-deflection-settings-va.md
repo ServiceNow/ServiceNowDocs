@@ -2,6 +2,7 @@
 title: Create deflection configurations and patterns
 description: Set up deflection settings to create deflection configurations and deflection patterns that you can map to deflection topic blocks in Virtual Agent conversation topics. These deflections help you to track the issues that Virtual Agent helped to resolve or actually resolved for a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,11 +18,11 @@ Set up deflection settings to create deflection configurations and deflection pa
 
 ## Before you begin
 
-Review [Tracking deflections in Virtual Agent using the deflection topic block](../concept/deflections-virtual-agent.md).
+Review [Tracking deflections in Virtual Agent using the deflection topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/deflections-virtual-agent.md).
 
-Watch this video for more information about deflection tracking. ![Video link to deflection tracking.](../../conversational-interfaces/image/icon-video-link.png)[Virtual Agent Academy: Measure success and user journey in Conversational Analytics](https://www.youtube.com/watch?v=YMAaTSzPhwM&list=PLkGSnjw5y2U79gjQuQW-2GBqzEccwFkWH&index=21)
+Watch this video for more information about deflection tracking. \[Omitted image "icon-video-link.png"\] Alt text: Video link to deflection tracking.[Virtual Agent Academy: Measure success and user journey in Conversational Analytics](https://www.youtube.com/watch?v=YMAaTSzPhwM&list=PLkGSnjw5y2U79gjQuQW-2GBqzEccwFkWH&index=21)
 
-**Note:** For information about configuring components of the Virtual Agent Analytics dashboard \(such as Performance Analytics widgets\), see [Add and configure components](https://www.servicenow.com/docs/access?context=add-components&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+**Note:** For information about configuring components of the Virtual Agent Analytics dashboard \(such as Performance Analytics widgets\), see .
 
 Role required: virtual\_agent\_admin or admin
 
@@ -67,5 +68,5 @@ Role required: virtual\_agent\_admin or admin
 9.  Click **Save**.
 
 
-**Parent Topic:**[Tracking deflections in Virtual Agent using the deflection topic block](../concept/deflections-virtual-agent.md)
+**Parent Topic:**[Tracking deflections in Virtual Agent using the deflection topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/deflections-virtual-agent.md)
 

@@ -2,6 +2,7 @@
 title: User roles and tables installed with Walk-up Experience
 description: Several types of components are installed with activation of the Walk-up Experience plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/walk-up-experience/installed-with-walkup-experience.html
 release: xanadu
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -15,7 +16,7 @@ breadcrumb: [Walk-up Experience reference, Walk-up Experience, IT Service Manage
 
 Several types of components are installed with activation of the Walk-up Experience plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -143,5 +144,5 @@ Walk-up Appointment\[wu\_appointment\]
 Record used to configure scheduled appointments. Extends the Task \[task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Walk-up Experience reference](walk-up-experience-reference.md)
+</table>**Parent Topic:**[Walk-up Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/walk-up-experience/walk-up-experience-reference.md)
 

@@ -1,7 +1,8 @@
 ---
 title: Request Event Management
-description: Event Management plugin \(com.glideapp.itom.snac\) requires a separate subscription and must be activated by ServiceNow personnel. This plugin includes demo data and activates related plugins if they are not already active.
+description: AIOps Experience plugin \(sn\_sow\_aiops\) requires a separate subscription and must be activated by ServiceNow personnel. This plugin includes the required Event Management components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/t\_EMActivatePlugin.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -13,7 +14,7 @@ breadcrumb: [Configuring Event Management, Event Management, ITOM Health, IT Ope
 
 # Request Event Management
 
-Event Management plugin \(com.glideapp.itom.snac\) requires a separate subscription and must be activated by ServiceNow personnel. This plugin includes demo data and activates related plugins if they are not already active.
+AIOps Experience plugin \(`sn_sow_aiops`\) requires a separate subscription and must be activated by ServiceNow personnel. This plugin includes the required Event Management components.
 
 ## Before you begin
 
@@ -31,11 +32,11 @@ If you don't have an account manager, decide to delay activation after purchase,
 
 2.  On the All Applications page, select **Request Plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    ![Message informing customers about new service portal with a link provided.](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
 
 4.  Select your instance.
 
@@ -82,12 +83,12 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
 
-    ![Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 
     For additional details about requesting a plugin, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
 
 
-**Parent Topic:**[Configuring Event Management](../concept/using-event-management.md)
+**Parent Topic:**[Configuring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/using-event-management.md)
 

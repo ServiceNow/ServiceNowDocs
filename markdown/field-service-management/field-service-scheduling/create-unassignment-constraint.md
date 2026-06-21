@@ -2,6 +2,7 @@
 title: Create a task unassignment constraint
 description: Dynamic scheduling allows you to define unassignment constraints that prevent certain tasks from being unassigned, even when lower in priority. This feature ensures that critical tasks stay assigned, based on dependencies or urgency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/create-unassignment-constraint.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling

@@ -2,6 +2,7 @@
 title: Edit your community profile photo and personal information
 description: You can change your community profile photo and edit your personal information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/customize-your-profile.html
 release: xanadu
 product: Communities
 classification: communities
@@ -141,5 +142,5 @@ Use this toggle button to enable accessibility features.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use a community profile](community-profile.md)
+**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/community-profile.md)
 

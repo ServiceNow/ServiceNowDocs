@@ -2,6 +2,7 @@
 title: MID Server selection sequence for Discovery schedules
 description: The Discovery application follows this sequence to find a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/c-MIDServerSelectionSequence.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -58,7 +59,7 @@ Shazzam can process IP lists containing up to of 5000 addresses that include bot
 **Related topics**  
 
 
-[MID Server pause](https://www.servicenow.com/docs/access?context=t_PauseTheMIDServer&version=xanadu&pubname=xanadu-servicenow-platform&section=c_MIDServerPause&ft:locale=en-US)
+[bundle-platcap.c_MIDServerPause]
 
-[MID Server cluster configuration](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=xanadu&pubname=xanadu-servicenow-platform&section=mid-server-clusters&ft:locale=en-US)
+[bundle-platcap.mid-server-clusters]
 

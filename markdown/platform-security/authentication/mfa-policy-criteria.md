@@ -2,6 +2,7 @@
 title: Configure adaptive authentication policy-based multi-factor criteria
 description: Use adaptive policies to determine which users must use two-step multi-factor \(MFA\) verification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/mfa-policy-criteria.html
 release: xanadu
 product: Authentication
 classification: authentication

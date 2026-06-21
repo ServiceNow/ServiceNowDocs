@@ -2,6 +2,7 @@
 title: Add ServiceNow from the gallery
 description: Add ServiceNow from the gallery to your list of managed SaaS apps on Azure AD.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/add-servicenow-from-the-gallery.html
 release: xanadu
 product: Authentication
 classification: authentication

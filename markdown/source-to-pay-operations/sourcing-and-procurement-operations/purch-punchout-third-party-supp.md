@@ -2,6 +2,7 @@
 title: Purchasing from punchout or third-party suppliers
 description: Shoppers who are part of the punchout group can navigate to punchout or external third-party supplier sites from Shopping Hub or Employee Center and make purchases. They can view the third-party purchases in the My purchases page on Shopping Hub, and also view the shipment records received from the third-party sites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purch-punchout-third-party-supp.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,7 +23,7 @@ Shoppers who are part of the punchout group can view punchout or external third-
 -   **Suppliers** &gt; **Supplier sites** tab: Shoppers can select the **Supplier site** check box to filter their search for external or punchout suppliers.
 -   **Purchase directly from the supplier site** widget: Shoppers can view up to four external supplier cards here. If there are more than four external suppliers, they can view all by going to the complete list.
 
-For more information on punchout groups and how to configure them as an admin, see [Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md).
+For more information on punchout groups and how to configure them as an admin, see [Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md).
 
 ## External suppliers on Employee Center
 
@@ -31,7 +32,7 @@ Shoppers who are part of the punchout group can also view punchout or external t
 -   **Purchase and Expense** &gt; **Quick links** &gt; **Purchase directly from supplier sites**.
 -   **Purchase and Expense** &gt; **Browse all** &gt; **Quick links** &gt; **Purchase directly from supplier sites**.
 
-For more information on Employee Center, see [Sourcing and Procurement Operations integration with Employee Center](employee-center-integration-psm.md).
+For more information on Employee Center, see [Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md).
 
 ## Checkout from external supplier sites or Shopping Hub
 
@@ -43,9 +44,9 @@ All products from punchout or third-party suppliers are shown on the Products an
 
 However, if a supplier hasn't configured the Order API, a notification message appears, informing shoppers that they are leaving the Shopping Hub application and are being redirected to the supplier's external website. After the shopper selects **Confirm**, they are navigated to the supplier's external website to add items to the cart and place the order. The shopper is subsequently redirected to Shopping Hub where they can continue with the checkout process.
 
-For more information, see [Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md).
+For more information, see [Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md).
 
-For more information see [Order a product with quick checkout](../task/order-a-product.md) and [Complete your checkout](../task/complete-your-checkout.md).
+For more information see [Order a product with quick checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.md) and [Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md).
 
 ## Post checkout from external supplier sites or Shopping Hub
 
@@ -53,9 +54,9 @@ After successfully completing a checkout from either an external third-party sup
 
 Once the necessary approvals are received and the associated cases are completed, a purchase order is created by the procurement specialist. The same purchase order can also be viewed by the procurement admin in the external site in their order logs. The order confirmation and shipment confirmation details are received from the external supplier site as and when the order is processed. Shipment details are captured in the Shipment Details table by purchase lines.
 
-In case of an update to the order quantity or price at the external supplier end, the same is sent as a revision during order confirmation to SPO, which is then updated in SPO as a revision purchase requisition. For more information on purchase revision scenarios, see [Purchase revision flows](purchase-revision-flows.md).
+In case of an update to the order quantity or price at the external supplier end, the same is sent as a revision during order confirmation to SPO, which is then updated in SPO as a revision purchase requisition. For more information on purchase revision scenarios, see [Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md).
 
-For information on emails triggered by the system, see [Alerts and email notifications from Shopping Hub](../reference/alerts-messages-email-notifications.md).
+For information on emails triggered by the system, see [Alerts and email notifications from Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/alerts-messages-email-notifications.md).
 
 ## Troubleshooting errors
 
@@ -63,5 +64,5 @@ For information on emails triggered by the system, see [Alerts and email notific
 -   An error code of 500 would indicate an invalid credential record or a missing punchout configuration in the third-party registration for supplier​.
 -   If a purchase order or purchase requisition is stuck in the Pending Supplier Confirmation status, review the system logs for any potential errors and resolve them to allow further processing of the purchase order or purchase requisition.
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

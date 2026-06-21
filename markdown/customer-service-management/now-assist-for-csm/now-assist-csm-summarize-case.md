@@ -2,6 +2,7 @@
 title: Summarize a case by using Now Assist for Customer Service Management \(CSM\)
 description: Generate a summary from the fields that you selected on the case record and quickly understand the case context by using the case summarization skill in the Now Assist for Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-case.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -30,7 +31,7 @@ The case summarization skill is available in CSM Configurable Workspace and in C
 
 -   In CSM Configurable Workspace, you use the Case summary by Now Assist component to generate a summary. This component appears above the activity stream.
 
-    **Note:** You can also generate a case summary on demand from the Now Assist panel. For more information, see [Record summarization](https://www.servicenow.com/docs/access?context=now-assist-case-summary&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    **Note:** You can also generate a case summary on demand from the Now Assist panel. For more information, see .
 
 -   In Core UI, you select the **Summarize** button on the case record to generate a summary.
 
@@ -51,19 +52,19 @@ If there is enough data, the Case summary component displays the **Summarize** b
 
     **Note:** Generating and displaying the summary may take several seconds.
 
-    ![AI-generated case summary for a case record.](../image/now-assist-csm-case-summary.png "Case record with case summary")
+    \[Omitted image "now-assist-csm-case-summary.png"\] Alt text: AI-generated case summary for a case record.
 
 3.  When you're finished summarizing a case, you can add it to the case work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d123093e174">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d32900e173">
 
 Option
 
-</th><th align="left" id="d123093e177">
+</th><th align="left" id="d32900e176">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d123093e183">
+</th></tr></thead><tbody><tr><td id="d32900e182">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -74,39 +75,39 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d123093e210">
+</td></tr><tr><td id="d32900e209">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../image/icon-collapse.png)\) to see more details or fewer summary details.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d123093e231">
+</td></tr><tr><td id="d32900e230">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d123093e254">
+</td></tr><tr><td id="d32900e253">
 
 **Copy the case summary**
 
 </td><td>
 
-Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the case summary information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d123093e270">
+</td></tr><tr><td id="d32900e269">
 
 **View the information about the case summary**
 
 </td><td>
 
-If you want to check some details about the summary, select the more info icon \(![More info icon.](../image/icon-more-info.png)\).
+If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

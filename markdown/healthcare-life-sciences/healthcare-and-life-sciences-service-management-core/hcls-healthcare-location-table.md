@@ -2,6 +2,7 @@
 title: Healthcare location table
 description: The Healthcare Location \[sn\_hcls\_location\] table stores details of the location associated with your healthcare organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.html
 release: xanadu
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -25,7 +26,7 @@ The Healthcare Location \[sn\_hcls\_location\] table stores details of the locat
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
 <table id="table_ync_1ts_mpb"><thead><tr><th>
 
@@ -190,5 +191,5 @@ Option to indicate whether the healthcare location is in use.
  For more information about the available statuses, see [location statuses](https://www.hl7.org/fhir/http://hl7.org/fhir/STU3/valueset-location-status.html) defined in the FHIR specifications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

@@ -2,7 +2,10 @@
 title: Activate the standard ticket page for upgrade customers
 description: If you have upgraded your instance, redirect the ticket page to the standard\_ticket page in the Service Portal and view requests on the standard ticket page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate\_csm-std-ticket.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -41,5 +44,5 @@ For new customers, the standard ticket page is enabled by default. For upgrade c
 **Related topics**  
 
 
-[Standard ticket page](https://www.servicenow.com/docs/access?context=standard-ticket-page&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.standard-ticket-page]
 

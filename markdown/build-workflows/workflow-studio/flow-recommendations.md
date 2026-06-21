@@ -2,6 +2,7 @@
 title: Flow recommendations
 description: Select the next component in your flow from a list of AI-generated recommendations. The system generates recommendations based on the current position in the flow and the flow component names listed before.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/flow-recommendations.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Flow Assist, Flow Assist, Exploring flows, Exploring Work
 
 Select the next component in your flow from a list of AI-generated recommendations. The system generates recommendations based on the current position in the flow and the flow component names listed before.
 
-![Five sample Flow recommendations for an empty flow](../images/flow-recommendations-01.png "Example flow recommendations")
+\[Omitted image "flow-recommendations-01.png"\] Alt text: Five sample Flow recommendations for an empty flow
 
 The model uses the name of the flow components that come before to generate one to five recommendations for the next step of the flow. If there are no recommendations listed, then there are no flow components that meet the required relevance threshold.
 
@@ -27,13 +28,13 @@ This Generative AI large language model was pre-trained with internal ServiceNow
 
 ## Flow preference
 
-![Flow preference to show recommendations](../images/flow-recommendations-preference.png "Flow preferences")
+\[Omitted image "flow-recommendations-preference.png"\] Alt text: Flow preference to show recommendations
 
-By default, Workflow Studio shows flow recommendations as you build a flow. You can hide these recommendations on a flow by flow basis by turning off the Show recommendations flow preference. See [User preferences for flows](../reference/flow-preferences.md) for more information.
+By default, Workflow Studio shows flow recommendations as you build a flow. You can hide these recommendations on a flow by flow basis by turning off the Show recommendations flow preference. See [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-preferences.md) for more information.
 
 ## AI limitations
 
 This application uses artificial intelligence \(AI\) and machine learning, which are rapidly evolving fields of study that generate predictions based on patterns in data. As a result, this application may not always produce accurate, complete, or appropriate information. Further, there is no guarantee that this application has been fully trained or tested for your use case. To mitigate these issues, it is your responsibility to test and evaluate your use of this application for accuracy, harm, and appropriateness for your use case, employ human oversight of output, and refrain from relying solely on AI-generated outputs for decision-making purposes. This is especially important if you choose to deploy this application in areas with consequential impacts such as healthcare, finance, legal, employment, security, or infrastructure. You agree to abide by [ServiceNow’s AI Acceptable Use Policy](https://www.servicenow.com/ai-acceptable-use-policy.html), which may be updated by ServiceNow.
 
-**Parent Topic:**[Exploring Flow Assist](exploring-flow-assist.md)
+**Parent Topic:**[Exploring Flow Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

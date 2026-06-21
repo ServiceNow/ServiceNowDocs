@@ -2,6 +2,7 @@
 title: Set up the Azure Application Insights spoke
 description: Create a connection alias on your ServiceNow instance. The alias enables your ServiceNow instance to request OAuth tokens from the Microsoft Azure Application Insights and enables the authenticate its requests.Provide the details in the connection alias form. Your ServiceNow instance uses these details to request OAuth tokens from Microsoft Azure Application Insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-msazure-app-insight.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub

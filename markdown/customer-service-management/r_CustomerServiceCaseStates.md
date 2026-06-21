@@ -2,7 +2,10 @@
 title: Case states
 description: A customer service case can be in one of several states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/r\_CustomerServiceCaseStates.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -113,5 +116,5 @@ After proposing a solution, an agent waits for the customer to respond. -   If t
 </table>**Related topics**  
 
 
-[State flows](https://www.servicenow.com/docs/access?context=c_StateFlows&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_StateFlows]
 

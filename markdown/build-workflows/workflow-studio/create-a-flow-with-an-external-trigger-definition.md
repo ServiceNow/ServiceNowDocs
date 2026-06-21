@@ -2,6 +2,7 @@
 title: Create a flow with an external trigger
 description: Set up a flow with a base system external trigger definition. The flow responds to an event-driven external trigger from a third-party system. For example, run a flow when an issue is created in a third-party issue-tracking system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/create-a-flow-with-an-external-trigger-definition.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -79,7 +80,7 @@ Option to specify the user that runs the flow. You can select the system user or
 
  **Note:** By default, flows run as the user who initiates the session.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://www.servicenow.com/docs/access?context=oauth-2-credentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see OAuth 2.0 credentials.
 
  When flows run as the user who initiates the session, the system limits flow actions by user Access Control Rule \(ACL\) restrictions. Ensure that security restrictions don't prevent users who trigger the flow from performing flow actions. Flows run by the initiating user also respect user-specific settings such as date/time formats.
 
@@ -102,11 +103,11 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
     1.  Under the TRIGGER section, select **Add a trigger**.
 
-    2.  Under the INSTALLED SPOKES heading, select a spoke from the Trigger list.![Select spoke.](../images/select-spoke.png)
+    2.  Under the INSTALLED SPOKES heading, select a spoke from the Trigger list.\[Omitted image "select-spoke.png"\] Alt text: Select spoke.
 
-    3.  Select the predefined external trigger definition.![External trigger definition.](../images/select-external-trigger-definition.png)
+    3.  Select the predefined external trigger definition.\[Omitted image "select-external-trigger-definition.png"\] Alt text: External trigger definition.
 
-        To learn more about external trigger definitions, see [Conditional and event-driven inbound integration](https://www.servicenow.com/docs/access?context=conditional-and-event-driven-inbound-integration&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+        To learn more about external trigger definitions, see .
 
     4.  To define the conditions for the flow to execute, in the Condition 1 field, drag the appropriate data pill and enter the value.
 
@@ -120,8 +121,8 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 8.  Activate the flow.
 
-    Activate the flow if the test returns the desired outcome. For more information on testing and activating your flow, see [Test a flow](../../flow-designer/task/flow-test.md) and [Activate a flow](../../flow-designer/task/flow-activate.md).
+    Activate the flow if the test returns the desired outcome. For more information on testing and activating your flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-activate.md).
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](../../flow-designer/task/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-flow.md)
 

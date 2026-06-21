@@ -2,6 +2,7 @@
 title: Remove a hashtag from a posted message
 description: As a participant in a conversation, you can remove hashtags from messages that have already been posted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/t\_RemoveAHashtagFromAPostedMessage.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -25,14 +26,14 @@ Role required: admin
 
 2.  Click **Hashtags** in the message posting.
 
-    ![Hashtag in post](../image/HashtagInPost.png "Hashtag in post")
+    \[Omitted image "HashtagInPost.png"\] Alt text: Hashtag in post
 
     The hashtags associated with the message are displayed, along with the removal icon.
 
-    ![Remove tag](../image/RemoveTag.png "Remove tag")
+    \[Omitted image "RemoveTag.png"\] Alt text: Remove tag
 
 3.  Click the removal icon.
 
 
-**Parent Topic:**[Use hashtags in Live Feed](../concept/c_UseHashtagsInLiveFeed.md)
+**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
 

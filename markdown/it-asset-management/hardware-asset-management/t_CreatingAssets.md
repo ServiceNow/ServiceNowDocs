@@ -2,6 +2,7 @@
 title: Create assets
 description: Create hardware, software, consumable, bundle, pallet, mobile, and facility assets using the Core UI or the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/t\_CreatingAssets.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -23,15 +24,15 @@ Role required: asset
 
 1.  Create an asset.
 
-<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d86048e59">
+<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d63868e59">
 
 Interface
 
-</th><th align="left" id="d86048e62">
+</th><th align="left" id="d63868e62">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d86048e68">
+</th></tr></thead><tbody><tr><td id="d63868e68">
 
 **Core UI**
 
@@ -42,7 +43,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d86048e107">
+</td></tr><tr><td id="d63868e107">
 
 **Hardware Asset Workspace**
 
@@ -56,10 +57,10 @@ Action
 </td></tr></tbody>
 </table>2.  On the Asset record fields form, fill in the fields.
 
-    For a description of the field values, see [Asset record fields](../reference/asset-record-fields.md).
+    For a description of the field values, see [Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/asset-record-fields.md).
 
 3.  Submit or save the asset form.
 
 
-**Parent Topic:**[Work with Asset and CI](../../hardware-asset-management/concept/work-with-asset-ci.md)
+**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/work-with-asset-ci.md)
 

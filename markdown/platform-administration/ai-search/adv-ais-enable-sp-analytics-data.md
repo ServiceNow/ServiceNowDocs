@@ -2,6 +2,7 @@
 title: Configure Service Portal to send analytics data
 description: Enable loading of the AI Search Analytics dashboard by configuring Service Portal to send analytics data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/adv-ais-enable-sp-analytics-data.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Enable loading of the AI Search Analytics dashboard by configuring Service Porta
 
 ## Before you begin
 
-The Platform Analytics Solution for Advanced AI Search Management Tools must be activated on your instance. For details on activating this solution, see [Activate the Platform Analytics Solution for Advanced AI Search Management Tools](install-adv-ais-mgmt-tools.md).
+The Platform Analytics Solution for Advanced AI Search Management Tools must be activated on your instance. For details on activating this solution, see [Activate the Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/install-adv-ais-mgmt-tools.md).
 
 Role required: admin
 

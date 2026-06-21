@@ -2,6 +2,7 @@
 title: Accessing email object variables
 description: An inbound email action script contains the email object to access various pieces of an inbound email through variables. You can use the global variable sys\_email with inbound email actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_AccessingEmailObjsWithVars.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -157,5 +158,5 @@ var rarray  = email.recipients_array ; for ( var i  = 0 ; i  < rarray.length ; i
 
 This variable lets you access the received sys\_email record that triggered the inbound email action. It can be used to reference fields on the email record, such as **uid**, **sys\_id**, **content\_type**, and so on.
 
-**Parent Topic:**[References for Inbound email](../concept/references-inbound-email.md)
+**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/references-inbound-email.md)
 

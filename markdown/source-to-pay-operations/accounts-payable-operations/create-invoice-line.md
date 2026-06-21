@@ -2,6 +2,7 @@
 title: Create an invoice line manually
 description: Create invoice lines manually for an invoice when the invoice automation process doesn't capture this information from an incoming invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/create-invoice-line.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,13 +32,13 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 5.  On the Create New Invoice Line form, fill in the fields.
 
-    For a description of the field values, see [Create New Invoice Line form](../reference/create-invoice-line-form.md).
+    For a description of the field values, see [Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md).
 
 6.  Select **Save**.
 
 
--   **[Credit memo](../concept/invoice-type-credit-memo.md)**  
+-   **[Credit memo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/invoice-type-credit-memo.md)**  
 You can create Credit memo invoice. The credit memo invoice type can be of PO and Non-PO invoice.
 
-**Parent Topic:**[Create an invoice manually](create-invoice.md)
+**Parent Topic:**[Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/create-invoice.md)
 

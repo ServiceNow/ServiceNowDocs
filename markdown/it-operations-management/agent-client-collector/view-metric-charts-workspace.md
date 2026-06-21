@@ -2,6 +2,7 @@
 title: View metric charts in Agent Workspace
 description: Agent Workspace for Metric Intelligence provides easy access to metric charts for a CI. On an alert form, you can drill down to important metric charts for the CI that is associated with the alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/view-metric-charts-workspace.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

@@ -2,6 +2,7 @@
 title: Summarizers
 description: Approval summarizers are stored in the Macro \[sys\_ui\_macro\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/approvals/c\_Summarizers.html
 release: xanadu
 product: Approvals
 classification: approvals

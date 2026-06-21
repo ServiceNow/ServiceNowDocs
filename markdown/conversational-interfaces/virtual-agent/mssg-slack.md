@@ -2,6 +2,7 @@
 title: Conversational Integration with Slack
 description: Enable requesters to chat with Virtual Agent or live agents using the Slack application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/mssg-slack.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +20,7 @@ Enable requesters to chat with Virtual Agent or live agents using the Slack appl
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Overview of Conversational Integration with Slack
 

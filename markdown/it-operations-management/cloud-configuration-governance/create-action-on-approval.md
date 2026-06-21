@@ -2,6 +2,7 @@
 title: Create an action for an 'approval' policy
 description: A policy that is triggered by one of the approval triggers can start approval workflows. The approval triggers are \( on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-configuration-governance/create-action-on-approval.html
 release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,9 +18,9 @@ A policy that is triggered by one of the approval triggers can start approval wo
 
 ## Before you begin
 
-Optional: [Create one or more cloud policy groups](create-cloud-policy-group-1.md).
+Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
-[Configure a cloud policy rule](configure-cloud-policy-rule-1.md) and associated conditions.
+[Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown) and associated conditions.
 
 Role required: sn\_cmp.cloud\_governor or admin
 
@@ -42,7 +43,7 @@ When multiple "approval" policies apply, the policies are applied in the followi
 
 4.  On the popup, click **Create** for the type of action to perform.
 
-    ![Create Action popup](../image/create-approval-action-cloud-mgt.png)
+    \[Omitted image "create-approval-action-cloud-mgt.png"\] Alt text: Create Action popup
 
 5.  Select any of the following actions.
 
@@ -103,7 +104,7 @@ Assignment Group
 </td></tr></tbody>
 </table>6.  On the Approval form, specify a unique and meaningful **Action Name**.
 
-    ![Approval policy action](../image/service-now-approval.png "Action in the rule")
+    \[Omitted image "service-now-approval.png"\] Alt text: Approval policy action
 
 7.  If you select **Custom Approval**, specify the workflow and then click **Submit** and if you select **ServiceNow Approval**, specify who should approve the cloud activity.
 

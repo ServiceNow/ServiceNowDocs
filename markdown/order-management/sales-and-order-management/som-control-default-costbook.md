@@ -2,6 +2,7 @@
 title: Control the default cost book on transaction header or header line
 description: Set the default cost book displayed to your sales agents on the transaction header or header line for a Sales Customer Relationship Management application by using the Cost Book Defaulting Matrix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-control-default-costbook.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ The transaction header is a record that contains general information about an en
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

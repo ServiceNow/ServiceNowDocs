@@ -2,7 +2,10 @@
 title: Run optimization for your groups or territories from Dispatcher Workspace
 description: Reassign tasks and maximize productivity by running Schedule Optimization on demand when scheduling conditions change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/optimize-agent-schedules-on-demand-in-dispatcher-workspace.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,8 +18,8 @@ Reassign tasks and maximize productivity by running Schedule Optimization on dem
 
 ## Before you begin
 
--   Schedule Optimization must be activated. For more information, see [Activate Schedule Optimization](../task/schedule-optimization-engine-plugin.md).
--   Intraday optimization must be configured. For more information, see [Configure intraday optimization](../task/configure-intraday-optimization.md).
+-   Schedule Optimization must be activated. For more information, see [Activate Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/schedule-optimization-engine-plugin.md).
+-   Intraday optimization must be configured. For more information, see [Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/configure-intraday-optimization.md).
 
 Role required: schedule\_optimization\_user
 
@@ -24,9 +27,9 @@ Role required: schedule\_optimization\_user
 
 Schedule Optimization can be configured to run the optimization engine in batches overnight or at selected intervals throughout the day in response to canceled tasks and other triggers. This procedure describes how dispatchers can run optimization on demand from Dispatcher Workspace.
 
-For more information on running the optimization engine automatically, see [Configuring Schedule Optimization](schedule-optimization-engine.md).
+For more information on running the optimization engine automatically, see [Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/schedule-optimization-engine.md).
 
-Schedule Optimization considers the agent's start and end locations from the **Agent Schedule Attribute Plans** table for the given day if the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](../task/Activate-fsm-territory-planning.md).
+Schedule Optimization considers the agent's start and end locations from the **Agent Schedule Attribute Plans** table for the given day if the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Insert a line break in the HTML editor
 description: When you use the Enter key, the editor creates a paragraph element \(&lt;p&gt;\) tag, which appears as a double space.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_InsertALineBreak.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,5 +16,5 @@ When you use the `Enter` key, the editor creates a paragraph element \(`<p>`\) t
 
 To enter a single-line space, use the `Shift` + `Enter` key combination, which inserts a line break \(`<br>`\) tag.
 
-**Parent Topic:**[Formatting functions in HTML field editors](../reference/r_Formatting.md)
+**Parent Topic:**[Formatting functions in HTML field editors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_Formatting.md)
 

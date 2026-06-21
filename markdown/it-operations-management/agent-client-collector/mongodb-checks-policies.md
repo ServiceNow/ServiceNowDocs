@@ -2,6 +2,7 @@
 title: MongoDB default checks and policies
 description: Agent Client Collector provides the following policies for MongoDB health monitoring. Policies come with the checks specified in the indicated table. Policies and checks are available for both Windows and Linux.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/mongodb-checks-policies.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -160,5 +161,5 @@ Returns metrics of the MongoDB server and all databases.Sample metrics:
 `<hostname>.mongodb.connections.totalCreated 20632 1639498004`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

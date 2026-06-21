@@ -2,6 +2,7 @@
 title: Configure related party configurations for retail staff
 description: Configure the responsibilities of your retail staff by linking related party entity responsibilities to responsibility definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-configure-titles-labels.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -32,7 +33,7 @@ Area, regional, or store managers can be given any type of responsibility.
 
 You can add, remove, or change the responsibilities associated with your users. It is recommended, however that you create a new related party configuration instead of modifying existing configurations.
 
-For more information, see the Service Organizations responsibilities table in [Add related party configurations to cases, sold products, install bases, or service organizations](https://www.servicenow.com/docs/access?context=adding-related-party-config-to-case&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+For more information, see the Service Organizations responsibilities table in .
 
 ## Procedure
 

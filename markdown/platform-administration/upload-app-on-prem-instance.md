@@ -2,6 +2,7 @@
 title: Upload an app to an on-premise instance
 description: Upload an application's encrypted file to your on-premise instance to make it available for installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upload-app-on-prem-instance.html
 release: xanadu
 topic_type: task
 last_updated: "2025-07-31"
@@ -35,5 +36,5 @@ Role required: admin
 
 ## What to do next
 
-Install the uploaded application through the Application Manager. For more information, see [Install an application or plugin](../../../build/applications/task/installing-applications-in-application-manager.md).
+Install the uploaded application through the Application Manager. For more information, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/installing-applications-in-application-manager.md).
 

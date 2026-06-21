@@ -2,6 +2,7 @@
 title: Exporting Microsoft Active Directory certificates
 description: You can export Microsoft Active Directory certificates, such as root, intermediate, and a client authentication certificate, for authentication purposes. You then register the exported root and intermediate certificate in the ServiceNow instance and map the exported client authentication certificate to the user.Export an active directory \(AD\) root certificate in your Windows machine to register the exported certificate on the ServiceNow instance.Export an active directory \(AD\) intermediate certificate in your Windows machine to register the exported certificate on the ServiceNow instance.Export an active directory \(AD\) client authentication certificate in your Windows machine to map the exported certificate to the user on the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/export-certificates-rpa.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,9 +18,9 @@ You can export Microsoft Active Directory certificates, such as root, intermedia
 
 You must do these tasks in your Windows machine.
 
-If you don't have the user-generated certificates \(client authentication and code signing\), do the tasks in the following topics to export active directory certifications. For more information, see [Generating and installing user certificates](use-user-certificates-rpa.md#).
+If you don't have the user-generated certificates \(client authentication and code signing\), do the tasks in the following topics to export active directory certifications. For more information, see [Generating and installing user certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/use-user-certificates-rpa.md).
 
-**Parent Topic:**[Obtaining client authentication and code signing certificates for RPA Hub](code-signing-certificate-rpa.md)
+**Parent Topic:**[Obtaining client authentication and code signing certificates for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/code-signing-certificate-rpa.md)
 
 ## Export a root certificate
 
@@ -80,7 +81,7 @@ Role required: admin
 
 ### What to do next
 
-Register the root certificate to make it available for authentication. For more information, see [Register the CA certificate](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Register the root certificate to make it available for authentication. For more information, see Register the CA certificate.
 
 ## Export an intermediate certificate
 
@@ -145,7 +146,7 @@ If your organization doesn't require an intermediate certificate, skip this task
 
 ### What to do next
 
-Register the intermediate certificate to make it available for authentication. For more information, see [Register the CA certificate](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Register the intermediate certificate to make it available for authentication. For more information, see Register the CA certificate.
 
 ## Export a client authentication \(active directory\) certificate
 
@@ -192,5 +193,5 @@ Role required: admin
 
 ### What to do next
 
-Map the PEM certificate to the user. For more information, see [Map the PEM certificate to user](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Map the PEM certificate to the user. For more information, see Map the PEM certificate to user.
 

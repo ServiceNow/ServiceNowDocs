@@ -2,6 +2,7 @@
 title: Health Assessment – Advanced
 description: The Health Assessment – Advanced Accelerator provides guidance to measure and improve your ServiceNow instance health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/health-assesment-advanced-total.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

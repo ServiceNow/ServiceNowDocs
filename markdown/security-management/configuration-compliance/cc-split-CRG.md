@@ -2,6 +2,7 @@
 title: Split a remediation task
 description: From an existing remediation task in the Configuration Compliance application, identify a subset of test results that you want to move to a new Remediation Task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-split-CRG.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -27,7 +28,7 @@ When you specify the conditions for the test results that you want to move to a 
 
 The following image illustrates the basic flow for splitting a remediation task. The detailed steps for this flow follow the image.
 
-![States for splitting a Remediation Task and move test results to another group](../image/CC-Split-CRG-01.png "Flow for splitting a remediation task")
+\[Omitted image "CC-Split-CRG-01.png"\] Alt text: States for splitting a Remediation Task and move test results to another group
 
 Use cases for splitting test results from existing Remediation Tasks into new tasks might include the following examples:
 
@@ -116,12 +117,12 @@ Use cases for splitting test results from existing Remediation Tasks into new ta
 
         **Note:** You can still manually move change requests and remediation tasks through the states of their life cycles on their respective records with state synchronization enabled, but when the system registers that a change request has changed its state, or you add a change request or remove it from a remediation task, state synchronization potentially can override your manual intervention. However, change requests states do not automatically move the remediation task from the `Closed` or `Deferred` states.
 
-        For more information, see [State synchronization between change requests and remediation tasks](cc-cr-state-synch.md).
+        For more information, see [State synchronization between change requests and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-cr-state-synch.md).
 
 
 ## What to do next
 
-You can create or associate change requests for your new remediation tasks. For more information, see [Associate a remediation task to an existing change request](cc-CR-v12-assoc.md) and [Create a change request in Configuration Compliance](cc-CR-v12-create.md).
+You can create or associate change requests for your new remediation tasks. For more information, see [Associate a remediation task to an existing change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-CR-v12-assoc.md) and [Create a change request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-CR-v12-create.md).
 
-**Parent Topic:**[Configuration Compliance remediation](../concept/vuln-config-compl-remediation.md)
+**Parent Topic:**[Configuration Compliance remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-remediation.md)
 

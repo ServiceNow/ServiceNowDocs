@@ -2,6 +2,7 @@
 title: Financial Management Level 1 Costing – Shared Services dashboard
 description: The Level 1 Costing – IT Shared Services dashboard provides an executive view into the total expenses consolidated for a quarter and year-to-date of top spenders. You can drill down to their business units or shared services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/financial-mgmt-level1-costing-shared-services.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -23,7 +24,7 @@ The dashboard gives visibility on the IT infrastructure cost, helps communicate 
 
 Level 1 Costing – Shared Services dashboard is a simple dashboard with a single view into all expenses. It is modeled on L1 Costing – Shared Services cost model. It provides two breakdowns that you can drill into to get specific cost information.
 
-![Screenshot showing Level 1 Costing - Shared Services dashboard.](../image/Level1CostingSharedServiceDashboard.png "Level 1 Costing – Shared Services dashboard")
+\[Omitted image "Level1CostingSharedServiceDashboard.png"\] Alt text: Screenshot showing Level 1 Costing - Shared Services dashboard.
 
 ## End user and roles
 
@@ -54,10 +55,10 @@ The Level 1 Costing – Shared Services dashboard includes the following visuali
 
 |Title|Type|Description|
 |-----|----|-----------|
-|IT Shared Service Cost with Drivers|Bar![Stacked bar report](../../../reuse/reporting/image/bar-stacked.svg)|Displays the amount that each account in the IT shared services receives from different buckets \(cost drivers\).|
-|Average Enterprise Cost per Workstation|Spline![Spline report](../../../reuse/reporting/image/spline.svg)|Displays the trend of average unit cost per workstation for the last four quarters.|
-|Average Enterprise Cost per CPU|Spline![Spline report](../../../reuse/reporting/image/spline.svg)|Displays the trend of average unit cost per CPU.|
-|Business Unit – IT Shared Service|Pivot![Pivot report](../../../reuse/reporting/image/pivot.svg)|Gives a tabular view of the amount spent by all the IT shared services within each business unit for the last four quarters.|
+|IT Shared Service Cost with Drivers|Bar\[Omitted image "bar-stacked.svg"\] Alt text: Stacked bar report|Displays the amount that each account in the IT shared services receives from different buckets \(cost drivers\).|
+|Average Enterprise Cost per Workstation|Spline\[Omitted image "spline.svg"\] Alt text: Spline report|Displays the trend of average unit cost per workstation for the last four quarters.|
+|Average Enterprise Cost per CPU|Spline\[Omitted image "spline.svg"\] Alt text: Spline report|Displays the trend of average unit cost per CPU.|
+|Business Unit – IT Shared Service|Pivot\[Omitted image "pivot.svg"\] Alt text: Pivot report|Gives a tabular view of the amount spent by all the IT shared services within each business unit for the last four quarters.|
 
-**Parent Topic:**[Financial Management Platform Analytics Solutions](financial-content-pack.md)
+**Parent Topic:**[Financial Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-content-pack.md)
 

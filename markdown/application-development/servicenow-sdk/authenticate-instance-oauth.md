@@ -2,6 +2,7 @@
 title: Authenticate to a ServiceNow instance using OAuth 2.0 with the ServiceNow SDK
 description: Use OAuth 2.0 authentication to connect to a ServiceNow instance with the ServiceNow SDK.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/servicenow-sdk/authenticate-instance-oauth.html
 release: xanadu
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -23,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](../reference/servicenow-sdk-cli-commands.md#).
+This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md).
 
 ## Procedure
 
@@ -93,7 +94,7 @@ The alias and credentials are stored in the device keychain or credential manage
 
 ## What to do next
 
-Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](../concept/creating-applications-servicenow-sdk.md).
+Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-sdk/creating-applications-servicenow-sdk.md).
 
-**Parent Topic:**[Authenticating to a ServiceNow instance with the ServiceNow SDK](../concept/authenticate-instance-now-sdk.md)
+**Parent Topic:**[Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-sdk/authenticate-instance-now-sdk.md)
 

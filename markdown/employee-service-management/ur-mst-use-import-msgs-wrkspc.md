@@ -2,7 +2,10 @@
 title: Import messages from Agent Workspace
 description: As an agent, import a conversation with a user from Microsoft Teams. Append the conversation in the activity stream of the record in the Agent Workspace. Store all important messages related to a universal request in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/ur-mst-use-import-msgs-wrkspc.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -75,5 +78,5 @@ Option to import messages into the record. Choices are as follows:-   **Addition
 8.  Click **Import messages**.
 
 
-**Parent Topic:**[Manage chat messages from the Agent Workspace](../concept/ur-mst-use-start-import-chat-aws.md)
+**Parent Topic:**[Manage chat messages from the Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ur-mst-use-start-import-chat-aws.md)
 

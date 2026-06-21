@@ -2,6 +2,7 @@
 title: Add an external content search source to Now Assist in Virtual Agent
 description: Include searchable content retrieved by an external content connector in your Now Assist in Virtual Agent conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/add-ext-cont-srch-src-na-va.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Include searchable content retrieved by an external content connector in your No
 
 ## Before you begin
 
-You must have already created at least one search source for the indexed source associated with the external content connector. For instructions on creating search sources, see [Create a search source for AI Search](create-search-source-ais.md).
+You must have already created at least one search source for the indexed source associated with the external content connector. For instructions on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-search-source-ais.md).
 
 Role required: ais\_admin
 
@@ -37,7 +38,7 @@ When linking a search source to the **Now Assist in VA** search profile, you can
 
 4.  On the Search Profile - Search Source Mapping form, fill in the fields.
 
-    For a description of the field values, see [Search Profile - Search Source Mapping form](../reference/search-prof-src-mapping-form-ais.md).
+    For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/search-prof-src-mapping-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -48,7 +49,7 @@ The new search source appears in the Search Sources related list. Now Assist in 
 
 ## What to do next
 
-Derived auto-correction term lists for the **Now Assist in VA** search profile's typo handling dictionary don't automatically update to reflect changes to the set of searchable records. To update these auto-correction term lists, publish the **Now Assist in VA** search profile. For details on publishing a search profile, see [Publish an AI Search search profile](publish-search-profile-ais.md).
+Derived auto-correction term lists for the **Now Assist in VA** search profile's typo handling dictionary don't automatically update to reflect changes to the set of searchable records. To update these auto-correction term lists, publish the **Now Assist in VA** search profile. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Configuring External Content Connectors](../concept/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configuring-ext-cont-connectors.md)
 

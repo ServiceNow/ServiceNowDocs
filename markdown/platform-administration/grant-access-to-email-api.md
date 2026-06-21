@@ -2,6 +2,7 @@
 title: Grant access to the Email API
 description: To grant non-admin users access to the Email API, administrators must create an access control and assign a special role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/grant-access-to-email-api.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-For additional details, see [Email API](https://www.servicenow.com/docs/access?context=email-api&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US) .
+For additional details, see Email API .
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Create a change request to Add or remove a member to Link Aggregation
 description: Created topic as per STRY55939345 - DOC1079350Create a change request to add or remove a member to the design assign link aggregation change request by using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-network-inventory/telecommunications-network-inventory/create-a-change-request-to-add-or-remove-member-to-link-aggregation.html
 release: xanadu
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -23,7 +24,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Changes** &gt; **All**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Changes** &gt; **All**.
 
 3.  Select the **New** button.
 
@@ -96,8 +97,8 @@ Interface Z of the selected LAG. Add or remove to modify the member interface Z 
     -   Adding an interface that belongs to an existing ENET connection, the system automatically links it to the existing ENET connection instead of creating an ENET.
 11. Create a change task for operationalization.
 
-    To learn more, see [Operationalize a configuration item](operationalize-a-configuration-item.md).
+    To learn more, see [Operationalize a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/operationalize-a-configuration-item.md).
 
 
-**Parent Topic:**[Create a change request by using the design assign link aggregation](create_a_change_request_by_using_the_design_assign_link_aggregation_group.md)
+**Parent Topic:**[Create a change request by using the design assign link aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_by_using_the_design_assign_link_aggregation_group.md)
 

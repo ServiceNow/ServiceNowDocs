@@ -2,6 +2,7 @@
 title: Integrate with a custom application or workflow
 description: Configure an integration to trigger document task processing or value extraction. Integrations can be used to quickly set up flows with other applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/configure-integration-setup.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -18,7 +19,7 @@ Configure an integration to trigger document task processing or value extraction
 ## Before you begin
 
 -   You must first add a target table to your use case before creating an integration.
--   The target table must be readable and writable. Ensure the **Can read** and **Can update** check boxes are selected in the **Application Access** tab of the target table record. For more information, see [Create a table](https://www.servicenow.com/docs/access?context=t_CreateATable&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+-   The target table must be readable and writable. Ensure the **Can read** and **Can update** check boxes are selected in the **Application Access** tab of the target table record. For more information, see .
 -   Role required: sn\_docintel.admin or sn\_docintel.manager
 
 ## About this task
@@ -41,7 +42,7 @@ Define integration points for your Document Intelligence solution. Two integrati
 
         If you have already defined one or more integrations and you want to add another, select **New integration**.
 
-        ![New integration button in the Integrations tab of a use case.](../image/integration-setupT3.png)
+        \[Omitted image "integration-setupT3.png"\] Alt text: New integration button in the Integrations tab of a use case.
 
     2.  For a document classification use case, go to the **Integration Setups** tab and select **New**.
 
@@ -155,17 +156,17 @@ Select this option to create a flow for this integration in Workflow Studio.
 
 The following images show two example integrations. The first image is a Process Task integration that triggers when a record needs review. The second image is an Extract Values integration that can automatically send extracted fields to the invoice table.
 
-![New integration record with conditions.](../image/configure-integrationT1.png "New Process Task integration")
+\[Omitted image "configure-integrationT1.png"\] Alt text: New integration record with conditions.
 
-![New integration record with Extracted Values selected.](../image/integration-setupT2.png "New Extract Values Integration")
+\[Omitted image "integration-setupT2.png"\] Alt text: New integration record with Extracted Values selected.
 
 ## What to do next
 
 If you selected to create a flow, finish the activation in Workflow Studio.
 
-![Document Intelligence integration in Workflow Studio.](../image/integratip-setupT4.png)
+\[Omitted image "integratip-setupT4.png"\] Alt text: Document Intelligence integration in Workflow Studio.
 
-For more information, see [Building flows in Flow Designer](https://www.servicenow.com/docs/access?context=flows&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+For more information, see Building flows in Flow Designer.
 
-**Parent Topic:**[Integrating Document Intelligence with other applications](../concept/integrating-docintel.md)
+**Parent Topic:**[Integrating Document Intelligence with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/integrating-docintel.md)
 

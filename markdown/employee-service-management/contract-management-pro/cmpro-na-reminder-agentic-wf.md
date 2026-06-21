@@ -2,6 +2,7 @@
 title: Manage contract repository agentic workflow
 description: Use the Manage contract repository agentic workflow to improve productivity by autonomously creating milestone reminders for the notice period of contract renewals or the notice period for termination of contract renewals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -19,15 +20,15 @@ Use the Manage contract repository agentic workflow to improve productivity by a
 
 **Important:**
 
--   To run the AI agents autonomously, activate business rules for the agentic workflow. For more information, see [Activate business rules for the Manage contract repository agentic workflow](../task/conf-repository-agentic-ai.md).
+-   To run the AI agents autonomously, activate business rules for the agentic workflow. For more information, see [Activate business rules for the Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/conf-repository-agentic-ai.md).
 
-    If you have customized the Manage contract repository agentic workflow, update the script include to run it autonomously. For more information, see [Update the contracts AI agents handler script include](../task/cmpro-script-includ-agenticAI.md).
+    If you have customized the Manage contract repository agentic workflow, update the script include to run it autonomously. For more information, see [Update the contracts AI agents handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.md).
 
--   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see .
 
 The Manage contract repository agentic workflow can help notify business owners or contract administrators about expiring contracts by automatically creating milestone reminders for the notice period of contract renewals or the notice period for termination of contract renewals. The agentic workflow uses AI agents to retrieve contract details such as the renewal notice period, termination notice period for renewals, or auto-renewal clause information, and determine the average lead time for similar contracts to create the milestone reminders.
 
-**Note:** If the renewal notice period and termination notice period are not available, it uses the default notice period. For more information, see [Set the default notice period for the Manage contract repository agentic workflow](../task/conf-sys-prop-default-np.md).
+**Note:** If the renewal notice period and termination notice period are not available, it uses the default notice period. For more information, see [Set the default notice period for the Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/conf-sys-prop-default-np.md).
 
 The agentic workflow for a non-self-served request is triggered when the following conditions are met:
 
@@ -52,7 +53,7 @@ Contract fulfillers and assignment group managers with the now\_assist\_panel\_u
 
 Role required: sn\_aia.admin
 
-If your generative AI service provider is not Now LLM Service, ensure that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://www.servicenow.com/docs/access?context=configuring-api-credentials-for-generative-ai-capabilities&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+If your generative AI service provider is not Now LLM Service, ensure that the API connections and credentials are configured. For more information, see .
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Set reminders for contract milestones**.

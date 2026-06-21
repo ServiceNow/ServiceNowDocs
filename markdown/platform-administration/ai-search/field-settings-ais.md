@@ -2,6 +2,7 @@
 title: Field settings for AI Search
 description: A field setting controls indexing behavior for a specified field \(column\) on all records from an indexed source.Define an indexed source field setting to configure AI Search content indexing behavior for a specific field on source table records.Configure an indexed source to index field values from tables referenced by fields in the source table. You can index these field values for use in filters and EVAM search result configurations, index them for search, or both.You can adjust indexing behavior for source record fields in an AI Search indexed source by configuring field setting attributes and values.When a user searches referenced table field values that you have indexed for search with the searchable\_dot\_walk\_fields field setting, only field values that the user can view appear in the search results. The system uses a field value's role-based access control list rules \(ACLs\) to determine whether the search user can view that field value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/field-settings-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -23,7 +24,7 @@ Examples of how you might use field settings include the following.
 
 An indexed source's field settings appear in its Field Settings &amp; Mapping related list.
 
-**Parent Topic:**[Indexed sources in AI Search](indexed-sources-ais.md)
+**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-sources-ais.md)
 
 ## Create a field setting for an AI Search indexed source
 
@@ -35,7 +36,7 @@ Role required: ais\_admin
 
 ### About this task
 
-For details on available field settings and values, see [List of AI Search indexed source field settings](field-settings-ais.md#).
+For details on available field settings and values, see [List of AI Search indexed source field settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/field-settings-ais.md).
 
 ### Procedure
 
@@ -45,7 +46,7 @@ For details on available field settings and values, see [List of AI Search index
 
 3.  In the Field Settings &amp; Mapping related list, select **New**.
 
-4.  On [the Field Setting form](../reference/field-setting-form-ais.md), fill in the fields.
+4.  On [the Field Setting form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/field-setting-form-ais.md), fill in the fields.
 
 5.  Select **Submit**.
 
@@ -56,7 +57,7 @@ The new field setting appears in the Field Settings &amp; Mapping related list.
 
 ### What to do next
 
-To make the new field setting take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+To make the new field setting take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 ## Enable indexing of referenced table fields for an AI Search indexed source
 
@@ -64,7 +65,7 @@ Configure an indexed source to index field values from tables referenced by fiel
 
 ### Before you begin
 
-You must have an indexed source configured for the source table. For details on creating an indexed source for a table, see [Create an indexed source](../task/create-indexed-source-ais.md).
+You must have an indexed source configured for the source table. For details on creating an indexed source for a table, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-indexed-source-ais.md).
 
 Role required: ais\_admin
 
@@ -89,7 +90,7 @@ You can create both **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** 
 
 2.  In the Field Settings &amp; Mapping related list, select **New**.
 
-3.  On [the Field Setting form](../reference/field-setting-form-ais.md), enter the field values shown for your use-case.
+3.  On [the Field Setting form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/field-setting-form-ais.md), enter the field values shown for your use-case.
 
     -   To index field values from referenced tables for use in search source filters, facet filters, and EVAM search result configurations, enter the following field values.
 
@@ -118,7 +119,7 @@ You can create both **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** 
 
 You can adjust indexing behavior for source record fields in an AI Search indexed source by configuring field setting attributes and values.
 
-For more information on creating field settings, see [Create a field setting for an AI Search indexed source](field-settings-ais.md#).
+For more information on creating field settings, see [Create a field setting for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/field-settings-ais.md).
 
 <table id="table_m5b_r3j_smb"><thead><tr><th>
 
@@ -136,7 +137,7 @@ dot\_walk\_fields
 
 Index reference and display values from fields on the selected reference field's source table for use in search source filters, facet filters, and EVAM search result configurations. AI Search automatically updates the indexed field values to reflect changes made to the referenced table's field values.
 
- For more information about search source filters, see [Search sources in AI Search](search-sources-ais.md). For details on facet filters, see [Create a facet in an AI Search application configuration](../task/create-facet-ais.md).
+ For more information about search source filters, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/search-sources-ais.md). For details on facet filters, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-facet-ais.md).
 
 -   Field: Name of the reference field on your indexed source table. As an example, if your indexed source table contains a **company** reference field that references the Company \[core\_company\] table, and you want to index field values from that table's **name** and **city** fields, you'd set `company` as the field.
 -   Type: string
@@ -144,7 +145,7 @@ Index reference and display values from fields on the selected reference field's
 
 **Note:** You can't search field values indexed with this field setting. To index field values from referenced tables for search, create a **searchable\_dot\_walk\_fields** field setting. You can create both **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** field settings for the same reference field.
 
- If you change the value of this setting for an indexed source's field, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this setting for an indexed source's field, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -160,7 +161,7 @@ Option to enable indexing of searchable content from calculated field values. If
     -   **true**: Apply special handling to correctly index calculated field values from the selected field.
     -   **false**: Don't apply special handling when indexing field values from the selected field. Calculated field values aren't indexed.
 
- If you change the value of this setting for an indexed source's field, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this setting for an indexed source's field, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -172,11 +173,11 @@ Map the selected field from the indexed source table to an AI Search index field
 
 -   Field: Name of a field from the indexed source table.
 -   Type: string
--   Value: Name of the AI Search field that you want to map the selected field's display values to. For details on AI Search index fields, see [AI Search index fields](../reference/index-fields-list-ais.md).
+-   Value: Name of the AI Search field that you want to map the selected field's display values to. For details on AI Search index fields, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-fields-list-ais.md).
 
 **Note:** You can only define one **map\_to** field setting for an indexed source field. If you try to define multiple **map\_to** settings for the same field, the system displays an error message.
 
- If you change the value of this setting for an indexed source's field, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this setting for an indexed source's field, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -191,9 +192,9 @@ Option to disable indexing of searchable content from the selected field on reco
     -   **false**: Enable searchable content indexing for the selected field. Search and filters can match the field's value. AI Search generates an index event when the field is updated, adding the affected record to its indexing queue.
 -   Default value: **false**
 
- If you change the value of this setting for an indexed source's field, the new value immediately affects index event generation for updates to that field, but it doesn't affect searches or filters for previously indexed records until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this setting for an indexed source's field, the new value immediately affects index event generation for updates to that field, but it doesn't affect searches or filters for previously indexed records until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
- **Warning:** Don't set this option to **true** for the sys\_updated\_on field on the Task \[task\] table, tables that extend Task, or any other tables that you've configured retention policies for. The retention policies for these tables rely on indexing of sys\_updated\_on field values. For more information on retention policies, see [Indexed source retention policies and filter conditions](retention-policies-conditions-ais.md).
+ **Warning:** Don't set this option to **true** for the sys\_updated\_on field on the Task \[task\] table, tables that extend Task, or any other tables that you've configured retention policies for. The retention policies for these tables rely on indexing of sys\_updated\_on field values. For more information on retention policies, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/retention-policies-conditions-ais.md).
 
 For Customer Service and Support guidelines on setting the **no\_text\_index** option for different field types, see [KB0859922](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0859922) on the Now Support site.
 
@@ -210,7 +211,7 @@ Option to disable search matching for content indexed from the selected field.- 
     -   **false**: Enable search matching for content indexed from the selected field. Search and filters can match the field's value.
 -   Default value: **false**
 
- If you change the value of this setting for an indexed source's field, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this setting for an indexed source's field, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr><tr><td>
 
@@ -218,7 +219,7 @@ searchable\_dot\_walk\_fields
 
 </td><td>
 
-Index reference and display values from fields on the selected reference field's source table as searchable text. AI Search doesn't automatically update the indexed field values to reflect changes made to the referenced table's field values. To update the indexed field values, you must reindex the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+Index reference and display values from fields on the selected reference field's source table as searchable text. AI Search doesn't automatically update the indexed field values to reflect changes made to the referenced table's field values. To update the indexed field values, you must reindex the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 -   Field: Name of the reference field on your indexed source table. As an example, if your indexed source table contains a **company** reference field that references the Company \[core\_company\] table, and you want to index searchable text from that table's **name** and **city** fields, you'd set `company` as the field.
 -   Type: string
@@ -226,14 +227,14 @@ Index reference and display values from fields on the selected reference field's
 
 **Note:** You can't use field values indexed with this field setting in search source filters. To index field values from referenced tables for use in search source filters, create a **dot\_walk\_fields** field setting. You can create both **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** field settings for the same reference field.
 
- If you change the value of this setting for an indexed source's field, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](../task/index-single-source-ais.md).
+ If you change the value of this setting for an indexed source's field, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-single-source-ais.md).
 
 </td></tr></tbody>
-</table>**Note:** Field settings are records on the AI Search Configuration Attribute \[ais\_configuration\_attribute\] table that have Column as their **Applies To** field value. Records on this table that have Table as their **Applies To** field value are [Indexed source attributes for AI Search](indexed-source-attributes-ais.md#).
+</table>**Note:** Field settings are records on the AI Search Configuration Attribute \[ais\_configuration\_attribute\] table that have Column as their **Applies To** field value. Records on this table that have Table as their **Applies To** field value are [Indexed source attributes for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-source-attributes-ais.md).
 
 This example shows how the base system's Catalog Item Table indexed source maps **short\_description** field values from the Catalog Item \[sc\_cat\_item\] table to the AI Search index's **text** field for indexed records.
 
-![AI Search Field Setting form showing source Catalog Item [sc_cat_item], attributemap_to, fieldshort_description, and valuetext.](../image/indexed-field-attr-example-map_to.png)
+\[Omitted image "indexed-field-attr-example-map\_to.png"\] Alt text: AI Search Field Setting form showing source Catalog Item \[sc\_cat\_item\], attributemap\_to, fieldshort\_description, and valuetext.
 
 ## Security for searchable referenced table field values in AI Search
 
@@ -245,5 +246,5 @@ For searchable field values indexed through multiple dot-walk reference levels, 
 
 To bypass all ACLs and allow users to search for all searchable referenced table field values, you can set the **glide.ais.query.allow\_indexlookup\_for\_dotwalk** system property to true. This bypasses ACL evaluation for field values indexed via the **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** field settings.
 
-For more details on ACL types and configuration, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more details on ACL types and configuration, see Access control list rules.
 

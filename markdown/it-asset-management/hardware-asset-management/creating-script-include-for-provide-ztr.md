@@ -2,6 +2,7 @@
 title: Create a Script Include to transform Scratchpad updates from the provider
 description: To transform Scratchpad updates sent by your provider into a format required for the Zero Touch request flow, you must have a Script Include with the method transformScratchPadToHAMZTRFormat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/creating-script-include-for-provide-ztr.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [Manage hardware asset requests using the Zero Touch request flow, U
 
 To transform Scratchpad updates sent by your provider into a format required for the Zero Touch request flow, you must have a Script Include with the method **transformScratchPadToHAMZTRFormat**.
 
-In the confirmation and shipment stages of the Zero Touch request flow, your provider should ideally send Scratchpad updates to your ServiceNow instance in a particular format. For details, see [Use the Scratchpad to complete your request fulfillment tasks](using-scratchpad-for-provider-updates.md). However, if your provider's Scratchpad update isn't in the required format, you can transform it by using a Script Include with the method **transformScratchPadToHAMZTRFormat**.
+In the confirmation and shipment stages of the Zero Touch request flow, your provider should ideally send Scratchpad updates to your ServiceNow instance in a particular format. For details, see [Use the Scratchpad to complete your request fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/using-scratchpad-for-provider-updates.md). However, if your provider's Scratchpad update isn't in the required format, you can transform it by using a Script Include with the method **transformScratchPadToHAMZTRFormat**.
 
 Consider the following points when you create the Script Include:
 

@@ -2,6 +2,7 @@
 title: Create a task for a legal matter
 description: Create a task in a legal matter or a phase of the matter that you or another user should perform to resolve the matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.html
 release: xanadu
 product: Legal Matter Management
 classification: legal-matter-management
@@ -27,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d500549e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d283196e105">
 
 Option
 
-</th><th align="left" id="d500549e108">
+</th><th align="left" id="d283196e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d500549e114">
+</th></tr></thead><tbody><tr><td id="d283196e114">
 
 **As an assignee**
 
@@ -51,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d500549e143">
+</td></tr><tr><td id="d283196e143">
 
 **As a collaborator**
 
@@ -106,12 +107,12 @@ The state of the legal matter updates to Work in Progress.
     -   If the matter type is set to Interview, then Interview Template component is visible in contextual sidebar.
     **Important:** To use interview templates, you must first install the Interview Templates plugin \(com.sn\_interview\_templates\) and enable the Requested RCA of Interview Templates for Legal Matter Management and Legal Counsel Center application scope.
 
-8.  [Add an artifact \(folder\)](add-artifact-to-legal-matter.md) in which you or the assigned user can upload files related to the task or its investigation.
+8.  [Add an artifact \(folder\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md) in which you or the assigned user can upload files related to the task or its investigation.
 
 
 ## Result
 
 A legal matter task is created and is listed in the matter's **Tasks** tab. If the task was added in a phase record, then the task is also listed in the phase's **Legal Matter Tasks** tab.
 
-**Tip:** If the new task doesn't appear in the list, click the refresh list button \(![Refresh list icon.](../image/refresh-list-icon.png)\).
+**Tip:** If the new task doesn't appear in the list, click the refresh list button \(\[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.\).
 

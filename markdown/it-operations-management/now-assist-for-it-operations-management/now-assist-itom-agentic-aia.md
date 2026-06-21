@@ -2,6 +2,7 @@
 title: Analyze alert impact agentic workflow
 description: Use the Analyze alert impact agentic workflow to investigate an alert and get the context that you need to respond efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-agentic-aia.html
 release: xanadu
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -25,7 +26,7 @@ The Analyze alert impact agentic workflow uses AI agents to interact with observ
 -   Identify ownership by surfacing relevant services and responsible teams.
 -   Support stakeholder communication with clear, actionable information.
 
-Use the information on this page to learn about the agents related to the Analyze alert impact agentic workflow. To modify the Analyze alert impact agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) and adjust the settings.
+Use the information on this page to learn about the agents related to the Analyze alert impact agentic workflow. To modify the Analyze alert impact agentic workflow, duplicate it and adjust the settings.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -42,7 +43,7 @@ The Analyze alert impact page lets you manage the agentic workflow, including de
 
 ## AI agents used in the Analyze alert impact agentic workflow
 
-The Analyze alert impact agentic workflow uses AIOps and observability AI agents to gather information from alerts and request insights. Only the observability AI agents require additional configuration. For more information, see [Configuring AI agents for Now Assist for ITOM](itom-ai-agent-configuration.md).
+The Analyze alert impact agentic workflow uses AIOps and observability AI agents to gather information from alerts and request insights. Only the observability AI agents require additional configuration. For more information, see [Configuring AI agents for Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md).
 
 **Important:** Before using the Analyze alert impact agentic workflow, activate its AI agents. In AI Agent Studio, find the AI agents in Create and manage, and turn on the AI agents in the Define key requirements screen.
 
@@ -68,17 +69,17 @@ In the agentic workflow record:
 3.  Test the agentic workflow by asking a question, for example, `What is the impact of Alert0010007?`
 4.  Select **Start test**.
 
-    **Example of an Analyze alert impact agentic workflow output in the ServiceNow AI Agent Studio**![Analyze alert impact output shows chat responses and visualizes the AI agents involved.](../image/Analyze-alert-updated-output.png)
+    **Example of an Analyze alert impact agentic workflow output in the ServiceNow AI Agent Studio**\[Omitted image "Analyze-alert-updated-output.png"\] Alt text: Analyze alert impact output shows chat responses and visualizes the AI agents involved.
 
 
-In the AI Agent Studio, you get notified when the analysis is generated. You can then act on the information or ask more questions about the alert. For more information about using the agentic workflow in the Now Assist panel, see [Use the Analyze alert impact agentic workflow](../task/now-assist-itom-use-aia.md).
+In the AI Agent Studio, you get notified when the analysis is generated. You can then act on the information or ask more questions about the alert. For more information about using the agentic workflow in the Now Assist panel, see [Use the Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md).
 
--   **[Use the Analyze alert impact agentic workflow](../task/now-assist-itom-use-aia.md)**  
+-   **[Use the Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md)**  
 Learn how to use the Analyze alert impact agentic workflow in the Now Assist panel. The agentic workflow helps you investigate an alert and get the context that you need to respond efficiently.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](now-assist-itom-ai-agent-workflows.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 
-**Previous topic:**[Triage and analyze alerts agentic workflow](itom-alert-triage-agentic-workflow.md)
+**Previous topic:**[Triage and analyze alerts agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/itom-alert-triage-agentic-workflow.md)
 
-**Next topic:**[Use the Analyze alert impact agentic workflow](../task/now-assist-itom-use-aia.md)
+**Next topic:**[Use the Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md)
 

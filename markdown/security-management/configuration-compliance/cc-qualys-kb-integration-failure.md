@@ -2,6 +2,7 @@
 title: Qualys Knowledge Base Integration is failing
 description: Resolve Qualys Knowledge Base Integration failure by reducing the payload attachment size received from Qualys to the specified limit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-qualys-kb-integration-failure.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -47,5 +48,5 @@ Role required: sn\_vul.vulnerability\_admin
 
 Running the Qualys Knowledge Base Backfill integration updates all the third-party entries \(TPEs\) in the system. While the Qualys Host Detection integration creates a placeholder entry, the Qualys Knowledge Base Backfill integration updates it.
 
-**Parent Topic:**[Resolving Qualys Vulnerability Integration issues](../concept/cc-qualys-troubleshooting.md)
+**Parent Topic:**[Resolving Qualys Vulnerability Integration issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-qualys-troubleshooting.md)
 

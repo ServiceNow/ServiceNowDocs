@@ -2,6 +2,7 @@
 title: Allocation metrics
 description: Allocation metrics contain additional instructions that the application uses to allocate expenses based on a weighted calculation or on a script. Allocation methods use metrics to perform the allocation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/c\_AllocationMetrics.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -24,16 +25,16 @@ Following are the types of metrics that are available:
 
 **Note:** When you use the workbench to assign expenses to accounts and segments, it creates all the rules, methods, conditions, and so on automatically. Using the workbench is the preferred method of setting up allocations, rather than using lists and forms.
 
-Starting with the Geneva release, [fiscal periods](../task/t_ViewFiscalPeriods.md) are supported in metrics.
+Starting with the Geneva release, [fiscal periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_ViewFiscalPeriods.md) are supported in metrics.
 
--   **[View, modify, and validate fiscal periods](../task/t_ViewFiscalPeriods.md)**  
+-   **[View, modify, and validate fiscal periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_ViewFiscalPeriods.md)**  
 After you generate a fiscal calendar, you can view fiscal period records, modify the start and end date, deactivate a fiscal period if necessary, and validate.
--   **[Create weighted allocation metrics](../task/t_CreateWeightedAllocationMetrics.md)**  
+-   **[Create weighted allocation metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_CreateWeightedAllocationMetrics.md)**  
 You can create weighted metrics using an enhanced form or a standard form.
--   **[Preview weight map](../task/preview-weight-map.md)**  
+-   **[Preview weight map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/preview-weight-map.md)**  
 You can preview a weight map to give you visibility of the generated metric weight map because it displays the accounts for the selected metric and the selected fiscal period with the percentage split for each account.
--   **[Create scripted allocation metrics](../task/t_CreateScriptedAllocationMetrics.md)**  
+-   **[Create scripted allocation metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_CreateScriptedAllocationMetrics.md)**  
 You can create scripted metrics and methods using the standard Cost Allocation Metric form.
 
-**Parent Topic:**[Financial Modeling](cost-transparency-setup.md)
+**Parent Topic:**[Financial Modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/cost-transparency-setup.md)
 

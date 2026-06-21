@@ -2,6 +2,7 @@
 title: NTLM authentication
 description: NTLM is the most complex of the authentication protocols supported by a basic web server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_NTLMAuthentication.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -93,5 +94,5 @@ Specify the domain used to authenticate the proxy server with NTLM authenticatio
 DOMAIN
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Web proxy](../concept/c_WebProxy.md)
+</table>**Parent Topic:**[Web proxy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WebProxy.md)
 

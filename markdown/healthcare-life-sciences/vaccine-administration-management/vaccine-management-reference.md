@@ -2,6 +2,7 @@
 title: Vaccine Administration Management reference
 description: Reference topics provide additional information about Vaccine Administration Management features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/healthcare-life-sciences/vaccine-administration-management/vaccine-management-reference.html
 release: xanadu
 product: Vaccine Administration Management
 classification: vaccine-administration-management

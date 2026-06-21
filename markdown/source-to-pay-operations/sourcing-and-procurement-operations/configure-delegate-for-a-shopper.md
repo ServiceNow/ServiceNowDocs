@@ -2,6 +2,7 @@
 title: Configure delegate for a shopper
 description: Configure your employees as delegates to shop on behalf of someone else. For these employees, the Shopping as option is available on the Shopping Hub homepage to shop as a delegate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/configure-delegate-for-a-shopper.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -119,5 +120,5 @@ Indicates if the user can receive meeting invitations.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up primary data for Shopping Hub](../reference/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

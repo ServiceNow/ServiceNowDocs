@@ -2,6 +2,7 @@
 title: Transform maps
 description: Transform maps specify data relationships between source table and target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/transform-maps-navex.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

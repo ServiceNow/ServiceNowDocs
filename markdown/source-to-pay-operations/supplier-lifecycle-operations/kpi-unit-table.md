@@ -2,6 +2,7 @@
 title: Unit table
 description: The Unit \[sn\_kpi\_unit\] table stores the information about the units created for KPIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/kpi-unit-table.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -29,5 +30,5 @@ The Unit \[sn\_kpi\_unit\] table contains the following fields.
 |Format|String|Format in which the value is displayed.|
 |Domain|Choice|Category under which the unit is listed.|
 
-**Parent Topic:**[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](primary-data-tables-srpm.md)
+**Parent Topic:**[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/primary-data-tables-srpm.md)
 

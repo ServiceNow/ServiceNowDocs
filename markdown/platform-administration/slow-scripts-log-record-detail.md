@@ -2,6 +2,7 @@
 title: Slow scripts log record detail
 description: As an administrator, you can use Slow Scripts logs to gain insight into how events are affecting platform performance. To aid in debugging, you can filter a slow script log by application scope, limiting scripts to only those scripts originating in specific scopes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/slow-scripts-log-record-detail.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"

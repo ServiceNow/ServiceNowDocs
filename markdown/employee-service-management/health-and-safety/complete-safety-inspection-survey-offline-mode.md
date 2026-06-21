@@ -2,6 +2,7 @@
 title: Complete a safety inspection or audit survey in the offline mode
 description: Complete a safety inspection or audit survey assigned to you in the offline mode-without an internet connection- through the Mobile Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety/complete-safety-inspection-survey-offline-mode.html
 release: xanadu
 product: Health and Safety
 classification: health-and-safety
@@ -19,8 +20,8 @@ Complete a safety inspection or audit survey assigned to you in the offline mode
 
 Verify the following conditions:
 
--   The system properties for the offline mode behavior of the mobile application are configured. For more information, see [Configure offline mode behavior](https://www.servicenow.com/docs/access?context=sg-configure-offline-mode&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US).
--   The offline mode for the Mobile Agent app on your mobile device is turned on. For more information, see [Offline mode for mobile](../concept/hs-health-safety-mobile.md#section_hs_mobile_offline_mode).
+-   The system properties for the offline mode behavior of the mobile application are configured. For more information, see .
+-   The offline mode for the Mobile Agent app on your mobile device is turned on. For more information, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/hs-health-safety-mobile.md).
 -   The **glide.sg.offline.scheduled\_download.enabled** system property for scheduled offline caching is set. If the property is not set, manually update cache before you go offline. To update cache, navigate to **Settings** and tap **Update Cache**. This ensures that the survey is downloaded and it's ready for you to complete.
 
 Role required: none
@@ -29,7 +30,7 @@ Role required: none
 
 Surveys completed offline are synchronized once an internet connection is established.
 
-For more information on how offline mode works in the mobile app, see [Offline mode for mobile](https://www.servicenow.com/docs/access?context=offline-end-user&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US).
+For more information on how offline mode works in the mobile app, see .
 
 ## Procedure
 
@@ -48,5 +49,5 @@ For more information on how offline mode works in the mobile app, see [Offline m
 6.  Tap **Submit**.
 
 
-**Parent Topic:**[Mobile experience for Health and Safety](../concept/hs-health-safety-mobile.md)
+**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 
