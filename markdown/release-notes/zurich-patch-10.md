@@ -30,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 ## Overview
 
-Zurich Patch 10 includes 356 problem fixes in various categories. The chart previous shows the top 10 problem categories included in this patch.
+Zurich Patch 10 includes 357 problem fixes in various categories. The chart previous shows the top 10 problem categories included in this patch.
 
 \[Omitted image "prb-chart-zp10.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
@@ -3794,6 +3794,33 @@ A new desktop notification should appear on every work item assignment.
 </td><td>
 
  
+
+</td></tr><tr><td>
+
+Now Assist in AI Search
+
+ PRB1920760
+
+</td><td>
+
+GenAI log IDs are not returned for Now Assist Genius Results
+
+</td><td>
+
+This issue occurs in Virtual Agent, portal, Now Assist Actions, Now Assist Q&amp;A, Synthesized Response, or anywhere a Now Assist Genius Result \(GR\) can be returned. Feedback is not logged even though there should be a value after the user selects the **Thumbs up** icon or **Thumbs down** icon on the Genius Result \(GR\).
+
+</td><td>
+
+1.  Open Virtual Agent.
+2.  Perform a search that returns at least one Now Assist Genius Result \(GR\).
+3.  Select the **Thumbs up** icon or the **Thumbs down** icon on the GR.
+4.  Run the background job to process queued signals.
+5.  Open the sys\_generative\_ai\_log table.
+6.  Inspect the **Feedback** field for the transactions relevant to the Genius Result the user provided feedback on.
+
+ Expected behavior: There should be a value such as 'Rejected' for negative feedback or 'Accepted' for positive feedback.
+
+ Actual behavior: The feedback is not logged.
 
 </td></tr><tr><td>
 

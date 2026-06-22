@@ -54,6 +54,22 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
+[Zurich Patch 10 Hotfix 1](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3104098)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/20
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
 [Zurich Patch 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-10.md)
 
  [Zurich Patch 10 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3046592)
@@ -65,6 +81,22 @@ Patch
 </td><td>
 
 2026/06/16
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 9 Hotfix 3](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3101238)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/19
 
 </td><td>
 
@@ -100,7 +132,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
