@@ -1,18 +1,18 @@
 ---
-title: June 11 2026 Now Assist Suite release notes
-description: Now Assist Suite version and compatibility information for the June 11 2026 release on the ServiceNow Store.
+title: June 16 2026 Now Assist Suite release notes
+description: Now Assist Suite version and compatibility information for the June 16 2026 release on the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/store-release-notes/na-suite-rn-2026-06-11.html
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/na-suite-rn-2026-06-16.html
 release: store
 topic_type: reference
 last_updated: "2026-06-11"
-reading_time_minutes: 298
+reading_time_minutes: 299
 breadcrumb: [Now Assist Suite - June 2026 release notes, Now Assist Suite release notes]
 ---
 
-# June 11 2026 Now Assist Suite release notes
+# June 16 2026 Now Assist Suite release notes
 
-Now Assist Suite version and compatibility information for the June 11 2026 release on the ServiceNow Store.
+Now Assist Suite version and compatibility information for the June 16 2026 release on the ServiceNow Store.
 
 Note: Now Assist Suite versions are cumulative. For app version updates that have been carried forward from previous releases, refer to the release notes page for the application's "Last updated" date or the ServiceNow Store app listing. See [Now Assist suite versions in the Application Manager](https://www.servicenow.com/docs/r/platform-administration/application-manager/now-assist-suites-app-mgr.html) for more details.
 
@@ -112,7 +112,7 @@ AI Agents for ITAM
 
 With the Now Assist for Hardware Asset Management \(HAM\) application, Hardware Asset Managers can streamline and automate the process of sourcing hardware assets by using AI agents included in the agentic workflow. The Now Assist for Hardware Asset Management \(HAM\) application contains agentic workflows to automate the sourcing, transfer, and procurement of assets upon request.
 
--   Role masking in AI Agent Studio to execute agentic workflows, AI agents, and tools.
+ -   Role masking in AI Agent Studio to execute agentic workflows, AI agents, and tools.
 -   New security configuration pages in AI Agent Studio.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 -   Run and review agentic workflow executions on forms in the Core UI and workspaces.
@@ -202,7 +202,7 @@ AIOps LEAP
 
 December 2025 Release updates -
 
--   LLM Models:Supporting Now-LLM LTS as a fifth model provider \(built with GPT-OSS and Apriel models\)
+ -   LLM Models:Supporting Now-LLM LTS as a fifth model provider \(built with GPT-OSS and Apriel models\)
 -   Platform mandated component updates
 -   Quality and stability improvements
 
@@ -270,11 +270,11 @@ ATF troubleshooting agent
 
 See RCA and steps to fix your failed ATF test
 
-Changed: none
+ Changed: none
 
-Fixed: none
+ Fixed: none
 
-Removed: none
+ Removed: none
 
 </td></tr><tr><td>
 
@@ -288,7 +288,7 @@ Catalog Conversational Coverage
 
 New
 
-Included tailored recommendations to help you improve your catalog items for the conversational channel, making it easier for you to identify areas that need enhancement.
+ Included tailored recommendations to help you improve your catalog items for the conversational channel, making it easier for you to identify areas that need enhancement.
 
 </td></tr><tr><td>
 
@@ -334,7 +334,7 @@ Complaint Case AI Agents collection
 
 Enhancements and defects fixed:
 
-1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
+ 1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
 2.  Complaint Case Intake Agent
     -   Added the hyperlink to the complaint case number.
     -   Prompt enhancements on location and products
@@ -403,7 +403,7 @@ Customer Service Management AI agent collection
 
 NewCustomer 360 is an AI-powered assistant for the human agent that answers natural language questions about customers, cases, products, and interactions. This feature helps agents quickly access critical information and resolve cases.
 
-Changed: Role configuration is required for Agentic workflows and AI agents.
+ Changed: Role configuration is required for Agentic workflows and AI agents.
 
 </td></tr><tr><td>
 
@@ -544,11 +544,11 @@ HR Talent AI Agent Collection
 
 Whats New The Employee feedback collection AI Agent streamlines the process of gathering employee feedback, ensuring managers receive timely, structured, and actionable input. Persona: ManagerThe agent:
 
--   Suggests relevant collaborators of the employee using data from Employee Profile, Talent Development apps, and optional Microsoft Graph interaction insights \(using the Microsoft Exchange Online spoke\)
+ -   Suggests relevant collaborators of the employee using data from Employee Profile, Talent Development apps, and optional Microsoft Graph interaction insights \(using the Microsoft Exchange Online spoke\)
 -   Sends requests as EC To-Dos for the feedback providers and sends automated reminders
 -   Consolidates all feedback responses into a single view for easier evaluation
 
-Updates
+ Updates
 
 </td></tr><tr><td>
 
@@ -656,7 +656,7 @@ Manage Order Operations
 
 Initial Release:
 
--   Automate the process of creating order cases on the Business Portal.
+ -   Automate the process of creating order cases on the Business Portal.
 -   Retrieve customer inputs in text or voice format, classify intent, and route them to the Virtual Agent for action.
 -   Identify the earliest possible delivery date for expedited product delivery on a specific customer order.
 -   Create an order case autonomously based on the inputs on the Now Assist panel.
@@ -894,7 +894,7 @@ Now Assist for Hardware Asset Management
 
 In this release, users with the procurement\_user role can access the Help manage hardware asset requests agentic workflow including the following AI agents:
 
--   Hardware asset management sourcing AI agent
+ -   Hardware asset management sourcing AI agent
 -   Transfer order creation AI agent
 -   Purchase order creation AI agent
 -   Hardware asset repair process \(patch\)
@@ -911,13 +911,13 @@ Now Assist for HR Service Delivery \(HRSD\)
 
 New / enhancements- The case summarization skill is enabled for the attachment summaries
 
-- The resolution notes skill is enabled with NACM for the shortening/elaborating resolution notes summary
+ - The resolution notes skill is enabled with NACM for the shortening/elaborating resolution notes summary
 
-- On the Agent Workspace application, the resolution notes skill is enabled to auto-populate Close notes field
+ - On the Agent Workspace application, the resolution notes skill is enabled to auto-populate Close notes field
 
-Changed:
+ Changed:
 
-- Enhanced security features revisit the ACL roles and access;Support to GPT OSS model
+ - Enhanced security features revisit the ACL roles and access;Support to GPT OSS model
 
 </td></tr><tr><td>
 
@@ -931,16 +931,16 @@ Now Assist for Impact
 
 Consumption Report summary
 
--   Produces an insightful, human-readable summary which highlights key business objectives with active and completed initiatives and accelerators.
+ -   Produces an insightful, human-readable summary which highlights key business objectives with active and completed initiatives and accelerators.
 -   The summary flags any concerning trends in severity \(P1/P2 dominance\).
 -   It also reviews premium seat utilization and provides recommendations.
 -   Ability to provide Feedback for the summary
 -   Ability to refresh the summary
 -   Ability to Copy summary
 
-Code Fix AI agent
+ Code Fix AI agent
 
--   Eliminates technical debt backlog by deploying an embedded AI agent within the script editor that identifies issues in real-time and generates intelligent code fixes through Now Assist integration.\_
+ -   Eliminates technical debt backlog by deploying an embedded AI agent within the script editor that identifies issues in real-time and generates intelligent code fixes through Now Assist integration.\_
 -   Removes specialized expertise barriers by enabling developers to interact conversationally with the AI agent for code modifications and apply or reject suggested fixes with feedback mechanisms.\_
 -   Maintains development velocity by allowing immediate technical debt resolution within existing workflows without context switching or requiring specialized knowledge.
 
@@ -956,39 +956,39 @@ Now Assist for IRM
 
 \[New\]
 
-Issue submission agent:
+ Issue submission agent:
 
-The Issue Submission agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. The agent helps structure the issue and recommends relevant controls, entities, and policies based on the input provided. This ensures that the issue is well-defined and enriched with contextual information before it is submitted.
+ The Issue Submission agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. The agent helps structure the issue and recommends relevant controls, entities, and policies based on the input provided. This ensures that the issue is well-defined and enriched with contextual information before it is submitted.
 
-Check product documentation for activation details.
+ Check product documentation for activation details.
 
-Suggest potential risks agentic workflow
+ Suggest potential risks agentic workflow
 
--   AI-driven risk identification Conversational AI automatically analyzes entity context and surfaces relevant risks from internal libraries, industry patterns, and optional external sources.
+ -   AI-driven risk identification Conversational AI automatically analyzes entity context and surfaces relevant risks from internal libraries, industry patterns, and optional external sources.
 -   Consolidated risk view Generates a single, ready-to-triage risk list, reducing manual effort and duplication while ensuring comprehensive coverage.
 -   Guided user experience Embedded in the Now Assist Panel, the workflow provides step-by-step guidance for risk domain selection, simplifying complex risk discovery.
 -   Proactive intelligence for emerging risks External scanning capabilities deliver early warnings of new threats, helping organizations stay ahead of evolving regulations and trends.
 
-Control objective impact analyzer:
+ Control objective impact analyzer:
 
-The citation-driven impacted control objective identifier uses generative AI to analyze changes in citations and identify control objectives that should be reviewed based on the modified citation content. It intelligently matches changed citation requirements with existing COs to suggest potential updates, helping teams maintain alignment between citations and control objectives.
+ The citation-driven impacted control objective identifier uses generative AI to analyze changes in citations and identify control objectives that should be reviewed based on the modified citation content. It intelligently matches changed citation requirements with existing COs to suggest potential updates, helping teams maintain alignment between citations and control objectives.
 
-Control objective change agent:
+ Control objective change agent:
 
-This introduces an AI-driven capability to automatically update a control objective's description and supplemental guidance whenever its associated citations are modified. Leveraging agentic AI, the enhancement analyzes the changes in citation content, identifies their impact on the control objective, and generates precise, contextually relevant updates. Users can review and approve AI-suggested changes directly within the workflow, ensuring that control objectives always reflect the most current regulatory requirements and best practices.
+ This introduces an AI-driven capability to automatically update a control objective's description and supplemental guidance whenever its associated citations are modified. Leveraging agentic AI, the enhancement analyzes the changes in citation content, identifies their impact on the control objective, and generates precise, contextually relevant updates. Users can review and approve AI-suggested changes directly within the workflow, ensuring that control objectives always reflect the most current regulatory requirements and best practices.
 
-\[Changed\]
+ \[Changed\]
 
--   Removed the issue summarization step from the issue resolution agentic workflow as part of performance improvements.
+ -   Removed the issue summarization step from the issue resolution agentic workflow as part of performance improvements.
 -   Added support for LTS models for previously released Now Assist IRM skills.
 -   Enhanced security by implementing role masking.
 -   Rationalization process now auto-generates recommendations using the skill when the Rationalize button is clicked on a control objective.
 -   Added a quick summary view for each recommendation card and clarified task sequence during the analyze step of the rationalization process.
 -   Control objective requirements and control requirements are now considered in the rationalization process for control objectives.
 
-\[Fixed\]
+ \[Fixed\]
 
--   Implemented a fix to skip redundant approvals in the rationalization process.
+ -   Implemented a fix to skip redundant approvals in the rationalization process.
 -   Resolved issues related to synchronizing impacted items and automatic refreshes.
 
 </td></tr><tr><td>
@@ -1016,7 +1016,7 @@ Now Assist for IT Service Management \(ITSM\)
 
 See the Now Assist for IT Service Management \(ITSM\) release notes for more information.
 
--   New -
+ -   New -
     -   Editing the incident summarization skill prompts and inputs using the Now Assist Skill Kit
     -   Expanding attachment summarization capabilities to include additional document formats and language
     -   Creating a knowledge article in any incident state
@@ -1102,9 +1102,9 @@ Now Assist for Public Sector Digital Services \(PSDS\)
 
 Now LLM LTS Support
 
-Java 21 Compliant
+ Java 21 Compliant
 
-Security Directive Compliance
+ Security Directive Compliance
 
 </td></tr><tr><td>
 
@@ -1182,7 +1182,7 @@ Now Assist for Strategic Portfolio Management \(SPM\)
 
 Enhanced
 
--   Project Insights Generation- Automatically track critical project signals such as delayed milestones, resource constraints, and task slippages and receive proactive insights either on a scheduled cadence or on-demand
+ -   Project Insights Generation- Automatically track critical project signals such as delayed milestones, resource constraints, and task slippages and receive proactive insights either on a scheduled cadence or on-demand
 -   Agile story generation - Convert epics into high-quality, actionable user stories faster and more intelligently through an improved, agentic, context-aware flow
 -   New
     -   Acceptance criteria generation - Produce clear, consistent, and context-aware acceptance criteria using predefined templates and story-specific information
@@ -1308,9 +1308,9 @@ Now Assist in Knowledge Management
 
 1. Knowledge Gaps
 
-2. Article optimization
+ 2. Article optimization
 
-3. Create/update article using custom instructions
+ 3. Create/update article using custom instructions
 
 </td></tr><tr><td>
 
@@ -1382,7 +1382,7 @@ Public Sector Digital Services AI Agent Collection
 
 Made app compliant with December security directives
 
-NowLLM LTS Support
+ NowLLM LTS Support
 
 </td></tr><tr><td>
 
@@ -1413,7 +1413,7 @@ RSM AI agent collection
 
 The Store Inquiry AI agent enables retail HQ teams by:
 
--   Searching intelligently across knowledge base articles, past cases, and attached documents to provide clear, policy-compliant responses.
+ -   Searching intelligently across knowledge base articles, past cases, and attached documents to provide clear, policy-compliant responses.
 -   Providing AI-generated resolution steps and prompting agents to accept, edit, or reject the suggestions to reduce manual effort and speed up decision-making.
 -   Learning continuously from resolved queries to offer more accurate and relevant suggestions over time.
 
@@ -1527,7 +1527,7 @@ Voice input for Now Assist
 
 Defects fixed:
 
-1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
+ 1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
 2.  Fixed the issue where now-voice-input can be disabled when needed.
 
 </td></tr></tbody>
@@ -1698,6 +1698,8 @@ Defects fixed:
 
 ## Suite version 29.1.20260611 - Australia Patch 1
 
+**Note:** These versions have been withdrawn. See [June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md) for the June release versions.
+
 <table><thead><tr><th>
 
 App name
@@ -1772,11 +1774,11 @@ ATF troubleshooting agent
 
 See RCA and steps to fix your failed ATF test
 
-Changed: none
+ Changed: none
 
-Fixed: none
+ Fixed: none
 
-Removed: none
+ Removed: none
 
 </td></tr><tr><td>
 
@@ -1790,7 +1792,7 @@ Complaint Case AI Agents collection
 
 Enhancements and defects fixed:
 
-1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
+ 1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
 2.  Complaint Case Intake Agent
     -   Added the hyperlink to the complaint case number.
     -   Prompt enhancements on location and products
@@ -1935,7 +1937,7 @@ Now Assist for Digital End-user Experience \(DEX\)
 
 \* Changed
 
-- Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
+ - Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
 
 </td></tr><tr><td>
 
@@ -2034,7 +2036,7 @@ Now Assist for Vulnerability Response
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -2176,7 +2178,7 @@ Unified Security Exposure Management \(USEM\) - Advanced
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -2202,7 +2204,7 @@ Unified Security Exposure Management \(USEM\) - Prime
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -2216,7 +2218,7 @@ Voice input for Now Assist
 
 Defects fixed:
 
-1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
+ 1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
 2.  Fixed the issue where now-voice-input can be disabled when needed.
 
 </td></tr></tbody>
@@ -2557,6 +2559,8 @@ Defects fixed:
 
 ## Suite version 29.2.20260611 - Australia Patch 2
 
+**Note:** These versions have been withdrawn. See [June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md) for the June release versions.
+
 <table><thead><tr><th>
 
 App name
@@ -2631,11 +2635,11 @@ ATF troubleshooting agent
 
 See RCA and steps to fix your failed ATF test
 
-Changed: none
+ Changed: none
 
-Fixed: none
+ Fixed: none
 
-Removed: none
+ Removed: none
 
 </td></tr><tr><td>
 
@@ -2649,7 +2653,7 @@ Common AI Framework
 
 New:
 
-AI Framework that autonomously discovers schema, samples, and aggregates live ServiceNow tables, and presents a sourced answer without modifying any data.
+ AI Framework that autonomously discovers schema, samples, and aggregates live ServiceNow tables, and presents a sourced answer without modifying any data.
 
 </td></tr><tr><td>
 
@@ -2663,7 +2667,7 @@ Complaint Case AI Agents collection
 
 Enhancements and defects fixed:
 
-1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
+ 1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
 2.  Complaint Case Intake Agent
     -   Added the hyperlink to the complaint case number.
     -   Prompt enhancements on location and products
@@ -2697,7 +2701,7 @@ Dynamic Guidance
 
 Fixed:
 
-Updated the version for ServiceNow Docs Connector to fix dependency failures
+ Updated the version for ServiceNow Docs Connector to fix dependency failures
 
 </td></tr><tr><td>
 
@@ -2759,7 +2763,7 @@ Now Assist for Digital End-user Experience \(DEX\)
 
 \* Changed
 
-- Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
+ - Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
 
 </td></tr><tr><td>
 
@@ -2845,7 +2849,7 @@ Now Assist for Vulnerability Response
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -2946,7 +2950,7 @@ Unified Security Exposure Management \(USEM\) - Advanced
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -2972,7 +2976,7 @@ Unified Security Exposure Management \(USEM\) - Prime
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -2998,7 +3002,7 @@ Voice input for Now Assist
 
 Defects fixed:
 
-1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
+ 1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
 2.  Fixed the issue where now-voice-input can be disabled when needed.
 
 </td></tr></tbody>
@@ -3346,6 +3350,8 @@ Defects fixed:
 
 ## Suite version 29.3.20260611 - Australia Patch 3
 
+**Note:** These versions have been withdrawn. See [June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md) for the June release versions.
+
 <table><thead><tr><th>
 
 App name
@@ -3417,7 +3423,7 @@ AI Agent Advisor
     -   Resolved a defect causing opportunity ranking to display in reverse order.
     -   Resolved an issue where asset counts did not match across the UI.
 
-Removed
+ Removed
 
 </td></tr><tr><td>
 
@@ -3446,9 +3452,9 @@ AI Agents for Customer Success Management
 
 Mosaic migration done for couple of Skills
 
-Product Release Content Generator
+ Product Release Content Generator
 
-Renewal Insight Engine
+ Renewal Insight Engine
 
 </td></tr><tr><td>
 
@@ -3462,7 +3468,7 @@ AI Agents for Discovery
 
 New:
 
-AI Agent that investigates the missing attribute brought in through Pattern based discovery, finding affected CIs and links errors to standard error codes.
+ AI Agent that investigates the missing attribute brought in through Pattern based discovery, finding affected CIs and links errors to standard error codes.
 
 </td></tr><tr><td>
 
@@ -3500,7 +3506,7 @@ AI Agents for ITAM
 
 In this version, the following enhancements have been made:
 
--   Security and access control management have been enhanced with simplified installation and automatic configuration handling.
+ -   Security and access control management have been enhanced with simplified installation and automatic configuration handling.
 -   Stockroom locations no longer appear for software requests.
 -   The Orchestrator now displays human-readable output in work notes.
 -   Document extraction now works seamlessly with improved field configuration.
@@ -3520,9 +3526,9 @@ AI agents for Observability
     -   Updated the Analyze alert impact agentic workflow to route all alert investigation through a single SRE Investigate AI Agent, delivering consistent behavior across all supported backends and simplifying the path for adding new vendor agents.
     -   Migrated New Relic and Datadog integrations to Model Context Protocol \(MCP\) agents, standardizing on vendor-maintained tool surfaces so the investigation workflows stay current as vendors ship updates.
 
-Deprecated
+ Deprecated
 
-Deprecated the Dynatrace Analysis AI Agent, superseded by the Dynatrace MCP Server Agent.
+ Deprecated the Dynatrace Analysis AI Agent, superseded by the Dynatrace MCP Server Agent.
 
 </td></tr><tr><td>
 
@@ -3536,27 +3542,27 @@ AI Agents for Service Exchange Provider
 
 Connections tab in the Service Exchange Center
 
-Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
+ Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
 
-Improved consumer registration and onboarding
+ Improved consumer registration and onboarding
 
-Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
+ Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
 
-Improved FDS capabilities
+ Improved FDS capabilities
 
--   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
+ -   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
 -   Reduce data inconsistencies by maintaining sys IDs for CMDB data and dependent relationships through transform maps.
 -   Ensure CI functionality is preserved on the destination instance by choosing to automatically create CI dependency relationships when relationship data is received from the source.
 -   Improved compliance through restricted data sync from non production instances to production instances for CMDB tables.
 
-Journal Field Framework enhancements
+ Journal Field Framework enhancements
 
--   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
+ -   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
 -   Configure journal fields such of type journal\_input fields alongside journal type, ensuring all journal entries are preserved during synchronization without requiring custom scripting
 
-Group-based persona assignments for Remote Catalog
+ Group-based persona assignments for Remote Catalog
 
-Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
+ Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
 
 </td></tr><tr><td>
 
@@ -3693,7 +3699,7 @@ AI Experience Framework Skills
 
 New features for June Release:
 
--   Improved error handling and internationalization \(i18n\) support
+ -   Improved error handling and internationalization \(i18n\) support
 -   Added streaming capabilities for real-time data processing
 -   Resolved critical defects and stability issues
 -   Extended support for additional widget property types
@@ -3883,11 +3889,11 @@ ATF troubleshooting agent
 
 See RCA and steps to fix your failed ATF test
 
-Changed: none
+ Changed: none
 
-Fixed: none
+ Fixed: none
 
-Removed: none
+ Removed: none
 
 </td></tr><tr><td>
 
@@ -3919,7 +3925,7 @@ Business Continuity Management Advanced
 
 1. AI Agents and skills
 
-2. Business Continuity management features for impact analysis, business continuity plans, crisis management, and crisis map.
+ 2. Business Continuity management features for impact analysis, business continuity plans, crisis management, and crisis map.
 
 </td></tr><tr><td>
 
@@ -3933,7 +3939,7 @@ Business Continuity Management Foundation
 
 1. AI Agents and skills
 
-2. Business Continuity management features for impact analysis, business continuity plans, and crisis management.
+ 2. Business Continuity management features for impact analysis, business continuity plans, and crisis management.
 
 </td></tr><tr><td>
 
@@ -3986,7 +3992,7 @@ Common AI Framework
 
 New:
 
-AI Framework that autonomously discovers schema, samples, and aggregates live ServiceNow tables, and presents a sourced answer without modifying any data.
+ AI Framework that autonomously discovers schema, samples, and aggregates live ServiceNow tables, and presents a sourced answer without modifying any data.
 
 </td></tr><tr><td>
 
@@ -4000,7 +4006,7 @@ Complaint Case AI Agents collection
 
 Enhancements and defects fixed:
 
-1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
+ 1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
 2.  Complaint Case Intake Agent
     -   Added the hyperlink to the complaint case number.
     -   Prompt enhancements on location and products
@@ -4509,7 +4515,7 @@ Dynamic Guidance
 
 Fixed:
 
-Updated the version for ServiceNow Docs Connector to fix dependency failures
+ Updated the version for ServiceNow Docs Connector to fix dependency failures
 
 </td></tr><tr><td>
 
@@ -4523,7 +4529,7 @@ Employee Slate for Now Assist
 
 This release provides the following enhancements and improvements.
 
--   Enhanced accessibility support Performance improvements Support for L10n Enhanced telemetry support for tracking user behavior Enhanced the home page layout with auto-adjust flexibility based on the widgets count Enhanced Admin configuration to support Tasks and requests \(fka Inbox\), To-dos task type configurations
+ -   Enhanced accessibility support Performance improvements Support for L10n Enhanced telemetry support for tracking user behavior Enhanced the home page layout with auto-adjust flexibility based on the widgets count Enhanced Admin configuration to support Tasks and requests \(fka Inbox\), To-dos task type configurations
 -   Enhanced AI Preferences to support Smart Prioritisation and AI-Generated Summarisation
 -   Enhanced the option to load AI summary automatically or on demand on AI summary details page
 
@@ -4539,7 +4545,7 @@ Enhanced Features for IRM Enterprise
 
 \[Changed\]
 
-This application replaces the Now Assist for IRM application to access the AI-powered features.
+ This application replaces the Now Assist for IRM application to access the AI-powered features.
 
 </td></tr><tr><td>
 
@@ -4553,7 +4559,7 @@ Enhanced Features for IRM Professional
 
 \[Changed\]
 
-This application replaces the Now Assist for IRM application to access the AI-powered features.
+ This application replaces the Now Assist for IRM application to access the AI-powered features.
 
 </td></tr><tr><td>
 
@@ -4622,9 +4628,9 @@ Field Service Management AI agent collection
     -   Refined questionnaire answer validation in summarization workflows.: Validation improved across NAP/NAVA/UI16/Workspace for task summarization.
     -   Performance testing for Q1 deliveries.: Testing conducted to ensure system stability and responsiveness.
 
-Fixed
+ Fixed
 
-Removed
+ Removed
 
 </td></tr><tr><td>
 
@@ -4705,9 +4711,9 @@ FSM - Advanced
     -   Refined questionnaire answer validation in summarization workflows.: Validation improved across NAP/NAVA/UI16/Workspace for task summarization.
     -   Performance testing for Q1 deliveries.: Testing conducted to ensure system stability and responsiveness.
 
-Fixed
+ Fixed
 
-Removed
+ Removed
 
 </td></tr><tr><td>
 
@@ -4735,9 +4741,9 @@ FSM - Foundation
     -   Refined questionnaire answer validation in summarization workflows.: Validation improved across NAP/NAVA/UI16/Workspace for task summarization.
     -   Performance testing for Q1 deliveries.: Testing conducted to ensure system stability and responsiveness.
 
-Fixed : None
+ Fixed : None
 
-Removed : None
+ Removed : None
 
 </td></tr><tr><td>
 
@@ -4776,13 +4782,13 @@ GRC Common GenAI
 
 This release includes improvements to GRC Common Generative AI in issue resolution, issue action planning, agent skill configuration, subscription management, and translations.
 
-New Fetch-Issue-Details Tool: A new tool enables the issue resolution AI agent to fetch issue details by issue number or identifier, complementing the existing tool and enhancing response accuracy. No upgrade action is required, but customers with customizations should review the new mappings.
+ New Fetch-Issue-Details Tool: A new tool enables the issue resolution AI agent to fetch issue details by issue number or identifier, complementing the existing tool and enhancing response accuracy. No upgrade action is required, but customers with customizations should review the new mappings.
 
-Refined Action Plan and Remediation Agents: Improvements to the issue action plan and remediation tasks AI agents and their supporting tools ensure more reliable and consistent generation of action plans and remediation suggestions across multiple AI model providers, with better usage tracking. Customers with custom post-processors should re-validate changes.
+ Refined Action Plan and Remediation Agents: Improvements to the issue action plan and remediation tasks AI agents and their supporting tools ensure more reliable and consistent generation of action plans and remediation suggestions across multiple AI model providers, with better usage tracking. Customers with custom post-processors should re-validate changes.
 
-Updated Issue Summarization Skill: The Now Assist issue summarization skill includes new configuration records offering descriptions and guides for configuration and prompt customization, enhancing the administrator and end-user experience without requiring upgrade actions.
+ Updated Issue Summarization Skill: The Now Assist issue summarization skill includes new configuration records offering descriptions and guides for configuration and prompt customization, enhancing the administrator and end-user experience without requiring upgrade actions.
 
-Generative-AI Asset Subscriptions and Translations: Eight new asset subscriptions have been added for tracking and governance of GRC AI capabilities, and translations across supported languages have been refreshed to improve the experience for non-English users. Customers should verify subscription states post-upgrade.
+ Generative-AI Asset Subscriptions and Translations: Eight new asset subscriptions have been added for tracking and governance of GRC AI capabilities, and translations across supported languages have been refreshed to improve the experience for non-English users. Customers should verify subscription states post-upgrade.
 
 </td></tr><tr><td>
 
@@ -4796,7 +4802,7 @@ GRC Shared GenAI
 
 This release includes the following changes:
 
--   Added default deny ACLs on Control Objective skills, the Risk Identification Agent, and the Risk Assessment Summarization skill.
+ -   Added default deny ACLs on Control Objective skills, the Risk Identification Agent, and the Risk Assessment Summarization skill.
 -   Excluded audit entry control objectives from skills.
 -   Enabled audit entry support for related records.
 -   Excluded audit entry risks from the Risk Identification Agent.
@@ -5025,30 +5031,30 @@ IT Service Management
 
 New:
 
-Employee experience
+ Employee experience
 
-Front door employee experience \(Employee Slate\): a conversation-first portal with a unified Activity Hub displaying open incidents and requested items, fulfillment progress, a Needs Attention area, and a simplified Request experience.
+ Front door employee experience \(Employee Slate\): a conversation-first portal with a unified Activity Hub displaying open incidents and requested items, fulfillment progress, a Needs Attention area, and a simplified Request experience.
 
-Fulfiller experience
+ Fulfiller experience
 
-Catalog tasks on the landing page: IT agents can track catalog tasks alongside incidents and requests on the fulfiller homepage.
+ Catalog tasks on the landing page: IT agents can track catalog tasks alongside incidents and requests on the fulfiller homepage.
 
-Admin experience
+ Admin experience
 
--   Expand to Service Operations: a guided upgrade path adds Major Incident, Problem, On call, and Walk up Management, with one-click install and direct navigation to admin setup.
+ -   Expand to Service Operations: a guided upgrade path adds Major Incident, Problem, On call, and Walk up Management, with one-click install and direct navigation to admin setup.
 -   Employee Slate IT Service Management onboarding: the configuration console includes the Employee Slate setup task as part of IT Service Management onboarding.
 -   CMDB onboarding: the configuration console includes configuration item setup task as part of IT Service Management onboarding.
 
-Changed:
+ Changed:
 
-Fulfiller experience
+ Fulfiller experience
 
--   Embedded Now Assist enhancements: the incident record card now surfaces contextual actions at resolution: draft or attach a knowledge article, propose a major incident, create change or problem records, and share resolution steps with the requester. Actions appear only when relevant to the incident context.
+ -   Embedded Now Assist enhancements: the incident record card now surfaces contextual actions at resolution: draft or attach a knowledge article, propose a major incident, create change or problem records, and share resolution steps with the requester. Actions appear only when relevant to the incident context.
 -   Incident form layout: updates to the Incident details layout, including the position of Attachments and Configuration Items on the form.
 
-Admin experience
+ Admin experience
 
--   AI agent improvements: improvements to the AI agents that help configure routing rules, categories, and subcategories.
+ -   AI agent improvements: improvements to the AI agents that help configure routing rules, categories, and subcategories.
 -   Configuration console setup tasks: updated header and footer for a consistent experience and clearer understanding of each task.
 
 </td></tr><tr><td>
@@ -5086,12 +5092,12 @@ IT Service Management AI agent collection
 8.  The ZTS AI L1 Service Desk Specialist now supports real-time conversational engagement via Microsoft Teams or Slack, replacing the asynchronous activity stream with a consent-driven experience.
 9.  A new agentic solution for SharePoint access issues autonomously handles L1 scenarios including access requests, file failures, and permission mismatches, reducing resolution time from hours to minutes.
 
-1.  The AI Specialist Performance Dashboard now includes revised productivity metrics measuring incidents attempted against total count for a more accurate resolution baseline.
+ 1.  The AI Specialist Performance Dashboard now includes revised productivity metrics measuring incidents attempted against total count for a more accurate resolution baseline.
 2.  Targeted enhancements to the L1 Service Desk AI Specialist improve reliability and consistency based on quality feedback from recent releases.
 3.  The Create Incident AI Agent has been migrated to a Hierarchical Agent model, resolving hallucination and rendering issues on NextWave and removing the VA dependency.
 4.  The Create Incident AI Agent has been updated for full NextWave off-glide orchestrator compatibility, resolving functional deviation issues from GA readiness testing.
 
--   Fixed- None
+ -   Fixed- None
 -   Removed - None
 
 </td></tr><tr><td>
@@ -5121,7 +5127,7 @@ ITOM - Advanced
 
 New in ITOM - Advanced
 
--   Added AI agents to automate monitoring and remediation for Discovery, MID Servers, Certificate Management, Service Mapping, and LEAP.
+ -   Added AI agents to automate monitoring and remediation for Discovery, MID Servers, Certificate Management, Service Mapping, and LEAP.
 -   Added AI Agent Topology Mapping to provide governance and visibility to your AI estate.
 -   Added ITOM URL Discovery to surface shadow SaaS and unmanaged applications directly in the CMDB.
 -   Added ITOM Configuration Console to simplify onboarding for Discovery and Event Management with guided, best-practice setup.
@@ -5170,10 +5176,10 @@ ITSM - Advanced
 2.  The Insights and Opportunities for Incident dashboard in Service Operations Workspace aggregates incidents into trend categories with AI-generated summaries, SLA performance, sentiment, channel adoption, and geographic distribution, giving incident managers a consolidated view of incident patterns with drill-down views into individual records.
 3.  IT administrators can now configure Change Management through an AI-native conversational agent in the Product Console, replacing complex admin navigation. The guided agent walks administrators through key settings including approvals, risk scoring, and workflows via natural language, making Change Management configuration accessible to customers with limited ServiceNow expertise.
 
-1.  The Create Incident AI Agent has been migrated from VA topic-based orchestration to a Hierarchical Agent model, resolving hallucination, functional deviation, and rendering issues on the NextWave orchestrator. The agent now runs natively on NextWave without VA dependency, delivering a consistent and reliable incident creation experience for end users.
+ 1.  The Create Incident AI Agent has been migrated from VA topic-based orchestration to a Hierarchical Agent model, resolving hallucination, functional deviation, and rendering issues on the NextWave orchestrator. The agent now runs natively on NextWave without VA dependency, delivering a consistent and reliable incident creation experience for end users.
 2.  The Create Incident AI Agent has been evaluated and updated for compatibility with the NextWave off-glide orchestrator. All hallucination and functional deviation issues identified during GA readiness testing have been resolved, ensuring consistent and accurate incident creation behavior across both VA-based and NextWave runtime environments.
 
-1.  An issue has been resolved where Platform skills were not appearing in the Now Assist Skills admin panel even when the ignoreFulfillerSubscriptionCheck system property was enabled. Administrators can now successfully view and activate Platform skills from the Now Assist admin interface.
+ 1.  An issue has been resolved where Platform skills were not appearing in the Now Assist Skills admin panel even when the ignoreFulfillerSubscriptionCheck system property was enabled. Administrators can now successfully view and activate Platform skills from the Now Assist admin interface.
 2.  Several display and interaction issues in the Recommended Actions panel have been resolved, including a misaligned loading indicator on the search box, a non-functional full-view search icon, filter dropdowns obscured by the footer, and an incorrect hand cursor appearing on non-clickable KB article and AI action content.
 3.  The Suggested Steps feature has been deprecated and removed from Now Assist for ITSM. Customers previously using Suggested Steps should transition to the AIOps LEAP recommendations available through updated Now Assist for ITSM capabilities.
 
@@ -5250,9 +5256,9 @@ Knowledge Graph
 
 Changes:
 
-- Added changes for better Typo handling for Table Labels.
+ - Added changes for better Typo handling for Table Labels.
 
-- Added internal usage tracking enhancements.
+ - Added internal usage tracking enhancements.
 
 </td></tr><tr><td>
 
@@ -5308,7 +5314,7 @@ List AI Experience
 
 AI Filter Assist allows users to define conditions using natural language in an intuitive, dialog-driven interface. This feature helps reduce the cognitive load of building conditions using the traditional condition builder by allowing users to type or speak a prompt that will then create the query needed to filter, sort, or group data.
 
-This release we fixed two defects in AI Filter Assister where an ACL had a typo in it's script and "Add to existing filters" mode was selectable even though it should be disabled.
+ This release we fixed two defects in AI Filter Assister where an ACL had a typo in it's script and "Add to existing filters" mode was selectable even though it should be disabled.
 
 </td></tr><tr><td>
 
@@ -5366,11 +5372,11 @@ Manufacturing Commercial Operations AI agents collection
 
 New
 
-Detect claim anomaly - two new capabilities
+ Detect claim anomaly - two new capabilities
 
-Auto-categorize Repair Claims capability
+ Auto-categorize Repair Claims capability
 
-GenAI summary on repair claims
+ GenAI summary on repair claims
 
 </td></tr><tr><td>
 
@@ -5616,9 +5622,9 @@ Now Assist Data Kit
 
 - Increased sample data input limit for SDG requests Users \(Data Kit Admin\) can now select up to 50 seed records from a data collection or table when submitting a Synthetic Data Generation request, up from the previous default of 3. The maximum sample size is also configurable by NADK Admins via sys\_property.
 
-- Plausibility Metrics for Synthetic Data Introduced plausibility scoring as a new data quality insight layer within the Generated Data view \(Data Kit &gt; Home &gt; Synthetic Data tab &gt; Open Generated Data &gt; Data Insight &gt; Plausibility\). Validates that generated field values are realistic, internally consistent, and free of garbage data.
+ - Plausibility Metrics for Synthetic Data Introduced plausibility scoring as a new data quality insight layer within the Generated Data view \(Data Kit &gt; Home &gt; Synthetic Data tab &gt; Open Generated Data &gt; Data Insight &gt; Plausibility\). Validates that generated field values are realistic, internally consistent, and free of garbage data.
 
-- OOB data sets
+ - OOB data sets
 
 </td></tr><tr><td>
 
@@ -5777,7 +5783,7 @@ Now Assist for Customer Service Management \(CSM\)
 
 New
 
-Dependency on store app Now Assist for CSM Major Issue Management
+ Dependency on store app Now Assist for CSM Major Issue Management
 
 </td></tr><tr><td>
 
@@ -5791,7 +5797,7 @@ Now Assist for Digital End-user Experience \(DEX\)
 
 \* Changed
 
-- Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
+ - Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
 
 </td></tr><tr><td>
 
@@ -5868,9 +5874,9 @@ Now Assist for Field Service Management \(FSM\)
     -   Refined questionnaire answer validation in summarization workflows.: Validation improved across NAP/NAVA/UI16/Workspace for task summarization.
     -   Performance testing for Q1 deliveries.: Testing conducted to ensure system stability and responsiveness.
 
-Fixed
+ Fixed
 
-Removed
+ Removed
 
 </td></tr><tr><td>
 
@@ -5909,9 +5915,9 @@ Now Assist for Hardware Asset Management
 
 This release delivers UI modernization and quality improvements. The Now Assist for HAM interface has been upgraded to the latest UI framework, with improved parsing and rendering of Asset Summary responses. Accessibility improvements have also been applied.
 
-Improvements:
+ Improvements:
 
-1.  Currency fields extracted from purchase order attachments now display correctly.
+ 1.  Currency fields extracted from purchase order attachments now display correctly.
 2.  A missing field configuration in the purchase order attachment flow has been added.
 3.  A component reliability issue in the record review workflow has been fixed.
 
@@ -5939,9 +5945,9 @@ Now Assist for HR Service Delivery \(HRSD\)
 
 Consistent model support and on prem support
 
-Security guardrails and Defect fixes related to content and metrics
+ Security guardrails and Defect fixes related to content and metrics
 
-Gen AI Trace logs improvement
+ Gen AI Trace logs improvement
 
 </td></tr><tr><td>
 
@@ -5955,7 +5961,7 @@ Now Assist for Impact
 
 Code Fix Agent: Enhanced Error Logging
 
-When the Code Fix Agent runs into a problem, you will now see a plain-language explanation of what went wrong and what to do next right on the remediation record. Select the links navigate directly to the relevant error record, so there's no need to hunt through system logs.
+ When the Code Fix Agent runs into a problem, you will now see a plain-language explanation of what went wrong and what to do next right on the remediation record. Select the links navigate directly to the relevant error record, so there's no need to hunt through system logs.
 
 </td></tr><tr><td>
 
@@ -6064,11 +6070,11 @@ Now Assist for Manufacturing Commercial Operations \(MCO\)
 
 New
 
-Detect claim anomaly - two new capabilities
+ Detect claim anomaly - two new capabilities
 
-Auto-categorize Repair Claims capability
+ Auto-categorize Repair Claims capability
 
-GenAI summary on repair claims
+ GenAI summary on repair claims
 
 </td></tr><tr><td>
 
@@ -6082,11 +6088,11 @@ Now Assist for Operational Sustainability
 
 Changed
 
-- This release includes security enhancements that strengthen access controls across the application.
+ - This release includes security enhancements that strengthen access controls across the application.
 
-Fixed
+ Fixed
 
-- ESG business domain scope and knowledge graph tags for disclosure report Corrected the ESG business domain scope and updated knowledge graph tags for the ESG disclosure report to ensure accurate AI-assisted content generation.
+ - ESG business domain scope and knowledge graph tags for disclosure report Corrected the ESG business domain scope and updated knowledge graph tags for the ESG disclosure report to ensure accurate AI-assisted content generation.
 
 </td></tr><tr><td>
 
@@ -6196,7 +6202,7 @@ Now Assist for Prompt Assistance
     -   Modified Overall Task Completeness evaluation for improved evaluation accuracy.
     -   Agent Instruction Optimization - Enhanced gatekeeping mechanisms for AIO Log Analyzer, Agent Instruction Generator, Tool Description Generator
 
-NOTE: These features and additions will be usable within Now Assist Skill Kit &gt; Agentic Evaluation
+ NOTE: These features and additions will be usable within Now Assist Skill Kit &gt; Agentic Evaluation
 
 </td></tr><tr><td>
 
@@ -6210,7 +6216,7 @@ Now Assist for Public Sector Digital Services \(PSDS\)
 
 Multilingual Enhancements
 
-ICM Case Narrative Ai Agent Support
+ ICM Case Narrative Ai Agent Support
 
 </td></tr><tr><td>
 
@@ -6224,9 +6230,9 @@ Now Assist for Purchase Order Management \(POM\)
 
 New:
 
-The automatic conversion of supplier emails into PO exceptions workflow now supports:
+ The automatic conversion of supplier emails into PO exceptions workflow now supports:
 
--   Additional languages, enabling better recognition of non-English supplier communications
+ -   Additional languages, enabling better recognition of non-English supplier communications
 -   ERP purchase order IDs, allowing precise matching with purchase order data from enterprise resource planning systems
 
 </td></tr><tr><td>
@@ -6278,7 +6284,7 @@ Now Assist for Security Incident Response \(SIR\)
 
 Fixed
 
-Changed
+ Changed
 
 </td></tr><tr><td>
 
@@ -6304,27 +6310,27 @@ Now Assist for Service Exchange
 
 Connections tab in the Service Exchange Center
 
-Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
+ Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
 
-Improved consumer registration and onboarding
+ Improved consumer registration and onboarding
 
-Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
+ Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
 
-Improved FDS capabilities
+ Improved FDS capabilities
 
--   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
+ -   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
 -   Reduce data inconsistencies by maintaining sys IDs for CMDB data and dependent relationships through transform maps.
 -   Ensure CI functionality is preserved on the destination instance by choosing to automatically create CI dependency relationships when relationship data is received from the source.
 -   Improved compliance through restricted data sync from non production instances to production instances for CMDB tables.
 
-Journal Field Framework enhancements
+ Journal Field Framework enhancements
 
--   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
+ -   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
 -   Configure journal fields such of type journal\_input fields alongside journal type, ensuring all journal entries are preserved during synchronization without requiring custom scripting
 
-Group-based persona assignments for Remote Catalog
+ Group-based persona assignments for Remote Catalog
 
-Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
+ Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
 
 </td></tr><tr><td>
 
@@ -6461,7 +6467,7 @@ Now Assist for Telecommunications
 
 New support of 3p models and security fixes
 
-Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
+ Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
 
 </td></tr><tr><td>
 
@@ -6475,9 +6481,9 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 Mosaic migration done for couple of Skills
 
-Product Release Content Generator
+ Product Release Content Generator
 
-Renewal Insight Engine
+ Renewal Insight Engine
 
 </td></tr><tr><td>
 
@@ -6528,7 +6534,7 @@ Now Assist for Voice
 
 New
 
--   Admins can configure pronunciation dictionaries for voice assistants. Define custom pronunciations for domain-specific and company-specific terms using phonetic spelling or phoneme format. Entries are scoped per language and deployment and applied during voice interactions.
+ -   Admins can configure pronunciation dictionaries for voice assistants. Define custom pronunciations for domain-specific and company-specific terms using phonetic spelling or phoneme format. Entries are scoped per language and deployment and applied during voice interactions.
 -   AI voice assistants now support SIP call handling. Configure SIP transfer targets and methods, and expose SIP call data for integration with CCaaS providers.
 -   Voice deployments support multiple secondary languages with dynamic selection prompts. APIs return translated prompts, welcome messages, and tool execution text for all configured secondary languages. Language selection prompts are generated dynamically based on available languages and trigger phrases.
 -   Russian, Danish, and Turkish voice options are now available. Each language includes male and female voice options for different conversational contexts.
@@ -6536,18 +6542,18 @@ New
 -   Filler message delay is now configurable per deployment. Set the wait time before filler words are spoken during processing-intensive operations to control conversational pacing.
 -   Voice assistants now support PSTN request processing. The system selects the appropriate request processor based on the active communication channel, enabling PSTN alongside existing providers.
 
-Changed
+ Changed
 
--   Voice analytics dashboard now organises performance metrics across four tabs Overview, Performance, Insights, and Assist consumption with new metrics for resolution rate, authentication performance, tool execution, conversation sentiment signals, and AI agent assist consumption.
+ -   Voice analytics dashboard now organises performance metrics across four tabs Overview, Performance, Insights, and Assist consumption with new metrics for resolution rate, authentication performance, tool execution, conversation sentiment signals, and AI agent assist consumption.
 -   execute\_tool and execute\_tool\_guest API responses now include execution plan and task identifiers. Use these identifiers to track and troubleshoot tool executions.
 -   Voice language configurations can now be deleted across application scopes. Only voice admins have permission to delete configurations from other scopes.
 -   Execution latency metrics are now captured for agent evaluation. The system records execution time data for voice agent plans to support performance analysis.
 
-Fixed
+ Fixed
 
-Corrected language selection prompts for secondary languages to align with voice-based language selection behavior.
+ Corrected language selection prompts for secondary languages to align with voice-based language selection behavior.
 
-Removed
+ Removed
 
 </td></tr><tr><td>
 
@@ -6561,7 +6567,7 @@ Now Assist for Vulnerability Response
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -6699,7 +6705,7 @@ Now Assist Platform Skills
 
 - Added an agentic workflow for servicenow table record navigation
 
-- Support for Visual and Doc Qna
+ - Support for Visual and Doc Qna
 
 </td></tr><tr><td>
 
@@ -6746,14 +6752,14 @@ Now Assist Skill Kit
 
 Ability to evaluate agentic voice assistant and the agents within it.
 
--   Evaluate standalone voice agents and voice assistants independently.
+ -   Evaluate standalone voice agents and voice assistants independently.
 -   Select out-of-the-box evaluation metrics.
 -   Use multiple forms of data input for evaluation, including file upload, synthetic generation, and manual entry.
 -   View evaluation results at both aggregate and individual scenario levels.
 
-Ability to view the following latency numbers in evaluation run reports -
+ Ability to view the following latency numbers in evaluation run reports -
 
--   Total session time: Measures the complete end-to-end task duration, including AI processing, tool usage, and user input delays.
+ -   Total session time: Measures the complete end-to-end task duration, including AI processing, tool usage, and user input delays.
 -   Agent processing time: Captures the time the AI agent spends working on the task, not counting user delays or waiting.
 
 </td></tr><tr><td>
@@ -6768,7 +6774,7 @@ Operational Sustainability Management Advanced
 
 Changed
 
-- Updated metadata for OSM AI Advanced Application metadata has been updated to reflect current AI capabilities and configurations.
+ - Updated metadata for OSM AI Advanced Application metadata has been updated to reflect current AI capabilities and configurations.
 
 </td></tr><tr><td>
 
@@ -6870,7 +6876,7 @@ Public Sector Digital Services AI Agent Collection
 
 Multilingual Enhancements
 
-ICM Case Refinement Agent
+ ICM Case Refinement Agent
 
 </td></tr><tr><td>
 
@@ -6884,9 +6890,9 @@ Query Generation
 
 New
 
-Support Extended Fields
+ Support Extended Fields
 
-Mosaic initiative
+ Mosaic initiative
 
 </td></tr><tr><td>
 
@@ -6963,7 +6969,7 @@ Sales and Order Management for Telecommunications - Advanced
 
 New
 
-1. Image to Task plan template AU Agent- Allows users to convert a fulfilment flow image in a pdf, jpeg, png format to a task plan template.
+ 1. Image to Task plan template AU Agent- Allows users to convert a fulfilment flow image in a pdf, jpeg, png format to a task plan template.
 
 </td></tr><tr><td>
 
@@ -7049,27 +7055,27 @@ Service Exchange - Advanced
 
 Connections tab in the Service Exchange Center
 
-Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
+ Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
 
-Improved consumer registration and onboarding
+ Improved consumer registration and onboarding
 
-Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
+ Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
 
-Improved FDS capabilities
+ Improved FDS capabilities
 
--   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
+ -   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
 -   Reduce data inconsistencies by maintaining sys IDs for CMDB data and dependent relationships through transform maps.
 -   Ensure CI functionality is preserved on the destination instance by choosing to automatically create CI dependency relationships when relationship data is received from the source.
 -   Improved compliance through restricted data sync from non production instances to production instances for CMDB tables.
 
-Journal Field Framework enhancements
+ Journal Field Framework enhancements
 
--   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
+ -   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
 -   Configure journal fields such of type journal\_input fields alongside journal type, ensuring all journal entries are preserved during synchronization without requiring custom scripting
 
-Group-based persona assignments for Remote Catalog
+ Group-based persona assignments for Remote Catalog
 
-Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
+ Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
 
 </td></tr><tr><td>
 
@@ -7083,27 +7089,27 @@ Service Exchange - Foundation
 
 Connections tab in the Service Exchange Center
 
-Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
+ Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
 
-Improved consumer registration and onboarding
+ Improved consumer registration and onboarding
 
-Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
+ Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
 
-Improved FDS capabilities
+ Improved FDS capabilities
 
--   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
+ -   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
 -   Reduce data inconsistencies by maintaining sys IDs for CMDB data and dependent relationships through transform maps.
 -   Ensure CI functionality is preserved on the destination instance by choosing to automatically create CI dependency relationships when relationship data is received from the source.
 -   Improved compliance through restricted data sync from non production instances to production instances for CMDB tables.
 
-Journal Field Framework enhancements
+ Journal Field Framework enhancements
 
--   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
+ -   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
 -   Configure journal fields such of type journal\_input fields alongside journal type, ensuring all journal entries are preserved during synchronization without requiring custom scripting
 
-Group-based persona assignments for Remote Catalog
+ Group-based persona assignments for Remote Catalog
 
-Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
+ Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
 
 </td></tr><tr><td>
 
@@ -7117,27 +7123,27 @@ Service Exchange - Prime
 
 Connections tab in the Service Exchange Center
 
-Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
+ Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
 
-Improved consumer registration and onboarding
+ Improved consumer registration and onboarding
 
-Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
+ Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
 
-Improved FDS capabilities
+ Improved FDS capabilities
 
--   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
+ -   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
 -   Reduce data inconsistencies by maintaining sys IDs for CMDB data and dependent relationships through transform maps.
 -   Ensure CI functionality is preserved on the destination instance by choosing to automatically create CI dependency relationships when relationship data is received from the source.
 -   Improved compliance through restricted data sync from non production instances to production instances for CMDB tables.
 
-Journal Field Framework enhancements
+ Journal Field Framework enhancements
 
--   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
+ -   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
 -   Configure journal fields such of type journal\_input fields alongside journal type, ensuring all journal entries are preserved during synchronization without requiring custom scripting
 
-Group-based persona assignments for Remote Catalog
+ Group-based persona assignments for Remote Catalog
 
-Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
+ Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
 
 </td></tr><tr><td>
 
@@ -7221,7 +7227,7 @@ Software Asset Management AI Prime
 
 New feature:
 
-Entitlement creation error handling - This feature uses AI to suggest resolutions when users upload the standard Excel import template for entitlement creation.
+ Entitlement creation error handling - This feature uses AI to suggest resolutions when users upload the standard Excel import template for entitlement creation.
 
 </td></tr><tr><td>
 
@@ -7333,7 +7339,7 @@ Telecommunications Advanced
 
 New support of 3p models and security fixes
 
-Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
+ Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
 
 </td></tr><tr><td>
 
@@ -7347,7 +7353,7 @@ Telecommunications Foundation
 
 New support of 3p models and security fixes
 
-Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
+ Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
 
 </td></tr><tr><td>
 
@@ -7361,7 +7367,7 @@ Telecommunications Media and Technology AI agent collection
 
 New support of 3p models and security fixes
 
-Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
+ Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
 
 </td></tr><tr><td>
 
@@ -7375,7 +7381,7 @@ Telecommunications Prime
 
 New support of 3p models and security fixes
 
-Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
+ Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
 
 </td></tr><tr><td>
 
@@ -7474,7 +7480,7 @@ Unified Security Exposure Management \(USEM\) - Advanced
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -7500,7 +7506,7 @@ Unified Security Exposure Management \(USEM\) - Prime
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -7676,6 +7682,8 @@ The release notes of the related plugins can be viewed on the respective plugin'
 
 ## Suite version 28.10.20260611 - Zurich Patch 10
 
+**Note:** These versions have been withdrawn. See [June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md) for the June release versions.
+
 <table><thead><tr><th>
 
 App name
@@ -7723,7 +7731,7 @@ AI Agent Advisor
     -   Resolved a defect causing opportunity ranking to display in reverse order.
     -   Resolved an issue where asset counts did not match across the UI.
 
-Removed
+ Removed
 
 </td></tr><tr><td>
 
@@ -7752,9 +7760,9 @@ AI Agents for Customer Success Management
 
 Mosaic migration done for couple of Skills
 
-Product Release Content Generator
+ Product Release Content Generator
 
-Renewal Insight Engine
+ Renewal Insight Engine
 
 </td></tr><tr><td>
 
@@ -7768,7 +7776,7 @@ AI Agents for Discovery
 
 New:
 
-AI Agent that investigates the missing attribute brought in through Pattern based discovery, finding affected CIs and links errors to standard error codes.
+ AI Agent that investigates the missing attribute brought in through Pattern based discovery, finding affected CIs and links errors to standard error codes.
 
 </td></tr><tr><td>
 
@@ -7806,7 +7814,7 @@ AI Agents for ITAM
 
 In this version, the following enhancements have been made:
 
--   Security and access control management have been enhanced with simplified installation and automatic configuration handling.
+ -   Security and access control management have been enhanced with simplified installation and automatic configuration handling.
 -   Stockroom locations no longer appear for software requests.
 -   The Orchestrator now displays human-readable output in work notes.
 -   Document extraction now works seamlessly with improved field configuration.
@@ -7826,9 +7834,9 @@ AI agents for Observability
     -   Updated the Analyze alert impact agentic workflow to route all alert investigation through a single SRE Investigate AI Agent, delivering consistent behavior across all supported backends and simplifying the path for adding new vendor agents.
     -   Migrated New Relic and Datadog integrations to Model Context Protocol \(MCP\) agents, standardizing on vendor-maintained tool surfaces so the investigation workflows stay current as vendors ship updates.
 
-Deprecated
+ Deprecated
 
-Deprecated the Dynatrace Analysis AI Agent, superseded by the Dynatrace MCP Server Agent.
+ Deprecated the Dynatrace Analysis AI Agent, superseded by the Dynatrace MCP Server Agent.
 
 </td></tr><tr><td>
 
@@ -7842,27 +7850,27 @@ AI Agents for Service Exchange Provider
 
 Connections tab in the Service Exchange Center
 
-Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
+ Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
 
-Improved consumer registration and onboarding
+ Improved consumer registration and onboarding
 
-Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
+ Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
 
-Improved FDS capabilities
+ Improved FDS capabilities
 
--   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
+ -   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
 -   Reduce data inconsistencies by maintaining sys IDs for CMDB data and dependent relationships through transform maps.
 -   Ensure CI functionality is preserved on the destination instance by choosing to automatically create CI dependency relationships when relationship data is received from the source.
 -   Improved compliance through restricted data sync from non production instances to production instances for CMDB tables.
 
-Journal Field Framework enhancements
+ Journal Field Framework enhancements
 
--   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
+ -   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
 -   Configure journal fields such of type journal\_input fields alongside journal type, ensuring all journal entries are preserved during synchronization without requiring custom scripting
 
-Group-based persona assignments for Remote Catalog
+ Group-based persona assignments for Remote Catalog
 
-Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
+ Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
 
 </td></tr><tr><td>
 
@@ -7978,7 +7986,7 @@ AI Experience Framework Skills
 
 New features for June Release:
 
--   Improved error handling and internationalization \(i18n\) support
+ -   Improved error handling and internationalization \(i18n\) support
 -   Added streaming capabilities for real-time data processing
 -   Resolved critical defects and stability issues
 -   Extended support for additional widget property types
@@ -8154,7 +8162,7 @@ Common AI Framework
 
 New:
 
-AI Framework that autonomously discovers schema, samples, and aggregates live ServiceNow tables, and presents a sourced answer without modifying any data.
+ AI Framework that autonomously discovers schema, samples, and aggregates live ServiceNow tables, and presents a sourced answer without modifying any data.
 
 </td></tr><tr><td>
 
@@ -8168,7 +8176,7 @@ Complaint Case AI Agents collection
 
 Enhancements and defects fixed:
 
-1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
+ 1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
 2.  Complaint Case Intake Agent
     -   Added the hyperlink to the complaint case number.
     -   Prompt enhancements on location and products
@@ -8282,7 +8290,7 @@ Dynamic Guidance
 
 Fixed:
 
-Updated the version for ServiceNow Docs Connector to fix dependency failures
+ Updated the version for ServiceNow Docs Connector to fix dependency failures
 
 </td></tr><tr><td>
 
@@ -8296,7 +8304,7 @@ Employee Slate for Now Assist
 
 This release provides the following enhancements and improvements.
 
--   Enhanced accessibility support Performance improvements Support for L10n Enhanced telemetry support for tracking user behavior Enhanced the home page layout with auto-adjust flexibility based on the widgets count Enhanced Admin configuration to support Tasks and requests \(fka Inbox\), To-dos task type configurations
+ -   Enhanced accessibility support Performance improvements Support for L10n Enhanced telemetry support for tracking user behavior Enhanced the home page layout with auto-adjust flexibility based on the widgets count Enhanced Admin configuration to support Tasks and requests \(fka Inbox\), To-dos task type configurations
 -   Enhanced AI Preferences to support Smart Prioritisation and AI-Generated Summarisation
 -   Enhanced the option to load AI summary automatically or on demand on AI summary details page
 
@@ -8342,9 +8350,9 @@ Field Service Management AI agent collection
     -   Refined questionnaire answer validation in summarization workflows.: Validation improved across NAP/NAVA/UI16/Workspace for task summarization.
     -   Performance testing for Q1 deliveries.: Testing conducted to ensure system stability and responsiveness.
 
-Fixed
+ Fixed
 
-Removed
+ Removed
 
 </td></tr><tr><td>
 
@@ -8483,12 +8491,12 @@ IT Service Management AI agent collection
 8.  The ZTS AI L1 Service Desk Specialist now supports real-time conversational engagement via Microsoft Teams or Slack, replacing the asynchronous activity stream with a consent-driven experience.
 9.  A new agentic solution for SharePoint access issues autonomously handles L1 scenarios including access requests, file failures, and permission mismatches, reducing resolution time from hours to minutes.
 
-1.  The AI Specialist Performance Dashboard now includes revised productivity metrics measuring incidents attempted against total count for a more accurate resolution baseline.
+ 1.  The AI Specialist Performance Dashboard now includes revised productivity metrics measuring incidents attempted against total count for a more accurate resolution baseline.
 2.  Targeted enhancements to the L1 Service Desk AI Specialist improve reliability and consistency based on quality feedback from recent releases.
 3.  The Create Incident AI Agent has been migrated to a Hierarchical Agent model, resolving hallucination and rendering issues on NextWave and removing the VA dependency.
 4.  The Create Incident AI Agent has been updated for full NextWave off-glide orchestrator compatibility, resolving functional deviation issues from GA readiness testing.
 
--   Fixed- None
+ -   Fixed- None
 -   Removed - None
 
 </td></tr><tr><td>
@@ -8549,9 +8557,9 @@ Knowledge Graph
 
 Changes:
 
-- Added changes for better Typo handling for Table Labels.
+ - Added changes for better Typo handling for Table Labels.
 
-- Added internal usage tracking enhancements.
+ - Added internal usage tracking enhancements.
 
 </td></tr><tr><td>
 
@@ -8594,7 +8602,7 @@ List AI Experience
 
 AI Filter Assist allows users to define conditions using natural language in an intuitive, dialog-driven interface. This feature helps reduce the cognitive load of building conditions using the traditional condition builder by allowing users to type or speak a prompt that will then create the query needed to filter, sort, or group data.
 
-This release we fixed two defects in AI Filter Assister where an ACL had a typo in it's script and "Add to existing filters" mode was selectable even though it should be disabled.
+ This release we fixed two defects in AI Filter Assister where an ACL had a typo in it's script and "Add to existing filters" mode was selectable even though it should be disabled.
 
 </td></tr><tr><td>
 
@@ -8848,9 +8856,9 @@ Now Assist Data Kit
 
 - Increased sample data input limit for SDG requests Users \(Data Kit Admin\) can now select up to 50 seed records from a data collection or table when submitting a Synthetic Data Generation request, up from the previous default of 3. The maximum sample size is also configurable by NADK Admins via sys\_property.
 
-- Plausibility Metrics for Synthetic Data Introduced plausibility scoring as a new data quality insight layer within the Generated Data view \(Data Kit &gt; Home &gt; Synthetic Data tab &gt; Open Generated Data &gt; Data Insight &gt; Plausibility\). Validates that generated field values are realistic, internally consistent, and free of garbage data.
+ - Plausibility Metrics for Synthetic Data Introduced plausibility scoring as a new data quality insight layer within the Generated Data view \(Data Kit &gt; Home &gt; Synthetic Data tab &gt; Open Generated Data &gt; Data Insight &gt; Plausibility\). Validates that generated field values are realistic, internally consistent, and free of garbage data.
 
-- OOB data sets
+ - OOB data sets
 
 </td></tr><tr><td>
 
@@ -8983,7 +8991,7 @@ Now Assist for Digital End-user Experience \(DEX\)
 
 \* Changed
 
-- Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
+ - Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
 
 </td></tr><tr><td>
 
@@ -9047,9 +9055,9 @@ Now Assist for Field Service Management \(FSM\)
     -   Refined questionnaire answer validation in summarization workflows.: Validation improved across NAP/NAVA/UI16/Workspace for task summarization.
     -   Performance testing for Q1 deliveries.: Testing conducted to ensure system stability and responsiveness.
 
-Fixed
+ Fixed
 
-Removed
+ Removed
 
 </td></tr><tr><td>
 
@@ -9075,9 +9083,9 @@ Now Assist for Hardware Asset Management
 
 This release delivers UI modernization and quality improvements. The Now Assist for HAM interface has been upgraded to the latest UI framework, with improved parsing and rendering of Asset Summary responses. Accessibility improvements have also been applied.
 
-Improvements:
+ Improvements:
 
-1.  Currency fields extracted from purchase order attachments now display correctly.
+ 1.  Currency fields extracted from purchase order attachments now display correctly.
 2.  A missing field configuration in the purchase order attachment flow has been added.
 3.  A component reliability issue in the record review workflow has been fixed.
 
@@ -9105,9 +9113,9 @@ Now Assist for HR Service Delivery \(HRSD\)
 
 Consistent model support and on prem support
 
-Security guardrails and Defect fixes related to content and metrics
+ Security guardrails and Defect fixes related to content and metrics
 
-Gen AI Trace logs improvement
+ Gen AI Trace logs improvement
 
 </td></tr><tr><td>
 
@@ -9121,7 +9129,7 @@ Now Assist for Impact
 
 Code Fix Agent: Enhanced Error Logging
 
-When the Code Fix Agent runs into a problem, you will now see a plain-language explanation of what went wrong and what to do next right on the remediation record. Select the links navigate directly to the relevant error record, so there's no need to hunt through system logs.
+ When the Code Fix Agent runs into a problem, you will now see a plain-language explanation of what went wrong and what to do next right on the remediation record. Select the links navigate directly to the relevant error record, so there's no need to hunt through system logs.
 
 </td></tr><tr><td>
 
@@ -9263,7 +9271,7 @@ Now Assist for Prompt Assistance
     -   Modified Overall Task Completeness evaluation for improved evaluation accuracy.
     -   Agent Instruction Optimization - Enhanced gatekeeping mechanisms for AIO Log Analyzer, Agent Instruction Generator, Tool Description Generator
 
-NOTE: These features and additions will be usable within Now Assist Skill Kit &gt; Agentic Evaluation
+ NOTE: These features and additions will be usable within Now Assist Skill Kit &gt; Agentic Evaluation
 
 </td></tr><tr><td>
 
@@ -9277,7 +9285,7 @@ Now Assist for Public Sector Digital Services \(PSDS\)
 
 Multilingual Enhancements
 
-ICM Case Narrative Ai Agent Support
+ ICM Case Narrative Ai Agent Support
 
 </td></tr><tr><td>
 
@@ -9291,9 +9299,9 @@ Now Assist for Purchase Order Management \(POM\)
 
 New:
 
-The automatic conversion of supplier emails into PO exceptions workflow now supports:
+ The automatic conversion of supplier emails into PO exceptions workflow now supports:
 
--   Additional languages, enabling better recognition of non-English supplier communications
+ -   Additional languages, enabling better recognition of non-English supplier communications
 -   ERP purchase order IDs, allowing precise matching with purchase order data from enterprise resource planning systems
 
 </td></tr><tr><td>
@@ -9333,7 +9341,7 @@ Now Assist for Security Incident Response \(SIR\)
 
 Fixed
 
-Changed
+ Changed
 
 </td></tr><tr><td>
 
@@ -9347,27 +9355,27 @@ Now Assist for Service Exchange
 
 Connections tab in the Service Exchange Center
 
-Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
+ Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
 
-Improved consumer registration and onboarding
+ Improved consumer registration and onboarding
 
-Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
+ Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
 
-Improved FDS capabilities
+ Improved FDS capabilities
 
--   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
+ -   Improve your connection experience, by syncing Knowledge Base articles between provider and consumer instances.
 -   Reduce data inconsistencies by maintaining sys IDs for CMDB data and dependent relationships through transform maps.
 -   Ensure CI functionality is preserved on the destination instance by choosing to automatically create CI dependency relationships when relationship data is received from the source.
 -   Improved compliance through restricted data sync from non production instances to production instances for CMDB tables.
 
-Journal Field Framework enhancements
+ Journal Field Framework enhancements
 
--   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
+ -   Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
 -   Configure journal fields such of type journal\_input fields alongside journal type, ensuring all journal entries are preserved during synchronization without requiring custom scripting
 
-Group-based persona assignments for Remote Catalog
+ Group-based persona assignments for Remote Catalog
 
-Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
+ Assign Remote Catalog personas to user groups so existing group-based access management practices extend to Remote Catalog, reducing administrative effort by managing access at the group level instead of individual users.
 
 </td></tr><tr><td>
 
@@ -9486,7 +9494,7 @@ Now Assist for Telecommunications
 
 New support of 3p models and security fixes
 
-Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
+ Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
 
 </td></tr><tr><td>
 
@@ -9500,9 +9508,9 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 Mosaic migration done for couple of Skills
 
-Product Release Content Generator
+ Product Release Content Generator
 
-Renewal Insight Engine
+ Renewal Insight Engine
 
 </td></tr><tr><td>
 
@@ -9516,7 +9524,7 @@ Now Assist for Voice
 
 New
 
--   Admins can configure pronunciation dictionaries for voice assistants. Define custom pronunciations for domain-specific and company-specific terms using phonetic spelling or phoneme format. Entries are scoped per language and deployment and applied during voice interactions.
+ -   Admins can configure pronunciation dictionaries for voice assistants. Define custom pronunciations for domain-specific and company-specific terms using phonetic spelling or phoneme format. Entries are scoped per language and deployment and applied during voice interactions.
 -   AI voice assistants now support SIP call handling. Configure SIP transfer targets and methods, and expose SIP call data for integration with CCaaS providers.
 -   Voice deployments support multiple secondary languages with dynamic selection prompts. APIs return translated prompts, welcome messages, and tool execution text for all configured secondary languages. Language selection prompts are generated dynamically based on available languages and trigger phrases.
 -   Russian, Danish, and Turkish voice options are now available. Each language includes male and female voice options for different conversational contexts.
@@ -9524,18 +9532,18 @@ New
 -   Filler message delay is now configurable per deployment. Set the wait time before filler words are spoken during processing-intensive operations to control conversational pacing.
 -   Voice assistants now support PSTN request processing. The system selects the appropriate request processor based on the active communication channel, enabling PSTN alongside existing providers.
 
-Changed
+ Changed
 
--   Voice analytics dashboard now organises performance metrics across four tabs Overview, Performance, Insights, and Assist consumption with new metrics for resolution rate, authentication performance, tool execution, conversation sentiment signals, and AI agent assist consumption.
+ -   Voice analytics dashboard now organises performance metrics across four tabs Overview, Performance, Insights, and Assist consumption with new metrics for resolution rate, authentication performance, tool execution, conversation sentiment signals, and AI agent assist consumption.
 -   execute\_tool and execute\_tool\_guest API responses now include execution plan and task identifiers. Use these identifiers to track and troubleshoot tool executions.
 -   Voice language configurations can now be deleted across application scopes. Only voice admins have permission to delete configurations from other scopes.
 -   Execution latency metrics are now captured for agent evaluation. The system records execution time data for voice agent plans to support performance analysis.
 
-Fixed
+ Fixed
 
-Corrected language selection prompts for secondary languages to align with voice-based language selection behavior.
+ Corrected language selection prompts for secondary languages to align with voice-based language selection behavior.
 
-Removed
+ Removed
 
 </td></tr><tr><td>
 
@@ -9549,7 +9557,7 @@ Now Assist for Vulnerability Response
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -9687,7 +9695,7 @@ Now Assist Platform Skills
 
 - Added an agentic workflow for servicenow table record navigation
 
-- Support for Visual and Doc Qna
+ - Support for Visual and Doc Qna
 
 </td></tr><tr><td>
 
@@ -9734,14 +9742,14 @@ Now Assist Skill Kit
 
 Ability to evaluate agentic voice assistant and the agents within it.
 
--   Evaluate standalone voice agents and voice assistants independently.
+ -   Evaluate standalone voice agents and voice assistants independently.
 -   Select out-of-the-box evaluation metrics.
 -   Use multiple forms of data input for evaluation, including file upload, synthetic generation, and manual entry.
 -   View evaluation results at both aggregate and individual scenario levels.
 
-Ability to view the following latency numbers in evaluation run reports -
+ Ability to view the following latency numbers in evaluation run reports -
 
--   Total session time: Measures the complete end-to-end task duration, including AI processing, tool usage, and user input delays.
+ -   Total session time: Measures the complete end-to-end task duration, including AI processing, tool usage, and user input delays.
 -   Agent processing time: Captures the time the AI agent spends working on the task, not counting user delays or waiting.
 
 </td></tr><tr><td>
@@ -9805,7 +9813,7 @@ Public Sector Digital Services AI Agent Collection
 
 Multilingual Enhancements
 
-ICM Case Refinement Agent
+ ICM Case Refinement Agent
 
 </td></tr><tr><td>
 
@@ -9819,9 +9827,9 @@ Query Generation
 
 New
 
-Support Extended Fields
+ Support Extended Fields
 
-Mosaic initiative
+ Mosaic initiative
 
 </td></tr><tr><td>
 
@@ -9895,7 +9903,7 @@ Telecommunications Media and Technology AI agent collection
 
 New support of 3p models and security fixes
 
-Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
+ Small models:Claude Haiku 4.5GPT\_5 miniLarge Models:Claude Sonnet 4.6GPT\_5.4
 
 </td></tr><tr><td>
 
@@ -10000,6 +10008,8 @@ Resolved an installation issue that prevented Voice Input from activating correc
 |Workflow Data Fabric Hub|2.2.1|2026-01-20|
 
 ## Suite version 28.5.20260611 - Zurich Patch 5
+
+**Note:** These versions have been withdrawn. See [June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md) for the June release versions.
 
 <table><thead><tr><th>
 
@@ -10110,7 +10120,7 @@ AI Agents for ITAM
 
 With the Now Assist for Hardware Asset Management \(HAM\) application, Hardware Asset Managers can streamline and automate the process of sourcing hardware assets by using AI agents included in the agentic workflow. The Now Assist for Hardware Asset Management \(HAM\) application contains agentic workflows to automate the sourcing, transfer, and procurement of assets upon request.
 
--   Role masking in AI Agent Studio to execute agentic workflows, AI agents, and tools.
+ -   Role masking in AI Agent Studio to execute agentic workflows, AI agents, and tools.
 -   New security configuration pages in AI Agent Studio.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 -   Run and review agentic workflow executions on forms in the Core UI and workspaces.
@@ -10242,11 +10252,11 @@ ATF troubleshooting agent
 
 See RCA and steps to fix your failed ATF test
 
-Changed: none
+ Changed: none
 
-Fixed: none
+ Fixed: none
 
-Removed: none
+ Removed: none
 
 </td></tr><tr><td>
 
@@ -10260,7 +10270,7 @@ Catalog Conversational Coverage
 
 New
 
-Included tailored recommendations to help you improve your catalog items for the conversational channel, making it easier for you to identify areas that need enhancement.
+ Included tailored recommendations to help you improve your catalog items for the conversational channel, making it easier for you to identify areas that need enhancement.
 
 </td></tr><tr><td>
 
@@ -10306,7 +10316,7 @@ Complaint Case AI Agents collection
 
 Enhancements and defects fixed:
 
-1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
+ 1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
 2.  Complaint Case Intake Agent
     -   Added the hyperlink to the complaint case number.
     -   Prompt enhancements on location and products
@@ -10376,9 +10386,9 @@ Customer Service Management AI agent collection
 
 NewCustomer 360 is an AI-powered assistant for the human agent that answers natural language questions about customers, cases, products, and interactions. This feature helps agents quickly access critical information and resolve cases.
 
-Changed
+ Changed
 
-Role configuration is required for Agentic workflows and AI agents.
+ Role configuration is required for Agentic workflows and AI agents.
 
 </td></tr><tr><td>
 
@@ -10441,7 +10451,7 @@ Flow Designer GenAI
 
 New:
 
-Users will have an option to call an agent from workflow
+ Users will have an option to call an agent from workflow
 
 </td></tr><tr><td>
 
@@ -10504,11 +10514,11 @@ GRC Common GenAI
 
 New:
 
-Issue Submission Agent:
+ Issue Submission Agent:
 
-The issue submission AI agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. The agent helps structure the issue and recommends relevant controls, entities, and policies based on the input provided. This ensures that the issue is well-defined and enriched with contextual information before it is submitted.
+ The issue submission AI agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. The agent helps structure the issue and recommends relevant controls, entities, and policies based on the input provided. This ensures that the issue is well-defined and enriched with contextual information before it is submitted.
 
-Changed:
+ Changed:
 
 </td></tr><tr><td>
 
@@ -10561,11 +10571,11 @@ HR Talent AI Agent Collection
 
 Whats New The Employee feedback collection AI Agent streamlines the process of gathering employee feedback, ensuring managers receive timely, structured, and actionable input. Persona: ManagerThe agent:
 
--   Suggests relevant collaborators of the employee using data from Employee Profile, Talent Development apps, and optional Microsoft Graph interaction insights \(using the Microsoft Exchange Online spoke\)
+ -   Suggests relevant collaborators of the employee using data from Employee Profile, Talent Development apps, and optional Microsoft Graph interaction insights \(using the Microsoft Exchange Online spoke\)
 -   Sends requests as EC To-Dos for the feedback providers and sends automated reminders
 -   Consolidates all feedback responses into a single view for easier evaluation
 
-Updates
+ Updates
 
 </td></tr><tr><td>
 
@@ -10605,7 +10615,7 @@ IRM Risk GenAI
 
 \[New\]
 
-Now LLM LTS and Role masking support are now enabled for risk event summarization
+ Now LLM LTS and Role masking support are now enabled for risk event summarization
 
 </td></tr><tr><td>
 
@@ -10619,7 +10629,7 @@ IT Service Management AI voice agent collection
 
 Now Assist for ITSM release notes \[Zurich\]
 
--   New: Initial release for ITSM Voice AI agent. See the Key features section for more details.
+ -   New: Initial release for ITSM Voice AI agent. See the Key features section for more details.
 -   Changed: n/a
 -   Fixed: n/a
 -   Removed: n/a
@@ -10662,7 +10672,7 @@ Manage Order Operations
 
 Initial Release:
 
--   Automate the process of creating order cases on the Business Portal.
+ -   Automate the process of creating order cases on the Business Portal.
 -   Retrieve customer inputs in text or voice format, classify intent, and route them to the Virtual Agent for action.
 -   Identify the earliest possible delivery date for expedited product delivery on a specific customer order.
 -   Create an order case autonomously based on the inputs on the Now Assist panel.
@@ -10782,7 +10792,7 @@ Now Assist for Collaborative Work Management \(CWM\)
 -   Changed
 -   Fixed: Performance improvement of Now Assist skills in CWM
 
-Deprecated/Removed
+ Deprecated/Removed
 
 </td></tr><tr><td>
 
@@ -10858,7 +10868,7 @@ Now Assist for Hardware Asset Management
 
 In this release, users with the procurement\_user role can access the Help manage hardware asset requests agentic workflow including the following AI agents:
 
--   Hardware asset management sourcing AI agent
+ -   Hardware asset management sourcing AI agent
 -   Transfer order creation AI agent
 -   Purchase order creation AI agent
 -   Hardware asset repair process \(patch\)
@@ -10875,13 +10885,13 @@ Now Assist for HR Service Delivery \(HRSD\)
 
 New / enhancements- The case summarization skill is enabled for the attachment summaries
 
-- The resolution notes skill is enabled with NACM for the shortening/elaborating resolution notes summary
+ - The resolution notes skill is enabled with NACM for the shortening/elaborating resolution notes summary
 
-- On the Agent Workspace application, the resolution notes skill is enabled to auto-populate Close notes field
+ - On the Agent Workspace application, the resolution notes skill is enabled to auto-populate Close notes field
 
-Changed:
+ Changed:
 
-- Enhanced security features revisit the ACL roles and access;Support to GPT OSS model
+ - Enhanced security features revisit the ACL roles and access;Support to GPT OSS model
 
 </td></tr><tr><td>
 
@@ -10895,16 +10905,16 @@ Now Assist for Impact
 
 Consumption Report summary
 
--   Produces an insightful, human-readable summary which highlights key business objectives with active and completed initiatives and accelerators.
+ -   Produces an insightful, human-readable summary which highlights key business objectives with active and completed initiatives and accelerators.
 -   The summary flags any concerning trends in severity \(P1/P2 dominance\).
 -   It also reviews premium seat utilization and provides recommendations.
 -   Ability to provide Feedback for the summary
 -   Ability to refresh the summary
 -   Ability to Copy summary
 
-Code Fix AI agent
+ Code Fix AI agent
 
--   Eliminates technical debt backlog by deploying an embedded AI agent within the script editor that identifies issues in real-time and generates intelligent code fixes through Now Assist integration.\_
+ -   Eliminates technical debt backlog by deploying an embedded AI agent within the script editor that identifies issues in real-time and generates intelligent code fixes through Now Assist integration.\_
 -   Removes specialized expertise barriers by enabling developers to interact conversationally with the AI agent for code modifications and apply or reject suggested fixes with feedback mechanisms.\_
 -   Maintains development velocity by allowing immediate technical debt resolution within existing workflows without context switching or requiring specialized knowledge.
 
@@ -10920,39 +10930,39 @@ Now Assist for IRM
 
 \[New\]
 
-Issue submission agent:
+ Issue submission agent:
 
-The Issue Submission agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. The agent helps structure the issue and recommends relevant controls, entities, and policies based on the input provided. This ensures that the issue is well-defined and enriched with contextual information before it is submitted.
+ The Issue Submission agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. The agent helps structure the issue and recommends relevant controls, entities, and policies based on the input provided. This ensures that the issue is well-defined and enriched with contextual information before it is submitted.
 
-Check product documentation for activation details.
+ Check product documentation for activation details.
 
-Suggest potential risks agentic workflow
+ Suggest potential risks agentic workflow
 
--   AI-driven risk identification Conversational AI automatically analyzes entity context and surfaces relevant risks from internal libraries, industry patterns, and optional external sources.
+ -   AI-driven risk identification Conversational AI automatically analyzes entity context and surfaces relevant risks from internal libraries, industry patterns, and optional external sources.
 -   Consolidated risk view Generates a single, ready-to-triage risk list, reducing manual effort and duplication while ensuring comprehensive coverage.
 -   Guided user experience Embedded in the Now Assist Panel, the workflow provides step-by-step guidance for risk domain selection, simplifying complex risk discovery.
 -   Proactive intelligence for emerging risks External scanning capabilities deliver early warnings of new threats, helping organizations stay ahead of evolving regulations and trends.
 
-Control objective impact analyzer:
+ Control objective impact analyzer:
 
-The citation-driven impacted control objective identifier uses generative AI to analyze changes in citations and identify control objectives that should be reviewed based on the modified citation content. It intelligently matches changed citation requirements with existing COs to suggest potential updates, helping teams maintain alignment between citations and control objectives.
+ The citation-driven impacted control objective identifier uses generative AI to analyze changes in citations and identify control objectives that should be reviewed based on the modified citation content. It intelligently matches changed citation requirements with existing COs to suggest potential updates, helping teams maintain alignment between citations and control objectives.
 
-Control objective change agent:
+ Control objective change agent:
 
-This introduces an AI-driven capability to automatically update a control objective's description and supplemental guidance whenever its associated citations are modified. Leveraging agentic AI, the enhancement analyzes the changes in citation content, identifies their impact on the control objective, and generates precise, contextually relevant updates. Users can review and approve AI-suggested changes directly within the workflow, ensuring that control objectives always reflect the most current regulatory requirements and best practices.
+ This introduces an AI-driven capability to automatically update a control objective's description and supplemental guidance whenever its associated citations are modified. Leveraging agentic AI, the enhancement analyzes the changes in citation content, identifies their impact on the control objective, and generates precise, contextually relevant updates. Users can review and approve AI-suggested changes directly within the workflow, ensuring that control objectives always reflect the most current regulatory requirements and best practices.
 
-\[Changed\]
+ \[Changed\]
 
--   Removed the issue summarization step from the issue resolution agentic workflow as part of performance improvements.
+ -   Removed the issue summarization step from the issue resolution agentic workflow as part of performance improvements.
 -   Added support for LTS models for previously released Now Assist IRM skills.
 -   Enhanced security by implementing role masking.
 -   Rationalization process now auto-generates recommendations using the skill when the Rationalize button is clicked on a control objective.
 -   Added a quick summary view for each recommendation card and clarified task sequence during the analyze step of the rationalization process.
 -   Control objective requirements and control requirements are now considered in the rationalization process for control objectives.
 
-\[Fixed\]
+ \[Fixed\]
 
--   Implemented a fix to skip redundant approvals in the rationalization process.
+ -   Implemented a fix to skip redundant approvals in the rationalization process.
 -   Resolved issues related to synchronizing impacted items and automatic refreshes.
 
 </td></tr><tr><td>
@@ -11052,9 +11062,9 @@ Now Assist for Public Sector Digital Services \(PSDS\)
 
 Now LLM LTS Support
 
-Java 21 Compliant
+ Java 21 Compliant
 
-Security Directive Compliance
+ Security Directive Compliance
 
 </td></tr><tr><td>
 
@@ -11132,7 +11142,7 @@ Now Assist for Strategic Portfolio Management \(SPM\)
 
 Enhanced
 
--   Project Insights Generation- Automatically track critical project signals such as delayed milestones, resource constraints, and task slippages and receive proactive insights either on a scheduled cadence or on-demand
+ -   Project Insights Generation- Automatically track critical project signals such as delayed milestones, resource constraints, and task slippages and receive proactive insights either on a scheduled cadence or on-demand
 -   Agile story generation - Convert epics into high-quality, actionable user stories faster and more intelligently through an improved, agentic, context-aware flow
 -   New
     -   Acceptance criteria generation - Produce clear, consistent, and context-aware acceptance criteria using predefined templates and story-specific information
@@ -11163,7 +11173,7 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 The following is the list of features that we are shipping in the December Z Release:-
 
-Risk signal and Issue record summarisation: The Risk Signal and Issues Summary skill provides you with a summary of the risk signal and issues record, along with associated risk occurrences and solutions. This skill is available in the CSM/FSM Configurable Workspace and in Core UI.
+ Risk signal and Issue record summarisation: The Risk Signal and Issues Summary skill provides you with a summary of the risk signal and issues record, along with associated risk occurrences and solutions. This skill is available in the CSM/FSM Configurable Workspace and in Core UI.
 
 </td></tr><tr><td>
 
@@ -11260,9 +11270,9 @@ Now Assist in Knowledge Management
 
 1. Knowledge Gaps
 
-2. Article optimization
+ 2. Article optimization
 
-3. Create/update article using custom instructions
+ 3. Create/update article using custom instructions
 
 </td></tr><tr><td>
 
@@ -11322,7 +11332,7 @@ Public Sector Digital Services AI Agent Collection
 
 Made app compliant with December security directives
 
-NowLLM LTS Support
+ NowLLM LTS Support
 
 </td></tr><tr><td>
 
@@ -11353,7 +11363,7 @@ RSM AI agent collection
 
 The Store Inquiry AI agent enables retail HQ teams by:
 
--   Searching intelligently across knowledge base articles, past cases, and attached documents to provide clear, policy-compliant responses.
+ -   Searching intelligently across knowledge base articles, past cases, and attached documents to provide clear, policy-compliant responses.
 -   Providing AI-generated resolution steps and prompting agents to accept, edit, or reject the suggestions to reduce manual effort and speed up decision-making.
 -   Learning continuously from resolved queries to offer more accurate and relevant suggestions over time.
 
@@ -11434,7 +11444,7 @@ Voice input for Now Assist
 
 Defects fixed:
 
-1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
+ 1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
 2.  Fixed the issue where now-voice-input can be disabled when needed.
 
 </td></tr></tbody>
@@ -11606,6 +11616,8 @@ Defects fixed:
 
 ## Suite version 28.6.20260611 - Zurich Patch 6
 
+**Note:** These versions have been withdrawn. See [June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md) for the June release versions.
+
 <table><thead><tr><th>
 
 App name
@@ -11715,7 +11727,7 @@ AI Agents for ITAM
 
 With the Now Assist for Hardware Asset Management \(HAM\) application, Hardware Asset Managers can streamline and automate the process of sourcing hardware assets by using AI agents included in the agentic workflow. The Now Assist for Hardware Asset Management \(HAM\) application contains agentic workflows to automate the sourcing, transfer, and procurement of assets upon request.
 
--   Role masking in AI Agent Studio to execute agentic workflows, AI agents, and tools.
+ -   Role masking in AI Agent Studio to execute agentic workflows, AI agents, and tools.
 -   New security configuration pages in AI Agent Studio.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 -   Run and review agentic workflow executions on forms in the Core UI and workspaces.
@@ -11847,11 +11859,11 @@ ATF troubleshooting agent
 
 See RCA and steps to fix your failed ATF test
 
-Changed: none
+ Changed: none
 
-Fixed: none
+ Fixed: none
 
-Removed: none
+ Removed: none
 
 </td></tr><tr><td>
 
@@ -11865,7 +11877,7 @@ Catalog Conversational Coverage
 
 New
 
-Included tailored recommendations to help you improve your catalog items for the conversational channel, making it easier for you to identify areas that need enhancement.
+ Included tailored recommendations to help you improve your catalog items for the conversational channel, making it easier for you to identify areas that need enhancement.
 
 </td></tr><tr><td>
 
@@ -11911,7 +11923,7 @@ Complaint Case AI Agents collection
 
 Enhancements and defects fixed:
 
-1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
+ 1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
 2.  Complaint Case Intake Agent
     -   Added the hyperlink to the complaint case number.
     -   Prompt enhancements on location and products
@@ -11981,9 +11993,9 @@ Customer Service Management AI agent collection
 
 NewCustomer 360 is an AI-powered assistant for the human agent that answers natural language questions about customers, cases, products, and interactions. This feature helps agents quickly access critical information and resolve cases.
 
-Changed
+ Changed
 
-Role configuration is required for Agentic workflows and AI agents.
+ Role configuration is required for Agentic workflows and AI agents.
 
 </td></tr><tr><td>
 
@@ -12046,7 +12058,7 @@ Flow Designer GenAI
 
 New:
 
-Users will have an option to call an agent from workflow
+ Users will have an option to call an agent from workflow
 
 </td></tr><tr><td>
 
@@ -12109,11 +12121,11 @@ GRC Common GenAI
 
 New:
 
-Issue Submission Agent:
+ Issue Submission Agent:
 
-The issue submission AI agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. The agent helps structure the issue and recommends relevant controls, entities, and policies based on the input provided. This ensures that the issue is well-defined and enriched with contextual information before it is submitted.
+ The issue submission AI agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. The agent helps structure the issue and recommends relevant controls, entities, and policies based on the input provided. This ensures that the issue is well-defined and enriched with contextual information before it is submitted.
 
-Changed:
+ Changed:
 
 </td></tr><tr><td>
 
@@ -12166,11 +12178,11 @@ HR Talent AI Agent Collection
 
 Whats New The Employee feedback collection AI Agent streamlines the process of gathering employee feedback, ensuring managers receive timely, structured, and actionable input. Persona: ManagerThe agent:
 
--   Suggests relevant collaborators of the employee using data from Employee Profile, Talent Development apps, and optional Microsoft Graph interaction insights \(using the Microsoft Exchange Online spoke\)
+ -   Suggests relevant collaborators of the employee using data from Employee Profile, Talent Development apps, and optional Microsoft Graph interaction insights \(using the Microsoft Exchange Online spoke\)
 -   Sends requests as EC To-Dos for the feedback providers and sends automated reminders
 -   Consolidates all feedback responses into a single view for easier evaluation
 
-Updates
+ Updates
 
 </td></tr><tr><td>
 
@@ -12198,7 +12210,7 @@ IRM Risk GenAI
 
 \[New\]
 
-Now LLM LTS and Role masking support are now enabled for risk event summarization
+ Now LLM LTS and Role masking support are now enabled for risk event summarization
 
 </td></tr><tr><td>
 
@@ -12212,7 +12224,7 @@ IT Service Management AI voice agent collection
 
 Now Assist for ITSM release notes \[Zurich\]
 
--   New: Initial release for ITSM Voice AI agent. See the Key features section for more details.
+ -   New: Initial release for ITSM Voice AI agent. See the Key features section for more details.
 -   Changed: n/a
 -   Fixed: n/a
 -   Removed: n/a
@@ -12255,7 +12267,7 @@ Manage Order Operations
 
 Initial Release:
 
--   Automate the process of creating order cases on the Business Portal.
+ -   Automate the process of creating order cases on the Business Portal.
 -   Retrieve customer inputs in text or voice format, classify intent, and route them to the Virtual Agent for action.
 -   Identify the earliest possible delivery date for expedited product delivery on a specific customer order.
 -   Create an order case autonomously based on the inputs on the Now Assist panel.
@@ -12375,7 +12387,7 @@ Now Assist for Collaborative Work Management \(CWM\)
 -   Changed
 -   Fixed: Performance improvement of Now Assist skills in CWM
 
-Deprecated/Removed
+ Deprecated/Removed
 
 </td></tr><tr><td>
 
@@ -12450,7 +12462,7 @@ Now Assist for Hardware Asset Management
 
 In this release, users with the procurement\_user role can access the Help manage hardware asset requests agentic workflow including the following AI agents:
 
--   Hardware asset management sourcing AI agent
+ -   Hardware asset management sourcing AI agent
 -   Transfer order creation AI agent
 -   Purchase order creation AI agent
 -   Hardware asset repair process \(patch\)
@@ -12467,13 +12479,13 @@ Now Assist for HR Service Delivery \(HRSD\)
 
 New / enhancements- The case summarization skill is enabled for the attachment summaries
 
-- The resolution notes skill is enabled with NACM for the shortening/elaborating resolution notes summary
+ - The resolution notes skill is enabled with NACM for the shortening/elaborating resolution notes summary
 
-- On the Agent Workspace application, the resolution notes skill is enabled to auto-populate Close notes field
+ - On the Agent Workspace application, the resolution notes skill is enabled to auto-populate Close notes field
 
-Changed:
+ Changed:
 
-- Enhanced security features revisit the ACL roles and access;Support to GPT OSS model
+ - Enhanced security features revisit the ACL roles and access;Support to GPT OSS model
 
 </td></tr><tr><td>
 
@@ -12487,16 +12499,16 @@ Now Assist for Impact
 
 Consumption Report summary
 
--   Produces an insightful, human-readable summary which highlights key business objectives with active and completed initiatives and accelerators.
+ -   Produces an insightful, human-readable summary which highlights key business objectives with active and completed initiatives and accelerators.
 -   The summary flags any concerning trends in severity \(P1/P2 dominance\).
 -   It also reviews premium seat utilization and provides recommendations.
 -   Ability to provide Feedback for the summary
 -   Ability to refresh the summary
 -   Ability to Copy summary
 
-Code Fix AI agent
+ Code Fix AI agent
 
--   Eliminates technical debt backlog by deploying an embedded AI agent within the script editor that identifies issues in real-time and generates intelligent code fixes through Now Assist integration.\_
+ -   Eliminates technical debt backlog by deploying an embedded AI agent within the script editor that identifies issues in real-time and generates intelligent code fixes through Now Assist integration.\_
 -   Removes specialized expertise barriers by enabling developers to interact conversationally with the AI agent for code modifications and apply or reject suggested fixes with feedback mechanisms.\_
 -   Maintains development velocity by allowing immediate technical debt resolution within existing workflows without context switching or requiring specialized knowledge.
 
@@ -12512,39 +12524,39 @@ Now Assist for IRM
 
 \[New\]
 
-Issue submission agent:
+ Issue submission agent:
 
-The Issue Submission agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. The agent helps structure the issue and recommends relevant controls, entities, and policies based on the input provided. This ensures that the issue is well-defined and enriched with contextual information before it is submitted.
+ The Issue Submission agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. The agent helps structure the issue and recommends relevant controls, entities, and policies based on the input provided. This ensures that the issue is well-defined and enriched with contextual information before it is submitted.
 
-Check product documentation for activation details.
+ Check product documentation for activation details.
 
-Suggest potential risks agentic workflow
+ Suggest potential risks agentic workflow
 
--   AI-driven risk identification Conversational AI automatically analyzes entity context and surfaces relevant risks from internal libraries, industry patterns, and optional external sources.
+ -   AI-driven risk identification Conversational AI automatically analyzes entity context and surfaces relevant risks from internal libraries, industry patterns, and optional external sources.
 -   Consolidated risk view Generates a single, ready-to-triage risk list, reducing manual effort and duplication while ensuring comprehensive coverage.
 -   Guided user experience Embedded in the Now Assist Panel, the workflow provides step-by-step guidance for risk domain selection, simplifying complex risk discovery.
 -   Proactive intelligence for emerging risks External scanning capabilities deliver early warnings of new threats, helping organizations stay ahead of evolving regulations and trends.
 
-Control objective impact analyzer:
+ Control objective impact analyzer:
 
-The citation-driven impacted control objective identifier uses generative AI to analyze changes in citations and identify control objectives that should be reviewed based on the modified citation content. It intelligently matches changed citation requirements with existing COs to suggest potential updates, helping teams maintain alignment between citations and control objectives.
+ The citation-driven impacted control objective identifier uses generative AI to analyze changes in citations and identify control objectives that should be reviewed based on the modified citation content. It intelligently matches changed citation requirements with existing COs to suggest potential updates, helping teams maintain alignment between citations and control objectives.
 
-Control objective change agent:
+ Control objective change agent:
 
-This introduces an AI-driven capability to automatically update a control objective's description and supplemental guidance whenever its associated citations are modified. Leveraging agentic AI, the enhancement analyzes the changes in citation content, identifies their impact on the control objective, and generates precise, contextually relevant updates. Users can review and approve AI-suggested changes directly within the workflow, ensuring that control objectives always reflect the most current regulatory requirements and best practices.
+ This introduces an AI-driven capability to automatically update a control objective's description and supplemental guidance whenever its associated citations are modified. Leveraging agentic AI, the enhancement analyzes the changes in citation content, identifies their impact on the control objective, and generates precise, contextually relevant updates. Users can review and approve AI-suggested changes directly within the workflow, ensuring that control objectives always reflect the most current regulatory requirements and best practices.
 
-\[Changed\]
+ \[Changed\]
 
--   Removed the issue summarization step from the issue resolution agentic workflow as part of performance improvements.
+ -   Removed the issue summarization step from the issue resolution agentic workflow as part of performance improvements.
 -   Added support for LTS models for previously released Now Assist IRM skills.
 -   Enhanced security by implementing role masking.
 -   Rationalization process now auto-generates recommendations using the skill when the Rationalize button is clicked on a control objective.
 -   Added a quick summary view for each recommendation card and clarified task sequence during the analyze step of the rationalization process.
 -   Control objective requirements and control requirements are now considered in the rationalization process for control objectives.
 
-\[Fixed\]
+ \[Fixed\]
 
--   Implemented a fix to skip redundant approvals in the rationalization process.
+ -   Implemented a fix to skip redundant approvals in the rationalization process.
 -   Resolved issues related to synchronizing impacted items and automatic refreshes.
 
 </td></tr><tr><td>
@@ -12644,9 +12656,9 @@ Now Assist for Public Sector Digital Services \(PSDS\)
 
 Now LLM LTS Support
 
-Java 21 Compliant
+ Java 21 Compliant
 
-Security Directive Compliance
+ Security Directive Compliance
 
 </td></tr><tr><td>
 
@@ -12724,7 +12736,7 @@ Now Assist for Strategic Portfolio Management \(SPM\)
 
 Enhanced
 
--   Project Insights Generation- Automatically track critical project signals such as delayed milestones, resource constraints, and task slippages and receive proactive insights either on a scheduled cadence or on-demand
+ -   Project Insights Generation- Automatically track critical project signals such as delayed milestones, resource constraints, and task slippages and receive proactive insights either on a scheduled cadence or on-demand
 -   Agile story generation - Convert epics into high-quality, actionable user stories faster and more intelligently through an improved, agentic, context-aware flow
 -   New
     -   Acceptance criteria generation - Produce clear, consistent, and context-aware acceptance criteria using predefined templates and story-specific information
@@ -12755,7 +12767,7 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 The following is the list of features that we are shipping in the December Z Release:-
 
-Risk signal and Issue record summarisation: The Risk Signal and Issues Summary skill provides you with a summary of the risk signal and issues record, along with associated risk occurrences and solutions. This skill is available in the CSM/FSM Configurable Workspace and in Core UI.
+ Risk signal and Issue record summarisation: The Risk Signal and Issues Summary skill provides you with a summary of the risk signal and issues record, along with associated risk occurrences and solutions. This skill is available in the CSM/FSM Configurable Workspace and in Core UI.
 
 </td></tr><tr><td>
 
@@ -12852,9 +12864,9 @@ Now Assist in Knowledge Management
 
 1. Knowledge Gaps
 
-2. Article optimization
+ 2. Article optimization
 
-3. Create/update article using custom instructions
+ 3. Create/update article using custom instructions
 
 </td></tr><tr><td>
 
@@ -12894,7 +12906,7 @@ Public Sector Digital Services AI Agent Collection
 
 Made app compliant with December security directives
 
-NowLLM LTS Support
+ NowLLM LTS Support
 
 </td></tr><tr><td>
 
@@ -12925,7 +12937,7 @@ RSM AI agent collection
 
 The Store Inquiry AI agent enables retail HQ teams by:
 
--   Searching intelligently across knowledge base articles, past cases, and attached documents to provide clear, policy-compliant responses.
+ -   Searching intelligently across knowledge base articles, past cases, and attached documents to provide clear, policy-compliant responses.
 -   Providing AI-generated resolution steps and prompting agents to accept, edit, or reject the suggestions to reduce manual effort and speed up decision-making.
 -   Learning continuously from resolved queries to offer more accurate and relevant suggestions over time.
 
@@ -13006,7 +13018,7 @@ Voice input for Now Assist
 
 Defects fixed:
 
-1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
+ 1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
 2.  Fixed the issue where now-voice-input can be disabled when needed.
 
 </td></tr></tbody>
@@ -13178,6 +13190,8 @@ Defects fixed:
 
 ## Suite version 28.7.20260611 - Zurich Patch 7
 
+**Note:** These versions have been withdrawn. See [June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md) for the June release versions.
+
 <table><thead><tr><th>
 
 App name
@@ -13264,7 +13278,7 @@ Complaint Case AI Agents collection
 
 Enhancements and defects fixed:
 
-1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
+ 1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
 2.  Complaint Case Intake Agent
     -   Added the hyperlink to the complaint case number.
     -   Prompt enhancements on location and products
@@ -13348,7 +13362,7 @@ Manage Order Operations
 
 Initial Release:
 
--   Automate the process of creating order cases on the Business Portal.
+ -   Automate the process of creating order cases on the Business Portal.
 -   Retrieve customer inputs in text or voice format, classify intent, and route them to the Virtual Agent for action.
 -   Identify the earliest possible delivery date for expedited product delivery on a specific customer order.
 -   Create an order case autonomously based on the inputs on the Now Assist panel.
@@ -13511,7 +13525,7 @@ Public Sector Digital Services AI Agent Collection
 
 Made app compliant with December security directives
 
-NowLLM LTS Support
+ NowLLM LTS Support
 
 </td></tr><tr><td>
 
@@ -13537,7 +13551,7 @@ Voice input for Now Assist
 
 Defects fixed:
 
-1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
+ 1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
 2.  Fixed the issue where now-voice-input can be disabled when needed.
 
 </td></tr></tbody>
@@ -13722,6 +13736,8 @@ Defects fixed:
 
 ## Suite version 28.8.20260611 - Zurich Patch 8
 
+**Note:** These versions have been withdrawn. See [June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md) for the June release versions.
+
 <table><thead><tr><th>
 
 App name
@@ -13796,7 +13812,7 @@ Complaint Case AI Agents collection
 
 Enhancements and defects fixed:
 
-1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
+ 1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
 2.  Complaint Case Intake Agent
     -   Added the hyperlink to the complaint case number.
     -   Prompt enhancements on location and products
@@ -13919,7 +13935,7 @@ Now Assist for Digital End-user Experience \(DEX\)
 
 \* Changed
 
-- Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
+ - Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
 
 </td></tr><tr><td>
 
@@ -13981,7 +13997,7 @@ Now Assist for Vulnerability Response
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -14053,7 +14069,7 @@ Public Sector Digital Services AI Agent Collection
 
 Made app compliant with December security directives
 
-NowLLM LTS Support
+ NowLLM LTS Support
 
 </td></tr><tr><td>
 
@@ -14100,7 +14116,7 @@ Voice input for Now Assist
 
 Defects fixed:
 
-1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
+ 1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
 2.  Fixed the issue where now-voice-input can be disabled when needed.
 
 </td></tr></tbody>
@@ -14292,6 +14308,8 @@ Defects fixed:
 
 ## Suite version 28.9.20260611 - Zurich Patch 9
 
+**Note:** These versions have been withdrawn. See [June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md) for the June release versions.
+
 <table><thead><tr><th>
 
 App name
@@ -14378,7 +14396,7 @@ Common AI Framework
 
 New:
 
-AI Framework that autonomously discovers schema, samples, and aggregates live ServiceNow tables, and presents a sourced answer without modifying any data.
+ AI Framework that autonomously discovers schema, samples, and aggregates live ServiceNow tables, and presents a sourced answer without modifying any data.
 
 </td></tr><tr><td>
 
@@ -14392,7 +14410,7 @@ Complaint Case AI Agents collection
 
 Enhancements and defects fixed:
 
-1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
+ 1.  AI modified field indicator. AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.
 2.  Complaint Case Intake Agent
     -   Added the hyperlink to the complaint case number.
     -   Prompt enhancements on location and products
@@ -14426,7 +14444,7 @@ Dynamic Guidance
 
 Fixed:
 
-Updated the version for ServiceNow Docs Connector to fix dependency failures
+ Updated the version for ServiceNow Docs Connector to fix dependency failures
 
 </td></tr><tr><td>
 
@@ -14502,7 +14520,7 @@ Now Assist for Digital End-user Experience \(DEX\)
 
 \* Changed
 
-- Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
+ - Engagement tool for DEX agents to obtain employee approval before auto-triggering device actions. This change integrates with ZTS so will not be published until ZTS is GA.
 
 </td></tr><tr><td>
 
@@ -14564,7 +14582,7 @@ Now Assist for Vulnerability Response
 
 New:
 
-The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
+ The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data across all types of findings within USEM.
 
 </td></tr><tr><td>
 
@@ -14593,7 +14611,7 @@ Public Sector Digital Services AI Agent Collection
 
 Made app compliant with December security directives
 
-NowLLM LTS Support
+ NowLLM LTS Support
 
 </td></tr><tr><td>
 
@@ -14654,7 +14672,7 @@ Voice input for Now Assist
 
 Defects fixed:
 
-1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
+ 1.  Fixed now-voice-input to display browser's microphone as active and shows recording only when needed.
 2.  Fixed the issue where now-voice-input can be disabled when needed.
 
 </td></tr></tbody>
