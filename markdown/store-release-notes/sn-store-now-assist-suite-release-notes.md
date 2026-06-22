@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
+last_updated: "2026-06-18"
+reading_time_minutes: 5
 ---
 
 # Now Assist Suite release notes
@@ -33,9 +33,27 @@ Suite version and compatible patch
 
 </th></tr></thead><tbody><tr><td>
 
-[June 11 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-11.md)
+[June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md)
 
 </td><td>
+
+-   28.5.20260618 - Zurich Patch 5
+-   28.6.20260618 - Zurich Patch 6
+-   28.7.20260618 - Zurich Patch 7
+-   28.8.20260618 - Zurich Patch 8
+-   28.9.20260618 - Zurich Patch 9
+-   28.10.20260618 - Zurich Patch 10
+-   29.1.20260618 - Australia Patch 1
+-   29.2.20260618 - Australia Patch 2
+-   29.3.20260618 - Australia Patch 3
+
+</td></tr><tr><td>
+
+[June 16 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-16.md)
+
+</td><td>
+
+29.0.20260611 - Australia Patch 0The following versions have been withdrawn:
 
 -   28.5.20260611 - Zurich Patch 5
 -   28.6.20260611 - Zurich Patch 6
@@ -43,7 +61,6 @@ Suite version and compatible patch
 -   28.8.20260611 - Zurich Patch 8
 -   28.9.20260611 - Zurich Patch 9
 -   28.10.20260611 - Zurich Patch 10
--   29.0.20260611 - Australia Patch 0
 -   29.1.20260611 - Australia Patch 1
 -   29.2.20260611 - Australia Patch 2
 -   29.3.20260611 - Australia Patch 3
