@@ -22,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-For a list of field types that are available in the ServiceNow AI Platform, see Field types.
+For a list of field types that are available in the ServiceNow AI Platform, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
 
 ## Procedure
 
-1.  Add a system property with the following settings:
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following settings:
 
     -   Name: **sn\_g\_app\_creator.field\_types**
     -   Type: string

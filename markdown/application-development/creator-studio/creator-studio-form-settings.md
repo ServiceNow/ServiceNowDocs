@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Creator Studio reference, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -107,7 +107,7 @@ Location settings define where the form appears in a catalog, how it's categoriz
 
 Select the catalog that represents the business area the app will use. For example, you could select a service catalog that contains software and laptop cables for an IT fulfillment app. Expand the caret for each catalog to see its sub-catalogs. Then select as many items in the catalogs as you need.
 
-If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in , and more about taxonomy, which is a categorization method, in .
+If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
 ## User access form settings
 

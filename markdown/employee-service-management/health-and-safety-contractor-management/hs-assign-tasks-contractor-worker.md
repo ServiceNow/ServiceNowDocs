@@ -26,15 +26,15 @@ Role required: sn\_hs\_crm.contractor\_coordinator
 
 2.  Open a contractor worker record to assign a task.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d70816e73">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d70612e73">
 
 Option
 
-</th><th align="left" id="d70816e76">
+</th><th align="left" id="d70612e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d70816e82">
+</th></tr></thead><tbody><tr><td id="d70612e82">
 
 **From a contractor company record**
 
@@ -46,7 +46,7 @@ Steps
 4.  In the **Workers** tab, select the worker from the list to assign a task to.
 
 
-</td></tr><tr><td id="d70816e127">
+</td></tr><tr><td id="d70612e127">
 
 **From Health and Safety user profile list**
 

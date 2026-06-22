@@ -18,7 +18,7 @@ Common use cases for field customization scripts.
 
 **Warning:** The customization described here was developed for use in specific instances, and is not supported by Now Support. This method is provided as-is and should be tested thoroughly before implementation. Post all questions and comments regarding this customization to our community [forum](http://community.service-now.com/).
 
-For more information, see .
+For more information, see [Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/api-server.md).
 
 ## Automatically populate a field
 
@@ -166,7 +166,7 @@ You can set date and time values in client scripts and script includes.
         g_form.setValue('put your field name here', ajax.getAnswer());});
     ```
 
-    For more information on running server-side scripts with the client, refer to GlideAjax.
+    For more information on running server-side scripts with the client, refer to [GlideAjax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/p_AJAX.md).
 
 -   **System script include**
 

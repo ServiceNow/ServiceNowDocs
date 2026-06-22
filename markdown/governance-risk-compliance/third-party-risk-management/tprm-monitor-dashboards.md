@@ -85,5 +85,5 @@ To learn more about creating and using TPRM dashboards, see:
 -   [Delete a TPRM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-delete-db.md)
 -   [TPRM Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-dashboards.md)
 
-For more information on dashboards, see .
+For more information on dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center-dashboards.md).
 

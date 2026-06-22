@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideDynamicAttributeStore API provides access to a dynamic attribute store data type, similar to other data types such as string, date, or date/time.
 
-This API provides methods that enable you to get and set dynamic schema attributes within a GlideDynamicAttribute object. These dynamic attributes enable each row in a table to contain different fields. The fields on which this data type is applied are shown as `dynamic_attribute_store` within the column data type description of the table. For more details on dynamic attributes, see Dynamic schema.
+This API provides methods that enable you to get and set dynamic schema attributes within a GlideDynamicAttribute object. These dynamic attributes enable each row in a table to contain different fields. The fields on which this data type is applied are shown as `dynamic_attribute_store` within the column data type description of the table. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 

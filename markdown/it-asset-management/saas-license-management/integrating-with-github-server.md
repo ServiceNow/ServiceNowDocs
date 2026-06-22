@@ -78,7 +78,7 @@ To create a GitHub Enterprise Server integration profile, request the Software A
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **GitHub Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **GitHub Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -88,15 +88,15 @@ If you’re using Software Asset Workspace, the option to create the GitHub Serv
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d219303e412">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d219353e413">
 
 Interface
 
-</th><th align="left" id="d219303e415">
+</th><th align="left" id="d219353e416">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d219303e421">
+</th></tr></thead><tbody><tr><td id="d219353e422">
 
 **Core UI**
 
@@ -107,7 +107,7 @@ Action
 3.  Select **GitHub Server Subscription Profile**.
 
 
-</td></tr><tr><td id="d219303e463">
+</td></tr><tr><td id="d219353e464">
 
 **Software Asset Workspace**
 
@@ -217,7 +217,7 @@ Use MID Server
 
 Option that enables your ServiceNow instance to use a MID Server for communication with your GitHub Enterprise Cloud applications.-   If your instance requires a MID Server, set this field to `true`.
 -   If your instance doesn’t require a MID Server, leave this field empty.
-**Important:** To enable this option, you must already have a MID Server set up on your instance. See MID Server for detailed instructions.
+**Important:** To enable this option, you must already have a MID Server set up on your instance. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/mid-server-landing.md) for detailed instructions.
 
 </td></tr><tr><td>
 

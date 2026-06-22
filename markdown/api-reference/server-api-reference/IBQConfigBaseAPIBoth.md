@@ -20,8 +20,8 @@ The Sales and Service API Core \(com.sn\_tmt\_core\) plugin must be activated fo
 
 See also:
 
--   
--   
+-   [Lead to Cash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/lead-to-cash-workflows.md)
+-   [Sales and Order Management Request Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/som_request_tracker.md)
 
 ## Extending the IBQConfigBase API
 
@@ -282,7 +282,7 @@ String
 
 </td><td>
 
-Optional. Specifies the type of declarative action being executed. For more information, see .Possible values:
+Optional. Specifies the type of declarative action being executed. For more information, see [Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-life-cycle-management-workflows.md).Possible values:
 
 -   disconnect
 -   modify
@@ -511,7 +511,7 @@ String
 
 </td><td>
 
-Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using .Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
+Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/entity-configuration-and-mapping.md).Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
 
 </td></tr><tr><td>
 
@@ -732,7 +732,7 @@ String
 
 </td><td>
 
-Optional. Specifies the type of declarative action being executed. For more information, see .Possible values:
+Optional. Specifies the type of declarative action being executed. For more information, see [Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-life-cycle-management-workflows.md).Possible values:
 
 -   disconnect
 -   modify
@@ -961,7 +961,7 @@ String
 
 </td><td>
 
-Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using .Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
+Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/entity-configuration-and-mapping.md).Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
 
 </td></tr><tr><td>
 
@@ -1167,7 +1167,7 @@ Optional. Sys\_id of the target record to be used for further processing, such a
 </td></tr></tbody>
 </table>The following example shows how to invoke processInboundQueueRequest\(\) method.
 
-**Note:** This method is called during the flow using . In the following example, the Lead to Cash Core PrimitiveUtil [commitInstance\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) method is used to provide the output.
+**Note:** This method is called during the flow using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/flow-designer.md). In the following example, the Lead to Cash Core PrimitiveUtil [commitInstance\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) method is used to provide the output.
 
 ```
 var gr = new GlideRecord('sn_tmt_core_inbound_queue');

@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideTransientDynamicAttribute API provides access to transient dynamic attribute metadata.
 
-This API provides methods that enable you to get transient dynamic attributes values that are added to a DynamicAttributeStore field and not defined in the Dynamic Attribute \[dynamic\_attribute\] table. Transient dynamic attributes are all handled as String data types and have no sys\_id. For more details on dynamic attributes, see Dynamic schema. The same methods are also available for dynamic attributes in the [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) API.
+This API provides methods that enable you to get transient dynamic attributes values that are added to a DynamicAttributeStore field and not defined in the Dynamic Attribute \[dynamic\_attribute\] table. Transient dynamic attributes are all handled as String data types and have no sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/dynamic-schema.md). The same methods are also available for dynamic attributes in the [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) API.
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
@@ -49,7 +49,7 @@ String
 
 </td><td>
 
-Value of the transient dynamic attribute's group name property.See also .
+Value of the transient dynamic attribute's group name property.See also [Create a dynamic attribute group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/create-dynamic-attribute-group.md).
 
 </td></tr></tbody>
 </table>In the following example, the value of the transient dynamic attribute object group name is displayed as `a`.

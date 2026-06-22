@@ -128,15 +128,15 @@ Optional description for this event profile.
 
 11. Select one of the import type and how often you want to import event data.
 
-<table id="choicetable_ehs_bq4_b2c"><thead><tr><th align="left" id="d55978e415">
+<table id="choicetable_ehs_bq4_b2c"><thead><tr><th align="left" id="d56009e415">
 
 Option
 
-</th><th align="left" id="d55978e418">
+</th><th align="left" id="d56009e418">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d55978e424">
+</th></tr></thead><tbody><tr><td id="d56009e424">
 
 **Ongoing Events Ingestion**
 
@@ -147,7 +147,7 @@ Option to import events at a regular interval that is defined with a start date,
 -   **Input initial Ingestion Time**
 
 
-</td></tr><tr><td id="d55978e448">
+</td></tr><tr><td id="d56009e448">
 
 **One Time Retrieval**
 

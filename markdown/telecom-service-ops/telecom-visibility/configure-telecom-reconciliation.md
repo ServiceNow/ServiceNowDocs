@@ -42,7 +42,7 @@ ITOM Discovery License plugin \(**com.snc.itom.discovery.license**\). You must a
 
 ITOM Licensing plugin \(**com.snc.itom.license**\).
 
-For more information, see .
+For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
 
 ## Installation
 
@@ -58,7 +58,7 @@ See [TSOM Visibility Installation Disclaimer](https://raw.githubusercontent.com/
 
 The Telecom Discrepancy Identification &amp; Reconciliation solution relies on CMDB Health/Compliance, which runs Certification Audits on selected tables and records in the CMDB. It operates independently of Discovery and can be run on-demand or scheduled.
 
-For more information about CMDB Compliance, see  and .
+For more information about CMDB Compliance, see [CMDB Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/c_Compliance.md) and [Certification audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/c_CertificationAudits.md).
 
 ## Procedure
 

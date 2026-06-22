@@ -44,15 +44,15 @@ You can also index the content from an indexed source for external documents. Fo
 
     \[Omitted image "ais-start-indexing.png"\] Alt text: Start index job dialog box in the AI Search Admin console, where you can index search content either fully or for specific source tables. It also includes an option to test the indexed sources before beginning the actual indexing process.
 
-<table id="choicetable_wty_414_tdc"><thead><tr><th align="left" id="d94183e156">
+<table id="choicetable_wty_414_tdc"><thead><tr><th align="left" id="d94243e156">
 
 Option
 
-</th><th align="left" id="d94183e159">
+</th><th align="left" id="d94243e159">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d94183e165">
+</th></tr></thead><tbody><tr><td id="d94243e165">
 
 **Enable AI Search indexing content from internal indexed sources, including both parent table and its child tables**
 
@@ -62,7 +62,7 @@ Procedure
 2.  Select **Start**.
 
 
-</td></tr><tr><td id="d94183e189">
+</td></tr><tr><td id="d94243e189">
 
 **Enable AI Search indexing content from the source tables, including only the selected child tables**
 
@@ -73,7 +73,7 @@ Procedure
 3.  Select **Start**.
 
 
-</td></tr><tr><td id="d94183e221">
+</td></tr><tr><td id="d94243e221">
 
 **Test the indexed source configuration**
 

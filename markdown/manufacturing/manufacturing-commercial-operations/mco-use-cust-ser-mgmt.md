@@ -16,5 +16,5 @@ breadcrumb: [Additional workflows, Using Manufacturing Commercial Operations, Ma
 
 Agents and managers can use Customer Service Management application to create cases for customers, route cases to agents with the required skills and availability, manage customer information and case activity, and connect with other applications and departments to assist with case resolution.
 
-To learn how to use the Customer Service Management, see .
+To learn how to use the Customer Service Management, see [Using Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/using-csm.md).
 

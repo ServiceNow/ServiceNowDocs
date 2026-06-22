@@ -22,7 +22,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 ## About this task
 
-The transfer order line for drop-off must be in **Draft** or **Requested** state. For more information on transfer order line stages, refer to .
+The transfer order line for drop-off must be in **Draft** or **Requested** state. For more information on transfer order line stages, refer to [Transfer orders for Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-management/transfer-orders-for-am.md).
 
 ## Procedure
 

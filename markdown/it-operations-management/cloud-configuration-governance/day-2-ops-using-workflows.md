@@ -34,11 +34,11 @@ Learn more
 
 To learn about workflows in general, see:
 
--   Workflow overview
--   Create a workflow from a table
+-   [Workflow overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md)
+-   [Create a workflow from a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/legacy-workflow/t_CreateAWorkflowFromATable.md)
 
 To learn about how to work with variables in workflows, see:
 
--   Workflow input variables
--   Using variables in a workflow
+-   [Workflow input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md)
+-   [Using variables in a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md)
 

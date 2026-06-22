@@ -30,7 +30,7 @@ Automation Center provides an integration with the ServiceNow® RPA Hub applicat
 
 ## Integration with Document Intelligence
 
-Automation Center integrates with Document Intelligence enabling you to get the Document Intelligence data into ServiceNow® instance. You can analyze the data from Document Intelligence using Automation Center. For more information, see .
+Automation Center integrates with Document Intelligence enabling you to get the Document Intelligence data into ServiceNow® instance. You can analyze the data from Document Intelligence using Automation Center. For more information, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
 
 ## Integration with UiPath
 
@@ -42,7 +42,7 @@ Automation Center integrates with third-party vendors enabling you to get their 
 
 ## Automation Center API
 
-The Automation Center API enables you to create and update processes, robots, and execution jobs. For more information, see .
+The Automation Center API enables you to create and update processes, robots, and execution jobs. For more information, see [Automation Center API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/auto-api.md).
 
 ## Integration with Requirement Intake Diagram
 

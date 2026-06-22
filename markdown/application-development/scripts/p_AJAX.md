@@ -39,7 +39,7 @@ Using GlideAjax:
     -   **sysparm\_type**
 -   Code is then executed with the getXML\(\) or getXMLWait\(\) functions.
 
-For additional information, refer to the GlideAjax API.
+For additional information, refer to the [GlideAjax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_GlideAjaxAPI.md) API.
 
 ## Examples of asynchronous GlideAjax
 

@@ -42,15 +42,15 @@ Review the existing **Notify Exposed Contact** outreach notification to familiar
 
 6.  Specify how to send the outreach notification.
 
-<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d199161e165">
+<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d198967e165">
 
 Option
 
-</th><th align="left" id="d199161e168">
+</th><th align="left" id="d198967e168">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d199161e174">
+</th></tr></thead><tbody><tr><td id="d198967e174">
 
 **Send an email notification**
 
@@ -58,7 +58,7 @@ Steps
 
 Select the **Email** check box.
 
-</td></tr><tr><td id="d199161e186">
+</td></tr><tr><td id="d198967e186">
 
 **Select a different notification**
 
@@ -66,7 +66,7 @@ Select the **Email** check box.
 
 Click the lookup icon \(\[Omitted image "icon-lookup.png"\] Alt text: look up icon\) and select an [email notification configured for the exposure notice outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contact-tracing/configure-notify-exp-contact-email.md).
 
-</td></tr><tr><td id="d199161e211">
+</td></tr><tr><td id="d198967e211">
 
 **Send a mobile push notification**
 
@@ -79,7 +79,7 @@ The check box is active if you have the ServiceNow NowMobile App Screens and App
 2.  Modify the text in the **Push message** and **Detailed Push Message** fields.
  Push notifications use the ServiceNow Request Application notification device. When you register the mobile application to an instance, this notification device is automatically created in the user's notification preferences. Make sure that this device is active for the users that you want to receive the push notification.
 
-</td></tr><tr><td id="d199161e246">
+</td></tr><tr><td id="d198967e246">
 
 **Use a custom notification channel**
 

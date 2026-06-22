@@ -32,15 +32,15 @@ Role required: admin
 
 4.  Set the variant conditions on the following record pages.
 
-<table id="choicetable_zrz_43y_dyb"><thead><tr><th align="left" id="d49079e89">
+<table id="choicetable_zrz_43y_dyb"><thead><tr><th align="left" id="d48946e89">
 
 Claims page variant
 
-</th><th align="left" id="d49079e92">
+</th><th align="left" id="d48946e92">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d49079e98">
+</th></tr></thead><tbody><tr><td id="d48946e98">
 
 **Record page for the adjuster task**
 
@@ -48,7 +48,7 @@ Navigation to page records
 
 To access the record page for the adjuster task, navigate to: **CSM Configurable Workspace** &gt; **Record** &gt; **Claim Adjuster Record Page**.The record page for the adjuster task is a variant of CSM default record page. For more information, see .
 
-</td></tr><tr><td id="d49079e124">
+</td></tr><tr><td id="d48946e124">
 
 **Claim workspace page**
 
@@ -56,7 +56,7 @@ To access the record page for the adjuster task, navigate to: **CSM Configurable
 
 To access the Claim workspace page for updates, navigate to page collection: **CSM default record post-Details** &gt; **Claim workspace** &gt; **Claim Workspace Default**.
 
-</td></tr><tr><td id="d49079e145">
+</td></tr><tr><td id="d48946e145">
 
 **Fraud score page**
 
@@ -64,7 +64,7 @@ To access the Claim workspace page for updates, navigate to page collection: **C
 
 To access the Fraud score page for updates, navigate to page collection: **CSM default record post-Details** &gt; **Fraud score** &gt; **Default**.
 
-</td></tr><tr><td id="d49079e166">
+</td></tr><tr><td id="d48946e166">
 
 **Claim Summary page**
 

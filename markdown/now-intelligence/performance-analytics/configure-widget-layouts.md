@@ -32,15 +32,15 @@ Role required: User. dashboard\_admin for all dashboards, or any role for dashbo
 
 4.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d39628e118">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d39650e118">
 
 Action
 
-</th><th align="left" id="d39628e121">
+</th><th align="left" id="d39650e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39628e127">
+</th></tr></thead><tbody><tr><td id="d39650e127">
 
 **Show or hide the widget border, header, and title**
 
@@ -56,7 +56,7 @@ Steps
 
  It is not possible to change the title of a widget from within a dashboard. The title is taken from the visualization the widget is based on. Edit the visualization itself to change the title.
 
-</td></tr><tr><td id="d39628e175">
+</td></tr><tr><td id="d39650e175">
 
 **Change the widget title color and header color**
 
@@ -67,7 +67,7 @@ Steps
 3.  In the color picker, use the slider to choose a hue and select a color to choose it. You can also enter the hexadecimal code for the color in the **Title color** or **Header color** field. Delete the hexadecimal code to return to the default title or header color.
  **Note:** When you select a dark header color, the icons in the header change to white. When you select a light header color, the icons in the header change to black.
 
-</td></tr><tr><td id="d39628e213">
+</td></tr><tr><td id="d39650e213">
 
 **Resize or change the layout of widgets**
 
@@ -79,7 +79,7 @@ Drag to move and resize widgets.
 -   To make a widget smaller, point to the widget header and press SHIFT as you click the resize icon.
 
 
-</td></tr><tr><td id="d39628e237">
+</td></tr><tr><td id="d39650e237">
 
 **Apply a dashboard background color**
 
@@ -94,7 +94,7 @@ Drag to move and resize widgets.
 
 Core UI dashboard backgrounds are not themeable with custom colors.
 
-</td></tr><tr><td id="d39628e280">
+</td></tr><tr><td id="d39650e280">
 
 **Apply a quick layout to a dashboard**
 
@@ -104,7 +104,7 @@ Core UI dashboard backgrounds are not themeable with custom colors.
 2.  Click a layout to snap the widgets against. Resize or change the layout of widgets as desired.
 
 
-</td></tr><tr><td id="d39628e303">
+</td></tr><tr><td id="d39650e303">
 
 **Delete a widget from the dashboard**
 

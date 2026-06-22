@@ -20,7 +20,7 @@ Summarize complex orders across products, services, and fulfillment tasks, enabl
 
 ## Standalone AI agents
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see .
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 
 For information on the standalone Order Management AI agents, see [Standalone agents in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-om-ai-agents.md).
 

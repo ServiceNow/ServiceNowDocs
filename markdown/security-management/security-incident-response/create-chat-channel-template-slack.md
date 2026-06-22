@@ -46,15 +46,15 @@ The new channel that you create will be your channel name in Slack as well. You 
 
 8.  On the form, fill the fields.
 
-<table id="choicetable_t4z_2qt_gbc"><thead><tr><th align="left" id="d176656e162">
+<table id="choicetable_t4z_2qt_gbc"><thead><tr><th align="left" id="d176691e162">
 
 Field
 
-</th><th align="left" id="d176656e165">
+</th><th align="left" id="d176691e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d176656e171">
+</th></tr></thead><tbody><tr><td id="d176691e171">
 
 **__Chat Team Configuration__**
 
@@ -62,7 +62,7 @@ Description
 
 Name of the Chat Team configuration. For example, Slack channel configuration.
 
-</td></tr><tr><td id="d176656e181">
+</td></tr><tr><td id="d176691e181">
 
 **__Channel Name__**
 
@@ -74,7 +74,7 @@ Name of the channel. For example, legal.**Note:**
 -   The new channel that you create here will be your channel name in Slack as well. You can search for the same channel and add your conversations.
 
 
-</td></tr><tr><td id="d176656e205">
+</td></tr><tr><td id="d176691e205">
 
 **__Channel Description__**
 
@@ -82,7 +82,7 @@ Name of the channel. For example, legal.**Note:**
 
 Unique description for the channel.
 
-</td></tr><tr><td id="d176656e215">
+</td></tr><tr><td id="d176691e215">
 
 **__Channel Users__**
 
@@ -90,7 +90,7 @@ Unique description for the channel.
 
 Select the **Unlock Channel Users** icon, and add the users who can access this channel from the lookup list. Select the **Lock Channel Users** icon to lock the selected list of channel users.
 
-</td></tr><tr><td id="d176656e234">
+</td></tr><tr><td id="d176691e234">
 
 **__Channel User Groups__**
 

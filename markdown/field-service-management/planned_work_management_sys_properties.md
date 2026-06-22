@@ -7,7 +7,7 @@ release: yokohama
 product: Field Service Management
 classification: field-service-management
 topic_type: reference
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Planned Work Management Components, Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
 ---

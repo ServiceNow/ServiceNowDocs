@@ -32,15 +32,15 @@ Role required: facilities\_staff
 
 4.  Continue with one of the following options.
 
-<table id="choicetable_WorkbenchAccess"><thead><tr><th align="left" id="d38103e99">
+<table id="choicetable_WorkbenchAccess"><thead><tr><th align="left" id="d37687e99">
 
 Option
 
-</th><th align="left" id="d38103e102">
+</th><th align="left" id="d37687e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d38103e108">
+</th></tr></thead><tbody><tr><td id="d37687e108">
 
 **To remove a space from the zone**
 
@@ -48,7 +48,7 @@ Action
 
 Click a space within the zone. **Note:** The space turns red indicating that it will be removed when the update is applied.
 
-</td></tr><tr><td id="d38103e120">
+</td></tr><tr><td id="d37687e120">
 
 **To add a space to the zone**
 

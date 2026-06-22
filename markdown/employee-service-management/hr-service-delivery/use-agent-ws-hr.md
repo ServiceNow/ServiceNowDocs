@@ -37,7 +37,7 @@ You can start work in HR Service Delivery Agent Workspace or the Agent Workspace
 -   Phone
 -   Global search
 
-For additional information on working within Agent Workspace, see Using workspace.
+For additional information on working within Agent Workspace, see [Using workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/using-workspace.md).
 
 Along the left side and top of the Home page are a series of icons you can select.
 
@@ -151,5 +151,5 @@ Select an HR case from agent inbox.
 Inbox that contains the HR cases that are assigned to you.Chats and interactions also appear in agent inbox. For more information on using chat, see [Using chat in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-chat.md).
 
 </td></tr></tbody>
-</table>For additional information, see Working from the agent inbox.
+</table>For additional information, see [Working from the agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/live-agent-overview.md).
 

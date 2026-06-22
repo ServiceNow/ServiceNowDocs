@@ -23,7 +23,7 @@ Add an SSH workflow with a credentials tag.
 
 ## About this task
 
-You can use an expression to get the Credential alias tag. See Create an SSH activity for instructions.
+You can use an expression to get the Credential alias tag. See [Create an SSH activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/orchestration/t_CreateAnSSHActivity.md) for instructions.
 
 This example uses a VM provisioned on an AWS LDC datacenter.
 

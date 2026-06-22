@@ -72,7 +72,7 @@ To get the most out of app generation, craft your statements thoughtfully and in
     Throughout the conversation, Now Assist adjusts its understanding of the application requirements based on your input.
 
 
-For more information about having productive conversations with Now Assist, see .
+For more information about having productive conversations with Now Assist, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/capabilities-bundle-landingpage.md).
 
 **Parent Topic:**[Exploring Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.md)
 

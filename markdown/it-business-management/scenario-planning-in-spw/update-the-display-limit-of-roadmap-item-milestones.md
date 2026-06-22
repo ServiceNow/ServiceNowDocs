@@ -48,15 +48,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d49965e153">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d49150e153">
 
 Field
 
-</th><th align="left" id="d49965e156">
+</th><th align="left" id="d49150e156">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d49965e162">
+</th></tr></thead><tbody><tr><td id="d49150e162">
 
 **Name**
 
@@ -67,7 +67,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d49965e188">
+</td></tr><tr><td id="d49150e188">
 
 **Type**
 
@@ -75,7 +75,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d49965e197">
+</td></tr><tr><td id="d49150e197">
 
 **Value**
 
@@ -84,7 +84,7 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in Add a system property.
+</table>    For information on the other form fields, see the field description table in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 4.  Select **Submit**.
 

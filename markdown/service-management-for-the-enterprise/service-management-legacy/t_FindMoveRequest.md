@@ -38,15 +38,15 @@ The Move tab is only visible when the Facilities Move Management plugin \(com.sn
 
 3.  Continue with one of the following options.
 
-<table id="choicetable_WorkbenchAccess"><thead><tr><th align="left" id="d31725e133">
+<table id="choicetable_WorkbenchAccess"><thead><tr><th align="left" id="d31302e133">
 
 Option
 
-</th><th align="left" id="d31725e136">
+</th><th align="left" id="d31302e136">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d31725e142">
+</th></tr></thead><tbody><tr><td id="d31302e142">
 
 **To see all move requests assigned to you**
 
@@ -54,7 +54,7 @@ Action
 
 Select **Assigned to me** check box.
 
-</td></tr><tr><td id="d31725e154">
+</td></tr><tr><td id="d31302e154">
 
 **To search for a move request**
 
@@ -72,15 +72,15 @@ Select **Assigned to me** check box.
     -   Other Campuses
 4.  Continue with one of the following options.
 
-<table id="choicetable_swj_2jx_mt"><thead><tr><th align="left" id="d31725e196">
+<table id="choicetable_swj_2jx_mt"><thead><tr><th align="left" id="d31302e196">
 
 Option
 
-</th><th align="left" id="d31725e199">
+</th><th align="left" id="d31302e199">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d31725e205">
+</th></tr></thead><tbody><tr><td id="d31302e205">
 
 **To see move request details**
 
@@ -88,7 +88,7 @@ Action
 
 Click the move request number.
 
-</td></tr><tr><td id="d31725e214">
+</td></tr><tr><td id="d31302e214">
 
 **To edit the From or To space**
 
@@ -99,7 +99,7 @@ Click the move request number.
 3.  Click the save \(\[Omitted image "SaveIcon.png"\] Alt text: save icon\) icon.
 
 
-</td></tr><tr><td id="d31725e253">
+</td></tr><tr><td id="d31302e253">
 
 **To see the location on the floor plan**
 

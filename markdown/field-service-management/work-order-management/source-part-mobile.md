@@ -33,15 +33,15 @@ Transfer orders move necessary parts between stockrooms or to a location where a
 
 2.  View the transfer orders.
 
-<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d72076e83">
+<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d72067e83">
 
 To
 
-</th><th align="left" id="d72076e86">
+</th><th align="left" id="d72067e86">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d72076e92">
+</th></tr></thead><tbody><tr><td id="d72067e92">
 
 **View transfer order lines for a part requirement**
 
@@ -54,7 +54,7 @@ Do this
 5.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d72076e137">
+</td></tr><tr><td id="d72067e137">
 
 **View transfer order lines related to a work order task**
 
@@ -68,7 +68,7 @@ Do this
 6.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d72076e192">
+</td></tr><tr><td id="d72067e192">
 
 **View transfer order lines for a part request**
 

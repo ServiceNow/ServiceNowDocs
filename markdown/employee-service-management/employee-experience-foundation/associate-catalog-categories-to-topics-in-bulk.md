@@ -46,5 +46,5 @@ For more information, see [Taxonomy and connected content](https://raw.githubuse
 **Related topics**  
 
 
-[bundle-platcap.c_ServiceCatalogCategories]
+[Service catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/c_ServiceCatalogCategories.md)
 

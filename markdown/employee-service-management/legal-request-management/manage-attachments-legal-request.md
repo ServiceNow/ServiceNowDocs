@@ -34,15 +34,15 @@ If the [external storage option](https://raw.githubusercontent.com/ServiceNow/Se
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d76151e110">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d75947e110">
 
 Option
 
-</th><th align="left" id="d76151e113">
+</th><th align="left" id="d75947e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d76151e119">
+</th></tr></thead><tbody><tr><td id="d75947e119">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d76151e148">
+</td></tr><tr><td id="d75947e148">
 
 **As a collaborator**
 
@@ -67,15 +67,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 </td></tr></tbody>
 </table>4.  Manage documents in the legal request.
 
-<table id="choicetable_rpv_3f2_f5b"><thead><tr><th align="left" id="d76151e178">
+<table id="choicetable_rpv_3f2_f5b"><thead><tr><th align="left" id="d75947e178">
 
 Option
 
-</th><th align="left" id="d76151e181">
+</th><th align="left" id="d75947e181">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d76151e187">
+</th></tr></thead><tbody><tr><td id="d75947e187">
 
 **Using the attachment icon**
 
@@ -94,7 +94,7 @@ The attachment icon \[Omitted image "add-attachment-icon.png"\] Alt text: Attach
     -   To download an attached file, select the actions icon, select **Download**.
 
 
-</td></tr><tr><td id="d76151e267">
+</td></tr><tr><td id="d75947e267">
 
 **Using the Documents tab**
 

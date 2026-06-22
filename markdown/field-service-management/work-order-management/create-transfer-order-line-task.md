@@ -24,7 +24,7 @@ Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or qualifier
 
 Transfer order line tasks are created to move transfer order lines from one stage to the other. A transfer order line initially has one transfer order line task for completing the fulfillment. When you fulfill a asset requirement and close the task, the system automatically creates two transfer order line tasks: one to prepare for shipment and another one to drop off the asset.
 
-Closing a transfer order line completes the task, moves the transfer order line task to the next stage, and creates the next task in the process until you close all tasks required for completing the transfer order line. For more information on the stages of transfer, see .
+Closing a transfer order line completes the task, moves the transfer order line task to the next stage, and creates the next task in the process until you close all tasks required for completing the transfer order line. For more information on the stages of transfer, see [Transfer orders for Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-management/transfer-orders-for-am.md).
 
 ## Procedure
 
@@ -48,15 +48,15 @@ Closing a transfer order line completes the task, moves the transfer order line 
     -   The short description text for the transfer order line task for drop off is "Receive" and the state is Open.
 6.  Drop off or prepare for shipment.
 
-<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d100959e143">
+<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d100962e144">
 
 To
 
-</th><th align="left" id="d100959e146">
+</th><th align="left" id="d100962e147">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d100959e152">
+</th></tr></thead><tbody><tr><td id="d100962e153">
 
 **Prepare for shipment**
 
@@ -98,7 +98,7 @@ This task has the short description text "Deliver" and the state Open.
 
 This task automatically moves to the Closed Complete state.
 
-</td></tr><tr><td id="d100959e234">
+</td></tr><tr><td id="d100962e235">
 
 **Drop off**
 

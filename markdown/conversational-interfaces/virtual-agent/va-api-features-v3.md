@@ -254,7 +254,7 @@ Virtual Agent API supports file uploads up to 1 GB in size from a private URL. T
 
 -   Provider application ID is optional.
 -   The user ID and provider application ID should be sent before the file name in the payload.
--   The end user must have a role specified in the **glide.attachment.role** property. For more information, see Require a role to attach files.
+-   The end user must have a role specified in the **glide.attachment.role** property. For more information, see [Require a role to attach files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_DisablingTheDragAndDropFeature.md).
 -   Basic or OAuth authentication is supported, but Message Authentication is not.
 
 Example message payload from the primary bot:   

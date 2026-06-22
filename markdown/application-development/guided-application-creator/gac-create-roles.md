@@ -32,15 +32,15 @@ Role required: sn\_g\_app\_creator.app\_creator or admin
 
     You can select existing roles or create roles.
 
-<table id="choicetable_lxp_mx4_zhb"><thead><tr><th align="left" id="d41205e91">
+<table id="choicetable_lxp_mx4_zhb"><thead><tr><th align="left" id="d41375e91">
 
 Option
 
-</th><th align="left" id="d41205e94">
+</th><th align="left" id="d41375e94">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d41205e100">
+</th></tr></thead><tbody><tr><td id="d41375e100">
 
 **Select an existing role**
 
@@ -50,7 +50,7 @@ Procedure
 2.  On the list, select the role name.
 
 
-</td></tr><tr><td id="d41205e121">
+</td></tr><tr><td id="d41375e121">
 
 **Create a role**
 
@@ -61,7 +61,7 @@ Procedure
 3.  Select **Create**.
 
 
-</td></tr><tr><td id="d41205e148">
+</td></tr><tr><td id="d41375e148">
 
 **Select an existing role and then create a role**
 

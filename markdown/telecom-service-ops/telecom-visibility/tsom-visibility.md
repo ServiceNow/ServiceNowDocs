@@ -36,7 +36,7 @@ In Telecom Discovery, we use Horizontal Discovery and Telecommunication \(TSOM\)
 
 For more information on the TSOM Patterns, see [Telecom Discovery using Telecommunications Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-telecommunication-discovery-pattern.md).
 
-For more information on the Horizontal Discovery application, see .
+For more information on the Horizontal Discovery application, see [Horizontal discovery process flow with patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/discovery/disco-process-flow-patterns.md).
 
 ## Service Graph Connectors \(SGC\)
 
@@ -72,13 +72,13 @@ CMDB 360 retains a complete history of discovery sources and proposed values inv
 
 The CMDB 360 view provides aggregations and analyses of CMDB 360 data, which can be used to track activities and identify potential issues with discovery sources. Additionally, you can create custom queries, schedules, and reports to explore CMDB data.
 
-For more information on CMDB 360, see .
+For more information on CMDB 360, see [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
 
 ## Discovery Admin Workspace
 
 The Discovery Admin Workspace serves as a central location for monitoring, tracking, and completing discovery-related tasks. Experience a streamlined discovery process and greater efficiency with the integration of schedules, diagnostics, tuning, and more within this single workspace.
 
-For more information on the Discovery Admin Workspace, see .
+For more information on the Discovery Admin Workspace, see [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/discovery/discovery-admin-workspace.md).
 
 ## Who uses TSOM Visibility
 

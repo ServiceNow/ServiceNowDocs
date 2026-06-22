@@ -32,7 +32,7 @@ When controls are attested, a new questionnaire is created. As a result, attesta
 
 2.  Open the attestation and review the details.
 
-<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d237850e92">
+<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d237897e92">
 
 **If you are unable to answer the questions**
 
@@ -44,7 +44,7 @@ When controls are attested, a new questionnaire is created. As a result, attesta
 
  The list of attestations refreshes when you reassign an attestation to another user.
 
-</td></tr><tr><td id="d237850e123">
+</td></tr><tr><td id="d237897e123">
 
 **If you are able to answer the questions**
 

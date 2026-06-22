@@ -35,15 +35,15 @@ Update the details of a planning item using the List, Kanban, and Hierarchy view
 
 4.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d143473e131">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d142675e131">
 
 Choice
 
-</th><th align="left" id="d143473e134">
+</th><th align="left" id="d142675e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d143473e140">
+</th></tr></thead><tbody><tr><td id="d142675e140">
 
 **Update planning item details**
 
@@ -58,7 +58,7 @@ Edit using one of the following ways. These actions are applicable for both high
 
  For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d143473e183">
+</td></tr><tr><td id="d142675e183">
 
 **Attach files to planning item**
 
@@ -66,7 +66,7 @@ Edit using one of the following ways. These actions are applicable for both high
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d143473e198">
+</td></tr><tr><td id="d142675e198">
 
 **Delete planning item**
 

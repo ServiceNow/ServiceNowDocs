@@ -30,15 +30,15 @@ Role required: sp\_admin, taxonomy\_admin, or taxonomy\_manager
 
 3.  To grant access to the external link, click the **Available For** tab.
 
-<table><thead><tr><th align="left" id="d503342e81">
+<table><thead><tr><th align="left" id="d503164e81">
 
 To
 
-</th><th align="left" id="d503342e84">
+</th><th align="left" id="d503164e84">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d503342e90">
+</th></tr></thead><tbody><tr><td id="d503164e90">
 
 **Add a new user criteria**
 
@@ -49,7 +49,7 @@ Do this
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d503342e124">
+</td></tr><tr><td id="d503164e124">
 
 **Edit an existing user criteria**
 
@@ -63,15 +63,15 @@ Do this
 </td></tr></tbody>
 </table>4.  To restrict access to the external link, click the **Not Available For** tab.
 
-<table><thead><tr><th align="left" id="d503342e170">
+<table><thead><tr><th align="left" id="d503164e170">
 
 To
 
-</th><th align="left" id="d503342e173">
+</th><th align="left" id="d503164e173">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d503342e179">
+</th></tr></thead><tbody><tr><td id="d503164e179">
 
 **Add a new user criteria**
 
@@ -82,7 +82,7 @@ Do this
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d503342e213">
+</td></tr><tr><td id="d503164e213">
 
 **Edit an existing user criteria**
 

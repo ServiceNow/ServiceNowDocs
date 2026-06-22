@@ -20,7 +20,7 @@ In Service Exchange, you can use scripts in an RRP in the following ways:
 
 -   Creating catalog client scripts. For details, see [Create catalog client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-create-client-script.md).
 -   Adding scripts in variables. For details see [Create variables for remote record producers in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-assign-variables-ser-defn.md).
--   Adding scripts in UI policies. For details, see .
+-   Adding scripts in UI policies. For details, see [Service catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/c_ServiceCatalogUIPolicy.md).
 
 **Note:** Because Service Exchange doesn’t synchronize server-side scripts such as Script Includes, client-side scripts associated with RRPs must either operate solely on the client side or rely on server-side scripts that are installed externally from Service Exchange.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Building Applications
 classification: building-applications
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Use, Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
 ---

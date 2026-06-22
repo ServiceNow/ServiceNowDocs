@@ -30,7 +30,7 @@ Update sets track changes to applications and system platform features. This all
 
 ## System properties
 
-Administrators can exclude system properties from update sets by making them private. Keeping system properties private prevents settings in one instance from overwriting values in another instance. For example, you may not want a system property in a production instance to use a particular value from a development instance. See Add a system property.
+Administrators can exclude system properties from update sets by making them private. Keeping system properties private prevents settings in one instance from overwriting values in another instance. For example, you may not want a system property in a production instance to use a particular value from a development instance. See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 ## Applications
 

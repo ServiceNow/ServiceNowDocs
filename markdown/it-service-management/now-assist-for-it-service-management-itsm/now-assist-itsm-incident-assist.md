@@ -50,7 +50,7 @@ You can ask questions about an incident by using the Now Assist panel in Core UI
 
 3.  In the Now Assist panel, either type in a question related to an incident assist topic, or select **Answer questions about an incident** and select an incident assist topic to ask about.
 
-    **Note:** Incident assist uses the Similar Resolved Incidents search profile with the incident index source. For information on indexed sources, see .
+    **Note:** Incident assist uses the Similar Resolved Incidents search profile with the incident index source. For information on indexed sources, see [Managing the indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/ais-managing-indexed-source.md).
 
     \[Omitted image "now-assist-itsm-inc-assist-pan.png"\] Alt text: Incident assist panel in Service Operations Workspace in an incident.
 

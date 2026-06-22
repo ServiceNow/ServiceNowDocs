@@ -32,7 +32,7 @@ To set up your integration, complete the following application setup actions.
 
 2.  Request an Integration Hub subscription.
 
-    To learn how, see Request Integration Hub.
+    To learn how, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 
 3.  Install the Financial Services Operations Integration with Guidewire application from the ServiceNow Store, which automatically activates the Guidewire spoke.
 

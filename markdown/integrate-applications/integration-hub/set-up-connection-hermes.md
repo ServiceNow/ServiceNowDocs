@@ -22,14 +22,14 @@ Setting up the Hermes Messaging Service requires coordination with your network 
 
 Make sure the following setup is in place:
 
--   The Hermes Messaging Service is activated. See .
+-   The Hermes Messaging Service is activated. See [Hermes Messaging Service activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
 -   The Key Management Framework plugin \(com.glide.kmf.global\) is activated.
 -   The Certificates \[sys\_kmf\_certificate\] table contains a ServiceNow instance root CA certificate.
 -   The instance isn't configured with a Custom URL. Custom URLs are not supported with the Instance PKI Certificate Generator.
 
 Role required: hermes\_admin, sn\_kmf.cryptographic\_manager, or admin
 
-For details on assigning KMF roles, see .
+For details on assigning KMF roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/platform-encryption/kmf-roles.md).
 
 ## Procedure
 
@@ -37,15 +37,15 @@ For details on assigning KMF roles, see .
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d186666e120">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d182586e122">
 
 Option
 
-</th><th align="left" id="d186666e123">
+</th><th align="left" id="d182586e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d186666e129">
+</th></tr></thead><tbody><tr><td id="d182586e131">
 
 **Apply ACLs to namespaces**
 
@@ -58,7 +58,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d186666e171">
+</td></tr><tr><td id="d182586e173">
 
 **Apply ACLs to defined topics**
 

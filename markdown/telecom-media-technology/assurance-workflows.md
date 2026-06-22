@@ -20,40 +20,40 @@ Proactive Service Experience Workflow overview
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
-Explore
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 
- \[Omitted image "bus-explore.svg"\] Alt text:
+ [\[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 
- Learn about how service providers and customers use Proactive Service Experience Workflows.
+ [Learn about how service providers and customers use Proactive Service Experience Workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 
 </td><td>
 
-Configure
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 
- \[Omitted image "bus-sdlc.svg"\] Alt text:
+ [\[Omitted image "bus-sdlc.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 
- Plan and customize Proactive Service Experience Workflows to meet your specific needs.
+ [Plan and customize Proactive Service Experience Workflows to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 
 </td></tr><tr><td>
 
-Use
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 
- \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:
+ [\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 
- Use Proactive Service Experience Workflows to resolve the network-initiated incidents and notify the impacted customers.
+ [Use Proactive Service Experience Workflows to resolve the network-initiated incidents and notify the impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 
 </td><td>
 
-Reference
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
- \[Omitted image "bus-learn.svg"\] Alt text:
+ [\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
- Learn about user roles, main components, and domain separation in Proactive Service Experience Workflows.
+ [Learn about user roles, main components, and domain separation in Proactive Service Experience Workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the .
+-   Learn more about what's new and changed, see the [Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/proactive-service-experience-workflows-rn.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Proactive Service Experience Workflow features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

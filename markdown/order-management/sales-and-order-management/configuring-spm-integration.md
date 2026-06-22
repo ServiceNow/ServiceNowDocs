@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-
+[Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md)
 
 </td><td>
 

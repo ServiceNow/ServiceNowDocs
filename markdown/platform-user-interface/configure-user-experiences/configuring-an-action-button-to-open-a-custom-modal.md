@@ -28,11 +28,11 @@ Configuring an action button to open a custom modal involves several processes:
 
 2.  Activating Customer Service Management:
 
-    Adding the Customer Service plugin provides demo data and activates related plugins that are not already active. For more information, see Activate Customer Service Management.
+    Adding the Customer Service plugin provides demo data and activates related plugins that are not already active. For more information, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/t_ActivateCustomerService.md).
 
 3.  Opening your record page in UI Builder:
 
-    Accessing your record page in UI Builder enables you to design and configure the page variant with a custom modal. For more information, see Create a page variant.
+    Accessing your record page in UI Builder enables you to design and configure the page variant with a custom modal. For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/create-variant.md).
 
 4.  Designing the page variant in UI Builder:
 

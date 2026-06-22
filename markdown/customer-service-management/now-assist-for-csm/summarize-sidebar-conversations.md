@@ -51,15 +51,15 @@ You can do these actions by using Sidebar discussion summarization:
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d34455e216">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d34357e216">
 
 Option
 
-</th><th align="left" id="d34455e219">
+</th><th align="left" id="d34357e219">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d34455e225">
+</th></tr></thead><tbody><tr><td id="d34357e225">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -70,7 +70,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d34455e252">
+</td></tr><tr><td id="d34357e252">
 
 **Provide feedback for the summary**
 

@@ -122,8 +122,8 @@ Activate the following Solutions when you have the Performance Analytics for Pro
 
 Activate the following Solutions when you have the Performance Analytics for Security Incident Response entitlement:
 
--   Security Incident Response \(com.snc.security\_incident.analytics - in ServiceNow Store\)
--   Vulnerability Response \(com.snc.vulnerability.analytics - in ServiceNow Store\)
+-   [Security Incident Response \(com.snc.security\_incident.analytics - in ServiceNow Store\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/security-incident-response/security-incident-content-pack.md)
+-   [Vulnerability Response \(com.snc.vulnerability.analytics - in ServiceNow Store\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/vulnerability-response/install-and-configure-vr-analytics.md)
 
 ## Performance Analytics for Service Management Solutions
 

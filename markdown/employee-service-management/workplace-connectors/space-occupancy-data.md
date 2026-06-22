@@ -29,7 +29,7 @@ Role required: admin
     |Field|Descriptions|
     |-----|------------|
     |Location|Location details of the specific workspace.|
-    |Space Occupancy value|Time series data. If the value is 0, it indicates space is unoccupied. If the value is greater than 0, it indicates space is occupied. Select this value to visualize the time-series data in different transforms. For more information, see .|
+    |Space Occupancy value|Time series data. If the value is 0, it indicates space is unoccupied. If the value is greater than 0, it indicates space is occupied. Select this value to visualize the time-series data in different transforms. For more information, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/metricbase-transforms.md).|
 
     The retrieved space occupancy data can be used to verify the following use cases:
 

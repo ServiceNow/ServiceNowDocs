@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2025-10-14"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
@@ -70,7 +70,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see .
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Capabilities
 
 </td><td>
 
-The capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities. Only displays if **Use MID server** is selected. Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see MID Server selection.
+The capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities. Only displays if **Use MID server** is selected. Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
 **Note:** This field is visible only when **Auto-Select MID Server** is selected from the MID Selection list.
 
@@ -88,7 +88,7 @@ MID Application
 
 </td><td>
 
-The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected, and then **Auto-Select MID Server** is selected in the MID Selection list. To learn more about how a MID Server is selected during runtime, see .
+The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected, and then **Auto-Select MID Server** is selected in the MID Selection list. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
 **Note:** This field is visible only when **Auto-Select MID Server** is selected from the MID Selection list.
 

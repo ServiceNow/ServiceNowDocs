@@ -38,15 +38,15 @@ As an agent, you can do these actions using the Now Assist icon:
 
 2.  Start composing an email using the More actions icon or from the activity stream.
 
-<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d344241e121">
+<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d341031e121">
 
 Method
 
-</th><th align="left" id="d344241e124">
+</th><th align="left" id="d341031e124">
 
 Instructions
 
-</th></tr></thead><tbody><tr><td id="d344241e130">
+</th></tr></thead><tbody><tr><td id="d341031e130">
 
 **Compose email using More actions icon\[Omitted image "now-assist-itsm-more-actions-icon.png"\] Alt text: More actions icon**
 
@@ -65,7 +65,7 @@ Now Assist creates an email response as a recommendation.
 
 Get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
 
-</td></tr><tr><td id="d344241e192">
+</td></tr><tr><td id="d341031e192">
 
 **Compose an email from Activity stream**
 
@@ -83,15 +83,15 @@ Get an email response as a recommendation for the agent to ask more questions or
 
     \[Omitted image "itsm-email-recommendation-coreui.png"\] Alt text: Email response CoreUI screen with Now Assist option
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d344241e286">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d341031e286">
 
 Email message window
 
-</th><th align="left" id="d344241e289">
+</th><th align="left" id="d341031e289">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d344241e298">
+</th></tr></thead><tbody><tr><td id="d341031e298">
 
 **Typed response**
 
@@ -101,7 +101,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d344241e315">
+</td></tr><tr><td id="d341031e315">
 
 **Left blank**
 

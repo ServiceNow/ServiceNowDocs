@@ -32,7 +32,7 @@ Replatformed data is immediately available, mirrored in easy-to-manage tables an
 
 Using Zero Copy Connector for ERP and ERP-CM together enables Solutions Integration consultants to implement the following workflow:
 
-1.  Have your administrator use the Connections and Credentials app to configure credentials to connect Zero Copy Connector for ERP to the ERP system of record. For more information, see .
+1.  Have your administrator use the Connections and Credentials app to configure credentials to connect Zero Copy Connector for ERP to the ERP system of record. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r-credentials.md).
 2.  Create an ERP system in Zero Copy Connector for ERP using the connection and credentials alias that you configured. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md).
 3.  In Zero Copy Connector for ERP, build your ERP systems, ERP models, and tables in a development instance.
     1.  Create or clone an ERP model that scans the specified ERP module in the system of record for available tables and fields. Note the tables and fields in the ERP model for use in extraction and remote tables. For more information, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-clone-data-model.md).
@@ -46,9 +46,9 @@ Using Zero Copy Connector for ERP and ERP-CM together enables Solutions Integrat
         -   [Query a remote table using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-query-remote-table.md)
     5.  Work with ETL extraction tables to regularly scan the system of record and extract data to a staging table. Extraction tables retrieve large amounts of data using a scheduled query, and use transform tables to process data for use on the ServiceNow AI Platform.
         -   Create as many separate extraction tables as needed, such as one for each supported country. For more information, see [Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md).
-        -   You must first create the table transform map that connects the source table \(on the system of record\) to a Glide table on the ServiceNow AI Platform. For more information on creating table transform maps, see .
+        -   You must first create the table transform map that connects the source table \(on the system of record\) to a Glide table on the ServiceNow AI Platform. For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
         -   Extraction processes are configured in the ServiceNow app that uses them. For example, Workflow Studio.
-        -   After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see .
+        -   After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
 4.  Identify legacy ERP system customizations to modernize and replatform with ERP-CM.
 5.  Move the Zero Copy Connector for ERP systems, ERP models, and tables to a production environment when they are ready. For more information, see [Managing ERP development pipelines in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/manage-erp-tables-pipelines.md).
     1.  Meet with a customer and agree to run an analysis with ERP Semantic Mining on their ERP system of record.
@@ -66,10 +66,10 @@ Using Zero Copy Connector for ERP and ERP-CM together enables Solutions Integrat
     8.  Return to Zero Copy Connector for ERP to continue building data models with remote tables and extraction tables. Ensure that all the necessary data is available in the ServiceNow AI Platform. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
 6.  Use the ERP data that is now available as the data source when building apps on the ServiceNow AI Platform, such as:
     -   App Engine Studio: For more information, see [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-data.md).
-    -   Flows in Workflow Studio: For more information, see .
+    -   Flows in Workflow Studio: For more information, see [Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/configuring-flow-designer.md).
     -   Table Builder: For more information, see [Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/table-builder.md).
     -   UI Builder: For more information, see [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/data-resources.md).
-    -   Workflow Studio: For more information, see .
+    -   Workflow Studio: For more information, see [Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/configuring-flow-designer.md).
     -   Workspace Builder: For more information, see [Configure a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-record-page-workspace.md).
 7.  Measure and monitor the performance of the new app using applicable metrics and parameters with your preferred analytic tools.
 
@@ -97,10 +97,10 @@ Get started with Zero Copy Connector for ERP and ERP-CM by completing these task
 2.  Install and configure ERP-CM. For more information, see [Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md).
 3.  Install and configure any additional ServiceNow AI Platform apps and builders that consume ERP data, such as the following:
     -   [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/install-aes.md)
-    -   Configuring Flows in Workflow Studio
+    -   [Configuring Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/configuring-flow-designer.md)
     -   [Exploring Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/exploring-fb.md)
-    -   Getting started with Playbooks
+    -   [Getting started with Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/getting-started-process-automation.md)
     -   [UI Builder quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/ui-builder-quick-start.md)
-    -   
+    -   [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/workflow-studio.md)
     -   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/using-workspace-builder.md)
 

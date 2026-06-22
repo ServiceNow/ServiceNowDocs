@@ -42,7 +42,7 @@ You can specify an HTTP header for a REST message, or for an HTTP method. Header
 
     **Note:**
 
-    -   Multipart Content-Type is not supported in RestMessage. You can use  instead.
+    -   Multipart Content-Type is not supported in RestMessage. You can use [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/rest-request-action-designer.md) instead.
     -   For other supported headers, it depends on the REST web service provider that you are connecting. Refer to the documentation of your web service provider to identify which headers are valid or required.
 7.  Click on the **Value** field for the new row and enter the value you want to assign this header.
 

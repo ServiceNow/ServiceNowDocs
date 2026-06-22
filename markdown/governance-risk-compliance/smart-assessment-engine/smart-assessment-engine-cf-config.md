@@ -127,6 +127,6 @@ Activate the **Smart Assessment Collaboration** plugin \(com.sn\_smart\_collab\)
 **Note:** After installing the required plugins, you can do the following:
 
 -   Assign SAE roles to users and user groups. Roles determine the permissions and access in the Smart Assessment Engine application. For more information, see [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
--   Activate a language. The ServiceNow AI Platform uses American English by default. You can configure SAE to use a different language. For more information, see .
+-   Activate a language. The ServiceNow AI Platform uses American English by default. You can configure SAE to use a different language. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 -   Refer to the upstream application documentation for further steps. For example, after installing the plugins from the setup checklist, you can refer to the Policy and Compliance Management documentation to enable smart assessments in Policy and Compliance Management.
 

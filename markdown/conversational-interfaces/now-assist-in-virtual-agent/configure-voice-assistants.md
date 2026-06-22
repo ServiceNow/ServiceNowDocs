@@ -20,7 +20,7 @@ Create an AI voice assistant to enable natural, conversational voice interaction
 
 Role required: virtual\_agent\_admin or admin
 
-Set up your preferred user identification and authentication methods to allow access to AI voice agents. See  for more information.
+Set up your preferred user identification and authentication methods to allow access to AI voice agents. See [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/authentication-factors.md) for more information.
 
 ## About this task
 
@@ -83,7 +83,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
 4.  Add one or more AI voice agents to the voice assistant by selecting **Add from library** and select **Save and continue**.
 
-    **Note:** The voice assistant uses the AI voice agents to execute AI instructions. You can also create an AI voice agent on the fly by selecting **Create**. See  for more information.
+    **Note:** The voice assistant uses the AI voice agents to execute AI instructions. You can also create an AI voice agent on the fly by selecting **Create**. See [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/create-a-voice-enabled-ai-agent.md) for more information.
 
 5.  Choose a voice personality.
 
@@ -110,7 +110,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
     \[Omitted image "ai-voice-assistant-authentication.png"\] Alt text: Authentication method selection for creating voice assistant
 
-    Identification and authentication factors must be configured at the platform level, where you define which tables and columns the system should use for both identification and authentication. After the factors are defined, they appear here as selectable options for your voice agent configuration. For more information, see .
+    Identification and authentication factors must be configured at the platform level, where you define which tables and columns the system should use for both identification and authentication. After the factors are defined, they appear here as selectable options for your voice agent configuration. For more information, see [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/authentication-factors.md).
 
     1.  Select the method used to identify the caller when the call begins.
 
@@ -135,7 +135,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
         -   SMS verification code
         -   Authenticator app time-based One Time Password \(TOTP\)
         -   Soft PIN
-        **Note:** KBA authentication, for example, employee security questions, requires you to configure the questions and response fields at platform level and explicitly map them to the voice assistant before they can be selected here. To ensure secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See  for more information.
+        **Note:** KBA authentication, for example, employee security questions, requires you to configure the questions and response fields at platform level and explicitly map them to the voice assistant before they can be selected here. To ensure secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See [Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/knowledge-based-authentication.md) for more information.
 
     4.  Select **Save and continue**.
 
@@ -161,7 +161,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
         -   Set the duration of inactivity after which the user is reprompted for a response. If there's still no response, the call is disconnected. You can set upto 60 seconds.
 8.  Integrate a telephony provider to power the voice assistant.
 
-    For more information, see .
+    For more information, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/integrating-voice-service-with-ccaas-providers.md).
 
 9.  Review your voice assistant configuration.
 
@@ -174,5 +174,5 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
 ## What to do next
 
-Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See  for information on the tables containing transcript and logs.
+Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See [AI voice agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/voice-agent-reference.md) for information on the tables containing transcript and logs.
 

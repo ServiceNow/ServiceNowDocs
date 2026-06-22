@@ -22,6 +22,6 @@ Agent assist provides agents with automatic search results that show possible so
 
 For more information about using contextual search for Agent Assist, see the following topics:
 
--   
+-   [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/contextual-search/c_ContextualSearch.md)
 -   
 

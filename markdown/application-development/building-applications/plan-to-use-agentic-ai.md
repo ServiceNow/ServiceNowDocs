@@ -44,7 +44,7 @@ For more information, see [Exploring UI generation](https://raw.githubuserconten
 
 Use Now Assist for code generation to write custom scripts or iterate on scripts. Describe the goal of the code in the Code with Now Assist dialog box and view the code suggestion in the lines following your prompt. Suggestions are not added to your script until you accept them.
 
-For more information, see .
+For more information, see [Exploring code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/exploring-now-assist-code.md).
 
 **Parent Topic:**[Plan your application development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/plan-your-app-development.md)
 

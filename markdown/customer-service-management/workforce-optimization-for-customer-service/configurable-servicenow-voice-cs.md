@@ -8,7 +8,7 @@ product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Channel Management in Workforce Optimization for Customer Service, Using Workforce Optimization for Customer Service, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
@@ -21,7 +21,7 @@ With the Voice application, you can:
 -   Enable your workforce to work using the voice channel and get call recordings, call transcripts, and reports of sentiment analysis when agents interact with callers. You can visualize all of this information within the Channel Management application in Workforce Optimization for Customer Service.
 -   Analyze the call transcripts and sentiments of users after an interaction is complete so that you can create assessments, provide feedback, and training for agents.
 -   Synchronize agent presence within the queue.
--   View the Amazon Connect channel on Channel Management. You can view the performance metrics and [reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) of the agents using the voice channel. To access the reports, your application administrator must install .
+-   View the Amazon Connect channel on Channel Management. You can view the performance metrics and [reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) of the agents using the voice channel. To access the reports, your application administrator must install [Amazon Connect Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/amazon-connect-spoke.md).
 
     **Note:** The following reports on the Amazon Connect channel are chargeable:
 
@@ -31,9 +31,9 @@ With the Voice application, you can:
     These reports are collected from Amazon Connect using GetMetricData and GetCurrentMetricData APIs. For more information on the prices of these reports, see [Amazon CloudWatch Pricing](https://aws.amazon.com/cloudwatch/pricing/).
 
 
-**Note:** You can integrate any third-party telephony service with the ServiceNowVoice application. By default, ServiceNowVoice provides you with the ability to integrate with the Amazon Connect application.
+**Note:** You can integrate any third-party telephony service with the [ServiceNowVoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/ai-platform-capabilities/cloud-call-center-overview.md) application. By default, ServiceNowVoice provides you with the ability to integrate with the Amazon Connect application.
 
-You can visualise the metrics from the Amazon Connect phone queues that are routed through Voice using the Channel Management application in Workforce Optimization for Customer Service. The Voice application uses Advanced Work Assignment to report data from the Amazon Connect queues.
+You can visualise the metrics from the Amazon Connect phone queues that are routed through Voice using the Channel Management application in Workforce Optimization for Customer Service. The Voice application uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-overview.md) to report data from the Amazon Connect queues.
 
 ## Voice Amazon Connect integration workflow
 
@@ -46,7 +46,7 @@ Here's how the Voice integrates with Amazon Connect:
 As a manager, you can:
 
 -   Monitor your agent's calls as they resolve customer issues.
--   View synchronized agent presence states within the Channel Management application in Workforce Optimization for Customer Service.
+-   View synchronized [agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/agent-experience.md) within the Channel Management application in Workforce Optimization for Customer Service.
 -   Assess your agents by reviewing recordings of agent interaction and call transcripts.
 -   Analyze sentiments from the call transcripts and use that to coach and train your agents.
 

@@ -42,7 +42,7 @@ To configure which actions are available, a user with the admin or sp\_admin rol
 
 To make the Request status agent available for users, you must navigate to the **Toggle display** step of the guided setup in AI Agent Studio. Toggle Virtual Agent to `true` and select an assistant.
 
-To make the Request status AI agent available in Microsoft Teams, you must configure an assistant for Now Assist in Virtual Agent to use a Teams channel. See Display your assistant on a portal or channel for steps to enable Teams for your assistant. Then, in the Request status AI agent guided setup in AI Agent Studio, select the assistant you configured for Microsoft Teams in the **Toggle display** step.
+To make the Request status AI agent available in Microsoft Teams, you must configure an assistant for Now Assist in Virtual Agent to use a Teams channel. See [Display your assistant on a portal or channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md) for steps to enable Teams for your assistant. Then, in the Request status AI agent guided setup in AI Agent Studio, select the assistant you configured for Microsoft Teams in the **Toggle display** step.
 
 ## Role masking
 

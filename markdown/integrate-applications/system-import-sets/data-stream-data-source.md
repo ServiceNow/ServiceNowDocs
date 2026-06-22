@@ -24,5 +24,5 @@ Complex data includes parent and child objects and nested objects, as shown in t
 
 \[Omitted image "complex-object.png"\] Alt text: Complex object
 
-For more information, see Complex data.
+For more information, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/complex-data.md).
 

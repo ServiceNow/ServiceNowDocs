@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Select one of the following methods to add custom business rules.
 
-<table id="choicetable_rhy_4yf_4v"><tbody><tr><td id="d141195e66">
+<table id="choicetable_rhy_4yf_4v"><tbody><tr><td id="d139770e66">
 
 **Use setWorkflow\(false\)**
 
@@ -45,7 +45,7 @@ Prior to updating your task, add a call to `setWorkflow(false)` on the GlideReco
           ();
 ```
 
-</td></tr><tr><td id="d141195e86">
+</td></tr><tr><td id="d139770e86">
 
 **Create a sys\_trigger \(Schedule job\) to update the task**
 

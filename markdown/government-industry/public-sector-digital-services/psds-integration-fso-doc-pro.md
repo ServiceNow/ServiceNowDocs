@@ -20,9 +20,9 @@ Integrating the Public Sector Digital Services application with the Document Pro
 
 This application is automatically installed when you install any Public Sector Digital Services playbook.
 
-An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process the filling out, signing, and reviewing documents online. For more information, see .
+An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process the filling out, signing, and reviewing documents online. For more information, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-service-delivery/document-templates-overview.md).
 
 ## Configuring the integration with Doc Processor
 
-For information on how an admin can configure FSO Document Processor, see .
+For information on how an admin can configure FSO Document Processor, see [Configuring Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/financial-services/configuring-fso-document-processor.md).
 

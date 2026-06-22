@@ -23,12 +23,12 @@ Create applications through a natural conversation with generative AI. Describe 
 
 In the Yokohama Patch 6 \(August 2025\) release:
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 In the Yokohama Patch 3 \(May 2025\) release:
 
 -   Add a workspace and flows to an application during the conversation with Now Assist for app generation.
--   Both Now LLM Service and Azure OpenAI are supported. For more information, see .
+-   Both Now LLM Service and Azure OpenAI are supported. For more information, see [Manage large language models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md).
 
 -   To use Now Assist, you must have the now.assist.creator role and the now\_assist\_panel\_user role.
 -   To create an application with Now Assist for app generation, you must have the admin role or the sn\_g\_app\_creator.app\_creator role.

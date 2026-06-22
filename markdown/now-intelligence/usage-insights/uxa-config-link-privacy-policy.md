@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Create the system property **glide.analytics.privacy.link**.
 
-    For more information see .
+    For more information see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  In the **Type** field, enter `string`.
 

@@ -24,18 +24,18 @@ To configure special handling notes for HR Service Delivery Agent Workspace, do 
 
 1.  Edit the special handling notes properties.
 
-    For more information, see Configure special handling notes properties.
+    For more information, see [Configure special handling notes properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/t_EnableOnScreenAlertProperties.md).
 
 2.  Create special handling notes for an HR table.
 
-    For more information, see Configure special handling notes.
+    For more information, see [Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-special-handling-notes.md).
 
 3.  Create a special handling note.
 
-    For more information, see Configure special handling notes.
+    For more information, see [Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-special-handling-notes.md).
 
 
-For more information, see Highlighted values in the form header and Special handling notes.
+For more information, see Highlighted values in the form header and [Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_OnScreenAlerts.md).
 
 ## Configure special handling notes in HR Service Delivery Agent Workspace
 
@@ -198,7 +198,7 @@ Conditions
 
 Field that is available when you select **Conditional** from the **Type** field.Select the conditions when met that would show the special handling note. For example, let's say that you want to add a special handling note for a General Inquiry case for an employee named Aileen Mottern, you would select: **\[HR profile\] \[is\] \[Aileen Mottern\]**.
 
-**Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
+**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
 </table>4.  Click **Submit** or **Update**.

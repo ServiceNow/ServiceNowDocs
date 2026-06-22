@@ -137,15 +137,15 @@ Add an alert tag filter condition
 
 5.  Assign users and groups to the Express List view.
 
-<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d529319e355">
+<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d527498e355">
 
 Task
 
-</th><th align="left" id="d529319e358">
+</th><th align="left" id="d527498e358">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d529319e364">
+</th></tr></thead><tbody><tr><td id="d527498e364">
 
 **Assign a user to the selected Express List view**
 
@@ -157,7 +157,7 @@ Procedure
 4.  Select the save icon \[Omitted image "save-icon.png"\].
 
 
-</td></tr><tr><td id="d529319e404">
+</td></tr><tr><td id="d527498e404">
 
 **Assign a user group to the selected Express List view**
 

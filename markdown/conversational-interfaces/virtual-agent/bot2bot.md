@@ -29,7 +29,7 @@ The ServiceNow secondary bot uses a standard request and response through REST e
 
 ## Properties for bot-to-bot integrations
 
-You can add system properties to configure the following:
+You can [add system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) to configure the following:
 
 -   Starting with version 1.3: Logging for the Virtual Agent API
 -   Number of times that the Virtual Agent bot tries to get a response

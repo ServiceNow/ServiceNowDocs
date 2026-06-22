@@ -24,7 +24,7 @@ Groups and role containment structures also cannot include both roles, as this w
 
 You must install the Explicit Roles \[com.glide.explicit\_roles\] plugin while installing Supplier Lifecycle Operations. Supplier Lifecycle Operations is dependent on the Explicit Roles \[com.glide.explicit\_roles\] plugin.
 
-For more information about ServiceNow AI Platform explicit roles, see .
+For more information about ServiceNow AI Platform explicit roles, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/explicit-roles.md).
 
 **Parent Topic:**[Install Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
 

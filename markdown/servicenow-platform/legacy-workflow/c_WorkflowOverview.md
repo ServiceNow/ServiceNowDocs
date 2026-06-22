@@ -16,7 +16,7 @@ breadcrumb: [ServiceNow AI Platform Additional Capabilities, Extend ServiceNow A
 
 Workflow provides a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes.
 
-**Note:** As of the New York release, Workflow is a legacy product. Use  for any new process automation. As many organizations have workflows in production, use this Workflow documentation to learn how to work with existing workflows.
+**Note:** As of the New York release, Workflow is a legacy product. Use [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/flow-designer.md) for any new process automation. As many organizations have workflows in production, use this Workflow documentation to learn how to work with existing workflows.
 
 <table id="simpletable_g33_wwg_vt" class="simpletableBody"><tbody><tr><td>
 
@@ -55,7 +55,7 @@ Workflow provides a drag-and-drop interface for automating multi-step processes 
 
  -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   Workflow API reference
+-   [Workflow API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_WorkflowScopedAPI.md)
 -   [Using variables in a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/legacy-workflow/c_UsingVariablesInAWorkflow.md)
 
 </td><td>

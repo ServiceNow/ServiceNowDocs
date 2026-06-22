@@ -38,13 +38,13 @@ For information on activating the Legal Request summarization skill or the Legal
 
 Q&amp;A Genius Results use the Now LLM Service to generate search results from knowledge article results in Employee Center, Legal Counsel Center, and global search.
 
-The Q&amp;A Genius Result answer card shows a topic snippet and an answer snippet that was extracted from a knowledge article. You can view the full article directly from the answer card. For more information, see .
+The Q&amp;A Genius Result answer card shows a topic snippet and an answer snippet that was extracted from a knowledge article. You can view the full article directly from the answer card. For more information, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/genius-results-ais.md).
 
 It is enabled when both AI Search and Now Assist for Legal Service Delivery \(LSD\) are activated.
 
 \[Omitted image "lsd-na-genius-result.png"\] Alt text: Q&amp;A Genius search results in Legal Counsel Center.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 ## Now Assist for Legal Service Delivery \(LSD\) users
 

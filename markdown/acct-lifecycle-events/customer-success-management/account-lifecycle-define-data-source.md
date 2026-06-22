@@ -46,7 +46,7 @@ Source
 
 Select the source from which the data is to be collected. This can be:-   PA indicator: An automated scheduled job collects data and creates records in the Context Engine Data table.
 -   External: Specify the external data source from which the data is to be collected.
-**Note:** If you select the **External** option, you must define how this data can be retrieved from the external source or use the  to save this information in the Context Engine data table.
+**Note:** If you select the **External** option, you must define how this data can be retrieved from the external source or use the [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/c_TableAPI.md) to save this information in the Context Engine data table.
 
 </td></tr><tr><td>
 

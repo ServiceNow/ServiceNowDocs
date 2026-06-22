@@ -30,15 +30,15 @@ Role required: sn\_cm\_core.contract\_user
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d279043e69">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d278849e69">
 
 Method
 
-</th><th align="left" id="d279043e72">
+</th><th align="left" id="d278849e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d279043e78">
+</th></tr></thead><tbody><tr><td id="d278849e78">
 
 **Contract Workspace listing**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d279043e125">
+</td></tr><tr><td id="d278849e125">
 
 **Workspace used by your application**
 
@@ -66,15 +66,15 @@ Steps
 
 3.  Access the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d279043e164">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d278849e164">
 
 Location
 
-</th><th align="left" id="d279043e167">
+</th><th align="left" id="d278849e167">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d279043e173">
+</th></tr></thead><tbody><tr><td id="d278849e173">
 
 **From internal storage**
 
@@ -85,7 +85,7 @@ Action
 3.  Select **Preview** to view the document.
 
 
-</td></tr><tr><td id="d279043e200">
+</td></tr><tr><td id="d278849e200">
 
 **From external storage**
 
@@ -96,15 +96,15 @@ Select the link in the **URL** column. The document opens from the external stor
 </td></tr></tbody>
 </table>4.  Review the contract document.
 
-<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d279043e223">
+<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d278849e223">
 
 Review result
 
-</th><th align="left" id="d279043e226">
+</th><th align="left" id="d278849e226">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d279043e232">
+</th></tr></thead><tbody><tr><td id="d278849e232">
 
 **No change is required**
 
@@ -112,7 +112,7 @@ Action
 
 Send the document for signature. For more information, see [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
 
-</td></tr><tr><td id="d279043e250">
+</td></tr><tr><td id="d278849e250">
 
 **Changes are required**
 

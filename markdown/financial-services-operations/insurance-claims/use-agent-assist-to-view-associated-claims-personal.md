@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_pers.fnol\_representative, sn\_ins\_claim\_pers.a
 
 3.  Open the task from the case playbook or the Personal auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d64285e75">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d64152e75">
 
 Option
 
-</th><th align="left" id="d64285e78">
+</th><th align="left" id="d64152e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d64285e84">
+</th></tr></thead><tbody><tr><td id="d64152e84">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d64285e108">
+</td></tr><tr><td id="d64152e108">
 
 **From the Personal auto claim adjuster tasks list**
 

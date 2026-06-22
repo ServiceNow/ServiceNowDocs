@@ -23,7 +23,7 @@ Role required:
 -   admin or flow\_designer
 -   virtual\_agent\_admin
 
-**Important:** Edit the **Now Assist Panel - Platform \(default\)** assistant and make sure that the Subflows and actions skill is assigned to the assistant. For information about editing an assistant, see .
+**Important:** Edit the **Now Assist Panel - Platform \(default\)** assistant and make sure that the Subflows and actions skill is assigned to the assistant. For information about editing an assistant, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/manage-llm-va.md).
 
 ## Procedure
 
@@ -115,7 +115,7 @@ The option to look up and insert an existing value from a selected table and ref
 
  This option is available for inputs with the Email, GUID, Integer, Long, Long Integer String, String, and String \(Full UTF8\) data types.
 
-**Note:** The Document ID and Reference data types are not valid options, because the system automatically overrides these input types with a list of display values as defined by the table's reference field. For more information about display values and reference fields, see .
+**Note:** The Document ID and Reference data types are not valid options, because the system automatically overrides these input types with a list of display values as defined by the table's reference field. For more information about display values and reference fields, see [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md).
 
  Turning on this option displays the **Table** and **Reference field** options.
 
@@ -141,7 +141,7 @@ The field whose existing record values you want to display as a list of options.
 
  \[Omitted image "example-input-string-user-name-01.png"\] Alt text: Example conversation where a string input shows a list of user names to choose from.
 
- For more information about display values and reference fields, see .
+ For more information about display values and reference fields, see [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md).
 
 </td></tr><tr><td>
 

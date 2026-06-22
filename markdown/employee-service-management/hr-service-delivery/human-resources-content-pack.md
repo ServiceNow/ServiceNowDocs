@@ -16,7 +16,7 @@ breadcrumb: [Performance Analytics for HR Service Delivery, Integration of HR Se
 
 Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
-Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 To enable the solution plugin, an admin can navigate to **System Definitions** &gt; **Plugins** and activate the Performance Analytics - Content Pack - Human Resources Scoped App and the Performance Analytics - Content Pack - Human Resources Lifecycle Events Scoped App plugins.
 
@@ -36,7 +36,7 @@ This dashboard gives Human Resources executives insights into how smoothly new e
 **Related topics**  
 
 
-[bundle-par.content-packs-in-form-analytics]
+[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/platform-analytics/content-packs-in-form-analytics.md)
 
-[bundle-par.c_PremiumPerformanceAnalytics]
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 

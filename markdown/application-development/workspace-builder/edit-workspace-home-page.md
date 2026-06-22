@@ -82,8 +82,8 @@ Graphic, visual representation of current instance data. You can create a new da
 
 </td><td>
 
--   
--   
+-   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center-data-visualizations.md)
+-   [Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-dv-sing-sc-ac.md)
 -   [Developer site data visualization component listing](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/shared-components/sn-par-visualization-base/overview)
 
 
@@ -97,7 +97,7 @@ Refine the visualizations on a dashboard based on specified criteria. The filter
 
 </td><td>
 
--   
+-   [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/interactive-filters-workspace.md)
 -   [Developer site filter component listing](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/shared-components/sn-component-filter/overview)
 
 
@@ -111,7 +111,7 @@ Set of filters that you can apply simultaneously. Filter groups enable you to or
 
 </td><td>
 
-
+[Create a filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-filter-group.md)
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ Table data that you can customize for the dashboard audience.
 
 </td><td>
 
--    or [List - Simple Usage - Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-list-connected-snapshot/overview)
+-   [Simple List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/simple-list-widget.md) or [List - Simple Usage - Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-list-connected-snapshot/overview)
 -   [Developer site List - simple component listing](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-list-connected-snapshot/overview)
 
 
@@ -161,7 +161,7 @@ Visualization that shows how a process is being executed for a particular data s
 
 </td><td>
 
-
+[Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/configure-po-map.md)
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ Content that renders in custom HTML. Rich text enables you to format text in a c
 [Developer site rich text component listing](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-rich-text/overview)
 
 </td></tr></tbody>
-</table>        The [Workspace Builder components for home pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/workspace-builder-components-ref.md) has details on home page elements. For more information, see .
+</table>        The [Workspace Builder components for home pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/workspace-builder-components-ref.md) has details on home page elements. For more information, see [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/ac-elements.md).
 
         If you want to include additional elements that aren't available in the **Add new element** menu, you must edit the workspace in UI Builder. For a complete list of elements you can add in UI Builder, see the components documentation on the [ServiceNow Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?availability[]=Draft&availability[]=In+Progress&availability[]=Available&categories[]=Dev-Design+System&releases[]=utah&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades).
 
@@ -188,7 +188,7 @@ Content that renders in custom HTML. Rich text enables you to format text in a c
 
 5.  If needed, complete any additional changes to an element.
 
-<table id="choicetable_r4f_dmd_wxb"><tbody><tr><td id="d114271e503">
+<table id="choicetable_r4f_dmd_wxb"><tbody><tr><td id="d114466e510">
 
 **Edit an element**
 
@@ -211,7 +211,7 @@ For example, if you're editing a data visualization, you must specify the source
 4.  In the canvas header, select **Save**.
 
 
-</td></tr><tr><td id="d114271e567">
+</td></tr><tr><td id="d114466e574">
 
 **Copy an element to reuse on the home page**
 
@@ -219,7 +219,7 @@ For example, if you're editing a data visualization, you must specify the source
 
 Select the context menu icon \(\[Omitted image "context-menu-icon-purple.png"\] Alt text: Context menu icon to display options\) and select **Duplicate** to copy the element. You can then make additional changes to the copied element.
 
-</td></tr><tr><td id="d114271e585">
+</td></tr><tr><td id="d114466e592">
 
 **Add an element to the library for reuse**
 
@@ -227,7 +227,7 @@ Select the context menu icon \(\[Omitted image "context-menu-icon-purple.png"\] 
 
 Select the context menu icon \(\[Omitted image "context-menu-icon-purple.png"\] Alt text: Context menu icon to display options\) and select **Add to library** to include the element in your library to reuse on other dashboards.
 
-</td></tr><tr><td id="d114271e603">
+</td></tr><tr><td id="d114466e610">
 
 **Delete an element from the workspace dashboard**
 
@@ -246,7 +246,7 @@ A header appears with the name of the element type.
 </td></tr></tbody>
 </table>6.  If needed, complete any additional configuration changes to the dashboard.
 
-<table id="choicetable_uqm_zfr_dvb"><tbody><tr><td id="d114271e652">
+<table id="choicetable_uqm_zfr_dvb"><tbody><tr><td id="d114466e659">
 
 **Configure the dashboard layout**
 
@@ -254,7 +254,7 @@ A header appears with the name of the element type.
 
 Select and drag an entire element to move it around the dashboard layout.Resize an element by selecting and dragging the handlebars \(\[Omitted image "wb-element-handlebars-purple.png"\] Alt text: Element handlebars to drag and resize\) in the lower corners of the element.
 
-</td></tr><tr><td id="d114271e670">
+</td></tr><tr><td id="d114466e677">
 
 **Duplicate the dashboard**
 
@@ -266,7 +266,7 @@ To make a copy of the dashboard:-   Select the more options icon for the dashboa
 -   Select **Duplicate**.
 Access the duplicated dashboard by exiting out of editing mode and selecting the new dashboard from the dashboard name drop-down menu.\[Omitted image "wb-switch-dashboards.png"\] Alt text: Select the duplicated dashboard
 
-</td></tr><tr><td id="d114271e718">
+</td></tr><tr><td id="d114466e725">
 
 **Add tabs to the workspace and edit them as needed**
 
@@ -284,7 +284,7 @@ A tab labeled **untitled** is added next to any existing tabs.
 
 **Note:** No confirmation message appears. The tab disappears from the dashboard.
 
-</td></tr><tr><td id="d114271e776">
+</td></tr><tr><td id="d114466e783">
 
 **Preview a workspace and make in-line edits**
 
@@ -294,13 +294,13 @@ Make basic edits to a workspace when previewing it using the In-line editor.1.  
 2.  In the preview that appears in a new browser tab, select **Edit**.
 3.  Adjust the home page elements and widgets by resizing, reorganizing, or reconfiguring them.
 
-For more information, see .
+For more information, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/edit-db-in-ac.md).
 
 4.  Select **Add new element** to add items to your workspace home page.
 5.  Select **Exit Editing Mode** to stop editing in the In-line editor.
 
 
-</td></tr><tr><td id="d114271e827">
+</td></tr><tr><td id="d114466e835">
 
 **Open a printer-friendly version of the dashboard**
 
@@ -308,7 +308,7 @@ For more information, see .
 
 Select the more options icon for the dashboard \(\[Omitted image "wb-more-options-icon.png"\] Alt text: More options icon\) and select **Printer friendly** to display the workspace home page in a format suitable for printing.
 
-</td></tr><tr><td id="d114271e846">
+</td></tr><tr><td id="d114466e854">
 
 **Add a bookmark to Analytics Center**
 
@@ -316,7 +316,7 @@ Select the more options icon for the dashboard \(\[Omitted image "wb-more-option
 
 Select the more options icon for the dashboard \(\[Omitted image "wb-more-options-icon.png"\] Alt text: More options icon\) and select **Add to bookmarks** to include a bookmark for the workspace in the Analytics Center Bookmarks section.
 
-</td></tr><tr><td id="d114271e869">
+</td></tr><tr><td id="d114466e877">
 
 **Make additional or more advanced configurations to the home page**
 
@@ -324,7 +324,7 @@ Select the more options icon for the dashboard \(\[Omitted image "wb-more-option
 
 In the configuration panel, select **Open in UI Builder**.
 
-</td></tr><tr><td id="d114271e881">
+</td></tr><tr><td id="d114466e889">
 
 **Delete the dashboard**
 

@@ -24,7 +24,7 @@ OAuth can improve system security by reducing the number of times you submit use
 
 1.  Activate the OAuth 2.0 plugin.
 
-    See  to learn how to activate plugins.
+    See [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md) to learn how to activate plugins.
 
 2.  Set the system property **com.snc.platform.security.oauth.is.active** to true.
 
@@ -34,7 +34,7 @@ OAuth can improve system security by reducing the number of times you submit use
 
 5.  Record the **client\_id** and **client\_secret** values from the previous step to use when requesting an access token.
 
-    **Note:** The example shown is about creating OAuth API endpoint using password grant type. You can also configure OAuth API endpoint using other grant types. For more information, see .
+    **Note:** The example shown is about creating OAuth API endpoint using password grant type. You can also configure OAuth API endpoint using other grant types. For more information, see [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/oauth-inbound.md).
 
 6.  To get an access token, use your REST client, such as cURL or Postman, to send a request to the OAuth endpoint \(`oauth_token.do`\).
 

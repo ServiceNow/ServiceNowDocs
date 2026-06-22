@@ -16,7 +16,7 @@ breadcrumb: [Healthcare Operations Core Reference, Healthcare Operations Core, H
 
 Several types of components such as tables, user roles, and business rules are installed when you activate the Care Team Operations plugin.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see .
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## Tables installed with Healthcare Operations Core
 

@@ -36,7 +36,7 @@ When an agent proposes a solution to a consumer's case, buttons for accepting or
 
 5.  Select one of the following from **Actions**.
 
-<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d97774e118">
+<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d97915e118">
 
 **Accept Solution**
 
@@ -44,7 +44,7 @@ When an agent proposes a solution to a consumer's case, buttons for accepting or
 
 Accepts the solution proposed by the agent and changes the case state to **Closed**.
 
-</td></tr><tr><td id="d97774e130">
+</td></tr><tr><td id="d97915e130">
 
 **Reject Solution**
 

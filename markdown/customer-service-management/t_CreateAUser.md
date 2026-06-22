@@ -117,7 +117,7 @@ Web service access only
 
 </td><td>
 
-It designates a user as a non-interactive user. This field is available with Non-Interactive Sessions.**Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI**.
+It designates a user as a non-interactive user. This field is available with [Non-Interactive Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md).**Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI**.
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Internal Integration User
 
 </td><td>
 
-Select this check box to Mark service accounts as internal integration users.
+Select this check box to [Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Select the user identity type based on the user:-   Human - Select this for a re
 -   Machine - Select this for a non-human system or device, such as a server, application, or service account that makes automated requests.
 -   AI - Select this for an autonomous AI-driven system. AI users should be used when an AI agent or agentic workflow needs permissions greater than that of the invoking user.
 
-See Security for AI agents for more information on using AI Agent type users.
+See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md) for more information on using AI Agent type users.
 
 **Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI**.
 
@@ -219,7 +219,7 @@ Attach a photo of the user, if appropriate.
 
 4.  Add **Roles**, **Groups**, **Delegates**, **Skills**, and **Subscriptions** to the user.
 
-    For more information, see , , and .
+    For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/ua-creating-roles.md), [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/ua-creating-groups.md), and [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/c_DelegateRoles.md).
 
 5.  Select **Submit**.
 

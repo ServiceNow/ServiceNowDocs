@@ -30,15 +30,15 @@ The following procedure describes the process for manual schema definition. For 
 
 1.  Create a REST Schema in one of the following ways.
 
-<table id="choicetable_kbq_szc_j3c"><thead><tr><th align="left" id="d296944e88">
+<table id="choicetable_kbq_szc_j3c"><thead><tr><th align="left" id="d296971e88">
 
 Option
 
-</th><th align="left" id="d296944e91">
+</th><th align="left" id="d296971e91">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d296944e97">
+</th></tr></thead><tbody><tr><td id="d296971e97">
 
 **Navigate through a scripted REST API record**
 
@@ -49,7 +49,7 @@ Procedure
 3.  In the **Schemas** related list, select **New**.
 
 
-</td></tr><tr><td id="d296944e136">
+</td></tr><tr><td id="d296971e136">
 
 **Navigate directly to a new REST Schema record**
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for code generation, Scripting, Building pro-code applications, Developing your application, Building applications]
 ---

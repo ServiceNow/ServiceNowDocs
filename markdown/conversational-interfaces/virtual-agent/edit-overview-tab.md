@@ -34,7 +34,7 @@ The **Overview** page displays widgets with links to all the dashboard data. You
 
     The UI Builder opens.
 
-3.  To add or remove components in the Conversational Analytics Dashboard, use the UI Builder.
+3.  To add or remove components in the Conversational Analytics Dashboard, use the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 
 **Parent Topic:**[Legacy - Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/overview-tab.md)

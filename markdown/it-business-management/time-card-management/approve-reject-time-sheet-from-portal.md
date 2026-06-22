@@ -38,15 +38,15 @@ During out-of-office time, the user manager can [delegate another user](https://
 
 4.  Click **Approve** or **Reject**.
 
-<table id="choicetable_z2p_nk2_zfb"><thead><tr><th align="left" id="d75722e116">
+<table id="choicetable_z2p_nk2_zfb"><thead><tr><th align="left" id="d74907e116">
 
 Action
 
-</th><th align="left" id="d75722e119">
+</th><th align="left" id="d74907e119">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d75722e125">
+</th></tr></thead><tbody><tr><td id="d74907e125">
 
 **Approve**
 
@@ -57,7 +57,7 @@ Result
 -   A Time Card Daily record is created for each time card to record the time logged.
 
 
-</td></tr><tr><td id="d75722e162">
+</td></tr><tr><td id="d74907e162">
 
 **Reject**
 

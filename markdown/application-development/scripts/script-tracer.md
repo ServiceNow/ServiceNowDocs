@@ -61,7 +61,7 @@ You may want to set a limit for your trace so that you don't generate too many r
 
 Since each trace you run is new, make sure you're finished reading the results of one trace before clearing it and beginning another one.
 
-To learn more, see .
+To learn more, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debug-overview.md).
 
 **Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/script-debugger.md)
 

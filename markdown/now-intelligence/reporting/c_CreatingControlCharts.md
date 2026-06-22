@@ -52,7 +52,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 3.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d46456e222">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d46478e222">
 
 **Data source**
 
@@ -60,15 +60,15 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d46456e241">
+</td></tr><tr><td id="d46478e241">
 
 **Table**
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see Retrieving external data using remote tables and scripts
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables/remote-tables.md)
 
-</td></tr><tr><td id="d46456e260">
+</td></tr><tr><td id="d46478e260">
 
 **External import**
 
@@ -76,7 +76,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d46456e285">
+</td></tr><tr><td id="d46478e285">
 
 **MetricBase**
 
@@ -115,7 +115,7 @@ Trend by
 
 </td><td>
 
-Table field whose values you want to show in a time sequence. Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field. **Note:** If you selected a remote table in the **Table** field, the option you select in this field aggregates the data that was retrieved from an external source and aggregated in memory. To learn more about remote tables, see Retrieving external data using remote tables and scripts
+Table field whose values you want to show in a time sequence. Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field. **Note:** If you selected a remote table in the **Table** field, the option you select in this field aggregates the data that was retrieved from an external source and aggregated in memory. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables/remote-tables.md)
 
 </td></tr><tr><td>
 

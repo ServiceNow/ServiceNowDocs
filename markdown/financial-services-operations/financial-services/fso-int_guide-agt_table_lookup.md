@@ -28,7 +28,7 @@ The following is an example of what the financial transaction details received f
 
 \[Omitted image "fso-remote\_look\_trans\_detail.png"\] Alt text: FSO case form that shows the transaction details received from the remote bank application.
 
-The following diagram shows the application flow for this use case scenario and provides brief remarks on any required processing. In this implementation, the data obtained from the remote bank application is store in remote tables. Remote tables are only cached in memory, they are never stored in the ServiceNow database tables. You can also implement this scenario by writing the remote data to the corresponding ServiceNow database tables. The [s](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-int_guide-agt_submit_case.md) scenario illustrates how to store data in the ServiceNow database tables using the GlideRecord API.
+The following diagram shows the application flow for this use case scenario and provides brief remarks on any required processing. In this implementation, the data obtained from the remote bank application is store in remote tables. [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables/remote-tables.md) are only cached in memory, they are never stored in the ServiceNow database tables. You can also implement this scenario by writing the remote data to the corresponding ServiceNow database tables. The [s](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-int_guide-agt_submit_case.md) scenario illustrates how to store data in the ServiceNow database tables using the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) API.
 
 <table id="table_rmq_ywq_bpb"><tbody><tr><td>
 
@@ -44,7 +44,7 @@ The following diagram shows the application flow for this use case scenario and 
 </td></tr></tbody>
 </table>## Example code
 
-The follow code example shows how to use the RESTMessageV2 API to create and execute the REST call to the external bank application. It then store the return results in a remote table using the v\_table API. Before you can use the v\_table API you must activate the Remote Tables \(com.glide.script.vtable\) plugin.
+The follow code example shows how to use the RESTMessageV2 API to create and execute the REST call to the external bank application. It then store the return results in a [remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables/remote-tables.md) using the v\_table API. Before you can use the v\_table API you must activate the Remote Tables \(com.glide.script.vtable\) plugin.
 
 ```
 (function executeQuery (v_table, v_query) {

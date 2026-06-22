@@ -285,7 +285,7 @@ Role required: admin
 
 4.  Run the command below to create a new Application Access Policy in PowerShell.
 
-    Use the bot ID created in step 3 in the section Create an app in Microsoft Teams to enable making calls as the AppId for the command.
+    Use the bot ID created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/create-app-ms-teams.md) as the AppId for the command.
 
     For more information on the application access policy, see [Configure application access to online meetings](https://learn.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 

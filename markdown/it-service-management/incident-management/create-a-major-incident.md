@@ -24,15 +24,15 @@ Role required: major\_incident\_manager
 
 1.  Perform any of the following actions.
 
-<table id="choicetable_mzp_swn_gdb"><thead><tr><th align="left" id="d207905e50">
+<table id="choicetable_mzp_swn_gdb"><thead><tr><th align="left" id="d206423e50">
 
 Option
 
-</th><th align="left" id="d207905e53">
+</th><th align="left" id="d206423e53">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d207905e59">
+</th></tr></thead><tbody><tr><td id="d206423e59">
 
 **Promote an incident to a major incident manually**
 
@@ -45,7 +45,7 @@ On the context menu, click **Promote to Major Incident**. The incident directly 
 
 To get this behavior, you need to set the major incident management property **Create major incident from candidate – A new incident is created from a candidate as a major incident. The candidate is associated with the new incident as a child.** \(**sn\_major\_inc\_mgmt.com.snc.incident.mim.major\_incident\_creation**\) to **Promote candidate to a major incident**.
 
-</td></tr><tr><td id="d207905e97">
+</td></tr><tr><td id="d206423e97">
 
 **Create a major incident from application navigation**
 

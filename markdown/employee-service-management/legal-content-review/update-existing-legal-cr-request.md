@@ -26,15 +26,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Open the Legal Content Review request.
 
-<table id="choicetable_av2_r5c_3xb"><thead><tr><th align="left" id="d82265e66">
+<table id="choicetable_av2_r5c_3xb"><thead><tr><th align="left" id="d82062e66">
 
 Option
 
-</th><th align="left" id="d82265e69">
+</th><th align="left" id="d82062e69">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d82265e75">
+</th></tr></thead><tbody><tr><td id="d82062e75">
 
 **Using __Employee Center__**
 
@@ -44,7 +44,7 @@ Description
 2.  Select **My Requests** from the header.
 
 
-</td></tr><tr><td id="d82265e106">
+</td></tr><tr><td id="d82062e106">
 
 **Using __Legal Service Portal__**
 
@@ -73,15 +73,15 @@ Description
 
 8.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d82265e210">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d82062e210">
 
 Option
 
-</th><th align="left" id="d82265e213">
+</th><th align="left" id="d82062e213">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d82265e219">
+</th></tr></thead><tbody><tr><td id="d82062e219">
 
 **If the Attachments tab is visible**
 
@@ -92,7 +92,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d82265e258">
+</td></tr><tr><td id="d82062e258">
 
 **If the Documents tab is visible**
 

@@ -876,7 +876,7 @@ ServiceNow Role required: sam\_integrator or admin
 
 Salesforce Marketing Cloud Role required: sn\_sforce\_mc\_spoke.Salesforce Marketing Cloud Admin
 
-**Important:** You must select the **Software Asset Management integration with Salesforce Marketing Cloud** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Salesforce Marketing Cloud** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -886,15 +886,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d146462e2972">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d146508e2973">
 
 Interface
 
-</th><th align="left" id="d146462e2975">
+</th><th align="left" id="d146508e2976">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d146462e2981">
+</th></tr></thead><tbody><tr><td id="d146508e2982">
 
 **Core UI**
 
@@ -905,7 +905,7 @@ Action
 3.  Select **Salesforce Marketing Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d146462e3023">
+</td></tr><tr><td id="d146508e3024">
 
 **Software Asset Workspace**
 
@@ -1053,7 +1053,7 @@ Role required: sam\_integrator or admin
 
 Salesforce Marketing Cloud Role required: sn\_sforce\_mc\_spoke.Salesforce Marketing Cloud Admin
 
-**Important:** You must select the **Software Asset Management integration with Salesforce Marketing Cloud** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Salesforce Marketing Cloud** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -1063,15 +1063,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d146462e3810">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d146508e3812">
 
 Interface
 
-</th><th align="left" id="d146462e3813">
+</th><th align="left" id="d146508e3815">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d146462e3819">
+</th></tr></thead><tbody><tr><td id="d146508e3821">
 
 **Core UI**
 
@@ -1082,7 +1082,7 @@ Action
 3.  Select **Salesforce Marketing Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d146462e3861">
+</td></tr><tr><td id="d146508e3863">
 
 **Software Asset Workspace**
 

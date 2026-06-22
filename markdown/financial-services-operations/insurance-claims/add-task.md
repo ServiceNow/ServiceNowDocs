@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.auto\_processor, sn\_ins\_claim\_cml.auto\_ad
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d114806e78">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d114675e78">
 
 Option
 
-</th><th align="left" id="d114806e81">
+</th><th align="left" id="d114675e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d114806e87">
+</th></tr></thead><tbody><tr><td id="d114675e87">
 
 **From the landing page**
 
@@ -44,7 +44,7 @@ Steps
 
 From a claims list, select the claim case you want to create a new task for.
 
-</td></tr><tr><td id="d114806e96">
+</td></tr><tr><td id="d114675e96">
 
 **From the applicable case/tasks list**
 

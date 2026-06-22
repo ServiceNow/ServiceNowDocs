@@ -43,7 +43,7 @@ To view Growth plans related information from the Now Assist Admin console, you 
 
 ## What to do next
 
-To learn more about the Now Assist Admin console, see .
+To learn more about the Now Assist Admin console, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 **Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-administration.md)
 

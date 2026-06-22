@@ -7,7 +7,7 @@ release: yokohama
 product: Customer Service Management
 classification: customer-service-management
 topic_type: reference
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Create a responsibility definition, Configuring customer access management, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

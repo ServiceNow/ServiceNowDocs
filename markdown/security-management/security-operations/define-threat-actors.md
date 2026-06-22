@@ -28,15 +28,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d95512e83">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d95543e83">
 
 Field
 
-</th><th align="left" id="d95512e86">
+</th><th align="left" id="d95543e86">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d95512e92">
+</th></tr></thead><tbody><tr><td id="d95543e92">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Enter a name to identify the malware instance or family, as specified by the producer of the SDO. For a malware family, the name must be defined.
 
-</td></tr><tr><td id="d95512e101">
+</td></tr><tr><td id="d95543e101">
 
 **First Seen**
 
@@ -52,7 +52,7 @@ Enter a name to identify the malware instance or family, as specified by the pro
 
 The time that this malware instance or family was first seen performing malicious activities.
 
-</td></tr><tr><td id="d95512e110">
+</td></tr><tr><td id="d95543e110">
 
 **Last Seen**
 
@@ -60,7 +60,7 @@ The time that this malware instance or family was first seen performing maliciou
 
 The time that this malware instance or family was last seen performing malicious activities.
 
-</td></tr><tr><td id="d95512e119">
+</td></tr><tr><td id="d95543e119">
 
 **Primary Motivation**
 
@@ -68,7 +68,7 @@ The time that this malware instance or family was last seen performing malicious
 
 The primary reason, motivation, or purpose behind this threat actor. The motivation is why the threat actor wants to achieve the goal \(what they are trying to achieve\). For example, a threat actor with a goal to disrupt the finance sector in a country might be motivated by ideological hatred of capitalism.
 
-</td></tr><tr><td id="d95512e132">
+</td></tr><tr><td id="d95543e132">
 
 **Resource Level**
 
@@ -76,7 +76,7 @@ The primary reason, motivation, or purpose behind this threat actor. The motivat
 
 The organizational level at which this threat actor typically works, which in turn determines the resources available to this Threat Actor for use in an attack.
 
-</td></tr><tr><td id="d95512e141">
+</td></tr><tr><td id="d95543e141">
 
 **Source**
 
@@ -84,7 +84,7 @@ The organizational level at which this threat actor typically works, which in tu
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d95512e150">
+</td></tr><tr><td id="d95543e150">
 
 **Description**
 
@@ -92,7 +92,7 @@ Specifies the threat source from which this record is created.
 
 A description that provides more details and context about the threat actor, potentially including its purpose and its key characteristics.
 
-</td></tr><tr><td id="d95512e159">
+</td></tr><tr><td id="d95543e159">
 
 **Aliases**
 
@@ -100,7 +100,7 @@ A description that provides more details and context about the threat actor, pot
 
 A list of other names to identify this threat actor.
 
-</td></tr><tr><td id="d95512e168">
+</td></tr><tr><td id="d95543e168">
 
 **Goals**
 
@@ -108,7 +108,7 @@ A list of other names to identify this threat actor.
 
 The high-level goals of this threat actor, namely, what are they trying to do. For example, they may be motivated by personal gain, but their goal is to steal credit card numbers.
 
-</td></tr><tr><td id="d95512e177">
+</td></tr><tr><td id="d95543e177">
 
 **Source ID**
 
@@ -116,7 +116,7 @@ The high-level goals of this threat actor, namely, what are they trying to do. F
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d95512e187">
+</td></tr><tr><td id="d95543e187">
 
 **Created Time in Source**
 
@@ -124,7 +124,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d95512e196">
+</td></tr><tr><td id="d95543e196">
 
 **Modified Time in Source**
 

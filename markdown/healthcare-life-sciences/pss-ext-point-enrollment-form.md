@@ -37,7 +37,7 @@ The sn\_patientservice.EnrollmentCaseUtilService script is preconfigured for the
 3.  Create a practitioner record if one doesn't exist.
 4.  Create a member plan if one doesn't exist.
 
-Using extension points makes it easier to integrate customizations without actually altering the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
+Using extension points makes it easier to integrate customizations without actually altering the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/extension-points.md).
 
 An implementation is available in the base system for scripted extension points. You can modify the data and add additional fields.
 

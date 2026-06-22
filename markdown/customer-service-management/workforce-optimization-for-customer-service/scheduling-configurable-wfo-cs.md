@@ -26,7 +26,7 @@ With Scheduling, you can do the following:
 -   Analyze whether your team members are following the schedules. If you see a potential issue, you can easily alert your team so that they can take immediate action.
 -   Use historical adherence reports to analyze and recommend coaching opportunities for your agents.
 
-To delve into more information behind your key performance indicators, filters and sidebars, see Exploring indicators with KPI Details
+To delve into more information behind your key performance indicators, filters and sidebars, see [Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/kpi-details-components.md)
 
 **Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/use-configurable-wfo-cs.md)
 
@@ -54,15 +54,15 @@ In the **Shifts** tab, the shifts are grouped by active and inactive shifts. The
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d46689e196">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d46822e196">
 
 To
 
-</th><th align="left" id="d46689e199">
+</th><th align="left" id="d46822e199">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d46689e205">
+</th></tr></thead><tbody><tr><td id="d46822e205">
 
 **Create a work shift**
 
@@ -95,7 +95,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Click **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d46689e323">
+</td></tr><tr><td id="d46822e323">
 
 **Create an on-call shift**
 
@@ -305,15 +305,15 @@ Role required: sn\_shift\_planning.admin
 
 9.  Select one of the following options from the Repeats list.
 
-<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d46689e1278">
+<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d46822e1278">
 
 Option
 
-</th><th align="left" id="d46689e1281">
+</th><th align="left" id="d46822e1281">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d46689e1287">
+</th></tr></thead><tbody><tr><td id="d46822e1287">
 
 **Does not repeat**
 
@@ -321,7 +321,7 @@ Steps
 
 It is a one-time meeting only.
 
-</td></tr><tr><td id="d46689e1296">
+</td></tr><tr><td id="d46822e1296">
 
 **Daily**
 
@@ -331,7 +331,7 @@ It is a one-time meeting only.
 2.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d46689e1320">
+</td></tr><tr><td id="d46822e1320">
 
 **Weekly**
 
@@ -342,7 +342,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d46689e1347">
+</td></tr><tr><td id="d46822e1347">
 
 **Monthly**
 
@@ -356,7 +356,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d46689e1395">
+</td></tr><tr><td id="d46822e1395">
 
 **Yearly**
 
@@ -458,7 +458,7 @@ Adherence and conformance calculations are based on the [defined configuration](
 
 **Note:** Your administrator can disable schedule adherence or change the configuration for adherence and conformance. For more information, see [Configure properties for schedule adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-scheduling-configurable-wfo-cs.md).
 
-For information about schedule adherence, see the "Schedule adherence" section of .
+For information about schedule adherence, see the "Schedule adherence" section of [Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md).
 
 ### Procedure
 
@@ -544,15 +544,15 @@ Using Demand Forecast, you can:
 
     You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d46689e2003">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d46822e2004">
 
 To analyze staff alignment
 
-</th><th align="left" id="d46689e2006">
+</th><th align="left" id="d46822e2007">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d46689e2012">
+</th></tr></thead><tbody><tr><td id="d46822e2013">
 
 **For each day**
 
@@ -571,7 +571,7 @@ Select **Day** from the list.The **Total resources needed** row displays the dem
 |Red|The number of agents you have scheduled are less than the demand you have for that interval.|
 |Grey|The demand for the number of agents and the number of agents scheduled is zero for that interval.|
 
-</td></tr><tr><td id="d46689e2096">
+</td></tr><tr><td id="d46822e2097">
 
 **For a given week**
 
@@ -620,15 +620,15 @@ You can create custom event types and add or remove the desired fields. For more
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d46689e2307">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d46822e2308">
 
 To
 
-</th><th align="left" id="d46689e2310">
+</th><th align="left" id="d46822e2311">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d46689e2316">
+</th></tr></thead><tbody><tr><td id="d46822e2317">
 
 **Create a meeting, training, or time-off request.**
 
@@ -653,7 +653,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d46689e2422">
+</td></tr><tr><td id="d46822e2423">
 
 **Create a work shift**
 
@@ -802,15 +802,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d46689e2968">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d46822e2969">
 
 To
 
-</th><th align="left" id="d46689e2971">
+</th><th align="left" id="d46822e2972">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d46689e2977">
+</th></tr></thead><tbody><tr><td id="d46822e2978">
 
 **Auto-assign agents**
 
@@ -818,7 +818,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d46689e2992">
+</td></tr><tr><td id="d46822e2993">
 
 **Assign agents manually**
 

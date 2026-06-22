@@ -7,7 +7,7 @@ release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [DEX administration, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_dex.admin
 
 1.  Perform one of the following options.
 
-<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d122811e44">
+<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d121542e44">
 
 Options
 
-</th><th align="left" id="d122811e47">
+</th><th align="left" id="d121542e47">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d122811e53">
+</th></tr></thead><tbody><tr><td id="d121542e53">
 
 **System Properties table \[sys\_properties\]**
 
@@ -40,7 +40,7 @@ Actions
 
 Open the property **sn\_dex.alert.correlation\_rule.device.period** and in the **Value** field, enter 0.
 
-</td></tr><tr><td id="d122811e68">
+</td></tr><tr><td id="d121542e68">
 
 **Alert Correlation Rules**
 

@@ -24,15 +24,15 @@ Role required: asset or inventory\_admin
 
 1.  View the list of asset attestations.
 
-<table id="choicetable_z4q_vfz_rfc"><thead><tr><th align="left" id="d46378e56">
+<table id="choicetable_z4q_vfz_rfc"><thead><tr><th align="left" id="d46424e56">
 
 UI option
 
-</th><th align="left" id="d46378e59">
+</th><th align="left" id="d46424e59">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d46378e65">
+</th></tr></thead><tbody><tr><td id="d46424e65">
 
 **Inventory view**
 
@@ -42,7 +42,7 @@ Action
 2.  Select the **Asset attestations** tab.
 
 
-</td></tr><tr><td id="d46378e98">
+</td></tr><tr><td id="d46424e98">
 
 **Asset operations view**
 

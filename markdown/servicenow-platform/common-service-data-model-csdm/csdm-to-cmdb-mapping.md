@@ -18,7 +18,7 @@ The objects in the conceptual CSDM framework must map to the physical model obje
 
 \[Omitted image "mapping.png"\] Alt text: Conceptual-to-physical mapping CSDM to CMDB.
 
-**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See .
+**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-portfolio-management/SPM2-taxonomy.md).
 
 ## CSDM videos in the ServiceNow Community
 

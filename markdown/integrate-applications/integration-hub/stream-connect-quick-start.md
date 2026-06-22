@@ -32,7 +32,7 @@ To link your ServiceNow instance to a Kafka environment, Stream Connect uses the
 
 \[Omitted image "stream-connect-architecture.png"\] Alt text: Diagram showing Stream Connect producers and consumers and how they connect to a Kafka environment, described as the "customer site", through the Hermes Messaging Service.
 
-For more information, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-apache-kafka.md) and the .
+For more information, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-apache-kafka.md) and the [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md).
 
 ## Getting started
 

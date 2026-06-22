@@ -24,8 +24,8 @@ The data visualization component is a container for available chart types for us
 
 For more information on data visualization components, see the following topics and sources:
 
--   
--   
+-   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center-data-visualizations.md)
+-   [Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-dv-sing-sc-ac.md)
 -   [Data visualization component listing on the Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/shared-components/sn-par-visualization-base/overview)
 
 \[Omitted image "wb-data-viz-purple-new.png"\] Alt text: Data visualization element to be edited
@@ -36,7 +36,7 @@ Filters enable you to filter data visualizations without modifying the visualiza
 
 For more information on using filters components to build a workspace, see the following topics and sources:
 
--   Next Experience filters
+-   [Next Experience filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/interactive-filters-workspace.md)
 -   [Developer site filter component listing](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/shared-components/sn-component-filter/overview)
 
 ## Heading components

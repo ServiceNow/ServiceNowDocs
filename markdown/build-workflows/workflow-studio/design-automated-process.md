@@ -60,7 +60,7 @@ The manual business process for this example consists of the following stages:
 
     8.  In the Table list, select **Interaction \[interaction\]**.
 
-    9.  Use the condition builder to add the following condition to your trigger:
+    9.  Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to add the following condition to your trigger:
 
         **\[Opened for-&gt;VIP\]** **\[is\]** **\[True\]**.
 
@@ -162,7 +162,7 @@ The manual business process for this example consists of the following stages:
 
     10. In the Table list, select **Incident \[incident\]**.
 
-    11. Use the condition builder to add the following condition to your activity:
+    11. Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to add the following condition to your activity:
 
         **\[Updated by\]** **\[is\]** **\[Activities** &gt; **1:1 - automated\_create\_record** &gt; **Outputs** &gt; **record** &gt; **Assigned to\]**.
 
@@ -216,7 +216,7 @@ The manual business process for this example consists of the following stages:
 
     10. In the **Table** field, select **Incident \[incident\]**.
 
-    11. Use the condition builder to add the following condition to your activity:
+    11. Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to add the following condition to your activity:
 
         **\[State\]** **\[is\]** **\[Resolved\]**.
 

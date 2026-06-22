@@ -202,7 +202,7 @@ Source field
 
 </td><td>
 
-Field from the source table that is sent to another ServiceNow instance.Source fields allow for Dot-walking to data in related tables, which is useful when reference data is not available between ServiceNow instances. For example, you can create multiple inbound mappings for change incidents \(CIs\) to include the name, class, IP address, and asset tag.
+Field from the source table that is sent to another ServiceNow instance.Source fields allow for [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_DotWalking.md), which is useful when reference data is not available between ServiceNow instances. For example, you can create multiple inbound mappings for change incidents \(CIs\) to include the name, class, IP address, and asset tag.
 
 </td></tr><tr><td>
 
@@ -324,7 +324,7 @@ Source field
 
 </td><td>
 
-Field from the source table that is sent to another ServiceNow instance.Source fields allow for Dot-walking to data in related tables, which is useful when reference data is not available between ServiceNow instances. For example, you can create multiple inbound mappings for change incidents \(CIs\) to include the name, class, IP address, and asset tag.
+Field from the source table that is sent to another ServiceNow instance.Source fields allow for [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_DotWalking.md), which is useful when reference data is not available between ServiceNow instances. For example, you can create multiple inbound mappings for change incidents \(CIs\) to include the name, class, IP address, and asset tag.
 
 </td></tr><tr><td>
 

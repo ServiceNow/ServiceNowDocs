@@ -28,7 +28,7 @@ Role required: itil, sn\_incident\_write, or admin
 
 3.  In the **Incident Tasks** related list, click **New**.
 
-    If you do not see the **Incident Tasks** related list, you need to add it. For information on how to a related list, refer .
+    If you do not see the **Incident Tasks** related list, you need to add it. For information on how to a related list, refer [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
 
     Alternatively, you can also right-click on the header form and on the context menu, select the **Create Incident Task**.
 

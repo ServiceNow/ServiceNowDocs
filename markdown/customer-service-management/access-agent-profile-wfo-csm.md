@@ -18,7 +18,7 @@ Track and monitor the real-time status of your work by accessing your profile in
 
 ## Before you begin
 
-**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the UI Builder. For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-wfo-cs.md).
+**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-wfo-cs.md).
 
 Role required: sn\_wfo\_csm.employee
 
@@ -38,15 +38,15 @@ Access your profile to analyze information such as:
 
 2.  Click the Lists icon.
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d230451e128">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d230642e128">
 
 To
 
-</th><th align="left" id="d230451e131">
+</th><th align="left" id="d230642e131">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d230451e137">
+</th></tr></thead><tbody><tr><td id="d230642e137">
 
 **Access your profile from a case record**
 
@@ -56,7 +56,7 @@ Do this
 2.  In the **Assigned** column, select your name.
 The profile page appears. In that page, you can access all the information related to your profile.
 
-</td></tr><tr><td id="d230451e164">
+</td></tr><tr><td id="d230642e164">
 
 **Create your profile for centralized access**
 
@@ -71,7 +71,7 @@ The profile page appears. In that page, you can access all the information relat
 7.  Click **Create**.
  The workspace adds your profile to the **My Lists** tab.
 
-For information on creating a list, see Create My Lists in Workspace.
+For information on creating a list, see [Create My Lists in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/create-filtered-list-agent-workspace.md).
 
 </td></tr></tbody>
 </table>

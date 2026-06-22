@@ -25,5 +25,5 @@ Product Catalog plugin adds the following client script.
 **Related topics**  
 
 
-[bundle-crapiref.client-scripts]
+[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/client-scripts.md)
 

@@ -72,7 +72,7 @@ Available offline
 
 Option to enable users to update application records while in offline mode. This option is available only if the SG Offline Support \(com.glide.sg.offline\) plugin is activated.
 
- For information on offline mode, see Updating records without an internet connection.
+ For information on offline mode, see [Updating records without an internet connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/offline-end-user.md).
 
 </td></tr><tr><td>
 

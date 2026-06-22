@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Configuring workspace lists and records for form submissions, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -70,7 +70,7 @@ Update the types of records that appear in a list
 
 </td><td>
 
-For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see .1.  Select **Modify conditions** in the Filtered list details panel.
+For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).1.  Select **Modify conditions** in the Filtered list details panel.
 2.  Use the condition builder to update what types of records the list should contain.
 3.  Save the update by selecting the **Apply** button.
 

@@ -273,7 +273,7 @@ Record Summarization
 
 </td><td>
 
-Enables record summarization using Now Assist.**Note:** This operation requires Now Assist to be configured. For more information, see .
+Enables record summarization using Now Assist.**Note:** This operation requires Now Assist to be configured. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 </td><td>
 

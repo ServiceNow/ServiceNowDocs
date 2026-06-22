@@ -175,7 +175,7 @@ Default operator
 
 </td><td>
 
-How every row in the condition column evaluates a user-specified value. A default operator is required for all input data types except for True or False.For more information about operators, see .
+How every row in the condition column evaluates a user-specified value. A default operator is required for all input data types except for True or False.For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 </td></tr></tbody>
 </table>10. Select **Done**.
@@ -264,7 +264,7 @@ Option to filter the list of reference records in the result column when the res
 
     \[Omitted image "populate-decision-table.png"\] Alt text: Decision table with empty cells
 
-    For more information about operators, see .
+    For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 17. To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(\[Omitted image "ellipses.png"\] Alt text: Decision rule row menu options.\) to the left of the row number, and then select **Open in Decision rule view**.
 

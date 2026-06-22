@@ -58,7 +58,7 @@ Install the Order Management application from the ServiceNow Store.
 
 </td></tr><tr><td>
 
-Configure Service Model FoundationMandatory
+Configure [Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-industry-data-model.md)Mandatory
 
 </td><td>
 
@@ -66,7 +66,7 @@ Install the Service Model Foundation application from the ServiceNow Store store
 
 </td></tr><tr><td>
 
-Install and configure Install Base ManagementMandatory
+Install and configure [Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-install-base.md)Mandatory
 
 </td><td>
 
@@ -78,7 +78,7 @@ Install the Install Base Management application from the ServiceNow Store store.
 
 </td><td>
 
-See .
+See [Install Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/install-service-bridge-v2-provider.md).
 
 </td></tr></tbody>
 </table>-   Work with an implementation specialist to streamline your manufacturing setup process. To learn more, see the [Customer Success Center](https://www.servicenow.com/success.html).

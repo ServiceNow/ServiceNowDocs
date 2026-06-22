@@ -49,7 +49,7 @@ Here are some of the key benefits of the HR Agent Workspace.
 
 ## HR Service Delivery Classic HR Service Delivery Agent Workspace
 
-HR Service Delivery Agent Workspace is a configurable service desk application that is based on Exploring Workspace. This application puts all the tools that you need in one place so that you can assist employees with their needs.
+HR Service Delivery Agent Workspace is a configurable service desk application that is based on [Exploring Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/learn-about-agent-workspace.md). This application puts all the tools that you need in one place so that you can assist employees with their needs.
 
 <table id="landing-page-model-table" class="nav-card"><tbody><tr><td>
 

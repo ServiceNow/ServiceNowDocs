@@ -24,7 +24,7 @@ Role required: sn\_acct\_lc.ale\_success\_agent, sn\_acct\_lc.ale\_success\_cust
 
 Success initiatives are a set of planned activities or tasks that a provider and a customer must complete to achieve a success outcome. A success initiative can include one or more tasks that can be internal or external and can be defined with the Create Success Initiative playbook.
 
-**Note:** The Create Success Initiative playbook has a set of predefined stages and fields. You can add or modify these stages using Playbooks. See  for details.
+**Note:** The Create Success Initiative playbook has a set of predefined stages and fields. You can add or modify these stages using Playbooks. See [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/exploring-process-automation-designer.md) for details.
 
 ## Procedure
 
@@ -172,7 +172,7 @@ Enter a description for this initiative.
     -   Close notes: Provide a description on which this initiative is being closed.
 9.  Click **Mark Complete** to complete this task.
 
-    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Click the **Response template** icon and select the response template you want to use. For more details on response templates, see .
+    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Click the **Response template** icon and select the response template you want to use. For more details on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md).
 
 
 ## What to do next

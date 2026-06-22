@@ -80,15 +80,15 @@ Adds skills to work items using a script.
 
 7.  Create the rule.
 
-<table id="choicetable_vx5_gc1_wgb"><thead><tr><th align="left" id="d80516e198">
+<table id="choicetable_vx5_gc1_wgb"><thead><tr><th align="left" id="d79394e198">
 
 Rule type
 
-</th><th align="left" id="d80516e201">
+</th><th align="left" id="d79394e201">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d80516e207">
+</th></tr></thead><tbody><tr><td id="d79394e207">
 
 **Create a simple rule**
 
@@ -101,7 +101,7 @@ Steps
 
 For information about defining skill levels, see [Define a skill level type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/skills-management/define-skill-level-type.md).
 
-</td></tr><tr><td id="d80516e259">
+</td></tr><tr><td id="d79394e259">
 
 **Create a lookup rule**
 
@@ -120,7 +120,7 @@ The **Skills Field** that connects the source and reference tables is automatica
 8.  From the **Lookup table field** drop-down menu, select an attribute to map to the source table.
 
 
-</td></tr><tr><td id="d80516e331">
+</td></tr><tr><td id="d79394e331">
 
 **Create an advanced rule**
 

@@ -16,11 +16,11 @@ breadcrumb: [Integrating Customer Service Management with other applications, Cu
 
 Integrate Customer Service Management with the Process Mining application to analyze processes relevant to your KPIs, and identify bottlenecks associated with customer service cases.
 
-For more information about enabling the Process Mining Content Pack for CSM, see .
+For more information about enabling the Process Mining Content Pack for CSM, see [Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/po-content-pack.md).
 
 ## End user and roles
 
-If you have the required roles, you can use Analyst Workbench to access the visualized process workflow data, and tools for analyzing data related to customer service cases. For more information, see Overview of the Analyst Workbench.
+If you have the required roles, you can use Analyst Workbench to access the visualized process workflow data, and tools for analyzing data related to customer service cases. For more information, see [Overview of the Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/analyst-workbench-overview.md).
 
 The following combinations of roles are required for using the Process Mining application with Customer Service Management.
 
@@ -32,7 +32,7 @@ The following combinations of roles are required for using the Process Mining ap
 
 ## Optimization project for customer service cases
 
-The Process Mining Content Pack for CSM \(com.snc.csm\_process\_optimization\) adds a prebuilt project that includes a predefined **Customer Service Cases** process model definition for customer service cases. By default, the **Customer Service Cases** project filters customer service cases for the last two quarters. You can also configure a new process project based on the prebuilt project. For more information, see Create a project using ServiceNow platform.
+The Process Mining Content Pack for CSM \(com.snc.csm\_process\_optimization\) adds a prebuilt project that includes a predefined **Customer Service Cases** process model definition for customer service cases. By default, the **Customer Service Cases** project filters customer service cases for the last two quarters. You can also configure a new process project based on the prebuilt project. For more information, see [Create a project using ServiceNow platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/create-proj.md).
 
 The **Customer Service Cases** process model definition includes default activity definitions and breakdown definitions for customer service cases. Use the definitions as they are or modify them for a custom configuration.
 
@@ -41,14 +41,14 @@ The **Customer Service Cases** process model definition includes default activit
 
 ## Continual Improvement Management initiative for customer service cases
 
-If the Continual Improvement Management \(CIM\) application is enabled, the CIM project from the Analyst Workbench can be used to track customer service case improvement initiative progress. The improvement initiative and the process mining model are automatically linked. For more information, see Integration with Continual Improvement Management.
+If the Continual Improvement Management \(CIM\) application is enabled, the CIM project from the Analyst Workbench can be used to track customer service case improvement initiative progress. The improvement initiative and the process mining model are automatically linked. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/integrate-with-continuous-i.md).
 
 ## Performance Analytics for customer service cases
 
-If the Performance Analytics application is enabled, the available template configurations can also open the Process Mining application from a Performance Analytics \(PA\) indicator based on the customer service case data. For more information, see Integration with Performance Analytics \(PA\).
+If the Performance Analytics application is enabled, the available template configurations can also open the Process Mining application from a Performance Analytics \(PA\) indicator based on the customer service case data. For more information, see [Integration with Performance Analytics \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/integrate-pa.md).
 
 **Related topics**  
 
 
-[bundle-par.example-po-csm]
+[Process Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/example-po-csm.md)
 

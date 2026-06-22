@@ -36,15 +36,15 @@ Role required: notify\_admin, major\_incident\_manager, communications\_manager,
 
 3.  Mute an individual participant or mute all participants.
 
-<table id="choicetable_ixy_kbr_tnb"><thead><tr><th align="left" id="d221318e129">
+<table id="choicetable_ixy_kbr_tnb"><thead><tr><th align="left" id="d221124e129">
 
 Option
 
-</th><th align="left" id="d221318e132">
+</th><th align="left" id="d221124e132">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d221318e138">
+</th></tr></thead><tbody><tr><td id="d221124e138">
 
 **Mute an individual participant**
 
@@ -54,7 +54,7 @@ Action
 2.  Click **Mute**.
 
 
-</td></tr><tr><td id="d221318e159">
+</td></tr><tr><td id="d221124e159">
 
 **Mute all participants**
 

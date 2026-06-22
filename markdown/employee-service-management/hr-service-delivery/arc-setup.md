@@ -33,7 +33,7 @@ The following system properties are available:
 
     -   google.captcha.secret
     -   google.captcha.site\_key
-    You must also set up an enterprise Google captcha account. For more information, see Configure Google reCAPTCHA for the password reset process.
+    You must also set up an enterprise Google captcha account. For more information, see [Configure Google reCAPTCHA for the password reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/password-reset/t_ConfigureGoogleRecaptcha.md).
 
 -   Allow anonymous user access to the anonymously created cases using secret key. \(sn\_anon\_rc.allow\_anonymous\_case\_access\): Determines if anonymous users can access the anonymous cases they submitted using a secret key.
 

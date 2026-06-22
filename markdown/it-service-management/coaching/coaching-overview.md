@@ -90,11 +90,11 @@ Coaching opportunities, coaching assessments, and assigned training in Coaching 
 
     **Note:** The Continual Improvement Management \(com.sn\_cim\) plugin must be active to create an improvement initiative. Continual Improvement Management requires a separate subscription and must be activated by ServiceNow personnel.
 
--   Skills Management
+-   [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/skills-management/skills-management.md)
 
     In a coaching assessment, you can assess trainee skills to identify gaps so the trainee can be coached to acquire new skills or to enhance their existing skill level.
 
--   Knowledge management
+-   [Knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
 
     You can assign knowledge articles as assigned training.
 

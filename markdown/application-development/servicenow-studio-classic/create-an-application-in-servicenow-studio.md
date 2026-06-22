@@ -50,7 +50,7 @@ Role required: adminor Guided Application Creator roles
 
 5.  Define user access to the app by adding roles.
 
-    ServiceNow Studio automatically defines default admin and user roles. You can remove the predefined roles or add more roles. For more information about roles, see .
+    ServiceNow Studio automatically defines default admin and user roles. You can remove the predefined roles or add more roles. For more information about roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
     1.  Select **Add a role**.
 

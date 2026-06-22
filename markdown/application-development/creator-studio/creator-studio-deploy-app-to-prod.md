@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Deploying your Creator Studio app, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---

@@ -26,9 +26,9 @@ While some tools have the word "Builder" attached to their name and others don't
 
 |Builder|Description|
 |-------|-----------|
-|Decision tables in Workflow Studio|Decision tables in Workflow Studio embed business logic into a series of if-then decision rules. Decision tables read data from inputs and evaluate the data according to specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results.|
-|Flows, subflows, and actions in Workflow Studio|Flows, subflows, and actions enable process owners to automate work. Build multi-step flows from reusable components without having to code.|
-|Playbooks in Workflow Studio|Playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. You can also use playbooks to provide end users with a simplified, task-oriented view of your process.|
+|[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/decision-designer-overview.md)|Decision tables in Workflow Studio embed business logic into a series of if-then decision rules. Decision tables read data from inputs and evaluate the data according to specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results.|
+|[Flows, subflows, and actions in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/exploring-flows.md)|Flows, subflows, and actions enable process owners to automate work. Build multi-step flows from reusable components without having to code.|
+|[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/process-automation-designer.md)|Playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. You can also use playbooks to provide end users with a simplified, task-oriented view of your process.|
 
 ## Data
 
@@ -49,7 +49,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Integration Hub Imports
+[Integration Hub Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/importing-streaming-data-ih.md)
 
 </td><td>
 
@@ -62,16 +62,16 @@ Integration Hub - Import enables you to configure, run, and schedule your data i
 
 |Builder|Description|
 |-------|-----------|
-||Configure how ServiceNow applications display on mobile devices.|
+|[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/mab-concept.md)|Configure how ServiceNow applications display on mobile devices.|
 
 ## User interface
 
 |Builder|Description|
 |-------|-----------|
-|Catalog Builder|You can create or edit a catalog item \(catalog item or record producer\) using a visual and guided experience along with specified restrictions. The catalog builder experience enables you to delegate the creation and maintenance of the catalog.|
-||Create or update the portal page layout and add or remove widgets on the page.|
-||Create or edit a catalog item, which can be a record producer, an order guide, or a content item.|
-||Create survey categories and questions, configure their details, and publish the survey to specific users or groups.|
+|[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/set-up-cat-builder.md)|You can create or edit a catalog item \(catalog item or record producer\) using a visual and guided experience along with specified restrictions. The catalog builder experience enables you to delegate the creation and maintenance of the catalog.|
+|[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/c_ServicePortal.md)|Create or update the portal page layout and add or remove widgets on the page.|
+|[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/service-catalog.md)|Create or edit a catalog item, which can be a record producer, an order guide, or a content item.|
+|[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesigner.md)|Create survey categories and questions, configure their details, and publish the survey to specific users or groups.|
 |[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/ui-builder-overview.md)|UI Builder is a web user interface builder. Use UI Builder to build pages for App Engine Studio generated workspaces or custom web experiences using Next Experience Components and custom web components.|
 |[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)|Workspace Builder enables you to automate processes in a single design environment.|
 
@@ -79,5 +79,5 @@ Integration Hub - Import enables you to configure, run, and schedule your data i
 
 |Builder|Description|
 |-------|-----------|
-|Script Debugger|The Script Debugger enables users with the script\_debugger role to debug server-side JavaScript.|
+|[Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)|The Script Debugger enables users with the script\_debugger role to debug server-side JavaScript.|
 

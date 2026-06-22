@@ -7,7 +7,7 @@ release: yokohama
 product: IT Operations Management
 classification: it-operations-management
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Access to cloud environments for ITOM products, IT Operations Management]
 ---

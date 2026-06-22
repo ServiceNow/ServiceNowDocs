@@ -20,7 +20,7 @@ When you create an application in Guided Application Creator, you can optionally
 
 **Note:**
 
-ServiceNow AI Platform application subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see .
+ServiceNow AI Platform application subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/allocate-custom-table-subsc-app-v2.md).
 
 **Parent Topic:**[Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/guided-app-creator.md)
 
@@ -45,7 +45,7 @@ One option for creating a data table in Guided Application Creator is to copy an
 
 Extending a base table incorporates all the fields of the original table and creates system fields for the new table. If they are in the same scope or if they can be configured from other scopes, you can extend tables that are marked as extensible.
 
-For more information on extension models, see Table extension and classes.
+For more information on extension models, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
 
 ## Table creation guidelines
 

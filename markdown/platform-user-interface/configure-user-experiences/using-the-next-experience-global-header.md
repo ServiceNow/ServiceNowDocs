@@ -242,7 +242,7 @@ User menu
 Menu items to personalize your instance. -   **Profile**: Your instance profile, which includes your personal information displayed in the instance.
 -   **Preferences**: Display, accessibility, notifications, and Workspace preferences.
 -   **Keyboard shortcuts**: Display a modal with keyboard shortcuts that are specific to the screen you’re viewing. For more information on the keyboard shortcut modal, see [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-user-experiences/next-experience-keyboard-shortcuts.md). The keyboard shortcuts modal can also be accessed using **Command+/** \(Mac\) or **Control+/** \(Windows\).
--   **Impersonate user**: Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. For more information, see .
+-   **Impersonate user**: Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. For more information, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/c_ImpersonateAUser.md).
 -   **Elevate role**: Designate any role as an elevated privilege role, and then assign that role to one or more users. Do this when you want to restrict users from having access to the rights that the role provides immediately after login.
 -   **Printer friendly version**: A printer-friendly version of the current content frame.
 

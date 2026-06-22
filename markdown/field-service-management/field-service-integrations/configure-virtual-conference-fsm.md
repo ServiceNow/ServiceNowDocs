@@ -28,15 +28,15 @@ This task provides general steps to set up the Field Service Management Virtual 
 
 1.  Configure the conference call bridge.
 
-<table id="choicetable_jgg_bsy_t4b"><thead><tr><th align="left" id="d49193e78">
+<table id="choicetable_jgg_bsy_t4b"><thead><tr><th align="left" id="d49184e78">
 
 To
 
-</th><th align="left" id="d49193e81">
+</th><th align="left" id="d49184e81">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d49193e87">
+</th></tr></thead><tbody><tr><td id="d49184e87">
 
 **Set up the Zoom meeting**
 
@@ -44,17 +44,17 @@ Do this
 
 1.  Integrate the Zoom account of your company with your ServiceNow instance using the Zoom spoke.
 
-For more information, see Setup Zoom spoke.
+For more information, see [Setup Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/setup-zoom.md).
 
 2.  Set up the Notify Zoom connector in Zoom for associating the Notify communication channel with Zoom meetings.
 
-The conference call details of the Zoom meetings are stored in the Notify Conference Calls \[notify\_conference\_call\] table. For more information, see Notify Zoom connector.
+The conference call details of the Zoom meetings are stored in the Notify Conference Calls \[notify\_conference\_call\] table. For more information, see [Notify Zoom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify/notify-zoom-connector.md).
 
 3.  Configure a conference provider or a phone number to be used as choices for initiating a conference call.
 
-For more information, see Configure a provider in Notify.
+For more information, see [Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify/configure-providers-for-provider-selectors.md).
 
-</td></tr><tr><td id="d49193e157">
+</td></tr><tr><td id="d49184e157">
 
 **Set up the Microsoft Teams meeting**
 
@@ -62,7 +62,7 @@ For more information, see Configure a provider in Notify.
 
 1.  Integrate the Microsoft Teams account of your company with your ServiceNow instance using the Microsoft Teams Communication spoke.
 
-For more information, see Set up the Microsoft Teams Communications spoke .
+For more information, see [Set up the Microsoft Teams Communications spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/setup-msteams-comm.md) .
 
 2.  Set up the Notify connector for Microsoft Teams in Microsoft Teams for associating the Notify communication channel with Microsoft Teams meetings.
 

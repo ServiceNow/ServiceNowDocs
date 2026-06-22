@@ -46,15 +46,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 7.  Perform the following optional tasks.
 
-<table id="choicetable_vyh_rzk_21c"><thead><tr><th align="left" id="d460439e170">
+<table id="choicetable_vyh_rzk_21c"><thead><tr><th align="left" id="d458607e170">
 
 Task
 
-</th><th align="left" id="d460439e173">
+</th><th align="left" id="d458607e173">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d460439e179">
+</th></tr></thead><tbody><tr><td id="d458607e179">
 
 **Focus on an area of interest**
 
@@ -62,7 +62,7 @@ Action
 
 Select one or more nodes and rearrange them in Link View by dragging them to a new location.**Note:** After refreshing the alert group, the nodes appear in their original position again.
 
-</td></tr><tr><td id="d460439e190">
+</td></tr><tr><td id="d458607e190">
 
 **Refresh the alert group**
 
@@ -72,7 +72,7 @@ Select **Refresh**. When you've refreshed the alert group, rearranged nodes appe
 
 **Note:** The **Refresh** button is enabled when new data for the alert group is available. Link View doesn't refresh automatically.
 
-</td></tr><tr><td id="d460439e212">
+</td></tr><tr><td id="d458607e212">
 
 **View the meaning of icons and colors**
 
@@ -80,7 +80,7 @@ Select **Refresh**. When you've refreshed the alert group, rearranged nodes appe
 
 Select the Link View legend.The legend also indicates the number of unique nodes displayed per tag. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/link-view-tags-icons-descriptions.md).
 
-</td></tr><tr><td id="d460439e235">
+</td></tr><tr><td id="d458607e235">
 
 **Reduce noise**
 
@@ -88,7 +88,7 @@ Select the Link View legend.The legend also indicates the number of unique nodes
 
 In the Link View legend, toggle between hiding and showing a tag type.
 
-</td></tr><tr><td id="d460439e245">
+</td></tr><tr><td id="d458607e245">
 
 **View information about an alert**
 

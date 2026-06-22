@@ -32,15 +32,15 @@ When the cause of an incident is an error or widespread issue, a problem is gene
 
 3.  Right-click on the header form and on the context menu, select the appropriate option.
 
-<table id="choicetable_s5g_lgw_xy"><thead><tr><th align="left" id="d78509e80">
+<table id="choicetable_s5g_lgw_xy"><thead><tr><th align="left" id="d78098e80">
 
 Task record
 
-</th><th align="left" id="d78509e83">
+</th><th align="left" id="d78098e83">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d78509e89">
+</th></tr></thead><tbody><tr><td id="d78098e89">
 
 **Problem**
 
@@ -48,7 +48,7 @@ Option
 
 Create Problem. For more information, refer to [Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/create-a-problem-v2.md).**Note:** Use the property **List of attributes \(comma-separated\) that will be copied from the incident to create a new problem** \(**com.snc.problem.create\_from\_incident.attributes**\) to specify fields on the Incident form. The values of these fields are copied to the respective fields on the Problem form. The property is available for customers starting the Madrid release.
 
-</td></tr><tr><td id="d78509e114">
+</td></tr><tr><td id="d78098e114">
 
 **Request**
 
@@ -56,7 +56,7 @@ Create Problem. For more information, refer to [Create a problem](https://raw.gi
 
 Create Request. For more information, refer to [Create a request from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/create-request-from-incident.md).
 
-</td></tr><tr><td id="d78509e130">
+</td></tr><tr><td id="d78098e130">
 
 **Change**
 

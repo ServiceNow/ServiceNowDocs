@@ -7,7 +7,7 @@ release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -21,11 +21,11 @@ Switch to a different Agent Client Collector \(ACC\) instance.
 Confirm you have installed the Agent Client Collector \(ACC\) and set up the ACC registration key. For information on how to set up and install, see:
 
 -   [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/setup-acc.md).
--    or .
+-   [Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/agent-client-collector/acc-install-windows.md) or [Manually install Agent Client Collector on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/agent-client-collector/acc-install-macOS-manual.md).
 
 Role required: agent\_admin and agent\_client\_collector\_admin
 
-For more information on roles, see .
+For more information on roles, see [Agent Client Collector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/agent-client-collector/acc-users.md).
 
 ## About this task
 

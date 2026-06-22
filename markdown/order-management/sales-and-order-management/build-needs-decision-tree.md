@@ -54,15 +54,15 @@ As you build your decision tree, for example after adding a decision node or a p
 
 5.  Continue building your decision tree in Decision Tree Builder.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34478e172">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34528e172">
 
 Option
 
-</th><th align="left" id="d34478e175">
+</th><th align="left" id="d34528e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d34478e181">
+</th></tr></thead><tbody><tr><td id="d34528e181">
 
 ****
 
@@ -70,7 +70,7 @@ Steps
 
 Configure a path to set the conditions for when the next question is displayed in a decision tree.
 
-</td></tr><tr><td id="d34478e191">
+</td></tr><tr><td id="d34528e191">
 
 ****
 
@@ -78,7 +78,7 @@ Configure a path to set the conditions for when the next question is displayed i
 
 Configure a question node to add follow-up questions or instructions. An answer to these questions either leads to a guidance or a further set of questions.
 
-</td></tr><tr><td id="d34478e201">
+</td></tr><tr><td id="d34528e201">
 
 **Add a guidance node for the product recommendation questionnaire**
 
@@ -93,7 +93,7 @@ Configure a guidance node, which identifies the product recommendation displayed
 7.  Select **Save and close**.
 
 
-</td></tr><tr><td id="d34478e252">
+</td></tr><tr><td id="d34528e252">
 
 ****
 

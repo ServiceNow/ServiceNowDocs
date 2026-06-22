@@ -44,15 +44,15 @@ This record also enables the calculation of the informational cost estimate.\[Om
 
 3.  In the **Add new translation provider** window, enter the following information.
 
-<table id="choicetable_az3_wjw_bfc"><thead><tr><th align="left" id="d172070e162">
+<table id="choicetable_az3_wjw_bfc"><thead><tr><th align="left" id="d172130e162">
 
 Field
 
-</th><th align="left" id="d172070e165">
+</th><th align="left" id="d172130e165">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d172070e171">
+</th></tr></thead><tbody><tr><td id="d172130e171">
 
 **Label**
 
@@ -60,7 +60,7 @@ Value
 
 Enter a descriptive name. This label is displayed in the **Translation Providers** list.
 
-</td></tr><tr><td id="d172070e183">
+</td></tr><tr><td id="d172130e183">
 
 **Language**
 
@@ -68,7 +68,7 @@ Enter a descriptive name. This label is displayed in the **Translation Providers
 
 Enter a language. You can search from among the languages you have configured on the instance.
 
-</td></tr><tr><td id="d172070e192">
+</td></tr><tr><td id="d172130e192">
 
 **Provider Type**
 
@@ -76,7 +76,7 @@ Enter a language. You can search from among the languages you have configured on
 
 From the list, choose TMS \(Translation Management System\) or MT \(Machine Translation\). These provider types are available after you preconfigure them on your instance.
 
-</td></tr><tr><td id="d172070e201">
+</td></tr><tr><td id="d172130e201">
 
 **Rate**
 
@@ -86,7 +86,7 @@ Enter the base rate charged by your translation provider per word or character, 
 
 **Note:** When displayed on the Home page of Localization Workspace, the **Rate** is rounded up to the decimal place that is set in your **Display Value Currency** field. However, the calculation of the informational cost estimate uses the actual rate that you have configured in Localization Workspace. The calculation does not use the currency's display value. For more information, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/currency-administration/fx-currency-display-parameters.md).
 
-</td></tr><tr><td id="d172070e241">
+</td></tr><tr><td id="d172130e241">
 
 **TMS \(or MT\) Configuration**
 
@@ -94,7 +94,7 @@ Enter the base rate charged by your translation provider per word or character, 
 
 This field is dependent on your selection for **Provider Type**. Select from available providers that you have configured.For example, if you selected TMS as the Provider Type, and you have configured the XTM third-party provider, then **XTM** is available in the list.
 
-</td></tr><tr><td id="d172070e258">
+</td></tr><tr><td id="d172130e258">
 
 **Unit**
 
@@ -104,7 +104,7 @@ The Unit count multiplied by the Rate equals the informational cost estimate. Ch
 
 Check your service provider's documentation to confirm the unit used for pricing. For details about the pricing of Google Cloud Translator Service, see [https://cloud.google.com/translate/pricing](https://cloud.google.com/translate/pricing). For details about Microsoft Azure Translator, see [https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/).
 
-</td></tr><tr><td id="d172070e296">
+</td></tr><tr><td id="d172130e296">
 
 **Default provider for this language**
 

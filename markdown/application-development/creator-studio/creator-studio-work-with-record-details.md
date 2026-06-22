@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Configuring workspace lists and records for form submissions, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -38,7 +38,7 @@ All columns of the app's underlying table are available as fields on the record 
 
 4.  Make any additional changes to how the record appears, such as moving the fields around.
 
-    Check out  for a list of the most commonly used fields that you can work with and their definitions.
+    Check out [Important Task table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/r_ImportantTaskTableFields.md) for a list of the most commonly used fields that you can work with and their definitions.
 
 5.  Select **Save**.
 

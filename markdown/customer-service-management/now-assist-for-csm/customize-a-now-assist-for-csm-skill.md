@@ -8,7 +8,7 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
@@ -208,7 +208,7 @@ Resolved
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see .
+            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

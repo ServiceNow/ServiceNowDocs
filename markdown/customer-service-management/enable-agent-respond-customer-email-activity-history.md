@@ -35,6 +35,6 @@ Role required: admin
 
     The number of emails in the activity history matches the value set in the system property, number\_of\_activities\_in\_notification.
 
-    **Note:** You can also create a client template and map it to the Interaction table. For more information, see .
+    **Note:** You can also create a client template and map it to the Interaction table. For more information, see [Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_CreateAnEmailClientTemplate.md).
 
 

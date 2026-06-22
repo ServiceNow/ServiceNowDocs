@@ -1116,7 +1116,7 @@ This can be used in an onChange\(\) client script to determine if a change to th
 
 Returns true if the field is mandatory.
 
-Mandatory fields are visually distinguished by an asterisk next to the field label. The asterisk is red if the field is empty, and black if the field is not empty. The system displays a validation message if a user attempts to save or submit the form without completing those fields. For more information, see .
+Mandatory fields are visually distinguished by an asterisk next to the field label. The asterisk is red if the field is empty, and black if the field is not empty. The system displays a validation message if a user attempts to save or submit the form without completing those fields. For more information, see [Form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_FormFields.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1355,7 +1355,7 @@ Saves the record without navigating away \(update and stay\).
 
 Makes the specified field mandatory.
 
-Mandatory fields are visually distinguished by an asterisk next to the field label. The asterisk is red if the field is empty, and black if the field is not empty. The system displays a validation message if a user attempts to save or submit the form without completing those fields. For more information, see .
+Mandatory fields are visually distinguished by an asterisk next to the field label. The asterisk is red if the field is empty, and black if the field is not empty. The system displays a validation message if a user attempts to save or submit the form without completing those fields. For more information, see [Form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_FormFields.md).
 
 **Note:** Whenever possible, use a UI policy rather than this method.
 
@@ -1439,7 +1439,7 @@ String or Array
 
 Field within the specified reference record to use to update the specified field. For example, in the User \[sys\_user\] table it might be userName.If the specified field is a GlideList, this parameter can contain an array of display value names.
 
-For additional information on display values, see Display value.
+For additional information on display values, see [Display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1742,7 +1742,7 @@ Makes a Service Catalog variable editor read only.
 
 The method must be placed in the client script of the table in which the variable editor is added, such as Requested Item \[sc\_req\_item\], Incident \[incident\], and so on. To set variables to read only in other tables, use the [setReadOnly\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) method.
 
-See also: Service Catalog variable editors
+See also: [Service Catalog variable editors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md)
 
 <table id="table_xdf_qpc_5s" class="parameters"><thead><tr><th>
 

@@ -37,14 +37,14 @@ Use the Session Log tab to retrieve the session log for business rules, script i
 -   View logs for Agent Workspace.
 -   Specify debug options to view or download only the required logs.
 
-By default, 100 transactions and 10,000 messages appear on the Session Log tab. If the transaction or message count exceeds the default value, the session log is cleared and the next transactions or messages appear. You can configure this transaction and message count using the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences respectively. For more information about the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences, see User preference settings.
+By default, 100 transactions and 10,000 messages appear on the Session Log tab. If the transaction or message count exceeds the default value, the session log is cleared and the next transactions or messages appear. You can configure this transaction and message count using the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences respectively. For more information about the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences, see [User preference settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_UserPreferenceSettings.md).
 
 **Note:** Enable Session Log as a separate tab with Script Debugger using the **glide.debugger.log.ui** system property.
 
 -   The **Page** option displays logs under forms and lists and on the **Session Log** tab.
 -   The **Session** option displays logs only on the **Session Log** tab.
 
-For more information about the **glide.debugger.log.ui** system property, see Available system properties.
+For more information about the **glide.debugger.log.ui** system property, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
 
 When you execute a statement in the Console, the executed statement is stored in the browser cache. You can use the up arrow key to get the previous statement and down arrow key to get the next statement from the browser cache. The user preference setting,**glide.debugger.console.cached\_stmt\_limit**, defines the number of statements cached in a browser session. The default statement cache value is 20 and the maximum value is 100. You can configure the statement cache value from user preferences.
 
@@ -61,7 +61,7 @@ To debug client-side scripts, you can use browser-based developers tools.
 
 A debugger transaction remains open as long as the user session is valid. If a user logs out or their session times out, the system closes the debugger transaction.
 
-To view debug logs, see Display debugging logs.
+To view debug logs, see [Display debugging logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_SessionDebug.md).
 
 **Note:** When the Script Debugger is enabled, code is executed in interpreted mode. If parts of the script are set to run in strict mode, the debugger is not able to find the correct objects and the debugger fails. The Script Debugger must run on scripts outside of strict mode.
 

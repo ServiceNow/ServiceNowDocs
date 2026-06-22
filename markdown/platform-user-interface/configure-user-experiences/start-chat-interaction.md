@@ -36,7 +36,7 @@ Role required: workspace\_user
 
 3.  Use chat tools for managing the chat and contextual options to perform related tasks.
 
-<table id="choicetable_rrq_1lt_ddb"><tbody><tr><td id="d49415e89">
+<table id="choicetable_rrq_1lt_ddb"><tbody><tr><td id="d48781e89">
 
 **Manage your chat**
 
@@ -47,7 +47,7 @@ Do the following actions from the Actions toolbar:-   [Add an attachment](https:
 -   Transfer a chat to another agent.
 
 
-</td></tr><tr><td id="d49415e116">
+</td></tr><tr><td id="d48781e116">
 
 **Perform additional support tasks**
 

@@ -35,7 +35,7 @@ if (!gs.hasRole("itil")&& gs.isInteractive()) {
   gs.print("query restricted to user: " + u);}
 ```
 
-**Note:** You can also use access controls to restrict the records that users can see. For information, see .
+**Note:** You can also use access controls to restrict the records that users can see. For information, see [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/access-control/access-control-rules.md).
 
 ## Schedule script for weekdays
 
@@ -101,7 +101,7 @@ if(typeof g_user_date_time_format !=='undefined')
 return parseDate(value)!==null;}
 ```
 
-For more information, see .
+For more information, see [Validation script use case - Date and time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ValidateDateAndTime.md).
 
 **Parent Topic:**[Business rule use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/useful-business-rules.md)
 

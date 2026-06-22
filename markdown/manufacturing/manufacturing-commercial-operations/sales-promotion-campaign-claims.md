@@ -34,5 +34,5 @@ The following diagram shows the entities and their relationships within the Sale
 
 The sales promotion supports bulk import functionality, where the dealer sales agents can import a spreadsheet with multiple claims for review and approval. To enable bulk import, you must customize it on the Customer Service Management \(CSM\) or Business Location Service Portal \(BLSP\) portals.
 
-To learn more about the Business Location Service Portal, see .
+To learn more about the Business Location Service Portal, see [Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/using-blsp-portal.md).
 

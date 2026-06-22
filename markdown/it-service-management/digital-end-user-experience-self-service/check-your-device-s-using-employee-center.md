@@ -28,15 +28,15 @@ Using Device health check you can check the device health on demand and resolve 
 
 1.  Open Device health check from Employee center using any of the following options.
 
-<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d143852e65">
+<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d142427e65">
 
 Option
 
-</th><th align="left" id="d143852e68">
+</th><th align="left" id="d142427e68">
 
 Steps to open Device heath check
 
-</th></tr></thead><tbody><tr><td id="d143852e74">
+</th></tr></thead><tbody><tr><td id="d142427e74">
 
 **Access the Device health check widget by navigating to Hardware or Software topics pages to view the Device health check widget.**
 
@@ -52,7 +52,7 @@ Follow the steps to access the widget:
 3.  Select the category to see more details in Device health check page.
 
 
-</td></tr><tr><td id="d143852e123">
+</td></tr><tr><td id="d142427e123">
 
 **Access Device health check from Quick links.**
 

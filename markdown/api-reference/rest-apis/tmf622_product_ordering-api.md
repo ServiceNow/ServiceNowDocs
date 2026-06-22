@@ -613,7 +613,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -621,7 +621,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -1956,7 +1956,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -1964,7 +1964,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -3263,7 +3263,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -3271,7 +3271,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -4354,7 +4354,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -4362,7 +4362,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -5476,7 +5476,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Stored in: The previous\_characteristic\_option\_value of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -5488,7 +5488,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Stored in: The characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -6142,7 +6142,7 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3820e1572">
+</td><td id="d3794e1574">
 
 List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
@@ -6333,7 +6333,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -6341,7 +6341,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -7532,7 +7532,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Stored in: The previous\_characteristic\_option\_value of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -7544,7 +7544,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Stored in: The characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -8323,7 +8323,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -8331,7 +8331,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -9621,7 +9621,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Stored in: The previous\_characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -9633,7 +9633,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Stored in: The characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -10485,7 +10485,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -10493,7 +10493,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -12151,7 +12151,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Stored in: The previous\_characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -12163,7 +12163,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Stored in: The characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -12923,7 +12923,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -12931,7 +12931,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 

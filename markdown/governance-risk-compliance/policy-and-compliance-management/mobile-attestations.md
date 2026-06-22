@@ -58,15 +58,15 @@ Reassign a record from the list. Alternatively, view the details of the record p
 
     \[Omitted image "mobile-attest-record.jpg"\] Alt text: Attestation record.
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d144579e227">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d144602e227">
 
 Option
 
-</th><th align="left" id="d144579e230">
+</th><th align="left" id="d144602e230">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d144579e236">
+</th></tr></thead><tbody><tr><td id="d144602e236">
 
 **Tap the top menu icon**
 
@@ -74,7 +74,7 @@ Description
 
 Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to reassign the attestation.
 
-</td></tr><tr><td id="d144579e251">
+</td></tr><tr><td id="d144602e251">
 
 **Screen icons at the bottom of the screen.**
 

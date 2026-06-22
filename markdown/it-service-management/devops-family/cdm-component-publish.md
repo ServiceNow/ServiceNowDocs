@@ -42,15 +42,15 @@ When a version is unpublished, it means that the component and its version can n
 
 6.  Publish or unpublish a version of the component.
 
-<table id="choicetable_ow3_zws_2xb"><thead><tr><th align="left" id="d396972e138">
+<table id="choicetable_ow3_zws_2xb"><thead><tr><th align="left" id="d392939e138">
 
 Option
 
-</th><th align="left" id="d396972e141">
+</th><th align="left" id="d392939e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d396972e147">
+</th></tr></thead><tbody><tr><td id="d392939e147">
 
 **Publish a version of a shared component**
 
@@ -58,7 +58,7 @@ Description
 
 Select an unpublished version from the list and select **Publish**.If there’s any existing published version of the component, then it’s unpublished before publishing the selected version. The **Published** value updates to **true**.
 
-</td></tr><tr><td id="d396972e167">
+</td></tr><tr><td id="d392939e167">
 
 **Unpublish a version of a shared component**
 

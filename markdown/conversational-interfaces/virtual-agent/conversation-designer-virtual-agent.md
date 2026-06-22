@@ -35,13 +35,13 @@ If you're using ServiceNow NLU/keyword topic discovery, then Virtual Agent Desig
 
 When you open the Assistant Designer Asset library, you can view all assets in your instance. These assets include topics, topic blocks, setup topics, small talk topics, custom controls, subflows, actions, and AI agents.
 
-**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see .
+**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.md).
 
 On the Assistant Designer Asset library, you can access and edit any of these assets in Virtual Agent Designer, and create topics, topic blocks, setup topics, small talk topics, and custom controls.
 
 \[Omitted image "vad-home-page-2.png"\] Alt text: Assistant Designer Asset library page.
 
-**Note:** Conversational subflows and actions are available in Assistant Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the Now Assist Panel is available. For more information on the Now Assist Panel, see 
+**Note:** Conversational subflows and actions are available in Assistant Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the Now Assist Panel is available. For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md)
 
 You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar \[Omitted image "search-icon.png"\] Alt text: and filter icon \[Omitted image "filter-icon.png"\] Alt text: to quickly organize and find your topics. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/vad-topics-page.md).
 

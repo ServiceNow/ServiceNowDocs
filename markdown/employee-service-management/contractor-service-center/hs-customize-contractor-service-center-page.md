@@ -16,7 +16,7 @@ breadcrumb: [Configure settings, Contractor Service Center, Health and Safety, E
 
 Edit or configure the Contractor Service Center web interface and use layouts to organize the columns that house the widgets.
 
-For more information to perform the web interface customization, see 
+For more information to perform the web interface customization, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md)
 
 **Parent Topic:**[Configuring Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contractor-service-center/hs-configure-contractor-service-center.md)
 

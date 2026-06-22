@@ -18,5 +18,5 @@ If you are currently running a family release and want to upgrade to the next re
 
 Role required: admin
 
-For more information about new features and steps for how to upgrade, see  and  to learn how to navigate the redesigned release notes and find the information you're looking for.
+For more information about new features and steps for how to upgrade, see [Using the release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/rn-getting-started-landing-page.md) and [Release notes for upgrading from Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/rn-n-1-landing-page.md) to learn how to navigate the redesigned release notes and find the information you're looking for.
 

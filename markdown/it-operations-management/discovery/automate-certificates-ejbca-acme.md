@@ -32,7 +32,7 @@ Related links:
 
 The following pages enable you to use EJBCA ACME to automate your certificate life cycle:
 
-1.  
+1.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/connection-alias.md)
 2.  [Configure your base API URL for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.md)
 3.  [Validate your EJBCA ACME base API URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/validate-ejbca-acme-base-api-url.md)
 

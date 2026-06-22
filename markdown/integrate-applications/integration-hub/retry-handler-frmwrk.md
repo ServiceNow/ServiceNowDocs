@@ -22,7 +22,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Spoke requirements
 
-**Note:** The Retry Handler Framework app is available only as a part of [Microsoft Exchange Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/ms-exch-online-spoke.md) or Journey Accelerator app.
+**Note:** The Retry Handler Framework app is available only as a part of [Microsoft Exchange Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/ms-exch-online-spoke.md) or [Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/journey-accelerator/journey-accelerator.md) app.
 
 -   Install Journey Accelerator app
 -   Microsoft Exchange Online spoke

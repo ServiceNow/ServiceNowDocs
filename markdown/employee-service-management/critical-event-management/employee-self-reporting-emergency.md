@@ -24,15 +24,15 @@ Role required: sn\_critical.user
 
 1.  Open the email or SMS notification and respond.
 
-<table id="choicetable_iwx_5bh_ndc"><thead><tr><th align="left" id="d643321e57">
+<table id="choicetable_iwx_5bh_ndc"><thead><tr><th align="left" id="d643148e57">
 
 Notification
 
-</th><th align="left" id="d643321e60">
+</th><th align="left" id="d643148e60">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d643321e66">
+</th></tr></thead><tbody><tr><td id="d643148e66">
 
 **Email**
 
@@ -42,7 +42,7 @@ Steps
 2.  Select **Send**.
 
 
-</td></tr><tr><td id="d643321e90">
+</td></tr><tr><td id="d643148e90">
 
 **SMS**
 

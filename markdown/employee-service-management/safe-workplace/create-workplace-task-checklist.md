@@ -33,15 +33,15 @@ You can also create checklists for individual workplace task records.
 
 1.  Create a checklist to be included in all tasks using the same template or add a checklist to a specific task.
 
-<table id="choicetable_ggh_smr_rlb"><thead><tr><th align="left" id="d248459e68">
+<table id="choicetable_ggh_smr_rlb"><thead><tr><th align="left" id="d248265e68">
 
 Option
 
-</th><th align="left" id="d248459e71">
+</th><th align="left" id="d248265e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d248459e77">
+</th></tr></thead><tbody><tr><td id="d248265e77">
 
 **Checklist for workplace task template**
 
@@ -51,7 +51,7 @@ Steps
 2.  In the list, select to open the template to which you want to add the checklist.
 
 
-</td></tr><tr><td id="d248459e107">
+</td></tr><tr><td id="d248265e107">
 
 **Checklist in a specific workplace task**
 

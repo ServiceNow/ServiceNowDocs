@@ -38,7 +38,7 @@ Yokohama Patch 8 includes fixes for security-related problems that affected cert
 
 ## Changes in Yokohama Patch 8
 
--   ****
+-   **[MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/mid-server-parameters.md)**
     -   **mid.ssh.disable\_history**
 
         Controls whether the shell session history is saved on the target host and if the `HISTFILE=/dev/null` command is executed. Set this property to **false** to retain history on the target host, ensuring the `HISTFILE=/dev/null` command is not sent to the target device.

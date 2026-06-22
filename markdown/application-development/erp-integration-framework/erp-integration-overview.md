@@ -24,7 +24,7 @@ The replatforming of legacy code enables innovation on top of the system of reco
 
 Use ERP models as the data foundation for ERP apps. These models include ERP system data in remote tables and extraction tables, and enable you to read and update the ERP system. After you create ERP models, you can use the extracted and transformed data to build apps that access the ERP models, for example in App Engine Studio or Creator Studio, or use the ERP data in flows in Workflow Studio.
 
-**Note:** For information about new and updated features in the Yokohama release, see ERP Canvas release notes.
+**Note:** For information about new and updated features in the Yokohama release, see [ERP Canvas release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/erp-canvas-rn.md).
 
 <table id="table_iwv_lpv_klb1" class="nav-card"><tbody><tr><td>
 

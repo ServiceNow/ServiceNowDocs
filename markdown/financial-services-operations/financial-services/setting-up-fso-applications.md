@@ -28,7 +28,7 @@ Set up your Financial Services Operations application by importing financial ser
 
     Configure internal and external users in Customer Service Management and the FSO application to ensure proper access. Combine Agent Connector and Contributor roles with relevant CSM Industry data model and user roles to streamline case management and support for specific accounts.
 
-4.  Setting up script includes
+4.  [Setting up script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptIncludes.md)
 
     Create script includes to store JavaScript that runs on the server.
 
@@ -60,7 +60,7 @@ Set up your Financial Services Operations application by importing financial ser
 
     Create decision tables.
 
-12. Setting up approval engine
+12. [Setting up approval engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/approvals/t_SetupAnApprovalEngine.md)
 
     Set up insurance claim core as per the business requirements.
 

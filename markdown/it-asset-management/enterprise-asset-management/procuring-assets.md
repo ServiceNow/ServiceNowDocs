@@ -25,7 +25,7 @@ With the Procurement application, you can
 -   create and manage transfer orders,
 -   and receive assets.
 
-See Procurement for more information on procuring assets.
+See [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/procurement/c_Procurement.md) for more information on procuring assets.
 
 -   **[Source requests from Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/source-requests-from-workspace.md)**  
 You can create a request in the Service Catalog application and source that request from the Enterprise Asset Workspace.

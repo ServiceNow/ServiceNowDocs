@@ -35,7 +35,7 @@ The following plugins are activated automatically:
 -   Content Experiences \(sn\_ca\)
 -   Content Publishing \(sn\_cd\)
 
-**Note:** If Restricted Caller Access \(RCA\) errors appear, you may be required to allow additional RCA privileges. For more information, see Restricted caller access privilege settings.
+**Note:** If Restricted Caller Access \(RCA\) errors appear, you may be required to allow additional RCA privileges. For more information, see [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/restricted-caller-access-privilege.md).
 
 Role required: admin
 

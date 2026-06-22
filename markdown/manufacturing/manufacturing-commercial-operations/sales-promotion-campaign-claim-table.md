@@ -143,5 +143,5 @@ Case Line\[sn\_case\_line\]
 Stores the case line item records.
 
 </td></tr></tbody>
-</table>To learn more about the Case and Case Line, see .
+</table>To learn more about the Case and Case Line, see [Case lines and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-case-mgmt-case-lines.md).
 

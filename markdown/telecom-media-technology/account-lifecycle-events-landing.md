@@ -24,20 +24,20 @@ By embedding workflow automation into customer success management, Customer Succ
 
 <table id="table_g2h_5s3_ccc" class="nav-card presentation"><tbody><tr><td>
 
-Explore Account Lifecycle Events\[Omitted image "bus-learn.svg"\] Alt text:Learn about the Account Lifecycle Events application
+[Explore Account Lifecycle Events\[Omitted image "bus-learn.svg"\] Alt text:Learn about the Account Lifecycle Events application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-explore.md)
 
 </td><td>
 
-Account onboarding \[Omitted image "bus-3-person.svg"\] Alt text: Define a structured, repeatable, onboarding experience with the preconfigured playbook.
+[Account onboarding \[Omitted image "bus-3-person.svg"\] Alt text: Define a structured, repeatable, onboarding experience with the preconfigured playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing-page.md)
 
 </td><td>
 
-Customer success \[Omitted image "bus-customer-happy.svg"\] Alt text: Track success objectives, outcomes, help mitigate risks, and identify opportunities for expansion and renewal.
+[Customer success \[Omitted image "bus-customer-happy.svg"\] Alt text: Track success objectives, outcomes, help mitigate risks, and identify opportunities for expansion and renewal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-customer-success-landing-page.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the Account Lifecycle Events release notes.
+-   Learn more about what's new and changed, see the [Account Lifecycle Events release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/account-lifecycle-rn.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Management features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

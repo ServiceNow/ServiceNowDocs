@@ -16,9 +16,9 @@ breadcrumb: [Scripting, Building pro-code applications, Developing your applicat
 
 Use UI pages to create custom pages for an application and UI macros for custom controls or interfaces.
 
-Every UI Page is a Jelly template. Jelly turns XML into executable code. A UI Page works similar to how an index.html file is used in an AngularJS application. Jelly tags in the HTML field of the UI Page form contain AngularJS logic.
+Every UI Page is a [Jelly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_JellyTags.md) template. Jelly turns XML into executable code. A UI Page works similar to how an index.html file is used in an AngularJS application. Jelly tags in the HTML field of the UI Page form contain AngularJS logic.
 
-Creating  requires knowledge of Jelly script. Review the existing UI macros for examples and suggested approaches. Those who want to build custom interfaces with JavaScript technologies should consider Service Portal as an alternative.
+Creating [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIMacros.md) requires knowledge of Jelly script. Review the existing UI macros for examples and suggested approaches. Those who want to build custom interfaces with JavaScript technologies should consider Service Portal as an alternative.
 
 -   **[UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/r_UIPages.md)**  
 UI pages can be used to create and display forms, dialogs, lists, and other UI components.

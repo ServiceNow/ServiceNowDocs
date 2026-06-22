@@ -18,6 +18,6 @@ Add users as staff members to a internal business location or channel partner so
 
 |Task|Description|
 |----|-----------|
-||Add users as staff members to an internal business location.|
+|[Add staff members to an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/add-user-internal-bus-location.md)|Add users as staff members to an internal business location.|
 ||Add users as staff members to an channel partner.|
 

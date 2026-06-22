@@ -349,7 +349,7 @@ Connect
 
 Selecting Connect indicates your company is using ServiceNow Connect messaging. After you select Queue, the Queue field appears below it. Select a chat queue you want to support the task you are creating. You can further filter by selecting specific skills.In previous releases, this field was labelled Queue.
 
- **Note:** The Connect support \(com.glide.connect.support\) plugin was deprecated. For more information, see Activate Connect Support.
+ **Note:** The Connect support \(com.glide.connect.support\) plugin was deprecated. For more information, see [Activate Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/connect/t_ActivateConnectSupport.md).
 
 </td></tr><tr><td>
 
@@ -423,7 +423,7 @@ Additional comments \(Customer visible\)
 
 </td><td colspan="2">
 
-Enter comments, updates, or information about the task that is visible to the **Subject person** on the case.**Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
+Enter comments, updates, or information about the task that is visible to the **Subject person** on the case.**Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 </td></tr><tr><td>
 
@@ -431,7 +431,7 @@ Work notes
 
 </td><td colspan="2">
 
-Enter notes about the case to correspond with other HR agents. These notes are not visible to the **Subject person**. **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
+Enter notes about the case to correspond with other HR agents. These notes are not visible to the **Subject person**. **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 </td></tr></tbody>
 </table>4.  You can:
@@ -442,15 +442,15 @@ Enter notes about the case to correspond with other HR agents. These notes are n
     -   Click **View Responses** to view the feedback submitted by an employee via the form sent through the HR task of type **Collect Employee Input**.
 5.  Perform any of the following actions.
 
-<table id="choicetable_fp3_2wv_rr"><thead><tr><th align="left" id="d178280e1024">
+<table id="choicetable_fp3_2wv_rr"><thead><tr><th align="left" id="d178078e1024">
 
 Action
 
-</th><th align="left" id="d178280e1027">
+</th><th align="left" id="d178078e1027">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d178280e1033">
+</th></tr></thead><tbody><tr><td id="d178078e1033">
 
 **Assign to me**
 
@@ -458,7 +458,7 @@ Description
 
 Click
 
-</td></tr><tr><td id="d178280e1042">
+</td></tr><tr><td id="d178078e1042">
 
 **Close a task**
 
@@ -466,7 +466,7 @@ Click
 
 Enter information in the **Work notes** field and other fields as needed, and change the **State** to **Closed Complete**.**Note:** All HR tasks must be closed before the parent HR case can be closed.
 
-</td></tr><tr><td id="d178280e1063">
+</td></tr><tr><td id="d178078e1063">
 
 **Clone task**
 
@@ -474,7 +474,7 @@ Enter information in the **Work notes** field and other fields as needed, and ch
 
 Click the **Clone Task** related link. Enter the new task information in the task form and click **Update**.
 
-</td></tr><tr><td id="d178280e1078">
+</td></tr><tr><td id="d178078e1078">
 
 **Cancel the task**
 
@@ -482,7 +482,7 @@ Click the **Clone Task** related link. Enter the new task information in the tas
 
 Click **Cancel Task** in the form header.
 
-</td></tr><tr><td id="d178280e1091">
+</td></tr><tr><td id="d178078e1091">
 
 **Review the progress of sibling tasks**
 
@@ -490,7 +490,7 @@ Click **Cancel Task** in the form header.
 
 The **Sibling Tasks** tab shows all tasks under the same case. Click a task number to see the details.
 
-</td></tr><tr><td id="d178280e1103">
+</td></tr><tr><td id="d178078e1103">
 
 **HR Document Acknowledgement**
 

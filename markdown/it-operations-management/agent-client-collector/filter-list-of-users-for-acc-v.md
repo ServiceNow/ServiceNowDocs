@@ -17,7 +17,7 @@ breadcrumb: [Using Agent Client Collector for Visibility - Content, Agent Client
 
 You can persist the type of users that populate the CMDB depending on your particular interests. Currently, local and system are supported for Windows, Linux, and macOS.
 
-You can filter the types of users by using the system property: **sn\_acc\_visibility.persist\_os\_user\_type**. See Available system properties for more information.
+You can filter the types of users by using the system property: **sn\_acc\_visibility.persist\_os\_user\_type**. See [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md) for more information.
 
 -   **For Windows**
 

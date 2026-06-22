@@ -39,7 +39,7 @@ App Engine Studio
 
 </td></tr><tr><td>
 
-Integration Hub
+[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/integrationhub.md)
 
 </td><td>
 
@@ -57,7 +57,7 @@ Integration Hub
 
 </td></tr><tr><td>
 
-Robotic Process Automation \(RPA\) Hub
+[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/rpa-main-landing-page.md)
 
 </td><td>
 

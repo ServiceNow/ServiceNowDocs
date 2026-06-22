@@ -43,15 +43,15 @@ Role required: sn\_itom\_cam.cw\_admin
 
 5.  If you are provisioning an Azure account, determine whether to use an existing billing account or create and add a new billing account.
 
-<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d196385e191">
+<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d194519e191">
 
 Option
 
-</th><th align="left" id="d196385e194">
+</th><th align="left" id="d194519e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d196385e200">
+</th></tr></thead><tbody><tr><td id="d194519e200">
 
 **Add an existing billing account**
 
@@ -59,7 +59,7 @@ Action
 
 Select an existing account from the drop-down list.
 
-</td></tr><tr><td id="d196385e209">
+</td></tr><tr><td id="d194519e209">
 
 **Create and add a new single account**
 
@@ -72,7 +72,7 @@ Select an existing account from the drop-down list.
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d196385e254">
+</td></tr><tr><td id="d194519e254">
 
 **Create and add new bulk accounts**
 
@@ -93,15 +93,15 @@ Select an existing account from the drop-down list.
 
     An enrollment account is a management unit within a billing account for organizations with an Enterprise Agreement \(EA\) that is used to organize and control Azure subscriptions and resources.
 
-<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d196385e344">
+<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d194519e344">
 
 Option
 
-</th><th align="left" id="d196385e347">
+</th><th align="left" id="d194519e347">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d196385e353">
+</th></tr></thead><tbody><tr><td id="d194519e353">
 
 **Enrollment account**
 
@@ -109,7 +109,7 @@ Action
 
 Select an existing account.
 
-</td></tr><tr><td id="d196385e362">
+</td></tr><tr><td id="d194519e362">
 
 **Create and add a new single account**
 
@@ -123,7 +123,7 @@ Select an existing account.
 6.  Select **Add**.
 
 
-</td></tr><tr><td id="d196385e411">
+</td></tr><tr><td id="d194519e411">
 
 **Create and add new bulk accounts**
 

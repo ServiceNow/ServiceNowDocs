@@ -16,7 +16,7 @@ breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performanc
 
 View a list of reports and create reports from the Reports list.
 
-Standard platform Access Control Lists \(ACLs\) govern access to reports in the reports list. For information about the ACLs used to control access to reports, see Access control list rules.
+Standard platform Access Control Lists \(ACLs\) govern access to reports in the reports list. For information about the ACLs used to control access to reports, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/access-control/access-control-rules.md).
 
 **Note:** On instances that are migrated to Platform Analytics experience, all visualizations are found in the library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 

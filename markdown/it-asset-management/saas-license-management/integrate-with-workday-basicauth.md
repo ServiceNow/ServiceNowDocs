@@ -54,9 +54,9 @@ Create a Workday integration profile to track software subscriptions and optimiz
 
 Role required: admin, sam\_admin, sam\_integrator
 
-Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in .
+Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
 
-**Important:** You must select the **Software Asset Management integration with Workday** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Workday** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -66,15 +66,15 @@ If you’re using Software Asset Workspace, the option to create the Workday int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d194078e325">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d194126e327">
 
 Interface
 
-</th><th align="left" id="d194078e328">
+</th><th align="left" id="d194126e330">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d194078e334">
+</th></tr></thead><tbody><tr><td id="d194126e336">
 
 **Core UI**
 
@@ -85,7 +85,7 @@ Action
 3.  Select **Workday Integration Profile**.
 
 
-</td></tr><tr><td id="d194078e376">
+</td></tr><tr><td id="d194126e378">
 
 **Software Asset Workspace**
 
@@ -221,15 +221,15 @@ Password of the Integration system user created while [configuring permissions i
 
     **Note:** Only an admin role can create or update the SOAP user name and password.
 
-<table id="choicetable_rhj_5w1_stb"><thead><tr><th align="left" id="d194078e868">
+<table id="choicetable_rhj_5w1_stb"><thead><tr><th align="left" id="d194126e870">
 
 Interface
 
-</th><th align="left" id="d194078e871">
+</th><th align="left" id="d194126e873">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d194078e877">
+</th></tr></thead><tbody><tr><td id="d194126e879">
 
 **Core UI**
 
@@ -240,7 +240,7 @@ Action
 3.  Select **WorkdayHR**.
 
 
-</td></tr><tr><td id="d194078e916">
+</td></tr><tr><td id="d194126e918">
 
 **Software Asset Workspace**
 

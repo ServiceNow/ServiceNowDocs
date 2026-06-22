@@ -28,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.app\_owner
 
 3.  From the application record page, select the tab for the object type that you want to associate.
 
-<table id="choicetable_ewm_tlh_wwb"><thead><tr><th align="left" id="d42341e77">
+<table id="choicetable_ewm_tlh_wwb"><thead><tr><th align="left" id="d42250e77">
 
 Object type
 
-</th><th align="left" id="d42341e80">
+</th><th align="left" id="d42250e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42341e86">
+</th></tr></thead><tbody><tr><td id="d42250e86">
 
 **Pipelines**
 
@@ -67,7 +67,7 @@ You can import up to 90 days of data.
 
  **Note:** When the property **Enable automatic association of repos to apps on pipeline execution** is enabled, if a repository is already associated to an application, then the corresponding unassigned pipelines are automatically assigned to the same app.
 
-</td></tr><tr><td id="d42341e205">
+</td></tr><tr><td id="d42250e205">
 
 **Plans**
 
@@ -85,7 +85,7 @@ You can import up to 90 days of data.
 
 **Note:** Historical import of plans data is not supported for GitHub Issues.
 
-</td></tr><tr><td id="d42341e264">
+</td></tr><tr><td id="d42250e264">
 
 **Repositories**
 

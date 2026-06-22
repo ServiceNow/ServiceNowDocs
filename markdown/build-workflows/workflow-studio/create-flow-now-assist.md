@@ -145,7 +145,7 @@ Option to specify the user that runs the flow. You can select the system user or
 
  **Note:** By default, flows run as the user who initiates the session.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see OAuth 2.0 credentials.
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
  When flows run as the user who initiates the session, the system limits flow actions by user ACL restrictions. Ensure that security restrictions don't prevent users who trigger the flow from performing flow actions. Flows run by the initiating user also respect user-specific settings such as date/time formats.
 
@@ -187,7 +187,7 @@ Priority level at which you want the system to run this flow by default. Options
 
 7.  If the generated flow preview does not meet your needs, you can update the Now Assist directions, and select **Regenerate preview**.
 
-    Each time you build or rebuild a flow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see .
+    Each time you build or rebuild a flow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 8.  If you want to stop creating a flow and return to the Workflow Studio homepage, you can select **Discard flow**.
 

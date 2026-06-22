@@ -58,11 +58,11 @@ This task is applicable for product order, services, and resources.
 
         The drop-down list shows the current product inventory and all the child inventories.
 
-        To set up test definitions, see .
+        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/settingup-test-specifications.md).
 
     3.  Expand the cards in the **Available test suite**.
 
-        To set up test group, see .
+        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 

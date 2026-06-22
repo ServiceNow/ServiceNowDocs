@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Administering templates and forms for Creator Studio, Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -30,7 +30,7 @@ Role required: admin
 
 4.  Clear the entry from the **Value** field.
 
-    If you want to hide any other templates, enter their system values \(sys\_id for each template\) in the **Value** field, separated by commas. For more information on the sys\_id, see .
+    If you want to hide any other templates, enter their system values \(sys\_id for each template\) in the **Value** field, separated by commas. For more information on the sys\_id, see [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
 
 **Parent Topic:**[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-administering-forms.md)

@@ -45,15 +45,15 @@ Work with your data source admin to create a connection to Google BigQuery. For 
 
     You can obtain the JSON key from the Google Cloud Console when you create a service account.
 
-<table id="choicetable_nbh_ccm_rfc"><thead><tr><th align="left" id="d275951e198">
+<table id="choicetable_nbh_ccm_rfc"><thead><tr><th align="left" id="d271871e198">
 
 Option
 
-</th><th align="left" id="d275951e201">
+</th><th align="left" id="d271871e201">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d275951e207">
+</th></tr></thead><tbody><tr><td id="d271871e207">
 
 **Upload service account key**
 
@@ -63,7 +63,7 @@ Description
 2.  Browse and select the file.
 
 
-</td></tr><tr><td id="d275951e228">
+</td></tr><tr><td id="d271871e228">
 
 **Enter service key contents manually**
 

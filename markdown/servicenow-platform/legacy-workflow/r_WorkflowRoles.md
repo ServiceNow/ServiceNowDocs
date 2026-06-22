@@ -16,7 +16,7 @@ breadcrumb: [Workflow administration, Classic Workflow, ServiceNow AI Platform A
 
 Certain roles are required to use workflows.
 
-To learn more about managing subscriptions, see  and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 <table id="table_g2t_fww_1r"><thead><tr><th>
 

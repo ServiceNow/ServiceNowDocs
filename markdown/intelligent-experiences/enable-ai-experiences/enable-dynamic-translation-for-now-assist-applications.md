@@ -21,7 +21,7 @@ Turn on multilingual service for user-entered text with native translation or Dy
 
 To see a list of all available languages supported in Now Assist, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/enable-ai-experiences/translation-for-now-assist.md).
 
-To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see Activate Dynamic Translation and Activate a language.
+To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation/activate-dynamic-translation.md) and [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 **Note:** Dynamic Translation is not supported in regulated markets.
 

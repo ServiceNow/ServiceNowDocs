@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d106984e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d106781e55">
 
 Method
 
-</th><th align="left" id="d106984e58">
+</th><th align="left" id="d106781e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d106984e64">
+</th></tr></thead><tbody><tr><td id="d106781e64">
 
 **Contract Workspace listing**
 
@@ -44,7 +44,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d106984e111">
+</td></tr><tr><td id="d106781e111">
 
 **Contract Workspace landing page**
 
@@ -55,7 +55,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d106984e144">
+</td></tr><tr><td id="d106781e144">
 
 **Workspace used by your application**
 
@@ -66,7 +66,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d106984e165">
+</td></tr><tr><td id="d106781e165">
 
 **Reviews tab**
 

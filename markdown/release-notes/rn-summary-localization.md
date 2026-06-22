@@ -30,7 +30,7 @@ AI Search
 
 </td><td>
 
-AI Search supports international languages. For details of language support by feature, see .
+AI Search supports international languages. For details of language support by feature, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/international-language-support-ais.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Now Assist in AI Search
 
 </td><td>
 
-Now Assist in AI Search supports  in Now Assist Genius Results. For details, see  and .
+Now Assist in AI Search supports [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) in Now Assist Genius Results. For details, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md) and [Dynamic Translation for Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/dynamic-translation-na-actions-gr.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- is supported for non-streaming Now Assist Virtual Agent conversations. For details, see  and .
+[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) is supported for non-streaming Now Assist Virtual Agent conversations. For details, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/enable-dynamic-translation-for-now-assist-applications.md) and .
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ RPA Hub
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see Internationalization support for RPA Hub.
+RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/rpa-hub-international-language-support.md).
 
 </td></tr><tr><td>
 

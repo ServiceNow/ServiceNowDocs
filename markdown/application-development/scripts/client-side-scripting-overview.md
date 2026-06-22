@@ -16,11 +16,11 @@ breadcrumb: [Scripting, Building pro-code applications, Developing your applicat
 
 Run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 
-The client-side Glide API provides classes and methods that you can use in client scripts.
+The client-side [Glide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_GlideClassOverview.md) API provides classes and methods that you can use in client scripts.
 
 ## Before you begin
 
-Understand the limitations of your scripting environment. For example, client scripts run on forms in the Service Portal or Mobile environments can only include certain APIs. For more information, see .
+Understand the limitations of your scripting environment. For example, client scripts run on forms in the Service Portal or Mobile environments can only include certain APIs. For more information, see [Mobile client GlideForm \(g form\) scripting and migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_MobilePlatformMigrationImpacts.md).
 
 -   **[Client-side scripting design and processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/client-script-best-practices.md)**  
 Well-designed client scripts can reduce the amount of time it takes users to complete a form.

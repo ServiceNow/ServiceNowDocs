@@ -42,7 +42,7 @@ Confirm that you have an extraction table associated with a model containing out
 
 6.  Create the mappings by selecting an output in the **Available model outputs** column and then selecting a column in **Available columns**.
 
-    As you work, the mappings are saved in the **Field Mapping** section to create the import map staging table and the transform map. For general information, see  and .
+    As you work, the mappings are saved in the **Field Mapping** section to create the import map staging table and the transform map. For general information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md) and [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
 
     \[Omitted image "erpc-transform-map-extraction-table2.png"\] Alt text: Generate mapping overlay with select mapping table field highlighted.
 
@@ -50,7 +50,7 @@ Confirm that you have an extraction table associated with a model containing out
 
 7.  In the **Field Mapping** section, select the **Coalesce** option for each mapping.
 
-    For more information, see .
+    For more information, see [Updating records using coalesce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/c_ImportSetCoalesce.md).
 
 8.  Select **Save**.
 

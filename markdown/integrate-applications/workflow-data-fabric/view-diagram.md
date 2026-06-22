@@ -46,7 +46,7 @@ Role required: sn\_ac.automation\_technical\_user, playbook.write, playbook.acti
 
 6.  You can edit the diagram if required.
 
-    For more information about editing or creating diagrams, see .
+    For more information about editing or creating diagrams, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
     When viewing or editing a diagram, we need not set a trigger. A trigger will be set when the automation is created from the requirement diagram.
 

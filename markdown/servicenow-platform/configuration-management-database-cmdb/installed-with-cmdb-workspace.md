@@ -16,7 +16,7 @@ breadcrumb: [CMDB Workspace reference, CMDB Workspace store app, CMDB schema mod
 
 Several types of components are installed with the activation of the CMDB Workspace \(sn\_cmdb\_ws\) plugin, including properties, tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 In addition, the CMDB Workspace plugin adds the CMDB Group type 'CMDB Workspace'.
 
@@ -42,7 +42,7 @@ Shows/hides the My CIs section of CI Overview on the CMDB Workspace landing page
 
  -   Type: true \| false
 -   Default: true
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Shows/hides the Total CIs section on the CMDB Workspace landing page.
 
  -   Type: true \| false
 -   Default: true
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Initial default number of levels from the home node, up and down the CMDB hierar
 
  -   Type: integer
 -   Default: 3
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
  Editing affects all users and requires the sn\_cmdb\_admin user role.
 
@@ -127,7 +127,7 @@ The maximum number of results that the system counts for when using conditional 
 
  -   Type: integer
 -   Default: 100,000
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 -   More information: [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 
  For example, if a limit of 100,000 is reached, the count shows "100,000 +" to indicate that counting stopped at 100,000 and that there are additional uncounted results.
@@ -146,7 +146,7 @@ Enables the use of CI Form when selecting CIs to view in CMDB Workspace or in an
 
  -   Type: true \| false
 -   Default: true
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 -   More information: [Manage CI details in CI Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md)
 
 </td></tr></tbody>
@@ -176,7 +176,7 @@ Provides the highest level of access to tools and UIs within CMDB Workspace.
 
  CMDB Admin, for example, can set policies in the CI Class Manager and application service requirements.CMDB Admin can also modify default config records under the default identifier or the default identifier itself.
 
- **Note:** Access to the Configuration Item \[cmdb\_ci\] table and other details, differ by the Yokohama patch that is installed. For details, see the Yokohama .
+ **Note:** Access to the Configuration Item \[cmdb\_ci\] table and other details, differ by the Yokohama patch that is installed. For details, see the Yokohama [Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
 
 </td><td>
 
@@ -198,7 +198,7 @@ Provides access to tools and UIs within CMDB Workspace.
 
  A CMDB Editor has writing privileges to CMDB Data Manager tasks and to CIs but can't change policies such as in the CMDB Data Manager or in the CI Class Manager.
 
- **Note:** Access to the Configuration Item \[cmdb\_ci\] table and other details, differ by the Yokohama patch that is installed. For details, see the Yokohama .
+ **Note:** Access to the Configuration Item \[cmdb\_ci\] table and other details, differ by the Yokohama patch that is installed. For details, see the Yokohama [Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
 
 </td><td>
 
@@ -502,7 +502,7 @@ CMDB Workspace Aggregates Daily Collection
 
 </td><td>
 
-A Performance Analytics job that stores the latest data generated by the **CMDB Workspace – Populate aggregates Daily** scheduled job. The stored data is then shown in respective cards in the Insights view.
+A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/performance-analytics/pa-overview.md) job that stores the latest data generated by the **CMDB Workspace – Populate aggregates Daily** scheduled job. The stored data is then shown in respective cards in the Insights view.
 
 </td></tr><tr><td>
 
@@ -510,7 +510,7 @@ CMDB Workspace Aggregates Monthly Collection
 
 </td><td>
 
-A Performance Analytics job that stores the latest data generated by the **CMDB Workspace – Populate aggregates Monthly** scheduled job. The stored data is then shown in respective cards in the Insights view.
+A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/performance-analytics/pa-overview.md) job that stores the latest data generated by the **CMDB Workspace – Populate aggregates Monthly** scheduled job. The stored data is then shown in respective cards in the Insights view.
 
 </td></tr><tr><td>
 
@@ -538,7 +538,7 @@ Activates demo data for CMDB Workspace charts in views such as the Insights view
 
 </td><td>
 
-A Performance Analytics job that supports demo data for CMDB Workspace charts in various views such as the Insights view and which is installed only if **Load demo data** was checked when the CMDB Workspace store app was installed or upgraded.
+A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/performance-analytics/pa-overview.md) job that supports demo data for CMDB Workspace charts in various views such as the Insights view and which is installed only if **Load demo data** was checked when the CMDB Workspace store app was installed or upgraded.
 
  Stores the demo data generated by the **CMDB Workspace – Populate aggregates Daily** scheduled job. The demo data is then shown in respective cards in the Insights view.
 
@@ -548,7 +548,7 @@ A Performance Analytics job that supports demo data for CMDB Workspace charts in
 
 </td><td>
 
-A Performance Analytics job that supports demo data for CMDB Workspace charts in various views such as the Insights view and which is installed only if **Load demo data** was checked when the CMDB Workspace store app was installed or upgraded.
+A [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/performance-analytics/pa-overview.md) job that supports demo data for CMDB Workspace charts in various views such as the Insights view and which is installed only if **Load demo data** was checked when the CMDB Workspace store app was installed or upgraded.
 
  Stores the demo data generated by the **CMDB Workspace – Populate aggregates Monthly** scheduled job. The demo data is then shown in respective cards in the Insights view.
 

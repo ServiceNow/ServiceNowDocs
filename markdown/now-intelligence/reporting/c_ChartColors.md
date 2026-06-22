@@ -80,7 +80,7 @@ Name
 
 </td><td>
 
-Table used for the report.**Note:** The list shows only tables and database views that are in the same scope as the chart colors record.
+Table used for the report.**Note:** The list shows only tables and database views that are [in the same scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationScope.md) as the chart colors record.
 
 </td></tr><tr id="row_h2z_tfw_1z"><td>
 

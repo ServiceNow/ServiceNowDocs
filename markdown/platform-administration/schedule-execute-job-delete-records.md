@@ -30,15 +30,15 @@ Consider scheduling the delete job to run during non-business hours to minimize 
 
 3.  Determine whether to schedule the delete job for a later time or run it right away.
 
-<table id="choicetable_kdq_2q5_qtb"><thead><tr><th align="left" id="d150457e95">
+<table id="choicetable_kdq_2q5_qtb"><thead><tr><th align="left" id="d150517e95">
 
 Option
 
-</th><th align="left" id="d150457e98">
+</th><th align="left" id="d150517e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d150457e104">
+</th></tr></thead><tbody><tr><td id="d150517e104">
 
 **Schedule the delete job**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Update** to save the schedule.
 
 
-</td></tr><tr><td id="d150457e131">
+</td></tr><tr><td id="d150517e131">
 
 **Run the delete job now**
 

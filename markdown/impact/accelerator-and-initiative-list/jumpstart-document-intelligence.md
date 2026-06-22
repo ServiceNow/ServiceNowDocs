@@ -22,7 +22,7 @@ Jumpstart Your Document Intelligence provides Impact customers with an overview 
 
 **Attention**: This is a separate functionality from Now Assist in Document Intelligence which is not included in this engagement.
 
-For more information on Document Intelligence, see .
+For more information on Document Intelligence, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 

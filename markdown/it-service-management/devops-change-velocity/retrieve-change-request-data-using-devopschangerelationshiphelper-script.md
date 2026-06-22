@@ -22,7 +22,7 @@ Role required: sn\_devops.viewer
 
 ## About this task
 
-Use Script Includes to store JavaScript functions and classes for use by server scripts. You can call the Script Include from a Business Rule, UI Action, workflow script, Scripted REST API, and so on.
+Use [Script Includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/scripts/c_ScriptIncludes.md) to store JavaScript functions and classes for use by server scripts. You can call the Script Include from a Business Rule, UI Action, workflow script, Scripted REST API, and so on.
 
 This method retrieves data related to a change request based on the specified relation type.
 

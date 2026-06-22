@@ -30,15 +30,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 2.  On the **Lists** tab, open a contract request by selecting an option under **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d552907e75">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d552734e75">
 
 Option
 
-</th><th align="left" id="d552907e78">
+</th><th align="left" id="d552734e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d552907e84">
+</th></tr></thead><tbody><tr><td id="d552734e84">
 
 **As an assignee**
 
@@ -50,7 +50,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d552907e113">
+</td></tr><tr><td id="d552734e113">
 
 **As a collaborator**
 
@@ -105,15 +105,15 @@ The state and the Contract status of the contract request is Work in progress.
 
 12. Add the internal or external signatories needed for e-signatures on the contract by navigating to the **Signatories** tab and then selecting **Add**.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d552907e354">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d552734e354">
 
 Option
 
-</th><th align="left" id="d552907e357">
+</th><th align="left" id="d552734e357">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d552907e363">
+</th></tr></thead><tbody><tr><td id="d552734e363">
 
 **Internal**
 
@@ -123,7 +123,7 @@ Steps
 2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value should be unique. For example: Enter the order numbers as 10, 20, 30, and so on, increasing by 10 each time. The system starts sending the contract to the internal signer with the lowest number.
 
 
-</td></tr><tr><td id="d552907e396">
+</td></tr><tr><td id="d552734e396">
 
 **External**
 

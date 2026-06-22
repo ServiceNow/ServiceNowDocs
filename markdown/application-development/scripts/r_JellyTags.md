@@ -200,7 +200,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
         For information on phase 1 and phase 2 evaluation, refer to the Jelly introduction videos listed at the beginning of this section.
 
 -   **macro\_invoke**
-    -   Description: The `macro_invoke` tag calls a UI macro that you have specified in the database. You may also call a UI macro by specifying it in the tag name. For example, if you had a UI macro named my\_macro, you could call that macro with the tag `<g:my_macro/>`. For information, see .
+    -   Description: The `macro_invoke` tag calls a UI macro that you have specified in the database. You may also call a UI macro by specifying it in the tag name. For example, if you had a UI macro named my\_macro, you could call that macro with the tag `<g:my_macro/>`. For information, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIMacros.md).
     -   Parameters:
         -   `macro` - The name of the UI macro to execute. If your tag name is `g:macro_invoke`, then the macro attribute specifies the name of the macro. If the tag name includes the name of the macro, then there is no need to include a macro attribute.
         -   Other attributes - For each attribute you specify, a variable with that name will be available in the context of the UI macro, prefixed with `jvar_`.

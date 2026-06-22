@@ -7,7 +7,7 @@ release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---

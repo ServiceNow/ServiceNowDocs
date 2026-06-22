@@ -193,7 +193,7 @@ Add courses from third-party applications such as Udemy, Pluralsight, Cornerston
 To add external learning content:
 
 -   You must have the [Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) application installed.
--   You must integrate Coaching With Learning with third-party learning management systems. For information on how to perform this integration, see .
+-   You must integrate Coaching With Learning with third-party learning management systems. For information on how to perform this integration, see [Integrating Learning Core with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/learning-core/setup-learning-third-party-1.md).
 
 Role required: sn\_coaching.coach
 

@@ -100,7 +100,7 @@ Prioritize the health and safety of your employees with the Safe Workplace suite
 ## Get started
 
 -   Work with an implementation specialist to achieve your desired business outcomes. To learn more, visit the [Customer Success Center](https://www.servicenow.com/success.html).
--   Explore which other tools can optimize your Employee Service Management experience, like Service Portal, Walk-up Experience, Virtual Agent, Service Catalog, and  Knowledge Management.
+-   Explore which other tools can optimize your Employee Service Management experience, like [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/c_ServicePortal.md), [Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/walk-up-experience/walkup-experience-landing-page.md), [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md), [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/service-catalog.md), and [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management/knowledge-management.md) Knowledge Management.
 
 ## Notice regarding use by organizations
 

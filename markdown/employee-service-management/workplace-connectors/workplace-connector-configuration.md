@@ -46,7 +46,7 @@ Role required: sn\_wsd\_wc.admin
 
     \[Omitted image "connector-configuration-new.png"\] Alt text: Extension point definition.
 
-    For more information, see .
+    For more information, see [Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md).
 
 7.  In the **Supported Metrics** field, select the unlock icon \(\[Omitted image "wsd-unlock-connectors-list-icon.png"\] Alt text: Unlock list icon. \) and select the **Event Data** as the supported metrics for badging data.
 

@@ -19,14 +19,14 @@ Use an AI agent custom skill to have it perform a task passed to it, such as com
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 An AI agent performs a task that you pass to it inside the AI Connector utility in Virtual Agent Designer. For more information on the AI Connector utility, see [AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/vad-ai-connector-utility.md).
 
 For example, you can use the AI Agent in the AI Connector utility to get all data on a Knowledge Base article. The AI Agent provides the article if it is available or notifies you if it can't find it. The agent also provides data on the consolidation itself by way of its output mappings.
 
-To see which AI agents are installed on your instance, see .
+To see which AI agents are installed on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 
 To use the AI agent, select it from the **Skill type** drop-down list in the AI Connector utility, then select the AI agent's type from the **Select AI agent** drop-down. For example, to have the AI agent consolidate a knowledge base article, select **KB content consolidation AI agent**.
 

@@ -41,7 +41,7 @@ Role required: sn\_cti\_amzn\_cct.admin
 
     Complete the steps specified in the setup guide:
 
-    1.  Complete AWS Lambda and OAuth credential setup.
+    1.  Complete [AWS Lambda](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/aws-lambda-spoke.md) and OAuth credential setup.
 
     2.  Download the recommended hold music using the link in the setup guide \(you can choose your own hold music, but it cannot be longer than 5 seconds\).
 

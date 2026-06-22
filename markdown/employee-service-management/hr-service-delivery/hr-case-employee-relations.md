@@ -83,7 +83,7 @@ For more information on reports, see [HR Service Delivery Employee Relations das
 
 ## Next Experience UI
 
-You can optionally use the ServiceNow® Next Experience UI for Employee Relations. Next Experience provides an intuitive, personalized experience to drive productivity, improve engagement, and surface insights across Employee Relations. For more information, see Next Experience UI.
+You can optionally use the ServiceNow® Next Experience UI for Employee Relations. Next Experience provides an intuitive, personalized experience to drive productivity, improve engagement, and surface insights across Employee Relations. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
-For information on installing a store application, see Install a ServiceNow Store application.
+For information on installing a store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_InstallApplications.md).
 

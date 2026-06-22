@@ -16,7 +16,7 @@ breadcrumb: [Service Exchange reference, Service Exchange]
 
 When installing Service Exchange, certain tables must be preserved or excluded to maintain connectivity after a clone.
 
-If the default system profile is used, some of the Service Exchange table data isn’t preserved. To address this issue, you must create a custom clone profile with specific settings required for Service Exchange. Navigate to **All** &gt; **System Clone** &gt; **Clone Profiles** and select **New** to create a custom profile. For more details on clone profiles, see . In this profile, you must validate if the following Service Exchange tables are included in the custom profile:
+If the default system profile is used, some of the Service Exchange table data isn’t preserved. To address this issue, you must create a custom clone profile with specific settings required for Service Exchange. Navigate to **All** &gt; **System Clone** &gt; **Clone Profiles** and select **New** to create a custom profile. For more details on clone profiles, see [Create a custom clone profile \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/system-profile-clone.md). In this profile, you must validate if the following Service Exchange tables are included in the custom profile:
 
 **Note:**
 

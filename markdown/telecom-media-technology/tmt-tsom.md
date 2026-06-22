@@ -16,5 +16,5 @@ Proactively monitor the health of your networks and services that helps to preve
 
 Telecommunications Service Operations Management \(TSOM\) integrates with monitoring tools such as Event Management and Metric Intelligence to simplify operations and provides an end-to-end service view across telecommunications technology domains. The TSOM uses the TM Forum Alarm Management API to automate the collection, correlation, and analysis of vast network event data across disparate domains. It provides front and back-office teams with a single end-to-end service health view.
 
-See  for more information about how to configure and use this application.
+See [Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-service-operations-mgt-overview.md) for more information about how to configure and use this application.
 

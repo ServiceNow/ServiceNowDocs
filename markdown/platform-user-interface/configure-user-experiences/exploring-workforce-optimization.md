@@ -72,11 +72,11 @@ Using this application, you can also:
 
 ## Global Search in Workforce Optimization for ITSM
 
-**Important:** This feature is available with the Workforce Optimization Content Pack for ITSM \(sn\_wfo\_itsm\_cnt\) from the ServiceNow Store. To enable this feature, see Workforce Optimization for ITSM Reference.
+**Important:** This feature is available with the Workforce Optimization Content Pack for ITSM \(sn\_wfo\_itsm\_cnt\) from the ServiceNow Store. To enable this feature, see [Workforce Optimization for ITSM Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-reference.md).
 
 As an agent or a manager, you can perform a search for users, groups, shifts, schedules, or tasks using the search icon\[Omitted image "search-icon.png"\] Alt text: Search icon in Workforce Optimization for ITSM to easily find the information you need.
 
-**Note:** To search shifts and schedules, you must generate the text index for the following tables before you start performing the search for shifts and schedules:
+**Note:** To search shifts and schedules, you must [generate the text index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/search-administration/index-multiple-tables.md) for the following tables before you start performing the search for shifts and schedules:
 
 -   Schedule \[sn\_shift\_planning\_schedule\_plan\]
 -   Shift Plan \[sn\_shift\_planning\_shift\_plan\]

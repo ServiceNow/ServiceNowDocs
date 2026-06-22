@@ -20,7 +20,7 @@ The UX \(User Experience\): Design for Employee Center Accelerator provides UX D
 
 UX: Design for Employee Center provides tailored UX Design advisory support, offering design resources, UI inspiration, and expert guidance from ServiceNow UX Experts to help your design and implementation teams kickstart your Employee Center design.
 
-See  on Employee Center.
+See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md) on Employee Center.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

@@ -94,17 +94,17 @@ Stay connected and access information in real time using the ITSM mobile agent. 
 
 Edge encryption provides you with direct control over your data security. Encryption and key management are performed on your intranet between your browser and your ServiceNow instance.
 
-See Understanding Edge Encryption.
+See [Understanding Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md).
 
 Because edge encryption is enabled on a proxy server on your side of the network, there is significant planning, network administration and management, and setup required.
 
-See Planning for Edge Encryption.
+See [Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md).
 
-To install edge encryption, see Edge Encryption installation.
+To install edge encryption, see [Edge Encryption installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md).
 
-To configure edge encryption, see Edge Encryption configuration.
+To configure edge encryption, see [Edge Encryption configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption/edge-config.md).
 
-**Note:** There are limitations when using edge encryption. See Edge Encryption limitations.
+**Note:** There are limitations when using edge encryption. See [Edge Encryption limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption/edge-encryption-limitations.md).
 
 ## Get started
 
@@ -133,7 +133,7 @@ To configure edge encryption, see Edge Encryption configuration.
 -   [Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/machine-learning-itsm.md)
 -   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 -   [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/asset-management/c_AssetManagement.md)
--   [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/benchmarks/r_Benchmarks.md)
+-   Benchmarks
 -   [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ITILChangeManagement.md)
 -   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-landing.md)
 -   [Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/collaboration-services/collab-services-tcm.md)
@@ -145,7 +145,7 @@ To configure edge encryption, see Edge Encryption configuration.
 -   [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-landing.md)
 -   [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-landing.md)
 -   [Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/expense-line/c_ExpenseLine.md)
--   
+-   [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
 -   [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/c_IncidentManagement.md)
 -   [Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-communications-management/c_IncidentAlertManagement.md)
 -   [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
@@ -154,8 +154,8 @@ To configure edge encryption, see Edge Encryption configuration.
 -   [ITSM Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-dashboards-content-pack.md)
 -   [ITSM Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-landing-page.md)
 -   [On-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
--   
--   
+-   [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)
+-   [Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-change-management/operational-technology-change-management-landing-page.md)
 -   [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/procurement/c_Procurement.md)
 -   [Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/product-catalog/c_ProductCatalog.md)
 -   [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/c_ProblemManagement.md)

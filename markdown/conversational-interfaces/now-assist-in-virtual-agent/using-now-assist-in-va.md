@@ -8,7 +8,7 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 12
+reading_time_minutes: 13
 keywords: [Using, Now Assist, Virtual Agent, AI Search, enhanced chat, dynamic window, full-page experience, full page experience, standard chat, genius results, generative AI]
 breadcrumb: [Now Assist in Virtual Agent, Conversational Interfaces]
 ---
@@ -191,7 +191,7 @@ Redirects into the full-page experience's chat tab.
 
 Both standard and enhanced chat require the ServiceNow default chat widget button to be turned on. The following actions must be completed for enhanced chat to display a synthesized response after entering a search query through the portal:
 
--   Configure the portal's AI Search
+-   [Configure the portal's AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/configuring-ais.md)
 -   Turn on the ServiceNow default Search page widget.
 -   Turn on the ServiceNow default chat widget button.
 
@@ -207,10 +207,10 @@ The following actions must be completed for enhanced chat to display a synthesiz
 Want to learn more? Visit these resources.
 
 -   For more information on enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
--   For more information on enhanced chat in Employee Center, see .
--   For more information on enhanced chat in self-service portals, see .
--   For more information on Now Assist, see .
--   For more information on Now Assist in AI Search, see .
--   For more information on language support, see .
+-   For more information on enhanced chat in Employee Center, see [Enhanced chat in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.md).
+-   For more information on enhanced chat in self-service portals, see [Using the Now Assist in Virtual Agent enhanced chat in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/nass-portal.md).
+-   For more information on Now Assist, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
+-   For more information on Now Assist in AI Search, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/now-assist-ais.md).
+-   For more information on language support, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/translation-for-now-assist.md).
 -   For more information on Now Assist in Virtual Agent analytics, see .
 

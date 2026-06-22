@@ -80,7 +80,7 @@ Option to specify the user that runs the flow. You can select the system user or
 
  **Note:** By default, flows run as the user who initiates the session.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see OAuth 2.0 credentials.
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
  When flows run as the user who initiates the session, the system limits flow actions by user Access Control Rule \(ACL\) restrictions. Ensure that security restrictions don't prevent users who trigger the flow from performing flow actions. Flows run by the initiating user also respect user-specific settings such as date/time formats.
 
@@ -109,7 +109,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
     3.  Select the predefined external trigger definition.\[Omitted image "select-external-trigger-definition.png"\] Alt text: External trigger definition.
 
-        To learn more about external trigger definitions, see .
+        To learn more about external trigger definitions, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
 
     4.  To define the conditions for the flow to execute, in the Condition 1 field, drag the appropriate data pill and enter the value.
 

@@ -22,7 +22,7 @@ Role required: ui\_builder\_admin
 
 ## Procedure
 
-1.  Open an existing Workspace page or create a new page in UI Builder.
+1.  Open an existing Workspace page or [create a new page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/create-page.md).
 
 2.  To hide the first section title on a Workspace form:
 

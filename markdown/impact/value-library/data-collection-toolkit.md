@@ -35,7 +35,7 @@ A Data Collection Toolkit is delivered from the Impact squad with a detailed ove
 
     For more information, see:
 
-    -   
+    -   [Learn about Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-v2-benefits.md)
     -   [Connect to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/connect-instance-impact-store-app.md)
 
 ## Get started

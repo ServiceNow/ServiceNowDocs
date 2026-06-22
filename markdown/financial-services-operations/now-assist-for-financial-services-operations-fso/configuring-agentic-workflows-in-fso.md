@@ -46,7 +46,7 @@ For more information on agentic workflows in FSO, see [Using agentic workflows i
 
 ## Choosing a language model service provider
 
-You can choose which service provider to use for AI agents and agentic workflows in the Now Assist Admin console.
+You can choose which service provider to use for AI agents and agentic workflows [in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md).
 
 ## Role masking
 

@@ -37,7 +37,7 @@ The business portal includes a link to the knowledge base that you can use to se
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d233373e110">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d233565e110">
 
 **Click a product to display more specific information**
 
@@ -45,7 +45,7 @@ The business portal includes a link to the knowledge base that you can use to se
 
 Displays a list of categories on the left and articles on the right. Select a category to drill down even further.
 
-</td></tr><tr><td id="d233373e119">
+</td></tr><tr><td id="d233565e119">
 
 **Click a link from one of the lists**
 
@@ -53,7 +53,7 @@ Displays a list of categories on the left and articles on the right. Select a ca
 
 Displays the article.
 
-</td></tr><tr><td id="d233373e128">
+</td></tr><tr><td id="d233565e128">
 
 **Type a topic in the __Search__ field and press the Enter key**
 

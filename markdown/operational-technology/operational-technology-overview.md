@@ -90,7 +90,7 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 -   [Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-request-management/operational-technology-request-management-landing-page.md)
 -   [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.md)
 -   [Industrial Workspace for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
--   Service Management: IT Service Management
--   Security: Vulnerability Response
--   Visibility: IT Operations Management
+-   Service Management: [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/r_ITServiceManagement.md)
+-   Security: [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/vulnerability-response/vuln-landing-page.md)
+-   Visibility: [IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/r_ITOMApplications.md)
 

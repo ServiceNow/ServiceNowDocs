@@ -133,7 +133,7 @@ If you're trying to determine if a playbook should be a flow instead, start by d
 
 To learn more about the differences between flows and playbooks, see [When to use flows and playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/when-to-use-flows-and-playbooks.md). For general guidelines of using flows, subflows, and actions, see [General guidelines for Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-considerations-consolidated.md).
 
-You can reference decision tables in flows, subflows, actions, and playbooks. Data streams are not used in flows, subflows, actions, playbooks, or decision tables. To learn more about data streams, see .
+You can reference decision tables in flows, subflows, actions, and playbooks. Data streams are not used in flows, subflows, actions, playbooks, or decision tables. To learn more about data streams, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/data-stream-actions.md).
 
 ## Differences from previous releases
 

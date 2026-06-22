@@ -34,15 +34,15 @@ Role required:sn\_align\_core.apw\_user
 
 4.  Do any of the following actions.
 
-<table id="choicetable_qhd_5v3_ccc"><thead><tr><th align="left" id="d234970e108">
+<table id="choicetable_qhd_5v3_ccc"><thead><tr><th align="left" id="d234198e108">
 
 Action
 
-</th><th align="left" id="d234970e111">
+</th><th align="left" id="d234198e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234970e117">
+</th></tr></thead><tbody><tr><td id="d234198e117">
 
 **Delete a scenario**
 
@@ -52,7 +52,7 @@ Description
 2.  Select **Delete**.
 
 
-</td></tr><tr><td id="d234970e138">
+</td></tr><tr><td id="d234198e138">
 
 **Rename a scenario**
 

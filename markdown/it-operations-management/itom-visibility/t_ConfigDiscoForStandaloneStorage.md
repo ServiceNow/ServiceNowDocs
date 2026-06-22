@@ -26,7 +26,7 @@ Role required: admin
 
     The SMI-S Provider software is often part of the device management software. For more information, download the SMI-S Provider instructions from the storage provider manufacture.
 
-2.  For NetApp storage devices, install the SMI-S agent on the storage device host.
+2.  For NetApp storage devices, [install the SMI-S agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r_CIMCredentialsForm.md) on the storage device host.
 
     **Note:** Discovery can also perform native discovery of NetApp servers without accessing the SMI-S server. See [NetApp Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/netapp-discovery.md) for more information.
 
@@ -38,7 +38,7 @@ Role required: admin
 
     \[Omitted image "ProviderEMCsyncRate.png"\] Alt text: EMC provider example
 
-5.  On the ServiceNow instance, set up CIM credentials.
+5.  On the ServiceNow instance, set up [CIM credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r_CIMCredentialsForm.md).
 
 6.  Create a Discovery Schedule with the IP addresses of each SMI-S Provider.
 

@@ -40,7 +40,7 @@ Install and configure the Conversational Integration with Amazon Connect applica
 4.  To set up Live Agent transfer for Conversational IVR, see [Sync Agents to setup Live Agent transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/setup-live-agent-transfer.md).
 5.  To configure user authentication, see [Configure user authentication for Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/setup-user-authentication-ivr.md).
 6.  To modify the Conversational Integration with Amazon Connect settings for the best interactive voice response, see [Manage bot messages for Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/edit-va-ivr-messages.md).
-7.  To configure callback functionality, see .
+7.  To configure callback functionality, see [Configure callback behavior for a channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/omnichannel-callback/configure-callback-behavior.md).
 
 \[Omitted image "workflow-ivr-amz-cnct.png"\] Alt text: Workflow describing the sequence of processes carried out in Conversational IVR with Amazon Connect integration.
 

@@ -28,12 +28,12 @@ The Now Assist for Creator generative AI skills that you can use when building c
 |-----|-----------|
 |[App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)|Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.|
 |[App summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)|Summarize what an app does using generative AI.|
-|Code generation|Get help writing scripts quickly with AI-generated code based on text or code prompts.|
+|[Code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/now-assist-code-landing.md)|Get help writing scripts quickly with AI-generated code based on text or code prompts.|
 |[Form generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md)|Create forms by describing what you want using natural language.|
 |[Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/test-generation/test-generation-intro.md)|Automate test creation from simple descriptions with AI-powered test generation.|
 |[UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/ui-generation-landing.md)|Create experiences by describing what you want using natural language.|
 
-For more information about Now Assist for Creator, see .
+For more information about Now Assist for Creator, see [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md).
 
 ## Now Assist for App Engine
 
@@ -53,7 +53,7 @@ The AI capabilities available with Now Assist for App Engine are also used when 
 
 |Persona|Benefit|Stage in the application life cycle|AI capability|
 |-------|-------|-----------------------------------|-------------|
-|Developer|Build and test applications and application elements quickly with generative AI skills.|Development, testing||
+|Developer|Build and test applications and application elements quickly with generative AI skills.|Development, testing|[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md)|
 |Developer|Enhance custom applications with base system AI agents and skills, or build custom AI agents and skills.|Development, testing|[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|
 |Requester, fulfiller, custom application user|Leverage AI agents and skills in custom applications at runtime to help improve productivity and efficiency.|Release, post-release|[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|
 

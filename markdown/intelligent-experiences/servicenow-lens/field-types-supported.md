@@ -51,7 +51,7 @@ The following field types are currently supported with ServiceNow AI Lens:
 -   string\_full\_utf8
 -   url
 
-For more information about these fields, see .
+For more information about these fields, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
 
 <table id="table_psc_fs3_mfc"><thead><tr><th>
 

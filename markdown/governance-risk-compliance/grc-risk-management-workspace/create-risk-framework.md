@@ -89,15 +89,15 @@ Additional information for this risk framework.
 
 6.  To add risk statements, click the Risk Statements related list and do one of the following.
 
-<table id="choicetable_tsm_t3y_qpb"><thead><tr><th align="left" id="d53173e222">
+<table id="choicetable_tsm_t3y_qpb"><thead><tr><th align="left" id="d53169e222">
 
 Choice
 
-</th><th align="left" id="d53173e225">
+</th><th align="left" id="d53169e225">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d53173e231">
+</th></tr></thead><tbody><tr><td id="d53169e231">
 
 **To add an existing risk statement**
 
@@ -108,7 +108,7 @@ Steps
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d53173e257">
+</td></tr><tr><td id="d53169e257">
 
 **To create a risk statement**
 

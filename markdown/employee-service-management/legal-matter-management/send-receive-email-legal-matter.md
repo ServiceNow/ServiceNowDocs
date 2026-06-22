@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d566680e110">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d566507e110">
 
 Option
 
-</th><th align="left" id="d566680e113">
+</th><th align="left" id="d566507e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d566680e119">
+</th></tr></thead><tbody><tr><td id="d566507e119">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d566680e148">
+</td></tr><tr><td id="d566507e148">
 
 **As a collaborator**
 
@@ -69,7 +69,7 @@ The state of the legal matter updates to Work in Progress.
 
 5.  In the **New Email Draft** tab, compose a new email or respond to the email received and send it right away or save it as a draft to send later.
 
-    For more information, see Communicating via email.
+    For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/using-email.md).
 
 
 ## Result

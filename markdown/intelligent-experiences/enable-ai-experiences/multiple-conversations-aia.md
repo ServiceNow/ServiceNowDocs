@@ -7,7 +7,7 @@ release: yokohama
 product: Enable AI Experiences
 classification: enable-ai-experiences
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Configuring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
 ---

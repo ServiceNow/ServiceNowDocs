@@ -37,7 +37,7 @@ Role required: Impact Platform Owner, Impact Portfolio Owner.
 
 5.  On the work items form, fill in the fields.
 
-    For more information, see .
+    For more information, see [Planning item type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/scenario-planning-in-spw/new-planning-item-planning-org-form.md).
 
 6.  Select **Convert**.
 

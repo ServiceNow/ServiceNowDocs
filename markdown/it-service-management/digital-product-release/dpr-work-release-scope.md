@@ -8,7 +8,7 @@ product: Digital Product Release
 classification: digital-product-release
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
 
@@ -50,7 +50,7 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
         -   sn\_dpr\_model.release\_coordinator
     -   ServiceNow® Strategic Planning Workspace is installed with the Digital Product lens configured
 
-        For more information about the lenses and portfolio plans, see  and .
+        For more information about the lenses and portfolio plans, see [Lenses in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/scenario-planning-in-spw/lens-alignment-planner-workspace.md) and [Portfolio plans in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/scenario-planning-in-spw/portfolio-plans-in-strategic-planning.md).
 
     A list of the planning items associated with the product enhancements displays.
 

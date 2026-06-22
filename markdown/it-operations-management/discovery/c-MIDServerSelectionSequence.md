@@ -59,7 +59,7 @@ Shazzam can process IP lists containing up to of 5000 addresses that include bot
 **Related topics**  
 
 
-[bundle-platcap.c_MIDServerPause]
+[MID Server pause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/t_PauseTheMIDServer.md)
 
-[bundle-platcap.mid-server-clusters]
+[MID Server cluster configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md)
 

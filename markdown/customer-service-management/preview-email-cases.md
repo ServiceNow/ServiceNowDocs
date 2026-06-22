@@ -24,9 +24,9 @@ Role required: sn\_customerservice\_agent
 
 For information about adding or modifying actions on a form, see the following topics:
 
--   Customizing your workspace with declarative actions
--   Create a UXF client action for forms
--   Declarative actions glossary
+-   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/declarative-actions-landing.md)
+-   [Create a UXF client action for forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/create-a-new-uxf-client-action-for-forms.md)
+-   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/declarative-actions-glossary.md)
 
 ## Procedure
 

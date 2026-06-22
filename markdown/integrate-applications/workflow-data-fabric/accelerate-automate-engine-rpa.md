@@ -47,7 +47,7 @@ The workflow for this solution is
 
 1.  An employee visits the Employee Center portal and searches for the Direct Deposit form through AI Search or Virtual Agent chat assistant.
 
-    Employee Center is a central portal where employees can find out the latest updates from your organization. For more information, see .
+    Employee Center is a central portal where employees can find out the latest updates from your organization. For more information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
 
 2.  The employee uploads a void check and submits the request.
 3.  The request comes into the Direct Deposit Workspace that uses a playbook to navigate the complex process in a guided process.
@@ -55,13 +55,13 @@ The workflow for this solution is
 
     Document Intelligence knows which fields to extract. When the model is trained over time, the value has a higher confidence score that is determined by the AI in Document Intelligence. The agent or the automation team can set a score to meet their threshold requirements.
 
-    For more information about Document Intelligence, see .
+    For more information about Document Intelligence, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
 
 5.  An agent navigates to the Direct Deposit Workspace, opens the direct deposit request, and reviews the data that was extracted from the employee's check. As the agent completes the review, the information is automatically updated on the form.
 6.  The extraction stage completes and the validation stage starts. An agent can view this process in the playbook.
 7.  By using Integration Hub, a third-party integration validates the extracted data from the check. The extracted values are sent through an API for validation using Integration Hub spoke actions. This flow is completed by using Workflow Studio with the power of the Integration Hub spokes. The flow hits an external end point, fetches the data, and compares this data against the system data to validate the bank details. On a successful validation, the direct deposit form is updated with any relevant notes.
 
-    For more information about Workflow Studio, see . For more information about Integration Hub, see [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/integrationhub.md).
+    For more information about Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/workflow-studio.md). For more information about Integration Hub, see [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/integrationhub.md).
 
 8.  The data validation stage completes and the payroll system update stage begins.
 9.  When the request arrives for a payroll update, the system initiates an unattended robot to process the employee's bank information into the legacy payroll system \(that doesn't have any API interface\) by using RPA Hub.
@@ -81,10 +81,10 @@ The workflow for this solution is
 Your administrators can integrate the solution by doing the following actions:
 
 1.  Activate the Integration Hub plugins. For more information, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/request-integrationhub.md) and [Integration Hub plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/ih-plugins.md).
-2.  Install the Employee Center application and configure the Employee Center Portal. For more information, see  and .
-3.  Install and set up the Document Intelligence application. For more information, see  and .
+2.  Install the Employee Center application and configure the Employee Center Portal. For more information, see [Install Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/activate-ec.md) and [Employee Center admin configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/configure-ec-portal.md).
+3.  Install and set up the Document Intelligence application. For more information, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence/install-document-intelligence.md) and [Set up Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence/get-started-with-doc-intel.md).
 4.  Install the RPA Hub application. For more information, see [Install Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/install-rpa.md).
 5.  Install the Automation Center application. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/install-automation-center.md).
 6.  Activate a spoke. For more information, see [Integration Hub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/spokes-list.md).
-7.  Build spokes using Spoke Generator. For more information, see .
+7.  Build spokes using Spoke Generator. For more information, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/spoke-builder.md).
 

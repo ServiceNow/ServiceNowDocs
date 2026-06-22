@@ -52,7 +52,7 @@ Participants \(shared with editing rights\) in an exploration can work together 
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d177496e185">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d177539e185">
 
 **Add as viewer**
 
@@ -60,7 +60,7 @@ Participants \(shared with editing rights\) in an exploration can work together 
 
 Grant only viewing rights to the users you are sharing the exploration with. They cannot edit it.
 
-</td></tr><tr><td id="d177496e194">
+</td></tr><tr><td id="d177539e194">
 
 **Add as editor**
 

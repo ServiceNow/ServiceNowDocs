@@ -18,7 +18,7 @@ Get a summary of the code or a comprehensive explanation of its functionality.
 
 ## Before you begin
 
-The summarize and explain features are only available with Azure OpenAI model provider. Make sure you turn them on. For more information, see .
+The summarize and explain features are only available with Azure OpenAI model provider. Make sure you turn them on. For more information, see [Enable Code Explain and Summarize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/enable-code-explain-and-summarize.md).
 
 Role required: now.assist.creator
 

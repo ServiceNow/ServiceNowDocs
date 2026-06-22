@@ -16,7 +16,7 @@ breadcrumb: [UI generation reference, UI generation, Builder library, Developing
 
 The following roles are installed for use with UI generation.
 
-To learn more about managing per-user subscriptions, see  and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## Now Assist Creator \[now.assist.creator\]
 

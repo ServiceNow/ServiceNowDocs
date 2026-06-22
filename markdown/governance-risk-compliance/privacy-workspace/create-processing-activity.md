@@ -24,15 +24,15 @@ Role required: sn\_privacy.analyst \(who owns the processing activity\) or sn\_p
 
 1.  Navigate to one of the following.
 
-<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d41866e59">
+<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d41862e59">
 
 Action
 
-</th><th align="left" id="d41866e62">
+</th><th align="left" id="d41862e62">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d41866e68">
+</th></tr></thead><tbody><tr><td id="d41862e68">
 
 **To create a new processing activity**
 
@@ -42,7 +42,7 @@ Procedure
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d41866e104">
+</td></tr><tr><td id="d41862e104">
 
 **To update a processing activity**
 

@@ -18,9 +18,9 @@ Grant users one or more Playbooks roles to enable them to create triggers, playb
 
 ## Roles
 
-To learn more about managing per-user subscriptions, see  and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-System administrators can grant users access to Playbooks by assigning delegated development permissions or directly assigning Roles. The following user roles are available for Playbooks:
+System administrators can grant users access to Playbooks by assigning delegated development permissions or directly assigning [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/exploring-user-administration.md). The following user roles are available for Playbooks:
 
 <table id="table_h1y_drx_blb"><thead><tr><th>
 
