@@ -52,6 +52,22 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
+[Yokohama Patch 13 Hotfix 3](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3081672)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/19
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
 [Yokohama Patch 13 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13-hf-2-PO.md)
 
 </td><td>
@@ -146,7 +162,7 @@ Security patch
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
