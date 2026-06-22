@@ -49,7 +49,7 @@ The options you select automatically update the corresponding property in the To
 
 \[Omitted image "active-props-table.png"\] Alt text: Topics table view with Is Topic Discoverable and Is Topic Visible values highlighted.
 
-**Note:** If the fields are not visible, you can configure the form layout to show them.
+**Note:** If the fields are not visible, you can [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) to show them.
 
 ## Procedure
 

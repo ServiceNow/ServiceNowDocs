@@ -40,7 +40,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
     **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
-    For more information, see Communicating via email.
+    For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/using-email.md).
 
 7.  Send it right away or save it as a draft to send later.
 

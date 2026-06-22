@@ -124,5 +124,5 @@ Time of day that the download job should run.
 **Related topics**  
 
 
-[bundle-psec.r_CloudManagementCredentialsForm]
+[Cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r_CloudManagementCredentialsForm.md)
 

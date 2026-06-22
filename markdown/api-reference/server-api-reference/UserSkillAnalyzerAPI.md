@@ -18,7 +18,7 @@ The UserSkillAnalyzer API provides methods to analyze user skills against skills
 
 This API requires the Skills Management plugin \(com.snc.skills\_management\), which you can activate if you have the admin role.
 
-See Qualify and rank users based on skills and skill levels.
+See [Qualify and rank users based on skills and skill levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/skills-management/assign-work-based-on-skills.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 

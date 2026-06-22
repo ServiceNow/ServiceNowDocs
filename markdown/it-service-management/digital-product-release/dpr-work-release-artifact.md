@@ -38,15 +38,15 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
 5.  On the Release Artifacts list view, add or remove artifacts.
 
-<table id="choicetable_i3k_312_c1c"><thead><tr><th align="left" id="d88964e123">
+<table id="choicetable_i3k_312_c1c"><thead><tr><th align="left" id="d89033e123">
 
 Option
 
-</th><th align="left" id="d88964e126">
+</th><th align="left" id="d89033e126">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88964e132">
+</th></tr></thead><tbody><tr><td id="d89033e132">
 
 **Add an artifact**
 
@@ -64,7 +64,7 @@ A valid semantic version has the format as major.minor.patch. For example, 5.4.2
 4.  Select **Confirm**.
  **Note:** An artifact can only be added to a release once.
 
-</td></tr><tr><td id="d88964e178">
+</td></tr><tr><td id="d89033e178">
 
 **Remove an artifact**
 

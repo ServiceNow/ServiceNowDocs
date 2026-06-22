@@ -80,5 +80,5 @@ The IP address for the target instance is outside of the IP range.
 
 ### Remedy
 
-If the target instance uses IP range based authentication, it must enable the IP range `10.0.0.0/10.255.255.255` to communicate on a local network. See .
+If the target instance uses IP range based authentication, it must enable the IP range `10.0.0.0/10.255.255.255` to communicate on a local network. See [IP range based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/c_IPRangeBasedAuthentication.md).
 

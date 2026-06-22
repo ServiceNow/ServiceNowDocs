@@ -20,7 +20,7 @@ Role required: Administrator
 
 ## About this task
 
-To enable crisis map functionality in the GRC: Crisis Map application, you must set up Google maps. For more information, see Set up Google Maps API.
+To enable crisis map functionality in the GRC: Crisis Map application, you must set up Google maps. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/set-up-google-maps-api.md).
 
 **Note:** Prior to enabling the Crisis Map feature, confirm that you have purchased and set up Google Maps API.
 

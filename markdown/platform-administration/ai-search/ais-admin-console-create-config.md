@@ -40,7 +40,7 @@ Role required: admin or ais\_admin
     |**Dictionaries**|[Dictionary form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/dictionary-form-ais.md)|
     |**Genius Results**|[AI Search Genius Result Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-cfg-form-ais.md)|
     |**Search application configurations**|[Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-app-config-form-ais.md)|
-    |**Result-card interfaces**||
+    |**Result-card interfaces**|[Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md)|
 
 6.  Select **Save**.
 

@@ -18,7 +18,7 @@ You can activate the Analytics Pack for Contract Management Pro plugin \(com.sn\
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see Activate your Performance Analytics subscription.
+Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 Review the [Analytics Pack for Contract Management Pro](https://store.servicenow.com/sn_appstore_store.do#!/store/application/88191096438402100a899afecab8f219) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
@@ -46,7 +46,7 @@ For more information, see [Components installed with Analytics Pack for Contract
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 
 **Parent Topic:**[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-analytics-pa.md)

@@ -36,7 +36,7 @@ Role required: admin
 
     You will receive an email with detailed installation instructions.
 
-6.  Log in to the instance and set up the Adobe Sign spoke.
+6.  Log in to the instance and set up the [Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/adobe-sign-spoke.md).
 
 
 **Parent Topic:**[Integrating with the Adobe Sign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrating-with-adobe-sign-service.md)

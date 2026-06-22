@@ -86,7 +86,7 @@ Create a Card Data Security subflow to handle payloads from the Third-Party Syst
 
 </td></tr><tr><td>
 
-Add a decision table entry with API path and subflow mapping
+[Add a decision table entry with API path and subflow mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 
 </td><td>
 
@@ -110,7 +110,7 @@ Create a new REST message function in **All** &gt; **System Web Services** &gt; 
 
 </td></tr><tr><td>
 
-
+[Define a REST message HTTP method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_DefineAnHTTPMethod.md)
 
 </td><td>
 

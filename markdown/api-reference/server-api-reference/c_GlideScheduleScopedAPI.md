@@ -72,7 +72,7 @@ Time zones can be provided in the following formats.
 -   `Country/Time zone`. For example, `US/Pacific`.
 -   `Time zone abbreviation`. For example, `PST`.
 
-For a complete list of valid timezones, see the **Time zone** field in the User \[sys\_user\] table. For more information about time zones, see .
+For a complete list of valid timezones, see the **Time zone** field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/r_TimeZones.md).
 
 </td></tr></tbody>
 </table>```
@@ -266,7 +266,7 @@ The time zone to use.Time zones can be provided in the following formats.
 -   `Country/Time zone`. For example, `US/Pacific`.
 -   `Time zone abbreviation`. For example, `PST`.
 
-For a complete list of valid timezones, see the **Time zone** field in the User \[sys\_user\] table. For more information about time zones, see .
+For a complete list of valid timezones, see the **Time zone** field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/r_TimeZones.md).
 
 </td></tr></tbody>
 </table>|Type|Description|

@@ -34,7 +34,7 @@ The HQ agent can select the below options:
 
 **Important:** By default, all agentic workflows and AI agent records are read-only.Looking for an AI agent?
 
--   There may be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see .
+-   There may be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 -   To find agents that may not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 **AI agents security**
@@ -43,5 +43,5 @@ You can enable security implementation on AI agents and agentic workflows throug
 
 Configure and manage these ACLs for agentic workflows and AI agents in the AI Agent Studio.
 
-See  for more information.
+See [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md) for more information.
 

@@ -30,5 +30,5 @@ To enable Zero Trust Access on mobile, you must perform the following tasks:
 -   Set Enable Zero Trust Access to true under **Application Registries** for the mobile client application \(OAuth client\). In this case, **ServiceNow Agent** \(Now Agent\) and **ServiceNow Request** \(Now Mobile\).\[Omitted image "application-registry-trust-access-mobile.png"\] Alt text: Application Regisrty
 -   Configure Session Access role to either reduce or remove roles for the users logging based on the policy inputs and conditions. To learn more about the configuration, see [Configure Session Access role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/configure-session-access-role.md).
 
-The configuration evaluates the login to reduce or remove the roles of the users who access your ServiceNow® instance based on the policy filters and conditions. For more information, see .
+The configuration evaluates the login to reduce or remove the roles of the users who access your ServiceNow® instance based on the policy filters and conditions. For more information, see [Configure Zero Trust Access for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/configure-zero-trust-access-mobile.md).
 

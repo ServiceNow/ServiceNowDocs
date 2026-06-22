@@ -43,7 +43,7 @@ Role required:
 
 5.  In the Catalog tab, add products to the new quote or order that is created.
 
-    For more info, see .
+    For more info, see [Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/quote-management-catalog-tab.md).
 
 6.  Select **Submit for approval**.
 

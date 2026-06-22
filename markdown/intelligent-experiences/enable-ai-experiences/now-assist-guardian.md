@@ -70,7 +70,7 @@ You can override the redirection by selecting **Proceed, not sensitive**. It ret
 
 ## Now Assist Guardian at runtime
 
-All skills that use Now Assist Guardian remove personally identifiable information \(PII\) before the request reaches the LLM. You can configure what type of data is anonymized. For more information see, Configuring Now Assist for Data Privacy.
+All skills that use Now Assist Guardian remove personally identifiable information \(PII\) before the request reaches the LLM. You can configure what type of data is anonymized. For more information see, [Configuring Now Assist for Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md).
 
 For conversational skills, semantic search processes requests to determine whether a filter has been detected. If so, the user is redirected to a Virtual Agent topic that asks if they want to make an HR case or speak to a live agent.
 
@@ -339,13 +339,13 @@ Technology
 
 </td><td>
 
-
+[Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 
 </td><td>
 
--   Configuration item \(CI\) summarization
--   Manage duplicate CIs
--   Service Graph Connector diagnosis
+-   [Configuration item \(CI\) summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-ci-summarizer.md)
+-   [Manage duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-mng-dupe-cis-skill.md)
+-   [Service Graph Connector diagnosis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-diagnose.md)
 
 </td></tr><tr><td>
 
@@ -353,12 +353,12 @@ Technology
 
 </td><td>
 
-
+[Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
 
 </td><td>
 
--   Alert analysis
--   Alert investigation
+-   [Alert analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-for-it-operations-management/alert-summarization-now-assist.md)
+-   [Alert investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-for-it-operations-management/nai-analyze-past-incidents.md)
 
 </td></tr><tr><td>
 
@@ -366,19 +366,19 @@ Technology
 
 </td><td>
 
-
+[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 
 </td><td>
 
--   Change request risk explanation
--   Change request summarization
--   Chat reply recommendation
--   Chat summarization
--   Incident assist
--   Incident summarization
--   KB generation
--   Resolution notes generation
--   Sidebar discussion summarization
+-   [Change request risk explanation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/change-risk-exp-now-assist.md)
+-   [Change request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/summarize-change-now-assist.md)
+-   [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-chat-recommendation.md)
+-   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.md)
+-   [Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md)
+-   [Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/summarize-incident-now-assist.md)
+-   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/Now-Assist-generate-article-SOW-itsm.md)
+-   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/resolve-incident-now-assist.md)
+-   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-sidebar-discussion.md)
 
 </td></tr><tr><td>
 
@@ -386,14 +386,14 @@ Technology
 
 </td><td>
 
-
+[Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
 
 </td><td>
 
--   Post-incident analysis
--   Resolution notes generation
--   Security incident recommended actions
--   Security incident summarization
+-   [Post-incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
+-   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
+-   [Security incident recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
+-   [Security incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
 
 </td></tr><tr><td>
 
@@ -401,7 +401,7 @@ Technology
 
 </td><td>
 
-
+[Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
 
 </td><td>
 
@@ -418,7 +418,7 @@ Customer
 
 </td><td>
 
-
+[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
 </td><td>
 
@@ -436,7 +436,7 @@ Customer
 
 </td><td>
 
-
+[Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
 
 </td><td>
 
@@ -450,7 +450,7 @@ Customer
 
 </td><td>
 
-
+[Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
 
 </td><td>
 
@@ -463,7 +463,7 @@ Customer
 
 </td><td>
 
-
+[Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/public-sector-digital-services/now-assist-for-psds.md)
 
 </td><td>
 
@@ -476,7 +476,7 @@ Employee
 
 </td><td>
 
-
+[Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
 
 </td><td>
 
@@ -488,7 +488,7 @@ Employee
 
 </td><td>
 
-
+[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 
 </td><td>
 
@@ -503,7 +503,7 @@ Employee
 
 </td><td>
 
-
+[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 
 </td><td>
 
@@ -515,7 +515,7 @@ Employee
 
 </td><td>
 
-
+[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 
 </td><td>
 
@@ -532,7 +532,7 @@ Creator
 
 </td><td>
 
-Catalog item generation
+[Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
 
 </td></tr><tr><td>
 
@@ -540,11 +540,11 @@ Finance &amp; Supply Chain
 
 </td><td>
 
-
+[Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
 
 </td><td>
 
-Record summarization
+[Record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-summarize-apo.md)
 
 </td></tr><tr><td>
 
@@ -552,11 +552,11 @@ Finance &amp; Supply Chain
 
 </td><td>
 
-
+[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
 
 </td><td>
 
-Supplier case summarization
+[Supplier case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.md)
 
 </td></tr><tr><td>
 
@@ -564,11 +564,11 @@ Finance &amp; Supply Chain
 
 </td><td>
 
-
+[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 
 </td><td>
 
-Record summarization
+[Record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.md)
 
 </td></tr></tbody>
 </table>-   **[Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/activate-offensiveness-protection-for-generative-ai.md)**  

@@ -21,12 +21,12 @@ Domain separation is unsupported for Cloud Cost Management. Domain separation en
 -   The domain field may exist on data tables but there is no business logic to manage the data.
 -   This level is not considered domain-separated.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 **Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
 

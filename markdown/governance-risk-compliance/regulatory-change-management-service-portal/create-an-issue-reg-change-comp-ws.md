@@ -30,15 +30,15 @@ Role required: sn\_grc\_reg\_change.manager, sn\_grc\_reg\_change.user
 
     You can add an existing issue to a regulatory task or create an issue that you can relate to a regulatory task.
 
-<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d35973e95">
+<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d35972e95">
 
 Step
 
-</th><th align="left" id="d35973e98">
+</th><th align="left" id="d35972e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35973e104">
+</th></tr></thead><tbody><tr><td id="d35972e104">
 
 **Select __Add__.**
 
@@ -46,7 +46,7 @@ Description
 
 Relate a regulatory task to an existing issue.
 
-</td></tr><tr><td id="d35973e119">
+</td></tr><tr><td id="d35972e119">
 
 **Select __New__.**
 

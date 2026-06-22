@@ -16,7 +16,7 @@ breadcrumb: [Now Assist for Code reference, Now Assist for Code, Scripting, API 
 
 Understand the roles needed to use Now Assist for Code. These roles are created when Now Assist for Creator is installed.
 
-To learn more about managing subscriptions for individual users, see  and contact your account representative for assistance.
+To learn more about managing subscriptions for individual users, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative for assistance.
 
 ## Now Assist Code Admin \[now\_assist\_code\_admin\]
 

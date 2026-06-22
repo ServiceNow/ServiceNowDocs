@@ -27,7 +27,7 @@ To optimize system performance, a table cleaner automatically removes old certif
 -   Discovered Certificate \[sn\_disco\_certmgmt\_certificate\_history\] table: older than 30 days
 -   Installed Certificate \[sn\_disco\_certmgmt\_cmdb\_installed\_certificate\] table: older than 90 days
 
-**Note:** You can toggle various behaviors related to Certificate Inventory and Management depending on your needs, using specific certificate properties as shown in [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryProperties.md) and System properties.
+**Note:** You can toggle various behaviors related to Certificate Inventory and Management depending on your needs, using specific certificate properties as shown in [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryProperties.md) and [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
 
 The system scans for certificates that are expired or archived for more than six months. If a replacement certificate exists, the system removes outstanding tasks for these obsolete certificates.
 

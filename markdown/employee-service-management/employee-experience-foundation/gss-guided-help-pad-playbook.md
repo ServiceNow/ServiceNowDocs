@@ -18,7 +18,7 @@ Create a visual playbook flow of activities so that employees can find informati
 
 ## Before you begin
 
-Understand the basics of playbooks and workflow studio .
+Understand the basics of playbooks and workflow studio [Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/building-a-process.md).
 
 Review the information from [Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md).
 
@@ -26,7 +26,7 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
 ## Procedure
 
-1.  Follow the instructions available in .
+1.  Follow the instructions available in [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-activity-definition.md).
 
 2.  On the Workflow Studio, use the existing questionnaire activity available from **Add activity** &gt; **Common Activities** &gt; **Questionnaire** for authoring question and answer flow.
 
@@ -53,7 +53,7 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
     **Note:** Ensure you configure the Restart operation for every activity in the flow. When only one activity has the restart operation, it won't work.
 
-    Based on the security access and user permissions, the catalog items and KBs appear. For more information, see .
+    Based on the security access and user permissions, the catalog items and KBs appear. For more information, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
     **Note:** The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in **Workflow Studio**.
 

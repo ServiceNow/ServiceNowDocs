@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2025-12-04"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Explore, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -27,9 +27,9 @@ The Universal Request workflow involves the following stakeholders:
     -   View, update, transfer, and close Universal requests
     -   Create supplier cases from Universal requests
 
-**Note:** You can create Routing agents by adding users to the Source Operations Universal Request Group. This group is a default assignment group that contains Universal request roles and supplier agent roles. For more information on assigning roles, see .
+**Note:** You can create Routing agents by adding users to the Source Operations Universal Request Group. This group is a default assignment group that contains Universal request roles and supplier agent roles. For more information on assigning roles, see [Assign roles to UR users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-assign-roles.md).
 
-For more information on roles in Universal requests, see .
+For more information on roles in Universal requests, see [Universal Request roles and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-roles.md).
 
 ## Universal Request workflow
 
@@ -53,7 +53,7 @@ For more information on roles in Universal requests, see .
     -   If the routing agent accepts the resolution provided in the primary ticket, the Universal request is marked as complete and closed.
     -   If the resolution is rejected, the supplier case is dissociated from the Universal request. The routing agent then creates a new primary ticket from the Universal request for resolution.
 
-Primary tickets can also be transferred to other departments when resolving a Universal request requires cross-departmental support or must be reassigned to a different department. For more information, see .
+Primary tickets can also be transferred to other departments when resolving a Universal request requires cross-departmental support or must be reassigned to a different department. For more information, see [Transfer a primary ticket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/universal-request-for-hr-service-delivery/route-primarytask-to-ur.md).
 
-When a Universal request needs support from multiple departments, you can create Associated tickets in addition to the primary ticket. Associated tickets enable multiple departments to work on the resolution of the Universal request simultaneously. For more information see, .
+When a Universal request needs support from multiple departments, you can create Associated tickets in addition to the primary ticket. Associated tickets enable multiple departments to work on the resolution of the Universal request simultaneously. For more information see, [Create associated ticket for primary ticket of UR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/universal-request-for-hr-service-delivery/create-associated-ticket.md).
 

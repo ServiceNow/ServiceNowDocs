@@ -210,7 +210,7 @@ Metadata - Check Service Cloud Feature
 
 </td><td>
 
-Checks whether Salesforce Service Cloud is enabled on the target Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
+Checks whether Salesforce Service Cloud is enabled on the target Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
 
 </td></tr><tr><td>
 
@@ -362,7 +362,7 @@ Metadata - Get Organization Type
 
 </td><td>
 
-Retrieves the organization type of the Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce integration profile section in Integrating with Salesforce.
+Retrieves the organization type of the Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce integration profile section in [Integrating with Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
 
 </td></tr><tr><td>
 
@@ -454,7 +454,7 @@ Look up User Licenses Stream
 
 </td><td>
 
-Retrieves user subscription information that is available in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
+Retrieves user subscription information that is available in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
 
 </td></tr><tr><td>
 
@@ -462,7 +462,7 @@ Look up Usage Based Entitlements Stream
 
 </td><td>
 
-Retrieves the consumption usage details for the resources.To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
+Retrieves the consumption usage details for the resources.To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
 
 </td></tr><tr><td rowspan="5">
 
@@ -498,7 +498,7 @@ Look up Users
 
 </td><td>
 
-Retrieves user attributes for Salesforce users. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
+Retrieves user attributes for Salesforce users. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
 
 </td></tr><tr><td>
 
@@ -506,7 +506,7 @@ Remove User
 
 </td><td>
 
-Reclaims a user account in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
+Reclaims a user account in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
 
 </td></tr></tbody>
 </table>## Salesforce account requirements
@@ -515,13 +515,13 @@ The Salesforce spoke requires configuring your Salesforce account to generate an
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r-credentials.md).
 
 For information about setting up the spoke, see [Set up the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/setup-sf-spk.md).
 
 ## MID Server requirements
 
-These actions use REST calls, which can run on an instance or MID Server. Use the connection record associated with the Salesforce alias to configure where actions run as well as set MID Server selection attributes. For more information, see MID server.
+These actions use REST calls, which can run on an instance or MID Server. Use the connection record associated with the Salesforce alias to configure where actions run as well as set MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

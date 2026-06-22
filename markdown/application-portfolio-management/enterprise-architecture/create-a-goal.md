@@ -26,7 +26,7 @@ Role required: user\_admin, pps\_admin
 
 ## About this task
 
-To understand how your organizational strategies are performing, see the Strategic Spend Tracking for PPM dashboard topic. It provides comprehensive visualization to help you understand how the planned costs, actual costs, and benefits for projects aligned to your organization's strategies trend over time.
+To understand how your organizational strategies are performing, see the [Strategic Spend Tracking for PPM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.md) topic. It provides comprehensive visualization to help you understand how the planned costs, actual costs, and benefits for projects aligned to your organization's strategies trend over time.
 
 ## Procedure
 
@@ -60,5 +60,5 @@ You can [create a program](https://raw.githubusercontent.com/ServiceNow/ServiceN
 **Related topics**  
 
 
-[bundle-itbm.associate-goal-strategy-prj]
+[Allocate or modify the strategy and goal percentage for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/ppm-collaboration/associate-goal-strategy-prj.md)
 

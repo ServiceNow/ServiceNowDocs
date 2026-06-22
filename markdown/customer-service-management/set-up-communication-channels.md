@@ -28,14 +28,14 @@ You have the following options for setting up communication channels:
 
 -   Set up the [Customer Service email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_CustomerServiceEmailCommunication.md).
 
-    Customers can send emails to create new cases and update current cases as well as receive email updates from agents as cases progress. Customer Service Management uses the ServiceNow email accounts feature to create and maintain email accounts.
+    Customers can send emails to create new cases and update current cases as well as receive email updates from agents as cases progress. Customer Service Management uses the ServiceNow [email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailAccounts.md) feature to create and maintain email accounts.
 
-    -   Configure one or more email addresses.
+    -   [Configure one or more email addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ConfigureAnEmailAccount.md).
     -   [Configure an email address for a product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ConfigureEmailCommunication.md).
     -   [Configure an email subject line prefix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ConfigureAnEmailSubjectLinePrefix.md)
     -   [Set email communication channel properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_CustomerServiceEmailProperties.md)
-    -   Create an email client template.
-    -   Create quick messages.
+    -   [Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateAnEmailClientTemplate.md).
+    -   [Create quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_QuickMessages.md).
     -   [Create rules for incoming emails and create and assign cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-rules-incoming-emails-create-assign-cases.md).
 -   Set up the [Customer Service phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_PhoneCommunication.md).
 

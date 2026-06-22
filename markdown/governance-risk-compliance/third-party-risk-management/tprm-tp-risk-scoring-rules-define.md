@@ -102,7 +102,7 @@ Vendor filter
 
 </td><td>
 
-Use the condition builder to define the rules for selecting third parties. For example, you can filter on third parties with whom you do considerable business \(Size is $1,000,000\) or third parties within a specific category \(Category is software\).
+Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to define the rules for selecting third parties. For example, you can filter on third parties with whom you do considerable business \(Size is $1,000,000\) or third parties within a specific category \(Category is software\).
 
 </td></tr></tbody>
 </table>    \[Omitted image "new-vendor-risk-scoring-rule.png"\] Alt text: New third-party risk scoring rule.

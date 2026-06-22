@@ -124,7 +124,7 @@ This table provides an example of how a vendor score is calculated.
 
 The total vendor score has been rounded up to 83.22%. The score is also highlighted in the header with colors that are distinct for the defined threshold values for the KPI group.
 
-**Note:** The vendor score is impacted based on whether the direction for the indicator is set to maximize or minimize. This table shows an example of how the vendor score is impacted based on the indicator direction.
+**Note:** The vendor score is impacted based on whether the [direction for the indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md) is set to maximize or minimize. This table shows an example of how the vendor score is impacted based on the indicator direction.
 
 <table id="table_hz2_qnj_gjb"><thead><tr><th>
 

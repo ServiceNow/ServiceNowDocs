@@ -59,7 +59,7 @@ Enable provider admins to define an actionable notification and send it to users
 
 **Note:** A notification should either have Common Content or Provider Content in order to be delivered to the recipients.
 
-All the above-mentioned capabilities are applicable only for Virtual Agent and Workspace providers.
+All the above-mentioned capabilities are applicable only for [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) and [Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/workspace-landing-page.md) providers.
 
 **Parent Topic:**[Exploring provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/exploring-provider-notification.md)
 

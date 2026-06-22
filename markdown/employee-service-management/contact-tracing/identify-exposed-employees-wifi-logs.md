@@ -36,7 +36,7 @@ ServiceNow Contact Tracing integrates with an external application, Mist Systems
 
     -   By default, the asset data is available in the Wearable Technology \[cmdb\_ci\_wearable\] table. If you are using a different table, specify it using the **sn\_imt\_tracing.wifi\_ble\_client\_table** property.
     -   Ensure that the MAC address is populated in the **mac\_address** field in the table that has the asset data.
-    **Note:** The Wearable Technology \[cmdb\_ci\_wearable\] table is installed with the CMDB CI Class Models application available on ServiceNow Store. For more information, see CMDB CI Class Models.
+    **Note:** The Wearable Technology \[cmdb\_ci\_wearable\] table is installed with the CMDB CI Class Models application available on ServiceNow Store. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-iot.md).
 
     For more information on adding BLE-enabled devices or other wearable devices, see [Add wearable devices assigned to employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contact-tracing/add-wearable-devices.md).
 

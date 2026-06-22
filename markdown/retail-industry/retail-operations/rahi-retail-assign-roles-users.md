@@ -32,7 +32,7 @@ User roles can be configured during the initial setup process for retail organiz
 
 For the list of roles included with each plugin, see the roles section in each of the plugin links in [Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/retail-operations/rahi-retail-components-installed-with-plugins.md).
 
-For instructions on assigning roles to individual users, see .
+For instructions on assigning roles to individual users, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 ## Procedure
 

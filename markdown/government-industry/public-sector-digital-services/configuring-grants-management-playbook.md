@@ -97,7 +97,7 @@ The main ServiceNow capabilities that are leveraged to support the Grants Manage
 
 -   Document Processor​: Manage internal docs with version control, security, &amp; workflow integration. Request and verify docs from applicants​.
 -   [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-digital-services/playbooks-psds-exploring.md)​: Provide a visual, step-by-step guide for applicants and agents to complete key processes.​
--   : Streamline the creation, maintenance, and use of screening criteria with a low-code rules engine.
+-   [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md): Streamline the creation, maintenance, and use of screening criteria with a low-code rules engine.
 -   Configurable Portal Widgets: Use pre-built UI components for easy portal set up and modification.
 -   [Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-digital-services/psds-config-gmp-smart-assessment-engine.md): Improve the creation and maintenance of application questions.
 -   [Decision Trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-digital-services/psds-config-gmp-config-pre-eligibility.md): Provide a structured, step-by-step approach for pre-screening potential applicants.​​​

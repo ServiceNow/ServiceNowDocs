@@ -77,5 +77,5 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 

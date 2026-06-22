@@ -18,9 +18,9 @@ Configure and customize Contract Workspace by using the UI Builder web user inte
 
 ## Configuration overview
 
-For more information about this application, see .
+For more information about this application, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 Access UI Builder to customize the Contract Workspace by navigating to **All** &gt; **UI Builder**, and then selecting **Contract Workspace**.
 
-For more information, see  and .
+For more information, see [Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/using-ui-builder.md) and [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_set-up-configurable-workspace.md#section_xqc_p2z_cjb).
 

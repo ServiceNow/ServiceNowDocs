@@ -8,7 +8,7 @@ product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
@@ -20,7 +20,7 @@ The Jumpstart Your Issue Auto Resolution \(IAR\) Accelerator provides a demonstr
 
 Jumpstart Your Issue Auto Resolution provides Impact customers with an introduction to IAR to deflect high-volume, non-critical tasks and demonstrates how IAR will  enhance self-service and automation capabilities. This Accelerator aims to educate customers on the possibilities and capabilities of IAR,  specific use cases, a configuration overview, and key resources and guides to enable customers on getting started.
 
-See  for additional information on IAR.
+See [Issue auto-resolution tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/dashboard-auto-resolution-pae.md) for additional information on IAR.
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

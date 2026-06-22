@@ -26,7 +26,7 @@ For full documentation on using the ServiceNow IDE, see [ServiceNow IDE](https:/
 
 To refine your vibe-coded app in the ServiceNow IDE, follow these steps:
 
-1.  Create a workspace. Use Build Agent to create or edit application metadata. For more information, see .
+1.  Create a workspace. Use Build Agent to create or edit application metadata. For more information, see [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md).
 2.  Create an app.
     -   Use Build Agent to create the app.
     -   You can choose to edit an existing app.

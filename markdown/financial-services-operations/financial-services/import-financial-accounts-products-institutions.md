@@ -34,15 +34,15 @@ Role required: sn\_bom.admin
 
     The imported data is now available in the new Import Set table.
 
-    For more information, see Import sets key concepts.
+    For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
 
-5.  Create a transform map to define the field mapping between columns of the import set and columns of the target table.
+5.  [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md) to define the field mapping between columns of the import set and columns of the target table.
 
     For information on target tables, see the table topics in [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/financial-services-operations-core-data-model.md).
 
 6.  Transform the data from the import set table to the target table.
 
-    For more information, see Run an import.
+    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_RunImport.md).
 
 7.  Verify that the data records are imported into the target tables by navigating to the target tables.
 

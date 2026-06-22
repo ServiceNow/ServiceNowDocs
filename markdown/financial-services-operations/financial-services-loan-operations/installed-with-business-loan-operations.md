@@ -16,7 +16,7 @@ breadcrumb: [Reference, Loan Operations, Banking applications, Financial Service
 
 Several types of components are installed with the installation of the Financial Services Business Loan Operations application, including tables and user roles. The application also installs related plugins and store applications if they aren’t already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 Demo data is available for this feature.
 

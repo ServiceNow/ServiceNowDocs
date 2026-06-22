@@ -7,7 +7,7 @@ release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -77,8 +77,8 @@ Application
 
 Application scope against which the Connection &amp; Credentials alias is assigned. The current session scope you last selected in the application picker appears. -   For example, **Global** appears if it is the current scope for this session.
 -   You can change the scope in the application picker before creating an alias. To learn more application scopes and how to select them, see:
-    -   Application scope
-    -   
+    -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationScope.md)
+    -   [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md)
 
 
 </td></tr><tr><td>
@@ -103,7 +103,7 @@ Default Retry Policy
 
 </td><td>
 
-Retry policy for the alias. For more information, see Retry policy.
+Retry policy for the alias. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/retry-policy.md).
 
 </td></tr><tr><td>
 

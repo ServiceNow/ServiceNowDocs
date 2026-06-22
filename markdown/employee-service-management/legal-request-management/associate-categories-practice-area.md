@@ -168,7 +168,7 @@ Options to change the default behavior or flow of legal requests, legal matter, 
 ## What to do next
 
 -   From the Subcategories related list, [add a new one subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/add-subcategories-intakeform.md) to associate it with the intake form.
--   From the SLA Definitions related list, create a service level agreements \(SLA\) definition, if required.
+-   From the SLA Definitions related list, [create a service level agreements \(SLA\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md), if required.
 -   From the Assignments Rules related list, [create an assignment rule for an intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md).
 -   Click the **Edit in Catalog Builder** related link to update the record producer for a legal request or matter or both based on the **Type** field value. For more information, see [Create or modify a record producer for legal services through Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-record-producer-catalog-builder-legal.md).
 

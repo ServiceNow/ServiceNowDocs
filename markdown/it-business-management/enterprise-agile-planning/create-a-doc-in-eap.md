@@ -30,15 +30,15 @@ Create a Doc at the team-level or planning item level.
 
 2.  Navigate to a team or planning item that you would like to create a Doc for.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d101501e85">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d100478e85">
 
 Type
 
-</th><th align="left" id="d101501e88">
+</th><th align="left" id="d100478e88">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d101501e94">
+</th></tr></thead><tbody><tr><td id="d100478e94">
 
 **Agile Structure/Team Doc**
 
@@ -49,7 +49,7 @@ Actions
 3.  Select a Doc to view the pages within.
 
 
-</td></tr><tr><td id="d101501e115">
+</td></tr><tr><td id="d100478e115">
 
 **Planning item Doc**
 

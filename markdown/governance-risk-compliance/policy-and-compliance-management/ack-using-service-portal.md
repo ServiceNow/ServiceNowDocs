@@ -32,7 +32,7 @@ Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite, sn\_grc\_em
 
     **Note:** The actions you can perform on the policy acknowledgement depend on how the acknowledgement campaign was configured.
 
-<table id="choicetable_nql_zdn_mjb"><tbody><tr><td id="d184085e115">
+<table id="choicetable_nql_zdn_mjb"><tbody><tr><td id="d184127e115">
 
 **If the policy is in compliance**
 
@@ -40,7 +40,7 @@ Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite, sn\_grc\_em
 
 Click **Accept**.
 
-</td></tr><tr><td id="d184085e127">
+</td></tr><tr><td id="d184127e127">
 
 **If the policy is not in compliance and you are allowed to decline the request**
 
@@ -48,7 +48,7 @@ Click **Accept**.
 
 Click **Decline**.
 
-</td></tr><tr><td id="d184085e139">
+</td></tr><tr><td id="d184127e139">
 
 **If you do not want to respond, and you want to opt out**
 

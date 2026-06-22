@@ -7,8 +7,8 @@ release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-06-20"
-reading_time_minutes: 5
+last_updated: "2026-06-22"
+reading_time_minutes: 6
 breadcrumb: [Configuring the classic Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
@@ -28,7 +28,7 @@ Manage software available and tie software installations \(software being used\)
 
 Predefined suites are used so suite components are automatically created for known suite parent software models. Discovery maps indicate whether a suite is defined for the product.
 
-You can also track a software model lifecycle phase for use with the .
+You can also track a software model lifecycle phase for use with the [Technology Portfolio Management - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/technology-portfolio-management.md).
 
 ## Procedure
 

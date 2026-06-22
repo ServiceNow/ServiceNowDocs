@@ -16,7 +16,7 @@ breadcrumb: [AI agents, Now Assist for Strategic Portfolio Management \(SPM\), S
 
 Use the Create stories agent to generate high-quality stories for planning items in Enterprise Agile Planning \(EAP\).
 
-**Important:** This agentic workflow is turned on by default. For more information, see .
+**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 ## Create stories overview
 
@@ -36,7 +36,7 @@ The key benefits of this workflow are:
 
 Unlike rigid AI templates, this workflow emphasizes flexibility and collaboration, enabling dynamic input and refinement to deliver precise, actionable user stories.
 
-If you want to change this agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to change this agentic workflow, you can [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 ## Create stories agentic workflow
 

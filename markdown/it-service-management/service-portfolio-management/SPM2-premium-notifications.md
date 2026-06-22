@@ -45,7 +45,7 @@ Catalog Item created from OfferingTable: Available for Subscribers \[sc\_cat\_it
 Sends an email to a specified user group when a new catalog item has been created from a service offering. The email asks that the new catalog item be reviewed and prepared for activation in the catalog.
 
 </td></tr></tbody>
-</table>To configure catalog\_admin recipients for these notifications, refer to Create a user group.
+</table>To configure catalog\_admin recipients for these notifications, refer to [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
 **Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
 

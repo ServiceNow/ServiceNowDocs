@@ -28,15 +28,15 @@ After you choose to return your leased asset, various Contract Asset tasks are c
 
 1.  Open a lease record.
 
-<table id="choicetable_fkk_5d3_4xb"><thead><tr><th align="left" id="d185007e56">
+<table id="choicetable_fkk_5d3_4xb"><thead><tr><th align="left" id="d185058e56">
 
 UI
 
-</th><th align="left" id="d185007e59">
+</th><th align="left" id="d185058e59">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d185007e65">
+</th></tr></thead><tbody><tr><td id="d185058e65">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 2.  Select a lease record.
 
 
-</td></tr><tr><td id="d185007e98">
+</td></tr><tr><td id="d185058e98">
 
 **Hardware Asset Workspace**
 

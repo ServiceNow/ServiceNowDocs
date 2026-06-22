@@ -18,9 +18,9 @@ The Search CMDB agentic workflow enables you to search for CIs by specifying any
 
 ## Before you begin
 
-**Important:** This agentic workflow is turned on by default. For more information, see .
+**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
-Verify that Query Generation skills are activated. For instructions, see .
+Verify that Query Generation skills are activated. For instructions, see [Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/platform-analytics/configuring-query-generation.md).
 
 **Note:** Because activation configures a large amount of data, wait one day after activation to use the Search CMDB agentic workflow.
 
@@ -45,7 +45,7 @@ The Search CMDB agentic workflow can perform the following types of search:
 3.  Enter the information that describes the searched-for CI.
 
     -   Provide as much as you know about the CI. Ideally provide the class type followed by other search values and conditions. For example, name, IP address, serial number, MAC address, or asset tag.
-    -   If a query fails, you can check query generation events to determine the cause. Select **All** &gt; **Query Generation** &gt; **Event Queue** to view events. In some cases, a log will exist for the query. Select **All** &gt; **Query Generation** &gt; **Logs** to view the logs. For more information, see .
+    -   If a query fails, you can check query generation events to determine the cause. Select **All** &gt; **Query Generation** &gt; **Event Queue** to view events. In some cases, a log will exist for the query. Select **All** &gt; **Query Generation** &gt; **Logs** to view the logs. For more information, see [Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/platform-analytics/query-generation-logs.md).
 4.  Refine the query if Now Assist returns a CI, but not the CI that you're interested in.
 
     For example, you might have specified an IP address that is duplicated in multiple tables. In such cases, provide details that narrow the search.
@@ -55,7 +55,7 @@ The Search CMDB agentic workflow can perform the following types of search:
 
 If fewer than five search results are returned, they are summarized. If more results are returned, they appear in a linked list \(limited to 100 records\).
 
-To learn more about using the Now Assist panel, see Working in the Now Assist panel.
+To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 **Parent Topic:**[Using agentic workflows in Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 

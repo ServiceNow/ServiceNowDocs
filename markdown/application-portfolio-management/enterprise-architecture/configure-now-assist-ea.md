@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for EA. While all Now Assist for EA skills are activated by default, you can use this console to activate the plugins in case it’s turned off or configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for EA. While all Now Assist for EA skills are activated by default, you can use this console to activate the plugins in case it’s turned off or configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -47,7 +47,7 @@ The Now Assist for Enterprise Architecture \(EA\) system requirements are as fol
 1.  Install the Now Assist for Enterprise Architecture \(EA\) plugin \(sn\_ea\_gen\_ai\).
 
     -   For information about the application dependencies, see [Supporting information for Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/supporting-info-now-assist-ea.md).
-    -   For information about the installation process, see .
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 
     If you’re already in the Now Assist Admin console, you can select the **Now Assist Skills** tab on the screen.
@@ -58,15 +58,15 @@ The Now Assist for Enterprise Architecture \(EA\) system requirements are as fol
 
 5.  Activate and configure the skill for Now Assist for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d31955e325">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d31811e329">
 
 Skill
 
-</th><th align="left" id="d31955e328">
+</th><th align="left" id="d31811e332">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d31955e334">
+</th></tr></thead><tbody><tr><td id="d31811e338">
 
 **ADR Doc Summarization and Actions**
 
@@ -77,7 +77,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d31955e365">
+</td></tr><tr><td id="d31811e369">
 
 **Business application insights**
 
@@ -93,7 +93,7 @@ Action
 If you want to provide access to more roles, perform the following:
 
     1.  Select the edit icon \[Omitted image "edit-icon.png"\] Alt text:.
-    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see .
+    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
     3.  Select the user access level, according to your requirement.
         -   **Any authenticated user**: Selecting this option enables any logged-in user to use the skill.
         -   **Select Roles**: Selecting this option enables you to add specific roles in the **Roles** field.
@@ -109,7 +109,7 @@ The Business application insights skill is activated.
 
  **Note:** An admin user can also define and configure custom parameters for the prompt. To define and configure custom parameters, select the context menu icon \(\[Omitted image "eaw-icon-menu.png"\] Alt text: Row context menu icon.\) next on the **Business applications insights** card and then select **Make a copy**.
 
-</td></tr><tr><td id="d31955e495">
+</td></tr><tr><td id="d31811e500">
 
 **Diagram change analysis**
 
@@ -120,7 +120,7 @@ The Business application insights skill is activated.
 3.  If you want to provide access to more roles, perform the following:
 
     1.  Select the edit icon \[Omitted image "edit-icon.png"\] Alt text:.
-    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see .
+    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
     3.  Select the user access level, according to your requirement.
         -   **Any authenticated user**: Selecting this option enables any logged-in user to use the skill.
         -   **Select Roles**: Selecting this option enables you to add specific roles in the **Roles** field.
@@ -134,7 +134,7 @@ The new role is added to the access list.
 
 The diagram change analysis skill is activated.
 
-</td></tr><tr><td id="d31955e583">
+</td></tr><tr><td id="d31811e589">
 
 **Refine text**
 
@@ -149,13 +149,13 @@ The diagram change analysis skill is activated.
 
     1.  Review the roles than can access the skill. If necessary, select the edit icon \[Omitted image "edit-icon.png"\] Alt text: if you want to add access to more roles.
 
-        You must verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see .
+        You must verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
         **Note:**
 
         -   For the ADR doc summarization and actions skill, the sn\_apm.apm\_user and sn\_apm.apm\_read roles are selected by default.
 
-            To learn more about security in Now Assist AI agents with access control lists \(ACLs\), see .
+            To learn more about security in Now Assist AI agents with access control lists \(ACLs\), see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
         -   The **Role restrictions to skill** section displays the roles that have access to the skill, by default.
     2.  **Select display**: Review where the skill appears.

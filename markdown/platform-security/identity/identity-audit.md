@@ -30,9 +30,9 @@ Use the Identity and Access Audit to understand changes made for users, groups, 
 
 </td></tr><tr><td>
 
-Audit Results\[Omitted image "icon-manage.png"\] Alt text: Evaluation
+[Audit Results\[Omitted image "icon-manage.png"\] Alt text: Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/audit-results.md)
 
- View results from Identity and Access Audit.
+ [View results from Identity and Access Audit.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/audit-results.md)
 
 </td><td>
 

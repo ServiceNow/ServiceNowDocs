@@ -39,13 +39,13 @@ Role required: admin
 
 ## What to do next
 
-
+[Activating Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-discovery/activate-data-discovery.md)
 
 **Note:** Data Discovery application does not require a paid subscription when used along with sensitive data redaction for inbound emails plugin.
 
 **Data Discovery patterns**
 
- are used to filter table entries for further classification. The Data Discovery pattern defines the regular expression used to match data against a target table. For more information, see .
+[Default data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-discovery/default-data-patterns.md) are used to filter table entries for further classification. The Data Discovery pattern defines the regular expression used to match data against a target table. For more information, see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-discovery/configure-data-discovery-patterns.md).
 
 **Parent Topic:**[Sensitive data redaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/sensitive-data-redaction.md)
 

@@ -248,7 +248,7 @@ Set color type
 
 </td><td>
 
--   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see .
+-   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
 -   Single color/Colors per metric: Select a single color in the **Set value color** field. Interacting with that field opens a selector where you can choose the color from either a set of icons or from a list. You can also search for a color. Entering a search value has the selector show you a list of colors filtered by that search value.
 
 Alternatively, you can add a rule to define a dynamic color. For more information, see [Create coloring rules for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/colors-dv.md).

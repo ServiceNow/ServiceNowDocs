@@ -28,15 +28,15 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 3.  Either add new questions or edit existing questions.
 
-<table id="choicetable_ltg_1fk_rgc"><thead><tr><th align="left" id="d592667e123">
+<table id="choicetable_ltg_1fk_rgc"><thead><tr><th align="left" id="d592445e123">
 
 Goal
 
-</th><th align="left" id="d592667e126">
+</th><th align="left" id="d592445e126">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d592667e132">
+</th></tr></thead><tbody><tr><td id="d592445e132">
 
 **Add a new question**
 
@@ -50,7 +50,7 @@ For a description of the field values, see [Variable new record form](https://ra
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d592667e211">
+</td></tr><tr><td id="d592445e211">
 
 **Modify an existing question**
 

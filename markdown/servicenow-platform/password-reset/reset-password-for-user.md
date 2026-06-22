@@ -24,7 +24,7 @@ Watch this video example of service desk agents resetting passwords: [Resetting 
 
 -   You must clear the **Public access** property to enable the service desk-assisted process. See [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
 -   You can perform this activity on a mobile device.
--   You can change the theme of the service desk page to the dark theme. For more information about the dark theme, see Exploring themes in Next Experience.
+-   You can change the theme of the service desk page to the dark theme. For more information about the dark theme, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
 
 Role required: password\_reset\_admin or password\_reset\_service\_desk
 

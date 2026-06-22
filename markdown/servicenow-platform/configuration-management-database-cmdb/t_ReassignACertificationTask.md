@@ -24,7 +24,7 @@ Role required: certification\_admin
 
 The event associated with the reassignment is named cert\_task.reassign and the email notification is named Certification Task Reassignment. To edit the text of the email message that is sent, edit the Certification Task Reassignment email notification directly.
 
-For more information, see Email notifications.
+For more information, see [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailNotifications.md).
 
 To reassign a certification task:
 

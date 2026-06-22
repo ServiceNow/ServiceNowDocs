@@ -7,7 +7,7 @@ release: zurich
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Configure, Now Assist for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configure, Now Assist for Code, Scripting, API implementation, API 
 
 Select a large language model \(LLM\) as the AI service provider for Now Assist for Code skills.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 AI stewards can enable or disable AI model providers in the AI Control Tower. Administrators set the default AI model providers for Now Assist skills in your instance through the Now Assist Admin console. As a user, you can override the instance default AI model provider and select a different model provider for Now Assist for Code skills in the script editor.
 
@@ -46,15 +46,15 @@ Set the default AI model providers for Now Assist skills in your instance throug
 
 4.  Select a model provider for either all skill groups or just a specific skill group.
 
-<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d198215e198">
+<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d198160e200">
 
 Choice
 
-</th><th align="left" id="d198215e201">
+</th><th align="left" id="d198160e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198215e207">
+</th></tr></thead><tbody><tr><td id="d198160e209">
 
 **Select a model provider for all the skill groups and skills in the instance.**
 
@@ -65,7 +65,7 @@ Description
 3.  Select **Save and activate**.
  \[Omitted image "now-assist-code-llm-instance.png"\] Alt text: Select a model provider for all the skill groups and skills in the instance.
 
-</td></tr><tr><td id="d198215e243">
+</td></tr><tr><td id="d198160e245">
 
 **Select a model provider for a specific skill group.**
 
@@ -79,7 +79,7 @@ Description
 
 \[Omitted image "now-assist-code-llm-customize-skill-group.png"\] Alt text: Select model provider for a skill group.
 
-</td></tr><tr><td id="d198215e285">
+</td></tr><tr><td id="d198160e287">
 
 **Select a model provider for a specific skill.**
 

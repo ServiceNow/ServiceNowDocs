@@ -45,7 +45,7 @@ Role required: sn\_mh.admin
 
 2.  Publish the **Employee Summary** Virtual Agent topic.
 
-    For more information, see .
+    For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 3.  View the Employee Summary reports topic.
 

@@ -59,7 +59,7 @@ Connect the insurance carrier claims management ServiceNow FSO platform with the
 -   Enhanced customer trust with timely updates.
 
 </td></tr></tbody>
-</table>For more information, see .
+</table>For more information, see [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/tmt-service-bridge-both-landing-page.md).
 
 **Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-integrate-other-applications.md)
 

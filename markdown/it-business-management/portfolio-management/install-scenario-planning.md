@@ -84,5 +84,5 @@ Several types of components are installed with the installation of the Scenario 
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 

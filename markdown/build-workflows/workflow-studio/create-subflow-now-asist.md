@@ -167,7 +167,7 @@ Priority level at which you want the system to run this subflow by default. Opti
 
 6.  If the generated subflow preview does not meet your needs, you can update the Now Assist directions, and select **Regenerate preview**.
 
-    Each time you generate or regenerate a subflow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see .
+    Each time you generate or regenerate a subflow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 7.  If you want to stop generating the subflow and return to the Workflow Studio homepage, you can select **Discard subflow**.
 

@@ -36,6 +36,8 @@ Security Posture Control Core: v6.2, v6.1, v6.0.
 
 For compatibility information, see [KB0856498 Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856498)
 
+[Security Posture Control release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/secops-security-posture-control-rn.md)
+
 </td></tr><tr><td>
 
 Asset Security Posture Management: v5.3, v5.1, v5.0
@@ -94,7 +96,7 @@ Asset Security Posture Management identifies security tool coverage gaps in asse
 
 Identifying security tool gaps involves the following steps:
 
-1.  Set up and activate API connections with any of the tools that you are using in various categories. You can use Service Graph Connectors for products that are available from the ServiceNow Store for the API connections that are required. For more information about the supported service graph connectors, see . Supported service graph connectors are available from the ServiceNow® Store with separate subscriptions.
+1.  Set up and activate API connections with any of the tools that you are using in various categories. You can use Service Graph Connectors for products that are available from the ServiceNow Store for the API connections that are required. For more information about the supported service graph connectors, see [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md). Supported service graph connectors are available from the ServiceNow® Store with separate subscriptions.
 2.  Activate the policies shipped with the Security Posture Control application. The Security Posture Control product finds security tool gaps by performing the following tasks:
     1.  Identifies the list of all unique assets populated by various Service Graph Connectors in the CMDB.
     2.  Identifies assets that are not reported by specific categories from this asset pool, for example, Endpoint Protection. Assets are identified based on the active policy that is being evaluated.

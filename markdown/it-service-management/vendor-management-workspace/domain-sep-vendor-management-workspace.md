@@ -25,7 +25,7 @@ Domain separation is supported in Vendor Management Workspace. Domain separation
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 The Vendor Management Workspace application uses performance analytics to collect data and provides domain separation support.
 
@@ -43,5 +43,5 @@ Configure domain separation for Vendor Management Workspace to collect vendor sc
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
 

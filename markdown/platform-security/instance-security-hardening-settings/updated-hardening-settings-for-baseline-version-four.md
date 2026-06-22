@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 26
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---

@@ -22,7 +22,7 @@ Role required: sn\_sow\_admin.sn\_sow\_admin, or admin
 
 ## About this task
 
-Using an extension point, you can call the custom scripts to extend the functionality of the **Upcoming** section and also easily integrate customizations without having to alter the base code. For information about extension points, see Creating and adding a scripted extension point.
+Using an extension point, you can call the custom scripts to extend the functionality of the **Upcoming** section and also easily integrate customizations without having to alter the base code. For information about extension points, see [Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md).
 
 |Extension point|Description|
 |---------------|-----------|

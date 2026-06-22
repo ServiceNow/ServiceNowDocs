@@ -7,7 +7,7 @@ release: zurich
 product: Customer Success Management
 classification: customer-success-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Define a table data source, Define the data source, Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
 ---
@@ -18,13 +18,13 @@ Enable data collection and analysis from external tables by integrating the Data
 
 ## Before you begin
 
--   Workflow Data Fabric plugin must be installed and configured. See  for details.
--   The Workflow Data Fabric table must have been created. See  for details.
+-   Workflow Data Fabric plugin must be installed and configured. See [Activate Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric-hub/activate-workflow-data-fabric-hub.md) for details.
+-   The Workflow Data Fabric table must have been created. See [Create a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric-hub/create-data-fabric-table-wdf.md) for details.
 -   Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 ## About this task
 
-Access external data through the Workflow Data Fabric tables and analyzed it using the Data Context Engine. This data is available in real-time using a zero-copy model and synced only when queried. See  for details.
+Access external data through the Workflow Data Fabric tables and analyzed it using the Data Context Engine. This data is available in real-time using a zero-copy model and synced only when queried. See [Managing zero copy connections in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.md) for details.
 
 ## Procedure
 

@@ -51,7 +51,7 @@ To learn more about product data, see [Product Data](https://raw.githubuserconte
 
 Service Model Foundation refers to a set of pre-designed business and technical data frameworks that helps set up and manage how services are delivered and supported. It provides a standardized way to configure, monitor, and support service requests, applications, cases, and workflows across various business locations or government service organizations.
 
-To learn more about the Service Model Foundation, see .
+To learn more about the Service Model Foundation, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-industry-data-model.md).
 
 For more information on using the BLSP portal to add staff to your business location, create cases, work orders, and more, refer to the [Using the BLSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-digital-services/psds-using-business-location-service-portal.md).
 

@@ -27,13 +27,13 @@ The sn\_erp\_integration.erp\_ai\_user role is required to work with generative 
 
 ## Prerequisites and setup
 
-You must have the Knowledge Graph plugin installed. For more information, see .
+You must have the Knowledge Graph plugin installed. For more information, see [Configuring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.md).
 
 ## Role masking
 
 Required role: sn\_erp\_integration.erp\_admin.
 
-Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
 ## Check status of assistants
 
@@ -50,7 +50,7 @@ In Now Assist in Virtual Agent, check that **Now Assist Q&amp;A**, **Now Assist 
 
 ## Set large language model \(LLM\) provider and check connection
 
-Set a large language model \(LLM\) provider and have a least one connection. For more information about available providers and setting a provider, see .
+Set a large language model \(LLM\) provider and have a least one connection. For more information about available providers and setting a provider, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md).
 
 1.  To check for an active connection, navigate to **All** &gt; **Integration Hub** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
 2.  Select an alias, for example, **Azure OpenAI**.
@@ -59,7 +59,7 @@ Set a large language model \(LLM\) provider and have a least one connection. For
 
     \[Omitted image "erp-data-explorer-workflow4.png"\] Alt text: Azure OpenAI connection and credential alias record with connections tab displayed showing one active connection.
 
-    **Note:** For more information about creating a connection and making it active, see .
+    **Note:** For more information about creating a connection and making it active, see [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-information.md).
 
 
 ## AI agents used in the Explore ERP models agentic workflow
@@ -82,12 +82,12 @@ Users with the sn\_aia\_admin role can access the workflow.
     \[Omitted image "erp-data-product-explorer-workflow-listing.png"\] Alt text: ERP Data Product Explorer page with information about the workflow and the AI agents in the workflow.
 
 3.  Review the **Workflow description** and **List of steps**.
-4.  Review the **Add AI agents that can perform these steps** section and select an AI agent name for details. For more information, see .
-5.  Select **Save and continue** and view the user access options. For more information, see .
-6.  Select **Save and continue** and view the data access options. For more information, see .
-7.  Select **Save and continue** and view the trigger options. For more information, see .
-8.  Select **Save and continue** and view the channel and status options. For more information, see .
-9.  Select **Save and test** to test the workflow. For more information, see .
+4.  Review the **Add AI agents that can perform these steps** section and select an AI agent name for details. For more information, see [Define key requirements for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-key-requirements.md).
+5.  Select **Save and continue** and view the user access options. For more information, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
+6.  Select **Save and continue** and view the data access options. For more information, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
+7.  Select **Save and continue** and view the trigger options. For more information, see [Add a trigger to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/add-trigger-aw.md).
+8.  Select **Save and continue** and view the channel and status options. For more information, see [Select channels and access for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/channels-access-aw.md).
+9.  Select **Save and test** to test the workflow. For more information, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md).
 
 ## Using the Explore ERP models agentic workflow
 
@@ -115,6 +115,6 @@ Your conversation is saved until you start a new chat. If the conversation ends 
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

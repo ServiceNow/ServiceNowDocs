@@ -28,15 +28,15 @@ The work notes added when requesting information are available in the Activity s
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d213639e61">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d213382e61">
 
 Method
 
-</th><th align="left" id="d213639e64">
+</th><th align="left" id="d213382e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d213639e70">
+</th></tr></thead><tbody><tr><td id="d213382e70">
 
 **My Work listing**
 
@@ -48,7 +48,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d213639e117">
+</td></tr><tr><td id="d213382e117">
 
 **Delegated to me listing**
 
@@ -60,7 +60,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d213639e164">
+</td></tr><tr><td id="d213382e164">
 
 **Contract Review Tasks listing**
 
@@ -72,7 +72,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d213639e211">
+</td></tr><tr><td id="d213382e211">
 
 **Contract Request Reviews tab**
 

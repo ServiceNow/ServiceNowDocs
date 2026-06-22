@@ -51,7 +51,7 @@ After installing a new proxy server, you can run the installer again to perform 
 
 ## What to do next
 
-To use NVDA, an Assistive Technology screen reader designed to read accessibility-enabled Java applications built for keyboard users, see Configure a Windows 64-bit host to use 32-bit NVDA with Java applications.
+To use NVDA, an Assistive Technology screen reader designed to read accessibility-enabled Java applications built for keyboard users, see [Configure a Windows 64-bit host to use 32-bit NVDA with Java applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_SetUpSect508ComplianceFeature.md).
 
 After installing the Edge Encryption proxy server, [Set the proxy server initial memory limit and upper bound memory limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/increase-memory.md).
 

@@ -20,7 +20,7 @@ The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration o
 
 Jumpstart Your Now Assist for Creator provides Impact customers with an overview of Now Assist for Creator and an applied demonstration on how  to use Generative AI capabilities to reduce app development time, increase productivity, and improve overall coding experiences. This accelerator will demonstrate the features of Now Assist for Creator and provide key resources and leading practices for getting started.
 
-For additional information on the feature, see 
+For additional information on the feature, see [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md)
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

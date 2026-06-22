@@ -24,7 +24,7 @@ Role required: assignment\_rule\_admin or admin
 
 1.  Navigate to **All** &gt; **System Policy** &gt; **Rules** &gt; **Assignment**.
 
-2.  Create assignment rules by following the steps provided in .
+2.  Create assignment rules by following the steps provided in [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/t_AssignmentModuleRule.md).
 
 3.  Click **Submit**.
 

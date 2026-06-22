@@ -20,11 +20,11 @@ Plan and configure your Knowledge Management implementation.
 
 Visit the following page on the ServiceNow Community for information on setting up Knowledge Management: [Knowledge Management Getting Started](https://www.servicenow.com/community/knowledge-management-articles/knowledge-management-getting-started/ta-p/2533067).
 
-You can also use Knowledge Management capabilities within a website built on Adobe Experience Manager \(AEM\). For more information, see Integration with Adobe Experience Manager.
+You can also use Knowledge Management capabilities within a website built on Adobe Experience Manager \(AEM\). For more information, see [Integration with Adobe Experience Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/aem-integration.md).
 
 ## Using guided setup to implement Knowledge Management
 
-Guided setup provides a sequence of tasks that help you configure Knowledge Management on your instance. To open guided setup for Knowledge Management, navigate to **Knowledge** &gt; **Administration** &gt; **Guided Setup**. For more information, see Using guided setup.
+Guided setup provides a sequence of tasks that help you configure Knowledge Management on your instance. To open guided setup for Knowledge Management, navigate to **Knowledge** &gt; **Administration** &gt; **Guided Setup**. For more information, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 -   **[Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)**  
 Activate the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) to enable advanced features for Knowledge Management.

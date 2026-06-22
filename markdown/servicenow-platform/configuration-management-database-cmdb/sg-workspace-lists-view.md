@@ -47,23 +47,23 @@ Initially, the default lists are:
 -   Switch Forwarding Rules:
 
     -   Source table: Switch Forwarding Rule \[dscy\_swtch\_fwd\_rule\]
-    -   More information: 
+    -   More information: [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md)
 -   Switch Partitions:
 
     -   Source table: Switch Partition \[dscy\_swtch\_partition\]
-    -   More information: 
+    -   More information: [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md)
 -   Switch Ports:
 
     -   Source table: Switch Port \[cmdb\_switch\_port\]
-    -   More information: 
+    -   More information: [Layer 2 discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-visibility/c_Layer2Discovery.md)
 -   Switchports:
 
     -   Source table: Switchport \[dscy\_switchport\]
-    -   More information: 
+    -   More information: [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md)
 -   TCP Connections:
 
     -   Source table: TCP Connection \[cmdb\_tcp\]
-    -   More information: 
+    -   More information: [TCP connection discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md)
 
 Users with the sn\_cmdb\_editor or sn\_cmdb\_admin roles, can select **New** to add a record to the list table.
 

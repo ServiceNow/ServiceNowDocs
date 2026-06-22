@@ -22,7 +22,7 @@ This activity is available as a common activity. Users with the admin, playbook.
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/dot-walking-examples.md).
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -151,7 +151,7 @@ These outputs can provide data to other activities in your playbook. You can acc
 
 -   **Create form views for activities that you want to render in a playbook during runtime.**
 
-    Use a form view to display only the fields your users need to create a record. Your view should display required fields or those fields validated by other business logic. See View Management.
+    Use a form view to display only the fields your users need to create a record. Your view should display required fields or those fields validated by other business logic. See [View Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/view-management-overview.md).
 
 -   **Run non-interactive activities before interactive activities**
 

@@ -19,7 +19,7 @@ Demand assessment metric categories are associated with the Demand assessment me
 |Assessment metric category|Data source|Description|
 |--------------------------|-----------|-----------|
 |**Size**|**T-Shirt size** field on the Demand form.|Compares the demand shirt size to other demands.|
-|**Strategic Alignment**|View an assessment category result field in the Assessment Category Result form. For more information, see View an assessment category result|Compares how closely the demand aligns with organizational strategic goals to other demands.|
+|**Strategic Alignment**|View an assessment category result field in the Assessment Category Result form. For more information, see [View an assessment category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/t_ViewACategoryResult.md)|Compares how closely the demand aligns with organizational strategic goals to other demands.|
 |**Risk**|**Rating** field in the Assessment Category Result form.|Compares demand risks to other demands.|
 |**ROI**|**Impact** and **Financial return** fields on the Demand form.|Compares the demand return on investment to other demands.|
 |**Cost**|**Labor costs**, **Capital expense**, and **Operating expense** fields on the Demand form.|Compares the demand cost to other demands.|

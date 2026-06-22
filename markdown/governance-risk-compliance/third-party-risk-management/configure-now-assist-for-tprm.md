@@ -21,15 +21,15 @@ If you have the admin role, you can configure the Now Assist for Third-party Ris
 
 **Important:** After installing Now Assist for TPRM, all Now Assist for TPRM skills are activated by default.
 
-Use the Now Assist Admin console to configure Now Assist for TPRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for TPRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
-For earlier versions, go to  to upgrade it to a later version.
+For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/application-manager.md) to upgrade it to a later version.
 
-For information about configuring generative AI skills and prompts, see .
+For information about configuring generative AI skills and prompts, see [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-na-landing.md).
 
 Install the Now Assist for TPRM \(sn\_tprm\_gen\_ai\) application.
 
-For information about the installation process, see .
+For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
-**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see  and .
+**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/indexed-sources-ais.md) and [User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/user-data-usage-policy-now-assist.md).
 

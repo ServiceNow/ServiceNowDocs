@@ -20,8 +20,8 @@ Community administrators perform the following tasks to configure external user 
 
 -   Configure the [external user registration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/communities-properties.md).
 -   [Configure moderation filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/configure-moderation-filters.md) to enter banned words for the user name.
--   Configure the required strength for passwords.
--   Create an email template and content. The email template that you can change is **communities.ext.regn.confirm**.
+-   [Configure the required strength for passwords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/password-reset/config-pwd-strength-rqmts.md).
+-   [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateAnEmailTemplate.md) and content. The email template that you can change is **communities.ext.regn.confirm**.
 -   If not already configured, [create community terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/create-terms-conditions.md) that each community user must review and accept. Communities delivers preconfigured Terms and Conditions that you can modify according to your needs.
 -   To enable external users to update their time zone when registering, add ACLs to external users in the User table \[sys\_user\].
 

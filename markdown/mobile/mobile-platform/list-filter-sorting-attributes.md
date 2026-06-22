@@ -32,15 +32,15 @@ Role required: admin
 
 4.  Define attributes to configure for the selected item sorting.
 
-<table id="choicetable_cl5_cp2_1qb"><thead><tr><th align="left" id="d35384e91">
+<table id="choicetable_cl5_cp2_1qb"><thead><tr><th align="left" id="d35398e91">
 
 Attribute option
 
-</th><th align="left" id="d35384e94">
+</th><th align="left" id="d35398e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d35384e100">
+</th></tr></thead><tbody><tr><td id="d35398e100">
 
 **Define the ascending label**
 
@@ -51,7 +51,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d35384e136">
+</td></tr><tr><td id="d35398e136">
 
 **Define the descending label**
 
@@ -62,7 +62,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d35384e172">
+</td></tr><tr><td id="d35398e172">
 
 **Hide the ascending/descending suffix**
 
@@ -75,7 +75,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d35384e217">
+</td></tr><tr><td id="d35398e217">
 
 **Display either ascending/descending option**
 

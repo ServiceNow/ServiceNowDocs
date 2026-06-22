@@ -67,7 +67,7 @@ Here are some additional ServiceNow resources that can help you:
 
 -   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
 
-    Learn more about what's new and changed. See the .
+    Learn more about what's new and changed. See the [Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/sourcing-procurement-operations-rn.md).
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 

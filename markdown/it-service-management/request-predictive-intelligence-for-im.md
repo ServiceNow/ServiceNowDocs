@@ -99,5 +99,5 @@ Use your instance records to build Incident Management -specific solutions.
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 

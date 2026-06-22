@@ -32,15 +32,15 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d239483e95">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d237384e95">
 
 Option
 
-</th><th align="left" id="d239483e98">
+</th><th align="left" id="d237384e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d239483e104">
+</th></tr></thead><tbody><tr><td id="d237384e104">
 
 **In the incident list view**
 
@@ -48,7 +48,7 @@ Description
 
 Double-click the **Service** field for the incident and replace the team member using search.Select **OK**.
 
-</td></tr><tr><td id="d239483e121">
+</td></tr><tr><td id="d237384e121">
 
 **In the incident form**
 

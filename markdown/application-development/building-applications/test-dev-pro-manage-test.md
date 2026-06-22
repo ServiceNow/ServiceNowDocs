@@ -22,23 +22,23 @@ Test your ServiceNow apps.
 
 </td><td>
 
-Test Management \[Omitted image "icon-test.png"\] Alt text: Test Management. Streamline the management of testing processes to help you deliver software products more efficiently and with fewer errors.
+[Test Management \[Omitted image "icon-test.png"\] Alt text: Test Management. Streamline the management of testing processes to help you deliver software products more efficiently and with fewer errors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/test-management/test-management-overview.md)
 
 </td><td>
 
-Script Debugger \[Omitted image "icon-debugger.png"\] Alt text: Script Debugger. Debug scripts using session logs and ServiceNow AI Platform debugging tools such as a walk-through script debugger and error messages that display in the UI.
+[Script Debugger \[Omitted image "icon-debugger.png"\] Alt text: Script Debugger. Debug scripts using session logs and ServiceNow AI Platform debugging tools such as a walk-through script debugger and error messages that display in the UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-debugger.md)
 
 </td></tr><tr><td>
 
-Script Tracer \[Omitted image "icon-now-cli.png"\] Alt text: Script tracer. Filter your debugging search to quickly narrow down script problems.
+[Script Tracer \[Omitted image "icon-now-cli.png"\] Alt text: Script tracer. Filter your debugging search to quickly narrow down script problems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-tracer.md)
 
 </td><td>
 
-Session Log \[Omitted image "icon-log.png"\] Alt text: Session Log. View and download the session log for business rules, script includes, and a custom UI.
+[Session Log \[Omitted image "icon-log.png"\] Alt text: Session Log. View and download the session log for business rules, script includes, and a custom UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-debugger.md)
 
 </td><td>
 
-User impersonation \[Omitted image "icon-user.png"\] Alt text: User impersonation. Impersonate other authenticated users for testing purposes and view impersonation logs.
+[User impersonation \[Omitted image "icon-user.png"\] Alt text: User impersonation. Impersonate other authenticated users for testing purposes and view impersonation logs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_ImpersonateAUserInUI16.md)
 
 </td></tr><tr><td>
 

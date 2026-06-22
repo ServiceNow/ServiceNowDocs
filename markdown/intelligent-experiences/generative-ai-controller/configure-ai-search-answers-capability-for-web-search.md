@@ -72,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d36419e220">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d36481e220">
 
 Scenario
 
-</th><th align="left" id="d36419e223">
+</th><th align="left" id="d36481e223">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d36419e229">
+</th></tr></thead><tbody><tr><td id="d36481e229">
 
 **Connection is available**
 
@@ -88,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d36419e238">
+</td></tr><tr><td id="d36481e238">
 
 **Connection isn’t available and must be created**
 
@@ -99,7 +99,7 @@ If a connection is already available within the Connections related list, contin
 
 For example, `Open AI connection`.
 
-**Note:** For more information about the fields on the HTTP\(s\) Connections New record form, see .
+**Note:** For more information about the fields on the HTTP\(s\) Connections New record form, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 3.  Select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: next to **Credential**.
 4.  Select **New** to create a credential for your connection.
@@ -113,7 +113,7 @@ For example, `Open AI key`.
 
 7.  Enter the API key in the **API key** field.
 
-**Note:** For more information about the fields on the API Key Credentials New record form, see .
+**Note:** For more information about the fields on the API Key Credentials New record form, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/API-key-credential-form.md).
 
 8.  Select **Submit**.
 

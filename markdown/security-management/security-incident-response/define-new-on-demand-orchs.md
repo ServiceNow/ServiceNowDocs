@@ -97,5 +97,5 @@ Modify the execution script so that it passes the correct record to the selected
 **Related topics**  
 
 
-[bundle-crworkflow.c_WorkflowVersions]
+[Work with workflow versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/legacy-workflow/c_WorkflowVersions.md)
 

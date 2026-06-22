@@ -18,7 +18,7 @@ App Engine Studio \(AES\) guided setup provides a sequence of tasks that help yo
 
 App Engine Studio must be installed on the instances where you expect to be developing your applications. In earlier versions, you were required to install AES on all instances in your pipeline.
 
-If you plan to clone your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see .
+If you plan to clone your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/system-clone-landing.md).
 
 <table id="table_pdv_qb1_15b"><thead><tr><th>
 
@@ -34,7 +34,7 @@ ServiceNow provides several additional resources on configuring and administerin
 
 </td><td>
 
-\[Omitted image "bus-try-a-demo.svg"\] Alt text: 
+\[Omitted image "bus-try-a-demo.svg"\] Alt text: [App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/app-engine-studio-rn.md)
 
 </td></tr><tr><td>
 

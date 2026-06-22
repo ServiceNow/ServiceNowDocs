@@ -25,7 +25,7 @@ Workspace uses Cross-Tenant Intelligence to automatically handle the data, metad
 -   Records created from a parent record, for example a related list, carry over the domain of the parent record.
 
 
-For more information on Cross-Tenant Intelligence in Domain Separation, see What is Domain Separation?.
+For more information on Cross-Tenant Intelligence in Domain Separation, see [What is Domain Separation?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/bp-what-is-domain-separation.md).
 
 ## Toggle domain scope of a record
 

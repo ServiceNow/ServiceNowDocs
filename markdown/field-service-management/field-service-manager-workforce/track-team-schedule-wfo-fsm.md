@@ -44,7 +44,7 @@ Using the calendar, you can do the following:
 
     1.  In the **Team Calendar** tab, navigate and point to the shift for the agent that you want to modify the schedule for.
 
-        **Note:** Note: To avoid delays in loading events, as well as other processes that utilize a caching mechanism through an event queue, see Custom queues to process events.
+        **Note:** Note: To avoid delays in loading events, as well as other processes that utilize a caching mechanism through an event queue, see [Custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/useful-server-side-scripts.md).
 
     2.  In the shift pop-up window, click the Edit icon \(\[Omitted image "EditWidgetButton.png"\] Alt text: Edit icon.\).
     3.  Modify the agent's shift time.
@@ -58,7 +58,7 @@ Using the calendar, you can do the following:
 
     **Note:**
 
-    You must approve a request two days before the time-off or shift-swap start date. Outside that time period, the approval will be auto-rejected. For more information, see the descriptions of **Setting the due date for time-off and shift-swap request approvals** in Components installed with Workforce Optimization for Customer Service.
+    You must approve a request two days before the time-off or shift-swap start date. Outside that time period, the approval will be auto-rejected. For more information, see the descriptions of **Setting the due date for time-off and shift-swap request approvals** in [Components installed with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
 
     Overlapping time-off requests by an agent will be rejected.
 

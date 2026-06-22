@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications, Media and Technology Core
 classification: telecommunications-media-and-technology-core
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 5
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---

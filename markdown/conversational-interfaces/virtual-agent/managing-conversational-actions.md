@@ -21,7 +21,7 @@ View and manage conversational actions through Assistant Designer.
 
 When you have the admin or virtual\_agent\_admin role, you can work with conversational actions in Assistant Designer.
 
-Conversational actions currently can't be created in Assistant Designer. You can only view and edit them in Assistant Designer. Conversational actions can be created, tested, and deleted only in Workflow Studio. For more details on creating actions, see .
+Conversational actions currently can't be created in Assistant Designer. You can only view and edit them in Assistant Designer. Conversational actions can be created, tested, and deleted only in Workflow Studio. For more details on creating actions, see [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-action.md).
 
 When you open an action, a tab is displayed in the navigation header bar. This tab opens the action in Workflow Studio within the Assistant Designer environment. The following columns appear by default:
 
@@ -46,8 +46,8 @@ Use the row actions icon \[Omitted image "kebab-menu.png"\] Alt text: to work wi
 |Active|Option to toggle the action's active status. If active, the action is available within the conversation.|
 |Delete|Option to delete the action is not applicable within Virtual Agent Designer because actions can only be deleted within Workflow Studio.|
 
--   For more information on the Now Assist Panel, see .
--   For more information on conversational actions, see .
+-   For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
+-   For more information on conversational actions, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/conversational-actions.md).
 -   For more information on integrating actions that are not conversational into Virtual Agent Designer topics, see [Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-flow-designer-integration.md).
 
 **Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)

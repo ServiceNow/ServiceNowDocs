@@ -24,7 +24,7 @@ Enable the following plugins.
 -   com.snc.cti
 -   com.sn\_openframe
 
-For more information about installing and enabling a plugin, see .
+For more information about installing and enabling a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
 
 Role required: admin
 
@@ -32,9 +32,9 @@ Role required: admin
 
 The CTI integration helps an agent call a user using the phone number in the user profile and contact cards. The ServiceNow application uses the OpenFrame API when an agent initiates a call. The OpenFrame API helps the ServiceNow AI Platform® communicate with the connectors, such as an Amazon connector, already configured in the application.
 
-For more information about CTI integration, see .
+For more information about CTI integration, see [Integrating with Computer Telephony Integration \(CTI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/cti-csm-integration.md).
 
-For more information on the various OpenFrame APIs, see .
+For more information on the various OpenFrame APIs, see [openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_openFrameAPI.md).
 
 ## Procedure
 

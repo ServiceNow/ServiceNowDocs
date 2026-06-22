@@ -60,7 +60,7 @@ Use the classic setup template to configure and train your Cluster solution temp
 **Related topics**  
 
 
-[bundle-platai.predictive-intelligence]
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
-[bundle-platai.get-started-predictive-intelligence]
+[Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md)
 

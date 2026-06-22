@@ -54,15 +54,15 @@ Role required: sn\_spend\_psd.requestor or shopper
 
     For goods, we will show the fields related to delivery dates, for service lines, we show the fields related to service dates.
 
-<table id="choicetable_xc4_3x3_fdc"><thead><tr><th align="left" id="d85735e196">
+<table id="choicetable_xc4_3x3_fdc"><thead><tr><th align="left" id="d85754e196">
 
 Field
 
-</th><th align="left" id="d85735e199">
+</th><th align="left" id="d85754e199">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d85735e205">
+</th></tr></thead><tbody><tr><td id="d85754e205">
 
 **Current Quantity**
 
@@ -70,7 +70,7 @@ Description
 
 Displays the existing or current numerical quantity of the product to purchase.The current quantity can be viewed but not edited.
 
-</td></tr><tr><td id="d85735e217">
+</td></tr><tr><td id="d85754e217">
 
 **New Quantity**
 
@@ -78,7 +78,7 @@ Displays the existing or current numerical quantity of the product to purchase.T
 
 Update the new numerical quantity of the product to purchase.You can view existing quantity by referring to the Current Quantity field.
 
-</td></tr><tr><td id="d85735e228">
+</td></tr><tr><td id="d85754e228">
 
 **Current delivery date**
 
@@ -88,7 +88,7 @@ Update the new numerical quantity of the product to purchase.You can view existi
 
 Displays the existing or current delivery date of the product.The current delivery date can be viewed but not edited.
 
-</td></tr><tr><td id="d85735e245">
+</td></tr><tr><td id="d85754e245">
 
 **New delivery date**
 
@@ -98,7 +98,7 @@ Displays the existing or current delivery date of the product.The current delive
 
 Update the delivery date of the product according to your preference.
 
-</td></tr><tr><td id="d85735e260">
+</td></tr><tr><td id="d85754e260">
 
 **Current start date**
 
@@ -108,7 +108,7 @@ Update the delivery date of the product according to your preference.
 
 Displays the current start date of the service.The current start date can be viewed but not edited.
 
-</td></tr><tr><td id="d85735e276">
+</td></tr><tr><td id="d85754e276">
 
 **New start date**
 
@@ -118,7 +118,7 @@ Displays the current start date of the service.The current start date can be vie
 
 Update the new start date of the service.
 
-</td></tr><tr><td id="d85735e290">
+</td></tr><tr><td id="d85754e290">
 
 **Current end date**
 
@@ -128,7 +128,7 @@ Update the new start date of the service.
 
 Displays the current start date of the service.The current start date can be viewed but not edited.
 
-</td></tr><tr><td id="d85735e306">
+</td></tr><tr><td id="d85754e306">
 
 **New end date**
 
@@ -138,7 +138,7 @@ Displays the current start date of the service.The current start date can be vie
 
 Update the new end date of the service.
 
-</td></tr><tr><td id="d85735e320">
+</td></tr><tr><td id="d85754e320">
 
 **Would you like to edit something else?**
 
@@ -148,7 +148,7 @@ Update the new end date of the service.
 -   Select **No** if you don't have anything to update on the purchase order.
 
 
-</td></tr><tr><td id="d85735e344">
+</td></tr><tr><td id="d85754e344">
 
 **Why are you editing this purchase?**
 
@@ -156,7 +156,7 @@ Update the new end date of the service.
 
 Enter the reason for editing the purchase requisition or order.
 
-</td></tr><tr><td id="d85735e354">
+</td></tr><tr><td id="d85754e354">
 
 **Add attachments**
 

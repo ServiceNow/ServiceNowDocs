@@ -38,7 +38,7 @@ The Application Services dashboard is fully integrated into the [Insights view i
     -   Population method defined: Count of application services for which a service population method is specified.
     -   Population method not defined: Count of application services missing a service population method. Data for the tags and top down discovery methods appear only if Service Mapping is installed.
 
-        **Note:** Some population methods for application services are available only with  and therefore won't appear in the tile if Service Mapping isn't installed.
+        **Note:** Some population methods for application services are available only with [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md) and therefore won't appear in the tile if Service Mapping isn't installed.
 
     -   Application services types: Chart of application services by population methods such as Dynamic CI Group and Manual, including application services without a population method \(Empty\). The chart includes business services that were converted to application services.
     -   Application services missing data: Chart of application services by key data that is missing, such as service offering and owner. For example, the bar 'No Service Offering' shows application services without any relationship with a business service or a technical service.

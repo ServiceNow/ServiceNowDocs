@@ -74,7 +74,7 @@ Activates the Vendor Mobile Agent app
 
 You can also integrate Vendor Management Workspace with the Vendor Risk Management application when you enable the Vendor Risk Management \(app-vendor-risk-management\) plugin.
 
-If you have downloaded the Vendor Risk Management application that is available from the ServiceNow Store, you can view the risk rating for your vendors. For more information on downloading the Vendor Risk Management application, refer to .
+If you have downloaded the Vendor Risk Management application that is available from the ServiceNow Store, you can view the risk rating for your vendors. For more information on downloading the Vendor Risk Management application, refer to [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
 
 When you enable the GRC: Vendor Risk Management Workspace \(sn\_vrm\_ws\) plugin from the ServiceNow Store you can view Vendor Risk Workspace within the Vendor Management Workspace application.
 
@@ -90,6 +90,6 @@ When you enable the GRC: Vendor Risk Management Workspace \(sn\_vrm\_ws\) plugin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 

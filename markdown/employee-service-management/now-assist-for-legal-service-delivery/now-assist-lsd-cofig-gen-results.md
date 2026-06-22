@@ -27,7 +27,7 @@ The Q&amp;A Genius Results capability enables request fulfillers and legal users
 
 For Legal Counsel Center, the Q&amp;A Genius Results feature is activated by default when you install and activate AI Search and the Now Assist for Legal Service Delivery \(LSD\) application.
 
-For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see  and [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/na-qa-activate.md).
+For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md) and [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/na-qa-activate.md).
 
 For more information on the other supported search engines, see [Search in Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-search-overview.md).
 

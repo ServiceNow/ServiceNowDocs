@@ -22,7 +22,7 @@ Build the layout using HTML elements, directly edit the CSS for an element to ad
 
 -   **Ensure portal security**
 
-    When you click **Apply** in the Edit code window, the code editor removes HTML tags that could be used to compromise your instance. For more information, see .
+    When you click **Apply** in the Edit code window, the code editor removes HTML tags that could be used to compromise your instance. For more information, see [HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_HTMLSanitizer.md).
 
 -   **Identify important code**
 

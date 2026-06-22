@@ -55,7 +55,7 @@ ILMT Discovered Computer \[ilmt\_discovered\_computer\]
 
 ## ILMT and BigFix Inventory data processing
 
-The ILMT Software License Usage transform map processes data by using the onStart transform map script. The onStart transform map script is an event script that processes at the beginning of an import. For more information on this transform map script, see Map with transformation event scripts.
+The ILMT Software License Usage transform map processes data by using the onStart transform map script. The onStart transform map script is an event script that processes at the beginning of an import. For more information on this transform map script, see [Map with transformation event scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/r_MapWithTransformationEventScripts.md).
 
 **Parent Topic:**[Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/integrating-ilmt-bigfix-v2-apis.md)
 

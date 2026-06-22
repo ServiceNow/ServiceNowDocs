@@ -86,7 +86,7 @@ The name of the existing MID Server to link through.**Note:** Use a separate MID
 
 Be sure that the MID Server user can create files to the \[sys\_attachment\] table, and that the table can accept files of the “bundle” type.
 
-Linking or an application through a MID Server enables access to repositories behind a firewall. See  for more information.
+Linking or an application through a MID Server enables access to repositories behind a firewall. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Credential
 
 </td><td>
 
-The credential to be used with the selected protocol. See  to learn more about creating credentials.**Note:** If you select the SSH network protocol, enter a valid credential of the SSH private key type. If you select the https protocol, enter a valid credential of the Basic Auth credentials type.
+The credential to be used with the selected protocol. See [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/credentials-getting-started.md) to learn more about creating credentials.**Note:** If you select the SSH network protocol, enter a valid credential of the SSH private key type. If you select the https protocol, enter a valid credential of the Basic Auth credentials type.
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ An optional description of the repository or application.
 **Related topics**  
 
 
-[bundle-platcap.mid-server-landing]
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-landing.md)
 
-[bundle-psec.credentials-getting-started]
+[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
 

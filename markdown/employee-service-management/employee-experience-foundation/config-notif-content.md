@@ -33,7 +33,7 @@ Role required: notification\_provider\_admin
     -   **Virtual Agent Content - Messaging**
     -   **Workspace**
     -   **Next Experience**
-    For more information on setting up different types of notification content, see .
+    For more information on setting up different types of notification content, see [Provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/provider-notifications-landing.md).
 
 3.  On the Portal notification content form, fill in the fields and select **Submit**.
 

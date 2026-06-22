@@ -32,15 +32,15 @@ Role required: user
 
     **Note:** You can't rename or remove preconfigured instances. Preconfigured instances are defined by your administrator and are identified by the following icon \(\[Omitted image "preconfigured-instance-icon.png"\] Alt text: Preconfigured instance icon.\).
 
-<table id="choicetable_i2c_cbg_fwb"><thead><tr><th align="left" id="d44633e107">
+<table id="choicetable_i2c_cbg_fwb"><thead><tr><th align="left" id="d44647e107">
 
 Action
 
-</th><th align="left" id="d44633e110">
+</th><th align="left" id="d44647e110">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d44633e116">
+</th></tr></thead><tbody><tr><td id="d44647e116">
 
 **Adding a new instance**
 
@@ -56,7 +56,7 @@ Procedure
 7.  Tap **Log in** to display the landing page of your instance.
 
 
-</td></tr><tr><td id="d44633e170">
+</td></tr><tr><td id="d44647e170">
 
 **Logging in to an instance**
 
@@ -71,7 +71,7 @@ For iOS, you can do one of the following:-   In the Instances page, tap on the i
 2.  From the bottom menu option, select **Log in**.
 
 
-</td></tr><tr><td id="d44633e218">
+</td></tr><tr><td id="d44647e218">
 
 **Logging out of an instance**
 
@@ -85,7 +85,7 @@ For iOS:1.  In the Instances page, swipe to the left on the instance you want to
 2.  From the bottom menu option, select **Log out**.
 
 
-</td></tr><tr><td id="d44633e259">
+</td></tr><tr><td id="d44647e259">
 
 **Removing or renaming an instance**
 

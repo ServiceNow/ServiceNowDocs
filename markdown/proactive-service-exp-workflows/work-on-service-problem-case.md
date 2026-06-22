@@ -50,7 +50,7 @@ The service problem case progresses through several stages from start to closure
 
 6.  Diagnose the service problem case to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Run Diagnostics contextual panel tab. For more information about decision tables, see .
+    The decision table can be configured to control the visibility of the Run Diagnostics contextual panel tab. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-tables/decision-table.md).
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 

@@ -20,19 +20,19 @@ Document Intelligence provides document extraction capabilities to Accounts Paya
 
 Accounts Payable Operations uses the capabilities of Document Intelligence to extract information quickly and accurately from invoice documents that are received as email attachments and then create invoice records in the Accounts Payable Operations application.
 
-For more information, see .
+For more information, see [Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/apo-docintel-integration.md).
 
 ## How Document Intelligence works with Accounts Payable Operations
 
 DocIntel for Accounts Payable Operations extracts the required information from invoices received as email attachments, creates invoice records in Accounts Payable Management, and adds the extracted information into the invoice records.
 
-For more information, see .
+For more information, see [How Accounts Payable Operations integration with Document Intelligence works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md).
 
 ## Enable Document Intelligence for Accounts Payable Operations
 
 Ensure all the necessary applications and plugins are installed and activated to enable Document Intelligence in the Accounts Payable Operations application plugin.
 
-See .
+See [Components installed with Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-docintel-apm.md).
 
 **Parent Topic:**[Integrating Document Intelligence with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/integrating-docintel.md)
 

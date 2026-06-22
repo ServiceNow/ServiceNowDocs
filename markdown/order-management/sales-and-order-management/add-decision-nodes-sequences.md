@@ -1,0 +1,72 @@
+---
+title: Add decision nodes to a sequence
+description: Activate the next stage in the playbook based on the outcome of the previous stage by adding decision nodes while creating or updating a sequence.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/add-decision-nodes-sequences.html
+release: zurich
+product: Sales and Order Management
+classification: sales-and-order-management
+topic_type: task
+last_updated: "2025-11-11"
+reading_time_minutes: 2
+breadcrumb: [Create sequences, Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+---
+
+# Add decision nodes to a sequence
+
+Activate the next stage in the playbook based on the outcome of the previous stage by adding decision nodes while creating or updating a sequence.
+
+## Before you begin
+
+**Note:** Decision-based stages and the demo data are available only starting with Playbook version 28.3 on the Zurich release. The sample Lead nurturing tele-sales sequence available with the demo data shows how to configure a decision-based, telesales sequence with the schedule call activity.
+
+Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/grant-delegated-developer-permissions.md).
+
+Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
+
+**Note:** If you're using Customer Engagement Sequences 1.0.0, you need the playbook.admin or pd\_author role to create sequences.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+
+3.  Navigate to **Sequences** &gt; **All Sequences**.
+
+4.  Select a sequence that you're creating or updating.
+
+5.  In the sequence diagram, hover over the object that you want to insert a decision activity next to, and select the \[Omitted image "circle-plus-fill-24.svg"\] Alt text: icon to add an activity.
+
+6.  Select the Add a decision icon \[Omitted image "diamond-icon.png"\] Alt text:.
+
+    A decision is added with two branches and the Decision properties side panel opens for configuration.
+
+7.  Under the Details tab, enable the **Start with delay** option to add delay between the two call attempts.
+
+    For example, if you want the agent accessing the workflow to wait two days before calling the prospective lead or customer again, you would set Duration type to **Explicit duration** and set **Days** to `2`.
+
+    For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
+
+8.  Under the Branches tab, expand New branch and enter a unique name for the branch in the **Branch label** field.
+
+9.  Select **Add Condition**.
+
+    For example, to execute the branch when the outcome of the previous call attempt was unsuccessful, you would set the condition **\[Schedule call &gt; Output &gt; State\]****\[is\]****\[Cancelled\]**.
+
+    For more information, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-a-decision-activity.md).
+
+10. Select **Save and close**.
+
+
+## What to do next
+
+Add a stage for the new branch you created earlier, and repeat the steps to add more activities as needed. For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/add-configure-stage.md).
+
+**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/create-customer-engagement-sequence.md)
+
+**Related topics**  
+
+
+[Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-decision-stage.md)
+

@@ -1053,7 +1053,7 @@ To create a Salesforce Marketing Cloud integration profile, request the Software
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Software Asset Management integration with Salesforce Marketing Cloud** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Salesforce Marketing Cloud** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -1063,15 +1063,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d152007e3342">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d152056e3343">
 
 Interface
 
-</th><th align="left" id="d152007e3345">
+</th><th align="left" id="d152056e3346">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d152007e3351">
+</th></tr></thead><tbody><tr><td id="d152056e3352">
 
 **Core UI**
 
@@ -1082,7 +1082,7 @@ Action
 3.  Select **Salesforce Marketing Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d152007e3393">
+</td></tr><tr><td id="d152056e3394">
 
 **Software Asset Workspace**
 

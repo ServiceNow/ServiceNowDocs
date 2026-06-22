@@ -50,5 +50,5 @@ Role required: sn\_cmp.cloud\_admin or admin.
 **Related topics**  
 
 
-[bundle-cadev.system-update-sets]
+[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md)
 

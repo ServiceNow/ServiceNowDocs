@@ -30,7 +30,7 @@ The [Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/
 
 You can initialize the Filter structure in four different ways depending on the desired filtering capabilities:
 
-1.  Filter by encoded queryencoded query. This type of filter enables you to pass an encoded query that is applied to the records within the specified table.
+1.  Filter by [encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md)[encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md). This type of filter enables you to pass an encoded query that is applied to the records within the specified table.
 
     For example, the following call only returns those records that are active and whose short description field contains the word "broken":
 

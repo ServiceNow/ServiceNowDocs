@@ -20,7 +20,7 @@ This Accelerator provides an assessment and guidance for CSDM Run maturity, incl
 
 Common Service Data Model Assessment – Business Services \(Run\) - Advanced provides Impact customers with an assessment and guidance based on leading practices related to the CSDM Business Services, Business Service Offerings, Request Catalog Items, and Service Portfolio framework elements. Interactions with  ServiceNow CSDM Subject Matter Experts and personalized content on CSDM for your organization are included.
 
-For more information on the CSDM, see .
+For more information on the CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
 
 **Note:** This Accelerator is available for the Impact Advanced package.
 

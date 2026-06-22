@@ -28,7 +28,7 @@ In the Zurich family release, the instance needs an additional Update Set that c
 
 ## Procedure
 
-1.  Manually configure the MID Server Add a MID Server parameter file with these parameters.
+1.  Manually configure the MID Server [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-parameters.md) file with these parameters.
 
     This configuration cannot be done from the instance.
 

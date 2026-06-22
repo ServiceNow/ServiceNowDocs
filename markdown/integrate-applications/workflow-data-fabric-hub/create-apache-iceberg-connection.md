@@ -119,15 +119,15 @@ AWS region where your S3 bucket is located.
 </td></tr></tbody>
 </table>4.  Configure the metastore that you want to use with Apache Iceberg.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d611951e256">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d607083e256">
 
 Option
 
-</th><th align="left" id="d611951e259">
+</th><th align="left" id="d607083e259">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d611951e265">
+</th></tr></thead><tbody><tr><td id="d607083e265">
 
 **Hive Thrift**
 
@@ -141,7 +141,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d611951e300">
+</td></tr><tr><td id="d607083e300">
 
 **AWS Glue**
 

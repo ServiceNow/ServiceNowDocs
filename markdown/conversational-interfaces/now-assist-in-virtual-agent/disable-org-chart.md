@@ -30,15 +30,15 @@ The org chart displays in the Virtual Agent's interactive view whenever you open
 
 2.  Choose one of the following scenario's and complete the steps.
 
-<table id="choicetable_tpb_mgr_hhc"><thead><tr><th align="left" id="d29057e68">
+<table id="choicetable_tpb_mgr_hhc"><thead><tr><th align="left" id="d51379e68">
 
 Scenario
 
-</th><th align="left" id="d29057e71">
+</th><th align="left" id="d51379e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d29057e77">
+</th></tr></thead><tbody><tr><td id="d51379e77">
 
 **Disable the org chart at deployment channel level**
 
@@ -52,7 +52,7 @@ Steps
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d29057e126">
+</td></tr><tr><td id="d51379e126">
 
 **Disable the org chart at the instance level**
 

@@ -21,7 +21,7 @@ You can configure Conversational Help in the Now Assist panel to be accessible f
 
 Conversational Help answers questions based on product documentation, but cannot provide guidance specific to what you've configured in your instance.
 
-**Note:** You must install the Now Assist for Creator plugin in the Now Assist Admin console to use the Now Assist panel. For more information, see Now Assist Admin console
+**Note:** You must install the Now Assist for Creator plugin in the Now Assist Admin console to use the Now Assist panel. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md)
 
 ## What to ask
 
@@ -32,7 +32,7 @@ Ask questions in the Now Assist panel to discover new features and learn how to 
 -   `Where can I find best practices and design considerations when using Next Experience Components on my page?`
 -   `How do I create a reusable page template?`
 
-For more information on the Now Assist panel, see Now Assist panel.
+For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 **Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/using-ui-builder.md)
 

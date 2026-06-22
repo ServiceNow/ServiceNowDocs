@@ -33,7 +33,7 @@ A preconfigured HR service, flow, and HR case template for both the adhoc docume
 The Adobe Sign integration depends on the Adobe Sign spoke in IntegrationHub. Before you begin, your administrator must have:
 
 -   [activated the Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-adobe.md)
--   set up the Adobe Sign spoke
+-   [set up the Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/adobe-sign-spoke.md)
 
 
 ## Adobe Sign integration setup
@@ -56,7 +56,7 @@ Adhoc document \(HR PDF document template\)
 
 </td><td>
 
-1.  Create a managed document that you want to make available for signing. See Managed Documents for more information.
+1.  Create a managed document that you want to make available for signing. See [Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md) for more information.
 2.  Configure an HR service for the adhoc document.
 3.  [Configure an HR PDF document template for an ad hoc document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-hr-pdf-document-adobesign.md).
 

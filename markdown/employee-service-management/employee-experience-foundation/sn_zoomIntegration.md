@@ -71,7 +71,7 @@ Pre-integrated with IT Service Management.
 
  Can also be integrated with HR Service Delivery and other Enterprise Service Management applications.
 
- Collaboration services. For information about Collaboration services, see Collaboration services.
+ Collaboration services. For information about Collaboration services, see [Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/collaboration-services/collab-services-tcm.md).
 
 </td><td>
 
@@ -86,7 +86,7 @@ Enable agents to collaborate on tickets with Zoom Meetings
 
 Notify plugin
 
- To implement Notify connector for Zoom, see Notify Zoom connector.
+ To implement Notify connector for Zoom, see [Notify Zoom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/notify/notify-zoom-connector.md).
 
 </td><td>
 
@@ -98,7 +98,7 @@ Build custom integrations
 
 </td><td>
 
-For information about building custom integrations, see Zoom spoke.
+For information about building custom integrations, see [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/zoom-spoke.md).
 
 </td><td>
 

@@ -35,7 +35,7 @@ Search is available for the following:
 -   Success objectives
 -   Success outcomes
 
-For more details on how to enable AI search and create search contexts, see .
+For more details on how to enable AI search and create search contexts, see [Configuring AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-configuring-ai-search.md).
 
 **Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/customer-success-management/account-lifecycle-use-cust-success.md)
 

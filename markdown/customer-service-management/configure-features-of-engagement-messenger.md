@@ -51,8 +51,8 @@ Use the Features section of the guided configuration to customize the messenger 
 
         **Note:**
 
-        -   The knowledge article, catalog item, and case links sent by an agent can be opened within Engagement Messenger. You can configure how links should be open in a messenger. For more information, see Create a smart link preference.
-        -   You can also enable the Now Assist in Virtual Agent in Engagement Messenger by  and then Display your assistant in Engagement Messenger.
+        -   The knowledge article, catalog item, and case links sent by an agent can be opened within Engagement Messenger. You can configure how links should be open in a messenger. For more information, see [Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/create-smart-link-preference.md).
+        -   You can also enable the Now Assist in Virtual Agent in Engagement Messenger by [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) and then [Display your assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md) in Engagement Messenger.
     -   Configurable Cards: See [Configurable Cards feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configurable-card.md).
     -   Callback: See [Callback feature configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/em-callback.md).
 5.  You can also add a feature in the **Features** section using Configurable Cards.
@@ -73,7 +73,7 @@ Use the Features section of the guided configuration to customize the messenger 
 
     \[Omitted image "em-config-feature.gif"\] Alt text: View of the Configure Engagement Messenger form with a list of features like Greeting, Search, Knowledge and so on that can be used for configuration.
 
-    **Note:** Engagement Messenger extends service portal capabilities that don't support domain separation. For more information, see \(\). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
+    **Note:** Engagement Messenger extends service portal capabilities that don't support domain separation. For more information, see \([Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md)\). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
 
 
 ## What to do next

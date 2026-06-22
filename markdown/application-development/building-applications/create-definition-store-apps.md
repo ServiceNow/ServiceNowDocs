@@ -8,7 +8,7 @@ product: Building Applications
 classification: building-applications
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Custom licensing for ISV applications, Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
 
@@ -24,7 +24,7 @@ Role required: admin or developer
 
 Create a definition for an application in development or for an application you have already published. However, if you assign a definition to a published application, you will have to re-publish it with the new definition. Additionally, you can only assign one definition to an application.
 
-**Note:** You can only create a definition for capacity subscriptions. See .
+**Note:** You can only create a definition for capacity subscriptions. See [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/types-subscription-v2.md).
 
 ## Procedure
 

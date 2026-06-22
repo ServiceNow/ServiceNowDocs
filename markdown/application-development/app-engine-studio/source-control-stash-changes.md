@@ -50,7 +50,7 @@ Stashing changes removes them from the current application and saves them for a 
 -   Close dialog
 -   [Manage stashes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-manage-stashes.md)
 
-To learn more, see Getting started with credentials
+To learn more, see [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
 
 **Parent Topic:**[Stash changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/stash-changes.md)
 

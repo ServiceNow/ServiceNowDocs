@@ -45,7 +45,7 @@ The data is mined starting with the beginning of the previous month. For example
 
     -   Select the **Vendor Breakdown** tab to view the details of the relationship of vendors to a table.
     -   Process mining can only be performed on KPIs based on the incident table.
-    You can analyze the process insights for the last 30 days, excluding the current day, for which you’ve mined the data. For more information on business insights, see View business insights.
+    You can analyze the process insights for the last 30 days, excluding the current day, for which you’ve mined the data. For more information on business insights, see [View business insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/view-business-findings.md).
 
 
 **Parent Topic:**[Identifying bottlenecks using Process Mining integration with Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/use-process-optimization-vmw.md)
@@ -53,5 +53,5 @@ The data is mined starting with the beginning of the previous month. For example
 **Related topics**  
 
 
-[bundle-par.analyze-get-process-insights]
+[Analyze and get process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 

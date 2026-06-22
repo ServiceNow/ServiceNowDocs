@@ -40,15 +40,15 @@ Customers can submit policy service requests from the Consumer Service Portal or
 
 3.  Create a policy service request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d60074e127">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d59865e127">
 
 Option
 
-</th><th align="left" id="d60074e130">
+</th><th align="left" id="d59865e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d60074e136">
+</th></tr></thead><tbody><tr><td id="d59865e136">
 
 **Policy service request from a customer record**
 
@@ -58,7 +58,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d60074e163">
+</td></tr><tr><td id="d59865e163">
 
 **Policy service request from an interaction record**
 
@@ -66,7 +66,7 @@ Steps
 
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Click the interaction record for the customer that you want to open.
- For information on how to create an interaction, see Create an interaction.
+ For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/interaction-management/create-interactions.md).
 
 </td></tr></tbody>
 </table>4.  Click **Create Policy Request**.

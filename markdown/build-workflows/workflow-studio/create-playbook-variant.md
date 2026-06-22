@@ -32,7 +32,7 @@ Role required: admin or playbook.admin
 
 5.  Fill in the following fields.
 
-<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d142223e92">
+<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d141040e92">
 
 **Variant name**
 
@@ -40,13 +40,13 @@ Role required: admin or playbook.admin
 
 Enter a unique, user-facing name for your playbook variant. This name appears to agents and fulfillers when this variant runs.
 
-</td></tr><tr><td id="d142223e104">
+</td></tr><tr><td id="d141040e104">
 
 **Conditions**
 
 </td><td>
 
-In the condition builder, select or enter a field, operator, and value.**Note:** To learn more about condition builders, see .
+In the condition builder, select or enter a field, operator, and value.**Note:** To learn more about condition builders, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
 Add more conditions for this variant to run, as needed.
 
@@ -109,7 +109,7 @@ Enter a unique, user-facing name for your playbook variant. This name appears to
 
 </td><td>
 
-In the condition builder, select or enter a field, operator, and value. To learn more about condition builders, see .
+In the condition builder, select or enter a field, operator, and value. To learn more about condition builders, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
 Add more conditions for this variant to run, as needed.**Note:** Child variants automatically inherit the conditions of the parent variant.
 

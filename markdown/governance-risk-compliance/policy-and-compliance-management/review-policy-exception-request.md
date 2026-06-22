@@ -36,15 +36,15 @@ Role required:
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d155709e110">
+<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d155738e110">
 
 Option
 
-</th><th align="left" id="d155709e113">
+</th><th align="left" id="d155738e113">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d155709e119">
+</th></tr></thead><tbody><tr><td id="d155738e119">
 
 **To view or add impacted controls to the policy exception**
 
@@ -58,7 +58,7 @@ Action
 3.  Choose the controls to associate to the policy exception.
 
 
-</td></tr><tr><td id="d155709e170">
+</td></tr><tr><td id="d155738e170">
 
 **To view mitigating controls on the policy exception**
 
@@ -66,7 +66,7 @@ Action
 
 Select the Mitigating Controls tab.
 
-</td></tr><tr><td id="d155709e182">
+</td></tr><tr><td id="d155738e182">
 
 **To view or add risks to the policy exception**
 
@@ -76,7 +76,7 @@ Select the Risks tab.
 
  **Note:** This option is available when Risk Management plugin is also activated.
 
-</td></tr><tr><td id="d155709e197">
+</td></tr><tr><td id="d155738e197">
 
 **To view or add approvers to the policy exception**
 
@@ -86,7 +86,7 @@ Select the Details tab.
 
  **Note:** For approvals, Approver and Risk rating fields are mandatory. Select an approver from the approval group. For example, if the approver group is Compliance Managers, then select one of the managers belonging to the Compliance Managers group.
 
-</td></tr><tr><td id="d155709e216">
+</td></tr><tr><td id="d155738e216">
 
 **To request extension**
 
@@ -103,15 +103,15 @@ Select the Details tab.
 </td></tr></tbody>
 </table>4.  Perform one of the following actions.
 
-<table><thead><tr><th align="left" id="d155709e277">
+<table><thead><tr><th align="left" id="d155738e277">
 
 Option
 
-</th><th align="left" id="d155709e280">
+</th><th align="left" id="d155738e280">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d155709e286">
+</th></tr></thead><tbody><tr><td id="d155738e286">
 
 **To request additional information before approval**
 
@@ -121,7 +121,7 @@ Select More \(...\) icon and select **Request more information**.
 
  An email notification is sent to the requester that the policy exception request was approved and goes into effect.
 
-</td></tr><tr><td id="d155709e304">
+</td></tr><tr><td id="d155738e304">
 
 **To provide additional information requested by approver**
 
@@ -129,7 +129,7 @@ Select More \(...\) icon and select **Request more information**.
 
 Select **Send Information** To provide additional information requested by approver.**Note:** When an approver requests for additional information, the state changes to Analyze and substate to Awaiting requester information.
 
-</td></tr><tr><td id="d155709e318">
+</td></tr><tr><td id="d155738e318">
 
 **To approve the policy exception**
 
@@ -139,7 +139,7 @@ Select **Approve**.
 
  An email notification is sent to the requester that the policy exception request was approved and goes into effect.
 
-</td></tr><tr><td id="d155709e336">
+</td></tr><tr><td id="d155738e336">
 
 **To reject the policy exception**
 
@@ -149,7 +149,7 @@ Click **Reject**.
 
  An email notification is sent to the requester that the policy exception was rejected and the request is closed.
 
-</td></tr><tr><td id="d155709e355">
+</td></tr><tr><td id="d155738e355">
 
 **To approve the policy exception extension**
 
@@ -159,7 +159,7 @@ Select **Approve Extension**.
 
  An email notification is sent to the requester that the policy exception extension request was approved and goes into effect.
 
-</td></tr><tr><td id="d155709e373">
+</td></tr><tr><td id="d155738e373">
 
 **To reject the policy extension**
 
@@ -169,7 +169,7 @@ Select **Reject Extension**.
 
  An email notification is sent to the requester that the extension request was rejected and the request is closed.
 
-</td></tr><tr><td id="d155709e391">
+</td></tr><tr><td id="d155738e391">
 
 **To request a risk assessment on the policy exception**
 
@@ -181,7 +181,7 @@ Select **Request Risk Assessment**.
 
  **Note:** This option is available when Risk Management is also activated.
 
-</td></tr><tr><td id="d155709e415">
+</td></tr><tr><td id="d155738e415">
 
 **To request business owner approval**
 

@@ -53,7 +53,7 @@ Confirm that the activation of Predictive Intelligence has successfully installe
 -   platform\_ml\_read
 -   platform\_ml\_write
 
-For more information see  or article [KB1641602](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1641602) on the Now Support Knowledge Base.
+For more information see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md) or article [KB1641602](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1641602) on the Now Support Knowledge Base.
 
-For best results, install the VA Conversations for ITSM \(sn\_itsm\_va\) and the NLU model builder \(com.snc.nlu\_studio\) plugins. For more information, see Additional plugins for Virtual Agent and .
+For best results, install the VA Conversations for ITSM \(sn\_itsm\_va\) and the NLU model builder \(com.snc.nlu\_studio\) plugins. For more information, see [Additional plugins for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/additional-va-plugins.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 

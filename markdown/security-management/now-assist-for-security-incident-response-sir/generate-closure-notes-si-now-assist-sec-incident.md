@@ -27,7 +27,7 @@ If the Close code or Close notes fields are already updated for a security incid
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -37,15 +37,15 @@ If the Close code or Close notes fields are already updated for a security incid
 
 3.  Close the security incident.
 
-<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d112099e129">
+<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d112126e130">
 
 Option
 
-</th><th align="left" id="d112099e132">
+</th><th align="left" id="d112126e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d112099e138">
+</th></tr></thead><tbody><tr><td id="d112126e139">
 
 **Close the security incident in legacy Core UI16**
 
@@ -66,7 +66,7 @@ The resolution summary is displayed in the Resolution Information section on the
 
 **Note:** Using the Now Assist Context menu, you can directly add or generate the resolution notes in the **Close notes** section on the incident record itself, when the incident is in the **Review** state. For more information, see the screen shot below.
 
-</td></tr><tr><td id="d112099e208">
+</td></tr><tr><td id="d112126e209">
 
 **Close the security incident from the Security Incident Response Workspace**
 

@@ -28,7 +28,7 @@ Configure connection and credential records for connecting to your local Apache 
 -   The connection record contains the information required for making the connection to your local Kafka. Connection records are stored in the Kafka Connections \[kafka\_connection\] table.
 -   The credential record stores the authentication data required for the connection. Credential records are stored in the Kafka SSL credentials \[kafka\_ssl\_credentials\] table.
 
-After you've created both the connection record and the credential record, you can , which links your connection information and the credential data under a single name.
+After you've created both the connection record and the credential record, you can [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md), which links your connection information and the credential data under a single name.
 
 ## Procedure
 
@@ -148,7 +148,7 @@ Name of the MID Server or MID Cluster to use.
 
 ## What to do next
 
- with a **Connection type** of **Kafka**.
+[Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md) with a **Connection type** of **Kafka**.
 
 **Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

@@ -22,5 +22,5 @@ Account level data syncs from IDI to the Impact Store App and instance level dat
 
 \[Omitted image "multi-instance.png"\] Alt text: Impact multi-instance configuration showing instance level data and account level data syncing with IDI.
 
-For additional information about multi-instance support, see .
+For additional information about multi-instance support, see [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/grant-access-v2.md).
 

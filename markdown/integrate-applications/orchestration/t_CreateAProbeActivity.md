@@ -32,7 +32,7 @@ For instructions on using the activity template process flow, see [create custom
 
 2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/CreateInputVariables.md), configure the Probe Execution Command.
 
-<table id="choicetable_bf3_bpv_vz"><tbody><tr><td id="d243553e120">
+<table id="choicetable_bf3_bpv_vz"><tbody><tr><td id="d238669e120">
 
 **[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/CreateInputVariables.md)**
 
@@ -40,7 +40,7 @@ For instructions on using the activity template process flow, see [create custom
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d243553e136">
+</td></tr><tr><td id="d238669e136">
 
 **Probe**
 
@@ -48,7 +48,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Probe to run with this activity, from the list of probes in the system
 
-</td></tr><tr><td id="d243553e145">
+</td></tr><tr><td id="d238669e145">
 
 **Target host**
 
@@ -56,7 +56,7 @@ Probe to run with this activity, from the list of probes in the system
 
 Host name or IP address of the target server for this activity.
 
-</td></tr><tr><td id="d243553e154">
+</td></tr><tr><td id="d238669e154">
 
 **Parameters**
 
@@ -64,7 +64,7 @@ Host name or IP address of the target server for this activity.
 
 MID Server to use, by capabilities.
 
-</td></tr><tr><td id="d243553e163">
+</td></tr><tr><td id="d238669e163">
 
 **Required MID Server capabilities**
 
@@ -187,7 +187,7 @@ Array of hashmap
 
 </td><td>
 
-Capability values used to select the MID Server. For more information, see MID Server capabilities. If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
+Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
 var valueCapability = {'NEW_MID_CAPABIILTY':'NEW_MID_CAPABILITY_VALUE'}; executionParam.valueCapabilities.push(valueCapability);
 ```
 

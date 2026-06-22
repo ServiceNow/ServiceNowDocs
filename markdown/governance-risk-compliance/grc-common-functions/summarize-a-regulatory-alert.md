@@ -50,9 +50,9 @@ Also, define when the skill must be available: should it be available at all tim
 
     You can perform the following actions on Now Assist skills if you have the sn\_generative\_ai.nsa\_admin role:
 
-    -   
-    -   
-    -   
+    -   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/edit-a-now-assist-skill.md)
+    -   [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/make-a-copy-of-a-now-assist-skill.md)
+    -   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/troubleshoot-a-now-assist-skill.md)
 <table id="id_o2v_k4c_cfc"><thead><tr><th>
 
 Field

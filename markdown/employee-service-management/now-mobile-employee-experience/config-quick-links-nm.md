@@ -32,7 +32,7 @@ Role required: sn\_hr\_sp.esc\_admin
 
 5.  In the Icon section page, go to the **Icon section destinations** tab, select **New**, and create as many items you would like to display to on the Quick links section.
 
-    Set up the icon sections, colors, destinations from the **Icon section destinations** tab. You can also use the Mobile App Builder to get a more holistic view while configuring. For more information, see .
+    Set up the icon sections, colors, destinations from the **Icon section destinations** tab. You can also use the Mobile App Builder to get a more holistic view while configuring. For more information, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/sg-ui-section-config-navig.md).
 
 
 ## Result

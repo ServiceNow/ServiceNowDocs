@@ -16,7 +16,7 @@ breadcrumb: [Admin configurations, Configure, Employee Center Pro, Unified Emplo
 
 Employee Center Pro plugins include necessary roles for configuring and using the features. Learn more about the roles and the tasks they can perform.
 
-Users and roles are configured at the platform level. For information, see .
+Users and roles are configured at the platform level. For information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 ## Employee Center
 

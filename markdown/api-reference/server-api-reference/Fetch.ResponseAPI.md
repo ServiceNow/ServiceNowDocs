@@ -24,7 +24,7 @@ The Fetch Response API is part of a set of Fetch APIs, which provide various act
 -   [Fetch RequestInit - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.RequestInitAPI.md): Set options to configure a fetch request.
 -   [Fetch Response - Scoped,Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/Fetch.ResponseAPI.md): Create a new response object.
 
-To support fetch actions, the system property, `glide.hosts.allowlist`, allows controls over what hosts a fetch method can access. It applies to HTTP APIs like RestMessageV2 and those mentioned above. For more information about `glide.hosts.allowlist`, see .
+To support fetch actions, the system property, `glide.hosts.allowlist`, allows controls over what hosts a fetch method can access. It applies to HTTP APIs like RestMessageV2 and those mentioned above. For more information about `glide.hosts.allowlist`, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
 
 ## Response properties
 

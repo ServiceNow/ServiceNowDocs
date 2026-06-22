@@ -30,15 +30,15 @@ Setting up an outside counsel can be done either as a fulfiller task or when con
 
 1.  Access the form to create an Outside Counsel record.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d134500e78">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d134233e78">
 
 Location
 
-</th><th align="left" id="d134500e81">
+</th><th align="left" id="d134233e81">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d134500e87">
+</th></tr></thead><tbody><tr><td id="d134233e87">
 
 **From the Legal Matter module**
 
@@ -46,7 +46,7 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d134500e114">
+</td></tr><tr><td id="d134233e114">
 
 **From Legal Counsel Center**
 

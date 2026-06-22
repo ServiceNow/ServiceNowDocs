@@ -33,7 +33,7 @@ When you set the property is to true, your instance will reject a session if the
 |Security risk rating|8.8|
 |Functional impact|When the property is set to true, improperly formatted cookies are rejected. When such a cookie is rejected, the user must login again.|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

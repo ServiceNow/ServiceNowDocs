@@ -85,7 +85,7 @@ Then you define the action inputs, which are the parameters that enable agents t
 
     Action types and actions need inputs. These parameters enable agents to complete an action. You can choose static values for action inputs or you can use a resource generator to supply values.
 
-<table id="choicetable_gx1_2sx_f5b"><tbody><tr><td id="d55383e308">
+<table id="choicetable_gx1_2sx_f5b"><tbody><tr><td id="d55448e308">
 
 **Use a static value**
 
@@ -93,7 +93,7 @@ Then you define the action inputs, which are the parameters that enable agents t
 
 Enter the value in the field in the input field or use the lookup icon to select a value from the list.
 
-</td></tr><tr><td id="d55383e317">
+</td></tr><tr><td id="d55448e317">
 
 **Use a pill picker**
 

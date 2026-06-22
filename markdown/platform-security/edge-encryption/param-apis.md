@@ -7,7 +7,7 @@ release: zurich
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 6
 breadcrumb: [Encryption rule objects and APIs, Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -173,7 +173,7 @@ Once the request is returned as an XMLContent object, you can use the [XML APIs]
 
 Specifies that the value of the element is an encoded query on the specified table.
 
-Calling this function on a parameter tells the proxy that the value of the parameter is an Encoded query strings for the specified table. The proxy parses the encoded query and encrypts the fields in the encoded query that must be encrypted.
+Calling this function on a parameter tells the proxy that the value of the parameter is an [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) for the specified table. The proxy parses the encoded query and encrypts the fields in the encoded query that must be encrypted.
 
 |Name|Type|Description|
 |----|----|-----------|

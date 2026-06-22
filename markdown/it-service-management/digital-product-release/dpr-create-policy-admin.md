@@ -22,7 +22,7 @@ Role required: sn\_dpr\_model.release\_admin
 
 ## About this task
 
-The policies are defined using ServiceNow® Policy as Code Engine \(PaCE\), so make sure you’re familiar with the basics. For more information, see .
+The policies are defined using ServiceNow® Policy as Code Engine \(PaCE\), so make sure you’re familiar with the basics. For more information, see [Understanding PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/policy-as-code-engine-pace/pace-understanding.md).
 
 ## Procedure
 
@@ -34,14 +34,14 @@ The policies are defined using ServiceNow® Policy as Code Engine \(PaCE\), so m
 
     -   To create a policy, select **New**.
 
-        For more information on creating a policy, see .
+        For more information on creating a policy, see [Create a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-policy.md).
 
     -   To modify an existing policy, open the policy from the list.
     A policy is created in the inactive state and a draft version of the policy is added.
 
 4.  Select the **Version** tab and open the draft version.
 
-5.  On the Version record form, select the **Policy Builder** tab to write the policy.
+5.  On the Version record form, select the **Policy Builder** tab to [write the policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/policy-as-code-engine-pace/pace-write-test-policies.md).
 
     1.  On the **Define Variables** pane, use API variables, config parameters, record references, and data collectors to write your policy.
 
@@ -51,7 +51,7 @@ The policies are defined using ServiceNow® Policy as Code Engine \(PaCE\), so m
 
 6.  Test your policy in the **Test Playground** tab.
 
-    For more information, see .
+    For more information, see [Use the Test Playground for PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/policy-as-code-engine-pace/pace-use-test-playground.md).
 
 7.  Select **Save** to save the policy version.
 
@@ -72,5 +72,5 @@ The policies are defined using ServiceNow® Policy as Code Engine \(PaCE\), so m
 
 The policy version is updated as Current and is used the next time the policy is invoked.
 
-For more information, see .
+For more information, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.md).
 

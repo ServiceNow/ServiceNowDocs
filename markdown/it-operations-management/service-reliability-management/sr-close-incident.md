@@ -32,15 +32,15 @@ Role required: srm\_responder, srm\_manager, or srm\_admin
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d249304e95">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d247205e95">
 
 Option
 
-</th><th align="left" id="d249304e98">
+</th><th align="left" id="d247205e98">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d249304e104">
+</th></tr></thead><tbody><tr><td id="d247205e104">
 
 **In the incident list view**
 
@@ -50,7 +50,7 @@ Steps
 2.  Select **OK**.
  **Tip:** If you have the srm\_admin role, you can update multiple incidents at once. First, select the relevant incidents and select **Edit**. Then use the **State** drop-down to choose the appropriate value and select **Update**.
 
-</td></tr><tr><td id="d249304e140">
+</td></tr><tr><td id="d247205e140">
 
 **In the incident form**
 

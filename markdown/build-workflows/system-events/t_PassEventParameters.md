@@ -58,5 +58,5 @@ if (gr.next()){
 **Related topics**  
 
 
-[bundle-platadm.c_ScriptingForEmailNotifications]
+[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_ScriptingForEmailNotifications.md)
 

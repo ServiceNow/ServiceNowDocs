@@ -16,7 +16,7 @@ breadcrumb: [HR Success Dashboard indicators, HR Service Delivery, Employee Serv
 
 See additional information about components installed with the HR Success Dashboard indicators.
 
-For more information on the roles and responsibilities required to perform different tasks, see User roles and responsibilities.
+For more information on the roles and responsibilities required to perform different tasks, see [User roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-success-dashboard-indicators/success-roles.md).
 
 **Note:**
 

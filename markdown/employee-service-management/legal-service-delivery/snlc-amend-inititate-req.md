@@ -46,15 +46,15 @@ A sample workflow while submitting on an amendment request would be:
 
 4.  Enter the contract details.
 
-<table id="choicetable_ihc_fgn_fhc"><thead><tr><th align="left" id="d124748e145">
+<table id="choicetable_ihc_fgn_fhc"><thead><tr><th align="left" id="d124481e145">
 
 Option
 
-</th><th align="left" id="d124748e148">
+</th><th align="left" id="d124481e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d124748e154">
+</th></tr></thead><tbody><tr><td id="d124481e154">
 
 **Select an existing contract**
 
@@ -75,7 +75,7 @@ Steps
     -   A parent contract child hierarchy is established between the selected contract and the amendment request. You can’t unlink the parent and the child contract.
 
 
-</td></tr><tr><td id="d124748e206">
+</td></tr><tr><td id="d124481e206">
 
 **Manually enter contract details**
 
@@ -110,15 +110,15 @@ Steps
 
     -   For own paper based amendment requests: Adding documents isn’t required. The attached documents are classified as supporting documents.
     -   For third-party paper based amendment requests: Adding documents is required. You must classify the attached document. The options available for classification are supporting documents and contract type selected in the contract details section.
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d124748e340">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d124481e340">
 
 Method
 
-</th><th align="left" id="d124748e343">
+</th><th align="left" id="d124481e343">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d124748e349">
+</th></tr></thead><tbody><tr><td id="d124481e349">
 
 **__Choose the file__**
 
@@ -128,7 +128,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d124748e374">
+</td></tr><tr><td id="d124481e374">
 
 **__Drag the file__**
 

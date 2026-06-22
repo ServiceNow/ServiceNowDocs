@@ -7,7 +7,7 @@ release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [DLP Incidents Archival, Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -45,7 +45,7 @@ Role required: admin
 
 5.  Select the archive related record rule you want to archive.
 
-    **Note:** For more information on how to add more related records, see Archive DLP related records on ServiceNow AI Platform.
+    **Note:** For more information on how to add more related records, see [Archive DLP related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAnArchiveRule.md) on ServiceNow AI Platform.
 
 
 **Parent Topic:**[DLP Incidents Archival](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/data-loss-prevention/dlp-archiving-rule.md)

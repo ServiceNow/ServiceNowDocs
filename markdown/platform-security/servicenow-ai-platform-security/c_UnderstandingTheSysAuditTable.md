@@ -66,7 +66,7 @@ User
 
 Name of the user who created the change.
 
- **Note:** Some automated processes use the system or guest user to apply and track changes to records. For more information, see System and guest users.
+ **Note:** Some automated processes use the system or guest user to apply and track changes to records. For more information, see [System and guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/user.md#system-guest-users).
 
 </td></tr><tr><td>
 

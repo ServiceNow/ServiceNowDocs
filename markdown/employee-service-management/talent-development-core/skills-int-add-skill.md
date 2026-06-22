@@ -39,7 +39,7 @@ Role required: sn\_skills\_int.admin
     -   Technical
     **Note:** The Generic level type is available by default. For the remaining level types, you must select the option to install the skills demo data.
 
-    For more information on defining a skill level type, see .
+    For more information on defining a skill level type, see [Define a skill level type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/skills-management/define-skill-level-type.md).
 
 5.  Activate the skill by selecting the **Active** check box.
 

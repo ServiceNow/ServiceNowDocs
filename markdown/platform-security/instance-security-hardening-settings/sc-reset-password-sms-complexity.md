@@ -30,7 +30,7 @@ The **password\_reset.sms.default\_complexity** property controls the minimum re
 |Security risk|\(Low\) If the property is not set to the recommended value, then a weak SMS validation token is used. This increases the possibility of token guessing which could lead to account takeover.|
 |Security risk rating|3.8|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

@@ -16,7 +16,7 @@ breadcrumb: [Reference, Surveys, Assessments and Surveys, Exploring Service Admi
 
 The Survey application uses the following roles.
 
-To learn more about managing subscriptions, see  and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 No role is required to take assigned survey questionnaires.
 

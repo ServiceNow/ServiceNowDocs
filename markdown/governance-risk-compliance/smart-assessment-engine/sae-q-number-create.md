@@ -37,15 +37,15 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 4.  Specify any number of attributes for the question and select **Save** after every change.
 
-<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d210950e142">
+<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d210992e142">
 
 Attribute
 
-</th><th align="left" id="d210950e145">
+</th><th align="left" id="d210992e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210950e151">
+</th></tr></thead><tbody><tr><td id="d210992e151">
 
 **Required**
 
@@ -53,7 +53,7 @@ Description
 
 If the assessor must answer the question in order to submit the assessment, select **Required**. The assessor sees the \* \(asterisk\) character to indicate that a response is required.
 
-</td></tr><tr><td id="d210950e168">
+</td></tr><tr><td id="d210992e168">
 
 **Conditionally visible**
 
@@ -67,7 +67,7 @@ Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\]
 
  You specify the section, subsection \(if available\), question, and, optionally, the response. Together, the values that you specify define the conditions that must be met for the question to appear in the assessment.
 
-</td></tr><tr><td id="d210950e197">
+</td></tr><tr><td id="d210992e197">
 
 **Justification**
 
@@ -79,7 +79,7 @@ Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\]
 
  In the assessment, the \* \(asterisk\) character appears on the field for a required justification.
 
-</td></tr><tr><td id="d210950e223">
+</td></tr><tr><td id="d210992e223">
 
 **Attachments**
 
@@ -93,7 +93,7 @@ Request the attachments for the specific responses. You can specify that the att
 
 Use the condition builder to specify the conditions. The values that you specify define the conditions that must be met to enable the assessor to add the attachments.
 
-</td></tr><tr><td id="d210950e260">
+</td></tr><tr><td id="d210992e260">
 
 **Set number range**
 
@@ -107,7 +107,7 @@ Option for number question type.
 
  The default number range is a minimum value of 0 and a maximum value of 1000.
 
-</td></tr><tr><td id="d210950e282">
+</td></tr><tr><td id="d210992e282">
 
 **Specify preferred answers**
 
@@ -120,7 +120,7 @@ Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\]
 </td></tr></tbody>
 </table>5.  If you want to add content that helps the assessor answer this question, select **Add additional content**.
 
-<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d210950e321">
+<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d210992e321">
 
 **Question description**
 
@@ -132,7 +132,7 @@ Enter the descriptive text that follows the question when the assessor accesses 
 
  \[Omitted image "sae-q-description-confirmation.png"\] Alt text: Confirmation of the description text. You can update the text.
 
-</td></tr><tr><td id="d210950e346">
+</td></tr><tr><td id="d210992e346">
 
 **Guidance**
 

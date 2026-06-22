@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to install and configure Now Assist for Health and Safety. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to install and configure Now Assist for Health and Safety. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 The following table lists the skill that you can access from the Now Assist Admin console.
 
@@ -35,7 +35,7 @@ The following table lists the skill that you can access from the Now Assist Admi
 1.  Install the Now Assist for Health and Safety \(sn\_hs\_gen\_ai\) plugin.
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-support-info.md).
-    -   For information about the installation process, see .
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 ## What to do next
 

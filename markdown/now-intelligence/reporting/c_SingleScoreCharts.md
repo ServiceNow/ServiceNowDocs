@@ -8,7 +8,7 @@ product: Reporting
 classification: reporting
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -18,13 +18,13 @@ Single score reports display a single value that is key to your business. Add si
 
 **Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Zurich instances, see [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-sing-sc-ac.md).
 
-Single score reports which include dynamic conditions added at the report level will not show real-time updates on dashboards unless manually refreshed, or upon a page refresh. The real-time dashboard widget relies on the record watcher to know when an update has been made in order for the single score widget to auto-refresh. However, dynamic conditions aren't supported as part of the record watcher. See further explanation in [Create a real-time score visualization for a score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-real-time-score-widget.md).
+Single score reports which include [dynamic conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/r_UsingTheDynamicOperator.md) added at the report level will not show real-time updates on dashboards unless manually refreshed, or upon a page refresh. The real-time dashboard widget relies on the record watcher to know when an update has been made in order for the single score widget to auto-refresh. However, dynamic conditions aren't supported as part of the record watcher. See further explanation in [Create a real-time score visualization for a score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-real-time-score-widget.md).
 
 \[Omitted image "SingleScoreReport.png"\] Alt text: A single score report that has been added to a dashboard
 
 **Note:** This report type cannot be run as a scheduled report.
 
-This data visualization is supported on the mobile platform. For more information see  and .
+This data visualization is supported on the mobile platform. For more information see [Single score reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-reporting-single-score.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-dashboard-preview.md).
 
 **Parent Topic:**[Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md)
 
@@ -48,7 +48,7 @@ Role required: itil, report\_user.
 
 4.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d49878e272">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d49896e274">
 
 **Data source**
 
@@ -56,15 +56,15 @@ Role required: itil, report\_user.
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d49878e291">
+</td></tr><tr><td id="d49896e293">
 
 **Table**
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see Retrieving external data using remote tables and scripts
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/remote-tables.md)
 
-</td></tr><tr><td id="d49878e310">
+</td></tr><tr><td id="d49896e312">
 
 **External import**
 
@@ -72,13 +72,13 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d49878e335">
+</td></tr><tr><td id="d49896e337">
 
 **MetricBase**
 
 </td><td>
 
-MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see MetricBase.
+MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/metricbase/metricbase.md).
 
 </td></tr></tbody>
 </table>5.  Select **Next**.
@@ -134,7 +134,7 @@ Enables you to configure how to show numerical values in reports, including deci
 
 8.  To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see Condition builder.
+    To learn how to construct conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
@@ -188,7 +188,7 @@ Drilldown view
 
 </td><td>
 
-List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See Configure the list layout . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_DrillingDownWithinReports.md).
+List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md) . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_DrillingDownWithinReports.md).
 
 </td></tr><tr><td>
 

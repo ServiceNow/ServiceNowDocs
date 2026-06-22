@@ -64,6 +64,6 @@ Application plugins:
 
         Assign the user role sn\_cro\_dashboard.user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/exploring-user-administration.md).
 
 

@@ -17,7 +17,7 @@ breadcrumb: [Explore, Digital Product Release, IT Service Management]
 
 Digital Product Release provides flow actions that you can use to build custom release workflows in Workflow Studio.
 
-Familiarize yourself with  basics before starting.
+Familiarize yourself with [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-actions.md) basics before starting.
 
 To access these flow actions, navigate to **All** &gt; **Workflow Studio**, and then select **Actions**. Search for Digital Product Release actions
 

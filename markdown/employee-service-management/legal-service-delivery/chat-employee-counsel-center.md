@@ -55,7 +55,7 @@ The live agent support enables a chat interaction between an employees and legal
 **Related topics**  
 
 
-[bundle-platux.live-agent-overview]
+[Getting work from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/live-agent-overview.md)
 
-[bundle-platux.interaction-message-agent-workspace]
+[Interaction records in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/interaction-message-agent-workspace.md)
 

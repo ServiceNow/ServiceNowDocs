@@ -126,7 +126,7 @@ If you've subscribed to the Safe Workplace suite and you already have some of th
 
 Components are installed with the Safe Workplace Dashboard, including user roles, scheduled jobs, and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ### Roles installed
 
@@ -312,7 +312,7 @@ The Safe Workplace Dashboard comprises ServiceNow® Service Portal widgets that 
 -   Safe Workplace Dashboard Menu
 -   Safe Workplace Dashboard Vaccination Widget
 
-For information about customizing Service Portal widgets, see Service Portal widgets and the Widget developer guide.
+For information about customizing Service Portal widgets, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/service-portal-widgets.md) and the [Widget developer guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/widget-dev-guide.md).
 
 ### Performance Analytics widgets
 
@@ -337,5 +337,5 @@ For information about customizing Service Portal widgets, see Service Portal wid
 -   Number of Workplace Reserved Spaces
 -   PPE Inventory % Change from Prior Day
 
-For information about using Performance Analytics, see Performance Analytics.
+For information about using Performance Analytics, see [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/pa-overview.md).
 

@@ -66,7 +66,7 @@ Feedback definition provides you with the liberty to select how and at what poin
 
 7.  On the trigger condition form, fill in the fields.
 
-    For the description of the field values, see .
+    For the description of the field values, see [Trigger Condition form for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/trigger-condition-form.md).
 
     **Note:**
 

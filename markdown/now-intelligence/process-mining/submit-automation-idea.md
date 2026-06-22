@@ -18,7 +18,7 @@ Discover, prioritize, and manage automation requests from different sources from
 
 ## Before you begin
 
-You must install and configure the Automation Center plugin before configuring. See  for more information.
+You must install and configure the Automation Center plugin before configuring. See [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/automation-center/install-automation-center.md) for more information.
 
 Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
 
@@ -40,7 +40,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
     \[Omitted image "new-automation-request.png"\] Alt text: New automation idea form
 
-    For more information, see .
+    For more information, see [Automation request form from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/automation-center/automation-request-autocenter-form.md).
 
 
 ## Result

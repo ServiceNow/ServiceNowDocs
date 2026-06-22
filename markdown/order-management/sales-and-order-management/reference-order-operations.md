@@ -16,7 +16,7 @@ breadcrumb: [Reference, Sales Customer Relationship Management]
 
 Reference for order operations applications.
 
-
+[Components installed with Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-case-mgmt-order-ops-install-comp.md)
 
 Several types of components are installed with the Order Operations Case Management application, including tables, roles, and service definitions.
 

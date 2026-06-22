@@ -29,7 +29,7 @@ Use the **glide.db.loguser** property to disable SQL error messages from renderi
 |Functional impact|\(Low\) This remediation disables rendering of SQL error messages. There is no impact to any functionality.|
 |Security risk|\(Medium\) No sensitive SQL information that could help an attacker should appear as a part of error message on a web page.|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Logging, auditing, and errors \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/logging-auditing-errors-instance-security-hardening.md)
 

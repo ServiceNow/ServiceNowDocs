@@ -18,7 +18,7 @@ You can create users in the ServiceNow TISC instance with any valid user role: s
 
 ## Install TISC add-on app on Splunk
 
-For more information, see Assign a role to a user.
+For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 Role required: Splunk admin.
 

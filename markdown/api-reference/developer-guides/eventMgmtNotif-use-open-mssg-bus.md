@@ -7,7 +7,7 @@ release: zurich
 product: Developer Guides
 classification: developer-guides
 topic_type: reference
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Producer Event Notification Framework developer guide, Developer guides, API implementation and reference]
 ---
@@ -44,7 +44,7 @@ Service Order Management:
 
 ## Prerequisites
 
-Before producing outbound notifications, it’s necessary to create the egress topics in the Topic \[sn\_api\_notif\_mgmt\_topic\] table in the ServiceNow® instance. When you create an egress topic, the system runs a business rule and attempts to synchronize the topic to the message bus based on configuration. To learn more about manually creating a topic in the Topic table, see . The system synchronizes only the egress topic with the message bus in the external system. The `user_created` field in the associated topic record is set to `true`.
+Before producing outbound notifications, it’s necessary to create the egress topics in the Topic \[sn\_api\_notif\_mgmt\_topic\] table in the ServiceNow® instance. When you create an egress topic, the system runs a business rule and attempts to synchronize the topic to the message bus based on configuration. To learn more about manually creating a topic in the Topic table, see [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/telecommunications-service-operations-management/create-topic-API-notification.md). The system synchronizes only the egress topic with the message bus in the external system. The `user_created` field in the associated topic record is set to `true`.
 
 Alternatively, you can create the topics on the message bus in your external system and push them into the Topic table in ServiceNow® instance. To do this, invoke the [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/event_management_topic-api.md) endpoint, which stores the topic in the Topic \[sn\_api\_notif\_mgmt\_topic\] table of the instance. The user\_created field in the associated topic record is set to false.
 

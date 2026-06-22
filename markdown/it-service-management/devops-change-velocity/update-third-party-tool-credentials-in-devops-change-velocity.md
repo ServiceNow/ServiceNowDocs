@@ -24,15 +24,15 @@ Role required: sn\_devops.admin
 
 1.  Update your tool credentials using one of the following methods.
 
-<table id="choicetable_bvm_p5l_f5b"><thead><tr><th align="left" id="d44189e66">
+<table id="choicetable_bvm_p5l_f5b"><thead><tr><th align="left" id="d44237e66">
 
 Option
 
-</th><th align="left" id="d44189e69">
+</th><th align="left" id="d44237e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d44189e75">
+</th></tr></thead><tbody><tr><td id="d44237e75">
 
 **From Workspace**
 
@@ -59,7 +59,7 @@ Steps
 8.  Select **Connect** to establish the connection.
 
 
-</td></tr><tr><td id="d44189e153">
+</td></tr><tr><td id="d44237e153">
 
 **From Classic**
 

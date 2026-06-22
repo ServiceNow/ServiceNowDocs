@@ -64,7 +64,7 @@ sitemap\_links\_menu\_sys\_id
 
 </td><td>
 
-The system identifier \(sys\_id\) of the menu record is used to display sitemap links in the Portal Polaris Footer widget. You can create a menu record and map it to the sitemap links by including its sys\_id in the JSON code. For more information on how to create a menu record, see .
+The system identifier \(sys\_id\) of the menu record is used to display sitemap links in the Portal Polaris Footer widget. You can create a menu record and map it to the sitemap links by including its sys\_id in the JSON code. For more information on how to create a menu record, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ footer\_links\_menu\_sys\_id
 
 </td><td>
 
-The system identifier \(sys\_id\) of the menu record is used to display footer links in the Portal Polaris Footer widget. You can create a menu record and map it to the footer links by including its sys\_id in the JSON code. For more information on how to create a menu record, see .
+The system identifier \(sys\_id\) of the menu record is used to display footer links in the Portal Polaris Footer widget. You can create a menu record and map it to the footer links by including its sys\_id in the JSON code. For more information on how to create a menu record, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ social\_links\_menu\_sys\_id
 
 </td><td>
 
-The system identifier \(sys\_id\) of the menu record is used to display social links in the Portal Polaris Footer widget. You can create a menu record and map it to the social links by including its sys\_id in the JSON code. For more information on how to create a menu record, see .
+The system identifier \(sys\_id\) of the menu record is used to display social links in the Portal Polaris Footer widget. You can create a menu record and map it to the social links by including its sys\_id in the JSON code. For more information on how to create a menu record, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
 
 </td></tr></tbody>
 </table>

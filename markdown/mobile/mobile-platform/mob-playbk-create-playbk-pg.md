@@ -8,7 +8,7 @@ product: Mobile Platform
 classification: mobile-platform
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configure mobile web screens, Mobile App Bridge, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You must create a Now Experience Framework page in  before you can configure mobile web screens that can leverage a playbook on mobile devices. After you configure the page, you must configure a web screen in Mobile App Builder \(MAB\). For details about configuring mobile web screens that use Mobile App Bridge to leverage platform features on mobile devices, see [Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-platform/configure-mobile-playbooks.md).
+You must create a Now Experience Framework page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md) before you can configure mobile web screens that can leverage a playbook on mobile devices. After you configure the page, you must configure a web screen in Mobile App Builder \(MAB\). For details about configuring mobile web screens that use Mobile App Bridge to leverage platform features on mobile devices, see [Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-platform/configure-mobile-playbooks.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ You must create a Now Experience Framework page in  before you can configure mob
 
 5.  Select **Create from scratch instead**.
 
-    For information about working with templates or creating a page from scratch in UI Builder, see .
+    For information about working with templates or creating a page from scratch in UI Builder, see [Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
 6.  Name the page and select **Continue**.
 
@@ -82,7 +82,7 @@ You must create a Now Experience Framework page in  before you can configure mob
     5.  When you've finished configuring the event handler, select **Add** in the lower right corner of the dialog box.
 14. In the Now Experience Framework editor page, select **Save** in the upper right corner to save the page.
 
-    For information about configuring a playbook, see .
+    For information about configuring a playbook, see [Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
     **Note:** The getTitle\(\) method in the GlideListProperties API isn't available in Mobile App Bridge to configure Next Experience \(Seismic\) pages.
 

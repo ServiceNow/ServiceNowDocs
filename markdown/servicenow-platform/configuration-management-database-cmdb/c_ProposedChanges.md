@@ -336,5 +336,5 @@ To correctly determine the validity of a change, examine the parameters and appl
 **Related topics**  
 
 
-[bundle-psec.c_HistoryTimeline]
+[Timeline of CI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_HistoryTimeline.md)
 

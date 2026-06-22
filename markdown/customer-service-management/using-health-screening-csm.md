@@ -38,7 +38,7 @@ sn\_customerservice.consumer or sn\_customerservice\_customer
 
 </td><td>
 
-Access and complete the Health Verification form on the Consumer or Customer Service Portals. **Note:** For more information on filling out the form, see Verify your health status and compliance.
+Access and complete the Health Verification form on the Consumer or Customer Service Portals. **Note:** For more information on filling out the form, see [Verify your health status and compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/safe-workplace/agree-compliance-return.md).
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ sn\_imt\_monitoring.monitoring \_user
 
 Screen external users entering a location to ensure compliance with entry requirements. **Note:** Health screeners cannot view additional Customer Service Management information on the screening form.
 
-For more information on screening, see Conduct a health screen for entry.
+For more information on screening, see [Conduct a health screen for entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/safe-workplace/screen-returning-employee.md).
 
 </td></tr><tr><td>
 

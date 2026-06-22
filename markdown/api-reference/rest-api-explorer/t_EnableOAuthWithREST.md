@@ -18,7 +18,7 @@ Using OAuth, you can pass a user ID and password once, and then use a token for 
 
 ## Before you begin
 
-The OAuth 2.0 plugin \(com.snc.platform.security.oauth.is.active\) must be active. For activation instructions, see .
+The OAuth 2.0 plugin \(com.snc.platform.security.oauth.is.active\) must be active. For activation instructions, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
 
 Role required: admin
 
@@ -36,7 +36,7 @@ OAuth reduces the number of times you submit user credentials. After authenticat
 
 4.  Record the **client\_id** and **client\_secret** values to use when requesting an access token.
 
-    **Note:** This example uses the password grant type. You can also configure an OAuth API endpoint using other grant types. For more information, see .
+    **Note:** This example uses the password grant type. You can also configure an OAuth API endpoint using other grant types. For more information, see [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/oauth-inbound.md).
 
 5.  Use a REST client, such as cURL or Postman, to send a POST request to the OAuth endpoint \(`oauth_token.do`\).
 

@@ -65,31 +65,31 @@ To explore Virtual Agent for IT Service Management, Customer Service Management,
 
 <table id="table_wlx_qdm_v4b" class="nav-card"><tbody><tr><td>
 
-Virtual Agent for IT Service Management \[Omitted image "bus-optimize-manage.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common IT-related tasks.
+[Virtual Agent for IT Service Management \[Omitted image "bus-optimize-manage.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common IT-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
 
 </td><td>
 
-Virtual Agent for Customer Service Management \[Omitted image "bus-customer-service-agent.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common self-service tasks.
+[Virtual Agent for Customer Service Management \[Omitted image "bus-customer-service-agent.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common self-service tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-virtual-agent-csm.md)
 
 </td><td>
 
-Virtual Agent for HR Service Delivery \[Omitted image "bus-partnering.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common HR-related tasks.
+[Virtual Agent for HR Service Delivery \[Omitted image "bus-partnering.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common HR-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md)
 
 </td><td>
 
-Virtual Agent for Workplace Service Delivery\[Omitted image "bus-meetings.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common workplace-related tasks.
+[Virtual Agent for Workplace Service Delivery\[Omitted image "bus-meetings.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common workplace-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/workplace-core/va-conversations-wsd.md)
 
 </td></tr><tr><td>
 
-Virtual Agent for Field Service Management \[Omitted image "bus-field-service-technician.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common field service management tasks.
+[Virtual Agent for Field Service Management \[Omitted image "bus-field-service-technician.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common field service management tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/virtual-agent-fsm.md)
 
 </td><td>
 
-Virtual Agent for Project Portfolio Management \[Omitted image "bus-project.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common Project Portfolio Management tasks.
+[Virtual Agent for Project Portfolio Management \[Omitted image "bus-project.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common Project Portfolio Management tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/project-management/ppm-va-overview.md)
 
 </td><td>
 
-Virtual Agent for Legal Service Delivery \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common legal-service tasks.
+[Virtual Agent for Legal Service Delivery \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common legal-service tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md)
 
 </td><td>
 

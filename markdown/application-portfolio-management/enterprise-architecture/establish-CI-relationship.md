@@ -30,7 +30,7 @@ The indicator scoring framework also supports scoring of business capability in 
 
 ## Procedure
 
-1.  Create CI relationships or edit the existing relationships using CI relationships in the CMDB.
+1.  Create CI relationships or edit the existing relationships using [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md).
 
 2.  Relate business capabilities and business applications using the following pre-determined CI relationship types:
 

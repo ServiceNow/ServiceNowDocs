@@ -28,7 +28,7 @@ CTI does not require any specific user role except the OpenFrame user \(sn\_open
 
 For more information, see the following topics:
 
--   Computer Telephony Integration
+-   [Computer Telephony Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_ComputerTelephonyIntegration.md)
 -   [Computer Telephony Integration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/cti-workflows.md)
 -   [Callback interaction features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/contact-center-intergration-with-icc-callback.md)
 

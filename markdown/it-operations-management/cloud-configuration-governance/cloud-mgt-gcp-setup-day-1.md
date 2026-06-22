@@ -32,7 +32,7 @@ Cloud providers often use different names for accounts, regions, and credential 
 Your Day 1 setup process includes these tasks:
 
 -   If needed: Request the Cloud Provisioning and Governance application.
--   Download the Connector app and supporting store apps on the ServiceNow Store and activate the store applications.
+-   [Download the Connector app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-operations/download-app-first-time.md) and supporting store apps on the ServiceNow Store and [activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-operations/activate-entitled-store-app.md) the store applications.
 -   Assign appropriate roles to cloud admins and end users.
 -   On the provider portal, collect your account settings and the credentials that the Discovery process will use \(through a MID Server\) to programmatically access your provider accounts. Securely associate the account settings and credentials with a service account in Cloud Provisioning.
 -   Set up the MID Servers that will handle secure communications with the provider API endpoints.

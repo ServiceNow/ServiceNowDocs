@@ -33,15 +33,15 @@ Role required: admin
 
 2.  Review any differences in the fields.
 
-<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d116353e145">
+<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d116290e145">
 
 Option
 
-</th><th align="left" id="d116353e148">
+</th><th align="left" id="d116290e148">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d116353e154">
+</th></tr></thead><tbody><tr><td id="d116290e154">
 
 **To resolve the differences by choosing the previous version**
 
@@ -51,7 +51,7 @@ Action
 -   Object version: Select **Use Local Version** to maintain the local record as the current version. The pulled version is added to the version history for the record.
 
 
-</td></tr><tr><td id="d116353e180">
+</td></tr><tr><td id="d116290e180">
 
 **To resolve the differences by modifying the current version and saving the merged changes**
 

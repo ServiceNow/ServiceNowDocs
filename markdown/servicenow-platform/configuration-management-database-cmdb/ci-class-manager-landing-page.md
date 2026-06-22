@@ -56,6 +56,6 @@ To access the CI Class Manager, navigate to **All** &gt; **Configuration** &gt; 
 
 ## Service Mapping
 
--   Entry point types for Service Mapping
--   CI types for Service Mapping and Discovery
+-   [Entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md)
+-   [CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md)
 

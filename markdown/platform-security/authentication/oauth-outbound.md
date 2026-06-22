@@ -8,7 +8,7 @@ product: Authentication
 classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [OAuth authentication, Authentication, Access Management]
 ---
 
@@ -24,7 +24,7 @@ You can configure outbound OAuth 2.0 for the following grant types:
 -   **JWT Bearer**: An authorization server validates a JWT token which enables identity and security information to be shared across security domains. For more information, see [Set up OAuth provider with JWT Bearer grant type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/JWT-Bearer-token-support.md).
 -   **SAML2 Bearer**: Generates the SAML2 assertion and then exchanges the assertion for the access tokens wit the provider.
 
-    **Note:** For outbound request to SuccessFactors use the **SAML2 Bearer** as the Default Grant Type. To know more about how to configure **SAML2 Bearer**, refer the example in .
+    **Note:** For outbound request to SuccessFactors use the **SAML2 Bearer** as the Default Grant Type. To know more about how to configure **SAML2 Bearer**, refer the example in [Set up the v4.x.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-successfactors.md).
 
 -   **Authorization code**: The code that is granted to the client to obtain an access token, which is then used to obtain access to the resource. If you select this option, then you need an authorization URL \(the URL of the authorization server\).
 -   **Resource owner password credentials**: The user name and password of the user that is trying to obtain access to the resource.

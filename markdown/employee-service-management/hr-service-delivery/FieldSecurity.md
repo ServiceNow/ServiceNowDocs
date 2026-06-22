@@ -68,5 +68,5 @@ Use **Access Control** \(ACL\) on a field to secure it.
 **Related topics**  
 
 
-[bundle-psec.access-control-rules]
+[Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/access-control-rules.md)
 

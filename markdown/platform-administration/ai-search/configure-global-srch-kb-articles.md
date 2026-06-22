@@ -30,7 +30,7 @@ To enable users to search for knowledge articles in any language, you can define
 
 \[Omitted image "diagram-globally-searchable.png"\] Alt text: Diagram showing de user session language and \* globally searchable articles in any language.
 
-**Note:** To generate knowledge article query strings for your encoded query, you can navigate to **All** &gt; **Knowledge** &gt; **Articles** &gt; **All** and follow the steps found in Generate an encoded query string through a filter. For descriptions of encoded query syntax and operators, see Encoded query strings and Operators available for filters and queries.
+**Note:** To generate knowledge article query strings for your encoded query, you can navigate to **All** &gt; **Knowledge** &gt; **Articles** &gt; **All** and follow the steps found in [Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_GenEncodQueryStringFilter.md). For descriptions of encoded query syntax and operators, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) and [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 ## Procedure
 

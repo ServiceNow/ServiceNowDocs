@@ -22,13 +22,13 @@ Any procurement related assistance that a procurement specialist or a live agent
 
 Also, any supplier-related assistance that a supplier manager or a live agent provides to a supplier contact in the form of a call, chat, email, or SMS is recorded in an interaction record.
 
-For more information about Interaction Management, see .
+For more information about Interaction Management, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/interaction-management/create-interactions.md)
 
 Interaction Management activities in Source-to-Pay Workspace include:
 
 -   [View interaction details in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/viewing-an-interaction.md)
 -   [Create a procurement case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case.md)
--   
+-   [Associate a record with an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/interaction-management/associate-record.md)
 
 -   **[View interaction details in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/viewing-an-interaction.md)**  
 View the details of an interaction record to analyze interactions and take immediate actions. Viewing an interaction record provides a comprehensive view of the customer journey. You can link an interaction record to an existing procurement case or can assign a task, which needs a procurement specialist involvement for investigation.

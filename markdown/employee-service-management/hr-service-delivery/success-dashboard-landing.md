@@ -21,7 +21,7 @@ Success Dashboard is available for HR Service Delivery and IT Service Management
 -   HR Success Dashboard indicators
 -   ITSM Success Dashboard indicators
 
-    For more information on the ITSM dashboard, see ITSM Success Dashboard indicators.
+    For more information on the ITSM dashboard, see [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md).
 
 
 ## Request apps on the Store
@@ -49,7 +49,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the .
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/hr-service-delivery-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

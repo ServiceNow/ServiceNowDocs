@@ -40,15 +40,15 @@ Dynamic template mappings can be created for templates that have an assigned par
 
     Depending on what type of field is selected in the **Universal task field** field, the **Advanced** option appears. If you select the **Advanced** option, the following options are available based on the input type of the Universal task field.
 
-<table id="choicetable_vwq_2yk_t4b"><thead><tr><th align="left" id="d449427e123">
+<table id="choicetable_vwq_2yk_t4b"><thead><tr><th align="left" id="d449184e123">
 
 Input type for the Universal task field
 
-</th><th align="left" id="d449427e126">
+</th><th align="left" id="d449184e126">
 
 Advanced options
 
-</th></tr></thead><tbody><tr><td id="d449427e132">
+</th></tr></thead><tbody><tr><td id="d449184e132">
 
 **String, such as Short description**
 
@@ -56,7 +56,7 @@ Advanced options
 
 The **Value** field appears. You can map your Universal task to multiple fields from the parent table. You can also add a text template.
 
-</td></tr><tr><td id="d449427e144">
+</td></tr><tr><td id="d449184e144">
 
 **HTML, such as Rich description**
 
@@ -64,7 +64,7 @@ The **Value** field appears. You can map your Universal task to multiple fields 
 
 The **Value** field appears. You can map your Universal task to multiple fields from the parent table. You can also add a text template.
 
-</td></tr><tr><td id="d449427e156">
+</td></tr><tr><td id="d449184e156">
 
 **Date field, such as Due date**
 

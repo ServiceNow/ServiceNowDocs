@@ -22,7 +22,7 @@ Role required: agent\_workspace\_user
 
 ## About this task
 
-For detailed information on authoring and managing knowledge articles in a workspace, see .
+For detailed information on authoring and managing knowledge articles in a workspace, see [Authoring a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/managing-knowledge-workspace.md).
 
 ## Procedure
 
@@ -48,7 +48,7 @@ For detailed information on authoring and managing knowledge articles in a works
 
 6.  On the form, fill in the fields.
 
-    For information on the knowledge field descriptions, see .
+    For information on the knowledge field descriptions, see [Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/create-article-workspace.md).
 
 7.  Select **Save**.
 

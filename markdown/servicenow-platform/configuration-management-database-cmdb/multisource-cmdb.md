@@ -46,7 +46,7 @@ Use CMDB 360 to:
 
 ## Enable and configure CMDB 360
 
--   Activate the ITOM Discovery License \(com.snc.itom.discovery.license\) plugin.
+-   [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md) the ITOM Discovery License \(com.snc.itom.discovery.license\) plugin.
 -   Navigate to **All** &gt; **Configuration** &gt; **CMDB 360 Properties**. Then, in the CMDB 360 Properties pane ensure that the [glide.identification\_engine.multisource\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) \(Enables CMDB 360\) property is set to **true**.
 -   Optionally, [Exclude classes from CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/exclude-class-cmdb360.md).
 

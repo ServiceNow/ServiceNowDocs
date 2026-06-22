@@ -26,7 +26,7 @@ Role required: email\_client\_admin
 
 2.  Select **New** to add an email template or edit an existing email template.
 
-3.  Fill the form and draft the content for the template. For more information on email templates, see .
+3.  Fill the form and draft the content for the template. For more information on email templates, see [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md).
 
 4.  Select **Submit**.
 

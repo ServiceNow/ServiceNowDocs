@@ -33,5 +33,5 @@ Select the filter icon or menu. Select **Advanced view**.
 
 Select any field from the root table that you want to filter the data by.
 
-To learn how to configure assets, see .
+To learn how to configure assets, see [Configure assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-csm-assets.md).
 

@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [OKE, Agent Client Collector, Kubernetes, Visibility, deployment, installation, prerequisites, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -34,7 +34,7 @@ Role required: admin for steps performed on the ServiceNow instance.
 
 2.  Choose or create a user with at least the mid\_server role.
 
-    For information about adding a new user to your instance, see . For information about granting a role to a user, see .
+    For information about adding a new user to your instance, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAUser.md). For information about granting a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 3.  In the Kubernetes cluster, choose or create a namespace in which you want to deploy KVA.
 

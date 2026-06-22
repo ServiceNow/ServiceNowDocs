@@ -24,21 +24,21 @@ Subscribing to ServiceNow AI Platform® features and applications adds Playbooks
 
 |Integration|Content available|
 |-----------|-----------------|
-|App Engine Studio|Build playbooks from App Engine Studio.|
-||Create basic request and fulfillment apps without code.|
-||Create playbooks for Customer Service Management.|
-||Create playbooks for Field Service Management.|
-||Create playbooks for HR services.|
-||Create playbooks for Software Asset Management.|
-||Create playbooks for Healthcare and Life Science processes.|
-||Create playbooks for Financial Services Operations.|
-||Create playbooks for Public Sector Digital Services.|
-||Create playbooks for IT Operations Management.|
-||Create playbooks for Account Lifecycle Events.|
-||Create playbooks for IT Service Management.|
-||Create playbooks for Security Operations.|
-||Create playbooks for Procurement Service Management.|
-||Create playbooks for Governance, Risk, and Compliance processes.|
+|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-overview.md)|Build playbooks from App Engine Studio.|
+|[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio/creator-studio-landing.md)|Create basic request and fulfillment apps without code.|
+|[Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-playbooks-configuring.md)|Create playbooks for Customer Service Management.|
+|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/fsm-application-landing-page.md)|Create playbooks for Field Service Management.|
+|[HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr.md)|Create playbooks for HR services.|
+|[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)|Create playbooks for Software Asset Management.|
+|[Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-overview.md)|Create playbooks for Healthcare and Life Science processes.|
+|[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/financial-services/playbooks-fso-apps.md)|Create playbooks for Financial Services Operations.|
+|[Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/public-sector-digital-services/playbooks-psds-exploring.md)|Create playbooks for Public Sector Digital Services.|
+|[Run actions to resolve alert issues in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-operations-workspace-for-itom-apps/run-alert-remediation.md)|Create playbooks for IT Operations Management.|
+|[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-playbook-overview.md)|Create playbooks for Account Lifecycle Events.|
+|[Onboard Jira to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-change-velocity/create-jira-tool-dev-ops.md)|Create playbooks for IT Service Management.|
+|[Security Incident Response playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-incident-response/cj-sir-about-flows.md)|Create playbooks for Security Operations.|
+|[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)|Create playbooks for Procurement Service Management.|
+|[Complete publishing checklist and request policy approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.md)|Create playbooks for Governance, Risk, and Compliance processes.|
 
 ## Playbook Experience
 

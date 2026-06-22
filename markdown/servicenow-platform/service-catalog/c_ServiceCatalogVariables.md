@@ -40,7 +40,7 @@ When catalog item requesters want to order items on portals or Next Experience U
 **Related topics**  
 
 
-[bundle-crapiref.c_ScriptableServiceCatalogVariables]
+[Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptableServiceCatalogVariables.md)
 
-[bundle-par.use-service-catalog-variables-in-report]
+[Use service catalog variables in a report – Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/use-service-catalog-variables-in-report.md)
 

@@ -33,7 +33,7 @@ The following items are installed with ServiceNow Add-in for Microsoft 365:
 -   Scheduled jobs
 -   Tables
 
-For more information, see  and .
+For more information, see [Install the ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/install-sn-addin-for-ms365.md) and [Components installed with ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/installed-with-sn-addin-ms365.md).
 
 ## Procedure
 
@@ -63,5 +63,5 @@ For more information, see  and .
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of Zurich plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 

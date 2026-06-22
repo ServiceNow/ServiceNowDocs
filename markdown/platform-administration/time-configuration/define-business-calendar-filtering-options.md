@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-To learn more about standard filtering options, see Values for date/time fields.
+To learn more about standard filtering options, see [Values for date/time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ValuesForDateTimeFields.md).
 
 **Note:** The easiest way to create business calendar filtering options and associate them with a business calendar is to use the Business Calendar Filter Options related list in the Business Calendar form. To learn more about creating a business calendar, see [Create a business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/create-business-calendar.md).
 
@@ -86,7 +86,7 @@ Application
 
 </td><td>
 
-Application that is associated with this business calendar. If you are working on an application or are creating a business calendar from an application record, the field defaults to that application. Otherwise, the field defaults to **Global**. Any records that are created from the table record, such as modules and security rules, are assigned to this application by default. To learn more about application scoping, see 
+Application that is associated with this business calendar. If you are working on an application or are creating a business calendar from an application record, the field defaults to that application. Otherwise, the field defaults to **Global**. Any records that are created from the table record, such as modules and security rules, are assigned to this application by default. To learn more about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationScope.md)
 
 </td></tr></tbody>
 </table>    **Note:** Within a calendar filtering option record, you can only associate a business calendar with a single filter option. To create multiple filtering options, you have to create multiple filtering option records, each with its own period entry.

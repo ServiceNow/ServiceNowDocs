@@ -66,7 +66,7 @@ The default maximum size limit for an attachment file that can be added to a rec
 
 ## What to do next
 
-Limit the users who can view attachments by applying ACL rules. For more information on ACL rules, see Access control list rules.
+Limit the users who can view attachments by applying ACL rules. For more information on ACL rules, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/access-control-rules.md).
 
 -   **[Manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/t_ManagingAttachments.md)**  
 View, rename, and remove the attachments on a record and adjust the maximum allowable size of attachments.

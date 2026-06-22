@@ -208,7 +208,7 @@ Role required: admin
 
 4.  Customize the subflow as per your requirement and publish it.
 
-    See Building subflows for more information about creating and using subflows and [Vonage Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/vonage-spoke.md) for information about the fields that the default routing policy and subflows support.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows and [Vonage Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/vonage-spoke.md) for information about the fields that the default routing policy and subflows support.
 
 5.  Navigate to **Vonage Spoke** &gt; **Vonage WebHook Routing Policy**.
 

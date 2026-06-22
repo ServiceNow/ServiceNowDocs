@@ -36,7 +36,7 @@ The integration of Virtual Agent Designer with Localization Framework enables yo
 -   Approve and publish the translated content.
 -   Monitor the overall localization health of the Virtual Agent topics from the [Localization Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-insights-dashboard.md).
 
-For more information about localizing the Virtual Agent topics in the Virtual Agent Designer, see Virtual Agent Localization.
+For more information about localizing the Virtual Agent topics in the Virtual Agent Designer, see [Virtual Agent Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md).
 
 **Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/exploring-localization-framework.md)
 

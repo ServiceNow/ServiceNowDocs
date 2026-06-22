@@ -28,7 +28,7 @@ Role required: sn\_sow\_admin.sn\_sow\_admin or admin
 
     2.  Search for the Theme Builder \(sn\_theme\_builder\) application and install it.
 
-2.  Create a theme using Theme Builder by referring to .
+2.  Create a theme using Theme Builder by referring to [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/tb-create-theme.md).
 
     Polaris is the default theme for Next Experience, and this theme cannot be copied. So, we must create a theme and publish it for use.
 

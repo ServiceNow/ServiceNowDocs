@@ -32,15 +32,15 @@ You can also approve or reject a major case candidate from Agent Workspace.
 
 3.  Select one of the following from the Case form context menu.
 
-<table id="choicetable_oz5_snv_ndb"><thead><tr><th align="left" id="d111046e93">
+<table id="choicetable_oz5_snv_ndb"><thead><tr><th align="left" id="d111127e93">
 
 Option
 
-</th><th align="left" id="d111046e96">
+</th><th align="left" id="d111127e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111046e102">
+</th></tr></thead><tbody><tr><td id="d111127e102">
 
 **Approve Major Case Candidate**
 
@@ -52,7 +52,7 @@ Approves the current major case candidate as a major case. Upon approval:
 -   If the candidate case was created directly, the candidate case becomes the major case.
 
 
-</td></tr><tr><td id="d111046e122">
+</td></tr><tr><td id="d111127e122">
 
 **Reject Major Case Candidate**
 

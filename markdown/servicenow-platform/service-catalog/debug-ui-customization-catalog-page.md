@@ -121,7 +121,7 @@ data-sn-macro-sys-id="${jvar_macro_sys_id}"
 **Related topics**  
 
 
-[bundle-crapiref.c_UIMacros]
+[UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_UIMacros.md)
 
 [bundle-platadm.c_UpgradeHistory]
 

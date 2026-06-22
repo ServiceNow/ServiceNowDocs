@@ -27,9 +27,9 @@ Role required: admin
 2.  Create an OAuth application registry using one of the following methods:
 
     -   [Create an endpoint for external clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_CreateEndpointforExternalClients.md) that want to access your instance. This creates an **OAuth client application** record and generates a client ID and client secret that the client needs to access the restricted resources on the instance.
-    -   Use a third-party OAuth provider that provides the authorization for access to your instance.
+    -   [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md) that provides the authorization for access to your instance.
 
-        Specify an OAuth profile and Specify an OAuth scope when you are connecting to another OAuth provider.
+        [Specify an OAuth profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md) and [Specify an OAuth scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_SpecifyAnOAuthScope.md) when you are connecting to another OAuth provider.
 
 3.  Configure your client applications to create an HTTP POST that requests an OAuth token.
 

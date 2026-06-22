@@ -8,7 +8,7 @@ product: AI Search
 classification: ai-search
 topic_type: concept
 last_updated: "2025-11-13"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer]
 ---
 
@@ -103,7 +103,7 @@ When you select full visual view as the preview type, this field displays auto-c
 
 </td><td>
 
-Select this icon to enable session debugging for AI Search and launch the Script Debugger in a new browser tab. To learn about session debugging and using the Script Debugger, see [Enable session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md) and .
+Select this icon to enable session debugging for AI Search and launch the Script Debugger in a new browser tab. To learn about session debugging and using the Script Debugger, see [Enable session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/session-debugging-ais.md) and [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-debugger.md).
 
 </td></tr><tr><td>
 

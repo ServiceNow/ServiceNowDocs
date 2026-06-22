@@ -40,7 +40,7 @@ Role required: sn\_si.write
 
     \[Omitted image "app-creator.png"\] Alt text: Application creator
 
-    **Note:** The options that display depend on the applications you have activated. For detailed information on creating new applications, see .
+    **Note:** The options that display depend on the applications you have activated. For detailed information on creating new applications, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/build-applications.md).
 
 4.  After the application has been generated, you can create scripts for setting up on-demand orchestration.
 

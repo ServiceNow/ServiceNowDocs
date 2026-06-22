@@ -22,7 +22,7 @@ To use the Expense Pre-Approval template, install this application from the Serv
 
 Employees can easily submit their planned expenses for multiple levels of approval using the Expense Pre-Approval application. Managers can then review every submitted request. Approved requests are assigned to the budget review group, which can approve or reject the request. The employee receives a notification with the final status of the request.
 
-To ensure compliance and improved financial planning, admins can customize the existing flow and levels of approval using decision tables. For more information, see .
+To ensure compliance and improved financial planning, admins can customize the existing flow and levels of approval using decision tables. For more information, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/decision-designer-overview.md).
 
 For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/use-app-template.md).
 

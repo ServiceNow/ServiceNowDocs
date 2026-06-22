@@ -67,7 +67,7 @@ Topic
 
 </td><td>
 
-The name of the probe the MID server ran. If you are using a pattern for discovery, the Horizontal Pattern probe Horizontal Pattern probe appears.
+The name of the probe the MID server ran. If you are using a pattern for discovery, the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md) [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md) appears.
 
 </td></tr><tr><td>
 
@@ -231,7 +231,7 @@ Harden the environment where the MID Server is deployed. Hardening measures incl
 -   OS-level controls: On Linux, use kernel security modules such as seccomp or AppArmor to restrict what resources the MID Server can access locally and remotely.
 -   Network controls: Limit the outbound network access of the MID Server to only what its discovery and integration workflows require.
 
-For more information, see Operating system security and Virtual infrastructure security.
+For more information, see [Operating system security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/operating-system-security.md) and [Virtual infrastructure security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/virtual-infrastructure-security.md).
 
 ### Server-side request forgery via HTTP probe
 

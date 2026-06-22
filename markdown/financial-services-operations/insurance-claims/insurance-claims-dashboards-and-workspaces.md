@@ -53,7 +53,7 @@ FNOL Representative
 
 </td><td>
 
-This common landing page is defined in the FSO Core and can be used as-is with little modification.To make additional UI changes, use UI Builder. For more information, see .
+This common landing page is defined in the FSO Core and can be used as-is with little modification.To make additional UI changes, use UI Builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ FNOL Representative
 
 </td><td>
 
-This module or list is defined by the base system for Insurance claims. To make additional UI changes, use UI Builder. For more information, see .
+This module or list is defined by the base system for Insurance claims. To make additional UI changes, use UI Builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Processor, Adjuster, Manager
 
 The Claim 360 UI Builder page is set up in theFSO Core and is available in claims applications. It can be cloned and modified to create a specific claim summary page for a particular line of business.To enable a claim summary on a case, enable the CSM default record page and define the correct order.
 
-For more information, see .
+For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 </td></tr></tbody>
 </table>## Dashboards included in Insurance claims

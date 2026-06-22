@@ -26,7 +26,7 @@ Role required: sn\_sow\_admin.sn\_sow\_admin or admin
 
 Update the table configuration to get the required search results.
 
-To create a table configuration, see .
+To create a table configuration, see [Configure table for a contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/contextual-search/t_DefineContextualSearchForForm.md).
 
 **Important:** Use this process if you're using a SOW version prior to 4.0. If you're using the version after 4.0, you can use **SOW Sidebar tabs top** Page collection to enable or disable the Agent Assist tab. For more information, see [Edit the table configuration for Agent Assist in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace-using-standard-record-page.md).
 

@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -88,7 +88,7 @@ sn\_align\_core.apw\_user**Note:** You can edit dashboards that you own or those
 
 For example, if you create a widget in a dashboard configuring the Cost Plan Breakdown table to display budget data, the budget summary is visible on the dashboard only if you have read access to the Cost Plan Breakdown table. Similarly, when you share this dashboard with a stakeholder, the stakeholder must also have read access to the Cost Plan Breakdown table to view the budget summary.
 
-For more information on the required roles to manage Platform Analytics dashboards, see .
+For more information on the required roles to manage Platform Analytics dashboards, see [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/pa-dashboard-roles.md).
 
 -   **[View a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/view-dashboard-spw.md)**  
 View key data and metrics on a dashboard to monitor performance, track progress, and make informed decisions related to ideas, feedback, strategy, planning, and execution.

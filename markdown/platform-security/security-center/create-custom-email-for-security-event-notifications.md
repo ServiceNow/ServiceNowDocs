@@ -66,7 +66,7 @@ Select the field next to **Send when** label and select **Triggered**.
 
 </td><td>
 
-Create an email template.See  for more information.
+Create an email template.See [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateAnEmailTemplate.md) for more information.
 
 Enter fields of the event into **Message HTML**. This can be done by using the `${event_id.FIELD_NAME}`. Here's an example:
 

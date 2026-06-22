@@ -18,9 +18,9 @@ Chat with an AI agent to get help with your questions about Vulnerability Respon
 
 ## Before you begin
 
-To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See  for more information.
+To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See [Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/secops-sem-rn.md) for more information.
 
-The Now Assist panel must be activated. For more information, see .
+The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 Roles required:
 

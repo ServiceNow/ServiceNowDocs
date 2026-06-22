@@ -57,7 +57,7 @@ The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_
 
 ServiceNow Role required: admin or sam\_integrator
 
-**Important:** You must select the **Looker Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Looker Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -67,15 +67,15 @@ If you’re using Software Asset Workspace, the option to create the Looker inte
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d134224e340">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d134273e341">
 
 Interface
 
-</th><th align="left" id="d134224e343">
+</th><th align="left" id="d134273e344">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d134224e349">
+</th></tr></thead><tbody><tr><td id="d134273e350">
 
 **Core UI**
 
@@ -86,7 +86,7 @@ Action
 3.  Select **Looker Integration Profile**.
 
 
-</td></tr><tr><td id="d134224e391">
+</td></tr><tr><td id="d134273e392">
 
 **Software Asset Workspace**
 

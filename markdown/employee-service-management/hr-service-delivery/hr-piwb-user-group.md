@@ -30,7 +30,7 @@ Create an HR Predictive Intelligence Workbench user group and add either users o
 
 ## Procedure
 
--   To create an HR Predictive Intelligence Workbench user group and add users, see Create a user group Create a user group.
+-   To create an HR Predictive Intelligence Workbench user group and add users, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAGroup.md) [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
     For more information about the email notifications provided with this application, refer to [HR Predictive Intelligence Workbench notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-notifications.md).
 

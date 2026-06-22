@@ -26,15 +26,15 @@ Role required: itil or sn\_request\_write
 
 2.  Initiate a catalog request from an incident or from an interaction record.
 
-<table id="choicetable_khj_fll_zdb"><thead><tr><th align="left" id="d73687e74">
+<table id="choicetable_khj_fll_zdb"><thead><tr><th align="left" id="d73752e74">
 
 Option
 
-</th><th align="left" id="d73687e77">
+</th><th align="left" id="d73752e77">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73687e83">
+</th></tr></thead><tbody><tr><td id="d73752e83">
 
 **From an incident using the Create request UI action**
 
@@ -47,7 +47,7 @@ Steps
 
 **Note:** You can order items only from catalogs that you have access rights to.
 
-</td></tr><tr><td id="d73687e121">
+</td></tr><tr><td id="d73752e121">
 
 **From an incident using Agent Assist**
 
@@ -59,7 +59,7 @@ Steps
 4.  Search for the catalog item, order guide, or record producer that you want to request.
 
 
-</td></tr><tr><td id="d73687e154">
+</td></tr><tr><td id="d73752e154">
 
 **From an interaction record**
 

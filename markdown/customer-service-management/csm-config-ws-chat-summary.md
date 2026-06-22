@@ -22,7 +22,7 @@ The system calls the chat summary prediction, which generates the summary from p
 
 An agent can modify and save the information in the **Chat summary** field. To revert the summary to the predicted value, the agent can select the value in the top recommendation.
 
-The chat summarization feature works with or without chat wrap-up enabled. For more information, see .
+The chat summarization feature works with or without chat wrap-up enabled. For more information, see [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md).
 
 ## AI indicators
 

@@ -16,7 +16,7 @@ breadcrumb: [Use, Health and Safety Core, Health and Safety, Employee Service Ma
 
 As a safety manager or agent, you can manage safety-related knowledge base articles in the Health and Safety Workspace.
 
-The Health and Safety Knowledge is the same as the ServiceNow AI Platform Knowledge Management. For more information, see .
+The Health and Safety Knowledge is the same as the ServiceNow AI Platform Knowledge Management. For more information, see [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/knowledge-management.md).
 
 ## Knowledge-related tasks in the Health and Safety Workspace
 
@@ -29,7 +29,7 @@ Based on your access permissions, you can perform the following Knowledge-relate
 -   Republish a retired article if necessary.
 -   Delete an article.
 
-To learn about authoring and managing knowledge articles in a workspace, see .
+To learn about authoring and managing knowledge articles in a workspace, see [Authoring a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/managing-knowledge-workspace.md).
 
 ## Knowledge articles available with Health and Safety
 
@@ -52,7 +52,7 @@ To view a list of all knowledge base articles in the Health and Safety Workspace
 **Note:** By default, the knowledge list in the Health and Safety Workspace is filtered by the `Knowledge base = Safety` filter. However, to view all articles from other knowledge bases, you can do the following:
 
 -   Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: filter icon\) in the list and remove the `Knowledge base = Safety` filter.
--   Additionally, to remove this default filter setting from the Knowledge list in the Health and Safety Workspace, remove it in the UIB related list configuration. For more information, see 
+-   Additionally, to remove this default filter setting from the Knowledge list in the Health and Safety Workspace, remove it in the UIB related list configuration. For more information, see [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/lists-configurable-workspace.md)
 
 -   **[Create a Health and Safety knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/hs-create-safety-knowledge-article.md)**  
 Create a safety-related knowledge article in the Health and Safety Workspace to share information across your organization.

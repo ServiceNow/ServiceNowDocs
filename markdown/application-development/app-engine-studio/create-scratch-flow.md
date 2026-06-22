@@ -101,7 +101,7 @@ Roles that the flow runs with. This option is available only when **Run as** is 
 
 
 
-    For an example of how to build a flow, see Build your first flow in Flow Designer.
+    For an example of how to build a flow, see [Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/build-your-first-flow.md).
 
 8.  Add a trigger to your flow.
 
@@ -109,7 +109,7 @@ Roles that the flow runs with. This option is available only when **Run as** is 
 
     2.  From the Trigger list, select a trigger that will start running your flow.
 
-        For more information on trigger types, see .
+        For more information on trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
         The system displays a set of fields depending on the type of trigger that you've selected.
 
@@ -137,7 +137,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes  that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The  and  plugins install additional actions.
+Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/integrationhub.md) and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 
@@ -174,7 +174,7 @@ Select a published subflow and define the input values. In addition to adding a 
 
 10. To specify how the app will handle errors, enable the **ERROR HANDLER** switch and fill in the fields.
 
-    For more information on configuring how errors are handled in flows, see Flow error handler.
+    For more information on configuring how errors are handled in flows, see [Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-error-handler.md).
 
 11. Select **Save**.
 
@@ -183,7 +183,7 @@ Select a published subflow and define the input values. In addition to adding a 
 
 ## What to do next
 
-Test your flow until you're ready to activate it. For more information on testing and editing flows, see Activate a flow.
+Test your flow until you're ready to activate it. For more information on testing and editing flows, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-activate.md).
 
 **Note:** Your application can trigger only activated flows.
 

@@ -16,7 +16,7 @@ breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platfor
 
 Manage how external link metadata is used in your instance with Connect Chat.
 
-Use the **glide.ui.url.external.content** property to manage external link metadata in your instance. If the property is set to the recommended value of **false**, then no external link metadata will be rendered. If set to **true** then  will retrieve external link metadata from sources such as YouTube or news articles to render richer messages. This could lead to Server Side Request Forgery \(SSRF\) attacks.
+Use the **glide.ui.url.external.content** property to manage external link metadata in your instance. If the property is set to the recommended value of **false**, then no external link metadata will be rendered. If set to **true** then [Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/connect/c_Collaboration.md) will retrieve external link metadata from sources such as YouTube or news articles to render richer messages. This could lead to Server Side Request Forgery \(SSRF\) attacks.
 
 Ensure the Glide Property **glide.ui.url.external.content** exists and is set to the value false. If the property does not appear in the sys\_properties table, add a new record.
 
@@ -102,7 +102,7 @@ References
 
 </td><td>
 
-
+[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/connect/c_Collaboration.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)

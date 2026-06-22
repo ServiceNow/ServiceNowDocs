@@ -32,7 +32,7 @@ Each template is associated with the Complaint Case \[sn\_bom\_compl\_service\] 
 
 2.  Create a response template.
 
-    For more information, see Create or modify a response template.
+    For more information, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/create-modify-templated-snippet.md).
 
     The Channels related list appears.
 
@@ -42,7 +42,7 @@ Each template is associated with the Complaint Case \[sn\_bom\_compl\_service\] 
 
     -   Click **New** to create a new channel that gets added to the response template.
 
-        **Note:** For information on Response Template Channel form fields, see Create a response template channel.
+        **Note:** For information on Response Template Channel form fields, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
     -   Click **Edit** to access and add an existing channel to the response template.
     The Response Template form returns.

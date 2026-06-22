@@ -97,11 +97,11 @@ Role required: admin
     -   Distribute the certificate to agent devices using a device management utility such as Jamf or Microsoft Intune.
 11. Add the certificate to the agent trust store.
 
-    For more information, see .
+    For more information, see [Add a self-signed certificate to your operating system's truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
 
 12. Upload the signed ACC plugin to the ServiceNow instance.
 
-    For more information, see .
+    For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/agent-client-collector/create-edit-assets.md).
 
 
 **Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)

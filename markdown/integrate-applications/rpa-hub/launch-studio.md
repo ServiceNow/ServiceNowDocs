@@ -38,15 +38,15 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_support\_user or s
 
 7.  Select one of the following options depending on whether you are on a remote or local machine.
 
-<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d198578e151">
+<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d193693e151">
 
 Option
 
-</th><th align="left" id="d198578e154">
+</th><th align="left" id="d193693e154">
 
 Action and description
 
-</th></tr></thead><tbody><tr><td id="d198578e160">
+</th></tr></thead><tbody><tr><td id="d193693e160">
 
 **Remote Machine**
 
@@ -66,7 +66,7 @@ Ensure to add the robot and connect to the Unattended Robot application.
 
  The associated package version opens in the selected robot machine.
 
-</td></tr><tr><td id="d198578e210">
+</td></tr><tr><td id="d193693e210">
 
 **Local Machine**
 

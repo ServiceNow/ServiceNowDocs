@@ -34,7 +34,7 @@ Content Publishing offers content managers the ability to build content using vi
 
 -   **Content processor**
 
-    Content processors provide an interface to configure API calls to the video hosting service. They are powered by subflows from the Flow Designer. For more information, see .
+    Content processors provide an interface to configure API calls to the video hosting service. They are powered by subflows from the Flow Designer. For more information, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/subflows.md).
 
     There are two actions available:
 
@@ -55,7 +55,7 @@ The following process overview guides you through setting up content providers s
 
 1.  The following domains are available out-of-the-box: youtube.com, player.vimeo.com, vimeo.com,players.brightcove.net, and brightcove.net.
 
-    To configure an additional domain, the system admin must add the host domain to the `glide.html.enable_media_sites` system property. For more information, see 
+    To configure an additional domain, the system admin must add the host domain to the `glide.html.enable_media_sites` system property. For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md)
 
 2.  [Configure content provider and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-content-provider.md)
 3.  \(Optional\) If the video hosting service contains private videos that require credentials, [Configure a video authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-content-processor.md)

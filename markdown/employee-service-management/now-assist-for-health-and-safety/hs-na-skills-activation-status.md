@@ -18,7 +18,7 @@ You can identify whether a Now Assist for Health and Safety skill or agentic wor
 
 To activate a skill, see [Activate a Now Assist for Health and Safety skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.md).
 
-For more information on Now Assist AI assets that are on by default, see .
+For more information on Now Assist AI assets that are on by default, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 |Skill|Activation status|Description|
 |-----|-----------------|-----------|

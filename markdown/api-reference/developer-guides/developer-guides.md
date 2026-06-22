@@ -44,7 +44,7 @@ Use the Event Notification Management Open API to create, update, and delete eve
 
 </td></tr><tr><td>
 
-Financial Services Operations developer guide
+[Financial Services Operations developer guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/financial-services/fso-int_guide-overview.md)
 
 </td><td>
 

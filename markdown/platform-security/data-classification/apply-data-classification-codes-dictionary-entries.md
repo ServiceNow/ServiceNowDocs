@@ -36,6 +36,6 @@ Role required: data\_classification\_admin and admin
 
     You can select multiple data classifications as needed.
 
-    See  for additional information.
+    See [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/c_DataDictionaryTables.md) for additional information.
 
 

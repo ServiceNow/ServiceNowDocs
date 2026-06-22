@@ -32,7 +32,7 @@ After you create a custom table map for an Azure DevOps process type, create a b
 
 3.  From the context menu \(\[Omitted image "context-menu-icon.png"\] Alt text: context menu icon\), perform an Insert and Stay operation on this business rule.
 
-    If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see Allow insert options on records.
+    If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see [Allow insert options on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/advanced-form-administration.md).
 
 4.  On the business rule form, edit the following fields.
 

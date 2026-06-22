@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-06-20"
-reading_time_minutes: 2
+last_updated: "2026-06-22"
+reading_time_minutes: 3
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -50,7 +50,7 @@ The following related list tables can be configured for display in the vertical 
 |Third-party|Company \[core\_company\]|
 |Vendor contacts|Vendor Contact \[vm\_vdr\_contact\]|
 
-For more information about related lists, see .
+For more information about related lists, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_RelatedLists.md).
 
 ## Procedure
 

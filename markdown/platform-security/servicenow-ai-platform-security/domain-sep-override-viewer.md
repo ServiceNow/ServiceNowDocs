@@ -26,5 +26,5 @@ Selecting **View Overrides** loads a new tab where all overrides, including the 
 
 **Note:** Only tables with overrides are listed.
 
-To learn more, see Create domain-separated property overrides.
+To learn more, see [Create domain-separated property overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-operations/create-dom-sep-prop-overrides.md).
 

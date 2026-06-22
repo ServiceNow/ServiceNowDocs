@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_si.basic
 
 2.  Within **Related Links**, you can perform the following tasks,
 
-<table id="choicetable_k4s_q45_c5"><tbody><tr><td id="d203617e56">
+<table id="choicetable_k4s_q45_c5"><tbody><tr><td id="d203648e56">
 
 **[View Manual Runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/setup-assistant-reference.md)**
 
@@ -34,7 +34,7 @@ Role required: sn\_si.basic
 
 View a list of runbooks available for this security incident.
 
-</td></tr><tr><td id="d203617e72">
+</td></tr><tr><td id="d203648e72">
 
 **Response Workflow**
 
@@ -42,7 +42,7 @@ View a list of runbooks available for this security incident.
 
 View any workflow associated with this incident.
 
-</td></tr><tr><td id="d203617e81">
+</td></tr><tr><td id="d203648e81">
 
 **[Add Multiple Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/add-multiple-si-observables.md)**
 
@@ -50,7 +50,7 @@ View any workflow associated with this incident.
 
 Adds a list of observables in comma, new line, tab, or pipe delimited formats.
 
-</td></tr><tr><td id="d203617e97">
+</td></tr><tr><td id="d203648e97">
 
 **[Add to Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/case-mgmt.md)**
 
@@ -58,7 +58,7 @@ Adds a list of observables in comma, new line, tab, or pipe delimited formats.
 
 Adds the security incident to one or more security cases. You can also create a new security case and add this security incident to it.
 
-</td></tr><tr><td id="d203617e115">
+</td></tr><tr><td id="d203648e115">
 
 **Get QRadar IP Summaries**
 
@@ -66,7 +66,7 @@ Adds the security incident to one or more security cases. You can also create a 
 
 If a QRadar integration is available, and contains valid CIs, source, and destination IP addresses, it triggers the QRadar workflows and displays the results in work notes.
 
-</td></tr><tr><td id="d203617e125">
+</td></tr><tr><td id="d203648e125">
 
 **Run Orchestration**
 
@@ -74,15 +74,15 @@ If a QRadar integration is available, and contains valid CIs, source, and destin
 
 Choose and run a Security Operations workflow.
 
-</td></tr><tr><td id="d203617e134">
+</td></tr><tr><td id="d203648e134">
 
-****
+**[View SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-level-management/t_ViewSLATimeline.md)**
 
 </td><td>
 
 You can view an SLA timeline from a Task SLA record or from an SLA definition.
 
-</td></tr><tr><td id="d203617e147">
+</td></tr><tr><td id="d203648e148">
 
 **Show All Related Lists**
 
@@ -90,7 +90,7 @@ You can view an SLA timeline from a Task SLA record or from an SLA definition.
 
 Displays all standard related lists and any lists added manually. **Note:** Manually added items are available only in this view.
 
-</td></tr><tr><td id="d203617e159">
+</td></tr><tr><td id="d203648e160">
 
 **[Show Affected Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/show-affected-items-for-si.md)**
 
@@ -98,7 +98,7 @@ Displays all standard related lists and any lists added manually. **Note:** Manu
 
 Displays the lists of CIs, users, and services directly affected by this incident
 
-</td></tr><tr><td id="d203617e175">
+</td></tr><tr><td id="d203648e176">
 
 **[Show Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/show-related-items-for-si.md)**
 
@@ -106,7 +106,7 @@ Displays the lists of CIs, users, and services directly affected by this inciden
 
 Displays the lists of related incidents, CIs, users, and groups affected by this incident.
 
-</td></tr><tr><td id="d203617e191">
+</td></tr><tr><td id="d203648e192">
 
 **[Show IoC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/show-ioc-info-for-si.md)**
 
@@ -114,7 +114,7 @@ Displays the lists of related incidents, CIs, users, and groups affected by this
 
 Displays the lists of observables, indicators, malware, modes and methods, and security scan requests associated with this incident.
 
-</td></tr><tr><td id="d203617e208">
+</td></tr><tr><td id="d203648e209">
 
 **[Show Enrichment Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/show-enrich-data-for-si.md)**
 
@@ -122,7 +122,7 @@ Displays the lists of observables, indicators, malware, modes and methods, and s
 
 Displays the lists of enrichment data, processes, services, statistics, lookups, firewall logs, and compromised user information associated with this incident.
 
-</td></tr><tr><td id="d203617e224">
+</td></tr><tr><td id="d203648e225">
 
 **[Show Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/show-response-tasks-for-si.md)**
 
@@ -130,7 +130,7 @@ Displays the lists of enrichment data, processes, services, statistics, lookups,
 
 Displays the lists of tasks, SLAs, risk score audits, outages, and Exchange searches associated with this incident.
 
-</td></tr><tr><td id="d203617e240">
+</td></tr><tr><td id="d203648e241">
 
 **View Details in External System**
 
@@ -138,7 +138,7 @@ Displays the lists of tasks, SLAs, risk score audits, outages, and Exchange sear
 
 If this security incident was generated from an external application, directly or by events, and a link to the originating data was provided, the **View Details in External System** action opens the URL. You can view and search through the logs that generated this incident.
 
-</td></tr><tr><td id="d203617e255">
+</td></tr><tr><td id="d203648e256">
 
 **[Scan for Vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_SubmitThrtReqFromSecInc.md)**
 

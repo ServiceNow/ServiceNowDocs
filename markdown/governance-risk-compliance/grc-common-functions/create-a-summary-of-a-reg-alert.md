@@ -27,7 +27,7 @@ For more information on related roles and regulatory alerts, see [Types of alert
 
 Install the Now Assist for IRM application to generate regulatory alert summaries. For more information, see [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 The summary for a regulatory alert is generated based on the prompts set during the configuration of the summarization skill. For example, if you select important dates, regulatory authority, summary of changes, penalties, and fines as key details to capture, the summary includes that information. After the summary is generated, you can directly use the summary and save it in the activity stream of the regulatory alert.
 
@@ -35,7 +35,7 @@ Starting with version 19.0.x, users who have the Now Assist for IRM application 
 
 **Important:** Be sure to check AI-generated summaries for accuracy. If no information is available, the generated summary displays “**No specific information available for penalty or fines and so on"**.
 
-By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see . \(Note that global domain is not the same as global scope. For more information, see .\)
+By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-pickers.md).\)
 
 ## Procedure
 
@@ -51,15 +51,15 @@ By default, all skills exist in the global domain. When you use Now Assist in a 
 
 4.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d154059e211">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d154088e214">
 
 Option
 
-</th><th align="left" id="d154059e214">
+</th><th align="left" id="d154088e217">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d154059e220">
+</th></tr></thead><tbody><tr><td id="d154088e223">
 
 **Share to additional comments**
 
@@ -67,7 +67,7 @@ Description
 
 Select the **Share to additional comments** button to launch the Summarized result in an editor window. You can modify or review the summary and make any necessary corrections to improve its accuracy and completeness.
 
-</td></tr><tr><td id="d154059e235">
+</td></tr><tr><td id="d154088e238">
 
 **View more**
 
@@ -75,7 +75,7 @@ Select the **Share to additional comments** button to launch the Summarized resu
 
 Select this link to expand the summary.
 
-</td></tr><tr><td id="d154059e244">
+</td></tr><tr><td id="d154088e247">
 
 **View less**
 
@@ -83,7 +83,7 @@ Select this link to expand the summary.
 
 Select this link to collapse the summary.
 
-</td></tr><tr><td id="d154059e253">
+</td></tr><tr><td id="d154088e256">
 
 **Provide feedback**
 
@@ -93,7 +93,7 @@ Select the helpful icon \[Omitted image "686bdc7532da8a3d5b2548f101f5b2091038092
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d154059e279">
+</td></tr><tr><td id="d154088e282">
 
 **Copy the summary**
 
@@ -101,7 +101,7 @@ Select the helpful icon \[Omitted image "686bdc7532da8a3d5b2548f101f5b2091038092
 
 Select the copy icon \[Omitted image "ea6a98bd0d399f9047adea178f8fce126935a4ed.png"\] Alt text: to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d154059e296">
+</td></tr><tr><td id="d154088e299">
 
 **Regenerate the summary**
 

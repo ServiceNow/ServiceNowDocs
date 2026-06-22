@@ -32,6 +32,6 @@ Role required: admin
 
 4.  Select the **Add new element** drop-down, and then select the element to be added to the dashboard.
 
-    For more information to edit a dashboard, see .
+    For more information to edit a dashboard, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/edit-db-in-ac.md).
 
 

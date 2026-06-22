@@ -31,7 +31,7 @@ Role required: sn\_change\_write
 
 Required role:
 
-Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
 ## About this task
 
@@ -41,15 +41,15 @@ The agent verifies the prerequisites at the beginning of the agentic workflow. I
 
 1.  Either initiate the Analyze potential impact agentic workflow using a change request number or from an open change request.
 
-<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d259414e151">
+<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d257315e151">
 
 Situation
 
-</th><th align="left" id="d259414e154">
+</th><th align="left" id="d257315e154">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d259414e160">
+</th></tr></thead><tbody><tr><td id="d257315e160">
 
 **Change request number is known**
 
@@ -60,7 +60,7 @@ Steps
 3.  When prompted, enter the change request number.
 
 
-</td></tr><tr><td id="d259414e192">
+</td></tr><tr><td id="d257315e192">
 
 **Open change request**
 

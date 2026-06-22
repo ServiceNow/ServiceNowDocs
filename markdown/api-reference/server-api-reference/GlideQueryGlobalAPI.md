@@ -1479,7 +1479,7 @@ This method does not support all GlideRecord encoded query operators. The follow
 </table>|Name|Type|Description|
 |----|----|-----------|
 |table|String|Table to query, such as task or incident.|
-|encoded\_query|String|Encoded query to apply to the records in the specified table.|
+|encoded\_query|String|[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) to apply to the records in the specified table.|
 
 |Type|Description|
 |----|-----------|

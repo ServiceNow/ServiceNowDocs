@@ -33,5 +33,5 @@ The default extension points that are provided with an application cannot be mod
 **Related topics**  
 
 
-[bundle-crapiref.extension-points]
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/extension-points.md)
 

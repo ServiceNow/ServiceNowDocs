@@ -28,7 +28,7 @@ To use a chart screen, you will first need to create a dashboard preview to link
 
 \[Omitted image "donut-flow.png"\] Alt text: Three screen shots showing a flow from launcher screen to chart screen to parameterized list.
 
-For general information on using and configuring data visualizations \(not specifically for mobile\), see the following documentation topics:  and .
+For general information on using and configuring data visualizations \(not specifically for mobile\), see the following documentation topics: [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center.md) and [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
 For information on the various data visualizations supported in mobile, see the user-related topics in [Mobile platform dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-platform/mobile-reporting-dashboard.md).
 

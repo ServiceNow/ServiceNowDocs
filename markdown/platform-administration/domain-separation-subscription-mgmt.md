@@ -22,7 +22,7 @@ The support level is Basic but has some exceptions or special conditions.
 -   The user interface, cache keys, reporting, rollups, and aggregations all use the domain at production run time.
 -   The owner of the instance must be able to set up the application to function across multiple tenants.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 ## Overview of domain separation inSubscription Management
 
@@ -57,5 +57,5 @@ Users in tenant domains can only view their own Now Assist usage. Users in tenan
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
 

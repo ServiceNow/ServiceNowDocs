@@ -27,5 +27,5 @@ To access the extension points, navigate to **System Extension Points** &gt; **S
 **Related topics**  
 
 
-[bundle-crapiref.extension-points]
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/extension-points.md)
 

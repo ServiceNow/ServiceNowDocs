@@ -91,9 +91,9 @@ Create a Workday integration profile to track software subscriptions and optimiz
 
 Role required: admin, sam\_admin, sam\_integrator
 
-Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in .
+Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
 
-**Important:** You must select the **Software Asset Management integration with Workday** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Workday** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -103,15 +103,15 @@ If you’re using Software Asset Workspace, the option to create the Workday int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d86307e606">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d86356e608">
 
 Interface
 
-</th><th align="left" id="d86307e609">
+</th><th align="left" id="d86356e611">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d86307e615">
+</th></tr></thead><tbody><tr><td id="d86356e617">
 
 **Core UI**
 
@@ -122,7 +122,7 @@ Action
 3.  Select **Workday Integration Profile**.
 
 
-</td></tr><tr><td id="d86307e657">
+</td></tr><tr><td id="d86356e659">
 
 **Software Asset Workspace**
 

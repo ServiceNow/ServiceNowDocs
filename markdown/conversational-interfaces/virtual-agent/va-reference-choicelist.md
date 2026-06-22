@@ -30,7 +30,7 @@ The Dynamic Choice control also provides the option to add a header card that di
 
 -   The header card can contain a large or small image or a YouTube video card, along with descriptive text. The choice list contains up to five items by default, but the search feature is suppressed. If there are more than five items, users can choose to show the additional items.
 
--   To control the number of items displayed below a header card, add the **com.glide.cs.web\_header\_picker\_page\_limit** system property. Use the **Value** to specify the number of items in the choice list. For details about creating a system property, see Add a system property.
+-   To control the number of items displayed below a header card, add the **com.glide.cs.web\_header\_picker\_page\_limit** system property. Use the **Value** to specify the number of items in the choice list. For details about creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 
 **Note:**
@@ -129,7 +129,7 @@ return options;
 
     ```
 
-For more information about the preceding scripting details, review information about GlideRecords and the additional information:
+For more information about the preceding scripting details, review information about [GlideRecords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) and the additional information:
 
     -   **fieldName**: Field name is optional information. Pass with `null`.
     -   **table**: Table name to query for displaying the available options.
@@ -382,7 +382,7 @@ return options;
 
     ```
 
-For more information about the preceding scripting details, review information about GlideRecords and the additional information:
+For more information about the preceding scripting details, review information about [GlideRecords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) and the additional information:
 
     -   **fieldName**: Field name is optional information. Pass with `null`.
     -   **table**: Table name to query for displaying the available options.

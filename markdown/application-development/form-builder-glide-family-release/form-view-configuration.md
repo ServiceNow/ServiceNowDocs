@@ -239,7 +239,7 @@ See [Create form annotations in Table Builder](https://raw.githubusercontent.com
 
 A **Formatter** is a read-only element in a form that displays additional information about the selected table record. Unlike fields, formatters are not editable.
 
-See .
+See [Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_Formatters.md).
 
 By using Table Builder, you can visually drag any of the displayed formatters onto the form editor and arrange them.
 

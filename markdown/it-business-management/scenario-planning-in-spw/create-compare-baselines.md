@@ -30,15 +30,15 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 4.  Create or compare baselines.
 
-<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d203806e94">
+<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d202836e94">
 
 Option
 
-</th><th align="left" id="d203806e97">
+</th><th align="left" id="d202836e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d203806e103">
+</th></tr></thead><tbody><tr><td id="d202836e103">
 
 **Create a baseline**
 
@@ -55,7 +55,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 
 **Note:** You can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md) to automatically create financial baselines.
 
-</td></tr><tr><td id="d203806e153">
+</td></tr><tr><td id="d202836e153">
 
 **Compare baselines**
 

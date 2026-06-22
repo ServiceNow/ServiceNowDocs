@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Configure metric pull connectors that require a script, connector definition, an
 
 Role required: evt\_mgmt\_admin
 
-Configure the Datadog API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Datadog API Key credential, see .
+Configure the Datadog API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Datadog API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/API-key-credential-form.md).
 
 ## About this task
 

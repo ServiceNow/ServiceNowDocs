@@ -24,19 +24,19 @@ By embedding workflow automation into customer success management, Customer Succ
 
 <table id="table_ggl_tml_ccc" class="nav-card presentation"><tbody><tr><td>
 
-Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the key features and benefits of Customer Success Management
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the key features and benefits of Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-explore.md)
 
 </td><td>
 
-Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Customer Success Management to meet your needs
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Customer Success Management to meet your needs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing-page.md)
 
 </td></tr><tr><td>
 
-Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Customer Success Management to manage the account lifecycle
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Customer Success Management to manage the account lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-customer-success-landing-page.md)
 
 </td><td>
 
-Reference \[Omitted image "bus-learn.svg"\] Alt text:Get information about the data model and installed components
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get information about the data model and installed components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

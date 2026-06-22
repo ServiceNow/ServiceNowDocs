@@ -364,7 +364,7 @@ Global.
 
         \[Omitted image "va-sp-chat-config.png"\] Alt text: Service Portal Agent Chat Configuration record example.
 
-        **Note:** There are other Service Portal Agent Chat features that you can configure, such as customizing the Agent Chat button in your portal. For more information on customizing the Agent Chat widget in Service Portal, see Configure Agent Chat in Service Portal.
+        **Note:** There are other Service Portal Agent Chat features that you can configure, such as [customizing the Agent Chat button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/configure-va-in-sp.md) in your portal. For more information on customizing the Agent Chat widget in Service Portal, see [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/configure-va-in-sp.md).
 
     -   Apply the branding configuration to a destination page. Enter the system parameter `sysparm_branding_key` with the branding key in the chat widget URL. For example:
 

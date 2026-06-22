@@ -32,15 +32,15 @@ Role required: ArcSight Administrator
 
     \[Omitted image "sir-arcsight-query-viewer-setup3.png"\] Alt text: ArcSight ESM: Query Viewer Setup: Create: General
 
-<table id="choicetable_xs5_bvc_c5b"><thead><tr><th align="left" id="d198400e106">
+<table id="choicetable_xs5_bvc_c5b"><thead><tr><th align="left" id="d198431e106">
 
 Field Name
 
-</th><th align="left" id="d198400e109">
+</th><th align="left" id="d198431e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198400e115">
+</th></tr></thead><tbody><tr><td id="d198431e115">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Enter a name for the query.
 
-</td></tr><tr><td id="d198400e124">
+</td></tr><tr><td id="d198431e124">
 
 **Query On**
 
@@ -56,7 +56,7 @@ Enter a name for the query.
 
 Select **Event** from the drop down list.
 
-</td></tr><tr><td id="d198400e136">
+</td></tr><tr><td id="d198431e136">
 
 **Start Time**
 
@@ -64,7 +64,7 @@ Select **Event** from the drop down list.
 
 To ingest the most recent data, select the date from the events are to be ingested. Specify a date that is a day or a few days earlier than the current date. **Note:** You cannot specify a date that is more than 7 days older than the current date. If you are ingesting a large number of events, you must specify a date that is 1 or 2 days older than the current date.
 
-</td></tr><tr><td id="d198400e148">
+</td></tr><tr><td id="d198431e148">
 
 **End Time**
 
@@ -72,7 +72,7 @@ To ingest the most recent data, select the date from the events are to be ingest
 
 This is the current date.
 
-</td></tr><tr><td id="d198400e158">
+</td></tr><tr><td id="d198431e158">
 
 **Row Limit**
 

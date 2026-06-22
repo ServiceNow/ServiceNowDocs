@@ -43,7 +43,7 @@ Subscriptions and Activity Feed Framework\[com.snc.activity\_subscriptions\]
 Provides a generic set of artifacts to handle subscriptions for any defined subscribable object. Any entity can be defined as a subscribable object and a set of subscribers can subscribe to the objects. When a event occurs related to the subscribable object, activities can be tracked and subscribers can be notified.
 
 </td></tr></tbody>
-</table>**Note:** The Self-Service Analytics Core plugin is also installed when you activate the Platform Analytics Solution for Self-Service Analytics for Customer Service. For more information, see Activate the Platform Analytics Solution for Self-Service Analytics for Customer Service.
+</table>**Note:** The Self-Service Analytics Core plugin is also installed when you activate the Platform Analytics Solution for Self-Service Analytics for Customer Service. For more information, see [Activate the Platform Analytics Solution for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ssa-solution-install-init.md).
 
 ## Procedure
 
@@ -57,7 +57,7 @@ Provides a generic set of artifacts to handle subscriptions for any defined subs
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 
 **Parent Topic:**[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/config-ssa.md)

@@ -32,7 +32,7 @@ You can use a RAM to assess either the risks or objects in your organization. Fo
 
 3.  On the form, modify the fields.
 
-    For information on the RAM fields, refer to .
+    For information on the RAM fields, refer to [Risk Assessment Methodology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-methodology-form.md).
 
 
 **Parent Topic:**[Integrating ESG Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/operational-sustainability-management/esg-risk-management.md)

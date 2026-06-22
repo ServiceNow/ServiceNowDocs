@@ -57,15 +57,15 @@ Role required: sn\_si.admin or all members of an assigned approval group.
 
     2.  In the email notification, choose one option to continue.
 
-<table id="choicetable_fwm_nrk_4gb"><thead><tr><th align="left" id="d99505e166">
+<table id="choicetable_fwm_nrk_4gb"><thead><tr><th align="left" id="d99532e166">
 
 Option
 
-</th><th align="left" id="d99505e169">
+</th><th align="left" id="d99532e169">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d99505e175">
+</th></tr></thead><tbody><tr><td id="d99532e175">
 
 **Select the Click here to approve Approve link**
 
@@ -75,7 +75,7 @@ Approve the delete request. All the email items with a status of `false` in the 
 
 A work note is posted to the security incident record with the number of successfully deleted emails. If tagging is enabled, the `Email Delete - Completed` tag replaces the `Email Delete - Initiated` tag.
 
-</td></tr><tr><td id="d99505e202">
+</td></tr><tr><td id="d99532e202">
 
 **Select the Click here to reject link**
 
@@ -83,7 +83,7 @@ A work note is posted to the security incident record with the number of success
 
 Reject the delete request. A work note is posted with the name of the person who rejected the request. After a request is rejected, as the user with the sn\_si.analyst role, you're required to submit a new delete request if you determine that the emails should be deleted.
 
-</td></tr><tr><td id="d99505e214">
+</td></tr><tr><td id="d99532e214">
 
 **Select the link to the security incident record \(SIR0010002\)**
 

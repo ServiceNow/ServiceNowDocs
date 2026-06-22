@@ -34,7 +34,7 @@ Adding a model to an update set includes the following resources:
 -   ML model artifacts
 -   ML solution and definition \(last three runs, provided one of them was successful\)
 
-For more information on update sets, see System update sets.
+For more information on update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md).
 
 If you want to add the model to a different update set, you must make that update set the current one. See .
 

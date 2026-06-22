@@ -30,7 +30,7 @@ Role required: admin
 
 4.  Add the function field to the database view output.
 
-    See .
+    See [Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_UseSlushbuckets.md).
 
 5.  Review the function definition if the expected value is not returned or a returned value indicates the function definition is invalid.
 

@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The ProcessMiningIntegrationAPI script include provides methods to manage process mining projects and retrieve findings and breakdowns.
 
-This script include requires the Process Mining plugin \(sn\_po\). For more information, see .
+This script include requires the Process Mining plugin \(sn\_po\). For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/process-mining.md).
 
 The calling user must have the sn\_process\_optimization\_analyst or sn\_process\_optimization\_power\_user role.
 
@@ -95,7 +95,7 @@ Array
 
 </td><td>
 
-Activity definitions for the project. An activity definition is an attribute of the process to consider while mining, such as state or assignment group. It must be a column from the table specified in the **table** parameter. At least one activity definition is required to mine a project. For more information about activity definitions, see .
+Activity definitions for the project. An activity definition is an attribute of the process to consider while mining, such as state or assignment group. It must be a column from the table specified in the **table** parameter. At least one activity definition is required to mine a project. For more information about activity definitions, see [Set activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/set-activity-def.md).
 
 **Note:** Activity definitions are also included in the project template specified in the **templateType** parameter. Use the **activities** parameter to specify any additional activities not included in the template.
 
@@ -113,7 +113,7 @@ Array
 
 </td><td>
 
-Breakdown definitions for the project.A breakdown definition allows you to filter records and analyze a process map by categories, such as priority or business category. It must be a column from the table specified in the **table** parameter. Breakdown definitions aren't required to mine a project. For more information about breakdown definitions, see .
+Breakdown definitions for the project.A breakdown definition allows you to filter records and analyze a process map by categories, such as priority or business category. It must be a column from the table specified in the **table** parameter. Breakdown definitions aren't required to mine a project. For more information about breakdown definitions, see [Set breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/breakdown.md).
 
 **Note:** Breakdown definitions are also included in the project template specified in the **templateType** parameter. Use the **breakdowns** parameter to specify any additional breakdowns not included in the template.
 
@@ -346,7 +346,7 @@ Name of the table containing the data to analyze.Data type: String
 
 Map of finding definitions and key performance indicators \(KPIs\), where the key is a finding definition sys\_id and the value is an array of sys\_ids of the KPIs impacted by the finding definition.Finding definitions are located in the Finding Definition \[promin\_finding\_def\] and Automated Finding Definition \[promin\_automated\_finding\] tables. KPIs are located in the Indicator \[pa\_indicators\] table.
 
-For more information about finding definitions and KPIs, see  and .
+For more information about finding definitions and KPIs, see [Working with finding definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/po-finding-definition.md) and [Viewing business insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/view-business-findings.md).
 
 Data type: Object
 
@@ -382,7 +382,7 @@ Date the project was last mined.Data type: String
 
 </td><td>
 
-Mining state for the project.For descriptions of mining states, see .
+Mining state for the project.For descriptions of mining states, see [Mine states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/generate-process-map.md).
 
 Data type: String
 
@@ -1218,7 +1218,7 @@ Type of finding definition.Possible values:
 -   PINGPONG
 -   REWORK
 
-For more information, see .
+For more information, see [Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/automated-findings.md).
 
 </td></tr><tr><td>
 
@@ -1558,7 +1558,7 @@ Name of the table containing the data to analyze.Data type: String
 
 Map of finding definitions and key performance indicators \(KPIs\), where the key is a finding definition sys\_id and the value is an array of sys\_ids of the KPIs impacted by the finding definition.Finding definitions are located in the Finding Definition \[promin\_finding\_def\] and Automated Finding Definition \[promin\_automated\_finding\] tables. KPIs are located in the Indicator \[pa\_indicators\] table.
 
-For more information about finding definitions and KPIs, see  and .
+For more information about finding definitions and KPIs, see [Working with finding definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/po-finding-definition.md) and [Viewing business insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/view-business-findings.md).
 
 Data type: Object
 
@@ -1594,7 +1594,7 @@ Date the project was last mined.Data type: String
 
 </td><td>
 
-Mining state for the project.For descriptions of mining states, see .
+Mining state for the project.For descriptions of mining states, see [Mine states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/generate-process-map.md).
 
 Data type: String
 

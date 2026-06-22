@@ -24,7 +24,7 @@ Explore
 -   [Notify Zoom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/notify-zoom-connector.md)
 -   [Notify voice and SMS capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/notify-voice-SMS-capabilities.md)
 -   [Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/cisco-webex-notify.md)
--   
+-   [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md)
 
 </td><td>
 
@@ -36,7 +36,7 @@ Configure
 -   [Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/configure-providers-for-provider-selectors.md)
 -   [Configure SMS opt-out preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/opt-out-requests.md)
 -   [Configure Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/setup-cisco-webex-notify.md)
--   
+-   [Install Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.md)
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Use
 -   [Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
 -   [Using Notify with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/c_NotifyWithOnCall.md)
 -   [Using the Notify Cisco Webex Connector with a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/use-cisco-webex-notify-mi.md)
--   
+-   [Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/c-agent-ex-use-nc.md)
 
 </td><td>
 

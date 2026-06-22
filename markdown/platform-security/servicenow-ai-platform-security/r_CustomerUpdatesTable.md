@@ -16,7 +16,7 @@ breadcrumb: [System logs, Logs, Platform Security]
 
 Changes made in the system are recorded on the Customer Updates `[sys_update_xml]` table chronologically. There are a few exceptions, as noted below.
 
-To navigate to this table, enter `sys_update_xml.list` into the navigation filter. For information about update sets, see System update sets.
+To navigate to this table, enter `sys_update_xml.list` into the navigation filter. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md).
 
 The following information is stored about each update:
 

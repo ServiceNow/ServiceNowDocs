@@ -20,7 +20,7 @@ Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI
 
 Starting with the Australia release, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See  for more information.
+To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See [Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/secops-sem-rn.md) for more information.
 
 See [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/using-now-assist-skills-vulnerability-response.md) for more information about using generative AI skills with Unified Security Exposure Management.
 
@@ -41,7 +41,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect the vulnerability data that you import as well as information about the configuration items in your CMDB. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect the vulnerability data that you import as well as information about the configuration items in your CMDB. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the Now Assist documentation.
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 

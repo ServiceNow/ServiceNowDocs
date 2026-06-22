@@ -104,7 +104,7 @@ Depreciation
 
 </td><td>
 
-The  for the model.
+The [Use depreciation with fixed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/asset-management/c_CreatingFixedAssets.md) for the model.
 
 </td></tr><tr><td>
 

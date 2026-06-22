@@ -26,7 +26,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Install Employee Health Screening.
+1.  [Install Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/safe-workplace/install-emp-health-screening.md).
 
 2.  Give external users access to the Health Verification form.
 

@@ -22,7 +22,7 @@ Agile Development 2.0 guided setup provides a sequence of tasks that help you co
 
 To open Agile Development 2.0 guided setup, navigate to **All** &gt; **Agile Development** &gt; **Agile Development Guided Setup**.
 
-For more information about using the guided setup interface, see Using guided setup.
+For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 -   **[Activate Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/activate-agile-development.md)**  
 Activate the Agile Development 2.0 plugin \(com.snc.sdlc.agile.2.0\) if you have the admin role.

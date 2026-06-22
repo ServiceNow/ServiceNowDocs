@@ -40,24 +40,24 @@ Zurich Patch 9 includes fixes for security-related problems that affected certai
 
 ## Changes in Zurich Patch 9
 
--   ****
+-   **[Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/guarded-script.md)**
 
     The guarded script evaluator enhances instance security by supporting only a restricted scripting language and detecting or rejecting untrusted scripts that use unsupported JavaScript features.
 
--   ****
+-   **[JavaScript APIs supported by guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/guarded-script-allowed-apis.md)**
 
     Review the JavaScript APIs that guarded script supports to help you analyze scripts in the Incompatible Guarded Scripts list and either rewrite them or create an exemption for them.
 
--   ****
+-   **[Request Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric-hub/request-wdf.md)**
 
     Create zero copy connections and data fabric tables in Workflow Data Fabric Hub after requesting the Zero Copy Connectors app through the Now Support Service Catalog. If it isn't already installed, the app installs Workflow Data Fabric Hub.
 
--   ****
--   ****
+-   **[Update scripts incompatible with guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/incompatible-guarded-scripts.md)**
+-   **[Script sandbox environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-sandbox-environment.md)**
 
     The script sandbox environment is a restricted execution context in which untrusted, client-generated scripts run on the server using one of two evaluators: the guarded script evaluator or the script sandbox evaluator.
 
--   ****
+-   **[Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-sandbox.md)**
 
     The evaluator:
 

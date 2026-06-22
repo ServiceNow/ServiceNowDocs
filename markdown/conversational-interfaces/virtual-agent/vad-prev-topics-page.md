@@ -37,7 +37,7 @@ Localization Insights
 
 </td><td>
 
-Button that opens the Localization Insights dashboard. It shows reports of topics with their translation statuses. For more information, see Localization Insights dashboard.
+Button that opens the Localization Insights dashboard. It shows reports of topics with their translation statuses. For more information, see [Localization Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework/localization-insights-dashboard.md).
 
 </td></tr><tr><td>
 

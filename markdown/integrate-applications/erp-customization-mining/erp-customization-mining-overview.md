@@ -24,7 +24,7 @@ Replatforming is the process of scanning legacy ERP system code to find potentia
 
 The replatforming of legacy code enables innovation on top of the system of record without knowledge of the legacy system. Database administrators and developers are then relieved of time-consuming efforts to create database views or endpoints in the system of record. The database administrators and developers can then work on other projects, such as migration.
 
-**Note:** For information about new and updated features in the Zurich release, see ERP Semantic Mining release notes.
+**Note:** For information about new and updated features in the Zurich release, see [ERP Semantic Mining release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/erp-customization-mining-rn.md).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

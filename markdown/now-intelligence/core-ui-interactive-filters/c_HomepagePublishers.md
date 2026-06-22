@@ -27,7 +27,7 @@ Interactive filters on homepages do not retain default values or retain values a
 **Important:**
 
 -   Performance Analytics widgets on the dashboard do not follow interactive filters. Separately filter those widgets on the same [breakdown source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/breakdown-sources.md) by using the breakdown dashboard controls. For more information, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md) and [Make a breakdown act as an interactive filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/make-breakdown-interactive-filter.md).
--   Interactive filters are not supported for reports that are based on a MetricBase source. For more information, see MetricBase.
+-   Interactive filters are not supported for reports that are based on a MetricBase source. For more information, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/metricbase/metricbase.md).
 
 For information about unified filters in Platform Analytics, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 

@@ -79,7 +79,7 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 
 ### Create an interview question template
@@ -98,15 +98,15 @@ Role required: sn\_interview\_temp.admin
 
 3.  Fill in the form or make edits.
 
-<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d174696e444">
+<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d174431e444">
 
 Field
 
-</th><th align="left" id="d174696e447">
+</th><th align="left" id="d174431e447">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d174696e453">
+</th></tr></thead><tbody><tr><td id="d174431e453">
 
 **Active**
 
@@ -114,7 +114,7 @@ Value
 
 Option for enabling the **Interview Question Template** and make it available.
 
-</td></tr><tr><td id="d174696e465">
+</td></tr><tr><td id="d174431e465">
 
 **Name**
 
@@ -122,15 +122,15 @@ Option for enabling the **Interview Question Template** and make it available.
 
 The name that identifies the interview question template.
 
-</td></tr><tr><td id="d174696e474">
+</td></tr><tr><td id="d174431e474">
 
 **Application**
 
 </td><td>
 
-The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see Application scope.
+The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationScope.md).
 
-</td></tr><tr><td id="d174696e490">
+</td></tr><tr><td id="d174431e490">
 
 **Table**
 
@@ -138,7 +138,7 @@ The application the interview question template belongs to.**Note:** The applica
 
 Name of the table the interview question template is associated with.**Note:** To only show interview question templates for ER interview records, select the Interview \(sn\_er\_interview\) table. If you leave this field blank, the interview template is available globally \(any tables that have been configured to use interview templates also have access\). Currently in the base system, only Employee Relations interviews are set up to access.
 
-</td></tr><tr><td id="d174696e503">
+</td></tr><tr><td id="d174431e503">
 
 **Question template body**
 

@@ -28,7 +28,7 @@ Role required: sn\_esg\_risk\_mgmt.risk\_manager
 
 3.  On the form, fill in the fields.
 
-    For information on the fields of the Risk Assessment Scope form, refer to .
+    For information on the fields of the Risk Assessment Scope form, refer to [Create a risk assessment scope and initiate assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-assess-scope.md).
 
 
 **Parent Topic:**[Integrating ESG Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/operational-sustainability-management/esg-risk-management.md)

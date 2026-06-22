@@ -46,7 +46,7 @@ Standard Record Page \(SRP\) provides options to modify the different modals use
 
 7.  Select the \[Omitted image "add-icon.png"\] Alt text: Create new page icon to create a page or to add a new variant to a page.
 
-    For more information about creating a page and variant, see 
+    For more information about creating a page and variant, see [Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/learning-uib-by-example.md)
 
 
 **Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)

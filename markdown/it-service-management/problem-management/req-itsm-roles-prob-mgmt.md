@@ -84,5 +84,5 @@ Several user roles are installed with activation of the ITSM Roles — Problem M
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of Zurich plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 

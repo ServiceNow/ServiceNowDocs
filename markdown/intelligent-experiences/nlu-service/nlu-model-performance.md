@@ -102,7 +102,7 @@ Click **Run analysis** or **Rerun analysis**, whichever is available. Each time 
 **Related topics**  
 
 
-[bundle-convint.virtual-agent-landing-page]
+[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
 
 [bundle-convint.va-NLU]
 

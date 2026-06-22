@@ -22,7 +22,7 @@ Roles required: admin and security\_admin.
 
 ## About this task
 
-The ACL Assessment for Reports is a store app. For more information about installing store apps, see Install a ServiceNow Store application.
+The ACL Assessment for Reports is a store app. For more information about installing store apps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_InstallApplications.md).
 
 ## Procedure
 

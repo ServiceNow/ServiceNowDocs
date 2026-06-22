@@ -38,7 +38,7 @@ The tools and triggers that are associated with the Request status AI agent are 
 
 To access this AI agent, you must have Now Assist Agent for Requester installed on your instance, which is installed with Now Assist for Platform. You can get Now Assist for Platform when you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
 
-To configure which actions are available, a user with the admin or sp\_admin role can configure the Standard Ticket configuration for a table. In the Standard Ticket actions related list, you can add, change, or remove actions. All actions available from the Standard Ticket configuration can be used by the Request status AI agent. See Configure actions for standard ticket page for more information.
+To configure which actions are available, a user with the admin or sp\_admin role can configure the Standard Ticket configuration for a table. In the Standard Ticket actions related list, you can add, change, or remove actions. All actions available from the Standard Ticket configuration can be used by the Request status AI agent. See [Configure actions for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.md) for more information.
 
 To make the Request status agent available for users, you must navigate to the **Toggle display** step of the guided setup in AI Agent Studio. Toggle Virtual Agent to `true` and select an assistant.
 

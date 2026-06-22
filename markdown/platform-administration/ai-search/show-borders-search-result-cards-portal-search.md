@@ -24,7 +24,7 @@ Role required: sp\_admin or admin
 
 By default, AI Search displays no borders between search result cards on the portal search results page. You can enable display of borders between search result cards on the portal search results page by configuring the Faceted Search Service Portal widget.
 
-To learn more about Service Portal widgets, see .
+To learn more about Service Portal widgets, see [Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
 
 ## Procedure
 

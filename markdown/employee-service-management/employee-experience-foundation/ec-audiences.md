@@ -76,7 +76,7 @@ User Criteria \[user\_criteria\]
 
 </td><td>
 
-Criteria based on role, department, group, location, or company. User criteria is a platform feature. See .
+Criteria based on role, department, group, location, or company. User criteria is a platform feature. See [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/user-criteria.md).
 
 </td></tr><tr><td>
 

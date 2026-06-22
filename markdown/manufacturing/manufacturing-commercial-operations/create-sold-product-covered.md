@@ -59,7 +59,7 @@ Products that were sold to a customer.**Note:**
 -   The sold products list is filtered by the account linked to the contract or entitlement.
 
 -   The **Sold Product** field is automatically removed, when an install base item is added,
--   You can add a sold product, if it isn't listed. Select **New** in the Install Base Item window. For more information, see .
+-   You can add a sold product, if it isn't listed. Select **New** in the Install Base Item window. For more information, see [Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/create-sold-item.md).
 
 
 </td></tr><tr><td>

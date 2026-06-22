@@ -154,7 +154,7 @@ Type
 
 </td><td>
 
-File format to use for the query results.**Note:** Configure the form layout to add this field to the form.
+File format to use for the query results.**Note:** [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) to add this field to the form.
 
 </td></tr></tbody>
 </table>

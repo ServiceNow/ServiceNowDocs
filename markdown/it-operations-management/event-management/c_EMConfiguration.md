@@ -20,7 +20,7 @@ After activating Event Management, set it up to receive and process events, and 
 
 Set up Event Management by completing these tasks in the following order:
 
-1.  Configure a MID Server to receive and process events via the MID Server.
+1.  Configure a [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) to receive and process events via the MID Server.
 2.  [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension.md).
 3.  Configure [Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/connectors-and-listeners.md).
 4.  Configure [event field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMEventFieldMapping.md) and [Binding alerts to CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/ci-binding-alert.md) to manage alert generation.
@@ -35,5 +35,5 @@ Set up Event Management by completing these tasks in the following order:
 
 ## Event Management setup using guided setup
 
-Event Management guided setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. To open Event Management guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
+Event Management guided setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. To open Event Management guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md).
 

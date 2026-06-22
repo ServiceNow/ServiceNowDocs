@@ -32,6 +32,6 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
     **Note:**
 
-    -   To customize the topics that must be displayed and available on the **Show me everything** window, see 
+    -   To customize the topics that must be displayed and available on the **Show me everything** window, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
     -   To monitor and improve your device performance using Now Assist in Virtual Agent, see [Check device health using Now Assist for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)
 

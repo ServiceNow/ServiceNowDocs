@@ -32,11 +32,11 @@ Role required: catalog\_admin, catalog\_builder\_editor
 
 2.  Search for the update set by the name, `CB_<Template Name>_<Catalog Item Name>_<Date and Time Stamp>`.
 
-    **Note:** If a catalog item contains related records such as Variables, Variable Sets, Available For, or Not Available For in a scope other than the current item scope, then such items are transferred in a batch where the related record update set's parent field is set as the update set of the parent catalog item. For more information, see Update set batching.
+    **Note:** If a catalog item contains related records such as Variables, Variable Sets, Available For, or Not Available For in a scope other than the current item scope, then such items are transferred in a batch where the related record update set's parent field is set as the update set of the parent catalog item. For more information, see [Update set batching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/us-hier-overview.md).
 
 3.  Transfer the completed update sets from the source instance to the target instance.
 
-    For more information, see Update set transfers.
+    For more information, see [Update set transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/update-set-transfers.md).
 
 
 **Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)

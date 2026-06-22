@@ -293,7 +293,7 @@ To delegate your tasks using the ServiceNow® mobile:
 -   Add details of the delegation
 -   Submit the delegation
 
-For more information on the ServiceNow® mobile application, see ServiceNow Mobile.
+For more information on the ServiceNow® mobile application, see [ServiceNow Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-config-navigation.md).
 
 ### Delegate tasks using the ServiceNow mobile
 
@@ -375,7 +375,7 @@ Role required: sn\_hr\_core.case\_writer
 
 Notification of delegated tasks are sent to your email address if your HR profile contains that information. For more information, see [Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md).
 
-**Note:** If your company uses Connect, you can choose what notifications you receive. For more information on notifications, see Enable or disable Connect notifications globally.
+**Note:** If your company uses Connect, you can choose what notifications you receive. For more information on notifications, see [Enable or disable Connect notifications globally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/connect/t_EnableDisableConnectNotifications.md).
 
 #### Procedure
 

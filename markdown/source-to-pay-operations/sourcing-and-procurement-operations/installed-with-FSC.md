@@ -226,7 +226,7 @@ Can view and access the Pipeline management tab.
 None
 
 </td></tr></tbody>
-</table>**Note:** An application-specific admin role enables a user to manage application-level configurations, roles, and access controls. Your system-level admin on the production instance must grant the application-specific admin role to the appropriate users, and then remove the application-specific admin role from all users with the system-level admin role to help prevent system-level admins from viewing sensitive application data via forms, lists, and the UI. For more information, see .
+</table>**Note:** An application-specific admin role enables a user to manage application-level configurations, roles, and access controls. Your system-level admin on the production instance must grant the application-specific admin role to the appropriate users, and then remove the application-specific admin role from all users with the system-level admin role to help prevent system-level admins from viewing sensitive application data via forms, lists, and the UI. For more information, see [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/application-administration.md).
 
 ## Scheduled jobs installed
 

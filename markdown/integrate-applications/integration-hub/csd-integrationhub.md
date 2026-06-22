@@ -18,7 +18,7 @@ Use Client Software Distribution \(CSD\) to distribute software from the Service
 
 Create all the records necessary to deploy software from Service Catalog requests, including software models and catalog items. You can use the CSD application to automate the deployment and [revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/sccm-revocation-ihub.md) of software from an SCCM host using the [Microsoft SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/microsoft-sccm-spoke.md). You can define lease periods for software distributed from the Service Catalog and allow lease extensions in some cases, pending approvals. Deployment is accomplished using Integration Hub flows, subflows, and actions.
 
-Integrates with Software Asset Management to manage license counts for deployed software.
+Integrates with [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/software-asset-management/c_SAMOverview.md) to manage license counts for deployed software.
 
 \[Omitted image "CSDProcessFlowDiagram.png"\] Alt text: CSD process flow using SCCM
 

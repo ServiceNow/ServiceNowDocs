@@ -8,7 +8,7 @@ product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
@@ -20,7 +20,7 @@ The Jumpstart Your Natural Language Understanding \(NLU\) Accelerator provides a
 
 Jumpstart Your Natural Language Understanding provides Impact customers with a comprehensive overview of Natural Language Understanding, including many of the underlying features, such as, Planning, Building, Sizing, Training, Vocabulary, Testing, Entity, Deployment, and Monitoring. This offering aims to educate and help you increase your Virtual Agent adoption by laying the groundwork for a healthy foundation.
 
-For related information, see  or .
+For related information, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) or [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/nlu-service/nlu-landing.md).
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 
@@ -31,7 +31,7 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 -   **Session Preparation**
 
     -   Provision a temporary instance 
-    -   Activate and run 
+    -   Activate and run [Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/nlu-service/intent-discovery.md)
     -   Assess current NLU models, if applicable
     ​
 

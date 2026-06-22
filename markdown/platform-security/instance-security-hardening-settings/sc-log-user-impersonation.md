@@ -100,7 +100,7 @@ References
 
 </td><td>
 
-
+[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/c_ImpersonateAUser.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)

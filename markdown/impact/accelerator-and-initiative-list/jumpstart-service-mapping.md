@@ -20,7 +20,7 @@ The Jumpstart Your Service Mapping Accelerator provides a demonstration of the p
 
 Jumpstart Your Service Mapping provides Impact customers with an overview and applied demonstration of Service Mapping. This Accelerator focuses on Service Mapping Foundational techniques and various mapping methods. The possibilities and capabilities of Service Mapping are highlighted, providing key resources and leading practices for getting started.
 
-For more information on the feature, see .
+For more information on the feature, see [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md).
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

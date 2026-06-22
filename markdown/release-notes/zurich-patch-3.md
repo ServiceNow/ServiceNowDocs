@@ -40,17 +40,17 @@ Zurich Patch 3 includes fixes for security-related problems that affected certai
 
 ## Changes in Zurich Patch 3
 
--   ****
+-   **[Conversational intake for sourcing and procurement agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-help-fulfill-pr-agentic.md)**
 
     The Conversational intake for sourcing and procurement agentic workflow addresses your procurement needs by providing product recommendations, guided checkout, off-catalog processes, and detailed product information. It also answers questions and tracks related records.
 
--   ****
+-   **[Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)**
 
     Monitor inbound integration usage requests through the Inbound API Integration Usage dashboard.
 
--   ****
+-   **[Use agentic workflows in Now Assist for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)**
 
--   ****
+-   **[View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md)**
 
     The Inbound API Integration Usage dashboard enables you to view statistics for requestors and their API calls. Filter data by application or resource requested.
 

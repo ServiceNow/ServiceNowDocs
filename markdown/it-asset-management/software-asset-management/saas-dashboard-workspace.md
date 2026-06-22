@@ -251,7 +251,7 @@ Number of SaaS applications or percentage of the total applications that are man
 **Important:** To view this chart, you must do the following:
 
 -   Request and install the latest version of the Software Asset Management -SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
--   Install the Agent Client Collector for Visibility - Content \(ACC-VC\) product version 1.9.0 or later. For more information, see .
+-   Install the Agent Client Collector for Visibility - Content \(ACC-VC\) product version 1.9.0 or later. For more information, see [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/agent-client-collector/acc-landing-page.md).
 
 For more information, see the [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/shadow-saas-analytics.md).
 

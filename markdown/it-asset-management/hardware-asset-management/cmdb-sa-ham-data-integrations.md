@@ -22,7 +22,7 @@ For a quick reference to improve HAM data coverage, see [Data integration checkl
 
 ## Access data integrations
 
-Navigate to the CMDB success advisor, and on the HAM card, select **View insights**. Select the **Data integrations** tab. To access the dashboard, see .
+Navigate to the CMDB success advisor, and on the HAM card, select **View insights**. Select the **Data integrations** tab. To access the dashboard, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
 
 **Note:** The CMDB success advisor for HAM dashboard is available only after the setup process is complete. For more information, see [Set up CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
 

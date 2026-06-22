@@ -86,7 +86,7 @@ This remediation enforces a combination of authentication methods, in the form o
 -   It restricts any guest users who are currently accessing this data.
 -   Create an account for a user who needs access to this content, with the necessary access control permissions.
 
- To learn more, see SOAP web service and MID Server authentication credentials and SOAP requests.
+ To learn more, see [SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_SOAPWebService.md) and [MID Server authentication credentials and SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-authentication-soap-requests.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ References
 [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_Authentication.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

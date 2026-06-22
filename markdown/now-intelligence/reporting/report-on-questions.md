@@ -40,7 +40,7 @@ If there is a Record Producer associated with the table, variables defined in th
 -   Macro
 -   Container
 
-You cannot group by Record Producer variables. For more information, see Record Producer.
+You cannot group by Record Producer variables. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 **Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdvancedReporting.md)
 

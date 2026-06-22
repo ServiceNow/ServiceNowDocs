@@ -43,5 +43,5 @@ See [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceN
 
 ## What to do next
 
-Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see .
+Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see [Setup the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-business-portals.md).
 

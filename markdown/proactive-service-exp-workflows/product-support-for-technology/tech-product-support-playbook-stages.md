@@ -120,7 +120,7 @@ The decision table is provided with the Product Support for Technology applicati
 
  To enable the diagnostic activity in the troubleshoot stage, select the case category in the decision table as Issue, the diagnostic activity field is field is updated to True.
 
- The status can be changed to False by the agent. For more details on updating decision tables, see .
+ The status can be changed to False by the agent. For more details on updating decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-tables/decision-table.md).
 
  The agent can view and do the following actions in these tabs:
 

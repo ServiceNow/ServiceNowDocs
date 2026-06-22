@@ -35,7 +35,7 @@ Login to your ServiceNow instance to perform the following procedure.
 
 4.  Select the attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachments icon\) and attach the JKS certificate you had generated.
 
-    For more information, see .
+    For more information, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 5.  Click **Validate Stores/Certificates**.
 

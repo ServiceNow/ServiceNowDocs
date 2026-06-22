@@ -26,15 +26,15 @@ Create or modify a rate model that can be linked to a project or demand to deter
 
 1.  Create a rate model.
 
-<table id="create-rate-model-option"><thead><tr><th align="left" id="d163549e71">
+<table id="create-rate-model-option"><thead><tr><th align="left" id="d162563e71">
 
 Option
 
-</th><th align="left" id="d163549e74">
+</th><th align="left" id="d162563e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d163549e80">
+</th></tr></thead><tbody><tr><td id="d162563e80">
 
 **From Project Administration**
 
@@ -44,7 +44,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d163549e116">
+</td></tr><tr><td id="d162563e116">
 
 **From Time Sheets**
 

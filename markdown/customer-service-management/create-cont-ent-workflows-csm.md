@@ -8,7 +8,7 @@ product: Customer Service Management
 classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configuring Contracts and Entitlement Workflows, Customer Contracts and Entitlements, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -89,8 +89,8 @@ Opportunity and quote together**Note:** You cannot create opportunities and quot
 </td></tr></tbody>
 </table>**Note:** To create an opportunity or opportunity and quote together during renewal, the admin needs to set up the following records:
 
--   Sales Cycle Type: In the Code field, enter **RENEW** and set the Active option to **True**. For more info, see .
--   Opportunity Stage: In the Name field, enter **Develop** and set the Active option to **True**. For more info, see .
+-   Sales Cycle Type: In the Code field, enter **RENEW** and set the Active option to **True**. For more info, see [Create a sales cycle for an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/opportunity-management-sales-cycle-types.md).
+-   Opportunity Stage: In the Name field, enter **Develop** and set the Active option to **True**. For more info, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/opportunity-management-opportunity-stages.md).
 
 If the user selects an opportunity and a quote as target entities, a renewal opportunity and a quote is created. The opportunity and the quote are associated to each other.
 

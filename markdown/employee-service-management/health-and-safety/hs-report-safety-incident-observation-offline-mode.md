@@ -20,7 +20,7 @@ Report a safety incident or observation in the offline mode-without an internet 
 
 Verify the following conditions:
 
--   The system properties for the offline mode behavior of the mobile application are configured. For more information, see .
+-   The system properties for the offline mode behavior of the mobile application are configured. For more information, see [Configure offline mode behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/sg-configure-offline-mode.md).
 -   The Health and Safety Incident Management application is configured for offline mobile. For more information, see [Configure offline mode in the Now Mobile app for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-configure-offline-mode-health-safety.md).
 -   The offline mode for the Now Mobile app on your mobile device is turned on. For more information, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-health-safety-mobile.md).
 -   The **glide.sg.offline.scheduled\_download.enabled** system property for scheduled offline caching is set. If the property is not set, manually update cache before you go offline. To update cache, navigate to **Settings** and tap **Update Cache**.
@@ -29,7 +29,7 @@ Role required: none
 
 ## About this task
 
-For information on how the offline mode works in the mobile app, see .
+For information on how the offline mode works in the mobile app, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/offline-end-user.md).
 
 ## Procedure
 

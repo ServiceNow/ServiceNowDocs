@@ -50,7 +50,7 @@ Role required: admin
 
     2.  On **Hide tab**, hover over the field and select the option to bind the data broker configured for the playbook.
 
-        For more information, see .
+        For more information, see [Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/connect-data.md).
 
         \[Omitted image "cmpro-connect-data.png"\] Alt text: Tab settings to connect the data broker to the tab component.
 

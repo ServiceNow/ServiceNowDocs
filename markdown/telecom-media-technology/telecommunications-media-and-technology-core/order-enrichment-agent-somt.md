@@ -28,7 +28,7 @@ If needed, the outcome of the order tasks can be modified by the agent.
 
 When an OLI is created, if an enrichment process isn’t defined for that order line specification, a place order task is created. When this task is assigned to an agent, it triggers the order enrichment AI agent for this order line item.
 
-If the specification enrichment tasks defined in the decision table aren’t available to create the enrichment tasks, the default flow trigger enrichment AI agent is triggered to create the enrichment tasks for an order line item during the enrichment process. To configure the order enrichment flows using Decision Tables, see .
+If the specification enrichment tasks defined in the decision table aren’t available to create the enrichment tasks, the default flow trigger enrichment AI agent is triggered to create the enrichment tasks for an order line item during the enrichment process. To configure the order enrichment flows using Decision Tables, see [Configure order enrichment flows using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/configure-order-enrichment.md).
 
 To modify the order enrichment AI agent, , and adjust the settings according to your requirements.
 

@@ -36,7 +36,7 @@ If you have Problem Management Best Practice — Madrid — Knowledge Integratio
     -   The problem **Description** and **Workaround** become the knowledge article **Text**.
     -   The problem **Configuration item** becomes the knowledge article **Configuration Item**.
     -   The article **Topic** is set to **Known Error**.
-    By default, the system creates a knowledge article in **Draft** workflow state. If the knowledge submission workflow is enabled, the problem **Short description** and **Work notes** are placed into a knowledge submission instead of an article. For more information, see Knowledge workflows.
+    By default, the system creates a knowledge article in **Draft** workflow state. If the knowledge submission workflow is enabled, the problem **Short description** and **Work notes** are placed into a knowledge submission instead of an article. For more information, see [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md).
 
 
 **Parent Topic:**[Communicating the outcome of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/communicate-outcome-of-problem.md)

@@ -7,7 +7,7 @@ release: zurich
 product: Operational Sustainability Management
 classification: operational-sustainability-management
 topic_type: reference
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

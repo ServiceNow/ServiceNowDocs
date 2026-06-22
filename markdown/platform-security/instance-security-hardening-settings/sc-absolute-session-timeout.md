@@ -18,7 +18,7 @@ Use the **glide.ui.user\_cookie.max\_life\_span\_in\_days** property to set a ma
 
 It enables the user cookie to be valid for the duration of specified days, starting when the cookie was first issued. The default value is 30 days, and the maximum cap is at 365 days.
 
-**Note:** To enforce a maximum session time for any active user sessions, see .
+**Note:** To enforce a maximum session time for any active user sessions, see [Managing user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/c_ManageUserSessions.md).
 
 ## More information
 
@@ -108,10 +108,10 @@ References
 
 </td><td>
 
-Available system properties [Remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_ChSetRemMeChkbxCookie.md)
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md) [Remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_ChSetRemMeChkbxCookie.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

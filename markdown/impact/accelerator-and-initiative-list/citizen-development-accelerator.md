@@ -22,7 +22,7 @@ The Citizen Development Program Design Accelerator provides Impact customers wit
 
 This Accelerator includes workshops to assess and create a prioritized list of candidates for Citizen Development, determine the required screening and training for them, and assess operational and technical governance to identify any necessary adjustments.
 
-For more information on the Citizen Development and low code development, see .
+For more information on the Citizen Development and low code development, see [Exploring App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/exploring-aes.md).
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

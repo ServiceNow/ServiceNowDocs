@@ -26,13 +26,13 @@ With this application, you can perform the following:
 ## Prerequisites
 
 -   Activate the Source-to-Pay integration with the SAP Ariba application from the ServiceNow Store. This automatically activates the SAP Ariba Spoke.
--   Set up SAP Ariba Spoke.
+-   Set up [SAP Ariba Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/sap-ariba-spoke.md).
 
 \[Omitted image "sap-ariba-overview.png"\] Alt text: Overview of Source-to-Pay integration with SAP Ariba
 
 ServiceNow Store app plugins: sn\_sap\_ariba\_spoke.
 
-**Note:** The Source-to-Pay integration with SAP Ariba depends on the SAP Ariba Spoke.
+**Note:** The Source-to-Pay integration with SAP Ariba depends on the [SAP Ariba Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/sap-ariba-spoke.md).
 
 ## Request apps on the Store
 

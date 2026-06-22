@@ -125,7 +125,7 @@ Internal Integration User
 
 </td><td>
 
-Select this check box to Mark service accounts as internal integration users.
+Select this check box to [Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Select the user identity type based on the user:-   Human - Select this for a re
 -   Machine - Select this for a non-human system or device, such as a server, application, or service account that makes automated requests.
 -   AI - Select this for an autonomous AI-driven system. AI users should be used when an AI agent or agentic workflow needs permissions greater than that of the invoking user.
 
-See Security for AI agents for more information on using AI type users.
+See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md) for more information on using AI type users.
 
 **Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI**.
 

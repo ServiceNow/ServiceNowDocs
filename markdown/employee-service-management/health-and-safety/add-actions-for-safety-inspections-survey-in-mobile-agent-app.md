@@ -20,7 +20,7 @@ Learn how to use the Mobile Agent app to create actions for an inspection survey
 
 Verify the following conditions:
 
--   The system properties for the offline mode behavior of the mobile application are configured. For more information, see .
+-   The system properties for the offline mode behavior of the mobile application are configured. For more information, see [Configure offline mode behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/sg-configure-offline-mode.md).
 -   The offline mode for the Mobile Agent app on your mobile device is turned on. For more information, see [Offline mode for Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-health-safety-mobile.md).
 -   The **glide.sg.offline.scheduled\_download.enabled** system property for scheduled offline caching is set. If the property is not set, manually update cache before you go offline. To update cache, navigate to **Settings** and tap **Update Cache**. This ensures that the survey is downloaded and it's ready for you to complete.
 
@@ -30,7 +30,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_agent
 
 Surveys completed offline are synchronized once an internet connection is established.
 
-For more information on how offline mode works in the mobile app, see .
+For more information on how offline mode works in the mobile app, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/offline-end-user.md).
 
 For more information on how an admin configures which survey field type should display the **Create action** check box, see [Configure the create action check box for safety inspection survey in the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/hs-configure-create-action-checkbox-mobile-survey.md).
 
@@ -42,15 +42,15 @@ For more information on how an admin configures which survey field type should d
 
 3.  To open surveys,
 
-<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d102064e145">
+<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d101797e147">
 
 Section
 
-</th><th align="left" id="d102064e148">
+</th><th align="left" id="d101797e150">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d102064e154">
+</th></tr></thead><tbody><tr><td id="d101797e156">
 
 **My Surveys**
 
@@ -58,7 +58,7 @@ Steps
 
 Tap **My Assessments and Surveys**.All surveys that were downloaded before you went offline are listed.
 
-</td></tr><tr><td id="d102064e168">
+</td></tr><tr><td id="d101797e170">
 
 **Inspections**
 

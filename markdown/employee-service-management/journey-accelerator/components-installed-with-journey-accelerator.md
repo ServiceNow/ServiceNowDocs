@@ -16,7 +16,7 @@ breadcrumb: [Reference, Journey Accelerator, Employee Journey Management, HR Ser
 
 Several types of components install with the activation of the Journey Accelerator application, including user roles and tables. There are also dependencies on other features or apps.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 Demo data is available for the Journey Accelerator application. If you want to install the demo data, click **Load demo data** when installing this application. Demo data includes sample records and configurations for common use cases.
 
@@ -74,9 +74,9 @@ none
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see Add a role to an existing role.
--   To assign a role to a group, see Assign a role to a group.
--   To assign a role to a user, see Assign a role to a user.
+-   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 ## Tables installed
 
@@ -95,7 +95,7 @@ none
 |Journey Accelerator Task Template \[sn\_ja\_task\_template\]|Contains details about Journey Accelerator task templates.|
 |Journey Accelerator Task Template for Stage Config \[sn\_ja\_m2m\_stage\_task\_temp\]|Used to maintain the relationship of task templates to Journey Accelerator task templates.|
 
-For more information on table administration and how to manage data, see Table administration.
+For more information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
 
 **Parent Topic:**[Journey Accelerator reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-reference.md)
 

@@ -24,7 +24,7 @@ Role required: Admin
 
 ## About this task
 
-On activation, the **Approval with e-signature** plugin adds a prompt for credentials when an approver attempts to approve a request from the list context menu. Enable E-signature approvals on a table-by-table basis. For detailed information on the plugin, see Approval with e-signature.
+On activation, the **Approval with e-signature** plugin adds a prompt for credentials when an approver attempts to approve a request from the list context menu. Enable E-signature approvals on a table-by-table basis. For detailed information on the plugin, see [Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/approvals/approval-with-e-signature.md).
 
 For the OOTB approvals:​
 

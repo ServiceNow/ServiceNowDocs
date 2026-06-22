@@ -7,7 +7,7 @@ release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -35,7 +35,7 @@ The following items are installed with the Sales Common for Channel Partners \(c
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see Find components installed with an application.
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## Procedure
 
@@ -49,15 +49,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d105048e137">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d105150e137">
 
 Demo data install task
 
-</th><th align="left" id="d105048e140">
+</th><th align="left" id="d105150e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d105048e146">
+</th></tr></thead><tbody><tr><td id="d105150e146">
 
 **If demo data is available and you want to install it**
 
@@ -67,7 +67,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d105048e176">
+</td></tr><tr><td id="d105150e176">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 

@@ -34,7 +34,7 @@ This solution is available only if you enable the **Enable to view similar close
 
 3.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
+    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 
 **Parent Topic:**[Predictive Intelligence for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/predictive-intelligence-ur.md)

@@ -18,7 +18,7 @@ The NotifyAction API allows you to define actions to send to a telephony provide
 
 You add actions to a NotifyAction object by calling the respective add function for each type of action. Each add function returns an Action object, such as a SayAction object for the addSay\(\) method. Refer to each method example for information about returned objects.
 
-**Note:** The NotifyAction API is only valid within global applications. To utilize this type of functionality within scoped applications, you must create custom Notify workflow activities. For additional information on creating these activities, see Notify workflow activities.
+**Note:** The NotifyAction API is only valid within global applications. To utilize this type of functionality within scoped applications, you must create custom Notify workflow activities. For additional information on creating these activities, see [Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/notify/c_NotifyActivities.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 

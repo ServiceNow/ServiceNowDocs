@@ -18,5 +18,5 @@ If you are an audit manager, you can use the Audit Workspace to track and manage
 
 ## Audit Workspace landscape
 
-The Audit Workspace is a unified medium with multiple views. These views enable you to create and manage engagements and evidence requests for your financial regulatory audits. They also help you gain insight into the overall audit timeline and status, monitor ongoing audit activity progress, and scope entities. For more information on the Audit Workspace, see .
+The Audit Workspace is a unified medium with multiple views. These views enable you to create and manage engagements and evidence requests for your financial regulatory audits. They also help you gain insight into the overall audit timeline and status, monitor ongoing audit activity progress, and scope entities. For more information on the Audit Workspace, see [Audit Workspace limited](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/audit-management/lite-audit-workspace.md).
 

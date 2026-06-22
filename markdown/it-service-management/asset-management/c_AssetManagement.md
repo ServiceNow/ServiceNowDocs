@@ -1,0 +1,50 @@
+---
+title: Asset Management
+description: The ServiceNow Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/asset-management/c\_AssetManagement.html
+release: zurich
+product: Asset Management
+classification: asset-management
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [IT Service Management]
+---
+
+# Asset Management
+
+The ServiceNow® Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets.
+
+**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, we will provide limited support for the Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience. For more information, see [KB1584548](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584548), [Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/asset-management/exploring-asset-management.md) and [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
+
+Asset management business practices have a common set of goals.
+
+-   Control inventory that is purchased and used.
+-   Reduce the cost of purchasing and managing assets.
+-   Select the proper tools for managing assets.
+-   Manage the asset life cycle from planning to disposal.
+-   Achieve compliance with relevant standards and regulations.
+-   Improve IT service to end users.
+-   Create standards and processes for managing assets.
+
+Most successful ITAM programs involve various people and departments, including IT, finance, services, and end users.
+
+Asset Management and the Configuration Management Database \(CMDB\) are related, but have different goals. Asset Management focuses on the financial tracking of company property. Configuration management focuses on building and maintaining elements that create an available network of services.
+
+-   **[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/asset-management/itsm-sam.md)**  
+The software asset management features of the ITSM suite can be activated using one of the plugins in the feature table.
+-   **[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/contract-management/c_ContractManagement.md)**  
+Manage and track contracts with the ServiceNow® Contract Management application.
+-   **[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/procurement/c_Procurement.md)**  
+Procurement managers can use the ServiceNow® Procurement application to create purchase orders and to obtain items for fulfilling service catalog requests.
+-   **[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/product-catalog/c_ProductCatalog.md)**  
+The product catalog is a set of information about individual models. Models are specific versions or various configurations of an asset. Asset managers use the product catalog as a centralized repository for model information.
+
+**Parent Topic:**[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/r_ITServiceManagement.md)
+
+**Related topics**  
+
+
+[Domain separation and Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/asset-management/domain-separation-asset-management.md)
+

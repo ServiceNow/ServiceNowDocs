@@ -39,14 +39,14 @@ A service channel is a means of assigning a specific type of work items to agent
 1.  To create a service channel, do the following:
 
     1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Channel Management** &gt; **Service Channels**.
-    2.  Select **New** and see Create a service channel to create the service channel.
+    2.  Select **New** and see [Create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md) to create the service channel.
     3.  Select **Submit**.
     The service channel is created.
 
 2.  To create a queue, do the following:
 
     1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Channel Management** &gt; **Queues** or select the service channel and select the **Queues** tab.
-    2.  Select **New** and see Create a work item queue to create the queue.
+    2.  Select **New** and see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md) to create the queue.
     The queue is created in the service channel.
 
 
@@ -56,7 +56,7 @@ Define agent assignment rules and specify groups of agents who are eligible to r
 
 ### Before you begin
 
-You must first create a new assignment rule before you create a service channel. For more information, see create a service channel. Use Advanced Work Assignment \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
+You must first create a new assignment rule before you create a service channel. For more information, see [create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md). Use [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md) \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
 
 Role required: sn\_channel\_mgmt.admin
 
@@ -113,7 +113,7 @@ Groups that are eligible for assignment. -   Select the lock \(\[Omitted image "
 
     The Queues \[awa\_queues\] table is updated with the eligible assignment group.
 
-    **Note:** For a new service channel, you must first create a new assignment rule and then create a service channel.
+    **Note:** For a new service channel, you must first create a new assignment rule and then [create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md).
 
 
 ## Configure KPIs for service channels
@@ -132,7 +132,7 @@ Add the [channel Management reports](https://raw.githubusercontent.com/ServiceNo
 -   Track progress against KPIs and drill down into agents, team, and individual performance.​
 -   Drill down into all queues and monitor ongoing cases, interactions, and tasks.
 -   Jump in and support agents for help-requested work items using chat whisper or add work notes to a task.​
--   Refine data in the dashboard using the Assignment Group interactive filter without modifying the reports. For more information, see Interactive Filters.
+-   Refine data in the dashboard using the Assignment Group interactive filter without modifying the reports. For more information, see [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/interactive-filters/c_HomepagePublishers.md).
 
 The KPI scores are automatically refreshed at an interval of five seconds. However, you can modify the refresh interval by adding the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/components-installed-configurable-wfo-cs.md) or choose to not automatically refresh using the **sn\_channel\_mgmt.channels\_card\_auto\_refresh.enable** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/components-installed-configurable-wfo-cs.md). Also, the service channel cards refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/components-installed-configurable-wfo-cs.md) or you can manually refresh by selectinging the Refresh \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh overview data icon\) icon.
 
@@ -146,7 +146,7 @@ The KPI scores are automatically refreshed at an interval of five seconds. Howev
 
 3.  In the **Reports** tab, select **Edit**.
 
-    **Note:** You must add the Reports related list if you do not see the **Reports** tab.
+    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) if you do not see the **Reports** tab.
 
 4.  Select and add the [Channel Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
 
@@ -160,7 +160,7 @@ The KPI scores are automatically refreshed at an interval of five seconds. Howev
 
     2.  Fill in the details.
 
-        For more information, see Create a single score report.
+        For more information, see [Create a single score report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/c_SingleScoreCharts.md).
 
     3.  Select **Save**.
 
@@ -176,7 +176,7 @@ The KPI scores are automatically refreshed at an interval of five seconds. Howev
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see Create a reference field interactive filter.
+        For more information, see [Create a reference field interactive filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/interactive-filters/t_CreateAReferenceFieldPublisher.md).
 
     8.  Select **Submit**.
 
@@ -201,15 +201,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  To add KPIs to a queue, do one of the following.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d209212e842">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d209337e842">
 
 To
 
-</th><th align="left" id="d209212e845">
+</th><th align="left" id="d209337e845">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d209212e851">
+</th></tr></thead><tbody><tr><td id="d209337e851">
 
 **Add from a service channel**
 
@@ -221,7 +221,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d209212e893">
+</td></tr><tr><td id="d209337e893">
 
 **Add from a queue**
 
@@ -234,7 +234,7 @@ Do This
 </td></tr></tbody>
 </table>2.  In the **Reports** tab, select **Edit**.
 
-    **Note:** You must add the Reports related list if you do not see the **Reports** tab.
+    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) if you do not see the **Reports** tab.
 
 3.  Add the [Channel Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
 
@@ -248,7 +248,7 @@ Do This
 
     2.  Fill in the details.
 
-        For more information, see Create a single score report.
+        For more information, see [Create a single score report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/c_SingleScoreCharts.md).
 
     3.  Select **Save**.
 
@@ -264,7 +264,7 @@ Do This
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see Create a reference field interactive filter.
+        For more information, see [Create a reference field interactive filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/interactive-filters/t_CreateAReferenceFieldPublisher.md).
 
     8.  Select **Submit**.
 
@@ -314,7 +314,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
     2.  Fill in the details.
 
-        For more information, see Create a single score report.
+        For more information, see [Create a single score report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/c_SingleScoreCharts.md).
 
     3.  Select **Save**.
 
@@ -330,7 +330,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see Create a reference field interactive filter.
+        For more information, see [Create a reference field interactive filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/interactive-filters/t_CreateAReferenceFieldPublisher.md).
 
     8.  Select **Submit**.
 
@@ -353,7 +353,7 @@ Role required: sn\_channel\_mgmt.admin
 
 ### About this task
 
-A database view that defines table joins is used for generating reports for a supervisor list. For example, you can create a database view that can join the Case table to the Interaction and Metric tables. When you use this database view, and create a supervisor list to report on the active work items, you may include fields from any of these three tables. For more information, see Database views.
+A database view that defines table joins is used for generating reports for a supervisor list. For example, you can create a database view that can join the Case table to the Interaction and Metric tables. When you use this database view, and create a supervisor list to report on the active work items, you may include fields from any of these three tables. For more information, see [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md).
 
 **Note:** You can configure three supervisor lists for each service channel. The first three lists with the lowest order number appear in Channel Management.
 
@@ -365,7 +365,7 @@ A database view that defines table joins is used for generating reports for a su
 
 3.  Select the **Supervisor Lists** tab.
 
-    **Note:** You must add the Reports related list if you do not see the **Supervisor Lists** tab.
+    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) if you do not see the **Supervisor Lists** tab.
 
 4.  Select **New**.\[Omitted image "supervisor-lists.png"\] Alt text: Service channel chat displaying supervisor lists. For information about the supervisor lists components, refer to the Supervisor Lists form table.
 

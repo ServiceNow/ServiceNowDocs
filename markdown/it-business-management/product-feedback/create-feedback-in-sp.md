@@ -28,15 +28,15 @@ Role required: pf\_user
 
 3.  Select **Feedback** and then choose one of these options to create a feedback.
 
-<table id="choicetable_psy_rgg_dbc"><thead><tr><th align="left" id="d82799e87">
+<table id="choicetable_psy_rgg_dbc"><thead><tr><th align="left" id="d81771e87">
 
 Choice
 
-</th><th align="left" id="d82799e90">
+</th><th align="left" id="d81771e90">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d82799e96">
+</th></tr></thead><tbody><tr><td id="d81771e96">
 
 **All feedback**
 
@@ -46,7 +46,7 @@ From the feedback page:-   Select **All feedback** card to view all the feedback
 -   Select **New feedback** from either the overview or list page.
 
 
-</td></tr><tr><td id="d82799e122">
+</td></tr><tr><td id="d81771e122">
 
 **New filter**
 
@@ -57,7 +57,7 @@ From the feedback page:-   Select **New filter** to create a new filter based on
 -   Select **New feedback** from either overview or list page.
 
 
-</td></tr><tr><td id="d82799e155">
+</td></tr><tr><td id="d81771e155">
 
 **Existing filter**
 

@@ -22,5 +22,5 @@ You can find both Service Catalog items and Knowledge Base articles as recommend
 
 The feature is available with the Zurich release and onwards.
 
-For more information on how to configure the enhanced AI Search assist functionality, see .
+For more information on how to configure the enhanced AI Search assist functionality, see [Configure AI Search Assist for a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/configure-ai-search-assist.md).
 

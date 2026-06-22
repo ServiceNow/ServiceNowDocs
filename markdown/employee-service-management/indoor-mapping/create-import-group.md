@@ -38,7 +38,7 @@ Role required: sn\_map\_core.map\_admin, sn\_map\_core.map\_editor
 
 5.  Attach CAD or PNG files to the record.
 
-    For more information about attaching files to a record, see .
+    For more information about attaching files to a record, see [Manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_ManagingAttachments.md).
 
 6.  Select **Start Import**.
 

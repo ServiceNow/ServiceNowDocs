@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Reference, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Strategy and Goals, Strategic Planning, Strategic Portfo
 
 Several types of components are installed with installation of the Strategic Planning application, such as user roles, tables, scheduled jobs, system properties, and custom scripts.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 **Note:** This topic covers reference information specific to Strategy and Goals, including user roles, tables, and system properties. For common reference information about tables, roles, and system properties installed with Strategic Planning, see [Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md).
 

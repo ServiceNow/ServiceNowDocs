@@ -217,7 +217,7 @@ Role required: admin
 
 4.  Customize the Jenkins Webhook Answer Subflow: Process build information subflow as per your requirement and publish it.
 
-    See Building subflows for more information about creating and using subflows and [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/jenkins-spoke.md) for information about the fields that the routing policies and subflows support.
+    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows and [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/jenkins-spoke.md) for information about the fields that the routing policies and subflows support.
 
 5.  Navigate to **Jenkins v2** &gt; **WebHook Answer Subflows**.
 

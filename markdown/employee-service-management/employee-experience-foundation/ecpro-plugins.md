@@ -125,7 +125,7 @@ Communities \(com.sn\_communities\)
 
 The Communities plugin supports [Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md), where employees can connect, engage, and collaborate with each other.Requires Content Publishing \(sn\_sd\) and Content Experiences \(sn\_ca\)
 
-
+[Activate Communities plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/communities/activate-communities.md)
 
 </td></tr><tr><td>
 
@@ -148,5 +148,5 @@ Content Governance provides a streamlined way for employees to request content t
 [Activate Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-install-content-gov.md)
 
 </td></tr></tbody>
-</table>For more information, see the .
+</table>For more information, see the [List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md).
 

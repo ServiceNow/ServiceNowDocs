@@ -30,7 +30,7 @@ Role required: sn\_tech\_support.agent
 
 4.  Select **Create a Product support for technology Case**.
 
-    Case form as been created using a record producer. For more information about how to create record producer, see .
+    Case form as been created using a record producer. For more information about how to create record producer, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 5.  On the form, fill in the fields.
 

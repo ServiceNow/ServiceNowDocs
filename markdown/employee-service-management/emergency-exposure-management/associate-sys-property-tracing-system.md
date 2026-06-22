@@ -32,7 +32,7 @@ For a list of system properties associated with various tracing systems, see [Sy
 
     To associate a new system property with the tracing system, create it by clicking **New** in the System Properties related list and filling in the System Property form.
 
-    For more information about the System Property form fields, see Add a system property.
+    For more information about the System Property form fields, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Associate a system property with the tracing system.
 

@@ -440,7 +440,7 @@ nobody
 
 </td><td>
 
-The nobody role means that no user has access - not even admin or maint. Use the nobody role carefully. The nobody role takes precedence over the admin override option on ACLs, so even admins can’t have access. See Create an ACL rule.
+The nobody role means that no user has access - not even admin or maint. Use the nobody role carefully. The nobody role takes precedence over the admin override option on ACLs, so even admins can’t have access. See [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 
  Don’t assign it to specific users. You can use this role in ACLs that control access to resources, such as UI pages, processors, script includes, and records.
 
@@ -856,7 +856,7 @@ Applications you install on your instance may include additional roles. Follow t
 
 |Product|Application|
 |-------|-----------|
-|Platform Capabilities|Advanced Work Assignment|
+|Platform Capabilities|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/installed-with-awa.md)|
 
 **Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/ua-creating-roles.md)
 

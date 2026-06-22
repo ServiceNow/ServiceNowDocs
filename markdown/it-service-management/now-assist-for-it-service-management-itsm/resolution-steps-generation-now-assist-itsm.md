@@ -19,7 +19,7 @@ Generate suggested steps automatically by analyzing clusters of closed incidents
 
 ## Before you begin
 
-**Important:** Starting with the Australia release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with . For information on how to get started see, [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
+**Important:** Starting with the Australia release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap.md). For information on how to get started see, [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
 
 To transition to LEAP:
 
@@ -38,7 +38,7 @@ To transition to LEAP:
 
 Role required: itil
 
-**Important:** If you are using LEAP, you also need the LEAP agent \(sn\_itom\_leap.leap\_agent\) role. For more information, see .
+**Important:** If you are using LEAP, you also need the LEAP agent \(sn\_itom\_leap.leap\_agent\) role. For more information, see [Components installed with LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/components-installed-with-aiops-leap.md).
 
 ## About this task
 
@@ -54,15 +54,15 @@ Data from the short description field and the filter conditions set in the incid
 
     The steps to resolve the incident appear in a **Recommendations** pop-up window in the incident record. This action may take a few minutes.
 
-<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d118325e234">
+<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d118398e236">
 
 If
 
-</th><th align="left" id="d118325e237">
+</th><th align="left" id="d118398e239">
 
 Then
 
-</th></tr></thead><tbody><tr><td id="d118325e243">
+</th></tr></thead><tbody><tr><td id="d118398e245">
 
 **You're using LEAP**
 
@@ -70,7 +70,7 @@ Then
 
 The LEAP Resolution Steps Recommendation will appear.\[Omitted image "now-assist-itsm-recommended-actions-leap.png"\] Alt text: LEAP recommended actions
 
-</td></tr><tr><td id="d118325e260">
+</td></tr><tr><td id="d118398e262">
 
 **You're using Suggested steps**
 

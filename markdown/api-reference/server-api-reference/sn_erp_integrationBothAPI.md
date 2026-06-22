@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Script include providing a chainable API for interacting with Zero Copy Connector for ERP \(Enterprise Resource Planning\) models.
 
-This script include requires the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) store application and is provided within the sn\_erp\_integration namespace. For more information, refer to .
+This script include requires the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) store application and is provided within the sn\_erp\_integration namespace. For more information, refer to [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md).
 
 Role required: sn\_erp\_integration.erp\_user
 
@@ -91,7 +91,7 @@ See also:
 
 |Name|Type|Description|
 |----|----|-----------|
-|encodedQuery|String|An encoded query string.|
+|encodedQuery|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|
@@ -606,7 +606,7 @@ Returns a list of available models for the selected system.
 For more information, see
 
 -   [API - model\(String modelId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/sn_erp_integrationBothAPI.md)
--   
+-   [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -705,7 +705,7 @@ See also:
 -   [API - model\(String modelId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/sn_erp_integrationBothAPI.md)
 -   [API - operation\(String operationId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/sn_erp_integrationBothAPI.md)
 -   [API - system\(String systemId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/sn_erp_integrationBothAPI.md)
--   
+-   [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1030,8 +1030,8 @@ Selects an IDoc configuration to operate on.
 
 See also:
 
--   
--   
+-   [Outbound message configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-new-outbound-message-configuration-fields.md)
+-   [Outbound message IDoc status for IDoc log tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-idoc-status-for-idoc-log-tab-columns.md)
 
 |Name|Type|Description|
 |----|----|-----------|

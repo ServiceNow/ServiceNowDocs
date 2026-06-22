@@ -27,9 +27,9 @@ You must have one of the following roles to access this API:
 
 In addition, the Configuration Data Management \(CDM\) plugin must be activated for this API to be available in an instance.
 
-For additional information on Configuration Data Management and the DevOps Config Workspace UI, see Uploading your config data.
+For additional information on Configuration Data Management and the DevOps Config Workspace UI, see [Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-upload-process.md).
 
-For additional information on shared components and shared libraries, see Sharing components among applications — Component libraries.
+For additional information on shared components and shared libraries, see [Sharing components among applications — Component libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-component-libraries.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
@@ -1357,7 +1357,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 
@@ -2179,7 +2179,7 @@ Submits a request to export the current snapshot for a specified application and
 
 This endpoint returns a unique identifier for the request, which you then use to call the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/applications-api.md) endpoint to retrieve the status of the export. Once the export is complete, you can use the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/applications-api.md) endpoint to retrieve the associated application's configuration data.
 
-A snapshot is the complete data model of a deployable at the time a configuration change is committed. This includes any included components, collections, and vars, as well as deployable-specific vars and overrides. For additional information on deployables, see Create and update a deployable.
+A snapshot is the complete data model of a deployable at the time a configuration change is committed. This includes any included components, collections, and vars, as well as deployable-specific vars and overrides. For additional information on deployables, see [Create and update a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-deployable-define.md).
 
 **Note:** Snapshots cannot exceed 10,000 configuration data items \(CDIs\) per deployable or 100,000 CDIs per application.
 
@@ -2304,7 +2304,7 @@ exporterName
 
 </td><td>
 
-Required. Name of the exporter to use to export the snapshot data. Exporters are custom to the implementer. For details on creating a custom exporter, see Create a custom exporter.Data type: String
+Required. Name of the exporter to use to export the snapshot data. Exporters are custom to the implementer. For details on creating a custom exporter, see [Create a custom exporter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-exporter-create-custom.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -3011,7 +3011,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/applications-api.md) results.
 
@@ -3041,7 +3041,7 @@ dataFormatAttributes
 
 </td><td id="cdm_app-dataFormAtt-entry">
 
-Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see .Data type: Object
+Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see [Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-parsing-csv-file.md).Data type: Object
 
 ```
 "dataFormatAttributes" {
@@ -3488,7 +3488,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/applications-api.md) results.
 
@@ -3542,7 +3542,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 
@@ -3843,7 +3843,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/applications-api.md) results.
 
@@ -4277,7 +4277,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/applications-api.md) results.
 
@@ -4319,7 +4319,7 @@ dataFormatAttributes
 
 </td><td id="cdm_app-dataFormAtt-entry">
 
-Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see .Data type: Object
+Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see [Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-parsing-csv-file.md).Data type: Object
 
 ```
 "dataFormatAttributes" {
@@ -4704,7 +4704,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/applications-api.md) results.
 
@@ -4758,7 +4758,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 
@@ -5062,7 +5062,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/applications-api.md) results.
 
@@ -5092,7 +5092,7 @@ dataFormatAttributes
 
 </td><td id="cdm_app-dataFormAtt-entry">
 
-Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see .Data type: Object
+Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see [Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-parsing-csv-file.md).Data type: Object
 
 ```
 "dataFormatAttributes" {
@@ -5267,7 +5267,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 
@@ -5540,7 +5540,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/applications-api.md) results.
 
@@ -5604,7 +5604,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 

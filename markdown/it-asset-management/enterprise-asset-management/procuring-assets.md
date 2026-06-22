@@ -25,5 +25,5 @@ With the Procurement application, you can
 -   create and manage transfer orders,
 -   and receive assets.
 
-See Procurement for more information on procuring assets.
+See [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/procurement/c_Procurement.md) for more information on procuring assets.
 

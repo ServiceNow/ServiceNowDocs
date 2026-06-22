@@ -37,7 +37,7 @@ Enterprise Architecture users with Business stakeholder role for Enterprise Arch
 
 The base system provides access to users with this role to view **Application Landscape**, **Application 360**, and **Application Assessments** dashboards. You can also access all the tables from where the data are retrieved for these dashboard reports.
 
-However, you can also configure your custom-created dashboards and reports to provide users with business stakeholder role. To provide read-only access to a business stakeholder, follow the steps in Share a responsive dashboard
+However, you can also configure your custom-created dashboards and reports to provide users with business stakeholder role. To provide read-only access to a business stakeholder, follow the steps in [Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 
 ## Share widgets in dashboards with business stakeholders
 

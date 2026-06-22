@@ -18,7 +18,7 @@ Track the progress of new requests through the time they are worked on until the
 
 **Important:**
 
-Starting in Xanadu release, the Request Management Platform Analytics Solutions dashboards are deprecated. Users can use the  to view the actionable data visualizations that help in improving the business processes and practices.
+Starting in Xanadu release, the Request Management Platform Analytics Solutions dashboards are deprecated. Users can use the [Request dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/request.md) to view the actionable data visualizations that help in improving the business processes and practices.
 
 \[Omitted image "request-mgmt-requests.gif"\] Alt text: Animated tour of the tabs of the Request Management - Requests dashboard
 

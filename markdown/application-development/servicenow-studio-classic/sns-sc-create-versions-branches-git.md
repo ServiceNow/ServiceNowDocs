@@ -71,15 +71,15 @@ Role required: admin
 
 5.  Choose whether you want to stash or discard local changes.
 
-<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d48589e384">
+<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d48518e384">
 
 Option
 
-</th><th align="left" id="d48589e387">
+</th><th align="left" id="d48518e387">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48589e393">
+</th></tr></thead><tbody><tr><td id="d48518e393">
 
 **Stash local changes**
 
@@ -87,7 +87,7 @@ Description
 
 Saves local changes before switching to an alternate branch. You can later merge or discard the saved changes.
 
-</td></tr><tr><td id="d48589e402">
+</td></tr><tr><td id="d48518e402">
 
 **Discard local changes**
 
@@ -144,7 +144,7 @@ Role required: admin
 
 ### Procedure
 
-1.  Follow the steps listed in .
+1.  Follow the steps listed in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 2.  Add the **glide.source\_control.default\_branch\_name** property, and specify the default branch name of the Git source control repository to work from.
 

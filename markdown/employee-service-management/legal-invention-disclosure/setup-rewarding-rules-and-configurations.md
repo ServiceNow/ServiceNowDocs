@@ -18,7 +18,7 @@ Set up optional rewards for inventors to be granted at three stages of applying 
 
 ## Before you begin
 
-You must update the locale settings in the system properties and then configure the system locale currency before configuring the patent rewards. For more information, see  and .
+You must update the locale settings in the system properties and then configure the system locale currency before configuring the patent rewards. For more information, see [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/currency-administration/locales.md) and [Configuring FX Currency global settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/currency-administration/fx-currency-configure.md).
 
 Role required: sn\_lg\_ip.patent\_config
 

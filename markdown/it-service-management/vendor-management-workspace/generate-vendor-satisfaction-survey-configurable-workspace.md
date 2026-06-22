@@ -32,7 +32,7 @@ The **Vendor Satisfaction Assessment** metric type is used to measure the satisf
 
     1.  Select **Vendor Satisfaction Assessment**.
 
-        For descriptions of the assessment metric type fields, refer to Configure an assessment.
+        For descriptions of the assessment metric type fields, refer to [Configure an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/configure-assessment.md).
 
     2.  Select the **Conditions** tab.
 
@@ -84,9 +84,9 @@ The **Vendor Satisfaction Assessment** metric type is used to measure the satisf
 **Related topics**  
 
 
-[bundle-platcap.configure-assessment]
+[Configure an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/configure-assessment.md)
 
-[bundle-platcap.r_SurveyManagementLandingPage]
+[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/r_SurveyManagementLandingPage.md)
 
-[bundle-platcap.c_AssessmentMetrics]
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/c_AssessmentMetrics.md)
 

@@ -38,9 +38,9 @@ Create users and groups
 
 </td><td>
 
--   Create a user.
--   Create a user group.
--   Add a user to a group.
+-   [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAUser.md).
+-   [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAGroup.md).
+-   [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
 </td></tr><tr><td>
 
@@ -48,8 +48,8 @@ Assign roles to users and groups
 
 </td><td>
 
--   Assign a role to a user.
--   Assign a role to a group.
+-   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+-   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 </td></tr></tbody>
 </table>

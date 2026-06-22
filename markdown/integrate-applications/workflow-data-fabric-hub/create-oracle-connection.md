@@ -97,15 +97,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Oracle.
 
-<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d261184e236">
+<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d256300e236">
 
 Option
 
-</th><th align="left" id="d261184e239">
+</th><th align="left" id="d256300e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d261184e245">
+</th></tr></thead><tbody><tr><td id="d256300e245">
 
 **KeyStore - PEM \(secure\)**
 
@@ -142,7 +142,7 @@ and ending with:
 4.  Enter the PEM file password associated with the wallet.
 
 
-</td></tr><tr><td id="d261184e291">
+</td></tr><tr><td id="d256300e291">
 
 **KeyStore - JKS \(secure\)**
 
@@ -171,7 +171,7 @@ and ends with:
 6.  Enter the keystore password associated with the wallet.
 
 
-</td></tr><tr><td id="d261184e349">
+</td></tr><tr><td id="d256300e349">
 
 **Username / Password**
 

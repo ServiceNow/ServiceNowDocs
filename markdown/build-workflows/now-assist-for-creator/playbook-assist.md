@@ -135,5 +135,5 @@ The following examples can help you to generate playbook outlines:
     ```
 
 
-**Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see .
+**Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
 

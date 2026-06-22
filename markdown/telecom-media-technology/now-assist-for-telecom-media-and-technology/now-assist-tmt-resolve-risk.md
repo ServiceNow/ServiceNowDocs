@@ -26,7 +26,7 @@ Use the Recommend risk signal solutions agentic workflow to:
 
 Customer success managers can collaborate with customer success squad members to monitor risks, perform real-time risk analysis, generate detailed reports with proactive recommendations. This helps prevent escalations, improve customer retention, and enhance service quality. The Recommend risk signal solutions agentic workflow can be used to assess and offer solutions for both individual and multiple risks. It is triggered daily based on a predefined schedule and the results are displayed in the .
 
-For information on how risks are generated, see .
+For information on how risks are generated, see [Create a risk definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-setup-risk-defn.md).
 
 ## Role masking
 

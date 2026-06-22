@@ -32,7 +32,7 @@ Output information appears in the session logs when users access records. You ca
 
 3.  In another browser tab or window, impersonate a user to troubleshoot that user's access.
 
-    **Note:** Impersonation allows an admin to see an instance with another users settings and access. For details on impersonation, see Impersonate a user.
+    **Note:** Impersonation allows an admin to see an instance with another users settings and access. For details on impersonation, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/c_ImpersonateAUser.md).
 
 4.  While impersonating a user, access a list or record where you see unexpected behavior.
 

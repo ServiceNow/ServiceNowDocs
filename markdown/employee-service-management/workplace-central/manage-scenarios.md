@@ -43,15 +43,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
 
 4.  Manage the scenarios based on your requirement.
 
-<table id="choicetable_zfx_yfn_g3c"><thead><tr><th align="left" id="d155833e132">
+<table id="choicetable_zfx_yfn_g3c"><thead><tr><th align="left" id="d155567e132">
 
 Action
 
-</th><th align="left" id="d155833e135">
+</th><th align="left" id="d155567e135">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d155833e141">
+</th></tr></thead><tbody><tr><td id="d155567e141">
 
 **Create a scenario**
 
@@ -69,7 +69,7 @@ The new scenario is created in the **Processing** state and takes some time to m
 4.  Select the Refresh icon \[Omitted image "refresh-icon.png"\] Alt text: to check if your scenario has moved to the **Draft** state.
 
 
-</td></tr><tr><td id="d155833e196">
+</td></tr><tr><td id="d155567e196">
 
 **Create a copy of a scenario**
 
@@ -77,7 +77,7 @@ The new scenario is created in the **Processing** state and takes some time to m
 
 Create a copy of an existing scenario to make minor changes to an already created scenario.For more information about creating a scenario copy, see [Create a copy of an existing scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/create-copy-of-scenario.md).
 
-</td></tr><tr><td id="d155833e214">
+</td></tr><tr><td id="d155567e214">
 
 **View or edit a scenario**
 
@@ -85,7 +85,7 @@ Create a copy of an existing scenario to make minor changes to an already create
 
 Select a scenario to view information like the floor details and space KPIs. Edit a scenario to allocate spaces to projects and neighborhoods, assign spaces to users, or edit space assignments.For more information about viewing and editing scenarios, see [Viewing or editing a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/viewing-editing-scenario.md).
 
-</td></tr><tr><td id="d155833e232">
+</td></tr><tr><td id="d155567e232">
 
 **Publish a scenario**
 
@@ -93,7 +93,7 @@ Select a scenario to view information like the floor details and space KPIs. Edi
 
 Publish a scenario so it’s available for others to view in a read-only mode. Share the scenario with colleagues or stakeholders to review.For more information about publishing a scenario, see [Publish a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/publish-a-scenario.md)
 
-</td></tr><tr><td id="d155833e250">
+</td></tr><tr><td id="d155567e250">
 
 **Review a scenario**
 
@@ -101,7 +101,7 @@ Publish a scenario so it’s available for others to view in a read-only mode. S
 
 Review a scenario created by a colleague, and share feedback before it is deployed.For more information about reviewing a scenario, see [Review a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/review-a-scenario.md).
 
-</td></tr><tr><td id="d155833e268">
+</td></tr><tr><td id="d155567e268">
 
 **Send a scenario for approval**
 
@@ -109,7 +109,7 @@ Review a scenario created by a colleague, and share feedback before it is deploy
 
 Send a published scenario for approval to the workplace managers of your organization.For more information about sending a scenario for approval, see [Send a scenario for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/send-a-scenario-for-approval.md).
 
-</td></tr><tr><td id="d155833e286">
+</td></tr><tr><td id="d155567e286">
 
 **Deploy a scenario**
 
@@ -117,7 +117,7 @@ Send a published scenario for approval to the workplace managers of your organiz
 
 Deploy a scenario to implement the changes in the production workplace data.For more information about deploying a scenario, see [Deploy a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
-</td></tr><tr><td id="d155833e304">
+</td></tr><tr><td id="d155567e304">
 
 **Change the owner of a scenario**
 

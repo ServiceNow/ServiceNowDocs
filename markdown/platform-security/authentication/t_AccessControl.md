@@ -22,7 +22,7 @@ Apply an IP access control to outbound traffic, inbound traffic, or bidirectiona
 
 Role required: admin
 
-**Important:** IP Address Control access control rules can affect the MID Server outbound traffic. If you configure the denylist, add the MID Server IP addresses as allowlist exceptions to avoid connectivity disruptions. For MID Server IP requirements, see 
+**Important:** IP Address Control access control rules can affect the MID Server outbound traffic. If you configure the denylist, add the MID Server IP addresses as allowlist exceptions to avoid connectivity disruptions. For MID Server IP requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md)
 
 ## Procedure
 
@@ -48,7 +48,7 @@ Description
 
 </td><td>
 
-IP access control rules apply to MID Server outbound connections. When using rules, add the MID Server host IP addresses to allowlist to avoid blocking MID Server traffic. For a list of MID Server IP requirements, see 
+IP access control rules apply to MID Server outbound connections. When using rules, add the MID Server host IP addresses to allowlist to avoid blocking MID Server traffic. For a list of MID Server IP requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md)
 
 </td></tr><tr><td>
 

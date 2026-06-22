@@ -16,7 +16,7 @@ breadcrumb: [Task Intelligence, Enable AI experiences]
 
 Create, edit, train, and assess machine learning models to make predictions for customer service cases and incidents.
 
--   ****
+-   **[Managing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md)**
 
     Use the machine learning capabilities of Task Intelligence for ITSM to predict and recommend incident field information and help with incident categorization.
 

@@ -26,7 +26,7 @@ Role required: sn\_apm.apm\_user
 
 2.  To relate the business application with an application service, click open a business application.
 
-3.  Click the Add CI relationship \(\) icon in the **Related Items** section of the business application form to launch the relationship editor and create the CI relationship.
+3.  Click the Add CI relationship \(\) icon in the **Related Items** section of the business application form to launch the relationship editor and create the [CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIRelationship.md).
 
 4.  Select one or more application services from the **Configuration Items** section.
 

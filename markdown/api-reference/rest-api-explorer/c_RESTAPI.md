@@ -8,7 +8,7 @@ product: REST API Explorer
 classification: rest-api-explorer
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [Web services, API implementation, API implementation and reference]
 ---
 
@@ -77,7 +77,7 @@ The following describes some of the data handling nuances within the REST API.
 
     For example, if a user in the UK locale queries records with currency values in USD, the returned values are converted to GBP. However, if this user adds a new record with the currency field value in GBP, the value is stored in GBP without being converted to USD. This GBP value appears in USD if queried by a user in the US locale.
 
--   UI data display versus values passed in a REST endpoint: The UI shows the database display value, which is manipulated data. A REST endpoint, by default, inserts and updates the actual values, which can be different from the display value. You can force a REST endpoint to treat passed values as display values by setting the [sysparm\_input\_display\_value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md) request parameter to true.
+-   UI data display versus values passed in a REST endpoint: The UI shows the database [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md), which is manipulated data. A REST endpoint, by default, inserts and updates the actual values, which can be different from the display value. You can force a REST endpoint to treat passed values as display values by setting the [sysparm\_input\_display\_value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/c_RESTAPI.md) request parameter to true.
 
 ## Custom query parameters
 
@@ -130,7 +130,7 @@ Data type: Boolean
 
 Default: false - This matches the data type that is returned during data retrieval \(GET methods\), which is the actual values.
 
-**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see .
+**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/encryption-landing.md).
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ sysparm\_query
 
 </td><td id="sysparm-query-RESTAPI">
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
 -   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
@@ -163,7 +163,7 @@ Encoded query used to filter the result set. You can use a UI filter to obtain a
     -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
 -   &lt;value&gt;: Value to filter on.
 
-For more information about operators, see .
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
@@ -276,9 +276,9 @@ The user ID that you specify in a REST endpoint call is subject to access contro
 
 ServiceNow REST APIs also support cookies that enable binding to the existing session.
 
-To use the certificate to call the API and information on mutual authentication, see Certificate-based authentication.
+To use the certificate to call the API and information on mutual authentication, see [Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/certificate-based-authentication/certificate-based-authentication.md).
 
-REST API access policies with the filter criterias such as IP, role, group and restrict the scope of API you can use the . To know more about REST API access policy, see REST API access policies.
+REST API access policies with the filter criterias such as IP, role, group and restrict the scope of API you can use the [REST API Auth Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/rest-api-auth-scope.md). To know more about REST API access policy, see [REST API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/inbound-authentication-profile.md).
 
 You can craft one single policy to block the incoming request, at a global REST API level by using the REST API Access policy from outside trusted network and at a basic REST authentication levels.
 
@@ -297,7 +297,7 @@ The following ServiceNow REST API ACLs are available in the base system but are 
 -   Import Set API
 -   Attachment API
 
-For additional information on ACLs, see Access control list rules.
+For additional information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/access-control-rules.md).
 
 **Important:** You should never modify the names of REST API ACLs.
 

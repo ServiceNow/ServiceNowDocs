@@ -46,7 +46,7 @@ The Industrial Core plugin introduces a configuration template to manage class m
 
 With the OT Class Mapping template, you can also define an OT device naming strategy per class by using the **Allow Custom Device Naming** and **Device Naming Strategy** fields. For more information about how to implement the device naming strategy, see [Create and use an OT device naming strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/create-use-ot-device-naming-strategy.md).
 
-For more information about the OT Class Mapping Template and its available fields, see the **OT Class Mapping Template** section in .For more information about reviewing class mappings for the Service Graph Connector for Microsoft Excel, see [Review class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.md).
+For more information about the OT Class Mapping Template and its available fields, see the **OT Class Mapping Template** section in [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).For more information about reviewing class mappings for the Service Graph Connector for Microsoft Excel, see [Review class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ OT Device Network Connection \[sn\_ot\_device\_network\_connection\]
 
 The OT Device Network Connection \[sn\_ot\_device\_network\_connection\] table references the CI relationships \[cmdb\_rel\_ci\] table, and identifies device-to-device connections in CI relationships for OT devices.**Note:** This data is populated with the available OT integrations and cannot be manually created.
 
-For more information about the OT Device Network Connection data model, see .
+For more information about the OT Device Network Connection data model, see [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).
 
 </td></tr><tr><td>
 

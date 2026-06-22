@@ -26,7 +26,7 @@ Before you can follow this example, you should be familiar with creating bluepri
 -   [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
 -   [Configure a blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md)
 
-This example uses a script include. If you want to create similar script includes, familiarize yourself with the Glide System APIs that are part of your instance. See the [Developer site](https://developer.servicenow.com) for a comprehensive list of all APIs. See Script Includes for more information about how the system uses these scripts.
+This example uses a script include. If you want to create similar script includes, familiarize yourself with the Glide System APIs that are part of your instance. See the [Developer site](https://developer.servicenow.com) for a comprehensive list of all APIs. See [Script Includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md) for more information about how the system uses these scripts.
 
 ## About this task
 

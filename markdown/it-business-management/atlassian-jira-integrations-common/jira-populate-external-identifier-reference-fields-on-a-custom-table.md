@@ -65,9 +65,9 @@ Configure the form layout or personalize the list layout of your custom table to
 **Related topics**  
 
 
-[bundle-platux.t_PersonalizeAList]
+[Personalise a v2 list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_PersonalLists.md)
 
-[bundle-platadm.configure-form-layout]
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md)
 
 [Populate external identifier on custom tables for Azure DevOps](https://www.servicenow.com/community/spm-articles/populate-external-identifier-on-custom-tables-for-azure-devops/ta-p/3359244)
 

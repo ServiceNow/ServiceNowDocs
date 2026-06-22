@@ -67,7 +67,7 @@ This template contains several important roles that correspond to individuals or
 
 ## Related concepts
 
-For information about how to set up a service for your Service Request Management application, see Service catalog setup.
+For information about how to set up a service for your Service Request Management application, see [Service catalog setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/p_ServiceCatalogs.md).
 
 **Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/template-library.md)
 

@@ -85,7 +85,7 @@ Functional impact
 This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control. -   It performs this authentication while processing RSS requests on the instance.
 -   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
 
- To learn more, see RSS feed generator.
+ To learn more, see [RSS feed generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_RSSFeedGenerator.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ References
 
 </td><td>
 
-RSS basic authentication
+[RSS basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_BasicAuthentication.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)

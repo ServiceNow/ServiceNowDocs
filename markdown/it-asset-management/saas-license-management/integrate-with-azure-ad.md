@@ -141,7 +141,7 @@ To create a Microsoft Entra ID integration profile, request the Software Asset M
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **Microsoft Entra ID Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Microsoft Entra ID Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -153,15 +153,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft E
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d68112e583">
+<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d68161e584">
 
 Interface
 
-</th><th align="left" id="d68112e586">
+</th><th align="left" id="d68161e587">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d68112e592">
+</th></tr></thead><tbody><tr><td id="d68161e593">
 
 **Core UI**
 
@@ -172,7 +172,7 @@ Action
 3.  Select **Microsoft Entra ID Integration Profile**.
 
 
-</td></tr><tr><td id="d68112e634">
+</td></tr><tr><td id="d68161e635">
 
 **Software Asset Workspace**
 

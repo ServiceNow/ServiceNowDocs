@@ -20,7 +20,7 @@ When initiating a Microsoft Teams chat, users who are part of On-Call Scheduling
 
 The **sn\_tcm\_collab\_hook.on\_call\_tables\_for\_start\_chat\_action** system property controls this functionality. You can extend this functionality to modify the tables and requests that determine which on-call users are included.
 
-For more information on On-Call Scheduling, see On-Call Scheduling.
+For more information on On-Call Scheduling, see [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md).
 
 -   **[Extend On-Call Scheduling users to initiate Microsoft Teams Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/extend-on-call-users-start-chat.md)**  
 View the list of On-Call Scheduling users in Start Microsoft Teams chat for a change, request, or a request item.

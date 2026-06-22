@@ -18,7 +18,7 @@ Create and publish a base version of a product specification. A product specific
 
 ## Before you begin
 
--   Create the product characteristics and characteristic options for your product offerings
+-   [Create the product characteristics and characteristic options for your product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md)
 -   
 
 Role required: sn\_prd\_pm.product\_catalog\_manager
@@ -232,25 +232,25 @@ You can't change this field.
 
     |Tab|Description|
     |---|-----------|
-    |Catalog Hierarchy|View the complete hierarchy of a product offering and any associated specifications. Use the **Show specification** toggle to view the hierarchy of specifications.|
-    |Specification Characteristics|Associate the characteristics and characteristic options with your specification.|
+    |Catalog Hierarchy|[View the complete hierarchy of a product offering and any associated specifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/som-catalog-hierarchy.md). Use the **Show specification** toggle to view the hierarchy of specifications.|
+    |Specification Characteristics|[Associate the characteristics and characteristic options with your specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/create-specification-characteristic.md).|
     |Specification Relationships|[Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/telecommunications-media-and-technology-core/create-specification-relationships-somt.md)|
-    |Product Offerings|Create a product offering from the specification. For details, see .|
+    |Product Offerings|Create a product offering from the specification. For details, see [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/som-create-product-offering.md).|
     |Attribute Mappings|.|
     |Versions|Create another version of the specification.|
-    |Compatibility Rules|Configure compatibility rules for horizontal relationships between the specifications of multiple products, services, or resources.|
+    |Compatibility Rules|[Configure compatibility rules for horizontal relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/order-mgt-compatibility-management.md) between the specifications of multiple products, services, or resources.|
 
 5.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d35869e545">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d35939e546">
 
 Action
 
-</th><th align="left" id="d35869e548">
+</th><th align="left" id="d35939e549">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35869e554">
+</th></tr></thead><tbody><tr><td id="d35939e555">
 
 **Publish**
 
@@ -260,7 +260,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d35869e572">
+</td></tr><tr><td id="d35939e573">
 
 **Update**
 
@@ -268,7 +268,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d35869e581">
+</td></tr><tr><td id="d35939e582">
 
 **Copy**
 

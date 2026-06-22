@@ -18,7 +18,7 @@ Use business rules to automatically route walk-up tasks to the agents based on t
 
 ## Before you begin
 
-Set up metadata in **All Skills**, **Group Skills**, and **User Skills**tables before configuring walk-up locations for skill-based routing. For more information, .
+Set up metadata in **All Skills**, **Group Skills**, and **User Skills**tables before configuring walk-up locations for skill-based routing. For more information, [Configuring Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/skills-management/configuring-skills-management.md).
 
 Role required: admin
 

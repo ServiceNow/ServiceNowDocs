@@ -38,5 +38,5 @@ Role required:
 
 The connection is now available as an instance for creating an automation.
 
-For more information about connections and credentials, see .
+For more information about connections and credentials, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md).
 

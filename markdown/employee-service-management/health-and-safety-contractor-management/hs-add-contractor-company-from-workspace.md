@@ -18,7 +18,7 @@ Add a contractor company to prequalify it and its workers. You can then manage t
 
 ## Before you begin
 
-Verify that the primary contact person from the contractor company is added as a system user \(sys\_user\) and the snc\_external role is assigned to them. For more information on this explicit role, see .
+Verify that the primary contact person from the contractor company is added as a system user \(sys\_user\) and the snc\_external role is assigned to them. For more information on this explicit role, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/explicit-roles.md).
 
 Role required: sn\_hs\_crm.contractor\_coordinator and nds\_admin
 

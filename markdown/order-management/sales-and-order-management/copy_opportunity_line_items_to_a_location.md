@@ -7,7 +7,7 @@ release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -32,15 +32,15 @@ Role required: sales\_agent
 
 5.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d68708e99">
+<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d68776e99">
 
 Option
 
-</th><th align="left" id="d68708e102">
+</th><th align="left" id="d68776e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68708e108">
+</th></tr></thead><tbody><tr><td id="d68776e108">
 
 **Keep original location**
 
@@ -48,7 +48,7 @@ Description
 
 New line items for the selected opportunity are created and the source location is retained.
 
-</td></tr><tr><td id="d68708e117">
+</td></tr><tr><td id="d68776e117">
 
 **Choose new location**
 

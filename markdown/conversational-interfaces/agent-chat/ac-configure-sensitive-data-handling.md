@@ -20,7 +20,7 @@ Detect and mask sensitive information that is shared in Agent Chat or Virtual Ag
 
 **Note:** This feature is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Install the Data Privacy application as a replacement. For more information, see .
+Install the Data Privacy application as a replacement. For more information, see [Data Privacy for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-privacy-classic/data-privacy-for-virtual-agent.md).
 
 Activate the Sensitive Data Handler plugin \(com.glide.sensitive\_data\_handling\).
 

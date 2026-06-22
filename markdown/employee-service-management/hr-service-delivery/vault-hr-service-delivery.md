@@ -20,7 +20,7 @@ Classify sensitive employee data and enable employees/former employees to reques
 
 ServiceNow Vault for HR introduces the new classification HR PII to enable HR professionals to identify and manage sensitive employee data. The HR PII categorizes data from HR applications, with categories such as contact information, tax-related information, and visa-related information. The categories are organized under two parent data classifications: Master data PII and Transactional Data PII.
 
-The classification HR PII and the data classifications are included out-of-the-box. \[Omitted image "vault-classification.png"\] Alt text: HR PII has two parent data classifications, each with several child classifications To create additional data classifications under HR PII, see .
+The classification HR PII and the data classifications are included out-of-the-box. \[Omitted image "vault-classification.png"\] Alt text: HR PII has two parent data classifications, each with several child classifications To create additional data classifications under HR PII, see [Creating data classifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-classification/create-data-classification-codes.md).
 
 Each data classification category contains a “Classified Dictionary Entries” related list, which displays the HR application-specific tables and columns included in the classification. The ServiceNow Vault for HR demo data provides classified dictionary entries. \[Omitted image "vault-dict.png"\] Alt text: The example contact information classification has columns such as address, work phone, and email
 

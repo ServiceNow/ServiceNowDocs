@@ -18,7 +18,7 @@ Add list or list categories to modify the list menu for Coaching with Learning i
 
 ## Before you begin
 
-Set the map application scope to **Coaching With Learning**. For more information, see Set map application scope.
+Set the map application scope to **Coaching With Learning**. For more information, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/set-map-application-scope.md).
 
 Role required: admin
 

@@ -24,7 +24,7 @@ The effectiveness of AI Search RAG relies on its embedding model, which is used 
 
 ## Activating AI Search RAG
 
-AI Search RAG functionality is provided by the AI Search RAG plugin \(sn\_ais\_rag\). This plugin is automatically activated for your instance when you install Generative AI Controller or any Now Assist application.
+AI Search RAG functionality is provided by the AI Search RAG plugin \(sn\_ais\_rag\). This plugin is automatically activated for your instance when you install [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/generative-ai-controller/installing-generative-ai-controller.md) or any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 
 **Parent Topic:**[Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/semantic-index-cfg-ais.md)
 

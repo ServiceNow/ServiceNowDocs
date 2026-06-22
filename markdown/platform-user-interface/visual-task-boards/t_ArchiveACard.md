@@ -28,7 +28,7 @@ Role required: none
 
 -   Perform one of the following actions.
 
-<table id="choicetable_pxj_ytk_kv"><tbody><tr><td id="d44434e73">
+<table id="choicetable_pxj_ytk_kv"><tbody><tr><td id="d43738e73">
 
 **Archive one card from the lane view**
 
@@ -38,7 +38,7 @@ Role required: none
 2.  In the confirmation dialog, click **Archive**.
 
 
-</td></tr><tr><td id="d44434e97">
+</td></tr><tr><td id="d43738e97">
 
 **Archive one card from the card details**
 
@@ -49,7 +49,7 @@ Role required: none
 3.  In the confirmation dialog, click **Confirm**.
 
 
-</td></tr><tr><td id="d44434e130">
+</td></tr><tr><td id="d43738e130">
 
 **Archive all the cards in a lane**
 

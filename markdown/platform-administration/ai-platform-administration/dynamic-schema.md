@@ -66,7 +66,7 @@ You have flexibility when deciding how to implement Dynamic Schema.
 
 Dynamic Schema also provides global APIs that enable you to access and manage dynamic attributes in your tables using JavaScripts. The following lists the APIs and methods that support dynamic attributes.
 
--   
+-   [GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
 
     The following GlideAggregate methods support the usage of dynamic attributes:
 
@@ -78,10 +78,10 @@ Dynamic Schema also provides global APIs that enable you to access and manage dy
     -   groupBy\(\)
     -   orderBy\(\)
     -   orderByAggregate\(\)
--   
--   
--   
--   
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+-   [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
     The following GlideRecord methods support dynamic attributes:
 

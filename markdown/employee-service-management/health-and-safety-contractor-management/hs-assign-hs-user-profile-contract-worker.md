@@ -18,7 +18,7 @@ Assign the Health and Safety profile to all contractor workers who need to compl
 
 ## Before you begin
 
-Confirm that the snc\_external role is assigned to the contractor worker. For more information on this explicit role, see .
+Confirm that the snc\_external role is assigned to the contractor worker. For more information on this explicit role, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/explicit-roles.md).
 
 Role required: sn\_hs\_crm.contractor\_coordinator
 

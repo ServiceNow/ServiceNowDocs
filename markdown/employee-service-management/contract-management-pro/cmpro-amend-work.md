@@ -41,15 +41,15 @@ A sample workflow while working on an amendment request would be:
 
 2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88425e112">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88158e112">
 
 Option
 
-</th><th align="left" id="d88425e115">
+</th><th align="left" id="d88158e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88425e121">
+</th></tr></thead><tbody><tr><td id="d88158e121">
 
 **As an assignee**
 
@@ -61,7 +61,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d88425e150">
+</td></tr><tr><td id="d88158e150">
 
 **As a collaborator**
 

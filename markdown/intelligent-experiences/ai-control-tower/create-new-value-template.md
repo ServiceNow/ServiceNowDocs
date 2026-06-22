@@ -42,7 +42,7 @@ Role required: AI steward \[sn\_ai\_g overnance\_ai\_steward\] and AI asset owne
 
 </td><td>
 
-Select **Add metrics** to use a custom metric for calculations. See  for more information.
+Select **Add metrics** to use a custom metric for calculations. See [Create an automated indicator with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/t_CrtIndctrIndctrWzrd.md) for more information.
 
  \[Omitted image "aict-create-new-value-template-formula.png"\] Alt text: Formula section in the Add value template form in AI Control Tower.
 

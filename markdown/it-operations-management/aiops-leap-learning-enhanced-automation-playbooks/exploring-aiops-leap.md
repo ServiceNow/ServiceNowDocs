@@ -158,7 +158,7 @@ The LEAP AI agent uses automation opportunities created by LEAP analysis to gene
 |--------|-------------|
 |LEAP AI agent|Uses the automation opportunities created by LEAP analysis, and creates artifacts — problem records, AI-enhanced knowledge base articles, or playbooks — based on user requests.|
 
-**Important:** This agent is turned on by default. For more information, see .
+**Important:** This agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 ## What to explore next
 

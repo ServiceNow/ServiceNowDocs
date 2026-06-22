@@ -22,7 +22,7 @@ Migrate survey instances for questionnaires to Smart Assessment by manually runn
 
 This job migrates all instances of a survey to Smart Assessment and re-triggers the instances.
 
-Smart Assessment uses the Smart Assessment Engine to migrate survey instances to Smart Assessment. For more information, see .
+Smart Assessment uses the Smart Assessment Engine to migrate survey instances to Smart Assessment. For more information, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
 
 **Note:**
 

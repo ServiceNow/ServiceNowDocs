@@ -20,7 +20,7 @@ You can import a survey that has been exported as an XML file. The exported XML 
 
 Role required: admin or survey\_admin
 
-**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see System update sets.
+**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md).
 
 ## About this task
 
@@ -28,7 +28,7 @@ Role required: admin or survey\_admin
 
 1.  Verify that the target instance has assessments enabled.
 
-2.  Follow the steps in  to import the assessment.
+2.  Follow the steps in [Import data from XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/import-xml-file.md) to import the assessment.
 
 
 **Parent Topic:**[Sharing surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/c_SurveyInportAndExport.md)

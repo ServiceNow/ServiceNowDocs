@@ -340,7 +340,7 @@ Includes pa\_viewer, and certification roles.
 **Note:**
 
 -   Activate the Notify \(com.snc.notify\) plugin to include the notify\_view role.
--   Activate PPM Standard \(com.snc.financial\_planning\_pmo\) plugin to create project/program in CBP and TPM. For information on PPM roles, see Plugins installed with PPM Standard \(Project Portfolio Management\)
+-   Activate PPM Standard \(com.snc.financial\_planning\_pmo\) plugin to create project/program in CBP and TPM. For information on PPM roles, see [Plugins installed with PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/ppm-collaboration/plugins-installed-with-PPS-finance.md)
 
 .
 
@@ -384,7 +384,7 @@ Create applications and access landscape and dashboards.
 
 Includes sn\_apm.apm\_admin and treemap\_user roles.
 
-**Note:** Activate PPM Standard \(com.snc.financial\_planning\_pmo\) plugin to create project/program in Capability-Based Planning \(CBP\) and Technology Portfolio Management \(TPM\). For information on PPM roles, see Plugins installed with PPM Standard \(Project Portfolio Management\).
+**Note:** Activate PPM Standard \(com.snc.financial\_planning\_pmo\) plugin to create project/program in Capability-Based Planning \(CBP\) and Technology Portfolio Management \(TPM\). For information on PPM roles, see [Plugins installed with PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/ppm-collaboration/plugins-installed-with-PPS-finance.md).
 
  -   Create/update/delete applications.
 -   Create/update/delete application indicator scores.

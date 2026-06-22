@@ -20,7 +20,7 @@ Configure and manage the project status and outline of the process you want to a
 
 Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
 
-You must enable Audit Log for the table that you’ve selected to generate a model for a project.
+You must enable [Audit Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/t_EnableAuditingForATable.md) for the table that you’ve selected to generate a model for a project.
 
 ## About this task
 

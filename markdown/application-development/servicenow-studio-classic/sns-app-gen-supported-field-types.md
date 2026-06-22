@@ -29,7 +29,7 @@ App generation currently supports the creation of the following field types:
 -   String
 -   True/False
 
-For a detailed list and description of all field types available in the platform, see .
+For a detailed list and description of all field types available in the platform, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
 
 **Parent Topic:**[Now Assist for app generation in ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)
 

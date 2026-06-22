@@ -111,5 +111,5 @@ This field should be left empty, as it’s no longer used.
 **Related topics**  
 
 
-[bundle-platux.t_FieldLabelForm]
+[Add help to a field label on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_FieldLabelForm.md)
 

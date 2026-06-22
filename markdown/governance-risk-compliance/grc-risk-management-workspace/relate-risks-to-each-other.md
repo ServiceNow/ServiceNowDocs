@@ -28,7 +28,7 @@ Role required: sn\_risk.manager or sn\_risk.admin
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_aj1_ssb_4w"><tbody><tr><td id="d131401e77">
+<table id="choicetable_aj1_ssb_4w"><tbody><tr><td id="d131419e77">
 
 **To specify that the current risk is downstream of another risk**
 
@@ -36,7 +36,7 @@ Role required: sn\_risk.manager or sn\_risk.admin
 
 Click the **Add** button in the **Upstream Risks** related list.
 
-</td></tr><tr><td id="d131401e92">
+</td></tr><tr><td id="d131419e92">
 
 **To specify that the current risk is upstream of another risk**
 

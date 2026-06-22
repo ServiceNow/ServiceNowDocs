@@ -71,7 +71,7 @@ The Program Navigation page guides you in setting a goal target for the fiscal y
 
     1.  Click the projects link to track the status of the project anytime.
 
-        The Program Workbench opens up, which is a central location for creating and managing projects. As the demand manager approves the demands and the projects are executed, you can navigate to the program workbench to track the status of the projects.
+        The [Program Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/program-management/c_ProgramWorkbench.md) opens up, which is a central location for creating and managing projects. As the demand manager approves the demands and the projects are executed, you can navigate to the program workbench to track the status of the projects.
 
 
 **Parent Topic:**[Using Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/using-apm.md)

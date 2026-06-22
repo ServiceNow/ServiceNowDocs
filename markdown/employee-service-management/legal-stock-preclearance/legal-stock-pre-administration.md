@@ -19,11 +19,11 @@ Configure the foundation data for your stock preclearance process to enable empl
 As an administrator, you can review the installed components and modify them or add new ones as applicable.
 
 -   Legal stock approvers
--   Fiscal calendar
+-   [Fiscal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/t_GenerateFiscalCalendar.md)
 -   [Trading windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-stock-preclearance/set-up-trading-window.md)
 -   [Trading holidays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-stock-preclearance/add-trading-holidays.md)
 -   [Access Persons list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-stock-preclearance/manage-access-persons-list.md)
--   Notifications
+-   [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md)
 
 -   **[Install Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-stock-preclearance/install-stock-preclearance.md)**  
 You can install the Legal Stock Preclearance application \(sn\_lg\_stock\_cp\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.

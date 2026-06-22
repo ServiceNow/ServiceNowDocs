@@ -36,7 +36,7 @@ Ensure the property **glide.xmlutil.max\_entity\_expansion** is set to 3000 or l
 |Functional impact|If the customization is using large entity expansion, then, the ServiceNow AI Platform might block further processing.|
 |Security risk|\(Moderate\) An attacker can use this vulnerability to expand data exponentially, quickly consuming all system resources.|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

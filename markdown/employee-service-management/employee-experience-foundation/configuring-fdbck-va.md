@@ -38,7 +38,7 @@ Role required: admin
 
 4.  View the promoted topic record by selecting the link in the displayed message.
 
-    For more information about promoted topics, see .
+    For more information about promoted topics, see [Promote or demote LLM conversational subflows, actions, and topics in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/promote-demote-va-topics.md).
 
 
 ## Set up service feedback for Virtual Agent
@@ -61,7 +61,7 @@ Role required: admin
 
 4.  View the setup topic record by selecting the link in the displayed message.
 
-    For more information about setup topics, see .
+    For more information about setup topics, see [Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/working-setup-topics.md).
 
     **Note:** You can set the value of the **com.glide.cs.survey.probability** system property to change the probability \(percentage\) that the survey setup topic occurs in your conversations. For example, set the Value to 0.50 to display the survey setup topic randomly in 50% of conversations.
 

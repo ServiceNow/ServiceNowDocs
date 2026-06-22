@@ -58,7 +58,7 @@ Role required: admin
 
 ## What to do next
 
-To access AI agents in the Now Assist panel, you must enable the panel. For more information, see .
+To access AI agents in the Now Assist panel, you must enable the panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 **Parent Topic:**[Configure Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

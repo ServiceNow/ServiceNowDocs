@@ -26,7 +26,7 @@ Administrators can compare field-level changes between two versions, and apply c
 
 ## Accessibility Functions
 
-The platform includes accessibility features that support and make the interface accessible to users with disabilities with the use of a screen reader or voice over tool. These features improve the user experience when accessing platform functions with Using accessibility features.
+The platform includes accessibility features that support and make the interface accessible to users with disabilities with the use of a screen reader or voice over tool. These features improve the user experience when accessing platform functions with [Using accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/keyboard-accessibility.md).
 
 In general, you can use the following set of standard keyboard navigation functions:
 

@@ -34,7 +34,7 @@ Set this property to **false** to disable inbound emails for locked out users.
 |Security risk|\(High\) When you set this property to **true**, there may be an information disclosure as inbound emails would be received by users with locked accounts.|
 |Security risk rating|7.5|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

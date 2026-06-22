@@ -207,7 +207,7 @@ Set the frequency at which you want to fetch the records from TAXII server. The 
 -   On Demand
 -   Business Calendar: Entry Start
 -   Business Calendar: Entry End
-**Note:** By default, the frequency is set to **On Demand**. For more information, see Scheduled Jobs and how to Automatically run a script of your choosing.
+**Note:** By default, the frequency is set to **On Demand**. For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
 </td></tr><tr><td>
 
@@ -252,7 +252,7 @@ Run Frequency of Collections
 
 The scheduling interval which will be applied to the TAXII collection records. Run frequency for a TAXII collection can be modified in the TAXII collection form view if required.**Note:** This setting will be applied as default to all the TAXII collections that are fetched. There is an option to override the setting in TAXII Collections if required.
 
- For more information, see Scheduled Jobs and how to Automatically run a script of your choosing.
+ For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
 </td></tr><tr><td>
 

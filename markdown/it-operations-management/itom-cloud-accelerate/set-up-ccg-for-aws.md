@@ -199,15 +199,15 @@ Name of the trusted account.Configure this field only for accounts that don't us
 
 6.  Do any one of the following actions.
 
-<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d142766e633">
+<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d140641e633">
 
 Option
 
-</th><th align="left" id="d142766e636">
+</th><th align="left" id="d140641e636">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d142766e642">
+</th></tr></thead><tbody><tr><td id="d140641e642">
 
 **Create an assume role configuration for the management account**
 
@@ -225,7 +225,7 @@ For more information, see [Configure the trusting account for Cloud Configuratio
 
 For more information, see [Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-cloud-accelerate/create-assume-role-config.md).
 
-</td></tr><tr><td id="d142766e699">
+</td></tr><tr><td id="d140641e699">
 
 **Configure the trusting account for Cloud Configuration Governance**
 

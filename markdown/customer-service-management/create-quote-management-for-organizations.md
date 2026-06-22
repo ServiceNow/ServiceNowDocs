@@ -34,7 +34,7 @@ The channel partners can view a detailed price breakdown for each quote line ite
 
 3.  On the Quote New record form, fill in the fields.
 
-    To learn more about the fields on the form, see 
+    To learn more about the fields on the form, see [Create a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/create-new-quote.md)
 
 4.  Select **Submit**.
 

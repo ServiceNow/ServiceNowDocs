@@ -75,7 +75,7 @@ Each function field requires a label, a return type, and a definition. The defin
 
 Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
 
-Use the created function field it in your report or data visualization configuration. For information on using function fields elsewhere on the ServiceNow AI Platform, see Function field.
+Use the created function field it in your report or data visualization configuration. For information on using function fields elsewhere on the ServiceNow AI Platform, see [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/platform-support-functions.md).
 
 **Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/function-fields-reporting.md)
 

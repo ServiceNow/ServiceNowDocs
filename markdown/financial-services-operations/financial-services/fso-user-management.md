@@ -92,7 +92,7 @@ Configure contributor users to engage middle office teams in resolving customer 
 
 </td></tr><tr><td>
 
-
+[Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configuring-cam.md)
 
 </td><td>
 

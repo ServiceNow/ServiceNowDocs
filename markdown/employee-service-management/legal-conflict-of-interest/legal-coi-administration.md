@@ -20,7 +20,7 @@ As an administrator, you can review the installed components and modify them or 
 
 -   Approver group for managing conflict of interest requests
 -   Flows for Legal Conflict of Interest
--   Notifications to inform different stakeholders at different stages of a conflict of interest request
+-   [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md) to inform different stakeholders at different stages of a conflict of interest request
 -   To submit conflict of interest request using conversational intake from Now Assist in Virtual Agent, install and configure [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md) that is a paid application.
 
 -   **[Install Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/install-legal-conflict-of-interest.md)**  

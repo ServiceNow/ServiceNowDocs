@@ -21,7 +21,7 @@ Turn on multilingual service for user-entered text with native translation or Dy
 
 To see a list of all available languages supported in Now Assist, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/translation-for-now-assist.md).
 
-To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see Activate Dynamic Translation and Activate a language. From the Zurich release, Dynamic Translation has available support in specific regulated markets. For details see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) on the Now Support portal.
+To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-translation/activate-dynamic-translation.md) and [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization/t_ActivateALanguage.md). From the Zurich release, Dynamic Translation has available support in specific regulated markets. For details see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) on the Now Support portal.
 
 If you don't see a language and region section of your Now Assist Admin console, make sure that you have installed at least one Now Assist application. This installs or updates the required dependencies to the latest version.
 

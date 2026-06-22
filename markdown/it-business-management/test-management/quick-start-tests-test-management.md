@@ -34,5 +34,5 @@ Test Management 2.0 quick start tests require activating the Test Management 2.0
 **Related topics**  
 
 
-[bundle-cadev.quick-start-tests]
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
 

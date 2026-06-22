@@ -18,7 +18,7 @@ Create or modify an activity configuration to define how the Employee Center han
 
 ## Before you begin
 
-Use the application picker to set the appropriate scope. Employee Center. See, Application picker
+Use the application picker to set the appropriate scope. Employee Center. See, [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md)
 
 The name of the activity to configure. Use the name of the activity created in the [Add a Journey Accelerator action plan to My active items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md) task example `Action plan items`.
 

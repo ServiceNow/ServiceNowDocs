@@ -34,7 +34,7 @@ The View log displays data from the Knowledge Use \[kb\_use\] table. By default,
 
 4.  Adjust the amount of time the system waits before deleting the records by modifying the value in the **Age in seconds** field.
 
-    By default, the **Age in seconds** field value is set to 31,536,000 seconds \(equivalent to 365 days\). For more information, see Autoflush form.
+    By default, the **Age in seconds** field value is set to 31,536,000 seconds \(equivalent to 365 days\). For more information, see [Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/atf-auto-flush.md).
 
     If the **glide.knowman.view\_age.days** property, which sets the number of days used when summing article views, is active, the **Age in seconds** field value must be larger than that property's value. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 

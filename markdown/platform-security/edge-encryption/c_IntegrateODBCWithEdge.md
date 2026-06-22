@@ -25,7 +25,7 @@ For a successful integration, the ODBC driver must trust the Edge Encryption pro
 **Related topics**  
 
 
-[bundle-crapiref.c_ODBCDriver]
+[ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_ODBCDriver.md)
 
 ## Import a self-signed certificate to the ODBC truststore
 

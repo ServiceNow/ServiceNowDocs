@@ -39,7 +39,7 @@ You can create extension points to process the custom code that uses the followi
     Extension points that are used in client-side UI scripting, typically for modifying forms.
 
 
-For more information about extension points, see Using extension points to extend application functionality.
+For more information about extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/extension-points.md).
 
 **Parent Topic:**[Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendation-contexts.md)
 

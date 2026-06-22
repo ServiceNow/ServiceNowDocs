@@ -26,15 +26,15 @@ Role required: admin or delegated\_developer
 
 2.  Preview files from the App details page or from within an open file.
 
-<table id="choicetable_e2q_c5z_tfc"><thead><tr><th align="left" id="d268174e101">
+<table id="choicetable_e2q_c5z_tfc"><thead><tr><th align="left" id="d268153e101">
 
 Option
 
-</th><th align="left" id="d268174e104">
+</th><th align="left" id="d268153e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d268174e110">
+</th></tr></thead><tbody><tr><td id="d268153e110">
 
 **Preview from App details**
 
@@ -45,7 +45,7 @@ Description
 
 \[Omitted image "sn-studio-preview-app-details.png"\] Alt text: Select the Preview button.
 
-</td></tr><tr><td id="d268174e142">
+</td></tr><tr><td id="d268153e142">
 
 **Preview from an open file**
 

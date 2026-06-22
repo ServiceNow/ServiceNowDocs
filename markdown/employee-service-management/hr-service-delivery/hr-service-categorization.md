@@ -34,7 +34,7 @@ Deactivate COEs manually on all your environments, if your company:
 -   Wants to deactivate COEs.
 -   Has multiple environments and you're using system update sets to update changes.
 
-    **Note:** System update sets capture deactivation in one environment, but after a patch or upgrade, COEs are active in your other environments. See System update sets.
+    **Note:** System update sets capture deactivation in one environment, but after a patch or upgrade, COEs are active in your other environments. See [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md).
 
 
 ### Procedure
@@ -113,7 +113,7 @@ Use COE Access Control List \(ACLs\) Configuration to allow specific groups read
 
 For example, you don't want the Benefits group to view the cases created by the Compensation group. You create a COE security policy that allows the Compensation group access. Groups that aren't included on the policy cannot access the cases.
 
-Use this feature as an alternative to using ACLs rules. For more information on ACLs, see Access control list rules.
+Use this feature as an alternative to using ACLs rules. For more information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/access-control-rules.md).
 
 COE security policies don't affect case creation. COE security policies affect what cases you can view or modify after creation.
 
@@ -172,7 +172,7 @@ Role required: sn\_hr\_core.admin, sn\_hr\_le.admin
 
 6.  Ensure that the **Application** field displays the scope correctly.
 
-    For more information, see System settings for the user interface \(UI\).
+    For more information, see [System settings for the user interface \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/r_UI16BannerFrame.md).
 
 7.  Check **Active** to enable security on the COE.
 

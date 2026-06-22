@@ -20,7 +20,7 @@ Install Application Portfolio Management integration with Risk Management and Ap
 
 Role required: admin
 
-Before installing Application Portfolio Management integration with Risk Management and Application Portfolio Management integration with Policy and Compliance, download and activate the Governance, Risk, and Compliance \(GRC\) application from the ServiceNow Store. For more information, see the Download a GRC application from the ServiceNow Store for the first time topic.
+Before installing Application Portfolio Management integration with Risk Management and Application Portfolio Management integration with Policy and Compliance, download and activate the Governance, Risk, and Compliance \(GRC\) application from the ServiceNow Store. For more information, see the [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md) topic.
 
 ## About this task
 

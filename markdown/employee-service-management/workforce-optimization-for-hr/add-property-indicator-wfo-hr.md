@@ -20,7 +20,7 @@ Add a system property to display the desired indicator in the Coaching Overview 
 
 **Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md).
 
-Set the map application scope to **Coaching**. For information on how to set the scope, see Set map application scope.
+Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/set-map-application-scope.md).
 
 Role required: sn\_hr\_wfo.admin
 
@@ -74,7 +74,7 @@ Value
 
 </td><td>
 
-\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifierExample:
+\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the [unique record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UniqueRecordIdentifier.md)Example:
 
 -   Name: % of P1 incidents resolved on first call.
 -   Sys ID: 0423e59387401010ca99e12397cb0bbb

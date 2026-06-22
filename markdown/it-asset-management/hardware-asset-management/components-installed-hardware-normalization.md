@@ -16,7 +16,7 @@ breadcrumb: [Reference, Hardware Asset Management, IT Asset Management]
 
 Several types of components are installed with activation of the Hardware Model Normalization plugin, including tables.
 
-**Note:** To view all other components that are installed with this application, see the Application Files table. For instructions on how to access this table, see Find components installed with an application.
+**Note:** To view all other components that are installed with this application, see the Application Files table. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## Tables installed
 

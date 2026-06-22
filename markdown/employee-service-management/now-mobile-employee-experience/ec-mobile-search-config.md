@@ -28,7 +28,7 @@ Role required: admin
 
 2.  Create a property of type **true/false** in the Now Mobile application scope.
 
-    For example, create a property `enable_taxonomy`. For more information on creating system properties, see Add a system property.
+    For example, create a property `enable_taxonomy`. For more information on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set the property value to **true**.
 

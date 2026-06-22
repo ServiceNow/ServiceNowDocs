@@ -34,7 +34,7 @@ After you [install the Legal Mobile](https://raw.githubusercontent.com/ServiceNo
 
     -   As a member of the legal department, download the Mobile Agent mobile app for working on legal requests.
 
-        For more information on using this mobile app, see Agent mobile app.
+        For more information on using this mobile app, see [Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-experience.md).
 
 2.  Add your ServiceNow instance to the mobile app.
 

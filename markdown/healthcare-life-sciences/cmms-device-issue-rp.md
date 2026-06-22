@@ -22,5 +22,5 @@ By default, the users with the sn\_hcls\_cmms.device\_service\_org\_contributor 
 
 As a user with the admin role or contributor, you can use the **Report medical device issue** record producer, which is available by default, or create your own record producer to enable creating medical device issue cases from a service portal. You can include the record producer for creating medical device issue cases in a service  catalog and display the service  catalog  as a module on the service portal page. You can then enable users with the sn\_hcls\_cmms.device\_service\_org\_contributor role to use the module for creating medical device issue cases.
 
-To learn about record producers and service catalogs, see Record Producer and Set up a service catalog.
+To learn about record producers and service catalogs, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/c_RecordProducer.md) and [Set up a service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/t_SetUpAServiceCatalog.md).
 

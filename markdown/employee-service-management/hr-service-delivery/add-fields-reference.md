@@ -21,9 +21,9 @@ Add an entry in the respective tables for the following field values to be avail
 You must have the admin role to configure the fields.
 
 -   Add the Job Profile field entry to the Job Profile \[sn\_skills\_int\_job\_profile\] table and the Job Level field entry to the Job Level \[sn\_skills\_int\_job\_level\] table. For more information, see [Components installed with Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
--   Add the Office Location field entry to the Office Location \[sn\_fin\_office\_location\] table. For more information, see .
+-   Add the Office Location field entry to the Office Location \[sn\_fin\_office\_location\] table. For more information, see [Add office locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-office-locations.md).
 
-The Office Location field must have the Legal Entity field defined. For more information on adding a legal entity entry to the Legal Entity \[sn\_fin\_legal\_entity\] table, see .
+The Office Location field must have the Legal Entity field defined. For more information on adding a legal entity entry to the Legal Entity \[sn\_fin\_legal\_entity\] table, see [Legal entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/legal-entity.md).
 
 **Parent Topic:**[Configuring Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configuring-hiring-tab.md)
 

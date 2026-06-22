@@ -35,7 +35,7 @@ For Google Drive
 
 ## Procedure
 
-1.  
+1.  [Activate Personal Authentication Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/activate-personal-authentication.md)
 
 2.  [Set up personal authentication](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB1629872).
 

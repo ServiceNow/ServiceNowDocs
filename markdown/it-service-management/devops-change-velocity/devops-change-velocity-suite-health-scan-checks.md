@@ -222,7 +222,7 @@ DevOps Change Velocity Health - On-demand
 
 </td><td>
 
-Before working with update sets, create a standard process for moving customizations. For more information, see the  topic in product documentation.
+Before working with update sets, create a standard process for moving customizations. For more information, see the [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/get-started-update-sets.md) topic in product documentation.
 
 </td></tr><tr><td>
 

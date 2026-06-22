@@ -41,7 +41,7 @@ When a CCaaS platform \(such as Genesys Cloud, Five9, or Amazon Connect\) routes
     This API accepts any valid table name, making it extensible for future use cases. The endpoints can be called independently depending on the workflow.
 
 
-For more information about integrating with CCaaS systems, see .
+For more information about integrating with CCaaS systems, see [Integrating with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/contactcenter-integration.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
@@ -408,7 +408,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/installed-with-awa.md).
 
 </td></tr><tr><td>
 

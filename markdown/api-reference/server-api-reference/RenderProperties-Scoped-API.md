@@ -32,7 +32,7 @@ Returns the encoded query from the URL sent to the page.
 |----|-----------|
 |String|Encoded query from the URL sent to the form.|
 
-The following example is used in a condition for UI action named listed in the UI Actions \[sys\_ui\_action\] table. See also .
+The following example is used in a condition for UI action named listed in the UI Actions \[sys\_ui\_action\] table. See also [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_UIActions.md).
 
 ```
 RP.getEncodedQuery() != null && (RP.getEncodedQuery().indexOf('table=global') < 0 && RP.getEncodedQuery().indexOf('table=') >= 0)
@@ -50,7 +50,7 @@ Returns the list control object for the page.
 |----|-----------|
 |ScopedSysListControl object|Lst control object for the page.|
 
-The following example is used in a condition named New for CAB Agenda Items. This UI action is listed in the UI Actions \[sys\_ui\_action\] table. See also .
+The following example is used in a condition named New for CAB Agenda Items. This UI action is listed in the UI Actions \[sys\_ui\_action\] table. See also [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_UIActions.md).
 
 ```
 current.canCreate() && !RP.getListControl().isOmitNewButton() && RP.isRelatedList() && !RP.isManyToMany() && !RP.isInDevStudio() && (new sn_change_cab.CABMeeting(parent)).canAddAgendaItem()
@@ -68,7 +68,7 @@ Returns the value of the specified URL parameter.
 |----|-----------|
 |String|The parameter's value.|
 
-The following example is used in a condition for the Insert and Stay UI action for configuration items listed in the UI Actions \[sys\_ui\_action\] table. See also .
+The following example is used in a condition for the Insert and Stay UI action for configuration items listed in the UI Actions \[sys\_ui\_action\] table. See also [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_UIActions.md).
 
 ```
 current.canCreate() && (!current.instanceOf('task') || gs.getProperty('glide.ui.task.insert') == 'true') && (!current.instanceOf('sys_db_object')) && JSUtil.nil(RP.getParameterValue("sysparm_changeset"))
@@ -86,7 +86,7 @@ Returns the URL where the request originated.
 |----|-----------|
 |String|URL of the page where the request originated.|
 
-The following example is used in a condition for the Import Sets UI action for import set row listed in the UI Actions \[sys\_ui\_action\] table. See also .
+The following example is used in a condition for the Import Sets UI action for import set row listed in the UI Actions \[sys\_ui\_action\] table. See also [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_UIActions.md).
 
 ```
 RP.getReferringURL().indexOf("sys_import_set.do") == -1 && new global.ImportSetRowHelper().canReadImportSets();
@@ -104,7 +104,7 @@ Returns the name of the view in use.
 |----|-----------|
 |String|Name of the view being used.|
 
-The following example is used in a condition named New for action assignment. This UI action is listed in the UI Actions \[sys\_ui\_action\] table. See also .
+The following example is used in a condition named New for action assignment. This UI action is listed in the UI Actions \[sys\_ui\_action\] table. See also [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_UIActions.md).
 
 ```
 RP.getViewName() != '' && RP.getViewName() != null && RP.getViewName() != undefined
@@ -150,7 +150,7 @@ Flag that indicates whether the page is part of Studio.Possible values:
 -   false: Page isn't part of Studio.
 
 </td></tr></tbody>
-</table>The following example is used in a condition named New for CAB Agenda Items. This UI action is listed in the UI Actions \[sys\_ui\_action\] table. See also .
+</table>The following example is used in a condition named New for CAB Agenda Items. This UI action is listed in the UI Actions \[sys\_ui\_action\] table. See also [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_UIActions.md).
 
 ```
 current.canCreate() && !RP.getListControl().isOmitNewButton() && RP.isRelatedList() && !RP.isManyToMany() && !RP.isInDevStudio() && (new sn_change_cab.CABMeeting(parent)).canAddAgendaItem()
@@ -212,7 +212,7 @@ Flag that indicates whether the `sysparm_collection_related_file` URL parameter 
 -   false: Parameter isn't set.
 
 </td></tr></tbody>
-</table>The following example is used in a condition named New for CAB Agenda Items. This UI action is listed in the UI Actions \[sys\_ui\_action\] table. See also .
+</table>The following example is used in a condition named New for CAB Agenda Items. This UI action is listed in the UI Actions \[sys\_ui\_action\] table. See also [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_UIActions.md).
 
 ```
 current.canCreate() && !RP.getListControl().isOmitNewButton() && RP.isRelatedList() && !RP.isManyToMany() && !RP.isInDevStudio() && (new sn_change_cab.CABMeeting(parent)).canAddAgendaItem()
@@ -246,7 +246,7 @@ Flag that indicates whether the URL parameter `sys_is_related_list` is set to `t
 -   false: `sys_is_related_list` is set to `false`.
 
 </td></tr></tbody>
-</table>The following example is used in a condition for a UI action listed in the UI Actions \[sys\_ui\_action\] table. See also .
+</table>The following example is used in a condition for a UI action listed in the UI Actions \[sys\_ui\_action\] table. See also [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_UIActions.md).
 
 ```
 current.canCreate() && RP.isRelatedList()

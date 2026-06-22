@@ -119,7 +119,7 @@ Configure my bot to detect sensitive data
 
 [Configuring Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ac-configure-sensitive-data-handling.md)**Note:** This feature is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Install the Data Privacy application as a replacement. For more information, see .
+Install the Data Privacy application as a replacement. For more information, see [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-privacy-classic/data-privacy-landing.md).
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ Use Natural Language Understanding \(NLU\) for topic discovery
 
 [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
 
- Creating models \(using NLU Workbench\)
+ [Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/nlu-service/creating-models.md) \(using NLU Workbench\)
 
 </td></tr><tr><td>
 
@@ -209,7 +209,7 @@ Detect and dynamically translate Virtual Agent topics into a different language
 </td></tr></tbody>
 </table>## Virtual Agent security
 
-Platform hardening for your instance is leveraged by Virtual Agent, so you should follow the overall platform hardening recommendations. For details, see .
+Platform hardening for your instance is leveraged by Virtual Agent, so you should follow the overall platform hardening recommendations. For details, see [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/platsec-landing.md).
 
 -   **[Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-conversation-settings.md)**  
 Create different chat experiences for your end users based on the context in which they initiate a conversation with Virtual Agent.

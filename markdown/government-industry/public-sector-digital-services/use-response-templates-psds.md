@@ -22,7 +22,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 ## About this task
 
-Selecting the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. shows the reusable messages that you can copy and paste into cases and case tasks. For information on how to create response templates, see Create or modify a response template.
+Selecting the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. shows the reusable messages that you can copy and paste into cases and case tasks. For information on how to create response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/create-modify-templated-snippet.md).
 
 ## Procedure
 

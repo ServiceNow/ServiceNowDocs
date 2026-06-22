@@ -20,7 +20,7 @@ This API is included in the `now` namespace and requires the sn\_cmp.cloud\_serv
 
 The Cloud Services Catalog API features actions you perform during Day 2 operations. In the context of this API, resource catalog items refer to catalog items related to Day 2 operations.
 
-To use this API, ensure that you have completed the Cloud Services Catalog guided setup process or have a working configuration where provisioning and catalog operations are working in the UI. For more information about these steps, see .
+To use this API, ensure that you have completed the Cloud Services Catalog guided setup process or have a working configuration where provisioning and catalog operations are working in the UI. For more information about these steps, see [Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cloud-services-catalog/csc-home.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 

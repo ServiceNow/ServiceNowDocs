@@ -95,7 +95,7 @@ Webhook URL as configured on the ServiceNow instance.**Note:** This URL is for c
 
 Create a webhook and web service while selecting the appropriate authentication access using your ServiceNow instance admin role.
 
-For more information, see 
+For more information, see [Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 
 </td></tr></tbody>
 </table>    \[Omitted image "io-webhook-sn-integ.png"\] Alt text: Create a webhook integration for a ServiceNow instance.

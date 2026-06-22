@@ -58,7 +58,7 @@ Authentication Type
 
 </td><td>
 
-Type of authentication to be used to connect to the external SCIM Provider. For more information see, Outbound REST authentication.
+Type of authentication to be used to connect to the external SCIM Provider. For more information see, [Outbound REST authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_OutboundRESTAuth.md).
 
 </td></tr><tr><td>
 
@@ -143,5 +143,5 @@ The REST message record is created.
 
 Use the REST message to create a SCIM Provider. For more information, see [Create a SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/create-scim-provider.md).
 
-To learn more about how to create a REST message, see Create a REST message.
+To learn more about how to create a REST message, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
 

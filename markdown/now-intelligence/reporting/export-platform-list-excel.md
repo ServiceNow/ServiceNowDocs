@@ -20,7 +20,7 @@ A list displays a set of records from a table. You can export information from l
 
 Role required: none, though you must have rights to view the list.
 
-For more information, see .
+For more information, see [Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_UseLists.md).
 
 ## Procedure
 

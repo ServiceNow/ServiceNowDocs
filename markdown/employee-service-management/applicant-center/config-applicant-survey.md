@@ -28,7 +28,7 @@ The **Applicant interview feedback** is available by default that triggers the s
 
 1.  Create the applicant survey for the applicants.
 
-    For more information, see .
+    For more information, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesigner.md).
 
     For more information on applicant survey in the Applicant Center, see [Applicant survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/applicant-center/applicant-feedback.md).
 

@@ -55,6 +55,6 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
     -   Case assigned to a new group
     -   Case opened for customer
     -   Case resolved for customer
-    For details about notifications and creating new notifications, see .
+    For details about notifications and creating new notifications, see [Send Notification action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/send-notification-action.md).
 
 

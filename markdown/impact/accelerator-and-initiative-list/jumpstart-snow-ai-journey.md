@@ -28,7 +28,7 @@ Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow'
 
     -   Provision a temporary instance 
     -   Run AI Adoption Scan to assess current usage of AI and related products
-    -   Activate and run  to identify opportunities.
+    -   Activate and run [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/platform-analytics/automation-discovery.md) to identify opportunities.
     ​
 
 -   **Customer Coaching Session \#1\(upto 1.5 hours\)**

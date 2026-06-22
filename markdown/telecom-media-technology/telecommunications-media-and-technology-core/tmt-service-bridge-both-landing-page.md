@@ -20,39 +20,39 @@ ServiceNow® Service Exchange connects multiple ServiceNow instances to provide 
 
 <table id="table_k52_dyx_yxb" class="nav-card"><tbody><tr><td>
 
-Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits of Service Exchange and how it is used.
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits of Service Exchange and how it is used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-exploring-service-bridge.md)
 
 </td><td>
 
-Configure for providers\[Omitted image "bus-optimize-manage.svg"\] Alt text:Learn how to install and configure Service Exchange for providers.
+[Configure for providers\[Omitted image "bus-optimize-manage.svg"\] Alt text:Learn how to install and configure Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-configure-provider.md)
 
 </td><td>
 
-Configure for consumers\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to install and configure Service Exchange for consumers.
+[Configure for consumers\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to install and configure Service Exchange for consumers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-install.md)
 
 </td></tr><tr><td>
 
-Integrate\[Omitted image "bus-switch.svg"\] Alt text:Extend Service Exchange capabilities by integrating with other applications.
+[Integrate\[Omitted image "bus-switch.svg"\] Alt text:Extend Service Exchange capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-omt-intg.md)
 
 </td><td>
 
-Create remote record producers\[Omitted image "bus-service-catalog.svg"\] Alt text:Offer catalog items to a consumer using remote catalog.
+[Create remote record producers\[Omitted image "bus-service-catalog.svg"\] Alt text:Offer catalog items to a consumer using remote catalog.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-create-remote-rec-prod.md)
 
 </td><td>
 
-Configure FDS for providers\[Omitted image "bus-transaction.svg"\] Alt text:Configure foundation data sync \(FDS\) settings for provider instances.
+[Configure FDS for providers\[Omitted image "bus-transaction.svg"\] Alt text:Configure foundation data sync \(FDS\) settings for provider instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync.md)
 
 </td></tr><tr><td>
 
-Configure FDS for consumers\[Omitted image "bus-transaction-data.svg"\] Alt text:Configure foundation data sync \(FDS\) settings for consumer instances.
+[Configure FDS for consumers\[Omitted image "bus-transaction-data.svg"\] Alt text:Configure foundation data sync \(FDS\) settings for consumer instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.md)
 
 </td><td>
 
-Create remote task definitions\[Omitted image "bus-learn.svg"\] Alt text:Create remote task definitions to define the task types that can be shared across connected instances.
+[Create remote task definitions\[Omitted image "bus-learn.svg"\] Alt text:Create remote task definitions to define the task types that can be shared across connected instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md)
 
 </td><td>
 
-Reference\[Omitted image "bus-work-order.svg"\] Alt text:Get additional details about Service Exchange, including data model, error log, and cloning instances.
+[Reference\[Omitted image "bus-work-order.svg"\] Alt text:Get additional details about Service Exchange, including data model, error log, and cloning instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

@@ -137,7 +137,7 @@ The last updated time\(in hours\) for observables.
 </table>
 ## Configure Export\_Incident\_Entities playbook
 
-This playbook uses TISC Add observables API. Using the Logic App Designer, you can edit the parameters that are sent to the API from the playbook. For more information see TISC API - POST /sn\_sec\_tisc/threat\_intel\_data/add\_observables.
+This playbook uses TISC Add observables API. Using the Logic App Designer, you can edit the parameters that are sent to the API from the playbook. For more information see [TISC API - POST /sn\_sec\_tisc/threat\_intel\_data/add\_observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/tisc-api.md#title_tisc-POST-add-observables).
 
 You can follow the same procedure for all the below listed playbooks which export different types of entities:
 
@@ -148,7 +148,7 @@ You can follow the same procedure for all the below listed playbooks which expor
 
 ## Configure Incident\_Enrichment playbook
 
-This playbook uses TISC Observables API. Using the Logic App Designer, you can edit the parameters that are sent to the API from the playbook. For more information see TISC API - POST /sn\_sec\_tisc/threat\_intel\_data/observables.
+This playbook uses TISC Observables API. Using the Logic App Designer, you can edit the parameters that are sent to the API from the playbook. For more information see [TISC API - POST /sn\_sec\_tisc/threat\_intel\_data/observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/tisc-api.md#title_tisc-POST-observables).
 
 ## Run playbooks
 

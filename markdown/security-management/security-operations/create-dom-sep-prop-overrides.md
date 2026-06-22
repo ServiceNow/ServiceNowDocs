@@ -7,7 +7,7 @@ release: zurich
 product: Security Operations
 classification: security-operations
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -18,7 +18,7 @@ When you use domain separation, you can create overrides to existing Security Op
 
 ## Before you begin
 
-Requires that Domain Support - Domain Extensions be activated. You can also learn about the Domain Override Viewer.
+Requires that [Domain Support - Domain Extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md) be activated. You can also learn about the [Domain Override Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-override-viewer.md).
 
 Role required: admin
 
@@ -53,5 +53,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-psec.c_DomainSeparation]
+[Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_DomainSeparation.md)
 

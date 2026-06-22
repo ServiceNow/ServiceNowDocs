@@ -18,7 +18,7 @@ The ServiceNow integrations with Microsoft Outlook help you create a better, mor
 
 ## ServiceNow for Microsoft Outlook Overview
 
-ServiceNow for Microsoft Outlook leverages the  plugin to provide the following features:
+ServiceNow for Microsoft Outlook leverages the [Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/outlook-actionable-messages.md) plugin to provide the following features:
 
 -   Employees and agents receive notifications about request submissions, updates, and completion, making it easier to track, plan, and collaborate on issues.
 -   Managers and approvers receive summaries and detailed reports for approval requests with actionable messages to approve or reject requests.

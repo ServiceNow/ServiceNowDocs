@@ -241,7 +241,7 @@ Grants access to configure trend definitions.
 None
 
 </td></tr></tbody>
-</table>Other than the roles in the preceding table, you can delegate deployment tasks to developers or non-admin users. For more information on the delegated development, see .
+</table>Other than the roles in the preceding table, you can delegate deployment tasks to developers or non-admin users. For more information on the delegated development, see [Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-and-deployment/delegated-development-landing.md).
 
 ## Guidances
 

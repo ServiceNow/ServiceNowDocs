@@ -22,35 +22,35 @@ Proactive Service Experience Workflow overview
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
-Explore
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 
- \[Omitted image "bus-explore.svg"\] Alt text:
+ [\[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 
- Learn about how service providers and customers use Proactive Service Experience Workflows.
+ [Learn about how service providers and customers use Proactive Service Experience Workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 
 </td><td>
 
-Configure
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 
- \[Omitted image "bus-sdlc.svg"\] Alt text:
+ [\[Omitted image "bus-sdlc.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 
- Plan and configure your implementation.
+ [Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 
 </td></tr><tr><td>
 
-Use
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 
- \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:
+ [\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 
- Using Proactive Service Experience Workflows.
+ [Using Proactive Service Experience Workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 
 </td><td>
 
-Reference
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
- \[Omitted image "bus-learn.svg"\] Alt text:
+ [\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
- Get details about domain separation for Proactive Service Experience Workflows.
+ [Get details about domain separation for Proactive Service Experience Workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

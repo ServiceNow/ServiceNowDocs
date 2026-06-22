@@ -32,13 +32,13 @@ Use default subflows as examples when you build your own subflows. For example:
 -   Detect Language \[detect\_language\_v4\]
 -   Translate Text \[translate\_text\_v3\]
 
-For background information, see Workflow Studio and [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).
+For background information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/workflow-studio.md) and [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).
 
 ## Procedure
 
 1.  Confirm your application scope, then navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**, and select **New**.
 
-    To map error codes try using actions in subflows. For example, the Translate Text subflow has a Translate Text action. On that action, you can select **Open in Action Designer**. In the **Action Outline** section of the Action Designer, you can select **Error Evaluation**. You can overwrite the default error status that a step produces at runtime by entering new status code and status message values. See .
+    To map error codes try using actions in subflows. For example, the Translate Text subflow has a Translate Text action. On that action, you can select **Open in Action Designer**. In the **Action Outline** section of the Action Designer, you can select **Error Evaluation**. You can overwrite the default error status that a step produces at runtime by entering new status code and status message values. See [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
 
     1.  Map error codes from your machine translation provider to the error codes and standardized error messages supported by ServiceNow.
 
@@ -100,7 +100,7 @@ Information about the code and confidence of the languages detected by the trans
 { 'code' : 'fr',  'confidence' : '0.93'  }
 ```
 
- For more information refer to the getDetectedLanguages section of DynamicTranslation - Scoped.
+ For more information refer to the getDetectedLanguages section of [DynamicTranslation - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/DynamicTranslation.md).
 
 </td><td>
 
@@ -215,7 +215,7 @@ Translated texts in the specified target languages. Each element of the array is
 
 ```
 
- For more information refer to the getTranslations section of DynamicTranslation - Scoped.
+ For more information refer to the getTranslations section of [DynamicTranslation - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/DynamicTranslation.md).
 
 </td><td>
 

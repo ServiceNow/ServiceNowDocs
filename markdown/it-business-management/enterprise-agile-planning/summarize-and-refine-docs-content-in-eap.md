@@ -19,14 +19,14 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 -   [Create a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.md).
 -   Activate the EAP doc summarization Now Assist skill.
 
 Role required: sn\_apw\_advanced.eap\_user
 
-If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see .
+If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
 ## Procedure
 
@@ -34,15 +34,15 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d88530e162">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d87502e164">
 
 Type
 
-</th><th align="left" id="d88530e165">
+</th><th align="left" id="d87502e167">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d88530e171">
+</th></tr></thead><tbody><tr><td id="d87502e173">
 
 **Team Doc**
 
@@ -52,7 +52,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d88530e189">
+</td></tr><tr><td id="d87502e191">
 
 **Planning item Doc**
 

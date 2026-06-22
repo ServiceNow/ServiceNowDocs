@@ -48,15 +48,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d222857e163">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d222600e163">
 
 Option
 
-</th><th align="left" id="d222857e166">
+</th><th align="left" id="d222600e166">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d222857e172">
+</th></tr></thead><tbody><tr><td id="d222600e172">
 
 **As an assignee**
 
@@ -66,7 +66,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d222857e193">
+</td></tr><tr><td id="d222600e193">
 
 **As a collaborator**
 
@@ -151,7 +151,7 @@ Steps
 
         **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
-        For more information, see Communicating via email.
+        For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/using-email.md).
 
     8.  Either send the email immediately or indicate that it should be sent later.
 
@@ -159,15 +159,15 @@ Steps
         -   To indicate that the email should be sent later, select **Save as draft**.
 12. In the **Signatories** tab, add signatories to whom the contract will be sent for signature by selecting **Add**.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d222857e596">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d222600e596">
 
 Option
 
-</th><th align="left" id="d222857e599">
+</th><th align="left" id="d222600e599">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d222857e605">
+</th></tr></thead><tbody><tr><td id="d222600e605">
 
 **Internal**
 
@@ -177,7 +177,7 @@ Steps
 2.  In the **Order** field, enter the order in which the email should be sent to the signer. The order value should be unique
 
 
-</td></tr><tr><td id="d222857e638">
+</td></tr><tr><td id="d222600e638">
 
 **External**
 

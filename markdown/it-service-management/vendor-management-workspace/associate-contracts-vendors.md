@@ -32,7 +32,7 @@ Role required: sn\_vlm.vendor\_manager
 
 5.  Fill in the fields on the form.
 
-    For information on the field descriptions, see .
+    For information on the field descriptions, see [Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/contract-management/t_CreateAContract.md).
 
     **Note:** The start date must be the current day or a day before the current day.
 

@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see .
+For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 ## Procedure
 
@@ -39,7 +39,7 @@ For more information on UI Builder, see .
 
 6.  Select **Duplicate variant**.
 
-    For more information, see .
+    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/create-variant.md).
 
 7.  On the Tell us about your variant screen, enter `Custom Email Interaction Page` in the **Name** field.
 

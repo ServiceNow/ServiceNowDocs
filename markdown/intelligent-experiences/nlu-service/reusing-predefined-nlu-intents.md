@@ -28,7 +28,7 @@ The prebuilt models map to common conversation topics used by Virtual Agent chat
 
 For more NLU and Virtual Agent context, refer to the following product documentation:
 
--   For ITSM context, see ITSM Virtual Agent.
+-   For ITSM context, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md).
 -   For HR context, see Virtual Agent for HR Service Delivery.
 -   For CSM context, see Customer Service Virtual Agent conversations.
 

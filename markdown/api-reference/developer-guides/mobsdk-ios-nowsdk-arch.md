@@ -47,7 +47,7 @@ NowSDK provides the following feature services and associated APIs:
 
 -   NowChat
 
-    Enables you to embed a native  chat window in your applications. This service includes UI/UX features.
+    Enables you to embed a native [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) chat window in your applications. This service includes UI/UX features.
 
     Primary API: [NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md): This API provides Virtual Agent and Live Agent chat capabilities to your iOS applications. Leverage the full-service chat capabilities provided by the ServiceNow platform by simply implementing NowChatService within your application.
 

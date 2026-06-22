@@ -26,7 +26,7 @@ The following table lists this application's dependencies:
 |Expanded Model and Asset Classes|com.sn\_ent|
 |Install Base|com.snc.install\_base|
 
-**Important:** Starting with the Vancouver release, the Financial Services Operations Core model tables will use child tables of Expanded Model and Asset's base Service model \[cmdb\_service\_product\_model\] to classify different service models within the Configuration Management Database \(CMDB\). For more information, see 
+**Important:** Starting with the Vancouver release, the Financial Services Operations Core model tables will use child tables of Expanded Model and Asset's base Service model \[cmdb\_service\_product\_model\] to classify different service models within the Configuration Management Database \(CMDB\). For more information, see [Expanded Model and Asset Classes Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md)
 
 ## Financial Services Operations Core data model diagram
 

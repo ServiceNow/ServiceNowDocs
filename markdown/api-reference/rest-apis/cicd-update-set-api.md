@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The CICD Update Set API provides methods to create, retrieve, preview, commit, and back-out an update set.
 
-This API is associated with the actions you can perform on system update sets and requires the sn\_cicd.sys\_ci\_automation role and Continuous Integration and Continuous Delivery \(CICD\) REST API \(com.glide.continuousdelivery\) plugin to access it.
+This API is associated with the actions you can perform on [system update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md) and requires the sn\_cicd.sys\_ci\_automation role and Continuous Integration and Continuous Delivery \(CICD\) REST API \(com.glide.continuousdelivery\) plugin to access it.
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
@@ -870,7 +870,7 @@ Response body.
 
 Backs out an installation operation that was performed on an update set with a given sys\_id.
 
-For more information about how the back out operation affects an update set, see .
+For more information about how the back out operation affects an update set, see [Back out an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/t_BackOutUpdateSet.md).
 
 ### URL format
 
@@ -978,7 +978,7 @@ Description
 
 Content-Type
 
-</td><td id="d3143e171">
+</td><td id="d3037e172">
 
 Data format of the request body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 
@@ -1154,7 +1154,7 @@ Response:
 
 Commits an update set with a given sys\_id.
 
-When you have previewed an update set and have resolved any issues, you can commit the update set using this endpoint. Committing an update set applies all changes to the instance and creates a local copy of the update set that contains an update record for every change. For more information about committing an update set, see .
+When you have previewed an update set and have resolved any issues, you can commit the update set using this endpoint. Committing an update set applies all changes to the instance and creates a local copy of the update set that contains an update record for every change. For more information about committing an update set, see [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md).
 
 ### URL format
 

@@ -38,7 +38,7 @@ All AD Orchestration activities were rewritten in the Geneva release as scoped a
 |[Query AD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_QueryAD.md)|Retrieves entries from the Windows Active Directory based on a search filter.|
 |[Remove AD Object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_RemoveADObject.md)|Deletes a user account from Windows Active Directory.|
 |[Reset AD User Password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_ResetADUserPassword.md)|Resets the password of a user account in Windows Active Directory.|
-|Change AD User Password|Changes the password of a user account in Windows Active Directory.|
+|[Change AD User Password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_ChangeADUserPassword.md)|Changes the password of a user account in Windows Active Directory.|
 |[Update AD Object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_UpdateADObject.md)|Updates a user account in Windows Active Directory.|
 |[Is AD Account Locked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_IsADAccountLocked.md)|Determines if an Active Directory user account is locked.|
 |[Unlock AD Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_UnlockADAccount.md)|Unlocks a locked Active Directory user account.|
@@ -49,9 +49,9 @@ All these activities are scoped and part of the Azure AD activity pack. They do 
 
 |Activity|Description|
 |--------|-----------|
-|Add User to Group|Adds a user to an existing security group in Azure Active Directory.|
-|Assign User License|Assigns an extra Office 365 software license to the named user.|
-|Create User|Creates a user for the Azure Active Directory tenant.|
+|[Add User to Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_AddUserToGroupAzureADActivity.md)|Adds a user to an existing security group in Azure Active Directory.|
+|[Assign User License](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_AssignUserLicenseAzureADActivity.md)|Assigns an extra Office 365 software license to the named user.|
+|[Create User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_CreateUserAzureADActivity.md)|Creates a user for the Azure Active Directory tenant.|
 |[Delete User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_DeleteUserAzureADActivity.md)|Deletes the named user's account from the Azure Active Directory tenant.|
 |[Get User Info](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_GetUserInfoAzureADActivity.md)|Returns the named user's information from the Azure Active Directory.|
 |[Remove User from Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_RemoveUserFromGroupADActivity.md)|Removes an existing user from a security group in Azure Active Directory.|
@@ -64,7 +64,7 @@ All these activities are scoped and part of the F5 Network Management activity p
 
 |Activity|Description|
 |--------|-----------|
-|Add F5 Pool|Creates the load balancer pool.|
+|[Add F5 Pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_AddF5PoolActivity.md)|Creates the load balancer pool.|
 |[Check F5 Pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_CheckF5PoolActivity.md)|Checks the status of a pool to validate whether it is available to accept traffic.|
 |[Delete F5 Pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_DeleteF5PoolActivity.md)|Deletes an F5 pool.|
 |[Add F5 Pool Member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_AddF5PoolMemberActivity.md)|Adds a member to an F5 pool.|
@@ -81,19 +81,19 @@ All these activities are scoped and part of the Infoblox DDI activity pack. They
 
 |Activity|Description|
 |--------|-----------|
-|DHCP Reserve IP v4 Address Range|Reserves an IP address range for DHCP use.|
+|[DHCP Reserve IP v4 Address Range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/c_InfobloxDHCPActivities.md)|Reserves an IP address range for DHCP use.|
 |[DHCP Delete IP Reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxDHCPActivities.md)|Deletes IP reservations in DHCP using either an IPv4 or IPv6 address range.|
 |[DHCP List IP Reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxDHCPActivities.md)|Generates a list of all the DHCP range reservations on a specific Infoblox server.|
-|List DNS C-records|Retrieves all canonical \(CNAME\) records from a specified Infoblox server.|
+|[List DNS C-records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/c_InfobloxDNSActivities.md)|Retrieves all canonical \(CNAME\) records from a specified Infoblox server.|
 |[Register DNS A-record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxDNSActivities.md)|Creates a DNS A record on a specified Infoblox server.|
 |[Register DNS C-Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxDNSActivities.md)|Creates a DNS canonical \(CNAME\) record on a specified Infoblox server.|
 |[List DNS Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxDNSActivities.md)|Generates a list of all the DNS entries on a specific Infoblox server.|
 |[DNS Delete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxDNSActivities.md)|Deletes DNS records of any type from in Infoblox server, such as C and A records.|
-|IPAM Register IP Address|Registers an IP address in a network using Infoblox IPAM.|
+|[IPAM Register IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/c_InfobloxIPAMActivities.md)|Registers an IP address in a network using Infoblox IPAM.|
 |[IPAM Reserve IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxIPAMActivities.md)|Reserves an IP address in a network using Infoblox IPAM.|
 |[IPAM List IP Reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxIPAMActivities.md)|Returns an array of all IP Address within the named Infoblox Server.|
 |[IPAM Delete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxIPAMActivities.md)|Deletes an IP Address within a named Infoblox server.|
-|Create Network|Creates networks on a specified Infoblox server.|
+|[Create Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/c_InfobloxNetworkActivities.md)|Creates networks on a specified Infoblox server.|
 |[Get Network Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxNetworkActivities.md)|Retrieves the information about a specific network on an Infoblox server.|
 |[Delete Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxNetworkActivities.md)|Deletes a network from an Infoblox server.|
 |[List Registered Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_InfobloxNetworkActivities.md)|Retrieves all the networks associated with an Infoblox server.|
@@ -104,13 +104,13 @@ All Exchange Orchestration activities were rewritten in the Geneva release as sc
 
 |Activity|Description|
 |--------|-----------|
-|Create Address List|Creates an address list that acts as an alias for emailing all users in the group. This alias cannot be used to manage user permissions.|
+|[Create Address List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_CreateAddressListActivity.md)|Creates an address list that acts as an alias for emailing all users in the group. This alias cannot be used to manage user permissions.|
 |[Delete Address List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_DeleteAddressListActivity.md)|Removes an existing address list from an Exchange server.|
 |[Get Address List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_GetAddressListActivity.md)|Retrieves all attributes from the specified Exchange address list.|
 |[Move Address List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_MoveAddressListActivity.md)|Moves an Exchange address list to another location in the address hierarchy.|
 |[Set Address List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_SetAddressListActivity.md)|Modifies an Exchange address list.|
 |[Update Address List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_UpdateAddressListActivity.md)|Adds or removes users from the specified address list and immediately applies any cached address list changes to the server.|
-|Create Mailbox|If a user does not exist, creates a new Active Directory user and associated Exchange mailbox.|
+|[Create Mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_CreateMailboxActivity.md)|If a user does not exist, creates a new Active Directory user and associated Exchange mailbox.|
 |[Delete Mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_DeleteMailboxActivity.md)|Deletes the Exchange mailbox of an Active Directory user.|
 |[Disable Mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_DisableMailboxActivity.md)|Disables the mailbox associated with a specified Active Directory account.|
 |[Enable Mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_EnableMailboxActivity.md)|Creates a mailbox for an existing Active Directory user.|
@@ -123,7 +123,7 @@ These PowerShell activities were rewritten as scoped activities and are availabl
 
 |Activity|Description|
 |--------|-----------|
-|Install Windows App|Installs an application on a Windows target machine.|
+|[Install Windows App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_InstallWindowsAppActivity.md)|Installs an application on a Windows target machine.|
 |[Join Domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_JoinDomainActivity.md)|Joins a Windows machine to a domain.|
 |[Restart Windows Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_RestartWindowsServerActivity.md)|Restarts a Windows server using PowerShell.|
 |[Uninstall Windows App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_UninstallWindowsAppActivity.md)|Uninstalls an application from a Windows target machine.|
@@ -135,7 +135,7 @@ These probe activities were rewritten as scoped activities and are available in 
 
 |Activity|Description|
 |--------|-----------|
-|Resolve DNS Name|Resolves an IP address or a fully qualified domain name \(FQDN\) into one or more IP addresses.|
+|[Resolve DNS Name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/probe_activity-pack.md)|Resolves an IP address or a fully qualified domain name \(FQDN\) into one or more IP addresses.|
 |[SNMP Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/probe_activity-pack.md)|Queries an SNMP device.|
 
 ## SCCM activities
@@ -162,11 +162,11 @@ These SSH activities were rewritten as scoped activities and are available in th
 |[File Copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_FileCopyActivity.md)|Copies a file on a Linux or Unix computer, via SSH.|
 |[File Read](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_FileReadActivity.md)|Reads a file on a Linux or Unix computer, via SSH.|
 |[File Write](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_FileWriteActivity.md)|Writes a file on a Linux or UNIX computer.|
-|File Replace String|Finds and replaces a string in a file on a Linux or UNIX computer.|
+|[File Replace String](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_FileReplaceStringActivity.md)|Finds and replaces a string in a file on a Linux or UNIX computer.|
 | | |
-|Files Compare|Compares two files on a Linux or Unix computer, via SSH.|
+|[Files Compare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_FilesCompareActivity.md)|Compares two files on a Linux or Unix computer, via SSH.|
 |[Reset Linux User Password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_ResetLinuxUserPasswordActivity.md)|Resets the password for a given user on a Linux computer.|
-|Secure Copy|Copies a file from one host to another, without storing the copied file on the MID Server.|
+|[Secure Copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_SecureCopyActivity.md)|Copies a file from one host to another, without storing the copied file on the MID Server.|
 
 ## SFTP activities
 
@@ -190,7 +190,7 @@ These activities have been removed from the Workflow Editor and are not availabl
 |[Run Probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)|Launches a MID Server probe on behalf of a document.|
 |[SOAP Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_OrchestrationBasicActivities.md)|Executes a SOAP request on a target server. The [SOAP Message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_SOAPMessageActivity.md) activity replaces this activity.|
 |[Run Command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_OrchestrationSSHActivities.md)|Runs a command \(including shell scripts\) on a Linux or UNIX computer.|
-|[Run SCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_OrchestrationSSHActivities.md)|Uses Secure Copy Protocol \(SCP\) to copy a file from one computer to another, including the directory in which the file resides. The Secure Copy activity replaces the Run SCP activity.|
+|[Run SCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_OrchestrationSSHActivities.md)|Uses Secure Copy Protocol \(SCP\) to copy a file from one computer to another, including the directory in which the file resides. The [Secure Copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/r_SecureCopyActivity.md) activity replaces the Run SCP activity.|
 |[Run Powershell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_OrchestrPowerShellActivities.md)|Executes Windows PowerShell commands on a MID Server.|
 
 **Parent Topic:**[Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/t_ActivateOrchestration.md)

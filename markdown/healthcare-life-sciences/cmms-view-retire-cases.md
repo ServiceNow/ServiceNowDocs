@@ -60,5 +60,5 @@ The selected medical device out-of-service case page opens in another tab within
 
 A medical device out-of-service case is a type of medical device case based on a healthcare case that instead is based on a customer service case. Depending on the configurations made by your administrator and your role, additional tabs similar to a customer service case might appear for the medical device out-of-service case.
 
-For more information on tabs available for a customer service case, see Customer service case form.
+For more information on tabs available for a customer service case, see [Customer service case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_CustomerServiceCaseForm.md).
 

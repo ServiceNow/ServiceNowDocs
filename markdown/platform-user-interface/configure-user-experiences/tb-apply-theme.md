@@ -24,7 +24,7 @@ Role required: admin
 
 Currently, mobile instances can only accommodate one published theme at a time.
 
-If you want to publish a theme to specific mobile applications, you can use . Any themes that are created using Theme Builder are available for publishing in .
+If you want to publish a theme to specific mobile applications, you can use [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mab-concept.md). Any themes that are created using Theme Builder are available for publishing in [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mab-concept.md).
 
 Next Experience Polaris and Coral themes are available for publishing from Theme Builder.
 
@@ -42,15 +42,15 @@ Next Experience Polaris and Coral themes are available for publishing from Theme
 
 4.  To publish your themes, complete any of the following actions.
 
-<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d32254e132">
+<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d31558e134">
 
 Option
 
-</th><th align="left" id="d32254e135">
+</th><th align="left" id="d31558e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32254e141">
+</th></tr></thead><tbody><tr><td id="d31558e143">
 
 **Publish using the List or Grid view More Actions menu**
 
@@ -58,7 +58,7 @@ Description
 
 From the Unpublished section, select the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:from the theme that you want published, and select **Publish**.\[Omitted image "tb-more-actions-publish.png"\] Alt text: More actions menu opened with Publish selected.
 
-</td></tr><tr><td id="d32254e166">
+</td></tr><tr><td id="d31558e168">
 
 **Publish using the List view drag-and-drop feature**
 
@@ -91,7 +91,7 @@ From the Unpublished section, hover over the theme you want published, and drag 
 
     **Note:** Only themes that are created in Theme Builder can be edited and published using Theme Builder. Web and mobile themes you may have created outside of Next Experience \(for example, in the mobile legacy UI or Core UI\) can’t be viewed or edited within Theme Builder. To reuse these legacy themes, you must re-create them in Theme Builder.
 
-    Additionally, if you created and published themes outside of Theme Builder, and you want to revert them, you must navigate to the tables that they’re stored in and reapply them. If, however, you want to change themes in individual mobile applications, you can do so using .
+    Additionally, if you created and published themes outside of Theme Builder, and you want to revert them, you must navigate to the tables that they’re stored in and reapply them. If, however, you want to change themes in individual mobile applications, you can do so using [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mab-concept.md).
 
 
 -   **[Set the default theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/set-the-default-theme.md)**  

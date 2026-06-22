@@ -8,7 +8,7 @@ product: Release Notes
 classification: release-notes
 topic_type: reference
 last_updated: "2025-09-10"
-reading_time_minutes: 143
+reading_time_minutes: 144
 breadcrumb: [Available patches and hotfixes, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -40,13 +40,13 @@ Zurich Patch 1 includes fixes for security-related problems that affected certai
 
 ## Changes in Zurich Patch 1
 
--   ****
+-   **[Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md)**
 
     Token FormatFormat of the token to generate. The format determines the structure of a token and the information it includes.
 
     Subject ClaimField in the User \(sys\_user\) table that's used to populate the value of the subject \(sub\) claim of a JWT token. The sub claim is a piece of information that identifies the subject, or user, of the JWT token. This field only applies if the **Token Format** is JWT.
 
--   ****
+-   **[Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/create-jwt-endpoint.md)**
 
     Token FormatFormat of the token to generate. The format determines the structure of a token and the information it includes.
 

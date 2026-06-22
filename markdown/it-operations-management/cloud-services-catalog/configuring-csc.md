@@ -42,7 +42,7 @@ On Day 2, you can set up the additional cloud accounts and service accounts from
 
 Guided Setup provides a sequence of tasks that help you configure CSC on your ServiceNow instance. To open Guided Setup for Cloud Services Catalog, navigate to **All** &gt; **Cloud Services catalog- Guided Setup** on your instance.
 
-For more information, see .
+For more information, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 -   **[Install Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/install-csc.md)**  
 You can install the Cloud Services Catalog application purchased from the ServiceNow® Store, to make it available on your instance. The application also includes demo data and installs related to ServiceNow applications and plugins, if you don’t have them installed already.

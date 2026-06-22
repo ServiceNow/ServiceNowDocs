@@ -24,18 +24,18 @@ Role required: admin
 
 1.  Enable AI Search to provide consumer-grade search experiences for your users.
 
-    For more information, see .
+    For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/configuring-ais.md).
 
 2.  Install the Now Assist for platform \[sn\_genai\_platform\] to enable Now Assist for the workspace.
 3.  Install the Health and Safety Incident Management \[sn\_hs\_im\_incident\] plugin.
 
     For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
 
-4.  For detailed information about configuring Now Assist in Virtual agent, see .
+4.  For detailed information about configuring Now Assist in Virtual agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 ## Procedure
 
-1.  To turn on the Now Assist panel, see .
+1.  To turn on the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
     The **CI Admin console** opens the **Assistants** page that shows the two assistants.
 

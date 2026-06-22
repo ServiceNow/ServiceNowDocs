@@ -106,7 +106,7 @@ Use ServiceNow Virtual Agent with Microsoft Teams
 -   IT Service Management Standard, or
 -   HR Service Delivery Pro for full Virtual Agent
 
- To implement ServiceNow Virtual Agent with Microsoft Teams, see Conversational Integration with Microsoft Teams.
+ To implement ServiceNow Virtual Agent with Microsoft Teams, see [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md).
 
 </td><td>
 
@@ -152,7 +152,7 @@ Build Custom integrations
 
 </td><td>
 
-For more information, see Microsoft Teams Graph spoke, and Microsoft Teams Communications spoke.
+For more information, see [Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/msteams-spoke.md), and [Microsoft Teams Communications spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/msteams-comm.md).
 
 </td><td>
 

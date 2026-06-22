@@ -91,7 +91,7 @@ Display your active chat session. Chat actions appear beneath the chat and allow
 
 </td><td>
 
-Display buttons for available actions: -   Quick actions \[Omitted image "quick-action-icon.png"\] Alt text: Quick action icon - select to display the quick action menu.
+Display buttons for available actions: -   [Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md) \[Omitted image "quick-action-icon.png"\] Alt text: Quick action icon - select to display the quick action menu.
 -   Transfer to queue \[Omitted image "transfer-to-queue.png"\] Alt text: Transfer to queue icon - select to transfer the conversation to the queue.
 -   Transfer to agent \[Omitted image "transfer-to-agent.png"\] Alt text: Transfer to agent icon - select to transfer the conversation to an agent.
 -   Attach \[Omitted image "attachment.png"\] Alt text: Attachment icon - select to add an attachment to the conversation.

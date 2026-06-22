@@ -103,7 +103,7 @@ Question set
 
 </td><td>
 
-Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see .
+Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see [Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md).
 
 **Note:**
 
@@ -331,7 +331,7 @@ Filter conditions
 
 </td><td>
 
-Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see .
+Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
 </td><td>
 

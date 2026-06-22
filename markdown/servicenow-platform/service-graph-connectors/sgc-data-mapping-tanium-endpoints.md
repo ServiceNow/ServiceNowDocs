@@ -87,7 +87,7 @@ Software Usage \[samp\_sw\_usage\]
 
 </td><td>
 
-The SG-Tanium Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) plugin is activated on your ServiceNow instance. See .
+The SG-Tanium Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) plugin is activated on your ServiceNow instance. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 </td></tr><tr><td>
 

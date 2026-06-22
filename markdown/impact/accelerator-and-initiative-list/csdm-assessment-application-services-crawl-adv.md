@@ -8,7 +8,7 @@ product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Common Service Data Model \(CSDM\) Assessment Accelerators, Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
@@ -20,7 +20,7 @@ This Accelerator provides an assessment and guidance for Common Service Data Mod
 
 Common Service Data Model Assessment – Application Services \(Crawl\) - Advanced provides Impact customers with an assessment and guidance based on leading practices related to the CSDM Application Services and Business Applications framework elements. Interactions with  ServiceNow CSDM Subject Matter Experts and personalized content on CSDM for your organization are included.
 
-For more information on the CSDM, see .
+For more information on the CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
 
 **Note:** This Accelerator is available for the Impact Advanced package.
 

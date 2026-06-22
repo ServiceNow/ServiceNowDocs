@@ -16,7 +16,7 @@ breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
 
 Onboard your hardware products and manage the Technology Reference Model \(TRM\) life-cycle by using Technology Reference Model \(TRM\) of Application Portfolio Management along with the Hardware Asset Management application.
 
-The Technology Reference Model enables you to maintain a list of hardware products with information on their approval of use within the organization. The TRM library is maintained by enterprise architects and used by application owners. For detailed information on TRM, see . TRM enables application owners to request hardware products to be used in the organization, onboard the product, and define the TRM life-cycle phases.
+The Technology Reference Model enables you to maintain a list of hardware products with information on their approval of use within the organization. The TRM library is maintained by enterprise architects and used by application owners. For detailed information on TRM, see [Exploring Technology Reference Model - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/technology-reference-model-in-apm.md). TRM enables application owners to request hardware products to be used in the organization, onboard the product, and define the TRM life-cycle phases.
 
 Each hardware product model is associated with a set of life-cycle phases with a start and end date. The Hardware Asset Management application gives visibility into the TRM life-cycle phases for all hardware models associated with a product.
 

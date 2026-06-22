@@ -57,7 +57,7 @@ This example uses the Customer Service Case Types application, which includes mu
     -   Source Component = Record List Header
     -   Controller = List Controller
     -   Target Event = Open modal
-    For more information, see .
+    For more information, see [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/create-a-ux-add-on-event-mapping.md).
 
 6.  Select **Submit**.
 
@@ -75,7 +75,7 @@ To make the modal available, add it to the List Page Modals page collection.
     1.  Select the **+** icon next to Pages and variants and then select **Create a new page**.
     2.  Add a name in the **Name** field and select **Continue**. For example, add create\_case as the name.
     3.  Select **Build responsive** and then select **Create**. The create\_case page is added to the list of pages and variants for the page collection
-    For more information, see Page collections.
+    For more information, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/page-collections.md).
 
 7.  Go to the app route record and change the screen collection to point to the existing screen collection. For example, the Create Case screen collection.
     1.  Select **Settings** for the create\_case page to open the general page settings.

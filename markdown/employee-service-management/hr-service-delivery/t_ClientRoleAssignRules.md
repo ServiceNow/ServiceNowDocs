@@ -46,15 +46,15 @@ To map conditions to a client role:
 
     You can also click the **Preview this record** icon to open the record.
 
-<table id="choicetable_myd_4sm_b2b"><thead><tr><th align="left" id="d348392e147">
+<table id="choicetable_myd_4sm_b2b"><thead><tr><th align="left" id="d348135e147">
 
 Field
 
-</th><th align="left" id="d348392e150">
+</th><th align="left" id="d348135e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d348392e156">
+</th></tr></thead><tbody><tr><td id="d348135e156">
 
 **Name**
 
@@ -62,7 +62,7 @@ Description
 
 Name of the HR condition.
 
-</td></tr><tr><td id="d348392e165">
+</td></tr><tr><td id="d348135e165">
 
 **Table**
 
@@ -70,7 +70,7 @@ Name of the HR condition.
 
 Table conditions are built on the HR profile \[sn\_hr\_core\_profile\] table only.Changing the table for client role assignment is not recommended.
 
-</td></tr><tr><td id="d348392e177">
+</td></tr><tr><td id="d348135e177">
 
 **Active**
 
@@ -78,7 +78,7 @@ Table conditions are built on the HR profile \[sn\_hr\_core\_profile\] table onl
 
 Check box for enabling condition.**Note:** Deactivate at the client role assignment level and not the conditions level.
 
-</td></tr><tr><td id="d348392e189">
+</td></tr><tr><td id="d348135e189">
 
 **User column**
 
@@ -86,7 +86,7 @@ Check box for enabling condition.**Note:** Deactivate at the client role assignm
 
 Together with the HR profile \[sn\_hr\_core\_profile\] table, filters users when evaluating a condition.
 
-</td></tr><tr><td id="d348392e199">
+</td></tr><tr><td id="d348135e199">
 
 **Condition**
 
@@ -96,7 +96,7 @@ Conditions the Assign HR Roles business rule uses to automatically assign a role
 -   Part Time Employee or
 -   Temporary Employee and
 -   Employment start date is after Today
- **Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+ **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
 </table>6.  Click **Submit** or **Update**.

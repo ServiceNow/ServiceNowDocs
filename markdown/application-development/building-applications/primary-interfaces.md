@@ -23,7 +23,7 @@ The standard method of accessing data in ServiceNow is through the default forms
 1.  Keep the number of fields on a form to a minimum. The more fields on a form, the longer the form takes to load resulting in a poor user experience. Use form views to create different sets of fields for different situations.
 2.  Use form sections to logically group fields together and to keep users from scrolling. The top section of the form should contain the fields that are always needed or used, while the other form sections contain less frequently utilized fields.
 3.  Make sure fields appear in the right order. For example, the start date field should always come right before an end date field.
-4.  Use seven or fewer columns in a default list. Users can add more by personalizing their lists.
+4.  Use seven or fewer columns in a default list. Users can add more by [personalizing their lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_PersonalLists.md).
 5.  Avoid using a reference field as the first item in the list view, because it is shown as hyperlinked text. Clicking on the reference field will redirect the user to the referenced record instead of the list record, resulting in a poor user experience.
 
 This example shows a poorly designed form.

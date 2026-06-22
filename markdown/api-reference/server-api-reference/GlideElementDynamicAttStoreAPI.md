@@ -8,7 +8,7 @@ product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -20,7 +20,7 @@ To use this API to create dynamic attributes you must have the dynamic\_schema\_
 
 This API extends the [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/c_GlideElementAPI.md) API.
 
-See also .
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -267,7 +267,7 @@ if(gr_Inc.next()) {
 
 Returns the internal value of the dynamic attribute pointed to by a passed-in attribute path within a dynamic attribute store.
 
-See also .
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
 
 <table id="table_tnp_rld_bbc" class="parameters"><thead><tr><th>
 
@@ -374,7 +374,7 @@ isTransient: false
 
 Sets the attribute pointed to by a specified attribute path in a dynamic attribute store to a specified value.
 
-See also .
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
 
 <table id="table_aj2_vmd_bbc" class="parameters"><thead><tr><th>
 
@@ -455,7 +455,7 @@ gr_Inc.insert();
 
 Sets the values specified in the passed GlideElementDynamicAttributeStore object in the dynamic attribute store of the current GlideRecord element. The current element's data type must be set to **Dynamic Attribute Store**.
 
-See also .
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
 
 |Name|Type|Description|
 |----|----|-----------|

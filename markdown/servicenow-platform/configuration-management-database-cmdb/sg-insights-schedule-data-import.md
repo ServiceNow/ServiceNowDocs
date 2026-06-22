@@ -39,7 +39,7 @@ Role required: sn\_cmdb\_admin \(CMDB Admin\) and one of these roles:
 
     You may need to change your application scope to create or edit a scheduled data import from Service Graph Workspace.
 
-    For more information about updating a scheduled data import, see .
+    For more information about updating a scheduled data import, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
 
 7.  Select **Update**.
 

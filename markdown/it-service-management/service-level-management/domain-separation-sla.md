@@ -25,7 +25,7 @@ Domain separation is supported in Service Level Management. Domain separation en
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 ## Service Level Management overview
 
@@ -63,5 +63,5 @@ The intention of SLM is to provide customers with an expectation of service with
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
 

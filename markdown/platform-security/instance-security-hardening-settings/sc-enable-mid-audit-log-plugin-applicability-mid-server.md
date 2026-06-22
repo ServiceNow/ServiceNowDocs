@@ -20,9 +20,9 @@ The MID Server command audit log tracks details such as the command name, comman
 
 Set **mid.log.command\_audit.enable** property to **true** in the MID Server Properties \[ecc\_agent\_property\] table for each MID Server to turn on auditing for commands run by the MID Server.
 
-For more details on setting this property, see .
+For more details on setting this property, see [MID Server command audit log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-audit-log.md).
 
-For information about MID Servers and how they work, see .
+For information about MID Servers and how they work, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 ## More information
 

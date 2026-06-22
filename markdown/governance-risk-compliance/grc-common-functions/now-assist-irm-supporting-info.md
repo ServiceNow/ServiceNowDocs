@@ -26,7 +26,7 @@ Now Assist for IRM is supported starting from the Yokohama patch 3 release.
 
 ## Supported language models
 
-You can use Now LLM Service, Now LLM LTS, Azure OpenAI, Google Gemini, or Anthropic Claude on AWS, as the AI model provider for all Now Assist skills and AI agents. For more information, see .
+You can use Now LLM Service, Now LLM LTS, Azure OpenAI, Google Gemini, or Anthropic Claude on AWS, as the AI model provider for all Now Assist skills and AI agents. For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 ## Supported user interfaces
 
@@ -85,7 +85,7 @@ Compliance Workspace
 </td></tr></tbody>
 </table>## Security enhancements
 
-For information about security enhancements for AI agents, see .
+For information about security enhancements for AI agents, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
 ## Application information
 
@@ -95,7 +95,7 @@ This store app has the following dependencies:
 
 -   Now Assist Platform
 
-    Integrates generative AI into ServiceNow workflows, enabling intelligent assistance through summarization, content creation, conversational AI, and agentic workflows for IT, HR, and compliance processes. For more information, see Now Assist Platform.
+    Integrates generative AI into ServiceNow workflows, enabling intelligent assistance through summarization, content creation, conversational AI, and agentic workflows for IT, HR, and compliance processes. For more information, see [Now Assist Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 
 -   GRC Common Generative AI
 

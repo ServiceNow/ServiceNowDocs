@@ -19,7 +19,7 @@ Integrate Metrikus Spoke with Flow Designer Integration Hub to retrieve occupanc
 Metrikus Spoke provides the occupancy sensor data by mapping the workplace locations or spaces provided in Workplace Connectors.
 
 -   [Activate Metrikus Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/install-metrikus-plugin.md).
--   Integrate  in Flow Designer Integration Hub.
+-   Integrate [Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/metrikus-spoke.md) in Flow Designer Integration Hub.
 -   [Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/providers-occupancy.md) in Workplace Connectors
 
 **Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)

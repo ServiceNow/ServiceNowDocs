@@ -129,7 +129,7 @@ Description for the HTTP response header.
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
 
-        For more information about adding a header, see Configure HTTP response headers.
+        For more information about adding a header, see [Configure HTTP response headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/configure-http-response-header.md).
 
 
 **Parent Topic:**[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)

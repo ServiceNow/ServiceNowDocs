@@ -16,7 +16,7 @@ breadcrumb: [Integrating with consumer messaging apps, Integrate, Customer Servi
 
 Integrate Facebook Messenger chat conversations with your ServiceNow® instance so that consumers and customer contacts can communicate with your business using the Conversational Integration with Facebook Messenger application.
 
-As an administrator, if you have configured the Conversational Integration with Facebook Messenger application, your customer contacts and consumers can initiate a Facebook Messenger chat conversation with a virtual agent or live agent. An agent can accept a conversation initiated from a Facebook Messenger chat conversation. For more information, see Configure Conversational Integration with Facebook Messenger.
+As an administrator, if you have configured the Conversational Integration with Facebook Messenger application, your customer contacts and consumers can initiate a Facebook Messenger chat conversation with a virtual agent or live agent. An agent can accept a conversation initiated from a Facebook Messenger chat conversation. For more information, see [Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/messg-fbm-configure.md).
 
 **Note:** As an administrator, you can also use any predefined Customer Service Virtual Agent conversations to capture information from customer contacts or consumers. For more information, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-virtual-agent-chatbot.md).
 

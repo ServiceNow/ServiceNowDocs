@@ -1,0 +1,29 @@
+---
+title: Service Mapping data that appears on maps
+description: Service instances that are populated using Service Mapping methods are included in maps. Service Mapping provides significant information for mapped service instances \(application services\) \[cmdb\_ci\_service\_discovered\] such as relationships and grouping.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/unified-map/um-data-from-service-mapping.html
+release: zurich
+product: Unified Map
+classification: unified-map
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [View service instances, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+---
+
+# Service Mapping data that appears on maps
+
+Service instances that are populated using Service Mapping methods are included in maps. Service Mapping provides significant information for mapped service instances \(application services\) \[cmdb\_ci\_service\_discovered\] such as relationships and grouping.
+
+## Considerations
+
+If Service Mapping is installed and the **sn\_sm\_scoped\_app.sa.unified\_map.enabled** system property is enabled, you can access Unified Map from the Service Mapping workspace. For more information, see [Access the Unified Map feature from the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-mapping/view-unified-map-sm-workspace.md).
+
+If Service Mapping is not installed, only service instances that are populated by CMDB-related methods appear on maps. Unified Map traverses the CMDB hierarchical data both up and down using user-specified levels.
+
+**Related topics**  
+
+
+[Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
+

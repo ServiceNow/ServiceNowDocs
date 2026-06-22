@@ -32,15 +32,15 @@ Role required: sn\_si.admin
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d306402e142">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d306438e142">
 
 Field
 
-</th><th align="left" id="d306402e145">
+</th><th align="left" id="d306438e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d306402e151">
+</th></tr></thead><tbody><tr><td id="d306438e151">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Unique name for the ArcSight ESM Manager that will be used in the integration profile configuration to distinguish amongnst multiple ArcSight ESM Manager sources if required.Spaces are supported for names, but parentheses are not supported.
 
-</td></tr><tr><td id="d306402e169">
+</td></tr><tr><td id="d306438e169">
 
 **ArcSight API Endpoint URL**
 
@@ -56,7 +56,7 @@ Unique name for the ArcSight ESM Manager that will be used in the integration pr
 
 URL for your ArcSight ESM Manager server. Note that the URL should include the API port, for example: `https://arcsight-esm.com:8443`
 
-</td></tr><tr><td id="d306402e184">
+</td></tr><tr><td id="d306438e184">
 
 **API Account User Name**
 
@@ -64,7 +64,7 @@ URL for your ArcSight ESM Manager server. Note that the URL should include the A
 
 User name that you created for your API user account in the ArcSight ESM Manager console.
 
-</td></tr><tr><td id="d306402e196">
+</td></tr><tr><td id="d306438e196">
 
 **API Password**
 
@@ -72,7 +72,7 @@ User name that you created for your API user account in the ArcSight ESM Manager
 
 Password that you created for your API user account in the ArcSight ESM Manager console.
 
-</td></tr><tr><td id="d306402e209">
+</td></tr><tr><td id="d306438e209">
 
 **On Premises Deployment**
 
@@ -82,7 +82,7 @@ Default is unchecked. If you are using the cloud-based version of ArcSight ESM t
 
  For an on-premises deployment, select this check box and specify the MID Server Application.
 
-</td></tr><tr><td id="d306402e227">
+</td></tr><tr><td id="d306438e227">
 
 **MID Server Application**
 

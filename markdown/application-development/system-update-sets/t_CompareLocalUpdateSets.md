@@ -133,8 +133,8 @@ When a customer update is moved from one instance to another, it may be re-writt
 ### Preventing duplicate records
 
 -   Transfer data with update sets rather than recreating it on separate instances to ensure the records have the same sys\_id.
--   Export and import records as XML files to ensure the records have the same sys\_id. See Export and import XML files.
--   Enable a unique index for the table from the system dictionary. See Table administration.
+-   Export and import records as XML files to ensure the records have the same sys\_id. See [Export and import XML files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/c_ExportAndImportXMLFiles.md).
+-   Enable a unique index for the table from the system dictionary. See [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
 
 **Note:** The default records included in the baseline system will always have the same Sys ID because the instance imports the records as XML files during instance provisioning.
 

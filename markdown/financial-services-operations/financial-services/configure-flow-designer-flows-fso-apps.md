@@ -35,7 +35,7 @@ Role required: Based on the application that you are configuring, you need the f
 
 ## About this task
 
-The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with Flow Designer basics.
+The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-designer-home-landing-page.md) basics.
 
 For information on flows that are installed with Financial Services Operations applications, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/flow-designer-flows-fso-apps.md).
 
@@ -47,12 +47,12 @@ For information on flows that are installed with Financial Services Operations a
 
     -   To create a flow, click **New**.
     -   To modify a predefined flow, filter the list to show the flows for the required application and open the desired flow.
-    For information on how to create or modify flows, see Create a flow.
+    For information on how to create or modify flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-flow.md).
 
 3.  Click **Save**.
 
 4.  Test your flow and click **Activate**.
 
-    For more information, see Test a flow.
+    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-test.md).
 
 

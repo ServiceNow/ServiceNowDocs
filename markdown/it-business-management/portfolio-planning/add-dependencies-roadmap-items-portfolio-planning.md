@@ -33,15 +33,15 @@ The dependency for a planning item on your roadmap can be on an item from the sa
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d60481e107">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d59453e107">
 
 Roadmap type
 
-</th><th align="left" id="d60481e110">
+</th><th align="left" id="d59453e110">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d60481e116">
+</th></tr></thead><tbody><tr><td id="d59453e116">
 
 **Portfolio plan roadmap**
 
@@ -51,7 +51,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d60481e137">
+</td></tr><tr><td id="d59453e137">
 
 **Free-form roadmap**
 

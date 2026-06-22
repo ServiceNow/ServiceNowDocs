@@ -30,15 +30,15 @@ If you’re creating demand with the PPM Standard Multicurrency \(com.snc.ppm\_m
 
 1.  To compare financial baselines of a demand, perform one of the following options.
 
-<table id="choicetable_ydr_q2x_xfb"><thead><tr><th align="left" id="d272804e97">
+<table id="choicetable_ydr_q2x_xfb"><thead><tr><th align="left" id="d271848e97">
 
 Option
 
-</th><th align="left" id="d272804e100">
+</th><th align="left" id="d271848e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d272804e106">
+</th></tr></thead><tbody><tr><td id="d271848e106">
 
 **From the Demand form**
 
@@ -51,7 +51,7 @@ Steps
 5.  On the Demand Workbench, select the baseline information icon \( \[Omitted image "new-baseline-info-icon.png"\] Alt text: \) and then select **Compare Baselines**.
 
 
-</td></tr><tr><td id="d272804e165">
+</td></tr><tr><td id="d271848e165">
 
 **From the Baseline form**
 

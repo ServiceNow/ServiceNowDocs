@@ -18,7 +18,7 @@ Create your own custom guardian to monitor and detect requests sent to LLM.
 
 ## Before you begin
 
-Configure a connection and credential alias for your preferred provider. For more information, see .
+Configure a connection and credential alias for your preferred provider. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 Role required: admin
 

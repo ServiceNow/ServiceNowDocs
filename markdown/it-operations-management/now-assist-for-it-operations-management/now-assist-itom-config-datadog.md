@@ -21,7 +21,7 @@ Configure the Datadog analysis AI agent to use the Datadog observability skill i
 
 Before configuring the Datadog analysis AI agent, you must do the following:
 
--   Install Now Assist for IT Operations Management \(ITOM\).
+-   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate Datadog platform events with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/datadog-events-webhook.md).
 -   Copy your Datadog API key and application key.
 
@@ -37,15 +37,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d195660e149">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d193546e149">
 
 Field
 
-</th><th align="left" id="d195660e152">
+</th><th align="left" id="d193546e152">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d195660e158">
+</th></tr></thead><tbody><tr><td id="d193546e158">
 
 **Connection Name**
 
@@ -53,7 +53,7 @@ Description
 
 Name of your Datadog connection. This name helps you identify it later. For example, `Datadog analysis AI agent connection`.
 
-</td></tr><tr><td id="d195660e175">
+</td></tr><tr><td id="d193546e175">
 
 **Connection URL**
 
@@ -61,7 +61,7 @@ Name of your Datadog connection. This name helps you identify it later. For exam
 
 URL of your Datadog instance. Datadog URLs follow this format: `https://api.datadoghq.com`.
 
-</td></tr><tr><td id="d195660e193">
+</td></tr><tr><td id="d193546e193">
 
 **Datadog API key**
 
@@ -69,7 +69,7 @@ URL of your Datadog instance. Datadog URLs follow this format: `https://api.data
 
 Your Datadog API key.
 
-</td></tr><tr><td id="d195660e207">
+</td></tr><tr><td id="d193546e207">
 
 **Datadog Application key**
 

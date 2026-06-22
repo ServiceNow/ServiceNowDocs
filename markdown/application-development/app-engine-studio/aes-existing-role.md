@@ -8,7 +8,7 @@ product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Add application security, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
@@ -27,7 +27,7 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 ## About this task
 
-App Engine Studio includes default roles that you can use for your application. For more information on the default roles, see .
+App Engine Studio includes default roles that you can use for your application. For more information on the default roles, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 ## Procedure
 

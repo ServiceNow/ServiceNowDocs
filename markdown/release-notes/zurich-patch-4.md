@@ -41,26 +41,26 @@ Zurich Patch 4 includes fixes for security-related problems that affected certai
 
 ## Changes in Zurich Patch 4
 
--   ****
+-   **[Sensitive data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/sensitive-data-filters.md)**
 
     The Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table provides a way to help prevent sensitive information from being exposed in the Configuration Management Database \(CMDB\) by applying redaction rules during data collection.
 
 -   ****
--   ****
+-   **[Show borders between search result cards in portal search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/show-borders-search-result-cards-portal-search.md)**
 
     Display borders between search result cards on the search results page for portal search applications.
 
--   ****
+-   **[Time-based one-time password \(TOTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/totp-authenticator-apps.md)**
 
     A time based one-time password \(TOTP\) is a secure authentication factor that verifies user identity by generating a unique, time-sensitive code.
 
--   ****
+-   **[Push notification - Okta Verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/push-notification-okta-verify.md)**
 
     The **Okta Verify** app push notification enables users to securely approve authentication requests directly on their enrolled mobile devices.
 
--   ****
--   ****
--   ****
+-   **[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/softpin-authentication.md)**
+-   **[SMS One-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/sms-otp-authentication.md)**
+-   **[Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/roles-within-platform-security.md)**
 
     Verify proper access management by assigning roles that define user permissions and responsibilities. By doing so, organizations can maintain security, enforce conformance, and optimize their operations effectively.
 

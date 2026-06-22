@@ -8,7 +8,7 @@ product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Google Console, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -18,13 +18,13 @@ Set up scheduled import jobs to pull in Chromebook device data from the Google C
 
 ## Before you begin
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by ITOM Visibility or ITOM Discovery, these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-license-module.md), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Dependencies and requirements:
 
 -   The Integration Commons for CMDB store app, which is automatically installed. See [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 -   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
--   ITOM Licensing plugin \(com.snc.itom.license\). See .
+-   ITOM Licensing plugin \(com.snc.itom.license\). See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
 
 Role required: admin
 
@@ -32,7 +32,7 @@ Role required: admin
 
 1.  Verify that the application scope is set to the Service Graph Connector for Google Console application by using the application picker.
 
-    For more information, see Application picker.
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Google Console** &gt; **Setup**.
 
@@ -220,7 +220,7 @@ Select the name of the JKS file you created in the [previous step](https://raw.g
 
     3.  On the Scheduled Data Import form, verify the field values.
 
-        For more information, see .
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select the **Active** check box to activate the scheduled job.
 

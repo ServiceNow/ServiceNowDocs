@@ -24,7 +24,7 @@ The support level is Basic but has some exceptions or special conditions.
 -   The user interface, cache keys, reporting, rollups, and aggregations all use the domain at production run time.
 -   The owner of the instance must be able to set up the application to function across multiple tenants.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 \*All components of Service Portfolio Management \(SPM\) and Service Owner Workspace \(SOW\) are domain-separated in releases of New York and forward. If using Financial Management for the SPM plugin for estimated spend, there can be only one fiscal calendar defined per instance. When this plugin is activated, there can be only one approach for service offering cost modeling per instance \(using either the Financial Management engine or local data. Different domains cannot choose their own spend model.
 
@@ -33,5 +33,5 @@ For more information on support levels, see Application support for domain separ
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
 

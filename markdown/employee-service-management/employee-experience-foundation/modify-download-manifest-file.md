@@ -60,7 +60,7 @@ Role required:external\_app\_install\_admin
 
 6.  In the **Configure Virtual Agent** section, you can do one of the following.
 
-    To configure the Virtual Agent in your instance, click **Configure Virtual Agent**. For more information, see Conversational Integration with Microsoft Teams.
+    To configure the Virtual Agent in your instance, click **Configure Virtual Agent**. For more information, see [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md).
 
     \[Omitted image "configure-va-tab.png"\] Alt text: Configure Virtual Agent tab
 

@@ -48,7 +48,7 @@ Knowledge base
 
 </td><td>
 
-Name of the knowledge base.**Note:** You can use an existing or create a new HR knowledge base. See Create a knowledge base for more information.
+Name of the knowledge base.**Note:** You can use an existing or create a new HR knowledge base. See [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md) for more information.
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Check box for enabling the display of attachment. If selected, attached files ar
 
 4.  Click **Publish** to publish the article.
 
-    **Note:** Any additional steps required to publish the knowledge article, such as approvals, depend on the publishing workflow for the knowledge base. See Knowledge workflows for more information.
+    **Note:** Any additional steps required to publish the knowledge article, such as approvals, depend on the publishing workflow for the knowledge base. See [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for more information.
 
 
 **Parent Topic:**[HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-knowledge-management.md)

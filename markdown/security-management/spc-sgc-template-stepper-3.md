@@ -26,15 +26,15 @@ Role required: sn\_sec\_spc\_core.developer
 
 1.  Select one to continue.
 
-<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d130620e101">
+<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d130647e101">
 
 Option
 
-</th><th align="left" id="d130620e104">
+</th><th align="left" id="d130647e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d130620e110">
+</th></tr></thead><tbody><tr><td id="d130647e110">
 
 **Select Use Now Assist**
 
@@ -42,7 +42,7 @@ Description
 
 See [Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/select-api-template.md) for the steps for using Now Assist.
 
-</td></tr><tr><td id="d130620e132">
+</td></tr><tr><td id="d130647e132">
 
 **Select one option from a list and __Apply__ to view the template cards that match your selections.**
 

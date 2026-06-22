@@ -20,7 +20,7 @@ Plan, configure, and review your Proactive Triggers.
 
 [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/product-support-for-technology/enable-proactive-triggers.md) the Proactive Triggers feature.
 
-**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the $sn-va-web-client-app and sn\_va\_web\_client\_app\_embed pages for public access. For more information, see .
+**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the $sn-va-web-client-app and sn\_va\_web\_client\_app\_embed pages for public access. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/t_MakeAPagePublic.md).
 
 Role required: admin
 

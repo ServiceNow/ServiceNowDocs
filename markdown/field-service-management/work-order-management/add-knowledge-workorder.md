@@ -53,5 +53,5 @@ The articles are added and appear under the **Attached Articles** tab.
 **Related topics**  
 
 
-[bundle-platcap.r_KnowledgeProperties]
+[Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 

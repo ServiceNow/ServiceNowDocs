@@ -19,7 +19,7 @@ You can enable authors to reuse information in a case by copying case details in
 ## Before you begin
 
 -   The [Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md) must be active.
--   The Properties installed with Customer Service Management must be enabled
+-   The [Properties installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_PropInstallWcustServ.md) must be enabled
 -   The pre-defined KCS article template or a newly created article template must be active.
 
     **Note:** You can do one of the following to create an article from a case:

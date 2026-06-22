@@ -61,15 +61,15 @@ Role required: admin
     -   Publish: makes the theme available for use.
 3.  Choose the theme you want to edit using one of the following ways.
 
-<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d41603e234">
+<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d40907e234">
 
 Page
 
-</th><th align="left" id="d41603e237">
+</th><th align="left" id="d40907e237">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d41603e243">
+</th></tr></thead><tbody><tr><td id="d40907e243">
 
 **Manager \(Grid view\)**
 
@@ -77,7 +77,7 @@ Option
 
 From the Published or Unpublished section, choose the theme you want to edit and select **Edit**.
 
-</td></tr><tr><td id="d41603e255">
+</td></tr><tr><td id="d40907e255">
 
 **Manager \(List view\)**
 
@@ -85,7 +85,7 @@ From the Published or Unpublished section, choose the theme you want to edit and
 
 From the Published or Unpublished section, choose the theme you want to edit and select the pencil icon \[Omitted image "pencil-icon.png"\] Alt text:.
 
-</td></tr><tr><td id="d41603e269">
+</td></tr><tr><td id="d40907e269">
 
 **Editor**
 

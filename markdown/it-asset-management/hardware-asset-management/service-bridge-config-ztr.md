@@ -20,14 +20,14 @@ The Zero Touch Refresh flow uses the Service Exchange application to connect pro
 
 Providers should perform the following setup tasks to communicate the details of Zero Touch Refresh requests:
 
-1.  .
-2.  Onboard a new Service Exchange customer.
+1.  [Install Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/install-service-bridge-v2-provider.md).
+2.  [Onboard a new Service Exchange customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-onboarding.md).
 3.  [Trigger the assignment of a remote task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-rtd-for-providers.md).
 
 ## Service Exchange setup for employee requests
 
 Perform the following setup to communicate the details of Zero Touch Refresh requests with the provider:
 
-1.  .
+1.  [Install Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/install-service-bridge-v2-customer.md).
 2.  [Activate the remote task definitions published by the provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/activate-rtd-for-customers.md).
 

@@ -27,8 +27,8 @@ The Microsoft Exchange On-Premises, unlike other calendar providers, isn’t acc
 
 Synchronize reservations to the on-premises calendar from Workplace Reservation Management by communicating using the MID server.
 
--   Install Microsoft Exchange Server Spoke.
--   Set up the Microsoft Exchange Server spoke
+-   Install [Microsoft Exchange Server Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/msexchangeserver-spoke.md).
+-   [Set up the Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-msexchange.md)
 -   [Connect Microsoft Exchange On-Premises MID server with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/connect-on-premise-mid-server-with-servicenow.md)
 -   After configuring the MID server, create a connection and credential alias to connect it with the calendar provider. For more information, refer to [Create a Connection and credential alias for Microsoft Exchange On-Premises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/create-a-connection-and-credential-alias-for-ms-exch-onprem.md).
 -   After setting up the connection and credential aliases, configure Microsoft Exchange On-Premises as a calendar provider. For more information, refer to [Configure Microsoft Exchange On-Premises as calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/configure-ms-exchange-on-prem-as-calendar-provider.md). To support the on-premises calendar provider, a new calendar processor, Microsoft EWS is added.

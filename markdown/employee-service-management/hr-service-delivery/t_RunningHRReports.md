@@ -44,7 +44,7 @@ Use HR reports to improve overall efficiency and effectiveness. For example, you
 
 ## What to do next
 
-If you want to create additional HR reports, click **Create a report** above the Reports list. After you create reports, share them with the HR report group. Once on the Reports list, the group can view them. For more information, see .
+If you want to create additional HR reports, click **Create a report** above the Reports list. After you create reports, share them with the HR report group. Once on the Reports list, the group can view them. For more information, see [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md).
 
 -   **[Available HR reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/r_AvailableReports.md)**  
 Predefined HR reports are available in the **HR Dashboards &amp; Reports** &gt; **Reports** list.
@@ -54,5 +54,5 @@ Predefined HR reports are available in the **HR Dashboards &amp; Reports** &gt; 
 **Related topics**  
 
 
-[bundle-par.c_GenerateReports]
+[Getting started with reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/c_GenerateReports.md)
 

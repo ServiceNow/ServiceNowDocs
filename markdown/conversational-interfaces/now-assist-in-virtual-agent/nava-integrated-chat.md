@@ -24,7 +24,7 @@ After the premium chat screen appears, begin entering a prompt in the chat input
 -   Keyword-based prompts
 -   Direct links to relevant content
 
-**Note:** For more information about how Now Assist in Virtual Agent and Now Assist in AI Search combine to include recommended prompts, see .
+**Note:** For more information about how Now Assist in Virtual Agent and Now Assist in AI Search combine to include recommended prompts, see [Auto-complete suggestion types included with Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/auto-complete-suggestion-types-na-ais.md).
 
 ## Chat input box features
 
@@ -123,13 +123,13 @@ Support contact information such as phone numbers and email addresses are listed
 </td></tr></tbody>
 </table>## Chatting with Virtual Agent
 
-After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see  and .
+After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see [Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/now-assist-catalog-ordering-gr.md) and [Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md).
 
 If multiple results are found, you can follow inline citations to either begin an action or learn more. The option to **Show sources** appears at the end of the synthesized response for internal and external Knowledge Base articles. Virtual Agent can only return available catalog items that match a user's request when the Now Assist Multi-Turn Catalog Ordering skill is enabled.
 
 **Note:** For full catalog functionality, enable the generative AI experience for catalog item request submissions. For more information, see [Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
 
-Whenever only a single search result for topics is found, the synthesized response and options are bypassed by default and users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in .
+Whenever only a single search result for topics is found, the synthesized response and options are bypassed by default and users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
 
 You can create a new query from within a Now Assist conversation using mid-topic discovery. For more information, see [Mid-topic switching during Now Assist in Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.md).
 

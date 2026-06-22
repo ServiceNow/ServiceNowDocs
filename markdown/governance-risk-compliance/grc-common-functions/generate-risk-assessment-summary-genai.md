@@ -20,7 +20,7 @@ Generate a risk assessment summary that is based on your inherent risks, residua
 
 Install the Now Assist for IRM application to generate a risk assessment summary. For more information, see [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Role required: The sn\_grc\_sharegenai.risk\_asmt\_user role must be assigned manually to the assessor \(sn\_risk\_advanced.ara\_assessor\) and approver \(sn\_risk\_advanced.ara\_approver\) roles to generate the risk assessment summary.
 

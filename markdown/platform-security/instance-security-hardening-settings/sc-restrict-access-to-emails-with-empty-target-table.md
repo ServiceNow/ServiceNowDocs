@@ -108,12 +108,12 @@ References
 
 </td><td>
 
-Advanced email properties
+[Advanced email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AdditionalProperties.md)
 
  [https://support.servicenow.com/kb\_view.do?sysparm\_article=KB0690043](https://support.servicenow.com/kb_view.do?sysparm_article=KB0690043)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

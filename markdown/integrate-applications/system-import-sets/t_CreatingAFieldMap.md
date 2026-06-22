@@ -83,7 +83,7 @@ Date format
 
 </td><td>
 
-Date format of the source field. Appears if the target field is a Date or Date/Time field.**Note:** To learn more about allowable date formats, see Global date and time field format.
+Date format of the source field. Appears if the target field is a Date or Date/Time field.**Note:** To learn more about allowable date formats, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md).
 
 </td></tr><tr><td>
 

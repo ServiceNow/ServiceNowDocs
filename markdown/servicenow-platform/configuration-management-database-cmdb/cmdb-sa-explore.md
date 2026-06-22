@@ -118,7 +118,7 @@ For HAM, advisor dashboard scope is defined by hardware model categories.
 
 </td><td>
 
-Use-case-driven CMDB configuration. To learn more, see: [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md) and 
+Use-case-driven CMDB configuration. To learn more, see: [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md) and [Set up CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md)
 
 </td><td>
 
@@ -132,7 +132,7 @@ For HAM, view hardware asset metrics by model category and integration source.
 
 </td><td>
 
-Dashboard with consolidated insights and metricsTo learn more, see: [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md) and 
+Dashboard with consolidated insights and metricsTo learn more, see: [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md) and [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)
 
 </td><td>
 
@@ -148,7 +148,7 @@ For HAM, track KPIs for missing model ID, serial number, location, duplicates, a
 
 </td><td>
 
-KPI details access from the dashboard for metric monitoring, remediation tracking, and guided resolution stepsTo learn more, see: [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md) and 
+KPI details access from the dashboard for metric monitoring, remediation tracking, and guided resolution stepsTo learn more, see: [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md) and [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)
 
 </td><td>
 
@@ -164,7 +164,7 @@ For HAM, guided playbooks address hardware issues such as missing serial numbers
 
 </td><td>
 
-Remediation actions panel available for a chart in the dashboardTo learn more, see: [Improving CMDB data quality for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.md) and 
+Remediation actions panel available for a chart in the dashboardTo learn more, see: [Improving CMDB data quality for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.md) and [Improving CMDB data quality for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-remediation.md)
 
 </td><td>
 
@@ -180,7 +180,7 @@ For HAM, configure synchronization rules, asset creation rules, and status mappi
 
 </td><td>
 
-Settings summary for gap analysis and configuration guidanceTo learn more, see: [Analyze CMDB settings for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-analyze-settings.md) and 
+Settings summary for gap analysis and configuration guidanceTo learn more, see: [Analyze CMDB settings for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-analyze-settings.md) and [Analyze CMDB settings for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-analyze-settings.md)
 
 </td><td>
 
@@ -194,7 +194,7 @@ For HAM, review SGC and Discovery pattern rankings for hardware model categories
 
 </td><td>
 
-Data integrations summary for reviewing and evaluating integration sourcesTo learn more, see: [Analyzing data integrations for improving Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-data-integrations.md) and 
+Data integrations summary for reviewing and evaluating integration sourcesTo learn more, see: [Analyzing data integrations for improving Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-data-integrations.md) and [Analyzing data integrations for improving HAM data coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-data-integrations.md)
 
 </td><td>
 
@@ -206,7 +206,7 @@ CMDB administrator
 You can use CMDB success advisor for the following business outcomes:
 
 -   Data Foundations: Improve data quality across the principal classes your organization relies on for incidents, changes, and problems. Monitor attribute completeness, detect stale and duplicate records, and evaluate integration coverage to verify the right data sources are populating your CMDB. For more information, see [Using CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df.md).
--   HAM: Improve hardware data quality across model categories such as computers, servers, and printers. Identify and fix missing model IDs, serial numbers, and locations, eliminate duplicate CIs and align asset and CI states to support accurate life cycle tracking and financial reporting. For more information, see .
+-   HAM: Improve hardware data quality across model categories such as computers, servers, and printers. Identify and fix missing model IDs, serial numbers, and locations, eliminate duplicate CIs and align asset and CI states to support accurate life cycle tracking and financial reporting. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-use.md).
 
 ## What to explore next
 

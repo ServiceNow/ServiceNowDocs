@@ -55,9 +55,9 @@ Note the following requirements when creating references between tables:
     -   Type: record
     -   Operation: data\_fabric
     -   Name: User \[sys\_user\]
-    For details on creating a record ACL rule, see .
+    For details on creating a record ACL rule, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 
--   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See .
+-   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_SelectTheDisplayValue.md).
 -   Ensure the referenced table has at least one primary key column.
 -   Ensure the primary key column in the referenced table contains unique values.
 -   Ensure the primary key column matches the data type of the source column.

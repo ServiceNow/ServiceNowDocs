@@ -28,7 +28,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   Subscription to TSOM.
 -   Verify that your network router devices have SNMP access.
--   On the ServiceNow instance, configure SNMP credentials. For more information, see .
+-   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP support for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/c_SNMPSupportForDiscovery.md).
 -   For setting up TSOM Patterns, see [Install Horizontal Discovery and set up Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/install-horizontal-telecommunication-discoverypatterns.md).
 
 ## Impacted CMDB CIs and CI Relationships \(Physical Layer\)

@@ -31,7 +31,7 @@ By selecting a specific alert, you can find the details of the alert in differen
 
 View alerts for both your device and its applications in the Alerts section of the Devices page.
 
-**Note:** For details on the active alerts listed see, .
+**Note:** For details on the active alerts listed see, [Monitor incoming alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-operations-workspace-for-itom-apps/t_EMUseAlertConsole.md).
 
 ## The Overview tab
 

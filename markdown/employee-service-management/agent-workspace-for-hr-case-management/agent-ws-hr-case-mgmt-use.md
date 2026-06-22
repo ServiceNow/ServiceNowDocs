@@ -31,7 +31,7 @@ You can start work in the Agent Workspace for HR Case Management from one of the
 -   Phone
 -   Global search
 
-For additional information on working within Agent Workspace, see Using workspace.
+For additional information on working within Agent Workspace, see [Using workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/using-workspace.md).
 
 HR case form enables you to manage multiple cases, view information that is related to a case, and use knowledge articles or similar cases to manage the case.
 

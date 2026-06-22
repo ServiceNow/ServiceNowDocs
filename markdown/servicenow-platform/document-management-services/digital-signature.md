@@ -37,7 +37,7 @@ Digital signing for documents is configured with a document template. You must d
 
 To configure digital signing for CAC or PIV smart cards, the following must be done:
 
--   Use  to create and upload a PDF document
+-   Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-service-delivery/document-templates-overview.md) to create and upload a PDF document
 -   Set up certificates in the sys\_ca\_certificate table
 -   Set up a map certificate in the sys\_user\_certificate table
 -   [Review the **com.snc.pdfsigning.validation.method** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/property-value-cac-piv-signing.md)

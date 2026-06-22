@@ -25,7 +25,7 @@ Role required: sn\_grc\_genai.issue\_user or sn\_irm\_gen\_ai.user
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-To modify the Optimize GRC issue resolution workflow duplicate it, and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the Now Assist panel.
+To modify the Optimize GRC issue resolution workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the Now Assist panel.
 
 ## Procedure
 

@@ -22,7 +22,7 @@ The following roles are installed for use with ServiceNow IDE.
 
 Create and develop scoped applications in the ServiceNow IDE.
 
-For more information about granular admin roles, see .
+For more information about granular admin roles, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/roles-within-platform-security.md).
 
 ### Contains Roles
 
@@ -48,7 +48,7 @@ In addition to this role, the following roles are necessary for certain function
 
 Assign administrator privileges to a MID server user to manage applications in source control from the ServiceNow IDE.
 
-MID Server users must have the sn\_glider.ide\_git\_user role or admin role to perform Git operations in the ServiceNow IDE. For more information, see  and [Configure a MID Server to use source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/configure-mid-server-source-control.md).
+MID Server users must have the sn\_glider.ide\_git\_user role or admin role to perform Git operations in the ServiceNow IDE. For more information, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) and [Configure a MID Server to use source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/configure-mid-server-source-control.md).
 
 ### Contains Roles
 

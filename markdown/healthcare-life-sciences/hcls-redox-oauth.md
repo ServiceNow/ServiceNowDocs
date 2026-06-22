@@ -38,7 +38,7 @@ Role required: sn\_hcls.admin or admin
 
     **Note:** You can ignore the **Redirect URL** and **Logo URL** fields, which are not used for this configuration.
 
-    For more information, see Create an endpoint for clients to access the instance.
+    For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
 
 5.  Click **Submit**.
 

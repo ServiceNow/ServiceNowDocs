@@ -109,7 +109,7 @@ Date and time when the policy template was created.
 
 6.  Select the **Template Builder** tab and fill in the conditions in the Policy logic section, then select **Save**.
 
-    For more information about the parameters and condition fields, see  and .
+    For more information about the parameters and condition fields, see [Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/policy-as-code-engine-pace/pace-passing-parameters.md) and [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.md).
 
 
 ## What to do next

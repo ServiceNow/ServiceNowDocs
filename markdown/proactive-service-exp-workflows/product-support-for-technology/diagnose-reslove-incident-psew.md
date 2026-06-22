@@ -59,7 +59,7 @@ The incident progresses through several stages from start to closure. It begins 
 
 6.  Diagnose the incident to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see .
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-tables/decision-table.md).
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 

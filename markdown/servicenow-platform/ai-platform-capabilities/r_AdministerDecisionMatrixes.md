@@ -18,7 +18,7 @@ Assessment results obtained by questionnaires and scripted metrics can be mapped
 
 Assessment administrators can view and create these dynamically updated graphs, which make it possible to compare assessable records by category. Decision matrixes display data from a trailing twelve month \(TTM\) period.
 
-**Note:** Assessment administrators can access decision matrixes through the Assessment application and vendor managers can access them through the  application.
+**Note:** Assessment administrators can access decision matrixes through the Assessment application and vendor managers can access them through the [Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/vendor-management-workspace/vendor-management-workspace-landing-page.md) application.
 
 ## Decision matrix components
 

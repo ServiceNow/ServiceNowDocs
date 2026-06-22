@@ -52,7 +52,7 @@ The following options are available.
 -   Deployed
 -   Development
 
-For more information on states, see .**Note:** This field is available in the Request an AI use case form on the Employee Center.
+For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md).**Note:** This field is available in the Request an AI use case form on the Employee Center.
 
 </td></tr><tr><td>
 

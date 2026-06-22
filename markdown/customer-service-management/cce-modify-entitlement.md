@@ -39,7 +39,7 @@ Role required:
 
 6.  On the Configurator UI, modify the existing configurations for the selected entitlement.
 
-    To learn more about the Configurator UI, see .
+    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/som-exploring.md).
 
 7.  Select **Update**.
 

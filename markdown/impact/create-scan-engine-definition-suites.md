@@ -28,7 +28,7 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
 
 3.  Fill in the fields as needed.
 
-<table id="choicetable_o2k_3nx_2hc"><tbody><tr><td id="d31776e97">
+<table id="choicetable_o2k_3nx_2hc"><tbody><tr><td id="d31802e97">
 
 **Number**
 
@@ -36,7 +36,7 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
 
 The unique identifier of the definition suite. This number is generated automatically.
 
-</td></tr><tr><td id="d31776e106">
+</td></tr><tr><td id="d31802e106">
 
 **Active**
 
@@ -44,7 +44,7 @@ The unique identifier of the definition suite. This number is generated automati
 
 Makes the definition suite active and useable.
 
-</td></tr><tr><td id="d31776e115">
+</td></tr><tr><td id="d31802e115">
 
 **Short Description**
 
@@ -52,7 +52,7 @@ Makes the definition suite active and useable.
 
 Brief description of the definition suite.
 
-</td></tr><tr><td id="d31776e124">
+</td></tr><tr><td id="d31802e124">
 
 **Description**
 

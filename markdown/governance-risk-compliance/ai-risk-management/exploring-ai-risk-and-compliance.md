@@ -138,7 +138,7 @@ Manage AI systems, models, and datasets across their entire life-cycle with cons
 
 </td><td>
 
-
+[AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
 
 </td><td>
 
@@ -190,7 +190,7 @@ Build a compliance-ready AI asset inventory aligned with regulatory requirements
 
 </td><td>
 
--   
+-   [AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-assets.md)
 -   [Create control attestations for AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)
 
 </td><td>

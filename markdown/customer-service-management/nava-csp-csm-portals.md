@@ -30,7 +30,7 @@ The key benefits of adopting Now Assist in Virtual Agent for your portals includ
 
 Understand the Now Assist in Virtual Agent in Customer and Consumer Service Portals.
 
--   To enable Now Assist in Virtual Agent in your portals, verify that the Now Assist in Virtual Agent experience is configured by virtual\_agent\_admin or admin. For more information, see .
+-   To enable Now Assist in Virtual Agent in your portals, verify that the Now Assist in Virtual Agent experience is configured by virtual\_agent\_admin or admin. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 -   In the **Display experience** tab, remember to select **Customer Service for Customer Service Portal** or **Customer Support for Consumer Service Portal** from the **Portals** tab and select the Chat widget.
 -   In the **Information Sources** tab, you can also control the specific information available to the assistant. You can create or select the **Copy existing configuration** and select the search profile CSM Portal Default Search Application for CSM or CSP Portal Default Search Application for CSP.
 

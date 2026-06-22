@@ -20,8 +20,8 @@ Install the Now Assist for Creator application to add generative AI functionalit
 
 -   Role required: admin
 -   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Upgrade to Washington DC Patch 1 or later. For more information about this release, see .
--   Enable Next Experience. For information about activating Next Experience, see Considerations for activating Next Experience.
+-   Upgrade to Washington DC Patch 1 or later. For more information about this release, see [Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/available-versions.md).
+-   Enable Next Experience. For information about activating Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 
 ## Procedure
 

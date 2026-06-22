@@ -47,7 +47,7 @@ Role required: sam\_admin
 
 8.  Select **Open Dependency View** to view the relationship between the nodes of the cluster.
 
-    For details on Dependency Views, see .
+    For details on Dependency Views, see [Dependency Views map menus and controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/dependency-views/r_NGBSMMenus.md).
 
 
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/using-sam-workspace.md)

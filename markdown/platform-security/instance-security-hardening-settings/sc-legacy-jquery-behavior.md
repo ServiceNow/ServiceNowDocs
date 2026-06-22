@@ -31,7 +31,7 @@ Set **glide.jquery.legacy** to the recommended value of **false** to prevent old
 |Security risk|\(High\) Prevent older prepatched JQuery versions from being used which introduce unpatched vulnerabilities in the library. The system property is a failsafe in case any organizations depend on the non-patched versions of angularJS to run their custom implementations.|
 |Security risk rating|7.1|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

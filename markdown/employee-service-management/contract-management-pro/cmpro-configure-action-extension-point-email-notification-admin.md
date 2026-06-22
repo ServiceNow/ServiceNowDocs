@@ -21,7 +21,7 @@ Add or modify an Action and its functionality on the Standard ticket page for a 
 Role required: Admin
 
 -   Review the configuration of the script include, scripted extension points, and widgets.
--   For more information about using and customizing the script includes, see .
+-   For more information about using and customizing the script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md).
 -   Ensure that you've set the application scope to this application.
 
 ## About this task
@@ -75,7 +75,7 @@ The base system `ApprovalNotificationWorkspaceURLExt` script provides the config
 
 To see a list of available default email notifications, go to **All** &gt; **System Notification** &gt; **Notifications** and search for the **Contracts Support** category.
 
-To create new email notifications, see .
+To create new email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
 
 **Parent Topic:**[Manage notifications in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-manage-notifications.md)
 

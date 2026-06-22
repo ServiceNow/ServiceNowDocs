@@ -66,7 +66,7 @@ Tweets a message or media. Messages and media are tweeted as per X limits.**Note
 
 Install Now Assist for Spokes and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/now-assist-spokes.md).
 
-The X Spoke provides AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance. For more information about AI agents, see .
+The X Spoke provides AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance. For more information about AI agents, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md).
 
 Available AI agents include:
 
@@ -89,14 +89,14 @@ This AI Agent posts tweets to the X handle that you had configured that contain 
 </td></tr></tbody>
 </table>Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r-credentials.md).
 
 **Note:** Two connection and credential alias records are needed for the X spoke. One for tweeting messages and other for tweeting media. Each alias should be associated with the respective X API.
 

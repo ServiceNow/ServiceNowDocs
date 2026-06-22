@@ -51,15 +51,15 @@ You can bind an event to a page by using the following types of events:
 
 6.  Add an event handler in one of the following ways.
 
-<table id="choicetable_tqw_v1s_znb"><thead><tr><th align="left" id="d46868e178">
+<table id="choicetable_tqw_v1s_znb"><thead><tr><th align="left" id="d46797e178">
 
 To add this event handler
 
-</th><th align="left" id="d46868e181">
+</th><th align="left" id="d46797e181">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d46868e187">
+</th></tr></thead><tbody><tr><td id="d46797e187">
 
 **Page event mappings**
 
@@ -73,7 +73,7 @@ Do this
 3.  To add the event handler to your page, click **Add**.
 
 
-</td></tr><tr><td id="d46868e257">
+</td></tr><tr><td id="d46797e257">
 
 **Variant event mappings**
 
@@ -93,7 +93,7 @@ Do this
 -   These mappings are automatically created on a page save when you have mapped a component's dispatched event to another event. For example, when you map a **Button clicked** event to the **Link to destination** event, the event creates a dispatched relay event and a variant event mapping after you save the page.
 
 
-</td></tr><tr><td id="d46868e330">
+</td></tr><tr><td id="d46797e330">
 
 **Dispatched events**
 
@@ -120,7 +120,7 @@ Do this
 
 -   These events are often used to create relay event mappings. You can select a **Target parent event handler** to model the payload fields after the selected event. You can also manually create payload fields for your dispatched event.
 
-</td></tr><tr><td id="d46868e437">
+</td></tr><tr><td id="d46797e437">
 
 **Handled events**
 

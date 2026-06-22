@@ -97,7 +97,7 @@ Change template
 
 This field appears only when the **Approval type** is selected as **Auto approval**.
 
-Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one. See Create a change request template.
+Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one. See [Create a change request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/change-management/create-a-change-request-template.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

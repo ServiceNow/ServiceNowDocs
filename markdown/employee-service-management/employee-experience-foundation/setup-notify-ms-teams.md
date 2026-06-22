@@ -24,9 +24,9 @@ Ensure you have installed the following plugins on your ServiceNow instance.
 -   Microsoft Teams Communications spoke plugin `sn_msteams_com_spk`.
 -   Azure Active Directory User Mapping plugin `sn_now_azure`.
 
-For more information about Microsoft Teams Communications spoke, see Microsoft Teams Communications spoke.
+For more information about Microsoft Teams Communications spoke, see [Microsoft Teams Communications spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/msteams-comm.md).
 
-For more information about Notify, see .
+For more information about Notify, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/notify/notify-landing-page.md).
 
 Role required: admin
 

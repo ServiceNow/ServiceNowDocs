@@ -16,7 +16,7 @@ breadcrumb: [GCP, Service Graph Connectors, Integrating third-party data into CM
 
 Manage the data source failure when importing resources from GCP.
 
-When importing large GCP resources, the data sources in the Service Graph Connector for GCP might fail because of a Direct REST response exceeding the 1024-MB limit. For more information, see .
+When importing large GCP resources, the data sources in the Service Graph Connector for GCP might fail because of a Direct REST response exceeding the 1024-MB limit. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/rest-request-action-designer.md).
 
 You can use one or more of the following options to handle the REST response size limitation error in the Service Graph Connector for GCP:
 
@@ -61,5 +61,5 @@ By default, the maximum batch size of the environment variable for a data source
 |SG-GCP Subnet|sg\_gcp\_subnet\_batch\_size|
 |SG-GCP VM Instance|sg\_gcp\_vm\_instance\_batch\_size|
 
-**Note:** You must add these system properties as they aren't available by default. You must have the admin role to add or modify a system property. For more information, see .
+**Note:** You must add these system properties as they aren't available by default. You must have the admin role to add or modify a system property. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 

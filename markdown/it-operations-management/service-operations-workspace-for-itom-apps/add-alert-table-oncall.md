@@ -40,5 +40,5 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-Create on-call shift for your team.
+[Create on-call shift for your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md).
 

@@ -28,15 +28,15 @@ The strategic priorities are also known as focus areas or long-term strategies.
 
 1.  Create a strategic priority for a strategic plan using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d85904e64">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d84876e64">
 
 Option
 
-</th><th align="left" id="d85904e67">
+</th><th align="left" id="d84876e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d85904e73">
+</th></tr></thead><tbody><tr><td id="d84876e73">
 
 **From the Strategic Priorities related list**
 
@@ -47,7 +47,7 @@ Steps
 3.  In the Strategic Priorities related list, click **New**.
 
 
-</td></tr><tr><td id="d85904e106">
+</td></tr><tr><td id="d84876e106">
 
 **From the Strategic Priorities module**
 

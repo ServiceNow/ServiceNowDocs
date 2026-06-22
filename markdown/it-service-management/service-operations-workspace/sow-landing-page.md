@@ -16,7 +16,7 @@ breadcrumb: [IT Service Management]
 
 ServiceNow® Service Operations Workspace is a configurable workspace that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
 
-For information about how you can automate and optimize your services and operations using Service Operations Workspace, see .
+For information about how you can automate and optimize your services and operations using Service Operations Workspace, see [Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/better-together/solutions/service-operations.md).
 
 ## Get started with Service Operations Workspace for ITSM
 
@@ -45,7 +45,7 @@ For information about how you can automate and optimize your services and operat
 [Optimizing IT services in your organization \[Omitted image "icon-explore.png"\] Alt text: Optimizing IT services Enhance and optimize IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/optimizing-services-operations-in-organization.md)
 
 </td></tr></tbody>
-</table>For information about Service Operations Workspace for ITOM, see Service Operations Workspace for ITOM.
+</table>For information about Service Operations Workspace for ITOM, see [Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-landing-page-itom.md).
 
 ## Helpful resources
 

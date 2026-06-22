@@ -33,12 +33,12 @@ The Next-Generation Palo Alto Firewall pattern introduces the following CI class
 ## Prerequisites
 
 -   Ensure that your network firewall device has SNMP access.
--   On the ServiceNow instance, configure SNMP credentials. For more information, see .
+-   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md).
 -   Add the SNMP system OID record for the Palo Alto Networks device to the ServiceNow instance. Update the following:
     -   Classifier: Palo Alto Firewall
     -   Class: Palo Alto Firewall Device
 -   Deploy the pattern as follows:
-    1.  Download and install Firewall extension classes from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
+    1.  Download and install [Firewall extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-fw.md) from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
     2.  Download and install the discovery pattern from the ServiceNow Store.
     3.  Sync the pattern with the appropriate MID Server.
 

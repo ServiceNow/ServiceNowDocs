@@ -50,7 +50,7 @@ Role required: admin
 
 8.  On the Condition dialog, build a filter for the conversation history.
 
-    For more information, see Condition builder.
+    For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
 9.  Select **Set**.
 

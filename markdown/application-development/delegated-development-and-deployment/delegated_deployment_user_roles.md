@@ -20,5 +20,5 @@ For example, you can assign user roles to Change Management personnel that enabl
 
 **Important:** Think carefully about who and in what instances you assign installation and upgrade user roles. You may only want to assign these roles to non-system administrators in non-production instances \(for example, Developer or QA\), but decline to do so in production instances. Given the potential impact of installing and upgrading applications, you may want to leave the responsibility for installations and upgrades in production instances to a system administrator.
 
-To learn more about managing per-user subscriptions, see  and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 

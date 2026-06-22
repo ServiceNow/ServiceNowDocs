@@ -119,7 +119,7 @@ An agreement that specifies the time period that a service must be provided with
 
 ### service operations workspace
 
-A dedicated workspace within ServiceNow where technical support agents can manage and resolve incidents, view affected accounts, and communicate with customers. To learn more, see .
+A dedicated workspace within ServiceNow where technical support agents can manage and resolve incidents, view affected accounts, and communicate with customers. To learn more, see [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-operations-workspace/sow-landing-page.md).
 
 ## T
 
@@ -127,7 +127,7 @@ Glossary terms are grouped alphabetically.
 
 ### TMF 621 rest API
 
-A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more see .
+A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/trouble-ticket-open-api.md).
 
 ### trouble ticket notification
 

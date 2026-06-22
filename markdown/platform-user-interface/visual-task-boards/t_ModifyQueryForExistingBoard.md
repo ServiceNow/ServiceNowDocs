@@ -36,7 +36,7 @@ The lane field is the field on the underlying table that defines the lanes. For 
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_uxv_q2g_pv"><tbody><tr><td id="d75459e83">
+<table id="choicetable_uxv_q2g_pv"><tbody><tr><td id="d74763e83">
 
 **Edit the board query**
 
@@ -47,7 +47,7 @@ The lane field is the field on the underlying table that defines the lanes. For 
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d75459e113">
+</td></tr><tr><td id="d74763e113">
 
 **Change the lane field**
 

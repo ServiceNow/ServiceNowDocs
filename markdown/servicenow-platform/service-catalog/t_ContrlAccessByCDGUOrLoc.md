@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Open the relevant catalog item or category.
 
-3.  Configure the form to add the appropriate **Available** or **Not available** lists.
+3.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) to add the appropriate **Available** or **Not available** lists.
 
     \[Omitted image "AccessControl.png"\] Alt text: access control
 
@@ -57,7 +57,7 @@ Administrators can grant or deny access to a service catalog item or category ba
 
 3.  Add the required roles to the **Roles** field.
 
-    You can, if needed, Configure the form or change to **Default View** to see the **Roles** field.
+    You can, if needed, [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) or change to **Default View** to see the **Roles** field.
 
     \[Omitted image "RolesGranted.png"\] Alt text: roles granted
 
@@ -76,7 +76,7 @@ Role required: admin
 
 2.  Open the relevant catalog item or category.
 
-3.  Configure the form to add the **Entitlement Script** field.
+3.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) to add the **Entitlement Script** field.
 
     \[Omitted image "EntitlementScript.png"\] Alt text: entitlement script
 

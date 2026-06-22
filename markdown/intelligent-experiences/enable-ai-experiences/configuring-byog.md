@@ -47,7 +47,7 @@ Setting up a custom guardrail involves three steps:
 
 1.  Create a connection and credential alias for the custom guardian and complete its setup. The alias supports Basic Auth, OAuth 2.0, and API Key credential types.
 
-    For more information, see .
+    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 2.  Create a custom guardian in the Generative AI Custom Guardian Transformer \[sys\_generative\_ai\_custom\_guardian\_transformer\_list.do\] table.
 

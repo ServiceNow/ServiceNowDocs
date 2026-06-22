@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Script support for complex data, Complex data, Building actions, Use, Workflow Studio, Build workflows]
 ---
 
@@ -41,7 +41,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see .
+    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see [Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-app-creation.md).
 
     For example, create an application called `My Application`.
 
@@ -310,7 +310,7 @@ Value
 
     \[Omitted image "array-objects-execution-details-page.png"\] Alt text: Execution details page for the test results of your custom action.
 
-    Although the execution details display the output data as a JSON formatted string, the actual output data type is an array of objects. If you need a string version of your output, you can convert the object into a string using the JSON class. For more information about converting a JSON object into a string, see .
+    Although the execution details display the output data as a JSON formatted string, the actual output data type is an array of objects. If you need a string version of your output, you can convert the object into a string using the JSON class. For more information about converting a JSON object into a string, see [Scoped JSON - stringify\(Object jsonObject\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/JSONScopedAPI.md).
 
     For this example, the contacts object contains an array of contact objects with first name, last name, and email information for three users in the Development department.
 

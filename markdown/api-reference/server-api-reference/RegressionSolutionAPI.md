@@ -27,9 +27,9 @@ The solution setup-to-training flow is as follows:
 5.  Train the solution using the [submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionAPI.md) method. This creates a version of the object that you can manage using the [RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) API.
 6.  Get predictions using the [RegressionSolutionVersion – predict\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) method.
 
-**Note:** This API runs with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see .
+**Note:** This API runs with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see [Query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/query-acl-rule.md).
 
-For usage guidelines, refer to Using ML APIs.
+For usage guidelines, refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
@@ -194,7 +194,7 @@ Array
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Default: English Stopwords
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.md). Default: English Stopwords
 
 </td></tr><tr><td>
 
@@ -537,7 +537,7 @@ Machine-learning field type. Data type: String.
 
 </td><td>
 
-Encoded query string in the standard platform format. See Encoded query strings.Data type: String.
+Encoded query string in the standard platform format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).Data type: String.
 
 </td></tr><tr><td>
 
@@ -545,7 +545,7 @@ Encoded query string in the standard platform format. See Encoded query strings.
 
 </td><td>
 
-Domain name associated with this dataset. See .Type: String
+Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.md).Type: String
 
 </td></tr><tr><td>
 
@@ -623,7 +623,7 @@ Object scope. Currently the only valid value is `global`.Data type: String
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Data type: Array.
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.md). Data type: Array.
 
 </td></tr><tr><td>
 

@@ -21,7 +21,7 @@ Doc summarization and action skill
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 If you have users with custom roles that need access to this skill, you must update ACLs for those roles.
 
@@ -33,15 +33,15 @@ Role required: project\_manager, it\_project\_user
 
 2.  From the Docs, perform one of these action according to your requirements.
 
-<table id="choicetable_oq5_fqw_1dc"><thead><tr><th align="left" id="d88546e130">
+<table id="choicetable_oq5_fqw_1dc"><thead><tr><th align="left" id="d87518e131">
 
 Gen AI actions
 
-</th><th align="left" id="d88546e133">
+</th><th align="left" id="d87518e134">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d88546e139">
+</th></tr></thead><tbody><tr><td id="d87518e140">
 
 **Summarize**
 
@@ -57,7 +57,7 @@ Summarize the entire page or complete content from the **Docs** tab:
 2.  Select **Summarize**.
 
 
-</td></tr><tr><td id="d88546e188">
+</td></tr><tr><td id="d87518e189">
 
 **Elaborate**
 
@@ -65,7 +65,7 @@ Summarize the entire page or complete content from the **Docs** tab:
 
 Elaborate the selected text by selecting **Elaborate**.
 
-</td></tr><tr><td id="d88546e200">
+</td></tr><tr><td id="d87518e201">
 
 **Shorten**
 
@@ -73,7 +73,7 @@ Elaborate the selected text by selecting **Elaborate**.
 
 Shorten the selected text by selecting **Shorten**.
 
-</td></tr><tr><td id="d88546e212">
+</td></tr><tr><td id="d87518e213">
 
 **Insert below**
 
@@ -86,15 +86,15 @@ Add the generated summary after the selected content by selecting **Insert below
 
 3.  When you're finished summarizing the page in Docs, you can provide feedback, copy, or view information about it.
 
-<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d88546e239">
+<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d87518e240">
 
 Option
 
-</th><th align="left" id="d88546e242">
+</th><th align="left" id="d87518e243">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d88546e248">
+</th></tr></thead><tbody><tr><td id="d87518e249">
 
 **Provide feedback for the summary**
 
@@ -102,7 +102,7 @@ Procedure
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d88546e271">
+</td></tr><tr><td id="d87518e272">
 
 **More information on summary**
 
@@ -110,7 +110,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-information-spm.png"\] Alt text: More information icon.\).
 
-</td></tr><tr><td id="d88546e286">
+</td></tr><tr><td id="d87518e287">
 
 **Copy the Docs summary**
 

@@ -70,7 +70,7 @@ You can create record producers for external users to submit requests through th
 
 7.  Configure ACLs for tables referenced from the record producers to make is available in the catalog.
 
-    For more information, see .
+    For more information, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 
 
 ## Result

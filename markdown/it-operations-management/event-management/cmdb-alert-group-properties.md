@@ -97,7 +97,7 @@ Use CMDB relationship based on host-containment Metadata rules
 
 Containment rules specify which configuration item classes can be contained within another item through a specific relationship when creating a service template.
 
- Keep this property enabled when forming CMDB alert groups to use any host-containment rules defined in the Metadata Editor. For more details, see .
+ Keep this property enabled when forming CMDB alert groups to use any host-containment rules defined in the Metadata Editor. For more details, see [CMDB dependent relationship rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md).
 
  This property is enabled by default.
 
@@ -115,7 +115,7 @@ Hosting rules define what classes of configuration items are hosted on other cla
 
  This property is hidden and enabled by default.
 
-**Note:** If you need to change the default value, add the property, as it does not exist in the instance by default. For more information on how to create a property, see .
+**Note:** If you need to change the default value, add the property, as it does not exist in the instance by default. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Set this property to true to prevent CMDB groups from forming based on applicati
 
  This property is hidden and enabled by default.
 
-**Note:** If you need to change the default value, add the property, as it does not exist in the instance by default. For more information on how to create a property, see .
+**Note:** If you need to change the default value, add the property, as it does not exist in the instance by default. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 </td></tr><tr><td>
 
@@ -142,5 +142,5 @@ This property is hidden and enabled by default.
 </td></tr></tbody>
 </table>Event Management stores a map of related CIs in the Event Management CI Graph Reuse \[em\_ci\_graph\_reuse\] table for each processed CI. You can adjust the storage period by modifying the **sa\_analytics.agg.query\_cmdb\_graph\_reuse\_period** property, with the default set to one day \(86,400 seconds\). This process enhances the search performance of relations in the CMDB. To disable the storage process during advanced use-case configurations, set the property value to zero.
 
-**Note:** If you need to change the default value, add the **sa\_analytics.agg.query\_cmdb\_graph\_reuse\_period** property, as it does not exist in the instance by default. For more information on how to create a property, see .
+**Note:** If you need to change the default value, add the **sa\_analytics.agg.query\_cmdb\_graph\_reuse\_period** property, as it does not exist in the instance by default. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 

@@ -32,15 +32,15 @@ Notification routing rules determine which workspace a user is directed to when 
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_yhj_ymw_h3c"><thead><tr><th align="left" id="d186911e98">
+<table id="choicetable_yhj_ymw_h3c"><thead><tr><th align="left" id="d186953e98">
 
 Field
 
-</th><th align="left" id="d186911e101">
+</th><th align="left" id="d186953e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d186911e107">
+</th></tr></thead><tbody><tr><td id="d186953e107">
 
 **Table**
 
@@ -48,7 +48,7 @@ Description
 
 The table for which notification links are redirected to workspace view.
 
-</td></tr><tr><td id="d186911e116">
+</td></tr><tr><td id="d186953e116">
 
 **Target Workspace**
 
@@ -56,7 +56,7 @@ The table for which notification links are redirected to workspace view.
 
 The workspace to which users are redirected when they select notification links.
 
-</td></tr><tr><td id="d186911e125">
+</td></tr><tr><td id="d186953e125">
 
 **Order**
 
@@ -64,7 +64,7 @@ The workspace to which users are redirected when they select notification links.
 
 The evaluation priority for the routing rule. Lower values are evaluated first when multiple rules exist for the same table.
 
-</td></tr><tr><td id="d186911e134">
+</td></tr><tr><td id="d186953e134">
 
 **Active**
 
@@ -74,7 +74,7 @@ Indicates whether the routing rule is active.
 
  Only active rules apply to notification redirection.
 
-</td></tr><tr><td id="d186911e150">
+</td></tr><tr><td id="d186953e150">
 
 **Table filter**
 

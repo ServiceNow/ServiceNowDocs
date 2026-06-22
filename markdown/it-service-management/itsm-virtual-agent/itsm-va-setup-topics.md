@@ -16,9 +16,9 @@ breadcrumb: [Use pre-built topics, ITSM Virtual Agent, IT Service Management]
 
 Use pre-built setup topics to create a standard welcome greeting and a conversation closing. In addition, setup topics can provide user feedback and surveys, as well as error handling.
 
-For more information about setup topics, see Setting up chat experiences for Virtual Agent users.
+For more information about setup topics, see [Setting up chat experiences for Virtual Agent users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md).
 
-For a complete list of setup topics that are included with Virtual Agent, see Working with setup topics.
+For a complete list of setup topics that are included with Virtual Agent, see [Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/working-setup-topics.md).
 
 ## Dynamic Greeting Topic
 
@@ -34,7 +34,7 @@ When the end time is known, the virtual agent includes the message:
 
 The dynamic greeting is followed by the standard greeting, which asks the user to enter information.
 
-For more information about configuring the greeting setup topic, see .
+For more information about configuring the greeting setup topic, see [Change the Virtual Agent greeting messages in the Greeting setup topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/va-welcome-topic-selection-msgs.md).
 
 **Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

@@ -43,7 +43,7 @@ Manages configuration settings for the External Content Connectors application, 
 -   Schedules and runs external content connectors
 -   Views external content connector crawl logs
 
-This is a granular admin role that allows you to complete external content connector configuration tasks without requiring the full admin role. To learn more about how granular admin roles improve security and efficiency, see .
+This is a granular admin role that allows you to complete external content connector configuration tasks without requiring the full admin role. To learn more about how granular admin roles improve security and efficiency, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/roles-within-platform-security.md).
 
 </td><td>
 

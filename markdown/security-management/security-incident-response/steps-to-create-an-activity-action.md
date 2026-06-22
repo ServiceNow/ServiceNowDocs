@@ -28,7 +28,7 @@ Role required: sn\_si.admin
 
 2.  Select **New**.
 
-    Refer to the  documentation to know how to create these actions. In this example, Skip is implemented as a server script.
+    Refer to the [ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-platform/servicenow-ai-platform/now-platform-landing.md) documentation to know how to create these actions. In this example, Skip is implemented as a server script.
 
 3.  **Playbook override:**
 

@@ -126,7 +126,7 @@ The **Performance** tab shows tool execution metrics, authentication performance
 
 -   **Execution count by tool type**
 
-    This area of the dashboard shows the number of tool executions categorised by type, including flow actions and RAG-based search, for the selected date range. Use this metric to understand which tools are most frequently invoked during voice conversations. See  for information on tool types.
+    This area of the dashboard shows the number of tool executions categorised by type, including flow actions and RAG-based search, for the selected date range. Use this metric to understand which tools are most frequently invoked during voice conversations. See [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/add-tool-aia.md) for information on tool types.
 
     \[Omitted image "aiv-execution-count-by-tool-type.png"\] Alt text: Donut chart showing 22 total tool executions. Flow Action accounts for 91% \(20 executions\) and Search Retriever accounts for 9% \(2 executions\).
 

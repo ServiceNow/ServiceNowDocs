@@ -52,15 +52,15 @@ When you start an order, a pop-up prompts you to enter details. The pop-up windo
 
 3.  On the Create a new order pop-up, create order for either an account or consumer.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d242240e170">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d242374e170">
 
 To
 
-</th><th align="left" id="d242240e173">
+</th><th align="left" id="d242374e173">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d242240e179">
+</th></tr></thead><tbody><tr><td id="d242374e179">
 
 **Create an order for an account**
 
@@ -73,7 +73,7 @@ Description
     -   **Order action**: Select the type of order action.
 
 
-</td></tr><tr><td id="d242240e217">
+</td></tr><tr><td id="d242374e217">
 
 **Create an order for a consumer**
 
@@ -94,7 +94,7 @@ Description
     -   The field is automatically prefilled if the agent is assigned to a single business location.
     -   If the agent is assigned to multiple business locations, the field remains empty and must be selected manually.
     -   The field is also prefilled when an **Account** or **Consumer** is selected, based on its associated Channel Partner.
-    To learn more about the **Channel Partner** field, see .
+    To learn more about the **Channel Partner** field, see [Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/som-create-product-order.md).
 
 6.  Select **Create**.
 

@@ -29,5 +29,5 @@ These plugins have the following dependencies:
 
 If you want your customers to be able only to view order cases in the Business Portal, you do not need to install the Order Case Playbook \[sn\_ord\_case\_pb\] plugin and the Playbooks for Customer Service Management \[sn\_csm\_playbook\] plugin is not necessary.
 
-You must also activate the Business Portal to make it accessible for your customers. The Business Portal is inactive by default. For more information, see .
+You must also activate the Business Portal to make it accessible for your customers. The Business Portal is inactive by default. For more information, see [Configure Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md).
 

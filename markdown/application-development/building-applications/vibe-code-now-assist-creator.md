@@ -20,11 +20,11 @@ Now Assist for Creator provides core skills for rapid conversational app develop
 
 Now Assist for Creator is the ServiceNow collection of generative AI skills for building apps on the ServiceNow AI Platform. Use it to generate apps, flows, code, tests, UIs, analytics, catalog items, RPA bots, and more from natural language prompts directly in offerings like ServiceNow Studio.
 
-Some skills in Now Assist for Creator have a conversational interface and can be used for vibe coding and AI-assisted development. For example, the catalog item generation skill in Catalog Builder. For more information, see .
+Some skills in Now Assist for Creator have a conversational interface and can be used for vibe coding and AI-assisted development. For example, the catalog item generation skill in Catalog Builder. For more information, see [Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md).
 
 ## Core capabilities
 
-For complete information on using Now Assist for Creator, see .
+For complete information on using Now Assist for Creator, see [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md).
 
 The following metadata-driven tools are available for using AI to develop apps:
 
@@ -53,7 +53,7 @@ Now Assist for Creator is the ServiceNow AI Platform toolkit for using AI to gen
 
 ## General Now Assist for Creator workflow
 
-1.  Enable the skills: Configure the triggers, settings, and display locations for Now Assist for Creator skills to enable generative AI capabilities across the ServiceNow AI Platform. For more information, see .
+1.  Enable the skills: Configure the triggers, settings, and display locations for Now Assist for Creator skills to enable generative AI capabilities across the ServiceNow AI Platform. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
 2.  Describe the app: For example, you can request to “Create a cross-training app with instructor signup, session scheduling, approvals.” Then the application generation scaffolds tables, roles, and experiences.
 3.  Add process logic: Use flow generation for approvals and escalations and Flow recommendations to suggest next steps.
 4.  Add custom code logic: Prompt code generation for business rule and script include logic \(such as GlideRecord queries\), and then review and refactor as needed.

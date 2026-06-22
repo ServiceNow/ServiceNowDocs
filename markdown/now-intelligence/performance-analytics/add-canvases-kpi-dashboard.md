@@ -163,7 +163,7 @@ Content block
 
 </td><td>
 
-Select from an existing content block. For more information, see Content blocks.
+Select from an existing content block. For more information, see [Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md).
 
 </td></tr></tbody>
 </table><table id="table_interactive-filters"><thead><tr><th>

@@ -76,13 +76,13 @@ For guidance on using these capabilities in Now Assist for SPO, see [Using Now A
 
 Now Assist for SPO is also available in Virtual Agent, where it uses large language models \(LLMs\) and generative AI skills to enhance conversational experiences. These capabilities help improve deflection rates and reduce the manual effort required for Natural Language Understanding \(NLU\) topic discovery.
 
-For detailed information about Now Assist in Virtual Agent and how to use generative AI skills in your conversations, see .
+For detailed information about Now Assist in Virtual Agent and how to use generative AI skills in your conversations, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
 
-To understand how you can interact with the Virtual Agent when Now Assist capabilities are enabled in your instance, see .
+To understand how you can interact with the Virtual Agent when Now Assist capabilities are enabled in your instance, see [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md).
 
-During the Conversational Interfaces Assistants guided setup, a Now Assist assistant for Virtual Agent is created automatically. For more information about this assistant, see .
+During the Conversational Interfaces Assistants guided setup, a Now Assist assistant for Virtual Agent is created automatically. For more information about this assistant, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
-Domain separation is supported for Now Assist in Virtual Agent. For more information, see .
+Domain separation is supported for Now Assist in Virtual Agent. For more information, see [Now Assist in Virtual Agent domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/na-in-va-domain-separation.md).
 
 -   **[Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md)**  
 Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.

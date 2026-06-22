@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Install ServiceNow Agent and enable mobile push notifications from the **Notifications** tab.
 
-    For information on this tab, see Base system functionality for ServiceNow mobile.
+    For information on this tab, see [Base system functionality for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/base-system-functionality.md).
 
     The mobile push appears as a communication channel in the ServiceNow instance.
 

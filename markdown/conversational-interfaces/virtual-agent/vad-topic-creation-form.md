@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -46,7 +46,7 @@ Model Type
 
 The **LLM** value is used for topic discovery within LLMs, and the **NLU/Keywords** value is used for either keyword or NLU discovery. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-llm.md).
 
- **Note:** If this field doesn't appear, verify that both the Now Assist panel and Now Assist in Virtual Agent are turned on. For more information, see  and [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+ **Note:** If this field doesn't appear, verify that both the Now Assist panel and Now Assist in Virtual Agent are turned on. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md) and [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 

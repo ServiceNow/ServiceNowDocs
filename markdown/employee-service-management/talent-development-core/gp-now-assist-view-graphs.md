@@ -43,7 +43,7 @@ To view Growth plans related information from the Now Assist Admin console, you 
 
 ## What to do next
 
-To learn more about the Now Assist Admin console, see .
+To learn more about the Now Assist Admin console, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 **Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-administration.md)
 

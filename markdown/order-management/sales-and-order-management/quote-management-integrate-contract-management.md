@@ -36,10 +36,10 @@ Manually run fix scripts if you have not installed the demo data at the time of 
 
 4.  Complete the initial configuration steps to set up this integration.
 
-    For more information on setting up Contract Management Pro, see .
+    For more information on setting up Contract Management Pro, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md).
 
 
 ## What to do next
 
-To learn more, see  and [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-create-contract.md).
+To learn more, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md) and [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-management-create-contract.md).
 

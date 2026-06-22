@@ -62,7 +62,7 @@ Release notes
 
 </td><td>
 
-
+[Now Assist in Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/now-assist-va-rn.md)
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Release notes
 
 </td><td>
 
-
+[Sidebar release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/sidebar-rn.md)
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ Release notes
 
 </td><td>
 
-
+[Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/virtual-agent-rn.md)
 
 </td></tr><tr><td>
 

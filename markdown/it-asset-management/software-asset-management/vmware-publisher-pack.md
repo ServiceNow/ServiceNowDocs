@@ -20,7 +20,7 @@ To use the VMware publisher pack, activate the Software Asset Management Profess
 
 VMware offers virtualization and cloud computing technologies that enable you to run software products and applications on virtual machines \(VMs\). The main component of VMware virtualization is the VMware hypervisor, which is a virtual machine monitor \(VMM\) that allows you to create and run VMs on your physical hosts. You can use either a Type 1 \(bare metal\) or Type 2 \(hosted\) hypervisor. A Type 1 hypervisor runs directly on the hardware of the underlying physical host, while a Type 2 hypervisor runs as a software layer on the operating system \(OS\) of the underlying physical host.
 
-You can collect and identify data for your VMware software installations by using a discovery tool, such as the ServiceNow® Discovery application. For more information on the discovery process, see Data collected by ITOM Visibility.
+You can collect and identify data for your VMware software installations by using a discovery tool, such as the ServiceNow® Discovery application. For more information on the discovery process, see [Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md).
 
 View your VMware license compliance position in the License usage view of the Software Asset Workspace. If any of your VMware software products are out of compliance, the License usage view provides corresponding remediation suggestions. For more information, see [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md).
 

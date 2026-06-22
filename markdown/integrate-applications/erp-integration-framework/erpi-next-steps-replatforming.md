@@ -34,7 +34,7 @@ After ERP data is available on tables in the ServiceNow AI Platform, you can use
 Use any of the following ServiceNow builders to create apps using custom data:
 
 -   ServiceNow Studio
--   Flows in Workflow Studio
+-   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-flows.md)
 -   Playbooks in Workflow Studio
 -   Table Builder
 -   UI Builder

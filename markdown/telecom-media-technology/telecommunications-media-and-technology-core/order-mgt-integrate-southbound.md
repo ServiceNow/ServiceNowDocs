@@ -47,5 +47,5 @@ The integration process for Order Management with the external technical order m
 
     -   No successful outbound request exists for the service domain order yet.
     -   An outbound request exists but the current external fulfillment state of the service domain order is an error.
-4.  If the fulfillment request is successful, a response is received from the external system and is captured in the Outbound Request table \(sn\_tmt\_core\_outbound\_request\). To learn more, see .
+4.  If the fulfillment request is successful, a response is received from the external system and is captured in the Outbound Request table \(sn\_tmt\_core\_outbound\_request\). To learn more, see [Create outbound requests for service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/order-mgt-outbound-request.md).
 

@@ -38,7 +38,7 @@ Role required: personalize\_list
 
     **Note:**
 
-    -   If you use Personal lists and then configure the list view differently, the changes do not appear until you reset your personal list to column defaults.
+    -   If you use [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_PersonalLists.md) and then configure the list view differently, the changes do not appear until you reset your personal list to column defaults.
     -   Inactive fields display in admin-configured lists until an admin updates the list layout to remove them.
 
 If a reference field in a list displays as \(empty\) instead of the expected value, it is due to another field in the list containing an incorrect reference to either an orphaned record or a sys\_id that does not exist in the referenced table. The solution is to remove the incorrect reference data from any reference fields in that table.

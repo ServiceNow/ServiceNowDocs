@@ -36,15 +36,15 @@ Configure Splunk ES- Event Ingestion integration
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d91546e151">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d91573e151">
 
 Field
 
-</th><th align="left" id="d91546e154">
+</th><th align="left" id="d91573e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d91546e160">
+</th></tr></thead><tbody><tr><td id="d91573e160">
 
 **Name**
 
@@ -52,7 +52,7 @@ Description
 
 Name of the Splunk Enterprise Security console or Splunk Cloud instance used for the integration.Spaces are supported for names, but parentheses are not supported. For example, enter `SplunkES2`.
 
-</td></tr><tr><td id="d91546e181">
+</td></tr><tr><td id="d91573e181">
 
 **Splunk API Base URL**
 
@@ -60,7 +60,7 @@ Name of the Splunk Enterprise Security console or Splunk Cloud instance used for
 
 URL for your Splunk Enterprise Security console or Splunk Cloud instance. The URL should include the API port, for example: `https://mysplunkserver.com:8089`
 
-</td></tr><tr><td id="d91546e199">
+</td></tr><tr><td id="d91573e199">
 
 **Basic Authentication**
 
@@ -68,7 +68,7 @@ URL for your Splunk Enterprise Security console or Splunk Cloud instance. The UR
 
 Default is disabled.If you are using API Account User Name and API Password for configuration, enable the check box.
 
-</td></tr><tr><td id="d91546e211">
+</td></tr><tr><td id="d91573e211">
 
 **API Account User Name**
 
@@ -76,7 +76,7 @@ Default is disabled.If you are using API Account User Name and API Password for 
 
 User name that you created for your API user account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d91546e224">
+</td></tr><tr><td id="d91573e224">
 
 **API Password**
 
@@ -84,7 +84,7 @@ User name that you created for your API user account on the Splunk Enterprise Se
 
 Password that you created for your API user account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d91546e236">
+</td></tr><tr><td id="d91573e236">
 
 **Token Based \(available from version 12.0.0\)**
 
@@ -92,7 +92,7 @@ Password that you created for your API user account on the Splunk Enterprise Sec
 
 Token that you created for your API user account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d91546e245">
+</td></tr><tr><td id="d91573e245">
 
 **Token**
 
@@ -100,7 +100,7 @@ Token that you created for your API user account on the Splunk Enterprise Securi
 
 Token that you created for your API user account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d91546e257">
+</td></tr><tr><td id="d91573e257">
 
 **On Premises Deployment**
 
@@ -108,7 +108,7 @@ Token that you created for your API user account on the Splunk Enterprise Securi
 
 Default is disabled. If you’re using an on-premise based version of Splunk Enterprise Security, verify that this check box is selected.
 
-</td></tr><tr><td id="d91546e271">
+</td></tr><tr><td id="d91573e271">
 
 **MID Server**
 

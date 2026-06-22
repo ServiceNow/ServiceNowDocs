@@ -20,7 +20,7 @@ Enable a non-admin user to start prioritizing tasks quickly by redirecting to Se
 
 Role required: sn\_sow\_admin.sn\_sow\_admin, or admin
 
-Ensure that Next Experience is enabled on your instance. For information about its activation, see Considerations for activating Next Experience.
+Ensure that Next Experience is enabled on your instance. For information about its activation, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 
 ## Procedure
 

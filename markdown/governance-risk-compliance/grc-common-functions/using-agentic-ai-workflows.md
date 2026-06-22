@@ -80,5 +80,5 @@ Helps risk managers and entity owners identify risks for an entity, minimize man
 Risk Suggestion AI agent
 
 </td></tr></tbody>
-</table>For more information on language support, see  and [Multilingual support for ServiceNow generative AI products](https://www.servicenow.com/community/now-assist-articles/multilingual-support-for-servicenow-generative-ai-products/ta-p/3099258).
+</table>For more information on language support, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/translation-for-now-assist.md) and [Multilingual support for ServiceNow generative AI products](https://www.servicenow.com/community/now-assist-articles/multilingual-support-for-servicenow-generative-ai-products/ta-p/3099258).
 

@@ -55,7 +55,7 @@ This integration is supported on Paris and Orlando releases.
 
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
 
-**Note:** If you can't find a plugin, you may have to request it from ServiceNow personnel. To request a plugin, follow the steps in Request a plugin.
+**Note:** If you can't find a plugin, you may have to request it from ServiceNow personnel. To request a plugin, follow the steps in [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_RequestAPlugin.md).
 
  The Security Incident Response plugin \(com.snc.security\_incident\) is required. This plugin automatically installs all the dependencies that are required to support the Security Incident Response product. Install and activate this plugin before you install and activate the other Security Operations applications that are required by the integration.
 

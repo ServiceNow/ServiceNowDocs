@@ -26,7 +26,7 @@ The life-cycle Mapping \[life\_cycle\_mapping\] table is already populated with 
 
 Add a mapping record in the life-cycle Mapping \[life\_cycle\_mapping\] table to create custom choices for the **State** and **Status** fields. Each custom value has related records on the life-cycle Mapping \[life\_cycle\_mapping\] table. You must enable the mapping records for the synchronization to begin.
 
-For information on how to create the custom choices and then map the **Life cycle stage** and **Life cycle stage status** fields with the legacy **State** field, see .
+For information on how to create the custom choices and then map the **Life cycle stage** and **Life cycle stage status** fields with the legacy **State** field, see [Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
 **Note:** If the custom choices have no life cycle mappings, then the **Life cycle stage** and the **Life cycle stage status** fields remain in the **To Be Determined** state.
 

@@ -34,7 +34,7 @@ Role required: admin
     2.  To ensure accurate scores are collected for end of the month reporting, validate that **Run** field is configured
 5.  Select **Update**.
 
-    For more details on how completeness is calculated, see the **Completeness** section of .
+    For more details on how completeness is calculated, see the **Completeness** section of [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
 
 
 **Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)

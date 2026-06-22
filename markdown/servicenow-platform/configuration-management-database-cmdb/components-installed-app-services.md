@@ -16,7 +16,7 @@ breadcrumb: [Application services, Configuration Management, Extend ServiceNow A
 
 Several types of components are installed with activation of the Application Service \[com.snc.cmdb.it\_service\] plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -218,7 +218,7 @@ Contains CI classes included or excluded from application services during popula
 
 To access application services properties, navigate to **All** &gt; **Configuration** &gt; **Application Services** &gt; **Properties**. The role required for modifying property values, is app\_service\_admin.
 
-If Service Mapping is deployed, see Properties installed with Service Mapping for additional application service properties.
+If Service Mapping is deployed, see [Properties installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping.md) for additional application service properties.
 
 **Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
@@ -426,7 +426,7 @@ glide.cmdb.csdm.app\_service.max\_results
 
 Max number of items that are calculated in the '&lt;Application Servers \| Databases \| Hardware Servers&gt; Not in an Application Service' report in the Application Services dashboard. -   Type: integer
 -   Default value: 100000
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
 
@@ -436,7 +436,7 @@ sa.service.max\_ci\_service\_population
 
 The maximum number of CI connections added to application services during the following operations: Converting manual services created in Event Management into application services and updating application services with changes from the CMDB.-   Type: integer
 -   Default value: 1,000
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
  Increasing the default value may cause performance issues.
 

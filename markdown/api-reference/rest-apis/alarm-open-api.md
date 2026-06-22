@@ -1630,7 +1630,7 @@ Creates an alarm record in the Events \[em\_event\] table.
 
 When the alarm record is created, an ID for the alarm is added in the **Message key** field.
 
-An alert record might also be created based on Alert management rules.
+An alert record might also be created based on [Alert management rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/event-management/alert-management-rule.md).
 
 This endpoint writes the response body to the **Additional Info** field of the event record in the Events \[em\_event\] table.
 
@@ -2042,7 +2042,7 @@ Description
 
 affectedService
 
-</td><td id="d5650e76">
+</td><td id="d5547e76">
 
 List of one or more services affected by the alarm.Data type: Array of Objects
 
@@ -2059,7 +2059,7 @@ List of one or more services affected by the alarm.Data type: Array of Objects
 
 affectedService.href
 
-</td><td id="d5650e89">
+</td><td id="d5547e89">
 
 URL reference that provides details of the affected service.Data type: String
 
@@ -2107,7 +2107,7 @@ Unique identifier of the alarm object. This value maps to a CI in the system. Da
 
 alarmedObject.href
 
-</td><td id="d5650e404">
+</td><td id="d5547e404">
 
 URL reference to get the details of the alarm object.
 
@@ -2332,7 +2332,7 @@ Instance ID of the source alarm. Data type: String
 
 specificProblem
 
-</td><td id="d5650e342">
+</td><td id="d5547e342">
 
 Specific problem that triggers the alarm. Use with the **probableCause** tparameter o qualify the alarm.Data type: String
 

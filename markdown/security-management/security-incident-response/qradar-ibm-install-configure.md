@@ -32,15 +32,15 @@ Role required: sn\_si.admin
 
 5.  In the **Offense Ingestions Configuration** dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d204542e154">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d204573e154">
 
 Field
 
-</th><th align="left" id="d204542e157">
+</th><th align="left" id="d204573e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d204542e163">
+</th></tr></thead><tbody><tr><td id="d204573e163">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Name of the IBM QRadar console or the IBM QRadar instance used for the integration.Spaces are supported for names, but parentheses are not supported.
 
-</td></tr><tr><td id="d204542e181">
+</td></tr><tr><td id="d204573e181">
 
 **IBM QRadar API Base URL**
 
@@ -56,7 +56,7 @@ Name of the IBM QRadar console or the IBM QRadar instance used for the integrati
 
 Host URL for your IBM QRadar instance.**Note:** You need to enter only the URL and the port number here. For example, https://ibm-qradar.com:8443. If the port number is 443, it need not be explicitly entered.
 
-</td></tr><tr><td id="d204542e196">
+</td></tr><tr><td id="d204573e196">
 
 **IBM QRadar Dashboard URL**
 
@@ -66,7 +66,7 @@ The URL for the IBM QRadar dashboard or the console. This URL is used to auto co
 
  **Note:** If the dashboard URL is not available, enter the IBM QRadar API Base URL here.
 
-</td></tr><tr><td id="d204542e220">
+</td></tr><tr><td id="d204573e220">
 
 **IBM QRadar API Version**
 
@@ -74,7 +74,7 @@ The URL for the IBM QRadar dashboard or the console. This URL is used to auto co
 
 Version 10 and above are supported.
 
-</td></tr><tr><td id="d204542e233">
+</td></tr><tr><td id="d204573e233">
 
 **IBM QRadar API Authorized Service Token \(on premises\)**
 
@@ -90,7 +90,7 @@ The IBM QRadar authorized service token is used for authentication. The authoriz
 -   Click **Add Authorized Service** and create a token with the user role and security profile. Ensure that you specify an expiry date for a long validity period.
 
 
-</td></tr><tr><td id="d204542e301">
+</td></tr><tr><td id="d204573e301">
 
 **IBM QRadar API Authorized Service Token \(for QRoC\)**
 
@@ -98,7 +98,7 @@ The IBM QRadar authorized service token is used for authentication. The authoriz
 
 If you are using IBM QRadar on Cloud \(QRoC\), use the self service application to generate the authorized service token with admin user role and admin security profile for authentication.
 
-</td></tr><tr><td id="d204542e313">
+</td></tr><tr><td id="d204573e313">
 
 **On Premises Deployment**
 
@@ -108,7 +108,7 @@ Default is disabled. If this option is enabled, you must specify a MID Applicati
 
  If you are using IBM QRadar on Cloud \(QRoC\), verify that the check box is cleared.
 
-</td></tr><tr><td id="d204542e331">
+</td></tr><tr><td id="d204573e331">
 
 **MID Application Name**
 

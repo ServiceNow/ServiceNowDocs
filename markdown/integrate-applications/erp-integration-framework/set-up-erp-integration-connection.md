@@ -21,7 +21,7 @@ Connect Zero Copy Connector for ERP to a system of record \(such as SAP\) direct
 
 Role required: admin
 
-Identify an existing connection to use or create a new connection. For more information, see  and .
+Identify an existing connection to use or create a new connection. For more information, see [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-information.md) and [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 Note the following:
 

@@ -45,7 +45,7 @@ Employee Slate is your AI-first employee experience that brings search, requests
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn what's new in the .
+-   Learn what's new in the [Employee Slate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/employee-slate-rn.md).
 -   Access realtime courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Find useful resources related to your role at the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other ServiceNow users at [Now Community](https://www.servicenow.com/community/).

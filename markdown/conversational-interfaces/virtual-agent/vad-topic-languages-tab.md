@@ -38,7 +38,7 @@ Language
 
 List of available languages in Virtual Agent.
 
- Only installed languages are displayed \(the language plugins are activated\). If a language appears as unavailable, it means the language plugin is installed, but it has not been activated in Virtual Agent settings or in the Localization Framework. For more information, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md) and Languages table.
+ Only installed languages are displayed \(the language plugins are activated\). If a language appears as unavailable, it means the language plugin is installed, but it has not been activated in Virtual Agent settings or in the Localization Framework. For more information, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md) and [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization/r_LanguagesTable.md).
 
 </td></tr><tr><td>
 

@@ -96,7 +96,7 @@ Configuration item
 
 </td><td>
 
-JSON string that represents a configuration item. For example, `{"name":"SAP ORA01","type":"Oracle"}`. The CI identifier that generated the event appears in the **Additional information** field. Maximum length: 1000 characters. Note: Reference pop-ups and click-throughs are hidden by default for read-only fields. For **Configuration item** and other read only fields, you can optionally change the read-only setting. For more information, see Configure pop-ups on read-only fields . Click \[Omitted image "alert-dependency-view-icon.png"\] Alt text: Dependency view icon to open the alert in dependency view.
+JSON string that represents a configuration item. For example, `{"name":"SAP ORA01","type":"Oracle"}`. The CI identifier that generated the event appears in the **Additional information** field. Maximum length: 1000 characters. Note: Reference pop-ups and click-throughs are hidden by default for read-only fields. For **Configuration item** and other read only fields, you can optionally change the read-only setting. For more information, see [Configure pop-ups on read-only fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_ReferenceIcon.md) . Click \[Omitted image "alert-dependency-view-icon.png"\] Alt text: Dependency view icon to open the alert in dependency view.
 
 </td></tr><tr><td>
 
@@ -321,5 +321,5 @@ In an alert, use the `Quick Response` feature to apply remediation to the alert 
 **Related topics**  
 
 
-[bundle-security.c_ScIncdUseAlrts]
+[Security incidents created from events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-incident-response/c_ScIncdUseAlrts.md)
 

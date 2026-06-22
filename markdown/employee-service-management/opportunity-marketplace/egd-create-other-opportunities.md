@@ -55,7 +55,7 @@ Role required: No role required, but you must be a licensed user for the Talent 
 
         User criteria control who can view opportunities. Leaving this field empty, enables everyone in your organization to see the opportunity. Select user groups to restrict access to the members of the selected groups.
 
-        For information about creating user groups, see .
+        For information about creating user groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
     To read details about the opportunity forms and fields, see [Form fields for creating opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-oppty-form-fields.md).
 

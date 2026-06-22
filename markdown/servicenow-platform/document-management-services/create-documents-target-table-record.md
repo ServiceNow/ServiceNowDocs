@@ -18,7 +18,7 @@ You can create and reference documents on a target table record through the Docu
 
 ## Before you begin
 
-See the DocumentListService API topic
+See the [DocumentListService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/DocumentListServiceBothAPI.md) topic
 
 Role required: admin
 

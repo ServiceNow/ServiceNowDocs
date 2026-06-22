@@ -176,7 +176,7 @@ See Service Observability data as part of Incident Management workflows
 
 </td><td>
 
-
+[Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-operations-workspace/dex-so-metric-views-investigate-tab.md)
 
 </td><td>
 

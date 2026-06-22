@@ -47,7 +47,7 @@ The notification contains campus details, space details, and the reservation dur
 
 \[Omitted image "wsd-core-notification.png"\] Alt text: Reservation details like the campus, space, and duration.
 
-As an admin, you can create custom notifications for upcoming reservations by using the **sn\_wsd\_core\_reservation** table. You can also use the **sn\_wsd\_core.upcoming\_reservation** event to decide when the notification must be sent. For more information about notifications, see .
+As an admin, you can create custom notifications for upcoming reservations by using the **sn\_wsd\_core\_reservation** table. You can also use the **sn\_wsd\_core.upcoming\_reservation** event to decide when the notification must be sent. For more information about notifications, see [System notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/system-notifications-landing.md).
 
 -   **[Request a workplace reservation for multiple days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/safe-workplace/request-workspace-reservations-for-multiple-days.md)**  
 Request a workplace reservation for the days during which you want to return to office by using Workplace Core.

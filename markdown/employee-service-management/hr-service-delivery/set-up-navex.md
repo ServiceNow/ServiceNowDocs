@@ -30,11 +30,11 @@ Role required: sn\_hr\_navex\_ep.admin
 
 3.  For better performance, index Source field: external\_id mapped to Target field: correlation\_id in [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/transform-maps-navex.md).
 
-    For more information, see create a table index.
+    For more information, see [create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/t_CreateCustomIndex.md).
 
 4.  Set up Navex EthicsPoint spoke.
 
-    For more information, see Set up Navex EthicsPoint spoke.
+    For more information, see [Set up Navex EthicsPoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/navex-ethics-spoke.md).
 
 5.  [Configure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/prop-navex.md).
 

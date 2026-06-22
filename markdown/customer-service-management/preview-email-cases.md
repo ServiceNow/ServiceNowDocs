@@ -24,9 +24,9 @@ Role required: sn\_customerservice\_agent
 
 For information about adding or modifying actions on a form, see the following topics:
 
--   Customizing your workspace with declarative actions
+-   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/declarative-actions-landing.md)
 -   Create a UXF client action for forms
--   Declarative actions glossary
+-   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/declarative-actions-glossary.md)
 
 ## Procedure
 

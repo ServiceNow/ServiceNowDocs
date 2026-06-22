@@ -48,7 +48,7 @@ Role required: admin
 
     The **Recommended Services** shows the service definitions that are linked to the **Impacted Services/CIs**.
 
-    For more information about how to create record producer, see .
+    For more information about how to create record producer, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 10. Select **Create proactive cases**.
 

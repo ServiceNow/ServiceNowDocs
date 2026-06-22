@@ -116,7 +116,7 @@ Callback Writer
 With this role, users can view and update the Callback Task records.
 
 </td></tr></tbody>
-</table>To learn more about managing subscriptions, see  and contact your account representative.
+</table>To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/omnichannel-callback/omnichannel-callback-reference.md)
 

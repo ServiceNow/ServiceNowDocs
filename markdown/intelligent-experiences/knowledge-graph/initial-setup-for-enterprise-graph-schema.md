@@ -24,7 +24,7 @@ If you have already completed the setup in sub-production instance, you can impo
 
 Assuming that you have completed the setup in sub-production instance, do the following to complete the initial setup in production instance:
 
--   Create an integration user, in the sub-production instance. For more information, see 
+-   Create an integration user, in the sub-production instance. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAUser.md)
 -   Verify if the descriptions are generated in sub-production instance.
 -   Use the following procedure to:
     -   Import the data into production.
@@ -51,7 +51,7 @@ Role required: admin
 
 5.  Add the user name and password that was used, while creating the new user.
 
-    See  for more information.
+    See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAUser.md) for more information.
 
 6.  Navigate to **All** &gt; **System Import Sets** &gt; **Administration** &gt; **Data Sources**.
 

@@ -80,5 +80,5 @@ A common use case for generating a document from an HR case is when an employee 
 **Related topics**  
 
 
-[bundle-platcap.r_ManagedDocumentFeatures]
+[Managed Document features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/r_ManagedDocumentFeatures.md)
 

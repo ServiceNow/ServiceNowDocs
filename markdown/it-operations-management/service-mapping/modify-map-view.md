@@ -238,3 +238,8 @@ The map does not show ignored errors.
 </table>
 **Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 
+**Related topics**  
+
+
+[Create or modify map indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIndicators.md)
+

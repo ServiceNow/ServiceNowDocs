@@ -43,7 +43,7 @@ See also [setFilter\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|String|Encoded query string in standard Glide format. See Encoded query strings.|
+|filter|String|Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|
@@ -482,7 +482,7 @@ See also [addFilter\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|String|Encoded query string in standard Glide format. See Encoded query strings.|
+|filter|String|Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|

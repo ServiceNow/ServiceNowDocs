@@ -35,7 +35,7 @@ Guided Setup provides a sequence of tasks that help you configure Creator Studio
 
 To open Guided Setup for Creator Studio, navigate to **All** &gt; **App Engine** &gt; **Guided Setup – Shared**.
 
-For more information, see .
+For more information, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Catalog configuration requirement for Creator Studio
 
@@ -43,7 +43,7 @@ To ensure that forms appear correctly for users, the non-production and producti
 
 ## Configuring Virtual Agent chatbot previews
 
-If you want forms to appear in the Virtual Agent chatbot, you must install the necessary plugins. For more information, see .
+If you want forms to appear in the Virtual Agent chatbot, you must install the necessary plugins. For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
 -   **[Installing Creator Studio from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/installing-creator-studio-from-the-store.md)**  
 Installing Creator Studio from the ServiceNow Store makes it available for people to build apps on your instance.

@@ -18,7 +18,7 @@ Create planned task definitions in Workplace Core to help workplace managers eas
 
 ## Before you begin
 
-**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see Configure a catalog in Service Portal.
+**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
 
 Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
@@ -93,15 +93,15 @@ Date and time when the task should start.
 
     **Note:** You can also use this definition to generate planned tasks later. See the instructions in the [Generate planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/create-planned-task-definitions-wsd.md) topic.
 
-<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d308744e257">
+<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d308487e257">
 
 Option
 
-</th><th align="left" id="d308744e260">
+</th><th align="left" id="d308487e260">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d308744e266">
+</th></tr></thead><tbody><tr><td id="d308487e266">
 
 **Create another planned task definition**
 
@@ -109,7 +109,7 @@ Action
 
 Select **Add another task definition**.
 
-</td></tr><tr><td id="d308744e278">
+</td></tr><tr><td id="d308487e278">
 
 **Generate planned tasks immediately**
 

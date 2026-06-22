@@ -25,7 +25,7 @@ Using this API you can:
 
 This API requires the Data Classification \[com.glide.data\_classification\] plugin.
 
-For more information, see Data Classification.
+For more information, see [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-classification/data-classification.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 

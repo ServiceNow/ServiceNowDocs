@@ -63,7 +63,7 @@ Provides Employee Center.
 
     To use Agent Workspace and Playbook with Lifecycle Events, you must request the Playbook plugin from the ServiceNow Store.
 
-    **Note:** For more information on requesting a ServiceNow Store plugin, see Install a ServiceNow Store application.
+    **Note:** For more information on requesting a ServiceNow Store plugin, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_InstallApplications.md).
 
 
 ## Procedure
@@ -78,7 +78,7 @@ Provides Employee Center.
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 
 -   **[Lifecycle event script includes and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/LEScriptIncludes.md)**  

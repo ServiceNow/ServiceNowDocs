@@ -40,7 +40,7 @@ To perform this action, you must create a UI action for your service.
 
 3.  On the form, fill in the fields to define the UI action.
 
-    For more information, see Create a UI action.
+    For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_EditingAUIAction.md).
 
 
 **Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)

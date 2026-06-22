@@ -19,7 +19,7 @@ With the Now Assist panel, you can get assistance from generative AI experiences
 
 You must fulfill the following conditions to use the Now Assist panel:
 
--   Next Experience must be enabled. For more information, see .
+-   Next Experience must be enabled. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 -   You must have the now\_assist\_panel\_user role.
 -   Your role must be applied to at least one active Now Assist skill to use skills in the Now Assist panel.
 
@@ -31,7 +31,7 @@ There are three versions of Now Assist panel chats: standard, enhanced, and prem
 
 If you want to use assistants, you must activate them. See  for information on activating assistants.
 
-**Note:** Voice input is automatically activated when you activate the Now Assist panel. As of the Zurich Patch 4 release, voice input is configured in the Configure Next Experience accessibility preferences.
+**Note:** Voice input is automatically activated when you activate the Now Assist panel. As of the Zurich Patch 4 release, voice input is configured in the [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-accessibility-preferences.md).
 
 -   **[Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/now-assist-panel-standard.md)**  
 With the Now Assist panel standard chat, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.

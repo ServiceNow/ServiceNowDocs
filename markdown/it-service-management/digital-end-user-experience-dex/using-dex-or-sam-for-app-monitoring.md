@@ -63,6 +63,6 @@ SAMScalable beyond 200 apps
 
 For more information on application monitoring with SAM, see the following:
 
--   
--   
+-   [Using push-based Discovery and SAM together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/agent-client-collector/using-enhanced-discovery-and-sam-together.md)
+-   [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/software-asset-management/shadow-saas-analytics.md)
 

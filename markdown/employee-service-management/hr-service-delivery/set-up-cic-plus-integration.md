@@ -48,7 +48,7 @@ Role required: sn\_hr\_integrations.admin
 
     1.  Configure your account to get employee profiles for US-based employees through the get\_usa\_employee\_profile REST endpoint.
 
-        For information and examples on the get\_usa\_employee\_profile REST endpoint, see get\_usa\_employee\_profile.
+        For information and examples on the get\_usa\_employee\_profile REST endpoint, see [get\_usa\_employee\_profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/hr-core-api.md).
 
     2.  Verify that the callback is properly configured within your CIC Plus account.
 

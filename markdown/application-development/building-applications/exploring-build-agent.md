@@ -44,7 +44,7 @@ Build Agent currently supports the following models:
 -   Azure OpenAI 5.4
 -   Opus 4.6
 
-For information on changing the model, see .
+For information on changing the model, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/edit-model-providers.md).
 
 Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other Now Assist products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences.
 
@@ -64,7 +64,7 @@ If you exceed the free interaction limit, you must wait 30 days for a reset, or 
 
 ## Localization and Build Agent
 
-Build Agent incorporates the ServiceNow AI Platform localization, so you can use it in any supported language. For more information, see .
+Build Agent incorporates the ServiceNow AI Platform localization, so you can use it in any supported language. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework/localization-framework-landing.md).
 
 ## How prompts are counted
 

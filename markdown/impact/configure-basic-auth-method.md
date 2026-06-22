@@ -24,7 +24,7 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
 1.  Create an integration account with the required role \(sn\_se.internal\_rest\_integration\) by navigating to **All** &gt; **System Security** &gt; **Users and Groups** &gt; **Users**. Then select **New**.
 
-    For more information on creating a new user, see .
+    For more information on creating a new user, see [Create user form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/eaw-create-new-user-form.md).
 
     **Note:** You can also use an existing integration user by ensuring they are provisioned for the required role.
 

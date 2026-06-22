@@ -54,7 +54,7 @@ The **Prerequisites** Guided Setup tasks walk you through verifying that your in
 
     3.  If the system reports any other enablement status, ask your administrator to enable Next Experience on your instance, then repeat this task after it's enabled.
 
-        For details on enabling Next Experience, see Enable Next Experience.
+        For details on enabling Next Experience, see [Enable Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 
 6.  Index content and metadata for AI Search indexed sources used in global search.
 

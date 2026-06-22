@@ -24,7 +24,7 @@ Role required: sn\_ppt\_export.ppt\_user
 
 ## Procedure
 
-1.  To download your status report for Enterprise Architecture \(formerlyApplication Portfolio Management\), see .
+1.  To download your status report for Enterprise Architecture \(formerlyApplication Portfolio Management\), see [Export data to Microsoft PowerPoint - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/export-apm-data-ppt.md).
 
 2.  To download your status report for Project Workspace, see [Export a project status report to Microsoft PowerPoint from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/export-project-status-report-to-powerpoint-from-project-workspace.md).
 

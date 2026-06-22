@@ -8,7 +8,7 @@ product: Enable AI Experiences
 classification: enable-ai-experiences
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 8
 keywords: [installing Now Assist, AI features, AI products, updating Now Assist, solutions, Now Assist, GenAI, generative AI, configure Now Assist]
 breadcrumb: [ServiceNow AI implementation, Enable AI experiences]
 ---
@@ -63,7 +63,7 @@ External content isn't included in search results
 
 </td><td>
 
-You can use External Content Connectors to include other sources in your search results. For details, see .
+You can use External Content Connectors to include other sources in your search results. For details, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Now Assist in AI Search Genius results don't appear
 </td><td>
 
 1.  Verify that AI Search and Now Assist in AI Search are installed and configured.
-2.  To use Now Assist Q&amp;A Genius Results in AI Search applications, link the Now Assist Q&amp;A Genius Result configuration to your search profiles for those applications. For details, see .
+2.  To use Now Assist Q&amp;A Genius Results in AI Search applications, link the Now Assist Q&amp;A Genius Result configuration to your search profiles for those applications. For details, see [Link a Genius Result configuration to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/link-gr-search-profile-ais.md).
 3.  Verify that all Now Assist plugins are up to date.
 4.  Try repairing the plugins.
 
@@ -117,7 +117,7 @@ I want to view my subscriptions
 
 </td><td>
 
-See .
+See [Product subscriptions overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/subscriptions-overview-v2.md).
 
 </td></tr><tr><td>
 
@@ -181,7 +181,7 @@ Errors after clone
 
 </td><td>
 
-Try repairing affected plugins. For details, see .
+Try repairing affected plugins. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/repair-app.md).
 
 </td></tr><tr><td>
 
@@ -193,7 +193,7 @@ The Q&amp;A results skill is not in the Now Assist Admin console
 
 </td><td>
 
-Set up AI Search. For details, see .
+Set up AI Search. For details, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/configuring-ais.md).
 
 </td></tr><tr><td>
 
@@ -205,12 +205,12 @@ Features/skills are missing or generally not working
 
 </td><td>
 
--   Verify that all of your Now Assist plugins are up to date. For details, see .
--   Verify that version and dependency requirements are met. For details, see .
+-   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_InstallUpdates.md).
+-   Verify that version and dependency requirements are met. For details, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/versions-dependencies.md).
 -   For skills, verify that they are active in the Now Assist Admin console. For details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
 -   Verify that the user has the correct role for the skill.
 -   Try clearing the cookies and cache in the web browser.
--   Try repairing Generative AI Controller. For details, see .
+-   Try repairing Generative AI Controller. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/repair-app.md).
 
 </td></tr><tr><td>
 
@@ -236,9 +236,9 @@ Missing entries, fields, and errors
 
 </td><td>
 
--   Verify that all of your Now Assist plugins are up to date. For details, see .
--   Try repairing the application. For details, see .
--   Try repairing Generative AI Controller. For details, see .
+-   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_InstallUpdates.md).
+-   Try repairing the application. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/repair-app.md).
+-   Try repairing Generative AI Controller. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/repair-app.md).
 
 </td></tr><tr><td>
 
@@ -252,7 +252,7 @@ Problems upgrading Now Assist applications
 
 -   Verify that you have a license for the application.
 -   If the application was not previously installed, request it from the [ServiceNow Store](https://store.servicenow.com/store) \(Opt In\).
--   If the application was previously installed, you may need to procure it from the [ServiceNow Store](https://store.servicenow.com/store) again. For details, see .
+-   If the application was previously installed, you may need to procure it from the [ServiceNow Store](https://store.servicenow.com/store) again. For details, see [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/updating-apps-app-manager.md).
 
 </td></tr><tr><td>
 
@@ -353,7 +353,7 @@ Configuration issues
 
 </td><td>
 
-1.  Verify that the plugin is up to date. For details, see .
+1.  Verify that the plugin is up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_InstallUpdates.md).
 2.  Follow the guided setup to install and configure it. For details, see .
 
 </td></tr><tr><td>
@@ -378,8 +378,8 @@ Chat is not showing search results
 
 </td><td>
 
--   Verify that all of your Now Assist plugins are up to date. For details, see .
--   Verify that AI Search and Now Assist in AI Search are set up and configured. For details, see  and .
+-   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_InstallUpdates.md).
+-   Verify that AI Search and Now Assist in AI Search are set up and configured. For details, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/configuring-ais.md) and [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/install-now-assist-ais.md).
 -   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the Now Assist panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see  and .
 
 </td></tr><tr><td>

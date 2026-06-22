@@ -34,7 +34,7 @@ Set the **Enable to auto-restrict requests with sensitive information** property
 
 3.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Classification Definition form fields, see Create and train classification solution.
+    For more information about the Classification Definition form fields, see [Create and train classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
 
 
 **Parent Topic:**[Predictive Intelligence for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/predictive-intelligence-ur.md)

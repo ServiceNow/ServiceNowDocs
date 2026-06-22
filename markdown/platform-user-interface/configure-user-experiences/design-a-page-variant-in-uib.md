@@ -21,7 +21,7 @@ Configure a UI Builder page variant to pass from a workspace modal into the vari
 Complete the following actions:
 
 -   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/create-a-new-form-action.md)
--   Activate Customer Service Management
+-   [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/t_ActivateCustomerService.md)
 -   Open your record page in UI Builder or create a page variant in UI Builder
 
 Role required: admin

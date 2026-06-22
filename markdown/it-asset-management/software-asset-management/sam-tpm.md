@@ -16,7 +16,7 @@ breadcrumb: [Explore, Software Asset Management, IT Asset Management]
 
 Use the Software Asset Management application along with Technology Reference Model \(TRM\) of Application Portfolio Management to manage onboarding of technologies.
 
-TRM is a list of software products with information on their approval of use. Each product is associated with a set of lifecycle phases with a start and end date. The TRM library is maintained by the enterprise architect and used by application owners. For detailed information on TRM, see .
+TRM is a list of software products with information on their approval of use. Each product is associated with a set of lifecycle phases with a start and end date. The TRM library is maintained by the enterprise architect and used by application owners. For detailed information on TRM, see [Exploring Technology Reference Model - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/technology-reference-model-in-apm.md).
 
 The Software Asset Management application gives visibility into the TRM lifecycle phases for all products associated with software models. When a software model is created and associated with a product that is approved for use in TRM, the **Certified** check box in the software model form is selected by default. All software models associated with that product are then available for use.
 

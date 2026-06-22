@@ -28,7 +28,7 @@ You can view and add shipments for your transfer orders, purchase orders, move o
 
 **Important:** When using the Sourcing and Procurement Operations application with the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) installed, the IT Asset Management application shares shipment details with the Sourcing and Procurement Operations application. To enable the Sourcing and Procurement Operations application to view shipment and tracking numbers associated with Purchase Orders, read-only access has been provided to the Shipment \[sn\_itam\_common\_shipment\] and Shipment line \[sn\_itam\_common\_m2m\_shipment\_asset\] table.
 
-For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see .
+For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see [Sourcing and Procurement Operations integration with IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md).
 
 ## Procedure
 

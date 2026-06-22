@@ -26,14 +26,14 @@ Role required: sn\_shop.shopping\_hub\_admin
 
 2.  Download the Now mobile application on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
 
-    For more information on using this mobile app, see Now Mobile app topic.
+    For more information on using this mobile app, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) topic.
 
 3.  Add the instance that has Shopping Hub Mobile installed to the Now Mobile application and log in to access the application data on your mobile device.
 
 
 ## What to do next
 
-Log in to an instance with a mobile app
+[Log in to an instance with a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/login-end-user.md)
 
 **Parent Topic:**[Install ShoppingHub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/install-shoppinghub-mobile.md)
 

@@ -30,15 +30,15 @@ If a formula operand has no value because metric data has not yet been collected
 
 2.  Create a new mapping record or modify an existing one.
 
-<table id="choicetable_wzf_jzt_53c"><thead><tr><th align="left" id="d24642e81">
+<table id="choicetable_wzf_jzt_53c"><thead><tr><th align="left" id="d24613e81">
 
 Option
 
-</th><th align="left" id="d24642e84">
+</th><th align="left" id="d24613e84">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d24642e90">
+</th></tr></thead><tbody><tr><td id="d24613e90">
 
 **Update an existing record**
 
@@ -49,7 +49,7 @@ Actions
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d24642e114">
+</td></tr><tr><td id="d24613e114">
 
 **Create a new record**
 

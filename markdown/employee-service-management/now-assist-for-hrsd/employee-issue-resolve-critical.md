@@ -24,7 +24,7 @@ The agents, tools, and triggers that are associated with the Resolve critical HR
 
 You must have HRSD Pro plus for Now Assist installed for the HR Service Delivery AI Agent Collection. When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-Perform the following steps after you .
+Perform the following steps after you [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-gaf.md).
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**.
 2.  Run **HR service GAF grouping job** with an admin role. This generates **GAF - Run Offline Flow** in the Global scope.

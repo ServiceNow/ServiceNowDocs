@@ -173,8 +173,8 @@ Stores the runtime contract lines like a service plan.
 </td></tr></tbody>
 </table>You can assign roles to users and groups using the ServiceNow AI Platform user administration features. For more information, see:
 
--   
--   
+-   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
+-   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
 
 The default view on service contracts and entitlements in Customer Service Management workspace is Service Contract Workspace view. It can be changed by an administrator.
 

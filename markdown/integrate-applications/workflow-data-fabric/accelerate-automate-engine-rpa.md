@@ -55,7 +55,7 @@ The workflow for this solution is
 
     Document Intelligence knows which fields to extract. When the model is trained over time, the value has a higher confidence score that is determined by the AI in Document Intelligence. The agent or the automation team can set a score to meet their threshold requirements.
 
-    For more information about Document Intelligence, see .
+    For more information about Document Intelligence, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
 
 5.  An agent navigates to the Direct Deposit Workspace, opens the direct deposit request, and reviews the data that was extracted from the employee's check. As the agent completes the review, the information is automatically updated on the form.
 6.  The extraction stage completes and the validation stage starts. An agent can view this process in the playbook.
@@ -82,7 +82,7 @@ Your administrators can integrate the solution by doing the following actions:
 
 1.  Activate the Integration Hub plugins. For more information, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/request-integrationhub.md) and [Integration Hub plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/ih-plugins.md).
 2.  Install the Employee Center application and configure the Employee Center Portal. For more information, see  and .
-3.  Install and set up the Document Intelligence application. For more information, see  and .
+3.  Install and set up the Document Intelligence application. For more information, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-intelligence/install-document-intelligence.md) and [Set up Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-intelligence/get-started-with-doc-intel.md).
 4.  Install the RPA Hub application. For more information, see [Install Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/install-rpa.md).
 5.  Install the Automation Center application. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/install-automation-center.md).
 6.  Activate a spoke. For more information, see [Integration Hub spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/spokes-list.md).

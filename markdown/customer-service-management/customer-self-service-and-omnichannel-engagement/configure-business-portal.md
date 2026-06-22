@@ -63,5 +63,5 @@ You can add additional self-service capabilities such as order management by ins
 **Related topics**  
 
 
-[bundle-platux.c_ServicePortal]
+[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
 

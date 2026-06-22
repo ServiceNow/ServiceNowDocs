@@ -16,7 +16,7 @@ breadcrumb: [Administer data, Developer Sandboxes, Developing your application, 
 
 Developer Sandboxes templates are being deprecated, and should no longer be used.
 
-**Note:** To generate synthetic test data for use in your sandbox template, you can use Now Assist Data Kit. For more information, see .
+**Note:** To generate synthetic test data for use in your sandbox template, you can use Now Assist Data Kit. For more information, see [Now Assist Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 
 Data is shared by default except for Task and CMDB. To use real data from Task and CMDB in sandboxes, make a request for Now Support to configure those tables as Full Copy or Partial Copy. For more information, see [Developer Sandboxes and metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-metadata.md).
 

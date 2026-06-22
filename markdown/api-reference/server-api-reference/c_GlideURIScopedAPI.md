@@ -20,8 +20,8 @@ The GlideURI API provides methods to handle URI parameters in a scoped applicati
 
 For more information on using URIs:
 
--   Navigate by URL
--   Navigation stack
+-   [Navigate by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/navigate-using-url.md)
+-   [Navigation stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_NavigationStack.md)
 
 See also: [GlideURI - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/GlideURIGlobalAPI.md) .
 

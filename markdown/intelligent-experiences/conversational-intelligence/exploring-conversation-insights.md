@@ -8,7 +8,7 @@ product: Conversational Intelligence
 classification: conversational-intelligence
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Conversation Insights, Enable AI experiences]
 ---
 
@@ -32,7 +32,7 @@ Inferred CSAT is a numerical score from 1 \(least satisfied\) to 5 \(most satisf
 
 Inferred CSAT scores and factors are calculated for each conversation. Conversational analytics applications can leverage the scores written to the Conversation Insights \[sn\_aci\_insights\] table to create custom dashboards and workflows. The [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/ai-agent-dashboard.md) includes visualizations with Inferred CSAT scores and factors by default.
 
-The data retention period for the Conversation Insights \[sn\_aci\_insights\] table is two years. For more information on creating custom dashboards, see  and .
+The data retention period for the Conversation Insights \[sn\_aci\_insights\] table is two years. For more information on creating custom dashboards, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-db-in-ac.md) and [Select a table data source for a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/select-table-data-source.md).
 
 Conversation Insights are also supported by Voice Agents, Now Assist Panel and Now Assist Virtual Agent.
 

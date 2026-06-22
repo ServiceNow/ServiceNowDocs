@@ -86,7 +86,7 @@ Location
 
 -   Catalogs: Name of the catalog the record producer belongs to.
 -   Categories: Available categories that can be linked with the record producer.
--   Topics: Available topics that can be connected to the standard catalog item. Find out more about topics in .
+-   Topics: Available topics that can be connected to the standard catalog item. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.md).
 
 
 </td></tr><tr><td>
@@ -95,9 +95,9 @@ Questions
 
 </td><td>
 
-Questions for the record producer.From the **Insert new question** list, you can include additional question sets, questions, deactivated questions, single-column container, two-column container, and line break. For information on creating a question and supported question types, see .
+Questions for the record producer.From the **Insert new question** list, you can include additional question sets, questions, deactivated questions, single-column container, two-column container, and line break. For information on creating a question and supported question types, see [Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md).
 
- You can also add dynamic form behavior for a question. For information on adding dynamic form behavior, see .
+ You can also add dynamic form behavior for a question. For information on adding dynamic form behavior, see [Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/edit-question-cat-builder.md).
 
  **Note:**
 

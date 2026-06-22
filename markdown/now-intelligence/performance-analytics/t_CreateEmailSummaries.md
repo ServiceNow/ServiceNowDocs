@@ -70,5 +70,5 @@ The email summary job runs based on the schedule you configured. You can also ru
 **Related topics**  
 
 
-[bundle-platadm.c_EmailNotifications]
+[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailNotifications.md)
 

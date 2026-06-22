@@ -42,15 +42,15 @@ Configuration for form views of work item tables determines the fields that are 
 
 5.  Create form views or update them.
 
-<table id="choicetable_xcm_cz1_f1c"><thead><tr><th align="left" id="d73829e129">
+<table id="choicetable_xcm_cz1_f1c"><thead><tr><th align="left" id="d72801e129">
 
 Option
 
-</th><th align="left" id="d73829e132">
+</th><th align="left" id="d72801e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73829e138">
+</th></tr></thead><tbody><tr><td id="d72801e138">
 
 **Create form views**
 
@@ -69,7 +69,7 @@ You can also rearrange them in the order of your choice.
 5.  Repeat the steps to complete creating the other two form views.
 
 
-</td></tr><tr><td id="d73829e211">
+</td></tr><tr><td id="d72801e211">
 
 **Edit existing form views**
 

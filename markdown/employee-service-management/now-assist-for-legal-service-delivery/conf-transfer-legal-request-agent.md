@@ -20,9 +20,9 @@ You can configure the Triage legal requests agentic workflow in the Now Assist f
 You must complete the following tasks to activate and use the Triage legal requests agentic workflow:
 
 1.  Install the Now Assist for Legal Service Delivery \(LSD\) plugin \(sn\_lg\_gen\_ai\).
-2.  Ensure the Now Assist panel is turned on. For more information, see .
-3.  Ensure the **Now Assist Panel - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see .
-4.  Configure AI Search. For more information, see .
+2.  Ensure the Now Assist panel is turned on. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+3.  Ensure the **Now Assist Panel - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/manage-llm-va.md).
+4.  Configure AI Search. For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/configuring-ais.md).
 5.  Activate the Triage Legal request use case business rule to activate the Triage legal requests agentic workflow. For more information, see [Activate the business rule for the Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/lsd-agentic-config-BR.md).
 6.  Include the legal practice application tables for AI Search indexing. For more information, see [Add legal request tables for data indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/add-tables-legal-requests.md).
 

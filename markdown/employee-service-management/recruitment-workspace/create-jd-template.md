@@ -22,7 +22,7 @@ The system administrator creates the job description templates, which are availa
 
 The recruiters can create the job description templates for themselves and also add it to the assignment groups they are part of, for others to use it.
 
-For more information on creating a job description template, see .
+For more information on creating a job description template, see [Create a template using the Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateATemplateUsingTheTmplForm.md).
 
 **Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/recruitment-workspace/config-recruitment.md)
 

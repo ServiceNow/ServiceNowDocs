@@ -48,7 +48,7 @@ Flows and subflows each run with their own roles. Subflows don't inherit roles f
 
 ## Access control lists
 
-Assigning a role to a flow doesn't guarantee that the flow can access a record or table. While roles are an important part of access control lists \(ACLs\), they are just one possible condition. If a flow cannot access the records you expect it to, review the record ACL rules for the table and fields. The ACL rules might require additional criteria to grant access. For more information, see access control list rules.
+Assigning a role to a flow doesn't guarantee that the flow can access a record or table. While roles are an important part of access control lists \(ACLs\), they are just one possible condition. If a flow cannot access the records you expect it to, review the record ACL rules for the table and fields. The ACL rules might require additional criteria to grant access. For more information, see [access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/access-control-rules.md).
 
 **Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 

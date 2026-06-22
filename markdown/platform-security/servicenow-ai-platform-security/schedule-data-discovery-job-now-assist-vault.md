@@ -19,7 +19,7 @@ Use the schedule data discovery job skill to schedule one-time or recurring Data
 ## Before you begin
 
 -   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/configuring-servicenow-vault.md).
--   Ensure that the schedule Data Discovery job skill is active. For more information, see .
+-   Ensure that the schedule Data Discovery job skill is active. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
 
 Role required: sn\_vault\_console.vault\_console\_admin
 

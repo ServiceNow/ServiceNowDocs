@@ -40,12 +40,12 @@ Zurich Patch 5 includes fixes for security-related problems that affected certai
 
 ## Changes in Zurich Patch 5
 
--   ****
+-   **[Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md)**
 
     As of Zurich Patch 5, Developer Sandboxes will back up any update sets from the sandboxes and export them to the main instance.
 
--   ****
--   ****
+-   **[Retire Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/developer-sandboxes/retire-sandboxes.md)**
+-   **[Exploring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/explore-code-signing.md)**
 
     All the metadata tables with valid configurations are signed at build time using the Code Signing metadata plugin​ \(com.glide.code\_signing\). Installing this plugin automatically installs the Code Signing OOB App Signatures plugin \(com.glide.code\_signing.oob\_apps\_signatures\) which contains build time signatures for all relevant records in the trued-up ServiceNow® Store application versions. If you choose to sign tables, admin users with the Security administrator role have access to Code Signing job​s:
 

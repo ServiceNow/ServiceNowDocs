@@ -54,7 +54,7 @@ From the AI asset record in AI Control Tower, stewards can see governance health
 
 If your organization uses AI Risk and Compliance, apps built through agentic development can be evaluated against regulatory frameworks such as the NIST AI Risk Management Framework and the EU Artificial Intelligence Act. Risk classification and compliance posture are available on the Risk and Compliance tab of each AI asset record.
 
-For more information, see .
+For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md).
 
 ## Core governance principles
 
@@ -95,12 +95,12 @@ For more information, see .
 |Tool|Description|More information|
 |----|-----------|----------------|
 |App Engine Management Center|Governance hub for approvals and monitoring.|[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/app-engine-management-center.md)|
-|AI Control Tower|Monitors AI agent behavior, enforces guardrails, tracks AI-generated code changes, and provides dashboards showing which apps were created by Build Agent, what data they access, and how they comply with organizational policies.||
-|ServiceNow Vault|Discovers and protects sensitive data across workflows, so AI-generated apps handle confidential information appropriately.||
+|AI Control Tower|Monitors AI agent behavior, enforces guardrails, tracks AI-generated code changes, and provides dashboards showing which apps were created by Build Agent, what data they access, and how they comply with organizational policies.|[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)|
+|ServiceNow Vault|Discovers and protects sensitive data across workflows, so AI-generated apps handle confidential information appropriately.|[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/servicenow-vault-landing.md)|
 |ReleaseOps Toolkit|Update set automation and metadata pipelines.|[ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/releaseops-landing.md)|
 |Automated Test Framework|Automated testing for ServiceNow apps.|[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-landing-page.md)|
 |Developer Sandboxes|Develop in a secure, isolated Developer Sandboxes environment.|[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/sandboxes-landing.md)|
-|Knowledge Base articles|Data handling and AI usage guidelines.||
+|Knowledge Base articles|Data handling and AI usage guidelines.|[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/knowledge-management.md)|
 
 ## Governance general guidelines
 

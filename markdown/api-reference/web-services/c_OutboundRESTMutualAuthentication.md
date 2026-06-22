@@ -22,7 +22,7 @@ When ServiceNow initiates an outbound REST request using mutual authentication, 
 
 Mutual authentication requires a client certificate and private key stored on the ServiceNow instance, and a server certificate issued by a trusted certificate authority \(CA\).
 
-**Note:** For information about mutual authentication for inbound web services, see Certificate-based authentication.
+**Note:** For information about mutual authentication for inbound web services, see [Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/certificate-based-authentication/certificate-based-authentication.md).
 
 For information about using a custom HTTPS protocol profile to enable mutual authentication, see [Create a protocol profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/t_CreateAProtocolProfile.md).
 

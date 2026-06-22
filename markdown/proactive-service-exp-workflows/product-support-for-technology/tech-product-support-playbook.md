@@ -109,7 +109,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see Group and find records using tags in workspace.
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/setting-record-tags-agent-workspace.md).
 
 </td></tr><tr><td>
 
@@ -243,7 +243,7 @@ The following actions are available on the Product support for technology proces
 -   **In-progress Actions**: Provides a list of minimized modeless dialogs and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
 -   **Request Information**: The agent requests information from the customer. Selecting this action moves the case state to Awaiting Information.
 -   **Information Received**: The agent acknowledges that information was received from the customer. Selecting this action moves the case state to Work in Progress.
--   **Discuss**: starts a Sidebar discussion. For more information about using the Sidebar feature, see .
+-   **Discuss**: starts a Sidebar discussion. For more information about using the Sidebar feature, see [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/exploring-sidebar.md).
 -   **Compose**: Compose comments, work notes, and emails in modeless dialogs.
 -   **Save**: Saves changes to the case record.
 -   **Accept Solution**: The agent can accept the proposed solution on behalf of the customer. Moves the case to Closed.

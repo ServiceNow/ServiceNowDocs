@@ -16,7 +16,7 @@ breadcrumb: [Incident Management in Service Operations Workspace reference, Inci
 
 Several types of components are installed with activation of the Agent Client Collector for Investigation \(sn\_acc\_adapter\) application, including user roles and ServiceNow Store applications.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -98,7 +98,7 @@ Action Configuration\[sn\_acc\_action\_config\]
 List of action configurations applicable to CI.
 
 </td></tr></tbody>
-</table>**Note:** Deny unless ACLs are added to all the tables. The Deny unless ACLs restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the mentioned applications, such as reading, writing, deleting, creating, or accessing the report view. For more information on Deny-Unless ACLs and enhanced security model adoption features, see  and [Features of enhanced security model adoption for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md).
+</table>**Note:** Deny unless ACLs are added to all the tables. The Deny unless ACLs restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the mentioned applications, such as reading, writing, deleting, creating, or accessing the report view. For more information on Deny-Unless ACLs and enhanced security model adoption features, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/acl-denial-behavior.md) and [Features of enhanced security model adoption for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md).
 
 ## Store applications installed
 

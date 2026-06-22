@@ -54,5 +54,5 @@ Role required: admin or sn\_sec\_cmn.write
 **Related topics**  
 
 
-[bundle-platux.t_EditingSavedFilters]
+[Create and edit filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_EditingSavedFilters.md)
 

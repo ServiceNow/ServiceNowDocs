@@ -50,15 +50,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d86486e172">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d86219e172">
 
 Option
 
-</th><th align="left" id="d86486e175">
+</th><th align="left" id="d86219e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d86486e181">
+</th></tr></thead><tbody><tr><td id="d86219e181">
 
 **As an assignee**
 
@@ -68,7 +68,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d86486e202">
+</td></tr><tr><td id="d86219e202">
 
 **As a collaborator**
 
@@ -103,15 +103,15 @@ Steps
 
     **Note:** You can add signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks
 
-<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d86486e342">
+<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d86219e342">
 
 Option
 
-</th><th align="left" id="d86486e345">
+</th><th align="left" id="d86219e345">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d86486e351">
+</th></tr></thead><tbody><tr><td id="d86219e351">
 
 **Internal**
 
@@ -125,7 +125,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d86486e392">
+</td></tr><tr><td id="d86219e392">
 
 **External**
 
@@ -211,7 +211,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 
         **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
-        For more information, see Communicating via email.
+        For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/using-email.md).
 
     7.  Either send the email immediately or indicate that it should be sent later.
 

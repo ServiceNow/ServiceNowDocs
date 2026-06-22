@@ -20,5 +20,5 @@ When launching a mobile application for the first time, European users are promp
 
 All users can enable/disable tracking in the mobile application at **Settings** &gt; **Analytics** &gt; **Enable Analytics**.
 
-For detail on how an administrator can configure and track analytics for mobile, see User Experience Analytics.
+For detail on how an administrator can configure and track analytics for mobile, see [User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md).
 

@@ -19,5 +19,5 @@ Within the Mobile SDK, when writing data to a ServiceNow instance through a REST
 You configure field write options using the [FieldWriteOptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/FieldWriteOptionsAndroidAPI.md) API. This interface enables you to configure:
 
 -   Whether to suppress automatic generation of system fields.
--   Whether to set field values using their display valuedisplay value rather than their actual value.
+-   Whether to set field values using their [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md)[display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md) rather than their actual value.
 

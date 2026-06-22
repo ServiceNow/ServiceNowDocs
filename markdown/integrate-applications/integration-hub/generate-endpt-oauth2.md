@@ -24,10 +24,10 @@ Subscription required: This feature requires an Integration Hub subscription. Fo
 
 Ensure that you've installed the required spoke plugin.
 
-Ensure that you have created an OAuth application endpoint for the external client applications to access the ServiceNow instance. For more information about creating an inbound OAuth application endpoint, see .
+Ensure that you have created an OAuth application endpoint for the external client applications to access the ServiceNow instance. For more information about creating an inbound OAuth application endpoint, see [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/oauth-inbound.md).
 
--   If you want to create an OAuth application endpoint for external client applications to access the ServiceNow instance, see .
--   If you want to create an OAuth JWT API endpoint for external clients to access the ServiceNow instance, see .
+-   If you want to create an OAuth application endpoint for external client applications to access the ServiceNow instance, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
+-   If you want to create an OAuth JWT API endpoint for external clients to access the ServiceNow instance, see [Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/create-jwt-endpoint.md).
 
 **Parent Topic:**[Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/set-up-external-webhook-endpoints.md)
 

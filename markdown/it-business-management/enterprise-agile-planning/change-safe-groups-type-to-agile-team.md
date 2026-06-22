@@ -34,7 +34,7 @@ Update Team type for SAFe groups.
 
 4.  If the **Type** field is not visible, configure the form layout of the Default view to include it.
 
-    For information on configuring the form layout, see .
+    For information on configuring the form layout, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
 
 5.  Add the value of **Agile Team** to the **Type** field.
 

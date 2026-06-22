@@ -58,7 +58,7 @@ Key Features of process mining include:
 
 For more information about enabling the Process Mining content pack, see the following topics:
 
--   Activate Process Mining Content Packs.
+-   [Activate Process Mining Content Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/po-content-pack.md).
 -   [Integrating with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/process-opt-csm.md).
 
 ## Workforce Optimization

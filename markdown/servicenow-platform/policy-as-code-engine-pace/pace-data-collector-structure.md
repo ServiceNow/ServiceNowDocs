@@ -22,7 +22,7 @@ When you create a data collector, you can add inputs and outputs in the Javascri
 
 \[Omitted image "pace-data-collector-add-output.jpg"\] Alt text: Add data collector output tab.
 
-To debug the data collector script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see .
+To debug the data collector script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see [Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/scriptdebugger-api.md).
 
 The following table lists the data collector function parameters and how they can be used in the script.
 

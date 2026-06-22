@@ -160,7 +160,7 @@ The role is in the Cloud Cost Management Core plugin.
 **Related topics**  
 
 
-[bundle-platadm.t_AssignRoleToGroup]
+[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
 
-[bundle-platadm.t_AssignARoleToAUser]
+[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
 

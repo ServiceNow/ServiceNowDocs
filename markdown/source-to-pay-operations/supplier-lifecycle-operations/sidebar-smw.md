@@ -18,11 +18,11 @@ Sidebar enables stakeholders to collaborate with others by getting into discussi
 
 You can start a Sidebar discussion by selecting **Discuss** on a supplier case in the Source-to-Pay Workspace. Other stakeholders are notified when you add them to a discussion. They can join the discussion by selecting the Sidebar discussions icon \(\[Omitted image "sidebar-chat-icon.png"\] Alt text: Sidebar chat icon.\).
 
-For more information on what Sidebar is, see .
+For more information on what Sidebar is, see [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/sidebar-landing.md).
 
-To learn more about how to use Sidebar, see .
+To learn more about how to use Sidebar, see [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/using-sidebar.md).
 
-For information on activity stream in Sidebar is, see .
+For information on activity stream in Sidebar is, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/activity-stream-sidebar.md).
 
 **Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

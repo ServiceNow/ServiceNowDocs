@@ -32,7 +32,7 @@ Role required: admin
 
 ### About this task
 
-For more information about client credentials grant type, see .
+For more information about client credentials grant type, see [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/client-credentials.md).
 
 ### Procedure
 
@@ -87,7 +87,7 @@ OAuth Application User
 
 </td><td>
 
-User role to which the OAuth token flow is mapped.**Important:** By default, this field is not displayed on the Application Registries form. Configure the form layout to see the field on the form. For information about configuring the form layout, see .
+User role to which the OAuth token flow is mapped.**Important:** By default, this field is not displayed on the Application Registries form. Configure the form layout to see the field on the form. For information about configuring the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
 
 </td></tr></tbody>
 </table>5.  Right-click the form header and click **Save**.

@@ -67,7 +67,7 @@ There are four action topics linked to Journey designer provided in the base sys
 -   \_approve\_le\_approval\_activity - Approve the request assigned as a part of the journey.
 -   \_reject\_le\_approval\_activity - Reject the request assigned as a part of the journey.
 
-You can also associate other actions with the notifications. For more information, see .
+You can also associate other actions with the notifications. For more information, see [Add actions to the notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/noti-select-provider-actions-order.md).
 
 **Parent Topic:**[Integrations for Journey designer app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

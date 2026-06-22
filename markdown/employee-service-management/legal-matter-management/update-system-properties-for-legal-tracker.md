@@ -18,7 +18,7 @@ Update the system properties to generate the URL specific to External Matter tha
 
 ## Before you begin
 
-Ensure you have installed and activated Legal Tracker spoke. For more information, see Legal Tracker.
+Ensure you have installed and activated Legal Tracker spoke. For more information, see [Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/legal-tracker-spoke.md).
 
 Role required: admin
 

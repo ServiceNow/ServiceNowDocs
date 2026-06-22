@@ -52,7 +52,7 @@ Use column configuration when you want to provide custom descriptions, add usage
 
 ## Result
 
-The custom column configuration is active and will be used by Query Generation when processing queries that involve this column. Because this customization is stored in the Semantic Column Configuration table, it can be included in an update set and transferred to other instances. For more information, see .
+The custom column configuration is active and will be used by Query Generation when processing queries that involve this column. Because this customization is stored in the Semantic Column Configuration table, it can be included in an update set and transferred to other instances. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md).
 
 ## Column configurations
 

@@ -35,7 +35,7 @@ The Transform Mapping Assist skill is designed to do the following:
 
 2.  Click **New** and create a simple transform.
 
-    See  for instructions. The Now Assist for TMT Transform Assist Mapping can be used only with simple transforms.
+    See [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-create-transform.md) for instructions. The Now Assist for TMT Transform Assist Mapping can be used only with simple transforms.
 
 3.  Select the provider and consumer tables and the related fields.
 

@@ -25,7 +25,7 @@ The following video walks you through the process of configuring Microsoft Word 
 
 ## Before you begin
 
-Ensure that the Global application for the Content-Security-Policy response header is inactive and the Microsoft Word Add-in for ServiceNow Contracts application is active. For more information, see .
+Ensure that the Global application for the Content-Security-Policy response header is inactive and the Microsoft Word Add-in for ServiceNow Contracts application is active. For more information, see [Configure HTTP response headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/configure-http-response-header.md).
 
 Role required: admin
 
@@ -64,15 +64,15 @@ Role required: admin
 
 6.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d70470e277">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d70202e278">
 
 System
 
-</th><th align="left" id="d70470e280">
+</th><th align="left" id="d70202e281">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d70470e286">
+</th></tr></thead><tbody><tr><td id="d70202e287">
 
 **macOS**
 
@@ -86,7 +86,7 @@ Steps
 6.  Navigate to the menu **Home**.
  **Note:** To connect to multiple instances using the Microsoft Word add-in, add the corresponding manifest files to the `wef` folder in your system and ensure that each manifest file contains a unique ID.
 
-</td></tr><tr><td id="d70470e351">
+</td></tr><tr><td id="d70202e352">
 
 **Windows**
 
@@ -103,7 +103,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d70470e410">
+</td></tr><tr><td id="d70202e411">
 
 **Microsoft Word Online**
 

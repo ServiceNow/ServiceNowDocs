@@ -96,7 +96,7 @@ Default Retry Policy
 
 </td><td>
 
-Retry policy for the alias. For more information, see Retry policy.
+Retry policy for the alias. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/retry-policy.md).
 
 </td></tr><tr><td>
 

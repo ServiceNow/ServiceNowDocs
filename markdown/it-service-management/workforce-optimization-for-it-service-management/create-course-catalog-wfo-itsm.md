@@ -34,7 +34,7 @@ Role required: sn\_wfo\_cfg\_itsm.admin
 
 6.  Create a course catalog.
 
-    For more information, see Create a course catalog.
+    For more information, see [Create a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/learning-core/create-course-catalog.md).
 
 
 **Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)

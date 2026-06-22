@@ -56,7 +56,7 @@ Activate the remote tables plugin
 
 </td><td>
 
-The remote tables plugin must be enabled for the ServiceNow instance to support remote tables. For more information, see .
+The remote tables plugin must be enabled for the ServiceNow instance to support remote tables. For more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/activate-remote-tables-plugin.md).
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ Display remote transactions for locally stored financial account
 
 </td><td>
 
-You can choose to keep information that changes frequently in remote tables \(such as transactions\) while storing other data that doesn't change in local tables.For instance, you can display transactions for a persisted bank account as a related list where all transactional data remains in an external system. For more information, see .
+You can choose to keep information that changes frequently in remote tables \(such as transactions\) while storing other data that doesn't change in local tables.For instance, you can display transactions for a persisted bank account as a related list where all transactional data remains in an external system. For more information, see [Create defined related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_CreateDefinedRelatedLists.md).
 
 When creating the relationship, specify the remote table as the **Queries from table** value. Use a function in the **Query with** field to define the relationship between the transactions and account.
 

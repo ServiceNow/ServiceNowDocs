@@ -47,5 +47,5 @@ If an agent or requester enters a link during an Agent Chat conversation, the li
 
 ## Cross-channel conversation history and cross-channel message-level sentiment
 
-Agents can see cross-channel conversation history and cross-channel message-level sentiment in real time when an agent is having a live conversation with a requester in the chat panel in Agent Chat. For more information, see .
+Agents can see cross-channel conversation history and cross-channel message-level sentiment in real time when an agent is having a live conversation with a requester in the chat panel in Agent Chat. For more information, see [Getting work from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/live-agent-overview.md).
 

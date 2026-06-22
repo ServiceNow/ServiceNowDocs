@@ -80,7 +80,7 @@ Pull attachments. Please configure MID Server if you want to pull the attachment
 
 </td><td>
 
-Option to pull cases along with the attachments from Navex EthicsPoint instance into ServiceNow instance.To use this feature, you must enable the MID Server. For more information, see 
+Option to pull cases along with the attachments from Navex EthicsPoint instance into ServiceNow instance.To use this feature, you must enable the MID Server. For more information, see [Configure MID Server network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_MIDServerConnectionPrerequisites.md)
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Pull the attachments from the case file. \(Make sure that the mid server is on, 
 
 </td><td>
 
-Option to provide the **Sync attachments** button on cases that are that are already pulled from Navex EthicsPoint instance into ServiceNow instance. The **Sync attachments** button can be used to pull attachments of cases at a later point in time.To use this feature, you must enable the MID Server. For more information, see 
+Option to provide the **Sync attachments** button on cases that are that are already pulled from Navex EthicsPoint instance into ServiceNow instance. The **Sync attachments** button can be used to pull attachments of cases at a later point in time.To use this feature, you must enable the MID Server. For more information, see [Configure MID Server network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_MIDServerConnectionPrerequisites.md)
 
 </td></tr></tbody>
 </table>3.  Click **Save**.

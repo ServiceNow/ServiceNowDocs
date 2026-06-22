@@ -51,11 +51,11 @@ The stakeholders are notified when you add them to a discussion. They can join t
 
 ## What to do next
 
-For more information on the sidebar, see .
+For more information on the sidebar, see [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/sidebar-landing.md).
 
-To learn more about using the sidebar, see .
+To learn more about using the sidebar, see [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/using-sidebar.md).
 
-For information on the activity stream in the sidebar is, see .
+For information on the activity stream in the sidebar is, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/activity-stream-sidebar.md).
 
 **Parent Topic:**[Use the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

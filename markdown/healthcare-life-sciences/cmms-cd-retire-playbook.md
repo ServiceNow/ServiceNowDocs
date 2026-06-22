@@ -18,7 +18,7 @@ Use the playbook available with the Healthcare Computerized Maintenance Manageme
 
 To use maintenance and servicing workflows or inventory and management workflows, please see [Clinical Device Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/clinical-device-mgmt-overview.md).
 
-The playbook experience provides fulfillers with visibility into cross-business workflows and the actionable activities used to complete these workflows. When the playbook experience is activated with Workspace in Healthcare CMMS, the **Playbook** tab appears for a medical device out-of-service case. For more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience provides fulfillers with visibility into cross-business workflows and the actionable activities used to complete these workflows. When the playbook experience is activated with Workspace in Healthcare CMMS, the **Playbook** tab appears for a medical device out-of-service case. For more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 As a clinical engineer with the sn\_hcls\_cmms.clinical\_engineer role, you can use the Healthcare CMMS playbook to complete all out-of-service activities for a medical device. You can access the **Playbook** tab on your Workspace when a medical device out-of-service case is assigned to you. The Healthcare CMMS workflow populates the case data for all launched activities on the **Playbook** tab. You can select a stage in the playbook to complete the activities associated with the stage.
 

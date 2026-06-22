@@ -8,7 +8,7 @@ product: AI Search
 classification: ai-search
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 16
+reading_time_minutes: 17
 keywords: [AI, Search, admin, console, applications, prebuilt]
 breadcrumb: [AI Search Admin console reference, AI Search Admin console, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
@@ -92,7 +92,7 @@ When you select an application's card in the Applications page, the application'
 
 \[Omitted image "ais-admin-02b.png"\] Alt text: AI Search Admin Console Employee Center application configuration summary view. The application's Current Status and Search Profile sections respectively show the AI Search and profile publication status.
 
-**Note:** The Applications view varies if you select a Search Profile with Genius Results activated. For more information, see Genius Results in 
+**Note:** The Applications view varies if you select a Search Profile with Genius Results activated. For more information, see Genius Results in [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)
 
 <table id="table_szg_w5q_1cc"><thead><tr><th>
 
@@ -299,7 +299,7 @@ You use Search Sources to make your searchable content available in search exper
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of search sources.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see .|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/filter-conditions.md).|
 |New|Button to create a Search Source.|
 |Link|Button to select a Search Source to add to the list.|
 |Unlink|Button to unlink a Search Source from the list. Select one or more Search Sources from the list before selecting **Unlink**.|
@@ -312,7 +312,7 @@ Dictionaries are an optional part of your search profile that guide your searche
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of Dictionaries.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see .|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/filter-conditions.md).|
 |New|Button to create a Dictionary.|
 |Link|Button to select a Dictionary to add to the list.|
 |Unlink|Button to unlink a Dictionary from the list. Select one or more Dictionaries from the list before selecting **Unlink**.|
@@ -325,7 +325,7 @@ Result improvement rules are an optional part of the search profile that boost, 
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of result improvement rules.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see .|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/filter-conditions.md).|
 |New|Button to create a result improvement rule.|
 |Link|Button to select a result improvement rule to add to the list.|
 |Unlink|Button to unlink a Result improvement rule from the list. Select one or more result improvement rules from the list before selecting **Unlink**.|
@@ -395,7 +395,7 @@ Toggle to use natural language processing to show information from tables, inclu
 |Use basic configuration|Select to switch to basic configuration.|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of Genius Results.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see .|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/filter-conditions.md).|
 |New|Button to create a Genius Result.|
 |Link|Button to select a Genius Result to add to the list.|
 |Unlink|Button to unlink a Genius Result from the list. Select one or more Genius Results from the list before selecting **Unlink**.|
@@ -419,7 +419,7 @@ Auto-complete Suggestions are an optional part of your search application config
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of auto-complete suggestions.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see .|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/filter-conditions.md).|
 |New|Button to create a auto-complete suggestion.|
 |Link|Button to select an auto-complete suggestion to add to the list.|
 |Unlink|Button to unlink a auto-complete suggestion from the list. Select one or more auto-complete suggestions from the list before selecting **Unlink**.|
@@ -432,7 +432,7 @@ Navigation tabs are an optional part of your search application configuration th
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of Navigation tabs.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see .|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/filter-conditions.md).|
 
 Sort options are an optional part of your search application configuration that refine your search query results by search source. For more information, see [Configure source facet buckets in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/config-nav-tabs-ais.md).
 
@@ -442,7 +442,7 @@ Sort options are an optional part of your search application configuration that 
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of Sort options.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see .|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/filter-conditions.md).|
 |New|Button to create a Sort option.|
 |Delete|Button to delete Sort options. Select one or more Sort options before selecting **Delete**.|
 
@@ -454,11 +454,11 @@ Facet filters are an optional part of your search application configuration that
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of Facet Filters.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see .|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/filter-conditions.md).|
 |New|Button to create a Facet Filter.|
 |Delete|Button to delete Facet Filters. Select one or more Facet Filters before selecting **Delete**.|
 
-Result-card interfaces are an optional part of your search application configuration that provides a standardized display of search results in cards and lists. For more information, see  and .
+Result-card interfaces are an optional part of your search application configuration that provides a standardized display of search results in cards and lists. For more information, see [Exploring Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/entity-view-action-mapper-evam/exploring-entity-view-action-mapper.md) and [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md).
 
 \[Omitted image "ais-admin-02m.png"\] Alt text: AI Search Admin Console Result-card interface view.
 
@@ -466,7 +466,7 @@ Result-card interfaces are an optional part of your search application configura
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of result-card interfaces.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see .|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/filter-conditions.md).|
 |New|Button to create a result-card interface.|
 |Link|Button to select a result-card interface to add to the list.|
 |Unlink|Button to unlink a result-card interface from the list. Select one or more Navigation tabs from the list before selecting **Unlink**.|

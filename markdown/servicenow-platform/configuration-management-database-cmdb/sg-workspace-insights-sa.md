@@ -23,7 +23,7 @@ Access the CMDB success advisor insights dashboard in Service Graph Workspace to
 3.  On the Insights page navigation pane, select the &gt; icon to expand **CMDB success advisor**.
 4.  Select the dashboard for the outcome you want to monitor: **Data Foundations** or **Hardware Asset Management** \(**HAM**\).
 
-    **Note:** Each dashboard is available only when CMDB success advisor is installed and the setup process for that outcome is complete. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md) and .
+    **Note:** Each dashboard is available only when CMDB success advisor is installed and the setup process for that outcome is complete. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md) and [Set up CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
 
 
 Role required: sn\_cmdb\_admin

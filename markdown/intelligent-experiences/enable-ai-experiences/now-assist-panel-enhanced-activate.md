@@ -56,7 +56,7 @@ To learn more about the Now Assist panel, and how it can assist your agents, see
 For examples of the Now Assist panel in action for Now Assist applications, see the following topics:
 
 -   
--   
+-   [Summarize a Sidebar discussion by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-sidebar-discussion.md)
 -   
 -   
 

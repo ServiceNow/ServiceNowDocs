@@ -8,7 +8,7 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Configuring Interaction Management in Service Operations Workspace, Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -26,7 +26,7 @@ The ITSM voice interaction record page enables CCaaS providers to display native
 
 For more information about the integration with CCaaS providers, see the following topics:
 
--   
+-   [Interaction Controls Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/interaction-controls-component.md)
 -   [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
 
 ## Page structure
@@ -90,7 +90,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The ITSM voice interaction record page variant is inactive by default.The active setting combined with the page order determines the page that SOW uses to display record information. For more information, see .
+Enabling the **Active** check box makes the page variant available to the selected audience. The ITSM voice interaction record page variant is inactive by default.The active setting combined with the page order determines the page that SOW uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see the page variant. The CSM voice interaction record page does not have a defined audience.For more information, see Learn about audiences.
+The audience determines who can see the page variant. The CSM voice interaction record page does not have a defined audience.For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/add-audiences.md).
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -157,7 +157,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see Group and find records using tags in workspace.
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/setting-record-tags-agent-workspace.md).
 
 </td></tr><tr><td>
 
@@ -177,7 +177,7 @@ The action bar contains the actions available to users while working on phone in
 
 </td><td>
 
-The Interaction Controls Component enables CCaaS providers to display native voice integrations. Agents can then use the component to manage customer calls directly from their inbox.For more information, see .
+The Interaction Controls Component enables CCaaS providers to display native voice integrations. Agents can then use the component to manage customer calls directly from their inbox.For more information, see [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-native-voice-record-page.md#section_vx4_fzz_kdc).
 
 </td></tr><tr><td>
 
@@ -223,12 +223,12 @@ The CSM voice interaction record page with the ICC component is displayed when t
 
 For more information about the integration with CCaaS providers, see the following topics:
 
--   
+-   [Interaction Controls Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/interaction-controls-component.md)
 -   [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
 
 ## Customer History component
 
-The Customer History component appears below the Interaction Controls Component in the left panel. This component is included with the  plugin, which is activated as part of the SOW application.
+The Customer History component appears below the Interaction Controls Component in the left panel. This component is included with the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-central.md) plugin, which is activated as part of the SOW application.
 
 The Customer History component includes the **Customer** tab. This tab displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab also includes a search field, filter, and date range selector that agents can use to find specific information in the history.
 
@@ -308,7 +308,7 @@ The ITSM voice interaction record page supports actions from the following Custo
 -   Time Recording for Customer Service \(com.snc.csm\_time\_recording\)
 -   Omni-Experience Standard Feature Set
 
-If you are using any additional plugins, you need to add the actions from those plugins to the CSM voice interaction record page action bar. For more information, see the configuration steps in .
+If you are using any additional plugins, you need to add the actions from those plugins to the CSM voice interaction record page action bar. For more information, see the configuration steps in [Configure the Front-line case page action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/config-front-line-case-page-action-bar.md).
 
 ## Contextual side panel component
 
@@ -328,7 +328,7 @@ Recommended Actions
 
 </td><td>
 
-The Recommended Actions tab includes  functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the interaction short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Recommended Actions tab includes [AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the interaction short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 From the list of search results, agents can select a source to see search results of that type.
 
@@ -339,9 +339,9 @@ Depending on the source type, agents can do the following:
 -   Mark an article as helpful.
 -   Order a catalog item.
 
-For more information, see .
+For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the  application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Configuring Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 

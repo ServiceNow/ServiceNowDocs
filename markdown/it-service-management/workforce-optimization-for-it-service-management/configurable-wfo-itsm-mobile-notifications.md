@@ -107,5 +107,5 @@ Manager rejects your time-off request.
 **Related topics**  
 
 
-[bundle-platadm.user-notification-preferences]
+[Setting notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/user-notification-preferences.md)
 

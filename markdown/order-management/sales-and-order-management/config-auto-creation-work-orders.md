@@ -51,7 +51,7 @@ Customer Orders have multiple order line items that have multiple domain orders,
 
 ### Result
 
-A condition is added in the decision table. If this condition in the decision table is met, a work order is automatically created for a domain order. For more information on decision tables, see .
+A condition is added in the decision table. If this condition in the decision table is met, a work order is automatically created for a domain order. For more information on decision tables, see [Use decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/use-decision-tables.md).
 
 ## Configure work order creation for order task
 
@@ -86,5 +86,5 @@ For the automatic creation of work orders for order tasks, the conditions are de
 
 ### Result
 
-A condition is added in the decision table. If this condition in the decision tree is met, a work order is automatically created for an order task. For information, see .
+A condition is added in the decision table. If this condition in the decision tree is met, a work order is automatically created for an order task. For information, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/decision-builder-user-interface.md).
 

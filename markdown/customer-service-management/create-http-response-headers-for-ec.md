@@ -135,5 +135,5 @@ Detailed description for the HTTP response header.
 **Related topics**  
 
 
-[bundle-platcap.http-response-header]
+[HTTP Response Headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/http-response-header.md)
 

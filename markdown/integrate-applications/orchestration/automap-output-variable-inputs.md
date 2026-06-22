@@ -7,7 +7,7 @@ release: zurich
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -36,7 +36,7 @@ Role required: admin
 
 4.  Select an auto-mapping option.
 
-<table id="choicetable_wkc_2t4_sz"><tbody><tr><td id="d177024e110">
+<table id="choicetable_wkc_2t4_sz"><tbody><tr><td id="d172139e110">
 
 **Auto-Map to Local**
 
@@ -48,7 +48,7 @@ Translates the entire payload into a JSON object and places it in the data bus. 
 -   eccSysId
 
 
-</td></tr><tr><td id="d177024e134">
+</td></tr><tr><td id="d172139e134">
 
 **Auto-Map to Output**
 

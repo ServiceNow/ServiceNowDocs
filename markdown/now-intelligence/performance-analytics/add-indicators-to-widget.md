@@ -175,7 +175,7 @@ To edit any of these settings later, go to the **Widget Indicators** list and cl
 **Related topics**  
 
 
-[bundle-platux.c_RelatedLists]
+[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_RelatedLists.md)
 
 [KB0724552: How to Add Secondary Indicators to a Time Series or List Widget](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0724552)
 

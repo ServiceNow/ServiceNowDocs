@@ -47,7 +47,7 @@ An implementation is available in the base system for scripted extension points.
 
 3.  On the Extension Point form, select a script include to use the `CreateDevicesForOnboardCase` extension point by creating and registering a custom script include.
 
-    You can refer to the CreateDevicesForOnboardCase script include provided with the application to create a custom script include to set the medical device in-service cases. For more information, see .
+    You can refer to the CreateDevicesForOnboardCase script include provided with the application to create a custom script include to set the medical device in-service cases. For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/impl-scripted-ext-pts-custom-code.md).
 
 4.  Customize the submission workflow logic of your medical device in-service request form by adding the `createDevices`,`checkForDuplicateDevices`, `checkForDuplicateDevicesForNewModel`, `associateToExistingModel`, `createModel`, `createInspectionWorkOrders`, `installDevices`, and `cancelDevices` methods to your script include that implements the `CreateDevicesForOnboardCase` extension point.
 

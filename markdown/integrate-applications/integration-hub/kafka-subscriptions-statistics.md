@@ -247,7 +247,7 @@ Average number of records remaining to be processed in the partition group.
 
 The Stream Connect Logs tab displays the log entries for the associated consumer. Each log entry shows when it was created; its level, message, and source; and links to any related Alert or Subscription records. Stream Connect logs are stored in the Stream Connect Logs \[sys\_consumer\_log\] table.
 
-You can enable more detailed logging in the Stream Connect logs by adding the system property **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
+You can enable more detailed logging in the Stream Connect logs by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
 
 ## Kafka consumer statistics
 

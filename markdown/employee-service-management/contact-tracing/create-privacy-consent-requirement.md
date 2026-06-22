@@ -19,7 +19,7 @@ Create a requirement for your employees to respond to the privacy consent reques
 ## Before you begin
 
 -   Requirements are available in the ServiceNow® Employee Readiness Core application, which must be installed.
--   Privacy Consent requirement is built with ServiceNow® Workflow Studio, so make sure you're familiar with the Flow Designer basics.
+-   Privacy Consent requirement is built with ServiceNow® Workflow Studio, so make sure you're familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md) basics.
 
 Role required: sn\_imt\_core.admin
 

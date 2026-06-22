@@ -30,6 +30,6 @@ You can drag several things from within an instance, including items from the ap
 
     To drag a record from a list, drag the reference icon \(\[Omitted image "IconReferenceUI15.png"\] Alt text: Reference icon\), the record number, or a reference column value.
 
-    Connect accepts the same file extensions as the platform. For more information, see Add and manage attachments.
+    Connect accepts the same file extensions as the platform. For more information, see [Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_AddingAnAttachment.md).
 
 

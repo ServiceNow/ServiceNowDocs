@@ -41,11 +41,11 @@ Application developers must select an application as their current scope context
 
 ## What to do next
 
-The application picker is part of the Next Experience picker. For more information, see .
+The application picker is part of the Next Experience picker. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-pickers.md).
 
-For more information about application scoping, see .
+For more information about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationScope.md).
 
-For more information about selecting update sets, see .
+For more information about selecting update sets, see [Select the current update set in Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/select-update-set-system-settings.md).
 
 **Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/using-legacy-application-manager.md)
 

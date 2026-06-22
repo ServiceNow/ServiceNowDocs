@@ -26,15 +26,15 @@ Role required: sn\_ins\_claim\_indl.dbn\_adjuster
 
 2.  Open a claim from either the adjuster landing page or from the individual death claims list.
 
-<table id="choicetable_r5p_qc5_pbc"><thead><tr><th align="left" id="d108150e80">
+<table id="choicetable_r5p_qc5_pbc"><thead><tr><th align="left" id="d107943e80">
 
 Option
 
-</th><th align="left" id="d108150e83">
+</th><th align="left" id="d107943e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d108150e89">
+</th></tr></thead><tbody><tr><td id="d107943e89">
 
 **From the adjuster landing page**
 
@@ -42,7 +42,7 @@ Steps
 
 Open a claim that is assigned to you by selecting the **Number** link in the My active cases section.
 
-</td></tr><tr><td id="d108150e101">
+</td></tr><tr><td id="d107943e101">
 
 **From the Individual death claims list**
 
@@ -56,15 +56,15 @@ Open a claim that is assigned to you by selecting the **Number** link in the My 
 </td></tr></tbody>
 </table>3.  Complete the actions in the **claim workspace**.
 
-<table id="choicetable_k4k_hd5_pbc"><thead><tr><th align="left" id="d108150e148">
+<table id="choicetable_k4k_hd5_pbc"><thead><tr><th align="left" id="d107943e148">
 
 Claim task
 
-</th><th align="left" id="d108150e151">
+</th><th align="left" id="d107943e151">
 
 Claim workspace actions
 
-</th></tr></thead><tbody><tr><td id="d108150e157">
+</th></tr></thead><tbody><tr><td id="d107943e157">
 
 **To verify a document**
 
@@ -74,7 +74,7 @@ Claim workspace actions
 2.  Select **Verify** to verify the documents, or select **Reject** to reject the submitted documents.
 
 
-</td></tr><tr><td id="d108150e181">
+</td></tr><tr><td id="d107943e181">
 
 **To add claim coverage**
 
@@ -86,7 +86,7 @@ Claim workspace actions
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d108150e220">
+</td></tr><tr><td id="d107943e220">
 
 **To add a reserve or payment**
 
@@ -101,7 +101,7 @@ Claim workspace actions
 5.  Review the details, and then select **Submit**.
 
 
-</td></tr><tr><td id="d108150e269">
+</td></tr><tr><td id="d107943e269">
 
 **To add an ad-hoc claim task**
 
@@ -112,7 +112,7 @@ Claim workspace actions
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d108150e297">
+</td></tr><tr><td id="d107943e297">
 
 **To submit a reserve or payment amount for approval**
 
@@ -120,7 +120,7 @@ Claim workspace actions
 
 If the reserve or payment amount is above your approval threshold, an approval task is created and assigned to your manager when you submit the amount.
 
-</td></tr><tr><td id="d108150e309">
+</td></tr><tr><td id="d107943e309">
 
 **To submit a claim settlement decision**
 

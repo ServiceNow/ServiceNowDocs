@@ -18,7 +18,7 @@ Set up notifications for new Health Log Analytics anomaly alerts in a Microsoft 
 
 ## Before you begin
 
-Starting with Version 33.0.27 - August 2024, Health Log Analytics uses the Microsoft Teams Graph spoke application to send notifications on new anomaly alerts. For more information, see . If you're using an HLA version earlier than 33.0.27, refer to the setup procedure in [Set up Health Log Analytics alert notifications in channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-notifications-in-channel.md).
+Starting with Version 33.0.27 - August 2024, Health Log Analytics uses the Microsoft Teams Graph spoke application to send notifications on new anomaly alerts. For more information, see [Microsoft Teams Graph Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/msteams-spoke.md). If you're using an HLA version earlier than 33.0.27, refer to the setup procedure in [Set up Health Log Analytics alert notifications in channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-notifications-in-channel.md).
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
@@ -28,7 +28,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 2.  Set up the Microsoft Teams Graph spoke.
 
-    For instructions, see: .
+    For instructions, see: [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/set-up-msteams.md).
 
 3.  Activate the Health Log Analytics Alert Management rule for submitting alerts to the Microsoft Teams channel.
 

@@ -18,7 +18,7 @@ When the session language is a right-to-left language, the direction of the port
 
 ## Before you begin
 
-Understand how the UI works for a right-to-left language, see CSS for right-to-left languages in portals.
+Understand how the UI works for a right-to-left language, see [CSS for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/css-directives-right-to-left-languages.md).
 
 Role required: sp\_admin or admin
 

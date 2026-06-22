@@ -24,7 +24,7 @@ Role required: admin
 
 If you're assigned a Knowledge Management role, you can use the Operational Technology Knowledge Management capabilities.
 
-**Note:** The user criteria determine the access to knowledge articles. For more information, see .
+**Note:** The user criteria determine the access to knowledge articles. For more information, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md).
 
 For more information about the Knowledge Management roles applicable to Operational Technology Knowledge Management, see [Operational Technology Knowledge Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-roles.md).
 
@@ -34,8 +34,8 @@ For more information about the Knowledge Management roles applicable to Operatio
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See Assign a role to a user.|
-    |**Assign a role to a group**|See Assign a role to a group.|
+    |**Assign a role to a user**|See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).|
+    |**Assign a role to a group**|See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).|
 
 
 **Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)

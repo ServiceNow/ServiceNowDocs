@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2025-11-04"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Contract summarization, Summarize contract, Ask Now Assist]
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -19,9 +19,9 @@ Generate summaries, frequently asked questions \(FAQs\), or ask questions to ret
 
 ## Before you begin
 
--   The smart documents skill must be activated. For more information, see .
+-   The smart documents skill must be activated. For more information, see [Configure the Smart Documents Skill for Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/configure-skill-smart-documents.md).
 -   Your role and relevant tables must be configured to use this feature. For more information, see [Configuring contract summarization for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.md).
--   The Now Assist panel must be enabled. For more information, see .
+-   The Now Assist panel must be enabled. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 -   Role required: sn\_cm\_core.contract\_fulfiller
 
 ## About this task
@@ -80,7 +80,7 @@ Workspace used by your application
 
     \[Omitted image "cmpro-summary-nap.png"\] Alt text: Now Assist panel displaying options to summarize the document, generate FAQs, and ask questions.
 
-    For more information on using Now Assist for generating summaries, see  and .
+    For more information on using Now Assist for generating summaries, see [Generate a document summary by using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/generate-document-summary-now-assist.md) and [Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/ask-questions-faqs-now-assist.md).
 
     You can also summarize supporting documents and signed contracts using Ask Now Assist in the document viewer.
 

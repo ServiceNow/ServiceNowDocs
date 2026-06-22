@@ -23,7 +23,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Confirm that the application scope for the custom model exists on the instance to which you're importing it.
 
-The **glide.attachment.extensions** system property restricts the file types that can be downloaded. This property is empty by default. Check that the XML file extension hasn't been added to this property. For more information, see .
+The **glide.attachment.extensions** system property restricts the file types that can be downloaded. This property is empty by default. Check that the XML file extension hasn't been added to this property. For more information, see [Restrict attachment file extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_DisablingTheDragAndDropFeature.md).
 
 ## About this task
 
@@ -64,7 +64,7 @@ Note the following rules when exporting and importing custom ERP models:
 
 6.  Open the instance to which you're importing the custom model.
 
-    The following steps use update sets. For general information, see .
+    The following steps use update sets. For general information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md).
 
     1.  Navigate to **All** &gt; **System Update Sets** &gt; **Retrieved Update Sets**.
 
@@ -82,13 +82,13 @@ Note the following rules when exporting and importing custom ERP models:
 
     6.  Select **Preview Update Set** and check for any errors, such as a collision.
 
-        For detailed information about previewing and resolving issues, see .
+        For detailed information about previewing and resolving issues, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md).
 
     7.  When you're finished previewing and have resolved any errors, select **Close**.
 
     8.  Select **Commit update set** to create a local copy.
 
-        For detailed information about the update set commit process, see .
+        For detailed information about the update set commit process, see [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md).
 
     9.  When the local copy is created, select **Close**.
 

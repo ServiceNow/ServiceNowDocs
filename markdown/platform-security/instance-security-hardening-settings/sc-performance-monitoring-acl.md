@@ -39,7 +39,7 @@ Without enabling this setting, it is still possible to access these resources fr
 |Functional impact|This remediation enforces only administrator account to get access to the application sensitive data for logging and troubleshooting purposes.|
 |Security risk|\(Moderate\) Sensitive data such as server details, threads, and processes executed on the server should never be visible or accessible to the end user without appropriate privileges.|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

@@ -20,7 +20,7 @@ The Generative AI -Virtual Agent Conversational Catalog Accelerator provides gui
 
 Generative AI – Virtual Agent Conversational Catalog assists Impact customers in identifying request catalog items that are compatible with the conversational catalog experience in their Virtual Agent. Includes interactions with ServiceNow Impact Platform Architect and personalized content.
 
-Refer to  for additional information.
+Refer to [Catalog Conversational Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/using-catalog-conversational-experience.md) for additional information.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 
@@ -145,7 +145,7 @@ Include if customer is using a 3rd party development partner, and that partner i
 Install the following in advance:
 
 -   [AI Search](https://www.servicenow.com/docs/access?version=latest&topicname=administer/ai-search/concept/overview-ais.html), and ideally, [Now Assist in AI Search](https://www.servicenow.com/docs/access?version=latest&topicname=administer/ai-search/concept/overview-ais.html)
--   [Virtual Agent \(NLU\)](https://www.servicenow.com/docs/access?version=latest&topicname=administer/virtual-agent/concept/virtual-agent-landing-page.html) or 
+-   [Virtual Agent \(NLU\)](https://www.servicenow.com/docs/access?version=latest&topicname=administer/virtual-agent/concept/virtual-agent-landing-page.html) or [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)
 -   [Conversational catalog overview dashboard](https://www.servicenow.com/docs/access?version=latest&topicname=product/service-catalog-management/concept/using-catalog-conversational-experience.html)
 
     **Note:** If you've installed Now Assist for conversation request submission plugin, you get the Catalog Conversational Experience plugin \(sn\_catalog\_con\_cov\) by default.

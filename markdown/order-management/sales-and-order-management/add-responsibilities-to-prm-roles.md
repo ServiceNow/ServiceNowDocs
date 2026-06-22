@@ -7,7 +7,7 @@ release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [PRM roles and components, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -38,15 +38,15 @@ Related party configurations define the title of a relationship between an entit
 
 2.  Open a channel partner record and add an external staff member or an enterprise partner relationship manager based on your requirement.
 
-<table id="choicetable_y1y_n4r_dfc"><thead><tr><th align="left" id="d62446e124">
+<table id="choicetable_y1y_n4r_dfc"><thead><tr><th align="left" id="d62510e124">
 
 Task
 
-</th><th align="left" id="d62446e127">
+</th><th align="left" id="d62510e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62446e133">
+</th></tr></thead><tbody><tr><td id="d62510e133">
 
 **Register External staff member**
 
@@ -57,7 +57,7 @@ Description
 3.  Select **Submit**.
  To learn more about the role type and the member registration fields, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/member-registration-form.md).
 
-</td></tr><tr><td id="d62446e173">
+</td></tr><tr><td id="d62510e173">
 
 **Register Enterprise Partner Relationship Manager**
 

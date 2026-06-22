@@ -29,7 +29,7 @@ Role required: scim\_admin
 
 ## Procedure
 
-1.  Follow the instructions in Create Extract Transform Load \(ETL\) definitions.
+1.  Follow the instructions in [Create Extract Transform Load \(ETL\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/create-etl-definitions.md).
 
 2.  Open the newly created record and view the details.
 
@@ -213,5 +213,5 @@ These ETL definitions and mappings enable you to extract data from a source tabl
 **Related topics**  
 
 
-[bundle-crint.create-etl-definitions]
+[Create Extract Transform Load \(ETL\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/create-etl-definitions.md)
 

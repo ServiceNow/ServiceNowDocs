@@ -60,7 +60,7 @@ Role required: admin
 
     -   When to send: Specifies what must occur to send the email notification. In this example, once the threshold you previously set is reached, the email is triggered.
     -   Who will receive: Specifies which users receive the notification. You can add users and groups.
-    -   What it will contain: Specifies the script action that a user can modify to customize the message that users and the group will receive. To learn more about creating script actions, see .
+    -   What it will contain: Specifies the script action that a user can modify to customize the message that users and the group will receive. To learn more about creating script actions, see [Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/system-events/r_ScriptActions.md).
 
 **Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/sc-metrics.md)
 

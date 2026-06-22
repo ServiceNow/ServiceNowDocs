@@ -49,7 +49,7 @@ The summary displays in the case summary panel once generated. Users can give fe
 
 **Note:** UI Builder can be used to configure the placement of the Case Summary panel within the HCLS case form. For more information, see .
 
-For more information on using this capability, see .
+For more information on using this capability, see [Summarize a case by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-case.md).
 
-For information on how to configure Now Assist to use the case summarixation skill, see .
+For information on how to configure Now Assist to use the case summarixation skill, see [Configuring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 

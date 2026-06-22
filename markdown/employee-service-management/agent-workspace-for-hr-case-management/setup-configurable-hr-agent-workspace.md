@@ -25,7 +25,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Communication channels and routing.
     -   Additional components and settings that are specific to HR Service Delivery.
     -   Forms in workspace. See [Customize fields in a form in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/form-builder-aws.md).
-    -   Workspace setup. See .
+    -   Workspace setup. See [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_set-up-configurable-workspace.md).
 
 ## Roles installed
 
@@ -51,7 +51,7 @@ HR manager \[sn\_hr\_core.manager\]
 
 Grants access to all HR cases, profiles, and secure information.With this role, you can manage Agent Workspace for HR Case Management lists and categories.
 
- This role contains the Workspace List Admin, which is an elevated role. For more information on elevated roles, see Elevated privilege roles.
+ This role contains the Workspace List Admin, which is an elevated role. For more information on elevated roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_ElevatedPrivilege.md).
 
  The Workspace user \[workspace\_user\] role allows you to access Agent Workspace for HR Case Management and create and access interactions.
 

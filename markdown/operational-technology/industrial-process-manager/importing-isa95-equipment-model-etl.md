@@ -48,7 +48,7 @@ The following system properties affect how you populate your Microsoft Excel spr
     Sets the maximum size of an Excel file, expressed in bytes. This property is global.
 
 
-**Note:** To learn more about adding or creating system properties to control system behavior, see Add a system property.
+**Note:** To learn more about adding or creating system properties to control system behavior, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 -   **[Populating your Microsoft Excel spreadsheet with equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/populate-excel-spreadsheet-with-isa-equipment-model-data.md)**  
 Create and populate a Microsoft Excel spreadsheet with your existing ISA equipment model data. Positioning your existing data in the correct columns is crucial to the success of your upload.

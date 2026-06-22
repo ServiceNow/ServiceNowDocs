@@ -18,7 +18,7 @@ Request the contextual generative AI capabilities by using the conversational in
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For more information, see .
+Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 

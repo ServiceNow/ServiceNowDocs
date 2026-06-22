@@ -40,12 +40,12 @@ Zurich Patch 2 includes fixes for security-related problems that affected certai
 
 ## Changes in Zurich Patch 2
 
--   ****
--   ****
+-   **[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)**
+-   **[Discover datacenters only for new cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery-and-service-mapping-patterns/discover-datacenter-only-new-account.md)**
 
     If you have multiple cloud accounts and datacenters in AWS and Azure, you can discover datacenters for new cloud accounts only, instead of refreshing the entire list.
 
--   ****
+-   **[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)**
 
 ## Notable fixes
 

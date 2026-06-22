@@ -268,7 +268,7 @@ Script
 
 </td><td>
 
-Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the script editor tools.
+Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the [script editor tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_SyntaxEditor.md).
 
 Ensure that the custom script includes:Run the monitor function, which is called according to the "monitoring job frequency” setting **runUpdateHealthMonitorScripts\(scriptId\)**. Add this function to run the monitoring logic.
 

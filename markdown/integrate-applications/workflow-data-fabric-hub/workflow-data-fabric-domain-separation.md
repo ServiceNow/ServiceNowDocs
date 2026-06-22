@@ -21,7 +21,7 @@ Domain separation is unsupported for Workflow Data Fabric Hub. Domain separation
 -   The domain field may exist on data tables but there is no business logic to manage the data.
 -   This level is not considered domain-separated.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 **Parent Topic:**[Workflow Data Fabric Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric-hub/wdf-reference.md)
 

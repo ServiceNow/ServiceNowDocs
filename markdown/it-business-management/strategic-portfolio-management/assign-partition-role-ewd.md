@@ -19,7 +19,7 @@ Assign a partition role to users or user groups to grant them access to records 
 ## Before you begin
 
 -   The partition and its associated role have been created and partition criteria have been configured for all supported tables. For details, see [Create and configure a partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-portfolio-management/create-partition-ewd.md).
--   You have identified the users or user groups that should have access to the partition. If you want to create a specific user group for the partition you want to provide access to, create a user group. For details, see .
+-   You have identified the users or user groups that should have access to the partition. If you want to create a specific user group for the partition you want to provide access to, create a user group. For details, see [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/ua-creating-groups.md).
 
 Role required: admin
 

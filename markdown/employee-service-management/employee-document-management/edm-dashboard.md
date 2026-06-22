@@ -18,7 +18,7 @@ Gain insight into macro trends more efficiently on a single dashboard-style page
 
 Activating the Performance Analytics - Content Pack - Human Resources Employee Document Management Scoped App \[com.sn\_hr\_employee\_files\_pa\] plugin enables the Performance Analytics reports and dashboard for the Employee Document Management.
 
-For more information on configuring your dashboard, see Dashboards overview.
+For more information on configuring your dashboard, see [Dashboards overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/dashboards-overview.md).
 
 The Employee Documents Dashboard has two tabs:
 

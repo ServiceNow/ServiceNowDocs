@@ -52,7 +52,7 @@ Microsoft Teams Graph spoke
 
 </td><td>
 
-Installing this plugin establishes a Graph spoke connection with Microsoft Teams. For more information, see Microsoft Teams Graph spoke
+Installing this plugin establishes a Graph spoke connection with Microsoft Teams. For more information, see [Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/msteams-spoke.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configure Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/chat-channel-provider-config.md)

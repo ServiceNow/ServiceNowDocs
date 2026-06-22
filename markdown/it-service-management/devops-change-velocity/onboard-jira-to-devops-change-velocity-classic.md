@@ -78,7 +78,7 @@ Select the OAuth credential record. For more information, see [Connect a Jira to
 
     3.  If your Jira instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-        For more information about MID server, see MID Server selection
+        For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
 
     4.  Select **Submit**.
 

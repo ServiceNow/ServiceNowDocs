@@ -39,7 +39,7 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 Multi-instance management is configured for the AI Control Tower.
 
-For information about Trust configuration and Trust configuration management, see 
+For information about Trust configuration and Trust configuration management, see [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/grant-access-v2.md)
 
 For information about AI asset synchronization process, see [Multi-instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/multi-instance-management.md) section under Exploring the AI Control Tower configurations.
 

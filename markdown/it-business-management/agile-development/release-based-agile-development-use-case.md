@@ -7,7 +7,7 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Agile Development use cases, Explore, Agile Development 2.0, Strategic Portfolio Management]
 ---

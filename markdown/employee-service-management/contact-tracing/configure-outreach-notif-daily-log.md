@@ -62,7 +62,7 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 9.  In the Scheduled Script pop-up window, configure a scheduled job to the notification.
 
-    For more information, see Configure a scheduled job.
+    For more information, see [Configure a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
 10. Click **Submit**.
 

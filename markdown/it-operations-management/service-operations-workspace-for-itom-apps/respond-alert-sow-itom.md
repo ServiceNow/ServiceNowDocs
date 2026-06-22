@@ -69,15 +69,15 @@ For users familiar with the classic Event Management experience, this provides a
 
     \[Omitted image "respond-automation-actions.png"\] Alt text: Respond automation actions
 
-<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d189766e243">
+<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d187652e243">
 
 Action
 
-</th><th align="left" id="d189766e246">
+</th><th align="left" id="d187652e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d189766e252">
+</th></tr></thead><tbody><tr><td id="d187652e252">
 
 **Create incident and other response actions**
 
@@ -120,7 +120,7 @@ You can define conditions that are evaluated after the wait period to determine 
 
 To add another response action, select **+ Add response action**.
 
-</td></tr><tr><td id="d189766e465">
+</td></tr><tr><td id="d187652e465">
 
 **Use outbound webhooks to send data to other systems**
 

@@ -44,7 +44,7 @@ Enhance the experience
 
 </td><td>
 
-
+[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/cert-inventory-mgmt.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Certificate Inventory and Management discovers, takes inventory of, and proactiv
 
 </td><td>
 
-Roles installed with Certificate Inventory and Management
+[Roles installed with Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/cert-inventory-mgmt-user-roles.md#section_i3j_qfd_mjb)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Add advanced features
 
 </td><td>
 
-
+[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 
 </td><td>
 
@@ -84,7 +84,7 @@ Enhance the experience
 
 </td><td>
 
-
+[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/firewall-audit-reporting.md)
 
 </td><td>
 
@@ -92,7 +92,7 @@ Firewall Audits and Reporting discovers and takes inventory of your firewall sec
 
 </td><td>
 
-Roles installed with Firewall Audits and Reporting
+[Roles installed with Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/firewall-audit-reporting-users-roles.md#section_e1j_1f1_plb)
 
 </td><td>
 
@@ -104,7 +104,7 @@ Build a foundation
 
 </td><td>
 
-
+[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-level-management/service-level-mgmt-landing-page.md)
 
 </td><td>
 
@@ -112,7 +112,7 @@ Service Level Management \(SLM\) helps to gather service requirements and monito
 
 </td><td>
 
-
+[Roles installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-level-management/r_InstalledWithServiceLevelMgmt.md)
 
 </td><td>
 
@@ -125,7 +125,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/vendor-management-workspace/vendor-management-workspace-landing-page.md)
 
 </td><td>
 

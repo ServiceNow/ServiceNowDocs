@@ -24,7 +24,7 @@ Role required: idr\_admin or admin
 
 1.  View the producer or consumer metadata logs.
 
-<table id="choicetable_h3s_qkz_pkb"><tbody><tr><td id="d173379e62">
+<table id="choicetable_h3s_qkz_pkb"><tbody><tr><td id="d171786e62">
 
 **Producer**
 
@@ -32,7 +32,7 @@ Role required: idr\_admin or admin
 
 Navigate to **Instance Data Replication** &gt; **Producer Replication Sets**, select a producer replication set and click the **Replication Metadata Logs** related link.
 
-</td></tr><tr><td id="d173379e83">
+</td></tr><tr><td id="d171786e83">
 
 **Consumer**
 

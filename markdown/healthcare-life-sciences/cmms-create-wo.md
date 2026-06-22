@@ -47,7 +47,7 @@ A work order task is automatically created. The short description, description, 
 
 ## What to do next
 
-A user with the sn\_hcls\_cmms.clinical\_engineering\_technician role can then complete the work order task. For more information, see .
+A user with the sn\_hcls\_cmms.clinical\_engineering\_technician role can then complete the work order task. For more information, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/work-order-management/c_ManageWorkOrders.md).
 
 After the work order task is completed, you can close the case. For more information, see [Close a medical device issue case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cmms-close-cd-issue-case.md).
 

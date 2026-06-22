@@ -40,26 +40,26 @@ Role required: pa\_data\_collector or admin
         -   VMW Daily Data Collection
         -   VMW Vendor Score Collection
     5.  Click **Update**.
-    For more information on creating or scheduling a data collection job, refer to Create or schedule a data collection job
+    For more information on creating or scheduling a data collection job, refer to [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md)
 
     **Note:** The Performance Analytics application:
 
     -   Runs the job and collects the score as the **Run as** user.
     -   Collects the scores only for the domain in which the logged-in user runs the job. The scores are not visible to vendor admins or vendor managers who are not part of that domain in Vendor Manager Workspace.
-    -   Automatically adds database queries that limit results from the domain to the indicator source queries when the application runs a job for a domain configuration.
+    -   Automatically adds database queries that limit results from the domain to the [indicator source queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_IndicatorSources.md) when the application runs a job for a domain configuration.
 2.  Configure a domain to assign a vendor score metric model to a domain.
 
     1.  Navigate to **Vendor Manager Workspace** &gt; **Vendor Score Metric Models**
     2.  Do any of the following:
-<table id="choicetable_uxc_zhx_5jb"><thead><tr><th align="left" id="d41317e200">
+<table id="choicetable_uxc_zhx_5jb"><thead><tr><th align="left" id="d41365e200">
 
 To
 
-</th><th align="left" id="d41317e203">
+</th><th align="left" id="d41365e203">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d41317e209">
+</th></tr></thead><tbody><tr><td id="d41365e209">
 
 **Configure the Vendor Score Metric Model list**
 
@@ -70,7 +70,7 @@ Do this
 3.  Click **OK**.
 
 
-</td></tr><tr><td id="d41317e242">
+</td></tr><tr><td id="d41365e242">
 
 **Configure a Vendor Score Metric Model form**
 

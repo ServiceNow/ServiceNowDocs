@@ -20,7 +20,7 @@ Add an MCP server by selecting a connection and credential alias record.
 
 A connection and credential alias record must be created.
 
-For more information, see .
+For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 Role required: sn\_mcp\_client.admin
 

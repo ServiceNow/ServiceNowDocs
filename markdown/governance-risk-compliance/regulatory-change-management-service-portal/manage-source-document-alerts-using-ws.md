@@ -65,15 +65,15 @@ As a manager, you can view and assign the source document alerts to users with t
 
 7.  Log in with the sn\_grc\_reg\_change.manager role, open the selected source document alert, and mark the alert using one of the following options.
 
-<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d220437e337">
+<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d220479e337">
 
 Field
 
-</th><th align="left" id="d220437e340">
+</th><th align="left" id="d220479e340">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220437e346">
+</th></tr></thead><tbody><tr><td id="d220479e346">
 
 **Applicable**
 
@@ -81,7 +81,7 @@ Description
 
 Marks the alert as applicable.
 
-</td></tr><tr><td id="d220437e355">
+</td></tr><tr><td id="d220479e355">
 
 **Not applicable**
 
@@ -92,7 +92,7 @@ Marks the alert as not applicable. Select one of the following reasons and selec
 -   Other
 As a result of this action, the stepper component in the alert page displays the stage as **Completed**.
 
-</td></tr><tr><td id="d220437e382">
+</td></tr><tr><td id="d220479e382">
 
 **Cancel regulatory alert**
 
@@ -100,7 +100,7 @@ As a result of this action, the stepper component in the alert page displays the
 
 Cancel the regulatory alert.
 
-</td></tr><tr><td id="d220437e391">
+</td></tr><tr><td id="d220479e391">
 
 **Defer**
 

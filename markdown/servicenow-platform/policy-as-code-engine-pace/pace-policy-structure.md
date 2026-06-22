@@ -20,7 +20,7 @@ When a policy is executed, a set of parameters is passed and the policy develope
 
 \[Omitted image "pace-sample-script-new-names.jpg"\] Alt text: Sample script policy.
 
-To debug the script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see .
+To debug the script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see [Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/scriptdebugger-api.md).
 
 The following table lists the policy function parameters and how can they be used in your policy script.
 

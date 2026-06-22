@@ -29,13 +29,13 @@ After you install the HR Service Delivery Integration with SuccessFactors, the s
 
 2.  For better performance, index the employee number field in the HR Profile table and index coalesce fields in [Use transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/use-transform-maps-sf.md).
 
-    For more information, see create a table index.
+    For more information, see [create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/t_CreateCustomIndex.md).
 
 3.  Set up SuccessFactors spoke.
 
     **Note:** To use HR Service Delivery Integration with SuccessFactors, ensure to set up the SuccessFactors spoke version 3.1.2
 
-    For more information, see set up SuccessFactors Spoke.
+    For more information, see set up [SuccessFactors Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/successfactors-spoke.md).
 
 4.  Configure integration source properties for [Source for HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/source-for-hrsd-successfactors.md).
 

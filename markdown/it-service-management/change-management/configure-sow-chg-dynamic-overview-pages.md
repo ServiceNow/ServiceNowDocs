@@ -20,7 +20,7 @@ These configuration options allow users to define how the Dynamic Overview pages
 
 **Note:** You can configure the layout of default sections containing forms in the configure forms section.
 
-You can also create custom sections. To create a section use the UI builder. For more information, see .
+You can also create custom sections. To create a section use the UI builder. For more information, see [UI Builder tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/uib-tutorial.md).
 
 For a custom section, add a corresponding overview card record to display the section in the required container. The custom section must be created in the **Chg Overview Viewport SNC** page, and the name of the custom section must match with the choice list value for the overview card.
 

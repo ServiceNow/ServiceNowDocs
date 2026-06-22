@@ -22,7 +22,7 @@ Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is inst
 
 Ensure that you:
 
--   Deploy and start the MID Server. See MID Server configuration .
+-   Deploy and start the MID Server. See [MID Server configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md) .
 -   Configure and start the MID Web Server. See [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension.md).
 -   Configure and start the MID WebService Event Collector. See [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-em-context-extension.md).
 

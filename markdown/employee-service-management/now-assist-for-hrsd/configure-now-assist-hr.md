@@ -18,7 +18,7 @@ If you have the admin role, you can configure the Now Assist for HR Service Deli
 
 Role required: sn\_hr\_core.admin
 
-Use the Now Assist Admin console to configure Now Assist for HR Service Delivery \(HRSD\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for HR Service Delivery \(HRSD\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 The following list contains skills that you can access from the Now Assist Admin console.
 
@@ -41,7 +41,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 1.  Install the Now Assist for HR Service Delivery \(HRSD\) plugin \(sn\_hr\_gen\_ai\).
 
-    **Note:** For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/support-info-hr-assist.md).For information about the installation process, see .
+    **Note:** For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/support-info-hr-assist.md).For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 3.  Activate and configure the skills for the Now Assist for HR Service Delivery \(HRSD\) features.

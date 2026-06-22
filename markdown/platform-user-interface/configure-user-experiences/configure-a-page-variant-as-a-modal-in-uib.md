@@ -21,7 +21,7 @@ Define your page variant to appear as a modal using UI Builder configurations. T
 Complete the following actions:
 
 -   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/create-a-new-form-action.md)
--   Activate Customer Service Management
+-   [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/t_ActivateCustomerService.md)
 -   Open your record page in UIB or create a page variant in UIB
 -   [Design your page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/design-a-page-variant-in-uib.md)
 

@@ -70,7 +70,7 @@ Cascading
 
 Select to set the data filtration rule to apply to extended tables.
 
- For example, you select the Task\[task\] table, and enable cascading. In this case, the data filtration rule also applies to all tables extended from task, such as Incident\[incident\] and Change Request\[change\_request\]. For detail on table extension, see 
+ For example, you select the Task\[task\] table, and enable cascading. In this case, the data filtration rule also applies to all tables extended from task, such as Incident\[incident\] and Change Request\[change\_request\]. For detail on table extension, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md)
 
  **Note:** This field is enabled by default.
 

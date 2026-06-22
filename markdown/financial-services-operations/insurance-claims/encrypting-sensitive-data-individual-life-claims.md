@@ -38,7 +38,7 @@ The following table lists some fields that can contain sensitive data.
 
 ## Encrypting the sensitive data
 
-Fields in Individual Life Claims can be encrypted by using Field Encryption. For more information, see .
+Fields in Individual Life Claims can be encrypted by using Field Encryption. For more information, see [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/field-encryption.md).
 
 **Parent Topic:**[Setting up Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/setting-up-individual-life-claims.md)
 

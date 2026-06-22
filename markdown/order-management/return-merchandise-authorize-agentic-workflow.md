@@ -25,7 +25,7 @@ Install the Customer Service RMA AI Agents plugin \(app-csm-rma-case-ai-agent\) 
 -   **Live agent handoff**: If required, the agent can transfer the case to a live agent for further assistance.
 -   **Role-based actions**: Both the requester persona and the Fullfiller persona will have access to create and process the RMA Case using the RMA AI Assistant.
 
-To modify the **RMA AI** agentic workflow duplicate it, and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
+To modify the **RMA AI** agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 

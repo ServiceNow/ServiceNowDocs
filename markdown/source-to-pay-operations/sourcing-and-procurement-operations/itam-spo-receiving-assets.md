@@ -16,7 +16,7 @@ breadcrumb: [Sourcing Procurement Operations integration Asset, Integrate Sourci
 
 As part of the Better Together integration, all asset receiving is handled within IT Asset Management \(ITAM\). When an item is initially received in ITAM, a receipt is automatically generated in SPO in the Pending Submission state.
 
-After the buyer confirms receipt against the purchase order in ITAM, a corresponding receipt is automatically created for the associated purchase order in Sourcing and Procurement Operations. For more information about receiving assets in ITAM, see .
+After the buyer confirms receipt against the purchase order in ITAM, a corresponding receipt is automatically created for the associated purchase order in Sourcing and Procurement Operations. For more information about receiving assets in ITAM, see [Receive an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/procurement/t_ReceiveAnAsset.md).
 
 After the receipt is posted to the ERP system, the status of the SPO receipt changes to Posted.
 
@@ -30,15 +30,15 @@ As part of the shipment process, the ITAM shipment record passes shipment detail
 
 After receiving the requested items, the asset manager or an employee can acknowledge receipt using the following ITAM receiving experiences:
 
--   Mobile barcode scanning. For more information, see .
+-   Mobile barcode scanning. For more information, see [Acknowledge receipt of an asset on a mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/receive-assets-from-ztr.md).
 
     \[Omitted image "itam-spo-barcode.png"\] Alt text: Asset receiving via mobile barcode scanning.
 
--   From the Employee Center portal. For more information, see .
+-   From the Employee Center portal. For more information, see [Acknowledge receipt of assets on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/receive-assets-employee-center.md).
 
     \[Omitted image "itam-spo-receive-ec.png"\] Alt text: Asset receiving from Employee Center.
 
--   From the ITAM purchase order. For more information, see .
+-   From the ITAM purchase order. For more information, see [Receive an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/procurement/t_ReceiveAnAsset.md).
 
     \[Omitted image "itam-spo-receive-po.png"\] Alt text: Asset receiving via ITAM purchase orders.
 

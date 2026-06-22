@@ -42,7 +42,7 @@ To opt in resource categories, follow these steps:
 
 1.  On the CMDB success advisor landing page, select **Select model categories** within the HAM card.
 
-    See .
+    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md).
 
 2.  If the dialog box displays **No model categories available**, select **Opt in categories** to open the HAM license resource categories management page.
 3.  Select the resource categories included in your HAM subscription and opt them in.
@@ -61,7 +61,7 @@ To remove opted out resource categories, follow these steps:
 
 1.  On the CMDB success advisor landing page, select **Edit model categories** within the HAM card.
 
-    See .
+    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md).
 
 2.  In the **Available resource and model categories** column, locate the opted-out resource category and clear its check box.
 3.  Select **Save**.

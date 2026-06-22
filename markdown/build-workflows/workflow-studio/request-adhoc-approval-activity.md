@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
 ---
 
@@ -22,7 +22,7 @@ These activities are available as an application in the ServiceNow Store. Users 
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/dot-walking-examples.md).
 
 <table id="table_asm_m4j_35b"><thead><tr><th>
 

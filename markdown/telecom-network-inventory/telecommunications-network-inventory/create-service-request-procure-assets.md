@@ -24,7 +24,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-To procure the assets, you can create a service request for a bill of materials by using the Material Request using Inventory Template record producer. To learn more about record producers, see .
+To procure the assets, you can create a service request for a bill of materials by using the Material Request using Inventory Template record producer. To learn more about record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 ## Procedure
 

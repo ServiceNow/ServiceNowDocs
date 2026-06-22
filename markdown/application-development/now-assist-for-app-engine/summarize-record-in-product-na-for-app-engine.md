@@ -43,15 +43,15 @@ You can also summarize the contents of a record through chat in the Now Assist p
 
 3.  When you're finished summarizing a record, you can copy the summary, expand or collapse the summary, or provide feedback about the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d40044e158">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d39973e158">
 
 Option
 
-</th><th align="left" id="d40044e161">
+</th><th align="left" id="d39973e161">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d40044e167">
+</th></tr></thead><tbody><tr><td id="d39973e167">
 
 **Expand or collapse the summary**
 
@@ -59,7 +59,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d40044e188">
+</td></tr><tr><td id="d39973e188">
 
 **Provide feedback about the summary**
 
@@ -67,7 +67,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d40044e211">
+</td></tr><tr><td id="d39973e211">
 
 **Copy the record summary**
 

@@ -26,15 +26,15 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller or sn\_lg\_ops.legal\_fulfill
 
 1.  Access the Legal Hold Notification matter intake form through either the Employee Center or the Legal Counsel Center.
 
-<table id="choicetable_gcx_sb4_qfc"><thead><tr><th align="left" id="d506676e96">
+<table id="choicetable_gcx_sb4_qfc"><thead><tr><th align="left" id="d506433e96">
 
 Option
 
-</th><th align="left" id="d506676e99">
+</th><th align="left" id="d506433e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d506676e105">
+</th></tr></thead><tbody><tr><td id="d506433e105">
 
 **Using Employee Center \(sn\_lg\_hold.legal\_hold\_fulfiller\)**
 
@@ -45,7 +45,7 @@ Description
 3.  In the **Ethics and compliance** category, select **Legal Hold Notification**.
 
 
-</td></tr><tr><td id="d506676e153">
+</td></tr><tr><td id="d506433e153">
 
 **Using Legal Counsel Center \(sn\_lg\_ops.legal\_fulfiller\)**
 

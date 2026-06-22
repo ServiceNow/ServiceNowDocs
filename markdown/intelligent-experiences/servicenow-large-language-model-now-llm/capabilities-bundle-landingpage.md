@@ -232,9 +232,9 @@ For developers, the sources that a skill or AI agent can access may vary dependi
 
 For more information about configuring sources for skill or AI agent use, see the following topic areas:
 
--   
--   
--   
+-   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/overview-ais.md)
+-   [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/now-assist-ais.md)
+-   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
 -   [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md)
 -   [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/na-ai-agents.md)
 
@@ -243,8 +243,8 @@ For more information about configuring sources for skill or AI agent use, see th
 |Skill|Reference|
 |-----|---------|
 |App generation||
-|Analytics generation||
-|Catalog item generation||
+|Analytics generation|[Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/platform-analytics/example-questions-generating-dv.md)|
+|Catalog item generation|[Suggestions to describe catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)|
 |Code generation||
 |Flow generation||
 |LLM topic skill for Virtual Agent||

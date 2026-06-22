@@ -8,7 +8,7 @@ product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, ERP Semantic Mining overview, Workflow Data Fabric]
 ---
 
@@ -26,7 +26,7 @@ Role required: sn\_erp\_mining.erp\_admin, sn\_erp\_mining.erp\_user
 
 ## About this task
 
-For general information on preferences, see .
+For general information on preferences, see [System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/advanced-notification-prefrences.md).
 
 ## Procedure
 

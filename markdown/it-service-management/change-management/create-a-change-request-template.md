@@ -35,7 +35,7 @@ There are two change request template configuration items.
 
 2.  Click **New**.
 
-3.  Complete the form as described in Create a template using the Template form.
+3.  Complete the form as described in [Create a template using the Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateATemplateUsingTheTmplForm.md).
 
 4.  Complete the remaining fields, as appropriate.
 

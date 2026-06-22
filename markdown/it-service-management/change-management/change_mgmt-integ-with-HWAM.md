@@ -34,7 +34,7 @@ When a change request is in the **Implement** state, the proposed asset action t
 
 **Note:** If the asset action is not selected, then the change request will not progress to the **Review** state.
 
-For more information, see Hardware Asset Management
+For more information, see [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md)
 
 **Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-mgmt-integrations.md)
 

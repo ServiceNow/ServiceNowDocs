@@ -18,7 +18,7 @@ Workflow Studio Playbooks enables you, as a business playbook owner, to organize
 
 You can customize the Playbook experience with your own configurations and activity overrides. The automated business processes that you design guide your end users and help them focus on the tasks and information that matter to them.
 
-For information on Playbooks, see Playbooks.
+For information on Playbooks, see [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/process-automation-designer.md).
 
 **Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
 

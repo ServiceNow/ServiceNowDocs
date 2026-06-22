@@ -18,11 +18,11 @@ Use the SPC Setup Connector skill to help you automatically complete configurati
 
 ## Before you begin
 
-To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See  for more information.
+To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See [Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/secops-sem-rn.md) for more information.
 
 The SPC Setup Connector skill is included with Now Assist for Vulnerability Response and the skill is activated by default. For more information about configuring this skill, see [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-skills-now-assist-vulnerability-response.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 You must complete steps one and two in the workspace before you can invoke the SCP Setup Connector Now Assist skill. See [Enter metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-template-stepper1.md) and [Create connector alias and connection credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-template-stepper2.md) for more information.
 

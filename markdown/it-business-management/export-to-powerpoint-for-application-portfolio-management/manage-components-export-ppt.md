@@ -26,7 +26,7 @@ Role required: sn\_ppt\_export.ppt\_admin
 
 2.  Select a parent table record, for example, Project report `pm_project`.
 
-<table id="choicetable_wws_lkm_t5b"><tbody><tr><td id="d119224e82">
+<table id="choicetable_wws_lkm_t5b"><tbody><tr><td id="d118206e82">
 
 **To manage Related Tables**
 
@@ -37,7 +37,7 @@ You can add a custom remote table or a child from the parent table.1.  In the **
 On the Related tables form, fill the fields. For a description of the field values, see [Related Tables form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/related-tables-form.md).
 
 2.  To add a custom remote table:
-    1.  .
+    1.  [Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/create-remote-table.md).
     2.  Select the required remote table from list.
     3.  Select the **Enable custom script** option.
     4.  In the Custom script box, write the code to establish a connection between the remote table and main table.
@@ -47,7 +47,7 @@ On the Related tables form, fill the fields. For a description of the field valu
 4.  Select **Submit**.
 The selected table and its relation to the parent table is displayed in the Related tables section.
 
-</td></tr><tr><td id="d119224e161">
+</td></tr><tr><td id="d118206e162">
 
 **To manage Scripted Elements**
 

@@ -21,7 +21,7 @@ The Now Assist Knowledge content recommendation is a Platform skill that is enab
 
 \[Omitted image "NA-elaborate-shorten-content-1.png"\] Alt text: Use Now Assist to elaborate or shorten content in the knowledge article.
 
-For more information, see .
+For more information, see [Edit an article using the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md).
 
 **Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

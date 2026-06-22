@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-If you are creating a transfer case configuration, you must also create a script include to implement the sn\_hr\_core HR case transfer extension point. For more information, see Registering custom script includes against the scripted extension points.
+If you are creating a transfer case configuration, you must also create a script include to implement the sn\_hr\_core HR case transfer extension point. For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md).
 
 Refer to the existing script includes as examples:
 
@@ -32,7 +32,7 @@ Refer to the existing script includes as examples:
 
 The hr\_TransferCase script include provides a list of fields ignored in the transfer and acts as a utility for the other two script includes.
 
-**Note:** Refer to Script includes.
+**Note:** Refer to [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 ## Procedure
 
@@ -80,7 +80,7 @@ HR criteria
 
 Defines what HR agents can view and use this transfer type when performing an HR case transfer from the HR case form.See [HR criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-criteria.md).
 
-**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 

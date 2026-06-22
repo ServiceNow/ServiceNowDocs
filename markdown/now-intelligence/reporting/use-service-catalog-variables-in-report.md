@@ -43,7 +43,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 2.  Do one of the following.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d30241e117">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d30260e117">
 
 **Add as a column in a list report**
 
@@ -51,7 +51,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 On the **Configure** tab, move **Variables+** to the **Selected** column.
 
-</td></tr><tr><td id="d30241e135">
+</td></tr><tr><td id="d30260e135">
 
 **Add as an extra __Group by__**
 
@@ -59,7 +59,7 @@ On the **Configure** tab, move **Variables+** to the **Selected** column.
 
 On the **Configure** tab, click **Additional group by**, then move **Variables+** at the bottom of the **Selected** of the **Additional group by** list.
 
-</td></tr><tr><td id="d30241e162">
+</td></tr><tr><td id="d30260e162">
 
 **Add as a column or row in a multilevel pivot table**
 

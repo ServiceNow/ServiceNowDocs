@@ -32,7 +32,7 @@ When a primary ticket of a Universal Request is transferred, the current mapping
 
 3.  Create your department-specific extension point by selecting **Create implementation**.
 
-    For more information about using extension points, see Using extension points to extend application functionality.
+    For more information about using extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/extension-points.md).
 
 
 **Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)

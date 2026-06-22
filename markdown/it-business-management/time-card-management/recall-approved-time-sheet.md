@@ -28,15 +28,15 @@ The recall option is available only if the **Allow recall** option is selected o
 
 1.  Navigate to the approved or processed time sheet you want to recall using one of the following options.
 
-<table id="choicetable_s4y_wb4_xgb"><thead><tr><th align="left" id="d156851e78">
+<table id="choicetable_s4y_wb4_xgb"><thead><tr><th align="left" id="d155865e78">
 
 Option
 
-</th><th align="left" id="d156851e81">
+</th><th align="left" id="d155865e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d156851e87">
+</th></tr></thead><tbody><tr><td id="d155865e87">
 
 **From the Time Sheet Portal**
 
@@ -50,7 +50,7 @@ Description
 
 The time sheet must be within the recall period specified in the time sheet policy.
 
-</td></tr><tr><td id="d156851e132">
+</td></tr><tr><td id="d155865e132">
 
 **From the Time Sheet form**
 

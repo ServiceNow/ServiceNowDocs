@@ -8,7 +8,7 @@ product: RPA Hub
 classification: rpa-hub
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [External credential vault, Credential Management, Explore, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
@@ -30,7 +30,7 @@ Reference
 
 </th></tr></thead><tbody><tr><td>
 
-1. Create a subflow to integrate your external credential vault. For more information, see .
+1. Create a subflow to integrate your external credential vault. For more information, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-subflow.md).
 
 </td><td>
 
@@ -159,7 +159,7 @@ For reference, see the sample **Demo CyberArk** external credential vault in you
 
 </td></tr><tr><td>
 
-3. Establish a connection with an external credential vault by using the ServiceNow Connections and Credentials. For more information about creating an active connection, see . While configuring the connection record, verify to align with your organizational security requirements.
+3. Establish a connection with an external credential vault by using the ServiceNow Connections and Credentials. For more information about creating an active connection, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/create-https-connection.md). While configuring the connection record, verify to align with your organizational security requirements.
 
 </td><td>
 

@@ -18,7 +18,7 @@ Use the GetExecutionStatus component to determine the execution status of a flow
 
 ## Before you begin
 
-To understand more about flows in Workflow Studio, see .
+To understand more about flows in Workflow Studio, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flows.md).
 
 Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/connect-studio-instance-rpa.md).
 

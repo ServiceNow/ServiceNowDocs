@@ -22,7 +22,7 @@ You can use this API for the following tasks:
 -   Check the progress of the test generation job.
 -   Cancel the test generation job.
 
-In global scope, this API is executed within the sn\_atf\_tg namespace. You must have the  \(sn\_atf\_tg\) plugin activated to use this API.
+In global scope, this API is executed within the sn\_atf\_tg namespace. You must have the [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-intro.md) \(sn\_atf\_tg\) plugin activated to use this API.
 
 See also:
 
@@ -290,7 +290,7 @@ String
 
 </td><td>
 
-Optional. Encoded query specifying the tables on which to generate tests. See .Default: All tables \(empty string\)
+Optional. Encoded query specifying the tables on which to generate tests. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).Default: All tables \(empty string\)
 
 </td></tr><tr><td>
 

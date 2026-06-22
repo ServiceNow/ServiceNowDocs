@@ -18,7 +18,7 @@ Configure keywords on the incident and observation record producers to enable co
 
 ## Before you begin
 
-Verify that the application scope is selected as Health and Safety Core. For more information, see Application picker.
+Verify that the application scope is selected as Health and Safety Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_ohs\_im.admin
 
@@ -34,7 +34,7 @@ The keywords for the incident or observation record for conversation AI are the 
 
     -   **Report Health and Safety Incident-Basic** for incident records.
     -   **Report Health and Safety Observations** for observation records.
-    For more information on how to use record producers, see .
+    For more information on how to use record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 3.  In the **Meta** field, add keywords.
 

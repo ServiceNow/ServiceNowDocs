@@ -18,10 +18,10 @@ Now Assist panel premium chat is an AI chat experience built into your ServiceNo
 
 **Important:**
 
--   Next Experience must be enabled to use the Now Assist panel. For more information, see .
+-   Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 -   Now Assist panel premium chat must be activated before you can use it. See  for more information.
 -   If you want to use assistants, you must activate them. See  for information on activating assistants.
--   To use the full capabilities of Now Assist panel premium chat, AI Search must be enabled for your portal. Without it, Now Assist panel premium chat functions in a limited capacity. Basic interactions such as predefined topic flows and simple questions and answers are available, but knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see .
+-   To use the full capabilities of Now Assist panel premium chat, AI Search must be enabled for your portal. Without it, Now Assist panel premium chat functions in a limited capacity. Basic interactions such as predefined topic flows and simple questions and answers are available, but knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
 -   Now Assist skills must be enabled to appear on the Now Assist panel. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
 -   Conversational aspects of the Now Assist panel, such as skill detection, are powered by Now LLM Service.
 

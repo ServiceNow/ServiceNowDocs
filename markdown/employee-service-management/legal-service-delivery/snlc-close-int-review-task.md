@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d213642e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d213385e55">
 
 Method
 
-</th><th align="left" id="d213642e58">
+</th><th align="left" id="d213385e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d213642e64">
+</th></tr></thead><tbody><tr><td id="d213385e64">
 
 **My Work listing**
 
@@ -44,7 +44,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d213642e111">
+</td></tr><tr><td id="d213385e111">
 
 **Delegated to me listing**
 
@@ -56,7 +56,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d213642e158">
+</td></tr><tr><td id="d213385e158">
 
 **Contract Review Tasks listing**
 
@@ -68,7 +68,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d213642e205">
+</td></tr><tr><td id="d213385e205">
 
 **Contract Request Reviews tab**
 

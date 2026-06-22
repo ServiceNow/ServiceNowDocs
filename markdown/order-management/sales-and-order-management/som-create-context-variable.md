@@ -54,7 +54,7 @@ Type
 
 </td><td>
 
-Context variable type. Choose the type of field for the variable. For example, the choice list field type lets your user select from a pre-defined list of choices.For more information on the different field types, see .
+Context variable type. Choose the type of field for the variable. For example, the choice list field type lets your user select from a pre-defined list of choices.For more information on the different field types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
 
 </td></tr><tr><td>
 

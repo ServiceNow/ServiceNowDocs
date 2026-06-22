@@ -20,29 +20,29 @@ The ServiceNow® Sidebar application enables agents and subject matter experts t
 
 Prevent Sidebar discussions from becoming cluttered by using threaded replies when responding to messages.
 
-See  for more information.
+See [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/sidebar-landing.md) for more information.
 
 **Important:** Sidebar is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Zurich release
 
--   ****
+-   **[Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/sidebar-landing.md)**
 
     Use threaded replies to answer Sidebar messages without adding clutter to the main discussion.
 
 
 ## Activation information
 
-Sidebar is a ServiceNow AI Platform feature part of the Omni-Experience Standard Feature Set. For details, see .
+Sidebar is a ServiceNow AI Platform feature part of the Omni-Experience Standard Feature Set. For details, see [Installing Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/install-sidebar.md).
 
 ## Related ServiceNow applications and features
 
--   ****
+-   **[Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-chat/ci-use-agent-chat.md)**
 
     Use Agent Chat to provide features that streamline the agent and requester chat experience and enable managers to monitor and assist agents.
 
 
--   ****
+-   **[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)**
 
     Unlock your enterprise productivity with Virtual Agent. Increase deflections by empowering your employees and customers to serve themselves using a friendly messaging interface, featuring prebuilt conversations powered by artificial intelligence.
 

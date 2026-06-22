@@ -88,7 +88,7 @@ Strategies
 
 Strategic objectives impacted by the improvement initiative. Multiple strategic objectives can be selected. Strategic objectives can be added from the lookup list.
 
- The lookup list contains both Continual Improvement Management strategic objectives and business enterprise strategies to align with the improvement initiative.
+ The lookup list contains both Continual Improvement Management strategic objectives and business [enterprise strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/strategic-portfolio-management/create-a-enterprise-strategy.md) to align with the improvement initiative.
 
  An enterprise strategy can be added from the navigation menu **Continual Improvement** &gt; **Enterprise Strategies**.
 

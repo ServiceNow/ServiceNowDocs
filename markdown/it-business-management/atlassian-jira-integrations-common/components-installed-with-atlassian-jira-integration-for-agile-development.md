@@ -16,7 +16,7 @@ breadcrumb: [Install Atlassian Jira Integration for Agile Development, Atlassian
 
 Several types of components are installed with activation of the Atlassian Jira integration for Agile Development application, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## Roles installed
 

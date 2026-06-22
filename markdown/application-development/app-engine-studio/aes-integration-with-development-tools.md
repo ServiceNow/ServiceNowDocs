@@ -32,7 +32,7 @@ Reference
 
 </th></tr></thead><tbody><tr><td>
 
-Access Control
+[Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_SNCAccessControl.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ See [Add application security](https://raw.githubusercontent.com/ServiceNow/Serv
 
 </td></tr><tr><td>
 
-Catalog Builder
+[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/catalog-builder.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ See [Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/S
 
 </td></tr><tr><td>
 
-Decision tables in Workflow Studio
+[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
 
 </td><td>
 
@@ -68,7 +68,7 @@ See [Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 </td></tr><tr><td>
 
-Email notifications
+[Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailNotifications.md)
 
 </td><td>
 
@@ -80,7 +80,7 @@ See [Add an email notification](https://raw.githubusercontent.com/ServiceNow/Ser
 
 </td></tr><tr><td>
 
-
+[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md)
 
 </td><td>
 
@@ -88,11 +88,11 @@ Build an ERP \(Enterprise Resource Planning\) data model and extract data from y
 
 </td><td>
 
-See .
+See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md).
 
 </td></tr><tr><td>
 
-Flows in Workflow Studio
+[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-flows.md)
 
 </td><td>
 
@@ -104,7 +104,7 @@ See [Add a flow from scratch](https://raw.githubusercontent.com/ServiceNow/Servi
 
 </td></tr><tr><td>
 
-Integration Hub - Import
+[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
 
 </td><td>
 
@@ -116,7 +116,7 @@ See [Create a data integration](https://raw.githubusercontent.com/ServiceNow/Ser
 
 </td></tr><tr><td>
 
-Mobile App Builder
+[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mab-concept.md)
 
 </td><td>
 
@@ -128,7 +128,7 @@ See [Add a mobile experience](https://raw.githubusercontent.com/ServiceNow/Servi
 
 </td></tr><tr><td>
 
-Process Automation Designer
+[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/process-automation-designer.md)
 
 </td><td>
 

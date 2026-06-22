@@ -28,7 +28,7 @@ To use this API, ensure the following tables are populated with records:
 -   Notification Content \[sn\_pren\_notification\_content\]
 -   Provider \[sn\_pren\_provider\]
 
-For more information, see 
+For more information, see [Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/proactive-engagement/proactive-engagement-landing-page.md)
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 

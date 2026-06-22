@@ -56,7 +56,7 @@ ServiceNow® Service Exchange connects multiple ServiceNow instances to provide 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the .
+-   Learn more about what's new and changed, see the [Service Exchange release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/service-bridge-rn.md).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Connect with other Service Exchange users at [Now Community](https://www.servicenow.com/community/).
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

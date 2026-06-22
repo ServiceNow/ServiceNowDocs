@@ -37,15 +37,15 @@ Role required: link\_generator\_writer
 
 5.  Click **New** or on an existing record.
 
-<table id="choicetable_xb4_jnt_bbb"><thead><tr><th align="left" id="d108020e135">
+<table id="choicetable_xb4_jnt_bbb"><thead><tr><th align="left" id="d107753e135">
 
 Field
 
-</th><th align="left" id="d108020e138">
+</th><th align="left" id="d107753e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d108020e144">
+</th></tr></thead><tbody><tr><td id="d107753e144">
 
 **Deep link name**
 
@@ -53,7 +53,7 @@ Description
 
 Enter a name or location within the website you are linking to.
 
-</td></tr><tr><td id="d108020e153">
+</td></tr><tr><td id="d107753e153">
 
 **Value**
 
@@ -61,7 +61,7 @@ Enter a name or location within the website you are linking to.
 
 A unique link generator service value automatically created from the Deep link name entered.
 
-</td></tr><tr><td id="d108020e162">
+</td></tr><tr><td id="d107753e162">
 
 **Website name**
 
@@ -69,7 +69,7 @@ A unique link generator service value automatically created from the Deep link n
 
 Enter the name of the website you are linking to.
 
-</td></tr><tr><td id="d108020e171">
+</td></tr><tr><td id="d107753e171">
 
 **Link type**
 
@@ -79,7 +79,7 @@ Select:-   Button link: Creates a button that links to the website.
 -   Generated link: Use to generate a URL that you can copy and paste into any table with a field type of URL. For example, on the **Manage Content** form, create a URL content type. Then, copy and paste the URL in the Content URL field. Other examples include creating links to knowledge articles and catalogs.
 
 
-</td></tr><tr><td id="d108020e193">
+</td></tr><tr><td id="d107753e193">
 
 **Script**
 
@@ -94,15 +94,15 @@ Enter a script that directs the user to the external site.
 
 8.  Click **New** or on an existing record.
 
-<table id="choicetable_sp1_tnt_bbb"><thead><tr><th align="left" id="d108020e239">
+<table id="choicetable_sp1_tnt_bbb"><thead><tr><th align="left" id="d107753e239">
 
 Field
 
-</th><th align="left" id="d108020e242">
+</th><th align="left" id="d107753e242">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d108020e248">
+</th></tr></thead><tbody><tr><td id="d107753e248">
 
 **Button name**
 
@@ -110,7 +110,7 @@ Description
 
 Enter a name for the button that links to the outside website. What you enter here appears on the button.
 
-</td></tr><tr><td id="d108020e257">
+</td></tr><tr><td id="d107753e257">
 
 **Button location type**
 
@@ -121,7 +121,7 @@ Select the location type for the button.-   Standard form: Use this type to plac
 -   Agent Workspace: Use this type to work with HR Service Delivery Agent Workspace.
 
 
-</td></tr><tr><td id="d108020e286">
+</td></tr><tr><td id="d107753e286">
 
 **Form \(Table\)**
 
@@ -129,7 +129,7 @@ Select the location type for the button.-   Standard form: Use this type to plac
 
 Select the table that contains the field you want the deep link button to appear next to.For example, select the **HR Profile \[sn\_hr\_core\_profile\]** table when you want the deep link button to appear next to a field on the **HR Profile** form.
 
-</td></tr><tr><td id="d108020e304">
+</td></tr><tr><td id="d107753e304">
 
 **Location \(Field\)**
 
@@ -137,7 +137,7 @@ Select the table that contains the field you want the deep link button to appear
 
 Select the field from the table selected that you want the deep link button to appear next to.For example, select **User** to place the deep link button next to the **User** field on the **HR Profile** form.
 
-</td></tr><tr><td id="d108020e326">
+</td></tr><tr><td id="d107753e326">
 
 **Deep link name**
 
@@ -145,7 +145,7 @@ Select the field from the table selected that you want the deep link button to a
 
 This information is pulled from the **Deep Link Parameters** \(Link Generator Service\) form.
 
-</td></tr><tr><td id="d108020e338">
+</td></tr><tr><td id="d107753e338">
 
 **Active**
 

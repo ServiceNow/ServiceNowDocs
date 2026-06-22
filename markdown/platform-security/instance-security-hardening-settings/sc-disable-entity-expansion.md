@@ -43,7 +43,7 @@ Before setting this property:
 |Security risk|\(Critical\) An attacker can use this vulnerability to expand data exponentially, quickly consuming all system resources.|
 |Workaround|If the customization requires entity expansion, set this property to true and follow the steps documented in [Require XMLdoc2 entity validation with allowlistDisable entity expansion \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-xmldoc2-entity-validation-with-entity-expansion.md).|
 
-To learn more about adding or creating a system property, see 
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 For more information about OWASp resources, see [OWASp](https://owasp.org/www-project-top-ten/2017/A4_2017-XML_External_Entities_(XXE)).
 

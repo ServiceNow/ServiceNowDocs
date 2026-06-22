@@ -498,9 +498,9 @@ Internal
 **Related topics**  
 
 
-[bundle-itbm.business-stakeholder-role-ppm]
+[Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/ppm-collaboration/business-stakeholder-role-ppm.md)
 
-[bundle-appportman.business-stakeholder-role-apm]
+[Business stakeholder role for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/business-stakeholder-role-apm.md)
 
-[bundle-itsm.installed-with-business-stakeholder]
+[Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/request-management/installed-with-business-stakeholder.md)
 

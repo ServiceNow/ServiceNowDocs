@@ -19,7 +19,7 @@ Discovery commands are used for both probe and pattern-based discovery to access
 
 For information about Service Mapping commands, see [Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/prerequisites-service-mapping.md).
 
-For information about MID Server privileged commands, see .
+For information about MID Server privileged commands, see [MID Server privileged commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_PrivilegedCommandsForMIDServer.md).
 
 ## Probe-based discovery
 

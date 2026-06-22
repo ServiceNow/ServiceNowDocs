@@ -52,6 +52,6 @@ Administers who can access the Redox Inbound Integration application.
 
 -   Assign the sn\_hcls.admin role to the user for the Redox Inbound Integration application.
 
-    For more information, see Assign a role to a user.
+    For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 

@@ -22,7 +22,7 @@ Role required: sam\_user
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Now Assist for SAM generates the product summaries by using reconciliation results, product life-cycle reports, and dashboards such as Discovered inventory, Normalization and content, and Health check.
 
@@ -50,15 +50,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 6.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d160997e157">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d161046e158">
 
 Action
 
-</th><th align="left" id="d160997e160">
+</th><th align="left" id="d161046e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d160997e166">
+</th></tr></thead><tbody><tr><td id="d161046e167">
 
 **Copy to clipboard icon**
 
@@ -66,7 +66,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d160997e175">
+</td></tr><tr><td id="d161046e176">
 
 **Refresh icon**
 
@@ -74,7 +74,7 @@ Copies the summary to a clipboard.
 
 Regenerates the product summary and recommended actions.
 
-</td></tr><tr><td id="d160997e184">
+</td></tr><tr><td id="d161046e185">
 
 **Feedback**
 

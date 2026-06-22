@@ -21,7 +21,7 @@ Set up a data input for monitoring ServiceNow instance node logs from both Java 
 
 **Note:** Only a single ServiceNow Log Export data input can exist in the system. This data input doesn't run on a MID Server.
 
--   Verify that the Log Export Service \(LES\) is installed on your ServiceNow instance. LES is a ServiceNow Platform tool under a different license than Health Log Analytics that enables you to export your system logs seamlessly into HLA. For more information, see .
+-   Verify that the Log Export Service \(LES\) is installed on your ServiceNow instance. LES is a ServiceNow Platform tool under a different license than Health Log Analytics that enables you to export your system logs seamlessly into HLA. For more information, see [Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/les-intro.md).
 -   Verify that the Hermes Messaging Service is up and running:
     1.  Navigate to **All** &gt; **Hermes Messaging Service** &gt; **Diagnostics**.
     2.  Ensure that the status icon is green, signifying that the service is active: \[Omitted image "hla-hermes-diagnostics-status.png"\] Alt text: Green Hermes Diagnostics status icon.

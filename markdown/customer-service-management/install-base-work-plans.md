@@ -50,7 +50,7 @@ Planned Work Schedules
 
 </td><td>
 
-Gauge the timing and regularity of implementation of a schedule for a work plan. Planned work schedules have triggers like the duration, meter, condition, and script to determine and ensure that the work plan milestones are met. To create a planned work schedule, see .
+Gauge the timing and regularity of implementation of a schedule for a work plan. Planned work schedules have triggers like the duration, meter, condition, and script to determine and ensure that the work plan milestones are met. To create a planned work schedule, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/work-order-management/configure-work-plan.md).
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Planned Work Schedule Templates
 
 </td><td>
 
-Describe the planned maintenance activities that must be performed for an install base item and the order in which they must occur. To create a planned work schedule template, see .
+Describe the planned maintenance activities that must be performed for an install base item and the order in which they must occur. To create a planned work schedule template, see [Associate a work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Work Order Tasks
 
 </td><td>
 
-Work orders and work order tasks are related and created only if there's an existing work order for the install base item. Fill in the **Parent** field on the work order task form with the name of the work order. To create a work order task, see .
+Work orders and work order tasks are related and created only if there's an existing work order for the install base item. Fill in the **Parent** field on the work order task form with the name of the work order. To create a work order task, see [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md).
 
 </td></tr></tbody>
 </table>

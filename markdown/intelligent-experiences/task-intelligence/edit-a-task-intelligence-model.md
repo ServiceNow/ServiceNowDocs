@@ -16,7 +16,7 @@ breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelli
 
 Retrain your machine learning models or edit what they predict to better align with your business goals.
 
--   **Edit a model to predict incident fields**
+-   **[Edit a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/edit-your-model.md)**
 
     Edit the incident prediction model that has already been trained and deployed. Change the model configurations, view the updated training results, and redeploy the model.
 

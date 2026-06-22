@@ -7,7 +7,7 @@ release: zurich
 product: Security Operations
 classification: security-operations
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Unified Approval Rules Overview, Use, Unified Security Exposure Management, Security Operations]
 ---

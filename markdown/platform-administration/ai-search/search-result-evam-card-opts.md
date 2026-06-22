@@ -270,7 +270,7 @@ useAttachmentViewer
 
 </td><td>
 
-Option to use Document Viewer to display grouped attachments shown on the Search Result card in collapsed format. To learn more about Document Viewer, see . For more information on grouped attachments and how they're shown on the Search Result card, see [Group attachment search results with their parent results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/group-attachment-srch-results-ais.md).
+Option to use Document Viewer to display grouped attachments shown on the Search Result card in collapsed format. To learn more about Document Viewer, see [Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/enable-document-viewer.md). For more information on grouped attachments and how they're shown on the Search Result card, see [Group attachment search results with their parent results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/group-attachment-srch-results-ais.md).
 
  -   Type: true \| false
 -   Default value: false

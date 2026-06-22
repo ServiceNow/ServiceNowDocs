@@ -40,9 +40,9 @@ The following Now Assist for Sourcing and Procurement Operations \(SPO\) fulfill
 -   Purchase requisition summarization for fulfillers
 -   Procurement case summarization for fulfillers
 
-If the Now Assist for Sourcing and Procurement Operations \(SPO\) fulfillers skills are turned off, you can reactivate them or configure them using the Now Assist Admin console. The console contains everything that you need to install the plugins and configure the generative AI skills. For more information, see .
+If the Now Assist for Sourcing and Procurement Operations \(SPO\) fulfillers skills are turned off, you can reactivate them or configure them using the Now Assist Admin console. The console contains everything that you need to install the plugins and configure the generative AI skills. For more information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -76,7 +76,7 @@ The following table lists the features and skills that you can access from the N
 1.  Install the Now Assist for Sourcing and Procurement Operations \(SPO\) plugin \(sn\_spend\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md).
-    -   For information about the installation process, see .
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Features** tab of the Now Assist Admin console.
 
 3.  Expand the **Finance and Supply Chain** workflow group and select **Sourcing and Procurement Operations**.
@@ -140,15 +140,15 @@ On the skill card that you want to activate, select **Activate skill**.
 
 10. Select **Define availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d40099e689">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d40123e693">
 
 Option
 
-</th><th align="left" id="d40099e692">
+</th><th align="left" id="d40123e696">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40099e698">
+</th></tr></thead><tbody><tr><td id="d40123e702">
 
 **Skill is always available**
 
@@ -156,7 +156,7 @@ Description
 
 Skill is continuously available to users.
 
-</td></tr><tr><td id="d40099e707">
+</td></tr><tr><td id="d40123e711">
 
 **Customize skill availability**
 
@@ -169,15 +169,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d40099e743">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d40123e747">
 
 Option
 
-</th><th align="left" id="d40099e746">
+</th><th align="left" id="d40123e750">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40099e752">
+</th></tr></thead><tbody><tr><td id="d40123e756">
 
 **In-product desktop**
 
@@ -185,15 +185,15 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d40099e763">
+</td></tr><tr><td id="d40123e767">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see .
+Now Assist skills are available in the Now Assist panel. Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
 
-**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
+**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>13. Select **Save and continue** to go to the next step.

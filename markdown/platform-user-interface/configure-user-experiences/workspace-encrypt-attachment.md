@@ -27,7 +27,7 @@ Encrypted attachments enable you to do the following:
 -   Choose which encryption context is to be used for file encryption when you have access to more than one context.
 -   View which encryption context is used after the file is attached to a record.
 
-For more information on encryption, see Encryption.
+For more information on encryption, see [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/encryption.md).
 
 ## Procedure
 

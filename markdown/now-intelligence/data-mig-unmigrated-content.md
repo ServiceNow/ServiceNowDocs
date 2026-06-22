@@ -26,7 +26,7 @@ Filters that are not migrated
 -   Debug filter
 -   Filter user preferences from dashboards
 -   Cascading filters that support the Choice &gt; Choice configuration
--   Filtered list content. For more information on List filters, see .
+-   Filtered list content. For more information on List filters, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_CreatingFilters.md).
 
 Visualization configurations that are not migrated:
 

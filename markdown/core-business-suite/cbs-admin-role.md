@@ -18,7 +18,7 @@ Grant administrative permissions for the Core Business Suite application and pro
 
 ## Before you begin
 
-Ensure that a user record exists for the user to whom you want to add the role. For information about how to add a new user, see .
+Ensure that a user record exists for the user to whom you want to add the role. For information about how to add a new user, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAUser.md).
 
 Role required: admin
 

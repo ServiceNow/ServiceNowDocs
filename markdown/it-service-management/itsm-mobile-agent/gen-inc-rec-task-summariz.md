@@ -38,7 +38,7 @@ You can also customize the information summary \(prompt\) from Now Assist for IT
 
 \[Omitted image "itsm-ma-summarize-worknote.png"\] Alt text: Incident record summarized as work notes
 
-For more information on Now Assist for mobile, see .
+For more information on Now Assist for mobile, see [Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/now-assist-mobile-landing.md).
 
 ## Activation of incident record summarization skill
 

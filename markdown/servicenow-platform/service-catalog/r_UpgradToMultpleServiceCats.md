@@ -33,7 +33,7 @@ The following tables are provided with [multiple service catalogs](https://raw.g
 
 Catalog site records appear in the **Sites** related list on the Catalog form.
 
-The Catalog Site \[sc\_catalog\_site\] table associates catalogs with CMS web sites.
+The Catalog Site \[sc\_catalog\_site\] table associates catalogs with [CMS web sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/content-management-system/t_CreateANewSite.md).
 
 Several [service catalog system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/r_ServiceCatalogProperties.md) are used to specify values for different sites used by different catalogs.
 

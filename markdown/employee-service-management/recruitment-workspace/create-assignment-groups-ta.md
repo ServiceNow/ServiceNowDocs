@@ -26,7 +26,7 @@ The process of assignment might be automated or manual. It serves the following 
 
 Set up the assignment groups to view data on the recruitment dashboard in the Recruitment workspace overview page.
 
-For more information on setting up assignment groups, see .
+For more information on setting up assignment groups, see [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/c_ConfigGroupTypesForAssignGroups.md).
 
 **Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/recruitment-workspace/config-recruitment.md)
 

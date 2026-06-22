@@ -23,7 +23,7 @@ Add roles to the sn\_apm.apm\_user role to be able to access GRC information fro
 |sn\_audit.user|Enables read access to the Audit Engagements tab.|
 |grc\_business\_user|Enables an application owner to respond to a risk assessment questionnaires and control attestation surveys.|
 
-For information on how to assign a role to a user, see the Assign a role to a user topic.
+For information on how to assign a role to a user, see the [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md) topic.
 
 **Parent Topic:**[Install Enterprise Architecture integration with Risk Management and Enterprise Architecture integration with Policy and Compliance - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/install-grc-application-risk-assesment.md)
 

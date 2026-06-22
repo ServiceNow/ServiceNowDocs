@@ -23,7 +23,7 @@ Role required: now\_assist\_panel\_user
 
 **Note:** If you have users that only need to edit \(not create\) apps, they can be assigned the delegated\_developer and now\_assist\_panel\_user roles.
 
-To add a flow to an application in Now Assist for app generation, the Now Assist Flow Generation skill must be active and you must have a flow\_designer role. For more information, see .
+To add a flow to an application in Now Assist for app generation, the Now Assist Flow Generation skill must be active and you must have a flow\_designer role. For more information, see [Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/flow-generation-landing.md).
 
 ## About this task
 
@@ -55,7 +55,7 @@ As you're creating or updating custom applications, use Now Assist for app gener
 
     \[Omitted image "app-generation-add-flow2.png"\] Alt text: Now Assist panel with flow details requested highlighted.
 
-    For more information about flows, see .
+    For more information about flows, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-flows.md).
 
 8.  Continue the conversation until the flow contains what you need.
 

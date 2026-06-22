@@ -28,7 +28,7 @@ The email client uses the multipart/mixed content type and supports HTML markup 
 
 **Note:** The **Subject** field on the email client allows a larger character count than the default setting for the **Subject** field on the Email \[sys\_email\] table. If the subject text from the client is being truncated, increase the **Max length** value for the **Subject** field on the Email table.
 
-For more information on using the email client in a workspace, see Communicating via email in workspace.
+For more information on using the email client in a workspace, see [Communicating via email in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/using-email.md).
 
 ## Activation information
 

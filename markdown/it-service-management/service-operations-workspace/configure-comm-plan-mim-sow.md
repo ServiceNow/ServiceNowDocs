@@ -46,7 +46,7 @@ Role required: sn\_mim\_sow\_admin and sn\_comm\_management.comm\_plan\_viewer, 
 
 4.  Select **New** to create a communication plan definition.
 
-    For more information on creating a communication plan, see .
+    For more information on creating a communication plan, see [Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/task-communications-management/create-comm-plan-definition.md).
 
     After a communication plan definition is created, the following related lists appear in the communication plan definition record:
 
@@ -54,16 +54,16 @@ Role required: sn\_mim\_sow\_admin and sn\_comm\_management.comm\_plan\_viewer, 
     -   Communication Contact Definitions
 5.  Select the Communication Task Definitions related list and then select **New** to create a communication task.
 
-    For more information on creating a communication task, see .
+    For more information on creating a communication task, see [Define a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/task-communications-management/create-comm-task-definition.md).
 
 6.  On the Communication task definition record, select the required communication channel related link to define the communication channel.
 
-    The communication channel related list contains the communication channel related links such as Add channel - Email, Add channel - Sidebar discussion and Add channel - DEX Desktop Assistant. For more information on creating a communication channel, see .
+    The communication channel related list contains the communication channel related links such as Add channel - Email, Add channel - Sidebar discussion and Add channel - DEX Desktop Assistant. For more information on creating a communication channel, see [Define a communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/task-communications-management/create-comm-channel-definition.md).
 
 7.  On the Communication plan definition record, select the Communication contact definition related list.
 
 8.  Select **New** to create a communication contact definition.
 
-    For more information on creating a communication contact definition, see .
+    For more information on creating a communication contact definition, see [Define a communication contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/task-communications-management/create-comm-contact-definition.md).
 
 

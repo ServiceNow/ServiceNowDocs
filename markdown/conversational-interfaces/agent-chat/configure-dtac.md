@@ -22,9 +22,9 @@ Activate Dynamic Translation for Agent Chat \(DTAC\) so chat conversations can b
 
 These tasks must be completed prior to activating DTAC:
 
--   Integrate with a translation service provider
--   Migrate to version v3 of a translator configuration
--   Translate a knowledge article
+-   [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md)
+-   [Migrate to version v3 of a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-translation/migrate-v3-dynamic-translation.md)
+-   [Translate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/translate-knowledge-article.md)
 
 ## Activating DTAC
 
@@ -32,9 +32,9 @@ DTAC translates chat conversations from one language to another. The preferred l
 
 DTAC is inactive by default. Before activating DTAC, the following requirements must be completed:
 
--   
+-   [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/dynamic-translation.md)
 -   [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ac-configure-agent-chat.md)
--   Activate a language
+-   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization/t_ActivateALanguage.md)
 
 Activate the Dynamic Translation for Agent Chat plugin \(com.glide.cs.dynamic.translation.agent.chat\).
 
@@ -92,7 +92,7 @@ DTAC does not support record card labels. For this functionality to operate, sys
 
 You can generate a report that counts the number of DTAC chats, to assess how many conversations use the DTAC option.
 
-Monitor the number of true values in the Translated column in the Interaction table. For more information, see the ServiceNow® product documentation on Interaction records in Workspace Interaction records in Agent Workspace.
+Monitor the number of true values in the Translated column in the Interaction table. For more information, see the ServiceNow® product documentation on [Interaction records in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/interaction-message-agent-workspace.md) Interaction records in Agent Workspace.
 
 **Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

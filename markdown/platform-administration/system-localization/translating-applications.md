@@ -94,7 +94,7 @@ Service Portal widget
 </td><td>
 
 -   [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/t_TranslateAClientScriptMessage.md)
--   Internationalize a widget in Service Portal documentation
+-   [Internationalize a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_WidgetLocalization.md) in Service Portal documentation
 -   For unofficial advice, see [Building multi-lingual service portals](https://www.dylanlindgren.com/2018/11/07/building-multilingual-service-portals/)
 
 </td></tr><tr><td>
@@ -108,7 +108,7 @@ Playbooks
 
 </td><td>
 
-
+[Add translations for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/add-translations-playbooks.md)
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ Support Chat is mostly translated through the I18N language plugins. If you cust
 
 </td><td>
 
-Internationalize a widget in Service Portal documentation
+[Internationalize a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_WidgetLocalization.md) in Service Portal documentation
 
 </td></tr><tr><td>
 

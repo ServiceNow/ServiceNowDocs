@@ -28,15 +28,15 @@ Prerequisite stories are the stories that must be completed before the current s
 
 1.  Navigate to a story by using any of the following options.
 
-<table id="choicetable_txj_1mx_4lb"><thead><tr><th align="left" id="d48170e64">
+<table id="choicetable_txj_1mx_4lb"><thead><tr><th align="left" id="d47142e64">
 
 Option
 
-</th><th align="left" id="d48170e67">
+</th><th align="left" id="d47142e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d48170e73">
+</th></tr></thead><tbody><tr><td id="d47142e73">
 
 **From the Stories module**
 
@@ -46,7 +46,7 @@ Steps
 2.  Click the story that you want to add dependencies to.
 
 
-</td></tr><tr><td id="d48170e100">
+</td></tr><tr><td id="d47142e100">
 
 **From the SAFe planning board**
 

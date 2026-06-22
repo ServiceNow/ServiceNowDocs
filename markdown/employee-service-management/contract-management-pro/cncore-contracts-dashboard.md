@@ -18,7 +18,7 @@ With Contracts Dashboard, you can make data-driven decisions by analyzing the tr
 
 On the dashboard, you can analyze the contract request trends, compare data, and drill down into each report to view key performance indicator \(KPI\) details.
 
-For more information on working with KPI details, see .
+For more information on working with KPI details, see [Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/kpi-details-components.md).
 
 \[Omitted image "cmpro-contracts-dashboard.png"\] Alt text: Contracts Dashboard displaying contract-related trends and reports.
 

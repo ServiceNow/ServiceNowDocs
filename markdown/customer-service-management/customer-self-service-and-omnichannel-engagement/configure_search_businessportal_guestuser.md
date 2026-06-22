@@ -20,7 +20,7 @@ Activate the AI search widgets to allow guest users logging in to the Business p
 
 Role required: admin
 
-You must configure AI Search for the business portal. For more information, see Enable and configure AI Search in Service Portal.
+You must configure AI Search for the business portal. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
 
 ## Procedure
 

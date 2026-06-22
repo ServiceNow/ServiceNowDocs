@@ -18,8 +18,8 @@ Add users as staff members to a internal business location or channel partner so
 
 |Task|Description|
 |----|-----------|
-||Add users as staff members to an internal business location.|
-||Add users as staff members to an channel partner.|
+|[Add staff members to an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/add-user-internal-bus-location.md)|Add users as staff members to an internal business location.|
+|[Register Partner Staff on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/register-partner-staff-on-workspace.md)|Add users as staff members to an channel partner.|
 
 -   **[Add members to an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations/mco-internal-business-location.md)**  
 Add users as staff members to an internal business location to support accounts, contacts, consumers, and households.

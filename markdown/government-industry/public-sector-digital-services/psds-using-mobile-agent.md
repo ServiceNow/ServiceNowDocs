@@ -26,7 +26,7 @@ Use the Mobile Agent to review your case details and complete your case tasks. W
 
 The following video highlights some of the capabilities of the ServiceNow® Mobile Agent app.
 
-**Note:** To use the Mobile Agent, the required plugins must be enabled by an administrator. If you're an administrator, see [Configure Mobile Agent for Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-digital-services/psds-config-mobile-agent.md) to get the information on configuring the Mobile Agent. For instructions on how to get started with the app after an administrator configures these settings, see .
+**Note:** To use the Mobile Agent, the required plugins must be enabled by an administrator. If you're an administrator, see [Configure Mobile Agent for Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-digital-services/psds-config-mobile-agent.md) to get the information on configuring the Mobile Agent. For instructions on how to get started with the app after an administrator configures these settings, see [Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/install-customer-service-mobile-app.md).
 
 ## Mobile Agent homepage
 

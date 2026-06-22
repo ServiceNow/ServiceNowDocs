@@ -99,7 +99,7 @@ During the building of the upgrade plan, the following operations are done at th
     -   The global records are packaged into the global customization upgrade plan app and published to the app repo
     -   The scoped skipped records are packaged into the respective app customization packages
     -   When the upgrade plan is published, a global application is created, for example, **Upgrade Plan - release name**
--   Existing ServiceNow features like Global Application and App customization are used as application containers that can be installed in all the required instances. See  and  for more information.
+-   Existing ServiceNow features like Global Application and App customization are used as application containers that can be installed in all the required instances. See  and [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationScope.md) for more information.
 -   If you install any applications or plugins, they are also captured in the Upgrade plan. But, since they are application life cycle items, they are never pushed to the App Repository.
 
 During the consumption of the upgrade plan, the following operations are done at the background:

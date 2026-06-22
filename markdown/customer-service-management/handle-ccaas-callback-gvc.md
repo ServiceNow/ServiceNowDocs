@@ -38,15 +38,15 @@ The callback interaction is either routed in the customer-first or agent-first m
     -   Reason for callback
 2.  Perform one of the following in your inbox when you receive a callback interaction request.
 
-<table id="choicetable_xrb_1lf_cgc"><thead><tr><th align="left" id="d34580e120">
+<table id="choicetable_xrb_1lf_cgc"><thead><tr><th align="left" id="d34412e120">
 
 Action
 
-</th><th align="left" id="d34580e123">
+</th><th align="left" id="d34412e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d34580e129">
+</th></tr></thead><tbody><tr><td id="d34412e129">
 
 **Accept**
 
@@ -54,7 +54,7 @@ Description
 
 Select this button to accept the callback interaction request.The voice interaction page opens with the Callback Actions component on the top-left corner of the page. For more details on the callback actions component, see [Callback actions component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-native-voice-record-page.md).
 
-</td></tr><tr><td id="d34580e144">
+</td></tr><tr><td id="d34412e144">
 
 **Reject**
 

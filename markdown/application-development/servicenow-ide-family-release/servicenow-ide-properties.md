@@ -16,7 +16,7 @@ breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Bu
 
 Manage how the ServiceNow IDE functions on an instance using the following system properties.
 
-**Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter. To add properties to the table, see .
+**Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter. To add properties to the table, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 <table id="table_acm_jnt_tdc"><thead><tr><th>
 

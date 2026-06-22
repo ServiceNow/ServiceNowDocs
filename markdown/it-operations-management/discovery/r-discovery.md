@@ -18,7 +18,7 @@ ServiceNow Discovery is an automated process that continuously scans and identif
 
 Discovery overview Discovery is available as a separate subscription from the rest of the ServiceNow AI Platform. See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) for details.
 
-Discovery supports database encryption and full-disk encryption. See  for details.
+Discovery supports database encryption and full-disk encryption. See [Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md) for details.
 
 ## Get started
 
@@ -34,8 +34,8 @@ Discovery supports database encryption and full-disk encryption. See  for detail
 
  -   [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md)
 -   [Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-setup.md)
--   MID Server installation
--   Create and test your credentials
+-   [MID Server installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-installation.md)
+-   [Create and test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/t_CreateCredential.md)
 -   [Migrate from CAPI to Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/migrate-from-capi-to-pattern.md)
 
 </td><td>
@@ -64,7 +64,7 @@ Discovery supports database encryption and full-disk encryption. See  for detail
 
 **Integrate and develop**
 
- -   Activate SCCM Asset Intelligence scheduled imports
+ -   [Activate SCCM Asset Intelligence scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/activate-ai-scheduled-imports.md)
 -   [Discovery APIs on the ServiceNow® Developer Site](https://developer.servicenow.com)
 
 </td><td>

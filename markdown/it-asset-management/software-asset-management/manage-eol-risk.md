@@ -75,7 +75,7 @@ The EOL workflow can also be completed using the Software End of Life Flow in th
         -   Remove EOL software
         -   Upgrade
         -   Move to Azure
-        For details on removing an EOL software product, see [Complete the end of life workflow request for your software product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/complete-eol-workflow-request.md). For details on completing a change request and the role required for it, see .
+        For details on removing an EOL software product, see [Complete the end of life workflow request for your software product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/complete-eol-workflow-request.md). For details on completing a change request and the role required for it, see [Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md).
 
     -   If you select **Purchase support** in the **Action** field and select the **Auto create PO** option in the EOL task, a purchase order is created. For details on completing a purchase order and the role required for it, see [Create a purchase order line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/procurement/t_CreateAPurchaseOrderLineItem.md).
     After you complete the parent task, the **Stage** field is updated to reflect the stage of the task. Additionally, the **Action initiated** field is updated to reflect the action you have selected for the EOL request.

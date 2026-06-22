@@ -79,7 +79,7 @@ Benefits
 </td><td>
 
 -   Connect to any SaaS application with a public API
--   Low-code framework using ServiceNow® via  and Workflow Studio
+-   Low-code framework using ServiceNow® via [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/integrationhub.md) and Workflow Studio
 
 </td><td>
 

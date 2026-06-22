@@ -44,7 +44,7 @@ This video walks you through the steps for creating a learning path.
     1.  In the **Path name** field, enter a unique name for the learning path.
     2.  In the **Course Catalog** field, select the catalog to which you want to associate the learning path.
 
-        **Important:** You can customize the publish flow for any catalog other than the **Default Catalog**. For information on publish flow, see Create a course catalog and the Course catalog form.
+        **Important:** You can customize the publish flow for any catalog other than the **Default Catalog**. For information on publish flow, see [Create a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/learning-core/create-course-catalog.md) and the [Course catalog form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/learning-core/course-catalog-table.md).
 
     3.  Select **Next**.
     The learning path that is created is in **Draft** state. You can choose to complete it later.

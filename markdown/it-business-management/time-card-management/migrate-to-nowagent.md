@@ -38,7 +38,7 @@ The Mobile Time Sheets app must be installed in your system.
 
 7.  Download and enable the Now Mobile app.
 
-    For more information, see the Now Mobile app topic.
+    For more information, see the [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/now-mobile-app.md) topic.
 
 
 **Parent Topic:**[Install Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/time-card-management/install-timesheet-mobile.md)

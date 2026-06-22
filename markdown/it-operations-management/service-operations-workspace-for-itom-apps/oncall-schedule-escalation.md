@@ -23,5 +23,5 @@ To enable on-call scheduling for alerts, first incorporate the Alert table \[em\
 
 ## Teams in Service Operations Workspace
 
-Use the Teams menu \(\[Omitted image "icon-sow-itom-teams.png"\] Alt text: Teams icon\) in Service Operations Workspace to view all teams. Select a team card to view and manage a team's schedule, define escalation policies, and team preferences for the selected shift. This feature verifies that your team knows who is on call, is accountable, and is confident that critical alerts or incidents are acknowledged. For information on creating a shift, see Create on-call shift for your team.
+Use the Teams menu \(\[Omitted image "icon-sow-itom-teams.png"\] Alt text: Teams icon\) in Service Operations Workspace to view all teams. Select a team card to view and manage a team's schedule, define escalation policies, and team preferences for the selected shift. This feature verifies that your team knows who is on call, is accountable, and is confident that critical alerts or incidents are acknowledged. For information on creating a shift, see [Create on-call shift for your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md).
 

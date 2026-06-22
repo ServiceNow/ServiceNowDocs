@@ -34,8 +34,8 @@ You can assign roles to individual users or groups. Apply roles to groups and th
 
 -   You can also assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   Assign a role to a user
-    -   Assign a role to a group
+    -   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
+    -   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
 
 **Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
 

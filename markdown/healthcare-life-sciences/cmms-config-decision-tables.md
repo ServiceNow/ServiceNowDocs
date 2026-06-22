@@ -24,7 +24,7 @@ You configure decision tables for medical device AEM cases by navigating to **Al
 
 The **Trigger medical device AEM approval** business rule runs when a clinical engineer selects **Request approval** during the review of an AEM request in the playbook. The business rule triggers the approval workflow, if available, for the AEM review. When the decision conditions are satisfied, the approval request is sent to all the approvers. If no approval workflow is available, the AEM request is automatically approved.
 
-**Note:** When configuring the decision approval flow using the Workflow Studio feature, make sure that the **Approval** field configured for the Medical device case \[sn\_hcls\_cmms\_case\] table is set to **Approval** for the last level of the approval action only. For more information, see Ask for Approval step.
+**Note:** When configuring the decision approval flow using the Workflow Studio feature, make sure that the **Approval** field configured for the Medical device case \[sn\_hcls\_cmms\_case\] table is set to **Approval** for the last level of the approval action only. For more information, see [Ask for Approval step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/ask-approval-action-designer.md).
 
 To learn more, see .
 

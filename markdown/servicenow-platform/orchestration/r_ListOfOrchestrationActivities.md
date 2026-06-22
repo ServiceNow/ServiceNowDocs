@@ -16,7 +16,7 @@ breadcrumb: [Activate Orchestration, Classic Orchestration, ServiceNow AI Platfo
 
 Use Orchestration activities in a Workflow to integrate with third-party systems.
 
-Several Orchestration activities have been rewritten as Application scope activities using the [activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md) and grouped into [activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md). Other non-scoped activities are deprecated and may or may not appear in the Workflow Editor. However, all deprecated activities still function in existing workflows that use them.
+Several Orchestration activities have been rewritten as [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationScope.md) activities using the [activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md) and grouped into [activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md). Other non-scoped activities are deprecated and may or may not appear in the Workflow Editor. However, all deprecated activities still function in existing workflows that use them.
 
 ## Global activities
 

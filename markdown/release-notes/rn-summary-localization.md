@@ -32,7 +32,7 @@ AI Search
 
 </td><td>
 
-AI Search supports international languages. For details of language support by feature, see .
+AI Search supports international languages. For details of language support by feature, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/international-language-support-ais.md).
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Generative AI Controller
 
 </td><td>
 
-Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multilanguage support. You can enable dynamic translation from the Now Assist Admin console. For more information, see .
+Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multilanguage support. You can enable dynamic translation from the Now Assist Admin console. For more information, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/dynamic-translation-na-ms-azure-oem.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Now Assist in AI Search
 
 </td><td>
 
-Now Assist in AI Search supports  in Now Assist Genius Results. For details, see  and .
+Now Assist in AI Search supports [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) in Now Assist Genius Results. For details, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md) and [Dynamic Translation for Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/dynamic-translation-na-actions-gr.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Now Assist in Document Intelligence
 
 </td><td>
 
--   **Support for files in multiple languages**
+-   **[Support for files in multiple languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-in-document-intelligence/languages-supported-now-assist-document-intelligence.md)**
 
 Process files with text in multiple languages, including Simplified Chinese and Japanese.
 
@@ -131,7 +131,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- is supported for non-streaming Now Assist Virtual Agent conversations. For details, see , , and .
+[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) is supported for non-streaming Now Assist Virtual Agent conversations. For details, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/enable-dynamic-translation-for-now-assist-applications.md), [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md), and [Using language detection and dynamic machine translation in Virtual Agent NLU and LLM standard chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-standard-chat-nlu.md).
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ RPA Hub
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see Internationalization support for RPA Hub.
+RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-hub/rpa-hub-international-language-support.md).
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ ServiceNow IDE
 
 </td><td>
 
-The ServiceNow IDE is localized in all supported left-to-right languages and reflects the language preference selected by users for the instance. For information about how to activate a language on an instance, see .
+The ServiceNow IDE is localized in all supported left-to-right languages and reflects the language preference selected by users for the instance. For information about how to activate a language on an instance, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Zurich features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/release-notes-summaries.md)

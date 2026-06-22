@@ -201,7 +201,7 @@ sn\_app\_eng\_studio.admin
 
 </td><td>
 
-Granular admin role that provides access to App Engine Studio and enables administrative access to AES tables. Can be combined with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see .
+Granular admin role that provides access to App Engine Studio and enables administrative access to AES tables. Can be combined with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/roles-within-platform-security.md).
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ sn\_table\_bldr\_wzd.table\_bldr\_wzd\_admin
 Granular admin role that provides access to manage permissions during table creation in AES.
 
 </td></tr></tbody>
-</table>**Important:** Granular admin roles cannot manage tables that depend on ServiceNow AI Platform tables, such as the Experience Visibility Control table \(sn\_udc\_experience\_visibility\_control\) or Preferred Tables \(sn\_preferred\_table\). To manage such tables, additional granular admin roles are necessary. For more information, see .
+</table>**Important:** Granular admin roles cannot manage tables that depend on ServiceNow AI Platform tables, such as the Experience Visibility Control table \(sn\_udc\_experience\_visibility\_control\) or Preferred Tables \(sn\_preferred\_table\). To manage such tables, additional granular admin roles are necessary. For more information, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/roles-within-platform-security.md).
 
 **Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/configure-aes.md)
 

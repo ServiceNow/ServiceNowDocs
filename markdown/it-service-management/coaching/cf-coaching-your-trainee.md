@@ -8,7 +8,7 @@ product: Coaching
 classification: coaching
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Training agents using Coaching with Learning, Coaching, IT Service Management]
 ---
 
@@ -21,7 +21,7 @@ You can access the Coaching Dashboard from the Coaching navigation menu, or dire
 **Note:**
 
 -   You must have the Coaching coach role to view the Coach Dashboard.
--   The Coach Dashboard page uses the Next Experience user interface. For more information on Next Experience, see .
+-   The Coach Dashboard page uses the Next Experience user interface. For more information on Next Experience, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
 Coaching begins once a trainee assessment has been assigned to you. Coaching assessments are triggered from a coaching opportunity that is set up by the coaching admin. Use coaching assessments to facilitate a dialog with your trainee, assign training content, and set a due date and other details.
 

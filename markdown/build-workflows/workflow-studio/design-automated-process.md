@@ -20,7 +20,7 @@ Transform an example manual business process into a well-designed, automated pro
 
 -   Enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin with a subscription to the ServiceNow AI Platform App Engine. For more information, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md).
 -   Follow the steps to Configure a Playbook user experience.
--   Ensure that your current application is set to **Global**. For more information, see Application picker.
+-   Ensure that your current application is set to **Global**. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 -   Role required: admin or playbook.admin
 
 ## About this task
@@ -60,7 +60,7 @@ The manual business process for this example consists of the following stages:
 
     8.  In the Table list, select **Interaction \[interaction\]**.
 
-    9.  Use the condition builder to add the following condition to your trigger:
+    9.  Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to add the following condition to your trigger:
 
         **\[Opened for-&gt;VIP\]** **\[is\]** **\[True\]**.
 
@@ -162,7 +162,7 @@ The manual business process for this example consists of the following stages:
 
     10. In the Table list, select **Incident \[incident\]**.
 
-    11. Use the condition builder to add the following condition to your activity:
+    11. Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to add the following condition to your activity:
 
         **\[Updated by\]** **\[is\]** **\[Activities** &gt; **1:1 - automated\_create\_record** &gt; **Outputs** &gt; **record** &gt; **Assigned to\]**.
 
@@ -216,7 +216,7 @@ The manual business process for this example consists of the following stages:
 
     10. In the **Table** field, select **Incident \[incident\]**.
 
-    11. Use the condition builder to add the following condition to your activity:
+    11. Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to add the following condition to your activity:
 
         **\[State\]** **\[is\]** **\[Resolved\]**.
 

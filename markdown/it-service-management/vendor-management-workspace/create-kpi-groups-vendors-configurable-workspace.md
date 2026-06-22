@@ -18,7 +18,7 @@ Create key performance indicator \(KPI\) groups and include KPIs that matter mos
 
 ## Before you begin
 
-Configure Performance analytics indicators that you want to add to each vendor KPI group. For a list of indicators that are available by default refer to [Installed with Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md).
+Configure [Performance analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_Indicators.md) that you want to add to each vendor KPI group. For a list of indicators that are available by default refer to [Installed with Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.md).
 
 The indicators must have a vendor breakdown on the Company \[core\_company\] table with associated vendors.
 

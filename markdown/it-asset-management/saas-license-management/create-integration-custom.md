@@ -33,15 +33,15 @@ If you’re using Software Asset Workspace, the option to create the custom inte
 
 1.  Navigate to the custom integration profile.
 
-<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d68020e91">
+<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d68069e91">
 
 Interface
 
-</th><th align="left" id="d68020e94">
+</th><th align="left" id="d68069e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d68020e100">
+</th></tr></thead><tbody><tr><td id="d68069e100">
 
 **Core UI**
 
@@ -51,7 +51,7 @@ Action
 2.  Select **Custom Integration Profile**.
 
 
-</td></tr><tr><td id="d68020e136">
+</td></tr><tr><td id="d68069e136">
 
 **Software Asset Workspace**
 
@@ -97,7 +97,7 @@ Connection &amp; Credential
     -   Connection Type: **HTTP**.
     -   Support Multiple Active Connections: Not selected.
     -   Default Retry Policy: **Default HTTP Retry Policy**.
-    -   Configuration Template: If you're using the OAuth authorization code grant type, **OAuth Authorization Code**. If you're using an API token, **Basic Auth with API Key**. If you're using another authentication method, create a configuration template. For more information, see Create a configuration template and Configure a template for OAuth JWT Bearer grant type.
+    -   Configuration Template: If you're using the OAuth authorization code grant type, **OAuth Authorization Code**. If you're using an API token, **Basic Auth with API Key**. If you're using another authentication method, create a configuration template. For more information, see [Create a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/create-template.md) and [Configure a template for OAuth JWT Bearer grant type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/docusign-example.md).
 4.  Select **Submit**.
 
 

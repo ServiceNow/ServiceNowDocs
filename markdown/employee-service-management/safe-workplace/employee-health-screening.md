@@ -22,12 +22,12 @@ The ServiceNow® Employee Health Screening application enables organizations to 
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
-    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
+    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 
 ## Integrate with Customer Service Management
 
-Use ServiceNow® Customer Service Management and Employee Health Screening together to provide consumers and contacts with access to a health verification form on your Consumer or Customer Service Portals. Conduct health screenings for consumers and contacts before they can be granted entry to a location. For more information about using Customer Service Management with Employee Health Screening, see Integrate Customer Service Management with Safe Workplace applications.
+Use ServiceNow® Customer Service Management and Employee Health Screening together to provide consumers and contacts with access to a health verification form on your Consumer or Customer Service Portals. Conduct health screenings for consumers and contacts before they can be granted entry to a location. For more information about using Customer Service Management with Employee Health Screening, see [Integrate Customer Service Management with Safe Workplace applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-integration-safe-workplace.md).
 
 ## Use with other Safe Workplace suite applications
 

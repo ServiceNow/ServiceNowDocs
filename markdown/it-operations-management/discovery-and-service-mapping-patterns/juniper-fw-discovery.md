@@ -46,7 +46,7 @@ The Next-Generation Juniper Network Firewall pattern introduces the following CI
 
 Deploy the pattern as follows:
 
-1.  Download and install the CMDB CI Class Models: Release 1.10.0 from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery. For more information, see Firewall extension classes.
+1.  Download and install the CMDB CI Class Models: Release 1.10.0 from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery. For more information, see [Firewall extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-fw.md).
 2.  Download and install the discovery pattern from the ServiceNow Store.
 3.  Sync the pattern with the appropriate MID Server.
 

@@ -29,7 +29,7 @@ Build Agent automatically generates Access Control Lists \(ACLs\) that enforce r
 
 Build Agent supports the full set of native ServiceNow security controls, not only ACLs and roles. For example, Build Agent can create Security Attributes for attribute-based access control and Security Data Filters for row-level data restriction.
 
--   Security Attributes control access based on properties assigned to users and resources, instead of role membership alone. For more information on Security Attributes, see .
+-   Security Attributes control access based on properties assigned to users and resources, instead of role membership alone. For more information on Security Attributes, see [Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/security-attributes-landing.md).
 -   Security Data Filters restrict which rows a user can see on a table, for example, so that managers see only their team's records.
 
 All four security metadata types can be combined in a single application for layered access control.
@@ -50,7 +50,7 @@ AI Control Tower identifies specific security considerations for generated agent
 
 If your organization uses AI Risk and Compliance, generated agents can be evaluated against organizational policies and regulatory frameworks such as the NIST AI Risk Management Framework and the EU Artificial Intelligence Act. Risk classification and compliance posture are surfaced on the Risk and Compliance tab of each AI asset record.
 
-For more information, see .
+For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md).
 
 For more information on governance, vibe coding and other ServiceNow development tools, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/vc-governance.md).
 

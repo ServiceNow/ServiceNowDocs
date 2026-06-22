@@ -35,7 +35,7 @@ Templates simplify the process of creating tasks in Workplace Core by populating
 
     -   If you are creating a new template, select **New**.
     -   If you are modifying an existing template, open the desired template.
-    For information about the template form fields, see Create a template.
+    For information about the template form fields, see [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateATemplateUsingTheTmplForm.md).
 
 3.  Select the **Workplace Task \[sn\_wsd\_core\_workplace\_task\]** table in the **Table** field.
 

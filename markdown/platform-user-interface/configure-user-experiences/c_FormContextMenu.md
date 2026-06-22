@@ -35,7 +35,7 @@ The form context menu includes the following options.
 |Copy URL|Copies to the clipboard the URL for the form view of the record. Follow browser instructions if browser security measures restrict this function.|
 |Copy sys\_id|Administrators only. Copies to the clipboard the sys\_id of the record. Follow browser instructions if browser security measures restrict this function.|
 |Show XML|Administrators only. Displays record data in XML format.|
-|History|Administrators only. Displays audit history for the record, which must be enabled for the table. For more information, see Enable auditing for a table.|
+|History|Administrators only. Displays audit history for the record, which must be enabled for the table. For more information, see [Enable auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/t_EnableAuditingForATable.md).|
 |Reload Form|Reloads information from the database to refresh the form view.|
 
 **Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/c_UsingForms.md)

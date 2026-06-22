@@ -189,7 +189,7 @@ Redirects into the full-page experience's chat tab.
 
 Standard, enhanced, and premium chat require the ServiceNow default chat widget button to be turned on. The following actions must be completed for enhanced or premium chat to display a synthesized response after entering a search query through the portal:
 
--   Configure the portal's AI Search
+-   [Configure the portal's AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/configuring-ais.md)
 -   Turn on the ServiceNow default Search page widget.
 -   Turn on the ServiceNow default chat widget button.
 
@@ -205,11 +205,11 @@ The following actions must be completed for enhanced or premium chat to display 
 Want to learn more? Visit these resources.
 
 -   For more information on enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
--   For more information on enhanced chat in Employee Center, see .
--   For more information on enhanced chat in self-service portals, see .
+-   For more information on enhanced chat in Employee Center, see [Enhanced chat in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.md).
+-   For more information on enhanced chat in self-service portals, see [Now Assist conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nass-portal.md).
 -   For more information on premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
--   For more information on Now Assist, see .
--   For more information on Now Assist in AI Search, see .
--   For more information on language support, see .
+-   For more information on Now Assist, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
+-   For more information on Now Assist in AI Search, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/now-assist-ais.md).
+-   For more information on language support, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/translation-for-now-assist.md).
 -   For more information on Now Assist in Virtual Agent analytics, see .
 

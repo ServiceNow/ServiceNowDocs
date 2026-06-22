@@ -80,7 +80,7 @@ From the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon
 
 \[Omitted image "rpa-hub-lists.png"\] Alt text: Lists view.
 
-You can create your own filtered lists to monitor your digital workforce by configuring **My Lists**. These lists are only visible to you. For more information, see Create My Lists in workspace.
+You can create your own filtered lists to monitor your digital workforce by configuring **My Lists**. These lists are only visible to you. For more information, see [Create My Lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/create-filtered-list-agent-workspace.md).
 
 ## Help center
 
@@ -90,5 +90,5 @@ Help Center provides users with the information they need, and tells users what 
 
 ## Dark theme
 
-Help alleviate eye strain by switching to a dark theme or mode available in the RPA Hub Workspace for RPA Hub landing page, Robot Calendar, Overview page, and RPA Hub system properties. For more information about the dark theme, see Exploring themes in Next Experience.
+Help alleviate eye strain by switching to a dark theme or mode available in the RPA Hub Workspace for RPA Hub landing page, Robot Calendar, Overview page, and RPA Hub system properties. For more information about the dark theme, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
 

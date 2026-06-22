@@ -34,7 +34,7 @@ Selecting model categories defines which hardware asset types CMDB success advis
 
 1.  On the CMDB success advisor landing page, select **Select model categories** within the HAM card.
 
-    See .
+    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md).
 
 2.  On the Select model categories dialog box, select a resource category to choose all its model categories or expand a resource category to select individual categories, then move them from the **Available resource and model categories** column to the **Selected** column.
 

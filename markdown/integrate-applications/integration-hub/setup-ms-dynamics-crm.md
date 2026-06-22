@@ -238,7 +238,7 @@ Role required: admin.
 
 4.  Customize the subflow according to your requirement and publish it.
 
-    See  for more information about creating and using subflows.
+    See [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-subflow.md) for more information about creating and using subflows.
 
 5.  Navigate to **Dynamics CRM Webhook Details** &gt; **Decision Policy**.
 

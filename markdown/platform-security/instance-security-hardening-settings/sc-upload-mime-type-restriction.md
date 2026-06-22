@@ -18,7 +18,7 @@ Use the **glide.security.file.mime\_type.validation** property to activate MIME 
 
 ## Prerequisites
 
-Before setting this property, set the **glide.attachment.extensions** property. Only those extensions specified in **glide.attachment.extensions** are checked for MIME type during upload. To learn more, see .
+Before setting this property, set the **glide.attachment.extensions** property. Only those extensions specified in **glide.attachment.extensions** are checked for MIME type during upload. To learn more, see [Restrict file extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/restrict-file-extensions.md).
 
 Ensure the Glide Property **glide.ui.jelly.js\_interpolation.protect\_nested\_expressions** exists and is set to the value true. If the property does not appear in the sys\_properties table, add a new record.
 
@@ -35,11 +35,11 @@ Ensure the Glide Property **glide.ui.jelly.js\_interpolation.protect\_nested\_ex
 |Security risk rating|5.4|
 |Functional impact|This remediation enables MIME type verification on the attachments to the application. No functionality impact, unless there is a malicious intent in uploading the files as this validation is merely checking for mis-sync between the MIME type and the data.|
 |Security risk|\(Medium\) To reduce vulnerabilities such as file inclusion and malicious file uploads, MIME type verification should be enabled.|
-|References||
+|References|[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AdministeringAttachments.md)|
 
 See [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/security-hardening-settings.md) for details on configuring properties for hardening.
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

@@ -32,15 +32,15 @@ Role required: pf\_user
 
 4.  Update the record details or delete the feedback filter card.
 
-<table id="choicetable_pxx_tl2_2bc"><thead><tr><th align="left" id="d82793e94">
+<table id="choicetable_pxx_tl2_2bc"><thead><tr><th align="left" id="d81765e94">
 
 Choice
 
-</th><th align="left" id="d82793e97">
+</th><th align="left" id="d81765e97">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d82793e103">
+</th></tr></thead><tbody><tr><td id="d81765e103">
 
 **Edit feedback filter card**
 
@@ -53,7 +53,7 @@ From the feedback page:
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d82793e138">
+</td></tr><tr><td id="d81765e138">
 
 **Delete feedback filter card**
 

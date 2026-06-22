@@ -71,7 +71,7 @@ Audience
 
 The audience determines who can see the page variant. The Front-line case page has the following audience: **CSM - Front-line Agent**This audience includes the sn\_cwf\_wrkspc.frontline\_agent role.
 
-For more information, see Learn about audiences.
+For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/add-audiences.md).
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -115,7 +115,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see Group and find records using tags in workspace.
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/setting-record-tags-agent-workspace.md).
 
 </td></tr><tr><td>
 
@@ -240,8 +240,8 @@ The Front-line case page action bar includes the **Follow** action in the More A
 
 You receive notifications in the Notifications menu at the top of the page according to your notification preferences. You can select the notification to open the record that was updated. For more information, see the following topics:
 
--   Configure Next Experience notification preferences
--   Follow records in Next Experience
+-   [Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-notifications-preferences.md)
+-   [Follow records in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/follow-records-in-next-experience.md)
 
 When the **Follow** action is selected, the button toggles to **Unfollow**. To stop receiving notifications, select **Unfollow**.
 
@@ -468,7 +468,7 @@ The user presence component displays an icon in the form header that shows the u
 -   Hover over an icon to see more information about a user.
 -   Select the number icon to see more information about the additional users.
 
-For more information about this feature, see .
+For more information about this feature, see [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_UserPresence.md).
 
 ## Requesting information from customers
 

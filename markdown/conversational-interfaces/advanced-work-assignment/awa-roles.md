@@ -16,7 +16,7 @@ breadcrumb: [Reference, Advanced Work Assignment, Manage people and work, Conver
 
 Advanced Work Assignment \(AWA\) is installed with these roles.
 
-To learn more about managing subscriptions, see  and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 -   **[AWA administrator \[awa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-roles-1.md)**  
 The AWA administrator configures and manages AWA.

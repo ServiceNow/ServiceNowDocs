@@ -68,7 +68,7 @@ Type
 
 </td><td>
 
-The variable type that you want to create. For more information, see Types of service catalog variables.
+The variable type that you want to create. For more information, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/r_VariableTypes.md).
 
 </td></tr><tr><td>
 
@@ -234,7 +234,7 @@ Show help
 
 </td><td>
 
-If selected, displays the help text and instructions for the variable.**Note:**
+If selected, displays the [help text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/t_DefineHelpInformation.md) and instructions for the variable.**Note:**
 
 -   It is not available for break and check box variables.
 -   Help text and instructions are not available for a variable set.
@@ -300,7 +300,7 @@ Variable Width
 
 </td><td>
 
-Width for the variable on the catalog item page, to specify what percentage of the screen size that it can span. For details, see Configure a default width for service catalog variables.This field appears for all variable types except for break, container end, container start, container split, container layout, and label variables.
+Width for the variable on the catalog item page, to specify what percentage of the screen size that it can span. For details, see [Configure a default width for service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/configure-variable-width.md).This field appears for all variable types except for break, container end, container start, container split, container layout, and label variables.
 
 </td></tr><tr><td>
 
@@ -310,7 +310,7 @@ Enable also request for
 
 Option to allow a catalog item request to be submitted for multiple users. After you select this option, the **Also request for** field is displayed along with Requested For variable in a catalog item. -   This functionality is only applicable in Service Portal.
 -   This field is applicable only for the Requested For variable.
-For information about delegated request experience, see .
+For information about delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/delegated-request-exp.md).
 
 </td></tr><tr><td>
 
@@ -323,7 +323,7 @@ Option to specify the roles that can submit a catalog item request for multiple 
 -   This field appears only when the **Enable also request for** check box is selected.
  **Note:** If no role is specified, anyone who has access to the catalog item can submit the request.
 
-For information about delegated request experience, see .
+For information about delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/delegated-request-exp.md).
 
 </td></tr><tr><td>
 
@@ -473,7 +473,7 @@ Macro
 
 </td><td>
 
-UI macro to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
+[UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_UIMacros.md) to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
 
 </td></tr><tr><td>
 
@@ -505,7 +505,7 @@ Recurring price if checked
 
 </td><td>
 
-Price that increments for the item, when the user requests more than one order of the item.This field appears for check box variables. For more information about prices and recurring prices, see Using variables for price setup.
+Price that increments for the item, when the user requests more than one order of the item.This field appears for check box variables. For more information about prices and recurring prices, see [Using variables for price setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariablePricing.md).
 
 </td></tr><tr><td>
 
@@ -521,7 +521,7 @@ Reference qual
 
 </td><td>
 
-Qualifiers to restrict data that is available in the field.Supports reference qualifiers and advance qualifiers. For more information, see Reference qualifiers.
+Qualifiers to restrict data that is available in the field.Supports reference qualifiers and advance qualifiers. For more information, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_ReferenceQualifiers.md).
 
  Returns all matching results \(no maximum\).
 
@@ -593,7 +593,7 @@ Validation Regex
 
 </td><td>
 
-Regular expression that validates the variable value. This field is displayed only for Single Line Text and Wide Single Line Text variable types.To define regular expressions, see .
+Regular expression that validates the variable value. This field is displayed only for Single Line Text and Wide Single Line Text variable types.To define regular expressions, see [Define a regular expression for a variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/define-regex-vrble.md).
 
  **Note:**
 
@@ -608,7 +608,7 @@ Variable attributes
 
 </td><td>
 
-Attributes that define the behavior and restrictions for a variable. For information on variable attributes, see Service catalog variable attribute.
+Attributes that define the behavior and restrictions for a variable. For information on variable attributes, see [Service catalog variable attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/variable-attributes.md).
 
 </td></tr><tr><td>
 

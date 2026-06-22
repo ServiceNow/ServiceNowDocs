@@ -195,7 +195,7 @@ To create a GoTo integration profile, request the Software Asset Management - Sa
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **GoTo Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **GoTo Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -205,15 +205,15 @@ If you’re using Software Asset Workspace, the option to create the GoTo integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d107767e683">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d107816e684">
 
 Interface
 
-</th><th align="left" id="d107767e686">
+</th><th align="left" id="d107816e687">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d107767e692">
+</th></tr></thead><tbody><tr><td id="d107816e693">
 
 **Core UI**
 
@@ -224,7 +224,7 @@ Action
 3.  Select **GoTo Integration Profile**.
 
 
-</td></tr><tr><td id="d107767e734">
+</td></tr><tr><td id="d107816e735">
 
 **Software Asset Workspace**
 

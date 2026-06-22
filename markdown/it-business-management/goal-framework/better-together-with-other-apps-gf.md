@@ -7,7 +7,7 @@ release: zurich
 product: Goal Framework
 classification: goal-framework
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Explore, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -22,11 +22,11 @@ The ServiceNow® AI Control Tower workspace enables you to track and monitor all
 
 Populate the **Type** field for strategic priorities and the **Category** field for goals with the **Artificial Intelligence** option to monitor their progress in the AI Control Tower workspace. For more information, see [Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/create-strategic-priority.md) and [Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/create-goal.md).
 
-When AI Control Tower is installed, the **AI strategy** tab appears in the AI Control Tower workspace, featuring different widgets for AI strategies, goals, and targets details. For more information, see .
+When AI Control Tower is installed, the **AI strategy** tab appears in the AI Control Tower workspace, featuring different widgets for AI strategies, goals, and targets details. For more information, see [AI strategy tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-strategy-aict.md).
 
 ## Goal Framework with Operational Sustainability Workspace
 
-With the integration of ServiceNow Operational Sustainability Workspace with Goal Framework, you can create environmental, social, and governance \(ESG\) goals to track your progress toward your chosen material topics. You can also create an environmental, social, and social \(ESG\) target to help track the progress toward your ESG goal. For more information, see  and .
+With the integration of ServiceNow Operational Sustainability Workspace with Goal Framework, you can create environmental, social, and governance \(ESG\) goals to track your progress toward your chosen material topics. You can also create an environmental, social, and social \(ESG\) target to help track the progress toward your ESG goal. For more information, see [Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/create-esg-goal.md) and [Create an Operational Sustainability Management \(formerly ESG Management\) target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/create-esg-target.md).
 
 ## Goal Framework for SPM with Strategic Planning
 

@@ -8,7 +8,7 @@ product: Scripts
 classification: scripts
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [JavaScript debug window, Debugging scripts, Scripting, API implementation, API implementation and reference]
 ---
 
@@ -58,7 +58,7 @@ Role required: admin
 
 The steps to access the JavaScript debug window depend on which UI version you're using.
 
-**Note:** The JavaScript debug window is not supported with Next Experience. For more information about supported features in Next Experience, see .
+**Note:** The JavaScript debug window is not supported with Next Experience. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 
 ### Procedure
 

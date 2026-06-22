@@ -42,7 +42,7 @@ Role required: sn\_coaching.admin
 
     8.  Select **Save**.
 
-    For more information on configuring a survey, see Survey Designer Configuration form.
+    For more information on configuring a survey, see [Survey Designer Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/survey-design-config-form.md).
 
 2.  Create a question bank for the survey.
 
@@ -56,7 +56,7 @@ Role required: sn\_coaching.admin
 
     5.  In the Survey Question form, enter the name, question, and data type, and select **Submit**.
 
-    For more information on creating or updating a question bank, see Survey questions.
+    For more information on creating or updating a question bank, see [Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyQuestion.md).
 
 3.  Associate the question bank with the survey.
 

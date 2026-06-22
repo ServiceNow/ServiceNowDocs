@@ -22,7 +22,7 @@ Role required: admin, ui\_builder\_admin
 
 ## About this task
 
-ServiceNow offers prebuilt Configurable Workspace experiences to target specific users. These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch. For a list of prebuilt workspaces ServiceNow offers, see . To update an existing Configurable Workspace experience, see .
+ServiceNow offers prebuilt Configurable Workspace experiences to target specific users. These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch. For a list of prebuilt workspaces ServiceNow offers, see [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/list-of-workspaces.md). To update an existing Configurable Workspace experience, see [Open a Configurable Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/open-your-configurable-workspace-experience-in-ui-builder.md).
 
 ## Procedure
 
@@ -45,11 +45,11 @@ Your changes reflect in the AI Risk and Compliance Workspace under the correspon
 
 ## What to do next
 
+[Create a Configurable Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/create-configurable-workspace-experience-uib.md)
 
+[Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/create-configurable-workspace-page-uib.md)
 
-
-
-UI Builder
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md)
 
 Receive additional, detailed documentation on configuring and using UI Builder.
 

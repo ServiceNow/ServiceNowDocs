@@ -35,7 +35,7 @@ Predictive Intelligence enables you to train predictive models and machine-learn
 
 You can also extend Predictive Intelligence to other processes and applications, such as:
 
--   Incident categorization: Predicts the incident category based on the short description. See Predictive Intelligence for Incident Management.
+-   Incident categorization: Predicts the incident category based on the short description. See [Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/predictive-intelligence-for-incident.md).
 -   CSM case assignment: Predicts the case record assignment group based on the short description. See Predictive Intelligence for case management.
 
 For more information, see [ServiceNow apps and features that use Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/servicenow-apps-features-use-predictive-intelligence.md).

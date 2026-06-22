@@ -33,9 +33,9 @@ The Case Playbook for Onboarding 3.0 includes a new Process Automation Designer 
 Process definitions are stored in the Process Definitions table \(sys\_pd\_process\_definition\). As an admin, you can view a list of processes by doing the following task:
 
 1.  In the application navigator, enter **sys\_pd\_process\_definition.list**.
-2.  Configure the list to show the **Name** field.
+2.  [Configure the list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_PersonalLists.md) to show the **Name** field.
 
-Only one PAD process per playbook can be active at a time. For more information, see Process definitions.
+Only one PAD process per playbook can be active at a time. For more information, see [Process definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/process-definitions.md).
 
 ## Case Playbook for Onboarding features
 

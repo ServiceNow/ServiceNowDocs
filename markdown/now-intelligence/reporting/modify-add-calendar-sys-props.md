@@ -44,7 +44,7 @@ By default, field styles in the Task \[task\] table are applied to calendar repo
 **Related topics**  
 
 
-[bundle-platadm.r_AvailableSystemProperties]
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md)
 
 ## Limit the number of events displayed on calendar days
 
@@ -75,7 +75,7 @@ You can configure these settings for the following calendar views:
 **Related topics**  
 
 
-[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 ## Change the day that calendar weeks start on
 
@@ -99,7 +99,7 @@ If you change the **glide.ui.filter.first\_day\_of\_week** property after collec
 
 2.  Set one of the following integer values.
 
-<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d149709e343">
+<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d149746e340">
 
 **Start weeks on Sunday**
 
@@ -107,7 +107,7 @@ If you change the **glide.ui.filter.first\_day\_of\_week** property after collec
 
 Set **Value** to `1`
 
-</td></tr><tr><td id="d149709e358">
+</td></tr><tr><td id="d149746e355">
 
 **Start weeks on Monday**
 
@@ -115,7 +115,7 @@ Set **Value** to `1`
 
 Set **Value** to `2`
 
-</td></tr><tr><td id="d149709e373">
+</td></tr><tr><td id="d149746e370">
 
 **Start weeks on Tuesday**
 
@@ -123,7 +123,7 @@ Set **Value** to `2`
 
 Set **Value** to `3`
 
-</td></tr><tr><td id="d149709e388">
+</td></tr><tr><td id="d149746e385">
 
 **Start weeks on Wednesday**
 
@@ -131,7 +131,7 @@ Set **Value** to `3`
 
 Set **Value** to `4`
 
-</td></tr><tr><td id="d149709e403">
+</td></tr><tr><td id="d149746e400">
 
 **Start weeks on Thursday**
 
@@ -139,7 +139,7 @@ Set **Value** to `4`
 
 Set **Value** to `5`
 
-</td></tr><tr><td id="d149709e419">
+</td></tr><tr><td id="d149746e416">
 
 **Start weeks on Friday**
 
@@ -147,7 +147,7 @@ Set **Value** to `5`
 
 Set **Value** to `6`
 
-</td></tr><tr><td id="d149709e434">
+</td></tr><tr><td id="d149746e431">
 
 **Start weeks on Saturday**
 
@@ -168,9 +168,9 @@ Configure the system property **glide.db.week\_numbering** to specify how weeks 
 **Related topics**  
 
 
-[bundle-platadm.r_AvailableSystemProperties]
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md)
 
-[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 ## Customize calendar weeks
 
@@ -186,11 +186,11 @@ Role required: admin
 
 2.  Add the **glide.db.week\_numbering** system property.
 
-    For more information, see .
+    For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set one of the following string values.
 
-<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d149709e584">
+<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d149746e578">
 
 **iso\_week**
 
@@ -198,7 +198,7 @@ Role required: admin
 
 Week 1 is the week with January 4, the first business day, or the first Thursday in it. \(These are mutually equivalent.\) There is no Week 00.
 
-</td></tr><tr><td id="d149709e593">
+</td></tr><tr><td id="d149746e587">
 
 **sunday\_week**
 
@@ -206,7 +206,7 @@ Week 1 is the week with January 4, the first business day, or the first Thursday
 
 Week 1 is the week with the first Sunday of the year. Days before it are in Week 0.
 
-</td></tr><tr><td id="d149709e602">
+</td></tr><tr><td id="d149746e596">
 
 **monday\_week**
 
@@ -214,7 +214,7 @@ Week 1 is the week with the first Sunday of the year. Days before it are in Week
 
 Week 1 is the week with the first Monday of the year. Days before it are in Week 0.
 
-</td></tr><tr><td id="d149709e611">
+</td></tr><tr><td id="d149746e605">
 
 **jan1\_week**
 
@@ -240,7 +240,7 @@ Role required: admin.
 
 2.  Complete the form with the following values.
 
-<table id="choicetable_xm2_5rq_y1b"><tbody><tr><td id="d149709e706">
+<table id="choicetable_xm2_5rq_y1b"><tbody><tr><td id="d149746e700">
 
 **Name**
 
@@ -248,7 +248,7 @@ Role required: admin.
 
 **glide.ui.max\_calendar\_records**
 
-</td></tr><tr><td id="d149709e718">
+</td></tr><tr><td id="d149746e712">
 
 **Description**
 
@@ -256,7 +256,7 @@ Role required: admin.
 
 Enter a phrase that describes the function of the property, such as `Maximum number of calendar records saved`.
 
-</td></tr><tr><td id="d149709e730">
+</td></tr><tr><td id="d149746e724">
 
 **Type**
 
@@ -264,7 +264,7 @@ Enter a phrase that describes the function of the property, such as `Maximum num
 
 Integer
 
-</td></tr><tr><td id="d149709e739">
+</td></tr><tr><td id="d149746e733">
 
 **Value**
 
@@ -279,5 +279,5 @@ Enter the desired value for the number of records retained by the platform. The 
 **Related topics**  
 
 
-[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 

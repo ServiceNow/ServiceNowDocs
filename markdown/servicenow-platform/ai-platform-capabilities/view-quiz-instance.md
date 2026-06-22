@@ -128,5 +128,5 @@ All instance question records that store user response values for each question 
 **Related topics**  
 
 
-[bundle-platadm.c_ScheduleEvents]
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/c_ScheduleEvents.md)
 

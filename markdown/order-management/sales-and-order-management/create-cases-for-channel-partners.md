@@ -7,7 +7,7 @@ release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Partner Workspace, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ Role required: sn\_prm.enterprise\_partner\_rel\_manager or sn\_prm.enterprise\_
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields on the case form, see .
+    To learn more about the fields on the case form, see [Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_CustomerServiceCaseForm.md).
 
 5.  Select **Save**.
 

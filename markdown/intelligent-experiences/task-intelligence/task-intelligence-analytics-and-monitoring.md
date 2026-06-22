@@ -16,7 +16,7 @@ breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelli
 
 Use the Task Intelligence Admin Console to monitor, analyze, and assess the performance of your machine learning model.
 
--   **Task Intelligence for ITSM Analytics and Monitoring**
+-   **[Task Intelligence for ITSM Analytics and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/task-intel-monitor-analystics.md)**
 
     View the impacts of your Task Intelligence models. Monitor model performance overtime, track business value, and view what predictions your agents did and didn't use.
 

@@ -18,7 +18,7 @@ The openFrameAPI provides methods that interact with OpenFrame. OpenFrame is an 
 
 One of the core requirements is the ability to connect and serve code from different domains that can connect seamlessly with partner subsystems. This cross domain connection is required to keep connections and callbacks registered into communication systems without any cross domain issues.
 
-OpenFrame has two significant parts. One lives in the ServiceNow application \(referred to as TopFrame\) and this API that is sourced from the partner application. This API has the necessary methods to communicate with TopFrame and control the visual features of the OpenFrame.
+OpenFrame has two significant parts. One lives in the ServiceNow application \(referred to as TopFrame\) and this API that is sourced from the partner application. This API has the necessary methods to communicate with TopFrame and control the visual features of the [OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_OpenFrameOverview.md).
 
 **Note:** To stay current with reference to the OpenFrame library, use the following resource URI: `https://[servicenow instance]/scripts/openframe/latest/openFrameAPI.min.js`.
 
@@ -263,7 +263,7 @@ function
 
 </td><td>
 
-Name of the callback function to use if the init method succeeds. The OpenFrame configuration stored in the system is passed as a parameter to the callback function.
+Name of the callback function to use if the init method succeeds. The [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/t_CreateAnOpenFrameConfiguration.md) stored in the system is passed as a parameter to the callback function.
 
 </td></tr><tr><td>
 
@@ -581,7 +581,7 @@ Object
 Key value pairs that describe the content to use when opening the list URL.Valid values:
 
 -   entity: Table name
--   query: Encoded query string
+-   query: [Encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md)
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -658,9 +658,9 @@ openFrameAPI.setHeight(100);
 
 Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.
 
-For additional information on interactive controls, see .
+For additional information on interactive controls, see [Interaction Controls Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/interaction-controls-component.md).
 
-For additional information on interaction records, see .
+For additional information on interaction records, see [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-native-voice-record-page.md).
 
 <table id="table_xlq_rhg_zdc" class="parameters"><thead><tr><th>
 
@@ -3068,7 +3068,7 @@ imageTitle:'hold', id:102}]);
 
 Sets the presence indicator to display agent availability in a workspace.
 
-For more information on configuring OpenFrame, refer to Create an OpenFrame configuration
+For more information on configuring OpenFrame, refer to [Create an OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/t_CreateAnOpenFrameConfiguration.md)
 
 <table id="table_o4l_p1c_jhb" class="parameters"><thead><tr><th>
 
@@ -3293,7 +3293,7 @@ The event to subscribe to:-   interaction\_control\_action: Receives the interac
 -   openframe\_icon\_clicked: Occurs when any icon other than the close icon is selected on the OpenFrame footer. The callback receives the icon object as a parameter.
 -   openframe\_shown: Occurs when the OpenFrame is shown.
 -   openframe\_title\_icon\_clicked: Occurs when the title icon is selected on the OpenFrame. The callback receives the titleIcon object as a parameter.
--   openframe\_wrap\_up\_submitted: Occurs when the wrap up periods ends on the wrap-up modeless dialog. The event is triggered only when the wrap up is external.
+-   openframe\_wrap\_up\_submitted: Occurs when the wrap up periods ends on the [wrap-up modeless dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md). The event is triggered only when the wrap up is external.
 
 </td></tr><tr><td>
 
@@ -3387,7 +3387,7 @@ In AWA, the **openframe\_awa\_workitem\_accepted** and **openframe\_awa\_workite
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
 -   **workItem.isAutoAccepted**: Flag that indicates whether the work item was automatically accepted by the system. Set to true if the work item was auto-accepted.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/transfer-chat-queue.md).
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.serviceChannel**: List of service channels associated with the work item task.
     -   **workItem.serviceChannel.name**: Name of the service channel, such as Chat or Phone.
@@ -3427,7 +3427,7 @@ In AWA, the **openframe\_awa\_workitem\_rejected** event returns the `workItem` 
 -   **workItem.document**: List of documents associated with the work item task.
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/transfer-chat-queue.md).
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.rejection**: List of reasons for the rejection of the work item.
     -   **workItem.rejection.reason**: Name of the reason for rejecting the work items.

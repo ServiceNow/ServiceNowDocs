@@ -31,7 +31,7 @@ You can also produce messages from an external application and then consume the 
 
 \[Omitted image "stream-connect.png"\] Alt text: Producing and consuming with Stream Connect for Apache Kafka.
 
-For details, see Stream Connect for Apache Kafka.
+For details, see [Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
 
 ## Using Log Export Service
 
@@ -39,7 +39,7 @@ With the Log Export Service, you can produce logs from your ServiceNow instance,
 
 \[Omitted image "les-architecture.png"\] Alt text: Log Export Service architecture.
 
-For details on producing and consuming logs for Log Export Service, see .
+For details on producing and consuming logs for Log Export Service, see [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/les-landing-page.md).
 
 ## Using a Kafka client
 

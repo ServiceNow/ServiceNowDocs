@@ -57,7 +57,7 @@ Modify conditions and results to update decision rules in a decision table in Wo
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -118,7 +118,7 @@ Determine or change the sequence in which your decision rules are evaluated by r
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -130,7 +130,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 4.  Reorder the rows using either of the following methods.
 
-<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d148818e563">
+<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d147637e563">
 
 **Reorder by changing the Rank number**
 
@@ -142,7 +142,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
  This method is most effective for reordering rows in large decision tables.
 
-</td></tr><tr><td id="d148818e596">
+</td></tr><tr><td id="d147637e596">
 
 **Reorder by dragging and dropping a row**
 

@@ -16,7 +16,7 @@ breadcrumb: [Activate Task Communications Management, Task Communications Manage
 
 Several types of components are installed with the Task Communications Management plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -171,7 +171,7 @@ Lists specific handlers for various task types. Example: For incident, Communica
 </td></tr></tbody>
 </table>## Roles installed
 
-To learn more about managing subscriptions, see  and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Activate Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/task-communications-management/activate-tcm-plugin.md)
 

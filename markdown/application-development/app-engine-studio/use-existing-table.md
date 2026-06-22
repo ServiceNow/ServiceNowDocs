@@ -18,7 +18,7 @@ Add a data table to your application from an existing table that you or someone 
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated developer for AES. For more information about granular admin roles, see . For more information about delegated development, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated developer for AES. For more information about granular admin roles, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/roles-within-platform-security.md). For more information about delegated development, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegat
 
 5.  Choose from the following choices.
 
-<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d63431e122">
+<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d63361e123">
 
 **Create new table**
 
@@ -42,7 +42,7 @@ Select this option to create a blank table from scratch.1.  Choose **Create new 
 2.  Click **Continue**.
 
 
-</td></tr><tr><td id="d63431e146">
+</td></tr><tr><td id="d63361e147">
 
 **Create from an extensible table**
 
@@ -184,7 +184,7 @@ Type of information that the column contains. For example, to contain plain text
 
  Depending on the type that you select, fill in the additional fields to further define the table column. For example, if you select **String**, define the character limit of the string input. Or, if you select **Choice**, define the choices that users can choose from.
 
- See Field types.
+ See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
 
 </td></tr><tr><td>
 

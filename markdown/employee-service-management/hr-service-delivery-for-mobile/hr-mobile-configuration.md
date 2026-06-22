@@ -24,7 +24,7 @@ For more information on configuring the Now Mobile app for HR Service Delivery f
 -   My Requests
 -   Search
     -   People search
-        -   Note: Customers that do not use the Employee Center \(EC\), the base system people search configuration is used. For more information, see Mobile search.
+        -   Note: Customers that do not use the Employee Center \(EC\), the base system people search configuration is used. For more information, see [Mobile search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/sg-mobile-search.md).
         -   For information on AI Search, see [Configure AI Search for mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/advanced-text-search-config-now.md).
     -   Analytics and suggestions
 -   Items and services

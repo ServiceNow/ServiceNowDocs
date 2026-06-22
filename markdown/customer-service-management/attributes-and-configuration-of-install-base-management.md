@@ -20,7 +20,7 @@ Customer service managers can create the characteristics of the Install base ite
 
 Install base characteristics enable flows like case management, field service management, planned maintenance, and reactive service requirements to occur on a schedule. Some Install base characteristics are configurable and vary from product to product. The product model characteristics are non-configurable and are directly taken from the product model that is associated with the Install base item.
 
-With the sn\_customerservice\_manager role, you can create the characteristics for the Install base items. With the administrator role, you can download the Install base characteristics plugin \[com.snc.install\_base\_characteristics\] to capture and view all the Install base characteristics on the Install base form. To activate the plugin, see .
+With the sn\_customerservice\_manager role, you can create the characteristics for the Install base items. With the administrator role, you can download the Install base characteristics plugin \[com.snc.install\_base\_characteristics\] to capture and view all the Install base characteristics on the Install base form. To activate the plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
 
 The Install base characteristics data model represents how the characteristics of an Install base item are stored. To learn about the different fields and tables that they're stored in, see [Data model for the Install base item characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/install-base-item-characteristics-data-model.md).
 

@@ -26,13 +26,13 @@ The JavascriptProbe activity has the same functionality as making ‘Packages’
 
 ## Procedure
 
-1.  Create a custom activity.
+1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/orchestration/create-custom-activities.md).
 
     This action creates a custom activity using a template.
 
 2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/CreateInputVariables.md), configure the JavaScript probe activity Execution Command.
 
-<table id="choicetable_jlf_3tp_vz"><tbody><tr><td id="d200860e112">
+<table id="choicetable_jlf_3tp_vz"><tbody><tr><td id="d199267e112">
 
 **[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/CreateInputVariables.md)**
 
@@ -40,7 +40,7 @@ The JavascriptProbe activity has the same functionality as making ‘Packages’
 
 Use the variables you created to configure the command that Orchestration executes on the MID server.
 
-</td></tr><tr><td id="d200860e128">
+</td></tr><tr><td id="d199267e128">
 
 **Script type**
 
@@ -50,7 +50,7 @@ Select the type of script to include. Available options are:-   Custom JavaScrip
 -   MID Server script include
 
 
-</td></tr><tr><td id="d200860e146">
+</td></tr><tr><td id="d199267e146">
 
 **Script**
 
@@ -58,7 +58,7 @@ Select the type of script to include. Available options are:-   Custom JavaScrip
 
 Custom JavaScript to run with this probe. **Note:** This field is available when the **Script type** selected is **Custom JavaScript**.
 
-</td></tr><tr><td id="d200860e164">
+</td></tr><tr><td id="d199267e164">
 
 **MID Server script include**
 
@@ -66,7 +66,7 @@ Custom JavaScript to run with this probe. **Note:** This field is available when
 
 Script for the MID Server to run with this probe. **Note:** This field is available when the **Script type** selected is **MID Server script include**.
 
-</td></tr><tr><td id="d200860e182">
+</td></tr><tr><td id="d199267e182">
 
 **Select MID Server by host**
 
@@ -74,7 +74,7 @@ Script for the MID Server to run with this probe. **Note:** This field is availa
 
 MID Server on which the probe runs.
 
-</td></tr><tr><td id="d200860e192">
+</td></tr><tr><td id="d199267e192">
 
 **Required MID Server capabilities**
 
@@ -82,7 +82,7 @@ MID Server on which the probe runs.
 
 MID Server to use, by capabilities.
 
-</td></tr><tr><td id="d200860e201">
+</td></tr><tr><td id="d199267e201">
 
 **Parameters**
 
@@ -96,7 +96,7 @@ Name-value pairs to pass to the host with this probe. You can create these param
 
 ## What to do next
 
-Finish creating your JavaScript probe activity by [creating output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAnOutputVariable.md), [creating a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md), or Conditions. Refer to the [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/create-custom-activities.md) topic to know your template options.
+Finish creating your JavaScript probe activity by [creating output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAnOutputVariable.md), [creating a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md), or [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/orchestration/conditions.md). Refer to the [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/create-custom-activities.md) topic to know your template options.
 
 **Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_ActivityDesignerComponents.md)
 

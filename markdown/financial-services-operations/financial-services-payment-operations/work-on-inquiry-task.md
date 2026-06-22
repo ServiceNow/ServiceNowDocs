@@ -32,15 +32,15 @@ An inquiry task is automatically generated for a Beneficiary Claim Non-Receipt -
 
 3.  Open the inquiry task from a payment inquiry case or from the **Inquiry Tasks** list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d70610e99">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d70401e99">
 
 Option
 
-</th><th align="left" id="d70610e102">
+</th><th align="left" id="d70401e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d70610e108">
+</th></tr></thead><tbody><tr><td id="d70401e108">
 
 **From a payment inquiry case**
 
@@ -51,7 +51,7 @@ Steps
 3.  In the case, click the **Inquiry Tasks** tab and click the inquiry task.
 
 
-</td></tr><tr><td id="d70610e141">
+</td></tr><tr><td id="d70401e141">
 
 **From the __Inquiry Tasks__ list**
 

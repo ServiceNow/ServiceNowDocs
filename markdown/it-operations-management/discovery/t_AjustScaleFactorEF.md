@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Optimizing Discovery load for Event Framework, Configure Discovery to use Event Framework, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -46,7 +46,7 @@ For example, if you increase the scale factor to 3, Discovery uses three worker 
 
 3.  In the **Scale factor** field, set a value.
 
-    **Note:** The default maximum value is 3. To increase the scale factor beyond 3, configure the **com.glide.processing.framework.max\_thread\_utilization\_percentage** property. For more information about this property, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryProperties.md). For instructions on how to create a property, see .
+    **Note:** The default maximum value is 3. To increase the scale factor beyond 3, configure the **com.glide.processing.framework.max\_thread\_utilization\_percentage** property. For more information about this property, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryProperties.md). For instructions on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 4.  Select **Update**.
 

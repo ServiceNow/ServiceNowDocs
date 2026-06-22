@@ -41,7 +41,7 @@ Release Notes
 
 </td><td>
 
-Now Assist AI Agents Release Notes.
+[Now Assist AI Agents Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/now-assist-ai-agents-rn.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Release notes
 
 </td><td>
 
-
+[AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/ai-control-tower-rn.md)
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ Release notes
 
 </td><td>
 
-
+[Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/document-intelligence-rn.md)
 
 </td></tr><tr><td>
 
@@ -357,7 +357,7 @@ Release notes
 
 </td><td>
 
-
+[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/now-assist-rn-landing.md)
 
 </td></tr><tr><td>
 
@@ -489,7 +489,7 @@ Release notes
 
 </td><td>
 
-
+[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/predictive-intelligence-rn.md)
 
 </td></tr><tr><td>
 

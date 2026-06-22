@@ -17,5 +17,5 @@ breadcrumb: [Now Assist for Zero Copy Connector, Zero Copy Connector for ERP ove
 
 Now Assist for Zero Copy Connector includes skills that can make working with connectors more efficient.
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see .
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 

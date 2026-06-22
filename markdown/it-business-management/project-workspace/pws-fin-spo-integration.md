@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -18,13 +18,13 @@ Request, track, and manage procurement requests of assets for your projects.
 
 ## Before you begin
 
-Install Sourcing and Procurement Operations
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 
 Role required: it\_project\_manager
 
 ## About this task
 
-Project managers can navigate from Project Workspace to procurement applications and create purchase requests for their projects. The ordered purchase requests are reflected in the Project Workspace. After the purchase request is processed, the purchase line, cost plan, and expense lines are automatically generated. For more information about the integration, see .\[Omitted image "Financials-SPO-better-together.png"\] Alt text: Financials SPO better together workflow diagram.
+Project managers can navigate from Project Workspace to procurement applications and create purchase requests for their projects. The ordered purchase requests are reflected in the Project Workspace. After the purchase request is processed, the purchase line, cost plan, and expense lines are automatically generated. For more information about the integration, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).\[Omitted image "Financials-SPO-better-together.png"\] Alt text: Financials SPO better together workflow diagram.
 
 ## Procedure
 
@@ -51,7 +51,7 @@ Role required: it\_project\_manager
 
 2.  Place the request for an asset.
 
-    For more details on how to request a product using Source-to-Pay Common Architecture, see .
+    For more details on how to request a product using Source-to-Pay Common Architecture, see [Order a product with quick checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.md).
 
     **Note:** While placing the request for the asset, enter the project number in the **What project is this request for?** field.
 

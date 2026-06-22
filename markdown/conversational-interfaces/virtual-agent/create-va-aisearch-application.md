@@ -18,7 +18,7 @@ Define a custom AI Search experience in a conversation using the AI Search topic
 
 ## Before you begin
 
-Create the search profile that defines the search experience to be used in the search application configuration. For details, see Search profiles and Search application configurations.
+[Create the search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/create-search-profile-ais.md) that defines the search experience to be used in the search application configuration. For details, see [Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/defining-search-profiles-ais.md) and [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
 
 Role required: virtual\_agent\_admin or admin with the search application administrator \[search\_application\_admin\] role
 
@@ -34,21 +34,21 @@ A search application configuration specifies the AI Search profile used by the R
 
 2.  On the form, fill in the fields.
 
-    For more information, see .
+    For more information, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/search-app-config-form-ais.md).
 
 3.  Select **Submit**.
 
 4.  Apply the custom Search Application Configuration to the AI Search topic block used in a conversation or to a custom chat experience.
 
-<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d57811e168">
+<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d80139e169">
 
 Option
 
-</th><th align="left" id="d57811e171">
+</th><th align="left" id="d80139e172">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d57811e177">
+</th></tr></thead><tbody><tr><td id="d80139e178">
 
 **Specify the custom Search Application Configuration in the AI Search topic block used in a conversation**
 
@@ -68,7 +68,7 @@ If you leave this field empty, AI Search uses the default search application con
 
 The AI Search topic block runs the selected search application configuration to generate the customized AI Search experience.
 
-</td></tr><tr><td id="d57811e287">
+</td></tr><tr><td id="d80139e288">
 
 **Use the custom Search Application Configuration in a custom chat experience**
 

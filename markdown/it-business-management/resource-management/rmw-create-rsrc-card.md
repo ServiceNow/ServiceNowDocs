@@ -30,15 +30,15 @@ Role required: resource\_user, resource\_manager, it\_project\_manager
 
 4.  Enter the following details.
 
-<table id="choicetable_vrh_l2z_bcc"><thead><tr><th align="left" id="d133986e95">
+<table id="choicetable_vrh_l2z_bcc"><thead><tr><th align="left" id="d132987e95">
 
 Field
 
-</th><th align="left" id="d133986e98">
+</th><th align="left" id="d132987e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d133986e104">
+</th></tr></thead><tbody><tr><td id="d132987e104">
 
 **Name**
 
@@ -46,7 +46,7 @@ Description
 
 Unique name for the filter card.Name the resource card inline with the purpose and filter condition to easily identify and access your view.
 
-</td></tr><tr><td id="d133986e115">
+</td></tr><tr><td id="d132987e115">
 
 **Filter by**
 
@@ -56,7 +56,7 @@ Unique name for the filter card.Name the resource card inline with the purpose a
 -   Work type - filter and view resources working on a demand, project, or an epic and their respective details.
 
 
-</td></tr><tr><td id="d133986e133">
+</td></tr><tr><td id="d132987e133">
 
 **Start Date**
 
@@ -64,7 +64,7 @@ Unique name for the filter card.Name the resource card inline with the purpose a
 
 Select the start date in the required date range to view resources.
 
-</td></tr><tr><td id="d133986e142">
+</td></tr><tr><td id="d132987e142">
 
 **End Date**
 
@@ -72,7 +72,7 @@ Select the start date in the required date range to view resources.
 
 Select the end date in the required date range to view resources.
 
-</td></tr><tr><td id="d133986e152">
+</td></tr><tr><td id="d132987e152">
 
 **Description**
 

@@ -317,7 +317,7 @@ Impacted Business Applications
 
 </td><td>
 
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see .You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
+If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see [Exploring business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/eaw-manage-business-applications.md).You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
 
 </td></tr><tr><td>
 
@@ -325,7 +325,7 @@ Business Applications
 
 </td><td>
 
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see .You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
+If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see [Exploring business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/eaw-manage-business-applications.md).You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
 
 </td></tr></tbody>
 </table><table id="table_t23_vj3_fdc"><thead><tr><th>
@@ -602,7 +602,7 @@ Score
 
 </td><td>
 
-The demand score is calculated based on the **risk**, **value**, and **size** attributes in the base system.The value of the **risk**, **value**, and **size** attributes are derived from the assessment metric category results. For more information, see [assessment categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreateAnAssessmentCategory.md) and assessment category results.
+The demand score is calculated based on the **risk**, **value**, and **size** attributes in the base system.The value of the **risk**, **value**, and **size** attributes are derived from the assessment metric category results. For more information, see [assessment categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CreateAnAssessmentCategory.md) and [assessment category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/t_ViewACategoryResult.md).
 
 -   When the **risk** and **size** values are high, the score of the demand is low.
 -   When the **value** setting is high, the score of the demand is high.

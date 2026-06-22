@@ -36,15 +36,15 @@ The fields for a selected table display all supported string and numeric data ty
 
 5.  Set up the field attributes.
 
-<table id="choicetable_tvq_1b2_lnb"><thead><tr><th align="left" id="d47788e123">
+<table id="choicetable_tvq_1b2_lnb"><thead><tr><th align="left" id="d47836e123">
 
 To configure attributes for
 
-</th><th align="left" id="d47788e126">
+</th><th align="left" id="d47836e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d47788e132">
+</th></tr></thead><tbody><tr><td id="d47836e132">
 
 **The Company \[core\_company\] table**
 
@@ -70,7 +70,7 @@ In the **Configuration** section, select Company \[core\_company\] from the Tabl
 
 **Note:** The **Upper Threshold \(Age in Days\)**, **Lower Threshold \(Age in Days\)**, and **Direction** fields are populated automatically. If you select a numeric field type with a date value, the application calculates the number of days between the threshold values and represents them as age.
 
-</td></tr><tr><td id="d47788e246">
+</td></tr><tr><td id="d47836e246">
 
 **Any table other than the Company \[core\_company\] table**
 

@@ -100,5 +100,5 @@ Rounding of the fractional results.
 
 The formula indicator is added to the KPI group and is used for calculating the vendor score in Vendor Management Workspace.
 
-For detailed information on creating a formula indicator, see .
+For detailed information on creating a formula indicator, see [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
 

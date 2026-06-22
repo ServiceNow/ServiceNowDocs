@@ -55,13 +55,13 @@ Now Assist Q&amp;A Genius Results - Provides concise, actionable answers search 
 </td><td>
 
 -   Legal Counsel Center - Enabled by default when AI Search and Now Assist for Legal Service Delivery \(LSD\) both are activated.
--   Global search - Enable it manually. For more information, see .
+-   Global search - Enable it manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
 -   Employee Center - Enable it manually. For more information, see [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/na-qa-activate.md)
 
 </td></tr></tbody>
 </table>For more information, see:
 
--   
--   
+-   [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
+-   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/overview-ais.md)
 -   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 

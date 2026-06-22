@@ -22,7 +22,7 @@ You can only use this API when the Knowledge API \(sn\_km\_api\) plugin is activ
 
 To enable other domains to use Knowledge Management REST API endpoints, define a Cross-Origin Resource Sharing \(CORS\) rule. For more information, see [Define a CORS rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/t_DefineACORSRule.md).
 
-To view an article from the scoped knowledge base using this REST API, allow the sn\_km\_api scope read access from the requesting scope in the Restricted Caller Access Privileges \[sys\_restricted\_caller\_access\] table. For more information, see Define cross-scope access to an application resource.
+To view an article from the scoped knowledge base using this REST API, allow the sn\_km\_api scope read access from the requesting scope in the Restricted Caller Access Privileges \[sys\_restricted\_caller\_access\] table. For more information, see [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/set-RCA-level.md).
 
 By default, this API has a rate limit of 500 per hour for unauthenticated and snc\_external users. For more information about rate limiting, see [Inbound REST API rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-api-explorer/inbound-REST-API-rate-limiting.md).
 
@@ -1204,7 +1204,7 @@ search\_rank
 
 </td><td>
 
-Optional unless using **search\_id**. Article search rank by click-rate that you can retrieve using one of the following APIs that returns the **articles.rank** element:-   [Knowledge Management - GET /knowledge/articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/knowledge-api.md)
+Optional unless using **search\_id**. Article [search rank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-administration/c_DocumentScoring.md) by click-rate that you can retrieve using one of the following APIs that returns the **articles.rank** element:-   [Knowledge Management - GET /knowledge/articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/knowledge-api.md)
 -   [Knowledge Management - GET /knowledge/articles/featured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/knowledge-api.md)
 -   [Knowledge Management - GET knowledge/articles/most\_viewed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/knowledge-api.md)
 

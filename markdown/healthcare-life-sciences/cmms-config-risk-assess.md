@@ -20,7 +20,7 @@ To use maintenance and servicing workflows or inventory and management workflows
 
 As a user with the admin role, you can configure a risk assessment methodology for assessing risks related to the patient safety identification and compliance risk management when setting a medical device in-service for your healthcare organization.
 
-By default, the **Medical device risk assessment** methodology is available for assessing medical device risks. You can use the default risk assessment methodology to add a questionnaire for assessing device risks or create another risk assessment methodology. For more information, see Configure a risk assessment methodology.
+By default, the **Medical device risk assessment** methodology is available for assessing medical device risks. You can use the default risk assessment methodology to add a questionnaire for assessing device risks or create another risk assessment methodology. For more information, see [Configure a risk assessment methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-ram.md).
 
 Note the following points when configuring a risk assessment methodology for assessing medical device risks:
 

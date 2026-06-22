@@ -100,7 +100,7 @@ References
 
 </td><td>
 
-
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/access-control.md)
 
 </td></tr><tr><td>
 

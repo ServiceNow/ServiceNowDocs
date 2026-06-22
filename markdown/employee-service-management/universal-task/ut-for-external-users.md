@@ -20,7 +20,7 @@ Users that aren’t yet part of your organization are external users \(snc\_exte
 
 The following points must be considered to enable Universal Task for the external users.
 
--   The Explicit Role \(com.glide.explicit\_roles\) plugin must be installed to assign external and internal roles to the users. For more information, see Explicit Roles.
+-   The Explicit Role \(com.glide.explicit\_roles\) plugin must be installed to assign external and internal roles to the users. For more information, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/explicit-roles.md).
 -   When creating a Universal Task, all pre-defined task types like Upload Documents, Mark When Complete, Checklist, and Collect Employee Input are available for external users except for Submit Catalog Item. If you try to create a Submit Catalog Item, you will get an error.
 -   All the Universal Task widgets, tables, and ACLs are enabled for both internal and external roles.
 -   The portal and pages where the Universal Task is embedded must also be supported for the external users. For example,

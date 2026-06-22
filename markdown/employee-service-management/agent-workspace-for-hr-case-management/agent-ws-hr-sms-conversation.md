@@ -26,7 +26,7 @@ SMS support conversations can run long. For this reason, HR Service Delivery wor
 
 For SMS support conversations, in the Workspace Chat panel, when the interaction type is **Messaging**, an interaction sub-type of **SMS** is indicated as **Active SMS**.
 
-For complete details about SMS support conversations, associated service channels, requestor initiated, and agent initiated SMS conversations, refer to Conversational SMS service channel.
+For complete details about SMS support conversations, associated service channels, requestor initiated, and agent initiated SMS conversations, refer to [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/conversation-sms-service-channel-store-app.md).
 
 ## SMS support conversations for HR Service Delivery agents
 
@@ -40,7 +40,7 @@ HR AWA agents and managers can view a list of all **In Progress** or **On Hold M
 
 ## Quick actions for agents
 
-Access existing chat-based quick actions for SMS messaging. For details, refer to Agent Chat.
+Access existing chat-based quick actions for SMS messaging. For details, refer to [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-chat/ci-agent-chat-exploring.md).
 
 ## Conversation desktop notifications
 

@@ -38,7 +38,7 @@ IP address list
 
 </td><td>
 
-Use IP address lists to add individual addresses to query. These addresses are not included in any existing IP range or IP network. You can enter the IP address of the device or a host name \(DNS name\). If you enter a host name, it must be mapped to an IP address.
+Use IP address lists to add individual addresses to query. These addresses are not included in any existing IP range or IP network. You can enter the IP address of the device or a host name \(DNS name\). If you enter a host name, it must be [mapped to an IP address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/t_MapIPAddressToDNSName.md).
 
 </td></tr><tr><td>
 
@@ -227,15 +227,15 @@ Role required: discovery\_admin or agent\_admin
 
 5.  Choose one of the following options from the **Type** drop-down list.
 
-<table id="choicetable_vp2_g1m_dgc"><thead><tr><th align="left" id="d168467e862">
+<table id="choicetable_vp2_g1m_dgc"><thead><tr><th align="left" id="d166342e862">
 
 Option
 
-</th><th align="left" id="d168467e865">
+</th><th align="left" id="d166342e865">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168467e871">
+</th></tr></thead><tbody><tr><td id="d166342e871">
 
 **IP Address List**
 
@@ -243,7 +243,7 @@ Description
 
 Enables you to exclude non-consecutive IP addresses by listing individual IP addresses in the **Discovery Range Item IPs** related list.**Note:** After you select **IP Address List** as the **Type**, you must right-click the header and select **Save** before you can begin adding IPs to the related list.
 
-</td></tr><tr><td id="d168467e894">
+</td></tr><tr><td id="d166342e894">
 
 **IP Address Range**
 
@@ -251,7 +251,7 @@ Enables you to exclude non-consecutive IP addresses by listing individual IP add
 
 Enables you to exclude a range of IPs by providing the starting and ending IP addresses.
 
-</td></tr><tr><td id="d168467e903">
+</td></tr><tr><td id="d166342e903">
 
 **IP Network**
 

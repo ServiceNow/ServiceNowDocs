@@ -20,7 +20,7 @@ You must have the dynamic\_schema\_writer role to execute any of the clear\(\) m
 
 **Note:** You shouldn't need to call the clear\(\) methods in a production environment. Use these methods when you are troubleshooting your implementation if you think there is a possible caching problem causing stale data.
 
-See also .
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 

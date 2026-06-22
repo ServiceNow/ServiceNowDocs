@@ -29,15 +29,15 @@ Role required: You must have a role that allows access to the data in the visual
 
     \[Omitted image "dv-add-viz-to-db.png"\] Alt text: The Add to Dashboard menu on a data visualization.
 
-<table id="choicetable_u1x_qwv_c1c"><thead><tr><th align="left" id="d46689e98">
+<table id="choicetable_u1x_qwv_c1c"><thead><tr><th align="left" id="d46707e98">
 
 Option
 
-</th><th align="left" id="d46689e101">
+</th><th align="left" id="d46707e101">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d46689e107">
+</th></tr></thead><tbody><tr><td id="d46707e107">
 
 **Add to new dashboard**
 
@@ -45,7 +45,7 @@ Result
 
 A new, untitled dashboard opens in the inline dashboard editor. The data visualization is already on this dashboard. Complete the dashboard, adding any more desired elements and naming it. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-db-in-ac.md).
 
-</td></tr><tr><td id="d46689e126">
+</td></tr><tr><td id="d46707e126">
 
 **Add to existing dashboard**
 

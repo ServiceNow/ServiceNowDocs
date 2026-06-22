@@ -100,8 +100,8 @@ References
 
 </td><td>
 
--   
--   
+-   [Using Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/public-sector-digital-services/psds-using-ir-playbooks.md)
+-   [Configure Information Requests service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/public-sector-digital-services/awa-psds-overview.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)

@@ -28,7 +28,7 @@ Role required: sn\_bm\_client.benchmark\_admin
 
 Once you have manually opted into Benchmarks, enable and configure benchmark KPIs. From the Benchmarks dashboard, you can view the Benchmarks KPI data, performance trends, and indicator scorecards.
 
-**Note:** Service Portal must be installed to view the Benchmarks dashboard.
+**Note:** [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_ServicePortal.md) must be installed to view the Benchmarks dashboard.
 
 Six months of global data is available after opting in. If available, the corresponding data for your instance is also included.
 
@@ -38,15 +38,15 @@ Six months of global data is available after opting in. If available, the corres
 
 1.  Opt into Benchmarks using the guided setup or by navigating using the application navigator.
 
-<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d439615e141">
+<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d439795e141">
 
 Using
 
-</th><th align="left" id="d439615e144">
+</th><th align="left" id="d439795e144">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d439615e150">
+</th></tr></thead><tbody><tr><td id="d439795e150">
 
 **Guided setup**
 
@@ -56,7 +56,7 @@ Do this
 2.  Go to the **Enable Benchmarks** section and click **Configure**.
 
 
-</td></tr><tr><td id="d439615e186">
+</td></tr><tr><td id="d439795e186">
 
 **Application navigator**
 

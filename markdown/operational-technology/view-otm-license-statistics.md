@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology
 classification: operational-technology
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

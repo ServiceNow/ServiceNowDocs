@@ -32,7 +32,7 @@ Register the CrowdStrike OAuth application to access the CrowdStrike API and to 
 
 ### Before you begin
 
-The CrowdStrike Integration Hub spoke must be active. For more information, see CrowdStrike spoke.
+The CrowdStrike Integration Hub spoke must be active. For more information, see [CrowdStrike spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/crowdstrike-spoke.md).
 
 CrowdStrike Role required: Falcon administrator
 
@@ -74,7 +74,7 @@ The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_
 
 ServiceNow Role required: admin or sam\_integrator
 
-**Important:** You must select the **CrowdStrike Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **CrowdStrike Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -91,15 +91,15 @@ If you are on any version for Yokohama below patch 1, refer [KB1801232](https://
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d101968e456">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d102017e457">
 
 Interface
 
-</th><th align="left" id="d101968e459">
+</th><th align="left" id="d102017e460">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d101968e465">
+</th></tr></thead><tbody><tr><td id="d102017e466">
 
 **Core UI**
 
@@ -110,7 +110,7 @@ Action
 3.  Select **CrowdStrike Integration Profile**.
 
 
-</td></tr><tr><td id="d101968e507">
+</td></tr><tr><td id="d102017e508">
 
 **Software Asset Workspace**
 

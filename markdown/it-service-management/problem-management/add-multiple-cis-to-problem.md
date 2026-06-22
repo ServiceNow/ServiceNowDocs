@@ -79,7 +79,7 @@ Impacted Services/CIs
 **Note:** By default, Service Offering is filtered out.
 
 3.  Click **Add Selected**.
- **Note:** If the Impacted Services/CIs is not visible on the form, configure the form layout.
+ **Note:** If the Impacted Services/CIs is not visible on the form, [configure the form layout.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md)
 
 </td></tr></tbody>
 </table>

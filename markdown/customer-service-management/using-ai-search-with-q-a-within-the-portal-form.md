@@ -8,7 +8,7 @@ product: Customer Service Management
 classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Using Virtual Agent in service portals, Automate and optimize, Use, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ Guided Flow for Case Creation
 1.  Enter Your Details:
     -   Navigate to **Request Something** &gt; **Support** &gt; **Create case for a product \(Now Assist\)**.
 
-        **Note:** Verify that AI search in portals is activated. For more info, see Enable and configure AI Search in Service Portal
+        **Note:** Verify that AI search in portals is activated. For more info, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/enable-ais-sp.md)
 
     -   A single Subject field appears. Start entering your issue, and genius results, sources, related catalog items, and knowledge articles are displayed under related content.
 
@@ -52,7 +52,7 @@ Guided Flow for Case Creation
 
         **Note:**
 
-        Enable enhanced chat experience from the Now Assist in Virtual Agent guided setup for the feature to work. For details, see .
+        Enable enhanced chat experience from the Now Assist in Virtual Agent guided setup for the feature to work. For details, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
     -   If no relevant results are found, select **Continue with case creation** to proceed. This action enables the **Submit** button and shows the additional fields needed to complete the case form.
     -   Select **Submit** to create a record case.

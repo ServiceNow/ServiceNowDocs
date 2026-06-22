@@ -50,7 +50,7 @@ Validations occur at two levels:
 
 5.  To validate the related items of the customer order, select the more actions icon \[Omitted image "more-options.png"\] Alt text: and select **Validate Related Items**.
 
-<table id="choicetable_xbn_3v1_c5b"><tbody><tr><td id="d97589e160">
+<table id="choicetable_xbn_3v1_c5b"><tbody><tr><td id="d97691e160">
 
 **If the validation is successful**
 
@@ -60,7 +60,7 @@ The ServiceNow AI Platform displays the following message:Provided related inven
 
 This message confirms that the order information doesn't require any additional input and you can proceed to the next steps of the order fulfillment.
 
-</td></tr><tr><td id="d97589e175">
+</td></tr><tr><td id="d97691e175">
 
 **If the validation is unsuccessful**
 

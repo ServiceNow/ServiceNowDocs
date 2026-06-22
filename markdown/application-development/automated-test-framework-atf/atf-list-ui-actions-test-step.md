@@ -16,7 +16,7 @@ breadcrumb: [Building and running automated tests with the Automated Test Framew
 
 Select a UI action from a list to perform different actions on a list or a related list.
 
-You can create a new UI action of the following types. See Create a UI action for more information.
+You can create a new UI action of the following types. See [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_EditingAUIAction.md) for more information.
 
 -   **List banner button**: Creates a button on the banner of a list.
 

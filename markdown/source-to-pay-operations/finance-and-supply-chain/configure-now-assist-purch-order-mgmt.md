@@ -25,7 +25,7 @@ Role required: admin
 1.  Install the Now Assist for POM plugin \(sn\_poem\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-and-supply-chain/supporting-information-na-pom.md).
-    -   For information about the installation process, see .
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 2.  Review the define PO exception mitigation strategy agentic workflow in AI Agenti Studio.
 
 

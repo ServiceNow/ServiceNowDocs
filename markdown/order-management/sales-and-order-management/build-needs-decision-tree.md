@@ -46,7 +46,7 @@ As you build your decision tree, for example after adding a decision node or a p
 
     5.  Select the type of answer for your question.
 
-        For a description of the answer types, see .
+        For a description of the answer types, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/type-of-answer.md).
 
     6.  Add more questions.
 
@@ -54,31 +54,31 @@ As you build your decision tree, for example after adding a decision node or a p
 
 5.  Continue building your decision tree in Decision Tree Builder.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d56456e178">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d56512e179">
 
 Option
 
-</th><th align="left" id="d56456e181">
+</th><th align="left" id="d56512e182">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d56456e187">
+</th></tr></thead><tbody><tr><td id="d56512e188">
 
-****
+**[Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-path-in-gdb.md)**
 
 </td><td>
 
 Configure a path to set the conditions for when the next question is displayed in a decision tree.
 
-</td></tr><tr><td id="d56456e197">
+</td></tr><tr><td id="d56512e199">
 
-****
+**[Add a follow-up set of questions or instructions in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-decision-node-in-gdb.md)**
 
 </td><td>
 
 Configure a question node to add follow-up questions or instructions. An answer to these questions either leads to a guidance or a further set of questions.
 
-</td></tr><tr><td id="d56456e207">
+</td></tr><tr><td id="d56512e210">
 
 **Add a guidance node for the product recommendation questionnaire**
 
@@ -93,9 +93,9 @@ Configure a guidance node, which identifies the product recommendation displayed
 7.  Select **Save and close**.
 
 
-</td></tr><tr><td id="d56456e258">
+</td></tr><tr><td id="d56512e261">
 
-****
+**[Activate a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-guided-decision-tree.md)**
 
 </td><td>
 

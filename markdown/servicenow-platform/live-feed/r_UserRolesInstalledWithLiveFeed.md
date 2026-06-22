@@ -16,7 +16,7 @@ breadcrumb: [Components installed with Live Feed, Live Feed reference, Live Feed
 
 The Live Feed plugin includes the following user roles.
 
-To learn more about managing subscriptions, see  and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Components installed with Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/r_InstalledWithLiveFeed.md)
 

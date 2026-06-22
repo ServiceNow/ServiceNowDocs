@@ -30,15 +30,15 @@ Role required: admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_ecw_c4x_gwb"><thead><tr><th align="left" id="d266610e96">
+<table id="choicetable_ecw_c4x_gwb"><thead><tr><th align="left" id="d266641e96">
 
 Field
 
-</th><th align="left" id="d266610e99">
+</th><th align="left" id="d266641e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d266610e105">
+</th></tr></thead><tbody><tr><td id="d266641e105">
 
 **Name**
 
@@ -46,7 +46,7 @@ Description
 
 A unique name that identifies the application that you require OAuth access for.
 
-</td></tr><tr><td id="d266610e114">
+</td></tr><tr><td id="d266641e114">
 
 **Client ID**
 
@@ -54,7 +54,7 @@ A unique name that identifies the application that you require OAuth access for.
 
 \(Read-Only\) The auto-generated unique ID of the application. The instance uses the client ID when requesting an access token.
 
-</td></tr><tr><td id="d266610e123">
+</td></tr><tr><td id="d266641e123">
 
 **Client Secret**
 
@@ -62,7 +62,7 @@ A unique name that identifies the application that you require OAuth access for.
 
 The shared secret string that both the instance and the client application or website use to authorize communications with one another. The instance uses the client secret when requesting an access token. Leave this field blank to have the instance auto-generate a client secret. To display existing client secrets, click the lock icon.
 
-</td></tr><tr><td id="d266610e132">
+</td></tr><tr><td id="d266641e132">
 
 **Redirect URL**
 
@@ -70,7 +70,7 @@ The shared secret string that both the instance and the client application or we
 
 The callback URL that the authorization server redirects to. Enter as many URLs as needed for all possible token consumers. The instance matches the URL of the incoming request to one of the redirect URLs. If no match is made, the instance uses the first redirect URL.
 
-</td></tr><tr><td id="d266610e142">
+</td></tr><tr><td id="d266641e142">
 
 **Logo URL**
 
@@ -78,7 +78,7 @@ The callback URL that the authorization server redirects to. Enter as many URLs 
 
 The URL that contains an image to use as the application logo. The logo appears on the approval page when the user receives a request to grant a client application access to a restricted resource on the instance.
 
-</td></tr><tr><td id="d266610e151">
+</td></tr><tr><td id="d266641e151">
 
 **Application**
 
@@ -86,7 +86,7 @@ The URL that contains an image to use as the application logo. The logo appears 
 
 The name of the application.
 
-</td></tr><tr><td id="d266610e160">
+</td></tr><tr><td id="d266641e160">
 
 **Accessible from**
 
@@ -96,7 +96,7 @@ Define the application scope. Select one of the following:-   **All application 
 -   **This application scope only**
 
 
-</td></tr><tr><td id="d266610e180">
+</td></tr><tr><td id="d266641e180">
 
 **Active**
 
@@ -104,7 +104,7 @@ Define the application scope. Select one of the following:-   **All application 
 
 Select the check box to make the application registry active.
 
-</td></tr><tr><td id="d266610e189">
+</td></tr><tr><td id="d266641e189">
 
 **Refresh Token Lifespan**
 
@@ -112,7 +112,7 @@ Select the check box to make the application registry active.
 
 The number of seconds that a refresh token is valid. The instance uses the lifespan value when requesting a refresh token. By default, refresh tokens expire in 100 days \(8640000 seconds\).
 
-</td></tr><tr><td id="d266610e198">
+</td></tr><tr><td id="d266641e198">
 
 **Access Token Lifespan**
 
@@ -120,7 +120,7 @@ The number of seconds that a refresh token is valid. The instance uses the lifes
 
 The number of seconds that an access token is valid. The instance uses the lifespan value when requesting an access token. By default, access tokens expire in 30 minutes \(1800 seconds\).
 
-</td></tr><tr><td id="d266610e208">
+</td></tr><tr><td id="d266641e208">
 
 **Comments**
 

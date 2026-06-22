@@ -40,7 +40,7 @@ Documents are uploaded and accessed from the Managed Documents application in th
 
 The base system provides the Non-Disclosure Agreement document template as an example of a PDF document template.
 
-**Note:** See . Managed Document features
+**Note:** See . [Managed Document features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/r_ManagedDocumentFeatures.md)
 
 ## Procedure
 
@@ -120,7 +120,7 @@ HR criteria
 
 Select the audience criteria for this document. For example, you can create a letter intended for only Canadian employees. The HR criteria narrows the number of users for the template.
 
-**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 

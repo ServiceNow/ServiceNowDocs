@@ -35,7 +35,7 @@ Impact Value Management data collection apps are delivered by the Impact squad w
 
     For more information, see:
 
-    -   
+    -   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
     -   [Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/connect-instance-impact-store-app.md)
 
 ## Get started

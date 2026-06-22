@@ -16,7 +16,7 @@ breadcrumb: [Reference, Group Life Servicing, Life Insurance Servicing, Insuranc
 
 Several types of components are installed with activation of the Group Life Servicing plugin, including tables and user roles. The applications also install related plugins and store applications if they are not already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## Plugins installed
 

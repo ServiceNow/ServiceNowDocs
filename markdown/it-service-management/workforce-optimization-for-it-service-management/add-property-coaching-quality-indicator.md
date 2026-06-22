@@ -18,7 +18,7 @@ Add a system property to display the desired indicator in the Coaching Overview 
 
 ## Before you begin
 
-Set the map application scope to **Coaching**. For information on how to set the scope, see Set map application scope.
+Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/set-map-application-scope.md).
 
 Role required: admin
 
@@ -72,7 +72,7 @@ Value
 
 </td><td>
 
-\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifier \(sys\_id\) of the indicator.
+\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the [unique record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UniqueRecordIdentifier.md) \(sys\_id\) of the indicator.
 
  Example:
 

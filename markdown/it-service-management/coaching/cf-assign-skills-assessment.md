@@ -30,15 +30,15 @@ The coaching assessments generated from coaching opportunities award the skills 
 
 1.  Associate skills with coaching assessment or opportunities.
 
-<table id="choicetable_nyk_yw3_shb"><thead><tr><th align="left" id="d182559e57">
+<table id="choicetable_nyk_yw3_shb"><thead><tr><th align="left" id="d182661e57">
 
 To
 
-</th><th align="left" id="d182559e60">
+</th><th align="left" id="d182661e60">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d182559e66">
+</th></tr></thead><tbody><tr><td id="d182661e66">
 
 **Associate skills with coaching opportunities**
 
@@ -51,7 +51,7 @@ Do this
 5.  In the **Skill level** field, select the lookup icon and select the skill level for this opportunity.
 
 
-</td></tr><tr><td id="d182559e114">
+</td></tr><tr><td id="d182661e114">
 
 **Associate skills with coaching assessments**
 
@@ -64,7 +64,7 @@ Do this
 5.  In the **Skill level** field, select the lookup icon and select the skill level for this assessment.
 When the assessment is complete, the skill is automatically added for the trainee.
 
-</td></tr><tr><td id="d182559e161">
+</td></tr><tr><td id="d182661e161">
 
 **Associate skills with course items**
 

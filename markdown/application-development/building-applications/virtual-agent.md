@@ -22,7 +22,7 @@ Some considerations when building VA conversation topics:
 -   Read topics out loud to keep the topic from sounding too robotic or being too verbose.
 -   Do not try to design the whole interaction at once. Instead take an iterative approach when building the bot and test the conversation frequently.
 
-For more information, see .
+For more information, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 **Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/create-design-elements.md)
 

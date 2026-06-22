@@ -27,7 +27,7 @@ Role required: sn\_hcls\_cmms.clinical\_engineer or sn\_hcls\_cmms.sm\_agent
 
 ## About this task
 
-You can also perform risk assessment in the Risk Workspace. For more information, see Perform advanced risk assessment in the Risk Workspace.
+You can also perform risk assessment in the Risk Workspace. For more information, see [Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md).
 
 **Note:** The risk assessment methodology to set a medical device in-service is the residual risk assessment type.
 

@@ -23,7 +23,7 @@ Identify skills for a specific set of conditions defined for walk-up reasons. Us
 -   New interactions opened after the set up are routed to the available agent with the respective skills.
 -   If an agent is unavailable and the interaction does not need any mandatory skills, the walk-up task is routed based on the assignment rule associated with the location.
 
-For more information, see Skills Management
+For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/skills-management/skills-management.md)
 
 -   **[Route walk-up tasks to skilled agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-routing-tasks-to-skilled-agents.md)**  
 Use business rules to automatically route walk-up tasks to the agents based on their skill set.

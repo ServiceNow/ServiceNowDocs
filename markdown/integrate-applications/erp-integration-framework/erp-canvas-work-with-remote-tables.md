@@ -19,7 +19,7 @@ Enterprise Resource Planning \(ERP\) remote tables in Zero Copy Connector for ER
 
 **Note:** Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system of record, and remains protected there.
 
-For general information about remote tables in the ServiceNow AI Platform, see .
+For general information about remote tables in the ServiceNow AI Platform, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/remote-tables.md).
 
 ## Remote tables are linked to ERP models
 

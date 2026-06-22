@@ -54,7 +54,7 @@ glide.cms.dashboards.sharing\_with\_secure\_search
 -   Default value: false
 -   Location: **System Properties** &gt; **Dashboard Properties**
 
- When enabled, the list of users, user groups, and roles that are visible in the sharing panel is restricted. The restriction is based on the configuration of the sys\_user, sys\_user\_group, and sys\_user\_role ACLs. For more information, see Access control list rules.
+ When enabled, the list of users, user groups, and roles that are visible in the sharing panel is restricted. The restriction is based on the configuration of the sys\_user, sys\_user\_group, and sys\_user\_role ACLs. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/access-control-rules.md).
 
  There is a performance penalty associated with enabling this property. Performance degradation may be based on the number and complexity of business rules and ACLs on your instance.
 

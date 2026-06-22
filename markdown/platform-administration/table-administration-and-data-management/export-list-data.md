@@ -25,7 +25,7 @@ Role required: none. Exporting to XML requires the admin role.
 Note the following important details:
 
 -   Data exported from a list may be different from what a user sees in the list view. This generally happens when a table has ACLs that are dependent on the user's current session. To avoid blocking user activity on the browser, list export is executed from a background thread and doesn't have access to user session data.
--   To export records in an embedded list, export the record containing the list. See [Export data from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/export-form-data.md).
+-   To export records in an [embedded list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EmbeddedLists.md), export the record containing the list. See [Export data from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/export-form-data.md).
 -   To control how line breaks appear in exported CSV data, use the glide.csv.export.line\_break system property. See [glide.csv.export.line\_break](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
 -   To remove unwanted HTML tags from list data, see the blog [Rendering HTML in Exported Lists](https://community.servicenow.com/community?id=community_blog&sys_id=1cdc2665dbd0dbc01dcaf3231f961967&view_source=searchResult) by a ServiceNow employee in the ServiceNow Community.
 -   The platform provides a default upper limit for data exports. See [Export limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_ExportLimits.md).
@@ -38,7 +38,7 @@ Note the following important details:
 
 3.  Select an export option.
 
-    **Note:** For export to PDF, when the accessibility property is enabled, users will get a pop up when they export to PDF where they can specify whether to create an accessible PDF or not. For more information, see .
+    **Note:** For export to PDF, when the accessibility property is enabled, users will get a pop up when they export to PDF where they can specify whether to create an accessible PDF or not. For more information, see [PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/pdf-generation-accessibility.md).
 
     -   To export the list to Excel, select **Export** &gt; **Excel \(.xlsx\)**.
     -   To export the list to CSV, select **Export** &gt; **CSV**.
@@ -50,7 +50,7 @@ Note the following important details:
     -   To export the list and the associated form for each record in landscape mode, select **Export** &gt; **PDF** &gt; **Details Landscape** &gt; **Export**.
     -   To export the list to a file using an export set, select **Export** &gt; **Export Set**.
     -   To export the list to a Google spreadsheet, select **Export** &gt; **Google Sheets**.
-    For details on using export sets, see Export sets.
+    For details on using export sets, see [Export sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-export-sets/c_ExportSets.md).
 
 4.  When the export completes, select **Download**.
 

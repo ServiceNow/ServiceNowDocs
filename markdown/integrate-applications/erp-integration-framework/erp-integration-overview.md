@@ -27,7 +27,7 @@ Use models as the data foundation for ERP apps. These models include ERP system 
 
 Zero Copy Connector for ERP data products are sets of predefined models and process extensions that are useful examples for developers with little or no SAP domain knowledge. Data products accelerate the work so that building uses cases involving SAP data becomes a faster process that more developers can accomplish. For more information, see [Zero Copy Connector for ERP data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
 
-**Note:** For information about new and updated features in the Zurich release, see Zero Copy Connector for ERP release notes.
+**Note:** For information about new and updated features in the Zurich release, see [Zero Copy Connector for ERP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/erp-canvas-rn.md).
 
 <table id="table_iwv_lpv_klb1" class="nav-card"><tbody><tr><td>
 

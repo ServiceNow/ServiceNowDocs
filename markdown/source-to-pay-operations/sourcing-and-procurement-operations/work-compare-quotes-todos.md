@@ -32,15 +32,15 @@ Role required: sn\_shop.shopper
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d110178e100">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d110198e100">
 
 Action
 
-</th><th align="left" id="d110178e103">
+</th><th align="left" id="d110198e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110178e109">
+</th></tr></thead><tbody><tr><td id="d110198e109">
 
 **Checkout now**
 
@@ -48,7 +48,7 @@ Description
 
 Select the quote that works best for you and proceed to checkout. The quick checkout pane is displayed, with the details for your purchase already filled in. For more information on how to proceed, see [Order a product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.md).
 
-</td></tr><tr><td id="d110178e128">
+</td></tr><tr><td id="d110198e128">
 
 **Reject all quotes**
 

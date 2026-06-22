@@ -94,7 +94,7 @@ A page has a collection of components that make up a workspace, portal, or custo
 
 14. Declare conditions for when to display the page by either using the provided dropdown menus or writing an encoded query string.
 
-    For more information on writing encoded queries, see .
+    For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).
 
 15. Select **Continue**.
 

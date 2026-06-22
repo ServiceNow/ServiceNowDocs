@@ -20,7 +20,7 @@ Connect integrates with Risk Management providing an overlay to the standard int
 
 Role required: sn\_risk.user
 
-For more information about Connect, see Connect.
+For more information about Connect, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/connect/c_Connect.md).
 
 ## Procedure
 

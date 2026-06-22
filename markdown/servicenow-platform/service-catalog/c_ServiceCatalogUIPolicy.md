@@ -18,11 +18,11 @@ UI policies can be used to define custom process flows for tasks.
 
 Catalog UI policies control the behavior of catalog item forms when presented to your users. Catalog UI policies can be applied to a catalog item or a variable set.
 
-UI policies are useful when applied to service catalog items. Keep the following points in mind when creating service catalog UI policies:
+[UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateAUIPolicy.md) are useful when applied to service catalog items. Keep the following points in mind when creating service catalog UI policies:
 
 -   A catalog UI policy applies to either a specific catalog item or any item that uses a specific variable set.
 -   A catalog UI policy can only contain and reference variables that are defined for the catalog item or variable set.
--   Like UI policy conditions, the variables in a service catalog UI policy condition must be visible \(even if hidden by UI policy or read-only\) on the form for the condition to be tested. Also, ensure that the variables have names. For more information, see Create a catalog client script.
+-   Like UI policy conditions, the variables in a service catalog UI policy condition must be visible \(even if hidden by UI policy or read-only\) on the form for the condition to be tested. Also, ensure that the variables have names. For more information, see [Create a catalog client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_CatalogClientScriptCreation.md).
 -   Limited UI policy functionality applies to following variables:
     -   The Mandatory and Read Only policy do not apply to the following variable types: Break, Container Split, Container End, UI Macro, UI Macro with Label, Label, UI Page.
     -   The Set visible policy does not apply to the following variable types: Break, Container Split, Container End.

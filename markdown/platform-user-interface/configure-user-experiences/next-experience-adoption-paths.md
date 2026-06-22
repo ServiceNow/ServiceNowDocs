@@ -66,7 +66,7 @@ During the upgrade, the Next Experience UI is not turned on.
 
 Connect Chat is not available in Next Experience. Starting with Zurich, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) for more information about the differences between Connect Chat and Sidebar.
 
-Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
+Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
 
 These features and products are not currently supported with Next Experience:
 

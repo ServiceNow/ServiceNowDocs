@@ -41,6 +41,6 @@ For every transformation, you must either create a transform map or select an ex
 
 3.  To create a transform map, click **New**.
 
-    For details of how to create a transform map, refer to the table in Transformation scripts.
+    For details of how to create a transform map, refer to the table in [Transformation scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
 
 

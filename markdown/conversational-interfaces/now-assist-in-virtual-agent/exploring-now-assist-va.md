@@ -8,7 +8,7 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [Exploring, Now Assist, Virtual Agent, LLM, NLU, Natural Language Understanding, Large language model, skills]
 breadcrumb: [Now Assist in Virtual Agent, Conversational Interfaces]
 ---
@@ -54,11 +54,11 @@ Now Assist in Virtual Agent provides the following benefits.
 |Benefit|Feature|User|
 |-------|-------|----|
 |Configure Now Assist in Virtual Agent in a few minutes, from either the Conversational Interfaces console or the Now Assist Admin console.|[Guided setup experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)|virtual\_agent\_admin or admin|
-|Now Assist skills can be turned on within the guided setup.||virtual\_agent\_admin or admin|
+|Now Assist skills can be turned on within the guided setup.|[Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md)|virtual\_agent\_admin or admin|
 |Deploy Now Assist in Virtual Agent on multiple portals using the chat widget, the mobile app, and Microsoft Teams.|[Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)|virtual\_agent\_admin or admin|
 |Generative AI enhances the user search experience with the ability to generate answers and enabling the user to select the **Show more results** option for a new search.|[Now Assist Q&amp;A Genius Results skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)|requesters|
 |Give users in-chat access to available options in the Service Catalog.|[Now Assist Multi-Turn Catalog Ordering skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)|requesters|
 |Now Assist lets Virtual Agent switch easily between requests, using plain language when new queries are made in the same conversation.|[Mid-topic switching during Now Assist in Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.md)|requesters|
 |Monitor performance metrics for Now Assist in Virtual Agent from the Conversational Interfaces console.|[Conversational Interfaces console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/exploring-ci.md)|virtual\_agent\_admin or admin|
-|Monitor value metrics \(Now Assist usage versus Now Assist in Virtual Agent\) from the Now Assist Admin console.||virtual\_agent\_admin or admin|
+|Monitor value metrics \(Now Assist usage versus Now Assist in Virtual Agent\) from the Now Assist Admin console.|[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md)|virtual\_agent\_admin or admin|
 

@@ -62,7 +62,7 @@ The unified data model of the ServiceNow AI Platform helps with the seamless int
     -   Flows in Workflow Studio: For more information, see .
     -   Playbooks in Workflow Studio: For more information, see .
     -   Table Builder: For more information, see .
-    -   UI Builder: For more information, see .
+    -   UI Builder: For more information, see [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/data-resources.md).
     -   Workspace Builder: For more information, see .
 
 ## Benefits of Zero Copy Connector for ERP

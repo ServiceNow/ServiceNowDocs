@@ -38,15 +38,15 @@ Role required: admin
 
 6.  On the **Monitored CIs** tab, select one of the following options.
 
-<table id="choicetable_en5_d41_52c"><thead><tr><th align="left" id="d112781e145">
+<table id="choicetable_en5_d41_52c"><thead><tr><th align="left" id="d112854e145">
 
 Option
 
-</th><th align="left" id="d112781e148">
+</th><th align="left" id="d112854e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d112781e154">
+</th></tr></thead><tbody><tr><td id="d112854e154">
 
 **Manual calculation**
 
@@ -54,7 +54,7 @@ Description
 
 Select to exclude the policy from scheduled policy calculation, ignoring any changes to the policy impacted CIs.Select this option when the policy monitors a single CI. The option enables you to avoid a long completion time for the Refresh and Publish Monitoring Policies scheduled job.
 
-</td></tr><tr><td id="d112781e165">
+</td></tr><tr><td id="d112854e165">
 
 **Monitored CI type by filter**
 
@@ -64,7 +64,7 @@ Select to exclude the policy from scheduled policy calculation, ignoring any cha
 2.  In the **Filter** field, configure a filter so that the policy checks monitor only CI types, which meet the specified criteria. CI **tags** are included in the available criteria.
 
 
-</td></tr><tr><td id="d112781e192">
+</td></tr><tr><td id="d112854e192">
 
 **Monitored CI type by script**
 
@@ -72,7 +72,7 @@ Select to exclude the policy from scheduled policy calculation, ignoring any cha
 
 Specify the monitored CIs using a script. Using a script enables you to create a CI filter for several tables related to each other. For example, you can set a filter in both a Linux servers table and an Oracle table when searching for a CI.
 
-</td></tr><tr><td id="d112781e203">
+</td></tr><tr><td id="d112854e203">
 
 **Monitored CI type by CMDB Group**
 
@@ -91,15 +91,15 @@ Specify the monitored CIs by using CMDB group queries. When selected, the **Moni
 
 9.  On the **Scheduling** tab, select one of the following options.
 
-<table id="choicetable_elq_mdb_52c"><thead><tr><th align="left" id="d112781e268">
+<table id="choicetable_elq_mdb_52c"><thead><tr><th align="left" id="d112854e268">
 
 Option
 
-</th><th align="left" id="d112781e271">
+</th><th align="left" id="d112854e271">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d112781e277">
+</th></tr></thead><tbody><tr><td id="d112854e277">
 
 **Interval-based scheduling**
 
@@ -107,7 +107,7 @@ Steps
 
 Configure the time interval \(in seconds\) to indicate the frequency with which the policy's checks run.
 
-</td></tr><tr><td id="d112781e286">
+</td></tr><tr><td id="d112854e286">
 
 **Cron-based scheduling**
 

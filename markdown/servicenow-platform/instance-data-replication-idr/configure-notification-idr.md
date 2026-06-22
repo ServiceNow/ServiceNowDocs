@@ -33,7 +33,7 @@ Role required: admin
 
 3.  In the **When to send** tab, configure when the notification is sent.
 
-<table id="choicetable_t2s_vlq_qdc"><tbody><tr><td id="d570315e138">
+<table id="choicetable_t2s_vlq_qdc"><tbody><tr><td id="d568878e138">
 
 **Record is inserted or updated**
 
@@ -43,7 +43,7 @@ Role required: admin
 2.  Configure the conditions under which this notification is sent using the condition builder. The default condition is **\[Status\] \[is\] \[Replication Error\]**
 
 
-</td></tr><tr><td id="d570315e170">
+</td></tr><tr><td id="d568878e170">
 
 **Event is fired**
 
@@ -53,7 +53,7 @@ Role required: admin
 2.  Configure the conditions under which this notification is sent using the condition builder. The default condition is **\[Status\] \[is\] \[Replication Error\]**
 
 
-</td></tr><tr><td id="d570315e190">
+</td></tr><tr><td id="d568878e190">
 
 **Triggered**
 

@@ -40,7 +40,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon-impact.svg"\] Release Notes**
 
-    Learn more about what's new and changed in this release at 
+    Learn more about what's new and changed in this release at [Telecommunications Service Operations Management \(TSOM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/telecommunications-service-operations-management-rn.md)
 
 -   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 

@@ -340,7 +340,7 @@ You can add this example as a client script with the type set to "onLoad" for in
 
 Gets the domain scope details.
 
-The domainScopeProvider\(\) method accesses four functions to return information about the domain scope. For information, see .
+The domainScopeProvider\(\) method accesses four functions to return information about the domain scope. For information, see [Domain scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_DomainScope.md).
 
 Required role – domain\_expand\_scope.
 

@@ -52,15 +52,15 @@ Exclusion rules must be unique within a domain. An attempted duplicate submissio
 
 3.  On the **Add Row** form, configure the fields according to the following guidance.
 
-<table id="choicetable_kb3_lpm_ddc"><thead><tr><th align="left" id="d90259e188">
+<table id="choicetable_kb3_lpm_ddc"><thead><tr><th align="left" id="d90319e188">
 
 Rule type
 
-</th><th align="left" id="d90259e191">
+</th><th align="left" id="d90319e191">
 
 Fields
 
-</th></tr></thead><tbody><tr><td id="d90259e197">
+</th></tr></thead><tbody><tr><td id="d90319e197">
 
 **Exact Match**
 
@@ -71,7 +71,7 @@ Fields
 -   **Order**: Optional. See the previous explanation.
 
 
-</td></tr><tr><td id="d90259e223">
+</td></tr><tr><td id="d90319e223">
 
 **Pattern Match**
 

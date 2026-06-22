@@ -53,7 +53,7 @@ The following four criteria are available by default:
 
 4.  Fill in the fields on the form.
 
-    For information on creating a new matching criteria, see .
+    For information on creating a new matching criteria, see [Create assignment workbench matching criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/create-assignment-wkbench-criteria.md).
 
 5.  Select **Submit**.
 

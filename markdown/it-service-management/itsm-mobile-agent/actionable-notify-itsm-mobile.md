@@ -238,7 +238,7 @@ Role required: admin
     -   Navigation
     -   URL
     -   Chat launcher
-    For information on function types, and detailed steps for creating functions, see Mobile functions.
+    For information on function types, and detailed steps for creating functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/sg-studio-mobile-button-types.md).
 
 4.  Create additional functions for each push action.
 

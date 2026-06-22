@@ -22,7 +22,7 @@ This API requires the Configuration Management Database \(CMDB\) application \(c
 
 This API is only available in Global scope. To use these methods in a scoped application, see [CMDBQBScopedScriptableAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CMDBQBScopedAPI.md).
 
-For more information about CMDB Query Builder, see .
+For more information about CMDB Query Builder, see [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-landing-page.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
@@ -124,7 +124,7 @@ Message containing details about the success or failure of the report creation.P
 -   `Invalid queryId. Please provide a valid saved query ID`
 -   `Query must have a schedule with at least one run to create a report.`
 
-See also .
+See also [Schedule a CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.md).
 
 Data type: String
 
@@ -305,7 +305,7 @@ Returns the execution details for a Configuration Management Database \(CMDB\) Q
 
 Optionally, you can execute the query in order to return current execution details.
 
-If a timeout or memory issue occurs while executing the query, you can fine tune the query batch size to help alleviate these problems. For more information, see Batch size for Query Builder saved queries.
+If a timeout or memory issue occurs while executing the query, you can fine tune the query batch size to help alleviate these problems. For more information, see [Batch size for Query Builder saved queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md).
 
 For scoped applications, use [CMDBQBScopedScriptableAPI - getSavedQueryExecutionDetails\(String savedQueryName, Boolean executeQuery, Number timeout\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/CMDBQBScopedAPI.md).
 
@@ -411,7 +411,7 @@ Data type: String
 
 </td><td>
 
-Batch size of 100 allocated for the query run. This value only returns if the **executeQuery** parameter is true. See also .Data type: Number
+Batch size of 100 allocated for the query run. This value only returns if the **executeQuery** parameter is true. See also [Batch size for CMDB Query Builder queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md).Data type: Number
 
 </td></tr><tr><td>
 

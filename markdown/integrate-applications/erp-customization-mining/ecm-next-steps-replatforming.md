@@ -43,7 +43,7 @@ After you identify ERP data to replatform, citizen developers can use ServiceNow
 Use any of the following ServiceNow builders to create apps using custom data:
 
 -   ServiceNow Studio
--   Flows in Workflow Studio
+-   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-flows.md)
 -   Playbooks in Workflow Studio
 -   Table Builder
 -   UI Builder

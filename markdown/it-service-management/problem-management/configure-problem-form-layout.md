@@ -26,7 +26,7 @@ Role required: personalize\_form
 
 2.  In the problem form context menu, select **Configure** &gt; **Form Layout**.
 
-3.  Follow the steps in Configuring the form layout to perform any of the following layout modifications.
+3.  Follow the steps in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) to perform any of the following layout modifications.
 
     Some of these modifications are illustrated in the example.
 

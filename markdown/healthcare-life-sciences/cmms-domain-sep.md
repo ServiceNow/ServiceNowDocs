@@ -28,7 +28,7 @@ To use maintenance and servicing workflows or inventory and management workflows
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 The Healthcare CMMS application includes domain separation for transactional data like medical device cases including AEM, in-service, device issue cases, and out-of-service devices.
 

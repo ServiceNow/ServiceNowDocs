@@ -16,7 +16,7 @@ breadcrumb: [Reference, Talent Development Core, Growth Experiences, HR Service 
 
 Several types of components are installed with Talent Development Core, including roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## Roles
 

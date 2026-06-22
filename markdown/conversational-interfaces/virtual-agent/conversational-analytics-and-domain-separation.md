@@ -24,15 +24,15 @@ The support level is Basic but has some exceptions or special conditions.
 -   The user interface, cache keys, reporting, rollups, and aggregations all use the domain at production run time.
 -   The owner of the instance must be able to set up the application to function across multiple tenants.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 ## Required approach to domain separation
 
-Currently, only Global approach is supported to domain separation in Conversational Analytics dashboard. To learn more, see .
+Currently, only Global approach is supported to domain separation in Conversational Analytics dashboard. To learn more, see [Domain separation and Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_PAWithDomainSeparation.md).
 
 ## Overview of domain separation
 
-Conversational Analytics dashboard is built on the Platform Analytics experience. See  for more information.
+Conversational Analytics dashboard is built on the Platform Analytics experience. See [Domain separation for Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/domain-sep-pa-dashboards.md) for more information.
 
 ## How domain separation works in Conversational Analytics
 
@@ -42,7 +42,7 @@ With domain separation in Conversational Analytics, users in one domain cannot a
 
 ## Requirements
 
-All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see .
+All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/t_ActivateDomainSeparation.md).
 
 ## Use cases
 
@@ -53,5 +53,5 @@ If you are a service provider that hosts multiple clients in the same instance, 
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
 

@@ -40,15 +40,15 @@ Role required:
 
 6.  In the Remediate dialog box, choose which method you want to use for remediation, and then select **Remediate**.
 
-<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d148261e158">
+<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d146663e158">
 
 Choice
 
-</th><th align="left" id="d148261e161">
+</th><th align="left" id="d146663e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d148261e167">
+</th></tr></thead><tbody><tr><td id="d146663e167">
 
 **Remediate manuallyUse the Duplicate CI Remediator**
 
@@ -58,7 +58,7 @@ Use the Duplicate CI Remediator built on Core UI to remediate the task.
 
  To continue with this choice of remediation, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
-</td></tr><tr><td id="d148261e192">
+</td></tr><tr><td id="d146663e192">
 
 **Use the Duplicate CI Remediator in Restricted Mode**
 
@@ -68,7 +68,7 @@ Appears only if the **glide.duplicate\_ci\_remediator.enable\_restricted\_mode**
 
  To continue with this choice, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md). Skip to step \#5 in the procedure.
 
-</td></tr><tr><td id="d148261e224">
+</td></tr><tr><td id="d146663e224">
 
 **Remediate using a template**
 

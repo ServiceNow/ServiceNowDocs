@@ -7,7 +7,7 @@ release: zurich
 product: Enable AI Experiences
 classification: enable-ai-experiences
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 keywords: [Now Assist, Now Assist context menu, Generative AI, Gen AI, Streamline]
 breadcrumb: [Now Assist context menu, Now Assist Experiences, Exploring Now Assist Admin, Now Assist, Enable AI experiences]

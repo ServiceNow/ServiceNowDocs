@@ -33,9 +33,9 @@ Ensure the Glide Property **glide.report.published\_reports.enabled** exists and
 |Security risk rating|6.5|
 |Functional impact|The user cannot publish reports.|
 |Security risk|\(Moderate\) If this property is not enabled, users may be able to access or publish reports exposing sensitive data. Publishing a report creates a URL that anyone can use to access the report, including people who are not users. When anyone navigates to the URL, the report is generated with current data from the instance.|
-|References|Publish a report|
+|References|[Publish a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/t_PublishAReport.md)|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

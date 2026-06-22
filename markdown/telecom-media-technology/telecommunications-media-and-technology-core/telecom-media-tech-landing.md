@@ -17,7 +17,7 @@ The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite
 
 <table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
 
-Customer Success Management \[Omitted image "bus-events-tmt.svg"\] Alt text: Streamline, automate, and measure critical workflows across the enterprise.
+[Customer Success Management \[Omitted image "bus-events-tmt.svg"\] Alt text: Streamline, automate, and measure critical workflows across the enterprise.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing.md)
 
 </td><td>
 
@@ -33,7 +33,7 @@ Customer Success Management \[Omitted image "bus-events-tmt.svg"\] Alt text: Str
 
 </td><td>
 
-Proactive Service Experience Workflows\[Omitted image "bus-workflow-tmt.svg"\] Alt text: Deliver end-to-end workflows to resolve network related incidents, and proactively notify impacted customers.
+[Proactive Service Experience Workflows\[Omitted image "bus-workflow-tmt.svg"\] Alt text: Deliver end-to-end workflows to resolve network related incidents, and proactively notify impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md)
 
 </td><td>
 
@@ -41,7 +41,7 @@ Proactive Service Experience Workflows\[Omitted image "bus-workflow-tmt.svg"\] A
 
 </td></tr><tr><td>
 
-Service Exchange \[Omitted image "bus-service-portal.svg"\] Alt text:Help customers and providers connect and track service requests directly between their instances.
+[Service Exchange \[Omitted image "bus-service-portal.svg"\] Alt text:Help customers and providers connect and track service requests directly between their instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
 
 </td><td>
 
@@ -49,11 +49,11 @@ Service Exchange \[Omitted image "bus-service-portal.svg"\] Alt text:Help custom
 
 </td><td>
 
-Telecommunications Network Inventory \[Omitted image "bus-server-tmt.svg"\] Alt text: Build and monitor your physical, logical networks, and provisioned services.
+[Telecommunications Network Inventory \[Omitted image "bus-server-tmt.svg"\] Alt text: Build and monitor your physical, logical networks, and provisioned services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md)
 
 </td></tr><tr><td>
 
-Telecommunications Service Operations Management\[Omitted image "bus-siem-tmt.svg"\] Alt text: Proactively monitor the health of your networks and services to prevent downtime.
+[Telecommunications Service Operations Management\[Omitted image "bus-siem-tmt.svg"\] Alt text: Proactively monitor the health of your networks and services to prevent downtime.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/telecommunications-service-operations-management/telecommunications-service-operations-management.md)
 
 </td><td>
 

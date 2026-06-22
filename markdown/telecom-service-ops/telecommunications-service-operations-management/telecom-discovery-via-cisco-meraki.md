@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -24,7 +24,7 @@ The Cisco Meraki SGC provides visibility, control, and synchronization of physic
 -   Real-time synchronization: Ensures the Configuration Management Database \(CMDB\) is up to date with the latest CI information.
 -   Visualization: Provides a graphical representation of Cisco Meraki networks, device relationships, and dependencies through the Integration Hub ETL.
 
-**Note:** For a general overview of Service Graph Connector technology, see .
+**Note:** For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Cisco Meraki SGC Architecture
 
@@ -40,5 +40,5 @@ The Cisco Meraki architecture consists of the following key components:
 
 ## CMDB Integrations Dashboard
 
-The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. The dashboard displays metrics for all integration runs. You can filter the view to a specific integration, time duration, or integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see .
+The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. The dashboard displays metrics for all integration runs. You can filter the view to a specific integration, time duration, or integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 

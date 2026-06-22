@@ -46,7 +46,7 @@ You can create security incidents by selecting from categories of security threa
 
 </td></tr><tr><td>
 
-Incident Management
+[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/incident-management/c_IncidentManagement.md)
 
 </td><td>
 
@@ -70,7 +70,7 @@ On the Event Management Alerts form, select **Create Security incident** to crea
 
 </td></tr><tr><td>
 
-Manually created from an alert
+[Manually created from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/incident-communications-management/t_CreateAnAlertFromAnIncident.md)
 
 </td><td>
 
@@ -91,5 +91,5 @@ Generally, security administrators are responsible for setting up alert rules to
 
 |Method|Description|
 |------|-----------|
-|[Automatically created using alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_ScIncdUseAlrts.md)|Security incidents can be created based on alert rules defined in the Event management in your data center application.|
+|[Automatically created using alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/c_ScIncdUseAlrts.md)|Security incidents can be created based on alert rules defined in the [Event management in your data center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/event-management/c_EM.md) application.|
 

@@ -45,7 +45,7 @@ When you activate the Employee Profile plugin, the following fields are pulled f
 
 You must activate the Employee Profile \(sn\_employee\) plugin to use the Employee Profile table with your application.
 
-**Note:** If you are using the table with Strategic Portfolio Management, see Update the resource capacity for more information.
+**Note:** If you are using the table with Strategic Portfolio Management, see [Update the resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/resource-management/update-resource-capacity.md) for more information.
 
 -   **[Activate Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-employee-profile.md)**  
 You can activate the Employee Profile plugin \[sn\_employee\] if you have the admin role.

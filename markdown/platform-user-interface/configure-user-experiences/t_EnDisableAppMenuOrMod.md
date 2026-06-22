@@ -34,7 +34,7 @@ Role required: admin
 
 4.  Enable or disable the application menu and modules as desired.
 
-<table id="choicetable_en1_hx4_p4"><tbody><tr><td id="d68850e104">
+<table id="choicetable_en1_hx4_p4"><tbody><tr><td id="d68154e104">
 
 **Enable or disable a specific module in the application**
 
@@ -44,7 +44,7 @@ Role required: admin
 2.  Set **Active** to **true** \(show\) or **false** \(hide\).
 
 
-</td></tr><tr><td id="d68850e137">
+</td></tr><tr><td id="d68154e137">
 
 **Enable or disable multiple modules at the same time**
 
@@ -54,7 +54,7 @@ Role required: admin
 2.  Select **Change active state** from the **Actions** choice list.
 
 
-</td></tr><tr><td id="d68850e161">
+</td></tr><tr><td id="d68154e161">
 
 **Enable or disable the entire application menu \(for example, Incident or Service Catalog\)**
 
@@ -62,7 +62,7 @@ Role required: admin
 
 Select or clear the **Active** check box.
 
-</td></tr><tr><td id="d68850e173">
+</td></tr><tr><td id="d68154e173">
 
 **Restrict the application menu to specific roles**
 

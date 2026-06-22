@@ -58,7 +58,7 @@ You can create a business rule for your service for any of the following reasons
 
 9.  Click **Update**.
 
-    For more information on other fields of this form, see Create a business rule.
+    For more information on other fields of this form, see [Create a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/business-rules-classic/c_BusinessRules.md).
 
 
 **Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)

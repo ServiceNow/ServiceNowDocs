@@ -23,8 +23,8 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 Detect and mask sensitive data using the Sensitive Data Handler so it is not viewed by the agent or requester. For more information, see:
 
--   
--   
+-   [Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-chat/ac-sensitive-data-overview.md)
+-   [Configuring Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-chat/ac-configure-sensitive-data-handling.md)
 
 ## About this task
 
@@ -52,10 +52,10 @@ Although the following catalog item question types are supported in the conversa
 
 |Feature|Topic Reference|
 |-------|---------------|
-|Upload file formats such as text, PDF, Word \(.doc, .docx\) and image files such as JPEG and PNG.|.|
-|Combine AI Search with generative AI chat skills to speed up issue resolution and reduce deflection to a live agent using Now Assist for ITSM in Virtual Agent.||
-|Use the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of Now Assist in Virtual Agent, AI agents, and generative AI skills using Knowledge Graph.||
-|Define crawl settings for external content connectors to crawl source systems and send it to AI Search for indexing.||
+|Upload file formats such as text, PDF, Word \(.doc, .docx\) and image files such as JPEG and PNG.|[Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/upload-documents-na-va.md).|
+|Combine AI Search with generative AI chat skills to speed up issue resolution and reduce deflection to a live agent using Now Assist for ITSM in Virtual Agent.|[Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md)|
+|Use the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of Now Assist in Virtual Agent, AI agents, and generative AI skills using Knowledge Graph.|[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md)|
+|Define crawl settings for external content connectors to crawl source systems and send it to AI Search for indexing.|[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/configuring-ext-cont-connectors.md)|
 |Monitor your device's performance and diagnose potential issues.|[Check device health using Now Assist for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)|
 
 ## Procedure
@@ -64,7 +64,7 @@ Although the following catalog item question types are supported in the conversa
 
 2.  Set up Now Assist in Virtual Agent.
 
-    For more information on how to turn on the skills and set up generative AI for Virtual Agent, see .
+    For more information on how to turn on the skills and set up generative AI for Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
     **Note:**
 

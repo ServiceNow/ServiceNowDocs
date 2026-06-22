@@ -124,7 +124,7 @@ Feature that customers can use to integrate the Customer Service Management \(CS
 
 External organizations like resellers or system integrators that collaborate with an enterprise to sell products and services, and can be managed through Partner Relationship Management.
 
-To learn more about channel partners, see .
+To learn more about channel partners, see [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/partner-relationship-management.md).
 
 ### customer central
 

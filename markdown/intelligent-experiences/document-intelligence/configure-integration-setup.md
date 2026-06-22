@@ -21,7 +21,7 @@ Configure an integration to trigger document task processing or value extraction
 ## Before you begin
 
 -   You must first add a target table to your use case before creating an integration.
--   The target table must be readable and writable. Ensure the **Can read** and **Can update** check boxes are selected in the **Application Access** tab of the target table record. For more information, see .
+-   The target table must be readable and writable. Ensure the **Can read** and **Can update** check boxes are selected in the **Application Access** tab of the target table record. For more information, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
 -   Role required: sn\_docintel.admin or sn\_docintel.manager
 
 ## About this task

@@ -26,13 +26,13 @@ Role required: admin
 
 2.  Configure the form layout to add the fields you require.
 
-    For more information about adding fields to a form, see Configuring the form layout.
+    For more information about adding fields to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
 
     **Note:** If you are using Customer Service Install Base Management and Proactive Customer Service Operations, add the **Sold Product** field.
 
 3.  Configure the form layout to add the related lists you require.
 
-    For more information about adding a related list to a form, see Configuring the form layout.
+    For more information about adding a related list to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
 
     **Note:** If you are using Customer Service Install Base Management and Proactive Customer Service Operations, add the **Affected Install Base Items** related list.
 
@@ -42,5 +42,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platux.create-delete-view]
+[Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/create-delete-view.md)
 

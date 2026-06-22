@@ -40,15 +40,15 @@ Role required:
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d290645e142">
+<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d290699e142">
 
 Option
 
-</th><th align="left" id="d290645e145">
+</th><th align="left" id="d290699e145">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d290645e151">
+</th></tr></thead><tbody><tr><td id="d290699e151">
 
 **To view or add impacted controls to the policy exception**
 
@@ -59,7 +59,7 @@ Action
 3.  Choose the controls to associate to the policy exception.
 
 
-</td></tr><tr><td id="d290645e178">
+</td></tr><tr><td id="d290699e178">
 
 **To view mitigating controls on the policy exception**
 
@@ -67,7 +67,7 @@ Action
 
 Click the Mitigating Controls tab.
 
-</td></tr><tr><td id="d290645e187">
+</td></tr><tr><td id="d290699e187">
 
 **To view or add risks to the policy exception**
 
@@ -75,7 +75,7 @@ Click the Mitigating Controls tab.
 
 Click the Risks tab.**Note:** This option is available when Risk Management plugin is also activated.
 
-</td></tr><tr><td id="d290645e199">
+</td></tr><tr><td id="d290699e199">
 
 **To view or add approvers to the policy exception**
 
@@ -83,7 +83,7 @@ Click the Risks tab.**Note:** This option is available when Risk Management plug
 
 Click the Approvers tab.
 
-</td></tr><tr><td id="d290645e212">
+</td></tr><tr><td id="d290699e212">
 
 **To request extension**
 
@@ -100,15 +100,15 @@ Click the Approvers tab.
 </td></tr></tbody>
 </table>6.  Perform one of the following actions.
 
-<table id="choicetable_rg1_mrb_gqb"><thead><tr><th align="left" id="d290645e274">
+<table id="choicetable_rg1_mrb_gqb"><thead><tr><th align="left" id="d290699e274">
 
 Option
 
-</th><th align="left" id="d290645e277">
+</th><th align="left" id="d290699e277">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d290645e283">
+</th></tr></thead><tbody><tr><td id="d290699e283">
 
 **To request additional information before approval\(This is an approver's task.\)
 
@@ -120,7 +120,7 @@ Select More \(...\) icon and select **Request more information**.
 
  An email notification is sent to the requester that the policy exception request was approved and goes into effect.
 
-</td></tr><tr><td id="d290645e303">
+</td></tr><tr><td id="d290699e303">
 
 **To provide additional information requested by approver\(This is a requester's task.\)
 
@@ -130,7 +130,7 @@ Select More \(...\) icon and select **Request more information**.
 
 After making changes to the policy request, select **Send Information** to provide additional information requested by approver.**Note:** When an approver requests for additional information, the state changes to Analyze and substate to Awaiting requester information.
 
-</td></tr><tr><td id="d290645e319">
+</td></tr><tr><td id="d290699e319">
 
 **To approve the policy exception**
 
@@ -146,7 +146,7 @@ To proceed with approval, both the Approver and Risk Rating fields must not be e
 
  An email notification is sent to the requester that the PER was approved and goes into effect.
 
-</td></tr><tr><td id="d290645e350">
+</td></tr><tr><td id="d290699e350">
 
 **To reject the policy exception**
 
@@ -162,7 +162,7 @@ If the Additional comments field is empty, you cannot reject the exception reque
 
  An email notification is sent to the requester that the PER was rejected and the request is closed.
 
-</td></tr><tr><td id="d290645e382">
+</td></tr><tr><td id="d290699e382">
 
 **To approve the policy extension**
 
@@ -175,7 +175,7 @@ The Approve extension request dialog appears.
 2.  Review the summary, optionally add additional comments, and select **Confirm**.
  An email notification is sent to the requester that the extension request was approved and goes into effect.
 
-</td></tr><tr><td id="d290645e411">
+</td></tr><tr><td id="d290699e411">
 
 **To reject the policy extension**
 
@@ -191,7 +191,7 @@ If the Additional comments field is empty, you cannot reject the extension reque
 
  An email notification is sent to the requester that the extension request was rejected and the request is closed.
 
-</td></tr><tr><td id="d290645e442">
+</td></tr><tr><td id="d290699e442">
 
 **To request a risk assessment on the policy exception**
 
@@ -203,7 +203,7 @@ Select **Request Risk Assessment**.
 
  **Note:** This option is available when Risk Management is also activated.
 
-</td></tr><tr><td id="d290645e466">
+</td></tr><tr><td id="d290699e466">
 
 **To request business owner approval**
 

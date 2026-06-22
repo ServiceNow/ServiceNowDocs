@@ -28,7 +28,7 @@ Role required: admin or delegated developer
 
 3.  Use the Script Debugger features you use in the normal course of your app development work.
 
-    The Script Debugger opens in a new tab outside of ServiceNow Studio. Some tabs and features are role-dependent. For more information about using Script Debugger, see .
+    The Script Debugger opens in a new tab outside of ServiceNow Studio. Some tabs and features are role-dependent. For more information about using Script Debugger, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-debugger.md).
 
 
 **Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/using-servicenow-studio.md)

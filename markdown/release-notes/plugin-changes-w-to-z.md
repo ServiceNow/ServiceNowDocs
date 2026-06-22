@@ -170,7 +170,7 @@ Integrate Cloud Management Google Cloud Connector scoped application with CMP
 
 </td><td>
 
-Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the  documentation.
+Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the [Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-landing-page.md) documentation.
 
 </td></tr><tr><td>
 
@@ -282,7 +282,7 @@ Manage scheduled and on-demand validations of the configuration management datab
 
 </td><td>
 
-Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the ServiceNow Store to use the CMDB Data Manager feature. See .
+Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the ServiceNow Store to use the CMDB Data Manager feature. See [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
 </td></tr><tr><td>
 
@@ -330,7 +330,7 @@ Displays the dispatch map for viewing agents, tasks, and agent routes.
 
 </td><td>
 
-Install and configure the Field Service Dispatcher workspace. For guidance, see .
+Install and configure the Field Service Dispatcher workspace. For guidance, see [Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/configuring-dispatcher-workspace.md).
 
 </td></tr><tr><td>
 
@@ -346,7 +346,7 @@ Deprecated in Xanadu
 
 </td><td>
 
-Install and configure the Field Service Dispatcher workspace. For guidance, see .
+Install and configure the Field Service Dispatcher workspace. For guidance, see [Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/configuring-dispatcher-workspace.md).
 
 </td></tr><tr><td>
 
@@ -362,7 +362,7 @@ Offers ESG frameworks such as authority documents and citations and provides the
 
 </td><td>
 
-Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see .
+Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see [ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/esg-content-accelerator.md).
 
 </td></tr><tr><td>
 
@@ -394,7 +394,7 @@ Use the HR Service Delivery Agent Workspace to interact with employees, respond 
 
 </td><td>
 
-Install and configure the HRSD Configurable Agent Workspace for Case Management. For guidance, see  and this [Community Article](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
+Install and configure the HRSD Configurable Agent Workspace for Case Management. For guidance, see [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md) and this [Community Article](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
 
 </td></tr><tr><td>
 
@@ -651,7 +651,7 @@ Allows customers to submit service requests to their provider and monitor these 
 
 </td><td>
 
--   Install the Service Bridge for Consumers application from the ServiceNow Store and review the documentation.
+-   Install the [Service Bridge for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-consumers-landing-page.md) application from the ServiceNow Store and review the documentation.
 -   Reach out to your Service Bridge Provider to coordinate the migration to the new Service Bridge application. They’ll need to coordinate the migration with you along with any testing. Once ready, they’ll send you a registration link to connect the new application.
 
 </td></tr><tr><td>
@@ -668,7 +668,7 @@ Allows providers to publish catalogs for customers and receive and fulfill custo
 
 </td><td>
 
--   Install the Service Bridge for Providers application from the ServiceNow Store and review the documentation.
+-   Install the [Service Bridge for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-providers-landing-page.md) application from the ServiceNow Store and review the documentation.
 -   Follow the guidance in KB1499823 to: Migrate your configurations Have your consumers install the new Service Bridge for Consumers application from the ServiceNow store. Test the new application with your consumers. Once it has been validated, remove the entitlements for the Service Bridge \(Legacy\) content and entitle the content for Service Bridge for Providers.
 
 </td></tr><tr><td>
@@ -701,7 +701,7 @@ The SASB Accelerator is designed for use with the ESG Management and Reporting a
 
 </td><td>
 
-Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see .
+Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see [ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/esg-content-accelerator.md).
 
 </td></tr></tbody>
 </table>## Plugins planned for deprecation
@@ -724,7 +724,7 @@ This table lists the existing plugins that were planned for deprecation in a fut
 |Sensitive Data Handling \[com.glide.sensitive\_data\_handling\]|Planned for deprecation in the B release|Detects and masks sensitive data shared by users of both conversational and non-conversational channels.|Install the Data Privacy application from the ServiceNow Store.|
 |Service Creator \[com.glide.service\_creator \]|Planned for deprecation in the B release|Service creator makes it easy for departments to create their own services in the catalog.|Install the Creator Studio application from the ServiceNow Store.|
 |Studio \[com.glide.dev-studio\]|Planned for deprecation in the B release|Provides an Integrated Development Environment \(IDE\)-like interface for application developers to work on custom applications in one centralized location.|Install the ServiceNow Studio application from the ServiceNow Store.|
-|Password Reset Orchestration Add-on \[com.glideapp.password\_reset.addon.orchestration\]|Planned for deprecation in the A release|Password reset add-on to enable the use of ServiceNow Orchestration. Includes support for Active Directory and remote SOAP-based credential systems.|Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the  documentation.|
+|Password Reset Orchestration Add-on \[com.glideapp.password\_reset.addon.orchestration\]|Planned for deprecation in the A release|Password reset add-on to enable the use of ServiceNow Orchestration. Includes support for Active Directory and remote SOAP-based credential systems.|Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the [Integrate Password Reset with your Active Directory service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/password-reset/t_ConPassResetActiveDir.md) documentation.|
 |Patient Support Services \[sn\_patientservice\]|Planned for deprecation November 2028 or contract term end date \(whichever is earlier\)|Streamlines the patient onboarding, education, and engagement for various patient support services such as discount plans, adherence programs, opioid, and diabetes management.|There is no replacement for this application.|
 |Performance Analytics - Content Pack - GRC: Audit Management \[sn\_audit\_pa\]|Planned for deprecation in the A release|Provides Performance Analytics reports for the GRC Audit Management application.|Test the migrated GRC: Audit Management Core UI analytics assets in Platform Analytics.|
 |Performance Analytics - Content Pack - GRC: Policy and Compliance Management \[sn\_compliance\_pa\]|Planned for deprecation in the A release|Provides Performance Analytics reports for the GRC Policy and Compliance Management application.|Test the migrated GRC: Policy and Compliance Management Core UI analytics assets in Platform Analytics.|
@@ -732,7 +732,7 @@ This table lists the existing plugins that were planned for deprecation in a fut
 |Pre-Visit Management \[sn\_previsit\]|Planned for deprecation October 2029 or contract term end date \(whichever is earlier\)|Streamlines the scheduling process of procedure requests for patients and increases visibility to pre-authorization approvals prior to scheduled procedures.|There is no replacement for this application.|
 |Redox Electronic Health Record Spoke \[sn\_redox\_spoke\]|Planned for deprecation in the A release|Enable communications with your customers using the Redox platform from your ServiceNow instance.|There is no replacement for this application.|
 |Redox Inbound Integration \[sn\_redox\]|Planned for deprecation in the A release|Use the real-time bidirectional data exchange with external healthcare systems via the Redox platform​.|There is no replacement for this application.|
-|Security Incident Response UI \[com.app\_secops\_ui\]|Planned for deprecation in the A release|Provides an enhanced user interface for monitoring and resolving threats to an organization’s security. Activation of this plugin on production instances may require a separate license. Contact ServiceNow for details.|Install Security Incident Response version 13.4.5 or higher from the ServiceNow Store and review the  documentation.|
+|Security Incident Response UI \[com.app\_secops\_ui\]|Planned for deprecation in the A release|Provides an enhanced user interface for monitoring and resolving threats to an organization’s security. Activation of this plugin on production instances may require a separate license. Contact ServiceNow for details.|Install Security Incident Response version 13.4.5 or higher from the ServiceNow Store and review the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) documentation.|
 |Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) \[sn\_msftd4iotsgc\]|Planned for deprecation in the A release|Integrate Microsoft Defender for IoT \(On-premises Management Console\) with the ServiceNow Operational Technology Manager application to automate import of sensor appliances, OT devices, and network connections.|There is no replacement for this application.|
 |SharePoint Online Search Connector \[com.snc.sharepoint\_online\]|Planned for deprecation in the A release|Offers a consumer-grade search configuration to manage your information resources.|Install the External Content Connectors ServiceNow application from the ServiceNow Store.|
 |Vaccine Administration Management \[sn\_vaccine\_sm\]|Planned for deprecation October 2029 or contract term end date \(whichever is earlier\)|Enables governments and healthcare providers to deliver vaccines, on a deadline and with finite resources.|There is no replacement for this application.|
@@ -838,7 +838,7 @@ Maintenance mode only.
 
 </td><td class="description">
 
-An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see  and .
+An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_ServicePortal.md) and [Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_CMSAndSP.md).
 
 </td><td align="center">
 

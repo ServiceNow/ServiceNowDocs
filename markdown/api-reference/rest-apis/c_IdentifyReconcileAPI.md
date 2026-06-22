@@ -18,7 +18,7 @@ The Identification and Reconciliation API provides endpoints that use the Identi
 
 Users must have the itil or asset role to use this API.
 
-For more information on the IRE, see Identification and Reconciliation engine \(IRE\).
+For more information on the IRE, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/api-rest.md)
 
@@ -28,7 +28,7 @@ Inserts or updates configuration items \(CIs\) in the CMDB by applying identific
 
 Use the [Identification and Reconciliation - POST /now/identifyreconcile/query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/c_IdentifyReconcileAPI.md) endpoint to simulate submission of a payload to this endpoint without committing changes to the database.
 
-Use the [Identification and Reconciliation - POST /now/identifyreconcile/enhanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/c_IdentifyReconcileAPI.md) endpoint instead if you need to specify Enhanced IRE options. For more on Enhanced IRE options, see Identification and Reconciliation engine \(IRE\).
+Use the [Identification and Reconciliation - POST /now/identifyreconcile/enhanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/c_IdentifyReconcileAPI.md) endpoint instead if you need to specify Enhanced IRE options. For more on Enhanced IRE options, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
 ### URL format
 
@@ -1991,7 +1991,7 @@ Comma-separated list of name-value pairs representing Enhanced IRE options appli
 
 **Note:** By default or if **partial\_payloads** is set to true, both **partial\_commits** and **deduplicate\_payloads** are enabled, even if they are set to false, as those features are essential for partial payloads functionality.
 
-For more on Enhanced IRE options, see Identification and Reconciliation engine \(IRE\).
+For more on Enhanced IRE options, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
 Valid values for each name-value pair:
 
@@ -3980,7 +3980,7 @@ Determines the CMDB operation \(insert/update\) to perform with the specified pa
 
 Use this endpoint to simulate submission of a payload \(request body\) to the [Identification and Reconciliation - POST /now/identifyreconcile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/c_IdentifyReconcileAPI.md) endpoint.
 
-Use the [Identification and Reconciliation - POST /now/identifyreconcile/enhanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/c_IdentifyReconcileAPI.md) endpoint instead if you need to specify Enhanced IRE options. For more on Enhanced IRE options, see Identification and Reconciliation engine \(IRE\).
+Use the [Identification and Reconciliation - POST /now/identifyreconcile/enhanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/c_IdentifyReconcileAPI.md) endpoint instead if you need to specify Enhanced IRE options. For more on Enhanced IRE options, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
 ### URL format
 
@@ -5986,7 +5986,7 @@ Comma-separated list of name-value pairs representing Enhanced IRE options appli
 
 **Note:** By default or if **partial\_payloads** is set to true, both **partial\_commits** and **deduplicate\_payloads** are enabled, even if they are set to false, as those features are essential for partial payloads functionality.
 
-For more on Enhanced IRE options, see Identification and Reconciliation engine \(IRE\).
+For more on Enhanced IRE options, see [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
 Valid values for each name-value pair:
 

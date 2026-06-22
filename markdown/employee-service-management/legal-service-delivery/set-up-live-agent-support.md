@@ -31,7 +31,7 @@ Role required: admin
 
 1.  Install Agent Chat along with the demo data.
 
-    For more information, see Agent Chat and Advanced Work Assignment.
+    For more information, see [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md) and [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
 
 2.  Configure the assignment rule to provide the criteria for routing the chat conversations to live agents in the Legal department.
 
@@ -41,7 +41,7 @@ Role required: admin
 
     3.  Update fields as required.
 
-        For more information on the fields, see Configure agent assignment rules.
+        For more information on the fields, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
     4.  Click **Update**.
 
@@ -53,7 +53,7 @@ Role required: admin
 
     3.  Update fields as required.
 
-        For more information on the fields, see Create a work item queue.
+        For more information on the fields, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
 
     4.  Click **Update**.
 
@@ -61,7 +61,7 @@ Role required: admin
 
     6.  Update fields as required.
 
-        For more information on the fields, see Define Assignment Eligibility.
+        For more information on the fields, see [Define Assignment Eligibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md).
 
 
 **Parent Topic:**[Live agent support for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/legal-va-live-agent.md)

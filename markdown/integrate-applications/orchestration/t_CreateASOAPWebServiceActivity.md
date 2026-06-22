@@ -32,7 +32,7 @@ For instructions on using the activity template process flow, see [create custom
 
 2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/CreateInputVariables.md), configure the SOAP web service Execution Command.
 
-<table id="choicetable_m3f_hcs_d1b"><tbody><tr><td id="d360890e112">
+<table id="choicetable_m3f_hcs_d1b"><tbody><tr><td id="d356011e112">
 
 **[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/CreateInputVariables.md)**
 
@@ -40,7 +40,7 @@ For instructions on using the activity template process flow, see [create custom
 
 Use the variables you created to configure the command that Orchestration executes on the SOAP web service.
 
-</td></tr><tr><td id="d360890e128">
+</td></tr><tr><td id="d356011e128">
 
 **Web service message**
 
@@ -48,7 +48,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Specify the SOAP web service message to use for this activity. If you need information on SOAP web services messages, see SOAP message.
 
-</td></tr><tr><td id="d360890e141">
+</td></tr><tr><td id="d356011e141">
 
 **Web service message function**
 
@@ -56,7 +56,7 @@ Specify the SOAP web service message to use for this activity. If you need infor
 
 Specify the SOAP message function available in conjunction with the SOAP web service.
 
-</td></tr><tr><td id="d360890e150">
+</td></tr><tr><td id="d356011e150">
 
 **Endpoint**
 
@@ -64,7 +64,7 @@ Specify the SOAP message function available in conjunction with the SOAP web ser
 
 If you enter an endpoint in this field, it overrides the endpoint URL configured in the SOAP message web service. Click the lock icon to open the input field and add the endpoint.
 
-</td></tr><tr><td id="d360890e159">
+</td></tr><tr><td id="d356011e159">
 
 **SOAP message parameters**
 
@@ -72,7 +72,7 @@ If you enter an endpoint in this field, it overrides the endpoint URL configured
 
 Name-value pairs to pass to the SOAP endpoint. You can create these parameters manually, or drag input variables into the parameter fields and then assign a value. Parameters defined in the SOAP message that use `${}` can be assigned data from this activity template. Use the **Additional attribute** column to configure the system to not escape the text. By default, text sent to the SOAP message is escaped. The **Name** column is auto-populated if the users have provided variables using Variable substitution in outbound REST messages in the SOAP message.
 
-</td></tr><tr><td id="d360890e182">
+</td></tr><tr><td id="d356011e182">
 
 **Use MID Server**
 
@@ -80,15 +80,15 @@ Name-value pairs to pass to the SOAP endpoint. You can create these parameters m
 
 Check box that determines if a MID Server must be used to invoke the SOAP web service. If the SOAP web service message function defines a MID Server, that MID Server is used instead of the one selected here.
 
-</td></tr><tr><td id="d360890e191">
+</td></tr><tr><td id="d356011e191">
 
 **Required MID Server capabilities**
 
 </td><td>
 
-MID Server with the appropriate MID Server capabilities for connecting to the SOAP endpoint. By default, the system selects a MID Server with SOAP capabilities. This field is available when the **Use MID Server** check box is selected.
+MID Server with the appropriate [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) for connecting to the SOAP endpoint. By default, the system selects a MID Server with SOAP capabilities. This field is available when the **Use MID Server** check box is selected.
 
-</td></tr><tr><td id="d360890e207">
+</td></tr><tr><td id="d356011e207">
 
 **Timeout**
 
@@ -96,7 +96,7 @@ MID Server with the appropriate MID Server capabilities for connecting to the SO
 
 Allowed duration of the SOAP web service request before it times out, in seconds. The default is **10**.
 
-</td></tr><tr><td id="d360890e219">
+</td></tr><tr><td id="d356011e219">
 
 **Authentication**
 
@@ -109,15 +109,15 @@ Determines what type of authentication is required for the endpoint. The options
 -   **Override with WS-Security Username profile**: Overrides the credentials in the SOAP message definition with credentials defined in WS-Security.
 
 
-</td></tr><tr><td id="d360890e260">
+</td></tr><tr><td id="d356011e260">
 
 **Credentials**
 
 </td><td>
 
-Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the default safe defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**. See Configure the MID Server for CyberArk for details.
+Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the default safe defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**. See [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md) for details.
 
-</td></tr><tr><td id="d360890e282">
+</td></tr><tr><td id="d356011e282">
 
 **Protocol Profile**
 

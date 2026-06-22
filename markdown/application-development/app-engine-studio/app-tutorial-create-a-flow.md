@@ -49,7 +49,7 @@ Phase 2
 [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-create-a-flow.md)
 
 </td></tr></tbody>
-</table>For more information about flows, see .
+</table>For more information about flows, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flows.md).
 
 Use the following tutorial to create a flow for the employee travel request application.
 
@@ -85,7 +85,7 @@ Add logic and automation to your application.
 
 5.  Select **Build your flow from scratch**.
 
-    You can also choose to build your flow with Now Assist. For more information, see .
+    You can also choose to build your flow with Now Assist. For more information, see [Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-flow-now-assist.md).
 
 6.  Define the properties of the flow.
 
@@ -107,7 +107,7 @@ Add logic and automation to your application.
 
     2.  In the **Trigger** field, select **Record** &gt; **Created**.
 
-        For more information about trigger types, see .
+        For more information about trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
     3.  In the **Table** field, enter the name of the travel request table and select it from the list.
 
@@ -115,7 +115,7 @@ Add logic and automation to your application.
 
 9.  Add actions, flow logic, and sublows to the flow.
 
-    **Note:** You can add actions, flow logic, and subflows to enable your flow to perform desired actions. For example, you can create an action that enables your application to send emails automatically.
+    **Note:** You can add [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-actions.md), [flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-logic.md), and [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/subflows.md) to enable your flow to perform desired actions. For example, you can create an action that enables your application to send emails automatically.
 
     \[Omitted image "aes-app-tutorial-flow-diagram-MMASSET0021978.png"\] Alt text: Flowchart showing the travel request approval process with decision points for manager and regional head approvals.
 
@@ -148,7 +148,7 @@ The Ask for Approval action is a ServiceNow Core action template that enables yo
 
 In our tutorial, we use the Ask for Approval action to request approvals from both managers and regional head for employee travel requests. This procedure outlines the Ask for Approval action that routes to the manager. The procedure for creating the Ask for Approval action that routes to the regional head is outlined in [Duplicate repeating actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
-For more information about the Ask for Approval action, see .
+For more information about the Ask for Approval action, see [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md).
 
 ### Procedure
 
@@ -170,7 +170,7 @@ For more information about the Ask for Approval action, see .
     -   To add your trigger from the **Data** panel, drag the data pill that contains the trigger into the **Record** field.
 5.  Set the rules for the action.
 
-    **Note:** Rules determine which users can approve or reject requests, and what happens after approval or rejection. For more information about the rules available for the Ask for Approval action, see .
+    **Note:** Rules determine which users can approve or reject requests, and what happens after approval or rejection. For more information about the rules available for the Ask for Approval action, see [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md).
 
     In our tutorial, we configure the rules for the Ask for Approval action to send travel requests to the manager of the user who submitted the request. The manager can then approve or deny the request.
 
@@ -209,7 +209,7 @@ In our tutorial, we use If flow logic to define what the application does if a t
 
 There are two instances of If flow logic in the flow in the app creation tutorial: One that represents manager approval and another that represents regional head approval. This procedure covers creating the branch that represents manager approval. You can use this procedure to create the branch that represents the regional head approval and adjust the **Column label** and **Condition** field values accordingly.
 
-For more information about using If flow logic, see .
+For more information about using If flow logic, see [If flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-logic-if.md).
 
 ### Procedure
 
@@ -266,7 +266,7 @@ Make a decision flow logic enables you to integrate decision tables within flows
 
 In our tutorial, employee travel requests are sent to the regional heads after receiving manager approval. We use Make a decision flow logic to connect the flow to the regional head decision table and retrieve the correct regional information.
 
-For more information about Make a decision flow logic, see .
+For more information about Make a decision flow logic, see [Make a decision flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-logic-make-decision.md).
 
 ### Procedure
 
@@ -381,7 +381,7 @@ The Update Record action is a ServiceNow Core action template that you can add t
 
 In our tutorial, we use the Update Record action to update the travel request record after it has been approved or rejected. This procedure outlines creating the Update Record action if a travel request has been approved by the manager and regional head. You can use this procedure to create the other Update Record actions and change the fields and field values as needed.
 
-For more information about the Update Record action, see .
+For more information about the Update Record action, see [Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/update-record-flow-designer.md).
 
 ### Procedure
 
@@ -472,7 +472,7 @@ The Send Email action is a ServiceNow Core action template that you can add to y
 
 In our tutorial, we add Send Email actions to notify employees that their travel requests have been rejected. This procedure covers the Send Email action that notifies employees that their travel request has been rejected by the regional head. You can use this procedure to create the other Send Email action for the manager rejection and adjust the field values accordingly.
 
-For more information about the Send Email action, see .
+For more information about the Send Email action, see [Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/send-email-flow-designer.md).
 
 ### Procedure
 
@@ -529,7 +529,7 @@ If you want your flow to end when certain conditions are met, you can add End Fl
 
 In our tutorial, we add End Flow flow logic to end the flow if a travel request has been rejected.
 
-For more information about End Flow flow logic, see .
+For more information about End Flow flow logic, see [End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-logic-end-action.md).
 
 ### Procedure
 

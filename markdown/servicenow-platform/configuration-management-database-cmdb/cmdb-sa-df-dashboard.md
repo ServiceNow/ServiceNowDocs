@@ -16,11 +16,11 @@ breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration M
 
 The CMDB success advisor for Data Foundations dashboard enables CMDB administrators to identify and address data quality issues specific to principal classes in the Configuration Management Database \(CMDB\).
 
-**Important:** When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see  and [Improving CMDB data quality for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.md).
+**Important:** When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/kpi-details.md) and [Improving CMDB data quality for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.md).
 
 \[Omitted image "cmdb-sa-df-dashboard.png"\] Alt text: CMDB success advisor for Data Foundations dashboard overview.
 
-**Note:** If the Performance Analytics data collector exceeds its row limit during data processing, a notification banner appears on the dashboard indicating that some metrics could not be loaded. For more information, see .
+**Note:** If the Performance Analytics data collector exceeds its row limit during data processing, a notification banner appears on the dashboard indicating that some metrics could not be loaded. For more information, see [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/pa-dc-props.md).
 
 ## Access the dashboard
 

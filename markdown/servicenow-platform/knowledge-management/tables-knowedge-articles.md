@@ -18,5 +18,5 @@ You can insert tables and modify the cells, rows, and columns of a table in a kn
 
 You can add tables to your knowledge articles by clicking the table icon \(\[Omitted image "table.png"\] Alt text: Table icon\) on the HTML toolbar and selecting your desired table options. For example, you can adjust the height and width of rows and column, the spacing between cell text and cell borders, and change the colors of cells.
 
-For more information, see Add a table to the HTML field.
+For more information, see [Add a table to the HTML field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ExampleStyleATable.md).
 

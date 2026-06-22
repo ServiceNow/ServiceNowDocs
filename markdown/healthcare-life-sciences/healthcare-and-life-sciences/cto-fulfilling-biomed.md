@@ -26,7 +26,7 @@ It also provides the following roles for Care Team Operations for Biomed:
 -   biomed.agent
 -   biomed.qualifier
 
-For information on fulfilling work orders, see .
+For information on fulfilling work orders, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/work-order-management/c_ManageWorkOrders.md).
 
 **If the Field Service Management \[com.snc.work\_management\] plugin isn’t installed:**
 
@@ -34,5 +34,5 @@ Work orders aren’t created from healthcare biomed cases. Instead, agents work 
 
 Cases created are assigned to assignment groups based on the requesting location associations and are configured normally.
 
-For information on fulfilling cases, see  in Customer Service Management.
+For information on fulfilling cases, see [Manage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/manage-cases.md) in Customer Service Management.
 

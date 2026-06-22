@@ -7,7 +7,7 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Viewing and sharing VTB, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---

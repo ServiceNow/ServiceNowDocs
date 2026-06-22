@@ -33,7 +33,7 @@ Role required:
     -   **Audit** &gt; **Scoping** &gt; **All Entities**.
 2.  Do one of the following actions
 
-<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d341826e123">
+<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d341886e123">
 
 **To create a new entity**
 
@@ -41,7 +41,7 @@ Role required:
 
 Click **New**.
 
-</td></tr><tr><td id="d341826e135">
+</td></tr><tr><td id="d341886e135">
 
 **To edit an entity**
 

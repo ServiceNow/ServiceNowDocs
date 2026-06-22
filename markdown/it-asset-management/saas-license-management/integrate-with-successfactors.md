@@ -222,7 +222,7 @@ Role required: admin
 
 2.  Upload the JKS certificate to your ServiceNow instance.
 
-    For instructions to upload the JKS certificate, see Upload a certificate to an instance.\[Omitted image "saml-oauth-sf.png"\] Alt text: Uploading certificate to an instance
+    For instructions to upload the JKS certificate, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/t_UploadACertificateToAnInstance.md).\[Omitted image "saml-oauth-sf.png"\] Alt text: Uploading certificate to an instance
 
 
 ## Register SuccessFactors as an OAuth provider
@@ -503,7 +503,7 @@ Change the application scope to **Global**.
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **Software Asset Management integration with SuccessFactors** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with SuccessFactors** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -513,15 +513,15 @@ If you’re using Software Asset Workspace, the option to create the SuccessFact
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d58074e2330">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d58123e2331">
 
 Interface
 
-</th><th align="left" id="d58074e2333">
+</th><th align="left" id="d58123e2334">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d58074e2339">
+</th></tr></thead><tbody><tr><td id="d58123e2340">
 
 **Core UI**
 
@@ -532,7 +532,7 @@ Action
 3.  Select **SuccessFactors Integration Profile**.
 
 
-</td></tr><tr><td id="d58074e2381">
+</td></tr><tr><td id="d58123e2382">
 
 **Software Asset Workspace**
 

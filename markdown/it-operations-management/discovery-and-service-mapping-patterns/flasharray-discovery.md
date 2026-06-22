@@ -30,7 +30,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Visibility Content
 -   **Verify the configuration of the credentials**
 
-    Configure basic authentication credentials to classify FlashArray. For more information, see basic authentication.
+    Configure basic authentication credentials to classify FlashArray. For more information, see [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
 
 -   **Verify the permissions to run REST API calls**
 
@@ -118,7 +118,7 @@ Object ID \[object\_id\]
 
 </td><td>
 
-Credential affinity assigned during discovery to the FlashArray storage. For more information about credential affinity, see Credential affinity for Discovery and Orchestration.
+Credential affinity assigned during discovery to the FlashArray storage. For more information about credential affinity, see [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/c_CredentialAffinity.md).
 
 </td></tr><tr><td>
 

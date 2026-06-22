@@ -8,7 +8,7 @@ product: AI Search
 classification: ai-search
 topic_type: task
 last_updated: "2025-11-05"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Q&amp;A Genius Results, Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
@@ -21,7 +21,7 @@ Add the AllSites.FullControl SharePoint API delegated permission to your Externa
 
 The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-now-assist-ais.md).
 
-You need to have an OAuth 2.0 application configured in Microsoft Azure portal for External Content Q&amp;A Genius Results. For details on this procedure, see .
+You need to have an OAuth 2.0 application configured in Microsoft Azure portal for External Content Q&amp;A Genius Results. For details on this procedure, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 You must have permissions to change the OAuth 2.0 application's settings in Microsoft Azure portal.
 
@@ -45,7 +45,7 @@ Role required: admin
 
         \[Omitted image "azure-portal-app-srch.png"\] Alt text: Microsoft Azure portal with search term and matching application display name highlighted.
 
-        To learn how to configure an OAuth 2.0 application for External Content Q&amp;A Genius Results, see .
+        To learn how to configure an OAuth 2.0 application for External Content Q&amp;A Genius Results, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 2.  Add an AllSites.FullControl SharePoint API delegated permission to your OAuth 2.0 application.
 

@@ -16,7 +16,7 @@ Manage table size growth and improve query performance by archiving records.
 
 You can archive records in core tables such as the Task \[task\] table and records in custom tables that you create on the ServiceNow AI Platform using archive rules.
 
--   To archive Configuration Management Database \(CMDB\) CI records, use the CMDB Data Manager. See .
+-   To archive Configuration Management Database \(CMDB\) CI records, use the CMDB Data Manager. See [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 -   To archive emails, activate the [Email retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/email-retention.md) plugin and use the archive and destruction rules that come with the plugin. Don’t use the archive feature to create your own archiving rules on the email table.
 
 ## Archive activation
@@ -40,7 +40,7 @@ When you activate an archive rule, the system performs the following actions:
 -   Converts reference field values \(values set by references to records in other tables\) into string values. The archive record contains the display value of the reference field at the time of the archive.
 -   Adds a module to the **Archive Tables** list in the **System Archiving** application. The module name is a combination of the word "Archive" plus the display name for the archived table. For example, the archive module for the Attachment `[sys_attachments]` table is **Archive Attachment**.
 -   Creates a list of the archive table using the default list view.
--   Creates a form for the archive table using the default form view. The form excludes any dot-walking fields such as **Caller ID.Email**.
+-   Creates a form for the archive table using the default form view. The form excludes any [dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_DotWalking.md) fields such as **Caller ID.Email**.
 
 ## Reference values converted to strings
 

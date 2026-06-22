@@ -40,15 +40,15 @@ You can associate a change request to a phase only once, although it can be adde
 
 6.  Create change requests and add them to the phase, add existing change requests to the phase, or remove the ones that are already associated with the phase.
 
-<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d112577e119">
+<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d112650e119">
 
 Option
 
-</th><th align="left" id="d112577e122">
+</th><th align="left" id="d112650e122">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d112577e128">
+</th></tr></thead><tbody><tr><td id="d112650e128">
 
 **Create and add a change request to the phase**
 
@@ -62,7 +62,7 @@ For more information, see [Create a change request](https://raw.githubuserconten
 
  The new change request is created and added to theselected phase. The **Software model** field in the change request is filled with the version of the release.
 
-</td></tr><tr><td id="d112577e179">
+</td></tr><tr><td id="d112650e179">
 
 **Add existing change requests to the phase**
 
@@ -76,7 +76,7 @@ All existing change requests that have the **Software model** field empty are li
 3.  Select **Add**.
  The selected change requests are added to theselected phase. The **Software model** field in these change requests is filled with the version of the release.
 
-</td></tr><tr><td id="d112577e220">
+</td></tr><tr><td id="d112650e220">
 
 **Remove associated change requests from the phase**
 

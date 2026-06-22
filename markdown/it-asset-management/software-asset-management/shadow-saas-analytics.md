@@ -19,7 +19,7 @@ Use the SaaS detection report to discover and manage all SaaS applications acces
 **Important:** To view the SaaS detection report, you must do the following:
 
 -   Request and install the latest version of the Software Asset Management -SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
--   Install the Agent Client Collector for Visibility - Content \(ACC-VC\) product version 1.9.0 or later. For more information, see .
+-   Install the Agent Client Collector for Visibility - Content \(ACC-VC\) product version 1.9.0 or later. For more information, see [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/agent-client-collector/acc-landing-page.md).
 
 You can use this report to manage shadow IT spend by viewing all the users who access these applications and their usage patterns. You can also see how long each application has been in use.
 
@@ -28,7 +28,7 @@ You can use this report to manage shadow IT spend by viewing all the users who a
 -   The data in the SaaS detection report reflects ACC-VC’s retention period, which is 30 days by default. The default value can be modified as needed.
 -   SaaS URL data in the SaaS detection report are read-only and can't be edited directly from the report.
 
-View this report by navigating to **Software Asset Workspace** &gt; **License usage** &gt; **Reports**. Additionally, you can view URL details on the URL Discovery Insights dashboard in the Discovery Admin Workspace. For further information, see .
+View this report by navigating to **Software Asset Workspace** &gt; **License usage** &gt; **Reports**. Additionally, you can view URL details on the URL Discovery Insights dashboard in the Discovery Admin Workspace. For further information, see [URL Discovery Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/url-disco-insights.md).
 
 The SaaS detection report includes domain-separated data when Domain Support - Domain Extensions Installer \(com.glide.domain.msp\_extensions.installer\) and Performance Analytics - Domain Support \(com.snc.pa.domain\_support\) are activated.
 

@@ -27,8 +27,8 @@ Configure the following before starting this task:
     -   Configure [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
     -   Define [work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-queues.md).
     -   Set up [work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-assignment.md).
--   Update your Live Feed profile to display agent names and avatars in the chat client.
--   Configure Agent Chat in Service Portal
+-   [Update your Live Feed profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/live-feed/t_UpdateYourProfile.md) to display agent names and avatars in the chat client.
+-   [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/configure-va-in-sp.md)
 
 Role required: workspace\_admin
 

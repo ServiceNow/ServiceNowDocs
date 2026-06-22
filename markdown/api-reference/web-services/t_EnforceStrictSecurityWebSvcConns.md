@@ -32,7 +32,7 @@ To enforce strict security for web services connections:
 
 2.  Select **Yes** for **Enforce strict security on incoming SOAP requests**.
 
-    **Note:** To learn more about this property, see SOAP request strict security \(instance security hardening\) in Instance Security Hardening Settings.
+    **Note:** To learn more about this property, see [SOAP request strict security \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/instance-security-hardening-settings/sc-soap-request-strict-security.md) in Instance Security Hardening Settings.
 
 
 **Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/c_SOAPWebService.md)

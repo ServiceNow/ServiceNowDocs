@@ -18,12 +18,12 @@ Ensure required applications are installed to enable legal users to submit a Con
 
 Role required: admin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 -   Ensure you have installed and configured the following applications for the conversational intake for COI.
     -   Now Assist in Conversational Catalog Request \(sn\_now\_assist\_cr\)
     -   Catalog Conversational CoverageApp id \(sn\_catalog\_con\_cov\)
--   Ensure AI Search is enabled. For more information, see .
--   Ensure the Now Assist panel is turned on. For more information, see .
--   Ensure Now Assist in Virtual Agent is configured. For more information, see .
+-   Ensure AI Search is enabled. For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/configuring-ais.md).
+-   Ensure the Now Assist panel is turned on. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+-   Ensure Now Assist in Virtual Agent is configured. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)
 

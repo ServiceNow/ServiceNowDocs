@@ -92,7 +92,7 @@ Notify users / Notify groups
 
 </td><td>
 
-Users or groups to notify by email when the spend for incorrectly sized resources exceeds the specified percentage of overall cloud spend. For information on configuring the email, see Create an email template.
+Users or groups to notify by email when the spend for incorrectly sized resources exceeds the specified percentage of overall cloud spend. For information on configuring the email, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateAnEmailTemplate.md).
 
 </td></tr><tr><td>
 

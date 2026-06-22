@@ -51,7 +51,7 @@ The following table lists the default mapping of different idea states with the 
 
 3.  On the form, fill in the fields.
 
-    For more information, see State mapping form.
+    For more information, see [State mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-state-mapping-form.md).
 
 
 **Parent Topic:**[Integrating Innovation Management with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/universal-req-idea-mgmt.md)

@@ -48,15 +48,15 @@ The script include **OutlookMappingConfig** available in the base system support
 
 4.  In the copied mapping object, specify the key-value pairs using the variables from the intake form.
 
-<table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d216670e172">
+<table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d216413e172">
 
 Variables from email
 
-</th><th align="left" id="d216670e175">
+</th><th align="left" id="d216413e175">
 
 Variables from legal request
 
-</th></tr></thead><tbody><tr><td id="d216670e181">
+</th></tr></thead><tbody><tr><td id="d216413e181">
 
 **subject**
 
@@ -68,7 +68,7 @@ Example: If you want to copy the subject of email into the short description of 
 short_description: "subject"
 ```
 
-</td></tr><tr><td id="d216670e201">
+</td></tr><tr><td id="d216413e201">
 
 **fromEmail**
 
@@ -80,7 +80,7 @@ Example: If you want to copy the sender's email address into the requested for o
 requested_for: "fromEmail"
 ```
 
-</td></tr><tr><td id="d216670e221">
+</td></tr><tr><td id="d216413e221">
 
 **body**
 

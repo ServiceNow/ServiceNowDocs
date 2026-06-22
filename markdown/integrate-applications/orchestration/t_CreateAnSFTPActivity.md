@@ -34,7 +34,7 @@ You can create a custom activity that manages files and directories on a target 
 
 2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/CreateInputVariables.md), configure the SFTP Execution Command.
 
-<table id="choicetable_zmw_zbr_vz"><tbody><tr><td id="d340453e120">
+<table id="choicetable_zmw_zbr_vz"><tbody><tr><td id="d335574e120">
 
 **Command**
 
@@ -48,7 +48,7 @@ Type of activity to create. The choices are:-   Copy file
 -   Set file attributes
  **Note:** The fields that display on the form depend on the command you select.
 
-</td></tr><tr><td id="d340453e155">
+</td></tr><tr><td id="d335574e155">
 
 **Source host**
 
@@ -56,7 +56,7 @@ Type of activity to create. The choices are:-   Copy file
 
 Name or IP address of the server containing the files targeted by the activity.
 
-</td></tr><tr><td id="d340453e164">
+</td></tr><tr><td id="d335574e164">
 
 **Source port**
 
@@ -64,7 +64,7 @@ Name or IP address of the server containing the files targeted by the activity.
 
 Port number to use to communicate with the source server. The default port number is **22**.
 
-</td></tr><tr><td id="d340453e176">
+</td></tr><tr><td id="d335574e176">
 
 **Source file path**
 
@@ -75,7 +75,7 @@ Full path to a file \(`/temp/test_data_file.txt`\) or directory \(/`temp/test_di
 -   Set file attributes
 
 
-</td></tr><tr><td id="d340453e203">
+</td></tr><tr><td id="d335574e203">
 
 **Source directory**
 
@@ -85,7 +85,7 @@ Path to the directory where the source files are located. Field available on fol
 -   Get file list
 
 
-</td></tr><tr><td id="d340453e222">
+</td></tr><tr><td id="d335574e222">
 
 **Source files**
 
@@ -93,7 +93,7 @@ Path to the directory where the source files are located. Field available on fol
 
 Names of specific source files to include in the file transfer. Separate the file names with semi-colons. This field supports a semi-colon separated list of wild-card patterns. For example: `*.txt; a?cd.pdf.` If this field is blank, all files are included. Field available on following command: Get file list**Note:** For information about how the values in this field affect options in other fields, see the logic explanation which follows.
 
-</td></tr><tr><td id="d340453e237">
+</td></tr><tr><td id="d335574e237">
 
 **Is a directory**
 
@@ -101,7 +101,7 @@ Names of specific source files to include in the file transfer. Separate the fil
 
 If checked, specifies the file path is a directory. Field available on following command: Remove file or directory
 
-</td></tr><tr><td id="d340453e246">
+</td></tr><tr><td id="d335574e246">
 
 **Credential tag for source**
 
@@ -109,7 +109,7 @@ If checked, specifies the file path is a directory. Field available on following
 
 Specific credential tag this activity must use to run SFTP commands on the source host.
 
-</td></tr><tr><td id="d340453e255">
+</td></tr><tr><td id="d335574e255">
 
 **Credential tag for target**
 
@@ -117,7 +117,7 @@ Specific credential tag this activity must use to run SFTP commands on the sourc
 
 Specific credential tag this activity must use to run SFTP commands on the target host. Field available on following command: Copy file
 
-</td></tr><tr><td id="d340453e264">
+</td></tr><tr><td id="d335574e264">
 
 **Excluded files**
 
@@ -125,7 +125,7 @@ Specific credential tag this activity must use to run SFTP commands on the targe
 
 Names of specific source files to exclude from the file transfer. The activity acts on all other files found in the source directory or subfolders. Separate the file names with commas. This field supports comma-separated list of wild-card patterns. For example: `*.txt, a?cd.pdf.`. Field available on following command: Get file list **Note:** For information about how the values in this field affect options in other fields, see the logic explanation which follows.
 
-</td></tr><tr><td id="d340453e279">
+</td></tr><tr><td id="d335574e279">
 
 **Include subfolders**
 
@@ -133,7 +133,7 @@ Names of specific source files to exclude from the file transfer. The activity a
 
 If checked, includes the files from subfolders in the source directory. Field available on following command: Get file list **Note:** For information about how your selection affects other fields in the form, see the logic explanation which follows.
 
-</td></tr><tr><td id="d340453e292">
+</td></tr><tr><td id="d335574e292">
 
 **Target host**
 
@@ -141,7 +141,7 @@ If checked, includes the files from subfolders in the source directory. Field av
 
 Name or IP address of the server to which the files are being transferred. Field available on following command: Copy file
 
-</td></tr><tr><td id="d340453e301">
+</td></tr><tr><td id="d335574e301">
 
 **Target port**
 
@@ -149,7 +149,7 @@ Name or IP address of the server to which the files are being transferred. Field
 
 Port number to use to communicate with the target host. The default port number is **22**. Field available on following command: Copy file
 
-</td></tr><tr><td id="d340453e313">
+</td></tr><tr><td id="d335574e313">
 
 **Target file path**
 
@@ -159,7 +159,7 @@ Full path to a file on a target host. Field available on following commands: -  
 -   Rename file or directory
 
 
-</td></tr><tr><td id="d340453e331">
+</td></tr><tr><td id="d335574e331">
 
 **Suffix for temporary file**
 
@@ -167,7 +167,7 @@ Full path to a file on a target host. Field available on following commands: -  
 
 If a file exists on a target host, this command enables a temporary suffix to use for a file name. If this field contains a value, the activity first copies the source file to a temporary file on the target host using **targetFilePath + tempFileSuffix** as the name. Upon completion, the activity renames the file to the actual target file name. If this field is blank, the activity copies the source file directly to the target file and overwrites it, if it exists. Field available on following command: Copy file
 
-</td></tr><tr><td id="d340453e343">
+</td></tr><tr><td id="d335574e343">
 
 **UID**
 
@@ -175,7 +175,7 @@ If a file exists on a target host, this command enables a temporary suffix to us
 
 User ID attribute to apply to a file or directory. The UID and GID values must be set together as a pair or they are ignored. The UID and GID numbers are internal values returned by the Get File List activity. Typically, you first use the Get File List activity to return a list of files and their attributes. Then you can move a file from a source host to a target host and set the source file attributes on the target file. This flow is demonstrated in the [SFTP File Transfer workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_SFTPWorkflow.md). Field available on following command: Set file attributes
 
-</td></tr><tr><td id="d340453e359">
+</td></tr><tr><td id="d335574e359">
 
 **GID**
 
@@ -183,7 +183,7 @@ User ID attribute to apply to a file or directory. The UID and GID values must b
 
 Group ID attribute to apply to a file or directory. The UID and GID values must be set together as a pair or they are ignored. The UID and GID numbers are internal values returned by the Get File List activity. Typically, you first use the Get File List activity to return a list of files and their attributes. Then you can move a file from a source host to a target host and set the source file attributes on the target file. This flow is demonstrated in the [SFTP File Transfer workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_SFTPWorkflow.md). Field available on following command: Set file attributes
 
-</td></tr><tr><td id="d340453e376">
+</td></tr><tr><td id="d335574e376">
 
 **Permissions**
 
@@ -191,7 +191,7 @@ Group ID attribute to apply to a file or directory. The UID and GID values must 
 
 File or directory permissions to set for the user and group specified. This value must be expressed as an integer, such as **16877**, which defines these permissions: **rwxr-xr-x**. The permissions numbers are internal values returned by the Get File List activity. Typically, you first use the Get File List activity to return a list of files and their attributes. Then you can move a file from a source host to a target host and set the source file attributes on the target file. This flow is demonstrated in the [SFTP File Transfer workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r_SFTPWorkflow.md). Field available on following command: Set file attributes
 
-</td></tr><tr><td id="d340453e398">
+</td></tr><tr><td id="d335574e398">
 
 **Access timestamp**
 
@@ -199,7 +199,7 @@ File or directory permissions to set for the user and group specified. This valu
 
 Override the timestamp when the file or directory was last accessed. The access and modification timestamps must be set together as a pair. Field available on following command: Set file attributes
 
-</td></tr><tr><td id="d340453e407">
+</td></tr><tr><td id="d335574e407">
 
 **Modification timestamp**
 
@@ -207,7 +207,7 @@ Override the timestamp when the file or directory was last accessed. The access 
 
 Override the timestamp when the file or directory was last modified. The access and modification timestamps must be set together as a pair. Field available on following command: Set file attributes
 
-</td></tr><tr><td id="d340453e416">
+</td></tr><tr><td id="d335574e416">
 
 **Size in bytes**
 
@@ -215,13 +215,13 @@ Override the timestamp when the file or directory was last modified. The access 
 
 Size of a file, expressed in bytes. Field available on following command: Set file attributes
 
-</td></tr><tr><td id="d340453e425">
+</td></tr><tr><td id="d335574e425">
 
 **Required MID Server capabilities**
 
 </td><td>
 
-MID Server with the appropriate MID Server capabilities for connecting to the source and target servers.
+MID Server with the appropriate [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) for connecting to the source and target servers.
 
 </td></tr></tbody>
 </table>    The system uses this logic to determine which files to move from the source host:
@@ -603,7 +603,7 @@ String
 
 </td><td>
 
-Credential aliases for Orchestration activities used to run the command on the source host.
+[Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) used to run the command on the source host.
 
 </td></tr><tr><td>
 
@@ -876,7 +876,7 @@ Credential tag for source
 
 </td><td>
 
-Specific Credential aliases for Orchestration activities this activity must use to run SFTP commands on the source host.
+Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run SFTP commands on the source host.
 
 </td><td>
 
@@ -1046,7 +1046,7 @@ Required MID Server capabilities
 
 </td><td>
 
-MID Server with the appropriate MID Server capabilities for connecting to the source and target servers. By default, the system selects an SSH MID Server.
+MID Server with the appropriate [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) for connecting to the source and target servers. By default, the system selects an SSH MID Server.
 
 </td><td>
 

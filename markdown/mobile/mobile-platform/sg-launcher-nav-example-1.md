@@ -122,7 +122,7 @@ Condition type
 
 Type of condition to use.
 
--   **Declarative:** Adds a conditional builder to the form. For more information, see .
+-   **Declarative:** Adds a conditional builder to the form. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 -   **Script:** Adds a script condition field to the form.
 **Note:** Displays only if **Context** is set to **Record**.
 

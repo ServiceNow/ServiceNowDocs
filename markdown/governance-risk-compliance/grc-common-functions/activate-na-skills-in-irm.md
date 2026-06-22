@@ -44,7 +44,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 You can perform the following actions on Now Assist skills if you have the sn\_generative\_ai.nsa\_admin role:
 
--   Edit a Now Assist skill.
--   Make a copy of a Now Assist skill.
--   Troubleshoot a Now Assist skill.
+-   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/edit-a-now-assist-skill.md).
+-   [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/make-a-copy-of-a-now-assist-skill.md).
+-   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/troubleshoot-a-now-assist-skill.md).
 

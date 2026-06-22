@@ -21,17 +21,17 @@ An **Application** field is available in the Connection \[sys\_connection\] and 
 -   [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/connection-information.md)
 -   [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/credentials-getting-started.md)
 -   [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/discovery-credential-alias.md)
--   Configuring the form layout
+-   [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md)
 
 Restricting the use of a Connection &amp; Credentials record to a specific scope is important for managing applications that require enforced security. These applications include HR Service Delivery or Security Operations Connection &amp; Credentials records created in scoped administered applications are not visible to admin users. Associating a Connection &amp; Credentials record to a specific application scope affords the following protections:
 
 -   Applies Access Control List rules \(ACLs\) to restricted scopes. To learn more about scoped ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/access-control-rules.md).
 
-    **Note:** Some applications using scope administration and enforced security may require additional setup. To learn more, see Manage HR roles
+    **Note:** Some applications using scope administration and enforced security may require additional setup. To learn more, see [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md)
 
 -   Protects records when queried using a script. If you do a query from the Global scope, and the Connection &amp; Credential record is in a protected scope, it doesn't appear in the query, unless given access to it.
 
-You can customize and grant access to query-restricted records by using Restricted Caller Access. To learn more, see Restricted caller access privilege settings. Scoping restrictions also apply to all children tables of the Connection \[sys\_connection\] and Discovery Credentials \[discovery\_credentials\] tables. Empty fields and other scopes are not restricted.
+You can customize and grant access to query-restricted records by using Restricted Caller Access. To learn more, see [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/restricted-caller-access-privilege.md). Scoping restrictions also apply to all children tables of the Connection \[sys\_connection\] and Discovery Credentials \[discovery\_credentials\] tables. Empty fields and other scopes are not restricted.
 
 **Note:** Scope protections are only enabled for specific secured scopes to avoid confusion when setting up new records. If someone makes a connection in their scoped application scope, it doesn't have automatic scope restriction.
 

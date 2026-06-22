@@ -35,15 +35,15 @@ Role required: sn\_ohs\_im.compliance\_manager
 
 3.  Open the injury an illness report from a safety incident or from the injury and illness list.
 
-<table id="choicetable_smc_dfc_3bc"><thead><tr><th align="left" id="d172289e110">
+<table id="choicetable_smc_dfc_3bc"><thead><tr><th align="left" id="d172024e110">
 
 Option
 
-</th><th align="left" id="d172289e113">
+</th><th align="left" id="d172024e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d172289e119">
+</th></tr></thead><tbody><tr><td id="d172024e119">
 
 **From a safety incident**
 
@@ -55,7 +55,7 @@ Steps
 4.  In the **Add injury and illness** activity, select the injury and illness report to generate the OSHA 301 form for.
 
 
-</td></tr><tr><td id="d172289e155">
+</td></tr><tr><td id="d172024e155">
 
 **From an injury and illness list**
 

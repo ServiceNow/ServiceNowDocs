@@ -20,7 +20,7 @@ This Accelerator provides guidance to assess and improve the Foundation Data tha
 
 The Common Service Data Model Assessment - Foundation Data - Advanced Accelerator provides Impact Customers with leading practices content and prescriptive guidance on the CSDM - Foundation Data and how it supports processes within the ServiceNow Platform. Interactions with ServiceNow CSDM Subject Matter Experts and personalized content on CSDM for the Customer’s organization are included.
 
-For more information on the CSDM, see .
+For more information on the CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
 
 **Note:** This Accelerator is available in the Advanced package.
 

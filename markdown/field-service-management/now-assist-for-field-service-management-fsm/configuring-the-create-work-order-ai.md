@@ -40,7 +40,7 @@ The Create Work Order agentic workflow allows users to create work orders from t
 
     \[Omitted image "now-assist-create-wo-nap-display.png"\] Alt text: Create Work Order configuration screen with Display set to active.
 
-    You have enabled the agentic workflow in the Now Assist panel. If the option isn't available, you must enable the panel first. For more information, see .
+    You have enabled the agentic workflow in the Now Assist panel. If the option isn't available, you must enable the panel first. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 5.  Select **Save and test**.
 

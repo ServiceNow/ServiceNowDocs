@@ -30,7 +30,7 @@ The dashboard displays reports arranged in widgets. You can add new widgets to t
 
 2.  Click the elements within the reports to view more information.
 
-    For more information about working with dashboards, see Dashboards.
+    For more information about working with dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/dashboards-landing-page.md).
 
 
 **Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/t_ViewAMetricResult.md)

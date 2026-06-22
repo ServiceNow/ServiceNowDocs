@@ -71,15 +71,15 @@ For the second presentment:
 
     **Note:** In case of integration with Mastercard's Mastercom APIs, the **Merchant's Response to Collaboration** drop-down list automatically shows the merchant response and you can't edit it.
 
-<table id="choicetable_kzh_rp5_vfc"><thead><tr><th align="left" id="d55878e334">
+<table id="choicetable_kzh_rp5_vfc"><thead><tr><th align="left" id="d55667e334">
 
 Option
 
-</th><th align="left" id="d55878e337">
+</th><th align="left" id="d55667e337">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d55878e343">
+</th></tr></thead><tbody><tr><td id="d55667e343">
 
 **__Refund__**
 
@@ -104,7 +104,7 @@ The [Review chargeback response and decide on pre-arbitration or arbitration](ht
     -   **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends. For more information, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 
 
-</td></tr><tr><td id="d55878e443">
+</td></tr><tr><td id="d55667e443">
 
 **__Voucher__**
 
@@ -129,7 +129,7 @@ The [Review chargeback response and decide on pre-arbitration or arbitration](ht
     -   Select **No** if there’s no second presentment from the merchant. The case goes in the favor of the cardholder and the transaction moves to Financial adjustments 1 and the dispute life cycle ends.
 
 
-</td></tr><tr><td id="d55878e543">
+</td></tr><tr><td id="d55667e543">
 
 **__First-Party Trust__**
 

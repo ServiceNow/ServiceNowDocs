@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Search for and select the target user.
 
-    If the user record does not exist, create it. For more information, see .
+    If the user record does not exist, create it. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAUser.md).
 
 3.  In the Roles related list, select **Edit**.
 

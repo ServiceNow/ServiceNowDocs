@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Personal authentication, Authentication, Access Management]
 ---
@@ -24,7 +24,7 @@ Role required: connection\_admin
 
 Users without the **connection\_admin** role can’t access the Credentials page to generate OAuth tokens. These users must generate a personal token using the `oauth_initiator` URL with additional parameter indicating that the token is personal and requested for session user.
 
-You can also use the scoped `PersonalAuthAPI` with the `sn_personal_auth` plugin to generate the initiator URL. For more information, see PersonalAuthAPI - getInitiatorURL\(String aliasId\)
+You can also use the scoped `PersonalAuthAPI` with the `sn_personal_auth` plugin to generate the initiator URL. For more information, see [PersonalAuthAPI - getInitiatorURL\(String aliasId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/PersonalAuthAPIScoped.md#title_PerAuth-getInitiatorURL_S)
 
 **Note:** If the personal authentication plugin \(`com.snc.sn_ihub_personal_auth`\) is activated, use the scoped API to generate the initiator URL. This. API is available only if the plugin is installed.
 

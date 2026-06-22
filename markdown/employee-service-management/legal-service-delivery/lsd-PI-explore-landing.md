@@ -48,7 +48,7 @@ The Predictive Intelligence for Legal Service Delivery solution helps you reduce
 
 To learn more about configuring and using Predictive Intelligence for Legal Service Delivery, see:
 
--   
+-   [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md)
 -   [Configure Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-PI-configure-landing.md)
 -   [Use Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-pi-use-legal-request.md)
 -   [Predictive Intelligence for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-PI-reference-landing.md)

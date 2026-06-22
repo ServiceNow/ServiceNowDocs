@@ -28,7 +28,7 @@ Starting with the Zurich release, the Multisource CMDB feature is part of the CM
 
 Instead of using the CMDB 360 query builder in CMDB Workspace, you can still use the legacy Multisource Report Builder as described in this topic.
 
-After you create a Multisource query in the Multisource Report Builder, you can run the query to see the results. You can then also create a Multisource report that integrates the Multisource query results with the platform Reporting capabilities. High level steps for creating a Multisource report:
+After you create a Multisource query in the Multisource Report Builder, you can run the query to see the results. You can then also create a Multisource report that integrates the Multisource query results with the platform [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/reporting-landing-page.md) capabilities. High level steps for creating a Multisource report:
 
 1.  Create a query, then save and run it.
 2.  Create a schedule for the query.
@@ -239,7 +239,7 @@ Omit if no records
 Disable sending an email for a query run that returns no results.
 
 </td></tr></tbody>
-</table>    **Note:** When using update sets to port Multisource schedules from a non-production to a production environment, check the **Users** and **Groups** settings in the schedule. Any user or group that doesn't exist in the production environment, and which needs to receive the query results, must be re-added in either of the following ways:
+</table>    **Note:** When using [update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md) to port Multisource schedules from a non-production to a production environment, check the **Users** and **Groups** settings in the schedule. Any user or group that doesn't exist in the production environment, and which needs to receive the query results, must be re-added in either of the following ways:
 
     -   Manually created in the production environment. In this case, you must also remove the invalid user or group in the production environment \(ported from non-production environment\) from any schedules and add the new user or group instead.
     -   Explicitly ported from the non-production to production environment.
@@ -252,7 +252,7 @@ Disable sending an email for a query run that returns no results.
     1.  Navigate to **All** &gt; **Configuration** &gt; **Multisource Report Schedules**.
     2.  In the Scheduled Email of Multisource Report Builders list view, select the query that you want to run.
     3.  On the Scheduled Email of Multisource Report Builder form, click **Execute Now**.
--   Create a Multisource report for the query, that integrates the Multisource query results with the platform Reporting feature.
+-   Create a Multisource report for the query, that integrates the Multisource query results with the platform [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/reporting-landing-page.md) feature.
 
 ## Create a report based on a Multisource \(CMDB 360\) query
 
@@ -266,7 +266,7 @@ Role required: cmdb\_ms\_user
 
 ### About this task
 
-Creating a report that is based on a Multisource \(CMDB 360\) query, creates a report source which you can then manage using Reporting capabilities.
+Creating a report that is based on a Multisource \(CMDB 360\) query, creates a report source which you can then manage using [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/reporting-landing-page.md) capabilities.
 
 **Note:** If you are using the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md) to generate the CMDB 360 query and the report, you can skip to step 4 in the procedure below.
 
@@ -285,7 +285,7 @@ A report shows the results for the most recent query run. If meanwhile the query
 
 ### What to do next
 
-To add a Multisource \(CMDB 360\) report to the CMDB Correctness Dashboard for example, see Add a report to a dashboard.
+To add a Multisource \(CMDB 360\) report to the CMDB Correctness Dashboard for example, see [Add a report to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/add-report-to-dashboard.md).
 
 ## Sample CMDB 360/Multisource CMDB queries
 

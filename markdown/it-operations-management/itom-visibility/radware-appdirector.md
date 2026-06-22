@@ -24,7 +24,7 @@ Discovery of Radware load balancers is performed by SNMP.
 
 ## Credentials
 
-Configure SNMP credentials.
+Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md).
 
 ## Classifier, pattern, and probes
 

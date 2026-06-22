@@ -18,7 +18,7 @@ Review the default Employee workplace readiness survey installed with the Employ
 
 ## Before you begin
 
-Familiarize yourself with Survey administration. Then meet with other emergency response team stakeholders to plan the changes to the survey. Decide whether to edit the existing survey before you send it to employees, or to create one or more new surveys.
+Familiarize yourself with [Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/r_SurveyAdminTasks.md). Then meet with other emergency response team stakeholders to plan the changes to the survey. Decide whether to edit the existing survey before you send it to employees, or to create one or more new surveys.
 
 Role required: sn\_imt\_checkin.checkin\_admin, survey\_creator, survey\_admin, or admin
 
@@ -36,15 +36,15 @@ Users with the sn\_imt\_checkin.checkin\_admin role have the survey\_creator rol
 
 2.  Using the plan that you made for changing the survey, update any of the following survey elements.
 
-<table id="reuse-choicetable_afj_nqk_qlb"><thead><tr><th align="left" id="d197662e114">
+<table id="reuse-choicetable_afj_nqk_qlb"><thead><tr><th align="left" id="d197403e114">
 
 Option
 
-</th><th align="left" id="d197662e117">
+</th><th align="left" id="d197403e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d197662e123">
+</th></tr></thead><tbody><tr><td id="d197403e123">
 
 **Add owners**
 
@@ -52,7 +52,7 @@ Description
 
 Select the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\) beside **Owners** to unlock the list of survey owners. Add the user to collaborate with on this survey.
 
-</td></tr><tr><td id="d197662e141">
+</td></tr><tr><td id="d197403e141">
 
 **Update the introductory and ending text**
 
@@ -60,7 +60,7 @@ Select the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\) b
 
 Select the Introduction &amp; End Notes section tab and update the text.
 
-</td></tr><tr><td id="d197662e150">
+</td></tr><tr><td id="d197403e150">
 
 **Work with the questions**
 
@@ -70,7 +70,7 @@ Select the Introduction &amp; End Notes section tab and update the text.
 2.  Select the question to open the Survey Question form. Modify and complete your edits. The answers are listed in the Assessment Metric Definitions related list.
 
 
-</td></tr><tr><td id="d197662e171">
+</td></tr><tr><td id="d197403e171">
 
 **Work with the question responses**
 
@@ -98,7 +98,7 @@ Role required: sn\_imt\_checkin.checkin\_admin, survey\_creator, survey\_admin, 
 
 ### About this task
 
-Consider how you want to begin to reopen your workplace, and what you must understand about the employees before you can begin. Work with a user with the survey\_admin role in your company to plan the types of questions and responses for the survey. For information about adding surveys, see Survey administration and Survey designer.
+Consider how you want to begin to reopen your workplace, and what you must understand about the employees before you can begin. Work with a user with the survey\_admin role in your company to plan the types of questions and responses for the survey. For information about adding surveys, see [Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/r_SurveyAdminTasks.md) and [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesigner.md).
 
 ### Procedure
 

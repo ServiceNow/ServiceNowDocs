@@ -23,7 +23,7 @@ Customized email templates can be applied to notifications that are sent when us
 Admins can customize notification emails in two ways:
 
 1.  Using Guided Setup.
-2.  Using the \[sysevent\_email\_action\] table. For more information on creating and editing notification emails on the ServiceNow AI Platform, see .
+2.  Using the \[sysevent\_email\_action\] table. For more information on creating and editing notification emails on the ServiceNow AI Platform, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
 
 ## Scopes for email notifications
 

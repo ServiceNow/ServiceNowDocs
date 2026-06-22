@@ -18,8 +18,8 @@ Use the Now Assist for SAM AI agent collection to complete tasks autonomously.
 
 Ensure that you have the following prerequisites for running agentic workflows:
 
--   Your organization has a software asset management system integrated with AI agents. For more details on AI agents, see .
--   Access to an AI-driven Now Assist panel. For more details on Now Asset Panel, see .
+-   Your organization has a software asset management system integrated with AI agents. For more details on AI agents, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md).
+-   Access to an AI-driven Now Assist panel. For more details on Now Asset Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 <table id="table_hrp_zyl_m2c"><thead><tr><th>
 
@@ -84,11 +84,11 @@ Software removal candidate evaluation AI agent
  
 
 </td></tr></tbody>
-</table>Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see .
+</table>Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
 **Important:** By default, all agentic workflows and AI agent records are read-only.
 
-You can run the agentic workflow as is by activating the workflow. Additionally, you can duplicate the workflow if you want to customize the workflow. If you duplicate the agentic workflow, adjust the settings according to your requirements and then activate the duplicated agentic workflow. You can also test the duplicated agentic workflow to analyze its performance in the AI Agent Studio, while it executes the instructions that you defined.
+You can run the agentic workflow as is by activating the workflow. Additionally, you can [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md) the workflow if you want to customize the workflow. If you duplicate the agentic workflow, adjust the settings according to your requirements and then activate the duplicated agentic workflow. You can also [test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md) the duplicated agentic workflow to analyze its performance in the AI Agent Studio, while it executes the instructions that you defined.
 
 When you activate the agentic workflow, activate all agents within the agentic workflow.
 
@@ -96,7 +96,7 @@ Activate the trigger to invoke the agentic workflow automatically. If you prefer
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 -   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-fulfill-sw-asset-requests-workflow.md)**  

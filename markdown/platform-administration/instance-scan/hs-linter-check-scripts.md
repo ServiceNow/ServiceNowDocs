@@ -83,7 +83,7 @@ The following is a list of available functions to call on the node object.
     4.  Length
     5.  Name identifier \(if a NAME node\)
 
-For more information, see LinterCheckAstNode API - Scoped, Global.
+For more information, see [LinterCheckAstNode API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/LinterCheckAstNodeAPIBoth.md).
 
 **Parent Topic:**[Create a linter check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/instance-scan/hc-linter-check.md)
 

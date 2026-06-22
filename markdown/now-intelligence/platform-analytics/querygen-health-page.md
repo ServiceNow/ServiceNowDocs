@@ -8,7 +8,7 @@ product: Platform Analytics
 classification: platform-analytics
 topic_type: reference
 last_updated: "2025-07-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [AI search, LLM status, semantic layer]
 breadcrumb: [Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
 ---
@@ -71,7 +71,7 @@ The health of the various Query Generation components
 
 </td><td>
 
-If there are no components present, run the Generate Semantic Layer job.If requests fail with `No entities and dimensions` errors, but the components are present in the entities and dimensions table and active, re-index the components. For more information about keyword and semantic ingestion, see .
+If there are no components present, run the Generate Semantic Layer job.If requests fail with `No entities and dimensions` errors, but the components are present in the entities and dimensions table and active, re-index the components. For more information about keyword and semantic ingestion, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/indexing-content-ais.md).
 
 </td></tr><tr><td>
 

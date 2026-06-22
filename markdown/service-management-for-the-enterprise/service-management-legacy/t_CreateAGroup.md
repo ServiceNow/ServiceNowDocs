@@ -35,7 +35,7 @@ There are a few good practices when creating groups:
 
 3.  Fill in the fields on the form, as appropriate.
 
-    See Create a user group for an explanation of each field.
+    See [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAGroup.md) for an explanation of each field.
 
 4.  Click the lock icon beside the **Type** field.
 

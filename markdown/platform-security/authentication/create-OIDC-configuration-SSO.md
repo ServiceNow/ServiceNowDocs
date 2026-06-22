@@ -44,7 +44,7 @@ If you do not have the required information about the identity provider, you can
     -   To create a new configuration, click **New** and select **OpenID Connect**.
 3.  For a new configuration, enter the OIDC configuration information in one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d48903e169">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d49111e169">
 
 **Import OpenID Connect Well-Known Configuration**
 
@@ -52,7 +52,7 @@ If you do not have the required information about the identity provider, you can
 
 If you have the well-known configuration URL along with your associated client credentials, you can directly import an OIDC configuration.**Note:** If you import the OIDC well-known configuration, all related fields are auto-populated.
 
-</td></tr><tr><td id="d48903e181">
+</td></tr><tr><td id="d49111e181">
 
 **Manually configure the OIDC Identity Provider form**
 

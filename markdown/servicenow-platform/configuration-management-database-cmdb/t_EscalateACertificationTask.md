@@ -31,7 +31,7 @@ Escalating a task:
 
 The event that triggers the escalation is named cert\_task.escalate and the email notification is named Escalation Notification. To edit the text of the email message that is sent, edit the Escalation Notification email notification directly.
 
-For more information, see Email notifications.
+For more information, see [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailNotifications.md).
 
 To escalate a certification task from the Certification Task form:
 

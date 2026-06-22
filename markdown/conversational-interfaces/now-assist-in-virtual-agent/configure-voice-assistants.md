@@ -20,7 +20,7 @@ Create an AI voice assistant to enable natural, conversational voice interaction
 
 Role required: virtual\_agent\_admin or admin
 
-Set up your preferred user identification and authentication methods to allow access to AI voice agents. See  for more information.
+Set up your preferred user identification and authentication methods to allow access to AI voice agents. See [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/authentication-factors.md) for more information.
 
 ## About this task
 
@@ -83,7 +83,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
 4.  Add one or more AI voice agents to the voice assistant by selecting **Add from library** and select **Save and continue**.
 
-    **Note:** Add at least one AI voice agent to the voice assistant. The voice assistant uses the AI voice agents to execute AI instructions. You can select an existing agent or select **Create** to create one. See  for more information.
+    **Note:** Add at least one AI voice agent to the voice assistant. The voice assistant uses the AI voice agents to execute AI instructions. You can select an existing agent or select **Create** to create one. See [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/create-a-voice-enabled-ai-agent.md) for more information.
 
 5.  Select a voice personality.
 
@@ -115,11 +115,11 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
     1.  Integrate a telephony provider to connect to the voice assistant.
 
-        For more information, see .
+        For more information, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/integrating-voice-service-with-ccaas-providers.md).
 
     2.  Configure your voice assistant to be accessible through mobile app voice launcher function.
 
-        For more information, see Integrate voice assistant with mobile app voice launcher
+        For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md)
 
 7.  Identify and authenticate the caller.
 
@@ -127,7 +127,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
     \[Omitted image "ai-voice-assistant-authentication.png"\] Alt text: Authentication method selection for creating voice assistant
 
-    Identification and authentication factors must be configured at the platform level, where you define which tables and columns the system should use for both identification and authentication. After the factors are defined, they appear here as selectable options for your voice agent configuration. For more information, see .
+    Identification and authentication factors must be configured at the platform level, where you define which tables and columns the system should use for both identification and authentication. After the factors are defined, they appear here as selectable options for your voice agent configuration. For more information, see [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/authentication-factors.md).
 
     1.  Select the method used to identify the caller when the call begins.
 
@@ -152,7 +152,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
         -   SMS verification code
         -   Authenticator app time-based One Time Password \(TOTP\)
         -   Soft PIN
-        **Note:** KBA authentication, for example, employee security questions, requires you to configure the questions and response fields at platform level and explicitly map them to the voice assistant before they can be selected here. To ensure secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See  for more information.
+        **Note:** KBA authentication, for example, employee security questions, requires you to configure the questions and response fields at platform level and explicitly map them to the voice assistant before they can be selected here. To ensure secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See [Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/knowledge-based-authentication.md) for more information.
 
     4.  Select **Save and continue**.
 
@@ -197,5 +197,5 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
 ## What to do next
 
-Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See  for information on the tables containing transcript and logs.
+Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See [AI voice agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/voice-agent-reference.md) for information on the tables containing transcript and logs.
 

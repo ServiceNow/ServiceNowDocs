@@ -38,11 +38,11 @@ Set up Oracle HCM for HR Service Delivery to pull worker data from Oracle HCM in
 
 3.  For better performance, index the employee number field in HR Profile table and index coalesce fields in [transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/oracle-hcm-transform-maps.md).
 
-    For more information, see create a table index.
+    For more information, see [create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/t_CreateCustomIndex.md).
 
 4.  Set up Oracle HCM spoke.
 
-    For more information, see set up Oracle HCM Cloud spoke.
+    For more information, see set up [Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-oracle-hcm.md).
 
 5.  Configure integration source properties for HR Service Delivery integration with Oracle Cloud HCM
 

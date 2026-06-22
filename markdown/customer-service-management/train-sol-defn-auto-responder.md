@@ -20,7 +20,7 @@ Update and train a similarity solution definition to enable the Auto-Responder f
 
 Role required: admin
 
-Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see Activate a plugin and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/predictive-intelligence-for-csm.md).
+Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md) and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/predictive-intelligence-for-csm.md).
 
 ## About this task
 
@@ -28,7 +28,7 @@ A similarity solution definition collects and compares your existing records to 
 
 For a similarity solution to work correctly, the Knowledge \[kb\_knowledge\] table in the Knowledge View \[sn\_customerservice\_knowledge\_view\] database view must have at least the required number of records set in the configuration of your ServiceNow instance. The default minimum number required is 10,000.
 
-If the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) is activated, the tables for knowledge article templates \(such as FAQ, How to, What Is, KCS Article\) are also added to the Knowledge View \[sn\_customerservice\_knowledge\_view\] database view. For a similarity solution to show results from each template type, each of the tables for the template type must have at least the required number of records. If a table doesn’t have the required number of records, you might not see the results from that table. For more information, see Database View support for Predictive Intelligence.
+If the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) is activated, the tables for knowledge article templates \(such as FAQ, How to, What Is, KCS Article\) are also added to the Knowledge View \[sn\_customerservice\_knowledge\_view\] database view. For a similarity solution to show results from each template type, each of the tables for the template type must have at least the required number of records. If a table doesn’t have the required number of records, you might not see the results from that table. For more information, see [Database View support for Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/database-view-support-predictive-intelligence.md).
 
 ## Procedure
 
@@ -64,7 +64,7 @@ Word Corpus
 
 Defines which knowledge articles and cases are selected.By default, the **All Articles and Cases** word corpus is available to search for knowledge articles similar to a customer service case short description.
 
-**Note:** Modify the word corpus to use the knowledge base defined for your portal. If you have defined custom tables for knowledge articles and article templates, you must include their fields in the word corpus content. For more information about the word corpus and word corpus content, see Create a word corpus.
+**Note:** Modify the word corpus to use the knowledge base defined for your portal. If you have defined custom tables for knowledge articles and article templates, you must include their fields in the word corpus content. For more information about the word corpus and word corpus content, see [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/create-word-corpus.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Table
 
 Table or database view that contains the knowledge article records. Set the value to the Knowledge View \[sn\_customerservice\_knowledge\_view\] database view unless you use a different table or database view for storing knowledge articles. This database view joins the Knowledge \[kb\_knowledge\], What Is \[kb\_template\_what\_is\], How To \[kb\_template\_how\_to\], FAQ \[kb\_template\_faq\], and KCS Article \[kb\_template\_kcs\] tables for viewing all fields in a knowledge article.After you assign a table value, the number of records that match the filter conditions is displayed as a link.
 
- **Note:** The What Is \[kb\_template\_what\_is\], How To \[kb\_template\_how\_to\], FAQ \[kb\_template\_faq\], and KCS Article \[kb\_template\_kcs\] tables are available only if the Knowledge Management Advanced plugin is activated. For more information, see Activate the Knowledge Management Advanced plugin.
+ **Note:** The What Is \[kb\_template\_what\_is\], How To \[kb\_template\_how\_to\], FAQ \[kb\_template\_faq\], and KCS Article \[kb\_template\_kcs\] tables are available only if the Knowledge Management Advanced plugin is activated. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Update Frequency
 Frequency with which to include new records in the model for the similarity solution definition.
 
 </td></tr></tbody>
-</table>    For more information, see Create and train a similarity solution.
+</table>    For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 4.  In the Training Request Schedule related list, update the schedule for training the Similar Knowledge Articles All solution definition.
 
@@ -163,11 +163,11 @@ Frequency with which to include new records in the model for the similarity solu
 
     2.  Review the similarity examples by clicking the **Similarity Examples** related link on the ML Solution form.
 
-        For more information, see Review solution similarity examples.
+        For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 
     3.  In the Solution Statistics related list on the ML Solution form, enter the required value in the **Similarity Score Threshold** field, right-click the ML Solution form, and then click **Save**.
 
-        For more information, see Update your similarity score threshold.
+        For more information, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
 
 
 ## Result
@@ -177,5 +177,5 @@ When the solution is complete, the knowledge articles similar to the fields sele
 **Related topics**  
 
 
-[bundle-platcap.knowledge-article-templates]
+[Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md)
 

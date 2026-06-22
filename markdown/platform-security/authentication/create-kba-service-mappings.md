@@ -20,7 +20,7 @@ Specify the questions used for caller identification and authentication with a s
 
 Role required: auth\_factors\_admin
 
-Service mappings are created automatically when KBA questions are selected in AI Voice Assistant Designer. You can also create and manage mappings directly in this table. Changes made here are reflected on the Caller Verification screen in Assistant Designer instantly. To learn more about voice services and how to create and manage them, see .
+Service mappings are created automatically when KBA questions are selected in AI Voice Assistant Designer. You can also create and manage mappings directly in this table. Changes made here are reflected on the Caller Verification screen in Assistant Designer instantly. To learn more about voice services and how to create and manage them, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/create-an-ai-voice-service.md).
 
 ## Procedure
 

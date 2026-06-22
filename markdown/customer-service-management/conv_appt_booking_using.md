@@ -26,5 +26,5 @@ Customers can complete the following tasks with a Virtual Agent:
 
 ## Conversational Appointment Booking for Agents
 
-Agents can use Autopilot to display Virtual Agent topics during Agent Chat conversations. For more information, see Conversation Autopilot.
+Agents can use Autopilot to display Virtual Agent topics during Agent Chat conversations. For more information, see [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md).
 

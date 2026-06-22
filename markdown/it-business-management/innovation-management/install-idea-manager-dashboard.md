@@ -68,5 +68,5 @@ Run the following Performance Analytics data collector jobs before using the Ide
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 

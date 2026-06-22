@@ -26,15 +26,15 @@ Role required: itil
 
 2.  Perform any of the following actions on the record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d127356e61">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d127437e61">
 
 Option
 
-</th><th align="left" id="d127356e64">
+</th><th align="left" id="d127437e64">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d127356e70">
+</th></tr></thead><tbody><tr><td id="d127437e70">
 
 **Create a new version of the knowledge article that we can publish**
 
@@ -42,7 +42,7 @@ Description
 
 Select **Checkout**.
 
-</td></tr><tr><td id="d127356e82">
+</td></tr><tr><td id="d127437e82">
 
 **Translate an article after its comparison in its original language and the language it will be translated into**
 
@@ -53,7 +53,7 @@ Select **Checkout**.
 
 **Note:** If Dynamic Translation is enabled, click **Machine Translate** to view machine translations.
 
-</td></tr><tr><td id="d127356e112">
+</td></tr><tr><td id="d127437e112">
 
 **View a knowledge article including the article number, short description, and article content**
 
@@ -61,15 +61,15 @@ Select **Checkout**.
 
 Select **View Article**.
 
-</td></tr><tr><td id="d127356e124">
+</td></tr><tr><td id="d127437e124">
 
 **Initiate the retirement workflow associated with the article**
 
 </td><td>
 
-From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\), select **Retire**. For information about retiring a knowledge article, see .
+From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\), select **Retire**. For information about retiring a knowledge article, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
 
-</td></tr><tr><td id="d127356e146">
+</td></tr><tr><td id="d127437e147">
 
 **Translate an article into multiple languages**
 
@@ -80,7 +80,7 @@ From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt 
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d127356e179">
+</td></tr><tr><td id="d127437e180">
 
 **Copy the record page URL to easily access the record**
 
@@ -88,7 +88,7 @@ From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt 
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
 
-</td></tr><tr><td id="d127356e197">
+</td></tr><tr><td id="d127437e198">
 
 **Reuse a knowledge block when creating or editing the article**
 
@@ -98,7 +98,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  Select the required knowledge block to add it to the article.
 
 
-</td></tr><tr><td id="d127356e221">
+</td></tr><tr><td id="d127437e222">
 
 **Attach a record that helps in quick resolution of the interaction**
 
@@ -110,7 +110,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
  For information on configuring additional search resources, see [Configure search resources for an interaction in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.md).
 
-</td></tr><tr><td id="d127356e258">
+</td></tr><tr><td id="d127437e259">
 
 **Add attachments**
 
@@ -118,7 +118,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\). Alternatively, you can drag and drop the attachment into the **Active Chat** window of the interaction.**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d127356e282">
+</td></tr><tr><td id="d127437e283">
 
 **Create templates for reuse**
 
@@ -126,7 +126,7 @@ From the contextual side panel, select the attachments icon \(\[Omitted image "a
 
 From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text: templates icon\) and create a template or reuse an existing one.
 
-</td></tr><tr><td id="d127356e298">
+</td></tr><tr><td id="d127437e299">
 
 **Most recent task**
 

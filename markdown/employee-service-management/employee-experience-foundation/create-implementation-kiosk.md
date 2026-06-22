@@ -34,8 +34,8 @@ Role required: admin
 
 4.  In the Script Include page, add the unique location sys\_id in the `this.LOCATIONS` array in **Script**.
 
-    -   For more information on location tracking, see .
-    -   For more information on script include customizations, see .
+    -   For more information on location tracking, see [Enabling and selecting location tracking options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/location-tracking-enable.md).
+    -   For more information on script include customizations, see [Script includes and customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/customize-script-includes-itsm.md).
     1.  The location sys\_id enables a `fixed_match`. The `fixed_match` enables you to show location-based data to your users.
     2.  If `fixed_match` isn’t available, then the data available is for a `global_match`. The data remains the same regardless of location.
     3.  If it’s a `no_match`, there isn't a **Schedule** or **Time off** tab visible.

@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DecisionTableAPI class enables you to access Decision Tables data in scoped and global server-side scripts.
 
-To access DecisionTableAPI methods, use the `sn_dt` namespace. You must have the decision\_table\_crud\_api role to use this API. To learn more about Decision Tables, see Decision Tables.
+To access DecisionTableAPI methods, use the `sn_dt` namespace. You must have the decision\_table\_crud\_api role to use this API. To learn more about Decision Tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-tables/decision-table.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
@@ -685,7 +685,7 @@ String
 
 </td><td>
 
-Optional. Default operator for the condition. For a list of valid operators, see Operators available for filters and queries.
+Optional. Default operator for the condition. For a list of valid operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 
@@ -1753,7 +1753,7 @@ String
 
 Conditions required to reach this question.The fields available for the conditions are the decision inputs that are associated with the decision table.
 
-For more information about creating conditions, see Operators available for filters and queries.
+For more information about creating conditions, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 
@@ -4184,7 +4184,7 @@ String
 
 </td><td>
 
-Optional. Default operator for the condition. For a list of valid operators, see Operators available for filters and queries.
+Optional. Default operator for the condition. For a list of valid operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 
@@ -4868,7 +4868,7 @@ String
 
 Optional. Conditions required to reach this question.The fields available for the conditions are the decision inputs that are associated with the decision table.
 
-For more information about creating conditions, see Operators available for filters and queries.
+For more information about creating conditions, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 

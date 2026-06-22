@@ -94,7 +94,7 @@ Content of the KB article.
 
 ## Result
 
-The KB article is added to the selected alert. You can search for and display the article in the Agent assist side panel. Health Log Analytics also uses your article to enhance similar alerts with the same Event ID property or alert pattern.
+The KB article is added to the selected alert. You can search for and display the article in the [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/agent-assist.md) side panel. Health Log Analytics also uses your article to enhance similar alerts with the same Event ID property or alert pattern.
 
 **Parent Topic:**[Log Analytics in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-binder-sow.md)
 

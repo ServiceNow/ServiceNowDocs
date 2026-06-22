@@ -72,7 +72,7 @@ Following are the conditions to update or delete a capability:
 
 8.  To relate the capability with an application, select open the business capability.
 
-9.  In the Related Items section of the business capability form, select the Add CI relationship \(\) icon to launch the relationship editor and create the CI relationship.
+9.  In the Related Items section of the business capability form, select the Add CI relationship \(\) icon to launch the relationship editor and create the [CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIRelationship.md).
 
 10. Select the **Provided by \(Parent\)** from the Suggested relationship types section.
 

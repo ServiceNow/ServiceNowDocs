@@ -28,11 +28,11 @@ The update set picker appears on the Settings panel. The picker allows users to 
 
 ## Procedure
 
-1.  Grant the user role read access to the Update Set table \[sys\_update\_set\].
+1.  [Grant the user role read access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/t_CreateAnACLRule.md) to the Update Set table \[sys\_update\_set\].
 
 2.  Enable users to see the update set picker on the Settings panel.
 
-    1.  Add a system property **glide.ui.update\_set\_picker.role** to the System Properties table.
+    1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) **glide.ui.update\_set\_picker.role** to the System Properties table.
 
     2.  Set the value of **glide.ui.update\_set\_picker.role** to the role for which you want to give access.
 

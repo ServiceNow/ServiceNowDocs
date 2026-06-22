@@ -45,6 +45,6 @@ Role required: admin
     |Question|Initial phrase that users see when they start a new chat in the queue. For example, **How can I help you?**|
     |Schedule|Schedule that defines when the queue is available. Leave the field blank to make the queue available all the time. Users cannot start a new conversation in the queue outside the schedule hours.|
 
-4.  
+4.  [Manage the HR chat queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-service-delivery/t_ManageTheHRChatQueue.md#step_ReviewSupportConversations)
 
 

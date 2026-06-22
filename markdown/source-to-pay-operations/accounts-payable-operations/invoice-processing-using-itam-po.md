@@ -26,7 +26,7 @@ Role required: Accounts\_payable\_specialist \[sn\_ap\_apm.accounts\_payable\_sp
 
 2.  Create a purchase order in ITAM.
 
-    For more information on creating purchase order in ITAM, see .
+    For more information on creating purchase order in ITAM, see [Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/procurement/t_CreateAPurchaseOrder.md).
 
 3.  Create an invoice with the ITAM purchase order.
 

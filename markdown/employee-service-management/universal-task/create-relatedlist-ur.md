@@ -42,7 +42,7 @@ Role required: admin
 
     \[Omitted image "ut-relatdlst-new-tab.png"\] Alt text: Disable the New tab.
 
-    For more information on adding related lists, see Related lists.
+    For more information on adding related lists, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_RelatedLists.md).
 
 
 **Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/config-service-for-ut.md)

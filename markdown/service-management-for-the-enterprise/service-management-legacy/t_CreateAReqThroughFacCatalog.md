@@ -30,7 +30,7 @@ Role required: none
 
 4.  Fill in the fields on the form, as appropriate.
 
-    **Note:** Some request forms do not contain every field described here. For more information, see Forms.
+    **Note:** Some request forms do not contain every field described here. For more information, see [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_UsingForms.md).
 
     |Field|Description|
     |-----|-----------|

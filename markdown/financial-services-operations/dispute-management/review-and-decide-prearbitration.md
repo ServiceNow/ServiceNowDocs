@@ -73,15 +73,15 @@ This task becomes active when the merchant proceeds with a second presentment af
 
 13. In the **Response outcome** field, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_sc5_fy5_vfc"><thead><tr><th align="left" id="d53580e382">
+<table id="choicetable_sc5_fy5_vfc"><thead><tr><th align="left" id="d53369e382">
 
 Selection
 
-</th><th align="left" id="d53580e385">
+</th><th align="left" id="d53369e385">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d53580e391">
+</th></tr></thead><tbody><tr><td id="d53369e391">
 
 **Unresolved**
 
@@ -116,7 +116,7 @@ The **Arbitration response received** drop-down is displayed.
 -   **No** to end the chargeback, then the transaction moves to the Financial adjustments 2. The task is then marked as Complete.
 
 
-</td></tr><tr><td id="d53580e570">
+</td></tr><tr><td id="d53369e570">
 
 **Resolved**
 

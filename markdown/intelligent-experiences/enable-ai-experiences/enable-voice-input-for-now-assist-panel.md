@@ -26,7 +26,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-You can give users the option to use voice input in the Now Assist panel. This feature provides an additional input method to interact with Now Assist skills in English. Once it’s enabled, users can choose to activate this feature in their personal accessibility preferences by toggling on **Enable voice input for the Now Assist panel**. See Configure Next Experience accessibility preferences for more information about setting personal accessibility preferences.
+You can give users the option to use voice input in the Now Assist panel. This feature provides an additional input method to interact with Now Assist skills in English. Once it’s enabled, users can choose to activate this feature in their personal accessibility preferences by toggling on **Enable voice input for the Now Assist panel**. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-accessibility-preferences.md) for more information about setting personal accessibility preferences.
 
 Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, and mobile users on the go, such as field service agents.
 

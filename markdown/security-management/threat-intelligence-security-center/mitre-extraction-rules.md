@@ -36,15 +36,15 @@ Role required: sn\_sec\_tisc.admin
 
 4.  On the form, fill in the fields in the **Extraction Rule** and **Extraction Method** sections.
 
-<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d457043e113">
+<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d457079e113">
 
 Field
 
-</th><th align="left" id="d457043e116">
+</th><th align="left" id="d457079e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d457043e122">
+</th></tr></thead><tbody><tr><td id="d457079e122">
 
 **Name**
 
@@ -52,7 +52,7 @@ Description
 
 Name of the MITRE ATT&amp;CK Technique Extraction rule.
 
-</td></tr><tr><td id="d457043e131">
+</td></tr><tr><td id="d457079e131">
 
 **Description**
 
@@ -60,7 +60,7 @@ Name of the MITRE ATT&amp;CK Technique Extraction rule.
 
 Description of the MITRE ATT&amp;CK Technique Extraction rule.
 
-</td></tr><tr><td id="d457043e140">
+</td></tr><tr><td id="d457079e140">
 
 **Integration Type**
 
@@ -79,7 +79,7 @@ MITRE ATT&amp;CK Technique Extraction rule scope, based on data sources or threa
 -   **Observable Enrichment integrations**: The rule applies to all observable enrichment integrations.
 
 
-</td></tr><tr><td id="d457043e189">
+</td></tr><tr><td id="d457079e189">
 
 **Threat Feed Type**
 
@@ -90,7 +90,7 @@ For **Data Sources - Threat Intel Feeds**, select one of the following options:-
 -   **Custom feed**: Filters threat feeds of the custom feed type. Search for associated feeds using the lookup icon.
 
 
-</td></tr><tr><td id="d457043e219">
+</td></tr><tr><td id="d457079e219">
 
 **Feeds**
 
@@ -98,7 +98,7 @@ For **Data Sources - Threat Intel Feeds**, select one of the following options:-
 
 For **RSS Feeds Only**, select one or more threat feed integrations.**Note:** If this field is blank, all threat feed integrations for the selected feed type are used for extraction.
 
-</td></tr><tr><td id="d457043e233">
+</td></tr><tr><td id="d457079e233">
 
 **Method to extract MITRE ATT&amp;CK tactics and techniques**
 
@@ -109,7 +109,7 @@ Method for extracting MITRE ATT&amp;CK tactics and techniques. Available methods
 -   **Script**:Runs a custom script to handle extraction with full control over the logic.
 
 
-</td></tr><tr><td id="d457043e259">
+</td></tr><tr><td id="d457079e259">
 
 **Combined Tactic-Technique Regex**
 
@@ -117,7 +117,7 @@ Method for extracting MITRE ATT&amp;CK tactics and techniques. Available methods
 
 Regex pattern that matches a MITRE ATT&amp;CK tactic ID and its associated technique or sub-technique ID, so that they are extracted as a linked pair. Applies when the extraction method is set to Tactic and Technique Regex.
 
-</td></tr><tr><td id="d457043e268">
+</td></tr><tr><td id="d457079e268">
 
 **Technique Regex**
 
@@ -125,7 +125,7 @@ Regex pattern that matches a MITRE ATT&amp;CK tactic ID and its associated techn
 
 Regex pattern that matches MITRE ATT&amp;CK technique or sub-technique IDs, extracting them independently without tactic association. Applies when the extraction method is set to Technique Regex.
 
-</td></tr><tr><td id="d457043e277">
+</td></tr><tr><td id="d457079e277">
 
 **Tactic Regex**
 
@@ -133,7 +133,7 @@ Regex pattern that matches MITRE ATT&amp;CK technique or sub-technique IDs, extr
 
 Regex pattern that matches MITRE ATT&amp;CK tactic IDs. Used alongside the combined tactic-technique regex to identify tactic IDs within the matched tactic-technique pairs.
 
-</td></tr><tr><td id="d457043e286">
+</td></tr><tr><td id="d457079e286">
 
 **Script**
 

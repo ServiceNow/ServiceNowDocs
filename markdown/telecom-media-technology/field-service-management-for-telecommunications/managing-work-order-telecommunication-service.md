@@ -16,7 +16,7 @@ breadcrumb: [Field Service Management for Telecommunications, Telecommunications
 
 Manage the work orders for the field services to support the installation, activation, and site assessments that are needed for connectivity services.
 
-With the use of the ServiceNow® Telecommunication Open API `(com.sn_tmf_api)` application, you create and manage work orders from your system for the connectivity-related field services. To learn more about managing work orders in Field Service Management, see .
+With the use of the ServiceNow® Telecommunication Open API `(com.sn_tmf_api)` application, you create and manage work orders from your system for the connectivity-related field services. To learn more about managing work orders in Field Service Management, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/work-order-management/c_ManageWorkOrders.md).
 
 This feature supports the following:
 

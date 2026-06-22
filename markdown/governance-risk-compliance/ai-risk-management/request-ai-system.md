@@ -45,15 +45,15 @@ For example, a financial institution wants to improve its loan approval process 
 
 1.  Request an AI system from the Employee Center or from the AI Control Tower dashboard.
 
-<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d95728e178">
+<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d95727e178">
 
 Option
 
-</th><th align="left" id="d95728e181">
+</th><th align="left" id="d95727e181">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d95728e187">
+</th></tr></thead><tbody><tr><td id="d95727e187">
 
 **Request an AI system using AI Risk and Compliance**
 
@@ -63,7 +63,7 @@ Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**. 1.  Select *
 2.  Select the **Request an AI use case** card.
 **Note:** AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d95728e237">
+</td></tr><tr><td id="d95727e237">
 
 **Request an AI system using AI Control Tower**
 
@@ -76,7 +76,7 @@ Navigate to **All** &gt; **AI Control Tower**. 1.  On the AI Control Tower dashb
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For full descriptions of the fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-ai-system-form.md). For more information about adding an AI system using AI Control Tower, see .
+    For full descriptions of the fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-ai-system-form.md). For more information about adding an AI system using AI Control Tower, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/create-ai-system-assets.md).
 
 3.  To add attachments, select **Add attachments**.
 
@@ -97,7 +97,7 @@ For more information, see [Perform impact assessment on an AI use case](https://
 
 AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate required assessments, and coordinate cross‑functional reviews. Continue to oversee the AI system through its life cycle, including inventory tracking, governance activities, and collaboration across stakeholders.
 
-For more information, see .
+For more information, see [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-governance.md).
 
 Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]: Assess the AI system for regulatory, policy, and risk considerations. Assign risk assessments, recommend controls and attestations, and monitor compliance throughout the AI system life cycle.
 

@@ -20,7 +20,7 @@ Compare MetricBase \(Clotho\) data with your Spend data for Amazon Web Services 
 
 Role required: Cloud Insights Admin \[sn\_clin\_core.insights\_admin\]
 
-Request the MetricBase \[com.snc.clotho\] plugin. For more information, see .
+Request the MetricBase \[com.snc.clotho\] plugin. For more information, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/metricbase/request-metricbase.md).
 
 Verify that the Billing Download job has been completed successfully for the cloud provider.
 

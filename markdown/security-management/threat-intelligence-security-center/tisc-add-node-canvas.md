@@ -40,15 +40,15 @@ Role required: sn\_sec\_tisc.analyst
     -   Another option to view the **New Node** functionality is to view from the investigation canvas page directly.
 6.  To create a node, select the appropriate **Entity Category** and **Entity Type**.
 
-<table id="choicetable_y4f_vd5_zfc"><thead><tr><th align="left" id="d125629e151">
+<table id="choicetable_y4f_vd5_zfc"><thead><tr><th align="left" id="d125656e151">
 
 Field
 
-</th><th align="left" id="d125629e154">
+</th><th align="left" id="d125656e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d125629e160">
+</th></tr></thead><tbody><tr><td id="d125656e160">
 
 **Entity Category**
 
@@ -56,7 +56,7 @@ Description
 
 Select the entity category such as Observable, or Object.
 
-</td></tr><tr><td id="d125629e169">
+</td></tr><tr><td id="d125656e169">
 
 **Entity Type**
 

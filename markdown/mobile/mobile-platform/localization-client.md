@@ -8,7 +8,7 @@ product: Mobile Platform
 classification: mobile-platform
 topic_type: concept
 last_updated: "2025-11-11"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Localization on mobile devices, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -27,11 +27,11 @@ Translations are provided by the administrators who must configure the required 
 For more information, refer to the following topics:
 
 -   [Client-side translations within your mobile app](https://www.servicenow.com/community/international-localization/need-to-translate-the-mobile-app-check-this/ta-p/3433635) \(ServiceNow Community article\)
--   
--   
--   
--   
--   
+-   [System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization/system-localization-landing.md)
+-   [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-workspace/localization-workspace.md)
+-   [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization/r_TranslatedNameFieldTable.md)
+-   [Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework/framework-configuration.md)
+-   [Create and configure a custom artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework/create-configure-custom-artifact.md)
 -   [Localization Framework artifact examples](https://www.servicenow.com/community/international-localization/need-to-translate-a-par-dashboard-check-this/ta-p/2839751) \(ServiceNow Community article\)
 
 ## Licensing
@@ -40,8 +40,8 @@ The Mobile Custom Localization app is available from the  ServiceNow Store and
 
 For more information, refer to the following topics:
 
--   
--   
+-   [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/servicenow-store.md)
+-   [Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/get-free-app.md)
 
 ## General Guidelines for client-side localization
 

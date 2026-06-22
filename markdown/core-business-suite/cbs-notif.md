@@ -20,7 +20,7 @@ Notifications in CBS provide multi-faceted and timely communication when a reque
 
 As an employee or a supplier when you raise a request on the CBS application, a portal notification is triggered acknowledge the submission. You receive a notification when your request is commented on, a task is assigned to you, or the request is closed.
 
-You can open the request on the portal and add your comments, add any supporting attachments, or respond to any query from the agent assigned to your support ticket. You can also view the details of your case as an employee or a supplier who has raised the request. For more information, see .
+You can open the request on the portal and add your comments, add any supporting attachments, or respond to any query from the agent assigned to your support ticket. You can also view the details of your case as an employee or a supplier who has raised the request. For more information, see [Notification configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/service-creator/c_ConfiguringNotifications.md).
 
 **Important:**
 
@@ -33,7 +33,7 @@ Workspace notifications are simultaneously triggered for the agent who is workin
 
 The agent gets notifications when the requester has added a comment or an attachment to a request assigned to them.
 
-For more information on workspace notifications, see .
+For more information on workspace notifications, see [Getting notifications in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/ui-notifications.md).
 
 ## Email notifications
 
@@ -41,7 +41,7 @@ The requester and the agent both receive email notifications when a request is r
 
 You can view the request details along with a **View request** or **View case** button that opens either in the portal or the workspace depending on the persona.
 
-For more information on email notifications, see .
+For more information on email notifications, see [Email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/threat-intelligence-security-center/tisc-email-notifications.md).
 
 **Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/cbs-using-parent.md)
 

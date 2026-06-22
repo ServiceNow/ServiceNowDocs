@@ -18,7 +18,7 @@ Chat with an AI agent to help you assess the potential exposure of your configur
 
 ## Before you begin
 
-To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See  for more information.
+To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See [Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/secops-sem-rn.md) for more information.
 
 Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
@@ -26,7 +26,7 @@ Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
 1.  Select the Now Assist icon \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist icon.\) from anywhere in your instance.
 
-    The Now Assist panel is displayed. If you don't see the Now Assist icon \[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist sparkle icon in the header on the page, you must activate the Now Assist panel. For more information, see .
+    The Now Assist panel is displayed. If you don't see the Now Assist icon \[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist sparkle icon in the header on the page, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
     The Assess vulnerability exposure agentic workflow is on-demand. You can enter any query in natural language, but you might consider using the prompts described in the following table and steps to start with to become familiar with the vulnerability data that is available and what you can do with it. The following steps show you how to request current vulnerability data, create a watch topic based on the returned results, and determine the overall impact a vulnerability might have on your environment.
 

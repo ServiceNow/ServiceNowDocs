@@ -28,11 +28,11 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to .
+1.  Navigate to [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/tb-create-theme.md).
 
     Follow the instructions to create your theme.
 
-2.  Navigate to .
+2.  Navigate to [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/tb-apply-theme.md).
 
     Follow the instructions to publish your theme.
 

@@ -20,8 +20,8 @@ Set up Google to start with reservation synchronization with the Workplace Reser
 
 Ensure the following:
 
-1.  Install Google Calendar Spoke.
-2.  Set up Google Calendar spoke
+1.  Install [Google Calendar Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/gcal-spoke.md).
+2.  [Set up Google Calendar spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-gcal.md)
 
 Role required: Google Admin
 

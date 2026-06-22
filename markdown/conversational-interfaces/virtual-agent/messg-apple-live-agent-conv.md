@@ -22,7 +22,7 @@ Configure the Advanced Work Assignment application to transfer a Apple Messages 
 Your administrator must have completed the following tasks:
 
 -   [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-activate.md).
--   Set the application scope to Conversational Integration with Apple Messages for Business using the application picker. For more information, see Application picker.
+-   Set the application scope to Conversational Integration with Apple Messages for Business using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 -   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.md).
 
 Role required: admin

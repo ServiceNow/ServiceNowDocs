@@ -39,15 +39,15 @@ If you want to remove a topic from your Virtual Agent clients but don't want to 
 
 2.  Use one of the following methods based on either a record on the home page or the header inside a topic.
 
-<table id="choicetable_brb_vgj_jcc"><thead><tr><th align="left" id="d112937e152">
+<table id="choicetable_brb_vgj_jcc"><thead><tr><th align="left" id="d135266e152">
 
 Method
 
-</th><th align="left" id="d112937e155">
+</th><th align="left" id="d135266e155">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d112937e161">
+</th></tr></thead><tbody><tr><td id="d135266e161">
 
 **Asset library - single topic**
 
@@ -55,7 +55,7 @@ Description
 
 Select the show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: Show actions for this row icon. on the row for the topic that you want to delete, then select **Delete**.
 
-</td></tr><tr><td id="d112937e181">
+</td></tr><tr><td id="d135266e181">
 
 **Asset library - multiple topics**
 
@@ -65,7 +65,7 @@ Select the show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt
 2.  Select **Delete**.
  **Note:** If one or more of the selected assets are subflows or actions, the delete option is disabled.
 
-</td></tr><tr><td id="d112937e207">
+</td></tr><tr><td id="d135266e207">
 
 **Topic header bar**
 

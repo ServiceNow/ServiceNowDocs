@@ -41,7 +41,7 @@ You can enable or turn off Usage Insights for specific Core UI, Next Experience,
 
 Role required: analytics\_admin, mobile\_analytics\_admin, web\_analytics\_admin, or portal\_analytics\_admin
 
-**Note:** These instructions are for Core UI, Next Experience, and mobile applications only. For instructions on enabling analytics tracking for portal applications, see .
+**Note:** These instructions are for Core UI, Next Experience, and mobile applications only. For instructions on enabling analytics tracking for portal applications, see [Track Usage Insights in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/create-sp-analytics-settings.md).
 
 ### Procedure
 

@@ -52,7 +52,7 @@ For more information about the Card Base Container, see the [Components](https:/
 
 ## What to do next
 
-Configure a Work scheduler card heading component
+[Configure a Work scheduler card heading component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-header.md)
 
 **Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-workscheduler-card-wfo-cs.md)
 

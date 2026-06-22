@@ -86,7 +86,7 @@ This remediation enforces a combination of authentication methods, in the form o
 -   It restricts any guest users who are currently accessing this data.
 -   Create an account for a user who needs access to this content, with the necessary access control permissions.
 
- To learn more, see JSONv2 Web Service JSONv2 Web Service.
+ To learn more, see [JSONv2 Web Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_JSONv2WebService.md) [JSONv2 Web Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_JSONv2WebService.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ References
 
 </td><td>
 
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_Authentication.md) Requiring basic authentication for incoming JSONv2 requests
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_Authentication.md) [Requiring basic authentication for incoming JSONv2 requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_ReqBasicAuthIncomJSONv2Requ.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)

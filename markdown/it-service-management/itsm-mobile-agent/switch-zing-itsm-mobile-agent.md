@@ -20,7 +20,7 @@ If AI search is already enabled in ITSM Mobile Agent, enable Zing search configu
 
 Role required: admin
 
-For information about Zing search in mobile, see Global search for mobile.
+For information about Zing search in mobile, see [Global search for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-search-config.md).
 
 ## Procedure
 

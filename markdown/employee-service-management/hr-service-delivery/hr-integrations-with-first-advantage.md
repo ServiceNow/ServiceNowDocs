@@ -16,7 +16,7 @@ breadcrumb: [HR Integrations, Integrate with third-party systems, HR Service Del
 
 The preconfigured First Advantage integration uses SOAP services to request background checks through the First Advantage service. You can use the preconfigured integration as-is or customize it to meet your needs.
 
-**Important:** Integrating with the First Advantage service is being prepared for deprecation. It will be hidden and unavailable for activation from Zurich, but will continue to be supported till Brazil. If you have an active subscription, you can still activate the plugin by submitting a plugin activation request. For more details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** Integrating with the First Advantage service is being prepared for deprecation. It will be hidden and unavailable for activation from Zurich, but will continue to be supported till Brazil. If you have an active subscription, you can still activate the plugin by submitting a [plugin activation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_RequestAPlugin.md). For more details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## First Advantage integration overview
 

@@ -49,11 +49,11 @@ Incident field prediction
 
 </td><td>
 
-Task Intelligence for ITSM
+[Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 </td><td>
 
-Create an incident field prediction model
+[Create an incident field prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md)
 
 </td></tr><tr><td>
 
@@ -61,11 +61,11 @@ Similarity model management
 
 </td><td>
 
-Task Intelligence for ITSM
+[Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 </td><td>
 
-
+[Create a similar records prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/create-a-similar-records-model-in-task-intelligence-for-itsm.md)
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ Training a machine learning model is when the model learns patterns in past data
 
 The Task Intelligence Admin Console provides admins with a no-code experience for deploying Task Intelligence solutions. The seamless experience helps you automate and optimize task creation, deflection, triaging, and resolution.
 
-Features are implemented by two applications:  and Task Intelligence for ITSM.
+Features are implemented by two applications:  and [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md).
 
 |Benefit|Feature|Users|
 |-------|-------|-----|

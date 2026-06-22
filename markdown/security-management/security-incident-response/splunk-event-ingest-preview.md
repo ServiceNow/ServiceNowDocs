@@ -56,15 +56,15 @@ Preview a security incident and edit the mapping again as required to fix fields
 
 7.  After you have fixed any errors and verified that the fields are the way you want them, choose one option to continue.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d254143e213">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d254174e213">
 
 Option
 
-</th><th align="left" id="d254143e216">
+</th><th align="left" id="d254174e216">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d254143e222">
+</th></tr></thead><tbody><tr><td id="d254174e222">
 
 **Continue**
 
@@ -72,7 +72,7 @@ Description
 
 The Scheduling form is displayed for profiles with scheduled alerts. **Scheduling** is selected on the progress bar.
 
-</td></tr><tr><td id="d254143e236">
+</td></tr><tr><td id="d254174e236">
 
 **Finish**
 
@@ -80,7 +80,7 @@ The Scheduling form is displayed for profiles with scheduled alerts. **Schedulin
 
 For profiles with configured for manual event forwarding, click **Finish**. There is no scheduling step for profiles with event data that are exported on-demand directly from the Splunk Enterprise console.
 
-</td></tr><tr><td id="d254143e251">
+</td></tr><tr><td id="d254174e251">
 
 **Update**
 
@@ -88,7 +88,7 @@ For profiles with configured for manual event forwarding, click **Finish**. Ther
 
 Your data is saved, and you are returned to the Splunk Event Profiles list.
 
-</td></tr><tr><td id="d254143e263">
+</td></tr><tr><td id="d254174e263">
 
 **Previous**
 
@@ -96,7 +96,7 @@ Your data is saved, and you are returned to the Splunk Event Profiles list.
 
 The Mapping step on the progress bar is displayed.
 
-</td></tr><tr><td id="d254143e273">
+</td></tr><tr><td id="d254174e273">
 
 **Delete**
 

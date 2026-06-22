@@ -30,11 +30,11 @@ The overall process to integrate Employee Center with your Microsoft Teams tenan
 
 1.  Activate the IT Service Management integration with Microsoft Teams plugin \(sn\_now\_teams\_it\) and Glide Virtual Agent plugin \(com.glide.cs.chatbot\).
 
-    **Note:** For more information on activating plugins, see .
+    **Note:** For more information on activating plugins, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
 
 2.  [Create Microsoft Azure application and authenticate users to access Employee Center in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/authenticate-users-your-hub-ms-teams.md).
-3.  .
-4.  .
+3.  [Create a bot in Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/create-msteams-bot-gcch.md).
+4.  [Integrate your self-configured bot with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/link-msteams-bot-snow.md).
 5.  [Update your Microsoft Teams tenant URL for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/gcch-response-header.md).
 6.  [Modify and download the manifest file for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/modify-download-manifest-file.md).
 7.  [Upload manifest file in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams.md).

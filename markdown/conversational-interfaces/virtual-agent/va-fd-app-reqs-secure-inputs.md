@@ -21,7 +21,7 @@ You can add secure inputs to Virtual Agent topics in two ways:
 -   [Create a secure custom input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md) that uses a Workflow Studio action or subflow with secure \(password2 type\) inputs.
 -   Add an [Action utility node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-action.md) to a topic that refers to a Workflow Studio action or subflow that has a single password2 field as an input.
 
-The Key Management Framework \(KMF\) must be installed and configured for your instance. The scoped application that uses the secure fields must also have the following:
+The [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/platform-encryption/understanding-kmf.md) \(KMF\) must be installed and configured for your instance. The scoped application that uses the secure fields must also have the following:
 
 -   A **sys\_kmf\_crypto\_module** record, with a related Symmetric Key Wrapping/Unwrapping **sys\_kmf\_module\_crypto\_spec** record
 -   A **sys\_kmf\_crypto\_caller\_policy** record with the following properties:
@@ -33,7 +33,7 @@ The Key Management Framework \(KMF\) must be installed and configured for your i
     -   Active: **true**
     -   Result: **Track**
 -   A Workflow Studio action or subflow that accepts one or more password2 input fields
--   A Script step in the Workflow Studio action that unwraps the password2/KMF passwords as follows:
+-   A [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md) in the Workflow Studio action that unwraps the password2/KMF passwords as follows:
 
     ```
     var op = new 
@@ -44,7 +44,7 @@ The Key Management Framework \(KMF\) must be installed and configured for your i
     ```
 
 
-For more information about password2 encryption with KMF, see Password2 encryption with KMF.
+For more information about password2 encryption with KMF, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md).
 
 **Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
 

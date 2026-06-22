@@ -8,7 +8,7 @@ product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
 last_updated: "2025-10-19"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [configure]
 breadcrumb: [Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -21,11 +21,11 @@ If you have the admin role, you can configure Now Assist for IRM so that your ag
 
 **Important:** After installing Now Assist for IRM, all Now Assist for IRM skills and agentic workflows are activated by default.
 
-Use the Now Assist Admin console to configure Now Assist for IRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for IRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
-For earlier versions, go to  to upgrade it to a later version.
+For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/application-manager.md) to upgrade it to a later version.
 
-For information about configuring generative AI skills and prompts, see .
+For information about configuring generative AI skills and prompts, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/capabilities-bundle-landingpage.md).
 
 ## Now Assist for IRM plugins
 
@@ -35,7 +35,7 @@ This store app has the following dependencies:
 
 -   Now Assist Platform
 
-    Integrates generative AI into ServiceNow workflows, enabling intelligent assistance through summarization, content creation, conversational AI, and agentic workflows for IT, HR, and compliance processes. For more information, see Now Assist Platform.
+    Integrates generative AI into ServiceNow workflows, enabling intelligent assistance through summarization, content creation, conversational AI, and agentic workflows for IT, HR, and compliance processes. For more information, see [Now Assist Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 
 -   GRC Common Generative AI
 
@@ -54,7 +54,7 @@ This store app has the following dependencies:
     Provides actionable, AI-powered insights seamlessly within the user interface. The framework offers rich contextual details about recommendations to enable users to make informed decisions and take necessary follow-up actions effortlessly. Admin users can set up contexts for recommendations, and compliance users can review the recommendations for implementation. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendation-contexts.md).
 
 
-For information about the installation process, see .
+For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
-**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see  and .
+**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/indexed-sources-ais.md) and [User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/user-data-usage-policy-now-assist.md).
 

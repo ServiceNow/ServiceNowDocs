@@ -85,7 +85,7 @@ Functional impact
 This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control.-   It performs this authentication while importing data sources into the instance tables/pages.
 -   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
 
- To learn more, see Retrieving data from a CSV formatted file.
+ To learn more, see [Retrieving data from a CSV formatted file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_RetrieveDataFromACSVFormatFile.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ References
 
 </td><td>
 
-SOAP web services security SOAP web service
+[SOAP web services security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_SOAPWebService.md) [SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_SOAPWebService.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)

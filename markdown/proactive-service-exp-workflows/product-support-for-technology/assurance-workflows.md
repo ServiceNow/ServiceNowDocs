@@ -54,8 +54,8 @@ Proactive Service Experience Workflow overview
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the .
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see .
+-   Learn more about what's new and changed, see the [Proactive Service Experience Workflows release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/proactive-service-experience-worflows-rn.md).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/telecommunications-media-and-technology-core/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Proactive Service Experience Workflows features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/industries/telecom.html).

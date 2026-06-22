@@ -46,8 +46,8 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
     Worknotes are displayed if you have configured:
 
-    -   The Microsoft Dynamics CRM update mechanism \(so that Microsoft Dynamics CRM can access the Microsoft Dynamics spoke webhook\) when the configured event occurs in the task table. See Set up Microsoft Dynamics CRM spoke for details.
-    -   Microsoft Dynamics CRM spoke \(see \).
+    -   The Microsoft Dynamics CRM update mechanism \(so that Microsoft Dynamics CRM can access the Microsoft Dynamics spoke webhook\) when the configured event occurs in the task table. See [Set up Microsoft Dynamics CRM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-ms-dynamics-crm.md) for details.
+    -   Microsoft Dynamics CRM spoke \(see [Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/microsoft-dynamics-crm-spoke.md)\).
         -   Decision table as per the requirement
         -   Webhook \(Dynamics Webhook Callbacks\)
     -   Customer Success Management application has been configured for Microsoft Dynamics CRM integration. See [Enable integration with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/customer-success-management/account-lifecycle-crm-integration.md) for details.

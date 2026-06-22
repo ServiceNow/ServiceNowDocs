@@ -589,7 +589,7 @@ Summed duration of closed changes for an application for the given fiscal period
     -   Populate Business Application related list for incidents \(com.snc.incident.populate\_business\_application\)
     -   Populate the Business Application related list for change requests \(com.snc.change\_request.populate\_business\_application\)
 -   To show up the **Impacted Business Applications** &gt; **Related List** &gt; **Additional actions** &gt; **Configure** &gt; **Related Lists** &gt; **Impacted Business Applications** &gt; **Available** &gt; **Selected** &gt; **Save**.
--   To see the impacted business applications for the **Number of Incidents via Service** and **Number of Changes via Service** indicators, you must refresh the **Impacted Services and CIs** related list for that record. For instructions, see  and .
+-   To see the impacted business applications for the **Number of Incidents via Service** and **Number of Changes via Service** indicators, you must refresh the **Impacted Services and CIs** related list for that record. For instructions, see [Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/change-management/refresh-impacted-services-cis.md) and [Refresh impacted services and CIs for incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/incident-management/refresh-impacted-cis.md).
 
 -   **[Performance Analytic indicators to measure application performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/pa-indicators-jobs.md)**  
 Use performance analytic \(PA\) indicators to know the count of incidents, problems, and changes logged against a business application and use this insight to improve the performance of your applications.
@@ -599,7 +599,7 @@ Use performance analytic \(PA\) indicators to know the count of incidents, probl
 **Related topics**  
 
 
-[bundle-platcap.r_Assessments]
+[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/r_Assessments.md)
 
-[bundle-platcap.r_SurveyManagementLandingPage]
+[Get started with Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/r_SurveyManagementLandingPage.md)
 

@@ -20,7 +20,7 @@ As an administrator, you can review the installed components and modify them or 
 
 -   Approver group for managing Gifts and Entertainment Compliance requests
 -   Gift policies for Gifts and Entertainment Compliance.
--   Notifications to inform different stakeholders at different stages of a gift and entertainment disclosure requests.
+-   [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md) to inform different stakeholders at different stages of a gift and entertainment disclosure requests.
 
 -   **[Install Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-install-ge.md)**  
 You can install the Gifts and Entertainment Compliance application \(sn\_lg\_gifts\) if you have the admin role.

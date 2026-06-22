@@ -16,7 +16,7 @@ breadcrumb: [Account onboarding, Configure, Customer Success Management]
 
 Use Playbooks in Workflow Studio to configure the account onboarding playbook activities.
 
-In Playbooks, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process. A stage is made up of many sequenced activities that are grouped in a logical way. You can add or create your own activity definitions, or delete an activity that is not required. For more details, see .
+In Playbooks, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process. A stage is made up of many sequenced activities that are grouped in a logical way. You can add or create your own activity definitions, or delete an activity that is not required. For more details, see [Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-process-automation-designer.md).
 
 \[Omitted image "account-lifecycle-pad.png"\] Alt text: Process Automation Designer: Account lifecycle onboarding
 

@@ -38,7 +38,7 @@ Role required: none
 
     -   ServiceNow Agent mobile app for conducting inspection and audit surveys offline.
 
-        For more information on using this mobile app, see  app.
+        For more information on using this mobile app, see [Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-experience.md) app.
 
 2.  Open the Now Mobile appor Mobile Agent app and tap the plus icon \(**+**\).
 

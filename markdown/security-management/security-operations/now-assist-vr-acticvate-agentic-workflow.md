@@ -18,11 +18,11 @@ You can configure agentic workflows from the AI Agent Studio, but you must dupli
 
 ## Before you begin
 
-To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See  for more information.
+To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See [Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/secops-sem-rn.md) for more information.
 
-Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
-The Now Assist panel must be activated. See  for more information.
+The Now Assist panel must be activated. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md) for more information.
 
 Role required: aia-admin
 
@@ -38,7 +38,7 @@ Role required: aia-admin
 
     **Note:**
 
-    If you want to modify an agentic workflow, you must duplicate it, adjust the settings to suit your specific needs, and then activate the duplicate.
+    If you want to modify an agentic workflow, you must [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md) it, adjust the settings to suit your specific needs, and then activate the duplicate.
 
     The Guided setup is displayed. The pages are read-only.
 
@@ -48,7 +48,7 @@ Role required: aia-admin
 
     All the information will be copied except any UI actions, and any triggers will be inactive. Change the new workflow’s description to clearly differentiate this workflow for the LLM.
 
-    **Important:** This AI agentic workflow uses the Knowledge Graph to connect vulnerability data for its responses. You cannot modify the default Knowledge Graph that is used for this agentic workflow, but you can duplicate it and make changes to create a customized Knowledge Graph. See  for more information.
+    **Important:** This AI agentic workflow uses the Knowledge Graph to connect vulnerability data for its responses. You cannot modify the default Knowledge Graph that is used for this agentic workflow, but you can duplicate it and make changes to create a customized Knowledge Graph. See [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.md) for more information.
 
     After you create your customized Knowledge Graph, you must modify the sn\_vul\_ai.retrieve\_vr\_data\_knowledge\_graph\_schema system property so it points to your new Knowledge Graph.
 

@@ -20,7 +20,7 @@ Use the **Delete** button to delete records in the Mobile App Builder. This butt
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see .
+For more information about the delegated developer role, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## Procedure
 

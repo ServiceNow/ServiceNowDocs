@@ -121,7 +121,7 @@ When you create a policy, a draft policy version is created, and must be publish
 -   Save the policy as a template
 -   Compare versions
 -   Duplicate policy versions
-For more details, see .**Note:** You must publish a policy version to make it current before it can be used.
+For more details, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.md).**Note:** You must publish a policy version to make it current before it can be used.
 
 </td></tr><tr><td>
 

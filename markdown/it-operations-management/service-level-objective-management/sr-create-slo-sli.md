@@ -46,15 +46,15 @@ Each SLI can be associated with only one SLO, helping prevent conflicting perfor
 
 4.  In the Service Level Indicators \(SLI\) form, select the data source for your SLI.
 
-<table id="choicetable_bsn_r5m_dhc"><thead><tr><th align="left" id="d67187e182">
+<table id="choicetable_bsn_r5m_dhc"><thead><tr><th align="left" id="d65034e182">
 
 Data source
 
-</th><th align="left" id="d67187e185">
+</th><th align="left" id="d65034e185">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d67187e191">
+</th></tr></thead><tbody><tr><td id="d65034e191">
 
 **Alerts**
 
@@ -62,7 +62,7 @@ Description
 
 Base the SLI on alerts from integrated monitoring tools.Use alerts when you want your SLI to include early warning signs and a broader view of reliability.
 
-</td></tr><tr><td id="d67187e202">
+</td></tr><tr><td id="d65034e202">
 
 **Outages**
 

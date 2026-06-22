@@ -18,7 +18,7 @@ Create a custom embedding model in the Generative AI Model Configuration \[sys\_
 
 ## Before you begin
 
-You must create a connection and credential alias for your embedding model. For more information, see 
+You must create a connection and credential alias for your embedding model. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md)
 
 Role required: admin
 

@@ -1136,7 +1136,7 @@ Provides users the access to view reports on the Service Applicant Information p
  
 
 </td></tr></tbody>
-</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under Business Stakeholder for Customer Service Management.
+</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/business-stakeholder-for-csm.md).
 
 ## Roles by Application
 

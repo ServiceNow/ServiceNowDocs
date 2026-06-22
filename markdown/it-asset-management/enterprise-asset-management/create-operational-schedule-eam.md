@@ -58,7 +58,7 @@ Parent
 
 </td><td>
 
-Parent schedule that constraints the new schedule.For more details, see .
+Parent schedule that constraints the new schedule.For more details, see [Parent and child schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/c_ParentAndChildSchedules.md).
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Description of the operational schedule.
 
     3.  On the Schedule Entry New record, fill in the fields.
 
-        For details on Schedule Entry New record fields, see .
+        For details on Schedule Entry New record fields, see [Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md).
 
     4.  Select **Submit**.
 

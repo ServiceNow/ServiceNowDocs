@@ -33,7 +33,7 @@ To use the Employee Center with HR Service Delivery:
 
     -   [Unified taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-taxonomy.md)
     -   [Associate connected content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/associate-content-to-topics.md)
-    -   Associate a knowledge article with a taxonomy category
+    -   [Associate a knowledge article with a taxonomy category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/associate-knowledge-article-with-taxonomy-topic.md)
 
 ## Employee Center widgets
 
@@ -41,10 +41,10 @@ The following are optional widgets that can be configured:
 
 -   Start Date widget: This widget only appears to new hires prior to their start date for onboarding cases only. When using the base system layout, place the widget on the Employee Center home page, in the right-hand pane above the My Items widget. For more information on Lifecycle Events and onboarding and configuring the widget, see
     -   [Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-journey-management/enterprise-onboarding-transitions-landing-page.md)
-    -   Service Portal widgets
+    -   [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
 -   Parental Leave Guide: Provides a link to the Parental Leave Guide portal page. For more information, see
     -   [Now Assist Virtual Agent topics for Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jd-va-topic.md)
-    -   Service Portal widgets
+    -   [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
 
 **Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 

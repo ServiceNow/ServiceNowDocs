@@ -30,15 +30,15 @@ To map automatically the fields, select **Map fields automatically** related lin
 
 2.  Open the configuration for which you want to map the fields.
 
-<table id="choicetable_mmq_lyn_mtb"><thead><tr><th align="left" id="d159379e80">
+<table id="choicetable_mmq_lyn_mtb"><thead><tr><th align="left" id="d159113e80">
 
 Mapping type
 
-</th><th align="left" id="d159379e83">
+</th><th align="left" id="d159113e83">
 
 Description and action
 
-</th></tr></thead><tbody><tr><td id="d159379e89">
+</th></tr></thead><tbody><tr><td id="d159113e89">
 
 **Direct transfer mappings**
 
@@ -52,7 +52,7 @@ Map the fields to create service level tickets when a ticket is transferred from
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d159379e130">
+</td></tr><tr><td id="d159113e130">
 
 **Associated ticket mappings**
 
@@ -66,7 +66,7 @@ Map the fields to create an associated ticket for universal request.On the **Ass
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d159379e171">
+</td></tr><tr><td id="d159113e171">
 
 **Create UR mappings**
 

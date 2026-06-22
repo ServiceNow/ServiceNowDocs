@@ -567,5 +567,5 @@ Script to customize the mappings.
 |sn\_l2c\_core\_viewer|Read access to all Lead to Cash Core tables|
 |sn\_l2c\_core.entity\_mapping\_viewer|View access to Lead to Cash Core entity mapping|
 
-**Note:** Add a user with the sn\_l2c\_core.admin role, who is responsible for configuring metadata for all Lead-to-Cash tables, as a Delegated Developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see .
+**Note:** Add a user with the sn\_l2c\_core.admin role, who is responsible for configuring metadata for all Lead-to-Cash tables, as a Delegated Developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 

@@ -37,7 +37,7 @@ Area, regional, or store managers can be given any type of responsibility.
 
 You can add, remove, or change the responsibilities associated with your users. ServiceNow recommends that you create a new related party configuration instead of modifying existing configurations.
 
-For more information, see the Service Organizations responsibilities table in .
+For more information, see the Service Organizations responsibilities table in [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/adding-related-party-config-to-case.md).
 
 ## Procedure
 

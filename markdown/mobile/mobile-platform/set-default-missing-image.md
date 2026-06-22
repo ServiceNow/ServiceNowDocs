@@ -26,7 +26,7 @@ You configure placeholder images by creating properties on the System Properties
 
 ## Procedure
 
-1.  Upload an image to your instance to use as a placeholder. For details on uploading images, see Storing images in the database
+1.  Upload an image to your instance to use as a placeholder. For details on uploading images, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_StoringImagesInTheDatabase.md)
 
 2.  To open the system properties list, type `sys_properties.list` in the Application Navigator.
 

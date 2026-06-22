@@ -37,7 +37,7 @@ The Antivirus Protection plugin \(com.glide.snap\) is activated and enabled by d
 
 ## Email scanning
 
-Inbound emails are scanned for viruses by the system email filters, not by Antivirus Scanning.
+Inbound emails are scanned for viruses by the system [email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailFilters.md), not by Antivirus Scanning.
 
 ## File Attachment field in a table
 

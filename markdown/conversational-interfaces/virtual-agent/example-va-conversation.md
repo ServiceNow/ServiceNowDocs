@@ -22,13 +22,13 @@ For an overview of the Asset Refresh workflow from the user perspective, watch t
 
 Virtual Agent comes with a basic configuration that includes common greetings, NLU intents, reusable logic, and pre-built conversations. Using these building blocks, you can quickly put together workflows to handle some of the most common organizational needs, including the following:
 
--   Resetting a password
--   IT Self-Service
--   IT troubleshooting
--   HR queries and employee profile updates
--   Customer Service queries and requests
+-   [Resetting a password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-virtual-agent/itsm-password-management.md)
+-   [IT Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-virtual-agent/itsm-va-self-service-topics.md)
+-   [IT troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-virtual-agent/itsm-va-it-issues-generic.md)
+-   [HR queries and employee profile updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md)
+-   [Customer Service queries and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-virtual-agent-chatbot.md)
 
-To help you understand the possibilities, the Asset Refresh example uses pre-built topic blocks that are included in the ITSM Virtual Agent Conversations plugin. These topic blocks do most of the "heavy lifting" in the topic.
+To help you understand the possibilities, the Asset Refresh example uses pre-built topic blocks that are included in the [ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md) plugin. These topic blocks do most of the "heavy lifting" in the topic.
 
 ## Asset Refresh workflow
 

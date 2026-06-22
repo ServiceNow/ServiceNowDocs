@@ -41,7 +41,7 @@ If you don't plan to activate the HR Service Delivery with Ultimate Kronos Group
         -   **Look up Employee Schedule**: To get the shift schedule data.
         -   **Get Employee Accruals by Person Number**: To get the time off balance data.
 
-            For more information on creating requests, see .
+            For more information on creating requests, see [Create request as manager using the catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/kronos-serv-cat.md).
 
 
 -   **[Receive employee data from UKG to the Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/user-map-kronos-kiosk.md)**  

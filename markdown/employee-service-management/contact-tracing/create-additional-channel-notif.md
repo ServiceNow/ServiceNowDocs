@@ -55,7 +55,7 @@ For example, if your company's IT network group has a Slack channel that they mo
                 }
         ```
 
-        For information about JavaScript APIs for GlideRecord, see GlideRecord - Scoped.
+        For information about JavaScript APIs for GlideRecord, see [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
     3.  Click **Submit**.
 
@@ -86,7 +86,7 @@ For example, if your company's IT network group has a Slack channel that they mo
 
     1.  Create a subflow to use in the notification.
 
-        For information about creating, publishing, and testing subflows, see Subflows.
+        For information about creating, publishing, and testing subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/subflows.md).
 
         Use the following inputs in the subflow that you create:
 

@@ -186,7 +186,7 @@ Capabilities
 
 </td><td>
 
-Capabilities that the MID Server must support to be eligible for selection. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see MID Server selection.
+Capabilities that the MID Server must support to be eligible for selection. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
 </td></tr><tr><td>
 
@@ -194,7 +194,7 @@ MID Application
 
 </td><td>
 
-Application that the MID Server must support to be eligible for selection. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see MID Server selection.
+Application that the MID Server must support to be eligible for selection. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
 </td></tr></tbody>
 </table>

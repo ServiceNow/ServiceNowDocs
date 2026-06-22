@@ -20,7 +20,7 @@ Import a file from a local source, a remote network server, or another instance 
 
 -   Understand the data import workflows and FTP functionality.
 -   Ensure that you install and configure an FTP client.
--   Ensure that you install and configure MID Server in your ServiceNow instance to connect to the ERP server. See Installing the MID Server for details.
+-   Ensure that you install and configure MID Server in your ServiceNow instance to connect to the ERP server. See [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-installation.md) for details.
 
     **Note:** The MID Server integration is required only for an ERP integration using SOAP services.
 
@@ -57,7 +57,7 @@ Role required: import\_admin or admin
 
 ## What to do next
 
--   Manage the data integration by scheduled import and export jobs on a daily, weekly, or monthly basis. Perform the **Scheduled Imports** based on your business needs. See Schedule a data import.
+-   Manage the data integration by scheduled import and export jobs on a daily, weekly, or monthly basis. Perform the **Scheduled Imports** based on your business needs. See [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
 -   Verify the accuracy of the data import and share the errors on the FTP server. The reseller can fix the posted errors using [Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md).
 
 -   **[Run scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/run-scheduled-imports.md)**  

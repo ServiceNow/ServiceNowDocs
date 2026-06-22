@@ -22,7 +22,7 @@ All widgets under the following sections are available only if the you have the 
 -   Number of deployed automations under Active automations
 -   Future automations
 
-To access all other widgets in the Active automations section, you must associate a domain configuration with a data collection job. For more information see https://www.servicenow.com/docs/bundle/zurich-now-intelligence/page/use/performance-analytics/task/associate-domain-config-dc-job.html.
+To access all other widgets in the Active automations section, you must associate a domain configuration with a data collection job. For more information see [https://www.servicenow.com/docs/bundle/zurich-now-intelligence/page/use/performance-analytics/task/associate-domain-config-dc-job.html](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/associate-domain-config-dc-job.md).
 
 You can access the Value dashboard in either of two ways:
 

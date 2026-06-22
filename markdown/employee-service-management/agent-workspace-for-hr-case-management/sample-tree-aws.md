@@ -30,6 +30,6 @@ Role required: sn\_hr\_core.admin
     -   **Pay issue guided decision**
 3.  Select **Open in Builder** to view the tree in **Decision Tree Builder**.
 
-    For more information, see .
+    For more information, see [Configuring decision trees in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/decision-trees-in-gdb.md).
 
 

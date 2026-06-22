@@ -33,7 +33,7 @@ If **glide.db.loguser** is not set to the recommended value of false, then sensi
 |Functional impact|This remediation disables rendering of SQL error messages. There is no impact to any functionality.|
 |Security risk|\(Medium\) No sensitive SQL information that could help an attacker should appear as a part of error message on a web page.|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 

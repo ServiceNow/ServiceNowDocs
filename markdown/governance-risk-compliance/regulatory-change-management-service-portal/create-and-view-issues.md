@@ -45,5 +45,5 @@ You can view the issues related to the Regulatory tasks in the respective module
 
 ## What to do next
 
-For information about how to enable or disable menu items, see Enable/disable application menu.
+For information about how to enable or disable menu items, see [Enable/disable application menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_EnDisableAppMenuOrMod.md).
 

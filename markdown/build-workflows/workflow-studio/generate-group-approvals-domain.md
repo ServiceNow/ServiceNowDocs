@@ -22,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-By default, Workflow Studio generates approvals for all group members who can access the parent request regardless of domain visibility. This configuration allows requests from members of a child domain to generate approvals for members of a parent domain who are not otherwise visible from lower in the domain hierarchy. You can use this procedure to restrict the generation of approvals to only those group members who are visible from the domain of the parent request. For information about domain hierarchies, see Understanding domain separation. For more information about visibility and contains domains, see Visibility domains and contains domains.
+By default, Workflow Studio generates approvals for all group members who can access the parent request regardless of domain visibility. This configuration allows requests from members of a child domain to generate approvals for members of a parent domain who are not otherwise visible from lower in the domain hierarchy. You can use this procedure to restrict the generation of approvals to only those group members who are visible from the domain of the parent request. For information about domain hierarchies, see [Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_DomainSeparation.md). For more information about visibility and contains domains, see [Visibility domains and contains domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_DomainVisibility.md).
 
 ## Procedure
 
-1.  Add a system property.
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 2.  For the system property name, enter `com.glide.hub.flow.approval.group_member.use_query_no_domain`.
 
@@ -34,7 +34,7 @@ By default, Workflow Studio generates approvals for all group members who can ac
 
 4.  For the system property value, enter one of these values.
 
-<table id="choicetable_j55_c14_t4b"><tbody><tr><td id="d47878e98">
+<table id="choicetable_j55_c14_t4b"><tbody><tr><td id="d46669e98">
 
 **true**
 
@@ -42,7 +42,7 @@ By default, Workflow Studio generates approvals for all group members who can ac
 
 Generate approvals for all members of the group who have access to the domain of the parent request. Select this option to exclude domain visibility from the approval generation query. For example, generate approvals for users who belong to domains higher in the domain hierarchy. This is the default value.
 
-</td></tr><tr><td id="d47878e107">
+</td></tr><tr><td id="d46669e107">
 
 **false**
 

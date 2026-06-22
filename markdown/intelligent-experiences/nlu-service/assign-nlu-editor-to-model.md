@@ -19,7 +19,7 @@ Assign an editor to review your Natural Language Understanding \(NLU\) model tra
 ## Before you begin
 
 -   Create a model, or use an existing one. For translation review, create both primary and secondary \(translated\) models. For more information on multilingual model groups, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/nlu-service/multilingual-model-managent.md).
--   Assign the nlu\_editor role to users. See Assign a role to a user.
+-   Assign the nlu\_editor role to users. See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 -   Role required: nlu\_admin. The nlu\_editor can't assign another editor to models.
 
 ## About this task

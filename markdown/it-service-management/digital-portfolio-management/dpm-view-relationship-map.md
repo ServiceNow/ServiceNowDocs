@@ -24,7 +24,7 @@ The Unified Map displays with the selected solution at the top, indicating it's 
 
 ## Navigate a relationship map
 
-For details on the Unified Map panels and navigation, see .
+For details on the Unified Map panels and navigation, see [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/unified-map/cmdb-workspace-unified-map.md).
 
 On the map page, use the panels for more information about the mapped solutions.
 

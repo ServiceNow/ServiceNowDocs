@@ -16,7 +16,7 @@ breadcrumb: [Reference, Care Team Operations for Biomed, Healthcare Operations, 
 
 Several types of components such as tables, user roles, and business rules are installed when you install the Care Team Operations for Biomed plugin.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see .
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## Tables installed with Care Team Operations for Biomed
 

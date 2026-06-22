@@ -24,7 +24,7 @@ Role required: admin \(history list or calendar\), itil \(calendar only\)
 
 1.  Complete one of the following actions for the history to view.
 
-<table id="choicetable_hhm_zwm_wcb"><tbody><tr><td id="d350599e71">
+<table id="choicetable_hhm_zwm_wcb"><tbody><tr><td id="d349145e71">
 
 **View history for your requested items**
 
@@ -32,7 +32,7 @@ Role required: admin \(history list or calendar\), itil \(calendar only\)
 
 Navigate to **Self-Service** &gt; **Requested Items** and open the item you requested.
 
-</td></tr><tr><td id="d350599e89">
+</td></tr><tr><td id="d349145e89">
 
 **View history for any requested item**
 

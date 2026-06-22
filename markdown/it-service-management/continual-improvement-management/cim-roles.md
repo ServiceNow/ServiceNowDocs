@@ -104,7 +104,7 @@ Can perform all application functions and is responsible for all improvements.- 
 -   sn\_process\_optimization\_viewer
 
 </td></tr></tbody>
-</table>For information about assigning user roles, see .
+</table>For information about assigning user roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 ## Automatic assignment of the Improvement Requester role
 

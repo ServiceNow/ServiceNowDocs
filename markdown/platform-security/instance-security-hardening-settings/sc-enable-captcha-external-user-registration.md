@@ -31,7 +31,7 @@ Set **sn\_ext\_usr\_reg.captchaEnabled** to the recommended value of **true** to
 |Security risk|\(Low\) The property controls CAPTCHA enablement in external user registration. Unideal value may result in security vulnerability.|
 |Security risk rating|3.7|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

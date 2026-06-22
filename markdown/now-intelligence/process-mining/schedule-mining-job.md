@@ -28,7 +28,7 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 
 2.  On the Scheduled Process Mining Job form, populate the applicable fields for the job you want to create, then select **Submit**.
 
-    See descriptions of fields on a scheduled job record.
+    See [descriptions of fields on a scheduled job record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/t_ScheduleTheGenerationOfAnEntity.md).
 
 3.  In the Project Definitions section, select **Edit**.
 

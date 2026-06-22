@@ -33,7 +33,7 @@ To activate Walk-up Experience Badge Reader Integration and for more information
 
 For enhanced security, activate the Explicit Role \(com.glide.explicit\_roles\) plugin. The walk-up user is assigned snc\_external automatically. This plugin was introduced in the ServiceNow AI Platform Paris release.
 
-**Note:** Refer to  for details about the plugin and Explicit Roles for more information about this upgrade process.
+**Note:** Refer to [Explicit roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/explicit-roles-plugin.md) for details about the plugin and [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/explicit-roles.md) for more information about this upgrade process.
 
 ## Procedure
 
@@ -47,7 +47,7 @@ For enhanced security, activate the Explicit Role \(com.glide.explicit\_roles\) 
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 
 **Parent Topic:**[Walk-up Experience administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-administration.md)
@@ -55,5 +55,5 @@ For enhanced security, activate the Explicit Role \(com.glide.explicit\_roles\) 
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 

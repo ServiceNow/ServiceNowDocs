@@ -18,7 +18,7 @@ The predefined Healthcare and Life Sciences Virtual Agent chatbot conversation e
 
 A Virtual Agent conversation topic defines the dialog between the Virtual Agent chatbot and the patient to accomplish a specific goal. The information exchanged during the conversation flow, such as user inputs and virtual agent responses, enables the virtual agent to fulfill a request or help complete a task.
 
-Virtual Agent when integrated with the Healthcare and Life Sciences Service Management Core application, enhances the patient experience by addressing request-related queries immediately. At any time during a virtual conversation, a patient can request to interact with a live agent. For more information, see Virtual Agent.
+Virtual Agent when integrated with the Healthcare and Life Sciences Service Management Core application, enhances the patient experience by addressing request-related queries immediately. At any time during a virtual conversation, a patient can request to interact with a live agent. For more information, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 The Healthcare and Life Sciences Service Management Core application includes the read-only **Check request status** Virtual Agent topic. When the **Check request status** topic is active, patients can search for their requests and check the status of an existing active request. To make a Virtual Agent topic available, as a user with the admin role, you must publish a predefined Virtual Agent topic. For more information, see Publish a Virtual Agent topic.
 

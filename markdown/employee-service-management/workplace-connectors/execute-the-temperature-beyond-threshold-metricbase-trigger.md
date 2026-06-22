@@ -18,7 +18,7 @@ Monitor temperature thresholds using the Temperature Beyond Threshold MetricBase
 
 ## Before you begin
 
-**Note:** The application comes with seed data or pre-filled values for the Temperature Beyond Threshold trigger. For more information about MetricBase triggers, see .
+**Note:** The application comes with seed data or pre-filled values for the Temperature Beyond Threshold trigger. For more information about MetricBase triggers, see [Triggering flows using MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/metricbase/metricbase-triggers.md).
 
 Role required: admin
 

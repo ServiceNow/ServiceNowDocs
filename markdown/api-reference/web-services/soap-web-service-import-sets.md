@@ -29,7 +29,7 @@ For example:
 **Related topics**  
 
 
-[bundle-crint.c_WebServiceImportSets]
+[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
 
-[bundle-crint.c_ImportSetsKeyConcepts]
+[Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md)
 

@@ -98,7 +98,7 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 -   When the system property is set to **false**, synchronization of the CSDM Lifecycle fields is through the legacy State and Substate fields.
 -   When the system property is set to **true**, the CSDM Life Cycle Stage and Status fields are directly synchronized.
 
-**Note:** If you are activating the CSDM \(csdm.lifecycle.migration.activated\) plugin on your ServiceNow instance for the first time, and you have custom States and Substates for the asset or CI, then make sure to configure mapping between the legacy fields and the CSDM Lifecycle fields. For more information, see .
+**Note:** If you are activating the CSDM \(csdm.lifecycle.migration.activated\) plugin on your ServiceNow instance for the first time, and you have custom States and Substates for the asset or CI, then make sure to configure mapping between the legacy fields and the CSDM Lifecycle fields. For more information, see [Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
 \[Omitted image "mmasset0021795-asset-ci-ibi-sync.svg"\] Alt text: Synchronization of status fields
 

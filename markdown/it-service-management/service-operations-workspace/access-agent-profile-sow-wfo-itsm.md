@@ -24,7 +24,7 @@ Role required: sn\_wfo\_cfg\_itsm.employee
 
 Access your profile to analyze information such as:
 
--   Key performance indicators that matter most to you and Performance Analytics targets set for you by your manager. For information on Performance Analytics, see Performance Analytics targets.
+-   Key performance indicators that matter most to you and Performance Analytics targets set for you by your manager. For information on Performance Analytics, see [Performance Analytics targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/pa-targets.md).
 -   Pending training that has been assigned to you and when they're due.
 -   Service channels that you are assigned to and their current utilization.
 -   Skills and skill levels that you currently use and skill gaps that you may want to address.
@@ -38,15 +38,15 @@ Access your profile to analyze information such as:
 
 2.  Click the lists icon \(\[Omitted image "lists\_icon.png"\] Alt text: Lists icon\).
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d172254e126">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d172348e126">
 
 To
 
-</th><th align="left" id="d172254e129">
+</th><th align="left" id="d172348e129">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d172254e135">
+</th></tr></thead><tbody><tr><td id="d172348e135">
 
 **Access your profile from an incident record**
 
@@ -56,7 +56,7 @@ Do this
 2.  In the Assigned column, select your name.
 The profile page appears. In that page, you can access all the information that is related to your profile.
 
-</td></tr><tr><td id="d172254e159">
+</td></tr><tr><td id="d172348e159">
 
 **Create your profile for centralized access**
 
@@ -71,9 +71,9 @@ The profile page appears. In that page, you can access all the information that 
 7.  Click **Create**.
  The workspace adds your profile to the **My Lists** tab.
 
-For information on creating a list, see Create My Lists in Workspace.
+For information on creating a list, see [Create My Lists in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/create-filtered-list-agent-workspace.md).
 
-</td></tr><tr><td id="d172254e233">
+</td></tr><tr><td id="d172348e233">
 
 **Analyze Performance Analytics targets**
 

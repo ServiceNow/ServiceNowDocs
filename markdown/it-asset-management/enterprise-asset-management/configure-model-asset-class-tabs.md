@@ -47,7 +47,7 @@ Role required: sn\_eam.enterprise\_admin
 
     You can also select **New** to create an additional tab configuration for any custom top tier model category that you have added under the enterprise model category. However, ServiceNow strongly recommends that you use only existing top tier model categories, such as Medical or Construction, with custom sub-categories instead. For more information on creating custom model categories, see [Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-custom-model-category.md).
 
-    If you choose to create an additional tab configuration, you must also use UI Builder to manually add the corresponding model and asset tabs to the Enterprise model management view and Enterprise asset estate view. For detailed instructions, see .
+    If you choose to create an additional tab configuration, you must also use UI Builder to manually add the corresponding model and asset tabs to the Enterprise model management view and Enterprise asset estate view. For detailed instructions, see [Add tabbed content to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/tabs-components.md).
 
 4.  On the tab configuration record, modify the fields as needed.
 

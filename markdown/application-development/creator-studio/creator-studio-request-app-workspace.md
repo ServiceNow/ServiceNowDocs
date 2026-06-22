@@ -30,17 +30,17 @@ Each app has its own section in the workspace, with lists to filter for submitte
 
 ## Using lists to find tickets in various states
 
-Each app's section contains lists, such as **Open** requests and any lists the admin or app creator configured. Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out .
+Each app's section contains lists, such as **Open** requests and any lists the admin or app creator configured. Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [Create My Lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/create-filtered-list-agent-workspace.md).
 
 \[Omitted image "crs-form-sub-workspace.png"\] Alt text: All Requests list showing open requests with columns for number, priority, state, assigned to, short description, and task type.
 
-The Lists view contains two tabs: **Default Lists** and **My Lists**. For more information on working with lists, check out .
+The Lists view contains two tabs: **Default Lists** and **My Lists**. For more information on working with lists, check out [Using lists to find work to do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/list-menu.md).
 
 ## Using dashboards to analyze request fulfillment
 
 The Dashboard overview view contains a dashboard for every app \(that you have access to\) that was made in Creator Studio.
 
-You can select an app's dashboard to see analysis of all active tasks, as well as the number of records in various states configured by your admin. For more information on working with analytics dashboards, see 
+You can select an app's dashboard to see analysis of all active tasks, as well as the number of records in various states configured by your admin. For more information on working with analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center-dashboards.md)
 
 ## Working on open requests in the workspace
 
@@ -50,8 +50,8 @@ After you find the subset of requests you need, such as open requests assigned t
 
 The submitted request record has various tabs that help you do your work. For details on using records to fulfill requests, see the following topics:
 
--   
--   
+-   [Working on records in your Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/working-on-requests-in-your-workspace.md)
+-   [Responding to issues in an open record in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/finding-answers.md)
 
 **Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
 

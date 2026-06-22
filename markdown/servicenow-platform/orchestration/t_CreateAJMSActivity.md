@@ -35,7 +35,7 @@ The JMS activity supports third party JMS providers whose JMS client application
 
 ## Procedure
 
-1.  Create or verify your JMS credential .
+1.  Create or verify your [JMS credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r_JMSCredentialsForm.md) .
 
     Your JMS credentials must have permission for the target database and proper configuration for the corresponding JMS connection. Credentials must be set up before you can create a JMS activity.
 
@@ -43,13 +43,13 @@ The JMS activity supports third party JMS providers whose JMS client application
 
     Your JMS connection must be configured with valid JMS credentials set up before you can create a JMS activity.
 
-3.  Create a custom activity.
+3.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/orchestration/create-custom-activities.md).
 
     This action creates a custom activity using a template.
 
 4.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/CreateInputVariables.md), configure the JMS Execution Command.
 
-<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d152387e161">
+<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d150790e161">
 
 **Configure your credential**
 
@@ -57,7 +57,7 @@ The JMS activity supports third party JMS providers whose JMS client application
 
 Fill in the fields necessary for your database connection.
 
-</td></tr><tr><td id="d152387e170">
+</td></tr><tr><td id="d150790e170">
 
 **Connection Factory**
 
@@ -65,7 +65,7 @@ Fill in the fields necessary for your database connection.
 
 Name of the JMS Connection Factory. You should create or verify your JMS connection. This configuration links the name of the Initial Context Factory with the URL of the JMS provider.
 
-</td></tr><tr><td id="d152387e179">
+</td></tr><tr><td id="d150790e179">
 
 **Destination Type**
 
@@ -78,7 +78,7 @@ Type of destination used for this message:-   **Queue**: Message is queued for p
 -   **Topic**: Message is used for publish and subscribe communication.
 
 
-</td></tr><tr><td id="d152387e206">
+</td></tr><tr><td id="d150790e206">
 
 **Destination Name**
 
@@ -86,7 +86,7 @@ Type of destination used for this message:-   **Queue**: Message is queued for p
 
 Name of the queue or topic destination that is configured on the JMS provider.
 
-</td></tr><tr><td id="d152387e215">
+</td></tr><tr><td id="d150790e215">
 
 **Message Type**
 
@@ -94,7 +94,7 @@ Name of the queue or topic destination that is configured on the JMS provider.
 
 The JMS message type value. Only the **Text Message** type is supported. The queue or topic destination must be configured to receive or send only Text Message. Other message types are dropped, since the JMS Activity cannot process them.
 
-</td></tr><tr><td id="d152387e228">
+</td></tr><tr><td id="d150790e228">
 
 **Operation**
 
@@ -102,7 +102,7 @@ The JMS message type value. Only the **Text Message** type is supported. The que
 
 The programmatic operation to perform on the destination. The choices are **PUT** or **GET**.
 
-</td></tr><tr><td id="d152387e243">
+</td></tr><tr><td id="d150790e243">
 
 **Timeout \(Secs\)**
 
@@ -110,7 +110,7 @@ The programmatic operation to perform on the destination. The choices are **PUT*
 
 Allowed time to wait for a message in the message queue before it times out, in seconds. The default is **30**.
 
-</td></tr><tr><td id="d152387e255">
+</td></tr><tr><td id="d150790e255">
 
 **Custom message headers**
 
@@ -118,7 +118,7 @@ Allowed time to wait for a message in the message queue before it times out, in 
 
 The custom header values in a name/value pair format, that is available on the JMS destination. **Note:** This is only supported for a **PUT** operation.
 
-</td></tr><tr><td id="d152387e270">
+</td></tr><tr><td id="d150790e270">
 
 **Message payload**
 
@@ -126,7 +126,7 @@ The custom header values in a name/value pair format, that is available on the J
 
 Actual message content or payload that is sent to the JMS destination.**Note:** This is only supported for a **PUT** operation.
 
-</td></tr><tr><td id="d152387e285">
+</td></tr><tr><td id="d150790e285">
 
 **Credential tag**
 
@@ -134,7 +134,7 @@ Actual message content or payload that is sent to the JMS destination.**Note:** 
 
 A tag for an individual credential for a JMS activity in an Orchestration workflow.
 
-</td></tr><tr><td id="d152387e294">
+</td></tr><tr><td id="d150790e294">
 
 **Required MID Server capabilities**
 
@@ -169,7 +169,7 @@ The MID Server must have the correct JMS connection factories for your organizat
 
 2.  Click **New** and add.
 
-<table id="choicetable_yqs_2c4_5y"><tbody><tr><td id="d152387e456">
+<table id="choicetable_yqs_2c4_5y"><tbody><tr><td id="d150790e456">
 
 **Name**
 
@@ -177,7 +177,7 @@ The MID Server must have the correct JMS connection factories for your organizat
 
 A unique and descriptive name for identifying the file in the instance.
 
-</td></tr><tr><td id="d152387e465">
+</td></tr><tr><td id="d150790e465">
 
 **Version**
 
@@ -185,7 +185,7 @@ A unique and descriptive name for identifying the file in the instance.
 
 A version number for the file, if one is available.
 
-</td></tr><tr><td id="d152387e474">
+</td></tr><tr><td id="d150790e474">
 
 **Source**
 
@@ -193,7 +193,7 @@ A version number for the file, if one is available.
 
 Location of the JAR file for reference purposes. Source information is not used by the system.
 
-</td></tr><tr><td id="d152387e483">
+</td></tr><tr><td id="d150790e483">
 
 **Description**
 
@@ -210,7 +210,7 @@ Short description of the JAR file and its purpose in the instance.
 
 5.  Click **New**, add the following, and click **Submit**.
 
-<table id="choicetable_gqc_pd4_5y"><tbody><tr><td id="d152387e537">
+<table id="choicetable_gqc_pd4_5y"><tbody><tr><td id="d150790e537">
 
 **Name**
 
@@ -218,7 +218,7 @@ Short description of the JAR file and its purpose in the instance.
 
 Unique name of this connection factory.
 
-</td></tr><tr><td id="d152387e546">
+</td></tr><tr><td id="d150790e546">
 
 **Initial Context Factory**
 
@@ -226,7 +226,7 @@ Unique name of this connection factory.
 
 Name of the JNDI class that is used to create the InitialContext. **Note:** For example, to connect to ActiveMQ V5.10 \(JMS Provider\), the value is `org.apache.activemq.jndi.ActiveMQInitialContextFactory`.
 
-</td></tr><tr><td id="d152387e561">
+</td></tr><tr><td id="d150790e561">
 
 **Provider URL**
 
@@ -239,7 +239,7 @@ Location of the running JMS provider installation. **Note:** For example, to con
 
 7.  Click **New**, select **JMS Credentials**, and provide the user name and password the MID should use to communicate with the JMS provider.
 
-    For more information, see JMS credentials JMS credentials.
+    For more information, see [JMS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r_JMSCredentialsForm.md) [JMS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r_JMSCredentialsForm.md).
 
 8.  Click **Submit**.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Operational Sustainability Management
 classification: operational-sustainability-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Monitoring assessment data using ESG Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -48,7 +48,7 @@ Only admins can see roles in the Sharing panel.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d22830e123">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d22800e123">
 
 **Add as viewer**
 
@@ -56,7 +56,7 @@ Only admins can see roles in the Sharing panel.
 
 Grant only viewing permissions to the users, groups, or roles you’re sharing the dashboard with. They can’t edit it.
 
-</td></tr><tr><td id="d22830e132">
+</td></tr><tr><td id="d22800e132">
 
 **Add as editor**
 

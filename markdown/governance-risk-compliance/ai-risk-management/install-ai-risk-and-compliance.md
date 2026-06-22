@@ -35,7 +35,7 @@ Some AI capabilities are available only when the required plugins are installed.
     This requirement applies only to AI intake request forms and does not apply to AI cases, inquiries, or the Anonymous Reporting Center. For more information on applicable requests, see [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-ai-system.md), [Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-ai-model.md), and [Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-dataset.md).
 
 
-For information about AI Control Tower setup and plugin dependencies, see .
+For information about AI Control Tower setup and plugin dependencies, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.md).
 
 Role required: admin
 

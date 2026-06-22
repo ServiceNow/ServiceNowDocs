@@ -49,10 +49,10 @@ The Now Assist for Integration Hub application requires these subscriptions:
 
 After installing the Now Assist for Integration Hub application, you can use the available AI agents and configure the available conversational spoke actions.
 
--   See  to learn about AI agents.
+-   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md) to learn about AI agents.
 -   See  to learn more about configuring the conversational settings.
 -   See  to learn more about creating and configuring the conversational skill from Workflow Studio.
--   See  in  to learn more about conversation experience and skills.
+-   See  in [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
 ## Available AI agents
 
@@ -62,7 +62,7 @@ Available AI agent includes, [Meeting scheduler AI agent](https://raw.githubuser
 
 ## Role masking
 
-Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
 **Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/building-integrations-ih.md)
 

@@ -30,7 +30,7 @@ Role required: admin
 
 2.  Create a new REST Message record for your Third-Party System, or open the record if it exists.
 
-    For more information, see .
+    For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
 
     You will see records for Visa Resolve Online or Mastercom if Visa Spoke or Mastercard Spoke are installed.
 

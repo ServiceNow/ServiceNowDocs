@@ -18,7 +18,7 @@ Use the conversational experience of Now Assist in Virtual Agent to register a b
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Ensure that the following tasks are completed:
 
@@ -41,15 +41,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Register a business application** or an elaborate instruction that includes the business application's information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d94460e164">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d94324e165">
 
 Instruction
 
-</th><th align="left" id="d94460e167">
+</th><th align="left" id="d94324e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d94460e173">
+</th></tr></thead><tbody><tr><td id="d94324e174">
 
 **Short: Register a business application**
 
@@ -65,7 +65,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   What type of application is this?
  The information you provide is used to fill in the fields of the business application form. You can skip answering a question that is related to non-required fields by entering **skip**.\[Omitted image "register-ba-virtual-agent.png"\] Alt text: Screenshot showing Now AssistVirtual Agent chat window showing a request for the registration of a business application.
 
-</td></tr><tr><td id="d94460e223">
+</td></tr><tr><td id="d94324e224">
 
 **Elaborate: Register the new business application XYZ, which is used for capturing application metrics. Specify Abel Tuter as both the business application owner and IT owner. Also, category of the business application is Business Intelligence – Reports and type of application is SaaS.**
 

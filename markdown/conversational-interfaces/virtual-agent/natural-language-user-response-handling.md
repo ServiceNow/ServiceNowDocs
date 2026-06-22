@@ -34,7 +34,7 @@ If you are using IBM Watson, Microsoft LUIS, or Google Dialogflow for NLU topic 
 
 ## Changing the confidence threshold
 
-The confidence threshold for boolean inputs is defined in the **com.glide.cs.dialog.boolean\_threshold** system property. The default value is **0.9**. For more information, see Add a system property.
+The confidence threshold for boolean inputs is defined in the **com.glide.cs.dialog.boolean\_threshold** system property. The default value is **0.9**. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 -   **[Configure enhanced natural language user input handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/set-up-natural-lang-handling-other-nlu.md)**  
 Add enhanced natural language handling for boolean user responses to your Virtual Agent environment. If you're using additional languages or third-party NLU providers, specify the model and intents that define variations in yes/no utterances for your bot.

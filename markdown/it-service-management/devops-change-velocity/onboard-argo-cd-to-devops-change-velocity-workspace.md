@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Argo CD.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d296007e80">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d296154e80">
 
 Option
 
-</th><th align="left" id="d296007e83">
+</th><th align="left" id="d296154e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d296007e89">
+</th></tr></thead><tbody><tr><td id="d296154e89">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Argo CD from the **Orchestration** category.
 
 
-</td></tr><tr><td id="d296007e113">
+</td></tr><tr><td id="d296154e113">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Argo CD from the **Orchestration** category.
 
 
-</td></tr><tr><td id="d296007e159">
+</td></tr><tr><td id="d296154e159">
 
 **Tools module**
 
@@ -83,7 +83,7 @@ Steps
 
     3.  Select the MID Server option and enter its details if your Argo CD instance is attached to a MID Server.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see MID Server selection.
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
 
     \[Omitted image "argocd-6.png"\] Alt text: Enter Argo CD instance details playbook activity
 

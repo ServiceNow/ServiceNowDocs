@@ -96,7 +96,7 @@ Description about the custom spoke.
 
     2.  Install the spoke from the Store.
 
-        For more details, see .
+        For more details, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_InstallApplications.md).
 
     3.  After installing the spoke, navigate to the Workflow Studio tab.
 
@@ -209,7 +209,7 @@ Required authentication mechanism for this integration. Ensure that the authenti
 
 19. Click **Done: Go to spoke** to go the Spokes page and view the publish status.
 
-    -   Actions with the OpenAPI step are created. For information about the OpenAPI step, see .
+    -   Actions with the OpenAPI step are created. For information about the OpenAPI step, see [OpenAPI support in the REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/open-api-integration.md).
     -   Action inputs and outputs are mapped.
     -   Actions are published and listed in the spoke details page under **Actions** &gt; **Published**.
     You can start using these published actions to create flows and subflows as per your requirement.

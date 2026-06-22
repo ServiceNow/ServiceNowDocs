@@ -18,7 +18,7 @@ Submit feedback about a service request or your experience using the feedback ca
 
 ## Before you begin
 
-To enable the feedback card, the `include_feedback_actionable` script must be added to the email notification and a [feedback definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-feedback-dfnition.md) must be created for the required workflow.
+To enable the feedback card, the `include_feedback_actionable` script must be added to the [email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md) and a [feedback definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-feedback-dfnition.md) must be created for the required workflow.
 
 For information about experience feedback, see [Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ex-fdback-ovrvw.md).
 

@@ -35,5 +35,5 @@ Role required: admin
     **Note:**
 
     -   You can add tasks and recipient list to the communication plan based on your organizational needs.
-    -   To learn more about a communication plan and its process, see .
+    -   To learn more about a communication plan and its process, see [Task Communications Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/task-communications-management/task-communications-management.md).
 

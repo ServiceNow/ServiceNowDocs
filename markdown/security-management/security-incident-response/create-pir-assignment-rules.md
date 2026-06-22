@@ -70,7 +70,7 @@ Condition
 
 </td><td>
 
-Option to configure the condition builder to define the conditions that must be met in the security incident for this rule to be executed. For more information, see the example below.
+Option to configure the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to define the conditions that must be met in the security incident for this rule to be executed. For more information, see the example below.
 
 </td></tr><tr><td>
 

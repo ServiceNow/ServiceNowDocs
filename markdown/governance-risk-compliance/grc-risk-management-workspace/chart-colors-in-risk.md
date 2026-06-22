@@ -37,7 +37,7 @@ For classic risk, the following risk criteria are defined with the respective co
 -   High
 -   Very high
 
-If you want to add or modify a risk criteria or a risk rating, a report administrator with the role, report\_admin, can configure your chart colors. For more information on configuring chart colors, see Using chart colors.
+If you want to add or modify a risk criteria or a risk rating, a report administrator with the role, report\_admin, can configure your chart colors. For more information on configuring chart colors, see [Using chart colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/c_ChartColors.md).
 
 \[Omitted image "chart-colors.jpg"\] Alt text: Chart colors defined for risk.
 

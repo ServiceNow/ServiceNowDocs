@@ -239,7 +239,7 @@ OpenFrame phone
 
 </td><td>
 
-OpenFrame lets you make and receive embedded, contextual calls. When calls are active, the phone icon displays a badge. For more information, see .
+OpenFrame lets you make and receive embedded, contextual calls. When calls are active, the phone icon displays a badge. For more information, see [OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_OpenFrameOverview.md).
 
 </td></tr><tr><td>
 

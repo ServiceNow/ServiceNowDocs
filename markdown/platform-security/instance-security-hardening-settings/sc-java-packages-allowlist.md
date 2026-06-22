@@ -110,7 +110,7 @@ Security risk rating
 8.2
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 -   **[Packages call removal tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-packages-call-removal-tool.md)**  
 Activate and run the Packages Call Removal Tool \(**com.glide.script.packages\_call\_removal**\) plugin, and then consider whether each of the proposed changes should be completed or rejected.

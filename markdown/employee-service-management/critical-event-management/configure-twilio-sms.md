@@ -16,7 +16,7 @@ breadcrumb: [Configure, Critical Event Management, Health and Safety, Employee S
 
 To enable the SMS feature for sending notifications, configure the Twilio telephony service.
 
-To use SMS in addition to email as a communication channel, configure Twilio for SMS. For more information on configuring Twilio, see .
+To use SMS in addition to email as a communication channel, configure Twilio for SMS. For more information on configuring Twilio, see [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md).
 
 **Note:**
 

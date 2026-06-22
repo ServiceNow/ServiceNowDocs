@@ -28,7 +28,7 @@ If you have preconfigured forms, you must do this configuration to make the new 
 
 \[Omitted image "after-configuration.png"\] Alt text: After configuration of new fields, the framework has the Strategic priority field and the Primary goal field.
 
-The same procedure can be performed on the Demand and Program forms as well. For more information, see Goal framework.
+The same procedure can be performed on the Demand and Program forms as well. For more information, see [Goal framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/goal-framework/goal-framework.md).
 
 ## Procedure
 

@@ -38,15 +38,15 @@ This confirm milestone completion task is automatically created by the system on
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d40500e109">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d40524e109">
 
 Action
 
-</th><th align="left" id="d40500e112">
+</th><th align="left" id="d40524e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40500e118">
+</th></tr></thead><tbody><tr><td id="d40524e118">
 
 **Comments**
 
@@ -54,7 +54,7 @@ Description
 
 Provide your response, if any, and select **Confirm**.
 
-</td></tr><tr><td id="d40500e130">
+</td></tr><tr><td id="d40524e130">
 
 **Request to cancel**
 
@@ -62,7 +62,7 @@ Provide your response, if any, and select **Confirm**.
 
 Request to cancel the milestone altogether.On the **Request to cancel milestone** window, provide your reason for canceling the milestone, and select **Submit**.
 
-</td></tr><tr><td id="d40500e147">
+</td></tr><tr><td id="d40524e147">
 
 **Propose new completion date**
 

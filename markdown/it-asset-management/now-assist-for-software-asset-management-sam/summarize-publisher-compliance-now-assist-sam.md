@@ -22,7 +22,7 @@ Role required: sam\_user
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Now Assist for SAM generates the publisher summaries by using reconciliation results, product lifecycle reports, and dashboards such as Discovered inventory, Normalization and content, and Health check.
 
@@ -46,15 +46,15 @@ Now Assist for SAM generates the publisher summaries by using reconciliation res
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d206093e169">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d206146e170">
 
 Action
 
-</th><th align="left" id="d206093e172">
+</th><th align="left" id="d206146e173">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d206093e178">
+</th></tr></thead><tbody><tr><td id="d206146e179">
 
 **Copy to clipboard icon**
 
@@ -62,7 +62,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d206093e187">
+</td></tr><tr><td id="d206146e188">
 
 **Refresh icon**
 
@@ -70,7 +70,7 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d206093e196">
+</td></tr><tr><td id="d206146e197">
 
 **Feedback**
 

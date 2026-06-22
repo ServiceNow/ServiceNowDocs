@@ -34,7 +34,7 @@ Effective skill development depends on testing the prompt against representative
 
 ## Get Now Assist Skill Kit
 
-To use Now Assist Skill Kit, you must update your Now Assist plugins in the Application Manager. For example, update your Now Assist for ITSM plugin to the latest available release.
+To use Now Assist Skill Kit, you must update your Now Assist plugins in the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/exploring-application-manager.md). For example, update your Now Assist for ITSM plugin to the latest available release.
 
 You must also assign the **sn\_skill\_builder.admin** role to anyone who uses Now Assist Skill Kit.
 

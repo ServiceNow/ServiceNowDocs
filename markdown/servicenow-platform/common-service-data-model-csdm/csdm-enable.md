@@ -24,7 +24,7 @@ Activate the CSDM plugin so you can begin implementing the CSDM data model.
 
 ## Procedure
 
-1.  Activate the `com.snc.cmdb.csdm.activation` plugin as described in Activate a plugin.
+1.  Activate the `com.snc.cmdb.csdm.activation` plugin as described in [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
 
 
 **Parent Topic:**[Configuring CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/configure-csdm.md)

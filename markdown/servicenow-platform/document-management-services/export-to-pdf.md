@@ -35,7 +35,7 @@ To enable accessibility, select the **Accessible PDF** check box.
 
 **Note:** Adding accessibility tags to a PDF increases the file size.
 
-To export a PDF list, see .
+To export a PDF list, see [Export data from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/export-list-data.md).
 
 ## Export to PDF for a single record
 
@@ -52,7 +52,7 @@ To enable accessibility, select the **Accessible PDF** check box.
 
 **Note:** Adding accessibility tags to a PDF increases the file size.
 
-To generate a single PDF record, see .
+To generate a single PDF record, see [Export data from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/export-form-data.md).
 
 **Parent Topic:**[PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/pdf-generation-accessibility.md)
 

@@ -18,7 +18,7 @@ Handles agent consult work items.
 
 This API requires the Advanced Work Assignment plugin \(com.glide.awa\) and the awa\_integration\_user role.
 
-For more information about AWA, see Advanced Work Assignment.
+For more information about AWA, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
 
 Use the [AWA Offer Work API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/awa-offer-work-api.md) to initiate a consult transfer to an agent or a queue.
 
@@ -175,7 +175,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/installed-with-awa.md).
 
 </td></tr><tr><td>
 

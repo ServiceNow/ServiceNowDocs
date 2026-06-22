@@ -30,7 +30,7 @@ The overall process to integrate Employee Center with your Microsoft Teams tenan
 
 1.  Activate the IT Service Management integration with Microsoft Teams plugin \(sn\_now\_teams\_it\).
 
-    **Note:** For more information on activating plugins, see .
+    **Note:** For more information on activating plugins, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
 
 2.  [Create Microsoft Azure application and authenticate users to access Employee Center in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/authenticate-users-your-hub-ms-teams.md).
 3.  [Update the OIDC entities table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/oidc-entity-table.md).

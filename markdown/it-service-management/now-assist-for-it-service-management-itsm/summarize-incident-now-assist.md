@@ -23,7 +23,7 @@ Role required: itil
 
 ## About this task
 
-The Incident summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see .
+The Incident summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 An incident summary provides you with a concise summary of an incident. The summary is based on the incident state and is generated from the information that you enter in the following fields:
 
@@ -59,15 +59,15 @@ You can summarize an incident in Core UI and Service Operations Workspace for IT
 
 3.  When you're finished summarizing an incident, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d119839e214">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d119912e215">
 
 Option
 
-</th><th align="left" id="d119839e217">
+</th><th align="left" id="d119912e218">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d119839e223">
+</th></tr></thead><tbody><tr><td id="d119912e224">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -78,7 +78,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d119839e250">
+</td></tr><tr><td id="d119912e251">
 
 **Expand or collapse the summary**
 
@@ -86,7 +86,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d119839e271">
+</td></tr><tr><td id="d119912e272">
 
 **Provide feedback for the summary**
 
@@ -94,7 +94,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d119839e294">
+</td></tr><tr><td id="d119912e295">
 
 **Copy the incident summary**
 
@@ -102,7 +102,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d119839e310">
+</td></tr><tr><td id="d119912e311">
 
 **View the information about the incident summary**
 

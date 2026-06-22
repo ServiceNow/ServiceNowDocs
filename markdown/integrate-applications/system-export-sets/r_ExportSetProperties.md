@@ -34,11 +34,11 @@ For Excel files, option to format currency values to match the localization of t
 
  For example, say you've activated the I18N: French Canada Translations plugin on your instance, and you're exporting a currency value of 6300. If this property is set to true, the value will be correctly formatted as 6,300 €. If this property is set to false, the value will be formatted as € 6,300.
 
- For more information on localization, see .
+ For more information on localization, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework/localization-framework-landing.md).
 
  -   Type: true \| false
 -   Default: false
--   Location: 
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ For Excel files, option to format duration fields in days, hours, minutes, and s
 
  -   Type: true \| false
 -   Default: false
--   Location: 
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ For XLSX files, controls the compression mode. When true, XSLX files are generat
 
  -   Type: true \| false
 -   Default: false
--   Location: 
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ For XLSX files, controls the compression mode. When true, XSLX files are generat
 
 When true, if a parent scheduled export set encounters an error, scheduled child export sets don't run.-   Type: true \| false
 -   Default: false
--   Location: 
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 </td></tr></tbody>
 </table>

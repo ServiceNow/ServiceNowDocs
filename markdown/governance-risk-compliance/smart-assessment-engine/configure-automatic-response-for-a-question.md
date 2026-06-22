@@ -48,11 +48,11 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
 
 7.  Select **+ New condition set** under **If** condition to set the condition.
 
-    -   Add details to **If** and **Then** conditions using the condition builder. For more information, refer to .
+    -   Add details to **If** and **Then** conditions using the condition builder. For more information, refer to [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
     -   You can set up multiple conditions within a single **If** condition by selecting **+ New condition set**. Within a single condition row, you can combine multiple conditions using **and** or **or** logical operators.
 8.  Set up one or more subsequent if-then conditions by selecting **Add If-then condition**.
 
-    -   Add details to **Otherwise if** and **Then** conditions using the condition builder. For more information, refer to .
+    -   Add details to **Otherwise if** and **Then** conditions using the condition builder. For more information, refer to [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
     -   The first condition that meets the criteria triggers the default response. Priority is determined by the order of the conditions. For instance, if you have three conditions and the first one is true, the system doesn't check the remaining two.
 9.  In the **Default response is** field in the **If nothing matches** section, set the default response for situations where none of the condition sets meet the set criteria.
 

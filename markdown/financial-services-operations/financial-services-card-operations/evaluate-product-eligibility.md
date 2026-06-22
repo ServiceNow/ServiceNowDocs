@@ -34,15 +34,15 @@ A credit card task to evaluate the product eligibility is automatically created 
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d73518e120">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d73309e120">
 
 Option
 
-</th><th align="left" id="d73518e123">
+</th><th align="left" id="d73309e123">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73518e129">
+</th></tr></thead><tbody><tr><td id="d73309e129">
 
 **From a credit card service case**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d73518e162">
+</td></tr><tr><td id="d73309e162">
 
 **From the Credit Card Task list**
 

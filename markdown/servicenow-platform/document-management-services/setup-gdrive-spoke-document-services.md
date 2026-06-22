@@ -26,15 +26,15 @@ Role required: admin
 
 1.  Set up and connect Google Drive Spoke.
 
-    For more information, see .
+    For more information, see [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-gdrive.md).
 
 2.  Set up and connect Google Directory Spoke.
 
-    For more information, see .
+    For more information, see [Google Directory Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/gdirectory-spoke.md).
 
 3.  Set up and connect Google Doc Spoke.
 
-    For more information, see .
+    For more information, see [Google Docs Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/gdocs-spoke.md).
 
 4.  Activate Document Services for Google Drive Spoke.
 

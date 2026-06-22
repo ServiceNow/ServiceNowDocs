@@ -18,7 +18,7 @@ Setup offline mode in the Now Mobile app for Health and Safety so that users can
 
 ## Before you begin
 
-Ensure that the application scope is selected as Now Mobile. For more information, see Application picker.
+Ensure that the application scope is selected as Now Mobile. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: admin
 

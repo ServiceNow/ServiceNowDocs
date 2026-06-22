@@ -32,13 +32,13 @@ If you have the user sn\_esg\_gen\_ai.cmd\_agent\_user role, you can get carbon 
 
 This workflow uses an agentic approach to guide ESG teams through carbon calculations, promoting accurate Scope 3 emissions reporting. It uses AI agents and integrated tools to select methodologies, map metrics, and validate emission factors for transparency and compliance. The process requires user interaction and runs under helper agent roles with ACL-based security.
 
-**Note:** You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see .
+**Note:** You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md).
 
 If you have the sn\_generative\_ai.nsa\_admin role, you can perform the following actions on Now Assist agentic workflows:
 
--   
--   
--   .
+-   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md)
+-   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/modify-aia-use-case.md)
+-   [Delete an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/delete-aia-use-case.md).
 
 ## Procedure
 
@@ -69,13 +69,13 @@ If you have the sn\_generative\_ai.nsa\_admin role, you can perform the followin
 
 ## What to do next
 
-Use the **Testing** playground to test your new agentic workflow using example utterances.
+Use the **Testing** playground to [test your new agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md) using example utterances.
 
 Verify that the executive summary and recommendations are generated. If activation fails, check roles and skill configuration.
 
 After you’ve confirmed the workflow is functioning as expected, you can select the Ask Now Assist action menu and enter your prompt.
 
-If you haven't already set up the Now Assist panel, for more information see, .
+If you haven't already set up the Now Assist panel, for more information see, [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 -   **[Activate calculation creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/operational-sustainability-management/activate-calculation-creation-ai-agent.md)**  
 The calculation creation AI agent creates a calculated metric definition record using the formula passed in the input.

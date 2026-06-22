@@ -42,7 +42,7 @@ Role required: admin, sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or 
 
 3.  You have the following actions available to you during this step.
 
-<table id="choicetable_importchoices"><tbody><tr><td id="d45302e172">
+<table id="choicetable_importchoices"><tbody><tr><td id="d45231e172">
 
 **Batch map fields using Automap**
 
@@ -50,7 +50,7 @@ Role required: admin, sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or 
 
 Select **Automap** to automatically map your spreadsheet fields to displayed fields in the selected target table. Automap maps source entities to similarly named target entities. For a target entity that has already been mapped, selecting **Automap** doesn't change its value. An automapped field has a wand icon on its data pill.
 
-</td></tr><tr><td id="d45302e187">
+</td></tr><tr><td id="d45231e187">
 
 **Map fields by dragging and dropping**
 
@@ -58,7 +58,7 @@ Select **Automap** to automatically map your spreadsheet fields to displayed fie
 
 Map fields from your import to your target table by dragging data pills representing columns in the imported spreadsheet to the **Value** column in the target table. You can also map fields by using the pill picker to the right of each target table field.
 
-</td></tr><tr><td id="d45302e202">
+</td></tr><tr><td id="d45231e202">
 
 **Map fields using the data picker**
 
@@ -66,17 +66,17 @@ Map fields from your import to your target table by dragging data pills represen
 
 Map data by using the pill picker \(\[Omitted image "pill-picker-green.png"\] Alt text: Pill picker.\) on the right side of the target table. You can enter more than one value in the **Value** column, you can also enter text.
 
-</td></tr><tr><td id="d45302e223">
+</td></tr><tr><td id="d45231e223">
 
 **Add transform options**
 
 </td><td>
 
-Add transform options for each of the individual mapped spreadsheet fields by clicking the FX icon \( \[Omitted image "fx-icon.png"\] Alt text: FX icon.\) on the right side pane. For example, you can use the Uppercase transform function to change an input string to all uppercase characters. See  for information on how to use these to trim data for your imported spreadsheet fields.
+Add transform options for each of the individual mapped spreadsheet fields by clicking the FX icon \( \[Omitted image "fx-icon.png"\] Alt text: FX icon.\) on the right side pane. For example, you can use the Uppercase transform function to change an input string to all uppercase characters. See [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/transform-functions.md) for information on how to use these to trim data for your imported spreadsheet fields.
 
 **Note:** Not all the transform functions available in Flow Designer are available.
 
-</td></tr><tr><td id="d45302e246">
+</td></tr><tr><td id="d45231e247">
 
 **Activate data record matching**
 
@@ -88,7 +88,7 @@ Specify fields where the system should check for matching data and, if found, up
 -   If the **Match** toggle switch for the **Order number** field is off, the system doesn't check for matching data. If the source data has a record with the same order number, the system creates a new record in the target table. In this case, the target table will have two records, both with an order number of 743.
 
 
-</td></tr><tr><td id="d45302e285">
+</td></tr><tr><td id="d45231e286">
 
 **Configure reference and choice field behavior**
 
@@ -103,7 +103,7 @@ Configure behavior for **Choice** and **Reference** field types.1.  Click the ge
 4.  Click **Done**.
 
 
-</td></tr><tr><td id="d45302e347">
+</td></tr><tr><td id="d45231e348">
 
 **Add new field columns to target table**
 

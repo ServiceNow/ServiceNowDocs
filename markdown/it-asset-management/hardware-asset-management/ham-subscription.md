@@ -75,7 +75,7 @@ The following base system features of Core Asset Management are provided with Se
 -   Mobile asset receiving
 -   Mobile - My Assets
 
-For more information, see  and [Manage Hardware Asset Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/managing-ham-subscriptions.md).
+For more information, see [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/asset-management/c_AssetManagement.md) and [Manage Hardware Asset Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/managing-ham-subscriptions.md).
 
 -   **[Hardware Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-licensing.md)**  
 Hardware Asset Management \(HAM\) licensing enables you to choose the Hardware Asset Management resource categories that you want to use. You can save money by paying only for those categories that you use, and not for categories that you don't use.

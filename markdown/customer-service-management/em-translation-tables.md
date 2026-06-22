@@ -42,7 +42,7 @@ Stores translations for configurable fields such as User Greeting and Search Mes
 -   **Table Name**: Name of the feature instance.
 -   **Value**: Translated text that the user sees.
 
- For details about translating text content into different languages, see Translated text table and Translating text fields.
+ For details about translating text content into different languages, see [Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization/r_TranslatedText.md) and [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization/c_UseTranslatedText.md).
 
 </td></tr><tr><td>
 
@@ -50,8 +50,8 @@ Message \[sys\_ui\_message\]
 
 </td><td>
 
-Stores translations for static messages in Engagement Messenger.For more information about the Message table, see Message table.
+Stores translations for static messages in Engagement Messenger.For more information about the Message table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization/r_MessageTable.md).
 
 </td></tr></tbody>
-</table>**Note:** For information about Virtual Agent chat translation, see Virtual Agent translation tables
+</table>**Note:** For information about Virtual Agent chat translation, see [Virtual Agent translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/va-translation-tables.md)
 

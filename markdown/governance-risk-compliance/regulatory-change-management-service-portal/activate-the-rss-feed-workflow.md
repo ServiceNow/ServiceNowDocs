@@ -18,7 +18,7 @@ Use the Workflow Studio to pull RSS feeds from the defined RSS sources after you
 
 ## Before you begin
 
-The workflow to pull RSS feeds is built with ServiceNow® Workflow Studio, so make sure you're familiar with the Flow Designer basics.
+The workflow to pull RSS feeds is built with ServiceNow® Workflow Studio, so make sure you're familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md) basics.
 
 Role required: admin
 

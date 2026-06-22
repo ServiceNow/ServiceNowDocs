@@ -18,7 +18,7 @@ Add outside counsel details for an outside firm to enable matter creation in Leg
 
 ## Before you begin
 
-Ensure you have installed and activated Legal Tracker spoke. For more information, see Legal Tracker.
+Ensure you have installed and activated Legal Tracker spoke. For more information, see [Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/legal-tracker-spoke.md).
 
 Verify the schedule job **Fetch Firms Data** has been executed once before you add the outside counsel details for an outside firm.
 
@@ -36,15 +36,15 @@ The scheduled job **Fetch Firms Data** pulls the data for outside firms from Leg
 
 2.  Open the outside counsels list.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d151439e109">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d151172e109">
 
 Location
 
-</th><th align="left" id="d151439e112">
+</th><th align="left" id="d151172e112">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d151439e118">
+</th></tr></thead><tbody><tr><td id="d151172e118">
 
 **From the Legal Matter module**
 
@@ -52,7 +52,7 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d151439e145">
+</td></tr><tr><td id="d151172e145">
 
 **From Legal Counsel Center**
 

@@ -40,15 +40,15 @@ Territory Key Performance Indicators \(KPIs\) offer valuable insights into the p
 
 3.  View details in the contextual side panel.
 
-<table id="choicetable_wc2_mgn_2yb"><thead><tr><th align="left" id="d63940e123">
+<table id="choicetable_wc2_mgn_2yb"><thead><tr><th align="left" id="d63883e123">
 
 To view
 
-</th><th align="left" id="d63940e126">
+</th><th align="left" id="d63883e126">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d63940e132">
+</th></tr></thead><tbody><tr><td id="d63883e132">
 
 **Map overlay data items**
 
@@ -58,7 +58,7 @@ Do the following
 -   You can customize the display using the Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon\).
 
 
-</td></tr><tr><td id="d63940e156">
+</td></tr><tr><td id="d63883e156">
 
 **Territory**
 

@@ -18,7 +18,7 @@ The ResponseTemplate script include provides methods for managing response templ
 
 Response templates are reusable messages that agents can copy to case or task forms. They provide quick and consistent messages to users and display standard chat response messages to requesters in Agent Chat. This script include requires the Templated Responses plugin \(com.sn\_templated\_snip\), which is activated by default, and runs within the `sn_templated_snip` namespace.
 
-For additional information on response templates, see Response templates.
+For additional information on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 

@@ -20,7 +20,7 @@ Detect that a threshold has been exceeded and create a trigger to perform a sequ
 
 Role required: sn\_app\_insights.admin or admin
 
-Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. It is recommended to evaluate the [Overview of Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/impact/io-overview.md) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -42,7 +42,7 @@ Application Insights uses the ServiceNow® Workflow Studio to create the trigger
 
     Modify the base template to fit your needs.
 
-    For more information about using the Workflow Studio, see Flow Designer.
+    For more information about using the Workflow Studio, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md).
 
 5.  Select **Send Email**.
 

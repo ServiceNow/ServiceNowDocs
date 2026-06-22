@@ -26,9 +26,9 @@ The predictability estimate setup-to-training flow is as follows:
 4.  Train the predictability estimate using the [submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/PredictabilityEstimateAPI.md) method. This creates a version of the object that you can manage using the [PredictabilityEstimateVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/PredictabilityEstimateVersionAPI.md) API.
 5.  Get estimated predictive values using the [PredictabilityEstimateVersion – getResults\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/PredictabilityEstimateVersionAPI.md) method.
 
-**Note:** This API runs with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see .
+**Note:** This API runs with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see [Query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/query-acl-rule.md).
 
-For usage guidelines, refer to Using ML APIs.
+For usage guidelines, refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
@@ -447,7 +447,7 @@ Machine-learning field type. Data type: String.
 
 </td><td>
 
-Encoded query string in the standard platform format. See Encoded query strings.Data type: String.
+Encoded query string in the standard platform format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).Data type: String.
 
 </td></tr><tr><td>
 
@@ -455,7 +455,7 @@ Encoded query string in the standard platform format. See Encoded query strings.
 
 </td><td>
 
-Domain name associated with this dataset. See .Type: String
+Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.md).Type: String
 
 </td></tr><tr><td>
 

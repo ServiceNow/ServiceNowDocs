@@ -34,7 +34,7 @@ App developers can apply or delete stashed changes from App Engine Studio \(AES\
 
 4.  Select the action next to the stash you want to manage.
 
-<table id="choicetable_vkd_kx5_lv"><tbody><tr><td id="d41229e109">
+<table id="choicetable_vkd_kx5_lv"><tbody><tr><td id="d41158e109">
 
 **Apply**
 
@@ -42,7 +42,7 @@ App developers can apply or delete stashed changes from App Engine Studio \(AES\
 
 Commits the stashed changes to the application and checks for conflicts.
 
-</td></tr><tr><td id="d41229e118">
+</td></tr><tr><td id="d41158e118">
 
 **Delete**
 

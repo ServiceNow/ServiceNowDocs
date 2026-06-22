@@ -134,7 +134,7 @@ Any information about the company that would be helpful for others to know.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Fields that can be added by Personalize a form:
+Fields that can be added by [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_PersonalizeAForm.md):
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Latitude
 
 </td><td>
 
-The latitude of the company, if applicable. This field is populated by a business rule called **get\_lat\_long**. Deactivate this business rule to prevent the system from overwriting any values populated in the field manually. Latitude is expressed as a floating point data type. Latitude from upgraded versions of ServiceNow expressed in any format other than floating point appears in a column called **Old Latitude**. The system attempts to convert all latitude values from previous versions to the floating point notation, where possible.**Note:** This field doesn't display by default. You can add it by personalizing the form.
+The latitude of the company, if applicable. This field is populated by a business rule called **get\_lat\_long**. Deactivate this business rule to prevent the system from overwriting any values populated in the field manually. Latitude is expressed as a floating point data type. Latitude from upgraded versions of ServiceNow expressed in any format other than floating point appears in a column called **Old Latitude**. The system attempts to convert all latitude values from previous versions to the floating point notation, where possible.**Note:** This field doesn't display by default. You can add it by [personalizing the form.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_PersonalizeAForm.md)
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ Longitude
 
 </td><td>
 
-The longitude of the company, if applicable. This field is populated by a business rule called **get\_lat\_long**. Deactivate this business rule to prevent the system from overwriting any values populated in the field manually. Longitude is expressed as a floating point data type. Longitude from upgraded versions of ServiceNow expressed in any format other than floating point appears in a column called **Old Longitude**. The system attempts to convert all longitude values from previous versions to the floating point notation, where possible.**Note:** This field doesn't display by default. You can add it by personalizing the form.
+The longitude of the company, if applicable. This field is populated by a business rule called **get\_lat\_long**. Deactivate this business rule to prevent the system from overwriting any values populated in the field manually. Longitude is expressed as a floating point data type. Longitude from upgraded versions of ServiceNow expressed in any format other than floating point appears in a column called **Old Longitude**. The system attempts to convert all longitude values from previous versions to the floating point notation, where possible.**Note:** This field doesn't display by default. You can add it by [personalizing the form.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_PersonalizeAForm.md)
 
 </td></tr></tbody>
 </table>    **Note:** The IT Finance application adds a Finance view to the Company form. The Finance view adds a chart that shows expenses that were allocated to the company.

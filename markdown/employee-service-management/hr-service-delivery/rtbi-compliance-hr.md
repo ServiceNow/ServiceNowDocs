@@ -39,7 +39,7 @@ RTBF in HR Service Delivery include:
 -   Carrying out the deletion.
 -   Restricting the service to the agents in the HR data privacy group and the HR data privacy compliance group for approvals.
 
-Customers can choose to anonymize the employees personal data over deletion. For more information, see .
+Customers can choose to anonymize the employees personal data over deletion. For more information, see [Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-privacy-classic/dps-data-anonymization.md).
 
-The ServiceNow platform offers other tools like Table cleaner, Archival rules, and Destroy rules, to support minimal data retention by removing outdated data. For more information, see . For enhanced data privacy, you can explore Anonymization and Field Encryption. For more info, see .
+The ServiceNow platform offers other tools like Table cleaner, Archival rules, and Destroy rules, to support minimal data retention by removing outdated data. For more information, see [Exploring Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-data-management.md). For enhanced data privacy, you can explore Anonymization and Field Encryption. For more info, see [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/field-encryption.md).
 

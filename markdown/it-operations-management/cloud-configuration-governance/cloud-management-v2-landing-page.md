@@ -102,5 +102,5 @@ Troubleshoot and get help
 
 Cloud Provisioning and Governance guided setup provides a sequence of tasks that help you configure Cloud Provisioning and Governance on your instance. To open Cloud Provisioning and Governance guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**.
 
-For more information about using the guided setup interface, see Using guided setup.
+For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md).
 

@@ -22,7 +22,7 @@ The timeline depicts two types of lifecycles, which are publisher and internal. 
 
 **Note:** Both the hardware and software models are together referred to as product model.
 
-As a SAM user or software model manager, you can add the software product lifecycle to the software product lifecycle table. This table holds the information of the software product, its lifecycle type \(internal or external\), full version, lifecycle phases, start date of the phase, and the risk.
+As a SAM user or software model manager, you can [add the software product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/software-asset-management/record-terms-software-licenses.md) to the software product lifecycle table. This table holds the information of the software product, its lifecycle type \(internal or external\), full version, lifecycle phases, start date of the phase, and the risk.
 
 As a hardware model manager, you can add lifecycle data to a hardware model.
 
@@ -32,7 +32,7 @@ If you do not want a lifecycle phase to be rendered on the TPM timeline, then se
 
 ## Lifecycle sources on the timeline
 
-The sources of the publisher and internal lifecycle types are generated externally and internally, respectively. The records that are created internally are marked as **I** on the timeline and you cannot edit such product lifecycle source. But, if the publisher is external and if there are more than one publisher source for the same product model, then you can configure your preferred publisher source using the field mapping functionality to the **Sequence** field in the Choices \[sys\_choice\_list\] table.
+The sources of the publisher and internal lifecycle types are generated externally and internally, respectively. The records that are created internally are marked as **I** on the timeline and you cannot edit such product lifecycle source. But, if the publisher is external and if there are more than one publisher source for the same product model, then you can configure your preferred publisher source using the [field mapping functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/example-field-mapping.md) to the **Sequence** field in the Choices \[sys\_choice\_list\] table.
 
 The timeline shows the publisher sources that fulfill the following conditions:
 

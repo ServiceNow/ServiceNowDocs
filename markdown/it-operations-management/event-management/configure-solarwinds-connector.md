@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Configure the SolarWinds connector instance to receive Metric Intelligence raw d
 
 To activate metric collection, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/configure-itoa-metric-extension.md).
 
-Configure the Service graph connector for SolarWinds. This is configured in the instance and discovers SolarWinds CIs. For details on configuring this connector, see .
+Configure the Service graph connector for SolarWinds. This is configured in the instance and discovers SolarWinds CIs. For details on configuring this connector, see [Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-solarwinds.md).
 
 Role required: evt\_mgmt\_admin
 

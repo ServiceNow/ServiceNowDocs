@@ -59,18 +59,18 @@ Assistants are shown in card view and in map view.
         -   Activate/deactivate is inactive.
         -   Delete is inactive.
         -   Edit triggers the assistant edit flow, but all fields are read-only.
-    -   Assistants from the global domain can be edited, activated, deactivated, or deleted as long as you're in the global domain. To switch domains, open a new browser tab and navigate to anywhere that has Unified Navigation and select the globe icon to switch domains. For more information, see . If the domain plugin is installed, these options are available:
+    -   Assistants from the global domain can be edited, activated, deactivated, or deleted as long as you're in the global domain. To switch domains, open a new browser tab and navigate to anywhere that has Unified Navigation and select the globe icon to switch domains. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-pickers.md). If the domain plugin is installed, these options are available:
         -   **Domain scope: Default** determines the domain that you are in.
         -   **Application scope: Global** determines the store app or plugin scope that you are in.
         -   **Update set: Default \[Global\]** determines where updates are made on the instance are saved.
-    -   For more information on domain separation, see  and .
+    -   For more information on domain separation, see [Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_DomainSeparation.md) and [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md).
 
 Select the **View as cards** drop-down menu to toggle to the map view. The linkage between primary and secondary assistants is shown. For general information about primary and secondary assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
 -   In the map view, primary assistants on the top row show secondary assistants that are linked to them.
 -   Green indicates that the assistant is turned on. Gray indicates that the assistant is turned off.
 
-The side panel shows where you left off, recent activity, and resources. The links that appear within the **Resources** section are hard-coded and can't be changed. If you select the **Manage model provider \(Now LLM\)** link, you will be redirected to Now Assist Admin console. For more information, see .
+The side panel shows where you left off, recent activity, and resources. The links that appear within the **Resources** section are hard-coded and can't be changed. If you select the **Manage model provider \(Now LLM\)** link, you will be redirected to Now Assist Admin console. For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/edit-model-providers.md).
 
 To change the LLM provider for all assistants on the instance, select **Customize** &gt; **Edit provider for a skill group** &gt; **AI agents**.
 

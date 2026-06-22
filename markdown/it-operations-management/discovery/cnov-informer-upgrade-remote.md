@@ -35,15 +35,15 @@ Role required: discovery\_admin
 
     **Note:** Only Informers with the value Upgrade Pending in the **Upgrade Status** field can be upgraded. The running status of the Informers must be either Up or Paused.
 
-<table id="choicetable_l24_ctl_sbc"><thead><tr><th align="left" id="d80455e157">
+<table id="choicetable_l24_ctl_sbc"><thead><tr><th align="left" id="d78319e157">
 
 Upgrade
 
-</th><th align="left" id="d80455e160">
+</th><th align="left" id="d78319e160">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d80455e166">
+</th></tr></thead><tbody><tr><td id="d78319e166">
 
 **One Informer**
 
@@ -53,7 +53,7 @@ Steps
 2.  In the Related Links section of the form, select **Upgrade Informer**.
 
 
-</td></tr><tr><td id="d80455e187">
+</td></tr><tr><td id="d78319e187">
 
 **Multiple Informers**
 

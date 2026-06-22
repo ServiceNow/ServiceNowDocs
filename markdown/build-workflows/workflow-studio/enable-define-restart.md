@@ -56,15 +56,15 @@ Role required: pd\_author
 
         \[Omitted image "playbooks-restart-rules.png"\] Alt text: Activity and stage restart rules in the side panel
 
-<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d55658e202">
+<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d54449e202">
 
 Rule
 
-</th><th align="left" id="d55658e205">
+</th><th align="left" id="d54449e205">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d55658e211">
+</th></tr></thead><tbody><tr><td id="d54449e211">
 
 **Skip on restart**
 
@@ -72,7 +72,7 @@ Description
 
 The stage or activity only runs during a playbook's initial run. It never runs during a restarted run.**Note:** This setting is helpful if you don't want new tasks or records to be created during a restarted run, because the original execution and resulting record is still relevant.
 
-</td></tr><tr><td id="d55658e225">
+</td></tr><tr><td id="d54449e225">
 
 **Run always**
 
@@ -80,7 +80,7 @@ The stage or activity only runs during a playbook's initial run. It never runs d
 
 The stage or activity always runs, whether during an initial or restarted run.
 
-</td></tr><tr><td id="d55658e234">
+</td></tr><tr><td id="d54449e234">
 
 **Skip on first run**
 

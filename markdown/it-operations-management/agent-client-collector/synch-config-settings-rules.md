@@ -7,7 +7,7 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Create a configuration settings rule, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
 ---

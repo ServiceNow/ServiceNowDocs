@@ -22,11 +22,11 @@ Role required: external\_app\_install\_admin
 
 ## About this task
 
-You can connect multiple ServiceNow instances to one Microsoft Teams tenant. For more information, see .
+You can connect multiple ServiceNow instances to one Microsoft Teams tenant. For more information, see [Integrating multiple ServiceNow instances with a single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/va-integ-single-teams.md).
 
 Multiple self-configured app environments can be connected to the Microsoft Teams tenant as you can create separate Azure apps for each self-configured app environment.
 
-This process is for configuring a Microsoft Teams manifest file, which dictates how an application would behave in Microsoft Teams. For information about the manifest generation provided by ITSM/HR, see , which includes more available configurations.
+This process is for configuring a Microsoft Teams manifest file, which dictates how an application would behave in Microsoft Teams. For information about the manifest generation provided by ITSM/HR, see [Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md), which includes more available configurations.
 
 **Note:** You can only connect one pre-published app setup to the Microsoft Teams tenant. For information about creating a manifest file for pre-published apps, see [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
 
@@ -127,9 +127,9 @@ Option to use the default images for branding.**Note:** If you want to customize
     -   Select **Connect multiple ServiceNow instances to your Microsoft Teams tenant** to connect multiple ServiceNow instances to one Microsoft Teams tenant.
     \[Omitted image "configure-va-tab.png"\] Alt text: Configure Virtual Agent tab
 
-    To configure the Virtual Agent in your instance, select **Configure Virtual Agent**. For more information, see Conversational Integration with Microsoft Teams.
+    To configure the Virtual Agent in your instance, select **Configure Virtual Agent**. For more information, see [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md).
 
-    To integrate Virtual Agent with Microsoft Teams by configuring your own bots, see Integrating Virtual Agent with Microsoft Teams using the self-configured bot.
+    To integrate Virtual Agent with Microsoft Teams by configuring your own bots, see [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md).
 
 7.  In the **Configure Tab** section, fill in the fields.
 

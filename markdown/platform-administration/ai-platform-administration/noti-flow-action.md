@@ -72,7 +72,7 @@ Choose Flow or Action
 
 </td><td>
 
-Option to select either Flow or Action. See Flow Designer for more information.**Note:** You can select either Flow or Action, but not both.
+Option to select either Flow or Action. See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md) for more information.**Note:** You can select either Flow or Action, but not both.
 
 </td></tr><tr><td>
 

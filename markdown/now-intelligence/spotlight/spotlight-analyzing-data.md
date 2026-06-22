@@ -44,5 +44,5 @@ When creating, modifying, or deleting database views, Spotlight runs these busin
 **Related topics**  
 
 
-[bundle-platadm.c_DatabaseViews]
+[Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md)
 

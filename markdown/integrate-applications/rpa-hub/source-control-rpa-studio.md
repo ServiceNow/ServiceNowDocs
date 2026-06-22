@@ -34,15 +34,15 @@ Role required: none
 
 4.  In the COMPARE PROCESSES dialog box, under the Remote section, select any of the following source types to open the automation project from the **Source** field.
 
-<table id="choicetable_kpm_xyv_prb"><thead><tr><th align="left" id="d97162e134">
+<table id="choicetable_kpm_xyv_prb"><thead><tr><th align="left" id="d92276e134">
 
 Option
 
-</th><th align="left" id="d97162e137">
+</th><th align="left" id="d92276e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d97162e143">
+</th></tr></thead><tbody><tr><td id="d92276e143">
 
 **Remote**
 
@@ -55,7 +55,7 @@ Action
 5.  From the Select a Document version list, select a package version.
 
 
-</td></tr><tr><td id="d97162e182">
+</td></tr><tr><td id="d92276e182">
 
 **Local**
 

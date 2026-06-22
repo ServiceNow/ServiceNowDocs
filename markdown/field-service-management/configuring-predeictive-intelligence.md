@@ -16,7 +16,7 @@ breadcrumb: [Setting up FSM reports and analytics, Configure, Field Service Mana
 
 Predictive Intelligence solution definitions helps assisting agents with various tasks.
 
-Predictive Intelligence for Field Service Management provides solution definitions for work orders. These solution definitions recommend similar work orders, knowledge articles, or part requirements based on the text entered in the **Short description** field. For more information about solution definitions and their types, see Predictive Intelligence.
+Predictive Intelligence for Field Service Management provides solution definitions for work orders. These solution definitions recommend similar work orders, knowledge articles, or part requirements based on the text entered in the **Short description** field. For more information about solution definitions and their types, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 [Activate Predictive Intelligence for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/Activate-predictive-intl-fsm.md)
 

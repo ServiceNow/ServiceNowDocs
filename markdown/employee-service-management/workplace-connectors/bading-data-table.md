@@ -60,7 +60,7 @@ Event Data
 
 </td><td>
 
-Time series data. Select this value to visualize the time-series data in different transforms. For more information, see .
+Time series data. Select this value to visualize the time-series data in different transforms. For more information, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/metricbase-transforms.md).
 
 </td></tr></tbody>
 </table>    The Badging Data table data is loaded to the Attendance Analytics table to generate space occupancy metrics in Workplace Central. For more information, see [Attendance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/attendance-analytics.md).

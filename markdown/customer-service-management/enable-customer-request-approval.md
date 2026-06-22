@@ -46,6 +46,6 @@ Use this feature to send approval requests and enable external customers with th
     -   Request Item \(sc\_req\_item\)
     **Note:** The sn\_esm\_user role provides access to the approval records where the logged-in user is the approver and enables the logged-in user to either approve or reject the approval request. Customer Service Management requester roles \(including the customer contact, partner contact, customer admin, and partner admin roles\) contain the sn\_esm\_user role, which enables these roles to perform the approve and actions.
 
-    For more information, see Table ACL rules and Field ACL rules.
+    For more information, see [Table ACL rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/acl-rule-types.md#section_tjv_xcn_l1b) and [Field ACL rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/acl-rule-types.md#section_tgm_xcn_l1b).
 
 

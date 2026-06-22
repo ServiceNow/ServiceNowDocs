@@ -41,5 +41,5 @@ Configure the Patient information related list inHealthcare workspace used by he
 Enable healthcare agents to view relevant patient information within a healthcare case.
 
 </td></tr></tbody>
-</table>**Note:** For more information about the tasks required for setting up Healthcare workspace for agents, see Setting up your Configurable Workspace.
+</table>**Note:** For more information about the tasks required for setting up Healthcare workspace for agents, see [Setting up your Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_set-up-configurable-workspace.md).
 

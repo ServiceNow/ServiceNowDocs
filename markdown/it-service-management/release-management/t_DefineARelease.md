@@ -128,7 +128,7 @@ Duration of the release in days. When you submit the form, this field auto-popul
 
 -   Attach documents such as release and deployment plans, installation manuals, and training documentation to a release.
 
-    For more information, see Add and manage attachments.
+    For more information, see [Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/t_AddingAnAttachment.md).
 
 -   Releases can have child releases. So, you can group minor releases under major releases.
 

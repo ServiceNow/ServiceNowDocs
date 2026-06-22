@@ -37,7 +37,7 @@ Improve security incident routing for the security analysts by configuring the A
 
     2.  Select the **Security Incident** service channel.
 
-        This service channel is available in the base system. For information about customizing the channel, see .
+        This service channel is available in the base system. For information about customizing the channel, see [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md).
 
 2.  Configure assignment rules for assigning security incidents.
 
@@ -45,7 +45,7 @@ Improve security incident routing for the security analysts by configuring the A
 
     2.  Select **Security Incident assignment rule**.
 
-        The **Security Incident assignment rule** is available in the base system. For information about how to customize assignment rules, see .
+        The **Security Incident assignment rule** is available in the base system. For information about how to customize assignment rules, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
     3.  Enable auto-assignment of analysts by selecting **Enable auto-assign work items**.
 
@@ -59,7 +59,7 @@ Improve security incident routing for the security analysts by configuring the A
 
         The Security Incident Queue is available in the base system. You can customize the queue as needed.
 
-        Create additional queues if you need. For each new queue, define **Work Item Routing Conditions** to ensure that security incidents are directed to the appropriate queue. For more information, see .
+        Create additional queues if you need. For each new queue, define **Work Item Routing Conditions** to ensure that security incidents are directed to the appropriate queue. For more information, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
 
     3.  In the Assignment Eligibility section, select **New**.
 
@@ -106,7 +106,7 @@ Option to enable security analyst groups to be assigned.
 
     2.  Add or update available presence states for an analyst.
 
-        By default, the Available state is inactive. If the Available state isn’t enabled, AWA doesn’t route incidents to security analysts. For more information, see .
+        By default, the Available state is inactive. If the Available state isn’t enabled, AWA doesn’t route incidents to security analysts. For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md).
 
 5.  Configure reject reasons for an analyst to select when rejecting a security incident.
 
@@ -116,6 +116,6 @@ Option to enable security analyst groups to be assigned.
 
     2.  Add or update rejection reasons available to a security analyst.
 
-        For more information, see .
+        For more information, see [Configure reasons for rejecting work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-reject-reasons.md).
 
 

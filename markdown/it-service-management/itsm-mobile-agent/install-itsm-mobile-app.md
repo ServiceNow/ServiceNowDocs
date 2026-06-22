@@ -22,7 +22,7 @@ Roles required: none
 
 Ensure that ITSM Mobile Agent is installed from ServiceNow Store onto your instance. For more information, see [Install ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-mobile-agent/install-itsm-mobile-agent.md).
 
-On your mobile, install the ServiceNow Agent app \(from Apple App Store or Google Play Store\). For more information about this app, see Mobile Agent.
+On your mobile, install the ServiceNow Agent app \(from Apple App Store or Google Play Store\). For more information about this app, see [Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-experience.md).
 
 ## Procedure
 

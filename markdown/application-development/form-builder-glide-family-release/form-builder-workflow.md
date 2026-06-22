@@ -151,8 +151,8 @@ Advanced table properties menu \(\[Omitted image "fb-advancedtable-icon.png"\] A
 
 Choose an option:
 
--   **Advanced view** to manage the advanced properties in the selected table. For more information, see Table administration.
--   **Form designer** to launch the selected table in Form Designer. For more information, see Using the Form Designer.
+-   **Advanced view** to manage the advanced properties in the selected table. For more information, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
+-   **Form designer** to launch the selected table in Form Designer. For more information, see [Using the Form Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_FormDesign.md).
 -   **Delete table** to delete the selected table.
 
 **Note:** This option only appears on the Data tab.

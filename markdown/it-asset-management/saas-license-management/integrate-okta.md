@@ -148,7 +148,7 @@ To create an Okta integration profile, request the Software Asset Management - S
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **Okta Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Okta Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -160,15 +160,15 @@ If you’re using Software Asset Workspace, the option to create the Okta integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d115206e514">
+<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d115255e515">
 
 Interface
 
-</th><th align="left" id="d115206e517">
+</th><th align="left" id="d115255e518">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d115206e523">
+</th></tr></thead><tbody><tr><td id="d115255e524">
 
 **Core UI**
 
@@ -179,7 +179,7 @@ Action
 3.  Select **Okta Integration Profile**.
 
 
-</td></tr><tr><td id="d115206e565">
+</td></tr><tr><td id="d115255e566">
 
 **Software Asset Workspace**
 
@@ -283,15 +283,15 @@ Option for creating a direct integration profile to view Okta subscriptions afte
 
 5.  Open the Create Connection and Credential dialog box.
 
-<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d115206e944">
+<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d115255e945">
 
 Interface
 
-</th><th align="left" id="d115206e947">
+</th><th align="left" id="d115255e948">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d115206e953">
+</th></tr></thead><tbody><tr><td id="d115255e954">
 
 **Core UI**
 
@@ -299,7 +299,7 @@ Action
 
 Select the **Create New Connection &amp; Credential** related link on the SSO integration profile form.
 
-</td></tr><tr><td id="d115206e965">
+</td></tr><tr><td id="d115255e966">
 
 **Software Asset Workspace**
 

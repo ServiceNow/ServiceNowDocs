@@ -34,7 +34,7 @@ Role required: sn\_si.read or higher
 **Related topics**  
 
 
-[bundle-platadm.c_IntroductionToSearching]
+[Introduction to searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-administration/c_IntroductionToSearching.md)
 
-[bundle-platadm.c_ZingTextSearch]
+[Zing text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 

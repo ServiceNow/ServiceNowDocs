@@ -30,15 +30,15 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 4.  Edit the fields as necessary.
 
-<table id="choicetable_inw_zcy_5gc"><thead><tr><th align="left" id="d22812e103">
+<table id="choicetable_inw_zcy_5gc"><thead><tr><th align="left" id="d22782e103">
 
 Field
 
-</th><th align="left" id="d22812e106">
+</th><th align="left" id="d22782e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d22812e112">
+</th></tr></thead><tbody><tr><td id="d22782e112">
 
 **Name**
 
@@ -46,7 +46,7 @@ Description
 
 Edit the name of the dashboard.
 
-</td></tr><tr><td id="d22812e121">
+</td></tr><tr><td id="d22782e121">
 
 **Description**
 
@@ -54,7 +54,7 @@ Edit the name of the dashboard.
 
 Fill in the description to provide further context about the purpose of the dashboard.
 
-</td></tr><tr><td id="d22812e130">
+</td></tr><tr><td id="d22782e130">
 
 **Mark as certified**
 
@@ -62,9 +62,9 @@ Fill in the description to provide further context about the purpose of the dash
 
 Mark the dashboard as certified to inform the user that the dashboard is for use across the organization.
 
- **Note:** You must have an admin role to mark a dashboard as certified. For more information, see .
+ **Note:** You must have an admin role to mark a dashboard as certified. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/certify-db-ac.md).
 
-</td></tr><tr><td id="d22812e148">
+</td></tr><tr><td id="d22782e149">
 
 **Dashboard visibility**
 
@@ -72,15 +72,15 @@ Mark the dashboard as certified to inform the user that the dashboard is for use
 
 View, add, or remove workspaces in which the dashboard can be viewed.**Note:** If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit ESG Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/operational-sustainability-management/edit-esg-dashboards.md).
 
-</td></tr><tr><td id="d22812e167">
+</td></tr><tr><td id="d22782e168">
 
 **Create new category**
 
 </td><td>
 
-Specify one or more dashboard categories.**Note:** For more information, see .
+Specify one or more dashboard categories.**Note:** For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/db-categories.md).
 
-</td></tr><tr><td id="d22812e181">
+</td></tr><tr><td id="d22782e183">
 
 **Requested by**
 
@@ -88,7 +88,7 @@ Specify one or more dashboard categories.**Note:** For more information, see .
 
 Specify who requested the dashboard.**Note:** This user is considered a responsible user. The data visualization is shared with them, with editing permissions.
 
-</td></tr><tr><td id="d22812e192">
+</td></tr><tr><td id="d22782e194">
 
 **Owner**
 
@@ -96,7 +96,7 @@ Specify who requested the dashboard.**Note:** This user is considered a responsi
 
 Specify the owner of the dashboard.**Note:** By default, the owner is the creator of the dashboard, but the creator or owner can assign ownership to another user.
 
-</td></tr><tr><td id="d22812e203">
+</td></tr><tr><td id="d22782e205">
 
 **Owner Group**
 
@@ -104,7 +104,7 @@ Specify the owner of the dashboard.**Note:** By default, the owner is the creato
 
 Specify an owner group.**Note:** The owner of a dashboard can be an entire group rather than a single person.
 
-</td></tr><tr><td id="d22812e214">
+</td></tr><tr><td id="d22782e216">
 
 **Created by**
 
@@ -112,7 +112,7 @@ Specify an owner group.**Note:** The owner of a dashboard can be an entire group
 
 See who created the dashboard.
 
-</td></tr><tr><td id="d22812e223">
+</td></tr><tr><td id="d22782e225">
 
 **Last updated by**
 
@@ -120,7 +120,7 @@ See who created the dashboard.
 
 See who updated the dashboard along with the date and time details.
 
-</td></tr><tr><td id="d22812e233">
+</td></tr><tr><td id="d22782e235">
 
 **Shared with**
 

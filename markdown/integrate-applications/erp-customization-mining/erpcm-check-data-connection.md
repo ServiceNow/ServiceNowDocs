@@ -47,15 +47,15 @@ You can receive email notifications for connection task success and failures. Fo
 
 4.  View a refined subset of connection tasks by selecting one of the following tabs.
 
-<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d129371e215">
+<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d124485e215">
 
 Tab
 
-</th><th align="left" id="d129371e218">
+</th><th align="left" id="d124485e218">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d129371e224">
+</th></tr></thead><tbody><tr><td id="d124485e224">
 
 **All tasks**
 
@@ -63,7 +63,7 @@ Description
 
 Log list of all connection tasks.
 
-</td></tr><tr><td id="d129371e233">
+</td></tr><tr><td id="d124485e233">
 
 **Task issues**
 
@@ -71,7 +71,7 @@ Log list of all connection tasks.
 
 Log list of all connection tasks that have an **Error** or **Warning** status.
 
-</td></tr><tr><td id="d129371e248">
+</td></tr><tr><td id="d124485e248">
 
 **Snapshots**
 

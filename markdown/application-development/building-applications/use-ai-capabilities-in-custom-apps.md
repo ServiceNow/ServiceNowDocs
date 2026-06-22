@@ -55,7 +55,7 @@ Now Assist for App Engine is also used when developing custom applications in no
 
 |Persona|Benefit|Stage in the application life cycle|AI capability|
 |-------|-------|-----------------------------------|-------------|
-|Developer|Build and test applications and application elements quickly with generative and agentic AI capabilities.|Development, testing||
+|Developer|Build and test applications and application elements quickly with generative and agentic AI capabilities.|Development, testing|[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md)|
 |Developer|Agentically develop entire applications with Build Agent|Development, testing|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/build-agent.md)|
 |Developer|Enhance custom applications with Now Assist AI assets, or build custom skills and agentic workflows.|Development, testing|[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|
 |Requester, fulfiller, custom application user|Leverage AI assets in custom applications at runtime to help improve productivity and efficiency.|Release, post-release|[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|

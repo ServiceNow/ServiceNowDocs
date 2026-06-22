@@ -19,7 +19,7 @@ When you add credentials to an image template, the credentials are inherited by 
 ## Before you begin
 
 -   Role required: cloud\_admin
--   A set of basic authentication credentials must exist.
+-   A set of [basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md) must exist.
 
 ## Procedure
 

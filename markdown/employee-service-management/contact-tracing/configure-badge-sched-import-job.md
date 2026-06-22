@@ -37,7 +37,7 @@ These jobs are set for manual execution to import the [badge access data](https:
 
 3.  Review and modify the settings as required.
 
-    For more information on configuring a scheduled data import, see Schedule a data import.
+    For more information on configuring a scheduled data import, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
 
 4.  Click **Update**.
 
@@ -47,5 +47,5 @@ These jobs are set for manual execution to import the [badge access data](https:
 **Related topics**  
 
 
-[bundle-crint.t_ScheduleADataImport]
+[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md)
 

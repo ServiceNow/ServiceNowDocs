@@ -42,7 +42,7 @@ To enable AI agents in Virtual Agent:
 
     \[Omitted image "assistant-skill.png"\] Alt text: AI agents skill.
 
-3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see .
+3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
 
     \[Omitted image "va-card-ai-agent.png"\] Alt text: Adding VA assistants to AI agent.
 

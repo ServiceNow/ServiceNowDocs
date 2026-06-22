@@ -40,12 +40,12 @@ Role required: agent\_client\_collector\_admin
 
     \[Omitted image "configuration-tab-monitor-tech-dashboard.png"\] Alt text: Monitoring Technology Dashboard Configuration tab
 
-    For details on working with data visualizations, see Data visualizations in the Analytics Center Data visualizations in the Analytics Center.
+    For details on working with data visualizations, see [Data visualizations in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center-data-visualizations.md) [Data visualizations in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
 8.  Select **Save and close**.
 
 
 ## Result
 
-Your customized widgets are saved in the Data Visualizations library, and can be used to configure a customized dashboard \(see Create a dashboard with the In-line editor\).
+Your customized widgets are saved in the Data Visualizations library, and can be used to configure a customized dashboard \(see [Create a dashboard with the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-db-in-ac.md)\).
 

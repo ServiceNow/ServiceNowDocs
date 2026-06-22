@@ -24,7 +24,7 @@ In the chat widow, click the icon next to the HR case number to access the detai
 
 **Note:** When an agent is not assigned to an HR case, some features are not available from the Employee Center. For example, the Ask a Question link to chat about a specific case cannot assign an agent. For information on automatically assigning an HR agent to a case, see [Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
-See Connect.
+See [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/connect/c_Connect.md).
 
 -   **[Manage the HR chat queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_ManageTheHRChatQueue.md)**  
 You can configure the HR department chat queue and review the chat records to measure how well employees are being assisted when they initiate a conversation.

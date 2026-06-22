@@ -54,7 +54,7 @@ The CIMIntegrationAPI defines the inbound and outbound extension points for inte
 
 9.  For outbound integrations, configure related links on CIM task records to integrated applications.
 
-    For more information, see .
+    For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_EditingAUIAction.md).
 
 
 **Parent Topic:**[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/get-started-cim.md)

@@ -16,7 +16,7 @@ breadcrumb: [Workflows and workflow template, Security Incident Response Orchest
 
 Several workflows and activities are included with Security Incident Response Orchestration.
 
-Only users with the sn\_sec\_cmn.admin role can Workflow editor.
+Only users with the sn\_sec\_cmn.admin role can [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/legacy-workflow/workflow-editor.md).
 
 -   **[Create Lookup Request for IoC Changes workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_CreateScanRequestforIoCChanges.md)**  
 The **Security Incident Response - Create Lookup Request for IoC Changes** flow is triggered by a business rule to run automatically when an IoC is added or changed. Malware scans are triggered only when new data is entered and only the new data is scanned.

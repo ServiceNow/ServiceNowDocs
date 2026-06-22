@@ -21,7 +21,7 @@ Customize the appearance of catalogs in Virtual Agent to match your business' br
 
 Role required: admin, virtual\_agent\_admin
 
-Download Theme Builder from the ServiceNow Store and activate the plugin \(sn\_theme\_builder\). For more information, see .
+Download Theme Builder from the ServiceNow Store and activate the plugin \(sn\_theme\_builder\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
 
 ## About this task
 
@@ -33,7 +33,7 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
 2.  Create a new theme by providing primary and secondary colors.
 
-    **Note:** You can match your colors to the Chat Header Background and Chat Background colors in the branding record of your choice. For more information creating themes, see .
+    **Note:** You can match your colors to the Chat Header Background and Chat Background colors in the branding record of your choice. For more information creating themes, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/tb-create-theme.md).
 
 3.  Save your theme.
 

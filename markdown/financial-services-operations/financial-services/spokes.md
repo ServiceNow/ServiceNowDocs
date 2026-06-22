@@ -20,18 +20,18 @@ A spoke is a scoped application containing Workflow Studio content dedicated to 
 
 |Plugin name|What you can do|Plugin directory|
 |-----------|---------------|----------------|
-||Access customer credit history, fraud alerts, digital identity verification, and transaction screening to enhance risk checks and onboarding workflows.|\[com.sn\_equifax\_spoke\]|
-||View merchant details, control subscriptions, and manage disputes with access to digital receipts and transaction data.|\[com.sn\_ethoca\_spoke\]|
-||Automate account management, transaction processing, and fraud detection by adding financial process actions to flows.|\[com.sn.jha.spoke\]|
-||Improve onboarding and authentication by validating user identity, performing risk assessments, and detecting fraud.|\[com.sn\_socure\_spoke\]|
-||Search transactions, create claims, and process chargebacks as part of the Mastercard dispute handling process.|\[com.sn\_mastercard\_spoke\]|
-||Automate Visa card dispute processes by invoking Visa APIs for end-to-end case management.|\[com.sn\_visa\_spoke\]|
-||Resolve pre-disputes, prevent chargebacks, and manage the dispute resolution process efficiently.|\[com.sn\_verifi\_spoke\]|
+|[Equifax Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/equifax-spoke.md)|Access customer credit history, fraud alerts, digital identity verification, and transaction screening to enhance risk checks and onboarding workflows.|\[com.sn\_equifax\_spoke\]|
+|[Ethoca spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/ethoca-spoke.md)|View merchant details, control subscriptions, and manage disputes with access to digital receipts and transaction data.|\[com.sn\_ethoca\_spoke\]|
+|[Jack Henry jXchange Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/jha-spoke.md)|Automate account management, transaction processing, and fraud detection by adding financial process actions to flows.|\[com.sn.jha.spoke\]|
+|[Socure Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/socure-fso.md)|Improve onboarding and authentication by validating user identity, performing risk assessments, and detecting fraud.|\[com.sn\_socure\_spoke\]|
+|[Mastercard Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/mastercard-spoke.md)|Search transactions, create claims, and process chargebacks as part of the Mastercard dispute handling process.|\[com.sn\_mastercard\_spoke\]|
+|[Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/visa-spoke.md)|Automate Visa card dispute processes by invoking Visa APIs for end-to-end case management.|\[com.sn\_visa\_spoke\]|
+|[Verifi Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/verifi-spoke.md)|Resolve pre-disputes, prevent chargebacks, and manage the dispute resolution process efficiently.|\[com.sn\_verifi\_spoke\]|
 
 |Spoke|What you can do|Plugin|
 |-----|---------------|------|
-||Detect fraud and assess risk by analyzing customer data, identifying suspicious activity, and triggering fraud alerts. Integrate these actions into your workflows to enhance fraud prevention.|\[com.sn\_friss\_spoke\]|
-||Manage insurance operations by creating policies, updating claims, and retrieving billing information directly within flows.|\[com.sn\_guidewire\_spoke\]|
+|[FRISS Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/friss-spoke.md)|Detect fraud and assess risk by analyzing customer data, identifying suspicious activity, and triggering fraud alerts. Integrate these actions into your workflows to enhance fraud prevention.|\[com.sn\_friss\_spoke\]|
+|[Guidewire Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/guidewire-spoke.md)|Manage insurance operations by creating policies, updating claims, and retrieving billing information directly within flows.|\[com.sn\_guidewire\_spoke\]|
 
 **Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-integrate-other-applications.md)
 

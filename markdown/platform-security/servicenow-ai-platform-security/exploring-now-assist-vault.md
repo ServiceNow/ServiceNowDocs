@@ -18,7 +18,7 @@ With the Now Assist for Vault application, you can generate custom data patterns
 
 ## Ask Now Assist panel in ServiceNow Vault console
 
-The Ask Now Assist panel in ServiceNow Vault console lists skills to accomplish common security tasks. Selecting a skill opens a conversational interface that lets you accomplish a task through prompts. For more information about the Now Assist conversational interface, see .
+The Ask Now Assist panel in ServiceNow Vault console lists skills to accomplish common security tasks. Selecting a skill opens a conversational interface that lets you accomplish a task through prompts. For more information about the Now Assist conversational interface, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 \[Omitted image "ask-now-assist.png"\] Alt text: Ask Now Assist panel with three skills shown.
 

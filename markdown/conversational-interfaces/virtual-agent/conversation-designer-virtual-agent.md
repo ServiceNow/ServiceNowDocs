@@ -26,7 +26,7 @@ You can also view and manage the following in Virtual Agent Designer:
     Virtual Agent conversations can include subflows and actions if they were made conversational in Workflow Studio or topics that include subflows and actions through the Action utility node.
 
     -   Conversational subflows and actions are available in Virtual Agent Designer only if Now Assist in Virtual Agent has been configured.
-    -   Conversational subflows and actions are also shown in Virtual Agent Designer if the Now Assist Panel is available. For more information on the Virtual Agent Designer Panel, see .
+    -   Conversational subflows and actions are also shown in Virtual Agent Designer if the Now Assist Panel is available. For more information on the Virtual Agent Designer Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
     -   Conversational subflows and actions only appear to users during a conversation if the Subflows and actions skill is turned on in Now Assist Admin. For more information, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
     **Note:** Conversational subflows and actions are not applicable to the Virtual Agent Designer legacy topic cards page view.
 
@@ -53,13 +53,13 @@ If you're using ServiceNow NLU/keyword topic discovery, then Virtual Agent Desig
 
 When you open Assistant Designer Asset library, you can see all the assets in your instance. These assets include topics, topic blocks, setup topics, small talk topics, custom controls, subflows, actions, and AI agents.
 
-**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see .
+**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.md).
 
 On the home page, you can access and edit any of these assets in Virtual Agent Designer, and create topics, topic blocks, setup topics, small talk topics, and custom controls.
 
 \[Omitted image "vad-home-page-2.png"\] Alt text: Assistant Designer Asset library page.
 
-**Note:** Conversational subflows and actions are available in Virtual Agent Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in th Assistant Designer Asset library if the Now Assist Panel is available. For more information on the Now Assist Panel, see .
+**Note:** Conversational subflows and actions are available in Virtual Agent Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in th Assistant Designer Asset library if the Now Assist Panel is available. For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar \[Omitted image "search-icon.png"\] Alt text: and filter icon \[Omitted image "filter-icon.png"\] Alt text: to quickly organize and find your topics. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-topics-page.md).
 

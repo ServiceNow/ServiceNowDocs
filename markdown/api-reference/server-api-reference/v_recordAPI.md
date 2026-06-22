@@ -18,7 +18,7 @@ The v\_record API enables you to sets an exception or error message on a remote 
 
 This API executes wherever GlideRecord create, update, and delete methods are used in a script with no changes to workspaces or lists and forms.
 
-This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For more information, see .
+This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For more information, see [Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/create-remote-table-script.md).
 
 Use v\_record with the [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/v_queryAPI.md) scriptable object to query remote tables, and the [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/v_tableAPI.md) API to create remote tables.
 

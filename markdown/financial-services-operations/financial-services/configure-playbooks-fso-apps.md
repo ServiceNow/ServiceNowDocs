@@ -39,7 +39,7 @@ Role required: Based on the application that you are configuring, you need the f
 
 ## About this task
 
-The playbooks are built using ServiceNow Playbooks, so make sure you’re familiar with Process Automation Designer basics.
+The playbooks are built using ServiceNow Playbooks, so make sure you’re familiar with [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/process-automation-designer.md) basics.
 
 For information on playbooks that are installed with Financial Services Operations applications, see [Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/playbooks-fso-apps.md).
 
@@ -53,12 +53,12 @@ For information on playbooks that are installed with Financial Services Operatio
 
     -   To create a playbook, click **New**.
     -   To modify a predefined playbook, open the playbook from the list.
-    For information on how to create or modify playbooks, see Create a process definition.
+    For information on how to create or modify playbooks, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
 3.  Click **Save**.
 
 4.  Test your playbook and click **Activate**.
 
-    For more information, see Test a process.
+    For more information, see [Test a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/test-process.md).
 
 

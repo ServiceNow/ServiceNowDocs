@@ -48,5 +48,5 @@ After you've completed the setup tasks, you and your topic authors can explore t
 **Related topics**  
 
 
-[bundle-platux.guided-setup]
+[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md)
 

@@ -31,7 +31,7 @@ AI voice agents aren’t standalone applications that you can install directly. 
 2.  Search for the following plugins.
 
     -   Now Assist for Platform \(sn\_genai\_platform\) for enabling default platform AI voice agents
-    -   IT Service Management AI voice agent collection \(sn\_itsm\_voice\_aia\) for enabling default ITSM AI voice agents. See  for more information.
+    -   IT Service Management AI voice agent collection \(sn\_itsm\_voice\_aia\) for enabling default ITSM AI voice agents. See [Agentic AI in the Voice application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-voice.md) for more information.
     -   HR Voice AI Agents \(sn\_hr\_voice\_aia\) for enabling default HRSD AI voice agents. See HR AI voice agents for more information.
 3.  Select **Install** to install each of the required plugins.
 

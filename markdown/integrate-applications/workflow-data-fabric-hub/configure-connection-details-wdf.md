@@ -186,7 +186,7 @@ A connection admin can remove an established connection from the Workflow Data F
 
 3.  Delete the connection immediately if it doesn't have any associated tables or delete the associated tables and then delete the connection.
 
-<table id="choicetable_wv5_lmf_w2c"><tbody><tr><td id="d239530e780">
+<table id="choicetable_wv5_lmf_w2c"><tbody><tr><td id="d234646e780">
 
 **Delete a connection without any associated tables**
 
@@ -196,7 +196,7 @@ A connection admin can remove an established connection from the Workflow Data F
 2.  In the confirmation dialog box, select **Delete**.
 
 
-</td></tr><tr><td id="d239530e810">
+</td></tr><tr><td id="d234646e810">
 
 **Delete a connection with associated tables**
 

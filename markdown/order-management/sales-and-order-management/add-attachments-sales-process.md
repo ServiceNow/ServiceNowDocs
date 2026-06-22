@@ -40,15 +40,15 @@ You can attach files only to a sales process record. To add attachments to child
 
     **Note:** The default maximum file size is 1 GB, but this may vary based on the size limit set by your admin on your ServiceNow instance.
 
-<table id="choicetable_rbm_fqz_bgc"><thead><tr><th align="left" id="d82217e129">
+<table id="choicetable_rbm_fqz_bgc"><thead><tr><th align="left" id="d82301e129">
 
 Method
 
-</th><th align="left" id="d82217e132">
+</th><th align="left" id="d82301e132">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d82217e138">
+</th></tr></thead><tbody><tr><td id="d82301e138">
 
 **Drag and drop**
 
@@ -56,7 +56,7 @@ Action
 
 Drag and drop the file from your system to the Attachments pane.
 
-</td></tr><tr><td id="d82217e147">
+</td></tr><tr><td id="d82301e147">
 
 **Select a file from your system**
 

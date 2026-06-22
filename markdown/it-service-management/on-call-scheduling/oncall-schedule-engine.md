@@ -7,7 +7,7 @@ release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Explore, On-Call Scheduling, IT Service Management]
 ---

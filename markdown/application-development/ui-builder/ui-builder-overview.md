@@ -49,7 +49,7 @@ Use the UI Builder library of components to build your pages. Configure them any
 [Advanced\[Omitted image "bus-innovation.svg"\] Alt text:Learn how to add data and make your pages dynamic.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/advanced-uib.md)
 
 </td></tr></tbody>
-</table>**Note:** UI Builder isn't yet capable of building or configuring ServiceNow base system service portals, such as the Employee Center. For service portals, continue to use the Service Portal Designer.
+</table>**Note:** UI Builder isn't yet capable of building or configuring ServiceNow base system service portals, such as the Employee Center. For service portals, continue to use the [Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 ## Troubleshoot and get help with UI Builder
 

@@ -94,7 +94,7 @@ Bar\[Omitted image "column-icon.png"\] Alt text: Bar icon.
 Number of expiring contracts that you have executed. The contracts are grouped by the number of days before the contract expires.
 
 </td></tr></tbody>
-</table>The Contract Workspace is built through the configurable UI Builder application. For more information, see .
+</table>The Contract Workspace is built through the configurable UI Builder application. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 Access to the Contract Workspace requires activation of the Contract Workspace plugin. For more information, see [Activate Contract Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-activate-contract-workspace-plugin.md).
 

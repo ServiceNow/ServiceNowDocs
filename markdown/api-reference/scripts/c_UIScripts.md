@@ -116,7 +116,7 @@ Follow these guidelines when running UI scripts.
 
 ### Run a UI script from a form
 
-To run a UI script on a form, Create a formatter and add it to a form. In the associated [UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_UIMacros.md), include a `g:requires` tag and specify the **name=** parameter as the name of the UI script followed by the .jsdbx extension. Add the formatter on the form view.
+To run a UI script on a form, [Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateAFormatter.md). In the associated [UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_UIMacros.md), include a `g:requires` tag and specify the **name=** parameter as the name of the UI script followed by the .jsdbx extension. Add the formatter on the form view.
 
 This code ensures that the definitions and results of the UI script are immediately available in the browser.
 

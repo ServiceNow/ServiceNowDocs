@@ -112,7 +112,7 @@ Exact matches open in the selected workspace application. For example, if you se
 
 ## Customize display fields for your search result previews
 
-Search result previews display a default set of AI Search index fields. If you have the ais\_admin role, you can customize the set of index fields a search result preview displays by modifying its EVAM view configuration. For information on EVAM view configurations, see Entity View Action Mapping.
+Search result previews display a default set of AI Search index fields. If you have the ais\_admin role, you can customize the set of index fields a search result preview displays by modifying its EVAM view configuration. For information on EVAM view configurations, see [Entity View Action Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/entity-view-action-mapper-evam/exploring-entity-view-action-mapper.md).
 
 When customizing a search result preview's EVAM view configuration, you can reference the AI Search index fields that exist on the previewed search result. To add a new AI Search index field to search results from an indexed source, define a **map\_to** field setting. This field setting populates the index field on each affected search result with the value of a field you specify from the search result's source record or document. For an overview of mapping source fields to AI Search index fields, see [Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/field-settings-ais.md). To create a new **map\_to** field setting for one of your indexed sources, see [Create a field setting for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-field-setting-ais.md).
 
@@ -125,12 +125,12 @@ If Now Assist in Virtual Agent enhanced chat is activated in the Now Assist pane
 To see this enhanced chat entry point behavior, your instance must satisfy all of the following conditions:
 
 -   [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-ais.md) is installed.
--    is installed.
--   Enhanced chat is activated via the Now Assist panel. For details on activating enhanced chat, see .
+-   [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) is installed.
+-   Enhanced chat is activated via the Now Assist panel. For details on activating enhanced chat, see [Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-enhanced-activate.md).
 
 If these conditions aren't satisfied, the search field in global and workspace search doesn't display the icon and placeholder text or show Now Assist suggestions.
 
-To learn about Now Assist in Virtual Agent enhanced chat, see .
+To learn about Now Assist in Virtual Agent enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
 
 **Parent Topic:**[AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-next-experience-app.md)
 

@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-For more information on Benchmarking, see .
+For more information on Benchmarking, see [Exploring Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/benchmarks/exploring-benchmarks.md).
 
 ## Procedure
 

@@ -54,5 +54,5 @@ For more information about supported LLM models, see [Large language models on t
 The ServiceNow AI Platform® offers a variety of search tools, which may return different answers for the same or similar searches. This disparity in results is expected. For more information, see the following topics:
 
 -   [Discrepancies when using different AI search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/aisearch-differences.md)
--   
+-   [Search result disparities between AI Search and Now Assist search features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/search-disparities-ai-search-now-assist.md)
 

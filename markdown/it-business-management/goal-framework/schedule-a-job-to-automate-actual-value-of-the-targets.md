@@ -36,7 +36,7 @@ By default, the scheduled job runs daily at 00:00:00 AM \(System Time Zone\).
 
 5.  Click **Update**.
 
-    To learn more about scheduled jobs, see Scheduled jobs.
+    To learn more about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/c_ScheduledJobs.md).
 
 
 **Parent Topic:**[Configuring Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/configuring-goal-framework.md)

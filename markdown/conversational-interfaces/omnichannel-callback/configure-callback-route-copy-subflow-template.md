@@ -30,7 +30,7 @@ Role required: admin
 
 4.  Select the \[Omitted image "icon-ellipses.png"\] Alt text: More actions menu more actions icon, and select **Copy subflow**.
 
-    To learn more, see .
+    To learn more, see [Copy a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/copy-subflow.md).
 
 5.  Activate or open the copied subflow.
 
@@ -42,7 +42,7 @@ Role required: admin
 
 7.  Create a Workflow Studio Subflow action to make third-party API calls and publish the subflow.
 
-    To learn more, see .
+    To learn more, see [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/actions.md).
 
     You have successfully copied and executed the subflow.
 

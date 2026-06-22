@@ -39,7 +39,7 @@ A default rule blocks the use of the `update_synch` attribute on a table for whi
 -   Some core tables require special update handling because they represent information on multiple tables. When the `update_synch` attribute is added to these tables, duplicate update records are created, causing major conflicts that are difficult to troubleshoot and repair.
 -   Using the update\_synch attribute to migrate data records between instances can cause performance issues, because it is not intended for this purpose. To migrate data, use an instance-to-instance import.
 
-    See Import sets.
+    See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
 
 
 ## Special handlers
@@ -83,12 +83,12 @@ Homepages and content pages are not added to update sets by default. Add pages t
 
 The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Center dashboards take over homepage functionality.
 
-Use the Homepage deprecation help tool to convert the homepages on your instance to responsive dashboards.
+Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
 
 For more information, see:
 
--   Dashboards in the Analytics Center.
--   Working with responsive dashboards.
+-   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center-dashboards.md).
+-   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_ResponsiveDashboards.md).
 
 ## Application changes
 

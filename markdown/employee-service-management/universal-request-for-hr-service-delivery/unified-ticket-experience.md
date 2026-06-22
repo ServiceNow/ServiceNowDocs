@@ -16,7 +16,7 @@ breadcrumb: [Configure service to use Universal Request, Configure, Universal Re
 
 Set up your service to provide your employees with a unified and consistent ticket experience. This setup automatically creates a universal request when requests are raised from an interaction record, email, or record producer.
 
-You can customise and configure to automatically create universal request for a task from various channels using APIs provided with the Universal Request application. For more information, see UniversalRequestUtilsSNC API.
+You can customise and configure to automatically create universal request for a task from various channels using APIs provided with the Universal Request application. For more information, see [UniversalRequestUtilsSNC API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/UniversalRequestUtilsSNCScopedAPI.md).
 
 Universal Request application supports the creation of universal request from an interaction record in the Agent Workspace. For more information, see [Create a Universal Request from an Interaction Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/use-UR-workspace.md).
 

@@ -22,7 +22,7 @@ For example, you can create a step line report for incident counts, to show how 
 
 **Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Zurich instances, see [Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/time-series-visualization-types.md).
 
-This data visualization is supported on the mobile platform. For more information, see  and .
+This data visualization is supported on the mobile platform. For more information, see [Time series reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-reporting-time-series.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-dashboard-preview.md).
 
 \[Omitted image "step-report.png"\] Alt text: Step line report example
 
@@ -54,7 +54,7 @@ This task refers to the Zurich release using Core UI.
 
 4.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d49746e285">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d49764e287">
 
 **Data source**
 
@@ -62,15 +62,15 @@ This task refers to the Zurich release using Core UI.
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d49746e304">
+</td></tr><tr><td id="d49764e306">
 
 **Table**
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see Retrieving external data using remote tables and scripts
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/remote-tables.md)
 
-</td></tr><tr><td id="d49746e323">
+</td></tr><tr><td id="d49764e325">
 
 **External import**
 
@@ -78,13 +78,13 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d49746e348">
+</td></tr><tr><td id="d49764e350">
 
 **MetricBase**
 
 </td><td>
 
-MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see MetricBase.
+MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/metricbase/metricbase.md).
 
 </td></tr></tbody>
 </table>5.  Select **Next**.
@@ -113,7 +113,7 @@ Group report data using the values of this field. For example, in an incident re
 
  **Note:**
 
--   It is not possible to group or stack reports by the **Tags** field, or by certain MySQL database field types, such as MEDIUMTEXT. For more information, see .
+-   It is not possible to group or stack reports by the **Tags** field, or by certain MySQL database field types, such as MEDIUMTEXT. For more information, see [Database field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_DatabaseFieldTypes.md).
 -   Grouping or stacking by Variables or Questions fields is not supported for reports based on [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
 
@@ -137,7 +137,7 @@ Display data table
 
 </td><td>
 
-Select this option to show report data in a list below the report. The list appears on dashboards where the report is added.All report visualizations show the report data when the glide.ui.section508 system property is set to **true**. The glide.ui.section508 property overrides the **Display data table** field.
+Select this option to show report data in a list below the report. The list appears on dashboards where the report is added.All report visualizations show the report data when the [glide.ui.section508](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md) system property is set to **true**. The glide.ui.section508 property overrides the **Display data table** field.
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Trend by
 
 </td><td>
 
-Table field whose values you want to show in a time sequence. Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field. **Note:** If you selected a remote table in the **Table** field, the option you select in this field aggregates the data that was retrieved from an external source and aggregated in memory. To learn more about remote tables, see Retrieving external data using remote tables and scripts.
+Table field whose values you want to show in a time sequence. Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field. **Note:** If you selected a remote table in the **Table** field, the option you select in this field aggregates the data that was retrieved from an external source and aggregated in memory. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/remote-tables.md).
 
 </td></tr><tr><td>
 
@@ -161,7 +161,7 @@ Calendar
 
 </td><td>
 
-Calendar that is the basis for the time series in the report. Select either the standard calendar or a customized business calendar.
+Calendar that is the basis for the time series in the report. Select either the standard calendar or a [customized business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/business-calendars.md).
 
 </td></tr><tr><td>
 
@@ -236,7 +236,7 @@ Enables you to configure how to show numerical values in reports, including deci
 
 9.  To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see Condition builder.
+    To learn how to construct conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
@@ -372,7 +372,7 @@ Drilldown view
 
 </td><td>
 
-List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See Configure the list layout . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_DrillingDownWithinReports.md).
+List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md) . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_DrillingDownWithinReports.md).
 
 </td></tr><tr><td>
 

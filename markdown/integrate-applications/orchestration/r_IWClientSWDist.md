@@ -231,7 +231,7 @@ Controls how many days the system waits before ignoring the software installatio
  -   **Not installed**: User has not installed requested software prior to the expiration of the configured time limit.
 -   **Installed**: Software was installed within the configured time limit.
 -   **Status check expired**: Time limit has expired for the user to install the requested software. The system no longer checks the status of this deployment.
--   **Revoked**: Software was revoked by the administrator.
+-   **Revoked**: Software was [revoked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/c_SCCMSoftwareRevocation.md) by the administrator.
 
  -   **Type**: integer
 -   **Default value**: 30

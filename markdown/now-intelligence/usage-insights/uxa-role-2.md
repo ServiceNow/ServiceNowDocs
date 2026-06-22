@@ -28,7 +28,7 @@ Mobile analytics admin \[mobile\_analytics\_admin\] is included in the Mobile an
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
-For more information, see .
+For more information, see [Usage Insights for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-analytics.md).
 
 **Parent Topic:**[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 

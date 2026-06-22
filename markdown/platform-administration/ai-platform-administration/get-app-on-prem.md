@@ -45,15 +45,15 @@ If your on-premise instance has been connected to the ServiceNow Store, refer to
     -   Select **Use existing** if you recently downloaded an application for the same instance you selected in step 3. If no certificate is automatically populated when you select **Use existing**, select **Generate new** or **Upload new** instead.
     -   Select **Generate new** if you don't have an encryption certificate or if your encryption certificate has expired.
     -   Select **Upload new** if you want to use the same encryption certificate you generated to install an application on a different instance.
-<table><thead><tr><th align="left" id="d221219e238">
+<table><thead><tr><th align="left" id="d221279e238">
 
 Option
 
-</th><th align="left" id="d221219e241">
+</th><th align="left" id="d221279e241">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d221219e247">
+</th></tr></thead><tbody><tr><td id="d221279e247">
 
 **__Use existing__**
 
@@ -61,7 +61,7 @@ Procedure
 
 If a certificate is automatically populated, proceed to the next step. If no certificate is automatically populated, select **Generate new** or **Upload new** instead.
 
-</td></tr><tr><td id="d221219e263">
+</td></tr><tr><td id="d221279e263">
 
 **__Generate new__**
 
@@ -71,7 +71,7 @@ If a certificate is automatically populated, proceed to the next step. If no cer
 2.  Select **Generate**.
  A new encryption certificate is available for download.
 
-</td></tr><tr><td id="d221219e292">
+</td></tr><tr><td id="d221279e292">
 
 **__Upload new__**
 

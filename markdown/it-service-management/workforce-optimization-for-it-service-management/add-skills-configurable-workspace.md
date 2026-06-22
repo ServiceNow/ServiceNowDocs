@@ -30,15 +30,15 @@ Role required: skill\_manager
 
 4.  Add a skill or update a skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d66021e98">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d66086e98">
 
 To
 
-</th><th align="left" id="d66021e101">
+</th><th align="left" id="d66086e101">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d66021e107">
+</th></tr></thead><tbody><tr><td id="d66086e107">
 
 **Add a skill**
 
@@ -50,7 +50,7 @@ Do this
 
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d66021e139">
+</td></tr><tr><td id="d66086e139">
 
 **Update a skill level**
 

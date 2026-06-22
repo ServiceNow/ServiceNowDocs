@@ -62,10 +62,10 @@ When you create a version for a currently published specification, the system co
     -   **Display Name**. The display name is the system-assigned concatenation of the specification name and its current version number. You can overwrite this field.
     -   **Initial Version**. The name of the base version of the specification appears but can't be changed.
     -   **Previous Version**. The name of the specification is as it was in the previous version.
-4.  Copies the associated characteristic and characteristic options. To learn more, see .
+4.  Copies the associated characteristic and characteristic options. To learn more, see [Create the characteristics and characteristic options for your product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/order-mgt-characteristics.md).
 5.  Copies the associated specification relationships, attribute mapping, decomposition rules, and quantity mappings when you use extension point scripts. When copied, the source specifications in the associated specification relationship and decomposition rule records are automatically updated to the current versions of the source specifications.
 
-    **Note:** To learn more about these rules, see .
+    **Note:** To learn more about these rules, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/order-mgt-specification-rels.md).
 
 6.  Copies the associated quantity mappings and attribute propagation rules. The source specifications in the quantity mappings and attribute propagation rules are also updated to the current versions. To learn more about these rules, see .
 

@@ -8,7 +8,7 @@ product: Mobile Platform
 classification: mobile-platform
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [User criteria permissions, User roles/criteria permissions, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -35,7 +35,7 @@ When working with user criteria in the Mobile App Builder, you assign existing u
 
     **Note:** Use the following resources when creating a user criteria.
 
-    -   : Describes the various fields in the User Criteria record form.
+    -   [Create a user criteria record for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/create-user-criteria-record.md): Describes the various fields in the User Criteria record form.
     -   [Scripts in user criteria](https://www.servicenow.com/community/itsm-blog/scripts-in-user-criteria/ba-p/2294597): Describes how to use scripting logic and apply it to user criteria permissions.
 
 ## Procedure

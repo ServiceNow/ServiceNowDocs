@@ -63,8 +63,8 @@ Activate the plugins listed on the ServiceNow Store page for Cloud Cost Manageme
 
 </td><td>
 
-For instructions, see:-   Request as plugin
--   Activate a plugin
+For instructions, see:-   [Request as plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_RequestAPlugin.md)
+-   [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md)
 
 </td></tr></tbody>
 </table>## Overview: Setting up Cloud Cost Management

@@ -25,9 +25,9 @@ This API supports the following input types:
 -   Reference
 -   String
 
-This API can be used with the [MobileScriptIncludeCaller - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileScriptInclCallerClientAPI.md) API to auto-fill inputs on input form screens. For more information about input form screens, see .
+This API can be used with the [MobileScriptIncludeCaller - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/MobileScriptInclCallerClientAPI.md) API to auto-fill inputs on input form screens. For more information about input form screens, see [Input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/parameter-input-screen.md).
 
-Use this API in the **Client script** field of a Mobile UI Rule Action. For instructions on configuring a Mobile UI Rule Action with the correct settings for this API, see .
+Use this API in the **Client script** field of a Mobile UI Rule Action. For instructions on configuring a Mobile UI Rule Action with the correct settings for this API, see [Configure auto-fill inputs on input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/config-autofil-inputs-nptfrmscrn.md).
 
 **Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 

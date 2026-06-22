@@ -19,7 +19,7 @@ Set your action button to open a custom modal by defining the payload parameters
 ## Before you begin
 
 -   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/create-a-new-form-action.md)
--   Activate Customer Service Management
+-   [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/t_ActivateCustomerService.md)
 -   Open your record page in UIB or create a page variant in UI Builder
 -   [Customize your page variant in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/design-a-page-variant-in-uib.md)
 -   [Configure your page variant as a modal in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/configure-a-page-variant-as-a-modal-in-uib.md)

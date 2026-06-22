@@ -27,7 +27,7 @@ Key Features of the Integration
 
 ## Supported Industry Products
 
-This integration supports all Industry Products, each extending the value of data models, frameworks, and capabilities required for work order management in Field Service Management. For more information, see .
+This integration supports all Industry Products, each extending the value of data models, frameworks, and capabilities required for work order management in Field Service Management. For more information, see [CRM and Industry Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/industry-products/industry-products-landing.md).
 
 ## Access to work orders and work order tasks
 

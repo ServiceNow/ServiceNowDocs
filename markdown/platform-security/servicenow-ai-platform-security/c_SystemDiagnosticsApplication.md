@@ -24,6 +24,6 @@ These logs are available:
 
 -   **Slow Queries**
 
-    Provides insight into how queries affect platform performance. See Use a slow query log.
+    Provides insight into how queries affect platform performance. See [Use a slow query log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/platform-performance/t_UseASlowQueryLog.md).
 
 

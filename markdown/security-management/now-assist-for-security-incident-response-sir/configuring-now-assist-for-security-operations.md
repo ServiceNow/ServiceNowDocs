@@ -18,15 +18,15 @@ The Now Assist for Security Incident Response application is supported in the Se
 
 ## Configuration overview
 
-Role masking enables users to limit the roles and privileges of AI agents during tool execution. AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an AI agent.
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of AI agents during tool execution. AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aia.md).
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see .
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 By sharing data with the ServiceNow® AI development program, you provide relevant data to help improve prediction accuracy, user experience, tailor products to your business needs, and reduce hallucinations for your activated Now Assist skills.
 
-You can opt out of a ServiceNow instance from sharing data from the Now Assist Admin console. See . Repeat the opt-out process for all instances that use the Now Assist functionality.
+You can opt out of a ServiceNow instance from sharing data from the Now Assist Admin console. See [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md). Repeat the opt-out process for all instances that use the Now Assist functionality.
 
-Use the Now Assist Admin console to configure Now Assist for Security Incident Response. This console contains everything to install the applications and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for Security Incident Response. This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-na-landing.md).
 
 **Note:** When you update the Now Assist for Security Incident Response applications, its dependency applications are automatically updated.
 
@@ -83,7 +83,7 @@ Security incident resolution plan
 Security incident quality assessment
 
 </td></tr></tbody>
-</table>1.  .
+</table>1.  [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
     Install the Now Assist for Security Incident Response application \(sn\_sec\_gen\_ai\) and Security Incident Response Core \[sn\_si\] applications.
 

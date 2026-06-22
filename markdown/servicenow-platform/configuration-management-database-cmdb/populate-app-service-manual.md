@@ -79,5 +79,5 @@ The CI from the specified **Class**, to be the entry point for the application s
 ## What to do next
 
 1.  Complete the generic procedure [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
-2.  Manually add CIs to populate the application service.
+2.  [Manually add CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-mapping/manually-add-ci-to-business-service.md) to populate the application service.
 

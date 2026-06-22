@@ -27,5 +27,5 @@ The Onboarding Executive View dashboard requires the Performance Analytics - Con
     -   The **Active Lifecycle Event Cases** dashboard provides a list of all active life-cycle events or onboarding cases with the subject person, state, assigned to, and opened for information. You drill into each case using this dashboard.
     -   It also provides charts for active and overdue tasks.
 
-See, Performance Analytics
+See, [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/pa-overview.md)
 

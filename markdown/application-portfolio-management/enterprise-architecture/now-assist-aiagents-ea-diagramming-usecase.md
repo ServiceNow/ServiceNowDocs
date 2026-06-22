@@ -22,7 +22,7 @@ Use the Generate enterprise architecture diagram agentic workflow to create ente
 
 After generating the diagram, the AI agent suggests summarizing the created business application hierarchy diagram, listing all entities in the diagram and describing the relationship between them.
 
-You can activate the agentic workflow template by setting the display settings to include the Now Assist panel. If you want to change instructions for this agentic workflow, you must duplicate the agentic workflow, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead. For information on how to duplicate a agentic workflow, see duplicate the agentic workflow.
+You can activate the agentic workflow template by setting the display settings to include the Now Assist panel. If you want to change instructions for this agentic workflow, you must duplicate the agentic workflow, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead. For information on how to duplicate a agentic workflow, see [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md).
 
 **Important:**
 
@@ -33,7 +33,7 @@ You can activate the agentic workflow template by setting the display settings t
 
 Required role: sn\_apm.apm\_user.
 
-Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
 ## Generate enterprise architecture diagram agentic workflow
 
@@ -58,7 +58,7 @@ The Enterprise architecture diagrams AI agent is used in the Generate enterprise
 
 ## Activate the Generate enterprise architecture diagram agentic workflow
 
-To activate the Generate enterprise architecture diagram agentic workflow, follow the steps mentioned in .
+To activate the Generate enterprise architecture diagram agentic workflow, follow the steps mentioned in [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-aia-use-case.md).
 
 **Note:** No triggers are required for the Generate enterprise architecture diagram agentic workflow.
 
@@ -66,7 +66,7 @@ However, in the Define key requirements page, in the **Define who can access thi
 
 To add access to more roles, perform the following:
 
-1.  Set your application scope to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see .
+1.  Set your application scope to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
 2.  Select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon.\).
 3.  On the Access Control page, in the **Requires role** section, select **Insert new row**.
 
@@ -80,7 +80,7 @@ To add access to more roles, perform the following:
 
     The new role is added to the **Define who can access this agentic workflow** section of the Define key requirements page.
 
-    **Note:** To know more about security in Now Assist AI agents with Access Control Lists \(ACLs\), see .
+    **Note:** To know more about security in Now Assist AI agents with Access Control Lists \(ACLs\), see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
 
 Also, on the Select a UI display page, do the following:
@@ -100,14 +100,14 @@ Also, on the Select a UI display page, do the following:
 
 To view information on how to create AI agents and agentic workflows and how to use the AI Agent Studio, see the following:
 
--   AI Agent Studio
--   Install the AI Agent Studio
--   Install Now Assist AI Agents
--   
--   
--   
--   
--   
+-   [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/ai-agent-studio.md)
+-   [Install the AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md)
+-   [Install Now Assist AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md)
+-   [Configure Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configuring-ai-agents.md)
+-   [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md)
+-   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md)
+-   [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/test-ai-agent.md)
+-   [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md)
 
 **Parent Topic:**[Using AI agent agentic workflow in Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/enterprise-architecture/using-na-ea-ai-agents.md)
 

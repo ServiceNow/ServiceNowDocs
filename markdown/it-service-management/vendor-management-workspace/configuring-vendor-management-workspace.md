@@ -31,5 +31,5 @@ Find tasks that you need to complete to configure Vendor Management Workspace.
 |Create KPI groups to track vendor metrics.|[Create KPI groups to track metrics for your vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/create-kpi-groups-vendors-configurable-workspace.md)|
 |Create improvement initiatives in Vendor Management Workspace.|[Create an improvement in Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/create-improvement-initiatives-vendor-configurable-workspace.md)|
 |Create a service credit in Vendor Management Workspace.|[Create a service credit in Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/create-vendor-service-credit-configurable-workspace.md)|
-|Integrate with Third-party Risk Management.||
+|Integrate with Third-party Risk Management.|[Configuring Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/third-party-risk-management/tprm-configuring.md)|
 

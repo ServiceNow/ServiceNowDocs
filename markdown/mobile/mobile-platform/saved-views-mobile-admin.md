@@ -7,7 +7,7 @@ release: zurich
 product: Mobile Platform
 classification: mobile-platform
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---

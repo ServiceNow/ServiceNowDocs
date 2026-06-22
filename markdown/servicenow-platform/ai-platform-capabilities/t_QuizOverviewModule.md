@@ -42,7 +42,7 @@ You can view the Quiz Overview dashboard to refresh the view and add new widgets
     |Incorrect Answers by Assigned User|Metric Results \[asmt\_metric\_result\]|
     |Number of Incorrect Answers|Metric Results \[asmt\_metric\_result\]|
 
-    For more information about working with dashboards, see Dashboards.
+    For more information about working with dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/dashboards-landing-page.md).
 
 
 **Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/using-quizzes.md)

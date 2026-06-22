@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.case\_writer
 
 ## About this task
 
-For more information about guided decision trees, see .
+For more information about guided decision trees, see [Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/setting-up-guided-decisions.md).
 
 ## Procedure
 

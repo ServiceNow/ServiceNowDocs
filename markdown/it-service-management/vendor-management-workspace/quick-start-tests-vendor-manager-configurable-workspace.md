@@ -27,5 +27,5 @@ Vendor Management Workspace quick start tests require activating the Vendor Mana
 **Related topics**  
 
 
-[bundle-cadev.quick-start-tests]
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
 

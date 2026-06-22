@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to the Mobile SDK page on the ServiceNow Store web site.
 
-    For details, see .
+    For details, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_InstallApplications.md).
 
 2.  Select **Request Install** to download the Mobile SDK scoped application onto your ServiceNow instance.
 

@@ -58,7 +58,7 @@ Threshold type
 
 Type of threshold. The choices are the following.-   **Static**: A static threshold for a metric or a metric definition refers to a fixed value used as a limit for tracking a metric.
 -   **Dynamic**: Dynamic thresholds are specified in percentages. This means that the percentage variance is calculated based on two factors, direction and previous data.
-For more information, see .
+For more information, see [Thresholds for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/thresholds-for-metrics.md).
 
 </td></tr><tr><td>
 

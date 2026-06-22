@@ -18,7 +18,7 @@ Add a system property to display your preferred event categories first on the ca
 
 ## Before you begin
 
-Set the map application scope to **Shift Planning**. For information on how to set the scope, see Set map application scope.
+Set the map application scope to **Shift Planning**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/set-map-application-scope.md).
 
 Role required: admin
 

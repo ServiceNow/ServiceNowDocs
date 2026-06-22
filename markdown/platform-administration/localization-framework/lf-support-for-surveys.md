@@ -30,7 +30,7 @@ The extension of the Localization Framework capabilities to surveys enables you 
 -   Approve and publish the translated content.
 -   Monitor the overall localization health of the surveys from the [Localization Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-insights-dashboard.md).
 
-For more information on requesting and editing translation for surveys, see Request translations for surveys and Edit translations for surveys.
+For more information on requesting and editing translation for surveys, see [Request translations for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/request-translations-for-surveys.md) and [Edit translations for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/edit-translations-for-surveys.md).
 
 **Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/exploring-localization-framework.md)
 

@@ -20,7 +20,7 @@ When you create a page in UI Builder, you have the option to create a page from 
 
 ## UI Builder terminology
 
-The following table describes the UI Builder terminology around workspace experiences, pages and page variants, and page templates. For more information about UI Builder terminology, see the UI Builder glossary.
+The following table describes the UI Builder terminology around workspace experiences, pages and page variants, and page templates. For more information about UI Builder terminology, see the [UI Builder glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-glossary.md).
 
 <table id="table_spj_stk_1bc"><thead><tr><th>
 
@@ -32,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Workspace experience
+[Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-workspace-settings.md)
 
 </td><td>
 
@@ -42,7 +42,7 @@ A workspace experience resides at a specific URL. When an admin creates a worksp
 
 </td></tr><tr><td>
 
-Page collection
+[Page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/page-collections.md)
 
 </td><td>
 
@@ -94,7 +94,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Create a page from scratch
+[Create a page from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/create-page.md)
 
 </td><td>
 
@@ -102,7 +102,7 @@ When you create a page from scratch, you start with a blank page and select layo
 
 </td></tr><tr><td>
 
-Create a page from a template
+[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/reuse-page-definitions.md)
 
 </td><td>
 
@@ -116,7 +116,7 @@ For example, when you create a page from the Front-line case page template, the 
 
 </td></tr><tr><td>
 
-Create a page variant
+[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/create-variant.md)
 
 </td><td>
 
@@ -128,7 +128,7 @@ By creating a page variant, you can target an experience for a specific audience
 -   The conditions determine when a page is shown. For example, you can add a condition for records from a specific table, such as the Case table.
 
 </td></tr></tbody>
-</table>For more information about customizing record pages, see Manage UI Builder pages and page variants.
+</table>For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/work-pages.md).
 
 **Note:** If a page is modified after page variants have been created, the changes to the page do not sync with the variants. These changes must be made manually.
 

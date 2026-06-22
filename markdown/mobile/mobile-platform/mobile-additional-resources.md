@@ -114,7 +114,7 @@ Release notes
 
 </td><td>
 
-
+[Mobile Platform release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/mobile-rn.md)
 
 </td></tr><tr><td>
 

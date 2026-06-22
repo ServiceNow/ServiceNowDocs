@@ -33,15 +33,15 @@ Role required: sn\_si\_int\_kit.integration\_creator
 
 3.  Select **API type**.
 
-<table id="choicetable_g42_4hf_ngc"><thead><tr><th align="left" id="d70729e103">
+<table id="choicetable_g42_4hf_ngc"><thead><tr><th align="left" id="d70756e103">
 
 Option
 
-</th><th align="left" id="d70729e106">
+</th><th align="left" id="d70756e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d70729e112">
+</th></tr></thead><tbody><tr><td id="d70756e112">
 
 **Choose new API**
 
@@ -76,7 +76,7 @@ You can modify the script if necessary.
 7.  To add multiple APIs, select the **+** icon and repeat from step 2.
 
 
-</td></tr><tr><td id="d70729e219">
+</td></tr><tr><td id="d70756e219">
 
 **Choose from existing API**
 

@@ -49,7 +49,7 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platcap.c_NumberGroups]
+[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/notify/c_NumberGroups.md)
 
-[bundle-platcap.t_ConfigureNotifyWithTwilio]
+[Configure Notify with\\n Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
 

@@ -30,7 +30,7 @@ Adds a single term to the list query filter.
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|String|Encoded query string in standard Glide format. See Encoded query strings.|
+|filter|String|Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|
@@ -533,7 +533,7 @@ Sets the encoded query string for the list, ignoring the **orderBy** and **group
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|String|Encoded query string in standard Glide format. See Encoded query strings.|
+|filter|String|Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|

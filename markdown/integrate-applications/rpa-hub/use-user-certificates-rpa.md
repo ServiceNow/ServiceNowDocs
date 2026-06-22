@@ -95,15 +95,15 @@ Generate a code signing certificate for publishing an automation project from RP
 
 9.  Generate a user certificate.
 
-<table id="choicetable_xwg_ksg_q2c"><thead><tr><th align="left" id="d156763e362">
+<table id="choicetable_xwg_ksg_q2c"><thead><tr><th align="left" id="d151877e362">
 
 Certificate type
 
-</th><th align="left" id="d156763e365">
+</th><th align="left" id="d151877e365">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d156763e371">
+</th></tr></thead><tbody><tr><td id="d151877e371">
 
 **mTLS authentication for client certificate**
 
@@ -125,7 +125,7 @@ Steps
 7.  Select **OK**.
 
 
-</td></tr><tr><td id="d156763e450">
+</td></tr><tr><td id="d151877e450">
 
 **Code signing certificate**
 
@@ -188,11 +188,11 @@ Steps
 
 ### What to do next
 
-Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see Activate the certificate-based authentication.
+Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see [Activate the certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
 
-Register user-generated client authentication certificate to make it available for authentication. For more information, see Register the CA certificate.
+Register user-generated client authentication certificate to make it available for authentication. For more information, see [Register the CA certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
 
-Map the user-generated client authentication certificate to the user. For more information, see Map the PEM certificate to user.
+Map the user-generated client authentication certificate to the user. For more information, see [Map the PEM certificate to user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
 
 Install the generated client authentication and code signing certificate. For more information, see [Install the user-generated certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-user-certificates-rpa.md).
 
@@ -204,11 +204,11 @@ Install the user generated \(client authentication and code signing\) certificat
 
 Generate a client authentication and a code signing certificate. For more information, see [Generate a user certificate from KeyStore Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/use-user-certificates-rpa.md).
 
-Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see Activate the certificate-based authentication.
+Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see [Activate the certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
 
-Register user-generated client authentication certificate to make it available for authentication. For more information, see Register the CA certificate.
+Register user-generated client authentication certificate to make it available for authentication. For more information, see [Register the CA certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
 
-Map the user-generated client authentication certificate to the user. For more information, see Map the PEM certificate to user.
+Map the user-generated client authentication certificate to the user. For more information, see [Map the PEM certificate to user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
 
 Role required: admin
 

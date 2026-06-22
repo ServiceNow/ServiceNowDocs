@@ -62,7 +62,7 @@ Role required: sn\_process\_optimization\_admin
 
 8.  Schedule your imports.
 
-    For detailed information, see .
+    For detailed information, see [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/integrationhub-imports.md).
 
 
 **Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/external-dataset.md)

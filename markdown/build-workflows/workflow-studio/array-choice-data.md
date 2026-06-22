@@ -91,7 +91,7 @@ Choices
 
 </td><td>
 
-Specify the choices available to select. Use the add button \(\[Omitted image "green-add-button.png"\] Alt text: Add button\) to create a choice. Each choice must have a **Name**, **Value**, and **Order**. See Choice list field type for more information about choice lists.
+Specify the choices available to select. Use the add button \(\[Omitted image "green-add-button.png"\] Alt text: Add button\) to create a choice. Each choice must have a **Name**, **Value**, and **Order**. See [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_ChoiceLists.md) for more information about choice lists.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/action-inputs-outputs.md)

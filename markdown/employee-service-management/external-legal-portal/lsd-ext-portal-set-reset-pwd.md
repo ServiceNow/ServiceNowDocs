@@ -16,5 +16,5 @@ breadcrumb: [Configuring up External Legal Service Center, External Legal Servic
 
 The Password Reset application enables an end user to reset or change a password using a self-service process.
 
-External users can reset their password on forgetting it. For more information on the password reset process configuration, see .
+External users can reset their password on forgetting it. For more information on the password reset process configuration, see [Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/password-reset/password-reset-admin-guide.md).
 

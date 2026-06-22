@@ -24,7 +24,7 @@ Role required: password\_reset\_admin
 
 1.  To integrate Password Reset with your Microsoft Entra ID, you must set up the Microsoft Entra ID spoke.
 
-    For more information about setting it up, see .
+    For more information about setting it up, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/set-up-azure.md).
 
     The Microsoft Entra ID Integration for Password Reset is integrated.
 

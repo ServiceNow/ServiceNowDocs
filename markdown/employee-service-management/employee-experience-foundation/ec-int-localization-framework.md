@@ -20,13 +20,13 @@ Configure the translation workflow to enable Content managers to request transla
 
 Role required: Admin
 
--   
--   
--   \(Optional\) Configure a translation mode, such as machine translations, send to a translation management system, send via email, or export/import: Translation modes.
+-   [Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework/activate-lf-plugin.md)
+-   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization/t_ActivateALanguage.md)
+-   \(Optional\) Configure a translation mode, such as machine translations, send to a translation management system, send via email, or export/import: [Translation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework/translation-modes.md).
 -   Create a user group to perform translation:
-    -   
-    -   Assign the `localization_fulfiller` role to the group: 
-    -   Add users to perform translation: 
+    -   [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAGroup.md)
+    -   Assign the `localization_fulfiller` role to the group: [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
+    -   Add users to perform translation: [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md)
 -   Activate the `sn_cd.enable_localization_framework_integration` system property: [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
 
 ## Procedure

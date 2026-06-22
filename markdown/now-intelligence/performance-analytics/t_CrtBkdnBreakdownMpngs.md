@@ -40,7 +40,7 @@ You can create multiple mappings for the same breakdown, enabling you to use tha
 
 4.  Do one of these actions.
 
-<table id="choicetable_vmj_4t3_twb"><tbody><tr><td id="d42454e116">
+<table id="choicetable_vmj_4t3_twb"><tbody><tr><td id="d42472e116">
 
 **Use a field to map values to elements.**
 
@@ -48,7 +48,7 @@ You can create multiple mappings for the same breakdown, enabling you to use tha
 
 Select the **Field** in the indicator source that maps to records in the breakdown. See the use of the **Category** field in [Example: Field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/example-field-mapping.md).
 
-</td></tr><tr><td id="d42454e144">
+</td></tr><tr><td id="d42472e144">
 
 **Use a script to map values to elements.**
 

@@ -50,7 +50,7 @@ The following plugins are required for the set-up of this feature with Kronos:
 -   app\_ex\_integrated\_answers
 -   com.glide.hub.action\_step.payload
 
-For more information on ServiceNow® plugins, see List of plugins
+For more information on ServiceNow® plugins, see [List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 
 **Note:** app\_ex\_integrated\_answers plugin runs with Employee Center version 26.0.1 and Employee Experience Foundation version 25.0.1. When you install the plugin, it prompts that the appropriate versions of the said applications are going to be installed.
 

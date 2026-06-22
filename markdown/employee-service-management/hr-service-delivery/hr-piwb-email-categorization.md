@@ -140,9 +140,9 @@ You can verify the integration status from **HR Administration** &gt; **HR AI Co
 **Related topics**  
 
 
-[bundle-platai.predictive-intelligence]
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
-[bundle-platai.get-started-predictive-intelligence]
+[Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md)
 
 [bundle-itsm.itsm-piwb-integ-implem-custom]
 

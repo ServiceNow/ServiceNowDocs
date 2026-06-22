@@ -84,7 +84,7 @@ To make a new query or view a list of your KPIs, click **Back**. Returning to th
 
 When you write a query, use special keywords to denote the type and range of information you are looking for, filters you want to apply, and other parameters. To see a full list of keywords and their uses, click **How can I improve my results?**.
 
-You can ask your ServiceNow AI Platform administrator to add synonyms and semantic shortcuts for keywords. For more information, see Create an NLQ synonym and Create an NLQ shortcut.
+You can ask your ServiceNow AI Platform administrator to add synonyms and semantic shortcuts for keywords. For more information, see [Create an NLQ synonym](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/natural-language-query/create-nlq-synonym.md) and [Create an NLQ shortcut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/natural-language-query/create-nlq-shortcut.md).
 
 \[Omitted image "analytics-center-keywords.png"\] Alt text: A guide you can open from the Analytics Q&amp;A dialog that explains the keywords
 

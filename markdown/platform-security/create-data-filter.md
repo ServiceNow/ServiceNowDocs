@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Use the condition builder to filter the table records their field values.
 
-    The data filter uses the same condition builder used in other parts of the platform. For details on using this interface, see Condition builder.
+    The data filter uses the same condition builder used in other parts of the platform. For details on using this interface, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
     **Important:** The **Data Filter** tab appears empty until you select a table in the **Table** field.
 
