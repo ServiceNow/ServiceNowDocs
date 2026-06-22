@@ -53,7 +53,7 @@ All users with the assigned Consumer role.
 
 </td><td>
 
-Consumers can create cases and view and edit existing cases for products that they have purchased. They can also view a list of their products. For more information see .
+Consumers can create cases and view and edit existing cases for products that they have purchased. They can also view a list of their products. For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ All consumer service agents.
 
 **Note:** A consumer service agent typically supports a specific set of products across one or more communication channels. An agent can belong to one or more agent groups.
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ All users with customer roles and access to a list of assets belonging to their 
 
 </td><td>
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ All users with an administrator role for a customer account.
 
 </td><td>
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -149,7 +149,7 @@ The customer case manager role includes the privileges of the customer role and 
 
 **Note:** The customer case manager role is not automatically added to the sn\_customerservice.contact\_role\_assignment system property. To expose this role to customer and partner administrators, navigate to **Customer Service** &gt; **Administration** &gt; **Properties** and add it to this property.
 
- For more information see .
+ For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -181,7 +181,7 @@ Customer service agents.
 
 **Note:** A customer service agent typically supports a specific set of products across one or more communication channels. An agent can belong to one or more agent groups.
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -226,7 +226,7 @@ Customer service managers, and Customer service agents with the additional respo
 
 </td><td>
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -254,7 +254,7 @@ A partner can view and edit all of the cases they have created:
 
 **Note:** If you are establishing a new relationship between a partner and a customer, the partner or partner admin does not have access to historic cases created for the customer. This is because the historic cases do not have the Partner or Partner Contact fields populated on the Case form.
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -283,7 +283,7 @@ The partner administrator can do the following:
 -   Manage users for the partner account and for customer accounts.
 -   View all of the cases created by a partner.
 
- For more information see .
+ For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -303,7 +303,7 @@ All users.
 
 </td><td>
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -323,7 +323,7 @@ All users.
 
 </td><td>
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -343,7 +343,7 @@ All users.
 
 </td><td>
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -363,7 +363,7 @@ All users.
 
 </td><td>
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -384,7 +384,7 @@ All users.
 
 </td><td>
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -405,7 +405,7 @@ All users.
 
 </td><td>
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -425,7 +425,7 @@ All users.
 
 </td><td>
 
-For more information see .
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/roles-by-product/roles-for-all-products.md)
