@@ -1,0 +1,423 @@
+---
+title: Combined Now Assist for Strategic Portfolio Management \(SPM\) release notes for upgrades from Zurich to Australia
+description: Consolidated page of all release notes for Now Assist for Strategic Portfolio Management \(SPM\) from Zurich to Australia.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforstrategicportfoliomanagementspm-release-notes.html
+release: australia
+topic_type: reference
+last_updated: "2026-06-22"
+reading_time_minutes: 6
+breadcrumb: [Products combined by family]
+---
+
+# Combined Now Assist for Strategic Portfolio Management \(SPM\) release notes for upgrades from Zurich to Australia
+
+Consolidated page of all release notes for Now Assist for Strategic Portfolio Management \(SPM\) from Zurich to Australia.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Now Assist for Strategic Portfolio Management \(SPM\) release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Zurich to Australia.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Now Assist for Strategic Portfolio Management \(SPM\) to Australia
+
+Before you upgrade to Australia, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Australia, new features were introduced for Now Assist for Strategic Portfolio Management \(SPM\).
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Schedule project insights email](https://www.servicenow.com/docs/access?context=email-project-summary-skill-pw&family=zurich&ft:locale=en-US)**
+    -   Schedule project insights email in the Configure project insights modal. The project email is emailed to the project managers and users and continues on the selected schedule that you select until the project is inactive or paused.
+    -   Schedule and instantly send the project insights email to your project managers by selecting the **Send preview** button.
+    -   Track important updates such as the delayed end dates, the status turning red, or the state updates of your projects and receive project insights email on the schedule that you select.
+    -   Select the email frequency that works for you: weekly, bi-weekly or monthly.
+    -   Monitor critical elements such as milestones, resources, projects, and project tasks.
+    -   Receive proactive, AI-based notifications when project milestones or critical tasks could lead to delays using Monitor project task agent. Use the Enable critical task alerts option from planning page to enable the project task monitor AI agent.
+    -   Choose the recipients to whom you want to send the project insights email.
+-   **[Identify similar records using Now Assist](https://www.servicenow.com/docs/access?context=identify-similar-demand-records&family=zurich&ft:locale=en-US)**
+
+Detect similar existing demand records when creating or editing a demand using the identify similar records skill. The skill compares the **Name**, **Description**, and **Business Case** fields for contextual similarity.
+
+-   **[Accelerate target creation with the target generation skill](https://www.servicenow.com/docs/access?context=generate-targets-for-goal&family=zurich&ft:locale=en-US)**
+
+Generate measurable targets from goals information and optional context with the target generation skill. The skill automatically populates key fields in the target creation form, helping teams define clear, measurable outcomes and create targets quickly.
+
+-   **[Generate acceptance criteria for stories](https://www.servicenow.com/docs/access?context=eap-generate-acceptance-criteria-for-stories&family=zurich&ft:locale=en-US)**
+
+Generate clear, consistent acceptance criteria for user stories with the acceptance criteria generation skill. By leveraging story context and predefined templates, the skill helps you align with requirements.
+
+-   **[Enhancements to Story generation](https://www.servicenow.com/docs/access?context=generate-stories-from-epics-now-assist-eap&family=zurich&ft:locale=en-US)**
+
+Use the upgraded agile story generation skill to convert epics into actionable user stories quickly. Powered by an agentic workflow, the skill analyzes epic details to recommend the optimal number of stories, enables adjustments, refines story content, and creates story records.
+
+
+-   **[Improve efficiency with refine records skill and Now Assist Context MenuSkill name is changed to Refine records](https://www.servicenow.com/docs/access?context=refine-text-with-write-planning-item-skill&family=zurich&ft:locale=en-US)**
+
+Simplify record creation and updates by using the refine records skill with Now Assist context menu. Improve record quality by enabling AI-assisted text refinement in the text fields of Product idea, Demand, Epic, Projects, Capability, Feature, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
+
+
+-   **[Configure ACLs for custom roles](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
+
+Update the ACLs for custom roles that require access to Now Assist skills.
+
+-   **[Generate and improve Docs content](https://www.servicenow.com/docs/access?context=generate-summarize-and-refine-content-of-docs-with-now-assist-spm&family=zurich&ft:locale=en-US)**
+
+Help improve your content and productivity with the ability to enter custom prompts directly in the Docs, alongside the Summarize, Elaborate, and Shorten options.
+
+Generate content with Now Assist for SPM directly in your Docs. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+
+You can interact with Now Assist directly in your Doc to create content, add context, or improve existing sections.
+
+
+-   **[New third-party AI model provider options available for Now Assist](https://www.servicenow.com/docs/access?context=ai-model-providers&family=zurich&ft:locale=en-US)**
+
+Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+
+-   **[AI-generated insights for goals](https://www.servicenow.com/docs/access?context=generate-insights-for-goal&family=australia&ft:locale=en-US)**
+
+Generate AI‑powered insights using the goal insights skill to gain predictive, actionable visibility into goal health. By analyzing the goal, goal targets, subgoals, and aligned work, the system delivers data‑driven insights that help goal owners and contributors manage risks proactively and improve goal outcomes. Insights include AI-forecasted status, confidence of achieving the goal, targets at risk, and aligned work or recommendations that have been delayed or stalled.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Australia, some changes were made to existing Now Assist for Strategic Portfolio Management \(SPM\) features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+
+
+
+-   ****
+
+-   **[ppm.ai\_project\_manager\_agent user role](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
+
+The agentic workflow, agents, and scheduled jobs are configured to run under the new ppm.ai\_project\_manager\_agent user role instead of the administrator account.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Australia, some Now Assist for Strategic Portfolio Management \(SPM\) features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Australia, some Now Assist for Strategic Portfolio Management \(SPM\) features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Now Assist for Strategic Portfolio Management \(SPM\).
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+Now Assist features are available with activation of the [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&family=zurich&ft:locale=en-US) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Now Assist for Strategic Portfolio Management \(SPM\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Now Assist for Strategic Portfolio Management \(SPM\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Now Assist for Strategic Portfolio Management \(SPM\), such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Now Assist for Strategic Portfolio Management \(SPM\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Now Assist for Strategic Portfolio Management \(SPM\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+[Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+
+-   Review changes to Now Assist usage measurement.
+
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+
+-   All Now Assist for SPM skills are activated by default.
+-   Use the identify similar records skill to find similar demands based on contextual similarity.
+-   Enable the project task monitor AI agent to autonomously monitor project tasks on the critical path of a project.
+-   Use the **Send preview** button to share a project insights email instantly.
+-   Generate measurable targets from goals information and optional context with the target generation skill.
+
+ [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+
+ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   Use the goal insights skill to generate insights for goals to gain predictive, actionable visibility into goal health.
+-   Generate a story for your epic using Now Assist.
+
+ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&family=australia&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+

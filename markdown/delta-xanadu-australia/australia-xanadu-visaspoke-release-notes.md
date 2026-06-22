@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-visaspoke-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---

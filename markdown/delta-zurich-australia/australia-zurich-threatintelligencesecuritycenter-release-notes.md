@@ -1,0 +1,514 @@
+---
+title: Combined Threat Intelligence Security Center release notes for upgrades from Zurich to Australia
+description: Consolidated page of all release notes for Threat Intelligence Security Center from Zurich to Australia.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-threatintelligencesecuritycenter-release-notes.html
+release: australia
+topic_type: reference
+last_updated: "2026-06-22"
+reading_time_minutes: 8
+breadcrumb: [Products combined by family]
+---
+
+# Combined Threat Intelligence Security Center release notes for upgrades from Zurich to Australia
+
+Consolidated page of all release notes for Threat Intelligence Security Center from Zurich to Australia.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Threat Intelligence Security Center release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Zurich to Australia.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Threat Intelligence Security Center to Australia
+
+Before you upgrade to Australia, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Australia, new features were introduced for Threat Intelligence Security Center.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Configure Threat Intelligence External Sharing](https://www.servicenow.com/docs/access?context=tisc-intel-sharing&family=zurich&ft:locale=en-US)**
+
+Take advantage of external sharing for secure, automated, and on-demand dissemination of threat intelligence using STIX 2.1 and MISP formats. Supports sharing across external agencies \(CISA, ISAC\), integrations \(SIEMs, EDRs\), TAXII-based TISC instances, and inbound intelligence from external entities.
+
+
+-   **[About Report Templates in TISC](https://www.servicenow.com/docs/access?context=tisc-report-templates&family=zurich&ft:locale=en-US)**
+
+Generate reports outside case management using base templates through a new reporting section in the Threat Intelligence Library.
+
+
+-   **[Configure custom MISP API feed](https://www.servicenow.com/docs/access?context=tisc-premium-misp&family=zurich&ft:locale=en-US)**
+
+Import events, attributes, and objects from the MISP server into the Threat Intelligence Library.
+
+
+-   **[Configure Custom Event Types for Timeline](https://www.servicenow.com/docs/access?context=tisc-config-timeline&family=zurich&ft:locale=en-US) and [Using Timeline in Investigation Canvas](https://www.servicenow.com/docs/access?context=tisc-timeline-events&family=zurich&ft:locale=en-US)**
+
+Define, visualize, and manage timeline events associated with nodes through the Investigation Canvas.
+
+
+-   **[Configure TISC add-on in Splunk](https://www.servicenow.com/docs/access?context=tisc-configure-splunk&family=zurich&ft:locale=en-US)**
+
+Include optional attributes during configuration that can be stored in the Splunk KV Store.
+
+-   **[View Premium Threat Feed for CrowdStrike](https://www.servicenow.com/docs/access?context=premium-threat-feed-for-crowdstrike&family=zurich&ft:locale=en-US)**
+
+Map CrowdStrike Indicator Malicious confidence to TISC confidence.
+
+-   **[View Threat Intel Feeds](https://www.servicenow.com/docs/access?context=base-system-threat-intel-feeds&family=zurich&ft:locale=en-US)**
+
+Map specific source values to required observable fields during import process.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Case Summarization](https://www.servicenow.com/docs/access?context=now-assist-tisc-case-summarization&family=australia&ft:locale=en-US)**
+
+Now Assist for Threat Intelligence Security Center brings generative AI capabilities directly into threat intelligence workflows.  Analysts can generate concise AI-powered summaries of threat cases, including case overview, findings, key actions taken, and recommended next steps.
+
+
+-   **[Automatic Threat Actor priority tagging](https://www.servicenow.com/docs/access?context=tisc-threat-actor-priority-tagging&family=australia&ft:locale=en-US)**
+
+Enable automatic tagging of threat actors based on their origin locations.
+
+
+-   **[Configure TISC add-on in Splunk](https://www.servicenow.com/docs/access?context=tisc-configure-splunk&family=australia&ft:locale=en-US)**
+
+TISC Add-on for Splunk Enterprise adds historical data ingestion and flexible expiration handling.
+
+
+-   **[Link nodes in the Relationship Graph](https://www.servicenow.com/docs/access?context=tisc-link-nodes&family=australia&ft:locale=en-US)**
+
+The relationship graphs show immediate relationships to the home node for quick rendering of the graph. Filters enable analysts to narrow down to specific nodes and relationships. 
+
+
+-   **[MITRE ATT&amp;CK Technique Extraction Rules](https://www.servicenow.com/docs/access?context=mitre-extraction-rules&family=australia&ft:locale=en-US)**
+
+Enhanced MITRE™ extraction rule schema to add a combined Techniques and tactics regex extraction type.
+
+
+-   **[Threat Hunting Playbook](https://www.servicenow.com/docs/access?context=tisc-threat-hunt-playbook&family=australia&ft:locale=en-US)**
+
+Threat hunting playbook is now available out of the box. Analysts can use Playbooks for case management as a guided, stage-based workflow for investigations.
+
+
+-   **[View Premium Threat Feed for CrowdStrike](https://www.servicenow.com/docs/access?context=premium-threat-feed-for-crowdstrike&family=australia&ft:locale=en-US)**
+
+Enhanced CrowdStrike premium Threat feed by adding `Malware` to the record types to ingest. Threat Actor records now link to `Malware` through `uses` and `develops` relationships, and to `Location` through `originates-from` and `targets` relationships. Report and Indicator records are linked to `Malware` through `associated-with`. Threat Actor records ingested from CrowdStrike now represent `capabilities`, `target industries`, `target regions`, `target countries`, and `origins` as structured tags rather than free-text, additional context fields. Users can use these attributes as filters.
+
+
+-   **[Have I Been Pwned integration](https://www.servicenow.com/docs/access?context=tisc-hibp-integration&family=australia&ft:locale=en-US)**
+
+Added support in TISC for Have I been pwned? \(HIBP\) observable enrichment, enabling analysts to identify whether observables have been exposed in known data breaches instances.
+
+
+-   **[Configure Tagging Rules in TISC](https://www.servicenow.com/docs/access?context=tisc-tag-rules&family=australia&ft:locale=en-US)**
+
+Introduced automated tagging of RSS feed records using configurable tagging rules to apply tags and taxonomies.
+
+
+-   **[Create a CWE record](https://www.servicenow.com/docs/access?context=tisc-create-cwe-record&family=australia&ft:locale=en-US)**
+
+Introduced CWEs as related entities with support for relationship linking.
+
+
+-   **[Create Remediations](https://www.servicenow.com/docs/access?context=tisc-create-remediation-record&family=australia&ft:locale=en-US)**
+
+Introduced remediations as related entities with support for relationship linking and added support for managing remediations.
+
+
+-   **[Create a Product](https://www.servicenow.com/docs/access?context=tisc-create-product&family=australia&ft:locale=en-US)**
+
+Introduced products as related entities with support for relationship linking.
+
+
+-   **[Create a Vendor to a Vulnerability](https://www.servicenow.com/docs/access?context=tisc-add-vendor-to-vul&family=australia&ft:locale=en-US)**
+
+Associated vendors as related entities with support for relationship linking.
+
+
+-   **[Automated creation of zero day vulnerability](https://www.servicenow.com/docs/access?context=tisc-zero-day-vuln-scenario&family=australia&ft:locale=en-US)**
+
+Automatically generate zero day vulnerability records from flagged RSS feeds with extracted and linked CPE, CWE, and CVE details for enhanced threat analysis. The catalog now includes the RSS feed for **Google Project Zero**, enabling real-time detection of emerging threats.
+
+
+-   **[Create Vulnerability Assessment from a Vulnerability](https://www.servicenow.com/docs/access?context=tisc-vul-assess&family=australia&ft:locale=en-US)**
+
+Initiate vulnerability assessments directly from identified issues for faster risk evaluation. Sample workflows and flow actions are included to automate the assessment process.
+
+
+-   **[Create Security Incident from a Vulnerability Record](https://www.servicenow.com/docs/access?context=tisc-create-security-incident&family=australia&ft:locale=en-US)**
+
+Create security incident records directly from detected vulnerabilities to expedite incident response and streamline threat management workflows.
+
+
+-   **[Enable security incidents for vulnerabilities](https://www.servicenow.com/docs/access?context=tisc-view-security-context&family=australia&ft:locale=en-US)**
+
+View vulnerabilities and related intelligence in the **TISC Context** tab of Security Incident Response Workspace, allowing analysts to quickly access risk data during investigations without navigating to separate records.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Australia, some changes were made to existing Threat Intelligence Security Center features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[\[Placeholder link text to key bundle-security.tisc-canvas-internal-intel\]](https://www.servicenow.com/docs/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
+
+Aggregate and analyze the data from internal systems through internal intelligence included in the Investigation Canvas module to help you identify potential threats more effectively.
+
+
+-   **[Import Intelligence in TISC](https://www.servicenow.com/docs/access?context=importing-threat-intelligence&family=zurich&ft:locale=en-US)**
+
+Enhanced the Import Intelligence functionality to support direct import of allow list observables.
+
+-   **[Working with Investigation Canvas](https://www.servicenow.com/docs/access?context=tisc-investigation-canvases&family=zurich&ft:locale=en-US)**
+
+The Investigation Canvas feature has been extended to include customized nodes, node relationships, and node legends, as well as the grouping and ungrouping of nodes.
+
+-   **[Investigation canvas and MITRE ATT&amp;CK](https://www.servicenow.com/docs/access?context=investigation-and-mitre&family=zurich&ft:locale=en-US)**
+
+Navigate and use the MITRE-ATT&amp;CK model within the Investigation Canvas more effectively by taking advantage of enhanced filtering options.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[MITRE ATT&amp;CK Technique Extraction Rules](https://www.servicenow.com/docs/access?context=mitre-extraction-rules&family=australia&ft:locale=en-US) and [View extracted MITRE ATT&amp;CK Techniques](https://www.servicenow.com/docs/access?context=mitre-extraction-method&family=australia&ft:locale=en-US)**
+
+Enabled MITRE-ATT&amp;CK extraction rules for RSS feed to map and associate MITRE-ATT&amp;CK techniques.
+
+
+-   **[View RSS Feeds](https://www.servicenow.com/docs/access?context=define-rss-feeds&family=australia&ft:locale=en-US)**
+
+Enhanced the RSS feed schema and parsers to support additional fields, including tags, taxonomies, status, and expiration time.
+
+
+-   **[Export intelligence data](https://www.servicenow.com/docs/access?context=tisc-export-observables&family=australia&ft:locale=en-US), [Sharing of Outbound Intelligence Records from GUI](https://www.servicenow.com/docs/access?context=tisc-create-intel-records-lib&family=australia&ft:locale=en-US), and [Add to TAXII Collections from Library List View](https://www.servicenow.com/docs/access?context=tisc-obs-add-taxii-collects&family=australia&ft:locale=en-US)**
+
+Enhanced STIX 2.1 export to include Traffic Light Protocol \(TLP\) definitions applied to intelligence objects as TLP 2.0 marking definition objects. For more information, see [Marking Definition](https://www.servicenow.com/docs/access?context=marking-definition&family=australia&ft:locale=en-US).
+
+
+-   **[System properties for TISC Reports](https://www.servicenow.com/docs/access?context=reports-system-properties&family=australia&ft:locale=en-US)**
+
+The system property `sn_sec_tisc.reporting.email_template_sn_sec_tisc_case` is no longer supported in TISC. It has been renamed to `sn_sec_tisc.default_report_email_template`, effective with the latest release.
+
+
+-   **[Configure custom MISP API feed](https://www.servicenow.com/docs/access?context=tisc-premium-misp&family=australia&ft:locale=en-US)**
+
+Enhanced MISP API feed ingestion to handle events when the published timestamp is greater than the modified timestamp.
+
+
+-   **[Define Vulnerability](https://www.servicenow.com/docs/access?context=define-vulnerability&family=australia&ft:locale=en-US) and [Access the Vulnerability Entities](https://www.servicenow.com/docs/access?context=access-the-vulnerability-entities&family=australia&ft:locale=en-US)**
+
+Enhanced the vulnerability schema to support additional vulnerability intelligence fields related to CVSS scoring, exploit details, and remediation information.
+
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Australia, some Threat Intelligence Security Center features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Australia, some Threat Intelligence Security Center features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Threat Intelligence Security Center.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Threat Intelligence Security Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Threat Intelligence Security Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Threat Intelligence Security Center, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   ****
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Threat Intelligence Security Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Threat Intelligence Security Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich
+
+</td><td>
+
+-   External sharing is now generally available, allowing secure and automated sharing of threat intelligence in STIX 2.1 and MISP formats.
+-   Redesigned the Investigation Canvas with activity timelines, added internal intelligence, improved node design and interactions, enhanced related records to retrieve all the associated records, and upgraded the MITRE card with filter capabilities for a smoother experience.
+-   Introduced the ability to import events directly from the MISP server.
+-   Implemented a unified mapping experience for the text based feeds such as TEXT, CSV, and JSON import formats.
+-   Implemented confidence mapping for the CrowdStrike \(CS\) Feed as part of additional settings. You can now map the malicious confidence levels of CrowdStrike indicators to the observable confidence values.
+
+ See [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   Introduced Now Assist Case Summarization skill that analysts can use to generate concise, AI-based case summaries.
+-   Added playbooks support in Case Management, giving analysts a guided, stage-based workflow for investigations.
+-   Added historical data ingestion and flexible expiration handling to TISC Add-on for Splunk Enterprise. 
+-   Enhanced MITRE Extraction rule schema to add a combined Techniques and Tactics regex extraction type.
+-   Enhanced Relationship Graph with filtering support and performance improvements.
+-   Enhanced CrowdStrike feed to support ingestion of malwares.
+
+ See [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&family=australia&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+
