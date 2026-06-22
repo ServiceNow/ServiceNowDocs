@@ -87,6 +87,8 @@ Logik.ai 2026/03/13 release notes include new enhancements and bug fixes.
 Logik.ai is a high-performance Commerce Logic Engine that complements Salesforce CPQ and eCommerce applications. This document outlines everything you need to know about new features and fixes made in the upcoming Logik.ai release.
 -   **[Logik.ai 2026/06/05 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-06-05-.md)**  
 Logik.ai is a high-performance Commerce Logic Engine that complements Salesforce CPQ and eCommerce applications. This document outlines everything you need to know about new features and fixes made in the upcoming Logik.ai release.
+-   **[Logik.ai 2026/06/19 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-06-19-.md)**  
+Logik.ai is a high-performance Commerce Logic Engine that complements Salesforce CPQ and eCommerce applications. This document outlines everything you need to know about new features and fixes made in the upcoming Logik.ai release.
 
 **Parent Topic:**[OOB Other release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/sn-oob-rn.md)
 
